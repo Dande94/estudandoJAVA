@@ -1,0 +1,871 @@
+1
+00:00:00,220 --> 00:00:07,290
+Pessoal agora nós vamos testar a nossa inserção na nossa primeira entidade e para isso eu vou criar
+
+2
+00:00:07,590 --> 00:00:14,460
+aqui uma nova classe e essa classe vai fazer parte do pacote não vai ser o modelo básico mas vai ser
+
+3
+00:00:14,980 --> 00:00:22,520
+esse ponto básico e aqui o nome da classe vai ser novo.
+
+4
+00:00:22,790 --> 00:00:29,280
+O usuário tem a classe usuária agora nós vamos fazer aqui um novo usuário pra isso eu vou criar um método
+
+5
+00:00:29,700 --> 00:00:38,070
+e algo maximizar a tela e nós vamos precisar interagir com algumas outras classes do JP aqui é a parte
+
+6
+00:00:38,070 --> 00:00:40,350
+que realmente faz o crude.
+
+7
+00:00:40,350 --> 00:00:46,500
+Uma coisa é você ter a classe que faz o mapeamento que seguram os dados e que esses dados no mundo orientado
+
+8
+00:00:46,500 --> 00:00:52,140
+a objeto vai ser mapeado pra comandos SQL ou seja vai se inserir em tabelas do banco de dados.
+
+9
+00:00:52,140 --> 00:00:57,280
+Outra coisa é você ter que chamasse classes que realmente vai ter o metro e inseri o metro de altura
+
+10
+00:00:57,280 --> 00:00:59,550
+ao metro de consultar certo.
+
+11
+00:00:59,580 --> 00:01:05,250
+Isso não padrão do activo o acordo vai ser embutido dentro da herança e você recebe como herança mas
+
+12
+00:01:05,250 --> 00:01:09,810
+aqui no caso a gente vai usar isso a partir de algumas outras classes do JP.
+
+13
+00:01:09,890 --> 00:01:18,440
+Faz nos precisar trabalhar com dois objetos um objeto eu chamo de mini encher o que é o ente TMN.
+
+14
+00:01:18,720 --> 00:01:25,980
+O engenheiro é o gerente das entidades e quem são as entidades são as nossas classes que estão mapeadas
+
+15
+00:01:25,980 --> 00:01:32,140
+na capital on line a partir de anotações que estão mapeados para tabelas do banco de dados.
+
+16
+00:01:32,520 --> 00:01:36,610
+Então a gente sabe que o usuário é uma entidade.
+
+17
+00:01:36,990 --> 00:01:42,870
+Então nós vamos usar o investimento em geral pra que a gente consiga a partir do investimento em geral
+
+18
+00:01:42,870 --> 00:01:52,110
+ele é o responsável por inserir a entidade por alterar a entidade e exclui por consultar então em timina
+
+19
+00:01:52,110 --> 00:01:58,650
+G é o cara que vai fazer o nosso a interação com o banco de dados ele vai receber um objeto.
+
+20
+00:01:58,800 --> 00:02:05,910
+Ele vai entender que aquele objeto tem um mapeamento vai converter os dados do objeto em comandos SQL.
+
+21
+00:02:06,090 --> 00:02:11,980
+Outra coisa importante do nosso investimento é que eu já vou colocar aqui dentro da nossa classe.
+
+22
+00:02:12,510 --> 00:02:20,300
+Tim Miller percebeu que o ente menos ele é uma interface está marcada Kikuchi Win 7.
+
+23
+00:02:20,310 --> 00:02:28,320
+Por enquanto ele coloca aqui o Emmy já distanciar ele e ele vai ser o responsável por fazer a inserção
+
+24
+00:02:28,670 --> 00:02:37,080
+vai ser o que fazer alteração exclusão consulta e dentro do Ximenes também estará embutido uma conexão
+
+25
+00:02:37,080 --> 00:02:44,580
+então de certa forma o ente Minas Gerais representa uma conexão ao mesmo tempo ele representa a classe
+
+26
+00:02:44,580 --> 00:02:48,000
+que vai nos ajudar a persistir os dados no banco de dados.
+
+27
+00:02:48,010 --> 00:02:57,240
+Outra classe importante é a outra interface melhor dizendo importante vai ser o tim tim tim tim Ximena
+
+28
+00:02:57,390 --> 00:02:59,180
+Ximenes feto.
+
+29
+00:02:59,610 --> 00:03:02,270
+Qual é o papel do em geral.
+
+30
+00:03:02,340 --> 00:03:10,290
+Factory A Fábrica de gerente de identidade e o papel do eixo minas de ferro e criar ente menos porque
+
+31
+00:03:10,290 --> 00:03:11,640
+ele é o que tem essa diferença.
+
+32
+00:03:11,640 --> 00:03:16,110
+Primeiro que um ente menos ele certa forma ele vai encapsular a conexão.
+
+33
+00:03:16,190 --> 00:03:24,770
+E você pode precisar criar diferentes conexões baseados em diferentes unidades de persistência de X.
+
+34
+00:03:24,780 --> 00:03:30,610
+Agora não entendi não mas o que acontece é o seguinte imagine que você precise criar um ente Ménage
+
+35
+00:03:30,630 --> 00:03:34,940
+pra salvar os dados na base de dados do seu sistema.
+
+36
+00:03:34,970 --> 00:03:41,190
+E aí você vai ter uma unidade de persistência que vai ter as conexões com um determinado banco de dados.
+
+37
+00:03:41,190 --> 00:03:47,100
+Só que você quer criar o outro em Ximenes pra interagir com o banco de dados legado no seu sistema você
+
+38
+00:03:47,100 --> 00:03:53,940
+tem um outro banco de dados que você chamou de legado então você vai criar um outro Ximena que vai ser
+
+39
+00:03:53,940 --> 00:04:01,740
+específico pra um sistema de legado certo ou seja menos gênios ele tem encapsulado dentro dele uma conexão
+
+40
+00:04:01,740 --> 00:04:05,520
+com o banco de dados além de ele inserir alterar excluir consultar.
+
+41
+00:04:05,520 --> 00:04:12,300
+Tudo isso olhando de uma perspectiva de orientação objeto né você não vai precisar tanto lidar com SQL
+
+42
+00:04:12,300 --> 00:04:19,540
+sim e você vai lidar com a parte de orientação objeto inclusive até o SQL do JP.
+
+43
+00:04:19,920 --> 00:04:20,930
+Ele é diferente.
+
+44
+00:04:20,940 --> 00:04:27,150
+Você vai ter o JP Kelly que é um SQL voltado para o objeto e a gente vai ver um pouquinho mais dele
+
+45
+00:04:27,150 --> 00:04:33,510
+durante o curso mas o fato é que a gente tem o menos GVT que a fábrica de Palmela e que eu vou chamar
+
+46
+00:04:33,510 --> 00:04:36,530
+aqui de me f.
+
+47
+00:04:36,540 --> 00:04:39,880
+E esse cara vai ser responsável por criar o ménage.
+
+48
+00:04:39,930 --> 00:04:43,860
+Então aqui eu vou chamar menos afeto.
+
+49
+00:04:43,910 --> 00:04:44,550
+Ponto.
+
+50
+00:04:44,960 --> 00:04:52,170
+E nós vamos ter que eu criei aqui e aqui na hora de criar um ménage você até pode passar o médico os
+
+51
+00:04:52,170 --> 00:04:59,330
+valores a conexão certo você pode passar os mesmos valores que você tem aqui dentro do arquivo de configuração
+
+52
+00:04:59,350 --> 00:05:00,850
+você vai ali.
+
+53
+00:05:00,920 --> 00:05:06,510
+A partir de um parâmetro aqui na hora de criar um ménage é pra criar o Minas de Ferro.
+
+54
+00:05:06,530 --> 00:05:13,490
+Note que esses dois aqui o ménage feito ele é uma interface assim como como menos Ménage também uma
+
+55
+00:05:13,490 --> 00:05:14,610
+interface.
+
+56
+00:05:14,690 --> 00:05:22,470
+A gente não consegue distanciar interfaces então obviamente associado ao menos a gente vai ter aqui.
+
+57
+00:05:22,510 --> 00:05:25,040
+Se eu tentar abrir ele abrindo.
+
+58
+00:05:25,060 --> 00:05:32,900
+Eu não tenho na verdade esse cara mas é possível você saber quem são as classes que implementam essa
+
+59
+00:05:32,900 --> 00:05:33,650
+interface.
+
+60
+00:05:33,650 --> 00:05:38,680
+Provavelmente vai ter uma classe de benefícios que vai implementar o enchimento Jardim.
+
+61
+00:05:38,690 --> 00:05:45,650
+Para você distanciar menos de fato eu vou usar a única classe se não estou enganado e a única classe
+
+62
+00:05:45,650 --> 00:05:54,080
+do JP a persistência ou persistência ele é uma classe e está marcado com Zezinho e ele faz parte do
+
+63
+00:05:54,080 --> 00:05:59,260
+Java x ponto persistente ou seja ele é a classe padrão do JP.
+
+64
+00:05:59,660 --> 00:06:06,710
+E aqui dentro você vai criar um menu de feto e o que você precisa saber que nessa criação é o seguinte
+
+65
+00:06:06,770 --> 00:06:14,360
+até quebra aqui duas linhas você vai passar aqui para ele o nome da unidade de persistência ou em outras
+
+66
+00:06:14,360 --> 00:06:18,800
+palavras qual o banco de dados que você quer digamos assim conectar.
+
+67
+00:06:19,130 --> 00:06:25,850
+Então aqui eu vou passar o nome da unidade persistência que vai ser exercícios traço JP.
+
+68
+00:06:26,200 --> 00:06:33,890
+Estou voltando aqui vou passar exercícios traços JP criei uma fábrica de conexões lembra Dinah.
+
+69
+00:06:33,950 --> 00:06:41,560
+No capítulo passado a gente criou a deixou procurar que nós criamos uma fábrica de conexão que é uma
+
+70
+00:06:41,600 --> 00:06:48,350
+que era uma clássica encapsulado um método Gate Connection e aqui dentro eu tinha os dados específicos
+
+71
+00:06:48,350 --> 00:06:49,570
+para um banco de dados.
+
+72
+00:06:49,630 --> 00:06:55,370
+Ou seja sempre que eu queria criar uma nova conexão ele chamava a fábrica de conexão que é a mesma coisa.
+
+73
+00:06:55,370 --> 00:07:02,570
+Aqui eu tenho um antes de menos de ferro que é responsável por criar um ménage e um ménage dentro dele
+
+74
+00:07:02,570 --> 00:07:04,960
+ele encapsular coloca dentro dele a conexão.
+
+75
+00:07:04,960 --> 00:07:10,700
+Já falei pra vocês aí então ele tem dentro dele a conexão e a partir dele a gente vai fazer todo o trabalho
+
+76
+00:07:11,030 --> 00:07:12,350
+e persistência.
+
+77
+00:07:12,350 --> 00:07:20,360
+Nada mais natural do que eu passar para a Factory para a fábrica de conexões onde estão as informações
+
+78
+00:07:20,660 --> 00:07:24,890
+que ele vai precisar para abrir uma conexão com o banco de dados com o usuário.
+
+79
+00:07:24,890 --> 00:07:31,890
+Conhecem o banco de dados e todas as configurações necessárias então aqui eu passei a minha unidade
+
+80
+00:07:31,890 --> 00:07:38,870
+de persistência então crio uma fábrica de menagem específica para uma determinada unidade de persistência
+
+81
+00:07:38,880 --> 00:07:41,020
+específico para um banco de dados.
+
+82
+00:07:41,060 --> 00:07:48,740
+Se eu tiver mais de um banco de dados aí você pode criar mais de um mil de Factory pra criar diferentes
+
+83
+00:07:49,490 --> 00:07:54,410
+mini jet set que é um pouco enrolado principalmente para quem está começando mas o fato é que a gente
+
+84
+00:07:54,410 --> 00:08:00,290
+não vai se preocupar muito com esse cara e vai acabar interagindo muito com o engenheiro que é o cara
+
+85
+00:08:00,290 --> 00:08:03,190
+que vai realmente inserir os dados no banco de dados.
+
+86
+00:08:03,190 --> 00:08:05,860
+Ele vai lá e criamos aqui Ximenes.
+
+87
+00:08:05,900 --> 00:08:09,900
+O próximo passo é a gente chamar o metro que vai persistir.
+
+88
+00:08:10,010 --> 00:08:15,200
+Essa informação no banco de dados e ainda está faltando certo digamos assim.
+
+89
+00:08:15,200 --> 00:08:20,500
+A informação aqui que eu não coloquei na aula passada mas a gente vai simular o erro e depois a gente
+
+90
+00:08:20,920 --> 00:08:27,230
+corrige quer dizer que esse campo aqui vai ser um campo gerado automaticamente e nós vamos primeiro
+
+91
+00:08:27,290 --> 00:08:28,010
+simular o erro.
+
+92
+00:08:28,010 --> 00:08:30,410
+Depois a gente coloca e corrigir está.
+
+93
+00:08:30,830 --> 00:08:37,610
+Então vou ter que meu menos de o Metro que nós vamos usar para inserir um determinado objeto no banco
+
+94
+00:08:37,610 --> 00:08:38,120
+de dados.
+
+95
+00:08:38,120 --> 00:08:44,180
+Vai ser o metro que persiste e esse metro porque ele recebe um objeto obviamente é preciso criar um
+
+96
+00:08:44,180 --> 00:08:54,200
+objeto antes eu vou criar um objeto usuario chamar novo usuário recebe mil usuários já vou usar o construtor
+
+97
+00:08:54,200 --> 00:08:59,720
+padrão custo o padrão não consultou quem recebe argumentos pra colocar as informações aqui.
+
+98
+00:08:59,820 --> 00:09:08,540
+Então vou colocar aqui por exemplo Djalma e vou colocar aquele meio digital lá é um dos meus amigos
+
+99
+00:09:08,540 --> 00:09:12,030
+que vou para o lanche em todasas toda a gente.
+
+100
+00:09:12,050 --> 00:09:16,460
+No final da tarde tenho um lanche inclusive agora quatorze eu estou gravando hoje não vou peguei não.
+
+101
+00:09:16,490 --> 00:09:23,920
+Então ele faz parte do lanche está uma Coca aqui já uma boa lanchinho ponto com ponto br.
+
+102
+00:09:23,960 --> 00:09:29,780
+Depois eu vou colocar outro os outros colegas aí tem um caliente e o Rodrigo tem o André o próprio Arthur
+
+103
+00:09:29,780 --> 00:09:32,750
+aqui na empresa o pessoal da empresa que eu trabalhava lá eles estavam lá.
+
+104
+00:09:33,140 --> 00:09:34,010
+Então tem um aqui.
+
+105
+00:09:34,010 --> 00:09:41,270
+Peguei um novo usuario vou jogar aqui pro Ximena e ponto persiste passando do novo usuário legal.
+
+106
+00:09:41,270 --> 00:09:46,700
+Até aí a gente esperaria que ele fosse preciso os dados do banco de dados mais eu vou mostrar pra vocês
+
+107
+00:09:46,700 --> 00:09:53,690
+alguns coisa e no final ele pode fazer ao menos um ponto que eu vou já testar está a opção de chamar
+
+108
+00:09:53,690 --> 00:09:58,130
+aqui enche Ximena certo ponto pra fechar o menu de feto.
+
+109
+00:09:58,190 --> 00:10:04,020
+Então fiz aqui Criei muito menos afeto só para criar um engenheiro.
+
+110
+00:10:04,430 --> 00:10:09,300
+Criei um novo usuário mandei persistir no banco e fechei os dois está bom.
+
+111
+00:10:09,320 --> 00:10:15,020
+Se a gente olhar aqui no banco de dados nas tabelas nós só temos a tabela pessoas que nós criamos no
+
+112
+00:10:15,020 --> 00:10:21,260
+capítulo passado certo com os mesmos dados que a gente colocou no ano passado na capital capítulo passado
+
+113
+00:10:22,760 --> 00:10:29,110
+e agora nós vamos rodar a primeira vez com um radar você vai ver que vai ser criado uma tabela nova.
+
+114
+00:10:29,450 --> 00:10:30,880
+Eu vou rodar aqui.
+
+115
+00:10:31,120 --> 00:10:38,160
+Certo acertou Tom fez aqui uma série de execuções acabou dando uma exceção e eu vou dizer pra vocês
+
+116
+00:10:38,160 --> 00:10:44,010
+que a ação que foi dada tem a ver com a questão da geração do valor né a gente não passou nenhum o valor
+
+117
+00:10:44,520 --> 00:10:51,810
+de Aydin aqui mais para baixo e gente Generali Tracks Section né.
+
+118
+00:10:51,820 --> 00:10:59,000
+Além disso falar disso classe Marche Bimba manualmente atribuído antes de chamar o selo de eu preciso
+
+119
+00:10:59,000 --> 00:11:06,480
+Setal tal do usuário antes de mandar ele ser persistido ela até poderia fazer o seguinte usuário.
+
+120
+00:11:06,560 --> 00:11:15,320
+Ponto 7 a Audi passando aqui por exemplo agora é tentar dizer aqui você vai ver que ele vai colocar
+
+121
+00:11:15,430 --> 00:11:17,900
+um logo na primeira linha sem problema nenhum.
+
+122
+00:11:17,960 --> 00:11:24,370
+No final das contas seu olhar deu um refresh aqui algo você vai ver a tabela foi criada a tabela o usuário
+
+123
+00:11:25,760 --> 00:11:33,080
+só que se eu fizer um Selection qualquer Kill Selection asterisco pró uso.
+
+124
+00:11:33,380 --> 00:11:38,740
+Ele colocou o nome da tabela exatamente o mesmo nome da classe e você vai ver que não tem nada persistido
+
+125
+00:11:39,230 --> 00:11:42,980
+eu posso executar novamente e não vai persistir.
+
+126
+00:11:43,190 --> 00:11:50,270
+O que é que ele não vai persistir não especificou que nesse caso o persiste ele só vai realmente ter
+
+127
+00:11:50,520 --> 00:11:57,320
+a efetividade só vai realmente inserir no banco de dados se eu tiver dentro de um contexto de transação
+
+128
+00:11:57,320 --> 00:12:03,710
+é preciso ter uma transação pra daí você abrir uma transação mandar fazer as coisas e depois você faz
+
+129
+00:12:03,710 --> 00:12:10,330
+um comite muito simples antes Ménage também tem isso e mais a frente na capital eu vou criar um ideal
+
+130
+00:12:10,320 --> 00:12:17,900
+a obra encapsular essa parte mais mecânica de abril ante menos gente de criar um ménage Factory de abril
+
+131
+00:12:17,900 --> 00:12:24,470
+a uma transação fechar a transação mudar para esse fim nós vamos criar um deal usando inclusive genéricos
+
+132
+00:12:24,740 --> 00:12:29,940
+pra nos ajudar a encapsular essa complexidade do acesso a banco de dados.
+
+133
+00:12:29,990 --> 00:12:35,670
+Então aqui eu vou chamar enchimento ponto gatilho transacção.
+
+134
+00:12:35,870 --> 00:12:39,330
+Vou chamar aqui o Beto biquinho para iniciar a transação.
+
+135
+00:12:39,470 --> 00:12:48,440
+Vou mandar ele persistir logo depois vou fazer ménage e ponto Gatti transacção ponto comite.
+
+136
+00:12:48,500 --> 00:12:55,090
+Ele vai agora efetivar a transação no banco de dados isso aqui é uma sensação persiste ele vai inseri
+
+137
+00:12:55,450 --> 00:12:59,370
+lo novamente no banco de dados e outras palavras ele vai gerar o 7.
+
+138
+00:12:59,540 --> 00:13:05,700
+Por isso que na primeira vez esse comando vai funcionar então vai ataque aqui na primeira vez ele vai
+
+139
+00:13:05,700 --> 00:13:12,470
+funcionar e se mostra na consulta que foi gerado não inserido em usuário médio nome Jardim passa nos
+
+140
+00:13:12,470 --> 00:13:13,460
+valores.
+
+141
+00:13:13,460 --> 00:13:21,090
+Agora sim ele gerou um efeito no banco de dados nós temos aqui outro idioma ao meio e o nome certo.
+
+142
+00:13:21,180 --> 00:13:25,580
+Se eu tentar executar isso de novo você vai dizer que vai gerar um problema porque ele vai tentar de
+
+143
+00:13:25,580 --> 00:13:32,690
+novo fazer uma exceção só que já tem uma entrada duplicada para o áudio então ele não vai fazer isso.
+
+144
+00:13:32,690 --> 00:13:39,410
+Na verdade o que eu quero fazer é mudar o mapeamento que a gente criou na aula passada e eu vou colocar
+
+145
+00:13:39,500 --> 00:13:46,160
+que essa esse atributo não posso colocar mais uma anotação associada a um mesmo atributo eu vou querer
+
+146
+00:13:46,460 --> 00:13:53,210
+que esse atributo ele tenha uma chave gerada então vou colocar que hoje irei ter velho o valor gerado
+
+147
+00:13:53,630 --> 00:13:59,450
+significa que é assim essa chave não é esse atributo vai ser auto encaminhado então vou colocar aqui
+
+148
+00:13:59,450 --> 00:14:06,620
+e agora executar novamente e ele vai bem só deu eu coloquei o que ele gerou.
+
+149
+00:14:06,690 --> 00:14:11,900
+Tá dizendo que a chave está duplicado para tentar inserir a chave em um eixo ou tentar fazer mais uma
+
+150
+00:14:11,900 --> 00:14:14,940
+vez só pra ver se ele vai funcionar na segunda.
+
+151
+00:14:14,960 --> 00:14:16,620
+Esse também seria a chave 2.
+
+152
+00:14:16,760 --> 00:14:21,910
+Agora deu certo ele criou uma tabela no banco de dados chamada Bennett se.
+
+153
+00:14:22,160 --> 00:14:28,440
+Na verdade ele criou uma hibernação de 5 meses porquê provavelmente na tabela que eu criei usuários.
+
+154
+00:14:28,640 --> 00:14:35,990
+Ele não criou a coluna como sendo auto incremento desde o começo certo mas ele até poderia criar essa
+
+155
+00:14:35,990 --> 00:14:41,720
+tabela conseguindo o alto incremento se eu inclusive deletar essa tabela eu vou deletar aqui só para
+
+156
+00:14:41,760 --> 00:14:52,540
+achar aquele que ele funcionou executando criou usuário 2 eu vou apagar essa tabela aqui tá bom nao
+
+157
+00:14:52,660 --> 00:14:56,240
+vou dar um replay acha que vai apagar esse Benny.
+
+158
+00:14:56,240 --> 00:15:03,910
+Simples Drop bom talvez até crie essa tabela deixarei que a coisa está mais uma vez.
+
+159
+00:15:04,530 --> 00:15:07,240
+Ele vai criar para a gente o banco de dados.
+
+160
+00:15:07,270 --> 00:15:14,040
+Aí ele criou a tabela novamente e selecionou o próximo valor dentro de Beni com quais atualizou o valor.
+
+161
+00:15:14,040 --> 00:15:19,290
+E finalmente ele fez a inserção no banco de dados salvando o primeiro usuário.
+
+162
+00:15:19,350 --> 00:15:20,910
+No caso o QI.
+
+163
+00:15:21,050 --> 00:15:22,870
+O balanço pouco completo.
+
+164
+00:15:22,920 --> 00:15:28,980
+B e então para onde pessoal fizemos aqui em nosso primeiro excessão se você usa isso mais uma vez vou
+
+165
+00:15:28,980 --> 00:15:39,770
+colocar aqui por exemplo Carlos Costa aqui em São Paulo O balanço muito bem vai inserir mais o usuário
+
+166
+00:15:40,340 --> 00:15:47,610
+eu colocar André só pra gente cadastrar alguns usuários aqui.
+
+167
+00:15:47,820 --> 00:15:58,900
+André vai ser baixado com mais de 3 toca Rodrigo Rodrigo tem outros que levou achando durante o capítulo
+
+168
+00:15:58,900 --> 00:15:59,370
+7.
+
+169
+00:15:59,360 --> 00:16:05,230
+Tem o Lulu tem outras pessoas aí que fazem parte do grupo do lanche deles então aqui inseri algumas
+
+170
+00:16:05,230 --> 00:16:13,990
+outras pessoas mostraram a 1 2 3 4 está inserido e com relação ao gênero eta de velho você tem algumas
+
+171
+00:16:13,990 --> 00:16:16,720
+estratégias de geração certo.
+
+172
+00:16:16,810 --> 00:16:23,580
+Dentre as estratégias você tem o alto você tem o Identity você tem o ciclo se você tem o tempo.
+
+173
+00:16:23,740 --> 00:16:30,770
+Nesse caso a estratégia que eu quero usar aqui eu posso até já colocá la pra ficar configurado e o identifica.
+
+174
+00:16:30,860 --> 00:16:35,020
+Eu não quero um assim com isso porque é um ciclo que pode ser compartilhado com outras entidades.
+
+175
+00:16:35,440 --> 00:16:41,600
+Eu quero é dentista pra isso eu posso deletar que inclusive eu não vou deletar não porque já foi criado
+
+176
+00:16:41,610 --> 00:16:51,610
+que a tabela com os dados certo mais que o usuário vai fazer um teste para o jornal que eu era um problema.
+
+177
+00:16:51,610 --> 00:16:52,460
+Por quê.
+
+178
+00:16:52,720 --> 00:16:59,920
+Porque o campo não tem um valor de fogo então fazer o seguinte eu vou apagar aqui a tabela deixo aqui
+
+179
+00:16:59,930 --> 00:17:06,390
+um refresh voltar pra cá ou daqui um franchise que na verdade o que eu quero que seja realmente da entidade
+
+180
+00:17:06,800 --> 00:17:08,860
+eu vou tropa a tabela.
+
+181
+00:17:08,860 --> 00:17:11,520
+Usuário de drogas ou tropa.
+
+182
+00:17:11,620 --> 00:17:21,500
+A tabela é Berni sequence Drop algo que nao vou agora executar novamente pra ele que a tabela já com
+
+183
+00:17:21,530 --> 00:17:23,640
+alto incremento definido.
+
+184
+00:17:23,650 --> 00:17:27,810
+Nesse caso ele criou o Rodrigo o Selection.
+
+185
+00:17:28,300 --> 00:17:34,690
+Pronto criou o Rodrigo disse ao dar um refresh você vai ver que ele não criou a tabela e Bennett siglas
+
+186
+00:17:34,780 --> 00:17:35,480
+porquê.
+
+187
+00:17:35,650 --> 00:17:42,040
+Porque nesse caso o ator usa uma identidade seu olhar a parte de como esse banco foi criado você vai
+
+188
+00:17:42,040 --> 00:17:47,420
+ver que as colunas no caso ali foi criado como uma coluna auto incremento.
+
+189
+00:17:47,480 --> 00:17:54,270
+O que a gente acaba fazendo muitas vezes no banco de dados mais Kelly como você colocou essa opção dizendo
+
+190
+00:17:54,280 --> 00:17:58,700
+que você queria que a geração desse valor fosse o identidade.
+
+191
+00:17:58,720 --> 00:18:04,330
+Ele vai garantir que cada entidade por exemplo usuário vai ter sua própria sequência de produto vai
+
+192
+00:18:04,330 --> 00:18:10,890
+ter sua própria sequencia e disse você usar por exemplo aqui sim pois significa que ele vai compartilhar
+
+193
+00:18:10,890 --> 00:18:16,870
+e pode compartilhar uma mesma sequência com mais de uma entidade inclusive tem um outro parâmetro que
+
+194
+00:18:16,870 --> 00:18:19,630
+é exatamente o gênero que vai te ajudar nesse processo.
+
+195
+00:18:19,630 --> 00:18:25,110
+Mas eu não vou entrar muito no metro porque vai ficar um pouco mais complicado para essa aula mais introdutória
+
+196
+00:18:25,110 --> 00:18:29,230
+o fato é que a gente conseguiu inseri vou colocar rapidamente.
+
+197
+00:18:29,740 --> 00:18:34,570
+Então vou pedir para o Gabriel que é o editor já ia acelerando a mudança para São Paulo que ela está
+
+198
+00:18:34,570 --> 00:18:38,240
+apaixonada ela passou por lá muitas outras para a gente ficar por lá
+
+199
+00:18:44,660 --> 00:18:52,840
+para o pessoal que executado nós temos aqui seis pessoas cadastradas no nosso nosso banco de dados então
+
+200
+00:18:52,840 --> 00:18:58,510
+fizemos a inserção fiz algumas outras discussões sobre geração em chave tomate a gente olha como a gente
+
+201
+00:18:58,510 --> 00:19:01,330
+colocou o valor padrão por padrão.
+
+202
+00:19:01,330 --> 00:19:08,360
+Certo Ele vai usar a estratégia alto né gente boa estratégia alto que é aqui no usuário.
+
+203
+00:19:08,500 --> 00:19:15,400
+Se eu não colocar nada ele vai usar essa estratégia que ao alto que a primeira é o alto significa ele
+
+204
+00:19:15,400 --> 00:19:16,330
+vai usar assim.
+
+205
+00:19:16,330 --> 00:19:18,900
+Com isso eu criei naquela tabela Bennett ciclista.
+
+206
+00:19:19,210 --> 00:19:24,850
+Mas eu não quero isso eu quero que ele use identidade eu vou aplicar isso também para as outras entidades
+
+207
+00:19:24,850 --> 00:19:26,260
+do nosso projeto.
+
+208
+00:19:26,300 --> 00:19:32,500
+Vou criar sei lá produto vou criar outras coisas fazer relacionamentos eu vou usar todos pra se identifique
+
+209
+00:19:32,500 --> 00:19:38,020
+mais dependendo do banco você pode ter uma diferença ou outra por exemplo no caso do Porsche ele usa
+
+210
+00:19:38,030 --> 00:19:40,010
+5s isso no caso do Orkut usa cinco.
+
+211
+00:19:40,040 --> 00:19:45,160
+Então você vai querer apontar para um ciclo esse chamar um genérico para dizer qual é o nome da cinco
+
+212
+00:19:45,280 --> 00:19:47,570
+que você vai usar no banco de.
+
+213
+00:19:47,590 --> 00:19:54,970
+Outra estratégia interessante mas o mais que nós vamos usar desde então fizemos aqui a inserção de novos
+
+214
+00:19:55,060 --> 00:20:00,430
+usuários a partir do JP causando menos Factory onde menos gente.
+
+215
+00:20:00,520 --> 00:20:05,890
+Depois a gente vai pegar isso encapsulado dentro de um a obra fica mais fácil de usar mas por enquanto
+
+216
+00:20:05,890 --> 00:20:11,430
+nos próximos Exercise a gente vai colocar isso manualmente repetiu um pouco esse processo é aproximá
+
+217
+00:20:11,460 --> 00:20:17,470
+lo de espera para a gente continuar falando mais sobre o JP para aproximá las ou obter um usuário do
+
+218
+00:20:17,470 --> 00:20:19,070
+banco de dados lá.

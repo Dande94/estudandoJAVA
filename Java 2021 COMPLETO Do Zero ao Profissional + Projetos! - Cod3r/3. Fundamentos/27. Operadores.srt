@@ -1,0 +1,299 @@
+1
+00:00:00,360 --> 00:00:06,900
+Agora nós vamos entrar em sequência de aulas que eu vou falar dos operadores e existem vários operadores
+
+2
+00:00:06,960 --> 00:00:14,240
+no Java operadores aritméticos soma subtração operadores lógicos relacionais operadores unitários operadores
+
+3
+00:00:14,240 --> 00:00:14,930
+ternário.
+
+4
+00:00:14,940 --> 00:00:19,140
+Eu quero falar rapidamente sobre os operadores e me mostrar um pouquinho como é que eu vou organizar
+
+5
+00:00:19,140 --> 00:00:30,690
+os operadores e com estas nossas aulas então fala aqui aqui ao pé da Dores e eu vou separar os operadores
+
+6
+00:00:30,690 --> 00:00:34,450
+em operadores na área.
+
+7
+00:00:35,580 --> 00:00:46,030
+Na verdade cenários que se imagem nós vamos ter os operadores binários pelos operadores tornar o operador
+
+8
+00:00:46,030 --> 00:00:50,190
+ternário na verdade só é certa em Java operador ternário.
+
+9
+00:00:50,650 --> 00:00:58,390
+Então na verdade essa classificação operador na área Binary ternário tem a ver com o número de operandos
+
+10
+00:00:58,510 --> 00:01:00,210
+em cima de um determinado operador.
+
+11
+00:01:00,220 --> 00:01:06,670
+Por exemplo quando eu vou fazer uma soma uma soma ele é um operador binário.
+
+12
+00:01:06,670 --> 00:01:07,620
+Porquê.
+
+13
+00:01:07,630 --> 00:01:15,350
+Porque você tem um operador soma e você precisa por exemplo um número antes ou depois.
+
+14
+00:01:15,400 --> 00:01:24,100
+Então você tem aqui o operador que é operador de soma e você tem dois operandos operando três e o operando
+
+15
+00:01:24,100 --> 00:01:25,040
+dois.
+
+16
+00:01:25,090 --> 00:01:26,900
+A mesma coisa para a subtração.
+
+17
+00:01:26,920 --> 00:01:32,590
+Existem alguns operadores que precisam de apenas um único operador que é o que eu estou chamando de
+
+18
+00:01:32,680 --> 00:01:34,140
+operador usuário.
+
+19
+00:01:34,300 --> 00:01:39,180
+Então por exemplo se eu vou fazer eu vou falar ainda sobre isso no One específico tem uma variável a
+
+20
+00:01:39,540 --> 00:01:45,790
+e quero aplicar um incremento nessa variável eu posso colocar o Mazinho e o Marcinho se no valor dessa
+
+21
+00:01:45,790 --> 00:01:50,470
+variável tiver o número três e eu fizer um mais mais ele vai passar a quatro.
+
+22
+00:01:50,500 --> 00:01:56,890
+Se o valor dessa variável for 10 ele vai passar seu 11 ou seja vai acrescentar um valor unidade ao valor
+
+23
+00:01:56,890 --> 00:01:57,870
+dessa variável.
+
+24
+00:01:57,910 --> 00:02:04,120
+E aqui você tem um único operando em cima desse operador de incremento da mesma forma que no mais eu
+
+25
+00:02:04,120 --> 00:02:13,240
+tenho o operador sendo digamos assim usando dois operandos que é o 3 e o 2 Você tem o operador ternário
+
+26
+00:02:13,240 --> 00:02:16,430
+operador ternário é um caso especial que você tem.
+
+27
+00:02:16,540 --> 00:02:24,520
+Você tem um determinado valor aqui você tem o operando interrogação você tem o outro valor que você
+
+28
+00:02:24,520 --> 00:02:27,870
+tem dois pontos e o outro valor aqui no final.
+
+29
+00:02:27,880 --> 00:02:34,360
+Aqui no caso o operador ternário ele é composto por duas partes do operador e ele opera em cima de três
+
+30
+00:02:34,360 --> 00:02:37,780
+operandos Na verdade eu fiz o contrário aqui.
+
+31
+00:02:38,330 --> 00:02:42,950
+Então esse aqui para auxiliar padrão esse aqui é o operador.
+
+32
+00:02:43,220 --> 00:02:50,290
+E aqui você tem as três partes ou seja os três operandos e ternário que tem três operandos é binário
+
+33
+00:02:50,290 --> 00:02:54,640
+porque tem dois operandos e um Mario porque tem apenas um único operando.
+
+34
+00:02:54,640 --> 00:03:05,350
+Então nós vamos falar da sequência das aulas vamos falar sobre os operadores aritméticos vamos falar
+
+35
+00:03:05,350 --> 00:03:19,850
+sobre os operadores relacionais lá porque também eu fui aquilo ali direitinho e lá mas nós vamos falar
+
+36
+00:03:19,850 --> 00:03:22,310
+sobre os operadores lógicos.
+
+37
+00:03:23,560 --> 00:03:32,080
+Nós vamos falar sobre os operadores de atribuição a atriz está certo.
+
+38
+00:03:32,150 --> 00:03:36,260
+E aí a maioria desses operadores aqui são operadores binários.
+
+39
+00:03:36,260 --> 00:03:43,610
+Em alguns momentos apareceu o Mario e no final nós nos falar do operador ternário que é também um operador
+
+40
+00:03:43,610 --> 00:03:49,430
+de atribuição sua atribuição condicional como achar Paulo sei exatamente qual é a lógica por enquanto
+
+41
+00:03:49,430 --> 00:03:55,590
+é aula de visão geral eu falar dos operadores então soma subtração multiplicação divisão maior quem
+
+42
+00:03:55,610 --> 00:04:01,140
+é menor quem é igual diferente e tudo está dentro desse conceito dos operadores em Java certo.
+
+43
+00:04:01,160 --> 00:04:07,310
+Então quando eu falar da classificação a gente vai começar falando dos operadores binários a partir
+
+44
+00:04:07,310 --> 00:04:09,410
+dos operadores aritméticos.
+
+45
+00:04:09,410 --> 00:04:15,290
+Então quando você pensar o seguinte O operador binário é o operador que tem dois operadores o operador
+
+46
+00:04:15,290 --> 00:04:21,360
+age em cima de dois operandos vai ter situações como essa que você tem três.
+
+47
+00:04:21,440 --> 00:04:25,110
+Você tem quatro você tem cinco e você tem seis.
+
+48
+00:04:25,180 --> 00:04:29,390
+Você tem aqui por exemplo mais ou menos.
+
+49
+00:04:29,400 --> 00:04:31,170
+é uma divisão certo.
+
+50
+00:04:31,190 --> 00:04:36,270
+Nesse caso leu o operando está operando de fato em cima de um único par está.
+
+51
+00:04:36,350 --> 00:04:41,860
+Então nesse caso existiam precedência porque a divisão tem precedência sobre o resto das outras operações
+
+52
+00:04:41,870 --> 00:04:46,920
+então essa operação vai ser resolvida de tal forma que você tem esse resultado.
+
+53
+00:04:47,060 --> 00:04:52,780
+E aí depois você faz com a soma e subtração tem a mesma precedência ele vai somar esses dois valores
+
+54
+00:04:53,180 --> 00:04:54,940
+uma vez que esse resultado foi resolvido.
+
+55
+00:04:54,950 --> 00:04:57,830
+Ele vai somar os valores finais sempre de dois em dois.
+
+56
+00:04:57,870 --> 00:04:59,900
+Outra questão só pra finalizar.
+
+57
+00:04:59,900 --> 00:05:03,860
+Aqui você tem o operando que é o valor que vai ser operado.
+
+58
+00:05:03,880 --> 00:05:12,620
+Colocar aqui três cenários certo você tem a situação desenhar mais um caso você vai ter a situação que
+
+59
+00:05:12,620 --> 00:05:18,680
+o operador ele vai estar antes do operando que é a situação aqui você vai ter uma situação que o operador
+
+60
+00:05:18,680 --> 00:05:26,060
+estará depois do operando e você tem uma situação que o operador estará no meio de dois operandos.
+
+61
+00:05:26,090 --> 00:05:30,000
+Então nesse caso você tem a forma pré fixada.
+
+62
+00:05:30,050 --> 00:05:39,330
+Então coloca naquilo que é a forma pré fixada para fiz essa que é a forma como os fixa pós fixada e
+
+63
+00:05:39,380 --> 00:05:42,680
+aqui e a forma Fix certo.
+
+64
+00:05:42,890 --> 00:05:45,150
+Então dá um exemplo bem rápido só para pra gente tem ideia.
+
+65
+00:05:45,160 --> 00:05:51,110
+Cada um das situações por exemplo aqui você tem uma variável aí e você vai usar um operador de incremento
+
+66
+00:05:51,110 --> 00:05:58,760
+na forma pré fixada o operador estará antes do operador então vai ser mais mais ou seja o operador Mario
+
+67
+00:05:59,190 --> 00:06:05,620
+operava em cima de um único operando que a variável a e ele usa na forma pré fixada no outro cenário
+
+68
+00:06:05,630 --> 00:06:13,700
+você tem o app é o mais mas depois que a forma pós fixada ou seja o operador está depois do operador.
+
+69
+00:06:13,700 --> 00:06:21,170
+E finalmente quando você tem a soma de dois números 3 e 2 você tem um operador que no meio certo mais
+
+70
+00:06:21,170 --> 00:06:25,560
+você tem a forma em fios nela para adotar no meio dos dois operandos.
+
+71
+00:06:25,640 --> 00:06:29,660
+Então essa também são três formas válidas que você tem para trabalhar.
+
+72
+00:06:30,020 --> 00:06:35,880
+Lembrando que essas duas formas aqui são operadores binários e essa é a forma padrão de operadores binários.
+
+73
+00:06:35,900 --> 00:06:40,790
+Então nós vamos trabalhar nas próximas horas os operadores começando nos binários e depois falando um
+
+74
+00:06:40,780 --> 00:06:44,960
+pouquinho também do binário e do ternário então figura aqui na próxima aula a gente continua a série
+
+75
+00:06:44,960 --> 00:06:47,330
+de vídeos falando nos operadores em Java.

@@ -1,0 +1,471 @@
+1
+00:00:00,390 --> 00:00:03,060
+Agora nós vamos fazer um exemplo de fila.
+
+2
+00:00:03,100 --> 00:00:06,450
+Certo O conceito de fila é muito muito natural para todo mundo.
+
+3
+00:00:06,450 --> 00:00:10,090
+Na primeira que entrou na fila vai ser o primeiro a ser servido.
+
+4
+00:00:10,080 --> 00:00:17,510
+é exatamente esse padrão que é o festival que será implementado na fila também do Japão.
+
+5
+00:00:17,580 --> 00:00:25,210
+Então nós vamos usar aqui criar um nova classe em que eu vou chamar de fila e criar aquele método.
+
+6
+00:00:25,770 --> 00:00:32,660
+E nós vamos definir que eu a maquiagem e uma interface Java pontuou o escudo.
+
+7
+00:00:33,100 --> 00:00:40,820
+E nós vamos colocar nessa fila valores do tipo estritamente chamar de fila e nós vamos passar.
+
+8
+00:00:40,950 --> 00:00:47,670
+Mas vamos instancia algo que represente uma fila em que o Java e no Java mas temos um cara chamado LinkedIn
+
+9
+00:00:47,680 --> 00:00:53,530
+List certo o de lixo e uma fila aceita todos os metros de fila.
+
+10
+00:00:53,540 --> 00:00:57,810
+Então esse tipo de construção construção vale como falei não precisa necessariamente tem um gostinho
+
+11
+00:00:57,820 --> 00:00:59,050
+de que tá bom.
+
+12
+00:00:59,250 --> 00:01:05,820
+Então existem algumas funções na fila que pode certa forma confundir que são funções que exercem a mesma
+
+13
+00:01:05,820 --> 00:01:11,670
+o mesmo papel mas que têm comportamentos diferentes e alguns cenários uma acha para a primeira função
+
+14
+00:01:11,670 --> 00:01:13,880
+adicionar na lista de quem já está acostumado.
+
+15
+00:01:13,880 --> 00:01:20,250
+Então por exemplo na fila do banco de manhã quem chegou mais cedo foi no entorno entrou na lista e tem
+
+16
+00:01:20,250 --> 00:01:25,700
+um outro método na fila que também é responsável por adicionar ao Método Alpha certo.
+
+17
+00:01:25,770 --> 00:01:32,400
+A diferença do Método Alpha com relação ao método adicional é quando você tem filas que têm uma restrição
+
+18
+00:01:32,400 --> 00:01:33,540
+de tamanho.
+
+19
+00:01:33,540 --> 00:01:37,470
+é possível que você diga a confira tem um tamanho no máximo de 100.
+
+20
+00:01:37,470 --> 00:01:43,710
+Você quer que a fila chegue a 100 no máximo e a partir dali ele não vai depender de nenhum outro elemento
+
+21
+00:01:43,800 --> 00:01:46,410
+adicionado enquanto não for tirado da fila.
+
+22
+00:01:46,410 --> 00:01:48,650
+é possível que você tenha isso.
+
+23
+00:01:49,020 --> 00:01:51,220
+Ele vai retornar Verdadeiro ou Falso.
+
+24
+00:01:51,270 --> 00:01:55,620
+Caso ele não consiga adicionar uma fila que tem restrição ele vai retornar Falso.
+
+25
+00:01:55,620 --> 00:01:59,910
+No caso do adicionar ele pode jogar com essa ação certo.
+
+26
+00:01:59,910 --> 00:02:03,970
+Se der algum problema ele pode jogar aqui por exemplo negar o esteja certo.
+
+27
+00:02:04,200 --> 00:02:06,780
+Porque você não conseguiu adicionar um elemento na fila.
+
+28
+00:02:06,780 --> 00:02:08,340
+Aqui gera um erro.
+
+29
+00:02:08,340 --> 00:02:13,800
+Caso você tem uma fila também para definir o item tradicional que não cabem mais na fila e o de baixo
+
+30
+00:02:13,880 --> 00:02:16,460
+o Alfred ele simplesmente retorna falso.
+
+31
+00:02:16,460 --> 00:02:22,050
+Caso não consiga adicionar então são duas estratégias diferentes uns jogam igual a outro outra não vai
+
+32
+00:02:22,050 --> 00:02:24,950
+falar sobre o tratamento de erro um pouco mais na frente.
+
+33
+00:02:25,260 --> 00:02:29,250
+Então o que eu posso usar para o adicional os dois são sem problema nenhum.
+
+34
+00:02:29,250 --> 00:02:33,220
+Então coloquei que sabia depois o Carlos.
+
+35
+00:02:33,450 --> 00:02:43,360
+Depois com o que ganham depois eu coloquei ela e finalmente volta volto aqui mais um que vai ser.
+
+36
+00:02:43,770 --> 00:02:52,050
+Então posso colocar adicionar e adicionar ao todos os dois são responsáveis por adicionar a diferença
+
+37
+00:02:53,220 --> 00:03:03,550
+tanto Alfredo e adicionar vão adicionar elementos na fila.
+
+38
+00:03:03,600 --> 00:03:14,430
+Então a diferença entre um lado a fila está cheia.
+
+39
+00:03:14,880 --> 00:03:18,660
+Então no caso do adicionais vai jogar um problema essa ação.
+
+40
+00:03:18,660 --> 00:03:23,440
+No caso do Alpha eu simplesmente retorna falso e não adiciona lamento na fila.
+
+41
+00:03:23,460 --> 00:03:29,380
+Outro método extremamente importante é você pegar um elemento da fila também existem dois metros que
+
+42
+00:03:29,400 --> 00:03:38,300
+o primeiro vai ser fila ponto fixo fila ponto que é para ser mais do que o primeiro elemento da fila.
+
+43
+00:03:38,770 --> 00:03:43,790
+E se eu der um byte novamente você vai perceber que ele vai continuar retornando ok.
+
+44
+00:03:43,980 --> 00:03:47,850
+Porque ele leu o elemento da fila mas não remove esse elemento.
+
+45
+00:03:47,850 --> 00:03:50,430
+A mesma coisa vai acontecer com a tela.
+
+46
+00:03:50,520 --> 00:03:59,710
+Se você colocar aqui a fila e acessar o método ela você vai ver que ele também vai retornar ao lugar.
+
+47
+00:03:59,740 --> 00:04:06,900
+Ele também não irá removê lo da fila o que vai acontecer a diferença entre esses dois comportamentos
+
+48
+00:04:06,900 --> 00:04:08,520
+é quando a fila está vazia.
+
+49
+00:04:08,880 --> 00:04:13,160
+Então se eu comentar essas linhas aqui a minha filha não tem ninguém.
+
+50
+00:04:13,230 --> 00:04:16,160
+O caso é que vai acontecer com B e ele vai retornar nulo.
+
+51
+00:04:16,170 --> 00:04:21,270
+B Não haverá nenhum problema tentar pegar lo na lista que não existe em obter até que me dê o pr��ximo
+
+52
+00:04:21,270 --> 00:04:25,140
+da fila não tem ninguém irá tornar nulo ou seja não gera um problema.
+
+53
+00:04:25,140 --> 00:04:32,150
+Já no caso do ambiente ele vai jogar exceção na tela e que serve ou seja não tem esse elemento da lista.
+
+54
+00:04:32,150 --> 00:04:39,930
+7 Não sei se ela mente Section ou seja o comportamento dos dois vai diferir com a analista e está vazia
+
+55
+00:04:40,140 --> 00:04:42,420
+na fila melhor dizer ela está vazia.
+
+56
+00:04:42,420 --> 00:04:49,740
+Da mesma forma que o comportamento do Alfred e do adicionado vai diferenciar quando há lixo quando a
+
+57
+00:04:49,740 --> 00:04:56,770
+fila estiver cheia então a fila cheia o dicionário alfa se comporta em formas diferentes.
+
+58
+00:04:56,830 --> 00:05:08,620
+O Alpha colocar Kill lança a recepção e aqui retorna falso.
+
+59
+00:05:08,870 --> 00:05:13,330
+A mesma coisa que o pit torna
+
+60
+00:05:16,370 --> 00:05:19,100
+falso se a filha estiver vazia.
+
+61
+00:05:19,100 --> 00:05:28,160
+E no caso do ela mente ele vai lançar uma exceção se estiver vazia vou colocar aqui onde a diferença
+
+62
+00:05:28,370 --> 00:05:32,660
+é uma coisa que cima que a diferença do comportamento.
+
+63
+00:05:32,940 --> 00:05:41,960
+Corre corre corre colocar aqui outro ali de baixo quando a fila está vazia vazia.
+
+64
+00:05:42,360 --> 00:05:49,810
+E aqui a diferença de comportamento ocorre quando a fila está cheia.
+
+65
+00:05:50,220 --> 00:06:02,290
+Então foi adicionado menos na lista e o de baixa que é que vai ser o Pit Pit e o alarme.
+
+66
+00:06:02,780 --> 00:06:19,570
+Eles vão obter o próximo elemento da fila na fila sem removê la e obter o próximo elemento na fila sem
+
+67
+00:06:19,570 --> 00:06:20,100
+mover.
+
+68
+00:06:20,150 --> 00:06:27,650
+7 A diferença é isso aqui em cima o Alfa adiciona adiciona elementos na fila outros dois pares de metros
+
+69
+00:06:27,650 --> 00:06:33,350
+também que são importantes a gente conhecer além dos outros tem sais e tem um anticorpo do tipo que
+
+70
+00:06:33,350 --> 00:06:39,030
+a gente já viu no entanto fizer fizeram fila ponto cria fila.
+
+71
+00:06:39,120 --> 00:06:47,210
+Vou comentar aqui se tem outra opção que é o fila ponto s para saber se a fila está ou não vazia.
+
+72
+00:06:47,300 --> 00:06:53,010
+Certo aqui também há a possibilidade você pode usar esse teste para evitar eventualmente um caso com
+
+73
+00:06:53,290 --> 00:06:56,670
+base e tentar mover algo que não pode ser removido.
+
+74
+00:06:57,200 --> 00:07:00,310
+E finalmente nós temos fila.
+
+75
+00:07:00,310 --> 00:07:01,300
+Ponto.
+
+76
+00:07:01,470 --> 00:07:08,750
+Por que é que ele vai pegar o primeiro elemento da fila retorna e se mete na retorna o primeiro da fila
+
+77
+00:07:08,750 --> 00:07:14,010
+já removendo se chamar por aqui Ana seta no final.
+
+78
+00:07:14,180 --> 00:07:17,960
+Se eu chamar Paulo novamente vou duplicar aqui.
+
+79
+00:07:17,990 --> 00:07:25,510
+Segundo ela a fila que vai ser havia ou duplicar novamente terceiros se salvando aqui o terceiro elemento
+
+80
+00:07:25,510 --> 00:07:27,080
+vai ser o Carlos.
+
+81
+00:07:27,080 --> 00:07:35,780
+Depois do Carlos eu vou ter que o Daniel Carvalho já estava todo mundo foi removido e agora se eu chamar
+
+82
+00:07:35,780 --> 00:07:42,110
+o povo mais uma vez você vai ver que o resultado será nulo certo ou seja não tem problema chamar o Pu
+
+83
+00:07:42,140 --> 00:07:49,730
+quantas vezes eu quiser porque ele sempre vai retornar nulo assim como o Pirate Bay retornado e eu também
+
+84
+00:07:49,730 --> 00:07:56,950
+posso chamar o iMovie eu vou tirar aqui disse Systrom expus aqui adaptando tirou todo mundo ficou nulo
+
+85
+00:07:56,960 --> 00:08:04,130
+seu chamado o iMovie o removeu também faz um trabalho parecido com o do Pelicano aqui vou chamar Lima
+
+86
+00:08:05,150 --> 00:08:09,470
+ele vai remover da lista também assim como o faz o homem morreu certo.
+
+87
+00:08:09,470 --> 00:08:17,030
+O problema é que se eu chamar lhe música quando a lista estiver vazia ele vai jogar uma exceção do tipo
+
+88
+00:08:17,030 --> 00:08:27,890
+não solte ela mente Sérgio ou seja esse cara que levam anta lançam a sensação de estar aqui e o torna
+
+89
+00:08:28,190 --> 00:08:35,660
+falso com o ensino médio defensivo também e a diferença é exatamente a diferença do comportamento ocorre
+
+90
+00:08:36,090 --> 00:08:43,970
+quando a fila está vazia exceto nesse caso os dois métodos funcionam muito parecido com o outro só que
+
+91
+00:08:43,970 --> 00:08:45,670
+remove igualmente da fila.
+
+92
+00:08:45,890 --> 00:08:53,660
+Então aqui nesse caso vai ser um pouco aqui e
+
+93
+00:08:56,270 --> 00:09:04,900
+ali tem o próximo e lamentou o próximo elemento no singular o próximo e lamentou o celular aproximadamente
+
+94
+00:09:04,900 --> 00:09:06,840
+da fila sem mover.
+
+95
+00:09:06,890 --> 00:09:16,310
+Agora nesse caso é um moto top tem o próximo elemento na fila ele morre no outro caso obtém aproximadamente
+
+96
+00:09:16,320 --> 00:09:21,240
+da fila sem mover a diferença no comportamento ocorre com a fila está vazia.
+
+97
+00:09:21,350 --> 00:09:26,150
+Os outros métodos o coloca até que no final os outros métodos são muito parecidos.
+
+98
+00:09:26,150 --> 00:09:31,330
+Você vai ter de contar o tamanho da fila.
+
+99
+00:09:31,490 --> 00:09:32,980
+Você vai ter pra mim para a fila.
+
+100
+00:09:32,980 --> 00:09:39,650
+Você vai ter o excedente você vai ter também fila ponto contente para saber se um determinado objeto
+
+101
+00:09:39,740 --> 00:09:48,510
+está ou não contido coloca a pontinha em um pontinho pontinho certo vou comentar aqui.
+
+102
+00:09:48,530 --> 00:09:51,570
+Além do filho Afonso contente você tem fila.
+
+103
+00:09:51,680 --> 00:10:00,370
+Ponto adicional cria contentes fora e tinha outras coisas que vai um pouco mais à frente certo.
+
+104
+00:10:00,450 --> 00:10:04,340
+Off topic meus sites.
+
+105
+00:10:04,350 --> 00:10:10,860
+Certo A maioria 12 metros a gente já cobriu o exercício estão alguns metros a gente já tinha visto anteriormente
+
+106
+00:10:10,890 --> 00:10:15,900
+mas os principais são esses de manipular fila adicionar a meta da fila.
+
+107
+00:10:15,900 --> 00:10:17,110
+Quem é o próximo.
+
+108
+00:10:17,170 --> 00:10:22,770
+Não venha agora na hora é exatamente o PT quem é o próximo fulano mas espera fique aí que na sua vez
+
+109
+00:10:22,770 --> 00:10:29,670
+que é o pico ela mentiu pulou o amor ele pega o próximo já removido da lista e a diferença é basicamente
+
+110
+00:10:29,670 --> 00:10:34,590
+um comportamento entre o público alvo e torna falso outro anular a sessão.
+
+111
+00:10:34,650 --> 00:10:38,010
+O pior é que ela mentiu um retorno falso ou retornam a essa ação.
+
+112
+00:10:38,190 --> 00:10:44,880
+Lançam essa ação quando é chamado e ela está vazia e o dicionário mostra exatamente o contrário quando
+
+113
+00:10:44,880 --> 00:10:50,790
+você tenta adicionar uma fila que está cheia não retorna falso e o outro retorna essa ação.
+
+114
+00:10:50,790 --> 00:10:52,770
+Qual estratégia você vai usar.
+
+115
+00:10:52,800 --> 00:10:57,270
+Vai depender da lógica da sua implementação pode ser que em determinada situação não seja mais interessante
+
+116
+00:10:57,270 --> 00:10:58,380
+do que a outra estou na sala.
+
+117
+00:10:58,380 --> 00:11:01,440
+Nós vimos vários metros interessantes relacionados à fila.
+
+118
+00:11:01,440 --> 00:11:05,670
+Na próxima aulas vamos trabalhar com a pilha que ela está aqui para lá.

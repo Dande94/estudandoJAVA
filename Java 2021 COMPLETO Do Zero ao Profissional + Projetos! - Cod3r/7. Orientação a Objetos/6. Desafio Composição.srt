@@ -1,0 +1,255 @@
+1
+00:00:00,310 --> 00:00:05,370
+Pessoal quero lançar para vocês agora um desafio e eu vou mostrar para vocês aqui não é Bad mais ou
+
+2
+00:00:05,370 --> 00:00:08,040
+menos qual a modelagem desse desafio.
+
+3
+00:00:08,040 --> 00:00:12,460
+Primeiro eu quero que vocês criem um novo pacote dentro do pacote.
+
+4
+00:00:12,490 --> 00:00:14,800
+Ou vocês vão criar um pacote.
+
+5
+00:00:14,800 --> 00:00:19,600
+Ponto desafio que vai ser o primeiro desafio não dentro de ao ponto.
+
+6
+00:00:19,600 --> 00:00:25,800
+Composição você vai criar um outro pacote é chamado de desafio que vai ser um desafio especificamente
+
+7
+00:00:25,800 --> 00:00:26,880
+para essa aula.
+
+8
+00:00:26,910 --> 00:00:32,790
+Para isso e para essa parte do capítulo quem trabalhou com o uso de código a partir de composição certo
+
+9
+00:00:32,790 --> 00:00:39,630
+então você vai criar o seu pacote ao ponto de composição ponto o desafio será criar de novo e cuidar
+
+10
+00:00:39,630 --> 00:00:45,240
+para não usar a classe diferente como criar uma classe cliente vai criar uma classe que compra vai criar
+
+11
+00:00:45,240 --> 00:00:51,540
+uma classe e vai criar classes produto ou seja em vez de a gente usar o monstrinho para apresentar o
+
+12
+00:00:51,540 --> 00:00:52,940
+nome do cliente.
+
+13
+00:00:52,950 --> 00:00:58,170
+Se você apresentar o monstrinho para apresentar um produto você vai criar uma classe cliente uma classe
+
+14
+00:00:58,170 --> 00:01:04,800
+compra uma classe de classe Produto e relacionar essas classes ou seja um cliente vai ter uma lista
+
+15
+00:01:04,800 --> 00:01:10,800
+de compras e uma compra pode ter um cliente você pode fazer uma relação bidirecional aqui uma compra
+
+16
+00:01:10,800 --> 00:01:18,000
+pode ter uma lista de itens de um item pode ter uma compra e finalmente um item tem um produto um produto
+
+17
+00:01:18,000 --> 00:01:25,330
+pode estar presente em vários itens está certo que eu posso ter vários itens presentes no produto mas
+
+18
+00:01:25,330 --> 00:01:31,980
+o que eu não quero que você modela é a relação bidirecional dentro do produto não precisa ter uma lista
+
+19
+00:01:31,980 --> 00:01:38,820
+de itens mas dentro do item precisa ter um produto e na verdade você não precisa fazer nenhuma relação
+
+20
+00:01:38,820 --> 00:01:40,080
+bidirecional.
+
+21
+00:01:40,080 --> 00:01:45,450
+O cliente pode ter uma lista de compras não necessariamente você precisa colocar um cliente aqui dentro
+
+22
+00:01:46,050 --> 00:01:52,110
+uma compra pode ter uma lista de itens e aí você não precisa colocar o inverso ou seja item dentro da
+
+23
+00:01:52,110 --> 00:01:58,020
+compra e o item vai ter um produto que eu quero que vocês respondam no final eu quero que você crie
+
+24
+00:01:58,020 --> 00:02:01,360
+um método dentro do cliente que vai retornar.
+
+25
+00:02:01,380 --> 00:02:05,450
+Quanto de dinheiro esse cliente gastou nessa loja.
+
+26
+00:02:05,480 --> 00:02:10,200
+Ou seja como é que eu vou fazer para calcular qual foi o valor total gasto pelo cliente.
+
+27
+00:02:10,200 --> 00:02:16,290
+Você vai pegar todas as compras que ele fez dentro dessas compras você vai percorrer todos os itens
+
+28
+00:02:16,290 --> 00:02:23,700
+que ele executou dentro de um item vai ter um atributo aqui dentro certo que vai ser a quantidade ou
+
+29
+00:02:23,700 --> 00:02:31,050
+seja a quantidade vai estar presente dentro do item o preço vai estar presente dentro do produto então
+
+30
+00:02:31,050 --> 00:02:36,450
+o produto vai ter o preço e o produto vai ter um nome também certo só que na prata embora o nome não
+
+31
+00:02:36,450 --> 00:02:42,570
+vai servir tanto para nossa lógica o item vai ter uma relação com o produto ou seja vai ter a própria
+
+32
+00:02:42,570 --> 00:02:50,490
+classe do tipo o produto e o item vai ter também mais atenção na quantidade de quantos itens aquele
+
+33
+00:02:50,490 --> 00:02:55,370
+produto e quantos produtos foram comprados associados a esse item.
+
+34
+00:02:55,410 --> 00:03:05,660
+Uma compra vai ter apenas uma lista de itens que vão colocar entre colchetes ou item e o cliente pode
+
+35
+00:03:05,660 --> 00:03:08,160
+ter um nome também só pra ficar mais bonito.
+
+36
+00:03:08,160 --> 00:03:15,590
+O nosso exemplo é o cliente pode ter também uma lista do tipo compra certo um cliente pode ter efetuado
+
+37
+00:03:15,590 --> 00:03:19,950
+várias compras no site está muito bonito aquilo que escrevem mas dá pra entender.
+
+38
+00:03:20,120 --> 00:03:23,990
+O cliente vai ter um atributo nome e um à lista de compras.
+
+39
+00:03:23,990 --> 00:03:31,310
+A compra vai ter uma lista de itens apenas não precisa mais nada além disso a venda do item eu vou ter
+
+40
+00:03:31,310 --> 00:03:33,690
+um atributo que vai ser um item ou quantidade.
+
+41
+00:03:33,710 --> 00:03:41,540
+Você vai ter uma referência com o produto e o produto vai ter o preço e o nome prove e o cliente o objetivo
+
+42
+00:03:41,540 --> 00:03:51,630
+final vai ter um método por exemplo obter o valor total por exemplo obter o valor total o que é que
+
+43
+00:03:51,630 --> 00:03:57,820
+esse método obteve o total vai retornar ele vai retornar de todas as compras de todos os itens quanto
+
+44
+00:03:57,910 --> 00:04:02,070
+o usuário gastou e então você vai criar um cliente.
+
+45
+00:04:02,070 --> 00:04:06,620
+Você vai criar duas compras cada compra com dois itens no método principal né.
+
+46
+00:04:06,630 --> 00:04:14,610
+Além disso tudo você pode criar aqui um clássico dentro desse pacote chamado sei lá cliente teste.
+
+47
+00:04:14,790 --> 00:04:24,870
+Por exemplo o cliente tachi é nessa classe cliente teste a classe que vai ter o método Mei.
+
+48
+00:04:24,910 --> 00:04:29,030
+Aqui você cria um cliente você pode criar duas compras.
+
+49
+00:04:29,040 --> 00:04:34,920
+Cada compra tem dois itens cada item associado a produtos diferentes.
+
+50
+00:04:34,920 --> 00:04:37,740
+No final você joga os itens dentro da compra.
+
+51
+00:04:38,070 --> 00:04:41,100
+A compra associada ao cliente é a última coisa que você vai fazer.
+
+52
+00:04:41,100 --> 00:04:47,940
+Chamar um método obtém o valor total que ele vai percorrer as compras em cada compra vai percorrer os
+
+53
+00:04:47,940 --> 00:04:54,330
+itens e cada item ele vai pagar quantidade e vai olhar o preço do produto multiplicado no final vai
+
+54
+00:04:54,330 --> 00:05:00,300
+ter o valor total que aquele usuário gastou desde aquela loja seria o nível mais do que a gente acabou
+
+55
+00:05:00,300 --> 00:05:01,840
+fazendo nos exercícios.
+
+56
+00:05:02,100 --> 00:05:08,630
+Quando a gente pegou a compra e o item da compra a gente fez o valor total da compra exceto inclusive
+
+57
+00:05:08,640 --> 00:05:10,110
+você pode até quebrar em parte.
+
+58
+00:05:10,110 --> 00:05:15,510
+Você pode tentar compra querer criar um método pra ele calcular o valor total da compra.
+
+59
+00:05:15,510 --> 00:05:25,650
+Então você pode ter ideia da compra não obter o valor total fica até mais organizado total aqui e aí
+
+60
+00:05:25,710 --> 00:05:29,990
+esse método vai obter o valor total dessa compra e nem do cliente.
+
+61
+00:05:30,270 --> 00:05:36,480
+O que você precisa fazer é só percorrer as compras e obter o valor total de cada compra que o resultado
+
+62
+00:05:36,480 --> 00:05:39,550
+vai ser o valor total que ele gastou dentro do site.
+
+63
+00:05:39,570 --> 00:05:44,950
+Aqui o desenho ficou meio bagunçado mas eu acho que deu para passar a ideia aproximar o mocha a resposta
+
+64
+00:05:44,970 --> 00:05:46,200
+para vocês e até lá.

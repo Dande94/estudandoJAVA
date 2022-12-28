@@ -1,0 +1,503 @@
+1
+00:00:00,150 --> 00:00:07,500
+Agora nós vamos implementar o método sortear mina sortear Minas melhor dizendo é só para deixar claro
+
+2
+00:00:08,190 --> 00:00:14,370
+a forma como você vai implementar esse método vai depender muito e muito aberto na verdade você pode
+
+3
+00:00:14,370 --> 00:00:18,990
+ter dez programadores e os dez programadores implementarem formas diferentes.
+
+4
+00:00:18,990 --> 00:00:23,680
+Aqui eu vou mostrar uma foto de uma forma que não foi exatamente a primeira versão que eu tirei.
+
+5
+00:00:23,840 --> 00:00:25,500
+Não é um algoritmo complicado.
+
+6
+00:00:25,500 --> 00:00:31,000
+Na verdade eu comecei implementando com Laio depois acabei mudando para um do Aiko achei que ficou melhor
+
+7
+00:00:31,000 --> 00:00:31,900
+ali na lógica.
+
+8
+00:00:32,110 --> 00:00:39,090
+Mas você pode implementar as diversas formas possíveis e aqui apenas uma das formas que você pode implementar.
+
+9
+00:00:39,090 --> 00:00:46,830
+Então eu comecei definindo uma variável chamada inteira que a variável que eu chamei de Minas armadas
+
+10
+00:00:46,830 --> 00:00:50,880
+ou seja as minas que eu já distribui dentro do campo.
+
+11
+00:00:50,880 --> 00:00:58,700
+Inicialmente essa quantidade de minas armados fica a zero e eu defendia que eu parece até ser um maio
+
+12
+00:00:58,710 --> 00:00:59,590
+também sem paralelo.
+
+13
+00:00:59,600 --> 00:01:06,690
+Mas eu definia que um jogo para definir o laço que vai ficar executando até que a quantidade de minas
+
+14
+00:01:06,690 --> 00:01:09,850
+armadas seja exatamente a quantidade de minas que eu quero.
+
+15
+00:01:10,310 --> 00:01:15,990
+Então esse do bairro de Casa que também conta a quantidade de minas armadas foi menor que a quantidade
+
+16
+00:01:15,990 --> 00:01:22,370
+de minas que eu tenho é como requisito preciso opinar colocar 20 minas dentro do campo.
+
+17
+00:01:22,400 --> 00:01:27,730
+Se eu vou colocar 20 minas entre o capitão ele é a quantidade de minas armadas tem que ser exatamente
+
+18
+00:01:27,780 --> 00:01:33,600
+a mina enquanto essa quantidade é das minas que eu coloquei no cargo foi menor do que a quantidade de
+
+19
+00:01:33,600 --> 00:01:35,340
+minas que foi exigido.
+
+20
+00:01:35,340 --> 00:01:41,640
+Herbert Kaiser esse laço até o momento que essa quantidade cai igual quando ficar igual se expressar
+
+21
+00:01:41,640 --> 00:01:43,390
+é falso ele sai do método.
+
+22
+00:01:43,420 --> 00:01:48,720
+Então como esse método retorna volte tão baixo está naquele laço que é a nossa lógica estar concluída.
+
+23
+00:01:48,720 --> 00:01:53,870
+Então continuando aqui a quantidade de minas armadas a gente consegue saber isso.
+
+24
+00:01:54,090 --> 00:02:00,250
+A partir do extremo a gente consegue rapidamente saber a quantidade de minas armadas pela quantidade
+
+25
+00:02:00,250 --> 00:02:04,290
+de Campos que tem um atributo minado igual a tu.
+
+26
+00:02:04,740 --> 00:02:09,720
+Então eu posso colocar aqui Campos ponto estranho.
+
+27
+00:02:10,020 --> 00:02:17,370
+Posso aplicar aqui um filtro um filtro e aí pra isso após ocupação praticar esse predicado para não
+
+28
+00:02:17,370 --> 00:02:26,100
+ficar nessa mesma linha eu vou colocar em cima até o lucrativo criticam um interface coloca aqui o atributo
+
+29
+00:02:26,100 --> 00:02:35,370
+como sendo o campo colocado que é praticado e disseminado e eu vou colocar para se passaram para o campo
+
+30
+00:02:35,640 --> 00:02:37,440
+campo ponto examinado.
+
+31
+00:02:37,440 --> 00:02:43,220
+Não tenho esse atributo esse campo ai esse método melhor dizendo Nós criamos aqui.
+
+32
+00:02:44,280 --> 00:02:53,200
+Mas eu não criei o examinado criar aqui um atributo que coloca o público como os outros.
+
+33
+00:02:53,230 --> 00:02:54,320
+O bullying é um beta.
+
+34
+00:02:54,390 --> 00:03:02,460
+Na verdade não é um beta que eu vou criar aqueles minada e ele vai retornar verdadeiro se o campo minado
+
+35
+00:03:02,470 --> 00:03:06,820
+foi outro examinado ou outro retorna verdadeiro.
+
+36
+00:03:06,820 --> 00:03:08,460
+Caso contrário falso.
+
+37
+00:03:08,970 --> 00:03:12,610
+Então eu vou apagar o ex eliminado.
+
+38
+00:03:12,780 --> 00:03:19,920
+Então esse meu predicado vou passar comparando parâmetro que filtra e no final chamo Caltech.
+
+39
+00:03:19,980 --> 00:03:28,790
+Uma questão aqui importante é o caos ele retorna longe até um longo e eu tenho duas possibilidades que
+
+40
+00:03:28,810 --> 00:03:34,600
+eu vejo esse atributo aqui pra ser longo nessa variável local.
+
+41
+00:03:34,680 --> 00:03:41,680
+Eu faço um caixote com duas possibilidades eu preferi jogar assim que para longe fica mais interessante
+
+42
+00:03:41,690 --> 00:03:46,650
+então sempre que ele entrar no laço a primeira coisa que ele vai calcular para saber a quantidade de
+
+43
+00:03:46,650 --> 00:03:52,530
+meninas armadas a quantidade de minas armadas por igual com o Estado de Minas ele vai sair o laço logo
+
+44
+00:03:52,530 --> 00:03:53,250
+na sequência.
+
+45
+00:03:53,610 --> 00:04:00,210
+Então entrou aqui em Minas armadas campo construiu e filtra todos os campos minados calcula a quantidade
+
+46
+00:04:00,210 --> 00:04:02,340
+que tem a quantidade de minas armadas.
+
+47
+00:04:02,340 --> 00:04:11,600
+O próximo passo vai ser calcular um valor aleatório para ele selecionar um valor já que eu tenho.
+
+48
+00:04:11,610 --> 00:04:15,420
+Eu estou trabalhando com a lista eu tenho aqui um lixo de Campos.
+
+49
+00:04:15,510 --> 00:04:19,910
+Então eu posso muito bem porque aleatório sejam só por enquanto.
+
+50
+00:04:20,300 --> 00:04:24,220
+Então eu vou fazer cálculos contou Guedes.
+
+51
+00:04:24,410 --> 00:04:26,940
+O valor aleatório que eu peguei.
+
+52
+00:04:27,000 --> 00:04:30,950
+E aí eu vou simplesmente pegar esse campo minado.
+
+53
+00:04:31,600 --> 00:04:38,510
+Então Campos na verdade ponto pegando um valor aleatório pouco linear.
+
+54
+00:04:39,090 --> 00:04:45,210
+Eu tenho mais um campo minado na próxima vez que eu não fizer essa lógica aqui ele vai dizer quantos
+
+55
+00:04:45,210 --> 00:04:50,710
+campos minados como essa variável aleatória continua pagando o campo.
+
+56
+00:04:50,880 --> 00:04:52,490
+Ele vai pagar o campo de jogo.
+
+57
+00:04:52,500 --> 00:04:57,300
+Eu vou minar uma segunda vez e a quantidade campos minados que continuará sendo.
+
+58
+00:04:57,420 --> 00:05:04,860
+Ele vai ficar aqui nesse lado infinitamente Alô aleatório ele precisa ir variando dentro do meu Rei
+
+59
+00:05:04,890 --> 00:05:11,280
+para eu pagar qualquer valor possível eliminando e aí no final das contas isso aqui essa expressão passa
+
+60
+00:05:11,280 --> 00:05:17,250
+a ser falsa a partir do momento que a quantidade de minas armadas ela vai crescendo e passa ou seja
+
+61
+00:05:17,250 --> 00:05:18,120
+igual fique igual.
+
+62
+00:05:18,110 --> 00:05:24,330
+Melhor dizendo a quantidade de Minas então aqui eu preciso gerar um valor aleatório e para isso vou
+
+63
+00:05:24,330 --> 00:05:28,250
+usar aqui o chefe ponto Brandão.
+
+64
+00:05:28,260 --> 00:05:35,400
+Ele gera um valor aleatório e aqui eu vou multiplicar esse valor pelo tamanho da minha lista ao campo
+
+65
+00:05:35,420 --> 00:05:36,720
+como pessoais.
+
+66
+00:05:36,770 --> 00:05:39,440
+Eu preciso converter isso para um valor inteiro.
+
+67
+00:05:39,960 --> 00:05:46,460
+Então isso aqui já é o suficiente pra ele gerar o valor de zero até o tamanho do arroz e menos um.
+
+68
+00:05:46,620 --> 00:05:53,440
+Só que eu preciso converter isso é fazer um teste em cima disso pra gerar um valor inteiro colocar porque
+
+69
+00:05:53,450 --> 00:05:54,270
+há um monte.
+
+70
+00:05:54,930 --> 00:05:56,900
+Só que isso o não sei porquê.
+
+71
+00:05:56,910 --> 00:06:04,490
+Porque eu questiono ele tem prioridade com relação à multiplicação o que significa que ele vai pegar
+
+72
+00:06:04,620 --> 00:06:11,310
+esse ponto ainda o que é um valor entre 0 e 1 vai converter isso pra inteiro que vai dar um valor zero
+
+73
+00:06:11,750 --> 00:06:16,110
+multiplicado pelo tamanho do campo e não vai dar o que eu quero então preciso colocar um parênteses
+
+74
+00:06:16,110 --> 00:06:19,630
+aqui pra primeiro ele gerar multiplicação.
+
+75
+00:06:19,650 --> 00:06:25,560
+Ou seja o tamanho da minha lista vez o valor aleatório aí ele vai gerar um tamanho entre zero e o tamanho
+
+76
+00:06:25,560 --> 00:06:30,330
+da lista menos um só aí eu vou fazer o cache para um valor inteiro.
+
+77
+00:06:30,510 --> 00:06:35,810
+Associo essa variável aleatória e aí eu pego o campo baseado nesse e inteiro.
+
+78
+00:06:35,850 --> 00:06:41,970
+Aí eu pego o campo pagando pelo índice já que é um lixo então o índice zero o primeiro 1 2 3 e daí pego
+
+79
+00:06:42,060 --> 00:06:44,110
+o campo e aí eu chamo mina.
+
+80
+00:06:44,310 --> 00:06:50,100
+Na próxima vez ele vai chamar aqui quais são os campos minados medir a quantidade de campos minados
+
+81
+00:06:50,650 --> 00:06:56,970
+e ele vai me retornar aqui como calcular a quantidade de minas armados quando isso aqui passar a quantidade
+
+82
+00:06:56,970 --> 00:07:00,360
+de minas tendo todos os campos que eu preciso já minado.
+
+83
+00:07:00,420 --> 00:07:07,710
+O próximo passo é criar uma outra função aqui que vai definir e se o objetivo foi alcançado do mesmo
+
+84
+00:07:07,710 --> 00:07:14,370
+jeito que eu defini la no meu campo eu ter uma função chamada objetivo alcançado no ataque ao objetivo
+
+85
+00:07:14,370 --> 00:07:20,700
+alcançado o copiar jogar pra cá só que a lógica vai ser diferente obviamente esse método vai ser um
+
+86
+00:07:20,700 --> 00:07:28,110
+método público que eu preciso chamar ele fora desse pacote até porque esse é um método que disse o usuário
+
+87
+00:07:28,110 --> 00:07:33,360
+ganha ou não tá aí pra gente definir se realmente o objetivo foi alcançado ele pode fazer isso usando
+
+88
+00:07:33,360 --> 00:07:45,210
+isto como é que a gente faz isso eu vou pagar aqui campo um ponto estranho e aí nós temos o match ou
+
+89
+00:07:45,210 --> 00:07:55,360
+seja todos mete em cima de um determinado predicado qual o predicado que o campo tem o objetivo alcançado.
+
+90
+00:07:55,620 --> 00:08:00,690
+Ou seja se todos derem o médio ou seja todos os campos tem objetivo alcançado.
+
+91
+00:08:00,690 --> 00:08:06,060
+Significa que você alcançou o resultado do jogo se ganho certo então porque todos os cálculos deram
+
+92
+00:08:06,060 --> 00:08:11,610
+mete em cima de objetivo alcançado nota como é legal o uso deste nota.
+
+93
+00:08:11,640 --> 00:08:19,620
+Como isso torna o código muito mais simples ou seja parte do processamento fica interno dentro da biblioteca
+
+94
+00:08:19,620 --> 00:08:21,270
+dentro da linguagem Java.
+
+95
+00:08:21,640 --> 00:08:27,390
+Esse é um dos benefícios da programação funcional que ele está usando princípios de programação funcional
+
+96
+00:08:27,720 --> 00:08:33,900
+princípio de orientação objeto ou seja estamos aplicando aquilo que a gente viu na parte teórica nos
+
+97
+00:08:33,900 --> 00:08:39,470
+exercícios em um projeto muito mais realista com muito mais coisas interessantes para a gente está abordando.
+
+98
+00:08:39,810 --> 00:08:45,990
+Então fizemos aqui o objetivo alcançado o próximo método que eu quero fazer é um método de inicializar
+
+99
+00:08:45,990 --> 00:08:51,950
+o jogo que também vai ser algo público que o usuário pode querer jogar de novo vai do bairro em si alisa
+
+100
+00:08:52,230 --> 00:08:57,090
+o jogo basicamente inicializar o jogo e inicializar todos os campos.
+
+101
+00:08:57,090 --> 00:08:58,560
+A gente vai fazer isso aqui.
+
+102
+00:08:58,650 --> 00:09:08,010
+Esse método pode retornar bode ou chamar aqui e iniciar e nós vamos basicamente chamar a iniciar de
+
+103
+00:09:08,010 --> 00:09:09,100
+todos os campos.
+
+104
+00:09:09,170 --> 00:09:21,310
+Chamar chamar campos muito estranho vou chamar aqui for pra cada um dos campos então tem que ser corta
+
+105
+00:09:21,730 --> 00:09:32,310
+na Selic ponto inicial do jogo obviamente sem o coletivismo aqui eu não basta inicializar o jogo porque.
+
+106
+00:09:32,310 --> 00:09:40,140
+Porque quando você salas do jogo todos os campos voltam para o estado inicial ainda permanecem os mesmos
+
+107
+00:09:40,140 --> 00:09:47,910
+vizinhos ainda cada um tem sua própria posição mas vai mudar o atributo minado para falso aberto para
+
+108
+00:09:47,910 --> 00:09:53,720
+falso e marcado para falso que é preciso fazer para o jogo realmente está pronto para a inicialização
+
+109
+00:09:54,180 --> 00:10:01,820
+eu preciso chamar o método sortear Minas que nós definimos na sala chamar novamente sortear meninas
+
+110
+00:10:01,880 --> 00:10:05,000
+assistem o jogo pronto para serem socializado.
+
+111
+00:10:05,110 --> 00:10:07,400
+é a última coisa que a gente pode fazer aqui.
+
+112
+00:10:07,830 --> 00:10:14,160
+E com relação ao extremo de tão alta que o público distribuindo os tênis.
+
+113
+00:10:14,320 --> 00:10:19,400
+E aí eu vou fazer o seguinte ou vou deixar que os 30 proximal para também não ficar muito grande essa
+
+114
+00:10:19,400 --> 00:10:24,560
+sala proximal a gente vai implementar o ajuste nem como a gente vai precisar fazer muitas concatenar
+
+115
+00:10:24,560 --> 00:10:30,800
+ações para mostrar a cada um dos 12 campos e juntar esse monstrengo maior.
+
+116
+00:10:30,980 --> 00:10:36,620
+Tem uma classe muito legal que a classe extreme bio da qual você tem uma quantidade muito grande concatenar
+
+117
+00:10:36,620 --> 00:10:41,970
+ações é mesmo você fazer isso com os Triangle que não é muito bom do ponto de vista de memória o seu
+
+118
+00:10:41,960 --> 00:10:46,550
+uso o estilo de vida que ele vai ser mais consciente internamente seu core vai ficar mais otimizado
+
+119
+00:10:46,690 --> 00:10:52,190
+e até capaz que internamente já vem e faça esse tipo de otimização na hora de converter pro baixo com
+
+120
+00:10:52,250 --> 00:10:58,370
+mais o quando você tem uma quantidade grande de concatenar ações o String Bildu é muito legal ele é
+
+121
+00:10:58,370 --> 00:11:04,380
+usado e como não falei anteriormente inibiu de mostrar o uso dos Tiny Builder na próxima pra gente lamentar
+
+122
+00:11:04,390 --> 00:11:05,330
+o que o String.
+
+123
+00:11:05,640 --> 00:11:11,270
+A gente tá se encaminhando finalmente do jogo pra gente para a interface gráfica que vai ser um console
+
+124
+00:11:11,280 --> 00:11:14,780
+a partir daí vai começar a realmente ver se tudo se encaixa.
+
+125
+00:11:14,780 --> 00:11:19,790
+Então fico por aqui na próxima aula a gente vai implementar o que Justin quer na minha cabeça a última
+
+126
+00:11:19,790 --> 00:11:25,540
+coisa que a gente precisa implementar dentro da nossa classe Tabuleiro é até aproximá lo.

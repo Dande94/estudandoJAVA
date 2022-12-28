@@ -1,0 +1,519 @@
+1
+00:00:00,200 --> 00:00:06,720
+Só nós vamos agora implementar função abri e é uma chance pra vocês aqui não é praxe no jogo.
+
+2
+00:00:07,230 --> 00:00:14,910
+Quando você clica dentro de um campo Gabriel obviamente e se você clicar no campo que está minado ele
+
+3
+00:00:14,910 --> 00:00:22,230
+vai gerar uma explosão e um outro cenário também é o seguinte se você clica se o campo está marcado
+
+4
+00:00:22,280 --> 00:00:26,580
+e de certa forma fica protegido contra abertura você marca.
+
+5
+00:00:26,730 --> 00:00:32,300
+Se você tentar abri ele não vai permitir abri a não ser que você desmarque Você até poderia já abri
+
+6
+00:00:32,310 --> 00:00:38,010
+diretamente e sem necessariamente precisar desmarcar mas eu vou seguir mais ou menos a mesma lógica
+
+7
+00:00:38,010 --> 00:00:40,330
+que está aqui implementada neste jogo.
+
+8
+00:00:40,370 --> 00:00:43,200
+Então para isso eu vou fazer o seguinte eu vou criar um outro.
+
+9
+00:00:43,200 --> 00:00:51,300
+Outra observação também importante é que nós estamos usando todos os nossos atributos até agora e os
+
+10
+00:00:51,300 --> 00:00:56,790
+nossos métodos não estão como públicos porquê no primeiro momento eu acho que não vou precisar usar
+
+11
+00:00:56,790 --> 00:00:58,250
+ele fora do pacote.
+
+12
+00:00:58,500 --> 00:01:04,890
+Então nós estamos usando a visibilidade de fogo de visibilidade que garante esse método fique visível
+
+13
+00:01:04,930 --> 00:01:10,900
+apenas dentro do pacote modelo que é o pacote no qual essa classe foi definida exatamente um ponto com
+
+14
+00:01:11,000 --> 00:01:13,910
+cauda semítica ao combinar outro modelo.
+
+15
+00:01:14,220 --> 00:01:21,060
+Ou seja tem um nível de visibilidade mais restrito que visível apenas dentro do pacote que é o segundo
+
+16
+00:01:21,060 --> 00:01:23,570
+nível de visibilidade mais restrito.
+
+17
+00:01:23,790 --> 00:01:28,980
+Você tem um bichinho depois você tem visibilidade pacote por isso.
+
+18
+00:01:28,980 --> 00:01:36,540
+Por isso é importante dizer que eu estou usando a classe de teste exatamente no mesmo pacote da classe
+
+19
+00:01:36,540 --> 00:01:42,050
+campo para que eu consiga também ter acesso a esses metros que tem visibilidade de fogo.
+
+20
+00:01:42,360 --> 00:01:48,390
+Ah se eu colocasse um pacote diferente você não teria acesso a esse método então ficaria um pouco mais
+
+21
+00:01:48,390 --> 00:01:50,250
+complicado você testar a classe.
+
+22
+00:01:50,250 --> 00:01:55,650
+Então voltando aqui eu vou criar a primeira função que eu vou criar já nesse contexto de abrigo essa
+
+23
+00:01:55,690 --> 00:02:02,910
+importante vai ser essa de marcar e desmarcar você percebe que é uma alternância na alternância entre
+
+24
+00:02:02,910 --> 00:02:05,930
+a marcação então vou criar a função chamada alternar.
+
+25
+00:02:06,550 --> 00:02:20,910
+Então coloca aquela função de alternar marcação eu só posso alternar marcar a marcação de algo que está
+
+26
+00:02:20,910 --> 00:02:26,850
+fechado o campo escolhido para isso não pode estar aberto então não aberto.
+
+27
+00:02:27,220 --> 00:02:31,400
+E aqui eu vou fazer alternar a alternância dos valores.
+
+28
+00:02:31,470 --> 00:02:41,220
+Então por exemplo marcado recebe um não marcado se tiver marcado ele vai chegar e vai retornar Falso.
+
+29
+00:02:41,220 --> 00:02:46,930
+Se marcar for verdadeiro ele vai retornar Falso e marcar o falso verdadeiro.
+
+30
+00:02:46,980 --> 00:02:52,300
+Essa é a forma que você tem de alternar a marcação sempre que você chama o método.
+
+31
+00:02:52,380 --> 00:02:57,640
+O valor é trocado isso é falso vira verdadeiro baladeiro vira falso.
+
+32
+00:02:57,640 --> 00:03:04,110
+Um outro aspecto que não vou deixar para depois a gente que vai criando a lógica do abri a esse lixo
+
+33
+00:03:04,110 --> 00:03:05,110
+vai criando outras coisas.
+
+34
+00:03:05,120 --> 00:03:10,620
+Então fazer o seguinte esse aqui qualquer fora da lógica do abri porque ela vai proteger né uma vez
+
+35
+00:03:10,620 --> 00:03:16,600
+que você marque um campo e não vai permitir abri então pra isso eu vou criar um metro que retorna o
+
+36
+00:03:17,550 --> 00:03:25,230
+seu método abri o metro abri e vai ter o seguinte Por padrão ele vai retornar Falso falso significa
+
+37
+00:03:25,290 --> 00:03:29,970
+que você não abriu o campo e outro exemplo é quando você tem um carro marcado você clica eu também não
+
+38
+00:03:29,980 --> 00:03:30,550
+abri.
+
+39
+00:03:30,750 --> 00:03:33,170
+Então são os dois requisitos pra você abrir.
+
+40
+00:03:33,570 --> 00:03:35,550
+Então vou colocar aqui um trecho.
+
+41
+00:03:35,700 --> 00:03:45,610
+Se esse campo não estiver o cabo tem que estar não aberto e não marcado.
+
+42
+00:03:45,990 --> 00:03:52,290
+Se o campo tiver não aberta e não marcado aí sim você pode adaptar a lógica para abrir o campo e a primeira
+
+43
+00:03:52,290 --> 00:03:57,690
+coisa que eu vou fazer vai ser colocar a variável Bad pra verdadeiro que esse é um atributo pra dizer
+
+44
+00:03:57,690 --> 00:04:03,900
+se o campo está aberto ou não mas além disso tem outras coisas importantes outras coisas importantíssimas
+
+45
+00:04:03,910 --> 00:04:09,600
+por exemplo se você entrou aqui nesse teste que é aqui que eu vou colocar a lógica para abrir um campo.
+
+46
+00:04:09,750 --> 00:04:15,690
+Se você abre um campo esse campo está minado o que é que vai acontecer nesse momento.
+
+47
+00:04:15,690 --> 00:04:16,700
+O jogo foi perdido.
+
+48
+00:04:16,700 --> 00:04:23,220
+Se ele entrar nesse teste aqui significa que o jogo deve acabar e eu vou modelar isso da seguinte forma
+
+49
+00:04:23,370 --> 00:04:31,500
+eu vou criar essa ação ligar com o botão direito que uniu a classe e eu vou chamar aqui de explosão
+
+50
+00:04:32,800 --> 00:04:41,190
+Section e eu vou criar todas as minhas amigas as com exceções do tipo que é uma preferência pessoal
+
+51
+00:04:41,190 --> 00:04:46,980
+que eu tenho então isso também vai simplificar um pouco mais a nossa qualificação preciso ficar declarando
+
+52
+00:04:47,370 --> 00:04:53,760
+no metro proposital então vou colocar a explosão Section da antiga Antoinette Section.
+
+53
+00:04:54,220 --> 00:05:03,000
+Vou posso colocar aqui Generation serial baixo padrão que é simples aqui não vou me preocupar muito
+
+54
+00:05:03,000 --> 00:05:08,780
+com isso porque não tenho intenção de serialização classe então vou colocar só pra ele tirar essa advertência
+
+55
+00:05:08,790 --> 00:05:14,520
+mas também pode marcar com a roupa supersônica a gente usou no capítulo por enquanto não vou precisar
+
+56
+00:05:14,520 --> 00:05:21,120
+também define o construtor o construtor padrão dessa seção já será o suficiente pra funcionar aqui no
+
+57
+00:05:21,120 --> 00:05:22,050
+nosso exercício.
+
+58
+00:05:22,440 --> 00:05:29,610
+Então nesse caso quando você entra a função de abrir o campo não está marcado o cabo ou o campo não
+
+59
+00:05:29,610 --> 00:05:34,710
+está aberto ou seja o campo está fechado e o cabo não está marcado.
+
+60
+00:05:34,710 --> 00:05:38,250
+Aí sim eu vou acertar a variável aberto pra tu.
+
+61
+00:05:38,700 --> 00:05:43,980
+Vou verificar se está minado se tiver minado eu vou dar aqui um cerol.
+
+62
+00:05:44,640 --> 00:05:52,170
+Explosão que serve porque significa que ele vai então bem o processo de abertura e vai voltar para quem
+
+63
+00:05:52,170 --> 00:05:53,960
+chamou a com erro.
+
+64
+00:05:54,000 --> 00:05:59,850
+Com uma exceção não necessariamente até melhor tirar essa palavra aí ele vai retornar com uma exceção
+
+65
+00:06:00,180 --> 00:06:04,740
+e não necessariamente uma exceção significa que ocorreu um erro na sua aplicação.
+
+66
+00:06:04,750 --> 00:06:11,010
+Eventualmente você pode quebrar o fluxo de uma chamada de um método com um cenário digamos assim que
+
+67
+00:06:11,010 --> 00:06:13,850
+não é o cenário convencional convencional.
+
+68
+00:06:13,880 --> 00:06:19,380
+O usuário abriu o campo que não está minado mais eventualmente vai acontecer a exceção.
+
+69
+00:06:19,500 --> 00:06:25,050
+Quando o usuário clicar num campo minado e tentar abri ele quando abri uma exceção será gerada e você
+
+70
+00:06:25,050 --> 00:06:29,220
+vai tratar essa exceç��o como sendo o fluxo que o usuário perdeu o jogo.
+
+71
+00:06:29,580 --> 00:06:34,860
+Então aqui um exemplo que não aconteceu o erro na sua aplicação mais uma exceção foi lançado.
+
+72
+00:06:34,860 --> 00:06:38,260
+Nem sempre essa ação é sinônimo de erro.
+
+73
+00:06:38,280 --> 00:06:41,610
+às vezes é algo que faz parte da lógica da sua aplicação.
+
+74
+00:06:41,640 --> 00:06:47,390
+O fato de ele tentar abrir um campo e eu retornar Falso não significa que ela abriu um campo minado.
+
+75
+00:06:47,490 --> 00:06:52,890
+Significa que ele tentou fazer uma operação e ele não abriu por algum tipo de regra que você definiu
+
+76
+00:06:53,130 --> 00:06:59,190
+quando você clica aqui por exemplo ele abre o campo o pequeno nunca domina nem mais clique aqui.
+
+77
+00:06:59,190 --> 00:07:00,570
+Ele abriu de fato.
+
+78
+00:07:00,590 --> 00:07:06,610
+Aí sim ele retorna verdadeiro na primeira vez mas vou tentar outra vez ele vai dizer não novo abri porque
+
+79
+00:07:06,660 --> 00:07:07,860
+o campo já foi aberto.
+
+80
+00:07:07,860 --> 00:07:13,710
+Tá certo então é exatamente por isso que estou colocando aqui o verdadeiro falso e se ele ficar no campo
+
+81
+00:07:13,710 --> 00:07:16,830
+que vai gerar a bomba aí eu jogo essa ação.
+
+82
+00:07:16,830 --> 00:07:21,930
+O próximo passo é o seguinte vocês percebem eu vou zerar o jogo quando eu clique aqui.
+
+83
+00:07:21,930 --> 00:07:26,050
+Ele não abriu só aí se ele foi expandido é pra ele expandir.
+
+84
+00:07:26,080 --> 00:07:29,280
+Precisa garantir que a vizinhança esteja segura.
+
+85
+00:07:29,610 --> 00:07:35,220
+Então é preciso criar um outro método chamado vizinhança segura de o valor booleano.
+
+86
+00:07:35,580 --> 00:07:42,460
+Vou chamar aquela vizinhança segura não vou receber nenhum parâmetro.
+
+87
+00:07:42,600 --> 00:07:49,430
+E como faço para detectar se a minha vizinhança é ou não segura pra isso a gente pode usar e destruímos
+
+88
+00:07:49,440 --> 00:07:53,920
+que vai dar uma resposta muito fácil pra gente vizinhos.
+
+89
+00:07:53,960 --> 00:07:56,330
+Ponto isto é ponto.
+
+90
+00:07:56,400 --> 00:08:02,610
+E aí você pode pausar o vídeo agora e tentar descobrir que metros que a gente já viu anteriormente pode
+
+91
+00:08:02,610 --> 00:08:07,390
+nos ajudar a detectar se uma vizinhança está ou não segura.
+
+92
+00:08:07,650 --> 00:08:10,300
+O desafio proposto é pra você usar.
+
+93
+00:08:10,740 --> 00:08:20,840
+Então aqui eu vou dar o sangue vou usar o seguinte método None match ou seja nenhum vizinho pode bater
+
+94
+00:08:20,900 --> 00:08:28,470
+e pode dar um mate em cima desse predicado que eu vou passar aqui agora que é ver de vizinho ver ponto
+
+95
+00:08:28,700 --> 00:08:29,360
+minado.
+
+96
+00:08:29,790 --> 00:08:36,360
+Ou seja se nenhum vizinho mete em cima desse predicado não significa que nenhum vizinho ao meu redor
+
+97
+00:08:36,360 --> 00:08:37,650
+está minado.
+
+98
+00:08:37,650 --> 00:08:44,280
+Em outras palavras a minha vizinhança é segura e caso essa expressão aqui dê um resultado falso significa
+
+99
+00:08:44,280 --> 00:08:51,430
+que pelo menos um dos vizinhos está minado e a vizinhança em outras palavras não é segura e o resultado
+
+100
+00:08:51,480 --> 00:08:52,210
+vai dar falso.
+
+101
+00:08:52,570 --> 00:08:55,190
+Então aqui eu vou usar esse método que eu criei.
+
+102
+00:08:55,190 --> 00:09:04,110
+Se a vizinhança segura que eu vou fazer e eu vou pedir pra abri os meus vizinhos pra ele continuar o
+
+103
+00:09:04,110 --> 00:09:05,820
+processo de execução.
+
+104
+00:09:06,000 --> 00:09:12,230
+Se dentro do metro abri eu chamo o medo de abri e vi que eu estou fazendo uma chamada recursiva.
+
+105
+00:09:12,470 --> 00:09:15,950
+O metro chama a si mesmo e isso é plenamente possível.
+
+106
+00:09:16,080 --> 00:09:21,940
+Algo extremamente válido então pra eu abrir os meus vizinhos eu posso fazer aos vizinhos.
+
+107
+00:09:22,050 --> 00:09:23,850
+Ponto forte.
+
+108
+00:09:24,060 --> 00:09:30,870
+Não precisa necessariamente maus em praça Salford e aqui eu vou passar um consumir esse consumo vai
+
+109
+00:09:30,870 --> 00:09:36,240
+receber um vizinho nessa área um parâmetro e não retorna nada e eu vou chamar aqui vizinho.
+
+110
+00:09:36,240 --> 00:09:36,880
+Ponto.
+
+111
+00:09:37,470 --> 00:09:43,500
+Abri o blog então colocando aqui vizinho ponto abri ele abri todos os meus vizinhos desde que a minha
+
+112
+00:09:43,500 --> 00:09:50,370
+vizinhança seja segura e se meu vizinho também na vizinhança segura de barco de lá abrindo até ele chegar
+
+113
+00:09:50,470 --> 00:09:55,860
+meu vizinho que não pode abrir mais porque a vizinhança já não é mais segura certa o cenário que ele
+
+114
+00:09:55,860 --> 00:10:01,740
+colocou os números quando não tem o número que a vizinhança coloca o número significa que pelo menos
+
+115
+00:10:01,740 --> 00:10:06,740
+um campo ao redor desse campo tem uma mina exatamente o que está acontecendo nesse cenário que hoje
+
+116
+00:10:06,750 --> 00:10:14,330
+que tem três minas e aqui tem esse aqui tem dois e talvez aqui também tem um e aí vai tá bom então continuar
+
+117
+00:10:14,330 --> 00:10:21,380
+aqui mas só vamos abrir se tiver fechado e não tiver marcado o marco aberto com o sino verdadeiro.
+
+118
+00:10:21,540 --> 00:10:26,560
+Verifique se está minado se tiver alguma exceção caso contrário ele continua o fluxo normal não mente
+
+119
+00:10:26,590 --> 00:10:33,570
+nesse teste e eu verifique se a vizinhança segura se for segura ele vai abrir dos outros vizinhos e
+
+120
+00:10:33,930 --> 00:10:38,080
+significa que se ele chegar aqui o resultado é outro.
+
+121
+00:10:38,190 --> 00:10:45,870
+Ou seja eu retornei algo ou seja o carro realmente foi aberto nessa execução caso contrário maquiou
+
+122
+00:10:46,920 --> 00:10:56,100
+se ele caso contrário o resultado será caca demais será falso certo então o nosso próximo passo será
+
+123
+00:10:56,930 --> 00:11:03,210
+o teste para esse método Abril já que a aula já está relativamente longa e nós demoramos um certo tempo
+
+124
+00:11:03,210 --> 00:11:04,160
+para chegar aqui.
+
+125
+00:11:04,270 --> 00:11:09,900
+Eu vou na próxima aula gerar o teste para o método abrir para entender se realmente a lógica está funcionando
+
+126
+00:11:09,900 --> 00:11:10,950
+corretamente ou não.
+
+127
+00:11:11,010 --> 00:11:17,150
+Então fico por aqui na próxima aula juntos criar alguns métodos de teste para testar a função abri mentalmente
+
+128
+00:11:17,300 --> 00:11:23,370
+alguma outra função que a gente que eu apresento alterna a marcação e também a vizinhança segura acho
+
+129
+00:11:23,370 --> 00:11:28,860
+depois disso Itachi aproximá la termina essa classe e passa para a classe do tabuleiro mais por enquanto
+
+130
+00:11:28,940 --> 00:11:33,900
+tem algumas coisas ainda para a gente resolver na classe Campina próxima a gente continua até lá.

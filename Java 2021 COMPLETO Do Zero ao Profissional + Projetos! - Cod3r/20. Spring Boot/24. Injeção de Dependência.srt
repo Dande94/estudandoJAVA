@@ -1,0 +1,575 @@
+1
+00:00:00,290 --> 00:00:07,350
+Na sala eu quero falar para vocês um conceito muito importante que é o conceito de injeção de dependência
+
+2
+00:00:07,970 --> 00:00:12,090
+que é uma das possíveis formas de você tem Inversão de controle.
+
+3
+00:00:12,110 --> 00:00:20,460
+Vocês vão entender porque esse nome Inversão de controle é certo mesmo é você inverter a quem está controlando
+
+4
+00:00:20,460 --> 00:00:22,620
+digamos assim uma determinada ação.
+
+5
+00:00:22,620 --> 00:00:23,280
+Eu vou lá.
+
+6
+00:00:23,610 --> 00:00:24,830
+Imagine o seguinte sentar.
+
+7
+00:00:24,840 --> 00:00:28,870
+Nós vamos falar um pouquinho aqui de um vexame.
+
+8
+00:00:28,890 --> 00:00:36,340
+Of Control é um dos tipos e a dependência em Jackson Independência Independence injection.
+
+9
+00:00:36,360 --> 00:00:37,710
+Certo Não vou lá.
+
+10
+00:00:38,310 --> 00:00:46,890
+Imagine o seguinte cenário você tem uma classe e essa classe A precisa de uma instância da classe B
+
+11
+00:00:46,890 --> 00:00:47,700
+para funcionar.
+
+12
+00:00:47,710 --> 00:00:52,670
+Então você tem uma outra classe B e a classe A precisa da classe B.
+
+13
+00:00:52,680 --> 00:00:56,000
+Qual era a coisa mais natural que você espera nesse cenário.
+
+14
+00:00:56,010 --> 00:01:03,630
+O mais natural é a classe A não distanciar a classe B ou seja em algum momento dentro do código da classe
+
+15
+00:01:03,630 --> 00:01:06,090
+A do algorítimo definido na classe A.
+
+16
+00:01:06,190 --> 00:01:10,310
+Você vai ter alguma coisa do tipo B da classe.
+
+17
+00:01:10,610 --> 00:01:15,410
+O nome da variável B e C B.
+
+18
+00:01:15,570 --> 00:01:19,970
+B chama o construtor instancia e aqui dentro.
+
+19
+00:01:19,980 --> 00:01:24,840
+é exatamente aqui dentro dessa classe que você vai ter um código parecido com esse ou seja em outras
+
+20
+00:01:24,840 --> 00:01:33,450
+palavras quem é o responsável por obter uma instância de B e a classe alvo seja o tipo de cenário que
+
+21
+00:01:33,450 --> 00:01:40,170
+o controle da forma como todo mundo espera ou seja a classe A e B ela vai lá e vai atrás de B instancia
+
+22
+00:01:40,170 --> 00:01:42,000
+o objeto legal.
+
+23
+00:01:42,000 --> 00:01:49,280
+Só que vamos imaginar que essa classe B ela tem alguma complexidade relativamente grande pra você criar.
+
+24
+00:01:49,280 --> 00:01:55,320
+Você precisa passar uma série de parâmetros você precisa pagar ser quem sabe uma conexão com o banco
+
+25
+00:01:55,320 --> 00:02:00,630
+de dados e então é um negócio trabalhoso e chato criar a classe B.
+
+26
+00:02:00,720 --> 00:02:03,930
+Você precisa depender de outras classes para conseguir isto.
+
+27
+00:02:03,960 --> 00:02:10,500
+Se a classe B não seria mais interessante você receber uma instância de B sem se preocupar com esses
+
+28
+00:02:10,500 --> 00:02:12,930
+detalhes e essas complexidades de criar.
+
+29
+00:02:12,940 --> 00:02:18,810
+Pode até ser que a classe seja simples de criar mas se ela for simples se é legal você receber de mão
+
+30
+00:02:18,810 --> 00:02:23,800
+beijada imagine uma classe que tem uma certa complexidade para ser criada.
+
+31
+00:02:24,150 --> 00:02:31,380
+Daí surgiu a ideia de você colocar o terceiro agente responsável por criar uma instância e colocar essa
+
+32
+00:02:31,380 --> 00:02:33,010
+instância dentro de uma classe.
+
+33
+00:02:33,420 --> 00:02:42,360
+Então repetindo aqui o cenário nós temos uma classe a que precisa de uma determinada classe B em vez
+
+34
+00:02:42,360 --> 00:02:45,950
+de você fazer a simplesmente precisar de B.
+
+35
+00:02:45,960 --> 00:02:47,450
+O que é que é feito.
+
+36
+00:02:47,450 --> 00:02:55,380
+Obviamente vai ter que declarar em algum momento que PC de B então vai colocar que B do tipo B só que
+
+37
+00:02:55,380 --> 00:03:01,840
+em vez de ele fazer que a instância ação ele simplesmente vai lá e marca essa.
+
+38
+00:03:01,930 --> 00:03:06,520
+Esse atributo com arroba alto.
+
+39
+00:03:06,900 --> 00:03:12,000
+Ou seja eu quero que seja inserido uma instância desse tipo.
+
+40
+00:03:12,010 --> 00:03:13,570
+Que tipo da classe B.
+
+41
+00:03:13,620 --> 00:03:19,240
+E quem vai fazer isso quem vai fazer isso vai ser o frei Null que é responsável pela injeção de dependência.
+
+42
+00:03:19,730 --> 00:03:27,630
+Não vou colocar aqui de forma genérica blog no caso aqui a gente tá usando o experiente então experiente
+
+43
+00:03:27,660 --> 00:03:31,090
+como ele gerencia essa classe.
+
+44
+00:03:31,080 --> 00:03:34,130
+Vamos colocar essa classe a que seja um controle.
+
+45
+00:03:34,380 --> 00:03:41,720
+Então eu só venci aqui rapidinho só pra ficar um pouco mais espaço que o coloca afirmou que pra cima
+
+46
+00:03:42,030 --> 00:03:43,650
+é essa classe A.
+
+47
+00:03:43,770 --> 00:03:55,380
+Ela é um robô leste controla então por ser uma classe que já foi criada pelo Spring ou seja quem criou
+
+48
+00:03:55,490 --> 00:04:00,870
+o baixo controle e não foi a gente se você prestar atenção na nossa aplicação em nenhum momento nós
+
+49
+00:04:00,870 --> 00:04:09,290
+fizemos o produto controle oito mil cliente controla todos os controles que nós criamos foram criados
+
+50
+00:04:09,290 --> 00:04:11,800
+e distanciados pelo Spring.
+
+51
+00:04:11,970 --> 00:04:19,010
+Como foi que o Spring que esses objetos Spring foi capaz de ler o nosso código aberto a partir do Classe
+
+52
+00:04:19,010 --> 00:04:26,550
+PF ele passou com todas as classes conseguiu detectar as anotações via reflete o que é um recurso no
+
+53
+00:04:26,550 --> 00:04:33,270
+Java em que ele vai conseguir ler as anotações e lendo as anotações ele descobriu que determinadas classes
+
+54
+00:04:33,270 --> 00:04:37,070
+eram controles e que ele precisava distanciar essas classes.
+
+55
+00:04:37,290 --> 00:04:41,630
+Como o experiente é o responsável por criar um controle.
+
+56
+00:04:41,730 --> 00:04:49,260
+Ele é capaz de ler as outras anotações e vê que precisa ser injetado algum objeto para preencher um
+
+57
+00:04:49,260 --> 00:04:51,060
+determinado atributo da classe.
+
+58
+00:04:51,080 --> 00:04:55,570
+Ele só é capaz de fazer isso por conta que ele gerencia essa classe.
+
+59
+00:04:56,070 --> 00:05:03,820
+Então o fato do Spring no caso aqui não é quem está usa exemplo ele viu que esse controle foi criado
+
+60
+00:05:03,910 --> 00:05:09,430
+e que esse controle depende de uma classe B e essa classe B está marcada com o alto.
+
+61
+00:05:09,790 --> 00:05:13,500
+Ele será o responsável por procurar a classe B.
+
+62
+00:05:13,540 --> 00:05:16,000
+Ele vai gerar um instante se ele vai dar um pio.
+
+63
+00:05:16,000 --> 00:05:18,550
+B passam todos os atributos necessários.
+
+64
+00:05:18,550 --> 00:05:25,870
+Por mais complexo que seja a criação na classe B ele vai receber uma instância dessa classe B e essa
+
+65
+00:05:25,870 --> 00:05:34,600
+instância vai ser colocada como a instância para essa classe já que foi definido que eu preciso negociar
+
+66
+00:05:34,600 --> 00:05:35,710
+preciso da classe B.
+
+67
+00:05:36,130 --> 00:05:42,950
+Então basicamente a ideia é que há uma inversão da sequência normal da lógica normal lógico.
+
+68
+00:05:43,000 --> 00:05:45,760
+Você tem uma classe a que precisa da B.
+
+69
+00:05:45,760 --> 00:05:48,430
+Então você vai lá e pega a classe B.
+
+70
+00:05:48,430 --> 00:05:52,510
+A inversão é o fato de que a classe A ainda precisa da classe B.
+
+71
+00:05:52,840 --> 00:06:00,010
+Mas quem é responsável por fazer a instancia ação injetar e colocar essa instância no atributo que foi
+
+72
+00:06:00,010 --> 00:06:01,540
+definido na classe A.
+
+73
+00:06:01,690 --> 00:06:07,420
+E uma terceira pessoa ou seja a responsabilidade foi passada para o frei mo que tal fato Fremont essa
+
+74
+00:06:07,420 --> 00:06:14,440
+responsabilidade tira digamos assim do programador a necessidade de ele saber exatamente como eu preciso
+
+75
+00:06:14,440 --> 00:06:16,550
+distanciar o repositório.
+
+76
+00:06:16,660 --> 00:06:22,030
+Eu posso simplesmente dizer que eu preciso de um tanto é que a gente definiu foi uma interface e não
+
+77
+00:06:22,650 --> 00:06:28,360
+uma implementação a classe e ele foi lá e colocou pra gente um repositório funcional e a gente chamou
+
+78
+00:06:28,360 --> 00:06:34,660
+o método sei e salvou corretamente uma das coisas até colocar a Wikipédia de lado certo para a gente
+
+79
+00:06:34,660 --> 00:06:36,850
+voltar rapidamente para o nosso código.
+
+80
+00:06:36,850 --> 00:06:42,420
+Tem uma coisa que me gerou um trauma muito grande que estava começando.
+
+81
+00:06:42,470 --> 00:06:46,580
+O primeiro curso online no primeiro curso presencial.
+
+82
+00:06:46,580 --> 00:06:54,880
+O meu primeiro curso presencial foi sobre uma tecnologia chamada JB que é uma tecnologia do Java e é
+
+83
+00:06:55,230 --> 00:07:02,320
+ela muito fortemente baseada nesse conceito de injeção de dependência e por várias semanas eu fiquei
+
+84
+00:07:02,380 --> 00:07:04,650
+batendo cabeça com o erro.
+
+85
+00:07:04,660 --> 00:07:06,030
+Isso foi.
+
+86
+00:07:06,040 --> 00:07:12,000
+Acho que há 11 anos atrás 12 doze anos atrás ou talvez um pouco mais do que isso.
+
+87
+00:07:12,130 --> 00:07:17,200
+O fato é que eu fiquei batendo cabeça exatamente por esse conselho e esse Conselho não é esse conceito
+
+88
+00:07:17,200 --> 00:07:19,330
+que eu vou mostrar pra vocês aqui.
+
+89
+00:07:19,780 --> 00:07:26,080
+Vamos supor estar aqui dentro de produto controle produto controle como eu falei pra vocês é uma classe
+
+90
+00:07:26,080 --> 00:07:29,990
+que foi distanciado foi criada pelo framework.
+
+91
+00:07:30,430 --> 00:07:37,390
+Ou seja essa classe ela é gerenciada pelo espírito exprime e sabe qual o momento de criar essa classe
+
+92
+00:07:37,390 --> 00:07:42,400
+como o experiente sabe quando precisa criar a classe Produto controle.
+
+93
+00:07:42,400 --> 00:07:47,260
+Ele vai ser capaz de ler o alto e vai ser capaz de colocar uma instância aqui.
+
+94
+00:07:47,690 --> 00:07:54,250
+Será que se eu fizesse essa mesma coisa aqui dentro da classe Produto iria funcionar.
+
+95
+00:07:54,250 --> 00:08:00,430
+Será que se eu colocasse o Autuori daqui eu vou marcar isso aqui como transite para ele não tentar persistir
+
+96
+00:08:00,430 --> 00:08:04,990
+no banco de dados obviamente eu vou chamar aqui só de repositório de esse produto.
+
+97
+00:08:05,200 --> 00:08:11,110
+Será que ele vai ser capaz de colocar um repositório dentro da classe produto sendo que a observação
+
+98
+00:08:11,110 --> 00:08:11,900
+importante.
+
+99
+00:08:12,370 --> 00:08:15,180
+Sendo que quem criou a classe Produto fui eu.
+
+100
+00:08:15,180 --> 00:08:18,140
+Eu instancia a classe Produto na minha 22.
+
+101
+00:08:18,230 --> 00:08:21,720
+Em nenhum momento do código ou instancia o produto controle.
+
+102
+00:08:21,740 --> 00:08:25,340
+Porquê então seu produto controle foi o Spring.
+
+103
+00:08:25,510 --> 00:08:29,110
+Mais um caso do produto quem está em questão sendo um produto sou eu.
+
+104
+00:08:29,110 --> 00:08:37,210
+Então se a gente vir aqui e testar por exemplo eu vou colocar aqui outro produto que vai ser pai Pet.
+
+105
+00:08:37,250 --> 00:08:46,720
+Eu coloco aqui um iPad e vou mandar inseri ele inseriu aqui um produto 5 chamado iPad.
+
+106
+00:08:46,970 --> 00:08:49,810
+Não sei se eu salvei aqui.
+
+107
+00:08:49,810 --> 00:08:50,840
+Acredito que sim.
+
+108
+00:08:50,860 --> 00:08:51,800
+Deixa eu fazer aqui.
+
+109
+00:08:51,850 --> 00:08:59,570
+Outra coisa que parece o seguinte eu vou querer dar um system Audio System.
+
+110
+00:08:59,750 --> 00:09:09,040
+E vou querer chamar aquele produto outro repositório Na verdade eu colocar um produto ou colocar como
+
+111
+00:09:09,040 --> 00:09:11,860
+sendo o público certo.
+
+112
+00:09:11,980 --> 00:09:13,700
+Aí eu consigo acessar diretamente.
+
+113
+00:09:14,250 --> 00:09:21,190
+Então voltando aqui eu vou querer ver se o valor de repositório está nulo ou se o espírito foi capaz
+
+114
+00:09:21,190 --> 00:09:23,590
+de injetar um objeto dentro de repositório.
+
+115
+00:09:24,160 --> 00:09:30,680
+Então eu vou inseri la em pé de novo tanto faz o que o iPad em aparecer repositório Nuno perto.
+
+116
+00:09:30,700 --> 00:09:37,060
+Se a gente olhar no console então coloca aquilo lindo que ouviu console.
+
+117
+00:09:37,090 --> 00:09:44,250
+Na verdade ele não conseguiu injetar um produto repositório do produto exatamente por conta desse conceito
+
+118
+00:09:44,300 --> 00:09:51,610
+o exprime só será capaz de injetar um objeto dentro do outro se ele for o responsável por gerenciar
+
+119
+00:09:51,700 --> 00:09:54,340
+aquela classe se ele que criou a classe.
+
+120
+00:09:54,370 --> 00:09:59,380
+Nesse cenário uma vez que ele criou a classe ele será capaz de injetar tudo o que está bem da classe
+
+121
+00:10:00,340 --> 00:10:04,390
+é um conceito que parece bastante óbvio.
+
+122
+00:10:04,390 --> 00:10:10,510
+Se eu queria a classe eu sou responsável por injetar as dependências dela no caso quem criou a classe
+
+123
+00:10:10,510 --> 00:10:11,350
+Produto controla.
+
+124
+00:10:11,350 --> 00:10:18,760
+Como já falei DEZ VEZES exprime esse conceito pessoal perdi algumas semanas o que eu estava tentando
+
+125
+00:10:18,760 --> 00:10:26,120
+usar injeção de dependência em locais e não fazem sentido exatamente porque não eram classes diferenciadas.
+
+126
+00:10:26,220 --> 00:10:32,730
+Isso é um conceito importante o conceito de dependência também é algo que vai te ajudar como desenvolvedor
+
+127
+00:10:32,740 --> 00:10:34,640
+porque você não vai se preocupar.
+
+128
+00:10:34,800 --> 00:10:40,930
+Tem que saber como um repositório distanciado que tipo de parâmetros eu preciso passar para criar um
+
+129
+00:10:40,930 --> 00:10:46,800
+repositório na verdade a gente criou foi uma interface ou interface que não tem absolutamente nada.
+
+130
+00:10:46,810 --> 00:10:53,330
+Ele simplesmente usou as implementações internas e foi capaz de injetar dentro do nosso produto controle
+
+131
+00:10:53,560 --> 00:11:00,040
+uma instância de repositório não foi muito simples seja houve uma inversão de controle e passou a ter
+
+132
+00:11:00,040 --> 00:11:07,440
+o controle distanciar foi um frame que não mais clássico que precisa se que a minha classe Produto controle
+
+133
+00:11:07,740 --> 00:11:14,290
+e outro cenário o mais tradicional produto controle e precisa de um repositório então eu preciso colocar
+
+134
+00:11:14,290 --> 00:11:20,650
+dentro dessa classe toda a complexidade de criar mas com a injeção de dependência eu me livro desse
+
+135
+00:11:20,650 --> 00:11:25,480
+trabalho simplesmente o que preciso é o próprio Spring vai resolver isso para pra gente não era isso
+
+136
+00:11:25,780 --> 00:11:27,680
+que ele tinha para compartilhar com vocês.
+
+137
+00:11:27,700 --> 00:11:32,920
+Esse é um conceito extremamente poderoso e usado por vários frameworks e linguagens.
+
+138
+00:11:32,920 --> 00:11:39,760
+Você tem injeção de dependência no ângulo você tem essa independência no Java e no JB Você tem que me
+
+139
+00:11:39,760 --> 00:11:40,440
+exprimir.
+
+140
+00:11:40,450 --> 00:11:43,730
+Você tem muitos locais essa ideia de somos dependentes.
+
+141
+00:11:43,750 --> 00:11:48,820
+Então o pessoal fico por aqui com esse assunto é extremamente interessante que vai te ajudar a entender
+
+142
+00:11:48,820 --> 00:11:54,790
+um pouco mais a filosofia do Spring também já que injeção de dependência algo extremamente presente
+
+143
+00:11:54,790 --> 00:11:59,480
+dentro do frame ou então dito isso na próxima aula vou lançar para vocês um desafio.
+
+144
+00:11:59,580 --> 00:12:00,250
+E até lá.

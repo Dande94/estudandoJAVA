@@ -1,0 +1,279 @@
+1
+00:00:00,150 --> 00:00:06,030
+Por isso agora vou mostrar pra vocês a resolução do nosso desafio que o usuário no qual o usuário vai
+
+2
+00:00:06,030 --> 00:00:14,670
+digitar um estranho que apresenta o nome no dia na semana você vai retornar ao valor numérico 2 3 4
+
+3
+00:00:14,670 --> 00:00:17,500
+até o 7 que são os sete dias da semana.
+
+4
+00:00:17,940 --> 00:00:23,660
+Então inicialmente eu vou criar um canal qualquer que encontrou espaço para ele importar.
+
+5
+00:00:23,670 --> 00:00:32,870
+Sempre lembrando Java o último ponto de cana chamado de entrada eu disse cana e vou colocar aqui o System
+
+6
+00:00:33,600 --> 00:00:42,720
+ponto colocando no final o ponto e vírgula para fechar sentença e entrada do Klaus pra gente fechar
+
+7
+00:00:42,720 --> 00:00:51,150
+o nosso canal aqui dentro eu vou colocar aqui um system Printing sem ser um 30min pra dizer para o usuário
+
+8
+00:00:51,750 --> 00:01:01,910
+digite o nome do Turquia ponto e vírgula dois pontos aqui e uma vez feito isso eu vou pegar aqui uma
+
+9
+00:01:01,910 --> 00:01:04,230
+historinha que vai pegar.
+
+10
+00:01:04,230 --> 00:01:10,900
+Dia das eu vou colocar só dia certo recebe o valor de entrada.
+
+11
+00:01:10,900 --> 00:01:11,680
+Pronto.
+
+12
+00:01:11,870 --> 00:01:16,170
+Max TI tão cara que só o México te digo.
+
+13
+00:01:16,170 --> 00:01:21,930
+Lembrando que como eu vou digitar apenas uma única palavra ou Net suficiente no anexo lá pegaria múltiplas
+
+14
+00:01:21,930 --> 00:01:22,940
+palavras tá certo.
+
+15
+00:01:23,610 --> 00:01:28,640
+Então como é que eu faço pra fazer o vou fazer o primeiro teste que não vai ser a estrutura completa
+
+16
+00:01:28,680 --> 00:01:35,460
+só o primeiro teste para aquele dia igual igual a domingo.
+
+17
+00:01:36,090 --> 00:01:41,830
+Então nesse caso eu vou ter alguns problemas e eu vou retornar aqui segundo o nosso desafio.
+
+18
+00:01:41,830 --> 00:01:48,390
+O valor já que do meu primeiro dia da semana estão acertando aqui o primeiro problema é se o usuário
+
+19
+00:01:48,390 --> 00:01:53,500
+digitar domínio com letra maiúscula se eu colocar que você vai ver que ele digitou nada.
+
+20
+00:01:53,520 --> 00:01:58,310
+Ou seja essa expressão que não retornou o valor verdadeiro como eu queria vou até copiar aqui o meu
+
+21
+00:01:58,420 --> 00:02:05,310
+amigo está de novo o nosso código e vou digitar domingo do jeito que eu coloquei na expressão ainda
+
+22
+00:02:05,310 --> 00:02:07,950
+colocando entre o resultado será falso.
+
+23
+00:02:07,950 --> 00:02:12,750
+Já fiz até esse teste com vocês na comparação entre strings.
+
+24
+00:02:12,750 --> 00:02:19,860
+O ideal é você não usar o igual igual e sim usar uma função da 30 e você tem duas formas diferentes
+
+25
+00:02:19,860 --> 00:02:23,180
+pra fazer uma até duplicar o código só pra mostrar aqui pra vocês.
+
+26
+00:02:23,730 --> 00:02:28,480
+Você pode fazer um dia ponto e gols certo.
+
+27
+00:02:28,540 --> 00:02:32,110
+E quantos ignore isso que nesse caso eu vou ignorar.
+
+28
+00:02:32,130 --> 00:02:36,150
+Letras maiúsculas e minúsculas certo eu posso fazer isso.
+
+29
+00:02:36,180 --> 00:02:41,670
+Essa é uma possibilidade seja dia ponto e com os ignore Keys em relação ao domingo.
+
+30
+00:02:41,670 --> 00:02:48,270
+Se o usuário digitar domingo ele vai mostrar que nesse caso o outro cenário que você pode fazer é ao
+
+31
+00:02:48,270 --> 00:02:58,990
+contrário você pode pegar o domínio certo que é o literal ponto e Klaus e Klaus é porque isso aqui é
+
+32
+00:02:59,010 --> 00:03:06,090
+o segundo e passa a variável dia pra ser comparada tanto como o outro vai funcionar se você usar o literal
+
+33
+00:03:06,090 --> 00:03:10,680
+no começo e colocar o icon os ignore que isso vai dar certo.
+
+34
+00:03:10,680 --> 00:03:16,710
+Se você usar o dia ponto e com os ignore que também vai dar certo ou domingo não antes ou domingo vindo
+
+35
+00:03:16,740 --> 00:03:23,940
+depois nos dois casos ele vai retornar o valor só pra gente já está a digitar aqui ao domingo com P
+
+36
+00:03:23,940 --> 00:03:27,610
+maiúsculo quando ele mostrou valor.
+
+37
+00:03:28,080 --> 00:03:34,530
+São duas estratégias válidas eu vou selecionar essa segunda estratégia que é um pouquinho mais diferente
+
+38
+00:03:34,530 --> 00:03:42,030
+certo só para o nosso exemplo aqui é pra gente continuar a colocar aqui um aos associado com EF e aí
+
+39
+00:03:42,050 --> 00:03:53,550
+vou ter que ao segundo ponto e Klaus e Klaus que ignore gays a variável dia se for segunda eu retornar
+
+40
+00:03:53,550 --> 00:04:02,220
+aqui o System Alt Print alinhe exibindo valor 2 certo então fazendo mais um teste aqui está o colocar
+
+41
+00:04:02,250 --> 00:04:08,830
+aqui dia segunda 2 e agora eu posso duplicar essas duas linhas aqui.
+
+42
+00:04:08,960 --> 00:04:18,990
+Terça quarta quinta sexta e sábado 1 2 3 4 5 6 e finalmente 7.
+
+43
+00:04:19,140 --> 00:04:27,740
+No caso do 7 até poderia colocar um e o chefe então posso ter no final e os coloca na máquina de envolve.
+
+44
+00:04:27,760 --> 00:04:49,040
+Então dia inválido e aqui eu posso colocar aos domingos segunda terça quarta quinta sexta e sábado.
+
+45
+00:04:49,140 --> 00:04:55,320
+No caso do sábado você tem outras estatais que você pode usar inclusive expressões regulares que não
+
+46
+00:04:55,320 --> 00:05:03,240
+é muito tema que eu vou fazer agora mas eu posso fazer por exemplo ter queira ou se o usuário digital
+
+47
+00:05:03,260 --> 00:05:04,840
+tenha essa sim aceita.
+
+48
+00:05:05,520 --> 00:05:11,790
+Colocar simplesmente assim não é que eu posso quebrar em duas linhas diferentes ou seja terça feira
+
+49
+00:05:11,940 --> 00:05:13,200
+ou terça sem acento.
+
+50
+00:05:13,200 --> 00:05:20,100
+é a mesma coisa de sábado eu posso colocar sábado ou quebrar naquela linha ou mesmo colocando pra baixo
+
+51
+00:05:20,110 --> 00:05:25,530
+né Cabral galinha colocar o sábado com a letra.
+
+52
+00:05:25,720 --> 00:05:32,980
+Nesse caso nos dois dias que eu tenho o acento Fiz esse tratamento para colocá lo agora mas temos funcionado
+
+53
+00:05:32,980 --> 00:05:34,830
+o nosso código é executado.
+
+54
+00:05:34,830 --> 00:05:42,000
+Você tem que se colocar terça dia 3 executando novamente no sábado e
+
+55
+00:05:44,730 --> 00:05:54,870
+domingo sexta e colocar em qualquer outro dia por exemplo a taxa de variação ou seja esse é o desafio
+
+56
+00:05:54,870 --> 00:05:55,800
+dos dias da semana.
+
+57
+00:05:55,800 --> 00:06:03,390
+Você informa o dia e retorna um valor numérico nas observações e não use igual igual construir comparações
+
+58
+00:06:03,390 --> 00:06:09,120
+com o estranho pode ser algo usando e como os USA no caso ignore que esse braço você não importa a letras
+
+59
+00:06:09,120 --> 00:06:10,720
+maiúsculas e minúsculas.
+
+60
+00:06:10,830 --> 00:06:18,390
+Você pode fazer isso ou mesmo se você quiser você pode pegar alguma coisa do tipo o domingo como é com
+
+61
+00:06:18,420 --> 00:06:25,390
+toda a letra minúscula você pode usar o icon aqui certo ou simplesmente usar o wi fi colocar dia ponto
+
+62
+00:06:25,400 --> 00:06:26,070
+de chuva.
+
+63
+00:06:26,150 --> 00:06:32,190
+Logo aqueles que aí você paga o valor de dia converte para letras minúsculas e compara com um nome em
+
+64
+00:06:32,190 --> 00:06:33,210
+letras minúsculas.
+
+65
+00:06:33,660 --> 00:06:38,510
+Então nesse caso também não há outra possibilidade seria mudou um pouquinho o algoritmo mas funciona
+
+66
+00:06:38,520 --> 00:06:41,150
+também não é melhor essa forma é pior certo.
+
+67
+00:06:41,640 --> 00:06:48,010
+Então se você chegar e colocar aqui ao domingo executando ainda assim ele baixar o valor porque aqui
+
+68
+00:06:48,030 --> 00:06:52,030
+é tudo letra minúscula você converteu pra mim uso que mais eu prefiro.
+
+69
+00:06:52,030 --> 00:06:58,830
+Nesse caso a função própria para isso é você compara a igualdade dos estribos ignorando as letras maiúsculas
+
+70
+00:06:58,830 --> 00:06:59,520
+e minúsculas.

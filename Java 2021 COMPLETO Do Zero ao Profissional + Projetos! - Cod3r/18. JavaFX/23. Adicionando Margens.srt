@@ -1,0 +1,171 @@
+1
+00:00:00,360 --> 00:00:06,930
+Na sala vou fazer um pequeno ajuste visual vai ser uma aula pequena para a gente colocar uma margem
+
+2
+00:00:06,930 --> 00:00:13,020
+tanto no leilão de cima da tela como no botão para ele ficar com um espaçamento um pouco maior da parte
+
+3
+00:00:13,020 --> 00:00:21,150
+central que são o formulário com o e o tecto de de Peça O Filme achando que a tela já que está mais
+
+4
+00:00:21,150 --> 00:00:22,960
+uma vez para a gente joguei como está.
+
+5
+00:00:23,040 --> 00:00:28,340
+Nesse momento que foi exatamente o final do ano passado a gente está com esse lema muito próximo aqui
+
+6
+00:00:28,350 --> 00:00:33,930
+do formulário o botão também muito próximo quero dar um espaçamento aqui e o espaçamento não é uma margem
+
+7
+00:00:34,260 --> 00:00:35,930
+relacionada a esse botão.
+
+8
+00:00:36,000 --> 00:00:42,770
+Como nós estamos dentro do contexto de uma crise bem então aqui dentro do leigo a primeira leva a que
+
+9
+00:00:42,780 --> 00:00:43,980
+ela seja bem vindo.
+
+10
+00:00:43,980 --> 00:00:54,250
+Eu vou colocar o seguinte Joaquim vou definir uma crítica tem margem para fechar aqui e aqui dentro
+
+11
+00:00:54,250 --> 00:01:00,800
+eu vou passar em sites que é exatamente às margens e o pedido só é feito em cima instância de insetos.
+
+12
+00:01:00,810 --> 00:01:02,250
+Não posso colocar aqui.
+
+13
+00:01:02,310 --> 00:01:09,680
+Nesse caso eu vou querer colocar no topo 20 e vou querer colocar embaixo.
+
+14
+00:01:09,690 --> 00:01:11,790
+Moram lá ser 20.
+
+15
+00:01:12,190 --> 00:01:18,480
+Não vou usar isso aqui pra isso passar um pouco mais o título então coloca no que vai ver que o título
+
+16
+00:01:18,480 --> 00:01:24,300
+ficou um pouco mais passado do que anteriormente inclusive eu posso distanciar essa forma de fazer o
+
+17
+00:01:24,300 --> 00:01:32,660
+seguinte às vezes eu distanciam duas aplicações de algo colocar a tirar isso aqui ou distanciar e vou
+
+18
+00:01:32,670 --> 00:01:38,250
+colocar aqui do lado só pra gente a tela que é a tela original.
+
+19
+00:01:38,250 --> 00:01:45,080
+Vou voltar aqui vou colocar um pouco mais embaixo vai ser lindo pronto colocou aqui.
+
+20
+00:01:45,570 --> 00:01:51,460
+Vou distanciar a outra tela e você coloca o mundo lá da outra fica fácil de você ver a diferença.
+
+21
+00:01:51,650 --> 00:01:53,290
+Schäuble tá anterior.
+
+22
+00:01:53,740 --> 00:01:59,670
+Ok não ando lado da outra você aqui tem um espaçamento maior nesse caso aqui eu coloquei 20 pixels em
+
+23
+00:01:59,670 --> 00:02:07,200
+cima embaixo carpado é a mesma coisa em relação à luta fechar as duas instâncias ou copiar isso aqui
+
+24
+00:02:08,310 --> 00:02:19,210
+e colocando aqui embaixo ou no botão a mesma coisa outro espaçamento vindos de cima e vídeo em baixo.
+
+25
+00:02:19,370 --> 00:02:22,790
+Testamos aqui bacon e ficou lutavam com espaçamento maior.
+
+26
+00:02:22,830 --> 00:02:24,960
+Na minha opinião ficou mais interessante.
+
+27
+00:02:24,960 --> 00:02:29,650
+Você pode inclusive diminuir um pouco mais a tela sem problema nenhum.
+
+28
+00:02:29,930 --> 00:02:42,090
+Então eu posso até garantir que ele vai dar um beijinho no botão também de 40 em 40 e colocando aqui
+
+29
+00:02:42,500 --> 00:02:44,670
+no nosso a nossa aplicação.
+
+30
+00:02:44,670 --> 00:02:54,620
+A cena tem 350 de largura e 400 de altura então posso colocar aqui trezentos e cinquenta também pra
+
+31
+00:02:54,630 --> 00:02:55,710
+ser uma caixinha quadrada.
+
+32
+00:02:55,710 --> 00:02:59,070
+Acho que talvez fique o visual mais interessante ver como é que fica aqui.
+
+33
+00:02:59,650 --> 00:03:06,010
+é um resultado dessa forma se você quiser diminuir um pouco mais ainda acho que daria e ficaria interessante
+
+34
+00:03:06,010 --> 00:03:11,940
+a tela mas eu vou deixar dessa forma então nós finalizamos a parte visual da nossa tela que eu vou fazer
+
+35
+00:03:11,940 --> 00:03:17,800
+agora na próxima aula a gente já deu show naquela biblioteca do controle do FX e na hora que eu der
+
+36
+00:03:17,900 --> 00:03:23,980
+um entrar ou sair ele vai mostrar uma notificação na tela dizendo Meu sucesso ou falha o nosso login.
+
+37
+00:03:24,010 --> 00:03:25,550
+Então só pra mostrar pra você.
+
+38
+00:03:25,620 --> 00:03:31,530
+Uma alternativa interessante mas você vai desenvolver aplicações Java FX você tem à sua disposição componentes
+
+39
+00:03:31,530 --> 00:03:32,570
+visuais.
+
+40
+00:03:32,700 --> 00:03:38,550
+Desenvolvido com excelente qualidade você não precisaria reescrever coisas básicas e componentes visuais
+
+41
+00:03:38,550 --> 00:03:41,660
+básico e toda aplicação acaba precisando uma hora ou outra.
+
+42
+00:03:41,870 --> 00:03:48,190
+E por aqui na próxima aula a gente vai fazer a nossa última parte da nossa aplicação Zen aqui do login
+
+43
+00:03:48,300 --> 00:03:49,170
+e eu espero lá.

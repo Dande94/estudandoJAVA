@@ -1,0 +1,431 @@
+1
+00:00:00,180 --> 00:00:03,500
+Só agora vou falar um pouquinho pra vocês do nulo.
+
+2
+00:00:03,540 --> 00:00:09,900
+Essa foi uma das primeiras digamos assim os primeiros cartões que recebi na época eu era estagiário.
+
+3
+00:00:10,020 --> 00:00:15,840
+Quando eu tentei falar que não está me entendendo muito bem o conceito do nulo e eu coloquei a culpa
+
+4
+00:00:15,840 --> 00:00:21,340
+no meu chefe porque ele mandou estudar se echarpe e ele mandou trabalhar depois com Delphi.
+
+5
+00:00:21,720 --> 00:00:24,590
+Mas o conceito é o mesmo pra todas as linguagens né.
+
+6
+00:00:24,590 --> 00:00:29,520
+Quando você tem uma variável que não aponta para nenhum local de memória algumas vão tratar os erros
+
+7
+00:00:29,520 --> 00:00:34,500
+de forma diferente vai ter algumas com algumas nuances diferentes mas o conceito por trás do nome de
+
+8
+00:00:34,500 --> 00:00:39,900
+uma variável que não aponta pra nenhum local de memória me faltou ali eu tentei colocar a culpa nele
+
+9
+00:00:39,900 --> 00:00:45,280
+e ele só não me Hitachi porque isso eu começo a perguntar pra vocês os conceitos mesmo de 6 Shape que
+
+10
+00:00:45,280 --> 00:00:46,650
+eu mandei você estudar.
+
+11
+00:00:46,650 --> 00:00:49,060
+Você não vai sabendo que brincar.
+
+12
+00:00:49,400 --> 00:00:51,830
+E aí aceitei o carão que ele tinha no passado.
+
+13
+00:00:52,110 --> 00:00:57,720
+Eu vou lá eu vou criar aqui uma nova classe e nós vamos clicar com o botão direito do nosso pacote eu
+
+14
+00:00:57,720 --> 00:01:03,290
+vou colocar aqui uma classe e eu vou chamar valor nulo.
+
+15
+00:01:03,750 --> 00:01:10,910
+E nós vamos criar aqui o nosso método Man eu vou testar isso o que vale pra todos os objetos em geral.
+
+16
+00:01:11,040 --> 00:01:13,950
+Eu vou testar isso com extremo inicialmente certo.
+
+17
+00:01:14,250 --> 00:01:21,870
+Então faço o que string um monstrinho que a recebe não é tão estranha assim recebe um valor vazio outro
+
+18
+00:01:21,960 --> 00:01:22,620
+vírgula.
+
+19
+00:01:22,840 --> 00:01:30,090
+E aqui eu posso muito bem pagar que assistem aos cinco conto com cash para aparecer alguma coisa com
+
+20
+00:01:30,090 --> 00:01:33,900
+este time vazia e vou colocar concatenar com várias exclamações.
+
+21
+00:01:33,930 --> 00:01:39,690
+Se eu fizer isso não vai acontecer nenhum problema ele vai mostrar as exclamações porque eu tenho um
+
+22
+00:01:39,690 --> 00:01:42,380
+objeto criado de um estilingue que aqui.
+
+23
+00:01:42,540 --> 00:01:50,280
+Então não posso sim chamar os valores a partir de um estilo base ou seja essa variável assim tem um
+
+24
+00:01:50,280 --> 00:01:56,190
+endereço de memória que aponta para um estranho que foi criada e quando você tentar acessar existe algum
+
+25
+00:01:56,210 --> 00:02:04,120
+objeto vai ter criado memória você consegue chamar as funcionalidades os métodos associados a esse string.
+
+26
+00:02:04,260 --> 00:02:11,550
+Quando você tem um monstrinho por exemplo eu não posso aqui nesse caso ter um monstrinho enfim simplesmente
+
+27
+00:02:11,550 --> 00:02:19,050
+colocar isso tentar usar certo se eu fizer aqui por exemplo System Alt S2 pontua com Kate e passa aqui
+
+28
+00:02:19,050 --> 00:02:24,040
+algumas interrogações eu não posso fazer isso vai dar um erro de compilação por quê.
+
+29
+00:02:24,480 --> 00:02:29,790
+Porque nesse caso eu já falou um pouquinho sobre isso mas eu vou tratar isso mais na frente.
+
+30
+00:02:29,970 --> 00:02:37,710
+Um erro de compilação é um erro que não permite que o seu programa execute seus ataque ao nosso código
+
+31
+00:02:37,710 --> 00:02:43,520
+você vai ver que ele não vai compilar nosso programa e vai dizer que existe um problema aqui porque
+
+32
+00:02:43,530 --> 00:02:50,340
+a variável local S2 não foi oficializada eu falei pra vocês na aula passada que você precisa inicializar
+
+33
+00:02:50,490 --> 00:02:54,950
+variáveis que são locais certo e não vai fazer isso automaticamente pra você.
+
+34
+00:02:55,350 --> 00:02:59,780
+Então colocando nulo agora sim eu tenho uma variável inicializar.
+
+35
+00:02:59,820 --> 00:03:05,850
+Agora não tenho mais um erro de compilação ele vai conseguir compilar o meu código sim só que nesse
+
+36
+00:03:05,850 --> 00:03:12,330
+caso ele vai dar um erro de levantar o erro em tempo de execução então tem um erro de compilação que
+
+37
+00:03:12,320 --> 00:03:17,610
+significa que se você tentar transformar o arquivo ponto Java pra um arquivo ponto o que você não vai
+
+38
+00:03:17,610 --> 00:03:24,420
+conseguir porque o compilador não está permitindo você converter o Java para um contactless porque tem
+
+39
+00:03:24,420 --> 00:03:31,350
+um código compilado e está detectando o erro de compilação de alguma regra da linguagem foi violada
+
+40
+00:03:31,730 --> 00:03:37,730
+e nesse caso nenhuma regra foi violada apesar de ter uma advertência ele vai compilar o código civil
+
+41
+00:03:37,980 --> 00:03:44,810
+só que na hora de executar ele vai dar um problema em tempo de execução que é o famoso Menu Section
+
+42
+00:03:45,020 --> 00:03:51,160
+o que é uma oponente abaixo e você tem uma variável nula e essa variável nula.
+
+43
+00:03:51,160 --> 00:03:52,650
+Você vai tentar acessá lo.
+
+44
+00:03:52,710 --> 00:03:58,860
+Um atributo dessa variável nula seja um atributo ou um comportamento ou método um atributo tanto faz
+
+45
+00:03:59,140 --> 00:03:59,600
+certo.
+
+46
+00:03:59,620 --> 00:04:03,270
+Eu poderia também usar o mesmo exemplo a data.
+
+47
+00:04:03,550 --> 00:04:07,300
+Nós temos aqui a nossa classe data vou chamar aqui d.
+
+48
+00:04:07,370 --> 00:04:13,650
+D um recebe nulo ou seja qualquer objeto pode ter um valor nulo inclusive o valor padrão quando você
+
+49
+00:04:13,650 --> 00:04:15,010
+não inicializar objeto.
+
+50
+00:04:15,060 --> 00:04:20,220
+Se você tentar fazer dê um ponto mas recebe o valor de 3.
+
+51
+00:04:20,220 --> 00:04:23,470
+Aqui também nós teremos uma ponta e recebe.
+
+52
+00:04:23,490 --> 00:04:29,430
+Ou seja nós teremos um erro que nós vamos tratar mais na frente e achar pra vocês mais na frente.
+
+53
+00:04:29,430 --> 00:04:36,510
+O fato é que você não pode acessar nem atributo nem método de algo que está no núcleo de algo que não
+
+54
+00:04:36,510 --> 00:04:38,610
+aponta para um objeto real na memória.
+
+55
+00:04:39,030 --> 00:04:45,660
+Então imagine que a variável é um espaço de memória e essa variável pode ter duas coisas ou a variável
+
+56
+00:04:45,660 --> 00:04:46,920
+tem um valor.
+
+57
+00:04:47,070 --> 00:04:50,480
+Se essa variável for primitiva ela vai ter um valor.
+
+58
+00:04:50,760 --> 00:04:56,190
+Ou então essa variável tem um endereço de memória que aponta para um local de memória onde o objeto
+
+59
+00:04:56,190 --> 00:04:56,950
+foi criado.
+
+60
+00:04:57,060 --> 00:05:03,390
+Então esse objeto criado só existia ou seja acesso essa variável que era para apontar para um endereço
+
+61
+00:05:03,390 --> 00:05:08,850
+de memória está apontando um item nulo dentro dela ou seja um vazio ela não aponta para nenhum local
+
+62
+00:05:08,850 --> 00:05:16,020
+de memória significa que você não pode tentar acessar nenhum atributo nem um método de uma variável
+
+63
+00:05:16,020 --> 00:05:18,000
+que não aponta para um objeto real.
+
+64
+00:05:18,000 --> 00:05:23,310
+Isso em Java gera um erro e como é que eu posso evitar esse tipo de comportamento.
+
+65
+00:05:23,310 --> 00:05:29,210
+Se você acha que tem a possibilidade de um determinado variável ser nula então você vai fazer o seguinte
+
+66
+00:05:29,210 --> 00:05:35,410
+ao sim a variável for diferente de Lula.
+
+67
+00:05:35,580 --> 00:05:39,450
+Aí sim você vai lá e faz o que precisa fazer eu sei de você.
+
+68
+00:05:39,600 --> 00:05:46,140
+Nesse caso você quer garantir que essa variável não estará nula então você faz aqui um teste certo e
+
+69
+00:05:46,290 --> 00:05:53,630
+no outro caso que é a mesma coisa e sim a variável S 2 for diferente.
+
+70
+00:05:53,640 --> 00:05:57,470
+Aí sim você entra aqui e faz essa execução.
+
+71
+00:05:57,480 --> 00:05:59,230
+Nesse caso o que está dando problema por quê.
+
+72
+00:05:59,240 --> 00:06:02,280
+Porque obrigatoriamente será nula em um momento.
+
+73
+00:06:02,280 --> 00:06:05,140
+Você está dizendo que vai distanciar isso aqui.
+
+74
+00:06:05,190 --> 00:06:11,580
+Então o Java já sabe que nenhuma situação vai fazer com que essa expressão seja verdadeira.
+
+75
+00:06:11,580 --> 00:06:23,940
+Eu até poderia colocar aqui por exemplo mas outro lado ainda seria se isso aqui for maior do que será
+
+76
+00:06:23,940 --> 00:06:30,090
+0 ponto 5 0 ponto 5 significa que eu vou fazer aqui uma atribuição ternário.
+
+77
+00:06:30,450 --> 00:06:35,090
+Ele vai criar uma nova data caso contrário o retorno nulo.
+
+78
+00:06:35,100 --> 00:06:41,010
+Nesse cenário agora sim eu tenho de forma condicional uma hora a data mais acertada outra hora não vai
+
+79
+00:06:41,010 --> 00:06:41,440
+tá.
+
+80
+00:06:41,700 --> 00:06:50,040
+Eu posso até colocar aqui dentro um system Alt pra imprimir por exemplo d um ponto e obter data formatada
+
+81
+00:06:50,160 --> 00:06:56,290
+e eu posso fazer a mesma coisa que fazem uma atribuição de 1 hora ele vai dar verdadeiro falso né.
+
+82
+00:06:56,420 --> 00:07:05,130
+Controlando ele gera um número aleatório entre 0 e 1 então 0,1 0,11 0 45 alguma coisa então entre 0
+
+83
+00:07:05,130 --> 00:07:10,480
+e 1 ele gera um número aleatório c esse número aleatório foi maior do que zero ponto 5 ele cria.
+
+84
+00:07:10,530 --> 00:07:16,020
+Caso contrário ele não cria estou simplesmente colocando aqui de forma condicional só pra simular uma
+
+85
+00:07:16,020 --> 00:07:22,380
+hora a variável ficar nula outra hora a variável ficar acertado então já aqui eu tenho uns 30 e eu vou
+
+86
+00:07:22,390 --> 00:07:29,500
+colocar opa executando nesse caso agora esse teste faz sentido porque tem uma hora que a variável vai
+
+87
+00:07:29,520 --> 00:07:33,630
+estar na última hora que a variável não mais anula executando aqui só pra gente.
+
+88
+00:07:33,630 --> 00:07:43,080
+Meu resultado nesse caso ele mostrou apenas o primeiro com Kate que mostrou a data mas não mostrou o
+
+89
+00:07:43,080 --> 00:07:49,950
+com Kate do Serasa que está novamente tem uma hora que ele mostrou tudo portanto criou a data como criou
+
+90
+00:07:49,950 --> 00:07:54,870
+o Astrid César que está outras vezes vai ter que vai criar sua data vai ter vai criar só estilingue
+
+91
+00:07:55,230 --> 00:07:59,510
+vai ter que não vai criar nenhum dos dois certo os dois foram nulos e tal vai ter tudo.
+
+92
+00:07:59,580 --> 00:08:05,160
+Todas as situações aqui mas o fato é que se você acha que determinada variável pode não apontar para
+
+93
+00:08:05,160 --> 00:08:07,740
+um objeto válido pode ser nula.
+
+94
+00:08:07,770 --> 00:08:14,040
+Você tem que ter cuidado pra não acessar os atributos e nem os métodos desse objeto.
+
+95
+00:08:14,100 --> 00:08:17,630
+Senão você vai ter um erro que é o erro no ponto certo.
+
+96
+00:08:17,660 --> 00:08:24,090
+Um dos erros mais famosos de Java é esse é um erro de grande time e um erro que só vai acontecer no
+
+97
+00:08:24,090 --> 00:08:26,500
+momento que o código se tivessem executado.
+
+98
+00:08:26,520 --> 00:08:32,280
+Não é um erro que você vai pegar em tempo de compilação não é um erro que o eclipse irá barrar a sua
+
+99
+00:08:32,280 --> 00:08:39,210
+aplicação para o cliente porque ele é um erro de compilação esse erro só vai acontecer em tempo de execução
+
+100
+00:08:39,210 --> 00:08:41,580
+civil quando o seu cliente tiver acessando.
+
+101
+00:08:41,580 --> 00:08:46,860
+Se você qualificou algo errado e não testou uma variável e você não tem a garantia que aquela variável
+
+102
+00:08:46,860 --> 00:08:52,320
+estará acertado e você acessa ela de qualquer forma você está corrigindo a gerar um erro de tempo de
+
+103
+00:08:52,320 --> 00:08:57,870
+desenvolvimento mais gente vai falar um pouco mais de como lidar com os erros como criar os erros tipo
+
+104
+00:08:57,870 --> 00:09:02,460
+de erros gente vai ter um capítulo sobre isso mas o que eu quero ressaltar mesmo nessa aula.
+
+105
+00:09:02,460 --> 00:09:09,030
+Essa definição do nulo né você tem uma variável e essas variáveis obrigatoriamente serão do tipo objeto
+
+106
+00:09:09,030 --> 00:09:10,900
+não são o tipo primitivo.
+
+107
+00:09:11,070 --> 00:09:16,350
+Quando você tem uma variável que não aponta para nenhum local de memória e se você tentar acessar um
+
+108
+00:09:16,350 --> 00:09:18,390
+atributo um comportamento você vai ter um erro.

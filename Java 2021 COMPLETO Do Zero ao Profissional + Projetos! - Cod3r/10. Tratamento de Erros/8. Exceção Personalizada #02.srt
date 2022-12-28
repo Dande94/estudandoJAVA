@@ -1,0 +1,159 @@
+1
+00:00:00,330 --> 00:00:06,090
+Agora vão achar para vocês a gente já de certa forma falam olha essa ação não checado eu mostrei a possibilidade
+
+2
+00:00:06,090 --> 00:00:10,370
+de vocês tratarem múltiplas acepções que é algo extremamente importante.
+
+3
+00:00:10,380 --> 00:00:14,100
+Vou dar aqui em cima desse pacote personalizada.
+
+4
+00:00:14,160 --> 00:00:17,250
+Vou dar um contra o C contra o V.
+
+5
+00:00:17,250 --> 00:00:24,030
+Vou colocar personalizada B C se ele vai criar um outro pacote com as mesmas classes aqui dentro e eu
+
+6
+00:00:24,030 --> 00:00:32,210
+vou trocar sua estratégia pra que número fora do intervalo seja uma exceção que é diretamente F.
+
+7
+00:00:32,250 --> 00:00:35,100
+Ou seja não é uma exceção checada.
+
+8
+00:00:35,160 --> 00:00:42,480
+Fechar todas as placas aqui pq tem muita classe aberta com o usual e vou agora criar aqui string vazia
+
+9
+00:00:42,480 --> 00:00:49,350
+que serve pra ser também uma exceção verificada nesse momento você percebe que várias coisas começaram
+
+10
+00:00:49,350 --> 00:00:56,640
+a dar problema ou seja validar passou a dar problema certo porque nesse caso eu tenho duas acepções
+
+11
+00:00:56,640 --> 00:01:05,410
+que são checadas ou seja eu preciso explicitamente colocar aqui feroz lança estranho mas recebe um vírgula
+
+12
+00:01:05,810 --> 00:01:12,080
+lança também um número fora do intervalo e que serve ou seja lanço essas duas acepções e eu coloco trolls
+
+13
+00:01:12,090 --> 00:01:17,790
+aqui embaixo só pra ficar tudo visível é mais um lance mas essas duas exceções de forma explícita no
+
+14
+00:01:17,790 --> 00:01:25,960
+momento que ele lançou as duas acepções eu sou obrigado a dentro da minha classe de teste aqui ao teste
+
+15
+00:01:25,980 --> 00:01:29,220
+uma alegação eu preciso tratar como já estava tratando.
+
+16
+00:01:29,220 --> 00:01:36,890
+Então não tem problema mas eu não posso me dar ao luxo de colocar o Vale da Lua fora de um metro trai
+
+17
+00:01:37,200 --> 00:01:42,660
+porque ele vai começar a reclamar dizendo que eu não tratei as exceções ou seja existem exceções não
+
+18
+00:01:42,660 --> 00:01:46,790
+tratadas do tipo número fora do intervalo e que sebes tem outras sete.
+
+19
+00:01:46,790 --> 00:01:51,140
+Provavelmente ele colocou a primeira que não deu certo e aí depois ele vai colocar outra.
+
+20
+00:01:51,140 --> 00:01:57,090
+Se você quiser colocar aqui um de um contra ele vai te dar alguns possibilidade de sequer adicionar
+
+21
+00:01:57,570 --> 00:02:00,900
+na declaração desse Metro que eu estou agora trouxe.
+
+22
+00:02:00,900 --> 00:02:05,640
+Se eu quiser fazer isso você vai ver que o Metro meio vai passar até as estações.
+
+23
+00:02:06,060 --> 00:02:12,000
+Trouxe string vazia e recebe um número fora do intervalo e que sabe que é uma possibilidade.
+
+24
+00:02:12,010 --> 00:02:19,680
+A outra possibilidade que você tem colocando aqui um conjunto que é um fixe rápido e uma conexão rápida
+
+25
+00:02:19,990 --> 00:02:27,210
+e fazer um alto com um traficante ele vai colocar dentro de um traficante todos os tipos de tratamento
+
+26
+00:02:27,210 --> 00:02:29,900
+que são necessários para esse caso especificamente.
+
+27
+00:02:30,360 --> 00:02:33,490
+Então aqui a diferença de gente dessas são checada e não checada.
+
+28
+00:02:33,490 --> 00:02:35,330
+Achei um pouco na teoria pra vocês.
+
+29
+00:02:35,330 --> 00:02:40,260
+Mostrei a praxe comecei com o prato na verdade pois mostrei a teoria e mais uma prática agora trabalhando
+
+30
+00:02:40,260 --> 00:02:46,980
+com exceções personalizadas como você cria suas próprias acepções você tem que decidir entre esses dois
+
+31
+00:02:46,980 --> 00:02:47,730
+grandes grupos.
+
+32
+00:02:47,730 --> 00:02:54,900
+Você pode até dar uma mais específica eu quero dar dinheiro legal argumente que sabe não tem problema
+
+33
+00:02:54,900 --> 00:03:02,170
+nenhum certo eu posso por exemplo ao número fora do intervalo que Sérgio eu posso em vez de dar algum
+
+34
+00:03:02,190 --> 00:03:06,480
+caso aqui porque acha cada vez mais o primeiro exemplo que é uma exceção não checada.
+
+35
+00:03:06,660 --> 00:03:10,940
+Eu posso sim dar algo mais específico do que montar me recebe.
+
+36
+00:03:10,950 --> 00:03:17,410
+Pode ser por exemplo é legal a argumente sabe que você pode sim a idade as sessões mais específicas
+
+37
+00:03:17,430 --> 00:03:19,820
+mais como essa queda de um andaime.
+
+38
+00:03:19,830 --> 00:03:23,670
+Por tabela essa sessão continua sendo uma exceção não checada.
+
+39
+00:03:24,270 --> 00:03:30,240
+Então essa é uma diferença muito importante no mundo das acepções no Java e na próxima a gente continua
+
+40
+00:03:30,600 --> 00:03:30,770
+lá.

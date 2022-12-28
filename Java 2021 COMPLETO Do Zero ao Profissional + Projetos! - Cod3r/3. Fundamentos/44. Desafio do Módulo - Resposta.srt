@@ -1,0 +1,367 @@
+1
+00:00:00,580 --> 00:00:06,040
+Então o pessoal na sala de pra vocês o nosso desafio aqui do nosso capítulo mais vamos ler o número
+
+2
+00:00:06,400 --> 00:00:11,730
+depois vamos ler o outro número e depois o usuário vai informar qual é a operação que ele vai fazer
+
+3
+00:00:11,750 --> 00:00:16,300
+em cima disso a gente vai fazer tal operação correta e mostrar o resultado final.
+
+4
+00:00:16,600 --> 00:00:18,750
+Então para isso eu vou criar aqui.
+
+5
+00:00:18,760 --> 00:00:24,530
+Na verdade vou começar definindo o escala então colocar naquele scanner ele vai importar para a gente
+
+6
+00:00:25,320 --> 00:00:34,680
+entrada recebe mil esse cara vou passar aqui o sistema de outro ponto e vírgula e no final já coloco
+
+7
+00:00:34,740 --> 00:00:38,600
+minha entrada com uso para a gente fechar o nosso scanner.
+
+8
+00:00:38,960 --> 00:00:52,060
+Em cima disso eu vou definir que recebe a entrada do México dado e posso duplicar essa linha para receber
+
+9
+00:00:52,200 --> 00:00:54,790
+o número dois que vai ser entrada ponto na tabela.
+
+10
+00:00:55,150 --> 00:01:02,680
+Antes disso era interessante que a gente faça aqui um sistema pontual de brinde para gente exibir uma
+
+11
+00:01:02,680 --> 00:01:14,680
+mensagem por exemplo informe o número e eu vou pagar esse mesmo valor que forme o número e depois eu
+
+12
+00:01:14,680 --> 00:01:18,670
+vou fazer que informe a
+
+13
+00:01:22,260 --> 00:01:23,160
+alteração.
+
+14
+00:01:23,170 --> 00:01:30,520
+Pronto então duplicado aqui nossa entrada coloca aqui embaixo que ele tem um W tem um estilingue aqui
+
+15
+00:01:30,520 --> 00:01:38,120
+em vez de número tem uma operação e vende Telnet W vou ter apenas o México e vai pegar o valor jogar
+
+16
+00:01:38,160 --> 00:01:39,310
+em operação.
+
+17
+00:01:39,310 --> 00:01:47,500
+Pra gente finalizar eu vou imprimir aqui só que usando o brinde fim nós vamos usar aqui o percentual
+
+18
+00:01:47,600 --> 00:01:53,830
+é fim para exibir o dado o percentual é esse para exibir a operação e o percentual é f para exibir mil
+
+19
+00:01:53,830 --> 00:01:54,350
+W.
+
+20
+00:01:54,350 --> 00:01:57,140
+Isso aqui vai ser igual a alguma coisa que eu vou calcular ainda.
+
+21
+00:01:57,450 --> 00:02:01,660
+Eu também estou preocupado nesse momento e fazer a estrutura do nosso programa e a gente vai entrar
+
+22
+00:02:01,660 --> 00:02:04,820
+um pouco na lógica de como realmente fazer o cálculo.
+
+23
+00:02:04,910 --> 00:02:06,450
+E aqui eu vou passar.
+
+24
+00:02:07,570 --> 00:02:14,180
+Depois eu passo a operação e depois eu vou passar uns 2 pra gente exibir no final essa expressão certo
+
+25
+00:02:14,230 --> 00:02:20,680
+então usei Net da HBO na HBO e NET acertando primeiro o número 23.
+
+26
+00:02:20,680 --> 00:02:25,830
+Ponto 4 o segundo número vai ser 22 ponto a operação.
+
+27
+00:02:25,830 --> 00:02:33,010
+Vou colocar aqui mais no final voltei 3 quanto 4 mais 22 cultura está lá alguma coisa aqui eu posso
+
+28
+00:02:33,010 --> 00:02:41,170
+até colocar um ponto 2 eu não vou colocar uma casa decimal e ponto 2 só para ficar visualmente mais
+
+29
+00:02:41,170 --> 00:02:50,020
+interessante só pra executar Kill o coloca 2 menos Estado na C2 menos 1.
+
+30
+00:02:50,030 --> 00:02:51,510
+Alguma coisa legal.
+
+31
+00:02:51,760 --> 00:02:58,420
+Feito isso agora como é que eu vou aplicar minha lógica então aqui eu vou mexido na lógica de fazer
+
+32
+00:02:58,420 --> 00:02:59,430
+o cálculo certo.
+
+33
+00:02:59,530 --> 00:03:11,780
+Então coloca no que dá bom resultado para receber sim mais cabelinho mais aqui for igual.
+
+34
+00:03:12,310 --> 00:03:22,550
+A variável operador significa que ele vai pegar o valor digo mais 2 caso contrário ele vai retornar
+
+35
+00:03:22,550 --> 00:03:24,170
+ao valor zero.
+
+36
+00:03:24,190 --> 00:03:27,220
+Ou seja por enquanto o resultado vai ser zero.
+
+37
+00:03:27,220 --> 00:03:33,210
+Nesse caso se o resultado for +1 2 ele faz operação em retorno pra cá.
+
+38
+00:03:33,250 --> 00:03:40,270
+Caso contrário o resultado é zero já que isso aqui é uma variável eu posso substituir o valor da variável
+
+39
+00:03:40,270 --> 00:03:47,770
+aqui de novo ou então o resultado vai receber o valor menos se menos estava a receber um valor menos
+
+40
+00:03:47,800 --> 00:03:56,590
+não vai receber uma operação tornar se menos igual e igual ao valor de opera ou seja a operação a menos
+
+41
+00:03:56,650 --> 00:04:01,970
+significa que ele vai ter muito menos 2.
+
+42
+00:04:02,110 --> 00:04:06,680
+Caso contrário eu vou retornar o próprio valor de resultado.
+
+43
+00:04:06,820 --> 00:04:11,950
+Imagina que o resultado foi calculado aqui no Prime na primeira linha na primeira linha da lógica na
+
+44
+00:04:11,950 --> 00:04:17,260
+linha 20 se ele passou mais e ele calculou o resultado restaria a soma dos dois.
+
+45
+00:04:17,410 --> 00:04:19,670
+O resultado já tem a opção certa.
+
+46
+00:04:19,790 --> 00:04:25,990
+Então essa expressão retornará falso o que significa que ele vai retornar o próprio resultado pra variar
+
+47
+00:04:25,990 --> 00:04:31,090
+o resultado ou seja não modifica em nada a próxima linha exatamente a mesma linha.
+
+48
+00:04:31,180 --> 00:04:37,570
+Só que agora colocando aqui uma multiplicação então sim o símbolo digitado a explicação então quero
+
+49
+00:04:37,570 --> 00:04:43,710
+fazer no multiplicado no 2 caso contrário retorna o resultado.
+
+50
+00:04:43,700 --> 00:04:44,170
+Por quê.
+
+51
+00:04:44,190 --> 00:04:49,600
+Porque o resultado que foi informado foi a soma ele já calculou o estado correto.
+
+52
+00:04:49,660 --> 00:04:51,850
+O resultado já tem a soma do número.
+
+53
+00:04:51,860 --> 00:04:55,250
+Isso aqui vai dar falso e ele vai pagar o próprio resultado.
+
+54
+00:04:55,270 --> 00:04:58,360
+Isso aqui vai dar falso ele vai pagar o próprio Estado.
+
+55
+00:04:58,360 --> 00:05:04,260
+No caso aqui do primeiro como resultado não está sendo definido não está definido ainda.
+
+56
+00:05:04,280 --> 00:05:07,340
+Eu ou eu faço a soma eu coloco o zero.
+
+57
+00:05:07,340 --> 00:05:13,610
+Se eu colocar zero em outro momento alguma operação será executada seja uma soma subtração multiplicação
+
+58
+00:05:13,940 --> 00:05:19,270
+ou a divisão por exemplo sabe então coloca a divisão.
+
+59
+00:05:19,310 --> 00:05:27,980
+Se o uso for igual p eu colocar aqui na divisão e vou colocar a divisão se for o sim da divisão caso
+
+60
+00:05:27,980 --> 00:05:34,100
+contrário ele retorna para o resultado e posso colocar também que o símbolo do módulo estão colocando
+
+61
+00:05:34,100 --> 00:05:34,830
+o módulo.
+
+62
+00:05:34,870 --> 00:05:37,700
+Eu vou colocar o módulo aqui certo.
+
+63
+00:05:37,730 --> 00:05:41,060
+Caso contrário não seja um módulo vai retornar um resultado.
+
+64
+00:05:41,060 --> 00:05:45,290
+Se nem uma operação avaliada foi passada o resultado será zero.
+
+65
+00:05:45,320 --> 00:05:48,410
+No final eu vou mostrar o resultado então dou aula.
+
+66
+00:05:48,410 --> 00:05:53,040
+Ponto 2 fim quero que mostre o valor do resultado.
+
+67
+00:05:53,050 --> 00:05:58,910
+Eu vou quebrar aqui em 12 linhas então essa vai ser a minha expressão final e eu vou acertar pra fazer
+
+68
+00:05:58,910 --> 00:06:00,930
+o teste para ver se funciona tanto.
+
+69
+00:06:01,290 --> 00:06:13,500
+Mas temos aqui começando com operações simples 3 5 mais um resultado 3 mais 5 e igual 8 2 aí está novamente.
+
+70
+00:06:14,190 --> 00:06:21,020
+Vou colocar aqui por exemplo 3 vezes não devia ter colocado mesmo que tem que ser o número 7 então ele
+
+71
+00:06:21,020 --> 00:06:27,110
+vai funcionar desde que você coloque os valores corretos a minha aparecer aqui então 3 vou falar aqui
+
+72
+00:06:27,170 --> 00:06:41,100
+colocar 33 operação de vezes o resultado vai dar 99 novamente ou digitar aqui por exemplo 9 4 fazem
+
+73
+00:06:41,120 --> 00:06:47,860
+uma divisão da divisão quebrado mas eu estou trabalhando com valores Buena Blumenau e valores da ABL
+
+74
+00:06:48,200 --> 00:06:51,560
+certo então ele vai dar sem problema valores quebrados aqui.
+
+75
+00:06:51,710 --> 00:06:56,200
+9 divida por 4 vai dá dois ponto 25 e se eu quiser fazer aqui.
+
+76
+00:06:56,210 --> 00:07:07,340
+Pra finalizar um módulo pagar aqui por exemplo 13 mil 450 e sétimo eu vou colocar aqui 2 eu vou colocar
+
+77
+00:07:07,340 --> 00:07:15,830
+um módulo nesse caso como o número ímpar um módulo dessa divisão 2 vai dar então 20 mil 457 Módulo 2
+
+78
+00:07:15,830 --> 00:07:22,570
+ou seja o resto da divisão desse número o 2 são dois números inteiros então o resultado vai dar 1 significa
+
+79
+00:07:22,600 --> 00:07:29,920
+que este não era um numero certo então fizemos aqui o nosso desafio calculadora pegamos criamos o nosso
+
+80
+00:07:29,930 --> 00:07:36,300
+scanner pegamos as informações de número um número dois e o operador.
+
+81
+00:07:36,350 --> 00:07:41,720
+Se você usar o J Option bem como ele sempre retorna estranho você tem que converter e usar o passe da
+
+82
+00:07:41,720 --> 00:07:43,220
+bola pra converter pra W.
+
+83
+00:07:43,520 --> 00:07:46,040
+Mas também dá pra fazer sem problema nenhum.
+
+84
+00:07:46,040 --> 00:07:52,100
+E no final nossa lógica a gente usou os operadores ternário então fizemos aquilo do ternário se não
+
+85
+00:07:52,100 --> 00:07:55,090
+for soma ele retorna zero.
+
+86
+00:07:55,160 --> 00:07:59,310
+Se não for subtração ele continua retornando ao resultado zero.
+
+87
+00:07:59,390 --> 00:08:04,470
+Se for uma explicação ele vai lá fazer a multiplicação e alterar resultado.
+
+88
+00:08:04,470 --> 00:08:09,020
+E aí o resto sempre vai dar falso ele vai sempre continuar retornando o resultado de tal forma que pelo
+
+89
+00:08:09,020 --> 00:08:16,670
+menos um aqui vai ser executado se você passar um símbolo que não existe por exemplo vou colocar aqui
+
+90
+00:08:16,820 --> 00:08:24,980
+o valor o Galo 2 e eu passei uma interrogação O resultado vai dar zero porque interrogação 2 não saiu
+
+91
+00:08:25,080 --> 00:08:30,150
+nenhum desses casos foi atendido então o resultado foi zero que é exatamente o valor que eu coloquei
+
+92
+00:08:30,150 --> 00:08:31,280
+aqui inicialmente.

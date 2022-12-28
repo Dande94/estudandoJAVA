@@ -1,0 +1,147 @@
+1
+00:00:00,090 --> 00:00:11,040
+Pessoal esse é uma entidade por exemplo tem muitos atributos lá vindo de atributo será que faz sentido
+
+2
+00:00:11,040 --> 00:00:16,740
+a gente colocar os 20 parâmetros aqui dentro do nosso método certo.
+
+3
+00:00:17,730 --> 00:00:23,610
+Talvez se fosse mais interessante a gente receber o próprio objeto em si e não cada um dos parâmetros
+
+4
+00:00:23,610 --> 00:00:24,470
+individuais.
+
+5
+00:00:25,000 --> 00:00:30,700
+E se a gente fizer um teste em vez de colocar todos os parâmetros aqui eu colocado simplesmente estou
+
+6
+00:00:30,720 --> 00:00:32,880
+recebendo o produto.
+
+7
+00:00:33,570 --> 00:00:42,330
+Eu posso não precisar instancia aqui o produto e eu passo diretamente o produto que eu recebi como parâmetro
+
+8
+00:00:42,660 --> 00:00:44,540
+para o Metro sei que será que vai funcionar.
+
+9
+00:00:44,560 --> 00:00:54,110
+Isso a gente pode estar está vou salvar vou dar inclusive aqui os impostos necessários salvei e nós
+
+10
+00:00:54,120 --> 00:01:07,730
+vamos testar aqui ao passar para o seu proposto 400 mil reais ante 480 mil reais e 98 centavos.
+
+11
+00:01:08,440 --> 00:01:15,680
+E o desconto vai ser 0,2 em pouco desconto porque já que é barato então certo então até o MAC prove
+
+12
+00:01:15,690 --> 00:01:16,620
+colocar aqui.
+
+13
+00:01:16,840 --> 00:01:20,880
+Que ou mais que tenho pronto o valor dele.
+
+14
+00:01:21,000 --> 00:01:21,690
+Vou enviar.
+
+15
+00:01:21,870 --> 00:01:27,070
+Só que agora não estou sabendo cada um dos parâmetros do Minha no próprio produto aqui.
+
+16
+00:01:27,240 --> 00:01:31,670
+Então salvei nosso Costa do Jockey.
+
+17
+00:01:32,490 --> 00:01:41,460
+O resultado é o objeto novo ao nobre Mac pró 480 mil reais desconto 0,12 ou seja que funciona também
+
+18
+00:01:41,870 --> 00:01:49,440
+você coloca o experiente e esperto suficiente para a instancia o objeto e de acordo com os parâmetros
+
+19
+00:01:49,440 --> 00:01:55,830
+que veio na requisição ele vai colocar dentro de cada um dos atributos do seu objeto ou seja mais simples
+
+20
+00:01:55,860 --> 00:02:01,490
+você trabalhar dessa forma do que você ter colocado todos os parâmetros também suportado pela Spring.
+
+21
+00:02:01,640 --> 00:02:08,430
+Na próxima vão mostrar pra vocês que é possível você automatizar algumas validações simples ou seja
+
+22
+00:02:08,430 --> 00:02:12,070
+o vejam é para o pai ter qualidade em determinado valor.
+
+23
+00:02:12,130 --> 00:02:19,680
+Está entre um intervalo outro determinado valor é obrigatório mostrar pra vocês é possível a gente aplicar
+
+24
+00:02:19,680 --> 00:02:27,550
+algumas validações no caso aqui a gente pode até ter gestao ou simplesmente passar algo vazio ou colocar
+
+25
+00:02:27,550 --> 00:02:39,770
+aqui o preço pra sei se lá 12 reais e 96 centavos o desconto vai ser 30 por cento e eu vou colocar um
+
+26
+00:02:39,840 --> 00:02:47,450
+valor vazio ou inseri ele vai retornar um objeto 10 como o Brasil e o preço.
+
+27
+00:02:47,580 --> 00:02:50,070
+Alguma coisa eu vou colocar todos os valores envolvidos.
+
+28
+00:02:50,190 --> 00:02:56,680
+Vou colocar um desconto de três letras em SP sem desconto não faz sentido.
+
+29
+00:02:57,190 --> 00:03:05,320
+Vou colocar aqui um valor negativo por exemplo menos 15 reais e 55 meu valor o Brasil enviado.
+
+30
+00:03:05,480 --> 00:03:11,190
+Eu tenho um produto 11 que tem o nome Brasil que tem um preço negativo e tem um desconto não está entre
+
+31
+00:03:11,190 --> 00:03:12,750
+um intervalo de 0 e 1.
+
+32
+00:03:13,440 --> 00:03:16,710
+Então decidi olhar aqui no banco de dados.
+
+33
+00:03:16,800 --> 00:03:23,460
+Não existe nenhuma ligação que impede esse tipo de dado no nosso banco de dados e nós vamos precisar
+
+34
+00:03:23,460 --> 00:03:25,850
+aplicar algumas validações no Mocha pra vocês.
+
+35
+00:03:26,270 --> 00:03:32,160
+A gente pode aplicar validações simples claro que validações mais complexas vai exigir que você implemente
+
+36
+00:03:32,160 --> 00:03:38,640
+sim as regras mas algumas validações simples a gente já tem integrado isso a partir da validação do
+
+37
+00:03:38,640 --> 00:03:42,330
+próprio Jabor ou mostra isso na próxima aula pra vocês e até lá.

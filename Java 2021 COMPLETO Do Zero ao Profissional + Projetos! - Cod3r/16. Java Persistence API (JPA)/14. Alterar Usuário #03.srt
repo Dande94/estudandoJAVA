@@ -1,0 +1,195 @@
+1
+00:00:00,260 --> 00:00:06,900
+Pessoal agora vou mostrar para vocês o terceiro cenário de alterar o usuário e então eu vou criar aqui
+
+2
+00:00:06,900 --> 00:00:09,800
+uma nova classe em classe.
+
+3
+00:00:09,820 --> 00:00:13,640
+O nome da classe vai ser alterado.
+
+4
+00:00:13,700 --> 00:00:20,020
+Usuário 3 e eu vou criar aqui um método.
+
+5
+00:00:20,450 --> 00:00:27,750
+E nós vamos copiar aqui alterar o usuário 2 para gente pegar esse exemplo aqui e verificar que quando
+
+6
+00:00:27,750 --> 00:00:34,790
+você tira o objeto do Estado gerenciado a gente não vai ter esse comportamento que aconteceu no passado.
+
+7
+00:00:34,870 --> 00:00:37,660
+é pra gente tirar o objeto do Estado gerenciado.
+
+8
+00:00:37,670 --> 00:00:50,250
+Basta você colocar aqui ao menos pontuou BTS ou seja diz anexar o desassociar e aqui você passa a distância
+
+9
+00:00:50,250 --> 00:00:52,300
+do objeto que você quer desassociar.
+
+10
+00:00:52,380 --> 00:00:59,160
+Tanto faz antes do site nome ou depois coloca o Itachi antes de fazer qualquer tipo de alteração no
+
+11
+00:00:59,160 --> 00:00:59,760
+usuário.
+
+12
+00:00:59,760 --> 00:01:03,820
+Então Feito isso você vai perceber algo coloca aqui logo.
+
+13
+00:01:04,080 --> 00:01:10,440
+Atualmente ele está no banco de dados com Leonardo Leitão e eu vou voltar a tirar Leitão deixar apenas
+
+14
+00:01:10,440 --> 00:01:13,700
+o primeiro nome resgatado.
+
+15
+00:01:13,860 --> 00:01:20,110
+Ele frisa apenas Salete não fez um update já é esperado que isso não gere nenhum impacto continua ainda
+
+16
+00:01:20,310 --> 00:01:22,200
+com Ana Mato Leitão nesse caso.
+
+17
+00:01:22,200 --> 00:01:22,650
+Por quê.
+
+18
+00:01:22,650 --> 00:01:29,230
+Porque diz associei a questão do usuário não está mais no Estado gerenciado mesmo que eu coloque o site
+
+19
+00:01:29,230 --> 00:01:30,540
+no nome antes.
+
+20
+00:01:30,660 --> 00:01:32,500
+Também não é pra ele gerar por quê.
+
+21
+00:01:32,670 --> 00:01:39,570
+Mesmo que eu seja o nome ele não faz essa sincronia logo no momento certo ele vai esperar momentos oportunos
+
+22
+00:01:39,570 --> 00:01:42,980
+e fazer um flash e mandar as alterações pro banco de dados.
+
+23
+00:01:43,020 --> 00:01:48,480
+Ou seja dentro de uma transação seu objeto tá no Estado gerenciado não é qualquer mudança que ele vai
+
+24
+00:01:48,480 --> 00:01:53,690
+lá no banco de dados fazer uma piada ele meio que espera um tempo no momento certo quando for fechar
+
+25
+00:01:53,700 --> 00:01:57,880
+transação aí sim que ele vai no banco e altera mais confuso detalhes.
+
+26
+00:01:58,140 --> 00:02:04,260
+Ele não vai digamos assim sincronizar o usuário a não ser não vai autorizar o usuário a não ser que
+
+27
+00:02:04,260 --> 00:02:09,340
+eu criei aqui por exemplo disso comente essa linha e faça um merge.
+
+28
+00:02:09,420 --> 00:02:15,890
+Aí sim o médio vai pegar o usuário que está não está no Estado gerenciado torna ele o Estado gerenciado
+
+29
+00:02:15,900 --> 00:02:20,040
+faz a persistência então mostrar pra vocês agora.
+
+30
+00:02:20,250 --> 00:02:28,500
+Fiz o teste logo depois eu fiz o Merge e aí sim ele fez o Salete e depois fez um segundo Salete e fez
+
+31
+00:02:28,560 --> 00:02:30,330
+um update pra inserir o usuário.
+
+32
+00:02:30,750 --> 00:02:36,900
+Então se a gente olhar o resultado agora tem um lado que é exatamente o nome que aqui se eu colocar
+
+33
+00:02:36,900 --> 00:02:42,650
+Leonardo Moura Leitão nome completo executado.
+
+34
+00:02:42,900 --> 00:02:50,610
+Você vai ver que ele vai alterar o usuário mas como eu não quero ficar um ano completo vou voltar aqui
+
+35
+00:02:50,620 --> 00:02:51,810
+grato pelo primeiro nome
+
+36
+00:02:55,670 --> 00:02:57,430
+terão feito isso.
+
+37
+00:02:57,790 --> 00:03:03,610
+Fizemos o nosso terceiro exercício e o foco foi exatamente mostrar para você a função de teste ou até
+
+38
+00:03:03,620 --> 00:03:10,510
+subir e colocar antes do usuário que a função que é responsável por tornar o objeto ou tirar o objeto
+
+39
+00:03:10,510 --> 00:03:12,190
+do Estado gerenciado.
+
+40
+00:03:12,190 --> 00:03:19,500
+E aí você garante que ele só irá ser alterado e persistido se ele realmente foi explicitamente colocar
+
+41
+00:03:19,590 --> 00:03:19,940
+de.
+
+42
+00:03:19,990 --> 00:03:23,580
+Trabalhando com sistemas do tipo B que.
+
+43
+00:03:24,070 --> 00:03:30,280
+Os dados vieram do franchising está entrando na sua API por exemplo feito em Java e você acabou de criar
+
+44
+00:03:30,280 --> 00:03:32,370
+um objeto com os dados do franchising.
+
+45
+00:03:32,380 --> 00:03:38,110
+Quando você cria um objeto do zero esse é o objeto que está num estado não gerenciado então não é qualquer
+
+46
+00:03:38,110 --> 00:03:44,530
+mudança que você vai fazer que vai sincronizar no banco mas quando você faz uma consulta para obter
+
+47
+00:03:44,530 --> 00:03:51,320
+um objeto do banco de dados aí sim esse objeto dentro de um contexto transacional estará no estado sincronizado.
+
+48
+00:03:51,340 --> 00:03:52,520
+Então fico por aqui.
+
+49
+00:03:52,630 --> 00:03:58,390
+Na próxima aula a gente continua e nós vamos trabalhar com a exclusão exatamente isso é até para o mal.

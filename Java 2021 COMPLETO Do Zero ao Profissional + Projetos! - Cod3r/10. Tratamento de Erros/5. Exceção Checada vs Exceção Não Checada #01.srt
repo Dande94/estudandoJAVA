@@ -1,0 +1,547 @@
+1
+00:00:00,160 --> 00:00:07,650
+Pessoal normalmente eu mostro para vocês um algo teórico e depois passo um exercício mais especificamente
+
+2
+00:00:07,650 --> 00:00:12,600
+neste caso vou fazer o seguinte eu vou mostrar um exercício e depois a gente vai para a pasta e olhe
+
+3
+00:00:12,600 --> 00:00:19,890
+pra entender um pouco mais o que acontece fazer o seguinte Aqui eu vou criar um clássico ou chamar por
+
+4
+00:00:19,890 --> 00:00:23,000
+exemplo a máquina checada.
+
+5
+00:00:23,730 --> 00:00:32,580
+Ingressos não cheque cada um amigo meu grande aqui mais para a gente fala um pouquinho de exceção checada
+
+6
+00:00:32,570 --> 00:00:33,960
+e essa não checar.
+
+7
+00:00:34,370 --> 00:00:45,460
+Então basicamente eu vou criar aqui dois metros vou criar aqui lá estáticos ou qualquer blog gera erro
+
+8
+00:00:48,310 --> 00:00:52,960
+e vou criar um outro método desse que vai ser o Gera Erro 2.
+
+9
+00:00:53,580 --> 00:01:04,710
+E aqui eu falo o seguinte eu vou chamar o Gera eu vou chamar aqueles dois e vou gerar um erro no método
+
+10
+00:01:04,760 --> 00:01:06,000
+e gerar um erro no método.
+
+11
+00:01:06,060 --> 00:01:08,000
+Como é que eu faço para gerar um erro.
+
+12
+00:01:08,010 --> 00:01:15,150
+Na verdade você pode distanciar um erro ou colocar que eu vou criar o meu genérico com certa vantagem
+
+13
+00:01:17,840 --> 00:01:23,190
+ou simplesmente posso passar aqui por exemplo a mensagem de erro ocorreu
+
+14
+00:01:26,330 --> 00:01:31,830
+bem legal.
+
+15
+00:01:32,000 --> 00:01:36,680
+Eram e vão gerar um novo eu.
+
+16
+00:01:36,950 --> 00:01:40,240
+Só que em vez de se levantar percebe que não vai ser simplesmente a que serve.
+
+17
+00:01:40,270 --> 00:01:46,430
+Eu coloquei vou colocar o seguinte ocorreu um erro bem legal 0 2 0 0 2 3.
+
+18
+00:01:46,430 --> 00:01:53,930
+Vou colocar aqui só pra gente chegou no final colocar fim se usar esse código.
+
+19
+00:01:54,410 --> 00:01:55,480
+O que vai acontecer.
+
+20
+00:01:55,500 --> 00:02:02,060
+Você acha que não vai acontecer nada vai mostrar simplesmente a mensagem de erro aqui no console e tal
+
+21
+00:02:02,060 --> 00:02:03,850
+não foi tratado ainda.
+
+22
+00:02:04,190 --> 00:02:08,350
+Nesse caso seu azar não vai acontecer absolutamente nada.
+
+23
+00:02:08,360 --> 00:02:09,710
+Simplesmente mostra o fim.
+
+24
+00:02:09,700 --> 00:02:10,450
+Porquê.
+
+25
+00:02:10,760 --> 00:02:16,190
+Porque não basta você criar um hino não basta não assistencial é um erro.
+
+26
+00:02:16,370 --> 00:02:22,890
+Ele é uma exceção a um erro em Java quando erro mas esse caso especificamente trabalhando com essa ação
+
+27
+00:02:22,960 --> 00:02:25,180
+essa ação é uma classe como classe.
+
+28
+00:02:25,180 --> 00:02:34,100
+Você cria novas instâncias como classes você tem ataque de herança você tem por exemplo sabe o que herda
+
+29
+00:02:34,150 --> 00:02:37,650
+e recebe o que é roubo a partir de trouxa.
+
+30
+00:02:37,660 --> 00:02:41,220
+Você tem outro filho que é o erro que você vai definir na autoestima.
+
+31
+00:02:41,280 --> 00:02:47,510
+Ao mesmo erro que era dinheiro e aí você vai definir tudo e verá que de classes e também a partir das
+
+32
+00:02:47,510 --> 00:02:49,270
+classes você criam as instâncias.
+
+33
+00:02:49,280 --> 00:02:55,610
+Mas não basta você criar uma instância um eu ele precisa ser lançado pra lançar um erro você tem uma
+
+34
+00:02:55,610 --> 00:03:02,070
+palavrinha especial em Hijab que também usa a palavra reservado da linguagem que eu sou.
+
+35
+00:03:02,220 --> 00:03:08,940
+Ou seja frouxo é algo que você está lançando então um troll quer dizer lançar em outras palavras dizendo
+
+36
+00:03:08,950 --> 00:03:16,640
+o lance em um novo erro do tipo o lanterna recebe um com essa mensagem digo aqui de tal forma que nesse
+
+37
+00:03:16,640 --> 00:03:24,470
+momento executando você vai perceber que foi gerado uma ação e a essa ação começou a partir dessa classe.
+
+38
+00:03:24,830 --> 00:03:32,630
+Começou no Metro do meio metro meio chamou o gera e que na linha 3 foi gerado exatamente nesse ponto
+
+39
+00:03:32,630 --> 00:03:39,400
+aqui certo ou seja não basta você criar primeiro por Camacho você criar o erro você tem que chamar palavrinha
+
+40
+00:03:39,390 --> 00:03:46,310
+troll ou seja lançar um erro daí o nome da classe Problem algo que pode ser lançado seja tudo o que
+
+41
+00:03:46,820 --> 00:03:53,250
+era da classe prólogo é algo que você pode chamar troll mio nome da classe eu não posso dar um troll
+
+42
+00:03:53,260 --> 00:04:02,450
+mil por exemplo colocar from my string eu não posso fazer isso porque sei que a linguagem detecta que
+
+43
+00:04:02,450 --> 00:04:07,810
+eu só posso lançar algo que anda de fogo ou algo que pode ser lançado.
+
+44
+00:04:07,820 --> 00:04:13,800
+Então a partir dessa classe para o problema eu posso ter qualquer coisa que eu posso chamar junto com
+
+45
+00:04:13,820 --> 00:04:14,610
+o troll.
+
+46
+00:04:14,640 --> 00:04:20,330
+Isso significa que você está jogando algo que vai quebrar o fluxo da sua aplicação e vai botar pra quem
+
+47
+00:04:20,330 --> 00:04:20,750
+chamou.
+
+48
+00:04:20,860 --> 00:04:26,420
+Ou seja no momento que na linha 13 eu faço alguma coisa eu lembro que na linha 3 eu tentei chamar alguma
+
+49
+00:04:26,420 --> 00:04:31,310
+coisa que depois bateu gerar erro porque eu já sabe que ele nunca vai chegar nessa linha e então uma
+
+50
+00:04:31,310 --> 00:04:33,170
+linha que nunca pode ser chamada.
+
+51
+00:04:33,560 --> 00:04:40,460
+Provavelmente até mais nunca vai chegar nessa linha ou seja ele não vai usar tal fluxo normal ele interrompe
+
+52
+00:04:40,460 --> 00:04:43,540
+a execução e volta pra quem chamou exatamente na linha 6.
+
+53
+00:04:44,060 --> 00:04:51,740
+Então nesse caso você percebe que eu tenho a possibilidade de tratar ou não esse erro eu vou até fazer
+
+54
+00:04:51,740 --> 00:04:53,790
+o seguinte vou deixar assim certo.
+
+55
+00:04:53,900 --> 00:04:59,180
+Nesse caso eu tenho a possibilidade de não tratar o porquê porque que é uma escolha minha uma vez que
+
+56
+00:04:59,180 --> 00:05:02,100
+eu lancei uma exceção no título anterior excepto um.
+
+57
+00:05:02,570 --> 00:05:10,910
+Eu tenho uma exceção não checada ou não verificada e não é algo que não é o fato de você tem a liberdade
+
+58
+00:05:10,910 --> 00:05:13,520
+de escolher se você quer ou não tratar o erro.
+
+59
+00:05:13,610 --> 00:05:23,410
+Então você pode dizer que é uma exceção não checada ou não verificada ou seja o compilador te dá a escolha
+
+60
+00:05:23,420 --> 00:05:26,210
+se você quer ou não tratar o erro.
+
+61
+00:05:26,360 --> 00:05:31,620
+Você percebe que não Jerônimo o erro de compilação o fato de eu não ter tratado ou simplesmente traduz
+
+62
+00:05:31,630 --> 00:05:38,690
+se quiser ou não é o que eu posso selecionar esse trecho como onde autorizei controle.
+
+63
+00:05:38,840 --> 00:05:45,850
+Talvez a máquina de vocês trate este blog que ele vai envolver e nesse caso como lanterna de sabichão
+
+64
+00:05:46,050 --> 00:05:53,000
+é filha de recebe toda classe que termina com essa abaixo acaba sendo filho de Access não sei que você
+
+65
+00:05:53,000 --> 00:05:54,340
+queria enganar as pessoas né.
+
+66
+00:05:54,770 --> 00:06:01,550
+Mas o fato é que a vantagem de CPU é uma classe que pertence ao Java e não precisa importar ela e ela
+
+67
+00:06:01,610 --> 00:06:09,550
+herda de excepção aqui do mesmo jeito eu posso posso usar o Quiet e o pole fica ou seja o trato coloco
+
+68
+00:06:09,580 --> 00:06:15,740
+um tipo mais genérico e posso receber digamos assim tipos mais específicos então nesse caso eu posso
+
+69
+00:06:15,740 --> 00:06:21,970
+tanto colocar essa ação mais genérica como posso colocar aqui especificamente lanterna Sérgio.
+
+70
+00:06:22,130 --> 00:06:29,430
+E aí se eu quiser eu posso console a mensagem de erro por exemplo System assistem ao tipo de Alien e.net
+
+71
+00:06:29,500 --> 00:06:36,690
+mensais ou seja a mensagem associada ao que foi gerado que você vai ver ocorreu um erro bem legal.
+
+72
+00:06:36,830 --> 00:06:43,810
+Era um fim do meu programa mas eu não fui obrigado a tratar o erro mesmo gerando uma exceção de Guantánamo.
+
+73
+00:06:43,820 --> 00:06:45,630
+Eu só tratei porque eu quis.
+
+74
+00:06:45,780 --> 00:06:51,010
+E o fato de não tratar pode até fazer o seu programa interromper de forma abrupta o que estava acontecendo.
+
+75
+00:06:51,010 --> 00:06:58,640
+Mas foi uma escolha minha definir se eu quero ou não tratar o bueiro já aqui embaixo e que não significa
+
+76
+00:06:58,670 --> 00:07:02,130
+que essa é uma exceção checada como uma exceção checada.
+
+77
+00:07:02,130 --> 00:07:03,190
+Quem não tem problema nenhum.
+
+78
+00:07:03,210 --> 00:07:06,640
+O que eu não estou lançando nessa ação simplesmente criei essa ação.
+
+79
+00:07:06,650 --> 00:07:10,880
+Você pode até ter uma função que retornam essa ação não tem nenhum problema.
+
+80
+00:07:11,270 --> 00:07:19,040
+Mas aqui no caso eu posso andar um ou seja agora sim eu estou lançando uma exceção só que se eu tentar
+
+81
+00:07:19,040 --> 00:07:24,820
+executar esse código você vai perceber que o problema é um problema mais sério está um problema de compilação
+
+82
+00:07:24,830 --> 00:07:26,580
+não vou conseguir compilar o meu colo.
+
+83
+00:07:26,580 --> 00:07:27,120
+Por quê.
+
+84
+00:07:27,170 --> 00:07:34,520
+Porque essa é uma exceção checada como essas são checadas você é obrigado a colocar na assinatura do
+
+85
+00:07:34,520 --> 00:07:37,160
+Metro que você lança esse tipo de ação.
+
+86
+00:07:37,160 --> 00:07:37,850
+Como assim.
+
+87
+00:07:37,850 --> 00:07:43,760
+Como é que eu vou explicar que na assinatura do Metro lanço essa essa ação então para isso você vai
+
+88
+00:07:43,760 --> 00:07:47,450
+usar outra palavrinha chamada trolls no plural.
+
+89
+00:07:47,540 --> 00:07:56,000
+Aqui é troll singular que trolls no plural ou seja eu posso lançar ações do tipo Sérgio.
+
+90
+00:07:56,390 --> 00:08:01,280
+Ou seja você precisa deixar claro que essa ação é verificado ou checado.
+
+91
+00:08:01,280 --> 00:08:16,660
+Você precisa deixar claro na assinatura o que eu tenho essa ação checada é certo e aqui eu tenho essa
+
+92
+00:08:16,780 --> 00:08:19,320
+ação não checada.
+
+93
+00:08:19,370 --> 00:08:29,690
+Basta colocar aqui em maiúsculo não checada é ou não verificado certo ou essa ação não verificada aqui
+
+94
+00:08:29,840 --> 00:08:36,050
+uma vez que eu tenho essa ação checada por Jabhat fossa colocar um troll na assinatura do método de
+
+95
+00:08:36,050 --> 00:08:41,660
+tal forma que você percebe que agora não estou tendo mais problema que antes eu estava tendo problema.
+
+96
+00:08:41,660 --> 00:08:42,100
+Por quê.
+
+97
+00:08:42,110 --> 00:08:48,110
+Por que não essa ação verificado então automaticamente eu preciso declarar que nesse método eu lanço
+
+98
+00:08:48,110 --> 00:08:48,900
+essa ação.
+
+99
+00:08:48,910 --> 00:08:55,400
+Então não estava dando nenhum problema aqui porque é notado um problema que aqui para mim não chegou
+
+100
+00:08:55,400 --> 00:08:58,730
+nada nenhuma informação de que esse método lançou essa ação.
+
+101
+00:08:58,730 --> 00:09:04,120
+Eu até poderia aqui dentro ou lançar uma exceção já tratei ela então coloca aqui o bloco traficante
+
+102
+00:09:04,530 --> 00:09:09,830
+e aqui embaixo eu coloco por exemplo.
+
+103
+00:09:10,190 --> 00:09:13,840
+Que legal você percebe que agora não tem o porquê.
+
+104
+00:09:13,860 --> 00:09:20,930
+Porque aqui eu tratei o termo internamente da função o mais que eu lance uma exceção checada eu tratei
+
+105
+00:09:20,930 --> 00:09:27,890
+dentro da função de tal forma que aqui não tem perigo chegar a essa é e quando ele colocou ocorreu um
+
+106
+00:09:27,890 --> 00:09:31,010
+erro bem legal depois que legal terminou.
+
+107
+00:09:31,190 --> 00:09:38,000
+Mais sim eu não tratar o erro aqui e lançar uma exceção checada como eu falei pra vocês eu sou obrigado
+
+108
+00:09:38,090 --> 00:09:46,160
+a definir aqui que esse método lançam essa ação ou seja essa ação checada eu preciso obrigatoriamente
+
+109
+00:09:46,160 --> 00:09:49,600
+tratar essa exceção no ponto que eu estou chamando o método.
+
+110
+00:09:49,610 --> 00:09:56,930
+2 Eu até posso ignorar o tratamento e essa ação se eu fizer por exemplo que o método nem também pode
+
+111
+00:09:56,930 --> 00:10:01,290
+lançar essa ação percebe aí o compilador vai dizer assim você.
+
+112
+00:10:01,430 --> 00:10:07,430
+Se essa função lançam essa ação e você não quer se responsabilizar pelo tratamento pode jogar pelo outro
+
+113
+00:10:07,430 --> 00:10:12,870
+método chamado no caso aqui como método meu primeiro ele simplesmente vai sair do seu programa de forma
+
+114
+00:10:12,870 --> 00:10:18,820
+abrupta executando gerou um problema e no final das contas ele mostrou que ocorreu um problema bem legal
+
+115
+00:10:18,830 --> 00:10:26,120
+2 que é essa mensagem mas se você não quer lançar no máximo meio você é obrigado a trabalhar e o que
+
+116
+00:10:26,120 --> 00:10:29,780
+eu tenho que colocar o traficante.
+
+117
+00:10:29,800 --> 00:10:35,960
+E aí você vai colocar o que é exatamente o mesmo se você quiser tratar de forma ainda mais genérica
+
+118
+00:10:35,960 --> 00:10:42,560
+você pode colocar aqui outro de algo qualquer coisa Catroga pode ser tratado dentro de um site e aqui
+
+119
+00:10:42,560 --> 00:10:49,550
+eu posso colocar um ponto de mensagem colocando aqui você tem a possibilidade de mostrar a mensagem
+
+120
+00:10:49,550 --> 00:10:53,400
+de erro ocorreu um erro bem legal e ocorreu um erro.
+
+121
+00:10:53,430 --> 00:11:03,630
+°2 você até pode por exemplo também colocar aqui de forma explícita que você lança um jantar e recebe
+
+122
+00:11:03,710 --> 00:11:09,780
+um certo mas isso não vai forçar o tratamento de erro que eu posso simplesmente tirar isso.
+
+123
+00:11:10,550 --> 00:11:11,720
+Você vai ver que vai.
+
+124
+00:11:11,750 --> 00:11:13,700
+Nenhum problema vai ser gerado por quem.
+
+125
+00:11:13,760 --> 00:11:17,700
+Porque essa ação de plantar não há necessidade.
+
+126
+00:11:17,740 --> 00:11:24,440
+Se não há obrigatoriedade de você tratar o erro você trata se quiser porque é algo opcional tem esses
+
+127
+00:11:24,440 --> 00:11:26,840
+dois grandes grupos de exceção.
+
+128
+00:11:26,930 --> 00:11:33,380
+Você tem essas ações que são checadas porque as que o compilador vai checar se você declarou no metro
+
+129
+00:11:33,380 --> 00:11:39,460
+que lança essa ação e obrigatoriamente você precisa tratar essa ação ou mesmo lançar para o outro método
+
+130
+00:11:39,500 --> 00:11:40,030
+tratar.
+
+131
+00:11:40,040 --> 00:11:46,970
+Existem as acepções que são não checadas ou seja você tem a liberdade de declarar um metro você não
+
+132
+00:11:46,970 --> 00:11:48,660
+necessariamente precisa declarar.
+
+133
+00:11:48,900 --> 00:11:55,100
+E você também não necessariamente precisa tratar o erro por mais que o eu possa então peso o programa
+
+134
+00:11:55,100 --> 00:12:01,100
+de forma abrupta se você não tratar mais você não tem essa obrigatoriedade certa e também não precisa
+
+135
+00:12:01,100 --> 00:12:07,380
+declarar o método aí eu achei pra vocês os dois grandes grupos de assessores na próxima onde vai falar
+
+136
+00:12:07,400 --> 00:12:13,820
+mais um pouquinho sobre isso serve pra mim só pra você entender alguns detalhes a mais e depois continuou
+
+137
+00:12:13,820 --> 00:12:16,650
+com outros exercícios dentro do nosso capítulo de tratamento de.

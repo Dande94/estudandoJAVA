@@ -1,0 +1,351 @@
+1
+00:00:00,220 --> 00:00:05,560
+Pessoal nosso objetivo na sala bens que a gente já tem o nosso projeto configurado como Drive B do JB
+
+2
+00:00:05,580 --> 00:00:07,470
+BC pra mais que.
+
+3
+00:00:07,770 --> 00:00:13,680
+A gente já viu como é que criou uma conexão com o banco de dados inclusive a parte do código que a gente
+
+4
+00:00:13,680 --> 00:00:20,220
+faz aqui e agora o nosso objetivo é criar um banco de dados criar um data base dentro do mais que ele
+
+5
+00:00:20,730 --> 00:00:23,380
+poderia criar um database diretamente no banco.
+
+6
+00:00:23,370 --> 00:00:27,860
+Poderia você vir aqui ao clicar aqui e coloca o nome do banco de dados.
+
+7
+00:00:27,870 --> 00:00:30,870
+Por exemplo o curso anda lá em Java.
+
+8
+00:00:30,960 --> 00:00:32,160
+Clique em Aplicar.
+
+9
+00:00:32,280 --> 00:00:33,740
+Ele vai criar um banco para pra gente.
+
+10
+00:00:33,740 --> 00:00:36,680
+Só que eu quero criar o banco a partir do Java.
+
+11
+00:00:36,750 --> 00:00:43,860
+Ela fazem isso porque eu quero o que eu quero na pessoal porque é só pra gente testar não só para a
+
+12
+00:00:43,860 --> 00:00:50,340
+gente ver que é possível criar um banco de dados a partir do Java embora você na prática você vai acabar
+
+13
+00:00:50,340 --> 00:00:55,710
+criando banco diretamente na ferramenta de banco de dados seja diretamente a partir de uma ferramenta
+
+14
+00:00:55,710 --> 00:01:00,000
+visual como é o que mente demais Kelly ou a partilha de comando.
+
+15
+00:01:00,030 --> 00:01:03,450
+Então via de regra você acaba não criando banco de dados.
+
+16
+00:01:03,450 --> 00:01:05,190
+A parte do código Java certo.
+
+17
+00:01:05,430 --> 00:01:06,630
+Então vamos lá.
+
+18
+00:01:06,990 --> 00:01:11,570
+Eu vou criar aqui dentro de JD sei uma nova classe.
+
+19
+00:01:12,000 --> 00:01:25,130
+Então vou colocar aqui criar banco vou também colocar um método que nós vamos reaproveitar a partir
+
+20
+00:01:25,130 --> 00:01:33,450
+de conexão que nós usamos no exemplo passar só para ter que digitar tudo de novo ideal pra você digitar
+
+21
+00:01:33,450 --> 00:01:36,690
+até para aí relembrando o que a gente fez na aula passada.
+
+22
+00:01:37,210 --> 00:01:44,130
+Mas nesse caso eu vou copiar e vou dar um como aditivo para ele importar já importou tudo e está gerando
+
+23
+00:01:44,130 --> 00:01:47,390
+erro porque eu preciso outra tratar.
+
+24
+00:01:47,490 --> 00:01:54,900
+A questão da recepção SQL e recebe bom eu preciso lançar essa ação aqui eu posso colocar um cursor do
+
+25
+00:01:54,900 --> 00:01:57,310
+mouse em cima e o Control.
+
+26
+00:01:57,360 --> 00:02:03,780
+No meu caso como John ele vai dar duas formas de você resolver isso e fazer um show rural.
+
+27
+00:02:03,900 --> 00:02:11,550
+Ou seja circundar esse trecho de código contra a enquete ou a gente vai fazer um troll na declaração
+
+28
+00:02:11,550 --> 00:02:18,330
+do Metro Man eu vou usar a mesma estratégia do passado colocar aqui no metro no meio trouxe SQL e que
+
+29
+00:02:18,330 --> 00:02:26,130
+serve um pouco essa é uma exceção checada tal pronto uma vez que eu coloquei que ao RL o usuário a senha
+
+30
+00:02:26,580 --> 00:02:35,130
+e coloquei aqui a minha conexão eu vou tirar essa parte aqui do string e colocar no console e vou agora
+
+31
+00:02:35,130 --> 00:02:38,350
+fazer uma execução de um comando no banco de dados.
+
+32
+00:02:38,370 --> 00:02:45,570
+Para isso eu vou usar o estritamente estritamente e aí você está vendo venda ao deus mente que é uma
+
+33
+00:02:45,570 --> 00:02:50,770
+interface que tá dentro de mim com ponto mais que ele ponto Jd. BC.
+
+34
+00:02:50,940 --> 00:02:58,220
+Será que é esse importe eu quero pegar eu avisei pra vocês que não porque a gente vai usar os impostos
+
+35
+00:02:58,240 --> 00:03:02,130
+de estão dentro de Java ou SQL é a mesma coisa.
+
+36
+00:03:02,330 --> 00:03:08,430
+O estreitamento eu vou querer usar a parte de Java ponto SQL então diria que os textos.
+
+37
+00:03:08,460 --> 00:03:11,010
+Normalmente a gente usa a sigla St.
+
+38
+00:03:11,080 --> 00:03:13,020
+NT certo.
+
+39
+00:03:13,220 --> 00:03:16,290
+Isso tem um nome que não tem no final.
+
+40
+00:03:16,290 --> 00:03:18,740
+Mas você pode colocar o nome completo sem problemas.
+
+41
+00:03:19,040 --> 00:03:21,100
+E aqui para a gente criar um estreitamento.
+
+42
+00:03:21,110 --> 00:03:28,910
+Eu vou usar a conexão de conexão ponto que eles estão criando aqui os testemunhos.
+
+43
+00:03:29,050 --> 00:03:33,430
+Eu a partir dele vou usar tal comando SQL para criar um novo banco de dados.
+
+44
+00:03:33,440 --> 00:03:38,440
+Temos que colocar o que hoje tem menos ponto execute ou seja executar.
+
+45
+00:03:38,450 --> 00:03:43,850
+E aqui eu passo o meu comando SQL que eu quero executar no banco de dados.
+
+46
+00:03:43,850 --> 00:03:50,090
+Nesse caso eu vou Eu vou padronizar o nosso capitão eu vou tentar o máximo possível e seguir essa padronização
+
+47
+00:03:50,090 --> 00:03:56,720
+que é todas as palavras reservadas do SQL eu vou colocar em letra maiúscula da Extreme só para dar uma
+
+48
+00:03:56,720 --> 00:04:01,490
+diferenciada mais a SQL não a linguagem Key sensitive.
+
+49
+00:04:01,550 --> 00:04:06,710
+Então você pode por exemplo colocar a cliente Data Base com letra minúscula sem problema nenhum com
+
+50
+00:04:06,710 --> 00:04:07,820
+letras alternadas.
+
+51
+00:04:07,820 --> 00:04:15,140
+Se você quiser mas eu vou colocar que eu criei data bens e o nome do data base que vai ser em relação
+
+52
+00:04:15,140 --> 00:04:21,860
+ao nosso uso eu vou colocar a letra minúscula certo ao urso pode ser hífen Java ou andar lá em Java
+
+53
+00:04:21,860 --> 00:04:27,140
+tanto faz e com isso a gente tem o nosso primeiro comando SQL.
+
+54
+00:04:27,200 --> 00:04:28,730
+Pronto pra ser executado.
+
+55
+00:04:28,730 --> 00:04:35,480
+O banco de dados se a gente olhar lá no banco de dados não tem esse banco chamado Curso Java e agora
+
+56
+00:04:35,480 --> 00:04:41,570
+vai executar isso como eu vou colocar aqui só pra dizer que o banco foi criado com sucesso um banco
+
+57
+00:04:42,590 --> 00:04:47,470
+criado com sucesso.
+
+58
+00:04:48,320 --> 00:04:50,420
+Ele colocou o banco criado com sucesso.
+
+59
+00:04:50,470 --> 00:04:57,170
+Espero eu da marinha francesa conhecimento que tenha sido criado e foi criado na verdade o curso braço
+
+60
+00:04:57,260 --> 00:04:58,980
+japonês anda lá em Java.
+
+61
+00:04:59,060 --> 00:05:04,190
+Se eu tentar executar novamente esse comando vai gerar um erro porque o banco já existe e foi tentado
+
+62
+00:05:04,190 --> 00:05:05,200
+criar novamente.
+
+63
+00:05:05,210 --> 00:05:10,070
+Não pode criar um banco se o Java ou seja banco de dados existe.
+
+64
+00:05:10,430 --> 00:05:23,710
+Você pode usar no SQL um comando que é o seguinte Já criei data Beiriz erros mas estes sistemas que
+
+65
+00:05:23,800 --> 00:05:30,170
+mais deu certo ao criar o banco de dados se não existir o nome de banco de dados nesse curso Java então
+
+66
+00:05:30,170 --> 00:05:35,560
+nessa forma eu consigo adaptar quantas vezes eu quiser esse comando que não vai dar problema certo.
+
+67
+00:05:35,900 --> 00:05:39,410
+Então testando para ver onde você vai ver o resultado.
+
+68
+00:05:39,410 --> 00:05:45,790
+Agora ele vai sempre funcionar de forma bem sucedida embora ele não de fato criou banco de dados porque
+
+69
+00:05:45,800 --> 00:05:51,710
+o banco de dados já existia então isso é uma forma que você pode ter e garantir que esse comando sempre
+
+70
+00:05:51,710 --> 00:05:52,690
+será executado.
+
+71
+00:05:52,700 --> 00:05:59,360
+Ele só irá gerar impacto digamos assim se o banco não existir então nesse caso o custo Java já existia.
+
+72
+00:05:59,360 --> 00:06:06,500
+Se eu colocar cursos Java andar na E2 e acertar você vai ver o que ele colocou o banco criado com sucesso
+
+73
+00:06:06,520 --> 00:06:11,860
+e se tornar um refresh aqui você vai perceber que ele foi criado um novo banco de dados com tempo que
+
+74
+00:06:11,900 --> 00:06:14,450
+não existia e que eu posso dar ao banco.
+
+75
+00:06:14,460 --> 00:06:24,370
+Então Drop esquema eu posso até dar ao patamar pelo Java ou qualquer Kill Drop data bens e aquisições
+
+76
+00:06:24,450 --> 00:06:30,980
+a possibilidade executando aqui ou ele Groupon banco nesse caso a mensagem está sempre fixa na então
+
+77
+00:06:31,310 --> 00:06:38,060
+vamos ignorar a mensagem Por enquanto vou dar um refresh Andropov banco e se fazer de novo ele não vai
+
+78
+00:06:38,060 --> 00:06:40,380
+dar problema poupei ok.
+
+79
+00:06:40,460 --> 00:06:46,410
+Ele só vai propor ao banco se existir ou seja diferente do cliente data base mas o que eu quero mesmo
+
+80
+00:06:46,410 --> 00:06:54,200
+aqui é manter o cliente e manter o terço norte existisse e apontar para o banco o custo Java que é o
+
+81
+00:06:54,200 --> 00:06:56,820
+banco que nós vamos usar durante esse capítulo.
+
+82
+00:06:56,990 --> 00:07:02,030
+Então nosso segundo exército Primeiro a gente testar a conexão no segundo a gente já executou nosso
+
+83
+00:07:02,030 --> 00:07:08,270
+primeiro comando diretamente no banco de dados notando que a gente não acessou nenhum banco específico
+
+84
+00:07:08,660 --> 00:07:14,450
+acessamos apenas o local Luxe e a partir da próxima aula é que a gente vai precisar referenciar o banco
+
+85
+00:07:14,450 --> 00:07:19,640
+de dados que a gente acabou de criar na sala porque a pena para os moldes precisar criar uma tabela
+
+86
+00:07:19,640 --> 00:07:22,140
+dentro do banco de dados e disparar na próxima.
+
+87
+00:07:22,200 --> 00:07:27,130
+Pra gente construir a tabela agora dentro do banco de dados curso Java que nós acabamos de criar na
+
+88
+00:07:27,150 --> 00:07:27,490
+sala.

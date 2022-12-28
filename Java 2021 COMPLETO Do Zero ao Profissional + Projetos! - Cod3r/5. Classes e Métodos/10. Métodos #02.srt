@@ -1,0 +1,555 @@
+1
+00:00:00,390 --> 00:00:07,620
+Agora nós vamos voltar para o nosso exercício produto especificamente para a classe produto certo.
+
+2
+00:00:07,620 --> 00:00:14,550
+Imagine o seguinte cenário eu quero criar um método que pertence à classe produto que vai retornar para
+
+3
+00:00:14,550 --> 00:00:16,910
+mim o preço com desconto.
+
+4
+00:00:17,160 --> 00:00:19,300
+O que é que você imagina.
+
+5
+00:00:19,400 --> 00:00:24,150
+Você pode até pausar o vídeo para que eu fizesse a explicação antes de mostrar o resultado que você
+
+6
+00:00:24,150 --> 00:00:25,380
+imagina que será.
+
+7
+00:00:25,470 --> 00:00:33,270
+Quais são os parâmetros necessários para você calcular o preço do produto com desconto e qual é o tipo
+
+8
+00:00:33,270 --> 00:00:37,680
+de retorno que esse método vai gerar ou seja quais são os parâmetros desse método.
+
+9
+00:00:37,680 --> 00:00:43,670
+Qual o tipo de retorno só pra antes de você precisa pausa agora não quer pouco para você pausa certo
+
+10
+00:00:44,010 --> 00:00:51,390
+o nome do método será para isso começando com letra minúscula com desconto.
+
+11
+00:00:51,390 --> 00:00:57,450
+Ele vai receber aqui alguns parâmetros pode não receber alguns parâmetros melhor dizendo esse método
+
+12
+00:00:57,450 --> 00:01:02,460
+vai ter um corpo do método que ele vai retornar um tipo que pode ser inteiro o que pode ser bullying
+
+13
+00:01:02,510 --> 00:01:06,630
+pode ser dado o que pode ser o tipo que você achar que é mais adequado.
+
+14
+00:01:06,630 --> 00:01:12,670
+Então minha pergunta é quais são os parâmetros ou se vai ter ou não vai ter parâmetro.
+
+15
+00:01:12,990 --> 00:01:18,390
+E qual é o tipo de retorno que você vai definir esse método e como esse método vai retornar alguma coisa
+
+16
+00:01:18,390 --> 00:01:24,240
+diferente de vazio porque eu preciso ter o preço com um desconto como resposta aqui dentro provavelmente
+
+17
+00:01:24,550 --> 00:01:24,790
+não.
+
+18
+00:01:24,790 --> 00:01:32,070
+Provavelmente que com certeza terá o item certo então se quiser pausar o vídeo agora você tenta descobrir
+
+19
+00:01:32,070 --> 00:01:37,470
+quais são os parâmetros se tem ou não os parâmetros se tiver quais são os parâmetros você vai receber
+
+20
+00:01:37,800 --> 00:01:43,470
+como entrada desse médico que vai calcular o preço com desconto e que tipo de retorno você irá retornar
+
+21
+00:01:43,830 --> 00:01:45,760
+a partir da chamada desse método.
+
+22
+00:01:45,810 --> 00:01:48,570
+Ou então vou continuar nesse caso pessoal.
+
+23
+00:01:48,600 --> 00:01:54,420
+O tipo de retorno claramente é o tipo de dado o pouco tempo que eu vou calcular para isso com desconto
+
+24
+00:01:54,720 --> 00:02:00,480
+preço com desconto também será um tipo de abuso então já vou dizer que vai tornar um dado e qual é os
+
+25
+00:02:00,480 --> 00:02:06,270
+parâmetros ou quais são os parâmetros que eu vou receber de entrada por método Preço Desconto.
+
+26
+00:02:06,270 --> 00:02:13,080
+Na verdade eu não irei receber nenhum parâmetro para calcular o preço com desconto porque eu não vou
+
+27
+00:02:13,080 --> 00:02:20,210
+receber nenhum parâmetro porque dentro do objeto produto eu já tenho tudo aquilo que eu preciso pra
+
+28
+00:02:20,220 --> 00:02:27,060
+calcular o preço com desconto já tem o preço já tem um desconto se eu não tivesse esses dados eu precisaria
+
+29
+00:02:27,060 --> 00:02:33,720
+receber esses dados a partir dos parâmetros do metro mais como objeto já tem esses dados.
+
+30
+00:02:33,720 --> 00:02:36,410
+Significa que não preciso receber isso de fora.
+
+31
+00:02:36,540 --> 00:02:41,670
+Essa é uma das grandes vantagens da orientação a objeto e o fato é que você tem os comportamentos e
+
+32
+00:02:41,670 --> 00:02:45,020
+os dados próximos dentro do objeto.
+
+33
+00:02:45,060 --> 00:02:52,170
+O fato de você ter o dado muito próximo do comportamento faz com que você já consiga acessar esses dados
+
+34
+00:02:52,170 --> 00:02:56,340
+sem necessariamente receber isso a partir de parâmetros.
+
+35
+00:02:56,400 --> 00:02:58,920
+Então o que preciso receber o preço com desconto.
+
+36
+00:02:58,920 --> 00:03:02,370
+Na verdade eu já tenho essas informações que eu posso fazer.
+
+37
+00:03:02,940 --> 00:03:10,080
+O preço irá receber um preço multiplicado por menos.
+
+38
+00:03:10,230 --> 00:03:11,570
+O desconto.
+
+39
+00:03:11,580 --> 00:03:15,330
+Aqui eu já consigo diretamente acesso a essas informações.
+
+40
+00:03:15,330 --> 00:03:21,630
+Ou seja não recebo nada como entrada e retorno o valor do dado como é que eu faço agora para acessar
+
+41
+00:03:21,750 --> 00:03:25,630
+esse método esse comportamento lá no produto teste.
+
+42
+00:03:26,010 --> 00:03:31,560
+Em vez de ter que me preocupar em calcular isso a cada repetição nesse sempre para calcular a mesma
+
+43
+00:03:31,560 --> 00:03:38,460
+informação como é o caso que eu ter essa operação de cálculo do preço com desconto replicado em vários
+
+44
+00:03:38,460 --> 00:03:39,190
+locais.
+
+45
+00:03:39,210 --> 00:03:42,170
+Agora eu posso simplesmente substituir isso.
+
+46
+00:03:42,360 --> 00:03:44,590
+O real fator a gente quer faturar.
+
+47
+00:03:44,610 --> 00:03:48,530
+Quando você modifica o Código vai melhorando ele com tempo.
+
+48
+00:03:48,930 --> 00:03:55,100
+Então já dá a dica que é muito comum às vezes as pessoas quererem diretamente para um código simples
+
+49
+00:03:55,200 --> 00:04:01,190
+otimizado um código bem organizado e muitas vezes isso acaba não será a melhor estratégia.
+
+50
+00:04:01,190 --> 00:04:05,210
+Você pode se for um algoritmo mais simples fazer funcionar rapidamente.
+
+51
+00:04:05,280 --> 00:04:11,190
+E aí você vai melhorando com o passar do tempo você vai percebendo algumas possibilidades de pontos
+
+52
+00:04:11,190 --> 00:04:16,280
+de melhoria de mãos aqui tem um ponto que eu estou replicando a mesma lógica mais uma vez.
+
+53
+00:04:16,320 --> 00:04:21,600
+Então é melhor criar um método e reutilizar essa lógica assim como é o caso que nós temos.
+
+54
+00:04:21,600 --> 00:04:27,600
+Esse é um tipo de cálculo que vai ser muito recorrente se você tem pressa e tem um desconto porque não
+
+55
+00:04:27,600 --> 00:04:32,860
+colocar essa responsabilidade dentro da classe e não precisar ficar repetindo esse cálculo.
+
+56
+00:04:32,940 --> 00:04:35,150
+Sempre que você precisar dele.
+
+57
+00:04:35,200 --> 00:04:38,330
+Nesse caso eu vou substituir um fator.
+
+58
+00:04:38,550 --> 00:04:41,510
+Eu tenho agora o desconto tem o preço.
+
+59
+00:04:41,510 --> 00:04:46,720
+Eu tenho um preço com desconto que nesse caso que é o método do site estão clicando aqui.
+
+60
+00:04:47,100 --> 00:04:57,510
+Eu tenho um preço com desconto e aqui também eu tenho o preço com desconto preço com desconto lembrando
+
+61
+00:04:57,510 --> 00:05:02,650
+que no caso eu chamo eu estou chamando método.
+
+62
+00:05:02,730 --> 00:05:04,550
+E quando eu chamo sem parênteses.
+
+63
+00:05:04,550 --> 00:05:06,720
+Estou chamando um atributo.
+
+64
+00:05:07,110 --> 00:05:13,040
+Então aqui ou quando você faz esse tipo é executada aqui tá funcionando.
+
+65
+00:05:13,280 --> 00:05:15,250
+Continua exatamente o mesmo valor.
+
+66
+00:05:15,650 --> 00:05:22,750
+Agora acessando o valor do método como esse método retornou alguma coisa eu já atribuiu o retorno para
+
+67
+00:05:23,000 --> 00:05:23,790
+o tipo dado.
+
+68
+00:05:23,800 --> 00:05:29,500
+Peguei essas informações somente para calcular a média do carro e dividir por dois e no final mostrei
+
+69
+00:05:29,500 --> 00:05:30,260
+o resultado.
+
+70
+00:05:30,590 --> 00:05:38,150
+Olha que interessante quando eu faço aqui um system aos vinte ali fica claro que eu tenho aqui uma classe
+
+71
+00:05:38,670 --> 00:05:42,920
+que foi um tipo chamado System canal acesso ponto Alt.
+
+72
+00:05:42,920 --> 00:05:48,860
+Isso aqui só é um atributo um método é um atributo ou um comportamento o Audi.
+
+73
+00:05:49,190 --> 00:05:52,600
+Ele é um atributo porque se ele fosse o método ele estaria assim.
+
+74
+00:05:53,210 --> 00:05:54,310
+Mas não está.
+
+75
+00:05:54,410 --> 00:06:00,180
+Ele é um atributo e principalmente pessoal é um atributo ou um comportamento ou seja um atributo ou
+
+76
+00:06:00,180 --> 00:06:01,130
+um método.
+
+77
+00:06:01,190 --> 00:06:03,860
+No caso do paciente ali claramente ele é um método.
+
+78
+00:06:03,860 --> 00:06:04,310
+Por quê.
+
+79
+00:06:04,310 --> 00:06:07,030
+Porque eu tenho os parentes está certo.
+
+80
+00:06:07,100 --> 00:06:14,180
+Então aqui eu tenho duas coisas acontecendo eu estou tanto acessando um atributo a partir do Audi como
+
+81
+00:06:14,180 --> 00:06:15,470
+dentro do Audi.
+
+82
+00:06:15,470 --> 00:06:23,210
+Eu tenho um comportamento método chamado para Ingelheim ou seja já falei pra vocês anteriormente o primo
+
+83
+00:06:23,240 --> 00:06:29,300
+Aline como sendo um comportamento ou método pertence ao Audi e o Audi é um atributo que pertence ao
+
+84
+00:06:29,300 --> 00:06:35,920
+System System uma classe média que a gente está começando agora dá nome às coisas atribuindo o comportamento
+
+85
+00:06:35,920 --> 00:06:43,080
+a entender que quando você chama o método você tem parênteses mesmo quando você não tem nenhum parâmetro.
+
+86
+00:06:43,100 --> 00:06:49,670
+Se chama os parênteses certo então não posso nesse caso me dar ao luxo de chamar preço com desconto
+
+87
+00:06:49,970 --> 00:06:55,520
+sem colocar os parentes porque o Java entende que isso é um comportamento e é um método e mesmo que
+
+88
+00:06:55,520 --> 00:07:00,090
+não tenha parâmetros que você obrigatoriamente precisa colocar os parentes como é o caso aqui.
+
+89
+00:07:00,520 --> 00:07:05,700
+Então nesse exercício nós criamos um comportamento ou seja um método.
+
+90
+00:07:06,020 --> 00:07:11,630
+Esse método não recebe nenhum parâmetro mas ele não recebe meu parâmetro porque eu já tenho as informações
+
+91
+00:07:11,630 --> 00:07:12,150
+aqui.
+
+92
+00:07:12,200 --> 00:07:12,830
+Tá certo.
+
+93
+00:07:13,220 --> 00:07:19,130
+Então se você quiser ler mais eu preciso colocar aqui o parâmetro pra sempre pra ter um desconto extra
+
+94
+00:07:19,140 --> 00:07:20,380
+posso pode.
+
+95
+00:07:20,390 --> 00:07:30,520
+Você pode se quiser colocar um novo parâmetro a da ABL desconto do gerente hoje.
+
+96
+00:07:31,190 --> 00:07:35,750
+Então nesse caso eu sou obrigado a passar um outro valor que é o desconto do gerente.
+
+97
+00:07:35,750 --> 00:07:42,260
+Então por que nesse caso o desconto do gerente é zero o cara não tentou conseguir barganhar um novo
+
+98
+00:07:42,260 --> 00:07:44,030
+valor então ficou zero.
+
+99
+00:07:44,030 --> 00:07:49,620
+Nesse outro caso o que ele deu mais 10 por cento de desconto então coloco 0 1 aqui.
+
+100
+00:07:49,670 --> 00:07:55,910
+Claro que eu preciso considerar também esse valor aqui ao desconto do gerente eu posso pegar o desconto
+
+101
+00:07:56,510 --> 00:08:04,030
+e colocar aqui mais o desconto do gerente ou seja se tinha 25 por cento ele deu mais 10 a passar 75
+
+102
+00:08:04,380 --> 00:08:07,310
+e aqui nesse cenário que possas estar novamente.
+
+103
+00:08:07,310 --> 00:08:15,920
+Agora eu tenho um valor um pouco menor certo ser colocados zero executar entre 28 e 29 colocar 10 por
+
+104
+00:08:15,950 --> 00:08:24,920
+cento que ele gerou 38 29 se eu colocar aqui mais 10 por cento o que mexeu um pouquinho no valor.
+
+105
+00:08:25,460 --> 00:08:31,990
+Nesse caso se você quiser é possível ter dois métodos então posso duplicar isso.
+
+106
+00:08:32,120 --> 00:08:36,240
+Eu tenho um metro aqui e não posso com os dois tem o mesmo valor o mesmo valor aqui.
+
+107
+00:08:36,440 --> 00:08:39,630
+Por exemplo aqui pra x equiparar 6 x.
+
+108
+00:08:39,660 --> 00:08:45,990
+Eu falei pra você que não tem problema mesmo que eu coloque isso aqui pra ser um Flows.
+
+109
+00:08:46,190 --> 00:08:50,620
+Isso não faz parte da assinatura do Metro apenas o nome e os parâmetros.
+
+110
+00:08:50,640 --> 00:08:56,960
+Aqui eu posso não ter parâmetro nenhum caso não queira adicionar um desconto adicional e aqui eu vou
+
+111
+00:08:56,960 --> 00:08:58,840
+colocar para ele retornar um dado.
+
+112
+00:08:58,970 --> 00:09:08,480
+Eu até poderia deixar o Flores certo mas com essa expressão aqui vai ou não eu precisaria fazer um teste
+
+113
+00:09:08,770 --> 00:09:12,940
+fazem no caixa ele vai funcionar corretamente tão só colocar um parênteses aqui.
+
+114
+00:09:13,370 --> 00:09:19,890
+Aí sim ele faz a conversão pegue esse resultado inteiro faz o caixa retorno flows mas eu não quero retornar
+
+115
+00:09:19,910 --> 00:09:27,110
+um slot que acarretam não posso colocar aqui para retornar da ABL e nesse outro caso recebo um desconto
+
+116
+00:09:27,110 --> 00:09:33,220
+adicional de uns dois metros com o mesmo nome impresso com desconto que não recebe um parâmetro que
+
+117
+00:09:33,230 --> 00:09:39,230
+calcula o preço normal e agora tem um preço com desconto que recebe um parâmetro para um desconto adicional
+
+118
+00:09:39,230 --> 00:09:42,290
+como esse desconto adicional desconto do gerente.
+
+119
+00:09:42,620 --> 00:09:48,500
+Ele não tem um atributo aqui dentro de produto você pode passar na hora de chamar o desconto e parte
+
+120
+00:09:48,500 --> 00:09:53,930
+das informações já tem preço desconto e o desconto o gerente é algo que eu não tenho naquele momento
+
+121
+00:09:53,930 --> 00:09:59,480
+que vai ser passado o link manualmente e na hora da venda e aí você serve como parâmetro para a função
+
+122
+00:09:59,480 --> 00:10:06,070
+ou nós temos dois métodos com o mesmo nome isso é perfeitamente possível em Java algumas linguagens
+
+123
+00:10:06,070 --> 00:10:12,330
+não é possível mas em Java Central posso chamar o primeiro método que opera o ponto preço com desconto
+
+124
+00:10:12,340 --> 00:10:13,680
+se passa nada.
+
+125
+00:10:13,680 --> 00:10:19,110
+E aqui ele sabe isso se colocar no meu caso que é o Command com o cursor do mouse.
+
+126
+00:10:19,130 --> 00:10:25,210
+Eu acho que vocês vai sei se for obviamente Windows e Linux contra o segurado.
+
+127
+00:10:25,240 --> 00:10:30,380
+Ele vai mostrar esse mundial como passando o mouse em cima ele vai mostrar um link.
+
+128
+00:10:30,520 --> 00:10:34,640
+Se você clicar aqui ele vai navegar por um metro correspondente.
+
+129
+00:10:34,900 --> 00:10:38,680
+Então ele sabe olhando aqui que esse cara não tem parâmetro.
+
+130
+00:10:38,740 --> 00:10:41,850
+Então como eu fico aqui ele vai para um metro que não tem parâmetro.
+
+131
+00:10:41,920 --> 00:10:47,550
+Se eu voltar aqui e ficar nesse outro metro ele sabe que esse método recebe um parâmetro do tipo W.
+
+132
+00:10:47,620 --> 00:10:49,710
+Clicando aqui ele já navega pra cá.
+
+133
+00:10:49,730 --> 00:10:56,660
+Ou seja o Java consegue detectar quando você está chamando um método ou outro mesmo que o método tenha
+
+134
+00:10:56,660 --> 00:10:57,990
+exatamente o mesmo nome.
+
+135
+00:10:58,000 --> 00:11:03,550
+No meu caso o que é certo mais se você não quiser criar esse método não tem problema nenhum só quis
+
+136
+00:11:03,550 --> 00:11:09,460
+mostrar que existe essa possibilidade também de três nomes iguais contanto que os parâmetros que você
+
+137
+00:11:09,460 --> 00:11:13,450
+vai passar para o Metro sejam diferentes só pra mostrar um pouco mais.
+
+138
+00:11:13,480 --> 00:11:18,730
+Deixar um pouco mais é o nosso exemplo então na próxima aula vou lançar um desafio pra vocês criarem
+
+139
+00:11:18,730 --> 00:11:21,580
+um método dentro de data e até lá.

@@ -1,0 +1,391 @@
+1
+00:00:00,180 --> 00:00:05,310
+Retomada que nosso exercício da calculadora agora nós vamos voltar mas vamos criar melhor dizendo ou
+
+2
+00:00:05,310 --> 00:00:09,090
+faltar na verdade nem para a classe botão nós vamos implementar ela.
+
+3
+00:00:09,180 --> 00:00:15,720
+Mas antes disso eu quero fazer só observação que é o seguinte quando a gente executa a nossa aplicação
+
+4
+00:00:15,720 --> 00:00:23,730
+aqui se você comparar com a calculadora nas perguntas que podem surgir inicialmente era amado e eu queria
+
+5
+00:00:23,730 --> 00:00:32,070
+que aqui a parte de cima não fique o título da aplicação que ela ficasse da mesma cor na parte de baixo.
+
+6
+00:00:32,100 --> 00:00:33,170
+Isso é possível.
+
+7
+00:00:33,180 --> 00:00:40,110
+Acredito que não seja possível porque essa coisa que ela é uma coisa que é definida pelo fio da própria
+
+8
+00:00:40,110 --> 00:00:46,980
+o seu operacional tal mas o que você pode fazer é construí la tirar essa barra e construir essa barra
+
+9
+00:00:46,980 --> 00:00:52,710
+dentro da sua aplicação ou se criar um componente que represente uma barra colocar que os ícones por
+
+10
+00:00:52,710 --> 00:00:58,590
+exemplo algo tão redondinho tá dentro dessa barra nas formas que você tem pra fazer com que essa barra
+
+11
+00:00:58,950 --> 00:01:00,400
+não apareça na medalha.
+
+12
+00:01:00,450 --> 00:01:08,820
+A forma que tem pra você assumir essa ma 7 tem uma função chamada decorrida que você coloca tudo significa
+
+13
+00:01:08,820 --> 00:01:14,760
+que ele vai tirar a barra a sua aplicação e aí tirando a barra da sua aplicação você tem a capacidade
+
+14
+00:01:15,150 --> 00:01:20,880
+de colocar uma barrinha sua em cima com os botões tal mas não é o nosso caso não vou me preocupar com
+
+15
+00:01:20,880 --> 00:01:25,770
+esse detalhe visual aqui vou deixar a barquinho Branquinha não se atentaram mentalmente você pode bem
+
+16
+00:01:25,800 --> 00:01:31,330
+querer saber sobre isso e aqui no caso uma das alternativas é você criar sua própria Barrinha e coloca
+
+17
+00:01:31,400 --> 00:01:32,460
+com o que você quer.
+
+18
+00:01:32,790 --> 00:01:33,390
+Então vamos lá.
+
+19
+00:01:33,390 --> 00:01:43,460
+Voltando aqui para o botão nós vamos criar um construtor de botão e eu vou querer receber dois parâmetros
+
+20
+00:01:43,470 --> 00:01:49,070
+se você olhar para a aplicação calculadora estou sempre voltando pra ela porque ela é nossa referência
+
+21
+00:01:49,080 --> 00:01:57,330
+se você olhar para ela você percebe que precisar passar para o botão dois argumentos e o texto que eu
+
+22
+00:01:57,330 --> 00:02:03,720
+quero exibir no leilão do botão e o outro vai ser com que eu vou querer receber pra pintar lutam por
+
+23
+00:02:03,720 --> 00:02:09,720
+exemplo de laranja e cinza ou de cinza mais escura mas temos três cores aqui nessa cores cinza mais
+
+24
+00:02:09,720 --> 00:02:17,000
+escuro essa cor do meio dos números nem com a vírgula cinza mais claro aqui do lado das operações matemáticas
+
+25
+00:02:17,020 --> 00:02:17,970
+da laranja.
+
+26
+00:02:18,360 --> 00:02:24,910
+Então eu vou querer refletir na construção do meu objeto esses dois parâmetros que é o leigo e a cor.
+
+27
+00:02:25,230 --> 00:02:32,910
+Então Lei no sentido estrito eu vou chamar aqui de lei e o outro pode ser o próprio objeto tipo cola
+
+28
+00:02:33,390 --> 00:02:41,550
+que vai ser a cor que vai ser passada pelo meu botão e volta a colocar a questão já que o método é set
+
+29
+00:02:42,860 --> 00:02:53,560
+não passa aqui o texto como parâmetro vou passar aqui o 7 grau de cola marcou é pra ele realmente pintar
+
+30
+00:02:53,600 --> 00:03:00,650
+tem que colocar o 7 ou PEC pra Madeira que também vai ser uma opção importante.
+
+31
+00:03:00,720 --> 00:03:09,100
+Com relação à fonética você definiu uma fonte igual fonte que eu usei no display que é essa fonte que
+
+32
+00:03:09,100 --> 00:03:13,870
+eu corri e o promotor nessa fonte.
+
+33
+00:03:13,920 --> 00:03:21,660
+Só que eu vou querer criar uma fonte 25 no verso que eu criei o botão temporariamente só pra essa aula
+
+34
+00:03:21,770 --> 00:03:27,640
+eu vou citar que o teclado terá o layout layout de Grigio Layout.
+
+35
+00:03:27,760 --> 00:03:36,660
+Então tem que decidir ali alguns eu vou dizer que vai ser que a calculadora só para a gente tem um referencial
+
+36
+00:03:37,380 --> 00:03:47,260
+2 3 4 linhas 2 3 4 5 5 linhas e quatro colunas porque então Primeiro ele pergunta a quantidade de linhas
+
+37
+00:03:47,270 --> 00:03:52,010
+que eu vou colocar cinco linhas e quatro colunas.
+
+38
+00:03:52,220 --> 00:04:03,420
+E aqui eu posso adicionar um botão o texto primeiro texto vai ser a máquina ou uma calculadora sempre
+
+39
+00:04:03,420 --> 00:04:13,530
+que eu fui fechando a calculadora ou pagar que o aceita o coloca aqui e acolá vai ser esse cinza que
+
+40
+00:04:13,530 --> 00:04:22,280
+ali pode selecionar as cores Assim informo forma vou colocar aquilo que eles fazem não cola até que
+
+41
+00:04:22,280 --> 00:04:33,500
+o cinza escuro então coloca a cor cinza escuro serve de cola.
+
+42
+00:04:33,840 --> 00:04:48,270
+Eu já passei aqui a RGB ou duplicar isso aqui aí vou ter um cinza claro e o hotel laranja laranja vai
+
+43
+00:04:48,370 --> 00:04:56,030
+ser um sector cinza escuro com cinza claro e cor laranja.
+
+44
+00:04:56,100 --> 00:05:04,820
+E aqui eu vou receber os três parâmetros o verde e o azul estão coloca na calculadora que vou pagar
+
+45
+00:05:04,820 --> 00:05:09,840
+aqui o colam pica pra pegar a cor cinza escuro.
+
+46
+00:05:10,080 --> 00:05:21,510
+Então aqui vai depender de qual pegue o THC porque vai ser meu 8 mil 8 mil 8 então coloca tinham 8 8
+
+47
+00:05:22,100 --> 00:05:25,950
+ou qualidade que o cinza mais claro.
+
+48
+00:05:26,140 --> 00:05:38,540
+A calculadora coloca aqui e fica o cinza mais claro que vai ser esse que pode ser 99 99 99.
+
+49
+00:05:38,840 --> 00:05:51,860
+Vou fazer face até 99 na qual aproximada e finalmente pegar a calculadora mais uma vez e vou pagar aqui.
+
+50
+00:05:52,030 --> 00:05:55,980
+A cor do laranja.
+
+51
+00:05:56,040 --> 00:06:11,810
+Tive acesso a 242 163 64 142 160 3 e qual outro valor longo 60.
+
+52
+00:06:12,030 --> 00:06:21,510
+é no caso desse primeiro botão você vai ser um cinza escuro então toca qualquer cor cinza escuro.
+
+53
+00:06:21,550 --> 00:06:31,480
+Depois eu vou colocar aqui mais um botão do time e vai ser o mais e menos colocar aqui mais ou menos
+
+54
+00:06:32,370 --> 00:06:33,760
+no meio.
+
+55
+00:06:33,750 --> 00:06:37,000
+Vai ser um cinza escuro de novo um duplicado novo.
+
+56
+00:06:37,090 --> 00:06:41,870
+Eu tenho um percentual e esse percentual nem vou implementar na aplicação analógica.
+
+57
+00:06:41,890 --> 00:06:44,870
+Depois a gente vai mudar isso aqui que eu vou fazer só de forma temporária.
+
+58
+00:06:45,430 --> 00:06:48,220
+Então nós temos aqui o cinza escuro.
+
+59
+00:06:48,220 --> 00:06:57,670
+Vou colocar aqui depois dessa mesma linha vou colocar uma divisão exatamente aqui vai ser a cor laranja
+
+60
+00:06:58,120 --> 00:06:59,390
+laranja.
+
+61
+00:06:59,480 --> 00:07:12,340
+Vou duplicar isso aqui tem mais quatro linhas agora eu vou ter o número 7 8 9 7 8 9 e a alteração vai
+
+62
+00:07:12,340 --> 00:07:23,680
+ser uma explicação que eu posso colocar aqui um asterisco e aqui vai ser cinza claro cinza claro e cinza
+
+63
+00:07:23,680 --> 00:07:27,250
+claro e a cor de baixo continua laranja.
+
+64
+00:07:27,340 --> 00:07:35,260
+O que é uma operação então só pra efeito de teste eu vou publicar aqui mais essas quatro linhas aqui
+
+65
+00:07:35,680 --> 00:07:37,720
+explicar que vai ser.
+
+66
+00:07:37,720 --> 00:07:46,240
+Nós temos quantas linhas temos cinco linhas 1 2 3 4 5 ou salvar.
+
+67
+00:07:46,670 --> 00:07:50,330
+Nós temos aqui Algodões 1 2 3 4 5 linhas.
+
+68
+00:07:50,620 --> 00:07:56,490
+Os botões eles não estão sendo exibida de forma interessante fazer mais alguns ajustes aqui com relação
+
+69
+00:07:56,490 --> 00:08:02,230
+ao botão nós temos o Beckham no colo e o 7 Open que nós temos atualmente.
+
+70
+00:08:02,680 --> 00:08:10,300
+Vou colocar aqui o sétimo borda para a gente usar aqui um blog da Factory Factory.
+
+71
+00:08:11,250 --> 00:08:23,570
+Criei lá borda e eu vou passar aqui pra lá embora a cor preta black está novamente pra gente.
+
+72
+00:08:23,580 --> 00:08:34,180
+Meu resultado agora tem as cores pretas com o nosso botões tá faltando a gente definir para a cor da
+
+73
+00:08:34,180 --> 00:08:34,950
+fonte.
+
+74
+00:08:34,950 --> 00:08:38,500
+Então tenho aqui o background qual vai ser que eu recebi.
+
+75
+00:08:38,680 --> 00:08:50,230
+O Fora °2 graus vai sim a cor branca do de lá porque ele não passou por exemplo a cor da fonte pra ser
+
+76
+00:08:50,230 --> 00:08:53,440
+também um parâmetro qualquer no caso da calculadora.
+
+77
+00:08:53,440 --> 00:08:59,230
+Todas as fontes são brancas ou então como não preciso personalizar isso então estou fazendo de acordo
+
+78
+00:08:59,230 --> 00:09:00,760
+com aquilo que eu preciso.
+
+79
+00:09:00,760 --> 00:09:07,270
+Se eu tivesse fontes diferentes eu iria colocar aquilo chutou para receber um valor diferente.
+
+80
+00:09:07,270 --> 00:09:12,760
+Mas como não preciso dessa flexibilidade não sei se no botão Eu estou colocando na cor da fonte pra
+
+81
+00:09:12,760 --> 00:09:15,710
+ser amarrada e contando mais uma vez.
+
+82
+00:09:15,760 --> 00:09:21,670
+A gente tem aqui ao nosso calculadora ainda os botões repetidos tem alguns botões que vão ocupar mais
+
+83
+00:09:21,670 --> 00:09:22,330
+espaço.
+
+84
+00:09:22,330 --> 00:09:27,970
+Por isso que a gente não vai conseguir usar o grid Leal que brinde da Audi daria certo se você tivesse
+
+85
+00:09:27,970 --> 00:09:34,660
+todos os botões exatamente na mesma posição mas eu fui só mais para testar o botão do que propriamente
+
+86
+00:09:34,660 --> 00:09:35,720
+o teclado.
+
+87
+00:09:35,770 --> 00:09:41,510
+O teclado vai ser tema da próxima aula então coloquei aqui temporariamente esses botões usando o 7 Layout.
+
+88
+00:09:41,890 --> 00:09:45,180
+Mas tudo isso aqui vai morrer.
+
+89
+00:09:45,280 --> 00:09:50,800
+Não vou usar isso na próxima a gente vai implementar o layout que nós vamos precisar aplicar no teclado
+
+90
+00:09:50,830 --> 00:09:52,580
+para ter essa flexibilidade maior.
+
+91
+00:09:52,960 --> 00:10:00,030
+No nosso caso especificamente eu vou fazer esse botão a.C. e ocupar três espaços e o botão ocupa dois
+
+92
+00:10:00,030 --> 00:10:01,770
+espaço com a já vi anteriormente.
+
+93
+00:10:01,770 --> 00:10:08,670
+Todo o resto está comportado mas só o fato de ter o botão zero ocupar mais de duas casas já inviabiliza
+
+94
+00:10:08,790 --> 00:10:10,410
+o layout de grande Layout.
+
+95
+00:10:10,410 --> 00:10:16,310
+Não tem como a partir do original hoje você é para mais uma casa mais a partir do grande lealdade.
+
+96
+00:10:16,410 --> 00:10:21,680
+Aí sim você vai ter a possibilidade de um layout um pouco mais chato de usar como achar pra vocês.
+
+97
+00:10:21,750 --> 00:10:26,910
+Uma das possibilidades que você pode ler bem mais flexível também nesse sentido então fico por aqui.
+
+98
+00:10:26,970 --> 00:10:30,860
+Na próxima aulas use implementar o layout do nosso teclado e até.

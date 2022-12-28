@@ -1,0 +1,123 @@
+1
+00:00:00,190 --> 00:00:06,210
+Isto é escapismo mas vamos criar exercícios paralelos eu vou criar o exercício produto que eu comecei
+
+2
+00:00:06,210 --> 00:00:14,220
+na aula passada e vou propor agora um desafio que é vocês criarem a classe data e foi introduziu o conceito
+
+3
+00:00:14,220 --> 00:00:14,890
+de método.
+
+4
+00:00:14,890 --> 00:00:20,570
+Vou fazer o método um produto eu vou pedir pra vocês incrementar bem esse desafio formando um metro
+
+5
+00:00:20,590 --> 00:00:22,950
+quando for usar por exemplo com chutou.
+
+6
+00:00:23,100 --> 00:00:28,510
+Eu vou fazer o construtor na classe Produto eu vou pedir pra vocês incrementaram constou também na capacidade.
+
+7
+00:00:28,530 --> 00:00:33,180
+Depois a gente vai acabar mudando mas nesse começo a gente vai trabalhando paralelamente com a classe
+
+8
+00:00:33,180 --> 00:00:38,430
+Produto e a classe data sendo que o produto eu estou criando e a data vou estar passando para vocês
+
+9
+00:00:38,430 --> 00:00:44,320
+como desafio certo então o desafio vocês criarem uma classe data.
+
+10
+00:00:44,340 --> 00:00:49,200
+Vocês também vão criar uma classe data teste para a gente manter o padrão mas pode ser qualquer outro
+
+11
+00:00:49,200 --> 00:00:52,440
+nome Teste da Data Data meio.
+
+12
+00:00:52,500 --> 00:00:57,950
+Mas eu vou usar data e data teste 7 estão dentro da classe data.
+
+13
+00:00:57,950 --> 00:01:05,280
+Vocês vão criar três atributos dia mês e ano assim como criei três atributos no produto nome e preço
+
+14
+00:01:05,290 --> 00:01:06,180
+desconto.
+
+15
+00:01:06,190 --> 00:01:09,680
+Vocês vão criar três atributos dia mês e ano.
+
+16
+00:01:09,780 --> 00:01:16,770
+Não se preocupa agora em ter que restringia a aula e o quero restringir que ele só pode ser no mês do
+
+17
+00:01:16,770 --> 00:01:20,780
+número 1 ao número 12 e não se preocupar com isso com as validações.
+
+18
+00:01:20,790 --> 00:01:26,340
+Vamos ver se em outros momentos mas o fato é que eu quero que vocês criem uma classe com três atributos
+
+19
+00:01:26,340 --> 00:01:28,110
+dia mês e ano.
+
+20
+00:01:28,140 --> 00:01:34,070
+Vocês vão criar uma data teste em que dentro dessa data teste estará um método.
+
+21
+00:01:34,350 --> 00:01:38,780
+Vocês vão distanciar duas datas e você pode colocá la por quem quiser.
+
+22
+00:01:38,790 --> 00:01:51,240
+Primeiro de Outubro de 1933 a 10 de novembro de 2034 tanto faz a data você pode escolher o fato que
+
+23
+00:01:51,240 --> 00:01:57,720
+eu quero que você crie a classe define os três atributos dia mais um ano e dentro da classe data Tech.
+
+24
+00:01:57,740 --> 00:01:59,250
+Sim as duas datas.
+
+25
+00:01:59,250 --> 00:02:00,570
+Então esse é o desafio.
+
+26
+00:02:00,570 --> 00:02:06,000
+Ele é muito parecido com aquilo que eu já fiz no exemplo passado relativo ao produto então acho que
+
+27
+00:02:06,000 --> 00:02:08,110
+você não vai ter tanta dificuldade qualquer coisa.
+
+28
+00:02:08,130 --> 00:02:14,570
+Olha a classe é produto pra ver exatamente como foi feito mas se você puder fazer o máximo possível
+
+29
+00:02:14,580 --> 00:02:19,860
+se olhar o exercício passado vai ser um desafio a mais para vocês conseguirem fazer sem olhar absolutamente
+
+30
+00:02:19,860 --> 00:02:20,130
+nada.
+
+31
+00:02:20,130 --> 00:02:22,410
+Então fico por aqui aproximá lo da resposta.

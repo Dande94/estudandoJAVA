@@ -1,0 +1,459 @@
+1
+00:00:00,260 --> 00:00:07,650
+Só agora nós vamos criar as estruturas e aos que têm mais de duas possibilidades é pra essa gente Bauza
+
+2
+00:00:07,650 --> 00:00:14,510
+aos sete ele mostrar isso pra vocês na prática fica mais fácil do que tentar explicar agora só que falam
+
+3
+00:00:14,790 --> 00:00:22,710
+vão lá nas 11 criar um novo arquivo que eu vou chamar de chefe com E maiúsculo e uns com E maiúsculo
+
+4
+00:00:22,850 --> 00:00:27,630
+e o outro é f depois f se f coloca no aqui Finish.
+
+5
+00:00:27,690 --> 00:00:34,910
+Nós vamos criar um método e aqui dentro eu vou definiu meus Kane pra ficar um pouco mais dinâmico.
+
+6
+00:00:34,940 --> 00:00:43,630
+Enfim consegui ter variáveis diferentes entrada recebe mil cana vou colocar aqui o System ponto ponto
+
+7
+00:00:44,220 --> 00:00:51,020
+e vírgula já vou aqui no final colocar a entrada do Klaus pra gente fechar o escanteio.
+
+8
+00:00:51,030 --> 00:00:56,910
+No final eu vou pedir para o usuário digitar um valor do tipo d'água então vou colocar aqui ao sistema
+
+9
+00:00:56,910 --> 00:01:04,290
+de ponto aos ponto print e a ideia do exercício vai ser o seguinte o usuário vai digitar uma nota de
+
+10
+00:01:04,290 --> 00:01:14,540
+0 a 10 e a gente vai converter essa nota para um conceito A B C que tem a amais a menos BB+ B é bem
+
+11
+00:01:14,550 --> 00:01:21,000
+menos tem outras nuances mas vou querer converter apenas para o conceito A B C D e E que vai ter o mapeamento
+
+12
+00:01:21,410 --> 00:01:25,660
+de 8 pontos pra cima 8 pontos para o maior igual.
+
+13
+00:01:25,710 --> 00:01:34,470
+Nota 6 com nota B aí vai ter um mapeamento entre nota e conceito então aqui eu vou colocar digite digite
+
+14
+00:01:34,590 --> 00:01:47,040
+a nota anoto dois pontos dois passos pra não ficar grudado e logo depois faço uma nota recebi o valor
+
+15
+00:01:47,040 --> 00:01:55,880
+de entrada então na primeira verificação que eu vou fazer pra saber se a nota é invalidou não adepto
+
+16
+00:01:55,950 --> 00:02:01,940
+fica mais fácil que se eu verificar no primeiro e eu pegar todas as notas inválidas.
+
+17
+00:02:02,070 --> 00:02:04,030
+Depois eu não preciso mais me preocupar com isso.
+
+18
+00:02:04,050 --> 00:02:12,420
+Vou fazer o seguinte se a nota for maior do que 10 não posso colocar igual para igual nota válida ou
+
+19
+00:02:12,900 --> 00:02:20,250
+a nota for menor do que zero significa que eu tenho uma nota inválida ela nem pode ser maior do que
+
+20
+00:02:20,250 --> 00:02:21,860
+10 nem menor do que zero.
+
+21
+00:02:22,020 --> 00:02:34,560
+Aqui vou jogar system on em nota inválida e aí eu vou criar aqui o caso contrário eu vou ter um anota
+
+22
+00:02:34,560 --> 00:02:41,080
+falida nota a nota qualidade.
+
+23
+00:02:41,570 --> 00:02:49,150
+Pronto executado aqui esse nosso exemplo só para citar esse tal valor inicial coloca a nota 11 nota
+
+24
+00:02:49,160 --> 00:02:50,180
+inválida.
+
+25
+00:02:50,310 --> 00:02:59,560
+Vou tentar aqui na nota 10 nota válida pois está de novo nota zero nota válida e uma nota negativa menos
+
+26
+00:02:59,680 --> 00:03:07,170
+na privada ou seja essas duas situações estão sendo contempladas com erros e com elas mas vamos supor
+
+27
+00:03:07,200 --> 00:03:15,240
+que eu queira colocar por exemplo que aqui é o conceito a certo ou seja uma nota inválida ou ele vai
+
+28
+00:03:15,240 --> 00:03:21,120
+entrar aqui no conceituar fica claro que qualquer nota acreditavam entrar no conceitual mas não é qualquer
+
+29
+00:03:21,120 --> 00:03:27,580
+nota que tem um conceito há pouco a nota que tem conceituação as notas maiores ou iguais a 8 contam.
+
+30
+00:03:27,750 --> 00:03:33,270
+Então pra entrar nesse site eu preciso ter uma condição e eu posso fazer isso dessa forma ou dentro
+
+31
+00:03:33,270 --> 00:03:35,220
+do deus eu vou criar um f.
+
+32
+00:03:35,670 --> 00:03:42,660
+Ou seja poste é um F dentro de um FD um FDP DE JUDEUS posso postei um bloco dentro de outro certo assim
+
+33
+00:03:42,660 --> 00:03:49,260
+como eu tenho um bloco que representa a classe homem que é um bloco também o que é um método que também
+
+34
+00:03:49,260 --> 00:03:52,080
+tem associado um bloco e está dentro da classe.
+
+35
+00:03:52,440 --> 00:03:58,740
+Assim como esse bloco está dentro do homem eu posso ter um F dentro de um bloco meus e aqui eu posso
+
+36
+00:03:58,740 --> 00:04:07,700
+aplicar a seguinte lógica por exemplo nota tem que ser maior ou igual a 8 ponto e aqui eu posso definir
+
+37
+00:04:07,770 --> 00:04:14,520
+um bloco e colocar aqui o meu código o meu conceito a dentro de 8 contou significa que se a nota for
+
+38
+00:04:14,520 --> 00:04:19,500
+válida ele vai entrar aqui no RS e se ele entrar não é o seu eu vou verificar se a nota é maior ou igual
+
+39
+00:04:19,620 --> 00:04:20,340
+a 8 contou.
+
+40
+00:04:20,910 --> 00:04:28,260
+Então você está aqui meu código colocar nota 9 em conceito a qualquer valor nota 8 menor do que 8 não
+
+41
+00:04:28,260 --> 00:04:29,520
+vai achar nada.
+
+42
+00:04:29,520 --> 00:04:37,700
+Se isso for nota vale uma nota do tipo 12 vai dar nota inválido ou seja eu tenho dentro desse seus números
+
+43
+00:04:38,100 --> 00:04:44,160
+lá eu tenho uma outra forma de deixar esse código mais simples tem a forma que você.
+
+44
+00:04:44,280 --> 00:04:52,860
+Se você tirar as chaves aqui e fizer o que chama de CPF ou seja posso inclusive deixar sim ou dentro
+
+45
+00:04:52,860 --> 00:04:59,010
+do LC Eu tenho apenas uma única e única sentença digamos assim não é um único bloco associado só que
+
+46
+00:04:59,010 --> 00:05:05,950
+esse bloco associado então nesse caso eu tenho apenas esse código aqui associado ao deus e para ficar
+
+47
+00:05:05,950 --> 00:05:07,260
+mais simples ainda.
+
+48
+00:05:07,260 --> 00:05:09,250
+Eu acabo colocar isso na mesma linha.
+
+49
+00:05:10,030 --> 00:05:12,270
+A gente tá aí tentação pra ficar dessa forma.
+
+50
+00:05:12,310 --> 00:05:20,080
+Ou seja Deus seja associado a esse Deus se tem uma condição de entrada que é essa expressão aqui nota
+
+51
+00:05:20,080 --> 00:05:21,500
+maior igual a 8.
+
+52
+00:05:21,500 --> 00:05:27,430
+Contudo aí sim ele vai achar o conceituado executando vai dar exatamente o mesmo resultado se eu colocar
+
+53
+00:05:27,430 --> 00:05:34,780
+aqui em nota 9 conceituar se eu colocar nota 8 por exemplo não vai mostrar nada ali mais eu quero criar
+
+54
+00:05:34,780 --> 00:05:37,710
+um outro teste por exemplo não tem problema.
+
+55
+00:05:37,710 --> 00:05:44,470
+No final você pode colocar um outro deus e aí nesse outro Deus eu posso colocar o F dentro e dizer que
+
+56
+00:05:44,470 --> 00:05:52,090
+a nota é maior ou igual maior igual tinham aqui 6 pontos isso significa que eu vou poder imprimi que
+
+57
+00:05:52,090 --> 00:06:02,140
+o cara tem um conceito B o coloca na face dos duplos conceito B transitando a gente vai ver que o resultado.
+
+58
+00:06:02,140 --> 00:06:06,480
+Se eu colocar nota 8 ele vai achar que tem conceito B.
+
+59
+00:06:06,640 --> 00:06:13,450
+Se eu colocar aqui nota 9 ele mostrou aqui que tem um conceito e nota que ele só vai entrar em um desses
+
+60
+00:06:13,450 --> 00:06:20,260
+casos ou ele vai entrar no EF se ele entrar no inferno olha pra mais nada que tem depois ou ele vai
+
+61
+00:06:20,260 --> 00:06:25,730
+se ele não caio nessa lógica que essa expressão foi falsa ele vai olhar pra próxima ele vai entrar não
+
+62
+00:06:25,730 --> 00:06:26,370
+é.
+
+63
+00:06:26,650 --> 00:06:31,100
+Só que elas têm um F associado ele passa a se expressar verdadeira falsa.
+
+64
+00:06:31,210 --> 00:06:37,960
+Se for verdadeira ele executa essa linha e daqui ele já sai pelo final do código pra fechar a entrada
+
+65
+00:06:37,960 --> 00:06:38,970
+no nosso canal.
+
+66
+00:06:38,970 --> 00:06:46,360
+Eu posso até colocar aqui um system Audio frente ali pra gente colocar por um fim ou seja essa é uma
+
+67
+00:06:46,360 --> 00:06:50,180
+estrutura que ele só vai executar um dos blocos associados a ela.
+
+68
+00:06:50,740 --> 00:06:52,640
+Então aqui eu tenho um F.
+
+69
+00:06:52,650 --> 00:06:58,420
+Nesse caso eu também posso tirar aqui as chaves e colocar um EF teus quiser.
+
+70
+00:06:58,590 --> 00:07:06,620
+Dessa forma eu posso continuar duplicar essa linha aqui pra colocar aqui embaixo no caso 4 4.
+
+71
+00:07:06,780 --> 00:07:15,730
+Vai ser um conceito sei duplicar novamente eu votei 2 ponto 1 e o conceito D é caso contrário não foi
+
+72
+00:07:15,730 --> 00:07:25,420
+nenhum desses eu vou colocar o conceito e dessa forma temos vários cenários que podem ser executados
+
+73
+00:07:25,420 --> 00:07:27,970
+usando os pés.
+
+74
+00:07:28,240 --> 00:07:35,410
+Então nesse caso você obrigatoriamente vai iniciar esse fluxo com o wi fi inicial era obrigatório você
+
+75
+00:07:35,410 --> 00:07:41,920
+não pode começar com mais Deus do nada isso aqui vai gerar um erro de código porque Deus obrigatoriamente
+
+76
+00:07:41,920 --> 00:07:43,720
+tem estar associado com algum ex.
+
+77
+00:07:44,110 --> 00:07:45,960
+Então você começa com ele.
+
+78
+00:07:46,150 --> 00:07:48,510
+Você tem que os intermediários.
+
+79
+00:07:48,550 --> 00:07:56,130
+Ele pode ser um dentro do outro ou mesmo você pode colocar dessa forma e no final você pode ou não tem
+
+80
+00:07:56,140 --> 00:08:02,740
+um Deus lá como é que seria se você colocasse um código desse um dentro do outro ficaria assim não vou
+
+81
+00:08:02,740 --> 00:08:04,750
+jogar aqui embaixo só pra vocês verem.
+
+82
+00:08:05,140 --> 00:08:10,120
+Inclusive vou tirar aqui da galinha pra vocês verem só esse código solto aqui pra não confundir com
+
+83
+00:08:10,120 --> 00:08:17,700
+Tom Hanks aqui eu vou pegar todo esse esse bloco aqui vou colocar dentro do meus e aqui vou colocar
+
+84
+00:08:17,700 --> 00:08:18,700
+ele certo.
+
+85
+00:08:18,850 --> 00:08:26,530
+Esse é outro eu vou fazer aqui também colocar um bloco de código aqui vou colocar o outro vou pegar
+
+86
+00:08:26,980 --> 00:08:36,310
+isso aqui criar um bloco e colocar aqui vou pegar esse outro criar aqui Manaus colocar aqui e finalmente
+
+87
+00:08:36,310 --> 00:08:40,830
+cheguei no FFC puro no final ou seja o que você tem é um código.
+
+88
+00:08:40,830 --> 00:08:45,290
+Normalmente eu acabo não coloca nessa linha que meio século Vou dar como de D.
+
+89
+00:08:45,450 --> 00:08:54,110
+Nathalia e você tem uma estrutura tipo essa tipo de estrutura é muito mais complicada de verem.
+
+90
+00:08:54,110 --> 00:08:58,980
+Eu acho que é anterior que você tem uma estrutura mais mais comportada né.
+
+91
+00:08:58,990 --> 00:09:01,330
+Mesmo sem muitos alinhamentos né.
+
+92
+00:09:01,660 --> 00:09:09,220
+Então aqui eu posso pegar tudo isso comentar esse código e se você vai ver que o que está embaixo está
+
+93
+00:09:09,240 --> 00:09:10,190
+correto.
+
+94
+00:09:10,270 --> 00:09:20,110
+Por exemplo nota 10 conceitual mas até agora nota 9 também é conceitual a colocar com nota 8 conceito
+
+95
+00:09:20,110 --> 00:09:22,120
+B nota 7.
+
+96
+00:09:22,120 --> 00:09:25,450
+Também é conceito B nota 6.
+
+97
+00:09:25,530 --> 00:09:27,960
+Já é conceito C.
+
+98
+00:09:28,220 --> 00:09:31,990
+Eu vou falar por 4 nota 4 conceito D.
+
+99
+00:09:32,290 --> 00:09:40,480
+Nota 2 é conceitual e é qualquer outra coisa nota zero apresenta conceituar certo e se você digitar
+
+100
+00:09:40,480 --> 00:09:47,470
+qualquer valor diferente daquilo uma nota inválido ou seja isso aqui é uma estrutura equivalente a você
+
+101
+00:09:47,470 --> 00:09:51,460
+tem essa estrutura que sim então deletar as linhas
+
+102
+00:09:54,690 --> 00:10:01,820
+completei as minhas coubesse comentar esse trecho de código pra gente testar finalmente o nosso perfil
+
+103
+00:10:02,120 --> 00:10:07,340
+e evitar colocá colocando aqui alguns trechos mas depois eu vou colocar aqui.
+
+104
+00:10:07,340 --> 00:10:08,190
+Nota 7.
+
+105
+00:10:08,190 --> 00:10:11,780
+Conceito B nota 5 7 7.
+
+106
+00:10:12,020 --> 00:10:20,750
+Nota 3 conceito 6 finalmente nota um conceito e ou seja você tem a possibilidade de ter vários casos
+
+107
+00:10:20,810 --> 00:10:25,020
+e obviamente você tem a possibilidade de ter múltiplas sentenças aqui dentro.
+
+108
+00:10:25,020 --> 00:10:31,060
+Então se o cara tirou conceituar você pode por exemplo criar um outro brinde além.
+
+109
+00:10:31,080 --> 00:10:38,660
+Parabéns já que se trata de um bloco de código seja múltiplas sentenças de cortes 40 associadas dentro
+
+110
+00:10:38,660 --> 00:10:39,310
+de um bloco.
+
+111
+00:10:39,340 --> 00:10:42,070
+Isso pra gente está muito mal colocado aqui.
+
+112
+00:10:42,140 --> 00:10:48,240
+Contudo quando ele mostrou o conceito a parabéns e notem que ele já pulou para o final e ele imprimiu
+
+113
+00:10:48,390 --> 00:10:54,680
+conceitual parabéns e foi direto para o fim porque nessa estrutura que há apenas um único bloco poderá
+
+114
+00:10:54,680 --> 00:11:01,610
+ser executado sem sinais e o primeiro teste o segundo executou o segundo executar as minhas pelo final
+
+115
+00:11:01,620 --> 00:11:02,040
+do código.

@@ -1,0 +1,103 @@
+1
+00:00:00,180 --> 00:00:07,530
+Penso agora estamos começando o capítulo que nós vamos falar de funções lambda esse é um tema bastante
+
+2
+00:00:07,530 --> 00:00:08,480
+interessante.
+
+3
+00:00:08,780 --> 00:00:14,400
+Ele vai nos preparar para o próximo capítulo para outro capítulo depois desse que é o capítulo que nós
+
+4
+00:00:14,400 --> 00:00:17,080
+vamos voltar a trabalhar com as colegas.
+
+5
+00:00:17,100 --> 00:00:24,870
+Só que vendo os Twin Peaks é uma forma muito legal de você trabalhar com listas e coleções mas o tema
+
+6
+00:00:24,870 --> 00:00:31,830
+de lâminas que será abordado nesse capítulo também é um tema muito rico e ele remete a um outro paradigma
+
+7
+00:00:31,830 --> 00:00:38,410
+de programação que é o paradigma funcional a gente vai entender o que é que significa as funções e lambidas.
+
+8
+00:00:38,640 --> 00:00:44,220
+Mas vamos ver a sintaxe entender e fazer vários exemplos para quem possa entender esse conceito tão
+
+9
+00:00:44,220 --> 00:00:49,830
+importante e a gente vai agregar também alguns conceitos de programação funcional.
+
+10
+00:00:49,920 --> 00:00:55,340
+Durante o capítulo eu votar comentando sobre alguns conceitos e alguns princípios de programação funcional
+
+11
+00:00:55,710 --> 00:01:02,520
+embora Java não seja uma linguagem essencialmente funcional como Java e uma linguagem orientada a objeto
+
+12
+00:01:02,580 --> 00:01:09,060
+mas a partir do Java 8 foi introduzido vários conceitos que de certa forma aproximou conceitos da programação
+
+13
+00:01:09,060 --> 00:01:16,320
+funcional dentro do Java Net assim como tem um paradigma de orientação a objeto eu tenho outro paradigma
+
+14
+00:01:16,320 --> 00:01:20,730
+de programação outra forma de organizar as ideias está certo.
+
+15
+00:01:20,740 --> 00:01:27,690
+Outra forma de pensar o código de forma funcionar estão sendo duas formas diferentes uma orientação
+
+16
+00:01:27,700 --> 00:01:34,410
+objeto e outra é a programação funcional e as lambidas Foundations vai nos ajudar digamos assim a nos
+
+17
+00:01:34,410 --> 00:01:41,490
+aproximar tem um código mais voltado para o paradigma de programação funcional Java ainda é uma linguagem
+
+18
+00:01:41,490 --> 00:01:49,190
+orientada a objeto Java ideal linguagem que vai modelar digamos assim a sua solução em objetos em classes.
+
+19
+00:01:49,350 --> 00:01:54,660
+Vai usar aqueles princípios e os pilares da orientação objeto que já foram explicados introduzidos aqui
+
+20
+00:01:54,660 --> 00:02:01,380
+no curso mais ter esses recursos de programação funcional que o Java enriquece bastante a linguagem
+
+21
+00:02:01,460 --> 00:02:06,630
+e nesse capítulo nós vamos trabalhar com os lambidas e o uso de lambidas exerce um papel também muito
+
+22
+00:02:06,630 --> 00:02:13,890
+importante no contexto das coleções e nas listas do setes dos metros a gente vai de certa forma usar
+
+23
+00:02:13,890 --> 00:02:19,260
+rapidamente aqui nesse capítulo Um exemplo só que é o foro íntimo mas a gente vai aprofundar o estudo
+
+24
+00:02:19,260 --> 00:02:25,500
+mph no próximo capítulo e esses dois capítulos de certa forma a gente vai introduzir conceitos da programação
+
+25
+00:02:25,500 --> 00:02:30,750
+funcional dentro Java então fico por aqui nessa aula introdutória do nosso capítulo de lambidas e até
+
+26
+00:02:30,750 --> 00:02:31,350
+a próxima aula.

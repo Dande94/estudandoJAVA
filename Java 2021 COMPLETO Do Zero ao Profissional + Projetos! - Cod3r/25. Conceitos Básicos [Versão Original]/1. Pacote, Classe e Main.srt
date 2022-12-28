@@ -1,0 +1,423 @@
+1
+00:00:00,300 --> 00:00:04,990
+Muitos aspectos extremamente importantes que você tem que estar sempre mente.
+
+2
+00:00:05,060 --> 00:00:11,490
+é o que eu vou estar focando se principalmente nesse começo do curso e sobre organização.
+
+3
+00:00:11,550 --> 00:00:15,990
+Depois vou falar um pouco sobre organização da linguagem como um programa já bem organizado.
+
+4
+00:00:16,170 --> 00:00:22,320
+Mas por enquanto a gente tem que entender que o nosso curso ele vai estar organizado em vários exercícios
+
+5
+00:00:23,270 --> 00:00:29,030
+e não é na verdade um grande exercício feito uma aula depende da outra.
+
+6
+00:00:29,030 --> 00:00:34,890
+Na verdade são exercícios independentes para a gente aprender os recursos da linguagem e nessa aula
+
+7
+00:00:34,920 --> 00:00:44,610
+vou falar rapidamente sobre pacotes classe e meio o que seria isso na verdade é possível fazer algumas
+
+8
+00:00:44,610 --> 00:00:46,770
+analogias para que fique fácil você entender isso.
+
+9
+00:00:46,770 --> 00:00:53,490
+Você está começando no mundo Java esses termos podem parecer estranhos então o pacote ele seria mais
+
+10
+00:00:53,490 --> 00:00:56,790
+ou menos como é uma pasta no seu computador.
+
+11
+00:00:57,330 --> 00:01:02,550
+Então porque é que serve uma pasta para organizar você tem por exemplo suas músicas e você coloca por
+
+12
+00:01:02,550 --> 00:01:08,850
+exemplo uma pasta de músicas internacionais uma ou outra pasta com músicas nacionais uma pasta dentro
+
+13
+00:01:08,870 --> 00:01:12,860
+de internacionais vai colocar jazz blues rock.
+
+14
+00:01:13,170 --> 00:01:18,450
+E aí você vai organizando letras de jazz você vai colocar o nome dos pianistas que você gosta.
+
+15
+00:01:18,450 --> 00:01:25,260
+E aí você vai organizando da forma que você acha mais intuitivo e da forma que fica fácil de você encontrar
+
+16
+00:01:25,260 --> 00:01:29,610
+depois todos os arquivos que você quer e estão dentro de um programa em Java.
+
+17
+00:01:29,610 --> 00:01:35,250
+Essas pastas que são usadas para organização não só para a organização tem outras coisas que eu vou
+
+18
+00:01:35,250 --> 00:01:41,560
+falar em outro momento mais a priori isso pode focar só na caixa da organização.
+
+19
+00:01:41,610 --> 00:01:44,220
+Essas pastas são chamadas de pacotes.
+
+20
+00:01:44,220 --> 00:01:51,330
+Se você tem por exemplo um sistema de empresa para controlar todo o fluxo da empresa você pode ter um
+
+21
+00:01:51,330 --> 00:01:53,950
+pacote só para as coisas do RH.
+
+22
+00:01:54,090 --> 00:02:00,380
+Um pacote só para as coisas do financeiro um pacote só para as coisas do operacional.
+
+23
+00:02:00,420 --> 00:02:06,540
+Você pode organizar seus pacotes de uma forma muito similar muito próxima de como a empresa de fato
+
+24
+00:02:06,540 --> 00:02:07,390
+é organizada.
+
+25
+00:02:07,440 --> 00:02:08,000
+Certo.
+
+26
+00:02:08,320 --> 00:02:15,870
+Então os pacotes eles vão te ajudar a organizar o teu projeto aqui no nosso caso nós vamos separar os
+
+27
+00:02:15,870 --> 00:02:22,630
+pacotes por capítulos então vai ter um pacote de fundamento um pacote de estruturas de controle.
+
+28
+00:02:22,650 --> 00:02:23,540
+E aí vai.
+
+29
+00:02:23,700 --> 00:02:26,000
+Eu vou organizar dentro de cada pacote.
+
+30
+00:02:26,430 --> 00:02:28,380
+Eu vou colocar as minhas classes.
+
+31
+00:02:28,740 --> 00:02:34,140
+Esse conselho de classe é um conceito extremamente importante não é o que não há nessa aula que eu vou
+
+32
+00:02:34,140 --> 00:02:40,880
+falar sobre esse conceito mas a priori o que é que a gente vai ter de informação sobre classe e classe.
+
+33
+00:02:40,890 --> 00:02:41,850
+é um arquivo.
+
+34
+00:02:42,150 --> 00:02:46,470
+Então você pode perguntar ao lado sempre classe e um arquivo não nem sempre.
+
+35
+00:02:46,630 --> 00:02:49,680
+Mas vamos nesse momento imaginar que classe é um arquivo.
+
+36
+00:02:49,680 --> 00:02:55,710
+Então eu tenho um pacote com você na minha pasta que eu vou usar para a organização a pasta pode ter
+
+37
+00:02:55,710 --> 00:03:01,210
+uma outra pasta assim como um pacote pode ter um pacote dentro dele certo.
+
+38
+00:03:01,320 --> 00:03:08,460
+E dentro desses pacotes eu vou colocar as minhas classes que são os meus arquivos dentro de cada arquivo.
+
+39
+00:03:08,650 --> 00:03:16,260
+Existe uma estrutura chamada Gmail traduzido para o português seria principal é esse homem que é um
+
+40
+00:03:16,260 --> 00:03:18,600
+comportamento um método.
+
+41
+00:03:18,600 --> 00:03:20,940
+Depois nós vamos ver mais detalhes sobre isso.
+
+42
+00:03:20,970 --> 00:03:24,160
+Ele é a porta de entrada de um programa Java.
+
+43
+00:03:24,300 --> 00:03:30,260
+Então você tem pacotes que são estruturas de organização dentro do pacote.
+
+44
+00:03:30,260 --> 00:03:38,890
+Você pode ter uma ou mais classes dentro das classes você pode ou não ter uma estrutura ou um método.
+
+45
+00:03:39,210 --> 00:03:48,210
+Na verdade se você tem um programa que tem o bolso possui pacotes diferentes tem 13 mil e 300 classes
+
+46
+00:03:48,210 --> 00:03:52,540
+diferentes dentro desses pacotes quanto métodos.
+
+47
+00:03:52,560 --> 00:03:55,760
+Quantas estruturas você vai precisar no seu programa.
+
+48
+00:03:56,400 --> 00:03:57,480
+Basta.
+
+49
+00:03:57,480 --> 00:03:57,990
+Por quê.
+
+50
+00:03:58,020 --> 00:04:02,550
+Porque o MEI é a porta de entrada de um programa em Java.
+
+51
+00:04:02,580 --> 00:04:09,140
+O programa Java ele inicia a partir dessa estrutura que é conhecida como Método man.
+
+52
+00:04:09,210 --> 00:04:11,190
+Eu vou falar lá na frente sobre o método.
+
+53
+00:04:11,190 --> 00:04:13,350
+Vou explicar direitinho o que é que significa cada coisa.
+
+54
+00:04:13,350 --> 00:04:18,750
+Por enquanto você tem que entender que o MEI é a porta de entrada de um programa Java.
+
+55
+00:04:18,750 --> 00:04:25,890
+Então um grande programa Java um único programa Java formado por milhares de pacotes ou centenas de
+
+56
+00:04:25,890 --> 00:04:27,640
+pacotes milhares de classes.
+
+57
+00:04:28,170 --> 00:04:35,760
+Ele precisa de apenas uma única estrutura meio metro no meio para iniciar o programa só que no nosso
+
+58
+00:04:35,760 --> 00:04:37,450
+caso é um pouquinho diferente.
+
+59
+00:04:37,440 --> 00:04:37,980
+Por quê.
+
+60
+00:04:38,070 --> 00:04:42,510
+Porque cada exemplo entre uma aula e outra eu vou falar de exemplos.
+
+61
+00:04:42,620 --> 00:04:47,700
+Um aula vai ter mais um exemplo mas cada exemplo é independente uns dos outros.
+
+62
+00:04:47,700 --> 00:04:55,410
+Ou seja eu não preciso do exemplo anterior para executar o exemplo atual e nem o atual vai depender
+
+63
+00:04:55,410 --> 00:04:58,070
+do posterior certo nem do anterior.
+
+64
+00:04:58,080 --> 00:05:04,190
+Então em cima disso cada exemplo eu vou criar uma estrutura meio dentro dele.
+
+65
+00:05:04,190 --> 00:05:04,790
+Por quê.
+
+66
+00:05:05,030 --> 00:05:11,690
+Porque a partir desse dados futuramente tornam aquela classe ou aquele arquivo executável.
+
+67
+00:05:11,900 --> 00:05:17,570
+Então você pode ter um programa com vários arquivos de várias classes com uma ideia.
+
+68
+00:05:17,600 --> 00:05:18,320
+Pode.
+
+69
+00:05:18,320 --> 00:05:23,600
+Só que na hora de executar o seu programa você vai ter que escolher um deles para executar e não pode
+
+70
+00:05:23,600 --> 00:05:24,970
+executar mais.
+
+71
+00:05:25,040 --> 00:05:29,860
+Você só exige uma porta de entrada só existe um ponto para iniciar o seu programa.
+
+72
+00:05:29,870 --> 00:05:32,840
+No nosso caso cada exemplo vai ter um método.
+
+73
+00:05:32,900 --> 00:05:39,660
+E aí você pode ter aquela falsa sensação de que toda classe tem que ter um metro no meio e não é verdade.
+
+74
+00:05:39,680 --> 00:05:46,490
+Na verdade a maioria das classes eu diria que todas menos que de fato vai iniciar o seu programa.
+
+75
+00:05:46,490 --> 00:05:48,120
+Precisa do método.
+
+76
+00:05:48,200 --> 00:05:53,750
+As outras não vão precisar de jeito nenhum mas como nossos exemplos são independentes uns dos outros
+
+77
+00:05:54,080 --> 00:05:57,310
+e cada exemplo vai ter sua própria execução.
+
+78
+00:05:57,350 --> 00:06:03,800
+E aí nós vamos precisar sim colocar o método então praticamente todos os nossos exercícios nós vamos
+
+79
+00:06:03,800 --> 00:06:05,200
+colocar o método.
+
+80
+00:06:05,360 --> 00:06:13,060
+Então só para que você tenha clareza nós temos os pacotes que são as estruturas como se fossem pastas.
+
+81
+00:06:13,090 --> 00:06:20,030
+Eu vou organizar o meu projeto seja um projeto de empresa seja nosso projeto aqui no curso em pastas
+
+82
+00:06:20,030 --> 00:06:25,130
+que são grupos lugares onde eu vou colocar grupos de arquivos dentro relacionados.
+
+83
+00:06:25,130 --> 00:06:28,350
+Por algum critério esses arquivos são nossas classes.
+
+84
+00:06:28,790 --> 00:06:35,140
+Então se fosse o sistema de um empresa o pacote poderia ser RH e tudo que é relacionado ao RH vai ter
+
+85
+00:06:35,150 --> 00:06:39,250
+a líder de todas as classes relacionadas a RH vai estar ali dentro.
+
+86
+00:06:39,410 --> 00:06:43,480
+Vai ter um pacote chamado financeiro tudo quadro financeiro está ali.
+
+87
+00:06:43,550 --> 00:06:46,750
+No nosso caso vai ser separado por capítulos.
+
+88
+00:06:47,120 --> 00:06:51,970
+Então tudo o que for fundamental vai estar lá nesse pacote com várias classes.
+
+89
+00:06:52,010 --> 00:06:56,900
+Tudo que for de estrutura de controle vai estar em outro pacote com suas classes.
+
+90
+00:06:56,900 --> 00:07:03,730
+Para cada um dos exemplos e no nosso caso cada classe ou pelo menos a maior parte delas vai ter o método
+
+91
+00:07:03,730 --> 00:07:08,250
+Mei que é a estrutura que é o ponto de entrada de um programa Java.
+
+92
+00:07:08,540 --> 00:07:11,040
+Só não confunde nem toda classe.
+
+93
+00:07:11,050 --> 00:07:18,410
+Eu diria que a grande maioria das classes não vão ter um metro no meio e apenas aquela classe que precisa
+
+94
+00:07:18,680 --> 00:07:25,670
+ser a porta de entrada só para você ter um ideia se você for fazer um programa Java pra web um programa
+
+95
+00:07:25,690 --> 00:07:29,720
+de um site ou um portal um sistema voltado para a web.
+
+96
+00:07:29,990 --> 00:07:34,370
+Nem metro nem você vai precisar referenciar em nenhum momento certo.
+
+97
+00:07:34,700 --> 00:07:40,800
+Então em resumo nós temos o pacote como ser um mecanismo de organização como é a parte deles.
+
+98
+00:07:40,830 --> 00:07:43,090
+Ele vai gerar na verdade uma pasta.
+
+99
+00:07:43,100 --> 00:07:46,050
+Na prática vou mostrar para vocês.
+
+100
+00:07:46,120 --> 00:07:51,080
+Essas classes são os nossos arquivos também vão gerar uma classe por arquivo.
+
+101
+00:07:51,080 --> 00:07:55,220
+Isso não quer dizer que você não pode colocar mais uma classe por aqui mas por enquanto não faz uso
+
+102
+00:07:55,330 --> 00:08:03,260
+dessa relação uma classe um arquivo e a maioria das nossas classes os nossos exemplos vão ter um metro
+
+103
+00:08:03,260 --> 00:08:07,060
+e meio para que um exemplo fique independente do outro.
+
+104
+00:08:07,160 --> 00:08:09,620
+Não confundir aplicação real.
+
+105
+00:08:09,740 --> 00:08:12,530
+Isso não acontece as classes não têm um metro no meio.
+
+106
+00:08:12,530 --> 00:08:13,070
+Por padrão.

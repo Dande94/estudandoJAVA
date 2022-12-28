@@ -1,0 +1,29 @@
+package controle;
+
+import java.util.Scanner;
+
+public class DesafioWhile {
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		boolean verificador = false;
+		int total = 0;
+		double nota;
+		while(!verificador ) {
+			if(nota < 0 || nota > 10){
+				System.out.println("Nota Invalida");
+				if(nota = -1) {
+					verificador = true;
+				}
+			}else {
+				
+			}
+		}
+
+		entrada.close();
+
+
+		
+	}
+	
+}

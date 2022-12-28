@@ -1,0 +1,435 @@
+1
+00:00:00,450 --> 00:00:03,960
+Agora nós vamos fazer o nosso segundo exercício de boa fé.
+
+2
+00:00:03,970 --> 00:00:10,290
+Esse vai ser a criação de um contador contador a aplicação Supersimples a gente vai ter dois botões
+
+3
+00:00:10,290 --> 00:00:16,230
+um para incrementar ou outro para a b Acrescentar nas mãos um leigo que vai ser o número e vamos ter
+
+4
+00:00:16,230 --> 00:00:20,110
+um outro leigo só para botar o nome lá da aplicação que seria contador.
+
+5
+00:00:20,280 --> 00:00:26,870
+Nós vamos ver alguns cursos interessantíssimo o Java e Flex principalmente no que diz respeito ao estilo.
+
+6
+00:00:26,910 --> 00:00:32,000
+Vocês vão ver que a nossa pele mais escura nosso botão vai ser redondo diferente do padrão.
+
+7
+00:00:32,340 --> 00:00:38,550
+Nós vamos ter o botão maior mas vamos ter uma renderização condicional um estilo condicional em cima
+
+8
+00:00:38,550 --> 00:00:40,290
+do contador do próprio número.
+
+9
+00:00:40,290 --> 00:00:47,250
+Se for positivo a ficar verde se for 0 vai ficar lá cinza e se for negativa a ficar vermelho o que vai
+
+10
+00:00:47,250 --> 00:00:52,790
+dar uma ideia bem legal de como a gente consegue aplicar estilo dentro de uma aplicação Java Flex.
+
+11
+00:00:53,070 --> 00:01:01,940
+Então pra gente começar eu vou criar um novo arquivo dentro do pacote básico Itanium Kazuki Class Classe
+
+12
+00:01:01,960 --> 00:01:03,600
+vai ser contado.
+
+13
+00:01:04,380 --> 00:01:10,860
+Nós vamos fazer o mesmo processo da aplicação passada um dos Extended Application.
+
+14
+00:01:10,860 --> 00:01:13,940
+Cuidado com impostos né Java FX Application.
+
+15
+00:01:14,270 --> 00:01:22,140
+E nós vamos precisar implementar um método estático é exatamente nesse método que nós recebemos o nosso
+
+16
+00:01:22,140 --> 00:01:29,460
+palco principal não é meu e vou também criar aqui um meio para tornar esse exercício mais estável e
+
+17
+00:01:29,460 --> 00:01:35,910
+vou chamar um Launch passando os argumentos ele tem duas formas de passar aqui no alto não passa na
+
+18
+00:01:35,910 --> 00:01:36,540
+classe.
+
+19
+00:01:36,780 --> 00:01:42,660
+Nesse caso como eu já estou dentro de uma classe que é application vou chamar a primeira opção não apenas
+
+20
+00:01:42,660 --> 00:01:49,620
+os ataques vão aproveitar os ares que eu recebi e no método e vou disparar nossa aplicação da mesma
+
+21
+00:01:49,620 --> 00:01:59,070
+forma se eu fizer isso tens um show da mesma forma que o exemplo passado se vai executar esse código.
+
+22
+00:01:59,310 --> 00:02:05,370
+Ele não vai mostrar absolutamente nada e vai ficar aqui em branco não vai mostrar nada no console.
+
+23
+00:02:05,380 --> 00:02:11,040
+Isso significa que eu preciso entrar aqui no Grand Configuration já vai estar selecionado o contador
+
+24
+00:02:11,190 --> 00:02:12,840
+ele foi o último coisa que tem.
+
+25
+00:02:13,700 --> 00:02:15,480
+Então é bom você executar antes.
+
+26
+00:02:15,540 --> 00:02:22,950
+Até aqui a referência do contador e aí você entra em argumentos e fica aqui marcando você vai estar
+
+27
+00:02:23,040 --> 00:02:28,750
+apto para executar sua aplicação em Java e Flex especificamente o contador e pronto.
+
+28
+00:02:28,740 --> 00:02:34,770
+Feito isso a gente tem exatamente o mesmo cenário em passado com tudo configurado pronto pra gente definir
+
+29
+00:02:34,770 --> 00:02:35,610
+a aplicação.
+
+30
+00:02:35,610 --> 00:02:43,110
+Nesse caso eu vou definir o seguinte eu vou fazer um v box ou seja uma box vertical em cima eu vou colocar
+
+31
+00:02:43,230 --> 00:02:49,560
+um leigo que vai ser o contador lá embaixo eu vou colocar uma outra lei que vai ser o número embaixo.
+
+32
+00:02:49,590 --> 00:02:57,570
+Eu vou colocar um V Box que vai ser um box na 1h Box que vai ser dos botões os botões vão estar organizados
+
+33
+00:02:57,900 --> 00:02:59,030
+na horizontal.
+
+34
+00:02:59,190 --> 00:03:06,110
+Então vou colocar os dois botões ao mesmo tempo nessa Box vertical então faz o seguinte eu vou colocá
+
+35
+00:03:06,430 --> 00:03:08,250
+la no box.
+
+36
+00:03:08,790 --> 00:03:19,120
+Eu vou chamar de box principal principal banheiro do box.
+
+37
+00:03:19,230 --> 00:03:21,670
+Vou criar aqui um leilão.
+
+38
+00:03:21,810 --> 00:03:25,640
+Então é bom lembrar dos impostos né.
+
+39
+00:03:25,650 --> 00:03:33,760
+Você tem mais uma API dentro do Java pra desktop e pra aplicações visuais tem a WD que é mais antiga
+
+40
+00:03:33,780 --> 00:03:35,810
+tem um suingue tem agora o Java Flex.
+
+41
+00:03:35,820 --> 00:03:37,850
+Então muito cuidado com os impostos.
+
+42
+00:03:37,860 --> 00:03:43,290
+Quando você for fazer porque você vai ter uma classe por exemplo levou com várias versões diferentes
+
+43
+00:03:43,410 --> 00:03:46,970
+uma duas três quatro cinco seis sete oito.
+
+44
+00:03:46,970 --> 00:03:52,380
+Você tem uma lei que a anotação a lei que é a interface e mais as outras todas são classes.
+
+45
+00:03:52,810 --> 00:03:56,990
+Então a gente quer o Java FX ponto sim ponto Control.
+
+46
+00:03:57,310 --> 00:04:00,070
+é exatamente uma lei que eu vou colocar aqui.
+
+47
+00:04:00,080 --> 00:04:01,670
+Eu o chamei de lei.
+
+48
+00:04:01,680 --> 00:04:14,650
+O título lei bom título título que o título recebe.
+
+49
+00:04:14,760 --> 00:04:22,370
+Lei bom vou passar aqui o texto pra ser chamado de contador contador nome da aplicação.
+
+50
+00:04:22,530 --> 00:04:24,210
+Vou criar aqui.
+
+51
+00:04:24,240 --> 00:04:28,340
+Na verdade vou criado lei bom e vou deixar o boxe mais pra baixo pronto.
+
+52
+00:04:28,440 --> 00:04:35,830
+Além de criar a lei do título vou criar outra lei que vai ser a lei bom número.
+
+53
+00:04:36,270 --> 00:04:48,130
+Eu vou chamar aqui e ele vai iniciar com um valor zero vírgula e vou criar os dois botões vou colocar
+
+54
+00:04:48,140 --> 00:04:58,560
+aqui batam batom em Java FX ponto 5 ponto contra o Uruguai seu botão o botão s por conta do regionalismo
+
+55
+00:04:59,060 --> 00:04:59,940
+a oitava.
+
+56
+00:05:00,000 --> 00:05:02,460
+Estou falando bem claro o botão tá.
+
+57
+00:05:02,580 --> 00:05:07,790
+Se eu falar alguma coisa de regionalismo descobri que faz parte em cada canto do Brasil.
+
+58
+00:05:07,830 --> 00:05:11,700
+Nós somos um continente tem formas diferentes de se expressar.
+
+59
+00:05:11,700 --> 00:05:16,440
+Não fiquei chateado comigo então aqui botão passando.
+
+60
+00:05:16,530 --> 00:05:25,320
+O rei bom vai ser menos então vai ser o botão botão mental.
+
+61
+00:05:25,560 --> 00:05:29,820
+Vai ser o mais aqui aquele incremento e vai ter um botão.
+
+62
+00:05:29,820 --> 00:05:36,100
+O primeiro é seu crescimento tão tremendo e vai ser menos.
+
+63
+00:05:36,120 --> 00:05:43,980
+Até poderia colocar tudo dentro do meu box vou fazer assim a primeira versão pois a gente muda Box principal
+
+64
+00:05:44,060 --> 00:05:56,450
+porto Guedes Children o grande ponto adicionar qualquer lei bom título e vou explicar isso aqui pra
+
+65
+00:05:56,470 --> 00:06:03,730
+o rei bom número pra botão.
+
+66
+00:06:04,210 --> 00:06:05,190
+Descaramento.
+
+67
+00:06:05,220 --> 00:06:09,330
+E depois o botão Livramento.
+
+68
+00:06:09,570 --> 00:06:14,780
+Já que eu tenho aqui o meu box principal eu vou criar minha cena vai ser minha única cena.
+
+69
+00:06:15,580 --> 00:06:31,800
+Então sim vou chamar aqui cena principal série e sim vou passar o meu box principal e vou adicionar
+
+70
+00:06:31,920 --> 00:06:40,890
+a minha cena no palco então para meus tempos um set sim passando a cena principal uma única cena e por
+
+71
+00:06:40,900 --> 00:06:48,890
+isso já temos aqui uma aplicação muito feia mas com os elementos na tela nós temos aqui o contador e
+
+72
+00:06:48,960 --> 00:06:54,870
+o título zero e os dois botões mais eu não quero colocar um botão embaixo do outro e sim eu quero colocar
+
+73
+00:06:54,870 --> 00:06:56,770
+os botões lado a lado.
+
+74
+00:06:56,850 --> 00:07:05,950
+Como é que eu posso fazer isso pra fazer isso é super simples basta eu criar aqui h Box.
+
+75
+00:07:06,180 --> 00:07:08,900
+Hoje temos aqui uma box.
+
+76
+00:07:09,090 --> 00:07:23,790
+Eu vou chamar aqui de box botões recebe um HD Box e vou chamar botão Box botão botões no ponto Guedes
+
+77
+00:07:24,640 --> 00:07:27,190
+Children ponto adicionado.
+
+78
+00:07:27,460 --> 00:07:37,130
+Eu vou colocar o botão Sacramento ponto e vírgula vou duplicar esse aqui substituído por incremento
+
+79
+00:07:37,710 --> 00:07:43,440
+e uma vez que eu tenho agora um box que agrupa os dois botões eu posso colocar esse box dentro do outro
+
+80
+00:07:43,440 --> 00:07:47,250
+box então aqui embaixo vou até maximizar a tela.
+
+81
+00:07:47,880 --> 00:07:54,330
+Então em vez de adicionar esses dois aqui no box principal eu vou tirar algo de baixo e vou adicionar
+
+82
+00:07:55,200 --> 00:07:57,370
+o box botões.
+
+83
+00:07:57,530 --> 00:08:04,760
+Essa forma até também aqui na minha cena definir a cena chegou o tamanho que coloquei em prática já
+
+84
+00:08:04,770 --> 00:08:06,390
+do jeito que eu planejei no final né.
+
+85
+00:08:06,390 --> 00:08:18,630
+Coloquei 400 por 400 QUATROCENTOS ou quatrocentos executada aqui mas temos a nossa tela com o contador
+
+86
+00:08:18,960 --> 00:08:20,990
+o número e os dois botões.
+
+87
+00:08:21,300 --> 00:08:32,710
+Nós podemos pegar esse box principal e centralizar ele então Box principal ponto sete elementos.
+
+88
+00:08:33,040 --> 00:08:42,600
+Nosso ponto central então como ficou aqui o resultado já está agora centralizado e esses dois botões
+
+89
+00:08:42,600 --> 00:08:51,760
+não estão centralizados então vou fazer o seguinte Box botões pontos sete alimentos posso também colocar
+
+90
+00:08:53,110 --> 00:09:03,270
+posição ponto em vários centros aqui meu top 60 sem fazer alarde vou colocar o centro também pois é
+
+91
+00:09:03,420 --> 00:09:08,060
+a segunda vez que a gente vê o resultado eu posso inclusive colocar um espaçamento entre eles.
+
+92
+00:09:08,510 --> 00:09:12,520
+Estar aqui com relação aos espaçamento ideal vou pagar aqui.
+
+93
+00:09:12,520 --> 00:09:23,560
+Como coloquei o coloquei no caso dos botões de 10 Coca-Cola Box botões ponto 7 espécie.
+
+94
+00:09:23,750 --> 00:09:30,710
+Isso sim vou colocar aqui e deixarei no box principal.
+
+95
+00:09:30,710 --> 00:09:35,980
+Eu coloquei algum tipo de espécie também coloquei 10 como tenho um planejamento por trás.
+
+96
+00:09:35,980 --> 00:09:43,840
+Então esses números vocês vão acabar na prática quando forem fazer a aplicação e tornando colocando
+
+97
+00:09:43,950 --> 00:09:49,530
+o substituído pra que vocês consigam realmente chegar no resultado visual que vocês desejam.
+
+98
+00:09:49,630 --> 00:09:54,580
+E é exatamente por isso que eu estou pagando aqui a minha cola aqui do lado pra ver exatamente com os
+
+99
+00:09:54,580 --> 00:10:00,190
+valores que eu coloquei que estão fazendo mais um teste aqui pra ver como ficou nossa primeira parte
+
+100
+00:10:00,190 --> 00:10:01,600
+na aplicação.
+
+101
+00:10:01,600 --> 00:10:07,520
+Fizemos a aplicação colocamos aqui o contador o número zero os dois botões é muita coisa pra gente melhorar
+
+102
+00:10:07,520 --> 00:10:15,750
+a parte visual colocar fogo antigo colocar tamanho acetato formato no botão pra ser redondo o beco a
+
+103
+00:10:15,760 --> 00:10:21,760
+nossa aplicação pra ser preto e outros detalhes a mais além de fazer com que nossa aplicação funcione
+
+104
+00:10:21,760 --> 00:10:23,860
+realmente altere o contador.
+
+105
+00:10:24,190 --> 00:10:29,050
+Eu vou deixar para a gente fazer a parte especificamente dos botões e mexer no contador do número.
+
+106
+00:10:29,200 --> 00:10:33,650
+Na próxima aula e na outra aula a gente entra na parte do estilo da aplicação.
+
+107
+00:10:33,700 --> 00:10:38,620
+Não fique por aqui na primeira parte do nosso projetando o contador e espera na próxima aula para a
+
+108
+00:10:38,620 --> 00:10:40,560
+gente continuar na parte 2.
+
+109
+00:10:40,600 --> 00:10:40,930
+Até lá.

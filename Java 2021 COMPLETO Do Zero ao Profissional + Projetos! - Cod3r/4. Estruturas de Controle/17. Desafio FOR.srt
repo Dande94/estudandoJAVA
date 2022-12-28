@@ -1,0 +1,171 @@
+1
+00:00:00,240 --> 00:00:06,600
+Pessoal quero lançar um desafio agora para que vocês possam treinar o laço forte e mais do que isso
+
+2
+00:00:06,600 --> 00:00:10,140
+é um desafio bem desafiante eu diria certo.
+
+3
+00:00:10,170 --> 00:00:11,540
+Vou explicar porquê.
+
+4
+00:00:11,610 --> 00:00:17,370
+é um exemplo simples são poucas linhas de código que você vai precisar escrever mas você precisa ter
+
+5
+00:00:17,850 --> 00:00:23,340
+a mente mais aberta com relação a isso é só para baixar para vocês que esse não é um desafio tão simples
+
+6
+00:00:23,340 --> 00:00:26,710
+embora seja simples do ponto de vista de codificação.
+
+7
+00:00:26,880 --> 00:00:33,690
+Esse desafio eu passei para algumas pessoas aqui no estúdio certo e pessoas que já têm um nível de experiência
+
+8
+00:00:33,690 --> 00:00:34,540
+um pouco maior.
+
+9
+00:00:34,540 --> 00:00:36,480
+Essas pessoas não conseguiram resolver.
+
+10
+00:00:36,810 --> 00:00:43,050
+Obviamente eu não dei um dia todo para resolver o seu problema e fiquei lá na frente esperando alguns
+
+11
+00:00:43,050 --> 00:00:46,870
+minutos ficaram pensando mais eu posso fazer assim ou não não pode.
+
+12
+00:00:46,920 --> 00:00:48,990
+Posso fazer assim não não pode.
+
+13
+00:00:48,990 --> 00:00:54,730
+E aí eles não desistem como é que é um monstrinho caro falsear pais então é tão simples a gente imaginado
+
+14
+00:00:54,750 --> 00:00:59,820
+que poderia ser feito dessa forma é exatamente esse desafio que eu quero lançar para vocês aqui.
+
+15
+00:00:59,820 --> 00:01:03,930
+Então se você não conseguir eu diria que é algo extremamente normal não se estresse por causa disso
+
+16
+00:01:03,930 --> 00:01:08,970
+não só nesse desafio mas em qualquer outro como já falei anteriormente uns criar aqui uma nova classe
+
+17
+00:01:09,630 --> 00:01:16,250
+chamada Desafio forte e eu vou definir aqui o nosso método.
+
+18
+00:01:16,460 --> 00:01:19,060
+Eu vou fazer o seguinte vou criar aqui.
+
+19
+00:01:19,140 --> 00:01:28,800
+Só vou definir uma variável e recebe valor um ponto e vírgula aí vai ser menor ou igual a 5 quero fazer
+
+20
+00:01:28,800 --> 00:01:32,130
+cinco repetições eu e mais mais.
+
+21
+00:01:32,340 --> 00:01:42,630
+Aí eu vou definir uma variável chamada valor que recebe um ilha e para cada repetição Vou imprimir ao
+
+22
+00:01:42,640 --> 00:01:54,210
+System on line Vou imprimir o valor e no final Itagaki falou recebe mais uma Cerqueira de tal forma
+
+23
+00:01:54,210 --> 00:02:01,280
+que o resultado que será impresso coloca aqui outro vigor de tal forma que o resultado vai ser depois
+
+24
+00:02:01,370 --> 00:02:02,220
+escadinha.
+
+25
+00:02:02,640 --> 00:02:08,760
+Ele vai colocar a quilha duas três quatro e cinco ilhas certo.
+
+26
+00:02:08,760 --> 00:02:12,180
+Então é esse o resultado que eu quero que seja impresso no console.
+
+27
+00:02:12,530 --> 00:02:14,280
+Qual é a restrição.
+
+28
+00:02:14,280 --> 00:02:25,920
+Você não poderá usar de forma nenhuma na implementação do desafio então desafio vou aqui.
+
+29
+00:02:26,060 --> 00:02:29,280
+Pressão pressão.
+
+30
+00:02:29,370 --> 00:02:43,420
+Desafio então a restrição não pode usar o valor numérico para controlar controlar o.
+
+31
+00:02:44,170 --> 00:02:47,150
+Então você não pode usar um valor numérico.
+
+32
+00:02:47,170 --> 00:02:50,060
+Colocar o centro médico para controlar o laço.
+
+33
+00:02:50,110 --> 00:02:54,460
+Então o resultado que eu quero que você gere é exatamente esse resultado.
+
+34
+00:02:54,450 --> 00:03:01,170
+Só que eu usei um valor numérico para controlar o laço usei a variável e fiz o mais mais fiz o menor
+
+35
+00:03:01,170 --> 00:03:01,860
+do que cinco.
+
+36
+00:03:01,860 --> 00:03:03,630
+Não quero que você use um valor numérico.
+
+37
+00:03:03,630 --> 00:03:09,300
+Você vai implementar exatamente essa mesma coisa aqui mostrando um resultado como um árvore lisinha
+
+38
+00:03:09,300 --> 00:03:10,140
+não é um ser Killer.
+
+39
+00:03:10,140 --> 00:03:16,620
+2 O Simon pode ser qualquer um tanto faz certo o mais importante é o fato de que você não pode usar
+
+40
+00:03:16,620 --> 00:03:22,560
+o valor numérico pra fazer o laço funcionar e você imprimir esse resultado o que é um console então
+
+41
+00:03:22,810 --> 00:03:24,890
+na próxima aula mostra a resposta.
+
+42
+00:03:24,930 --> 00:03:31,440
+Espero que eu tenha explicado direito o desafio é basicamente fazer esse resultado usando o fórum sem
+
+43
+00:03:31,440 --> 00:03:35,250
+usar nenhum valor numérico para controlar o laço aproximá lo da resposta.

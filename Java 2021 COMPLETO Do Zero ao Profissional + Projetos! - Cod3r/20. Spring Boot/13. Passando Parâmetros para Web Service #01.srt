@@ -1,0 +1,195 @@
+1
+00:00:00,270 --> 00:00:06,570
+Agora nós vamos ter uma sequência de duas aulas que eu vou mostrar para vocês dois diferentes métodos
+
+2
+00:00:06,570 --> 00:00:14,220
+pra você passar um parâmetro ao lado da sua requisição PRA DENTRO DO SEU abscesso pra dentro da função
+
+3
+00:00:14,220 --> 00:00:16,700
+do método que você vai criar dentro de Java.
+
+4
+00:00:17,040 --> 00:00:24,930
+Então vou voltar pra dentro de cliente controle e vou fazer o seguinte eu vou criar aqui outro método
+
+5
+00:00:25,710 --> 00:00:34,230
+que também vai tornar o cliente tão públicos que o nome do Metro vai se obter cliente por aí eu vou
+
+6
+00:00:34,230 --> 00:00:40,980
+colocar um aqui porque eu vou criar um segundo método obter cliente por ai de dois tá bom e eu vou esperar
+
+7
+00:00:40,980 --> 00:00:49,730
+receber como parâmetro o valor inteiro do tipo Aydin para que eu possa criar algo e tornar um novo cliente
+
+8
+00:00:49,730 --> 00:00:51,330
+e eu não estou trabalhando com o banco de dados.
+
+9
+00:00:51,330 --> 00:00:55,660
+Por enquanto estou simplesmente criando o objeto que agora vou criar com mais Di.
+
+10
+00:00:55,670 --> 00:01:01,820
+De acordo com o que foi passado os outros dados serão exatamente os mesmos mais od é passado eu vou
+
+11
+00:01:01,830 --> 00:01:08,460
+levar em consideração para criar o cliente eu vou dizer que o nome desse cliente vai ser a Maria o CPF
+
+12
+00:01:08,460 --> 00:01:17,450
+dela baixei 9 8 7 pontos 6 5 4 3 2 1 0 0.
+
+13
+00:01:17,550 --> 00:01:25,000
+Então nós temos aqui o nosso metro a gente vai precisar marcar esse método como método GAT mapping ou
+
+14
+00:01:25,020 --> 00:01:26,990
+ainda busão e que são o tipo bad.
+
+15
+00:01:27,090 --> 00:01:33,130
+Eu vou continuar usando e só RL barquinho estou como é que eu vou querer acessar esse cliente por aí
+
+16
+00:01:33,200 --> 00:01:40,100
+eu vou fazer o seguinte eu vou chamar aqui barquinho e vou colocar aqui ou um barra e o número do pedido
+
+17
+00:01:40,100 --> 00:01:47,150
+do cliente por exemplo Barra um bar sei lá cliente 328.
+
+18
+00:01:47,700 --> 00:01:55,700
+Então vai ser essa vai ser o RL Back barra de como esse site aqui que eu vou passar vai ser algo variável.
+
+19
+00:01:55,710 --> 00:02:01,410
+Então eu preciso tratar isso aí como algo que será modificado então pra isso a gente vai usar o seguinte
+
+20
+00:02:01,410 --> 00:02:09,990
+padrão vou colocar aqui Barra e vou colocar entre chaves o valor já é de tal forma que esse valor vai
+
+21
+00:02:09,990 --> 00:02:16,740
+ser modificado ou seja ele pode ser 100 mil pode ser 13 mil pode ser 300 qualquer coisa certa ou seja
+
+22
+00:02:16,740 --> 00:02:23,910
+vai ser um valor modificado não é exatamente Barra que eu estou esperando e sim Barra clientes com determinada
+
+23
+00:02:23,910 --> 00:02:27,440
+variável que será passada como ai pra cá.
+
+24
+00:02:27,570 --> 00:02:34,770
+Só que isso não é o suficiente mesmo colocando isso e eu definindo aqui por exemplo 328 ele vai gerar
+
+25
+00:02:34,770 --> 00:02:39,720
+um problema porque ele não conseguiu pegar uma lei de na verdade ele acabou colocando como se fosse
+
+26
+00:02:39,720 --> 00:02:45,380
+nulo esse valor não pode ser nulo a não ser que sejam itens de um valor inteiro mas eu não consegui
+
+27
+00:02:45,390 --> 00:02:51,810
+em outras palavras pagar esse valor que foi passado o RL e trazer para cá capa que está faltando a gente
+
+28
+00:02:51,810 --> 00:02:53,210
+usar um anotei.
+
+29
+00:02:53,550 --> 00:03:03,480
+Então aqui existe um anotei chamada F verbo ou seja variável no PAF e a partir dessa notei que ele vai
+
+30
+00:03:03,480 --> 00:03:06,120
+conseguir pagar o valor que você passou aqui.
+
+31
+00:03:06,150 --> 00:03:12,690
+Certo não é ele jogar pra cá que estão testando mais uma vez ou salvando você vai ver o resultado vai
+
+32
+00:03:12,690 --> 00:03:22,830
+ser o usuário aí 328 exatamente como eu passei não que eu quiser passar 12 mil e Down então você vai
+
+33
+00:03:22,830 --> 00:03:28,590
+ver que ele vai gerar 12 mil 15 a 69 exatamente da forma que eu passei como parâmetro.
+
+34
+00:03:28,590 --> 00:03:35,550
+Então a primeira forma que a gente está usando a passagem de parâmetros pra dentro do nosso websérie
+
+35
+00:03:35,780 --> 00:03:44,190
+é usando diretamente dentro da própria RL você usa local Loch 80 80 bairro clientes Barra e aí você
+
+36
+00:03:44,190 --> 00:03:51,270
+coloca diretamente na RL o número e aqui você coloca entre um par de chaves pra dizer que é uma variável
+
+37
+00:03:51,360 --> 00:03:58,540
+e você marcando aqui ou com uma arroba PF ou seja variável está dentro do perfil da soma da sua RL.
+
+38
+00:03:58,710 --> 00:04:02,290
+Ele vai pegar o valor que foi passado e colocar aqui.
+
+39
+00:04:02,360 --> 00:04:08,180
+Bom então esse valor não necessariamente é exigido pela lei RL que seja um valor inteiro.
+
+40
+00:04:08,190 --> 00:04:15,870
+Então se você passar por exemplo o valor do tipo textual clientes Barra Tech ele vai dar um problema
+
+41
+00:04:15,870 --> 00:04:21,230
+e dizer que não conseguiu converter uma string pra um valor inteiro a não ser que tenha um ao outro
+
+42
+00:04:21,230 --> 00:04:24,470
+o RL que seja clientes Barra Tech.
+
+43
+00:04:24,630 --> 00:04:30,600
+Aí sim ele vai considerar o RL como sendo que vai se chamar mais por enquanto como qualquer coisa que
+
+44
+00:04:30,600 --> 00:04:36,370
+vem depois do cliente pode ser caracterizado como diz ele vai pegar essa coisa e convertê lo para um
+
+45
+00:04:36,360 --> 00:04:37,550
+bolo do tipo.
+
+46
+00:04:37,560 --> 00:04:42,420
+Nesse caso eu coloquei 1 2 3 e ele voltou atrás e a chamar corretamente esse método.
+
+47
+00:04:42,420 --> 00:04:49,080
+Então essa é a primeira forma que você tem para passar o valor a partir da requisição pra dentro do
+
+48
+00:04:49,080 --> 00:04:54,270
+metro ou seja o metro não recebe parâmetros e na próxima aula vou mostrar segundo a forma que você pode
+
+49
+00:04:54,270 --> 00:04:55,620
+fazer isso e então.

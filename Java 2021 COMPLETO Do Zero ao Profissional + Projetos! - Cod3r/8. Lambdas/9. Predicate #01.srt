@@ -1,0 +1,403 @@
+1
+00:00:00,220 --> 00:00:05,610
+Pessoal na sala nós vamos começar a partir da sala melhor dizendo nós vamos começar bem uma série de
+
+2
+00:00:05,610 --> 00:00:10,390
+interfaces funcionais que o Java já disponibiliza pra gente é a primeira que nós vamos ver.
+
+3
+00:00:10,950 --> 00:00:20,190
+Essa interface aqui chamada predicado certo pra de quem exatamente a gente olha aquele comentário relacionado
+
+4
+00:00:20,190 --> 00:00:25,470
+a ela e apresenta um predicado ou seja uma função que retorna um valor.
+
+5
+00:00:25,860 --> 00:00:31,620
+Essa função recebe um argumento e ela vai retornar um valor para isso vai fazer o seguinte vou criar
+
+6
+00:00:31,620 --> 00:00:39,750
+aqui um clássico eu vou chamar esse clássico de predicado predicado não vou usar os nomes inglês pra
+
+7
+00:00:39,750 --> 00:00:46,470
+não conflita com o nome da interface de quem ficaria pior pra gente ficar aqui dentro eu vou fazer o
+
+8
+00:00:46,470 --> 00:00:52,170
+seguinte fiquei olhando aqui ao Java o último fantoche um cuidado com os impostos porque tem outros
+
+9
+00:00:52,170 --> 00:00:54,890
+cantos ou Java x SQL.
+
+10
+00:00:54,900 --> 00:01:00,570
+Então cuidado pra quem chegou a dizer que nesse caso que nós vamos usar um monstrinho Na verdade eu
+
+11
+00:01:00,570 --> 00:01:07,260
+vou fazer o seguinte ao invés de usar um estilingue eu vou criar aqui uma classe pra gente ficar mais
+
+12
+00:01:07,260 --> 00:01:10,800
+interessante nesse exemplo colocar aqui uma classe chamada produto.
+
+13
+00:01:11,100 --> 00:01:17,930
+Vou definir aqui alguns alguns parâmetros do meu produto alguns atributos melhor dizendo o colocar aqui
+
+14
+00:01:17,930 --> 00:01:25,500
+offline não string não vou colocar a visibilidade em pacote não vou criar grade 7 mas eu vou colocar
+
+15
+00:01:25,500 --> 00:01:37,290
+como se fosse constante tal fácil não dá pra isso e vou colocar aqui vai não dá bom desconto é um atalho
+
+16
+00:01:37,290 --> 00:01:46,440
+legal que a gente tem e o coma de alguns esse tal controle TS provavelmente ou então Control acho que
+
+17
+00:01:46,440 --> 00:01:50,720
+é contra o ALT S no Windows mas você procura então clique com o botão direito.
+
+18
+00:01:50,850 --> 00:01:55,600
+Se você for que só assim código fonte aqui embaixo ele vai abri.
+
+19
+00:01:55,620 --> 00:02:00,750
+é exatamente essa tecla que ao meu caso eu cometi o áudio como DS.
+
+20
+00:02:01,080 --> 00:02:08,280
+Ele abre essa tela e se você desse aqui embaixo você vai gerar construtor usando os filmes que são os
+
+21
+00:02:08,280 --> 00:02:15,330
+campos e atributos e aí você seleciona quais atributos você quer usar para criar o construtor que automaticamente
+
+22
+00:02:15,330 --> 00:02:22,410
+ele cria pra você um público para o produto sabendo o nome preso desconto e aí ele faz o que chamo suprem
+
+23
+00:02:22,950 --> 00:02:29,600
+de forma explícita não necessariamente precisa fazer isso você pode apagar o que ele não é ele vai dar
+
+24
+00:02:29,610 --> 00:02:34,680
+de Object né por padrão toda classe em Java existentes Object.
+
+25
+00:02:34,680 --> 00:02:39,860
+Isso aqui é a mesma coisa de você não fazer absolutamente nada certo por padrão acontece isso ou vou
+
+26
+00:02:39,870 --> 00:02:44,470
+deixar explícito só pra lembrar que nesse ponto eu lembrei de falar sobre isso né.
+
+27
+00:02:44,540 --> 00:02:47,530
+A classe mande todas as outras classes em Java.
+
+28
+00:02:47,520 --> 00:02:54,230
+é óbvio que da parte do objetivo tudo aqui vai surgir em Java certo e tal como ele chama o óbvio que
+
+29
+00:02:54,270 --> 00:02:56,330
+o objetivo tem um custo padrão.
+
+30
+00:02:56,610 --> 00:03:02,400
+Então aqui ele pode chamar de forma explícita ou suba sem problema com o terminal não necessariamente
+
+31
+00:03:02,400 --> 00:03:03,420
+precisa chamar.
+
+32
+00:03:03,900 --> 00:03:07,010
+Então aqui eu tenho um desconto não sabe o nome desse preço.
+
+33
+00:03:07,030 --> 00:03:14,010
+Sabe o preço desse ponto desconto recebe desconto agora tenho um produto olhando aqui o meu predicado
+
+34
+00:03:14,010 --> 00:03:20,310
+agora eu posso em vez de acessar uns 30 possa acessar diretamente um produto e aí esse meu predicado
+
+35
+00:03:20,400 --> 00:03:27,840
+ele vai retornar verdadeiro falso então uma das coisas que a gente pode ver por exemplo pra esse caso
+
+36
+00:03:27,840 --> 00:03:30,780
+produto é saber se um produto ele é caro ou não.
+
+37
+00:03:30,960 --> 00:03:33,940
+Certo Você pode simplesmente colocar caro.
+
+38
+00:03:34,170 --> 00:03:40,860
+Existe um padrão análogo retorna verdadeiro falso usar o ex por exemplo é caro eu sei que mistura português
+
+39
+00:03:40,860 --> 00:03:47,300
+e inglês mas acaba acontecendo isso na prática do mesmo jeito que você tem Gatti nome gatinho não é
+
+40
+00:03:47,300 --> 00:03:49,420
+uma mistura de inglês e português NET.
+
+41
+00:03:49,440 --> 00:03:56,640
+Idade também é uma mistura de inglês com português 7 idade também e por mais que você use os atributos
+
+42
+00:03:56,640 --> 00:04:01,440
+em português além de gerar os ganhos certos você acaba não conseguindo fugir do inglês aqui também seria
+
+43
+00:04:01,440 --> 00:04:04,660
+mais ou menos o mesmo cenário de casos de bullying.
+
+44
+00:04:04,740 --> 00:04:11,000
+O Get It pode ser convertido para EX EX ALGUMA COISA uma possibilidade que o coloca aqui.
+
+45
+00:04:11,070 --> 00:04:18,060
+Esse cara é aqui como sendo a interface funcional possa aplicar um lambida nesse lambida ele vai receber
+
+46
+00:04:18,180 --> 00:04:24,000
+um único parâmetro que eu já definiu que era o tipo do produto e ele vai retornar um valor verdadeiro
+
+47
+00:04:24,090 --> 00:04:25,100
+ou falso.
+
+48
+00:04:25,230 --> 00:04:32,190
+Então posso chamar aqui Prodi de produto por exemplo colocar aqui a minha função lábia como eu já vou
+
+49
+00:04:32,190 --> 00:04:37,080
+retornar e posso criar uma expressão nessa mesma linha e já dizer isso é verdadeiro falso.
+
+50
+00:04:37,230 --> 00:04:38,980
+Posso simplesmente retornar Falso.
+
+51
+00:04:39,030 --> 00:04:44,610
+Se eu quiser seria a implementação mais simples possível né até um retorno implícito aqui.
+
+52
+00:04:44,630 --> 00:04:52,770
+Então se eu fizer isso aqui ao System Audio preenche e chamar esse cara é um predicado ele tem uma função
+
+53
+00:04:52,770 --> 00:04:57,970
+chamada Teste e é exatamente essa função teste que você passa um produto.
+
+54
+00:04:57,980 --> 00:05:10,810
+Vou criar um produto ou o processo não é produtor de produto recebe o produto e vou passar por exemplo
+
+55
+00:05:12,250 --> 00:05:23,920
+onde Bush passa a bola longe do Q3 1893 ponto 89 ao dizer que o desconto é 15%.
+
+56
+00:05:24,150 --> 00:05:30,750
+Outro vigor nesse caso se eu fizer passar um produto comparando a está abaixo desse praticado.
+
+57
+00:05:30,750 --> 00:05:34,100
+Você vai perceber que o valor é falso porque eu estou retornando faz.
+
+58
+00:05:34,180 --> 00:05:40,720
+Mas vamos supor que todos os produtos que tenham um preço maior do que 750 reais é considerado dentro
+
+59
+00:05:40,720 --> 00:05:43,070
+do meu negócio como sendo caro.
+
+60
+00:05:43,080 --> 00:05:44,030
+O que eu posso fazer.
+
+61
+00:05:44,050 --> 00:05:49,570
+Já que eu recebi o produto como parâmetro vou colocar esse conhecimento em outra linha só para não ficar
+
+62
+00:05:49,570 --> 00:05:52,320
+muito grande então fazer o seguinte ao produto.
+
+63
+00:05:52,450 --> 00:06:02,170
+Ponto pra isso se ele for maior ou igual a 750 reais significa que ele é um produto caro trazer também
+
+64
+00:06:02,170 --> 00:06:03,410
+lhe deu resultado.
+
+65
+00:06:03,580 --> 00:06:05,470
+Nesse caso eu também posso usar.
+
+66
+00:06:05,560 --> 00:06:11,710
+Eu posso colocar isso dentro de uma expressão entre parênteses e posso usar o preço não o preço cheio
+
+67
+00:06:11,710 --> 00:06:13,360
+mas o preço com desconto.
+
+68
+00:06:13,440 --> 00:06:22,840
+Se você colocar produto com preço menos coloco a verdade é multiplicado e multiplicado por um menos
+
+69
+00:06:23,340 --> 00:06:28,880
+pródigo ponto de desconto ou seja calculei o preço com desconto.
+
+70
+00:06:28,900 --> 00:06:32,860
+Se ele for maior que 750 significa que é um produto caro.
+
+71
+00:06:32,860 --> 00:06:36,090
+Caso contrário não é nada de outro.
+
+72
+00:06:36,100 --> 00:06:40,600
+Se eu passar aqui o produto tem 85 por cento de desconto.
+
+73
+00:06:40,630 --> 00:06:44,720
+O resultado vai ser falso ou seja o produto não é um produto caro.
+
+74
+00:06:44,860 --> 00:06:50,080
+Mas se eu voltar aos 15 por cento de desconto nós teremos um produto verdadeiro ou seja sempre que você
+
+75
+00:06:50,080 --> 00:06:56,000
+quiser pegar um valor ou um produto por exemplo converter isso pra o verdadeiro falso.
+
+76
+00:06:56,050 --> 00:07:01,120
+Eu quero percorrer uma lista e quero pegar todos os produtos que são caros eu quero percorrer uma lista
+
+77
+00:07:01,120 --> 00:07:08,110
+e quero pegar todos os produtos que são frágeis certo então você pode usar um predicado para te ajudar
+
+78
+00:07:08,110 --> 00:07:09,710
+nesse sentido.
+
+79
+00:07:10,090 --> 00:07:15,550
+Ainda não está muito claro como é que eu posso usar isso na prática você criou uma função certo que
+
+80
+00:07:15,550 --> 00:07:21,610
+é sério um produto como parâmetro tanto é que você colocou um produto todo o predicado tem essa característica
+
+81
+00:07:21,620 --> 00:07:25,330
+não recebe um único parâmetro o retorno verdadeiro ou falso.
+
+82
+00:07:25,330 --> 00:07:30,360
+Lá como é que eu posso usar isso na prática vai ficar muito claro a gente usar isso na prática quando
+
+83
+00:07:30,370 --> 00:07:32,260
+a gente for para o próximo capítulo.
+
+84
+00:07:32,410 --> 00:07:38,430
+No contexto das coletas eu vou mostrar muito e vou explorar muitas expressões e lâminas pra ajudar gente
+
+85
+00:07:38,440 --> 00:07:41,040
+a implementar lógicas mais interessantes lá.
+
+86
+00:07:41,050 --> 00:07:47,020
+Certo Por enquanto eu estou mostrando pra vocês as interfaces funcionais que estão disponíveis no Java
+
+87
+00:07:47,020 --> 00:07:51,410
+ou seja essa interface funcional que recebe um parâmetro retorno verdadeiro ou falso.
+
+88
+00:07:51,460 --> 00:07:53,050
+E aí como você vai usar.
+
+89
+00:07:53,050 --> 00:07:55,250
+Que tipo de lógica você vai aplicar.
+
+90
+00:07:55,480 --> 00:08:00,190
+E como vai ser isso na prática a gente vai ver com calma principalmente em outro capítulo mas eu quero
+
+91
+00:08:00,190 --> 00:08:03,140
+que vocês já percebam as possibilidades que você tem.
+
+92
+00:08:03,160 --> 00:08:08,650
+Na verdade a gente já viu outra interface funcional que é o banheiro operei em operação binária e essa
+
+93
+00:08:08,650 --> 00:08:13,860
+é a segunda interface funcional do Java que nós estamos vendo que é o predicado.
+
+94
+00:08:13,860 --> 00:08:19,810
+A gente já criou o nosso que foi exatamente o cálculo que é também uma interface funcional.
+
+95
+00:08:19,810 --> 00:08:23,710
+Agora a gente vai explorar algumas dessas interfaces funcionais definidas no Java.
+
+96
+00:08:23,980 --> 00:08:30,460
+Então vimos já o painel operei tudo que é em cima que representa uma operação que recebe dois parâmetros
+
+97
+00:08:30,460 --> 00:08:37,270
+retorna um parâmetro todos do mesmo tipo e vimos agora o predicado que recebe um único argumento do
+
+98
+00:08:37,270 --> 00:08:41,760
+tipo que foi definido a partir do genérico estão aqui dentro do genérico.
+
+99
+00:08:41,760 --> 00:08:47,650
+Eu disse que o tipo de parâmetro seria do tipo produto é sempre o predicado vai retornar um valor verdadeiro
+
+100
+00:08:47,650 --> 00:08:52,260
+falso que foi o que aconteceu aqui para definir se o produto é ou não caro.
+
+101
+00:08:52,320 --> 00:08:55,780
+A próxima a gente vai ver outro tipo de interface funcional e até lá.

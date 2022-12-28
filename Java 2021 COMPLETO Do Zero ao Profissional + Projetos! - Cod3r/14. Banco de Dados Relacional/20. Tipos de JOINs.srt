@@ -1,0 +1,291 @@
+1
+00:00:00,210 --> 00:00:02,890
+Personas vamos agora ver os tipos de golpe.
+
+2
+00:00:02,910 --> 00:00:11,160
+é muito importante você entender um pouquinho como funciona em lay off em Left To e Fu You embora o
+
+3
+00:00:11,170 --> 00:00:13,580
+mais Kelly não tenha o suporte do Fulham.
+
+4
+00:00:13,590 --> 00:00:18,600
+Imagine que vai ver uma alternativa pra simular o mesmo efeito e é muito importante a gente conhecer
+
+5
+00:00:18,600 --> 00:00:20,760
+um pouco sobre essa teoria então vamos lá.
+
+6
+00:00:20,760 --> 00:00:29,640
+Aqui nós vamos ver um pouquinho sobre os tipos de jogos certo e nós vamos começar.
+
+7
+00:00:29,860 --> 00:00:34,550
+Eu vou colocar um caso genérico depois a gente vai pensar em cada um dos casos imagine o que você tem
+
+8
+00:00:34,550 --> 00:00:38,930
+aqui duas tabelas então eu vou representar como se fosse círculos.
+
+9
+00:00:39,350 --> 00:00:42,190
+Então eu tenho uma tabela e uma tabela B.
+
+10
+00:00:42,270 --> 00:00:47,450
+Então por enquanto eu vou colocar o nome A e B DEPOIS A GENTE PODE SE ESPECIALIZANDO para alguns nomes
+
+11
+00:00:47,810 --> 00:00:49,570
+dentro dos nossos exemplos de Manaus.
+
+12
+00:00:49,580 --> 00:00:56,000
+Fazer uma aula pra mostrar pra você todos os tipos de selecções diferentes e testa no cada uma dessas
+
+13
+00:00:56,000 --> 00:00:56,960
+abordagens.
+
+14
+00:00:57,110 --> 00:01:00,700
+Quando você tem você tem um tomar um conjunto B.
+
+15
+00:01:00,740 --> 00:01:05,960
+E como a gente já está acostumado aqui no meio você tem interseção desses dois conjuntos aqui dentro
+
+16
+00:01:06,300 --> 00:01:11,580
+onde há essa interseção aqui é exatamente o local que a gente chama de né.
+
+17
+00:01:11,900 --> 00:01:20,440
+Então aqui vai apontar pra cá nós temos o n 1 e n significa que ele só vai trazer os dados que tenham
+
+18
+00:01:20,570 --> 00:01:26,090
+uma relação chave primária com a chave estrangeira e outra tabela a gente sabe que a relação do banco
+
+19
+00:01:26,090 --> 00:01:32,630
+de dados é a chave primária de uma tabela saindo dessa tabela pra uma outra tabela como chave estrangeira.
+
+20
+00:01:32,720 --> 00:01:43,160
+Então imagine que você tem aqui um exemplo lá você tem lá cidade em e você tem que ir nesse outro lado
+
+21
+00:01:43,160 --> 00:01:44,060
+empresas
+
+22
+00:01:46,660 --> 00:01:50,860
+que você tem empresas cidades e empresas.
+
+23
+00:01:50,880 --> 00:01:59,270
+São duas tabelas aqui inseria os dados em que as cidades que têm a chave estrangeira da tabela empresa
+
+24
+00:01:59,320 --> 00:02:04,850
+ou as empresas que têm a chave primária de cidades em que a cidade é aquela empresa estão.
+
+25
+00:02:04,970 --> 00:02:11,840
+Então quando você faz uma consulta do tipo N ou seja ela está trazendo apenas os dados que estão relacionados
+
+26
+00:02:11,840 --> 00:02:16,170
+entre essas duas tabelas que foi exatamente a consulta que a gente fez no ano passado.
+
+27
+00:02:16,300 --> 00:02:22,340
+E quando você pensa naquilo que está fora da interseção seria exatamente o Walter.
+
+28
+00:02:22,760 --> 00:02:26,450
+Então aqui essa palavra é opcional.
+
+29
+00:02:26,620 --> 00:02:32,960
+Alguém mais quer dizer aquilo que está fora da interseção entre as duas tabelas ou seja quais são as
+
+30
+00:02:32,960 --> 00:02:38,600
+cidades que não estão relacionadas com nenhuma empresa e quais são as empresas que não têm nenhuma cidade
+
+31
+00:02:38,660 --> 00:02:39,820
+associada.
+
+32
+00:02:39,830 --> 00:02:42,720
+Então isso é o que está fora dessa interseção.
+
+33
+00:02:42,720 --> 00:02:48,950
+Então quando a gente pensa nem pense exatamente essa parte aqui da interseção do meio e quando a gente
+
+34
+00:02:48,950 --> 00:02:54,350
+pensa mal tem aquele que está fora da interseção e aí vêm os vários tipos diferentes.
+
+35
+00:02:54,360 --> 00:02:59,900
+Eu vou continuar mantendo só para efeito de simplicidade e tabela tabela B não faz muita diferença.
+
+36
+00:02:59,900 --> 00:03:03,840
+Os nomes da tabela nesse momento dessa aula teórica estão na tabela.
+
+37
+00:03:03,980 --> 00:03:10,440
+A tabela B como eu faço por exemplo uma relação do tipo leve.
+
+38
+00:03:10,580 --> 00:03:18,530
+Na verdade eu voltei àquilo que é comum ou seja o que o INE já traz como sendo a resposta mais o lado
+
+39
+00:03:18,530 --> 00:03:19,910
+esquerdo da relação.
+
+40
+00:03:20,240 --> 00:03:23,780
+Então tudo o que tem aqui na tabela.
+
+41
+00:03:24,060 --> 00:03:30,640
+Então além de trazer tudo está na tabela eu trago a interseção de ACM bem mais um trago B porque aqui
+
+42
+00:03:30,650 --> 00:03:41,990
+eu tenho o Left que seria mais ou menos a mesma a mesma coisa na verdade ou fazer left Alt Johnny ou
+
+43
+00:03:41,990 --> 00:03:47,990
+seja o autor significa que eu estou fora do INEM não minha gente já viu que essa parte no meio então
+
+44
+00:03:48,020 --> 00:03:55,670
+trago o Alter no lado esquerdo da relação ou seja que a tabela obviamente será a tabela B passassem
+
+45
+00:03:56,610 --> 00:04:01,250
+a passar o seu b ou seja inverter a ordem das tabelas na consulta.
+
+46
+00:04:01,260 --> 00:04:07,350
+Eu teria a tabela B sendo contemplada e não há mais esse caso como a relação começa de A para B.
+
+47
+00:04:07,350 --> 00:04:13,750
+Então do lado esquerdo da relação juro left olho vai trazer tanto aquilo que ele já trouxe no Mineiro
+
+48
+00:04:13,820 --> 00:04:18,970
+como vai trazer também aquilo que está na tabela aqui não está relacionada com B.
+
+49
+00:04:18,980 --> 00:04:21,720
+Se eu fizer por exemplo agora mais
+
+50
+00:04:24,820 --> 00:04:32,730
+ok ou usar a palavra em alta aqui também opcional você vai ter mais ou menos assim você vai ter a tabela
+
+51
+00:04:33,660 --> 00:04:41,460
+a tabela B então A tabela a tabela B e nesse caso você vai trazer aquilo que é comum os dois ou seja
+
+52
+00:04:41,460 --> 00:04:47,160
+a relação que vê menina que já é os dados que estão relacionados entre as duas tabelas mas também vai
+
+53
+00:04:47,160 --> 00:04:52,510
+trazer o conteúdo que está do lado esquerdo da relação ou seja a tabela B.
+
+54
+00:04:52,620 --> 00:04:58,410
+Então no caso do site Jovem ou então do Morais ALT
+
+55
+00:05:01,060 --> 00:05:07,210
+também está dizendo exatamente a mesma coisa que você vai trazer aquilo que veio na relação nas tabelas
+
+56
+00:05:07,220 --> 00:05:14,380
+seja interseção nas tabelas mais o conteúdo de B que não está associado com a b e quando você tem um
+
+57
+00:05:14,400 --> 00:05:22,750
+furo jovem que nesse caso funciona e não é suportado pelo mais Kelly mais é possível você simular um
+
+58
+00:05:22,750 --> 00:05:31,330
+fundo e fazer na União União desse resultado mas esse resultado concordo que a união do que tem a mais
+
+59
+00:05:31,390 --> 00:05:39,200
+o Enem e o Enem mais o que tem B você consegue fazer o Fusion que seria exatamente isso ou colocar aqui
+
+60
+00:05:40,200 --> 00:05:44,550
+as duas tabelas Tabela e tabela B.
+
+61
+00:05:44,560 --> 00:05:52,800
+A gente sabe que no caso do Enem é exatamente a interseção e o Fulham ele tanto pegou leve com o Morais
+
+62
+00:05:52,960 --> 00:05:59,680
+ou seja ele vai trazer tudo que tem a que não está em B e tudo que tem B não está em ou seja vai fazer
+
+63
+00:06:00,190 --> 00:06:04,720
+tudo ou seja todo resultado inclusive o Left slide.
+
+64
+00:06:04,750 --> 00:06:10,270
+Só que esse tipo de consulta não é suportado pelo mais que era suportado por outros bancos certo.
+
+65
+00:06:10,270 --> 00:06:13,870
+Então essa é a visão dos chips que você tem.
+
+66
+00:06:13,960 --> 00:06:20,700
+Você tem um n de é exatamente na interseção e o alternativo que está fora e você tem como referencial
+
+67
+00:06:20,720 --> 00:06:25,250
+alta tanto usando left left ou left altas.
+
+68
+00:06:25,490 --> 00:06:28,210
+é a mesma coisa no site.
+
+69
+00:06:28,330 --> 00:06:35,500
+E o mais alto olhe que você finalmente tem um furo que seria a junção do Alt e do left numa única consulta.
+
+70
+00:06:35,500 --> 00:06:42,130
+Só que isso não é possível em mais Kelly e você pode usar essas duas estratégias com alguma chance para
+
+71
+00:06:42,130 --> 00:06:44,380
+vocês de uma consulta usando um único.
+
+72
+00:06:44,380 --> 00:06:50,130
+E aí ele vai trazer a consulta e mostrar para o seu resultado que seria equivalente ao futebol então
+
+73
+00:06:50,150 --> 00:06:53,830
+espero na proximal para a gente continuar nossas preces Kelly e até lá.

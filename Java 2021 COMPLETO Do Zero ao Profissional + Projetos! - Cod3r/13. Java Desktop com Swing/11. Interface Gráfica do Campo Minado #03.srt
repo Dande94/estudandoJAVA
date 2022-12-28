@@ -1,0 +1,323 @@
+1
+00:00:00,360 --> 00:00:08,150
+Agora nós vamos mexer na classe botar em campo e eu vou precisar ser notificado sempre que acontecer
+
+2
+00:00:08,140 --> 00:00:14,600
+um evento dentro do botão ou seja essa classe botou o campo e a versão visual do ano a nossa classe
+
+3
+00:00:14,610 --> 00:00:19,080
+campo que representa nossas regras e nossa aplicação independente.
+
+4
+00:00:19,200 --> 00:00:25,010
+Aqui é a classe em campo ela é independente de qualquer detalhe visual se eu vou jogar esse detalhe
+
+5
+00:00:25,380 --> 00:00:32,400
+uma aplicação web nessa eu vou jogar e o visual na aplicação web e na aplicação no bairro uma aplicação
+
+6
+00:00:32,400 --> 00:00:39,300
+desktop é indiferente o campo ele é pra ser digamos assim totalmente agnóstico que a gente chama totalmente
+
+7
+00:00:39,300 --> 00:00:47,400
+agnóstico com relação à interface gráfica e a classe botão campo responsável por traduzir em termos
+
+8
+00:00:47,400 --> 00:00:50,270
+visuais tudo aquilo que acontecer dentro de um campo.
+
+9
+00:00:50,280 --> 00:00:58,150
+Por isso é muito importante que essa classe botão campo ela implemente a um campo observado.
+
+10
+00:00:58,230 --> 00:01:04,830
+Ele precisa ser notificado sempre que acontecia algum evento com o campo associado que foi passado por
+
+11
+00:01:04,830 --> 00:01:10,770
+parâmetro pra essa classe botar o capitão aqui eu vou precisar implementar esse método evento ocorreu
+
+12
+00:01:11,250 --> 00:01:18,030
+eu recebo dois parâmetros aqui que é o campo e o evento é o que eu vou fazer aqui dentro e a partir
+
+13
+00:01:18,030 --> 00:01:22,670
+do momento que eu recebi determinados tipos de eventos se foi escolhido.
+
+14
+00:01:22,680 --> 00:01:27,960
+Se foi abrir esse que foi fechado eu vou aplicada terminados os tiros para o botão então fazer um switch
+
+15
+00:01:28,550 --> 00:01:34,710
+que é uma seleção múltipla em cima do evento que foi passado e aqui dentro do switch eu vou criar um
+
+16
+00:01:34,710 --> 00:01:38,540
+Keys em abri Keys e abri.
+
+17
+00:01:38,640 --> 00:01:49,870
+Eu vou chamar um metro que eu vou criar ainda chamado aplicar estilo abri e aqui eu vou abrir e colocar
+
+18
+00:01:49,890 --> 00:01:56,490
+aqui e colocar como John porque ele vai pedir para o criar um método acho que no caso de vocês se for
+
+19
+00:01:56,680 --> 00:02:04,980
+Windows e Linux e controle criei um método específico e aqui vou chamar o X já que não quero que ele
+
+20
+00:02:04,980 --> 00:02:07,150
+execute os demais métodos.
+
+21
+00:02:07,200 --> 00:02:14,450
+Vou duplicar isso aqui criar outro games que agora apareceu em marcá tal marca.
+
+22
+00:02:14,580 --> 00:02:19,460
+Eu vou chamar o aplicativo estilo marcá lo aí.
+
+23
+00:02:19,730 --> 00:02:22,150
+E esse método não existe fodão como John.
+
+24
+00:02:22,260 --> 00:02:29,370
+Ele vai criar um outro método privado para aplicar o estilo de marcar ou duplicar ou marcar pra ele
+
+25
+00:02:29,370 --> 00:02:37,350
+criar mais um games que vai explodir de qualquer aplicativo explodir.
+
+26
+00:02:37,910 --> 00:02:40,610
+E esse método também precisa ser criado.
+
+27
+00:02:40,690 --> 00:02:46,650
+Vai ser também um metro privado aqui e finalmente no caso de fogo eu vou aplicar o estilo padrão então
+
+28
+00:02:46,650 --> 00:02:57,930
+eu vou colocar aqui algo que levou a aplicar estilo estilo padrão que é quando o campo está fechado
+
+29
+00:02:57,930 --> 00:03:03,600
+está desmarcado e vou colocar aqui para criar também um metro privado aplicativo padrão.
+
+30
+00:03:03,600 --> 00:03:11,320
+Então nós temos os métodos nós temos aqui o evento eu preciso registrar a minha classe como interessado
+
+31
+00:03:11,320 --> 00:03:14,490
+em escutar os argumentos desse campo pra fazer isso.
+
+32
+00:03:14,740 --> 00:03:19,070
+Eu faço aqui outro campo que faltou registrar observador.
+
+33
+00:03:19,110 --> 00:03:19,980
+Passo 10.
+
+34
+00:03:19,980 --> 00:03:24,230
+Agora sim qualquer bem que acontecer com campo esse método será chamado.
+
+35
+00:03:24,240 --> 00:03:28,560
+Aí eu vou aplicar o estilo correto para cada uma das situações para a gente conseguir aplicar esses
+
+36
+00:03:28,560 --> 00:03:34,050
+estilos eu vou precisar definir algumas cores que vai em primeiro vão aplicar alguns estilos aqui eu
+
+37
+00:03:34,050 --> 00:03:47,280
+vou primeiro colocar aqui pra ver de campo eu vou passar aqui dez complicado com o outro estilo que
+
+38
+00:03:47,280 --> 00:03:55,200
+eu vou passar pelo botão vai ser set decoração de cola e vou definir o padrão aqui vou criar uma série
+
+39
+00:03:55,200 --> 00:03:59,700
+de cores na verdade para o ataque final.
+
+40
+00:03:59,730 --> 00:04:05,990
+Clássico é clássico cólon que está dentro de Jabba ponto a WTC e eu vou colocar aqui.
+
+41
+00:04:06,200 --> 00:04:12,600
+BG padrão eu vou colocar Neil Cole.
+
+42
+00:04:13,140 --> 00:04:23,880
+Vou definir uma cor de RGB que vai ser 184 vírgula 180 são cinza 184 e duplicar isso aqui para mais
+
+43
+00:04:23,880 --> 00:04:28,800
+outras quatro cores lembrando que isso aqui houve um planejamento por trás eu sei exatamente qual as
+
+44
+00:04:28,800 --> 00:04:33,940
+cores que eu quero por isso que rapidamente eu chegue um resultado mais aqui fora eu fui testado ver
+
+45
+00:04:33,960 --> 00:04:35,330
+algumas cores e tal.
+
+46
+00:04:35,440 --> 00:04:41,630
+E você eventualmente pode até preferir outras cores mais interessantes ou ter um background marcado
+
+47
+00:04:41,640 --> 00:04:46,890
+quando você tiver marcado um campo dizendo ali que potencialmente pode ter uma mina e uma possibilidade.
+
+48
+00:04:46,890 --> 00:04:56,820
+Eu tenho outro que vai ser o blecaute explosão e explosão então o blecaute marcar o Mac usando definitivo
+
+49
+00:04:57,460 --> 00:05:04,720
+background explodir e o outro vai ser na verdade vai ser um recorde não vai ser um texto que eu vou
+
+50
+00:05:04,720 --> 00:05:11,350
+usar para representar com o verde certo o verde já ficou muito legal visualmente definiu o verde expressivo
+
+51
+00:05:11,340 --> 00:05:23,280
+e tal background padrão vai ser esse o background marcado vai ser que ao 8 8 o segundo vai ser 7 9 e
+
+52
+00:05:23,290 --> 00:05:26,720
+o terceiro vai ser 247.
+
+53
+00:05:26,730 --> 00:05:32,050
+Aqui eu respondi que vai ser mais pro vermelho vai ser um 100 189.
+
+54
+00:05:32,050 --> 00:05:35,730
+Aqui vai ser um meia e aqui vai ser meu 8.
+
+55
+00:05:35,740 --> 00:05:42,050
+Esses números não sei se vocês já mataram mais ela o RGB e o LET green blue.
+
+56
+00:05:42,060 --> 00:05:46,810
+E quanto eu quero de vermelho quanto eu quero de verde quanto eu quero dizer de azul.
+
+57
+00:05:47,000 --> 00:05:52,960
+Então de acordo com isso você vai definindo as cores e quiser na RGB ar definha que o vermelho é o bem
+
+58
+00:05:52,960 --> 00:05:55,940
+mais vermelho do que azul e verde.
+
+59
+00:05:55,940 --> 00:06:02,940
+E aqui eu tenho o texto velho então vai ser um zero aqui no meio colocassem aqui do lado do Cáucaso
+
+60
+00:06:03,100 --> 00:06:12,970
+então vai ser vermelho nada verde vai ter 100 e o azul vai ter nada e vai até dos 55 de 0 55.
+
+61
+00:06:12,970 --> 00:06:17,640
+Então aqui eu tenho uma cor de verde um pouco mais escura se colocasse 2 5 5 seria bem clarão.
+
+62
+00:06:18,130 --> 00:06:22,720
+Mas se a cor diminuir bem o verde então a ficar verde mais bege um pouco mais escuro.
+
+63
+00:06:22,750 --> 00:06:27,090
+Agora que a gente definiu a escolha quer para o concerto da colónia 7 depois do primeiro você tá aqui
+
+64
+00:06:27,100 --> 00:06:33,190
+pra gente ver as bordas do botão que vai fazer uma diferença muito grande vai deixar o visual muito
+
+65
+00:06:33,190 --> 00:06:35,220
+mais parecido com o que a gente está acostumado.
+
+66
+00:06:35,220 --> 00:06:35,920
+Campo Minado.
+
+67
+00:06:36,370 --> 00:06:39,320
+Então vou criar aqui um Border Factory.
+
+68
+00:06:39,940 --> 00:06:40,800
+Ponto.
+
+69
+00:06:40,810 --> 00:06:47,120
+Tem uma das bordas que o cliente Bebel borda e eu vou passar aqui pra ele criar com valor zero.
+
+70
+00:06:47,140 --> 00:06:54,640
+O efeito que isso aqui vai dar daqui pra gente ver você vai ver que ele vai ficar muito mais parecido
+
+71
+00:06:54,640 --> 00:06:57,760
+com quem está acostumado lá com um campo minado.
+
+72
+00:06:58,050 --> 00:07:07,540
+E agora eu vou colocar o nosso a nossa com sete background ao 7 Becker para o BG padrão que essa primeira
+
+73
+00:07:07,540 --> 00:07:12,230
+cor aqui qualquer jeito vai mudando de acordo com a necessidade.
+
+74
+00:07:12,410 --> 00:07:18,150
+Que tá mais uma vez aqui traz também a cor ficou um pouco diferente do que tinha na vez passado.
+
+75
+00:07:18,220 --> 00:07:24,790
+O próximo passo vai ser o seguinte eu vou criar agora essas funções na verdade eu preciso implementar
+
+76
+00:07:25,270 --> 00:07:31,030
+uma outra interface que vai ser a interface que vai executar o evento do mouse.
+
+77
+00:07:31,210 --> 00:07:37,960
+Ou seja como eu executam aqui eu clique nos botões não acontece absolutamente nada de bloqueio por que
+
+78
+00:07:37,960 --> 00:07:44,890
+não escuta nada menos do mouse exatamente do mouse que vai disparar uma marcação ou uma desmarcação
+
+79
+00:07:45,010 --> 00:07:47,560
+ou vai disparar uma abertura do campo.
+
+80
+00:07:47,560 --> 00:07:52,800
+Eu preciso implementar isso pra não ficar muito grande na próxima logins continua mexendo aqui implementando
+
+81
+00:07:52,830 --> 00:07:56,200
+a interface de tratamento dos eventos do mouse e até lá.

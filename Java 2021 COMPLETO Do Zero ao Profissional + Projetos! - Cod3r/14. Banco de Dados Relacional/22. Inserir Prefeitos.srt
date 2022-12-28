@@ -1,0 +1,207 @@
+1
+00:00:00,250 --> 00:00:06,380
+Pensar no assunto agora fazer as inserções dos prefeitos e nós vamos pra isso criar um novo arquivo.
+
+2
+00:00:06,400 --> 00:00:07,050
+O.
+
+3
+00:00:07,350 --> 00:00:11,630
+Então vou colocar aqui inserir prefeitos ponto SQL.
+
+4
+00:00:11,690 --> 00:00:18,720
+Nós vamos fazer as inserções de alguns prefeitos então em 7 de julho dois prefeitos o nome e a cidade
+
+5
+00:00:19,050 --> 00:00:20,400
+da cidade nós vamos usar.
+
+6
+00:00:20,730 --> 00:00:22,440
+Então eu vou colocar aqui velhos.
+
+7
+00:00:22,440 --> 00:00:27,410
+Primeiro vai ser o Rodrigo Neves eu dê uma pesquisada no Google para saber o prefeito da cidade que
+
+8
+00:00:27,420 --> 00:00:37,500
+mais temos mas temos aqui só para a gente recapitular se ela é um asterisco foram cidades estão colocando
+
+9
+00:00:37,500 --> 00:00:43,980
+aqui para executar controle como Shift é pra você clicar com o botão direito ele vai dizer que ao Lance
+
+10
+00:00:43,990 --> 00:00:51,780
+Black de taxi SQL aí você vai ver qual a tecla de atalho e aqui nós temos Campinas e Niterói Caruaru
+
+11
+00:00:52,110 --> 00:00:57,270
+e Juazeiro do Norte então Rodrigo Neves é o prefeito de Niterói.
+
+12
+00:00:57,630 --> 00:01:02,820
+Continuando vou colocar aqui Raquel Lyra e a prefeita de Caruaru.
+
+13
+00:01:03,100 --> 00:01:07,740
+E finalmente eu vou colocar aqui o Zé Inaldo Coutinho que não é prefeito nenhuma nessa cidades e eu
+
+14
+00:01:07,740 --> 00:01:14,430
+vou colocar o valor como muro lembrando que na aula passada nós criamos a tabela o prefeito e eu disse
+
+15
+00:01:14,430 --> 00:01:17,770
+que o campo cidade aí aceita valor nulo.
+
+16
+00:01:17,790 --> 00:01:24,350
+Lembra que eu coloquei nós nú para o nome do prefeito mas eu não coloquei nós no pra cidade aí ou seja
+
+17
+00:01:24,350 --> 00:01:32,490
+essa é uma relação não obrigatória é opcional posso ou não ter uma cidade associada com prefeito até
+
+18
+00:01:32,500 --> 00:01:38,120
+porque pra mostrar pra vocês os dois possíveis de hoje os resultados diferentes esse campo.
+
+19
+00:01:38,190 --> 00:01:41,130
+Essa relação tem que ser opcional se for obrigatória.
+
+20
+00:01:41,130 --> 00:01:47,460
+Obviamente todos os dados estariam relacionados não é o caso aqui em relação à cidade e prefeito.
+
+21
+00:01:47,580 --> 00:01:53,580
+Eu fiz isso de propósito já para a gente conseguir na aula seguinte fazer o seletos testar vários e
+
+22
+00:01:53,730 --> 00:01:55,720
+vários jogos diferentes estavam lá.
+
+23
+00:01:55,950 --> 00:02:03,450
+Então inseri aqui o nome a cidade ou seja Rodrigo Neves Cidade 2 Acauã Lira cidade 3 e Zé Naldo Coutinho
+
+24
+00:02:03,450 --> 00:02:10,520
+nenhuma cidade associada ao selecionado como de que executou 13 linhas foram afetadas.
+
+25
+00:02:10,560 --> 00:02:14,500
+Continuando aqui vou fazer mais alguns ensaios só pra gente fazer um teste aqui.
+
+26
+00:02:14,980 --> 00:02:17,590
+Eu vou colocar em sete prefeitos.
+
+27
+00:02:18,060 --> 00:02:23,370
+No caso aqui é a mesma coisa o nome é Cidade Jardim e vou colocar o valor pra c.
+
+28
+00:02:23,370 --> 00:02:27,150
+Rafael Greca E VOU ASSOCIAR nulo também.
+
+29
+00:02:27,150 --> 00:02:36,120
+A gente já tem um prefeito antes de fazer tais como Salete seletivo asterisco Front prefeitos aqui não
+
+30
+00:02:36,170 --> 00:02:42,690
+conta como e a gente já tem os prefeitos aqui.
+
+31
+00:02:42,960 --> 00:02:49,720
+Rodrigo Neves Raquel Lira e Renaldo Coutinho o Reinaldo Coutinho vai ter um valor nulo.
+
+32
+00:02:49,830 --> 00:02:56,520
+Eu posso incluir um outro prefeito com um valor nulo será que ele vai dar um problema de chave única
+
+33
+00:02:56,610 --> 00:02:59,460
+nessa coluna do prefeito da cidade ou não.
+
+34
+00:02:59,460 --> 00:03:07,470
+Nesse caso não vai ter problema vou de fato conseguir adicionar o Rafael Greca então como aditivo que
+
+35
+00:03:08,680 --> 00:03:16,080
+eu posso fazer que o novo o novo a meu resultado e de fato eu tenho tanto o Zé Paulo Coutinho como esse
+
+36
+00:03:16,080 --> 00:03:18,870
+Rafael Greca os dois apontando para nulo.
+
+37
+00:03:18,870 --> 00:03:24,750
+Nesse caso eu posso tem mais de uma dupla ou seja mais um registro com valor nulo o que não vai gerar
+
+38
+00:03:24,750 --> 00:03:26,570
+problema de chave única.
+
+39
+00:03:26,580 --> 00:03:33,870
+Entretanto se eu fizer aqui um excerto pra inserir com a chave duplicada então coloca em sete prefeitos
+
+40
+00:03:34,230 --> 00:03:37,410
+nome e cidade aí os valores não sei.
+
+41
+00:03:37,710 --> 00:03:43,680
+Primeiro vai ser o Rodrigo Pinheiro e eu vou colocar na cidade isso ou seja Rodrigo Pinheiro acho que
+
+42
+00:03:43,680 --> 00:03:51,170
+é o vice prefeito de Caruaru no caso a prefeita Raquel Lyra eu vou tentar inseri esse registro como
+
+43
+00:03:51,240 --> 00:03:57,630
+Shift e ele gerou um erro aqui ao clicar duas vezes e ele vai dizer que a entrada é duplicada ou seja
+
+44
+00:03:57,630 --> 00:04:04,620
+foi duplicada a entrada 3 para a coluna cidade aí ou seja a gente colocou uma restrição de chave única
+
+45
+00:04:04,620 --> 00:04:10,860
+não posso ter mais de um prefeito apontando para a mesma cidade exatamente porque essa é uma relação
+
+46
+00:04:11,190 --> 00:04:13,180
+pra um tal partido em.
+
+47
+00:04:13,260 --> 00:04:14,540
+Já tava bem tranquilo.
+
+48
+00:04:14,550 --> 00:04:20,670
+A única diferença que nós temos nesse exemplo é que nós temos essa restrição a mais não poder duplicar
+
+49
+00:04:20,760 --> 00:04:26,760
+a chave estrangeira que foi transmitida para a tabela de prefeitos a próxima aula a gente continua agora
+
+50
+00:04:26,760 --> 00:04:30,810
+fazendo vários tipos de seletos usando os diferentes tipos de.
+
+51
+00:04:30,990 --> 00:04:36,690
+Eu vou fazer essas consultas exatamente de cima da tabela prefeito e cidade para a gente ver os diferentes
+
+52
+00:04:36,690 --> 00:04:40,380
+tipos e o resultado que isso vai gerar de espera na proximal.

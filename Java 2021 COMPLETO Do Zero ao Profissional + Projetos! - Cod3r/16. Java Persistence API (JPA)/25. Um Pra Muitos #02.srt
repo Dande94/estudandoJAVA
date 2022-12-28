@@ -1,0 +1,319 @@
+1
+00:00:00,150 --> 00:00:08,310
+Pessoal agora nós vamos fazer a relação bidirecional e o princípio é parecido com o princípio da relação
+
+2
+00:00:08,310 --> 00:00:09,690
+bidirecional.
+
+3
+00:00:09,720 --> 00:00:11,480
+A diferença é que a anotação vai mudar.
+
+4
+00:00:11,940 --> 00:00:17,040
+Então dentro do pedido nós vamos criar um novo atributo esse atributo privado.
+
+5
+00:00:17,050 --> 00:00:28,620
+Também aqui eu vou ter uma lista e a lista vai ser mais com lista de item pedido que eu vou chamar que
+
+6
+00:00:28,650 --> 00:00:39,730
+a lista de itens é natural vou anotar esse atributo com a robô Germany e com essa anotação Mini.
+
+7
+00:00:39,780 --> 00:00:49,670
+A gente vai colocar aquele mesmo atributo map de Bay pra dizer qual é o atributo dentro da classe item
+
+8
+00:00:49,680 --> 00:00:54,170
+de pedido que mapeia essa relação que eu estou querendo fazer.
+
+9
+00:00:54,290 --> 00:01:01,500
+A parte bidirecional ou seja sempre que você faz o segundo atributo que é a parte bidirecional da relação.
+
+10
+00:01:01,630 --> 00:01:07,800
+Você usa o mapa de bar para dizer onde está o atributo que realmente está mapeando aquela relação para
+
+11
+00:01:07,800 --> 00:01:08,700
+muitos.
+
+12
+00:01:08,760 --> 00:01:14,840
+Então nesse caso a gente vai entrar dentro de item de pedido e vai ver qual é o atributo que está mapeado
+
+13
+00:01:14,850 --> 00:01:18,750
+na verdade o atributo que está mapeando é exatamente esse o pedido.
+
+14
+00:01:18,900 --> 00:01:25,380
+E aqui eu vou selecionar o nome do atributo e lá dentro de pedido eu vou ao local que isso aqui está
+
+15
+00:01:25,380 --> 00:01:27,000
+mapeado para o pedido.
+
+16
+00:01:27,000 --> 00:01:31,140
+De tal forma que agora vou ter relação bidirecional estabelecida.
+
+17
+00:01:31,180 --> 00:01:31,570
+Tá.
+
+18
+00:01:31,590 --> 00:01:35,080
+Uma vez feito isso eu vou criar aqui os metros Cat 7.
+
+19
+00:01:36,090 --> 00:01:42,780
+A questão que eu acho que eu já deve ter falado pra vocês sobre listas talvez não.
+
+20
+00:01:42,790 --> 00:01:44,280
+Depois eu falo sobre isso né.
+
+21
+00:01:44,290 --> 00:01:51,090
+O que você tem que ter cuidado para que quanto mais você mantém digamos assim a alteração de uma lista
+
+22
+00:01:51,090 --> 00:01:54,550
+dessas sob controle melhor vai ser nessa você.
+
+23
+00:01:54,780 --> 00:01:59,970
+Quando você coloca por exemplo o método 7 em alguém pode chegar fora da classe pedido e simplesmente
+
+24
+00:01:59,980 --> 00:02:02,140
+citar uma lista completamente diferente.
+
+25
+00:02:02,400 --> 00:02:08,290
+Você cria metros por exemplo para adicionar o item dentro do pedido diretamente dessa classe.
+
+26
+00:02:08,310 --> 00:02:13,490
+Ajuda a você ter um maior nível de encapsulamento mas eu não vou querer entrar muito nesse mérito porque
+
+27
+00:02:13,500 --> 00:02:16,720
+não está diretamente ligado com a parte do.
+
+28
+00:02:16,720 --> 00:02:22,150
+O fato é que eu criei o atributo certo a lista de pedidos chamei de item.
+
+29
+00:02:22,290 --> 00:02:29,660
+Fiz um mapeamento usando outra anotação você deve ter notado aqui no item de biquíni a natação e mini
+
+30
+00:02:30,270 --> 00:02:39,420
+e aqui dentro do peguei na natação e na observação é que dentro de menos de um ano eu não tenho o nome
+
+31
+00:02:39,510 --> 00:02:46,950
+do aquele atributo Mega de baixo e médio de baixo sempre faz parte do lado do lado bidirecional da relação
+
+32
+00:02:46,990 --> 00:02:48,990
+e não do lado oficial digamos assim.
+
+33
+00:02:48,990 --> 00:02:56,430
+Então aqui eu não tenho o mapa de Bay associado ao menos um ano já que o mapa de Bay inclusive já está
+
+34
+00:02:56,430 --> 00:03:02,130
+preenchido aqui no nosso caso para apontar para o atributo dentro de item de pedido que mapeia essa
+
+35
+00:03:02,130 --> 00:03:02,860
+relação aqui.
+
+36
+00:03:02,860 --> 00:03:03,260
+Tá bom.
+
+37
+00:03:03,610 --> 00:03:11,370
+Então feito isso agora tem uns metros Gard 7 e nós vamos aqui criar dentro de um pra muitos um outro
+
+38
+00:03:11,850 --> 00:03:22,440
+arquivo que vai ser ao até obter pedido para criar o método.
+
+39
+00:03:23,350 --> 00:03:29,730
+E uma vez criado o metro meio eu vou criar aqui o meu Deus que vai apontar para a pedido então um jogo
+
+40
+00:03:29,730 --> 00:03:40,740
+portátil só importa altamente o pedido eu vou chamar de série mil Dell passando o pedido também porque
+
+41
+00:03:40,740 --> 00:03:43,440
+eu vou precisar consultar pouco claras.
+
+42
+00:03:43,560 --> 00:03:49,670
+Uma vez feito isso agora a gente consegue obter o pedido inclusive e obter os itens de pedido então
+
+43
+00:03:50,100 --> 00:03:54,710
+pediram pedido recebi ao.
+
+44
+00:03:55,010 --> 00:03:56,390
+Tem por aí.
+
+45
+00:03:56,520 --> 00:04:03,340
+Eu sei que ela de encontro cadastro até agora e uma vez feito isso eu posso fazer um forró em cima de
+
+46
+00:04:03,480 --> 00:04:15,510
+item pedido que eu vou chamar de item item 3 pontos e apagá lo perdido ponto em itens.
+
+47
+00:04:15,600 --> 00:04:21,320
+E aqui eu vou imprimi e tem ponto diet em quantidade.
+
+48
+00:04:21,930 --> 00:04:29,190
+Então pra finalizar eu vou chamar que ao ponto fechado e a gente vai ver que a gente vai ver as quantidades
+
+49
+00:04:29,190 --> 00:04:36,180
+dos itens de pedido dentro de um pedido ou seja a partir do pedido ele trouxe também os itens pedidos
+
+50
+00:04:36,630 --> 00:04:43,620
+e ele não traz por padrão certo ele vai fazer duas consultas a uma consulta ele vai trazer o pedido
+
+51
+00:04:43,980 --> 00:04:49,530
+e depois momento que eu fiz aqui um engate itens ele gerou uma segunda consulta pra trazer os itens
+
+52
+00:04:49,620 --> 00:04:50,460
+de pedido.
+
+53
+00:04:50,460 --> 00:04:52,620
+Existe forma de ele trazer tudo junto.
+
+54
+00:04:52,650 --> 00:04:59,340
+Existe sim eu vou mostrar depois de baixar pra vocês Como é que você pode usar a propriedade aqui dentro
+
+55
+00:04:59,340 --> 00:05:00,360
+do pedido.
+
+56
+00:05:00,420 --> 00:05:05,740
+Se eu colocar aqui na votação existe uma propriedade chamada chamada FAT.
+
+57
+00:05:06,220 --> 00:05:11,790
+Exatamente o frete tá aqui eu tenho o Gui e o Luis e eu vou comentar um pouco depois com você sobre
+
+58
+00:05:11,790 --> 00:05:17,950
+essa propriedade mas por enquanto que a gente fez esse exercício mesmo não definindo o frete pra si
+
+59
+00:05:18,150 --> 00:05:22,750
+que ele vai trazer eu acessando o método Gatti.
+
+60
+00:05:22,790 --> 00:05:29,240
+Ele foi capaz de gerar uma segunda consulta pra trazer de forma tardia ou seja o JP só vai executar
+
+61
+00:05:29,240 --> 00:05:33,530
+essa segunda consulta se por acaso ele acessar os itens do pedido.
+
+62
+00:05:33,530 --> 00:05:38,720
+Se eu comentar essa linha o que é certo e desatar esse código novamente você vai perceber que ele vai
+
+63
+00:05:38,720 --> 00:05:46,340
+fazer apenas uma única consulta que foi obter o pedido na base pelo fato de eu ter acessado aqui os
+
+64
+00:05:46,340 --> 00:05:52,830
+itens exibidos aí sim aquele foi lá e também trouxe os itens e a partir dos itens eu consigo tanto acessar
+
+65
+00:05:52,830 --> 00:05:59,990
+a quantidade como também consigo acessar o nome do produto eu posso fazer o seguinte Aqui eu peguei
+
+66
+00:05:59,990 --> 00:06:04,410
+a quantidade e eu vou imprimi um outro system algo que eu vou pagar.
+
+67
+00:06:04,460 --> 00:06:12,510
+Item foto gatinho produto ponto gatinho nome.
+
+68
+00:06:12,750 --> 00:06:18,410
+Então agora consigo pegar o nome do produto também a partir dos relacionamentos que foram estabelecidos
+
+69
+00:06:18,430 --> 00:06:23,570
+ou tenham que a quantidade foi 10 e o nome do produto que eu comprei foi a geladeira.
+
+70
+00:06:23,570 --> 00:06:29,330
+Então muito legal você percebe que o que eu não fiz não apenas o único relacionamento para muito mais
+
+71
+00:06:29,330 --> 00:06:35,630
+eu fiz 2 tanto de item para a pedido como de item para o produto e a gente consegue navegar entre os
+
+72
+00:06:35,630 --> 00:06:42,500
+objetos de uma forma muito tranquila porque eu já dá pra nos ajuda nesse mapeamento objeto relacional.
+
+73
+00:06:42,500 --> 00:06:47,030
+Então fico por aqui e ali tem mais coisa pra gente falar sobre relacionamento um para muitos eu vou
+
+74
+00:06:47,030 --> 00:06:52,970
+falar na próxima olha exatamente sobre o frete a possibilidade que você tem que trazem de forma ansiosa
+
+75
+00:06:52,970 --> 00:06:57,560
+digamos assim os dados de uma vez e vai servir para situações que você tem assim.
+
+76
+00:06:57,850 --> 00:07:03,560
+Noventa e nove por cento das vezes que eu pego um pedido Eu vou querer ter os itens juntos então quando
+
+77
+00:07:03,560 --> 00:07:09,860
+você tem um cenário d esse sim faz sentido você trazer logo de uma vez os itens junto com o pedido mas
+
+78
+00:07:09,860 --> 00:07:15,440
+se não for o caso você tem que ter muito cuidado com esse tipo de escolha porque isso pode gerar alguns
+
+79
+00:07:15,530 --> 00:07:20,180
+efeitos colaterais de performance na sua aplicação mas eu vou deixar para falar isso um pouco mais na
+
+80
+00:07:20,180 --> 00:07:21,380
+próxima aula eu espero.

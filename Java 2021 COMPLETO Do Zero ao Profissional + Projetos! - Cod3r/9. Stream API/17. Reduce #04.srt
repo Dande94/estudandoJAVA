@@ -1,0 +1,667 @@
+1
+00:00:00,300 --> 00:00:05,820
+Agora vamos criar o nosso terceiro exercício diz o idoso mas antes disso eu vou fazer o seguinte eu
+
+2
+00:00:05,820 --> 00:00:16,870
+vou criar uma classe chamada média média e vou criar uma outra classe chamada média Techint.
+
+3
+00:00:16,940 --> 00:00:23,850
+Certo Não vou usar essa classe média tachi duas ou simplesmente testar a classe média que eu criei.
+
+4
+00:00:23,870 --> 00:00:25,570
+Então o que é que eu vou fazer aqui na classe média.
+
+5
+00:00:26,130 --> 00:00:35,130
+A classe média ela vai ter dois atributos até um atributo qualquer que vende num dos atributos vai ser
+
+6
+00:00:35,130 --> 00:00:43,770
+um valor da ABL que vai ser sei lá o valor total certo e vou criar aqui um outro valor.
+
+7
+00:00:43,790 --> 00:00:48,860
+Leibniz que vai ser o que eu vou chamar aqui de quantidade.
+
+8
+00:00:49,320 --> 00:00:55,440
+Então vou ter uma quantidade que tem um valor total e em cima desse valor total dividido pela quantidade
+
+9
+00:00:55,440 --> 00:00:57,180
+que eu vou calcular média.
+
+10
+00:00:57,180 --> 00:01:03,200
+Vou criar aqui uma função certo então vou chamar aqui ao público essa função que inicialmente vai retornar
+
+11
+00:01:03,270 --> 00:01:09,500
+Boyd e eu vou colocar aqui ao adicionar que vai receber um determinado valor do tipo W.
+
+12
+00:01:09,610 --> 00:01:21,570
+Aqui eu vou fazer o seguinte total mais igual ao valor igual a pagar a quantidade e vou acrescentar
+
+13
+00:01:21,570 --> 00:01:27,510
+ou seja cada vez que eu chamar adicionar eu vou tanto a acrescentar o valor total como vou acrescentar
+
+14
+00:01:27,600 --> 00:01:28,690
+a quantidade.
+
+15
+00:01:28,930 --> 00:01:35,590
+E aqui eu posso ter por exemplo outra função Word não é a função que retorna da ABL.
+
+16
+00:01:36,180 --> 00:01:44,330
+E aqui eu vou chamar a função de grande valor e eu que eu vou fazer aqui e pagar o valor da média nos
+
+17
+00:01:44,400 --> 00:01:49,790
+dois valores o total dividido pela quantidade que eu tenho a MAC.
+
+18
+00:01:49,950 --> 00:01:57,090
+Então sempre que eu adicionar adiciona um o valor ao total e também acrescentar quantidade em quantidade
+
+19
+00:01:57,090 --> 00:02:02,220
+de números que eu coloquei no final tem um valor médio pra gente testar isso só pra gente depois de
+
+20
+00:02:02,220 --> 00:02:04,740
+fazer algumas melhorias e fazer o seguinte.
+
+21
+00:02:04,980 --> 00:02:09,810
+Então o que eu queria aqui uma média que eu vou chamar aqui.
+
+22
+00:02:10,360 --> 00:02:17,190
+é aqui que você vai fazer a média de duas avaliações a primeira avaliação média.
+
+23
+00:02:17,370 --> 00:02:32,280
+Então vou criar aqui e eu vou colocar aqui em um ponto adicionar o valor tirou 15 9 8 3 8 3 eu falei
+
+24
+00:02:32,280 --> 00:02:42,280
+9 mas está 8 também 1 ponto adicional tirou aqui um 6 ponto 7 e no final se eu quiser mostrar o valor
+
+25
+00:02:42,280 --> 00:02:47,420
+da média eu faço e minha um ponto ganho este valor.
+
+26
+00:02:47,820 --> 00:02:55,230
+O resultado é que a gente tem 7 pontos 5 certos humanos 2 aqui 7 e 3 vai dar um ponto que eu posso colocar
+
+27
+00:02:55,230 --> 00:03:03,420
+9 mais 6 a 15 dividir por 2 7 mil seja correto uma das melhorias que eu posso fazer aqui é o seguinte
+
+28
+00:03:03,880 --> 00:03:11,770
+em vez de retornar vai adicionar eu posso retornar à própria instância atual ou seja retornar à média.
+
+29
+00:03:11,790 --> 00:03:17,880
+Se eu colocar que essa função vai tomar na média eu posso colocar aqui Mitani 10.
+
+30
+00:03:17,940 --> 00:03:24,360
+Isso é legal pouco tempo que eu posso sair cadeado em uma única chamada todas as notas que eu quero
+
+31
+00:03:24,360 --> 00:03:28,560
+adicionar por exemplo em vez de chamar na linha de baixo eu posso colocar média adicional de quanto
+
+32
+00:03:28,600 --> 00:03:37,200
+três posso continuar adicionando que a média 6 pontos 7 de tal forma que eu continuo tendo a minha média
+
+33
+00:03:37,200 --> 00:03:37,940
+correta aqui.
+
+34
+00:03:37,950 --> 00:03:43,620
+Então se eu fizer isso continua sendo 7 pontos 5 e se eu quiser também continuar acadiano posso chamar
+
+35
+00:03:43,620 --> 00:03:48,960
+o gato vale obviamente o gato vale o retorno da ABL e eu não vou conseguir adicionar pra essa variável
+
+36
+00:03:48,960 --> 00:03:49,500
+aqui.
+
+37
+00:03:50,000 --> 00:03:55,350
+Mas você pode sair em cada ano várias chamadas de adicionar sem se preocupar porquê.
+
+38
+00:03:55,350 --> 00:03:59,660
+Como adicionar retorna à instância atual você consegue sair encadeada.
+
+39
+00:03:59,670 --> 00:04:03,050
+Outra coisa legal que gente vai precisar também nesse exemplo.
+
+40
+00:04:03,210 --> 00:04:08,580
+Essa molecada não necessariamente seria necessário mas vai ajudar a gente a escrever menos.
+
+41
+00:04:08,580 --> 00:04:15,210
+Outra coisa que é interessante a gente fazer é criar uma função aqui criar uma função estática que vai
+
+42
+00:04:15,210 --> 00:04:16,610
+combinar duas médias.
+
+43
+00:04:16,610 --> 00:04:18,410
+Por exemplo vou colocar aqui.
+
+44
+00:04:18,510 --> 00:04:27,180
+Essa função vai retornar à média e eu vou chamar ela de combinar la porque quando você eventualmente
+
+45
+00:04:27,180 --> 00:04:33,300
+vai fazer operações paralelas você precisa combinar vários objetos do mesmo tipo então vou receber uma
+
+46
+00:04:33,320 --> 00:04:41,610
+média em mim um receber uma média m2 e não faço com outros eu vou criar uma nova média não importa que
+
+47
+00:04:41,610 --> 00:04:51,120
+a média resultante será uma nova média e eu vou fazer a operação simples por exemplo a média vou chamar
+
+48
+00:04:51,120 --> 00:05:00,430
+aqui resultante ponto quantidade vai ser a soma das duas quantidades e também um ponto quantidade em
+
+49
+00:05:00,540 --> 00:05:08,960
+dois pontos quantidade vou duplicar isso e nós teremos a mesma coisa pra o total então que ao total
+
+50
+00:05:09,090 --> 00:05:15,910
+é a mesma coisa dos dois totais da média vou somar os dois totais mais de 1000 m2 e vou somar também
+
+51
+00:05:15,910 --> 00:05:22,430
+a quantidade no final das contas eu tenho a minha média resultante da anarquia resultante.
+
+52
+00:05:23,030 --> 00:05:32,060
+Então se eu fizer por exemplo aqui algo duplicar isso aqui fizer uma média de dois e aí o aluno vão
+
+53
+00:05:32,100 --> 00:05:41,600
+sei que ele tirou o site Meio porque ele baixou um pouco aqui tirou 7 8 9 e na segunda ele tirou 6 pontos
+
+54
+00:05:41,600 --> 00:05:51,350
+6 deixando igual valor da segunda média 2 aqui o resultado vai ser que ele tirou o 7 meio e depois 7
+
+55
+00:05:51,350 --> 00:05:59,810
+pontos 25 se eu fizer o resultado eu posso colocar a média do ponto combinar que eu não coloquei como
+
+56
+00:05:59,810 --> 00:06:08,860
+seria estático nem um metro que está média combiná combinar ou passar em mil m2.
+
+57
+00:06:08,860 --> 00:06:16,630
+No final o resultado garante o valor já que esse método retornou à média sem colocar sistema de ali
+
+58
+00:06:17,470 --> 00:06:24,390
+onde Estado que a gente tem agora sete pontos 3 7 5 ficou aqui no meio entre os dois ou seja estava
+
+59
+00:06:24,390 --> 00:06:30,790
+funcionando corretamente tanto o combinado dos médios como fazer o encadeamento aqui e várias chamadas
+
+60
+00:06:30,790 --> 00:06:32,000
+do tipo adicionado.
+
+61
+00:06:32,020 --> 00:06:39,790
+Feito isso a gente tem a nossa classe média funcionando e eu vou usar essa classe no contexto do Windows
+
+62
+00:06:40,270 --> 00:06:49,270
+então pra isso nós vamos criar aqui uma terceira classe em que eu vou chamar aqui de 2 3 2 3 e nós vamos
+
+63
+00:06:49,270 --> 00:06:56,860
+também criar novamente o nosso problema e vou aproveitar parte do exercício passado para apagar lixo
+
+64
+00:06:57,070 --> 00:07:05,800
+de alunos vou pegar o lixo criado e os quatro alunos definidos a lista aprovado é apenas nota eu vou
+
+65
+00:07:05,800 --> 00:07:09,650
+mudar só a parte final que seria especificamente do Windows.
+
+66
+00:07:09,800 --> 00:07:17,260
+Que tal pegar isso aqui e maximizar nossa terra para gente começar a criar as operações específicas
+
+67
+00:07:17,260 --> 00:07:18,670
+relacionadas ao Windows.
+
+68
+00:07:18,680 --> 00:07:20,170
+Então o que é que vai acontecer.
+
+69
+00:07:20,170 --> 00:07:27,140
+Eu vou na minha papelaria de execução eu vou fazer o seguinte nós vamos ter que aos alunos.
+
+70
+00:07:27,190 --> 00:07:36,220
+Ponto isto aí e aqui nós vamos fazer primeiramente um filtro pra pegar apenas os alunos aprovados aprovada
+
+71
+00:07:36,260 --> 00:07:38,540
+a média dos alunos aprovados.
+
+72
+00:07:38,620 --> 00:07:47,680
+Eu vou fazer o Inep não flat web mais um web pegando apenas nota o que eu tenho nesse ponto aqui da
+
+73
+00:07:47,680 --> 00:07:51,520
+papelaria tem uma historinha com valores do tipo da ABL.
+
+74
+00:07:51,670 --> 00:07:57,890
+Então eu vou precisar aplicar o filtro que eu quero que meu acumulador seja média.
+
+75
+00:07:58,140 --> 00:08:01,500
+Eu vou receber o dado como sendo o meu item atual.
+
+76
+00:08:01,500 --> 00:08:06,730
+Pra isso eu vou usar um interface que é aquela mais forte que você tem mais flexibilidade para definir
+
+77
+00:08:06,730 --> 00:08:13,600
+o tipo de retorno e os tipos de parâmetros então um caso que vai falar que eu vou receber o meu acumulador
+
+78
+00:08:14,030 --> 00:08:21,700
+vai ser a média o valor de cada um dos elementos vai ser mudado e o resultado da minha operação também
+
+79
+00:08:21,700 --> 00:08:22,650
+será uma média.
+
+80
+00:08:23,060 --> 00:08:29,290
+Então é exatamente isso que eu quero fazer o cálculo então vou chamar aqui e calcular média o nome da
+
+81
+00:08:29,290 --> 00:08:30,270
+função.
+
+82
+00:08:30,400 --> 00:08:41,080
+Aqui embaixo eu vou criar a minha paixão passei a média por receber a nota e vou chamar aqui média ponto
+
+83
+00:08:41,650 --> 00:08:48,190
+adicionado e vou passar a nota como sendo o valor o que é que eu queria fazer com que eu adicionar retornasse
+
+84
+00:08:48,190 --> 00:08:52,500
+à própria média pra poder em uma linha só conseguir resolver isso né.
+
+85
+00:08:52,570 --> 00:09:00,070
+Se eu adicionar retornasse VOD eu precisaria fazer isso aqui ao criar um par de chaves para definir
+
+86
+00:09:00,070 --> 00:09:02,200
+o corpo da minha expressão.
+
+87
+00:09:02,200 --> 00:09:04,210
+Terei que fazer isso na segunda linha.
+
+88
+00:09:04,210 --> 00:09:11,260
+Terei que chamar de média mas como eu já fiz tudo numa linha só eu não preciso me preocupar em colocar
+
+89
+00:09:11,260 --> 00:09:12,060
+um par de chaves.
+
+90
+00:09:12,070 --> 00:09:18,010
+Basta eu chamar a média ponto adicionar a nota que automaticamente a médio já retornado e eu não preciso
+
+91
+00:09:18,010 --> 00:09:22,990
+me preocupar com isso este não consegue chamar diretamente essa função aqui.
+
+92
+00:09:22,990 --> 00:09:25,890
+No caso do Windows porque eu vou me achar pra vocês.
+
+93
+00:09:25,900 --> 00:09:33,040
+Nós temos três funções diferentes pra usar o Windows a primeira função é uma operação binária do tipo
+
+94
+00:09:33,040 --> 00:09:39,370
+da ABL já que eu estou recebendo o extremo de dar bom uso ele espera que o operador seja do mesmo tipo
+
+95
+00:09:39,370 --> 00:09:44,740
+do estranho então você já recebe um redução desse com esse tipo de parâmetro.
+
+96
+00:09:44,740 --> 00:09:51,340
+A segunda forma de chamar gente acha também que você passa um valor inicial que é o Identity e depois
+
+97
+00:09:51,340 --> 00:09:58,270
+você passa um painel Operation é a terceira forma que a forma digamos assim que nós vamos usar agora
+
+98
+00:09:58,270 --> 00:10:04,570
+você recebe necessariamente um valor inicial e esse valor inicial para a gente eu vou chamar o terceiro
+
+99
+00:10:04,570 --> 00:10:10,350
+tipo o valor inicial pode ser uma nova média criada acabei de criar a média do zero.
+
+100
+00:10:10,420 --> 00:10:18,250
+O segundo parâmetro vai ser o acumulador que é exatamente esse de calcular a média e o terceiro que
+
+101
+00:10:18,250 --> 00:10:20,920
+é um parâmetro também obrigatório e o combinado.
+
+102
+00:10:20,920 --> 00:10:22,000
+Como é que eu vou.
+
+103
+00:10:22,000 --> 00:10:27,300
+Por exemplo se eu calcular várias médias em paralelo como é que eu vou combinar essas médias depois.
+
+104
+00:10:27,570 --> 00:10:32,320
+E é exatamente essa operação de combinar médias que a gente também precisa implementar.
+
+105
+00:10:32,320 --> 00:10:35,350
+Por isso quem implementa essa função estática lá.
+
+106
+00:10:35,380 --> 00:10:40,880
+Então basicamente essa função vamos ver se a assinatura dela está olhando a assinatura pra gente ver.
+
+107
+00:10:40,960 --> 00:10:47,980
+O terceiro elemento que é esse combinador ele é uma operação binária um painel ou perito que recebe
+
+108
+00:10:48,040 --> 00:10:50,950
+o tipo no nosso caso quem é o tipo.
+
+109
+00:10:51,220 --> 00:10:57,610
+Exatamente o valor que nós estamos passando por identidade e o primeiro parâmetro é o um parâmetro que
+
+110
+00:10:57,610 --> 00:11:02,250
+é recebido aqui na função do Funchal que é a minha média.
+
+111
+00:11:02,620 --> 00:11:13,400
+Então vou ter que aqui a operação binária o coloca aqui e vai operar no meu bairro perfeito nós teremos
+
+112
+00:11:13,450 --> 00:11:21,600
+aqui uma média como sendo o nosso operador binário aqui eu vou chamar de combinar média e aqui continuando
+
+113
+00:11:21,590 --> 00:11:27,070
+eu vou receber dois médios comparando com o operador binário e vou receber duas médias e retornar uma
+
+114
+00:11:27,070 --> 00:11:27,550
+média.
+
+115
+00:11:27,970 --> 00:11:34,870
+Então vou receber a M1 vou receber m2 vou chamar aqui.
+
+116
+00:11:35,410 --> 00:11:39,720
+Faltou combinar em Mi m2.
+
+117
+00:11:40,150 --> 00:11:46,560
+Então essa vai ser a minha função de combinar médio e eu preciso passar essa função combine pra cá pra
+
+118
+00:11:46,560 --> 00:11:52,960
+lá combinar as médios então é pra esse tipo de assinatura o requisito você ter essas três chamadas.
+
+119
+00:11:52,960 --> 00:11:57,150
+Isso não acontece necessariamente em outras linguagens.
+
+120
+00:11:57,280 --> 00:12:03,830
+Na linguagem você pode inclusive chamar reduz espaço a apenas uma única função sem problema nenhum.
+
+121
+00:12:04,180 --> 00:12:09,940
+Mas nesse caso essa terceira função mais complexa ainda precisa passar o valor inicial precisa passar
+
+122
+00:12:10,000 --> 00:12:15,800
+a função acumulador que vai fazer o processamento e a função que vai combinar as médias.
+
+123
+00:12:15,880 --> 00:12:21,990
+Aqui se você chamar um paralelo estranho certo ou mesmo este não vai funcionar corretamente.
+
+124
+00:12:22,040 --> 00:12:28,210
+é pra gente continuar eu vou armazenar o resultado desse Windows que vai ser uma média e um estado médio
+
+125
+00:12:28,270 --> 00:12:38,140
+ou qualquer skill média mediano recebe isso aqui esse resultado e no final eu vou colocar tinham
+
+126
+00:12:40,600 --> 00:12:46,960
+média alguma e vou colocá média.
+
+127
+00:12:46,990 --> 00:12:49,290
+Ponto grande grande.
+
+128
+00:12:49,920 --> 00:12:57,790
+Hoje esgotado que nossa operação vai ser a média do aluno ou 12 alunos da turma melhor média da turma
+
+129
+00:12:57,970 --> 00:12:59,620
+não é exatamente a média da atual.
+
+130
+00:12:59,620 --> 00:13:06,830
+Pouca gente filtra apenas os aprovados mas de qualquer forma estava ali naquele Estado metade da turma
+
+131
+00:13:06,830 --> 00:13:12,140
+e oito pontos a sentença e seu complemento aqui o filtro pesa e tals.
+
+132
+00:13:12,170 --> 00:13:19,780
+Vai ver que a média da turma é 7 pontos 82 alguma coisa porque entrou a média da aluna que foi e está
+
+133
+00:13:19,780 --> 00:13:20,500
+em recuperação.
+
+134
+00:13:20,620 --> 00:13:27,250
+Então de qualquer forma nós fizemos usando apenas um único corredor só que com ajuda de uma classe.
+
+135
+00:13:27,370 --> 00:13:34,030
+Fizemos o cálculo da média usando o Windows ou seja a gente a partir de uma classe acumulador a nossa
+
+136
+00:13:34,030 --> 00:13:36,230
+que tem outras informações internas.
+
+137
+00:13:36,400 --> 00:13:39,190
+A gente conseguiu fazer um cálculo um pouco mais complexo.
+
+138
+00:13:39,200 --> 00:13:42,960
+Eu achei pra vocês as três formas diferentes que você tem de chamar Windows.
+
+139
+00:13:42,970 --> 00:13:49,870
+Você pode chamar o Windows passaram apenas uma operação binária e essa operação binária do mesmo tipo
+
+140
+00:13:49,870 --> 00:13:51,880
+do chip que você já está usando.
+
+141
+00:13:51,880 --> 00:13:57,730
+Você pode passar essa mesma operação binária com o valor inicial e essa última que você tem a possibilidade
+
+142
+00:13:57,730 --> 00:14:03,370
+de ter mais flexibilidade ou seja você cria tipos diferentes que você recebe no acumulador.
+
+143
+00:14:03,690 --> 00:14:10,120
+E obviamente o acumulador sempre será retornado então você tem que ter o mesmo tipo aqui na resposta
+
+144
+00:14:10,170 --> 00:14:15,490
+e você tem a possibilidade de fazer operações um pouco mais complexas usando o Windows.
+
+145
+00:14:15,490 --> 00:14:22,150
+Imagine que todas essas funções que a gente criou que a gente está repetindo os exercícios pode estar
+
+146
+00:14:22,330 --> 00:14:27,910
+dentro de um add on a parte em dinheiro sim aproveitar pode ser adicionado dentro de uma classe com
+
+147
+00:14:27,910 --> 00:14:33,760
+várias funções que você pode usar para fazer esse tipo de operação então a gente acaba escrevendo muito
+
+148
+00:14:33,790 --> 00:14:39,210
+porque a gente está definindo aqui as funções novamente mas imagine que o seu código mesmo que falhe
+
+149
+00:14:39,220 --> 00:14:46,060
+essa lógica está simplesmente aqui ou nessas poucas linhas de código 1 2 3 4 linhas de código.
+
+150
+00:14:46,060 --> 00:14:52,300
+Você fez várias operações que se você fosse fazer isso repetidamente usando a técnica de fazer um foto
+
+151
+00:14:52,330 --> 00:14:58,810
+jogar isso numa variável fazer um teste pra filtrar as notas e tal você demora muito mais tempo do que
+
+152
+00:14:58,810 --> 00:15:04,200
+fazer isso e a própria leitura acaba sendo a leitura e fácil de ser lido.
+
+153
+00:15:04,210 --> 00:15:10,690
+Então por exemplo pego instruindo os alunos filtro e os aprovados faço um mapeamento para todas as notas
+
+154
+00:15:10,690 --> 00:15:12,670
+e no final calcule a média.
+
+155
+00:15:12,730 --> 00:15:18,160
+Então é algo que eu considero bastante importante e nós já fizemos vários exemplos e eu espero que esses
+
+156
+00:15:18,160 --> 00:15:25,300
+exemplos estejam reforçando um pouco dessa ideia e da filosofia por trás da programação funcional.
+
+157
+00:15:25,360 --> 00:15:32,800
+Qualquer tipo de paradigma por exemplo orientação objeto programação funcional coisas que mudam a forma
+
+158
+00:15:32,800 --> 00:15:40,210
+que você pensa que você organiza o código sempre é mais desafiador os paradigmas eles eles são mais
+
+159
+00:15:40,210 --> 00:15:46,060
+duradouros mais ao mesmo tempo demoram um pouco mais para você realmente pegar a filosofia por trás
+
+160
+00:15:46,060 --> 00:15:46,990
+daquele paradigma.
+
+161
+00:15:46,990 --> 00:15:52,630
+Por isso que é importante a gente ter feito vários exercícios de orientação a objeto estamos fazendo
+
+162
+00:15:52,630 --> 00:15:59,170
+várias ações relacionadas a expressões lambidas isto é de certa forma dentro desse contexto as expressões
+
+163
+00:15:59,170 --> 00:16:06,210
+lambidas Kinect tem um foco na função e também você percebe os princípios da programação funcional.
+
+164
+00:16:06,210 --> 00:16:12,130
+Já falei pra vocês alguns bens Java não é a linguagem funcional mas esses princípios da programação
+
+165
+00:16:12,130 --> 00:16:18,820
+funcional foram acrescidos a partir do Java 8 com a adição da turma Ibiapina que o que a gente está
+
+166
+00:16:18,820 --> 00:16:22,560
+bem nesse capítulo espero que vocês estejam gostando do curso até agora.
+
+167
+00:16:22,580 --> 00:16:27,660
+Espero também que esse exercício estejam sendo pra vocês relevantes e até para o.

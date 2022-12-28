@@ -1,0 +1,99 @@
+1
+00:00:00,110 --> 00:00:02,380
+Só nós vamos fazer agora.
+
+2
+00:00:02,530 --> 00:00:09,200
+Ao desafio vou lançar o desafio de aproximá lo da resposta e o desafio vai ser o seguinte já vou criar
+
+3
+00:00:09,200 --> 00:00:15,440
+Classe E aí vocês vão implementar o set em nome da classe C classe.
+
+4
+00:00:15,940 --> 00:00:19,410
+Eu vou chamar aqui de calculadora
+
+5
+00:00:21,100 --> 00:00:27,900
+petroleira e eu quero pegar o RL aqui copiado do meu planejamento.
+
+6
+00:00:28,010 --> 00:00:35,960
+Eu quero que vocês criem um websérie que vai atender a essa RL bar calculadora bairro somar.
+
+7
+00:00:36,030 --> 00:00:40,730
+Ele vai receber dois números o número 10 e o número 20.
+
+8
+00:00:41,140 --> 00:00:48,220
+Esses dois números vão ser retornados como resposta e o segundo desafio vai ser deixar copiar isso aqui
+
+9
+00:00:48,250 --> 00:00:50,070
+vou criar aqui um outro comentário.
+
+10
+00:00:50,070 --> 00:00:58,170
+Você vai criar o outro websérie chamado subtrair que vai recebê lo.
+
+11
+00:00:58,250 --> 00:01:04,150
+A é comercial uma blogueira que vai ser o valor 10 e 20 eu quero que vocês.
+
+12
+00:01:04,310 --> 00:01:12,290
+A resposta subtrai no que pode ser outros valores por exemplo sem menos trinta e nove por exemplo já
+
+13
+00:01:12,410 --> 00:01:18,130
+muito importante que valha a pena vocês levar em consideração na hora de desenvolver o desafio.
+
+14
+00:01:18,170 --> 00:01:23,410
+No primeiro momento você tentar desenvolver o desafio sem olhar os códigos passados.
+
+15
+00:01:23,790 --> 00:01:30,630
+Então você tenta fazer um desafio tenta testar o desafio sem olhar os códigos passados e depois aí sim
+
+16
+00:01:30,630 --> 00:01:37,170
+você se você tiver dificuldade vai conseguir dar e você consulta o código passado para tentar ver exatamente
+
+17
+00:01:37,170 --> 00:01:38,330
+onde foi que ficou o erro.
+
+18
+00:01:38,580 --> 00:01:43,980
+Então esses são os dois métodos que eu quero que vocês criem Messi observe se da calculadora pra somar
+
+19
+00:01:44,640 --> 00:01:45,280
+subtrair.
+
+20
+00:01:45,300 --> 00:01:50,700
+Claro que se você tivesse criado um app aí mesmo você iria preferir manter um padrão entre todos os
+
+21
+00:01:50,700 --> 00:01:53,540
+metros e colocá ou assim só assim.
+
+22
+00:01:53,560 --> 00:01:56,980
+Ou só dessa forma para não ficar tipo um metro de um jeito ou de outro.
+
+23
+00:01:57,330 --> 00:02:02,220
+Mas com o objetivo aqui não é construir um API sim testar o máximo de coisas possíveis.
+
+24
+00:02:02,280 --> 00:02:06,620
+Por isso que eu defini que o metro vai seguir o padrão e o outro Metro vai seguir outro padrão.
+
+25
+00:02:06,630 --> 00:02:09,420
+Então aproximá lo da resposta desse desafio e até lá.

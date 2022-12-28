@@ -1,0 +1,455 @@
+1
+00:00:00,250 --> 00:00:03,150
+Vão achar pra vocês a resolução do problema certo.
+
+2
+00:00:03,190 --> 00:00:11,730
+Então cada passo desse representa um lambe das paixões de Bauza a função ou a interface funcional melhor
+
+3
+00:00:11,730 --> 00:00:18,270
+dizendo que melhor se adequa para cada um dos cenários que eu vou receber um produto e retornar o valor
+
+4
+00:00:18,270 --> 00:00:18,780
+da bola.
+
+5
+00:00:18,790 --> 00:00:26,580
+Então nesse caso eu posso ter um fantoche qualquer que a função está dentro do pacote Java.
+
+6
+00:00:26,600 --> 00:00:27,720
+último ponto.
+
+7
+00:00:28,240 --> 00:00:34,580
+E aqui eu vou receber um tipo de produto e vou retornar um valor do tipo W.
+
+8
+00:00:34,620 --> 00:00:42,450
+Nesse caso eu vou chamar essa variável aqui de preço final certo só pra gente já colocado depois eu
+
+9
+00:00:42,450 --> 00:00:44,940
+vou implementar as lâminas propriamente dito.
+
+10
+00:00:45,030 --> 00:00:52,140
+No próximo passo eu vou receber como resultado desse primeiro passo da ABL e eu também quero retornar
+
+11
+00:00:52,140 --> 00:01:00,110
+um dado que é exatamente o preço com adicionado com imposto municipal e nesse caso posso colocá la na
+
+12
+00:01:00,140 --> 00:01:01,050
+lei.
+
+13
+00:01:01,220 --> 00:01:11,400
+O prefeito que vai receber um dado e retornar um dado esse caso vou colocar aqui pra ser imposto municipal
+
+14
+00:01:12,270 --> 00:01:16,280
+também colocar ponto e vírgula para que a gente lamenta essa outra função.
+
+15
+00:01:16,290 --> 00:01:22,490
+Próximo passo eu vou receber um preço no Paço terei 3 já com o imposto incluso mais sem frete.
+
+16
+00:01:22,620 --> 00:01:29,110
+Eu também vai torná la algo do tipo então vou ter também uma operação do tipo perfeito que vai receber
+
+17
+00:01:29,110 --> 00:01:30,820
+um débito ou não pago.
+
+18
+00:01:30,840 --> 00:01:34,050
+Nesse caso eu vou colocar pra sei o nome frete.
+
+19
+00:01:34,050 --> 00:01:36,100
+O próximo passo é o passo 4.
+
+20
+00:01:36,180 --> 00:01:41,620
+Eu também vou receber um dado ou como parâmetro e vou retornar o que vai ser o arredondamento.
+
+21
+00:01:41,960 --> 00:01:48,800
+Então vou duplicar aqui ou tem um outro passo que eu vou chamar aqui de arredondar é o último passo.
+
+22
+00:01:48,870 --> 00:01:51,620
+Eu vou receber um valor do tipo W.
+
+23
+00:01:51,750 --> 00:01:57,150
+Mas eu quero retornar um valor do tipo string já que eu vou colocar aqui algo substitui por vírgula
+
+24
+00:01:57,150 --> 00:01:57,620
+Itau.
+
+25
+00:01:57,990 --> 00:02:03,930
+Então nesse caso eu preciso ter uma franquia então vou duplicar funk coloca aqui embaixo o recebendo
+
+26
+00:02:04,420 --> 00:02:11,560
+da ABL e vou retornar com uns 30 e eu vou chamar esse passo aqui fora.
+
+27
+00:02:11,990 --> 00:02:21,450
+Tá em cima disso eu vou ter aqui por exemplo da ABL ou não vai ser um estranho no preço final eu vou
+
+28
+00:02:21,450 --> 00:02:26,440
+receber o preço final.
+
+29
+00:02:26,440 --> 00:02:32,210
+Vou colocar aqui embaixo e não posso chamar preço final porque eu já chamei aqui pressionar então colocar
+
+30
+00:02:32,210 --> 00:02:42,020
+aqui preço recebe preço final ponto tendem o passado Imposto Municipal ponto.
+
+31
+00:02:42,430 --> 00:02:51,970
+Passar o frete mas posso deixar passar um arredondar ponto.
+
+32
+00:02:53,870 --> 00:03:04,950
+Vou passar o formato da batata e finalmente vou passar aqui o ponto e ele vai receber como entrada o
+
+33
+00:03:04,950 --> 00:03:11,940
+meu produto que eu chamei Bem então nesse meu fluxo eu vou passar um produto e no final vou ter uma
+
+34
+00:03:12,030 --> 00:03:18,600
+string pra mostrar finalmente com o sistema de primeira linha ou mostrar que o preço inclusive que posso
+
+35
+00:03:18,600 --> 00:03:27,270
+fazer assim o preço final que vou concatenar com o valor de preço ele está dando para além porque nenhum
+
+36
+00:03:27,270 --> 00:03:29,580
+desses valores aqui foram oficializados.
+
+37
+00:03:29,580 --> 00:03:37,350
+Mas se eu colocar aqui no lugar certo em todos nós nulo nulo nulo ele vai parar de reclamar aqui no
+
+38
+00:03:37,350 --> 00:03:38,420
+nosso código.
+
+39
+00:03:38,640 --> 00:03:45,460
+Se eu comentar esse formatar ele vai dar problema porque vai dar problema porque eu arredondar ele retornou
+
+40
+00:03:45,470 --> 00:03:51,030
+da boa e eu estou tentando associar uma variável do tipo string mas se eles comentar essa como essa
+
+41
+00:03:51,030 --> 00:03:57,000
+vai ser útil que vai ser chamado formatar e formatar torna estranho então não tem problema nenhum.
+
+42
+00:03:57,000 --> 00:04:02,450
+O primeiro eu passei como sendo um produto ou seja está coerente que é exatamente o produto que eu criei
+
+43
+00:04:02,450 --> 00:04:03,410
+aqui em cima.
+
+44
+00:04:03,570 --> 00:04:09,480
+Posso até colocar o produto aqui embaixo site pra ficar mais perto do nosso.
+
+45
+00:04:09,510 --> 00:04:15,930
+A nossa lógica é que não estão recebendo um produto passa o produto aqui e no final eu tenho um bom
+
+46
+00:04:15,930 --> 00:04:21,830
+resultado como sendo estranho óbvio mensais e agora vai dar problema com que foi implementado ainda
+
+47
+00:04:21,900 --> 00:04:27,460
+eu vou começar a implementar a lógica e se você quiser pegar esse ponto e partir especificamente para
+
+48
+00:04:27,460 --> 00:04:32,960
+a lógica também é um desafio legal pode pausar o vídeo pra fazer isso agora se quiser tá.
+
+49
+00:04:33,120 --> 00:04:41,400
+Então a lógica do preço final é tranquilo eu recebo um produto e ela faz o seguinte vai ser ponto pra
+
+50
+00:04:41,430 --> 00:04:52,800
+isso vou colocar aqui vezes menos tem outro produto com outro desconto é exatamente esse o preço final
+
+51
+00:04:52,800 --> 00:04:59,640
+não é o preço do produto vezes o menos o desconto vai multiplicar e vai dar o valor final é tão pequeno
+
+52
+00:05:00,480 --> 00:05:06,450
+você pode ter alguns erros por exemplo se eu colocar um produto antes aqui ele vai gerar um problema
+
+53
+00:05:06,450 --> 00:05:12,270
+dizendo que esse bem não pode ter o mesmo nome do diabo que você colocou no contexto.
+
+54
+00:05:12,720 --> 00:05:17,720
+Então você tem que ter cuidado nesse caso eu não posso ter esse tipo de conflito mas se você colocar
+
+55
+00:05:17,910 --> 00:05:24,690
+o produto pra depois você não vai ter problemas então algumas observações que você o Java não permite
+
+56
+00:05:25,050 --> 00:05:30,510
+que você tenha uma variável já definida dentro do seu algorítimo que tem exatamente o mesmo nome do
+
+57
+00:05:30,510 --> 00:05:35,970
+Paraná de um lado da fonte e uma limitação mais aí o fato é que se você já tinha reparado com o mesmo
+
+58
+00:05:35,970 --> 00:05:39,250
+nome você pode colocar aqui fraude por exemplo ficar até mais claro.
+
+59
+00:05:39,330 --> 00:05:46,890
+O produto tem produto problema não é então o produto então é produto alto preço e produto do ponto o
+
+60
+00:05:46,900 --> 00:05:49,850
+desconto fica até um pouco mais claro que está passando.
+
+61
+00:05:49,880 --> 00:05:50,760
+Nessa lógica.
+
+62
+00:05:50,870 --> 00:05:55,420
+O que de fato é esse tipo de variável que foi recebido no primeiro metro.
+
+63
+00:05:55,530 --> 00:05:55,910
+Pronto.
+
+64
+00:05:55,920 --> 00:06:02,490
+O segundo método definia que a segunda brecha vai ser o seguinte eu falei pra vocês que a gente vai
+
+65
+00:06:02,490 --> 00:06:10,770
+receber agora o valor exato do aluno pra isso colocar aquele valor variável v se eu posso colocar aqui
+
+66
+00:06:10,780 --> 00:06:13,790
+vale o mesmo preço sem problema.
+
+67
+00:06:14,050 --> 00:06:16,100
+Em cima do preço que é que eu vou fazer.
+
+68
+00:06:16,200 --> 00:06:24,060
+Eu vou fazer o seguinte se o preço for maior ou igual a dois mil e quinhentos significa que eu vou pagar
+
+69
+00:06:24,180 --> 00:06:26,960
+o preço pra isso.
+
+70
+00:06:27,400 --> 00:06:37,310
+Existe um ponto 0 8 5 7 ou seja 8 acrescentando 8 mil por cento em cima do preço.
+
+71
+00:06:37,440 --> 00:06:40,170
+Caso contrário vai tornar o próprio preço.
+
+72
+00:06:40,350 --> 00:06:43,730
+Então esse seria o nosso imposto municipal.
+
+73
+00:06:43,770 --> 00:06:46,910
+O próximo passo aqui seria definir o frete.
+
+74
+00:06:47,110 --> 00:06:53,730
+Então o frete pode fazer o seguinte eu posso colocar o frete era 100 reais se for mais do que 3 mil
+
+75
+00:06:53,850 --> 00:06:55,980
+reais e então fazer o seguinte é a mesma coisa.
+
+76
+00:06:56,430 --> 00:07:02,900
+Esse é o preço que quero fazer o seguinte esse preço for maior ou igual a 3 mil reais.
+
+77
+00:07:03,080 --> 00:07:14,490
+Eu vou retornar o preço mais 100 reais que é o frete caso contrário retorne o preço mais 50 que vai
+
+78
+00:07:14,490 --> 00:07:15,350
+ser nosso.
+
+79
+00:07:15,350 --> 00:07:24,330
+O nosso preço mais um frete não seja mais maior igual a 3 mais frete e sem o menor frete vai ser 50
+
+80
+00:07:24,480 --> 00:07:27,020
+calculei também o frete pra arredondar.
+
+81
+00:07:27,240 --> 00:07:33,590
+Como é que a gente pode fazer e ele pode fazer o seguinte eu vou receber pra isso também.
+
+82
+00:07:33,760 --> 00:07:45,200
+E aí eu posso pagar aqui hoje 30 ponto Format e aqui no formato posso colocar o Deola F.
+
+83
+00:07:45,210 --> 00:07:51,630
+Ele vai imprimir um valor com ponto flutuante e colocar ponto 2 que passa o preço pra cá eu acabei de
+
+84
+00:07:51,630 --> 00:07:56,370
+transformar o preço pra um formato string com duas casas decimais.
+
+85
+00:07:56,370 --> 00:08:07,140
+Se eu pegar isso tudo aqui e jogar dentro de casa que bom ponto pacífico da ABL passa assistindo eu
+
+86
+00:08:07,150 --> 00:08:13,500
+voltei o valor com apenas duas casas decimais e é uma das possibilidades que você tem pra fazer isso
+
+87
+00:08:13,500 --> 00:08:14,160
+com o Java.
+
+88
+00:08:14,310 --> 00:08:19,080
+Ou seja voltou a ter um dólar só que agora com duas casas decimais e finalmente para a gente formatar
+
+89
+00:08:19,080 --> 00:08:24,340
+aqui o resultado eu vou receber o preço que vou retornar.
+
+90
+00:08:24,420 --> 00:08:31,560
+Esse caso vai ser um estribo assim ao concatenar aqui com o preço.
+
+91
+00:08:31,560 --> 00:08:37,830
+Só que eu não quero fazer apenas isso eu quero substituir ao ponto por vírgula então eu vou colocar
+
+92
+00:08:37,830 --> 00:08:43,590
+isso aqui entre parênteses e aqui eu vou chamar direto a mim já que o Estado de São Mestrinho eu posso
+
+93
+00:08:43,590 --> 00:08:50,600
+pagar lhe restava essa expressão colocar ponto que eu consigo acessar por exemplo o Luis vou substituir
+
+94
+00:08:50,730 --> 00:09:00,690
+o ponto pela vírgula então se tudo der certo acertando estaremos aqui o preço final 13 mil 154 vírgula
+
+95
+00:09:00,690 --> 00:09:06,680
+52 porque a gente já mandou aqui qualquer um desses aqui pra tirar por exemplo arredondamento.
+
+96
+00:09:06,680 --> 00:09:13,930
+A gente vai ter um Estado diferente olha aqui vai ter um resultado com várias casas decimais.
+
+97
+00:09:13,970 --> 00:09:19,980
+O que eu quero ser tirar aqui por exemplo o frete é tirar o imposto municipal.
+
+98
+00:09:20,110 --> 00:09:25,510
+A única coisa que colocar vai ser a formatação mas vamos ter o valor com desconto de 3 por cento.
+
+99
+00:09:25,510 --> 00:09:31,190
+Se eu colocar um desconto pra ser zero para testar o Estado vai ser exatamente o que a gente tinha 3
+
+100
+00:09:31,410 --> 00:09:42,350
+235 aos 89 coloquei aqui lá 50 por cento de desconto tinha feito com 1600 e alguma coisa apliquei o
+
+101
+00:09:42,350 --> 00:09:47,630
+Imposto Municipal 1617 está certo.
+
+102
+00:09:47,660 --> 00:09:54,060
+Na verdade ele é isento na imposto municipal porque o valor é menor do que 2500 continua exatamente
+
+103
+00:09:54,060 --> 00:10:02,400
+o mesmo valor o frete vai aumentar 50 reais nesse caso aqui 2000 617.
+
+104
+00:10:02,510 --> 00:10:04,220
+2000 67.
+
+105
+00:10:04,250 --> 00:10:16,590
+No final 17 com frete a gente vai ter sete e no final para arredondar ele vai estar com 94 5 9 4 5 guardo
+
+106
+00:10:16,740 --> 00:10:20,990
+onde aprendi meu resultado ele ficou com 9 5 7.
+
+107
+00:10:21,080 --> 00:10:26,820
+Finalmente a gente formatou aqui no final colocou o Real e finalizou o nosso processo.
+
+108
+00:10:27,130 --> 00:10:34,030
+Ok então fizemos várias coisas interessantes e se eu mudar aqui o percentual de desconto ele vai aplicar
+
+109
+00:10:34,040 --> 00:10:36,270
+outros valores como contas lógicas.
+
+110
+00:10:36,290 --> 00:10:40,990
+Então esse foi o nosso desafio e espero que tenha ficado claro o processo.
+
+111
+00:10:41,030 --> 00:10:47,200
+E como você consegue fazer encadeamento de funções não necessariamente precisa ser da mesma interface.
+
+112
+00:10:47,360 --> 00:10:52,760
+Mas você precisa pensar como resultado de uma função vai ser enviado para outra função então tem que
+
+113
+00:10:52,760 --> 00:10:54,120
+ter essa compatibilidade.
+
+114
+00:10:54,410 --> 00:10:56,710
+Talvez seja essa a resposta até para o sinal.

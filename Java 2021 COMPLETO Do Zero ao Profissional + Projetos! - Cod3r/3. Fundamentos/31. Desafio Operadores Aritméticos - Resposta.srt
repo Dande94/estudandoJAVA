@@ -1,0 +1,435 @@
+1
+00:00:00,090 --> 00:00:06,270
+Pessoalmente ela passado é essa eu criei aqui uma nova cópia do nosso desafio e nomeei com essas letras
+
+2
+00:00:06,270 --> 00:00:09,750
+vermelhas algumas variáveis que eu vou criar para resolver o nosso problema.
+
+3
+00:00:09,810 --> 00:00:12,960
+Então nós temos aqui e vou colocar em cima mesmo não tem problema.
+
+4
+00:00:12,960 --> 00:00:18,020
+Isso aqui eu vou chamar de não pera lá e aqui eu vou chamar de denominador a certo.
+
+5
+00:00:18,060 --> 00:00:22,860
+Essa parte de cima que eu vou chamar numerado B é essa parte de baixo denominador B.
+
+6
+00:00:22,860 --> 00:00:30,380
+Isso tudo aqui é o numerador B dividido pelo denominador B e C superior B e que eu vou colocar vou colocar
+
+7
+00:00:30,380 --> 00:00:37,140
+aqui mesmo o numerador dividido pelo denominador vai ser o superior a certa superior a menos o superior
+
+8
+00:00:37,140 --> 00:00:43,370
+B levará a terceira potência vai dar o resultado que eu vou colocar aqui superior que vai ser essa parte
+
+9
+00:00:43,500 --> 00:00:47,440
+toda essa parte de cima da minha expressão é aqui embaixo.
+
+10
+00:00:47,610 --> 00:00:54,210
+Eu voltei o inferior certo que no final dividido pelo Superior nós vamos ter instalado na nossa operação
+
+11
+00:00:54,210 --> 00:01:01,140
+então exatamente em cima disso que nós vamos trabalhar só Libra um pouquinho aqui nas expressões para
+
+12
+00:01:01,140 --> 00:01:05,940
+que eu consiga ver em cima essas expressões e consigo bolar a nossa.
+
+13
+00:01:05,940 --> 00:01:07,230
+O nosso resultado.
+
+14
+00:01:07,330 --> 00:01:14,370
+A primeira coisa que vão fazer a esse 6 multiplicado por 3 mais 2 elevado à potência 7 isso aqui vai
+
+15
+00:01:14,370 --> 00:01:15,480
+ser o meu numerador.
+
+16
+00:01:15,660 --> 00:01:23,670
+Então nós já temos aqui a nossa aplicação usar tudo da boa então da ABL recebe numerador e aí eu vou
+
+17
+00:01:23,670 --> 00:01:30,780
+fazer o seguinte eu votei faltam Power a parte na primeira parte não sei mas eu sei que essa expressão
+
+18
+00:01:30,780 --> 00:01:37,200
+vai ser alargado a segunda potência então vou colocar dois aqui dentro da expressão de pau eu posso
+
+19
+00:01:37,200 --> 00:01:39,970
+colocar o 6 multiplicado por 3 mais dois.
+
+20
+00:01:39,990 --> 00:01:47,010
+Então aqui eu tenho 6 multiplicado e aí o 3 mais dois aqui dentro meu 3 mais de 2.
+
+21
+00:01:47,020 --> 00:01:51,340
+Isso é ao quadrado ou seja aqui nós temos o numerador.
+
+22
+00:01:51,480 --> 00:01:56,150
+Agora vou criar um dado denominado a recebe.
+
+23
+00:01:56,160 --> 00:01:56,900
+Qual o valor.
+
+24
+00:01:57,360 --> 00:02:04,280
+Olhando aqui 3 vezes 2 eu poderia colocar 6 mas não vou colocar aqui a expressão 3 vezes 2.
+
+25
+00:02:04,290 --> 00:02:12,780
+Agora nós vamos partir pra o numerador bem que a parte de cima do outro lado que eu tenho menos 5 então
+
+26
+00:02:12,780 --> 00:02:25,290
+vou colocar menos 5 tenho aqui uma multiplicação por outro parênteses que é o 2 menos 7 2 menos 7.
+
+27
+00:02:25,290 --> 00:02:26,390
+Vou colocar aqui.
+
+28
+00:02:26,400 --> 00:02:31,410
+Na verdade eu preciso dividir isso pelo denominador B para só então elevar o quadrado.
+
+29
+00:02:31,410 --> 00:02:35,330
+Então essa aqui é a expressão do B.
+
+30
+00:02:35,600 --> 00:02:44,610
+Vou colocar aqui agora denominado B vai ser apenas um número que vai ser o 2 certo 2 e agora vou fazer
+
+31
+00:02:44,670 --> 00:02:51,140
+a próxima partida pra nossa parte a gente definir o superior a isso superior bem superior lá.
+
+32
+00:02:51,320 --> 00:03:02,820
+é simplesmente a divisão dos 12 colocao da ABL superior recebe numerador ha dividido por numerador daí
+
+33
+00:03:03,160 --> 00:03:11,820
+o próximo não vai ser superior superior B que vai ser uma divisão entre numerador bem denominador bem
+
+34
+00:03:11,820 --> 00:03:13,110
+só que elevado ao quadrado.
+
+35
+00:03:13,110 --> 00:03:26,750
+Então aqui eu já vou usar o meu ponto para fazer numerador b d dividido por denominador B.
+
+36
+00:03:27,030 --> 00:03:31,360
+Isso aqui vai ser levado lá quadrado tal qual quando era moda ao quadrado.
+
+37
+00:03:31,500 --> 00:03:32,880
+Ponto e vírgula.
+
+38
+00:03:32,880 --> 00:03:38,740
+No caso a gente já tem um superior e superior bem agora vai fazer o superior a menos o superior B é
+
+39
+00:03:38,760 --> 00:03:46,530
+elevado à terceira potência que vai dar um resultado superior ou então criar o dado superior vai receber
+
+40
+00:03:46,930 --> 00:04:00,570
+NF ponto Power ou fazei superior a de menos já vou maximizar aqui superior a menos no Superior D.
+
+41
+00:04:00,570 --> 00:04:06,220
+Isso aqui é elevado à terceira potência e agora o resultado a gente tem um inferior que é o 10 olhar
+
+42
+00:04:06,220 --> 00:04:07,280
+para trás.
+
+43
+00:04:07,320 --> 00:04:19,340
+Então vou colocar aqui da ABL inferior recebe nesse ponto Power 10 a terceira potência.
+
+44
+00:04:19,670 --> 00:04:22,200
+E nós temos aqui o resultado da nossa operação.
+
+45
+00:04:22,200 --> 00:04:24,570
+Então finalmente eu vou colocar aqui aldrabão.
+
+46
+00:04:24,940 --> 00:04:37,680
+Resultado vai ser superior dividido em feriu imprimindo no final aqui o resultado.
+
+47
+00:04:37,750 --> 00:04:45,260
+Tomara que dê 125 certo porque é o resultado correto da nossa desgraça.
+
+48
+00:04:45,370 --> 00:04:48,210
+é o código pelo Estado deu errado certo.
+
+49
+00:04:48,240 --> 00:04:55,270
+Eu não estou usando denominado lá em algum local aqui então tenho um superior como sendo uma mera II
+
+50
+00:04:55,500 --> 00:05:05,320
+o denominador certo são agora está certo que no estado de 125 como era esperado né.
+
+51
+00:05:05,330 --> 00:05:08,180
+Faltou só um errinho mas deixou fazer aqui.
+
+52
+00:05:08,200 --> 00:05:13,990
+Aproveitando a deixa que eu coloquei um código errado que em certo numerador não coloquei de propósito
+
+53
+00:05:13,990 --> 00:05:18,400
+mais eu acho que veio a calhar essa esse erro que o Estado deu esse aqui.
+
+54
+00:05:18,440 --> 00:05:24,620
+Imagine que você tem esse resultado e por algum motivo não está bosta nenhuma advertência você visualmente
+
+55
+00:05:24,620 --> 00:05:27,280
+não consegue detectar qual o erro.
+
+56
+00:05:27,470 --> 00:05:31,070
+Você pode fazer um processo que chamo de Bangui certo.
+
+57
+00:05:31,080 --> 00:05:37,580
+Você pode clicar aqui duas vezes em cima logo nessa faixas e aqui ao logo depois dos números das linhas
+
+58
+00:05:37,910 --> 00:05:43,700
+por exemplo você clica duas vezes ele vai colocar um bolinha aqui certo se você quiser clicar duas vezes
+
+59
+00:05:43,700 --> 00:05:49,130
+na bolinha ele vai remover a bolinha colocar essa bolinha e clicando nessa área clicando duas vezes
+
+60
+00:05:49,130 --> 00:05:54,550
+ele vai criar o Bolinha que vai fazer com que o seu código pare nesse ponto que é o chamado de Bley
+
+61
+00:05:54,550 --> 00:06:00,610
+que põe o ponto de parada certo então pra ele usar isso pra ele fazer um boicote.
+
+62
+00:06:00,920 --> 00:06:07,420
+A gente precisa executar em vez de executar complexas atacou esse símbolo do Bang Quina nasce desse
+
+63
+00:06:07,430 --> 00:06:08,380
+inseto.
+
+64
+00:06:08,510 --> 00:06:14,270
+Você também pode usar lá você tem tanto a tecla de atalho que para executá la contou usando desde o
+
+65
+00:06:14,270 --> 00:06:17,900
+começo e o de Bang que é o Shift.
+
+66
+00:06:17,900 --> 00:06:25,130
+No meu caso aqui contra o F como eu já fiz 11 ou Shift como mafioso para executar aqui explica Anamara
+
+67
+00:06:25,130 --> 00:06:26,600
+tínhamos que fazer o seguinte.
+
+68
+00:06:27,020 --> 00:06:32,020
+Ele vai perguntar se você quer mudar a perspectiva não tem problema você mudar a perspectiva porque
+
+69
+00:06:32,030 --> 00:06:36,370
+ele vai trazer algum janelinha que vai te ajudar na hora de detectar o problema.
+
+70
+00:06:36,690 --> 00:06:42,370
+E se você quiser depois voltar para a perspectiva já você consegue fazer isso facilmente ou já marchar
+
+71
+00:06:42,440 --> 00:06:43,010
+pra você.
+
+72
+00:06:43,040 --> 00:06:48,080
+Então eu vou trazer um pouquinho mais pra cautela porque essa parte que é muito importante que essa
+
+73
+00:06:48,080 --> 00:06:54,060
+janelinha das variáveis a partir do momento que você vai executar por exemplo do que o S6 ele vai para
+
+74
+00:06:54,060 --> 00:06:59,690
+a próxima linha você percebe que ele acabou de criar uma variável que o valor é 900 ou seja a parte
+
+75
+00:06:59,690 --> 00:07:07,160
+de cima dessa função aqui algo que vai ser numerado Abel 900 é a parte baixa vai dar 6 essa divisão
+
+76
+00:07:07,160 --> 00:07:09,690
+a gente já sabe que vai dar 150.
+
+77
+00:07:09,710 --> 00:07:12,190
+Seu resultado é mais que um leve 6.
+
+78
+00:07:12,350 --> 00:07:19,230
+Ele vai para a próxima linha ele colocou o denominador seis vezes o denominador comum do mercado B que
+
+79
+00:07:19,230 --> 00:07:21,760
+é 20 o resultado denominado B.
+
+80
+00:07:21,800 --> 00:07:30,380
+O resultado deu 2 ou seja 20 dividido por dois vai dar 10 e depois elevado a potência vai dar 100 ou
+
+81
+00:07:30,380 --> 00:07:32,740
+seja essa parte aqui aparentemente está correta.
+
+82
+00:07:33,140 --> 00:07:40,850
+Quando for calculado o superior a que era pra dar um resultado 100 150 melhor dizendo o resultado deu
+
+83
+00:07:41,180 --> 00:07:47,990
+45 daqui você já consegue monitorando pra saber o que está acontecendo com suas variáveis e conseguirá
+
+84
+00:07:47,990 --> 00:07:53,660
+tratar o problema uma vez que você detectou um problema você pode apertar F8 que ele vá até o final
+
+85
+00:07:53,660 --> 00:07:54,710
+execute o código.
+
+86
+00:07:54,710 --> 00:08:00,890
+Você pode se quiser clique de novo e executa novamente para ir detectando os problemas Olha eu vou falar
+
+87
+00:08:00,890 --> 00:08:07,320
+mais sobre o código é só uma dica que no meio de um dos desafios da gente então vou corrigir vou dar
+
+88
+00:08:07,330 --> 00:08:13,820
+que foi executar até o final descobrir já qual o problema que eu não usei o denominado na hora de calcular
+
+89
+00:08:13,910 --> 00:08:16,190
+o valor superior a certo.
+
+90
+00:08:16,190 --> 00:08:22,850
+Aí novamente ele vai ter o resultado 125 lá agora estou numa perspetiva mais estranha entao quero voltar
+
+91
+00:08:22,850 --> 00:08:24,570
+para a perspectiva Java.
+
+92
+00:08:24,690 --> 00:08:30,230
+Basta você clicar aqui no cantinho só vai ter a possibilidade de voltar para a perspectiva Java como
+
+93
+00:08:30,230 --> 00:08:36,200
+também se você selecionar o Window Perspective outra perspectiva você pode selecionar a perspectiva
+
+94
+00:08:36,230 --> 00:08:44,610
+por aqui exceto o já habitual ter uma tecla de atalho que eu acho que é o de Shift 6 ele vai mudando
+
+95
+00:08:44,750 --> 00:08:46,580
+a janelinha e o seu código.
+
+96
+00:08:46,580 --> 00:08:54,650
+Por exemplo você pode mudar com Command Shift F 7 ele vai mudando para o PAC Explorer do PAC Explorer
+
+97
+00:08:54,720 --> 00:09:02,840
+rodando para o console que vai mudar entre as as tabs e o Command Shift F8 ele muda a perspectiva no
+
+98
+00:09:02,840 --> 00:09:09,560
+caso perspectiva de Bang como a de Shift F8 volta para a perspectiva Java a gente já abriu três perspectivas
+
+99
+00:09:09,560 --> 00:09:16,650
+até agora Java que era a original Java e o então você consegue navegar entre as perspectivas no caso
+
+100
+00:09:16,650 --> 00:09:21,170
+do Mac e Command Shift e essas três teclas F 6 7 e 8.
+
+101
+00:09:21,170 --> 00:09:28,580
+No caso do Windows e contra o Shift 6 7 8 7 então você consegue navegar entre as perspetivas também
+
+102
+00:09:28,910 --> 00:09:31,630
+usando a tecla de atalho só aí mais uma dica.
+
+103
+00:09:31,760 --> 00:09:34,010
+Com relação ao Paquistão fico por aqui.
+
+104
+00:09:34,370 --> 00:09:37,520
+Nós fizemos voltar aqui para o nosso desafio.
+
+105
+00:09:37,520 --> 00:09:39,310
+Qual foi o último que a gente fez aqui.
+
+106
+00:09:39,320 --> 00:09:40,620
+Desafio aritmético.
+
+107
+00:09:40,640 --> 00:09:45,220
+O resultado deu 125 conforme a gente tinha colocado lá no nosso slide.
+
+108
+00:09:45,230 --> 00:09:49,630
+A resposta correta fica por aqui na próxima a gente vai continuar falando de outros operadores em cima
+
+109
+00:09:49,640 --> 00:09:53,690
+ainda da linha dos binários operadores que precisam de dois operandos.

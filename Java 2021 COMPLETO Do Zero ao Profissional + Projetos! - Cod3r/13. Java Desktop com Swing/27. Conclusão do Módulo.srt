@@ -1,0 +1,95 @@
+1
+00:00:00,340 --> 00:00:05,320
+Só chegamos ao final do nosso capítulo que a gente viu interfaces gráficas com suingue.
+
+2
+00:00:05,700 --> 00:00:11,140
+Nós vimos à parte e nós fizemos na verdade dois pequenos projetos que é um projeto dado o combinado
+
+3
+00:00:11,400 --> 00:00:18,960
+e fizemos o projeto da calculadora e dentro do contexto do suingue não foi simplesmente sumir com exercícios
+
+4
+00:00:18,960 --> 00:00:20,760
+isolados mas dentro de projeto.
+
+5
+00:00:20,760 --> 00:00:26,220
+Por isso que além de ter visto o próprio suingue a gente falou do padrão observa e falamos também na
+
+6
+00:00:26,220 --> 00:00:31,980
+parte melódica na analógica da implementação desses dois projetos que é a calculadora é um campo minado.
+
+7
+00:00:32,000 --> 00:00:38,130
+Então vocês vão perceber que a gente vai tentar sempre que possível colocando projetos em curso e falando
+
+8
+00:00:38,130 --> 00:00:44,040
+não apenas daquela funcionalidade daquele recurso que a gente quer falar mas também colocando outras
+
+9
+00:00:44,040 --> 00:00:49,050
+coisas envolvidas porque um projeto real não é exclusivo de um determinado assunto né.
+
+10
+00:00:49,040 --> 00:00:51,860
+Você vai ter que usar um determinado API visual.
+
+11
+00:00:51,870 --> 00:00:57,940
+Você vai ter que trabalhar com lógica com o banco de dados e a parte muito quente agregando novas funcionalidades
+
+12
+00:00:57,940 --> 00:01:03,210
+e novos recursos dentro do curso que nós estaremos usando esse recurso durante os capítulos.
+
+13
+00:01:03,210 --> 00:01:06,090
+Então a gente viu muitas coisas interessantes do suingue.
+
+14
+00:01:06,120 --> 00:01:10,490
+Iremos trabalhar também com Java e Flex que é mais moderno no Java e fecha.
+
+15
+00:01:10,500 --> 00:01:15,900
+Vou tentar colocar outras questões envolvidas com a pasta e formulário pra gente ter por exemplo o campo
+
+16
+00:01:15,900 --> 00:01:21,300
+de entrada colocar elementos visuais botões para gente salvar um formulário por exemplo no banco de
+
+17
+00:01:21,300 --> 00:01:25,560
+dados por isso tem muitas coisas legais para a gente deixar passar agora por uma fase do custo em que
+
+18
+00:01:25,560 --> 00:01:30,690
+vai trabalhar com parte banco de dados e vai ter toda a teoria de banco de dados.
+
+19
+00:01:30,720 --> 00:01:36,570
+A gente vai ter a parte banco de dados com o JP a gente ver como é que o Java lida com o banco de dados.
+
+20
+00:01:36,570 --> 00:01:41,580
+São muitos assuntos super interessante que a gente vai trabalhar para que você possa ter mais esse recurso
+
+21
+00:01:41,580 --> 00:01:47,210
+fundamental eu diria que a grande parte das aplicações em Java utilizam banco de dados de alguma forma
+
+22
+00:01:47,220 --> 00:01:52,890
+a gente vai ver isso na prática com muito cuidado com muito exercício para que você possa passar por
+
+23
+00:01:52,890 --> 00:01:57,130
+todo o processo e entender tudo e depois aplicar isso em projetos reais.
+
+24
+00:01:57,150 --> 00:01:59,730
+Fico por aqui até o próximo capítulo espero lá.

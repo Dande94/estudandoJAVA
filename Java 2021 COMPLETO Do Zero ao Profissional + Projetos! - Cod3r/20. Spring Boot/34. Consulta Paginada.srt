@@ -1,0 +1,467 @@
+1
+00:00:00,360 --> 00:00:08,460
+Pessoal nós vamos agora fazer mais um método que vai fazer a nossa consulta Paige nada que é muito importante
+
+2
+00:00:08,820 --> 00:00:14,670
+que a gente faça isso eu vou colocar aqui perto do nosso método de obter produtos e obter todos aqui
+
+3
+00:00:14,670 --> 00:00:15,370
+tá.
+
+4
+00:00:15,630 --> 00:00:19,290
+A aquisição continuará sendo uma requisição do tipo.
+
+5
+00:00:19,320 --> 00:00:29,130
+A gente vai continuar retornando inalterável é um bom produto Produto e eu vou chamar aqui por exemplo
+
+6
+00:00:29,470 --> 00:00:40,240
+tem produtos com roupagem legal e aqui nós vamos também colocar aqui o arroba Guedes.
+
+7
+00:00:40,860 --> 00:00:50,400
+Só que no caso aqui eu vou fazer o seguinte eu vou precisar de um blefe e colocar aqui na página e vou
+
+8
+00:00:50,400 --> 00:00:59,580
+receber aqui o que seria o número da página uma página legal e isso aqui obviamente vai vim pra cá com
+
+9
+00:00:59,580 --> 00:01:08,670
+um atributo numero página e eu vou colocar esse atributo como sendo uma variável do nosso caminho.
+
+10
+00:01:09,150 --> 00:01:14,790
+Então a gente tem aqui só caberá aqui outra linha para ficar visível.
+
+11
+00:01:14,790 --> 00:01:20,730
+Então nós temos aqui um trabalho de produto na lista de produtos que também vai ser chamada a partir
+
+12
+00:01:20,730 --> 00:01:25,740
+do Gate map e a partir daqui a gente vai ter que retornar por exemplo.
+
+13
+00:01:25,740 --> 00:01:30,270
+Por enquanto a gente só tem o produto após.
+
+14
+00:01:30,330 --> 00:01:36,210
+A gente só tem um método de Paul tem que ter um método vai ao baile aí que não é o que a gente quer
+
+15
+00:01:36,300 --> 00:01:38,020
+e passa vários aí diz.
+
+16
+00:01:38,070 --> 00:01:43,440
+Para ele obter todos os produtos que usarem espaçados tem um fim de baixa que a torna o único alimento
+
+17
+00:01:43,950 --> 00:01:49,230
+e eu vou por enquanto chamar o fim de algo só para gente validar esse perfil e ter certeza que ele está
+
+18
+00:01:49,230 --> 00:01:59,220
+funcionando então eu posso colocar aqui a barra produtos Barra na Barra então Ceasa que está aqui.
+
+19
+00:01:59,460 --> 00:02:04,340
+Ele trouxe todos os produtos exatamente como era de se esperar até porque eu estou usando o fato de
+
+20
+00:02:04,800 --> 00:02:05,250
+legal.
+
+21
+00:02:05,250 --> 00:02:12,540
+Eu não tenho como falei pra vocês nenhuma forma a partir do nosso produto repositório de fazer essa
+
+22
+00:02:12,540 --> 00:02:13,140
+consulta.
+
+23
+00:02:13,150 --> 00:02:20,430
+De nada a não ser que ele vá lá no nosso produto repositório e altere aqui o que seria o nosso cru de
+
+24
+00:02:20,430 --> 00:02:26,970
+repositório que é a versão mais simples do repositório só com as operações básicas de crude.
+
+25
+00:02:27,000 --> 00:02:33,970
+Se você olhar aqui no blog ponto o espírito foi morto e ponto data ponto e pode ser tirar que o crude
+
+26
+00:02:33,970 --> 00:02:40,960
+o repositório é um contra espaço que você vai ver que tem outra interface chamada Peixinho em sorte.
+
+27
+00:02:41,100 --> 00:02:42,590
+Só tinha um repositório.
+
+28
+00:02:43,110 --> 00:02:50,610
+Então esse é um tipo de repositório que vai nos ajudar tanto a fazer consultas apaixonadas como consultas
+
+29
+00:02:50,610 --> 00:02:52,290
+também com ordenação.
+
+30
+00:02:52,290 --> 00:02:58,850
+Então agora o nosso produto o repositório é além de ter tudo aquilo que a gente já usou anteriormente.
+
+31
+00:02:58,860 --> 00:03:04,380
+A gente vai ter uma série de outras funções que vão nos ajudar a fazer a consulta página.
+
+32
+00:03:04,470 --> 00:03:12,570
+Então em vez de ter apenas o fim de nós teremos agora um faixa que vai receber um objeto do tipo sorte
+
+33
+00:03:12,600 --> 00:03:17,720
+que a gente vai ter que fim geral que vai receber um objeto do tipo bom tá.
+
+34
+00:03:17,850 --> 00:03:19,050
+Então o que é que eu vou fazer aqui.
+
+35
+00:03:19,170 --> 00:03:28,500
+Eu vou criar um objeto do tipo aquele o experiente primo o ponto data ponto do homem que aqui vai ser
+
+36
+00:03:28,620 --> 00:03:30,700
+a minha digamos assim.
+
+37
+00:03:30,730 --> 00:03:34,820
+E aqui existe um cara chamado Peggy coach e coach.
+
+38
+00:03:34,830 --> 00:03:36,870
+Ponto off.
+
+39
+00:03:36,880 --> 00:03:40,980
+Eu vou passar por exemplo qual é a página e qual o tamanho da página.
+
+40
+00:03:40,980 --> 00:03:43,730
+Por enquanto eu vou passar de forma fixa.
+
+41
+00:03:43,800 --> 00:03:48,510
+A página vai ser a página zero e o tamanho da página vai ser três elementos.
+
+42
+00:03:48,510 --> 00:03:54,270
+Só não vou colocar por enquanto o elemento aqui não é tão legal.
+
+43
+00:03:54,270 --> 00:03:58,230
+Vou pegar a primeira página e a página zero começa do zero.
+
+44
+00:03:58,260 --> 00:04:05,980
+E essa página vai ter apenas três elementos ou passa aqui o peixe como parâmetro para o meu ideal.
+
+45
+00:04:06,060 --> 00:04:10,570
+Agora se der um refresh você vai ver que ele vai trazer apenas três elementos.
+
+46
+00:04:10,680 --> 00:04:16,590
+Tá ele vai trazer os três elementos dentro de um objeto que tem um atributo content.
+
+47
+00:04:16,980 --> 00:04:26,520
+Ele trouxe aqui um dois três e ele vai trazer um outro atributo chamado Beijo bom que vai ter uma série
+
+48
+00:04:26,520 --> 00:04:27,420
+de informações.
+
+49
+00:04:27,420 --> 00:04:30,520
+Por exemplo ao qual o número da página a página zero.
+
+50
+00:04:30,540 --> 00:04:37,050
+Qual o tamanho da página tem três elementos ele vai dizer qual é o total de páginas que tem em toda
+
+51
+00:04:37,050 --> 00:04:39,570
+a minha paginação tem três páginas por quê.
+
+52
+00:04:39,900 --> 00:04:46,200
+Porque ele tem uma quantidade total de elementos 9 eu tenho nove registros o meu banco de dados e já
+
+53
+00:04:46,200 --> 00:04:51,440
+contou aqui ao 1 2 3 4 5 6 7 8 9.
+
+54
+00:04:51,510 --> 00:04:58,740
+Se eu colocar por exemplo o tamanho da minha página C2 você vai ver que você não fecha aqui.
+
+55
+00:04:58,800 --> 00:04:59,720
+Agora a gente vai ter.
+
+56
+00:05:00,080 --> 00:05:02,690
+Dois elementos dois.
+
+57
+00:05:02,840 --> 00:05:06,920
+A gente vai ter a mesma quantidade total de elementos que é.
+
+58
+00:05:06,920 --> 00:05:09,500
+Só que nós teremos agora cinco páginas.
+
+59
+00:05:09,500 --> 00:05:15,260
+A primeira página tem dois elementos até a quarta página tem dois elementos e a última página tem apenas
+
+60
+00:05:15,260 --> 00:05:21,920
+o último elemento que é o nono elemento então aqui você tem várias informações que vão te ajudar a construir
+
+61
+00:05:21,920 --> 00:05:28,790
+o teu página como por exemplo a quantidade de páginas o total de elementos quantos elementos tem em
+
+62
+00:05:28,790 --> 00:05:29,600
+cada página.
+
+63
+00:05:29,600 --> 00:05:36,080
+Qual página você está mostrando aqui realmente dentro de contente você tem os dados então a forma que
+
+64
+00:05:36,080 --> 00:05:38,980
+isso volta pra você é extremamente interessante.
+
+65
+00:05:39,080 --> 00:05:44,330
+Nesse caso eu já estou sabendo o número da página que eu quero a partir do parâmetro.
+
+66
+00:05:44,720 --> 00:05:49,620
+Então em vez de passar aqui fique Sub-Zero eu vou passar o número da página aqui.
+
+67
+00:05:49,730 --> 00:05:56,100
+Conforme eu coloquei a gente acessa na página você vai ver que não vai trazer o andamento de um jogo
+
+68
+00:05:56,120 --> 00:05:59,870
+de dois e já vai trazer ao andamento de 3 e 4.
+
+69
+00:05:59,870 --> 00:06:06,650
+Se eu voltar aqui e mostrar a página zero significa que ele vai trazer os primeiros dois elementos.
+
+70
+00:06:06,740 --> 00:06:15,080
+Se eu colocar aqui para fazer a página 4 que seria a quinta página 0 2 3 e 4 significa que ele vai trazer
+
+71
+00:06:15,080 --> 00:06:23,090
+o último elemento que é exatamente o único último elemento que é exatamente o elemento de 15 que é esse
+
+72
+00:06:23,090 --> 00:06:25,160
+último aqui ou caneta bic verde.
+
+73
+00:06:25,190 --> 00:06:27,950
+Legal então essa é a forma que você tem.
+
+74
+00:06:27,990 --> 00:06:34,310
+E aí você tem que considerar que o tipo de resposta não é simplesmente um array de elementos mas é um
+
+75
+00:06:34,310 --> 00:06:42,350
+objeto que vai ter um atributo chamado Content que aí sim é o rei de elementos com os dados e você vai
+
+76
+00:06:42,350 --> 00:06:48,170
+ter um objeto chamado jogo que vai ter uma série de informações interessantes sobre as características
+
+77
+00:06:48,530 --> 00:06:50,270
+dessa sua consulta.
+
+78
+00:06:50,280 --> 00:06:57,470
+Nada vai até a quantidade de páginas vai ter o offset né quantos itens foram deslocados.
+
+79
+00:06:57,470 --> 00:07:04,130
+Vai ter por exemplo qual é o tamanho da página e qual o número da página vai ter a quantidade de elementos
+
+80
+00:07:04,370 --> 00:07:11,440
+e várias informações interessantes que vão te ajudar a montar o teu Paige nadou lá do lado do franchising.
+
+81
+00:07:11,750 --> 00:07:17,910
+Essa é uma forma bastante interessante de você tem agora sim omitem os dados página.
+
+82
+00:07:18,020 --> 00:07:24,290
+Você pode até por exemplo criar aqui mais um ou outro atributo pra dizer quantos elementos você quer
+
+83
+00:07:24,290 --> 00:07:26,130
+por exemplo tem em cada página.
+
+84
+00:07:26,150 --> 00:07:28,020
+Quero ter cinco elementos.
+
+85
+00:07:28,130 --> 00:07:31,590
+Eu quero ter 15 elementos eu quero ter 50 elementos.
+
+86
+00:07:31,640 --> 00:07:37,820
+Isso é interessante algumas consultas permitem isso mas vocês não podem deixar isso completamente aberto
+
+87
+00:07:37,820 --> 00:07:40,110
+ou seja o tamanho da página ok.
+
+88
+00:07:40,220 --> 00:07:46,080
+O que o usuário pode dizer eu quero receber 20 mil elementos melhoramentos e muita coisa pra você colocar
+
+89
+00:07:46,080 --> 00:07:48,560
+em uma única resposta uma única requisição.
+
+90
+00:07:48,680 --> 00:07:54,580
+Então muitas vezes você dá algumas possibilidades do tipo há 5 15 25 50.
+
+91
+00:07:54,620 --> 00:08:00,170
+Por exemplo você tem quatro possibilidades se o usuário passar um valor maior do que 50 você retorna
+
+92
+00:08:00,170 --> 00:08:01,880
+no máximo 50 elementos.
+
+93
+00:08:02,270 --> 00:08:09,920
+Então você pode criar aqui um outro atributo por exemplo aqui por exemplo a quantidade da página em
+
+94
+00:08:09,920 --> 00:08:18,280
+vez esse número a página você coloca aqui que a ideia e você vai colocar aqui em si mesmo não é parâmetro
+
+95
+00:08:18,300 --> 00:08:19,360
+aqui.
+
+96
+00:08:19,520 --> 00:08:25,950
+Por exemplo Barra quantidade na página e você pode passar aqui por exemplo quantidade apague.
+
+97
+00:08:25,970 --> 00:08:33,400
+Caso esse número seja será maior do que 50 você retorna no máximo 5.
+
+98
+00:08:33,590 --> 00:08:42,870
+Por exemplo se cuidar da página for maior ou igual a 5 você coloca esse valor pra ser assim como você
+
+99
+00:08:42,890 --> 00:08:44,570
+for menor você aceite o valor menor.
+
+100
+00:08:44,630 --> 00:08:50,990
+Por isso é uma validação que você faz aqui para não permitir mais do que cinco elementos então agora
+
+101
+00:08:50,990 --> 00:08:55,450
+a gente vai precisar além de passar o número da página eu passo aqui a página zero.
+
+102
+00:08:55,460 --> 00:08:58,740
+Você pode passar a quantidade de alimentos por exemplo 5.
+
+103
+00:08:58,760 --> 00:09:03,360
+Agora ele vai torná lo 1 2 3 4 5.
+
+104
+00:09:03,470 --> 00:09:12,360
+Se eu passar por exemplo 50 ele vai continuar ou não de cinco elementos 1 2 3 4 5.
+
+105
+00:09:12,470 --> 00:09:19,640
+Isso eu passo a menos do que 5 por exemplo três elementos ele vai tornar apenas três se passa aqui um
+
+106
+00:09:19,640 --> 00:09:22,160
+elemento ele vai tornar apenas um lamento.
+
+107
+00:09:22,160 --> 00:09:27,740
+Nesse caso como existem nove elementos ao todo a gente vai ter nove páginas total.
+
+108
+00:09:27,770 --> 00:09:34,640
+Então se a gente olhar aqui total de páginas nove elementos não é exatamente porque é humanamente página.
+
+109
+00:09:34,790 --> 00:09:41,940
+Então estão achando pra vocês aqui algumas possibilidades que a gente tem com relação ao uso de consultas
+
+110
+00:09:41,940 --> 00:09:42,830
+subordinadas.
+
+111
+00:09:42,830 --> 00:09:48,080
+Essa sem dúvida é uma estratégia que você deve usar no seu sistema pra garantir que você não vai ter
+
+112
+00:09:48,090 --> 00:09:54,760
+mais dados do que o necessário e eventualmente correr algum risco que degradar o desempenho do seu sistema.
+
+113
+00:09:54,770 --> 00:09:58,810
+O que você deixou por exemplo essa consulta de óbito de todos abertos.
+
+114
+00:09:58,820 --> 00:09:59,390
+Então em.
+
+115
+00:10:00,100 --> 00:10:04,670
+Algo muito provavelmente esse método não existiria ou se existe.
+
+116
+00:10:05,050 --> 00:10:12,790
+Você vai deixar apenas algumas pessoas com privilégios especiais acesso a ele e não todos os usuários
+
+117
+00:10:12,790 --> 00:10:16,500
+do seu sistema legal então é isso para essa aula e até a próxima.

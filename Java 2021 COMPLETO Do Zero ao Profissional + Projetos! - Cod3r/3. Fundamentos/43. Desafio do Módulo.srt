@@ -1,0 +1,95 @@
+1
+00:00:00,120 --> 00:00:06,420
+Pessoal na sala quero propor para vocês um desafio do nosso capítulo um certo desafio do nosso capítulo
+
+2
+00:00:06,420 --> 00:00:13,450
+vai ser o seguinte eu vou criar aqui um novo arquivo dentro de fundamentos claros.
+
+3
+00:00:13,710 --> 00:00:23,790
+O nome vai ser um desafio calculadora e objetivo do nosso desafio calculadora vai ser o seguinte você
+
+4
+00:00:23,790 --> 00:00:30,690
+vai pegar no terminal do usuário ou mesmo se você preferir pode ser o J Option PEN também sem problema.
+
+5
+00:00:30,840 --> 00:00:33,600
+Você vai ler de algum local.
+
+6
+00:00:33,600 --> 00:00:40,150
+O primeiro número o número você vai ler o número dois.
+
+7
+00:00:40,350 --> 00:00:45,480
+Você vai pedir para o usuário dizer pra você qual é a operação que ele quer fazer.
+
+8
+00:00:45,480 --> 00:00:47,010
+Por exemplo o usuário vai digitar.
+
+9
+00:00:47,480 --> 00:00:49,170
+Ou mais.
+
+10
+00:00:49,290 --> 00:00:52,390
+Cadê o mais que mais ou menos.
+
+11
+00:00:52,410 --> 00:00:59,070
+Multiplicação divisão inclusive pode ser o modo como ele vai digitar um desses símbolos e depois você
+
+12
+00:00:59,070 --> 00:01:06,330
+vai fazer a operação do número um o número com o número dois usando uma dessas operações aqui e você
+
+13
+00:01:06,330 --> 00:01:10,050
+só pode usar aquilo que foi ensinado nesse capítulo.
+
+14
+00:01:10,050 --> 00:01:17,100
+Se você já tem mais vivência de programação provavelmente você vai pensar em usá lo o F fazer uma condição
+
+15
+00:01:17,100 --> 00:01:20,880
+ali mais eu quero que você use apenas aquilo que foi ensinado nesse capítulo.
+
+16
+00:01:21,210 --> 00:01:26,400
+Então você vai ler um número baleou o outro vai usuário vai dizer qual é a operação que ele quer fazer
+
+17
+00:01:26,400 --> 00:01:31,470
+digitar o símbolo em cima do símbolo você vai fazer a operação e no final vai mostrar o resultado dessa
+
+18
+00:01:31,470 --> 00:01:32,560
+calculadora.
+
+19
+00:01:32,610 --> 00:01:39,050
+Eu não quero que você fique executando múltiplas operações você executa ele pega o número número 2 o
+
+20
+00:01:39,050 --> 00:01:44,860
+usuário diz o símbolo mostra o resultado e depois ele coloca o outro número outro símbolo mostra o resultado
+
+21
+00:01:44,860 --> 00:01:50,990
+é diferente estão só usando aquilo que foi trabalhado no capítulo tem algumas coisas interessantes é
+
+22
+00:01:51,000 --> 00:01:56,700
+um desafio não muito complexo mas também é um desafio não muito simples e muito legal para vocês pensarem
+
+23
+00:01:56,700 --> 00:01:57,960
+um pouquinho na próxima aula.
+
+24
+00:01:57,960 --> 00:01:58,560
+A resposta.

@@ -1,0 +1,195 @@
+1
+00:00:00,420 --> 00:00:07,590
+Estamos começando mais um capítulo do nosso curso de Java e nesse capítulo nós vamos abordar os módulos
+
+2
+00:00:07,940 --> 00:00:10,610
+que surgiram a partir do JB K-9.
+
+3
+00:00:10,860 --> 00:00:16,410
+Foi introduzido um sistema de módulos dentro do Java e esse sistema de módulos na minha opinião foi
+
+4
+00:00:16,410 --> 00:00:18,600
+o recurso mais importante que surgiu.
+
+5
+00:00:18,600 --> 00:00:23,460
+JD K-9 é um dos recursos mais importantes que surgiu no Java nos últimos anos.
+
+6
+00:00:23,460 --> 00:00:24,200
+Porquê.
+
+7
+00:00:24,340 --> 00:00:32,280
+Porque ele atinge diretamente no coração digamos assim um dos pilares extremamente importantes da orientação
+
+8
+00:00:32,280 --> 00:00:34,550
+a objeto que é o encapsulamento.
+
+9
+00:00:34,590 --> 00:00:43,950
+Quando você tinha na pré J B K-9 J Decade 1 até agora pk 8 você tinha quatro níveis de visibilidade
+
+10
+00:00:43,950 --> 00:00:52,510
+que era o público o protected o default o pacote proibidos e só com esses quatro níveis de visibilidade
+
+11
+00:00:52,590 --> 00:00:55,880
+em aplicações grande fica muito complicado.
+
+12
+00:00:55,920 --> 00:01:03,050
+Você tem um código bem encapsulado eu digo isso porque se uma classe L é pública ela é pública pra todo
+
+13
+00:01:03,060 --> 00:01:06,470
+mundo independente de ela estar em diferentes arquivos.
+
+14
+00:01:06,580 --> 00:01:09,570
+Você quando gera uma aplicação em Java você gera um arquivo.
+
+15
+00:01:09,570 --> 00:01:18,630
+Ponto já que é o Java arcaico e j a R B Java arcaico como você exporta um projeto por exemplo você exporta.
+
+16
+00:01:18,630 --> 00:01:24,090
+Depois eu posso mostrar um pouco mais sobre isso você exporta como arquivo ponto já dentro do arquivo
+
+17
+00:01:24,090 --> 00:01:30,800
+pronto já vai estar todos os anos as classes nem todos os códigos Java os que foram compilados para
+
+18
+00:01:30,810 --> 00:01:37,140
+baixo com o que gerou o arquivo contactless e lá dentro vai ter encapsulado digamos se agrupado dentro
+
+19
+00:01:37,140 --> 00:01:43,050
+de um grande arquivo várias classes do seu projeto que são os arquivos ponto que lhes bate com o que
+
+20
+00:01:43,050 --> 00:01:45,360
+será interpretado pela máquina virtual.
+
+21
+00:01:45,450 --> 00:01:52,170
+Quando você antes do JD K-9 criava uma classe pública independente dessa classe está dentro em junho
+
+22
+00:01:52,180 --> 00:02:00,140
+já o outro já é uma biblioteca mesmo sem uma classe interna das do j vem do próprio Java.
+
+23
+00:02:00,210 --> 00:02:03,940
+Essa classe C no público poderia ser acessada por todo mundo.
+
+24
+00:02:04,050 --> 00:02:10,170
+Então era muito difícil você dividir a sua aplicação em múltiplos pacotes e não recorrer não precisar
+
+25
+00:02:10,170 --> 00:02:16,110
+recorrer para classes públicas porque se você precisar acessar uma classe a partir de um outro pacote
+
+26
+00:02:16,110 --> 00:02:23,430
+você necessariamente tornada pública ela viraria pública para todo o mundo digamos assim e não apenas
+
+27
+00:02:23,430 --> 00:02:31,020
+para além do seu projeto de A de módulos você consegue ter um nível de encapsulamento muito muito mais
+
+28
+00:02:31,020 --> 00:02:31,860
+interessante.
+
+29
+00:02:32,280 --> 00:02:38,430
+Eu me lembro que eu perdi muito tempo tentando criar mecanismos para evitar que uma classe pública fosse
+
+30
+00:02:38,430 --> 00:02:45,750
+acessada a partir de outro pacote que eu não quisesse recorria a documentação alguns padrões.
+
+31
+00:02:45,750 --> 00:02:51,450
+Por exemplo lembro que eu procurei um padrão na época que a internet Biz usava dentro dos seus pacotes
+
+32
+00:02:51,450 --> 00:02:57,990
+internos e sempre com muito trabalho mas depois desse sistema de módulos que foi introduzido me JD K-9
+
+33
+00:02:58,290 --> 00:03:01,530
+tudo isso passa a ficar embutido além da linguagem.
+
+34
+00:03:01,540 --> 00:03:07,500
+Você consegue ter um nível de encapsulamento muito mais interessante exatamente sobre isso que nós vamos
+
+35
+00:03:07,500 --> 00:03:13,950
+trabalhar agora falando sobre o sistema de módulos que foi introduzido em JD K-9 é um tema extremamente
+
+36
+00:03:13,950 --> 00:03:20,600
+importante é um tema extremamente relevante principalmente para quem trabalha com grandes aplicações.
+
+37
+00:03:20,610 --> 00:03:26,790
+Eu trabalhei com grandes aplicações no passado as aplicações que as equipes eram distribuídas em várias
+
+38
+00:03:26,790 --> 00:03:33,600
+cidades do Brasil e quando você criava uma classe em público que às vezes era uma classe para uso interno
+
+39
+00:03:33,600 --> 00:03:38,630
+do seu projeto ou outra equipe de outro local do Brasil e lá usava aquela classe.
+
+40
+00:03:38,640 --> 00:03:44,550
+E quando você precisava mudar essa classe que era supostamente para ser uma classe interna daquele projeto
+
+41
+00:03:44,610 --> 00:03:49,890
+já existia uma série de outras classes que dependiam dela na hora de mudar gerava efeitos colaterais
+
+42
+00:03:49,900 --> 00:03:55,800
+então quando você trabalha num projeto grande o sistema de módulos vai ajudar absurdamente e isso te
+
+43
+00:03:55,800 --> 00:04:00,820
+ajuda a construir uma arquitetura muito mais saudável sem dependência cíclica.
+
+44
+00:04:00,900 --> 00:04:06,690
+E tudo isso eu vou acabar discutindo com vocês dentro do nosso capitão um capítulo pequeno mais um capítulo
+
+45
+00:04:06,690 --> 00:04:13,140
+muito relevante porque lida diretamente com princípios da orientação a objeto que é o paradigma no qual
+
+46
+00:04:13,410 --> 00:04:14,370
+Java se baseia.
+
+47
+00:04:14,400 --> 00:04:15,470
+Então fico por aqui.
+
+48
+00:04:15,600 --> 00:04:20,670
+E na próxima aula nós vamos falar um pouquinho na parte teórica certo a questão dos módulos e depois
+
+49
+00:04:20,670 --> 00:04:22,970
+a gente vai cair nos exercícios então disparou.

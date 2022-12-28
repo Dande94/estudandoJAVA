@@ -1,0 +1,339 @@
+1
+00:00:00,150 --> 00:00:05,700
+Pessoal nós vamos criar agora um novo arquivo para fazer as consultas Testamos diferentes tipos de golpe.
+
+2
+00:00:06,150 --> 00:00:13,860
+Apesar de eu criar o arquivo aqui eu vou criar o arquivo chamado consultar condições no plural a gente
+
+3
+00:00:13,860 --> 00:00:17,860
+já tem um consultar com um jovem que fala a nossa primeira consulta.
+
+4
+00:00:17,910 --> 00:00:24,900
+Nós usamos um jovem e agora consultar com jogos no plural nós vamos colocar as consultas que lidam com
+
+5
+00:00:24,900 --> 00:00:28,240
+os diferentes tipos de animais antes de colocar diretamente aqui.
+
+6
+00:00:28,290 --> 00:00:34,230
+Pelo fato de haver limitação desse login e do visconde de não trazer todas as colunas eu vou acabar
+
+7
+00:00:34,230 --> 00:00:37,680
+colocando as consultas aqui no Orkut.
+
+8
+00:00:37,770 --> 00:00:43,170
+Depois a gente pega essas consultas e joga lá para salvar o arquivo na hora que eu vou comentar no repositório.
+
+9
+00:00:43,170 --> 00:00:48,600
+Esse arquivo vai ter exatamente as consultas que eu vou digitar que exerce no Laranjal no final esqueci
+
+10
+00:00:48,720 --> 00:00:49,960
+de copiar.
+
+11
+00:00:50,100 --> 00:00:56,070
+Sabia que Conab no Pará aqui eu vou copiar Sim e esse arquivo será comentado com essas consultas que
+
+12
+00:00:56,070 --> 00:00:58,460
+eu vou digitar diretamente aqui no orkut.
+
+13
+00:00:58,530 --> 00:01:03,160
+Então pra começar a primeira consulta que nós vamos fazer usando o e-mail ou então vou colocar aquele
+
+14
+00:01:03,180 --> 00:01:05,900
+Salete asterisco ferocidade.
+
+15
+00:01:05,910 --> 00:01:13,350
+Vou colocar um apelido de sei para a cidade colocando aqui um negócio ou seja prefeitos eu vou chamar.
+
+16
+00:01:13,350 --> 00:01:22,050
+Vou dar um apelido pra essa tabela de P e aqui eu faço um c ponta ai de mim igual a P pontos da cidade
+
+17
+00:01:22,270 --> 00:01:28,200
+ou seja dentro da tabela o prefeito tem um campo cidade aí que é exatamente esse campo que eu vou usar
+
+18
+00:01:28,470 --> 00:01:31,560
+pra fazer a relação dentro de um C.
+
+19
+00:01:31,560 --> 00:01:37,830
+Ou seja a cidade o atributo aí então igualando aqui eu tenho de fato os campos que estão relacionados
+
+20
+00:01:37,830 --> 00:01:44,820
+e estão executando essa consulta como digo até você vai ver que ele trouxe Niterói trouxe Caruaru mas
+
+21
+00:01:44,820 --> 00:01:50,640
+ele não trouxe por exemplo os dois prefeitos que não tinha relação com nenhuma cidade como também não
+
+22
+00:01:50,640 --> 00:01:53,860
+trouxe as duas cidades que não tem nenhuma relação com o prefeito.
+
+23
+00:01:53,970 --> 00:02:01,960
+Então só pra gente lembrar que a questão dos data de colocar aqui seletos asterisco foram feitos.
+
+24
+00:02:02,030 --> 00:02:09,330
+Nós temos os prefeitos quatro prefeitos Ronaldo Rodrigo Neves Zaqueu Lira Zé Inaldo Coutinho Rafael
+
+25
+00:02:09,330 --> 00:02:18,690
+Greca e temos aqui as cidades foram cidades então nós temos quatro cidades Campinas Niterói Caruaru
+
+26
+00:02:18,690 --> 00:02:19,800
+Juazeiro do Norte.
+
+27
+00:02:19,890 --> 00:02:26,430
+Só que na consulta vieram apenas duas linhas que são as duas linhas que estão relacionadas exatamente
+
+28
+00:02:27,380 --> 00:02:31,020
+aquela parte que a interseção entre as duas tabelas.
+
+29
+00:02:31,020 --> 00:02:37,670
+A próxima consulta vou fazer a mesma coisa Salete asterisco from cidade C left.
+
+30
+00:02:38,130 --> 00:02:41,590
+No caso aqui prefeitos tem a mesma coisa.
+
+31
+00:02:41,620 --> 00:02:49,260
+Sei poupar é igual a p.ex. cidade aí resetar só pra mostrar diferenças aparece colocando o cursor no
+
+32
+00:02:49,260 --> 00:02:49,920
+final da lista.
+
+33
+00:02:50,010 --> 00:02:58,670
+Como disse então ele vai trazer essas duas colunas aqui IDI não me aí a área e depois aí de novo nome
+
+34
+00:02:58,960 --> 00:03:07,420
+e cidade aí disse executar essa mesma consulta lá no verso com o login e daqui selecionar aqui não com
+
+35
+00:03:07,450 --> 00:03:10,320
+uma digital que você vai ver o resultado.
+
+36
+00:03:10,620 --> 00:03:16,680
+Ele não trouxe por exemplo lhe trouxe o nome do prefeito aqui do prefeito o nome do prefeito mas não
+
+37
+00:03:16,680 --> 00:03:23,130
+trouxe por exemplo o Jardim da da cidade nem o nome da cidade porque ele não lida bem com Campos que
+
+38
+00:03:23,130 --> 00:03:28,050
+tem o mesmo nome então pra não ter que ficar colocar um monte de apelido aqui referenciando todos os
+
+39
+00:03:28,050 --> 00:03:34,430
+nomes eu preferi rodar diretamente aqui porque não há limitação do mais que é e sim a limitação do plugue.
+
+40
+00:03:34,860 --> 00:03:40,500
+Então nesse caso o pessoal quer que vá acontecer ele vai trazer a interseção ou seja vai trazer essas
+
+41
+00:03:40,500 --> 00:03:46,500
+duas cidades aqui mas os seus prefeitos e além disso vai trazer todas as cidades.
+
+42
+00:03:46,500 --> 00:03:46,980
+Por quê.
+
+43
+00:03:46,980 --> 00:03:50,890
+Porque a cidade está do lado left left.
+
+44
+00:03:51,180 --> 00:03:57,270
+Ele vai trazer tanto a interseção como o lado da cidade então nesse caso mesmo há cidades que não têm
+
+45
+00:03:57,630 --> 00:03:59,280
+nenhum prefeito associado.
+
+46
+00:03:59,280 --> 00:04:01,530
+Não vi nessa consulta então nós temos aqui.
+
+47
+00:04:01,680 --> 00:04:08,670
+Niterói Caruaru Campinas e Juazeiro do Norte trouxe as duas primeiras linhas com o resultado do Enem
+
+48
+00:04:08,670 --> 00:04:14,460
+ou seja aquilo que é fato a interseção entre as duas tabelas e trouxe também o lado leste ou seja as
+
+49
+00:04:14,460 --> 00:04:18,620
+cidades mesmo que não haja nenhum prefeito associado.
+
+50
+00:04:18,840 --> 00:04:27,420
+Eu posso também colocar aqui ao alter left Alter executando exatamente o mesmo resultado não muda nada.
+
+51
+00:04:27,420 --> 00:04:34,710
+Você pode usar o Left ou left Alt que é exatamente a mesma coisa a próxima consulta vai ser o site ou
+
+52
+00:04:34,710 --> 00:04:39,710
+então Selection asterisco from cidade sei lá.
+
+53
+00:04:39,980 --> 00:04:46,150
+E aí vou colocar para efeitos a sintaxe é a mesma só muda a palavra em inglês left.
+
+54
+00:04:46,190 --> 00:04:48,330
+Então eu vou lá prefeito.
+
+55
+00:04:48,360 --> 00:04:50,300
+B ou c.
+
+56
+00:04:50,380 --> 00:04:57,510
+Aydin recebe p pontos cidade aí a mesma chave de relação entre as duas tabelas acertando nesse caso
+
+57
+00:04:58,020 --> 00:05:05,320
+que vai vir vai vim os dois os que têm relação estão associados entre si que é o prefeito de Niterói
+
+58
+00:05:05,400 --> 00:05:06,790
+e o prefeito de Caruaru.
+
+59
+00:05:06,790 --> 00:05:13,570
+Nesse caso não vêm as cidades e sim os prefeitos que não têm nenhuma cidade associada porque o site
+
+60
+00:05:13,890 --> 00:05:15,850
+seja quem está do lado direito.
+
+61
+00:05:16,030 --> 00:05:24,820
+Prefeitos então nesse caso como ele vai trazer Niterói Caruaru trouxe esses campos iniciais nulos mas
+
+62
+00:05:24,820 --> 00:05:31,630
+trouxe os dois prefeitos que não têm nenhuma associação com a cidade que é o Zeinal o Coutinho e o Rafael
+
+63
+00:05:31,900 --> 00:05:32,620
+Greca.
+
+64
+00:05:32,620 --> 00:05:41,080
+Por último alguns bancos têm também o fundo que se elege asterisco cidade Sé no caso aqui foi prefeito
+
+65
+00:05:41,260 --> 00:05:46,210
+até um certo ponto aí que é igual a P pontos cidade.
+
+66
+00:05:46,250 --> 00:05:51,330
+Aí nesse caso ele vai gerar um problema divertem se mais aqui que não suporta.
+
+67
+00:05:51,410 --> 00:05:58,330
+Se eu der um comediante ele vai dar um erro dizendo que há um erro meu SQL porque esse comando não é
+
+68
+00:05:58,330 --> 00:05:59,460
+suportado.
+
+69
+00:05:59,600 --> 00:06:05,550
+E o que é que eu faço é muito simples pra resolver isso eu posso pagar essas duas consultas aqui que
+
+70
+00:06:05,550 --> 00:06:13,900
+é o Left e o site é aquele tiro contribuiu pra ser uma consulta só e aqui eu boto um união dizendo que
+
+71
+00:06:13,900 --> 00:06:21,330
+eu vou fazer a união dessas duas consultas ou seja vou fazer o Left estão executando nesse caso eu vou
+
+72
+00:06:21,820 --> 00:06:28,170
+o futebol então o que seria equivalente ao futebol então sou só tirar aqui a parte baixa.
+
+73
+00:06:28,540 --> 00:06:34,930
+Então o resultado que nós temos aqui e ele trouxe a relação é que são esses dois aqui que estão associadas
+
+74
+00:06:34,930 --> 00:06:42,390
+nos primeiros dias trouxe a cidades que não tem prefeito e trouxe os prefeitos que não tem cidade se
+
+75
+00:06:42,430 --> 00:06:46,680
+é usar o União ou ele vai trazer também as duplicações não.
+
+76
+00:06:46,690 --> 00:06:49,930
+Nesse caso eu não queria que ele trouxesse as duplicações.
+
+77
+00:06:50,350 --> 00:06:52,780
+Ele vai trazer aqui em Campinas.
+
+78
+00:06:52,870 --> 00:06:58,820
+Aí trouxe de novo porque é o resultado das duas consultas o mineiro por exemplo veio nas duas.
+
+79
+00:06:58,950 --> 00:07:04,820
+Então ele trouxe que as duplicações dos prefeitos de Niterói e Caruaru duas vezes porque nas duas consultas
+
+80
+00:07:04,820 --> 00:07:08,930
+teve isso mais tirando algo ele remove as duplicações.
+
+81
+00:07:09,100 --> 00:07:12,710
+E você tem exatamente o mesmo resultado que o esperado.
+
+82
+00:07:12,710 --> 00:07:19,270
+Quando você tem à sua disposição o futebol dentro do banco de dados certo então fica aqui o exercício
+
+83
+00:07:19,270 --> 00:07:24,280
+prático pra você entender todos os gols de diferença a gente já tinha visto a teoria e agora mostra
+
+84
+00:07:24,280 --> 00:07:25,780
+na prática como funciona.
+
+85
+00:07:25,810 --> 00:07:27,860
+A gente continuou na próxima aula e disparou.

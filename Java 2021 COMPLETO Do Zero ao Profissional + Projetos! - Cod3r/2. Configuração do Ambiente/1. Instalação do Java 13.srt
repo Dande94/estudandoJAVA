@@ -1,0 +1,147 @@
+1
+00:00:00,710 --> 00:00:07,780
+Só nas próximas aulas vou mostrar pra vocês a configuração do nosso ambiente e desenvolvimento usando
+
+2
+00:00:08,200 --> 00:00:16,270
+o sistema operacional Windows Linux e Mac Os vídeos foram gravados originalmente no Java 12.
+
+3
+00:00:16,660 --> 00:00:22,800
+Só que durante o curso foi lançado o Java 3 e o Java usa alguns recursos do Java 13.
+
+4
+00:00:23,470 --> 00:00:28,720
+Durante o curso é tão importante que você tenha a última versão instalado e isso também reflete nosso
+
+5
+00:00:28,720 --> 00:00:32,590
+comprometimento de manter o curso o mais atualizado possível.
+
+6
+00:00:32,670 --> 00:00:35,900
+Eu estou rodando nesse momento na minha máquina.
+
+7
+00:00:35,900 --> 00:00:40,080
+Se eu colocar aqui Java menos Flash você vai ver que tá na versão 2.0.
+
+8
+00:00:40,360 --> 00:00:45,880
+Eu vou entrar agora no Brasil para que a gente possa atualizar a versão aqui junto eu vou fazer essa
+
+9
+00:00:45,880 --> 00:00:51,720
+atualização apenas do MAC mas o processo de configuração vai ser exatamente o mesmo com exceção aqui
+
+10
+00:00:51,730 --> 00:00:56,650
+você vai baixar uma versão mais nova do que a que estou sendo mostrado aqui no vídeo então vou entrar
+
+11
+00:00:56,650 --> 00:00:58,060
+aqui em Java.
+
+12
+00:00:58,070 --> 00:00:59,910
+Ponto como ponto.
+
+13
+00:01:00,040 --> 00:01:05,320
+Quando você entrar nesse endereço você vai ver também tem outros endereços que eu vou mostrar nos vídeos
+
+14
+00:01:05,320 --> 00:01:07,710
+aqui você vai ver os novos downloads.
+
+15
+00:01:07,720 --> 00:01:12,080
+Você tem Java e se é a versão 3 e 0.
+
+16
+00:01:12,130 --> 00:01:18,910
+Clicar aqui para baixar essa última versão eu vou baixar o J DK ou clicar aqui.
+
+17
+00:01:18,910 --> 00:01:25,160
+Download nesse caso para a minha máquina aceita a licença e vou baixar a versão para Mac e assim vou
+
+18
+00:01:25,270 --> 00:01:33,040
+pegar essa versão aqui e o DMZ certo então vou baixasse interná la ou de volta pra continuar o processo
+
+19
+00:01:33,040 --> 00:01:33,750
+de instalação.
+
+20
+00:01:35,290 --> 00:01:40,120
+Terminou o processo de download eu coloquei aqui o Estado que eu acabei de baixar diretamente no Google
+
+21
+00:01:40,120 --> 00:01:41,330
+Desktop.
+
+22
+00:01:41,350 --> 00:01:45,040
+Ao clicar duas vezes o ISA de instalação.
+
+23
+00:01:45,040 --> 00:01:51,730
+Nos outros vídeos vou mostrar também a questão da configuração do eclipse total aqui eu vou mostrar
+
+24
+00:01:51,730 --> 00:01:55,390
+somente essa questão da atualização para o Java 13.
+
+25
+00:01:55,570 --> 00:01:59,920
+Pra mostrar que não tem nenhum tipo de processo de instalação é diferente.
+
+26
+00:01:59,920 --> 00:02:03,090
+Basicamente seria a mesma coisa e já dá um recado pra vocês.
+
+27
+00:02:03,340 --> 00:02:08,980
+Para que vocês possam instalar a versão mais nova do Java que é atualmente a versão 13 em Ponto Zero
+
+28
+00:02:08,990 --> 00:02:15,250
+contudo não a coloca aqui Messenger projetando
+
+29
+00:02:18,260 --> 00:02:24,380
+para um processo que foi concluído eu vou fechar aqui se eu vou dar o Java menos Flash você vai ver
+
+30
+00:02:24,380 --> 00:02:30,920
+que ele já vai atualizar para a versão 3 e ponto usar o então basicamente o que eu fiz na isso foi lançar
+
+31
+00:02:30,920 --> 00:02:38,990
+essa versão foi lançada no dia 15 de outubro de 2019 e só pra você saber que já estamos no Java 13 e
+
+32
+00:02:38,990 --> 00:02:42,510
+já vamos usar recursos do Java 13 no nosso curso.
+
+33
+00:02:42,650 --> 00:02:43,480
+Então fico por aqui.
+
+34
+00:02:43,480 --> 00:02:45,920
+Pessoal e até proximal ainda vale a pena.
+
+35
+00:02:45,920 --> 00:02:52,490
+Você assistiu o vídeo de configuração específico para o seu ambiente e a gente continua nas próximas
+
+36
+00:02:52,490 --> 00:02:56,450
+aulas com o processo de instalação e logo na sequência com os fundamentos de Java.
+
+37
+00:02:56,450 --> 00:02:57,640
+Grande abraço e até lá.

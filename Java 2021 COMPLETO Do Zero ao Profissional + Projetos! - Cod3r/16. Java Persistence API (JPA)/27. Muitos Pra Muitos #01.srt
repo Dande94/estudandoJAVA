@@ -1,0 +1,559 @@
+1
+00:00:00,680 --> 00:00:06,080
+Agora nós vamos fazer os relacionamentos muitos para muitos não fazem mais nenhum relacionamento.
+
+2
+00:00:06,090 --> 00:00:12,270
+O primeiro relacionamento vai ser entre tio e sobrinho ou seja ela são claramente muitos para muitos
+
+3
+00:00:12,360 --> 00:00:14,600
+e a gente vai depois criar um outro relacionamento.
+
+4
+00:00:14,600 --> 00:00:19,670
+Na sequência eu quero mostrar algumas coisas diferentes em cada um deles.
+
+5
+00:00:19,800 --> 00:00:26,870
+Então vou criar aqui um novo pacote que eu vou chamar na verdade vou criar a classe em classe e será
+
+6
+00:00:26,940 --> 00:00:40,680
+útil tio e o pacote será modelo com ponto muitos para muitos e vou criar também dentro desse pacote
+
+7
+00:00:41,360 --> 00:00:44,920
+clássico sobrinho sobrinho
+
+8
+00:00:47,690 --> 00:00:48,420
+foto.
+
+9
+00:00:48,960 --> 00:01:00,890
+Então nesse caso eu vou criar um atributo pra British Long aqui ou criar um ou outro atributo extra
+
+10
+00:01:00,950 --> 00:01:15,900
+em nome de alguma marca aqui a roubar aí de roubar gênero de estratégia identidade e vou pagar essas
+
+11
+00:01:15,900 --> 00:01:21,300
+informações aqui também jogar que na verdade já vão gerar os métodos certos.
+
+12
+00:01:21,480 --> 00:01:26,420
+Vou pegar essas informações aqui também colocado dentro do tio.
+
+13
+00:01:26,520 --> 00:01:37,680
+Aqui eu vou precisar marcado com a roubar levou a também precisar marcar o sobrinho roubar
+
+14
+00:01:40,810 --> 00:01:50,130
+e gerar agora o relacionamento vai ser o sobrinho vai ter uma lista de tios e os tios Sarah ali sobrinhos.
+
+15
+00:01:50,160 --> 00:01:54,200
+Esse relacionamento pode ser unidirecional ou bidirecional.
+
+16
+00:01:54,240 --> 00:01:58,980
+Eu já vou construir de forma bidirecional e aí o que é que vai acontecer.
+
+17
+00:01:58,980 --> 00:02:06,360
+Ele vai ter que gerar uma tabela intermediária que vai relacionar tio sobrinho e aí dependendo de onde
+
+18
+00:02:06,360 --> 00:02:12,600
+eu coloco o relacionamento pra seu principal sempre tem o preço o relacionamento mapeado em um ponto
+
+19
+00:02:12,660 --> 00:02:16,030
+e o outro é simplesmente o lado bidirecional.
+
+20
+00:02:16,140 --> 00:02:19,290
+Dependendo de onde colocar ele vai escolher o nome na tabela.
+
+21
+00:02:19,290 --> 00:02:24,230
+Por padrão se sentiu onde um sobrinho ou sobrinho não permanente.
+
+22
+00:02:24,330 --> 00:02:27,340
+Ou seria seu relacionamento principal tiver dentro de tio.
+
+23
+00:02:27,360 --> 00:02:32,160
+Ele vai colocar a tia onde ela a sobrinha já coloca o relacionamento principal do sobrinho.
+
+24
+00:02:32,160 --> 00:02:38,010
+Ele vai colocá lo na tabela sobrinho onde Ernani tio obviamente eu tenho também como personalizar o
+
+25
+00:02:38,010 --> 00:02:43,590
+nome da tabela eu vou marchar pra vocês no próximo exercício de muitos para muitos tem como dizer o
+
+26
+00:02:43,590 --> 00:02:49,020
+nome dos Campos tem como fazer um mapeamento mais complexo para realmente mapear o nome de uma tabela
+
+27
+00:02:49,020 --> 00:02:50,140
+que não segue esse padrão.
+
+28
+00:02:50,430 --> 00:02:53,480
+Então aqui eu vou definir uma lista.
+
+29
+00:02:53,550 --> 00:03:01,530
+No caso que é uma lista de todo tipo então vou ter uma lista de sobrinhos que eu vou chamar aqui de
+
+30
+00:03:01,890 --> 00:03:10,220
+sobrinhos no plural e vou marcar esse atributo com a notação minha.
+
+31
+00:03:10,890 --> 00:03:15,310
+Uma vez feito isso eu vou criar também dentro diz Sobrinho.
+
+32
+00:03:15,340 --> 00:03:21,240
+Vou criar um tributo que também será uma lista.
+
+33
+00:03:21,600 --> 00:03:29,430
+Eu vou colocar aqui uma lista de tiro e vou colocar o nome dessa lista de tios no plural.
+
+34
+00:03:29,430 --> 00:03:32,940
+Eu vou colocar aqui também um mini homem.
+
+35
+00:03:33,120 --> 00:03:41,610
+Nesse caso eu preciso dizer então vou fazer o seguinte já vou instancia a lista que a religião a religião
+
+36
+00:03:42,020 --> 00:03:48,690
+dizendo será que genéricos não preciso nesse caso e também vão distanciar a lista aqui dentro de ti
+
+37
+00:03:48,690 --> 00:03:56,060
+ou seja de sobrinhos já será plantei precisava para distanciar a lista então para onde definia que iminente
+
+38
+00:03:56,060 --> 00:04:04,650
+o meio de definir o outro lado está reclamando porque eu preciso declarar essas duas classes dentro
+
+39
+00:04:04,650 --> 00:04:05,650
+da meta.
+
+40
+00:04:05,650 --> 00:04:08,840
+Enfim então persiste esse ponto XML.
+
+41
+00:04:08,880 --> 00:04:12,390
+Eu preciso colocar fim à questão.
+
+42
+00:04:12,940 --> 00:04:25,020
+Muitos muitos para muitos aqui hoje colocar a sitio e duplicar eu vou colocar a classe sobre pronto
+
+43
+00:04:25,430 --> 00:04:32,280
+para o de reclamar turcomana agora só porque tem atributos não usados e o que eu preciso dizer o seguinte
+
+44
+00:04:32,530 --> 00:04:37,950
+quem é que vai ter digamos assim a relação principal o mapeamento estará apenas em um único ponto.
+
+45
+00:04:37,950 --> 00:04:45,840
+Quando você tem uma relação de JP você coloca a definição dessa relação em um ponto e você usa um outro
+
+46
+00:04:45,840 --> 00:04:53,910
+ponto se quiser para definir o lado bidirecional e o lado bidirecional sempre tem o mapa de bairro que
+
+47
+00:04:53,910 --> 00:04:59,410
+é exatamente o atributo que diz onde está o mapeamento da relação certo.
+
+48
+00:04:59,430 --> 00:05:07,680
+Então se o atributo mapa de bairro do lado do tio significa que do lado do sobrinho aqui estará mapeado
+
+49
+00:05:07,740 --> 00:05:08,820
+a relação.
+
+50
+00:05:08,820 --> 00:05:14,880
+Se eu colocar o mapa de bairro ao lado do sobrinho significa que do lado tio aqui estará a relação mapeada.
+
+51
+00:05:15,000 --> 00:05:21,990
+Então vou colocar aqui dentro do tio a relação seja mínima e dentro do sobrinho eu vou colocar o mapa
+
+52
+00:05:21,990 --> 00:05:22,560
+de bairro.
+
+53
+00:05:22,890 --> 00:05:29,230
+Então aqui eu vou colocar o atributo Map Bay e vou apontar para onde está o atributo.
+
+54
+00:05:29,230 --> 00:05:32,490
+Qual é o nome do atributo que está relação a piada.
+
+55
+00:05:32,850 --> 00:05:39,070
+Então o nome do atributo que está relação mapeada é exatamente o atributo sobrinhos.
+
+56
+00:05:39,150 --> 00:05:43,850
+Então esse nome é colocado dentro de mapa de bairro aqui.
+
+57
+00:05:44,010 --> 00:05:51,290
+Então essa é a parte bidirecional da relação de tal forma que o nome da tabela será tio sobrinho onde
+
+58
+00:05:51,350 --> 00:05:52,350
+Darlan sobrinho.
+
+59
+00:05:52,590 --> 00:05:55,420
+Já que eu coloquei a relação aqui tá.
+
+60
+00:05:55,560 --> 00:06:00,630
+Eu falei pra vocês tem como a gente definiu o nome da tabela tem eu vou mostrar um exemplo um pouco
+
+61
+00:06:00,630 --> 00:06:06,650
+mais pra frente então feito isso nós vamos agora criar os métodos certos ou os três atributos.
+
+62
+00:06:07,230 --> 00:06:17,690
+Então vou colocar aqui de nome e sobrinhos vou também colocar aqui gerar custo padrão.
+
+63
+00:06:18,300 --> 00:06:24,230
+Então será que o comentário também vou gerar o construtor que recebe o nome do tio então o coloca aqui
+
+64
+00:06:24,230 --> 00:06:32,420
+como estou usando filtros vou selecionar apenas o nome gerados pronto tirei todas as informações de
+
+65
+00:06:32,420 --> 00:06:43,380
+tio agora vou gerar do sobrinho ou começa a alguns metros 7 selecionar que tudo anda a gerar e vou também
+
+66
+00:06:43,380 --> 00:06:50,940
+gerar o construtor geral constou que recebe o nome do sobrinho custou os no.
+
+67
+00:06:51,390 --> 00:06:57,940
+Vou chamar o nome pronto para mandar matar.
+
+68
+00:06:57,960 --> 00:07:05,340
+Agora que eu direi nós vamos gerar uma classe vai ser para a gente criar fazer os testes então dentro
+
+69
+00:07:05,340 --> 00:07:16,210
+de 10 ou criar uma nova classe em eu vou chamar de novo Tio Sobrinho.
+
+70
+00:07:16,340 --> 00:07:23,860
+Vou finalizar dentro do pacote três muitos pra muitos.
+
+71
+00:07:24,030 --> 00:07:31,670
+Seu primeiro a primeira classe tem três pacotes na parte teste e nós vamos fazer o seguinte eu vou criar
+
+72
+00:07:31,760 --> 00:07:38,360
+dois tios vou criar dois sobrinhos e vou fazer com que esses dois tios sejam tios dos dois sobrinhos
+
+73
+00:07:38,660 --> 00:07:43,380
+e eu seja os dois sobrinhos também são sobrinhos desses dois tios também.
+
+74
+00:07:43,700 --> 00:07:52,880
+Então fazer o seguinte eu vou criar aqui um que eu vou chamar aqui de tia.
+
+75
+00:07:52,880 --> 00:08:04,330
+Vou colocar aqui um tijolo e vou colocar o nome dessa tia de Maria.
+
+76
+00:08:04,610 --> 00:08:10,070
+Vou criar aqui e eu vou chamar aqui de tio.
+
+77
+00:08:10,130 --> 00:08:24,120
+2 Recebi um tio e aqui vai ser o João João e Maria são os tios e vou criar o sobrinho sobrinho ocorre
+
+78
+00:08:24,150 --> 00:08:38,680
+aqui sobrinho recebe Sobrinho e o nome do sobrinho vai ser o de junho e criar aqui um sobrinho a sobrinha.
+
+79
+00:08:38,750 --> 00:08:51,970
+2 recebe meu sobrinho e aqui vai ser a última colocada de Jonas o Jacó Kadafi que são os meus sobrinhos.
+
+80
+00:08:52,580 --> 00:09:00,220
+Então nós temos aqui dois tios e dois sobrinhos como nós temos uma relação bidirecional.
+
+81
+00:09:00,320 --> 00:09:04,040
+O ideal é que você mantenha uma coerência na relação.
+
+82
+00:09:04,040 --> 00:09:11,710
+Certo ou seja que quer tocar em dizer com coerência na relação momento que o cheiro que tira um ponto.
+
+83
+00:09:11,760 --> 00:09:23,320
+Sete sobrinhos de beliches sobrinhos e adicionar na lista de sobrinhos da tia o sobrinho o Davi então
+
+84
+00:09:23,450 --> 00:09:28,680
+nesse momento eu estou dizendo que a Maria é tia do Davi.
+
+85
+00:09:28,790 --> 00:09:37,060
+Só que ao mesmo tempo Davi é sobrinha da Maria então precisou fazer o contrário que o sobrinho do Garotinho
+
+86
+00:09:37,320 --> 00:09:41,930
+tios ponto adicionar à tia.
+
+87
+00:09:42,140 --> 00:09:49,880
+Ou seja a relação bidirecional sendo definida nessas duas linhas tia ou seja a Maria a tia do Davi assim
+
+88
+00:09:49,880 --> 00:09:51,580
+como Davi a sobrinha Maria.
+
+89
+00:09:51,760 --> 00:09:57,540
+Ou seja manter a consistência na relação é importante para não gerar problemas e efeitos colaterais.
+
+90
+00:09:57,680 --> 00:10:01,570
+Da mesma forma eu vou agora duplicar isso aqui.
+
+91
+00:10:01,820 --> 00:10:06,400
+Nós vamos ter a tia apontando pra sobrinha 2.
+
+92
+00:10:06,500 --> 00:10:16,470
+Da mesma forma que a sobrinha 2 aponta pra ti e nós podemos fazer essa mesma relação aqui embaixo.
+
+93
+00:10:16,550 --> 00:10:30,350
+Só que agora pro tio 2 então tio 2 aqui embaixo tio 2 e aqui também tio 2 tio dono de tal forma que
+
+94
+00:10:30,350 --> 00:10:40,220
+eu tenho um sobrinho um sobrinho um tio tinha um sobrinho e dois sobrinhos 2 tio tia sobrinha 2 tia
+
+95
+00:10:40,550 --> 00:10:51,110
+agora tio 2 sobrinho o sobrinho tio 2 tio 2 sobrinho 2 sobrinho 2 2 ou seja eu fiz a relação binacional
+
+96
+00:10:51,600 --> 00:10:59,440
+agora eu posso persistir todo mundo na base então vou colocar aqui nao vou colocar o genérico pra objeto
+
+97
+00:10:59,510 --> 00:11:14,990
+então dao recebe e eu vou colocar aqui outro dia eu vou chamar de mau ponto abri transação vou colocar
+
+98
+00:11:14,990 --> 00:11:25,960
+aqui pra ele inclui o primeiro e depois eu vou inclui o tio.
+
+99
+00:11:25,980 --> 00:11:42,210
+2 Depois da Copa que inclui sobrinho finalmente o colocar pra inclui sobrinho sobrinho de 2 e fechar
+
+100
+00:11:42,210 --> 00:11:51,770
+a transação e depois eu vou fechar deu o outro deu trabalho assim eu vou mostrar pra vocês no próximo
+
+101
+00:11:51,770 --> 00:11:58,760
+exercício de muitos para muitos que a gente pode ficar alguns metros que vai nos ajudar a evitar a necessidade
+
+102
+00:11:58,760 --> 00:12:04,730
+de ter que colocar essa relação bidirecional porque eu já falei pra vocês a relação bidirecional pode
+
+103
+00:12:04,730 --> 00:12:11,410
+ser útil em alguns cenários na qual você precisa realmente acessar os lados mas gera esse efeito que
+
+104
+00:12:11,410 --> 00:12:14,620
+você tem tá mantendo a relação consistente.
+
+105
+00:12:14,680 --> 00:12:20,890
+Ou seja se uma coisa tem uma relação com primeiro o outro também tem relação com o mudou alguma coisa
+
+106
+00:12:20,890 --> 00:12:22,790
+do tipo como mostrei aqui pra você.
+
+107
+00:12:23,160 --> 00:12:27,250
+Você acertar esse exercício agora a gente deu resultado.
+
+108
+00:12:27,760 --> 00:12:36,080
+Ele gerou aqui uma série de inserções deixou acessar aqui o banco de dados para a gente entrar.
+
+109
+00:12:38,340 --> 00:12:48,590
+8 Eu vou apagar aqui seus consultores e nós vamos aumentar um pouquinho então ao primeiro eu vou entrar
+
+110
+00:12:48,600 --> 00:12:50,200
+com recurso Java.
+
+111
+00:12:50,230 --> 00:12:56,230
+A gente tem aceito o cliente tem de pedir bi de pessoa e ele já criou jogo que a gente acabou de comentar
+
+112
+00:12:56,230 --> 00:13:05,130
+na então sobrinho tio e como a relação foi mapeada dentro de tio ele gerou a tabela tio e sobrinho.
+
+113
+00:13:05,140 --> 00:13:13,270
+Se eu fizer a mesma coisa aqui e agora eu fizer e colocar o contrário ou tirar o MEP de baixo aqui eu
+
+114
+00:13:13,270 --> 00:13:14,860
+vou comentar isso.
+
+115
+00:13:15,640 --> 00:13:22,580
+Vou comentar isso e vou colocar o Pro de baixo do lado do tio então vou entrar em ti e vou colocar um
+
+116
+00:13:23,080 --> 00:13:31,240
+Mac de baixo apontando práticos que é exatamente agora onde está a relação apinhada dentro de Sobrinho.
+
+117
+00:13:31,540 --> 00:13:35,170
+Então eu vou apagar daqui uns trocos.
+
+118
+00:13:35,170 --> 00:13:36,130
+Tá bom.
+
+119
+00:13:36,160 --> 00:13:38,370
+Só pra gente evitar qualquer tipo de problema.
+
+120
+00:13:38,390 --> 00:13:46,750
+Vou apagar a tabela tio Drop Tengo e vou pagar também a tabela sobrinho trôpego.
+
+121
+00:13:46,990 --> 00:13:53,050
+Você vai perceber que por padrão ele vai criar um novo nome de tabela que vai ser sobrinho de Ernani
+
+122
+00:13:53,120 --> 00:14:02,750
+Gil então azedou gerou a ação e aqui se juntam a brecha de geral sobrinho de Ernani Tio vou querer matei
+
+123
+00:14:03,130 --> 00:14:07,990
+a outra forma então eu vou tirar esse merda de bar daqui.
+
+124
+00:14:08,430 --> 00:14:22,180
+Vou tirar daqui e vou comentar essa linha aqui nós vamos apagar aqui tá bom bão daqui brother brother
+
+125
+00:14:22,230 --> 00:14:35,980
+também e vou colocar o tio também Ronaldo optei pelo rock com isso a gente pode executar a última entrevista
+
+126
+00:14:36,010 --> 00:14:38,330
+esse exercício para a gente ver o resultado.
+
+127
+00:14:38,700 --> 00:14:49,110
+Então aqui se eu fizer aqui um Selection asterisco from tio sobrinho primo resultado você vai ver o
+
+128
+00:14:49,630 --> 00:14:50,780
+que foi gerado.
+
+129
+00:14:50,890 --> 00:15:02,710
+Tios Vanderlan sobrinhos Vanderlan John 1 2 2 1 2 2 6 gerou os atributos gerando a relação entre as
+
+130
+00:15:02,710 --> 00:15:09,790
+duas tabelas se você quiser fazer aí alguns consultas para ver o resultado gerado tranquilo e no mais
+
+131
+00:15:09,970 --> 00:15:17,560
+gerou tamanha Celeste asterisco foram tios para os meus dois tios cadastrados na homenagem tio no singular
+
+132
+00:15:17,930 --> 00:15:20,020
+é que a Maria e o João
+
+133
+00:15:22,900 --> 00:15:32,550
+que é também um seleto asterisco foram Sobrinho também no singular Hiroki Rabelo dos dois sobrinhos
+
+134
+00:15:32,550 --> 00:15:38,770
+não ficamos por aqui na relação muitos para muitos na próxima aulas vamos fazer um outro exercício agora
+
+135
+00:15:38,770 --> 00:15:43,200
+relacionado a ator e filho pra gente também criar uma relação muito.
+
+136
+00:15:43,210 --> 00:15:48,980
+Para muitos a já atuou em filme e mostra alguns detalhes que você pode personalizar com o nome da tabela
+
+137
+00:15:48,990 --> 00:15:54,250
+os campos que vai ser gerado e a gente terá controle de qual o nome da tabela.
+
+138
+00:15:54,280 --> 00:15:55,900
+Quais são os campos gerados.
+
+139
+00:15:55,890 --> 00:16:01,440
+Também pode ter controle total sobre a tabela que cria a relação não muitos para muitos.
+
+140
+00:16:01,450 --> 00:16:05,410
+Vou mostrar isso para vocês a partir de um ou outro exercício aproximá lo.

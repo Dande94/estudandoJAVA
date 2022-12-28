@@ -1,0 +1,199 @@
+1
+00:00:00,270 --> 00:00:07,650
+Nessa hora vão achar pra vocês a resposta do nosso desafio e eu vou começar implementando os dois métodos
+
+2
+00:00:07,650 --> 00:00:15,270
+sem se preocupar com a parte de anotar para mapear os metros para as mulheres Então primeiro vou começar
+
+3
+00:00:15,270 --> 00:00:19,950
+com um método bem simples que é o método de somar a metade os dois são bem simples retorna um valor
+
+4
+00:00:19,950 --> 00:00:29,160
+inteiro com o nome do método da soma e segue entre a vírgula tipo B é o resultado desse método.
+
+5
+00:00:29,190 --> 00:00:36,940
+é apenas somar a e b então Primeiro o método foi implementado o segundo método também Supersimples públicos
+
+6
+00:00:37,290 --> 00:00:44,650
+e subtrair o método também vai receber um parâmetro e um parâmetro b.
+
+7
+00:00:45,030 --> 00:00:50,930
+E aqui ele vai pagar o valor de menos o valor de B pronto.
+
+8
+00:00:50,940 --> 00:00:56,850
+Do ponto de vista das duas implementações está tudo ok tá faltando agora a gente anotar esses métodos.
+
+9
+00:00:56,850 --> 00:00:59,670
+Então aqui sim eu vou marcar o meu.
+
+10
+00:00:59,670 --> 00:01:07,560
+A minha classe como baixo controla bom também coloca aqui e com baixo Mapping pra garantir já que eu
+
+11
+00:01:07,560 --> 00:01:14,910
+tenho um caminho comum para os dois nem Bat calculadora então vou colocar aqui a calculadora no nível
+
+12
+00:01:14,900 --> 00:01:20,250
+da classe porque todos os métodos agora eu preciso me preocupar apenas em mapear o resto quem quer somar
+
+13
+00:01:20,250 --> 00:01:20,880
+e subtrair.
+
+14
+00:01:21,450 --> 00:01:29,910
+Então aqui nesse primeiro método eu vou colocar enquete Mappin e RL que nós vamos colocar aqui.
+
+15
+00:01:29,910 --> 00:01:32,630
+Vai ser exatamente essa não basta.
+
+16
+00:01:33,090 --> 00:01:35,540
+Só que aqui em vez de ser 10 e 20.
+
+17
+00:01:35,610 --> 00:01:43,510
+Obviamente eu vou colocar entre em quatro chaves o valor e o valor b então vou atrapalhar o comentário
+
+18
+00:01:43,780 --> 00:01:51,450
+app ou somar a e b pra cá o que está faltando é a gente mapear esses valores pra que esses parâmetros
+
+19
+00:01:51,450 --> 00:02:02,400
+do método que eu vou colocar a arroba bom marca aqui e vou marcar esse outro parâmetro pra ter o perfil
+
+20
+00:02:02,400 --> 00:02:11,710
+do verbo seja formatado aqui tudo ok agora eu vou testar o primeiro método eu vou colocar aqui qualquer
+
+21
+00:02:12,820 --> 00:02:24,680
+dor de barriga só a barra por exemplo 33 Barra 78 executando o resultado deu 111 certo.
+
+22
+00:02:24,980 --> 00:02:31,060
+Qualquer marca um só a mais simples vou colocar 10 e 5.
+
+23
+00:02:32,040 --> 00:02:36,420
+O resultado vai dar 15 graus do primeiro metro está funcionado o de baixo.
+
+24
+00:02:37,010 --> 00:02:38,960
+Eu vou colocar também.
+
+25
+00:02:39,160 --> 00:02:39,990
+Bingo.
+
+26
+00:02:40,350 --> 00:02:49,560
+Nesse caso ele vai ser apenas essa parte que ao subtrair já que o resto dos seus parâmetros é aqui eu
+
+27
+00:02:49,560 --> 00:02:58,890
+vou precisar colocar o arroba e parar então assim para vou colocar aqui o nome do parâmetro Khomeini
+
+28
+00:02:59,400 --> 00:03:03,690
+pra a e vou colocar o outro.
+
+29
+00:03:04,030 --> 00:03:09,590
+Passei uma MP colocando o bebê para fora matando aqui.
+
+30
+00:03:09,940 --> 00:03:15,840
+Ele não formatou em duas linhas eu vou quebrar aqui só pra ficar mais fácil de ler mais seu formato
+
+31
+00:03:15,840 --> 00:03:17,990
+ele vai acabar colocando na linha só mais beleza.
+
+32
+00:03:18,320 --> 00:03:21,900
+E quais Paraná o primeiro nome vai ser o segundo B.
+
+33
+00:03:21,910 --> 00:03:27,240
+Se você quiser colocar um valor padrão você pode colocar e você também pode dizer que esse é um atributo
+
+34
+00:03:28,470 --> 00:03:29,430
+verdadeiro ou falso.
+
+35
+00:03:29,430 --> 00:03:34,650
+Por padrão ele é verdadeiro ou seja todos os parâmetros são requeridos.
+
+36
+00:03:35,170 --> 00:03:36,860
+Então eu vou estar aqui.
+
+37
+00:03:36,860 --> 00:03:40,350
+Isso me traiu então colocaram subtrair.
+
+38
+00:03:40,870 --> 00:03:42,180
+Ok.
+
+39
+00:03:42,300 --> 00:03:54,010
+E aqui vai passar os parâmetros da a passar o parâmetro b igual a 100 é igual a 30.
+
+40
+00:03:54,510 --> 00:04:00,090
+Nesse caso ele vai dar um valor negativo exatamente porque ele vai fazer a menos bem na tela vai dar
+
+41
+00:04:00,090 --> 00:04:06,930
+ao Estado menos 70 ou seja Olhem aqui não importa o que importa e os valores que você colocou não é
+
+42
+00:04:06,930 --> 00:04:10,380
+dos parâmetros e se eu colocar ao contrário.
+
+43
+00:04:10,560 --> 00:04:20,260
+Primeiro 30 e por último lá 70 ou 100 o Estado vai dar um estado positivo ou seja tanto o Metro de subtrair
+
+44
+00:04:20,260 --> 00:04:27,210
+está funcionando como método de somar está funcionando eu vou só formatar aqui problema aqui com a letra
+
+45
+00:04:27,270 --> 00:04:32,040
+muito grande ele acaba de ficar mais do que o tamanho da tela além do fato de notar não está ocupando
+
+46
+00:04:32,040 --> 00:04:37,350
+a tela inteira está com resolução bem baixa que no meu computador pra que o código fique mais claro
+
+47
+00:04:37,350 --> 00:04:38,340
+possível pra você.
+
+48
+00:04:38,370 --> 00:04:43,520
+Então o pessoal ficou aqui com a resposta desse desafio espero que vocês tenham conseguido fazer sem
+
+49
+00:04:43,530 --> 00:04:46,440
+olhar mais olhar também não é um problema e não consegui.
+
+50
+00:04:46,440 --> 00:04:49,640
+Também não é um problema faz parte do processo de aprendizado.

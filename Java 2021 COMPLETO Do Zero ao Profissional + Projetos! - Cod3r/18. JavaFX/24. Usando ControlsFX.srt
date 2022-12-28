@@ -1,0 +1,371 @@
+1
+00:00:00,150 --> 00:00:08,280
+Só agora nós vamos usar dentro do nosso projeto tinham do há componentes especificamente um componente
+
+2
+00:00:08,280 --> 00:00:14,910
+que é a notificação do Controls FX achar para vocês como configurar mas antes disso a gente vai fazer
+
+3
+00:00:14,910 --> 00:00:21,750
+aqui uma lógica dentro da nossa função entrar para a gente verificar o e-mail e senha e ter dois cenários
+
+4
+00:00:21,750 --> 00:00:24,840
+o cenário de sucesso e um cenário de falha.
+
+5
+00:00:24,840 --> 00:00:31,230
+Eu quero mostrar isso para vocês agora dentro do nosso login controla e nós temos por enquanto mostrando
+
+6
+00:00:31,240 --> 00:00:35,660
+e-mails sem essa gente que está seguindo o que a gente já tinha feito anteriormente.
+
+7
+00:00:36,100 --> 00:00:42,390
+Quando você clicar aqui ou colocar qualquer coisa qualquer sem entrar vai mostrar aquilo que você colocou
+
+8
+00:00:42,390 --> 00:00:48,780
+como usuário e senha que é que eu vou fazer que eu vou criar duas variáveis booleanas duas variáveis.
+
+9
+00:00:48,780 --> 00:01:00,480
+Então o caso aqui vai ser meio válido vai receber um campo e meio ponto de teste tem que ser igual e
+
+10
+00:01:00,480 --> 00:01:07,760
+com isso eu vou colocar aqui por exemplo alguma arroba como o ponto com.br.
+
+11
+00:01:07,770 --> 00:01:15,050
+Vai ser um primeiro digamos simbólico e eu vou criar aqui um bolinho mas sem senha válida.
+
+12
+00:01:15,100 --> 00:01:25,790
+Recebi o campo de senha ponto e passado aqui 2 3 4 5 6 7 8.
+
+13
+00:01:25,950 --> 00:01:36,270
+Então com essas duas variáveis booleanas eu vou fazer o seguinte Você é meio válido e senha válida eu
+
+14
+00:01:36,270 --> 00:01:41,380
+vou imprimir aqui só por enquanto mas sem sucesso.
+
+15
+00:01:41,430 --> 00:01:48,370
+Caso contrário eu vou imprimir um estilo de falha então esse vai ser o cenário que eu vou usar as notificações
+
+16
+00:01:48,370 --> 00:01:54,330
+a partir da Biblioteca do Control FX para a gente executar aqui o nosso código só pra ver se ele tá
+
+17
+00:01:54,330 --> 00:01:57,920
+segurando o sucesso e a falha.
+
+18
+00:01:58,040 --> 00:02:11,310
+Vou colocar aqui ou tentar entrar então falha vou colocar aqui no blog com um ponto com senha 1 2 3
+
+19
+00:02:11,310 --> 00:02:15,340
+4 5 6 7 8 9 continua com falha.
+
+20
+00:02:15,390 --> 00:02:22,090
+Se eu tirar um aqui ele vai dar sucesso esse é o único cenário no nosso caso aqui e vai gerar um login
+
+21
+00:02:22,530 --> 00:02:23,280
+com sucesso.
+
+22
+00:02:23,280 --> 00:02:25,070
+Pronto é que nós vamos fazer.
+
+23
+00:02:25,140 --> 00:02:32,190
+Eu vou pagar o contra os FX que eu venho colei como um arquivo anexo o curso para que você consiga baixar
+
+24
+00:02:32,310 --> 00:02:37,430
+esse arquivo se não tiver vinculado a votar com um link aqui na edição dizer exatamente o local.
+
+25
+00:02:37,440 --> 00:02:41,070
+Você pode me pegar esse arquivo mas eu quero achar pra vocês.
+
+26
+00:02:41,070 --> 00:02:44,240
+Como vocês podem também pagar isso na internet.
+
+27
+00:02:44,240 --> 00:02:49,860
+Se você entrar coloca aqui também contra os FX.
+
+28
+00:02:49,860 --> 00:02:58,150
+Você vai ver o repositório do byte é exatamente esse que eu te respondo com barra Controls FX Back Controls
+
+29
+00:02:58,190 --> 00:02:59,160
+FX né.
+
+30
+00:02:59,230 --> 00:03:05,410
+Ou seja o usuário contra X e o nome do projeto é o mesmo nome que você entra aqui onde tem as misses
+
+31
+00:03:05,480 --> 00:03:09,970
+tem quatro Willis e a última Willys é a versão 11 ponto zero.
+
+32
+00:03:09,970 --> 00:03:19,910
+Contudo você coloca aqui no Google Controls FX 11 pontos apontou um ponto já você vai bater no repositório
+
+33
+00:03:19,950 --> 00:03:23,140
+do meio e aqui você consegue baixar o arquivo.
+
+34
+00:03:23,290 --> 00:03:29,070
+Já que você consegue ter aqui os diversos tipos de ferramentas de Bild e se você clicar aqui é onde
+
+35
+00:03:29,070 --> 00:03:32,610
+tem filhos que hoje já 910 KB.
+
+36
+00:03:32,610 --> 00:03:39,450
+Se você clicar aqui ele vai baixar exatamente o mesmo arquivo que eu tenho atrelado que eu coloquei
+
+37
+00:03:39,450 --> 00:03:43,080
+atrelado no curso que eu estou colocando o link aqui no vídeo.
+
+38
+00:03:43,080 --> 00:03:45,620
+Pronto feito isso você tem o arquivo.
+
+39
+00:03:45,900 --> 00:03:50,760
+Eu vou colocar dentro da minha pasta cursos d'água bem na minha pasta cursos d'água.
+
+40
+00:03:50,780 --> 00:03:59,740
+Tenho aqui exercícios Java FX vou criar aqui uma nova pasta chamada lib e vou jogar contra os FX para
+
+41
+00:03:59,760 --> 00:04:07,030
+dentro de Libby e vou agora importá aqui no meu projeto não vou clicar com o botão direito na verdade
+
+42
+00:04:07,030 --> 00:04:13,910
+eu vou dar aqui e fechando o projeto clicando um refresh para mostrar a pasta Libby e clicando aqui.
+
+43
+00:04:14,070 --> 00:04:20,330
+Contra os FX você pode me chamar aqui Bild blefe adicionar o Big Bang ou seja automaticamente esse arquivo
+
+44
+00:04:20,340 --> 00:04:27,450
+vai parar o Bild perto da sua aplicação especificamente para parte do módulo PF onde tem o onde o sistema
+
+45
+00:04:27,450 --> 00:04:33,120
+de módulos vai encontrar a verdade esse novo modo que foi adicionado então uma vez que eu preciso agora
+
+46
+00:04:33,120 --> 00:04:38,700
+usar a nova biblioteca eu estou usando o sistema de módulos eu preciso adicional e quais para poder
+
+47
+00:04:38,700 --> 00:04:43,510
+usar as bibliotecas para poder usar as classes específicas dessa biblioteca.
+
+48
+00:04:43,510 --> 00:04:46,440
+Então quais vou colocar aqui.
+
+49
+00:04:46,590 --> 00:04:47,500
+Acho que é ok.
+
+50
+00:04:47,500 --> 00:04:51,730
+Ponto contra os FX Controls que eu importei.
+
+51
+00:04:51,750 --> 00:04:56,790
+Agora sim eu tenho a minha disposição para usar dentro de qualquer classe no meu projeto.
+
+52
+00:04:56,790 --> 00:05:03,420
+Os componentes visuais do Controls FX entrar aqui em Login controller controlador.
+
+53
+00:05:03,430 --> 00:05:05,860
+Melhor dizendo aqui eu vou usá lo.
+
+54
+00:05:05,890 --> 00:05:11,890
+Fiquei chocado então fiquei nos chãos no plural.
+
+55
+00:05:12,010 --> 00:05:15,490
+Ele já importou olhe ponto contra os FX ponto contra.
+
+56
+00:05:15,520 --> 00:05:22,290
+Fiquem juntos aqui eu vou chamar a função colheita e aí ele brinca com aquela questão de você Cade agora
+
+57
+00:05:22,350 --> 00:05:23,530
+chamariz né.
+
+58
+00:05:23,560 --> 00:05:29,050
+O próximo que eu vou chamar aquele capitão eu vou colocar aqui pra sei o nome da minha aplicação.
+
+59
+00:05:29,050 --> 00:05:40,080
+Eu chamei aqui login J fx por exemplo e vou colocar a mensagem que no caso o teste então vou passar
+
+60
+00:05:40,190 --> 00:05:53,030
+o teste no caso aqui vai ser login efetuado com sucesso e finalmente eu vou chamar aqui o método show.
+
+61
+00:05:53,050 --> 00:05:56,830
+Você tem vários shows com o filme Information Warning.
+
+62
+00:05:57,010 --> 00:05:59,290
+Eu vou pedir para mostrar aqui uma informação.
+
+63
+00:05:59,350 --> 00:06:00,430
+Pronto.
+
+64
+00:06:00,520 --> 00:06:05,670
+Esse aqui vai ser uma noite fiquei cheio para mostrar o sucesso eu vou duplicar isso aqui.
+
+65
+00:06:05,670 --> 00:06:12,660
+Jogar embaixo pra ele mostrar Lloyd fiquei relacionada à falha só é bem Take corretamente maximizar
+
+66
+00:06:12,700 --> 00:06:17,830
+aqui então o título da aplicação vai ser o mesmo login aqui.
+
+67
+00:06:18,000 --> 00:06:22,510
+Lá ocorreu uma falha no login.
+
+68
+00:06:22,510 --> 00:06:27,000
+Você pode até colocar mensagens ao usuário sem inválidos.
+
+69
+00:06:27,050 --> 00:06:36,410
+Então qualquer usuário vá lá usuário e senha é válido
+
+70
+00:06:38,920 --> 00:06:48,010
+fabricantes de usuário e senha inválidos e aqui embaixo do vídeo show Information baixo vai ser show.
+
+71
+00:06:48,620 --> 00:06:49,190
+Pronto.
+
+72
+00:06:49,190 --> 00:06:53,400
+Com isso a gente pode testar para apreciar melhor que vai estar funcionando corretamente.
+
+73
+00:06:53,450 --> 00:06:59,510
+Então ele vai mostrar uma notificação então por exemplo ao entrar ele mostrou aqui embaixo um usuário
+
+74
+00:06:59,690 --> 00:07:01,340
+e senha inválidos.
+
+75
+00:07:01,400 --> 00:07:04,340
+Depois de um tempo ele mesmo vai sumir essa telinha.
+
+76
+00:07:04,520 --> 00:07:07,420
+Ali eu não quero mostrar embaixo quero mostrar em cima.
+
+77
+00:07:07,430 --> 00:07:09,080
+Você pode clicar aqui.
+
+78
+00:07:09,430 --> 00:07:11,730
+Pois é chamada posição.
+
+79
+00:07:11,780 --> 00:07:15,320
+Quero que fique no topo então top.
+
+80
+00:07:15,410 --> 00:07:24,260
+No caso do site vou colocar aqui mostrar em cima do site e aí aqui só um exemplo dos vários exemplos
+
+81
+00:07:24,260 --> 00:07:30,610
+que você pode usar com outros FX só para mostrar a configuração que é simples é habitualmente um exemplo
+
+82
+00:07:30,610 --> 00:07:42,530
+é a possibilidade que você tem então coloca no que o aluno rouba com o D com R Sem 1 2 3 4 5 6 7 8 executando
+
+83
+00:07:42,940 --> 00:07:47,370
+um login efetuado com sucesso Ai depois de um tempo ele some.
+
+84
+00:07:47,390 --> 00:07:51,340
+Essa mensagem tem vários e vários componentes visuais que você pode usar.
+
+85
+00:07:51,740 --> 00:07:58,300
+Essa biblioteca e se eu colocar aqui uma senha errada ele vai mostrar ao usuário sim inválidos.
+
+86
+00:07:58,310 --> 00:08:03,080
+Você também pode ter outras personalizações em relação a parte das notificações.
+
+87
+00:08:03,070 --> 00:08:07,790
+Pessoal fico por aqui com relação ao nosso projétil do FX.
+
+88
+00:08:08,150 --> 00:08:13,460
+Espero que tenha sido claro pra vocês até o que eu tenha falado de Java flex que é o padrão na biblioteca
+
+89
+00:08:13,460 --> 00:08:18,000
+visual atual do Java pra criação de aplicações em desktop.
+
+90
+00:08:18,380 --> 00:08:23,950
+Também importante e se você for criar a aplicação em desktop provavelmente você vai acabar usando dentro
+
+91
+00:08:24,070 --> 00:08:27,320
+o mundo do Java e provavelmente usar o Java FX.
+
+92
+00:08:27,380 --> 00:08:32,570
+Então com esse pessoal ficamos por aqui na sala espero que tenha ficado claro todo o processo de configuração
+
+93
+00:08:32,630 --> 00:08:35,760
+e uso do Controls FX e até para os mal.

@@ -1,0 +1,107 @@
+1
+00:00:00,250 --> 00:00:05,420
+Só chegamos no final do nosso módulo de classe e objeto nesse módulo.
+
+2
+00:00:05,550 --> 00:00:10,370
+Vimos muitos conceitos e extremamente interessantes vimos o conceito de classe.
+
+3
+00:00:10,710 --> 00:00:17,940
+O conceito de objeto a relação que existe entre classe e objeto entendemos o que é membros de uma classe
+
+4
+00:00:17,940 --> 00:00:25,170
+que são os atributos e comportamentos vimos os métodos entendemos o que são atributos de classe e atributos
+
+5
+00:00:25,170 --> 00:00:31,200
+de instância ou seja como marca um membro como estático tanto o Metro como um atributo que ele passa
+
+6
+00:00:31,200 --> 00:00:32,580
+pertence à classe.
+
+7
+00:00:32,850 --> 00:00:39,330
+Nós falamos sobre a atribuição de valor e atribuição com referência também é um tema muito importante
+
+8
+00:00:39,660 --> 00:00:45,990
+de como funciona a óbvio se entender que mais de uma variável pode apontar para um mesmo espaço de memória
+
+9
+00:00:46,020 --> 00:00:48,210
+quando você muda esse espaço.
+
+10
+00:00:48,210 --> 00:00:54,270
+Embora todas as variáveis que apontavam percebi essa mudança vão ter o valor alterado.
+
+11
+00:00:54,270 --> 00:01:01,590
+Isso também é muito importante no próximo módulo nós vamos trabalhar com o conceito de Rui e coleções
+
+12
+00:01:01,640 --> 00:01:08,760
+nós vamos aprender como a gente pode colocar dentro de uma única estrutura uma lista de objetos vários
+
+13
+00:01:08,760 --> 00:01:15,120
+valores para que gente possa manipular esses valores de uma forma adequada para que a gente possa percorrer
+
+14
+00:01:15,120 --> 00:01:21,030
+esses valores usando laços usando fora por exemplo que a gente vai apresentar inclusive um outro tipo
+
+15
+00:01:21,030 --> 00:01:21,580
+de fala.
+
+16
+00:01:21,870 --> 00:01:27,300
+Nesse capítulo então tem muita coisa legal para a gente ver no curso ainda estamos formando as nossas
+
+17
+00:01:27,300 --> 00:01:32,580
+bases mas eu tenho certeza que são bases sólidas para que você possa estar preparado não apenas para
+
+18
+00:01:32,580 --> 00:01:37,620
+aquilo que eu estou apresentando para você aqui no curso mas também para que vocês tenham fundamentos
+
+19
+00:01:37,620 --> 00:01:40,520
+sólidos e se prepare para os desafios do mundo real.
+
+20
+00:01:40,740 --> 00:01:47,070
+Então ficamos no capítulo agora de classe e objeto com vários e vários conceitos fundamentais se tiver
+
+21
+00:01:47,070 --> 00:01:53,550
+alguma dúvida dê uma olhada de novo e faz exercícios olha as aulas teóricas e os exercícios para que
+
+22
+00:01:53,550 --> 00:01:56,500
+isso possa estar bem consolidado na sua mente.
+
+23
+00:01:56,500 --> 00:02:02,400
+E agora temos um novo capítulo o capítulo de coleções já rei e coleções para a gente ver outras coisas
+
+24
+00:02:02,400 --> 00:02:07,260
+também muito interessantes da metalinguagem se você ainda não avaliou o curso avalia acho que é um bom
+
+25
+00:02:07,260 --> 00:02:09,130
+momento você já viu muitas aulas.
+
+26
+00:02:09,140 --> 00:02:13,610
+Isso sem dúvida vai nos ajudar muito a entender o que você está achando do curso não fique por aqui
+
+27
+00:02:13,620 --> 00:02:18,000
+pessoal e até o próximo módulo do nosso curso completo em Java e eu espero lá.

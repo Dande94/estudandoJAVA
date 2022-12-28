@@ -1,0 +1,151 @@
+1
+00:00:00,480 --> 00:00:07,140
+Pessoal nós fizemos na aula passada em sessão de 13 estados inclusive eu criei aqui um arquivo chamado
+
+2
+00:00:07,140 --> 00:00:14,280
+inserir dados e está do ponto TXT e que eu coloquei o primeiro excerto que nós fizemos do arquivo ou
+
+3
+00:00:14,290 --> 00:00:21,780
+persiste isso no nosso repositório que é o outro que serve para Alagoas colocando os mesmos três atributos
+
+4
+00:00:21,780 --> 00:00:25,090
+nome e sigla região mais a população.
+
+5
+00:00:25,120 --> 00:00:28,110
+Pra vocês que não tem problema porque é um banco sem esquema.
+
+6
+00:00:28,170 --> 00:00:33,670
+Depois fizemos uma inserção no Rio de Janeiro coloquei aqui formatado mas se você quiser copiar isso
+
+7
+00:00:33,780 --> 00:00:36,430
+colar e executar vai funcionar normalmente.
+
+8
+00:00:36,630 --> 00:00:43,020
+Então o nome Rio single região e além disso eu coloquei a cidade não a cidade no caso coloquei a única
+
+9
+00:00:43,020 --> 00:00:44,410
+cidade que Niterói.
+
+10
+00:00:44,580 --> 00:00:50,430
+Finalmente nós executamos o DB estados pouco faringe dd Estado ponto falho ponto.
+
+11
+00:00:50,730 --> 00:00:55,890
+E finalmente executamos o DB Help pra mostrar pra vocês algumas possibilidades.
+
+12
+00:00:55,890 --> 00:01:02,400
+Se você fizer o DB te D2 tabs ele vai mostrar a várias possibilidades de métodos que você tem à disposição
+
+13
+00:01:02,400 --> 00:01:03,570
+na hora do jogo.
+
+14
+00:01:03,740 --> 00:01:10,130
+Saulo quero propor para vocês um desafio que seria o desafio pra você inseriu o Estado de São Paulo
+
+15
+00:01:10,140 --> 00:01:17,160
+Estado de São Paulo vai ter o nome São Paulo obviamente a sigla SP Região Sudeste e eu quero que tem
+
+16
+00:01:17,160 --> 00:01:20,190
+três cidades associadas ao estado de São Paulo.
+
+17
+00:01:20,310 --> 00:01:21,880
+Eu quero pt Campinas.
+
+18
+00:01:22,020 --> 00:01:29,580
+Eu quero que tendo o caso aqui não vai ser Campinas a primeira cidade a área essa área o prefeito Jonas
+
+19
+00:01:29,640 --> 00:01:32,840
+Donizete e a população lá acesse aqui.
+
+20
+00:01:33,240 --> 00:01:38,520
+O nome da cidade segundo Guarulhos vai ter apenas um único atributo que vai ser a população.
+
+21
+00:01:38,520 --> 00:01:45,110
+A terceira cidade vai ser Sorocaba vai ter um atributo chamado distância capital que vai ser 87 no caso
+
+22
+00:01:45,120 --> 00:01:49,170
+aqui quilómetros e também vai ter um atributo chamado população.
+
+23
+00:01:49,170 --> 00:01:51,160
+Uma outra observação que eu quero fazer.
+
+24
+00:01:51,180 --> 00:02:03,360
+Eu quero que cada um das cidades então colocar aquilo que cada cidade cidade tem o atributo Vanderlan.
+
+25
+00:02:03,870 --> 00:02:12,570
+Ou seja eu quero que você crie o atributo Vanderlan e atribua para esse andar Mainardi chama de objetos
+
+26
+00:02:12,850 --> 00:02:20,040
+aí então eu vou mostrar isso mais eu quero que vocês pesquisem até pra estimular um pouco vocês se tentarem
+
+27
+00:02:20,040 --> 00:02:25,590
+resolver os problemas sozinho lá como é que eu consigo gerar o Estado de São Paulo com três cidades.
+
+28
+00:02:25,590 --> 00:02:30,970
+Você vai se basear muito no que nós fizemos no Rio de Janeiro e além disso no Rio de Janeiro eu criei
+
+29
+00:02:30,970 --> 00:02:36,370
+uma cidade em Niterói não atribui nem Waldir foi criado ou simplesmente não cidade e não tem aí pra
+
+30
+00:02:36,390 --> 00:02:36,870
+ela.
+
+31
+00:02:36,870 --> 00:02:43,110
+Já no caso desafio São Paulo eu quero que Campinas tenham seu próprio dia em que Guarulhos tem sua própria
+
+32
+00:02:43,110 --> 00:02:43,540
+rede.
+
+33
+00:02:43,560 --> 00:02:49,530
+Que Sorocaba tem sua própria rede ou seja além de ter o atributo nomearia prefeito ou população vai
+
+34
+00:02:49,530 --> 00:02:56,230
+ter também um atributo aí você vai associar para esse aí de um valor gerado pelo mundo.
+
+35
+00:02:56,450 --> 00:03:01,950
+Objetos pontuais não é difícil para vocês resolverem não olhar para pesquisar se tem alguma coisa na
+
+36
+00:03:01,950 --> 00:03:03,340
+internet sobre isso.
+
+37
+00:03:03,570 --> 00:03:05,020
+Com certeza vai ter.
+
+38
+00:03:05,100 --> 00:03:09,480
+Aí vocês tentam fazer essa consulta na próxima aula vão mostrar pra vocês o resultado e até lá.

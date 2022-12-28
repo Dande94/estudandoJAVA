@@ -1,0 +1,459 @@
+1
+00:00:00,240 --> 00:00:05,580
+Penso agora nos valores gastos consultas mais avançados com agregar mais chances de a gente de fato
+
+2
+00:00:05,580 --> 00:00:08,510
+entrar na prática e fazer os nossos exemplos.
+
+3
+00:00:08,520 --> 00:00:12,690
+Eu quero falar um pouquinho pra você da teoria pra que no sentido mais ou menos como é que a lógica
+
+4
+00:00:12,690 --> 00:00:13,850
+e como funciona.
+
+5
+00:00:14,010 --> 00:00:17,270
+As consultas mais avançadas Europa e do mundo.
+
+6
+00:00:17,310 --> 00:00:23,900
+Existe um padrão chamado pay in fio 3 ou seja é como se eu tivesse uma tubulação digamos assim.
+
+7
+00:00:24,120 --> 00:00:30,870
+E dentro dessa tubulação os dados vão passando e vai encontrar alguns filtros e esses filtros são responsáveis
+
+8
+00:00:30,870 --> 00:00:35,650
+por transformar os dados fazem algum alteração no resultado do filtro.
+
+9
+00:00:35,870 --> 00:00:41,520
+Ou seja os dados transformados é passado para um segundo filtro que transforma dados de novo passo para
+
+10
+00:00:41,530 --> 00:00:47,010
+outro filtro vai transformando até que no final final essa tubulação chegue o dado que você quer.
+
+11
+00:00:47,160 --> 00:00:53,040
+Então o processo de fazer uma consulta agregada usando o mundo é mais ou menos segue essa lógica tanto
+
+12
+00:00:53,070 --> 00:00:58,490
+essa mancha pra vocês aqui na documentação vocês vão perceber o seguinte nós temos o que ele chama de
+
+13
+00:00:59,490 --> 00:01:02,030
+gay filme pai de Blaine estágios.
+
+14
+00:01:02,100 --> 00:01:09,120
+Ou seja nos estágios do pai Blaine de agregação pai plana como se fosse exatamente essa tubulação e
+
+15
+00:01:09,120 --> 00:01:14,670
+os estágios são esses filtros que vão ser aplicados em cima dos dados pra no final você tem exatamente
+
+16
+00:01:14,670 --> 00:01:20,160
+aquilo que você quer você inicia com dados brutos vai aplicando os estágios do pai plano de agregação
+
+17
+00:01:20,160 --> 00:01:25,650
+até que no final você tem um dado que você deseja ou seja o resultado da consulta o que você quer.
+
+18
+00:01:25,890 --> 00:01:29,310
+Então a função que nós vamos usar essa função agregar.
+
+19
+00:01:29,620 --> 00:01:34,330
+Então você vai usar da mesma forma que usou faixas e as outras funções DDD.
+
+20
+00:01:34,530 --> 00:01:41,220
+O nome da coleção que você chama agredidos é dentro dessa função ou sei lá passam a Rei e cada elemento
+
+21
+00:01:41,220 --> 00:01:45,270
+do Harry é um dos estágios do pai de agregação.
+
+22
+00:01:45,260 --> 00:01:51,150
+Então você tem vários estágios que você pode aplicar então por exemplo nos estágios que seriam digamos
+
+23
+00:01:51,150 --> 00:01:57,600
+assim um bem é bem fácil isso ser percebido como sendo um estágio importante muitas vezes ele é o primeiro
+
+24
+00:01:58,080 --> 00:02:04,320
+estágio para filtrar os dados que é exatamente esse mas então por exemplo eu vou fazer o bebê ponto
+
+25
+00:02:04,330 --> 00:02:06,030
+estados para agregar.
+
+26
+00:02:06,150 --> 00:02:08,660
+Ou seja começa a partir de todos os estados.
+
+27
+00:02:08,730 --> 00:02:13,770
+Se o primeiro estágio do pai plano de agregação é exatamente o que vai filtrar qual é o documento que
+
+28
+00:02:13,770 --> 00:02:15,520
+eu quero dentro na minha Collection.
+
+29
+00:02:15,750 --> 00:02:23,570
+Então posso usar por exemplo metros e dizer que o método vai ser o Estado cuja sigla seja SP ou seja
+
+30
+00:02:23,580 --> 00:02:26,050
+acabei de filtrar o Estado de São Paulo.
+
+31
+00:02:26,110 --> 00:02:31,470
+Outro exemplo digamos assim que também de certa forma um filtro certo é o projeto.
+
+32
+00:02:31,480 --> 00:02:39,120
+Então colocando aqui nós temos um outro estagio do pai pela agregação que é o projeto e ele tem o objetivo
+
+33
+00:02:39,120 --> 00:02:44,670
+de filtrar os atributos dentro do documento que você quer passar para o próximo estágio.
+
+34
+00:02:44,670 --> 00:02:51,250
+Então por exemplo quarto médico ele filtra quais documentos você quer dentro da sua coleção.
+
+35
+00:02:51,270 --> 00:02:55,690
+Ou seja faz um filtro mais ou menos como dentro de uma consulta SQL.
+
+36
+00:02:55,710 --> 00:03:01,470
+Já o projeto ele serve para dizer quais são os atributos dentro do documento que você quer que vá para
+
+37
+00:03:01,470 --> 00:03:03,840
+a próxima fase do pai plano de agregação.
+
+38
+00:03:03,930 --> 00:03:10,080
+Então por exemplo no médio você disse Cardoso os estados que têm a sigla igual são Paulo e no projeto
+
+39
+00:03:10,080 --> 00:03:12,840
+você diz ao cara que passe o nome do Estado.
+
+40
+00:03:12,980 --> 00:03:18,930
+Eu quero que passe a religião do Estado e eu quero que passe o nome das cidades desse estado.
+
+41
+00:03:18,930 --> 00:03:23,430
+Então você disse que mais esses três atributos vão passar a partir do projeto.
+
+42
+00:03:23,550 --> 00:03:31,000
+Além do mais do projeto você tem por exemplo a possibilidade de adicionar novos campos no pai pela agregação
+
+43
+00:03:31,000 --> 00:03:32,220
+usando adicionar filtros.
+
+44
+00:03:32,210 --> 00:03:38,420
+Você quer por exemplo criar o campo calculado que você mesmo fez durante o processo de consulta adicionar
+
+45
+00:03:38,520 --> 00:03:40,300
+esse campo que você usa.
+
+46
+00:03:40,300 --> 00:03:41,250
+Adicionar filtros.
+
+47
+00:03:41,280 --> 00:03:46,640
+Ele é similar a você fazer um projeto de todos os campos adicionando mais uma final no projeto.
+
+48
+00:03:46,650 --> 00:03:51,300
+Você também pode adicionar novos campos e pode retirar sem problema nenhum.
+
+49
+00:03:51,300 --> 00:03:57,000
+Você tem por exemplo um estágio que é para fazer o caldo por exemplo você tem um estágio que é para
+
+50
+00:03:57,000 --> 00:03:59,480
+agrupar dados a parte do grupo.
+
+51
+00:03:59,520 --> 00:04:05,300
+Você tem um estágio para limitar a quantidade de registros que você quer passar para o próximo passo.
+
+52
+00:04:05,340 --> 00:04:11,450
+Você tem um local que seria mais ou menos como se estivesse fazendo Joy entre dois dois documentos diferentes
+
+53
+00:04:11,460 --> 00:04:12,960
+você pode usar o local API.
+
+54
+00:04:13,080 --> 00:04:16,290
+Você tem por exemplo ex-equipe parar por lá.
+
+55
+00:04:16,290 --> 00:04:20,960
+Você tem sorte para você ter um ano inteiro que é exatamente.
+
+56
+00:04:21,220 --> 00:04:26,670
+Eu vou mostrar um exemplo domingo na próxima aula que é o que ele chama de desenrolar.
+
+57
+00:04:26,680 --> 00:04:33,760
+Eu acho que essa a tradução foi só confirmar aquilo que você já dizia a tradução errada não é de hoje
+
+58
+00:04:33,960 --> 00:04:40,980
+quer dizer exatamente a tradução é desenrolar o que ele serve para a coluna você tem por exemplo um
+
+59
+00:04:40,980 --> 00:04:47,430
+estado com três cidades e você faz um amigo em cima da cidade significa que ele vai gerar três documentos
+
+60
+00:04:47,900 --> 00:04:53,510
+com o Estado com apenas a primeira cidade depois do Estado com a segunda cidade e depois no Estado com
+
+61
+00:04:53,520 --> 00:05:00,610
+a terceira cidade ele meio que dizem rola mais ou menos e seria a tradução desenrola as cidades coloca
+
+62
+00:05:00,800 --> 00:05:05,520
+se um Estado com a cidade e o Estado com a cidade e o Estado com a cidade seja em vez de ter um único
+
+63
+00:05:05,520 --> 00:05:08,540
+documento tem o Estado e três cidades dentro dele.
+
+64
+00:05:08,550 --> 00:05:13,750
+Você vai ter três documentos no Estado como a cidade e o Estado com a cidade e o Estado com uma cidade.
+
+65
+00:05:13,760 --> 00:05:15,470
+Então o índio faz isso.
+
+66
+00:05:15,540 --> 00:05:21,050
+Então dentro dessa lógica você tem os estágios o pai plano de agregação e você também tem outro.
+
+67
+00:05:21,060 --> 00:05:26,340
+Outra parte importante que são os operadores do pai plano de agregação os operadores.
+
+68
+00:05:26,760 --> 00:05:31,540
+Imagine por exemplo no caso do médio você quer fazer o metro usando wi fi.
+
+69
+00:05:31,560 --> 00:05:35,030
+Você pode usar um operador booleano que é operador.
+
+70
+00:05:35,460 --> 00:05:41,460
+Então quer fazer uma ligação em sinal colocar todos os estados quer fazer um Mac de todos os estados
+
+71
+00:05:41,460 --> 00:05:43,600
+que não têm a sigla SP.
+
+72
+00:05:43,600 --> 00:05:49,480
+Aí você poderia usar menores no caso lá você tem um estágio que é o estágio de grupos.
+
+73
+00:05:49,590 --> 00:05:54,870
+Por exemplo aqui no estado de grupo eu quero fazer por exemplo um sonho ou você pode vim aqui procurar
+
+74
+00:05:55,880 --> 00:05:58,760
+saber se soma amostral.
+
+75
+00:05:58,860 --> 00:06:04,820
+Exatamente um dos operadores que tem você fazer a soma de todos os dados um exemplo exatamente com soma
+
+76
+00:06:04,980 --> 00:06:11,430
+para a gente pegar a população nas cidades e somar em cima do pai pela Lei do Estágio do pai plano agregação
+
+77
+00:06:11,430 --> 00:06:12,640
+que seria o Gurupi.
+
+78
+00:06:12,690 --> 00:06:18,990
+Então as consultas ficam meio vago quem está falando aqui mais importante tem essa noção de que você
+
+79
+00:06:18,990 --> 00:06:25,080
+tem pai plano e agregação até os estágios desse pai lá que você vai passando os dados de um estágio
+
+80
+00:06:25,080 --> 00:06:25,800
+pra outro.
+
+81
+00:06:25,800 --> 00:06:30,840
+Esse estágio vai transformar os dados e passando para o próximo estágio certo lembrando que é muito
+
+82
+00:06:30,840 --> 00:06:37,710
+importante isso uma vez que você colocou um Mac infiltrou os dados e viu só o Estado de São Paulo uma
+
+83
+00:06:37,710 --> 00:06:43,540
+vez que você usou um projétil e todos os atributos desse documento você só extrai o nome.
+
+84
+00:06:43,590 --> 00:06:48,840
+No próximo passo significa que você vai ter um documento que apresenta o estado de São Paulo porque
+
+85
+00:06:48,840 --> 00:06:54,630
+você deu o mote para a sigla SP que vai ter apenas um único atributo porque você tem um projeto em cima
+
+86
+00:06:54,630 --> 00:06:55,230
+do nome.
+
+87
+00:06:55,650 --> 00:07:02,100
+é tão importante você entender que o resultado vai ser digamos sim passado para o próximo passo é exatamente
+
+88
+00:07:02,100 --> 00:07:04,070
+o resultado que saiu do passo anterior.
+
+89
+00:07:04,070 --> 00:07:08,460
+é exatamente a mesma lógica desse padrão de projeto filtros.
+
+90
+00:07:08,580 --> 00:07:13,530
+O resultado de uma transformação é passado o próximo que transforme o dado passo para o próximo e aí
+
+91
+00:07:13,860 --> 00:07:19,200
+ele sai um conjunto de dados até chegar exatamente num dado que você quer em cima dessa lógica do PAI
+
+92
+00:07:19,200 --> 00:07:24,930
+Plano de agregação além de ter os estádios do PAI Plano de agregação você até os operadores que podem
+
+93
+00:07:24,930 --> 00:07:32,320
+ser aplicados e esses operadores são divididos em vários grupos por exemplo a os operadores booleanos
+
+94
+00:07:32,340 --> 00:07:34,960
+comparação condicional de data certa.
+
+95
+00:07:34,970 --> 00:07:40,110
+Então tem muito os operadores que vocês podem usar dentro do PAI Plano de agregação para que você de
+
+96
+00:07:40,110 --> 00:07:45,430
+fato consiga extraí digamos assim exatamente aquilo que você quer extrair do banco de dados.
+
+97
+00:07:45,450 --> 00:07:51,150
+Então só para a gente resumir finalizá lo vocês vão perceber que no mundo a gente vai fazer as consultas
+
+98
+00:07:51,150 --> 00:07:58,710
+mais complexas com agregados e vocês vão perceber que a paixão que você tem necessidade de fazer consultas
+
+99
+00:07:58,710 --> 00:08:03,900
+mais complexas consultas que envolvam não só um documento mais outros documentos.
+
+100
+00:08:03,900 --> 00:08:08,700
+Você começa a perceber a quantidade de passos necessários para você de fato mostrar aquilo que você
+
+101
+00:08:08,700 --> 00:08:10,190
+quer dentro do jogo.
+
+102
+00:08:10,310 --> 00:08:16,000
+E quando você vai para esse lado digamos assim de consultas mais complexas eu pessoalmente acho o SQL
+
+103
+00:08:16,020 --> 00:08:17,040
+mais.
+
+104
+00:08:17,220 --> 00:08:21,150
+Mais didático certo mais fácil você extrai as informações.
+
+105
+00:08:21,150 --> 00:08:26,790
+Então quando você perceber que está indo por um caminho que você precise está muitas informações.
+
+106
+00:08:26,880 --> 00:08:33,000
+Talvez fosse o caso e você também tem essas informações na base relacional para que você consiga estar
+
+107
+00:08:33,000 --> 00:08:34,100
+de uma forma mais fácil.
+
+108
+00:08:34,170 --> 00:08:39,960
+Então é muito simples pra você ter esse chip conjuntos gigantescos de dados dentro de um documento por
+
+109
+00:08:39,960 --> 00:08:45,600
+exemplo e como um exemplar no começo do capítulo 20 tabelas você pensa enchendo dentro de um documento
+
+110
+00:08:45,610 --> 00:08:47,520
+no mundo a coisa mais simples que tem.
+
+111
+00:08:47,820 --> 00:08:53,280
+Entretanto quando você vai começar a ter necessidade de extrair informações de documentos diferem de
+
+112
+00:08:53,280 --> 00:09:00,840
+formas muito assim peculiares muitos agrupamentos e coisas do tipo você começa a perceber que o mundo
+
+113
+00:09:00,840 --> 00:09:06,970
+relacional te dá uma resposta mais mais fácil e se querem mais maduro nesse sentido certo.
+
+114
+00:09:07,190 --> 00:09:11,790
+Mas de qualquer forma é importante que você conheça essa lógica de como as consultas mais complexas
+
+115
+00:09:11,790 --> 00:09:17,400
+são feitas aproximadamente quais alguns exemplos práticos do que ele quis mostrar na sala e até lá.

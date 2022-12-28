@@ -1,0 +1,415 @@
+1
+00:00:00,490 --> 00:00:07,840
+Isso agora mostra na resposta do desafio vou criar uma classe que eu vou chamar de alterar a pessoa.
+
+2
+00:00:08,110 --> 00:00:24,910
+Então qualquer alteração qualquer que alterar nome pessoa eu vou criar um método aí já que produz Section
+
+3
+00:00:25,610 --> 00:00:34,500
+e nós vamos iniciar criando a nossa conexão então Connection Conexão fabricante de conexão ponto Bad
+
+4
+00:00:34,570 --> 00:00:39,280
+Connection já vou garantir que a conexão vai ser fechada.
+
+5
+00:00:39,350 --> 00:00:53,460
+Klaus também vou criar o meu canal de entrada recebe esse canal faça aqui um sistema pronto e também
+
+6
+00:00:53,470 --> 00:01:00,840
+já vou chamar a entrada do Klaus pra fechar os canais.
+
+7
+00:01:00,850 --> 00:01:05,480
+A primeira coisa que eu vou pedir é que existem ali
+
+8
+00:01:08,680 --> 00:01:21,070
+conforme o código da pessoa e vou pagar aqui um código.
+
+9
+00:01:21,120 --> 00:01:34,630
+Recebi a entrada então vou pagar aqui o marketing mas lá posso pagar um Machines depois eu vejo sim
+
+10
+00:01:35,260 --> 00:01:41,080
+vai dar problema caixão 200 está bom então colocar o código é para a próxima coisa que eu vou fazer.
+
+11
+00:01:41,210 --> 00:01:43,850
+Já peguei qualquer conexão para baixo.
+
+12
+00:01:43,860 --> 00:01:48,760
+Pronto pedi o código agora que encolhe eu vou conseguir fazer a minha consulta.
+
+13
+00:01:48,760 --> 00:01:50,950
+Então é um preparo estético então o craque
+
+14
+00:01:54,860 --> 00:02:06,960
+estreitamente tem essa conexão ponto quer esteja passando o SQL e o SQL eu vou criar aqui em cima que
+
+15
+00:02:07,170 --> 00:02:17,320
+um estilo SQL recebe seu Select asterisco from pessoas ou era
+
+16
+00:02:20,860 --> 00:02:22,660
+igual a para lá.
+
+17
+00:02:23,560 --> 00:02:30,580
+Então aqui como é praxe tente então vou passar um parâmetro porque vai ser um site onde só tem um parâmetro
+
+18
+00:02:30,690 --> 00:02:36,220
+e vai ser exatamente o código que obtive a partir daí eu vou executar.
+
+19
+00:02:36,610 --> 00:02:41,240
+Então eu vou fazer o seguinte ou pagar 18 set.
+
+20
+00:02:42,540 --> 00:02:54,560
+O sétimo resultado recebe o estreitamento do ponto e a partir do resultado eu vou estar de táxi.
+
+21
+00:02:54,790 --> 00:02:56,080
+Resultado.
+
+22
+00:02:56,150 --> 00:02:56,990
+Ponto.
+
+23
+00:02:57,190 --> 00:03:05,170
+NET significa que tem um resultado que eu posso criar por exemplo uma pessoa que a pessoa até recebe
+
+24
+00:03:05,180 --> 00:03:08,490
+de uma pessoa e eu vou pagar parte.
+
+25
+00:03:08,500 --> 00:03:14,890
+Vou colocar o resultado ficar um pouquinho mais curto vou colocar só letreiro diz o Tata não é resultado
+
+26
+00:03:14,900 --> 00:03:16,710
+então aquele resultado.
+
+27
+00:03:16,720 --> 00:03:28,480
+Ponto antes e posso pagar a coluna por índice por exemplo se é aquilo diet estreou como uma 2 uma vez
+
+28
+00:03:28,480 --> 00:03:34,130
+que eu peguei a coluna em coluna 2 talvez fosse mais interessante colocar aqui ou apagar o antigo código
+
+29
+00:03:34,180 --> 00:03:40,950
+de vírgula que eu garanto que você quer não e com moradores então pedi a coluna na coluna 2.
+
+30
+00:03:40,960 --> 00:03:49,060
+Criei uma nova pessoa a partir da pessoa que eu posso exibir o nome da pessoa então system on line com
+
+31
+00:03:49,170 --> 00:04:01,930
+o nome atual e eu coloco aqui P Ponto grande confidente em nome e a conversa que já está a funcionar
+
+32
+00:04:01,930 --> 00:04:10,180
+nessa primeira parte informa o código da pessoa código sei o nome atual é Gabriel Silva quem chegou
+
+33
+00:04:10,180 --> 00:04:11,220
+nesse ponto.
+
+34
+00:04:11,450 --> 00:04:16,290
+Próximo ponto agora vai ser pedir para o usuário informar o novo nome.
+
+35
+00:04:16,370 --> 00:04:28,630
+Então vou colocar System Audio Printing informa forme um novo nome dois pontos e aqui eu vou pegar a
+
+36
+00:04:28,630 --> 00:04:34,090
+string de entrada.
+
+37
+00:04:34,080 --> 00:04:35,150
+Ponto.
+
+38
+00:04:35,220 --> 00:04:41,040
+Next para Max Xilai pediu um novo nome.
+
+39
+00:04:41,110 --> 00:04:44,660
+Vou fazer agora uma updates pra fazer um update.
+
+40
+00:04:44,830 --> 00:04:56,680
+Eu vou gerar aqui um outro SQL vai ser deite pessoas sétimo nome igual ou coisa
+
+41
+00:05:00,410 --> 00:05:04,500
+recorde mundo igual a algum acordo.
+
+42
+00:05:04,510 --> 00:05:09,640
+Então esse vai ser melhor updates tem dois parâmetros o ano passado e o código passado.
+
+43
+00:05:10,420 --> 00:05:13,710
+Então vou criar aqui um novo estreitamente.
+
+44
+00:05:13,750 --> 00:05:21,470
+Posso até fechar o estágio em passado com House eu vou usar a mesma variável do estreitamento certa
+
+45
+00:05:21,690 --> 00:05:32,410
+no novo estágio aqui de São Paulo que espero esteja mesmo passando SQL que eu acabei sobre escrever
+
+46
+00:05:32,410 --> 00:05:35,180
+a mesma variável que tinha criado aqui em cima do seu site.
+
+47
+00:05:35,340 --> 00:05:43,250
+Estou criando algo que pouco depois poderei criar variáveis distintas dessa Let It Select Update.
+
+48
+00:05:43,330 --> 00:05:46,810
+Não tem problema nenhum talvez ficasse um pouco mais organizado.
+
+49
+00:05:46,810 --> 00:05:50,360
+Se for vou fazer o seguinte vou colocar os dois e as Queres a camisinha.
+
+50
+00:05:50,440 --> 00:05:58,870
+Vou chamar esse de Salete e esse aqui deixe o restringe altamente troque.
+
+51
+00:05:58,980 --> 00:06:05,340
+Esse aqui vai ser o Salad e esse aqui embaixo vai ser uns dez.
+
+52
+00:06:05,350 --> 00:06:12,930
+Com isso eu vou ter o meu estreitamento Vou citar dois parâmetros o primeiro parâmetro vai ser o restringiu
+
+53
+00:06:13,480 --> 00:06:22,210
+se o parâmetro que ser exatamente o novo nome que foi fornecido pelo usuário aqui e aqui embaixo.
+
+54
+00:06:22,320 --> 00:06:30,010
+Pegar os três elementos do ponto sete é que vai ser parâmetro dois que é exatamente o código que foi
+
+55
+00:06:30,010 --> 00:06:32,020
+selecionado mais lá em cima.
+
+56
+00:06:32,020 --> 00:06:37,420
+Esse mesmo código aqui vai ser o código que ele usa aqui embaixo pra acertar o usuário.
+
+57
+00:06:38,140 --> 00:06:50,250
+Então com isso se der tudo certo eu posso mostrar aqui no final do sistema de Benjamin pessoa alterada
+
+58
+00:06:50,500 --> 00:07:03,750
+com sucesso executando no código da pessoa pessoa sem nome atual Gabriel Silva informe o novo nome.
+
+59
+00:07:03,790 --> 00:07:10,230
+Na verdade o que aconteceu é que ele acabou usando a internet do Net que eu coloquei aqui em cima.
+
+60
+00:07:10,240 --> 00:07:14,350
+O entra já serviu pra ele não mexe lá embaixo e não é isso que eu quero.
+
+61
+00:07:14,680 --> 00:07:25,900
+Então pra resolver isso eu vou colocar o maxilar logo depois do nome atual e aí quando ele chegar aqui
+
+62
+00:07:25,900 --> 00:07:34,200
+ele vai realmente parar e pedir um novo nome então alerta mais uma vez é só uma questão do uso do marketing
+
+63
+00:07:34,630 --> 00:07:40,110
+e do maxilar na então corte da pessoa sem o nome da pessoa.
+
+64
+00:07:40,110 --> 00:07:47,780
+Gabriel Silva Eu vou colocar aqui o novo nome informe para aquilo que está errado e que o título não
+
+65
+00:07:47,830 --> 00:07:57,970
+informe o novo nome transacta mais ou menos nome da pessoa número 100 pegou o Gabriel salvou o dente
+
+66
+00:07:58,000 --> 00:08:11,380
+da pessoa e já coloquei aqui o novo nome novo código e o novo nome será Gabriel Silva Souza executado.
+
+67
+00:08:11,540 --> 00:08:19,470
+Pessoa alterada com sucesso olhando aqui o resultado deixa isso para pessoa.
+
+68
+00:08:19,540 --> 00:08:23,750
+Ele não autorizou o Gabriel Silva o que porque eu não pedi pra atualizar a Net.
+
+69
+00:08:23,740 --> 00:08:28,170
+Faltou aqui os testemunhos ponto Ezequiel.
+
+70
+00:08:28,330 --> 00:08:31,750
+Nesse caso não é calcular não preciso pagar o resultado.
+
+71
+00:08:32,340 --> 00:08:44,470
+Então as equipes executando mais uma vez o iPhone da pessoa sem Gabriel Silva local Gabriel Silva Souza
+
+72
+00:08:44,770 --> 00:08:47,660
+executando pessoa alterada com sucesso.
+
+73
+00:08:47,900 --> 00:08:48,590
+O resultado.
+
+74
+00:08:48,610 --> 00:08:57,040
+Agora nós temos aqui o Gabriel Silva Souza o altar para contar antes qualquer pessoa sem qualquer pessoa
+
+75
+00:08:57,040 --> 00:09:07,000
+sem executá lo digite o novo então colocar o Gabriel Silva Souza em interpessoal operava com sucesso.
+
+76
+00:09:07,170 --> 00:09:15,360
+Voltamos a ter o Gabriel Silva então nesse exemplo mais fizemos aqui a atualização by para informar
+
+77
+00:09:15,360 --> 00:09:20,200
+o nome e pediu colo da pessoa com o comando SQL SELECT.
+
+78
+00:09:20,580 --> 00:09:27,120
+Nas primeiras fizemos aqui a conexão fizemos um seleto usando o de porque tinha um parâmetro que eu
+
+79
+00:09:27,120 --> 00:09:29,340
+passei naquele corpo da pessoa.
+
+80
+00:09:29,340 --> 00:09:35,610
+Selecionei a pessoa que me corrigiu a partir do resultado 7 se a pessoa não fosse selecionada ele simplesmente
+
+81
+00:09:35,610 --> 00:09:36,510
+não faz nada.
+
+82
+00:09:36,510 --> 00:09:50,220
+Eu posso até colocá la aqui meus dizendo o seguinte pessoa não contrata então vou tentar executar esse
+
+83
+00:09:50,220 --> 00:09:54,380
+código colocar a primeira pessoa diante das pessoa não encontrada.
+
+84
+00:09:54,380 --> 00:09:56,760
+Então não vai fazer absolutamente nada.
+
+85
+00:09:56,820 --> 00:10:04,020
+Se ele encontrar o resultado mas se tiver presente ele cria a pessoa mostro o nome atual da pessoa e
+
+86
+00:10:04,020 --> 00:10:10,170
+aqui começa a pedir o novo nome você informa o novo nome ele fecha os testemunhos do passado e cria
+
+87
+00:10:10,170 --> 00:10:12,330
+um novo para atualização.
+
+88
+00:10:12,360 --> 00:10:21,660
+Cria aqui como de ambiente que pode ser obtida Salete Betti pode ser Selection SQL que ao mudar o nome
+
+89
+00:10:22,360 --> 00:10:25,680
+mas ao mesmo tempo é obediente SQL.
+
+90
+00:10:25,680 --> 00:10:30,260
+Só pra saber que há um comando SQL pronto chamei aqui obediente SQL.
+
+91
+00:10:30,270 --> 00:10:35,670
+CT os dois parâmetros e mandei fazer se tivesse outros parâmetros.
+
+92
+00:10:35,670 --> 00:10:41,100
+Você poderia pegar os outros parâmetros a partir da classe Pessoa uma vez que você fez o slide.
+
+93
+00:10:41,100 --> 00:10:44,070
+Pegou todos os atributos da pessoa e aqui.
+
+94
+00:10:44,070 --> 00:10:47,920
+Logo depois citamos o nome e citamos o código finalmente executamos.
+
+95
+00:10:47,930 --> 00:10:53,830
+OP Deretti e primeiros no final que a pessoa foi alterada com sucesso não deu nenhum erro até aqui não
+
+96
+00:10:53,970 --> 00:10:56,400
+significa que foi executado.
+
+97
+00:10:56,400 --> 00:11:01,990
+OP E algo bem sucedido se ele não encontrar Pessoa no primeiro momento ele já pula aqui.
+
+98
+00:11:02,110 --> 00:11:05,380
+Já Caio não e diz que a pessoa não foi encontrada.
+
+99
+00:11:05,420 --> 00:11:08,660
+E no final fechei a conexão e fechei a entrada.
+
+100
+00:11:08,680 --> 00:11:13,350
+Eu até também poderia fechar o estreitamento logo depois de executar o que já foi feito.
+
+101
+00:11:13,350 --> 00:11:16,670
+Tudo o que precisava ser feito a partir do estético.
+
+102
+00:11:17,100 --> 00:11:19,130
+Então essa é a resposta do nosso desafio.
+
+103
+00:11:19,440 --> 00:11:24,300
+Continuamos na próxima aula nós vamos na próxima aula fazer a exclusão de pessoas.
+
+104
+00:11:24,330 --> 00:11:32,130
+Fizemos a inserção fizemos a consulta fizemos alteração e agora vamos fazer a exclusão de esperma proximal.

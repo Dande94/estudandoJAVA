@@ -1,0 +1,311 @@
+1
+00:00:00,160 --> 00:00:09,580
+Para o pessoal continuando aqui nós vamos criar agora a interface que eu vou chamar aqui interface Make
+
+2
+00:00:09,710 --> 00:00:22,440
+Me More Orbi privado eu vou dizer que essa interface que chamam de interface e essa interface vai ter
+
+3
+00:00:22,440 --> 00:00:31,470
+apenas um único metro que eu vou chamar aqui esse vai de valor alterado e o atributo que eu vou passar
+
+4
+00:00:31,540 --> 00:00:39,450
+comparar me poderia ser um evento mas eu vou passar diretamente um novo valor que é o motivo de eu estar
+
+5
+00:00:39,450 --> 00:00:45,600
+disparando esse método aqui ali sabe que todos os métodos que estão dentro de interface são métodos
+
+6
+00:00:45,600 --> 00:00:46,770
+públicos.
+
+7
+00:00:46,770 --> 00:00:53,340
+Não preciso de forma explícita colocar apesar de poder colocar aqui se quiser o valor público mas temos
+
+8
+00:00:53,340 --> 00:00:56,050
+aqui o nosso memória Observador.
+
+9
+00:00:56,370 --> 00:01:03,630
+Quem é que estará interessado em receber notificações quando a memória modificar o display ou seja o
+
+10
+00:01:03,630 --> 00:01:12,620
+display ele está interessado em implementar esse método aqui ao Memória do o display coloca na máquina
+
+11
+00:01:13,050 --> 00:01:22,770
+enxergar que vou fazer o display que estende e não mais vai implementar memória ao Observador no momento
+
+12
+00:01:22,770 --> 00:01:32,150
+que eu faço isso ele vai ter que colocar o método no caso aqui vai ser similar embora observador de
+
+13
+00:01:32,160 --> 00:01:42,960
+seu balão alterado estão colocando no display faltando memória ao Observador e o espaço ao valor alterado
+
+14
+00:01:42,960 --> 00:01:49,570
+recebe um novo valor barato e uma vez que eu recebo o novo valor como parâmetro o que é que eu vou fazer.
+
+15
+00:01:49,920 --> 00:01:59,490
+Eu vou citar o valor do leigo ou então qualquer leigo muito cético teste pra si vale valor que acabei
+
+16
+00:01:59,490 --> 00:02:00,170
+de receber.
+
+17
+00:02:00,190 --> 00:02:06,030
+Ele sempre que houver uma mudança na memória essa mudança irá modificar quem está interessado que o
+
+18
+00:02:06,030 --> 00:02:11,640
+display e para isso eu preciso criar um método de registrar não basta implementar a interface eu tenho
+
+19
+00:02:11,640 --> 00:02:18,540
+que me registrar dentro da memória e da memória precisa ter um metro que vai registrar todos os observadores.
+
+20
+00:02:18,540 --> 00:02:31,830
+Então vou fazer o seguinte logo depois de o craque único pode adicionar dado que recebeu na memória
+
+21
+00:02:31,990 --> 00:02:34,690
+ao Observador que aqui.
+
+22
+00:02:34,770 --> 00:02:45,310
+Só que eu preciso também criar aqui uma lista verde não vai ser um lixo de memória.
+
+23
+00:02:45,490 --> 00:02:53,440
+Adolpho Bloch de obriga servidores recebe uma nova lista.
+
+24
+00:02:53,440 --> 00:03:01,540
+No caso o que mais distingue esse lixo vai armazenar todos os observadores que foram cadastrados aqui
+
+25
+00:03:01,590 --> 00:03:06,550
+tão observadores adicioná los.
+
+26
+00:03:06,940 --> 00:03:17,570
+Ou então como eu sempre prefiro o coca cola para outros que cabe na tela mais importante que adicionem.
+
+27
+00:03:17,670 --> 00:03:24,870
+Uma vez feito isso sempre que houver uma mudança no texto eu vou querer que ele notifique todos os observadores
+
+28
+00:03:24,970 --> 00:03:26,870
+para ter uma mudança no texto.
+
+29
+00:03:27,020 --> 00:03:33,990
+Eu preciso criar um método que vai processar o novo texto ou processar o novo caractere de Estado então
+
+30
+00:03:33,990 --> 00:03:34,940
+o coloca aqui.
+
+31
+00:03:34,980 --> 00:03:44,040
+Publiquei no blog chamado aqui por exemplo para acessar o comando que vai receber uma estrela que vai
+
+32
+00:03:44,050 --> 00:03:45,980
+seu comando digitado na calculadora.
+
+33
+00:03:45,990 --> 00:03:52,450
+Pode ser um número colocar de forma genérica para se ter um valor digitado então vou processar o comando
+
+34
+00:03:52,450 --> 00:03:58,020
+da calculadora pode ser para digitar um valor numérico pode ser uma soma pode ser para limpar se vários
+
+35
+00:03:58,020 --> 00:04:06,060
+comandos possíveis e uma vez feito isso gerado esse novo valor que eu vou inicialmente fazer um uma
+
+36
+00:04:06,070 --> 00:04:13,200
+coisa mais simples ao texto atual vou simplesmente acrescentar o valor que eu recebi e no final vou
+
+37
+00:04:13,200 --> 00:04:20,850
+notificar todos os observadores estão fazendo aqui observadores pontos floridos para cada observador
+
+38
+00:04:20,920 --> 00:04:28,920
+que eu vou chamar idiota eu vou chamar só então alterar o valor alterado melhor dizendo passando o texto
+
+39
+00:04:28,920 --> 00:04:35,430
+atual que já foi alterado a partir do valor que eu recebi um valor que eu recebi e acrescentei no texto
+
+40
+00:04:35,430 --> 00:04:42,690
+atual o valor na verdade e acrescentei o texto atual no valor se tiver 0 ele vai ser considerado como
+
+41
+00:04:42,710 --> 00:04:46,030
+vazio começa a digitar sem considerar o valor do zero.
+
+42
+00:04:46,030 --> 00:04:52,490
+E aqui eu apagar o texto atual e passar como não vale para cada um dos observadores que estou interessado.
+
+43
+00:04:52,530 --> 00:04:58,590
+Em outras palavras quando você passa um novo comando pra processar ele acrescentou e notificou todos
+
+44
+00:04:58,590 --> 00:05:04,490
+os observadores que o que eles estão programados para fazer que está faltando mais.
+
+45
+00:05:04,560 --> 00:05:10,470
+São duas coisas está faltando para a gente completar o ciclo e dentro do nosso display eu preciso me
+
+46
+00:05:10,470 --> 00:05:13,980
+registrar seja o display está interessado em ser notificado.
+
+47
+00:05:14,070 --> 00:05:16,320
+Então aqui nós temos o processo de registro.
+
+48
+00:05:16,320 --> 00:05:25,600
+Exatamente como faziam o colocar aqui minha memória contou Guedes distanciar que tenho botão Adicionar
+
+49
+00:05:25,780 --> 00:05:31,000
+ao Observador e já que o implemento essa interface não posso fazer deles.
+
+50
+00:05:31,080 --> 00:05:37,530
+Nesse momento o display disse para o observador na índice para a memória que está interessado em ser
+
+51
+00:05:37,530 --> 00:05:41,500
+notificado sempre que o valor modificar modificar o valor.
+
+52
+00:05:41,790 --> 00:05:49,090
+Ele vai chamar e aí sim esse método será chamado você atualiza o leilão do display é a última coisa
+
+53
+00:05:49,090 --> 00:05:55,350
+que está faltando é no teclado sempre que um determinado botão for pressionado em vez de jogar no terminal
+
+54
+00:05:55,800 --> 00:06:00,420
+eu vou fazer o seguinte de memória Ponto 10 mistas.
+
+55
+00:06:00,440 --> 00:06:01,450
+Ponto.
+
+56
+00:06:01,510 --> 00:06:11,470
+Processar comando eu vou passar exatamente o leilão do botão pra ser processado no botão ponto garante
+
+57
+00:06:11,720 --> 00:06:17,020
+taxi ou seja o trecho do botão vai ser exatamente o comando que eu quero passar assim vai ser um aceno
+
+58
+00:06:17,020 --> 00:06:21,910
+ele vai limpar se for eleito ele vai colocar o outro no terminal.
+
+59
+00:06:21,930 --> 00:06:27,720
+Se for um 8 ele vai colocar no display 9 e assim sucessivamente testar para saber se está funcionando
+
+60
+00:06:27,720 --> 00:06:40,320
+nessa parte inicial executando o ou colocar 9 9 8 7 Ah sei colocou Gasset de mais igual ou seja ele
+
+61
+00:06:40,320 --> 00:06:45,370
+está mandando todos os caracteres para o display da nossa calculadora lá na memória.
+
+62
+00:06:45,570 --> 00:06:48,360
+Nós temos o método que vai processar um comando.
+
+63
+00:06:48,420 --> 00:06:54,960
+Um dos métodos que pode se pode tratar é por exemplo se o valor digitado for Massey vai fazer o seguinte
+
+64
+00:06:55,010 --> 00:06:58,210
+se aceita.
+
+65
+00:06:58,650 --> 00:06:59,490
+Ponto.
+
+66
+00:06:59,570 --> 00:07:09,340
+E os bons valores já que a gente não vai receber o valor em letras minúsculas então não precisa se preocupar.
+
+67
+00:07:09,390 --> 00:07:18,510
+Aqui eu poderia fazer por exemplo o valor atual recebe o Brasil novamente caso contrário ele vai processar
+
+68
+00:07:18,960 --> 00:07:22,860
+o texto dessa forma que tal seria uma possibilidade.
+
+69
+00:07:22,870 --> 00:07:27,930
+Aquilo já tem um tratamento especial quando o valor for a série vai limpar memória não vou fazer essa
+
+70
+00:07:27,930 --> 00:07:33,730
+forma aqui mas só para a gente testar essa funcionalidade transitando nós temos aqui.
+
+71
+00:07:34,010 --> 00:07:42,390
+9 8 5,2 3 dá pra colocar mais viva do que não fez nenhum tratamento coloca na nossa pipoca calculadora
+
+72
+00:07:42,760 --> 00:07:48,860
+no que está acontecendo aqui eu limpe a calculadora e eu estou mandando o texto atual que não é interessante.
+
+73
+00:07:49,220 --> 00:07:55,800
+Eu vou matar a calculadora em vez de me mandar o texto atual apagar qualquer texto atual porque ele
+
+74
+00:07:55,800 --> 00:08:02,570
+já faz no garante o tratamento correto pra mandar o valor zerado ou o valor atual se tiver diferente
+
+75
+00:08:02,610 --> 00:08:13,850
+vazio traz à tona mais uma vez o colocar 8 7 4 5 2 2 3 1 melhor dizendo a C limpou e voltou para o zero
+
+76
+00:08:14,220 --> 00:08:19,920
+o que é muito interessante para nós fizemos aqui a nossa segunda parte dado o funcionamento da memória
+
+77
+00:08:19,920 --> 00:08:25,170
+está faltando muitas coisas da lógica em si mas nós já implementamos uma parte importantíssima que é
+
+78
+00:08:25,170 --> 00:08:28,650
+tudo o que a gente digita na calculadora aparece no display.

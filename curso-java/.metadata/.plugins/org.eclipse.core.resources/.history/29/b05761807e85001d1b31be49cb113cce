@@ -1,0 +1,15 @@
+package controle;
+
+public class DesafioFor {
+	public static void main(String[] args) {
+//minha resposta
+		String valor = "#";
+		int ctrl = 5;
+		int i= 1;
+		for(; i <= ctrl ; i++) {
+			System.out.println(valor);
+			valor += "#";
+		}
+//respost professor
+	}
+}

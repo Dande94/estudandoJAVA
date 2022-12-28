@@ -1,0 +1,219 @@
+1
+00:00:00,260 --> 00:00:05,450
+Pessoal na sala o objetivo é cadastrar duas empresas pra que na próxima aula a gente consiga fazer o
+
+2
+00:00:05,450 --> 00:00:06,070
+capim.
+
+3
+00:00:06,150 --> 00:00:12,060
+Vamos usar esse estágio do PAI Plano de agregação locado e que faz com que a gente consiga relacionar
+
+4
+00:00:12,330 --> 00:00:19,440
+trazer a partir da consulta do agregar documentos relacionados a gente vai usar pra relacionar esses
+
+5
+00:00:19,440 --> 00:00:26,190
+documentos ou objetos além de tocar como faz e eu vou cadastrar um empresa no caso do Bradesco e vou
+
+6
+00:00:26,190 --> 00:00:32,070
+relacionar com um objeto do Estado então vou criar um tributo chamado estado a que vai relacionar com
+
+7
+00:00:32,070 --> 00:00:38,550
+o objectivo do Estado e vou criar outra empresa só que em vez de criar o atributo estado aí eu vou criar
+
+8
+00:00:38,550 --> 00:00:40,560
+um atributo cidade.
+
+9
+00:00:41,000 --> 00:00:47,080
+E vou relacionar com uma das cidades do Estado de São Paulo tem lá Campinas Sorocaba a gente escolhe
+
+10
+00:00:47,100 --> 00:00:53,450
+a cidade pega o mesmo objectivo e coloca esse atributo para que a gente possa fazer o relacionamento
+
+11
+00:00:53,610 --> 00:00:59,580
+uma vez que haja esse mesmo objectivo e nesses atributos a gente vai conseguir na próxima aula fazer
+
+12
+00:00:59,580 --> 00:01:05,610
+uma consulta usando o capitão nessa aulas vamos inserir na próxima nós fazemos as consultas que é um
+
+13
+00:01:05,610 --> 00:01:12,030
+tema também importante eu quis abordar isso no nosso capítulo pra começar nós vamos criar um novo arquivo
+
+14
+00:01:12,410 --> 00:01:19,240
+nome do arquivo será chamado inseri empresas ponto TXT nós vamos inseri la no nosso console e depois
+
+15
+00:01:19,400 --> 00:01:25,440
+cópia pra cá cópia na fralda e jogue as mesmas consultas para aquele aqui então lá primeiro eu vou fazer
+
+16
+00:01:25,440 --> 00:01:26,530
+uma consulta.
+
+17
+00:01:26,620 --> 00:01:34,140
+DD conquistados pouco faz pouco pra eu ter tanto acesso ao objeto que já é do Estado com o tamanho da
+
+18
+00:01:34,140 --> 00:01:39,360
+cidade e então vou copiar aqui inclusive com as aspas vou copiar.
+
+19
+00:01:39,360 --> 00:01:45,510
+Como eu disse foram lindos e contra o seu obviamente aqui nós vamos fazer um certo ponto empresas ponto
+
+20
+00:01:45,550 --> 00:01:46,510
+certos.
+
+21
+00:01:46,710 --> 00:01:54,950
+Vou colocar aqui nome e dois pontos Bradesco vou criar um atributo chamado Estado aí dois pontos objetivo
+
+22
+00:01:55,070 --> 00:01:56,500
+ou um com V.
+
+23
+00:01:57,000 --> 00:02:03,840
+E aí vou fechar aqui a objetividade e fechar o objeto e fechar a chamada do insetos.
+
+24
+00:02:03,840 --> 00:02:09,980
+Feito isso eu vou inseri uma vez que foi inserido eu posso colocar aqui DB ponto empresas da tabela
+
+25
+00:02:10,110 --> 00:02:12,440
+completa faixas.
+
+26
+00:02:12,870 --> 00:02:16,500
+Aqui eu posso ficar com o IRI executado.
+
+27
+00:02:16,500 --> 00:02:25,770
+De fato ele inseriu o Bradesco associado no caso aqui com a mesma IDE do Estado que a equipe foi colocada
+
+28
+00:02:26,040 --> 00:02:31,770
+e agora vou inserir um segundo registro nesse caso o pessoal está fazendo a modelagem meio estranho
+
+29
+00:02:31,790 --> 00:02:32,290
+porque porquê.
+
+30
+00:02:32,280 --> 00:02:36,200
+Porque eu quero fazer um relacionamento tanto com o Estado como com a cidade.
+
+31
+00:02:36,590 --> 00:02:42,870
+Provavelmente se tivesse modelando isso na prática seria apenas um dos dois e não um registro associado
+
+32
+00:02:42,870 --> 00:02:46,800
+com o Estado outro com a cidade deixa um pouco mais confuso os dados.
+
+33
+00:02:46,800 --> 00:02:51,270
+Mas como o objetivo é mostrar para o seu capital eu vou criar esse outro.
+
+34
+00:02:51,270 --> 00:02:57,350
+Essa outra empresa então tb poupa empresas em venceria o nome da empresa vai ser Valli.
+
+35
+00:02:57,570 --> 00:03:05,070
+A cidade vai ser um objeto que vai apontar por exemplo para lá de Sorocaba então vou selecionar inclusive
+
+36
+00:03:05,070 --> 00:03:13,860
+com as aspas senão como disse aqui o tal como V é complementar aqui no caso a exceção dessa cidade dessa
+
+37
+00:03:13,890 --> 00:03:17,290
+empresa melhor dizendo inseri seu ataque à consulta.
+
+38
+00:03:17,290 --> 00:03:23,420
+Ou será que eu tenho duas empresas até um empresa que está relacionada com o Estado a partir do Object
+
+39
+00:03:23,430 --> 00:03:30,120
+Jardim do Estado de São Paulo e nós temos outra empresa que está relacionado com a cidade a partir do
+
+40
+00:03:30,120 --> 00:03:33,560
+Object jardim da cidade de Sorocaba.
+
+41
+00:03:33,570 --> 00:03:44,550
+Como nós temos apenas um único Estado o Estado de São Paulo fazer consulta então DD estados falho por
+
+42
+00:03:44,550 --> 00:03:49,890
+isso nós temos apenas o Estado de São Paulo pra não ficar apenas o único estado a gente fazê o capital
+
+43
+00:03:50,130 --> 00:03:55,860
+com uma tabela que tem um único estado e eventualmente se tiver errado o CAP pode vir somente a esse
+
+44
+00:03:55,860 --> 00:03:57,670
+estado e parece que é certo.
+
+45
+00:03:57,710 --> 00:03:59,920
+Vou fazer o seguinte vou cadastrar aqui.
+
+46
+00:03:59,990 --> 00:04:05,170
+Vou pegar aqui inserir dados do Estado nós temos a inserção do Estado do Rio de Janeiro.
+
+47
+00:04:05,280 --> 00:04:07,880
+Eu vou inserir novamente o Estado do Rio de Janeiro.
+
+48
+00:04:07,990 --> 00:04:09,230
+Vou fazer um pequeno ajuste.
+
+49
+00:04:09,240 --> 00:04:21,010
+Vou fazer o seguinte vou colocar aqui Aydin objetos em vigor e vou inserir o estado do Rio de Janeiro
+
+50
+00:04:21,010 --> 00:04:26,860
+para não ficar apenas um único estado e eventualmente mascarar algum tipo de erro no nosso capitão.
+
+51
+00:04:26,860 --> 00:04:29,850
+Vou colocar aqui pra inseri o estado do Rio.
+
+52
+00:04:30,010 --> 00:04:35,740
+Vou dar aqui uma consulta novamente agora nós temos o Estado de São Paulo e temos o Estado do Rio de
+
+53
+00:04:35,740 --> 00:04:40,210
+Janeiro inclusive com a cidade de Niterói com o seu jardim com sua área.
+
+54
+00:04:40,260 --> 00:04:45,940
+Certo Então temos dois estados temos as duas empresas na praia os malandros fazem o capim pra fazer
+
+55
+00:04:45,940 --> 00:04:50,750
+uma consulta agregada trazendo documentos relacionados e até aproximá lo.

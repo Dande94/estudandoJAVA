@@ -1,0 +1,311 @@
+1
+00:00:00,200 --> 00:00:06,560
+Por isso agora nós vamos fazer um outro exemplo com o switching também agora sim usá lo usado o EI que
+
+2
+00:00:06,570 --> 00:00:08,180
+na verdade em passado a gente não usou.
+
+3
+00:00:08,180 --> 00:00:11,430
+Agora nós vamos usá lo por aí então para isso vou criar um nova classe.
+
+4
+00:00:12,060 --> 00:00:21,480
+O nome da classe será Suit conclui que a forma mais mais recorrente que você vai usar o Switch serve
+
+5
+00:00:21,510 --> 00:00:25,710
+então para isso eu vou criar aqui um metro no meio nós vamos fazer mais ou menos parecido com o que
+
+6
+00:00:25,710 --> 00:00:33,330
+a gente tinha feito anteriormente eu vou converter nota para conceito então vou criar um estilo chamado
+
+7
+00:00:33,480 --> 00:00:40,590
+conceito que vai ser um estilingue vazia e vou criar uma variável inteira certo.
+
+8
+00:00:40,810 --> 00:00:48,510
+Nota você pode até criar por exemplo variável W e depois fazer um arredondamento pra poder você ter
+
+9
+00:00:48,510 --> 00:00:49,880
+a nota arredondada certo.
+
+10
+00:00:49,890 --> 00:00:55,130
+Então pega a nota vou colocar um valor fixo aqui serve para a gente focar especificamente no sul mas
+
+11
+00:00:55,140 --> 00:00:59,010
+você pode usar por exemplo um scanner pra pegar isso.
+
+12
+00:00:59,070 --> 00:01:03,180
+Pode até mudar isso no final do set estão usando aqui o switch.
+
+13
+00:01:03,500 --> 00:01:09,630
+Então sua ID passando como parâmetro nota aqui dentro mas eu mostrei os keys então Keys.
+
+14
+00:01:09,960 --> 00:01:11,850
+A nota foi igual a 10.
+
+15
+00:01:11,850 --> 00:01:19,110
+Você vai pegar por exemplo e pegar um conceito recebe o valor a ponto e vírgula para finalizar a sentença
+
+16
+00:01:19,110 --> 00:01:26,420
+de e coloca o que eu quero que uma vez que ele aceitou o conceito ah eu quero que ele saia para exibir
+
+17
+00:01:26,420 --> 00:01:36,270
+aqui no final estão colocando system on line colocar aquele conceito e vou concatenar com a variável
+
+18
+00:01:36,480 --> 00:01:41,950
+conceito então maximizar a tela executando esse exemplo bem simples.
+
+19
+00:01:41,970 --> 00:01:44,750
+Ele não perguntou nada eu vou usar aqui.
+
+20
+00:01:45,330 --> 00:01:53,380
+Colocar na entrada pagar os impostos e vou colocar aqui embaixo.
+
+21
+00:01:53,710 --> 00:02:04,220
+O nosso Klaus para ele fechar e vou pedir pra ele pagar aquilo o próximo ano estão entrada na net e
+
+22
+00:02:04,330 --> 00:02:08,310
+vou tirar esses espaços em branco aquilo que não faz muito sentido.
+
+23
+00:02:09,210 --> 00:02:21,040
+Nesse caso antes de chegar aqui anota eu vou colocar aqui System print mostrando conforme anota.
+
+24
+00:02:21,080 --> 00:02:21,530
+Pronto.
+
+25
+00:02:21,920 --> 00:02:28,740
+Então nesse caso eu vou esperar o valor inteiro na Itália e acertava nosso código informa a nota coloca
+
+26
+00:02:28,770 --> 00:02:31,310
+a nota 10.
+
+27
+00:02:31,530 --> 00:02:36,020
+Ele entrou no conceito conceito e tal deu certo.
+
+28
+00:02:36,030 --> 00:02:44,040
+Primeiro que se eu quiser gerar aqui um case em 9 por exemplo 9 também tem um conceito a coloco conceito
+
+29
+00:02:44,370 --> 00:02:46,940
+recebe o valor a vírgula.
+
+30
+00:02:47,040 --> 00:02:50,680
+Vou encontrar aqui um blog e ele vai sair do nosso colo.
+
+31
+00:02:50,690 --> 00:02:54,480
+Então basta ele entrar em um deles que vai definir a variável conceito.
+
+32
+00:02:54,480 --> 00:03:02,970
+No final mostro o resultado mais uma vez e vou colocar nota 9 em conceito a executar uma nota 10 conceituar
+
+33
+00:03:02,990 --> 00:03:08,190
+a nota 8 por enquanto o conceito é nada porque eu não sei o valor da variável.
+
+34
+00:03:08,700 --> 00:03:13,480
+Nesse caso vocês percebem que os dois blocos fazem exatamente a mesma coisa.
+
+35
+00:03:13,490 --> 00:03:22,590
+Porquê o conceito A está sendo acertado no caso 10 como no caso 9 eu posso pagar aqui o que dizem 10
+
+36
+00:03:22,770 --> 00:03:28,080
+15 9 colocar associado no mesmo e no mesmo bloco digamos assim.
+
+37
+00:03:28,230 --> 00:03:33,440
+Eu não preciso replicar exatamente o mesmo código de mais de um cenário que eu não posso colocar aqueles
+
+38
+00:03:33,450 --> 00:03:41,850
+10 15 9 em Java não permite definir o intervalo e o quero fazer do quese 10 até o 5 para fazer alguma
+
+39
+00:03:41,850 --> 00:03:42,880
+coisa não não dá.
+
+40
+00:03:42,890 --> 00:03:46,510
+Se tem coca 10 9 8 colocar todos os valores.
+
+41
+00:03:46,830 --> 00:03:53,520
+Nesse caso o que eu vou querer querer criar um outro 3 aqui embaixo que vai ser o quesito 8 eu também
+
+42
+00:03:53,520 --> 00:03:57,480
+não posso ter duplicado certo 8 7.
+
+43
+00:03:57,480 --> 00:04:06,860
+Isso aqui vai ser o conceito B Vou duplicar esse código aqui pra baixo e aí vou ter o 13 6 3 e 5 pra
+
+44
+00:04:06,890 --> 00:04:19,620
+sei o conceito ser duplicado novamente o teu 4 e o 3 pra c d e finalmente posso colocar aqui um default
+
+45
+00:04:19,980 --> 00:04:29,010
+ou mesmo definir o default pra seu caso inválido e colocá la conceito e eu colocar aqui o conceito
+
+46
+00:04:31,740 --> 00:04:50,430
+não é formado e aqui eu posso ter um caso por exemplo 2 o que é o 3 0 ou seja 3 vezes 7 aqui o valor
+
+47
+00:04:51,200 --> 00:04:56,370
+e aqui você tem seleção múltipla usando o switch da mesma forma que a gente fez lá os conceitos só que
+
+48
+00:04:56,370 --> 00:05:02,350
+usando wi fi no caso especificamente o conceito é usar o Web porque você tem uma flexibilidade muito
+
+49
+00:05:02,350 --> 00:05:08,030
+maior na sua idade quando você vai decidir se vai executar determinados blocos de código.
+
+50
+00:05:08,200 --> 00:05:12,950
+Aqui eu também posso definir um bloco de código por exemplo aqui no meio Zap.
+
+51
+00:05:13,260 --> 00:05:16,630
+O caso de 8 Q7 posso colocar um bloco de código aqui.
+
+52
+00:05:16,660 --> 00:05:21,830
+Embora não seja obrigado a definir um bloco de código posso colocar múltiplas linhas no conceito não
+
+53
+00:05:21,940 --> 00:05:24,410
+sei a outra sentença de código.
+
+54
+00:05:24,410 --> 00:05:31,830
+Posso colocar quantas eu quiser e eu posso aplicar várias vezes associado ao mesmo bloco ou mesmo bloco
+
+55
+00:05:31,840 --> 00:05:35,660
+não necessariamente o bloco mais um conjunto de sentenças de código.
+
+56
+00:05:35,710 --> 00:05:39,660
+Você pode colocar os keys um do lado ou outro assim na mesma linha.
+
+57
+00:05:39,660 --> 00:05:48,970
+Como você pode também colocar assim 6 15 5 3 e 4 estrelas por exemplo ou embaixo do outro.
+
+58
+00:05:48,970 --> 00:05:54,990
+No final todos esses meses é esse mesmo bloco aqui salvando e.
+
+59
+00:05:55,480 --> 00:06:03,820
+No caso informa a nota do informar que a nota 11 é executada ao conceito não informado ou não encontrado
+
+60
+00:06:04,400 --> 00:06:12,910
+encontrado exatamente no bloco a que a nota 10 se conceituar executando 1 9
+
+61
+00:06:15,490 --> 00:06:21,160
+8 6 7 com o valor 3.
+
+62
+00:06:21,550 --> 00:06:28,000
+2 conceito e finalmente qualquer valor que não foi encontrado menos um conceito não informado.
+
+63
+00:06:28,000 --> 00:06:36,010
+Note que como todos os keys associado a todos os gays significa que ele é apenas um e jamais saí para
+
+64
+00:06:36,070 --> 00:06:42,280
+o final mostrando aqui ao System que o conceito é alguma coisa então nesse caso ele executa apenas um
+
+65
+00:06:42,280 --> 00:06:50,260
+seja o caso dos números ou no caso do default eu posso colocar também um que associar o overflow embora
+
+66
+00:06:50,350 --> 00:06:57,060
+o último caso fosse o último não vai fazer diferença ter um valor ou não mas você pode ver o Defour
+
+67
+00:06:57,070 --> 00:07:00,000
+para qualquer posição sem problema nenhum certo.
+
+68
+00:07:00,000 --> 00:07:09,160
+Então se eu colocar um valor não encontraram por exemplo 11 o conceito não encontrado deu certo vai
+
+69
+00:07:09,160 --> 00:07:09,790
+funcionar.
+
+70
+00:07:09,790 --> 00:07:14,250
+Os outros casos também não necessariamente precisam estar na última posição.
+
+71
+00:07:14,310 --> 00:07:20,440
+Fato é que executa apenas o mais por padrão você acaba colocando o default na última posição e nesse
+
+72
+00:07:20,440 --> 00:07:26,170
+caso o uso do que é opcional já está no último mesmo então dali ele já vai obrigatoriamente sair do
+
+73
+00:07:26,170 --> 00:07:26,690
+site.
+
+74
+00:07:26,700 --> 00:07:32,560
+Espero que tenha ficado claro esse exemplo aqui d'el rei que a suíte que comprei aqui e nao passar a
+
+75
+00:07:32,560 --> 00:07:38,350
+gente fez o suíte sem o Black que é um cenário menos como o mais comum você usa o break para executar
+
+76
+00:07:38,350 --> 00:07:39,970
+apenas um único bloco e sai.
+
+77
+00:07:40,270 --> 00:07:45,640
+Eu mostrei pra vocês que tem a possibilidade de você agrupar múltiplos casos em um único bloco.
+
+78
+00:07:45,880 --> 00:07:46,720
+Então até a próxima.

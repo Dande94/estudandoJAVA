@@ -1,0 +1,567 @@
+1
+00:00:00,210 --> 00:00:05,130
+Pessoal penso que a gente passou pela parte mais chata do processo agora a gente vai entrar de fato
+
+2
+00:00:05,130 --> 00:00:06,390
+no código.
+
+3
+00:00:06,720 --> 00:00:14,150
+Eu não vou ainda testar essa aula mas nós vamos criar o nosso primeiro modelo de um modelo ou entidades
+
+4
+00:00:14,160 --> 00:00:16,790
+são nomenclaturas que você precisa conhecer.
+
+5
+00:00:16,840 --> 00:00:23,580
+Eu ficava falando de modelo é muito comum a partir de um padrão chamado MVC Model vi o controle e o
+
+6
+00:00:23,580 --> 00:00:24,440
+modelo.
+
+7
+00:00:24,540 --> 00:00:30,810
+Ele pode ser visto como digamos assim a parte da sua aplicação que está completamente voltada para o
+
+8
+00:00:30,810 --> 00:00:38,360
+negócio da aplicação o modelo pode conter dentro dele as regras da sua aplicação as regras de validação
+
+9
+00:00:38,370 --> 00:00:43,770
+por exemplo o usuário pode fazer isso não pode o usuário pra ele inserir determinados dados no banco
+
+10
+00:00:43,770 --> 00:00:48,680
+de dados os dados precisam estar com essa característica a data não pode ser no futuro.
+
+11
+00:00:48,810 --> 00:00:53,860
+Essa data tem que ser obrigatoriamente menor do que essa data e esse dado é um dado obrigatório estudar
+
+12
+00:00:53,930 --> 00:00:58,720
+é opcional mas esse dado passa a ser obrigatório se esse é outro dado que foi informado.
+
+13
+00:00:58,720 --> 00:01:06,120
+Então todas essas regras fazem parte do modelo da sua aplicação dentro do modelo tem um conjunto de
+
+14
+00:01:06,120 --> 00:01:09,230
+informações digamos assim que apresentam os dados.
+
+15
+00:01:09,240 --> 00:01:16,020
+Ele foi chamado também de modelo ou muito comumente chamado de entidade assim como o termo a entidade
+
+16
+00:01:16,020 --> 00:01:21,450
+no banco de dados que é a tabela não é um modelo entidade relacionamento como a gente olha para a nossa
+
+17
+00:01:21,450 --> 00:01:29,190
+aplicação a entidade é digamos assim aquela classe que tem um mapeamento que tem uma relação com o banco
+
+18
+00:01:29,190 --> 00:01:32,310
+de dados ou seja que está mapeada para um banco de dados.
+
+19
+00:01:32,310 --> 00:01:33,720
+Isso a gente chama de entidade.
+
+20
+00:01:33,720 --> 00:01:39,360
+Então se eu tenho no meu banco de dados uma tabela chamada produto muito provavelmente eu vou ter na
+
+21
+00:01:39,360 --> 00:01:44,220
+minha aplicação entidades sejam uma classe cujo nome será produto.
+
+22
+00:01:44,220 --> 00:01:50,440
+Se eu tenho por exemplo uma tabela chamada pedido e tenho uma outra tabela que está relacionada aos
+
+23
+00:01:50,550 --> 00:01:52,100
+itens do pedido.
+
+24
+00:01:52,230 --> 00:01:55,440
+No relacionamento pedido tem vários itens.
+
+25
+00:01:55,440 --> 00:02:02,130
+Eu também provavelmente vou ter no meu sistema uma classe chamada pedido que tem dentro dela uma lista
+
+26
+00:02:02,430 --> 00:02:05,580
+de pedidos item onde item de pedido.
+
+27
+00:02:05,590 --> 00:02:11,490
+E essas duas classes também serão entidades ou seja estarão mapeadas por banco de dados e nós vamos
+
+28
+00:02:11,490 --> 00:02:17,490
+criar a nossa primeira entidade e para isso eu vou criar aqui um pacote em que eu vou chamar o pacote
+
+29
+00:02:17,490 --> 00:02:24,840
+de modelo e vou criar um pacote chamado base que dentro desse pacote eu vou criar duas entidades ou
+
+30
+00:02:24,840 --> 00:02:29,220
+seja duas classes que eu vou trabalhar com essa parte mais básica do JP.
+
+31
+00:02:29,670 --> 00:02:34,920
+A primeira entidade que nós vamos criar é o nosso papel nessa classe é apenas criar essa classe e na
+
+32
+00:02:34,920 --> 00:02:39,410
+próxima que nós vamos testar o nome da classe vai ser o usuário.
+
+33
+00:02:39,420 --> 00:02:44,610
+Nada mais natural do que ter aqui uma classe usuário para a gente estar está todo mundo conhece o conceito
+
+34
+00:02:44,610 --> 00:02:45,320
+de usuário.
+
+35
+00:02:45,840 --> 00:02:53,430
+Basicamente o que eu vou fazer vai ser o seguinte eu vou criar uma classe normal e não nessa filosofia
+
+36
+00:02:53,430 --> 00:02:58,100
+do Java é muito comum você tem uma classe e atributos privados e métodos GET set.
+
+37
+00:02:58,500 --> 00:03:05,230
+Eu vou criar aqui um atributo Long que vai apresentar o pedido do usuário e vou criar mais dois atributos
+
+38
+00:03:05,250 --> 00:03:08,570
+um atributo string que vai apresentar o nome do usuário.
+
+39
+00:03:08,670 --> 00:03:13,690
+Eu vou criar um outro atributo string que vai apresentá lo e meio do usuário.
+
+40
+00:03:13,770 --> 00:03:19,380
+Lá está faltando 100 está faltando e outras informações que eventualmente o usuário vai ter mas por
+
+41
+00:03:19,380 --> 00:03:25,950
+enquanto acho que essas três informações serão suficientes para a gente persistir os dados aqui no banco
+
+42
+00:03:25,950 --> 00:03:32,050
+de dados a minha ideia aqui nesse projeto exercícios JP não é criar um sistema do zero.
+
+43
+00:03:32,130 --> 00:03:38,040
+Por isso eu não estou preocupado muito em entidades que sejam realmente iguais a entidades é um sistema
+
+44
+00:03:38,040 --> 00:03:44,250
+real todo preocupado agora em mostrar para vocês os conceitos do Tata map e mostrar para vocês como
+
+45
+00:03:44,250 --> 00:03:48,040
+é feito o CRM e mostrar pra vocês como funciona o JP.
+
+46
+00:03:48,290 --> 00:03:50,670
+Então por isso a gente vai focar em entidades mais simples.
+
+47
+00:03:50,670 --> 00:03:56,400
+Depois a gente vai ter o outro momento o curso que a gente vai realmente usar para a prática pra System
+
+48
+00:03:56,400 --> 00:03:58,660
+um sistema não é um projeto mais realista.
+
+49
+00:03:58,670 --> 00:04:03,210
+Então eu queria que os meus três atributos posso criar o construtor padrão.
+
+50
+00:04:03,210 --> 00:04:10,770
+Na verdade devo criar o custo padrão é importante vou colocar aqui um outro construtor que vai receber
+
+51
+00:04:10,920 --> 00:04:14,080
+a verdade e o construtor coloca aqui.
+
+52
+00:04:14,220 --> 00:04:20,280
+Como no meu caso o pobre assim no caso de vocês provavelmente vai ser contra Walt.
+
+53
+00:04:20,320 --> 00:04:24,800
+E assim eu vou selecionar aqui construtor e uso em filmes.
+
+54
+00:04:25,050 --> 00:04:32,070
+Vou desmarcar apenas Wade e vou gerar um custo com nome e meio já que o high end vai ser gerado automaticamente
+
+55
+00:04:32,070 --> 00:04:33,770
+quando você for construir um objeto.
+
+56
+00:04:33,770 --> 00:04:39,580
+Você já tiver os dados você realmente não vai precisar do eu até poderia criar um terceiro construtor
+
+57
+00:04:39,580 --> 00:04:44,850
+que eu recebo aí mas como acho que eu não vou usar ele por chicote da moda achar apenas esses dois consultores.
+
+58
+00:04:44,880 --> 00:04:51,780
+E depois disso também vou selecionar o comando de ALT S ou o controle de gs pra selecionar aqueles betas
+
+59
+00:04:51,870 --> 00:04:58,660
+em setas ou selecionar que os três e meio aí de nome ele vai gerar para a gente.
+
+60
+00:04:58,980 --> 00:05:01,270
+Os metros pronto.
+
+61
+00:05:01,270 --> 00:05:08,100
+Aqui nesse momento nada de diferente do que a gente viu até então poderia usar essa classe instancia
+
+62
+00:05:08,110 --> 00:05:15,640
+essa classe agora a gente vai entrar em aspectos específicos do JP a que a gente vai precisar aplicar
+
+63
+00:05:15,650 --> 00:05:20,200
+o pó e Rene o mapeamento objeto relacional certo.
+
+64
+00:05:20,200 --> 00:05:28,360
+Existem algumas questões que são digamos assim acontecem de forma automática né que são configuradas
+
+65
+00:05:28,360 --> 00:05:33,830
+a partir de convenções daquela Convenção acho que já comentei isso com vocês em poucas alas atrás.
+
+66
+00:05:33,910 --> 00:05:38,000
+é exatamente o fato de ter um padrão quando você não diz nada.
+
+67
+00:05:38,000 --> 00:05:43,630
+O padrão é assumido então algumas convenções são importantes e eu já deixei claro pra vocês aqui.
+
+68
+00:05:43,810 --> 00:05:51,030
+Existem pelo menos duas anotações que a gente precisa colocar dentro da dos nossos objetos aqui que
+
+69
+00:05:51,040 --> 00:05:55,430
+são entidades uma anotação e anotação a roupa íntima.
+
+70
+00:05:55,930 --> 00:06:03,490
+Então sempre eu vou procurar uso em potes de anotei eixo e também na maioria dos casos não se importe
+
+71
+00:06:03,490 --> 00:06:09,940
+em cima de Java x ponto persiste se na verdade de todos os impostos em que Balzac aparece em cima de
+
+72
+00:06:09,940 --> 00:06:16,900
+Java x ponto persistentes ou seja se eu tiver usando Java x ponto persistência e eu quiser trocar o
+
+73
+00:06:16,900 --> 00:06:20,870
+hibernar checar a implementação e trocar pela linha.
+
+74
+00:06:21,310 --> 00:06:26,980
+A teoria diz que vai ser mais fácil você trocar porque você está lidando não diretamente com a internet
+
+75
+00:06:26,980 --> 00:06:31,490
+e não diretamente com a mim e sim com a interface do JP.
+
+76
+00:06:31,540 --> 00:06:34,450
+Como os dois implementam a mesma interface.
+
+77
+00:06:34,450 --> 00:06:39,820
+Em teoria pra você migrar não estou gostando de Barney está muito lenta eu quero trocar e colocar aquele
+
+78
+00:06:40,030 --> 00:06:40,480
+link.
+
+79
+00:06:40,780 --> 00:06:44,150
+Então você pode fazer essa troca na prática não é tão simples assim.
+
+80
+00:06:44,150 --> 00:06:52,450
+Eu já tive alguns cenários e passar pelo processo de migração em grandes sistemas vai migrando de eu
+
+81
+00:06:52,450 --> 00:06:59,230
+não lembro se foi de e se eu acho que foi porque ele foi acho que ele faço pela hora com o Irã mais
+
+82
+00:06:59,230 --> 00:07:04,720
+rápido em bandos ora com alguma coisa do tipo e o processo foi bem traumático pra trocar de um pro outro
+
+83
+00:07:04,720 --> 00:07:13,630
+por mais que boa parte dos impostos fosse o mesmo implementação acaba gerando também um impacto no desempenho
+
+84
+00:07:13,630 --> 00:07:16,220
+na forma como você interage mais beleza estão lá.
+
+85
+00:07:16,330 --> 00:07:23,450
+Coloquei aqui o arroba tinha então a primeira anotação estou dizendo que essa classe é o usuário.
+
+86
+00:07:23,500 --> 00:07:29,620
+Ela é uma entidade está mapeada para uma entidade no banco de dados local e a tabela do banco de dados
+
+87
+00:07:29,620 --> 00:07:32,660
+que é essa que essa classe vai está mapeada.
+
+88
+00:07:32,680 --> 00:07:40,090
+Nesse caso ele vai usar essa convenção a conversar com o nome da tabela do banco de dados vai ser exatamente
+
+89
+00:07:40,090 --> 00:07:41,690
+o mesmo nome da classe.
+
+90
+00:07:42,000 --> 00:07:47,800
+Só não importa na questão da letra maiúscula vai ser exatamente o mesmo nome e aí se você colocar o
+
+91
+00:07:47,800 --> 00:07:51,100
+cursor do mouse em cima ele vai dizer pra você o seguinte.
+
+92
+00:07:51,640 --> 00:07:59,230
+A entidade não tem uma chave primária você precisa escolher algum dos atributos aqui para colocar esse
+
+93
+00:07:59,230 --> 00:08:01,030
+atributo como a chave primária.
+
+94
+00:08:01,360 --> 00:08:06,080
+Eu poderia colocar em qualquer atributo poderia colocar a chave primária é o nome.
+
+95
+00:08:06,130 --> 00:08:11,440
+Se eu quisesse fazer isso eu coloco a arroba em cima do nome obviamente.
+
+96
+00:08:11,860 --> 00:08:17,500
+Mas como não vai ser o nome vai ser o dia em que eu coloquei ele em cima e então vou mover o robô pra
+
+97
+00:08:17,740 --> 00:08:24,790
+cima do atributo do tipo long que ela indica que foi feito pra isso e pra ser a chave primária do usuário
+
+98
+00:08:24,990 --> 00:08:25,360
+ok.
+
+99
+00:08:25,570 --> 00:08:30,720
+Essas são as duas no trecho que obrigatoriamente toda a entidade precisa ter.
+
+100
+00:08:30,880 --> 00:08:38,130
+A última coisa que eu preciso agora é referenciar essa classe então vou lá no meu persistem esse XML
+
+101
+00:08:38,610 --> 00:08:45,400
+dou aqui um ponto no espaço a primeira tag vai ser Class e aqui eu vou colocar o modelo ponto básico
+
+102
+00:08:45,470 --> 00:08:49,010
+do ponto usuario ou seja o nome completo da classe.
+
+103
+00:08:49,030 --> 00:08:54,840
+Eu preciso colocar aqui uma vez fazendo isso você vai ver que não vai ter mais nenhum erro na minha
+
+104
+00:08:54,840 --> 00:09:01,270
+entidade ou seja essa entidade agora já faz parte daquela unidade de persistência de tal forma que eu
+
+105
+00:09:01,270 --> 00:09:05,450
+consigo agora pegar essa informação e mandar pro banco de dados.
+
+106
+00:09:05,470 --> 00:09:10,930
+Isso vai ser feito na próxima aula mas só visitando vota no que leu mais.
+
+107
+00:09:10,930 --> 00:09:17,750
+Será que isso aqui vai gerar uma coluna vai por padrão qualquer atributo que pertence a uma classe.
+
+108
+00:09:17,800 --> 00:09:23,320
+Ele vai estar mapeado para uma coluna do banco de dados ali mas qual vai ser o tipo da coluna vai depender
+
+109
+00:09:23,320 --> 00:09:29,500
+do tipo de atributo que você tem no caso um estilingue vai gerar um baixar a mais esse atributo vai
+
+110
+00:09:29,500 --> 00:09:32,270
+ser obrigatório e vai ser opcional.
+
+111
+00:09:32,380 --> 00:09:38,380
+Por padrão ele vai ser opcional acho que eu tenho quase certeza disso e o tamanho vai ser 255.
+
+112
+00:09:38,380 --> 00:09:41,390
+Fato é que ele vai usar um padrão.
+
+113
+00:09:41,500 --> 00:09:47,020
+Ele vai quando você não informa nada ele vai colocar esse padrão Ai se eu quiser mudar esse padrão eu
+
+114
+00:09:47,020 --> 00:09:53,190
+vou mostrar em outro exemplo mas só para adiantar rapidamente você coloca que rouba cola.
+
+115
+00:09:53,590 --> 00:10:01,070
+No caso no singular e aí você coloca que uma série de atributos por exemplo qual o nome da colônia ou
+
+116
+00:10:01,120 --> 00:10:06,600
+metal a coluna no GLOBO ou seja aceita nulo ou não.
+
+117
+00:10:06,670 --> 00:10:08,700
+Ela não aceita tudo falso.
+
+118
+00:10:08,710 --> 00:10:15,400
+Você vai pra encher as informações de tal forma que você vai dizer exatamente como essa coluna precisa
+
+119
+00:10:15,760 --> 00:10:17,140
+agir dentro do banco de dados.
+
+120
+00:10:17,140 --> 00:10:20,940
+Quando você não coloca nada significa que ele elevação de alguns valores padrão.
+
+121
+00:10:20,980 --> 00:10:26,530
+Você pode apertar a beleza dela mas se eu tiver um atributo que eu não quero que ele vá para o banco
+
+122
+00:10:26,530 --> 00:10:33,230
+de dados aí você vai usar a anotação chamada arroba transitivo certo arroba trazem.
+
+123
+00:10:33,250 --> 00:10:34,780
+Tem duas certo cuidado.
+
+124
+00:10:34,780 --> 00:10:41,160
+Tem um arroba transite de Java e X conto persistência e tem uma arroba trazia Java puro bis.
+
+125
+00:10:41,440 --> 00:10:45,100
+Então já fica claro que é em cima de Java x ponto persistente.
+
+126
+00:10:45,130 --> 00:10:52,330
+Quando você fizer isso ou seja esse atributo é um atributo transeunte e ele não será mapeado o banco
+
+127
+00:10:52,330 --> 00:10:52,910
+de dados.
+
+128
+00:10:52,910 --> 00:10:58,600
+Então essa é a forma que você tem pra criar um atributo que não tenha uma correspondência com o atributo
+
+129
+00:10:58,600 --> 00:11:04,630
+do banco de dados se é muito comum quando você tem um atributo calculado um pouco você tem o preço de
+
+130
+00:11:04,630 --> 00:11:09,810
+um produto você tem um desconto e você tem um atributo chamado preço com desconto e você até marcar
+
+131
+00:11:09,820 --> 00:11:14,380
+esse atributo pra não é quantidade você coloca lá o roubo a transeunte.
+
+132
+00:11:14,380 --> 00:11:21,870
+No meu caso todos os três vão pro banco de dados então essa é a entidade final que nós vamos construir
+
+133
+00:11:21,880 --> 00:11:25,980
+duas adaptações obrigatórias arrogante e a roubar.
+
+134
+00:11:26,410 --> 00:11:28,920
+E não persiste esse ponto XML.
+
+135
+00:11:28,930 --> 00:11:35,710
+Adicione aqui uma classe referenciando o pacote NET o modelo ponto básico o nome da classe usuário.
+
+136
+00:11:35,710 --> 00:11:41,200
+Feito isso salvando tudo a nossa classe o usuário passou a não mostrar mais nenhum erro na próxima.
+
+137
+00:11:41,260 --> 00:11:47,020
+Vamos criar uma classe para testar numa classe de taxa de onde mais uma classe com um metro no meio
+
+138
+00:11:47,030 --> 00:11:48,710
+para que a gente possa ter esse chip.
+
+139
+00:11:49,020 --> 00:11:53,770
+O usuário do banco de dados mesmo não tem uma tabela no banco de dados vocês vão ver que a tabela vai
+
+140
+00:11:53,770 --> 00:12:00,150
+ser criada automaticamente por conta da configuração que nós definimos aqui no nosso persiste esse ponto
+
+141
+00:12:00,170 --> 00:12:06,520
+XML que é exatamente essa configuração aqui talvez não seja proximal para a gente testar a inserção
+
+142
+00:12:06,640 --> 00:12:09,490
+do usuário usando o JP a e até lá.

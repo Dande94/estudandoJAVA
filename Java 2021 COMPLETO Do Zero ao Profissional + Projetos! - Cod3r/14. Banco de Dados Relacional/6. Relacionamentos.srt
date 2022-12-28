@@ -1,0 +1,963 @@
+1
+00:00:00,600 --> 00:00:05,570
+Pessoal mostrar pra vocês agora a mecânica dos relacionamentos dentro do banco de dados está trabalhando
+
+2
+00:00:05,570 --> 00:00:14,810
+com o modelo entidade relacionamento ou seja as duas partes importante a entidade que a própria tabela
+
+3
+00:00:15,240 --> 00:00:17,390
+e o relacionamento que nós vamos trabalhar agora.
+
+4
+00:00:17,540 --> 00:00:25,640
+Imagine que você tenha uma tabela e uma tabela de manhã e uma tabela de filho então você tem aqui uma
+
+5
+00:00:25,640 --> 00:00:26,540
+tabela.
+
+6
+00:00:26,920 --> 00:00:35,920
+Eu vou colocar aqui duas colunas que vai ser o Audi o colo da mãe e o nome é a mesma coisa que na tabela
+
+7
+00:00:35,920 --> 00:00:45,620
+de filho vai ter um código e vai ter aqui o nome então tabela colocado aqui estão duas tabelas então
+
+8
+00:00:45,620 --> 00:00:56,260
+vou ter que a de código de código dois a de código 3 estão aqui vai ser a Bia e a Carla
+
+9
+00:00:59,060 --> 00:01:03,890
+e aqui vai ter um fio de código que vai seu João.
+
+10
+00:01:04,160 --> 00:01:07,620
+2 o Gui.
+
+11
+00:01:07,660 --> 00:01:18,090
+3 A Júlia beleza pergunta como é que eu posso relacionar essa tabela dizer por exemplo que o Amauri
+
+12
+00:01:18,390 --> 00:01:19,190
+tem vários frisou.
+
+13
+00:01:19,190 --> 00:01:26,770
+Vou só pagar aqui e se o Joaquim deixar duas mães e vou dizer por exemplo que a Ana é mãe então vou
+
+14
+00:01:26,790 --> 00:01:37,840
+colocar logo certinhas aqui dizendo que a Ana é mãe do João e a Ana Júlia e a Bia a mãe do Gui então
+
+15
+00:01:37,840 --> 00:01:41,980
+essas são as relações que eu vou querer fazer nesse exemplo aqui que nós estamos trabalhando.
+
+16
+00:01:41,980 --> 00:01:48,460
+Perguntei Como é que eu posso relacionar essas duas tabelas que elas foram essas tabelas a partir da
+
+17
+00:01:48,460 --> 00:01:52,260
+chave primária a chave primária da mão e vai ser exatamente esse código aqui.
+
+18
+00:01:52,600 --> 00:01:54,040
+Então essa é a chave primária.
+
+19
+00:01:54,160 --> 00:02:00,840
+Como é que eu posso dizer isso eu posso migrar a chave primária da mãe e gerar outra coluna dentro de
+
+20
+00:02:00,850 --> 00:02:07,740
+filho que vai ser uma coluna que vai ter uma relação com a chave primária da mãe com a chave.
+
+21
+00:02:07,750 --> 00:02:13,900
+Ela vai para uma outra coluna de outra tabela conhecida como chave estrangeira o fórum que a gente usa
+
+22
+00:02:13,900 --> 00:02:15,220
+o símbolo fk.
+
+23
+00:02:15,820 --> 00:02:23,500
+Então pk é aqui é fk é fórum que o chave estrangeira então aqui dentro dessa tabela eu vou criar uma
+
+24
+00:02:23,500 --> 00:02:34,680
+outra coluna da tabela filho e vou fazer o seguinte Aqui vai ser pai e mãe Vanderlan código de código.
+
+25
+00:02:34,760 --> 00:02:41,630
+E aqui eu posso por exemplo colocar a relação então nesse caso a Ana Maria João então a mãe código D
+
+26
+00:02:41,670 --> 00:02:47,500
+da tabela filho vai ser não é e da Júlia então vai ter o código.
+
+27
+00:02:47,710 --> 00:02:50,590
+E a Bia não é mais do Gui vai ter o código 2.
+
+28
+00:02:50,600 --> 00:02:53,830
+Então nesse caso foi que aconteceu a chave primária dessa tabela.
+
+29
+00:02:53,840 --> 00:03:00,110
+Existe uma relação digamos assim com essa coluna que foi criada e essa coluna que foi criada e conhecida
+
+30
+00:03:00,110 --> 00:03:07,250
+com chave estrangeira então a partir dessa coluna você só vai ter códigos aqui dentro dessa coluna que
+
+31
+00:03:07,580 --> 00:03:11,960
+estejam obrigatoriamente dentro da chave primária da tabela relacionada.
+
+32
+00:03:12,050 --> 00:03:17,750
+Então a forma que o banco de dados relaciona os dados é a partir de uma chave primária e não para a
+
+33
+00:03:17,750 --> 00:03:24,310
+outra tabela a verdade eu crio outra coluna e há um ano uma restrição ao ano ligação digamos assim é
+
+34
+00:03:24,440 --> 00:03:30,620
+que esses dados que estão aqui pertencem a essa tabela aqui então você só pode ter um código aqui se
+
+35
+00:03:30,650 --> 00:03:37,620
+previamente esse código estiver armazenado aqui alguns porque eu fiz uma relação disse que a Ana é mãe
+
+36
+00:03:37,620 --> 00:03:39,890
+de João e mandar Júlia.
+
+37
+00:03:39,890 --> 00:03:42,400
+Aí eu chego simplesmente Vou apagá la.
+
+38
+00:03:42,470 --> 00:03:45,640
+Eu consigo apagar não.
+
+39
+00:03:45,660 --> 00:03:52,080
+Você só vai conseguir apagar a ANA se você apagar também o João e a Júlia todos os filhos relacionados
+
+40
+00:03:52,080 --> 00:03:52,490
+a ela.
+
+41
+00:03:52,500 --> 00:03:53,070
+Por quê.
+
+42
+00:03:53,310 --> 00:03:58,950
+Porque se você apagar a ANA e deixar esses dados aqui do jeito que eles estão vai fazer com que gera
+
+43
+00:03:59,100 --> 00:04:02,610
+inconsistência nos dados e isso o banco de dados não vai permitir.
+
+44
+00:04:02,850 --> 00:04:06,510
+Você pode eventualmente esse campo aceitar um valor nulo.
+
+45
+00:04:06,510 --> 00:04:12,510
+Você pode apagar simplesmente dizer que o João é filho de ninguém que ajude na família ninguém e você
+
+46
+00:04:12,510 --> 00:04:17,130
+apagar o registro aqui pode ser mais se tivesse a relação.
+
+47
+00:04:17,130 --> 00:04:22,830
+Aqui você não vai conseguir apagar esse registro a não ser que você primeiro apague os filhos e depois
+
+48
+00:04:22,830 --> 00:04:24,930
+apague o registro da tabela.
+
+49
+00:04:25,110 --> 00:04:26,920
+Aí sim você consegue apagar certo.
+
+50
+00:04:27,090 --> 00:04:32,220
+Uma vez que você estabeleceu uma relação entre dados você vai ter que ter agora um pouco mais dificuldade
+
+51
+00:04:32,490 --> 00:04:37,380
+pra de fato apagar esses dados porque o banco de dados relacional é um banco que tem se queimam e o
+
+52
+00:04:37,380 --> 00:04:44,550
+esquema faz com que os dados sejam invalidados e que haja uma consistência nos dados.
+
+53
+00:04:44,550 --> 00:04:49,650
+Você não pode simplesmente apagar o parte eficaz os dados inconsistentes porque é isso o gerenciador
+
+54
+00:04:49,650 --> 00:04:51,110
+de banco de dados não vai permitir.
+
+55
+00:04:51,240 --> 00:04:57,760
+Então o mecanismo é esse o mecanismo é uma chave primária sai de uma tabela você gera uma outra coluna
+
+56
+00:04:57,760 --> 00:05:04,830
+em outra tabela e há uma relação digamos assim há uma vinculação de que essa coluna aponta para a coluna
+
+57
+00:05:05,040 --> 00:05:08,640
+que é a chave primária de outra tabela você cria um relacionamento dessa forma.
+
+58
+00:05:09,000 --> 00:05:14,460
+Então esse é o único mecanismo que existe nele um banco de dados para fazer relacionamento.
+
+59
+00:05:14,470 --> 00:05:20,930
+Essa é uma e essa é uma relação conhecida como apagar aqui apagar essas linhas aqui.
+
+60
+00:05:21,040 --> 00:05:27,560
+E essa é uma relação conhecida como para muito você faz assim a cardinalidade desse jeito ou seja o
+
+61
+00:05:27,570 --> 00:05:31,140
+homem pode ter muitos filhos com outras variações.
+
+62
+00:05:31,140 --> 00:05:36,380
+Você pode colocar mais homens você usa esse símbolo pra dizer que esse é o culpado muito destaque ao
+
+63
+00:05:36,390 --> 00:05:36,980
+lado.
+
+64
+00:05:37,260 --> 00:05:43,740
+Então sempre que você tem por exemplo volta aqui um outro cenário você tem uma tabela que tem aqui uma
+
+65
+00:05:43,740 --> 00:05:51,460
+chave que é o Aydin você tem outra tabela aqui que tem também o seu próprio dia 15 até que achava aí
+
+66
+00:05:51,840 --> 00:05:57,360
+você quer fazer com que essa tabela tenha relação com essa você pega essa coluna que é a chave primária
+
+67
+00:05:57,360 --> 00:06:03,750
+que é o PK essa coluna vai estar mapeada para uma outra coluna que você vai criar aqui essa coluna vai
+
+68
+00:06:03,750 --> 00:06:09,780
+ser o FK ou seja fórum que se você tiver um código aqui e eventualmente você pode colocar esse código
+
+69
+00:06:09,780 --> 00:06:16,620
+aqui em mais de um registro ou seja esse é o único registro está relacionado com três registro nessa
+
+70
+00:06:16,620 --> 00:06:23,850
+tabela por isso que a gente diz que esse é um tipo de relacionamento pra muitos ou seja um registro
+
+71
+00:06:23,850 --> 00:06:26,780
+mapeia para vários registros nessa outra tabela.
+
+72
+00:06:26,790 --> 00:06:31,860
+Esse é o único mecanismo que existe no banco de dados é você dizer o lado legal mais um suponha que
+
+73
+00:06:31,860 --> 00:06:41,340
+eu quero fazer por exemplo um casamento aqui uma tabela que vai ter de um lado aqui por exemplo um cadastro
+
+74
+00:06:41,820 --> 00:06:53,060
+de homem e um cadastro de mulher e aí você vai querer fazer uma relação aqui por exemplo um homem tem
+
+75
+00:06:53,330 --> 00:07:00,830
+de e tem não homem e mulher também tem Aydin e tem nome.
+
+76
+00:07:01,550 --> 00:07:05,930
+Vamos supor que você queira fazer o seguinte eu vou simplificar aqui colocar código vai ter que o nome
+
+77
+00:07:05,930 --> 00:07:14,030
+dele código 2 o nome código 3 o nome o código nome da mulher 2 nome da mulher e três nome da mulher.
+
+78
+00:07:14,040 --> 00:07:16,000
+Eu tenho aqui a chave primária da mulher.
+
+79
+00:07:16,160 --> 00:07:21,020
+Não pode haver repetição dentro da tabela a mulher como também tem uma chave primária de um homem que
+
+80
+00:07:21,020 --> 00:07:23,830
+não pode haver repetição dentro da tabela.
+
+81
+00:07:24,130 --> 00:07:29,720
+Eu quero fazer uma relação que seja para um homem estar casado com mulher assim como mulher estar casado
+
+82
+00:07:29,720 --> 00:07:30,630
+com um homem.
+
+83
+00:07:30,650 --> 00:07:34,950
+Nesse caso o mecanismo é da mesma forma que você pode até escolher.
+
+84
+00:07:35,000 --> 00:07:40,880
+Você pode pegar a coluna da mulher e criar uma coluna dentro do homem ou pega a coluna do homem cópia
+
+85
+00:07:40,880 --> 00:07:42,770
+dentro da tabela da mulher.
+
+86
+00:07:42,860 --> 00:07:47,870
+Baden uma diferença que depois eu posso até comentar com vocês mas o fato é que você pode escolher qual
+
+87
+00:07:47,870 --> 00:07:50,050
+clube você quer colocar do outro lado.
+
+88
+00:07:50,130 --> 00:07:53,720
+E aí por exemplo porque pega a coluna do homem e coloco pra esse lado aqui.
+
+89
+00:07:53,750 --> 00:08:04,090
+Então vou criar dentro da tabela a mulher uma nova coluna essa coluna vai se chamar por exemplo homem.
+
+90
+00:08:04,090 --> 00:08:07,560
+Aí o homem colhe o tanto faz o nome da coluna.
+
+91
+00:08:07,660 --> 00:08:16,360
+Essa coluna é a chave FK que seria a forma que certo mais gente que está aqui só coloca na chave estrangeira
+
+92
+00:08:16,360 --> 00:08:23,830
+desse lado faz com que você consiga fazer com que o homem um ele seja marido da mulher um da mulher
+
+93
+00:08:23,830 --> 00:08:25,390
+Doris e da mulher três.
+
+94
+00:08:25,390 --> 00:08:28,750
+Então não é essa forma que você faz pra fazer um relacionamento.
+
+95
+00:08:28,750 --> 00:08:31,210
+Pra mim isso aqui é um relacionamento um pra muitos.
+
+96
+00:08:31,210 --> 00:08:36,630
+Legal fazendo isso você pode além de ter essa chave como uma chave estrangeira.
+
+97
+00:08:36,850 --> 00:08:40,970
+Você é a que essa coluna que aceita a repetição por padrão.
+
+98
+00:08:41,020 --> 00:08:49,030
+Você pode adicionalmente nessa coluna adicionar um chave e Mix que é uma chave que não vai permitir
+
+99
+00:08:49,410 --> 00:08:52,190
+e duplicidade nessa coluna.
+
+100
+00:08:52,510 --> 00:08:58,600
+Ou seja além de você colocar a chave primária como a chave estrangeira na tabela você aplicam a chave
+
+101
+00:08:58,660 --> 00:09:04,120
+única e aqui nesse caso você vai poder ter por exemplo uma chave única.
+
+102
+00:09:04,240 --> 00:09:09,780
+Nessa coluna então significa que um homem vai ter sua está associado a mulher ou mulher vai estar associado
+
+103
+00:09:09,920 --> 00:09:10,630
+a um homem.
+
+104
+00:09:10,660 --> 00:09:15,790
+Ou seja aqui nesse caso tem uma relação para algo que é uma variação da relação pra muitos.
+
+105
+00:09:15,820 --> 00:09:20,590
+Ou seja ao mesmo mecanismo a chave primária foi para a outra tabela como chave estrangeira.
+
+106
+00:09:20,590 --> 00:09:26,920
+A única diferença é que adicionalmente a coluna que tem a chave estrangeira está relacionada com o uso
+
+107
+00:09:27,280 --> 00:09:28,180
+de outra tabela.
+
+108
+00:09:28,180 --> 00:09:35,010
+Você adiciona uma restrição de ser única e você garante uma relação pra um tal no primeiro caso mãe
+
+109
+00:09:35,010 --> 00:09:36,980
+e filho tenham relação.
+
+110
+00:09:37,450 --> 00:09:45,110
+Ou seja se o homem tem filhos aqui ele tem uma relação.
+
+111
+00:09:45,450 --> 00:09:51,750
+Ou seja um homem tem uma mulher uma mulher tem um nome e porque você adicionou uma Constran de seu única
+
+112
+00:09:51,760 --> 00:09:52,780
+nessa tabela.
+
+113
+00:09:53,230 --> 00:09:57,460
+O próximo passo é por exemplo criar uma relação muitos para muitos.
+
+114
+00:09:57,460 --> 00:10:05,200
+Então por exemplo você tem uma tabela que tio e tem uma tabela sobrinho ou seja um tio pode ter vários
+
+115
+00:10:05,200 --> 00:10:10,780
+sobrinhos e um sobrinho pode ter vários tios como é que eu poderia mapear uma relação desse tipo.
+
+116
+00:10:11,140 --> 00:10:18,470
+Então eu tenho aqui uma tabela de um lado em duas colunas eu tenho aí e tem um nome.
+
+117
+00:10:18,770 --> 00:10:23,830
+Mesma coisa aqui e tenho o nome completo aqui não.
+
+118
+00:10:23,840 --> 00:10:24,630
+Pronto.
+
+119
+00:10:24,670 --> 00:10:30,470
+Nesse caso até o tio um dois três cada um com seus respectivos nomes.
+
+120
+00:10:30,470 --> 00:10:36,040
+Eu tenho um tio o sobrinho dois e três cada um com seus respectivos nomes.
+
+121
+00:10:36,400 --> 00:10:44,960
+Vamos supor que todo mundo seja parente aqui o tio ele é tio do sobrinho 1 2 3 2 o sobrinho 1 2 e 3
+
+122
+00:10:45,030 --> 00:10:52,780
+o 3 subiu no 2 e 3 nesse caso se eu colocar a coluna pra cá não vai dar certo se eu colocar a coluna
+
+123
+00:10:52,780 --> 00:10:58,180
+do sobrinho pra cá não vai dar certo o que se faz aqui é criar uma tabela intermediária.
+
+124
+00:10:58,180 --> 00:11:04,040
+Por exemplo o tio não é sómente sobrinho dentro dessa tabela.
+
+125
+00:11:04,150 --> 00:11:08,940
+Eu voltei duas colunas que vai ser o Haiti.
+
+126
+00:11:09,320 --> 00:11:14,370
+Vou estar aqui Tio aí Sobrinho.
+
+127
+00:11:14,860 --> 00:11:22,870
+Então nesse caso eu tenho a chave primária de tio vinda pra cá como chave estrangeira e a chave primária
+
+128
+00:11:22,870 --> 00:11:26,170
+de Sobrinho vindo pra cá com uma chave estrangeira.
+
+129
+00:11:26,230 --> 00:11:33,550
+Nesse caso eu consigo ter a chave dupla que eu seja oposta a repetição nessa coluna posso ter repetição
+
+130
+00:11:33,550 --> 00:11:39,730
+nessa coluna mais as duas colunas juntos formam a chave primária ou seja a chave estrangeira que veio
+
+131
+00:11:39,730 --> 00:11:46,750
+pra cá que é um fórum aqui a chave estrangeira que veio pra cá e outra fora aqui vai essas duas chaves
+
+132
+00:11:46,750 --> 00:11:52,900
+formam a chave primária dessa tabela que eu seja uma chave que tem duas colunas então nesse caso não
+
+133
+00:11:52,900 --> 00:12:02,380
+posso ter o tio senão tio do sobrinho o tio sentido do sobrinho 2 e o tio do sobrinho 3 já paga aqui
+
+134
+00:12:02,380 --> 00:12:04,200
+pra conseguir aumentar a tabela.
+
+135
+00:12:04,370 --> 00:12:12,750
+Então nesse caso completando aqui eu posso ter mais colunas eu tenho o tio adolescente do sobrinho o
+
+136
+00:12:12,760 --> 00:12:21,180
+tio 2 do sobrinho 2 o dia 2 de julho subiu 3 e eu posso ainda aumentar mais a tabela aqui colocando
+
+137
+00:12:21,190 --> 00:12:30,420
+aqui o tio 3 tudo sobre o tio 3 e tudo sobre o 2 e 3 subiu 3 ou seja essa tabela intermediária tenho
+
+138
+00:12:30,720 --> 00:12:38,540
+a chave primária vindo pra cá com um fórum aqui eu tenho essa chave aqui e vim pra cá como fórum aqui
+
+139
+00:12:39,070 --> 00:12:45,630
+e essas duas colunas formam a chave primária dessa tabela chamada tio sobrinho como com o bagunçado
+
+140
+00:12:45,630 --> 00:12:52,560
+aqui mas o fato é que continua havendo um mecanismo de chave primária pra outra tabela como chave estrangeira
+
+141
+00:12:52,560 --> 00:12:58,800
+mais eu precisei de uma tabela intermediária para de fato a partir de duas relações um pra muitos eu
+
+142
+00:12:58,800 --> 00:13:04,830
+consigo simular uma relação muitos pra muitos estão nesse caso pessoal só para deixar claro eu tenho
+
+143
+00:13:04,830 --> 00:13:14,630
+uma tabela que eu tenho uma tabela aqui Sobrinho não há uma relação direta entre elas aqui pra mim.
+
+144
+00:13:14,730 --> 00:13:20,800
+Na verdade o que existe é até uma tabela intermediária chamada tio sobrinho.
+
+145
+00:13:21,240 --> 00:13:26,340
+E aqui sim há uma relação um pra muitos um pra mim.
+
+146
+00:13:26,470 --> 00:13:29,670
+E aqui há uma relação pra aí.
+
+147
+00:13:29,700 --> 00:13:37,320
+Ou seja a partir de duas relações um pra mim é que eu consigo simular uma relação muitos pra muito ou
+
+148
+00:13:37,320 --> 00:13:43,350
+seja um tio tem muitos sobrinhos e um sobrinho tem muitos tios então nesse caso não há uma relação direta
+
+149
+00:13:43,350 --> 00:13:49,290
+entre essas duas tabelas e sim foi quebrado na tabela intermediária então percebam que tanto a relação
+
+150
+00:13:49,710 --> 00:13:56,460
+mãe e filho ainda assim tem uma relação a chave primária para a outra tabela gera uma relação pra mim
+
+151
+00:13:56,490 --> 00:14:02,460
+essa relação de mais natural que é mais direta dentro do banco de dados você tem uma relação pra um
+
+152
+00:14:02,730 --> 00:14:09,110
+como sendo também uma chave primária indo para outra tabela com chave estrangeira gerando a relação
+
+153
+00:14:09,120 --> 00:14:14,720
+pra um só aqui pra virar um pra um tem que adicionar uma chave única.
+
+154
+00:14:14,730 --> 00:14:20,400
+Aí sim você consegue garantir que a coluna da chave estrangeira não vai aceitar duplicação e você tem
+
+155
+00:14:20,400 --> 00:14:21,340
+um relação pra um.
+
+156
+00:14:21,620 --> 00:14:26,080
+E finalmente quando você tem uma relação in pra não sejam muitos pra muitos.
+
+157
+00:14:26,250 --> 00:14:32,010
+Você tem uma tabela intermediária pra fazer essa relação conforme eu mostrei aqui não há uma relação
+
+158
+00:14:32,010 --> 00:14:37,970
+direta entre as tabelas e sim uma relação com uma tabela intermediária com duas relações um pra mim
+
+159
+00:14:38,080 --> 00:14:43,370
+um pra minha e você consegue ter essa tabela intermediária ligando as duas tabelas.
+
+160
+00:14:43,450 --> 00:14:49,420
+Auto acostumado a pensar na forma do paradigma orientação a objeto existe.
+
+161
+00:14:49,440 --> 00:14:51,570
+Os princípios da orientação objeto.
+
+162
+00:14:51,570 --> 00:14:59,040
+Existem outros princípios relacionados ao modelo de relacionamento por exemplo não há relação bidirecional
+
+163
+00:14:59,040 --> 00:14:59,820
+no banco de dados.
+
+164
+00:14:59,820 --> 00:15:03,540
+Então por exemplo deixe eu pegar o exemplo de uma relação.
+
+165
+00:15:03,690 --> 00:15:08,970
+No caso que nós vamos trabalhar aqui no nosso exemplo na análise de tabelas eu vou criar essa relação
+
+166
+00:15:09,020 --> 00:15:18,150
+pra você tem aqui uma tabela chamada cidade vai ser uma das tabelas que nós vamos trabalhar e uma outra
+
+167
+00:15:18,150 --> 00:15:20,310
+tabela chamada prefeito.
+
+168
+00:15:21,000 --> 00:15:27,870
+Então cada cidade só tem apenas um único prefeito e um prefeito e apenas uma única cidade em um determinado
+
+169
+00:15:27,870 --> 00:15:33,450
+tempo obviamente se for evoluindo tem um prefeito pode ser prefeito de uma cidade ou outro ano.
+
+170
+00:15:33,450 --> 00:15:39,200
+Ser prefeito de outra cidade mas eu quero mapear na situação atual digamos assim.
+
+171
+00:15:39,480 --> 00:15:45,870
+Então o prefeito só tem uma cidade se o prefeito mudar pra outra cidade você iria lá alteraria o cadastro
+
+172
+00:15:45,870 --> 00:15:52,670
+e faria com que ele apontasse para outra cidade então nesse caso o que é que acontece aqui você pode.
+
+173
+00:15:52,670 --> 00:15:59,230
+Você tem duas possibilidades você pode colocar tanto o código da cidade que essa primeira que seja a
+
+174
+00:15:59,240 --> 00:16:07,790
+coluna é essa aqui primeira seja aí você pode colocar essa coluna lá na tabela do prefeito ou você pode
+
+175
+00:16:07,790 --> 00:16:11,350
+pegar o app do prefeito e colocar dentro da tabela a cidade.
+
+176
+00:16:11,510 --> 00:16:13,410
+Qual opção você vai escolher nunca.
+
+177
+00:16:13,430 --> 00:16:21,260
+Você vai usar as duas setas relação bidirecional colocar coluna na cidade de prefeito e a colou no prefeito
+
+178
+00:16:21,260 --> 00:16:22,730
+dentro da cidade.
+
+179
+00:16:22,730 --> 00:16:25,490
+Isso não funciona banco de dados não dá certo.
+
+180
+00:16:25,490 --> 00:16:29,810
+Você vai depender de como você vai usar o seu sistema.
+
+181
+00:16:29,810 --> 00:16:34,930
+Por exemplo vamos supor que eu coloque dentro do prefeito.
+
+182
+00:16:34,970 --> 00:16:40,040
+Há o código da cidade então peguei o aqui da cidade e coloquei na tabela o prefeito então fica alguma
+
+183
+00:16:40,040 --> 00:16:45,010
+coisa do tipo cidade em Vanderlan.
+
+184
+00:16:45,630 --> 00:16:47,530
+Então aqui eu coloco aí.
+
+185
+00:16:47,630 --> 00:16:54,220
+Olha o que é que vai acontecer fica mais fácil para a partir da tabela do prefeito eu encontrar a cidade
+
+186
+00:16:54,650 --> 00:17:02,510
+ou fica mais fácil a partir da cidade ou encontrar o prefeito fica muito mais fácil colocar aqui por
+
+187
+00:17:02,510 --> 00:17:03,620
+exemplo o cidade.
+
+188
+00:17:03,890 --> 00:17:07,570
+Colocar aqui é uma coisa diferente para ficar diferente.
+
+189
+00:17:07,570 --> 00:17:14,370
+Os dados aqui ao 1 2 3 aqui na cidade 1 2 e 3.
+
+190
+00:17:14,390 --> 00:17:18,750
+Esse aqui tem um prefeito 2 o prefeito 3 e o prefeito.
+
+191
+00:17:19,250 --> 00:17:26,360
+Então olha que se a partir do prefeito fica muito mais fácil você encontrar a cidade porque já tem uma
+
+192
+00:17:26,360 --> 00:17:28,690
+coluna específica da cidade.
+
+193
+00:17:29,100 --> 00:17:36,110
+Ou seja na própria linha do prefeito ou seja você já consegue saber qual medida a cidade é diretamente
+
+194
+00:17:36,110 --> 00:17:36,650
+na cidade.
+
+195
+00:17:36,650 --> 00:17:42,920
+Você já acha que aqui na outra tabela olhando para a tabela cidade esqueceram que a tabela de prefeito
+
+196
+00:17:43,340 --> 00:17:48,620
+você não sabe que o prefeito quer a cidade dois tem um prefeito de código.
+
+197
+00:17:48,620 --> 00:17:55,280
+Por exemplo você não sabe isso porque não tem uma coluna dentro da cidade que aponta o prefeito.
+
+198
+00:17:55,280 --> 00:18:03,500
+Moral da história se o seu sistema acessa muito mais o cadastro do prefeito pra achar a cidade significa
+
+199
+00:18:03,500 --> 00:18:08,990
+que você vai colocar a coluna do lado do prefeito mais se o seu sistema trabalha muito mais diretamente
+
+200
+00:18:08,990 --> 00:18:10,200
+com a cidade.
+
+201
+00:18:10,430 --> 00:18:13,250
+é a partir da cidade você encontra o prefeito.
+
+202
+00:18:13,370 --> 00:18:15,930
+Então esse mapeamento que eu fiz aqui não está legal.
+
+203
+00:18:15,930 --> 00:18:23,420
+Então o ideal é que você não coloque essa coluna aqui dentro prefeito e simplesmente coloque o contrário
+
+204
+00:18:23,420 --> 00:18:25,300
+pegue essa coluna.
+
+205
+00:18:25,400 --> 00:18:29,690
+Esse aí da cidade do prefeito coloque dentro da tabela a cidade.
+
+206
+00:18:29,690 --> 00:18:36,030
+Aí sim você vai conseguir ter uma performance melhor porque é mais comum a parte da cidade eu procurei
+
+207
+00:18:36,030 --> 00:18:39,780
+o prefeito do que a partir do prefeito eu procurar a cidade.
+
+208
+00:18:39,780 --> 00:18:42,800
+Então o mapeamento um para muitos não tem muito segredo.
+
+209
+00:18:42,800 --> 00:18:46,500
+Não tem escolha na verdade se você tem mãe e filho.
+
+210
+00:18:46,600 --> 00:18:50,380
+Ou seja a coluna do sempre vai para o lado do muitos.
+
+211
+00:18:50,390 --> 00:18:54,100
+Ou seja a coluna de amanhã sempre vai para a tabela filhos.
+
+212
+00:18:54,110 --> 00:19:00,050
+Esse é o padrão mas como você tem um relacionamento paralelo você pode escolher tanto a tabela a chave
+
+213
+00:19:00,050 --> 00:19:05,630
+primária e ir para a tabela B como da tabela B a chave primária é pra tabela virar uma chave estrangeira
+
+214
+00:19:05,640 --> 00:19:11,870
+você pode ter essa escolha no caso duas ao mesmo tempo e a escolha vai depender da da forma que você
+
+215
+00:19:11,870 --> 00:19:17,810
+vai obter os seus dados a forma mais digamos assim mais comum de você obter os dados.
+
+216
+00:19:17,810 --> 00:19:23,120
+Isso não quer dizer que a parte do prefeito você nunca obtém a cidade mas via de regra se a partir da
+
+217
+00:19:23,120 --> 00:19:25,020
+cidade eu quero obter o prefeito.
+
+218
+00:19:25,070 --> 00:19:32,090
+Então você coloca o adido o prefeito na tabela da cidade para ficar mais fácil a relação conforme eu
+
+219
+00:19:32,090 --> 00:19:32,510
+expliquei.
+
+220
+00:19:32,630 --> 00:19:38,900
+Então na sala vimos os três relacionamentos um para aí um pra um e muitos para muitos nós vimos que
+
+221
+00:19:38,900 --> 00:19:45,260
+o relacionamento básico do banco de dados é o mesmo para muitos ou seja a chave primária indo para outra
+
+222
+00:19:45,260 --> 00:19:50,030
+tabela como chave estrangeira é derivado desse tipo de relacionamento.
+
+223
+00:19:50,030 --> 00:19:57,530
+Aí você tem um amigo que é exatamente a mesma coisa do Ibrahim com adição que a chave estrangeira ela
+
+224
+00:19:57,530 --> 00:20:02,830
+é única ou seja não pode haver repetição na chave estrangeira e no caso não há relação.
+
+225
+00:20:02,850 --> 00:20:09,320
+Para mim não há uma relação direta entre as tabelas é criado uma terceira tabela e essa tabela armazena
+
+226
+00:20:09,320 --> 00:20:15,680
+a chave primária das duas tabelas sejam para essas duas chaves estrangeiras na nova tabela gera a chave
+
+227
+00:20:15,680 --> 00:20:22,640
+primária dessa tabela e isso faz com que você consiga mapear a partir de duas relações um para simular
+
+228
+00:20:22,650 --> 00:20:23,900
+uma relação.
+
+229
+00:20:24,210 --> 00:20:25,950
+Então essas são as formas.
+
+230
+00:20:26,000 --> 00:20:32,540
+Isso não quer dizer que o pessoal que dentro dessa tabela aqui tio sobrinho quer uma tabela que mapeia
+
+231
+00:20:32,810 --> 00:20:35,530
+essa relação para mim que acontece aqui.
+
+232
+00:20:35,630 --> 00:20:40,640
+Pode ter outros atributos nessa tabela você pode por exemplo querer ter um atributo.
+
+233
+00:20:40,760 --> 00:20:46,600
+Se a relação entre esse time é superior a relação amistosa verdadeiro ou falso você pode ter uma ou
+
+234
+00:20:46,600 --> 00:20:48,460
+outra um ou outra.
+
+235
+00:20:48,580 --> 00:20:49,680
+E outros atributos.
+
+236
+00:20:49,670 --> 00:20:55,250
+Melhor dizer nessa tabela intermediária para mapear digamos assim esse relacionamento aqui.
+
+237
+00:20:55,320 --> 00:20:59,900
+Mas eu tenho certeza que esses conceitos que eu mostrei aqui desses relacionamentos e você é novo banco
+
+238
+00:20:59,900 --> 00:21:01,910
+de dados não conhecem muito bem.
+
+239
+00:21:01,910 --> 00:21:06,040
+Eu tenho certeza que quando for para a prática vai ficar um pouco mais fácil de ser entendido então
+
+240
+00:21:06,080 --> 00:21:07,040
+espero na próxima aula.
+
+241
+00:21:07,040 --> 00:21:08,330
+Grande abraço e até lá.

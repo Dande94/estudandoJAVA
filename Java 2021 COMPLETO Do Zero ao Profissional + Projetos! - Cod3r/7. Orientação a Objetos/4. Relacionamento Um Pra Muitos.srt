@@ -1,0 +1,623 @@
+1
+00:00:00,090 --> 00:00:03,360
+Pessoal agora vou mostrar pra vocês a relação.
+
+2
+00:00:03,390 --> 00:00:11,750
+Pra mim existem muitos exemplos de relação aí poderia inclusive usar o próprio exemplo do carro e colocasse
+
+3
+00:00:11,820 --> 00:00:18,930
+portas e cada porta tem no seu próprio atributos está fechada ou se está aberta certo e aí você poderia
+
+4
+00:00:19,260 --> 00:00:24,840
+criar um mecanismo de proteção para não permitir acelerar o carro se a porta TV aberta.
+
+5
+00:00:24,840 --> 00:00:30,900
+Então você começa a relacionar as coisas ou seja você não acelera ou seja o motor do carro não vai girar
+
+6
+00:00:30,900 --> 00:00:36,230
+mais rápido porque uma das portas está aberta então é um exemplo que se você quiser fazer em casa sugiro
+
+7
+00:00:36,300 --> 00:00:41,700
+agora que finalmente seria interessante mas eu vou criar um outro exemplo vou fazer o seguinte vou criar
+
+8
+00:00:41,900 --> 00:00:49,440
+aqui uma classe chamada compra lastimar a compra e vou criar uma classe chamada item que pode sair tem
+
+9
+00:00:49,440 --> 00:00:55,740
+um mesmo produto certo ou então vou criar uma classe chamada item e posso inclusive se quiser criar
+
+10
+00:00:55,740 --> 00:01:01,590
+uma classe chamada produto item apontam para um produto só que além de ter o produto ele tem uma quantidade
+
+11
+00:01:01,590 --> 00:01:07,840
+específica olhe eu vou manter mais simples até vou colocar aqui que o item vai ter uma string de nome
+
+12
+00:01:08,220 --> 00:01:15,990
+vai ter um inteiro que vai ser a quantidade e vai ter também que o item pode ter um preço dependendo
+
+13
+00:01:15,990 --> 00:01:20,820
+de algum cupom ele pode ser diferente do preço do produto alguma coisa do tipo mas eu vou colocar como
+
+14
+00:01:20,820 --> 00:01:27,510
+sendo o meu produto e o item misturados aqui em uma única e única classe e você tem a compra.
+
+15
+00:01:27,540 --> 00:01:34,170
+Como tem uma relação com o item 1 a relação com a empresa tem vários itens aqui eu posso criar por exemplo
+
+16
+00:01:34,430 --> 00:01:36,810
+liste uma revista eu posso colocar assim.
+
+17
+00:01:37,290 --> 00:01:43,350
+Aí sim a gente Balzac ela anotações dos genéricos eu vou aprofundar um pouco mais pra frente mas que
+
+18
+00:01:43,350 --> 00:01:48,960
+eu vou especificar quais são os tipos de dados que podem ser acrescentados nessa lista.
+
+19
+00:01:49,050 --> 00:01:54,930
+Então quando eu digo que essa lista vai ter apenas classes do tipo item EU ESTOU TORNANDO ESSA LISTA
+
+20
+00:01:54,930 --> 00:02:01,860
+homogênea só posso adicionar itens dentro dessa lista então vou chamar de itens no plural recebe mil
+
+21
+00:02:02,220 --> 00:02:03,220
+reais.
+
+22
+00:02:03,660 --> 00:02:09,780
+E aqui ele vai receber também classe do tipo item ou seja eu tenho agora uma relação.
+
+23
+00:02:09,850 --> 00:02:17,280
+Pra mim uma compra tem muitos itens e um item eu compro por enquanto não fazem uma relação unidirecional
+
+24
+00:02:17,690 --> 00:02:20,120
+e depois a gente pode evoluir durante o exercício.
+
+25
+00:02:20,380 --> 00:02:26,340
+Então a compra tem aqui os itens e provavelmente a compra vai ter uma relação com outra classe por exemplo
+
+26
+00:02:26,340 --> 00:02:31,860
+a classe de cliente ou a classe relacionada com a forma de pagamento.
+
+27
+00:02:31,890 --> 00:02:37,350
+Por enquanto eu vou colocar aqui de forma bem simples só um estribilho colocar o nome do cliente ou
+
+28
+00:02:37,360 --> 00:02:43,270
+simplesmente clientes até então pressupõe que esse atributo que representa o nome do cliente mais lembrado
+
+29
+00:02:43,280 --> 00:02:49,620
+lembrar um sistema real e provavelmente não seria um estranho representa um cliente e sim um outro objeto
+
+30
+00:02:49,980 --> 00:02:50,990
+chamado cliente.
+
+31
+00:02:51,000 --> 00:02:58,440
+Você tem uma relação também de um painel ou seja um cliente pode ter muitas compras uma compra tem apenas
+
+32
+00:02:58,440 --> 00:03:04,680
+um único cliente então você percebe que na verdade o que você tem é várias classes interagem entre si
+
+33
+00:03:04,680 --> 00:03:11,790
+ou seja assim que você vai formar um sistema maior modelando essas relações definindo como será a os
+
+34
+00:03:11,790 --> 00:03:16,440
+comportamentos ou que tipo de restrição a classe pode influenciar em outro.
+
+35
+00:03:16,440 --> 00:03:21,500
+Como falei no exemplo como a porta está aberta o carro não pode acelerar porque você criou mecanismos
+
+36
+00:03:21,500 --> 00:03:22,410
+mecanismo de segurança.
+
+37
+00:03:22,410 --> 00:03:27,350
+Então tudo isso pode ser feito no momento que você relaciona os vários objetos.
+
+38
+00:03:27,370 --> 00:03:33,230
+Mas nosso objetivo aqui é falar exatamente da composição dessas duas classes que compra e tem para mostrar
+
+39
+00:03:33,230 --> 00:03:34,480
+uma relação.
+
+40
+00:03:34,680 --> 00:03:44,970
+Então aqui eu vou criar uma outra classe chamada compra teste e nessa classe compra Teaching vai ter
+
+41
+00:03:45,300 --> 00:03:54,330
+um método e inicialmente a gente vai criar uma compra ou então compra recebe um processo de 1.000 compra
+
+42
+00:03:54,450 --> 00:04:06,250
+eu posso dizer que será um ponto cliente eu sei lá Joao Pedro e posso fazer o seguinte agora tenho o
+
+43
+00:04:06,250 --> 00:04:15,570
+seu ponto e itens como eu atendo diretamente o acesso à lista eu posso adicionar um novo item pra facilitar
+
+44
+00:04:15,720 --> 00:04:20,940
+a minha vida de adicionar os novos objetos eu vou fazer o seguinte eu vou criar um construtor que já
+
+45
+00:04:20,940 --> 00:04:27,680
+recebe esses três atributos então vou criar aqui um futuro chamado item que vai receber um string que
+
+46
+00:04:28,110 --> 00:04:36,130
+vai receber uma quantidade e finalmente um preço.
+
+47
+00:04:36,960 --> 00:04:51,000
+Essa é a que eu vou fazer desse ponto o nome recebe nome com a entidade da adivinhem essa quantidade
+
+48
+00:04:51,340 --> 00:04:53,660
+e finalmente 10.
+
+49
+00:04:54,200 --> 00:05:03,340
+Para isso com espaços normais aquilo recebe um preço então aqui de adicionar eu posso facilmente fazer
+
+50
+00:05:03,340 --> 00:05:05,480
+mil e tem.
+
+51
+00:05:05,620 --> 00:05:12,070
+E aqui eu vou passar já o nome do primeiro vai ser uma caneta quantidade de canetas que eu comprei 20
+
+52
+00:05:12,070 --> 00:05:17,920
+canetas e o preço foi em 7 e 45 vírgula.
+
+53
+00:05:18,100 --> 00:05:27,820
+Posso duplicar isso aqui vou criar aqui por exemplo borracha eu comprei também comprei lá 12 borrachas
+
+54
+00:05:27,820 --> 00:05:40,780
+e o preço da borracha foi 3 e 89 e comprei também aqui um caderno comprei três cadernos cada caderno
+
+55
+00:05:40,780 --> 00:05:51,010
+foi 18 e 70 e pronto aqui eu tenho agora se eu quiser mostrar para vocês por exemplo tenho o cliente
+
+56
+00:05:51,010 --> 00:05:58,920
+um ponto e itens com muito sais para ver o tamanho dos itens dessa compra do cliente.
+
+57
+00:05:58,920 --> 00:06:05,380
+Na verdade o cliente não compra compra parceria eu sei o que posso até clicar no botão direito.
+
+58
+00:06:05,380 --> 00:06:10,830
+Você tem aqui o efeito in-game e você coloca a compra.
+
+59
+00:06:11,380 --> 00:06:15,470
+Então eu tenho que comprar um ponto itens como sites executado.
+
+60
+00:06:15,490 --> 00:06:22,480
+Você tem um valor três ou seja tem três itens relacionados a compra seria legal por exemplo aqui na
+
+61
+00:06:22,480 --> 00:06:31,690
+compra a gente criar um método pra saber o valor total então eu tenho que dar bom valor total ou mesmo
+
+62
+00:06:31,690 --> 00:06:32,700
+a gente usa.
+
+63
+00:06:32,870 --> 00:06:42,030
+é muito comum usar inglês get it yet valor total vou colocar em português por exemplo agora obter o
+
+64
+00:06:42,100 --> 00:06:43,410
+valor total.
+
+65
+00:06:43,810 --> 00:06:50,500
+E aqui eu vou fazer um cálculo pra pagar cada um dos itens e multiplicar a quantidade de vezes o valor
+
+66
+00:06:50,500 --> 00:06:51,890
+para no final ter o valor total.
+
+67
+00:06:51,890 --> 00:06:56,230
+Eu vou criar um bolo total recebe zero.
+
+68
+00:06:56,290 --> 00:06:59,550
+Vou retornar aqui o valor total.
+
+69
+00:06:59,860 --> 00:07:02,620
+Nesse caso é o suficiente porque o já está funcionando.
+
+70
+00:07:02,680 --> 00:07:05,090
+Retorno no valor só que não está calculando ainda né.
+
+71
+00:07:05,470 --> 00:07:11,200
+Então se eu colocar aqui não compra e usar o System onde Jeanine compra
+
+72
+00:07:14,100 --> 00:07:17,160
+obter o valor total em quatro lutas.
+
+73
+00:07:17,230 --> 00:07:19,780
+Então lá implementar aqui dentro de compra.
+
+74
+00:07:20,290 --> 00:07:25,360
+Então para a gente implementar vai ser muito simples fazer um forte em cima de todos os itens então
+
+75
+00:07:25,360 --> 00:07:33,900
+eu tenho um item item dois com outros itens e em cima do uso de cada um dos itens eu falei o seguinte
+
+76
+00:07:33,900 --> 00:07:41,810
+ao total mais igual ao item quantidade de vezes e tem preço.
+
+77
+00:07:41,830 --> 00:07:42,880
+Ou seja o preço.
+
+78
+00:07:43,270 --> 00:07:49,000
+Veja a quantidade de cada um dos itens vai ser acrescentado ao valor total de tal forma que no final
+
+79
+00:07:49,000 --> 00:07:51,330
+tem o valor total da minha compra.
+
+80
+00:07:51,330 --> 00:08:00,940
+Então exaltando eu tenho agora que o valor total da minha compra 252 reais %0.5 Blau e se eu quisesse
+
+81
+00:08:00,970 --> 00:08:08,530
+por exemplo fazer uma relação bidirecional como é que eu poderia fazer e quando poderia fazer o seguinte
+
+82
+00:08:08,530 --> 00:08:14,730
+jogue aqui ficaria um pouco mais complicado o que a gente precisaria ter controle.
+
+83
+00:08:15,070 --> 00:08:21,410
+Ou na criação do item ou então ter controle na hora de adicionar o item dentro dos itens.
+
+84
+00:08:21,730 --> 00:08:26,620
+Então posso fazer de uma forma mais simples aqui que não vai garantir consistência cem por cento do
+
+85
+00:08:26,620 --> 00:08:33,790
+tempo mas só pra mostrar pra vocês algum item pode ter uma compra associada certo então posso colocar
+
+86
+00:08:33,790 --> 00:08:39,820
+aqui compra que inicialmente vai ter um valor novo dentro da minha compra e veja ao adicionar o item
+
+87
+00:08:39,820 --> 00:08:47,140
+diretamente usando o próprio a própria religião eu posso criar o método por exemplo que vai tornar bode
+
+88
+00:08:47,140 --> 00:08:50,630
+chamado adicionar item.
+
+89
+00:08:50,680 --> 00:08:59,440
+E aqui você pode passar o item como parâmetro item item uma vez que você está controlando a adição do
+
+90
+00:08:59,440 --> 00:08:59,920
+item.
+
+91
+00:08:59,920 --> 00:09:07,110
+Você tem mais controle dentro do objeto compra você pode fazer um item na verdade itens no plural contêm
+
+92
+00:09:07,390 --> 00:09:15,610
+adicionar o próprio item e você já faz aqui que o item ponto compra é igual a 10.
+
+93
+00:09:15,640 --> 00:09:21,880
+Ou seja quem a compra associada a esse item é exatamente a minha classe atual seja no momento que você
+
+94
+00:09:21,880 --> 00:09:28,750
+está adicionando o item à minha lista você também faz o contrário quer adicionar compra associada ao
+
+95
+00:09:28,750 --> 00:09:29,290
+item.
+
+96
+00:09:29,290 --> 00:09:31,620
+Existem outras formas de você garantir isso.
+
+97
+00:09:31,790 --> 00:09:34,570
+Cem por cento do tempo mas não é tanto que eu quero fazer.
+
+98
+00:09:34,570 --> 00:09:40,870
+Então de tal forma que em vez de eu fazer isso ao usar compra ponto itens ponto adicionar.
+
+99
+00:09:40,880 --> 00:09:47,890
+Aqui você substitui o acesso direto pela lista usando o método adicionado.
+
+100
+00:09:47,930 --> 00:09:57,310
+Eu eu salvei que compra o nome a adicionar e tem esse nome aqui vou jogar pra cá que eu vou usar esse
+
+101
+00:09:57,310 --> 00:10:04,220
+método ao adicionar item substituir adicionar item e adicionar item seja um momento que o adicionou
+
+102
+00:10:04,230 --> 00:10:11,900
+item dentro da compra automaticamente eu coloco a compra dentro do item certo garantindo a relação bidirecional.
+
+103
+00:10:11,910 --> 00:10:16,750
+Aqui eu sei que existem furo vai ter situações que não está realmente apontando para o outro de forma
+
+104
+00:10:16,780 --> 00:10:22,010
+consistente mas eu não estou querendo mostrar para vocês nesse momento e até as últimas consequências
+
+105
+00:10:22,010 --> 00:10:26,860
+de proteger tudo porque senão a gente vai precisar usar outros recursos da orientação objeto que eu
+
+106
+00:10:26,860 --> 00:10:33,760
+quero mostrar pra vocês aqui o foco é mostrar pra vocês a relação que existe entre duas classes a relação
+
+107
+00:10:33,760 --> 00:10:40,750
+que existe entre a classe compra e a classe item ou seja uma compra tem vários itens e o item tem apenas
+
+108
+00:10:40,750 --> 00:10:42,770
+uma única compra numa relação.
+
+109
+00:10:43,030 --> 00:10:49,780
+Pra mim então usar esse metro também é possível fazer isso e quando você vai ver que o resultado é exatamente
+
+110
+00:10:49,780 --> 00:10:55,540
+o mesmo até porque esse método se eu colocar aqui é o meu caso como Anjinho ou então Control com o botão
+
+111
+00:10:55,540 --> 00:10:59,050
+do mouse você vai para um método e esse método te faz duas coisas.
+
+112
+00:10:59,050 --> 00:11:04,780
+Ele não apenas adicionou um item dentro da lista de itens que pertence à instância atual tanto é que
+
+113
+00:11:04,780 --> 00:11:11,710
+eu posso fazer com desconto itens adicionar eu também pego o próprio objeto atual desse e adicione o
+
+114
+00:11:11,710 --> 00:11:15,830
+como sendo a referência de compra dentro de mim.
+
+115
+00:11:15,850 --> 00:11:18,940
+Você também pode se quiser criar um outro objeto um ao outro.
+
+116
+00:11:19,000 --> 00:11:25,160
+Outro método aqui embaixo que esse método em vez de receber o item ele vai receber os atributos por
+
+117
+00:11:25,160 --> 00:11:26,680
+exemplo um homem
+
+118
+00:11:29,230 --> 00:11:33,340
+quantidade vai receber pra isso.
+
+119
+00:11:33,970 --> 00:11:39,310
+Ou seja nesse caso você não precisa instancia o objeto você pode instancia o objeto aqui dentro.
+
+120
+00:11:39,980 --> 00:11:52,660
+O item passando no nome de boa quantidade boa pra isso ou seja mais o que é isso você pode até fazer
+
+121
+00:11:52,660 --> 00:11:59,320
+o seguinte veja eu tenho que criar isso aqui tudo que eu vou chamar um metro de cima desse ponto adicionar
+
+122
+00:11:59,330 --> 00:12:05,270
+item passando um novo item certo ou seja esse método chamou o Metro de cima para executar.
+
+123
+00:12:05,270 --> 00:12:07,980
+Posso até colocar esse metro aqui e baixar.
+
+124
+00:12:08,500 --> 00:12:15,190
+Então esse método aqui de cima está recebendo os parâmetros chamou o Metro de baixo pra realmente fazer
+
+125
+00:12:15,280 --> 00:12:20,740
+os dois passos quer adicionar o item na lista de itens e ao mesmo tempo aceitar a compra e o objeto
+
+126
+00:12:20,740 --> 00:12:27,700
+atual como sendo a compra daquele item pra você ter relação bidirecional de forma consistente e aqui
+
+127
+00:12:27,700 --> 00:12:33,490
+no nosso teste eu posso em alguns momentos não necessariamente precisar criar uma nova instância eu
+
+128
+00:12:33,490 --> 00:12:39,850
+posso simplesmente passar os dados que automaticamente esse método já distancia um item que já adiciona
+
+129
+00:12:39,850 --> 00:12:44,080
+dentro da lista dos itens e também pega a compra certa pra ficar.
+
+130
+00:12:44,110 --> 00:12:46,660
+A relação bidirecional de forma correta.
+
+131
+00:12:46,660 --> 00:12:52,450
+Vocês percebem que no momento que eu tinha apenas uma relação unidirecional era mais simples eu não
+
+132
+00:12:52,450 --> 00:12:57,760
+precisava ficar fazendo todas essas essas relações para manter uma consistência nos dados.
+
+133
+00:12:57,760 --> 00:13:04,240
+Quando você tem uma relação bidirecional você já tem um pouco mais de trabalho para manter essa relação
+
+134
+00:13:04,240 --> 00:13:11,020
+de forma consistente para que o item faça parte da lista de itens de uma compra e que essa mesma compra
+
+135
+00:13:11,080 --> 00:13:14,850
+aponte para sendo o atributo que pertence ao item.
+
+136
+00:13:14,890 --> 00:13:20,620
+Tem que haver uma coerência também quando você acerta os valores direcionais ou bi direcionais.
+
+137
+00:13:20,620 --> 00:13:25,840
+Como falei pra vocês bidirecional um pouco mais complicado espero que tenha ficado claro e que nós criamos
+
+138
+00:13:25,840 --> 00:13:32,550
+um método para obter o total que pega exatamente mostra que o poder da relação que tem um objeto ou
+
+139
+00:13:32,560 --> 00:13:34,990
+outro ou seja a partir da compra.
+
+140
+00:13:34,990 --> 00:13:40,900
+Você não sabe olhando só para a compra qual é o total dela a não ser que você percorra os itens mas
+
+141
+00:13:40,900 --> 00:13:46,360
+você pode sim percorrer os itens porque existe uma relação entre as duas classes é exatamente esse o
+
+142
+00:13:46,360 --> 00:13:52,640
+poder de uma classe interagir com outra colaborando com a outra para que as respostas corretas para
+
+143
+00:13:52,780 --> 00:13:59,650
+os cálculos corretos ou as regras sejam executados de uma forma interessante e com alguma relação ou
+
+144
+00:13:59,650 --> 00:14:05,350
+seja como dentro de campo a gente tem uma relação com os itens então fica muito fácil para a gente conseguir
+
+145
+00:14:05,350 --> 00:14:10,570
+calcular esse tipo de informação aqui com uma relação bidirecional só pra fazer mais ou menos aquela
+
+146
+00:14:10,570 --> 00:14:18,630
+mesma brincadeira da vez passada você pode botar compra ponto e itens aqui no caso como é uma lista
+
+147
+00:14:18,640 --> 00:14:22,610
+posso pagar por 25 garantiu aqui de novo eu tenho o OK.
+
+148
+00:14:22,690 --> 00:14:30,550
+Um dos itens pegando nos itens você tem como pagar a compra desse item e você tem como pegar por exemplo
+
+149
+00:14:30,940 --> 00:14:32,040
+os itens.
+
+150
+00:14:32,060 --> 00:14:42,760
+Ponto 7 em si um ponto compra contudo obter total um valor certo você tem como fazer esse tipo de construção
+
+151
+00:14:42,760 --> 00:14:52,070
+porque existe uma relação bidirecional que eu posso colocá la total total e o resultado eu posso mostrar
+
+152
+00:14:52,480 --> 00:15:11,020
+aquele total e acrescentar ao valor total deixar claro que isso aqui só pra mostrar a relação bi direcional
+
+153
+00:15:11,250 --> 00:15:17,720
+você que na prática não faz sentido você ficar navegando só lendo ou detonando CSS não faz muito.
+
+154
+00:15:17,740 --> 00:15:23,670
+Na prática você não faria esse tipo de jogo aqui só pra mostrar pra você que é possível sim mesmo não
+
+155
+00:15:23,720 --> 00:15:24,990
+relação.
+
+156
+00:15:25,170 --> 00:15:28,360
+Pra você ter relação bidirecional entre as quais.

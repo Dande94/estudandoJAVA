@@ -1,0 +1,123 @@
+1
+00:00:00,200 --> 00:00:02,810
+Pessoal vou falar agora sobre um recurso do Java.
+
+2
+00:00:02,830 --> 00:00:09,690
+Achei interessante que é o Gui que o argumento variável e pra isso vou usar um exemplo que eu fiz no
+
+3
+00:00:09,690 --> 00:00:12,270
+passado que está dentro de
+
+4
+00:00:16,720 --> 00:00:23,260
+polimorfismo e eu vou justamente executar aqui a classe inventada que é aquela classe que eu criei uma
+
+5
+00:00:23,260 --> 00:00:28,870
+pessoa várias comidas e depois eu chamo o método como e vou fazer com que esse método comer passa a
+
+6
+00:00:28,870 --> 00:00:31,560
+receber uma quantidade variável de argumentos.
+
+7
+00:00:31,610 --> 00:00:34,810
+é justamente para isso que serve o baralho.
+
+8
+00:00:35,110 --> 00:00:40,420
+Então eu vou entrar aqui dentro da classe Pessoa e vou fazer a seguinte modificação vou colocar aqui
+
+9
+00:00:40,750 --> 00:00:48,630
+três pontinhos e vou mudar aqui pra comidas no plural quando eu coloco esses três pontinhos eu tocarem
+
+10
+00:00:48,720 --> 00:00:55,570
+dizer que agora posso passar quantas comidas eu quiser separados por vírgula que o Japão vai pagar todos
+
+11
+00:00:55,570 --> 00:00:57,740
+esses argumentos que são variáveis.
+
+12
+00:00:57,740 --> 00:01:05,160
+Eu postei um post T2 posso ter 10 e vai transformar isso em um a Rei e Eu posso encarar sobre Sarney
+
+13
+00:01:05,550 --> 00:01:09,970
+e fazer a pessoa comer todos as comidas que foram passadas por parâmetro.
+
+14
+00:01:10,260 --> 00:01:17,320
+Então continuando esse parâmetro comidas aqui ele dentro do método ele vai ser um rei.
+
+15
+00:01:17,380 --> 00:01:19,380
+Colocar aqui comidas.
+
+16
+00:01:19,780 --> 00:01:27,210
+Você percebeu que ele é o rei de comida porque o Java transforma esses argumentos variáveis em um rei
+
+17
+00:01:27,220 --> 00:01:28,180
+como já mencionei.
+
+18
+00:01:28,600 --> 00:01:35,450
+Então pra completar esse código eu vou gerar um laço forte comida sei eu vou encarar em cima desse arredio
+
+19
+00:01:35,470 --> 00:01:38,140
+comidas e eu vou colocar esse comando aqui pra cima.
+
+20
+00:01:40,010 --> 00:01:43,970
+Sabia que em vez de ser comido agora vou colocar a variável C.
+
+21
+00:01:44,030 --> 00:01:49,400
+Ou seja então resumindo eu vou conseguir passar a quantidade de comidas que eu queira passar pra esse
+
+22
+00:01:49,400 --> 00:01:54,270
+método e aí em cima da quantidade de comidas que ele vai encarar.
+
+23
+00:01:54,320 --> 00:01:58,700
+Sobre cada uma delas vai somar o peso da comida com o peso da pessoa.
+
+24
+00:01:58,700 --> 00:02:02,120
+Como é que isso pode ser feito lá na classe jantar.
+
+25
+00:02:02,210 --> 00:02:12,620
+Eu posso simplesmente em vez de chamar comida três vezes eu chamo arroz vírgula feijão e aí posso tirar
+
+26
+00:02:12,620 --> 00:02:22,580
+esse método e ele vai funcionar normalmente como eu posso também tirar aqui o sorvete dela e passar
+
+27
+00:02:23,000 --> 00:02:29,810
+aqui porque os argumentos são variáveis ou seja numa única chamada de comer eu passo quantos parâmetros
+
+28
+00:02:29,810 --> 00:02:37,210
+eu quiser e lá esses parâmetros são transformados em um rei e como Rei eu posso varrer esse aí somando
+
+29
+00:02:37,220 --> 00:02:40,030
+o peso de cada um dos alimentos o peso da pessoa.
+
+30
+00:02:40,100 --> 00:02:46,700
+Assim fica bem mais simples com uma chamada só eu consigo fazer a pessoa comer quantas comidas forem
+
+31
+00:02:46,820 --> 00:02:47,510
+necessárias.

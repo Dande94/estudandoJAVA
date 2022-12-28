@@ -1,0 +1,727 @@
+1
+00:00:00,350 --> 00:00:04,780
+Na sala eu quero fazer a relação um para um chá para vocês.
+
+2
+00:00:04,830 --> 00:00:09,510
+O início de como você pode compor um objeto a partir de outros objetos também.
+
+3
+00:00:09,930 --> 00:00:12,770
+Então para isso nós vamos criar um novo pacote.
+
+4
+00:00:12,990 --> 00:00:17,380
+Eu vou criar na verdade nova classe na criação na classe eu vou criar um novo pacote.
+
+5
+00:00:17,430 --> 00:00:24,150
+Nossa primeira classe para esse exercício eu vou criar um pacote só e eu vou criar um pacote chamado
+
+6
+00:00:24,160 --> 00:00:25,230
+composição.
+
+7
+00:00:25,230 --> 00:00:29,560
+Depois a gente vai criar outros pacotes para testar outras facetas.
+
+8
+00:00:29,560 --> 00:00:35,310
+Outros recursos da orientação objeto e aqui eu vou chamar o nome da classe de motor e vou criar uma
+
+9
+00:00:35,310 --> 00:00:42,670
+classe bem simples do motor ele vai ter um atributo que eu vou chamar aqui o atributo do W.
+
+10
+00:00:43,070 --> 00:00:52,830
+E vai ter por exemplo um fator um fator injeção ou seja quanto de combustível eu estou criando aquilo
+
+11
+00:00:52,830 --> 00:00:58,590
+que eu não conheço muito a parte do motor 7 fator de injeção que por padrão vai ser um que está sendo
+
+12
+00:00:58,590 --> 00:01:01,810
+ingerido digamos assim no motor jogado no motor.
+
+13
+00:01:02,120 --> 00:01:08,430
+Há por exemplo um fato la gasolina por exemplo se eu começar a acrescentar esse fator por exemplo pra
+
+14
+00:01:08,430 --> 00:01:09,550
+um meio.
+
+15
+00:01:09,570 --> 00:01:16,340
+Ele vai acrescentar mais gasolina no motor e automaticamente o giro do motor vai ser acrescentado.
+
+16
+00:01:16,380 --> 00:01:19,680
+Então eu posso colocar aqui por exemplo o método.
+
+17
+00:01:20,010 --> 00:01:27,830
+Então o método vai retornar um valor inteiro e eu vou pegar o nome do Metro vai ser giros ou seja quantos
+
+18
+00:01:27,840 --> 00:01:38,070
+giros esse motor está rodando e esse giros vai ser uma relação entre fator de injeção vezes três mil.
+
+19
+00:01:38,250 --> 00:01:46,790
+Então se eu der uma injeção de combustível de um ponto cinco significa que ele vai estar rodando a 4.500
+
+20
+00:01:46,850 --> 00:01:52,090
+aqui como tem um fator de injeção sendo dado multiplicado por um valor inteiro.
+
+21
+00:01:52,110 --> 00:01:54,810
+Eu tento fazer um encaixe para arredondar isso.
+
+22
+00:01:55,170 --> 00:02:01,750
+Eu posso arredondar posso fazer que é o ponto de jogo isso aqui dentro.
+
+23
+00:02:01,750 --> 00:02:05,880
+E o resultado vai ser precisa ser feito um caixa inteiro.
+
+24
+00:02:05,890 --> 00:02:10,800
+Aí eu posso arredondar se tiver mais perto de um valor redondo e depois converteu pra um valor inteiro
+
+25
+00:02:10,800 --> 00:02:16,740
+de tal forma que o giros vai ser um valor calculado que será multiplicado por 3 mil.
+
+26
+00:02:16,800 --> 00:02:22,320
+E aqui eu tenho um fator de injeção que começa com ou seja por padrão quando o motor liga ele fica com
+
+27
+00:02:22,320 --> 00:02:27,180
+um fator de injeção e a partir do momento que acelera esse fator de injeção aumenta.
+
+28
+00:02:27,180 --> 00:02:34,530
+Falando nisso eu posso criar um outra variável bolha chamado ligado que começa com falso e se o valor
+
+29
+00:02:34,530 --> 00:02:44,300
+de ligá lo for falso ou seja se não estiver ligado eu posso simplesmente retornar zero.
+
+30
+00:02:44,310 --> 00:02:51,690
+Ou seja o carro não vai ter giro nenhum caso contrário aí sim eu faço a multiplicação entre o fator
+
+31
+00:02:51,690 --> 00:02:58,340
+de injeção e o valor dos 3 mil que é o fator de multiplicação aqui em cima o fator de geração só aqui
+
+32
+00:02:59,050 --> 00:03:02,570
+há uma ideia maluca do que seria la selar o giro do motor.
+
+33
+00:03:02,570 --> 00:03:08,600
+Imagine que o giro do motor seja quanto a gasolina inserida dentro do lado a combustão certa queima
+
+34
+00:03:08,950 --> 00:03:15,090
+o da explosão que acontece dentro do motor total simulando mais ou menos isso quanto mais acelera mais
+
+35
+00:03:15,090 --> 00:03:17,970
+aumenta o fator de injeção mas o giro do carro vai aumentar.
+
+36
+00:03:18,090 --> 00:03:23,010
+Então quem acelera o carro mais quem acaba gerando mais é o motor então tem essa relação.
+
+37
+00:03:23,010 --> 00:03:24,620
+E é exatamente isso que eu quero mostrar.
+
+38
+00:03:24,900 --> 00:03:29,380
+E como existe uma relação um para um motor pertence a um carro o carro tem um motor.
+
+39
+00:03:29,820 --> 00:03:39,120
+Então aqui eu vou criar um outro objeto meu carro então chamado de carro o carro vai ter um motor então
+
+40
+00:03:39,120 --> 00:03:41,790
+colega faço para dizer que um carro tem um motor.
+
+41
+00:03:42,120 --> 00:03:46,590
+Eu coloco por exemplo um motor chama de motor.
+
+42
+00:03:46,740 --> 00:03:52,860
+Nesse caso eu posso deixar o motor nulo se quiser ou pra ter um valor padrão já posso inicializar o
+
+43
+00:03:52,860 --> 00:03:58,320
+motor diretamente na hora de declarar ele como um atributo de instância.
+
+44
+00:03:58,320 --> 00:04:01,350
+Se eu colocar estática fica um atributo de classe.
+
+45
+00:04:01,710 --> 00:04:07,690
+Mas como cada novo carro criado terá o seu próprio motor então quero deixar ele com o atributo distância
+
+46
+00:04:07,710 --> 00:04:15,510
+posso inicializar aqui posso inicializar no construtor também não é um problema como também posso receber
+
+47
+00:04:15,510 --> 00:04:17,600
+como parâmetro para o construtor o motor.
+
+48
+00:04:17,850 --> 00:04:22,590
+São várias formas diferentes para você distanciar o motor por exemplo que eu estou seguindo a mais simples
+
+49
+00:04:22,620 --> 00:04:25,170
+e eu vou fazer aqui eu vou criar um método.
+
+50
+00:04:25,220 --> 00:04:28,950
+Então qualquer que pode acelerar
+
+51
+00:04:32,320 --> 00:04:39,320
+e aqui nesse acelerador eu vou fazer o seguinte eu vou pegar o motor.
+
+52
+00:04:39,580 --> 00:04:40,820
+Ponto.
+
+53
+00:04:40,990 --> 00:04:49,340
+Fator de injeção vou acrescentar a cada vez que acelerar de 0 ponto 4 em cima do valor atual.
+
+54
+00:04:49,340 --> 00:04:57,630
+E se eu chamar que o frear vai fazer exatamente o oposto eu vou chamar aqui voltou.
+
+55
+00:04:57,830 --> 00:05:05,490
+Fator de injeção nos 04 o cuidado que você tem tem pra saber se esse valor vai ficar.
+
+56
+00:05:05,560 --> 00:05:13,610
+O valor por exemplo é inválido porque o máximo fator de injeção que você possa ter 3 é o menor que você
+
+57
+00:05:13,610 --> 00:05:18,380
+possa ter de um carro ligado é zero ponto 5 burrice não desliga.
+
+58
+00:05:18,800 --> 00:05:24,910
+Então você pode criar alguns mecanismos de proteção e validação para evitar que seja feito algo errado.
+
+59
+00:05:24,920 --> 00:05:29,540
+Não vou me preocupar muito com isso agora porque eu vou estar comentando sobre isso quando falar de
+
+60
+00:05:29,540 --> 00:05:34,180
+encapsulamento e algumas coisas mais profundas de orientação objeto durante o capítulo.
+
+61
+00:05:34,190 --> 00:05:41,450
+Nesse exemplo eu quero só focar na relação que existe entre carro e motor ou seja uma relação pra um
+
+62
+00:05:41,480 --> 00:05:43,760
+carro tem um motor no outro tem um carro.
+
+63
+00:05:43,890 --> 00:05:50,030
+Eu quero focar exatamente nisso mostrando que é possível dentro de uma classe no CT com um atributo
+
+64
+00:05:50,180 --> 00:05:55,670
+ou outra classe que você criou então aqui fator de injeção e no final das contas eu vou querer saber
+
+65
+00:05:55,670 --> 00:06:01,910
+quantos giros o motor desse carro está tendo depois que você fizer algo mais acelerado e chamar algumas
+
+66
+00:06:01,910 --> 00:06:03,690
+vezes a função acelerar.
+
+67
+00:06:04,100 --> 00:06:16,210
+Então pra isso eu vou criar aqui uma nova classe o nome da classe será carro teste é aqui que eu vou
+
+68
+00:06:16,210 --> 00:06:24,690
+colocar o método Mengão instancia um carro Estanciano um carro um carro sei recebe mil carrão.
+
+69
+00:06:24,820 --> 00:06:32,860
+Aqui eu posso fazer o seguinte eu posso criar dentro de carro também tem outro método VOD chamado ligar
+
+70
+00:06:33,790 --> 00:06:36,060
+e aqui dentro desse método ligar.
+
+71
+00:06:36,250 --> 00:06:45,820
+Eu vou fazer o seguinte vou pegar Mouton ponto ligado recebe só aí o carro começa a girar e vou também
+
+72
+00:06:45,820 --> 00:06:50,370
+criar um outro método chamado desligar.
+
+73
+00:06:50,740 --> 00:06:59,830
+E aqui eu vou fazer o contrário voltou muito ligado recebe falso e você também pode fazer por exemplo
+
+74
+00:06:59,830 --> 00:07:07,140
+uma função do tipo que retorna um bullying Bulent está ligado.
+
+75
+00:07:07,870 --> 00:07:13,170
+O próprio carro não tem esse atributo ligado mas ele tem o atributo motor e a parte do motor.
+
+76
+00:07:13,180 --> 00:07:22,870
+Sabe então Brittany MotoGP ponto ligado vai tornar tudo falso pra saber se o carro está ou não ligado
+
+77
+00:07:22,870 --> 00:07:28,840
+a partir do motor ou se há uma relação entre os dois e essa relação está sendo expressa a partir dessa
+
+78
+00:07:28,840 --> 00:07:34,390
+classe no momento que eu criei um atributo de instância ou seja pra cada novo carro terá um novo motor
+
+79
+00:07:34,410 --> 00:07:39,860
+e a relação que existe entre eles dois está aqui eu criei um carro vou criar aqui um carro.
+
+80
+00:07:40,710 --> 00:07:48,580
+Eu fazer o seguinte o qual Cacciola segundo ponto ligado na verdade quer ser eu não sei.
+
+81
+00:07:48,870 --> 00:07:55,920
+Vou fazer o seguinte está ligado eu vou mostrar inicialmente ao System Art prende ele está ligado coisa
+
+82
+00:07:56,010 --> 00:08:00,020
+que você vai ver que o resultado vai ser falso porque não está ligado.
+
+83
+00:08:00,040 --> 00:08:03,380
+Agora vou fazer seu 1 ponto ligar.
+
+84
+00:08:03,610 --> 00:08:09,490
+Agora sim se eu duplicar essa linha e colocar aqui embaixo você vai ver que o carro passou a ficar ligado.
+
+85
+00:08:09,550 --> 00:08:14,590
+Se eu quiser ver por exemplo um projeto que está aqui eu não tenho como acessar diretamente do caudilho
+
+86
+00:08:14,590 --> 00:08:21,280
+do motor mas o que eu posso fazer é o seguinte eu posso colocar aqui por exemplo System Alves que ser
+
+87
+00:08:21,280 --> 00:08:25,730
+um ponto motor ponto giros.
+
+88
+00:08:25,810 --> 00:08:32,710
+Ou seja eu consigo acessar o atributo motor como o motor também é objeto possa saber algum método por
+
+89
+00:08:32,710 --> 00:08:33,670
+exemplo do objeto.
+
+90
+00:08:33,670 --> 00:08:39,630
+Isso aqui é mais ou menos parecido com o que está acontecendo em System pontual tipo Alien.
+
+91
+00:08:39,760 --> 00:08:42,850
+Ou seja só a diferença é que a classe que é uma instância.
+
+92
+00:08:43,030 --> 00:08:49,440
+Mas logo depois eu tenho um atributo alt que eu também tem um atributo certo e os giros e um metro assim
+
+93
+00:08:49,440 --> 00:08:51,750
+como o presente ali também é um método.
+
+94
+00:08:51,760 --> 00:08:57,960
+Então do jeito que está aqui nós temos um motor rodando a 3000 rpm rotações por minuto.
+
+95
+00:08:57,970 --> 00:09:07,390
+Se eu fizer por exemplo um um ponto acelerar dois três quatro vezes é pedir pra mostrar o giros do motor
+
+96
+00:09:07,390 --> 00:09:12,830
+então ser um ponto botou ponto de giros.
+
+97
+00:09:12,850 --> 00:09:19,090
+A gente vai ver que o giro do motor agora está rodando a sete mil de 800 arrepende se o fizer será um
+
+98
+00:09:19,720 --> 00:09:26,020
+ponto frear ou seja duas três quatro vezes.
+
+99
+00:09:26,150 --> 00:09:34,540
+Se ele vai botar para o mesmo patamar que ele voltou anteriormente então ser um ponto motor conta giros
+
+100
+00:09:34,990 --> 00:09:38,440
+tão executado aqui você vai ver que ele voltou pra 3 mil rpm.
+
+101
+00:09:38,440 --> 00:09:44,590
+Se eu continuar freando aqui certo vou continuar fazendo aqui mais algumas vezes você vai ver que ele
+
+102
+00:09:44,590 --> 00:09:50,260
+vai acabar indo para um giro negativo uma hora ou outra ao menos 1800 rpm isso não existe.
+
+103
+00:09:50,850 --> 00:09:57,490
+é possível estabelecer algum critério por exemplo lá no metro frear já pra gente criar algum mecanismo
+
+104
+00:09:57,490 --> 00:10:07,580
+de defesa você pode fazer o seguinte se o motor por outro fator de injeção for maior do que zero.
+
+105
+00:10:07,720 --> 00:10:16,540
+Ponto 5 por exemplo aí você faz essa mudança caso contrário o caso ou simplesmente não tem caso contrário
+
+106
+00:10:16,540 --> 00:10:18,190
+simplesmente não faz nada.
+
+107
+00:10:18,190 --> 00:10:25,060
+Se o valor nesse caso o que freia tem que ser maior do que zero ponto 5 é o acelerar você pode fazer
+
+108
+00:10:25,060 --> 00:10:33,510
+esse fator de injeção por exemplo menor menor do que 2 pontos 5.
+
+109
+00:10:33,700 --> 00:10:41,200
+Certo aí sim você faz alguns porque ele possui até 3 e então você coloca o 0 2 2 6.
+
+110
+00:10:41,230 --> 00:10:43,000
+Aí sim você pode fazer isso aqui.
+
+111
+00:10:43,000 --> 00:10:49,780
+Caso contrário não faz nada que já sim uma proteção de tal forma que se usa de novo o carro teste você
+
+112
+00:10:49,780 --> 00:10:54,520
+vai ver que ele vai ficar no mínimo rodar seiscentos RPM está certo.
+
+113
+00:10:54,520 --> 00:10:58,950
+Por mais que você tem que frear esse vai ser o valor mínimo que o motor acontece.
+
+114
+00:10:59,370 --> 00:11:06,200
+Mas do jeito que está aqui existe a possibilidade de o usuário chegar diretamente colocar seu ponto
+
+115
+00:11:06,200 --> 00:11:07,150
+o motor.
+
+116
+00:11:07,180 --> 00:11:11,100
+Ponto o fator de injeção recebe menos 30.
+
+117
+00:11:11,110 --> 00:11:12,270
+Isso não é possível.
+
+118
+00:11:12,310 --> 00:11:18,990
+Eu concordo realmente é possível geraria um valor completamente inválido por isso que a gente vai precisar
+
+119
+00:11:18,990 --> 00:11:24,870
+de um dos pilares da orientação nesse pilar que é o encapsulamento que a gente vai ver mais à frente
+
+120
+00:11:24,870 --> 00:11:31,200
+encapsular o momento certo então vai dizer que faltou um encapsulamento.
+
+121
+00:11:31,200 --> 00:11:36,810
+Vou comentar e depois a gente vai mostrar esse pilar e explicar para vocês algum dos mecanismos que
+
+122
+00:11:36,810 --> 00:11:43,920
+podem ser usados para evitar esse tipo de exposição desnecessária das variáveis de tal forma que o usuário
+
+123
+00:11:44,220 --> 00:11:50,030
+mesmo que não seja mal intencionado ou simplesmente desavisado coloca um parâmetro que não pode colocar
+
+124
+00:11:50,120 --> 00:11:56,120
+e quem é o responsável por proteger os parâmetros e impedir que determinadas anomalias aconteça.
+
+125
+00:11:56,120 --> 00:12:02,760
+A própria classe já que a classe A dona do atributo ela precisa fazer com que o atributo sempre esteja
+
+126
+00:12:02,760 --> 00:12:08,910
+num estado válido sempre esteja dentro de patamares que sejam coerentes com aquilo que você se propôs
+
+127
+00:12:08,910 --> 00:12:10,020
+a implementar na classe.
+
+128
+00:12:10,020 --> 00:12:12,050
+A gente vai discutir isso em outra aula.
+
+129
+00:12:12,060 --> 00:12:18,150
+Por enquanto eu quero achar pra vocês é a relação um para um ou seja um carro tem o motor e o motor
+
+130
+00:12:18,150 --> 00:12:19,230
+tem um carro.
+
+131
+00:12:19,260 --> 00:12:23,250
+Nesse caso a relação é uma relação unidirecional tá certo.
+
+132
+00:12:23,260 --> 00:12:24,040
+Exatamente.
+
+133
+00:12:24,330 --> 00:12:30,070
+Nesse caso uma relação unidirecional pouco cai porque o carro tem o motor e o motor tem um carro.
+
+134
+00:12:30,290 --> 00:12:36,270
+E se eu quisesse criar uma relação bidirecional ou seja o motor também tem um carro.
+
+135
+00:12:36,270 --> 00:12:37,580
+Posso fazer isso pode.
+
+136
+00:12:37,580 --> 00:12:46,520
+Você pode colocar aqui por exemplo um carro um carro por exemplo de carro recebe.
+
+137
+00:12:46,710 --> 00:12:48,260
+Vou colocar aqui para ser nulo.
+
+138
+00:12:48,270 --> 00:12:54,610
+Vou forçar que na construção do motor então aqui o motor o motor esperam receber um carro com um parâmetro
+
+139
+00:12:54,650 --> 00:12:55,650
+um carro.
+
+140
+00:12:56,170 --> 00:13:04,260
+E aqui eu vou fazer o seguinte ao 10 ponto o carro recebe o carro o que significa que nesse ponto aqui
+
+141
+00:13:04,260 --> 00:13:09,570
+no carro eu vou ter um problema na hora de construir o motor porque eu preciso passar um carro com parâmetro
+
+142
+00:13:09,560 --> 00:13:14,940
+eu posso fazer o seguinte só eu posso colocar aquilo que o motor ficar aqui com o valor padrão que vai
+
+143
+00:13:14,940 --> 00:13:15,920
+ser nulo.
+
+144
+00:13:15,920 --> 00:13:23,460
+E na construção do carro não vou criar aqui todo o carro eu posso fazer o seguinte Aqui dentro eu faço
+
+145
+00:13:23,460 --> 00:13:33,320
+10 ponto o motor recebe 20 mil motor e eu passo o desse como parâmetro ou seja o próprio objeto atual
+
+146
+00:13:33,320 --> 00:13:36,750
+que é o carro que eu vou passar para construir o motor.
+
+147
+00:13:36,780 --> 00:13:39,610
+Dessa forma agora um carro tem um motor no motor.
+
+148
+00:13:39,600 --> 00:13:40,640
+Tem um carro.
+
+149
+00:13:40,680 --> 00:13:46,860
+Se você olhar o nosso teste continua funcionando certo e você vai conseguir fazer coisas do tipo.
+
+150
+00:13:46,860 --> 00:13:56,340
+Isso aqui pode ser um ponto motor contra um carro contra o motor do carro.
+
+151
+00:13:56,490 --> 00:14:02,210
+Ponto motor ponto giros porque você consegue fazer esse tipo de coisa.
+
+152
+00:14:02,580 --> 00:14:08,430
+Porque existe uma relação bidirecional ou seja o seu uso tem um motor e um motor tem um carro que é
+
+153
+00:14:08,430 --> 00:14:13,680
+o mesmo que esse carro tem um motor que esse motor tem um carro que escape do motor porque esse motor
+
+154
+00:14:13,680 --> 00:14:14,730
+tem giro está certo.
+
+155
+00:14:14,730 --> 00:14:21,840
+Isso aqui vai funcionar porque aqui eu tenho uma relação bidirecional até maximizar aqui e colocá lo
+
+156
+00:14:21,850 --> 00:14:26,650
+na relação bi direcional.
+
+157
+00:14:26,710 --> 00:14:29,310
+Lá eu preciso fazer esse monte encadeamento.
+
+158
+00:14:29,310 --> 00:14:29,940
+Claro que não.
+
+159
+00:14:29,940 --> 00:14:35,700
+Eu estou mostrando pra você que nesse caso com uma relação bidirecional você pode fazer isso via de
+
+160
+00:14:35,700 --> 00:14:40,950
+regra você só usa relações bi direcionais como realmente são necessárias.
+
+161
+00:14:40,950 --> 00:14:41,530
+Por quê.
+
+162
+00:14:41,940 --> 00:14:44,190
+Porque você precisa manter coerente.
+
+163
+00:14:44,250 --> 00:14:48,650
+Você não pode fazer com que um carro por exemplo até que um mantenha o motor.
+
+164
+00:14:48,660 --> 00:14:51,470
+Só que esse motor aponta para um carro diferente.
+
+165
+00:14:51,640 --> 00:14:56,940
+Vai ficar estranho porque você não vai ter uma coerência na hora da construção nesse caso eu estou mantendo
+
+166
+00:14:56,940 --> 00:14:58,000
+a coerência.
+
+167
+00:14:58,170 --> 00:15:04,410
+No momento que eu crio um objeto o motor inclusive poderia até fazer com que o carro dentro do motor
+
+168
+00:15:04,410 --> 00:15:08,280
+fosse algo fino algo que não pudesse ser modificado.
+
+169
+00:15:08,280 --> 00:15:13,650
+Inclusive eu também posso fazer o motor que isso é algo falho ou seja constante.
+
+170
+00:15:13,680 --> 00:15:16,200
+Eu nunca vou poder mudar a referência do motor.
+
+171
+00:15:16,200 --> 00:15:21,750
+Pode ser que faça sentido para a lógica da sua aplicação ou não mas nesse caso acabo ficando mais seguro
+
+172
+00:15:21,750 --> 00:15:22,140
+porque.
+
+173
+00:15:22,140 --> 00:15:25,270
+Porque na construção do motor você já passou o próprio carro.
+
+174
+00:15:25,290 --> 00:15:31,040
+E nesse caso sempre estará essa relação coerente digamos assim no motor aponta para o carro.
+
+175
+00:15:31,210 --> 00:15:35,430
+E esse mesmo carro aponta para o motor uma relação bidirecional.
+
+176
+00:15:35,430 --> 00:15:38,280
+Também é possível fazer uma relação um para um.
+
+177
+00:15:38,280 --> 00:15:43,040
+Na verdade a relação bidirecional pode ser feita em qualquer uma das relações tanto um para um como
+
+178
+00:15:43,040 --> 00:15:44,850
+um para mim como um hino para a EMI.
+
+179
+00:15:45,270 --> 00:15:51,320
+Só mostrei pra vocês a possibilidade que existe e mostrando pra vocês que não é digamos assim o padrão.
+
+180
+00:15:51,320 --> 00:15:57,780
+Não acho que você vai sim criar relações binacionais quando for justificável quando for necessário.
+
+181
+00:15:58,080 --> 00:16:04,020
+Mas eu diria que por padrão você acaba colocando a relação unidirecional até porque fica um pouco mais
+
+182
+00:16:04,020 --> 00:16:06,920
+simples manter a consistência entre os objetos.

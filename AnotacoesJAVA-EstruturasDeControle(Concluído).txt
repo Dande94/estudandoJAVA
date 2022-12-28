@@ -1,0 +1,85 @@
+F051 - Introdução
+
+F052 -
+IF
+'ctrl-' -> comprimi o bloco de código, e ctrl+ expande o blobo;
+'ctrl shift -' -> encolhe a fonte do código, e ctrl shift + aumenta fonte do código;
+'ctrl l' -> lista de atalhos no Eclipse;
+'ctrl ll' ->concfiguração da lista de atalhos no Eclipse;
+
+como salvar uma condição dentro da variavel 
+como usar o if e estrutura
+
+F053 - 
+Desafio
+
+F054-
+//minha resposta: por causa do ';' depois do parenteses do if, a IDE entende que o cbloco acabou ali e executa as linha na sequencia;
+
+F055 -
+IfElse 
+F056 -
+IfElseIf
+F057 - 
+Desafio
+F058 - 
+tanto a minha quanto a do professor geram o mesmo resultado, porém ele usou o .equalsIgnoreCase, que realemnte foi ua ótima dica!
+
+F059 - 
+While
+enquanto a condição for verdadeira ela irá repetir!
+
+F060 - 
+For 1
+F061 - 
+Exemplo de While, pseudo-desafio ao aluno;
+F062 -
+Do While
+é executada pelo 1 vez;
+nessa aula ensina como criar atalhos para inclusão de códigos(exemplo do syso que trás do prityln());
+
+F063 - 
+Desafio
+F064 - 
+falhei no desafio
+F065 -
+mini-Desafio
+F066 - 
+For aninhado
+Nessa aula comenta sobre uso de variaveis dentro e fora de blocos de loop -> Escopo;
+F067 - 
+Desafio
+F068 - 
+falhei no desafio
+
+F069 - 
+switch case; sem break;
+não recebe valor booleano, apenas um alor direto;
+//o problema de não usar o break, é que quado encontrar um case que satisfaça a condição oswitc executa todos os cases abaixo
+//para algo acumulativo a ideia funciona, mas para uma seleção única não;
+
+F070 - 
+switch case; com break;
+case aninhado;
+
+F071 - 
+break -> desvio de fluxo normal, pode ser usado no for();
+ótimo pra debug ou encontrar alguma informação;
+aplicação em outros casos;
+
+F072 - 
+continue -> interrompe 1 faixa do loop e vai pra próxima; (para melhor compreensão ver o exemplo do eclipse - Continue);
+mostra nessa aula o if() simplificado;
+
+F073 - 
+break rotulado;
+usar o exemplo do eclipse pra entender melhor, pois a atuação de break muda ao ser setado dentro de outro e muda o comportamento com a rotulação;
+
+F074 - 
+continue rotulado;
+quase não se ve diferença.. então pra entender assistir a aula novamente;
+
+F075 - 
+Concluído;
+
+______________________________________________________________________________________________________________________

@@ -1,0 +1,351 @@
+1
+00:00:00,230 --> 00:00:06,150
+Pessoal agora a gente precisa entender um pouco como funciona a lógica da calculadora do Mac.
+
+2
+00:00:06,150 --> 00:00:11,580
+Pra que a gente possa mapear que tipo de atributos a gente vai precisar dentro da nossa calculadora.
+
+3
+00:00:11,580 --> 00:00:14,830
+Por enquanto a gente só tem o texto atual.
+
+4
+00:00:14,970 --> 00:00:20,820
+Eu Vou marchar pra vocês que o texto atual ele é insuficiente para a gente implementar nossa lógica
+
+5
+00:00:20,820 --> 00:00:26,030
+ou precisar ter outros atributos aqui pra que a gente possa conseguir implementar a mesma lógica então
+
+6
+00:00:26,550 --> 00:00:34,800
+a gente já viu por exemplo como eu coloco 10 e eu clico por exemplo e mais 10 continua no display da
+
+7
+00:00:34,800 --> 00:00:41,130
+calculadora mas ele acabou de ser armazenado numa variável interna de tal forma que se eu digitar por
+
+8
+00:00:41,130 --> 00:00:48,300
+exemplo 25 o 10 está dentro de um valor interno ou seja o bofe.
+
+9
+00:00:48,760 --> 00:00:55,350
+E quando eu fizer eu coloquei o mais coloquei 25 agora ele já tem uns 10 e tem uns 25 no display.
+
+10
+00:00:55,350 --> 00:01:01,170
+Se eu apertar o igual ele vai somar os dois se eu colocar mais outro caractere por exemplo mais outro
+
+11
+00:01:01,170 --> 00:01:04,170
+digito outro número 250 mais dez.
+
+12
+00:01:04,170 --> 00:01:09,980
+Como colocar igual aí sim ele pega o 10 mais 250 e só pra dar 260.
+
+13
+00:01:09,990 --> 00:01:12,190
+Então a gente percebe de cara que eu vou precisar.
+
+14
+00:01:12,200 --> 00:01:19,760
+Tem outro atributo aqui que eu vou chamar de texto não atual mas o texto fala que por enquanto também
+
+15
+00:01:19,860 --> 00:01:22,070
+tava lá zerado outro.
+
+16
+00:01:22,080 --> 00:01:32,100
+Outra variável importante é o seguinte João usará aqui voltou para o valor zero quando eu digito 2 o
+
+17
+00:01:32,100 --> 00:01:38,400
+próximo valor que eu for digitar vocês vão perceber que ele vai apontar no display ele vai colocar do
+
+18
+00:01:38,400 --> 00:01:46,200
+lado 2 o valor 5 o que é mais natural como colocar por exemplo vírgula ele colocou 25 vírgula se eu
+
+19
+00:01:46,260 --> 00:01:52,140
+colocar ele vai colocar a Pin dando um segundo display aquele que você está digitando.
+
+20
+00:01:52,140 --> 00:02:00,660
+Quando você seleciona um a uma operação matemática por exemplo mais significa que agora a próxima o
+
+21
+00:02:00,660 --> 00:02:06,880
+próximo caractere que eu for digitar ele vai substituir o valor do display pelo novo caractere.
+
+22
+00:02:07,260 --> 00:02:10,320
+Então eu tenho um 25 no display.
+
+23
+00:02:10,320 --> 00:02:17,730
+Já coloquei aqui uma operação matemática se eu fizer por exemplo colocar 1 você percebe que ele substituiu
+
+24
+00:02:18,090 --> 00:02:24,150
+o display ou se ele vai ter algum momento que eu vou precisar detectar se eu preciso ou não substituir
+
+25
+00:02:24,150 --> 00:02:26,130
+o display por um novo número.
+
+26
+00:02:26,130 --> 00:02:32,580
+Uma coisa é clicar no botão de número ele apontando dentro do display outra coisa e ele substitui o
+
+27
+00:02:32,580 --> 00:02:33,090
+valor.
+
+28
+00:02:33,480 --> 00:02:42,890
+Então vou precisar criar aqui um atributo que evite Bulent que eu vou chamar aqui de substituí que vai
+
+29
+00:02:42,890 --> 00:02:49,120
+inicializar com um valor falso pago com o padrão já é falso mas ele também precisa ter o valor de substituir
+
+30
+00:02:49,590 --> 00:02:57,390
+uma ou outra coisa também importante que na calculadora é que eu cliquei por exemplo uma soma tal significa
+
+31
+00:02:57,390 --> 00:03:04,380
+que esse valor que eu cliquei soma ele está digamos assim armazenado bem da calculadora de tal forma
+
+32
+00:03:04,380 --> 00:03:06,840
+que eu preciso também armazenar esse valor.
+
+33
+00:03:06,990 --> 00:03:17,350
+Então eu preciso ter este tipo de comando e eu vou colocar aqui como sendo a última alteração.
+
+34
+00:03:17,370 --> 00:03:24,030
+Não são todos os comandos que eu preciso armazenar da última operação que por padrão começa com o número
+
+35
+00:03:24,030 --> 00:03:29,990
+7 já que eu coloquei todos os valores padrões aqui coloca cálculo comparação para ser nulo substitui
+
+36
+00:03:30,030 --> 00:03:37,320
+falso texto atual para ser vazio e texto base pra ser vazio vai ter alguns momentos que eu vou precisar
+
+37
+00:03:37,320 --> 00:03:42,440
+copiar um texto para outra exatamente que a gente vai precisar fazer aquilo no processar comando então
+
+38
+00:03:42,450 --> 00:03:46,650
+vou tirar essa parte central eu vou fazer o seguinte não sei.
+
+39
+00:03:46,650 --> 00:03:54,030
+Depois que eu tive peguei o tipo de comando o tipo de comando formula1 significa que eu não quero fazer
+
+40
+00:03:54,030 --> 00:03:54,600
+nada.
+
+41
+00:03:54,660 --> 00:04:01,830
+Então eu vou simplesmente dar pra ele voltar e não continuar fazendo absolutamente nada porque é um
+
+42
+00:04:01,830 --> 00:04:05,590
+comando inválido e ele não precisa continuar o processamento.
+
+43
+00:04:05,640 --> 00:04:13,340
+O próximo comando que eu vou querer tratar vai ser que se f se o usuário digitou um comando que vai
+
+44
+00:04:13,340 --> 00:04:20,880
+ser igual tive um comando que ponto zero no caso dos Arauca que eu vou querer fazer o querer pegar o
+
+45
+00:04:20,880 --> 00:04:32,820
+texto atual e colocar base e eu queria pegar aqui o texto buffet e vou também colocar o Brasil eu vou
+
+46
+00:04:32,820 --> 00:04:37,850
+colocar o substituindo pra ser falso.
+
+47
+00:04:38,190 --> 00:04:46,330
+Vou colocar aqui o último a última operação pra ser nulo ou seja todos os valores eu vou colocar com
+
+48
+00:04:46,350 --> 00:04:50,040
+os valores originais eu sei se aquele coisa era ir lá fazer isso.
+
+49
+00:04:50,040 --> 00:04:57,230
+O próximo cenário que eu vou querer também implementar vai ser que o STF sei que foi digitado tipo comando
+
+50
+00:04:58,250 --> 00:05:12,390
+igual ativo com número ou o tipo de comando vai ser igual ao tipo comando vírgula eu vou querer cair
+
+51
+00:05:12,390 --> 00:05:20,750
+nesse cenário que eu colocar o link pra baixo pra ficar muito grande atrativo para outro colocar feixe
+
+52
+00:05:20,770 --> 00:05:24,160
+Chaves e aqui eu vou fazer o seguinte aqui dentro.
+
+53
+00:05:24,180 --> 00:05:35,580
+Se acontecer isso eu vou querer alterar o valor do texto atual o texto atual vai receber na verdade
+
+54
+00:05:35,780 --> 00:05:44,130
+o seguinte texto atual ele vai ser acrescentado quando o valor de substituir for falso e ele vai ser
+
+55
+00:05:44,130 --> 00:05:49,800
+substituído quando o valor de substituir for verdadeiro então se substituir o que vou fazer e eu vou
+
+56
+00:05:49,810 --> 00:05:56,590
+colocar o texto atual para receber o valor de texto que é o que recebi como parâmetro.
+
+57
+00:05:56,610 --> 00:06:05,250
+Caso contrário eu vou pagar o próprio valor do texto atual texto atual mais o valor de texto.
+
+58
+00:06:05,260 --> 00:06:09,310
+Aí eu vou ter um novo texto atual isso se substituir for falso.
+
+59
+00:06:09,390 --> 00:06:16,200
+Ou seja se você digitou o número ou vírgula e o substitui for verdadeiro ele vai simplesmente substitui
+
+60
+00:06:16,200 --> 00:06:18,540
+o texto pelo texto atual.
+
+61
+00:06:18,570 --> 00:06:24,330
+Caso contrário vai apagar o texto atual mas o texto vai substituir pelo texto atual ou seja nesse cenário
+
+62
+00:06:24,330 --> 00:06:30,750
+aquele está acrescentando é nesse cenário que ele está substituindo e obviamente se eu acabei de substituir
+
+63
+00:06:30,750 --> 00:06:38,460
+o valor eu posso já que está o valor de substituir pra ser falso então voltar está alto.
+
+64
+00:06:38,470 --> 00:06:45,720
+Fiz até então só pra gente ver se ele está entrando nesses casos que estão afetando aqui nós temos o
+
+65
+00:06:45,720 --> 00:06:58,820
+valor por exemplo 4 5 8 6 0 ou 8 5 vírgula 2 5 vírgula.
+
+66
+00:06:58,980 --> 00:07:03,870
+Ele está colocando mais de um vírgula dentro do display pra gente resolver isso.
+
+67
+00:07:03,900 --> 00:07:05,740
+O caso não caiu aqui dentro.
+
+68
+00:07:05,820 --> 00:07:08,910
+Na verdade o que eu tenho que fazer o tipo de comando.
+
+69
+00:07:08,910 --> 00:07:18,360
+Se o usuário digitar uma vírgula eu preciso verificar o seguinte se ele digitou uma vírgula e dentro
+
+70
+00:07:18,360 --> 00:07:26,500
+do texto por exemplo dentro do texto atual contentes com a vírgula.
+
+71
+00:07:26,600 --> 00:07:34,350
+Ou seja ele só vai entrar aqui dentro se ele o texto digitado for uma vírgula e não estiver contido
+
+72
+00:07:34,740 --> 00:07:40,140
+dentro de texto atual ou se já tiver acontecido não vai acrescentar uma segunda vírgula e aí ele não
+
+73
+00:07:40,140 --> 00:07:47,370
+vai entrar nesse STF vai retornar como sendo um comando nulo retornando o comando nulo aqui em cima
+
+74
+00:07:47,610 --> 00:07:53,100
+ele vai simplesmente retornar e não vai processar mais nada porque o comando que foi recebido é um comando
+
+75
+00:07:53,100 --> 00:07:54,020
+inválido.
+
+76
+00:07:54,160 --> 00:07:56,180
+Testar para saber se gerou algum efeito.
+
+77
+00:07:56,640 --> 00:08:04,520
+8 9 vírgula 12 por dia ele já não está causando nenhum efeito.
+
+78
+00:08:04,620 --> 00:08:11,390
+Porque o nosso tacho agora está considerando o fato de que ele só vai considerar o comando do tipo vírgula.
+
+79
+00:08:11,430 --> 00:08:17,520
+Se você digitou vírgula e não estiver contido nem uma vírgula dentro do texto atual então ele já começou
+
+80
+00:08:17,610 --> 00:08:24,550
+aqui e implementar o nosso processar comando que está faltando ou se ele não entrou no primeiro comandando.
+
+81
+00:08:24,750 --> 00:08:30,810
+Se ele não entrou no segundo que é o Ceará e não entrou no número e na vírgula a gente tem basicamente
+
+82
+00:08:31,120 --> 00:08:34,100
+o 0 a número vírgula.
+
+83
+00:08:34,110 --> 00:08:40,920
+O resto é divisão multiplicação subtração soma igual que é exatamente o caso que você tem no comando
+
+84
+00:08:40,920 --> 00:08:41,820
+digitado.
+
+85
+00:08:42,120 --> 00:08:49,500
+Então aqui no ES exatamente o local que nós vamos receber um comando é em cima do comando errar precisar
+
+86
+00:08:49,500 --> 00:08:56,220
+pra encher o bofe vai precisar pra encher o substituir vai precisar fazer uma operação matemática dependendo
+
+87
+00:08:56,220 --> 00:08:57,030
+do caso.
+
+88
+00:08:57,190 --> 00:09:01,180
+Então vou deixar essa parte do Celso que é um pouquinho mais complicada para proximal.

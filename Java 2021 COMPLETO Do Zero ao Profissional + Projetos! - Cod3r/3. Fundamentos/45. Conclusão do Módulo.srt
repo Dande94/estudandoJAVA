@@ -1,0 +1,87 @@
+1
+00:00:00,420 --> 00:00:06,930
+Chegamos no final do nosso Gigante capítulo de fundamentos e um capítulo extremamente importante.
+
+2
+00:00:06,980 --> 00:00:12,870
+São mais de 40 aulas a partir dali uma base extremamente importante sólida da linguagem Java.
+
+3
+00:00:12,870 --> 00:00:18,260
+Tem muita coisa dessa base da linguagem que a gente vai estar trabalhando nos próximos capítulos.
+
+4
+00:00:18,270 --> 00:00:24,000
+O próximo capítulo nós vamos trabalhar estruturas de controle que é algo essencial não existe programa
+
+5
+00:00:24,270 --> 00:00:29,360
+de mais do que vinte linhas sem estruturas de controle da repetição.
+
+6
+00:00:29,430 --> 00:00:35,550
+Você fazer condicionais até mesmo um desafio do capítulo que vai a calculadora é muito mais natural
+
+7
+00:00:35,560 --> 00:00:39,840
+você resolver costuras de controle do que comprar do ternário que foi o nosso caso.
+
+8
+00:00:39,840 --> 00:00:44,460
+Então como a gente só tinha disposição para adotar na hora acabou que a gente usou ele e eu acho foi
+
+9
+00:00:44,460 --> 00:00:49,650
+um desafio interessante para que você possa pensar um pouquinho fora da caixa mais na parte do próximo
+
+10
+00:00:49,650 --> 00:00:55,410
+capítulo mas alguns vez futuras de controle vamos introduzir no nosso nosso arsenal de ferramentas do
+
+11
+00:00:55,410 --> 00:01:01,580
+Java a partir de testes condicionais para que você possa executar um código com determinado condição
+
+12
+00:01:01,620 --> 00:01:06,900
+acontece ou mesmo as estruturas de repetição que você vai conseguir repetir um conjunto de sentenças
+
+13
+00:01:06,900 --> 00:01:08,690
+de código várias vezes.
+
+14
+00:01:08,760 --> 00:01:09,920
+Isso vai ser muito legal.
+
+15
+00:01:09,930 --> 00:01:14,940
+Muito obrigado por acompanhar o curso até aqui se você ainda não avaliou o uso e você está gostando
+
+16
+00:01:14,940 --> 00:01:20,250
+do curso avalio Cusco que vai dar para a gente com certeza uma ajuda muito grande assim como um link
+
+17
+00:01:20,250 --> 00:01:21,110
+no YouTube.
+
+18
+00:01:21,410 --> 00:01:26,850
+Parece que o canal seja mais elegante quando você avalia o curso de forma sincera não opina de forma
+
+19
+00:01:26,850 --> 00:01:31,830
+nenhuma pra você colocar cinco estrelas lá se você ainda não avaliou vai lá e avalia que isso é muito
+
+20
+00:01:31,830 --> 00:01:36,540
+importante para a gente receber o seu feed back e melhorar o curso sempre que possível e estou muito
+
+21
+00:01:36,540 --> 00:01:39,650
+obrigado no próximo capítulo veremos estruturas de controle.
+
+22
+00:01:39,660 --> 00:01:40,200
+E até lá.

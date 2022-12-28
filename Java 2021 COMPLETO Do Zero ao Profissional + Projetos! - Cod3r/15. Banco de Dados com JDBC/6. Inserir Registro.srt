@@ -1,0 +1,707 @@
+1
+00:00:00,300 --> 00:00:06,470
+Pessoal nós vamos agora criar a nosso nosso primeiro registro no banco de dados a partir de 1 set e
+
+2
+00:00:06,610 --> 00:00:12,930
+eu quero falar de um tema também na sala é muito importante que é o tema de um ataque e de um ataque
+
+3
+00:00:12,930 --> 00:00:16,020
+muito famoso que é o SQL Injection.
+
+4
+00:00:16,050 --> 00:00:22,320
+Tem que ter muito cuidado na hora de você pegar dados que você pegou do usuário e jogá los diretamente
+
+5
+00:00:22,320 --> 00:00:26,520
+no SQL porque você pode sofrer um ataque SQL Injection.
+
+6
+00:00:26,520 --> 00:00:33,030
+Por isso que nós não vamos usar para inserir os tristemente nós vamos usar um cara chamado prepara extensamente
+
+7
+00:00:33,090 --> 00:00:37,980
+que ele vai nos dar uma forma segura de serem dados obtidos a partir do usuário.
+
+8
+00:00:37,980 --> 00:00:45,270
+Nós vamos criar aqui mais um novo exercício a partir de uma nova classe que eu vou chamar aqui não de
+
+9
+00:00:45,270 --> 00:00:54,030
+usuário na nova pessoa então nova pessoa já que nós estamos trabalhando com a tabela de pessoas.
+
+10
+00:00:54,040 --> 00:01:07,050
+Vou colocar um método mas já vou me adiantar e colocar aqui um feroz SQL Section e vou criar aqui System
+
+11
+00:01:07,050 --> 00:01:08,780
+Alt Printing.
+
+12
+00:01:08,880 --> 00:01:18,100
+Vou colocá la sei conforme o nome meus pontos e aqui eu vou usar o scanner já vou criar o escoamento
+
+13
+00:01:18,160 --> 00:01:20,380
+em cima de scanner.
+
+14
+00:01:20,460 --> 00:01:30,100
+Faz um tempo que a gente não usa o scanner na entrada recebe o scanner vai crescendo no sistema onde
+
+15
+00:01:31,950 --> 00:01:38,730
+vou colocar aqui no final para fechar a entrada usando o método da mesma forma que eu fiz a conexão
+
+16
+00:01:38,730 --> 00:01:44,670
+também fechando a entrada que é um recurso que fica aberto e então é dela você abrir e fechar sempre
+
+17
+00:01:44,670 --> 00:01:45,690
+que necessário.
+
+18
+00:01:45,690 --> 00:01:50,770
+Então não meu nome é aqui eu vou colocar Trinity.
+
+19
+00:01:50,790 --> 00:01:54,580
+Por exemplo você recebe entrada.
+
+20
+00:01:54,660 --> 00:01:55,630
+Ponto.
+
+21
+00:01:55,680 --> 00:01:58,580
+Max já sabia que string.
+
+22
+00:01:58,670 --> 00:02:03,080
+E finalmente eu vou querer ter o meu comando SQL.
+
+23
+00:02:03,080 --> 00:02:07,680
+Primeiro eu vou mostrar que o nome só prova que está a funcionar nessa primeira parte não tem nada a
+
+24
+00:02:07,680 --> 00:02:09,600
+ver com o banco de dados não informa o nome.
+
+25
+00:02:10,000 --> 00:02:13,260
+Vou colocar aqui Leonardo DiCaprio.
+
+26
+00:02:13,350 --> 00:02:21,720
+Leonardo saiba o que eu vou querer criar aqui um SQL vai ser uns 30 que eu vou chamar de SQL e o Grace
+
+27
+00:02:21,710 --> 00:02:27,540
+Kelly vai ser esse cara responsável por inserir um dado no banco de dados nas mãos aqui há um certo
+
+28
+00:02:27,540 --> 00:02:28,850
+tipo de lixo.
+
+29
+00:02:28,920 --> 00:02:39,210
+O nome da tabela de pessoas vou colocar aqui na única coluna chamada nome e os valores os velhos eu
+
+30
+00:02:39,210 --> 00:02:48,030
+vou por exemplo colocar aqui abertura de Chaves vou concatenar com o nome que eu acabei de receber e
+
+31
+00:02:48,030 --> 00:02:54,150
+vou concatenar de novo com o fechamento da chave de tal forma que se eu quiser imprimir o valor de SQL
+
+32
+00:02:55,110 --> 00:03:01,610
+você vai conseguir imprimir o valor então eu vou colocar aqui por exemplo lá ele vai colocar mais sete
+
+33
+00:03:01,890 --> 00:03:04,140
+pessoas no amigo alemão.
+
+34
+00:03:04,220 --> 00:03:09,690
+Esse comando que não comanda ainda valida porque está faltando colocar aspas se eu colocar as coisas
+
+35
+00:03:09,690 --> 00:03:15,020
+simples colocar tinham aspas simples aqui não um simples aqui.
+
+36
+00:03:15,270 --> 00:03:19,820
+Agora eu vou ter um comando correto um comando que vai funcionar ao Leonardo executando.
+
+37
+00:03:20,160 --> 00:03:22,350
+Eu tenho em sétimo.
+
+38
+00:03:22,620 --> 00:03:27,760
+Se eu apagar esse comando aqui jogar aqui você vai ver que ele vai funcionar.
+
+39
+00:03:28,050 --> 00:03:31,910
+Não funcionou por ter porque eu não selecionar o banco de dados 7.
+
+40
+00:03:32,250 --> 00:03:36,640
+Clique com o botão direito em cima de custo Java ou 7 default esquema.
+
+41
+00:03:37,080 --> 00:03:43,320
+Pronto agora ele sabe que eu estou trabalhando com o banco russo Java executado ao inserir o normal
+
+42
+00:03:43,730 --> 00:03:53,070
+e se eu fizer aqui uma consulta logo aumentar um pouquinho só que a fonte Select asterisco from pessoas
+
+43
+00:03:54,320 --> 00:04:01,400
+até você vai ver que o código ao lado do primeiro registro foi incluído a partir da estrangeira.
+
+44
+00:04:01,440 --> 00:04:02,610
+Não temos nenhum problema.
+
+45
+00:04:02,610 --> 00:04:05,420
+Qual o problema desse tipo de distinguir.
+
+46
+00:04:05,970 --> 00:04:12,390
+Imagine que você queira fazer algum tipo de ataque SQL Injection como é que o usuário vai fazer um ataque
+
+47
+00:04:12,450 --> 00:04:19,890
+usando isso aqui nessa concatenação sem nenhum tipo de checagem na hora de você informar o nome do usuário.
+
+48
+00:04:19,920 --> 00:04:24,870
+Provavelmente não tem acesso a esses string que você está colocar treinando mas ele pode tentar ser
+
+49
+00:04:24,870 --> 00:04:26,420
+o mais criativo possível.
+
+50
+00:04:26,430 --> 00:04:30,960
+Então ele pode colocar Kill leu aspas simples.
+
+51
+00:04:30,960 --> 00:04:43,000
+Ele vai fechar o parêntese vai colocar um ponto e vírgula vai fazer delete por exemplo foram pessoas.
+
+52
+00:04:43,010 --> 00:04:53,890
+E aí ele pode colocar isso e lá ele abre parênteses igual a 1 e é contra isso.
+
+53
+00:04:53,910 --> 00:04:57,970
+No final das contas o que você vai ter esse comando aqui.
+
+54
+00:04:58,070 --> 00:05:02,040
+Eu não sei se ele vai funcionar mais não funcionou.
+
+55
+00:05:02,060 --> 00:05:02,830
+Por quê.
+
+56
+00:05:02,860 --> 00:05:05,770
+Até porque eu não peguei o maxilar.
+
+57
+00:05:05,860 --> 00:05:09,570
+Acabou que ele pegou só a primeira palavra.
+
+58
+00:05:09,600 --> 00:05:14,330
+Mas aqui seria melhor colocar o maxilar porque eu vou pegar.
+
+59
+00:05:14,380 --> 00:05:17,880
+Apenas quando o usuário não entregou pegassem os com os espaços também.
+
+60
+00:05:17,890 --> 00:05:24,210
+Então vou tentar novamente executar a mesma coisa que eu coloquei que ao apagar esse trecho do distrito
+
+61
+00:05:24,220 --> 00:05:32,170
+eles tem voz executar novamente certo vou colocar esse nome que eu acabei de fazer colocar um SQL dentro
+
+62
+00:05:32,170 --> 00:05:38,840
+do campo e ele gerou isso aqui pra mim algo tão em certas pessoas tal.
+
+63
+00:05:39,040 --> 00:05:43,830
+Se eu jogar isso aqui ele gerou em sete pessoas não valeu.
+
+64
+00:05:43,900 --> 00:05:46,720
+Terminou o comando anterior e colocou delete.
+
+65
+00:05:46,780 --> 00:05:54,040
+Foram pessoas igual a um faltou aqui ao alguém ele colocou aspas simples no final não faltou comando
+
+66
+00:05:54,040 --> 00:06:01,780
+válido mas se a gente trabalhar um pouquinho mais ao seu apagar isso aqui e colocar aqui um aspas simples
+
+67
+00:06:01,780 --> 00:06:09,400
+aqui não aceito assim fiz aqui é pegar tudo isso aqui é digitar você vai ver que ele vai gerar um comando
+
+68
+00:06:09,400 --> 00:06:14,830
+eu posso colocar um ponto e vírgula no final que é isso aqui você vai ver que eu vou conseguir gerar
+
+69
+00:06:14,830 --> 00:06:16,420
+um comando válido.
+
+70
+00:06:16,900 --> 00:06:21,190
+Então no final das contas você já está mais uma vez aqui fora meu nome.
+
+71
+00:06:21,210 --> 00:06:23,210
+Coloco isso aqui culto.
+
+72
+00:06:23,260 --> 00:06:26,030
+No final ele vai me dar um certas pessoas.
+
+73
+00:06:26,050 --> 00:06:28,470
+Acho que coloquei mais aqui né.
+
+74
+00:06:28,540 --> 00:06:36,060
+Deixo aqui um pouquinho menos isso aqui ele coloca no final então tem que vir até aqui eu na verdade
+
+75
+00:06:36,490 --> 00:06:45,320
+vou parar de lá eu não subestime que eu estou tendo dificuldade para gerar o comando correto porque
+
+76
+00:06:45,320 --> 00:06:51,220
+eu estou fazendo aqui de improviso na hora não tinha nem planejado mostrar isso mas o fato é que o cara
+
+77
+00:06:51,220 --> 00:06:57,810
+vai fazer várias tentativas até conseguir de fato fazer um ataque não é como no filme Hollywood né.
+
+78
+00:06:57,860 --> 00:07:03,040
+Ele simplesmente você fez um ataque deu certo ele vai tentar várias coisas diferentes uma hora ou outra
+
+79
+00:07:03,370 --> 00:07:06,950
+ele coloca um comando válido e vai retornar algo desse tipo.
+
+80
+00:07:07,360 --> 00:07:14,590
+Ou seja insira uma pessoa chamada lá e logo depois delete na tabela pessoas todo mundo seja onde uma
+
+81
+00:07:14,590 --> 00:07:18,620
+igual coisa que é uma cláusula verdadeira ele vai acabar excluindo todo mundo.
+
+82
+00:07:18,770 --> 00:07:20,620
+Você vai executar esse comando.
+
+83
+00:07:20,620 --> 00:07:27,910
+Ele colocou aqui onde ele fez mais uma exceção e ele só não excluiu porque aqui não é uma coisa do banco
+
+84
+00:07:27,900 --> 00:07:31,110
+de dados aqui no nome SQL que mente.
+
+85
+00:07:31,150 --> 00:07:38,020
+Ele tá com seis mortes habilitado nem tão pouco conta que ele está com um certo olhar habilitado ele
+
+86
+00:07:38,020 --> 00:07:40,170
+não vai permitir você fazer isso aqui.
+
+87
+00:07:40,290 --> 00:07:46,180
+Mas você percebe que embora ele não tenha feito a exclusão por conta que o Ceife morto está habilitado
+
+88
+00:07:46,530 --> 00:07:48,790
+eu posso até desabilitar apagar.
+
+89
+00:07:49,410 --> 00:07:59,560
+Mas Kelly Work Bitch seis modos off ele vai me dar algum comando.
+
+90
+00:07:59,560 --> 00:08:04,910
+Deixa eu ver se alguém comando aqui no ataque overflow aqui 7.
+
+91
+00:08:05,120 --> 00:08:13,140
+Se você tá isso aqui pra zero ele vai ser tá Ceife morte pra ela desabilitado.
+
+92
+00:08:13,360 --> 00:08:21,130
+Esse comando aqui você vai ver que ele vai excluir banco de dados executado ele inseriu e deixou de
+
+93
+00:08:21,150 --> 00:08:28,870
+comentar a questão aqui do Selection Salete asterisco foram pessoas.
+
+94
+00:08:29,060 --> 00:08:35,920
+Eu ainda não excluiu mas se eu soubesse tomar isso aqui ele vai excluir todo mundo e no final você tem
+
+95
+00:08:36,040 --> 00:08:36,990
+a tabela limpa.
+
+96
+00:08:37,360 --> 00:08:43,900
+Então você percebe que embora eu tenha tido um pouco de dificuldade pra fazer a questão do SQL Injection
+
+97
+00:08:44,320 --> 00:08:51,310
+essa é uma realidade extremamente presente que você tem que ter muito cuidado porque é um tipo de ataque
+
+98
+00:08:51,310 --> 00:08:53,670
+que não é difícil de ser executado.
+
+99
+00:08:53,680 --> 00:08:59,500
+Você percebe que se eu colocar aqui pra ele e tentar isso você vai ver que ele vai acabar executando
+
+100
+00:08:59,780 --> 00:09:00,430
+e excluir.
+
+101
+00:09:00,430 --> 00:09:05,950
+Então você tem que ter muito cuidado por isso e vejo gente usar esse tipo de estratégia de concatenação
+
+102
+00:09:05,950 --> 00:09:12,340
+tudo isso eu falei só pra achar pra vocês que vejo a gente concatenar que é algo inseguro que pode gerar
+
+103
+00:09:12,340 --> 00:09:15,410
+um ataque como esse que eu mostrei pra vocês aqui.
+
+104
+00:09:15,490 --> 00:09:22,470
+A gente vai colocar uma interrogação coloca uma interrogação a gente vai precisar passar esse nome que
+
+105
+00:09:22,480 --> 00:09:29,440
+foi obtido a partir do escama passar isso como parâmetro para a nossa consulta e por isso nós não vamos
+
+106
+00:09:29,440 --> 00:09:39,270
+usar os tuites muito mais vamos usar o tempero está ótima também a parte de Java ponto SQL como uma
+
+107
+00:09:39,270 --> 00:09:46,420
+interface eu vou chamar também testamentos recebe ou usa na conexão meu Connection.
+
+108
+00:09:46,420 --> 00:09:55,660
+Na verdade eu ainda não queria conexão mas vou criar aqui então pegar Connection Connection recebe a
+
+109
+00:09:55,710 --> 00:10:06,960
+partir de fábrica conexão conexão uma vez com a conexão disponível eu vou criar aqui um estreitamento
+
+110
+00:10:06,990 --> 00:10:07,820
+passando.
+
+111
+00:10:07,940 --> 00:10:09,800
+Quero que eu criei.
+
+112
+00:10:09,820 --> 00:10:11,670
+Só que o SQL não é suficiente.
+
+113
+00:10:11,670 --> 00:10:12,120
+Por quê.
+
+114
+00:10:12,120 --> 00:10:17,670
+Porque eu preciso passar um parâmetro que eu não quero concatenar o parâmetro diretamente a partir do
+
+115
+00:10:17,670 --> 00:10:23,010
+Escânia mostrar pra vocês que é inseguro você colocar partiu diretamente a partir do Escânia porque
+
+116
+00:10:23,010 --> 00:10:28,040
+você pode sofrer um SQL Injection então aqui eu vou pegar.
+
+117
+00:10:28,310 --> 00:10:29,550
+Ponto 7.
+
+118
+00:10:29,550 --> 00:10:35,340
+Nesse caso o parâmetro que eu vou passar vai ser um string ou seja o nome versão extra então vou chamar
+
+119
+00:10:35,490 --> 00:10:37,650
+o sétimo string.
+
+120
+00:10:37,710 --> 00:10:43,050
+O parâmetro vai ser o primeiro parâmetro só tem um na verdade e eu vou passar aqui o X.
+
+121
+00:10:43,050 --> 00:10:46,290
+O nome que eu obtive a partir do NET.
+
+122
+00:10:46,410 --> 00:10:53,730
+Nesse caso eu garanto mesmo passa no nome garanto que se o cara tentar fazer um SQL Injection esse método
+
+123
+00:10:53,730 --> 00:11:00,120
+ele é seguro e vai fazer todo o trabalho necessário para que ele considere tudo o que foi digitado como
+
+124
+00:11:00,600 --> 00:11:05,240
+um valor do tipo string e não vai considerar como se fosse um comando SQL.
+
+125
+00:11:05,340 --> 00:11:11,240
+Então ele vai cuidar para a gente dar segurança e talvez esse é o único parâmetro que essa interrogação.
+
+126
+00:11:11,280 --> 00:11:18,600
+Agora sim eu vou chamar o estreitamento do ponto e dizer que eu não vou pensar passar mais o comando
+
+127
+00:11:18,600 --> 00:11:26,470
+que eu o comando na criação do menos e agora executando a gente vai ter o nosso primeiro registro incluído
+
+128
+00:11:26,490 --> 00:11:36,460
+a partir do já então coloca a pessoa incluída com sucesso estão salvando aqui pra gente tá está de olho
+
+129
+00:11:36,810 --> 00:11:44,260
+no nome e o coloca por exemplo ao mato tal pessoa incluída com sucesso.
+
+130
+00:11:44,310 --> 00:11:45,390
+Vou olhar aqui.
+
+131
+00:11:45,870 --> 00:11:48,090
+Vou apagar isso que eu fiz antes.
+
+132
+00:11:48,090 --> 00:11:54,910
+Na verdade os seis podem voltar pra um pivô o.
+
+133
+00:11:55,020 --> 00:11:58,920
+São pessoas que tem agora o usuário três escolhe três.
+
+134
+00:11:59,040 --> 00:12:08,190
+Leonardo Leitão último teste pra finalizar a aula vou colocar lá Maria Silva espera um pouquinho vá
+
+135
+00:12:08,190 --> 00:12:08,520
+lá.
+
+136
+00:12:08,570 --> 00:12:16,230
+Pessoa incluída com sucesso acertando mais uma vez nós temos agora a pessoa de 4 Mauricio Guardia gerado
+
+137
+00:12:16,230 --> 00:12:17,210
+de forma automática.
+
+138
+00:12:17,210 --> 00:12:23,880
+Não que eu não consiga gerar o áudio consigo por exemplo colocar aqui o código eu vou colocar aqui uma
+
+139
+00:12:23,880 --> 00:12:30,690
+segunda interrogação significa que eu preciso passar agora um segundo parâmetro mesmo que o código seja
+
+140
+00:12:30,690 --> 00:12:32,760
+gerado automaticamente.
+
+141
+00:12:32,920 --> 00:12:39,400
+Isso não impede por exemplo de você colocar aqui sei lá o código 100 só que aqui no caso não vai ser
+
+142
+00:12:39,750 --> 00:12:41,690
+um estilingue vai ser um valor do tipo.
+
+143
+00:12:41,910 --> 00:12:48,130
+Você tá um inteiro que vai ser nesse caso o segundo parâmetro pelo segundo a interrogação já que o primeiro
+
+144
+00:12:48,130 --> 00:12:57,160
+é o nome segundo o código então acertado vou colocar aqui por exemplo Gabriel Silva também.
+
+145
+00:12:57,310 --> 00:13:03,870
+Então ele incluiu a pessoa se a gente não reflete aqui você vai ver que o Gabriel Silva até onde sei
+
+146
+00:13:04,230 --> 00:13:10,810
+se eu tentar incluir novamente vai dar problema porque você vai tentar tentando inclui por exemplo a
+
+147
+00:13:10,920 --> 00:13:17,010
+pessoa que tem o mesmo andina e vai dar uma constroi uma restrição de chave que ele colocou mais Kellen
+
+148
+00:13:17,310 --> 00:13:20,810
+integram o artigo com um estranho bairro Aleixo Marcelo Bushnell.
+
+149
+00:13:20,970 --> 00:13:29,130
+Você tem um registro entrada duplicada para a chave primária sem a mais momento que eu volto aqui deixo
+
+150
+00:13:29,220 --> 00:13:34,410
+ele gerar para mim o código de forma automática que é o padrão já que Auto incremento você vai ver que
+
+151
+00:13:34,410 --> 00:13:41,310
+agora ele passa a incrementar parte do 100 já que o 100 é o maior aí de estar presente na tabela.
+
+152
+00:13:41,610 --> 00:13:45,420
+Então se eu colocar por exemplo aqui tá mais uma vez e colocá
+
+153
+00:13:49,120 --> 00:13:57,450
+dinheiro por exemplo dado ao pessoal incluída com sucesso e a gente vai ver até agora na Pinheiro faria
+
+154
+00:13:57,650 --> 00:14:04,140
+sentido já que você forçou a barra e colocou ali de 100 como sendo o ardil do Gabriel e aí a partir
+
+155
+00:14:04,140 --> 00:14:07,040
+daí ele vai incrementar a partir do.
+
+156
+00:14:07,330 --> 00:14:14,340
+Então ficamos aqui nessa aula fizemos aqui algumas considerações sobre segurança e porquê o uso do PPS
+
+157
+00:14:14,340 --> 00:14:20,490
+tem medo porque a partir dele que você vai ter a possibilidade de passar parâmetros pra sua consulta
+
+158
+00:14:20,870 --> 00:14:25,980
+desses parâmetros aqui estão sendo referenciados a partir de interrogações você pode ter quantos parâmetros
+
+159
+00:14:26,010 --> 00:14:26,660
+você quiser.
+
+160
+00:14:27,060 --> 00:14:33,480
+Nesse caso testou com dois e no final ficamos com um parâmetro sobre apenas um nome já que o campo do
+
+161
+00:14:33,480 --> 00:14:38,910
+Código vai ser gerado automaticamente pelo banco de dados mas é muito importante que você tenha cuidado
+
+162
+00:14:38,910 --> 00:14:42,840
+com a questão do SQL Injection não subestime a capacidade.
+
+163
+00:14:42,840 --> 00:14:46,020
+Eu nunca fiz um ataque as querem Injection na minha vida.
+
+164
+00:14:46,020 --> 00:14:52,500
+Certo então o mais perto que eu cheguei foi que na aula simulado conheci o princípio sei como é feito
+
+165
+00:14:52,530 --> 00:14:58,290
+mas nunca fui atrás e fazer esse ataque então quem faz um ataque como esse tem muita experiência e sabe
+
+166
+00:14:58,290 --> 00:15:05,630
+exatamente organizar o SQL de uma forma que no final das contas ele pode causar grandes danos no seu
+
+167
+00:15:05,630 --> 00:15:06,350
+banco de dados.
+
+168
+00:15:06,350 --> 00:15:11,780
+Por isso o uso do preparo estético ótimo e por isso você não deve concatenar as strings na hora de montar
+
+169
+00:15:11,900 --> 00:15:13,300
+a sua consulta SQL.
+
+170
+00:15:13,300 --> 00:15:16,030
+Isso serve para Java e serve para Python.
+
+171
+00:15:16,030 --> 00:15:19,010
+Isso serve para PHP e serve para qualquer linguagem.
+
+172
+00:15:19,010 --> 00:15:24,530
+é um conceito extremamente importante e relevante quando se trata de acesso ao banco de dados principalmente
+
+173
+00:15:24,530 --> 00:15:28,910
+quando você constrói a sua consulta SQL como é o caso aqui no JMS.
+
+174
+00:15:28,970 --> 00:15:31,110
+Então é dada a dica de segurança.
+
+175
+00:15:31,190 --> 00:15:38,300
+Evite SQL Injection usando persistentemente sempre passando parâmetros abaixo dos métodos específicos
+
+176
+00:15:38,300 --> 00:15:43,970
+para isso e nunca concatenar os trilhos por aqui na próxima logins contínuos nós fizemos a inserção.
+
+177
+00:15:43,970 --> 00:15:46,370
+Agora nós vamos fazer a consulta e até lá.

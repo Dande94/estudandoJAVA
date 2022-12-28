@@ -1,0 +1,391 @@
+1
+00:00:00,570 --> 00:00:06,090
+Agora nós vamos fazer a nossa primeira consulta e o nome do Exército que nós vamos trabalhar vai ser
+
+2
+00:00:06,700 --> 00:00:09,040
+obter usuários no plural.
+
+3
+00:00:09,060 --> 00:00:11,460
+Então nós vamos obter mais usuários.
+
+4
+00:00:11,480 --> 00:00:21,330
+Eu vou colocar aqui BT usuários do plural nós vamos criar o nosso método.
+
+5
+00:00:21,720 --> 00:00:32,050
+Já vou aproveitar do exemplo passado o CMN de fato e o manager o colocar aqui e também já colocar muito
+
+6
+00:00:32,100 --> 00:00:38,900
+menos gente com gols e vou colocar alguém de maneira de fato pontuou Klaus.
+
+7
+00:00:38,940 --> 00:00:46,500
+Pronto que nós vamos fazer primeiro eu vou criar aqui um monstrinho que vai ser o meu JP Kelly o Java
+
+8
+00:00:46,500 --> 00:00:49,180
+persistem SQL Language.
+
+9
+00:00:49,230 --> 00:00:57,930
+Na verdade nós vamos fazer consultas em cima dos atributos dos objetos e em cima do da do próprio objeto
+
+10
+00:00:57,930 --> 00:00:59,540
+ensina o nome da classe.
+
+11
+00:00:59,970 --> 00:01:07,670
+Então inicialmente vou fazer um select bem simples vai ser o seguinte Se ela TI e não tem asterisco.
+
+12
+00:01:07,670 --> 00:01:16,650
+Na verdade qualquer que foram na verdade eu vou colocar o site então selection from usuario.
+
+13
+00:01:16,940 --> 00:01:18,500
+O nome da classe.
+
+14
+00:01:18,630 --> 00:01:25,220
+Isso vai trazer para mim todos os atributos e todas as linhas da tabela capa como mostrar pra vocês
+
+15
+00:01:25,220 --> 00:01:30,830
+Como é que ele pode restringir a quantidade de resultados lá atrás e só porque isso aqui é perigoso
+
+16
+00:01:30,840 --> 00:01:36,660
+se tiver um milhão de linhas ele vai trazer o milhão de linhas e isso vai provavelmente derrubar a aplicação
+
+17
+00:01:36,900 --> 00:01:43,170
+já mostra como é que ele pode limitar a caixa na consulta mas basicamente é como se fosse isso aqui
+
+18
+00:01:43,280 --> 00:01:45,060
+e funcionaria em SQL.
+
+19
+00:01:45,480 --> 00:01:54,770
+Desde que eu colocasse um ponto asterisco se eu fizer isso e colocar um ponto asterisco ele vai funcionar
+
+20
+00:01:54,780 --> 00:02:02,280
+essas Kelly então ele trouxe todos os atributos e todas as colunas e todas as minhas na tabela o usuário.
+
+21
+00:02:02,310 --> 00:02:04,960
+Então isso aqui é o comando SQL.
+
+22
+00:02:05,070 --> 00:02:08,450
+Até porque o nome da tabela é o mesmo nome da classe.
+
+23
+00:02:08,830 --> 00:02:14,490
+Mas aqui eu estou colocando não o nome da tabela estou colocando o nome da classe o nome da entidade
+
+24
+00:02:14,490 --> 00:02:16,530
+que eu estou querendo obter no banco de dados.
+
+25
+00:02:16,530 --> 00:02:20,130
+Quem vai converter isso pra SQL vai ser o JP.
+
+26
+00:02:20,520 --> 00:02:31,080
+Então criamos aqui o nosso e o JP quer o próximo passo vai ser a gente que quer papo com ela em consulta
+
+27
+00:02:31,080 --> 00:02:32,300
+com o tipo.
+
+28
+00:02:32,370 --> 00:02:41,780
+Essa consulta vai retornar ao tipo o usuário eu vou chamar aqui e ali e vou pegar o último ponto mas
+
+29
+00:02:41,800 --> 00:02:50,520
+vou me chamar que eu criei com R todas as possibilidades aqui procriar com ele e passar a consulta naquilo
+
+30
+00:02:50,520 --> 00:02:53,730
+que é o caso do JP Kelly a clássica eu quero que ele retorne.
+
+31
+00:02:54,180 --> 00:03:00,380
+Então nesse caso eu vou passar o JP que ele e vou passar a classe que eu quero que ele retorne vai ser
+
+32
+00:03:00,390 --> 00:03:03,020
+o usuário com classe.
+
+33
+00:03:03,690 --> 00:03:09,900
+Então esse usuário ponto Class ponto Class ele vai passar para essa classe.
+
+34
+00:03:09,930 --> 00:03:15,990
+Algumas informações eu passo a pelo menos a referência da classe e com essa referência a gente pode
+
+35
+00:03:15,990 --> 00:03:16,380
+pegar.
+
+36
+00:03:16,380 --> 00:03:18,320
+Quais são os atributos da classe.
+
+37
+00:03:18,390 --> 00:03:20,190
+Quais são os construtores.
+
+38
+00:03:20,400 --> 00:03:22,110
+Quais são os métodos.
+
+39
+00:03:22,110 --> 00:03:28,020
+O nome da classe e quais são as anotações que tem certo consegue fazer um processo chamado reflexa ou
+
+40
+00:03:28,020 --> 00:03:31,260
+seja olhar dentro da classe e entender como ela foi construída.
+
+41
+00:03:31,260 --> 00:03:36,780
+Basicamente o ponto Class acabam sendo os metadados de uma determinada classe nem as informações dela
+
+42
+00:03:37,190 --> 00:03:42,620
+e o JPEG usa muito fortemente essa questão do reflexo para a lei o que tem alguém da classe.
+
+43
+00:03:42,620 --> 00:03:49,830
+Daí conseguir fazer o mapeamento do objeto para os comandos do banco de dados então feito isso com a
+
+44
+00:03:49,830 --> 00:03:58,500
+consulta com a qual eu posso inclusive exceto algumas informações por exemplo o 7 Max exaltou se o cara
+
+45
+00:03:58,500 --> 00:04:05,570
+tem no máximo cinco resultados a partir dessa consulta por mais que essa consulta ela não limite ela
+
+46
+00:04:05,580 --> 00:04:12,390
+vai trazer tudo do banco de dados você pode especificar quantos resultados no máximo você quer ter inclusive
+
+47
+00:04:12,390 --> 00:04:17,250
+você pode dar opinião de deslocamento que vai fazer questo de paginação mas depois a gente entra um
+
+48
+00:04:17,250 --> 00:04:18,600
+pouco mais nesse detalhe.
+
+49
+00:04:18,810 --> 00:04:26,160
+Então pronto vai se o creme consulta o próximo passo vai ser criar uma lista de usuário que eu vou chamar
+
+50
+00:04:26,160 --> 00:04:27,920
+de uso áreas.
+
+51
+00:04:28,150 --> 00:04:35,220
+E aqui eu vou pegar a partir da minha consulta ponto Gatti do Esalq liste aqui que ele vai realmente
+
+52
+00:04:35,220 --> 00:04:42,250
+efetivar a consulta vai trazer o resultado e jogatina de usuários obviamente eu estou selecionando tudo
+
+53
+00:04:42,270 --> 00:04:48,050
+mas eu limitei a minha consulta pra no máximo cinco resultados ele vai trazer apenas cinco no banco
+
+54
+00:04:48,050 --> 00:04:48,500
+de dados.
+
+55
+00:04:48,500 --> 00:04:55,290
+A gente tem sete registros e isso vai trazer apenas cinco no site uma vez que eu tenho os usuários agora
+
+56
+00:04:55,290 --> 00:05:05,590
+posso fazer o que eu quiser com eles e por exemplo fazer um forró usuário usuário dos pontos usuários
+
+57
+00:05:05,710 --> 00:05:15,630
+coral e aí eu posso dar um susto em algo colocando ali colocando lá de dois pontos.
+
+58
+00:05:15,630 --> 00:05:28,320
+Vou colocar mais um usuário do Guedes de ou daquele mas qualquer penalidade baixa aqui vou colocar mais
+
+59
+00:05:29,120 --> 00:05:33,870
+nome qualquer em meio a qualquer som dinheiro.
+
+60
+00:05:34,100 --> 00:05:40,190
+E aqui eu vou concatenar com o usuário teste mim.
+
+61
+00:05:40,810 --> 00:05:42,480
+Acho que isso é o suficiente.
+
+62
+00:05:42,790 --> 00:05:49,030
+Então criei o meu JP que era misto e obviamente eu posso fazer tudo ali só se quiser passa a ser string
+
+63
+00:05:49,120 --> 00:05:50,130
+aqui dentro.
+
+64
+00:05:50,370 --> 00:05:56,710
+Chamo concatenar depois de criticar com cautela ponto gatinho visão de lixo e Java fazendo uma coisa
+
+65
+00:05:56,710 --> 00:06:02,770
+só sem problema nenhum mas nesse caso eu quis fazer cada um na sua própria variável também nesse caso
+
+66
+00:06:02,770 --> 00:06:07,760
+na qual eu precisava acertar a quantidade máxima de resultado certo.
+
+67
+00:06:08,170 --> 00:06:11,990
+Aqui eu até posso cardeal olhar mas já pra vocês não há outra alternativa.
+
+68
+00:06:12,010 --> 00:06:13,170
+Vai executar.
+
+69
+00:06:13,540 --> 00:06:17,320
+Trouxe aqui todo mundo e mostrou aí um e-mail Rodrigo.
+
+70
+00:06:17,320 --> 00:06:24,100
+Depois de dois André Carlos já Lulu então trouxe aqui todo mundo se cantou querem dizer que eu poderia
+
+71
+00:06:24,100 --> 00:06:34,150
+fazer isso tipo uma linha só comentar isso e pegar aquele Ménage apontam isso aqui pra jogar pra cá
+
+72
+00:06:34,270 --> 00:06:37,650
+só pra gente está menos crítico.
+
+73
+00:06:37,740 --> 00:06:41,920
+Vou passar essa historinha pra cá.
+
+74
+00:06:42,700 --> 00:06:50,440
+Então vou quebrar a lente pra macho vou chamar aqui o gatinho Resort aqui embaixo e vou também colocar
+
+75
+00:06:50,560 --> 00:06:54,300
+o set dar o máximo de resultado.
+
+76
+00:06:54,910 --> 00:06:56,670
+Então já fiz um homem só.
+
+77
+00:06:56,670 --> 00:07:02,840
+Ou seja não precisei disso tudo menos de ponto crítico aqui Parker retorna esse usuário.
+
+78
+00:07:03,010 --> 00:07:09,530
+Certa quantidade máxima de resultado pra 5 idade Horizonte Mexico ou seja isso também é uma possibilidade
+
+79
+00:07:09,550 --> 00:07:14,920
+você está encaixando uma chamada na outra e vai lá também trazer pra vocês os resultados que ele está
+
+80
+00:07:14,940 --> 00:07:17,880
+mostrando a consulta como mostrei pra vocês.
+
+81
+00:07:18,100 --> 00:07:23,490
+Se você não quiser que ele mostra a consulta a gente coloca que o falso.
+
+82
+00:07:23,560 --> 00:07:33,360
+Então tá aqui obter usuários executando mais uma vez vai mostrar logo mais afinal não vai mostrar mas
+
+83
+00:07:33,400 --> 00:07:36,910
+quero deixar assim sem mostrar mas quero sem precisar meu SQL.
+
+84
+00:07:37,140 --> 00:07:44,430
+A gente habilitou novamente lá que eu vou voltar para o computador antes pra deixar as variáveis TTL.
+
+85
+00:07:44,620 --> 00:07:51,450
+Depois eu queria passar no JP Kelly a classe usuario cê tá com entalhe mas o melhor resultado e no final
+
+86
+00:07:51,580 --> 00:07:57,430
+da consulta para obter a lista de usuários a partir do banco de dados então fizemos mais um exercício
+
+87
+00:07:57,430 --> 00:08:04,770
+aqui no nosso nosso capítulo de JP agora obtendo mais de um elemento no banco de dados e mostra seis
+
+88
+00:08:04,930 --> 00:08:09,930
+outros e outras questões como por exemplo como é que posso fazer um consulta e passar parâmetro.
+
+89
+00:08:09,930 --> 00:08:13,580
+Ele pode fazer mais na frente e isso não é complicado.
+
+90
+00:08:13,720 --> 00:08:19,210
+Pra fazer isso a própria claro tem a possibilidade de você ter aqui ok.
+
+91
+00:08:19,360 --> 00:08:24,270
+Contou até que o site foi este horizonte que é o deslocamento offset.
+
+92
+00:08:24,640 --> 00:08:30,030
+Você também tem a possibilidade de passar parâmetros para sua consulta eu vou mostrar isso é outro exercício
+
+93
+00:08:30,030 --> 00:08:32,590
+não me deixe agora que o pessoal fique por aqui.
+
+94
+00:08:32,770 --> 00:08:40,080
+Na próxima aula nós iremos trabalhar com a parte de alteração de usuários e tá mostrando aqui bem no
+
+95
+00:08:40,480 --> 00:08:46,220
+meu planejamento é apelar pra gente veio o primeiro exercício de alteração e vai selecionar o usuário
+
+96
+00:08:46,600 --> 00:08:52,230
+alterar ele emana alteração para o banco de dados de algumas formas e algumas pegadinhas importantes
+
+97
+00:08:52,250 --> 00:08:54,390
+pra você entender a próxima.
+
+98
+00:08:54,410 --> 00:08:56,440
+O primeiro exemplo de alteração é até lá.

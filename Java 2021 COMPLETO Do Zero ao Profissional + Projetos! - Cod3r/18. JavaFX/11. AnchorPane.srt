@@ -1,0 +1,411 @@
+1
+00:00:00,090 --> 00:00:05,250
+Agora nós vamos usar o nosso primeiro gerenciador de layout que é o ano que vem que a ideia de você
+
+2
+00:00:05,250 --> 00:00:12,050
+ancorar os elementos visuais a partir do topo da esquerda da direita de baixo e mostrar isso para vocês
+
+3
+00:00:12,150 --> 00:00:12,630
+agora.
+
+4
+00:00:13,020 --> 00:00:23,570
+Então nós vamos criar uma nova classe C que uniu lá assim o nome da classe vai ser TX.
+
+5
+00:00:24,570 --> 00:00:35,870
+Tem essa classe baixa da casa que existentes em Java e X ponto sim ponto layout de criar o construtor
+
+6
+00:00:35,960 --> 00:00:41,910
+dentro do construtor local que nós vamos colocar toda a lógica do nosso código Java adaptar aqui o Play
+
+7
+00:00:41,920 --> 00:00:42,610
+Alt.
+
+8
+00:00:42,900 --> 00:00:54,510
+Para a gente que aqui não assina vou criar uma cena que eu vou chamar que principal serve sim vou passar
+
+9
+00:00:54,510 --> 00:00:59,310
+como sendo o último teste um corpo bem que nós criamos aqui.
+
+10
+00:00:59,840 --> 00:01:09,660
+E o tamanho vai ser 800 ou 600 com isso aqui embaixo eu vou chamar para meus Tech outros sites sim eu
+
+11
+00:01:09,690 --> 00:01:16,710
+passo aqui nome principal com isso a gente já tem o nosso código funcionando eu vai baixar a tela em
+
+12
+00:01:16,710 --> 00:01:22,110
+branco mas a gente já está pronto para definir os nossos primeiros elementos.
+
+13
+00:01:22,160 --> 00:01:29,260
+Falando nos elementos eu vou criar aqui alguns quadrados então você recebe o quadrado.
+
+14
+00:01:29,280 --> 00:01:34,280
+Nesse caso eu não vou passar um valor padrão e vai pagar alto assumiu sem cem sem que falou como enfim
+
+15
+00:01:34,400 --> 00:01:35,280
+os toparam.
+
+16
+00:01:35,730 --> 00:01:41,640
+Quando eu vim aqui dois três quatro quadrados inicialmente para a gente coloca um quinto e um dois três
+
+17
+00:01:41,640 --> 00:01:50,840
+quatro quadrados e aqui no final vou pagar qualquer tipo de um ponto adicional ao bebê.
+
+18
+00:01:51,020 --> 00:02:00,120
+Só eu posso passar todo de uma única vez ao 1 porque 2 3 e 4 Vocês vão ver que os quatro elementos vão
+
+19
+00:02:00,120 --> 00:02:07,010
+ser adicionados todos no mesmo local certo que é ancorado por padrão na esquerda e no topo não só para
+
+20
+00:02:07,010 --> 00:02:09,040
+a gente executar esse código aqui.
+
+21
+00:02:09,200 --> 00:02:14,280
+O resultado vai mostrar na verdade o último quadrado porque vai ficar muito próximo do outro na mão
+
+22
+00:02:14,350 --> 00:02:21,220
+que laranja mais exatamente agora vou começar a fazer uso ancorar me em um padrão que já fica na esquerda
+
+23
+00:02:21,220 --> 00:02:21,760
+e no topo.
+
+24
+00:02:21,760 --> 00:02:28,020
+Então vou mexer a partir do Q2 depois volto porque é então que o Santos e ele quando ele está ancorado
+
+25
+00:02:28,050 --> 00:02:38,520
+por padrão no topo eu poderia colocar aqui é o sétimo corpo passando o Q2 e baixando o valor das fixando
+
+26
+00:02:38,520 --> 00:02:39,510
+aqui no caso.
+
+27
+00:02:39,780 --> 00:02:47,940
+Observação você precisa colocar um alô da porque como esse método recebe o app ou seja uma classe B
+
+28
+00:02:47,940 --> 00:02:54,010
+maiúsculo você colocar um balão inteiro ele não vai conseguir fazer uma conversão para o W a partir
+
+29
+00:02:54,020 --> 00:02:55,220
+o valor literário inteiro.
+
+30
+00:02:55,230 --> 00:03:02,160
+Então você coloca 10 pontos zero que você está dizendo que você quer ancorar o elemento que 2 a 10 pixels
+
+31
+00:03:02,250 --> 00:03:09,160
+da direita então ele vai navegar para direita você aqui está novamente você vai ver que o Q2 veio pra
+
+32
+00:03:09,210 --> 00:03:13,640
+cá embora os outros continuem aqui em cima do outro.
+
+33
+00:03:14,190 --> 00:03:24,330
+Eu vou colocar também pra ele ancorar o set top corto o Q2 Q2 eu quero ancorar também a 10 segundos
+
+34
+00:03:24,870 --> 00:03:34,500
+da parte em cima do top vou fazer eu vou duplicar isso aqui pra baixo e vou colocar aqui depois de Q3
+
+35
+00:03:35,010 --> 00:03:40,950
+e vou também duplicar isso aqui só pra facilitar e jogar aqui pra depois de quatro.
+
+36
+00:03:40,950 --> 00:03:47,330
+Então aqui é que 3 e 3 e aqui é que 4 4.
+
+37
+00:03:47,850 --> 00:03:55,290
+Nesse caso o Q3 eu quero que ele vai embora para a parte de baixo e para o Left.
+
+38
+00:03:55,320 --> 00:04:02,750
+No caso do p4 quero que ele vá com o Bora Lá eles estão todos a dar explicações tabela aqui eles vão
+
+39
+00:04:02,760 --> 00:04:09,240
+começar só no primeiro que eu não dei o espaçamento de 10 eu vou fazer isso agora então vou duplicar
+
+40
+00:04:09,840 --> 00:04:19,060
+isso aqui jogar pra cima eu vou colocar aqui unidos e eu tenho o topo.
+
+41
+00:04:19,120 --> 00:04:28,930
+E no caso aqui é left não tem todos agora na sua posição onde você quer por exemplo ancorar aqui e mostrar
+
+42
+00:04:28,940 --> 00:04:36,110
+mexi no layout que vai manter os elementos ancorados nos seus devidos pontos de referência quando você
+
+43
+00:04:36,110 --> 00:04:41,450
+quer ancorar aqui no meio por exemplo já não seria tão interessante.
+
+44
+00:04:41,500 --> 00:04:48,560
+Você pode usar um outro olhar mostrar pra vocês o que você não tem uma referência fixa com relação a
+
+45
+00:04:48,560 --> 00:04:53,460
+uma determinada ponta então vamos supor que eu queira que aquilo.
+
+46
+00:04:53,530 --> 00:04:58,210
+5 Sei lá o quê se aplica mais aqui.
+
+47
+00:04:58,490 --> 00:05:10,360
+5 pra ser no meio então vou colocar um P5 Q5 e vou colocar 25 por exemplo ancorado.
+
+48
+00:05:10,760 --> 00:05:19,160
+Eu sei que é o de 6 600 né então ancorado na parte de cima coloca aquele top de l'art que eu vou colocar
+
+49
+00:05:19,160 --> 00:05:29,170
+quatrocentos e trezentos pra gente ver o resultado colocando ele na verdade nem ficou legal.
+
+50
+00:05:29,170 --> 00:05:39,050
+Na verdade eu acho que ao contrário tão boboca traz exemplos e 400 assim 800 assina um pronto ficou
+
+51
+00:05:39,050 --> 00:05:41,990
+mais ou menos no meio terei que isso considera ao sair da caixa.
+
+52
+00:05:41,990 --> 00:05:52,490
+Então a verdade seria 250 pra ficar bem no meio e trazer 50 caixas 100 por cento de desconto a metade
+
+53
+00:05:52,490 --> 00:05:53,620
+do tamanho da caixa.
+
+54
+00:05:54,410 --> 00:05:57,220
+Agora do jeito que tá ele vai ficar bem centralizado.
+
+55
+00:05:57,230 --> 00:06:04,430
+Legal está no centro e tal mas se eu começar a mexer a tela você percebe que ele continua ancorado nessa
+
+56
+00:06:04,430 --> 00:06:05,290
+ponto aqui né.
+
+57
+00:06:05,320 --> 00:06:11,450
+Em relação a esse lado aqui ele só vai ficar centralizado em um cenário específico nos outros não vai.
+
+58
+00:06:11,450 --> 00:06:17,530
+Então nesse caso o que é que eu faria eu criaria aqui por exemplo um box um hangar Box tanto faz ou
+
+59
+00:06:17,910 --> 00:06:32,750
+vou criar aqui h box ou chamar aqui o centro recebe um H Box vou ancorar o H Box pra ele ficar com as
+
+60
+00:06:32,750 --> 00:06:34,670
+pontas do H box ele vai crescer.
+
+61
+00:06:34,670 --> 00:06:36,480
+Então eu posso coral.
+
+62
+00:06:36,680 --> 00:06:38,100
+Qual vai ser minha estratégia.
+
+63
+00:06:38,570 --> 00:06:46,760
+Eu vou ancorar a barra da box exatamente porque ele vai ficar bem aqui no ponto onde tem esse quadrado.
+
+64
+00:06:46,760 --> 00:06:48,350
+A outra Quina vai ficar aqui.
+
+65
+00:06:48,370 --> 00:06:53,450
+A outra máquina aqui é a outra aqui na minha que vai ocupar esse espaço central todinho.
+
+66
+00:06:53,610 --> 00:06:55,840
+O Metro que eu deixei isso aqui.
+
+67
+00:06:55,850 --> 00:06:58,710
+Esse HD Box no meio vai ficar diminuindo de tamanho.
+
+68
+00:06:59,180 --> 00:07:04,620
+Então eu vou colocar aqui o centro pra seu sétimo.
+
+69
+00:07:04,700 --> 00:07:15,860
+Vou colocar primeiro o toque em cima do centro vai ser 110 que é o tamanho da caixa mas o espaçamento
+
+70
+00:07:15,860 --> 00:07:30,610
+que eu dei coroamento vou colocar o botão pra ser também 110 então agora vou colocar aqui o Left left
+
+71
+00:07:30,710 --> 00:07:42,760
+you had todos exatamente com o mesmo tempo então vou adicionar o centro no lugar do Q5 pronto e vou
+
+72
+00:07:42,760 --> 00:07:48,560
+colocar o Q5 que eu vou ter de jogar aqui pra cima dos outros.
+
+73
+00:07:48,560 --> 00:08:00,430
+Eu vou colocar o Q5 dentro do H Box então Guedes te conto adicionar o Q5 e Q5 vai ficar dentro do olhar
+
+74
+00:08:00,430 --> 00:08:02,520
+Box transitando.
+
+75
+00:08:02,890 --> 00:08:06,400
+Nesse caso você vai ver qual o Estado mais interessante.
+
+76
+00:08:06,740 --> 00:08:16,810
+E aí eu preciso antes de jazz e tal já posso testá lo ou fazer com que o centro seja o 7 alimentos posição
+
+77
+00:08:18,490 --> 00:08:22,940
+centro pra ficar bem centralizado mesmo e ter o efeito visual que a gente quer.
+
+78
+00:08:23,290 --> 00:08:30,190
+Então agora clicando aqui é um exemplo de mistura de mais de um padrão de layout que agora ficou centralizado
+
+79
+00:08:30,190 --> 00:08:35,060
+e sempre que eu mexer dá errado porque sabe o que esqueci de adicional.
+
+80
+00:08:35,090 --> 00:08:39,650
+Peguei o artigo não do Centro Children.
+
+81
+00:08:40,090 --> 00:08:47,360
+Na verdade apareceu sempre um ponto Tio Rei adicionar Q5 aí sim eu vou colocar o Q5 bem no centro né.
+
+82
+00:08:47,410 --> 00:08:49,160
+Eu vou lá sempre 100%.
+
+83
+00:08:49,250 --> 00:08:50,360
+Vou tirar isso aqui.
+
+84
+00:08:50,620 --> 00:08:59,020
+Eu não preciso mais ter simplesmente o Q5 botar pra baixo ora bota pra cima pra baixo mais beleza.
+
+85
+00:08:59,060 --> 00:09:01,720
+Pronto vou colocar o Q5 aqui logo depois adicionou ele.
+
+86
+00:09:02,230 --> 00:09:10,810
+Ah isso aqui faz parte sim do usando um arco oramento meu corpinho aqui eu coloco ele dentro de um H
+
+87
+00:09:10,870 --> 00:09:16,560
+Box e aqui eu pedi pra ele alinhar centralizado tanto no eixo horizontal e vertical mais atrás.
+
+88
+00:09:16,570 --> 00:09:24,220
+Agora vai dar certo já contando a nossa tela continuou centralizada e aí sim só mexendo você percebe
+
+89
+00:09:24,370 --> 00:09:32,470
+que ele fica centralizado usando o enquadramento em todos eles na verdade aqui eu tenho uma área invisível
+
+90
+00:09:32,670 --> 00:09:39,970
+porque o box não tem cone background mas ele tá pegando exatamente essas quinas aqui e criando uma caixa
+
+91
+00:09:40,010 --> 00:09:45,340
+dentro dessa caixa eu consigo centralizar essa caixa central só pra mostrar pra vocês um exemplo de
+
+92
+00:09:45,480 --> 00:09:51,520
+um corpo que nesse caso não apenas um corpinho mas que usou também um outro que alargar a boca e por
+
+93
+00:09:51,520 --> 00:09:56,980
+isso já que a gente está usando H Box box durante os exercícios eu não vou fazer um vídeo especificamente
+
+94
+00:09:56,980 --> 00:10:03,190
+pra ele mas vocês percebem que o uso do h box to box é bem tranquilo até porque a gente já usou em outros
+
+95
+00:10:03,190 --> 00:10:05,120
+momentos e vai continuar usando ele.
+
+96
+00:10:05,290 --> 00:10:11,140
+Ainda no capítulo de Java faz questão pessoal fique por aqui no primeiro gerenciador de layout que foi
+
+97
+00:10:11,140 --> 00:10:16,930
+o âncora bem que é ancorar os elementos no topo em baixo.
+
+98
+00:10:17,090 --> 00:10:24,550
+A lateral direita esquerda e também usou H Box pra poder conseguir centralizar um elemento que a gente
+
+99
+00:10:24,550 --> 00:10:25,620
+queria ancorar no meio.
+
+100
+00:10:25,620 --> 00:10:31,540
+Não foi bem ancorado no meio a gente ancorou o H Box pega nas pontas e no meio a gente centralizou ele
+
+101
+00:10:31,540 --> 00:10:33,120
+usando o set.
+
+102
+00:10:33,120 --> 00:10:38,220
+A linha fica por aqui na próxima aula a gente continua pra ver um segundo o gerenciador de layout.
+
+103
+00:10:38,350 --> 00:10:38,950
+E até lá.

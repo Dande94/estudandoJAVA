@@ -1,0 +1,43 @@
+1
+00:00:00,330 --> 00:00:07,710
+Só chegamos no final do nosso capítulo de JD BC vimos várias coisas interessantes tanto a inclusão alteração
+
+2
+00:00:07,710 --> 00:00:14,390
+exclusão cláusula de criação de tabela diretamente a partir do Java criamos o esquema a partir do Java.
+
+3
+00:00:14,550 --> 00:00:21,030
+Vimos como está a analisar as nossas informações de conexão para um arquivo próprias e além disso discutimos
+
+4
+00:00:21,030 --> 00:00:23,610
+um pouco sobre o padrão de projeto dela.
+
+5
+00:00:23,700 --> 00:00:25,160
+São muitas coisas interessantes.
+
+6
+00:00:25,200 --> 00:00:30,430
+Vai ver ainda mais coisas relacionadas ao banco de dados inclusive coisas mais complexas.
+
+7
+00:00:30,440 --> 00:00:36,270
+Pouca gente vai trabalhar com o JP a gente vai conseguir três cenários que envolvam relacionamentos
+
+8
+00:00:36,540 --> 00:00:42,930
+consultas junções de objetos tudo isso em que vai ver um capitão de JP a mais pra frente no custo mais
+
+9
+00:00:42,930 --> 00:00:48,120
+por enquanto fica essa introdução que de banco de dados com Java usando o JD BC que também é um tema
+
+10
+00:00:48,120 --> 00:00:50,070
+muito importante fique por aqui.
+
+11
+00:00:50,070 --> 00:00:53,940
+Pessoal até o próximo capítulo do nosso curso completo de Java e até lá.

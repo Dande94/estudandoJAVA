@@ -1,0 +1,55 @@
+1
+00:00:00,270 --> 00:00:04,980
+Pessoal chegamos no final do capítulo de fundamento de banco de dados e espero que vocês tenham aprendido
+
+2
+00:00:04,980 --> 00:00:11,820
+muito com esse capítulo e no próximo capítulo vamos começar a trabalhar com o banco de dados em Java.
+
+3
+00:00:11,820 --> 00:00:17,460
+Agora ele já aprendi tudo o que a gente viu na parte conceitual de banco diretamente fazem nas consultas
+
+4
+00:00:17,460 --> 00:00:23,580
+os seletos updates os delitos e agora a gente vai trabalhar no contexto de Java mostrando pra vocês
+
+5
+00:00:23,580 --> 00:00:26,610
+os fundamentos de banco de dados dentro da linguagem Java.
+
+6
+00:00:26,940 --> 00:00:32,940
+Eu diria que boa parte das aplicações em Java utilizam banco de dados então é um conceito muito importante
+
+7
+00:00:32,940 --> 00:00:37,880
+para que você possa conhecer e a partir daí no momento que foi introduzida a parte banco de dados.
+
+8
+00:00:37,910 --> 00:00:43,530
+Conhecer as formas de acessar banco de dados conhecer o principal framework relacionado ao banco de
+
+9
+00:00:43,530 --> 00:00:45,580
+dados e entender os conceitos.
+
+10
+00:00:45,600 --> 00:00:51,420
+Aí sim a gente vai começar a utilizar esse conjunto de conhecimentos dentre outras aplicações mais para
+
+11
+00:00:51,450 --> 00:00:52,340
+frente no curso.
+
+12
+00:00:52,350 --> 00:00:56,810
+Então terminamos por aqui o capítulo de fundamentos de banco de dados e no próximo capítulo veremos
+
+13
+00:00:56,820 --> 00:00:58,540
+banco de dados com Java.
+
+14
+00:00:58,590 --> 00:00:58,950
+Até lá.

@@ -1,0 +1,547 @@
+1
+00:00:00,160 --> 00:00:06,810
+Pessoal esse custo ele é pensado para quem está começando a desenvolver uma linguagem de programação
+
+2
+00:00:06,810 --> 00:00:12,840
+ou seja eu espero que você possa até ter visto alguma coisa ilógica que você possa até ter realmente
+
+3
+00:00:13,320 --> 00:00:15,810
+visto alguma coisa de programação muito básica.
+
+4
+00:00:15,810 --> 00:00:21,650
+Você está querendo aprender programação nesse curso ou você não conhece absolutamente nada e eu quero
+
+5
+00:00:21,650 --> 00:00:27,690
+te explicar desde as bases desde o início do mais fundamental para que você possa ir construindo uma
+
+6
+00:00:27,690 --> 00:00:34,430
+base sólida de programação mais mas mentalmente o nível das pessoas que assiste um cônsul são bem diferentes.
+
+7
+00:00:34,430 --> 00:00:38,700
+Uma pessoa já tem uma experiência maior e outra linguagem está querendo entender como o Java funciona
+
+8
+00:00:39,140 --> 00:00:43,760
+e eventualmente você pode passar mais rápido nessa coloca no player 2x.
+
+9
+00:00:43,780 --> 00:00:49,050
+Cabe bem rápido as aulas e já progredir para uma área digamos assim do curso que vai ser mais elegante
+
+10
+00:00:49,050 --> 00:00:49,710
+pra você.
+
+11
+00:00:49,830 --> 00:00:55,380
+Mas como eu não tenho como prever o nível das pessoas então eu vou falar realmente bem básico explicar
+
+12
+00:00:55,380 --> 00:01:00,750
+bem detalhadamente cada coisa pra você está certo da possível que pra vocês que já tenham um conhecimento
+
+13
+00:01:00,770 --> 00:01:06,060
+e programação algumas coisas que vão falar sejam coisas óbvias mas como eu não tenho como prever então
+
+14
+00:01:06,060 --> 00:01:11,160
+fica claro que eu preciso falar de forma mais detalhada para que todo mundo consiga ser nivelado e a
+
+15
+00:01:11,160 --> 00:01:13,840
+gente consiga falar de coisas mais legais no futuro.
+
+16
+00:01:13,980 --> 00:01:18,170
+Eu tenho certeza que independente do seu nível esse curso vai ser relevante pra você.
+
+17
+00:01:18,300 --> 00:01:23,160
+Pode ser que nesse começo seja menos e a partir do momento que for passando as coisas eu tenho certeza
+
+18
+00:01:23,160 --> 00:01:29,180
+que vai fazer muita diferença então nós vamos criar agora o nosso primeiro programa em Java.
+
+19
+00:01:29,500 --> 00:01:36,420
+Nós temos alguns caminhos aqui o caminho mais natural é você criar uma classe e a partir da classe você
+
+20
+00:01:36,420 --> 00:01:43,800
+cria já um pacote e o nome do pacote pode ser exercícios ou pode ser por exemplo capítulo ou aqui no
+
+21
+00:01:43,800 --> 00:01:50,390
+caso nós estamos no capítulo de fundamentos eu vou colocar o nome da pasta pra ser fundamentos certo
+
+22
+00:01:50,400 --> 00:01:55,470
+é o nome do arquivo o nome do pacote melhor dizendo que fundamente ele ele vai acabar criando uma pasta
+
+23
+00:01:55,470 --> 00:02:00,210
+internamente vou mostrar pra vocês e o nome do arquivo vai ser o primeiro programa.
+
+24
+00:02:00,260 --> 00:02:04,570
+E aqui eu vou usar uma anotação que é o que ele chama de Pascal Key.
+
+25
+00:02:04,650 --> 00:02:09,120
+O pessoal também fala de Kamel que está Pascal que isso porque a primeira letra maiúscula então vai
+
+26
+00:02:09,180 --> 00:02:16,080
+ser seu primeiro seja a primeira letra maiúscula e eu não posso dar um espaço em nome de classe eu não
+
+27
+00:02:16,080 --> 00:02:21,780
+posso ter por exemplo o primeiro programa sim o mesmo primeiro programa com letra minúscula certo o
+
+28
+00:02:21,780 --> 00:02:26,360
+que deixaria claro que são duas palavras eu tenho que juntar essas duas palavras.
+
+29
+00:02:26,400 --> 00:02:32,460
+Então como não fica tão claro se você colocar todo o resto é minúscula a gente acaba colocando cada
+
+30
+00:02:32,580 --> 00:02:38,940
+primeira letra de cada palavra maiúscula então acabo primeiro programa e colocando as primeiras letras
+
+31
+00:02:38,940 --> 00:02:47,270
+maiúsculas e o nome do pacote que representa a nossa pasta será fundamental está o pacote ele.
+
+32
+00:02:47,340 --> 00:02:51,270
+Se você olhar aqui dentro eu abri e você vai ver que tem um projeto.
+
+33
+00:02:51,270 --> 00:02:53,780
+Exercícios assim como eu tenho SRC.
+
+34
+00:02:53,930 --> 00:03:01,170
+Essa é a sigla pra source fonte e o código fonte de um programa aqui dentro você tem essa aí sei você
+
+35
+00:03:01,170 --> 00:03:06,800
+vai ter uma pasta chamada fundamentos e dentro você vai ter o nosso arquivo primeiro programa e ponto
+
+36
+00:03:06,810 --> 00:03:12,530
+Java eu posso Abri esse arquivo por exemplo dentro de um editor de texto qualquer ele é um arquivo de
+
+37
+00:03:12,530 --> 00:03:13,310
+texto.
+
+38
+00:03:13,330 --> 00:03:18,300
+Você não tem problema não é nada e não tem nada de especial digamos assim nem aqui porque ele é um arquivo
+
+39
+00:03:18,300 --> 00:03:19,260
+de texto.
+
+40
+00:03:19,500 --> 00:03:25,710
+Mais Você percebe que os arquivos e as pastas que eu vou criando aqui vai ser refletida dentro do nosso
+
+41
+00:03:25,710 --> 00:03:27,390
+sistema de arquivos tá bom.
+
+42
+00:03:27,390 --> 00:03:34,140
+Outra coisa importante é com relação a o pacote embora o pacote ele seja uma pasta assim como você tem
+
+43
+00:03:34,140 --> 00:03:40,130
+uma pasta para organizar suas músicas no computador você também cria os pacotes dentro de um programa
+
+44
+00:03:40,150 --> 00:03:42,240
+Java para organizar o seu código.
+
+45
+00:03:42,390 --> 00:03:47,570
+Para aqueles códigos que estão relacionados você coloca dentro de um pacote ou seja nem de uma pasta.
+
+46
+00:03:47,700 --> 00:03:54,450
+Existem outros significados e outros recursos que estão envolvidos ao conceito de pasta que pouca gente
+
+47
+00:03:54,450 --> 00:03:55,600
+vai vir mais à frente.
+
+48
+00:03:55,920 --> 00:04:02,820
+Mas imaginem nesse momento nesse início o pacote como sendo uma pasta e essa pasta é usada para organizar
+
+49
+00:04:02,820 --> 00:04:03,390
+o código.
+
+50
+00:04:03,390 --> 00:04:09,720
+Você vai separar o código dentro de pastas ou dentro de pacotes esses esses arquivos estarão relacionados
+
+51
+00:04:10,050 --> 00:04:10,820
+de alguma forma.
+
+52
+00:04:10,820 --> 00:04:17,580
+No nosso caso do curso como eu tenho um projeto que representa os exercícios do curso eu tenho pastas
+
+53
+00:04:17,580 --> 00:04:22,530
+que representam os nossos capítulos como nós estávamos no capítulo e fundamentos todos os exercícios
+
+54
+00:04:22,530 --> 00:04:27,210
+que a gente for construído dentro desse capítulo de fundamentos estará dentro desse pacote.
+
+55
+00:04:27,600 --> 00:04:32,450
+Então daqui pra frente eu vou chamar a nomenclatura correta em Java que é pacote mas sempre que eu falar
+
+56
+00:04:32,460 --> 00:04:38,940
+pacote associe também com a questão de organização que uma pasta traz até coloquei no pacote gera uma
+
+57
+00:04:38,940 --> 00:04:44,670
+pasta e a gente vai ver um pouco mais na frente alguns recursos adicionais que o pacote oferecer mais
+
+58
+00:04:44,670 --> 00:04:50,520
+não é algo para agora algo mais que os capítulos um pouco mais avançados está olhando aqui o nosso eu
+
+59
+00:04:50,520 --> 00:04:55,500
+vou primeiro executar o nosso programa depois a gente vai discutir um pouquinho sobre a estrutura de
+
+60
+00:04:55,500 --> 00:04:57,710
+um programa Java certo.
+
+61
+00:04:57,780 --> 00:05:03,750
+Você vai fazer o seguinte só alguns a gente não vai precisar conhecer agora.
+
+62
+00:05:03,820 --> 00:05:06,830
+Então tem algumas palavras do tipo o que é público.
+
+63
+00:05:07,240 --> 00:05:11,700
+O que é pequeno o que é classe não precisa se preocupar com isso.
+
+64
+00:05:11,710 --> 00:05:17,020
+Por enquanto a gente vai escrever essas palavras e depois a gente vai discutir cada uma delas no momento
+
+65
+00:05:17,020 --> 00:05:17,850
+certo.
+
+66
+00:05:17,880 --> 00:05:22,870
+Eu vou acabar falando pouquinho mais o começo para que vocês possam entender algumas questões importantes
+
+67
+00:05:22,870 --> 00:05:27,230
+como eu já estou há quatro anos ensinando lá até mais do que isso.
+
+68
+00:05:27,290 --> 00:05:32,410
+A gente só grava alguns CDs intragável porque meus alunos presencial quando você está num ambiente online
+
+69
+00:05:32,410 --> 00:05:36,950
+você não tem como dar os conselhos corretos para as pessoas no momento certo mais.
+
+70
+00:05:37,080 --> 00:05:42,460
+A minha experiência diz alguns alunos ficam desconfortáveis quando o vê por exemplo algo que não conhece
+
+71
+00:05:42,540 --> 00:05:44,770
+o que não foi explicado.
+
+72
+00:05:44,890 --> 00:05:50,180
+Por exemplo se eu for parar nesse momento pra explicar o que é público pra quê.
+
+73
+00:05:50,190 --> 00:05:55,690
+Pra explicar o que é pequeno o pacote é que vale um pouco rapidamente sobre essa analogia com pasta.
+
+74
+00:05:55,690 --> 00:06:01,510
+Se eu fosse explicar o que é classe tudo isso vai gerar mais confusão do que esclarecimento no momento
+
+75
+00:06:01,510 --> 00:06:01,840
+certo.
+
+76
+00:06:01,840 --> 00:06:03,700
+Vocês vão conhecer cada um desses conceitos.
+
+77
+00:06:03,700 --> 00:06:04,590
+Pode confiar em mim.
+
+78
+00:06:04,600 --> 00:06:11,320
+Tento focar naquilo que eu estou mostrando naquele exercício mágico palco de um teatro que tem dezenas
+
+79
+00:06:11,320 --> 00:06:16,690
+e dezenas de atores lá contracenando em um determinado momento da peça o cara que está lá num canhão
+
+80
+00:06:16,690 --> 00:06:22,780
+de luz ele foca em cima de uma pessoa só então você espera que aquela pessoa que está sendo tocada pela
+
+81
+00:06:22,780 --> 00:06:28,090
+luz vai falar alguma coisa exatamente essa analogia que eu quero que você tenha em mente.
+
+82
+00:06:28,090 --> 00:06:32,710
+Você não vai precisar olhar todos os cenários uma vez só.
+
+83
+00:06:32,710 --> 00:06:35,330
+Você vai olhar exatamente aquilo que eu estou focando.
+
+84
+00:06:35,350 --> 00:06:39,520
+Vai chegar até lá momento que eu vou focar em outra coisa baixinha em determinado momento que eu vou
+
+85
+00:06:39,520 --> 00:06:45,260
+abrir um pouco mais a luz vou focar em duas coisas e no final da peça Eu vou acender a luz do teatro
+
+86
+00:06:45,260 --> 00:06:47,070
+e você vai ver o cenário inteiro.
+
+87
+00:06:47,080 --> 00:06:51,770
+Todos os atores tudo de uma forma integrada é exatamente isso que eu quero que você faça.
+
+88
+00:06:51,820 --> 00:06:58,400
+Tente não focar por enquanto nos detalhes internos então inicialmente nós vamos digitar a palavra em
+
+89
+00:06:58,450 --> 00:06:59,460
+M.
+
+90
+00:07:00,110 --> 00:07:05,990
+Quer dizer principal meio e você vai dar um contra um espaço contra o espaço.
+
+91
+00:07:06,010 --> 00:07:09,800
+é o primeiro atalho que você precisa aprender quando tiver trabalhando com equipes.
+
+92
+00:07:09,820 --> 00:07:15,580
+Nesse caso quando a gente também dá um contra o espaço ele vai mostrar várias opções e a primeira opção
+
+93
+00:07:15,580 --> 00:07:17,120
+é a opção que eu quero selecionar.
+
+94
+00:07:17,380 --> 00:07:21,110
+Você vai selecionar ela certo e ele vai criar para a gente.
+
+95
+00:07:21,160 --> 00:07:26,170
+O ponto de entrada é um programa Java ou seja essa linha 6 aqui.
+
+96
+00:07:26,200 --> 00:07:31,340
+Quando você digital qualquer coisa na linha 6 esse vai ser o ponto de entrada de um programa Java.
+
+97
+00:07:31,360 --> 00:07:36,360
+Eu vou usar um outro atalho por enquanto para a gente não precisar escrever muito nesse primeiro momento.
+
+98
+00:07:36,360 --> 00:07:38,360
+Esse é só som.
+
+99
+00:07:38,480 --> 00:07:47,070
+Só vou dar de novo contra o espaço e ele vai completar ele gerou aquele System ponto aos ponto print
+
+100
+00:07:47,160 --> 00:07:51,780
+e line ou seja brindes Eliane linha imprima o.
+
+101
+00:07:52,180 --> 00:07:59,260
+Em outras palavras nem no de trás para a frente e assim imprima uma linha na saída do sistema lendo
+
+102
+00:07:59,290 --> 00:08:06,320
+em inglês ou seja ele vai imprimir uma linha no console do sistema que é a saída padrão aqui dentro.
+
+103
+00:08:06,420 --> 00:08:13,420
+O ataque contra o Emmy para maximizar o Coelho contra o Emmy minimiza pontuou o Emmy contra o L7 outra
+
+104
+00:08:13,420 --> 00:08:15,010
+tecla de atalho importante.
+
+105
+00:08:15,130 --> 00:08:21,250
+Aqui eu vou colocar entre aspas duplas qualquer texto que eu queira.
+
+106
+00:08:21,790 --> 00:08:28,580
+Uma vez Flamengo então Vasco da Gama ou então Fortaleza qualquer coisa que você queira colocar aqui
+
+107
+00:08:28,600 --> 00:08:34,990
+o seu nome dá uma declaração de amor o que é aqui dentro das aspas é um texto normal e vou colocar aqui
+
+108
+00:08:35,410 --> 00:08:41,050
+primeiro programa é um programa e coloca aqui algumas exclamações.
+
+109
+00:08:41,080 --> 00:08:47,230
+Então em outras palavras que eu estou dizendo imprima na saída do sistema o primeiro programa que termina
+
+110
+00:08:47,230 --> 00:08:49,660
+com um ponto e vírgula eu vou já comentar um pouquinho sobre isso.
+
+111
+00:08:49,660 --> 00:08:56,130
+Se eu der um Command Shift f 11 não é uma tecla de atalho tão natural digamos assim.
+
+112
+00:08:56,320 --> 00:09:01,150
+Ele vai executar o resultado no nosso programa vai aparecer aqui no console.
+
+113
+00:09:01,330 --> 00:09:07,480
+Eu já vou organizar um pouquinho aqui a minha tela certo que é a forma que eu vou usar dentro do nosso
+
+114
+00:09:07,610 --> 00:09:12,390
+nosso exercício de Eu vou pegar esse console aqui e arrastar para fora do eclipse.
+
+115
+00:09:12,400 --> 00:09:15,880
+Numa coisa que você faz com muita frequência.
+
+116
+00:09:16,110 --> 00:09:21,970
+Nesse caso eu quero colocar o console aqui e eu vou ficar nesse cantinho certo porque vai ficar mais
+
+117
+00:09:21,970 --> 00:09:23,540
+fácil para a gente se comunicar.
+
+118
+00:09:23,540 --> 00:09:28,270
+Assim em vez de eu ficar no meio da tela e atrapalhando o código eu ficaria esse cantinho na tela.
+
+119
+00:09:28,270 --> 00:09:29,800
+Outra coisa que eu quero fazer.
+
+120
+00:09:29,800 --> 00:09:33,800
+E aí você não precisa fazer isso agora eu vou entrar dentro das preferências.
+
+121
+00:09:33,970 --> 00:09:40,030
+Aqui no caso do Mac com uma vírgula eu acho que não tem uma tecla de atalho para as preferências no
+
+122
+00:09:40,030 --> 00:09:41,340
+Windows 8 na dúvida certo.
+
+123
+00:09:41,410 --> 00:09:46,210
+Mas vocês podem pesquisar sobre isso e encontrar no menu super simples aqui nas preferências eu vou
+
+124
+00:09:46,210 --> 00:09:53,200
+colocar fontes e onde tem cores e fontes selecionando o que básico só eu preciso fazer.
+
+125
+00:09:53,200 --> 00:09:57,000
+Vocês não precisam estar aqui onde tem trechos da fonte.
+
+126
+00:09:57,010 --> 00:10:04,260
+Eu vou aumentar pra ficar um pouco mais 6 o resultado do console então aplicar você vai ver que o resultado
+
+127
+00:10:04,260 --> 00:10:06,010
+é bem maior que o primeiro programa.
+
+128
+00:10:06,010 --> 00:10:06,700
+Certo.
+
+129
+00:10:06,700 --> 00:10:09,690
+Estavam lá nós criamos o nosso primeiro programa.
+
+130
+00:10:10,030 --> 00:10:16,420
+Eu não falei muito ainda sobre o que foi escrito aqui falei e foquei mais na questão das teclas de atalho
+
+131
+00:10:16,480 --> 00:10:18,970
+e naquilo acreditei e geria o programa.
+
+132
+00:10:19,130 --> 00:10:23,980
+E já que está ficando um pouco legal vou deixar para a próxima aula a gente discutiu um pouquinho sobre
+
+133
+00:10:23,980 --> 00:10:30,150
+como um programa já bem organizado pensa um pouquinho entre essa e a próxima se você quiser pausar e
+
+134
+00:10:30,160 --> 00:10:32,010
+ficar pensando olhando para esse código.
+
+135
+00:10:32,020 --> 00:10:35,620
+Como é que você explicaria para alguém como esse programa está organizado.
+
+136
+00:10:35,620 --> 00:10:42,070
+Quais são os caracteres importantes que vão da estrutura para esse programa em Java exatamente sobre
+
+137
+00:10:42,070 --> 00:10:43,420
+isso que quero falar aproximá lo.

@@ -1,0 +1,171 @@
+1
+00:00:00,360 --> 00:00:06,300
+A resposta desse desafio é com relação a um ponto e vírgula acha para vocês.
+
+2
+00:00:06,300 --> 00:00:12,750
+A resposta agora c usar a tecla de formatação de Eclipse clicar com o botão direito você tem código
+
+3
+00:00:13,020 --> 00:00:17,410
+e você tem a opção aqui ou procurar aquele Format.
+
+4
+00:00:17,430 --> 00:00:19,850
+Você tem essa tecla de atalho aqui na minha máquina certo.
+
+5
+00:00:20,130 --> 00:00:26,370
+Então vou colocar Command Shift F para formatar e você vai perceber o seguinte a formatação já vai dar
+
+6
+00:00:26,370 --> 00:00:31,890
+para a gente a dica do problema certo eu falei pra vocês eu acho que na primeira aula no primeiro programa
+
+7
+00:00:32,300 --> 00:00:35,310
+que o ponto e vírgula é uma sentença de código válida.
+
+8
+00:00:35,310 --> 00:00:40,770
+Certo mesmo que você coloque em vazia uma sentença vazia você terminou a sentença de código de base
+
+9
+00:00:40,800 --> 00:00:43,630
+aqui a formatação está dizendo o seguinte.
+
+10
+00:00:43,920 --> 00:00:52,230
+Eu tenho um f aqui na minha 9 e a próxima coisa que aparecer será executada de forma condicional dependendo
+
+11
+00:00:52,230 --> 00:00:53,310
+dessa expressão.
+
+12
+00:00:53,310 --> 00:00:58,800
+Se essa expressão fogueira Beira ele vai executar para alguma coisa essa expressão for falsa ele não
+
+13
+00:00:58,800 --> 00:01:00,460
+vai executar a próxima coisa.
+
+14
+00:01:00,570 --> 00:01:07,500
+Nesse caso essa expressão a expressão falsa porque obviamente o aluno tirou nota 1 ponto 3 1 ponto 3
+
+15
+00:01:07,500 --> 00:01:14,170
+não é maior ou igual a 9 e ele vai ou não executar essa sentença de código da Linha 13.
+
+16
+00:01:14,170 --> 00:01:19,950
+7 coloquei que usa espaço para dar um pouco mais de dramaticidade tá mais importante que a próxima coisa
+
+17
+00:01:19,950 --> 00:01:26,520
+que vier seja uma sentença de código ou um bloco de código ele será executado de forma condicional.
+
+18
+00:01:26,670 --> 00:01:32,970
+Nesse caso um bloco de código assim sem nenhum tipo de critério também é um código válido algo que você
+
+19
+00:01:32,970 --> 00:01:39,060
+consegue definir um bloco de código dessa forma sem necessariamente ter associado nada ele é só um bloco
+
+20
+00:01:39,060 --> 00:01:45,570
+de código para organizar e nesse caso esse bloco de código sempre será executado independente da condição
+
+21
+00:01:45,570 --> 00:01:46,690
+do seu programa.
+
+22
+00:01:46,710 --> 00:01:52,950
+Então essa expressão está ou não definindo se o ponto e vírgula será executado ou seja o core que não
+
+23
+00:01:52,950 --> 00:01:54,590
+faz absolutamente nada.
+
+24
+00:01:54,870 --> 00:01:56,010
+Qual é a moral da história.
+
+25
+00:01:56,010 --> 00:02:02,490
+Você não termina o bloco ou os outros blocos só tem uma exceção que não mancha mais na frente mas os
+
+26
+00:02:02,490 --> 00:02:08,400
+blocos de controle e ações futuras de controle não são terminados com ponto e vírgula certo no exemplo
+
+27
+00:02:08,400 --> 00:02:14,160
+passado mas criamos algumas estruturas de controle aqui no final não tem ponto e vírgula que também
+
+28
+00:02:14,160 --> 00:02:19,040
+não tem ponto e vírgula aqui embaixo não tem ponto e vírgula ou seja essa é a moral da história.
+
+29
+00:02:19,110 --> 00:02:25,980
+Nesse caso se eu tirar esse ponto e vírgula aqui salvar o código executar novamente você vai perceber
+
+30
+00:02:26,310 --> 00:02:27,750
+que ele não vai mostrar nada.
+
+31
+00:02:27,750 --> 00:02:28,260
+Por quê.
+
+32
+00:02:28,260 --> 00:02:35,420
+Porque o cara tirou a nota 1 ponto 3 então voltamos aqui eu olho pra cima formatar o código aqui formatado.
+
+33
+00:02:35,460 --> 00:02:41,790
+Agora sim nós temos o nosso código corretamente implementado sem o ponto e vírgula só esse ponto e vírgula
+
+34
+00:02:42,180 --> 00:02:47,800
+inofensivo aqui no meio faz com que a lógica do nosso código execute completamente diferente.
+
+35
+00:02:47,890 --> 00:02:48,300
+Quê.
+
+36
+00:02:48,540 --> 00:02:53,540
+Porque o hífen vai estar ou não executando esse e essa sentença de código vazia.
+
+37
+00:02:53,550 --> 00:02:58,980
+Esse bloco de código aqui por mais próximo que ele esteja do chefe da estrutura de controle ele não
+
+38
+00:02:58,980 --> 00:03:05,760
+está tendo relação com a expressão ser verdadeiro ou falso então fica a dica não usar ponto e vírgula
+
+39
+00:03:05,780 --> 00:03:15,190
+então posso colocar aqui e não usar fonte vigilante em estruturas de controle.
+
+40
+00:03:16,170 --> 00:03:20,460
+Eu vou colocar aqui tem essa ação certo.
+
+41
+00:03:20,480 --> 00:03:25,430
+Tenho um acesso que eu vou comentar um pouco mais na frente pra vocês não ficar exposta do nosso desafio
+
+42
+00:03:25,440 --> 00:03:31,190
+se você quiser criar classe e agora copiar só pra efeito de exercício fique à vontade na próxima aula
+
+43
+00:03:31,200 --> 00:03:35,610
+gente continua com mais exercícios ainda do chefe agora introduzindo o aos.

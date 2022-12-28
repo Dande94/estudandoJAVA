@@ -1,0 +1,275 @@
+1
+00:00:00,210 --> 00:00:07,560
+Agora nós vamos implementar a interface gráfica do nosso jogo e para isso você exclui essa classe tempo
+
+2
+00:00:07,590 --> 00:00:14,310
+que a gente criou só para testar e nós vamos criar dentro do pacote visão a classe que vai representar
+
+3
+00:00:14,310 --> 00:00:24,480
+na tela principal do jogo então o nome dessa classe será exatamente a tela principal principal e essa
+
+4
+00:00:24,480 --> 00:00:29,740
+tela principal diferente daquele outro exemplo que a gente fez e mais para trás sobre o suingue.
+
+5
+00:00:29,760 --> 00:00:33,800
+Eu vou fazer com que a tela principal tenda gay friendly.
+
+6
+00:00:33,840 --> 00:00:39,780
+A gente criou o diferente diretamente do meia que vai fazer com que a tela principal estenda de frente
+
+7
+00:00:39,930 --> 00:00:47,510
+ou seja como uma herança interditar a principal e de frame a relação a tela principal é diferente conforme
+
+8
+00:00:47,520 --> 00:00:53,460
+a gente viu anteriormente aquele tá reclamando por conta do cereal vexame de clicar com o botão direito
+
+9
+00:00:53,460 --> 00:00:55,680
+e clicar com o botão direito baixa do tal custo em cima.
+
+10
+00:00:55,680 --> 00:01:02,660
+Na verdade ele vai aparecer aqui quatro possibilidades de resolução do problema e eu vou colocar o Supra.
+
+11
+00:01:02,910 --> 00:01:06,260
+Seria algo que irei implementar o vexame.
+
+12
+00:01:06,350 --> 00:01:09,000
+Vou criar um metro e meio metro no meio.
+
+13
+00:01:09,000 --> 00:01:16,650
+Basicamente eu vou chamar o construtor dessa troca clássica da tela principal e eu vou fazer o trabalho
+
+14
+00:01:16,650 --> 00:01:22,460
+de configuração nessa tela no construtor então o criativo chutou a tela principal se você der um contra
+
+15
+00:01:22,460 --> 00:01:25,470
+o espaço e o construtor não tiver sido criado.
+
+16
+00:01:25,470 --> 00:01:30,900
+Uma das possibilidades aqui é você criar o conforto ou então criar o construtor aqui dentro.
+
+17
+00:01:30,900 --> 00:01:33,390
+Primeiro Comando vou colocar o site Visible.
+
+18
+00:01:33,390 --> 00:01:36,020
+Lembrando que eu recebi esses métodos por herança.
+
+19
+00:01:36,450 --> 00:01:42,720
+Então não preciso chamar parte de nada porque já tem um mecanismo de herança que ou seja réus em código.
+
+20
+00:01:42,730 --> 00:01:50,780
+A parte da herança é um tema que usa métodos a minha disposição set Taito para definir o título do jogo
+
+21
+00:01:50,790 --> 00:01:54,320
+que vai ser campo minado.
+
+22
+00:01:54,330 --> 00:02:01,710
+Além disso eu posso definir o tamanho total sete sites o tamanho do jogo foi algo que eu demorei um
+
+23
+00:02:01,710 --> 00:02:04,840
+pouquinho ajustando para ficar do jeito que eu queria.
+
+24
+00:02:05,040 --> 00:02:14,520
+No final das contas eu defini que o tamanho maior cada 690 por 438 ficou bem bonitinho assinei com todos
+
+25
+00:02:14,520 --> 00:02:20,640
+os botões aparecendo e tal foi ajustado até ficar na posição que eu queria executando esse código que
+
+26
+00:02:20,640 --> 00:02:24,290
+já tem um metro e meio isto é a tela onde aparecia o campo minado.
+
+27
+00:02:24,870 --> 00:02:36,090
+Vou colocar mais um ou outro que é o set Location relative para que ele possa centralizar a tela executar
+
+28
+00:02:36,090 --> 00:02:38,560
+mais um bem mas temos o nosso combinado aqui.
+
+29
+00:02:39,300 --> 00:02:48,560
+Ele não está matando o processo ainda vou limpar todos aqui e vou colocar aqui o set de fogo Close Operation.
+
+30
+00:02:49,110 --> 00:02:56,640
+E nesse caso como atordoado tudo inclusive as constantes que ele dispôs dispostos em close.
+
+31
+00:02:57,050 --> 00:02:59,120
+Não preciso fazê J frame.
+
+32
+00:02:59,130 --> 00:03:05,730
+Ponto de explosão como já tenho recebido por herança também essa possibilidade de tal forma que é executado
+
+33
+00:03:05,960 --> 00:03:12,150
+clicando aqui ele vai fechar depois de um tempo ele mata o processo internamente porque é exatamente
+
+34
+00:03:12,150 --> 00:03:15,810
+o que esse parâmetro está fazendo com o site de folclores Operation.
+
+35
+00:03:15,810 --> 00:03:28,200
+Outra coisa que eu vou precisar criar aqui vai ser o tabuleiro um tabuleiro tabuleiro de tabuleiro e
+
+36
+00:03:28,200 --> 00:03:38,770
+vou passar aqui para 16 linhas mas sei 30 colunas ao contrário fica ali minha coluna e a quantidade
+
+37
+00:03:38,770 --> 00:03:41,720
+de Minas eu vou colocar o S5 contra.
+
+38
+00:03:41,970 --> 00:03:48,270
+Vai ser um jogo relativamente grande e o próximo passo agora vai ser criar uma outra classe que vai
+
+39
+00:03:48,380 --> 00:03:50,670
+representar o painel tabuleiro.
+
+40
+00:03:51,240 --> 00:03:55,720
+Vou criar aqui uma classe C Class.
+
+41
+00:03:55,890 --> 00:04:06,940
+O nome dessa classe vai ser um painel Table leilão e essa classe vai estender uma outra classe do Sully
+
+42
+00:04:06,980 --> 00:04:09,550
+que é o J.
+
+43
+00:04:09,840 --> 00:04:15,930
+JP Não é como se fosse um agrupado e um contêiner contém uma nomenclatura que é muito usado também nessa
+
+44
+00:04:15,930 --> 00:04:21,340
+questão de elementos visuais que é um componente que agrupa outros componentes dentro dele.
+
+45
+00:04:21,690 --> 00:04:26,820
+Então dentro desse J Penny eu vou ter uma série de botões cada botão representando um dos campos do
+
+46
+00:04:26,820 --> 00:04:27,810
+jogo.
+
+47
+00:04:27,810 --> 00:04:34,530
+Então esse aqui vai ser o painel do tabuleiro e não construtor desse dessa classe eu vou querer passar
+
+48
+00:04:34,530 --> 00:04:43,200
+como parâmetro um tabuleiro estão aqui no tabuleiro tabuleiro e as mãos aqui também é a mesma coisa
+
+49
+00:04:43,200 --> 00:04:48,030
+com relação serial versões de qualquer que isso o torne serial.
+
+50
+00:04:48,070 --> 00:04:59,460
+E lá na minha classe principal eu vou criar um painel tabuleiro e um tabuleiro para tabuleiro um tabuleiro
+
+51
+00:05:00,190 --> 00:05:04,510
+aqui um tabuleiro como parâmetro é no final das contas.
+
+52
+00:05:04,550 --> 00:05:09,140
+Eu vou adicionar na minha interface que eu estou agora na cadeira principal.
+
+53
+00:05:09,200 --> 00:05:12,920
+O painel tabuleiro então para tabuleiro vai ser adicionado.
+
+54
+00:05:12,920 --> 00:05:20,310
+Posso até passar sem nem precisar distanciar ele irá passar diretamente ao distanciando e passando um
+
+55
+00:05:20,310 --> 00:05:22,620
+tabuleiro que será na linha anterior.
+
+56
+00:05:22,990 --> 00:05:27,770
+E aqui você até poderia perguntar para o usuário se ele quer ter um jogo mais fácil mais difícil maior
+
+57
+00:05:27,770 --> 00:05:33,770
+ou menor e dá algumas possibilidades mais aquilo tudo define um tabuleiro fixo passando esse tabuleiro
+
+58
+00:05:33,800 --> 00:05:39,470
+para uma classe que vai apresentar visualmente um tabuleiro e adicione ele aqui na tela.
+
+59
+00:05:39,470 --> 00:05:45,140
+Por enquanto o painel tabuleiro não tem nada e nós vamos precisar implementar aqui para começar a exibir
+
+60
+00:05:45,140 --> 00:05:46,360
+os botões na tela.
+
+61
+00:05:46,610 --> 00:05:50,870
+Então fique por aqui nessa primeira parte a gente criou a nossa interface gráfica é só testar para algo
+
+62
+00:05:50,870 --> 00:05:53,640
+que está tudo funcionando funcionando.
+
+63
+00:05:53,750 --> 00:05:59,090
+Ele vai mostrar o painel foi incluído aqui mas ele está em branco não tem nada dentro dele então por
+
+64
+00:05:59,090 --> 00:06:03,920
+isso que não está aparecendo mais a nossa tela principal foi criada e na próxima aula ele vai focar
+
+65
+00:06:03,920 --> 00:06:08,840
+aqui no painel tabuleiro para mostrar todos os botões da tela e depois começar a fazer a ligação entre
+
+66
+00:06:08,840 --> 00:06:14,620
+os botões e realmente os campos que é a classe que vai ficar gerando os argumentos e aí sim atualizando
+
+67
+00:06:14,620 --> 00:06:15,840
+a interface gráfica.
+
+68
+00:06:15,860 --> 00:06:16,820
+Fique por aqui na próxima.
+
+69
+00:06:16,840 --> 00:06:20,100
+A gente continua pra implementar o nosso painel tabuleiro e até lá.

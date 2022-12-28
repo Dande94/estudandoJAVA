@@ -1,0 +1,595 @@
+1
+00:00:00,390 --> 00:00:08,500
+No começo do capítulo nós vimos a possibilidade de fazer múltiplas escolhas usando e depois Deus teve
+
+2
+00:00:08,880 --> 00:00:11,370
+como inspiração e falta de expressão.
+
+3
+00:00:11,380 --> 00:00:17,310
+E se você quiser no final você pode colocar um deus pra o caso que você não passar por nenhuma das expressões
+
+4
+00:00:17,310 --> 00:00:18,870
+anteriores a gente faz isso.
+
+5
+00:00:18,910 --> 00:00:26,430
+Exemplo que a gente colocou aqui uma expressão e aí ele entrava nessa ou nessa ou seja você tinha seleções
+
+6
+00:00:26,430 --> 00:00:32,790
+múltiplas usando a estrutura e juntamente com elas e no final você pode ter aqui um caso contrário sem
+
+7
+00:00:32,790 --> 00:00:38,010
+nenhum tipo de filtro pra entrar nele ou seja caso não tenha entrado nenhum desses anteriores ele cai
+
+8
+00:00:38,020 --> 00:00:44,610
+aqui no último que era o conceito F também fez um outro exercício que é o dia da semana que também usou
+
+9
+00:00:45,000 --> 00:00:52,890
+essa estrutura e ficou claro por exemplo domingo segunda 3 e tal aqui também tem a possibilidade de
+
+10
+00:00:52,890 --> 00:00:58,830
+fazer seleções múltiplas agora com uma estrutura de controle apropriada para esse tipo de cenário que
+
+11
+00:00:58,830 --> 00:00:59,620
+é o switch.
+
+12
+00:00:59,880 --> 00:01:07,080
+Eu vou criar dois exercícios de suíte um nessa aula mostrando uma forma menos usual do switch e na próxima
+
+13
+00:01:07,080 --> 00:01:10,670
+aula nas minhas mãos não for mais usual que usar uma palavrinha BRIC.
+
+14
+00:01:11,070 --> 00:01:19,940
+Então inicialmente aí estava um lado colocar aqui uma nova classe vou criar aqui Switch sem qualquer
+
+15
+00:01:20,030 --> 00:01:27,090
+um Finish e aqui eu vou criar um método Mei eu vou comentar um pouquinho não é fácil ser bem sincero
+
+16
+00:01:27,090 --> 00:01:35,640
+com vocês e encontrar um exemplo que eu consiga usar um buy Suit sem o uso de 90 não tem uma estatística
+
+17
+00:01:35,670 --> 00:01:42,790
+pra isso mais de 99 por cento das vezes que você for usar um switch você vai usar com palavrinha aí
+
+18
+00:01:42,900 --> 00:01:48,480
+certo e aqui eu fiquei pensando pensando no exercício vou pagar o mesmo exercício que eu fiz na primeira
+
+19
+00:01:48,480 --> 00:01:54,200
+versão do curso serve alguns assistam bem diferente da primeira versão do curso a maioria está bem diferente
+
+20
+00:01:54,750 --> 00:02:00,120
+mas esse é um exercício que eu peguei exatamente como fiz a primeira versão do curso o porquê não é
+
+21
+00:02:00,120 --> 00:02:05,730
+fácil você encontrar exemplos de suíço que vai se comportar da forma como ele vai se comportar aqui
+
+22
+00:02:05,730 --> 00:02:06,220
+sempre.
+
+23
+00:02:06,250 --> 00:02:13,290
+Aí eu vou usar exemplos de caratê em sete faixas de Karatê cada faixa você tem no Catar né.
+
+24
+00:02:13,320 --> 00:02:20,210
+Lembro que eu fiz caratê há uns 20 25 anos atrás quando era mais novo na verdade e não lembro de nada
+
+25
+00:02:20,220 --> 00:02:22,150
+fiquei na faixa verde.
+
+26
+00:02:22,190 --> 00:02:23,630
+Eu assim não estou enganado.
+
+27
+00:02:23,760 --> 00:02:28,220
+Serra na época era bom mas hoje eu sou muito ruim nessa parte aí mais beleza.
+
+28
+00:02:28,290 --> 00:02:33,900
+Inicialmente eu vou colocar aqui estranho chamar a faixa que vou receber o valor o valor da faixa preta
+
+29
+00:02:34,460 --> 00:02:37,180
+é uma das questões importantes do Sul.
+
+30
+00:02:37,280 --> 00:02:44,070
+A gente tem até aqui a estrutura de controle que a expressão é uma expressão booleana que você tem um
+
+31
+00:02:44,070 --> 00:02:45,210
+valor booleano.
+
+32
+00:02:45,210 --> 00:02:46,370
+Você pode passar o F.
+
+33
+00:02:46,370 --> 00:02:50,820
+Depois você tem uma sentença ou um bloco de código sou eu.
+
+34
+00:02:51,030 --> 00:02:56,240
+Você tem também uma expressão booleana aqui uma expressão que é verdadeiro ou falso.
+
+35
+00:02:56,240 --> 00:02:58,570
+Pra ele ficar repetindo Eu não acho.
+
+36
+00:02:58,660 --> 00:03:05,160
+A gente tem o foco o foco também é uma expressão que embora tenha aqui mais partes no meio nós temos
+
+37
+00:03:05,160 --> 00:03:08,220
+uma expressão que retorna verdadeiro falso.
+
+38
+00:03:08,220 --> 00:03:14,190
+Nesse caso o sentido é diferente e não vai receber o valor verdadeiro ou falso ele vai receber diretamente
+
+39
+00:03:14,190 --> 00:03:14,730
+o valor.
+
+40
+00:03:15,060 --> 00:03:21,120
+Então vão achar pra vocês agora nós vamos criar aqui um sujeito que vou passar o valor direto que no
+
+41
+00:03:21,120 --> 00:03:28,760
+caso que vai ser variava a faixa e a faixa com o monstrinho que pode ter o valor preto marrom amarelo.
+
+42
+00:03:28,920 --> 00:03:35,190
+Então pra cada valor que eu estou esperando receber em cima da faixa Eu vou colocar um caso diferente
+
+43
+00:03:35,190 --> 00:03:41,250
+para que a gente possa tratar esse caso especificamente pra eu por exemplo não ficar me preocupando
+
+44
+00:03:41,250 --> 00:03:46,640
+com letras maiúsculas e minúsculas eu já vou passar o valor chulo ou a riqueza que eu vou criar um case
+
+45
+00:03:46,680 --> 00:03:47,580
+pra cada faixa.
+
+46
+00:03:47,580 --> 00:03:55,680
+Então por exemplo quem usa ainda a faixa preta significa que essa pessoa sabe fazer por exemplo um determinado
+
+47
+00:03:55,700 --> 00:03:56,360
+catálogo.
+
+48
+00:03:56,370 --> 00:04:02,160
+Coloquei o nome não vou me atrever a ler todos os nomes aqui pra não errar acerta a pronúncia mais maximizar
+
+49
+00:04:02,160 --> 00:04:06,580
+a tela que significa que ele sabe fazer esse mas não apenas esse.
+
+50
+00:04:06,600 --> 00:04:12,080
+Todos os outros 14 que não ficar embaixo das outras faixas quem era faixa preta tem que saber.
+
+51
+00:04:12,390 --> 00:04:15,370
+Eu coloquei aqui um rosário de Ciências porque tem outros capazes aqui.
+
+52
+00:04:15,660 --> 00:04:21,720
+Então vamos lá buscar colocar aqui o caso em marrom caso o valor da faixa seja marrom ele vai entrar
+
+53
+00:04:21,720 --> 00:04:27,990
+no tênis marrom e eu vou colocar aqui insistem em áudio prende Aline Eu vou colocar que ele sabe o show
+
+54
+00:04:27,990 --> 00:04:34,940
+da Net Quixadá e você vai ter vários outros exemplos aqui vou colocar o que e da faixa roxa então System
+
+55
+00:04:34,960 --> 00:04:36,780
+em algum ponto prende Aline.
+
+56
+00:04:36,930 --> 00:04:40,680
+Vou colocar aqui eu sei o que eu estou lembrado.
+
+57
+00:04:40,700 --> 00:04:47,760
+Lembro que eu falava só os últimos nomes até a pesca de algodão e eu dançando Dani e Shelda até os nomes
+
+58
+00:04:47,760 --> 00:04:53,430
+aqui mas essa peça primeiro o nome equivocadamente pra vocês quem souber karatê depois manda a pronúncia
+
+59
+00:04:53,430 --> 00:04:53,740
+certo.
+
+60
+00:04:53,970 --> 00:04:57,970
+Então vamos lá depois até o queixo da faixa verde que eu acho que eu fiquei né.
+
+61
+00:04:58,290 --> 00:05:06,790
+Então System Alt prende sem o Yoda o outro vai ser a faixa laranja local que assistem aos de Prince
+
+62
+00:05:06,800 --> 00:05:07,780
+Ali.
+
+63
+00:05:07,780 --> 00:05:14,160
+Eu sei um determinado Catar e o Sandy tem a faixa vermelha eu as pernas de não vermelho.
+
+64
+00:05:14,350 --> 00:05:16,520
+Eu acho que era a terceira branca amarela e vermelha.
+
+65
+00:05:17,030 --> 00:05:25,420
+E aí eu coloquei aqui Halsey unida e outro que fez a faixa amarela System Alt Print e Aline.
+
+66
+00:05:25,520 --> 00:05:28,250
+Vou colocar aqui eu sei o show.
+
+67
+00:05:28,430 --> 00:05:34,580
+E finalmente caso não seja amarela ou seja a parte branca ou seja o caso de fogo eu vou colocar o System
+
+68
+00:05:34,580 --> 00:05:36,140
+Audio prende ali.
+
+69
+00:05:36,170 --> 00:05:40,580
+Não sei de nada porque estou começando a que até agora vou só formatar aqui para.
+
+70
+00:05:40,610 --> 00:05:43,070
+Vou ficar também alinhados junto com os outros.
+
+71
+00:05:43,060 --> 00:05:47,670
+Então olhando aqui pro nosso exemplo basicamente é simples assim.
+
+72
+00:05:47,760 --> 00:05:52,400
+Mas eu quero falar um pouquinho pra vocês agora do comportamento certo mensalmente eu vou colocar aqui
+
+73
+00:05:52,430 --> 00:05:59,510
+faixa branca qualquer na faixa branca vai executar o código você vai perceber que ele vai como faixa
+
+74
+00:05:59,510 --> 00:06:04,360
+branca não existe nenhum anterior não é preta não não bateu né.
+
+75
+00:06:04,780 --> 00:06:08,540
+Não é aquele marrom roxo verde laranja vermelho e amarelo.
+
+76
+00:06:08,550 --> 00:06:18,280
+E aí ele entrou no de e o último se eu passar por exemplo a faixa amarela amarela ele vai executar aqui
+
+77
+00:06:18,490 --> 00:06:24,620
+e ele vai colocá lo sei da medalha Se der faltava ele até atrapalha a nossa loja não vou comentar mas
+
+78
+00:06:24,620 --> 00:06:29,690
+existe a possibilidade de você ter o desfalque certo nesse caso colocar a amarela porque não sei de
+
+79
+00:06:29,690 --> 00:06:29,960
+nada.
+
+80
+00:06:29,960 --> 00:06:30,790
+Fica meio chato.
+
+81
+00:06:30,800 --> 00:06:37,400
+No final das contas etanol ele vai colocar sei o show daqui a uns Catar se eu colocar por exemplo a
+
+82
+00:06:37,400 --> 00:06:45,160
+faixa vermelha e pegar aqui uma vez que ele entra em um dos Keys e não tem o single não tem a palavra
+
+83
+00:06:45,180 --> 00:06:51,040
+lembrei que vai fazer com que ele entrou naquele is eles estão todos os que estão abaixo.
+
+84
+00:06:51,050 --> 00:06:57,260
+Certo Esse é o tipo do comportamento que você quer que aconteça talvez em um por cento das vezes na
+
+85
+00:06:57,470 --> 00:07:03,650
+grande maioria você vai querer que ele execute apenas um caso saiba que é exatamente o caso o que aconteceu
+
+86
+00:07:03,650 --> 00:07:07,690
+nos nossos exemplos de múltiplas escolhas usando F.
+
+87
+00:07:07,880 --> 00:07:12,460
+Ele só vai executar esse bloco Serasa pra esse bloco o outro será executado.
+
+88
+00:07:12,470 --> 00:07:17,750
+Ou então se ele entrar nesse segundo bloco só vai executar esse e por outro final.
+
+89
+00:07:17,880 --> 00:07:23,930
+Aqui executa o outro bloco nem o outro será executado pois ele pulou pra logo depois dessa estrutura
+
+90
+00:07:23,930 --> 00:07:30,150
+completa ou seja apenas um bloco nesse cenário executado no caso do suíte sem o.
+
+91
+00:07:30,170 --> 00:07:36,170
+Se eu voltar aqui ao suítes em breve uma vez que ele entrou em um dos casos todos os gays para baixo
+
+92
+00:07:36,200 --> 00:07:38,190
+serão executados por quem não tem.
+
+93
+00:07:38,540 --> 00:07:44,450
+Por isso que é um comportamento bem digamos assim é difícil de você encontrar porque a grande maioria
+
+94
+00:07:44,450 --> 00:07:50,470
+das vezes você vai querer executar apenas um único quese executado ele Você vai sair da estrutura sei
+
+95
+00:07:50,590 --> 00:07:50,960
+lá.
+
+96
+00:07:51,230 --> 00:07:57,440
+Então nesse caso se a faixa amarela você sabe em determinado o Qatar se você colocou a faixa vermelha
+
+97
+00:07:57,440 --> 00:08:03,340
+você tem que saber o cartaz da faixa vermelha mais o Catar da faixa amarela por isso que a cumulativa
+
+98
+00:08:03,340 --> 00:08:06,410
+nesse caso faz sentido o cara da faixa vermelha.
+
+99
+00:08:06,410 --> 00:08:07,800
+Sabe o cara.
+
+100
+00:08:07,940 --> 00:08:08,900
+E o show.
+
+101
+00:08:08,930 --> 00:08:16,550
+Se eu colocar a faixa laranja colocando aqui em cima salvando todo ele sabe tanto da faixa laranja como
+
+102
+00:08:16,550 --> 00:08:20,270
+sabe da faixa vermelha como sabe também captar a faixa amarela.
+
+103
+00:08:20,270 --> 00:08:26,360
+Isso eu colocaria a Faixa Preta Gil como Preta o primeiro ele entrou no primeiro sai executando todos
+
+104
+00:08:26,360 --> 00:08:27,280
+os que estão abaixo.
+
+105
+00:08:27,290 --> 00:08:36,590
+Então executado ele sabe captar a faixa preta sabe captar a faixa marrom sabe da roxa verde da laranja
+
+106
+00:08:36,640 --> 00:08:42,680
+da vermelha e amarela e hoje também tem um captador branco não sei exatamente que não vou entrar no
+
+107
+00:08:42,680 --> 00:08:49,340
+mérito do caráter não certo mas o fato é que quando você não tem um aí que entrou no primeiro mês ele
+
+108
+00:08:49,340 --> 00:08:51,230
+sai executando todos os de baixo.
+
+109
+00:08:51,230 --> 00:08:58,130
+Se eu pegar por exemplo aqui o default e jogar aqui pra cima desse comentario de baixo só formata aqui
+
+110
+00:08:58,130 --> 00:09:05,000
+novamente pro alto se eu colocar faixa branca por exemplo o que não é nenhum dos casos abaixo ele vai
+
+111
+00:09:05,000 --> 00:09:10,280
+entrar no default entrando na fuça estão todos os que estão abaixo exceto nesse caso ou não sabe de
+
+112
+00:09:10,280 --> 00:09:15,500
+nada mas ao mesmo tempo sabe de tudo certo que não é legal então nesse caso eu vou jogar essas amebas
+
+113
+00:09:15,500 --> 00:09:17,880
+aqui pra baixo pra ser a última.
+
+114
+00:09:17,900 --> 00:09:24,860
+Especificamente nesse cenário não faz sentido ter um default porque se não for sempre será chamado e
+
+115
+00:09:25,100 --> 00:09:30,200
+uma vez que ele entra em qualquer um desses acha mau default que não faz muito sentido pra gente não
+
+116
+00:09:30,200 --> 00:09:37,060
+sei não sei agora acho que vai ficar melhor vai ter o default sim só que eu vou colocar um mix exato
+
+117
+00:09:37,760 --> 00:09:42,860
+não chega a ser um suíte totalmente sem breque porque eu acabei de colocar um break no final mas nesse
+
+118
+00:09:42,860 --> 00:09:49,640
+caso se ele entrou em qualquer um desses aqui ele vai até amarela encontrou o que não executou default.
+
+119
+00:09:49,820 --> 00:09:55,580
+Vai ficar legal que você coloca branca ele vai executar apenas não sei de nada mas se eu colocar a faixa
+
+120
+00:09:55,580 --> 00:10:04,150
+marrom ele vai descendo até sei que nesse caso aqui do Brasil ele pulou de fogo que quando ele encontra
+
+121
+00:10:04,150 --> 00:10:10,490
+o Brasil que ele sai de sua mente ele não sai do seu código inteiro o que significa que você pode depois
+
+122
+00:10:10,670 --> 00:10:17,370
+do switch colocar por exemplo o System Audio permite ali fim certo ou ele vai para a próxima mi depois
+
+123
+00:10:17,370 --> 00:10:19,820
+de sua trajetória não sei.
+
+124
+00:10:19,860 --> 00:10:26,110
+Todos os cartazes amarram até embaixo e no final ele chamou o fim pra decidir sair do nosso colo.
+
+125
+00:10:26,200 --> 00:10:32,070
+Então aqui é um exemplo que você tem um switch sem Keys e as observações eu quero fazer o seguinte o
+
+126
+00:10:32,070 --> 00:10:37,110
+switch recebe uma expressão que não é verdadeiro falso e o próprio valor se eu quiser criar aqui um
+
+127
+00:10:37,110 --> 00:10:40,690
+outro switch por exemplo criar kill switch.
+
+128
+00:10:41,320 --> 00:10:50,880
+Eu vou colocar por exemplo pra receber uma variável inteira chamada idade então aí recebe o valor 3
+
+129
+00:10:51,120 --> 00:10:53,680
+e você pode ter aqui ok.
+
+130
+00:10:53,760 --> 00:10:59,780
+3 E aí eu vou tirar o Black e vou tirar também esse desfalque certo.
+
+131
+00:10:59,790 --> 00:11:04,630
+3 Eu quero lá voltar aqui.
+
+132
+00:11:04,860 --> 00:11:11,510
+Sabe falar aqui Take 2 cumulativo também nesse caso né.
+
+133
+00:11:11,580 --> 00:11:16,680
+Sabe andar e quem
+
+134
+00:11:19,380 --> 00:11:28,250
+sabe inspirado então nesse caso como achar que vai ser idade idade e eu tenho aqui que a idade vai ser
+
+135
+00:11:28,250 --> 00:11:35,070
+3 note que eu não estou passando a expressão Idade Maior ou Igual a 3 não passa simplesmente o valor
+
+136
+00:11:35,070 --> 00:11:36,000
+inteiro.
+
+137
+00:11:36,060 --> 00:11:38,970
+E aí eu tenho um e 3 cães e 1.
+
+138
+00:11:38,970 --> 00:11:45,870
+Se estiver ok esse 13 ele vai saber falar andar de inspiração V2 provavelmente vai saber andar respirar
+
+139
+00:11:45,940 --> 00:11:49,870
+se tiver ele vai saber apenas respirar certo.
+
+140
+00:11:50,090 --> 00:12:01,020
+Ou então se fosse caso 0 e 2 por exemplo Case 3 é que eu também vou colocar isso aqui vou colocar aqui
+
+141
+00:12:01,040 --> 00:12:10,950
+sabe argumentar sabe o sem saber programar sei lá sabe programar sabe falar andar e respirar executando.
+
+142
+00:12:11,070 --> 00:12:17,250
+Nesse caso ele sabe em três anos programar falar da respiração e colocar dois do mesmo jeito na semi
+
+143
+00:12:17,280 --> 00:12:21,720
+na sequência aqui consulte sempre é um suíte totalmente.
+
+144
+00:12:21,740 --> 00:12:26,620
+Lembrei aqui e aqui eu coloquei o breque só pra não ficar inconsistente a saída né.
+
+145
+00:12:26,760 --> 00:12:30,360
+Porque nesse caso aqui eu não sei de nada não combina com você.
+
+146
+00:12:30,360 --> 00:12:35,850
+Tem alguma dessas faixas anteriores aqui mas é legal que eu até mostrei vários cenários sem um breque
+
+147
+00:12:35,850 --> 00:12:38,590
+e um cenário especificamente como Black aqui embaixo.
+
+148
+00:12:39,040 --> 00:12:44,760
+E no final nós temos um sujeito completamente sem brilho na próxima aula eu vou mostrar alguns cenários
+
+149
+00:12:44,760 --> 00:12:49,350
+alguns exemplos e falar mais alguns detalhes sobre a suíte agora comprei que eles tiveram.

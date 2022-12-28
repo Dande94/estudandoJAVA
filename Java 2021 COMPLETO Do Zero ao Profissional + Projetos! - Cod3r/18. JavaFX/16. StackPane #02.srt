@@ -1,0 +1,295 @@
+1
+00:00:00,330 --> 00:00:04,110
+Na segunda parte o nosso exercício está bem para vocês.
+
+2
+00:00:04,110 --> 00:00:12,570
+Como vocês podem fazer a transição das leis a partir de uma trégua não é simplesmente colocam três Jabutis
+
+3
+00:00:12,610 --> 00:00:18,690
+não vai deixar a jaula flex mas a gente vai fazer aqui e mostrar para vocês como é que pode ser feito
+
+4
+00:00:18,780 --> 00:00:19,170
+isso.
+
+5
+00:00:19,620 --> 00:00:21,030
+Então o que e como fazer.
+
+6
+00:00:21,030 --> 00:00:24,430
+Vou criar aqui um crédito.
+
+7
+00:00:24,580 --> 00:00:31,490
+Vou aqui e sei lá quem recebe o trade.
+
+8
+00:00:31,680 --> 00:00:35,370
+Você pode passar com parâmetro de um atrás de um robô.
+
+9
+00:00:35,670 --> 00:00:41,640
+O que eu posso passar um ano e meio tão coloco que os parentes já que não sabe nem o parâmetro que o
+
+10
+00:00:41,640 --> 00:00:49,080
+símbolo do amigo quando eu coloco na abertura de chaves eu não sei porque ele coloca a chave fora dos
+
+11
+00:00:49,080 --> 00:00:56,830
+parentes de algum banco que tem mais um beliche talvez uma espécie de bota pra dentro das chaves.
+
+12
+00:00:56,850 --> 00:01:01,500
+Não sei se isso vai acontecer em outros sistemas operacionais mas na minha máquina está acontecendo
+
+13
+00:01:01,500 --> 00:01:01,800
+isso.
+
+14
+00:01:02,130 --> 00:01:10,650
+Então beleza aqui dentro que é como fazer ou criar um laço infinito tu e eu vou pedir pra ele ficar
+
+15
+00:01:10,740 --> 00:01:17,530
+alternando os azulejos a partir desse mesmo comando que eu usei pra ir pra frente Children Bet zero
+
+16
+00:01:17,710 --> 00:01:24,450
+fotos só que se eu colocar isso pra ele ficar executando o tempo todo ele vai executar isso muito rápido
+
+17
+00:01:24,510 --> 00:01:30,520
+e eu preciso daqui um certo descanso pra ele ficar esperando não ficar fazendo a transição loucamente.
+
+18
+00:01:30,570 --> 00:01:42,060
+Então nesse caso aqui eu vou colocar um ponto do livro ele vai dormir eu dormi por 3 mil milissegundos
+
+19
+00:01:42,180 --> 00:01:47,800
+exatamente três segundos eu vou envolver tanto o prédio como o próprio comando.
+
+20
+00:01:47,940 --> 00:01:56,870
+A partir de um este blog eu vou trocar essa exceção aqui que é específica pra eles livre pra que serve.
+
+21
+00:01:57,420 --> 00:02:03,420
+E aqui eu vou pedir pra ele colocar somente a mensagem para não ficar muito poluído então qualquer que
+
+22
+00:02:03,420 --> 00:02:09,990
+insista em algum ponto de mensagens a gente vai ver o que é que vai acontecer caso a gente execute essa
+
+23
+00:02:10,000 --> 00:02:15,530
+thread diretamente sem ser uma tarefa de fx como ele vai pedir pra gente fazer.
+
+24
+00:02:15,610 --> 00:02:17,540
+Então Trade ponto.
+
+25
+00:02:18,070 --> 00:02:26,760
+Estados tá aqui o único detalhe que tem né vou até achar pra vocês o seguinte tá.
+
+26
+00:02:26,880 --> 00:02:34,450
+Ele vai gerar um problema acaba gerar esse problema aí sempre que tem tais e tal não é fx Application
+
+27
+00:02:34,600 --> 00:02:35,900
+de casa.
+
+28
+00:02:36,390 --> 00:02:42,120
+Quando eu fechar aqui minha aplicação a aplicação vai continuar rodando mesmo que eu tenha fechado a
+
+29
+00:02:42,120 --> 00:02:42,970
+aplicação.
+
+30
+00:02:43,140 --> 00:02:47,170
+Então aqui não deu o estoque na aplicação ok.
+
+31
+00:02:47,280 --> 00:02:53,070
+Porque essa Trade que ela está impedindo a finalização da aplicação como é que eu faço pra garantir
+
+32
+00:02:53,070 --> 00:02:54,580
+que a aplicação finalize.
+
+33
+00:02:54,750 --> 00:03:02,570
+Eu coloco o que aprendi com 7 de junho o outro o que significa que você certa esse parâmetro pra tu
+
+34
+00:03:02,580 --> 00:03:09,310
+significa que isso a tragédia principal da aplicação morri automaticamente essa thread também vai morrer.
+
+35
+00:03:09,500 --> 00:03:11,470
+Isso não estava acontecendo antes.
+
+36
+00:03:11,590 --> 00:03:17,310
+Só resetar você vai ver que agora mesmo vai continuar dando erro e não vai não vai ficar alternando
+
+37
+00:03:17,360 --> 00:03:23,540
+mande um pro 2 e nós vamos adicioná la mais na hora que deixar aqui a nossa janela automaticamente a
+
+38
+00:03:23,550 --> 00:03:27,900
+aplicação finalizou e não tem nenhum processo em execução.
+
+39
+00:03:27,900 --> 00:03:33,270
+Pronto agora que a gente já tá funcionando aqui é a nossa tradição já tá fechando a aplicação no momento
+
+40
+00:03:33,270 --> 00:03:38,370
+que a gente desliga a tela que está faltando agora a gente corrige esse problema aqui e ele está dizendo
+
+41
+00:03:38,370 --> 00:03:44,950
+que não é fx Application entrega é preciso rodar esse código aqui especificamente.
+
+42
+00:03:45,270 --> 00:03:51,010
+Esse é o código está causando o problema que ele não tá permitindo rodar esse comando diretamente de
+
+43
+00:03:51,010 --> 00:03:56,690
+dentro de um prédio que não seja o que ele chama de fx Application thread pra gente resolver isso.
+
+44
+00:03:56,700 --> 00:04:03,990
+Existe uma classe dentro do Java flex que é o lado fora que é exatamente em Java e Flex conta Application
+
+45
+00:04:04,380 --> 00:04:12,510
+Platform e aqui tem um método chamado Lan leia se quem trabalhou com suingue sabe que existiu um cara
+
+46
+00:04:12,510 --> 00:04:17,160
+lá que é o que ele sobre o suingue utilities.
+
+47
+00:04:17,170 --> 00:04:18,710
+Ponto.
+
+48
+00:04:19,100 --> 00:04:27,780
+Volto Leiria na verdade que eu não sei se ele vai mostrar aqui qual está no código no caso aqui eu não
+
+49
+00:04:27,780 --> 00:04:29,410
+tenho o sonho de tá.
+
+50
+00:04:30,060 --> 00:04:31,590
+Então só com aqui.
+
+51
+00:04:31,650 --> 00:04:37,860
+Pronto existe um blog que leio dados sobre o suingue que é quando você quer atualizar sua tela num momento
+
+52
+00:04:37,860 --> 00:04:45,000
+posterior ou no momento certo ele vai chamar isso aqui tenho plataforma que eu vou importar novamente.
+
+53
+00:04:45,190 --> 00:04:52,050
+E aqui eu vou passar um bom e aqui bacana nesse ano bom dentro dele eu consigo fazer essa alteração
+
+54
+00:04:52,050 --> 00:04:59,610
+aqui e alterar para o próximo slide exceto para a próxima tela e o próximo leia isso aqui é o suficiente
+
+55
+00:05:00,110 --> 00:05:06,520
+conseguir fazer funcionar a nossa aplicação não tenho intenções de tratar o então vou tirar aqui esse
+
+56
+00:05:06,950 --> 00:05:08,470
+system on line.
+
+57
+00:05:08,510 --> 00:05:11,690
+Então ele vai ficar parando aqui durante três segundos.
+
+58
+00:05:11,780 --> 00:05:19,460
+Depois altera com ela se volta para três segundos altera o próximo e de novo faz mais um laço passa
+
+59
+00:05:19,460 --> 00:05:25,350
+três segundos altera e aí fica fazendo isso indefinidamente ela executando.
+
+60
+00:05:25,400 --> 00:05:30,210
+Agora sim ele vai funcionar como plataforma goleira.
+
+61
+00:05:30,520 --> 00:05:35,930
+2 Ele vai querer focar em número 4 ainda está funcionando.
+
+62
+00:05:35,930 --> 00:05:36,720
+Clique no mouse.
+
+63
+00:05:36,740 --> 00:05:42,390
+5 6 1 2 3 e vai ficar após a alteração.
+
+64
+00:05:42,380 --> 00:05:49,240
+Você até poderia fazer um mix entre você está clicando ele pausar o temporizador e depois ele voltar
+
+65
+00:05:49,430 --> 00:05:55,350
+mais só pra mostrar pra vocês como vocês conseguem executar algo a partir de um Android dentro do Java.
+
+66
+00:05:55,370 --> 00:05:59,220
+Sexo é o grande segredo digamos assim é o Plataforma.
+
+67
+00:05:59,650 --> 00:06:04,760
+Leia isso vai servir não só para a 3G mas quando você quer executar alguma coisa depois e aí ele sabe
+
+68
+00:06:04,760 --> 00:06:10,760
+exatamente o momento certo porque tem um ciclo né pra ele atualizar tela e coisas do tipo e às vezes
+
+69
+00:06:11,020 --> 00:06:16,310
+o raio laser pode ser importante para algum desses comandos funcionarem especificamente no caso de um
+
+70
+00:06:16,310 --> 00:06:19,320
+Android você precisa dele pra funcionar legal.
+
+71
+00:06:19,340 --> 00:06:25,580
+Então a gente fez aqui o nosso segunda parte do exemplo está aqui não relacionado tanto a lei Audi mais
+
+72
+00:06:25,580 --> 00:06:31,730
+mostrando como vocês podem executar algo a partir de um Android dentro de uma aplicação Java flex então
+
+73
+00:06:32,000 --> 00:06:36,710
+muito legal também o uso de prédio que é algo que eu não sei se eu comentei ainda mais pode ser que
+
+74
+00:06:36,710 --> 00:06:41,230
+eu comente mais pra frente fazer mais alguns exemplos sobre o treco fico por aqui e até para os.

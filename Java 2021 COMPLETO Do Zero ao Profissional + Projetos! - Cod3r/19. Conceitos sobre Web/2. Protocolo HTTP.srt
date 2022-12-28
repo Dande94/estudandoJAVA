@@ -1,0 +1,875 @@
+1
+00:00:00,230 --> 00:00:06,780
+Só agora nós vamos falar sobre o protocolo HTTP então começando aqui o protocolo HTTP nada mais é do
+
+2
+00:00:06,780 --> 00:00:16,560
+que o Test Transfer Protocol ou seja o Protocolo de Transferência de Hipertexto o que é que seria o
+
+3
+00:00:16,560 --> 00:00:17,570
+hipertexto.
+
+4
+00:00:18,000 --> 00:00:24,360
+O hipertexto é um texto tão certo Traduzindo de forma mais literal mais nada mais é do que um texto
+
+5
+00:00:24,690 --> 00:00:29,580
+que tem links associados ou seja antigamente quando você estava lendo um livro por exemplo um texto
+
+6
+00:00:29,580 --> 00:00:36,110
+qualquer em um livro e no meio do livro tinha por exemplo Fulano de Tal e menor e tal disse no livro
+
+7
+00:00:36,120 --> 00:00:38,670
+tal que isso era verdade.
+
+8
+00:00:38,790 --> 00:00:44,760
+Por isso eu concluísse aqui então dentro de um texto você já tinha referências em textos normais e na
+
+9
+00:00:44,760 --> 00:00:50,510
+web essas diferenças estariam um clique de distância você não precisaria consultar outro livro para
+
+10
+00:00:50,520 --> 00:00:56,910
+de fato encontrar aquela referência você clica encontra um outro texto elencado para até as informações
+
+11
+00:00:56,910 --> 00:01:00,400
+que você referenciou e aí nesse outro texto pode ter um outro link.
+
+12
+00:01:00,510 --> 00:01:06,960
+Então a ideia de você ter textos publicados é o conceito do Ray para teste então historicamente o protocolo
+
+13
+00:01:06,960 --> 00:01:13,650
+de fato iniciou com transferências de hipertexto de textos elencados depois de um tempo foi evoluindo
+
+14
+00:01:13,650 --> 00:01:20,530
+para imagens vídeos e em várias coisas que a gente tem na web moderna jogos e tudo isso.
+
+15
+00:01:20,760 --> 00:01:23,420
+Muitas coisas rodam em cima do protocolo HTTP.
+
+16
+00:01:23,460 --> 00:01:28,010
+A maior parte do tráfego da web é sem dúvida em cima do protocolo HTTP.
+
+17
+00:01:28,260 --> 00:01:30,590
+Então o que nós temos aqui no caso do hipertexto.
+
+18
+00:01:30,590 --> 00:01:38,580
+Como já falei nada mais é do que documentos escritos em HTML que o teste marcado linguagem ou Linguagem
+
+19
+00:01:38,580 --> 00:01:40,800
+de Marcação de Hipertexto.
+
+20
+00:01:40,920 --> 00:01:46,800
+Você tem textos fincados obviamente onde você tem um cabo não só de uma página para outro mas dentro
+
+21
+00:01:46,800 --> 00:01:54,510
+de um documento HTML faz referências a outros formatos de arquivos como CSS e JavaScript as imagens
+
+22
+00:01:54,900 --> 00:02:01,020
+e muito mais coisas então o hipertexto tem muito a ver também com a história da web porque ela começou
+
+23
+00:02:01,020 --> 00:02:07,350
+com textos em casos mais na verdade o protocolo HTTP hoje roda diversos formatos em cima dele.
+
+24
+00:02:07,560 --> 00:02:14,490
+Então pra gente teria algumas características do HTTP ele se vou colocar ele dentro da pilha TCP IP
+
+25
+00:02:14,520 --> 00:02:21,600
+ele faz parte da camada de aplicação ou seja ele está lá na última camada que é a camada mais alto nível.
+
+26
+00:02:21,600 --> 00:02:26,990
+Então nós desenvolvedores de fato interagimos muito com o protocolo HTTP.
+
+27
+00:02:27,090 --> 00:02:32,040
+Precisa conhecer mais a fundo o que precisa por exemplo conhecer o resto da pilha que tem mais a ver
+
+28
+00:02:32,040 --> 00:02:34,030
+propriamente com parte de.
+
+29
+00:02:34,080 --> 00:02:40,130
+Outra coisa importante no protocolo HTTP é que ele é um protocolo existente lá isso que é que significa
+
+30
+00:02:40,140 --> 00:02:47,430
+isso significa que quando uma máquina manda uma requisição HTTP para um servidor para o servidor e para
+
+31
+00:02:47,430 --> 00:02:53,240
+a máquina é como se estivessem fazendo a comunicação pela primeira vez porque dentro do protocolo esse
+
+32
+00:02:53,370 --> 00:02:56,840
+não existe o estado da conversação.
+
+33
+00:02:56,840 --> 00:03:02,400
+Você não sabe estar fazendo a primeira requisição você está fazendo a centésima requisição porque o
+
+34
+00:03:02,400 --> 00:03:09,720
+protocolo se estende mas você pode ter aplicações em cima do protocolo como por exemplo no servidor
+
+35
+00:03:09,720 --> 00:03:16,200
+web que dentro dele tem uma sessão do usuário e no momento que você faz uma requisição em cima de um
+
+36
+00:03:16,200 --> 00:03:16,650
+rédea.
+
+37
+00:03:16,650 --> 00:03:22,350
+Por exemplo em cima da requisição vai pedir acesso ou então quando você chega no servidor.
+
+38
+00:03:22,650 --> 00:03:28,470
+Esse aí ele consegue resgatar um espaço de memória que tem suas informações em seu carrinho de compra
+
+39
+00:03:28,770 --> 00:03:34,930
+e coisas do tipo mais nativamente o protocolo ele é extenso ou seja não tem estado.
+
+40
+00:03:34,930 --> 00:03:41,610
+Toda conexão é como se fosse a primeira vez que você abre a conexão manda os dados e recebe os dados
+
+41
+00:03:41,610 --> 00:03:47,820
+de volta mais o protocolo se estende nesse ele é um protocolo cliente servidor.
+
+42
+00:03:47,880 --> 00:03:55,170
+Ele é muito fortemente baseado no conceito de requisição e resposta eu mando uma requisição por servidor
+
+43
+00:03:55,560 --> 00:04:04,260
+baseado em que baseado na RL então mandou RL com um conjunto de parâmetros faço uma requisição e recebo
+
+44
+00:04:04,260 --> 00:04:06,420
+algo como resposta.
+
+45
+00:04:06,420 --> 00:04:10,830
+Essa resposta pode ser um arquivo texto no formato de som.
+
+46
+00:04:10,830 --> 00:04:13,830
+Essa resposta pode ser um HTML.
+
+47
+00:04:13,830 --> 00:04:20,940
+Essa resposta pode ser um vídeo mandado visto em ser várias coisas diferentes mas o fato é que com um
+
+48
+00:04:20,940 --> 00:04:27,360
+protocolo baseado nessa arquitetura cliente servidor você tem um cliente que manda uma requisição a
+
+49
+00:04:27,360 --> 00:04:34,170
+partir de o RL mais um conjunto de parâmetros mais um conjunto de regras cucos e coisas do tipo manda
+
+50
+00:04:34,180 --> 00:04:40,970
+essa requisição e essa requisição é atendida por um servidor daí o cliente que fez a requisição o servidor
+
+51
+00:04:40,970 --> 00:04:44,970
+é o que manda a resposta é baseado na requisição que foi feita.
+
+52
+00:04:44,970 --> 00:04:53,820
+Além disso a gente sabe que esse protocolo ele opera em cima das técnicas da pilha TCP IP e via de regra
+
+53
+00:04:53,850 --> 00:04:58,920
+esse é um protocolo que vai te retornar conteúdos para formar uma página web.
+
+54
+00:04:59,250 --> 00:05:04,820
+Então como HTML e aí provavelmente com HTML interpretado pelo Brasil.
+
+55
+00:05:04,830 --> 00:05:11,830
+Ele vai perceber opa além do HTML que já veio ter uma referência a um CSS e abre a requisição de uma
+
+56
+00:05:11,830 --> 00:05:13,270
+referência para um JavaScript.
+
+57
+00:05:13,270 --> 00:05:15,640
+Ele vai lá e pega faz outra requisição.
+
+58
+00:05:15,650 --> 00:05:21,910
+Até uma referência para um Image para um vídeo ele vai mudando a página até que a página fica completamente
+
+59
+00:05:21,910 --> 00:05:22,770
+carregada.
+
+60
+00:05:22,970 --> 00:05:31,980
+é via de regra as respostas que vêm a partir de uma requisição HTTP e os anexos das HTML CSS e JavaScript
+
+61
+00:05:31,990 --> 00:05:36,710
+mídias mas pode ter por exemplo disso pessoalmente dados.
+
+62
+00:05:36,760 --> 00:05:41,980
+Você vai ver essas nuances dependendo do tipo de arquitetura que você escolheu para trabalhar na sua
+
+63
+00:05:41,980 --> 00:05:42,600
+aplicação.
+
+64
+00:05:42,700 --> 00:05:48,250
+Continuando o pessoal mostrando aqui para você rapidamente como seria um fluxo básico de uma conexão
+
+65
+00:05:48,250 --> 00:05:49,330
+HTTP.
+
+66
+00:05:49,390 --> 00:05:56,250
+Primeiro o usuário vai lá no Brasil e coloca o RL que ele quer obter essas informações então lá no Brasil
+
+67
+00:05:56,260 --> 00:06:04,000
+coloca blábláblá ponto Google.com e aí uma vez que essa requisição é mandada para que tem outros detalhes
+
+68
+00:06:04,060 --> 00:06:11,870
+de rede como essa vou falar sobre isso mas é feito uma requisição no raiz usando o protocolo HTTP versão
+
+69
+00:06:11,890 --> 00:06:16,290
+ponto para o Roxy www ponto google.com.
+
+70
+00:06:16,540 --> 00:06:23,030
+Uma vez que essa requisição enviada chega lá a partir da estepe Net TCP IP chega no seio do destino.
+
+71
+00:06:23,170 --> 00:06:31,810
+Você tem um servidor gerando uma resposta em HTTP Barra uma resposta do tipo 200 vai depois os Estados
+
+72
+00:06:31,810 --> 00:06:39,450
+de respostas do HTTP que é uma resposta bem sucedida ele manda lá um conjunto de cabeçalhos na requisição
+
+73
+00:06:39,450 --> 00:06:46,030
+e na resposta melhor dizendo tanto a requisição de cabeçalhos como a resposta também tem na data o tamanho
+
+74
+00:06:46,030 --> 00:06:53,380
+do conteúdo tal e no corpo da resposta vem de fato após HTML que você requereu a partir da web que você
+
+75
+00:06:53,380 --> 00:06:54,240
+informou Braudel.
+
+76
+00:06:54,480 --> 00:07:00,070
+E finalmente uma vez que chega a resposta o mouse vai pegar aquela resposta e renderizar pra você.
+
+77
+00:07:00,400 --> 00:07:07,390
+Obviamente para montar uma página HTML não é feita apenas uma única requisição se você abrir o console
+
+78
+00:07:07,390 --> 00:07:08,420
+de desenvolvedor.
+
+79
+00:07:08,620 --> 00:07:15,340
+Você vai ver que são várias aquisições e fontes de imagem CSS e JavaScript.
+
+80
+00:07:15,960 --> 00:07:23,310
+Finalmente vem o HTML que referencia tudo isso e a partir disso ele vai baixando várias imagens de fontes
+
+81
+00:07:23,320 --> 00:07:24,060
+e coisas do tipo.
+
+82
+00:07:24,060 --> 00:07:26,650
+Para compor a sua página completamente.
+
+83
+00:07:26,650 --> 00:07:34,600
+Então o fluxo básico o RL gerado a partir do Brasil uma requisição e essa requisição quando você digita
+
+84
+00:07:34,880 --> 00:07:39,700
+ali na na caixa de texto no Brasil e aperta idem uma requisição do tipo Gate.
+
+85
+00:07:39,700 --> 00:07:44,380
+Existem outros tipos de requisição HTTP o protocolo.
+
+86
+00:07:44,380 --> 00:07:51,010
+Ele tem alguns verbos tem um gato puxe o pudim de leite tem um óbvio não tem estresse então ele tem
+
+87
+00:07:51,010 --> 00:07:56,410
+vários verbos esses verbos são formas diferentes de você fazer requisições.
+
+88
+00:07:56,620 --> 00:08:02,440
+Historicamente dois deles são os mais importantes que é o Get It e o post e depois do advento dos Web
+
+89
+00:08:02,440 --> 00:08:07,630
+Services alguns outros métodos foram ressuscitados e o pudim de leite.
+
+90
+00:08:07,720 --> 00:08:13,890
+O próprio Ox também é usado na comunicação de websérie e aí a gente vai ver isso um pouco mais para
+
+91
+00:08:13,900 --> 00:08:17,430
+frente mas de qualquer forma esse é o fluxo básico.
+
+92
+00:08:17,570 --> 00:08:21,130
+Aqui pra vocês os metros do HTTP que eu já citei aqui.
+
+93
+00:08:21,340 --> 00:08:23,590
+O HTTP tem vários métodos.
+
+94
+00:08:23,620 --> 00:08:29,710
+Um dos mais importantes é o Get It certo e a gente pode entrar um pouco mais em detalhes.
+
+95
+00:08:29,740 --> 00:08:32,060
+Na verdade eu vou entrar em mais detalhes em relação ao bad.
+
+96
+00:08:32,380 --> 00:08:35,730
+Nós temos um outro método também muito importante que é o Porsche.
+
+97
+00:08:36,020 --> 00:08:40,030
+Então os dois estão marcados ainda em amarelo para dar um destaque para os dois.
+
+98
+00:08:40,150 --> 00:08:47,820
+Além dos dois nós temos o pudim de leite o 3 o Options o Connect e o Red.
+
+99
+00:08:47,920 --> 00:08:52,380
+Então esses são os oito métodos suportados pelo protocolo HTTP.
+
+100
+00:08:52,670 --> 00:08:58,210
+Então o próximo passo eu mostrar para você que mais ou menos a ideia só pra fechar fechamento da requisição
+
+101
+00:08:58,210 --> 00:09:01,000
+resposta então você tem um cliente e um servidor.
+
+102
+00:09:01,360 --> 00:09:09,550
+Esse cliente ele manda envia uma requisição para o servidor usando o RL mais um conjunto de parâmetros.
+
+103
+00:09:09,550 --> 00:09:17,230
+Isso deve estar bem claro para vocês nessa altura o servidor envia como resposta para o cliente HTML
+
+104
+00:09:17,290 --> 00:09:20,860
+CSS e JavaScript imagens vídeos e coisas do tipo.
+
+105
+00:09:21,280 --> 00:09:26,850
+Então para montar uma página esse fluxo requisição e resposta é feito várias vezes.
+
+106
+00:09:26,850 --> 00:09:33,190
+Por isso que uma das técnicas que você vê muito comumente um desenvolvimento web é você pegar por exemplo
+
+107
+00:09:33,190 --> 00:09:37,550
+a aplicação que foi desenvolvido usando 60 arquivos Javascript.
+
+108
+00:09:37,930 --> 00:09:44,260
+Você pega todos esses arquivos minha ficar ou seja comprimir o máximo possível e juntar tudo isso um
+
+109
+00:09:44,260 --> 00:09:45,070
+arquivo só.
+
+110
+00:09:45,190 --> 00:09:51,130
+Obviamente se o arquivo ficar muito grande você tem que separar isso pra você não sobrecarregar demais
+
+111
+00:09:51,130 --> 00:09:53,030
+a carga inicial do seu site.
+
+112
+00:09:53,420 --> 00:10:01,560
+Mas de qualquer forma você fazer 60 requisições diferentes para apagar arquivos muito já que tem protocolo
+
+113
+00:10:01,560 --> 00:10:07,560
+TCP IP em toda essa questão do Rede xeique de comunicação vai lá manda uma requisição para abrir a conexão
+
+114
+00:10:07,560 --> 00:10:14,970
+recebe um reconhecimento depois manda uma outra requisição só isso para fazer o check inicial para de
+
+115
+00:10:14,970 --> 00:10:21,060
+fato mandar os dados então é interessante que você diminua a quantidade de creches necessárias para
+
+116
+00:10:21,060 --> 00:10:28,530
+fazer a carga de uma página então juntar vários jabs escritos por exemplo em um só arquivo juntar vários
+
+117
+00:10:28,530 --> 00:10:34,740
+CCs em um só arquivo é muito interessante ser feito esse tipo de estratégia porque tem muitos outras
+
+118
+00:10:34,740 --> 00:10:38,820
+estatais aí pra você conseguir diminuir a carga no seu site.
+
+119
+00:10:38,880 --> 00:10:46,830
+Você tem redes de alto desempenho com as competentes delivery Net acidentes que você espalha seus arquivos
+
+120
+00:10:46,830 --> 00:10:52,260
+estáticos em vários locais diferentes e no momento que o usuário vai carregar o site aquele arquivo
+
+121
+00:10:52,260 --> 00:10:59,570
+que tiver a menor latência e menor nível de demora para receber o arquivo ele é provido ou seja a resposta
+
+122
+00:10:59,580 --> 00:11:05,760
+dada pelo computador que tem a menor latência então então tem várias técnicas mas uma delas é você minimizar
+
+123
+00:11:05,770 --> 00:11:10,920
+diminuir a quantidade de requisições necessárias para você obter os arquivos.
+
+124
+00:11:10,920 --> 00:11:16,630
+Obviamente se o arquivo ficar muito grande fica inviável também um arquivo de 3 4 Mega para você carrega
+
+125
+00:11:16,630 --> 00:11:22,530
+uma página então você acaba tendo que também quebrar para momentos diferentes do seu sistema você divida
+
+126
+00:11:22,920 --> 00:11:28,770
+essa carga inicial certo mas aí pra você entender que esse fluxo acontece repetidamente dentro de um
+
+127
+00:11:28,770 --> 00:11:35,700
+protocolo que não tem estado então abriu uma conexão ele vai de fato ter uma rede check de comunicação
+
+128
+00:11:35,700 --> 00:11:43,170
+e aí ele obtém essas informações a partir do servidor baseado em requisição resposta porque é um protocolo
+
+129
+00:11:43,470 --> 00:11:45,130
+baseado em cliente servidor.
+
+130
+00:11:45,130 --> 00:11:51,150
+Como já falei anteriormente então olhando porquê na aquisição tipo Get só para a gente deixar algumas
+
+131
+00:11:51,150 --> 00:11:59,430
+coisas mais claras pra vocês aí que são tipo Guedes você tem o RL e você tem parâmetros da requisição.
+
+132
+00:11:59,820 --> 00:12:06,750
+Então aqui no caso de eu pegar aqui um exemplo prático disso eu vou entrar aqui no Google vou fazer
+
+133
+00:12:06,750 --> 00:12:15,750
+o seguinte UOL Google.com muito bem vou colocar aqui Barra sort e nesse caso eu tenho a RL que eu estou
+
+134
+00:12:15,750 --> 00:12:18,020
+usando pra fazer a minha requisição.
+
+135
+00:12:18,150 --> 00:12:22,260
+Depois da RL Eu vou separar o RL dos parâmetros.
+
+136
+00:12:22,410 --> 00:12:32,390
+Vou colocar uma interrogação e eu vou colocar aqui que recebe o dérbi mais moderno certo então é o nono
+
+137
+00:12:32,450 --> 00:12:33,290
+no nosso curso.
+
+138
+00:12:33,450 --> 00:12:36,260
+Então significa que daqui pra trás eu tenho o RL.
+
+139
+00:12:36,540 --> 00:12:43,020
+Eu tenho um interrogação como sendo o divisor entre o RL e os parâmetros que eu vou passar nessa aquisição
+
+140
+00:12:43,350 --> 00:12:53,790
+e que eu tenho os parâmetros organizados em chave igual ao valor comercial e aí eu tenho aqui Roxo Línguas
+
+141
+00:12:54,580 --> 00:12:58,130
+igual PQ BOTAR só PT.
+
+142
+00:12:58,130 --> 00:13:01,240
+Eu acho que o melhor português Aqui está o PT traço B.
+
+143
+00:13:01,390 --> 00:13:08,410
+Então aqui tenho dois parâmetros o parâmetro q apresentou uma coisa eu tenho aqui o valor do parâmetro
+
+144
+00:13:08,410 --> 00:13:15,790
+q web é mais moderno e quero que a consulta que eu vou fazer em cima do serviço de pesquisa do Google
+
+145
+00:13:16,180 --> 00:13:22,550
+é o outro parâmetro dizer qual é a língua da máquina roxo para que ele possa retornar ao resultado em
+
+146
+00:13:22,570 --> 00:13:30,430
+português então em cima dessa RL Eu coloco aqui faço a pesquisa ele retorna resultado em português a
+
+147
+00:13:30,430 --> 00:13:38,320
+imagem ISO web evitar o seu e colocar quem vê e PTB colocar em traço o S.
+
+148
+00:13:38,770 --> 00:13:44,200
+O resultado vai do inglês então em meses fora o Web moderno.
+
+149
+00:13:44,200 --> 00:13:46,090
+E aí o resultado a balde.
+
+150
+00:13:46,090 --> 00:13:48,200
+Coisas do tipo em todos os ingleses.
+
+151
+00:13:48,280 --> 00:13:55,000
+Se eu colocar aqui mudar o parâmetro vejo é moderno colocar por exemplo o Linux e colocar aí ele vai
+
+152
+00:13:55,000 --> 00:14:03,180
+pesquisar agora sobre Linux trazendo um resultado em inglês e se eu mudar aqui finalmente pra PT traço
+
+153
+00:14:03,940 --> 00:14:07,320
+você vai ver que o resultado dessa aquisição vem em português.
+
+154
+00:14:07,450 --> 00:14:14,900
+Então na verdade quando você tem uma requisição do tipo Get os parâmetros vão no próprio corpo mudar
+
+155
+00:14:14,910 --> 00:14:18,490
+da água e os parâmetros vão na própria RL.
+
+156
+00:14:18,490 --> 00:14:24,030
+E quando você tem outros tipos de aquisição no caso puxe os parâmetros no corpo da requisição.
+
+157
+00:14:24,400 --> 00:14:29,860
+Então é muito importante você perceber o seguinte esse tipo de abordagem é oportuna.
+
+158
+00:14:29,860 --> 00:14:37,300
+Claro que é quando você quer por exemplo fazer um mas se você quer salvar uma determinada RL específica
+
+159
+00:14:37,300 --> 00:14:42,130
+não só RL mas os parâmetros que você usou para chegar a um determinado resultado.
+
+160
+00:14:42,280 --> 00:14:46,420
+é importante que você tenha os parâmetros não RL para que você consiga esse tipo de coisa.
+
+161
+00:14:46,420 --> 00:14:54,150
+Por outro lado se você estiver acessando por exemplo um serviço de login você vai querer que o seu a
+
+162
+00:14:54,160 --> 00:14:56,630
+sua senha aparece diretamente na RM.
+
+163
+00:14:56,770 --> 00:15:01,030
+Não faz sentido obviamente a sua senha não iria aparecer.
+
+164
+00:15:01,210 --> 00:15:07,720
+Assim iria aparecer explicitamente colocando diretamente na tela isso não é interessante para esse tipo
+
+165
+00:15:07,720 --> 00:15:08,810
+de cenário.
+
+166
+00:15:08,860 --> 00:15:14,700
+Você tem requisições de tipo proxy que os parâmetros vão no corpo da requisição.
+
+167
+00:15:14,800 --> 00:15:20,830
+Quer dizer que se eu passar os parâmetros do corpo da requisição eu tenho uma requisição segura não
+
+168
+00:15:21,100 --> 00:15:23,010
+pra você ter uma requisição segura.
+
+169
+00:15:23,020 --> 00:15:30,940
+Você precisa ter a sua aquisição é executada em cima de um protocolo HTTPS que é exatamente o que está
+
+170
+00:15:30,940 --> 00:15:38,000
+acontecendo aqui ou o HTTPS é um protocolo seguro que faz com que a comunicação na máquina cliente para
+
+171
+00:15:38,020 --> 00:15:40,180
+a máquina servidora seja criptografada.
+
+172
+00:15:40,180 --> 00:15:46,270
+Vou falar isso mais na frente voltando aqui para a apresentação então nós temos uma requisição do tipo
+
+173
+00:15:46,270 --> 00:15:54,940
+baguete que a grande grande informação marcante desse tipo de requisição é que os parâmetros eles vão
+
+174
+00:15:54,940 --> 00:16:04,120
+diretamente dentro da o RL então você coloca Santos interrogação passo parâmetro chave igual valor comercial
+
+175
+00:16:04,120 --> 00:16:10,090
+chave igual valor e você vai passando todos os parâmetros na própria requisição e o corpo nesse caso
+
+176
+00:16:10,240 --> 00:16:13,720
+vai ficar vazio os parâmetros vão estar diretamente na RL.
+
+177
+00:16:13,720 --> 00:16:18,310
+Já quando você vai para uma requisição o tipo proxy o que é que nós temos.
+
+178
+00:16:18,490 --> 00:16:26,190
+Você tem a mesma coisa você tem uma requisição usando o verbo ou o Metro do HTTP pois nesse caso vai
+
+179
+00:16:26,200 --> 00:16:35,200
+fazer a requisição no rush desse ponto google.com em cima do PF Baçaim usando o verbo metro no HTTP
+
+180
+00:16:35,290 --> 00:16:43,300
+Push é dentro do corpo da requisição você tem os parâmetros que vão ser enviados para lá do outro lado.
+
+181
+00:16:43,310 --> 00:16:47,170
+De fato aquele e aquela requisição seja processada.
+
+182
+00:16:47,170 --> 00:16:53,650
+Cabe a observação e você vai colocar os parâmetros dentro do corpo mas isso não significa que você tem
+
+183
+00:16:53,650 --> 00:16:59,680
+uma requisição segura se você estiver rodando em cima do protocolo HTTP e você colocar por exemplo um
+
+184
+00:16:59,680 --> 00:17:04,870
+software que vai te apoiar e charque por exemplo que vai fazer Jenifer na rede nem vai monitorar os
+
+185
+00:17:04,870 --> 00:17:07,450
+pacotes que estão trafegando na rede.
+
+186
+00:17:07,450 --> 00:17:14,260
+Você vai ver de forma aberta todas essas informações inclusive se tiver a senha do usuário vai aparecer
+
+187
+00:17:14,560 --> 00:17:20,620
+no corpo da requisição então tomar muito cuidado para que na hora que você estiver trabalhando com informações
+
+188
+00:17:20,620 --> 00:17:27,880
+sensíveis você use o protocolo HTTPS é uma tendência na verdade na maioria dos grandes sites inclusive
+
+189
+00:17:27,880 --> 00:17:35,350
+coisas mais simples como uma pesquisa que você faz no Google que antigamente não era HTTPS hoje muita
+
+190
+00:17:35,350 --> 00:17:42,790
+coisa na web está migrando digamos assim para HTTPS porque de fato o que você tem a sua comunicação
+
+191
+00:17:43,090 --> 00:17:52,160
+não só parâmetros e regras e cookies tudo isso é criptografado e só consegue ser ataque é o homem no
+
+192
+00:17:52,160 --> 00:17:56,930
+meio é o cara que vai olhar o meio ali na conexão vai apagar os dados sensíveis.
+
+193
+00:17:56,960 --> 00:18:03,260
+Então isso evita então não apenas a colocar os parâmetros no bar mas o serviço criptografado essencial
+
+194
+00:18:03,510 --> 00:18:04,550
+continuado.
+
+195
+00:18:04,700 --> 00:18:09,890
+Aqui vai aparecer a página obviamente fiz um requisição que vai trazer o e-mail do cara pra você e para
+
+196
+00:18:09,890 --> 00:18:15,170
+o próximo passo que é digitar a senha só pra mostrar a página que foi gerada a partir de uma requisição
+
+197
+00:18:15,170 --> 00:18:20,950
+mais ou menos parecido com isso e continuar aqui nós temos os grupos de status de mensagens do HTTP.
+
+198
+00:18:20,950 --> 00:18:28,340
+Nós temos mensagens de código 100 e pode ter vários tipos diferentes dentro do grupo sem a mesma coisa
+
+199
+00:18:28,340 --> 00:18:31,410
+do 200 mesma coisa do 300 400 500.
+
+200
+00:18:31,880 --> 00:18:39,200
+Então nós temos o grupo de estados de mensagens do grupo 100 só mensagens de informação no grupo 200
+
+201
+00:18:39,200 --> 00:18:46,040
+são as mensagens de sucesso grupo 300 são quando há necessidade de fazer um redirecionamento ao RL do
+
+202
+00:18:46,040 --> 00:18:50,130
+seu site mudou e você quer ainda que um endereço antigo aponte para endereço novo.
+
+203
+00:18:50,180 --> 00:18:57,350
+Então você manda uma resposta com o status 300 e o Brasil vai para o novo endereço a web os 400 são
+
+204
+00:18:57,350 --> 00:19:04,400
+erros gerados a partir do cliente ou seja você fez uma requisição inválida passando parâmetros inválidos
+
+205
+00:19:04,730 --> 00:19:10,920
+ou parâmetros insuficientes para poder atender a requisição e aí gera aí os 400 ou você fez por exemplo
+
+206
+00:19:10,920 --> 00:19:17,210
+o famoso 404 você fez uma requisição para um endereço que não tem nenhum tipo de serviço a atender não
+
+207
+00:19:17,210 --> 00:19:24,680
+tem nenhuma página associada ele vai gerar um erro 404 porque o cliente demandou uma requisição inválida
+
+208
+00:19:25,130 --> 00:19:27,990
+o que já aconteceu algum erro no seu servidor.
+
+209
+00:19:27,990 --> 00:19:32,780
+O banco de dados ficou fora do ar ou aconteceu algum erro de código no lado do servidor para atender
+
+210
+00:19:32,780 --> 00:19:33,750
+a requisição.
+
+211
+00:19:33,840 --> 00:19:40,750
+Gera aí o que estão e esses são os cinco grupos de status de mensagens que você tem no protocolo HTTP
+
+212
+00:19:40,770 --> 00:19:47,560
+a gente vê várias coisas na sala certa e um resumo a ideia é ter uma ideia geral e corrente para a prática
+
+213
+00:19:47,560 --> 00:19:54,080
+algumas coisas no que foi mencionado na sala vai ser de fato mostrado na prática você vendo como funciona
+
+214
+00:19:54,080 --> 00:20:00,620
+o protocolo ou mesmo fazendo observe se entendendo interagindo com os vários tipos de verbos do HTTP
+
+215
+00:20:00,830 --> 00:20:05,520
+viram as mensagens que eventualmente possa ser gerada a partir de um serviço.
+
+216
+00:20:05,530 --> 00:20:09,680
+Por tudo isso a gente vai consolidar na prática nos outros capítulos.
+
+217
+00:20:09,740 --> 00:20:16,400
+Nesse capítulo a gente tem uma visão nos conceitos entender não só HTTP mas vários conceitos importantes
+
+218
+00:20:16,400 --> 00:20:17,060
+na web.
+
+219
+00:20:17,300 --> 00:20:18,320
+Espera aproximá lo.

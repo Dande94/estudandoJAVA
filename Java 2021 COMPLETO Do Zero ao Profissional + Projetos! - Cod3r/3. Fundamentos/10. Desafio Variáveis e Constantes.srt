@@ -1,0 +1,383 @@
+1
+00:00:00,130 --> 00:00:08,020
+Só no ano passado ele introduziu o conceito de variável e constante em cima do exemplo da área da circunferência.
+
+2
+00:00:08,230 --> 00:00:12,930
+E agora quero propor para vocês o desafio do cálculo da temperatura.
+
+3
+00:00:12,930 --> 00:00:18,840
+Vocês vão receber uma temperatura em Faro em vão converter essa temperatura processos e antes de passar
+
+4
+00:00:18,840 --> 00:00:23,410
+para o próximo vídeo mostra na resposta Eu quero dar algumas dicas sobre esse desafio.
+
+5
+00:00:23,580 --> 00:00:30,900
+é uma dica não tem diretamente a ver com o desafio mas tem diretamente a ver com o recurso que foi introduzido
+
+6
+00:00:30,900 --> 00:00:32,900
+no Japão no Jd. K-9.
+
+7
+00:00:33,240 --> 00:00:40,070
+A partir do JD K-9 foi introduzido no Java o interpretador Java dentro do terminal.
+
+8
+00:00:40,080 --> 00:00:45,570
+Isso já tem em outras linguagens o ambiente e isso o Payton tem isso.
+
+9
+00:00:45,570 --> 00:00:51,260
+PHP tem isso não é para aqui que serve um interpretador no terminal ele sabe para vocês a tal código
+
+10
+00:00:51,270 --> 00:00:57,850
+rápido ele serve pra você entender uma funcionalidade da linguagem então dentro do Java SE O Java tiver
+
+11
+00:00:57,850 --> 00:01:07,380
+no perfil da sua aplicação você vai ter um comando chamado de UI J Shell certo J Shell essa forma executando
+
+12
+00:01:07,380 --> 00:01:11,170
+ele vai entrar no interpretador do Java como interpretador do Java.
+
+13
+00:01:11,160 --> 00:01:18,910
+Você vai ter por exemplo que ao System Ponto a Ponto print se eu colocar aqui um tablet vai mostrar
+
+14
+00:01:19,180 --> 00:01:26,910
+as possibilidades que eu tenho e aqui eu posso colocar por exemplo o teste fechando as aspas após terminar
+
+15
+00:01:26,910 --> 00:01:27,930
+com o ponto e vírgula ou não.
+
+16
+00:01:27,930 --> 00:01:32,230
+Nesse caso pessoal um serviço de código ele vai lá e mostra o resultado.
+
+17
+00:01:32,310 --> 00:01:35,150
+Eu também posso sair da natureza e testar tudo.
+
+18
+00:01:35,230 --> 00:01:36,780
+Barra existe.
+
+19
+00:01:36,840 --> 00:01:41,330
+Ele sai entrando de novo aqui no GE encheu o cara quero uma coisa pra vocês.
+
+20
+00:01:41,550 --> 00:01:46,620
+A gente pode fazer operações como por exemplo mais três no Estado vai dar quatro né.
+
+21
+00:01:46,710 --> 00:01:53,130
+Mesmo não usando o System Audio ele já coloca aqui diretamente o resultado que a gente fez da operação.
+
+22
+00:01:53,130 --> 00:01:59,430
+Eu quero falar especificamente da operação que nós vamos usar dentro desse nosso exemplo da conversão
+
+23
+00:01:59,470 --> 00:02:06,720
+para ter abertura forem mais processos que a divisão de 5 dividido por 9 dentro da forma tem isso certo.
+
+24
+00:02:07,020 --> 00:02:13,640
+Então antes de mostrar aqui vou colocar rapidinho o terminal que eu vou criar aqui um novo arquivo.
+
+25
+00:02:13,750 --> 00:02:17,340
+Quer criar um novo arquivo não.
+
+26
+00:02:17,700 --> 00:02:20,730
+O nome da nossa classe será de temperatura.
+
+27
+00:02:20,880 --> 00:02:23,880
+E nós vamos colocar aqui dentro dessa classe temperatura.
+
+28
+00:02:23,880 --> 00:02:30,020
+Nós vamos novamente definir a função e o método melhor desenhadas e dando certo.
+
+29
+00:02:30,020 --> 00:02:32,730
+E não interessa muito a estrutura do Metro.
+
+30
+00:02:32,730 --> 00:02:38,710
+Agora a única coisa que eu quero que você tenha na mente é aqui uma vez que define o método.
+
+31
+00:02:38,820 --> 00:02:45,920
+Essa classe passa a ser passível de ser executada ou seja eu posso clicar no botão verde e ele vai estar
+
+32
+00:02:45,930 --> 00:02:47,510
+salvando ele executou.
+
+33
+00:02:47,520 --> 00:02:54,540
+Se eu colocar um método em maiúsculo e salvar por exemplo embora não seja um erro se eu clicar para
+
+34
+00:02:54,540 --> 00:02:59,700
+executar ele vai dizer não encontrou o Metro do meio ou seja ele não consegue executar uma classe que
+
+35
+00:02:59,700 --> 00:03:04,320
+não tenha o Metro não é a única coisa que eu quero que vocês têm em mente agora que o metro tem um ponto
+
+36
+00:03:04,320 --> 00:03:06,030
+de entrada de um programa Java.
+
+37
+00:03:06,120 --> 00:03:11,100
+E por enquanto e quando a gente vai exercitando e fazendo desafios de marcha novos exercícios a cada
+
+38
+00:03:11,100 --> 00:03:11,790
+aula.
+
+39
+00:03:11,910 --> 00:03:18,420
+Mas vamos usar praticamente o meio por aula para a gente definir um exercício isolado do outro seja
+
+40
+00:03:18,780 --> 00:03:24,150
+o exercício de temperatura não tem nenhuma relação com o exercício diário da circunferência que foi
+
+41
+00:03:24,330 --> 00:03:24,950
+passada.
+
+42
+00:03:24,990 --> 00:03:28,130
+Então essa é a única coisa que eu quero que vocês tenham na mente.
+
+43
+00:03:28,260 --> 00:03:34,800
+Com relação ao Metro um metro mostrando que a fórmula que vai servir pra vocês é de base para esse desafio
+
+44
+00:03:34,800 --> 00:03:42,180
+a qual você informa um valor em reais ele vai subtrair de menos 32 a multiplicar por cinco e dividir
+
+45
+00:03:42,230 --> 00:03:42,950
+por nove.
+
+46
+00:03:42,960 --> 00:03:45,800
+Aí sim o resultado será convertido para acesso.
+
+47
+00:03:45,800 --> 00:03:47,620
+Essa é a fórmula de conversão.
+
+48
+00:03:47,730 --> 00:03:51,240
+Claro que você pode usar essa fórmula diretamente não tem problema nenhum.
+
+49
+00:03:51,420 --> 00:03:55,320
+Mas eu quero que você armazém 32 é uma constante.
+
+50
+00:03:55,440 --> 00:04:03,360
+O ciclo de vida 9 é constante o farei raide vai ser armazenado na variável o resultado dessa operação
+
+51
+00:04:03,560 --> 00:04:06,860
+que será em seus shows também será armazenada em uma variável.
+
+52
+00:04:06,960 --> 00:04:13,140
+Então existem muitas formas de fazer mas eu quero que você faça cinema constante uma constante uma variável
+
+53
+00:04:13,210 --> 00:04:14,030
+e uma variável.
+
+54
+00:04:14,030 --> 00:04:20,430
+Eu quero focar especificamente agora com relação a essa divisão que hoje diminuiu um pouquinho essa
+
+55
+00:04:20,430 --> 00:04:23,140
+divisão que vai ser cinco dividido por nove.
+
+56
+00:04:23,160 --> 00:04:29,430
+Se eu fizer cinco e dividir por nove antes de fazer aqui já mostra na calculadora na calculadora aqui
+
+57
+00:04:30,580 --> 00:04:39,480
+dividir por nove o resultado vai dar 0,5 5 5 no final sempre é uma divisão periódica 0,55 hora ele chega
+
+58
+00:04:39,480 --> 00:04:40,970
+no 6 aqui para arredondar.
+
+59
+00:04:41,640 --> 00:04:48,810
+Fazendo isso em Java que eu deixei ela representa o interpretador Java 5 dividido por 9.
+
+60
+00:04:48,820 --> 00:04:51,470
+Para isso o resultado da 0.
+
+61
+00:04:51,780 --> 00:04:53,300
+O que é que deu 0 0.
+
+62
+00:04:53,310 --> 00:05:00,470
+O que eu estou fazendo a divisão de números inteiros então essa aula que eu estou propondo falar um
+
+63
+00:05:00,470 --> 00:05:05,660
+pouco mais sobre isso mais à frente mas qualquer forma como é algo importante pelo desafio então já
+
+64
+00:05:05,670 --> 00:05:11,270
+estou salientando Aqui estão cinco de vir por nove em estado dar zero e só multiplicar zero pelo resto
+
+65
+00:05:11,270 --> 00:05:15,270
+da fome vai dar zero ou seja você não vai conseguir fazer uma operação Varig.
+
+66
+00:05:15,410 --> 00:05:16,970
+Como é que eu faço pra resolver isso.
+
+67
+00:05:16,970 --> 00:05:23,360
+Basta você colocar cinco dividido por zero ponto nove e colocar no zero ponto nove.
+
+68
+00:05:23,690 --> 00:05:29,660
+O Japão vai entender que você está trabalhando com um número real o número que tem casas decimais que
+
+69
+00:05:29,670 --> 00:05:32,910
+é o que é no caso da água que a gente usou na aula passada.
+
+70
+00:05:33,110 --> 00:05:40,600
+Então nesse caso 9 dividir por zero na 5,9 pontos era aqui sim eu tenho um inteiro e tem um número com
+
+71
+00:05:40,610 --> 00:05:47,980
+valores quebrados o resultado será o número quebrado então 0,5 5 5 5 no final da 6.
+
+72
+00:05:48,140 --> 00:05:54,590
+A mesma coisa se eu fizer em vez de 9 pontos 0 fizer 5 pontos 0 5 pontos 0 dividir o 9.
+
+73
+00:05:54,950 --> 00:06:01,490
+O resultado é a mesma coisa eu também posso fazer 5 pontos zero dividido por 9 pontos eram também tem
+
+74
+00:06:01,490 --> 00:06:11,120
+o mesmo resultado 0 pontos 5 5 5 5 6 está então o Java aqui no caso o outro existe expulsar Said fechar
+
+75
+00:06:11,120 --> 00:06:16,490
+aqui o terminal então Java ele tem essa característica e como você não só o Java ou outras linguagens
+
+76
+00:06:16,490 --> 00:06:22,080
+também quando você faz uma divisão de números inteiros o resultado sempre é inteiro.
+
+77
+00:06:22,220 --> 00:06:27,860
+Se você faz uma divisão usando números como ponto flutuante ou seja números que tem casas decimais O
+
+78
+00:06:27,860 --> 00:06:33,770
+resultado dá valores com casas decimais então peço observação importante então neste caso para o nosso
+
+79
+00:06:33,770 --> 00:06:39,350
+desafio vou mostrar o estado no ano passado quero que vocês usem duas constantes no caso a constante
+
+80
+00:06:39,350 --> 00:06:46,460
+para armazenar o número 32 a constante para armazenar o valor 5 ponto 9 e duas variáveis uma para armazenar
+
+81
+00:06:46,460 --> 00:06:53,030
+o valor da temperatura enviarem raide à outra para armazenar o resultado da expressão que é exatamente
+
+82
+00:06:53,120 --> 00:06:55,740
+a temperatura em graus Celsius tá bom.
+
+83
+00:06:56,060 --> 00:07:00,970
+E no caso aqui o 32 você pode chamar do nome que você quiser.
+
+84
+00:07:01,160 --> 00:07:02,600
+X e Y.
+
+85
+00:07:02,690 --> 00:07:09,880
+Aqui eu vou chamar 32 de ajuste ou 32 nada mais é do que um ajuste na forma procurei pra você ter a
+
+86
+00:07:09,880 --> 00:07:15,600
+correlação entre as duas temperaturas e o 5 ponto 9 você pode chamar por exemplo de fator aquele que
+
+87
+00:07:15,920 --> 00:07:22,190
+ele representa um fator explicativo ou mesmo você pode chamar de multiplicador pra você for mais claro
+
+88
+00:07:22,190 --> 00:07:28,700
+então 5 pontos na hora para ser armazenado há um constante chamado multiplicador ou fator é o 32 pode
+
+89
+00:07:28,700 --> 00:07:31,280
+ser chamado de ajuste ou diferença.
+
+90
+00:07:31,440 --> 00:07:36,410
+7 O fato é que o cara que possui armazém em variáveis é constante para que você possa treinar aquilo
+
+91
+00:07:36,410 --> 00:07:40,220
+que a gente viu na aula passada no nosso exemplo da circunferência.
+
+92
+00:07:40,640 --> 00:07:46,700
+Você pode usar todas as variáveis e constantes do tipo dado não tem problema eu ainda não falei de outros
+
+93
+00:07:46,700 --> 00:07:53,300
+tipos inteiro flow da Abbott em vários tipos em Java que apresentam valores numéricos e eu vou falar
+
+94
+00:07:53,300 --> 00:07:59,030
+um pouco mais sobre isso então para o nosso exemplo pode manter todos os valores como bom mesmo que
+
+95
+00:07:59,030 --> 00:08:01,180
+ele foi um valor inteiro não vai ter problema nenhum.
+
+96
+00:08:01,460 --> 00:08:05,800
+Então fique por aqui na próxima aula eu dou ao resultado do nosso desafio é até.

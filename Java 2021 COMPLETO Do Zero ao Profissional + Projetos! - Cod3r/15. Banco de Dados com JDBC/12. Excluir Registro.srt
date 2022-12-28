@@ -1,0 +1,351 @@
+1
+00:00:00,270 --> 00:00:09,460
+Agora vamos fazer o processo de exclusão da pessoa e fazer a exclusão usando o código que é uma exclusão
+
+2
+00:00:09,460 --> 00:00:17,330
+o mais certo até poderia fazer a exclusão usando o nome por exemplo usando um link até o fazer a rede
+
+3
+00:00:17,440 --> 00:00:23,460
+e fica de desafio pra vocês construírem outros desafios e Outras exclusões ou mesmo outras formas de
+
+4
+00:00:23,460 --> 00:00:31,080
+alterar e incluir usando outras outras lógicas a pegar o nome do usuário pegar por exemplo criar um
+
+5
+00:00:31,190 --> 00:00:33,720
+outra tabela também interessante com mais campos.
+
+6
+00:00:33,720 --> 00:00:39,180
+Você pode fazer outros desafios tem muitas coisas que vocês podem experimentar em cima daquilo que foi
+
+7
+00:00:39,180 --> 00:00:41,100
+apresentado para vocês nesse capítulo.
+
+8
+00:00:41,100 --> 00:00:50,610
+Então nós vamos criar aqui uma nova classe o nome da classe vai ser excluído pessoa vamos criar aqui
+
+9
+00:00:50,610 --> 00:01:03,120
+o nosso método MEN GO já coloca aqui mais jogos SQL Section e nós vamos criar nossa conexão então conexão
+
+10
+00:01:04,080 --> 00:01:09,940
+recebe qualquer conexão Portuguese Connection uma vez com a conexão.
+
+11
+00:01:09,940 --> 00:01:26,270
+Eu vou criar aqui em SQL SQL Wallet Front exatamente nome da tabela para 100 pessoas o que pode ser
+
+12
+00:01:26,310 --> 00:01:28,280
+igual ao parâmetro que eu vou passar.
+
+13
+00:01:29,450 --> 00:01:32,910
+Eu vou passar o código de forma fi.
+
+14
+00:01:33,870 --> 00:01:43,020
+Eu vou colocar aqui o scanner autarquias que queria passar fome fixa mais vou colocar esse caneco ficando
+
+15
+00:01:43,650 --> 00:01:48,960
+mais competitivos franciscana System ponto.
+
+16
+00:01:49,270 --> 00:01:53,030
+Já vou colocar aqui no final entrada.
+
+17
+00:01:53,040 --> 00:01:54,170
+Ponto.
+
+18
+00:01:54,650 --> 00:02:09,350
+Eu vou colocar também um conexão ponto os pixels 2 a 1 SQL agora vou criar o testamento para os testamentos
+
+19
+00:02:10,680 --> 00:02:19,700
+a partir da conexão com outros clientes esteja passando SQL.
+
+20
+00:02:20,150 --> 00:02:26,140
+E eu preciso passar o parâmetro no caso aqui vai ser um valor inteiro.
+
+21
+00:02:26,220 --> 00:02:36,090
+Vou ter o primeiro parâmetro e a partir da entrada eu vou pagar R$ 30 conforme o código
+
+22
+00:02:38,800 --> 00:02:52,350
+aqui vou pagar simples código recebe entrada de ponto NET e vou partir esse código passar ele pra ser
+
+23
+00:02:52,350 --> 00:02:53,640
+usado para a exclusão.
+
+24
+00:02:53,640 --> 00:03:01,590
+Você até pode fazer um processo de exclusão com a lógica um pouco maior por exemplo selecione os usuários
+
+25
+00:03:01,590 --> 00:03:07,350
+por nome ele mostra todos os usuários selecione agora o código do usuário que você quer excluir a expressão
+
+26
+00:03:07,350 --> 00:03:12,120
+no código deseja realmente excluir sim e aí ele fazer o processo de exclusão.
+
+27
+00:03:12,160 --> 00:03:18,180
+Aqui eu vou fazer mais direto para colocar o código já exclui mas se você quiser fazer um fluxo de exclusão
+
+28
+00:03:18,180 --> 00:03:23,700
+acho que é um exercício legal um desafio que vocês podem tentar e vai fazer no qual ele primeiro faz
+
+29
+00:03:23,700 --> 00:03:29,880
+a minha versão e depois vai para outra você pode criar que o excluir pessoa 2 e tentar fazer uma segunda
+
+30
+00:03:29,880 --> 00:03:32,430
+versão com fluxo um pouquinho mais elaborado.
+
+31
+00:03:32,730 --> 00:03:40,920
+Então para onde queria que eu esteja menos criei aceitei o valor e agora vou chamar de um fã um pouquinho
+
+32
+00:03:40,920 --> 00:03:41,850
+diferente.
+
+33
+00:03:41,850 --> 00:03:55,170
+Vou chamar aqui usando esse trecho meio ponto execute updates que eu dei e esse método ele vai retornar
+
+34
+00:03:55,230 --> 00:04:03,000
+um inteiro esse inteiro é exatamente você para até olhar aqui a documentação em o seguinte ele retorna
+
+35
+00:04:03,080 --> 00:04:06,060
+com a quantidade de linhas que foram afetadas.
+
+36
+00:04:06,090 --> 00:04:13,050
+A partir da sua execução se ele retornar a zero significa que o SQL então olhando aquela documentação
+
+37
+00:04:13,050 --> 00:04:20,300
+ele está dizendo que ele retorna e a quantidade de linhas afetadas pelo seu ml que o Data manipula na
+
+38
+00:04:20,310 --> 00:04:27,990
+linguagem na sessões updates e exclusões seja exclusão de um registro beta ou não uma exclusão de 3
+
+39
+00:04:27,990 --> 00:04:34,810
+registro vai retorna 3 ou então ele retorna 0 dizendo que nada foi digamos assim retornado.
+
+40
+00:04:34,860 --> 00:04:41,820
+A partir dessa sua consulta então pra gente saber se realmente houve impacto nessa exclusão eu vou testar
+
+41
+00:04:41,820 --> 00:04:44,110
+para saber se isso aqui é maior do que zero.
+
+42
+00:04:44,160 --> 00:04:48,800
+Se for maior do que zero significa que houve alguma alteração.
+
+43
+00:04:48,870 --> 00:04:58,950
+Caso contrário não houve nada então que eu vou mostrar pessoa esse sucesso é
+
+44
+00:05:02,550 --> 00:05:04,340
+só colocar aqui.
+
+45
+00:05:04,400 --> 00:05:13,150
+Nada feito seja ninguém foi excluído porque o Word por exemplo não existia não executado preenchia a
+
+46
+00:05:13,190 --> 00:05:21,890
+conexão fechei a entrada pedia que o código escaneia pedia o código eu fiz aqui amanhã meu delete delete
+
+47
+00:05:22,010 --> 00:05:28,390
+uma o código alguma coisa cedeu o código e no final testei aqui pra saber se foi feito ou não.
+
+48
+00:05:28,400 --> 00:05:38,230
+O update traz etanol conforme o código colocar aqui o código 50 ele vai dizer nada foi feito.
+
+49
+00:05:38,270 --> 00:05:44,990
+Coloca aqui o código sem ele colocou a pessoa excluída com sucesso e se eu quiser por exemplo posso
+
+50
+00:05:44,990 --> 00:05:47,990
+colocar aqui é o maior do que um determinado valor.
+
+51
+00:05:47,990 --> 00:05:54,140
+Nesse caso ele jamais possui mais registros do banco de dados OLHAR QUANTAS PESSOAS TEM AQUI.
+
+52
+00:05:54,680 --> 00:06:01,760
+Eu tenho três registros do banco de dados e vou colocar mais um outro registro aqui ao 102 colocando
+
+53
+00:06:01,760 --> 00:06:07,700
+aqui por exemplo um teste que o coloca aqui em 103.
+
+54
+00:06:07,700 --> 00:06:16,190
+Pode usar inclusive o nosso código pra inserir nessa conta mais uma vez que vou colocar aqui 3 x 2 e
+
+55
+00:06:16,190 --> 00:06:25,610
+aqui 3 x 3 uma vez que você mexeu diretamente nessa lista se você der a play ele vai mostrar que tipo
+
+56
+00:06:25,610 --> 00:06:34,040
+de comando ele é mais tal em 7 alguma coisa dando uma via que ele vai inserir as pessoas ao 102 103.
+
+57
+00:06:34,050 --> 00:06:37,540
+Então vou pegar todo mundo que tem dia maior do que sentiu.
+
+58
+00:06:37,550 --> 00:06:45,840
+Já coloquei aqui o maior e agora vaza tá todo mundo que tem mais é maior porque ele sentiu mais Estado
+
+59
+00:06:46,380 --> 00:06:48,170
+pessoa lidam com sucesso.
+
+60
+00:06:48,170 --> 00:06:58,940
+Se a gente olhar aqui o resultado eu não sei mais isso aqui não é o TI daqui contador percebe isso aqui
+
+61
+00:06:59,390 --> 00:07:05,960
+e se o contador for maior do que zero ele vai entrar aqui e vai dizer.
+
+62
+00:07:06,540 --> 00:07:15,590
+Existem algumas linhas afetadas dois pontos eu posso tomar aqui como padrão.
+
+63
+00:07:15,950 --> 00:07:26,590
+Só vou colocar novamente aqui quem fecha o tal 102 teste.
+
+64
+00:07:28,370 --> 00:07:31,460
+Vou colocar aqui sempre 3
+
+65
+00:07:34,370 --> 00:07:47,990
+x 2 o salvará novamente de tal forma que nós temos novamente taxa muito baixa 2 então mais uma vez colocar
+
+66
+00:07:48,000 --> 00:07:57,020
+todo o nome que tem aí é maior do que sentimos que ele colocou a pessoa excluída com sucesso que num
+
+67
+00:07:57,030 --> 00:08:03,990
+caso por mais de um ano então linhas afetadas igual a dois ou duas pessoas foram afetadas com essa minha
+
+68
+00:08:03,990 --> 00:08:05,050
+exclusão.
+
+69
+00:08:05,160 --> 00:08:11,180
+No caso eu colocar um igual obviamente ele vai afetar apenas uma única pessoa não só para a gente como
+
+70
+00:08:11,190 --> 00:08:12,650
+exclui o que já tem ruim.
+
+71
+00:08:13,470 --> 00:08:28,880
+Vou cadastrar aqui lá cento e dez ou qualquer trechinho de novo aplicativo ele inseriu mais uma pessoa
+
+72
+00:08:29,090 --> 00:08:38,330
+aí 110 e agora ele está novamente a Record 110 pessoas.
+
+73
+00:08:38,400 --> 00:08:45,090
+Pessoa excluída com sucesso linhas afetadas foi exatamente a proposta é colocar linhas afetadas depois
+
+74
+00:08:45,090 --> 00:08:51,270
+do Fields porque é independente de qualquer coisa o contador vai existir e quando você tentar excluir
+
+75
+00:08:51,270 --> 00:08:56,620
+algo que não existe como por exemplo o sentido da novamente ele vai dizer nada feito.
+
+76
+00:08:56,610 --> 00:09:03,060
+Linhas afetadas zero ou seja o resultado do tipo de acidente vai dizer exatamente pra vocês quantas
+
+77
+00:09:03,060 --> 00:09:04,770
+linhas foram afetadas.
+
+78
+00:09:04,770 --> 00:09:12,190
+A partir de um determinado ml naquela data modifiquem um negro ou seja um 7 updates de.
+
+79
+00:09:12,510 --> 00:09:17,670
+Então fico por aqui pessoal mais um exercício agora excluindo os dados do Banco de Dados já fizemos
+
+80
+00:09:17,670 --> 00:09:19,260
+o crude coerente.
+
+81
+00:09:19,630 --> 00:09:25,770
+O app deles é o de lite e eu vou colocar na próxima aula um exercício para a gente fazer uma fatoração
+
+82
+00:09:26,220 --> 00:09:28,010
+em cima do nosso.
+
+83
+00:09:28,170 --> 00:09:31,350
+Da nossa parte ladinho é fábrica de conexão.
+
+84
+00:09:31,350 --> 00:09:36,720
+O que eu quero agora colocar essas informações dentro de um arquivo pouco próprias para que a gente
+
+85
+00:09:36,720 --> 00:09:43,230
+possa não tem esse valor literal dentro do nosso código colocar isso dentro de um arquivo por exemplo
+
+86
+00:09:43,260 --> 00:09:49,220
+o arquivo textual à parte não não extensão do próprios que é suportado pelo Java que por aqui aproximadamente
+
+87
+00:09:49,230 --> 00:09:51,000
+faz mais fatoração.
+
+88
+00:09:51,210 --> 00:09:51,840
+Eu espero lá.

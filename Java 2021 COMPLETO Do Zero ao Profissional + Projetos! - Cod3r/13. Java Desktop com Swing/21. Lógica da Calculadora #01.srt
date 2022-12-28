@@ -1,0 +1,363 @@
+1
+00:00:00,270 --> 00:00:06,150
+Agora nós vamos construir a memória da nossa calculadora e o nome da classe pode ser o nome que pra
+
+2
+00:00:06,240 --> 00:00:14,280
+você for mais representativo aqui no caso faltou só eu tirar esse importe do teclado já que tem que
+
+3
+00:00:14,280 --> 00:00:16,590
+um grande algo que não estou mais usando.
+
+4
+00:00:16,590 --> 00:00:22,690
+Nós usamos até agora em termos de gerenciadores de layout que usamos o grito de Bad Beauty.
+
+5
+00:00:22,830 --> 00:00:29,370
+Usamos o bofe de layout na calculadora e também usamos aquele Display o Flow layout então esse foram
+
+6
+00:00:29,370 --> 00:00:34,640
+os três gerenciadores de layout que a gente usou na nossa aplicação por mais que seja a aplicação simples.
+
+7
+00:00:34,650 --> 00:00:37,150
+é um momento que você começa a crescer a aplicação.
+
+8
+00:00:37,140 --> 00:00:42,810
+Eventualmente você irá precisar de pausa nos outros gerenciadores de layout que estão disponibilizados
+
+9
+00:00:42,810 --> 00:00:43,280
+no Sul.
+
+10
+00:00:43,740 --> 00:00:50,100
+Então nós vamos criar aqui com o botão direito uma nova classe o nome da classe que eu criava e sem
+
+11
+00:00:50,700 --> 00:00:51,570
+memória.
+
+12
+00:00:51,890 --> 00:00:57,710
+Eu vou colocar ela não dentro do pacote de qualquer ponto de visão mais qualquer ponto.
+
+13
+00:00:57,790 --> 00:00:58,770
+Modelo.
+
+14
+00:00:58,960 --> 00:01:04,510
+Essa é uma loja que não necessariamente vai estar relacionado com a interface gráfica.
+
+15
+00:01:04,620 --> 00:01:10,420
+A interface gráfica vai usá lo hoje que está na memória mas não necessariamente eu preciso me.
+
+16
+00:01:10,500 --> 00:01:12,900
+Absolutamente nada relacionado ao sonho.
+
+17
+00:01:12,900 --> 00:01:19,280
+Eu posso usar essa mesma classe memória na aplicação web e na aplicação desktop e na aplicação mobile
+
+18
+00:01:19,550 --> 00:01:24,630
+então não quero isolar bem as camadas para que não haja mistura digamos assim com a baixa interface
+
+19
+00:01:24,630 --> 00:01:25,600
+gráfica.
+
+20
+00:01:25,620 --> 00:01:33,240
+Aqui existe algumas possibilidades e eu posso definir uma interface e criar todos os dados e métodos
+
+21
+00:01:33,240 --> 00:01:34,000
+estáticos.
+
+22
+00:01:33,990 --> 00:01:34,470
+Porquê.
+
+23
+00:01:34,470 --> 00:01:38,040
+Porque eu quero ter apenas uma única memória da minha aplicação.
+
+24
+00:01:38,130 --> 00:01:43,530
+Eu não quero distanciar múltiplas memórias já que eu tenho apenas uma única calculadora e aqui também
+
+25
+00:01:43,530 --> 00:01:46,190
+eu poderia usar um padrão chamado Singleton.
+
+26
+00:01:46,200 --> 00:01:51,530
+Eu posso usar um sim no outro e depois atingir a Torá para os valores serem estáticos tanto faz sim
+
+27
+00:01:51,540 --> 00:01:57,970
+notou é um padrão de projeto que vai ter você vai ter apenas uma única instância de um determinado clássico
+
+28
+00:01:58,020 --> 00:02:04,030
+e como você controla para uma classe ou ter apenas uma única instância você controla colocando o construtor
+
+29
+00:02:04,040 --> 00:02:05,970
+essa classe como privado.
+
+30
+00:02:06,000 --> 00:02:12,470
+Então se eu colocar o construtor que de memória para ser proibidos quero que eu posso fazer.
+
+31
+00:02:12,510 --> 00:02:18,600
+Eu posso controlar a criação dentro da própria classe e aqui eu posso criar algo que não está nessa
+
+32
+00:02:18,600 --> 00:02:23,900
+então pra eles memória ponto na hora.
+
+33
+00:02:23,910 --> 00:02:28,990
+Ponto na hora distância e memória.
+
+34
+00:02:29,140 --> 00:02:31,340
+Você que eu criei chutou.
+
+35
+00:02:31,350 --> 00:02:34,470
+Coloco esse valor aqui pra ser um valor estático.
+
+36
+00:02:34,650 --> 00:02:41,730
+E aqui crio um método gatilho ou apagar o beta em cima desse atributo que é um beta estático.
+
+37
+00:02:41,730 --> 00:02:47,970
+Na verdade eu posso colocar como ser no final pra entender a possibilidade de ter um site de tal forma
+
+38
+00:02:47,970 --> 00:02:53,190
+que a partir desse método de instância eu consigo pagar uma única instância que eu criei da classe me
+
+39
+00:02:53,190 --> 00:03:01,060
+embora até porque o construtor de memória o custo privado então criar naquele atributo drivers string
+
+40
+00:03:01,210 --> 00:03:08,190
+o nome vai ser texto atual e o valor vai iniciar com o vazio.
+
+41
+00:03:08,610 --> 00:03:13,830
+E eu vou criar um método GET para esse valor aqui para esse texto.
+
+42
+00:03:14,040 --> 00:03:23,790
+Vou fazer o seguinte criar aqui um método beta para o texto atual então esse texto atual é nesse Metro
+
+43
+00:03:23,820 --> 00:03:25,530
+fazer um tratamento.
+
+44
+00:03:25,560 --> 00:03:32,890
+Se o texto atual ponto fiz divulgar aderiu eu vou retornar Zero.
+
+45
+00:03:32,910 --> 00:03:36,720
+Caso contrário vou retornar o próprio texto atual.
+
+46
+00:03:36,720 --> 00:03:42,840
+Isso vai facilitar para a gente porque sempre que o valor tiver zero quero que ele mostra um display
+
+47
+00:03:42,840 --> 00:03:45,800
+o valor 0 zero não vai influenciar muita coisa.
+
+48
+00:03:45,800 --> 00:03:53,790
+Então sempre que tiver Basil a gente vai botar o zero para o display aparecem então feito isso a gente
+
+49
+00:03:53,790 --> 00:04:00,320
+consegue dentro do nosso display em vez de estar exibindo o valor inicial a parte e o valor locado.
+
+50
+00:04:00,330 --> 00:04:07,990
+Posso fazer o seguinte com memória ponto ganho de listas foto e texto atual.
+
+51
+00:04:07,990 --> 00:04:09,820
+E aí está a nossa calculadora.
+
+52
+00:04:09,840 --> 00:04:17,040
+Se não perceber que como o valor está zerado Basil irá dizer que ele colocou o valor zero e já usou
+
+53
+00:04:17,040 --> 00:04:19,440
+o valor diretamente da memória da calculadora.
+
+54
+00:04:19,440 --> 00:04:26,820
+O próximo passo é a gente começar a escutar os botões do teclado e a partir daí começar a mudar o valor
+
+55
+00:04:26,820 --> 00:04:27,450
+do display.
+
+56
+00:04:27,450 --> 00:04:31,310
+Como é que eu posso fazer isso pra escutar os botões do teclado.
+
+57
+00:04:31,320 --> 00:04:35,580
+Eu vou fazer com que o próprio teclado ele implemente.
+
+58
+00:04:35,790 --> 00:04:43,740
+Existe a interface entre elementos set list NET e a partir do Action lista aqui eu vou ter um método
+
+59
+00:04:44,160 --> 00:04:49,460
+que vai ser necessário para cada um dos botões que é um metro que chão que forma.
+
+60
+00:04:49,480 --> 00:04:51,410
+A opção foi.
+
+61
+00:04:51,420 --> 00:04:56,900
+Foi acertada então para a gente chamar esse método pra cada novo botão que eu vou criar.
+
+62
+00:04:56,900 --> 00:05:07,080
+O fato é o seguinte botão Adicionar um lixo e você tá o 10 que significa que agora sempre que clicar
+
+63
+00:05:07,080 --> 00:05:19,950
+no botão aqui dentro do System Alt Print ali colocar e executar um salvo logo aqui e na nossa aplicação
+
+64
+00:05:20,400 --> 00:05:27,510
+sempre clicar aqui ao mostrar o bolo desatado eu posso inclusive pegar o valor que foi digitado.
+
+65
+00:05:27,510 --> 00:05:36,670
+Como é que eu pago o valor que foi digitado fazendo assim pagar aquilo que vai ser o botão que recebi
+
+66
+00:05:39,200 --> 00:05:41,510
+e grana aqui o evento.
+
+67
+00:05:41,510 --> 00:05:43,760
+Ponto Jet Force.
+
+68
+00:05:44,060 --> 00:05:48,200
+Ou seja qual foi a origem do evento só que esse método GET The Source.
+
+69
+00:05:48,450 --> 00:05:54,510
+Ele é um método que retorna um objetivo então preciso fazer um teste pra.
+
+70
+00:05:54,650 --> 00:05:57,300
+Não sei que quem gerou o evento foi um botão.
+
+71
+00:05:57,300 --> 00:06:04,230
+Nesse caso sempre será algo tão após até verificar se get the source Is instância de botão de botão
+
+72
+00:06:04,790 --> 00:06:08,350
+pra ficar seguro para não ter nenhum problema.
+
+73
+00:06:08,490 --> 00:06:16,330
+Posso fazer o seguinte joga se get the source lícitas e ilícitas off.
+
+74
+00:06:18,780 --> 00:06:23,880
+Aí sim eu vou fazer alguma coisa aqui dentro desse teste pra dentro.
+
+75
+00:06:23,880 --> 00:06:34,060
+E aí com isso eu consigo pegar o botão ponto de táxi salvando aqui e ele vai ter.
+
+76
+00:06:34,110 --> 00:06:44,040
+Passei 8 9 6 4 0 0 mais igual menos uma explicação divisão.
+
+77
+00:06:44,160 --> 00:06:49,740
+Agora a gente já tem os nossos botões fazendo isso o próximo passo vai ser pegar esse texto do botão
+
+78
+00:06:49,740 --> 00:06:55,610
+passar isso para a memória da calculadora e a memória gerar um evento que vai atualizar o display.
+
+79
+00:06:55,650 --> 00:07:02,100
+O evento acontece no teclado mas nós temos a memória como sendo o canto um local centralizado que vai
+
+80
+00:07:02,100 --> 00:07:08,210
+processar todos esses eventos e que vai gerar eventos quando o conteúdo interno da memória alterar ou
+
+81
+00:07:08,230 --> 00:07:09,450
+seja alterou a memória.
+
+82
+00:07:09,480 --> 00:07:14,600
+O display precisa mostrar o último valor é exatamente isso que nós vamos fazer não vou fazer agora para
+
+83
+00:07:14,600 --> 00:07:19,890
+ela não ficar muito grande mas a próxima aula já faz exatamente isso a gente vai começar a clicar no
+
+84
+00:07:19,890 --> 00:07:23,230
+teclado da calculadora e o valor vai aparecer no display.
+
+85
+00:07:23,370 --> 00:07:28,020
+E para a gente implementar isso nós vamos usar novamente o padrão observe que é um padrão que a gente
+
+86
+00:07:28,020 --> 00:07:33,730
+tem focado muito nesse capítulo que é um padrão muito importante que está para além do suíno.
+
+87
+00:07:33,730 --> 00:07:40,200
+Como falei pra vocês não pode ser usado em aplicações JavaScript em aplicações em Python em aplicações
+
+88
+00:07:40,200 --> 00:07:47,250
+em PHP em aplicações em Java e tem um padrão muito importante vários promotores usam muito o padrão
+
+89
+00:07:47,250 --> 00:07:53,070
+percebe que nós vamos usar mais uma vez o nosso exercício aqui no nosso projétil da calculadora de espera
+
+90
+00:07:53,070 --> 00:07:54,030
+na próxima aula.
+
+91
+00:07:54,050 --> 00:07:54,330
+Até lá.

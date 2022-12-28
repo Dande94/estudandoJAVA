@@ -1,0 +1,391 @@
+1
+00:00:00,630 --> 00:00:08,840
+Pessoal essa aula não vou implementar nada mas eu quero mostrar pra vocês uma palavrinha também que
+
+2
+00:00:08,850 --> 00:00:13,760
+existe na parte de módulos que é o Open e eu vou mostrar para que serve isso certo.
+
+3
+00:00:13,770 --> 00:00:21,580
+Quando você declara por exemplo que um determinado módulo ele é um módulo aberto open open Mode onde
+
+4
+00:00:21,570 --> 00:00:24,240
+continuou funcionando seu ataque o teste.
+
+5
+00:00:24,660 --> 00:00:30,260
+O fato de ter colocado o Open não vai gerar problema certo funcionando normal.
+
+6
+00:00:30,270 --> 00:00:41,310
+Será que esse mexi deixou apertar o botão errado aqui mais uma lata de coca que ouviu.
+
+7
+00:00:42,110 --> 00:00:49,400
+Como vamos abrir aqui fechamos com tempo e vou limpar taxa de cobertura.
+
+8
+00:00:49,410 --> 00:00:50,440
+O que eu quero fazer agora.
+
+9
+00:00:50,430 --> 00:00:51,540
+Pronto.
+
+10
+00:00:51,630 --> 00:01:01,050
+Quando você coloca o módulo que ele é Open Aberto significa que ele vai permitir que seja feito um processo
+
+11
+00:01:01,050 --> 00:01:06,600
+de introspecção ou seja usar o Java reflecte o Java reflexa.
+
+12
+00:01:06,690 --> 00:01:12,930
+Ele pode ser usado por exemplo pra você alterar dados privados de uma classe.
+
+13
+00:01:12,960 --> 00:01:20,510
+é possível alterar um atributo privado de uma classe e é possível usando o Java e Flash.
+
+14
+00:01:20,520 --> 00:01:25,770
+Você pode acessar os metadados de uma classe que acessa os metadados de uma classe.
+
+15
+00:01:26,190 --> 00:01:30,890
+Você acessa a parte do arquivo pouco claras então posso fazer o seguinte.
+
+16
+00:01:31,170 --> 00:01:37,690
+Calculadora ponto Class ponto NET.
+
+17
+00:01:38,090 --> 00:01:42,120
+Aqui é muito bom estar aqui.
+
+18
+00:01:42,130 --> 00:01:47,550
+O System on line calculadora ponto Class ponto Bete lei me executando.
+
+19
+00:01:47,550 --> 00:01:55,620
+Ele trouxe aqui o nome da classe E aí você pode querer por exemplo acessar alterar por exemplo um atributo
+
+20
+00:01:55,620 --> 00:01:58,470
+privado um pouco de calculadora.
+
+21
+00:01:58,560 --> 00:02:06,920
+Eu criei um atributo privado como qualquer que distribui e aí eu coloco aqui por exemplo além de qualquer
+
+22
+00:02:07,650 --> 00:02:08,440
+cabeceio.
+
+23
+00:02:11,370 --> 00:02:22,930
+Então para a gente acessar esse atributo aqui vai chover aqui você tem calculadora Class ponto Bianchi
+
+24
+00:02:24,210 --> 00:02:33,560
+declarei filmes por exemplo e aqui você tem por exemplo pegar o primeiro foi declarado e eu vou pagar
+
+25
+00:02:33,560 --> 00:02:37,030
+que o Guedes nem me deu esse filme certo.
+
+26
+00:02:37,170 --> 00:02:42,700
+Então vou pegar aqui pra gente ver o resultado.
+
+27
+00:02:43,020 --> 00:02:49,110
+O resultado disso aqui tão exaltado ele disse que tem um campo chamado de.
+
+28
+00:02:49,260 --> 00:02:59,630
+Então aqui eu posso muito bem querem pegar aqui fios fios Java além de contribuir flat.
+
+29
+00:02:59,660 --> 00:03:09,990
+é exatamente esse vou colocar aqui fios aí recebe isso aqui e aí a partir do fio a gente pode tentar
+
+30
+00:03:09,990 --> 00:03:11,030
+mudar o valor.
+
+31
+00:03:11,220 --> 00:03:16,480
+Então eu vou pegar aqui por exemplo fios aí.
+
+32
+00:03:16,490 --> 00:03:17,220
+Ponto.
+
+33
+00:03:18,370 --> 00:03:22,210
+Set acessível para aceitou.
+
+34
+00:03:22,590 --> 00:03:26,430
+Vou colocar fio de ponto set.
+
+35
+00:03:27,000 --> 00:03:33,460
+Vou pegar um objeto talvez e você tá aqui por exemplo um valor de f.
+
+36
+00:03:33,760 --> 00:03:42,720
+E no final vou sentar para ser mais acessível novamente colocar falso e aí vou usar esse código aqui.
+
+37
+00:03:42,900 --> 00:03:48,290
+Ele está dizendo que em relação a esse método é que ele tem uma exceção que não tratada.
+
+38
+00:03:48,290 --> 00:03:54,570
+Então eu preciso envolver isso aqui contra a enquete então coloca no traficante.
+
+39
+00:03:54,600 --> 00:04:05,250
+Vou colocar a tratar de forma genérica a exceção ou tirar isso aqui de baixo pronto só mostrar um espectro.
+
+40
+00:04:05,780 --> 00:04:11,430
+E eu vou resetar novamente para a gente ver o resultado dessa execução.
+
+41
+00:04:11,640 --> 00:04:18,930
+Ele vai dizer o seguinte gerou essa ação de zero inacessível Object Access Pixel não é possível marcar
+
+42
+00:04:18,970 --> 00:04:25,880
+um fio de privado como acessível exceto o módulo Apple.
+
+43
+00:04:25,890 --> 00:04:36,480
+O cálculo não está aberto pra esse pacote certo ou seja em outras palavras eu não consigo mexer algumas
+
+44
+00:04:36,480 --> 00:04:42,360
+coisas eu consigo ler algo como o nome da classe o nome do filme mas sempre que eu vou mexer de forma
+
+45
+00:04:42,360 --> 00:04:51,120
+destrutiva ele não permite porque o módulo não está aberto pra eu abri o meio aqui e coloco que o módulo
+
+46
+00:04:51,410 --> 00:04:52,400
+é aberto.
+
+47
+00:04:52,470 --> 00:04:58,050
+Se eu colocar um módulo como aberto ele vai considerar o módulo aberto para qualquer outro modo que
+
+48
+00:04:58,050 --> 00:04:58,920
+vir acessar.
+
+49
+00:04:58,920 --> 00:05:10,930
+Agora sim acessar e alterar o valor de défice de tal forma que se eu vim aqui depois e fizer filme Ponto
+
+50
+00:05:11,100 --> 00:05:19,330
+Gayet e eu consigo pegar por exemplo o valor de défice dentro da instância calculo que eu criei.
+
+51
+00:05:19,370 --> 00:05:24,450
+E aí eu posso mostrar aqui ao que de fato não consigo acessar diretamente com o que escapa a um campo
+
+52
+00:05:25,340 --> 00:05:30,260
+privado mas gerou um problema aqui porque já não está mais acessível.
+
+53
+00:05:30,270 --> 00:05:36,290
+Mas se eu colocar isso aqui antes de tornar ele inacessível né colocações aqui no final ele vai sim
+
+54
+00:05:36,280 --> 00:05:39,310
+tanto alterar como consta o valor executado.
+
+55
+00:05:39,380 --> 00:05:45,110
+Ele mostrou que o valor realmente agora deve ah eu posso fazer o seguinte só para ficar mais simples
+
+56
+00:05:45,120 --> 00:05:46,250
+é ver o valor.
+
+57
+00:05:46,700 --> 00:05:54,030
+Eu posso criar um método grátis aqui e criar um beta que a gente não precisa acessar via reflexa o crack
+
+58
+00:05:54,030 --> 00:05:56,890
+impede aí de o gerar.
+
+59
+00:05:56,900 --> 00:06:03,860
+Agora tem uma forma de acessar esse valor diretamente e aqui em vez de acessar aqui eu vou transformar
+
+60
+00:06:03,860 --> 00:06:13,610
+ele inacessível e logo em seguida vou chamar qualquer ponto net onde você vai ver que o valor realmente
+
+61
+00:06:13,700 --> 00:06:15,820
+é blefe como eu falei isso porquê.
+
+62
+00:06:15,830 --> 00:06:20,280
+Porque eu transformei o módulo pra ser um módulo aberto Open.
+
+63
+00:06:20,420 --> 00:06:25,640
+Se eu voltar para não ser mais aberto e tentar fazer ele vai gerar essa ação dizendo que é um objeto
+
+64
+00:06:25,640 --> 00:06:34,060
+inacessível mas eu posso especificamente abri um pacote específico então posso dizer esse modelo não
+
+65
+00:06:34,050 --> 00:06:42,850
+é aberto mas eu quero abrir o país e eu vou colocar aqui o ponto com ponto e ponto a ponto calculo.
+
+66
+00:06:43,460 --> 00:06:49,790
+E aqui eu consigo dizer explicitamente que eu quero abrir especificamente esse pacote e eu não vou conseguir
+
+67
+00:06:49,790 --> 00:06:56,030
+fazer introspecção interna mas consigo fazer introspecção não é o reflexo desse pacote eu continuei
+
+68
+00:06:56,120 --> 00:07:01,940
+mesmo o pacote não será aberto um módulo já não é aberto mas irão abrir especificamente aqui e eu também
+
+69
+00:07:01,940 --> 00:07:03,530
+posso usar o golpista.
+
+70
+00:07:03,920 --> 00:07:10,610
+Ou seja vou colocar aqui o bicho eu quero apenas abrir o app fotolog que não é o que eu estou tentando
+
+71
+00:07:10,610 --> 00:07:17,180
+fazer porque eu estou tentando mexer no app quanto financeiro se eu abri apenas abre ponto logo se eu
+
+72
+00:07:17,180 --> 00:07:23,740
+tentar evitar que ele vai gerar um problema dizendo que é um objeto inacessível a não ser que eu diga
+
+73
+00:07:23,740 --> 00:07:29,780
+ou está aberto pra web ponto o blog também está aberto para o app ponto financeiro.
+
+74
+00:07:29,780 --> 00:07:37,910
+Aí sim eu volto a conseguir mexer nesse objeto porque eu abri o permitirem você via ao lado de mãos
+
+75
+00:07:37,910 --> 00:07:42,330
+assim visibilidade não encapsulamento a parte de reflexão.
+
+76
+00:07:42,350 --> 00:07:48,620
+Se você achava que era impossível alterar um atributo de fora da classe um atributo privado é possível
+
+77
+00:07:48,620 --> 00:07:54,470
+a baixa reflexão mais com um sistema de módulos ele torna isso mais seguro porque se você não quiser
+
+78
+00:07:54,470 --> 00:08:00,710
+permitir reflexão você simplesmente diz que o seu módulo não está aberto e o legal que eles colocaram
+
+79
+00:08:00,710 --> 00:08:06,920
+também essa possibilidade que torna a migração a compatibilidade com código antigo é muito interessante
+
+80
+00:08:06,920 --> 00:08:13,610
+porque você sempre tem a possibilidade de deixar aberto tanto para módulos específicos para pacotes
+
+81
+00:08:13,610 --> 00:08:19,280
+específicos ou mesmo para todos os pacotes de um determinado módulo usando OpenGL no singular.
+
+82
+00:08:19,370 --> 00:08:26,570
+Para dizer que esse modelo aberto ou Open natural para dizer qual é o pacote e quais são as classe daquele
+
+83
+00:08:26,570 --> 00:08:33,620
+pacote você pode especificar pacotes específicos módulos pode especificar módulos específicos como é
+
+84
+00:08:33,620 --> 00:08:39,590
+o caso aqui do app fonte financeira vou tirar o login porque não vou usar do login mas para funcionar
+
+85
+00:08:39,590 --> 00:08:42,710
+é preciso ter pelo menos o IP financeiro.
+
+86
+00:08:43,040 --> 00:08:44,560
+Então pessoal fique por aqui.
+
+87
+00:08:44,600 --> 00:08:51,620
+Nesse exercício de Open mostrando que pode ser acessado via introspecção na via reflexa esse é um tema
+
+88
+00:08:51,620 --> 00:08:53,570
+que a gente não abordou no curso.
+
+89
+00:08:53,570 --> 00:08:59,470
+Muitos alunos reclamaram você fez um exercício que usou um conceito que não foi usado no curso ainda
+
+90
+00:08:59,840 --> 00:09:01,050
+certo e rápido.
+
+91
+00:09:01,070 --> 00:09:07,190
+Foi só quatro linhas de código que eu usei para alterar o conteúdo de uma variável privada.
+
+92
+00:09:07,580 --> 00:09:12,570
+Mas a gente vai ter um capítulo sobre reflexão mostrando um pouco mais como é que você pode usar esse
+
+93
+00:09:12,580 --> 00:09:20,310
+recurso que é muito interessante e muito usado por frameworks por exemplo o Java o JP aio usa reflexo
+
+94
+00:09:20,420 --> 00:09:26,950
+para ler as notícias para entender como um determinado objeto será mapeado pelo banco de dados internamente.
+
+95
+00:09:27,200 --> 00:09:29,480
+Ele precisa de reflexão para funcionar.
+
+96
+00:09:29,690 --> 00:09:33,730
+Então é um recurso interessante é um recurso mais avançado da linguagem.
+
+97
+00:09:33,770 --> 00:09:40,190
+A gente vai abordar isso um pouco depois não fui por aqui nesse exercício sobre opinar permitir ou não
+
+98
+00:09:40,190 --> 00:09:43,060
+a reflexão dentro dos módulos e até aproximá lo.

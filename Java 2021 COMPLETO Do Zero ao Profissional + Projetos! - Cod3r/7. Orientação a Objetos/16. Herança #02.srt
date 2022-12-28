@@ -1,0 +1,451 @@
+1
+00:00:00,200 --> 00:00:07,820
+Pessoal nessa aula vão achar pra vocês a possibilidade que você tem de sobra escrever um comportamento
+
+2
+00:00:07,860 --> 00:00:10,820
+com método Apache e da classe filha.
+
+3
+00:00:10,830 --> 00:00:13,170
+Nesse caso o que eu quero que o herói.
+
+4
+00:00:13,170 --> 00:00:20,930
+Ele tem uma capacidade de atacar de uma forma um pouco mais forte do que o monstro.
+
+5
+00:00:21,180 --> 00:00:25,790
+Então posso sobre isso que meu comportamento existem muitas estratégias pra fazer isso.
+
+6
+00:00:26,250 --> 00:00:27,180
+Eu posso.
+
+7
+00:00:27,210 --> 00:00:33,300
+Se eu quiser pra ter um pouco mais de flexibilidade ter dois metros eu posso ter um ataque que recebe
+
+8
+00:00:33,360 --> 00:00:34,180
+o jogador.
+
+9
+00:00:34,350 --> 00:00:36,750
+Ou seja o oponente também passa.
+
+10
+00:00:36,750 --> 00:00:42,270
+Qual o nível daquele ataque se ele vai ter um ataque que vai tirar das vidas se vai tirar 15 que vai
+
+11
+00:00:42,270 --> 00:00:47,070
+tirar 20 ou poderia ter um metro que recebe também esse número o meu parâmetro da.
+
+12
+00:00:47,100 --> 00:00:52,680
+Ou seja eu teria um pouco mais de flexibilidade como eu vou atacar mais o metro que nós criamos não
+
+13
+00:00:52,680 --> 00:00:53,970
+tem essa possibilidade.
+
+14
+00:00:54,420 --> 00:00:58,750
+Uma das coisas que a gente pode fazer isso eu posso que tem vários caminhos aqui e que eu posso seguir
+
+15
+00:00:59,130 --> 00:01:00,420
+um deles se eu quiser.
+
+16
+00:01:00,420 --> 00:01:06,390
+Sobre escrever esse metro eu posso simplesmente copiar esse método colocá la no herói ou seja sobre
+
+17
+00:01:06,390 --> 00:01:14,580
+eu escrevi o método não usei absolutamente nada da classe pai e simplesmente venho aqui e coloco 20
+
+18
+00:01:14,580 --> 00:01:21,090
+ou seja o cara dá um ataque de duas vezes mais forte do que eu acho seja o herói tem uma vantagem sobre
+
+19
+00:01:21,090 --> 00:01:21,780
+o monstro.
+
+20
+00:01:21,810 --> 00:01:28,080
+Se eu pegar esse mesmo exemplo aqui e executar que o jogo nesse caso aqui deixo só renomear aqui para
+
+21
+00:01:28,080 --> 00:01:30,780
+ficar um pouco mais fácil o nosso código de interpretar.
+
+22
+00:01:31,200 --> 00:01:33,410
+Eu vou clicar aqui com o botão direito.
+
+23
+00:01:33,480 --> 00:01:36,430
+O efeito aqui é o Enem.
+
+24
+00:01:36,500 --> 00:01:46,910
+E aqui eu vou colocar para ser um monstro e vou colocar aqui pra propor um nome.
+
+25
+00:01:47,100 --> 00:02:01,470
+Isso aqui vai ser um herói e vou colocar aqui por exemplo um monstro tem que a vida dele concatenar.
+
+26
+00:02:01,590 --> 00:02:10,630
+Eu vou pegar essa mesma estrutura aqui e vou colocar aqui o herói só maximizar o nosso código.
+
+27
+00:02:10,920 --> 00:02:18,440
+Então o monstro tem vida e o herói tem tal vida e essa mesma estrutura aqui eu vou publicar e jogar
+
+28
+00:02:18,450 --> 00:02:22,160
+escolhe o próximo e apagar essas duas linhas aqui.
+
+29
+00:02:22,260 --> 00:02:25,760
+Ele poderia criar implementar os 30 mil sem problema.
+
+30
+00:02:26,140 --> 00:02:30,560
+Mas o caso que eu vou deixar o Mortensen tem 100 o herói tem 100.
+
+31
+00:02:30,560 --> 00:02:37,200
+Depois o monstro ficou com 20 com 20 e não com 80 porque o ataque foi mais forte e o herói tem apenas
+
+32
+00:02:37,200 --> 00:02:37,770
+90.
+
+33
+00:02:37,790 --> 00:02:45,070
+Eu continuo a apagando certa duplicado de carros e provavelmente o monstro vai acabar ainda mais cedo
+
+34
+00:02:45,070 --> 00:02:50,790
+do que o herói porque o monstro tem uma vantagem maior então ataquei três vezes o monstro passou a ter
+
+35
+00:02:50,790 --> 00:02:54,600
+um leve de 40 e o herói passou a ter mais de 70.
+
+36
+00:02:54,600 --> 00:03:05,010
+Se em algum momento algum deles andar por exemplo pensou colocar aqui monstro ponto ou colocar aqui
+
+37
+00:03:05,030 --> 00:03:08,010
+vai andar na direção como um monstro.
+
+38
+00:03:08,040 --> 00:03:12,050
+Ele está mais em cima e o herói está em embaixo no tabuleiro né.
+
+39
+00:03:12,140 --> 00:03:19,200
+O pedi para o monstro andar na direção norte eu sei que ele vai subir subindo e ele vai ficar em uma
+
+40
+00:03:19,200 --> 00:03:22,090
+posição que o herói não consegue mais atacar.
+
+41
+00:03:22,410 --> 00:03:28,710
+Colocar ele pra nessa direção os outros ataques não aconteceram ou seja ele vai atacar apenas uma única
+
+42
+00:03:28,710 --> 00:03:29,660
+vez né.
+
+43
+00:03:29,660 --> 00:03:34,990
+Se eu colocar mais aqui embaixo vai conseguir atacar duas vezes e como ele saiu do ringue de ataque
+
+44
+00:03:35,460 --> 00:03:40,280
+só conseguiu baixar duas vezes 40 20 e 20 ou 40.
+
+45
+00:03:40,290 --> 00:03:42,240
+Ou seja o monstro ficou com 62 lá.
+
+46
+00:03:42,680 --> 00:03:44,560
+E o herói ficou com 80.
+
+47
+00:03:44,560 --> 00:03:49,690
+De lá ficou que sofreu apenas dois ataques o terceiro não foi certo porque eu andei aqui e acabou ele
+
+48
+00:03:49,720 --> 00:03:54,410
+ficando um pouco mais distante só para mostrar um pouco daquilo que a gente construiu da lógica a gente
+
+49
+00:03:54,430 --> 00:03:59,850
+construiu até agora mas o foco aqui é mostrar um pouco dessa questão da sobre escrita ou seja sobre
+
+50
+00:03:59,850 --> 00:04:06,900
+escrevi o metro escrevi por cima o comportamento do Metro que foi definido na classe pai leu e se eu
+
+51
+00:04:06,900 --> 00:04:10,730
+quiser por exemplo usar o coelho de cima tem como fazer isso.
+
+52
+00:04:10,730 --> 00:04:16,570
+Tem no caso aqui do atacar de herói em vez de ter que escrever um método todo.
+
+53
+00:04:16,680 --> 00:04:20,610
+Você pode usar um metro de cima como que eu faço para usar um metro de cima.
+
+54
+00:04:20,880 --> 00:04:30,510
+Eu posso colocar aqui aquele super ponto a Parkalgar que significa que eu vou chamar o método do Superclássico.
+
+55
+00:04:30,510 --> 00:04:36,660
+Lembra que tem esse conceito super classe e subclasse significa que ele vai usar um metro que foi definido
+
+56
+00:04:36,660 --> 00:04:38,630
+na Superclássico certo.
+
+57
+00:04:38,630 --> 00:04:40,050
+Então chamei o atacar.
+
+58
+00:04:40,110 --> 00:04:45,950
+Posso chamar ou atacar uma segunda vez ou seja ele ataca duas vezes e como eu preciso retornar que mulher
+
+59
+00:04:46,440 --> 00:05:00,300
+eu posso pegar por exemplo colocar aqui Bruna mulher no ataque a serviço do ataque dois isso eu posso
+
+60
+00:05:00,300 --> 00:05:01,320
+retornar.
+
+61
+00:05:01,410 --> 00:05:09,120
+Se um ataque ou ataque dois dá certo qualquer um dos dois significa que ele de certa forma atacou o
+
+62
+00:05:09,120 --> 00:05:09,760
+oponente.
+
+63
+00:05:09,810 --> 00:05:15,960
+Se tanto ataque como ataque dois se tornou falso significa que essa expressão será falsa e o herói não
+
+64
+00:05:15,960 --> 00:05:16,520
+atacou.
+
+65
+00:05:16,660 --> 00:05:22,310
+E aqui é uma implementação que em vez de o sogro escrever completamente ou seja definiu uma nova implementação
+
+66
+00:05:22,330 --> 00:05:24,790
+por mais que use contra o C contra o V.
+
+67
+00:05:24,810 --> 00:05:31,820
+Aqui eu acabei definindo o método Supera ou seja acabei de chamar um metro pai duas vezes para atacá
+
+68
+00:05:32,420 --> 00:05:37,470
+lo e mais eu queria ser um pouco mais específico em vez de ir atacar o dobro ou queria atacar por exemplo
+
+69
+00:05:38,020 --> 00:05:39,150
+com 15.
+
+70
+00:05:39,520 --> 00:05:43,650
+Então pra você fazer isso a gente precisa mexer um pouco na implementação do jogador.
+
+71
+00:05:43,830 --> 00:05:49,800
+De tal forma que eu consiga passar o parâmetro de quanto eu quero diminuir a vida do oponente pra ter
+
+72
+00:05:49,800 --> 00:05:52,240
+um pouco mais de flexibilidade nisso.
+
+73
+00:05:52,290 --> 00:05:53,870
+A gente tem que criar isso.
+
+74
+00:05:54,000 --> 00:05:58,230
+Tem sim principalmente com a gente começa a usar os níveis de visibilidade.
+
+75
+00:05:58,230 --> 00:06:03,750
+Você pode definir que determinado método não é público mas ele vai ser transmitido por herança e isso
+
+76
+00:06:03,750 --> 00:06:09,210
+faz com que você tenha uma flexibilidade maior mas na sala eu mostrei pra vocês duas estratégias uma.
+
+77
+00:06:09,570 --> 00:06:16,530
+Eu copiei o atacar completamente e joguei lá pra cá dentro do herói de tal forma que eu podia escrever
+
+78
+00:06:16,530 --> 00:06:19,460
+ali dentro da forma que eu queria sem problema nenhum.
+
+79
+00:06:19,470 --> 00:06:24,460
+é nessa forma que eu recusei o Metro de cima chamei duas vezes o atacar.
+
+80
+00:06:24,600 --> 00:06:27,050
+E aí se eu pudesse sair para cá deu certo né.
+
+81
+00:06:27,060 --> 00:06:32,760
+Ele realmente gerou um impacto eu vou retornar dizendo que essa função atacar gerou impacto ele conseguiu
+
+82
+00:06:32,760 --> 00:06:35,230
+atacar o oponente de forma bem sucedida.
+
+83
+00:06:35,250 --> 00:06:41,250
+Então nesse caso eu vou fazer um teste novo aqui no jogo eu posso inclusive só pra diferenciar um pouco
+
+84
+00:06:41,520 --> 00:06:48,330
+chamar três vezes serve só pra gente ver que ele vai agora aplicar uma força tripla vai tirar 30 e não
+
+85
+00:06:48,330 --> 00:06:49,040
+viu.
+
+86
+00:06:49,200 --> 00:06:54,900
+Eu vou colocar aqui outro ataque de três só para a gente brincar nesse caso aqui é uma covardia grande
+
+87
+00:06:54,900 --> 00:06:55,080
+né.
+
+88
+00:06:55,090 --> 00:07:01,080
+Porque você tem um jogador que ela tem uma vantagem muito grande com relação a um monstro mas só pra
+
+89
+00:07:01,080 --> 00:07:04,830
+mostrar que ele executou três duas vezes.
+
+90
+00:07:04,830 --> 00:07:10,410
+Ele conseguiu fazer dois ataques tirou 30 o outro tirou 30 e de tal forma que o monstro agora tem um
+
+91
+00:07:10,410 --> 00:07:11,520
+leve de 40.
+
+92
+00:07:11,640 --> 00:07:12,660
+Tinham mais de 100.
+
+93
+00:07:12,870 --> 00:07:18,810
+Então o pessoal nessa aula mostrei pra vocês nao passaram um voucher pra vocês que usa na palavra existentes.
+
+94
+00:07:19,020 --> 00:07:22,630
+Você recebe atributos e comportamentos por herança.
+
+95
+00:07:22,890 --> 00:07:29,040
+E ainda tem uns detalhes porque é o seguinte há um certo entrelaçamento entre esses princípios.
+
+96
+00:07:29,040 --> 00:07:30,140
+Como assim.
+
+97
+00:07:30,360 --> 00:07:37,560
+Eu falei pra você que o que o polimorfismo dinâmico está relacionado com a herança a herança também
+
+98
+00:07:37,560 --> 00:07:43,190
+tem uma relação com o encapsulamento porque dependendo do nível de visibilidade que você aplica para
+
+99
+00:07:43,190 --> 00:07:49,370
+os metros e para os atributos esses atributos e métodos serão estarão ou não visíveis na classe filha.
+
+100
+00:07:49,650 --> 00:07:54,830
+Quando você define por exemplo um atributo como privado a gente vai ver um pouco mais sobre isso quando
+
+101
+00:07:54,840 --> 00:08:00,420
+fizer um exercício de encapsulamento você vai perceber que você não vai conseguir acessar esse atributo
+
+102
+00:08:00,420 --> 00:08:06,500
+diretamente a partir da classe filho porque é um atributo privado só é visível dentro da própria classe
+
+103
+00:08:06,500 --> 00:08:13,590
+então há esse entrelaçamento entre os princípios quando você pensa encapsulamento herança polimorfismo
+
+104
+00:08:13,590 --> 00:08:19,800
+todo eles de certa forma conversam entre si porque é o único paradigma e é bastante natural que haja
+
+105
+00:08:19,800 --> 00:08:25,070
+comunicação entre os princípios da orientação objeto que é o que acontece na prática então o que eu
+
+106
+00:08:25,070 --> 00:08:26,060
+achei pra você.
+
+107
+00:08:26,280 --> 00:08:32,700
+O fato na aula passado de você usar a palavra que tem de você receber atributos e comportamentos por
+
+108
+00:08:32,700 --> 00:08:39,750
+herança e nessa aula especificamente eu mostrei que você pode sobre escrever ou seja mudar o comportamento
+
+109
+00:08:39,750 --> 00:08:46,290
+de um método na próxima aula eu vou criar para você um desafio para você tentar modelar também uma herança
+
+110
+00:08:46,590 --> 00:08:51,960
+em cima de outro exemplo e também aplicar sobre a escrita se for necessário dado ao exemplo o desafio
+
+111
+00:08:51,960 --> 00:08:53,640
+que eu vou passar para você já proximal.
+
+112
+00:08:53,910 --> 00:08:59,160
+Então fui por aqui fizemos rapidamente um exemplo sobre herança na próxima aula o passo um desafio e
+
+113
+00:08:59,160 --> 00:09:00,120
+depois eu dou a resposta.

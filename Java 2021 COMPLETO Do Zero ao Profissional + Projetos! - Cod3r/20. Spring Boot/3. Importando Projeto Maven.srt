@@ -1,0 +1,231 @@
+1
+00:00:00,810 --> 00:00:06,230
+Uma das coisas que eu lembro muito da minha época de curso presencial era uma pergunta que as pessoas
+
+2
+00:00:06,230 --> 00:00:11,840
+fazem muito era o seguinte Como é que eu faço pra copiar o projeto que eu estou desenvolvendo aqui na
+
+3
+00:00:11,850 --> 00:00:15,950
+aula e levá la pra minha casa e usar ele no mural de clipes.
+
+4
+00:00:16,020 --> 00:00:21,120
+E esse processo é um processo conhecido como importar um projeto para você.
+
+5
+00:00:21,120 --> 00:00:27,420
+Você não precisa exportar um projeto basta entrar na página do projeto dar um control C na pasta e copiar
+
+6
+00:00:27,420 --> 00:00:29,430
+todos os arquivos para um pen drive.
+
+7
+00:00:29,760 --> 00:00:30,900
+Antigamente era um pen drive.
+
+8
+00:00:30,900 --> 00:00:35,150
+Hoje a gente bota tudo no que eu falava que o pessoal pode copiar para seu pen drive.
+
+9
+00:00:35,580 --> 00:00:40,530
+E aí como chegar na sua casa você vai fazer o processo de importar um projeto que é o que eu vou fazer
+
+10
+00:00:40,530 --> 00:00:41,340
+agora.
+
+11
+00:00:41,340 --> 00:00:47,970
+Certo ou quando você quer importar um projeto nessa área do backup Explorer ou clicar com o botão direito.
+
+12
+00:00:47,970 --> 00:00:51,670
+Vocês vão ver que tem uma opção chamada importe de importar.
+
+13
+00:00:51,860 --> 00:00:53,450
+Eu vou clicar nessa opção.
+
+14
+00:00:53,490 --> 00:00:59,900
+Existem dois pontos que você eventualmente vai querer pra importar um projeto dos dois principais né.
+
+15
+00:00:59,910 --> 00:01:02,810
+Claro que existem mais formas de importar projetos.
+
+16
+00:01:02,820 --> 00:01:09,840
+Uma das formas é você entrar aqui em geral e você tem um projeto existente para o PC então você tem
+
+17
+00:01:09,840 --> 00:01:12,900
+um projeto por exemplo o Java que você quer importar.
+
+18
+00:01:12,900 --> 00:01:18,410
+Você clica nessa opção Next e seleciona Selecionar Pasta importa o projeto Java por exemplo.
+
+19
+00:01:18,450 --> 00:01:21,410
+No nosso caso eu vou querer importar um projeto meio bem.
+
+20
+00:01:21,810 --> 00:01:23,800
+Então existe uma opção aqui chamada.
+
+21
+00:01:23,910 --> 00:01:31,200
+Por padrão a equipe já tem integração comigo e aqui a gente vai em um portal usar este meio bem plugins
+
+22
+00:01:31,280 --> 00:01:34,120
+ou seja um projeto mais bem existente.
+
+23
+00:01:34,170 --> 00:01:38,960
+Ele pode importar vários projetos e aqui eu vou selecionar Next.
+
+24
+00:01:39,120 --> 00:01:44,490
+Além do projeto que a gente colocou dentro da pasta do nosso Space nós não temos nenhum outro projeto
+
+25
+00:01:44,490 --> 00:01:47,530
+mesmo então basta você selecionar aqui.
+
+26
+00:01:47,580 --> 00:01:55,050
+No meu caso desktop e eu vou selecionar o curso Java ou clicar nessa parte ele vai procurar todos os
+
+27
+00:01:55,050 --> 00:01:58,180
+projetos para ver se ele acha algum projeto que no meio.
+
+28
+00:01:58,300 --> 00:02:02,420
+é o único projeto que é meio bem é exatamente o exercício traço.
+
+29
+00:02:02,500 --> 00:02:10,770
+SB eu vou colocar aqui ou ali ele vai procurar todas as partes e percebeu que o exercício traça se bem
+
+30
+00:02:11,130 --> 00:02:15,250
+ele é um arquivo meio bem e aqui eu vou pedir para ele finalizar.
+
+31
+00:02:15,330 --> 00:02:21,950
+Ele vai importar o nosso projeto então basicamente nós criamos um arquivo ZIP e lá no estádio o que
+
+32
+00:02:22,040 --> 00:02:26,590
+exprime ou baixamos esse arquivo ZIP e para a nossa máquina.
+
+33
+00:02:26,670 --> 00:02:33,330
+Isso impactou o arquivo ZIP de forma opcional eu movia a parte para dentro da parte do PS importei o
+
+34
+00:02:33,330 --> 00:02:40,770
+projeto com um projeto bem de tal forma que aqui nós temos um projeto que tem até esse mês mesmo o Google
+
+35
+00:02:41,150 --> 00:02:42,700
+dizendo que ele é um projeto de lei.
+
+36
+00:02:42,750 --> 00:02:48,420
+Se você voltar um pouquinho no vídeo logo depois que eu fiz a importação você vai ver que aqui embaixo
+
+37
+00:02:48,930 --> 00:02:55,080
+estava tendo um processo invocando o negócio verde dizendo que estava rolando um processo e eu acabei
+
+38
+00:02:55,080 --> 00:03:00,300
+não mostram pra você mas foi muito rápido e acabou que passou o tempo eu não vou conseguir mostrar agora
+
+39
+00:03:00,300 --> 00:03:06,670
+mas o fato é que ele baixou uma série de dependências para a gente se você expandir essa parte que eu
+
+40
+00:03:06,720 --> 00:03:12,730
+tem meio vendo apenas ele baixou uma série de dependências pra gente sem a gente nem pedi.
+
+41
+00:03:12,850 --> 00:03:19,000
+Certo Ele baixou o tom quietinho que eu vou falar um pouco mais na frente e Bennett vale deitou e tal
+
+42
+00:03:19,020 --> 00:03:24,020
+baixou várias coisas que são dependências necessárias para o nosso projeto.
+
+43
+00:03:24,030 --> 00:03:31,860
+Lembro que quando a gente criou o projeto do exercício JP nós criamos uma pasta chamada bio de nós colocamos
+
+44
+00:03:31,860 --> 00:03:38,310
+os arquivos dentro dela nós colocamos essas dependências no Class perto da aplicação fizemos todo um
+
+45
+00:03:38,310 --> 00:03:45,570
+trabalho pra trazer dependências externas para o nosso projeto porque nem tudo está dentro do JD k nem
+
+46
+00:03:45,570 --> 00:03:48,510
+tudo faz parte da biblioteca padrão Java.
+
+47
+00:03:48,720 --> 00:03:51,890
+Ou seja muita coisa precisa ser trazida de forma externa.
+
+48
+00:03:52,050 --> 00:03:57,960
+é uma das coisas que o MEI vai fazer pra gente é trazer essas dependências eu vou deixar para explicar
+
+49
+00:03:57,960 --> 00:04:04,170
+um pouco mais sobre isso na próxima aula falo rapidamente sobre o Baby um pouquinho da ideia dele de
+
+50
+00:04:04,170 --> 00:04:09,790
+Friburgo eu não tenho aqui a intenção de me aprofundar muito meigo porque o foco do nosso capítulo é
+
+51
+00:04:09,810 --> 00:04:10,610
+distributivo.
+
+52
+00:04:10,650 --> 00:04:15,560
+Vocês vão perceber que o tipo de interação que a gente vai precisar fazer comigo é muito pequena.
+
+53
+00:04:15,660 --> 00:04:19,700
+Então você não precisa conhecer um meio bem a fundo pra trabalhar com experimente.
+
+54
+00:04:19,830 --> 00:04:24,870
+Claro que todo o conhecimento é importante e é válido mas o nosso foco aqui será mais perigoso por isso
+
+55
+00:04:25,140 --> 00:04:30,060
+eu vou gastar um aula pra falar rapidamente no meio do que é que significa ele para que ele serve pra
+
+56
+00:04:30,060 --> 00:04:32,510
+depois a gente entrar de fato no estribo.
+
+57
+00:04:32,550 --> 00:04:33,390
+Então fico por aqui.
+
+58
+00:04:33,390 --> 00:04:37,680
+Na próxima além de falar um pouquinho sobre Megre o que é que ele nos ajuda e até lá.

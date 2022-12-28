@@ -1,0 +1,167 @@
+1
+00:00:00,310 --> 00:00:05,460
+Pessoal estamos começando mais um capítulo no nosso custo de Java e nesse capítulo nós vamos trabalhar
+
+2
+00:00:05,460 --> 00:00:14,160
+com o JD BC que é a sigla para Java Data Bank conectividade e conectividade de banco de dados com Java.
+
+3
+00:00:14,160 --> 00:00:23,220
+Na verdade JD BC é uma série de funcionalidades e interfaces e classes que vão te ajudar a interagir
+
+4
+00:00:23,220 --> 00:00:28,440
+com um banco de dados uma medalha j de Marcelo definiu um conjunto de interfaces ou seja quais são os
+
+5
+00:00:28,440 --> 00:00:34,850
+métodos que precisam estar presentes quando você for construir por exemplo um driver que é exatamente
+
+6
+00:00:34,850 --> 00:00:40,460
+um biblioteca que vai te ajudar até a conectividade com determinados bancos de dados então por exemplo
+
+7
+00:00:41,100 --> 00:00:48,920
+eu vou implementá la a minha funcionalidade usando mais Kelly então eu vou baixar o driver do mais que
+
+8
+00:00:48,930 --> 00:00:56,140
+ele que está aderente digamos assim que implementa as interfaces definidas lá na API do JD BC.
+
+9
+00:00:56,160 --> 00:01:02,010
+E aí a gente consegue interagir com o mais Kelly se eu baixar um driver do poncho aí eu vou usar as
+
+10
+00:01:02,010 --> 00:01:08,820
+mesmas interfaces as mesmas as mesmas funcionalidades para interagir com banco de dados push e assim
+
+11
+00:01:08,820 --> 00:01:13,800
+vai para outros bancos como o Orca ou SQL Server da Microsoft que aí vai.
+
+12
+00:01:13,800 --> 00:01:20,700
+Certo A ideia nesse capítulo é trabalhar com um banco de dados JD BC ainda é uma API embora ela já tem
+
+13
+00:01:20,700 --> 00:01:24,000
+muitos anos que está presente dentro da API do Java.
+
+14
+00:01:24,000 --> 00:01:29,520
+Ela é fundamental ainda hoje ela é muito usada mas na verdade há outras bibliotecas acabam usando por
+
+15
+00:01:29,520 --> 00:01:29,880
+baixo.
+
+16
+00:01:29,880 --> 00:01:36,510
+JD BC eventualmente você ainda precisará usar o JD BC diretamente principalmente quando você vai trabalhar
+
+17
+00:01:36,810 --> 00:01:41,580
+com aplicações que demandam uso intensivo de banco de dados.
+
+18
+00:01:41,580 --> 00:01:48,330
+Você vai fazer um processo todo toda virada de noite por exemplo copiar milhares de colunas do banco
+
+19
+00:01:48,330 --> 00:01:53,820
+de dados fazendo milhares de processamentos e às vezes você trabalhar com banco de dados diretamente
+
+20
+00:01:53,820 --> 00:01:57,660
+acaba adicionando um nível de performance mais interessante.
+
+21
+00:01:57,660 --> 00:02:03,480
+Por isso os autores desse ainda continua sendo um API extremamente importante embora em muitos projetos
+
+22
+00:02:03,480 --> 00:02:10,470
+você acaba escolhendo frameworks que tem um nível digamos assim de abstração maior ou seja uma forma
+
+23
+00:02:10,470 --> 00:02:16,450
+mais intuitiva de lidar com o banco de dados como é o caso do Internet usando por exemplo o JP.
+
+24
+00:02:16,830 --> 00:02:22,170
+Então você acaba muitas vezes trabalhando com esses frameworks que nós também iremos abordar aqui no
+
+25
+00:02:22,170 --> 00:02:27,970
+curso mas o uso do J BBC é extremamente importante principalmente para um curso completo como é esse
+
+26
+00:02:27,980 --> 00:02:29,060
+o nosso custo de Java.
+
+27
+00:02:29,060 --> 00:02:33,960
+Então nesse capítulo vamos trabalhar com o JD BC nós vamos aprender desde abril a conexão com o banco
+
+28
+00:02:33,960 --> 00:02:40,410
+de dados criar o esquema e criar o nosso Database dentro do banco de dados que normalmente você acaba
+
+29
+00:02:40,410 --> 00:02:46,320
+não criando data base diretamente no Code mas vai aprender como fazer isso nós vamos criar a tabela
+
+30
+00:02:46,650 --> 00:02:54,750
+a partir do nosso código em Java e depois nós vamos fazer inspeções consultas atualizações exclusões
+
+31
+00:02:55,040 --> 00:03:01,500
+e mais para frente eu vou mostrar pra você o uso de um tipo de arquivo diferente que é suportado pelo
+
+32
+00:03:01,500 --> 00:03:06,420
+Java que é o arquivo do próprio site porque eu vou querer jogar dentro desse arquivo.
+
+33
+00:03:06,540 --> 00:03:12,990
+As informações de conexão eu vou explicar durante o capítulo porque o que é importante você internalizar
+
+34
+00:03:13,440 --> 00:03:16,290
+essa questão do usuário da senha por uma questão de segurança.
+
+35
+00:03:16,610 --> 00:03:21,660
+E lá no finalzinho do capítulo eu vou tecer algumas observações alguns comentários sobre um padrão de
+
+36
+00:03:21,660 --> 00:03:26,340
+projeto muito usado no contexto do J BBC que é o D.
+
+37
+00:03:26,340 --> 00:03:31,820
+A data access object também fala um pouquinho sobre ele no final do capítulo.
+
+38
+00:03:31,890 --> 00:03:37,030
+Então fico por aqui na nossa aula introdutória do módulo J a BBC dispara na próxima obra a gente começa
+
+39
+00:03:37,030 --> 00:03:42,480
+a se aventurar no uso de Java como banco de dados agora que você já tem uns fundamentos.
+
+40
+00:03:42,490 --> 00:03:47,430
+Mas vamos agora aplicar na prática no Java tudo aquilo que a gente aprendeu nos fundamentos de banco
+
+41
+00:03:47,430 --> 00:03:48,810
+de dados no capítulo passado.
+
+42
+00:03:48,810 --> 00:03:50,010
+Então até para o final.

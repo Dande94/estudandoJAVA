@@ -1,0 +1,763 @@
+1
+00:00:00,300 --> 00:00:08,310
+Só nessa aulas vamos fazer e usar o nosso primeiro Lambda e eu vou fazer ele não da forma mais simples
+
+2
+00:00:08,310 --> 00:00:08,850
+possível.
+
+3
+00:00:08,850 --> 00:00:14,400
+Depois eu vou achar pra vocês algumas formas um pouco mais reduzidas digamos assim sem necessariamente
+
+4
+00:00:14,730 --> 00:00:19,840
+precisar criar uma interface e mais nesse nosso primeiro exemplo nós vamos criar um interface.
+
+5
+00:00:20,130 --> 00:00:22,840
+Eu vou mostrar para vocês agora então.
+
+6
+00:00:22,890 --> 00:00:26,680
+Inicialmente criar um novo pacote diretamente dentro de SC.
+
+7
+00:00:27,120 --> 00:00:36,060
+Então o nome do pacote será lambidas tão lambidas certo aqui dentro do nosso pacote lambidas eu vou
+
+8
+00:00:36,060 --> 00:00:39,770
+criar uma interface chamada cálculo.
+
+9
+00:00:39,900 --> 00:00:43,810
+Criar uma interface vou colocar cálculo.
+
+10
+00:00:44,220 --> 00:00:52,820
+E dentro dessa interface calculo eu vou criar uma função e o nome da função será pode ser executar aplicar
+
+11
+00:00:52,820 --> 00:00:54,990
+e colocar como se fosse executar.
+
+12
+00:00:54,990 --> 00:01:01,650
+A gente sabe que a definição de um metro dentro de uma interface ela obrigatoriamente é pública.
+
+13
+00:01:01,650 --> 00:01:02,900
+Isso já é padrão.
+
+14
+00:01:03,060 --> 00:01:08,910
+Tem a palavrinha abstract mas eu não sou necessariamente obrigado a colocar porque fica implícito.
+
+15
+00:01:08,910 --> 00:01:16,290
+E nesse caso o método calcula ele vai retornar um bola e ele vai receber dois parâmetros do tipo dado.
+
+16
+00:01:16,290 --> 00:01:26,850
+Então eu vou colocar aqui e executar vai receber um dado a 1 da ABL B ou seja vou fazer um cálculo que
+
+17
+00:01:26,850 --> 00:01:31,230
+vai receber dois valores do tipo W e Barra tornava o tipo W.
+
+18
+00:01:31,290 --> 00:01:32,410
+Simples assim.
+
+19
+00:01:32,460 --> 00:01:35,230
+Nesse caso eu não sou obrigado a colocar público Abstract.
+
+20
+00:01:35,250 --> 00:01:40,920
+Vou deixar a forma mais simples está correta a forma tradicional que a gente tem uma vez que eu defino
+
+21
+00:01:40,920 --> 00:01:42,120
+uma interface.
+
+22
+00:01:42,150 --> 00:01:48,000
+Você definiu a interface você espera que existam uma classe que vai implementar essa interface.
+
+23
+00:01:48,420 --> 00:01:58,290
+Então por exemplo eu vou criar aqui uma classe chamada Soma nessa classe somar é dizer que só implementa
+
+24
+00:01:58,440 --> 00:02:04,690
+a interface então a interface de cálculo e eu sou obrigado a implementar essas funções.
+
+25
+00:02:05,340 --> 00:02:12,770
+Então só recebo dois parâmetros o app e o B certo dois valores do tipo da para eu executar só um vai
+
+26
+00:02:12,760 --> 00:02:20,580
+ser simplesmente pegar a mais b e eu voltei a implementação dessa interface cálculo usado no meu caso
+
+27
+00:02:20,760 --> 00:02:27,390
+especificamente o metro soma se eu quero criar um segundo a implementação então lá e coloco.
+
+28
+00:02:27,380 --> 00:02:34,350
+Se ela multiplicar multiplicar qualquer operação que recebo dois números de retorno o número pode ser
+
+29
+00:02:34,620 --> 00:02:42,930
+digamos assim contemplado por essa interface cálculo e aqui eu tento implementar elementos de cálculo
+
+30
+00:02:43,310 --> 00:02:47,950
+nesse caso implementando o cálculo eu vou ter a função Executar.
+
+31
+00:02:48,030 --> 00:02:53,200
+Vou que isso é verdade só para achacar não é necessariamente sobre escrita.
+
+32
+00:02:53,240 --> 00:02:56,120
+A definição na função precisa dessa notação.
+
+33
+00:02:56,160 --> 00:03:01,990
+Nesse caso o que a vezes vai ser implementação para essa para esse método.
+
+34
+00:03:02,280 --> 00:03:09,930
+Uma vez feito isso eu vou criar aqui uma outra classe chamada cálculo cálculo Tech está criando esse
+
+35
+00:03:09,930 --> 00:03:10,650
+padrão.
+
+36
+00:03:10,980 --> 00:03:15,840
+E aqui eu vou colocar o método colocando o metro no meio.
+
+37
+00:03:15,840 --> 00:03:22,840
+Você pode criar por exemplo um cálculo por exemplo soma de 1000.
+
+38
+00:03:23,040 --> 00:03:33,540
+A função soma eu posso criar um outro cálculo ponto multiplicação recebe uma classe no caso que eu criei
+
+39
+00:03:33,810 --> 00:03:36,570
+multiplicar coloquei soma e multiplicar.
+
+40
+00:03:36,570 --> 00:03:44,820
+Então só para deixar de corrente eu vou renomear isso aqui pra somar ficar somar multiplicar e calculo
+
+41
+00:03:44,990 --> 00:03:50,660
+e vou colocar essa função pra ser igual renomear então aqui no meu caso como de opção.
+
+42
+00:03:51,420 --> 00:03:58,080
+Provavelmente vocês vão ser Control Alt Gr e é fácil né você clica com o botão direito tem aqui o efeito
+
+43
+00:03:58,270 --> 00:04:02,190
+e você consegue bater aquele atalho exatamente nesse né Britney.
+
+44
+00:04:02,440 --> 00:04:07,070
+EU COLOCAR cálculo Techint só pra gente testar esse primeiro cenário aqui.
+
+45
+00:04:07,690 --> 00:04:10,230
+Então nesse caso eu tenho o soma.
+
+46
+00:04:10,280 --> 00:04:16,920
+Há uma explicação e eu tenho aqui a classe C uma atuação multiplicar de tal forma que eu posso a partir
+
+47
+00:04:17,760 --> 00:04:25,130
+de soma zero coloca aquele soma ou executar passando o número 2 e o número 3.
+
+48
+00:04:25,440 --> 00:04:32,880
+O resultado nada mais é esperado que o valor 5 Nesse caso eu posso até colocar aqui por exemplo uma
+
+49
+00:04:32,880 --> 00:04:39,690
+variável genérica porque pra ficar ainda mais legal o cálculo recebe em mil somar e aí eu chamo.
+
+50
+00:04:39,780 --> 00:04:51,140
+O cálculo aqui é um cálculo exato 2 e 3 usa na mesma variável cálculo eu fazia o seguinte cálculo cálculo
+
+51
+00:04:51,150 --> 00:04:52,590
+recebe 1000 explicações.
+
+52
+00:04:52,600 --> 00:04:59,640
+Agora tem uma nova implementação como as duas classes elas implementam a interface ou seja um mecanismo
+
+53
+00:04:59,640 --> 00:05:08,400
+de eu consigo usar o polimorfismo de tal forma que o seu uso é exatamente a mesma linha ou seja a linha
+
+54
+00:05:08,400 --> 00:05:14,650
+8 é exatamente igual à linha 12 mas o comportamento é diferente comportamento e músico o.
+
+55
+00:05:14,850 --> 00:05:20,520
+Eu tenho duas instâncias diferentes uma instância de somar e outra instância de multiplicar.
+
+56
+00:05:20,610 --> 00:05:27,590
+E aí eu posso executar e o resultado eu sei que outro resultado deu seis porque são dois cálculos diferentes.
+
+57
+00:05:27,720 --> 00:05:35,430
+Eu poderia criar outras implementações dessa interface cálculo pra ter por exemplo potência pra ter
+
+58
+00:05:35,460 --> 00:05:40,950
+raiz quadrada pra ter várias outras coisas que a gente eventualmente queira implementar.
+
+59
+00:05:40,950 --> 00:05:46,890
+Tá bom então só pra mostrar essa seria a forma tradicional como é que eu posso agora usar lambda funções
+
+60
+00:05:46,890 --> 00:05:47,510
+lambda.
+
+61
+00:05:47,700 --> 00:05:56,540
+Eu vou mostrar pra vocês agora vou criar uma outra classe chamada calculou que calculou um teste em
+
+62
+00:05:56,770 --> 00:06:04,830
+dois e dentro desse cálculo TX 2 eu vou fazer exatamente a mesma coisa que eu fiz por cálculo 1 só que
+
+63
+00:06:04,920 --> 00:06:11,430
+em vez de usar classe eu vou usar apenas a interface junto com funções lambda pra mostrar isso pra vocês
+
+64
+00:06:11,430 --> 00:06:12,130
+é o seguinte.
+
+65
+00:06:12,720 --> 00:06:20,040
+A gente pode criar soluções anônimas funções que não tem nome e o resultado dessa função a gente pode
+
+66
+00:06:20,040 --> 00:06:27,170
+associar a uma variável e outras linguagens de programação isso é extremamente natural JavaScript.
+
+67
+00:06:27,510 --> 00:06:33,800
+Isto é o dia a dia de um programador JavaScript e você criar uma função social uma função ou uma variável.
+
+68
+00:06:33,810 --> 00:06:39,630
+Você passa uma função para a outra função certo Java que a gente acaba chamando a função e em Java por
+
+69
+00:06:39,630 --> 00:06:43,350
+conta do contexto da classe onde acaba chamando o método.
+
+70
+00:06:43,610 --> 00:06:49,410
+De qualquer forma aqui dentro como é que eu posso fazer eu posso criar aqui ao cálculo posso criar por
+
+71
+00:06:49,410 --> 00:06:56,940
+exemplo um soma recebe e agora eu vou definir uma função que vai se adequar a esse padrão da interface
+
+72
+00:06:56,940 --> 00:07:00,460
+cálculo e como é que o Java vai saber qual o padrão dessa interface.
+
+73
+00:07:00,510 --> 00:07:07,230
+Olhando para ela que da interface a gente sabe que o método esperado é um metro que vai receber dois
+
+74
+00:07:07,230 --> 00:07:11,670
+parâmetros do tipo W e que vai retornar ao valor do tipo W.
+
+75
+00:07:11,730 --> 00:07:14,400
+Então nesse momento eu vou conseguir definir.
+
+76
+00:07:14,400 --> 00:07:16,220
+Olha como é bem mais enxuto.
+
+77
+00:07:16,230 --> 00:07:21,600
+Eu vou definir dois parâmetros que pode ser a e b ou X e Y sem problema nenhum.
+
+78
+00:07:21,600 --> 00:07:28,290
+Não necessariamente precisa ser a mesma letra que eu defini mais será o mesmo tipo ou seja dois parâmetros
+
+79
+00:07:28,290 --> 00:07:37,480
+do tipo W pode ser um dois pais então x e y eu uso o símbolo do hífen e o maior ok.
+
+80
+00:07:37,510 --> 00:07:43,110
+Ou seja pra mostrar uma sátira aqui ou defina um par de chaves ou seja o cubo do meu metro.
+
+81
+00:07:43,110 --> 00:07:46,150
+Como isso aqui tudo é uma sentença de código.
+
+82
+00:07:46,230 --> 00:07:50,880
+Eu tenho que colocar ponto e vírgula aqui no final e aqui dentro já que essa função vai receber dois
+
+83
+00:07:50,880 --> 00:07:53,880
+parâmetros e vai retornar o tipo dado.
+
+84
+00:07:53,880 --> 00:08:00,860
+Eu sou obrigado a colocar um item e nesse caso como eu não sou eu vou colocar a mais bem outra vírgula.
+
+85
+00:08:01,200 --> 00:08:07,740
+Nesse caso tem uma função lambda definhar bem x y porque eu definir os parâmetros x e y.
+
+86
+00:08:08,040 --> 00:08:12,000
+Então nesse caso eu tenho a função somo definida diretamente aqui.
+
+87
+00:08:12,060 --> 00:08:18,810
+Aqui é uma função que não tem nome e eu associei o resultado dessa expressão diretamente aqui na variável
+
+88
+00:08:18,810 --> 00:08:23,840
+sobre eu poderia colocar isso inclusive em uma linha só sem problema nenhum fazendo assim.
+
+89
+00:08:24,030 --> 00:08:28,350
+Depois eu vou mostrar outras formas mais reduzidas de escrever e descrever a mesma coisa então aqui
+
+90
+00:08:28,350 --> 00:08:35,040
+eu tenho uma linha só definir a minha função soma e agora eu posso chamar a função soma da mesma forma
+
+91
+00:08:35,040 --> 00:08:36,820
+que eu chamei no teste.
+
+92
+00:08:36,900 --> 00:08:43,980
+Então posso pagar aqui exatamente essa mesma linha colocar aqui você vai ver o que ele vai fazer o seguinte
+
+93
+00:08:43,980 --> 00:08:49,140
+só que aqui no caso tem um nome que eu posso chamar cálculo também aqui sem problema de cálculo.
+
+94
+00:08:49,320 --> 00:08:55,810
+Uma vez feito isso o resultado será exatamente o mesmo 5 ou seja a partir dessa expressão que é uma
+
+95
+00:08:55,820 --> 00:09:02,430
+expressão lambda ou seja uma função anônima que defini aquilo define a lógica dessa única função que
+
+96
+00:09:02,430 --> 00:09:04,240
+foi definida dentro de cálculo.
+
+97
+00:09:04,260 --> 00:09:09,190
+O Java sabe que esse metro vai receber dois parâmetros do tipo W e vai retornar um valor.
+
+98
+00:09:09,260 --> 00:09:09,880
+O W.
+
+99
+00:09:10,310 --> 00:09:16,830
+Então dessa forma como Java sabe que você só tem um único metro dentro dessa interface e esse metro
+
+100
+00:09:16,830 --> 00:09:24,360
+recebe dois parâmetros o tipo W retorna W você consegue a partir da definição dessa variável chamado
+
+101
+00:09:24,360 --> 00:09:28,220
+Cálculo certo que é o nome da variável para cálculo.
+
+102
+00:09:28,310 --> 00:09:32,450
+Poxa Macau que pode chamar qualquer nome que a gente queira não tem problema.
+
+103
+00:09:32,880 --> 00:09:38,760
+Só pra não confundir o nome da variável então essa variável local que era do tipo de cálculo tem uma
+
+104
+00:09:38,760 --> 00:09:42,770
+interface e essa interface tem apenas um único método.
+
+105
+00:09:42,770 --> 00:09:49,830
+Como ela tem apenas um único método o Java sabe que se você atribui aqui uma lambida essa lambida vai
+
+106
+00:09:49,830 --> 00:09:50,790
+ter que bater.
+
+107
+00:09:51,150 --> 00:09:54,260
+Ou seja a quantidade de parâmetros e o tipo de retorno.
+
+108
+00:09:54,290 --> 00:09:58,480
+A única função que tem dentro da interface que você definiu.
+
+109
+00:09:58,520 --> 00:10:04,840
+é interessante que pra você a social lambda function para um determinado tipo exige alguns requisitos
+
+110
+00:10:04,840 --> 00:10:06,810
+que eu vou comentar com vocês.
+
+111
+00:10:06,920 --> 00:10:13,450
+Posso mal mas por enquanto a gente definiu uma interface e essa interface tem apenas um único método
+
+112
+00:10:13,460 --> 00:10:19,110
+único comportamento que é o comportamento executar e executar recebe dois parâmetros de Abu Dhabi o
+
+113
+00:10:19,120 --> 00:10:24,960
+retorno da ABU e por isso eu consegui definir uma variável chamada cálculo do tipo da interface.
+
+114
+00:10:25,320 --> 00:10:33,670
+E eu consegui associar uma lambda function que bate exatamente com a definição do método executar ou
+
+115
+00:10:33,700 --> 00:10:34,410
+defini la.
+
+116
+00:10:34,720 --> 00:10:40,280
+Embora aqui não digam absolutamente nada não digo que o nome é executado eles sabem porque só tem uma
+
+117
+00:10:40,280 --> 00:10:40,830
+única.
+
+118
+00:10:40,840 --> 00:10:42,010
+O único método lá.
+
+119
+00:10:42,310 --> 00:10:48,700
+Então se eu colocasse aqui por exemplo um único valor X e eu tirasse aqui ele não ia permitir que isso
+
+120
+00:10:48,850 --> 00:10:49,580
+funcionasse.
+
+121
+00:10:49,660 --> 00:10:50,230
+Ok.
+
+122
+00:10:50,440 --> 00:10:53,860
+Porque o Java sabe que tem dois parâmetros.
+
+123
+00:10:53,860 --> 00:10:59,230
+Você pode até ignorar o segundo parâmetro e não usar a sua lógica e só retorna ao valor de x.
+
+124
+00:10:59,440 --> 00:11:06,100
+Não tem problema mas você precisa receber dois parâmetros porque dentro de cálculo nós temos uma função
+
+125
+00:11:06,100 --> 00:11:10,680
+que recebe dois parâmetros e você obrigatoriamente precisa retornar.
+
+126
+00:11:10,690 --> 00:11:11,900
+O tipo da ABL.
+
+127
+00:11:11,930 --> 00:11:12,480
+Porquê.
+
+128
+00:11:12,760 --> 00:11:19,060
+Porque o nosso tipo aqui retorna da ABL se essa minha função calculo retornasse uma string eu precisaria
+
+129
+00:11:19,060 --> 00:11:26,780
+dentro do meu cálculo 2 aqui retornar uma string colocando aqui por exemplo entre aspas.
+
+130
+00:11:27,550 --> 00:11:31,840
+Opa ou qualquer coisa que ocorre nesse caso estaria certo.
+
+131
+00:11:32,080 --> 00:11:39,250
+Porque eu recebi dois parâmetros do tipo da ABL e eu passei opção embora não tenha dito que é dado aqui.
+
+132
+00:11:39,400 --> 00:11:43,540
+Se eu chegar aqui e passar um valor a ele vai dizer que está errado.
+
+133
+00:11:43,540 --> 00:11:48,910
+Como chamar mais detalhe não vai deixar aqui você define o correto mas na hora de chamar obrigatoriamente
+
+134
+00:11:48,910 --> 00:11:55,600
+precisa ser do tipo d'água então esses valores aqui dentro serão tratados dentro do metro serão tratados
+
+135
+00:11:55,600 --> 00:11:56,580
+como W.
+
+136
+00:11:56,590 --> 00:11:59,050
+Voltando aqui o cálculo não quero que retorne.
+
+137
+00:11:59,440 --> 00:12:03,420
+Eu quero que ele retorne da ABL voltam pra cá pra não tem erro.
+
+138
+00:12:03,700 --> 00:12:13,090
+E aqui em vez de retornar Opa eu vou retornar x mais tipos porque nesse caso a função soma um resultado
+
+139
+00:12:13,210 --> 00:12:22,740
+esperado e 5 eu posso pegar exatamente a mesma mesma variável o cálculo recebe uma nova longa paixão
+
+140
+00:12:22,830 --> 00:12:28,540
+com uma função Lambda e aqui eu vou colocar pra fazer um pouquinho diferente.
+
+141
+00:12:28,540 --> 00:12:29,530
+Como assim.
+
+142
+00:12:29,550 --> 00:12:38,460
+E veja teus parênteses eu não vou colocar os parentes eu vou simplesmente colocar x vezes y vírgula
+
+143
+00:12:39,010 --> 00:12:45,710
+ou seja nesse caso quando você não coloca os parênteses não a chave está certo quando você não coloca
+
+144
+00:12:45,710 --> 00:12:52,630
+as chaves automaticamente aquilo que você colocou será retornado ou seja na verdade eu não posso nem
+
+145
+00:12:52,630 --> 00:12:56,740
+usar aqui o Titanic de forma explícita por quê.
+
+146
+00:12:56,840 --> 00:13:03,370
+Porque implicitamente existe o Titanic associado a essa expressão que você colocou aqui.
+
+147
+00:13:03,850 --> 00:13:10,840
+Então quando você omitir o par de chaves ou seja o corpo da função o Java vai ficar subentendido para
+
+148
+00:13:10,840 --> 00:13:17,410
+o Java que você terá apenas uma única sentença de código dentro dessa função e que essa sentença decore
+
+149
+00:13:17,470 --> 00:13:25,000
+o resultado dela será retornado da função certo então essa que quando você coloca o par de chaves se
+
+150
+00:13:25,000 --> 00:13:29,050
+você quiser retornar você precisa explicitamente retornar.
+
+151
+00:13:29,050 --> 00:13:34,050
+Tanto é que se eu não colocar o Ituano aqui vai dar um problema certo ele não vai entender isso como
+
+152
+00:13:34,050 --> 00:13:41,620
+sinal algo vale do mesmo que eu coloco na sentença da HBO recebem X mais Y Ok essa é uma sentença de
+
+153
+00:13:41,620 --> 00:13:48,490
+código válida mas você precisa chamar Brittany a 7 e colocar um ponto e vírgula que eu posso colocar
+
+154
+00:13:48,490 --> 00:13:54,250
+mais uma sentença de na mesma linha é problema mas você obrigatoriamente precisa.
+
+155
+00:13:54,250 --> 00:14:02,080
+Se você colocou de forma explícita o par de chaves você precisa chamar o Whitehead porque não há um
+
+156
+00:14:02,080 --> 00:14:08,440
+retorno implícito já que quando você tira o par de chaves é assumido que você vai ter apenas uma única
+
+157
+00:14:08,440 --> 00:14:15,340
+sentença de código associado a essa função e automaticamente essa sentença de código será retornada.
+
+158
+00:14:15,700 --> 00:14:24,000
+Então não posso por exemplo fazer algo do tipo aqui ao colocando a recebe x e y o ponto e vírgula e
+
+159
+00:14:24,000 --> 00:14:29,920
+depois colocar alguma outra coisa eu não posso ter mais de uma sentença de código associado a uma função
+
+160
+00:14:29,920 --> 00:14:37,100
+lambda que não tem Chaves mas você percebe como isso fica extremamente otimizado ou seja com linha de
+
+161
+00:14:37,300 --> 00:14:44,020
+código extremamente curta eu evitei a necessidade de ter que criar uma classe que implementa a interface
+
+162
+00:14:44,260 --> 00:14:51,790
+que define a lógica não como única linha a gente consegue rapidamente até a nossa implementação da multiplicação
+
+163
+00:14:51,790 --> 00:14:58,210
+e aí eu chamo exatamente a mesma coisa que precisar posso ter copiado então qualquer ponto está agora
+
+164
+00:14:58,270 --> 00:15:05,270
+o cálculo que já não soma a multiplicação por forma a gente fez no cálculo taxa legal.
+
+165
+00:15:05,570 --> 00:15:11,210
+Ficou realmente mais curto ficou um pouco mais difícil de ler provavelmente porque talvez você não esteja
+
+166
+00:15:11,210 --> 00:15:13,690
+acostumado com este tipo de expressão.
+
+167
+00:15:13,690 --> 00:15:15,100
+Quem vem do JavaScript.
+
+168
+00:15:15,540 --> 00:15:21,980
+Isso é bastante comum em um lado você também tem esse expressões do tipo lâmina que são as ela que chamamos
+
+169
+00:15:22,160 --> 00:15:28,900
+de funções com conserta exatamente por conta dessa sátira embora no JavaScript a seta não seja assim.
+
+170
+00:15:28,950 --> 00:15:35,270
+JavaScript é usado igual e o símbolo maior que é certo mas já no Java a gente usa esse símbolo aqui
+
+171
+00:15:35,570 --> 00:15:42,500
+para representar essa fatia ficou talvez um pouco mais enxuto mas ao mesmo tempo pode ser que pra você
+
+172
+00:15:42,840 --> 00:15:46,640
+precise de um determinado tempo pra se acostumar com esse tipo de nomenclatura.
+
+173
+00:15:46,820 --> 00:15:52,250
+Mais vocês vão perceber o ganho disso com o passar dos exercícios principalmente com a gente para a
+
+174
+00:15:52,250 --> 00:15:58,680
+parte de colegas que você vai ver como a gente vai conseguir implementar muita lógica escrevendo pouco
+
+175
+00:15:58,690 --> 00:15:59,190
+código.
+
+176
+00:15:59,190 --> 00:16:06,140
+Isso é interessante porque você consegue escrever pouco e fazer muita coisa certa ou seja deixa a linguagem
+
+177
+00:16:06,710 --> 00:16:13,190
+mais enxuta você com um pouco o código consegue implementar muita coisa interessante então esses benefícios
+
+178
+00:16:13,190 --> 00:16:16,620
+da programação funcional agregam muito valor à linguagem.
+
+179
+00:16:16,670 --> 00:16:21,560
+Isso traz recursos muito interessantes é legal que você conheça esses recursos.
+
+180
+00:16:21,570 --> 00:16:24,440
+Esse foi o primeiro exemplo que nós criamos aqui.
+
+181
+00:16:24,470 --> 00:16:27,600
+A nossa interface que tem apenas um único método.
+
+182
+00:16:27,770 --> 00:16:33,890
+Depois a gente criou classes que implementam a sua interface ou seja você precisa criar um arquivo nomear
+
+183
+00:16:33,890 --> 00:16:40,310
+esse arquivo definir a implementação e definir o método colocar a implementação de vinho ou outra classe
+
+184
+00:16:40,310 --> 00:16:43,630
+para definir o Outro método com a sua implementação.
+
+185
+00:16:43,630 --> 00:16:46,960
+Daí você precisa instancias classe está certo.
+
+186
+00:16:46,970 --> 00:16:54,090
+Já no caso de cálculo TX 2 A gente usou as lambidas o que deixou o nosso código bem mais enxuto mais.
+
+187
+00:16:54,200 --> 00:16:59,960
+Não quero discutir nesse momento tanto dos benefícios disso acho que com o passar dos exercícios vocês
+
+188
+00:16:59,960 --> 00:17:05,390
+vão percebendo as vantagens além do fato de você ter uma sintaxe mais enxuta.
+
+189
+00:17:05,390 --> 00:17:10,550
+Existem outros benefícios muito importantes que a gente vai discutir ao longo desse e do próximo capítulo
+
+190
+00:17:10,550 --> 00:17:11,720
+então fico por aqui.
+
+191
+00:17:11,720 --> 00:17:13,460
+Na próxima aula a gente continua e até lá.

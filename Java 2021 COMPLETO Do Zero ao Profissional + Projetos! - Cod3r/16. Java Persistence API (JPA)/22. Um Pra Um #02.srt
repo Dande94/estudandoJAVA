@@ -1,0 +1,231 @@
+1
+00:00:00,240 --> 00:00:04,110
+Só nós vamos criar aqui uma nova classe em que eu vou chamar aqui
+
+2
+00:00:06,900 --> 00:00:10,930
+Freak e chamar um novo cliente.
+
+3
+00:00:11,550 --> 00:00:18,010
+Aceito 2 mesmo nome na classe anterior só que com o número dois no final vou colocar aqui um método
+
+4
+00:00:18,030 --> 00:00:18,400
+meio.
+
+5
+00:00:18,420 --> 00:00:27,060
+A primeira coisa que eu vou fazer da mesma forma dados em passado eu vou criar que não aceito eu sento
+
+6
+00:00:27,680 --> 00:00:34,530
+para outro vou passar aqui o valor do assento pra sei sei lá quatro D.
+
+7
+00:00:35,340 --> 00:00:44,190
+Logo no começo do álbum eles fossem de avião por exemplo no Acre aqui cliente cliente recebe meu cliente
+
+8
+00:00:44,190 --> 00:00:51,830
+em nome do cliente e o Rodrigo e o assento ele vai ser seu assento que eu criei na minha anterior.
+
+9
+00:00:51,860 --> 00:00:52,720
+Pronto.
+
+10
+00:00:52,770 --> 00:00:54,860
+Da mesma forma que eu vou criar aqui.
+
+11
+00:00:54,950 --> 00:01:00,770
+Ideal de olho na Madeira posso criar aqui nesse caso especificamente o handheld cliente.
+
+12
+00:01:00,780 --> 00:01:01,740
+Não tem problema.
+
+13
+00:01:01,740 --> 00:01:11,120
+Recebe mil delas e posso até se quiser passar embora não vá fazer com sua proposta passa a classe X
+
+14
+00:01:11,230 --> 00:01:14,020
+e pra cá todo o coletivo pronto.
+
+15
+00:01:14,040 --> 00:01:18,980
+Uma vez feito isso vamos supor que eu queira incluí atômico.
+
+16
+00:01:18,990 --> 00:01:25,050
+O cliente só que o cliente possui um assento mas eu quero que o assento também seja incluído no momento
+
+17
+00:01:25,090 --> 00:01:26,340
+concluiu o cliente.
+
+18
+00:01:26,340 --> 00:01:33,020
+Na fala Tá certo detalhe vai dar um problemão à sessão dizendo Eu não posso incluir o cliente porque
+
+19
+00:01:33,020 --> 00:01:40,120
+o cliente tem um objeto que ele referencia que está num estado não salvo seja um estado de transe.
+
+20
+00:01:40,200 --> 00:01:44,660
+Então o fato de eu está colocando um assento tá atrapalhando a persistência do cliente.
+
+21
+00:01:44,660 --> 00:01:52,320
+Se eu colocar que o acento é nulo certo ou seja não tem assento como assento ele é opcional ele vai
+
+22
+00:01:52,320 --> 00:01:55,290
+se inserir um cliente esse cliente vai ficar sem acento.
+
+23
+00:01:55,860 --> 00:02:01,980
+O cliente Rodrigo não tem assento isso não é um problema do ponto de vista do banco de dados mais se
+
+24
+00:02:01,980 --> 00:02:06,680
+você passar um objeto que não foi persistir e tentar salvar.
+
+25
+00:02:06,690 --> 00:02:13,290
+Por exemplo aqui a Maria você vai ver que ele vai dar um problema exatamente para o nunca acabei de
+
+26
+00:02:13,290 --> 00:02:18,780
+comentar como é que eu faço pra resolver isso Isabel eu quero por exemplo no momento que eu estiver
+
+27
+00:02:18,780 --> 00:02:23,640
+inserindo um pedido Eu quero que ele inclua os itens no momento que eu tiver incluindo o cliente eu
+
+28
+00:02:23,640 --> 00:02:28,830
+quero que automaticamente o assento seja incluído no banco de dados mesmo que explicitamente eu não
+
+29
+00:02:28,830 --> 00:02:31,880
+vá lá e coloque o que eu quero incluir o assento.
+
+30
+00:02:31,880 --> 00:02:38,360
+Dá para fazer isso e você pode fazer isso a partir da anotação a roubou ante o ano.
+
+31
+00:02:38,550 --> 00:02:44,520
+Existe uma propriedade chamada Cascais então atributo caso queira ele pode receber um array de dados
+
+32
+00:02:44,940 --> 00:02:51,270
+da mesma forma que ele também pode ir posso colocar um rei no caso do Jaguari entre Chaves e aqui eu
+
+33
+00:02:51,270 --> 00:02:58,230
+posso colocá lo quero fazer uma operação em cascata exatamente que o caso que ele faz quero ver Operação
+
+34
+00:02:58,230 --> 00:03:06,810
+em cascata tanto pra inserção como pra o médico que seria alteração então você pode colocar mais de
+
+35
+00:03:06,810 --> 00:03:12,830
+uma opção como também você pode não colocar entre chaves caso você queira colocar apenas uma única opção
+
+36
+00:03:12,830 --> 00:03:19,800
+de caso de médio em operação em cascata e você pode por exemplo quer fazer uma operação em cascata apenas
+
+37
+00:03:19,800 --> 00:03:21,000
+para persistência.
+
+38
+00:03:21,000 --> 00:03:26,830
+Ou então você pode usá lo ou que você quer fazer uma operação em cascata para todos os cenários tanto
+
+39
+00:03:26,850 --> 00:03:29,390
+para inclusão operações exclusão total.
+
+40
+00:03:29,430 --> 00:03:35,280
+Então nesse caso eu posso colocar ou posso colocar especificamente que eu quero que ele faça a operação
+
+41
+00:03:35,280 --> 00:03:42,120
+em cascata pra Merge e o BC hoje mais eu vou colocar nesse caso pra ficar um pouco mais conservador
+
+42
+00:03:42,150 --> 00:03:45,600
+para ele fazer a operação em cascata apenas na persistência.
+
+43
+00:03:45,600 --> 00:03:50,070
+Ou seja quando você tiver persistindo o cliente ele vai lá e também persiste o aceito.
+
+44
+00:03:50,070 --> 00:03:58,560
+Então pra gente tá está eu vou colocar aqui acertando ele vai fazer a persistência ao inserir um assento
+
+45
+00:03:58,650 --> 00:04:00,680
+e depois disso ele é o cliente.
+
+46
+00:04:00,690 --> 00:04:07,290
+De tal forma que agora a Maria que foi a nossa última cliente cadastrada para apontar para o assento
+
+47
+00:04:07,590 --> 00:04:13,800
+de quatro já que ele é exatamente o 4 da NET aceitou sendo que o cadastro aqui.
+
+48
+00:04:14,220 --> 00:04:20,090
+Então nesse caso com uma anotação você consegue gerar uma operação em cascata.
+
+49
+00:04:20,110 --> 00:04:25,070
+Daí você percebe o nível de automatização que o JP abaixo entrega.
+
+50
+00:04:25,230 --> 00:04:30,630
+Você não precisa se preocupar em gerar SQL você não precisa se preocupar em gerar inserções updates
+
+51
+00:04:30,630 --> 00:04:38,400
+e leques e você consegue em geral automatizar ações quer obter por exemplo uma informação de forma automática
+
+52
+00:04:38,620 --> 00:04:43,950
+quer apagar o pedido e automaticamente trazer os itens também é uma opção que o JP abate dava.
+
+53
+00:04:43,940 --> 00:04:49,080
+Mostrar um pouco mais na frente isso mas na sala mostrei pra vocês que a partir de uma propriedade que
+
+54
+00:04:49,080 --> 00:04:56,880
+é propriedade cascata você consegue gerar inserções ou atualizações ou mesmo exclusões de forma em cascata
+
+55
+00:04:56,880 --> 00:04:58,470
+o que é bastante interessante.
+
+56
+00:04:58,770 --> 00:04:59,550
+Então fico por aqui.
+
+57
+00:04:59,550 --> 00:05:06,210
+Pessoal no nosso segundo exercício durante um ano na próxima aula nós vamos trabalhar com um pra muitos
+
+58
+00:05:06,750 --> 00:05:07,560
+e espero lá.

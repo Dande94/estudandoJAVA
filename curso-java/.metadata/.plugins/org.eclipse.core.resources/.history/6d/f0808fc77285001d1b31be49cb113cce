@@ -1,0 +1,35 @@
+package controle;
+
+import java.util.Scanner;
+
+public class DesafioWhile {
+	public static void main(String[] args) {
+//minha resposta		
+		Scanner entrada = new Scanner(System.in);
+		boolean verificador = false;
+		int total = 0;
+		while(!verificador ) {			
+			double nota = entrada.nextDouble();
+			if(nota < 0 || nota > 10){
+				System.out.println("Nota Invalida");
+				if(nota == -1) {
+					verificador = true;
+				}
+			}else {
+				total++;
+				double acumuladoNotas;
+				acumuladoNotas = acumuladoNotas + nota;
+				System.out.println(acumuladoNotas);
+				System.out.println(total);
+			}			
+		}
+//		double media = acumuladoNotas / total;
+		 
+//		System.out.printf("A media é %.1f" , media);
+		entrada.close();
+
+
+		
+	}
+	
+}

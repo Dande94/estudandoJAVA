@@ -1,0 +1,163 @@
+1
+00:00:00,160 --> 00:00:06,150
+Pessoal como nós temos apenas estados válidos a nossa tabela não vou querer excluir o estado eu vou
+
+2
+00:00:06,240 --> 00:00:13,020
+incluir na sala mais dois estados eu quero mostrar para vocês como é a inclusão por exemplo de um Estado
+
+3
+00:00:13,020 --> 00:00:19,910
+você dizendo o valor do ai de você pode sim dizer o valor do inglório índice já alto incremento.
+
+4
+00:00:20,010 --> 00:00:23,060
+Você pode dizer explicitamente Code que você quer colocar.
+
+5
+00:00:23,070 --> 00:00:28,440
+Obviamente não pode ser de repetido que já esteja na tabela mas se você quiser pode colocar se em um
+
+6
+00:00:28,440 --> 00:00:32,520
+rede na hora de incluir um novo registro vamos achar isso pra vocês estão vão aproveitar.
+
+7
+00:00:32,670 --> 00:00:37,500
+Criar dois Estados que não existem para que a gente possa na aula seguinte excluir esses estados eu
+
+8
+00:00:37,500 --> 00:00:43,320
+também vou aproveitar essa inclusão para a gente mexer com a rede mesmo sem um alto incremento a gente
+
+9
+00:00:43,320 --> 00:00:48,660
+vai forçar o que a gente quer e não vai ter nenhum problema com ela só aí só que vai ter um comportamento
+
+10
+00:00:48,660 --> 00:00:51,540
+que eu quero mostrar para vocês o que é que vai acontecer durante a aula.
+
+11
+00:00:51,540 --> 00:00:58,370
+Então pra isso nós vamos criar aqui um novo arquivo nome do arquivo vai se inserir em novos estados
+
+12
+00:00:58,450 --> 00:00:59,840
+ponto SQL.
+
+13
+00:01:00,030 --> 00:01:07,560
+Fazer um set normal em sete estados vou agora colocar o Waldir como se na primeira coluna vírgula nome
+
+14
+00:01:07,560 --> 00:01:10,240
+e vírgula sigla vírgula regional vírgula.
+
+15
+00:01:10,320 --> 00:01:17,790
+População e os valores vai usá la como cenário de mil então colocar mil aí vou colocar aqui o nome do
+
+16
+00:01:17,790 --> 00:01:20,660
+Estado Novo a sigla em V.
+
+17
+00:01:20,670 --> 00:01:27,330
+A região Sul e a população vai ser de 2 milhões 540 mil habitantes estão executando esse comando aqui
+
+18
+00:01:28,180 --> 00:01:32,310
+e ele vai inserir normalmente os estados sem problema nenhum.
+
+19
+00:01:32,700 --> 00:01:43,060
+Vou incluir um outro estado certo acho que fazer Selection Salete asterisco from estados e estados estão
+
+20
+00:01:43,080 --> 00:01:44,680
+selecionando aqui contra o.
+
+21
+00:01:45,060 --> 00:01:53,370
+Você vai ver que de fato coloca no que ele trouxe todos os estados 1 2 3 4 5 até o Estado 33 e depois
+
+22
+00:01:53,370 --> 00:01:59,860
+colocou o Estado mil que é o Estado Novo a pergunta é se eu fizer um novo e 7 aqui fizer aqui 7 sete
+
+23
+00:02:00,450 --> 00:02:08,880
+estados não colocando mais de nome sigla região e população colocando os valores por exemplo mais novo
+
+24
+00:02:09,150 --> 00:02:16,410
+a sigla MV minha é melhor dizendo morte e a população 2 milhões é 15 10 mil habitantes.
+
+25
+00:02:16,410 --> 00:02:21,320
+Pronto salvei executando esse comando contra o Chile e sei.
+
+26
+00:02:21,590 --> 00:02:28,270
+Ele vai funcionar normalmente ele deixou o comando em 7 afetou uma linha e ele já colocou aqui tirou
+
+27
+00:02:28,370 --> 00:02:34,890
+a surpresa colocou o incerto aí pra 100 mil eu ia perguntar pra você se ele ia usar o Ai de 34 ou ai
+
+28
+00:02:34,920 --> 00:02:41,240
+diminuiu na verdade que já respondeu que ele usou a rede 1001 colocando aqui a consulta pra baixo.
+
+29
+00:02:41,400 --> 00:02:48,030
+Certo é selecionada contra o Chile que você vai ver que de fato ele vai sempre pra frente Campo Alto
+
+30
+00:02:48,040 --> 00:02:52,750
+incremento ele vai sempre pagar o último mais utilizado em cima dessa utilizado.
+
+31
+00:02:52,860 --> 00:03:00,010
+Ele vai acrescentar mais um ou seja mesmo que tenha alguns buracos aqui tem vários buracos 133 mil.
+
+32
+00:03:00,150 --> 00:03:04,900
+Ele não vai se preocupar para encher esses buracos e buracos e simplesmente vai pegar o último Audi
+
+33
+00:03:05,220 --> 00:03:08,360
+e acrescentar mais um montão isso é o comportamento normal.
+
+34
+00:03:08,370 --> 00:03:14,150
+Você pode sim se quiser forçar um Audi colocar isso sem problema nenhum mesmo carro por sinal de incremento
+
+35
+00:03:14,160 --> 00:03:20,760
+você pode colocar no E7 o campo aí mais você usa um Audi lá pra frente ele não vai se preocupar em usar
+
+36
+00:03:20,760 --> 00:03:27,030
+esses intermediários simplesmente vai sempre pegar novos valores sempre maior do que o último Audi que
+
+37
+00:03:27,030 --> 00:03:27,810
+foi fornecido.
+
+38
+00:03:27,810 --> 00:03:36,030
+Claro que se você de forma manual quiser colocar por exemplo o Audi 34 de 40 qualquer entre 33 e mil
+
+39
+00:03:36,150 --> 00:03:42,600
+você vai ter sim essa possibilidade mas de forma automática seja gerando o valor alto incrementado ele
+
+40
+00:03:42,600 --> 00:03:45,440
+sempre vai pegar o maior valor e acrescenta mais um.
+
+41
+00:03:45,480 --> 00:03:49,090
+Agora sim na próxima aulas vamos ver o Camaro delete e espero lá.

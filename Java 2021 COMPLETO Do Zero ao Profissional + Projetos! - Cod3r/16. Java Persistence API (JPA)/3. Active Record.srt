@@ -1,0 +1,223 @@
+1
+00:00:00,370 --> 00:00:07,260
+Só sei que esse aqui não uso de outras linguagem às vezes alguns alunos reclamam coxa tu tá ministrando
+
+2
+00:00:07,260 --> 00:00:13,720
+um curso de Python e fala sobre JavaScript e está ministrando o curso de Java e fala sobre PHP.
+
+3
+00:00:13,740 --> 00:00:21,060
+é muito interessante você entender que conhecer múltiplas linguagens de programação vai agregar muito
+
+4
+00:00:21,060 --> 00:00:24,170
+mais valor pra você do que propriamente atrapalhar obviamente.
+
+5
+00:00:24,270 --> 00:00:28,520
+No começo ele quando você está aprendendo a primeira linguagem de programação é interessante você você
+
+6
+00:00:28,520 --> 00:00:35,340
+ter um certo nível de aprofundamento pra entender os conceitos mais olhar pro olhamos assim pro jardim
+
+7
+00:00:35,340 --> 00:00:41,400
+do vizinho também interessa pra você pegar algumas ideias vê alguns bons padrões que podem surgir a
+
+8
+00:00:41,400 --> 00:00:47,790
+partir de outras linguagens e um deles é exatamente o Active com o Java mas vamos lá olhar rapidamente
+
+9
+00:00:47,790 --> 00:00:52,980
+para o jardim do vizinho pra gente ver como isso é feito pra você ter uma ideia mais ou menos aqui e
+
+10
+00:00:52,980 --> 00:00:57,230
+outra linguagem de programação obviamente a herança é feita de outra forma.
+
+11
+00:00:57,240 --> 00:01:01,680
+Certo Se em termo de sintaxe mais só pra você entender mais ou menos o que é que eu estou falando.
+
+12
+00:01:01,780 --> 00:01:07,020
+Não estou me referindo a esse padrão de projeto aqui como eu falei pra vocês vocês vão criar uma classe
+
+13
+00:01:07,020 --> 00:01:14,220
+assim como a gente cria em Java e você vai herdar uma classe chamada Application o acordo ou seja registro
+
+14
+00:01:14,220 --> 00:01:19,970
+de aplicação a partir do momento que você tem essa herança que você está definindo um bloco de uma classe.
+
+15
+00:01:20,280 --> 00:01:26,940
+Você acabou de definir uma série de funcionarios acabou de receber melhor dizendo uma série de funcionalidades
+
+16
+00:01:26,940 --> 00:01:27,960
+por padrão.
+
+17
+00:01:27,960 --> 00:01:35,060
+Por que você está rodando Application e essa classe produto vai estar relacionado digamos assim como
+
+18
+00:01:35,060 --> 00:01:38,750
+a tabela do banco de dados chamado produtos no plural certo.
+
+19
+00:01:38,790 --> 00:01:44,390
+E aí se você desceu um pouquinho mais você vai ver que aqui você tem como por exemplo Por padrão ele
+
+20
+00:01:44,490 --> 00:01:48,960
+ele usa o conceito de convenções e o que é uma convenção.
+
+21
+00:01:49,050 --> 00:01:51,900
+Ele tem um comportamento padrão quando você não diz nada.
+
+22
+00:01:52,200 --> 00:01:58,830
+Então por exemplo por padrão quando você cria uma classe chamada produto no singular ele vai assumir
+
+23
+00:01:58,830 --> 00:02:04,380
+por padrão que o número da tabela é produto ou seja produtos no plural ou seja ele já vai adicionar
+
+24
+00:02:04,380 --> 00:02:07,830
+um s pra você no final mesmo que você não fale nada.
+
+25
+00:02:07,830 --> 00:02:12,410
+Por convenção ele vai acabar usando esse padrão mas eu não vou entrar no mérito.
+
+26
+00:02:12,420 --> 00:02:17,420
+Aqui tem como você dizer por exemplo o nome da tabela de forma explícita o nome não é produto sim mais
+
+27
+00:02:17,420 --> 00:02:19,030
+mais lá em produtos.
+
+28
+00:02:19,170 --> 00:02:24,240
+E aí você consegue fazer isso mas eu quero descer um pouco mais especificamente essa parte do crude
+
+29
+00:02:24,250 --> 00:02:28,300
+médio o White updates de lixo para a gente tem.
+
+30
+00:02:28,590 --> 00:02:36,240
+Nesse caso o fato de produto ou usuário que já no outro exemplo ele receber vários métodos a partir
+
+31
+00:02:36,240 --> 00:02:40,940
+de Application o acordo faz com que você chame e usa ponto o cliente.
+
+32
+00:02:41,010 --> 00:02:43,830
+Aí ele vai você vai passar os dados ele vai criar.
+
+33
+00:02:43,830 --> 00:02:48,930
+Você pode por exemplo criar aqui um novo usuário que ele está simplesmente criando um novo e depois
+
+34
+00:02:48,930 --> 00:02:50,280
+você pode chamar e usar.
+
+35
+00:02:50,280 --> 00:02:50,640
+Ponto.
+
+36
+00:02:50,640 --> 00:02:56,610
+Sei que ele vai mandar esse dado lá para o banco de dados eu quero obter todos os usuários do banco
+
+37
+00:02:56,940 --> 00:02:58,520
+e usar pontual.
+
+38
+00:02:58,550 --> 00:03:04,830
+Quero obter o primeiro usuário e usar ponto fora e usar ponto faixa Bay.
+
+39
+00:03:04,910 --> 00:03:10,650
+Aí você passa por exemplo o nome ele vai fazer uma pesquisa e procurar aquele usuário a partir do critério
+
+40
+00:03:10,650 --> 00:03:11,520
+que você passou.
+
+41
+00:03:11,630 --> 00:03:20,040
+E você tem vários aqui por exemplo e uso boto o Nem e ocupação igual a isso ordenando pela data de criação
+
+42
+00:03:20,040 --> 00:03:21,070
+de forma descendente.
+
+43
+00:03:21,070 --> 00:03:23,380
+Então você tem uma série de flexibilidade.
+
+44
+00:03:23,670 --> 00:03:29,490
+Você pode obter o usuario alterar ele mandar salvar o que ele faz um update te excluir.
+
+45
+00:03:29,490 --> 00:03:34,980
+Você pode obter o usuário pelo nome e depois chamar um Destroy que ele vai gerar exclusão no banco de
+
+46
+00:03:34,980 --> 00:03:39,930
+dados e então tem várias funcionalidades aqui que estão disponíveis dentro do Active no século.
+
+47
+00:03:39,940 --> 00:03:45,420
+Eu gravei essa aula extra que eu não estava planejando só pra não deixar em branco marchar pra vocês
+
+48
+00:03:45,420 --> 00:03:45,960
+algum exemplo.
+
+49
+00:03:45,960 --> 00:03:51,600
+Muitas pessoas não vão parar para olhar como é o padrão na internet então só pra deixar rapidinho registrado
+
+50
+00:03:51,600 --> 00:03:58,140
+aqui que existe esse padrão e não é pra extensão não é o padrão que nós vamos usar nesse módulo do curso
+
+51
+00:03:58,460 --> 00:03:58,820
+certo.
+
+52
+00:03:58,840 --> 00:04:04,980
+Não conheço nenhuma grande implementação de destaque desse padrão no mundo Java até sei que tem eu não
+
+53
+00:04:04,980 --> 00:04:10,920
+pesquisei recentemente já faz um tempo como pesquiso mas sem dúvida a implementação padrão de mercado
+
+54
+00:04:11,240 --> 00:04:17,060
+é o um Data Mapping com o JP a principalmente usando a implementação do IBM NET.
+
+55
+00:04:17,220 --> 00:04:21,330
+Então é isso que nós vamos ver aqui no nosso capitão de espero na próxima pra gente aprofundar um pouquinho
+
+56
+00:04:21,360 --> 00:04:24,420
+data mapa e também no mapeamento objeto relacional.

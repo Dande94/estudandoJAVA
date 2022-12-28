@@ -1,0 +1,22 @@
+package controle;
+
+import java.util.Scanner;
+
+public class WhileIndeterminado {
+	public static void main(String[] args) {
+//minha tentativa
+		Scanner entrada = new Scanner(System.in);
+		boolean verificador = true;
+		
+		while(verificador) {
+			String texto = entrada.next();
+			if(texto.equalsIgnoreCase("sair")) {
+				verificador = false;
+			}
+		}
+		entrada.close();
+		
+		
+	}
+
+}

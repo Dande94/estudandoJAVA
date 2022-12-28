@@ -1,0 +1,127 @@
+1
+00:00:00,270 --> 00:00:04,010
+Pessoal mostrando para vocês a resposta do nosso desafio.
+
+2
+00:00:04,020 --> 00:00:07,950
+Primeiro vou entrar um produto e eu vou tirar isso aqui né.
+
+3
+00:00:07,980 --> 00:00:13,550
+Foi em dezembro passado não é para ter deixado esquecido tirar mais uma ou qualquer outra.
+
+4
+00:00:13,650 --> 00:00:16,740
+E aí tirando só lembrando que aqui encontrou ali.
+
+5
+00:00:16,780 --> 00:00:26,490
+Eu já tinha tirado o telemóvel aqui eu vou colocar um Tá bom vou chamar de preço e vou criar também
+
+6
+00:00:26,610 --> 00:00:34,100
+outro atributo pra eles dado que o placar aqui como sendo um desconto aproveitar que eu já tinha criado
+
+7
+00:00:34,160 --> 00:00:42,870
+o construtor então vou colocar que vai pagar esse construtor e vou criar chutou e considero os outros
+
+8
+00:00:42,870 --> 00:00:44,340
+campos né.
+
+9
+00:00:44,350 --> 00:00:55,230
+Ao menos vendi nome para esse desconto gerais chutou e vou gerar aqui os métodos betas certas.
+
+10
+00:00:55,410 --> 00:01:02,880
+Vou colocar aqui pra ele gerar os métodos que estão faltando em sete anos nós temos desconto o preço
+
+11
+00:01:03,030 --> 00:01:11,540
+gerou vou formatar nosso código pronto atualizou nosso produto inclusive para os impostos.
+
+12
+00:01:11,550 --> 00:01:15,340
+Com isso vamos precisar receber novos parâmetros aqui.
+
+13
+00:01:15,990 --> 00:01:25,470
+Então além de ter o nome de colocar em vigor e quais para eu vou receber um bom preço.
+
+14
+00:01:26,010 --> 00:01:39,270
+E por último um bom desconto e aí vou passar e não li preço e desconto não alterou o meu observo sim
+
+15
+00:01:39,400 --> 00:01:41,330
+ao terei a minha entidade.
+
+16
+00:01:41,460 --> 00:01:48,890
+Ele já mudou automaticamente alterou o banco de dados se a gente olhar lá no banco de dados e ver aqui
+
+17
+00:01:48,960 --> 00:02:01,050
+um refresh você vai ver que na tabela produto nós temos a Lei de nome desconto de preço significa que
+
+18
+00:02:01,050 --> 00:02:12,970
+aqui eu vou colocar além do nome o preço pede isso lá outro está aí em 4 mil e 98 desconto pede pra
+
+19
+00:02:12,970 --> 00:02:14,820
+ser zero ponto.
+
+20
+00:02:14,910 --> 00:02:24,130
+Isso desconto não vou salvar é esperado que venham a resposta já com o preço e com desconto então de
+
+21
+00:02:24,150 --> 00:02:24,750
+7.
+
+22
+00:02:25,350 --> 00:02:31,440
+Eu vim aqui selecionar o produto vários produtos vai ficar com o valor zerado e o preço dará porque
+
+23
+00:02:31,440 --> 00:02:38,100
+a gente inseriu antes de colocar esses atributos mais no caso que pede já pelo desconto de 15 e o valor
+
+24
+00:02:38,250 --> 00:02:47,790
+de 4 1987 para um valor que é a gente pode também colocar por exemplo 9 9 e colocar aqui por exemplo
+
+25
+00:02:47,870 --> 00:03:03,120
+um iPhone e outro que vai ter 0 0 5 5 desconto enviando um outro produto cadastrada que você vai ver
+
+26
+00:03:03,120 --> 00:03:10,550
+aqui outro produto também tem preço tem desconto e tem um nome tem gerado automaticamente.
+
+27
+00:03:10,560 --> 00:03:17,100
+Pronto pessoal ficamos aqui no final da resposta do nosso desafio Super Simples adicionamos dois atributos
+
+28
+00:03:17,100 --> 00:03:19,480
+e alteramos o nosso controle.
+
+29
+00:03:19,500 --> 00:03:24,660
+Do ponto de vista do repositório nós não precisamos fazer nada porque ele vai conseguir persistir sem
+
+30
+00:03:24,660 --> 00:03:25,430
+problema nenhum.
+
+31
+00:03:25,770 --> 00:03:30,660
+Então fique por aqui na próxima nós vamos fazer uma pequena mudança que vai tornar o nosso código mais
+
+32
+00:03:30,660 --> 00:03:33,420
+simples mas eu vou deixar para fazer isso na próxima.

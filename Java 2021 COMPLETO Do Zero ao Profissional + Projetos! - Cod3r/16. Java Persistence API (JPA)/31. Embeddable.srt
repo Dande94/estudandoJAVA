@@ -1,0 +1,279 @@
+1
+00:00:00,600 --> 00:00:02,600
+Pessoal a orientação a objeto.
+
+2
+00:00:02,630 --> 00:00:08,130
+Ela tem uma série de recursos digamos assim pra você promover seu uso.
+
+3
+00:00:08,130 --> 00:00:09,900
+Nós temos dois mecanismos.
+
+4
+00:00:09,930 --> 00:00:12,760
+Nós temos a composição e a herança.
+
+5
+00:00:12,750 --> 00:00:19,220
+Eu vou mostrar pra vocês Nassau como é que a gente pode mapear a composição dentro do JP.
+
+6
+00:00:19,260 --> 00:00:25,280
+Como a gente pode ter por exemplo um certo rio uso e isso refletiu no banco de dados.
+
+7
+00:00:25,280 --> 00:00:27,480
+é uma forma digamos assim interessante.
+
+8
+00:00:27,510 --> 00:00:32,040
+Então a partir da notação bad bank nós vamos criar entidades.
+
+9
+00:00:32,040 --> 00:00:37,820
+Nós vamos criar uma classe marcada com um bad boy entender o que é que vai acontecer no banco de dados.
+
+10
+00:00:37,830 --> 00:00:41,520
+Eu criei o pacote dentro de um modelo chamado composição.
+
+11
+00:00:41,730 --> 00:00:44,790
+Então vou colocar um pacote aqui.
+
+12
+00:00:44,910 --> 00:00:54,640
+Modelo ponto de lição e nós vamos criar três classes aqui dentro a primeira classe C endereço endereço
+
+13
+00:00:55,250 --> 00:00:56,260
+a outra classe.
+
+14
+00:00:56,250 --> 00:00:57,980
+Vai ser fornecedor.
+
+15
+00:00:58,860 --> 00:01:07,680
+Então qualquer que a classe um fornecedor e finalmente nós vamos criar uma outra classe que eu chamei
+
+16
+00:01:07,680 --> 00:01:08,800
+de funcionário.
+
+17
+00:01:08,810 --> 00:01:15,660
+Não vai ser que nenhum funcionário para outro funcionário vai ser uma entidade.
+
+18
+00:01:15,810 --> 00:01:27,550
+Posso colocar até um arroba chegou pra dizer que o nome da tabela vai ser funcionários facilmente funcionários
+
+19
+00:01:28,120 --> 00:01:40,590
+ou fazem a mesma coisa aqui BRA fornecedor choca arruma tempo vai ser os fornecedores da empresa a vou
+
+20
+00:01:41,210 --> 00:01:46,070
+aqui vai longe.
+
+21
+00:01:46,190 --> 00:01:58,380
+Aí ficou marcado com o banho de janeiro de velho estrategia e da TI vou criar um nome que também esteve
+
+22
+00:01:58,650 --> 00:02:05,710
+na OMNI e vou também copiar essas informações de funcionários legal.
+
+23
+00:02:06,210 --> 00:02:13,950
+Vamos supor que tanto funcionário como fornecedor tenham um atributo endereço que definiu um endereço
+
+24
+00:02:13,950 --> 00:02:21,200
+genérico aqui bem simples tal definir aqui um monstrinho de Logradouro.
+
+25
+00:02:21,210 --> 00:02:28,330
+Vou definir outras string que vai ser o complemento.
+
+26
+00:02:29,220 --> 00:02:37,530
+E aí eu tenho outros outras informações por exemplo cidade em O Estado o seu sépia e outras coisas que
+
+27
+00:02:37,530 --> 00:02:40,670
+você queira colocar pra colocar um endereço bem completo.
+
+28
+00:02:40,770 --> 00:02:42,100
+Era só esses dois aqui.
+
+29
+00:02:42,570 --> 00:02:54,240
+Então vou colocar aqui um método GET 7 selecionar os dois e vou querer jogar isso pra dentro.
+
+30
+00:02:55,110 --> 00:02:58,130
+Está de fornecedor então um fornecedor.
+
+31
+00:02:59,110 --> 00:03:09,080
+Então vai ter um endereço e um funcionário também tem um atributo endereço.
+
+32
+00:03:09,080 --> 00:03:10,580
+Só que tem uma questão.
+
+33
+00:03:10,850 --> 00:03:17,620
+Eu não tenho uma tabela de endereços eu coloco essas informações diretamente dentro da tabela do funcionário
+
+34
+00:03:17,660 --> 00:03:22,110
+coloca as informações diretamente dentro da tabela de fornecedor.
+
+35
+00:03:22,460 --> 00:03:27,410
+Então para isso você pode colocar a anotação arroba em Bad bom.
+
+36
+00:03:27,740 --> 00:03:35,960
+Ou seja isso aqui vai ser colocado dentro da tabela de um fornecedor de usuário um vez que você marca
+
+37
+00:03:36,050 --> 00:03:37,000
+um bad boy.
+
+38
+00:03:37,370 --> 00:03:43,940
+A gente vai pegar esse nome e colocar dentro do sistema esse ponto XML.
+
+39
+00:03:43,940 --> 00:03:54,290
+Vou criar uma nova classe então classe vou parar aqui só para aproveitar aqui o nome substituir porque
+
+40
+00:03:54,280 --> 00:03:59,470
+pode ter um modelo de composição ponto endereço também tem declarado.
+
+41
+00:03:59,480 --> 00:04:07,010
+Além de fornecedor e funcionário então voltando lá persiste esse expondo XML eu coloca aqui mais dois
+
+42
+00:04:07,010 --> 00:04:11,220
+que você fornecedor e
+
+43
+00:04:14,170 --> 00:04:16,240
+chama a área.
+
+44
+00:04:16,370 --> 00:04:26,420
+Nós temos as três classes uma vez que definir o nome o endereço bolso será que o construtor auxiliará
+
+45
+00:04:26,420 --> 00:04:27,830
+os métodos de sete.
+
+46
+00:04:27,860 --> 00:04:35,960
+Eu não vou gerar dados não vou ter esse chip nada nessas tabelas mais só o fato de elas existirem vai
+
+47
+00:04:35,960 --> 00:04:37,780
+fazer com que o J.
+
+48
+00:04:38,390 --> 00:04:42,150
+Crie para a gente o nosso nosso modelo naquilo lá.
+
+49
+00:04:42,160 --> 00:04:48,930
+O banco de dados gera DDR que dava definição leigos em geral na verdade que geraram os grandes séries
+
+50
+00:04:49,360 --> 00:05:02,110
+de será que os métodos pétreas setas seleccionar tudo pra gerar saldo que é salvar também um fornecedor
+
+51
+00:05:02,770 --> 00:05:04,990
+formatado pronto.
+
+52
+00:05:05,000 --> 00:05:08,710
+Nós temos as três classes aqui endereço fornecedor funcionário.
+
+53
+00:05:09,110 --> 00:05:16,440
+Então eu tenho esses atributos os logradouro e complemento dentro de endereço marquei ele como bad boy
+
+54
+00:05:16,970 --> 00:05:23,660
+e coloquei aqui e Note que nesse caso aqui eu não coloquei nenhum arroubo ou até mim jogar qualquer
+
+55
+00:05:24,230 --> 00:05:26,120
+tipo de relacionamento.
+
+56
+00:05:26,480 --> 00:05:31,580
+Não porque não é uma tabela diferente ele vai pegar os atributos que estão dentro de endereço e vai
+
+57
+00:05:31,580 --> 00:05:36,170
+jogar diretamente dentro das tabelas né fornecedores e funcionários.
+
+58
+00:05:36,530 --> 00:05:40,390
+Então ele pode executar qualquer outra consulta que a gente fez anteriormente.
+
+59
+00:05:40,860 --> 00:05:48,200
+Já que joguei aqui recentemente obteve média do filme.
+
+60
+00:05:48,390 --> 00:05:55,650
+Então se usa ataque como base só o JP vai criar tabelas só criou e executou de forma bem sucedida oito
+
+61
+00:05:55,650 --> 00:05:56,720
+pontos cinco.
+
+62
+00:05:56,850 --> 00:06:05,120
+E se a gente olhar o resultado ele gerou mais uma tabela que furar a tabela de funcionários fornecedores
+
+63
+00:06:05,120 --> 00:06:12,660
+olhando aqui aos fornecedores eu tenho aí um homem completamente logradouro da mesma forma que um funcionário
+
+64
+00:06:12,710 --> 00:06:19,520
+eu tenho aqui ou ali de nome logradouro e complemento.
+
+65
+00:06:19,520 --> 00:06:26,740
+Então essa é a forma que você tem de pegar os dados que estão dentro de um órgão de uma classe e assinando
+
+66
+00:06:26,750 --> 00:06:32,540
+um embargo e esses dados podem ser compartilhados por várias tabelas não necessariamente a partir de
+
+67
+00:06:32,540 --> 00:06:38,990
+um relacionamento mas a partir de colunas comuns que você vai ter mais de uma tabela pra isso você tem
+
+68
+00:06:39,300 --> 00:06:46,820
+em média então mostramos aqui e você pode se quiser criar um exercício pra de fato você colocar os dados
+
+69
+00:06:46,820 --> 00:06:51,680
+para esse fim lá mas o resto vai ser exatamente igual aquilo que a gente já fez anteriormente não fico
+
+70
+00:06:51,680 --> 00:06:56,400
+por aqui pessoal nessa aula de composição com o JP a e até proximal.

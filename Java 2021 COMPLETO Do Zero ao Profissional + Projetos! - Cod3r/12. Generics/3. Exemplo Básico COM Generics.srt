@@ -1,0 +1,407 @@
+1
+00:00:00,510 --> 00:00:05,110
+Agora vou criar a versão do Exército passados amanhã Genet.
+
+2
+00:00:05,110 --> 00:00:12,490
+Pra você ver a diferença de como vai ser eu vou criar novamente classe nome da classe.
+
+3
+00:00:12,510 --> 00:00:19,000
+Se caixa aí nessa caixa eu vou querer também ter um tipo genérico.
+
+4
+00:00:19,080 --> 00:00:23,350
+Do mesmo jeito vou fazer aqui até o outro exercício.
+
+5
+00:00:23,350 --> 00:00:27,570
+Vou copiar aqui as mesmas funcionalidades e colocar aqui.
+
+6
+00:00:27,690 --> 00:00:36,480
+Só que nesse caso eu vou querer que o tipo desse objetivo que não seja definido diretamente dentro da
+
+7
+00:00:36,480 --> 00:00:42,290
+minha classe eu tenho em três posições até três locais dizendo o tipo Object Object aqui.
+
+8
+00:00:42,390 --> 00:00:47,400
+Logo depois de ter um objeto na hora de passar o parâmetro para guardar e objetos também é o tipo de
+
+9
+00:00:47,400 --> 00:00:49,520
+retorno do método abri.
+
+10
+00:00:49,540 --> 00:00:55,940
+Como faço para substituir isso a primeira coisa é a gente que ensina a definição da classe você colocar
+
+11
+00:00:55,940 --> 00:01:02,880
+aquela anotação dos genéricos o menor do que em maio ok e eu vou definir alguma letra ou um conjunto
+
+12
+00:01:02,880 --> 00:01:09,750
+de letras que vai representar um tipo genérico que vai ser definido não agora na definição da classe
+
+13
+00:01:09,760 --> 00:01:14,220
+mais quando ela for usada ou quando houver uma herança eu vou mostrar pra vocês o exemplo da herança
+
+14
+00:01:14,220 --> 00:01:14,980
+mais na frente.
+
+15
+00:01:15,060 --> 00:01:21,870
+Então basicamente eu posso colocar o que eu quiser posso colocar a letra A posso colocar a letra T eu
+
+16
+00:01:21,870 --> 00:01:28,560
+posso colocar o tipo escrito certo tanto faz do jeito que você achar mais interessante uma vez que eu
+
+17
+00:01:28,560 --> 00:01:37,020
+defini um tipo genérico que eu chamei tipo eu vou substituir a palavra objetos por tipo então você vai
+
+18
+00:01:37,040 --> 00:01:44,850
+ver que tipo coisa que vai guardar uma coisa que foi passada como parâmetro o que tem o tipo que ainda
+
+19
+00:01:44,850 --> 00:01:51,550
+não foi definido e o método abrir vai retornar alguma coisa que tem o tipo que foi definido aqui na
+
+20
+00:01:51,550 --> 00:01:53,280
+anotação de genéricos.
+
+21
+00:01:53,280 --> 00:02:01,350
+Pronto agora eu tenho uma classe genérica que tem o tipo que guarda uma coisa que é do tipo tipo e que
+
+22
+00:02:01,440 --> 00:02:05,120
+retorna também essa coisa e nada do tipo está definida.
+
+23
+00:02:05,130 --> 00:02:12,270
+Quando eu for usar quando for criar uma caixa aí sim eu digo que o tipo Vai ser um extra que o tipo
+
+24
+00:02:12,270 --> 00:02:18,210
+Vai ser um dado ou que o tipo Vai ser um inteiro do tipo mais se uma pessoa da mesma forma que eu estou
+
+25
+00:02:18,300 --> 00:02:25,490
+mostrando que foi definido também na Luz da lista e foi definido também no set foi definido no Mac Pro
+
+26
+00:02:25,530 --> 00:02:31,170
+foi definido no Mac tem uma diferença que tem Chaves falou mas eu vou mostrar mais à frente um exemplo
+
+27
+00:02:31,170 --> 00:02:37,920
+que vai ter mais de um tipo genérico então pra gente agora testar a classe B com uma fica mais fácil
+
+28
+00:02:38,010 --> 00:02:38,930
+de usar.
+
+29
+00:02:39,090 --> 00:02:50,240
+Eu vou criar aqui uma caixa de teste vou criar o método e nós vamos criar uma caixa até criar caixa.
+
+30
+00:02:50,870 --> 00:02:54,020
+Ele já meio que oferece pra mim pra colocar o genérico.
+
+31
+00:02:54,030 --> 00:03:04,590
+Por enquanto eu não vou colocar nada vou chamar algo caixa recebe mil caixa ou qualquer ponto e vírgula.
+
+32
+00:03:04,590 --> 00:03:10,770
+Nesse caso a gente vai conseguir distanciar uma caixa mesmo se definem o tipo genérico mas não é a melhor
+
+33
+00:03:10,770 --> 00:03:14,920
+solução se eu colocar aqui é o caixa a ponto guardar.
+
+34
+00:03:14,960 --> 00:03:21,990
+Você vai ver o tipo de parâmetro que ele vai receber o tipo objetivo que é a raiz de todos os objetos
+
+35
+00:03:22,090 --> 00:03:26,880
+é mais ou menos o que a gente tinha no exemplo passado que a gente criou um objeto óbvio é um atributo
+
+36
+00:03:26,880 --> 00:03:33,590
+objeto que a torna o abre e também retornar ao objeto então abri retornar ao objeto e o guardar tornou
+
+37
+00:03:33,600 --> 00:03:40,290
+objetos então usar a classe que definiu o tipo genérico que você não informal tipo genérico é possível
+
+38
+00:03:40,290 --> 00:03:41,920
+vai gerar advertência.
+
+39
+00:03:42,090 --> 00:03:48,240
+Você pode até colocar o caixa exaltava ele você pode por exemplo colocar um arroubo supra esbórnia e
+
+40
+00:03:48,240 --> 00:03:55,470
+role Tapes ou seja você quer usar o tipo mais genérico e não especificar o tipo mais aqui a gente pode
+
+41
+00:03:55,500 --> 00:04:02,780
+colocar o maior single normal que os símbolos dos genéricos e colocar que eu quero trabalhar com caixa
+
+42
+00:04:02,820 --> 00:04:07,290
+de strings e nada aqui eu posso simplesmente colocar aqui.
+
+43
+00:04:07,350 --> 00:04:12,900
+O operador sem estar com nada escrito por pelo barra inferior que se você colocou estranho aqui você
+
+44
+00:04:12,900 --> 00:04:15,140
+também terá estilingue desse lado.
+
+45
+00:04:15,270 --> 00:04:21,560
+Uma vez feito isso se eu der um contra o espaço que vai acontecer o guarda a recebe como parâmetro um
+
+46
+00:04:21,560 --> 00:04:28,200
+estilingue e eu abri retorna um atributo do tipo string o que é muito interessante porque agora não
+
+47
+00:04:28,200 --> 00:04:34,290
+preciso mais me preocupar nem a questão de passar um valor diferente daquilo que eu espero para aquele
+
+48
+00:04:34,290 --> 00:04:41,070
+objeto não posso mais passar um inteiro bom e também vou receber o retorno sem necessariamente precisar
+
+49
+00:04:41,070 --> 00:04:42,500
+fazer nenhum tipo de cache.
+
+50
+00:04:42,800 --> 00:04:48,720
+é como se no momento que você disse que o genérico era o tipo string o que vai ser feito internamente
+
+51
+00:04:48,720 --> 00:04:51,570
+e tudo o que tem tipo C daqui.
+
+52
+00:04:51,750 --> 00:04:57,300
+Isso aqui selecionar todos os tipos e substituir e com certeza vai substituir daqui vai ter um estilingue
+
+53
+00:04:57,390 --> 00:05:02,760
+aqui vai ter uns 30 e aqui vai ter um estilingue vai ter uns 30 e é exatamente isso que acabou sendo
+
+54
+00:05:02,760 --> 00:05:08,100
+feito na prática porque você definiu um tipo genérico e esse tipo vai ser substituído por aquilo que
+
+55
+00:05:08,100 --> 00:05:15,020
+você especificou se colocar no caixa ponto Haddad eu vou colocar segredo.
+
+56
+00:05:15,810 --> 00:05:20,490
+E finalmente eu vou chamar sistema de Print Alinne caixa.
+
+57
+00:05:20,820 --> 00:05:23,700
+Volto abri o que será exibido.
+
+58
+00:05:23,700 --> 00:05:28,410
+Vai ser exatamente aquilo que você guardou ou seja nesse caso eu não preciso me preocupar.
+
+59
+00:05:28,410 --> 00:05:40,240
+Posso inclusive para ficar mais explícito Ok aqui pois a recebe o que eu recebi já abri e no final eu
+
+60
+00:05:40,240 --> 00:05:47,190
+mostro coisa ano terminal estão sem creche e de uma forma muito mais simples usando genéricos eu posso
+
+61
+00:05:47,190 --> 00:05:48,600
+criar aqui também.
+
+62
+00:05:48,630 --> 00:05:59,770
+Agora duplicar esse código para baixo ou criar uma caixa d o craque uma caixa vê uma coisa bem legal
+
+63
+00:05:59,770 --> 00:06:02,620
+em estado de caixa bem.
+
+64
+00:06:02,670 --> 00:06:07,580
+E finalmente a coisa vc me impressa eu vou mudar isso aqui pra ser do tipo W.
+
+65
+00:06:07,710 --> 00:06:13,200
+Basta mudar em um local e aqui também obviamente o resultado também tem que ser mudado.
+
+66
+00:06:13,290 --> 00:06:20,130
+Vai começar daí o de compilação não vou conseguir compilar esse código e mesa tá e aqui eu vou por exemplo
+
+67
+00:06:20,130 --> 00:06:29,140
+passar 3 pontos 14 15 guardei qual o tipo da ABL abri a caixa e recebi um acordo do tipo da Globo e
+
+68
+00:06:29,160 --> 00:06:32,000
+finalmente o console em algum tipo de.
+
+69
+00:06:32,490 --> 00:06:40,320
+Ou seja agora usar os genéricos você consegue definitivos que serão resolvidos em outro momento.
+
+70
+00:06:40,320 --> 00:06:46,840
+Ou seja nesse caso os títulos foram resolvidos no momento que o instancia é um objeto e não no momento
+
+71
+00:06:46,890 --> 00:06:48,330
+de definir a classe.
+
+72
+00:06:48,380 --> 00:06:54,060
+Porque poder no momento que eu definir a classe eu simplesmente dei um valor genérico não é tão comum
+
+73
+00:06:54,090 --> 00:07:00,150
+você acaba vendo assim não é tão comum usar palavras para definir os tipos genéricos normalmente coloca
+
+74
+00:07:00,150 --> 00:07:09,680
+só uma letra então posso colocar a letra T e eu coloco aqui alguma coisa do tipo T recebe alguma coisa
+
+75
+00:07:09,680 --> 00:07:18,600
+também do tipo T retorna algo do tipo T ou seja essa talvez seja a nomenclatura mais comumente encontrado
+
+76
+00:07:18,600 --> 00:07:24,050
+do que propriamente você ter várias letras para representar um tipo genérico não que seja um problema
+
+77
+00:07:24,420 --> 00:07:29,580
+você pode fazer da forma que você achar mais interessante mais o que é encontrado de forma mais costumeira
+
+78
+00:07:29,700 --> 00:07:37,830
+exatamente onde você definiu o tipo usando apenas uma única letra o tipo tem o tipo Alt tipo o X.
+
+79
+00:07:37,870 --> 00:07:44,940
+Se você vai criar algo que é chave e valor você escreve no código em inglês você pode colocar o card
+
+80
+00:07:44,970 --> 00:07:51,810
+para aqui e ver para o velho e velho alguma coisa do tipo se você tiver programar em português colocar
+
+81
+00:07:51,810 --> 00:07:57,940
+letras que correspondam àquilo que você quer referencial mesmo criar uma palavra inteira.
+
+82
+00:07:57,960 --> 00:08:03,090
+Outra coisa assim não é muito comum você colocar com letra minúscula eu pelo menos não lembro de nenhum
+
+83
+00:08:03,090 --> 00:08:11,790
+exemplo embora você consiga fazer e colocar aquele tipo de tipo onde também há possibilidade não vai
+
+84
+00:08:11,790 --> 00:08:17,190
+gerar erro de compilação mas esse é um padrão que eu pessoalmente não lembro de ter encontrado e ter
+
+85
+00:08:17,190 --> 00:08:23,310
+visto nenhum código com essa nomenclatura sim e pessoalmente usando o mesmo a mesma característica do
+
+86
+00:08:23,320 --> 00:08:29,630
+nome de classe mas via de regra é uma letra só então vou acabar mantendo aqui no nossos exercícios também
+
+87
+00:08:29,630 --> 00:08:33,320
+uma letra está mais só para deixar claro que você pode colocar mais uma letra.
+
+88
+00:08:33,480 --> 00:08:39,270
+Você pode colocar tudo em maiúsculo colocar a primeira letra maiúscula e minúscula tudo isso também
+
+89
+00:08:39,660 --> 00:08:45,840
+é suportado sem nenhum tipo de problema o fato é que você define um tipo genérico e esse tipo genérico
+
+90
+00:08:45,840 --> 00:08:51,570
+não foi definido ainda é por isso que genérico é em algum momento você vai precisar resolver esse tipo
+
+91
+00:08:51,570 --> 00:08:56,130
+genérico seja num momento de instancia a classe que é o que aconteceu nesse exemplo.
+
+92
+00:08:56,140 --> 00:09:04,860
+Ou seja quando eu instância hei de colocar aqui quando a instância e a caixa eu defini que esse tipo
+
+93
+00:09:05,620 --> 00:09:13,290
+resolvia na especificava o tipo genérico para extinguir a caixa B especificou o tipo genérico para W.
+
+94
+00:09:13,320 --> 00:09:19,620
+Do ponto de vista de quem usa parece que você está especificando soa estranho você chamar isso essa
+
+95
+00:09:19,640 --> 00:09:20,560
+técnica.
+
+96
+00:09:20,670 --> 00:09:25,280
+Esse recurso da linguagem de genéricos mais o contingente que construiu a classe.
+
+97
+00:09:25,530 --> 00:09:32,460
+Quando você olha para a classe caixa você percebe que foi construído uma classe genérica que tem o tipo
+
+98
+00:09:32,460 --> 00:09:35,680
+que não foi especificado no momento da construção.
+
+99
+00:09:35,810 --> 00:09:41,670
+Alguém específico e aí tudo vai fazer sentido e em todos os locais que tem o tipo T vai ser substituído
+
+100
+00:09:41,670 --> 00:09:48,020
+pelo tipo especificado no momento da instancia ação que é uma das formas que você tem de amarrar o tipo
+
+101
+00:09:48,030 --> 00:09:54,290
+você pode amarrar o tipo na hora distanciar como também você pode amar o tipo na hora de criar uma herança
+
+102
+00:09:54,320 --> 00:09:55,850
+eu vou mostrar isso na proximal.

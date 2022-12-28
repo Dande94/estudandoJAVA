@@ -1,0 +1,467 @@
+1
+00:00:00,300 --> 00:00:06,090
+Agora nós vamos falar dos operadores lógicos é pra você conhecer os operadores lógicos é importante
+
+2
+00:00:06,090 --> 00:00:11,700
+você conhecer um conceito chamado tabela verdade eu vou mostrar rapidamente o conceito de tabela verdade
+
+3
+00:00:11,700 --> 00:00:12,950
+para você está certo.
+
+4
+00:00:12,990 --> 00:00:15,420
+Vou criar aqui um exemplo simples do cotidiano.
+
+5
+00:00:15,430 --> 00:00:19,840
+Depois a gente vai mostrar isso na prática e depois vamos fazer um desafio para que vocês possam ver
+
+6
+00:00:19,840 --> 00:00:22,020
+se esse conhecimento foi realmente assimilado.
+
+7
+00:00:22,020 --> 00:00:26,520
+é também uma excelente oportunidade de aprender e nem sempre você tem de fazer um desafio mesmo não
+
+8
+00:00:26,520 --> 00:00:31,490
+conseguindo ver um resultado que ajuda a consolidar mais o conhecimento estavam lá.
+
+9
+00:00:31,530 --> 00:00:36,930
+Imagine que você vai fazer e passear no shopping ou você quer comprar alguma coisa no shopping só que
+
+10
+00:00:36,930 --> 00:00:40,430
+tem algumas condições para que você vá pro shopping por exemplo.
+
+11
+00:00:40,440 --> 00:00:46,080
+Então por que a primeira condição para você ir pro shopping é que você tem que ter dinheiro no banco
+
+12
+00:00:46,080 --> 00:00:47,970
+pra você fazer a compra que você quer.
+
+13
+00:00:48,220 --> 00:00:50,850
+E a segunda condição pra você ir pelo shopping.
+
+14
+00:00:50,850 --> 00:00:52,740
+O sol tem que estar brilhando lá fora.
+
+15
+00:00:52,750 --> 00:00:57,300
+Então vou desenhar aqui um só quero colocar aqui o sol brilhando.
+
+16
+00:00:57,300 --> 00:00:59,670
+Ou seja precisa ter as duas condições.
+
+17
+00:00:59,670 --> 00:01:05,640
+Nesse caso eu vou comentar com vocês a tabela verdade do que é certo em Java.
+
+18
+00:01:05,640 --> 00:01:12,270
+A gente usa aquele símbolo comercial certo duas vezes que é uma operação lógica para definir lo está
+
+19
+00:01:12,270 --> 00:01:18,930
+muito bonito que o comercial não mais ele usa esse duplo é comercial certo e comercial.
+
+20
+00:01:19,030 --> 00:01:24,750
+é uma operação bicha bicha não vou comentar muito aqui mas ele vai focar no operador lógico pra que
+
+21
+00:01:24,750 --> 00:01:27,330
+a gente possa comentar do operador lógico aí.
+
+22
+00:01:27,630 --> 00:01:33,830
+Então nesse caso a gente vai trabalhar tabela verdade aí em cima dessas duas condições você vai querer
+
+23
+00:01:33,830 --> 00:01:39,360
+ir no shopping fazer uma compra mas você só vai ao sítio da Guia no barco e se tiver ensolarado se tiver
+
+24
+00:01:39,360 --> 00:01:44,790
+dinheiro no banco estiver chovendo você não vai se tiver sem dinheiro no banco estivesse com sol você
+
+25
+00:01:44,790 --> 00:01:49,890
+vai ficar em casa e só vai em uma condição que é se tiver dinheiro no banco estiver ensolarado.
+
+26
+00:01:50,370 --> 00:01:58,170
+Então colocando aqui a tabela verdade sim você tem dinheiro no banco é verdadeiro e você viu que o céu
+
+27
+00:01:58,170 --> 00:02:04,040
+está ensolarado ou seja qualquer verde também certo viu que o céu está ensolarado.
+
+28
+00:02:04,050 --> 00:02:11,680
+O resultado dessa operação é verdadeiro ou seja verdadeiro e verdadeiro restará verdadeiro.
+
+29
+00:02:11,730 --> 00:02:20,860
+Se você tem dinheiro no banco verdadeiro e você viu que o céu não está ensolarado ou seja falso.
+
+30
+00:02:21,040 --> 00:02:24,430
+Esse tipo de operação usando é verdadeiro e falso.
+
+31
+00:02:24,450 --> 00:02:26,430
+O resultado é falso.
+
+32
+00:02:26,430 --> 00:02:31,500
+Em outras palavras você não irá pro shopping porque não está com sol.
+
+33
+00:02:31,500 --> 00:02:38,280
+Nas outras situações também você não vai pro shopping se você estiver sem dinheiro e o comercial estiver
+
+34
+00:02:39,000 --> 00:02:39,970
+com sol.
+
+35
+00:02:39,990 --> 00:02:47,190
+O resultado vai ser falso também porque você não tem dinheiro você precisa ter dinheiro é preciso estar
+
+36
+00:02:47,190 --> 00:02:50,260
+ensolarado e finalmente o cenário mais trágico.
+
+37
+00:02:50,280 --> 00:02:53,880
+Você não tem dinheiro e está chovendo.
+
+38
+00:02:53,880 --> 00:02:55,770
+O resultado será falso.
+
+39
+00:02:55,770 --> 00:03:03,960
+Certo Ou seja essa é a tabela verdade do verdadeiro e Verdadeiro Verdadeiro verdadeiro e falso e falso
+
+40
+00:03:03,960 --> 00:03:08,340
+falso e verdadeiro falso e falso falso e falso.
+
+41
+00:03:08,430 --> 00:03:14,730
+Ou seja se você souber primeiro o cenário que nos dois primeiros que eu restar é falso.
+
+42
+00:03:14,730 --> 00:03:21,510
+Você nem precisa olhar a segunda parte você já sabe que o resultado da expressão será falso porque sempre
+
+43
+00:03:21,510 --> 00:03:25,240
+que tem um falso dentro de uma expressão e o resultado será falso.
+
+44
+00:03:25,690 --> 00:03:33,510
+Então quer dizer se eu tiver Verdadeiro Verdadeiro Verdadeiro Verdadeiro o verdadeiro e Verdadeiro Verdadeiro
+
+45
+00:03:33,510 --> 00:03:39,840
+Verdadeiro e tiver apenas um final falso o resultado será falso.
+
+46
+00:03:39,840 --> 00:03:43,540
+Século que atrofia as coisas na o lema Não Estado será falso.
+
+47
+00:03:43,610 --> 00:03:49,800
+Basta ter um falso dentro de uma expressão maior com vários verdadeiros que você vai chegar num estado
+
+48
+00:03:49,800 --> 00:03:50,280
+falso.
+
+49
+00:03:50,280 --> 00:03:56,690
+Por outro lado temos um cenário que seria a tabela verdade do certo.
+
+50
+00:03:57,540 --> 00:04:03,400
+Ou então em Java a gente usa o duplo Pay Pink aqueles símbolos verticalmente no jargão nem a barra de
+
+51
+00:04:03,400 --> 00:04:06,160
+um lado nem do hotel Amado meio século vertical.
+
+52
+00:04:06,530 --> 00:04:11,330
+E aí o alvo seria o seguinte você vai para o shopping e eu coloquei aqui em vermelho então coloquei
+
+53
+00:04:11,330 --> 00:04:12,120
+em vermelho também.
+
+54
+00:04:12,450 --> 00:04:20,040
+Então você vai para o shopping se tiver dinheiro ou se estiver ensolarado porque você pode ir pro shopping
+
+55
+00:04:20,040 --> 00:04:21,060
+só para passear.
+
+56
+00:04:21,060 --> 00:04:23,070
+6 de manhã ensolarada você vai pro shopping.
+
+57
+00:04:23,520 --> 00:04:29,980
+Então o que significa só o próximo passo mais rápido então verdadeiro vou colocar aqui como falso mas
+
+58
+00:04:29,990 --> 00:04:39,180
+o que era verdadeiro tão verdadeiro verdadeiro verdadeiro ou falso falso e verdadeiro e finalmente falso
+
+59
+00:04:39,320 --> 00:04:40,350
+e falso.
+
+60
+00:04:40,440 --> 00:04:46,090
+Aqui eu tenho o certo em todos os casos tenho operação do tipo.
+
+61
+00:04:46,500 --> 00:04:52,620
+Nesse caso o resultado se vocês descobrem pela prática é pela própria vida real.
+
+62
+00:04:52,620 --> 00:04:58,860
+Então se eu digo que vai ser uma ou outra é verdadeiro ou verdadeiro o resultado vai dar verdadeiro
+
+63
+00:04:59,190 --> 00:05:03,010
+verdadeiro o cara tem dinheiro mas está chovendo Mas ele precisa comprar alguma coisa.
+
+64
+00:05:03,010 --> 00:05:08,540
+Mesmo assim ele vai que o Estado vai ser verdadeiro se ele vai pelo shopping mesmo sem dinheiro só para
+
+65
+00:05:08,540 --> 00:05:10,670
+passear porque ele está ensolarado.
+
+66
+00:05:10,670 --> 00:05:16,400
+O resultado vai dar verdadeiro e único cenário que ele não vai para o shopping quando ele não tem dinheiro
+
+67
+00:05:16,430 --> 00:05:22,760
+está chovendo e o resultado vai dar falso ou seja o contrário do ir nesse sentido se você tiver uma
+
+68
+00:05:22,760 --> 00:05:30,590
+expressão que é falsa falsa falsa falsa falsa é apenas um verdadeiro.
+
+69
+00:05:30,590 --> 00:05:40,340
+Se você tiver aqui ou certo o resultado dessa expressão aqui vai dar o que veio porque basta aqui um
+
+70
+00:05:40,760 --> 00:05:45,770
+dos elementos da expressão ser verdadeiro é que o resultado final vai verdadeiro sempre que você estiver
+
+71
+00:05:45,770 --> 00:05:52,220
+trabalhando com o mal ou outra tabela verdade que exige algum exclusivo.
+
+72
+00:05:52,220 --> 00:06:00,410
+Por exemplo eu vou comprar apenas um carro sei lá um civil cívico como comprar um Celta ou comprar um
+
+73
+00:06:00,410 --> 00:06:01,350
+dos dois.
+
+74
+00:06:01,820 --> 00:06:04,700
+Então você não vai comprar o Civic e o Celta.
+
+75
+00:06:04,700 --> 00:06:10,220
+E você também não vai deixar de comprar o carro você vai comprar um ou dependendo da situação.
+
+76
+00:06:10,310 --> 00:06:12,460
+Então você vai lá e coloca por exemplo.
+
+77
+00:06:12,470 --> 00:06:20,900
+Nesse caso colocar aqui um carrão um carro dois que seriam as minhas duas condições um carro um carro
+
+78
+00:06:20,900 --> 00:06:28,000
+dois e eu vou comprar um ou exclusivo no caso de Java e que a gente chama isso aqui fora.
+
+79
+00:06:28,220 --> 00:06:36,920
+O alvo seria o Hornet que seria em inglês e que o isso seria o certo que aqui é o é comercial e aqui
+
+80
+00:06:36,920 --> 00:06:45,070
+no caso os dois pais e nós temos o shopping em Java o símbolo exclusivo e o circunflexo certo.
+
+81
+00:06:45,080 --> 00:06:54,620
+Então se você colocar por exemplo aqui qualquer tabela verdade é verdadeiro verdadeiro verdadeiro e
+
+82
+00:06:54,620 --> 00:06:57,600
+falso falso e verdadeiro.
+
+83
+00:06:57,600 --> 00:07:02,030
+E no final nós temos falso e falso aqui os resultados.
+
+84
+00:07:02,060 --> 00:07:08,790
+E nós temos aqui uma operação do tipo algo exclusivo ou exclusivo aqui.
+
+85
+00:07:08,820 --> 00:07:15,710
+Certo é possível no problema que foi exposto pra vocês com relação aos dois causo CIB que é um certo
+
+86
+00:07:15,710 --> 00:07:17,740
+certo Cid que é o caminho certo do carro.
+
+87
+00:07:17,750 --> 00:07:23,200
+2 é possível comparar os dois é possível dar verdadeiro e verdadeiro restaram vai ser verdadeiro não
+
+88
+00:07:23,200 --> 00:07:27,740
+não é porque é exclusivamente ou não pode ser os dois verdadeiros.
+
+89
+00:07:27,740 --> 00:07:34,760
+Então nesse caso o resultado vai dar falso ou seja verdadeiro ou exclusivo verdadeiro o resultado é
+
+90
+00:07:35,090 --> 00:07:38,270
+falso verdadeiro ou exclusivo falso.
+
+91
+00:07:38,270 --> 00:07:45,590
+O resultado é verdadeiro porque é possível que essa situação seja comprar o Civic falso ou exclusivo
+
+92
+00:07:45,590 --> 00:07:51,500
+verdadeiro o resultado vai dar verdadeiro porque é possível que seja comprado o carro 2 e finalmente
+
+93
+00:07:51,500 --> 00:07:54,650
+falso ou exclusivo falso o resultado é falso.
+
+94
+00:07:54,650 --> 00:08:03,230
+Nesse cenário apenas quando você tem exclusivamente ou que é verdadeiro e nesse caso o que dirá os dois
+
+95
+00:08:03,230 --> 00:08:05,980
+verdadeiros lesada falso os dois são falsos.
+
+96
+00:08:05,990 --> 00:08:07,690
+Resultado falso.
+
+97
+00:08:07,940 --> 00:08:10,170
+Esse aqui é a tabela verdade exclusivo.
+
+98
+00:08:10,370 --> 00:08:12,020
+Fizemos da tabela verdade do UOL.
+
+99
+00:08:12,410 --> 00:08:20,430
+E finalmente o que está faltando é a negação quando você tem o verdadeiro e você nega que seriam nossos.
+
+100
+00:08:20,510 --> 00:08:22,580
+Ou seja não é verdadeiro.
+
+101
+00:08:22,580 --> 00:08:27,490
+Isso aqui vai dar um resultado falso que é a negação certo.
+
+102
+00:08:27,650 --> 00:08:30,560
+é a mesma coisa se eu colocar aqui né não.
+
+103
+00:08:30,560 --> 00:08:40,670
+Falso note falso o resultado dará verdadeiro certo e em Java o Note é o símbolo da exclamação quando
+
+104
+00:08:40,670 --> 00:08:47,640
+você coloca na frente de uma variável cru por exemplo tem uma variável cru verdadeiro.
+
+105
+00:08:47,750 --> 00:08:51,670
+O resultado não vai dar falso.
+
+106
+00:08:51,680 --> 00:09:00,470
+Da mesma forma que o resultado não falso dar ou seja não falso neutro e falso.
+
+107
+00:09:00,500 --> 00:09:05,540
+E você pode ter também uma dupla negação que no final do com a negação o resultado vai ser o mesmo né.
+
+108
+00:09:05,780 --> 00:09:10,930
+Ele vai inverter duas vezes e o resultado aqui vai ser falso certo.
+
+109
+00:09:11,240 --> 00:09:16,020
+Então só para a gente discutir algumas coisas sobre a tabela verdade falando na negação é simplesmente
+
+110
+00:09:16,020 --> 00:09:22,820
+inverter o verdadeiro para falso Madeiro ou exclusivo exclusivamente show vai ser verdadeiro Verdadeiro
+
+111
+00:09:22,820 --> 00:09:28,900
+Verdadeiro ou falso e falso vai dar falso ou em todas as situações vai dar verdadeiro com exceção com
+
+112
+00:09:28,910 --> 00:09:35,320
+o Falso falso em que uma história falso e no caso do IPI todas as operações e todos os resultados serão
+
+113
+00:09:35,330 --> 00:09:38,920
+falsos a não ser que todos os elementos da expressão sejam verdadeiros.
+
+114
+00:09:38,920 --> 00:09:41,940
+Esse é o único cenário que você vai ter verdadeira.
+
+115
+00:09:42,170 --> 00:09:48,080
+Beleza então essa é a tabela verdade entendendo isso já é um caminho muito grande pra você entender
+
+116
+00:09:48,080 --> 00:09:49,990
+os operadores lógicos na prática.
+
+117
+00:09:50,000 --> 00:09:54,690
+Então fico por aqui aproximar o exercício prático dos operadores lógicos e até lá.

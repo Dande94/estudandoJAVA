@@ -1,0 +1,219 @@
+1
+00:00:00,180 --> 00:00:02,490
+Mais um capítulo nosso curso de Java.
+
+2
+00:00:02,490 --> 00:00:06,440
+Nesse capítulo nós vamos fazer o nosso primeiro projeto.
+
+3
+00:00:06,470 --> 00:00:13,350
+é um projeto que teremos a parte em mãos assim que a entrada do usuário a parte gráfica ainda no terminal
+
+4
+00:00:13,350 --> 00:00:18,360
+usando esse canal e mostrando os dados no console porque pouca gente trabalhou até aqui.
+
+5
+00:00:18,690 --> 00:00:23,660
+Mas a gente vai ver muitos conceitos legais de orientação a objeto nós vamos usar este sonho mas vamos
+
+6
+00:00:23,670 --> 00:00:24,650
+a lambida.
+
+7
+00:00:24,780 --> 00:00:30,270
+Nós vamos usar essa ação que foi uma coisa que a gente já trabalhou até aqui uma nas bases do nosso
+
+8
+00:00:30,270 --> 00:00:31,850
+conhecimento de Java.
+
+9
+00:00:31,900 --> 00:00:37,830
+Um outro aspecto muito interessante muito importante que nós vamos fazer também nesse capítulo eu vou
+
+10
+00:00:37,840 --> 00:00:44,400
+introduzir de forma muito introdutória o conceito de teste unitário já que a gente passou todos os nossos
+
+11
+00:00:44,400 --> 00:00:50,340
+exercícios trabalhando com o método Mei criando a classe criando um metro no meio e executando esse
+
+12
+00:00:50,340 --> 00:00:56,280
+método MEI para testar as funcionalidades e aprender mais sobre o Java nesse capítulo como nós vamos
+
+13
+00:00:56,280 --> 00:00:57,900
+criar um para o jeitinho.
+
+14
+00:00:57,930 --> 00:01:03,990
+Nesse projeto nós teremos apenas um único método no meio e esse método será porta de entrada para nossa
+
+15
+00:01:03,990 --> 00:01:05,130
+aplicação.
+
+16
+00:01:05,130 --> 00:01:10,650
+Só que para a gente construir o projeto completo o mais seria um projeto pequeno construir ele do começo
+
+17
+00:01:10,650 --> 00:01:12,570
+até o final sinta estar em um ambiente.
+
+18
+00:01:12,570 --> 00:01:17,580
+O ideal é que a gente crie funcionalidades e consiga testar essas funcionalidades e para isso eu vou
+
+19
+00:01:17,640 --> 00:01:20,290
+introduziu o conceito de teste unitário.
+
+20
+00:01:20,460 --> 00:01:26,010
+O próprio Eclipse já tem suporte para isso embutido naqueles que já haviam bibliotecas chamadas de UI
+
+21
+00:01:26,010 --> 00:01:32,510
+Unidos que é a biblioteca de teste unitário mais famosa no mundo Java que quiçá do mundo inteiro certo
+
+22
+00:01:32,530 --> 00:01:39,030
+corrigir uma linguagem muito popular e trabalhar com texto unitário também algo muito recorrente muito
+
+23
+00:01:39,030 --> 00:01:41,630
+comum no ambiente de desenvolvimento Java.
+
+24
+00:01:41,690 --> 00:01:46,530
+E nós vamos trabalhar também com texto unitário falando um pouco no nosso projeto nós vamos construir
+
+25
+00:01:46,530 --> 00:01:53,220
+um campo minado Set é um joguinho que vai ser baseado em consoles e vai mostrar o campo minado na tela
+
+26
+00:01:53,250 --> 00:01:57,950
+com alguns símbolos por exemplo interrogação quer dizer que você não mexeu naquele cálculo.
+
+27
+00:01:57,960 --> 00:02:02,940
+Se você colocar um chazinho pra dizer que você marcou aquele campo o que potencialmente pode ter uma
+
+28
+00:02:02,940 --> 00:02:09,180
+mina certa você vai jogando e ele vai estourando lá os campos e abrindo até que você consiga atingir
+
+29
+00:02:09,180 --> 00:02:14,700
+o objetivo do jogo que é marcar todas as meninas ou seja todo o campo que você sabe que vai termina.
+
+30
+00:02:14,730 --> 00:02:19,020
+Você coloca um X e todos os campos que não tem minas estarão abertos.
+
+31
+00:02:19,080 --> 00:02:25,440
+Então a gente pode começar com um campo digamos assim um tabuleiro menor para a gente não ficar demorando
+
+32
+00:02:25,440 --> 00:02:26,800
+muito na resolução.
+
+33
+00:02:26,910 --> 00:02:32,340
+No jogo em si mas quando você estiver offline depois que eu tiver concluído você pode testar em outros
+
+34
+00:02:32,350 --> 00:02:36,020
+cenários e depois a gente pode pegar esse mesmo exercício.
+
+35
+00:02:36,020 --> 00:02:41,580
+Esse mesmo projeto é acrescentar um interface gráfica nele é algo que eventualmente vai acabar fazendo
+
+36
+00:02:41,580 --> 00:02:43,150
+durante o curso certo.
+
+37
+00:02:43,200 --> 00:02:45,010
+Ainda não planejei 100%.
+
+38
+00:02:45,180 --> 00:02:50,870
+Se eu vou ou não fazer isso eu vou sim incluir outros projetos e projetos que envolvam interface gráfica
+
+39
+00:02:51,150 --> 00:02:55,950
+mas esse pode ser um exercício interessante para ser aplicado também aqui no nosso curso.
+
+40
+00:02:56,080 --> 00:02:59,330
+Elas vão falar de tech unitário nós vamos criar o nosso primeiro projeto.
+
+41
+00:02:59,340 --> 00:03:05,510
+Então nós vamos sair desse nosso projeto e exercícios para ir para um outro projeto criado o zero.
+
+42
+00:03:05,520 --> 00:03:11,760
+Falta me algumas coisas interessantes como a gente organiza os pacotes em um projeto maior já colocando
+
+43
+00:03:11,760 --> 00:03:16,590
+o nome da empresa colocando provavelmente o nome do produto que você tem lá trabalhando e o nome do
+
+44
+00:03:16,590 --> 00:03:22,560
+seu projeto e coisas desse tipo nuances que a gente acabou não vendo nesse mundo fizesse isso que eu
+
+45
+00:03:22,560 --> 00:03:25,500
+vou começar a introduzir como a gente vou passar pelos projetos.
+
+46
+00:03:25,590 --> 00:03:30,060
+Então tem muita coisa legal para trabalhar nesse projeto vou falar de telefone acho que é algo novo
+
+47
+00:03:30,060 --> 00:03:36,060
+mas também vou revê boa parte do conhecimento que a gente já aprendeu até aqui o que é muito importante
+
+48
+00:03:36,060 --> 00:03:37,800
+embora o projeto seja pequeno.
+
+49
+00:03:37,800 --> 00:03:43,020
+Muitas coisas legais serão abordadas nesse projeto é legal para você começar a ter visão de como você
+
+50
+00:03:43,020 --> 00:03:50,610
+modela a orientação a objeto como você define as responsabilidades como você separa as responsabilidades
+
+51
+00:03:50,770 --> 00:03:51,590
+de um projeto.
+
+52
+00:03:51,590 --> 00:03:56,880
+Como você garante um maior nível de encapsulamento e tudo isso eu vou acabar discutindo com vocês nesse
+
+53
+00:03:56,880 --> 00:03:57,390
+capítulo.
+
+54
+00:03:57,390 --> 00:04:02,640
+Então fico por aqui na aula introdutória na aproximação nós vamos criar o nosso projeto e eles para
+
+55
+00:04:02,640 --> 00:04:02,820
+lá.

@@ -1,0 +1,387 @@
+1
+00:00:00,150 --> 00:00:06,300
+Pessoal nós já criamos a tabela estados fizemos as nossas primeiras inspeções agora vamos fazer as seleções
+
+2
+00:00:06,330 --> 00:00:13,380
+selecionar registros dentro da tabela tanto selecionar e filtrando também as colunas como também filtrar
+
+3
+00:00:13,440 --> 00:00:15,270
+os dados a partir das linhas.
+
+4
+00:00:15,330 --> 00:00:20,420
+Você pode fazer filtros de colunas e filtros de linhas e nós vamos ver isso nesse exemplo agora é então
+
+5
+00:00:20,430 --> 00:00:27,260
+clicar com o botão direito e o fail o nome do arquivo vai se consultar e estados.
+
+6
+00:00:27,260 --> 00:00:34,440
+Ponto SQL é a primeira consulta que ele vai usar para consulta mais simples de todas que é Select asterisco
+
+7
+00:00:34,440 --> 00:00:40,260
+ou seja todas as colunas da tabela from o nome dado da tabela no caso aqui estados ou conversando é
+
+8
+00:00:40,260 --> 00:00:43,160
+colocar os nomes das tabelas no plural.
+
+9
+00:00:43,170 --> 00:00:50,220
+Você tem empresa que coloca tb lá alguma coisa ou então Tab Aderlan alguma coisa e o nome das colunas
+
+10
+00:00:50,230 --> 00:00:51,600
+coloca algum siglas.
+
+11
+00:00:51,990 --> 00:00:55,750
+é muito comum você encontrar estas empresas eu pessoalmente não gosto dessa siglas.
+
+12
+00:00:56,020 --> 00:01:03,330
+Eu já vi mais do mundo já viu mais do mundo da programação então essas siglas para mim não são tão necessárias
+
+13
+00:01:03,330 --> 00:01:03,820
+assim.
+
+14
+00:01:04,080 --> 00:01:07,670
+Então o fato de você usar essas siglas ou não é uma questão pessoal.
+
+15
+00:01:07,700 --> 00:01:14,930
+Aqui no caso eu vou colocar os nomes mais naturais do que propriamente colocar presente em Berlim nome
+
+16
+00:01:15,240 --> 00:01:18,110
+ou seja como se fosse o deixou o nome.
+
+17
+00:01:18,330 --> 00:01:22,120
+Ou então sei lá pede discrição.
+
+18
+00:01:22,140 --> 00:01:26,850
+Cada empresa tem o de número então esse tipo de estratégia não vou usar muito aqui no curso.
+
+19
+00:01:27,180 --> 00:01:31,480
+Então selecionado como aditivo que é então clique com o botão direito.
+
+20
+00:01:31,500 --> 00:01:33,100
+Ele vai mostrar o resultado.
+
+21
+00:01:33,390 --> 00:01:39,810
+Então Adir nome e sigla religião população Acre Alagoas Amapá Amazonas Bahia Ceará Distrito Federal
+
+22
+00:01:39,810 --> 00:01:45,690
+e aí vai até o último estado que seria Tocantins que é o trigésimo terceiro com todas as suas siglas
+
+23
+00:01:45,690 --> 00:01:52,350
+e cada um com a região correta tem algumas melhorias que pode fazer por exemplo que eu lembro aqui que
+
+24
+00:01:52,350 --> 00:01:55,010
+eu deixei o Maranhão sem acento.
+
+25
+00:01:55,230 --> 00:01:57,300
+Então a gente vai poder alterar isso.
+
+26
+00:01:57,510 --> 00:02:02,460
+Eu deixei também o Paraná sem acento certo é a população do Paraná Eu acho que eu deixei um pouquinho
+
+27
+00:02:02,460 --> 00:02:03,000
+diferente.
+
+28
+00:02:03,000 --> 00:02:12,030
+Beijing 11 contra 22 seria 11 milhões e 3 2 321 mil habitantes 11 milhões e 320 mil habitantes estão
+
+29
+00:02:12,300 --> 00:02:16,980
+essas mudanças eu deixei aí para que a gente possa na próxima aula fazer as atualizações ou seja os
+
+30
+00:02:16,980 --> 00:02:17,590
+updates.
+
+31
+00:02:17,780 --> 00:02:22,530
+Então a primeira consulta Salete asterisco from estado então Supersimples eu não fiz nenhum tipo de
+
+32
+00:02:22,980 --> 00:02:26,240
+filtro nem filtro as colunas e nem filtro as linhas.
+
+33
+00:02:26,340 --> 00:02:27,450
+A partir dessa consulta.
+
+34
+00:02:27,450 --> 00:02:33,660
+Claro que se você tiver a tabela gigantesca esse tipo de consulta é um pecado ser feito porque ele vai
+
+35
+00:02:33,900 --> 00:02:37,710
+querer trazer muitos dados e isso pode gerar algum efeito de performance.
+
+36
+00:02:37,930 --> 00:02:46,140
+Então Selection nome e vírgula sigla from Estados ou seja nesse caso eu selecionei apenas a coluna nome
+
+37
+00:02:46,230 --> 00:02:51,780
+e a coluna na sigla é muito simples você filtra as colunas simplesmente você coloca as colunas que você
+
+38
+00:02:51,780 --> 00:02:55,050
+quer na ordem que você quer separadas por vírgula.
+
+39
+00:02:55,170 --> 00:03:01,900
+Então colocado aqui com uma de Shift que é executado aqui embaixo você vai ver que ele trouxe de fato
+
+40
+00:03:02,110 --> 00:03:07,680
+o aumento até um pouco para a gente ter um pouco mais de visibilidade o nome é sigla e trouxe exatamente
+
+41
+00:03:07,680 --> 00:03:11,520
+se eu quiser inverter Supersimples coloca a sigla antes do nome.
+
+42
+00:03:11,830 --> 00:03:19,860
+Então por exemplo sigla vírgula nome adaptado se aqui você vai vê que de fato ele trouxe primeiro a
+
+43
+00:03:19,890 --> 00:03:29,430
+sigla depois o nome e aí você pode por exemplo inclusive ter um leigo nome se nome do Estado mais detalhes
+
+44
+00:03:29,490 --> 00:03:37,440
+aqui com calma de Shift você vai ver que ele gerou aquele Ciro e o nome do Estado ficou como sendo um
+
+45
+00:03:37,440 --> 00:03:39,570
+título digamos assim do result 7.
+
+46
+00:03:39,570 --> 00:03:45,390
+O resultado dessa consulta eu posso colocar isso aqui com letra maiúscula S maiúsculo pode sem problema
+
+47
+00:03:45,390 --> 00:03:52,800
+nenhum contra o Chipre e você pode ter o S maiúsculo porque a crise em sensitive ou seja o nome da coluna
+
+48
+00:03:53,070 --> 00:04:00,440
+não está preocupado com letras maiúsculas ou minúsculo porque eles querem sim insistir nessa mesma consulta
+
+49
+00:04:00,440 --> 00:04:06,980
+eu posso filtrar os dados por exemplo onde eu tenho que a região é igual a sul.
+
+50
+00:04:07,110 --> 00:04:12,240
+Então nesse caso ele vai trazer apenas os estados que pertence a região Sul então da cena aqui você
+
+51
+00:04:12,240 --> 00:04:19,970
+vai ver que ele fez a consulta ao Select sigla nome e nome do Estado foram from estados da região Iguaçu
+
+52
+00:04:20,280 --> 00:04:27,510
+então esse caso ele trouxe apenas Paraná e Rio Grande do Sul e Santa Catarina se eu colocar s minúsculo
+
+53
+00:04:27,850 --> 00:04:34,170
+ataque contra o Chipre e você vai ver que o Estado ainda será o mesmo e estou me achando aqui olhe trouxe
+
+54
+00:04:34,170 --> 00:04:41,580
+mesmo colocando o Sul com s minúsculo certo então continuando volta aqui o Sul com S maiúsculo salvando
+
+55
+00:04:41,940 --> 00:04:49,210
+a próxima consulta que nós vamos gerar vai ser o seguinte se Alex nome vírgula região from estados essa
+
+56
+00:04:49,590 --> 00:04:55,620
+população é maior ou igual a 10 ou seja 10 milhões então executado aqui.
+
+57
+00:04:56,340 --> 00:05:02,370
+Você vai ver que ele vai trazer de fato os Estados que têm maior do que 10 milhões Bahia Minas Gerais
+
+58
+00:05:02,400 --> 00:05:05,760
+Paraná Rio de Janeiro Rio Grande do Sul e São Paulo.
+
+59
+00:05:05,880 --> 00:05:12,270
+Só que eu posso inclusive ordenar isso por exemplo pra quem tem a maior população para a menor então
+
+60
+00:05:12,270 --> 00:05:20,690
+colocando aqui pra usar Old Bay população de forma decrescente se eu fizer dessa forma vai sendo menor
+
+61
+00:05:20,680 --> 00:05:28,260
+para o maior seria a forma ascendente então contra o como aditivo que é então Paraná Rio Grande do Sul
+
+62
+00:05:28,290 --> 00:05:35,880
+Bahia Rio de Janeiro Minas Gerais e São Paulo mas sem usar a palavrinha 10 que ele vai aplicar alteração
+
+63
+00:05:35,950 --> 00:05:37,440
+de forma decrescente.
+
+64
+00:05:37,460 --> 00:05:43,300
+Então como de Shift é executado ele vai trazer o Estado que tem uma população.
+
+65
+00:05:43,300 --> 00:05:47,580
+São Paulo depois Minas Gerais Rio de Janeiro Bahia Rio Grande do Sul e Paraná.
+
+66
+00:05:47,580 --> 00:05:47,840
+Certo.
+
+67
+00:05:47,860 --> 00:05:54,910
+Então vimos muitas coisas legais aqui na sala de Salete fizemos um Selection selecionar todas as colunas
+
+68
+00:05:54,910 --> 00:05:56,330
+ou seja foram testados.
+
+69
+00:05:56,440 --> 00:06:01,750
+Fizemos um seleto filtrando algumas colunas e Supersimples filtrar as colunas baixo.
+
+70
+00:06:01,750 --> 00:06:08,960
+Você coloca o nome da coluna vírgula o nome da coluna inclusive para usar um leigo usando o mesmo sendo
+
+71
+00:06:08,980 --> 00:06:16,390
+esta mesma funcional aqui contra o Shift que você vai ver que ele vai também trazê lo nos Estados.
+
+72
+00:06:16,400 --> 00:06:20,190
+Nome do Estado sem obrigatoriamente usar essa palavra.
+
+73
+00:06:20,270 --> 00:06:23,200
+Ele funciona também como um leigo mas eu vou colocá las aqui.
+
+74
+00:06:23,580 --> 00:06:24,910
+Seria mais talvez mais.
+
+75
+00:06:24,920 --> 00:06:28,670
+Como você pode inclusive formatar uma consulta sim pra cá.
+
+76
+00:06:28,870 --> 00:06:30,550
+Talvez um pouco mais claro.
+
+77
+00:06:30,620 --> 00:06:33,520
+Foram aqui estados.
+
+78
+00:06:33,520 --> 00:06:34,900
+Ou seja você tem Salete.
+
+79
+00:06:34,900 --> 00:06:40,690
+Cada uma das colunas que você quer selecionar o nome da tabela e o filtro pra trazer exatamente aquilo
+
+80
+00:06:40,690 --> 00:06:41,280
+que você quer.
+
+81
+00:06:41,280 --> 00:06:43,820
+Aqui você está filtrando as linhas.
+
+82
+00:06:43,840 --> 00:06:49,780
+Aqui você está filtrando as colunas claro que filtra as linhas bem mais complexo do que filtrar as colunas
+
+83
+00:06:49,780 --> 00:06:52,720
+que basta você colocar as colunas separadas por vírgula.
+
+84
+00:06:52,720 --> 00:06:59,230
+Claro que tem outras nuances aqui você pode colocar por exemplo uma consulta dentária as colunas e tal
+
+85
+00:06:59,470 --> 00:07:05,790
+mas não é muito o tema dessa aula que eu tenho um seguro celeste que eu tenho nome e religião foram
+
+86
+00:07:06,220 --> 00:07:06,780
+Estados.
+
+87
+00:07:06,790 --> 00:07:12,230
+Posso até colocar aqui também a população que eu acho legal população.
+
+88
+00:07:12,840 --> 00:07:18,970
+Então deputado aqui você tem nome religião população de estados onde a população tem que ser maior igual
+
+89
+00:07:19,030 --> 00:07:25,100
+a 10 milhões e ordenar por população da ordem decrescente da maior população para a menor.
+
+90
+00:07:25,390 --> 00:07:32,060
+Então aqui selecionou nessa consulta como disse que você vai ter que o resultado.
+
+91
+00:07:32,200 --> 00:07:40,840
+São Paulo sudeste 41 milhões Minas Sudeste 21 Rio de Janeiro 16 milhões Bahia 15 Rio Grande do Sul 11
+
+92
+00:07:40,930 --> 00:07:42,100
+e Paraná 11.
+
+93
+00:07:42,250 --> 00:07:46,960
+Então na sala nós ficamos por aqui na proxima Lais vamos ver o update ainda vamos ver outras consultas
+
+94
+00:07:46,960 --> 00:07:53,590
+consultas conjunções vamos achar pra vocês uma consulta agregando dados eu quero pegar a soma de todas
+
+95
+00:07:53,590 --> 00:07:58,180
+as populações dos estados de uma determinada região fazendo com agrupamento eu vou mostrar isso pra
+
+96
+00:07:58,180 --> 00:08:03,590
+vocês também mas por enquanto essa ficamos por aqui na próxima aula vou falar um pouco sobre 10 e outros
+
+97
+00:08:03,600 --> 00:08:04,000
+para lá.

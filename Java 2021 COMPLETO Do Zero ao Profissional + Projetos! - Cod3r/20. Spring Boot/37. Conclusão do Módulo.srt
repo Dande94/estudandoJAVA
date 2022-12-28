@@ -1,0 +1,195 @@
+1
+00:00:00,570 --> 00:00:07,860
+Pessoal chegamos no final do nosso capítulo de Spring but é um capítulo que visa tem como objetivo de
+
+2
+00:00:07,860 --> 00:00:10,770
+dar os fundamentos do frei Monk.
+
+3
+00:00:10,830 --> 00:00:13,290
+Ensinar como configurar um projeto.
+
+4
+00:00:13,470 --> 00:00:17,310
+Eu falei um pouquinho sobre René como meio de lá um ciclo de vida.
+
+5
+00:00:17,400 --> 00:00:24,840
+Com relação à criação dos executáveis como meio vem nos ajudar consumia as dependências sem precisar
+
+6
+00:00:25,140 --> 00:00:30,240
+se preocupar em baixar esses arquivos nem das dependências do nosso projeto.
+
+7
+00:00:30,240 --> 00:00:33,260
+Vocês viram como é simples montar um projeto.
+
+8
+00:00:33,270 --> 00:00:36,170
+E como é simples iniciar um projeto Spring Bush.
+
+9
+00:00:36,210 --> 00:00:38,370
+Basicamente executar um método.
+
+10
+00:00:38,430 --> 00:00:43,380
+O que é extremamente simples de ser feita gente já está acostumado a fazer isso muito diferente dos
+
+11
+00:00:43,380 --> 00:00:48,370
+padrões de outros tipos de servidores como o biológico.
+
+12
+00:00:48,450 --> 00:00:57,120
+Clécio tem o Ibope e coisas do tipo que é todo uma série de configurações e tem que ter todo um esquilo
+
+13
+00:00:57,390 --> 00:00:59,690
+para que você consiga trabalhar com servidores.
+
+14
+00:00:59,700 --> 00:01:04,950
+Spring Bush é extremamente simples daí o fato de que era extremamente utilizado no mercado.
+
+15
+00:01:04,950 --> 00:01:10,950
+Depois a gente começou a fazer uma série de Web Services para que a gente conseguisse passar parâmetros
+
+16
+00:01:11,370 --> 00:01:17,740
+e trabalhar com os metros do HTTP Metro Bet Bosh e pudim de leite.
+
+17
+00:01:17,770 --> 00:01:22,950
+E a gente mostrou isso também dentro do contexto da integração com o banco de dados.
+
+18
+00:01:22,950 --> 00:01:30,220
+No caso mais Kelly para a gente fazer um pequeno abscesso que seriam crude e o cliente o update de elite.
+
+19
+00:01:30,300 --> 00:01:37,140
+Nós começamos com a inclusão a partir do cliente do Metro 6 lá no nosso repositório a gente interagiu
+
+20
+00:01:37,140 --> 00:01:44,100
+com muita fácil que é muito interessante a gente não precisou se preocupar muito com a parte da implementação.
+
+21
+00:01:44,110 --> 00:01:50,790
+E a partir da injeção de dependência o próprio Spring Butt injetou para a gente uma implementação daquela
+
+22
+00:01:50,790 --> 00:01:51,660
+interface.
+
+23
+00:01:52,020 --> 00:01:58,110
+E a gente fez o servo depois a gente fez uma consulta de todos os nossos produtos a gente fez uma consulta
+
+24
+00:01:58,110 --> 00:02:05,160
+por aí do produto e depois a gente fez uma atualização e uma exclusão e depois nós trabalhamos uma série
+
+25
+00:02:05,160 --> 00:02:10,800
+de consultas um pouco mais complexas mas que ainda assim são extremamente simples de serem implementados
+
+26
+00:02:10,800 --> 00:02:12,090
+exatamente porquê.
+
+27
+00:02:12,360 --> 00:02:18,150
+O experiente Bud trabalha com uma questão de convenções que é muito interessante ou seja a partir de
+
+28
+00:02:18,150 --> 00:02:25,800
+uma convenção de nome automaticamente o Spring bot entrega uma implementação o que é muito muito muito
+
+29
+00:02:25,800 --> 00:02:32,760
+legal é algo que ao mesmo tempo que entrega uma facilidade com pouquíssimas linhas de código basicamente
+
+30
+00:02:32,760 --> 00:02:37,680
+a gente precisou definir o nome da função seguindo algumas regras de convenção.
+
+31
+00:02:37,980 --> 00:02:43,080
+E ele entregou para a gente a implementação e eu mostrei para vocês inclusive uma consulta a partir
+
+32
+00:02:43,080 --> 00:02:47,460
+do JP que era você colocar lá um JPL e ele vai fazer a consulta pra você.
+
+33
+00:02:47,460 --> 00:02:54,720
+Caso você precisa ter algum tipo de flexibilidade a mais inclusive passa no parâmetro pra dentro da
+
+34
+00:02:54,720 --> 00:02:55,710
+consulta.
+
+35
+00:02:55,710 --> 00:03:01,320
+Não tem como objetivo nesse capítulo me aprofundar muito no Spring buraco porque faz sentido que eu
+
+36
+00:03:01,320 --> 00:03:03,650
+faça isso dentro de um curso à parte.
+
+37
+00:03:03,750 --> 00:03:09,450
+Até porque a gente está dentro do curso de Java então a gente já viu toda a parte de Java base com orientação
+
+38
+00:03:09,450 --> 00:03:10,200
+objeto.
+
+39
+00:03:10,200 --> 00:03:15,810
+A gente aprendeu a trabalhar com o JP a aprender a trabalhar com interfaces gráficas por exemplo para
+
+40
+00:03:15,810 --> 00:03:17,230
+aplicações desktop.
+
+41
+00:03:17,520 --> 00:03:22,830
+E agora a gente falou muito nesse capítulo de Espinho Bush pra ti da base eu tenho certeza que com essa
+
+42
+00:03:22,830 --> 00:03:29,400
+base você vai conseguir evoluir olhar na documentação eventualmente assistindo mais vídeos você vai
+
+43
+00:03:29,400 --> 00:03:30,270
+conseguir evoluir.
+
+44
+00:03:30,270 --> 00:03:31,080
+Por quê.
+
+45
+00:03:31,140 --> 00:03:33,160
+é vantagem né.
+
+46
+00:03:33,180 --> 00:03:38,880
+Tem uma vantagem embutida é um primor que é extremamente prático e ao framework também muito mais muito
+
+47
+00:03:38,880 --> 00:03:41,070
+mesmo usado no mercado.
+
+48
+00:03:41,070 --> 00:03:46,140
+Então o pessoal espera que vocês tenham gostado de mais esse capítulo do nosso curso e até aproximá
+
+49
+00:03:46,140 --> 00:03:46,350
+lo.

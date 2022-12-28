@@ -1,0 +1,651 @@
+1
+00:00:00,160 --> 00:00:07,520
+Penso agora mas vamos criar uma seção personalizada nosso então para isso eu vou criar aqui dentro de
+
+2
+00:00:07,520 --> 00:00:15,160
+exceção ou criar um pacote que eu vou chamar aqui ponto personalizada.
+
+3
+00:00:16,590 --> 00:00:19,680
+E depois nós vamos criar um outro exercício que seria personalizado.
+
+4
+00:00:19,690 --> 00:00:23,310
+B o mesmo exercício que eu vou trocar a seção checada por não checada.
+
+5
+00:00:23,310 --> 00:00:25,950
+Nós vamos começar com as exceções do tipo.
+
+6
+00:00:26,580 --> 00:00:33,570
+Ou seja criar uma classe que era de vantagem e nós teremos esse caso na seção não checado não verificado
+
+7
+00:00:33,600 --> 00:00:39,790
+porque tudo que era de vantagem o compilado não irá te obrigar tratar nem mesmo declarar no método.
+
+8
+00:00:40,230 --> 00:00:46,590
+Então para isso eu vou criar a primeira classe que eu vou chamar aqui de número negativo e recebe um
+
+9
+00:00:46,620 --> 00:00:50,740
+número negativo.
+
+10
+00:00:51,350 --> 00:00:57,930
+Imagine que eu tenho um atributo que não pode ter número negativo o dia de mandato mesmo adapta a idade
+
+11
+00:00:57,930 --> 00:00:58,910
+de uma pessoa.
+
+12
+00:00:58,920 --> 00:01:04,390
+é possível que você queira aplicar algum tipo de validação que não deixe o número por exemplo ser negativo.
+
+13
+00:01:04,410 --> 00:01:09,240
+Aqui eu vou definir um assistentes voluntário que.
+
+14
+00:01:10,020 --> 00:01:17,070
+Vai ficar gerado aqui a advertência certo e para isso eu vou resolver dessa forma contra o meu caso
+
+15
+00:01:17,070 --> 00:01:24,810
+aqui como no Mac tem essa opção que é o prazo Warning Serial Serial certo o que é que seria se o prazo
+
+16
+00:01:24,810 --> 00:01:32,580
+One serial existe um processo dentro do Java chamado serialização serialização você transforma o objeto
+
+17
+00:01:32,610 --> 00:01:39,390
+em Java que está na memória em um valor que pode ser por exemplo persistido em um valor textual.
+
+18
+00:01:39,510 --> 00:01:44,780
+Você pode salvar um objeto em Java dentro de um arquivo txt por exemplo.
+
+19
+00:01:44,810 --> 00:01:51,810
+Esse processo de serialização pode transformar uma classe ou instância num monstrinho que gera um texto
+
+20
+00:01:51,810 --> 00:01:53,880
+bem estranho digamos assim.
+
+21
+00:01:53,880 --> 00:02:00,210
+E a partir desse texto gerado você consegue pegando esse texto d serialização e instancia o objeto em
+
+22
+00:02:00,210 --> 00:02:01,200
+memória.
+
+23
+00:02:01,370 --> 00:02:05,280
+Por que você quer pegar vários objetos e memórias e salvar isso.
+
+24
+00:02:05,280 --> 00:02:10,970
+Nenhum arquivo pra eventualmente quando o usuário abrir o sistema novamente você leu o arquivo e desceria
+
+25
+00:02:10,970 --> 00:02:14,460
+alisa e Goto todos os objetos na memória de novo certo.
+
+26
+00:02:14,520 --> 00:02:19,230
+é possível que você consiga fazer isso a partir do processo de serialização.
+
+27
+00:02:19,230 --> 00:02:23,490
+Não estou interessado agora em recessão ficar trabalhando com serialização.
+
+28
+00:02:23,880 --> 00:02:26,250
+Existem outras formas de você suprimir.
+
+29
+00:02:26,250 --> 00:02:32,410
+Você pode pedir para ele gerar o que ele chama que é o número serial serial fecho e dizer se eu colocar
+
+30
+00:02:32,420 --> 00:02:40,480
+aquilo como ele vai dizer ou gerar o serial vejam aí você pode gerar o default que seria um estalo simplesmente
+
+31
+00:02:40,490 --> 00:02:41,810
+colocam o primeiro login.
+
+32
+00:02:42,000 --> 00:02:46,620
+Ou então ele pode gerar um número específico que representa a versão da classe que eu estou trabalhando
+
+33
+00:02:46,770 --> 00:02:52,880
+para colocar as senhoras gerou um número bem grande que é um número especificamente pra você saber se
+
+34
+00:02:52,900 --> 00:02:59,010
+uma classe tem compatibilidade com a outra porque se você pega a classe transforma elas levaram no valor
+
+35
+00:02:59,010 --> 00:03:05,340
+textual e você muda a classe muda os atributos e tal quando você tentar converter esse valor textual
+
+36
+00:03:05,340 --> 00:03:07,740
+em uma classe novo serão incompatíveis.
+
+37
+00:03:08,040 --> 00:03:13,710
+E é exatamente esse número aqui que acaba dizendo se uma classe é compatível com outras certo mais.
+
+38
+00:03:13,710 --> 00:03:19,530
+Meu objetivo aqui não tem nada a ver com serialização então eu simplesmente suprimiu Horne dizendo que
+
+39
+00:03:19,530 --> 00:03:25,170
+eu não quero gerar o serial Photoshop mas do poderia gerar sem problema nenhum.
+
+40
+00:03:25,170 --> 00:03:31,240
+O que eu quero fazer agora é definir o meu chutou ou qualquer outro número negativo sabichão.
+
+41
+00:03:31,380 --> 00:03:38,460
+A primeira opção tem que ser algum chutou e eu vou esperar receber como parâmetro o custo do cara recebeu
+
+42
+00:03:38,460 --> 00:03:48,450
+o nome do atributo então vou colocar aqui estranhei o nome do atributo e vou salvar que incluirá uma
+
+43
+00:03:48,840 --> 00:03:55,840
+variável de instância extingue o nome do atributo e vou pagar aqui um desconto.
+
+44
+00:03:55,840 --> 00:04:03,390
+O do atributo recebe o nome do atributo de tal forma que a mensagem de erro que eu vou gerar vai ser
+
+45
+00:04:03,420 --> 00:04:05,040
+vou pagar que é o diet.
+
+46
+00:04:05,850 --> 00:04:12,140
+Eu vou sobre escrever essa mensagem não precisa ter o arroba aqui não vou ter essa mensagem que o autor
+
+47
+00:04:12,140 --> 00:04:16,370
+do comentário e vou simplesmente colocar a seguinte mensagem.
+
+48
+00:04:16,390 --> 00:04:28,180
+Bom atributo central s eu vou colocar isso aqui dentro de um extremo conto Format estilingue Format.
+
+49
+00:04:28,600 --> 00:04:30,480
+Vou passar aqui o atributo.
+
+50
+00:04:30,480 --> 00:04:40,870
+Alguma coisa está ao seu lado negativo e vou passar o nome do atributo para seu parâmetro não pra esse
+
+51
+00:04:41,420 --> 00:04:42,620
+pra esse dólar.
+
+52
+00:04:42,930 --> 00:04:47,680
+Então por exemplo colocou idade para aparecer o atributo idade está negativo.
+
+53
+00:04:47,700 --> 00:04:52,590
+Colocar esse atributo aqui pra baixo só pra ficar tudo visível da classe então basicamente o que eu
+
+54
+00:04:52,590 --> 00:04:58,860
+fiz foi porque eu quis certa poderia não ter feito absolutamente nada disso bastava estender eu quero
+
+55
+00:04:58,860 --> 00:05:05,840
+receber o nome do para a minha seção e quando lançar a exceção ele vai gerar uma mensagem padrão o nome
+
+56
+00:05:05,840 --> 00:05:11,750
+do atributo está negativo então esse vai ser o padrão que eu vou usar pra minha exceção.
+
+57
+00:05:11,990 --> 00:05:17,370
+E aqui continuando o que e como fazer eu vou criar uma outra exceção que eu vou daqui encontrou se com
+
+58
+00:05:17,370 --> 00:05:28,570
+provei eu vou colocar aqui por exemplo distribuí vazia Section ou seja mesma coisa só que aqui vou mandar
+
+59
+00:05:28,580 --> 00:05:35,930
+mensagem pra ser o seguinte o atributo entao está vazio certo.
+
+60
+00:05:35,990 --> 00:05:45,320
+Outra negativo é esse aqui vazio vou criar uma classe que eu já tem um aluno que eu copiei certo esse
+
+61
+00:05:45,320 --> 00:05:53,340
+aluno pago diretamente dentro de exceção e eu vou só colocar os atributos pra ficarem aqui publicos
+
+62
+00:05:53,470 --> 00:06:00,530
+colocar aqui a público já que eu vou usar isso fora desse pacote eu vou colocar publico aqui dentro
+
+63
+00:06:00,560 --> 00:06:09,810
+eu vou criar uma classe chamada validar então por exemplo uma classe validar e eu posso se quiseres
+
+64
+00:06:09,850 --> 00:06:17,210
+definir um construtor privado pra ninguem instancia essa classe e usar todos os métodos estáticos sem
+
+65
+00:06:17,210 --> 00:06:26,490
+problema nenhum a possibilidade é que eu posso fazer o seguinte ou criar um Public public static Boyd
+
+66
+00:06:27,650 --> 00:06:38,390
+chamado La usuario aqui eu vou receber um usuário e esse método será aluno que pertence a à exceção
+
+67
+00:06:38,480 --> 00:06:46,550
+exatamente o que nós estamos então vou mudar o nome e seus órgãos chamar de tal forma que eu vou ter
+
+68
+00:06:46,550 --> 00:06:51,470
+uma classe chamada validar que eu vou chamar a validar pontuou o aluno ele vai fazer as validações em
+
+69
+00:06:51,470 --> 00:06:52,250
+cima do aluno.
+
+70
+00:06:52,280 --> 00:06:57,970
+O que é que nós vamos validar dentro desse método mais uns validar a nota por exemplo tem que ser positiva.
+
+71
+00:06:58,070 --> 00:07:03,910
+Poderia até criar por exemplo uma validação de intervalo que você definiu ou aconteceu.
+
+72
+00:07:03,950 --> 00:07:10,670
+A data está fora do intervalo permitido você faz o teste Net 0 e 10 e gera uma exceção.
+
+73
+00:07:10,710 --> 00:07:24,950
+Posso até mudar aqui a exceção por exemplo esse número negativo número e nome aqui há número fora igual
+
+74
+00:07:26,210 --> 00:07:27,680
+número fora do intervalo.
+
+75
+00:07:27,700 --> 00:07:38,290
+é bom mudar só que o número está fora do intervalo pronto vou colocar aqui dentro de realidade dois
+
+76
+00:07:38,390 --> 00:07:48,710
+do achincalhe primeiro se o aluno for igual a nulo eu vou jogar uma exceção que vai ser o seguinte jogo
+
+77
+00:07:52,160 --> 00:07:55,200
+ilegal argumente sabichão.
+
+78
+00:07:55,310 --> 00:07:58,030
+Ou seja é um assessor do próprio Diabo.
+
+79
+00:07:58,040 --> 00:07:59,420
+Também não há sessão.
+
+80
+00:07:59,430 --> 00:08:08,620
+Não sou obrigado a verificar que eu posso passar uma mensagem qualquer por exemplo o aluno está no alto
+
+81
+00:08:08,630 --> 00:08:14,650
+ou seja você tentou passar um aluno pra cá ele já vai verificar que está nulo já jogam essa ação qualquer
+
+82
+00:08:14,650 --> 00:08:19,950
+execução que passada essa checagem já garanto que o aluno está sentado e não precisa mais preocupado
+
+83
+00:08:20,290 --> 00:08:21,500
+e verificar nada.
+
+84
+00:08:21,560 --> 00:08:30,350
+Há outra checagem de validação por exemplo aluno ponto nome eu posso verificar se isso aqui está nulo
+
+85
+00:08:30,560 --> 00:08:40,480
+ou se ele esse nome for nulo ou se o aluno com outro nome ponto 30 pra geral os espaços brancos existente.
+
+86
+00:08:40,640 --> 00:08:46,030
+Ou seja está vazio significa que eu tenho um problema com o jornal também não é exceção invalidação
+
+87
+00:08:46,060 --> 00:08:53,600
+de um troll e eu distribuí a minha sessão que eu criei mas trigo vazia recebe e vou passar como único
+
+88
+00:08:53,600 --> 00:09:00,260
+parâmetro o nome do atributo que é o nome exato que é exatamente o atributo do aluno que eu estou verificando
+
+89
+00:09:00,260 --> 00:09:03,870
+monstrengo vazia ponto e vou jogar em outra seção.
+
+90
+00:09:03,890 --> 00:09:17,610
+Se o aluno ponto nota for menor do que zero ou algum ponto de nota maior do que 10 eu vou jogar uma
+
+91
+00:09:17,610 --> 00:09:18,190
+exceção.
+
+92
+00:09:18,210 --> 00:09:27,880
+Então que alterou o número fora do intervalo e que sabichão eu vou passar aqui o nome do atributo pra
+
+93
+00:09:27,880 --> 00:09:28,450
+se nota.
+
+94
+00:09:29,120 --> 00:09:32,770
+Ou seja eu criei duas exceções minhas e usei uma exceção do Jabor.
+
+95
+00:09:32,780 --> 00:09:37,420
+Você pode sim usar é aconselhável você usar as variações do Java.
+
+96
+00:09:37,720 --> 00:09:39,250
+O que eu já tive muitas exceções.
+
+97
+00:09:39,260 --> 00:09:45,390
+Você pode usar por exemplo aqui foi passado um argumento legal se ele passou um argumento nulo e pra
+
+98
+00:09:45,390 --> 00:09:51,140
+validações específico de alguma coisa você pode também criar suas próprias sanções ou mesmo usar a exceção
+
+99
+00:09:51,140 --> 00:09:52,590
+do Java sem problema nenhum.
+
+100
+00:09:53,000 --> 00:09:59,720
+Então criei meu metro defendi várias validações e nós vamos agora criar uma classe para testar as validações
+
+101
+00:09:59,720 --> 00:10:10,820
+e então criar aqui uma classe chamada TX validações e aqui vou fazer o seguinte vou fazer alguns alguns
+
+102
+00:10:10,820 --> 00:10:17,950
+testes do primeiro teste eu vou criar aqui um aluno e aí eu vou importá lo de dentro dessa ação chamar
+
+103
+00:10:18,080 --> 00:10:29,900
+o aluno recebe meu aluno e vou passar o parâmetro acho que vou passar o nome para esse vazio e vou passar
+
+104
+00:10:30,560 --> 00:10:37,060
+a nota do aluno para ser menos 7 certo do ponto de vista instancia a São Paulo ok mas se eu chamar aqui
+
+105
+00:10:37,330 --> 00:10:43,730
+o vale da conta o aluno passa ao aluno você vai ver isso aqui vai gerar um problema.
+
+106
+00:10:43,820 --> 00:10:49,130
+Se eu chegar aqui no final você seu passado esse código aqui significa que o aluno está validado.
+
+107
+00:10:49,130 --> 00:10:55,490
+Caso contrário se ele vai não sessão e não vai chegar aqui no fim do nosso programa sabe então que você
+
+108
+00:10:55,490 --> 00:11:02,240
+vai ver que a avaliação que foi gerada foi uma string vazia que recebe a mensagem o atributo nome está
+
+109
+00:11:02,240 --> 00:11:10,670
+vazio inclusive lá na recepção eu posso até colocar isso aqui entre aspas simples você verificar isso
+
+110
+00:11:10,670 --> 00:11:19,010
+aqui é um atributo a mesma coisa que posso colocar entre aspas simples traz mais uma vez a mensagem
+
+111
+00:11:19,010 --> 00:11:25,620
+é do tipo essas são personalizar a sessão pouco personalizada a ponto extra base recebe um atributo
+
+112
+00:11:25,620 --> 00:11:28,980
+o nome está vazio ou seja nós jogamos uma seção nossa.
+
+113
+00:11:29,480 --> 00:11:37,030
+Então vamos fazer aqui se ela pagar esses dois códigos aqui posso colocar isso dentro de um traficante
+
+114
+00:11:37,060 --> 00:11:46,100
+se elas somem como autorizei o controle provavelmente no Windows ou Mac e aqui você pode colocar especificamente
+
+115
+00:11:46,100 --> 00:11:54,870
+essa sensação string vazia recebe Ok aqui você pode tratar essa ação e se a gente quiser mostrar mensagem
+
+116
+00:11:54,870 --> 00:12:01,230
+de erro basta colocar aqui é ponto diet.
+
+117
+00:12:01,280 --> 00:12:08,010
+Nessas horas você vai ver que o atributo novo está vazio colocando aqui vários espaços.
+
+118
+00:12:08,030 --> 00:12:12,560
+Ainda assim ele baixa acaba e cai na mesma validação atributo não está vazio.
+
+119
+00:12:12,560 --> 00:12:19,580
+Se eu colocar por exemplo o valor do ano aí sim ele vai cair na outra sessão que não foi tratada nesse
+
+120
+00:12:19,580 --> 00:12:25,070
+blog Bloco Quente que é uma exceção número fora do intervalo excepto.
+
+121
+00:12:25,310 --> 00:12:31,160
+Se eu tivesse tratado uma exceção mais genérica como é o caso de lanterninha que recebe ele cairia dentro
+
+122
+00:12:31,160 --> 00:12:38,370
+desse bloco ou atributo Note está fora de mas nesse caso eu tratei em uma seção específica estive vazia
+
+123
+00:12:38,730 --> 00:12:46,140
+como fora nota fora do intervalo não és string vazia não está na mesma hierarquia não é filha.
+
+124
+00:12:46,470 --> 00:12:51,590
+Então nesse caso não vai dar certo o tratamento ele vai realmente gerar uma exceção como se não tivesse
+
+125
+00:12:51,600 --> 00:12:56,070
+tratado até porque não foi tratado nesse caso o atributo nota está fora do intervalo.
+
+126
+00:12:56,070 --> 00:13:02,600
+Então aqui eu posso pegar essa sensação ESSE NOME QUE ACHO QUE CONSIGO COPIAR só o nome que aqui não
+
+127
+00:13:02,610 --> 00:13:08,450
+vou parar aqui não vou escrever aqui fica mais até mais fácil colocar aqui um CAT uns óculos que implicam
+
+128
+00:13:09,140 --> 00:13:11,870
+numa era fora do intervalo.
+
+129
+00:13:11,930 --> 00:13:18,650
+Sabe também eu posso tratar com o mesmo nome e com o mesmo nome da exceção já que são dois blocos diferentes
+
+130
+00:13:18,650 --> 00:13:19,930
+que tem um bloco.
+
+131
+00:13:20,100 --> 00:13:26,130
+Aqui eu tenho um outro bloco separado e eu posso usar também o mesmo tipo de tratamento sem problema
+
+132
+00:13:26,130 --> 00:13:33,660
+nenhum quando você tem duas sessões com o mesmo tratamento certo você pode fazer algo do tipo você coloca
+
+133
+00:13:33,670 --> 00:13:38,010
+que pai coloca as duas sessões do mesmo tratamento.
+
+134
+00:13:38,030 --> 00:13:46,020
+Isso surgiu a partir do 6 foi de Java 7 do Java 8 ou seja tanto string vazia que serve como um número
+
+135
+00:13:46,020 --> 00:13:47,640
+fora do intervalo f.
+
+136
+00:13:48,030 --> 00:13:53,490
+Você pode tratar especificamente essas duas sem ficar colocando o código mais genérico você tem essa
+
+137
+00:13:53,490 --> 00:14:00,300
+possibilidade mas uma outra possibilidade também suspenso ou mas se você tiver tratamentos diferentes
+
+138
+00:14:00,610 --> 00:14:06,330
+e você criar um método Cat e aí sim ou se tratar especificamente cada um.
+
+139
+00:14:06,510 --> 00:14:13,340
+é uma possibilidade que exige certo você tratar de dois blocos diferentes e que também vai dar certo
+
+140
+00:14:13,350 --> 00:14:18,550
+ele vai ver que você não caiu nessa primeira vai ver a segunda que realmente era o tipo que foi lançado.
+
+141
+00:14:18,840 --> 00:14:25,570
+E aí você tem dois blocos com tratamentos diferentes e quando você precisa tratar os blocos iguais era
+
+142
+00:14:25,680 --> 00:14:31,590
+preciso tratar da mesma forma mas você não quer colocar essa ação muito genérica pra você não tratar
+
+143
+00:14:31,590 --> 00:14:33,690
+coisas que você não pediu anteriormente.
+
+144
+00:14:33,690 --> 00:14:40,980
+Você pode usar o certo com um traço em um só você coloca string vazia o símbolo do pai que significa
+
+145
+00:14:41,040 --> 00:14:47,990
+ou número fora do intervalo ou algum outra coisa ou alguma outra coisa ele vai cair dentro de um mesmo
+
+146
+00:14:48,000 --> 00:14:49,140
+bloco de tratamento.
+
+147
+00:14:49,620 --> 00:14:56,430
+Então aqui lancei as duas exceções e uma outra possibilidade é que se eventualmente depois disso eu
+
+148
+00:14:56,430 --> 00:15:07,380
+tiver que validar outro aluno passar um aluno tudo aquilo já tem uma outra seção que à exceção do Java
+
+149
+00:15:07,440 --> 00:15:09,860
+que é legal argumente e recebe.
+
+150
+00:15:09,970 --> 00:15:18,000
+Aqui ele acabou validando a nota 7 mas se eu passar a nota 7 por exemplo ele vai cair não é legal argumenta
+
+151
+00:15:18,010 --> 00:15:24,540
+que seja o aluno está nulo e aqui eu posso criar um outro bloco ou mesmo colocar um gorro colocar aqui
+
+152
+00:15:25,110 --> 00:15:31,560
+o que fica legal como estas duas formas são legal argumenta que sabe que eu vou só quebrar aqui pra
+
+153
+00:15:31,560 --> 00:15:37,490
+ficar além de bafo ou seja o número fora do intervalo legal já que serve um cara aqui dentro.
+
+154
+00:15:37,620 --> 00:15:39,870
+Ou seja trata a exceção.
+
+155
+00:15:40,140 --> 00:15:46,470
+Nós temos a exceção tratada ou seja o aluno está nu gerou a mensagem e no final das contas caiu no fim
+
+156
+00:15:46,470 --> 00:15:49,770
+porque as exceções foram tratadas neste primeiro cenário.
+
+157
+00:15:49,770 --> 00:15:52,080
+Todas as exceções foram ontem.
+
+158
+00:15:52,140 --> 00:15:58,270
+Eu nem precisei dentro desse método de validar não precisei informar que essas ações eu não sei porque
+
+159
+00:15:58,610 --> 00:16:05,100
+todos essas ações foram implantar e meio aqui no momento que eu fui Messages e que tal código foi usar
+
+160
+00:16:05,520 --> 00:16:10,920
+esse validar o ponto o aluno não precisei também tratar as exceções tratei porque eu quis mas é algo
+
+161
+00:16:10,920 --> 00:16:16,650
+opcional justamente por se tratar de exceções não verificadas ou exceções não checadas.
+
+162
+00:16:16,650 --> 00:16:22,800
+Ou seja essas ações que são a própria a mente cérebro ou qualquer outra acepção que veda o lanterna
+
+163
+00:16:22,820 --> 00:16:23,450
+e que servem.

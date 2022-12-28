@@ -1,0 +1,403 @@
+1
+00:00:00,060 --> 00:00:05,250
+Então o pessoal mostrando pra vocês agora a resposta à versão do desafio que eu pensei então fazer o
+
+2
+00:00:05,250 --> 00:00:09,910
+seguinte vou criar aqui uma classe produto já tem classe Produto em praticamente todos os capítulos
+
+3
+00:00:09,910 --> 00:00:15,530
+do curso não é todos na Amazon lá produto aqui o produto vai ter alguns atributos.
+
+4
+00:00:15,540 --> 00:00:18,590
+Vou colocar aqui hoje 30 o nome do produto.
+
+5
+00:00:18,590 --> 00:00:25,930
+Vou colocar um dado pra isso vou colocar aqui um outro dado pra seu desconto.
+
+6
+00:00:26,030 --> 00:00:35,250
+Vou colocar aqui um dado que eu vou colocar aqui lá do valor do frete estão prontas serão uns quatro
+
+7
+00:00:35,250 --> 00:00:41,730
+atributos aqui eu posso pedir pra ele em geral o construtor baseado nos filmes então vou colocar aqui
+
+8
+00:00:42,870 --> 00:00:50,950
+e nesse caso aqui eu vou tirar o sultão e pronto já tem o chutou.
+
+9
+00:00:51,140 --> 00:00:54,290
+Esse caso como eu não vou precisar mudar nenhum cenário.
+
+10
+00:00:54,810 --> 00:00:59,450
+Eu vou aplicar aqui o farnel daqui para frente.
+
+11
+00:00:59,670 --> 00:01:06,950
+Saí do módulo de edição de músicas minhas para editar mude muito pelas minhas o comando geral de A que
+
+12
+00:01:06,950 --> 00:01:13,380
+na minha marca provavelmente não consegue controlar o Walter alguma coisa você consegue editar múltiplas
+
+13
+00:01:13,380 --> 00:01:16,810
+linhas ou seja que eu que jogar pra cá.
+
+14
+00:01:16,820 --> 00:01:18,550
+Agora dá um tapa e pronto.
+
+15
+00:01:19,060 --> 00:01:25,660
+Então o comando geral novamente saiu e passa a editar apenas uma única para definir o produto.
+
+16
+00:01:25,710 --> 00:01:33,480
+Vou entrar aqui não criar uma nova classe chamada desafio desafio
+
+17
+00:01:36,180 --> 00:01:45,220
+pequeno desafio Felton vou colocar Metro Man e eu vou criar um produto inicial pois a gente vai substituindo
+
+18
+00:01:45,230 --> 00:01:54,330
+né duplicando criando outros produtos recebe um produto que eu vou passar nome do produto aí eu vou
+
+19
+00:01:54,330 --> 00:02:05,430
+colocar um nome aqui por lápis PRA ISSO VAI SER UM 99 desconto que pode ser 15 12 por cento e valor
+
+20
+00:02:05,430 --> 00:02:08,780
+do frete em 30 reais.
+
+21
+00:02:08,780 --> 00:02:12,020
+Tem um produto que é mais frágil e mais caro do que o valor do produto.
+
+22
+00:02:12,150 --> 00:02:19,060
+é o caso do lápis Mococa aqui produto 2 3 4 5 6 7.
+
+23
+00:02:19,170 --> 00:02:32,410
+Vou criar aqui embaixo a lista de produtos então lixo produto produtos recebem um lixo.
+
+24
+00:02:32,460 --> 00:02:45,750
+Então coloca aqui um dígito que tem 2 3 2 3 4 5 6 7.
+
+25
+00:02:45,750 --> 00:02:49,030
+Exatamente quantidade porque eu tinha definido.
+
+26
+00:02:49,270 --> 00:02:56,160
+E digo mais até aquela imagem minha pra ficar aparecendo aqui todo e a partir daí a gente vai definir
+
+27
+00:02:56,280 --> 00:03:02,560
+o nosso filtro e depois filtra e finalmente comete.
+
+28
+00:03:02,910 --> 00:03:07,300
+Então nesse caso já vou definir aqui as funções do filtro.
+
+29
+00:03:07,350 --> 00:03:14,020
+Ele vai ser um prédio caro na água que é um predicado que vai receber um produto tal qual vai ser o
+
+30
+00:03:14,020 --> 00:03:22,430
+meu primeiro filtro vai ser um grande desconto tão grande no desconto eu vou receber aqui como parâmetro
+
+31
+00:03:22,430 --> 00:03:32,350
+um produto que vai te dê um desconto maior igual a 30 então sei lá para a promoção colocar sopa uma
+
+32
+00:03:32,520 --> 00:03:40,440
+opção ou outro predicado que eu vou criar vai ser frete grátis então frete grátis vai ter que ir por
+
+33
+00:03:40,440 --> 00:03:47,880
+exemplo o valor do frete tem que ser exatamente igual a zero.
+
+34
+00:03:48,580 --> 00:03:55,320
+Que vai ser o meu segundo predicado até poderia também colocar um outro predicado que já seria um terceiro
+
+35
+00:03:55,320 --> 00:04:03,210
+filtro pra C por exemplo um produto relevante então o produto é alarmante para a loja e produto cujo
+
+36
+00:04:04,460 --> 00:04:14,100
+o valor do produto é um produto com preço maior do que maior é igual a 500 reais.
+
+37
+00:04:14,160 --> 00:04:21,850
+Então por exemplo mesmo que um lápis tenha custando aqui em 99 ele esteja com desconto 35 por cento
+
+38
+00:04:22,350 --> 00:04:27,170
+e o frete dele seja grátis ainda assim é um produto que não é relevante para a loja ele não vai aparecer
+
+39
+00:04:27,180 --> 00:04:31,250
+presente na lista final se já seria 3 filtros aqui não está.
+
+40
+00:04:31,710 --> 00:04:46,170
+Então vou colocar aqui no book vou colocar isso lá no caderno vou colocar aqui impressora oca aqui para
+
+41
+00:04:46,240 --> 00:04:58,530
+testemunhar que pede coloca aqui na loja e finalmente um monitor um monitor vai custar 800 reais vou
+
+42
+00:04:58,530 --> 00:05:10,240
+colocar o desconto de frete grátis o relógio vai custar 900 reais 12 por cento de desconto e o frete
+
+43
+00:05:10,420 --> 00:05:12,490
+vai ser zerado.
+
+44
+00:05:12,500 --> 00:05:17,740
+Vou colocar aqui o iPad para o estado 3 mil e 100 reais.
+
+45
+00:05:17,770 --> 00:05:23,800
+Vai estar com desconto direto fizeram 29 por cento e o frete grátis.
+
+46
+00:05:23,800 --> 00:05:27,470
+A impressora vai custar 999 reais.
+
+47
+00:05:27,580 --> 00:05:35,750
+Com 40 por cento de desconto então é um pouco mais caras 1200 reais com desconto frete zero.
+
+48
+00:05:35,770 --> 00:05:43,760
+O caderno vai custar 30 reais mas está com um desconto de 45 por cento e não tem frete.
+
+49
+00:05:43,910 --> 00:05:55,150
+é ótimo que vai custar 4 noventa e 9 reais de 39 está com trinta e dois por cento de desconto e tem
+
+50
+00:05:55,150 --> 00:05:56,470
+frete zero.
+
+51
+00:05:56,860 --> 00:06:01,760
+Então a gente aplicar agora eu vou fazer o seguinte são produtos.
+
+52
+00:06:01,990 --> 00:06:03,350
+é estranho.
+
+53
+00:06:03,370 --> 00:06:07,840
+Posso colocar aqui e colocar aqui embaixo.
+
+54
+00:06:07,870 --> 00:06:14,390
+Primeiro aplicar o filtro colocando o produto que está tão super promoção.
+
+55
+00:06:14,390 --> 00:06:22,720
+Depois aplicar o outro filtro aqui outro filtro que vai aplicar o frete grátis.
+
+56
+00:06:23,090 --> 00:06:29,210
+Vou aplicar aqui um outro filtro que é baixo para esse produto antes.
+
+57
+00:06:29,430 --> 00:06:39,670
+E finalmente eu vou colocar aqui MEP pra que a gente possa colocar aquilo pra eu fazer a conversão do
+
+58
+00:06:39,670 --> 00:06:44,020
+produto pra monstrengo então vou pagar aqui.
+
+59
+00:06:44,050 --> 00:06:48,630
+Vai ser uma faixa que vai receber um produto e vai converter isso pra um.
+
+60
+00:06:48,780 --> 00:06:57,070
+Eu vou fazer o que aqui vou chamar a chamada promocional que vai receber aqui quem sabe que eu vou fazer.
+
+61
+00:06:57,060 --> 00:06:58,630
+Vai ser aprovei.
+
+62
+00:06:58,760 --> 00:07:08,950
+Vou colocar o nome do produto Produto Ponto de nome e vou colocar aqui ponto parece ter um preço que
+
+63
+00:07:09,000 --> 00:07:09,910
+eu vou colocar aqui.
+
+64
+00:07:09,900 --> 00:07:13,900
+Precisa ter tanto cuidado aqui com a frase não só pra gente tem mais ou menos a italiana.
+
+65
+00:07:14,150 --> 00:07:19,210
+E aqui no final vou fazer uma chamada promocional que vai converter um produto Mestrinho e finalmente
+
+66
+00:07:19,210 --> 00:07:24,460
+eu vou chamar quem for it para acabar com meu pai Clarinha nome que estavam esperando até seu nome que
+
+67
+00:07:24,450 --> 00:07:30,950
+a Lívia está tendo já comentado outras vezes que é só lembrar agora não sei porquê mas que é o pai Lei
+
+68
+00:07:31,000 --> 00:07:36,100
+de Execução que essa sequência de execução quando você tem muitas funções certo.
+
+69
+00:07:36,580 --> 00:07:42,300
+Então esse é um nome também importante muito usado dentro do contexto aqui das instruídos a sua pelo
+
+70
+00:07:42,630 --> 00:07:49,230
+e aí aqui a partir de fora eu tenho o final da minha parte de execução que eu vou chamar o System pontual
+
+71
+00:07:49,710 --> 00:07:57,550
+em formato brindes ali para mostrar no console o estado final certo então fizemos aqui vários filtros
+
+72
+00:07:57,640 --> 00:08:03,690
+e nenhum elemento apareceu aqui porque eu coloquei o desconto pra ser 30 mais na verdade 30 por cento
+
+73
+00:08:03,690 --> 00:08:08,380
+de desconto e zero ponto pra estar aqui levemente meu algorítimo.
+
+74
+00:08:08,710 --> 00:08:15,360
+Então nesse caso nós temos três produtos no final mas temos um notebook que tem um valor mais caro um
+
+75
+00:08:15,380 --> 00:08:21,610
+certo notebook que ele de fato está com 32 por cento ele tem frete grátis nós temos a impressora de
+
+76
+00:08:21,770 --> 00:08:28,880
+1247 desconto frete grátis e finalmente nós temos um monitor que também é um produto que tem um produto
+
+77
+00:08:28,880 --> 00:08:35,230
+relevante tem preço relevante é zero com 31 golos era talvez o primeiro produto relevante fosse mais
+
+78
+00:08:35,230 --> 00:08:42,110
+interessante colocar um nome para de cada dia pra isso pra ela pois o produto possui ela lanchinho o
+
+79
+00:08:42,100 --> 00:08:46,360
+preço não tem um preço o agravante é o preço que é maior igual aqui.
+
+80
+00:08:46,530 --> 00:08:52,230
+Então fizemos aqui até um pouco mais o que eu tinha planejado que seria dois filtros mais baixa e comentar
+
+81
+00:08:52,820 --> 00:08:57,260
+que você acaba tendo dois filhos ou como entrar esse aqui preço é alarmante você vai ver que a caneta
+
+82
+00:08:57,260 --> 00:09:03,630
+o lápis também vai aparecer e o caderno também que são dois produtos que talvez não faça sentido eu
+
+83
+00:09:03,640 --> 00:09:09,700
+ficar digamos assim priorizando esses dois produtos no site com o que tinha valor agregado talvez muito
+
+84
+00:09:09,700 --> 00:09:14,300
+baixo sei só da Nokia algumas ideias do que poderia acontecer na prática.
+
+85
+00:09:14,470 --> 00:09:20,560
+Então fica aí pessoal e aqui a gente está usando fóruns pra mostrar mais for isso pode ser uma função
+
+86
+00:09:20,560 --> 00:09:24,230
+que dentro desse foguete você pode enviar dados por banco de dados.
+
+87
+00:09:24,400 --> 00:09:31,120
+Você pode fazer por exemplo para cada produto algum tipo de processamento diferente gerar um valor que
+
+88
+00:09:31,120 --> 00:09:36,340
+você possa colocar no banco de dados ou colocar em memória ou mesmo enviar um som para alguém.
+
+89
+00:09:36,640 --> 00:09:40,960
+Então tem muitas possibilidades aqui por enquanto ele está trabalhando com o console aí não estaremos
+
+90
+00:09:40,960 --> 00:09:46,660
+outros momentos para criar projetos reais aí sim para poder usar isso num contexto mais realista mas
+
+91
+00:09:46,660 --> 00:09:52,240
+muito legal a gente já tá vendo muitas coisas interessantes aplicando lógicas usando esse paradigma
+
+92
+00:09:52,240 --> 00:09:53,920
+na programação funcional.
+
+93
+00:09:53,970 --> 00:09:58,990
+Eu acho que já deve estar mais claro na cabeça de vocês como esse tipo de abordagem pode te ajudar a
+
+94
+00:09:58,990 --> 00:10:04,030
+escrever escolhe o certo principalmente quando você já tem esses predicados definidos.
+
+95
+00:10:04,100 --> 00:10:10,950
+Quando você já tem essas funções de mapeamento também definidas é simplesmente um a uma ideia é simplesmente
+
+96
+00:10:11,030 --> 00:10:16,810
+o trabalho de juntar essas pequenas partes e montar o seu pai plano de execução que é o nome que eu
+
+97
+00:10:16,820 --> 00:10:21,640
+devia ter falado antes e acaba esquecendo de montar o seu pai plano de execução para você montar todo
+
+98
+00:10:21,640 --> 00:10:27,880
+o fluxo do processamento da sua lógica levam em consideração composição de funções funções pequenas
+
+99
+00:10:28,270 --> 00:10:32,350
+e você transformando o dado a partir do momento que ele vai passando por cada um onde essas funções
+
+100
+00:10:32,350 --> 00:10:38,230
+tanto de filtro como de mapa e nós também iremos trabalhar com outras funções como por exemplo o Windows
+
+101
+00:10:38,560 --> 00:10:40,310
+que será abordado na proximal.

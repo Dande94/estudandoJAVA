@@ -1,0 +1,339 @@
+1
+00:00:00,260 --> 00:00:05,340
+Pessoal vamos agora criar uma outra tabela que a tabela de cidades vai ser muito parecido com o processo
+
+2
+00:00:05,340 --> 00:00:09,250
+de criar a Tabela de estados que nós já fizemos na aula anterior.
+
+3
+00:00:09,300 --> 00:00:16,110
+Só que vai ter uma variação que é o fato de ter uma chave estrangeira ou seja uma cidade e o Estado
+
+4
+00:00:16,110 --> 00:00:17,010
+tem uma relação.
+
+5
+00:00:17,010 --> 00:00:23,700
+O Estado tem muitas cidades ou seja nessa situação que é para muitos a taxa é bem primária da tabela
+
+6
+00:00:23,700 --> 00:00:25,090
+de junho que é o Estado.
+
+7
+00:00:25,110 --> 00:00:30,480
+Essa chave vai para a tabela de cidades e lá ela fica como por exemplo o Estado Aydin.
+
+8
+00:00:30,600 --> 00:00:36,360
+E essa coluna está doidinha vai ser a chave estrangeira que vai tá referenciando a chave primária de
+
+9
+00:00:36,360 --> 00:00:42,020
+outra tabela para que haja uma relação um para muitos entre estados e cidades.
+
+10
+00:00:42,190 --> 00:00:49,380
+Então nesse caso nós vamos criar aqui um novo arquivo eu falo o nome do arquivo vai se criar tabelas
+
+11
+00:00:49,380 --> 00:00:56,690
+cidades mundo SQL mantendo o mesmo padrão que a gente fez no Criar Tabela estado até colocar aqui e
+
+12
+00:00:56,690 --> 00:00:58,880
+estados no plural Altamir para ficar parecido.
+
+13
+00:00:59,190 --> 00:01:04,380
+Então aqui dentro da tabela a cidade faz o seguinte vou fazer um pouquinho diferente do que nós fizemos
+
+14
+00:01:04,390 --> 00:01:10,510
+na aba esse passado eu coloquei aquele cliente tem HBO estados nesse caso vou fazer o seguinte eu criei
+
+15
+00:01:10,710 --> 00:01:15,810
+tá bom aí eu vou usar uma variação que é o seguinte F Note é que existe.
+
+16
+00:01:15,810 --> 00:01:21,840
+Ou seja cria a tabela se ela não existir e o nome da tabela vai ser cidades que significa que se ele
+
+17
+00:01:21,840 --> 00:01:29,070
+tem tais e tais como duas vezes cria a Tabela de estados da cota de chip que vai dar um erro dizendo
+
+18
+00:01:29,070 --> 00:01:30,210
+que a tabela já existe.
+
+19
+00:01:30,210 --> 00:01:35,820
+Então ele tem dois e tá mais com a tabela já existe gerou um erro nesse caso aqui.
+
+20
+00:01:36,180 --> 00:01:42,040
+Voltando pra cá só as tais como mais uma vez não vai dar problema porque existe esse filtro que disse
+
+21
+00:01:42,060 --> 00:01:49,200
+não existir certa lá eu vou colocar aqui ali muitos sem sinal note no alto incremento pra ser a nossa
+
+22
+00:01:49,200 --> 00:01:50,600
+chave e sintética.
+
+23
+00:01:50,600 --> 00:01:54,260
+Quais achava alto auto incremento que será nossa chave primária da tabela.
+
+24
+00:01:54,320 --> 00:01:59,530
+Quem chama de Sound disse que não achava natural e vamos assinar a cidade e a cidade não tem.
+
+25
+00:01:59,960 --> 00:02:06,390
+Aí vai ter uma idéia do meu sistema tanto faz mal a dois mil se o valor do seu valor é 10 não importa
+
+26
+00:02:06,660 --> 00:02:11,240
+porque é uma chave sintética usada para fazer os relacionamentos dentro do meu sistema.
+
+27
+00:02:11,310 --> 00:02:14,790
+Então o nome da cidade vai baixar em 55.
+
+28
+00:02:14,790 --> 00:02:19,380
+Nesse caso eu coloquei um valor maior porque são muitas cidades habitualmente vai ter um cidade com
+
+29
+00:02:19,400 --> 00:02:24,440
+nome bem maior do que 45 então coloquei um valor já para dar uma certa folga além do nome.
+
+30
+00:02:24,480 --> 00:02:30,140
+Vamos colocar aqui uma coluna chamado Estado Vanderlan ou seja o nome da tabela.
+
+31
+00:02:30,150 --> 00:02:35,070
+Só que no singular porque apenas o Estado Vanderlan é o nome da coluna essa padronização que eu vou
+
+32
+00:02:35,070 --> 00:02:35,460
+usar.
+
+33
+00:02:35,940 --> 00:02:42,000
+Então como não é quem insistindo Eu não uso aqui por exemplo a notação meu keys ou passo qualquer porque
+
+34
+00:02:42,030 --> 00:02:44,230
+não é sensitivo então largou tudo junto.
+
+35
+00:02:44,250 --> 00:02:50,460
+Então normalmente quando o nome de uma coluna é formado por mais de uma palavra você pode colocar por
+
+36
+00:02:50,460 --> 00:02:53,340
+exemplo onde delay que é o padrão mais utilizado em banco de dados.
+
+37
+00:02:53,620 --> 00:03:02,310
+Então está aí um site ótimo ou seja vai ser um inteiro não sem sem sinal e vai ser um valor obrigatório
+
+38
+00:03:02,410 --> 00:03:09,140
+de toda a cidade obrigatoriamente estará vinculada ao Estado por que esse campo é obrigatório.
+
+39
+00:03:09,330 --> 00:03:15,990
+Além disso eu vou ter a área que é um decimal de 10 dígitos e dois dígitos desses 10 é formado pelo
+
+40
+00:03:15,990 --> 00:03:18,990
+ponto flutuante que vai ser uma área de quilômetros quadrados.
+
+41
+00:03:18,990 --> 00:03:25,140
+Então vou usar o primeiro aqui pra céu aí obviamente como a gente já esperava e agora vou criar um fórum
+
+42
+00:03:25,230 --> 00:03:27,430
+que seja uma chave estrangeira.
+
+43
+00:03:27,690 --> 00:03:35,100
+Aqui vai ser exatamente o estado onde ela Aydin é esse estado onde amanhã vai referencial outra tabela
+
+44
+00:03:35,400 --> 00:03:41,210
+ou seja outra coluna de outra tabela então qualquer outra tabela vou usar uma palavrinha chamado refere
+
+45
+00:03:41,210 --> 00:03:48,600
+se à tabela Estado e a coluna Aydin ou seja a coluna estado onde amanhã dia que é do tipo inteiro da
+
+46
+00:03:48,600 --> 00:03:54,980
+mesma forma como o inteiro lá na tabela Estado que não aceita nulo porque eu tenho aqui obrigatoriamente.
+
+47
+00:03:54,980 --> 00:03:59,770
+O Estado está vinculado que uma cidade está vinculada ao Estado melhor dizendo.
+
+48
+00:03:59,860 --> 00:04:07,170
+Então fora em que essa coluna está onde a realidade que referencia a tabela é estados e mais especificamente
+
+49
+00:04:07,170 --> 00:04:09,570
+a coluna da tabela estado.
+
+50
+00:04:09,690 --> 00:04:14,610
+Fazendo isso eu posso ter aqui um ponto e vírgula se por vários clientes você tem que colocar ponto
+
+51
+00:04:14,610 --> 00:04:15,150
+e vírgula.
+
+52
+00:04:15,450 --> 00:04:20,830
+Mas se for apenas o único crédito você pode pressioná los do ponto Evil então selecionado aqui eu vou
+
+53
+00:04:20,820 --> 00:04:23,620
+dar um como shift a executou.
+
+54
+00:04:23,640 --> 00:04:29,580
+Ele vai dizer que nesse caso deu tudo certo ou servidor dele um estado dos dois seu mas está outra vez
+
+55
+00:04:29,590 --> 00:04:35,220
+isso não vai ter problema nenhum ele vai executar não vai gerar um erro mas simplesmente não vai criar
+
+56
+00:04:35,230 --> 00:04:40,620
+porque já existe uma tabela o pessoal nós criamos a nossa tabela 1 fazer mais um teste aqui começa o
+
+57
+00:04:40,620 --> 00:04:49,500
+segundo jogo eu vou duplicar essa linha de duplicar isso vou colocar aqui embaixo só pra gente fazer
+
+58
+00:04:49,500 --> 00:04:50,510
+um teste.
+
+59
+00:04:50,550 --> 00:04:58,680
+Vou mudar o nome da tabela pra testes no singular mesmo vou colocar esse problema que vou tirar daqui
+
+60
+00:05:00,300 --> 00:05:06,530
+aqui em cima e vai ser uma tabela que vai ter apenas um único cálculo tirar cinco peças que no final
+
+61
+00:05:06,830 --> 00:05:09,910
+estão executando isso contra o Shift.
+
+62
+00:05:10,490 --> 00:05:19,140
+Estou olhando aqui deu certo se eu abri la o bem só pra gente ver se vc está aberto aqui sobre bens
+
+63
+00:05:20,020 --> 00:05:26,710
+você vai ver que além de ter as tabelas que eu já criei no caso o que a tabela cidades e a tabela estados
+
+64
+00:05:26,720 --> 00:05:33,970
+também criou a tabela Tech certo estão voltando aqui você pode usar essa mesma estratégia posso fazer
+
+65
+00:05:33,970 --> 00:05:38,570
+tais como duas vezes com chefe e ele não vai criar uma tabela.
+
+66
+00:05:38,800 --> 00:05:42,700
+Eu não precisei colocar o prêmio aqui embaixo coloquei direto na definição.
+
+67
+00:05:42,700 --> 00:05:48,940
+De fato uma chave primária olhando o chão olhando aqui a tabela aplicando você vai ver por exemplo os
+
+68
+00:05:48,940 --> 00:05:54,710
+índices dos índices e o índice primário que foi associado a essa coluna que só tem essa coluna.
+
+69
+00:05:54,820 --> 00:06:00,640
+Então voltam aqui provisórios tudo só pra mostrar pra vocês o comando que seria o drop drop então até
+
+70
+00:06:00,750 --> 00:06:01,700
+o tem.
+
+71
+00:06:01,840 --> 00:06:03,100
+No Casa que tem um drop.
+
+72
+00:06:03,430 --> 00:06:08,630
+Só que agora eu vou para a tabela If existe e não é final.
+
+73
+00:06:08,670 --> 00:06:13,870
+Isso só faz sentido trocar uma tabela que exista então nesse caso eu posso simplesmente colocar o comando
+
+74
+00:06:13,870 --> 00:06:17,170
+assim como Drop teimou e aquisições.
+
+75
+00:06:17,170 --> 00:06:22,390
+A tabela teste das Control Shift e ele vai executar aqui.
+
+76
+00:06:22,390 --> 00:06:25,060
+Esse comando clicando aqui embaixo.
+
+77
+00:06:25,300 --> 00:06:31,670
+Drop Effects estes testes possa executar mais de uma vez porque nesse caso o que eu estou fazendo teste
+
+78
+00:06:31,750 --> 00:06:38,800
+ao mesmo Insert irá se isso e tentar se Drop uma tabela que não exigiria gerar um erro dizendo tabela
+
+79
+00:06:38,800 --> 00:06:44,170
+teste não é conhecida dentro desse esquema WM ou seja porque a tabela não existam.
+
+80
+00:06:44,170 --> 00:06:49,450
+Voltando aqui vou colocar um comentário basta dar um combo de barra vai colocar o comentário selecionando
+
+81
+00:06:49,460 --> 00:06:55,180
+essas linhas aqui onde Bart vai colocar um comentário só pra mostrar que eu criei uma tabela e drop
+
+82
+00:06:55,180 --> 00:06:59,450
+em uma tabela pra você ver um pouco mais do BDRs de alta definição legais.
+
+83
+00:06:59,500 --> 00:07:05,740
+Voltando lá para o UOL que não Refresh você vai ver que aqui tem o botão de refresh nem veja aqui a
+
+84
+00:07:05,740 --> 00:07:11,080
+tabela Tech não existe mais dentro do nosso esquema apenas a tabela cidades e estados que é exatamente
+
+85
+00:07:11,080 --> 00:07:14,700
+as tabelas que nós vamos trabalhar a partir da próxima aula e disparou.

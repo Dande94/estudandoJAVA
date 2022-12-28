@@ -1,0 +1,711 @@
+1
+00:00:00,270 --> 00:00:05,850
+Agora nós vamos falar um pouquinho sobre a anotação do uso do ponto dentro de um programa Java é algo
+
+2
+00:00:05,850 --> 00:00:11,360
+extremamente importante e relevante embora a gente vai aprofundar esse item mais na frente.
+
+3
+00:00:11,430 --> 00:00:17,220
+Eu Quero Já mencionar o uso dele agora já que ele faz parte do dia a dia da escrita de qualquer programa
+
+4
+00:00:17,230 --> 00:00:20,150
+por exemplo System Ponto a Ponto.
+
+5
+00:00:21,270 --> 00:00:25,520
+Isso tem um significado importante eu quero começar a explicar um pouco do significado na sala.
+
+6
+00:00:25,530 --> 00:00:31,560
+Para isso nós vamos criar uma nova classe dentro do pacote de fundamentos então um pacote de fundamentos
+
+7
+00:00:31,980 --> 00:00:39,810
+o nome da classe será Operação Ponto ou finalizar usando a primeira letra maiúscula e cada nova palavra
+
+8
+00:00:39,810 --> 00:00:40,970
+com letra maiúscula.
+
+9
+00:00:40,980 --> 00:00:47,850
+Aqui nós vamos definir o nosso método inicial como que a gente cria declara uma variável dentro de um
+
+10
+00:00:47,850 --> 00:00:48,670
+programa Java.
+
+11
+00:00:48,690 --> 00:00:54,870
+Já viu isso então por exemplo dá a recebe 2 ponto 3 ponto e vírgula.
+
+12
+00:00:54,870 --> 00:01:00,830
+Da mesma forma posso criar declarar variáveis que não são tipos primitivos declarou.
+
+13
+00:01:00,870 --> 00:01:10,530
+Logo declaramos inteiro baião xote Floating bule de chá todos eles nós declaramos e dentro desse grupo
+
+14
+00:01:10,530 --> 00:01:16,410
+de oito tipos primitivos a estreia não faz parte exatamente ela que eu vou usar para enfatizar um pouco
+
+15
+00:01:16,410 --> 00:01:20,650
+mais sobre a anotação ponto e a forma de declarar a variável da mesma forma.
+
+16
+00:01:20,670 --> 00:01:28,380
+Você tem o título você tem o identificador da variável no caso que s recebe um valor que pode ser o
+
+17
+00:01:28,380 --> 00:01:30,150
+literal entre aspas duplas.
+
+18
+00:01:30,150 --> 00:01:34,150
+Então posso colocar aqui por exemplo Bom Dia X terminar com um ponto.
+
+19
+00:01:34,290 --> 00:01:39,900
+Ou seja a estrutura dessa sentença de glória exatamente igual à estrutura de cima só que eu usei um
+
+20
+00:01:39,930 --> 00:01:47,090
+tipo da B e obviamente o literal que bate com o tipo W aqui eu usei o tipo string e o literal associado
+
+21
+00:01:47,100 --> 00:01:50,280
+vai ser um texto delimitado por aspas duplas.
+
+22
+00:01:50,520 --> 00:01:56,270
+Visualmente você percebe a diferença que no caso da bola define com letra minúscula string com S maiúsculo
+
+23
+00:01:56,280 --> 00:02:02,550
+extremamente importante se você coloca s minúsculo não existe isso em Java Princess maiúsculo e você
+
+24
+00:02:02,550 --> 00:02:08,700
+percebe que os tipos primitivos em Java são marcados que ficam marcados com roxo.
+
+25
+00:02:08,700 --> 00:02:16,160
+Na verdade tudo que é definido em roxo aqui em negrito são palavras reservadas da linguagem Java tem
+
+26
+00:02:16,170 --> 00:02:22,230
+50 e poucas palavras 52 se eu não estou enganado são poucas palavras reservadas e nessas palavras reservadas
+
+27
+00:02:22,230 --> 00:02:27,210
+estar por exemplo todos os tipos primitivos no exemplo passado que a gente colocou aqui.
+
+28
+00:02:27,270 --> 00:02:37,170
+Tipos primitivos nós temos bitch sorte tiro Long flow da bolha e chato todos eles marcado com palavras
+
+29
+00:02:37,200 --> 00:02:43,110
+reservadas da linguagem já certo então voltando aqui para o nosso notação ponto string não é um tipo
+
+30
+00:02:43,110 --> 00:02:49,410
+primitivo e string também não há palavras reservadas da linguagem e claramente você percebe pela cor
+
+31
+00:02:49,710 --> 00:02:55,100
+que é colocado aqui no tipo da variável s mais um para o nosso objetivo é falar para alavancar um pouco
+
+32
+00:02:55,140 --> 00:02:59,260
+quando você tem por exemplo o tipo como é o caso de string.
+
+33
+00:02:59,280 --> 00:03:03,500
+Você ser um pouco mais genérico tipos que não não são primitivos.
+
+34
+00:03:03,840 --> 00:03:09,420
+Você tem à sua disposição o uso do ponto em que você coloca e assim como você não tem de ficar ou colocar
+
+35
+00:03:09,420 --> 00:03:16,020
+um ponto você vai ver que tem uma série de funcionalidades à sua disposição aqui dentre elas uma funcionalidade
+
+36
+00:03:16,020 --> 00:03:22,660
+chamada de Ju ou algo contra o espaço ele vai completar a mostrar as possibilidades de sua pesquisa
+
+37
+00:03:22,680 --> 00:03:29,130
+a primeira opção que eu tenho aqui o método que é um método mais às entrar mais em detalhe no conceito
+
+38
+00:03:29,130 --> 00:03:34,890
+mais para frente um funcionalidade um comportamento da áustria que vai fazer com que a histria seja
+
+39
+00:03:34,890 --> 00:03:41,850
+convertida toda para a letra maiúscula e aí eu vou colocar aqui no System Alt Eliane e vou tentar imprimir
+
+40
+00:03:41,850 --> 00:03:49,160
+o valor DS certo se fazer isso o resultado não será aquilo que você espera ou talvez seja dependendo
+
+41
+00:03:49,410 --> 00:03:51,570
+se você já conhece ou não o tema.
+
+42
+00:03:51,600 --> 00:03:56,470
+O fato é que ele ainda vai continuar imprimindo bom dia com as letras minúsculas.
+
+43
+00:03:56,700 --> 00:04:02,580
+Aqui Brasil e você vai ver que ele continuou colocando as letras em minúsculas e tributar o maiúsculo
+
+44
+00:04:02,590 --> 00:04:04,050
+continuou maiúsculo por quê.
+
+45
+00:04:04,050 --> 00:04:10,140
+Por que essa função ela não altera o valor original ela simplesmente pega o valor que você atribui ao
+
+46
+00:04:10,140 --> 00:04:17,540
+string e convergem para a maiúscula apenas com Messi nessa linha que se eu quiser armazenar esse valor
+
+47
+00:04:17,550 --> 00:04:21,600
+se eu quiser permitir que esse valor seja propagado para as próximas linhas.
+
+48
+00:04:21,600 --> 00:04:28,650
+Como tem um é assim é uma variável posso fazer com que o valor assim receba o valor desse ponto de sua
+
+49
+00:04:28,650 --> 00:04:31,120
+pequenez ou seja esse resultado.
+
+50
+00:04:31,110 --> 00:04:34,760
+Ou seja a com todas as letras maiúsculas será armazenada.
+
+51
+00:04:34,800 --> 00:04:40,860
+A variável é essa aí sim imprimindo a letra S A que a variável esta amanhã deve ter o resultado que
+
+52
+00:04:40,860 --> 00:04:42,020
+a gente espera no caso.
+
+53
+00:04:42,020 --> 00:04:42,920
+Bom dia.
+
+54
+00:04:43,000 --> 00:04:45,120
+Estou com todas as letras maiúsculas.
+
+55
+00:04:45,210 --> 00:04:46,180
+Outro exemplo.
+
+56
+00:04:46,200 --> 00:04:53,160
+Outra função que você tem a partir do conto esse conto você tem uma função chamada Play isso seja substituir
+
+57
+00:04:53,550 --> 00:04:58,750
+você passa por exemplo aqui um X que é o caractere que eu coloquei por último.
+
+58
+00:04:58,750 --> 00:05:06,740
+E nesse caso eu substituir por senhora em tão bom dia senhora nesse caso vai acontecer exatamente a
+
+59
+00:05:06,740 --> 00:05:10,430
+mesma coisa que aconteceu no caso passado fazem não só isso.
+
+60
+00:05:10,430 --> 00:05:12,620
+Ele não vai alterar o conteúdo das.
+
+61
+00:05:12,800 --> 00:05:15,100
+Então se vai executá lo se vai bem continua.
+
+62
+00:05:15,110 --> 00:05:20,340
+Bom dia X mas se eu fizer aqui e assim recebe o conteúdo.
+
+63
+00:05:20,480 --> 00:05:26,100
+Aí você vai ver o resultado vai ser aquele que a gente espera bom dia sim hora como o primeiro substitui
+
+64
+00:05:26,150 --> 00:05:31,380
+sem hora e depois com o apertei significa que a senhora já não está com a letra maiúscula.
+
+65
+00:05:31,640 --> 00:05:37,160
+Mas se eu inverter a lógica eu falei pra vocês lá no começo né que a Ordem dos Passos vai influenciar
+
+66
+00:05:37,160 --> 00:05:37,820
+no resultado.
+
+67
+00:05:37,820 --> 00:05:43,280
+Lembro do exemplo da meia noite se mexi meia calça e a blusa.
+
+68
+00:05:43,300 --> 00:05:48,920
+A Ordem vai com certeza gerar impacto no resultado final aqui é a mesma coisa e tanto vai ser algum
+
+69
+00:05:48,980 --> 00:05:54,410
+dia sem hora com todas as letras maiores que primeiro substitui o X o sim hora depois ele transformou
+
+70
+00:05:54,590 --> 00:05:55,700
+letras maiúsculas.
+
+71
+00:05:55,700 --> 00:06:01,370
+Outra função possível na verdade o meu objetivo não é tanto mostrar as funções da histria mas falar
+
+72
+00:06:01,370 --> 00:06:07,020
+um pouco da anotação contudo tem uma função chamada como Katie que vai concatenar um outro estridente
+
+73
+00:06:07,460 --> 00:06:10,370
+dentro assim como posso concatenar com mais.
+
+74
+00:06:10,380 --> 00:06:12,880
+Eu também posso concatenar com essa função.
+
+75
+00:06:13,100 --> 00:06:18,560
+Então aqui eu posso colocar várias exclamações do final contribuindo da mesma forma não vai gerar impacto
+
+76
+00:06:18,560 --> 00:06:19,580
+nenhum dessa forma.
+
+77
+00:06:19,580 --> 00:06:24,020
+Se eu fizer e assim recebe o valor de esse ponto com Kate obviamente.
+
+78
+00:06:24,050 --> 00:06:26,390
+Agora nós vamos ter o resultado final certo.
+
+79
+00:06:26,390 --> 00:06:32,450
+Outra coisa interessante é que a gente tem várias funcionalidades ou vários métodos embora eu esteja
+
+80
+00:06:32,450 --> 00:06:39,900
+falando não é método nesse momento não é não é requerido que você saiba esse conceito só se método com
+
+81
+00:06:39,920 --> 00:06:46,040
+algoritmo com ação com o verbo ou seja eu estou fazendo alguma ação algum algorítimo alguma lógica em
+
+82
+00:06:46,040 --> 00:06:48,080
+cima de um determinado dado.
+
+83
+00:06:48,170 --> 00:06:53,300
+é pra isso pra gente acessar os métodos de um determinado dado a gente usa a anotação conta.
+
+84
+00:06:53,300 --> 00:06:59,390
+Então nós tínhamos a histria como sendo um dado esse texto e a partir de um estranho você consegue ter
+
+85
+00:06:59,390 --> 00:07:04,240
+uma série de funcionalidades que vai te ajudar a transformar esse dado.
+
+86
+00:07:04,240 --> 00:07:10,250
+Outra questão importante ou interessante é o fato de que se eu colocar aqui ou diretamente um valor
+
+87
+00:07:10,610 --> 00:07:15,570
+histórico por exemplo lá eu eu posso junto do valor literal colocar um ponto.
+
+88
+00:07:15,570 --> 00:07:22,370
+Eu também tem um acesso às mesmas funcionalidades por exemplo porque ele vai pegar o meu valor literal
+
+89
+00:07:22,370 --> 00:07:25,900
+calculou que aquilo é o mesmo não armazenando nenhuma variável.
+
+90
+00:07:26,240 --> 00:07:32,480
+Eu posso ter o valor transformado ele vai exibir o estado final colocou o uso que eu poderia também
+
+91
+00:07:32,810 --> 00:07:37,350
+pegar isso aqui armazenar isso Listening X.
+
+92
+00:07:37,520 --> 00:07:43,940
+O resultado vai ser em cima desse literal apertar e colocar o valor X aqui embaixo.
+
+93
+00:07:44,120 --> 00:07:49,400
+O resultado é aquilo que a gente espera valeu tanto posso armazenar uma variável quanto posso colocar
+
+94
+00:07:49,520 --> 00:07:51,730
+o x diretamente na frente ali.
+
+95
+00:07:51,740 --> 00:08:01,010
+Outra coisa interessante vou criar aqui uma variável y tal string variável só recebe o valor por exemplo
+
+96
+00:08:01,060 --> 00:08:05,910
+para esse mesmo caso algum dia X que é bom dia X.
+
+97
+00:08:06,080 --> 00:08:13,950
+Vou colocar um ponto e vou dar um plays plays colocando o valor de x pra c.
+
+98
+00:08:13,970 --> 00:08:19,970
+Por exemplo qualquer tipo de site para ficar pequenininho ponto e vírgula se eu colocar aqui no final
+
+99
+00:08:20,540 --> 00:08:24,990
+o resultado de y é aquele que a gente espera já é resultado.
+
+100
+00:08:25,110 --> 00:08:26,540
+Então você tem que.
+
+101
+00:08:26,540 --> 00:08:27,440
+Bom dia.
+
+102
+00:08:27,530 --> 00:08:31,560
+Se eu quiser posso continuar usando a notação ponto para os próximos passos.
+
+103
+00:08:31,550 --> 00:08:37,010
+Eu falei pra vocês se uma sentença de código Java não necessariamente fica dentro de uma linha posso
+
+104
+00:08:37,010 --> 00:08:38,300
+quebrar em várias linhas.
+
+105
+00:08:38,390 --> 00:08:43,060
+é um local que você pode usar para quebrar uma sentença de código em múltiplas linhas.
+
+106
+00:08:43,070 --> 00:08:45,110
+é exatamente o tem um ponto.
+
+107
+00:08:45,110 --> 00:08:48,330
+Você pode quebrar tanto antes do ponto fazer isso.
+
+108
+00:08:48,470 --> 00:08:52,700
+Como você pode quebrar depois do ponto é uma questão de pedido de preferência então vou quebrar aqui
+
+109
+00:08:52,700 --> 00:08:54,140
+e colocar o ponto pra baixo.
+
+110
+00:08:54,590 --> 00:08:55,910
+Então bom dia.
+
+111
+00:08:55,940 --> 00:08:56,820
+Ponto.
+
+112
+00:08:56,830 --> 00:09:00,950
+Isso continua exatamente a mesma coisa você tem que bom dia.
+
+113
+00:09:01,430 --> 00:09:08,390
+Eu posso colocar de novo ponto e aí usar o Ju Keys executando.
+
+114
+00:09:08,420 --> 00:09:12,980
+Você vai ver que ele vai tanto fazer o replay se como ele vai colocar o jogo por causa que eu botei
+
+115
+00:09:12,980 --> 00:09:18,620
+longe quem mais eu queria era pequena não coloquei letras minúsculas ou porquês executando contra um
+
+116
+00:09:18,820 --> 00:09:19,460
+exército.
+
+117
+00:09:19,460 --> 00:09:21,290
+Novamente você vai ter que bom dia.
+
+118
+00:09:21,690 --> 00:09:24,120
+Eu posso colocar isso aqui embaixo se quiser seja.
+
+119
+00:09:24,140 --> 00:09:26,420
+Isso tudo é uma sentença de código só.
+
+120
+00:09:26,510 --> 00:09:33,470
+Como eu também posso continuar a quebrar a linha e colocar aqui ponto com Kate e colocar a concatenação
+
+121
+00:09:33,470 --> 00:09:34,540
+aqui no final.
+
+122
+00:09:34,580 --> 00:09:37,500
+Eu tenho exatamente a mesma sentença de Cole.
+
+123
+00:09:37,580 --> 00:09:42,620
+Não vejo resultado mais as mesmas transformações só que agora tudo numa linha só.
+
+124
+00:09:42,680 --> 00:09:47,390
+Eu até poderia colocar tudo numa linha só posso até maximizar isso aparece mais coisas.
+
+125
+00:09:47,780 --> 00:09:56,250
+Então colocar aqui o Keys e né você consegue usar porque isso potencialmente nós temos aqui um monstrinho.
+
+126
+00:09:56,810 --> 00:10:05,220
+O resultado dessa string ponto alguma coisa também é estranho o resultado de bom dia Ripley é um estranho
+
+127
+00:10:05,300 --> 00:10:08,210
+se eu colocar um tijolo porque eles também imaginaram um estilingue.
+
+128
+00:10:08,690 --> 00:10:14,420
+Ou seja esses sim também têm o metro com Kate não serve como ator retornando um estranho onde ele vai
+
+129
+00:10:14,420 --> 00:10:15,960
+conseguir fazer isso.
+
+130
+00:10:15,990 --> 00:10:20,830
+Vamos supor que nesse ponto eu vou chamar a função chamada lance que vai dar o tamanho da mídia.
+
+131
+00:10:20,900 --> 00:10:23,310
+Olha o resultado dessa função.
+
+132
+00:10:23,330 --> 00:10:25,400
+Ele é um valor inteiro certo.
+
+133
+00:10:25,520 --> 00:10:29,350
+Então seu retorno ao um inteiro que o deixou a pequena não é.
+
+134
+00:10:29,420 --> 00:10:36,860
+Não existe dentro dos inteiros aí vai quebrar a sequência lógica o fato é que você sabendo que o resultado
+
+135
+00:10:36,860 --> 00:10:42,790
+de um replay só coloca Anakin Berkeley se você sabe que o resultado continua sendo um.
+
+136
+00:10:43,070 --> 00:10:46,720
+Você pode concatenar quantos replays você quiser.
+
+137
+00:10:46,720 --> 00:10:47,200
+Por quê.
+
+138
+00:10:47,240 --> 00:10:53,440
+Isso ao extremo o resultado dessa expressão também restringe o resultado dessa outra expressão também
+
+139
+00:10:53,450 --> 00:10:58,220
+este vídeo você pode usar o comando para concatenar várias chamadas em cadeia.
+
+140
+00:10:58,250 --> 00:11:02,060
+Eu tanto posso usar aqui quebrar o encadeamento.
+
+141
+00:11:02,120 --> 00:11:07,290
+Como você pode encaixar várias chamadas numa única sentença escolhe o quê exatamente.
+
+142
+00:11:07,500 --> 00:11:12,710
+Eu estou mostrando tudo isso dizer respeito a não atacar um ponto lá eu posso usar não passa um ponto
+
+143
+00:11:12,710 --> 00:11:16,790
+em todos os cenários em Java está presente o ponto em todos os cenários.
+
+144
+00:11:16,800 --> 00:11:18,270
+Não né.
+
+145
+00:11:18,340 --> 00:11:21,090
+Isso não está presente dentro dos tipos primitivos.
+
+146
+00:11:21,110 --> 00:11:29,510
+Não vou colocar aqui ou títulos primitivos não tem o operador.
+
+147
+00:11:29,520 --> 00:11:30,350
+Ponto.
+
+148
+00:11:30,470 --> 00:11:32,600
+Coloca aqui entre aspas duplas.
+
+149
+00:11:32,630 --> 00:11:36,840
+Então se eu criar aqui muitos Ah recebe o valor três.
+
+150
+00:11:37,170 --> 00:11:41,190
+E ao tentar fazer a falta alguma coisa não encontrou espaço.
+
+151
+00:11:41,270 --> 00:11:42,350
+Não tem nada.
+
+152
+00:11:42,360 --> 00:11:42,890
+Por quê.
+
+153
+00:11:42,930 --> 00:11:46,220
+Porque eu tinha que primitivo a única coisa que ele tem é o próprio valor.
+
+154
+00:11:46,220 --> 00:11:50,400
+A única coisa que consigo tipo armazena é o valor e nada mais.
+
+155
+00:11:50,400 --> 00:11:56,780
+E obviamente você pode fazer operações com os títulos permitindo somar subtrair dividir e passar o valor
+
+156
+00:11:57,050 --> 00:12:04,400
+para por exemplo encher uma data e tal mas você não pode ter comportamentos e atributos associados aos
+
+157
+00:12:04,400 --> 00:12:05,490
+tipos primitivos.
+
+158
+00:12:05,490 --> 00:12:11,540
+Então você não usa ponto anotação ponto quântico primitivo você usa notação ponto como todo o resto
+
+159
+00:12:11,900 --> 00:12:15,240
+da API do Java com exceção dos oito tipos primitivos.
+
+160
+00:12:15,260 --> 00:12:18,650
+Nesse caso o tipo primitivo nesse sentido.
+
+161
+00:12:18,650 --> 00:12:24,760
+Não que eles sejam do tipo super leve para você trabalhar mas nesse sentido ele é um tipo mais pobre
+
+162
+00:12:24,800 --> 00:12:29,660
+porque você não tem associado a esse tipo atributos e comportamentos.
+
+163
+00:12:29,810 --> 00:12:33,350
+Você tem no mundo real as coisas não os objetos os objetos.
+
+164
+00:12:33,350 --> 00:12:38,780
+Ele tem atributos e comportamentos exatamente com o comando que você vai ter acesso aos atributos e
+
+165
+00:12:38,780 --> 00:12:40,220
+comportamentos das coisas.
+
+166
+00:12:40,220 --> 00:12:46,400
+Esse é um termo muito legal muito rico que terá um capítulo completo para isso com várias discussões
+
+167
+00:12:46,400 --> 00:12:51,590
+teóricas e práticas que a gente vai ver mais à frente sobre a orientação objeto e como isso é implementado
+
+168
+00:12:51,600 --> 00:12:52,450
+além do Java.
+
+169
+00:12:52,520 --> 00:12:57,550
+Mas por enquanto o que eu quero chamar atenção para você é exatamente o uso da notação Kondo.
+
+170
+00:12:57,620 --> 00:13:02,390
+Pode ser que alguns desses exemplos aqui ficam um pouco mais confuso pra você mas com certeza eu vou
+
+171
+00:13:02,390 --> 00:13:05,050
+explicar isso muito detalhadamente mais para frente.
+
+172
+00:13:05,360 --> 00:13:09,770
+Mas eu queria chamar atenção que ele está usando a notação ponto em vários locais.
+
+173
+00:13:09,770 --> 00:13:14,960
+Eu quero chamar a atenção pra vocês sobre essas questões sobre o uso do ponto que também é algo bastante
+
+174
+00:13:14,960 --> 00:13:21,080
+importante na sintaxe Java assim como sentenças de código assim como ponto e vírgula cinco após quebrar
+
+175
+00:13:21,080 --> 00:13:25,580
+uma sentença de acordo em múltiplas linhas e ainda assim tem que terminar com um ponto e vírgula.
+
+176
+00:13:25,580 --> 00:13:31,400
+O uso da anotação conta é extremamente importante e no caso dos tipos primitivos você não tem à sua
+
+177
+00:13:31,400 --> 00:13:32,070
+disposição.
+
+178
+00:13:32,100 --> 00:13:32,570
+O ponto.

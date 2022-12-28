@@ -1,0 +1,247 @@
+1
+00:00:00,150 --> 00:00:08,380
+Agora vou dar a resposta para vocês no desafio data e para isso nós vamos criar uma nova classe em classe.
+
+2
+00:00:08,610 --> 00:00:15,390
+O nome da classe será a data a fazer uma observação você não vai precisar criar a classe data na realidade
+
+3
+00:00:15,420 --> 00:00:21,150
+porque o jovem já tem classes que representam datas que manipulam datas está mais só para o nosso exemplo
+
+4
+00:00:21,150 --> 00:00:21,690
+aqui.
+
+5
+00:00:21,870 --> 00:00:28,070
+Nesse caso eu vou criar três atributos dia mês e ano os três vão ser valores inteiros não colocar qualquer
+
+6
+00:00:29,010 --> 00:00:30,030
+dia.
+
+7
+00:00:30,030 --> 00:00:36,680
+Ponto e vírgula menos vírgula viu.
+
+8
+00:00:36,720 --> 00:00:43,030
+Então do ponto de vista da classe data eu não preciso me preocupar mais do que certo sou só que define
+
+9
+00:00:43,030 --> 00:00:45,280
+os atributos já é o suficiente.
+
+10
+00:00:45,450 --> 00:00:52,070
+Vamos criar aqui uma nova classe nome da classe será data teaching.
+
+11
+00:00:52,370 --> 00:00:58,200
+Eu não estou colocar no teste data teste produto porque eu quero que fique juntinho daqui Hitachi Data
+
+12
+00:00:58,220 --> 00:01:01,870
+um embaixo do outro produto tacho produto de barra de DNA.
+
+13
+00:01:02,100 --> 00:01:03,570
+Pela ordem alfabética né.
+
+14
+00:01:03,570 --> 00:01:10,310
+Fica melhor assim pra teus grupinhos direitinho mas você pode colocar os nomes que você quiser sem problema.
+
+15
+00:01:10,430 --> 00:01:17,430
+Tô aqui dentro de um data Tech vou colocar bem dentro de mim eu vou instancia uma data tal qual padrão
+
+16
+00:01:17,490 --> 00:01:19,200
+você define o tipo da variável.
+
+17
+00:01:19,200 --> 00:01:24,870
+Depois o nome da variável depois você coloca o símbolo da atribuição que é igual e depois você chama
+
+18
+00:01:24,870 --> 00:01:27,770
+o construtor usado MIL E depois chutou.
+
+19
+00:01:27,870 --> 00:01:36,820
+Finalizando a sentença de me então coloca aquela data qual cada um recebe data.
+
+20
+00:01:37,310 --> 00:01:39,480
+Coloca os parentes ponto e vírgula.
+
+21
+00:01:39,480 --> 00:01:46,050
+Eu tenho a minha primeira data para eu ser tarde e mais um ano e então dê um reserva enquanto o dia
+
+22
+00:01:46,410 --> 00:01:48,860
+recebe o valor CET.
+
+23
+00:01:48,900 --> 00:01:59,670
+Agora quanto mais recebe o mês e o ano recebe o valor 2021.
+
+24
+00:01:59,670 --> 00:02:07,490
+Ponto e vírgula pode definir a minha primeira data e vou imprimia que usa até 30 GF ou qualquer sinal
+
+25
+00:02:07,790 --> 00:02:18,630
+ostentado em Barra porcentagem de Barra centavo e coloco aqui para ele passar de um outro dia virgula
+
+26
+00:02:18,960 --> 00:02:31,560
+de torneios e finalmente deu um ponto na tabela mas temos aqui 7 do 11 e 2021 pra criar uma nova data
+
+27
+00:02:31,560 --> 00:02:38,110
+a gente pode também usar se for o caso a inferência é uma possibilidade não necessariamente precisa
+
+28
+00:02:38,240 --> 00:02:45,690
+usar a inferência mais só pra mostrar que também inferência ou seja que D2 agora tem um valores completamente
+
+29
+00:02:45,690 --> 00:02:46,480
+diferente né.
+
+30
+00:02:46,530 --> 00:03:00,900
+Postei aqui o dia 31 ou seja B2 todo dia recebe 31 ponto e vírgula dois automóveis servem mais 12 vírgula
+
+31
+00:03:01,230 --> 00:03:12,230
+e D2 outro ano em 2020 e posso até duplicar se ninguém jogar aqui para baixo em vez de acessar o Uber
+
+32
+00:03:12,240 --> 00:03:19,780
+onde eu vou colocar dois P2 executado executando aqui nós temos as duas datas.
+
+33
+00:03:19,780 --> 00:03:22,800
+Faltou só colocar aqui.
+
+34
+00:03:22,980 --> 00:03:29,310
+Aí ele quebra a linha matando quase 12 das 31 do 12 e 2020.
+
+35
+00:03:29,500 --> 00:03:32,000
+Posso até colocar isso aqui pra baixo o experiente chefe.
+
+36
+00:03:32,380 --> 00:03:38,500
+Só pra deixar claro que eu queria a instância de alterar os dados criei uma instância completamente
+
+37
+00:03:38,500 --> 00:03:42,490
+diferente ou seja outro espaço de memória definiu os dados aqui.
+
+38
+00:03:42,490 --> 00:03:44,910
+Finalmente imprimi as duas datas.
+
+39
+00:03:44,910 --> 00:03:47,950
+Cada um tem seu próprio valor de forma independente.
+
+40
+00:03:47,950 --> 00:03:55,750
+Por isso que eu digo que esses atributos aqui ao dia mês e ano embora esses atributos estejam dentro
+
+41
+00:03:55,750 --> 00:04:01,380
+do corpo da classe são atributos que pertencem a cada um das instâncias.
+
+42
+00:04:01,490 --> 00:04:07,490
+Sempre que eu crio uma nova instância vai ter um novo espaço de memória que vai ter está reservado para
+
+43
+00:04:07,490 --> 00:04:09,330
+o dia mês e ano.
+
+44
+00:04:09,490 --> 00:04:17,590
+Tanto é que quando você vai lá e usa a variável por exemplo D2 conta alguma coisa você vai ter as informações
+
+45
+00:04:17,590 --> 00:04:21,600
+de ano de e-mails que são os três atributos que nós criamos.
+
+46
+00:04:21,630 --> 00:04:25,920
+E você portanto leu mas tem outras coisa que eu não defini.
+
+47
+00:04:25,920 --> 00:04:31,330
+Se eu não defini Guedes que lesam definir escolho não defini nada disso.
+
+48
+00:04:31,330 --> 00:04:37,930
+Isso tem a ver com um assunto que nós vamos abordar mais à frente quero o assunto de herança um objeto
+
+49
+00:04:37,930 --> 00:04:43,450
+ele herda informações de outros objetos é algo que a gente vai trabalhar mais à frente mais aquilo que
+
+50
+00:04:43,450 --> 00:04:49,720
+você definiu dentro de data daquele estado que é o ano de o mês mais algumas coisas que foram recebidas
+
+51
+00:04:49,720 --> 00:04:50,560
+por herança.
+
+52
+00:04:50,860 --> 00:04:55,770
+Mas como não é um tema que será abordado agora depois a gente fala sobre isso entender um pouco mais
+
+53
+00:04:55,780 --> 00:04:57,390
+como funciona isso em Java.
+
+54
+00:04:57,600 --> 00:05:03,880
+Mas por enquanto esse é o nosso desafio data duas datas criadas ou seja duas instâncias criadas a partir
+
+55
+00:05:03,880 --> 00:05:09,340
+da nossa classe data que foi definida ou seja a partir do tipo data que foi definido também nós não
+
+56
+00:05:09,340 --> 00:05:15,280
+precisamos importar porque está tudo dentro do mesmo pacote você está no mesmo pacote não há necessidade
+
+57
+00:05:15,280 --> 00:05:18,630
+de importar por padrão Java já conseguem encontrar.
+
+58
+00:05:18,700 --> 00:05:23,710
+Quando você usa o mandato vai procurar no pacote local se não achá la procurado Java.
+
+59
+00:05:23,730 --> 00:05:28,210
+Por outro lembre se não achar que vai dar um erro porque ele vai exigir que você importe mais nesse
+
+60
+00:05:28,210 --> 00:05:30,820
+caso como ele encontrou dentro do próprio pacote.
+
+61
+00:05:30,830 --> 00:05:33,610
+Então nosso exemplo funcionou perfeitamente.
+
+62
+00:05:33,610 --> 00:05:37,190
+Então essa é a resposta do nosso desafio data e até a próxima aula.

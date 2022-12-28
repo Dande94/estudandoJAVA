@@ -1,0 +1,227 @@
+1
+00:00:00,260 --> 00:00:07,440
+Essa aula vai ser uma aula super tranquila e super rápida paraque a gente possa iniciar o nosso projeto
+
+2
+00:00:07,440 --> 00:00:08,330
+com esse primeiro bonde.
+
+3
+00:00:08,340 --> 00:00:15,600
+Para quem não tem experiência prévia com Java para web quem nunca usou por exemplo um servidor web em
+
+4
+00:00:15,600 --> 00:00:23,640
+Java configurando a aplicação por exemplo Java e não tem a sensação não vai ter digamos a alegria de
+
+5
+00:00:23,640 --> 00:00:24,740
+estar tal projeto.
+
+6
+00:00:24,800 --> 00:00:28,770
+Projeto Experimental como quem já passou por essas situações no passado.
+
+7
+00:00:28,770 --> 00:00:29,430
+Por quê.
+
+8
+00:00:29,720 --> 00:00:35,480
+Porque o processo de configuração era muito complicado você tinha muito espaço de convocar um time que
+
+9
+00:00:35,490 --> 00:00:41,520
+é muito complicado mas você tinha um determinado espaço de configuração dependendo do tipo de ambiente
+
+10
+00:00:41,850 --> 00:00:43,560
+ou do tipo de aplicação.
+
+11
+00:00:43,630 --> 00:00:45,480
+Realmente era complicado né.
+
+12
+00:00:45,490 --> 00:00:51,080
+Eu trabalhei em grandes projetos com Java e usando por exemplo o Web lógico que é um servidor da Oracle
+
+13
+00:00:51,540 --> 00:00:56,280
+e era realmente muito complicado tinha muitos espaços de configuração.
+
+14
+00:00:56,280 --> 00:00:59,580
+Não era simples de trabalhar com um projeto Java para a web.
+
+15
+00:00:59,910 --> 00:01:06,390
+Nesse cenário que eu já trabalhei no passado aqui vai ser extremamente simples porque quem já está acostumado
+
+16
+00:01:06,390 --> 00:01:12,420
+a executar uma classe com o método e tudo já vem previamente configurado para você com o Spring.
+
+17
+00:01:12,430 --> 00:01:13,830
+Vocês vão perceber isso agora.
+
+18
+00:01:14,220 --> 00:01:18,490
+Então vou entrar aqui dentro dessa semana em pontos Java.
+
+19
+00:01:18,540 --> 00:01:24,720
+Aqui nós temos o nosso pacote na BR pontocom um pouco com seja o nome da empresa e o nome do nosso projeto
+
+20
+00:01:24,730 --> 00:01:32,730
+que exercícios SB e aqui dentro nós temos exercícios SB Application estão aplicando aqui dentro nós
+
+21
+00:01:32,730 --> 00:01:38,950
+temos aqui um código Supersimples basicamente uma classe anotada com esse Spring Bush Application.
+
+22
+00:01:38,970 --> 00:01:45,060
+Então vocês vão perceber que há o uso de Another Child dentro uma experiência muito presente assim como
+
+23
+00:01:45,060 --> 00:01:50,130
+é presente no JP a gente vai conseguir fazer coisas muito facilmente.
+
+24
+00:01:50,130 --> 00:01:56,100
+Exatamente por conta das anotações dos anotam a classe automaticamente o Spring detecta e já configura
+
+25
+00:01:56,100 --> 00:01:57,930
+pra gente o que precisa ser feito.
+
+26
+00:01:58,260 --> 00:02:01,700
+E basicamente a gente vai chamar o experiente Application.
+
+27
+00:02:02,160 --> 00:02:07,720
+Esse é um método estático já que a gente não cria uma instância de espinha Application e ele vai executar
+
+28
+00:02:07,740 --> 00:02:10,430
+nossa aplicação a partir desse método.
+
+29
+00:02:10,650 --> 00:02:14,160
+Então executando como qualquer outra classe Java você clique aqui.
+
+30
+00:02:14,160 --> 00:02:19,430
+Ele vai estar lá para a gente Distribution colocando aqui as informações e assim que ele terminar de
+
+31
+00:02:19,440 --> 00:02:24,010
+testar a nossa aplicação estará rodando na porta que ele informou aqui no console.
+
+32
+00:02:24,270 --> 00:02:29,450
+Por padrão ele está usando a porta 80 80 e vocês vão perceber isso aqui tá bem grande.
+
+33
+00:02:29,520 --> 00:02:36,810
+O nosso console então não é tão fácil ver por aqui mas se olhar você vai ver o tão quente tão quente
+
+34
+00:02:36,810 --> 00:02:45,230
+é um servidor super famoso e um servidor Apache incremental Ducati foi oficializado na porta 80 80 significa
+
+35
+00:02:45,230 --> 00:02:51,440
+novas aplicações Bring build já está funcionando na porta 80 80 se eu abri que o Brasil deixou o Brasil
+
+36
+00:02:51,930 --> 00:02:56,460
+tem um Brasil aberto aqui no Brasil pra cá.
+
+37
+00:02:56,670 --> 00:03:08,460
+Se eu abrir aqui colocar HTTP 2 pontos da Barra local Roxy 2 pontos 80 80 ou seja já que ele está rodando
+
+38
+00:03:08,460 --> 00:03:10,960
+na porta 80 80 eu posso entrar.
+
+39
+00:03:10,960 --> 00:03:15,340
+Se eu colocar no ar 80 81 o que não tem nada rodando nessa porta é lenta.
+
+40
+00:03:15,630 --> 00:03:21,870
+Você vai ver que a mensagem inicial o site não pode ser alcançado que não tem nenhuma aplicação rodando
+
+41
+00:03:22,290 --> 00:03:23,760
+na porta 80 81.
+
+42
+00:03:24,210 --> 00:03:31,020
+é só colocar na porta 80 você vai ver que vai aparecer uma mensagem e uma mensagem de erro que nada
+
+43
+00:03:31,020 --> 00:03:36,670
+foi configurado na nossa aplicação mas já está sendo respondido pela nossa aplicação Spring Build é
+
+44
+00:03:36,810 --> 00:03:40,500
+uma coisa importante que eu já falei na aula introdutória aqui.
+
+45
+00:03:40,830 --> 00:03:48,690
+Esses conceitos sobre web e aquisição protocolo HTTP porta tudo isso vai estar dentro do nosso capítulo
+
+46
+00:03:48,690 --> 00:03:50,090
+de conceitos para a web.
+
+47
+00:03:50,410 --> 00:03:55,740
+Então se você nunca viu web na vida é muito importante que você passa por esse capítulo como pré requisito
+
+48
+00:03:56,070 --> 00:04:02,720
+para o nosso capítulo aqui dá desprende bem certo então nós configurar o nosso projeto nosso projeto
+
+49
+00:04:02,720 --> 00:04:04,440
+já está sendo executado.
+
+50
+00:04:04,470 --> 00:04:11,970
+Você consegue ver por exemplo que existe um servidor já embarcado que foi automaticamente configurado
+
+51
+00:04:11,970 --> 00:04:17,520
+para a gente que é um servidor tocante que é muito usado no mundo do Java e essa aplicação já está funcionando
+
+52
+00:04:17,520 --> 00:04:19,790
+na porta 80 80.
+
+53
+00:04:19,790 --> 00:04:26,130
+A próxima aula nós vamos chegar aqui nós vamos criar o nosso primeiro web service é exatamente isso
+
+54
+00:04:26,130 --> 00:04:30,960
+nós vamos realmente criar nosso primeiro observe na próxima aula bem simples para você entender como
+
+55
+00:04:30,960 --> 00:04:36,400
+é fácil criar serviços na web services ou criar nossa presidente.
+
+56
+00:04:36,680 --> 00:04:37,520
+Então fique por aqui.
+
+57
+00:04:37,520 --> 00:04:41,190
+Na próxima aula a gente continua criando nosso primeiro alicerce e até lá.

@@ -1,0 +1,463 @@
+1
+00:00:00,510 --> 00:00:06,790
+Pessoal ainda falando sobre o Equador que é esse comando que gente diz que precisa né.
+
+2
+00:00:06,860 --> 00:00:13,770
+Que o módulo requer um outro módulo eu vou criar aqui um outro projeto então vou criar aqui meu Project
+
+3
+00:00:14,290 --> 00:00:16,600
+e o nome desse projeto vai ser épico.
+
+4
+00:00:16,740 --> 00:00:25,650
+Traço o login seria um grande se move na minha aplicação responsável por logar e aqui dentro eu vou
+
+5
+00:00:25,990 --> 00:00:35,220
+definir o nome do módulo back up to log seguindo o mesmo padrão conversando que estou usando e aqui
+
+6
+00:00:35,220 --> 00:00:40,830
+dentro eu vou criar uma nova classe que eu vou chamar aqui do blog.
+
+7
+00:00:41,340 --> 00:00:51,070
+Então alguém porque vai estar num pacote bélico tanto com o outro como o dele conto épico ponto pra
+
+8
+00:00:51,070 --> 00:00:52,380
+esse blog também.
+
+9
+00:00:52,500 --> 00:00:56,540
+Simplesmente logo talvez seja melhor não estar mesmo nome do projeto para seguir o padrão.
+
+10
+00:00:57,000 --> 00:01:06,900
+Então coloquem então finalizar essa classe logo eu vou criar uma função aqui estática estáticos de chamada
+
+11
+00:01:06,900 --> 00:01:07,550
+info.
+
+12
+00:01:07,650 --> 00:01:13,800
+Bem simples não estou pretendendo mostrar nada relacionado a Log mesmo que vai receber uma mensagem.
+
+13
+00:01:14,150 --> 00:01:18,980
+E o que eu vou fazer aqui vai ser chamar um system Audio pra imprimir essa mensagem.
+
+14
+00:01:19,500 --> 00:01:25,750
+Só que além de imprimir a mensagem Eu vou colocar aqui um texto antes pra dizer que isso aqui é o mensagem
+
+15
+00:01:25,860 --> 00:01:29,930
+info e também vou colocar uma data pra colocar a data.
+
+16
+00:01:29,970 --> 00:01:43,370
+Eu vou criar aqui um Sinpol bem Format Format maximizar o que tu chamar de S D F sem poder de fogo ou
+
+17
+00:01:43,440 --> 00:01:50,130
+criar aqui sim poder de formas vou passar um padrão de data que eu quero que ele exiba então vai ser
+
+18
+00:01:51,570 --> 00:01:57,230
+daqui a pouco vírgula esse dia na Barra isso.
+
+19
+00:01:58,470 --> 00:02:07,980
+HH ora m minúsculo minuto ISS SS segundo então eme maiúsculo é o mês m minúsculo e um minuto.
+
+20
+00:02:07,980 --> 00:02:17,950
+Então eu vou pegar esse padrão é aqui que eu vou dar um espaço vou concatenar com esse ponto Format
+
+21
+00:02:18,020 --> 00:02:22,860
+vou passar aqui desde que a data atual tenha paga exatamente a data atual.
+
+22
+00:02:22,860 --> 00:02:30,570
+Vou só importar que diabo o Tibete e vou concatenar aqui com espaço em branco pra não grudar digamos
+
+23
+00:02:30,570 --> 00:02:33,350
+assim a data com a mensagem.
+
+24
+00:02:33,700 --> 00:02:42,190
+Então basicamente vou mostrar a INFO o espaço a data e depois a mensagem só pra ficar aí que seria logo
+
+25
+00:02:42,210 --> 00:02:46,930
+até colocar um traço aqui pra afastar que a mensagem da data formatada.
+
+26
+00:02:46,940 --> 00:02:49,970
+Pronto direi aqui o que seria a minha função o blog.
+
+27
+00:02:50,520 --> 00:02:57,700
+E aí eu vou usar a função logo dentro do meu cálculo eu vou querer que dentro de calculadora chamado
+
+28
+00:02:58,090 --> 00:03:09,900
+logo contra o espaço não apareceu o meu log aqui porque alguém sabe não apareceu porquê não há uma dependência
+
+29
+00:03:10,020 --> 00:03:14,200
+entre o projeto calculo e o projeto logo em que eu acabei de criar.
+
+30
+00:03:14,580 --> 00:03:20,670
+Então pra que o código Projeto calculo consiga ver aquilo que está dentro do projeto logo é preciso
+
+31
+00:03:20,670 --> 00:03:26,150
+criar no meu bicho de pé então que ao Bild BF configure Bild breve.
+
+32
+00:03:26,340 --> 00:03:33,660
+Aqui eu preciso no meu modo Le para adicionar o projeto logo de tal forma que agora eu vou conseguir
+
+33
+00:03:33,660 --> 00:03:35,140
+acessar o blog.
+
+34
+00:03:35,430 --> 00:03:36,960
+Eu posso até acessar o blog.
+
+35
+00:03:37,020 --> 00:03:42,560
+E aí eu tenho aqui a classe e eu não vou conseguir acessar nada.
+
+36
+00:03:42,570 --> 00:03:43,050
+Por quê.
+
+37
+00:03:43,080 --> 00:03:51,230
+Porque pra eu acessar o blog obrigatoriamente esse projeto precisa exportar e exportar esse pacote.
+
+38
+00:03:51,230 --> 00:03:58,850
+Então aqui eu coloco em esportes que eu vou usar o pacote B pronto concordei e ponto.
+
+39
+00:03:58,850 --> 00:04:05,280
+Logo aí sim ele vai exportar e não apenas exportar como a gente viu no ano passado eu preciso dizer
+
+40
+00:04:05,700 --> 00:04:12,300
+dentro de época calculo que eu vou requerer esse pacote então que algo é quais eu vou colocar um contra
+
+41
+00:04:12,300 --> 00:04:15,390
+o espaço amostral e apoio financeiro API.
+
+42
+00:04:15,530 --> 00:04:16,150
+Ponto.
+
+43
+00:04:16,150 --> 00:04:18,720
+Logo eu vou precisar do login profissional.
+
+44
+00:04:18,720 --> 00:04:23,830
+Agora sim eu vou ter a possibilidade dentro de calculadora chamar o blog.
+
+45
+00:04:23,970 --> 00:04:32,160
+E aqui eu vou chamar por exemplo o método INFO passando aqui somando só pra gente usar aqui no blog.
+
+46
+00:04:32,160 --> 00:04:32,850
+Pronto.
+
+47
+00:04:32,910 --> 00:04:38,790
+O que é que está acontecendo agora além da nossa aplicação nós temos o IP financeiro que é exatamente
+
+48
+00:04:38,790 --> 00:04:46,110
+o local que nós estamos testando com nosso método Mini o financeiro depende do épico cálculo e cálculo
+
+49
+00:04:46,110 --> 00:04:52,530
+depende do blog sei que vai funcionar vai funcionar eu vou estar aqui ou você vai ver que ele continua
+
+50
+00:04:52,590 --> 00:04:54,550
+colocando o valor 9.
+
+51
+00:04:54,660 --> 00:04:58,880
+E aí ele pegou o que o Info dia 20 do 11 de 2019.
+
+52
+00:04:58,920 --> 00:05:05,010
+As 9 17 horas 33 minutos dois minutos ele colocou o blog somado.
+
+53
+00:05:05,090 --> 00:05:05,540
+Legal.
+
+54
+00:05:05,540 --> 00:05:06,340
+Funcionou.
+
+55
+00:05:06,620 --> 00:05:11,720
+Mas o que eu quero não está nessa aula é exatamente isso que eu quero mostrar é outra coisa dentro de
+
+56
+00:05:11,840 --> 00:05:16,720
+Hebe calculo eu posso acessar coisa de blog inclusive.
+
+57
+00:05:16,830 --> 00:05:27,730
+Então eu posso criar um método assim público que vai retornar a clássica Class de alguém e eu vou pagar
+
+58
+00:05:27,730 --> 00:05:37,240
+que eu não precise dessa classe vai ser Get In Love Class e aqui eu posso simplesmente retornar Love
+
+59
+00:05:37,840 --> 00:05:39,780
+ponto Class.
+
+60
+00:05:40,280 --> 00:05:46,130
+O que é que vai acontecer aqui quando agora o ex-presidente calculadora o blog.
+
+61
+00:05:46,340 --> 00:05:52,090
+Se eu vim aqui dentro de teste e tentar fazer que insistem alguns.
+
+62
+00:05:52,190 --> 00:05:57,200
+Eu vou colocar esse método pra assim um método estático só pra gente testar por enquanto pois eu vou
+
+63
+00:05:57,770 --> 00:05:59,070
+eu vou escolher certo.
+
+64
+00:05:59,420 --> 00:06:04,620
+Então cria um metro estático porque alguns já estão assim mesmo sem problema.
+
+65
+00:06:04,640 --> 00:06:09,530
+E eu vou fazer o seguinte aquele teste eu posso instancia a nova calculadora eu posso usar esse cálculo
+
+66
+00:06:09,530 --> 00:06:16,960
+que já está disponível aqui e aí se alguém aqui qualquer ponto 7 log Heartless eu vou ter um problema.
+
+67
+00:06:17,300 --> 00:06:18,650
+Qual o problema que eu botei.
+
+68
+00:06:18,950 --> 00:06:27,350
+O problema é que eu não tenho acesso à classe logo porque sei porque dentro do meu módulo Eu não defini
+
+69
+00:06:27,350 --> 00:06:32,000
+que eu tenho uma dependência de login e ponto logo e não está definido aqui.
+
+70
+00:06:32,010 --> 00:06:36,570
+Eu até posso colocar quais Log.
+
+71
+00:06:36,910 --> 00:06:42,770
+Aí eu tenho que explicitamente depender de algo que eu não dependo diretamente porque é um requisito
+
+72
+00:06:42,830 --> 00:06:44,000
+de cálculo.
+
+73
+00:06:44,000 --> 00:06:50,930
+E aí olhando aqui o resultado ele evitar no Palmeiras porque ele gerou um problema de compilação dado
+
+74
+00:06:51,050 --> 00:06:57,560
+a não conseguir resolver a classe log porque quem está tentando acessar algo de um modo que você não
+
+75
+00:06:57,560 --> 00:06:59,860
+definiu explicitamente essa dependência.
+
+76
+00:06:59,860 --> 00:07:06,350
+Pra gente resolver isso inclusive dentro de calculadora tá gerando problema e se você colocar o mouse
+
+77
+00:07:06,350 --> 00:07:07,960
+por cima ele vai dizer o seguinte.
+
+78
+00:07:08,520 --> 00:07:17,160
+Logo dentro do módulo que alguém não pode não está acessível para quem for usar a clássica calculadora.
+
+79
+00:07:17,160 --> 00:07:24,950
+E aí ele sugere você fazer o que ele chama de wi fi transitivo ao transitivo e quais é que ele vai fazer
+
+80
+00:07:24,950 --> 00:07:28,090
+isso dentro do módulo de cálculo.
+
+81
+00:07:28,100 --> 00:07:34,220
+Eu tenho uma dependência com login só que eu quero que essa independência seja transitiva pra quem vai
+
+82
+00:07:34,220 --> 00:07:37,190
+usar esse meu módulo que é um módulo de cálculo.
+
+83
+00:07:37,190 --> 00:07:44,330
+Ou seja eu não quero simplesmente depender de lobby eu preciso que isso seja transmitido para os clientes
+
+84
+00:07:44,360 --> 00:07:47,570
+para quem for usar esse módulo porque é que eu preciso disso.
+
+85
+00:07:47,570 --> 00:07:55,070
+Eu só preciso disso porque eu resolvi colocar a assinatura do meu método algo que está presente em outro
+
+86
+00:07:55,070 --> 00:08:00,170
+módulo que não é meu que eu recebi a partir de um outro módulo que é exatamente a classe Log.
+
+87
+00:08:00,560 --> 00:08:02,180
+Então esse método.
+
+88
+00:08:02,180 --> 00:08:08,110
+Se ele receber por exemplo um lobby ou mesmo se ele retornar um blog e esse logo fica acessível para
+
+89
+00:08:08,120 --> 00:08:09,500
+outro módulo.
+
+90
+00:08:09,500 --> 00:08:18,590
+Aí sim você precisa vir aqui e aí eu vou colocar aqui transitivo pra dizer que essa é uma dependência
+
+91
+00:08:18,590 --> 00:08:21,210
+que será transmitida para o pai.
+
+92
+00:08:21,260 --> 00:08:26,960
+Fazendo isso você vai perceber que eu não vou ter mais problema de calculadora ao colocar no mouse por
+
+93
+00:08:26,960 --> 00:08:29,600
+cima que não tem mais nenhuma advertência.
+
+94
+00:08:29,600 --> 00:08:35,750
+Só que dentro de teste eu ainda preciso resolver isso logo aí eu preciso ter acesso a ela.
+
+95
+00:08:35,810 --> 00:08:42,140
+Então aqui eu precisaria colocar uma dependência são duas coisas diferentes uma coisa é você só resolver
+
+96
+00:08:42,140 --> 00:08:43,550
+a questão dos módulos.
+
+97
+00:08:43,670 --> 00:08:49,430
+Outra coisa é você resolver a questão de você conseguir encontrar Classe E aqui eu preciso adicionar
+
+98
+00:08:49,850 --> 00:08:54,830
+o login se eu quiser acessar essa classe ir até a manhã de hoje e tirar essa dependência porque não
+
+99
+00:08:54,830 --> 00:08:56,810
+faz sentido aqui pra gente coisa.
+
+100
+00:08:57,140 --> 00:09:01,870
+Então o resultado mostrou que funcionou corretamente a partir dessas mudanças.
+
+101
+00:09:01,870 --> 00:09:08,110
+Nesse caso eu vou tirar essa dependência entre financeiro.
+
+102
+00:09:08,180 --> 00:09:12,620
+Na verdade eu vou matar essa função aqui logo e não vou precisar dela.
+
+103
+00:09:12,910 --> 00:09:19,300
+Certo Não vou querer usar ela na minha aplicação vou também tirar isso aqui.
+
+104
+00:09:19,330 --> 00:09:23,290
+E por conta disso eu não preciso ter uma dependência direta.
+
+105
+00:09:23,720 --> 00:09:31,850
+E aí eu vou fazer o seguinte Bild PF configure BID deve tirar o login que eu não preciso dela mas de
+
+106
+00:09:31,850 --> 00:09:38,570
+qualquer forma eu vou deixar essa questão intransitivo só para a gente entender que quando eu não coloco
+
+107
+00:09:38,570 --> 00:09:44,330
+transitivo ele em algumas situações você pode ter problema quando você passar uma dependência de outro
+
+108
+00:09:44,330 --> 00:09:50,510
+módulo para terceiros e aí que ele está dizendo é que quando você coloca apenas transa é transitiva
+
+109
+00:09:50,540 --> 00:09:56,540
+aquilo que você recebeu de um outro módulo vai ser de forma transitiva vai estar disponível lá para
+
+110
+00:09:56,540 --> 00:10:01,660
+o módulo cliente que faça exatamente isso quer dizer o transitivo.
+
+111
+00:10:01,660 --> 00:10:09,070
+Basicamente a gente fez todo esse movimento da aula para falar um pouco desse conceito de quais transitivo
+
+112
+00:10:09,070 --> 00:10:12,030
+que é também um conceito importante na próxima aula.
+
+113
+00:10:12,160 --> 00:10:19,360
+Nós vamos falar do Esportes que você tem como amarrar pra quem você quer exportar.
+
+114
+00:10:19,360 --> 00:10:21,850
+Não necessariamente você precisa exportar para todo o mundo.
+
+115
+00:10:21,850 --> 00:10:24,870
+Você pode exportar para um módulo específico.
+
+116
+00:10:25,010 --> 00:10:26,810
+E eu vou falar sobre isso na próxima.

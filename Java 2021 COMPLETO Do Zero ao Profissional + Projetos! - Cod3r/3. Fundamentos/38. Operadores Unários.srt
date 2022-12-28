@@ -1,0 +1,311 @@
+1
+00:00:00,400 --> 00:00:06,770
+Agora nós vamos trabalhar com os operadores os operadores o navio tem mais de um operador certo ternário
+
+2
+00:00:06,780 --> 00:00:10,080
+que tem só um mas o navio tem vários operadores.
+
+3
+00:00:10,100 --> 00:00:16,630
+Vou criar aqui um arquivo que eu vou chamar aqui o nariz uma nova classe dentro de fundamentos ponto
+
+4
+00:00:16,680 --> 00:00:24,330
+operadores portuários e nós vamos ver os operadores nas áreas que é incrementada crescendo e tem algumas
+
+5
+00:00:24,330 --> 00:00:26,990
+formas diferentes pós fixado e pré fixado.
+
+6
+00:00:27,000 --> 00:00:32,210
+Então vamos lá você cria aqui uma variável a certo por exemplo.
+
+7
+00:00:32,850 --> 00:00:40,110
+E aí você cria aqui uma variável bem tem a variável bem vale em que o valor da variável tá certo ou
+
+8
+00:00:40,110 --> 00:00:41,340
+então o valor 2.
+
+9
+00:00:41,340 --> 00:00:45,600
+Por exemplo você pode usar para incrementar o valor da variável.
+
+10
+00:00:45,600 --> 00:00:53,670
+Por exemplo colocar a mais mas você pode usar para decretar o valor da variável a menos menos.
+
+11
+00:00:53,670 --> 00:01:00,270
+Ou seja são duas formas válidas aqui você tinha aquilo ali na linha 10 uma vez que você incrementou
+
+12
+00:01:00,270 --> 00:01:06,690
+significa que você fez o equivalente à série o valor de +1 certo.
+
+13
+00:01:06,710 --> 00:01:11,630
+E no caso de Sacramento você fez recebe o valor de menos um.
+
+14
+00:01:11,730 --> 00:01:20,400
+Isso vale não apenas para inteiros mas para valores do tipo bate forte Longhi falou W.
+
+15
+00:01:20,400 --> 00:01:28,560
+Qualquer valor se você tiver apresentou um valor 3 ponto dois acrescentando fica 4 ponto 2 acrescentando
+
+16
+00:01:28,560 --> 00:01:30,690
+1 5 2 e aí vai 7.
+
+17
+00:01:30,690 --> 00:01:37,170
+Então incremento de Sacramento e você pode usar essa que é a forma pós fixada.
+
+18
+00:01:37,260 --> 00:01:43,320
+Eu acho que a forma que acaba sendo mais usada no dia a dia você coloca o operador depois do operando
+
+19
+00:01:43,760 --> 00:01:51,350
+e você tem a forma pré fixada que é mais mais a mais mais bem e menos menos bem.
+
+20
+00:01:51,420 --> 00:02:00,050
+Nesse caso você vai fazer exatamente a mesma coisa aqui bem e aqui vai ficar bem recebe o valor de bem
+
+21
+00:02:00,150 --> 00:02:01,130
+mais.
+
+22
+00:02:01,470 --> 00:02:11,250
+E aqui você tem o Buy recebe o valor de bem menos sete jogos e imprimia o valor diário e imprimia o
+
+23
+00:02:11,250 --> 00:02:12,510
+valor de B.
+
+24
+00:02:12,570 --> 00:02:19,830
+Você vai ver que ele vai ter exatamente o mesmo valor original vai continuar o E2 porque eu tanto acrescentei
+
+25
+00:02:19,830 --> 00:02:26,010
+como sacramento mas vou comentar aqui essa linha e comentar essa linha você vai ver que o resultado
+
+26
+00:02:26,850 --> 00:02:33,570
+esperado não é o que era um passo ao C2 e o B que era 2 passou a ser 3 está mais comentado nessa linha
+
+27
+00:02:34,190 --> 00:02:39,200
+de outros comentar também essa linha toda a escala foi feito isso eu vou fazer aqui uma mistura só pra
+
+28
+00:02:39,200 --> 00:02:42,380
+ver se você consegue detectar o que é que vai acontecer.
+
+29
+00:02:42,510 --> 00:02:51,390
+Eu vou colocar aqui será que mais e mais há igual igual a bem menos menos essa tudo misturado.
+
+30
+00:02:51,390 --> 00:03:00,090
+O operador prefixado é operador pós fixado e misturado com a comparação na sua cabeça que vai dar um
+
+31
+00:03:00,090 --> 00:03:03,440
+resultado verdadeiro ou vai dar um resultado falso.
+
+32
+00:03:03,730 --> 00:03:10,900
+E outra pergunta qual será o valor da variável a qual será o valor da variável aqui.
+
+33
+00:03:11,010 --> 00:03:21,090
+Antes disso eu vou colocar vocês vão pensar naquilo qualquer resposta ou então desafio o desafio certo
+
+34
+00:03:21,520 --> 00:03:29,220
+e a ideia você pensar se isso vai dar verdadeiro ou falso e qual o resultado de A e B no final depois
+
+35
+00:03:29,280 --> 00:03:34,000
+que todo o desafio está claro para vocês se vai ser verdadeiro ou falso.
+
+36
+00:03:34,050 --> 00:03:36,740
+Já cabe aqui uma observação antes de executar.
+
+37
+00:03:37,200 --> 00:03:43,590
+Esse um tipo de código na opinião de vocês que é fácil de ser lido você lê rapidamente já sabe o que
+
+38
+00:03:43,590 --> 00:03:50,270
+está acontecendo e o código que você precisa olhar e precisa ficar pensando exatamente o que vai acontecer.
+
+39
+00:03:50,460 --> 00:03:57,030
+Nesse caso fica muito claro que você é um tipo de código que vai gerar muito mais confusão do que clareza
+
+40
+00:03:57,360 --> 00:04:02,790
+porque você está misturando operadores de incremento de detrimento junto com a comparação.
+
+41
+00:04:02,800 --> 00:04:08,600
+E isso pra você olhar e descobrir se é verdadeiro ou falso fica mais estranho fica mais difícil nesse
+
+42
+00:04:08,610 --> 00:04:16,250
+caso essa operação é verdadeira transitando em desafio o resultado foi verdadeiro e depois disso obviamente
+
+43
+00:04:16,250 --> 00:04:24,650
+se na linha seguinte eu comparar os dois valores a e b a linha seguinte é falso mas durante essas possível
+
+44
+00:04:24,660 --> 00:04:26,840
+verdadeiro porquê isso certo.
+
+45
+00:04:26,880 --> 00:04:34,110
+é uma questão de precedência e a coisa mais importante é começar a disponibilizar nesse capítulo o PDF
+
+46
+00:04:34,110 --> 00:04:36,630
+com a lista de precedência dos operadores.
+
+47
+00:04:36,660 --> 00:04:38,340
+Como gente fala em operadores.
+
+48
+00:04:38,550 --> 00:04:45,120
+é importante você saber quem vem na frente de quem nesse caso quando você coloca mais mais antes do
+
+49
+00:04:45,120 --> 00:04:52,610
+app significa que você está apressado para fazer um tremendo e se você coloca o operador depois a variável
+
+50
+00:04:52,620 --> 00:04:56,660
+depois do operando significa que você está com menos pressa.
+
+51
+00:04:56,700 --> 00:05:04,530
+Esse operador mais mais ali tem o maior com relação à comparação significa que eu vou incrementar o
+
+52
+00:05:04,540 --> 00:05:06,670
+valor da variável antes de comparar.
+
+53
+00:05:06,710 --> 00:05:10,080
+Já o bem menos menos como ele está com menos pressa.
+
+54
+00:05:10,100 --> 00:05:17,440
+Ele vem depois do operando que a forma pós fixada ela tem uma precedência menor do que a comparação
+
+55
+00:05:17,450 --> 00:05:21,710
+ou seja ele só vai acrescentar o valor de B depois de executar.
+
+56
+00:05:21,770 --> 00:05:29,750
+A comparação entre a e b então se avalia é B vale 2 ele vai incrementar o ar antes de comparar.
+
+57
+00:05:29,750 --> 00:05:36,210
+Então lá vai passar se 2 e o B a 2 mas ele só vai acrescentar o bem depois da comparação.
+
+58
+00:05:36,210 --> 00:05:43,010
+Então 2 Grau 2 verdadeiro depois de comparar ele vai lá e desacredita o valor da variável B de tal forma
+
+59
+00:05:43,010 --> 00:05:45,800
+que na linha seguinte o resultado já vai dar falso.
+
+60
+00:05:45,840 --> 00:05:51,740
+Porque é que eu fiz isso eu fiz isso exatamente barata sempre lembrando pra vocês que um dos das maiores
+
+61
+00:05:51,740 --> 00:05:58,190
+virtudes de um programador é escrever código fácil das maiores virtudes é você ter um código de fácil
+
+62
+00:05:58,190 --> 00:06:03,740
+compreensão com bons nomes de variáveis que você vai ser e vai olhar para o código e entender o que
+
+63
+00:06:03,740 --> 00:06:10,280
+ele está fazendo lá mas isso não choca muitas vezes com a prática com a realidade se muitas vezes você
+
+64
+00:06:10,280 --> 00:06:17,980
+vai lidar com situações que é um desafio extremamente complexo você escrever um código simples e porque
+
+65
+00:06:17,990 --> 00:06:22,820
+muitas vezes é mais fácil escrever um código complexo do que um código simples acredite em mim você
+
+66
+00:06:22,820 --> 00:06:28,970
+vai ter situações que você vai ter escrevendo a regra do seu sistema que é uma regra complexa que envolve
+
+67
+00:06:29,060 --> 00:06:37,040
+datas que envolvem perfil de usuário que envolve e isso é imposto a uma coisa e você tem uma tendência
+
+68
+00:06:37,040 --> 00:06:40,580
+mais natural de implementar aquilo de uma forma complexa.
+
+69
+00:06:40,630 --> 00:06:45,980
+Então um dos grandes segredos que eu uso no dia a dia é que eu sempre estou revisitando meus códigos
+
+70
+00:06:46,340 --> 00:06:53,150
+e tentando melhorar você quebrar em partes pequenas e usar essas partes pq isso vai trazer um beneficio
+
+71
+00:06:53,150 --> 00:06:56,660
+muito grande então mais do que você misturar isso.
+
+72
+00:06:56,690 --> 00:07:02,500
+é importante que você entenda que esse tipo de código aqui é só um exemplo muito simples muito trivial.
+
+73
+00:07:02,510 --> 00:07:06,760
+Um exemplo que seria chato e você olhar o código pra entender o que está acontecendo.
+
+74
+00:07:06,770 --> 00:07:09,890
+Mas isso pode ser amplificado para um outro patamar.
+
+75
+00:07:10,160 --> 00:07:16,610
+Quando você vai para cenários reais então sempre que você puder simplificar a lógica nem sempre a lógica
+
+76
+00:07:16,610 --> 00:07:20,510
+vai te ajudar às vezes a lógica é complexa na sua essência.
+
+77
+00:07:20,720 --> 00:07:24,550
+E aí eventualmente você vai precisar comentar alguma coisa pra explicar.
+
+78
+00:07:24,710 --> 00:07:28,820
+Mas sempre que você conseguir manter o código 5 sem dúvida esse é o melhor caminho.

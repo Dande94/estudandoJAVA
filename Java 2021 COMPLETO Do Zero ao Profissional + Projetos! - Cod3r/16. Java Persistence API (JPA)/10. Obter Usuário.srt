@@ -1,0 +1,295 @@
+1
+00:00:00,380 --> 00:00:07,000
+Por isso agora vou mostrar pra vocês Como é que vocês podem obter o usuário a partir da sua chave certa
+
+2
+00:00:07,000 --> 00:00:12,480
+ou se a chave não necessariamente precisa ser um valor numérico que pode ser inclusive um valor textual
+
+3
+00:00:12,480 --> 00:00:13,590
+sem problema.
+
+4
+00:00:13,620 --> 00:00:20,130
+Mais especificamente no nosso caso de usuário ele é um valor numérico 7 ou algo do tipo long.
+
+5
+00:00:20,730 --> 00:00:30,220
+Então aqui dentro de teste ponto básico vou criar uma nova classe no nome da classe C obter o usuario
+
+6
+00:00:30,400 --> 00:00:42,480
+no singular usuário e vou criar o nosso método maximizar e aqui dentro nós vamos criar novamente o ménage
+
+7
+00:00:42,630 --> 00:00:48,610
+MUITO MENOS DE FATO posso aproveitar o que fiz passada colocar aqui.
+
+8
+00:00:48,630 --> 00:00:55,490
+No caso especificamente do PT eu não vou precisar trabalhar com a transação porque fui fazendo Salete
+
+9
+00:00:55,560 --> 00:01:00,990
+no banco de dados não requer uma transação no caso de JP exige transação.
+
+10
+00:01:01,040 --> 00:01:06,630
+Quando você for fazer qualquer inserção por mais que você faça apenas uma inserção como foi no caso
+
+11
+00:01:06,630 --> 00:01:14,570
+passado ele exige que haja uma transação envolvendo a questão do persista mais no caso de uma consulta.
+
+12
+00:01:14,580 --> 00:01:20,170
+Eu não preciso me preocupar com o cartão de transação ou já coloquei aqui em Minas e ponto.
+
+13
+00:01:20,230 --> 00:01:26,260
+Os eu vou chamar aqui de Factory ponto Klaus.
+
+14
+00:01:26,380 --> 00:01:33,750
+O formato aqui é pronto aqui no meio para a gente fazer uma consulta é muito simples para aquele usuário.
+
+15
+00:01:33,800 --> 00:01:41,370
+E note não acabei nem enfatiza na história passada que o processo de persistência é muito simples basicamente
+
+16
+00:01:41,370 --> 00:01:49,440
+foi uma linha e o que faz com que o JP seja capaz de pegar esse objeto criado e mande para a tabela
+
+17
+00:01:49,440 --> 00:01:50,180
+correta.
+
+18
+00:01:50,190 --> 00:01:59,670
+é exatamente o mapeamento objeto relacional a mesma coisa que eu vou pegar que o usuário era usuário
+
+19
+00:01:59,680 --> 00:02:08,160
+se usuário recebe Ximena e ponto vai ter que o método faz e eu vou dizer qual o tipo de classe que eu
+
+20
+00:02:08,160 --> 00:02:12,050
+espero que eu quero mapear a parte do resultado do banco de dados.
+
+21
+00:02:12,180 --> 00:02:18,930
+Então vou colocar aqui e a classe vai ser o usuário do Class e o segundo parágrafo que é exatamente
+
+22
+00:02:18,930 --> 00:02:26,280
+esse objeto vai ser o identificador que eu quero usar para obter no banco de dados esse determinado
+
+23
+00:02:26,370 --> 00:02:27,180
+usuário.
+
+24
+00:02:27,180 --> 00:02:36,740
+Nesse caso já tem um usuário aqui posso inclusive colocar aqui assistem aos 20 elementos usuário FOTO
+
+25
+00:02:36,920 --> 00:02:41,800
+GRANDE NOME ME ataque vocês verem.
+
+26
+00:02:42,150 --> 00:02:43,500
+Ele vai buscar o usuário.
+
+27
+00:02:43,500 --> 00:02:50,760
+Ele gerou um problema porque eu coloquei o tipo de dado errado que na verdade eu não tenho um valor
+
+28
+00:02:50,760 --> 00:02:56,850
+inteiro tem um valor de bloco então o time passa aqui também o valor de blog setas atalho vai me retornar
+
+29
+00:02:56,860 --> 00:03:04,260
+o usuário de áudio quem é usuário daí o nome e o Rodrigo quem é usuário de três.
+
+30
+00:03:04,510 --> 00:03:09,210
+Quando o usuário vai ser o Carlos e assim vai tá.
+
+31
+00:03:09,240 --> 00:03:14,040
+Outra questão que eu acabei nem mostrando pra vocês no ano passado é o seguinte eu vou colocar aqui
+
+32
+00:03:14,060 --> 00:03:22,500
+o meu nome que eu nem cadastro nem faço parte do lanche então lado a lado uma vez que eu fiz isso eu
+
+33
+00:03:22,500 --> 00:03:36,900
+posso depois ao pegar o valor e mostrar o pai de Geraldo foi dois pontos e eu vou colocar aqui por exemplo
+
+34
+00:03:37,730 --> 00:03:39,470
+de novo usuário.
+
+35
+00:03:39,480 --> 00:03:41,260
+Ponto 7.
+
+36
+00:03:41,940 --> 00:03:47,540
+Ou seja uma vez que eu mandei ele persistiu um novo usuário nesse momento que o novo usuário não tente
+
+37
+00:03:47,580 --> 00:03:54,570
+não vai nem sentir tarde porque é porque eu passei apenas o nome do usuário que botaram lá para ficar
+
+38
+00:03:54,860 --> 00:04:02,710
+aqui não captou na tela então eu sou eu passei apenas o nome e o e-mail do usuário mas não passei de
+
+39
+00:04:02,730 --> 00:04:04,930
+mais com a ideia de fazer a persistência.
+
+40
+00:04:04,950 --> 00:04:12,750
+Waldir foi gerado então só pra mostrar aquilo ali foi gerado aqui ao lado de Geraldo foi o site de tal
+
+41
+00:04:12,750 --> 00:04:19,730
+forma que eu vim aqui pedir pra ele obter o usuário diário de sétima etapa.
+
+42
+00:04:19,770 --> 00:04:25,620
+Ele vai mostrar que o resultado foi lá só mostrei o nome então basicamente foi isso que ele pegou.
+
+43
+00:04:25,680 --> 00:04:31,920
+Vocês percebem que o momento que eu aumento o nível de abstração que eu consigo ir para um nível de
+
+44
+00:04:31,920 --> 00:04:38,340
+abstração maior eu consigo trabalhar num mundo orientado a objeto comecei a trabalhar em cima de objetos
+
+45
+00:04:38,340 --> 00:04:45,350
+e não mais me preocupo tanto com a parte de criação de SQL como era no caso do JD B sei lá.
+
+46
+00:04:45,350 --> 00:04:50,280
+Então quer dizer que já tapear MIL MARAVILHAS tudo vai funcionar muito bem não necessariamente né.
+
+47
+00:04:50,280 --> 00:04:54,890
+Quanto maior o nível de abstração acaba perdendo um pouco se bem.
+
+48
+00:04:54,890 --> 00:05:02,400
+Na verdade um cuidado né pra você não perder o controle de quais são as quais foram os comandos SQL
+
+49
+00:05:02,400 --> 00:05:04,380
+gerados por baixo dos panos.
+
+50
+00:05:04,800 --> 00:05:10,710
+Então dependendo da forma como você configure você pode sim matar o desempenho na sua aplicação mas
+
+51
+00:05:11,040 --> 00:05:17,610
+a grande maioria dos casos que você tem problemas de desempenho com o JP não é culpa do JP e sim culpa
+
+52
+00:05:17,610 --> 00:05:24,270
+do desenvolvedor que tentou facilitar muito a vida para ele e acabou deixando algumas coisas e configuradas
+
+53
+00:05:24,270 --> 00:05:29,640
+de forma ativa e alguns cuidados na hora de configurar algum desses cuidados e voltar mostrando pra
+
+54
+00:05:29,640 --> 00:05:31,610
+vocês aqui durante o capítulo.
+
+55
+00:05:31,680 --> 00:05:37,330
+Você com certeza vai conseguir ter uma facilidade muito grande para lidar com a persistência usando
+
+56
+00:05:37,360 --> 00:05:43,650
+JP que é um framework muito maduro e que você consegue ter uma série de facilidades com ele é trabalhado
+
+57
+00:05:43,650 --> 00:05:50,700
+não mais no nível do SQL em si mas trabalhando no nível de objetos você tem a possibilidade inclusive
+
+58
+00:05:50,700 --> 00:05:52,750
+de criar SQL nativo.
+
+59
+00:05:52,770 --> 00:05:54,340
+Você tem essa possibilidade.
+
+60
+00:05:54,660 --> 00:05:58,770
+Você pega aqui por exemplo meio ponto criei.
+
+61
+00:05:59,330 --> 00:06:05,870
+Qual era o item que eu criei inactivo e qual era o cara com um aquário inativa usando o SQL.
+
+62
+00:06:05,880 --> 00:06:07,500
+Posso pode.
+
+63
+00:06:07,520 --> 00:06:13,310
+Existe a possibilidade também de fazer isso usando o eixo menu está mais a grande maioria do tempo.
+
+64
+00:06:13,320 --> 00:06:20,040
+Você vai trabalhar no mundo dos objetos mesmo que seja na parte de consulta e fala de consulta na próxima
+
+65
+00:06:20,210 --> 00:06:24,260
+fase a nossa primeira consulta usando o JP Kelly.
+
+66
+00:06:24,360 --> 00:06:31,020
+Não se assuste porque JP era muito parecido com SQL não vai ter muita diferença de aprendizado é super
+
+67
+00:06:31,020 --> 00:06:36,270
+rápida só que você precisa entender que você não vai estar consultando a tabela vai estar consultando
+
+68
+00:06:36,270 --> 00:06:41,530
+o objeto e quem vai converter o seu JP quer pra SQL vai ser o próprio Facebook.
+
+69
+00:06:41,580 --> 00:06:48,760
+Então se o nome da tabela é td Berlin cliente se o nome da classe e clientes ou o nome da classe cliente
+
+70
+00:06:48,780 --> 00:06:54,460
+no singular você vai selecionar em cima de cliente não é sendo do nome da tabela CERTA ISSO QUE ESTOU
+
+71
+00:06:54,470 --> 00:07:00,340
+querem dizer que você vai fazer consultas em cima dos objetos eu vou mostrar pra você um pouquinho disso
+
+72
+00:07:00,360 --> 00:07:06,090
+na verdade na próxima aula porque não existe uma funcionalidade para o BI ter todos os usuários do banco
+
+73
+00:07:06,090 --> 00:07:07,780
+nativamente no eixo ménage.
+
+74
+00:07:08,130 --> 00:07:12,810
+E pra isso vai precisar criar uma consulta aproximá la e não fazer isso e até lá.

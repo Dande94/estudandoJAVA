@@ -1,0 +1,467 @@
+1
+00:00:00,170 --> 00:00:06,480
+Pessoal essa gente parte para a parte prática do nosso capítulo que a partir da próxima aulas vamos
+
+2
+00:00:06,480 --> 00:00:07,740
+entrar nos exercícios.
+
+3
+00:00:08,210 --> 00:00:11,640
+Eu quero falar de mais um tema que é sobre os membros de uma classe.
+
+4
+00:00:11,640 --> 00:00:17,130
+Já falei que os membros de uma classe de forma reduzida são atributos e comportamentos.
+
+5
+00:00:17,140 --> 00:00:23,220
+Eu quero falar um pouco mais detalhado na sala de aula mais curto do que as outras te garanto mas é
+
+6
+00:00:23,220 --> 00:00:28,260
+importante a gente ler mais algumas coisas olhando para a classe meus membros de uma classe nós temos
+
+7
+00:00:28,260 --> 00:00:34,680
+praticamente atributos e comportamentos que são os métodos e os atributos mas a gente pode dividir os
+
+8
+00:00:34,680 --> 00:00:38,730
+atributos em atributos constantes e atributos variáveis.
+
+9
+00:00:38,740 --> 00:00:43,980
+Da mesma forma que no nosso algorítimo por exemplo a gente definiu um algoritmo que a área da circunferência
+
+10
+00:00:44,360 --> 00:00:52,200
+Pi como uma constante nós tínhamos como ser uma variável e o resultado da operação matemática área também
+
+11
+00:00:52,200 --> 00:00:58,470
+foi gerado como uma variável de tal forma que eu poderia formar um novo raio geraria uma nova área um
+
+12
+00:00:58,470 --> 00:01:00,260
+novo raio geraria uma nova área.
+
+13
+00:01:00,270 --> 00:01:07,830
+Por exemplo no caso de uma classe que eu vou definir uma classe chamada carro um carro tem um atributo
+
+14
+00:01:07,830 --> 00:01:10,260
+constante que é a velocidade máxima.
+
+15
+00:01:10,300 --> 00:01:16,920
+Supondo 208 quilômetros por hora esse é o valor máximo que o carro chega chegou naquele patamar ele
+
+16
+00:01:16,920 --> 00:01:21,990
+não vai permitir que a velocidade aumente e eu tenho um outro atributo chamado velocidade atual que
+
+17
+00:01:21,990 --> 00:01:28,230
+representa momentaneamente no tempo é a velocidade do carro naquele momento determinando a quantidade
+
+18
+00:01:28,230 --> 00:01:31,380
+de vezes que você chamar o acelerar ou frear.
+
+19
+00:01:31,500 --> 00:01:37,650
+Esse atributo vai variando com o tempo ou seja os atributos de forma mais global mas você tem variáveis
+
+20
+00:01:37,650 --> 00:01:40,590
+e constantes é algo extremamente importante.
+
+21
+00:01:40,590 --> 00:01:46,370
+Outra coisa são os construtores dentro de uma classe você pode definir mais de um método.
+
+22
+00:01:46,410 --> 00:01:50,340
+Na verdade quantos forem necessários métodos construtores tanto.
+
+23
+00:01:50,520 --> 00:01:55,080
+Aqui nós temos os métodos como o próprio construtor em seu método está certo.
+
+24
+00:01:55,080 --> 00:02:00,930
+Métodos especiais que são chamados a partir do que nós vamos ver de forma prática durante nosso capítulo
+
+25
+00:02:00,930 --> 00:02:05,310
+fato aqui dentro de uma classe nós temos atributos variáveis ou constantes.
+
+26
+00:02:05,310 --> 00:02:08,750
+Nós temos o construtor usuários construtores.
+
+27
+00:02:08,940 --> 00:02:15,660
+Na verdade seria até mais interessante que ao colocar construtores porque pode ter vários eu posso ter
+
+28
+00:02:15,660 --> 00:02:21,820
+vários métodos dentro de uma classe também certo ou seja você pode ter outros métodos forem necessários.
+
+29
+00:02:21,830 --> 00:02:26,120
+E finalmente dentro de uma classe é possível que você tenha outras classes.
+
+30
+00:02:26,130 --> 00:02:33,090
+Eu não vou focar muito nesse cenário uma classe tem outras classes dentro dela porque não vejo uma necessidade
+
+31
+00:02:33,090 --> 00:02:33,870
+muito grande.
+
+32
+00:02:33,870 --> 00:02:39,260
+Você pode construir um sistema imenso sem necessariamente precisar colocar a classe dentro da outra.
+
+33
+00:02:39,580 --> 00:02:45,210
+Mas em alguns situações pode ser útil mais coisas muito específicas eu não vou trabalhar com isso agora
+
+34
+00:02:45,590 --> 00:02:47,570
+mas só para dar uma lista mais completa.
+
+35
+00:02:47,570 --> 00:02:54,300
+Então nós tínhamos atributos variáveis atributos constantes nós temos os construtores nós temos os métodos
+
+36
+00:02:54,300 --> 00:02:59,760
+e além disso é possível que uma classe que em outras classes dentro dela evoluindo um pouco mais aqui
+
+37
+00:02:59,770 --> 00:03:07,080
+na definição dos membros você tem uma classe o corpo da classe e aquilo que você pode definir dentro
+
+38
+00:03:07,080 --> 00:03:07,920
+da classe.
+
+39
+00:03:08,520 --> 00:03:13,230
+Existe um assunto categorização que eu vou ficar muito mais claro quando eu tiver uma aula específica
+
+40
+00:03:13,230 --> 00:03:18,810
+sobre esse tema que vai ser mais à frente inclusive até uma aula teórica e uma aula prática sobre isso.
+
+41
+00:03:18,910 --> 00:03:22,460
+Mas o que eu quero falar com vocês é que é possível dentro de uma classe.
+
+42
+00:03:22,460 --> 00:03:26,330
+Você tem de um lado os atributos do outro lado você tem os comportamentos.
+
+43
+00:03:26,340 --> 00:03:29,900
+Você tem os métodos e os construtores os construtores.
+
+44
+00:03:29,910 --> 00:03:35,950
+E você tem os atributos que podem ser variáveis e constantes exige além disso o fato de você ter as
+
+45
+00:03:35,960 --> 00:03:37,700
+variáveis constantes e métodos.
+
+46
+00:03:37,700 --> 00:03:45,090
+Você tem variáveis que pertence à classe variáveis que pertencem ao objeto vai gerar confusão e eu sei
+
+47
+00:03:45,090 --> 00:03:52,030
+que isso ainda não está claro mas existe uma diferença entre variáveis que pertencem à classe invariáveis
+
+48
+00:03:52,260 --> 00:03:53,550
+que pertence ao objeto.
+
+49
+00:03:53,580 --> 00:03:57,120
+Eu não quero que você fique apreensivo ou fico preocupada.
+
+50
+00:03:57,140 --> 00:03:59,050
+Eu não sei o que significa.
+
+51
+00:03:59,070 --> 00:04:06,120
+Eu achava que era uma coisa só mas tem uma diferenciação entre variáveis de classe e variáveis de objeto
+
+52
+00:04:06,120 --> 00:04:13,800
+constantes de classe constante de objeto métodos de classe e métodos e objeto de antemão quero dizer
+
+53
+00:04:14,190 --> 00:04:20,190
+que todos esses métodos esses atributos e constantes estão dentro do corpo da classe certo.
+
+54
+00:04:20,190 --> 00:04:29,600
+Então tudo isso eu votei algo assim ao teclar assim eu vou ter que o nome da classe em mim vou ter que
+
+55
+00:04:29,830 --> 00:04:33,000
+uma chave de abertura uma chave de fechamento.
+
+56
+00:04:33,160 --> 00:04:36,790
+Tudo isso estará definido dentro do corpo da classe.
+
+57
+00:04:36,790 --> 00:04:41,700
+Certo não é o fato de que não esteja dentro do corpo da classe certo.
+
+58
+00:04:41,740 --> 00:04:47,860
+Tudo isso está aqui dentro embora eu vá aqui apagar tudo isso para não ficar muito bagunçado aqui.
+
+59
+00:04:48,040 --> 00:04:50,110
+O nosso nosso desdém.
+
+60
+00:04:50,230 --> 00:04:56,860
+O fato é que nós temos atributos e atributos e comportamentos e atributos podem ser variáveis e constantes
+
+61
+00:04:57,210 --> 00:05:00,710
+e os metros podem ser construtores ou métodos.
+
+62
+00:05:00,730 --> 00:05:06,760
+Nós temos os atributos como sendo variáveis que pode ser de classe de objeto constante que pode ser
+
+63
+00:05:06,760 --> 00:05:10,700
+de classe e objeto metros que podem ser de clássico de objeto.
+
+64
+00:05:10,820 --> 00:05:17,260
+E o que vai diferenciar uma coisa da outra é exatamente a palavrinha Estate que é essa palavra que nós
+
+65
+00:05:17,260 --> 00:05:22,600
+vamos ver mais à frente vai ter uma aula especificamente sobre isso que eu vou explicar com muita calma
+
+66
+00:05:22,600 --> 00:05:24,670
+a gente vai exercitar também isso.
+
+67
+00:05:24,670 --> 00:05:31,510
+Essa palavrinha quando você usa a palavrinha na frente de um atributo você está dizendo que esse atributo
+
+68
+00:05:31,510 --> 00:05:33,610
+pertence à classe e não ao objeto.
+
+69
+00:05:33,610 --> 00:05:40,810
+Por padrão e no início dos nossos exercício todas as variáveis irão pertencer ao objeto todas as constantes
+
+70
+00:05:40,810 --> 00:05:47,470
+vão pertencer ao objeto todos os metros não pertence ao objeto porque esse é o padrão e lá na frente
+
+71
+00:05:47,470 --> 00:05:53,050
+eu vou mostrar que adicionando a palavra estático que você tem a possibilidade de transformar uma variável
+
+72
+00:05:53,140 --> 00:05:58,840
+que pertença a um objeto para pertencer à classe que pertence a uma constante que pertence ao objeto
+
+73
+00:05:58,870 --> 00:05:59,870
+pertence à classe.
+
+74
+00:05:59,890 --> 00:06:05,680
+é um método que pertence ao objeto irá pertencer à classe no momento que você coloca a palavra estático
+
+75
+00:06:05,770 --> 00:06:10,750
+e eu não estou entendendo na verdade em alto simplesmente dizendo que tem essa categorização é lá na
+
+76
+00:06:10,750 --> 00:06:12,820
+frente eu vou explicar com muita calma.
+
+77
+00:06:12,820 --> 00:06:18,370
+Então fique tranquilo não fique chateado porque no momento certo eu vou explicar isso esses conceitos
+
+78
+00:06:18,370 --> 00:06:23,070
+pessoal e o que são conceitos que você vai aprender com o passado.
+
+79
+00:06:23,170 --> 00:06:29,230
+Você assistiu uma aula hoje você vai lá e pratica você depois volta para a aula teórica pra rever depois
+
+80
+00:06:29,230 --> 00:06:34,600
+que você viu os exercícios então é um ciclo você pode ir e voltar para que você realmente tem esses
+
+81
+00:06:34,600 --> 00:06:36,420
+conceitos na sua cabeça.
+
+82
+00:06:36,420 --> 00:06:38,530
+Mas não é algo que aprende do dia pra noite.
+
+83
+00:06:38,530 --> 00:06:44,340
+Pelo menos essa foi a minha experiência eu demorei alguns bons dias ou meses ou semana pra conseguir
+
+84
+00:06:44,340 --> 00:06:45,970
+internalizar esses conceitos.
+
+85
+00:06:45,970 --> 00:06:50,980
+Na verdade eu não recebi esses conceitos não foi tão estruturado como eu estou tentando passar pra vocês
+
+86
+00:06:50,980 --> 00:06:56,440
+agora então uma vez que você passe pelos exercícios entende mais algumas coisas eu acho que vai voltar.
+
+87
+00:06:56,560 --> 00:07:01,750
+Se você não tiver nessa fase inicial voltar para a parte teórica é legal pra você ter realmente uma
+
+88
+00:07:01,750 --> 00:07:03,850
+visão nova daquele que eu estou falando.
+
+89
+00:07:03,850 --> 00:07:10,210
+Uma vez que você já passou pelos exercícios e para a gente finalizar que é algo que a gente já viu lá
+
+90
+00:07:10,210 --> 00:07:16,060
+no capítulo de fundamentos que anotação ponto e pra quem serve a anotação pontual simplesmente diz que
+
+91
+00:07:16,060 --> 00:07:23,410
+a anotação ponto é algo importante dentro da linguagem algo importante porque a forma que você tem dentro
+
+92
+00:07:23,410 --> 00:07:30,130
+do Java para acessar os membros que pertence a um objeto ou mesmo os membros que pertencem a uma classe
+
+93
+00:07:30,130 --> 00:07:35,560
+já que tem essa distinção que a gente vai vir mais à frente no capítulo há exatamente anotação ponto
+
+94
+00:07:35,560 --> 00:07:37,000
+que dá essa habilidade.
+
+95
+00:07:37,000 --> 00:07:43,900
+Ou seja a partir de um objeto você consegue acessar os membros dele seja constante seja variável seja
+
+96
+00:07:43,900 --> 00:07:49,870
+método seja o que for a partir do ponto em que a partir de um objeto consegue acessar os seus membros
+
+97
+00:07:50,180 --> 00:07:56,050
+e eventualmente a partir de uma classe também consegue acessar os seus membros usando anotação ponto.
+
+98
+00:07:56,050 --> 00:08:02,170
+Por isso que a anotação ponto é tão importante por isso que você tem System ponto alto ponto para além
+
+99
+00:08:02,170 --> 00:08:07,930
+de tudo isso e você acessando os membros de classes ou membros de objetos então por exemplo se eu pegar
+
+100
+00:08:07,930 --> 00:08:16,230
+aqui ou só para X destrinchar você tem System o coloca aqui Amarelinho um ponto você tem aqui alguns
+
+101
+00:08:16,620 --> 00:08:24,370
+e você tem um ponto e você tem finalmente o Pringles certo print ou seja o printing.
+
+102
+00:08:24,730 --> 00:08:33,160
+Ele é um membro do Audi o Audi um membro do System ou seja usei a anotação ponto para a parte do system
+
+103
+00:08:33,160 --> 00:08:35,370
+on a acessar o membro dele que é o Audi.
+
+104
+00:08:35,470 --> 00:08:42,040
+A parte do áudio acessei o membro do Audi que é o print ou seja a anotação conta a forma que você tem
+
+105
+00:08:42,040 --> 00:08:45,330
+para acessar os membros de um objeto ou os membros de uma classe.
+
+106
+00:08:45,330 --> 00:08:50,250
+A gente vai entrar em detalhe um pouco mais o que significa membro de classe de objeto mais lá para
+
+107
+00:08:50,250 --> 00:08:56,500
+o meio final do capítulo mas antes eu falei pra vocês que a gente vai focar exercícios mais simples
+
+108
+00:08:56,500 --> 00:09:04,020
+e nós vamos acabar usando nessa parte inicial dos exercícios atributos variáveis de objeto e a constante
+
+109
+00:09:04,020 --> 00:09:06,280
+de objeto e método de objetos.
+
+110
+00:09:06,290 --> 00:09:11,460
+Nós vamos focar primeiramente no objeto pra depois a gente entender para que serve a palavra estática
+
+111
+00:09:11,470 --> 00:09:17,500
+e aí sim a gente vem diferenciar essas duas coisas mas como o objetivo é falar um pouco mais dos membros
+
+112
+00:09:17,500 --> 00:09:24,160
+o que é que você pode encontrar dentro do corpo de uma classe é exatamente isso variáveis constantes
+
+113
+00:09:24,160 --> 00:09:31,360
+com metros eventualmente outras classes e aqui destrinchar um pouco mais embora eu sei que muitos desses
+
+114
+00:09:31,360 --> 00:09:37,060
+conceitos ainda não estão claros mas vai polêmica até o final do capítulo estarão muito bem explicados
+
+115
+00:09:37,130 --> 00:09:42,050
+e eu espero na próxima aula para a gente começar a exercitar esse tema tão legal que é a base de orientação
+
+116
+00:09:42,050 --> 00:09:47,830
+a objeto falando mais sobre classes métodos a gente agora tem mais consciência de fato o que é que está
+
+117
+00:09:47,830 --> 00:09:49,870
+dentro do nosso código a perna proximal.

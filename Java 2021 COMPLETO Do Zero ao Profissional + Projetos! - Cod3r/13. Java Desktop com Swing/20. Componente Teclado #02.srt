@@ -1,0 +1,207 @@
+1
+00:00:00,150 --> 00:00:06,850
+Pessoal nós já posicionamos os nossos componentes na tela não trabalha mais porque o grid de Beagle
+
+2
+00:00:06,880 --> 00:00:12,720
+Alt embora ele seja muito flexível você tem que cetáceos com estranhos antes de colocar o componente
+
+3
+00:00:12,720 --> 00:00:13,170
+na tela.
+
+4
+00:00:13,190 --> 00:00:18,960
+Isso dá um certo trabalho por isso que a gente criou esse método privado aqui que é adicionar botão
+
+5
+00:00:19,320 --> 00:00:25,220
+que já seta o valor de x e y na hora da chamada do método mas ainda precisa fazer alguns ajustes.
+
+6
+00:00:25,230 --> 00:00:30,110
+Os componentes estão todos aqui agrupados nessa área central e um colar de um no outro.
+
+7
+00:00:30,210 --> 00:00:36,060
+Eu Quero na verdade que eles fiquem até quase mais que os componentes possam expandir de uma forma mais
+
+8
+00:00:36,060 --> 00:00:42,190
+interessante pra isso tem um método chamado Phil que ele vai pra encher os botões de acordo com a necessidade
+
+9
+00:00:42,190 --> 00:00:51,070
+de uma chapa avulsa isolada chamada que ao construir um filme e eu vou usar a própria classe ou grid
+
+10
+00:00:51,180 --> 00:00:59,250
+com estranhos para acessar a Constantin especifica pra ele digamos assim expandi la pra encher o botão
+
+11
+00:00:59,300 --> 00:01:05,110
+as duas direções tanto no eixo vertical como no eixo horizontal estão colocando aqui um ponto e vírgula.
+
+12
+00:01:05,360 --> 00:01:12,960
+O ataque escolhe pra gente ver o resultado ou ele já encheu aqueles espaços em branco só que ainda o
+
+13
+00:01:12,960 --> 00:01:16,730
+nosso é digamos assim nosso teclado está centralizado no meio da tela.
+
+14
+00:01:16,740 --> 00:01:17,940
+Não é isso que eu quero.
+
+15
+00:01:18,180 --> 00:01:25,090
+Então pra isso a gente vai ser uma propriedade de peso que tem aqui o peso relacionado.
+
+16
+00:01:25,120 --> 00:01:32,100
+Na verdade nós temos aqui o termo relacionado ao eixo x que eu vou colocar igual ao mundo se não perceber
+
+17
+00:01:32,130 --> 00:01:40,090
+que automaticamente logo para o lado X e o eixo x completamente ele largo qual o eixo x a falta na hora
+
+18
+00:01:40,090 --> 00:01:42,450
+de colocar também no eixo y.
+
+19
+00:01:42,770 --> 00:01:49,260
+Então pra isso eu vou colocar que o peso do eixo X juntamente com todos os elementos vai ter o mesmo
+
+20
+00:01:49,260 --> 00:01:55,950
+peso quando você quiser que o elemento ocupe mais espaço aí sim você vai mexer no peso pra ele ocupar
+
+21
+00:01:56,670 --> 00:02:00,130
+o espaço eu vou mostrar pra vocês agora tá.
+
+22
+00:02:00,180 --> 00:02:06,390
+Coloquei todos aqui esse botão e esse botão Não vou querer trabalhar na versão que nós vamos apresentar
+
+23
+00:02:06,400 --> 00:02:11,940
+se você quiser depois criar algo mais e menos inclusive deve ter um caractere que o mais ou menos ao
+
+24
+00:02:11,940 --> 00:02:12,840
+mesmo tempo.
+
+25
+00:02:12,930 --> 00:02:16,350
+Você pode jogar em time da sua aplicação que eu coloquei três caracteres né.
+
+26
+00:02:16,590 --> 00:02:23,380
+Então falou o seguinte eu vou tirar esses dois botões pra gente olha o resultado e tal como vai ficar
+
+27
+00:02:23,390 --> 00:02:28,640
+vai ficar um buraco no meio ficou esse botão aqui com esse buraco eu quero que esse botão com esses
+
+28
+00:02:28,640 --> 00:02:29,640
+três espaço.
+
+29
+00:02:29,640 --> 00:02:33,370
+Como é que eu faço isso pra fazer isso eu vou pagar o que eu sei.
+
+30
+00:02:33,360 --> 00:02:34,420
+Ponto.
+
+31
+00:02:34,560 --> 00:02:40,670
+Grid a largura do grid e eu coloco por exemplo pra largura C3.
+
+32
+00:02:40,800 --> 00:02:45,960
+Se eu fizer isso significa que todas as construções pra baixo vão ter largura igual a 3 Eu não quero
+
+33
+00:02:45,960 --> 00:02:52,250
+que aconteça isso tão logo depois na sequência já tem um que no alto a largura PRA SEMPRE ETERNO.
+
+34
+00:02:52,250 --> 00:02:59,580
+Você vai ver que agora o botão ocupará 3 espaço todos os outros logo mas lá embaixo também preciso mexer
+
+35
+00:02:59,580 --> 00:03:08,040
+nessa propriedade porque o que eu quero ter apenas um único 0 tem 2 então segundos era o exclui antes
+
+36
+00:03:08,040 --> 00:03:11,070
+de colocar ele eu vou colocar aqui com cheirinho pronto.
+
+37
+00:03:11,280 --> 00:03:20,050
+Grid a largura do grid vai ser 2 e logo depois eu volto aqui para a largura do grid sei que posso continuar
+
+38
+00:03:20,050 --> 00:03:25,650
+de forma normal e você pode mexer na largura do botão pode mexer na altura do botão tudo isso de uma
+
+39
+00:03:25,650 --> 00:03:28,140
+forma muito mais flexível dentro do grid.
+
+40
+00:03:28,230 --> 00:03:33,000
+Então agora que a gente tem a nossa interface gráfica pronta tá na hora a gente começar a ir para a
+
+41
+00:03:33,000 --> 00:03:40,410
+lógica da nossa aplicação fazer os botões funcionarem e fazer a parte interna né você criar uma variável
+
+42
+00:03:40,410 --> 00:03:47,070
+que vai armazenar o valor digitado que vai armazenar a operação digitada e aí fazer a lote da calculadora
+
+43
+00:03:47,070 --> 00:03:47,580
+funcionar.
+
+44
+00:03:47,670 --> 00:03:53,130
+Então do ponto de vista de interface gráfica nossa aplicação está OK finalizada está faltando agora
+
+45
+00:03:53,130 --> 00:03:58,530
+a gente fazer tudo isso funcionar com o que seria a lógica da nossa aplicação.
+
+46
+00:03:58,800 --> 00:04:00,550
+Então vou ficar por aqui na sala na próxima.
+
+47
+00:04:00,570 --> 00:04:05,700
+A gente começa a desenvolver o que eu vou chamar de memória da calculadora que vai ser responsável por
+
+48
+00:04:05,700 --> 00:04:12,270
+fazer as operações vai ser responsável por armazenar os valores digitados e aí não há tanto do suingue
+
+49
+00:04:12,270 --> 00:04:15,460
+mais importante pra você ter uma aplicação completa funcionando.
+
+50
+00:04:15,480 --> 00:04:21,630
+Nós também iremos usar o padrão observe para modificar a interface gráfica sempre que o novo Fallout
+
+51
+00:04:21,630 --> 00:04:26,450
+foi inserido dentro da memória da calculadora então fico por aqui na próxima aula a gente continua pra
+
+52
+00:04:26,460 --> 00:04:29,460
+implementar parte da regra da aplicação até lá.

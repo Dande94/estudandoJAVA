@@ -1,0 +1,455 @@
+1
+00:00:00,280 --> 00:00:05,600
+Agora mas não está está exatamente o conceito que eu falei na aula passada balofo verso referência.
+
+2
+00:00:06,150 --> 00:00:15,830
+Então para isso nós vamos criar aqui uma nova classe de classe nome da classe C que falou versos preferência
+
+3
+00:00:16,080 --> 00:00:21,110
+por selecionar filmes que nós vamos criar aqui dentro.
+
+4
+00:00:21,140 --> 00:00:25,780
+Por mim eu vou usar classes que eu já criei anteriormente só para testar esse conceito.
+
+5
+00:00:26,250 --> 00:00:34,590
+Então inicialmente vou usar um valor primitivo pode ser um tabu colocar que andavam por exemplo a receber
+
+6
+00:00:34,590 --> 00:00:35,400
+o valor.
+
+7
+00:00:35,420 --> 00:00:39,010
+2 Posso definir que um novo W.
+
+8
+00:00:39,110 --> 00:00:41,950
+B recebe o valor da variável a.
+
+9
+00:00:42,330 --> 00:00:53,220
+Ou seja nesse ponto eu fiz uma atribuição ou valor seja uma cópia do valor definido na memória de tal
+
+10
+00:00:53,220 --> 00:01:01,890
+forma que se eu fizer a mais mais ou fizer bem menos menos o resultado mais do que o esperado é o teu
+
+11
+00:01:01,890 --> 00:01:02,540
+valor.
+
+12
+00:01:02,690 --> 00:01:05,300
+Vou botar um do lado certo.
+
+13
+00:01:05,340 --> 00:01:11,280
+Concatenar construir o valor de B o resultado oprimido aqui é 3.
+
+14
+00:01:11,580 --> 00:01:20,640
+Ou seja o valor de a 2 Eu acrescentei 1 passou a ser 3 o valor de B a cópia do valor de B inicialmente
+
+15
+00:01:20,640 --> 00:01:22,460
+começou com 2 em uma cópia de A.
+
+16
+00:01:22,830 --> 00:01:29,680
+E aí eu subtrai e acabou ficando de tal forma que os dois valores são independentes e esta agora a Caixa
+
+17
+00:01:29,680 --> 00:01:35,890
+na referência não que eu vou criar aqui no objeto data que a gente criou nesse capítulo então chamado
+
+18
+00:01:35,890 --> 00:01:47,310
+chamar que recebe mil data e a gente tem a data por exemplo pra se colocar os valores iniciais do 6
+
+19
+00:01:47,720 --> 00:01:51,090
+de 2 mil e 22.
+
+20
+00:01:51,150 --> 00:02:00,720
+Vou criar aqui uma nova data data D2 recebe o valor de um ponto e vírgula e aqui eu tenho novamente
+
+21
+00:02:00,720 --> 00:02:10,250
+uma atribuição tão atribuir são só que nesse caso não atribuição por um valor não uma atribuição por
+
+22
+00:02:11,040 --> 00:02:18,720
+referência ok porque eu estou trabalhando com o objeto então então que trabalha com objeto e aqui estou
+
+23
+00:02:18,750 --> 00:02:24,840
+trabalhando com um tipo primitivo ou Tóquio.
+
+24
+00:02:26,860 --> 00:02:39,000
+Então aqui eu posso fazer um ponto do dia tem o valor 31 posso colocar aqui D2 todo mês pelo valor 12
+
+25
+00:02:39,650 --> 00:02:51,080
+e no final eu vou chamar o system on line dê um ponto obter data formatada e duplicar essa linha que
+
+26
+00:02:51,230 --> 00:03:03,390
+aqui D2 ao Big Data formatado o resultado vai ser exatamente a mesma data 31 12 22 31 do 12 2022 porque
+
+27
+00:03:03,490 --> 00:03:12,090
+eu mexi em deu o dinheiro mais impactou também D2 mexi em D2 o mês impactou em e qualquer outra coisa
+
+28
+00:03:12,090 --> 00:03:20,130
+que eu fizer por exemplo dê um ponto ano pra ser 2 mil e 25 também vai impactar nos 2 porque as duas
+
+29
+00:03:20,130 --> 00:03:23,740
+variáveis apontam para o mesmo objeto em memória.
+
+30
+00:03:23,740 --> 00:03:30,480
+Isso também tem algumas outras implicações por exemplo se você passa um objeto como parâmetro para o
+
+31
+00:03:30,480 --> 00:03:36,420
+método esse objeto também é passado como referência e eu vou entrar um pouco mais detalhe quando tiver
+
+32
+00:03:36,870 --> 00:03:43,240
+evoluído também na questão dos metros mas se você passa um objeto como parâmetro para um metro você
+
+33
+00:03:43,240 --> 00:03:50,610
+está passando não é um clone do objeto não é uma cópia mas tá passando uma referência e se dentro desse
+
+34
+00:03:50,610 --> 00:03:54,120
+Metro você mexem nos dados do objeto.
+
+35
+00:03:54,120 --> 00:04:01,410
+Quando o metro terminar quem passou o objeto irá perceber que houve uma mudança certo então isso também
+
+36
+00:04:01,500 --> 00:04:02,380
+é possível.
+
+37
+00:04:02,430 --> 00:04:04,870
+Eu posso até estar aqui por exemplo.
+
+38
+00:04:05,380 --> 00:04:07,770
+Eu vou criar aqui embaixo.
+
+39
+00:04:07,920 --> 00:04:13,770
+Logo depois do Metro do meio diretamente dentro do valor de referência eu vou criar um outro método
+
+40
+00:04:13,770 --> 00:04:21,120
+estático então fazer o seguinte ISTAT porquê um método estático só consegue acessar outro Metro estático
+
+41
+00:04:21,120 --> 00:04:27,230
+também uma regra ou seja você a partir de um metro que pertence à classe você consegue acessar um ou
+
+42
+00:04:27,220 --> 00:04:29,270
+outro Metro que pertence à classe.
+
+43
+00:04:29,580 --> 00:04:36,240
+Você não consegue a partir de um metro estático acessar um metro de distância então coloca naquele estádio
+
+44
+00:04:36,240 --> 00:04:38,080
+que eu vou chamar.
+
+45
+00:04:38,250 --> 00:04:52,450
+Esse método não vai retornar nada e eu vou colocar aqui Baltar data para um valor padrão bem grande
+
+46
+00:04:52,450 --> 00:04:52,830
+certo.
+
+47
+00:04:53,460 --> 00:05:00,850
+Então aqui eu vou receber como parâmetro pra esse metro uma data que eu vou chamar de Eu quero que esse
+
+48
+00:05:00,850 --> 00:05:01,800
+método vai fazer.
+
+49
+00:05:01,810 --> 00:05:15,020
+Ele vai fazer o seguinte dê ponto e dia recebe d ponto mas recebe um ponto recebe mil novecentos e setenta.
+
+50
+00:05:15,200 --> 00:05:21,590
+Então como eu estou passado um objeto e quando eu passo um objeto como parâmetro para uma função ele
+
+51
+00:05:21,590 --> 00:05:24,640
+vai por padrão como a referência não passo.
+
+52
+00:05:24,950 --> 00:05:28,490
+O clone não é uma cópia passou no endereço de memória.
+
+53
+00:05:28,700 --> 00:05:35,840
+Quando eu alterar aqui dentro ele vai de fato mexer no objeto que foi passado então que eu chamei duas
+
+54
+00:05:35,840 --> 00:05:37,930
+vezes para obter a data formatada.
+
+55
+00:05:38,090 --> 00:05:45,090
+Vou chamar essa função que eu vou chamar aqui voltar data para o valor padrão que tem o apoio político
+
+56
+00:05:45,130 --> 00:05:46,290
+que é o método grande.
+
+57
+00:05:46,600 --> 00:05:49,710
+E aqui eu vou passar tanto faz passar bem me incomodei.
+
+58
+00:05:49,760 --> 00:05:55,370
+Os dois apontam para o mesmo local mesmo aqui eu vou duplicar esse amigo e jogar aqui embaixo e você
+
+59
+00:05:55,370 --> 00:05:58,310
+vai perceber que ele vai pra mim 12 vezes.
+
+60
+00:05:58,310 --> 00:06:06,870
+A data que está aqui é 31 12 25 depois vai imprimi novamente 12 vezes o valor da data só que o mundo
+
+61
+00:06:06,860 --> 00:06:12,470
+de 1970 executado aconteceu exatamente da forma que eu previ por porquê.
+
+62
+00:06:12,770 --> 00:06:20,210
+Porque quando você passa um objeto como atributo pra um metro você passa esse objeto como parâmetro
+
+63
+00:06:20,210 --> 00:06:21,280
+pra um metro.
+
+64
+00:06:21,410 --> 00:06:27,530
+Dentro desse método você vai receber a referência para o objeto em memória como você tem a referência
+
+65
+00:06:27,530 --> 00:06:32,790
+ao objeto de memória você vai alterar essa referência memória e você vai acabar.
+
+66
+00:06:32,790 --> 00:06:39,080
+Isso vai acabar gerando impacto para depois as chamar do Metro ou seja esse método não retornou nada
+
+67
+00:06:39,190 --> 00:06:39,570
+mais.
+
+68
+00:06:39,620 --> 00:06:45,970
+A chamada desse método causou uma alteração diretamente nos objetos que você passou.
+
+69
+00:06:46,020 --> 00:06:52,010
+E essa é uma estratégia que você acaba precisando ter cuidado porque o ideal é que você não mexa nos
+
+70
+00:06:52,010 --> 00:06:54,820
+atributos que você recebeu como parâmetro.
+
+71
+00:06:54,830 --> 00:07:01,430
+Se você puder evitar esse tipo de mexida na equação a referência para a função e essa função mexe de
+
+72
+00:07:01,430 --> 00:07:04,540
+uma forma que gera impacto no objeto.
+
+73
+00:07:04,550 --> 00:07:09,740
+Isso não é uma boa prática mas nesse ponto do curso embora eu fale que esse tipo de coisa que você tem
+
+74
+00:07:09,740 --> 00:07:11,480
+tem um certo cuidado.
+
+75
+00:07:11,480 --> 00:07:17,690
+Isso vai remeter para algumas discussões mais avançado sobre paradigmas de programação sobre algumas
+
+76
+00:07:17,690 --> 00:07:24,290
+boas práticas de programação que não vale tanto a pena estar entrando no mérito porque vai acabar trazendo
+
+77
+00:07:24,350 --> 00:07:30,980
+alguns assuntos que ainda não foram abordados aqui no curso mas de qualquer forma é possível você alterar
+
+78
+00:07:30,980 --> 00:07:34,500
+um objeto quando você passa ele por parâmetro para o metro.
+
+79
+00:07:34,490 --> 00:07:41,360
+Então quando você altera você percebe que depois o objeto foi de fato modificado e o mais importante
+
+80
+00:07:41,500 --> 00:07:48,380
+é que você percebe que quando você passa um objeto como parâmetro para um método você passa a referência
+
+81
+00:07:48,560 --> 00:07:50,980
+pelo fato de você ter passado a referência.
+
+82
+00:07:51,020 --> 00:07:57,360
+Você vai conseguir alterar o objeto a partir desse método é para a gente testar essa questão do primitivo.
+
+83
+00:07:57,360 --> 00:08:02,330
+Se eu passar um primitivo como parâmetro para um metro o que é que vai acontecer vou mostrar agora vou
+
+84
+00:08:02,330 --> 00:08:08,750
+criar também outro método estático para facilitar o meu acesso já que o método nem tamanho o metro estático
+
+85
+00:08:09,320 --> 00:08:11,400
+fica mais fácil para acessar.
+
+86
+00:08:11,420 --> 00:08:20,410
+Se for um metro está faltando colocar aqui um Voyage por exemplo vou colocar aqui alterar primitivo.
+
+87
+00:08:20,660 --> 00:08:29,840
+Vou passar aqui um White a e vou fazer com que o ente a C++ por exemplo certo alterar primitivo ou chamar
+
+88
+00:08:30,240 --> 00:08:38,360
+mais mais e estão criando aqui um primitivo C recebe valor 5 vou chamar um metro alterar primitivo passando
+
+89
+00:08:38,450 --> 00:08:39,220
+o C.
+
+90
+00:08:39,560 --> 00:08:45,060
+Finalmente eu vou colocar aqui System audio para Angelim para imprimir o valor de c.
+
+91
+00:08:45,090 --> 00:08:51,990
+Se acontecer a mesma coisa que acontece com o objeto o valor C vai aparecer com 6.
+
+92
+00:08:52,160 --> 00:08:58,130
+Caso não aconteça caso quando você passa um valor primitivo como parâmetro para 1 metro.
+
+93
+00:08:58,130 --> 00:09:03,560
+Ainda assim ele vai criar uma cópia esse valor mais mas não vai gerar nenhum impacto certo.
+
+94
+00:09:03,610 --> 00:09:10,460
+O que acontece aqui é que também o valor primitivo quando você passa ele como parâmetro para o método
+
+95
+00:09:10,550 --> 00:09:17,030
+ele vai ter o mesmo comportamento de atribuição de um valor primitivo ou seja o que é passado para um
+
+96
+00:09:17,030 --> 00:09:20,480
+método é uma cópia e não há referência.
+
+97
+00:09:20,480 --> 00:09:27,370
+Ou seja primitivo sempre será passado para um método ou atribuição sempre será feita por valor.
+
+98
+00:09:27,410 --> 00:09:34,730
+Ou seja uma cópia do valor será criada na memória e no caso do objeto tanto a atribuição como passar
+
+99
+00:09:34,730 --> 00:09:41,200
+o objeto como parâmetro para o método será passado via referência de tal forma que o que você mexer
+
+100
+00:09:41,200 --> 00:09:47,120
+aqui dentro vai gerar impacto e o que você mexer dentro relativo ao tipo primitivo não irá gerar impacto
+
+101
+00:09:47,120 --> 00:09:52,550
+para fora e estão executando aqui para a gente finalizar aula o resultado assim como a gente já esperava.
+
+102
+00:09:52,900 --> 00:09:57,840
+Porque quando eu passei o sei para alterar primitivo o que foi passado aqui.
+
+103
+00:09:57,860 --> 00:10:05,280
+Essa variável a tem completamente diferente da variável de memória que é variável sim independente do
+
+104
+00:10:05,280 --> 00:10:11,820
+nome da variável até poderia chamar de ser certo não vai causar nenhum impacto porque esse ser esse
+
+105
+00:10:11,820 --> 00:10:17,550
+parâmetro foi gerado uma cópia no momento que você passou de tal forma que o que você modifica aqui
+
+106
+00:10:17,550 --> 00:10:20,550
+dentro não irá gerar impacto do lado de fora.
+
+107
+00:10:20,550 --> 00:10:24,730
+Já no caso do objeto como a gente já viu anteriormente gerou impacto.
+
+108
+00:10:24,730 --> 00:10:27,510
+Isso é algo que precisa ter cuidado mas eu vou falar mais à frente.
+
+109
+00:10:27,510 --> 00:10:32,430
+Boas práticas vou entrar também paradigmas de programação de coisas mais profundas para que a gente
+
+110
+00:10:32,430 --> 00:10:38,190
+possa entender um pouco mais sobre essa discussão aqui mas o mais importante é você entender exatamente
+
+111
+00:10:38,190 --> 00:10:45,480
+o valor versus referência quando a atribuição é feita com referência quando uma atribuição é feita pelo
+
+112
+00:10:45,480 --> 00:10:45,950
+valor.
+
+113
+00:10:46,290 --> 00:10:53,700
+Quando você passa um parâmetro para um método que é valor quando você passa a referência e as implicações
+
+114
+00:10:53,700 --> 00:10:57,080
+disso isso é o mais importante e espero que tenha ficado claro mensal.

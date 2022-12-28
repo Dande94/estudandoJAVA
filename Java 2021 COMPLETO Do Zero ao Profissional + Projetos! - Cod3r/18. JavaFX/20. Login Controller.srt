@@ -1,0 +1,335 @@
+1
+00:00:00,340 --> 00:00:05,540
+Agora nós vamos criar uma classe que será responsável por seu controlador.
+
+2
+00:00:06,050 --> 00:00:11,760
+A nossa interface gráfica nossa interface gráfica está sendo definida a partir de um arquivo e não usa
+
+3
+00:00:11,760 --> 00:00:15,450
+a linguagem Java a partir de um arquivo que usa XML.
+
+4
+00:00:15,450 --> 00:00:22,410
+Mais Você percebe que o arquivo XML é bom para definir a estrutura de interface visual mas ele não é
+
+5
+00:00:22,410 --> 00:00:28,300
+bom para definir código toca a gente quando clicar por exemplo no botão de login de entrada.
+
+6
+00:00:28,590 --> 00:00:33,510
+A gente vai precisar executar um código vai precisar chamar uma classe para precisar eventualmente acessar
+
+7
+00:00:33,510 --> 00:00:42,090
+o banco de dados então para isso entre o arquivo XML e o arquivo que vai acessar a sua loja na sua aplicação
+
+8
+00:00:42,100 --> 00:00:45,720
+o banco de dados seria o modelo ou seja entrar viu.
+
+9
+00:00:45,840 --> 00:00:51,510
+E o modelo tem o controle que é exatamente a classe que fica ali no meio controlando o fluxo da sua
+
+10
+00:00:51,510 --> 00:00:57,690
+aplicação capturando as informações necessárias da tela para chamar a sua camada de negócio.
+
+11
+00:00:57,960 --> 00:01:05,520
+Então para a gente continuar o nosso exercício eu vou criar uma nova classe dentro do nosso pacote é
+
+12
+00:01:05,520 --> 00:01:13,800
+preciso ml que eu vou chamar aquilo que eu poderei chamar controlem mais eu vou chamar controlado já
+
+13
+00:01:13,800 --> 00:01:19,530
+que é uma classe que apresenta digamos assim um controle e uma observação.
+
+14
+00:01:19,560 --> 00:01:24,570
+Eu acredito que em exercícios passados eu tenho colocado o nome do projeto errado.
+
+15
+00:01:24,570 --> 00:01:26,360
+Eu não sei se o grupo vem mudando isso.
+
+16
+00:01:26,370 --> 00:01:33,000
+Eu gravei fora do vídeo mas estava faltando sei eu acho o nome do projeto e eu já corrige isso não se
+
+17
+00:01:33,010 --> 00:01:38,220
+isso corrigi no vídeo você corrigia antes eu não estou lembrasse agora exatamente como foi que eu corrigi
+
+18
+00:01:38,220 --> 00:01:44,490
+mas tinham o nome errado aqui e eu corrigiu o nome quando eu for colocar no repositório o nome exercícios
+
+19
+00:01:44,730 --> 00:01:46,520
+Java FX já vai estar correto.
+
+20
+00:01:46,830 --> 00:01:54,600
+Então vamos lá colocando aqui ou dentro de um login ponto XML existe uma propriedade aqui vocês vão
+
+21
+00:01:54,600 --> 00:02:00,210
+perceber que o eclipse com esse login não é muito bom pra completar tudo a gente vai ter que colocar
+
+22
+00:02:00,290 --> 00:02:06,750
+as coisas manualmente mais aqui é uma das possibilidades que ele controla como contra o espaço dentro
+
+23
+00:02:07,140 --> 00:02:16,110
+da abertura do bem você vai ver que tem uma opção chamado FX 2 pontos Controller é exatamente a propriedade
+
+24
+00:02:16,110 --> 00:02:21,900
+que eu vou dizer qual é a classe que representa o controle dessa interface gráfica aqui nessa minha
+
+25
+00:02:21,900 --> 00:02:25,400
+viu e o nome da classe vai ser o caminho do pacote.
+
+26
+00:02:25,440 --> 00:02:27,780
+Então f em XML.
+
+27
+00:02:27,960 --> 00:02:37,650
+Ponto login controla o lado por isso a gente consegue vincular digamos assim o efeito do botão por exemplo
+
+28
+00:02:37,730 --> 00:02:41,430
+movimento do botão a partir de um metro dentro do meu controlado.
+
+29
+00:02:41,430 --> 00:02:43,280
+Então vou criar aqui um método.
+
+30
+00:02:43,830 --> 00:02:52,770
+Vou colocar aqui ao públicos pois vai ter um método pra esse método pode não receber um parâmetro que
+
+31
+00:02:52,770 --> 00:02:59,370
+seria o evento no meu caso não vou precisar então não vou colocar o evento e eu vou simplesmente colocar
+
+32
+00:02:59,370 --> 00:03:06,120
+um system on Michelin e colocar aqui ou entrar exatamente no meio do mato só para a gente ver quando
+
+33
+00:03:06,120 --> 00:03:08,470
+eu clicar no botão ele vai chamar esse método.
+
+34
+00:03:08,680 --> 00:03:11,550
+é que eu poderia já estar aqui.
+
+35
+00:03:11,730 --> 00:03:16,460
+Já está vinculado com o controlador então se tiver algum erro no caminho da classe vai dar para esse
+
+36
+00:03:16,470 --> 00:03:16,810
+caso.
+
+37
+00:03:17,080 --> 00:03:20,250
+Como é que eu faço pra clicar aqui e ele chamar esse método.
+
+38
+00:03:20,250 --> 00:03:27,270
+é a propriedade que nós vamos usar aqui pra usar o evento algo contra o espaço que coloca aquele como
+
+39
+00:03:27,760 --> 00:03:33,850
+a opção que ele já colocou um serial killer na frente o que é o Serial Killer Killer.
+
+40
+00:03:34,160 --> 00:03:40,570
+E pra você referenciar que você está chamando um método essa é a sintaxe que ele usa colocando aqui
+
+41
+00:03:40,590 --> 00:03:48,120
+será que ele é o nome do Metro vai ser entrar com isso significa que quando você clicar no botão ele
+
+42
+00:03:48,120 --> 00:03:55,270
+vai chamar o método e entrar que está bem controlado para a gente ver o resultado que é supersimples
+
+43
+00:03:55,490 --> 00:04:02,300
+ou clicar entrar ele vai chamar Metro central ou seja a primeira parte do problema foi resolvida.
+
+44
+00:04:02,310 --> 00:04:08,490
+A segunda parte é a gente ter acesso ao valor que está dentro do filme e o valor que está dentro de
+
+45
+00:04:08,490 --> 00:04:10,030
+peça por filme.
+
+46
+00:04:10,050 --> 00:04:16,740
+Para isso nós temos uma propriedade associada aos elementos que é o FX 2 pontos Aydin.
+
+47
+00:04:17,100 --> 00:04:24,180
+Quando você define um Audi o elemento então nesse caso o Kill o filme é relacionado ao meio ou então
+
+48
+00:04:24,180 --> 00:04:28,460
+você pode colocá lo em meio ao filme por exemplo.
+
+49
+00:04:28,460 --> 00:04:31,320
+Aqui eu tenho um Audi associado a esse filme.
+
+50
+00:04:31,770 --> 00:04:41,100
+E aqui embaixo peço hoje a mesma coisa vou colocar o f fx 2 pontos aí vou colocar 100 filmes com o campo
+
+51
+00:04:41,100 --> 00:04:46,950
+sem nome que você quiser colocar nesse caso como está o colocar em português Eu vou colocar seu texto
+
+52
+00:04:49,090 --> 00:04:55,870
+seria bem tedioso colocar aqui no campo em meio eu vou colocar aqui embaixo.
+
+53
+00:04:57,140 --> 00:05:03,760
+Não sei isso como é que a gente faz para acessar esses elementos dentro do meu login.
+
+54
+00:05:03,980 --> 00:05:12,210
+Eu coloco como um elemento eu teste de filtros não do Java ponta WD obviamente Java FX.
+
+55
+00:05:12,240 --> 00:05:20,750
+Assim como controle eu vou colocar aqui Ocampo pediu e vou criar aqui um trailer.
+
+56
+00:05:21,540 --> 00:05:26,620
+Peço por filtros e fechamento de Java FX ponto sim ponto Control.
+
+57
+00:05:26,750 --> 00:05:29,670
+Eu vou chamar de campo sem.
+
+58
+00:05:29,670 --> 00:05:36,620
+Feito isso a gente precisa agora dizer que esses dois campos são campos que pertencem ao nosso arquivo
+
+59
+00:05:37,100 --> 00:05:37,960
+XML.
+
+60
+00:05:38,270 --> 00:05:46,940
+Então basta você colocar um Another ao fim XML que ele vai saber que esse campo pertence ao nosso arquivo
+
+61
+00:05:47,090 --> 00:05:52,580
+XML e aqui eu vou colocar em XML XML também.
+
+62
+00:05:52,880 --> 00:05:59,000
+Pronto agora temos dois campos mapeados se você olhar lá na nossa tela de login agora o site já não
+
+63
+00:05:59,000 --> 00:06:04,910
+está com aquele símbolo de o One porque ele já foi mapeado por nosso controlador ele consegue verificar
+
+64
+00:06:04,910 --> 00:06:10,850
+que você criou mais de um elemento que não foi mapeado dentro do controlador ele está lá comando com
+
+65
+00:06:10,850 --> 00:06:13,370
+isso feito isso dentro do nosso centro.
+
+66
+00:06:13,370 --> 00:06:19,760
+Agora a gente tem acesso a informação de login e senha então vou usar aqui o sistema de polietileno
+
+67
+00:06:19,760 --> 00:06:24,680
+para colocá lo no campo e meio ponto Guedes.
+
+68
+00:06:24,980 --> 00:06:26,860
+E vou fazer a mesma coisa.
+
+69
+00:06:26,950 --> 00:06:32,600
+Se tem algo grande ali campo seria outro grande teste.
+
+70
+00:06:32,630 --> 00:06:39,440
+Agora quando eu fizer a execução vocês vão perceber que a gente tem acesso a informação de senha e do
+
+71
+00:06:39,440 --> 00:06:43,360
+e-mail no nosso terminal com qualquer aluno.
+
+72
+00:06:43,410 --> 00:06:55,370
+Outro ponto com.br é a senha 2 3 4 5 6 7 8 entrar vai meu aluno logo ponto como comecem a 1 2 3 4 5
+
+73
+00:06:55,370 --> 00:06:58,790
+6 7 8 você gente já tem acesso às informações.
+
+74
+00:06:58,820 --> 00:07:04,670
+Nossa interface gráfica como também está fazendo com que o botão ele dispare o método dentro do nosso
+
+75
+00:07:04,670 --> 00:07:05,510
+controlador.
+
+76
+00:07:05,930 --> 00:07:11,840
+Então pessoal ficamos por aqui nessa parte agora nas próximas aulas nós vamos focar muito na questão
+
+77
+00:07:11,840 --> 00:07:18,710
+do layout para organizar nossa tela colocar um beco onde associar um CSS também que vai ser importante
+
+78
+00:07:18,980 --> 00:07:24,130
+e vai fazer passo a passo para a gente construir a nossa interface gráfica e deixar ela com um layout
+
+79
+00:07:24,140 --> 00:07:30,280
+mais interessante então as partes mais importantes que foram vincular os dados na tela o nosso concorrente
+
+80
+00:07:30,380 --> 00:07:36,260
+já fez outro conseguir carregar um arquivo XML também e agora a gente vai integrar com outras coisas
+
+81
+00:07:36,260 --> 00:07:42,350
+que a gente trabalhou durante o capítulo que a parte legal de colocar um cola com os de colocar alguns
+
+82
+00:07:42,350 --> 00:07:47,960
+espaçamento e dar uma melhorada na nossa interface gráfica para ela ficar na forma final como planejei
+
+83
+00:07:47,990 --> 00:07:54,110
+então fico por aqui na próxima aula a gente continua mais uma parte adicionando CCS e trabalhando com
+
+84
+00:07:54,110 --> 00:07:55,840
+a parte visual e disparou.

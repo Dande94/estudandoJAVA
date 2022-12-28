@@ -1,0 +1,323 @@
+1
+00:00:00,310 --> 00:00:05,720
+Entrar propriamente na questão dos erros né que eu quero simular com vocês rapidamente nessa aula.
+
+2
+00:00:05,720 --> 00:00:11,820
+é uma coisa que eu queria chamar atenção para vocês da aula passada e o fato de que eu não precisei
+
+3
+00:00:11,820 --> 00:00:14,740
+fazer absolutamente nada.
+
+4
+00:00:14,850 --> 00:00:20,830
+Nenhuma outra configuração a não ser colocar essas duas anotações na classe principal.
+
+5
+00:00:20,880 --> 00:00:26,900
+Eu não precisei chegar aqui e escrever nenhum código para que essa classe primeiro controle fosse encontrada.
+
+6
+00:00:26,910 --> 00:00:27,450
+Por quê.
+
+7
+00:00:27,450 --> 00:00:33,750
+Porque eles Spring ele automaticamente já encontra as classes que tem a anotação por exemplo o resto
+
+8
+00:00:33,750 --> 00:00:39,510
+controla não apenas essa anotação como também contra outras não rouba controle e também a anotação vale
+
+9
+00:00:39,660 --> 00:00:46,080
+então automaticamente ele encontra essas classes já faz todo o mapeamento necessário pra que um determinado
+
+10
+00:00:46,080 --> 00:00:47,860
+método seja chamado.
+
+11
+00:00:47,900 --> 00:00:53,010
+Terminado o RL se percebem como fácil energia que a gente fez até agora.
+
+12
+00:00:53,130 --> 00:01:01,470
+Nós baixamos exibe destarte pontos e compacto exibe importamos um projeto Baby automaticamente todas
+
+13
+00:01:01,470 --> 00:01:03,950
+as dependências foram baixadas para a gente.
+
+14
+00:01:04,170 --> 00:01:11,340
+Nós executamos um método bem e ele está faltou ao nosso servidor baseado no teste que vem embarcado
+
+15
+00:01:11,700 --> 00:01:16,980
+dentro do espírito de butique e no final das contas a gente usou duas anotei shots pra criar o nosso
+
+16
+00:01:16,980 --> 00:01:22,950
+primeiro serviço web e retorna apenas um texto mais tarde funcionando o que é muito legal de forma muito
+
+17
+00:01:22,950 --> 00:01:23,770
+fácil.
+
+18
+00:01:23,770 --> 00:01:28,150
+Tá então voltando aqui só para a gente mostrar aqui pra vocês mais coisas.
+
+19
+00:01:28,230 --> 00:01:35,350
+Se eu chegar aqui e dê um control C nesse método e vim aqui criar de novo um gatinho Mac.
+
+20
+00:01:35,370 --> 00:01:36,180
+Qual a função.
+
+21
+00:01:36,180 --> 00:01:44,540
+Por exemplo salão da ação e eu colocar as mesmas o RL.
+
+22
+00:01:44,550 --> 00:01:48,630
+Basta colocar apenas um L que já está sendo usado por outro método.
+
+23
+00:01:48,630 --> 00:01:55,520
+Ele vai acusar que tenho um problema de ambiguidade e fecha ele deu um problema dizendo ou ambíguos
+
+24
+00:01:58,590 --> 00:02:08,120
+saudação ou seja há um método mapeado para a saudação que está gerando ambiguidade com relação ao mapeamento
+
+25
+00:02:08,130 --> 00:02:15,120
+você não consegue ter o mesmo RL sendo mapeada para mais de um método diferente e é muito legal.
+
+26
+00:02:15,200 --> 00:02:20,740
+Apesar de que você tem aqui um conjunto gigantesco de classes um estoque bem grande.
+
+27
+00:02:20,750 --> 00:02:27,300
+Você sabe exatamente interpretar a mensagem de essa mensagem ou então ele está dizendo que dentro de
+
+28
+00:02:27,300 --> 00:02:34,590
+primeiro controle a saudação gerou esse tipo de mapeamento ambíguo e você precisa ter calma Primeiro
+
+29
+00:02:34,740 --> 00:02:39,930
+pra interpretar as mensagens e sabe simular os erros de uma forma controlada.
+
+30
+00:02:39,930 --> 00:02:45,960
+Nem sempre eu lembro disso mas eu sempre gosto quando possível de tentar simular alguns erros controlados
+
+31
+00:02:46,220 --> 00:02:51,660
+para tentar interpretar as mensagens de eu sabia exatamente o que esperar quando determinados erros
+
+32
+00:02:51,720 --> 00:02:52,750
+acontecem.
+
+33
+00:02:52,740 --> 00:02:54,280
+Esse é o tipo de erro.
+
+34
+00:02:54,320 --> 00:02:57,780
+Outra questão que você pode fazer é o seguinte.
+
+35
+00:02:58,350 --> 00:02:59,830
+Além do método GET IT.
+
+36
+00:02:59,850 --> 00:03:06,480
+Ou seja além de dentro do protocolo HTTP o teu método BET tem mais outros sete métodos disponíveis.
+
+37
+00:03:06,480 --> 00:03:10,020
+Ao todo são oito metros no protocolo HTTP.
+
+38
+00:03:10,020 --> 00:03:13,520
+Você tem mente que eu vou lembrar de todos metem um gadget.
+
+39
+00:03:13,810 --> 00:03:22,640
+O push Bet BOL este pudim de leite você tem o Pet e você tem o Trey se você tem um rei você tem um workshop
+
+40
+00:03:22,770 --> 00:03:30,600
+exatamente os 8 metros do HTTP e esses metros podem ser mapeados aqui para os Web Services.
+
+41
+00:03:30,930 --> 00:03:37,900
+Então eu posso em vez de ter um arroba Get map e eu posso colocar aqui um arroba touch.
+
+42
+00:03:38,430 --> 00:03:45,750
+Posso colocar aqui o mesmo perfil e eu posso por exemplo tirar o card Mapping ali e mais você continua
+
+43
+00:03:45,750 --> 00:03:46,930
+com a mesma.
+
+44
+00:03:46,930 --> 00:03:54,090
+O RL você já tem a mesma relíquia mesmo a relíquia que eu posso colocar por exemplo.
+
+45
+00:03:55,080 --> 00:03:59,470
+Poucos certo então nesse caso eu não tenho um problema.
+
+46
+00:03:59,460 --> 00:03:59,820
+Por quê.
+
+47
+00:03:59,850 --> 00:04:07,490
+Porque apesar de ter mapeado a mesma ou RL Eu estou mapeando a mesma ou RL para 2 metros do HTTP diferentes.
+
+48
+00:04:07,920 --> 00:04:14,840
+Então quando ele executa o método saudação para o Get It Você vai ver que ele vai trazer o olhar experiente.
+
+49
+00:04:14,850 --> 00:04:20,910
+Ou seja ele vai executar esse elemento aqui e se você fizer um pouco o Chile mais tais como é que eu
+
+50
+00:04:20,910 --> 00:04:21,900
+posso fazer um bom.
+
+51
+00:04:21,920 --> 00:04:28,460
+A gente vai falar mais na frente sobre isso mais uma coisa importante se eu tirar aqui o saudação e
+
+52
+00:04:28,460 --> 00:04:34,950
+eu não tiver mais o mapeamento de saudação para o método Bad ele vai gerar um outro erro se eu executar
+
+53
+00:04:34,950 --> 00:04:39,700
+aqui você vai ver o que ele vai dar o erro e o que ele vai dizer o seguinte.
+
+54
+00:04:39,750 --> 00:04:46,220
+O método Betti não é suportado apesar de que ele tem encontrado ou era diferente de não encontrar nessa
+
+55
+00:04:46,230 --> 00:04:48,140
+colocação da opção 2.
+
+56
+00:04:48,180 --> 00:04:51,390
+Ele não encontrou de forma nenhuma saudação.
+
+57
+00:04:51,490 --> 00:04:59,310
+E aí ele vai dar um erro dizendo que é not Fault não encontrou o RL mas quando você tem um mapeamento
+
+58
+00:04:59,310 --> 00:05:01,750
+chamado você tenta acessar.
+
+59
+00:05:01,890 --> 00:05:08,630
+Só que usando um método não suportado ele gera o outro erro que é exatamente dizer que o método é conhecido
+
+60
+00:05:08,800 --> 00:05:16,670
+o tipo bad não é suportado para sorria ele até encontrou o RL mas não é um método que foi mapeado corretamente.
+
+61
+00:05:16,680 --> 00:05:22,030
+Então você tem que ter alguns cuidados com relação à questão dos erros principalmente você conhecer
+
+62
+00:05:22,030 --> 00:05:27,360
+os principais erros na hora do vamos ver como a aplicação de produção se tiver desenvolvendo uma aplicação
+
+63
+00:05:27,360 --> 00:05:33,330
+grande você conseguir detectar os principais erros não vou ficar aqui simulando porque são milhares
+
+64
+00:05:33,330 --> 00:05:37,740
+e milhares de possíveis erros principalmente quando a aplicação vai ficando mais complexa a quantidade
+
+65
+00:05:37,740 --> 00:05:44,690
+de potenciais problemas sem dúvida vai crescer bastante mais só pra você ter essa essa calma de interpretar
+
+66
+00:05:44,690 --> 00:05:51,160
+as mensagens e saber até voltar aqui para deixar um mapeamento ali pronto a apoiar esse método.
+
+67
+00:05:51,470 --> 00:05:58,020
+O que era só mesmo pra gente simular esse problema da do mapeamento com o mesmo RL e você tentar acessar
+
+68
+00:05:58,020 --> 00:06:04,620
+o RL que tem um mapeamento que está mapeada mais mapeada para um outro método da data t periódica maior
+
+69
+00:06:04,620 --> 00:06:06,740
+com relação a essa aula.
+
+70
+00:06:06,870 --> 00:06:13,380
+Mais do que especificamente esses dois erros que estimulem você tem a tranquilidade de saber olhar de
+
+71
+00:06:13,380 --> 00:06:16,520
+forma estratégica os erros e normalmente os erros em Java.
+
+72
+00:06:16,890 --> 00:06:23,220
+Eles geram uma quantidade de informação muito grande associada ao erro às vezes o erro foi a causa original
+
+73
+00:06:23,220 --> 00:06:29,040
+de outro erro que foi a causa original de outro erro e às vezes lá em cima no mesmo momento que a mensagem
+
+74
+00:06:29,040 --> 00:06:35,550
+foi colocada normalmente tem a mensagem que gera a maior esclarecimento com relação ao erro nem sempre
+
+75
+00:06:35,550 --> 00:06:42,000
+a mensagem te ajuda muito mas é bom você ter experiência com os erros do frame ou que pra isso facilitar
+
+76
+00:06:42,210 --> 00:06:46,460
+quando você tiver um ambiente mais realista e tiver que lidar com essas situações.
+
+77
+00:06:46,460 --> 00:06:51,600
+Aqui eu coloquei dois cenários quer mapear dois metros para o mesmo aí ele não pode.
+
+78
+00:06:51,600 --> 00:06:57,880
+Você pode sim mapear dois metros para o mesmo RL desde que os metros do HTTP sejam diferentes.
+
+79
+00:06:57,900 --> 00:07:00,090
+Eu vou falar um pouco mais sobre o método do HTTP.
+
+80
+00:07:00,090 --> 00:07:02,950
+A gente vai ter exerce sobre isso mais na frente.
+
+81
+00:07:02,990 --> 00:07:04,060
+Eu espero na próxima aula.

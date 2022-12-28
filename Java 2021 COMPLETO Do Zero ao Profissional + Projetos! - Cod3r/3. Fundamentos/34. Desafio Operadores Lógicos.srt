@@ -1,0 +1,223 @@
+1
+00:00:00,300 --> 00:00:06,630
+Agora vou propor pra vocês me desafio pra vocês trabalharem com os operadores lógicos lembrando aqui
+
+2
+00:00:06,920 --> 00:00:13,200
+em seu desafio que a gente tinha feito um desafio dos operadores aritméticos que também deve ficar nessa
+
+3
+00:00:13,200 --> 00:00:19,830
+parte de operadores então vou estar aqui desafio aritméticos pra dentro do pacote operadores e mudar
+
+4
+00:00:20,130 --> 00:00:21,480
+pra que ele também fique aqui dentro.
+
+5
+00:00:21,510 --> 00:00:26,850
+Certo Acho que não tem nenhum outro relacionado operadores a não ser esses três arquivos então dentro
+
+6
+00:00:27,180 --> 00:00:33,150
+desse pacote não sei pacote operadores que pertence ao pacote de fundamentos mas vamos criar uma nova
+
+7
+00:00:33,150 --> 00:00:33,760
+classe.
+
+8
+00:00:34,140 --> 00:00:36,510
+O nome da nossa classe C.
+
+9
+00:00:36,660 --> 00:00:43,950
+Desafio lógicos vai ser ponto Java obviamente então gerando aqui a nossa classe desafios lógico nós
+
+10
+00:00:43,980 --> 00:00:45,820
+vamos finalmente no meio.
+
+11
+00:00:46,290 --> 00:00:52,080
+E aqui eu vou explicar o nosso exercício imagine que você vai ter dois trabalhos na próxima semana esses
+
+12
+00:00:52,080 --> 00:00:55,140
+dois trabalhos podem ou não ser confirmados.
+
+13
+00:00:55,200 --> 00:01:03,130
+Vai ser um trabalho trabalho na obtenção e trabalho também pode acontecer na quinta feira.
+
+14
+00:01:03,590 --> 00:01:10,710
+E aí obviamente esse trabalho pode ser verdadeiro ou falso ou seja dar certo não é aqui na quinta feira
+
+15
+00:01:10,710 --> 00:01:13,280
+também não estado pode ser verdadeiro falso.
+
+16
+00:01:13,380 --> 00:01:18,090
+Você prometeu pra sua família se os dois trabalhos derem certo você vai comprar uma televisão de 50
+
+17
+00:01:18,090 --> 00:01:19,610
+polegadas no fim de semana.
+
+18
+00:01:19,620 --> 00:01:23,370
+Isso significa que tanto na terça e na quinta os dois trabalhos foram confirmados.
+
+19
+00:01:23,380 --> 00:01:28,830
+Você recebeu dinheiro no fim de semana todo não vai pro shopping Compal televisor de 50 polegadas.
+
+20
+00:01:28,980 --> 00:01:35,610
+Se apenas um dos dois trabalhos derem certo você vai comprar uma televisão de 32 polegadas e você também
+
+21
+00:01:35,610 --> 00:01:41,970
+prometeu ou compra na lata de 50 ou compra nota de 30 em duas a família indo pelo shopping vocês vão
+
+22
+00:01:41,970 --> 00:01:43,450
+tomar sorvete juntos.
+
+23
+00:01:43,450 --> 00:01:44,160
+Tá certo.
+
+24
+00:01:44,220 --> 00:01:50,600
+Para comemorar a compra da TV então se apenas um trabalho der certo vai comprar televisão 32.
+
+25
+00:01:50,640 --> 00:01:57,330
+Se os dois trabalhos derem certo vai comprar 350 e nos dois casos tanto comprar mais ou de 30 e duas
+
+26
+00:01:57,390 --> 00:02:01,160
+ou uma televisão de 50 polegadas a família vai tomar sorvete.
+
+27
+00:02:01,180 --> 00:02:07,710
+O único cenário que não vai acontecer nada disso certo que é o cenário de que não o trabalho de quinta
+
+28
+00:02:07,710 --> 00:02:10,920
+não deu certo nem o trabalho de terça deu certo.
+
+29
+00:02:10,920 --> 00:02:13,570
+Significa que a família vai ficar em casa.
+
+30
+00:02:13,630 --> 00:02:14,090
+Certo.
+
+31
+00:02:14,120 --> 00:02:20,600
+Muita gente com fome por quem não vai tomar sorvete e marcar também mais saudável porque não vai ingerir
+
+32
+00:02:20,600 --> 00:02:21,460
+doce.
+
+33
+00:02:21,470 --> 00:02:28,440
+E você pode usar negação lógica tanto pra você lá não tomou sorvete vai ser exatamente mais saudável.
+
+34
+00:02:28,450 --> 00:02:30,630
+Então muito meu sogro ficou com fome.
+
+35
+00:02:30,630 --> 00:02:36,380
+Só para você fazer a negação lógica em cima do sorvete então você pode usar e salvar em si alguma variável.
+
+36
+00:02:36,480 --> 00:02:42,180
+Então em resumo eu quero que você modere esse problema na prática você cria as variáveis e aí você pode
+
+37
+00:02:42,180 --> 00:02:49,380
+colocar as variáveis por exemplo pra si e diretamente colocado renda variável se vai criar aqui por
+
+38
+00:02:49,380 --> 00:02:51,260
+exemplo um Bulent.
+
+39
+00:02:51,290 --> 00:02:54,210
+A última coisa que eu vou dar de cara é bule.
+
+40
+00:02:54,600 --> 00:03:02,160
+TRABALHO Você uma hora vai vai colocar os valores literais mesmo trabalho e trabalho dois e aí depois
+
+41
+00:03:02,160 --> 00:03:08,600
+você vai simulando mudando diretamente aqui no Código de Trabalho falso depois falso e falso.
+
+42
+00:03:08,610 --> 00:03:11,520
+Você executivo vai ver um resultado aparecem não.
+
+43
+00:03:11,550 --> 00:03:16,560
+Eu quero que você use o System em algum ponto preencha ali para mostrasse qual televisão foi comprada
+
+44
+00:03:16,560 --> 00:03:20,240
+nesse prato além dos anos 50 você vai lá e coloca o resultado thru.
+
+45
+00:03:20,450 --> 00:03:27,690
+Se faturar R$ 32 você vai lá e coloca Truffaut dependendo da situação do moço se houvesse Truffaut se
+
+46
+00:03:27,710 --> 00:03:33,440
+você vai jogar no valor de todas as variáveis o mais importante é você em cima do trabalho.
+
+47
+00:03:33,450 --> 00:03:41,320
+Trabalho 2 nem identificar a televisão de 50 ele é um operador e ele é uma operação lógica ou uma operação
+
+48
+00:03:41,320 --> 00:03:45,670
+ou exclusivo atrasou 32 e não é exclusivo.
+
+49
+00:03:45,710 --> 00:03:50,130
+Uma negação que tipo de operação vai modelar o caso no prazo de trinta e duas.
+
+50
+00:03:50,130 --> 00:03:57,690
+Que tipo de operação lógica vai modelar o cenário caso e tomar sorvete e Wii e o ou exclusivo.
+
+51
+00:03:57,710 --> 00:04:03,510
+Que tipo de operação lógica vai mapear por exemplo o cara tá mais saudável por que não tomou sorvete
+
+52
+00:04:03,600 --> 00:04:09,690
+então quero que você mapeia essas operações lógicas em cima dessas duas variáveis do trabalho onde eu
+
+53
+00:04:09,690 --> 00:04:10,600
+trabalho 2.
+
+54
+00:04:10,610 --> 00:04:16,620
+E aí criar novas variáveis para cada um o cenário tb de 50 de trinta e duas de Mol solvente ficou mais
+
+55
+00:04:16,620 --> 00:04:18,690
+saudável por exemplo então fico por aqui.
+
+56
+00:04:18,720 --> 00:04:21,690
+Na próxima aula mostra a resposta para vocês e até lá.

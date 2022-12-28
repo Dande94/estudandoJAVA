@@ -1,0 +1,451 @@
+1
+00:00:00,240 --> 00:00:06,600
+Pessoal nós acabamos de criar nossa primeira tabela usando da Ideli que a partir do SQL que define os
+
+2
+00:00:06,600 --> 00:00:09,460
+dados que definem o nosso esquema definem o esquema.
+
+3
+00:00:09,480 --> 00:00:15,300
+Você vai definir restrições como por exemplo que todos os campos da minha tabela são campos obrigatórios
+
+4
+00:00:15,310 --> 00:00:19,660
+você vai definir tipos de campo ou seja eu só posso armazenar inteiro.
+
+5
+00:00:19,740 --> 00:00:27,300
+Além só posso armazenar texto no nome e na sigla só posso armazenar valores pré definidos dentro da
+
+6
+00:00:27,300 --> 00:00:28,210
+região.
+
+7
+00:00:28,260 --> 00:00:31,740
+No caso da população só consigo armazenar valores numéricos também.
+
+8
+00:00:31,890 --> 00:00:38,950
+Além disso disse que a chave primária e falei também que o nome é na sigla não pode haver repetição
+
+9
+00:00:38,950 --> 00:00:44,790
+se o esquema faz com que essa essa validação seja executada sempre que um dado foi inserido.
+
+10
+00:00:44,790 --> 00:00:51,090
+Isso vai garantir que os dados estejam na tabela de acordo com as regras que você definiu na criação
+
+11
+00:00:51,090 --> 00:00:51,930
+na sua tabela.
+
+12
+00:00:51,930 --> 00:00:57,890
+Quando nós formos para um banco não relacional vocês vão ver que essa ideia do esquema não existe.
+
+13
+00:00:57,900 --> 00:01:03,060
+Você consegue colocar os dados de uma forma muito mais flexível sem necessariamente tem que seguir essas
+
+14
+00:01:03,060 --> 00:01:03,420
+regras.
+
+15
+00:01:03,420 --> 00:01:08,910
+Claro que dentro de um problema real não existe o que é melhor e o que é pior.
+
+16
+00:01:09,030 --> 00:01:12,980
+Ou seja o banco relacionar melhor ou pior do que um banco não relacional.
+
+17
+00:01:13,140 --> 00:01:15,610
+Essa é a pergunta que não cabe e o que é que vai caber.
+
+18
+00:01:15,900 --> 00:01:21,600
+O problema que eu estou tentando atacar é melhor resolvido com um banco relacional ou melhor resolvido
+
+19
+00:01:21,600 --> 00:01:26,580
+com um banco não relacional mais do que isso será que o problema que eu estou resolvendo no meu sistema.
+
+20
+00:01:26,910 --> 00:01:30,780
+Ele não pode usar o melhor dos dois mundos determinadas funcionalidades.
+
+21
+00:01:30,780 --> 00:01:37,260
+Então é muito comum que os sistemas atuais tanto precisem de bancos relacionais como também precisem
+
+22
+00:01:37,260 --> 00:01:41,400
+de bancos não relacionais ou seja parte da solução fica no relacional.
+
+23
+00:01:41,400 --> 00:01:46,730
+é parte da solução fica no não relacional e aí tem que ter estratégias de você pegar dados de um banco
+
+24
+00:01:46,950 --> 00:01:52,890
+colocar em outro determinadas funcionalidades você coloca num banco quando essa funcionalidade é concluída
+
+25
+00:01:52,890 --> 00:01:55,890
+pode pegar os dados e jogar no relacional ou vice versa.
+
+26
+00:01:55,890 --> 00:02:00,680
+Então você pode pegar o melhor dos dois mundos tem estratégias para pegar o melhor dos dois mundos pra
+
+27
+00:02:00,690 --> 00:02:06,960
+solucionar o problema do seu software então para a gente continuar o tema da aula de hoje nessa aula
+
+28
+00:02:07,180 --> 00:02:15,650
+eu vou criar um novo arquivo e o Fabio nome do arquivo vai se inseri e estados do SQL então vamos inserir
+
+29
+00:02:15,670 --> 00:02:21,180
+de duas formas inserir um único registro e vamos usar um certo para inserir mais um registro ao mesmo
+
+30
+00:02:21,180 --> 00:02:21,750
+tempo.
+
+31
+00:02:21,960 --> 00:02:26,900
+Então isso é bem simples em certos estados.
+
+32
+00:02:26,910 --> 00:02:34,890
+Aí cabe a observação bastante importante sobre o SQL o SQL é uma linguagem que é case sensitive ou seja
+
+33
+00:02:35,190 --> 00:02:39,710
+não importa você colocar letra maiúscula ou minúscula ou ficar variando por quê.
+
+34
+00:02:39,750 --> 00:02:40,640
+Para ele não importa.
+
+35
+00:02:40,640 --> 00:02:44,270
+Então você pode colocar por exemplo um certo maiúsculo e muito mais.
+
+36
+00:02:44,270 --> 00:02:46,030
+Como você pode por exemplo.
+
+37
+00:02:46,160 --> 00:02:46,960
+7.
+
+38
+00:02:47,260 --> 00:02:51,270
+Todo minúsculo sem nenhum tipo de problema vai funcionar normalmente.
+
+39
+00:02:51,270 --> 00:02:57,240
+Eu vou colocar insira em um Estado seja insira na tabela estados você vai perceber que o SQL é a linguagem
+
+40
+00:02:57,720 --> 00:03:04,740
+muito próxima do inglês muito próxima da linguagem natural bem fluída a forma de você escreveu SQL.
+
+41
+00:03:04,940 --> 00:03:10,320
+E além disso é uma linguagem declarativa você você diz o que você quer.
+
+42
+00:03:10,320 --> 00:03:13,810
+Internamente o banco de dados é que vai fazer todo o trabalho para você.
+
+43
+00:03:13,840 --> 00:03:19,260
+Se ele vai precisar percorrer a tabela se ele vai precisar localizar exatamente onde seria esse o problema
+
+44
+00:03:19,260 --> 00:03:22,650
+que é do banco de dados e não o nosso você apenas diz o que você quer.
+
+45
+00:03:22,650 --> 00:03:29,400
+E automaticamente o SGBD vai ser capaz de executar diferentes por exemplo o código que você faz um laço
+
+46
+00:03:29,400 --> 00:03:32,600
+cria a variável faz teste e faz tudo aquilo.
+
+47
+00:03:32,600 --> 00:03:38,280
+E quando você the program por exemplo JavaScript você muitas vezes faz um código mais imperativo cheio
+
+48
+00:03:38,280 --> 00:03:41,020
+de regras você diz exatamente o que você quer fazer.
+
+49
+00:03:41,040 --> 00:03:47,010
+No caso do SQL é uma linguagem mais declarativa ou seja você diz o que quer internamente que implementa
+
+50
+00:03:47,340 --> 00:03:51,720
+a lógica de como isso vai ser feito um banco de dados e quando você trabalha por exemplo em JavaScript
+
+51
+00:03:51,770 --> 00:03:55,860
+e diz exatamente aquilo que você quer para o interpretador JavaScript.
+
+52
+00:03:55,860 --> 00:03:58,490
+Você está trabalhando de uma forma mais imperativa.
+
+53
+00:03:58,500 --> 00:04:04,410
+Tá certo então são dois paradigmas diferentes embora você consiga também programar em JavaScript de
+
+54
+00:04:04,410 --> 00:04:08,640
+uma forma mais declarativa mais é um tema para outro momento estavam lá.
+
+55
+00:04:08,660 --> 00:04:17,520
+7 ou seja insira na tabela estados a coluna nome vírgula sigla vírgula região viu a população cujos
+
+56
+00:04:17,520 --> 00:04:26,790
+valores são ou seja velhos vai ser a vírgula a C vírgula Região Norte vírgula a população zero ponto
+
+57
+00:04:26,790 --> 00:04:28,430
+83 milhões.
+
+58
+00:04:28,480 --> 00:04:34,230
+Então como mencionei digamos assim que a unidade usada nessa tabela vai ser melhores então nesse caso
+
+59
+00:04:34,230 --> 00:04:37,590
+geral eu em sete com apenas um único registro.
+
+60
+00:04:37,590 --> 00:04:39,830
+Nesse caso os valores Acre A.C.
+
+61
+00:04:39,870 --> 00:04:47,060
+A sigla Norte a região é zero 83 eu vou gerar que o outro é incerto depois é Cuba ele está certo em
+
+62
+00:04:47,080 --> 00:04:49,020
+certos estados.
+
+63
+00:04:49,080 --> 00:04:54,740
+Nesse caso eu vou colocar no homem virgula sigla viga vírgula região vírgula população.
+
+64
+00:04:54,840 --> 00:05:01,890
+Aqui eu já vou colocar a lei porque o diferente mas você pode assim como já escrevi que você pode quebrar
+
+65
+00:05:02,180 --> 00:05:04,140
+um incômodo em várias linhas no SQL também.
+
+66
+00:05:04,160 --> 00:05:10,470
+Você consegue fazer isso tranquilamente então insira na tabela Estados essas colunas e aqui embaixo
+
+67
+00:05:10,470 --> 00:05:21,180
+vou colocá lo cujos valores vai ser Alagoas a Elle Nordeste 0,38 ou seja 3 milhões 380 mil habitantes
+
+68
+00:05:21,450 --> 00:05:29,140
+continuada vou colocar aqui Amapá AP Região Norte 0,8 e finalmente Amazonas.
+
+69
+00:05:29,140 --> 00:05:37,830
+Aí me virgula note 4 pontos 0 6 milhões ou seja os nomes as siglas a região e a população seguindo a
+
+70
+00:05:37,830 --> 00:05:43,890
+mesma ordem que eu coloquei aqui nas colunas eu poderia inverter ele e colocar a primeira sigla depois
+
+71
+00:05:43,890 --> 00:05:44,800
+o nome.
+
+72
+00:05:45,150 --> 00:05:50,940
+Antes a população por uma região pode deixar que você mantenha os mesmos padrões também na hora de colocar
+
+73
+00:05:50,940 --> 00:05:51,410
+os dados.
+
+74
+00:05:51,420 --> 00:05:56,400
+Então nesse primeiro exemplo vou colocar aqui uma formatação mais ou menos parecida só pra vocês verem
+
+75
+00:05:56,850 --> 00:06:01,620
+que é exatamente o mesmo comando eu vou colocar inclusive e deixar aqui minúsculo aqui maiúsculo sem
+
+76
+00:06:01,620 --> 00:06:02,320
+problema.
+
+77
+00:06:02,430 --> 00:06:06,770
+Então o teu primeiro comando armado com ponto e vírgula eu não sou obrigado a colocar ponto e vírgula.
+
+78
+00:06:06,900 --> 00:06:11,370
+Se você tiver mais de um comando pra ser executado de uma vez só tem que colocar ponto e vírgula se
+
+79
+00:06:11,370 --> 00:06:15,910
+você quiser tá comandos individuais tem ponto e vírgula não é opcional.
+
+80
+00:06:15,930 --> 00:06:21,960
+A sintaxe dos dois exemplos é exatamente a mesma a diferença é que aqui eu fui colocando os valores
+
+81
+00:06:21,960 --> 00:06:27,840
+vírgula valores vírgula valores Migne no final terminei com ponto e vírgula eu posso executar tudo isso
+
+82
+00:06:27,840 --> 00:06:30,220
+de uma vez só clicando aqui.
+
+83
+00:06:30,680 --> 00:06:37,230
+Como eu posso ser Atacadão ao clicar com o botão direito executa o texto selecionado como a consulta
+
+84
+00:06:37,230 --> 00:06:41,330
+SQL ou então eu coloco Command Shift.
+
+85
+00:06:41,520 --> 00:06:49,590
+Então como aditivo que que primeiro executá primeiras e assim como de chefia ele disse que afetou minha
+
+86
+00:06:49,590 --> 00:06:55,910
+coluna 7 foi gerado e aqui eu vou jogar de novo selecionar com uma de e para executar.
+
+87
+00:06:56,010 --> 00:07:02,820
+Ele disse que nesse caso ele afetou três linhas e não a coluna como eu falei anteriormente mais foram
+
+88
+00:07:02,820 --> 00:07:08,610
+13 linhas afetadas ou seja ele inseriu três linhas a partir desse comando leu e citou tentar executar
+
+89
+00:07:08,610 --> 00:07:15,390
+de novo e isso vai dar problema como diz que ele vai dar um problema apareceu mensais é só clicar duas
+
+90
+00:07:15,390 --> 00:07:16,170
+vezes aqui.
+
+91
+00:07:16,410 --> 00:07:21,420
+Ele vai mostrar exatamente o que aconteceu uma entrada duplicada foi detectada ou seja o valor lacre
+
+92
+00:07:21,420 --> 00:07:22,880
+para a chave nome.
+
+93
+00:07:23,040 --> 00:07:28,590
+Não pode porque é que eu não posso colocar um segundo Acre na tabela de estados porque na minha no meu
+
+94
+00:07:28,590 --> 00:07:36,720
+esquema eu disse que o nome e a sigla são chaves únicas ele não vai permitir isso mesmo que eu coloque
+
+95
+00:07:36,720 --> 00:07:43,970
+aqui por exemplo Acre 2 e tente pegar esse comando aqui algo como aditivo que você vai ver também que
+
+96
+00:07:43,980 --> 00:07:49,890
+ele vai dizer que está duplicado porque agora o a.C para a sigla está duplicada e não vai permitir isso
+
+97
+00:07:51,350 --> 00:07:57,690
+então nesse caso no altar aqui a crise se você clicar aqui ou a mesma coisa ele vai executar o arquivo
+
+98
+00:07:57,690 --> 00:08:04,500
+todo e vai da mesma mensagem porque eu já inseri anteriormente o Acre inserir também Alagoas Amapá e
+
+99
+00:08:04,500 --> 00:08:05,490
+Amazonas.
+
+100
+00:08:05,490 --> 00:08:11,100
+Então pra gente não precisar digitar todos os estados eu deixei o incerto já pronto pra gente fazer
+
+101
+00:08:11,130 --> 00:08:20,030
+tá então colocando aqui ou em HTTP 2 babá vai pouco com o desconto com.br barra de curso traço e by
+
+102
+00:08:20,460 --> 00:08:24,460
+Barra e estados ponto SQL então executado.
+
+103
+00:08:24,690 --> 00:08:30,540
+Ele não vai abrir no Brasil provavelmente ele vai abrir um arquivo clicando aqui ao show enfim eu vou
+
+104
+00:08:30,630 --> 00:08:37,860
+achar que a janela pra cá e aí os Estados estão aqui nos Estados eu posso copiar aqui pra dentro do
+
+105
+00:08:37,860 --> 00:08:45,050
+banco relacional eu vou só mudar o nome desse arquivo pra c inseri Estados dois pontas querem.
+
+106
+00:08:45,480 --> 00:08:52,680
+Então nós criamos o primeiro e o segundo e o seguro tem mais Estados que exatamente continuar da Bahia
+
+107
+00:08:52,770 --> 00:08:57,780
+até todos os estados serem executados aqui nós temos o primeiro e sétimo até apagar isso aqui que é
+
+108
+00:08:57,780 --> 00:08:59,920
+o que nós fizemos na aula já.
+
+109
+00:08:59,970 --> 00:09:02,510
+Então esse aqui seria o restante dos insetos.
+
+110
+00:09:02,520 --> 00:09:08,880
+Nesse caso eu posso selecionar e executar com calma de chifre que é simplesmente clicar aqui ou ele
+
+111
+00:09:08,890 --> 00:09:14,960
+visitar mais estados e aquele disso ao 23 linhas foram afetadas a partir desse Insert.
+
+112
+00:09:15,090 --> 00:09:20,220
+Ou seja nós temos todos os estados brasileiros cadastrados a partir desses dois comandos na próxima
+
+113
+00:09:20,220 --> 00:09:23,490
+aula a gente continuou pra fazer os nossos primeiros Alex e espero lá.

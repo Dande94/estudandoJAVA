@@ -1,0 +1,415 @@
+1
+00:00:00,300 --> 00:00:07,800
+Pessoal na sala nós vamos mostrar como fazer uma consulta nativa e o resultado dessa consulta nativa
+
+2
+00:00:07,830 --> 00:00:12,090
+será colocado dentro de uma classe que não é uma entidade.
+
+3
+00:00:12,360 --> 00:00:13,560
+Certo Isso é possível.
+
+4
+00:00:13,560 --> 00:00:19,590
+Então quando você vai gerar uma consulta você pode tanto obtê digamos assim uma matriz de objetos com
+
+5
+00:00:19,750 --> 00:00:26,100
+as linhas e as colunas como você pode mapear o resultado de uma consulta pra uma classe que não é uma
+
+6
+00:00:26,100 --> 00:00:31,830
+entidade quê via de regra você vai fazer consultas em cima das entidades mas aí eu tenho um aqui por
+
+7
+00:00:31,830 --> 00:00:39,120
+exemplo um relatório que são vários dados de entidades diferentes eu quero jogar isso de uma forma simplificada
+
+8
+00:00:39,480 --> 00:00:45,480
+ou seja mapear isso pra dentro de um determinado alternada classe com todos os dados acertados de forma
+
+9
+00:00:45,480 --> 00:00:51,000
+correta sem necessariamente precisar uma estrutura mais complexa de objeto você pode fazer isso eu vou
+
+10
+00:00:51,000 --> 00:00:58,020
+mostrar isso pra vocês agora e já vou fazer isso a partir de uma consulta nativa ou seja uma consulta
+
+11
+00:00:58,410 --> 00:01:03,960
+que vai ser feita com SQL e não com o JPL como foi a bola passado.
+
+12
+00:01:04,050 --> 00:01:11,590
+Então para isso dentro desse modelo eu vou criar uma nova um novo pacote na verdade no qual nova classe
+
+13
+00:01:11,640 --> 00:01:21,180
+eu vou chamar aqui nota filme e vou era pra ter colocado um pacote mas eu vou criar um pacote chamado
+
+14
+00:01:22,890 --> 00:01:29,110
+modelo pronto consulta e vou jogar a nota final pra dentro de consulta.
+
+15
+00:01:29,110 --> 00:01:35,520
+Ele vai faturar e nós vamos colocar dentro de nota filme eu vou criar apenas um único atributo que vai
+
+16
+00:01:35,520 --> 00:01:39,810
+ser um atributo privado do tipo W acho a máquina média.
+
+17
+00:01:40,290 --> 00:01:47,370
+Eu quero fazer uma consulta nativo aqui vai pegar todos os times da base e calcular uma média dos filmes
+
+18
+00:01:47,370 --> 00:01:51,630
+Tá bom então ele vai fazer uma consulta SQL pra isso vou gerar aqui
+
+19
+00:01:54,270 --> 00:01:56,940
+como entidade e não necessariamente.
+
+20
+00:01:56,940 --> 00:02:00,020
+Eu preciso ter o custo padrão.
+
+21
+00:02:00,480 --> 00:02:05,260
+Então eu vou colocar aqui o cogitou usar nos filmes Vou selecionar que a média.
+
+22
+00:02:05,280 --> 00:02:14,340
+Na verdade ele vai precisar desse custo para funcionar e eu vou gerar 11 metros Gard 7 jaraqui 12 metros
+
+23
+00:02:14,650 --> 00:02:16,760
+metros atrás.
+
+24
+00:02:17,070 --> 00:02:24,680
+Pronto note que eu não vou aplicar nenhum tipo de mapeamento aqui nenhum tipo de anotação como alguma
+
+25
+00:02:24,690 --> 00:02:27,960
+entidade não vai ser uma novidade aqui na consulta.
+
+26
+00:02:28,230 --> 00:02:38,030
+Eu vou precisar criar uma anotação não uma tag que vai ser SQL Azure 7 mapping.
+
+27
+00:02:38,550 --> 00:02:49,020
+Então vou precisar criar isso e o nome desses 8 7 Mai e eu vou chamar que pode ser nota filme Map por
+
+28
+00:02:49,020 --> 00:02:53,840
+exemplo e aqui dentro nós vamos precisar fazer o mapeamento.
+
+29
+00:02:53,850 --> 00:02:56,040
+Então eu vou colocar aqui.
+
+30
+00:02:56,040 --> 00:03:05,600
+Nós temos um construtor esmalte e o nome da classe será Classic tag é exatamente o que está lá dentro
+
+31
+00:03:05,600 --> 00:03:11,510
+do modelo modelo com consulta.
+
+32
+00:03:11,640 --> 00:03:19,260
+Ponto nota filme ou seja o nome completo inclusive com os pacotes.
+
+33
+00:03:19,470 --> 00:03:25,980
+E a gente vai definir quais são as colunas que foram mapeadas para essa entidade.
+
+34
+00:03:25,990 --> 00:03:28,780
+Então aqui dentro eu vou definir uma cola.
+
+35
+00:03:29,140 --> 00:03:41,850
+Então coloca na coluna e eu vou definir o nome da coluna vai que defini la aqui em média outra coluna
+
+36
+00:03:41,930 --> 00:03:42,870
+vai ser médio.
+
+37
+00:03:42,950 --> 00:03:45,160
+é o tipo dessa coluna minha classe.
+
+38
+00:03:45,170 --> 00:03:54,320
+Essa coluna vai ser uma classe do tipo já há algum ponto lá em que ponto da ABL definiu um dado primitivo
+
+39
+00:03:54,330 --> 00:03:55,920
+lá mais como aqui é uma classe.
+
+40
+00:03:56,000 --> 00:03:59,610
+Então eu coloco o que seria o lado B tá bom.
+
+41
+00:03:59,910 --> 00:04:07,380
+Então aqui Hering espera que essa classe nota o filme tenha um construtor que receba esse parâmetro.
+
+42
+00:04:07,420 --> 00:04:12,360
+E aí ele vai a partir do que ele recebeu do banco de dados a partir de uma consulta nativa.
+
+43
+00:04:12,450 --> 00:04:19,410
+Ele vai criar um objeto usando esse SQL Wesley do site map e baixe baixo Malcom chutou cria o nosso
+
+44
+00:04:19,410 --> 00:04:23,550
+objeto e a gente vai ter os nossos dados a partir daquela classe.
+
+45
+00:04:24,060 --> 00:04:27,660
+Então a gente vai criar aqui ou meme de Native.
+
+46
+00:04:27,860 --> 00:04:37,020
+Eu vou criar aqui dentro nós vamos também ter novamente com ele o que ocorreu e associado ao nome nós
+
+47
+00:04:37,020 --> 00:04:43,830
+teremos um resumo do site mapping que é exatamente o local que está dizendo olha que ele vai mapear
+
+48
+00:04:43,830 --> 00:04:45,840
+isso de forma correta para o bem da classe.
+
+49
+00:04:46,350 --> 00:04:53,460
+O nome da consulta que eu chamei aqui foi de média geral então o aqui é uma média geral
+
+50
+00:04:56,470 --> 00:05:03,430
+então lá obteve média geral dos filmes.
+
+51
+00:05:03,470 --> 00:05:05,940
+Pronto você quer montar minha consulta.
+
+52
+00:05:05,950 --> 00:05:09,490
+E como é que é essa a minha consulta ao Marcelo Alex.
+
+53
+00:05:09,740 --> 00:05:14,690
+Vou fazer aqui um Avenger na média em cima do apito do campo nota.
+
+54
+00:05:15,100 --> 00:05:22,760
+Foram filmes aqui no caso eu já estou fazendo em cima do banco de dados eu vou chamar esse campo de
+
+55
+00:05:23,200 --> 00:05:24,040
+média.
+
+56
+00:05:24,350 --> 00:05:28,970
+Então Selection a b g n essa é a média da nota.
+
+57
+00:05:29,160 --> 00:05:35,560
+Chamei de média uma eles foram filmes ou seja que SQL se eu pegar isso e jogar aqui
+
+58
+00:05:38,440 --> 00:05:45,570
+aqui você vai ver que a média vai ser 8 e meio nós temos dois filmes temos oito contra nove e oito.
+
+59
+00:05:45,760 --> 00:05:49,340
+Somando os dois dá a média de 8 mil.
+
+60
+00:05:49,360 --> 00:05:52,020
+é exatamente isso que eu quero encontrar funcionando lá.
+
+61
+00:05:52,100 --> 00:05:57,990
+Salve aqui o nome da minha consulta a minha meme de Native quero aqui eu tenho.
+
+62
+00:05:58,120 --> 00:06:03,440
+Onde está o mapeamento dizendo exatamente qual a classe que ele vai mapear e agora que nós vamos fazer
+
+63
+00:06:03,440 --> 00:06:07,560
+é criar uma nova classe que vai ter o nosso método.
+
+64
+00:06:07,560 --> 00:06:21,790
+Então vou chamar aqui de tem média dos filmes Vou criar aqui em um metro do meio e na Zona Oeste aqui
+
+65
+00:06:21,850 --> 00:06:36,010
+Quintal apontando para filme ou série 1000 down vou passar aqui um filme um filme de classe e nesse
+
+66
+00:06:36,010 --> 00:06:41,410
+caso pessoal é interessante perceber o seguinte nós vamos receber como resultado apenas o único com
+
+67
+00:06:41,410 --> 00:06:45,890
+registro ele agrega os dados e retorna um valor consolidado.
+
+68
+00:06:45,890 --> 00:06:51,310
+O único registro então é interessante já que voltou trabalhando com função agregadora e vou receber
+
+69
+00:06:51,310 --> 00:06:57,880
+apenas um único resultado que eu também queria mudar dao conforme eu poderia usar esse método consultar
+
+70
+00:06:57,910 --> 00:07:04,450
+mas eu posso criar um outro método que vai ser o seguinte esse outro método vai receber os mesmos parâmetros
+
+71
+00:07:05,110 --> 00:07:14,610
+só que eu vou chamar de consultar los em vez de retornar à este dia e ele vai retornar à entidade só
+
+72
+00:07:14,630 --> 00:07:24,400
+pilas vou criar aqui para alto e já criar chaves e eu vou simplesmente fazer o seguinte vou pagar aqui
+
+73
+00:07:24,430 --> 00:07:31,960
+uma lista de entidades chamada lista vou chamar um metro de cinema ou então chamar aquele consultar
+
+74
+00:07:32,440 --> 00:07:37,770
+passando o nome da consulta os parâmetros e vão retornar à seguinte lista.
+
+75
+00:07:38,580 --> 00:07:49,600
+Esse tipo eu vou retornar no caso contrário eu vou pegar lista Portugal precisarão se tornar o primeiro
+
+76
+00:07:49,610 --> 00:07:55,690
+elemento de tal forma que criam uma função que vai facilitar um pouco mais a nossa vida então entrando
+
+77
+00:07:55,690 --> 00:08:02,110
+aqui eu vou criar o bit apenas na verdade não é filme imagens de baixo entre a nota do filme.
+
+78
+00:08:02,490 --> 00:08:12,750
+Então eu vou querer criar um Dao obter nota do filme não fica tão fina que o nosso meu erro vou colocar
+
+79
+00:08:12,850 --> 00:08:20,010
+o tonto consultar qual o nome da consulta que eu defini la o nome da consulta.
+
+80
+00:08:20,020 --> 00:08:28,390
+Obteve média geral dos filmes cota até o nome da consulta obter média geral dos filmes.
+
+81
+00:08:28,390 --> 00:08:35,940
+Não passa nenhum parâmetro e aqui eu vou retornar pra receber e como resultado a nota do filme é tão
+
+82
+00:08:36,910 --> 00:08:47,920
+alta recebe isso aqui e no final eu vou querer mostrar que nota ponto Bete média ao ponto fechado para
+
+83
+00:08:47,930 --> 00:08:54,670
+o texto agora vou executar o nosso exercício e ele vai trazer para a gente o resultado da nota que no
+
+84
+00:08:54,670 --> 00:09:00,520
+caso de meio executou Salete e o SQL.
+
+85
+00:09:00,520 --> 00:09:05,870
+Mesmo que a gente colocou na ativa o resultado 8 como 5 é exatamente o resultado que a gente esperava
+
+86
+00:09:06,020 --> 00:09:14,110
+mas criamos um SQL e os outros sete medem criamos aqui um construtor que essa amizade permite esse parâmetro
+
+87
+00:09:14,110 --> 00:09:16,030
+aqui na ordem correta.
+
+88
+00:09:16,180 --> 00:09:22,420
+E aí ele vai pegar o resultado da sua consulta e jogar dentro desse construtor pra criar classes desse
+
+89
+00:09:22,420 --> 00:09:22,810
+tipo.
+
+90
+00:09:22,810 --> 00:09:28,690
+Nesse caso especificamente não está relacionado o fato de ter criado a consulta SQL com apenas um único
+
+91
+00:09:28,690 --> 00:09:36,010
+resultado mas como nesse caso eu usei uma função agregadora para fazer uma média das notas então ele
+
+92
+00:09:36,010 --> 00:09:42,730
+só retornou o resultado por isso nós criamos o método consultá lo que é exatamente o mesmo método consultar
+
+93
+00:09:42,730 --> 00:09:45,170
+só que retorna apenas um único resultado.
+
+94
+00:09:45,190 --> 00:09:54,190
+O resto é igual se você baixa Malta não a nativo usamos JP aquele homem meio nativo e endêmico RN tanto
+
+95
+00:09:54,190 --> 00:10:01,090
+faz mal nem do JP a OSHA mal anêmico inativa no SQL.
+
+96
+00:10:01,230 --> 00:10:07,730
+Tanto faz você pode chamar o mesmo método doente menos que é exatamente esse que eu criei em meio quero
+
+97
+00:10:07,800 --> 00:10:13,230
+que você passe o nome da consulta é a classe que você quer que ele use pra para mapear o resultado que
+
+98
+00:10:13,230 --> 00:10:18,970
+ele vai executar da mesma forma independente se é uma entidade ou não.
+
+99
+00:10:19,350 --> 00:10:25,230
+Então fizemos aqui a média nesse caso mapeado para uma classe que não é uma entidade é simplesmente
+
+100
+00:10:25,260 --> 00:10:30,610
+uma classe que vai receber o resultado de uma consulta no banco de dados e está muito legal além de
+
+101
+00:10:30,630 --> 00:10:38,620
+a gente ter feito JPL fizemos agora um aquário na ativa e na próxima aula nós iremos falar sobre uma
+
+102
+00:10:38,620 --> 00:10:44,370
+outra técnica na verdade eu não vou nem fazer um exercício vou mapear três classes e vou mostrar o resultado
+
+103
+00:10:44,370 --> 00:10:49,780
+no banco de dados mas vou deixar para explicar na próxima aula que vai ser o conceito de bad boy um
+
+104
+00:10:50,730 --> 00:10:57,910
+conceito interessante para você possa ter uso e composição dentro do JP a perna proximal.

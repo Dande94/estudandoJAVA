@@ -1,0 +1,259 @@
+1
+00:00:00,300 --> 00:00:06,150
+Siga um gerenciador de lead nós vamos trabalhar mais seu bop bem que é aquela ideia de você colocar
+
+2
+00:00:06,630 --> 00:00:13,020
+no Norte no Sul no leste no Echo ou no topo ou embaixo na lateral direita esquerda.
+
+3
+00:00:13,200 --> 00:00:15,170
+A gente vai criar aqui uma nova classe.
+
+4
+00:00:15,750 --> 00:00:20,640
+A estrutura já está pronta no exército então fica bem fácil para a gente criar os novos e testar os
+
+5
+00:00:20,640 --> 00:00:31,160
+novos gerenciadores de layout que estão criar uma classe chamada fechem borda e borda exatamente Borda.
+
+6
+00:00:31,560 --> 00:00:38,620
+No final é bom estender borda bem pelo Java Flex.
+
+7
+00:00:38,620 --> 00:00:43,840
+Ponto sim é pouco leal não tenho dúvida que só tem um blog bem e vou criar o construtor também.
+
+8
+00:00:43,970 --> 00:00:46,410
+E eu vou entrar em Leal.
+
+9
+00:00:46,590 --> 00:00:54,620
+Vou duplicar essa linha aqui onde tem a criação da cena principal o duplicar e vou substitui o Tech
+
+10
+00:00:55,340 --> 00:00:56,570
+por baixo bordo.
+
+11
+00:00:56,610 --> 00:01:02,770
+Bem eu vou comentar lindíssima pra cada um dos tais que a gente criou uma cena nova passando com raiz
+
+12
+00:01:02,830 --> 00:01:03,950
+no saco.
+
+13
+00:01:04,180 --> 00:01:12,630
+A gente pode se for o caso criar uma única cena e pra não ficar com o seguinte set acho que pode na
+
+14
+00:01:12,630 --> 00:01:21,040
+verdade colocar aqui um monte talvez o aparato que ele recebe na cena recebe um
+
+15
+00:01:26,240 --> 00:01:37,890
+flash e java Flex sim vou chamar aqui de raiz recebe o nome inicialmente vou pegar aqui o primeiro cenário
+
+16
+00:01:38,070 --> 00:01:50,580
+ele aí recebe o teste um corpinho criou e aqui embaixo você tá aí uma única vez.
+
+17
+00:01:50,630 --> 00:01:57,640
+Aí eu não vou ter isso aqui e vou trazer isso pra cá e vou criar aqui uma segunda implementação.
+
+18
+00:01:57,640 --> 00:01:59,970
+Por que colocar isso ponto.
+
+19
+00:02:00,370 --> 00:02:07,700
+Eu acho borda que eu posso até comentar essa linha só pra ficar um pouco mais porque o nosso código
+
+20
+00:02:07,710 --> 00:02:14,290
+genético acrescentará substituindo perna e passa a perna pra criar nossa cena.
+
+21
+00:02:14,290 --> 00:02:17,490
+Com isso nós já temos aqui o teste Borba.
+
+22
+00:02:17,820 --> 00:02:22,100
+Nesse caso eu não vou usar o quadrado mas vou usar caixa.
+
+23
+00:02:22,120 --> 00:02:24,480
+Caixa vai crescer nesse caso vai ser mais interessante.
+
+24
+00:02:24,480 --> 00:02:30,640
+Vou criar aqui uma caixa com o chamar de seu primeiro caixa.
+
+25
+00:02:31,470 --> 00:02:41,760
+E nesse caso eu criei uma caixa com texto e eu vou colocar aqui pra c to certo vou colocar colocar na
+
+26
+00:02:41,760 --> 00:02:43,750
+máquina.
+
+27
+00:02:44,280 --> 00:02:51,060
+Vai ser o ser duplicado que o Z2 C3 C4 e um setor C3 C4.
+
+28
+00:02:51,480 --> 00:03:00,420
+Eu vou ter que a esquerda e a direita direita.
+
+29
+00:03:00,500 --> 00:03:03,750
+E aqui eu vou colocar fundo pronto.
+
+30
+00:03:03,870 --> 00:03:09,430
+Como é que eu faço pra chamar esses caras e colocar nas posições corretas nesse caso eu não vou chamar
+
+31
+00:03:09,430 --> 00:03:20,130
+o tio num ponto adicionar ou simplesmente fazer o set top eu vou colocar aqui o seu 1 porque eu vou
+
+32
+00:03:20,130 --> 00:03:27,890
+chamar aqui o set list e vou chamar o Z2 ele já faz esse metro já faz adicionar dentro do estilo está
+
+33
+00:03:28,260 --> 00:03:39,740
+diferente por exemplo passado o set list eu vou colocar o C3 e finalmente vou colocar.
+
+34
+00:03:39,780 --> 00:03:42,490
+Na verdade vai ter outro que eu vou criar outra caixa 7.
+
+35
+00:03:43,290 --> 00:03:47,490
+Bora pra c C4.
+
+36
+00:03:47,760 --> 00:03:53,790
+Com isso a gente olha em frente coisa que passa a ter gente teve que também além de fazer corar muita
+
+37
+00:03:53,790 --> 00:04:00,570
+gente teve que adicionar esse caso não precisa como você seta o topo faz mais sentido não só pela posição
+
+38
+00:04:00,570 --> 00:04:01,300
+especial.
+
+39
+00:04:01,300 --> 00:04:07,420
+Agora vai depender de quais você vai colocar em mais um metro então não faz muito sentido um deles adicionar
+
+40
+00:04:07,430 --> 00:04:13,910
+dentro do estilo mental então aqui executando ele já vai chamar Borda.
+
+41
+00:04:14,020 --> 00:04:20,490
+Aí a gente tem que Tohoku esquerda e direita fundo e tem área central também que eu vou criar mais um
+
+42
+00:04:20,490 --> 00:04:21,840
+outro quadrado.
+
+43
+00:04:21,840 --> 00:04:29,180
+Vou clicar aqui ou criar um quadrado em uma caixa melhor desenhar um quadrado com o caixa 5 5.
+
+44
+00:04:29,940 --> 00:04:37,480
+Nesse caso eu vou mudar aqui 7 a central senta ali C5.
+
+45
+00:04:37,850 --> 00:04:43,170
+Aqui vai ser a área central apontando aqui pra gente.
+
+46
+00:04:43,230 --> 00:04:49,380
+Cada um tem um comportamento diferente no que diz respeito o crescimento baseado no tamanho da tela
+
+47
+00:04:49,390 --> 00:04:51,010
+por exemplo à esquerda à direita.
+
+48
+00:04:51,060 --> 00:04:55,220
+Ela vai crescer vai diminuir de acordo com a altura com a altura for mexendo.
+
+49
+00:04:55,230 --> 00:05:03,610
+Faz sentido esse lado que fica fixo e esse lado aqui fica fixo vai ficando fixo já nesse caso não mexo
+
+50
+00:05:03,970 --> 00:05:06,870
+na largura o topo e o Fundo vão enchendo.
+
+51
+00:05:06,900 --> 00:05:13,160
+E no caso da área central ela mexe de acordo com a tela tocou baixo na tela área central vai expandindo
+
+52
+00:05:13,170 --> 00:05:16,460
+e diminuindo de acordo o tamanho da tela.
+
+53
+00:05:16,460 --> 00:05:23,410
+Certo Então aqui é o Borda bem bem intuitivo o tombo esquerda direita fundo e área central você pode
+
+54
+00:05:23,410 --> 00:05:29,250
+usar por exemplo isso aqui para colocá la ao topo rédeas da sua aplicação.
+
+55
+00:05:29,290 --> 00:05:35,380
+Na esquerda você coloca um menu na sua aplicação aqui e a área central não terá direito.
+
+56
+00:05:35,380 --> 00:05:42,070
+Então você pode organizar o layout da sua aplicação usando também essa ou outra alternativa com relação
+
+57
+00:05:42,070 --> 00:05:48,040
+a dezembro passado que foi incorporem agora ou borda bem como sendo a segunda solução são dois layout
+
+58
+00:05:48,610 --> 00:05:52,770
+simples de usar e alguns outros layout dos mais complexos.
+
+59
+00:05:53,230 --> 00:05:59,770
+Ainda no capítulo e essa segunda além de gerenciadores de layout com borda layout que é muito comum
+
+60
+00:05:59,770 --> 00:06:05,530
+de ser usado e é muito conhecido também também espero que vocês tenham gostado da aula ter ficado claro
+
+61
+00:06:05,530 --> 00:06:10,510
+para vocês na próxima aula vamos ver um outro gerenciador de Leal te olhando aqui pra minha cola do
+
+62
+00:06:10,510 --> 00:06:11,200
+lado.
+
+63
+00:06:11,650 --> 00:06:18,920
+Nós vamos ver o full time também é interessante e simples de usar também na próxima aula.
+
+64
+00:06:18,990 --> 00:06:24,190
+Para completar mais um gerenciador de layout ainda tenho outros na frente mas o próximo vai ser o for
+
+65
+00:06:24,200 --> 00:06:25,950
+Open e até a próxima aula.

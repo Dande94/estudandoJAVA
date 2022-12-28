@@ -1,0 +1,103 @@
+1
+00:00:00,630 --> 00:00:07,920
+Pessoal na sala quer lançar para vocês um desafio que é o seguinte o desafio de um tema do JP a que
+
+2
+00:00:07,920 --> 00:00:16,160
+eu não falei ainda mais eu acho muito importante vocês durante o processo de aprendizado entender que
+
+3
+00:00:16,190 --> 00:00:22,860
+na prática no mundo real vocês vão precisar pesquisar as coisas e descobrir como determinadas funcionalidades
+
+4
+00:00:23,610 --> 00:00:25,440
+são implementadas.
+
+5
+00:00:25,430 --> 00:00:31,350
+Vocês vão precisar tentar descobrir por exemplo como é que uma coisa foi feita e às vezes a documentação
+
+6
+00:00:31,350 --> 00:00:33,650
+não é tão fácil de ser entendida.
+
+7
+00:00:33,660 --> 00:00:41,550
+Então meu desafio final passada falou sobre composição e eu quero que vocês descubram como é implementado
+
+8
+00:00:41,610 --> 00:00:48,040
+em JP a herança como é que eu consigo mapear uma herança para o banco de dados e vocês vão encontrar
+
+9
+00:00:48,040 --> 00:00:51,860
+artigos na internet que falam sobre isso coloca JP a herança.
+
+10
+00:00:52,140 --> 00:00:58,230
+Eu quero que vocês procurem na internet como é implementado a herança a partir de alguma documentação
+
+11
+00:00:58,230 --> 00:01:03,240
+ou mesmo de algum artigo e tente implementar a herança na próxima aula.
+
+12
+00:01:03,240 --> 00:01:09,030
+Eu vou implementar uma herança bem simples mostrando pra vocês algumas formas possíveis que você tem
+
+13
+00:01:09,030 --> 00:01:14,700
+de mapear e como isso é gerado no banco de dados mais importante que você tem que descobri por conta
+
+14
+00:01:14,700 --> 00:01:21,290
+própria e pesquisando porque esse é um cara à época essa é uma característica extremamente importante
+
+15
+00:01:21,320 --> 00:01:22,260
+que tem desenvolvido.
+
+16
+00:01:22,260 --> 00:01:28,830
+Você vai estar em problemas reais e resolver muitas situações ou passando por situações que você não
+
+17
+00:01:28,830 --> 00:01:35,490
+tem como encontrar uma resposta muito direta para aquilo que você precisa e dessa habilidade de ler
+
+18
+00:01:35,490 --> 00:01:42,550
+as mensagens de erro e tentar interpretar aquilo que está sendo mostrado na sua aplicação como mentalmente
+
+19
+00:01:42,590 --> 00:01:43,890
+com essa ação.
+
+20
+00:01:43,920 --> 00:01:49,770
+Como você pode resolver isso e transformar isso numa solução ou mesmo você pode modelar uma solução
+
+21
+00:01:50,070 --> 00:01:57,200
+sem você ter digamos assim a resposta certa na sua cabeça então tudo isso envolve pesquisa envolvem
+
+22
+00:01:57,240 --> 00:02:04,470
+você analisar com outras pessoas é muito importante que você crie essa cultura de pesquisar as coisas
+
+23
+00:02:04,540 --> 00:02:11,580
+diminui aquilo que você está ali as documentações e lê eventuais mensagens de Deus que são apresentadas
+
+24
+00:02:11,580 --> 00:02:14,760
+para vocês para que vocês possam crescer como desenvolvedor.
+
+25
+00:02:14,760 --> 00:02:20,190
+Então fiquei o meu desafio pra vocês tentarem implementar herança com JP para aproximá lo.
+
+26
+00:02:20,280 --> 00:02:22,080
+Um exemplo sobre isso e disparou.

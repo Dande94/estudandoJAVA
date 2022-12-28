@@ -1,0 +1,71 @@
+1
+00:00:00,360 --> 00:00:06,620
+Pessoal quero propor pra vocês um desafio que eu vou chamar aqui ao clicar com o botão direito.
+
+2
+00:00:06,660 --> 00:00:08,290
+Vamos criar uma nova classe.
+
+3
+00:00:08,660 --> 00:00:12,470
+O nome da classe será desafio dia.
+
+4
+00:00:13,020 --> 00:00:17,040
+Semana semana e.
+
+5
+00:00:17,190 --> 00:00:18,980
+Messi aqui na nossa classe.
+
+6
+00:00:18,970 --> 00:00:27,420
+Nós vamos criar um metro Men e o desafio será o seguinte você vai digitar por exemplo domingo e o programa
+
+7
+00:00:27,420 --> 00:00:29,200
+vai retornar.
+
+8
+00:00:29,430 --> 00:00:31,260
+Você vai digitar aqui.
+
+9
+00:00:31,390 --> 00:00:35,940
+Quarta por exemplo o programa vai retornar.
+
+10
+00:00:35,940 --> 00:00:36,750
+4.
+
+11
+00:00:36,750 --> 00:00:46,350
+Certo Se você digital terça então caso palavras com acento cometesse sábado você vai sempre digitar
+
+12
+00:00:46,350 --> 00:00:56,520
+o valor com acento e aí o resultado vai voltar 3 ou seja domingo segunda 2 terça 3 4 4 quinta 5 sexta
+
+13
+00:00:56,520 --> 00:00:57,060
+6.
+
+14
+00:00:57,060 --> 00:01:03,860
+7 vai digitar sábado então o desafio e você vai criar um scanner para pegar os dados do usuário.
+
+15
+00:01:03,860 --> 00:01:09,300
+O usuário vai digitar o nome do dia da semana e você vai retornar o número associado aquele dia.
+
+16
+00:01:09,300 --> 00:01:12,800
+Então pra isso eu quero que vocês usem F.
+
+17
+00:01:12,940 --> 00:01:17,440
+F é aquilo que vocês já viram no exercício que a gente fez até então.
+
+18
+00:01:17,510 --> 00:01:21,480
+Então fico por aqui na próxima aula vou dar resposta e até lá.

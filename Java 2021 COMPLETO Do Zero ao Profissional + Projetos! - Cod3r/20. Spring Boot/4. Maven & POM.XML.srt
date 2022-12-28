@@ -1,0 +1,611 @@
+1
+00:00:00,140 --> 00:00:05,960
+Só na sala quero falar com vocês sobre o meio vem explicar para vocês um pouquinho o que significa meio
+
+2
+00:00:05,970 --> 00:00:13,320
+bem para a gente e para próximas aulas entendendo basicamente o que significa ele a gente não vai precisar
+
+3
+00:00:13,320 --> 00:00:14,850
+interagir muito comigo.
+
+4
+00:00:15,290 --> 00:00:20,550
+A única coisa que ainda precisar fazer durante o nosso capítulo é adicionar novas dependências.
+
+5
+00:00:20,580 --> 00:00:26,190
+Ele vai fazer todo o processo automaticamente e baixar essas dependências para a gente se preocupa mais
+
+6
+00:00:26,190 --> 00:00:33,830
+só falando pouquinho rapidamente o resumo né porque sim fico meio bem existe um arquivo chamado Open
+
+7
+00:00:35,250 --> 00:00:43,760
+XML esse arquivo XML é um arquivo de configuração do meio que vai trazer algumas informações importantes.
+
+8
+00:00:43,770 --> 00:00:50,830
+O primeiro conjunto de informações importantes que ele vai trazer são as informações do nosso projeto.
+
+9
+00:00:51,090 --> 00:00:58,650
+Então algumas informações no nosso projeto vão estar contidas dentro desse arquivo XML.
+
+10
+00:00:58,680 --> 00:01:04,410
+Outro aspecto importante do arquivo XML é a questão das dependências.
+
+11
+00:01:04,860 --> 00:01:11,880
+Então dentro desse aqui você vai colocar as dependências do projeto então depois do projeto.
+
+12
+00:01:11,970 --> 00:01:14,930
+Então lá dentro vai estar definido quais são.
+
+13
+00:01:14,940 --> 00:01:21,350
+Se eu vou depender do JP eu vou depender do Dragão do Mar SQL e seu corpo inteiro em Spring web.
+
+14
+00:01:21,350 --> 00:01:28,260
+Isso vai depender do Experience por exemplo para trazer segurança então dentro do pomposo XML vai ter
+
+15
+00:01:28,740 --> 00:01:37,110
+a descrição das nossas dependências e aí como parte do processo meio vem vai ler esse arquivo XML e
+
+16
+00:01:37,110 --> 00:01:43,300
+vai perceber quais são as dependências que estão definidas lá dentro automaticamente baixar para a gente.
+
+17
+00:01:43,350 --> 00:01:47,990
+Outra coisa que também está relacionada num ponto que já não faz muito sentido para a gente.
+
+18
+00:01:47,990 --> 00:01:52,050
+Então eu vou só mencionar que é parte importante do meio de maio para a gente que não vai usar aqui
+
+19
+00:01:52,050 --> 00:01:57,950
+no nosso capítulo que são os plugins certo os bloquinhos.
+
+20
+00:01:58,070 --> 00:02:02,920
+Eu vou falar um pouquinho daqui a pouco dizendo que o momento lembro da questão dos blogs.
+
+21
+00:02:03,360 --> 00:02:14,400
+A próxima parte importante como seria o gerenciamento certo gerenciador senão o gerenciador das dependências
+
+22
+00:02:15,210 --> 00:02:20,690
+as datas o gerenciador de dependências vai fazer exatamente isso que eu falei né.
+
+23
+00:02:20,730 --> 00:02:29,330
+Ele vai procurar na nuvem existe um repositório com todas essas dependências um repositório na nuvem
+
+24
+00:02:29,530 --> 00:02:36,070
+que esse gerenciador de dependências vai consultar esse repositório para baixar esses arquivos de dependências
+
+25
+00:02:36,070 --> 00:02:42,180
+no nosso projetos na sua grande maioria esses arquivos são arquivos pronto já.
+
+26
+00:02:42,320 --> 00:02:49,770
+Ou seja arquivos do tipo Java arcaico ele vai baixar a dependência do Esprit e vai dar baixa dependência
+
+27
+00:02:49,770 --> 00:02:56,100
+do JP o Dragão do Mar SQL e tudo isso ele vai fazer automaticamente para a gente por conta do gerenciador
+
+28
+00:02:56,100 --> 00:02:57,030
+de dependências.
+
+29
+00:02:57,030 --> 00:03:05,210
+Então basicamente esse gerenciador ele vai ler o arquivo XML e vai entender quais são as dependências
+
+30
+00:03:05,500 --> 00:03:11,790
+vai lá no repositório e baixa isso para dentro do nosso projeto automaticamente sem a gente precisar
+
+31
+00:03:11,790 --> 00:03:19,530
+muito entrar nos detalhes internos como ele faz isso é outra questão também importantíssima é em relação
+
+32
+00:03:19,650 --> 00:03:29,450
+aos pouquinhos exigindo o que ele chama dentro do meio vem de um ciclo de vida certo ciclo de vida do
+
+33
+00:03:29,580 --> 00:03:33,420
+que seria o processo de BI da aplicação por exemplo.
+
+34
+00:03:33,420 --> 00:03:38,730
+Depois da aplicação você tem uma fase de compilação.
+
+35
+00:03:38,730 --> 00:03:47,620
+Você tem por exemplo outra fase de teste você tem uma fase em que ele chama que está na instalação.
+
+36
+00:03:47,760 --> 00:03:53,760
+E aí você tem essas fases que seriam por exemplo desde que você mandou o projeto ser construído até
+
+37
+00:03:53,760 --> 00:03:59,070
+ele realmente gerar um pacote e até ele gerar um arquivo que você pode pegar esse arquivo jogá la no
+
+38
+00:03:59,070 --> 00:04:02,090
+servidor de produção do arquivo final.
+
+39
+00:04:02,100 --> 00:04:04,340
+Ele tem todo um fluxo e um ciclo de vida.
+
+40
+00:04:04,350 --> 00:04:11,490
+São várias fases no processo de construção da aplicação usando um meio e esses plug ins vão ser configurados
+
+41
+00:04:11,490 --> 00:04:14,470
+para eles entrarem por exemplo em determinadas fases.
+
+42
+00:04:14,470 --> 00:04:21,740
+Então instalar um plug in dentro do meu ponto XML coloquei lá para ele agir em cima da fase de teste.
+
+43
+00:04:21,750 --> 00:04:23,560
+Aí ele vai ser chamado na fase de teste.
+
+44
+00:04:23,880 --> 00:04:27,430
+Essa parte do plug in não é algo que a gente vai ver aqui mas acontece.
+
+45
+00:04:27,440 --> 00:04:30,150
+Existe sim esse ciclo de vida dentro do mesmo.
+
+46
+00:04:30,150 --> 00:04:32,360
+Esse passo a passo que vai ser executado.
+
+47
+00:04:32,400 --> 00:04:38,580
+E aí dentro do arquivo por pontos XML você pode colocar novos bloquinhos que são códigos que serão executados
+
+48
+00:04:38,940 --> 00:04:45,150
+em cada uma dessas fases para personalizar essa construção para você automatizar algum algum processo
+
+49
+00:04:45,150 --> 00:04:51,840
+que você queira ou dar um teste cobertura alguma coisa que você realmente queira aplicar dentro do meio.
+
+50
+00:04:51,830 --> 00:04:58,650
+Então basicamente você tem informações do projeto você tem as dependências do projeto que são usadas
+
+51
+00:04:58,650 --> 00:05:04,400
+e lidas pelo gerenciador tendências ele vai ler dentro do com essas dependências e vai baixar para você
+
+52
+00:05:04,400 --> 00:05:09,110
+as dependências onde você também tem o que ele chama de Lindsay.
+
+53
+00:05:09,160 --> 00:05:15,080
+Ou seja o ciclo de vida da construção do seu projeto ciclo de vida pode ser personalizado você pode
+
+54
+00:05:15,080 --> 00:05:20,130
+configurar plug ins que são códigos que serão executados durante esse ciclo de vida.
+
+55
+00:05:20,130 --> 00:05:27,460
+Então basicamente não há uma ideia geral Deixe eu voltar aqui para a tela na nossa aplicação e tirar
+
+56
+00:05:27,470 --> 00:05:31,550
+quem rapidamente vai abrir.
+
+57
+00:05:32,130 --> 00:05:34,010
+Complicado aqui.
+
+58
+00:05:34,190 --> 00:05:40,580
+Pronto coloquei um pezinho ou trazer de novo aqui o teclado para a gente falar rapidamente do arquivo
+
+59
+00:05:40,700 --> 00:05:48,440
+ponto XML então deixou entrar aqui ou naquele ponto XML e pra gente ver aqueles elementos que eu tinha
+
+60
+00:05:48,440 --> 00:05:50,190
+comentado com vocês.
+
+61
+00:05:50,270 --> 00:05:58,320
+Aqui nós temos a questão do monte que seria um projeto no qual esse meu projeto se baseia.
+
+62
+00:05:58,430 --> 00:06:04,380
+Esse meu projeto se baseia em um projeto chamado Spring budista art.
+
+63
+00:06:04,760 --> 00:06:09,840
+Ou seja quando eu quero uma coisa importante também que eu não falei do meio nem que é essencial você
+
+64
+00:06:09,860 --> 00:06:10,390
+entender.
+
+65
+00:06:10,400 --> 00:06:18,350
+Ele trabalha muito com um conceito de convenção o que é uma convenção você estabelece um padrão ou seja
+
+66
+00:06:18,350 --> 00:06:25,430
+o código fonte estará convencionado dentro da pasta X e o meio vem automaticamente vai procurar o código
+
+67
+00:06:25,430 --> 00:06:30,920
+dentro da pasta x falamos sobre isso para você entender essa coisas na convenção se a gente olhar no
+
+68
+00:06:30,920 --> 00:06:31,920
+nosso projeto J.
+
+69
+00:06:31,930 --> 00:06:35,380
+B por exemplo ou qualquer outro projeto que a gente construiu até aqui.
+
+70
+00:06:35,390 --> 00:06:43,290
+Você vai perceber que a nossa pasta de código fonte é a pasta SRC dentro da pasta e isso automaticamente
+
+71
+00:06:43,290 --> 00:06:45,450
+tem todos os pacotes da nossa aplicação.
+
+72
+00:06:45,620 --> 00:06:46,480
+Ok.
+
+73
+00:06:46,520 --> 00:06:53,810
+E no caso do nosso projeto MEI não é diretamente dentro de SC tem uma pasta chamada SC tem uma pasta
+
+74
+00:06:53,810 --> 00:07:02,120
+chamada Mari e tem uma pasta chamada Java dentro da Apache SC barmen Java e que ele vai encontrar o
+
+75
+00:07:02,120 --> 00:07:07,730
+código fonte de nossa aplicação seja os pacotes e os arquivos ponto Java certo.
+
+76
+00:07:07,790 --> 00:07:16,550
+Existe uma outra pasta chamada Src Men e Barra Sources ou seja recursos e aqui dentro vai ser o local
+
+77
+00:07:16,550 --> 00:07:19,910
+que a gente eventualmente pode colocar uma página HTML.
+
+78
+00:07:19,910 --> 00:07:27,350
+Pode colocar um arquivo CSS pode colocar um arquivo JavaScript já que o primeiro build ele vai prover
+
+79
+00:07:27,350 --> 00:07:29,000
+para um servidor web.
+
+80
+00:07:29,300 --> 00:07:36,020
+Então se eu quiser colocar uma página web eu posso colocar aqui dentro de SC barmen Barra sources.
+
+81
+00:07:36,080 --> 00:07:43,520
+Então o projeto meio vem ele já sabe e já espera que essa convenção de pastas que esses nomes sejam
+
+82
+00:07:43,520 --> 00:07:48,680
+respeitados para ele realmente encontrar o nosso código fonte entra muito forte essa questão também
+
+83
+00:07:48,680 --> 00:07:55,020
+da convenção exige uma convenção e o projeto quando segue a convenção ele precisa de menos configuração.
+
+84
+00:07:55,460 --> 00:07:57,450
+Então basicamente o que eu estou dizendo aqui.
+
+85
+00:07:57,490 --> 00:07:58,560
+Qual é o meu.
+
+86
+00:07:58,590 --> 00:08:01,400
+Qual o projeto no qual esse projeto se baseia.
+
+87
+00:08:01,410 --> 00:08:03,710
+Pelo meio vem existem vários tipos.
+
+88
+00:08:03,710 --> 00:08:10,550
+Se eu entrar aqui ou mostrar rapidamente se ele vier aqui vou criar um novo projeto só para mostrar
+
+89
+00:08:10,550 --> 00:08:19,090
+pra vocês não é tanto o objetivo aqui uniu outra e se a gente entrar na parte do meio vem clicar aqui
+
+90
+00:08:21,100 --> 00:08:24,910
+e vou criar um novo projeto meio então meio pra gente.
+
+91
+00:08:24,990 --> 00:08:31,370
+Aqui vocês vão perceber que existe uma série de possíveis projetos que a gente pode criar certo que
+
+92
+00:08:31,380 --> 00:08:33,600
+são o que eles chamam de artefacto aí.
+
+93
+00:08:33,870 --> 00:08:38,270
+Então eu quero criar um projeto com determinada característica um projeto web.
+
+94
+00:08:38,570 --> 00:08:41,180
+Aí você vai lá procurar um projeto e habita aqui.
+
+95
+00:08:41,510 --> 00:08:43,880
+Aí vem a TAP em web app.
+
+96
+00:08:44,000 --> 00:08:49,490
+E aí em cima disso ele já vai configurar para a gente um projeto que segue aquele padrão que se baseia
+
+97
+00:08:49,760 --> 00:08:51,430
+num determinado outro projeto.
+
+98
+00:08:51,560 --> 00:08:55,360
+Então ele tem vários tipos de projetos diferentes que você queira criar.
+
+99
+00:08:55,370 --> 00:08:57,840
+Quero criar um projeto de um bloguinho.
+
+100
+00:08:57,840 --> 00:09:05,330
+Eu quero criar um projeto J2 e tal é o nosso projeto foi criado usando como base o projeto do experimento.
+
+101
+00:09:05,330 --> 00:09:09,860
+Basicamente quem está dizendo que não permitia isso aqui eu tenho as informações que nós colocamos lá
+
+102
+00:09:09,860 --> 00:09:14,870
+no nosso formulário de criação lá dentro de Estate pontos primeiro ponto.
+
+103
+00:09:15,230 --> 00:09:21,970
+Nós criamos um grupo EDI e criamos um artefacto andina que é o nome do nosso projeto é um grupo que
+
+104
+00:09:21,980 --> 00:09:26,510
+nosso projeto pertence no caso eu coloquei o domínio da cauda na praça um domínio único ninguém vai
+
+105
+00:09:26,510 --> 00:09:29,160
+criar um projeto no Grupo B.
+
+106
+00:09:29,250 --> 00:09:35,470
+Ponto a ponto de anunciar gente da cauda então faz sentido a gente criar um grupo único certo então
+
+107
+00:09:35,470 --> 00:09:39,260
+a gente se baseia a partir do dado domínio da empresa.
+
+108
+00:09:39,260 --> 00:09:45,110
+Ao contrário aqui o artefato tinha o nome do nosso projeto a versão do nosso projeto era a versão zero
+
+109
+00:09:45,110 --> 00:09:51,020
+ponto zero contudo você pode mexer nessa versão sempre que liberar o novo projeto e que o nome do nosso
+
+110
+00:09:51,020 --> 00:09:52,120
+projeto.
+
+111
+00:09:52,270 --> 00:09:57,560
+A descrição temos aqui uma única propriedade dizendo que ele usa a versão do Java 8 você pode mudar
+
+112
+00:09:57,560 --> 00:10:04,400
+por aqui também e logo a parte mais importante para a gente é a única parte relevante.
+
+113
+00:10:04,400 --> 00:10:08,480
+Tudo isso que eu estou falando aqui é só para dar um pouco de contextualização.
+
+114
+00:10:08,480 --> 00:10:15,040
+Se você entrar no YouTube e procurar meio vem visão geral do meio ou mesmo entrar na página do meio
+
+115
+00:10:15,390 --> 00:10:18,740
+e dar uma olhada na documentação você vai ver os principais recursos.
+
+116
+00:10:18,760 --> 00:10:26,680
+Posso até fazer aqui eu abri um Brasil e eu coloquei a.
+
+117
+00:10:27,250 --> 00:10:36,240
+Aí vem aqui você vai ver que ele vai dizer Apache muy bem é um software de gerenciamento de projeto.
+
+118
+00:10:36,250 --> 00:10:43,520
+Ele vai gerenciar o seu projeto tanto no que diz respeito à parte de dependências como na parte do ciclo
+
+119
+00:10:43,520 --> 00:10:46,100
+de vida da execução do seu projeto.
+
+120
+00:10:46,110 --> 00:10:50,630
+Eu quero executar e instalar o projeto quero fazê lo depois do projeto.
+
+121
+00:10:50,630 --> 00:10:52,450
+Eu quero rodar os testes por exemplo.
+
+122
+00:10:52,460 --> 00:10:58,610
+Tudo isso acaba fazendo você pode dar um olhar um pouco mais detalhado dentro de meio ponto Apache pontuou
+
+123
+00:10:58,620 --> 00:10:59,360
+OG.
+
+124
+00:10:59,450 --> 00:11:05,960
+Sobre a questão da documentação do MAC voltando aqui essa parte a parte mais importante da aula só para
+
+125
+00:11:05,960 --> 00:11:12,260
+mostrar para vocês que é nesse ponto dentro do arquivo XML que existem as nossas dependências e aqui
+
+126
+00:11:12,260 --> 00:11:15,300
+dentro o que ele vai ver outra dependência web.
+
+127
+00:11:15,580 --> 00:11:21,610
+Eu tenho independência deve tudo que nós adicionamos e o débito ele serve apenas ele e independência
+
+128
+00:11:21,790 --> 00:11:28,620
+opcional ou seja não vai para a produção fica só num ambiente de desenvolvimento e nós temos aqui uma
+
+129
+00:11:28,620 --> 00:11:32,760
+ou outra dependência que é a parte de baixo também que foi adicionada por padrão.
+
+130
+00:11:32,870 --> 00:11:38,270
+E como falei pra vocês vocês têm os bloquinhos dentro do processo de Building de você tem uma série
+
+131
+00:11:38,270 --> 00:11:44,900
+de plug ins que podem ser colocados numa daquelas fases que o meio vem define no ciclo de vida que o
+
+132
+00:11:44,900 --> 00:11:45,740
+mesmo define.
+
+133
+00:11:45,770 --> 00:11:50,810
+Então não vou entrar muito no mérito dos plug ins a gente não vai mexer aqui nos plug ins a gente vai
+
+134
+00:11:50,810 --> 00:11:57,980
+mexer mais na frente colocando novas dependências então ele vai copiar esse trecho coloca a nova dependência
+
+135
+00:11:57,980 --> 00:12:02,950
+colocar aqui o guru Branding e o nome da dependência para que automaticamente ele baixe.
+
+136
+00:12:02,990 --> 00:12:08,990
+E uma das coisas legais é que basta você salvar o arquivo que automaticamente o arquivo já vai coordenar
+
+137
+00:12:08,990 --> 00:12:13,510
+junto com um projeto lei e vai baixar as dependências para a gente automaticamente.
+
+138
+00:12:13,520 --> 00:12:19,770
+De tal forma que quando você olhar aqui além de ter as dependências do próprio Java era em Java ou voluntário
+
+139
+00:12:19,760 --> 00:12:22,270
+igualmente que são as bibliotecas do Java.
+
+140
+00:12:22,310 --> 00:12:26,480
+Você tem as dependências do MAC automaticamente sendo baixadas pra você.
+
+141
+00:12:26,960 --> 00:12:34,610
+Então se você olhar Kioto ele mostra o futuro de pastas SC meio que é o projeto principal e mexe dentro
+
+142
+00:12:34,610 --> 00:12:38,570
+de mim você tem Java e sources que são as outras duas partes.
+
+143
+00:12:38,570 --> 00:12:39,770
+Então pessoal fico por aqui.
+
+144
+00:12:39,770 --> 00:12:42,760
+Foi uma aula relativamente longa muito Dassault.
+
+145
+00:12:42,800 --> 00:12:49,210
+Não é necessário para você continuar a gente vai usar o mouse vem com apenas um usuário a gente não
+
+146
+00:12:49,220 --> 00:12:55,520
+vai construir um projeto não vai personalizá lo por não ser colocado da tendência mas eu fiz questão
+
+147
+00:12:55,910 --> 00:13:02,480
+de falar um pouquinho sobre como meme organizado pra mostrar pra vocês o arquivo XML porque isso de
+
+148
+00:13:02,480 --> 00:13:07,760
+certa forma pode ajudar você no futuro em eventuais personalizações do projeto.
+
+149
+00:13:07,760 --> 00:13:13,740
+Então como o foco do nosso capítulo é o meio então essa aula teve como objetivo fazer só uma visão geral.
+
+150
+00:13:13,740 --> 00:13:18,800
+E agora sim a gente vai voltar para o experiente Buggy pra começar a desenvolver os nossos abcessos
+
+151
+00:13:18,830 --> 00:13:19,550
+mais.
+
+152
+00:13:19,640 --> 00:13:23,360
+Eu quis passar um pouquinho sobre a visão geral do meio para não passar batido.
+
+153
+00:13:23,390 --> 00:13:27,080
+Então fico por aqui na próxima aula a gente volta para o HUT e até lá.

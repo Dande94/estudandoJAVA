@@ -1,0 +1,219 @@
+1
+00:00:00,340 --> 00:00:05,190
+Agora nós vamos fazer mais um exemplo que vai ser o último exemplo desse capítulo para a gente trabalhar.
+
+2
+00:00:05,190 --> 00:00:09,000
+Só que a gestão do Reich para a gente tem um pouco mais que o Reich.
+
+3
+00:00:09,040 --> 00:00:15,480
+Extremamente importante quando você trabalha com estruturas do tipo RX 7 Reich Mac está só pra isso
+
+4
+00:00:15,480 --> 00:00:25,110
+eu vou criar aqui uma classe chamada Reich pra gente testá lo aqui Men e nós já temos um objeto que
+
+5
+00:00:25,110 --> 00:00:31,260
+eu criei nesse capítulo que é o objeto usuário esse objeto usuário já tem implementado dentro dele o
+
+6
+00:00:31,260 --> 00:00:37,720
+ICS e a escolha eu vou usar ele pra gente testar aqui o comportamento do rapaz certo.
+
+7
+00:00:37,740 --> 00:00:42,230
+Então pra isso eu vou criar um raio x 7 x 7.
+
+8
+00:00:42,330 --> 00:00:49,220
+Também me apaixonar por Rachel Map certo ser do tipo usuario eu vou chamar aqui usuários recebe e eu
+
+9
+00:00:50,410 --> 00:01:02,160
+usuarios na verdade vai receber um chipset 7 crack 7 de usuário viu e eu vou adicionar aqui alguns usuários
+
+10
+00:01:02,160 --> 00:01:08,650
+então usuários ponto adicionar eu já vou criar o usuário diretamente ao usuário.
+
+11
+00:01:08,700 --> 00:01:22,500
+Amigo Pedro vou criar um usuário com uma câmera e finalmente o usuário tem feito isso que eu quero fazer
+
+12
+00:01:22,500 --> 00:01:23,820
+aqui um exemplo bem simples.
+
+13
+00:01:23,820 --> 00:01:31,250
+Por exemplo usuários ponto contentes eu vou passar Guilherme.
+
+14
+00:01:31,680 --> 00:01:36,690
+Então nesse momento quem não fizer esse tipo de estrutura eu vou colocar para não ficar muito grande.
+
+15
+00:01:36,690 --> 00:01:38,590
+Eu vou colocar isso aqui.
+
+16
+00:01:39,310 --> 00:01:41,910
+O resultado.
+
+17
+00:01:42,290 --> 00:01:49,080
+Essa visão ficando quase tão grande mas central corta aqui pra mim o valor do resultado nesse caso a
+
+18
+00:01:49,080 --> 00:01:55,170
+gente sabe que o Estado será verdadeiro ele vai se encontrar o Guilherme porque o Guilherme está presente
+
+19
+00:01:55,170 --> 00:01:58,460
+o ICMS e o escudo está implementado de forma correta.
+
+20
+00:01:58,560 --> 00:02:06,240
+Se eu falar na classe o usuário procurando a máquina que o usuário e eu comentar vai escolher.
+
+21
+00:02:06,300 --> 00:02:11,520
+Você vai perceber que agora ele já não vai mais encontrar o Guilherme de tal forma que o Estado será
+
+22
+00:02:11,520 --> 00:02:14,610
+falso e postando aqui onde está será falso.
+
+23
+00:02:14,610 --> 00:02:18,940
+Poxa vai ser falso porque este o uso está presente.
+
+24
+00:02:18,960 --> 00:02:25,960
+Se o nome é o único critério usado para comparar os dois e aí ele vai ver que o que está OK beleza o
+
+25
+00:02:25,970 --> 00:02:32,260
+Wiko está certo mas o México onde não está é como primeiramente ele vai varrer rapidamente usaram as
+
+26
+00:02:32,280 --> 00:02:37,230
+recurso pra só então ele comparar usando o ICS que é uma forma mais lenta de comparar.
+
+27
+00:02:37,290 --> 00:02:42,720
+Por isso que ele acaba não funcionar porque eu acho que ele falhou ou seja nenhum acho que ele bateu
+
+28
+00:02:43,010 --> 00:02:44,950
+porque você não tem implementação.
+
+29
+00:02:45,000 --> 00:02:53,220
+Você até poderia se quiser colocar por exemplo um código que todos são exatamente iguais hoje vai retornar
+
+30
+00:02:53,700 --> 00:03:01,260
+por exemplo o valor de todos não tem o mesmo mas com mais um recorde válido aí o fato é que vai funcionar
+
+31
+00:03:01,260 --> 00:03:06,540
+ele vai continuar retornando se não era dele ele baixar esse caso ele mais e Paulo Miklos pra todos
+
+32
+00:03:06,540 --> 00:03:10,320
+os elementos até encontrar um determinado elemento que ele está procurando.
+
+33
+00:03:10,350 --> 00:03:17,180
+O 7 1 7 ele é muito mais rápido de pesquisa se você precisar pesquisar muito dentro de um 7 é mais rápido
+
+34
+00:03:17,180 --> 00:03:19,140
+do que você pesquisar dentro de um lixo.
+
+35
+00:03:19,350 --> 00:03:21,230
+Exatamente por conta desse mecanismo.
+
+36
+00:03:21,300 --> 00:03:27,290
+Então voltando lá em usuário essa é a forma maligna ou outra forma válida seria você pagar 10 pontos
+
+37
+00:03:27,350 --> 00:03:34,290
+nome ou muito lenta sei usar o tamanho do nome para aquele uso como rascunho já não esconde que já vai
+
+38
+00:03:34,590 --> 00:03:37,380
+digamos assim restringir mais o uso.
+
+39
+00:03:37,530 --> 00:03:43,920
+Os elementos que são iguais então volta aqui no México contanto que seja consistente sempre que você
+
+40
+00:03:43,920 --> 00:03:49,740
+procura um determinado elemento ético ou seja o mesmo vai tá ok com essa ação se você não implementar
+
+41
+00:03:49,740 --> 00:03:56,970
+o México de você vai ter problema ou seja você vai retornar Falso para um elemento que está presente
+
+42
+00:03:57,420 --> 00:04:00,300
+certo retornar aqui não é só pra gente testar a última vez.
+
+43
+00:04:00,450 --> 00:04:03,640
+Você percebe que o Estado é falso embora o Guilherme esteja presente.
+
+44
+00:04:03,650 --> 00:04:07,020
+E se você tiver um agente ele que seja o mais diferente possível.
+
+45
+00:04:07,020 --> 00:04:09,710
+Um exemplo é o que o próprio BCE gera para a gente.
+
+46
+00:04:09,720 --> 00:04:15,600
+Ele vai ser muito provavelmente implementação muito boa porque cada elemento vai ter potencialmente
+
+47
+00:04:15,600 --> 00:04:17,100
+uma escolha diferente.
+
+48
+00:04:17,100 --> 00:04:23,370
+Isso faz com que ele precise na segunda vez que ele vai executar o Windows com os católicos e provavelmente
+
+49
+00:04:23,370 --> 00:04:28,300
+um único elemento ou então pouquíssimos elementos estão só aí pra você.
+
+50
+00:04:28,380 --> 00:04:34,050
+A dica de que é muito importante você usar o ICS é o que eu já tinha falado isso anteriormente mas não
+
+51
+00:04:34,050 --> 00:04:38,330
+tinha mostrado nem banco acontecem por conta da falta do México.
+
+52
+00:04:38,460 --> 00:04:44,520
+Então não apenas implemente o incluso que é extremamente importante mas também implemente esconde se
+
+53
+00:04:44,520 --> 00:04:50,100
+você quiser uma implementação que é disponibilizada pelo eclipse eu acho muito legal na prática acabo
+
+54
+00:04:50,100 --> 00:04:55,570
+usando não fico me preocupando muito em olhar e os detalhes de implementação manda a equipe gerar e
+
+55
+00:04:55,590 --> 00:05:01,620
+vai ser feliz que vai dar certo você usar qualquer uma dessas estruturas foi apresentado nesse capítulo.

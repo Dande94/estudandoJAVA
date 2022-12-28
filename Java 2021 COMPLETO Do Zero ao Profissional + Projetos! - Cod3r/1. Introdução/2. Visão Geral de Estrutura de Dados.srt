@@ -1,0 +1,831 @@
+1
+00:00:00,310 --> 00:00:06,960
+Pessoal uma outra questão também muito importante é sobre as estruturas de dados e a pergunta que eu
+
+2
+00:00:06,960 --> 00:00:10,290
+quero começar a ler o que são as estruturas de dados.
+
+3
+00:00:10,830 --> 00:00:20,730
+Então eu acho muito interessante você ter muito claro na sua cabeça essas essas nomenclaturas usadas
+
+4
+00:00:20,730 --> 00:00:26,820
+dentro da linguagem de programação às vezes é um conceito básico que a pessoa até sabe o conceito mas
+
+5
+00:00:26,820 --> 00:00:33,960
+quando você faz a pergunta fica a estrutura de dados e pensar que um pouquinho mais tarde não são coisas
+
+6
+00:00:33,960 --> 00:00:37,180
+que é importante que você tenha muito claro na sua mente.
+
+7
+00:00:37,230 --> 00:00:42,610
+Quando alguém perguntar você rapidamente consegue dar uma resposta e a resposta senão a resposta certa
+
+8
+00:00:42,610 --> 00:00:48,440
+está aí então que são as estruturas de dados a minha pergunta será que o futuro de dados daqui para
+
+9
+00:00:48,450 --> 00:00:57,040
+não dar certo será que futura de dados e o número 3 ou estrutura de dados e sim do resto segue ou então
+
+10
+00:00:57,060 --> 00:01:04,350
+9 e 13 o número real será que fartura de dados é um verdadeiro falso na linguagem de programação situ.
+
+11
+00:01:04,430 --> 00:01:05,170
+Falso.
+
+12
+00:01:05,430 --> 00:01:11,480
+Dependendo da linguagem será que a letra M é uma estrutura de dados 1 2 3 uma sequência e um futuro
+
+13
+00:01:11,490 --> 00:01:17,540
+de dados ou um valor textual ou seqüência de caracteres um texto sei lá a letra P.
+
+14
+00:01:17,550 --> 00:01:18,510
+Será que isso.
+
+15
+00:01:18,510 --> 00:01:23,920
+A estrutura de dados na verdade isso tudo que eu gostaria até então são dados.
+
+16
+00:01:24,060 --> 00:01:30,060
+é muito importante você entender esse fato estrutura de dados é uma coisa e o dado é outra certo então
+
+17
+00:01:30,060 --> 00:01:35,400
+uma vez que dado ao cujo futuro de dados é outra pergunta o que são as estruturas de dados.
+
+18
+00:01:35,400 --> 00:01:42,030
+Qual é o papel da estrutura de dados na verdade futura de dados ela visa duas coisas até o nome fica
+
+19
+00:01:42,040 --> 00:01:42,480
+óbvio.
+
+20
+00:01:42,480 --> 00:01:51,330
+Quero estruturar meu dado estrutura dos dados então a estrutura de dados visa organizar e administrar
+
+21
+00:01:51,330 --> 00:01:55,840
+digamos assim os seus dados seja trazer ordem estrutura grudado.
+
+22
+00:01:55,890 --> 00:02:03,030
+Então eu posso por exemplo pegar um exemplo saiu a lista dos aprovados nessa frase tem um futuro de
+
+23
+00:02:03,030 --> 00:02:08,320
+dados tem algo que digita como alguma coisa e modernizada tem a lista.
+
+24
+00:02:08,340 --> 00:02:13,470
+Como você imaginou a lista você imaginou organização você imagina uma sequência.
+
+25
+00:02:13,470 --> 00:02:18,930
+Você imagina muitas vezes pode ser uma lista não ordenada por exemplo com a lista de supermercado você
+
+26
+00:02:18,930 --> 00:02:25,640
+tem lá arroz feijão macarrão não obrigatoriamente você precisa seguir a ordem correta que você escreveu.
+
+27
+00:02:25,660 --> 00:02:29,550
+Existe sim lista listas que a ordem não faz tanta diferença.
+
+28
+00:02:29,550 --> 00:02:35,280
+Você vai riscando aquele que você já comprou mas existem listas que fazem sim diferença então a lista
+
+29
+00:02:35,280 --> 00:02:37,320
+dos aprovados do vestibular.
+
+30
+00:02:37,410 --> 00:02:39,210
+Então você tem lá um dois três.
+
+31
+00:02:39,210 --> 00:02:45,990
+Tem um centésimo o candidato tem lá o candidato 180 Então se você pegar listas só tem vagas porque os
+
+32
+00:02:45,990 --> 00:02:52,260
+primeiros 50 nem é preciso alguém desistir dos primeiros 50 pra então sobre a vaga.
+
+33
+00:02:52,260 --> 00:02:54,310
+A ordem é extremamente importante.
+
+34
+00:02:54,300 --> 00:02:59,540
+A estrutura de dados vai garantir que essa ordem esteja feita de uma forma correta.
+
+35
+00:02:59,550 --> 00:03:09,000
+Então se você olhar o número 3 ele é uma futuro de dados não mais nos números inteiros questão da Regra
+
+36
+00:03:09,390 --> 00:03:15,900
+número 3 para o número 4 que diz que começa a partir do zero e que a partir do zero ele vai estar de
+
+37
+00:03:15,900 --> 00:03:17,980
+forma discreta e descaracterizado.
+
+38
+00:03:17,980 --> 00:03:20,460
+Eu continuo pulando de junho.
+
+39
+00:03:20,460 --> 00:03:23,880
+Isso significa ou menos ou em menos um.
+
+40
+00:03:23,970 --> 00:03:25,290
+Você tem os números inteiros.
+
+41
+00:03:25,290 --> 00:03:32,280
+Você definiu uma regra definiu quais são os critérios para que determinados dados estejam aderentes
+
+42
+00:03:32,280 --> 00:03:34,770
+ou não a determinadas estruturas de dados.
+
+43
+00:03:34,810 --> 00:03:39,720
+E aí você garante que você consegue ter uma validação e consegue ter organização em cima disso.
+
+44
+00:03:39,780 --> 00:03:45,480
+Então quando você tem um número inteiro e o número aquele elemento ele está aderente ao determinar o
+
+45
+00:03:45,480 --> 00:03:46,870
+futuro de dados.
+
+46
+00:03:47,040 --> 00:03:53,760
+Você vai ter que respeitar aquela estrutura senão você vai acabar batendo em outro dado como por exemplo
+
+47
+00:03:53,760 --> 00:04:00,050
+o número real ou mesmo você não vai conseguir qualquer linguagem de programação vai ser barrado não
+
+48
+00:04:00,050 --> 00:04:06,540
+se em linguagens que vão trabalhar os tipos de uma forma muito mais flexível que são linguagens de tipagem
+
+49
+00:04:06,660 --> 00:04:17,070
+dinâmica e tipos dinâmicos tipos que eu digo e os inteiros valores e letras com caracteres sequência
+
+50
+00:04:17,070 --> 00:04:23,610
+de caracteres que normalmente chama de strings e listas tem lajes que trabalham com os tipos de forma
+
+51
+00:04:23,610 --> 00:04:31,020
+muito mais flexível e você consegue ter um determinado dado apontando pra diferentes tipos em diferentes
+
+52
+00:04:31,020 --> 00:04:36,620
+momentos é importante dizer isso mas algumas outras linguagens vão ter uma ligação muito mais rígida.
+
+53
+00:04:36,630 --> 00:04:44,520
+Por exemplo eu vou criar uma determinada variável do tipo inteira então obrigatoriamente ela precisará
+
+54
+00:04:44,520 --> 00:04:51,540
+ser inteiro durante todo o seu algoritmo não poderá mudar pode mudar o número para mudar o dado de três
+
+55
+00:04:51,540 --> 00:05:00,880
+para cinco para 12 pra 13 mil 43 mas não pode mudar a natureza do tipo que você escolher da linguagem
+
+56
+00:05:00,880 --> 00:05:02,890
+você vai ter uma abordagem outra.
+
+57
+00:05:03,040 --> 00:05:06,240
+Então olhando aqui para as estruturas de dados já falei para vocês.
+
+58
+00:05:06,240 --> 00:05:10,350
+As estruturas organizam e administram os dados.
+
+59
+00:05:10,430 --> 00:05:15,470
+E aí você tem determinado conjuntos de estruturas de dados também na vida real.
+
+60
+00:05:15,490 --> 00:05:17,140
+Então saiu a lista dos aprovados.
+
+61
+00:05:17,140 --> 00:05:24,720
+Você tem a lista não você conhece o João Gustavo Camila alia desenha uma fila com como sabia desenhar
+
+62
+00:05:24,720 --> 00:05:26,530
+a parte de baixo do boneco.
+
+63
+00:05:26,530 --> 00:05:29,660
+Coloquei o muro para ficar bem BuzzFeed certo.
+
+64
+00:05:29,710 --> 00:05:32,850
+E aí você tem uma fila e a fila tem Você conhece né.
+
+65
+00:05:32,850 --> 00:05:38,740
+Você tem o primeiro que chega e o primeiro que vai ser sem vida o primeiro que vai sair da fila.
+
+66
+00:05:38,810 --> 00:05:44,810
+Então o primeiro que chegou ao primeiro site tem uma lógica que é o fim Infonet que é uma sigla em inglês.
+
+67
+00:05:44,800 --> 00:05:51,440
+Fãs da série primeira a entrar na fila e o de áudio o primeiro a sair certo então o segundo a entrar
+
+68
+00:05:51,460 --> 00:05:58,900
+vai simular saí e a fila é uma estrutura de dados clássica certo tô paulista a estrutura de dados clássica
+
+69
+00:05:59,230 --> 00:06:04,870
+a fila e outras estruturas com a pilha que eu vou já comentar são estruturas de dados que definem como
+
+70
+00:06:04,930 --> 00:06:05,980
+o dado é organizado.
+
+71
+00:06:05,980 --> 00:06:09,310
+Lembro que quando eu ia no banco só contando a história rápida.
+
+72
+00:06:09,400 --> 00:06:13,720
+Meu pai queria chegar na fila dos aposentados e escolhi a ordem pela idade.
+
+73
+00:06:13,720 --> 00:06:19,660
+Só que não é assim e a ordem de chegada que define quem é que vai ser primeiro servido é meu pai.
+
+74
+00:06:19,660 --> 00:06:24,280
+Como tinha mais idade do que a maioria dos que estavam na fila queria ficar trocando de acordo com a
+
+75
+00:06:24,280 --> 00:06:25,570
+idade o pai.
+
+76
+00:06:25,570 --> 00:06:31,530
+Espera aí um pouquinho porque essa não é a lógica que ficou definida na fila do banco certo.
+
+77
+00:06:31,660 --> 00:06:32,940
+Só uma história rápida.
+
+78
+00:06:33,190 --> 00:06:33,760
+E aí.
+
+79
+00:06:33,760 --> 00:06:40,800
+Aqui nós temos por exemplo uma outra estrutura de dados clássica que é a pilha a pilha e o que ele segue
+
+80
+00:06:40,840 --> 00:06:43,450
+a estrutura é fu no leste.
+
+81
+00:06:43,930 --> 00:06:50,900
+Ou seja o último a entrar na pilha é o First Audio o primeiro a sair certo então você tem a fila como
+
+82
+00:06:50,890 --> 00:06:57,700
+se em FIFA for Flushing Frechaut e você tem o livro que é o primeiro o último a entrar e o primeiro
+
+83
+00:06:57,790 --> 00:06:58,390
+a sair.
+
+84
+00:06:58,390 --> 00:07:03,370
+Se você coloca o livro depois coloca o outro livro ou outro livro ou outro livro e aí você.
+
+85
+00:07:03,410 --> 00:07:05,400
+Você até pode burlar na prática.
+
+86
+00:07:05,410 --> 00:07:11,810
+Na vida real possui levanta a pilha e puxa de baixo mas isso não acontece na estrutura de dados nem
+
+87
+00:07:11,820 --> 00:07:13,830
+o computador que você vai sempre tirar.
+
+88
+00:07:13,870 --> 00:07:19,920
+O último desafio lançado o último da pilha é melhor dizer o último que entrou e o primeiro que vai sai.
+
+89
+00:07:20,200 --> 00:07:26,200
+Você tem futuro de árvore então por exemplo se até aqui há um sistema de arquivos do computador você
+
+90
+00:07:26,200 --> 00:07:28,060
+tem um Finder aqui no Mac.
+
+91
+00:07:28,060 --> 00:07:30,530
+Você tem o Windows Explorer pra você vê lá.
+
+92
+00:07:30,550 --> 00:07:31,740
+O sistema de arquivos.
+
+93
+00:07:31,750 --> 00:07:39,380
+Você tem uma aldrabice com determinadas pastas então tem a parte de música ao subir basta Happy subir
+
+94
+00:07:39,410 --> 00:07:45,100
+basta rock dentro de rock você tem Beatles e você tem lá as músicas em MP3.
+
+95
+00:07:45,100 --> 00:07:49,300
+Então você usa essa estrutura de árvores também para organizar seus dados.
+
+96
+00:07:49,300 --> 00:07:56,980
+Também é uma estrutura de dados clássica dá certo tabela meu futuro na era organizar os dados em linhas
+
+97
+00:07:56,980 --> 00:08:02,860
+e colunas assim como banco de dados é organizado também uma estrutura de dados clássica muito importante
+
+98
+00:08:03,190 --> 00:08:04,580
+também a tabela.
+
+99
+00:08:04,630 --> 00:08:07,730
+E aí você tem alguns estruturas de dados básicas.
+
+100
+00:08:07,730 --> 00:08:15,070
+Você tem suturas primárias ou são os blocos de construção de qualquer outra estrutura que são números
+
+101
+00:08:15,070 --> 00:08:21,220
+inteiros números reais letras valores booleanos verdadeiro falso.
+
+102
+00:08:21,280 --> 00:08:25,360
+Aqui também acrescentaria sequência de letras dependendo da linguagem.
+
+103
+00:08:25,720 --> 00:08:31,450
+Você trabalha uma sequência de letras como algo como a estrutura básica em algumas outras linguagens
+
+104
+00:08:31,450 --> 00:08:38,560
+trabalha isso com um nível secundário não é um bloco de construção básico então só como exemplo Java
+
+105
+00:08:38,860 --> 00:08:46,510
+trata a letra como algo primitivo como algo básico no futuro básica um bloco de construção básico dos
+
+106
+00:08:46,510 --> 00:08:50,740
+dados e a seqüência de caracteres Java trata o como objeto.
+
+107
+00:08:50,740 --> 00:08:55,260
+Então ela aprende a linguagem vai tratar de um jeito ou de outro mas você também poderia colocar aqui
+
+108
+00:08:55,440 --> 00:08:59,310
+como um das estruturas básicas da linguagem C uma sequência de letras está.
+
+109
+00:08:59,570 --> 00:09:03,330
+Então você que um valor inteiro você tem um número com o ponto flutuante.
+
+110
+00:09:03,330 --> 00:09:09,970
+Algumas linguagens não têm essa distinção de inteiro um número flutuante tudo em número como é o caso
+
+111
+00:09:09,970 --> 00:09:16,270
+do JavaScript e não tem um valor uma estrutura de dados inteiro em uma estrutura de dados como ponto
+
+112
+00:09:16,270 --> 00:09:18,840
+flutuante tudo não seja lugar no número.
+
+113
+00:09:19,030 --> 00:09:24,190
+E aí independente de qualquer coisa você tem uma única estrutura básica para representar número 1 em
+
+114
+00:09:24,190 --> 00:09:24,820
+JavaScript.
+
+115
+00:09:24,820 --> 00:09:31,450
+Por exemplo você tem letra por exemplo ou uma sequência de letras dependendo da linguagem valores verdadeiro
+
+116
+00:09:31,450 --> 00:09:38,350
+ou falso ou seja essas são as principais estruturas que a gente acaba usando para comprar seu bloco
+
+117
+00:09:38,350 --> 00:09:41,210
+de construção de estruturas mais complexas.
+
+118
+00:09:41,260 --> 00:09:47,440
+Quando você vai imaginar estruturas mais complexas inclusive existem estruturas de dados personalizadas
+
+119
+00:09:47,440 --> 00:09:51,800
+que o próprio usuário cria dentro da sua aplicação.
+
+120
+00:09:51,860 --> 00:09:57,220
+Eu quero criar algo para representar o cliente no meu software então você cria um estrutura de dados
+
+121
+00:09:57,220 --> 00:10:04,140
+personalizada que vai ter outras e básica sendo usada para compor o cliente então por exemplo o cliente
+
+122
+00:10:04,140 --> 00:10:07,390
+tem um código esse código é do tipo inteiro.
+
+123
+00:10:07,470 --> 00:10:15,540
+O cliente tem um estados status esse status na sua letra a pró ativo e inativo o cliente tem um nome.
+
+124
+00:10:15,840 --> 00:10:17,880
+O nome é uma sequência de letras.
+
+125
+00:10:17,880 --> 00:10:25,290
+O cliente tem uma data de cadastro e essa data tem um inteiro para representar um dia inteiro para representar
+
+126
+00:10:25,290 --> 00:10:29,970
+o mesmo inteiro para representar um ano inteiro para representar a hora e assim vai.
+
+127
+00:10:29,970 --> 00:10:36,300
+Ou seja a data estrutura básica mais é feita por outros dados mais básicos e aí você pode por exemplo
+
+128
+00:10:36,300 --> 00:10:42,500
+ter uma outra estrutura personalizada para representar um produto dentro da sua aplicação e você tem
+
+129
+00:10:42,810 --> 00:10:49,380
+um número real para representar o preço do produto ou o desconto do produto também se é um valor real
+
+130
+00:10:49,890 --> 00:10:56,820
+com casas decimais você pode por exemplo ter um atributo para dizer se o produto está em promoção ou
+
+131
+00:10:56,820 --> 00:11:02,790
+não ele pode ser verdadeiro falso ou seja você pode ter estruturas personalizadas sua como por exemplo
+
+132
+00:11:02,790 --> 00:11:10,950
+o cliente um produto e um fornecedor ou um carrinho de compras tudo isso você pode criar modelar essas
+
+133
+00:11:10,950 --> 00:11:17,350
+estruturas personalizadas mas muito provavelmente você vai usar estruturas básicas para te ajudar como
+
+134
+00:11:17,620 --> 00:11:23,700
+futuros mais complexas assim como o mandato não é a fatura básica mais ela usa estruturas mais simples
+
+135
+00:11:24,040 --> 00:11:31,920
+para a concordata e como eu falei o dia inteiro o mês inteiro um ano inteiro a hora minuto segundo todos
+
+136
+00:11:31,920 --> 00:11:38,580
+eles podem ser modelados digam sim podem ser criados a partir de vários inteiros cada inteiro para representar
+
+137
+00:11:38,640 --> 00:11:40,690
+algum dos atributos de um mandato.
+
+138
+00:11:40,700 --> 00:11:47,220
+Então isso também é possível dentro da linguagem de programação qualquer linguagem você vai ter um conceito
+
+139
+00:11:47,220 --> 00:11:54,410
+de variáveis e constantes você armazenou os dados em variáveis e constantes.
+
+140
+00:11:54,550 --> 00:12:01,560
+Para que serve isso serve para que você consiga rotular um determinado valor que mais está armazenado
+
+141
+00:12:01,560 --> 00:12:07,770
+na memória do computador e dizer Olha esse valor que representa a área da circunferência.
+
+142
+00:12:07,770 --> 00:12:14,870
+Esse valor que representa esse valor que representa o raio e aí em cima desses valores que você rotulou
+
+143
+00:12:14,880 --> 00:12:22,680
+você consegue fazer os algoritmos usando variáveis e constantes por exemplo no caso clássico Pi 3 ponto
+
+144
+00:12:22,710 --> 00:12:29,550
+14 15 alguma coisa todo mundo sabe que esse valor é um valor constante ele não precisa ser alterado
+
+145
+00:12:29,870 --> 00:12:35,220
+então tão cedo não precisa ser alterado porque é que eu vou permitir alguém alterar se eu sei que por
+
+146
+00:12:35,220 --> 00:12:38,310
+natureza por assim ser esse valor constante.
+
+147
+00:12:38,430 --> 00:12:45,270
+E aí em vez de usar algo que pode variar dentro do algoritmo eu digamos assim garanto que aquele valor
+
+148
+00:12:45,270 --> 00:12:46,680
+será um valor constante.
+
+149
+00:12:46,680 --> 00:12:53,460
+Ou seja dentro do meu algoritmo ninguém será capaz de mexer nessa constante certo então você armazena
+
+150
+00:12:53,790 --> 00:12:57,660
+os seus dados em variáveis inconstantes.
+
+151
+00:12:57,660 --> 00:13:03,510
+Em outras palavras é como se você tivesse rotulando um determinado valor e trabalhando esse valor de
+
+152
+00:13:03,510 --> 00:13:08,850
+uma forma muito mais simples e muito mais fácil você trabalhar com esses rótulos que você dá um nome
+
+153
+00:13:09,180 --> 00:13:16,110
+como por exemplo a área raio o BI ou então o usuário logado que vai ser usuário da sua aplicação com
+
+154
+00:13:16,110 --> 00:13:22,470
+esses nomes rotulados do que propriamente você está referenciando os dados direto nem faz sentido certo.
+
+155
+00:13:22,470 --> 00:13:27,540
+Outra questão em cima dos dados estou falando sempre de dados aqui você armazena os dados e variáveis
+
+156
+00:13:27,540 --> 00:13:34,290
+e constantes os dados são regidos pelas estruturas de dados que vai da Ordem que vai administrar o dado
+
+157
+00:13:34,320 --> 00:13:40,320
+que vai dizer como o Dado precisa se comportar pra estar aderente aquela estrutura de dados e você também
+
+158
+00:13:40,320 --> 00:13:42,860
+vai usar os dados para fazer operações.
+
+159
+00:13:42,870 --> 00:13:49,920
+Você vai atribuir um determinado dado a uma variável você vai fazer operações aritméticas em cima de
+
+160
+00:13:49,920 --> 00:13:54,720
+um dado numérico por exemplo somar subtrair dividir multiplicar.
+
+161
+00:13:54,750 --> 00:14:02,820
+Você vai ter operações de fim de comparação e operações aqui relacionais por exemplo o valor a ele é
+
+162
+00:14:02,820 --> 00:14:09,780
+maior do que o valor b o valor b é diferente do valor C o valor d é maior ou igual ao valor e então
+
+163
+00:14:09,780 --> 00:14:12,750
+você vai ter operações relacionais.
+
+164
+00:14:12,760 --> 00:14:16,350
+Você também vai ter operações lógicas usando as suas variáveis.
+
+165
+00:14:16,350 --> 00:14:22,150
+Por exemplo você vai querer saber se o usuário quer vai ou não comprar uma televisão mais pra comprar
+
+166
+00:14:22,150 --> 00:14:29,960
+uma televisão precisa ter três condições ele precisa ter dinheiro na conta o tempo e o tempo lá a cidade
+
+167
+00:14:30,020 --> 00:14:36,120
+pode contar com céu aberto sem chuva e o terceiro critério tem que ser depois da hora da noite porque
+
+168
+00:14:36,120 --> 00:14:38,220
+é a hora que as pessoas fazem do trabalho.
+
+169
+00:14:38,220 --> 00:14:45,810
+Então precisa ter uma condição ou seja um operador lógico com uma outra condição e outra condição só
+
+170
+00:14:45,810 --> 00:14:55,520
+vai acontecer se tem salário na conta dela o falso tem e está chovendo não está chovendo é tão verdadeiro
+
+171
+00:14:55,620 --> 00:15:02,620
+e depois o trabalho ainda não deu tempo não significa que tem até que todas as condições sejam satisfeitas
+
+172
+00:15:02,620 --> 00:15:07,670
+ou seja é uma operação lógica a lei como Operação relacional que eu falei.
+
+173
+00:15:07,660 --> 00:15:14,560
+Comparar uma coisa com a outra operações aritméticas é atribuição você pode fazer muitas operações em
+
+174
+00:15:14,560 --> 00:15:20,200
+cima dos dados e tem operações que eu não coloquei aqui como por exemplo juntar duas listas isso é um
+
+175
+00:15:20,200 --> 00:15:21,430
+tipo de operação.
+
+176
+00:15:21,640 --> 00:15:29,950
+Então a própria estrutura no caso a lista pode dar te da possibilidade de usar essas operações pra juntar
+
+177
+00:15:29,950 --> 00:15:36,370
+listas ou pra eu quero pegar um conjunto ai um conjunto B pagar a interseção dos dois conjuntos também
+
+178
+00:15:36,760 --> 00:15:39,890
+é um tipo de operação que você pode fazer em cima dos dados.
+
+179
+00:15:40,030 --> 00:15:46,300
+Como eu falei pra vocês você pode criar estruturas personalizadas coisas que não estão disponíveis dentro
+
+180
+00:15:46,300 --> 00:15:47,950
+da linguagem de programação.
+
+181
+00:15:47,950 --> 00:15:51,740
+Eu quero mapear aqui por exemplo um cliente.
+
+182
+00:15:51,760 --> 00:15:57,780
+Então eu não tenho um cliente mas eu crio uma estrutura personalizada para mapear um cliente e eu quero
+
+183
+00:15:57,780 --> 00:16:00,910
+mapear aqui por exemplo um produto.
+
+184
+00:16:01,060 --> 00:16:06,550
+Então você também tem a possibilidade de mapear um produto ou seja a partir de estruturas mais básicas
+
+185
+00:16:06,550 --> 00:16:12,930
+você consegue mapear estruturas personalizadas para atender às necessidades do seu sistema.
+
+186
+00:16:12,920 --> 00:16:19,660
+Então a ideia de estruturas de dados é exatamente esse futuro de dados e o que dá estrutura ao dado
+
+187
+00:16:19,810 --> 00:16:26,350
+da Organização que administra o que traz as regras para como os dados precisam se comportar em cima
+
+188
+00:16:26,420 --> 00:16:27,160
+dessas estruturas.
+
+189
+00:16:27,160 --> 00:16:33,010
+Você vai ter várias coisas interessantes como por exemplo algum tipo de operação básica como os dados
+
+190
+00:16:33,010 --> 00:16:39,010
+são armazenados quais são as lógicas e as regras que os dados precisam seguir para estar aderente a
+
+191
+00:16:39,010 --> 00:16:40,540
+determinadas estruturas.
+
+192
+00:16:40,570 --> 00:16:47,860
+A partir dessas estruturas classes como citei algumas aqui na árvore tabela pilha Lista A gente vai
+
+193
+00:16:47,860 --> 00:16:52,320
+ver essas estruturas dentro do custo e também vai ver as estruturas mais básicas.
+
+194
+00:16:52,330 --> 00:16:56,650
+Como falei aqui um número letra valor verdadeiro ou falso.
+
+195
+00:16:57,010 --> 00:17:04,000
+Vamos aprender também todinho como armazenar determinados valores inconstantes em variáveis as operações
+
+196
+00:17:04,050 --> 00:17:07,180
+e tudo isso faz parte dos fundamentos da linguagem.
+
+197
+00:17:07,180 --> 00:17:12,940
+Vai ver isso com muita calma mas é muito importante ter essa visão tanto do algorítimo tanto da caixa
+
+198
+00:17:12,940 --> 00:17:18,820
+do processamento como a gente viu na hora passada entender a questão de que a sequência de passos que
+
+199
+00:17:18,820 --> 00:17:25,270
+tem um conjunto de passos que pode acontecer mais uma vez com repetição às vezes pode pular um passo
+
+200
+00:17:25,270 --> 00:17:31,540
+em detrimento de outro entender que em cima desses algoritmos os dados são muito importantes.
+
+201
+00:17:31,540 --> 00:17:36,970
+Os dados são manipulados de acordo com as estruturas de dados no qual eles respeitam.
+
+202
+00:17:36,980 --> 00:17:42,250
+E aí em cima nessas estruturas vai surgir uma série de operações que dentro dos seus algoritmos vocês
+
+203
+00:17:42,250 --> 00:17:48,220
+vão acabar precisando usar certo o que é muito interessante o que é muito importante é você entender
+
+204
+00:17:48,870 --> 00:17:54,310
+tanto a importância do algoritmo como a importância dos dados e das suas estruturas para que você consiga
+
+205
+00:17:54,550 --> 00:18:01,150
+ter uma visão geral de como funciona ali a parte inicial de como a programação está organizada e a partir
+
+206
+00:18:01,150 --> 00:18:04,960
+disso a gente vai para a prática e boa parte desses conceitos.
+
+207
+00:18:04,960 --> 00:18:10,090
+Boa parte daquilo que a gente viu foi um pouco mais teórica que na prática vai ficar muito mais claro
+
+208
+00:18:10,090 --> 00:18:13,450
+para vocês eu tenho certeza não fico por aqui até aproximá lo.

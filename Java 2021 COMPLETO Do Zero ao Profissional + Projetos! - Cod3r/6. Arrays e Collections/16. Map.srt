@@ -1,0 +1,535 @@
+1
+00:00:00,400 --> 00:00:07,250
+Agora nós vamos fazer o mapping e para isso nós vamos criar um novo exercício nova classe vou chamar
+
+2
+00:00:07,280 --> 00:00:14,290
+aqui de mapa e nós vamos ter uma estrutura chave valor e vou mostrar para vocês algumas coisas interessantes
+
+3
+00:00:14,310 --> 00:00:19,730
+porque como a futura chave falou a gente tem várias formas de percorrer o MAP a gente pode ter com isso
+
+4
+00:00:19,720 --> 00:00:20,930
+só na chave.
+
+5
+00:00:20,940 --> 00:00:24,730
+Só não falou aos dois nos dois registros ao mesmo tempo.
+
+6
+00:00:24,850 --> 00:00:27,010
+Isso é bastante interessante.
+
+7
+00:00:27,300 --> 00:00:31,480
+Então o primeiro map e ele vai ter uma pequena diferença Map.
+
+8
+00:00:32,160 --> 00:00:39,030
+E aqui nós vamos ter dentro a anotação dos genéricos e do menor que marquei duas dois valores separados
+
+9
+00:00:39,030 --> 00:00:44,060
+por vírgula que pode ser por exemplo um valor Long.
+
+10
+00:00:44,210 --> 00:00:50,730
+Se eu quiser colocar um long e colocar um estilingue eu teria por exemplo o CPF do usuário e o nome.
+
+11
+00:00:50,730 --> 00:00:57,030
+Eu não posso colocar dia por exemplo aqui pra provocar um valor menor ao olho do usuário e o nome do
+
+12
+00:00:57,030 --> 00:00:57,680
+usuário.
+
+13
+00:00:58,000 --> 00:01:07,440
+Então aqui eu poderia ter com os usuários recebem só maximizar usar aquilo roxo Map que é o método mais
+
+14
+00:01:07,440 --> 00:01:09,240
+comum tem ponto e vírgula.
+
+15
+00:01:09,230 --> 00:01:14,650
+Da mesma forma que eu definia que o tipo int string do outro lado tem um tipo muito.
+
+16
+00:01:15,090 --> 00:01:21,390
+Nesse caso posso fazer isso que eu tenho esses dois valores aplicados para que automaticamente a partir
+
+17
+00:01:21,390 --> 00:01:28,960
+do Daimon operei tão tranquilo uma vez que eu tenha um dois valores quando vou adicionar um elemento.
+
+18
+00:01:28,970 --> 00:01:31,860
+Tento passar os dois valores no caso do Mac.
+
+19
+00:01:31,860 --> 00:01:33,880
+Ele não usa um metro adicional.
+
+20
+00:01:34,410 --> 00:01:36,180
+Ele usa o método Push.
+
+21
+00:01:36,180 --> 00:01:44,220
+Então ele vai fazer que usuários ponto push e ele não tem um método adicional que não pude após passar
+
+22
+00:01:44,220 --> 00:01:45,520
+por exemplo.
+
+23
+00:01:46,020 --> 00:01:52,870
+O nome vai ser aberto no certo adicionem um elemento dentro do meu Mac.
+
+24
+00:01:52,950 --> 00:01:55,020
+Uma pergunta por quê.
+
+25
+00:01:55,140 --> 00:01:59,600
+O pessoal do Java aos projetistas não usaram o método tradicional.
+
+26
+00:01:59,650 --> 00:02:08,100
+Você pode adicionar na lista e adicioná lo no conjunto e adicionar na fila adicionar na pilha todos
+
+27
+00:02:08,100 --> 00:02:11,400
+têm um adicional mas o MAC não porquê.
+
+28
+00:02:11,550 --> 00:02:21,030
+Conceitualmente esse método put ele faz duas coisas ele tanto adiciona se não existir como ele vai substituí
+
+29
+00:02:21,210 --> 00:02:29,210
+caso já exista então por exemplo se eu colocar aqui usuarios ponto Push.
+
+30
+00:02:29,790 --> 00:02:36,240
+Aí está completa Não sei porquê pra outra coisa mas pude colocar aqui o código e eu disse agora que
+
+31
+00:02:36,240 --> 00:02:40,470
+não há mais o Alberto Ricardo nesse caso.
+
+32
+00:02:40,500 --> 00:02:46,650
+No primeiro cenário ele adicionou no segundo cenário ele alterou então com ele que queriam usar a mesma
+
+33
+00:02:46,650 --> 00:02:49,410
+função tanto para incluí como para alterar.
+
+34
+00:02:49,530 --> 00:02:55,800
+Ou seja tanto para incluir como para substituir o valor de uma chave que já existe dentro do MAC então
+
+35
+00:02:55,800 --> 00:03:01,470
+eles pensaram assim é só colocar adicioná não é um metro que reflete exatamente o que vai acontecer
+
+36
+00:03:01,510 --> 00:03:06,960
+porque em alguns momentos vai ser adicionado mais em outros momentos eu vou substituir o valor da mulher
+
+37
+00:03:06,960 --> 00:03:12,780
+ou a gente mudar o nome do método para Putin colocar colocar pode ser interpretado como colocar a primeira
+
+38
+00:03:12,780 --> 00:03:15,730
+vez ou colocar no lugar de outra coisa que já existe.
+
+39
+00:03:15,960 --> 00:03:22,530
+Então tem essa diferença e acredito que a motivação para escolher um nome diferente foi exatamente pelo
+
+40
+00:03:22,530 --> 00:03:28,370
+conceito associado ao método por isso que escolher bons nomes que reflitam exatamente aquilo que um
+
+41
+00:03:28,380 --> 00:03:33,870
+determinado método faz é extremamente importante e por isso eles preferiram mudar o nome e adicionar
+
+42
+00:03:33,880 --> 00:03:41,960
+para Putin para refletir exatamente esse conceito então aqui ou ele adicionou Zane Push adicione o claramente
+
+43
+00:03:41,970 --> 00:03:51,360
+de código um código de novo eu posso achar pra vocês aqui usuários pontos sites como não pode ter duplicação
+
+44
+00:03:51,750 --> 00:03:52,620
+da chave.
+
+45
+00:03:52,620 --> 00:03:58,560
+O resultado desse Coelho que vai ser o único que só tem um único elemento dentro do meu Mac já que todas
+
+46
+00:03:58,560 --> 00:04:02,110
+as chaves são duplicadas executando o resultado.
+
+47
+00:04:02,190 --> 00:04:12,770
+Nesse caso eu vou querer colocar aqui código 2 3 mas sem ela depois eu vou colocar o código 4 que vai
+
+48
+00:04:12,770 --> 00:04:21,210
+ser a Rebecca Black ou seja a gente já sabe exatamente o mesmo comportamento que a gente já tinha anteriormente
+
+49
+00:04:21,630 --> 00:04:28,660
+se eu duplicar aqui colocando ex entre ele vai dizer se tem ou não.
+
+50
+00:04:28,670 --> 00:04:34,830
+Certo era mesmo o caso está vazio ou não no caso o que faz o que tem realmente não está vazio e a gente
+
+51
+00:04:34,830 --> 00:04:38,420
+pode pegar por exemplo usuários.
+
+52
+00:04:38,460 --> 00:04:41,090
+Ponto.
+
+53
+00:04:41,910 --> 00:04:42,600
+7.
+
+54
+00:04:42,690 --> 00:04:48,580
+Ou seja o conjunto das chaves só terá por isso que eu falei que a coluna das chaves é um conjunto.
+
+55
+00:04:48,620 --> 00:04:55,350
+Que 7 pra retornar para a gente todas as chaves sempre entre amigos vai a chave 2 3 e 4 se eu coloco
+
+56
+00:04:55,350 --> 00:05:01,830
+aqui entre 3 e 4 o resultado vai ser 13 24.
+
+57
+00:05:01,830 --> 00:05:08,870
+Ele não mantém as chaves de forma ordenada e nem mesmo a ordem numérica ou mesmo em ordem alfabética.
+
+58
+00:05:08,870 --> 00:05:12,240
+7 Ele vai colocando uma ordem diferente.
+
+59
+00:05:12,300 --> 00:05:16,490
+Outra questão outra coisa que você pode pegar além de você poder pegar as chaves.
+
+60
+00:05:16,490 --> 00:05:20,400
+Você consegue pagar os valores então usuários.
+
+61
+00:05:20,850 --> 00:05:27,570
+Velhos valores ele vai se passar apenas os valores a Roberta aquarela e cadê Rebeca.
+
+62
+00:05:27,940 --> 00:05:33,460
+E a outra opção a terceira você consegue pagar sua chave e só os valores você consegue pagar também.
+
+63
+00:05:33,510 --> 00:05:40,420
+Charles ao mesmo tempo que é um entre os sete executando você vai ver o Roberto.
+
+64
+00:05:40,420 --> 00:05:42,910
+13 Rafaela 29 Ricardo.
+
+65
+00:05:42,910 --> 00:05:43,770
+4.
+
+66
+00:05:43,840 --> 00:05:48,260
+Ou seja você consegue pegar a chave e valor ao mesmo tempo.
+
+67
+00:05:48,270 --> 00:05:55,170
+Outra possibilidade é que você tem chave valor fosse fazer o usuario conjunto com itens que você não
+
+68
+00:05:55,170 --> 00:06:02,110
+tem mais o metro contém mais tempo com itens que contêm mais velho tal qual como é que acontece.
+
+69
+00:06:02,660 --> 00:06:10,370
+20 O resultado vai dar verdadeiro porque a chave 20 está atrás do mestre e se a gente colocar aqui algo
+
+70
+00:06:10,370 --> 00:06:15,900
+com itens velho posso passar aqui por exemplo.
+
+71
+00:06:16,200 --> 00:06:23,010
+Rebeca o resultado vai dar bem a ver também porque ele contém o valor Rebeca também é possível obter
+
+72
+00:06:23,640 --> 00:06:30,390
+a chave abaixo do valor acho que é bem tranquilo é uma funcionalidade que realmente é indispensável
+
+73
+00:06:31,840 --> 00:06:38,340
+para quem não estou a partir do índice sim a partir do valor que eu coloquei na chave certo é o mesmo
+
+74
+00:06:38,340 --> 00:06:43,430
+método do da lista só Clara e o índice é indexado 0 1 2 3.
+
+75
+00:06:43,540 --> 00:06:50,410
+E aqui em cima da chave então garante o elemento 20 vai voltar para a gente o valor do caso Ricardo
+
+76
+00:06:50,420 --> 00:06:51,240
+Negrete.
+
+77
+00:06:51,600 --> 00:06:54,810
+O elemento 4 vai voltar igual Rebeca.
+
+78
+00:06:55,020 --> 00:06:59,940
+E finalmente eu quero mostrar para vocês algumas fotos que você tem de percorrer os elementos de um
+
+79
+00:06:59,940 --> 00:07:00,530
+mapa.
+
+80
+00:07:00,750 --> 00:07:05,690
+Você tem três formas percorrer sua chave e só os valores e os dois ao mesmo tempo.
+
+81
+00:07:05,690 --> 00:07:08,810
+Então pra fazer isso eu vou colocar o time só fora.
+
+82
+00:07:09,100 --> 00:07:12,540
+Primeiro eu vou percorrer a chave então eu posso ter 500.
+
+83
+00:07:12,960 --> 00:07:24,870
+Por exemplo a chave 2 pontos vai ser usuários ponto que 7 seja percorri as chaves e aqui eu consigo
+
+84
+00:07:24,870 --> 00:07:27,820
+usando o System Alt imprimir o valor da chave.
+
+85
+00:07:27,810 --> 00:07:33,450
+Certo Como é o inteligente objeto eu consigo automaticamente se quiser converter poluente ou mesmo usar
+
+86
+00:07:33,450 --> 00:07:39,370
+um item aqui as duas possibilidades são válidas então imprimindo a chave.
+
+87
+00:07:39,370 --> 00:07:39,840
+1.
+
+88
+00:07:39,840 --> 00:07:40,620
+3.
+
+89
+00:07:40,630 --> 00:07:41,310
+20.
+
+90
+00:07:41,320 --> 00:07:42,040
+4.
+
+91
+00:07:42,580 --> 00:07:48,790
+Há outra forma que tende a percorrer percorrer apenas as chaves e então colocar aqui as chaves do tipo
+
+92
+00:07:48,790 --> 00:07:51,250
+string então coloco a string.
+
+93
+00:07:51,250 --> 00:07:57,520
+Na verdade não há o valor do tipo string em certa altura forma percorri usando os valores que eu faço
+
+94
+00:07:57,640 --> 00:07:59,860
+usuarios ponto.
+
+95
+00:08:00,130 --> 00:08:11,520
+Velhos valores e aqui h imprimiu valores velhos aqui é um método certo atributo que eles executando.
+
+96
+00:08:12,010 --> 00:08:18,830
+Nós temos as chaves primeiramente e depois os valores e finalmente a terceira forma usando entre 1 e
+
+97
+00:08:18,830 --> 00:08:19,430
+7.
+
+98
+00:08:20,020 --> 00:08:27,850
+E aí como a gente não consegue digamos assim percorrer dois valores ao mesmo tempo uma foto em uma estrutura
+
+99
+00:08:28,270 --> 00:08:34,930
+tem um cara chamado entrei só que não é com quem tem vários centros aqui exato o que a gente quer isso
+
+100
+00:08:34,930 --> 00:08:44,020
+é que ao Java útil ponto Map esse centro e a gente vai colocar o tipo da chave colocando exatamente
+
+101
+00:08:44,020 --> 00:08:50,040
+essa mesma estrutura e aquele do menor que é maior com muitas vírgulas strings a gente vai colocar aqui
+
+102
+00:08:50,050 --> 00:08:57,370
+ou exatamente a mesma chave valor ou eu posso chamar isso exemplo de registro certo ou linha ou qualquer
+
+103
+00:08:57,370 --> 00:09:03,480
+coisa que você queira exceto no caso aqui nós temos usuários para chamar de usuário.
+
+104
+00:09:03,610 --> 00:09:07,620
+Você vai ter a chave e o valor associado a esse usuário.
+
+105
+00:09:07,810 --> 00:09:14,650
+E aqui eu vou ter o meu Mac e agora consigo percorrer os dois ao mesmo tempo que é legal que eventualmente
+
+106
+00:09:14,650 --> 00:09:18,220
+você vai precisar percorrer todos os usuários ao mesmo tempo.
+
+107
+00:09:18,280 --> 00:09:25,090
+Usuários ponto entre sites não posso esquecer essa parte final que é exatamente o que vai retornar para
+
+108
+00:09:25,090 --> 00:09:25,620
+a gente.
+
+109
+00:09:25,710 --> 00:09:27,300
+Os entraves as entradas.
+
+110
+00:09:27,340 --> 00:09:35,230
+E agora uma vez que eu tenho o registro usuário nome que você quiser da EU POSSO FAZER DE REGISTRO ponto
+
+111
+00:09:35,610 --> 00:09:41,680
+Net que você me dê a chave e posso duplicar aqui.
+
+112
+00:09:41,710 --> 00:09:49,570
+Registro ponto Betim velho me deu valor associado a esse registro de tal forma que não posso colocar
+
+113
+00:09:49,760 --> 00:10:03,000
+um print 35 Line e faço aqui concatenação para colocar na mesma linha colocou Alberto 3 Rafaela o indicado
+
+114
+00:10:03,430 --> 00:10:07,190
+4 Rebeca foi colocada pra ficar um pouco mais diferente.
+
+115
+00:10:07,570 --> 00:10:15,130
+Então isso nós fizemos aqui criamos metro e falei um pouquinho sobre a motivação de mudar o nome do
+
+116
+00:10:15,130 --> 00:10:17,140
+Metro de putos pra você remover.
+
+117
+00:10:17,140 --> 00:10:26,190
+Você também pode remover a parte da chave então coloca naquele System usuarios em.
+
+118
+00:10:26,770 --> 00:10:36,270
+Você pode passar o valor da chave querem mover o elemento aqui e morreu Roberta na mente de 11 de sempre.
+
+119
+00:10:36,650 --> 00:10:44,620
+Então no final ele não tem mais o Roberto que foi removido e esse método removido também retorna o valor
+
+120
+00:10:44,940 --> 00:10:51,100
+do caso da chave do exterior e tem um outro motivo que você passa a chave valor se ele bater os dois
+
+121
+00:10:51,100 --> 00:10:52,730
+ele retorna com sendo verdadeiro.
+
+122
+00:10:52,780 --> 00:11:00,180
+Então você está aqui uma emoção que não vai dar certo vou tentar mover o 4 só que eu vou chamar aqui
+
+123
+00:11:00,390 --> 00:11:06,700
+é que ele vai tentar remover a mancha pra você que o resultado é falso porque a Rebeca continua dentro
+
+124
+00:11:06,700 --> 00:11:10,150
+porque você passou longe falou que não a correspondente.
+
+125
+00:11:10,150 --> 00:11:14,820
+Você também pode remover a partir da chave e se acharmos existir ele morre.
+
+126
+00:11:14,970 --> 00:11:21,670
+Como você pode remover a partir da chave no rolo é sempre que você adicionar colocam novamente que já
+
+127
+00:11:21,670 --> 00:11:24,030
+existe nela a chave associada.
+
+128
+00:11:24,160 --> 00:11:30,250
+Ele substitui o valor para aquele novo valor que você passou então essa é uma estrutura chave valor
+
+129
+00:11:30,340 --> 00:11:35,580
+a uma futura que tem um pouco mais de funcionalidade com o que você tem como trabalhar só com os conchavos
+
+130
+00:11:35,590 --> 00:11:41,160
+só com os valores com os dois ao mesmo tempo é a chave o valor pode ser qualquer coisa pode ser um objeto
+
+131
+00:11:41,210 --> 00:11:48,970
+usuário produto pode ser um inteiro e um objeto você pode definir os tipos que você quiser para criar
+
+132
+00:11:49,660 --> 00:11:54,730
+esse futuro achar um valor muito interessante mas uma estrutura para que você possa usar no dia a dia
+
+133
+00:11:54,760 --> 00:12:00,010
+quando você precisar mapear um valor para o outro com certeza vai ser muito útil então fique por aqui
+
+134
+00:12:00,020 --> 00:12:00,760
+até aproximá la.

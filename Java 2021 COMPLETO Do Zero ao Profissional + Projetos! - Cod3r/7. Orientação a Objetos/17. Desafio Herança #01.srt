@@ -1,0 +1,179 @@
+1
+00:00:00,180 --> 00:00:07,140
+Pessoal o desafio que lançar para vocês é o seguinte certo eu quero que vocês criem dentro do pacote
+
+2
+00:00:07,150 --> 00:00:12,780
+herança assim como eu criei dentro do pacote composição na pasta um pacote de desafio.
+
+3
+00:00:12,840 --> 00:00:18,630
+Eu quero que vocês criem um pacote de desafio dentro de herança e vocês vão criar uma classe chamada
+
+4
+00:00:18,630 --> 00:00:21,190
+Carro uma classe genérica.
+
+5
+00:00:21,210 --> 00:00:26,400
+Vocês vão criar dois carros específicos pode ser Civic que pode ser Ferrari pode ser fosco pode ser
+
+6
+00:00:26,400 --> 00:00:34,350
+o carro que você quiser e esse carro específico se for por exemplo um Ferrari Ferrari e tens carro assim
+
+7
+00:00:34,380 --> 00:00:37,030
+como o Civic que tem discal também.
+
+8
+00:00:37,500 --> 00:00:44,520
+Então dentro da classe mais genérica o carro vai ter uma velocidade atual e você vai criar um método
+
+9
+00:00:44,640 --> 00:00:46,600
+acelerar o método frear.
+
+10
+00:00:46,680 --> 00:00:54,270
+Ou seja quando você acelerar o carro vai aumentar a velocidade e obviamente não acelerou por exemplo
+
+11
+00:00:54,270 --> 00:00:54,960
+na tomada.
+
+12
+00:00:54,960 --> 00:01:00,810
+Você vai aumentar a velocidade 5 em cinco ou de 10 em 10 de acordo com aquilo que você defina como ser
+
+13
+00:01:00,810 --> 00:01:07,620
+um comportamento normal então o acelerava acrescentando a velocidade seja do jeito que você quiser.
+
+14
+00:01:07,950 --> 00:01:12,690
+5 em 5 de 10 em 10 frear também vai diminuindo a velocidade do carro.
+
+15
+00:01:12,690 --> 00:01:18,510
+De acordo com aquilo que você definiu por exemplo vai ser de cinco em cinco de 10 ideias você diminui
+
+16
+00:01:18,810 --> 00:01:24,640
+uma determinada quantidade de tal forma que a velocidade do carro nunca possa ser menor do que zero.
+
+17
+00:01:24,660 --> 00:01:29,560
+Se você tentar frear o carro que está parada e não deve fazer absolutamente nada é tão importante ter
+
+18
+00:01:29,560 --> 00:01:30,490
+essa validação.
+
+19
+00:01:30,600 --> 00:01:35,430
+Depois eu vou entrar em detalhes e a gente pode pegar esse mesmo exemplo e aplicar mais alguns detalhes
+
+20
+00:01:35,430 --> 00:01:36,000
+em cima disso.
+
+21
+00:01:36,000 --> 00:01:41,980
+Mas por enquanto eu quero que você crie um atributo que gostaria atual e crie dois metros o medo de
+
+22
+00:01:41,980 --> 00:01:43,720
+acelerar e o Metro frear.
+
+23
+00:01:43,930 --> 00:01:47,480
+Nem o medo de acelerar nem o metro frear vai receber nenhum parâmetro.
+
+24
+00:01:47,520 --> 00:01:52,140
+Você vai apenas pegar a velocidade atual e acrescentar uma determinada quantidade.
+
+25
+00:01:52,340 --> 00:01:57,200
+Ele pode por exemplo padronizar que você vai acrescentar de cinco em cinco.
+
+26
+00:01:57,390 --> 00:02:01,280
+Então dentro o local que é o mais genérico vai ter o atributo que ela estará atual.
+
+27
+00:02:01,290 --> 00:02:07,360
+Esses dois métodos acelerar e frear e você vai acrescentar de cinco em cinco tanto para acelerar o eixo
+
+28
+00:02:07,450 --> 00:02:14,620
+acelerar cinco 11 por hora de novo acelerar 10 de novo ou acelerar três vezes 15 quilômetros por hora.
+
+29
+00:02:14,620 --> 00:02:22,530
+Frei olhe vai diminuindo de 5 em 5 10 freou de novo 5 freou a terceira vez 0 freou a quarta quinta sexta
+
+30
+00:02:22,530 --> 00:02:27,090
+vez que continua 0 o que você não vai navegar para velocidades negativas.
+
+31
+00:02:27,090 --> 00:02:32,820
+Você não pode permitir isso dentro do metro frear é um detalhe que eu quero que vocês façam o seguinte
+
+32
+00:02:32,910 --> 00:02:36,930
+na classe específica que eu quero que vocês criem a Ferrari.
+
+33
+00:02:37,290 --> 00:02:41,630
+A Ferrari ela não acelera como um carro normal ela acelera mais rápido.
+
+34
+00:02:41,930 --> 00:02:48,780
+Então eu quero que dentro da Ferrari vocês acelerem não de cinco em cinco por hora mas eu quero que
+
+35
+00:02:48,780 --> 00:02:51,900
+vocês acelerem de 15 15 quilômetros por hora.
+
+36
+00:02:51,900 --> 00:02:58,740
+Ou seja eu chamei um acelerador de um carro normal de um single que ele vai acelerar de cinco em cinco.
+
+37
+00:02:58,770 --> 00:03:04,140
+Se você chamar o acelerar de uma Ferrari vai acelerar três vezes mais rápido ou seja basta gerar de
+
+38
+00:03:04,140 --> 00:03:06,060
+15 em 15 quilômetros por hora.
+
+39
+00:03:06,130 --> 00:03:10,650
+E aí você vai ter que criar uma classe de teste e testá la aos carros que vai ter o metro no meio.
+
+40
+00:03:10,650 --> 00:03:14,490
+Vai criar classe Carro uma classe Civic e a classe Ferrari.
+
+41
+00:03:14,770 --> 00:03:19,800
+Ou seja tanto para a área de cálculo se quer aplicar e finalmente vai criar uma quarta classe que é
+
+42
+00:03:19,800 --> 00:03:21,330
+a classe que vai ter o metro no meio.
+
+43
+00:03:21,580 --> 00:03:25,530
+é lá essa classe que você vai distanciar um Ferrari mais social.
+
+44
+00:03:25,620 --> 00:03:30,360
+Olhar a freada e verificar se realmente a velocidade do carro está correta.
+
+45
+00:03:30,360 --> 00:03:35,160
+Então fui por aqui pensar na próxima aula vou dar a resposta desse desafio herança e até lá.

@@ -1,0 +1,831 @@
+1
+00:00:00,270 --> 00:00:03,780
+Agora nós vamos fazer um exemplo um pouco mais complexo mais novo.
+
+2
+00:00:03,840 --> 00:00:06,670
+Um exemplo muito difícil de ser implementado.
+
+3
+00:00:06,850 --> 00:00:12,870
+Só pra gente juntar algumas outras coisas interessantes com relação aos genéricos também e outros conceitos
+
+4
+00:00:12,870 --> 00:00:19,230
+importantes que a gente viu até então aqui no nosso curso com o conceito de cozinha de usar um sete
+
+5
+00:00:19,230 --> 00:00:20,760
+pra evitar duplicação.
+
+6
+00:00:20,760 --> 00:00:27,410
+Coisas do tipo vão achar pra vocês mas vamos criar uma estrutura parecida com um mapa de Messi Xavi
+
+7
+00:00:27,410 --> 00:00:28,290
+e Malu.
+
+8
+00:00:28,440 --> 00:00:34,650
+E pra isso nós vamos criar uma classe chamada par que vai representar especificamente uma chave e um
+
+9
+00:00:34,650 --> 00:00:36,410
+valor dentro.
+
+10
+00:00:36,450 --> 00:00:42,410
+E nós vamos a essa classe do tipo par pra outra classe que eu vou chamar de Paris certo.
+
+11
+00:00:42,420 --> 00:00:48,330
+Posso chamar de mero mapa mas vou chamar de bares aqui da base Paris e dentro de Paris onde vai ter
+
+12
+00:00:48,330 --> 00:00:55,890
+um set com vários elementos do tipo Eu Vou marchar pra vocês aqui então vou criar inicialmente aqui
+
+13
+00:00:55,890 --> 00:01:03,180
+uma classe em que eu vou chamar de parte essa classe vai ter algumas características importantes primeiro
+
+14
+00:01:03,570 --> 00:01:09,960
+que eu vou ter dois atributos um atributo Hibbert e eu vou chamar aqui diz.
+
+15
+00:01:09,990 --> 00:01:16,410
+Sei que vai apresentar um charme e para isso eu preciso definir o estilo dos genéricos tentou me colocar
+
+16
+00:01:16,410 --> 00:01:22,150
+aqui sede chave que de valor que vai ser uma classe que vai armazenar uma chave e um valor.
+
+17
+00:01:22,650 --> 00:01:28,710
+E vou criar aqui um outro atributo ver que eu vou chamar de valor.
+
+18
+00:01:29,150 --> 00:01:35,560
+Então vou ter que deixar o valor e finalmente colocar aqui os metros retas entre outras.
+
+19
+00:01:35,580 --> 00:01:42,510
+Não tem problema você criar medo do Gard sete de atributos com tipos genéricos.
+
+20
+00:01:42,840 --> 00:01:45,880
+Outra coisa que eu vou fazer vou criar um curso padrão.
+
+21
+00:01:45,980 --> 00:01:53,160
+Vou tirar esse comentário e vou criar também um curso eu estou usando até aquele atalho Command ALT
+
+22
+00:01:53,510 --> 00:02:01,940
+S e acho que no Windows e no Linux se vocês procuram é muito difícil não abrir com o botão direito.
+
+23
+00:02:02,140 --> 00:02:10,320
+Só assim Generation Construtora e using Fields Neusa nos cabelos selecionar os dois eu quero criar um
+
+24
+00:02:10,320 --> 00:02:14,220
+par chave valor passando tanto a chave como Vale.
+
+25
+00:02:14,220 --> 00:02:21,100
+Outra coisa importante é definir a identidade dessa classe A gente vai querer que essa classe.
+
+26
+00:02:21,210 --> 00:02:28,200
+Se eu comparar com outra se ela vai ser igual ou diferente eu vou usar como critério de igualdade apenas
+
+27
+00:02:28,290 --> 00:02:29,460
+a chave.
+
+28
+00:02:29,460 --> 00:02:36,390
+Se eu tiver a mesma chave de outro patrão vou dizer que eles são iguais e não vou digamos assim comparar.
+
+29
+00:02:36,420 --> 00:02:42,180
+Não vou usar o valor como critério de comparação Serra até porque eu quero dentro de um sete ou seja
+
+30
+00:02:42,180 --> 00:02:48,150
+dentro de um conjunto eu não quero que existam dois pares duplicados com o mesmo com a mesma chave.
+
+31
+00:02:48,150 --> 00:02:54,810
+Então a gente vai ter que ter esse cuidado e pra isso eu vou usar o Ecus e o roxo com os caras vou me
+
+32
+00:02:54,810 --> 00:02:59,000
+ajudar nessa composição do que é achar o paiol outro papel.
+
+33
+00:02:59,280 --> 00:03:04,690
+Então vou desmarcar o valor e vou usar apenas a chave com um sem o critério de igualdade.
+
+34
+00:03:04,740 --> 00:03:12,840
+Para isso ele criou pra mim aqui os valores e eu não vou me preocupar muito com a forma como se gere
+
+35
+00:03:12,840 --> 00:03:20,070
+ele gera aqui faz todos as os batimentos corretos a gente vai ter um escudo e os super preparado para
+
+36
+00:03:20,070 --> 00:03:22,100
+nossas necessidades.
+
+37
+00:03:22,110 --> 00:03:29,550
+Vou criar o que ele está gerando porque ele virou assim porque eu não tenho o título então faz o seguinte
+
+38
+00:03:30,160 --> 00:03:40,780
+vou simplesmente colocar pra ele dar um prazo ordem em cima de jogos colocar os pés One vai ser suficiente
+
+39
+00:03:40,780 --> 00:03:47,520
+para a gente não ter problema com relação aos tipos até poderia colocar outra forma de resolver isso
+
+40
+00:03:47,520 --> 00:03:52,530
+seria a gente colocar aqui algo que eu recebo.
+
+41
+00:03:52,700 --> 00:04:00,520
+Pode ser o tipo C um tipo diferente coloca aqui e posso colocar um título
+
+42
+00:04:03,430 --> 00:04:04,940
+e posso colocar aqui também.
+
+43
+00:04:05,620 --> 00:04:07,830
+Ou eu simplesmente posso colocar aqui.
+
+44
+00:04:07,930 --> 00:04:15,360
+Aceito qualquer tipo aqui qualquer tipo ou aqui qualquer tipo aqui é qualquer tipo aqui vou usar isso
+
+45
+00:04:15,360 --> 00:04:21,720
+pra comparar isso que já é o suficiente para resolver problemas de o One dentro da Eclipse clicando
+
+46
+00:04:21,720 --> 00:04:29,790
+agora vou criar uma nova classe em nome da classe C pares no plural e essa classe para eles vai ter
+
+47
+00:04:31,260 --> 00:04:40,980
+um atributo fácil até final e eu vou chamar esse atributo vai ser um set do tipo par e obviamente se
+
+48
+00:04:40,980 --> 00:04:50,250
+eu preciso criar um sétimo tipo eu vou colocar aqui por exemplo itens recebe mil eu vou criar aqui um
+
+49
+00:04:50,260 --> 00:04:55,630
+3.7 porque eu quero que seja usada a ordem de sessão tal.
+
+50
+00:04:55,680 --> 00:05:05,230
+Feito isso o que importa aqui tanto o último aqui até um software site que é uma interface mais específica
+
+51
+00:05:06,050 --> 00:05:15,160
+que é obviamente o iPad é uma classe que precisa ser definido dois tipos genéricos sem ver duas possibilidades
+
+52
+00:05:15,250 --> 00:05:24,740
+uma possibilidade e eu especificamente aqui amarrar o tipo Vai ser uma string e vai ser um tipo bolha.
+
+53
+00:05:24,880 --> 00:05:32,340
+Aí você acabou de dizer que você tem uma classe e parece que só vai aceitar um padrão tipo histria do
+
+54
+00:05:32,340 --> 00:05:34,670
+tipo bolha o que não é tão interessante.
+
+55
+00:05:35,110 --> 00:05:46,530
+O que você pode fazer também é criar aqui X e Y ou um CD qualquer coisa é você usar esse x e y x y.
+
+56
+00:05:46,750 --> 00:05:51,730
+E aí agora a gente tem os itens genéricos o que vai definir quais são os tipos no momento que você foi
+
+57
+00:05:51,730 --> 00:05:54,610
+instancia uma classe do tipo Paris.
+
+58
+00:05:54,610 --> 00:06:01,540
+Aqui eu vou preferia usar C e D para a gente ter Xavi igual ou da mesma forma que a gente definiu no
+
+59
+00:06:01,540 --> 00:06:09,070
+outro exercício Xavi igualou com uma exceção só para a gente ter um pouco mais de invocar um pouco mais
+
+60
+00:06:09,070 --> 00:06:17,850
+interessante eu vou restringir o tipo sei existentes na obra que vou querer que ameaça a minha chave
+
+61
+00:06:17,920 --> 00:06:23,500
+obrigatoriamente seja no tipo Nama é o meu valor ou pode ser qualquer ativo certo então é uma das possibilidades
+
+62
+00:06:23,500 --> 00:06:28,180
+que a gente já viu no capítulo que também pode ser usado aqui pra deixar bem simples eu vou fazer o
+
+63
+00:06:28,180 --> 00:06:36,690
+seguinte ou criar Metro públicos de adicionar eu vou receber dois parâmetros o primeiro vai ser a chave
+
+64
+00:06:36,820 --> 00:06:40,890
+do tipo e o segundo vai ser um valor do tipo V.
+
+65
+00:06:40,930 --> 00:06:55,060
+E aqui eu posso pegar itens ponto adicionar vou criar um novo o aqui e eu vou passar a chave e o valor
+
+66
+00:06:55,720 --> 00:07:01,670
+preciso resolver o chip genético ele não fica reclamando aquele tipo é C.
+
+67
+00:07:02,750 --> 00:07:07,560
+Então com isso ele pare de reclamar a gente consegue inserir o novo iPad dentro da lista de itens que
+
+68
+00:07:07,570 --> 00:07:11,710
+eu vou fazer algumas validações e a primeira validação vai ser a seguinte é uma coisa que eu acho que
+
+69
+00:07:11,710 --> 00:07:16,840
+eu não fiz até então não vou deixar dessa forma até pra baixar pra você uma outra referência.
+
+70
+00:07:16,990 --> 00:07:23,950
+O primeiro de lançar aqui um micro desafio se você quiser garantir que a chave é passada como parâmetro
+
+71
+00:07:23,950 --> 00:07:31,840
+não é nula antes de incluir o par dentro da lista daqui do meu conjunto de itens o que você faria.
+
+72
+00:07:31,900 --> 00:07:35,120
+Provavelmente você vai fazer isso sim.
+
+73
+00:07:35,500 --> 00:07:41,380
+A chave para a chave foi diferente de nulo.
+
+74
+00:07:41,440 --> 00:07:46,950
+Aí você colocaria esse trecho agora porque dentro de tal forma que apenas com a chave foi diferente
+
+75
+00:07:46,950 --> 00:07:50,530
+de Lula que ele vai entrar aqui para incluir uma possibilidade válida.
+
+76
+00:07:50,530 --> 00:07:56,920
+Talvez seja a possibilidade mais clara e fácil de ser feito isso mas uma outra possibilidade é que você
+
+77
+00:07:56,920 --> 00:08:09,070
+pode fazer o seguinte se a chave for nula ou seja foi igual igual na chave que eu fui e essa é a primeira
+
+78
+00:08:09,070 --> 00:08:15,360
+vez no nosso curso que eu chamo me dentro de um método que retorna volte.
+
+79
+00:08:15,460 --> 00:08:21,730
+Preste atenção ou estou chamando o associado com um inteiro não estou chamando Mauritânia associado
+
+80
+00:08:21,730 --> 00:08:28,080
+com um valor do tipo W ou então associado com uma variável que eu criei Eu simplesmente chamei o.
+
+81
+00:08:28,420 --> 00:08:30,930
+O que é que esse corpo vai fazer ele vai sair do método.
+
+82
+00:08:31,030 --> 00:08:35,510
+Ou seja se eu estou tentando adicionar uma chave valor e a chave está nula.
+
+83
+00:08:35,930 --> 00:08:42,850
+Eu simplesmente saí do Metro não faço nada ou posso até lançá lo essa ação é uma possibilidade mas por
+
+84
+00:08:42,850 --> 00:08:46,930
+enquanto eu não quero me lançar nessa ação cara simplesmente retornar do método.
+
+85
+00:08:46,940 --> 00:08:53,890
+E aí eu não preciso me preocupar que aqui embaixo necessariamente a chave estará acertada porque no
+
+86
+00:08:53,890 --> 00:08:56,660
+momento que a chave for nula ele já saiu do metro.
+
+87
+00:08:56,680 --> 00:09:02,560
+Nesse ponto ou seja nenhuma outra linha será executada essa também é uma possibilidade que você pode
+
+88
+00:09:02,560 --> 00:09:03,460
+fazer.
+
+89
+00:09:03,460 --> 00:09:10,780
+Outra coisa interessante é se já existir em um parque tem uma determinada chave não vou criar vou fazer
+
+90
+00:09:10,780 --> 00:09:24,760
+o seguinte eu vou criar esse iPad que vou criar aqui para você vai colocar aqui pra recebe esse valor
+
+91
+00:09:25,440 --> 00:09:37,660
+e aí eu posso verificar o seguinte se itens aqui itens ponto tens o novo iPad que eu vou fazer e eu
+
+92
+00:09:37,660 --> 00:09:41,350
+vou excluir o iPad estão itens.
+
+93
+00:09:41,420 --> 00:09:43,680
+Ponto.
+
+94
+00:09:43,950 --> 00:09:47,640
+Passado o novo iPad tanto faz.
+
+95
+00:09:47,770 --> 00:09:50,740
+Ele vai remover o item que está contido dentro do set.
+
+96
+00:09:50,740 --> 00:09:51,420
+Por quê.
+
+97
+00:09:51,720 --> 00:09:53,850
+Porque o que ele está olhando aqui não acontece.
+
+98
+00:09:53,890 --> 00:09:58,650
+Ele vai usar o wi fi e o radical onde ele está usando como critério apenas a chave.
+
+99
+00:09:58,660 --> 00:10:05,960
+Por quê que eu vou querer verificar se tem de mover porque eventualmente o valor passado pode ser diferente.
+
+100
+00:10:05,990 --> 00:10:13,070
+Eu quero que ele atualize o passado então nesse caso eu verifico contém se contém remove e no final
+
+101
+00:10:13,070 --> 00:10:19,410
+adiciona se não tiver contido ele não vai remover nada e vai adicionar o novo par que eu defendi aqui
+
+102
+00:10:19,420 --> 00:10:24,850
+então o coloca em vez disso não se aquilo que simplesmente pagar o valor que já está sei lá em cima.
+
+103
+00:10:24,890 --> 00:10:30,860
+Então passou um valor nulo ele simplesmente não faz nada passou o valor válido mesmo que o valor esteja
+
+104
+00:10:30,860 --> 00:10:37,310
+nulo não tem problema ele cria um novo paxá de valor verifique se está contido removem para substitui
+
+105
+00:10:37,730 --> 00:10:43,520
+o valor e no final ele adiciona novo e o outro Metro que a gente pode criar só para a gente testar é
+
+106
+00:10:43,790 --> 00:10:50,240
+o seguinte nesse caso muda pra outro Metro pois a gente testa criar um metro públicos que vai retornar
+
+107
+00:10:50,260 --> 00:10:57,350
+um veículo se de valor e eu vou chamar o Metro de grande valor e vou passar como parâmetro pra pagar
+
+108
+00:10:57,350 --> 00:11:04,660
+o valor chave então chave que tem um tipo genérico sei que a gente pode usar por exemplo isto é pra
+
+109
+00:11:04,660 --> 00:11:11,810
+pagar esses dados então eu vou colocar aqui algo estranho e tens ponto estranho.
+
+110
+00:11:11,840 --> 00:11:17,940
+Vou fazer aqui pra pagar aqui filter para filtrar.
+
+111
+00:11:17,960 --> 00:11:23,960
+Vou colocar o ponto pra baixo fica melhor então filtrar o meu predicado vai ser o seguinte eu recebo
+
+112
+00:11:24,140 --> 00:11:25,410
+um par chave valor.
+
+113
+00:11:25,970 --> 00:11:30,310
+Então eu já vou passar aqui a chave receber a chave como parâmetro.
+
+114
+00:11:30,500 --> 00:11:36,800
+Se o usuário passou uma chave nula como parâmetro por este valor eu fazia a mesma técnica que eu fiz
+
+115
+00:11:36,800 --> 00:11:37,740
+aqui em cima.
+
+116
+00:11:38,040 --> 00:11:42,200
+Se ele passou uma chave nula eu vou simplesmente retornar.
+
+117
+00:11:42,200 --> 00:11:48,290
+Só que agora precisa tornar um valor esse caso retornado por ter esse espaço uma chave nula significa
+
+118
+00:11:48,290 --> 00:11:51,240
+que não tem nenhum valor associado à chave.
+
+119
+00:11:51,440 --> 00:11:59,210
+Caso contrário a chave está sentado então vou fazer o seguinte a chave ponto é falso e aí vou pegar
+
+120
+00:11:59,330 --> 00:12:03,940
+o pé para colocar um pack inteiro pelo nome quem não tem problema.
+
+121
+00:12:03,940 --> 00:12:11,540
+Então até que ponto chave em outras palavras o que é que esse predicado está fazendo se é a chave que
+
+122
+00:12:11,630 --> 00:12:18,110
+você passou foi qual a chave de um dos pares ele vai filtrar apenas os pares que tem a mesma chave que
+
+123
+00:12:18,110 --> 00:12:19,210
+você passou.
+
+124
+00:12:19,340 --> 00:12:22,790
+Nesse caso a gente sabe que só tem algum elemento possível.
+
+125
+00:12:22,800 --> 00:12:28,290
+Então eu vou pegar aqui ao ponto mais frágil.
+
+126
+00:12:28,610 --> 00:12:32,230
+Então nesse caso o que é que a gente tem como resposta no Firefox.
+
+127
+00:12:32,420 --> 00:12:42,420
+Oque chamam de pá então em vez de retornar o seguinte ao jornal especificamente tem um monte de obras
+
+128
+00:12:42,450 --> 00:12:52,660
+na máquina sei que Java útil opcional nesse caso o tipo vai ser o par de C e V o coloca aqui
+
+129
+00:12:55,250 --> 00:13:03,510
+opcional corta aqui um par opcional recebe isso aqui.
+
+130
+00:13:03,530 --> 00:13:09,160
+Ponto e viu aqui eu peguei um valor que pode ou não ter um valor opcional.
+
+131
+00:13:09,190 --> 00:13:17,070
+E aí eu vou fazer aquele trecho se parte com outro opcional esse presente aí eu vou retornar um valor.
+
+132
+00:13:17,070 --> 00:13:21,630
+Posso até fazer um retorno ternário estão fazendo o seguinte.
+
+133
+00:13:22,500 --> 00:13:31,350
+Se para um ponto opcional estiver presente eu vou retornar vou chamar papo opcional de Paul DET.
+
+134
+00:13:31,510 --> 00:13:36,340
+Ele vai retornar o passo que agora não quero pagar um valor pelo valor.
+
+135
+00:13:36,340 --> 00:13:44,080
+Caso contrário ele vai retornar Lulu porque não foi obtido nenhum valor nessa expressão aqui de mim
+
+136
+00:13:44,080 --> 00:13:50,550
+um valor associado a essa chave existe dentro do meu da minha estrutura.
+
+137
+00:13:50,550 --> 00:13:57,220
+Certo Então a gente faz aqui um código não tão complexo mas também não tão simples de agora nas mãos
+
+138
+00:13:57,220 --> 00:14:02,590
+criar uma classe pra testar essa nossa estrutura pra saber se ela tá ou não funcionando corretamente.
+
+139
+00:14:03,040 --> 00:14:11,180
+Então pra criar aqui uma nova classe nós vamos criar uma classe chamada para esse teste.
+
+140
+00:14:12,580 --> 00:14:21,130
+Vou criar aqui um método e nós vamos criar aqui aos pares e aí vou passar por exemplo o caso simples
+
+141
+00:14:21,230 --> 00:14:35,680
+e inteligente que string vou chamar aqui de resultado com curso e mil pares que não preciso passar do
+
+142
+00:14:35,680 --> 00:14:37,920
+outro lado simplesmente posso fazer assim.
+
+143
+00:14:38,530 --> 00:14:45,820
+Então para um estado com custo vai ser um valor e o estreante vai ser a posição do candidato e o nome
+
+144
+00:14:45,820 --> 00:14:46,570
+do candidato.
+
+145
+00:14:47,140 --> 00:14:49,030
+Então eu vou ter um metro adicional.
+
+146
+00:14:49,030 --> 00:14:56,620
+Resultado o concurso ponto adicional ou seja nesse ponto já tem os tipos corretos que eu defendi a partir
+
+147
+00:14:56,620 --> 00:15:04,710
+dos meus genéricos então vou passar exatamente uma chave e o valor vai ser a Maria Maria foi a primeira
+
+148
+00:15:05,020 --> 00:15:06,610
+ao primeiro lugar no concurso.
+
+149
+00:15:06,610 --> 00:15:14,320
+Vou passar aqui mais outros candidatos né o candidato 2 3 4 eu vou passar o outro candidato 2 para testar
+
+150
+00:15:14,800 --> 00:15:24,220
+se ele vai substituir o candidato 2 vou ter que ensino então vou parar aqui o 2 vai ser o Pedro o 3
+
+151
+00:15:24,220 --> 00:15:26,540
+vai ser de 4.
+
+152
+00:15:26,540 --> 00:15:32,560
+Vai ser a Ana e na verdade o candidato 2 vai ser a Rebeca.
+
+153
+00:15:33,280 --> 00:15:39,890
+Se eu agora fizer system on line resultado do concurso.
+
+154
+00:15:39,940 --> 00:15:45,850
+Outro médico falou e eu vou passar a chave e esperar o resultado Maria.
+
+155
+00:15:46,090 --> 00:15:55,870
+Então essa é que ele deu um problema dizendo No geral que deu classe e que sabichão dizendo que a classe
+
+156
+00:15:55,870 --> 00:16:05,440
+genéricos conta para nós criamos não pode ser feito creche pra essa interface chamada comprar bolo que
+
+157
+00:16:05,440 --> 00:16:12,190
+é pra comparar dois pares então que eu vou fazer o pai aqui o pai provavelmente está acontecendo por
+
+158
+00:16:12,190 --> 00:16:22,510
+conta do tri do tem 7 eu vou até colocar o seguinte só fazer um teste pra saber se isso realmente se
+
+159
+00:16:22,510 --> 00:16:30,250
+confirma que é o fato de eu tirar trocar o software pelo 7 e aquilo tem 7 eu vou chamar o resto 7 aí
+
+160
+00:16:30,270 --> 00:16:36,760
+eu acho que resolve se a gente precisar se preocupar com essa questão do contrabando então trouxe aqui
+
+161
+00:16:36,880 --> 00:16:45,640
+mais 7 já está funcionando está mais uma vez pra ver se funciona executado trouxe a Maria deixa eu colocar
+
+162
+00:16:45,640 --> 00:16:47,650
+aqui por exemplo.
+
+163
+00:16:47,650 --> 00:16:52,900
+Na verdade pensar nisso é ordenado né porque eu vou acabar muito provavelmente pagando charme igualou
+
+164
+00:16:53,240 --> 00:16:59,280
+tal mas se quiser manter a ordem vai ter que colocar lá o software de site não necessariamente só de
+
+165
+00:16:59,290 --> 00:17:05,230
+site mas o site precisa estar implementada e eu preciso implementar o Campelo Bom posso até fazer mais
+
+166
+00:17:05,230 --> 00:17:09,820
+um exercício só pra fazer essa mudança mas eu vou deixar isso pra próxima alcaide fica melhor fica mais
+
+167
+00:17:09,820 --> 00:17:20,190
+organizado então Pagano que o elemento de indicio 4 que é esperado que seja a Ana no caso que ao 4 ano
+
+168
+00:17:20,290 --> 00:17:27,940
+e finalmente o que eu digo C2 22 vai adicionar o Pedro Só que depois adicione a Rebeca num segundo momento
+
+169
+00:17:27,960 --> 00:17:33,400
+então o resultado final para ser Rebeca exatamente deu certo o nosso 1 metro deste bailout tá pegando
+
+170
+00:17:33,400 --> 00:17:40,510
+ele não tá aceitando duplicação sem se adicionar outra outros valores ele vai acabar sim pegando o último
+
+171
+00:17:40,520 --> 00:17:46,090
+porque ele vai substituir e isso se dá o fato de que nós estamos usando dentro do nosso nossa classe
+
+172
+00:17:46,100 --> 00:17:53,950
+pares um tipo 7 o 7 não aceita repetição e o fato de ele não aceitar a repetição está diretamente ligado
+
+173
+00:17:53,950 --> 00:18:01,880
+com o e com os erros com ele com a gente o Icasa vai se basear apenas na chave e o critério de igualdade
+
+174
+00:18:01,880 --> 00:18:06,310
+é a chave e não vai permitir ter dois pares com o mesmo valor.
+
+175
+00:18:06,430 --> 00:18:12,690
+Se eu não fizesse a remoção aqui o que vai acontecer é que ele vai ignorar na hora que eu tentar adicionar
+
+176
+00:18:12,740 --> 00:18:14,890
+um o parque já tem outro contido.
+
+177
+00:18:14,890 --> 00:18:20,070
+No final das contas ele vai pegar o primeiro que você adicionou que no caso tivesse o Pedro executando
+
+178
+00:18:20,080 --> 00:18:25,700
+restaurar o Pedro porque você adicionou o Pedro conexão a Rebeca ele vai simplesmente ignorar.
+
+179
+00:18:25,720 --> 00:18:31,490
+é um comportamento no set ignorar na hora de você tentar adicionar alguém do sexo que já existe.
+
+180
+00:18:31,480 --> 00:18:37,020
+Ele simplesmente ignora e não adiciona mais como eu quero que o comportamento seja mais ou menos como
+
+181
+00:18:37,030 --> 00:18:41,850
+do método de substituir o valor associado a uma chave.
+
+182
+00:18:42,190 --> 00:18:50,470
+Então para isso a gente fez essa funcionalidade aqui de remover esse contencioso contido remove PRA
+
+183
+00:18:50,470 --> 00:18:54,710
+DEPOIS ELE adicionar no final se não tiver continua ele simplesmente não vai fazer nada.
+
+184
+00:18:55,010 --> 00:19:01,660
+E ainda assim adiciona no final o novo PAC foi passada a chave e eventualmente um novo valor que você
+
+185
+00:19:01,660 --> 00:19:06,690
+está substituindo ele acrescentou substitui e isso é feito a partir do menu tradicional.
+
+186
+00:19:06,820 --> 00:19:12,910
+Então nesse caso a gente fez usando o 7 não tem nada a ver com genéricos isso eu vou só mostrar só pra
+
+187
+00:19:12,910 --> 00:19:19,570
+efeito de curiosidade para a gente entender como é que a gente pode definir um critério de digamos assim
+
+188
+00:19:19,570 --> 00:19:23,230
+de ordenação de barra de DNA por exemplo pelo valor inteiro.
+
+189
+00:19:23,230 --> 00:19:30,210
+Não vai ser um critério na verdade se a gente quiser o critério de inserção a gente pode usar não 3.7
+
+190
+00:19:30,220 --> 00:19:43,300
+mas o link Rash Map eu acho que é o link aí está faltando ainda que Link Link 7 estão aí exatamente
+
+191
+00:19:43,300 --> 00:19:50,800
+o link de Rage 7 ele vai garantir a ordem de inclusão então por padrão ele quer exatamente isso que
+
+192
+00:19:50,970 --> 00:19:56,270
+eu estava querendo começar a garantir a ordem de inclusão o primeiro incluído vai ficar Signal.
+
+193
+00:19:56,350 --> 00:20:02,560
+Esse aqui também não é um problema organizar que os importe então esse é um tipo de sete que ele garante
+
+194
+00:20:02,580 --> 00:20:09,460
+ordenação pela ordem de inclusão e já outro sete ele precisa ter um cutelo bom o que a partir do Compete
+
+195
+00:20:09,630 --> 00:20:13,810
+que ele vai definir como os dados serão ordenados dentro do set.
+
+196
+00:20:14,410 --> 00:20:22,020
+Então aqui vai continuar funcionando corretamente e trouxe Mariane e Rebeca independente c o resto é
+
+197
+00:20:22,110 --> 00:20:26,800
+set é um padrão ou um link de Rage Set que garante a ordem de exceção.
+
+198
+00:20:26,830 --> 00:20:31,600
+Aqui já é um tema muito mais voltado para coleções e sites do que propriamente com o tema do capítulo
+
+199
+00:20:31,600 --> 00:20:36,520
+de Genet mas só pra não passar em branco já que a gente também não falou isso em outro momento que é
+
+200
+00:20:36,670 --> 00:20:37,270
+o bom.
+
+201
+00:20:37,690 --> 00:20:43,500
+Eu vou mudar a implementação e vou colocar um item 7 e aí a vai precisar implementá lo com apelo bom
+
+202
+00:20:43,510 --> 00:20:49,330
+dentro do painel é uma forma interessante de introduzir esse tema já que o problema foi gerado durante
+
+203
+00:20:49,330 --> 00:20:55,750
+a aula que não estava previsto inicialmente até porque quando eu coloquei o Trey 7 eu estava pensando
+
+204
+00:20:55,750 --> 00:21:01,360
+no link de Rage site que é o conjunto que garante a ordem de inclusão mas na verdade o E7 ele é mais
+
+205
+00:21:01,360 --> 00:21:06,460
+flexível nesse ponto você precisa definir um critério de comparação para poder usar ele é exatamente
+
+206
+00:21:06,460 --> 00:21:12,430
+por esse motivo deu problema mas a gente conseguiu fazer a nossa estrutura usando genéricos passando
+
+207
+00:21:12,430 --> 00:21:17,740
+aqui chave valor define o genérico não for um pouco mais complicado do que a gente tinha feito anteriormente
+
+208
+00:21:17,740 --> 00:21:22,270
+no capítulo na próxima aula dou só essa dica do Comperj e eles estarão lá.

@@ -1,0 +1,231 @@
+1
+00:00:00,220 --> 00:00:08,220
+Mas vamos agora começar a implementar a inserção do produto e fazer o processo completo seis vezes a
+
+2
+00:00:08,220 --> 00:00:17,040
+criação do nosso serviço observe se a partir da notação para a gente mapear por exemplo DTM PIM no caso
+
+3
+00:00:17,040 --> 00:00:22,230
+aqui especificamente vai ser para inserir então vou ter um Push mapping para inserir os dados no banco
+
+4
+00:00:22,230 --> 00:00:22,770
+de dados.
+
+5
+00:00:22,770 --> 00:00:27,140
+Ele também vai interagir de forma completa até realmente persistir os dados.
+
+6
+00:00:27,150 --> 00:00:28,580
+Eu falei pra vocês né.
+
+7
+00:00:28,590 --> 00:00:34,950
+Dentro do nosso móvel além de ter as entidades a gente também tem vai ter outras coisas como por exemplo
+
+8
+00:00:35,040 --> 00:00:38,870
+aqui as classes relacionadas acesso a dados né por exemplo.
+
+9
+00:00:38,970 --> 00:00:43,620
+Existe um padrão chamado Dell Data Access Object.
+
+10
+00:00:43,620 --> 00:00:49,680
+Existe um outro padrão que também tem como objetivo administrar o acesso a dados que é o padrão repositório
+
+11
+00:00:50,160 --> 00:00:56,300
+inclusive aqui na minha estante que tem um livro ali que é o do meio Drive By Design.
+
+12
+00:00:56,330 --> 00:01:02,310
+O que esse livro introduz esse padrão repositório depois após gravar um vídeo falando um pouquinho sobre
+
+13
+00:01:02,430 --> 00:01:05,700
+esse livro eu vou Provo e colocar no canal Lacombe.
+
+14
+00:01:05,820 --> 00:01:12,180
+E tem muitas coisas interessantes muitas sacadas legais nesse livro certo mas basicamente a gente tem
+
+15
+00:01:12,180 --> 00:01:16,230
+o controle como sendo as classes que vão controlar o fluxo.
+
+16
+00:01:16,470 --> 00:01:23,060
+O controle não tem o papel de validar dados a não ser que seja de forma automática a gente vai ver isso.
+
+17
+00:01:23,160 --> 00:01:31,080
+O controle não tem o papel de executar regras da sua aplicação as regras de negócio.
+
+18
+00:01:31,080 --> 00:01:33,000
+Você não vai colocar no controle.
+
+19
+00:01:33,180 --> 00:01:39,680
+E a gente vai colocar todas essas questões validações regras de negócio tudo isso dentro do modelo.
+
+20
+00:01:40,050 --> 00:01:44,160
+Então o módulo vai ser composto e também a parte de acesso a dados.
+
+21
+00:01:44,160 --> 00:01:49,320
+Então móvel além de ter as entidades que são as classes que você vai mapear para o banco de dados.
+
+22
+00:01:49,680 --> 00:01:56,130
+Ou seja que são as classes que você vai colocar um robô aí você vai colocar o baile de general e o velho
+
+23
+00:01:56,130 --> 00:01:58,680
+vai fazer os mapeamentos e tal os seus dados.
+
+24
+00:01:58,680 --> 00:02:05,130
+Você também vai ter acesso a dados no caso o cliente vai usar o repositório e você também habitualmente
+
+25
+00:02:05,130 --> 00:02:14,160
+vai ter classes conhecidas como Services ou Application SAP que são classes que vão sim ser responsáveis
+
+26
+00:02:14,160 --> 00:02:17,610
+por validar por aplicar as regras da sua aplicação.
+
+27
+00:02:17,610 --> 00:02:24,480
+Então nesse modelo que o Java adota certas entidades elas são e damos assim mais magrinhas elas não
+
+28
+00:02:24,480 --> 00:02:30,660
+têm tantas regras de negócio dentro dela você até eventualmente pode colocar certo e alguns autores
+
+29
+00:02:30,660 --> 00:02:36,720
+defendem você colocar as regras de negócio dentro das suas entidades mas via de regra não é um padrão
+
+30
+00:02:36,720 --> 00:02:42,660
+tão usado dentro do jogo depende muito da cultura da linguagem depende do tipo de filme que você vai
+
+31
+00:02:42,660 --> 00:02:43,380
+usar.
+
+32
+00:02:43,470 --> 00:02:47,900
+Aqui a gente vai usar um modelo mais alinhado digamos assim com o mercado né.
+
+33
+00:02:48,240 --> 00:02:51,370
+Então aqui dentro de módulos eu vou fazer o seguinte.
+
+34
+00:02:52,530 --> 00:02:54,700
+Nós temos os nossos controles.
+
+35
+00:02:55,820 --> 00:03:02,580
+Provavelmente talvez fosse até mais interessante ele chamar de moda e os chamar de móvel no singular
+
+36
+00:03:02,580 --> 00:03:06,900
+já que é o meu modelo imagina na minha aplicação como todo certo.
+
+37
+00:03:06,960 --> 00:03:15,880
+Então aqui eu posso clicar com o botão direito ou tem o efeito que é o homem de Altos.
+
+38
+00:03:15,940 --> 00:03:22,460
+é certo que ele vai mudar para o modo singular e controle.
+
+39
+00:03:22,460 --> 00:03:24,350
+Essa gente tem muito está na verdade.
+
+40
+00:03:24,370 --> 00:03:31,200
+Então posso deixar no plural mesmo e eu vou mudar a classe cliente para um outro pacote que eu vou chamar
+
+41
+00:03:31,200 --> 00:03:38,070
+de entidade está Winter X e aí sim a gente vai ter várias entidades então eu tenho um modelo aqui eu
+
+42
+00:03:38,070 --> 00:03:40,170
+vou criar um outro pacote.
+
+43
+00:03:40,650 --> 00:03:47,130
+Só um fatoração poderia colocar tudo no pacote só maiores fica mais interessante a gente ter essas divisões
+
+44
+00:03:47,130 --> 00:03:55,280
+estão as máquinas antes de dar início eu vou colocar a classe cliente para dentro de entidades.
+
+45
+00:03:56,100 --> 00:04:02,850
+E nós vamos criar uma outra entidade que vou chamar de produto da primeira classe.
+
+46
+00:04:02,850 --> 00:04:07,270
+Nós vamos criar nesse exercício essa classe de produto e essa classe.
+
+47
+00:04:07,280 --> 00:04:13,610
+Sim a gente vai mapear o JP para iniciar o nosso produto e ser o mais simples possível.
+
+48
+00:04:13,610 --> 00:04:18,900
+Certo Nós vamos iniciar um produto com um atributo inteiro.
+
+49
+00:04:18,930 --> 00:04:27,060
+Aí nós vamos apenas colocar mais um outro atributo que vai ser um atributo do tipo string.
+
+50
+00:04:27,560 --> 00:04:34,050
+E aqui eu vou fazer o seguinte eu vou para aula nesse ponto e eu vou lançar como um desafio pra vocês
+
+51
+00:04:34,090 --> 00:04:36,840
+um desafio de recapitulação.
+
+52
+00:04:37,020 --> 00:04:40,260
+Você me apoiaria essa classe para o banco de dados.
+
+53
+00:04:40,260 --> 00:04:48,210
+Que tipo de anotações do JP você usaria pra tornar essa classe mapeada para uma tabela chamada produto.
+
+54
+00:04:48,300 --> 00:04:53,900
+Eu não coloquei nenhuma especificação além do necessário vou usar os padrões o máximo possível.
+
+55
+00:04:53,910 --> 00:05:00,660
+JP ou simplesmente anotar com o mínimo necessário para que a classe de mapeada para o fiquei como um
+
+56
+00:05:00,660 --> 00:05:07,170
+desafio rápido para vocês fazerem na próxima aula gente continua a gente fez aquilo e faturação criamos
+
+57
+00:05:07,320 --> 00:05:12,380
+a parte inicial na próxima aula eu vou lá lapidar e a gente vai fazer até o final pra realmente encher
+
+58
+00:05:12,450 --> 00:05:13,080
+o produto.

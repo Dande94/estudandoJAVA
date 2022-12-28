@@ -1,0 +1,295 @@
+1
+00:00:00,630 --> 00:00:03,850
+Pessoal nós vamos começar agora esse primeiro exercício.
+
+2
+00:00:03,850 --> 00:00:10,500
+Nós vamos apenas criar os projetos e nós vamos permitir que no começo a gente sempre respondeu não para
+
+3
+00:00:10,500 --> 00:00:17,040
+todos os projetos que a gente criou até agora mas a gente vai criar um módulo a partir desse projeto
+
+4
+00:00:17,040 --> 00:00:22,710
+novo que a gente vai criar certo então eu vou criar aqui um novo projeto Java Project.
+
+5
+00:00:23,220 --> 00:00:28,290
+O nome do projeto que eu vou criar vai ser f traço cálculo.
+
+6
+00:00:28,740 --> 00:00:32,910
+Vai ser um projeto bem simples eu vou colocar só uma função para a gente usar essa função a partir de
+
+7
+00:00:32,910 --> 00:00:37,570
+outro projeto certo e vou criar um outro projeto também.
+
+8
+00:00:37,640 --> 00:00:42,230
+Aqui sim vou colocar um módulo vai ser app pontuou.
+
+9
+00:00:42,410 --> 00:00:47,340
+Cálculo é o nome que você pode colocar o nome que você quiser eu vou colocar aqui seria um nome na minha
+
+10
+00:00:47,340 --> 00:00:49,370
+aplicação que eu vou chamar só diet.
+
+11
+00:00:49,570 --> 00:00:53,120
+Ponto o cálculo seria esse modelo que está associado a esse projeto.
+
+12
+00:00:53,610 --> 00:00:55,490
+Então vou colocar aqui ok.
+
+13
+00:00:55,530 --> 00:00:59,390
+Ele vai criar esse arquivo módulo traço INFO contra o Java.
+
+14
+00:00:59,400 --> 00:01:04,650
+Conforme falei anteriormente esse arquivo fica dentro diretamente dentro do receita.
+
+15
+00:01:05,160 --> 00:01:09,040
+Vou criar aqui um outro projeto é o Java Project.
+
+16
+00:01:09,570 --> 00:01:18,120
+Esse projeto esse app traço financeiro não vou fazer nada específico a regras de finanças de uma empresa
+
+17
+00:01:18,240 --> 00:01:24,630
+mas eu vou criar uma dependência entre o meu projeto e traço financeiro que seria supostamente um módulo
+
+18
+00:01:24,630 --> 00:01:31,560
+financeiro da sua aplicação com um módulo de cálculo por exemplo onde a tendência é então finalizar
+
+19
+00:01:31,590 --> 00:01:36,450
+e perguntar se eu quero criar um módulo e um módulo pouco traço livre do Java você sempre pode criar
+
+20
+00:01:36,450 --> 00:01:37,830
+isso depois.
+
+21
+00:01:37,830 --> 00:01:40,880
+Então eu posso não criar por exemplo certo.
+
+22
+00:01:41,050 --> 00:01:46,540
+E é aqui dentro do financeiro que eu venho e crio não a nova classe.
+
+23
+00:01:46,560 --> 00:01:50,190
+Apesar de ser ponto Java não é uma classe vou criar como um arquivo.
+
+24
+00:01:50,730 --> 00:02:00,610
+Então eu vou colocar aqui ao móbile um traço e um ponto Java e uma vez criando se você der um contra
+
+25
+00:02:00,620 --> 00:02:07,050
+o espaço ele vai perguntar se você quer criar um novo módulo e você pode colocar e dizer o nome do módulo
+
+26
+00:02:07,050 --> 00:02:10,470
+que eu vou colocar aqui e ponto financeiro.
+
+27
+00:02:11,010 --> 00:02:18,060
+Então do mesmo jeito que eu tenho um módulo aqui propondo o cálculo tem um módulo INFO aqui e ponto
+
+28
+00:02:18,060 --> 00:02:19,490
+financeiro.
+
+29
+00:02:19,500 --> 00:02:24,450
+Outra coisa que não está relacionada digamos assim com esse exercício.
+
+30
+00:02:24,480 --> 00:02:30,990
+Quando você tem por exemplo múltiplos projetos dentro de um único espécime você tem como criar o que
+
+31
+00:02:30,990 --> 00:02:35,430
+ele chama de working set um conjunto de trabalho certo.
+
+32
+00:02:35,430 --> 00:02:40,350
+Como é que você cria isso não tem nada a ver com a questão do módulo estou só colocando para a gente
+
+33
+00:02:40,350 --> 00:02:45,720
+poder por exemplo filtrar apenas os projetos que a gente quer usar nesse módulo aqui.
+
+34
+00:02:45,750 --> 00:02:49,200
+Então a gente pode criar aqui ao rio Oder.
+
+35
+00:02:49,710 --> 00:02:56,310
+Eu vou selecionar aqui pode ser só sete ou oito em sete ele vai mostrar que o Java working set eu vou
+
+36
+00:02:56,310 --> 00:03:02,850
+selecionar NET e aqui eu digo quais são os projetos que eu quero adicionar no meu working set.
+
+37
+00:03:02,940 --> 00:03:10,640
+Vou selecionar esses dois vou dar o nome do arco em 7 de Apple por exemplo 7 que seria o nome o prefixo
+
+38
+00:03:10,800 --> 00:03:13,160
+desses dois projetos e vou finalizar.
+
+39
+00:03:13,320 --> 00:03:13,830
+Pronto.
+
+40
+00:03:13,830 --> 00:03:15,650
+Não mudou absolutamente nada.
+
+41
+00:03:15,720 --> 00:03:17,770
+Todos os projetos aparecendo aqui.
+
+42
+00:03:18,180 --> 00:03:26,300
+Mas se você clicar nesse site aqui tal qual carta ela pode estar em cima aqui lá embaixo da Penedo da
+
+43
+00:03:26,510 --> 00:03:33,270
+qual o estreito destes a parte lateral que estão clicando nessa Santinha você pode vir aqui e selecionar
+
+44
+00:03:33,450 --> 00:03:34,520
+o que.
+
+45
+00:03:34,980 --> 00:03:40,950
+Ou seja você vem aqui ao cara selecionar apenas os projetos que estão dentro do que em site chamado
+
+46
+00:03:41,110 --> 00:03:44,410
+App colocando aqui você vai filtrar os seus projetos.
+
+47
+00:03:44,420 --> 00:03:45,650
+Eu quero voltar.
+
+48
+00:03:45,690 --> 00:03:48,010
+Você pode clicar aqui novamente.
+
+49
+00:03:48,110 --> 00:03:55,500
+O Windows 7 que ele vai apagar todos os projetos do país e clicar aqui ele vai mostrar um site relacionado
+
+50
+00:03:55,590 --> 00:03:56,400
+à web.
+
+51
+00:03:56,550 --> 00:04:03,980
+Você tem um pouco menos de poluição digamos assim no que diz respeito aos projetos e eu vou fechar todos
+
+52
+00:04:03,990 --> 00:04:13,780
+os arquivos anteriores estão com os olhos e vou deixar aberto aqui apenas o móbile traço INFO e o módulo
+
+53
+00:04:13,790 --> 00:04:19,510
+de traço INFO dos dois projetos um do ponto financeiro e outro do app.
+
+54
+00:04:19,580 --> 00:04:21,190
+Ponto calcule certo.
+
+55
+00:04:21,570 --> 00:04:28,410
+Então com isso eu vou finalizar Saulo nós criamos o projeto criamos um work 7 que não tem absolutamente
+
+56
+00:04:28,410 --> 00:04:34,290
+nada a ver com o CAP de modo só para mostrar pra vocês mais uma funcionalidade do eclipse.
+
+57
+00:04:34,320 --> 00:04:39,540
+Ele consegue filtrar digamos assim por grupos de projetos e você consegue ter uma visualização um pouco
+
+58
+00:04:39,540 --> 00:04:41,370
+mais enxuto aqui do lado.
+
+59
+00:04:41,370 --> 00:04:48,300
+Na próxima aulas vamos fazer de fato o nosso primeiro exemplo é usar os módulos principalmente os dois
+
+60
+00:04:48,300 --> 00:04:54,260
+principais comandos relacionados a módulo que é você dizer você requerer por exemplo independência eu
+
+61
+00:04:54,290 --> 00:04:57,990
+vou depender de um determinado a outra questão importante.
+
+62
+00:04:57,990 --> 00:05:03,800
+Acho até que o assim você vai depender por exemplo de um determinado módulo do Java.
+
+63
+00:05:03,870 --> 00:05:12,160
+Java ponto SQL você declara dizendo que vai requerer aquele módulo ou mesmo você vai exportar um determinado
+
+64
+00:05:12,160 --> 00:05:18,850
+pacote para fora do seu projeto então exatamente as duas palavras que será exatamente um importar e
+
+65
+00:05:18,880 --> 00:05:24,610
+exportar que nós vamos ver na próxima aula é uma coisa importante também com relação à parte de módulos
+
+66
+00:05:25,300 --> 00:05:26,160
+que surgiu no Java.
+
+67
+00:05:26,170 --> 00:05:30,790
+JD K-9 que o próprio JD K-9 foi modular usado.
+
+68
+00:05:30,870 --> 00:05:38,200
+Ou seja você ainda consegue usar a forma antiga sem usar os módulos mais todo o JD K foi modularidade.
+
+69
+00:05:38,390 --> 00:05:43,000
+Isso também é importante porque na hora que você vai usar o sistema de módulos você vai dizer quais
+
+70
+00:05:43,000 --> 00:05:47,980
+são os módulos do JB que você vai precisar para a sua aplicação funcionar.
+
+71
+00:05:47,980 --> 00:05:52,570
+Isso também é importante na próxima análise continuam fazendo nosso primeiro exercício relacionado a
+
+72
+00:05:52,570 --> 00:05:59,710
+módulos pegando por exemplo criando algo dentro de um ponto cálculo e usando ele dentro de apoio financeiro.
+
+73
+00:05:59,710 --> 00:06:05,350
+E nós vamos entender na prática como aplicar esses conceitos tão importantes e que está muito relacionado
+
+74
+00:06:05,350 --> 00:06:06,460
+com o encapsulamento.

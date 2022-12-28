@@ -1,0 +1,811 @@
+1
+00:00:00,110 --> 00:00:06,480
+Só nessa aula eu quero falar rapidamente sobre os métodos HTTP certo.
+
+2
+00:00:06,810 --> 00:00:14,520
+Antes de falar propriamente do método HTTP a gente tem dentro da comunicação entre dois computadores
+
+3
+00:00:14,520 --> 00:00:15,440
+na internet.
+
+4
+00:00:15,450 --> 00:00:22,890
+Na verdade nós usamos uma pilha de protocolos e mais um protocolo sendo usado quando você trabalha por
+
+5
+00:00:22,890 --> 00:00:27,310
+exemplo você comunica dois computadores dentro da internet.
+
+6
+00:00:27,390 --> 00:00:33,520
+Então você tem por exemplo aquele modelo OSI uma pilha de camadas que define o padrão 11 mais ou fala
+
+7
+00:00:33,530 --> 00:00:36,890
+aqui mais do padrão TCP IP que é o protocolo.
+
+8
+00:00:36,930 --> 00:00:38,010
+A gente está acostumado.
+
+9
+00:00:38,400 --> 00:00:42,280
+Então você tem uma camada que ele chama de camada física.
+
+10
+00:00:42,300 --> 00:00:48,550
+Você tem uma camada que ele chama de uma camada de rede ou de internet.
+
+11
+00:00:48,570 --> 00:00:52,960
+Você tem uma camada de transporte e você tem uma camada de aplicação.
+
+12
+00:00:53,130 --> 00:00:58,390
+De forma resumida Não estou querendo entrar muito no mérito na questão dos protocolos e tal.
+
+13
+00:00:58,810 --> 00:01:04,960
+Então quando você tem essa pilha aqui se eu pegar para dar um Mac tinha que nos protocolos.
+
+14
+00:01:04,970 --> 00:01:10,940
+Assim nessa camada aqui você tem um protocolo IP Internet Protocol.
+
+15
+00:01:10,950 --> 00:01:17,490
+Aqui você tem alguns protocolos na verdade o que a gente usa mais frequentemente é o TCP certo que é
+
+16
+00:01:17,490 --> 00:01:24,720
+um protocolo que tem todo o processo de rede que mede troca de informações uma conexão mais confiável.
+
+17
+00:01:24,730 --> 00:01:30,700
+Mas você também tem outros protocolos como o bebê por exemplo e você tem aqui na camada de aplicação
+
+18
+00:01:30,700 --> 00:01:33,510
+um protocolo que a gente está usando o HTTP.
+
+19
+00:01:34,020 --> 00:01:42,210
+Ou seja é o TeX time Transfer Protocol ou Protocolo de Transferência de Hipertexto sendo que o hipertexto
+
+20
+00:01:42,210 --> 00:01:51,990
+é o famoso HTML Ray Protection Mark Cape Language Linguagem marcação de hipertexto até potencialmente
+
+21
+00:01:52,070 --> 00:01:57,630
+a transferência de informações na internet começou a partir de arquivos HTML.
+
+22
+00:01:57,970 --> 00:02:00,200
+Esse nome é Ray Protection.
+
+23
+00:02:00,330 --> 00:02:02,360
+Quer dizer que é um texto por exemplo.
+
+24
+00:02:02,370 --> 00:02:08,400
+Antigamente você tinha lá um determinado livro que você tem as informações e em determinado ponto ele
+
+25
+00:02:08,400 --> 00:02:13,560
+faz uma referência para um outro livro certo só que esse outro livro.
+
+26
+00:02:13,560 --> 00:02:18,240
+Você não tem ali a mão por exemplo para você realmente consultar aquela referência.
+
+27
+00:02:18,270 --> 00:02:20,210
+Você diria que é uma referência offline.
+
+28
+00:02:20,220 --> 00:02:26,220
+Você precisaria sair da sua casa e na Biblioteca pegar esse outro livro para eventualmente Lessa referem
+
+29
+00:02:26,220 --> 00:02:33,030
+só que com a página HTML você tem aqui a página HTML que ela tem uma referência para uma ou outra página
+
+30
+00:02:33,030 --> 00:02:34,540
+e a gente chama isso de link.
+
+31
+00:02:34,840 --> 00:02:41,550
+E a partir desse link você consegue navegar online e liberar um outro texto por isso esse conceito que
+
+32
+00:02:42,000 --> 00:02:42,810
+pertence.
+
+33
+00:02:43,170 --> 00:02:50,640
+Então voltando aqui um pouquinho para o protocolo HTTP a gente está dentro de uma camada de aplicação
+
+34
+00:02:50,640 --> 00:02:57,330
+embaixo tem outros protocolos que vão ajudar na questão do roteamento da rede criar um link de conexão
+
+35
+00:02:57,720 --> 00:03:02,610
+entre um ponto e outro e tenho vários detalhes internos da parte de infra estrutura que não é muito
+
+36
+00:03:02,670 --> 00:03:08,490
+o nosso objetivo aquilo que a gente quer focar não é só para dizer que tem uma pilha de protocolos onde
+
+37
+00:03:08,550 --> 00:03:11,820
+quer focar mais na questão do protocolo HTTP.
+
+38
+00:03:12,360 --> 00:03:20,310
+Então nós temos o nosso HTTP Taxi Transfer Protocol que é um protocolo para a camada de aplicação a
+
+39
+00:03:20,310 --> 00:03:26,070
+gente usa ele diretamente para comunicar as nossas aplicações esquecendo que está acontecendo por baixo
+
+40
+00:03:26,070 --> 00:03:34,290
+na rede li certo e esse é um protocolo que tem oito métodos então ele tem oito métodos e alguns métodos
+
+41
+00:03:34,290 --> 00:03:41,460
+são usados mais do que outros por exemplo o método mais usado no protocolo HTTP e o método Gat e pra
+
+42
+00:03:41,460 --> 00:03:47,160
+que serve o método Gate Metro Gate ele serve para obter informações do servidor.
+
+43
+00:03:47,280 --> 00:03:54,220
+Então quando você quer obter ou ler informações do servidor você usa o método.
+
+44
+00:03:54,390 --> 00:04:02,110
+Via de regra esse método Guedes não é para causar nenhum tipo de alteração ou de efeito colateral segundo
+
+45
+00:04:02,160 --> 00:04:07,940
+o que é que significa um efeito colateral quando você muda o estado da aplicação quando você insere
+
+46
+00:04:07,950 --> 00:04:10,470
+por exemplo alguma coisa no banco de dados.
+
+47
+00:04:10,470 --> 00:04:16,400
+Quando você exclui alguma coisa o banco de dados ou altera alguma coisa via de regra o método GET do
+
+48
+00:04:16,410 --> 00:04:20,560
+HTTP ele serve para ler informações e não para alterar a lei.
+
+49
+00:04:20,550 --> 00:04:26,090
+Se eu quisesse um rebelde sem causa geral a requisição que vai alterar o servidor tem problema algum
+
+50
+00:04:26,140 --> 00:04:32,280
+não tem problema você pode alterar mas você está indo de encontro com a semântica e com o significado
+
+51
+00:04:32,280 --> 00:04:36,980
+do método garante que tem como objetivo apenas obter dados do servidor.
+
+52
+00:04:37,140 --> 00:04:40,660
+Falou um pouquinho sobre abrindo que um parênteses é rápido né.
+
+53
+00:04:40,770 --> 00:04:48,130
+Quando você tem por exemplo você tem normalmente uma máquina aqui que é o seu browser e você tem essa
+
+54
+00:04:49,230 --> 00:04:53,530
+escolha de cores aqui ficou muito bom não que um outro com certo.
+
+55
+00:04:53,880 --> 00:04:56,630
+Mais fácil de ver se é verde limão e pronto.
+
+56
+00:04:56,820 --> 00:05:04,050
+Você tem aqui uma máquina que normalmente pode ser o Chrome pode ser o Internet Explorer Firefox tal.
+
+57
+00:05:04,210 --> 00:05:10,960
+E essa máquina vai fazer uma requisição lá para a sua aplicação rodando o experiente Bush.
+
+58
+00:05:10,970 --> 00:05:18,680
+Então se a aplicação roda na Espanha onde é feito aqui quais então você tem aqui um encaixe e o protocolo
+
+59
+00:05:18,680 --> 00:05:27,410
+HTTP que a gente está trabalhando aqui ele é um protocolo baseado em requisição é baseado em resposta
+
+60
+00:05:27,500 --> 00:05:30,160
+então a comunicação é feita.
+
+61
+00:05:30,350 --> 00:05:36,560
+Você fala lá no cliente no Brasil ou em uma aplicação se faz uma requisição e o servidor manda a resposta
+
+62
+00:05:36,560 --> 00:05:39,360
+é simples na requisição ele mandou a resposta.
+
+63
+00:05:39,830 --> 00:05:46,510
+E aqui você pode fazer uma requisição e essa aquisição precisa ter associado um determinado método.
+
+64
+00:05:46,610 --> 00:05:49,320
+Você pode fazer uma requisição usando o método GET IT.
+
+65
+00:05:49,330 --> 00:05:56,510
+Você pode fazer a requisição usando o método ou outros métodos do protocolo HTTP e o servidor vai te
+
+66
+00:05:56,510 --> 00:05:58,160
+dar uma resposta.
+
+67
+00:05:58,160 --> 00:06:02,150
+Com relação a essa requisição então você vai receber uma resposta.
+
+68
+00:06:02,210 --> 00:06:06,260
+Então quando você faz um requisição usando o método GET IT.
+
+69
+00:06:06,260 --> 00:06:11,870
+Isso dá a entender que você está fazendo a requisição apenas para obter algo como resposta e não para
+
+70
+00:06:11,870 --> 00:06:13,430
+alterar algo no servidor.
+
+71
+00:06:13,790 --> 00:06:16,300
+Lembrando que a nossa aplicação em Bush.
+
+72
+00:06:16,430 --> 00:06:24,260
+Ela pode muito bem acessar aqui um banco de dados usando o JP aí você vai ter por exemplo aqui o mais
+
+73
+00:06:24,260 --> 00:06:30,680
+que ela está aqui já em cima da minha cabeça não é mais você tem aqui uma SQL aqui rodando e a sua aplicação
+
+74
+00:06:30,680 --> 00:06:35,250
+acessando esse banco de dados e quando você faz um requisição do tipo Get It.
+
+75
+00:06:35,420 --> 00:06:42,170
+A ideia é que você não vá mexer em nada do banco de dados ou mexer em nada que gere o impacto permanente
+
+76
+00:06:42,170 --> 00:06:45,310
+na sua aplicação você vai simplesmente ler alguma coisa.
+
+77
+00:06:45,470 --> 00:06:50,840
+A partir dessa requisição você só para deixar claro um pouco do conceito e um pouco de como o protocolo
+
+78
+00:06:50,840 --> 00:06:53,880
+funciona como apagar essa parte verde.
+
+79
+00:06:53,930 --> 00:06:58,730
+Então nós temos aqui o nosso método grande que é voltado para ler informações do servidor.
+
+80
+00:06:58,730 --> 00:07:04,340
+Agora vamos falar de alguns metros até mudar aqui e métodos que são responsáveis por alterar alguma
+
+81
+00:07:04,340 --> 00:07:05,750
+coisa no servidor.
+
+82
+00:07:05,840 --> 00:07:13,370
+Via de regra quando você faz um requisição do tipo com o chip você faz uma requisição do tipo Putin
+
+83
+00:07:13,670 --> 00:07:22,460
+ou quando você faz uma requisição do tipo PET ou uma requisição do tipo delete deixou isso eu consigo.
+
+84
+00:07:22,460 --> 00:07:27,760
+Isso aqui é trazer um pouquinho pro lado pronto e eu vou tentar colocar aqui.
+
+85
+00:07:27,760 --> 00:07:35,510
+Eu acho que vai ser um deleite talvez até um bem escasso aqui nos chamou aqui pra baixo pra ter um pouco
+
+86
+00:07:35,510 --> 00:07:36,880
+mais de espaço.
+
+87
+00:07:37,730 --> 00:07:41,210
+Vir aqui ao meu ver isso aqui também.
+
+88
+00:07:41,380 --> 00:07:42,600
+O que eu mais próximo aqui.
+
+89
+00:07:42,650 --> 00:07:43,450
+Pronto.
+
+90
+00:07:43,820 --> 00:07:51,070
+Tive uma conversa que também próximo um pouco mais de espaço está tudo na tela parecendo colecionar
+
+91
+00:07:51,130 --> 00:07:53,080
+aqui pra cá.
+
+92
+00:07:53,090 --> 00:08:01,900
+Pronto eu tenho aqui o poncho o push do Pet e volta aqui nós temos um outro método que é o glitch.
+
+93
+00:08:02,600 --> 00:08:09,490
+Ou seja nós temos um dois três quatro cinco metros do HTTP poxa ele serve para alterar dados o servidor
+
+94
+00:08:09,500 --> 00:08:15,980
+dentre esses quatro métodos o push é o mais usado juntamente com um gatinho o gatinho.
+
+95
+00:08:16,010 --> 00:08:19,590
+Poucos são os dois metros do HTTP mais usados.
+
+96
+00:08:19,590 --> 00:08:24,950
+Se você olhar nas estatísticas ela não preciso nem tem um ano o estudo formal dá para saber que esses
+
+97
+00:08:24,950 --> 00:08:26,770
+dois metros são os mais utilizados.
+
+98
+00:08:26,780 --> 00:08:32,700
+Disparado o é o mais utilizado em qualquer requisição que você faça no servidor levá los a um gabinete
+
+99
+00:08:32,980 --> 00:08:40,150
+ou na página HTML ele ter uma referência para um arquivo CSS que ele vai buscar esse arquivo CSS usando
+
+100
+00:08:40,210 --> 00:08:46,550
+Guedes se a sua parte HTML tem uma referência para um arquivo JavaScript para uma imagem para um vídeo.
+
+101
+00:08:46,550 --> 00:08:55,310
+Isso é feito via de regra usando o que está então bom o Porsche serve pra você submeter ou enviar informações
+
+102
+00:08:55,310 --> 00:08:56,210
+para o servidor.
+
+103
+00:08:56,450 --> 00:09:02,570
+Quando você tem um formulário por exemplo você vai colocar suas informações a cadastrar aqui na minha
+
+104
+00:09:02,570 --> 00:09:07,310
+conta no site você coloca seu nome em seu e-mail o seu usuário e sua senha.
+
+105
+00:09:07,310 --> 00:09:11,010
+Via de regra é feito a partir de uma requisição do tipo Push.
+
+106
+00:09:11,030 --> 00:09:14,390
+Você vai querer enviar informações para o servidor.
+
+107
+00:09:14,390 --> 00:09:20,520
+Você vai ter aqui a partir do Brasil e vai ser gerado uma requisição lá pelo servidor.
+
+108
+00:09:20,540 --> 00:09:27,380
+Então você tem o grau do servidor foi mandado aqui e conhece esse colégio vai gerar um impacto aqui
+
+109
+00:09:27,380 --> 00:09:32,700
+no banco de dados porque ele vai cadastrar um informação então normalmente quando gera um impacto e
+
+110
+00:09:32,710 --> 00:09:38,470
+é feito uma mudança aqui no servidor então você tem de regra uma requisição de uma dessas aqui.
+
+111
+00:09:38,730 --> 00:09:42,540
+Eu vou mostrar um pouquinho de a diferença entre cada uma delas.
+
+112
+00:09:42,560 --> 00:09:49,390
+Agora então nós temos aqui uma que do tipo Porsche via de regra pra você inserir novos dados no servidor.
+
+113
+00:09:49,700 --> 00:09:56,720
+Quando você quer cadastrar alguma coisa você usa o push quando você quer alterar você usa ou o push
+
+114
+00:09:56,810 --> 00:09:57,560
+ou o Pet.
+
+115
+00:09:57,560 --> 00:09:58,860
+Qual a diferença.
+
+116
+00:09:58,900 --> 00:10:03,430
+O é usado pra você fazer uma alteração parcial.
+
+117
+00:10:03,830 --> 00:10:07,480
+Então quando você tem uma alteração parcial você usa o Pet.
+
+118
+00:10:07,640 --> 00:10:12,290
+E quando você tem uma alteração total você usa o push.
+
+119
+00:10:12,290 --> 00:10:17,630
+Então eu quero alterar o usuário completamente o cara mexer em todos os atributos.
+
+120
+00:10:17,630 --> 00:10:24,630
+Você usa o push você quer mexer especificamente um atributo você pede via de regra mais comum se usar
+
+121
+00:10:24,630 --> 00:10:27,520
+o Putin dentro de um API wishful.
+
+122
+00:10:27,540 --> 00:10:33,420
+Se você olhar o mapa disse que nesse padrão vem a parte de uma tese de doutorado e a tese de doutorado
+
+123
+00:10:33,420 --> 00:10:39,900
+lá lado o cara que criou esse tipo de tecnologia tipo de observe se tem muito mais detalhes do que propriamente
+
+124
+00:10:39,920 --> 00:10:41,660
+a gente acaba fazendo na prática.
+
+125
+00:10:41,690 --> 00:10:44,940
+Então você até poderia dizer Ah não é 100%.
+
+126
+00:10:44,960 --> 00:10:50,810
+De acordo com aquele que foi definido lá na tese de doutorado et la como um demente tem várias outras
+
+127
+00:10:50,810 --> 00:10:51,170
+coisas.
+
+128
+00:10:51,170 --> 00:10:57,190
+Outros detalhes que não fazem sentido a gente comentar aqui e aqui são detalhes específicos da tese
+
+129
+00:10:57,200 --> 00:11:04,820
+mais olhando para o cenário mais marcado você acaba usando muito mais frequentemente o Ponte em vez
+
+130
+00:11:04,820 --> 00:11:05,330
+do pé.
+
+131
+00:11:05,330 --> 00:11:08,600
+Então você não trata a alteração de alguma coisa.
+
+132
+00:11:08,630 --> 00:11:14,210
+Tem um usuário que ele quer alterar ele quer alterar a senha do usuário eu quero alterar o avatar do
+
+133
+00:11:14,210 --> 00:11:21,050
+usuário via de regra você vai trabalhar apenas Compute não tem essa diferenciação entre uma alteração
+
+134
+00:11:21,050 --> 00:11:22,890
+parcial e uma alteração total.
+
+135
+00:11:22,900 --> 00:11:30,800
+Beleza então puxa ele é mais usado então Porsche vai ser usado pra você criar novos registros então
+
+136
+00:11:30,800 --> 00:11:37,160
+o seu uso puxe o pod e o Pet serve para alterar os registros via de regra você vai acabar usando mais
+
+137
+00:11:37,160 --> 00:11:44,480
+o pudim de leite em tudo é aqui e ele vai ser o responsável por fazer a exclusão certo.
+
+138
+00:11:44,710 --> 00:11:49,180
+Então isso não necessariamente como falei pra vocês.
+
+139
+00:11:49,220 --> 00:11:56,390
+Essa questão dos métodos ele tem por trás uma ideia de semântica de significado.
+
+140
+00:11:56,390 --> 00:11:57,460
+Não necessariamente.
+
+141
+00:11:57,460 --> 00:12:05,120
+Você pra excluir é preciso usar um método do http: delete o que é a exclusão é feita dentro da sua aplicação.
+
+142
+00:12:05,120 --> 00:12:13,290
+Lembra que esses métodos eles estão funcionando apenas aqui entre o Brasil em via de regra e a sua aplicação.
+
+143
+00:12:13,340 --> 00:12:14,920
+Bush ou seja o seu servidor.
+
+144
+00:12:15,380 --> 00:12:21,620
+Ou seja esses métodos não está funcionando aqui dentro como uma forma de comunicação entre esses dois
+
+145
+00:12:21,620 --> 00:12:23,040
+computadores na internet.
+
+146
+00:12:23,420 --> 00:12:29,830
+Mas o que essa aplicação faz com a requisição daqui para baixo seja acessar aqui o banco de dados e
+
+147
+00:12:29,840 --> 00:12:37,700
+tal certo excluí as informações o que essa aplicação faz não tem nenhuma relação digamos assim direta
+
+148
+00:12:37,700 --> 00:12:40,990
+com o tipo de método HTTP que você usou aqui.
+
+149
+00:12:41,060 --> 00:12:48,450
+Você pode usar o método de elite e no final das contas obter informações recebe ou lê um dado do servidor
+
+150
+00:12:48,450 --> 00:12:55,680
+ou então não tem essa amarração obrigatoriamente você usar o método de leite para excluir o método put
+
+151
+00:12:55,690 --> 00:13:04,100
+para alterar o metro Bush para inserir o método GET para o bit herdado Souto mais você manter essa consistência
+
+152
+00:13:04,430 --> 00:13:11,300
+no que diz respeito à semântica o significado de cada método HTTP mais aderente você vai tal padrão
+
+153
+00:13:11,610 --> 00:13:12,160
+Fifa.
+
+154
+00:13:12,390 --> 00:13:18,590
+Outra observação que tem muito a ver com o mas só pra deixar em termos de perspectiva.
+
+155
+00:13:18,590 --> 00:13:27,640
+Talvez você já tenha escutado uma solução a tecnologia chamada colocar aqui a caneta barbuda aqui chamada
+
+156
+00:13:27,660 --> 00:13:32,810
+Graph que ele exige uma tecnologia chamada grafia que.
+
+157
+00:13:33,020 --> 00:13:42,110
+Essa tecnologia é uma alternativa a um apelo do tipo o resto é o grafo Kelly ele usa pra inserir o método
+
+158
+00:13:42,110 --> 00:13:49,280
+touch para alterar o registro ele usa o Metro por xy para excluir um registro ele usa o Metro hoje é
+
+159
+00:13:49,340 --> 00:13:57,160
+pra ler um registro ele usa o Metro Gate ou seja o grafo tele ele usa apenas o método push e o método
+
+160
+00:13:57,160 --> 00:13:57,950
+gatinho.
+
+161
+00:13:58,130 --> 00:14:04,250
+Ou seja porque não existe essa amarração de mãos assim que você obrigatoriamente precisa parar exclui
+
+162
+00:14:04,430 --> 00:14:06,480
+chamar um metro HTTP.
+
+163
+00:14:06,610 --> 00:14:14,780
+Você não tem essa obrigatoriedade então então a gente tem aqui o método GET para obter nós temos o Porsche
+
+164
+00:14:15,230 --> 00:14:20,630
+via de regra pra inseri dependendo do frame ou da tecnologia ele pode tanto alterar excluir como já
+
+165
+00:14:20,630 --> 00:14:27,770
+falei o pudim vai ser usado para alterar a gente vai usar tanto de forma total ou parcial o metro puxe
+
+166
+00:14:27,770 --> 00:14:30,380
+mais tem essa diferenciação entre o push e o Pet.
+
+167
+00:14:30,770 --> 00:14:38,690
+O PET para fazer uma alteração parcial nós temos o limite para excluir e além do Good Boss cute Pete
+
+168
+00:14:38,720 --> 00:14:47,570
+Lite nós temos o método Occhi e uns sete blocos juntos e ele é usado pra fazer uma requisição quando
+
+169
+00:14:47,570 --> 00:14:56,580
+você quer saber que um determinado pouco você tem uma mão RL em série chamada Barra ou lá e essa RL
+
+170
+00:14:56,720 --> 00:15:04,780
+vai responder tanto requisições do tipo como requisições do tipo poncho o método opção ou seja você
+
+171
+00:15:04,780 --> 00:15:13,000
+fazer uma requisição opte em cima da o RL ou lá vai retornar como resposta quais são os métodos HTTP
+
+172
+00:15:13,300 --> 00:15:14,830
+que aquela ele suporta.
+
+173
+00:15:14,830 --> 00:15:20,770
+Então quando você quer ter uma descrição daquela aquela o RL por exemplo essa lei ela suporta quais
+
+174
+00:15:20,770 --> 00:15:28,300
+métodos a barra lá suporta o método pede apenas ou então método GET poncho de lite você vai ter como
+
+175
+00:15:28,300 --> 00:15:35,980
+resposta quais são os métodos do HTTP que aquela eles suportam esse é o objetivo da aquisição do tipo
+
+176
+00:15:36,070 --> 00:15:38,710
+Options for apagar novamente aqui.
+
+177
+00:15:38,950 --> 00:15:47,420
+Além do óbvio a gente tem mais do que 1 2 3 4 5 6 está faltando mais duas que é o 3 o outro é se ele
+
+178
+00:15:47,420 --> 00:15:55,940
+serve para fazer 1 se fosse 1 a conexão a requisição de teste no Quebeque tal e não vai usar isso aqui.
+
+179
+00:15:55,940 --> 00:16:03,540
+E por último nós temos o Randi o médico ele é uma requisição muito parecida com o Bétis certo.
+
+180
+00:16:03,760 --> 00:16:10,390
+Só que o Get It quando você faz um requisição com um Congresso ele retorna o corpo da resposta na resposta
+
+181
+00:16:10,390 --> 00:16:13,870
+e vai ter um copo vai ter realmente aquele que você está querendo obter.
+
+182
+00:16:13,900 --> 00:16:21,310
+Então você tem aqui um corpo vivo na resposta ou o que a gente chama de inglês de Bari que é o Response
+
+183
+00:16:21,350 --> 00:16:24,280
+bar ou seja o corpo das respostas.
+
+184
+00:16:24,340 --> 00:16:30,940
+Quando você faz uma requisição do tipo Get It Você recebe a mesma resposta só que sem o conteúdo então
+
+185
+00:16:30,940 --> 00:16:32,990
+você pode usá la e que são do tipo rede.
+
+186
+00:16:33,280 --> 00:16:38,260
+Quando você quer verificar que na terminada ou ela está funcionando então ele pode fazer uma requisição
+
+187
+00:16:38,260 --> 00:16:45,210
+GET te mas ele não vai obter a resposta quer só saber se aquela ou RL está lá funcionando está atendendo
+
+188
+00:16:45,220 --> 00:16:47,080
+então ele vai servir pra isso.
+
+189
+00:16:47,080 --> 00:16:58,150
+Então nós temos aqui um que é o Grid 2 3 4 5 6 que é o juntos o sétimo que é outro e esse é o 8 que
+
+190
+00:16:58,150 --> 00:16:58,660
+é um game.
+
+191
+00:16:58,690 --> 00:17:04,480
+Então aqui estão os 8 meses do HTTP você qual bagunça aqui a explicação mais o mais importante é você
+
+192
+00:17:04,480 --> 00:17:10,570
+ter entendido o conceito dos médicos e entender que esses métodos servem pra comunicação entre dois
+
+193
+00:17:10,570 --> 00:17:17,230
+nós dentro da rede mas não necessariamente o que você faz depois dentro da sua aplicação tem que refletir
+
+194
+00:17:17,230 --> 00:17:23,940
+que tipo de método você usou mas manter a coerência e manter a semântica dos metros é muito interessante
+
+195
+00:17:23,940 --> 00:17:29,440
+e importante que você faça isso e não há nenhum demérito por exemplo citei um caso grave que é ele que
+
+196
+00:17:29,440 --> 00:17:33,340
+usa proxy pra inserir para alterar para excluir.
+
+197
+00:17:33,370 --> 00:17:38,650
+Não há nenhum demérito em usar o pois para isso você pode sim usar o POS para fazer qualquer tipo de
+
+198
+00:17:38,650 --> 00:17:39,480
+operação.
+
+199
+00:17:39,530 --> 00:17:45,130
+Ele digamos assim acabou sendo de certa forma um método guarda chuva pra qualquer coisa que altera os
+
+200
+00:17:45,130 --> 00:17:45,950
+dados do servidor.
+
+201
+00:17:45,940 --> 00:17:52,270
+Você pode usar o puxe mais no caso do resto a gente vai usar também o PUT e o dirigente então fico por
+
+202
+00:17:52,270 --> 00:17:53,000
+aqui.
+
+203
+00:17:53,050 --> 00:17:57,070
+A próxima aula a gente continua agora voltando para a nossa aplicação e até lá.

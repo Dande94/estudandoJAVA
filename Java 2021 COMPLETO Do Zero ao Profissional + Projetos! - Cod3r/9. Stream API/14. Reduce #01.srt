@@ -1,0 +1,395 @@
+1
+00:00:00,120 --> 00:00:05,850
+Pensar na sala é um valor um pouquinho de uma das funções também mais importantes nesse contexto de
+
+2
+00:00:05,850 --> 00:00:13,320
+funções clássicas da programação funcional e que também é implementada dentro do Estoril e do Java que
+
+3
+00:00:13,320 --> 00:00:13,990
+é o ITU.
+
+4
+00:00:13,980 --> 00:00:16,400
+Sim nós já falamos do MAC MAP.
+
+5
+00:00:16,410 --> 00:00:22,500
+é uma função que faz o mapeamento de um elemento para um outro elemento de tal forma que a sequência
+
+6
+00:00:22,500 --> 00:00:25,370
+de objetos que está presente tenta destruir.
+
+7
+00:00:25,650 --> 00:00:32,340
+Ela tem um determinado tamanho e o resultado gerado seja outro extremo geral e também terá o mesmo tamanho
+
+8
+00:00:32,510 --> 00:00:39,510
+10 elementos se você aplicar o MEP irá também gerar 10 elementos como resposta só que cada um dos elementos
+
+9
+00:00:39,510 --> 00:00:46,550
+mapeados de acordo com a função ou com a expressão lambda que você passou o filtro tem o papel de filtrar
+
+10
+00:00:46,720 --> 00:00:47,400
+potencialmente.
+
+11
+00:00:47,520 --> 00:00:52,920
+Você pode ter extremos menores mas isso vai depender da lógica que você aplicar nesse todos os elementos
+
+12
+00:00:52,920 --> 00:00:58,930
+a função lambda que você passou a expressão lambda retorno verdadeiro o resultado será do mesmo tamanho.
+
+13
+00:00:58,960 --> 00:01:05,560
+Se para cada um dos paramentos a expressão retorna um falso você pode ter até um resultado vazio mas
+
+14
+00:01:05,580 --> 00:01:11,280
+você acaba tendo filtrando ali alguns elementos e muito provavelmente você tem estruturas menores tem
+
+15
+00:01:11,360 --> 00:01:17,280
+o estilingue com um tamanho menor do que o sistema original porque a ideia é você filtrar alguns elementos
+
+16
+00:01:17,280 --> 00:01:20,110
+de acordo com uma expressão lambda.
+
+17
+00:01:20,340 --> 00:01:27,090
+Se ele nesse sentido ele é bem flexível porque ele vai transformar o estrume de dado certo uma sequência
+
+18
+00:01:27,090 --> 00:01:31,950
+de objetos armazenados dentro isto é outra coisa completamente diferente.
+
+19
+00:01:32,070 --> 00:01:36,790
+Não precisa ter uma relação direta nem mesmo com o tipo de cada um dos elementos.
+
+20
+00:01:36,790 --> 00:01:41,270
+Você pode pegar uma rede alunos e retornar apenas um único valor.
+
+21
+00:01:41,280 --> 00:01:47,530
+Por exemplo a soma de todas as notas você pode transformar um estrume de objetos em um array.
+
+22
+00:01:47,550 --> 00:01:53,780
+Você pode transformar um estrume de arreios em um você pode fazer basicamente o que você quiser.
+
+23
+00:01:54,150 --> 00:01:56,570
+A partir do idoso eu vou mostrar para vocês.
+
+24
+00:01:56,700 --> 00:02:02,700
+A ideia básica do Edu se é que é tentar entrar muito no uso de diversos tipos de exemplos diferentes.
+
+25
+00:02:02,700 --> 00:02:08,820
+Na prática a gente vai ver algum desses exemplos vou fazer três exercícios três vídeos separados três
+
+26
+00:02:08,820 --> 00:02:10,390
+exemplos separados de Windows.
+
+27
+00:02:10,400 --> 00:02:10,870
+Tá bom.
+
+28
+00:02:11,160 --> 00:02:18,840
+Então fazer o seguinte vou definir aqui uma estrutura que nós temos.
+
+29
+00:02:18,840 --> 00:02:31,410
+Por exemplo vários números estão colocar 7 3 4 2 8 2 e 8 daqueles nossos números que eu quero fazer
+
+30
+00:02:31,410 --> 00:02:40,740
+eu quero aplicar os 2 em cima dessa extremidade sequência de dados que aplicá los.
+
+31
+00:02:41,400 --> 00:02:43,340
+Então a gente recebe aqui.
+
+32
+00:02:43,340 --> 00:02:49,500
+De forma geral principalmente focando aqui no conceito depois enfim entra exatamente os parâmetros que
+
+33
+00:02:49,500 --> 00:02:55,610
+você vai ter aqui o que ele chama de acumulador que eu vou colocar aqui e nós vamos receber como segundo
+
+34
+00:02:55,620 --> 00:03:02,550
+parâmetro o próprio elemento que representa o que cada um dos elementos mentais Twin então você recebe
+
+35
+00:03:02,550 --> 00:03:09,660
+um acumulador você recebe o parâmetro diferente do filtro que a gente recebia o próprio valor aqui é
+
+36
+00:03:09,680 --> 00:03:16,560
+diferente ao lado do Mac que a gente recebia o próprio elemento que eu chamei aqui e no caso do idoso
+
+37
+00:03:16,710 --> 00:03:20,870
+recebe dois parâmetros o primeiro é um acumulador e o segundo o Mini.
+
+38
+00:03:21,120 --> 00:03:26,760
+E aqui você vai fazer alguma coisa com essas duas informações o acumulador é um valor que você pode
+
+39
+00:03:26,760 --> 00:03:29,150
+dar um valor inicial para ele Se você quiser.
+
+40
+00:03:29,190 --> 00:03:35,640
+Esse valor vai ser passado para cada uma das iterações você de cada uma das repetições vai receber o
+
+41
+00:03:35,640 --> 00:03:41,880
+elemento atual e o acumulador esse acumulador ele é passado por cada uma das chamadas das iterações
+
+42
+00:03:41,880 --> 00:03:44,010
+que você vai passar por cada um dos elementos.
+
+43
+00:03:44,010 --> 00:03:46,780
+O resultado dessa função é passado como um acumulador.
+
+44
+00:03:46,810 --> 00:03:53,850
+O próximo passo é aí você vai seguindo a lógica para cada novo elemento chamado a função uma vez é o
+
+45
+00:03:53,850 --> 00:03:57,730
+acumulador e foi o valor o resultado da função anterior.
+
+46
+00:03:57,850 --> 00:04:03,240
+Como a primeira vez não tem uma função anterior você pode passar um valor inicial ou não a depender
+
+47
+00:04:03,600 --> 00:04:08,270
+do que você queira fazer ou não e você tem algumas possibilidades eu vou mostrar isso na prática vão
+
+48
+00:04:08,290 --> 00:04:08,680
+pagar.
+
+49
+00:04:08,700 --> 00:04:15,480
+Um exemplo bem simples bem clássico de resíduos é você transformar uma sequência de números num valor
+
+50
+00:04:15,480 --> 00:04:16,490
+total certo.
+
+51
+00:04:16,500 --> 00:04:23,550
+Talvez o exemplo mais simples de Windows então nesse caso vou basicamente pegar o valor de acumulador
+
+52
+00:04:23,640 --> 00:04:26,340
+e vou somar com o valor do número atual.
+
+53
+00:04:26,340 --> 00:04:32,180
+Vamos imaginar que inicialmente eu vou ter um valor passado como sendo o zero por acumulador.
+
+54
+00:04:32,550 --> 00:04:36,820
+Então na primeira vez que eu chamar a função vou outra transformar isso aqui em números.
+
+55
+00:04:37,200 --> 00:04:43,350
+Eu votei sim no passado 0 para o acumulador e vou passar o valor 7 como será o primeiro elemento de
+
+56
+00:04:43,350 --> 00:04:48,470
+tal forma que o resultado vai da 0 7 mais 0 8 0 mais 7.
+
+57
+00:04:48,690 --> 00:04:53,430
+Seguindo a lógica a ordem das 0 mais sete é o resultado.
+
+58
+00:04:53,490 --> 00:04:55,160
+Obviamente vai ser sete.
+
+59
+00:04:55,530 --> 00:05:02,960
+Na próxima vez que eu for chamar essa função o sétimo que foi ou será passado como acumulador ou então
+
+60
+00:05:02,950 --> 00:05:03,400
+set.
+
+61
+00:05:03,410 --> 00:05:06,690
+Vai ser um acumulador e o 3 vai ser o próximo.
+
+62
+00:05:06,700 --> 00:05:16,470
+Nessa lógica acumulador mais o então vou ter que 7 mas 3 o resultado vai dar 10 e eu vou passar o acumulador
+
+63
+00:05:16,530 --> 00:05:22,830
+aquele que foi retornado na função anterior vai ser passado como acumulado na próxima chamada então
+
+64
+00:05:22,830 --> 00:05:28,890
+10 é o próximo número 4 de tal forma que eu vou ter 10 mais quatro.
+
+65
+00:05:28,890 --> 00:05:31,160
+O resultado é 14.
+
+66
+00:05:31,170 --> 00:05:37,830
+O que eu posso usar como acumulador pode ser qualquer coisa pode ser um objeto pode ser um rei pode
+
+67
+00:05:37,830 --> 00:05:44,390
+ser um valor primitivo então você tem flexibilidade para definir como você vai acumular.
+
+68
+00:05:44,390 --> 00:05:50,940
+Como você vai aplicar alguma lógica pra que você possa somar e usar por exemplo todos os elementos de
+
+69
+00:05:50,940 --> 00:05:57,150
+um único elemento no final que pode ser inclusive o outro o outro o rei uma lista alguma coisa que você
+
+70
+00:05:57,150 --> 00:06:02,700
+queira não obrigatoriamente precisa ser digamos assim um objeto mas pode ser um arranjo uma lista um
+
+71
+00:06:02,700 --> 00:06:05,370
+7 1 ameba aquilo que você acha que interessa.
+
+72
+00:06:05,370 --> 00:06:08,720
+De tal forma que esse valor será passado para a próxima iteração.
+
+73
+00:06:08,720 --> 00:06:13,980
+Então se aquilo que você retornar e passar como acumulado ou como estou mostrando aqui então um próximo
+
+74
+00:06:13,980 --> 00:06:22,630
+passo nós temos o 2 e aí nós temos o acumulado como sendo 14 então 14 o elemento 2 e tal mas vamos ter
+
+75
+00:06:23,160 --> 00:06:29,590
+14 mais dois e o resultado dará 16 então 14 foi passado aqui como um acumulador.
+
+76
+00:06:29,970 --> 00:06:39,300
+Então eu posso fazer isso por 8 nós temos 16 mais 8 que aí vai dar 24 4 4 mais uns 25 25 mais dois 27
+
+77
+00:06:39,690 --> 00:06:42,120
+27 mais 8 vai dar 35.
+
+78
+00:06:42,270 --> 00:06:49,350
+Então nós temos aqui a lógica que é aplicada no idoso sempre você tem um acumulador e você tem o número
+
+79
+00:06:49,730 --> 00:06:54,440
+e a partir desse acumulado mais o elemento atual não você tem acumulado acumulador mas o numero não
+
+80
+00:06:54,450 --> 00:07:00,990
+se tem acumulador é o alimento atual e você aplica algum tipo de lógica pra gerar o próximo valor que
+
+81
+00:07:00,990 --> 00:07:03,530
+será passar como acumulador para a próxima função.
+
+82
+00:07:03,540 --> 00:07:09,540
+Essa é a idéia do 2 forma resumida colocando como exemplo bem simples pra isso mais do que você como
+
+83
+00:07:09,550 --> 00:07:15,360
+eu já falei é o que você pode usar como acumulador que você pode ter como elemento é muito flexível
+
+84
+00:07:15,360 --> 00:07:18,000
+e a partir daí você pode criar lógicas bem interessante.
+
+85
+00:07:18,000 --> 00:07:22,950
+No caso do idoso eu vou fazer o seguinte vou fazer 3 exercício para que a gente possa ver perspectivas
+
+86
+00:07:22,950 --> 00:07:25,020
+diferentes de como usar o Windows.
+
+87
+00:07:25,170 --> 00:07:30,690
+Eu não vou propor pra vocês um desafio de Windows mas eu vou executar três exercícios diferentes o que
+
+88
+00:07:30,690 --> 00:07:36,350
+eu acho que vai abrir muito a mente de vocês e também vou aproveitar para aplicar junto do Windows e
+
+89
+00:07:36,360 --> 00:07:39,390
+também o filtra e o Mac porque é muito usado.
+
+90
+00:07:39,390 --> 00:07:43,530
+São três operações bem usadas e é interessante que a gente veja isso na prática.
+
+91
+00:07:43,680 --> 00:07:48,720
+E pra isso eu vou quebrar em exercício começando com o exercício mais simples depois fazendo um exercício
+
+92
+00:07:48,720 --> 00:07:54,440
+intermediário depois fazer um exercício um pouco mais avançado para vocês entenderem algumas flexibilidade
+
+93
+00:07:54,720 --> 00:07:57,230
+que é possível fazer em Java e então fico por aqui.
+
+94
+00:07:57,230 --> 00:08:03,670
+Espero que tenha ficado clara a ideia do Edu se você reduzir sim sumários aquilo que está a apresentar
+
+95
+00:08:03,670 --> 00:08:09,630
+em todos os elementos de alguma forma usando esse tipo de função com acumulador e o número atual é lógico
+
+96
+00:08:09,700 --> 00:08:13,260
+que você vai fazer pra pegar esse jogar o acumulador.
+
+97
+00:08:13,500 --> 00:08:18,870
+é super flexível você que define como é que vai fazer isso e também uma função que agrega muito valor
+
+98
+00:08:18,870 --> 00:08:20,670
+no dia a dia para que você possa dominar.
+
+99
+00:08:20,880 --> 00:08:24,810
+Então fico por aqui na próxima a gente vai fazer o primeiro exercício Dual SIM e até lá.

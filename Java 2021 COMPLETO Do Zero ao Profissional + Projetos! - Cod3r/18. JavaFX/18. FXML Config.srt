@@ -1,0 +1,247 @@
+1
+00:00:00,090 --> 00:00:08,190
+Só nós vamos agora usar esse exercício a partir do FX ml que é uma linguagem de marcação muito parecido
+
+2
+00:00:08,520 --> 00:00:15,510
+com o HTML só que baseado em XML para que a gente possa construir nossas interfaces gráficas a partir
+
+3
+00:00:15,840 --> 00:00:22,230
+dessa linguagem de marcação e para isso a gente vai acabar criando um novo pacote mas eu vou precisar
+
+4
+00:00:22,230 --> 00:00:29,440
+fazer uma configuração naqueles para facilitar a nossa vida com relação à criação do XML.
+
+5
+00:00:29,460 --> 00:00:38,120
+Então vou criar aqui um novo arquivo nova Classic o nome da classe C app FX ml.
+
+6
+00:00:38,400 --> 00:00:41,360
+Vou colocar no pacote XML.
+
+7
+00:00:41,460 --> 00:00:51,330
+Então já que essa classe fx fx ml vai precisar sem sinalizar então qual é o seguinte Ok estantes application
+
+8
+00:00:51,870 --> 00:00:54,300
+a gente vai criar aqui um método estático.
+
+9
+00:00:54,300 --> 00:01:02,700
+A gente tem feito anteriormente nos outros exercícios vou colocar aqui o método para chamar aqui o Alt
+
+10
+00:01:03,240 --> 00:01:13,920
+e ou simplesmente daqui só pra começar tem outro show e a gente vai tentar executar essa classe primeiro
+
+11
+00:01:13,920 --> 00:01:16,420
+que eu preciso ver no módulo info.
+
+12
+00:01:16,590 --> 00:01:19,500
+Vou precisar abri ou bens.
+
+13
+00:01:19,590 --> 00:01:29,490
+O pacote FX ml além de ter aberto já o básico layout também vou precisar fazer um bico em cima de Java
+
+14
+00:01:30,450 --> 00:01:39,210
+FX ponto FX ml também será requerido pra funcionar o nosso exercício primeiro não vai ser requerido
+
+15
+00:01:39,240 --> 00:01:42,390
+mas eu vou só estar tar esse código aqui.
+
+16
+00:01:42,390 --> 00:01:46,890
+Vocês vão ver que ele vai inicializar não vai acontecer absolutamente nada.
+
+17
+00:01:46,890 --> 00:01:53,340
+O que está faltando a gente fazer aquela configuração é acessando aquilo lá no Configuration tal como
+
+18
+00:01:53,350 --> 00:02:00,570
+a última clássica que foi essa ele já aparece por não vou entrar com argumentos desmarcar isso aplicar
+
+19
+00:02:00,660 --> 00:02:04,140
+se ou executar novamente ele vai aparecer a tela pra gente.
+
+20
+00:02:04,140 --> 00:02:07,490
+Ou seja a parte de configuração básica está funcionando.
+
+21
+00:02:07,590 --> 00:02:17,020
+Se eu quiser criar um novo arquivo eu vou colocar aqui outra e vou tentar selecionar um arquivo XML.
+
+22
+00:02:17,040 --> 00:02:19,160
+Ele não vai mostrar absolutamente nada.
+
+23
+00:02:19,310 --> 00:02:23,790
+E é exatamente essa configuração que eu quero trabalhar com vocês agora a gente está lá um pouquinho
+
+24
+00:02:23,840 --> 00:02:32,070
+e tem a facilidade de poder Apache do ISA e de criação de arquivo t a possibilidade de escolher um arquivo
+
+25
+00:02:32,370 --> 00:02:33,240
+XML.
+
+26
+00:02:33,450 --> 00:02:38,450
+Então aqui onde tem Eclipse Market plays eu vou abrir a tela.
+
+27
+00:02:38,590 --> 00:02:40,920
+Ele é um pouco digamos assim lento.
+
+28
+00:02:41,120 --> 00:02:47,970
+O market Play esse mais gente colocar aqui ou já vão estar aqui pensando assim que terminar de pensar
+
+29
+00:02:47,970 --> 00:02:54,030
+eu volto pra gente colocar aqueles que determinou ainda não sei se ele iria conseguir rolar aqui brotam
+
+30
+00:02:54,390 --> 00:03:03,240
+apareceu então Java FX e eu vou procurar saber quais são os plugins que tenho baseado no Java FX e ele
+
+31
+00:03:03,240 --> 00:03:06,240
+vai mostrar algo específico Eclipse que é esse aqui.
+
+32
+00:03:06,370 --> 00:03:13,710
+E FX Eclipse 3 com 6 pontos ela é a versão mais atual eu estar lá então vou clicar aqui tal ele vai
+
+33
+00:03:13,710 --> 00:03:19,800
+mostrar um estelas a gente vai simplesmente seguir o fluxo depois ele vai inicializar o eclipse e tornar
+
+34
+00:03:20,280 --> 00:03:21,680
+esse bloguinho ativo.
+
+35
+00:03:22,080 --> 00:03:26,640
+Ele vai pensar mais um pouco aqui mas só tem um pouquinho de paciência que ele vai conseguir passar
+
+36
+00:03:26,640 --> 00:03:28,280
+por todo o processo de instalação.
+
+37
+00:03:28,470 --> 00:03:29,820
+Eu vou pausar o vídeo.
+
+38
+00:03:29,910 --> 00:03:34,830
+Eu não sei se vai ser necessário pausar ou pausar o vídeo e acelerar até o ponto que vai aparecer as
+
+39
+00:03:34,830 --> 00:03:39,210
+telas estão lá porque a gente volta para o alto até que não foi tão bem humorado assim então vou colocar
+
+40
+00:03:39,210 --> 00:03:46,080
+aqui não aceitar finalizar ele vai fazer o processo de instalação assim que terminar o processo de instalação
+
+41
+00:03:46,440 --> 00:03:52,320
+ele vai pedir pra reinicialização e equilíbrio eu vou fazer isso e ele tá fazendo aqui Beco suplicar
+
+42
+00:03:52,320 --> 00:03:57,120
+que ele vai mostrar o progresso que ele está fazendo na instalação quando ele terminar o processo a
+
+43
+00:03:57,120 --> 00:04:00,060
+gente volta aqui sempre que aparece alguma coisa pra gente selecionar.
+
+44
+00:04:00,070 --> 00:04:06,770
+Pronto o processo de instalação correu de forma bem sucedida ele está apanhando pra inicializar o eclipse
+
+45
+00:04:06,780 --> 00:04:12,510
+eu vou selecionar aqui registar final e cinco equipes voltar a ficar ativo novamente a gente volta aqui
+
+46
+00:04:12,510 --> 00:04:18,480
+no vídeo não faço o mesmo processo aí aí vai estar habilitado nosso pouquinho do Java FX para o pessoal
+
+47
+00:04:18,480 --> 00:04:25,560
+com equipe sem socializado o nosso projeto configurado eu vou entrar novamente aqui no exercício inclusive
+
+48
+00:04:25,560 --> 00:04:35,520
+tá tá errada que o nome do projeto não mexeu no meu projeto agora que eu percebi exercícios Java e FX.
+
+49
+00:04:35,640 --> 00:04:41,940
+Dessa forma não vou colocar isso no repositório Java com o nome correto então ele só pensa mais um pouquinho
+
+50
+00:04:41,940 --> 00:04:46,680
+aqui pra mudar o nome do projeto que pouca gente volta alto o nome do projeto mudado.
+
+51
+00:04:46,680 --> 00:04:54,550
+Corrigido agora o erro é aqui dentro do pacote em F XML eu vou clicar com o botão direito só pra gente
+
+52
+00:04:54,670 --> 00:05:00,920
+ver se realmente o plug in foi instalado corretamente vou selecionar aqui outro assim a opção Arquivo
+
+53
+00:05:01,050 --> 00:05:08,460
+em minha área vou colocar aqui aqui XML é marca local XML Document ou seja ele já vai facilitar para
+
+54
+00:05:08,460 --> 00:05:10,530
+a gente a criação desse arquivo.
+
+55
+00:05:10,530 --> 00:05:17,400
+O nome do arquivo que eu vou chamar de login login vai construir uma tela simples de login e eu vou
+
+56
+00:05:17,400 --> 00:05:25,250
+usar como um elemento curti um borda bem que a gente já viu na parte de layout de usar essa opção e
+
+57
+00:05:25,380 --> 00:05:28,310
+pronto no pacote é preciso ml o nome vai ser login.
+
+58
+00:05:28,320 --> 00:05:35,400
+Vou finalizar ele vai criar um arquivo login ponto é preciso ml cujo o nó raiz digamos assim vai ser
+
+59
+00:05:35,400 --> 00:05:36,460
+um Borda.
+
+60
+00:05:36,930 --> 00:05:40,350
+Então fique por aqui nessa parte de configuração.
+
+61
+00:05:40,350 --> 00:05:47,510
+Na próxima aula a gente vai agora integrar esse arquivo ou a parte do Cole onde vai carregar esse arquivo
+
+62
+00:05:47,520 --> 00:05:49,820
+mostra alguma coisa na tela e para lá.

@@ -1,0 +1,183 @@
+1
+00:00:00,300 --> 00:00:07,350
+A ideia dos genéricos é você atrasar digamos assim a definição de determinados tipos de você deixar
+
+2
+00:00:07,350 --> 00:00:09,440
+os tipos para serem resolvidos.
+
+3
+00:00:09,450 --> 00:00:16,520
+Depois você pode simplesmente não resolver o tipo e ele vai assumir que aquilo ali é do tipo algo que
+
+4
+00:00:16,920 --> 00:00:22,400
+você pode resolver o tipo no momento da instancia ação que a gente fez na aula passada e na sala mostra
+
+5
+00:00:22,410 --> 00:00:25,300
+para vocês como resolver o tipo a partir da herança.
+
+6
+00:00:25,590 --> 00:00:34,710
+Então para isso eu vou criar aqui uma nova classe chamada caixa que é o caixa associado a essa caixinha.
+
+7
+00:00:34,770 --> 00:00:43,360
+Eu vou fazer vou ajudar a caixa que nós definimos na aula passada e você percebe que a Caixa Aqui.
+
+8
+00:00:43,470 --> 00:00:51,520
+Ela tem um tipo genérico para ser definido lá se eu não quiser definir e se eu quiser passar isso com
+
+9
+00:00:51,530 --> 00:00:55,450
+a responsabilidade para a outra classe eu posso fazer isso pode.
+
+10
+00:00:55,470 --> 00:01:02,330
+Você pode criar aqui um genérico do tipo X qualquer coisa que você queira colocar e aí você passa para
+
+11
+00:01:02,330 --> 00:01:08,750
+a Caixa o tipo X de tal forma que você conseguiu herdar funcionalidades.
+
+12
+00:01:08,880 --> 00:01:15,780
+E você ainda está colocando a responsabilidade para quem instancia se a caixinha onde passa o tipo eu
+
+13
+00:01:15,780 --> 00:01:21,020
+vou começar um exemplo desse jeito depois eu vou substituir e fazer do jeito que eu quero gerar no final
+
+14
+00:01:21,030 --> 00:01:29,100
+então vou criar aqui uma outra classe chamada caixa de teste.
+
+15
+00:01:29,500 --> 00:01:40,650
+Vou criar um metro no meio e nós vamos definir uma caixa que eu vou colocá lo pra ser do tipo string
+
+16
+00:01:40,770 --> 00:01:43,070
+que não tem nada a ver que é um caixa de inteira.
+
+17
+00:01:43,320 --> 00:01:53,730
+Então vou chamar aquele caixa recebe caixa onde ele colocou o estribo mas eu vou colocar sem especificar
+
+18
+00:01:53,730 --> 00:02:02,080
+o tipo e que obviamente já quero o tipo string coloquei água da idade verdade para guardar e para aguardar
+
+19
+00:02:02,420 --> 00:02:04,360
+e aguardar.
+
+20
+00:02:05,420 --> 00:02:15,180
+Então o método é para ser guardado e eu fiz aguada a pedido do outro exercício então vou mudar tudo
+
+21
+00:02:15,180 --> 00:02:23,320
+certo ou aguardar aguardar e finalmente vou colocar daqui guardar.
+
+22
+00:02:23,340 --> 00:02:24,890
+Pronto.
+
+23
+00:02:24,930 --> 00:02:34,590
+Agora fizemos a atualização vou chamar para aguardar e vou passar com esse time de teste ou seja funciona
+
+24
+00:02:35,040 --> 00:02:47,940
+como da outra forma então string coisa a recebe caixa a ponto de abri e no final eu posso mostrar a
+
+25
+00:02:47,940 --> 00:02:56,610
+coisa que eu obtive da Caixa executando sem nenhum problema ou seja mesmo com a herança você pode se
+
+26
+00:02:56,610 --> 00:03:01,550
+quiser não resolver o tipo e passar o tipo ainda pra frente pra ser resolvido depois.
+
+27
+00:03:01,560 --> 00:03:08,880
+Mas não é o caso que eu quero que essa caixinha resolva o tipo genérico e a caixinha não tenha tipo
+
+28
+00:03:08,880 --> 00:03:10,500
+genérico associado.
+
+29
+00:03:10,500 --> 00:03:13,370
+Aqui eu posso colocar na internet por exemplo.
+
+30
+00:03:13,530 --> 00:03:19,830
+Então nesse caso eu resolvi o tipo genérico de tal forma que a Caixa já não é do tipo genérico então
+
+31
+00:03:19,840 --> 00:03:27,900
+aqui eu não vou colocar do tipo string não vou colocar o tipo genérico aqui e obviamente se eu for guardar
+
+32
+00:03:27,900 --> 00:03:34,590
+alguma coisa tem que ser do tipo inteiro e o resultado também tem que ser do tipo inteiro já que eu
+
+33
+00:03:34,590 --> 00:03:40,010
+resolvi o tipo genérico no momento da herança e não no momento distanciar o objeto.
+
+34
+00:03:40,010 --> 00:03:45,530
+Qual não foi instancia o objeto da caixinha que já tem o seu tipo genérico resolvido.
+
+35
+00:03:45,620 --> 00:03:52,290
+Eu vou usar ela como um objeto normal porque não preciso especificar genéricos porque quem não quiser
+
+36
+00:03:52,290 --> 00:03:57,870
+guardar alguma coisa na caixa eu vou passar o valor do tipo inteiro e quando eu quiser abri a caixa
+
+37
+00:03:58,320 --> 00:04:03,440
+eu vou obter o valor logotipo inteiro porque isso foi resolvido no momento da herança.
+
+38
+00:04:03,440 --> 00:04:06,100
+Então é algo também a ser observado né.
+
+39
+00:04:06,110 --> 00:04:12,060
+Quando você cria um tipo genérico você está ligando se atrasando a definição daquele tipo para o momento
+
+40
+00:04:12,060 --> 00:04:17,890
+mais apropriado quando fosse usada ou mesmo quando você instancia ou quando você for criar uma herança.
+
+41
+00:04:17,890 --> 00:04:23,970
+São duas formas que você tem pra resolver e tem mais alguns detalhes sobre os tipos genéricos associado
+
+42
+00:04:23,970 --> 00:04:25,100
+a métodos.
+
+43
+00:04:25,200 --> 00:04:27,860
+Você define algumas restrições.
+
+44
+00:04:27,860 --> 00:04:35,970
+Por exemplo eu quero que uma determinada caixa aceite números tanto da aba como é possível fazer isso
+
+45
+00:04:36,030 --> 00:04:39,060
+e achar na próxima aula para vocês essa possibilidade.
+
+46
+00:04:39,360 --> 00:04:39,970
+Eu espero lá.

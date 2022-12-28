@@ -1,0 +1,475 @@
+1
+00:00:00,310 --> 00:00:08,990
+Penso agora nós vamos falar do alho e para isso nós vamos criar uma nova classe em classe nome da classe
+
+2
+00:00:08,990 --> 00:00:17,660
+Ceará do Brasil e vamos criar aqui um método para essa gente entrar na própria mente no exemplo.
+
+3
+00:00:18,210 --> 00:00:23,550
+Eu quero comentar com vocês um pouquinho daquilo que a gente já viu até aqui nós vimos ficar postura
+
+4
+00:00:23,580 --> 00:00:27,320
+condicional e a anatomia do é mais ou menos assim você tem f.
+
+5
+00:00:27,510 --> 00:00:30,120
+Você tem um par de parênteses aqui no meio.
+
+6
+00:00:30,120 --> 00:00:34,010
+Você tem uma expressão quebradeira falso depois do chefe.
+
+7
+00:00:34,020 --> 00:00:42,150
+Você tem uma sentença de código terminada com um ponto e vírgula ou um bloco de código pode estar associado
+
+8
+00:00:42,240 --> 00:00:42,880
+ao erro.
+
+9
+00:00:43,320 --> 00:00:50,560
+Essa mesma estrutura aqui você vai encontrar no qual eu você vai ter logo depois uma expressão que retorna
+
+10
+00:00:50,610 --> 00:00:52,120
+verdadeiro ou falso.
+
+11
+00:00:52,170 --> 00:00:56,430
+Você tem uma única sentença associada ao ai você pode também ter.
+
+12
+00:00:56,820 --> 00:00:59,820
+Ou então você tem um bloco de código associado ao laia.
+
+13
+00:00:59,880 --> 00:01:05,100
+Obviamente o vai definir se mais e tal não uma determinada sentença de código.
+
+14
+00:01:05,100 --> 00:01:11,580
+No caso do áudio ele vai ser a expressão fulana dele ficar repetindo uma sentença ou um bloco de código.
+
+15
+00:01:11,580 --> 00:01:18,180
+São duas possibilidades embargos a gente também viu o forró a diferença do forró aqui dentro dos parentes
+
+16
+00:01:18,590 --> 00:01:25,680
+nós temos três partes nós temos a inicialização da variável nós temos aqui a expressão e finalmente
+
+17
+00:01:25,680 --> 00:01:33,110
+a modificação na variável que pode ser incremento de Sacramento ou atribuição aditiva multiplicativo
+
+18
+00:01:33,120 --> 00:01:37,270
+ou divisível e tal se pode mexer na variável da forma que você preferir.
+
+19
+00:01:37,440 --> 00:01:42,870
+é também associada ao fole você tem essa mesma estrutura você pode ter uma única sentença de código
+
+20
+00:01:43,230 --> 00:01:48,930
+não necessariamente você precisa ter partes chaves ou você pode ter um bloco de código com uma ou mais
+
+21
+00:01:48,930 --> 00:01:51,780
+sentenças inclusive para ter um bloco de código vazio.
+
+22
+00:01:51,870 --> 00:02:00,120
+Então essa estrutura quando a gente vai migrar ou escreveu do ai você tem Dudu você tem um bloco de
+
+23
+00:02:00,120 --> 00:02:06,150
+código aqui e você não tem nenhuma expressão associada ao Dudu na verdade a expressão está depois do
+
+24
+00:02:06,150 --> 00:02:11,970
+bloco que é uma diferença com relação às outras três você tem que no final o áudio e a expressão aqui
+
+25
+00:02:11,970 --> 00:02:18,240
+dentro e essa é a única estrutura de controle que termina com ponto e vírgula certo diferente das outras
+
+26
+00:02:18,240 --> 00:02:24,050
+as outras tem ponto e vírgula associado à sentença de código e não à própria estrutura de controle.
+
+27
+00:02:24,450 --> 00:02:33,480
+Então o bloco de código ou a sentença está depois do EF e aqui nesse caso o bloco de código ou a sentença
+
+28
+00:02:33,540 --> 00:02:42,720
+está antes do AI ou seja antes da expressão mas depois do duo o Duo não tem nenhum nenhum filtro digamos
+
+29
+00:02:42,720 --> 00:02:47,880
+assim era simplesmente uma palavra em que você coloca um bloco de código e depois do bloco você tem
+
+30
+00:02:47,970 --> 00:02:48,520
+o apoio.
+
+31
+00:02:48,520 --> 00:02:54,290
+Uma das diferenças que você vai perceber é que com relação a ele o Dubai ou melhor dizendo o seguinte
+
+32
+00:02:54,480 --> 00:03:02,250
+no exemplo passado se na linha 11 o valor da variável da histria fosse sair e você executasse esse código
+
+33
+00:03:02,580 --> 00:03:07,880
+você vê que nem nada esse mostrado pelo usuário ele chegar aqui na primeira vez essa expressão esse
+
+34
+00:03:07,880 --> 00:03:15,400
+ser falso ele não ia entrar exatamente uma vez o bloco já ia sair do seu código seja uma estrutura ou
+
+35
+00:03:15,450 --> 00:03:21,370
+pode ser executado zero vezes pois é executado uma quantidade indeterminada de vezes certo.
+
+36
+00:03:21,390 --> 00:03:27,510
+Já a estrutura do usuário pelo menos uma vez ela será executada e é exatamente o que eu vou mostrar
+
+37
+00:03:27,510 --> 00:03:27,930
+agora.
+
+38
+00:03:27,930 --> 00:03:32,240
+Eu não sei nem se eu deveria dar essa dica porque vai fazer com que você escreva menos código.
+
+39
+00:03:32,670 --> 00:03:38,040
+Mas eu acho que é importante isso já abrindo parênteses é bem é importantíssimo que durante o curso
+
+40
+00:03:38,400 --> 00:03:44,480
+você escreva muito para o prisão onde você está começando a programar agora e fazer os exercícios e
+
+41
+00:03:44,490 --> 00:03:49,370
+olhar o que eu estou fazendo ou tentar escrever no primeiro momento você vai copiando sentença por sentença
+
+42
+00:03:49,380 --> 00:03:55,110
+depois você fecha ali graus e tenta fazer com aquilo que eu mostrei pra você pra você tentar andar com
+
+43
+00:03:55,110 --> 00:04:02,430
+suas próprias pernas mais uma dica legal é se você entrar em preferências e você digitar aqui por exemplo
+
+44
+00:04:02,430 --> 00:04:06,720
+tem leite ou tem implantes no plural você vai ter que Java.
+
+45
+00:04:06,900 --> 00:04:12,750
+Editor template você entrar no aqui você consegue criar trechos de código que podem ser reutilizados
+
+46
+00:04:12,750 --> 00:04:19,320
+dentro da ideia e assim como a gente tem aqui s y S é algo que vai dar um trecho de código pra gente
+
+47
+00:04:19,320 --> 00:04:20,310
+automaticamente.
+
+48
+00:04:20,730 --> 00:04:25,230
+Você pode criar esses trechos eu vou mostrar pra vocês aqui ou entrando em Java.
+
+49
+00:04:25,230 --> 00:04:29,300
+Editor template certo Java editor de templates.
+
+50
+00:04:29,310 --> 00:04:31,270
+No plural você cria um novo.
+
+51
+00:04:31,270 --> 00:04:43,740
+Vou colocar aqui por exemplo entrada e eu vou colocar aqui usa o scanner para uso o scanner só isso
+
+52
+00:04:43,750 --> 00:04:44,550
+é suficiente.
+
+53
+00:04:44,580 --> 00:04:53,350
+Eu vou colocar esse cara aí eu escrevo código eu sou o que sempre escrevem na entrada recebe esse canal
+
+54
+00:04:54,130 --> 00:04:56,440
+e os parentes que assistem.
+
+55
+00:04:56,510 --> 00:04:58,680
+Ponto e Vírgula.
+
+56
+00:04:58,860 --> 00:05:03,550
+Aqui no final entrada Porto Clouds.
+
+57
+00:05:03,670 --> 00:05:09,210
+E se eu quiser que no meio eu posso inserir uma variável em sete variáveis e pegar aqui por exemplo
+
+58
+00:05:09,210 --> 00:05:10,270
+o cursor.
+
+59
+00:05:10,410 --> 00:05:13,220
+Ele vai lá e coloca um cursor que para mim.
+
+60
+00:05:13,230 --> 00:05:18,360
+Vamos supor que eu quero colocar um comentário aqui de código e eu quero inserir o usuário.
+
+61
+00:05:18,360 --> 00:05:21,500
+Posso descer aqui ao pegar o usuário.
+
+62
+00:05:21,690 --> 00:05:27,620
+Quero colocar também a data lá para que a data chega nesta data 15 Valdete.
+
+63
+00:05:27,900 --> 00:05:33,600
+E aí ele pode criar um trecho de código reutilizável que você consegue colocar algumas informações interessantes
+
+64
+00:05:33,600 --> 00:05:39,300
+inclusive algumas variáveis como é o caso o boneco marcar a posição do cursor no final do seu código
+
+65
+00:05:39,300 --> 00:05:45,540
+certo então ele vai criar e vai colocar o cursor então selecionando aquele Key e olhando aqui embaixo
+
+66
+00:05:45,540 --> 00:05:52,020
+ou você está vendo que foi criado mais um zíper tiver mais um trecho de código reutilizável que usamos
+
+67
+00:05:52,020 --> 00:05:59,210
+dentro de arquivos já clicar aqui em close se digitar a entrada e um outro espaço automaticamente ele
+
+68
+00:05:59,220 --> 00:06:00,680
+já coloca para a gente o escaneia.
+
+69
+00:06:01,110 --> 00:06:08,880
+E aqui você pode dar um espaço pra ele importar Escânia ou mesmo usando o Control Shift ou no caso do
+
+70
+00:06:08,880 --> 00:06:15,210
+Windows e do linux pra ele e organizar os impostos ou então no caso do Mac ao comando Shift ele vai
+
+71
+00:06:15,210 --> 00:06:19,490
+marchar para a gente qual escaneia a gente quer no caso quer o Java útil.
+
+72
+00:06:19,540 --> 00:06:25,020
+E aí ele traz para a gente o Serginho consegue ter um trecho trechos reutilizáveis criando em System
+
+73
+00:06:25,040 --> 00:06:30,780
+pleitos hoje PTN como a gente usa também é uma palavra que representa trechos de código que a gente
+
+74
+00:06:30,780 --> 00:06:36,600
+pode usar e registrar dentro dos editores ou no caso daqueles da ideia certo ou não no mais um indica
+
+75
+00:06:36,600 --> 00:06:42,270
+aí não relacionado com o nosso exemplo então agora nós temos aqui eu vou criar o Edu porque a palavra
+
+76
+00:06:42,270 --> 00:06:48,040
+em reservada da linguagem Java vou definir um bloco de código depois do bloco Eu Vou colocar o áudio
+
+77
+00:06:48,370 --> 00:06:52,870
+e aqui dentro nós vamos ter a nossa expressão que vai retornar Verdadeiro ou falso.
+
+78
+00:06:52,890 --> 00:06:57,010
+é isso mesmo que eu coloquei verdadeiro aqui outro é salve.
+
+79
+00:06:57,420 --> 00:07:03,090
+A gente só vai ter essa expressão escrita de forma correta se eu colocar no final um ponto e vírgula.
+
+80
+00:07:03,630 --> 00:07:09,600
+Essa é a única expressão que reclamar por quê ele nunca vai chegar nesse trecho recorde se colocar um
+
+81
+00:07:09,600 --> 00:07:12,330
+falso aqui certo ele vai parar de reclamar.
+
+82
+00:07:12,480 --> 00:07:17,310
+Então essa é a única estrutura de controle que a expressão está depois do bloco certo.
+
+83
+00:07:17,320 --> 00:07:23,100
+Assim também com a palavra no ar depois do blog e o do aqui ele não causa nenhum filtro é obrigatoriamente
+
+84
+00:07:23,110 --> 00:07:30,930
+o executa pelo menos não vejo diferente da estrutura passada o áudio que será a primeira vez essa expressão
+
+85
+00:07:30,930 --> 00:07:36,990
+fosse falsa ele não executava aqui o código no caso do áudio obrigatoriamente pelo menos uma vez esse
+
+86
+00:07:36,990 --> 00:07:38,180
+trecho será executado.
+
+87
+00:07:38,560 --> 00:07:45,320
+E aqui para a gente fazer os testes faz o seguinte Aqui fora eu vou criar um estilingue chamado valor.
+
+88
+00:07:45,680 --> 00:07:53,310
+Vou colocar aqui ou então texto para dizer valor texto como faz colocar aquele texto aqui dentro eu
+
+89
+00:07:53,310 --> 00:08:04,470
+vou fazer o seguinte existem Audio print além de definir aqui um estilingue você precisa falar as palavras
+
+90
+00:08:05,700 --> 00:08:08,890
+mágicas vírgula.
+
+91
+00:08:09,000 --> 00:08:15,270
+Aqui está muito grande eu posso até o momento em que ele vai quebrar em mais de uma sentença e já colocando
+
+92
+00:08:15,380 --> 00:08:21,680
+o mais para concatenar as strings aí eu vou colocar aqui um system Alt Print ele coloca o pensamento
+
+93
+00:08:21,680 --> 00:08:29,580
+de Geninho e coloca a seguinte pergunta quem sai e aí usuario ou capturados o ar a partir da entrada
+
+94
+00:08:29,670 --> 00:08:35,390
+dentro você associar o texto a um texto recebe entrada.
+
+95
+00:08:35,440 --> 00:08:39,450
+Ponto lá vai que.
+
+96
+00:08:39,930 --> 00:08:46,530
+E aí eu vou verificar se o texto enquanto o texto foi diferente de sair então vou colocar aqui o texto
+
+97
+00:08:47,550 --> 00:08:52,780
+e os ignore que na verdade saí não houve qualquer sinal por favor.
+
+98
+00:08:52,810 --> 00:08:55,010
+Que são as palavras mágicas.
+
+99
+00:08:55,530 --> 00:09:00,360
+Ou seja seu uso se for diferente por favor ele vai continuar perguntaram para usuario e se o usuário
+
+100
+00:09:00,390 --> 00:09:02,520
+está por favor ele vai sair.
+
+101
+00:09:02,550 --> 00:09:10,390
+Aí eu posso colocar aqui no final obrigado então a diferença que você tem no passado e que nesse caso
+
+102
+00:09:10,390 --> 00:09:13,000
+pelo menos uma vez o bloco é executado.
+
+103
+00:09:13,390 --> 00:09:20,800
+Então se eu já começar o nosso texto como por favor isso não vai causar nenhum impacto porque ele vai
+
+104
+00:09:20,800 --> 00:09:25,910
+continuar a pergunta você precisa falar as palavras mas a aposta acabará aqui.
+
+105
+00:09:26,180 --> 00:09:29,740
+Tal Barney pra quebra mas ele está aqui.
+
+106
+00:09:29,740 --> 00:09:36,420
+Vou colocar trecho ele vai dizer você precisa falar a palavra mágica e colocar por favor.
+
+107
+00:09:36,430 --> 00:09:43,480
+Aí sim ele diz obrigado e saiu Cole só pra testar o que você precisa falar as palavras mágicas.
+
+108
+00:09:43,480 --> 00:09:50,050
+Se eu colocar por favor significa que ele vai sair do nosso laço mas pelo menos uma vez executado o
+
+109
+00:09:50,050 --> 00:09:54,640
+código aqui não faz muito sentido colocar isso coloca o texto está vazio.
+
+110
+00:09:54,640 --> 00:10:01,300
+Só pra finalizar se eu pudesse colocar um ranking pelo menos a minha experiência pessoal de quais nós
+
+111
+00:10:01,300 --> 00:10:06,310
+temos três estruturas de repetição que é o foco o olho do olho.
+
+112
+00:10:06,820 --> 00:10:12,210
+Olhando assim no arranque daquilo que eu uso mais no dia a dia eu diria que o foco é mais usado do que
+
+113
+00:10:12,430 --> 00:10:13,150
+eu.
+
+114
+00:10:13,180 --> 00:10:18,130
+Depois você usa o olho e por último o terceiro caso seria o do usuário.
+
+115
+00:10:18,280 --> 00:10:23,500
+Então pessoal nós vimos os três blocos quando mencionei pra vocês eu acabo usando mais o foco no dia
+
+116
+00:10:23,500 --> 00:10:26,150
+a dia e falando nele nas próximas horas.
+
+117
+00:10:26,150 --> 00:10:32,460
+Vamos ter outros exemplos pra gente poder aprofundar um pouco mais o laço foi então nós já vimos o áudio
+
+118
+00:10:32,740 --> 00:10:37,840
+vimos o do áudio vimos a primeira o primeiro exemplo de foco e na próxima lance a gente entrar realmente
+
+119
+00:10:37,840 --> 00:10:40,540
+no foco fazer o desafio e estar lá.

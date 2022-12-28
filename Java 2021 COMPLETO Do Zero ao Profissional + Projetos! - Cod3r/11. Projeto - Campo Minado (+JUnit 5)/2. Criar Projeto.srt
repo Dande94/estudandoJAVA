@@ -1,0 +1,547 @@
+1
+00:00:00,360 --> 00:00:04,940
+Agora nós vamos criar o nosso projeto que será o projeto do campo minado.
+
+2
+00:00:05,060 --> 00:00:10,410
+Vou clicar com o botão direito vou criar aqui um jarro para hoje que a gente não tem criado de forma
+
+3
+00:00:10,410 --> 00:00:15,210
+tão frequente criando lá no começo a clínica a faculdade o nosso projeto exercício.
+
+4
+00:00:15,210 --> 00:00:19,210
+De lá pra cá está criando basicamente pacotes e classes.
+
+5
+00:00:19,320 --> 00:00:25,550
+Então nesse caso eu vou criar o nome do projeto vou chamar aqui de campo traço minado.
+
+6
+00:00:25,600 --> 00:00:28,000
+Vou finalizar pode criar um novo projeto.
+
+7
+00:00:28,050 --> 00:00:31,310
+Ele vai perguntar se eu quero criar um módulo eu vou dizer que não quero criar.
+
+8
+00:00:31,320 --> 00:00:36,120
+A gente vai trabalhar com um módulo um pouco mais pra frente vai entender do que se trata esse recurso
+
+9
+00:00:36,130 --> 00:00:38,230
+tão interessante que surgiu na Java 9.
+
+10
+00:00:38,250 --> 00:00:43,620
+Outra coisa que eu quero fazer além de criar um projeto é sala vai ser algo mais curta e aí discuti
+
+11
+00:00:43,620 --> 00:00:50,440
+com vocês rapidamente sobre a questão da nomenclatura de pacotes porque a gente criou o nosso pacote
+
+12
+00:00:50,440 --> 00:00:51,480
+de exercícios.
+
+13
+00:00:51,480 --> 00:00:56,100
+Nós criamos aqui basicamente um pacote por capítulo.
+
+14
+00:00:56,100 --> 00:01:01,190
+Então nós tínhamos um capítulo em que trabalhavam as coleções o engenheiro criou dois pacotes na verdade
+
+15
+00:01:01,210 --> 00:01:06,510
+a raiz de coleções um Cappelli Um capítulo falando sobre classes e métodos.
+
+16
+00:01:06,540 --> 00:01:12,890
+Eu queria um pacote chamado Classe D pois tinha tratamento de exceção fundamentos lambda só.
+
+17
+00:01:13,170 --> 00:01:20,280
+E aí a gente eventualmente criou o pacote na Nick Jonas criamos classe abstrata composição encapsulamento
+
+18
+00:01:20,280 --> 00:01:27,660
+herança polimorfismo e tem todas as classes dentro de cada um dos pacotes do ponto de vista de pacotes
+
+19
+00:01:27,660 --> 00:01:29,070
+ou de classes.
+
+20
+00:01:29,070 --> 00:01:35,530
+Você não tem não tem nenhum problema você tem classes com o mesmo nome certo a gente vai em vários números
+
+21
+00:01:35,590 --> 00:01:42,630
+criamos classes chamada cliente aluno produto está criando essas classes de forma repetida ao passar
+
+22
+00:01:42,630 --> 00:01:50,580
+dos capítulos o que você não pode deixar e classes que tem exatamente o nome completo igual ou seja
+
+23
+00:01:50,610 --> 00:01:54,730
+todo o caminho de pacotes mais o nome da classe é exatamente igual.
+
+24
+00:01:54,810 --> 00:02:01,980
+Não faz sentido por exemplo criar um pacote chamado Java dentro de Java criar um pacote chamado Playing
+
+25
+00:02:02,050 --> 00:02:09,810
+e dentro desse pacote Java lei criar uma classe string certo isso vai gerar um conflito com a classe
+
+26
+00:02:09,810 --> 00:02:13,050
+estilo que está dentro do J.D. dentro da API do Java.
+
+27
+00:02:13,440 --> 00:02:19,850
+Então nesse caso é muito importante que você evite ao máximo eventuais conflitos de nomes.
+
+28
+00:02:20,130 --> 00:02:25,460
+Quando você for usar não apenas a API do Java mas usar também bibliotecas de outras pessoas.
+
+29
+00:02:25,500 --> 00:02:32,340
+Então vamos supor que a Microsoft criou uma biblioteca Java para fazer por exemplo reconhecimento de
+
+30
+00:02:32,340 --> 00:02:32,890
+fala.
+
+31
+00:02:32,910 --> 00:02:34,920
+Você quer usar essa biblioteca.
+
+32
+00:02:34,920 --> 00:02:41,520
+Seria muito ruim se você gerasse uma classe que tem exatamente o mesmo nome da classe dessa biblioteca
+
+33
+00:02:41,520 --> 00:02:44,040
+da Microsoft que ia gerar um conflito.
+
+34
+00:02:44,100 --> 00:02:51,420
+Por isso quando você cria projetos certo esses projetos normalmente ele começam a nomenclatura de pacotes
+
+35
+00:02:51,420 --> 00:02:54,300
+com o endereço da empresa.
+
+36
+00:02:54,300 --> 00:02:59,970
+Ao contrário que seria o endereço do site da empresa ou do domínio da empresa então por exemplo no caso
+
+37
+00:02:59,970 --> 00:03:07,230
+da Microsoft criar um pacote com e dentro desse pacote criar um pacote chamado Microsoft TI dentro desse
+
+38
+00:03:07,410 --> 00:03:12,730
+pacote Microsoft poderia criar por exemplo um pacote chamado Windows que seria o nome do produto.
+
+39
+00:03:12,740 --> 00:03:15,810
+Aí você vai definir a nomenclatura de pacotes.
+
+40
+00:03:15,810 --> 00:03:20,890
+No nosso caso eu vou fazer o seguinte eu vou clicar com o botão direito em cima de SC ou criar aqui
+
+41
+00:03:20,940 --> 00:03:25,360
+um novo pacote e esse pacote eu vou colocar.
+
+42
+00:03:25,400 --> 00:03:27,520
+Vai ser dessa forma que o BR.
+
+43
+00:03:27,780 --> 00:03:31,080
+Ponto com ponto.
+
+44
+00:03:31,200 --> 00:03:37,290
+Ou seja o endereço da colônia ao contrário nosso nome em acordo com o com.br Mococa ao contrário B do
+
+45
+00:03:37,290 --> 00:03:41,510
+cubo de caldo em que a padronização que uso para aquele que eu estou colocando isso.
+
+46
+00:03:41,510 --> 00:03:43,070
+Pra que é que eu vou colocar br.
+
+47
+00:03:43,440 --> 00:03:49,350
+Depois de um pacote chamado cone pois o pacote chamado cooler para evitar os conflitos que eventualmente
+
+48
+00:03:49,350 --> 00:03:55,740
+possa acontecer em um projeto real em um projeto real além de você usar toda a API do Java tudo aquilo
+
+49
+00:03:55,740 --> 00:03:58,850
+que o Java já provê para você de forma automática.
+
+50
+00:03:59,010 --> 00:04:01,920
+Você vai querer usar a biblioteca para acessar o banco de dados.
+
+51
+00:04:01,920 --> 00:04:08,460
+Você vai querer acessar a biblioteca pra construir uma interface gráfica mais legal então você vai acabar
+
+52
+00:04:08,610 --> 00:04:14,850
+usando outras classes ou outras funcionalidades que são promovidas pelas empresas.
+
+53
+00:04:14,850 --> 00:04:17,380
+Então como você vai acabar tendo muitas classes.
+
+54
+00:04:17,380 --> 00:04:23,340
+Se você colocasse todas as classes e não tivesse nenhuma padronização de pacotes provavelmente você
+
+55
+00:04:23,340 --> 00:04:25,130
+ia chegar na situação de conflito.
+
+56
+00:04:25,230 --> 00:04:31,740
+Então por exemplo você tem até uma classe chamada vale Dentinho desenvolvida pela Microsoft de uma classe
+
+57
+00:04:31,780 --> 00:04:39,300
+válida desenvolvida pela hora com uma classe invalidez desenvolvida para dentro da biblioteca Java desenvolvida
+
+58
+00:04:39,300 --> 00:04:40,040
+pela Apple.
+
+59
+00:04:40,050 --> 00:04:44,840
+Quando você fosse juntar isso ia ter um monte de validade com o mesmo nome e gerar conflitos.
+
+60
+00:04:44,840 --> 00:04:47,600
+Você não conseguiu usar essas bibliotecas em conjunto.
+
+61
+00:04:47,600 --> 00:04:54,630
+Por isso sempre que você coloca começa um projeto definindo nomenclaturas de pacotes única e uma forma
+
+62
+00:04:54,630 --> 00:04:56,820
+padronizada que se trabalha em Java.
+
+63
+00:04:56,820 --> 00:05:03,510
+Você definiu o novo domínio da sua empresa ao contrário tão belo ponto com ponto coube aqui tem uma
+
+64
+00:05:03,510 --> 00:05:07,680
+empresa BI dentro de uma empresa você pode ter múltiplos projetos.
+
+65
+00:05:07,680 --> 00:05:10,450
+Você pode ter um um projeto Dia D.
+
+66
+00:05:10,470 --> 00:05:12,630
+Você pode ter um projeto de RP.
+
+67
+00:05:12,630 --> 00:05:18,250
+Você pode ter um projeto para trabalhar com um celular só com taxas de imposto.
+
+68
+00:05:18,270 --> 00:05:24,990
+Você pode ter um projeto para editar vídeo então você tem múltiplos projetos nesse caso o nosso projeto
+
+69
+00:05:24,990 --> 00:05:26,080
+é o campo minado.
+
+70
+00:05:26,160 --> 00:05:32,100
+Então pra não ficar muito grande ou muito pacote eu vou colocar apenas sei que seria a sigla de Campo
+
+71
+00:05:32,100 --> 00:05:37,410
+Minado então eu tenho o nome da empresa ao contrário de domínio da empresa ao contrário.
+
+72
+00:05:37,460 --> 00:05:39,810
+Logo depois eu tenho o nome do projeto.
+
+73
+00:05:39,810 --> 00:05:42,400
+Aqui nós temos o nosso pacote básico.
+
+74
+00:05:42,430 --> 00:05:47,330
+Eu sou obrigado a fazer isso não é apenas uma sugestão que a maioria das empresas utiliza.
+
+75
+00:05:47,330 --> 00:05:49,920
+Então você vai para uma empresa do governo federal.
+
+76
+00:05:49,920 --> 00:05:51,040
+Você vai ter br.
+
+77
+00:05:51,030 --> 00:05:55,670
+Ponto Gove ponto você lá data pra Hebe br ponto Gore.
+
+78
+00:05:55,680 --> 00:06:03,090
+Ponto Fazenda br ponto Globo ponto cérebro ou seja você vai ter pacotes que vão refletir essa estrutura
+
+79
+00:06:03,360 --> 00:06:04,640
+do domínio da empresa.
+
+80
+00:06:04,680 --> 00:06:12,240
+E aí logo depois você tem muitos projetos Projeto esse ela imposto de renda projeto e qualquer outro
+
+81
+00:06:12,240 --> 00:06:16,500
+projeto que tem muito pensando aqui na hora certa mas o fato é que nós temos aqui a nossa nomenclatura
+
+82
+00:06:16,500 --> 00:06:22,620
+de pacotes seguindo o padrão da nossa empresa aqui da cloud que você pode colocar a sua empresa fictícia
+
+83
+00:06:22,940 --> 00:06:24,540
+na empresa que você trabalha também.
+
+84
+00:06:24,540 --> 00:06:29,670
+Você não precisa seguir exatamente essa nomenclatura de pacotes e aqui depois o nosso projeto que é
+
+85
+00:06:29,670 --> 00:06:33,120
+o campo minado que eu coloquei as primeiras duas letras sem muito acerto.
+
+86
+00:06:33,120 --> 00:06:38,160
+Então nós temos aqui a nomenclatura da empresa no capítulo do pacote a partir daí a gente vai começar
+
+87
+00:06:38,160 --> 00:06:40,470
+a criar os nossos pacotes.
+
+88
+00:06:40,470 --> 00:06:48,180
+Eu vou criar basicamente três pacotes eu vou criar aqui um pacote chamado exceção então sempre pronto.
+
+89
+00:06:48,220 --> 00:06:50,280
+Essa ação vai ser nosso primeiro pacote.
+
+90
+00:06:50,340 --> 00:06:58,380
+Vou criar um outro pacote que eu vou chamar de modelo e vou criar um outro pacote que eu vou chamar
+
+91
+00:06:58,380 --> 00:06:59,580
+de visão.
+
+92
+00:07:00,180 --> 00:07:06,970
+Então basicamente para que serve esses três pacotes aqui eu vou criar as minhas exceções mas tem algumas
+
+93
+00:07:06,990 --> 00:07:08,590
+exceções no nosso projeto.
+
+94
+00:07:08,850 --> 00:07:15,840
+Então por exemplo sempre que o usuário selecionar um campo esse campo tiveram Amina significa que ela
+
+95
+00:07:15,870 --> 00:07:17,040
+vai explodir.
+
+96
+00:07:17,040 --> 00:07:23,360
+Correto então vou criar uma exceção chamada explosão e Sérgio não espera que por padrão aconteça uma
+
+97
+00:07:23,370 --> 00:07:26,450
+explosão mas quando acontecer eu vou disparar.
+
+98
+00:07:26,460 --> 00:07:31,850
+Vou lançar uma exceção uma exceção e necessariamente significa um erro.
+
+99
+00:07:31,890 --> 00:07:33,150
+Não é exceção.
+
+100
+00:07:33,150 --> 00:07:39,450
+Não necessariamente significa que aconteceu um erro na sua aplicação pode ser que você queira no momento
+
+101
+00:07:39,450 --> 00:07:45,690
+que você está nem no fluxo do jogo e você quer alterar o fluxo a partir de uma exceção é válido.
+
+102
+00:07:45,700 --> 00:07:51,760
+Eu me acho válido você usar uma exceção para algum ou algum cenário que você faça sentido no nosso cenário.
+
+103
+00:07:51,760 --> 00:07:57,840
+A explosão pode ser considerado como uma recessão então você está ali no fluxo do jogo e quer sair desse
+
+104
+00:07:57,840 --> 00:08:00,220
+fluxo do jogo usando a exceção.
+
+105
+00:08:00,270 --> 00:08:01,590
+é algo extremamente válido.
+
+106
+00:08:01,590 --> 00:08:05,400
+Nós vamos fazer isso e então nós vamos ter algumas exceções no nosso jogo.
+
+107
+00:08:05,400 --> 00:08:11,640
+Esse é outro pacote que o modelo vai ser o pacote que nós vamos usar para representar algumas classes
+
+108
+00:08:11,640 --> 00:08:14,280
+que representam a lógica do jogo.
+
+109
+00:08:14,600 --> 00:08:16,890
+Eu poderia chamar de lógica pode.
+
+110
+00:08:16,950 --> 00:08:18,560
+Você pode um ladrão que você quiser.
+
+111
+00:08:18,870 --> 00:08:24,150
+Existe um padrão de projeto chamado MVC Model via o controle.
+
+112
+00:08:24,150 --> 00:08:27,100
+Ou então o modelo visão controlador.
+
+113
+00:08:27,330 --> 00:08:32,940
+Nós não vamos usar propriamente dito esse padrão de projeto aqui mais baseado nesse padrão eu estou
+
+114
+00:08:32,940 --> 00:08:40,200
+colocando aqui o modelo pra se as classes que representam a lógica do jogo visão vai ser a parte responsável
+
+115
+00:08:40,200 --> 00:08:44,660
+por mostrar o jogo no console ou seja um terminal do nosso computador.
+
+116
+00:08:44,690 --> 00:08:49,710
+Visão é aquilo que o usuário vê aquilo que o usuário interage ou seja o usuário interage com a tela
+
+117
+00:08:49,780 --> 00:08:56,180
+e o sistema o usuário interage com a página na internet estão numa página na Internet são uma visão
+
+118
+00:08:56,170 --> 00:09:02,200
+a tela de um programa ou uma visão e se você está disponibilizando uma aplicação que roda no terminal.
+
+119
+00:09:02,370 --> 00:09:07,680
+Essa parte que vai ser exibida no terminal que o usuário pode digitar as informações é considerado como
+
+120
+00:09:07,680 --> 00:09:08,370
+avio.
+
+121
+00:09:08,430 --> 00:09:14,160
+A visão da sua aplicação a parte que interage com o usuário a parte que o usuário consegue interagir
+
+122
+00:09:14,160 --> 00:09:17,130
+certo lá é o vai e User Interface.
+
+123
+00:09:17,180 --> 00:09:23,270
+A interface de usuário por exemplo Eclipse quando você tem esse menu quando você tem essas opções é
+
+124
+00:09:23,270 --> 00:09:24,510
+aqui que você interage.
+
+125
+00:09:24,510 --> 00:09:32,990
+Isso aqui é a G o Inec é Gui ou a Graphic User Interface Interface de Usuário grave que no nosso caso
+
+126
+00:09:33,160 --> 00:09:36,260
+não vai usar a parte gráfica porque é no terminal.
+
+127
+00:09:36,270 --> 00:09:41,370
+Então nesse caso acaba chamando de e o olho e User Interface de forma mais genérica também está certo
+
+128
+00:09:41,400 --> 00:09:48,060
+então tudo aquilo que o usuário interage é a parte visual e a visão o app viu o modelo seria a lógica
+
+129
+00:09:48,060 --> 00:09:53,610
+da nossa aplicação e eu queria um pacote mais chamado exceção para a gente definir alguns assessores
+
+130
+00:09:53,940 --> 00:09:54,900
+na nossa aplicação.
+
+131
+00:09:54,900 --> 00:10:01,550
+Então basicamente o nosso projeto estará centrado nesses três pacotes outra questão também importante
+
+132
+00:10:01,560 --> 00:10:07,080
+que eu já posso ver se for o caso configurar agora já quem está criando nosso projeto não é o seguinte
+
+133
+00:10:07,080 --> 00:10:13,140
+pra não ficar muito grande na próxima vou configurar a parte dos testes para vocês como é que a gente
+
+134
+00:10:13,140 --> 00:10:17,900
+habilita o teste dentro da nossa aplicação para depois a gente usar o teste mais na frente.
+
+135
+00:10:18,090 --> 00:10:22,560
+Então fui por aqui na configuração do nosso projeto e principalmente falando a estrutura de pacotes
+
+136
+00:10:22,560 --> 00:10:27,310
+do nosso projeto e falando um pouquinho também do conceitual que é muito importante na próxima aula
+
+137
+00:10:27,420 --> 00:10:28,530
+continua e até lá.

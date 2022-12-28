@@ -1,0 +1,379 @@
+1
+00:00:00,420 --> 00:00:03,440
+Agora nós vamos fazer um exemplo usando a Bíblia.
+
+2
+00:00:03,460 --> 00:00:07,780
+Tá bom então pra isso nós vamos criar um clássico com o nome de Bíblia.
+
+3
+00:00:07,830 --> 00:00:15,960
+Nós vamos usar a estrutura do Java que achamos que eu vou colocar aqui pilha também.
+
+4
+00:00:15,990 --> 00:00:20,520
+O conceito de pilha imaginou uma pilha de livros antes de colocar um livro depois outro depois outro
+
+5
+00:00:20,520 --> 00:00:27,150
+depois outro claro que na vida real se tem como burlar digamos assim a lógica mais o caso da da pilha
+
+6
+00:00:27,150 --> 00:00:33,540
+não vai acontecer isso na prática na prática o último que entrou ou seja o lixo foi este o primeiro
+
+7
+00:00:33,540 --> 00:00:41,090
+a sair tão lanchinho foi e o lixo usado essa lógica para definir como era o comportamento de uma pilha
+
+8
+00:00:41,210 --> 00:00:42,860
+mas não definiu o método.
+
+9
+00:00:43,460 --> 00:00:50,430
+Eu vou usar aquilo que eu e vou definir no caso do meu daqui hoje já por importunar Java ponto onde
+
+10
+00:00:50,430 --> 00:00:54,160
+pontos daqui eu vou colocar aqui pra ser string.
+
+11
+00:00:54,780 --> 00:01:00,530
+Vou colocar o nome da minha Piragibe chamar aquilo de livros recebe mil.
+
+12
+00:01:00,900 --> 00:01:08,420
+E aí nós temos aqui um rei daquilo que ele implementa também uma pilha.
+
+13
+00:01:08,560 --> 00:01:14,610
+Então nós temos aqui a nossa pilha de livros e pra isso a gente tem dois metros para adicionar do mesmo
+
+14
+00:01:14,610 --> 00:01:21,330
+jeito a aposta aqui estilo dos dois lados como nesse lado aqui não necessariamente é preciso ter livros
+
+15
+00:01:22,320 --> 00:01:26,150
+livros ponto adicionar certo.
+
+16
+00:01:26,190 --> 00:01:36,410
+Nós temos também a disposição para adicionar então posso colocar aqui um pequeno príncipe seria um livro.
+
+17
+00:01:36,570 --> 00:01:45,270
+Posso colocar livros ponto push no caso do puxe ele não retorna nada no caso de adicionar ele retorna
+
+18
+00:01:45,570 --> 00:01:50,520
+o valor leva nos até então ser adicional não vai retornar Verdadeiro ou falso.
+
+19
+00:01:50,520 --> 00:01:53,610
+No caso do pushing ele não vai adicionar nada.
+
+20
+00:01:53,610 --> 00:02:00,480
+Se eu colocar aqui você vai bem que eu puxe ele retorna a essa ação legal esteja recebe chama se o elemento
+
+21
+00:02:00,480 --> 00:02:06,360
+que você tentou adicionar não foi possível por conta de restrições de capacidade.
+
+22
+00:02:06,660 --> 00:02:12,070
+Então você também pode definir em cima da da pilha o tamanho máximo.
+
+23
+00:02:12,070 --> 00:02:17,560
+O cara tem uma pilha de no máximo 100 elementos se você colocar uma injeção de capacidade.
+
+24
+00:02:17,880 --> 00:02:23,910
+Isso significa que você pode gerar um problema com essa ação caso você tente adicionar que não seja
+
+25
+00:02:23,910 --> 00:02:27,770
+possível no caso do dicionário vai simplesmente retornar Verdadeiro ou Falso.
+
+26
+00:02:27,780 --> 00:02:36,380
+Aqui eu vou colocar por exemplo Dom Quixote em seu segundo livro e vou colocar aqui por exemplo livros
+
+27
+00:02:36,610 --> 00:02:42,390
+ponto pois o terceiro para ser o hobbit.
+
+28
+00:02:42,900 --> 00:02:48,950
+Nós temos três livros aqui adicionados agora a gente vai ver que também aqueles metros estão disponíveis
+
+29
+00:02:48,980 --> 00:02:53,500
+certo caso nós teremos o pico era a mente da mesma forma que a gente tinha na fila só que a diferença
+
+30
+00:02:53,500 --> 00:02:56,850
+é a lógica de como os dados serão obtidos.
+
+31
+00:02:56,850 --> 00:03:00,090
+Quem chegou primeiro foi O Pequeno Príncipe e o último foi O Hobbit.
+
+32
+00:03:00,090 --> 00:03:06,100
+Nesse caso como uma pilha ele vai retornar o último elemento porque o último a entrar é o primeiro a
+
+33
+00:03:06,100 --> 00:03:06,620
+sair.
+
+34
+00:03:06,920 --> 00:03:16,240
+Então colocando aqui alguns livros ponto você vai ver que o resultado vai ser O Hobbit.
+
+35
+00:03:16,320 --> 00:03:24,490
+Da mesma forma que se eu fizer livros outro resultado também será o roubo.
+
+36
+00:03:24,490 --> 00:03:28,830
+Eu não vou colocar aquele monte comentar qualquer o princípio é exatamente o mesmo né.
+
+37
+00:03:28,860 --> 00:03:33,740
+Se não tiver nenhum elemento vai tornar nulo ou outro vai retornar com essa ação.
+
+38
+00:03:33,980 --> 00:03:38,510
+E você também tem os metros que vão remover da pilha.
+
+39
+00:03:38,530 --> 00:03:43,720
+Então mas temos aqui o caso ele vai morrer primeiro o.
+
+40
+00:03:44,040 --> 00:03:50,240
+Depois ele vai envolvendo Pixote e depois por último o Pequeno Príncipe e também remover os três.
+
+41
+00:03:50,280 --> 00:03:53,340
+Mais uma vez o resultado será falso.
+
+42
+00:03:53,340 --> 00:04:02,070
+Se eu colocar quintuplicar e colocar que você vai ver que o ovo já vai trabalhar da mesma forma como
+
+43
+00:04:02,070 --> 00:04:08,810
+outro exemplo ele vai jogar uma exceção caso não tenha nenhum elemento dentro da sua filha.
+
+44
+00:04:08,820 --> 00:04:15,480
+No caso do pulo torna falso no caso não houve retorno à sessão da mesma forma típicos de outra forma
+
+45
+00:04:15,480 --> 00:04:20,630
+que você tem aqui pra também remover e usando pop certo.
+
+46
+00:04:20,720 --> 00:04:23,840
+Não faltam no TOP 10 mundial.
+
+47
+00:04:23,850 --> 00:04:29,790
+Primeira escolha porque eu realmente não Quixote Pequeno Príncipe e o pop assim como o iMovie também
+
+48
+00:04:29,790 --> 00:04:36,170
+vai jogar uma exceção caso ele não tenha elementos dentro da pilha certo pra tirar.
+
+49
+00:04:36,170 --> 00:04:39,410
+Então ele vai também lançar um novo site ela percebe recebe.
+
+50
+00:04:39,840 --> 00:04:46,550
+Ou seja pode fazer isso mas o retornando no caso não acho tão aqui são alguns métodos diferentes dos
+
+51
+00:04:46,560 --> 00:04:47,310
+outros métodos.
+
+52
+00:04:47,310 --> 00:04:52,640
+Você também vai encontrar conforme tem nos colégios então livros.
+
+53
+00:04:52,650 --> 00:04:53,740
+Ponto.
+
+54
+00:04:53,800 --> 00:04:59,160
+Site você tem o tamanho de seus livros livros ponto.
+
+55
+00:05:00,490 --> 00:05:08,930
+Além limpar livros ponto com itens você também tem possibilidade de contestar todos os métodos que estão
+
+56
+00:05:08,930 --> 00:05:12,640
+também disponíveis conforme estão nos outros dando bom comportamento.
+
+57
+00:05:12,650 --> 00:05:17,390
+Por isso quem não faz tanto sentido ficar falando exatamente dos mesmos metros já que o comportamento
+
+58
+00:05:17,730 --> 00:05:20,950
+é igual sem tamanho para a fila.
+
+59
+00:05:21,130 --> 00:05:22,410
+Se está.
+
+60
+00:05:22,640 --> 00:05:30,470
+Você pode ler livros ponto em Betim ou seja está vazia se tiver base verdadeiro se não estiver vazio
+
+61
+00:05:30,470 --> 00:05:31,390
+o Estado é falso.
+
+62
+00:05:31,820 --> 00:05:37,010
+Então eles são os principais metros da pilha e o mais importante é o comportamento ou seja o último
+
+63
+00:05:37,010 --> 00:05:41,960
+que entrou na pilha se vai coloca em cima do outro vai ser o primeiro que vai sair no momento que você
+
+64
+00:05:41,960 --> 00:05:47,620
+fizer um shopping ou se você fizer um vídeo não alimente eles vai sempre pegar o topo da pilha vai te
+
+65
+00:05:47,630 --> 00:05:55,400
+mostrar esse valor você pode explorando a API é muito simples se você colocar livros conto e você vai
+
+66
+00:05:55,400 --> 00:05:57,860
+ver todos os métodos disponíveis.
+
+67
+00:05:57,900 --> 00:06:03,590
+Eventualmente você pode querer testar e fazer alguns experimentos a mais para você entender as possibilidades
+
+68
+00:06:03,590 --> 00:06:09,010
+e entender aquilo que você pode acrescentar ainda mais dentro dessas coleções.
+
+69
+00:06:09,020 --> 00:06:13,760
+Nós já vimos o site que é um futuro que não tem interesse aqui também.
+
+70
+00:06:13,760 --> 00:06:15,470
+Por padrão não é ordenado não.
+
+71
+00:06:15,480 --> 00:06:21,860
+Depois nós vimos o listinha que é a ordenada na ordem de inclusão você consegue acessar elementos a
+
+72
+00:06:21,860 --> 00:06:22,830
+partir do índice.
+
+73
+00:06:22,840 --> 00:06:26,490
+O site não aceita a impressão a lista aceita.
+
+74
+00:06:26,510 --> 00:06:33,050
+Vimos também a pilha e vimos também a fila que são 12 estruturas clássicas futuros de dados clássicos
+
+75
+00:06:33,050 --> 00:06:38,530
+muito importantes que podem ser usados no dia a dia e na próxima aula das 11 Bel Map o Mapa estruturas
+
+76
+00:06:38,560 --> 00:06:39,710
+chave e valor.
+
+77
+00:06:39,710 --> 00:06:43,850
+Ele é bastante interessante deixei por último porque tem mais coisas para falar.
+
+78
+00:06:43,850 --> 00:06:45,340
+Pouca gente pode.
+
+79
+00:06:45,410 --> 00:06:49,850
+Você tem chave valor em vez de ter apenas uma única coluna digamos assim você tem duas.
+
+80
+00:06:49,850 --> 00:06:55,220
+No caso do Masp então a gente vai ver na próxima aula como usar o metro e algumas funcionalidades legais
+
+81
+00:06:55,220 --> 00:06:56,280
+interessantes do Mac.
+
+82
+00:06:56,300 --> 00:07:01,950
+Todas essas estruturas no caso do livro da pilha você consegue também usar um fórum.
+
+83
+00:07:02,090 --> 00:07:11,440
+Embora não tenha falado especificamente nela aqui por exemplo trinco qualquer livro 2 pontos livros
+
+84
+00:07:11,960 --> 00:07:18,920
+e a gente consegue percorrer colocando aqui ao System algo diferente ali pra gente ver o livro.
+
+85
+00:07:18,950 --> 00:07:28,400
+O resultado deixou só comentar que se descobre o que vai ficar gerando aqui na seção salvando e executando.
+
+86
+00:07:28,500 --> 00:07:34,630
+Agora tem que comentar todos pra que eu vou colocar o seguinte vou deixar aqui vou jogar pra cima dá
+
+87
+00:07:35,000 --> 00:07:41,090
+pra gente ver antes de começar a remover os elementos então acertado eu mostrei duas vezes o vídeo ela
+
+88
+00:07:41,100 --> 00:07:42,440
+me óbidos.
+
+89
+00:07:42,620 --> 00:07:46,160
+Depois ele mostrou a obra de Dom Quixote Pequeno Príncipe.
+
+90
+00:07:46,370 --> 00:07:53,740
+Obviamente quando você for fazer um forró em cima de uma pilha ele vai fazer no topo da pilha até embaixo.
+
+91
+00:07:53,900 --> 00:08:00,160
+Se você for fazer uma fila ele vai pegar o início da fila até o final da fila e ele vai fazer na hora
+
+92
+00:08:00,160 --> 00:08:03,010
+em que esses alimentos vão sair da estrutura.
+
+93
+00:08:03,020 --> 00:08:06,880
+No caso da pilha foi o último que entrou no caso da fila foi o primeiro que entrou site.
+
+94
+00:08:07,240 --> 00:08:12,840
+Então também tem essas observações mas todas essas estruturas aceitam esse tipo de foto.
+
+95
+00:08:12,850 --> 00:08:16,360
+Fora isso fica bem mais prático do que você tem que controlar tudo a partir de um índice.

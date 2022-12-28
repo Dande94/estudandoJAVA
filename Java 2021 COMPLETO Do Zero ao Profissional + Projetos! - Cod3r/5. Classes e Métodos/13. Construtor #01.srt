@@ -1,0 +1,367 @@
+1
+00:00:00,200 --> 00:00:04,820
+Pessoal agora vou falar do construtor construtor um método especial.
+
+2
+00:00:04,950 --> 00:00:10,350
+E valha a pena gravar um aula pra explicar algumas coisas comuns.
+
+3
+00:00:10,580 --> 00:00:14,600
+O certo construtor na verdade você pode ter mais.
+
+4
+00:00:14,640 --> 00:00:22,410
+Então posso colocar até que construtores em Java e esses construtores são metros especiais que criam
+
+5
+00:00:22,650 --> 00:00:29,590
+novos objetos a partir de uma classe é como se fosse o portal entre a classe e o objeto exatamente construtor.
+
+6
+00:00:29,880 --> 00:00:40,830
+Quando você define uma classe por exemplo chamada produto certo definiu uma classe chamada produto essa
+
+7
+00:00:40,830 --> 00:00:46,840
+classe produto terá um custo total com o mesmo nome também chamado produto.
+
+8
+00:00:46,860 --> 00:00:53,610
+Nós já chamamos o construtor de produto nos testes que a gente trabalhou mas o fato é que há essa amarração
+
+9
+00:00:53,610 --> 00:00:57,910
+de que o nome da classe o nome do custo são iguais.
+
+10
+00:00:58,020 --> 00:01:07,620
+Outra questão é que por mais que eu não escreva o construtor existe um construtor que é fornecido para
+
+11
+00:01:07,630 --> 00:01:11,000
+toda a classe em Java que é o construtor padrão.
+
+12
+00:01:11,000 --> 00:01:14,880
+Lá ele sempre estará disponível custou padrão não.
+
+13
+00:01:14,910 --> 00:01:20,160
+Se você escreveu outros construtores você vai acabar perdendo o posto padrão.
+
+14
+00:01:20,160 --> 00:01:22,330
+Você até pode colocar o conceito padrão.
+
+15
+00:01:22,410 --> 00:01:28,440
+Depois vou mostrar isso com calma mas o corretor padrão por padrão é fornecida exatamente por isso o
+
+16
+00:01:28,440 --> 00:01:35,610
+nome é chamado custo padrão o que é que significa o construtor padrão o construtor padrão e o construtor
+
+17
+00:01:35,610 --> 00:01:38,040
+que não recebe nenhum parâmetro.
+
+18
+00:01:38,040 --> 00:01:46,540
+Quando você cria uma variável por exemplo criar uma variável do tipo produto certo e o nome da variável
+
+19
+00:01:46,590 --> 00:01:52,860
+você tem gente que já criou isso é um código digamos assim de certa forma conhecida.
+
+20
+00:01:52,860 --> 00:02:00,900
+Eu vou chamar aqui a palavrinha e eu vou chamar o construtor o produto certo.
+
+21
+00:02:01,170 --> 00:02:06,080
+Quando você cria se chama o construtor e não passa nenhum parâmetro.
+
+22
+00:02:06,570 --> 00:02:08,340
+Você simplesmente chama o construtor.
+
+23
+00:02:08,340 --> 00:02:14,590
+Isso aqui é conhecido como construtor padrão porque ele não recebe nenhum parâmetro de entrada assim
+
+24
+00:02:14,620 --> 00:02:20,170
+como o método pode receber parâmetro parâmetros o construtor também poderá receber parâmetro nesse caso
+
+25
+00:02:20,170 --> 00:02:22,910
+o que o custo ou padrão não recebe parâmetro.
+
+26
+00:02:22,950 --> 00:02:35,270
+Aqui nós temos aqui nós temos o comuns todo e aqui nós temos certo a classe.
+
+27
+00:02:35,850 --> 00:02:44,430
+Então aqui é o nome da classe certa que a classe é a que nós temos o construtor está claramente claro
+
+28
+00:02:45,360 --> 00:02:47,810
+que aqui nós temos método.
+
+29
+00:02:47,850 --> 00:02:53,240
+Tanto é que tem uns parênteses e aqui nós temos o tipo da nossa variável que é a classe então só li
+
+30
+00:02:53,240 --> 00:02:55,260
+por aqui para não ficar muito poluído.
+
+31
+00:02:55,400 --> 00:03:01,380
+Aqui nós temos a classe até colocar o velhinho aqui e aqui nós temos o construtor nesse caso o custo
+
+32
+00:03:01,380 --> 00:03:08,860
+padrão o mais que dentro da classe produto não tem escrito o construtor Por padrão ele está disponível.
+
+33
+00:03:09,160 --> 00:03:15,150
+E o mais eu quero escrever um outro construtor quero forçar que meu objeto só seja criado passando um
+
+34
+00:03:15,150 --> 00:03:15,910
+parâmetro.
+
+35
+00:03:15,920 --> 00:03:21,330
+Aí você pode definir um outro construtor e automaticamente como você definiu um outro construtor de
+
+36
+00:03:21,330 --> 00:03:27,900
+forma explícita esse construtor padrão que foi fornecido pelo Java de forma implícita mesmo que você
+
+37
+00:03:27,900 --> 00:03:34,590
+não tenha escrito nada ele não existe mais e agora sim ou se quiserem definem o conceito ou padrão você
+
+38
+00:03:34,590 --> 00:03:40,890
+precisa criar um seguro convidou para definir um construtor sem parâmetro certo ou seja quando você
+
+39
+00:03:40,890 --> 00:03:51,180
+define uma classe vou colocar aqui por exemplo o que aqui conhece o nome da classe será produto Produto
+
+40
+00:03:51,570 --> 00:03:54,600
+e eu tenho um corpo da classe C.
+
+41
+00:03:54,810 --> 00:04:01,050
+A minha classe está vazia não tem nada tem um construtor aqui tem o construtor padrão que é fornecido
+
+42
+00:04:01,050 --> 00:04:03,070
+de forma implícita pelo Java.
+
+43
+00:04:03,080 --> 00:04:09,090
+Quando você vai definir um outro construtor por exemplo vou criar aqui um construtor custou ter o mesmo
+
+44
+00:04:09,090 --> 00:04:18,180
+nome da classe então coloca aquele produto produto esse produto vai receber uma variável inteira então
+
+45
+00:04:18,190 --> 00:04:25,230
+vou ter que ao menos a fechar que os parentes e eu vou ter também aqui um bloco de código associado
+
+46
+00:04:25,230 --> 00:04:25,910
+ao construtor.
+
+47
+00:04:26,040 --> 00:04:32,400
+Então nesse caso definiu um construtor de forma explícita você pode perguntar se não é legal mas eu
+
+48
+00:04:32,400 --> 00:04:38,000
+estou sentindo falta de uma coisa dentro desse método construtor que é o tipo de retorno.
+
+49
+00:04:38,160 --> 00:04:41,500
+Será que eu não tenho que colocar que o tipo de retorno vai.
+
+50
+00:04:42,510 --> 00:04:43,480
+Não.
+
+51
+00:04:43,530 --> 00:04:49,870
+Se você colocar o tipo de retorno Void isso aqui já não é mais o construtor que é um método normalmente
+
+52
+00:04:49,960 --> 00:04:50,880
+no Java.
+
+53
+00:04:51,110 --> 00:04:55,440
+Eu posso criar um metro com o mesmo nome da classe pode mas sei que não será um construtor.
+
+54
+00:04:55,650 --> 00:05:02,830
+Uma das características que distinguem um método de um construtor é exatamente a ausência de retorno.
+
+55
+00:05:03,030 --> 00:05:10,590
+Porque o Java já sabe que o retorno de um construtor é uma instância do tipo o produto é exatamente
+
+56
+00:05:10,590 --> 00:05:17,280
+um objeto do tipo no qual o construtor pertence nem o constou que pertence à classe Produto então ele
+
+57
+00:05:17,280 --> 00:05:20,570
+vai tornar o objeto do tipo de produto.
+
+58
+00:05:20,850 --> 00:05:27,810
+Então no caso de um construtor ele tem ausência de retorno nem mesmo a palavra Void pode existir.
+
+59
+00:05:27,810 --> 00:05:32,970
+Se você colocar o Void você acabou de transformar um construtor em um método normal de Java certo.
+
+60
+00:05:33,030 --> 00:05:42,360
+Nesse caso que já que você colocou de forma explícita então eu tenho aqui um construtor explicito certo
+
+61
+00:05:42,510 --> 00:05:46,770
+o construtor implícito que é o custo padrão foi perdido.
+
+62
+00:05:46,770 --> 00:05:53,460
+Então essa forma que nesse momento você só pode criar o produto assim o coloca aqui de forma a reduzir
+
+63
+00:05:53,470 --> 00:05:56,220
+ou colocar aquele produto
+
+64
+00:05:58,870 --> 00:06:08,520
+recebe um produto e obrigatoriamente você precisa passar um inteiro pode ser que vale 3 0 certo então
+
+65
+00:06:08,640 --> 00:06:14,880
+essa é a forma que você tem para criar agora um produto já que você definiu que o produto precisa ser
+
+66
+00:06:14,880 --> 00:06:21,020
+passado inteiro para a instancia um produto na hora de você criar o produto você tem que passar então
+
+67
+00:06:21,030 --> 00:06:26,630
+exatamente esse parâmetro aqui precisa ser passado na hora de criar o produto.
+
+68
+00:06:26,760 --> 00:06:34,980
+Então agora não consigo mais criar um produto seu a pagar se eu não consigo mais criar um produto simplesmente
+
+69
+00:06:34,980 --> 00:06:40,150
+coloca naqueles parênteses certo porque agora eu preciso passo alguma informação aqui dentro.
+
+70
+00:06:40,170 --> 00:06:45,780
+Então nesse caso eu posso passar um valor três não posso mais criar um produto chamado custo padrão
+
+71
+00:06:45,900 --> 00:06:53,760
+a não ser que eu vá dentro do Minha classe ou seja eu vou apagar aqui ao fechamento Vou aumentar um
+
+72
+00:06:53,760 --> 00:07:00,470
+pouquinho aqui a minha classe aqui pra baixo certa aumentei e aqui dentro eu vou lá e coloco o outro
+
+73
+00:07:00,480 --> 00:07:07,580
+construtor obviamente sem o tipo de retorno você não pode colocar o tipo de retorno vou ter fim aqui
+
+74
+00:07:07,620 --> 00:07:15,150
+um custo que não é nenhum parâmetro e agora sim eu tenho dois construtores eu posso ter dois construtores
+
+75
+00:07:15,450 --> 00:07:21,900
+pode ter quantos você quiser contanto que a assinatura do construtor seja o nome dele que já é igual
+
+76
+00:07:21,910 --> 00:07:27,870
+né não tem como você mudar e todos os parâmetros ou seja assinatura desse construtor se ele é diferente
+
+77
+00:07:28,320 --> 00:07:31,560
+de todos os outros construtores dentro da sua classe.
+
+78
+00:07:31,560 --> 00:07:37,710
+Nesse caso claramente é diferente um construtor recebe o inteiro como parâmetro e o outro construtor
+
+79
+00:07:37,710 --> 00:07:39,480
+não recebe absolutamente nada.
+
+80
+00:07:39,990 --> 00:07:46,980
+Então quem chutou ele é um método especial ele tem duas instituições primeiro nome da classe em que
+
+81
+00:07:46,980 --> 00:07:52,440
+o nome do construtor então você vai ter o nome do construtor exatamente igual ao nome da classe e essa
+
+82
+00:07:52,440 --> 00:07:59,940
+é a primeira restrição coloca naquela que é a segunda restrição que um construtor não tem retorno certo
+
+83
+00:07:59,960 --> 00:08:14,390
+ao colocar o construtor não tem retorno no momento que você pegar um construtor ou com o nome da classe
+
+84
+00:08:14,680 --> 00:08:15,770
+e colocar um retorno.
+
+85
+00:08:15,770 --> 00:08:21,240
+Você transformou o construtor em um método regular certo então é só algumas observações com relação
+
+86
+00:08:21,240 --> 00:08:22,970
+com o futuro consultor.
+
+87
+00:08:22,980 --> 00:08:28,740
+O método é um método especial que vai te ajudar a criar instâncias a partir de uma classe a partir de
+
+88
+00:08:28,740 --> 00:08:31,410
+um tipo e nós vamos ver na próxima aula.
+
+89
+00:08:31,470 --> 00:08:36,810
+A criação do construtor de produto e eu vou mostrar pra você que o momento que eu defino um construtor
+
+90
+00:08:37,260 --> 00:08:42,780
+de forma explicita automaticamente eu vou perder o construtor implícito mas nada me impede de ter outros
+
+91
+00:08:42,780 --> 00:08:48,600
+construtores inclusive o custo padrão que é o construtor que não recebe nenhum argumento aproximar a
+
+92
+00:08:48,600 --> 00:08:52,690
+gente continuou a fazer na prática aquilo que a gente vê na teoria na sala e a tal.

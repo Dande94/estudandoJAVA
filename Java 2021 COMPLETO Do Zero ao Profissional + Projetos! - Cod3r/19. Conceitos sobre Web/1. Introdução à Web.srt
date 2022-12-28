@@ -1,0 +1,1295 @@
+1
+00:00:00,450 --> 00:00:06,090
+Seja bem vindo a mais um capítulo capítulo de web e agora nós vamos dar uma guinada no curso para abrir
+
+2
+00:00:06,090 --> 00:00:11,920
+os horizontes a gente entender muito mais coisa ali JavaScript que obviamente JavaScript.
+
+3
+00:00:11,940 --> 00:00:15,060
+Você viu pela carga horária e pela quantidade de vídeos.
+
+4
+00:00:15,060 --> 00:00:21,150
+Ele tem uma importância gigantesca se você já tem um conhecimento uma base sólida de JavaScript todo
+
+5
+00:00:21,150 --> 00:00:28,710
+o resto da web vai ficar muito mais fácil de você conseguir de fato desenvolver excelentes projetos
+
+6
+00:00:28,970 --> 00:00:33,720
+para uso em todas as tecnologias não só JavaScript mas HTML CSS.
+
+7
+00:00:33,900 --> 00:00:39,210
+Mas antes mesmo de entrar no próximo capítulo que vai ser de HTML voltaremos para nossos exercícios
+
+8
+00:00:39,210 --> 00:00:40,170
+de código.
+
+9
+00:00:40,200 --> 00:00:46,140
+Esse é um capítulo mais conceitual que eu vou trabalhar com vocês alguns conceitos interessantes alguns
+
+10
+00:00:46,140 --> 00:00:52,320
+conceitos importantes para que você possa dominar o conhecimento necessário para que você tem uma visão
+
+11
+00:00:52,320 --> 00:00:53,000
+geral da web.
+
+12
+00:00:53,520 --> 00:00:57,760
+Algumas coisas que eu vou falar nesse capítulo tem a ver com a parte de enfrentamento.
+
+13
+00:00:57,960 --> 00:01:03,870
+Eu não vou tentar me aprofundar muito nessa linha de infra estrutura mas é interessante você ter uma
+
+14
+00:01:03,870 --> 00:01:10,200
+visão geral não só dos conceitos de web relativos à de desenvolvimento mas alguns conceitos relativos
+
+15
+00:01:10,200 --> 00:01:16,490
+também à parte de infra estrutura até porque nós vivemos num momento que o desenvolvedor ele tem trabalhado
+
+16
+00:01:16,620 --> 00:01:17,850
+também em operações.
+
+17
+00:01:17,850 --> 00:01:23,900
+Daí vem a nomenclatura de devotos então é importante você entender também um pouco principalmente nessa
+
+18
+00:01:23,900 --> 00:01:30,120
+era que nós estamos agora que a era da computação em nuvem que você tem à sua disposição alguns cliques
+
+19
+00:01:30,120 --> 00:01:30,620
+do mouse.
+
+20
+00:01:30,620 --> 00:01:36,630
+Você tem a possibilidade de distanciar dezenas de máquinas e ter uma infra estrutura do porte de uma
+
+21
+00:01:36,630 --> 00:01:39,090
+grande empresa você pode fazer isso de casa.
+
+22
+00:01:39,090 --> 00:01:44,490
+Obviamente quando você cria uma conta dentro de um provedor você tem certas limitações e porque não
+
+23
+00:01:44,490 --> 00:01:48,660
+sabe quem é você não sabe se você tem conexão de fato de pagar.
+
+24
+00:01:48,720 --> 00:01:54,010
+Você tem sim como construir uma infra bastante interessante para dar poder a sua startup.
+
+25
+00:01:54,030 --> 00:01:54,940
+Sua ideia.
+
+26
+00:01:55,080 --> 00:01:58,720
+Então nesse capítulo nós vamos trabalhar com esses conceitos fundamentais.
+
+27
+00:01:58,770 --> 00:02:01,980
+é bem legal uma vez eu estava andando de carro com minha esposa.
+
+28
+00:02:01,990 --> 00:02:07,440
+Você estava indo para a faculdade ministrar aulas para achar alguma coisa relativo a querer ministrar
+
+29
+00:02:07,440 --> 00:02:12,210
+alguma aula e aí eu resolvi conversar com ela lado direito não tem nada a ver com a partir daí eu falei
+
+30
+00:02:12,210 --> 00:02:15,220
+assim vou te explicar como funciona a web.
+
+31
+00:02:15,720 --> 00:02:17,900
+Ela já fez aquela careta.
+
+32
+00:02:18,470 --> 00:02:24,990
+Eu estou querendo ficar aqui eu não vou lá explicar e comecei a falar para ela requisição e coisas relacionadas
+
+33
+00:02:24,990 --> 00:02:25,320
+à web.
+
+34
+00:02:25,320 --> 00:02:26,530
+Como funcionava a web.
+
+35
+00:02:26,730 --> 00:02:30,440
+E aí no final de explicação assim de uns 15 minutos ela chegou a conclusão.
+
+36
+00:02:31,170 --> 00:02:36,290
+Então quer dizer que o servidor está sempre ali foi desistir.
+
+37
+00:02:36,360 --> 00:02:42,330
+Embora a conclusão tenha sido certa ela é um direito ideal mas de qualquer forma acho que foi de mais
+
+38
+00:02:42,330 --> 00:02:44,140
+valia até essa altura.
+
+39
+00:02:44,300 --> 00:02:50,340
+Mas vou lá continuar vou falar aqui começando essa aula falando de uma breve história não sou o cara
+
+40
+00:02:50,340 --> 00:02:55,530
+mais indicado pra falar da história da internet vou falar alguns marcos importantes só pra ter como
+
+41
+00:02:55,530 --> 00:03:00,060
+referência mais do que você consegue rapidamente achar a história da internet.
+
+42
+00:03:00,060 --> 00:03:03,500
+Lá tem todos os detalhes então os marcos mais importantes.
+
+43
+00:03:03,630 --> 00:03:10,220
+Por décadas vou falar aqui então década de 50 mais ou menos no final da década de 40 50 o finalzinho
+
+44
+00:03:10,240 --> 00:03:11,180
+50 por ali.
+
+45
+00:03:11,490 --> 00:03:17,160
+O computador que já era uma realidade passou a ser um computador eletrônico e isso digamos assim foi
+
+46
+00:03:17,160 --> 00:03:21,620
+a base para toda a comunicação em rede entre computadores pessoais até o computador.
+
+47
+00:03:21,630 --> 00:03:28,170
+Em 1960 tenho um projeto chamado ARPANET que foi o Departamento de Segurança americano inclusive envolvendo
+
+48
+00:03:28,170 --> 00:03:29,280
+algumas universidades.
+
+49
+00:03:29,280 --> 00:03:32,180
+Teve aí esse mapa aqui do lado.
+
+50
+00:03:32,220 --> 00:03:38,400
+Ele mostra uma parte da costa oeste dos Estados Unidos ali pela Califórnia onde algumas universidades
+
+51
+00:03:38,400 --> 00:03:42,720
+estabeleceram comunicação entre elas a partir de uma primeira rede.
+
+52
+00:03:42,720 --> 00:03:48,750
+A primeira tentativa de internet digamos assim cara essa ARPANET que era patrocinada pelo Departamento
+
+53
+00:03:48,750 --> 00:03:54,390
+de Defesa dos Estados Unidos e daí foi a digamos assim o nascedouro da internet.
+
+54
+00:03:54,430 --> 00:04:02,310
+Em 1970 esses dois pesquisadores o robô e o 20 inclusive tem alguns vídeos de internet explicando o
+
+55
+00:04:02,310 --> 00:04:03,380
+funcionamento da web.
+
+56
+00:04:03,710 --> 00:04:08,790
+Vinte e um dos caras que está participando desse vídeo está no YouTube é muito fácil encontrar na década
+
+57
+00:04:08,790 --> 00:04:09,660
+de 70.
+
+58
+00:04:09,720 --> 00:04:17,100
+Eles definiram o protocolo de comunicação existia já um modelo conceitual chamado Modelo OSI de camada
+
+59
+00:04:17,100 --> 00:04:18,750
+de comunicação de rede.
+
+60
+00:04:18,760 --> 00:04:25,080
+Eles definiram um protocolo muito mais pé no chão digamos assim que é de fato o padrão usado na internet
+
+61
+00:04:25,080 --> 00:04:26,940
+que é o protocolo TCP IP.
+
+62
+00:04:26,940 --> 00:04:29,620
+A gente vai ver algumas coisas sobre ele aqui.
+
+63
+00:04:29,720 --> 00:04:34,960
+Se não for na sala na sala a gente vai ver sobre ele sim vão lá na década de 80.
+
+64
+00:04:35,040 --> 00:04:39,960
+O Tim Berners-Lee que é um dos pesquisadores talvez mais conhecido na história da web porque é ele que
+
+65
+00:04:39,960 --> 00:04:44,850
+inventou essa web como a gente conhece o www world wide web.
+
+66
+00:04:45,120 --> 00:04:48,220
+Obviamente isso funciona em cima da pilha TCP IP.
+
+67
+00:04:48,280 --> 00:04:52,390
+é ele que inventou digamos assim essa web que a gente conhece está mais acostumado a trabalhar hoje.
+
+68
+00:04:52,410 --> 00:04:58,380
+Obviamente nem ele conseguiria prever como a web como diria aquele inventou que ele teve na década de
+
+69
+00:04:58,380 --> 00:05:05,520
+80 é transformar o que a gente tem hoje que a gente conhece na década de 90 a internet veio para o Brasil
+
+70
+00:05:05,920 --> 00:05:08,670
+especificamente no ano 2000 por aí.
+
+71
+00:05:08,670 --> 00:05:10,980
+Tinha o provedor e vocês quem lembra.
+
+72
+00:05:10,980 --> 00:05:16,860
+Chegava o sábado duas horas da tarde e você corria pelo computador para conectar usando aquele barulho
+
+73
+00:05:17,530 --> 00:05:20,520
+que você ocupava a linha telefônica da sua casa.
+
+74
+00:05:20,520 --> 00:05:25,620
+Ninguém mais conseguia ligar foi mais ou menos nessa época que eu tive internet em casa dois mil e um
+
+75
+00:05:25,620 --> 00:05:26,110
+pouquinho.
+
+76
+00:05:26,100 --> 00:05:31,560
+Tá certo então essa é uma brevíssimo história da web não só dos marcos mais importantes se você quiser
+
+77
+00:05:31,560 --> 00:05:34,530
+entrar na Wikipédia colocar na história da internet.
+
+78
+00:05:34,530 --> 00:05:36,710
+O resto é internet.
+
+79
+00:05:36,710 --> 00:05:42,540
+Eu estou e aí você vai ver passo a passo cada um dos detalhes sobre essa história muito legal.
+
+80
+00:05:42,570 --> 00:05:47,460
+Então como a internet nada mais é do que uma grande rede de computadores e quem fez a cadeira de rodas
+
+81
+00:05:47,460 --> 00:05:51,710
+na faculdade sabe que existe alguma topologia as diferenças de rede né.
+
+82
+00:05:51,860 --> 00:05:53,290
+Desinchar a topologia.
+
+83
+00:05:53,310 --> 00:06:00,450
+O que é uma máquina conversando com a outra com a topologia mais famosas digamos assim a topologia centralizada
+
+84
+00:06:00,450 --> 00:06:03,890
+que você tem em vários computadores ligados a um nó central.
+
+85
+00:06:03,890 --> 00:06:09,750
+Então por exemplo se tem uma rede na sua empresa que tem um switch e todos os computadores são conectados
+
+86
+00:06:09,750 --> 00:06:15,600
+na sua hoje estão ali um nó central uma vez que aquele Switch deixa de funcionar toda a rede para funcionar.
+
+87
+00:06:15,660 --> 00:06:18,330
+Então essa topologia centralizada tem essa.
+
+88
+00:06:18,480 --> 00:06:24,540
+Esse ponto central também tem esse ponto central de falha um ponto central de comunicação é um ponto
+
+89
+00:06:24,540 --> 00:06:27,020
+central de falha nessa topologia.
+
+90
+00:06:27,030 --> 00:06:34,260
+Você tem a internet como uma topologia muito mais parecida com essa topologia distribuída então as pessoas
+
+91
+00:06:34,260 --> 00:06:40,020
+pensaram que por exemplo imagine que se tiver um ataque tiver algum tipo de catástrofe ou um tipo de
+
+92
+00:06:40,020 --> 00:06:44,700
+falha que faça com que a rede falhe num determinado ponto.
+
+93
+00:06:44,700 --> 00:06:50,340
+Obviamente se você tiver uma topologia centralizada como é o caso o que você falhou todos os computadores
+
+94
+00:06:50,340 --> 00:06:51,470
+deixam de conversar.
+
+95
+00:06:51,790 --> 00:06:57,690
+E no caso de uma topologia distribuída você percebe pela forma como está distribuído os pontos que você
+
+96
+00:06:57,690 --> 00:07:02,250
+vai ter em rotas de um computador para o outro mesmo que uma parte da rede fique fora do ar.
+
+97
+00:07:02,670 --> 00:07:07,350
+Então essa topologia distribuída é de fato a topologia assumida pela internet.
+
+98
+00:07:07,350 --> 00:07:10,550
+Não existe um poder central em cima na internet.
+
+99
+00:07:10,590 --> 00:07:16,410
+Na verdade é um poder de todos e muita gente distribui existem vários assuntos modernos e que se discutem
+
+100
+00:07:16,410 --> 00:07:19,530
+hoje sobre sobre a questão da neutralidade de rede.
+
+101
+00:07:19,590 --> 00:07:20,480
+Você pode.
+
+102
+00:07:20,550 --> 00:07:26,670
+Se você vai querer cobrar diferentes pacotes para níveis de acesso diferentes acessa mais ou menos serviços
+
+103
+00:07:26,810 --> 00:07:32,190
+mas de forma mais conceitual histórico a internet de fato distribuída e não tem digamos assim um poder
+
+104
+00:07:32,190 --> 00:07:33,520
+central em cima da internet.
+
+105
+00:07:33,520 --> 00:07:40,430
+Obviamente tem órgãos que regulam mas ela é espalhada no mundo todo e não tem um dono de todo mundo.
+
+106
+00:07:40,500 --> 00:07:45,770
+Então lá continuar falando porque nosso topologia passaram por aqui especificamente para a web ou a
+
+107
+00:07:45,770 --> 00:07:48,770
+teia como é a tradução de web para português.
+
+108
+00:07:48,780 --> 00:07:52,740
+Na verdade você tem vários níveis de redes.
+
+109
+00:07:52,760 --> 00:07:57,820
+Você tem por exemplo grandes Black Bones que ultrapassam de um continente para o outro.
+
+110
+00:07:57,870 --> 00:08:04,500
+Você tem redes de nível 1 nível 2 redes de nível 3 e essas redes são organizadas e muito provavelmente
+
+111
+00:08:04,500 --> 00:08:10,950
+uma dessas desses provedores que você tem na sua casa e um deles se enquadra em algum desses tipos de
+
+112
+00:08:10,950 --> 00:08:12,580
+rede na rede.
+
+113
+00:08:13,030 --> 00:08:18,150
+O é um provedor que é de nível 3 um provedor de nível 2 mas na verdade o que você tem essa grande teia
+
+114
+00:08:18,230 --> 00:08:21,780
+de comunicação entre vários provedores de níveis diferentes.
+
+115
+00:08:21,780 --> 00:08:25,760
+Obviamente você vai fazer uma chamada para um serviço que está nos Estados Unidos.
+
+116
+00:08:25,830 --> 00:08:30,990
+Você vai ter que passar por vários provedores desse até chegar aos Estados Unidos passar por exemplo
+
+117
+00:08:30,990 --> 00:08:37,290
+por um cabo de fibra ótica que sai por exemplo aqui da costa do Brasil e vai até um determinado para
+
+118
+00:08:37,290 --> 00:08:42,000
+a Europa ou nos Estados Unidos então obviamente você vai passar por vários tipos de provedor.
+
+119
+00:08:42,000 --> 00:08:48,450
+Você poderia até agrupar essa grande teia mais confusa em algo um pouco mais hierárquico.
+
+120
+00:08:48,440 --> 00:08:51,130
+Obviamente esse não é o modelo da web.
+
+121
+00:08:51,130 --> 00:08:55,980
+Mas se você tiver em um desses lados aqui você vai acabar passando por esses provedores para chegar
+
+122
+00:08:56,370 --> 00:09:01,020
+naquilo que de fato você quer no alvo que você quer chegar no destino da sua conversa.
+
+123
+00:09:01,020 --> 00:09:06,570
+Nesse caso o que eu coloquei como exemplo dois celulares Conversando pra um pra jogar no outro obviamente
+
+124
+00:09:06,570 --> 00:09:13,110
+ele vai passar muitas vezes por cabos submarinos de um continente para outro e coisas do tipo.
+
+125
+00:09:13,110 --> 00:09:19,170
+Então essa é a internet que a gente tem hoje organizado como uma grande teia numa topologia muito mais
+
+126
+00:09:19,170 --> 00:09:26,580
+distribuída continuado aqui nós temos a base da internet como sendo o protocolo TCP IP Transmission
+
+127
+00:09:26,910 --> 00:09:30,270
+Control Protocol Internet Protocol.
+
+128
+00:09:30,270 --> 00:09:36,930
+Eu vou falar um pouco da pilha do protocolo TCP IP mas de fato o que nós temos aqui o TCP é um protocolo
+
+129
+00:09:36,930 --> 00:09:43,380
+da camada de transporte é um protocolo orientado a conexão é um protocolo confiável.
+
+130
+00:09:43,380 --> 00:09:50,580
+Em contrapartida você tem UDP e User Data grande protocolo que é um protocolo não orientado a conexão
+
+131
+00:09:50,740 --> 00:09:57,540
+é um protocolo baseado no melhor esforço e ele não tem essa confiabilidade que o TCP tem em alguns momentos
+
+132
+00:09:57,540 --> 00:09:58,050
+UDP.
+
+133
+00:09:58,110 --> 00:10:02,600
+Ele é mais recomendado porque é um protocolo mais leve.
+
+134
+00:10:02,690 --> 00:10:05,270
+Já o PCP tem um que ele chama de rede shake.
+
+135
+00:10:05,610 --> 00:10:08,390
+Há uma conversa preliminar entre as duas pontas.
+
+136
+00:10:08,390 --> 00:10:14,690
+Pra quem de fato dado seja transferido já o do milhões fosse então por exemplo você está fazendo estrume
+
+137
+00:10:14,720 --> 00:10:21,250
+de dados que algo rápido que não importa se por exemplo um determinado pacote ali foi perdido porque
+
+138
+00:10:21,250 --> 00:10:27,620
+o estrume o conteúdo é mais importante que seja entregue em tempo real então ele é mais apropriado que
+
+139
+00:10:27,620 --> 00:10:31,700
+o PCP mas via de regra a gente acaba usando mais o TCP.
+
+140
+00:10:31,700 --> 00:10:39,770
+Na grande maioria das aplicações voltadas para a internet é o IP Internet Protocol é o protocolo responsável
+
+141
+00:10:39,770 --> 00:10:44,420
+por fazer essa comunicação entre redes de roteamento entre redes.
+
+142
+00:10:44,560 --> 00:10:46,400
+é daí que vem o nosso endereço IP.
+
+143
+00:10:46,400 --> 00:10:51,980
+Existem duas versões eu vou já falar sobre isso colocar um pouco mais na versão B4 que é aqui a maioria
+
+144
+00:10:51,980 --> 00:10:53,870
+das pessoas estão em contato.
+
+145
+00:10:53,930 --> 00:10:54,860
+O TCP IP.
+
+146
+00:10:54,860 --> 00:11:00,380
+Ele é um protocolo baseado em um padrão de projeto chamado linhas TCP IP.
+
+147
+00:11:00,380 --> 00:11:03,600
+Nada mais é do que um protocolo que é uma aplicação de software.
+
+148
+00:11:03,820 --> 00:11:09,530
+Esse software ele usa um padrão de projeto chamado Luis é um dos grandes exemplos do padrão Luis porque
+
+149
+00:11:09,530 --> 00:11:16,070
+o protocolo como algo complexo ele é separado em camadas cada camada tem sua própria responsabilidade.
+
+150
+00:11:16,520 --> 00:11:20,090
+Então você tem a camada física que é a camada de rede.
+
+151
+00:11:20,360 --> 00:11:22,600
+Nós temos a camada de Internet.
+
+152
+00:11:22,640 --> 00:11:25,910
+Nós temos a camada de transporte camada de aplicação.
+
+153
+00:11:25,970 --> 00:11:31,430
+Se você pegar essa mesma pilha e trazer ela para o modelo OSI vamos sempre mais camadas acho que sete
+
+154
+00:11:31,430 --> 00:11:35,880
+camadas e aqui no caso do TCP são apenas quatro camadas.
+
+155
+00:11:35,930 --> 00:11:42,770
+A comunicação a dependência das camadas é a camada de cima usa a camada de baixo serviço da camada de
+
+156
+00:11:42,770 --> 00:11:43,190
+baixo.
+
+157
+00:11:43,190 --> 00:11:49,940
+Da mesma forma como a aplicação depende da camada de transporte a camada de transporte depende da camada
+
+158
+00:11:49,940 --> 00:11:52,370
+de Internet camada de Internet.
+
+159
+00:11:52,460 --> 00:12:00,170
+Depende da camada física mas não a dependência cíclica ou seja a camada de rede depende da internet.
+
+160
+00:12:00,170 --> 00:12:01,270
+A internet depende da rede.
+
+161
+00:12:01,270 --> 00:12:06,230
+Na verdade é feito de tal forma para dividir as responsabilidades.
+
+162
+00:12:06,230 --> 00:12:11,990
+Cada camada tem sua própria responsabilidade e a camada de cima usa os serviços da camada de baixo para
+
+163
+00:12:11,990 --> 00:12:18,850
+fazer a comunicação entre a camada de transporte não precisa se preocupar com a camada de rede.
+
+164
+00:12:18,890 --> 00:12:22,190
+Ela se preocupa em comunicar com a camada de Internet.
+
+165
+00:12:22,190 --> 00:12:28,100
+E obviamente a camada de Internet vai devolver um determinado dado para a camada de transporte assim
+
+166
+00:12:28,100 --> 00:12:35,210
+como a internet conversa com a camada física e a física retorna determinadas informações ali dentro
+
+167
+00:12:35,210 --> 00:12:42,480
+do pacote TCP IP vai ter cabeçalhos tanto cabeçalhos como rodapés na mensagem para que ele possa englobar
+
+168
+00:12:42,830 --> 00:12:45,080
+cada um dos dados entre uma camada e outro.
+
+169
+00:12:45,080 --> 00:12:50,240
+Isso não é tão importante a gente conhecer mais de mais importa só pra gente ter uma ideia que esse
+
+170
+00:12:50,240 --> 00:12:50,900
+padrão.
+
+171
+00:12:50,950 --> 00:12:58,120
+Segue um padrão de projeto chamado lei que um determinado software maior em camadas e cada camada tem
+
+172
+00:12:58,130 --> 00:13:00,130
+sua própria responsabilidade.
+
+173
+00:13:00,170 --> 00:13:05,990
+Entender um pouco as responsabilidades de cada camada na parte física a gente tem um tipo de conexão
+
+174
+00:13:05,990 --> 00:13:09,410
+física mesmo você está trabalhando com Wi-Fi Ethernet.
+
+175
+00:13:09,410 --> 00:13:12,530
+Outros tipos de padrão você tem nessa camada.
+
+176
+00:13:12,620 --> 00:13:18,590
+O conceito lá do endereço MAC é um endereço relacionado à interface de rede que você está trabalhando
+
+177
+00:13:18,760 --> 00:13:25,250
+e que ela envolve 2 duas camadas do modelo OSI que é a camada física que é a camada de hardware mesmo
+
+178
+00:13:25,490 --> 00:13:30,250
+entre a camada de enlace que ela se comunica com comunicação de ponta a ponta.
+
+179
+00:13:30,260 --> 00:13:36,590
+Saber se de fato o bit de paridade sinais elétricos e coisas relacionadas a esse mundo físico do dado
+
+180
+00:13:36,590 --> 00:13:42,140
+trafegando dentro do meio ao lado dos canais de comunicação é que pode ser desde um cabo de rede ou
+
+181
+00:13:42,140 --> 00:13:42,980
+fibra ótica.
+
+182
+00:13:42,980 --> 00:13:48,500
+Você multiplex os sinais e colocados dentro de um meio físico como a fibra ótica é colocada a melhor
+
+183
+00:13:48,500 --> 00:13:49,470
+forma possível.
+
+184
+00:13:49,550 --> 00:13:55,700
+Tudo isso diz respeito a essa camada mais baixo mais perto do hardware que também tem obviamente software
+
+185
+00:13:55,700 --> 00:13:57,050
+rodando para funcionar.
+
+186
+00:13:57,050 --> 00:14:04,850
+Essa camada a próxima camada é a camada de Internet nessa camada que você tem o endereço IP na sua máquina.
+
+187
+00:14:04,850 --> 00:14:09,020
+Você tem o endereço IP que é o endereço que identifica uma máquina dentro de uma rede.
+
+188
+00:14:09,020 --> 00:14:12,230
+Você pode ter duas máquinas com o mesmo endereço IP.
+
+189
+00:14:12,290 --> 00:14:17,670
+Pode desde que estejam em redes segregadas separadas para não haver nenhum tipo de conflito.
+
+190
+00:14:17,720 --> 00:14:24,010
+Você pode ter na sua máquina um endereço IP válido na internet o endereço que fica aqui.
+
+191
+00:14:24,020 --> 00:14:27,010
+Qualquer pessoa do mundo pode chegar diretamente na sua máquina.
+
+192
+00:14:27,020 --> 00:14:33,140
+Você pode ter o endereço local e algum tipo de roteamento fazer com que os dados cheguem na sua máquina
+
+193
+00:14:33,140 --> 00:14:35,810
+mesmo não tendo um endereço válido.
+
+194
+00:14:35,810 --> 00:14:41,750
+Aí você tem a ideia de gay na Rede que é a máquina que vai levar sua requisição para fora de uma rede
+
+195
+00:14:42,050 --> 00:14:43,580
+local da sua empresa.
+
+196
+00:14:43,580 --> 00:14:47,560
+Todos esses conceitos mais relacionados a paixão informais de qualquer forma é interessante.
+
+197
+00:14:47,560 --> 00:14:51,770
+Você tem uma base sobre isso aqui nessa camada de Internet.
+
+198
+00:14:51,920 --> 00:14:54,840
+A conexão entre redes e o protocolo IP.
+
+199
+00:14:54,980 --> 00:14:57,230
+Ele tem essa questão de transferência de pacotes.
+
+200
+00:14:57,230 --> 00:15:04,420
+Existe o conceito de pacote a partir da camada é nessa camada é feita a comunicação entre redes já na
+
+201
+00:15:04,420 --> 00:15:10,450
+camada de transporte você tem enviado TCP Transmission Control Protocol é um protocolo confiável e tem
+
+202
+00:15:10,440 --> 00:15:13,540
+também o DP que vai mais além do melhor esforço.
+
+203
+00:15:13,540 --> 00:15:19,090
+Se você tem algo crítico mais tempo real como a transmissão por exemplo você quer transmitir ela de
+
+204
+00:15:19,090 --> 00:15:26,510
+uma forma mais leve sem que haja tantos tipos de coisas na comunicação então você acaba optando pela
+
+205
+00:15:26,510 --> 00:15:27,030
+EDP.
+
+206
+00:15:27,100 --> 00:15:31,290
+Então alguns serviços como por exemplo bem S.
+
+207
+00:15:31,300 --> 00:15:36,620
+Ele usa o DP como base da sua comunicação e não percebi certo.
+
+208
+00:15:36,640 --> 00:15:42,090
+Então aqui você tem nesse nível na camada de transporte a comunicação máquina a máquina.
+
+209
+00:15:42,250 --> 00:15:47,230
+Ou seja você consegue sair de uma máquina específica para uma determinada máquina específica para que
+
+210
+00:15:47,230 --> 00:15:53,590
+haja comunicação entre as duas então dado o seu computador cliente especificamente aponta para o servidor
+
+211
+00:15:53,700 --> 00:15:55,630
+do Google por exemplo do Gmail.
+
+212
+00:15:55,780 --> 00:16:02,260
+Ou seja o serviço que provê nessa comunicação ponta a ponta máquina máquina e a camada de transporte
+
+213
+00:16:02,260 --> 00:16:06,350
+que também provê a questão de confiabilidade e integridade.
+
+214
+00:16:06,550 --> 00:16:11,980
+E por último nós temos a camada de aplicação que é onde nós vamos que é a camada que nós vamos trabalhar
+
+215
+00:16:11,980 --> 00:16:13,990
+de forma mais forte.
+
+216
+00:16:14,020 --> 00:16:23,530
+é importante que você conheça mais por exemplo protocolos HTTP FTP SMTP POP e DNS tudo isso roda em
+
+217
+00:16:23,530 --> 00:16:28,920
+cima da camada de aplicação usa a pilha TCP em baixo pra funcionar.
+
+218
+00:16:28,930 --> 00:16:36,130
+Aqui você tem uma comunicação processo a processo ou seja não basta você comunicar o seu computador
+
+219
+00:16:36,400 --> 00:16:42,160
+com o computador do Google você tem que comunicar o Brasil que está rodando no seu computador como servidor
+
+220
+00:16:42,280 --> 00:16:46,440
+web que está provendo aquele aquele site ou aquele sistema.
+
+221
+00:16:46,440 --> 00:16:50,260
+No caso por exemplo o Gmail então você está no Brasil acessando o Gmail.
+
+222
+00:16:50,260 --> 00:16:55,350
+Não basta comunicar a máquina a máquina precisa comunicar o processo a processo.
+
+223
+00:16:55,360 --> 00:17:00,500
+E é exatamente nesse ponto que entra o conceito de porta que eu vou falar um pouquinho mais ainda na
+
+224
+00:17:00,500 --> 00:17:00,970
+sala.
+
+225
+00:17:01,270 --> 00:17:06,150
+Então continuando nós vamos agora ver a anatomia do endereço IP.
+
+226
+00:17:06,160 --> 00:17:12,790
+Vou falar do endereço IP v4 que é o que eu tenho mais conhecimento mais o IPv6 que é um IP mais moderno
+
+227
+00:17:12,790 --> 00:17:15,400
+que ainda não está presente em todos os dispositivos.
+
+228
+00:17:15,410 --> 00:17:20,730
+A migração que já está rolando há muito tempo está muito muito atrasada.
+
+229
+00:17:20,740 --> 00:17:23,470
+Na verdade a gente usa ainda muita coisa.
+
+230
+00:17:23,620 --> 00:17:25,000
+Endereços IPv4.
+
+231
+00:17:25,100 --> 00:17:28,900
+A gente vai entender a lógica pra vocês entender como o IP é organizado.
+
+232
+00:17:29,060 --> 00:17:36,040
+Então olhando a anatomia do IP Primeiro eu vou mostrar pra vocês um determinado IP a gente vai trabalhar
+
+233
+00:17:36,040 --> 00:17:37,830
+o conceito de classe incerto.
+
+234
+00:17:37,870 --> 00:17:42,940
+Existem classe de classe A e B de classe B e classe C.
+
+235
+00:17:43,390 --> 00:17:51,340
+Então nós temos aqui um IP separado e um número separado por quatro partes cada parte de 0 até 255.
+
+236
+00:17:51,730 --> 00:17:53,770
+Então nós temos aqui um 9 2.
+
+237
+00:17:53,770 --> 00:17:58,170
+Ponto 8 pontos 100 pontos 130.
+
+238
+00:17:58,180 --> 00:18:06,700
+Parte desse IP está destinado para identificar a rede que o computador está e parte desse P está destinado
+
+239
+00:18:06,700 --> 00:18:10,120
+para identificar o computador dentro de uma rede.
+
+240
+00:18:10,120 --> 00:18:16,700
+Você pode ter essas quatro partes uma parte por exemplo a primeira parte pode ser destinada para identificar
+
+241
+00:18:16,700 --> 00:18:20,810
+a rede e as três últimas partes pode ser identificada.
+
+242
+00:18:20,890 --> 00:18:23,040
+Qual é a máquina dentro de uma rede.
+
+243
+00:18:23,100 --> 00:18:28,930
+Você pode ir misturando isso de acordo com a necessidade então o ímpeto de classe A ele é organizado
+
+244
+00:18:28,930 --> 00:18:30,310
+da seguinte forma.
+
+245
+00:18:30,310 --> 00:18:38,300
+A primeira parte é a rede e as três últimas partes estão destinadas para definir a máquina ou Bush e
+
+246
+00:18:38,360 --> 00:18:45,880
+o computador dentro de uma rede nesse cenário fica muito claro que você tem poucas redes e dentro de
+
+247
+00:18:45,880 --> 00:18:51,790
+cada uma das redes você tem muitas mas muitas máquinas está cego então um pé de classe.
+
+248
+00:18:51,790 --> 00:18:58,030
+Ele não é disponível para você ter assim já que são pouquíssimas redes de classe A que existem no mundo
+
+249
+00:18:58,460 --> 00:19:04,130
+e dentro dessa organização você tem pra definir o que é que é rede e o que é que errou.
+
+250
+00:19:04,250 --> 00:19:09,890
+Este conceito chamado máscara de subir rede que é um número que está associado com o IP.
+
+251
+00:19:10,090 --> 00:19:13,080
+Então qual é a lógica de formação disso.
+
+252
+00:19:13,120 --> 00:19:16,650
+A massa de sua rede tem exatamente o mesmo tamanho de um IP.
+
+253
+00:19:17,200 --> 00:19:19,950
+Então a máscara e sua rede serve pra dizer o seguinte.
+
+254
+00:19:20,170 --> 00:19:27,220
+Sempre que a máscara de subir rede um determinado byte está marcado comum significa que aquela parte
+
+255
+00:19:27,220 --> 00:19:34,060
+do IP aponta para uma rede e sempre que o byte na máscara subir rede tiver zero significa que o bit
+
+256
+00:19:34,060 --> 00:19:37,450
+correspondente o IP ele aponta pra uma máquina.
+
+257
+00:19:37,780 --> 00:19:44,230
+Então normalmente você divide uma máscara de subir rede em um determinado ponto que o lado esquerdo
+
+258
+00:19:44,230 --> 00:19:51,580
+sempre terá bytes 1 e para o lado direito sempre terá bit 0 e naquele ponto se você espelhar a máscara
+
+259
+00:19:51,580 --> 00:19:59,440
+de subir rede com vários bytes um e vários bytes zeros espelhar isso pra um endereço IP binário foi
+
+260
+00:19:59,820 --> 00:20:05,790
+para cá significa que é o endereço da rede e tudo o que for zero pra cá significa que é o endereço do
+
+261
+00:20:05,970 --> 00:20:09,360
+Rush não precisa ser certo como estou mostrando aqui.
+
+262
+00:20:09,900 --> 00:20:16,630
+Por exemplo o primeiro número é rede os outros três é roxo na verdade você pode ter visões meio termo
+
+263
+00:20:16,640 --> 00:20:23,190
+não exatamente nessas quatro partes mas de qualquer forma para explicar aqui ou classe a você tem a
+
+264
+00:20:23,190 --> 00:20:26,070
+primeira parte do endereço IP apresentando o Rede.
+
+265
+00:20:26,170 --> 00:20:31,860
+E você tem as três últimas representando um Roxy significa que você tem pouquíssimas redes no mundo
+
+266
+00:20:32,150 --> 00:20:38,610
+como milhares e milhares de máquinas dentro dessa rede acessam redes bem grandes e são endereços muito
+
+267
+00:20:38,610 --> 00:20:45,930
+raros homens não estão disponíveis para os meros mortais digamos assim então endereços de classe B o
+
+268
+00:20:45,930 --> 00:20:50,760
+endereço IP poderia ser o mesmo o que vai definir a classe dele a máscara de subir rede.
+
+269
+00:20:50,790 --> 00:20:57,180
+Então nesse caso a rede ocupa as duas primeiras partes e o roxo ocupa as duas partes finais.
+
+270
+00:20:57,180 --> 00:20:59,040
+Você tem um massacre sobre a rede.
+
+271
+00:20:59,090 --> 00:21:06,870
+Dessa forma 2 5 5 2 5 5 ou seja nas primeiras duas partes todos os bytes estão marcados com.
+
+272
+00:21:06,940 --> 00:21:12,850
+Então significa que você tá na metade do endereço IP ele é todo dedicado para mapear as redes.
+
+273
+00:21:12,900 --> 00:21:17,910
+é o caso do ponto zero ponto zero no final significa que todos os bytes são zeros.
+
+274
+00:21:17,940 --> 00:21:20,870
+Significa que aquela parte final está mapeando os rostos.
+
+275
+00:21:21,270 --> 00:21:27,540
+Então nesse caso você tem um endereço IP dividido na metade metade metade roxo.
+
+276
+00:21:27,600 --> 00:21:30,980
+Ainda assim você tem endereços de classe B.
+
+277
+00:21:31,020 --> 00:21:36,150
+é muito difícil também você ter na prática você normalmente trabalha com endereços de classe C.
+
+278
+00:21:36,510 --> 00:21:45,060
+Então classe C seria endereços que você tem o 9 2 8 ponto sem ponto 230 usem o mesmo IP nos três cenários
+
+279
+00:21:45,480 --> 00:21:46,960
+o que vai dizer a classe.
+
+280
+00:21:47,250 --> 00:21:55,110
+A máscara de subir rede então nesse caso 2 5 5 2 5 5 2 5 5 pontos zero significa que as três primeiras
+
+281
+00:21:55,110 --> 00:22:02,430
+partes mapeiam uma rede e apenas a última parte mapeia o que significa que você está limitado aí é mais
+
+282
+00:22:02,430 --> 00:22:07,200
+ou menos em 55 máquinas dentro de uma rede classe C.
+
+283
+00:22:07,340 --> 00:22:15,060
+E você pode inclusive ter máscaras ainda mais restritas para por exemplo eu quero ter uma rede segregada
+
+284
+00:22:15,060 --> 00:22:21,930
+que tem apenas 10 máquinas é possível fazer isso é só você mexer na máscara de subrede que você consegue
+
+285
+00:22:21,930 --> 00:22:26,750
+restringir ainda mais a quantidade de máquinas e aumentar ainda mais a quantidade de redes.
+
+286
+00:22:26,770 --> 00:22:31,710
+Mais esses três padrões são os padrões mais clássicos digamos assim como você organiza a rede.
+
+287
+00:22:31,710 --> 00:22:38,190
+Importante é você entender que o endereço IP sozinho ele não diz exatamente a informação total sobre
+
+288
+00:22:38,190 --> 00:22:44,340
+o IP ele precisa da máscara de sua rede para que ele possa ser interpretado que parte do IP representa
+
+289
+00:22:44,610 --> 00:22:47,840
+uma rede que parte do IP apresenta um certo.
+
+290
+00:22:47,840 --> 00:22:51,420
+Então esse é um conceito de informação que é importante.
+
+291
+00:22:51,420 --> 00:22:55,770
+Quem desenvolve conhecem continuando agora falando sobre porta.
+
+292
+00:22:55,890 --> 00:23:01,670
+O conceito de porta que muita gente confunde não importa na verdade é um processo eu vou mostrar pra
+
+293
+00:23:01,670 --> 00:23:02,450
+vocês isso.
+
+294
+00:23:02,760 --> 00:23:09,540
+Imagine que você tem dois computadores de computador então não impedem 85 pontos 0 ponto 4 que quer
+
+295
+00:23:09,540 --> 00:23:16,180
+comunicar com o computador 2 que está em 10 85 pontos era ponto 5 e estão na mesma rede de classe C
+
+296
+00:23:16,530 --> 00:23:19,110
+certo que a rede 10 35 o zero.
+
+297
+00:23:19,200 --> 00:23:24,810
+Então eles facilmente podem se comunicar só que o computador está rodando aqui.
+
+298
+00:23:24,840 --> 00:23:32,550
+Os processos por exemplo Skype Chrome Apache Dropbox sim são processos que usam portas para se comunicar
+
+299
+00:23:32,550 --> 00:23:34,890
+porque precisam da rede no computador.
+
+300
+00:23:34,890 --> 00:23:36,990
+2 Você tem um desktop.
+
+301
+00:23:37,350 --> 00:23:40,620
+Você tem um Chrome e você tem um nome você tem uma SQL.
+
+302
+00:23:40,680 --> 00:23:45,010
+Vamos supor que a partir do computador você quer acessar o computador 2.
+
+303
+00:23:45,090 --> 00:23:47,520
+Além de saber qual é o IP que você quer se conectar.
+
+304
+00:23:47,520 --> 00:23:52,270
+Você também precisa saber qual é o processo e o processo é mapeado pela porta.
+
+305
+00:23:52,620 --> 00:23:59,220
+Então nesse caso cada um desses processos precisa estar associado com um número que é exatamente a porta
+
+306
+00:23:59,340 --> 00:24:04,560
+para que haja uma comunicação não apenas máquina a máquina mais processo a processo.
+
+307
+00:24:04,980 --> 00:24:07,410
+Então nesse caso imagine o que você quer.
+
+308
+00:24:07,410 --> 00:24:14,250
+A partir do computador usando o Chrome acessar uma aplicação que está rodando no Lounge na porta 80
+
+309
+00:24:14,250 --> 00:24:22,630
+80 se você fosse acessar por exemplo a página usando o protocolo HTTP por padrão é usado a porta 80
+
+310
+00:24:22,650 --> 00:24:29,970
+mas você pode por exemplo ter o protocolo HTTP sendo executado a partir de uma aplicação que está associada
+
+311
+00:24:29,970 --> 00:24:30,900
+a uma outra porta.
+
+312
+00:24:30,900 --> 00:24:38,190
+No caso aqui a porta 80 80 é muito comum no ambiente de desenvolvimento você usa outras portas 80 80
+
+313
+00:24:38,460 --> 00:24:41,530
+8 mil 3 mil 3 mil 3 e coisas do tipo.
+
+314
+00:24:41,880 --> 00:24:48,900
+Então nesse caso nosso exemplo mod está executando na porta 80 80 significa que lá na máquina cliente
+
+315
+00:24:49,610 --> 00:25:00,060
+eu vou acessar HTTP 2 Barra Barra um endereço IP 10 80 85 0 5 mapeando a porta nesse caso identifiquei
+
+316
+00:25:00,060 --> 00:25:04,840
+não só a máquina mas também com o processo que vai atender essa requisição.
+
+317
+00:25:04,830 --> 00:25:12,260
+Então fiz isso a partir do Chrome o Chrome dispara essa chamada para a máquina de 85 05 80 80 chegou
+
+318
+00:25:12,290 --> 00:25:15,670
+no novo nome vai lá e mando a resposta pro Brasil.
+
+319
+00:25:15,900 --> 00:25:21,460
+Então pessoal nessa aula mas vimos vários conceitos interessantes falando sobre a história da web.
+
+320
+00:25:21,480 --> 00:25:24,630
+Vocês viram também a questão do protocolo TCP IP.
+
+321
+00:25:24,630 --> 00:25:30,420
+Falando um pouquinho da pilha do protocolo falei também a questão na porta falei da anatomia do endereço
+
+322
+00:25:30,420 --> 00:25:35,820
+IP que também é algo importante e na próxima aulas uns falam um pouco mais sobre protocolo HTTP para
+
+323
+00:25:35,820 --> 00:25:41,070
+a gente conhecer um pouco mais dele já que ele porque ele tem muito mais a ver com o nosso dia a dia
+
+324
+00:25:41,070 --> 00:25:44,340
+de quem desenvolve aplicações para a web então espero aproximá lo.

@@ -1,0 +1,723 @@
+1
+00:00:00,160 --> 00:00:05,370
+Só agora nós vamos ver uma interface que é a interface fantoche certo.
+
+2
+00:00:05,390 --> 00:00:12,120
+Essa interface que quer que ela acontece ela é uma interface que representa uma função que aceita um
+
+3
+00:00:12,120 --> 00:00:18,330
+único argumento e que produz e que produz o resultado certo então aceitou um único argumento e produz
+
+4
+00:00:18,330 --> 00:00:21,880
+o resultado e aí o tipo de argumento que ela vai receber.
+
+5
+00:00:21,900 --> 00:00:27,990
+Você vai definir isso a partir dos genéricos é o tipo de resultado que essa função vai definir.
+
+6
+00:00:27,990 --> 00:00:34,320
+Você também vai definir via genéricos diferente por exemplo do que a gente fez no painel operei que
+
+7
+00:00:34,320 --> 00:00:39,300
+você define em apenas um único tipo e esse tipo era usado pelos dois parâmetros e por tipo de retorno
+
+8
+00:00:39,620 --> 00:00:45,150
+para definir os dois parâmetros eram algo da e o tipo de retorno era dado.
+
+9
+00:00:45,330 --> 00:00:52,170
+No caso do consumo a gente definiu apenas o parâmetro que é passado porque é tipo de retornar VOD.
+
+10
+00:00:52,320 --> 00:00:58,530
+No caso do praticado o tipo de parâmetro a gente definir mas o resultado era verdadeiro ou falso.
+
+11
+00:00:58,530 --> 00:01:04,560
+Agora na fase final você define o tipo de parâmetro que você quer passar e o tipo de retorno que essa
+
+12
+00:01:04,560 --> 00:01:05,760
+função vai retornar.
+
+13
+00:01:05,850 --> 00:01:12,290
+Ou seja é um cenário um pouco mais flexível e a gente vai também fazer um outro ou outro exercício aqui
+
+14
+00:01:12,300 --> 00:01:18,630
+nesse vai estar embutido nesse exercício que é o fato de a gente começar a usar um conceito muito mais
+
+15
+00:01:18,870 --> 00:01:24,480
+importante mesmo na programação funcional que a composição de função certo.
+
+16
+00:01:24,510 --> 00:01:30,780
+Assim como você consegue ter composição de classes uma classe é composta por outras classes você pode
+
+17
+00:01:31,080 --> 00:01:34,980
+usar uma composição de funções para fazer algum tipo de processamento.
+
+18
+00:01:34,990 --> 00:01:39,870
+Esse é um conceito extremamente poderoso eu não quero me aprofundar muito nesse conceito nessa aula
+
+19
+00:01:39,900 --> 00:01:42,730
+mas eu quero mostrar isso em funcionamento.
+
+20
+00:01:43,100 --> 00:01:48,420
+Então nós vamos criar aqui outra classe dentro de lambda Flex.
+
+21
+00:01:48,840 --> 00:01:55,330
+O nome dessa classe será função com F maiúsculo obviamente porque nome de classe é uma convenção.
+
+22
+00:01:55,600 --> 00:02:01,070
+Então vou respeitar aqui as boas maneiras do Japão criar uma função.
+
+23
+00:02:01,360 --> 00:02:08,370
+Eu vou criar uma franquia então vou usar Quioto Foundation e essa faixa é uma interface funcional que
+
+24
+00:02:08,370 --> 00:02:09,300
+está dentro de Java.
+
+25
+00:02:09,300 --> 00:02:17,910
+Contudo o ponto forte é essa recebe dois parâmetros genéricos o primeiro parâmetro é o tipo de informação
+
+26
+00:02:17,910 --> 00:02:21,390
+que eu recebo e então vou passar aqui por exemplo.
+
+27
+00:02:22,470 --> 00:02:24,960
+E o segundo parâmetro vai ser uma string.
+
+28
+00:02:24,990 --> 00:02:32,430
+Eu vou criar uma função aqui certo ou uma expressão lá que vai tornar se um número é par ou ímpar.
+
+29
+00:02:32,600 --> 00:02:38,590
+Então colocar aqui par ou ímpar então que recebe.
+
+30
+00:02:38,590 --> 00:02:43,740
+Eu tenho esse tipo aqui que é a minha interface funcional tem o nome da minha variável e agora vou colocar
+
+31
+00:02:43,740 --> 00:02:45,740
+uma expressão lambda aqui.
+
+32
+00:02:45,750 --> 00:02:50,650
+Como eu tenho apenas um único parâmetro não precisa necessariamente colocar entre parênteses.
+
+33
+00:02:50,970 --> 00:02:56,790
+Então vou colocar aqui ou então o número mesmo vou colocar só para ficar mais curtinho se não faz o
+
+34
+00:02:56,790 --> 00:03:01,620
+seguinte vou colocar número e vou quebrar isso aqui para além de bastar para não ficar muito grande
+
+35
+00:03:01,750 --> 00:03:09,770
+o número é um parâmetro eu vou fazer o seguinte número módulo 2.
+
+36
+00:03:09,990 --> 00:03:17,860
+Se ele for igual a zero fazer um retorno incondicional vocês já partiram para doutrinar ele vai retornar.
+
+37
+00:03:18,000 --> 00:03:21,880
+Caso contrário ele vai retornar.
+
+38
+00:03:22,410 --> 00:03:28,290
+Aqui eu vou dar um ponto e vírgula porque eu tenho a minha inspiração ou seja criei uma variável chamada
+
+39
+00:03:28,300 --> 00:03:35,490
+Papo limpa que é e que aponta para a interface funcional definida pelo Java que é a interface fantoche
+
+40
+00:03:36,000 --> 00:03:42,740
+que recebe o parâmetro de entrada vai ser um inteiro e essa interface vai retornar um valor string exatamente
+
+41
+00:03:42,750 --> 00:03:44,990
+que está acontecendo aqui eu recebo um número.
+
+42
+00:03:45,180 --> 00:03:48,240
+Verifique se o número Módulo 2 é igual a zero.
+
+43
+00:03:48,240 --> 00:03:54,480
+Se ele foi igual a zero significa que não era pago caso contrário o número pra eu usar isso é muito
+
+44
+00:03:54,480 --> 00:04:02,070
+simples eu posso colocar aqui ao System prende ali vou chamar aqui a mim ele não vai imprimir e vai
+
+45
+00:04:02,070 --> 00:04:03,930
+retornar o valor nem por isso que eu vou usar.
+
+46
+00:04:03,930 --> 00:04:09,680
+Usando o system on line então colocando aqui o nome vai ser par ou ímpar.
+
+47
+00:04:09,750 --> 00:04:10,460
+Ponto.
+
+48
+00:04:10,650 --> 00:04:14,300
+Eu vou ter a função Play que eu estou chamando diretamente.
+
+49
+00:04:14,710 --> 00:04:20,970
+E agora uma vez que passa na placa eu passo um número qualquer 33 por exemplo estão executando o valor
+
+50
+00:04:20,970 --> 00:04:26,560
+desse número será o seu Passat 32 obviamente o resultado será pago.
+
+51
+00:04:26,700 --> 00:04:35,220
+Eu vou fazer o seguinte agora eu vou criar outras funções também usando essa interface funcional Foundation.
+
+52
+00:04:35,490 --> 00:04:45,090
+Vou fazer o seguinte ao criar aqui um outro outra criar outra variável chamando o resultado e vou criar
+
+53
+00:04:45,090 --> 00:04:48,200
+aqui outra função para o seguinte essa função.
+
+54
+00:04:48,420 --> 00:04:53,140
+Ela vai receber uma string diferente da de cima e vai retornar uma string.
+
+55
+00:04:53,160 --> 00:05:06,450
+Então aqui eu vou receber um valor e eu vou simplesmente retornar o resultado é dois pontos e volto
+
+56
+00:05:06,500 --> 00:05:09,090
+concatenar com um valor que eu recebi.
+
+57
+00:05:09,080 --> 00:05:15,210
+Essa minha função vai fazer apenas concatenar ele sim isso aqui distribuir junto com a string original
+
+58
+00:05:15,210 --> 00:05:15,940
+que foi gerada.
+
+59
+00:05:15,980 --> 00:05:19,050
+E como é que eu posso digamos assim juntar essas duas funções.
+
+60
+00:05:19,050 --> 00:05:25,260
+Como é que eu posso pegar uma função que define que o número Paulo é limpa e depois ele vai pegar essa
+
+61
+00:05:25,260 --> 00:05:31,260
+parte que faz digamos assim o processamento do processamento colaborando com o outro.
+
+62
+00:05:31,680 --> 00:05:37,680
+A grande vantagem abrir um parêntese rápido aqui da composição de função é porque você consegue criar
+
+63
+00:05:37,680 --> 00:05:43,170
+funções bem pequenas numa função que é responsável por fazer apenas uma única coisa.
+
+64
+00:05:43,290 --> 00:05:49,330
+E aí você consegue pegar várias funções pequenas que podem ser reutilizadas em outros contextos.
+
+65
+00:05:49,470 --> 00:05:55,380
+Juntam essas funções colocá las para trabalhar de forma conjunta para no final você ter um resultado.
+
+66
+00:05:55,380 --> 00:06:00,600
+Então como é que eu posso fazer isso ou posso fazer isso sim eu vou criar aqui um lustre que eu vou
+
+67
+00:06:00,600 --> 00:06:08,590
+chamar aqui de resultado final e esse resultado final vai receber a chamada da função Primeiro eu vou
+
+68
+00:06:08,880 --> 00:06:16,200
+fazer só isso aqui ou acolá e 32 vou colocar aqui a mesma coisa que eu fiz ali em cima e no final eu
+
+69
+00:06:16,200 --> 00:06:23,090
+vou imprimir o resultado final será então só pra não ficar muito atrás nem fica muito complicado executado.
+
+70
+00:06:23,250 --> 00:06:27,210
+Nada mais normal do que a gente ter um Estado já que o número aqui é 32.
+
+71
+00:06:27,210 --> 00:06:32,220
+Vamos supor que agora eu vou colocar tenho outra linha que vai afastar um pouquinho que eu quero.
+
+72
+00:06:32,250 --> 00:06:38,460
+Depois de chamar o pai eu quero chamar essa função aqui o resultado é o seja eu quero que no final ele
+
+73
+00:06:38,460 --> 00:06:46,590
+mostre o resultado e dá pra fazer isso eu posso usar uma função que existe dentro dessa interface que
+
+74
+00:06:46,590 --> 00:06:49,380
+eu acho que é o seguinte ponto.
+
+75
+00:06:49,620 --> 00:06:53,750
+Tem uma função chamada Design ou seja então.
+
+76
+00:06:53,940 --> 00:06:58,860
+E então chame a função o resultado então é que ele vai fazer.
+
+77
+00:06:58,980 --> 00:07:04,650
+Ele vai chamar o pai depois que ele chamar pra ir para pagar o valor que você mandou pra lá ele vai
+
+78
+00:07:04,650 --> 00:07:12,060
+chamar e então chame o resultado é de tal forma que o resultado final vai ser o resultado.
+
+79
+00:07:12,660 --> 00:07:16,050
+Ou seja primeiro ele chamou o pai para depois que ele resolveu.
+
+80
+00:07:16,080 --> 00:07:23,500
+O resultado foi passado para o resultado e esse caso que ele entra um inteiro sai uma string.
+
+81
+00:07:23,760 --> 00:07:27,470
+Neste outro caso ele entre um extremo e um outro extremo.
+
+82
+00:07:27,630 --> 00:07:29,130
+Então por isso não gerou problema.
+
+83
+00:07:29,130 --> 00:07:29,580
+Por quê.
+
+84
+00:07:29,580 --> 00:07:35,520
+Porque como resultado da primeira função um estranho e eu espero receber um estrela na segunda função
+
+85
+00:07:35,860 --> 00:07:41,640
+então não teve nenhum problema concatenar uma função depois da outra que vai criar outra função por
+
+86
+00:07:41,640 --> 00:07:47,510
+exemplo aqui eu chamo que vai receber um extra e vai Apple não distribuiu aqui embaixo.
+
+87
+00:07:47,730 --> 00:07:54,550
+E nessa função vou chamar aqui por exemplo a função que empolgado que essa função empolgada vai fazer
+
+88
+00:07:54,630 --> 00:08:01,980
+vai pagar um determinado valor e vai pagar o mesmo valor e concatenar com várias exclamações para dizer
+
+89
+00:08:01,980 --> 00:08:05,010
+que o cara tá bem empolgado aí na hora de imprimir essa string.
+
+90
+00:08:05,100 --> 00:08:10,270
+Então agora tem uma outra função que recebe um string e retorna também uma string.
+
+91
+00:08:10,740 --> 00:08:15,960
+Então nesse caso com a função resultado e também retorna a string eu posso continuar encabeçando uma
+
+92
+00:08:15,960 --> 00:08:22,710
+função atrás da outra e isso é o que chamo de composição de funções você usa várias funções junto com
+
+93
+00:08:22,710 --> 00:08:27,970
+a outra em um caderno uma depois da outra pra que a gente possa ter o resultado final que a gente quer
+
+94
+00:08:27,970 --> 00:08:31,200
+ou seja funções que tem pequenas responsabilidades.
+
+95
+00:08:31,200 --> 00:08:36,630
+Faz uma pequena coisa o resultado essa função já entra na outra função que faz uma pequena coisa que
+
+96
+00:08:36,630 --> 00:08:41,640
+passa esse resultado para a outra função que faz o outro pequeno processamento e no final você tem um
+
+97
+00:08:41,640 --> 00:08:42,760
+Estado que você quer.
+
+98
+00:08:43,170 --> 00:08:49,080
+A vantagem de você ter funções pequenas é porque você consegue reutilizar essas funções de uma forma
+
+99
+00:08:49,080 --> 00:08:50,140
+mais fácil.
+
+100
+00:08:50,250 --> 00:08:56,610
+Se você tem uma função que faz várias coisas faz dez processamentos muito provavelmente parte daqueles
+
+101
+00:08:56,610 --> 00:09:02,400
+processamentos poderiam ser utilizados em outra parte do sistema mas não é utilizado por quem está dentro
+
+102
+00:09:02,400 --> 00:09:05,330
+de uma função maior ou mais complexa e tal certo.
+
+103
+00:09:05,580 --> 00:09:08,730
+Então como é que eu faço para usar um empolgado tranquilo.
+
+104
+00:09:08,830 --> 00:09:12,700
+Basta colocar aqui ou depois de ele não seja.
+
+105
+00:09:12,720 --> 00:09:19,170
+E então eu acabo coloco aqui o outro então deixo e passo aqui um empolgado.
+
+106
+00:09:19,170 --> 00:09:25,470
+Então só para enfim quebrar aqui mais de uma linha eu vou colocar aqui claro que o formato colocar o
+
+107
+00:09:25,470 --> 00:09:31,350
+pai para cima e vou colocar deve resultado no resultado.
+
+108
+00:09:31,350 --> 00:09:33,960
+Finalmente eu vou chamar o plano final certo.
+
+109
+00:09:33,960 --> 00:09:38,880
+Eu sei que a única sentença de código quebrado em várias linhas só pra ficar um pouco mais claro como
+
+110
+00:09:38,880 --> 00:09:40,960
+é que está sendo executado o fluxo.
+
+111
+00:09:41,430 --> 00:09:45,320
+Então nesse caso é quando você vai ver o resultado.
+
+112
+00:09:45,490 --> 00:09:52,080
+E aqui eu coloquei as exclamações do final exatamente foi acrescentado por essa função que ao longo
+
+113
+00:09:52,080 --> 00:09:57,120
+da expressão que eu chamei de empolgado então recapitular inicialmente chamou o pai.
+
+114
+00:09:57,160 --> 00:10:01,620
+é exatamente esse é aqui que você passou esse parâmetro.
+
+115
+00:10:01,650 --> 00:10:05,840
+Ele foi passado para a primeira função que você definiu que é o par ou ímpar.
+
+116
+00:10:05,850 --> 00:10:10,080
+é por isso que eu estou passando aqui um valor inteiro então passando esse valor inteiro para essa primeira
+
+117
+00:10:10,080 --> 00:10:15,160
+função entre um valor inteiro aqui e sai um valor do tipo string.
+
+118
+00:10:15,390 --> 00:10:20,940
+Por isso que depois que saiu o valor do tipo string esse valor do tipo string entra na próxima função
+
+119
+00:10:21,330 --> 00:10:25,580
+ou seja então execute a função o resultado é esse valor.
+
+120
+00:10:25,600 --> 00:10:30,700
+Ninguém entra como parâmetro para a próxima função que no caso do valor e o resultado vai entrar como
+
+121
+00:10:30,720 --> 00:10:32,530
+valor nessa segunda.
+
+122
+00:10:32,550 --> 00:10:34,040
+Segundo a expressão lambda.
+
+123
+00:10:34,370 --> 00:10:37,890
+E aí ele vai concatenar que no início essas tribos junto com um valor.
+
+124
+00:10:38,040 --> 00:10:43,870
+E finalmente esse resultado completo vai ser passado para a próxima função como o valor aqui.
+
+125
+00:10:43,950 --> 00:10:47,830
+De tal forma que o valor vai ser concatenar com as escalações.
+
+126
+00:10:47,840 --> 00:10:48,290
+Tá bom.
+
+127
+00:10:48,660 --> 00:10:55,070
+Então esse é um conceito bastante poderoso não é um conceito trivial não é algo extremamente necessário.
+
+128
+00:10:55,090 --> 00:11:02,550
+Você alertou ainda está confuso para mim e eu não estou entendendo completamente esse conceito de encaixar
+
+129
+00:11:02,550 --> 00:11:08,130
+uma função atrás da outra ainda está meio difícil para mim entender um pouco desse conceito de programação
+
+130
+00:11:08,130 --> 00:11:13,530
+funcional pode ficar tranquilo a gente vai ter outros exemplos mais na frente a gente vai usar vai ter
+
+131
+00:11:13,530 --> 00:11:19,170
+outras oportunidades de aplicar isso também é muito importante que você não fique travado.
+
+132
+00:11:19,180 --> 00:11:25,380
+Eu tenho aqui um problema e eu não contou conseguiram entender cem por cento isso não deve ser motivo
+
+133
+00:11:25,380 --> 00:11:32,520
+pra você ficar completamente travado tem outros exemplos de outras formas de usar o mesmo conceito vai
+
+134
+00:11:32,520 --> 00:11:35,940
+muito provavelmente te ajudar a entender um pouco mais esses conceitos.
+
+135
+00:11:35,970 --> 00:11:41,150
+Então se você tiver alguma dificuldade tenta assistir de novo às aulas ou mesmo continuar.
+
+136
+00:11:41,370 --> 00:11:47,220
+Eu tenho certeza que os próximos exemplos vão reforçar esse conteúdo geral tem pra relaxar faz com que
+
+137
+00:11:47,220 --> 00:11:49,170
+você consiga internalizar esses conceitos.
+
+138
+00:11:49,170 --> 00:11:54,640
+Faltou dizer ok eu não tenho exatamente o feed back nesse momento que eu estou gravando.
+
+139
+00:11:54,660 --> 00:11:59,150
+Se você conseguiu captar ou não a mensagem que eu estou passando mas fique tranquilo que esse não é
+
+140
+00:11:59,150 --> 00:12:01,830
+um conceito trivial eu sei disso.
+
+141
+00:12:01,830 --> 00:12:07,530
+Eu tenho essa consciência disso então se você tem uma certa confusão entenda isso como algo natural
+
+142
+00:12:07,630 --> 00:12:10,870
+é algo que faz parte do processo de aprendizado.
+
+143
+00:12:10,890 --> 00:12:16,890
+O meu trabalho como professor é tentar mostrar pra você outros exemplos mostrar outras formas mais simples
+
+144
+00:12:16,890 --> 00:12:17,810
+de fazer.
+
+145
+00:12:17,910 --> 00:12:23,760
+Caso você ainda não tinha algum exemplo tentei pelo próximo pra que você possa verificar se realmente
+
+146
+00:12:23,760 --> 00:12:29,160
+a partir de outra perspectiva fica mais claro e sem dúvida esses conceitos também serão aplicados na
+
+147
+00:12:29,160 --> 00:12:34,500
+prática Tá certo então espero que você tenha entendido isso é um conceito muito importante de programação
+
+148
+00:12:34,500 --> 00:12:40,800
+funcional e aqui você consegue ver como pequenas funções conseguem colaborar entre si e até colocar
+
+149
+00:12:40,800 --> 00:12:46,000
+isso para baixo pra que fique as três funções uma do lado da outra.
+
+150
+00:12:46,000 --> 00:12:52,080
+Certo ou seja você consegue ver como várias funções pequenas conseguem colaborar entre si para gerar
+
+151
+00:12:52,080 --> 00:12:57,460
+um resultado final sem necessariamente você misturar todo algorítimo ou função só.
+
+152
+00:12:57,460 --> 00:13:03,780
+Quanto maior é a função isso é um princípio importante quanto maior é a função mais difícil será para
+
+153
+00:13:03,780 --> 00:13:06,880
+você reutilizar essa função em mais locais no seu sistema.
+
+154
+00:13:06,880 --> 00:13:07,490
+Por quê.
+
+155
+00:13:07,780 --> 00:13:13,530
+Porque é uma função grande normalmente ela acaba sendo muito específica muito específico para resolver
+
+156
+00:13:13,530 --> 00:13:19,740
+o tipo de problema bem determinado então é mais difícil você pegar essa função e reutilizar em muitos
+
+157
+00:13:19,740 --> 00:13:23,430
+locais o que é uma função grande que tem muitas responsabilidades.
+
+158
+00:13:23,430 --> 00:13:27,460
+Quando você tem funções pequenas você pode por exemplo.
+
+159
+00:13:27,810 --> 00:13:34,020
+Eu preciso criar uma outra frase que mais que não há empolgado que é uma frase de dúvida legal então
+
+160
+00:13:34,050 --> 00:13:37,370
+posso fazer aqui onde estava previsto mais eu vou colocar aqui.
+
+161
+00:13:37,770 --> 00:13:44,740
+Criar aqui uma interface funcional que eu vou chamar aqui de duvidando tão empolgado mas sem dúvida
+
+162
+00:13:45,090 --> 00:13:48,040
+e eu vou colocar aqui algumas interrogações.
+
+163
+00:13:48,450 --> 00:13:55,920
+Eu posso usar que o resultado final está no final um certo e eu posso criar aqui um estado final 2.
+
+164
+00:13:55,980 --> 00:13:59,380
+Vou colocar duplicar isso aqui embaixo.
+
+165
+00:13:59,610 --> 00:14:04,490
+Eu vou fazer o seguinte resultado final 2 e veja ele está empolgado ele vai estar com dúvida.
+
+166
+00:14:04,500 --> 00:14:11,810
+Ou seja eu consegui reutilizar a mesma parte inicial para o resultado é só aqui no final vai estar com
+
+167
+00:14:11,820 --> 00:14:12,310
+tudo.
+
+168
+00:14:12,390 --> 00:14:19,080
+Daqui para a 33 está executando ou você vai ver o estado pá e o segundo resultado ainda mais colocou
+
+169
+00:14:19,080 --> 00:14:20,690
+algumas interrogações no final.
+
+170
+00:14:20,690 --> 00:14:21,480
+Por quê.
+
+171
+00:14:21,630 --> 00:14:27,450
+Eu passei a função de novo que percebe que eu consegui reutilizar essas funções menores.
+
+172
+00:14:27,720 --> 00:14:35,250
+Só que em outro contexto gerando novo fluxo de dia algorítimo concatenar essas esses processamentos
+
+173
+00:14:35,250 --> 00:14:40,860
+um depois do outro mais sem necessariamente precisar misturar todo algoritmo em uma única função.
+
+174
+00:14:41,170 --> 00:14:46,910
+Então isso é um princípio que é importante que você entenda e funções muito grandes com muitas responsabilidades
+
+175
+00:14:46,920 --> 00:14:50,300
+dificilmente será muito reutilizado dentro do seu sistema.
+
+176
+00:14:50,370 --> 00:14:56,910
+E quando você cria funções pequenas que tem poucas responsabilidades e isso vai te ajudar a reutilizar
+
+177
+00:14:56,910 --> 00:15:02,500
+isso de uma forma muito mais interessante então só para mostrar aqui um exemplo disso bem simples tá
+
+178
+00:15:02,730 --> 00:15:07,660
+muito trivial esse exemplo mas se isso for aplicada na prática é muito.
+
+179
+00:15:07,670 --> 00:15:13,380
+é um conceito extremamente poderoso então pessoal fico por aqui só naquela formatação para não ficar
+
+180
+00:15:13,380 --> 00:15:19,020
+muito longe do outro e na próxima a gente continua vendo outra interface funcional disponibilizada pelo
+
+181
+00:15:19,020 --> 00:15:20,100
+Japão e espero lá.

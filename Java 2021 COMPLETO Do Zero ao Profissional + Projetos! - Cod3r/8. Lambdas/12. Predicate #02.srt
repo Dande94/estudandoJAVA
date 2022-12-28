@@ -1,0 +1,247 @@
+1
+00:00:00,130 --> 00:00:06,420
+Pessoal a gente fez já um exemplo sobre pré indicado e eu quero mostrar exatamente essa ideia da composição
+
+2
+00:00:06,450 --> 00:00:12,420
+usando o predicado mostrei pra vocês a composição na função na qual você criou a função.
+
+3
+00:00:12,560 --> 00:00:16,600
+Você chama N D E aí passou outra função.
+
+4
+00:00:16,770 --> 00:00:22,510
+Tem aquele aquele cuidado aquele detalhe que a saída de um método deve ser a entrada do outro.
+
+5
+00:00:22,560 --> 00:00:29,820
+Aqui começou tranquilo porque inicialmente eu passei o Inter como parâmetro pra todo o fluxo e ele converteu
+
+6
+00:00:29,820 --> 00:00:36,340
+na primeira função logo converteu pra pra trinco e a partir daí tudo passou a ser estranho na estreia
+
+7
+00:00:36,390 --> 00:00:42,840
+ator ministrinho que tal e aqui até poderia não necessariamente ter uma fonte que poderia se quiser
+
+8
+00:00:42,840 --> 00:00:48,820
+até colocar um operador na área não teria problema porque tanto o parâmetro de entrada como o retorno
+
+9
+00:00:48,820 --> 00:00:55,010
+do mesmo tipo então que eu poderia até substituir como objetivo era testar a função acabei colocando
+
+10
+00:00:55,020 --> 00:01:00,220
+função que mais não teria nenhum problema para a funcionalidade do nosso algoritmo substituir.
+
+11
+00:01:00,300 --> 00:01:06,340
+Não vou mexer nesse exemplo não porque o exemplo passado vou criar um novo aqui em exercício em Série
+
+12
+00:01:06,340 --> 00:01:13,730
+C no pacote de lambidas e o nome do nosso exercício será praticado composição da nova classe.
+
+13
+00:01:14,220 --> 00:01:24,160
+Vou chamar de cada composição e a gente vai fazer um exemplo bem simples só pra mostrar um outro cenário
+
+14
+00:01:24,180 --> 00:01:29,940
+que você tem um composição de funções pra fazer alguma coisa só que nesse caso um predicado predicado
+
+15
+00:01:29,940 --> 00:01:35,340
+e uma função que recebe é uma interface funcional que recebe um parâmetro de entrada retorno verdadeiro
+
+16
+00:01:35,340 --> 00:01:35,850
+falso.
+
+17
+00:01:36,030 --> 00:01:43,200
+Então aqui eu vou criar duas funções a primeira função vai ser esse patrão colocar aquele predicado
+
+18
+00:01:43,560 --> 00:01:44,510
+pra quê.
+
+19
+00:01:44,640 --> 00:01:46,630
+Em cima de Java outro ponto.
+
+20
+00:01:47,000 --> 00:01:52,350
+Vou receber aqui não Internet com um parâmetro e eu vou chamar que.
+
+21
+00:01:53,100 --> 00:01:59,220
+A lógica dessa função Supersimples eu recebo o número e esse número pra testar se ele é pago coloca
+
+22
+00:01:59,390 --> 00:02:06,640
+o módulo o módulo do Módulo 2 igual a zero.
+
+23
+00:02:06,870 --> 00:02:13,440
+Feito isso ou seja esse o número Módulo 2 foi igual a zero essa expressão dará verdadeira e o resultado
+
+24
+00:02:13,440 --> 00:02:15,060
+será que é pago.
+
+25
+00:02:15,060 --> 00:02:23,840
+Caso contrário o resultado será outro predicado que eu posso criar Ticket também internet.
+
+26
+00:02:24,150 --> 00:02:32,940
+Aqui vai ser sim os três dígitos ou seja esse número tem três dígitos ou não.
+
+27
+00:02:32,940 --> 00:02:39,180
+Pra eu testar o numero tem três dígitos eu tenho que fazer o seguinte o número tem que ser maior ou
+
+28
+00:02:39,180 --> 00:02:47,490
+igual a 100 e o número tem que ser menor ou igual a 999.
+
+29
+00:02:47,640 --> 00:02:53,760
+Se ele for menor do que 100 ou maior e aqui obviamente tem que passar o parâmetro número pra funcionar
+
+30
+00:02:54,060 --> 00:02:57,390
+como ficou ali fora da tela.
+
+31
+00:02:57,390 --> 00:02:58,690
+Vou colocar aqui embaixo.
+
+32
+00:02:58,800 --> 00:03:05,730
+Então esse 3 número seja tem 3 números se o número que eu recebi como parâmetro for o maior assim é
+
+33
+00:03:05,730 --> 00:03:10,960
+menor do que 999 significa que o numero tem três dígitos.
+
+34
+00:03:10,950 --> 00:03:19,860
+Então pra gente fazer alguns testes por exemplo eu posso colocar aqui 3 par e eu coloco o teste por
+
+35
+00:03:19,860 --> 00:03:26,900
+exemplo que o número 22 é executado você vai ver que o Estado vai ser verdadeiro porque é o numero passo
+
+36
+00:03:26,890 --> 00:03:34,050
+a passar aqui 3 Se eu passar 23 o resultado será falso como é de se esperar ultrapassassem 120 3 por
+
+37
+00:03:34,050 --> 00:03:34,640
+exemplo.
+
+38
+00:03:34,710 --> 00:03:37,230
+7 22 o resultado é verdadeiro.
+
+39
+00:03:37,230 --> 00:03:44,230
+Como é que eu faço pra fazer essa composição e aí você tem algumas possibilidades você tem por exemplo.
+
+40
+00:03:44,450 --> 00:03:51,160
+Ou seja fazer uma operação lógica e já que eu tenho o resultado como sendo dois valores booleanos então
+
+41
+00:03:51,270 --> 00:04:00,370
+não posso fazer esse entre 3 três dígitos então nesse caso eu estou fazendo uma composição de duas funções
+
+42
+00:04:00,370 --> 00:04:05,170
+para saber se o resultado é verdadeiro ou falso nesse caso é verdadeiro.
+
+43
+00:04:05,550 --> 00:04:13,260
+Eu tenho 122 se eu colocar 123 o resultado será falso porque embora ele tenha três dígitos o resultado
+
+44
+00:04:13,590 --> 00:04:19,620
+não é verdadeiro porque o número é implantado mas se eu colocar aqui neguei no final seja uma negação
+
+45
+00:04:19,620 --> 00:04:23,680
+lógica eu tenho a possibilidade agora de retornar ao valor verdadeiro.
+
+46
+00:04:23,830 --> 00:04:30,930
+Ok ok embora essa expressão seja falsa no final neguei e tem um valor resultado passou a ser verdadeiro.
+
+47
+00:04:30,930 --> 00:04:37,630
+Vou duplicar aqui pra gente testar o outro cenário então por exemplo colocar em Beijing jogo qualquer
+
+48
+00:04:37,800 --> 00:04:46,080
+hora seja como é pa ou tem três dígitos se você vai ver que o Estado é verdadeiro porque em 123 tem
+
+49
+00:04:46,080 --> 00:04:50,120
+três dígitos mas não é pa como eu fiz uma operação do tipo.
+
+50
+00:04:50,130 --> 00:04:51,540
+O resultado é verdadeiro.
+
+51
+00:04:51,690 --> 00:04:58,650
+Então você percebe as possibilidades que você tem para cada tipo de interface funcional algum tipo de
+
+52
+00:04:58,650 --> 00:05:00,640
+composição nem vai ser.
+
+53
+00:05:00,640 --> 00:05:04,430
+Vai estar disponível você fazer composição de funções.
+
+54
+00:05:04,600 --> 00:05:11,770
+Mais por exemplo uma operação binária recebe dois parâmetros de entrada mais um método em Java não retorna
+
+55
+00:05:11,770 --> 00:05:16,930
+dois parâmetros então tem quando você pega o resultado de um método binário e já em caso já é outro
+
+56
+00:05:16,930 --> 00:05:24,090
+método binário certo isso não dá certo mais alguns tipos de interfaces como operações ou áreas funções
+
+57
+00:05:24,090 --> 00:05:24,920
+predicados.
+
+58
+00:05:24,920 --> 00:05:31,120
+Você tem como o resultado de um método já em em outro método especificamente em um caso predicado você
+
+59
+00:05:31,120 --> 00:05:37,480
+vai trabalhar com operações lógicas e ou é a negação lógica certa era exatamente isso que eu queria
+
+60
+00:05:37,480 --> 00:05:38,350
+mostrar para vocês.
+
+61
+00:05:38,350 --> 00:05:44,260
+Outra forma é você fazer composição de função usando o predicado e na próxima hora a gente continua
+
+62
+00:05:44,380 --> 00:05:44,710
+até lá.

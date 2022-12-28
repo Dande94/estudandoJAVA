@@ -1,0 +1,435 @@
+1
+00:00:00,110 --> 00:00:02,970
+Como pessoa mal passado nós tínhamos aqui no Maracanã na sala.
+
+2
+00:00:02,970 --> 00:00:07,450
+Vou continuar aqui desenvolvendo o nosso exemplo de herança.
+
+3
+00:00:07,500 --> 00:00:14,160
+Então para isso eu vou criar aqui uma outra funcionalidade dentro do jogador que seria uma funcionalidade
+
+4
+00:00:14,160 --> 00:00:15,350
+de atacar.
+
+5
+00:00:15,750 --> 00:00:17,540
+Então o método atacar.
+
+6
+00:00:17,720 --> 00:00:23,460
+Ele é um método que ele vai receber o outro jogador como parâmetro inicialmente eu vou criar esse método
+
+7
+00:00:23,460 --> 00:00:29,730
+como sendo o Voyage ou então ele pode também ser um pulo para saber se o ataque ocorreu ou não.
+
+8
+00:00:29,860 --> 00:00:35,770
+E aqui eu vou receber um outro jogador como parâmetro porque o jogador vai atacar outro jogador então
+
+9
+00:00:35,780 --> 00:00:37,070
+o coloca aqui.
+
+10
+00:00:37,080 --> 00:00:45,030
+Vou chamar aqui de oponente com net e por padrão ele vai retornar porque sabe que houve o ataque.
+
+11
+00:00:45,430 --> 00:00:47,430
+Depois a gente pode inverter a lógica se for o caso.
+
+12
+00:00:47,820 --> 00:00:49,050
+Então como é que eu faço.
+
+13
+00:00:49,050 --> 00:00:53,100
+Qual seria a lógica pra eu defendi o meu ataque.
+
+14
+00:00:53,180 --> 00:01:00,140
+Eu vou fazer o seguinte eu vou calcular a diferença inteiro certo que seria no delta.
+
+15
+00:01:00,270 --> 00:01:08,130
+Então posso colocar aqui disse certa a então Delta mesmo com a diferença do eixo x é bom calcular a
+
+16
+00:01:08,130 --> 00:01:16,530
+diferença no eixo Y então por exemplo eu vou pegar o meu x menos o meu oponente x pra saber qual é a
+
+17
+00:01:16,530 --> 00:01:19,210
+diferença que existe nesse caso aqui.
+
+18
+00:01:19,280 --> 00:01:25,560
+E nesse caso pra mim não me interessa o valor negativo ou positivo me parece mal absoluto.
+
+19
+00:01:25,560 --> 00:01:31,460
+Por isso eu posso usar aqui ao chefe ponto A B E S Cade absoluto.
+
+20
+00:01:31,580 --> 00:01:36,480
+Se isso aqui por exemplo a diferença for menos um no final o resultado vai ser a mesma coisa para o
+
+21
+00:01:36,480 --> 00:01:43,470
+que o Delta perderia a diferença é só pra fazer a diferença qual a distância que o oponente está do
+
+22
+00:01:43,470 --> 00:01:43,920
+outro.
+
+23
+00:01:43,950 --> 00:01:49,600
+Aqui um jogador está do outro dentro do tabuleiro então A B S é absoluto.
+
+24
+00:01:49,640 --> 00:01:58,620
+Qualquer que y menos oponente ponto é certo então aí em cima disso eu vou fazer a lógica para um jogador
+
+25
+00:01:58,620 --> 00:02:04,190
+atacar ou quem está atacando esse jogador atual desses está atacando o oponente.
+
+26
+00:02:04,260 --> 00:02:10,770
+Então eu falei o seguinte eu sei o delta x foi exatamente o zero.
+
+27
+00:02:10,780 --> 00:02:14,810
+Se eles têm o mesmo X quer dizer que eles estão na mesma na mesma coluna.
+
+28
+00:02:14,800 --> 00:02:19,580
+Se ele tem o mesmo Y quer dizer que eles estão na mesma linha do tabuleiro sacou.
+
+29
+00:02:19,920 --> 00:02:29,370
+Então se eles têm exatamente o mesmo X ou seja está na mesma coluna e o delta ou seja Delta y é igual
+
+30
+00:02:29,370 --> 00:02:35,280
+a 1 significa que eles podem atacar o outro porque eles estão exatamente de um lado do outro certo no
+
+31
+00:02:35,280 --> 00:02:36,560
+mesmo eixo.
+
+32
+00:02:36,600 --> 00:02:38,720
+Nesse caso o que é que vai acontecer.
+
+33
+00:02:38,730 --> 00:02:42,580
+Eu tenho que dizer que esse jogador vai ter também uma vida.
+
+34
+00:02:43,040 --> 00:02:46,390
+Então eu chamo aqui de diretor qualquer estudo em português.
+
+35
+00:02:46,410 --> 00:02:53,210
+Então quer dizer que a vida inicialmente começa com um o padrão e ele vai diminuir por exemplo 10 da
+
+36
+00:02:53,220 --> 00:02:54,330
+vida do jogador.
+
+37
+00:02:54,330 --> 00:02:59,520
+Então nesse caso como esse é um tipo de ataque válido eles estão exatamente do lado do outro dentro
+
+38
+00:02:59,520 --> 00:03:00,400
+do tabuleiro.
+
+39
+00:03:00,610 --> 00:03:03,240
+Então aqui no caso eu vou fazer o oponente.
+
+40
+00:03:03,250 --> 00:03:10,770
+Ponto vida eu vou fazer aqui uma atribuição súbita ativa menos dez da vida do meu oponente porque eu
+
+41
+00:03:10,770 --> 00:03:12,160
+acabei de dar um golpe nele.
+
+42
+00:03:12,170 --> 00:03:19,770
+O outro cenário que eu falei aqui não é aos berros vai ser quando você tem um delta x vai ser igual
+
+43
+00:03:19,770 --> 00:03:25,490
+a um e você tá na mesma no caso você tem o mesmo Y.
+
+44
+00:03:25,560 --> 00:03:27,520
+Você vai tá na mesma linha.
+
+45
+00:03:27,810 --> 00:03:37,470
+Então Delta y é igual a zero ou seja a diferença no eixo y 0 e ele aparece no eixo x é um tanto positivo
+
+46
+00:03:37,470 --> 00:03:40,170
+como negativo significa que um está do lado do outro.
+
+47
+00:03:40,200 --> 00:03:42,820
+Nesse caso o ataque também vai funcionar.
+
+48
+00:03:42,990 --> 00:03:47,630
+Nesses dois cenários significa que você conseguiu atacar Mitani thru.
+
+49
+00:03:47,970 --> 00:03:49,590
+Posso duplicar esse retorno aqui.
+
+50
+00:03:49,590 --> 00:03:53,520
+Caso contrário ou seja não entrou em nenhum dos dois.
+
+51
+00:03:53,520 --> 00:03:59,580
+Ele vai retornar Falso porque ele não conseguiu atacar o oponente porque não está perto do outro certo.
+
+52
+00:03:59,700 --> 00:04:04,460
+Só para a gente fazer uma lógica bem simples do que seria um ataque no total este ano outras coisas.
+
+53
+00:04:04,470 --> 00:04:09,030
+E nem estou interessado em fazer algo muito mais complexo do que isso porque o meu objetivo mesmo é
+
+54
+00:04:09,030 --> 00:04:12,930
+a gente testar a questão da era só pra gente achar que está funcionando.
+
+55
+00:04:12,930 --> 00:04:20,310
+Isso eu vou criar aqui um segundo jogador certo vou colocar aqui pra por enquanto não vou colocar para
+
+56
+00:04:20,360 --> 00:04:22,000
+andar não vou pagar o jogador.
+
+57
+00:04:22,560 --> 00:04:31,650
+Vou duplicar essa parte aqui vou criar um jogador 2 tão jogador 2 2 e 2 eu vou colocar o jogador com
+
+58
+00:04:31,650 --> 00:04:37,050
+o mesmo X e com y diferente só com a diferença de um.
+
+59
+00:04:37,230 --> 00:04:40,270
+Então eles estão na mesma coluna só que em lado lado outro.
+
+60
+00:04:40,290 --> 00:04:45,690
+Nesse sentido aqui então x 10 e o y 10 e 11.
+
+61
+00:04:45,750 --> 00:04:54,600
+Nesse caso se a gente colocar aqui por exemplo antes de atacar eu vou mostrar que o J 1 ponto vira e
+
+62
+00:04:54,600 --> 00:05:06,410
+o j 2 outro dia vou fazer aqui o jogador j um ponto a atacar o jogador 2 o J2 como eles estão lado a
+
+63
+00:05:06,410 --> 00:05:12,740
+lado significa que vai ter uma baixa na vida dos jogadores que estão executando aquilo.
+
+64
+00:05:13,250 --> 00:05:19,910
+A gente vai ver que inicialmente o jogador tem um leve de 100 jogador 2 leve de 100 e depois a gente
+
+65
+00:05:19,910 --> 00:05:25,020
+tem o jogador continua com mais de 100 e o jogador 2 com de 90.
+
+66
+00:05:25,040 --> 00:05:30,780
+Se a gente fizer o contrário aqui se fizer jogador 2 na próxima segunda rodada irá atacar o jogador
+
+67
+00:05:30,790 --> 00:05:35,300
+um o outro também vai ficar com de 90 porque eles estão lado a lado.
+
+68
+00:05:35,330 --> 00:05:41,780
+Se eu colocar por exemplo 12 tentos e também não conseguiu atacar porque eles não estão lado a lado
+
+69
+00:05:42,140 --> 00:05:46,850
+então não gerou nenhum ataque então feito isso a gente já tem uma lógica básica aqui de ataque só pra
+
+70
+00:05:46,850 --> 00:05:53,000
+mostrar vão agora começa a parte realmente interessa da herança então clicando aqui eu vou criar uma
+
+71
+00:05:53,000 --> 00:06:02,240
+nova classe e eu vou chamar aqui um clássico de quem seria o herói por exemplo e o herói ele vai herdar
+
+72
+00:06:02,570 --> 00:06:03,170
+o jogador.
+
+73
+00:06:03,710 --> 00:06:09,200
+Então o que significa quando eu crio isso defino a herança e a herança defina a partir dessa palavra
+
+74
+00:06:09,200 --> 00:06:12,160
+reservada da linguagem que tens.
+
+75
+00:06:12,230 --> 00:06:19,970
+Automaticamente significa que o herói ele vai receber de forma vai receber código a partir de seu uso.
+
+76
+00:06:20,010 --> 00:06:23,480
+Esse uso ocorreu a partir do mecanismo de herança.
+
+77
+00:06:23,730 --> 00:06:31,700
+Então automaticamente se eu chegar aqui no meu jogo e substituí aqui por exemplo pra um herói você vai
+
+78
+00:06:31,700 --> 00:06:34,830
+perceber que continua funcionando corretamente o jogo.
+
+79
+00:06:34,870 --> 00:06:35,520
+Ok.
+
+80
+00:06:35,720 --> 00:06:36,820
+Porque um herói.
+
+81
+00:06:36,890 --> 00:06:38,630
+Ele é um jogador.
+
+82
+00:06:38,960 --> 00:06:40,900
+Eu posso inclusive colocar aqui.
+
+83
+00:06:40,970 --> 00:06:42,830
+Herói herói certo.
+
+84
+00:06:42,890 --> 00:06:48,200
+E aí ele vai continuar funcionando corretamente o jogador 2 é um herói e o jogador continua sendo um
+
+85
+00:06:48,200 --> 00:06:49,450
+jogador normal.
+
+86
+00:06:49,460 --> 00:06:55,980
+Inclusive eu posso por exemplo criar uma outra classe sem problema nenhum chamado sei lá.
+
+87
+00:06:56,010 --> 00:07:01,700
+Monstro é o monstro também estende o jogador.
+
+88
+00:07:01,790 --> 00:07:07,640
+Certo ou seja também é um jogador de tal forma que no meu jogo eu posso criar um jogador para o seu
+
+89
+00:07:07,640 --> 00:07:10,800
+herói e o outro jogador seu monstro.
+
+90
+00:07:11,030 --> 00:07:14,270
+Então coloco o monstro isto é um monstro.
+
+91
+00:07:14,270 --> 00:07:21,230
+Eles são jogadores eles têm posição x e y o monstro consegue atacar um jogador consegue atacar também
+
+92
+00:07:21,590 --> 00:07:28,310
+tanto o monstro quer o jogo também tem vida como jogador também tem vida ele continuou funcionando perfeitamente
+
+93
+00:07:28,310 --> 00:07:29,810
+com o que nós temos era raça.
+
+94
+00:07:29,820 --> 00:07:37,340
+Nós temos uma classe mais genérica que transmitiu atributos e comportamentos para a classe filha e não
+
+95
+00:07:37,340 --> 00:07:43,760
+necessariamente eu precisei fazer absolutamente nada do que diz respeito a definiu o metro simplesmente
+
+96
+00:07:43,760 --> 00:07:50,480
+disse que era ali que tem jogador e que monstro também tem jogador como não recebi por herança os mesmos
+
+97
+00:07:50,480 --> 00:07:58,010
+atributos os mesmos comportamentos e como o método que eu defendia que nem atacar ele recebe um jogador
+
+98
+00:07:58,010 --> 00:07:58,820
+genérico.
+
+99
+00:07:58,850 --> 00:08:04,700
+Eu já fui capaz de a partir do zero receber um monstro como parâmetro como a parte de um monstro eu
+
+100
+00:08:04,700 --> 00:08:09,230
+consegui receber outro monstro com uma parte de um lado e eu consigo atacar o outro herói sem problema
+
+101
+00:08:09,230 --> 00:08:11,510
+nenhum porque todos eram da mesma classe.
+
+102
+00:08:11,840 --> 00:08:15,600
+Então mostrando pra vocês que a parte específica da herança foi simples.
+
+103
+00:08:15,740 --> 00:08:21,380
+Eu não vou continuar esse exercício na sala proximal vou mostrar um pouquinho a capacidade que você
+
+104
+00:08:21,380 --> 00:08:22,250
+tem de sobra.
+
+105
+00:08:22,250 --> 00:08:29,230
+Escrevi um comportamento vamos supor que o jogador ele queira atacar de uma forma mais forte.
+
+106
+00:08:29,310 --> 00:08:32,120
+é um monstro ele ataca de uma forma um pouco mais leve.
+
+107
+00:08:32,450 --> 00:08:37,790
+E é exatamente esse comportamento que eu quero saber escrevi la proximal pra vocês entender um pouco
+
+108
+00:08:37,790 --> 00:08:43,760
+mais o que pode ser feito com relação a isso tá certo então eu fico por aqui nessa aula na próxima aulas
+
+109
+00:08:43,760 --> 00:08:46,520
+vamos continuar o nosso exercício ele espera lá.

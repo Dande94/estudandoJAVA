@@ -1,0 +1,807 @@
+1
+00:00:00,510 --> 00:00:07,350
+Pessoal nessa aula vou explicar para vocês como é que é feito o mapeamento objeto relacional e com relação
+
+2
+00:00:07,350 --> 00:00:14,640
+a essa herança a gente já viu no Java se tem uma classe pai você define uma série de atributos e comportamentos
+
+3
+00:00:14,640 --> 00:00:23,340
+esses atributos são reaproveitados a partir de herança quando você tem uma relação e por exemplo Civic
+
+4
+00:00:23,430 --> 00:00:27,510
+é um carro um aluno bolsista e um aluno.
+
+5
+00:00:27,600 --> 00:00:34,890
+Então quando você tem essa relação então você tem uma herança é pra você fazer o mapeamento da herança.
+
+6
+00:00:34,890 --> 00:00:40,680
+A gente tem algumas estratégias de como isso vai ser refletido no banco de dados por exemplo você tem
+
+7
+00:00:40,680 --> 00:00:47,390
+três estratégias implementadas no JP você tem a possibilidade de para cada classe que você definiu a
+
+8
+00:00:47,390 --> 00:00:53,190
+herança mas definiu a relação de herança que no nosso exemplo vai ser o aluno como ser na classe pai
+
+9
+00:00:53,250 --> 00:01:00,630
+e aluno bolsista como se em nosso subclasse de aluno aluno bolsista vai ter um atributo a mais exatamente
+
+10
+00:01:00,720 --> 00:01:02,050
+o valor da bolsa.
+
+11
+00:01:02,090 --> 00:01:04,740
+Quanto ele ganha por seu aluno bolsista.
+
+12
+00:01:04,740 --> 00:01:08,450
+Ele vai ter tudo aquilo que o aluno tem mais valor da bolsa.
+
+13
+00:01:08,450 --> 00:01:11,930
+Então vai ser essa a diferença entre aluno e aluno bolsista.
+
+14
+00:01:11,940 --> 00:01:18,810
+No caso do JP você tem como mapear isso de algumas formas diferentes por exemplo uma forma você define
+
+15
+00:01:18,810 --> 00:01:24,330
+toda a estrutura de herança que pode ser apenas uma única classe ou mais de uma classe.
+
+16
+00:01:24,420 --> 00:01:36,190
+Você pode ter aluno aluno bolsista aluno aluno especial você pode ter um aluno sei lá da turma do 2
+
+17
+00:01:36,510 --> 00:01:42,720
+turno de Olimpíada por exemplo então você pode ter diferentes tipos de classes com diferentes características
+
+18
+00:01:43,020 --> 00:01:45,060
+para cada um dos alunos possíveis.
+
+19
+00:01:45,060 --> 00:01:50,100
+Então você pode ter não apenas uma única herança simples como é o caso do exemplo mas você também pode
+
+20
+00:01:50,100 --> 00:01:53,780
+ter outras classes ou mesmo mais níveis na hierarquia.
+
+21
+00:01:53,940 --> 00:02:01,290
+Como você usa a estratégia single Baby ou seja uma única tabela você vai pegar todos os atributos dessas
+
+22
+00:02:01,290 --> 00:02:09,890
+classes e jogar a tabela o que significa que você vai precisar ter vários campus marcados com um nulo
+
+23
+00:02:09,900 --> 00:02:12,620
+que pode ser passado um aluno.
+
+24
+00:02:12,820 --> 00:02:18,840
+Ou seja Campos opcionais Poker se você for colocar vários atributos dentro de uma única tabela ou seja
+
+25
+00:02:18,970 --> 00:02:26,070
+os atributos de classes diferentes dentro de uma única tabela significa que quando for aluno bolsista
+
+26
+00:02:26,070 --> 00:02:31,680
+ele vai ter uma bolsa mais quando ele não for esse campo tentar nulo como por exemplo de Olimpíada ele
+
+27
+00:02:31,680 --> 00:02:38,280
+pode não pagar a mensalidade então ele vai ter o campo lá nulo pra dizer a mensalidade porquê.
+
+28
+00:02:38,520 --> 00:02:45,090
+Nesse caso o aluno de Olimpíada é opcional então você vai ter uma série de Campos opcionais porque você
+
+29
+00:02:45,090 --> 00:02:48,670
+jogou toda a estrutura de hierarquia dentro de uma única tabela.
+
+30
+00:02:48,750 --> 00:02:57,660
+Outra possibilidade é o extremo oposto e você colocar cada classe da hierarquia em uma tabela separada.
+
+31
+00:02:57,740 --> 00:03:01,270
+Então você pode criar uma tabela separada para cada classe da hierarquia.
+
+32
+00:03:01,260 --> 00:03:09,540
+Então até uma tabela pra aluno bolsista ou seja para cada classe concreta vai ter uma tabela se a classe
+
+33
+00:03:09,540 --> 00:03:15,120
+aluno for abstrata então não teria uma tabela para o aluno mas se o aluno for classe concreta vai ter
+
+34
+00:03:15,120 --> 00:03:21,240
+uma tabela para o aluno uma tabela para o aluno bolsista e uma tabela para aluno e Olimpíada e uma tabela
+
+35
+00:03:21,240 --> 00:03:25,790
+para alunos especial e aí você vai ter Campus duplicados entre as tabelas.
+
+36
+00:03:25,800 --> 00:03:30,230
+Então você vai ter o nome na tabela de aluno bolsista nome na tabela de aluno.
+
+37
+00:03:30,270 --> 00:03:35,940
+Você vai ter nome para dos alunos em cada um das tabelas porque cada classe concreta vai apresentar
+
+38
+00:03:35,940 --> 00:03:36,630
+uma tabela.
+
+39
+00:03:36,670 --> 00:03:39,590
+E a terceira possibilidade é você usar junções.
+
+40
+00:03:39,620 --> 00:03:44,010
+Você vai ter aquilo que é comum de aluno Tabela Aluno.
+
+41
+00:03:44,010 --> 00:03:50,340
+Você vai ter apenas os atributos de aluno bolsista em outra tabela e vai ser feito conjunto são de tal
+
+42
+00:03:50,340 --> 00:03:56,530
+forma que a chave primária dessa tabela passa a ser a chave primária dessa outra tabela e também uma
+
+43
+00:03:56,550 --> 00:03:59,700
+franquia não achar estrangeiro aí você tem uma junção.
+
+44
+00:03:59,700 --> 00:04:04,780
+E aí você mais ou separa como você vai separar dentro do mundo do Java né.
+
+45
+00:04:04,790 --> 00:04:11,060
+Cada classe tem seus próprios atributos e cada classe vai gerar uma tabela e é feita uma junção.
+
+46
+00:04:11,070 --> 00:04:17,850
+Nesse caso uma relação pra um no caso um aluno vai ter uma linha se ele for um bolsista ele vai ter
+
+47
+00:04:17,850 --> 00:04:23,740
+um homem lá em linha com os atributos adicionais de bolsista da tabela bolsista.
+
+48
+00:04:23,810 --> 00:04:30,540
+Então a ideia aqui básica é a gente criar um exercício para falar sobre isso e mostrar os três modelos
+
+49
+00:04:30,540 --> 00:04:36,410
+eu vou pagar apenas um único exercício e vou comentar algumas coisas e mudar algumas coisas para a gente
+
+50
+00:04:36,420 --> 00:04:42,000
+simular os três modelos o banco de dados e aí eu vou deletado a partir do momento que ele gera o mote
+
+51
+00:04:42,000 --> 00:04:44,640
+pra vocês como é aquele gerado no banco de dados do deleta.
+
+52
+00:04:44,700 --> 00:04:50,820
+Depois altera o mapeamento objeto relacional não altera as anotações para que ele possa refletir no
+
+53
+00:04:50,820 --> 00:04:52,740
+banco de dados de uma outra forma e assim vai.
+
+54
+00:04:53,100 --> 00:04:55,200
+Então para isso vamos criar uma classe.
+
+55
+00:04:55,610 --> 00:05:07,250
+O nome da classe C aluno e aqui vai pelo ponto herança então além de aluno eu vou criar aqui outra classe
+
+56
+00:05:07,340 --> 00:05:17,270
+que chamar de aluno bolsista então aluno bolsista existentes.
+
+57
+00:05:17,290 --> 00:05:24,600
+Aluno então já posso marcar isso aqui com a roupa íntima já posso criar aqui por exemplo.
+
+58
+00:05:24,600 --> 00:05:26,700
+Na verdade não é aluno bolsista.
+
+59
+00:05:27,290 --> 00:05:33,720
+Eu vou marcar como índice aqui eu vou marcar também o aluno.
+
+60
+00:05:34,570 --> 00:05:45,150
+E vou dizer que o aluno tem um atributo logo ele chamado matrícula e matrícula e não precisa ser um
+
+61
+00:05:45,170 --> 00:05:47,480
+valor gerado automaticamente.
+
+62
+00:05:47,630 --> 00:05:50,840
+Pode ser um valor calculado dentro da sua aplicação.
+
+63
+00:05:50,840 --> 00:05:56,540
+Então essas são as duas anotações obrigatórias e está faltando aqui a gente entrar no persiste esse
+
+64
+00:05:56,540 --> 00:06:10,130
+ponto XML e colocar aqui o modelo herança aluno ou duplicar pra aluno bolsista pronto.
+
+65
+00:06:10,130 --> 00:06:16,690
+Feito isso talvez já não está dando erro nenhum aluno não está lá no Enem aluno bolsista porque quem
+
+66
+00:06:16,730 --> 00:06:23,240
+não está dando a ele um aluno bolsista já que a entidade ou entidade obrigatoriamente tem campo com
+
+67
+00:06:23,240 --> 00:06:24,040
+a roubar.
+
+68
+00:06:24,060 --> 00:06:24,810
+Por quê.
+
+69
+00:06:24,830 --> 00:06:33,830
+O pai tem ou seja classe pai seja classe aluno tem um advogado então automaticamente o aluno vai receber
+
+70
+00:06:33,930 --> 00:06:34,340
+esse.
+
+71
+00:06:34,430 --> 00:06:40,790
+Essa anotação por herança digamos assim esse atributo não é herdado digamos assim diretamente o que
+
+72
+00:06:40,790 --> 00:06:45,170
+é privado mas ele vai detectar que existe esse atributo.
+
+73
+00:06:45,350 --> 00:06:53,770
+Então não vai dar nenhum problema além do aluno ter de colocar que o aluno vai ter um estranho nome
+
+74
+00:06:54,650 --> 00:07:08,750
+que o outro atributo é o aluno bolsista vai ter um campo do tipo dado seu valor Box certo.
+
+75
+00:07:09,380 --> 00:07:18,580
+Então aqui nós temos o aluno com matrícula enorme vou criar um futuro padrão.
+
+76
+00:07:18,830 --> 00:07:27,410
+Vou criar aqui um construtor usado nos campos fingi construtor Generation construtor e usem fios eu
+
+77
+00:07:27,410 --> 00:07:28,770
+vou selecionar os dois.
+
+78
+00:07:28,780 --> 00:07:31,750
+Coloquei a matrícula não vai ser gerada automaticamente.
+
+79
+00:07:32,130 --> 00:07:38,320
+Vou para gerar 15 metros quietas 7 selecionar aqui e pronto.
+
+80
+00:07:38,340 --> 00:07:48,130
+Agora eu tenho o meu aluno e vou agora também criar aqui confirmou o bolsista geral.
+
+81
+00:07:48,290 --> 00:07:51,860
+Consultou os campos nesse caso.
+
+82
+00:07:52,140 --> 00:08:00,150
+Eu só tenho os campos relacionados a valor da bolsa então vou gerar isso aqui mas eu vou adicionar mais
+
+83
+00:08:00,150 --> 00:08:04,240
+dois atributos que eu já disse aqui.
+
+84
+00:08:04,290 --> 00:08:04,920
+Londres
+
+85
+00:08:08,310 --> 00:08:11,550
+matrícula e string nome.
+
+86
+00:08:12,420 --> 00:08:13,830
+E aí eu vou passar aqui no Sul.
+
+87
+00:08:13,830 --> 00:08:18,950
+Pré matrícula e o nome.
+
+88
+00:08:19,020 --> 00:08:25,790
+Ou seja inicializar o conforto da calça e perna chamando constou com matrícula e nome e adicione aqui
+
+89
+00:08:26,250 --> 00:08:27,300
+o valor da bolsa.
+
+90
+00:08:27,300 --> 00:08:37,650
+Agora vou criar os métodos setas para lecionar para outro mas temos o nosso as nossas duas classes definidas
+
+91
+00:08:37,820 --> 00:08:43,190
+que é que eu vou precisar agora fazer para que isso realmente seja mapeado como herança.
+
+92
+00:08:43,200 --> 00:08:51,780
+Então nós temos aqui uma anotação na JP aquela antas que é herança e dentro dessa anotação mas temos
+
+93
+00:08:51,780 --> 00:08:57,180
+um atributo que é a estratégia e exatamente as três estratégias que eu falei pra vocês.
+
+94
+00:08:57,180 --> 00:09:04,830
+Hoje temos a cinco o tempo mas temos tempo por classe ou seja para cada classe concreta tem uma tabela
+
+95
+00:09:04,860 --> 00:09:13,070
+e nós temos a Joint que é a junção eu vou iniciar usando assim voltei então vou fazer o seguinte vamos
+
+96
+00:09:13,110 --> 00:09:17,710
+começar por essas cinco ou ter começar por aí.
+
+97
+00:09:17,730 --> 00:09:25,140
+Bom para classe ou seja para cada classe completa concreta eu vou ter uma tabela para a gente testar
+
+98
+00:09:25,140 --> 00:09:32,610
+isso eu vou usar só esse método aqui é obter média de filmes eu não vou criar uma classe minha para
+
+99
+00:09:32,610 --> 00:09:34,250
+testar isso eu vou estar aqui.
+
+100
+00:09:34,680 --> 00:09:42,150
+A gente vai ver como será gerado a tabela dentro do nosso modelo de cursos já então vou dar um refresh
+
+101
+00:09:42,390 --> 00:09:49,300
+aqui pra gente ver a verdade que ensino na minha frente nós temos agora o aluno é aluno bolsista.
+
+102
+00:09:49,350 --> 00:09:54,270
+Pra gente fazer o próximo teste eu vou dopar a tabela de aluno.
+
+103
+00:09:54,810 --> 00:10:01,040
+Tanto faz a ordem porque elas não estão relacionadas entre si ou outro patamar a tabela de bolsista.
+
+104
+00:10:02,070 --> 00:10:09,120
+E nós vamos fazer um outro teste que é o seguinte se eu entrar aqui um aluno e comentar é isso que vai
+
+105
+00:10:09,120 --> 00:10:17,160
+acontecer na verdade ele vai gerar apenas uma única entidade e uma única tabela para os dois a chamada
+
+106
+00:10:17,160 --> 00:10:21,600
+aluno e vai juntar tudo em uma única única tabela.
+
+107
+00:10:21,590 --> 00:10:24,900
+O que nesse caso é a mesma coisa de eu ter um assim gostei.
+
+108
+00:10:24,970 --> 00:10:34,530
+Então eu vou comentar aqui que é a estratégia padrão então eu vou executar novamente obteve médias de
+
+109
+00:10:34,560 --> 00:10:41,610
+filmes só que nós temos os outros detalhes com relação ao termo que eu vou já mostrar mais da forma
+
+110
+00:10:41,610 --> 00:10:42,920
+como ele vai gerar aqui.
+
+111
+00:10:43,290 --> 00:10:49,590
+Ele gerou apenas a Tabela Aluno longo da Tabela Aluno eu vou ter a matrícula nome e valor da bolsa.
+
+112
+00:10:50,130 --> 00:10:55,550
+Então como é que a gente vai fazer isso eu vou trocar de novo tabela logo para a gente agora mapear.
+
+113
+00:10:55,710 --> 00:10:58,620
+A segunda forma aqui é o single o tempo.
+
+114
+00:10:59,160 --> 00:11:06,180
+Então pra mapear o single O tempo vai fazer o seguinte eu vou comentar isso aqui importar novamente.
+
+115
+00:11:06,630 --> 00:11:17,090
+Então Taiti e anotação Quantos anos nós vamos substituir a termo classe na tribo perto las.
+
+116
+00:11:17,190 --> 00:11:18,210
+Sim voltei.
+
+117
+00:11:18,630 --> 00:11:26,210
+Só que agora colocam no single o tempo a gente vai precisar definir é pra diferenciar o que é uma instância
+
+118
+00:11:26,230 --> 00:11:33,950
+e aluno bolsista o que é uma instância de aluno que vai precisar descriminar ou então discriminado Mococa
+
+119
+00:11:34,500 --> 00:11:41,820
+discriminatório cólon ou definitivo coluna que vai representá lo discriminado elogiar marchar pra vocês
+
+120
+00:11:41,820 --> 00:11:51,930
+do que é e aqui nós vamos criar o nome da coluna vai esse tipo alto tamanho nessa coluna vou colocar
+
+121
+00:11:51,930 --> 00:12:00,410
+para seu tamanho 2 é o tipo dessa coluna ou seja discriminar totais vai ser do tipo extremo então eu
+
+122
+00:12:00,420 --> 00:12:07,110
+vou querer um campo do tipo string ou um baixar de dados pra dizer pra representar qual é o tipo de
+
+123
+00:12:07,110 --> 00:12:13,170
+instância que foi colocada naquela linha do banco de dados é uma instância de diálogo normal instancia
+
+124
+00:12:13,180 --> 00:12:20,040
+aluno bolsista então pelo tipo o JP vai detectar qual classe ele precisa no instancia.
+
+125
+00:12:20,520 --> 00:12:27,680
+Então definir que o discriminado como eu vou colocar crime leitor velho ou seja o valor do crime eleitoral
+
+126
+00:12:27,680 --> 00:12:36,010
+pra essa classe aluno eu vou colocar ele seja pra ser um aluno normal e vou usar o discriminado ou velho
+
+127
+00:12:36,090 --> 00:12:37,610
+lá aluno bolsista.
+
+128
+00:12:37,960 --> 00:12:44,680
+Vou dizer que discriminar autor de aluno bolsista vai c a b ou seja aluno bolsista de tal forma que
+
+129
+00:12:44,680 --> 00:12:51,260
+quando eu distanciar um aluno bolsista automaticamente o J papai vai colocar aquele tipo.
+
+130
+00:12:51,700 --> 00:12:58,500
+Ele vai colocar o valor a b e c distanciar um aluno ele vai colocar na colônia tipo Qual o valor ele
+
+131
+00:12:58,510 --> 00:13:03,720
+então acho que é legal para a gente mostrar aqui como isso vai acontecer na prática.
+
+132
+00:13:03,850 --> 00:13:14,240
+Eu vou criar aqui 10 cinco ou criar uma nova classe chamada creche contra herança e vou colocar aqui
+
+133
+00:13:14,320 --> 00:13:23,470
+um novo álbum Eu vou criar aqui um método mais fazer um processo que a gente já fez e outros exemplos
+
+134
+00:13:23,750 --> 00:13:31,450
+ou criar alguma em algum grau.
+
+135
+00:13:31,590 --> 00:13:31,830
+Eu
+
+136
+00:13:36,880 --> 00:13:42,120
+não preciso disso e eu vou só inserir então não tenho onde colocar a classe lá.
+
+137
+00:13:42,550 --> 00:13:56,560
+Então aluno aluno recebe 1000 aluno passa aqui e matricula 1 2 3 e o nome do aluno vai ser Joao e vou
+
+138
+00:13:56,570 --> 00:13:59,310
+chamar aluno.
+
+139
+00:13:59,360 --> 00:14:09,400
+Outro ponto inclui atômico opção aqui falou nesse caso eu tenho um aluno e vou criar aqui um outro aluno
+
+140
+00:14:09,400 --> 00:14:17,980
+bolsista então aluno bolsista então vou colocar esse aqui pra seu aluno esse aqui para o seu aluno 2
+
+141
+00:14:17,980 --> 00:14:20,740
+e 7 mil aluno bolsista.
+
+142
+00:14:20,740 --> 00:14:23,670
+A matrícula vai ser 3 4 5L.
+
+143
+00:14:23,740 --> 00:14:32,170
+O nome vai ser a Maria Maria e o valor da bolsa vai ser mil reais para 8 mil reais.
+
+144
+00:14:32,650 --> 00:14:40,510
+Então eu tenho um aluno e vou duplicar aqui pra gerar 1/2 duas transações diferentes insere o aluno
+
+145
+00:14:40,510 --> 00:14:48,900
+no banco de dados e finalmente aluno ao ponto fechar aqui não vai ter problema inserir o aluno 2 porque
+
+146
+00:14:48,910 --> 00:14:57,910
+como o meu Dao é genérico pra aluno e o aluno bolsista é um aluno então posso passá la ao 1/2 como parâmetro
+
+147
+00:14:57,910 --> 00:15:04,870
+pra 1 inclui atómico executando esse exercício aqui vocês vão perceber que além de ele criar um banco
+
+148
+00:15:04,870 --> 00:15:13,030
+de dados ele vai gerar um certo passado o chip do aluno que foi persistido no caso em que um aluno normal
+
+149
+00:15:13,220 --> 00:15:14,530
+um bolsista.
+
+150
+00:15:14,530 --> 00:15:24,900
+Se a gente olhar aqui Selection asterisco from aluna você vai ver que nós temos a primeira foi criada
+
+151
+00:15:24,900 --> 00:15:32,380
+uma única tabela essa tabela possui um campo que vai exatamente lixo descriminar dou que vai dizer qual
+
+152
+00:15:32,380 --> 00:15:38,200
+é a instância de cada menina e cada tupla do banco de dados de cada linha em que foi inserida representa
+
+153
+00:15:38,210 --> 00:15:42,380
+um instância ou seja instância de que tipo de classe é uma classe.
+
+154
+00:15:42,680 --> 00:15:49,150
+Eu vou distanciar um aluno vamos lançar um aluno bolsista nesse caso não basta você olhar para o valor
+
+155
+00:15:49,510 --> 00:15:55,250
+da bolsa anulou não cairia mais difícil pra ele inferir assim ele vai olhar pro tipo então que eu tenho
+
+156
+00:15:55,400 --> 00:16:02,920
+com ele que é um aluno normal e eu tenho a b um aluno bolsista tem que a matrícula o nome dos alunos
+
+157
+00:16:02,980 --> 00:16:09,100
+é o valor aqui como falei com uma única tabela você vai ter que ter vários campos nulos que dependendo
+
+158
+00:16:09,100 --> 00:16:16,470
+do tipo de da hierarquia objeto que foi anunciado pode ser que ele tenha alguns atributos e não tenha
+
+159
+00:16:16,470 --> 00:16:19,240
+outros atributos que faz parte de outra hierarquia.
+
+160
+00:16:19,330 --> 00:16:25,660
+Então essa que é estratégica ou tem uma única tabela então nós vimos a estratégia de uma tabela por
+
+161
+00:16:25,660 --> 00:16:31,970
+classe agora única a tabela e por último a estratégia de onde vocês são.
+
+162
+00:16:32,290 --> 00:16:37,090
+Nesse caso a gente não muda absolutamente nada em termos de tais anotações.
+
+163
+00:16:37,090 --> 00:16:45,950
+Basta você trocar aqui se for de onde ele vai criar duas tabelas e então advogar atá a tabela de aluno
+
+164
+00:16:45,950 --> 00:16:56,050
+aqui então optei pelo penal e agora eu vou inserir novamente no nosso teste ao novo aluno tá pra você
+
+165
+00:16:56,050 --> 00:16:58,040
+ver que ele vai criar duas tabelas.
+
+166
+00:16:58,210 --> 00:17:01,700
+Vai fazer uma junção e ainda vai usar o desse crime eleitoral.
+
+167
+00:17:01,780 --> 00:17:03,830
+A tabela ao aluno continua existindo.
+
+168
+00:17:03,880 --> 00:17:11,080
+Então não brecha mas teremos aqui duas tabelas que estão dentro da tabela o aluno vai ter apenas os
+
+169
+00:17:11,080 --> 00:17:18,250
+campos que são comuns as colunas que são comuns alguma no caso que tipo matrícula e nome e finalmente
+
+170
+00:17:18,250 --> 00:17:20,500
+dentro de aluno bolsista.
+
+171
+00:17:20,500 --> 00:17:29,880
+A gente vai ter o aluno bolsista o valor da bolsa é obviamente a matrícula do usuário na matrícula do
+
+172
+00:17:29,880 --> 00:17:30,240
+aluno.
+
+173
+00:17:30,240 --> 00:17:32,290
+Para ele conseguir fazer a relação para um.
+
+174
+00:17:32,610 --> 00:17:38,800
+Então a chave primária dessa tabela é também a chave que veio da outra tabela.
+
+175
+00:17:38,840 --> 00:17:42,180
+A chave é a franquia era uma chave estrangeira.
+
+176
+00:17:42,640 --> 00:17:48,990
+Então você tem é dessa forma que você separa digamos assim por cada classe uma tabela mais os dados
+
+177
+00:17:48,990 --> 00:17:55,770
+como uso e não ficam duplicados nas tabelas e se eles ficam na tabela principal que corresponde à classe
+
+178
+00:17:55,770 --> 00:18:01,770
+para essa relação gera a seguir que também nós temos o tipo para definir o discriminado e saber exatamente
+
+179
+00:18:01,770 --> 00:18:08,340
+qual é a instância que você está digamos assim referenciada a partir de cada um dos registros da tabela.
+
+180
+00:18:08,340 --> 00:18:15,090
+Então para isso que serve descriminar então fizemos aqui o nosso exercício de herança mapeamos a herança
+
+181
+00:18:15,420 --> 00:18:21,030
+quando você não mapeia qual era se ela acaba colocando em uma tabela só mas não criou discriminado na
+
+182
+00:18:21,030 --> 00:18:26,130
+hora que você for obter os dados vai ficar mais complicado então para isso você tem essa anotação com
+
+183
+00:18:26,130 --> 00:18:28,310
+as três possibilidades diferentes.
+
+184
+00:18:28,310 --> 00:18:31,320
+E qual é a melhor estratégia a melhor estratégia.
+
+185
+00:18:31,320 --> 00:18:39,390
+Via de regra é você usar a questão da junção para você não ter dados digamos assim replicados nela.
+
+186
+00:18:39,390 --> 00:18:45,330
+Diria que a pior estratégia seria você ter uma tabela por classe e você tem um aluno bolsista com os
+
+187
+00:18:45,330 --> 00:18:52,670
+dados replicados e que o aluno tem as mesmas colunas aplicadas aqui ou eu usaria a questão da junção.
+
+188
+00:18:52,950 --> 00:18:57,840
+Só que a junção é um pouco mais lenta porque quando você for consultar precisa fazer a junção entre
+
+189
+00:18:57,840 --> 00:19:05,010
+as tabelas e usar esse gol tem um tabela com dados nulos aí vai depender muito da estratégia da quantidade
+
+190
+00:19:05,010 --> 00:19:07,460
+de atributos e uma quantidade muito grande.
+
+191
+00:19:07,630 --> 00:19:13,540
+E aí você vai gerar uma tabela gigantesca talvez a estratégia mais equilibrada seja a junção.
+
+192
+00:19:13,560 --> 00:19:20,040
+Você coloca os atributos de uma determinada classe em uma tabela e ele vai fazer injunções com outras
+
+193
+00:19:20,040 --> 00:19:20,490
+tabelas.
+
+194
+00:19:20,490 --> 00:19:26,100
+Mas tudo depende da situação não tem um modelo melhor digamos assim vai depender daquilo que você vai
+
+195
+00:19:26,100 --> 00:19:30,720
+enfrentar e qual a estratégia na sua situação vai ser mais interessante.
+
+196
+00:19:30,720 --> 00:19:36,750
+O fato de ser uma tabela só quando você vê com certeza vai ser mais rápido mais dependendo da quantidade
+
+197
+00:19:36,750 --> 00:19:39,630
+de colunas necessárias seja melhor você usar.
+
+198
+00:19:39,640 --> 00:19:41,490
+Já teve disjunção ou mesmo.
+
+199
+00:19:41,490 --> 00:19:47,160
+Você até pode querer separar em tabelas diferentes para que você possa escalar melhor o seu sistema.
+
+200
+00:19:47,160 --> 00:19:52,800
+Tudo depende da situação não dá para cravar qual a melhor estratégia mas são três estratégias válidas
+
+201
+00:19:53,100 --> 00:19:57,140
+que vocês podem usar sua disposição para mapear herança em JP.
+
+202
+00:19:57,450 --> 00:19:59,760
+Então fique por aqui e até a próxima aula.

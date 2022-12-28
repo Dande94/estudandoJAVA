@@ -1,0 +1,599 @@
+1
+00:00:00,190 --> 00:00:06,530
+Pessoal na sala o meu objetivo é nós criarmos o nosso projeto o projeto que vai nos acompanhar durante
+
+2
+00:00:06,550 --> 00:00:09,220
+vários capítulos que o projeto de exercícios.
+
+3
+00:00:09,600 --> 00:00:14,940
+Mas eu quero falar algumas coisas a mais sobre aquilo sobre o que é uma espécie sobre alguns detalhes
+
+4
+00:00:14,940 --> 00:00:19,010
+importantes para você conhecer essa ferramenta perspectiva por exemplo.
+
+5
+00:00:19,220 --> 00:00:24,210
+Vou mostrar um pouquinho pra vocês agora aquilo já está instalado na máquina de vocês só pra vocês terem
+
+6
+00:00:24,210 --> 00:00:31,410
+como referência eu estou usando na minha máquina a versão do Java a versão 12 zero certo.
+
+7
+00:00:31,770 --> 00:00:36,710
+Então você quer que você tenha versões mais novas para a gente usar os últimos recursos da linguagem
+
+8
+00:00:36,720 --> 00:00:40,820
+porque alguns recursos vão requerer versões mais novas do JD K.
+
+9
+00:00:40,830 --> 00:00:47,430
+Você vai conseguir fazer boa parte do curso usando J DK 8 mas tem alguns recursos que precisam de versões
+
+10
+00:00:47,430 --> 00:00:51,590
+mais novos por exemplo a parte de módulos do Java e precisa de versões mais novas.
+
+11
+00:00:51,600 --> 00:00:53,320
+Já na versão 9 do J K.
+
+12
+00:00:53,340 --> 00:00:58,860
+Por isso é importante você ter versões atualizadas e então vai abrir o eclipse para a gente iniciar
+
+13
+00:00:58,860 --> 00:01:03,980
+o nosso custo já na versão 6 de 2019 e do MI 2009.
+
+14
+00:01:04,020 --> 00:01:08,610
+Você eventualmente pode talvez usar uma versão um pouco mais nova não vai ter problema nenhum no primeiro
+
+15
+00:01:08,610 --> 00:01:09,210
+momento.
+
+16
+00:01:09,240 --> 00:01:16,250
+Essa tela aparece celeste um diretório com outros países o que é um país basicamente com a expressão
+
+17
+00:01:16,260 --> 00:01:23,370
+pasta e essa pasta vai ter uma barra dentro dela vai ter uma outra pasta chamado Boleto meta data que
+
+18
+00:01:23,370 --> 00:01:25,080
+vai até as preferências.
+
+19
+00:01:25,170 --> 00:01:30,930
+Tudo aquilo que você personalizar dentro blacklist para isso ficará armazenado digamos assim até eu
+
+20
+00:01:30,930 --> 00:01:33,210
+fechei janelinha tá lá.
+
+21
+00:01:33,300 --> 00:01:39,330
+Então eu mudei o tempo daqueles para um tema escuro aumentei o tamanho da fonte tudo isso fica armazenado
+
+22
+00:01:39,720 --> 00:01:43,640
+dentro do país e por padrão não obrigatoriamente mais por padrão.
+
+23
+00:01:43,640 --> 00:01:50,010
+Quando você cria um novo projeto ele vai criar o projeto dentro do país porque expressa uma forma interessante
+
+24
+00:01:50,010 --> 00:01:56,910
+de você separar projetos dentro de uma pasta e você pode por exemplo criar um ou espécie para os meus
+
+25
+00:01:56,910 --> 00:02:03,130
+projetos da faculdade ou criar um hospício para os meus projetos pessoais ou criar algo especial para
+
+26
+00:02:03,140 --> 00:02:05,140
+os meus projetos da estatal APP.
+
+27
+00:02:05,160 --> 00:02:11,400
+Então você divide seus projetos em múltiplos outros países para que você possa organizar melhor suas
+
+28
+00:02:11,400 --> 00:02:12,290
+aplicações.
+
+29
+00:02:12,300 --> 00:02:16,400
+Por padrão ele está sugerindo colocar o país dentro de users.
+
+30
+00:02:16,530 --> 00:02:24,000
+Leonardo Leitão BA Eclipse traço espécie mais eu vou criar uma pasta no meu desktop e um folder com
+
+31
+00:02:24,000 --> 00:02:24,820
+o nome da pasta.
+
+32
+00:02:24,820 --> 00:02:31,650
+Vai ser curso traço Java e eu vou apontá lo o respeito pra essa pasta então coloquei no aqui Brasil.
+
+33
+00:02:31,740 --> 00:02:39,030
+Vou selecionar desktop cursos Java selecionar uma opção Open e aqui ele vai mostrar essa parte como
+
+34
+00:02:39,060 --> 00:02:41,710
+sendo meu país clicando aqui.
+
+35
+00:02:41,760 --> 00:02:47,640
+Para ele usar o país como padrão significa que na próxima vez que Sabri.
+
+36
+00:02:47,700 --> 00:02:52,980
+Ele não vai mais oferecer essa tela para mim ele vai entrar diretamente no país padrão certo.
+
+37
+00:02:52,980 --> 00:02:55,350
+Então nesse caso eu vou mandar lhe dá um Launch.
+
+38
+00:02:55,710 --> 00:02:57,010
+Ele vai estar aqui.
+
+39
+00:02:57,070 --> 00:03:02,190
+Ele vai mostrar clipes com tela de boas vindas tal certo a gente vai conhecer algumas coisas do eclipse
+
+40
+00:03:02,190 --> 00:03:03,240
+e criar o nosso projeto.
+
+41
+00:03:03,240 --> 00:03:09,030
+Por enquanto eu vou marcar isso pra ele não mostrar essa tela de boas vindas vou fechar aqui.
+
+42
+00:03:09,030 --> 00:03:09,530
+Certo.
+
+43
+00:03:09,560 --> 00:03:13,280
+E nós vamos criar o nosso projeto daqui a pouco antes de falar sobre isso.
+
+44
+00:03:13,560 --> 00:03:19,650
+Eu quero mostrar para vocês que é possível trocar os pés ou seja eu posso criar uma outra pasta e selecionar
+
+45
+00:03:19,650 --> 00:03:22,850
+essa ou outra pasta como estou selecionando falhou.
+
+46
+00:03:22,860 --> 00:03:29,640
+Você tem a Kill Switch Space selecionar essa opção que outro você vai cair naquela mesma janela e aqui
+
+47
+00:03:29,640 --> 00:03:38,100
+você pode selecionar outra pasta por exemplo Leonardo Leitão e selecionar aqui ou criar uma nova pasta.
+
+48
+00:03:38,130 --> 00:03:48,620
+Posso criar uma nova pasta por exemplo colocar aqui por espécie eu posso colocar clipes traço Express
+
+49
+00:03:49,150 --> 00:03:51,940
+ou criar pastas selecionar essa pasta.
+
+50
+00:03:51,990 --> 00:03:59,490
+Ele vai ficar transicional ele vai fecha a e abre novamente carregando todos os projetos todas as preferências
+
+51
+00:03:59,490 --> 00:04:05,190
+que estão armazenadas dentro do país só pra mostrar pra vocês você clicar com o botão direito aqui não
+
+52
+00:04:05,190 --> 00:04:11,120
+precisa fazer dentro do Windows tá aí o terminal vou abrir que tá não nessa pasta.
+
+53
+00:04:11,160 --> 00:04:18,540
+Se eu der um ms pra mostrar os arquivos e as pastas escondidas você vai ver que tem uma pasta chamado
+
+54
+00:04:18,550 --> 00:04:22,460
+Ponto meta da data inclusive eu posso entrar nela certo ponto meta a data.
+
+55
+00:04:22,680 --> 00:04:28,830
+E aqui dentro vai ter algumas informações sobre o eclipse daqui não LS menos você vai ver que tem outros
+
+56
+00:04:28,830 --> 00:04:35,360
+arquivos aqui de preferência armazenado e outras pastas também armazenando as preferências do eclipse
+
+57
+00:04:35,690 --> 00:04:42,390
+aqui dentro de arquivos eu vou selecionar novamente suíte Space pra voltar e selecionar novamente a
+
+58
+00:04:42,390 --> 00:04:43,120
+pasta.
+
+59
+00:04:43,260 --> 00:04:46,820
+Essa pasta aqui como sendo meu país eu não sou obrigado.
+
+60
+00:04:46,820 --> 00:04:51,660
+Como eu falei pra vocês a criar os nossos projetos aqui dentro embora por padrão você acaba criando
+
+61
+00:04:52,050 --> 00:04:53,540
+na maior parte do tempo certo.
+
+62
+00:04:53,560 --> 00:04:57,930
+Então a primeira coisa que eu quis falar com vocês sobre o que é o país ou aquele país é basicamente
+
+63
+00:04:57,940 --> 00:05:04,940
+uma pasta e essa clipes tanto armazena as preferências que você vai exceptuando dentro da ideia e pronto.
+
+64
+00:05:04,950 --> 00:05:10,980
+Por exemplo se eu fechar essa janelinha que Al-Khelaifi e se eu fechar essa janelinha desce que liste
+
+65
+00:05:11,070 --> 00:05:16,800
+isso aqui armazenado no respeito de tal forma que se eu fechar o eclipse está e eu vou pedir pra ele
+
+66
+00:05:16,800 --> 00:05:22,010
+relembrar a minha decisão também ao que ele armazenou respeito ao fechar o clipes.
+
+67
+00:05:22,040 --> 00:05:27,960
+Se eu abri um novo clipe ele vai tanto abrir no meu país como ele vai lembrar que eu fechei essas duas
+
+68
+00:05:27,960 --> 00:05:30,990
+janelas e não vai mostrar elas novamente.
+
+69
+00:05:31,290 --> 00:05:36,490
+Então é isso que faz com que você tenha esse aí ele consegue armazenar as preferências.
+
+70
+00:05:36,500 --> 00:05:39,930
+E como eu falei também os projetos por padrão acabam sendo colocados lá.
+
+71
+00:05:39,930 --> 00:05:45,280
+A primeira coisa que eu falei foi sobre o país a segunda coisa que quero falar é o seguinte o eclipse
+
+72
+00:05:45,310 --> 00:05:50,060
+ele tem um conceito de perspectiva se você entrar aqui é um lindão.
+
+73
+00:05:50,160 --> 00:05:57,050
+Você tem o que ele chama de show viu se eu fechei por exemplo o alto lá se eu quiser clicar aqui e mandar
+
+74
+00:05:57,060 --> 00:06:02,430
+trazer de volta ele vai voltar atrás e hoje lá não é um problema eu fechei aqui.
+
+75
+00:06:02,850 --> 00:06:06,000
+Por exemplo marcas por exemplo não vou usar.
+
+76
+00:06:06,360 --> 00:06:14,310
+Eu venho aqui e ainda o show viu se não tiver marcas aqui até tem sete você pode selecionar ao Deus
+
+77
+00:06:14,690 --> 00:06:16,270
+e aqui você coloca o link.
+
+78
+00:06:16,390 --> 00:06:22,340
+Se elas tinham a mesma mostrada aqui eu achei o colocar e ele volto de novo e sabia pra você.
+
+79
+00:06:22,350 --> 00:06:27,620
+Isso é uma questão todas essas abas até fechar essas aqui eu não vou precisar porque na Madeira eu foi
+
+80
+00:06:27,630 --> 00:06:32,940
+de preciso fechar agora não que eu vou mudar algo ainda mais radical que é o seguinte a perspectiva
+
+81
+00:06:33,270 --> 00:06:39,630
+isso é importante porque é muito importante que você esteja na mesma perspectiva que eu porque aí vai
+
+82
+00:06:39,630 --> 00:06:41,880
+ficar os minutos da mesma localização.
+
+83
+00:06:41,880 --> 00:06:47,160
+Se eu tiver uma perspectiva você tiver em outra coisa eu clicar com o botão direito em determinada parte
+
+84
+00:06:47,160 --> 00:06:50,700
+da ideia vai aparecer outras opções e isso pode confundir.
+
+85
+00:06:51,120 --> 00:06:56,450
+Então aqui ao Window Perspective e aqui eu vou selecionar Open Perspective.
+
+86
+00:06:56,720 --> 00:07:01,360
+E a perspectiva que eu quero selecionar exatamente essa perspectiva Java.
+
+87
+00:07:01,440 --> 00:07:08,440
+Se não aparecer aqui você pode selecionar olhar de outro e aqui você vai ter todas as perspectivas disponíveis
+
+88
+00:07:08,460 --> 00:07:09,390
+para a gente.
+
+89
+00:07:09,870 --> 00:07:11,120
+Eu quero fazer.
+
+90
+00:07:11,130 --> 00:07:13,710
+Eu quero fazer uso do Gui usando Eclipse.
+
+91
+00:07:13,710 --> 00:07:15,860
+Você tem uma perspectiva chamada Guide.
+
+92
+00:07:16,200 --> 00:07:22,080
+Eu quero desenvolver algo pelo banco de dados tem uma perspectiva Database dá para ela o que eu quero
+
+93
+00:07:22,080 --> 00:07:26,480
+desenvolver JavaScript ter uma perspectiva JavaScript a padrão.
+
+94
+00:07:26,490 --> 00:07:32,940
+Nesse caso o que eu estou usando é Java mas eu não quero usar essa padrão quero usar a perspectiva Java.
+
+95
+00:07:32,940 --> 00:07:38,510
+Quando eu fizer isso da Open você vai perceber que vai mudar algumas coisas na tela ou apareceu o que
+
+96
+00:07:38,520 --> 00:07:41,980
+liste aqui apareceu alto lá apareceu problema.
+
+97
+00:07:42,180 --> 00:07:43,930
+Java doc declarei isso.
+
+98
+00:07:44,220 --> 00:07:46,280
+Então é exatamente isso que eu quero não.
+
+99
+00:07:46,290 --> 00:07:52,140
+Por conta dessas janelas aqui mais porque você vai perceber que aqui os menus vão ficar exatamente aqueles
+
+100
+00:07:52,140 --> 00:07:52,710
+que eu quero.
+
+101
+00:07:52,710 --> 00:07:54,560
+Quero criar um projeto Java.
+
+102
+00:07:54,660 --> 00:08:00,010
+Então já tinha que me indicar o que você precisa fazer e é importante que você veja exatamente aquilo
+
+103
+00:08:00,010 --> 00:08:03,720
+que eu estou vendo para que não haja nenhuma confusão principalmente nesse começo que a gente vai estar
+
+104
+00:08:03,720 --> 00:08:05,400
+configurando algumas coisas.
+
+105
+00:08:05,430 --> 00:08:11,570
+Então eu vou fechar o texto isso não vou precisar o alto lá também vou fechar problemas ou fechar.
+
+106
+00:08:11,610 --> 00:08:18,060
+Java doc também declara isso quero deixar bem minimalista sim a nossa visualização aqui no Eclipse e
+
+107
+00:08:18,060 --> 00:08:23,680
+vou finalmente criar o nosso projeto agora clicando em cliente Java Project.
+
+108
+00:08:23,700 --> 00:08:26,120
+Antes disso só um parêntese meio rabo né.
+
+109
+00:08:26,130 --> 00:08:29,240
+Você também pode mudar a perspectiva nesse ícone aqui em cima.
+
+110
+00:08:29,580 --> 00:08:32,160
+Clicando aqui você vai ter a mesma janelinha tá.
+
+111
+00:08:32,330 --> 00:08:37,960
+Eu quero que você esteja na perspectiva Java exatamente esse é o único que está sendo selecionado.
+
+112
+00:08:37,980 --> 00:08:43,290
+Agora vamos criar o projeto que é supersimples que eu vou selecionar essa opção criei Java Project abrindo
+
+113
+00:08:43,410 --> 00:08:47,750
+essa janela a primeira coisa que ele vai perguntar o nome do projeto eu vou colocar o nome do projeto
+
+114
+00:08:47,750 --> 00:08:49,660
+para c exercícios.
+
+115
+00:08:49,680 --> 00:08:50,540
+Tá certo.
+
+116
+00:08:50,730 --> 00:08:54,890
+E ele por padrão vai colocar nessa localização e usa.
+
+117
+00:08:55,050 --> 00:08:57,870
+Leonardo Leitão BA Desktop.
+
+118
+00:08:57,870 --> 00:09:05,150
+Curso traço jabá exercícios ou seja por padrão ele vai criar o nosso projeto dentro do país.
+
+119
+00:09:05,250 --> 00:09:06,060
+E se eu não quiser.
+
+120
+00:09:06,060 --> 00:09:12,000
+Criado em Torres PS basta desmarcar essa opção e selecionar uma ou outra pasta de destino não tem problema
+
+121
+00:09:12,000 --> 00:09:12,940
+nenhum.
+
+122
+00:09:13,050 --> 00:09:16,740
+Todo o restante eu vou deixar na opção padrão que é o j Read 12.
+
+123
+00:09:17,130 --> 00:09:22,620
+Vou pedir para ele separar o arquivo do código e o arquivo classe média pois vou falar um pouco mais
+
+124
+00:09:22,620 --> 00:09:28,770
+sobre isso e basta colocar o nome e outras palavras selecionar filmes que ele vai criar o nosso projeto
+
+125
+00:09:29,060 --> 00:09:31,040
+quando ele aparecer essa telinha.
+
+126
+00:09:31,260 --> 00:09:34,560
+Então se você quer criar um módulo eu vou dizer não.
+
+127
+00:09:34,590 --> 00:09:38,360
+Por enquanto a gente não vai usar o módulo lá na frente com o governo rápido capítulo.
+
+128
+00:09:38,360 --> 00:09:39,030
+Sobre isso.
+
+129
+00:09:39,360 --> 00:09:44,490
+Eu vou entrar em detalhes explicar tudo aquilo que foi acrescentado no Java 9 sistemas de módulos muito
+
+130
+00:09:44,490 --> 00:09:51,010
+legal é um recurso que abre uma série de vantagens digamos assim avançarem possibilidades de encapsulamento
+
+131
+00:09:51,010 --> 00:09:55,530
+o que é muito legal mas eu vou deixar para falar depois não precisa se preocupar nem o que é encapsulamento
+
+132
+00:09:55,530 --> 00:09:57,380
+por enquanto que nós vamos lá isso com muita calma.
+
+133
+00:09:57,390 --> 00:10:03,890
+Por enquanto seleciona não cria uma vez criado o nosso projeto nós estamos aptos para começar a desenvolver
+
+134
+00:10:04,190 --> 00:10:10,130
+e já foi uma coisa que eu quero mostrar clicando aqui dentro do nosso o nosso respeito se você vai ver
+
+135
+00:10:10,260 --> 00:10:13,270
+que aqui nós temos agora uma pasta chamada exercícios.
+
+136
+00:10:13,460 --> 00:10:17,140
+E é exatamente essa pasta exercícios corresponde ao nosso projeto.
+
+137
+00:10:17,400 --> 00:10:24,050
+Então basicamente tudo que você criar aqui dentro de SC vai aparecer dentro desse dessa pasta SC aqui
+
+138
+00:10:24,380 --> 00:10:25,600
+a sua aplicação.
+
+139
+00:10:25,690 --> 00:10:28,580
+Eu quero pegar no projeto eu quero colocar um pen drive.
+
+140
+00:10:29,030 --> 00:10:34,250
+Basta você copiar essa pasta contra você colocar dentro seu pen drive você consegue colocar em outro
+
+141
+00:10:34,250 --> 00:10:35,240
+computador.
+
+142
+00:10:35,240 --> 00:10:41,080
+Existe um processo em que você precisa para importar um projeto onde pode comentar e depois mais pra
+
+143
+00:10:41,090 --> 00:10:43,790
+você salvar o projeto leva para outro canto.
+
+144
+00:10:43,880 --> 00:10:49,580
+Basta você copiar não precisa nem levar o país inteiro basta levar parte do projeto que tudo que estiver
+
+145
+00:10:49,580 --> 00:10:54,260
+dentro o projeto é suficiente para abrir o projeto em outro local então a sala de criação do projeto
+
+146
+00:10:54,260 --> 00:10:59,290
+foi um pouquinho mais longa do que eu queria mais é importante nesse começo explicar um pouco sobre
+
+147
+00:10:59,290 --> 00:11:04,940
+o eclipse mostrar para vocês alguns alguns conceitos importantes sobre aquilo que você possa entender
+
+148
+00:11:05,330 --> 00:11:08,770
+e não se perder nele e nós finalmente criamos o nosso projeto.
+
+149
+00:11:08,770 --> 00:11:13,640
+Exercício na próxima aula a gente começa de fato a entrar no código Java que é a parte que mais interessa
+
+150
+00:11:13,640 --> 00:11:16,060
+é a parte mais legal também é de espera nas aulas.

@@ -1,0 +1,14 @@
+<h4>Configuração do Projeto para Usar JPA!</h4><ul><li><p>No arquivo <strong>pom.xml</strong></p></li></ul><pre class="prettyprint linenums">&lt;dependency&gt;
+	&lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+	&lt;artifactId&gt;spring-boot-starter-data-jpa&lt;/artifactId&gt;
+&lt;/dependency&gt;
+
+&lt;dependency&gt;
+	&lt;groupId&gt;mysql&lt;/groupId&gt;
+	&lt;artifactId&gt;mysql-connector-java&lt;/artifactId&gt;
+&lt;/dependency&gt;</pre><p><br></p><ul><li><p>No arquivo <strong>application.properties</strong></p></li></ul><pre class="prettyprint linenums">spring.datasource.url=jdbc:mysql://localhost:3306/springboot
+spring.datasource.username=root
+spring.datasource.password=12345678
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL5InnoDBDialect</pre>

@@ -1,0 +1,459 @@
+1
+00:00:00,150 --> 00:00:07,180
+Pessoal na sala vou mostrar para vocês de uma forma diferente de percorrer recorrer a uma coleção.
+
+2
+00:00:07,180 --> 00:00:12,660
+Certo Essa vai ser a aula que eu vou falar um pouquinho do Floris mas a gente vai falar e aprofundar
+
+3
+00:00:13,390 --> 00:00:19,860
+o uso de lambidas dentro do contexto das Collection do MAC PI elixir do set.
+
+4
+00:00:19,890 --> 00:00:24,810
+Em certo da página Collection quando a gente for para o próximo capítulo ele vai ter muitos exemplos
+
+5
+00:00:24,810 --> 00:00:28,780
+legais e usos práticos de lambidas nesse contexto.
+
+6
+00:00:29,280 --> 00:00:34,580
+Mas aqui eu vou mostrar pra você um relance daquilo que você vai encontrar no próximo capítulo mostrando
+
+7
+00:00:34,590 --> 00:00:38,540
+um pouquinho do uso aqui no contexto do folhetim.
+
+8
+00:00:38,640 --> 00:00:43,440
+Certo então vou criar aqui uma outra classe chamada for it.
+
+9
+00:00:43,500 --> 00:00:50,330
+Nessa classe eu vou mostrar pra vocês mas vamos criar aqui uma lista fazer o seguinte ou criar aqui
+
+10
+00:00:50,610 --> 00:01:01,040
+listas do tipo string que eu vou chamar aqui de aprovados recebe que eu vou usar Classe A pra ajudar
+
+11
+00:01:01,040 --> 00:01:08,930
+a gente na hora de construir a lista então arranjava contudo raiz aqui eu vou colocar esse lixo e aqui
+
+12
+00:01:08,940 --> 00:01:13,250
+eu posso passar os elementos que eu quero que ele componha a lista então colocar um ponto e vírgula
+
+13
+00:01:13,380 --> 00:01:22,050
+eu vou colocar aqui nomes com três letras então pra facilitar Ana Bia lia todo mundo que foi aprovado
+
+14
+00:01:22,050 --> 00:01:27,690
+obrigatoriamente tem que ter três letras então D aqui finalmente o que é bom.
+
+15
+00:01:27,960 --> 00:01:31,100
+Então tem quatro pessoas na lista a aprovados.
+
+16
+00:01:31,110 --> 00:01:35,870
+Qual a forma que a gente já conhece que a gente já viu posta cabra aqui mais um amigo.
+
+17
+00:01:35,870 --> 00:01:37,970
+Dá pra ficar tudo visível aqui.
+
+18
+00:01:38,120 --> 00:01:41,880
+Qual a fama que a gente já viu pra imprimir os dados dos anos.
+
+19
+00:01:41,940 --> 00:01:42,670
+Fora né.
+
+20
+00:01:42,680 --> 00:01:49,080
+A gente tem um foto normal controlando colhi e mais mas é menor do que o tamanho da lista tal lista
+
+21
+00:01:49,090 --> 00:01:57,840
+com sites mais usando isso que a gente conhece esta o nome de dois pontos aprovados e que a gente faz
+
+22
+00:01:57,840 --> 00:02:03,900
+onde existem de preencher ali passando o nome de cada aprovado para a lista então que eu vou colocar
+
+23
+00:02:03,900 --> 00:02:16,620
+só um sistema de Print ali para colocar na forma tradicional que também tinha de forma tradicional Bia
+
+24
+00:02:16,720 --> 00:02:27,960
+lia e aqui eu vou colocar aqui de novo system print além de que eu vou colocar aqui um na parede quebra
+
+25
+00:02:27,960 --> 00:02:37,680
+a linha que eu vou colocá lambida na versão que eu vou fazer para percorrer agora usando lambida certo.
+
+26
+00:02:37,710 --> 00:02:42,190
+Muito simples olha aqui como é legal fazer aprovados.
+
+27
+00:02:42,240 --> 00:02:51,000
+Ponto forte é no momento que eu vou passar algo eu vou passar uma expressão lambda como parâmetro para
+
+28
+00:02:51,000 --> 00:02:56,760
+a função fora e aí fica clara a gente já sabe que fora isso aqui nesse contexto com os parênteses é
+
+29
+00:02:56,760 --> 00:03:02,430
+uma função e eu vou passar uma expressão lambda que vai dizer o que é que ela vai fazer com cada um
+
+30
+00:03:02,430 --> 00:03:05,040
+dos elementos dessa lista.
+
+31
+00:03:05,040 --> 00:03:11,190
+Então quer que eu recebo como parâmetro eu recebo como parâmetro o nome ou seja a mesma coisa que estou
+
+32
+00:03:11,190 --> 00:03:17,820
+recebendo aqui é um monstrinho de nome incerto o texto então vou chamar também de nome aqui vou colocar
+
+33
+00:03:18,120 --> 00:03:22,690
+a certinha e aqui eu vou dizer o que é que eu vou fazer dentro da minha função.
+
+34
+00:03:22,770 --> 00:03:29,130
+Eu posso colocar o par de chaves ou não mostrar pra vocês ou system algo diferente ali que eu vou pegar
+
+35
+00:03:29,130 --> 00:03:32,460
+o bolo de nome só pra um achar que vai ficar um pouquinho diferente.
+
+36
+00:03:32,490 --> 00:03:36,650
+Eu vou concatenar com várias exclamações.
+
+37
+00:03:36,910 --> 00:03:41,320
+Então está mostrando que o código todo aprovados ponto fora hit.
+
+38
+00:03:41,490 --> 00:03:48,570
+Recebo cada um dos elementos dessa lista ou seja pra cada elemento da lista execute essa.
+
+39
+00:03:48,790 --> 00:03:55,200
+Essa lambidas expressão lambda que é uma função aqui dentro eu vou receber o nome e eu chamo System
+
+40
+00:03:55,210 --> 00:04:02,340
+Alt Print ali estou concatenar com algumas exclamações acertando uma estaremos aqui ao lado de 01.
+
+41
+00:04:02,530 --> 00:04:10,020
+Ana Bia liga pra gente simplificar algumas coisa que eu posso não necessariamente eu preciso colocar
+
+42
+00:04:10,020 --> 00:04:16,650
+se eu tiver apenas um único parâmetro eu não preciso colocar os parâmetros dentro de parênteses está
+
+43
+00:04:16,650 --> 00:04:17,540
+certo.
+
+44
+00:04:17,550 --> 00:04:20,800
+Nesse caso eu posso tirar os parentes de nome.
+
+45
+00:04:21,150 --> 00:04:26,870
+Ou seja se eu tenho apenas um único parâmetro não necessariamente precisa ter os parênteses então executado
+
+46
+00:04:27,030 --> 00:04:28,230
+novamente.
+
+47
+00:04:28,260 --> 00:04:34,740
+Funcionou sem problema e eu falei pra vocês se você tiver apenas uma única sentença de código você pode
+
+48
+00:04:34,740 --> 00:04:38,110
+tirar o par de chave e está certo.
+
+49
+00:04:38,370 --> 00:04:44,790
+Embora exista aqui um retorno implícito é outra questão importante é que nesse caso como eu estou dentro
+
+50
+00:04:44,790 --> 00:04:52,430
+do contexto de parâmetros da função for it Eu não coloco o ponto e vírgula no final simplesmente faço
+
+51
+00:04:52,440 --> 00:04:53,130
+sim.
+
+52
+00:04:53,220 --> 00:04:58,700
+Então nesse caso embora haja um retorno implícito aqui não vai ter nenhum problema ele e mal for it
+
+53
+00:04:59,160 --> 00:05:00,940
+é corretamente.
+
+54
+00:05:01,260 --> 00:05:06,160
+Então essa seria uma forma bastante simples e eu tenho que criar aqui um forró.
+
+55
+00:05:06,240 --> 00:05:12,180
+Colocar um par de chaves definir o que é que eu vou fazer eu posso simplesmente criar aqui uma expressão
+
+56
+00:05:12,180 --> 00:05:15,220
+lambda e passar essa expressão pra dentro do fórum.
+
+57
+00:05:15,240 --> 00:05:21,040
+O próximo teste que eu vou fazer vai ser o seguinte eu vou colocar aqui um system Audio ali o coloca
+
+58
+00:05:21,210 --> 00:05:26,290
+baixinho e eu vou usar agora um smartphone.
+
+59
+00:05:26,960 --> 00:05:31,230
+Mas só com a pronúncia correta certo Franz.
+
+60
+00:05:31,400 --> 00:05:36,210
+E aqui nós temos a possibilidade de simplificar ainda mais.
+
+61
+00:05:36,270 --> 00:05:36,780
+Porquê.
+
+62
+00:05:37,290 --> 00:05:42,140
+Porque nesse caso aqui eu não posso fazer exatamente o que eu fiz aqui no Holanda por isso o holandês
+
+63
+00:05:42,150 --> 00:05:48,510
+é mais flexível mais eu posso fazer exatamente aquilo que eu fiz aqui no fora de série que foi simplesmente
+
+64
+00:05:48,510 --> 00:05:50,800
+pegar o nome das pessoas e imprimi.
+
+65
+00:05:50,820 --> 00:05:57,690
+Nesse caso eu consigo fazer isso dessa forma que eu vou colocar aprovados ou eu vou tirar isso aqui
+
+66
+00:05:57,720 --> 00:06:04,190
+porque não era isso que eu queria importar para lá de novo colocar aqueles aprovados que ponto fora
+
+67
+00:06:04,210 --> 00:06:16,410
+hit e eu vou passar aquele System ponto Walsh duplo 2 pontos print ou seja eu estou passando uma referência
+
+68
+00:06:16,410 --> 00:06:22,080
+pra essa função então aqui acontece uma coisa interessante que é o seguinte quanto menos código você
+
+69
+00:06:22,080 --> 00:06:28,570
+digitar acaba que fica menos legível também um código e no primeiro momento por quê.
+
+70
+00:06:28,590 --> 00:06:35,760
+Porque quando você não tem experiência com esse tipo de estrutura você acaba não entendendo exatamente
+
+71
+00:06:35,760 --> 00:06:40,380
+o que você está querendo fazer mas sem olhar com calma você vai ver que não é difícil é que eu estou
+
+72
+00:06:40,380 --> 00:06:42,340
+passando em outras palavras.
+
+73
+00:06:42,510 --> 00:06:49,350
+Nesse caso aqui ele só tem ele recebe um parâmetro ele vai percorrer cada um dos elementos dessa lista
+
+74
+00:06:49,350 --> 00:06:56,520
+aqui e você quer passar cada um dos nomes diretamente como parâmetro para o System em algum ponto além
+
+75
+00:06:57,000 --> 00:07:02,640
+exatamente eu recebi o nome e eu estou navegando em cima de cada um dos nomes e eu quero passar esse
+
+76
+00:07:02,640 --> 00:07:05,430
+nome como parâmetro para a função print Aline.
+
+77
+00:07:05,430 --> 00:07:11,940
+Nesse caso a gente pode usar o método francês ou seja traduzido para o português seria a referência
+
+78
+00:07:11,940 --> 00:07:18,860
+de um metro passar uma referência de um metro como se fosse um endereço de memória desse método pra
+
+79
+00:07:18,870 --> 00:07:21,410
+que o fórum possa chamar esse método.
+
+80
+00:07:21,540 --> 00:07:27,600
+Passando cada um dos elementos em outras palavras como fica do ponto de vista do inglês não fica difícil
+
+81
+00:07:27,600 --> 00:07:28,740
+de interpretá la.
+
+82
+00:07:28,860 --> 00:07:30,960
+Então você tem que ser aprovados.
+
+83
+00:07:30,960 --> 00:07:32,280
+Ponto fora.
+
+84
+00:07:32,280 --> 00:07:40,020
+Ou seja pra cada aprovado para cada pessoa que esteja dentro da lista dos aprovados chame o System pontual
+
+85
+00:07:40,020 --> 00:07:43,690
+de ponto preenche a linha ou seja imprima na saída do sistema.
+
+86
+00:07:43,740 --> 00:07:46,790
+Você não precisou passar o parâmetro para a função Micheline.
+
+87
+00:07:46,800 --> 00:07:49,320
+Você também não precisou definir uma expressão lambda.
+
+88
+00:07:49,320 --> 00:07:49,970
+Por quê.
+
+89
+00:07:50,190 --> 00:07:55,060
+Porque a partir do método francês você conseguiu referenciar um método.
+
+90
+00:07:55,170 --> 00:08:01,980
+E aí ele fez o processo de forma mais automatizado executando o que você vai ver aqui no primeiro caso
+
+91
+00:08:02,070 --> 00:08:04,080
+ele colocou a forma tradicional.
+
+92
+00:08:04,080 --> 00:08:07,010
+No segundo caso ele chamou aqui o lambda.
+
+93
+00:08:07,020 --> 00:08:09,440
+E no terceiro ele chamou o método.
+
+94
+00:08:09,510 --> 00:08:16,980
+Ou seja a gente passou uma referência para o método como parâmetro para o For It e automaticamente para
+
+95
+00:08:16,980 --> 00:08:20,890
+cada elemento que foi percorrido na lista de aprovados.
+
+96
+00:08:20,890 --> 00:08:26,280
+Esse valor é esse elemento que foi passado como parâmetro propriamente Eliene do System pontual.
+
+97
+00:08:26,730 --> 00:08:33,470
+Ou seja o nome de cada um dos elementos foi automaticamente passado como parâmetro para o preencher.
+
+98
+00:08:33,480 --> 00:08:40,650
+Nesse caso de cima ou do Fiori eu consigo por exemplo acrescentar várias exclamações eu consigo ter
+
+99
+00:08:40,860 --> 00:08:47,160
+formas de personalizar já que embaixo eu não consigo porque o processo é mais automatizado ou seja é
+
+100
+00:08:47,160 --> 00:08:52,980
+menos flexível mais se você tiver por exemplo querem simplesmente mostrar algo no console.
+
+101
+00:08:53,160 --> 00:08:56,010
+Você não necessariamente precisa fazer um só pra isso.
+
+102
+00:08:56,010 --> 00:09:03,210
+Você pode pegar a lista que você criou ou for it e colocar assistem aos que passa a referência por isso
+
+103
+00:09:03,210 --> 00:09:06,080
+que tem essa nomenclatura diferente aqui.
+
+104
+00:09:06,090 --> 00:09:10,230
+Certo 2 pontos dois pontos e aí você passa a referência dessa função por fora.
+
+105
+00:09:10,290 --> 00:09:16,350
+Ele é capaz de chamar esse método e passar cada um dos valores que está contido dentro da lista.
+
+106
+00:09:16,380 --> 00:09:23,880
+Você pode perguntar se chamado e se eu quiser por exemplo tem uma forma mais otimizada ou mais personalizada
+
+107
+00:09:24,180 --> 00:09:29,120
+pra imprimir por exemplo quer imprimir colocando o nome do usuário dentro de uma frase.
+
+108
+00:09:29,130 --> 00:09:32,440
+Como fazer isso e ainda assim usar o método.
+
+109
+00:09:32,430 --> 00:09:33,530
+Rafa existem.
+
+110
+00:09:33,900 --> 00:09:39,480
+Eu vou me achar para você na próxima aulas criar um método dentro da classe por isso eu vou continuar
+
+111
+00:09:39,480 --> 00:09:45,630
+mexendo nessa mesma classe para a gente criar um método estático nosso e aí em cima desse método estático
+
+112
+00:09:45,630 --> 00:09:49,990
+a gente vai usar tanto no contexto do lambda como no contexto de método.
+
+113
+00:09:50,180 --> 00:09:55,230
+Só não estou boca na sala para já não ficar muito grande certo mas na próxima aula a gente completa
+
+114
+00:09:55,500 --> 00:09:56,760
+fazer mais esse exemplo.
+
+115
+00:09:56,770 --> 00:09:57,180
+E até lá.

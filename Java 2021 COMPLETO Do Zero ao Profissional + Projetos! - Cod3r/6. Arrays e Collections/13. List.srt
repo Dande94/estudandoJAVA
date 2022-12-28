@@ -1,0 +1,787 @@
+1
+00:00:00,330 --> 00:00:05,850
+Agora vamos falar sobre listas só mostrando um pouquinho mais se a gente começar o exercício da mesma
+
+2
+00:00:05,850 --> 00:00:13,630
+forma como a gente tem no set a gente tem a possibilidade de listas heterogêneas está aqui marcado que
+
+3
+00:00:13,660 --> 00:00:18,150
+é muito legal a gente vai usar listas ou emojis já naquela anotação dos genéricos.
+
+4
+00:00:18,150 --> 00:00:20,990
+Nós vamos discutir de forma mais profunda mais na frente.
+
+5
+00:00:20,990 --> 00:00:26,120
+Por enquanto a gente vai simplesmente entender que o genéricos vai nos ajudar a especificar o Amaral
+
+6
+00:00:26,200 --> 00:00:30,730
+tipo associado à coleção então acho até que a gente vai usar né.
+
+7
+00:00:30,740 --> 00:00:34,540
+Ou seja há elementos do mesmo tipo também a lista.
+
+8
+00:00:34,560 --> 00:00:37,050
+Ela tem a característica de que aceita repetição.
+
+9
+00:00:37,050 --> 00:00:41,430
+Você pode ter objetos duplicados em tal lista isso não é um problema.
+
+10
+00:00:41,430 --> 00:00:46,960
+A lista por padrão é ordenada então vai seguir a ordem de inserção que a gente vai usar.
+
+11
+00:00:47,010 --> 00:00:53,340
+é uma coisa muito importante nas diferenças digamos assim maiores com relação ao 7.
+
+12
+00:00:53,400 --> 00:00:59,820
+O fato de ela ser naturalmente ordenada faz com que você tenha a possibilidade de acessar elementos
+
+13
+00:00:59,820 --> 00:01:00,810
+a partir do índice.
+
+14
+00:01:00,910 --> 00:01:04,500
+Então um dos critérios de escolha eu vou usar um 7 eu vou usar um lixo.
+
+15
+00:01:04,500 --> 00:01:05,930
+Depende das características.
+
+16
+00:01:05,940 --> 00:01:10,190
+Eu quero evitar duplicação mas ao mesmo tempo eu preciso de um índice.
+
+17
+00:01:10,190 --> 00:01:15,300
+Então você vai para a lista e na hora de inserir você verifica se contém ou não aquele elemento para
+
+18
+00:01:15,300 --> 00:01:16,810
+evitar duplicação.
+
+19
+00:01:16,830 --> 00:01:22,950
+Aí eu preciso evitar duplicação mas não precisa necessariamente por isso eu vou percorrer apenas usando
+
+20
+00:01:22,980 --> 00:01:25,480
+foi então provavelmente você vai para um site.
+
+21
+00:01:25,550 --> 00:01:27,580
+Aí eu preciso de ordenação.
+
+22
+00:01:27,750 --> 00:01:31,620
+A ordem é muito importante ordem e inclusão deve ser mantida.
+
+23
+00:01:31,620 --> 00:01:37,940
+Então você pode usar até 1 3.7 ou mesmo uma lista porque ele vai manter a ordem de inclusão por padrão
+
+24
+00:01:37,940 --> 00:01:38,340
+certo.
+
+25
+00:01:38,600 --> 00:01:46,020
+Então em cima disso a gente vai fazer um exemplo agora se eu colocar aqui lado tablets e nós vamos criar
+
+26
+00:01:46,230 --> 00:01:49,070
+uma nova classe que vai apresentar uma lista.
+
+27
+00:01:49,070 --> 00:01:56,400
+Então vou colocar 500 coleções o nome da classe será a lista e eu já vou criar a lista usando um tipo
+
+28
+00:01:56,400 --> 00:01:57,250
+específico.
+
+29
+00:01:57,250 --> 00:02:01,580
+Então toca aqui também para pra gente fazer de uma forma um pouco mais interessante.
+
+30
+00:02:01,590 --> 00:02:04,610
+Eu vou criar associado a esse exercício da lista.
+
+31
+00:02:04,610 --> 00:02:08,680
+Vou criar um objeto então aqui eu vou criar um objeto bem simples.
+
+32
+00:02:08,810 --> 00:02:16,200
+Vou criar que nenhum objeto usuário esse objeto usuário dessa classe o usuário dizendo vai ter apenas
+
+33
+00:02:16,200 --> 00:02:23,730
+um único atributo nome e eu vou gerar o México onde o veículo está bom para a gente poder fazer algumas
+
+34
+00:02:23,730 --> 00:02:25,440
+coisas e não se preocupar muito com isso.
+
+35
+00:02:25,440 --> 00:02:28,620
+A gente volta pra esse tema pra gerar um escudo e.
+
+36
+00:02:28,630 --> 00:02:36,090
+Se você clicar com o botão direito Source você tem que escolher e nós só temos um único atributo então
+
+37
+00:02:36,090 --> 00:02:39,590
+esse atributo será usado para definir a igualdade.
+
+38
+00:02:39,750 --> 00:02:46,590
+Dentro dessa classe ou seja os objetos do tipo usuário vão usar essa lógica que eu poderia implementar
+
+39
+00:02:46,590 --> 00:02:47,000
+também.
+
+40
+00:02:47,010 --> 00:02:51,780
+Posso até mudar de data ao final da aula mas por enquanto eu vou deixar do jeito que foi gerado pela
+
+41
+00:02:51,780 --> 00:02:55,290
+equipe já leu muito e entender exatamente o que está acontecendo.
+
+42
+00:02:55,290 --> 00:02:58,910
+Relaxem não se preocupa tanto com código que tá aqui.
+
+43
+00:02:59,010 --> 00:03:03,900
+Depois a gente vai entrar um pouco mais em detalhe em relação a isso e você pode usar isso tranquilamente
+
+44
+00:03:03,900 --> 00:03:06,810
+sem necessariamente precisar o que está acontecendo aqui né.
+
+45
+00:03:06,810 --> 00:03:13,110
+O fato é que o número primo e multiplica no seu quem faz essas operações para isso.
+
+46
+00:03:13,110 --> 00:03:18,630
+Isso aqui é para que ele consiga gerar um número um número mais diferente possível certo.
+
+47
+00:03:18,630 --> 00:03:25,230
+Você poderia até simplificar mas por que esse usuário tem mais de um seu sistema o usuário tem um código.
+
+48
+00:03:25,290 --> 00:03:31,220
+Você pode muito bem é do tipo inteiro você pode muito bem substituir tudo isso e voltar apenas onde
+
+49
+00:03:31,220 --> 00:03:34,250
+do usuário ele vai usá la como você não é escolhido esse usuário.
+
+50
+00:03:34,320 --> 00:03:37,730
+Será que por exemplo vai ter situações que o Word não estará presente.
+
+51
+00:03:37,730 --> 00:03:39,000
+Vai ser zero.
+
+52
+00:03:39,030 --> 00:03:43,410
+Isso é comum ou seja muitos objetos vão estar com mais zerado.
+
+53
+00:03:43,470 --> 00:03:47,140
+Eu vou tentar comparar então isso pode ser bom ou ruim dependendo da situação.
+
+54
+00:03:47,160 --> 00:03:53,970
+Mas nesse caso o nosso usuário terá apenas o nome aqui dentro da lista nós vamos criar agora uma lista
+
+55
+00:03:53,970 --> 00:04:01,230
+de usuários a gente pode criar uma lista por exemplo usando o arco íris certo e aqui o valor que eu
+
+56
+00:04:01,230 --> 00:04:07,230
+vou colocar associado ao lixo vai ser o usuário que é exatamente o que nós criamos como nós temos duas
+
+57
+00:04:07,230 --> 00:04:13,200
+classes do usuário uma classe usuário está dentro de coleções e outra classe o usuário está dentro de
+
+58
+00:04:13,200 --> 00:04:13,930
+classe.
+
+59
+00:04:14,130 --> 00:04:19,230
+Nesse caso nós vamos usar a classe o usuário que está dentro de coleções que é o próprio pacote que
+
+60
+00:04:19,230 --> 00:04:23,430
+eu estou agora servem de tal forma que eu não vou precisar importar nada porque como estou no mesmo
+
+61
+00:04:23,430 --> 00:04:25,980
+pacote não precisa importar.
+
+62
+00:04:25,980 --> 00:04:36,450
+Aqui eu votei lista recebe mil reais então tanto ele pode colocar o usuário aqui no final como ele pode
+
+63
+00:04:36,450 --> 00:04:42,240
+simplesmente colocar sem nada ele vai inferir que é exatamente o mesmo tipo que você colocou aqui.
+
+64
+00:04:42,240 --> 00:04:44,610
+Feito isso eu vou precisar criar um usuário.
+
+65
+00:04:44,610 --> 00:04:52,650
+Então coloco aqui lá para facilitar eu fazer o seguinte eu vou criar aqui um construtor então o usuário
+
+66
+00:04:53,070 --> 00:05:00,790
+vai receber um estrela como parâmetro com o nome e aqui dentro eu vou fazer 10 outro nome recebe nome
+
+67
+00:05:00,890 --> 00:05:06,200
+obrigatoriamente para criar um usuário é preciso chamar o construtor que recebe o nome dele.
+
+68
+00:05:06,320 --> 00:05:10,410
+Então eu vou fazer uma lista ou adicionar.
+
+69
+00:05:10,730 --> 00:05:17,600
+Olha que o tipo ou o tipo que eu tenho é usuário ou seja agora só posso adicionar elementos do tipo
+
+70
+00:05:17,600 --> 00:05:18,330
+usuario.
+
+71
+00:05:18,860 --> 00:05:28,780
+Eu posso tanto criar usuário aqui antes por exemplo um usuário recebe o usuário passa no nome por exemplo
+
+72
+00:05:29,400 --> 00:05:40,370
+na TV e passo o usuário para ser inserido na minha lista e eu também posso fazer uma lista adicionar
+
+73
+00:05:40,950 --> 00:05:42,740
+mil usuário.
+
+74
+00:05:43,160 --> 00:05:49,200
+Ou seja já estou criando um usuário já estou adicionando na lista colocando aqui o Carlos.
+
+75
+00:05:49,640 --> 00:05:59,690
+Vou criar mais alguns usuários dessa forma então vou ter o Carlos Thiago lia botei a Bia e voltei a
+
+76
+00:06:00,040 --> 00:06:06,320
+Manu então até uma lista que agora tem cinco elementos na lista de tal forma que se eu fizer aqui um
+
+77
+00:06:06,320 --> 00:06:17,760
+forte posso percorrer por exemplo um usuário em cima de lista e posso imprimir o valor de usuário do
+
+78
+00:06:17,840 --> 00:06:25,490
+nome para mostrar no console ou executar mas temos carros ali ABI Amano percebam que a ordem de inserção
+
+79
+00:06:25,490 --> 00:06:27,200
+foi mantida.
+
+80
+00:06:27,300 --> 00:06:34,310
+Ana Carlos e Abi Mano exatamente da forma que a gente definiu aqui eu já queria o objeto coloquei diretamente
+
+81
+00:06:34,610 --> 00:06:39,440
+na lista que eu criei uma variável e depois adicionar na lista outra forma que a gente tem de interagir
+
+82
+00:06:39,470 --> 00:06:46,700
+quando trabalha com lista e obter um determinado elemento a partir do AI de então como é que eu posso
+
+83
+00:06:46,700 --> 00:06:47,950
+fazer isso.
+
+84
+00:06:48,110 --> 00:06:50,920
+Lista diet.
+
+85
+00:06:50,990 --> 00:06:52,850
+Eu passo 23.
+
+86
+00:06:52,880 --> 00:07:00,750
+Quem é o elemento de 23 ou a ANA indecisa eram Carlos 1 22 23.
+
+87
+00:07:00,750 --> 00:07:04,070
+Ou seja o resultado que será impresso será a.
+
+88
+00:07:04,100 --> 00:07:09,740
+Nesse caso onde ele retornou aqui a descrição do próprio usuário mas eu posso colocar logo depois do
+
+89
+00:07:09,790 --> 00:07:16,480
+gadget o nome certo no resultado e o resultado vai dar como eu falei a Bill.
+
+90
+00:07:16,510 --> 00:07:23,870
+A primeira lamento leva como é que eu faço pra esse objeto aqui ele realmente imprimi algo que seja
+
+91
+00:07:23,870 --> 00:07:28,210
+relevante exibir algo que fique fácil de entender.
+
+92
+00:07:28,280 --> 00:07:35,390
+Você pode implementar associada ao usuário um método chamado Xu string e eu não lembro se eu falei sobre
+
+93
+00:07:35,390 --> 00:07:41,330
+esse método mas o fato é que nesse método eu vou limpar aqui deixar ele sem nada certo para enfim posso
+
+94
+00:07:41,780 --> 00:07:48,060
+escrever mesmo na mão publiquem string ou string e ele vai retornar alguma coisa que eu posso colocar
+
+95
+00:07:48,870 --> 00:07:51,190
+meu nome.
+
+96
+00:07:52,490 --> 00:08:01,000
+E aí eu vou concatenar máquina concatenar com um nome ou então desse ponto o nome que ele faz desculpe
+
+97
+00:08:01,090 --> 00:08:01,680
+o nome.
+
+98
+00:08:01,880 --> 00:08:05,400
+E agora sim eu vou concatenar de novo pra terminar aqui.
+
+99
+00:08:05,570 --> 00:08:11,390
+Agora já complemento eu estive no momento em que eu tentei imprimir um objeto do tipo usuário significa
+
+100
+00:08:11,390 --> 00:08:19,730
+que esse objeto vai ser impresso seguindo esse estilo que foi retornado a partir dos trinta e tal forma
+
+101
+00:08:20,070 --> 00:08:26,510
+exata no que você vai ver que ele vai dizer o meu nome e Bia e nos outros casos Eu simplesmente chamei
+
+102
+00:08:26,510 --> 00:08:33,650
+o nome mas se eu não chamar o nome chamar só aqui você vai ver que o resultado será o meu nome é Carlos
+
+103
+00:08:33,650 --> 00:08:40,070
+Manuel Maria meu amigo me mandou porque nesse caso ele está usando o extremo implicitamente Ele chama
+
+104
+00:08:40,070 --> 00:08:45,630
+esse método embora você também posso chamar de forma explícita aqui ou então simplesmente no momento.
+
+105
+00:08:45,670 --> 00:08:54,530
+A gente começou a fazer então o que querem deixar claro que aqui você consegue acessar pelo índice o
+
+106
+00:08:54,530 --> 00:09:00,350
+que não acontece no exemplo passado que no conjunto comportado não há outro conjunto se eu tentar fazer
+
+107
+00:09:00,890 --> 00:09:01,820
+números.
+
+108
+00:09:01,990 --> 00:09:04,910
+Ponto Gatti não tem esse método.
+
+109
+00:09:04,910 --> 00:09:09,980
+Tem um método chamado baixo clero que não tem nada a ver com essa parte de conjunto mas eu não consigo
+
+110
+00:09:09,980 --> 00:09:16,330
+acessar por exemplo a partir do início porque não é possível certo eu comentar aqui para ficar quietinho.
+
+111
+00:09:16,900 --> 00:09:24,460
+Então para aquela possível acessá lo.
+
+112
+00:09:25,670 --> 00:09:31,030
+Então aquele pessoal na lista se a gente tem os outros métodos são muito parecidos.
+
+113
+00:09:31,070 --> 00:09:32,180
+Então porquê.
+
+114
+00:09:32,260 --> 00:09:35,450
+HT no índice em algo específico da lista então lista.
+
+115
+00:09:35,450 --> 00:09:36,740
+Ponto.
+
+116
+00:09:36,850 --> 00:09:44,460
+Temos duas formas de remover o possam remover pelo índice então remover o andamento de 25 horas em um
+
+117
+00:09:44,840 --> 00:09:47,450
+caso que é o Carlos então executando.
+
+118
+00:09:47,540 --> 00:09:52,990
+Ele vai lá e usa o Carlos para remover com sua anomalia A B e a Manu.
+
+119
+00:09:53,180 --> 00:10:02,220
+Também posso remover a partir de um objeto então removido aqui é humilde usuario.
+
+120
+00:10:02,660 --> 00:10:10,920
+Vou passar por exemplo o nome Manu Sato exatamente do mesmo jeito como ele está usando o iCloud.
+
+121
+00:10:11,090 --> 00:10:17,400
+A escolha correto de tal forma que ele vai usar apenas o nome do usuário para identificar se é igual
+
+122
+00:10:17,400 --> 00:10:20,930
+ou não significa nesse caso que ele vai conseguir excluir.
+
+123
+00:10:20,930 --> 00:10:24,820
+Tanto é que eu posso pegar isso e colocar um system algo além.
+
+124
+00:10:25,130 --> 00:10:30,670
+O resultado remova a gente viu que ele é um valor booleano verdadeiro falso certo então ele vai dizer
+
+125
+00:10:30,670 --> 00:10:36,560
+se removeu ou não a Manu a partir disso então executado você vai ver que o resultado vai dar verdadeiro
+
+126
+00:10:36,770 --> 00:10:43,140
+e já o de cima quer o lista ponto removido em vez de quando você remove pelo índice ele vai retornar
+
+127
+00:10:43,140 --> 00:10:48,820
+não é verdadeiro ou falso mas ele vai tornar o objeto que você excluiu.
+
+128
+00:10:48,890 --> 00:10:55,150
+Se você olhar que ao remover de baixo ele recebe um objeto e retorna verdadeiro falso já removeu de
+
+129
+00:10:55,160 --> 00:11:01,630
+cima ele recebe um inteiro que é o índice dentro da lista e ele retorna para você um usuário.
+
+130
+00:11:01,820 --> 00:11:08,990
+De tal forma que seu removê oramento difícil você vai ver que ele vai te salvar e executar.
+
+131
+00:11:09,240 --> 00:11:13,510
+O resultado vai ser o meu nome é Carlos exatamente o que foi a remoção.
+
+132
+00:11:13,520 --> 00:11:19,220
+Fato é que eu posso concatenar aqui só pra ficar diferente.
+
+133
+00:11:19,820 --> 00:11:27,090
+Então esse aqui foi removido com o nome e Carlos é exatamente o resultado da remoção a partir daí é
+
+134
+00:11:27,200 --> 00:11:35,600
+outra coisa que a gente pode fazer é verificar se está contido ou não assistem ao print ali lista ponto
+
+135
+00:11:36,000 --> 00:11:45,690
+com itens e após passar por exemplo ali continua ainda fazendo parte do calcário que contém se o elemento
+
+136
+00:11:46,060 --> 00:11:50,030
+Metal executado um resultado neutro.
+
+137
+00:11:50,030 --> 00:11:56,570
+Vou colocar aqui ontem isso pra gente saber como foi que foi exibido isso exatamente.
+
+138
+00:11:56,570 --> 00:11:58,290
+Só tenho a lamentar.
+
+139
+00:11:58,330 --> 00:12:05,640
+4 O último teste que eu quero fazer essa gente conclui a aula é pra gente comentar aqui o usuário escolher
+
+140
+00:12:05,700 --> 00:12:13,430
+o e vou comentar esses dois métodos então basta você selecionar tudo contra o abade comentário que no
+
+141
+00:12:13,430 --> 00:12:16,050
+meu caso é como diz o comentário.
+
+142
+00:12:16,140 --> 00:12:23,270
+Certo comentei esses dois métodos e isso a gente testar agora é claro você vai ver que está presente
+
+143
+00:12:23,330 --> 00:12:24,910
+sim ou não não está presente.
+
+144
+00:12:24,920 --> 00:12:31,100
+Ele não conseguiu remover a Manu certa o mundo continua que ele não conseguiu verificar se está contido
+
+145
+00:12:31,100 --> 00:12:31,900
+ou não ali.
+
+146
+00:12:31,940 --> 00:12:32,630
+Por.
+
+147
+00:12:32,660 --> 00:12:35,310
+Isso é um objeto diferente na memória.
+
+148
+00:12:35,480 --> 00:12:41,900
+O único cenário que daria certo isso está contido ou não no seu duplicado que é verificar se a ANA está
+
+149
+00:12:41,900 --> 00:12:42,520
+presente.
+
+150
+00:12:42,580 --> 00:12:43,320
+Ok.
+
+151
+00:12:43,530 --> 00:12:50,600
+Porque eu tenho o objeto que é referência para o objeto eu tenho e aí sim ele vai dar destaque que pertence
+
+152
+00:12:50,600 --> 00:12:56,150
+sim ao outro porque ele vai comparar a partir de endereço de memória usando o ICS e o ratificou que
+
+153
+00:12:56,150 --> 00:13:00,250
+ele vai fazer esse tipo de operação especificamente no caso do Harry Liste.
+
+154
+00:13:00,410 --> 00:13:08,120
+Ele não vai usar a escolha certa de enfim comentar desse comentário aqui apenas o Windows você vai perceber
+
+155
+00:13:08,120 --> 00:13:15,320
+que vai funcionar mais estruturas do tipo RX 7 GIMP e vamos sim usar um escudo pra fazer esse tipo de
+
+156
+00:13:15,320 --> 00:13:20,870
+operação trazer à tona mais uma vez você vai ver que ele está excluído e Manu como também conseguiu
+
+157
+00:13:20,870 --> 00:13:27,370
+verificar que o usuário iria estar presente com o que eu e com os está fazendo de forma correta mas
+
+158
+00:13:27,410 --> 00:13:28,160
+não faz sentido.
+
+159
+00:13:28,160 --> 00:13:31,000
+Já falei pra vocês implementar apenas o Icon.
+
+160
+00:13:31,010 --> 00:13:33,530
+Você pode também implementá las com o certo.
+
+161
+00:13:33,570 --> 00:13:40,670
+é extremamente importante que esses dois métodos estejam juntos e especificamente nesse caso é uma forma
+
+162
+00:13:40,670 --> 00:13:46,370
+de implementar Supersimples eu poderia implementar aqui de uma forma simples para não gerar minha dúvida
+
+163
+00:13:46,380 --> 00:13:56,300
+de vocês eu posso só colocar aqui ou por exemplo um usuário médio do que eu fiz outra vez usuário.
+
+164
+00:13:56,420 --> 00:14:01,060
+Aí eu faço o que o usuário recebe ao BJ de objeto.
+
+165
+00:14:01,070 --> 00:14:04,100
+Então não posso colocar outro.
+
+166
+00:14:04,490 --> 00:14:08,630
+Ou seja seria outro usuário usuário.
+
+167
+00:14:09,710 --> 00:14:11,000
+Ponto e Vírgula.
+
+168
+00:14:11,000 --> 00:14:24,200
+Aqui eu verifico se em dez conto nome igual gente ou outro usuário outro nome ou outro usuário outro
+
+169
+00:14:24,200 --> 00:14:24,710
+nome.
+
+170
+00:14:24,920 --> 00:14:32,860
+Esse é o meu critério de igualdade e aqui no Rio escolha eu posso simplesmente voltar Brittany zero.
+
+171
+00:14:32,870 --> 00:14:38,750
+Ainda assim impulsionaria corretamente nosso exemplo só pra gente testar aqui você vai ver que ele excluiu
+
+172
+00:14:38,750 --> 00:14:44,360
+Carlos verificou que está presente no final tem exatamente a mesma coisa.
+
+173
+00:14:44,630 --> 00:14:49,850
+Usando uma implementação muito mais simples como é o caso da nossa aqui vou me retornar vou deixar do
+
+174
+00:14:49,850 --> 00:14:57,050
+jeito que estavam no inconsciente coletivo gerado aqui pelo eclipse que é um discurso bastante interessante
+
+175
+00:14:57,480 --> 00:15:05,070
+e ficamos por aqui no isso de lista futura ordenada você consegue acessar a lista a partir do Haiti.
+
+176
+00:15:05,170 --> 00:15:11,620
+A gente conseguiu criar um objeto e criar uma lista de objetos não apenas uma lista de tipos mais simples
+
+177
+00:15:11,620 --> 00:15:18,280
+como string como valores e o inteiro da W e acho que ficou bem legal para a gente ver algumas coisas
+
+178
+00:15:18,280 --> 00:15:21,210
+interessantes entender um pouquinho mais do inglês ratificou.
+
+179
+00:15:21,220 --> 00:15:28,450
+No contexto da leis principalmente aqui foi colocar à prova o ICMS porque nesse contexto do lixo é usado
+
+180
+00:15:28,450 --> 00:15:35,370
+o ICMS e só para finalizar uma coisa se você quiser também pode colocar aqui como sendo um lixo.
+
+181
+00:15:35,440 --> 00:15:40,660
+Não necessariamente a religião dos dois lados como a de chips ou então contra o chip Shop ele organizar
+
+182
+00:15:40,660 --> 00:15:47,140
+os impostos aqui tem três listas diferentes o que eu quero é o último Java ou o último liste salvando
+
+183
+00:15:47,140 --> 00:15:53,230
+o código e a última execução da sala continuou funcionando corretamente então agimos liste teremos um
+
+184
+00:15:53,230 --> 00:15:55,630
+pouquinho das suas características.
+
+185
+00:15:55,630 --> 00:15:58,860
+O fato de ser indexado o fato de ser ordenado por padrão.
+
+186
+00:15:59,050 --> 00:16:06,480
+O fato de aceitar repetição nem testar isso mas com esses dois objetos são iguais ao Manu e a Manu não
+
+187
+00:16:06,490 --> 00:16:08,120
+posso duplicar aqui.
+
+188
+00:16:08,140 --> 00:16:14,980
+Certo Você vai ver que vai ter duas Manus então também você tem o Manu embora tenha excluído uma Manu
+
+189
+00:16:14,980 --> 00:16:15,940
+aqui.
+
+190
+00:16:15,940 --> 00:16:17,610
+Certo Ainda sobrou outra.
+
+191
+00:16:17,620 --> 00:16:23,290
+Certo Ele vai excluir uma das duas e a outra continua se sobrando de tal forma que Ana Maria B Manu
+
+192
+00:16:23,410 --> 00:16:28,860
+a lista final sem excluir duas vezes a Manu você vai ver que vai duas vezes ele gera um ao outro.
+
+193
+00:16:28,890 --> 00:16:36,580
+Certo Ele gerou outro aqui logo depois que ele escolheu o Carlos pelo seu excluído de novo a Manu.
+
+194
+00:16:36,760 --> 00:16:38,850
+Ou seja a terceira vez vai dar falso né.
+
+195
+00:16:38,890 --> 00:16:44,430
+Obviamente tal escolha amanhã no Manu deu certo de novo a Manu deu certo e na outra de falso porque
+
+196
+00:16:44,440 --> 00:16:49,780
+já não tinha nenhuma Manu dentro do nosso código então fique por aqui pessoa até aproximá la ainda no
+
+197
+00:16:49,780 --> 00:16:52,060
+nosso capítulo Harry e coleções.

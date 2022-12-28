@@ -1,0 +1,203 @@
+1
+00:00:00,160 --> 00:00:07,510
+Pessoal na sala vou propor pra vocês um desafio e eu vou criar aqui o nosso clássico.
+
+2
+00:00:07,550 --> 00:00:12,870
+Vai ser um desafio e vou jogar aqui os comentários que eu criei anteriormente pra que a gente possa
+
+3
+00:00:13,560 --> 00:00:17,520
+explicar um pouco melhor os desafios ficar documentado aqui no vídeo certo então vai ser o seguinte
+
+4
+00:00:17,670 --> 00:00:24,800
+vamos criar uma classe chamada Desafio e criar aqui um método.
+
+5
+00:00:25,290 --> 00:00:34,110
+Eu vou fazer o seguinte vou criar aqui no mato meio um produto sempre que trouxesse mais um produto.
+
+6
+00:00:34,170 --> 00:00:42,510
+Vou colocar aqui B lá recebe o produto a gente já tinha criado essa classe anteriormente recebe três
+
+7
+00:00:42,510 --> 00:00:43,140
+parâmetros.
+
+8
+00:00:43,170 --> 00:00:53,130
+Vou colocar o nome do produto que vai chegar aí Bad vou colocar o preço do G3 1235 ponto 89 e vou colocar
+
+9
+00:00:53,220 --> 00:00:56,190
+o desconto pra ser 0 ponto 3 o 7.
+
+10
+00:00:56,610 --> 00:00:57,460
+Pronto.
+
+11
+00:00:57,510 --> 00:01:05,450
+Feito isso eu vou copiar aqui os comentários que eu escrevi e vocês não vão precisar fazer esses passos
+
+12
+00:01:05,460 --> 00:01:08,340
+aqui certo como vocês vão implementar.
+
+13
+00:01:08,400 --> 00:01:14,190
+Aí a cargo de vocês faz parte do desafio mas o primeiro passo vai ser a partir do produto.
+
+14
+00:01:14,190 --> 00:01:16,310
+Vocês vão calcular o preço real.
+
+15
+00:01:16,560 --> 00:01:19,560
+Ou seja o preço com desconto é então o primeiro passo.
+
+16
+00:01:19,560 --> 00:01:24,230
+O nosso na nossa composição de funções mas sei calcular o preço.
+
+17
+00:01:24,300 --> 00:01:29,160
+Depois que você fizer o preço com desconto você vai passar pelo próximo passo certo.
+
+18
+00:01:29,160 --> 00:01:34,990
+Então nesse caso você recebe como entrada o produto e você retorna o preço com desconto.
+
+19
+00:01:35,040 --> 00:01:36,100
+Começa um W.
+
+20
+00:01:36,330 --> 00:01:44,150
+Depois eu passo 2 Você vai calcular o que seria eu sei lá que é uma simulação do imposto municipal e
+
+21
+00:01:44,180 --> 00:01:51,300
+esse imposto municipal vai seguir a seguinte lógica se o preço do produto for maior ou igual a 2500
+
+22
+00:01:51,300 --> 00:01:58,900
+ele vai aplicar 8 mil por cento em cima do preço de imposto se for menor do que em 2015 vai ser isento.
+
+23
+00:01:58,930 --> 00:02:02,220
+Só um exemplo qualquer para colocar uma lógica.
+
+24
+00:02:02,220 --> 00:02:07,620
+Depois disso você vai aplicar o valor do frete no produto de tal forma que o objetivo é você entrar
+
+25
+00:02:07,620 --> 00:02:13,590
+com um produto e no final você tem o preço final que você vai realmente mostrar na tela ou aplicá la
+
+26
+00:02:13,590 --> 00:02:17,800
+por exemplo no carrinho de compra ou mostrar no seu site uma coisa do tipo certo então você vai ter
+
+27
+00:02:17,800 --> 00:02:20,520
+que um frete que você vai sifu.
+
+28
+00:02:20,580 --> 00:02:24,420
+O preço maior do que 3 mil reais o frete custa 100 reais.
+
+29
+00:02:24,600 --> 00:02:31,650
+Se for menor do que 3 mil reais o frete custa 50 reais por exemplo e o quarto seria arredondado deixar
+
+30
+00:02:31,920 --> 00:02:34,080
+em apenas duas casas decimais.
+
+31
+00:02:34,260 --> 00:02:41,820
+E finalmente você vai colocar no final que até aqui você tem um valor W com duas casas decimais a partir
+
+32
+00:02:41,820 --> 00:02:49,170
+daqui você vai concatenar com o real e colocar no lugar do ponto colocar vírgula pra exibir o valor
+
+33
+00:02:49,170 --> 00:02:54,010
+final certo então esse é o trabalho que vocês têm que fazer aqui nesse desafio.
+
+34
+00:02:54,360 --> 00:03:01,740
+Não vou orientar muito mal eu não sei como pegar por exemplo o valor quebrado o valor da ABL é arredondar
+
+35
+00:03:01,740 --> 00:03:03,660
+para 12 casas decimais.
+
+36
+00:03:03,660 --> 00:03:08,310
+Dê uma olhada na internet tem várias soluções que vocês podem usar algumas mais simples outras mais
+
+37
+00:03:08,310 --> 00:03:11,760
+complicadas e tentar aplicar isso dentro da função.
+
+38
+00:03:11,770 --> 00:03:17,130
+Um dos trabalhos que eu acho que é extremamente importante que todos os alunos consigam depois de o
+
+39
+00:03:17,340 --> 00:03:21,090
+fazer é pesquisar e atraí soluções para resolver os problemas.
+
+40
+00:03:21,090 --> 00:03:23,460
+Nem tudo no mundo real.
+
+41
+00:03:23,550 --> 00:03:29,490
+Nem tudo não é muita coisa do mundo real não terá soluções prontas às vezes esse espírito dos alunos
+
+42
+00:03:29,490 --> 00:03:34,780
+lá tem tudo em algum curso que implementam um sistema de contabilidade no seu Q.I.
+
+43
+00:03:34,810 --> 00:03:41,550
+Não não tenho esse custo nem tem como fazer um curso tão específico e tão com um negócio tão expressivo
+
+44
+00:03:41,550 --> 00:03:46,830
+para a pessoa então você vai ter que pegar um sistema que foi feito pra lá para um sistema financeiro
+
+45
+00:03:46,900 --> 00:03:52,050
+e pegar essas mesmas lógicas dos princípios e aplicar isso pra um sistema de faculdade.
+
+46
+00:03:52,170 --> 00:03:57,630
+Então essa capacidade de abstrair as soluções é algo que todo desenvolvedor precisa ter é por isso que
+
+47
+00:03:57,630 --> 00:04:03,180
+algumas dessas coisas aqui como por exemplo arredondar para duas casas decimais pois foi algo que eu
+
+48
+00:04:03,180 --> 00:04:09,270
+ainda não mostrei no curso mais importante eu acho que você já tem ferramentas suficiente para pesquisar
+
+49
+00:04:09,270 --> 00:04:14,940
+e entender um pouquinho como é que é feito isso é um forma simples não é complicado e aplicar isso dentro
+
+50
+00:04:14,940 --> 00:04:20,970
+do código certo mas se por acaso não conseguir fazer tal passo porque eu não consegui achar uma resposta
+
+51
+00:04:20,970 --> 00:04:23,970
+legal não tem problema na próxima aula eu vou dar resposta.

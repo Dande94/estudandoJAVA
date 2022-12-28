@@ -1,0 +1,783 @@
+1
+00:00:00,980 --> 00:00:08,950
+Pessoal é uma história interessante assim do começo da minha vida profissional sim quando entrei numa
+
+2
+00:00:08,950 --> 00:00:09,720
+empresa.
+
+3
+00:00:09,750 --> 00:00:16,130
+Eu acho que esse nome segundo terceiro dia de empresa ou talvez tenha sido até no primeiro dia eu não
+
+4
+00:00:16,130 --> 00:00:24,230
+estou exatamente lembrado quando aconteceu que teve algumas palestras e tal como eu entrei nessa empresa
+
+5
+00:00:24,290 --> 00:00:30,320
+e eu me lembro que eu fui eu tinha pouquíssima experiência em desenvolvimento tinha desenvolvido em
+
+6
+00:00:30,320 --> 00:00:36,740
+Delphi por um tempo tinha trabalhado com relatórios e tal mas não tinha conhecimento de Java e também
+
+7
+00:00:36,740 --> 00:00:38,760
+não conhecia muitos padrões de projeto.
+
+8
+00:00:39,230 --> 00:00:41,960
+E aí eu comecei a conversar com algumas pessoas de.
+
+9
+00:00:41,970 --> 00:00:48,590
+Terra Como é que é feito o desenvolvimento aqui com o Java Itau e a pessoa não desenvolve aquele Java
+
+10
+00:00:48,590 --> 00:00:54,030
+bem bem tradicional no mercado em camadas usando o padrão Dao.
+
+11
+00:00:54,050 --> 00:01:02,260
+E aí quando a pessoa falou de algo eu pensei que era Down pra baixo né D ou W em down ou seja já usei
+
+12
+00:01:02,270 --> 00:01:08,690
+Java pra baixo eu fiquei com vergonha de perguntar e acabei deixando passar mas exige um padrão de projeto
+
+13
+00:01:08,690 --> 00:01:17,160
+chamado d A operação chama de dual que é Data Access Object ou objeto de acesso a dados.
+
+14
+00:01:17,180 --> 00:01:25,670
+A minha ideia inicial nessa aula não é tanto mostrar uma implementação digamos assim poderosa flexível
+
+15
+00:01:25,670 --> 00:01:31,460
+até porque não cabem muita gente está implementando isso tem outros tem Down na implementados no mercado
+
+16
+00:01:31,460 --> 00:01:34,550
+acho que até Spring tem implementações pra isso.
+
+17
+00:01:34,550 --> 00:01:41,540
+JD MC mas a gente vai usar o JP aqui vai facilitar muito o acesso para grandes volumes mas a ideia é
+
+18
+00:01:41,600 --> 00:01:43,970
+falar um pouquinho do padrão de projeto.
+
+19
+00:01:44,060 --> 00:01:50,210
+A ideia por trás do padrão de projeto é daqui por exemplo algumas ideias que você pode usar na prática
+
+20
+00:01:50,210 --> 00:01:56,860
+então a ideia é criar métodos de mais autonomia o que vai te ajudar a inserir alterar excluir a consultar
+
+21
+00:01:56,870 --> 00:02:01,590
+e aí você vai criar uma série de funcionalidades que vai te ajudar a completar digamos assim.
+
+22
+00:02:01,760 --> 00:02:07,140
+Esse acesso ao banco de dados é que acontece quando você não usa um padrão de projeto por exemplo com
+
+23
+00:02:07,140 --> 00:02:08,020
+o DAO.
+
+24
+00:02:08,030 --> 00:02:15,050
+O que acontece é que você vai ter as regras da sua aplicação ou seja as regras de negócio as validações
+
+25
+00:02:15,420 --> 00:02:22,430
+e o cálculo por exemplo para você fazer um determinado cálculo um determinado valor de venda de alguma
+
+26
+00:02:22,430 --> 00:02:29,390
+coisa no seu sistema misturado com acesso a banco de dados seja hora você faz um select pegam os dados
+
+27
+00:02:29,690 --> 00:02:35,900
+joga esses dados para um objeto e aí você pega esse objeto faz um cálculo você precisa fazer um outro
+
+28
+00:02:35,900 --> 00:02:39,900
+Select para pagar um outro acordo do banco de dados converte isso para o objeto.
+
+29
+00:02:40,010 --> 00:02:46,490
+Faz alguma outra regra então você fica misturando a parte de código de infra estrutura ou seja que a
+
+30
+00:02:46,490 --> 00:02:53,000
+parte de acesso ao banco de dados com os códigos relacionados ao negócio do seu sistema ou seja você
+
+31
+00:02:53,000 --> 00:02:58,250
+tem código de sistema código de negócio misturado com código de infra estrutura.
+
+32
+00:02:58,280 --> 00:03:04,850
+A ideia de você trabalhar com o ideal por exemplo Data Access Object Objeto de acesso a dados e você
+
+33
+00:03:04,850 --> 00:03:09,810
+tentar separar as preocupações tentar separar os objetivos.
+
+34
+00:03:09,820 --> 00:03:15,620
+Você tem um código que é estritamente voltado para acessar a infra estrutura de banco de dados ou seja
+
+35
+00:03:15,620 --> 00:03:18,400
+acessar o banco de dados para obter informações.
+
+36
+00:03:18,540 --> 00:03:24,440
+E você tem outra classe que é responsável por aplicar algum tipo de regra do seu sistema.
+
+37
+00:03:24,520 --> 00:03:30,190
+Em vez de você estar misturando os códigos você simplesmente pede perdeu ok é o da Taxi Object não é
+
+38
+00:03:30,210 --> 00:03:32,530
+um objeto de acesso a dados.
+
+39
+00:03:32,570 --> 00:03:39,170
+Só não quero que você obtenha no banco de dados uma lista de produtos e aí você vai lá e dentro desse
+
+40
+00:03:39,170 --> 00:03:44,530
+ideal você vai receber uma lista de produtos já toda configurado com os produtos definidos.
+
+41
+00:03:44,530 --> 00:03:51,350
+Todo o mapeamento das colunas pelos atributos já foi feito dentro do Dell e você se preocupa apenas
+
+42
+00:03:51,610 --> 00:03:56,630
+a partir da lista de produtos fazer algum tipo de cálculo para atender a regra do seu sistema.
+
+43
+00:03:56,750 --> 00:04:02,160
+Ou seja em vez de você misturar regra de negócio com regra com acesso a dados com o código de infra
+
+44
+00:04:02,160 --> 00:04:04,680
+estrutura você separa essas duas coisas.
+
+45
+00:04:04,680 --> 00:04:11,870
+Tão objetivo aqui de forma muito simples despretensiosa é colocar por exemplo esse padrão jogar esse
+
+46
+00:04:11,870 --> 00:04:17,150
+padrão pra você para que vocês possam olhar um pouco mais sobre isso e entender um pouco mais como são
+
+47
+00:04:17,150 --> 00:04:20,860
+implementados os deuses de mercado.
+
+48
+00:04:20,860 --> 00:04:26,720
+Você pode usar inclusive genéricos e aplicar uma série de outras coisas usar por exemplo reflecte o
+
+49
+00:04:26,870 --> 00:04:29,350
+que pouca gente vai ver mais à frente no curso.
+
+50
+00:04:29,490 --> 00:04:37,430
+Eu passo um objeto e ele vai olhar esse objeto e fazer uma introspecção ver quais são os atributos inclusive
+
+51
+00:04:37,430 --> 00:04:41,510
+você pode usar no trecho um que é outro tema que a gente vai abordar um pouco mais para frente.
+
+52
+00:04:41,810 --> 00:04:45,470
+Inclusive eu vou trabalhar com o trecho muito fortemente no JP.
+
+53
+00:04:45,470 --> 00:04:53,300
+Na verdade a gente já usou alguns trechos né por exemplo arroubo funcional Inter fez uma anotação e
+
+54
+00:04:53,300 --> 00:05:00,940
+você tem como ler essas informações para aplicar por exemplo alguma lógica então você pode ter bastante
+
+55
+00:05:00,940 --> 00:05:06,070
+complexo de almejar implementar vários da minha jornada como desenvolvedor mas a ideia aqui é fazer
+
+56
+00:05:06,070 --> 00:05:12,220
+um exemplo bem simples para que vocês possam pelo menos entender do que se trata o padrão e entender
+
+57
+00:05:12,280 --> 00:05:19,360
+que esse padrão é o objetivo dele é isolar todo o código de acesso a dados fornecendo para a aplicação
+
+58
+00:05:19,610 --> 00:05:25,600
+B métodos de mais alto nível de fácil chamada e que você possa chamar esse metro de uma forma muito
+
+59
+00:05:25,600 --> 00:05:31,090
+simples de obter aquilo que você quer sem necessariamente ficar se preocupando com os detalhes de como
+
+60
+00:05:31,090 --> 00:05:33,340
+aquilo é feito dentro do banco de dados.
+
+61
+00:05:33,340 --> 00:05:38,950
+No caso do JP como ele já te expõe uma API meio bastante alto nível.
+
+62
+00:05:39,070 --> 00:05:42,090
+O padrão Dell pode não necessariamente ser implementado.
+
+63
+00:05:42,090 --> 00:05:48,010
+Você até poderia isolar o código JP dentro de um arquivo ideal mas não necessariamente você precisa
+
+64
+00:05:48,010 --> 00:05:50,480
+fazer isso porque já é bastante alto nível.
+
+65
+00:05:50,920 --> 00:05:58,150
+Mas no caso do JD MC Eu diria que o uso do DEAL é um requisito você aí é muito interessante você separar
+
+66
+00:05:58,300 --> 00:06:03,490
+o código de acesso a dados é uma classe separada e não misturados com regras de negócio.
+
+67
+00:06:03,880 --> 00:06:10,300
+Então vou criar aqui algo genérico certo só pra gente mostra algumas coisas sem necessariamente entrar
+
+68
+00:06:10,300 --> 00:06:17,010
+muito profundo nessa questão do Down como a gente poderia implementar um down mais complexo usando JD
+
+69
+00:06:17,030 --> 00:06:17,430
+BC.
+
+70
+00:06:17,470 --> 00:06:27,520
+Então eu vou criar aqui um atributo do tipo Connection Connection e eu vou chamar aqui de conexão.
+
+71
+00:06:27,520 --> 00:06:35,310
+Vou criar um método também privado interno que ele vai retornar uma conexão Connection que vou chamar
+
+72
+00:06:35,330 --> 00:06:38,860
+aqui conexão.
+
+73
+00:06:38,900 --> 00:06:42,330
+Esse método eu já vou me beneficiar do método.
+
+74
+00:06:42,340 --> 00:06:47,620
+Enfim nada vai dar caso que a gente criou anteriormente que é a fábrica de conexão só pra simplificar
+
+75
+00:06:47,620 --> 00:06:48,070
+um pouco.
+
+76
+00:06:48,070 --> 00:06:50,410
+A ideia aqui é fazer o seguinte.
+
+77
+00:06:50,410 --> 00:07:00,790
+A ideia é se a conexão estiver encetado seja conexão diferente de nulo e a conexão não está fechada
+
+78
+00:07:00,790 --> 00:07:04,160
+então conexão com ele.
+
+79
+00:07:04,330 --> 00:07:10,420
+Ou seja estou negando a ela ou seja ela não está fechada significa que eu quero retornar a conexão que
+
+80
+00:07:10,420 --> 00:07:12,980
+já foi criada anteriormente tão e torná la.
+
+81
+00:07:13,030 --> 00:07:19,990
+A questão é que esse método aqui a conexão exclusiva é um método que vai tornar uma exceção.
+
+82
+00:07:20,100 --> 00:07:23,500
+Então o que eu posso tratar essa ação certo.
+
+83
+00:07:23,600 --> 00:07:27,590
+Então qualquer que um de bloco essa ação do tipo SQL Section.
+
+84
+00:07:27,880 --> 00:07:31,910
+Se ele cai aqui dentro eu não vou querer fazer nenhum tratamento especial.
+
+85
+00:07:32,050 --> 00:07:39,110
+Ou seja se ele não caiu aqui retornou uma conexão significa que a conexão ou não existe ou está fechada.
+
+86
+00:07:39,130 --> 00:07:47,380
+Então eu vou criar uma nova conexão então conexão recebe fábrica de conexão português de conexão.
+
+87
+00:07:47,630 --> 00:07:52,560
+E finalmente eu vou retornar a conexão.
+
+88
+00:07:52,600 --> 00:07:58,110
+Pronto feito isso eu tenho um método GET Connection e a minha ideia agora é criar de uma forma simples
+
+89
+00:07:58,120 --> 00:08:04,480
+Eu poderia ter muitas estratégias diferentes para criar um deal oque eu vou criar de forma mais simples
+
+90
+00:08:04,480 --> 00:08:08,680
+passando o próprio SQL e passando a lista de parâmetros.
+
+91
+00:08:08,680 --> 00:08:10,760
+Seria um dao mais bruto.
+
+92
+00:08:10,780 --> 00:08:16,840
+Ele não é tão alto nível assim como a maioria dos dao seriam por exemplo um dao o ideal você poderia
+
+93
+00:08:16,840 --> 00:08:19,850
+só pra exemplificar do tipo.
+
+94
+00:08:19,840 --> 00:08:26,830
+Você poderia criar aqui um arquivo chamado sei lá pessoa a ponto dela.
+
+95
+00:08:27,160 --> 00:08:30,310
+E esse arquivo de sua autoria.
+
+96
+00:08:30,340 --> 00:08:37,600
+O método por exemplo incluí que recebem um objeto do tipo pessoa.
+
+97
+00:08:38,080 --> 00:08:42,560
+Então aqui você percebe que o método inclui bastante autonomia.
+
+98
+00:08:42,570 --> 00:08:48,490
+Você passa a pessoa e automaticamente esse método aqui vai fazer todo o trabalho de transformar esse
+
+99
+00:08:48,490 --> 00:08:51,630
+objeto em certo.
+
+100
+00:08:51,640 --> 00:08:54,980
+Por exemplo esse objeto é transformado em um acidente.
+
+101
+00:08:55,030 --> 00:09:01,720
+Se fosse o método de alterar pegar um objeto e transformar não a exclusão então você poderia ter metros
+
+102
+00:09:01,720 --> 00:09:08,290
+de alto nível como esse aqui mas na verdade eu vou querer só daqui uma ideia do que você pode colocar
+
+103
+00:09:08,290 --> 00:09:09,910
+um encapsulado dentro de um ideal.
+
+104
+00:09:09,910 --> 00:09:12,940
+No meu caso aqui eu vou criar um método.
+
+105
+00:09:12,970 --> 00:09:14,840
+Incluir esse método.
+
+106
+00:09:14,880 --> 00:09:18,570
+Inicialmente acho que talvez dê para torná lo inteiro.
+
+107
+00:09:18,580 --> 00:09:20,280
+O nome do Metro vai ser inclui.
+
+108
+00:09:20,410 --> 00:09:30,820
+Eu vou passar para ele SQL e vou passar pra ele também um vagão de objetos sejam argumentos variáveis
+
+109
+00:09:30,820 --> 00:09:40,180
+vários objetos que representam os atributos desse que eu vou passar como parâmetros para esse SQL e
+
+110
+00:09:40,180 --> 00:09:44,010
+o resto eu vou fazer automaticamente dentro do site ou pegar conexão.
+
+111
+00:09:44,110 --> 00:09:51,130
+Você ter esses atributos como parâmetros para o meu SQL sem necessariamente precisar fazer isso externamente
+
+112
+00:09:51,160 --> 00:09:53,210
+como tem feito nos outros exercícios.
+
+113
+00:09:53,320 --> 00:10:04,650
+Então nesse caso eu já vou criar aqui um CNET exceções de tipo que ele recebe seja ela que ela recebe
+
+114
+00:10:05,210 --> 00:10:15,670
+e vou transformar essas acepções em vantagem então vou dar aqui ou colocar que operou durante época
+
+115
+00:10:16,080 --> 00:10:19,950
+não vai receber por padrão mas quero que se f um caso aconteça aqui dentro.
+
+116
+00:10:20,540 --> 00:10:33,150
+Então aqui dentro eu vou criar regimentos nos testes a partir de BET articles.
+
+117
+00:10:34,070 --> 00:10:39,860
+A partir de grande conexão ponto estágio.
+
+118
+00:10:40,220 --> 00:10:47,570
+Eu vou aqui passar o SQL como parâmetro pra quaisquer que eu recebi e agora eu vou ter que fazer.
+
+119
+00:10:47,660 --> 00:10:54,300
+Vou pagar todos esses atributos exceto esses atributos dentro como parâmetro do meu SQL ou seja sem
+
+120
+00:10:54,390 --> 00:11:00,400
+esses atributos que tiverem encetado eu vou querer passar cada um dos atributos pelo meu time.
+
+121
+00:11:00,660 --> 00:11:05,240
+Uma questão esse inteiro que eu quero retornar já cortou trabalhando com o Metro me incluo e eu quero
+
+122
+00:11:05,240 --> 00:11:09,770
+retornar ao Haiti que foi gerado a partir dessa inclusão.
+
+123
+00:11:09,890 --> 00:11:12,410
+Pra fazer isso que é uma coisa que eu não fiz antes.
+
+124
+00:11:12,440 --> 00:11:18,140
+Exemplos passados eu vou passar aqui um segundo parâmetro que vai ser um parâmetro que é exatamente
+
+125
+00:11:18,140 --> 00:11:26,030
+esse alto gênero que quis para a gente passar isso eu vou pagar cópia persistentemente existe a propriedade
+
+126
+00:11:26,030 --> 00:11:33,500
+que é essa que op Wittmann Generali tem que quis a partir dessa propriedade que a gente consegue retornar
+
+127
+00:11:33,920 --> 00:11:41,750
+a essa informação caso das chaves que foram gerados então só eu vou colocar aqui vou colocar aqui um
+
+128
+00:11:41,740 --> 00:11:44,590
+ano de calção diferente vou colocar o SQL pra cá.
+
+129
+00:11:44,690 --> 00:11:46,320
+Pronto assim fica tudo visível.
+
+130
+00:11:46,580 --> 00:11:53,900
+Então crer que o meu preparo esteja somente a partir da conexão que ele passei o SQL pedi para ele retornar
+
+131
+00:11:53,980 --> 00:11:55,180
+a Chaves.
+
+132
+00:11:55,190 --> 00:12:01,770
+E agora que eu vou precisar fazer essa tacada um dos atributos que eu recebi como parâmetro um desses
+
+133
+00:12:01,770 --> 00:12:09,210
+três meses pra isso eu vou criar aqui um método que eu vou colocar como sendo privado.
+
+134
+00:12:10,220 --> 00:12:14,090
+Esse método não vai retornar nada eu vou colocar aqui por exemplo adicionar
+
+135
+00:12:16,130 --> 00:12:25,130
+atributos ele vai receber como parâmetro para testemunhas e vou passar pra cá
+
+136
+00:12:27,910 --> 00:12:40,660
+uma rede objetos então objetos e vou passar aqui os atributos que outros pronto a partir desse método
+
+137
+00:12:40,660 --> 00:12:44,150
+o qual eu trabalho aqui vai sei deu certo.
+
+138
+00:12:44,220 --> 00:12:51,430
+Eu até quebrar aqui também esse método a ideia vou chamar esse método aqui ao adicionar atributos passam
+
+139
+00:12:51,430 --> 00:12:58,940
+nos atributos e o estreitamento e aqui dentro eu vou fazer um forró em cima desses atributos então vai
+
+140
+00:12:58,940 --> 00:13:05,720
+ter que objeto eu chamar que atributo no singular vai ter comunicado cada um dos atributos no plural
+
+141
+00:13:06,190 --> 00:13:15,710
+e aqui dentro você tá no estreitamento então fazer se esteticamente do ponto 7 string em 7 de 7 qualquer
+
+142
+00:13:15,710 --> 00:13:22,130
+tipo de atributo que você tenha passado nesse caso como os atributos ou trabalhando de forma genérica.
+
+143
+00:13:22,130 --> 00:13:29,960
+Eu vou fazer um trechinho pra fazer o seguinte esse atributo que é do tipo Hobbes Object é uma instância
+
+144
+00:13:30,330 --> 00:13:31,190
+de strings.
+
+145
+00:13:31,640 --> 00:13:39,350
+Então significa que nesse caso eu vou querer ser a tal string ou precisado do parâmetro do Index que
+
+146
+00:13:39,350 --> 00:13:45,570
+eu não sei ainda e vou passar aqui exatamente o atributo pra ser acertado no meu entendimento.
+
+147
+00:13:46,040 --> 00:13:52,250
+Então pra eu ter que o Index com a ordem que você passou vai ser a mesma olha que eu vou citar os atributos
+
+148
+00:13:52,340 --> 00:14:00,890
+eu vou criar aqui um valor inteiro que vai ser o sim começando com um e pra cada vez que ele percorreu
+
+149
+00:14:00,890 --> 00:14:04,380
+o foco eu vou fazer um sim mais e mais.
+
+150
+00:14:04,940 --> 00:14:13,480
+Então aqui eu vou passar com o ID que é o segundo primeiro parâmetro nesse método eu vou passar li que
+
+151
+00:14:13,490 --> 00:14:18,530
+o segundo vai ser o próprio atributo e a última coisa que a gente precisa fazer como esse atributo aqui
+
+152
+00:14:18,530 --> 00:14:25,020
+é um objeto e eu sei que ele é uma instância de string então eu vou criar aqui um cachimbo colocando
+
+153
+00:14:25,020 --> 00:14:30,890
+ele para fazer um teste pra string e pra cada tipo de atributo eu preciso fazer exatamente a mesma coisa
+
+154
+00:14:30,890 --> 00:14:43,310
+que é por exemplo Deus Ex e eu vou colocar esse atributo fou uma instância de muita gente dizendo Eu
+
+155
+00:14:43,310 --> 00:14:47,280
+vou agora chamar a mesma coisa aqui de cima embaixo.
+
+156
+00:14:47,450 --> 00:14:49,770
+Só que acertando certinho.
+
+157
+00:14:50,490 --> 00:14:59,100
+E aqui eu vou citar um caso que é o tipo de objeto então alterar o atributo converter pra inteiro está
+
+158
+00:14:59,230 --> 00:15:05,990
+no site onde aquele tá dando problema ainda porque esse método lança o site strings certinho que ele
+
+159
+00:15:05,990 --> 00:15:13,010
+lança essa ação do tipo SQL recebe então no seu lançar e vai parar de dar problema.
+
+160
+00:15:13,010 --> 00:15:18,850
+Em outras palavras o que esse metro está fazendo é adicionar os atributos que você passou aqui ou a
+
+161
+00:15:18,850 --> 00:15:25,890
+lista de atributos adicionado dentro do estritamente a partir de cada tipo de atributo que foi passada
+
+162
+00:15:25,930 --> 00:15:28,650
+eu passei monstrinho que ele vai cair no site.
+
+163
+00:15:28,760 --> 00:15:34,520
+Eu passei o item já ele caiu no site se eu passar um longo ele vai cair no site longo e se eu passar
+
+164
+00:15:34,520 --> 00:15:39,090
+um bule ele vai sacar no site Bully e assim vai no dente.
+
+165
+00:15:39,100 --> 00:15:44,240
+Coisas do tipo tá aqui eu só vou suportar esses dois que é o que nós vamos usar uma vez feito isso a
+
+166
+00:15:44,240 --> 00:15:49,520
+gente já vai aqui pros finalmente que é executar a nossa.
+
+167
+00:15:49,520 --> 00:16:00,590
+Nosso esteticamente ponto aqui equipes aqui os updates deles uma vez que ele executou e o valor foi
+
+168
+00:16:00,590 --> 00:16:07,850
+maior do que zero ou seja ele tem resultado e agora a gente vai obter o resultado 7 a partir das chaves
+
+169
+00:16:07,850 --> 00:16:13,220
+que foram retornados então que só um exemplo qualquer acerto de inclusão que no final essa inclusão
+
+170
+00:16:13,220 --> 00:16:15,740
+retorna à medida que foi incluída.
+
+171
+00:16:15,740 --> 00:16:24,350
+Então por exemplo eu vou pegar o resumo do site então pegar PH resultado como sendo o resultado e aqui
+
+172
+00:16:24,440 --> 00:16:33,840
+eu vou pegar parte dos menos gigante General então ele quis que esse gatinho Generation X era do tipo
+
+173
+00:16:33,850 --> 00:16:42,100
+result 7 e uma vez que eu tenho o resultado ao fazer um outro taxam se o resultado.
+
+174
+00:16:42,100 --> 00:16:42,840
+Ponto.
+
+175
+00:16:42,980 --> 00:16:49,160
+Marketing existe exigindo ou seja ele está presente aí sim eu vou ter a chave gerada então vou retornar
+
+176
+00:16:49,700 --> 00:16:51,010
+o resultado.
+
+177
+00:16:51,020 --> 00:17:00,260
+Ponto gatinho por exemplo Good Eu vou pagar a primeira coluna que é exatamente o que foi retornado a
+
+178
+00:17:00,260 --> 00:17:01,490
+partir da minha consulta.
+
+179
+00:17:01,490 --> 00:17:09,440
+Caso contrário caso ele não entre em desses cenários aqui eu vou retornar que a chave é menos um e eventualmente
+
+180
+00:17:09,440 --> 00:17:14,390
+ele pode cair aqui mas quem que sabe que vai retornar ao erro de plantar.
+
+181
+00:17:14,690 --> 00:17:21,200
+Então basicamente o que eu fiz foi criar um deal só pra encapsular digamos assim ao processo de inclusão
+
+182
+00:17:21,210 --> 00:17:23,090
+eu não tenho cabo somando muito por quê.
+
+183
+00:17:23,090 --> 00:17:28,970
+Porque eu ainda vou precisar passar o SQL e ainda vou precisar além de atributos mais eu não preciso
+
+184
+00:17:28,970 --> 00:17:36,050
+mais me preocupar em criar uma conexão e criar um estreitamento Setal os dados no estético e interceptar
+
+185
+00:17:36,050 --> 00:17:37,260
+os atributos.
+
+186
+00:17:37,280 --> 00:17:42,770
+Eu já estou fazendo isso de forma encapsulado dentro do metro me incluir é mais ou menos isso que é
+
+187
+00:17:42,770 --> 00:17:43,980
+o trabalho dela.
+
+188
+00:17:44,000 --> 00:17:49,970
+A ideia é pegar esse código repetitivo esse código e infra estrutura para que você possa colocar o máximo
+
+189
+00:17:49,970 --> 00:17:52,190
+possível na regra de negócio.
+
+190
+00:17:52,190 --> 00:17:57,150
+Normalmente o ideal ele acaba tendo um nível de encapsulamento.
+
+191
+00:17:57,290 --> 00:18:03,360
+Ele te permite um nível de abstração ainda maior algo como eu falei pra vocês se passo um objeto dentro
+
+192
+00:18:03,360 --> 00:18:08,340
+de um metro ele faz tudo que precisa pra pegar aquele objeto e mandar para o banco de dados aqui onde
+
+193
+00:18:08,360 --> 00:18:14,120
+eu estou trabalhando com SQL e com atributos só como exemplo pra mostrar pra vocês vão fazer o seguinte
+
+194
+00:18:14,120 --> 00:18:19,400
+para não ficar muito longo eu vou deixar pra testar esse ou na próxima aula para a gente ter certeza
+
+195
+00:18:19,400 --> 00:18:23,330
+que a gente não fez nada errado e habitualmente coloca alguma correção necessária.
+
+196
+00:18:23,540 --> 00:18:26,720
+Então fique por aqui na próxima aula a gente testa o grau de espera lá.

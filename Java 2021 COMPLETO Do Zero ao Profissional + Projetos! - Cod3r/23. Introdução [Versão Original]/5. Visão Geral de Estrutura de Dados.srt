@@ -1,0 +1,659 @@
+1
+00:00:00,180 --> 00:00:06,990
+Agora que nós acabamos de ver uma visão geral sobre a questão do algorítimo agora nós vamos ver sobre
+
+2
+00:00:07,050 --> 00:00:12,440
+estruturas de dados que é um par digamos assim muito forte no mundo da programação.
+
+3
+00:00:12,450 --> 00:00:18,690
+Você Trabalhar com algoritmos que são a sua sequência de passos e essa sequência de passos vai trabalhar
+
+4
+00:00:19,040 --> 00:00:20,700
+com os dados.
+
+5
+00:00:20,740 --> 00:00:25,740
+E a primeira pergunta que eu quero fazer pra você é o que são as estruturas de dados.
+
+6
+00:00:26,580 --> 00:00:28,800
+Será que a estrutura de dados.
+
+7
+00:00:28,830 --> 00:00:36,880
+Por exemplo o número dois será aquela estrutura de dados por exemplo o número cresce ou será que é uma
+
+8
+00:00:36,880 --> 00:00:40,720
+sequência por exemplo 1 2 3.
+
+9
+00:00:40,740 --> 00:00:42,220
+Isso é o futuro da idade.
+
+10
+00:00:42,250 --> 00:00:46,240
+Será que a estrutura de dados é por exemplo uma letra ou um nome.
+
+11
+00:00:47,080 --> 00:00:48,980
+Então o que é uma estrutura de dados.
+
+12
+00:00:49,060 --> 00:00:50,710
+Você sabe responder essa pergunta.
+
+13
+00:00:51,040 --> 00:00:57,370
+Então a primeira coisa que eu quero deixar claro para vocês é o seguinte a estrutura de dados são diferentes
+
+14
+00:00:57,940 --> 00:00:58,660
+dos dados.
+
+15
+00:00:59,200 --> 00:01:00,940
+Então uma coisa é você ter o dado.
+
+16
+00:01:00,980 --> 00:01:03,910
+Outra coisa você tem a estrutura dos dados.
+
+17
+00:01:03,920 --> 00:01:06,270
+Para que servem as estruturas de dados.
+
+18
+00:01:06,400 --> 00:01:11,890
+Eu posso dizer com tranquilidade que a estrutura de dados ela serve para organizar os dados ou seja
+
+19
+00:01:11,890 --> 00:01:20,240
+para dar regras aos dados e para administrar assim para controlar como os dados eles são organizados
+
+20
+00:01:20,240 --> 00:01:25,800
+ou como eles são definidos as regras que esses dados têm que seguir para que ele possa se encaixar essa
+
+21
+00:01:25,810 --> 00:01:26,740
+estrutura.
+
+22
+00:01:26,800 --> 00:01:33,110
+Em outras palavras ser redundante a estrutura de dados ela dá estrutura aos dados.
+
+23
+00:01:33,160 --> 00:01:34,270
+Nada mais do que isso.
+
+24
+00:01:34,570 --> 00:01:38,640
+Então pensamos nessa idade da estrutura que define regras.
+
+25
+00:01:38,690 --> 00:01:45,530
+Há um conjunto de dados aqui algumas frases bem simples a gente vai conseguir nessas frase extrair alguns
+
+26
+00:01:45,530 --> 00:01:47,490
+dos futuros dados importantes.
+
+27
+00:01:47,650 --> 00:01:51,900
+Por exemplo saiu a lista dos aprovados.
+
+28
+00:01:51,970 --> 00:01:57,580
+Você consegue dentro desse desse dessa frase simples entender que ali dentro tem uma estrutura de dados
+
+29
+00:01:57,580 --> 00:02:00,070
+importante que é a lista.
+
+30
+00:02:00,070 --> 00:02:06,620
+Ou seja quando você disse que saiu a lista dos aprovados você tem uma lista de nomes você consegue dali
+
+31
+00:02:06,610 --> 00:02:12,740
+inferir algumas coisas como por exemplo que os dados vão ser listados em determinada sequência.
+
+32
+00:02:12,760 --> 00:02:17,610
+Muito provavelmente essa lista ela pode estar ordenada então dentro de uma lista.
+
+33
+00:02:17,610 --> 00:02:22,980
+Você tem um conceito de sequência muito claras e por ordem alfabética.
+
+34
+00:02:23,020 --> 00:02:27,520
+às vezes é até pela própria nota do candidato que está nessa lista de aprovados.
+
+35
+00:02:27,520 --> 00:02:34,420
+Então você percebe que a lista ela dá se informa o dado pela estrutura esses vários candidatos em uma
+
+36
+00:02:34,420 --> 00:02:40,600
+sequência seja ordenada ou desordenada mas via de regra ela acaba sendo ordenada que no caso a lista
+
+37
+00:02:40,600 --> 00:02:46,230
+de candidatos seguindo algum critério seja ordem alfabética ou seja ordem por pontuação.
+
+38
+00:02:46,240 --> 00:02:50,250
+Nesse caso você tem sim uma estrutura que dá forma ao dado.
+
+39
+00:02:50,270 --> 00:02:56,440
+Outra frase que a gente também pode extrair uma estrutura de dados importante é a fila do banco está
+
+40
+00:02:56,440 --> 00:02:57,080
+imensa.
+
+41
+00:02:57,940 --> 00:03:03,960
+Então quando você pensa em fila você consegue imaginar as regras envolvidas em uma fila.
+
+42
+00:03:04,000 --> 00:03:09,790
+é algo muito natural e do cotidiano da gente se você chega num banco e percebe que existe uma fila.
+
+43
+00:03:09,790 --> 00:03:10,900
+O que é que você faz.
+
+44
+00:03:10,900 --> 00:03:12,750
+Você vai para o último lugar da fila.
+
+45
+00:03:12,970 --> 00:03:19,270
+Então essas regras que estão embutidas no conceito de fila pra gente é muito natural é um conceito universal
+
+46
+00:03:19,270 --> 00:03:22,600
+em qualquer lugar do mundo que você vai às regras e mais ou menos parecidas.
+
+47
+00:03:22,600 --> 00:03:29,070
+Então você chega num banco tem uma fila pré estabelecido quer que você faz você chega na última posição.
+
+48
+00:03:29,090 --> 00:03:34,530
+Existe aquela regra de o primeiro que chegou será o primeiro que vai vai ser atendido.
+
+49
+00:03:34,690 --> 00:03:39,340
+E aí o segundo vai ser logo depois o primeiro terceiro e assim sucessivamente.
+
+50
+00:03:39,340 --> 00:03:42,520
+O primeiro a chegar é o primeiro a sair da fila.
+
+51
+00:03:42,520 --> 00:03:49,090
+Então você percebe nesse cenário que existem regras você não pode simplesmente chegar no banco a não
+
+52
+00:03:49,090 --> 00:03:51,080
+ser que você tenha uma prioridade.
+
+53
+00:03:51,140 --> 00:03:56,080
+Todo mundo fala no caso de uma pessoa que tem preferência mas uma fila normal e você chega.
+
+54
+00:03:56,080 --> 00:04:01,060
+Você não pode simplesmente chegar lá e pra frente na fila porque ele me deu vontade de fazer isso porque
+
+55
+00:04:01,060 --> 00:04:08,390
+existem regras e essas regras ela é dada pela própria estrutura que a fila implementa ali dentro do
+
+56
+00:04:08,410 --> 00:04:09,380
+lugar onde você está.
+
+57
+00:04:09,700 --> 00:04:12,990
+Existe essa estrutura dentro do computador a fila exige.
+
+58
+00:04:13,120 --> 00:04:17,410
+Ela também é uma estrutura de dados ou seja ela dá forma aos dados.
+
+59
+00:04:17,410 --> 00:04:23,120
+No caso específico do exemplo do banco de dados a fila está organizada são as pessoas.
+
+60
+00:04:23,170 --> 00:04:29,570
+Cada pessoa tem sua própria posição na fila e à medida que a fila foi esvaziado ela vai andando.
+
+61
+00:04:29,620 --> 00:04:33,460
+O primeiro sai o segundo passo é o primeiro e assim sucessivamente.
+
+62
+00:04:33,460 --> 00:04:38,430
+Cada um vai avançando a posição até que chega a sua vez de ser atendido.
+
+63
+00:04:38,440 --> 00:04:39,850
+Você está na posição número um.
+
+64
+00:04:39,850 --> 00:04:46,530
+Em primeiro lugar na fila você é chamado e aí sim você sai da fila para ser atendido mas nota que existe
+
+65
+00:04:46,540 --> 00:04:53,640
+sim a ideia de estrutura existe sim a ideia de organização que é trazida por essa estrutura de dados
+
+66
+00:04:53,650 --> 00:04:56,170
+tanto no caso da fila como no caso da lista.
+
+67
+00:04:56,170 --> 00:04:58,810
+Também tinha a Caixa BI estrutural os dados.
+
+68
+00:04:58,830 --> 00:05:04,240
+Terceiro exemplo uma frase também muito comum que a gente escuta que também traz consigo o estrutura
+
+69
+00:05:04,240 --> 00:05:12,210
+de dados importantes e tenho uma pilha de livros para ler ou seja uma pilha de livros também remete
+
+70
+00:05:12,290 --> 00:05:13,950
+a um futuro de dados.
+
+71
+00:05:13,970 --> 00:05:15,250
+O caso a pilha.
+
+72
+00:05:15,250 --> 00:05:16,510
+Qual é a regra da pilha.
+
+73
+00:05:16,510 --> 00:05:23,290
+Você vai colocar um livro sobre o outro colocado em uma pilha de livros e o último livro que está no
+
+74
+00:05:23,290 --> 00:05:26,450
+topo da pilha é o primeiro que sai.
+
+75
+00:05:26,560 --> 00:05:30,040
+Claro que você pode suspender os livros e puxar um do meio.
+
+76
+00:05:30,250 --> 00:05:38,150
+Mas a regra básica entrou e vai empilhando os livros o primeiro o que está em cima da pilha.
+
+77
+00:05:38,260 --> 00:05:41,910
+Então o primeiro a entrar é o último a sair.
+
+78
+00:05:41,920 --> 00:05:46,720
+Funciona meio que ao contrário da fila na fila o primeiro que é o primeiro que sai na pilha o primeiro
+
+79
+00:05:46,720 --> 00:05:47,890
+que entra.
+
+80
+00:05:47,890 --> 00:05:52,600
+Ele vai empilhando vai ser o último que sai você tem que mudar o topo da fila vai tirar vai tirando
+
+81
+00:05:52,600 --> 00:05:56,840
+vai tirando até que você volta para o primeiro da pilha.
+
+82
+00:05:56,980 --> 00:06:01,980
+é tiro certo mas a pilha também remete a estrutura de dados.
+
+83
+00:06:01,980 --> 00:06:06,180
+Então quando você coloca os dados dentro de uma pilha vai seguir essa regra.
+
+84
+00:06:06,190 --> 00:06:09,170
+O primeiro a entrar é o último a sair.
+
+85
+00:06:09,220 --> 00:06:15,250
+Funciona como o contrário da fila mas também é uma estrutura que traz organização aos dados.
+
+86
+00:06:15,250 --> 00:06:17,730
+Seguindo o pouco você tem outros exemplos.
+
+87
+00:06:17,740 --> 00:06:24,310
+Várias estruturas de dados disponíveis como por exemplo você tem estrutura de árvore pega por exemplo
+
+88
+00:06:24,310 --> 00:06:26,040
+o seu computador e abri la.
+
+89
+00:06:26,060 --> 00:06:32,770
+O Windows Explorer faire ou o gerenciador de arquivos no seu sistema operacional você vai perceber que
+
+90
+00:06:32,860 --> 00:06:38,050
+o sistema de arquivos é uma grande árvore onde você tem o seu disco rígido.
+
+91
+00:06:38,050 --> 00:06:39,960
+Você tem as pastas dentro da parte.
+
+92
+00:06:39,960 --> 00:06:42,780
+Você tem outras pastas entre essas partes.
+
+93
+00:06:42,780 --> 00:06:49,290
+Para ter um conjunto de arquivos e mais pastas você vai navegando e você vê aquilo como um grande árvore
+
+94
+00:06:49,290 --> 00:06:50,980
+ou uma coisa da outra.
+
+95
+00:06:50,980 --> 00:06:55,120
+Você tem uma raiz a partir da raiz no caso do computador.
+
+96
+00:06:55,180 --> 00:06:56,440
+O disco rígido.
+
+97
+00:06:56,440 --> 00:06:58,290
+Você começa a criar.
+
+98
+00:06:58,450 --> 00:07:01,490
+Esses anos podem ter mais mouse dentro desses.
+
+99
+00:07:01,520 --> 00:07:05,280
+Você pode ter folhas no caso a folha e os arquivos.
+
+100
+00:07:05,340 --> 00:07:07,600
+Esses anos seriam as suas pastas.
+
+101
+00:07:07,600 --> 00:07:10,390
+Você pode ter mais coisas lá dentro está certo.
+
+102
+00:07:10,690 --> 00:07:12,900
+Então você tem por exemplo estruturas de tabela.
+
+103
+00:07:12,910 --> 00:07:19,750
+Você vai para a planilha que você organiza os seus dados de uma forma tubular linhas e colunas também
+
+104
+00:07:19,770 --> 00:07:22,000
+um futuro de dados bastante importantes.
+
+105
+00:07:22,000 --> 00:07:25,490
+Você tem outras estruturas clássicas digamos assim.
+
+106
+00:07:25,870 --> 00:07:30,670
+Além dessas estruturas que eu citei existem muitas outras estruturas extremamente importantes.
+
+107
+00:07:30,670 --> 00:07:36,450
+Avançando um pouco mais vou falar um pouquinho mais em estruturas básicas de dados.
+
+108
+00:07:36,460 --> 00:07:43,840
+Lembro que no começo eu falei sobre inove e eu falei sobre a letra e eu falei sobre o símbolo que eu
+
+109
+00:07:43,840 --> 00:07:49,820
+falei sobre o número 9 e ponto 25 ou seja todos eles são dados.
+
+110
+00:07:50,290 --> 00:07:51,760
+Mas existe algo.
+
+111
+00:07:51,880 --> 00:07:58,030
+Essas estruturas básicas que regem o comportamento desses dados que eu citei lá no começo da aula eu
+
+112
+00:07:58,030 --> 00:08:02,460
+posso citar por exemplo os números inteiros números inteiros e um estrutura de dados.
+
+113
+00:08:02,460 --> 00:08:07,900
+Sim ela tem um conjunto de regras que definem muito bem o que é um número inteiro.
+
+114
+00:08:07,900 --> 00:08:12,130
+Então 2 25 143.
+
+115
+00:08:12,130 --> 00:08:18,730
+Todos esses exemplos são dados que fazem parte de uma estrutura de dados chamada inteiras ou seja a
+
+116
+00:08:18,730 --> 00:08:22,530
+estrutura inteira define regras organiza o dado.
+
+117
+00:08:22,570 --> 00:08:29,550
+E aí você a partir dessa estrutura você pode tirar vários exemplos de dados que respeitam você se encaixam
+
+118
+00:08:29,560 --> 00:08:30,690
+nessa estrutura.
+
+119
+00:08:30,770 --> 00:08:35,240
+Eu tenho por exemplo números reais que são números que têm casas decimais.
+
+120
+00:08:35,320 --> 00:08:41,740
+Esse exemplo de números reais também é exemplo de uma estrutura de dados os números reais.
+
+121
+00:08:42,070 --> 00:08:46,920
+Então um novo ponto do 25 seria um exemplo que se encaixa dentro dos números reais.
+
+122
+00:08:46,930 --> 00:08:52,480
+E aí você tem letras por exemplo que tem um conjunto de símbolos lá pré definidos então essas estruturas
+
+123
+00:08:52,480 --> 00:08:56,950
+básicas elas são essenciais dentro de qualquer linguagem de programação.
+
+124
+00:08:56,980 --> 00:09:03,010
+Elas são fundamentais para que você desenvolva suas estruturas mais complexas a partir dessas estruturas
+
+125
+00:09:03,010 --> 00:09:07,270
+básicas como letras números verdadeiro ou falso.
+
+126
+00:09:07,270 --> 00:09:12,010
+Todas essas estruturas elas te dão uma base fundamental para que você consiga gerar estruturas de dados
+
+127
+00:09:12,010 --> 00:09:18,730
+mais complexas e a partir dessas estruturas mais complexas você consegue digamos assim resolver problemas
+
+128
+00:09:18,730 --> 00:09:19,910
+mais desafiadores.
+
+129
+00:09:19,930 --> 00:09:22,780
+Durante o curso eu vou mostrar pra vocês essas estruturas.
+
+130
+00:09:22,780 --> 00:09:28,260
+No começo eu vou mostrar as estruturas básicas ou as estruturas primitivas que chamo dentro do Java.
+
+131
+00:09:28,280 --> 00:09:34,020
+Mostrar todas elas e explicar de forma bem tranquila cada uma delas e como elas se comportam lendo Java
+
+132
+00:09:34,250 --> 00:09:40,730
+e mais na frente no curso eu também vou falar dessas estruturas mais complexas como por exemplo listas
+
+133
+00:09:40,930 --> 00:09:45,640
+filas conjuntos e essas estruturas que eu citei aqui durante a aula.
+
+134
+00:09:45,640 --> 00:09:51,910
+Outra coisa importante é que os dados dentro de um programa de computador eles são organizados em variáveis
+
+135
+00:09:51,910 --> 00:09:59,180
+e constantes os seus dados como por exemplo números inteiros números reais letras variáveis verdadeiro
+
+136
+00:09:59,210 --> 00:10:03,110
+falso elas são armazenadas em constantes e variáveis.
+
+137
+00:10:03,160 --> 00:10:08,790
+Vai ter uma aula só para falar sobre isso mas adiantar um pouquinho você cada.
+
+138
+00:10:08,920 --> 00:10:15,430
+Dentro da linguagem Java especificamente quando você define uma variável ou constante ela tem que estar
+
+139
+00:10:15,760 --> 00:10:18,790
+digamos assim amarrada alguma estrutura de dados.
+
+140
+00:10:18,790 --> 00:10:25,260
+Então por exemplo quando você cria uma variável ou essa variável inteira ou essa variável representam
+
+141
+00:10:25,260 --> 00:10:26,490
+uma fila.
+
+142
+00:10:26,500 --> 00:10:29,260
+Essa variável representa uma lista.
+
+143
+00:10:29,260 --> 00:10:36,910
+Essa variável representa um número real e uma vez que ela é criada é a estrutura de dados.
+
+144
+00:10:37,030 --> 00:10:38,970
+Ela não pode mudar dentro do seu programa.
+
+145
+00:10:39,130 --> 00:10:44,530
+é tão importante como se cria uma variável você já de cara com a estrutura de dados que aquela variável
+
+146
+00:10:44,530 --> 00:10:47,500
+deve respeitar é a mesma coisa também para a constante.
+
+147
+00:10:47,510 --> 00:10:53,320
+A diferença obviamente é que variável ela muda durante a execução do seu programa é uma constante.
+
+148
+00:10:53,320 --> 00:10:58,420
+Uma vez definida ela vai permanecer a mesma até o final do seu programa.
+
+149
+00:10:58,420 --> 00:11:03,530
+Também é um tema que eu vou falar mais na frente e suas variáveis elas vão sofrer operações durante
+
+150
+00:11:03,760 --> 00:11:10,660
+seu programa como por exemplo você vai somar subtrair operações aritméticas você vai fazer operações
+
+151
+00:11:10,660 --> 00:11:11,440
+lógicas.
+
+152
+00:11:11,440 --> 00:11:15,700
+Você vai fazer operações relacionais e comparar uma variável com a outra.
+
+153
+00:11:16,000 --> 00:11:19,260
+Então tudo isso gira em torno dos seus dados.
+
+154
+00:11:19,270 --> 00:11:25,660
+Então os dados eles são extremamente importantes assim como é a seqüência de passos que vai transformar
+
+155
+00:11:25,660 --> 00:11:26,450
+esses dados.
+
+156
+00:11:26,450 --> 00:11:32,080
+Eu já falei isso na loteria ou você tem lá o seu algoritmo com uma seqüência de passos esse algoritmo
+
+157
+00:11:32,440 --> 00:11:39,220
+ele recebe dados de entrada e retorna com algum dado importante que você percebe que existe uma parceria
+
+158
+00:11:39,220 --> 00:11:46,030
+muito forte entre os dados as estruturas de dados e os dados que essas estruturas regem digamos assim.
+
+159
+00:11:46,230 --> 00:11:48,340
+é o passo a passo que vai fazer.
+
+160
+00:11:48,350 --> 00:11:55,390
+Pegar esses dados vai fazer o processamento deles é tão importante que a orientação objeto juntou essas
+
+161
+00:11:55,390 --> 00:12:01,900
+duas coisas juntou os dados mais algorítmica é o comportamento uma estrutura só chamou tudo isso de
+
+162
+00:12:01,900 --> 00:12:07,010
+objeto mais tem lá pra frente não vai adiantar muito isso porque pode trazer mais confusão.
+
+163
+00:12:07,150 --> 00:12:13,720
+Então pra finalizar nós temos os dados e as estruturas de dados são duas coisas diferentes as estruturas
+
+164
+00:12:13,720 --> 00:12:20,290
+de dados servem justamente pra trazer a organização trazer um conjunto de regras que os dados e obviamente
+
+165
+00:12:20,410 --> 00:12:25,090
+os dados eles têm que respeitar essas regras que as estruturas de dados impõem.

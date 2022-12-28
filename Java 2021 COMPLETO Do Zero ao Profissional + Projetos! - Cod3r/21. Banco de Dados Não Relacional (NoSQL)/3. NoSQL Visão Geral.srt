@@ -1,0 +1,583 @@
+1
+00:00:00,250 --> 00:00:05,550
+Pessoal nós vamos agora ver os bancos não relacionais ou os bancos ou SQL.
+
+2
+00:00:05,910 --> 00:00:19,670
+Olhando começam por esse termo novo SQL não significa sem SQL e sim modos Only ou seja não apenas SQL.
+
+3
+00:00:20,090 --> 00:00:27,140
+Ou seja os bancos não relacionais podem eventualmente usar SQL ou variações de SQL na hora de consultar
+
+4
+00:00:27,200 --> 00:00:32,000
+os dados na hora de persistir os dados no caso do morro que é o foco desse capítulo.
+
+5
+00:00:32,120 --> 00:00:34,950
+Ele usa um API próprio e depois a gente vai discutir um pouco mais.
+
+6
+00:00:34,960 --> 00:00:41,020
+Nós vamos fazer vários exercícios usando essa apitando para PC os dados para consultar dados.
+
+7
+00:00:41,030 --> 00:00:47,420
+Nós vamos fazer vários exemplos interessantes eu queria mostrar pra vocês aqui uma classificação dos
+
+8
+00:00:47,420 --> 00:00:56,060
+bancos não relacionais em quatro grandes grupos que seriam aqui por exemplo os bancos Xavi falou
+
+9
+00:00:59,160 --> 00:01:08,980
+Nós temos os bancos baseados em documentos nós temos os bancos baseados em gráficos nós temos os bancos
+
+10
+00:01:08,980 --> 00:01:17,400
+baseados em coluna com 100 mil barris em cima desses bancos pegamos alguns exemplos nós temos aqui e
+
+11
+00:01:17,530 --> 00:01:21,190
+disse como sendo um dos exemplos de bancos chave valor.
+
+12
+00:01:21,640 --> 00:01:25,790
+Nós temos o mongo DB que é o que nós que é o foco do nosso capítulo.
+
+13
+00:01:25,870 --> 00:01:31,870
+Então Goebbels é um exemplo de banco baseado no documento banco baseado em coluna nós temos aqui por
+
+14
+00:01:31,870 --> 00:01:39,170
+exemplo o brilho do tempo ou mesmo Cassandra também é um banco super conhecido baseado em coluna de
+
+15
+00:01:39,220 --> 00:01:47,590
+grafo nós temos aqui não fora que também há uma um banco bastante interessante e acima de grave no caso
+
+16
+00:01:47,590 --> 00:01:52,590
+aqui ao mostrando pra vocês charme e valor nós temos a mochila aqui na tela nós temos os lugares que
+
+17
+00:01:52,790 --> 00:01:59,320
+eu coloquei aqui nós temos o DB como sendo um banco baseado em documento leves e um banco de memória
+
+18
+00:01:59,320 --> 00:02:04,720
+que é muito usado para a creche em vez de caixa distribuído e às vezes você tem vários nós acessando
+
+19
+00:02:04,800 --> 00:02:10,750
+uma instância do redes para armazenar por exemplo acessam a aplicação web alguma coisa do tipo então
+
+20
+00:02:11,050 --> 00:02:16,320
+é muito usada então você tem um cache por exemplo para armazenar resultados de consultas que eventualmente
+
+21
+00:02:16,330 --> 00:02:21,670
+você queira colocar dentro de um banco como esse você tem um longo bebê que é geralmente usado nas vamos
+
+22
+00:02:21,670 --> 00:02:26,150
+aprofundar aqui no capítulo O meu foco Ei você tem aqui.
+
+23
+00:02:26,170 --> 00:02:32,260
+Na verdade tem varios vários produtos associados e um deles é um banco de dados é muito voltado para
+
+24
+00:02:32,260 --> 00:02:35,870
+essa questão de organizar os dados como grafo.
+
+25
+00:02:35,890 --> 00:02:42,130
+Então você tem aqui produtos meu Ford aí data base por exemplo que você tem na verdade uma plataforma
+
+26
+00:02:42,130 --> 00:02:46,450
+de grafos pra você digamos assim armazenar os seus dados é muito maravilhados que fala um pouquinho
+
+27
+00:02:46,450 --> 00:02:50,090
+sobre essa questão dos grafos de voltar e nós temos dois exemplos aqui.
+
+28
+00:02:50,100 --> 00:02:57,370
+Bancos baseados em colunas que são Escola Família data base então nós temos o big boss do Google e temos
+
+29
+00:02:57,370 --> 00:03:00,880
+também o Apache Cassandra que também é uma solução bastante usada.
+
+30
+00:03:01,180 --> 00:03:08,080
+Voltando aqui é banco chave valor é fácil você tem uma chave é associar um determinado valor ou documento
+
+31
+00:03:08,390 --> 00:03:14,660
+mas vamos ver que é muito fortemente baseado em dia e isso só no caso do mongo DB o documento documentos
+
+32
+00:03:14,660 --> 00:03:17,050
+seriam deixou depois de entrar um pouco mais.
+
+33
+00:03:17,050 --> 00:03:24,160
+Os Macs baseados em computação e famílias de colonos têm o conceito de que isso é um espaço de chaves
+
+34
+00:03:24,160 --> 00:03:28,630
+digamos assim que seria mais ou menos com um esquema de um banco de dados relacional.
+
+35
+00:03:28,660 --> 00:03:34,010
+Só que o banco não SQL ou seja não SQL era um banco um banco não relacional.
+
+36
+00:03:34,090 --> 00:03:39,690
+Ele é um banco que tem uma flexibilidade maior ou seja essas famílias de colunas têm colunas diferentes.
+
+37
+00:03:39,690 --> 00:03:47,630
+Pode ter a forma de você organizar não é tão amarrado não é tão rígido como é um banco relacional e
+
+38
+00:03:47,680 --> 00:03:53,260
+você tem um banco os baseados em grafos então você tem um grafo como sendo os seus nós e você tem os
+
+39
+00:03:53,260 --> 00:03:54,270
+vértices las.
+
+40
+00:03:54,280 --> 00:04:01,550
+As conexões entre esses nós e as arestas está certo e aí em cima disso você vai organizar os seus dados
+
+41
+00:04:01,780 --> 00:04:03,350
+dados como um grande grafo.
+
+42
+00:04:03,760 --> 00:04:09,620
+E aí você pode pensar esse tipo de banco de dados de grafo é um banco de dados de lixo.
+
+43
+00:04:09,640 --> 00:04:15,730
+Por exemplo vou usar no contexto de uma rede social que é algo que está mais parecido com graves e tem
+
+44
+00:04:15,730 --> 00:04:18,360
+as pessoas com conexões e coisas do tipo.
+
+45
+00:04:18,730 --> 00:04:24,850
+Mas na verdade esse tipo de organização de dados ele pode ser aplicado em muitos negócios inclusive
+
+46
+00:04:24,850 --> 00:04:31,120
+o negócio que aparentemente não caberia nesse formato mas cabe só no exemplo em relação a isso nós temos
+
+47
+00:04:31,120 --> 00:04:41,650
+um a biblioteca do Facebook chamado Graph Kelly que é uma alternativa a soluções e APIs Web Services
+
+48
+00:04:41,650 --> 00:04:44,620
+do tipo flash que é bastante interessante.
+
+49
+00:04:44,620 --> 00:04:50,660
+Você consegue pegar um API por exemplo que não foi modelada como um grafo e organizar os dados em grafos
+
+50
+00:04:50,660 --> 00:04:57,120
+e você conseguir acesso aos nós a partir de um nó em outro a partir de 1 a 1 a consulta Supersimples
+
+51
+00:04:57,310 --> 00:04:59,440
+você consegue uma única requisição.
+
+52
+00:04:59,590 --> 00:05:05,020
+Pegar uma quantidade de dados bem maior do que você seria capaz de pegar no leste no leste você teria
+
+53
+00:05:05,020 --> 00:05:10,690
+que fazer várias aquisições no grafo que você como aquisição consegue pegar quantidade bastante interessante
+
+54
+00:05:10,690 --> 00:05:16,270
+porque os dados são organizados como um grande grafo e a partir de um mapa você consegue chegar em vários
+
+55
+00:05:16,270 --> 00:05:16,690
+outros.
+
+56
+00:05:16,990 --> 00:05:23,080
+Então é bastante interessante entender os tipos de soluções que estão disponíveis de bancos não relacionais
+
+57
+00:05:23,350 --> 00:05:26,190
+para que você consiga olhar o seu problema.
+
+58
+00:05:26,230 --> 00:05:31,120
+Olhar os requisitos do seu sistema e ser capaz de aplicar a melhor solução para o problema que você
+
+59
+00:05:31,120 --> 00:05:31,600
+tem.
+
+60
+00:05:31,750 --> 00:05:39,100
+Diante disso tem uma questão bastante interessante sobre a questão dos bancos Banco relacional vs os
+
+61
+00:05:39,100 --> 00:05:43,170
+bancos não relacional no que diz respeito ao escalonamento.
+
+62
+00:05:43,180 --> 00:05:44,800
+Inicialmente o Twitter.
+
+63
+00:05:44,890 --> 00:05:49,020
+Ele começou usando mais que ele até que chegou o momento que o Twitter não.
+
+64
+00:05:49,040 --> 00:05:52,460
+O que eu mais quero não dava conta do volume de dados no Twitter.
+
+65
+00:05:52,580 --> 00:06:00,250
+E diante disso nós temos um desafio que é escalonar os dados e tornar nossa base de dados robusta o
+
+66
+00:06:00,250 --> 00:06:05,860
+suficiente para atender milhares e milhares ou eventualmente milhões de requisições simultaneamente.
+
+67
+00:06:06,220 --> 00:06:15,010
+Então nós temos qualidade que é o escalonamento vertical vertical versos.
+
+68
+00:06:15,150 --> 00:06:25,340
+O escalonamento horizontal quando você quer o que seria um escalonamento vertical você tem uma máquina
+
+69
+00:06:25,760 --> 00:06:31,730
+com a quantidade de memória quantidade e processador uma quantidade ou uma tecnologia de armazenamento.
+
+70
+00:06:31,730 --> 00:06:34,020
+Por exemplo um HD de disco mesmo.
+
+71
+00:06:34,370 --> 00:06:41,450
+E aí você começa a fazer atualizações nessa máquina pra melhorar a memória melhorar o processador colocar
+
+72
+00:06:41,450 --> 00:06:48,380
+um SSD ou alguma tecnologia de persistência mais poderosa e aí você vai em cima de uma única máquina
+
+73
+00:06:48,770 --> 00:06:53,050
+melhora nessa máquina para atender às demandas que você tem dos dados.
+
+74
+00:06:53,060 --> 00:06:55,940
+Isso é o que você chama de escalonamento vertical.
+
+75
+00:06:55,940 --> 00:07:01,680
+Só que isso tem um limite e o limite chega rápido porque você tem uma única máquina para crescer.
+
+76
+00:07:01,700 --> 00:07:07,600
+Se você chegou no limite da máquina tem que trocar para a máquina mais robusta mais sempre uma máquina.
+
+77
+00:07:07,630 --> 00:07:14,330
+Os bancos relacionais são mais facilmente escalados de forma vertical.
+
+78
+00:07:14,450 --> 00:07:20,570
+Não significa que você não consiga escalar um banco relacional de forma horizontal só que o desafio
+
+79
+00:07:20,570 --> 00:07:25,860
+é muito maior só para vocês terem ideia uma vez eu passo para a reunião com mais de 30 pessoas para
+
+80
+00:07:25,860 --> 00:07:33,120
+a gente discutir estratégias para que a gente consiga esses sim separar os dados em cima desses dados
+
+81
+00:07:33,120 --> 00:07:33,700
+separados.
+
+82
+00:07:33,770 --> 00:07:39,620
+Conseguir colocar um banco de dados relacional em múltiplas instâncias era um órgão na época mas não
+
+83
+00:07:39,620 --> 00:07:45,350
+era tão simples inclusive vieram consultores da hora para ajudar nesse processo porque não é uma tarefa
+
+84
+00:07:45,350 --> 00:07:46,520
+tão trivial.
+
+85
+00:07:46,520 --> 00:07:51,350
+No caso do escalonamento horizontal o banco não não relacionar muito bom.
+
+86
+00:07:51,350 --> 00:07:59,030
+Você consegue separar os seus dados em múltiplas instâncias CET várias máquinas diferentes.
+
+87
+00:07:59,180 --> 00:08:06,280
+Obviamente porque você tem várias máquinas diferentes você acaba tendo um dado replicado em vários nós
+
+88
+00:08:06,290 --> 00:08:09,920
+até porque se o mal desse morrer o dado tem que continuar disponível.
+
+89
+00:08:10,130 --> 00:08:18,430
+Mas o fato é que você consegue de uma forma muito mais interessante e replicar os dados dentro separar
+
+90
+00:08:18,450 --> 00:08:24,590
+seus dados de forma horizontal ou seja em múltiplas máquinas você consegue ter você não tem por exemplo
+
+91
+00:08:24,590 --> 00:08:32,060
+como tem um único banco de dados atendendo à base de dados de outubro por exemplo todos os vídeos indexados
+
+92
+00:08:32,060 --> 00:08:41,240
+todas as descrições as curtidas não curtidas os comentários mas em tudo isso uma única base seria impossível
+
+93
+00:08:41,240 --> 00:08:42,040
+de escalar.
+
+94
+00:08:42,280 --> 00:08:48,390
+E isso dentro de uma única máquina as consultas do Google todas essas soluções são baseadas em soluções
+
+95
+00:08:48,410 --> 00:08:52,930
+armazenamento não estruturados ou seja são bancos não relacionais.
+
+96
+00:08:53,090 --> 00:08:59,390
+E aí é muito importante porque pra escalar soluções para a web dependendo da sua dado da sua demanda
+
+97
+00:08:59,480 --> 00:09:04,910
+você só vai conseguir fazer isso a partir de escalonamento horizontal falam um pouquinho mais sobre
+
+98
+00:09:04,910 --> 00:09:07,230
+um banco dB é só para a gente.
+
+99
+00:09:07,270 --> 00:09:09,030
+Já os encaminhamentos dessa aula.
+
+100
+00:09:09,030 --> 00:09:13,130
+Nós temos um longo bebê que é o que nós vamos aprofundar aqui.
+
+101
+00:09:13,310 --> 00:09:23,010
+é um banco baseado em documento e esse documento no caso que é o som e a forma.
+
+102
+00:09:23,110 --> 00:09:25,610
+Só que o S.
+
+103
+00:09:26,150 --> 00:09:34,000
+Isso é esse aí soa exatamente o formato que nós vamos armazenar dentro do Mundo B fala um pouco de organização
+
+104
+00:09:34,310 --> 00:09:35,200
+o mongo DB.
+
+105
+00:09:35,230 --> 00:09:41,440
+Ele tem o Data B isso é um banco de dados como também em outros bancos tem lá o esquema o banco ou o
+
+106
+00:09:41,440 --> 00:09:43,570
+Data BC banco de dados.
+
+107
+00:09:43,690 --> 00:09:48,640
+Você pode ter dentro de uma única instância do mundo DB vários banco de dados então você pode ter um
+
+108
+00:09:48,790 --> 00:09:54,450
+banco de dados para aplicação a aplicação B a aplicação C você dentro de um banco de dados.
+
+109
+00:09:54,460 --> 00:10:02,340
+Você tem as suas colecções Collection que são as coleções que serão equivalentes às tabelas no banco
+
+110
+00:10:02,340 --> 00:10:05,490
+de dados relacional e dentro das Collection.
+
+111
+00:10:05,490 --> 00:10:13,770
+Você tem os documentos os docs que seriam relativos tuplas ou os registros ou as linhas de uma tabela
+
+112
+00:10:13,770 --> 00:10:15,690
+de banco de dados relacional.
+
+113
+00:10:15,690 --> 00:10:18,060
+Então você tem um bebê que você tem as Collection.
+
+114
+00:10:18,060 --> 00:10:19,970
+Você tem os documentos.
+
+115
+00:10:20,160 --> 00:10:26,140
+Muito importante falar que o mongo DB é um banco sem esquema
+
+116
+00:10:30,060 --> 00:10:30,530
+certo.
+
+117
+00:10:30,540 --> 00:10:36,950
+é um banco que não tem esquema você consegue fazer coisas que no banco relacional seria impossível.
+
+118
+00:10:36,960 --> 00:10:43,980
+Por exemplo você pode inserir dados numa coleção que existe no momento que você insere o primeiro registo
+
+119
+00:10:43,980 --> 00:10:48,350
+o primeiro documento lá ele automaticamente cria aquela coleção.
+
+120
+00:10:48,390 --> 00:10:54,930
+Você consegue ter dentro de uma única coleção documentos que tenha atributos diferentes você consegue
+
+121
+00:10:54,930 --> 00:11:01,500
+dentro de um único documento ter vários relacionamentos por exemplo e Estado com várias cidades a cidades
+
+122
+00:11:01,500 --> 00:11:07,230
+com empresas tudo dentro de um único documento você consegue fazer isso no momento que você começa a
+
+123
+00:11:07,230 --> 00:11:12,660
+ter necessidade de quebrar muito esses documentos e tem relação entre esses documentos.
+
+124
+00:11:12,660 --> 00:11:18,990
+Você já começa a ligar o sinal de alerta pensando será que essa é uma solução para um banco relacional.
+
+125
+00:11:19,080 --> 00:11:21,270
+Eu devo continuar no banco não relacional.
+
+126
+00:11:21,420 --> 00:11:25,170
+Então você tem que entender as vantagens e as desvantagens de cada um.
+
+127
+00:11:25,360 --> 00:11:30,450
+Para a partir disso saber escolher se você vai para um mundo relacional se você vai para um mundo não
+
+128
+00:11:30,450 --> 00:11:35,220
+relacional ou se você vai usar uma solução mista que une o melhor dos dois mundos.
+
+129
+00:11:35,250 --> 00:11:38,270
+E no caso do meu bebê nós não usamos SQL.
+
+130
+00:11:38,400 --> 00:11:44,210
+Ele tem uma API embora seja uma API simples e fácil de persistir.
+
+131
+00:11:44,370 --> 00:11:49,170
+Fácil de atualizar faço e excluir registros mais.
+
+132
+00:11:49,260 --> 00:11:53,940
+Se você começar a separar muito os dados de documentos diferentes para você conseguir obter aquilo que
+
+133
+00:11:53,940 --> 00:11:56,960
+você quer não será uma tarefa tão fácil assim.
+
+134
+00:11:56,960 --> 00:12:05,250
+Certo Eu acho a ideia intuitiva mas na minha opinião o SQL é mais fácil de ser entendido do que a própria
+
+135
+00:12:05,250 --> 00:12:05,920
+mídia API.
+
+136
+00:12:05,920 --> 00:12:12,820
+Como você começa aí pra consultas agregadas dentro do mundo do jogo você começa a ter pay per la de
+
+137
+00:12:12,840 --> 00:12:17,640
+agregação e isso começa a complicar um pouco mais a sua vida ele vai ver alguns exemplos aqui durante
+
+138
+00:12:17,640 --> 00:12:23,580
+o capítulo mas o fato é que se você usar o jogo para aquilo que ele é bom para tirar fotos você usar
+
+139
+00:12:23,580 --> 00:12:29,340
+o banco relacional para aquilo que ele é bom para aquilo que é forte você vai ter digamos assim o melhor
+
+140
+00:12:29,340 --> 00:12:34,870
+dos dois mundos trabalhando em favor do seu negócio a favor da solução do problema que você quer resolver.
+
+141
+00:12:34,870 --> 00:12:37,450
+Isso é o que mais interessa aproximá lo.
+
+142
+00:12:37,460 --> 00:12:42,930
+Vou contar uma pequena história de ódio problema que eu passei e que eu entendo ser um problema muito
+
+143
+00:12:42,930 --> 00:12:49,310
+bom pra ser usado num banco relacional juntamente com o banco não relacional só pra vocês terem mais
+
+144
+00:12:49,310 --> 00:12:54,670
+ou menos o que eles querem dizer com relação usar o melhor dos dois mundos na próxima aula aconteça
+
+145
+00:12:55,260 --> 00:13:00,590
+esse problema e vocês vão ter mais a mesma ideia do como seria o uso disso na prática.
+
+146
+00:13:00,630 --> 00:13:01,680
+Eu espero na próxima aula.

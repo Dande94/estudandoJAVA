@@ -1,0 +1,415 @@
+1
+00:00:00,240 --> 00:00:07,790
+Só agora nós vamos ver uma outra interface funcional que vai ser o consumidor ou o consumidor certo.
+
+2
+00:00:07,800 --> 00:00:15,540
+Essa interface aqui representa uma operação que aceita um único parâmetro e não retorna nada de sete
+
+3
+00:00:15,540 --> 00:00:22,590
+ou oito anos novo exaltou seja não retorna nada é a função que tenho VOD como retorno.
+
+4
+00:00:22,590 --> 00:00:30,090
+Se a gente olhar exemplo que a gente fez do folhetim e se eu colocar aqui pra você aprovados.
+
+5
+00:00:30,180 --> 00:00:32,040
+Ponto forte.
+
+6
+00:00:32,220 --> 00:00:39,330
+Você vai ver que o parâmetro que é recebido é do tipo Consumer ou seja é dessa mesma interface que eu
+
+7
+00:00:39,330 --> 00:00:41,490
+vou trabalhar com vocês nesse exemplo certo.
+
+8
+00:00:41,820 --> 00:00:49,440
+Ou seja uma função que recebe um parâmetro e não é nada certo exatamente a descrição que está lá as
+
+9
+00:00:49,440 --> 00:00:55,110
+interfaces funcionais apresentam operação que aceita um único entrada um único parâmetro e não retorna
+
+10
+00:00:55,110 --> 00:00:55,470
+nada.
+
+11
+00:00:55,590 --> 00:01:07,860
+Então se a gente criar uma nova classe classe eu vou chamar essa classe de consumidor consumidor definir
+
+12
+00:01:08,550 --> 00:01:18,660
+nosso método e vou definir aqui o nosso confirma que tal Consumer já apontou outro ponto Foundation.
+
+13
+00:01:18,810 --> 00:01:23,040
+Essa função vai até receber como parâmetro um monstrinho.
+
+14
+00:01:23,200 --> 00:01:27,620
+Aqui você definiu o tipo de parâmetro que você vai receber o retorno.
+
+15
+00:01:27,630 --> 00:01:29,090
+A gente sabe que não vai ser nenhum.
+
+16
+00:01:29,430 --> 00:01:36,960
+Então vou chamar aqui por exemplo imprimi e vou receber o passe aqui por exemplo um determinado valor
+
+17
+00:01:37,530 --> 00:01:47,930
+que vou pagar esse valor coloca aqueles que assistem aos outros parentes e não vou passar aqui preencherem.
+
+18
+00:01:47,990 --> 00:01:52,980
+Vou passar aqui o valor da verdade talvez fique mais legal do que eu simplesmente pegar uma string e
+
+19
+00:01:52,990 --> 00:01:53,800
+passe a historinha.
+
+20
+00:01:53,820 --> 00:02:00,930
+Posso também usar o produto aqui nesse contexto não posso colocar aqui recebo o produto dentro ou o
+
+21
+00:02:00,930 --> 00:02:03,760
+produto que eu defini desse módulo aqui né.
+
+22
+00:02:03,800 --> 00:02:11,360
+Dentro esse pacote aqui eu vou receber um produto que eu vou chamar de bem e vou imprimi o que tem ponto
+
+23
+00:02:11,570 --> 00:02:16,500
+ou seja vou imprimir vou receber um produto e imprimir apenas o nome do produto.
+
+24
+00:02:16,500 --> 00:02:20,350
+Essa é uma função que não retorna nada simplesmente imprime no console alguma coisa.
+
+25
+00:02:20,490 --> 00:02:22,760
+Por isso que eu estou usando o Consumer.
+
+26
+00:02:23,090 --> 00:02:30,570
+Então pra isso eu vou criar aqui um produto um produto ou um processo não produto novo produto.
+
+27
+00:02:31,770 --> 00:02:37,820
+Vou colocar aqui pra gente ver onde recebe o produto do consultor de produto olhar passo tudo na tela
+
+28
+00:02:37,860 --> 00:02:48,720
+coca aquela caneta o valor vai ser 12 e 34 Desconto 0 9 9 por cento e agora para a gente usar essa função
+
+29
+00:02:49,260 --> 00:02:53,520
+vou fazer o seguinte eu vou chamar que eu imprimi ponto.
+
+30
+00:02:53,520 --> 00:03:00,060
+Existe um método nessa função que é o método Accept ou seja a partir desse método que você vai passar
+
+31
+00:03:00,390 --> 00:03:05,850
+o produto que você criou o caso o que eu quero que essa função a fazer entre as palavras ela recebe
+
+32
+00:03:05,960 --> 00:03:12,390
+um único parâmetro e não retorna nada como a nossa implementação foi imprimir no console a partir do
+
+33
+00:03:12,390 --> 00:03:19,890
+produto que eu recebi apenas o nome do produto significa que você vai ver o nome do produto será impresso.
+
+34
+00:03:19,890 --> 00:03:25,710
+Se eu jogar essa função aqui pra baixo só pra não ficar muito grande se quiser concatenar aqui com algumas
+
+35
+00:03:25,710 --> 00:03:26,390
+exclamações.
+
+36
+00:03:26,390 --> 00:03:29,720
+é exatamente isso que essa função vai fazer.
+
+37
+00:03:30,210 --> 00:03:35,740
+Então aqui eu posso muito bem dar um exemplo prático.
+
+38
+00:03:35,760 --> 00:03:41,820
+é um exemplo legal porque a gente já viu o fora hit e a gente pode usar esse Consumer pra ser aplicado
+
+39
+00:03:41,820 --> 00:03:43,350
+nele do Fórum Digital.
+
+40
+00:03:43,460 --> 00:03:49,830
+Aqui fica mais fácil outros exemplos anotou levando para lado das coletas porque se nao ficaria digamos
+
+41
+00:03:49,830 --> 00:03:55,710
+assim entraria muito no mérito do tema do assunto no próximo capítulo.
+
+42
+00:03:55,830 --> 00:04:02,210
+Então vou criar aqui uma lista na verdade distribuída não vou criar listas de produto ou colocar produtos.
+
+43
+00:04:02,800 --> 00:04:08,260
+E vou definir aqui Reis tu és lixo.
+
+44
+00:04:08,650 --> 00:04:11,530
+Eu vou passar aqui o produto outro vigor.
+
+45
+00:04:11,550 --> 00:04:19,490
+Na verdade eu vou definir outro produto ou duplicar essa minha aqui colocar aqui seu produto 2 3 4 5
+
+46
+00:04:19,500 --> 00:04:39,150
+então 8 2 3 4 5 passa a ter 2 3 4 5 devolvam daqui por exemplo pra no box caderno
+
+47
+00:04:41,670 --> 00:05:01,890
+borracha e lápis download BU que baixei 2 mil 987 outro 9 9 o caderno está lá 19 de 90 tá bom seis reais
+
+48
+00:05:02,270 --> 00:05:04,300
+e 80 centavos.
+
+49
+00:05:04,430 --> 00:05:13,760
+O lapso de 4 39 que vai ter 19 por cento de desconto vai ter 18.
+
+50
+00:05:13,890 --> 00:05:16,900
+Aqui tem 3 por cento de desconto.
+
+51
+00:05:17,010 --> 00:05:19,400
+Buckley ter 25 por cento de desconto.
+
+52
+00:05:19,420 --> 00:05:28,900
+Agora nós temos uma lista de produtos e eu posso muito bem fazer produtos ponto isso é passar com uma
+
+53
+00:05:28,900 --> 00:05:34,570
+lambida nessa lambida que eu queria aqui em cima que é do tipo Consumer que é exatamente o tipo que
+
+54
+00:05:34,570 --> 00:05:39,910
+eu espero receber aqui no fórum onde ou for disparar um sombra que o tipo de metro que serve apenas
+
+55
+00:05:39,910 --> 00:05:43,210
+um único parâmetro e não retorna absolutamente nada.
+
+56
+00:05:43,350 --> 00:05:49,300
+Ou seja vai fazer algum algorítimo dentro dessa dessa função lambda mas não vai retornar nada a partir
+
+57
+00:05:49,300 --> 00:05:49,820
+do Fórum.
+
+58
+00:05:49,860 --> 00:05:56,440
+Então o que eu posso simplesmente passam imprimi estão aqui adaptando você vai ver que ele imprimiu
+
+59
+00:05:56,440 --> 00:06:03,100
+ao primeiro caneta foi a primeira vez que eu chamei aqui a linha 15 e depois ele chamou logo caneta
+
+60
+00:06:03,210 --> 00:06:05,620
+notebook caderno borrachas lápis.
+
+61
+00:06:05,620 --> 00:06:13,370
+Nesse contexto como eu o chamei manualmente aqui essa interface eu precisei chamar imprimi ponto Accept
+
+62
+00:06:13,530 --> 00:06:19,960
+mais mas for it como ele já recebe do consumidor ele sabe que vai ter que chamar o Accept no momento
+
+63
+00:06:19,960 --> 00:06:25,810
+que for executar cada um onde as interações está aqui também se eu quiser eu posso chamo fazer de forma
+
+64
+00:06:25,810 --> 00:06:33,600
+manual como já fez outras vezes produtos ponto for it ou seja aqui eu posso passar ou receber.
+
+65
+00:06:33,820 --> 00:06:41,990
+No caso cada um dos produtos até certo já que eu estou fazendo isso em cima dos produtos e não das 30
+
+66
+00:06:42,160 --> 00:06:50,770
+do nome do produto então esse meu produto que eu coloco system on line tem ponto pra isso então posso
+
+67
+00:06:50,770 --> 00:06:57,670
+acessar o preço do produto em que é executado nós temos em cima os nomes dos produtos porque os nomes
+
+68
+00:06:57,700 --> 00:07:03,640
+porque nesse Consumer que eu chamei aqui de imprimi basta substituir Chamartín imprimir um nome para
+
+69
+00:07:03,640 --> 00:07:10,140
+ficar mais explícito ou seja imprimi nome e ponto Accept e aqui eu posso imprimi nome para o Forum e
+
+70
+00:07:10,150 --> 00:07:16,240
+aqui embaixo eu chamei uma lâmina que vai imprimir o preço do produto eu poderia também se quiser agora
+
+71
+00:07:16,240 --> 00:07:27,530
+fazer o seguinte com produtos fora e passar aqui o System outro Audi e passar um metro de fãs do print
+
+72
+00:07:28,150 --> 00:07:35,930
+20 ali fazendo isso ele vai imprimir quem o produto em si é certo e se o produto não tiver o que restringe
+
+73
+00:07:35,950 --> 00:07:40,980
+ele vai imprimir o produto de uma forma não tão interessante então nesse caso ele chamou o estribo.
+
+74
+00:07:40,990 --> 00:07:41,560
+Porquê.
+
+75
+00:07:41,830 --> 00:07:47,960
+Porque ele pegou o produto que eu recebi como parâmetro passou diretamente pro Prince Ali se eu vim
+
+76
+00:07:47,960 --> 00:07:58,380
+aqui o produto é definido a minha função pública distribuí restringiu e aqui eu por exemplo imprimi
+
+77
+00:07:58,380 --> 00:08:04,570
+o produto de uma forma interessante estou colocando aqui dois pontos e concatenar com o nome.
+
+78
+00:08:04,750 --> 00:08:14,350
+Depois eu colocar até aqui esse caso tem preço de real e aqui no final vou concatenar gostaria de colocar
+
+79
+00:08:14,370 --> 00:08:24,910
+sem espaço aqui concatenar o preço certo até calcular que antes ao preço com desconto colocar bom preço
+
+80
+00:08:25,780 --> 00:08:37,720
+final recebi o preço multiplicado por um menos o desconto e aquilo tem um preço final coloco o preço
+
+81
+00:08:37,720 --> 00:08:44,080
+final aqui troca agora nesse caso eu já tenho que restringe e como nesse caso estou usando a referência
+
+82
+00:08:44,080 --> 00:08:48,750
+para o método presente ali e como estou fazendo fora em cima de cada produto.
+
+83
+00:08:48,760 --> 00:08:55,150
+Agora vou passar o produto diretamente comparar muito além e no final das contas ele baixa morte trilhão
+
+84
+00:08:55,600 --> 00:09:01,850
+porque ele colocou o nome caneta tem preço para dar esse nome no começo nem ficou tão legal que o texto
+
+85
+00:09:02,410 --> 00:09:11,440
+tirar essa foto nome tem preço tal estando novamente só para ficar mais bonitinho a caneta tem preço
+
+86
+00:09:11,440 --> 00:09:17,440
+de 11 reais alguma coisa boa que tem preço de alguma coisa e se você quiser pode até usar o primeiro
+
+87
+00:09:17,440 --> 00:09:23,770
+chefe pra formatar direitinho e ficar mas ficar só duas casas decimais e não ficar essa quantidade grande
+
+88
+00:09:23,940 --> 00:09:29,380
+então tem várias possibilidades que você pode fazer e que eu queria mostrar nessa aula na verdade era
+
+89
+00:09:29,380 --> 00:09:36,460
+exatamente essa interface Consumer que você passo um único parâmetro pra ela e ela não retorna absolutamente
+
+90
+00:09:36,460 --> 00:09:41,290
+nada e como a gente viu aqui no exemplo e essa é exatamente o tipo de interface que forem de uso ele
+
+91
+00:09:41,290 --> 00:09:42,950
+espera receber um consumo.
+
+92
+00:09:43,180 --> 00:09:49,150
+Tanto é que a gente conseguiu criar um Consumer conseguiu chamar esse consumo diretamente chamando Accept
+
+93
+00:09:49,180 --> 00:09:54,750
+passando o produto pra ele realmente imprimi e depois a gente conseguiu passar aqui embaixo no Forum
+
+94
+00:09:54,760 --> 00:10:01,360
+de nosso consumo já que ele espera um Consumer como parâmetro conta como conseguiu lambida passando
+
+95
+00:10:01,360 --> 00:10:05,040
+a lâmina automaticamente ele já usa esse consumo por baixo.
+
+96
+00:10:05,040 --> 00:10:05,640
+Porquê.
+
+97
+00:10:05,800 --> 00:10:10,660
+Porque essa é a função que recebe o único parâmetro e não retorna absolutamente nada.
+
+98
+00:10:11,080 --> 00:10:16,930
+Eu também consigo passar o metro em referência uma referência por metro como a gente viu aqui não estou
+
+99
+00:10:16,930 --> 00:10:22,180
+tentando pegar os mesmos conceitos e aplicar mais exercícios exatamente porque eu sei que é um tema
+
+100
+00:10:22,510 --> 00:10:28,900
+que não é tão dominado pelos alunos é um tema que não é tão antigo assim surgiu no Japão ou então muita
+
+101
+00:10:28,900 --> 00:10:34,780
+gente já conhece porque o hoje já surgiu há muitos anos mas de qualquer forma é um tema que vale a pena
+
+102
+00:10:34,800 --> 00:10:38,380
+está reforçando ele não apenas é um exemplo em vários.
+
+103
+00:10:38,380 --> 00:10:42,810
+Na próxima aula nós veremos uma outra interface funcional disponibilizada pelo Java.
+
+104
+00:10:42,820 --> 00:10:43,150
+Até lá.

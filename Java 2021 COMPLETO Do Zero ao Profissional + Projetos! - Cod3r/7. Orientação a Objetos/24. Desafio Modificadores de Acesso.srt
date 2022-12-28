@@ -1,0 +1,95 @@
+1
+00:00:00,300 --> 00:00:04,660
+Pessoal vou lançar pra vocês agora o desafio dos modificadores de acesso.
+
+2
+00:00:04,670 --> 00:00:12,030
+Eu quero que vocês façam o seguinte eu quero que vocês peguem os exercícios que nós fizemos na parte
+
+3
+00:00:12,030 --> 00:00:17,360
+de herança nós fizemos aqui ó o herói o jogador jogo monstro.
+
+4
+00:00:17,550 --> 00:00:20,620
+E nós fizemos também um desafio cargo cívico.
+
+5
+00:00:20,660 --> 00:00:26,190
+E aí eu quero que vocês apliquem nesses dois exercícios os modificadores de acesso.
+
+6
+00:00:26,370 --> 00:00:34,560
+Imagina que nem sempre o teste meu carro teste estará no mesmo pacote da classe que foi definida muito
+
+7
+00:00:34,560 --> 00:00:35,790
+provavelmente não.
+
+8
+00:00:36,180 --> 00:00:43,270
+Então eu posso até criar aqui ou um clássico por exemplo uma classe num pacote chamado chamado teste
+
+9
+00:00:43,380 --> 00:00:52,820
+que era herança do teste e aqui dentro eu vou colocar o jogo que foi exatamente a classe que deu o método
+
+10
+00:00:53,200 --> 00:00:55,270
+está tão dentro do teste.
+
+11
+00:00:55,260 --> 00:00:58,310
+Coloquei aqui o jogo e o jogo tem um metro do meio.
+
+12
+00:00:58,390 --> 00:01:02,350
+E nessa classe que ele vai testar um monstro vai testar o herói e tal.
+
+13
+00:01:02,430 --> 00:01:09,180
+Nós temos aqui dentro de desafio outra classe que vai testar o desafio eu vou jogar Classical teste
+
+14
+00:01:09,180 --> 00:01:15,000
+para um outro pacote que vai ser também o caos que vai ser o local que nós temos o metro meio que vai
+
+15
+00:01:15,000 --> 00:01:16,460
+criar um Civic tal.
+
+16
+00:01:16,590 --> 00:01:21,980
+Então eu quero que vocês apliquem os níveis de visibilidade pra fazer com que esse código funcione e
+
+17
+00:01:21,990 --> 00:01:25,500
+o nível de visibilidade pode ser aplicado no atributo.
+
+18
+00:01:25,590 --> 00:01:29,380
+O nível de visibilidade pode ser aplicado no construtor.
+
+19
+00:01:29,430 --> 00:01:32,190
+O nível de invisibilidade pode ser aplicado no metro.
+
+20
+00:01:32,190 --> 00:01:38,700
+Então pra você fazer a funcionar você precisa aplicar não apenas os níveis corretos de visibilidade
+
+21
+00:01:39,060 --> 00:01:43,530
+nos atributos mas também nos comportamentos e nos construtores está certo.
+
+22
+00:01:43,920 --> 00:01:50,370
+Então eu ouvi essas duas classes jogo e carro teste para um outro pacote de tal forma que agora você
+
+23
+00:01:50,370 --> 00:01:54,210
+precisa ajustar os níveis de visibilidade pra funcionar esse código.
+
+24
+00:01:54,420 --> 00:01:56,560
+Então na próxima Aldo a resposta é ir até lá.

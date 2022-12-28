@@ -1,0 +1,87 @@
+1
+00:00:00,170 --> 00:00:02,540
+Olha só sala vou lançar para vocês um desafio.
+
+2
+00:00:02,550 --> 00:00:05,730
+Vocês vão criar uma classe chamada Desafio.
+
+3
+00:00:05,770 --> 00:00:06,780
+Conversam.
+
+4
+00:00:06,840 --> 00:00:10,330
+Certo é nessa classe vocês vão a partir do canal.
+
+5
+00:00:10,410 --> 00:00:15,300
+Olha se você não lembrar como é que criou esse canal que é aquele mecanismo de entrada no terminal no
+
+6
+00:00:15,300 --> 00:00:17,430
+console e você vai lá em outra olhada.
+
+7
+00:00:17,430 --> 00:00:19,500
+Você vai criar um canal que você vai pegar.
+
+8
+00:00:19,500 --> 00:00:26,640
+3 estribo está certo usando o MAC Xilai e essas três strings vão poder receber salário seriam os últimos
+
+9
+00:00:26,640 --> 00:00:28,180
+três salários de um funcionário.
+
+10
+00:00:28,180 --> 00:00:33,780
+E Você Quer calcular a média dos últimos três salários de uma pessoa só que tem uma questão mais esse
+
+11
+00:00:33,780 --> 00:00:40,560
+salário o funcionário ele pode ter a flexibilidade de separar as casas decimais com vírgula ou usando
+
+12
+00:00:40,560 --> 00:00:41,850
+ponto zero digital.
+
+13
+00:00:41,940 --> 00:00:49,110
+Há 8 mil 343 ponto mês 5 8 mil 4 6 e 10 vírgula 87.
+
+14
+00:00:49,130 --> 00:00:52,060
+Ou seja para funcionar tanto com o conto como com vírgula.
+
+15
+00:00:52,080 --> 00:00:55,770
+Você vai depois somar os três salários dividir por três e da média.
+
+16
+00:00:55,770 --> 00:01:00,390
+Esse é um desafio que conversamos com Albert Einstein que tem um valor numérico.
+
+17
+00:01:00,390 --> 00:01:03,010
+Você pode usá la no scanner ou Mac.
+
+18
+00:01:03,150 --> 00:01:09,060
+Conecte lá a diferença dos dois e conecte paga apenas uma única palavra por um único trecho de texto.
+
+19
+00:01:09,060 --> 00:01:14,070
+Se você colocar só o valor numérico ele vai conseguir pagar com o México ou você pode também usar um
+
+20
+00:01:14,070 --> 00:01:16,150
+leque Xilai que vai pegar li inteira.
+
+21
+00:01:16,150 --> 00:01:20,880
+Então você pode usar um dos dois e no final converte esse texto para o valor numérico sobre os três
+
+22
+00:01:20,890 --> 00:01:21,630
+que mostra a média.

@@ -1,0 +1,363 @@
+1
+00:00:00,300 --> 00:00:03,450
+Pessoal é essa aula que eu vou explicar agora.
+
+2
+00:00:03,540 --> 00:00:13,640
+é uma aula e um recurso um pouco mais complicado de explicar mas é um recurso muito interessante certo
+
+3
+00:00:14,070 --> 00:00:21,230
+e eu vou mostrar pra vocês vou fazer um exemplo pré exemplo pra preparar para proximal só pra vocês
+
+4
+00:00:21,230 --> 00:00:28,770
+se entenderem com facilidade então imagine o seguinte imagine que você criou aqui uma interface qualquer
+
+5
+00:00:28,870 --> 00:00:34,050
+e o nome da interface é super herói.
+
+6
+00:00:34,440 --> 00:00:36,380
+Então você criou uma interface.
+
+7
+00:00:36,450 --> 00:00:45,720
+E aí você definiu que essa interface tem um método que vai retornar uma lista e que vai ter aqui por
+
+8
+00:00:45,720 --> 00:00:53,910
+exemplo uma lista de string que é diet poderes por exemplo coisa que não seja o melhor exemplo mas tudo
+
+9
+00:00:53,940 --> 00:00:59,360
+bem então aqui vai ser um método e definir que o superou.
+
+10
+00:00:59,690 --> 00:01:05,440
+E aí pode ter várias classes que implementam essa funcionalidade de poderes.
+
+11
+00:01:05,480 --> 00:01:13,360
+Você pode ter aqui por exemplo uma classe que representa o super homem.
+
+12
+00:01:13,770 --> 00:01:14,850
+Esse super homem.
+
+13
+00:01:14,910 --> 00:01:18,510
+Ele implementa super herói.
+
+14
+00:01:18,520 --> 00:01:24,240
+Ele vai ter obviamente que retornar ganhe poderes retornando a um lista com todos os poderes que ele
+
+15
+00:01:24,240 --> 00:01:24,630
+tem.
+
+16
+00:01:24,630 --> 00:01:26,320
+Você pode criar.
+
+17
+00:01:26,390 --> 00:01:32,740
+Homem Aranha pode criar o Batman pode criar sei lá qualquer outro super herói que você queira.
+
+18
+00:01:32,790 --> 00:01:42,390
+O CAP vou dizer na gaveta também e você pode criar todos os super heróis e aí colocar as implementações
+
+19
+00:01:42,390 --> 00:01:48,540
+específicas mais é possível que em determinado momento você esteja interessado não nas implementações
+
+20
+00:01:48,540 --> 00:01:53,550
+mais empregar qualquer implementação de um determinado Interface.
+
+21
+00:01:53,550 --> 00:02:00,900
+Pegando um exemplo um pouco mais realista imagine que você criou uma classe uma classe não uma interface
+
+22
+00:02:01,320 --> 00:02:03,570
+chamada calculadora certo.
+
+23
+00:02:04,080 --> 00:02:11,570
+Então se tem que chamar de decalque só você definiu que a qualquer calculadora vai ter um metro públicos
+
+24
+00:02:11,620 --> 00:02:21,730
+que Báez vai devolver o dá bom nome do Metro da soma ele vai receber aqui por exemplo um da ABL nãos
+
+25
+00:02:22,380 --> 00:02:28,020
+por exemplo e aí você pode ter mais uma implementação e você não está muito preocupado em saber qual
+
+26
+00:02:28,020 --> 00:02:29,330
+a implementação você vai pegar.
+
+27
+00:02:29,330 --> 00:02:34,740
+Você simplesmente quer pegar uma calculadora que implemente esses métodos que foi definidos aqui na
+
+28
+00:02:34,740 --> 00:02:36,010
+interface.
+
+29
+00:02:36,060 --> 00:02:42,960
+E isso aí chama esse esse conceito nesse contexto de módulos de serviço você pode definir um serviço
+
+30
+00:02:42,960 --> 00:02:49,410
+como sendo uma interface imagine uma interface você cria um API que você definiu um serviço que é de
+
+31
+00:02:49,410 --> 00:02:56,460
+cadastrar o usuário você tem lá cadastrar o usuário alterar o usuário e Excluir usuário consultar usuários
+
+32
+00:02:56,460 --> 00:03:02,670
+por aí você tem uma série de funcionalidades e você vai ter uma classe no serviço que vai implementar
+
+33
+00:03:02,730 --> 00:03:05,580
+essas funcionalidades que você definiu na interface.
+
+34
+00:03:05,580 --> 00:03:13,080
+Você consegue dentro do sistema de módulos depender apenas do módulo que define as interfaces e você
+
+35
+00:03:13,080 --> 00:03:15,270
+a partir do sistema de módulos definido.
+
+36
+00:03:15,270 --> 00:03:21,690
+Por exemplo o provar que é uma outra possibilidade que você tem para usar dentro de módulos e você consegue
+
+37
+00:03:21,690 --> 00:03:27,080
+dizer que uma determinada interface vai ser provida a partir de uma implementação.
+
+38
+00:03:27,090 --> 00:03:34,950
+Ou seja a partir do sistema de módulos você consegue depender apenas da interface e a partir do sistema
+
+39
+00:03:34,950 --> 00:03:41,790
+de módulos você diz que determinada interface vai ser provida por uma implementação porque isso é legal
+
+40
+00:03:42,060 --> 00:03:46,930
+porque você pode ficar mudando a implementação de tempos em tempos.
+
+41
+00:03:46,980 --> 00:03:53,760
+Então você vai ter lá um ano em determinada interface é responsável por calcular o imposto você simplesmente
+
+42
+00:03:53,760 --> 00:03:57,900
+pode não estar preocupado com qual implementação você vai receber.
+
+43
+00:03:57,900 --> 00:04:01,100
+Você simplesmente quer pegar um produto calcular um imposto.
+
+44
+00:04:01,230 --> 00:04:08,970
+Então dependendo do dado o sistema de modos como foi configurado determinados módulos vão prover implementações
+
+45
+00:04:08,970 --> 00:04:12,810
+para as interfaces e isso é muito legal vão mostrar isso está proximal.
+
+46
+00:04:13,170 --> 00:04:19,890
+Então a ideia você define uma interface a partir de um módulo genérico digamos assim o logo da sua API.
+
+47
+00:04:19,890 --> 00:04:27,390
+Lá dentro você só tem interfaces e aí você pode ter outros módulos que vão implementar essas interfaces
+
+48
+00:04:27,580 --> 00:04:33,960
+certo que vão prover implementações para essas interfaces aqui o seu cliente um módulo cliente vai depender
+
+49
+00:04:33,960 --> 00:04:40,760
+apenas das interfaces e internamente esses módulos aqui vão prover implementações para essas interfaces.
+
+50
+00:04:40,800 --> 00:04:44,700
+Você não vai precisar acessar a implementação diretamente.
+
+51
+00:04:44,940 --> 00:04:51,690
+Você tem o Java tem uma classe que vai ser responsável por buscar uma implementação dentro do sistema
+
+52
+00:04:51,690 --> 00:04:52,640
+de módulos.
+
+53
+00:04:52,740 --> 00:04:58,340
+Ele vai pegar todas as implementações para um interface e você pega aquela implementação que você quer.
+
+54
+00:04:58,350 --> 00:05:05,320
+A primeira implementação é um conceito um pouco mais chato isso é explicado mais a ideia em vez de você
+
+55
+00:05:05,320 --> 00:05:13,430
+depender diretamente da classe concreta você depende da interface envia o sistema de módulos uma implementação
+
+56
+00:05:13,450 --> 00:05:20,110
+entidade ou todos as implementações são de dados para você selecionar e acertar a classe concreta que
+
+57
+00:05:20,110 --> 00:05:21,520
+implementa aquela interface.
+
+58
+00:05:21,970 --> 00:05:27,790
+é um conceito chato é um conceito pouco mais avançado e espero que fique claro o fato de você ter uma
+
+59
+00:05:27,790 --> 00:05:34,230
+interface em diversas implementações por exemplo eu poderia ter aqui um clássico por exemplo só para
+
+60
+00:05:34,590 --> 00:05:38,020
+tornar um pouco mais concreto ou caucus ou chamar aqui qualquer um.
+
+61
+00:05:39,040 --> 00:05:43,170
+Essa Cau que ela implementa no.
+
+62
+00:05:43,600 --> 00:05:49,240
+Então automaticamente ela vai precisar implementar um método soma que eu poderia muito bem fazer aqui
+
+63
+00:05:49,270 --> 00:05:58,420
+um fórum em cima do rei e números criar aqui um total da ABL total recebe zero.
+
+64
+00:05:58,690 --> 00:06:09,030
+Vou somar então o total recebe mais igual mas com o índice e no final retorno total.
+
+65
+00:06:09,040 --> 00:06:14,830
+Isso aqui é uma implementação válida desse método soma e eu posso criar uma outra implementação para
+
+66
+00:06:14,830 --> 00:06:27,700
+esse mesmo somar tenho um aqui calculo 2 que também implementa somar 40 calcula dizerem lamentou o método
+
+67
+00:06:27,700 --> 00:06:36,710
+somar e aqui eu vou usar aquela estratégia que eu usei na outra vez que é carro nesse ponto isto passo
+
+68
+00:06:37,030 --> 00:06:45,040
+aqui mas e vou chamá lo deduz que a abordagem mais funcional a outra é uma abordagem mais e aqui mais
+
+69
+00:06:45,520 --> 00:06:54,810
+funcionar então total atual lambda Express integração total mas o atual frota aqui também é outra implementação
+
+70
+00:06:54,810 --> 00:07:00,730
+que vai dar exatamente o mesmo resultado no teste se a gente quiser usar rapidamente vou comentar aqui
+
+71
+00:07:01,300 --> 00:07:03,450
+temporariamente só pra gente ver aqui.
+
+72
+00:07:04,600 --> 00:07:13,390
+Então vou chamar qualquer marca local que você recebe mil cálculos certo.
+
+73
+00:07:13,390 --> 00:07:18,430
+Normalmente a gente acaba colocando o cálculo em pele de implementação é muito comum usar esse padrão
+
+74
+00:07:18,440 --> 00:07:24,910
+Matheus aqui só pra ficar mais parecido com o que se faz na prática então daqui infecta o in-game então
+
+75
+00:07:24,910 --> 00:07:37,080
+seria caos impele implementação e caos impele dois infectam primeiro e vou colocar aqui o caos impele
+
+76
+00:07:37,350 --> 00:07:44,920
+dois para outra eu tenho aqui um cálculo que é uma interface que tem uma implementação e vou duplicar
+
+77
+00:07:44,920 --> 00:07:49,680
+essa linha e vou ter dois aqui que vai usar a implementação.
+
+78
+00:07:49,840 --> 00:07:53,100
+2 Posso chamar System Alt.
+
+79
+00:07:53,260 --> 00:08:00,100
+Será um ponto somar 1 2 3 é a mesma coisa embaixo chamado o C2.
+
+80
+00:08:00,220 --> 00:08:05,800
+São duas implementações diferentes para a mesma interface que dar exatamente o mesmo resultado.
+
+81
+00:08:05,800 --> 00:08:11,500
+Mais um usuário em vez de ficar dependendo de uma implementação específica e com a implementação mudar
+
+82
+00:08:11,800 --> 00:08:17,920
+você ter que manualmente mexer lá no Código você pode depender apenas da interface ou seja não depende
+
+83
+00:08:17,920 --> 00:08:24,460
+da implementação depende apenas da interface e o próprio sistema de módulos vai dizer quais são as classes
+
+84
+00:08:24,850 --> 00:08:30,760
+que vão prover digamos assim um implementação para determinadas interfaces e você consegue descobrir
+
+85
+00:08:30,760 --> 00:08:32,800
+isso a partir do sistema de módulos.
+
+86
+00:08:32,800 --> 00:08:42,280
+Eu vou apagar isso aqui vou comentar essas linhas para voltar pro nosso exercício antigo vou apagar
+
+87
+00:08:42,700 --> 00:08:49,660
+cálculos e vou apagar a implementação e a implementação 2 a ideia dessa aula só falar um pouco desse
+
+88
+00:08:49,660 --> 00:08:55,090
+conceito na implementação da interface na implementação e na próxima aula vou mostrar esse conceito
+
+89
+00:08:55,090 --> 00:09:01,360
+na prática dentro do sistema de módulos para ser a última aula desse capítulo que é exatamente os módulos
+
+90
+00:09:01,720 --> 00:09:08,370
+do Java e até para os mal pra gente colocar esse conceito de serviço implementação e interface.
+
+91
+00:09:08,390 --> 00:09:08,860
+Na prática.

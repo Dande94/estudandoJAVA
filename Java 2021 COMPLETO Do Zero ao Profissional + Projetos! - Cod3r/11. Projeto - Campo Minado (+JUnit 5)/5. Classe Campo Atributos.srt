@@ -1,0 +1,571 @@
+1
+00:00:00,360 --> 00:00:07,800
+Outra observação que eu queria comentar com vocês é que é algo que sempre que sempre vou ter um contato
+
+2
+00:00:07,800 --> 00:00:08,650
+com os alunos.
+
+3
+00:00:08,650 --> 00:00:13,190
+é engraçado porque já tive contato algumas vezes.
+
+4
+00:00:13,380 --> 00:00:19,170
+Estava no shopping tive contato estava quase uma loja de construção outra vez eu estava passeando com
+
+5
+00:00:19,170 --> 00:00:27,000
+meu esposo e o pessoal veio falar comigo dizendo Eu admiro muito a capacidade de decorar.
+
+6
+00:00:27,010 --> 00:00:29,500
+Eu admiro sua capacidade de estar aqui no outro.
+
+7
+00:00:29,610 --> 00:00:30,860
+Acho muito legal.
+
+8
+00:00:30,940 --> 00:00:38,940
+Eu acho que existe uma certa um certo tempo o MEC já estuda um tempo que eu já consigo captar algumas
+
+9
+00:00:38,940 --> 00:00:42,180
+coisas porque eu já vi aquilo não passar as vezes em outra linguagem.
+
+10
+00:00:42,360 --> 00:00:48,600
+Mas tudo também tem a ver com preparação tem a ver com você se planejar antes de chegar aqui e sentar
+
+11
+00:00:48,600 --> 00:00:50,490
+na frente da câmera para gravar um vídeo.
+
+12
+00:00:50,520 --> 00:00:56,160
+Então esse projeto já foi construído outra vez esse projeto já foi desenvolvido anteriormente eu já
+
+13
+00:00:56,160 --> 00:01:01,590
+pensei um pouquinho é uma coisa que acontece na prática quando você está planejando um projeto e você
+
+14
+00:01:01,590 --> 00:01:02,430
+está sempre.
+
+15
+00:01:02,910 --> 00:01:07,200
+Você faz de um jeito que funciona e você não acha que o nome dessa variável que pode pode ser um nome
+
+16
+00:01:07,200 --> 00:01:08,810
+mais interessante.
+
+17
+00:01:09,210 --> 00:01:14,910
+Então esse metro que eu acho que ele pode se comportar de uma forma mais mais otimizada mais clara para
+
+18
+00:01:14,910 --> 00:01:20,320
+quando foi ensinar então esse é um processo que acontece na prática de fatoração.
+
+19
+00:01:20,340 --> 00:01:26,070
+Se eu ligasse a câmera sem ter nada na cabeça não pensava em fazer um projeto Campo Minado e eu começasse
+
+20
+00:01:26,070 --> 00:01:33,090
+a fazer o projeto aqui ia ficar um capítulo extremamente longo porque eu ia ficar pensando eu ia colocar
+
+21
+00:01:33,090 --> 00:01:39,540
+um coisa que obviamente ia mudar e duas horas depois eu iria faturar criou um blog aqui e agora tem
+
+22
+00:01:39,540 --> 00:01:41,190
+que corrigir esse jeito.
+
+23
+00:01:41,190 --> 00:01:46,950
+Então acontece que aqui já há um planejamento para evitar o avô de certa forma direto ao ponto Não Vou
+
+24
+00:01:46,950 --> 00:01:52,550
+Ficar digamos assim circulado mostrando todo o processo porque senão ficaria inviável.
+
+25
+00:01:52,590 --> 00:01:58,410
+Muito provavelmente os alunos não iriam gostar pq perder muito tempo num tempo que você precisa desenvolver
+
+26
+00:01:58,410 --> 00:02:03,900
+as coisas de uma forma rápida e entregar um conteúdo da forma mais direto possível sem muita enrolação.
+
+27
+00:02:04,110 --> 00:02:09,000
+Então Dito isso é importante que você tenha em mente que essa é uma perspectiva quando você encontra
+
+28
+00:02:09,000 --> 00:02:12,390
+um curso online mais mas quando você for desenvolver.
+
+29
+00:02:12,420 --> 00:02:18,990
+7 Você vai perceber que você não tem essa essa pegada direto porque quando eu vou desenvolver pessoalmente
+
+30
+00:02:19,050 --> 00:02:25,150
+o mais que eu tinha 15 anos de experiência sei lá quantos anos de experiência já desenvolvendo.
+
+31
+00:02:25,170 --> 00:02:31,250
+O fato é que quando eu sentei vou desenvolver algo que nunca desenvolvi na vida eu vou perder um tempo
+
+32
+00:02:31,380 --> 00:02:36,660
+fazer de um jeito não ficou legal trocar o mundo da classe deixa eu pagar essa funcionalidade eu coloquei
+
+33
+00:02:36,660 --> 00:02:42,420
+na classe A e colocar na classe B porque faz mais sentido deixa eu quebrar essa classe B em mais duas
+
+34
+00:02:42,420 --> 00:02:45,330
+classes porque está muito grande com muitas responsabilidades.
+
+35
+00:02:45,340 --> 00:02:53,640
+Então esse processo de faturamento é ficar refazendo melhor a solução é algo extremamente normal e você
+
+36
+00:02:53,640 --> 00:02:58,920
+vai enfrentar isso no dia a dia como também um referendo se você vai desenvolver algo que você já desenvolveu
+
+37
+00:02:58,920 --> 00:03:01,440
+dezenas de vezes é a mesma coisa.
+
+38
+00:03:01,460 --> 00:03:07,080
+Eventualmente você vai sim numa linha mais reta e chegar no ponto de destino de uma forma mais rápida
+
+39
+00:03:07,080 --> 00:03:11,040
+ter o programa funcionando de forma otimizada e de uma forma mais rápida.
+
+40
+00:03:11,040 --> 00:03:18,480
+Mas se há algo novo você vai passar por todo o processo de modelagem e de fatoração de correção e de
+
+41
+00:03:18,480 --> 00:03:20,900
+melhoria porque é isso o que acontece na prática.
+
+42
+00:03:20,910 --> 00:03:26,560
+Então aqui vocês estão bem na tela e a tela do meu projeto do outro lado até a minha telinha aqui que
+
+43
+00:03:26,600 --> 00:03:29,040
+eu uso para me basear em me organizar durante as aulas.
+
+44
+00:03:29,040 --> 00:03:32,120
+Então esse é um processo extremamente natural.
+
+45
+00:03:32,130 --> 00:03:37,770
+Você foi desenvolvido você vai perder tempo muito provavelmente horas e horas para tentar definir qual
+
+46
+00:03:37,770 --> 00:03:39,060
+a melhor forma possível.
+
+47
+00:03:39,060 --> 00:03:45,450
+E isso acontece com você acontece comigo acontece com 99 por cento das pessoas a não ser um cara muito
+
+48
+00:03:45,450 --> 00:03:48,240
+fora da curva que atentou na cabeça e faço de primeira.
+
+49
+00:03:48,240 --> 00:03:50,960
+Eu acho que talvez nem exista esse perfil de pessoas.
+
+50
+00:03:51,000 --> 00:03:57,440
+Então nós vamos criar o nosso tabuleiro olhando para o nosso sistema e você vai ver que tem alguns cenários.
+
+51
+00:03:57,440 --> 00:04:02,250
+Você tem um cabo que tem mina certa que tem uma bombinha um campo que não tem.
+
+52
+00:04:02,250 --> 00:04:07,270
+Então para isso nós vamos ter um atributo aqui que eu vou colocar pra eles.
+
+53
+00:04:07,350 --> 00:04:10,520
+Tipo Bulent chamado minado.
+
+54
+00:04:10,530 --> 00:04:11,410
+Eu estou no canto errado.
+
+55
+00:04:11,430 --> 00:04:12,570
+Estou colocando no tabuleiro.
+
+56
+00:04:12,570 --> 00:04:15,260
+Na verdade eu quero mexer no campo certo.
+
+57
+00:04:15,280 --> 00:04:20,130
+Então lá no campo que é a nossa primeira classe que nós vamos trabalhar no nosso projeto nós temos um
+
+58
+00:04:20,130 --> 00:04:24,450
+campo certo que é um quadradinho daquele que é minado.
+
+59
+00:04:24,450 --> 00:04:30,450
+Outra coisa importante que vocês vão perceber em relação a atributos desses quadradinhos é que eles
+
+60
+00:04:30,450 --> 00:04:38,430
+têm um digamos assim uma coordenada ele tem uma linha e uma coluna que pode ser x e y pode ser tenha
+
+61
+00:04:38,460 --> 00:04:42,450
+em coluna o jeito que você preferir e eu vou chamar aqui de linha em coluna.
+
+62
+00:04:42,840 --> 00:04:45,680
+Então vou colocar aqui ao contrário.
+
+63
+00:04:45,750 --> 00:04:49,470
+Na verdade eu vou colocar essa bola como se não constante não é poder mudar.
+
+64
+00:04:49,720 --> 00:04:56,230
+Então vai ser o mindinho chamado linha e vou duplicar o craque chamado Coluna.
+
+65
+00:04:56,270 --> 00:05:02,040
+Já aproveitando que esses valores são finais eu vou colocar esses dois para ser passado um construtor
+
+66
+00:05:02,130 --> 00:05:07,390
+do campo é o construtor do campo eu vou colocar como um novo nível de visibilidade o pacote.
+
+67
+00:05:07,740 --> 00:05:15,460
+Não vou colocar ele público ou colocar 500 linha de coluna.
+
+68
+00:05:15,660 --> 00:05:24,280
+Vou passar aqui dez linhas seja o atributo distância vai receber aquilo que eu coloquei no construtor.
+
+69
+00:05:24,620 --> 00:05:33,740
+A coluna vai ser aquilo que embaixo baixo não indicou qualquer que desse ponto de coluna recebe coluna
+
+70
+00:05:33,840 --> 00:05:39,570
+que é o que eu recebi como parâmetro do construtor então até agora tenho um atributo linha um atributo
+
+71
+00:05:39,590 --> 00:05:43,230
+coluna e tem algumas características do meu carro.
+
+72
+00:05:43,230 --> 00:05:46,930
+Primeiro colocar que o campo está aberto ou fechado.
+
+73
+00:05:47,040 --> 00:05:52,590
+Então vou criar um atributo borbulhante chamado aberto.
+
+74
+00:05:52,770 --> 00:05:58,770
+Então se estiver aberto verdadeiro mas por padrão ele começa como falso seja o campo não está aberto
+
+75
+00:05:58,910 --> 00:06:03,630
+ao contrário que é fechado outro carro bolha pra dizer se o campo está minado ou não.
+
+76
+00:06:03,630 --> 00:06:05,760
+Ele começa também o valor padrão é falso.
+
+77
+00:06:05,760 --> 00:06:12,330
+Você Quiser colocar de forma explícita começa com um falso mas por padrão ele já assume um valor falso
+
+78
+00:06:12,330 --> 00:06:19,890
+que é o padrão do tipo primitivo bolha e outro campo além do campo está aberto ou fechado.
+
+79
+00:06:19,890 --> 00:06:27,170
+Se for verdadeiro falso além do campo está seguro ou minado você tem outra característica bolha que
+
+80
+00:06:27,180 --> 00:06:30,220
+é o seguinte se o campo está marcado ou não.
+
+81
+00:06:30,240 --> 00:06:32,360
+Nesse caso a gente marca alguns campos.
+
+82
+00:06:32,370 --> 00:06:35,770
+Esse campo que ele está fechado é marcado esse campo aqui.
+
+83
+00:06:35,870 --> 00:06:41,810
+Em algum momento ele estava fechado mas agora está aberto e tem uma mina certo então aqui eu tenho um
+
+84
+00:06:41,820 --> 00:06:48,200
+outro atributo que é o fato de estar marcado marcada quando você quer dizer que o campo tem uma mina.
+
+85
+00:06:48,200 --> 00:06:53,940
+Você já detectou que aquele campo tem uma mina e você quer deixar visualmente a indicação que aquele
+
+86
+00:06:53,940 --> 00:06:55,470
+campo não deve ser aberto.
+
+87
+00:06:55,560 --> 00:06:59,430
+Então nós temos aqui no nosso campo um atributo linha.
+
+88
+00:06:59,490 --> 00:07:01,460
+Nós temos um atributo coluna.
+
+89
+00:07:01,680 --> 00:07:08,730
+Nós temos três outros atributos do tipo bullying em que é aberto minado marcado e um outro atributo
+
+90
+00:07:08,730 --> 00:07:16,530
+importante no campo é o fato de que o campo tem uma vizinhança e essa vizinhança é importante porque
+
+91
+00:07:16,530 --> 00:07:22,890
+no momento que você abre um campo esse campo de sinal é praxe aqui na aplicação ficar no momento que
+
+92
+00:07:22,890 --> 00:07:23,510
+você abre.
+
+93
+00:07:23,510 --> 00:07:28,150
+Você percebe que ele vai expandindo o jogo ao clicar aqui e o que é errado na marcha.
+
+94
+00:07:28,240 --> 00:07:34,770
+Aqui você tem um só dia que ele vai expandindo porque é nesse campo que eu peguei a vizinhança ao redor
+
+95
+00:07:34,770 --> 00:07:40,180
+dele era seguro então ele vai expandindo até ele chegar em campos no qual não dá para abrir mais porque
+
+96
+00:07:40,190 --> 00:07:46,710
+a vizinhança já não é segura então você tem os vizinhos associado a um campo também é algo importante.
+
+97
+00:07:46,710 --> 00:07:55,170
+Então aqui eu vou criar um raio x colocar o bicho era algo último do tipo campo ou seja eu tenho o tipo
+
+98
+00:07:55,170 --> 00:08:00,960
+o campo que tem uma lista do próprio tipo o campo não é um problema isso se chama auto relacionamento
+
+99
+00:08:00,960 --> 00:08:08,820
+ou seja você tem uma relação um pra mim consigo mesmo certo ou seja uma pessoa pode ter filhos que são
+
+100
+00:08:08,820 --> 00:08:10,260
+do tipo pessoa também.
+
+101
+00:08:10,290 --> 00:08:16,110
+Nenhum problema com isso depende da forma como você vai mapear nesse caso tem um lixo de Campos que
+
+102
+00:08:16,110 --> 00:08:25,330
+eu vou chamar aqui de vizinhos e vou atribuir um milhão ao rei Luís XI que também é do tipo capitão
+
+103
+00:08:25,340 --> 00:08:27,300
+ou daqui como Shifter.
+
+104
+00:08:27,420 --> 00:08:33,750
+Para ele organizar os impostos ele trouxe tanto o Jabuti o lixo e o Jabuti aí existe.
+
+105
+00:08:34,020 --> 00:08:39,480
+Nesse caso eu estou usando a notação dos genéricos pra dizer que essa lista só aceita elementos do tipo
+
+106
+00:08:39,480 --> 00:08:39,990
+campo.
+
+107
+00:08:40,110 --> 00:08:40,640
+Então pronto.
+
+108
+00:08:40,640 --> 00:08:46,620
+Nesse ponto nós criamos a nossa parte na nossa primeira classe ainda não vamos fazer testes na próxima
+
+109
+00:08:46,620 --> 00:08:53,190
+aula na próxima aula existem algumas estratégias de teste ou você pode construir o teste antes e verificar
+
+110
+00:08:53,190 --> 00:08:57,840
+se está certo ou não deixou o seu pai da funcionalidade e faz o teste.
+
+111
+00:08:57,840 --> 00:09:03,010
+Depois de exigir as duas abordagens eu vou seguir uma abordagem que primeiro a gente vai implementar
+
+112
+00:09:03,030 --> 00:09:08,330
+depois a gente faz o teste porque é como um o custo de taxa não vou dar esse foco no teste para eventualmente
+
+113
+00:09:08,340 --> 00:09:13,380
+gerar algum tipo de confusão ele vai construir a funcionalidade e depois disso a gente vai fazer o teste
+
+114
+00:09:13,380 --> 00:09:16,800
+para verificar se a funcionalidade está 100% funcionado.
+
+115
+00:09:17,130 --> 00:09:19,890
+Então pessoal essa é a nossa primeira parte.
+
+116
+00:09:19,890 --> 00:09:25,650
+Nós criamos aqui os nossos atributos criamos a lista de vizinhos que é do tipo o campo já marquei os
+
+117
+00:09:25,670 --> 00:09:27,940
+genéricos e criei o nosso construtor.
+
+118
+00:09:28,050 --> 00:09:33,560
+Na próxima aula nós vamos criar uma funcionalidade que eu vou chamar de adicionar vizinho.
+
+119
+00:09:33,660 --> 00:09:40,590
+Eu não posso permitir por exemplo que se eu tentar pegar esse campo aqui ou pegar o campo mais simples
+
+120
+00:09:40,620 --> 00:09:44,610
+por exemplo esse campo que é o primeiro na linha zero na coluna zero.
+
+121
+00:09:44,610 --> 00:09:50,550
+Eu não posso permitir que esse campo na linha zero e na coluna zero seja vizinho do campo que está lá
+
+122
+00:09:50,730 --> 00:09:54,360
+do outro lado do tabuleiro porque eles não estão próximos.
+
+123
+00:09:54,360 --> 00:09:59,490
+Eu só posso garantir que na hora de adicionar um vizinho ele só permite adicionar o vizinho que esteja
+
+124
+00:10:00,120 --> 00:10:05,190
+do lado daquele campo então para esse campo aqui esse pode ser um vizinho.
+
+125
+00:10:05,430 --> 00:10:07,710
+Esse pode ser o vizinho e esse ou também pode.
+
+126
+00:10:07,710 --> 00:10:11,020
+Esses três aqui fora esses três nenhum outro que não pode ser vizinho.
+
+127
+00:10:11,340 --> 00:10:16,810
+Então nós vamos implementar essa lógica na próxima aula que é uma das lógicas mais complicadas para
+
+128
+00:10:16,810 --> 00:10:22,080
+essa classe especificamente que a classe campo e a função que nós vamos adicionar vai ser uma função
+
+129
+00:10:22,080 --> 00:10:26,210
+que vai atuar na bula pra dizer se irá adicionar ou não com um vizinho.
+
+130
+00:10:26,550 --> 00:10:35,980
+O nome da função vai ser adicionado ao vizinho e ele vai receber no campo que vai ser que o vizinho.
+
+131
+00:10:36,000 --> 00:10:39,510
+Se esse vizinho pode ou não ser adicionado como vizinho.
+
+132
+00:10:39,520 --> 00:10:46,290
+é exatamente a lógica desse campo que vai dizer imagine se tornassem isso aqui público ou seja qualquer
+
+133
+00:10:46,290 --> 00:10:50,070
+classe poderia mexer os vizinhos e colocar os vizinhos que quiser.
+
+134
+00:10:50,160 --> 00:10:52,150
+Só que essa não será a nossa abordagem.
+
+135
+00:10:52,150 --> 00:10:52,570
+Por quê.
+
+136
+00:10:52,580 --> 00:10:54,900
+Porque a gente quer um código encapsulado.
+
+137
+00:10:54,900 --> 00:11:01,160
+Quem tem que ter a responsabilidade de dizer quem é que pode ser ou não adicionado como vizinho.
+
+138
+00:11:01,160 --> 00:11:02,760
+é exatamente a classe campo.
+
+139
+00:11:02,910 --> 00:11:09,480
+Então nesse caso esse método vai ditar regra que disse um vizinho pode não ser vizinho de outro recebe
+
+140
+00:11:09,480 --> 00:11:14,430
+um campo como vizinho e aqui a gente vai aplicar essa lógica na próxima aula depois que a gente aplicar
+
+141
+00:11:14,430 --> 00:11:17,580
+essa lógica que é uma das lógicas mais chatinho do jogo.
+
+142
+00:11:17,580 --> 00:11:21,450
+Como a gente implementa ele na outra além de fazer o teste para saber se está tudo certo então fique
+
+143
+00:11:21,450 --> 00:11:25,860
+por aqui na próxima aula vai fazer a lógica de adicional vizinho e até lá.

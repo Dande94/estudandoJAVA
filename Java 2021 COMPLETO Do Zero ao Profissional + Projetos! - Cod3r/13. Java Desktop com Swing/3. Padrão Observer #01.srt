@@ -1,0 +1,559 @@
+1
+00:00:00,210 --> 00:00:05,700
+Vocês já acabaram de ver o meu primeiro vídeo na internet Melville que no canal aulas de programação
+
+2
+00:00:05,710 --> 00:00:08,310
+alguns anos atrás não lembro exatamente quantos.
+
+3
+00:00:08,880 --> 00:00:12,710
+E agora eu quero falar mais uma vez a teoria do padrão observa.
+
+4
+00:00:12,710 --> 00:00:13,160
+Por porquê.
+
+5
+00:00:13,170 --> 00:00:19,020
+Porque eu lembro que quando aprendi o padrão Crouch tive contato pela primeira vez com um padrão observa.
+
+6
+00:00:19,050 --> 00:00:23,280
+Eu tive uma certa dificuldade de entender não é um padrão que você olha.
+
+7
+00:00:23,280 --> 00:00:26,610
+Na primeira vez já vi tudo funcionar assim entendi.
+
+8
+00:00:26,610 --> 00:00:33,750
+Já consigo replicar isso e outros cenários então é algo natural que você sinta um certo desconforto
+
+9
+00:00:33,750 --> 00:00:38,080
+inicial se você nunca viu esse padrão se você nunca usou esse padrão.
+
+10
+00:00:38,080 --> 00:00:44,340
+Se você já vem de uma outra linguagem como por exemplo o JavaScript isso é extremamente natural e você
+
+11
+00:00:44,340 --> 00:00:46,950
+usa muito esse tipo de estratégia.
+
+12
+00:00:46,950 --> 00:00:53,000
+Lá você talvez se sinta muito mais confortável até porque é a implementação que ela é ligeiramente diferente
+
+13
+00:00:53,010 --> 00:00:59,970
+o alvo e outros artefatos que você também pode achar estranho no começo mas o fato é que esse é um padrão
+
+14
+00:01:00,330 --> 00:01:02,440
+muito mais muito importante mesmo.
+
+15
+00:01:02,460 --> 00:01:08,820
+Você pega por exemplo programação reativa que você tem observa los muito usados em frameworks como por
+
+16
+00:01:08,820 --> 00:01:14,890
+exemplo Angola que não tem a ver com o mundo Java mas tem a ver com essa nossa tecnologia como um todo.
+
+17
+00:01:14,970 --> 00:01:18,060
+é um padrão extremamente importante que busca entender esse padrão.
+
+18
+00:01:18,050 --> 00:01:24,660
+Você consegue de uma forma muito mais fácil entender a filosofia desses frameworks entender a filosofia
+
+19
+00:01:24,660 --> 00:01:30,640
+da própria linguagem Java e também entender a filosofia de frameworks visuais como é o suingue.
+
+20
+00:01:30,750 --> 00:01:38,040
+O Java é festa mental você tem essa ideia de criar eventos a partir desses eventos você ser notificado
+
+21
+00:01:38,040 --> 00:01:41,960
+quando isso acontecer e fazer alguma coisa em resposta a um determinado evento.
+
+22
+00:01:41,970 --> 00:01:47,130
+Isso é muito importante eu quero falar com vocês mais uma vez sobre o padrão observo que quando você
+
+23
+00:01:47,150 --> 00:01:54,120
+tem uma figura muito importante nesse padrão de projeto que eu observo que é um cara chamado subjetivos
+
+24
+00:01:54,470 --> 00:01:57,120
+o coloca aqui sobre o subjetivo.
+
+25
+00:01:57,150 --> 00:02:01,600
+Ele é o responsável por detectar a ocorrência do evento.
+
+26
+00:02:01,620 --> 00:02:11,790
+Você tem aqui um determinado evento que vou colocar aqui vendo o subject e o responsável por perceber
+
+27
+00:02:11,790 --> 00:02:13,760
+que o evento aconteceu.
+
+28
+00:02:13,770 --> 00:02:19,050
+7 então o evento acontece e ele vai ser o responsável por detectar que o evento aconteceu e a partir
+
+29
+00:02:19,050 --> 00:02:23,670
+daí notificar os observe se ele o subject.
+
+30
+00:02:23,730 --> 00:02:30,450
+Ele é o responsável por observar o evento mas ele não é o observa e observa quem está interessado em
+
+31
+00:02:30,450 --> 00:02:32,620
+ser notificado quando a acontecer.
+
+32
+00:02:32,630 --> 00:02:37,260
+Observe e está cuidando da vida dele e da nossa do nosso exemplar da festa.
+
+33
+00:02:37,260 --> 00:02:44,010
+A namorada ficou na janela esperando esperamos para até que o evento aconteceu e ela fez todo o processo
+
+34
+00:02:44,130 --> 00:02:50,490
+esperar até que tal evento e notificar todo mundo seja ela centralizou toda a responsabilidade dentro
+
+35
+00:02:50,490 --> 00:02:51,190
+dela.
+
+36
+00:02:51,210 --> 00:02:55,000
+Só que há outra solução mais interessante observa.
+
+37
+00:02:55,170 --> 00:03:02,610
+Ela delegou a responsabilidade de observar o evento para quem realmente tem a condição necessária pra
+
+38
+00:03:02,610 --> 00:03:07,440
+detectar o evento que a pessoa que está controlando a entrada e a saída dos moradores então quando chega
+
+39
+00:03:07,440 --> 00:03:11,520
+o morador quem está ali na portaria sabe que aquele morador chegou.
+
+40
+00:03:11,520 --> 00:03:18,960
+Ele consegue perceber de forma muito mais fácil muito mais presencial ali o evento é exatamente o porteiro
+
+41
+00:03:18,960 --> 00:03:25,260
+que funciona nesse cenário observa com o subject ele consegue detectar o evento uma vez até que estão
+
+42
+00:03:25,260 --> 00:03:32,250
+lá vendo ele vai notificar para quem pediu então vamos supor você tem aqui uma série de outras classes
+
+43
+00:03:32,250 --> 00:03:33,450
+que são os observa.
+
+44
+00:03:33,450 --> 00:03:45,420
+Então até aqui observo zero tenho aqui o outro observa observo 0 2 e tenho aqui um observa 03.
+
+45
+00:03:46,170 --> 00:03:54,000
+Então todos esses três classe aqui estão aptas pra receber notificações quando determinado evento acontecer.
+
+46
+00:03:54,060 --> 00:04:00,390
+Só que pra essas classes serem notificadas necessariamente tem que ter um passo anterior você precisa
+
+47
+00:04:00,750 --> 00:04:08,700
+dizer de forma explícita que é o processo de registrar o que você precisa se registrar dentro do Subject
+
+48
+00:04:08,700 --> 00:04:15,030
+dizer o seguinte ao subjetivo ou ao porteiro como aconteceu o evento para ser notificado então nesse
+
+49
+00:04:15,030 --> 00:04:16,620
+momento você vai chamar um método.
+
+50
+00:04:16,620 --> 00:04:23,130
+Vocês já viram na implementação do exemplo passado que eu vou chamar um metro chamado adicionar alguma
+
+51
+00:04:23,130 --> 00:04:30,710
+coisa observo então registrar uma determinada classe como um observador daquele evento e o subgerente
+
+52
+00:04:30,730 --> 00:04:33,640
+como sendo a classe que consegue detetar o vento.
+
+53
+00:04:33,660 --> 00:04:37,800
+Quando o evento acontece ele notifica todo mundo que se registrou.
+
+54
+00:04:38,160 --> 00:04:43,230
+Ou seja todo mundo que está interessado em ser notificado para aquele evento não basta implementar uma
+
+55
+00:04:43,230 --> 00:04:48,820
+interface em que você também precisa se registrar que é no contexto da história do aniversário e ou
+
+56
+00:04:49,170 --> 00:04:50,460
+o ato de interfone.
+
+57
+00:04:50,520 --> 00:04:56,280
+Quando você interfone você diz que o porteiro quer ser notificado então você está registrando a sua
+
+58
+00:04:56,280 --> 00:04:59,170
+intenção de ser notificado quando isso acontecer.
+
+59
+00:04:59,360 --> 00:05:06,870
+Então que eu tenha três observadores aqui se só dois observadores se registrou significa que só esses
+
+60
+00:05:06,870 --> 00:05:09,500
+dois eram notificados quando o evento acontecer.
+
+61
+00:05:09,720 --> 00:05:19,200
+Então aqui eu tenho um ato de registrar o selo registra a intenção de ser notificado quando o evento
+
+62
+00:05:19,200 --> 00:05:22,210
+acontecer então acontece o fluxo.
+
+63
+00:05:22,220 --> 00:05:27,400
+O evento acontece então o primeiro passo aqui garantir por exemplo.
+
+64
+00:05:27,410 --> 00:05:30,350
+O evento acontece quando o evento acontece.
+
+65
+00:05:30,410 --> 00:05:35,010
+O subject detecta claramente aconteceu e ele pega todo mundo.
+
+66
+00:05:35,020 --> 00:05:40,800
+Ele tem aqui já registrado a lista de todos os interessados pra serem notificados quando há muito a
+
+67
+00:05:40,800 --> 00:05:41,530
+acontecer.
+
+68
+00:05:41,870 --> 00:05:45,870
+Então quando o evento aconteceu ele detectou no momento que ele detectou.
+
+69
+00:05:45,890 --> 00:05:53,280
+Ele vai percorrer cada um dos observadores que estão interessados no evento e aí ele sai chamando a
+
+70
+00:05:53,290 --> 00:05:55,850
+determinada funcionalidade de resposta.
+
+71
+00:05:56,200 --> 00:06:01,490
+Muito provavelmente quando ele faz essa chamada Eu vou colocar aqui em vermelho quando ele faz a chamada
+
+72
+00:06:01,880 --> 00:06:09,110
+pra dizer o que aconteceu o evento ele passa o evento como parâmetro nessa chamada ou seja o evento
+
+73
+00:06:09,110 --> 00:06:15,440
+pode ter informações como eu falei pra vocês há informações de quando aconteceu o evento quem disparou
+
+74
+00:06:15,440 --> 00:06:22,030
+o evento em que circunstâncias o evento ou o tipo de evento que aconteceu lá chegou alguém pelo portão
+
+75
+00:06:22,040 --> 00:06:27,950
+principal chegou alguém no portão menor chegou alguém de cara chegou alguém de moto chegou alguém para
+
+76
+00:06:27,960 --> 00:06:29,080
+entregar encomendas.
+
+77
+00:06:29,130 --> 00:06:35,730
+Você tem tipos diferentes e situações que podem estar caracterizados no momento do evento aconteceu
+
+78
+00:06:35,750 --> 00:06:36,680
+imagina.
+
+79
+00:06:36,690 --> 00:06:42,260
+Acho que deu um exemplo também no vídeo e imagino o clique do mouse dê um clique com o botão direito
+
+80
+00:06:42,310 --> 00:06:43,690
+ou com o botão esquerdo.
+
+81
+00:06:43,850 --> 00:06:48,560
+Você vai perceber que no nosso jogo no campo minado a gente vai precisar detectar isso coloquei um clique
+
+82
+00:06:48,560 --> 00:06:54,130
+do mouse com o botão esquerdo vai apresentar pra ele abriu o campo e o clique no mouse com o botão direito
+
+83
+00:06:54,140 --> 00:06:59,990
+vai apresentar para ele marcar o campo com a bandeirinha lá no nosso caso ele vai colocar só a letra
+
+84
+00:06:59,990 --> 00:07:04,790
+em vez de marcar e você não quebra esse campo que você está protegendo proteger campo que potencialmente
+
+85
+00:07:04,790 --> 00:07:05,690
+pode ter uma bomba.
+
+86
+00:07:05,700 --> 00:07:12,440
+O evento carrega consigo algumas informações interessantes pra que a quem observar quem foi interessado
+
+87
+00:07:12,440 --> 00:07:16,500
+no evento entenda exatamente em que circunstâncias aconteceu o evento.
+
+88
+00:07:16,550 --> 00:07:22,850
+E aí implementar algum método em resposta ou seja quando subject chama observe passando determinados
+
+89
+00:07:22,850 --> 00:07:23,990
+eventos.
+
+90
+00:07:23,990 --> 00:07:31,280
+Essa chamada Setting Representa que dentro do observe vai ter um método aqui dentro vai ter um método.
+
+91
+00:07:31,280 --> 00:07:38,750
+Esse método recebe esse evento ou qualquer outra informação por parâmetro e aqui dentro obviamente vai
+
+92
+00:07:38,750 --> 00:07:41,140
+ter todo um algoritmo que você vai implementar.
+
+93
+00:07:41,180 --> 00:07:47,580
+Em resposta a esse evento ou seja ao contrário você terá um metro vai ficar no clube todo o tempo onde
+
+94
+00:07:47,660 --> 00:07:53,450
+acontecer o evento aconteceu o evento que é exatamente a namorada está na janela olhando o evento acontecer
+
+95
+00:07:53,810 --> 00:07:58,100
+e ficar lá esperando esperadas para lá de acontecerem bem você fazer isso.
+
+96
+00:07:58,100 --> 00:08:03,370
+Você está agindo de uma forma mais reativa e não ativa nesse sentido.
+
+97
+00:08:03,500 --> 00:08:09,410
+Agir de forma reativa é muito mais interessante do que agir de forma proativa proativa seria você ficar
+
+98
+00:08:09,410 --> 00:08:15,080
+na janela olhando lá de braços cruzados esperar notavelmente acontecer a forma reativa e você pedir
+
+99
+00:08:15,090 --> 00:08:19,740
+para alguém que tem condição de analisar o problema melhor do que você pra ficar olhando.
+
+100
+00:08:19,780 --> 00:08:25,550
+E quando acontecer aquele evento aí sim você vai ser notificada e você será notificado apenas quando
+
+101
+00:08:25,550 --> 00:08:31,910
+realmente precisar tomar alguma ação como realmente precisar executar alguma funcionalidade ou algum
+
+102
+00:08:31,910 --> 00:08:34,240
+método em resposta ao evento.
+
+103
+00:08:34,280 --> 00:08:40,640
+Quando você clica no botão de uma interface gráfica você quer fechar essa interface gráfica sai do seu
+
+104
+00:08:40,640 --> 00:08:41,440
+programa.
+
+105
+00:08:41,490 --> 00:08:47,270
+O clique no botão é o evento quem vai ficar monitorando é porque vai ficar escutando a interface gráfica
+
+106
+00:08:47,270 --> 00:08:53,560
+pra entender como aconteceu o clique e aí sim chamar a funcionalidade de sua própria femme Walk como
+
+107
+00:08:53,840 --> 00:08:56,150
+swing ou como Java e flex.
+
+108
+00:08:56,150 --> 00:09:00,900
+Então a gente não vai precisar ficar planeta nessa lógica gente simplesmente isola aconteceu um clique
+
+109
+00:09:00,920 --> 00:09:05,240
+chama essa função ou chama esse lambda ou chama essa classe aqui.
+
+110
+00:09:05,450 --> 00:09:11,020
+Então você vai perceber que no contexto essas bibliotecas de interface gráfica você vai muito mais usar
+
+111
+00:09:11,020 --> 00:09:14,120
+você mereceu o observe mais o subject.
+
+112
+00:09:14,180 --> 00:09:20,030
+Ou seja quem vai detectar o evento vai ser o próprio ferino oca biblioteca em si só que essa gente parte
+
+113
+00:09:20,030 --> 00:09:25,670
+pra usar o padrão observe no contexto dessas bibliotecas eu fiz questão que a gente implemente o padrão
+
+114
+00:09:25,670 --> 00:09:30,340
+do começo até o fim para que você entenda todas as partes do padrão.
+
+115
+00:09:30,350 --> 00:09:34,130
+Isso tem a consciência de como o padrão funciona que vai ser muito importante.
+
+116
+00:09:34,130 --> 00:09:39,800
+Além disso a gente vai aplicar até como uma forma de exercício e até como uma forma de ficar mais fácil
+
+117
+00:09:40,070 --> 00:09:42,410
+de a gente criar a nossa interface gráfica.
+
+118
+00:09:42,500 --> 00:09:47,630
+O nosso projétil no campo minado a gente vai mudar a implementação do campo minado para notificar uma
+
+119
+00:09:47,630 --> 00:09:52,520
+explosão para modificar com o campo aberto para modificar como o campo foi marcado.
+
+120
+00:09:52,520 --> 00:09:59,660
+Tudo isso será feito a partir do observe lembre que no campo minado a gente criou exceções pra dizer
+
+121
+00:09:59,660 --> 00:10:05,920
+quando a explosão aconteceu quando o usuário quer sair da aplicação e que não terá mais as exceções
+
+122
+00:10:05,930 --> 00:10:09,090
+para fazer isso a gente vai passar e implementar tudo isso.
+
+123
+00:10:09,120 --> 00:10:09,810
+Observe.
+
+124
+00:10:10,160 --> 00:10:16,000
+Ele é até legal porque é porque a gente implementou algoritmo o mesmo projétil de duas formas diferentes
+
+125
+00:10:16,330 --> 00:10:22,380
+para que você possa ver diferentes abordagens eu fiz questão de não colocar observa e sem colocar observem
+
+126
+00:10:22,390 --> 00:10:26,710
+na primeira implementação mas eu disse Não eu vou por um caminho mais simples e depois com a gente foi
+
+127
+00:10:26,710 --> 00:10:32,200
+integrado com a interface gráfica aí sim a gente entra nesse conceito do padrão de projeto observe e
+
+128
+00:10:32,200 --> 00:10:34,000
+mostre na prática como usar isso.
+
+129
+00:10:34,000 --> 00:10:38,950
+Inicialmente ele vai implementar isso num exemplo isolado e depois aplicar num projeto capilar e depois
+
+130
+00:10:39,220 --> 00:10:42,180
+usar isso muito no contexto da interface gráfica.
+
+131
+00:10:42,190 --> 00:10:47,830
+Essa aula é como se fosse quase uma duplicação daquilo que eu falei na aula passado que fiz questão
+
+132
+00:10:47,830 --> 00:10:52,120
+de colocar o exemplo original para quem tinha algumas animações bem legais que deram muito trabalho
+
+133
+00:10:52,120 --> 00:10:59,140
+na época mas eu também fiz questão de colocar aqui e trazer dentro de um contexto um pouco menos formal
+
+134
+00:10:59,160 --> 00:11:00,970
+que esse foi o primeiro vídeo que eu gravei.
+
+135
+00:11:00,970 --> 00:11:05,830
+Eu me lembro que eu gravei ele todo e lido e eu li no teleprompter e tal aqui eu estou falando eu falo
+
+136
+00:11:05,920 --> 00:11:10,950
+muito mais digamos assim informal né conversando com você sobre o padrão.
+
+137
+00:11:11,040 --> 00:11:16,360
+é possível que algumas informações que eu tenha colocado nesse vídeo tenha acrescentado pelo menos ajudado
+
+138
+00:11:16,750 --> 00:11:19,960
+ou corroborado com aquilo que eu falei no vídeo anterior.
+
+139
+00:11:20,260 --> 00:11:24,850
+Então na próxima aulas vamos implementar o exemplo que eu tinha falado para vocês na aula passada e
+
+140
+00:11:24,850 --> 00:11:25,350
+ele esperou.

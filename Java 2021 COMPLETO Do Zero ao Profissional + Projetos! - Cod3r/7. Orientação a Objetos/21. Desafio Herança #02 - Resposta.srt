@@ -1,0 +1,215 @@
+1
+00:00:00,380 --> 00:00:06,960
+Pessoal nesse caso como é que eu vou resolver esse problema que foi criar o momento que eu perdi o construtor
+
+2
+00:00:06,960 --> 00:00:13,530
+padrão na classe Carro significa que dentro de Civic que eu precisar definiu postou que é exatamente
+
+3
+00:00:13,530 --> 00:00:15,770
+o mesmo nome da classe de Civic.
+
+4
+00:00:15,780 --> 00:00:22,740
+Aqui eu posso estabelecer um valor padrão alguns porque todos o Civic independente do modelo ele tenha
+
+5
+00:00:23,120 --> 00:00:29,830
+a velocidade máxima para c 212 quilos por hora então posso chamar aqui outro o Subway.
+
+6
+00:00:30,240 --> 00:00:34,630
+O super já está indicando que ele vai receber o valor inteiro que a velocidade máxima.
+
+7
+00:00:35,050 --> 00:00:39,350
+Então aqui eu posso colocar duzentos e doze quilómetros por hora.
+
+8
+00:00:39,510 --> 00:00:45,180
+Então nesse caso eu não preciso nem receber por parâmetro esse valor porque eu já sei que o Civic é
+
+9
+00:00:45,180 --> 00:00:52,350
+a característica desse tipo de carro vai ter por exemplo aqui um valor 212 quilómetros por hora.
+
+10
+00:00:52,350 --> 00:00:59,820
+No caso da Ferrari eu posso também criar aqui o outro construtor Ferrari que nesse caso não vai receber
+
+11
+00:00:59,820 --> 00:01:00,490
+nada.
+
+12
+00:01:00,520 --> 00:01:08,370
+Chama que o super passa na velocidade máxima no caso da Ferrari pode ser 315 quilómetros por hora ou
+
+13
+00:01:08,370 --> 00:01:18,260
+então se você quiser criar um outro construtor um Ferrari que recebe um limite de velocidade máxima.
+
+14
+00:01:18,510 --> 00:01:26,740
+E aqui nesse caso você pode por exemplo chamar o Supremo passando à velocidade máxima que você recebeu.
+
+15
+00:01:26,820 --> 00:01:32,510
+Aqui você pode chamar tanto o supercarro pode chamar o DS talvez seja mais interessante chamar o desse
+
+16
+00:01:32,510 --> 00:01:38,340
+espaço pra cá porque aqui você pode ter outros tipos de inicialização que acaba sendo chamado.
+
+17
+00:01:38,340 --> 00:01:39,690
+Se você chamar um deles está bom.
+
+18
+00:01:40,140 --> 00:01:42,820
+E aqui você chama Super passando a velocidade máxima.
+
+19
+00:01:43,200 --> 00:01:45,690
+Por padrão se não falar nada vai ser 315.
+
+20
+00:01:46,110 --> 00:01:53,580
+Então aqui no nosso carro teste eu posso colocar que a Ferrari vai receber por exemplo aqui a velocidade
+
+21
+00:01:53,910 --> 00:01:58,850
+de 400 quilômetros por hora que também é uma possibilidade que eu tenho dois construtores.
+
+22
+00:01:58,850 --> 00:02:04,520
+Outra questão aqui importante é que no caso do acelerador Eu não chamei o sul bem.
+
+23
+00:02:05,100 --> 00:02:06,890
+Então o que você pode fazer aqui.
+
+24
+00:02:06,960 --> 00:02:12,600
+Falei exatamente o que eu falei que a gente pode ter o delta de carro é verde o Delta C5.
+
+25
+00:02:12,600 --> 00:02:19,290
+Você atualizou o Delta para 15 e aqui eu já estou me beneficiando tanto faz o chamado custo padrão como
+
+26
+00:02:19,290 --> 00:02:23,250
+esse conceito automaticamente já teria o Delta para o valor 15.
+
+27
+00:02:23,550 --> 00:02:28,410
+E aqui em vez de chamar o acelerador eu posso simplesmente chamar o super homem.
+
+28
+00:02:28,440 --> 00:02:32,970
+Nesse caso eu não precisaria nem mesmo sobre escrever o método acelerar.
+
+29
+00:02:32,980 --> 00:02:33,560
+Por quê.
+
+30
+00:02:33,590 --> 00:02:36,470
+Porque ele tem aqui um delta pra si que tá bom.
+
+31
+00:02:36,840 --> 00:02:42,870
+Então nesse caso Richa alterou o Delta continua ainda validando a velocidade máxima e tal então significa
+
+32
+00:02:42,870 --> 00:02:48,510
+que no caso que se chama a Ferrari que é consenso que vamos por ora executar.
+
+33
+00:02:48,870 --> 00:02:52,350
+Ele vai continuar acelerando normalmente com um delta maior.
+
+34
+00:02:52,350 --> 00:02:58,560
+Se eu fizer que o Delta bem maluco é ferrar e colocar o Delta sei por exemplo 350.
+
+35
+00:02:58,650 --> 00:03:03,270
+Só pra gente testar e ver que não vai passar a velocidade máxima.
+
+36
+00:03:03,270 --> 00:03:06,280
+Se eu chamar aqui se vai executar você vai de moto.
+
+37
+00:03:06,360 --> 00:03:08,640
+Ele chegou a 345.
+
+38
+00:03:08,690 --> 00:03:15,840
+Aí depois ele foi pra 400 quilômetros por hora mas a gente freou e ele acabou voltando pra 395 e finalmente
+
+39
+00:03:15,870 --> 00:03:21,900
+ele ficando quase seis quilos por hora porque eu não falei então ele não voltou esses 5 nós por horas
+
+40
+00:03:22,070 --> 00:03:28,080
+de tal forma que você percebe que ele não vai passar a velocidade máxima porque é o nosso acelerar não
+
+41
+00:03:28,080 --> 00:03:29,730
+está permitindo fazer isso.
+
+42
+00:03:30,120 --> 00:03:36,030
+Então nosso principal objetivo aqui foi perceber exatamente o impacto que o fato de eu não ter o custo
+
+43
+00:03:36,030 --> 00:03:45,000
+padrão na classe SS e aqui pra manter a sobrescrito só pra gente ter aqui o nosso código comentado.
+
+44
+00:03:45,000 --> 00:03:51,980
+Você pode simplesmente chamar o Supremo ponto acelerar embora isso aqui não faça absolutamente nada.
+
+45
+00:03:52,030 --> 00:03:56,940
+Então já quem não faz nada só pra não confundir eu vou comentar escolhe o mesmo para o pessoal nós fizemos
+
+46
+00:03:56,940 --> 00:04:03,230
+aqui a mesma mudança que a gente tinha feito no outro exercício que é tirar o curso do padrão de carro.
+
+47
+00:04:03,280 --> 00:04:09,570
+Aí ele pode até voltar ao conceito padrão para definir por exemplo que um carro normal ele tem a velocidade
+
+48
+00:04:09,570 --> 00:04:15,720
+do que nós por hora velocidade máxima se nada foi informado ele usa essa velocidade não teria problema.
+
+49
+00:04:15,720 --> 00:04:21,180
+Você também pode definir o segundo consultor tem nessa velocidade máxima compadre é tudo uma questão
+
+50
+00:04:21,180 --> 00:04:26,490
+de estratégia e de necessidade daquilo que você precisa implementar na sua classe.
+
+51
+00:04:26,540 --> 00:04:29,700
+O fato que é importante se você pega o conceito padrão.
+
+52
+00:04:29,700 --> 00:04:35,250
+Isso gera impacto em todas as heranças que você precisa ajustar isso de forma explícita.
+
+53
+00:04:35,280 --> 00:04:41,160
+Você vai precisar invocar o custo a partir do suborno e passando os parâmetros de forma explícita.
+
+54
+00:04:41,160 --> 00:04:45,200
+Eu deixei isso claro tanto nesse desafio como no nosso exercício passado.

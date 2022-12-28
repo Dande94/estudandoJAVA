@@ -1,0 +1,303 @@
+1
+00:00:00,180 --> 00:00:05,850
+Pessoal vamos agora criar mais uma outra consulta também para a gente ver alguns outros exemplos do
+
+2
+00:00:05,850 --> 00:00:11,880
+PAI Plano nos estágios do plano de agregação e também para forçar um pouco mais o conteúdo que nós vimos
+
+3
+00:00:11,880 --> 00:00:17,830
+na aula passada e na loteria ou então pra isso vou criar um novo arquivo e o Fahel o nome do arquivo
+
+4
+00:00:17,830 --> 00:00:24,480
+vai ser consultas três com TXT e apesar de já fazer só uma consulta nesse arquivo colocar seguiu o mesmo
+
+5
+00:00:24,840 --> 00:00:26,160
+padrão de nomenclatura.
+
+6
+00:00:26,580 --> 00:00:32,490
+Então nós vamos fazer o seguinte Aqui eu vou colocar um bebê ponto estados agregados e aqui dentro nós
+
+7
+00:00:32,490 --> 00:00:37,470
+vamos ter o Harry nós vamos usar para fazer o nosso pai plano de agregação que eu quero fazer nessa
+
+8
+00:00:37,470 --> 00:00:43,110
+consulta eu quero é pesquisar dentro da minha coleção e Estados.
+
+9
+00:00:43,170 --> 00:00:46,070
+Qual é o estado que tem a cidade de Sorocaba.
+
+10
+00:00:46,420 --> 00:00:52,920
+E aí eu quero extraí de dentro da cidade de Sorocaba apenas o EDI dessa cidade.
+
+11
+00:00:52,930 --> 00:00:58,610
+Eu quero selecionar o idioma da cidade de Sorocaba que está dentro de algum estado do Brasil certo quero
+
+12
+00:00:58,620 --> 00:01:06,190
+só digamos assim fazer um projeto dessa cidade não é ódio do Estado e sim da cidade que faz parte do
+
+13
+00:01:06,190 --> 00:01:11,490
+a Rede Cidade de algum estado do Brasil sabe que é o estado de São Paulo Mais só vai saber isso o que
+
+14
+00:01:11,510 --> 00:01:17,400
+fizeram os filtros no caso aqui o mais então primeiro plano que eu quero fazer é o primeiro estágio
+
+15
+00:01:17,400 --> 00:01:19,100
+do pai pela agregação.
+
+16
+00:01:19,260 --> 00:01:27,750
+Exatamente mas então eu vou colocar aqui cidades ponto o nome dois pontos Sorocaba e com esse filtro
+
+17
+00:01:27,960 --> 00:01:32,310
+eu extraiu todos os outros estados que não têm a cidade de Sorocaba.
+
+18
+00:01:32,310 --> 00:01:38,490
+Pode ser que eventualmente um Estado tenha outra cidade com esse mesmo nome certo aqui no nosso caso
+
+19
+00:01:38,490 --> 00:01:44,210
+o resultado vai apenas daqui um CMS e vai vetar estados ponta agregados.
+
+20
+00:01:44,290 --> 00:01:50,010
+O único estádio do nosso pai Blaine que vai ser um médico no qual disse que a cidade de o nome tem que
+
+21
+00:01:50,010 --> 00:01:52,280
+ser igual a Sorocaba coloca no item.
+
+22
+00:01:52,620 --> 00:01:59,330
+Ele trouxe aqui no caso o Estado de São Paulo posso colocar aqui no final pra eles é bom resultado direitinho
+
+23
+00:01:59,330 --> 00:02:05,740
+lá trouxe o Estado de São Paulo corretamente mas também trouxe as cidade de Campinas e Guarulhos e Sorocaba.
+
+24
+00:02:05,840 --> 00:02:11,940
+Então voltando aqui pra gente continuar na nossa consulta vou colocar que ao final o segundo passo nosso
+
+25
+00:02:11,940 --> 00:02:18,620
+pai pela agregação que eu vou usar vai ser o dos dois pontos eu vou usar o padrão.
+
+26
+00:02:18,750 --> 00:02:23,200
+Vou querer fazer um um em cima de cidades o que é que eu vou fazer em outras palavras aqui.
+
+27
+00:02:23,850 --> 00:02:30,660
+Nesse caso eu vou querer dizer olá a cidade eu vou querer gerar em vez de ter um único documento dentro
+
+28
+00:02:30,660 --> 00:02:37,140
+desse documento ter uma rede com três cidades eu vou querer que ele gere três documentos o Estado com
+
+29
+00:02:37,140 --> 00:02:40,780
+uma cidade o mesmo Estado com a cidade o mesmo Estado com a cidade.
+
+30
+00:02:41,100 --> 00:02:48,640
+Então colocar aqui ou executar então dá um mexe em cidade ponto nome Sorocaba agora fazer um homem em
+
+31
+00:02:48,650 --> 00:02:54,690
+cima do atributo cidade lembrando que como cidade disse precisa sem ter bolado é preciso estar do lado
+
+32
+00:02:54,690 --> 00:03:00,780
+direito do Estado de Direito dizendo eu coloquei um dólar para que ele possa na API do meu entender
+
+33
+00:03:00,780 --> 00:03:04,500
+que é preciso interpelar esse valor colocado até aqui.
+
+34
+00:03:04,530 --> 00:03:13,410
+Ele gerou agora o resultado três documentos um documento que é o Estado e uma única cidade e agora cidades
+
+35
+00:03:13,710 --> 00:03:16,620
+e venceu a Rui virou objeto.
+
+36
+00:03:16,740 --> 00:03:25,800
+Mesma coisa que o Estado e a cidade virou um objeto é a mesma coisa que o Estado virou o Estado com
+
+37
+00:03:25,950 --> 00:03:29,930
+a cidade de Sorocaba Guarulhos e Campinas.
+
+38
+00:03:30,180 --> 00:03:37,320
+Então quantos modo é o próximo passo pensar vai ser exatamente infiltrar e a cidade de Sorocaba então
+
+39
+00:03:37,320 --> 00:03:46,800
+pra isso eu posso usar aqui mais dois pontos cidades ponto o nome dois pontos Sorocaba nesse caso ficou
+
+40
+00:03:46,800 --> 00:03:52,710
+cidades por algo que eu simplesmente fiz um ano inteiro em cima desse atributo e ele acabou ficando
+
+41
+00:03:52,710 --> 00:03:55,350
+no plural mas colocando aqui contra o Z
+
+42
+00:03:58,450 --> 00:03:59,580
+contra o B.
+
+43
+00:03:59,800 --> 00:04:06,880
+Ele trouxe agora ou apenas o Estado de São Paulo e apenas a cidade de Sorocaba porque o filtro é agora
+
+44
+00:04:06,880 --> 00:04:08,770
+para trazer apenas esse registro.
+
+45
+00:04:08,810 --> 00:04:15,200
+Pra finalizar a gente quiser apenas pegar o Audi da cidade de Sorocaba é muito simples basta fazer 15
+
+46
+00:04:15,250 --> 00:04:15,970
+projectos.
+
+47
+00:04:16,060 --> 00:04:17,590
+Então finalizando
+
+48
+00:04:20,800 --> 00:04:26,060
+estão fazendo aqui um projeto de banco local projetos dois pontos até amanhã.
+
+49
+00:04:26,250 --> 00:04:31,010
+Vai ser exatamente em cidades pontuou Vanderlei Aydin.
+
+50
+00:04:31,110 --> 00:04:36,780
+Nesse caso eu simplesmente resolvi o valor que eu quero que seja aplicado para esse campo ou posso mudar
+
+51
+00:04:36,780 --> 00:04:38,460
+qualquer coisa ou qualquer outro nome.
+
+52
+00:04:38,820 --> 00:04:43,860
+Estou selecionando aqui contra o Zé toda aqui e ali contra o V.
+
+53
+00:04:43,890 --> 00:04:50,640
+O resultado foi exatamente o resultado do dia da cidade de Sorocaba que era o desafio que eu tinha proposto
+
+54
+00:04:50,640 --> 00:04:52,150
+no início do nosso exemplo.
+
+55
+00:04:52,170 --> 00:04:58,220
+Então olhava com tudo só para a gente finalizá lo percebe que nós fizemos aqui dois matches mete pra
+
+56
+00:04:58,220 --> 00:05:03,470
+filtrar apenas os estados que têm a cidade de Sorocaba trazem no documento completo.
+
+57
+00:05:03,510 --> 00:05:08,900
+Depois a gente fez um ano e um dia ou seja dizem que optamos digamos assim a cidade para cada estado
+
+58
+00:05:08,910 --> 00:05:14,690
+ficou apenas uma única cidade em vez de ter um registro um documento com estado muito cidade.
+
+59
+00:05:14,910 --> 00:05:21,120
+Criamos vários documentos cada um uma cidade apenas depois ficou fácil para a gente fazer um filtro
+
+60
+00:05:21,420 --> 00:05:26,790
+em cima da cidade de Sorocaba para trazer apenas o documento que tem a cidade de Sorocaba e finalmente
+
+61
+00:05:26,860 --> 00:05:31,290
+extraí nos aquilo que nós queríamos dentro da cidade de Sorocaba.
+
+62
+00:05:31,320 --> 00:05:36,300
+Claro que se você estivesse fazendo isso dentro de um modelo relacional você conseguiria talvez uma
+
+63
+00:05:36,300 --> 00:05:38,910
+forma mais intuitiva os anéis Kelly.
+
+64
+00:05:38,960 --> 00:05:45,120
+é exatamente o estado que você quer mas o fato é que a API do Monte dá a possibilidade e a partir dessas
+
+65
+00:05:45,120 --> 00:05:52,200
+consultas agregadas obter dados que não são tão diretos como seria se você quisesse obter o documento
+
+66
+00:05:52,200 --> 00:05:58,790
+inteiro ou mesmo se você quiser fazer algum tipo de filtro mais simples diretamente acima da sua coleção.
+
+67
+00:05:59,040 --> 00:06:05,610
+Mas o fato aqui você também tem a possibilidade uma vez que você filtra não for o mais simples na consulta
+
+68
+00:06:05,610 --> 00:06:10,720
+pode pagar esse valor obtido e fazer o resto do processamento dentro do seu software por exemplo.
+
+69
+00:06:10,730 --> 00:06:15,840
+Nem tudo você precisa fazer diretamente da consulta às vezes é mais fácil você extrair uma determinada
+
+70
+00:06:15,840 --> 00:06:23,100
+informação e fazer o processo algumas coisas do lado da sua aplicação mais eventualmente a API do banco
+
+71
+00:06:23,100 --> 00:06:29,220
+vai te dar muitas possibilidades e objetivo desses em dezembro passado é falar um pouquinho sobre o
+
+72
+00:06:29,220 --> 00:06:35,130
+pai pela agregação exatamente pra trazer pra você um pouco dessa lógica de como funciona principalmente
+
+73
+00:06:35,130 --> 00:06:40,560
+sobre a lógica de como funciona a questão das consultas agregadas para que você possa pegar um pouco
+
+74
+00:06:40,560 --> 00:06:46,980
+desse conhecimento e estudar exatamente quais são as fases dos estágios do pai pela agregação e aplicar
+
+75
+00:06:46,980 --> 00:06:49,740
+aquilo que precisa para a sua realidade próxima.
+
+76
+00:06:49,830 --> 00:06:51,360
+A gente continua e até lá.

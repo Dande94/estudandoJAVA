@@ -1,0 +1,327 @@
+1
+00:00:00,570 --> 00:00:08,250
+Agora só nos configurar o nosso projeto é pra isso eu vou criar um novo projeto eu posso criar em vez
+
+2
+00:00:08,250 --> 00:00:09,720
+de criar Java Project.
+
+3
+00:00:10,120 --> 00:00:14,380
+Eu vou colocar aqui e vou procurar o JP.
+
+4
+00:00:14,460 --> 00:00:20,560
+Não vai fazer grande diferença ou criar aqui um projeto do JP mas ele já vai trazer para a gente o persistem
+
+5
+00:00:20,570 --> 00:00:26,770
+expondo XML que é um arquivo de configuração que a gente vai definir quando é que a Apache conexão com
+
+6
+00:00:27,090 --> 00:00:29,880
+os usuários sem o banco etc.
+
+7
+00:00:29,880 --> 00:00:34,470
+Então eu vou selecionar então de novo processo clicar com o botão direito e.
+
+8
+00:00:34,500 --> 00:00:40,520
+Como não aparece aqui eu vou colocá la onde eu vou selecionar vai escrever JP e ele vai marchar para
+
+9
+00:00:40,520 --> 00:00:41,070
+a gente.
+
+10
+00:00:41,100 --> 00:00:50,340
+JP aproveite selecioná Machine ele vai aparecer algumas coisas o nome do nosso projeto vai ser exercícios
+
+11
+00:00:50,970 --> 00:00:56,500
+traço JP a esse é um projeto diferente do nosso outro projeto de exercícios.
+
+12
+00:00:56,640 --> 00:00:59,590
+Eu vou selecionar Machine Mac.
+
+13
+00:00:59,910 --> 00:01:06,500
+Vou colocar aqui pra ele não configurá usei Blackberry Configuration.
+
+14
+00:01:06,540 --> 00:01:11,880
+Eu vou fazer esse processo manualmente e vou colocar aqui genérico 2 outubro.
+
+15
+00:01:12,000 --> 00:01:19,200
+JP até que eu escrevesse 22 pontos cinco mais um gol usar essa opção e clicar em finalizar vocês vão
+
+16
+00:01:19,200 --> 00:01:23,180
+perceber que ele vai criar um projeto dentro desse projeto.
+
+17
+00:01:23,220 --> 00:01:29,730
+Não vou mudar a perspectiva ou deixar a perspectiva atual aqui dentro de material essa excedente vai
+
+18
+00:01:29,730 --> 00:01:32,370
+criar uma pasta chamado meta.
+
+19
+00:01:32,410 --> 00:01:39,380
+Enfim ele dentro vai ter o arquivo persistem pontos XML que em breve nós vamos configurar não na sala
+
+20
+00:01:39,380 --> 00:01:42,050
+mais ou menos configurá lo logo em breve.
+
+21
+00:01:42,060 --> 00:01:49,200
+E aí eu vou aproveitar pra fazer a configuração diretamente dentro do arquivo certo diretamente no XML.
+
+22
+00:01:49,200 --> 00:01:49,620
+Por quê.
+
+23
+00:01:49,620 --> 00:01:51,270
+Para não ficar muito expressivo.
+
+24
+00:01:51,270 --> 00:01:59,640
+Por exemplo para o caso do arquivo está bom então a única coisa que essa parte mais chata que eu não
+
+25
+00:01:59,640 --> 00:02:02,570
+vou saber é decorado obviamente.
+
+26
+00:02:02,580 --> 00:02:08,670
+Escrever essa parte aqui do uso dos esquemas e tal tá certo é muita coisa mas ele já aqui é pra gente
+
+27
+00:02:08,670 --> 00:02:15,240
+o arquivo é tão mais que que a gente vai usar esse arquivo aqui então Arquivo Configurar tá faltando
+
+28
+00:02:15,300 --> 00:02:24,250
+eu criar dentro do meu projeto exercícios porque JP eu vou criar uma pasta chamada libres.
+
+29
+00:02:24,680 --> 00:02:34,260
+Ah bom essa pasta líbios eu vou colocar dentro dela eu vou inclusive entrar dentro de desktop.
+
+30
+00:02:34,320 --> 00:02:40,920
+Eu tenho aqui cursos Java cursos d'água eu tenho o meu word expresso meu espaço de trabalho dentro de
+
+31
+00:02:40,920 --> 00:02:46,070
+exercícios nós criamos uma pasta Líbia que tem o Maya SQL com Neto.
+
+32
+00:02:46,410 --> 00:02:51,880
+Então eu preciso dele para funcionar então vou dar aqui um contra o Zé como eu disse com um livreto
+
+33
+00:02:51,980 --> 00:02:53,300
+é o caso do Mac.
+
+34
+00:02:53,460 --> 00:02:54,660
+Vou jogar pra cá.
+
+35
+00:02:54,810 --> 00:03:01,710
+Daqui a pouco a gente olha aqui ao Sudão Refresh aí você vai ver que já vai aparecer a nossa Líbia mais
+
+36
+00:03:01,720 --> 00:03:05,900
+cara e com netos e eu vou entrar bem nesse ponto.
+
+37
+00:03:05,940 --> 00:03:12,480
+Olha para a gente baixar a última versão do IBM está aqui tem mostrado quais são as últimas versões
+
+38
+00:03:12,480 --> 00:03:19,290
+ao beta 2 na verdade a versão final é Benedito Rm 5 ponto 4 8.
+
+39
+00:03:19,440 --> 00:03:25,190
+Você pode também vir aqui e ali Bermejo e Remi mais logo aqui em cima você vai ter o Beta está afim
+
+40
+00:03:25,190 --> 00:03:31,020
+de que baixe o tutorial nós temos a versão sim e a última versão estável que assim o ponto 4 tem a versão
+
+41
+00:03:31,020 --> 00:03:37,070
+em desenvolvimento que a 6 clicar aqui na versão 5 ponto 4 que é o último momento que eu estou gravando
+
+42
+00:03:37,080 --> 00:03:44,220
+vídeo e aqui você tem a opção de tentar baixar para alguns tipos de ferramentas de bio digital em breve
+
+43
+00:03:44,260 --> 00:03:51,380
+vem goleiro mas eu vou baixar aqui a versão do arquivo zip já até então o arquivo vai começar baixava
+
+44
+00:03:51,390 --> 00:03:57,390
+demora um pouquinho eu vou pausar o vídeo vou voltar daqui a pouco vão achar pra você já o arquivo ZIP
+
+45
+00:03:57,390 --> 00:03:59,980
+padrão baixado ele entra nessa página.
+
+46
+00:04:00,000 --> 00:04:04,450
+é certo que dá como se fosse e não pode conectar mas ele já está baixando aqui.
+
+47
+00:04:04,620 --> 00:04:09,030
+A versão de BMX interno a gente volta para vocês o conteúdo ZIP.
+
+48
+00:04:09,100 --> 00:04:12,050
+Eu quero que vocês precisam jogar para dentro do projeto.
+
+49
+00:04:12,070 --> 00:04:20,970
+Uma hora depois duas horas depois várias horas depois para o pessoal já baixei aqui o arquivo compacto
+
+50
+00:04:20,980 --> 00:04:28,800
+tem o ZIP que eu consegui baixar agora e dentro desse exibe a gente vai entrar especificamente na pasta
+
+51
+00:04:30,100 --> 00:04:33,830
+da pasta líbio que a gente vai precisar o que está dentro da pasta.
+
+52
+00:04:33,830 --> 00:04:40,930
+O aquário seja requerido aqui sãos as mínimas bibliotecas que a gente precisa pra rodar o hibernar aí
+
+53
+00:04:41,460 --> 00:04:48,920
+na sua funcionalidade que inclusive tem a parte da parte do já do JP Anelka o Japão e X persistência
+
+54
+00:04:48,920 --> 00:04:57,440
+e Piauí 2 2 então ele vai pegar essas bibliotecas então ou daqui como ser no caso certo.
+
+55
+00:04:57,450 --> 00:05:05,720
+Vou voltar aqui entre Java exercícios JP libres e vou jogar aqui dentro.
+
+56
+00:05:05,770 --> 00:05:11,730
+As bibliotecas que eu peguei desde que não vou precisar mais aqui do México.
+
+57
+00:05:11,800 --> 00:05:20,680
+Vou excluí meu desktop uma vez feito isso eu vou voltar aqui pro meu projeto global refresh refresh
+
+58
+00:05:20,810 --> 00:05:27,520
+vai aparecer todas essas bibliotecas que eu vou fazer aqui vou selecionar com Shift o primeiro e o último
+
+59
+00:05:27,640 --> 00:05:29,290
+selecionou todas as bibliotecas.
+
+60
+00:05:29,290 --> 00:05:33,090
+Vou clicar com o botão direito onde tem aqui build PAF.
+
+61
+00:05:33,560 --> 00:05:37,750
+Vou selecionar chamar build PAF clicando aqui.
+
+62
+00:05:37,870 --> 00:05:45,480
+Ele vai colocar todos os botecos como sendo bibliotecas referenciados não folhas Lay boys.
+
+63
+00:05:45,710 --> 00:05:53,530
+E aqui nós temos agora à nossa disposição pra usar o JP então o nosso projeto está configurado na próxima
+
+64
+00:05:53,530 --> 00:05:54,180
+aula.
+
+65
+00:05:54,210 --> 00:06:00,490
+Cheguei aqui no meu planejamento nós vamos trabalhar com Apache do persistência pontos XML.
+
+66
+00:06:00,730 --> 00:06:06,520
+Mas vamos pra encher Apache de conexão pra deixar tudo configurado para que a gente possa construir
+
+67
+00:06:06,520 --> 00:06:08,470
+o nosso primeiro exercício.
+
+68
+00:06:08,470 --> 00:06:16,630
+Outra coisa importante é que você também tenha o mais Kelly no Orkut Benz aberto e você explore por
+
+69
+00:06:16,630 --> 00:06:22,910
+exemplo lá esteja funcionando banco de dados que é minha senha 1 2 3 4 5 6 7 8.
+
+70
+00:06:23,320 --> 00:06:29,800
+Nós temos aqui no nosso banco de dados cursos Java e é exatamente em cima desse banco de dados que nós
+
+71
+00:06:29,800 --> 00:06:31,000
+vamos trabalhar.
+
+72
+00:06:31,330 --> 00:06:32,600
+é uma aposta Bennet.
+
+73
+00:06:32,610 --> 00:06:38,920
+Vou fechar aqui no Brasil e na próxima ao mesmo se trabalhar com o arquivo persistem os pontos XML para
+
+74
+00:06:38,920 --> 00:06:45,730
+configurar o arquivo para que todas as informações e conexões estejam corretamente definidas e separadas
+
+75
+00:06:45,730 --> 00:06:46,450
+nesse arquivo.
+
+76
+00:06:46,450 --> 00:06:56,350
+Você pode também dica é colocar por exemplo SQL persiste esse ponto XML e coloca no google que você
+
+77
+00:06:56,350 --> 00:07:01,040
+vai ver as pessoas que compartilham esse arquivo já totalmente configurado.
+
+78
+00:07:01,180 --> 00:07:06,040
+Então na dificuldade que você achar esse arquivo na internet eu já deixei preparado aqui para na próxima
+
+79
+00:07:06,100 --> 00:07:11,380
+a gente fazer esse arquivo de forma manual mas eu acho que a forma mais comum que eu faço na prática
+
+80
+00:07:11,380 --> 00:07:12,490
+eu coloco no Google.
+
+81
+00:07:12,580 --> 00:07:15,900
+Pegue o primeiro que eu achar ou configurado de acordo com minha necessidade.
+
+82
+00:07:16,090 --> 00:07:18,790
+Então fique por aqui na próxima a gente continua e até lá.

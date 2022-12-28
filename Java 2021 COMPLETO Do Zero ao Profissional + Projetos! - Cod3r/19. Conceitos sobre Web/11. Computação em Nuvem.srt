@@ -1,0 +1,931 @@
+1
+00:00:00,510 --> 00:00:06,720
+Agora nós vamos falar sobre computação em nuvem e esse é um tema que já me acompanha desde a época do
+
+2
+00:00:06,720 --> 00:00:13,020
+mestrado mesmo antes disso fiz o mestrado com a integração de redes de sensores sem fio e computação
+
+3
+00:00:13,020 --> 00:00:13,580
+em nuvem.
+
+4
+00:00:13,800 --> 00:00:17,580
+Então decidi la é um tema que me acompanha quase que diariamente.
+
+5
+00:00:17,580 --> 00:00:21,410
+Trabalhar com a nuvem eu vou falar um pouquinho sobre o conceito de nuvem.
+
+6
+00:00:21,420 --> 00:00:24,280
+Depois a gente vai entrar um pouquinho na questão da caracterização.
+
+7
+00:00:24,300 --> 00:00:29,700
+Essa semana agora alguém me adicionou no Facebook e a foto da capa eu procurei um pouquinho antes da
+
+8
+00:00:29,700 --> 00:00:32,160
+aula que é exatamente essa que está aqui na tela.
+
+9
+00:00:32,370 --> 00:00:38,300
+Aí o menino perde para o pai pai de que é feito nas nuvens aí ele diz Olha principalmente servidores
+
+10
+00:00:38,310 --> 00:00:44,910
+terminou na verdade não deixa de ser uma piada mas que é verdade na nuvem ele é limitado a maioria da
+
+11
+00:00:44,910 --> 00:00:51,870
+sua infra estrutura de fato e suportada por servidores Linux e eu vou já entrar no mérito da questão
+
+12
+00:00:51,870 --> 00:00:53,120
+da classificação né.
+
+13
+00:00:53,370 --> 00:00:58,910
+Nuvens de infra estrutura nuvens de plataforma que são as clássicas na nuvem de software.
+
+14
+00:00:58,910 --> 00:01:06,630
+Mais voltando um pouquinho dizer que a questão do conceito de nuvem da nuvem é inspirada nos serviços
+
+15
+00:01:06,960 --> 00:01:09,650
+utilitários que você tem durante a sua vida.
+
+16
+00:01:09,660 --> 00:01:17,100
+Por exemplo você paga todo mês a conta de luz você paga a conta de telefone você paga conta de água
+
+17
+00:01:17,160 --> 00:01:23,430
+e todas essas contas de utilidades que você tem na sua casa ou você paga de acordo com uso.
+
+18
+00:01:23,730 --> 00:01:30,180
+Quanto mais você consome energia mais você paga por ela quanto mais você consome água mais você paga
+
+19
+00:01:30,210 --> 00:01:30,750
+por ela.
+
+20
+00:01:30,750 --> 00:01:36,720
+Muitos da computação em nuvem o que você tinha era por exemplo ou você tinha uma infra estrutura interna
+
+21
+00:01:36,720 --> 00:01:43,970
+na sua empresa para atender o seu software então você tinha que pagar por energia refrigeração máquinas
+
+22
+00:01:43,980 --> 00:01:51,230
+pessoas capacitadas para lidar com toda a infra estrutura infraestrutura de rede e equipamentos de rede.
+
+23
+00:01:51,360 --> 00:01:58,830
+Tudo isso você tinha que ter independente da demanda do seu sistema se ele estaria mais ocioso ou mais
+
+24
+00:01:58,830 --> 00:02:00,050
+com carga maior.
+
+25
+00:02:00,050 --> 00:02:05,610
+Você teria que ter uma infra estrutura que dessem conta da carga máxima que o seu sistema iria suportar
+
+26
+00:02:05,610 --> 00:02:11,850
+então você tinha uma estrutura super dimensionado mais do que realmente a estrutura precisaria numa
+
+27
+00:02:11,850 --> 00:02:19,020
+média você teria boa parte do tempo sua infra estrutura ociosa porque você iria dimensionar no máximo.
+
+28
+00:02:19,020 --> 00:02:25,320
+Então eu tenho um site de comércio eletrônico e o pico das minhas vendas é na época do Natal a semana
+
+29
+00:02:25,320 --> 00:02:30,210
+do Natal então onde menciono a minha infra estrutura para atender esse pico no resto do ano a infra
+
+30
+00:02:30,210 --> 00:02:32,190
+estrutura fica subutilizado.
+
+31
+00:02:32,190 --> 00:02:34,680
+Então você tinha essa caracterização.
+
+32
+00:02:34,710 --> 00:02:41,520
+Depois você passou a ter a ideia de alugar máquinas mas uma máquina dedicada para você sentir bem sem
+
+33
+00:02:41,520 --> 00:02:47,400
+muita flexibilização você tinha uma máquina que tinha tantos gigas de memória tantos processadores o
+
+34
+00:02:47,400 --> 00:02:53,850
+espaço era X e você tinha aquela máquina digamos assim estática você iria usar aquela máquina e pagar
+
+35
+00:02:53,850 --> 00:02:58,920
+por ela alguma coisa do tipo sem incomodar tem aluguel algum tipo de coisa mas você tem uma máquina
+
+36
+00:02:59,310 --> 00:03:02,490
+física com a questão das máquinas virtuais.
+
+37
+00:03:02,810 --> 00:03:08,670
+Ou seja a máquina virtual dentro de uma máquina física real você coloca a máquina virtual e você rapidamente
+
+38
+00:03:08,670 --> 00:03:16,270
+consegue provisionar novos tipos de recursos para aquela máquina a máquina tinha apenas dois processadores
+
+39
+00:03:16,270 --> 00:03:21,830
+e eu consigo alocar agora oito processadores para a máquina virtual basta inicializar a máquina que
+
+40
+00:03:21,840 --> 00:03:27,420
+ela ocupa há mais processadores para determinar a demanda de processamento seja atendida informais apenas
+
+41
+00:03:27,810 --> 00:03:30,000
+a máquina só tem quatro gigas de memória.
+
+42
+00:03:30,030 --> 00:03:37,350
+Quero colocar 16 giga se a máquina física tem espaço e tem disponível essa quantidade de gigas para
+
+43
+00:03:37,350 --> 00:03:38,900
+prover para a máquina virtual.
+
+44
+00:03:38,940 --> 00:03:45,510
+Rapidamente você consegue alocar mais memória mais processador mais disco e se a máquina com poucos
+
+45
+00:03:45,510 --> 00:03:50,300
+minutos você consegue ter uma máquina muito mais robusta de forma elástica.
+
+46
+00:03:50,300 --> 00:03:57,540
+De acordo com a demanda então inspirado nesses serviços utilitários que a gente tem energia água telefone
+
+47
+00:03:57,830 --> 00:04:01,950
+a computação em nuvem tem a ideia de você pagar pelo seu uso.
+
+48
+00:04:01,950 --> 00:04:08,370
+Você aloca por exemplo às vezes por hora por hora de processamento você tem lá um valor X e você pode
+
+49
+00:04:08,370 --> 00:04:12,020
+usar aquelas horas de processamento da forma como você quiser.
+
+50
+00:04:12,030 --> 00:04:18,060
+No momento que terminou o seu trabalho aquele processamento que você estava fazendo ele foi concluído.
+
+51
+00:04:18,060 --> 00:04:22,770
+Você pode simplesmente desligar as máquinas e deixar de pagar porque você paga.
+
+52
+00:04:22,890 --> 00:04:28,650
+De acordo com o uso da mesma forma que a energia água telefone esse serviço que a gente já está acostumado
+
+53
+00:04:28,710 --> 00:04:35,760
+a pagar é muito mais justo essa abordagem é o fato que você consegue e adequando a infra estrutura do
+
+54
+00:04:35,760 --> 00:04:41,780
+seu sistema para que ela possa fazer o escalonamento automático que é o alto escalão e pelo menos na
+
+55
+00:04:42,060 --> 00:04:46,640
+chama esse nome que você vai checando vai aumentando e diminuindo a sua infra estrutura.
+
+56
+00:04:46,640 --> 00:04:54,930
+De acordo com a demanda do seu sistema então você pode por exemplo criar um rudes que seriam limiares
+
+57
+00:04:55,170 --> 00:05:01,790
+para ele diminuir a infra estrutura ou limiares para que a infraestrutura automaticamente aumentada
+
+58
+00:05:01,790 --> 00:05:09,620
+então por exemplo se durante x minutos a máquina passaria pelo centro de processamento cria novas instâncias
+
+59
+00:05:09,620 --> 00:05:16,820
+pra compor a minha infra estrutura e conseguir dimensionar balancear carga no meu site Cipullo X minutos
+
+60
+00:05:16,830 --> 00:05:23,990
+a as minhas máquinas ficarem com menos de 20 por cento de processamento diminua vá deslocando algumas
+
+61
+00:05:23,990 --> 00:05:24,910
+máquinas.
+
+62
+00:05:25,000 --> 00:05:30,680
+Eu quero que a minha infra estrutura fique no mínimo oito máquinas e podendo ir até lá 30 você pode
+
+63
+00:05:30,680 --> 00:05:37,680
+definir limiares a sua infra estrutura pra que ela possa escalonar tanto crescer a sua infra como diminuir
+
+64
+00:05:37,680 --> 00:05:40,870
+a sua infra de acordo com a necessidade de demanda.
+
+65
+00:05:40,880 --> 00:05:47,180
+Então se você tiver picos e demandas dependendo do dia da semana a hora do dia de madrugada muito provavelmente
+
+66
+00:05:47,480 --> 00:05:53,690
+tem uma demanda menor então você pode simplesmente fazer esses processos automáticos e a sua infra vai
+
+67
+00:05:53,690 --> 00:05:59,520
+diminuindo e aumentando de acordo com a necessidade você paga somente por aquilo que você precisa.
+
+68
+00:05:59,660 --> 00:06:05,740
+Então falou um pouquinho da caracterização do uso das classificações existem muitas classificações diferentes
+
+69
+00:06:05,750 --> 00:06:10,970
+mais as clássicas são nuvens de infra estrutura ou então infra estrutura.
+
+70
+00:06:10,980 --> 00:06:20,260
+As a service ou seja a infra estrutura como serviço e a s então se que o Brasil é procurar o termo e
+
+71
+00:06:20,890 --> 00:06:21,780
+esse.
+
+72
+00:06:22,040 --> 00:06:28,020
+Você vai ver que o conceito de nuvem de infra estrutura na infraestrutura como serviço.
+
+73
+00:06:28,040 --> 00:06:32,450
+E aí você tem várias nuvens que estão caracterizados nessa categoria.
+
+74
+00:06:32,450 --> 00:06:40,140
+A principal delas é a Amazon Web Services que é a maior provedor de nuvem do mundo porque um brilho
+
+75
+00:06:40,310 --> 00:06:41,680
+muito forte certo.
+
+76
+00:06:41,840 --> 00:06:46,700
+é a maior nuvem do mundo provedor de nuvem do mundo é uma nuvem de infra estrutura.
+
+77
+00:06:46,700 --> 00:06:53,270
+Nela você consegue ter gerência do computador você estar com um computador também tirando um pouquinho
+
+78
+00:06:53,270 --> 00:06:59,080
+aqui mas na parte prática não custa a WS Eu vou somente navegar em algumas coisas aqui na Câmara uma
+
+79
+00:06:59,090 --> 00:07:05,050
+visão geral só para você ter uma ideia dos tipos de serviços que uma nuvem como a Amazon provê.
+
+80
+00:07:05,060 --> 00:07:09,160
+Você tem serviços de computação por exemplo o principal deles é o S2.
+
+81
+00:07:09,560 --> 00:07:10,440
+Onde você está.
+
+82
+00:07:10,440 --> 00:07:15,350
+As máquinas virtuais por exemplo Windows ou normalmente Linux.
+
+83
+00:07:15,400 --> 00:07:20,200
+E aí depois você acessa o terminal dessas máquinas remotamente via SSH.
+
+84
+00:07:20,210 --> 00:07:24,140
+Você tem uma chave a partir dessa chave você consegue acessar a máquina.
+
+85
+00:07:24,140 --> 00:07:32,030
+Você tem serviços de funções fixos são as a Service você consegue fazer o upload de uma função lá na
+
+86
+00:07:32,030 --> 00:07:38,210
+Amazon com a Amazon lambida e você não precisa se preocupar com o servidor simplesmente você pode depois
+
+87
+00:07:38,210 --> 00:07:41,990
+de uma função associa aquela função.
+
+88
+00:07:42,060 --> 00:07:46,770
+Depois por exemplo observe se aquela função é executada para fazer algum tipo de trabalho.
+
+89
+00:07:46,790 --> 00:07:48,230
+Isso também é possível.
+
+90
+00:07:48,320 --> 00:07:55,460
+Você tem serviços de histórias no caso que eu conheço mais do que eu uso mais o S3 então quero fazer
+
+91
+00:07:55,460 --> 00:07:59,590
+o upload de imagem quero subir meus vídeos e tal.
+
+92
+00:07:59,630 --> 00:08:05,400
+Coloco no S3 e você pode a partir do S3 também disponibilizar o seu site estático.
+
+93
+00:08:05,400 --> 00:08:12,670
+Acabei de implementar um site com envio de script e HTML CSS.
+
+94
+00:08:12,750 --> 00:08:19,940
+E aí você coloca usasse os recursos e estágio da sua aplicação dentro do S3 e aí junto com o S3 você
+
+95
+00:08:19,940 --> 00:08:26,840
+pode usar aquele conceito que eu já falei com vocês nesse capítulo quero ser bem como templos Delivery
+
+96
+00:08:26,900 --> 00:08:33,360
+Network ou as redes de alto desempenho que entrega conteúdo estático ou seja associado ao s3.
+
+97
+00:08:33,380 --> 00:08:40,350
+Você pode usar o que ele tem aqui ao Launch Front estão clicando aqui ou você vai ver que o cloud Front
+
+98
+00:08:40,480 --> 00:08:47,870
+é o serviço competente que ele mostrou os meus de voltar aqui pra cá mais de qualquer forma é a rede
+
+99
+00:08:47,870 --> 00:08:55,310
+que vai te entregar de forma muito mais rápida conteúdos estáticos que por ventura podem estar aqui
+
+100
+00:08:55,310 --> 00:08:56,510
+no S3.
+
+101
+00:08:56,510 --> 00:08:58,690
+Então você tem serviço de banco de dados.
+
+102
+00:08:58,730 --> 00:09:05,600
+Quero distanciar o Moro com o cara distanciar mais Kelly e aí ele tem serviços que vai te dar banco
+
+103
+00:09:05,600 --> 00:09:09,310
+de dados relacionais ele tem banco de dados não relacionais.
+
+104
+00:09:09,440 --> 00:09:12,420
+Você pode distanciar serviços de mídia.
+
+105
+00:09:12,470 --> 00:09:19,300
+Quero fazer um espalhe de arquivo fazer compras e receber um arquivo muito grande no meu sistema.
+
+106
+00:09:19,360 --> 00:09:24,390
+Eu quero imprimir você tem serviço da Amazon vai fazer isso Machine Lane.
+
+107
+00:09:24,470 --> 00:09:32,300
+Você tem migração tem a parte de DNS que é o Rota 53 já falei pra vocês que o nosso DNS está configurado
+
+108
+00:09:32,300 --> 00:09:32,660
+aqui.
+
+109
+00:09:33,080 --> 00:09:37,320
+Então você pode usar o serviço de DNS que muitas coisas tem.
+
+110
+00:09:37,370 --> 00:09:47,750
+Por exemplo na parte PS3 aqui eu coloquei uma área a Amazon tem vários WS tem vários data centers no
+
+111
+00:09:47,750 --> 00:09:54,800
+mundo em São Paulo tem na Europa tem na ásia e nos Estados Unidos tem vários datacenters desses aí eu
+
+112
+00:09:54,800 --> 00:10:03,200
+coloquei que eu não tenho nada certo então aqui eu posso por exemplo criar instâncias que estão se cenas
+
+113
+00:10:03,200 --> 00:10:04,460
+e eu não tenho nenhuma.
+
+114
+00:10:04,680 --> 00:10:10,170
+E aqui você consegue iniciar instâncias muito simples o processo de você criar um instância maior entre
+
+115
+00:10:10,220 --> 00:10:10,840
+aqui.
+
+116
+00:10:10,880 --> 00:10:16,210
+Se você quer distanciar um Windows se você tem um Windows aqui a qualquer instancia a multa.
+
+117
+00:10:16,320 --> 00:10:18,930
+Por exemplo aqui é um servidor Button 16.
+
+118
+00:10:18,930 --> 00:10:23,620
+Ponto 4 tem seu uso em rede rádio tem o próprio Linux da Amazon.
+
+119
+00:10:23,920 --> 00:10:27,760
+Então tem várias possibilidades que você tem a pagar aqui por exemplo.
+
+120
+00:10:27,830 --> 00:10:29,630
+Esse é um botão que vou selecionar.
+
+121
+00:10:30,120 --> 00:10:33,870
+E aí você tem vários tipos de máquinas diferentes.
+
+122
+00:10:34,110 --> 00:10:43,290
+A máquina que tem por exemplo um giga de memória 2 GB de memória 16 32 máquinas que tem 96 processadores
+
+123
+00:10:43,290 --> 00:10:46,260
+e 384 gigas de memória.
+
+124
+00:10:46,350 --> 00:10:52,920
+Você tem desde máquinas muito simples como giga de memória até máquinas gigantescas com mais de 300
+
+125
+00:10:52,920 --> 00:10:53,940
+gigas de memória.
+
+126
+00:10:54,090 --> 00:10:57,300
+Inclusive você também tem a possibilidade de estar tackles.
+
+127
+00:10:57,300 --> 00:11:00,420
+Existem várias possibilidades diferentes.
+
+128
+00:11:00,900 --> 00:11:09,930
+Então tem famílias de propósito geral famílias que têm mais forte a caixa da computação e outros tipos
+
+129
+00:11:09,930 --> 00:11:11,660
+de famílias aqui ao GP.
+
+130
+00:11:11,740 --> 00:11:18,210
+Eu quero fazer processamento gráfico tal compressão de vídeo processamento de vídeo são mais específicas
+
+131
+00:11:18,210 --> 00:11:24,220
+para este tipo de coisa então você tem várias possibilidades ou instâncias que tem e que é mais voltado
+
+132
+00:11:24,240 --> 00:11:30,660
+para grandes espaços de memória não precisa tanto de processador mas precisa muito de memória.
+
+133
+00:11:30,960 --> 00:11:36,690
+Então você tem muitas possibilidades configura se nisso qual é o espaço que você quer colocar algumas
+
+134
+00:11:36,690 --> 00:11:39,640
+tags para você controlar suas máquinas virtuais.
+
+135
+00:11:39,720 --> 00:11:45,630
+E aí depois disso qual o grupo e aí você tem também aqui na Amazon se vão achar para você ter um conceito
+
+136
+00:11:45,630 --> 00:11:52,380
+de ver PC que é o virtual de Claude Set que você criou dentro da sua estrutura da Amazon.
+
+137
+00:11:52,380 --> 00:11:58,310
+Você cria várias redes segregadas por exemplo eu tenho uma rede que está visível na web.
+
+138
+00:11:58,380 --> 00:12:00,120
+Vou colocar o meu servidor web.
+
+139
+00:12:00,390 --> 00:12:05,030
+Vou colocar minhas máquinas de banco de dados em redes que não estão disponíveis na web.
+
+140
+00:12:05,110 --> 00:12:11,790
+Dessa primeira rede tem volta para essa mas essa não conversa com essa então você pode definir vários
+
+141
+00:12:11,790 --> 00:12:17,430
+tipos de mecanismos de segurança dentro de um provedor como esse que é um provedor referência do mundo
+
+142
+00:12:17,490 --> 00:12:19,880
+é o maior provedor de nuvem de infra estrutura.
+
+143
+00:12:19,890 --> 00:12:25,510
+Tem muita coisa inclusive você pode não se preocupar de forma nenhuma com o servidor e fazer um replay
+
+144
+00:12:25,530 --> 00:12:26,620
+por exemplo de uma função.
+
+145
+00:12:26,610 --> 00:12:28,800
+Então são muitas possibilidades.
+
+146
+00:12:28,830 --> 00:12:37,830
+Outro exemplo que seria um exemplo de plataforma como um serviço ou seja P A S platform as a service.
+
+147
+00:12:38,220 --> 00:12:43,610
+Então aqui você tem a possibilidade de simplesmente se preocupar com código.
+
+148
+00:12:43,650 --> 00:12:49,170
+Ou seja aquilo até coloca como uma das vantagens ao servidor apenas código.
+
+149
+00:12:49,470 --> 00:12:55,680
+Então ele vai por exemplo até algumas linguagens suportadas suporta Java suporta Python suporta isso
+
+150
+00:12:55,680 --> 00:13:02,070
+ele deve ter um SDK um kit de desenvolvimento dado o próprio do próprio Google Cláudia que você vai
+
+151
+00:13:02,070 --> 00:13:08,190
+ter uma API para integrar por exemplo um serviço de autenticação serviço de upload de arquivos e coisas
+
+152
+00:13:08,190 --> 00:13:11,100
+do tipo que uma aplicação normalmente precisa.
+
+153
+00:13:11,100 --> 00:13:16,670
+Aqui você vai se preocupar muito mais com código do que propriamente ter o controle da sua infra estrutura.
+
+154
+00:13:16,680 --> 00:13:19,680
+Vai depender muito do nível de abstração que você vai precisar.
+
+155
+00:13:19,680 --> 00:13:24,540
+Eu quero ter o controle da minha infra eu quero que todo o cuidado balança no cargo quero otimizar isso
+
+156
+00:13:24,540 --> 00:13:25,410
+aqui no outro.
+
+157
+00:13:25,530 --> 00:13:31,170
+Você tem como otimizar inclusive boa parte da otimização interna da Amazon.
+
+158
+00:13:31,320 --> 00:13:32,940
+Então dá nos um feed back.
+
+159
+00:13:32,940 --> 00:13:34,460
+Pessoal meu.
+
+160
+00:13:34,470 --> 00:13:41,220
+Eu tenho instâncias que estão executando há mais de dois anos e nunca precisei reinicialização instância
+
+161
+00:13:41,250 --> 00:13:42,610
+porque ela funciona.
+
+162
+00:13:42,630 --> 00:13:43,410
+Nunca caiu.
+
+163
+00:13:43,410 --> 00:13:50,100
+Por exemplo há dois anos zero que eu percebi que caiu foi por alguns segundos de madrugada que eu nunca
+
+164
+00:13:50,100 --> 00:13:50,510
+vi.
+
+165
+00:13:50,550 --> 00:13:56,090
+Que eu saiba que eu tenho monitorado estas etapas e que está há mais de dois anos sem ter nem um segundo
+
+166
+00:13:56,300 --> 00:13:57,500
+o time certo.
+
+167
+00:13:57,510 --> 00:14:01,410
+Então é impressionante a qualidade do serviço que os caras provê.
+
+168
+00:14:01,470 --> 00:14:05,080
+De fato tem um custo e um custo não tão baixo.
+
+169
+00:14:05,090 --> 00:14:10,560
+Quando por exemplo você está acostumado a pagar um servidor PHP em algum provedor deles você paga cinco
+
+170
+00:14:10,560 --> 00:14:15,150
+dólares 10 dólares e tem lá o mês todo uma máquina compartilhada.
+
+171
+00:14:15,150 --> 00:14:19,890
+Os custos são de fato maiores mas de qualquer forma você tem serviço.
+
+172
+00:14:19,890 --> 00:14:26,130
+Você tem uma flexibilidade absurda e uma qualidade de serviço entrega toda a infra estrutura e velocidade
+
+173
+00:14:26,430 --> 00:14:29,690
+que essas máquinas têm de rede são fantásticas.
+
+174
+00:14:29,700 --> 00:14:36,400
+Além de você ter infra estrutura como serviço você tem provedores que te dão plataforma.
+
+175
+00:14:36,420 --> 00:14:42,300
+Você tem uma plataforma de desenvolvimento em cima de uma linguagem do SDK pronto pra você pegar esse
+
+176
+00:14:42,300 --> 00:14:48,260
+software jogar na nuvem como é por exemplo aqui o Google Claude e você tem também o software.
+
+177
+00:14:48,310 --> 00:14:55,740
+A service ou seja software como serviço então você tem o seu Forge por exemplo já está todo configurado.
+
+178
+00:14:55,740 --> 00:15:01,760
+Você já está não precisa se preocupar em desenvolver não precisa se preocupar com infra estrutura simplesmente
+
+179
+00:15:01,770 --> 00:15:05,280
+você tem um software que você personaliza ele da forma como você quer.
+
+180
+00:15:05,420 --> 00:15:10,980
+E a partir dali você consegue fazer o que você precisa vender o seu produto disponibiliza algum tipo
+
+181
+00:15:10,980 --> 00:15:15,420
+de site com seu serviço ou qualquer outra coisa que você precise.
+
+182
+00:15:15,420 --> 00:15:19,810
+Como software então até o Gmail é considerado como o software.
+
+183
+00:15:19,850 --> 00:15:26,560
+Essa serve se você tem uma empresa e você pode pegar todos os seus e-mails o seu nome é direcionado
+
+184
+00:15:26,760 --> 00:15:31,340
+para o Google e quem vai cuidar dos seus e-mails é o Gmail a plataforma de mel do Google.
+
+185
+00:15:31,500 --> 00:15:34,520
+Então você tem níveis de administração.
+
+186
+00:15:34,530 --> 00:15:38,190
+Você tem abstrações deixa mais baixa que você queira do errado.
+
+187
+00:15:38,310 --> 00:15:45,900
+Você tem abstrações de ter a linguagem e o SDK à sua disposição para que você possa desenvolver na nuvem
+
+188
+00:15:46,230 --> 00:15:53,130
+de uma forma mais otimizada já ter pré configurado como fazer o upload pré configurado como você se
+
+189
+00:15:53,130 --> 00:15:59,340
+autentica usando aquela linguagem dentro de um SDK por exemplo no caso do Google Claudia você também
+
+190
+00:15:59,340 --> 00:16:05,970
+tem serviços de softwares para outros que são disponibilizados e também é considerado como computação
+
+191
+00:16:05,970 --> 00:16:06,390
+em nuvem.
+
+192
+00:16:06,390 --> 00:16:09,210
+Só que no nível de abstração mais próximo do usuário.
+
+193
+00:16:09,480 --> 00:16:15,470
+Então são caracterizações diferentes a ideia de você ter a computação em nuvem que revolucionou te dá
+
+194
+00:16:15,510 --> 00:16:22,770
+a possibilidade de ir na sua casa a partir de alguns cliques e distanciar a infra estrutura que seria
+
+195
+00:16:23,730 --> 00:16:26,220
+impossível você fazer alguns anos atrás.
+
+196
+00:16:26,220 --> 00:16:32,520
+Você tem a possibilidade de ter um estar por exemplo em níveis profissionais apenas da sua casa ou com
+
+197
+00:16:32,520 --> 00:16:37,770
+uma ideia na cabeça com bons dedos para você fazer as configurações forma correta.
+
+198
+00:16:37,770 --> 00:16:43,850
+Você consegue sim ter uma infra estrutura muito legal para dar digamos assim energia para a sua ideia.
+
+199
+00:16:43,860 --> 00:16:49,260
+Beleza então eu falo um pouquinho sobre pelo menos as classificações clássicas de computação em nuvem
+
+200
+00:16:49,340 --> 00:16:54,620
+e infraestrutura como serviço plataforma como serviço software como serviço.
+
+201
+00:16:54,920 --> 00:17:01,400
+Mas existem outras como por exemplo função como o serviço que é o caso do WS lambda que você faz depois
+
+202
+00:17:01,410 --> 00:17:07,610
+de uma função que é uma tecnologia que ele chama de células sem sem servidor é de fato sem servidor
+
+203
+00:17:07,650 --> 00:17:14,100
+mas sem configuração não seria o fim com o fim dessa coisa assim nessa configuração você simplesmente
+
+204
+00:17:14,460 --> 00:17:15,810
+faz depois da sua função.
+
+205
+00:17:15,810 --> 00:17:22,410
+Quem cuida da escalabilidade por exemplo fica a cargo da Amazon um nível de abstração maior ou mais
+
+206
+00:17:22,410 --> 00:17:28,620
+desses dos clássicos na infra estrutura como serviço plataforma como serviço software como serviço.
+
+207
+00:17:28,780 --> 00:17:37,440
+E essa ideia de como o serviço é exatamente a ideia da energia desligou a luz para de pagar ligou contabiliza
+
+208
+00:17:37,690 --> 00:17:41,130
+desligou encerra e paga apenas aquilo que foi consumido.
+
+209
+00:17:41,130 --> 00:17:44,390
+Essa é a grande revolução na computação em nuvem.
+
+210
+00:17:44,410 --> 00:17:48,250
+Isso é possível a partir da virtualização.
+
+211
+00:17:48,270 --> 00:17:54,240
+Não sei se eu me foquei muito ensiná lo mas a virtualização é a base da computação em nuvem e o que
+
+212
+00:17:54,240 --> 00:17:57,220
+faz com que você consiga elasticidade.
+
+213
+00:17:57,220 --> 00:18:01,150
+Esse é um conceito também muito importante pagar como serviço.
+
+214
+00:18:01,230 --> 00:18:07,740
+Ou seja usou ou pagou parou de usar para pagar elasticidade a possibilidade que você tem de estar poucos
+
+215
+00:18:07,740 --> 00:18:09,240
+segundos de ter.
+
+216
+00:18:09,300 --> 00:18:15,110
+A mudança para o futuro para um futuro maior ou menor de acordo com aquilo que você precisa.
+
+217
+00:18:15,110 --> 00:18:18,460
+E tudo isso é viabilizado por conta da virtualização.
+
+218
+00:18:18,750 --> 00:18:25,350
+Então você consegue a partir da virtualização pegar uma máquina real que talvez tenha um altera de memória
+
+219
+00:18:25,350 --> 00:18:27,680
+RAM por exemplo ou até mais eu não sei.
+
+220
+00:18:27,750 --> 00:18:33,030
+Servidores da Amazon são gigantescos mas de qualquer forma você tem uma máquina física gigante você
+
+221
+00:18:33,030 --> 00:18:39,600
+consegue criar máquinas dentro desses servidores reais que têm desde memórias muito baixa giga de memória
+
+222
+00:18:39,600 --> 00:18:42,730
+até memórias gigantescas mais de 300 giga.
+
+223
+00:18:42,840 --> 00:18:49,520
+Ou seja você tem uma flexibilidade gigante pra deixar sua máquina virtual bem ela achou que era apenas
+
+224
+00:18:49,520 --> 00:18:56,520
+uma necessidade gigantesca dependendo daquilo que você precisa de consumir nessas máquinas virtuais.
+
+225
+00:18:56,520 --> 00:19:00,260
+Beleza então esses são os conceitos básicos de computação em nuvem.
+
+226
+00:19:00,270 --> 00:19:05,130
+Vimos alguns exemplos inclusive algumas coisas que eu falei na aula que tem muito a ver com coisas já
+
+227
+00:19:05,130 --> 00:19:09,980
+práticas e coisas que você faz de fato no dia a dia.
+
+228
+00:19:09,990 --> 00:19:15,900
+Computação em nuvem não é tanto o objetivo dessa aula é mais falar sobre o conceito de computação em
+
+229
+00:19:15,900 --> 00:19:23,510
+nuvem quem sabe em breve eu gravo um curso específico sobre a WS porque de fato entender não só de desenvolvimento
+
+230
+00:19:23,940 --> 00:19:27,000
+mas você também tem que perder um pouco de infraestrutura.
+
+231
+00:19:27,000 --> 00:19:33,330
+A ideia do box para que você consiga pegar sua ideia é jogar isso de uma forma segura no ambiente de
+
+232
+00:19:33,330 --> 00:19:34,530
+nuvem como está certo.
+
+233
+00:19:34,530 --> 00:19:39,630
+Então espero na próxima aula para a gente ir para o capítulo de HTML e até breve.

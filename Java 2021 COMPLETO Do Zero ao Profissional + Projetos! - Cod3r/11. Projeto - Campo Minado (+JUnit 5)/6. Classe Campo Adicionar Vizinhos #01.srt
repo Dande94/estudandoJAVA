@@ -1,0 +1,251 @@
+1
+00:00:00,340 --> 00:00:06,380
+Nessa aula vão achar para vocês a lógica que eu vou usar para implementar o algoritmo de adicionar vizinhos.
+
+2
+00:00:06,510 --> 00:00:13,470
+Então na verdade nós vamos ter uma lógica que vai se basear na distância dos campos pra que a gente
+
+3
+00:00:13,470 --> 00:00:17,310
+possa definir se esse campo para um vizinho ou não vai ser assim.
+
+4
+00:00:17,850 --> 00:00:23,390
+Imagine num primeiro momento nós vamos ter aula lógica senão essa gente vai ter algumas variações e
+
+5
+00:00:23,390 --> 00:00:24,190
+eu vou mostrar pra você.
+
+6
+00:00:24,190 --> 00:00:29,820
+Nós vamos ter basicamente duas variações a primeira vai ser o seguinte eu quero detectar se esses campos
+
+7
+00:00:29,820 --> 00:00:37,430
+aqui ou que fazem parte dessa cruz aqui deserto sem olhar as diagonais aquilo que está em cima logo
+
+8
+00:00:37,470 --> 00:00:44,540
+em cima do campo mágico o campo meu campo de foco esse campo que é a coluna Tamar ou seja o campo que
+
+9
+00:00:44,540 --> 00:00:48,840
+tá na Linha 3 e na coluna 3 se ele começa no zero lá em cima.
+
+10
+00:00:48,840 --> 00:00:51,380
+Tanto faz não é importante para o nosso cenário.
+
+11
+00:00:51,450 --> 00:01:00,120
+Você está aqui no 3 3 e você tem esses outros campos ao redor seja a Linha 2 da coluna 2 a Linha 2 da
+
+12
+00:01:00,120 --> 00:01:03,130
+coluna 3 m2 a coluna 4 e assim vai.
+
+13
+00:01:03,270 --> 00:01:07,060
+A primeira parte da lógica eu quero trabalhar com essa crueza aqui.
+
+14
+00:01:07,500 --> 00:01:14,580
+Obviamente se eu tiver um campo 3 3 comparando com o campo 3 3 ele é o mesmo campo ou seja não é vizinho
+
+15
+00:01:14,710 --> 00:01:16,020
+é a lógica que eu vou usar.
+
+16
+00:01:16,020 --> 00:01:16,940
+Vai ser o seguinte.
+
+17
+00:01:17,130 --> 00:01:19,730
+Imagine a seguinte lógica aqui eu vou pegar.
+
+18
+00:01:19,890 --> 00:01:26,370
+Vou fazer o seguinte vou pegar aqui o número absoluto da operação matemática da diferença entre as linhas
+
+19
+00:01:26,370 --> 00:01:32,070
+da diferença entre as colunas então vou pegar aqui a minha linha base e a minha coluna base que vai
+
+20
+00:01:32,070 --> 00:01:32,910
+ser o 3.3.
+
+21
+00:01:32,910 --> 00:01:40,870
+Então vou colocar aqui 3 e 3 6 linha coluna e vou pegar por exemplo aqui o 3 e 4 que essa minha casa
+
+22
+00:01:40,920 --> 00:01:42,510
+meu vizinho aqui perto esse aqui.
+
+23
+00:01:42,990 --> 00:01:49,430
+Então se eu fizer aqui ele vai até a Linha 3 e a coluna 4.
+
+24
+00:01:49,890 --> 00:01:57,450
+Então nesse caso se eu fizer uma operação matemática que vai ser a diferença dessa linha com essa diferença
+
+25
+00:01:57,450 --> 00:02:04,080
+dessa coluna com essa você vai perceber que o resultado dessa operação vai ser um porquê.
+
+26
+00:02:04,090 --> 00:02:10,330
+3 menos 3 0 3 menos 4 vai dar menos um só pagar o valor absoluto.
+
+27
+00:02:10,440 --> 00:02:18,150
+A diferença vai ser apenas 1 isso vai acontecer com qualquer um dos outros cenários 4 3 3 2 2 3.
+
+28
+00:02:18,570 --> 00:02:27,270
+Então por exemplo substituindo esse 3 aqui o 4 vou colocar por exemplo 3 2 então vai ser 3 2 a mesma
+
+29
+00:02:27,270 --> 00:02:27,680
+coisa.
+
+30
+00:02:27,680 --> 00:02:36,510
+3 linha linha coluna coluna então 3 menos 3 vai dar 0 3 menos 2 vai dar 1 a diferença sempre vai ser
+
+31
+00:02:36,510 --> 00:02:40,940
+1 ou seja pra todos esses quatro campos que são vizinhos no 3 3.
+
+32
+00:02:40,950 --> 00:02:44,270
+Qualquer diferença em linha linha coluna coluna.
+
+33
+00:02:44,340 --> 00:02:49,930
+Na resposta o valor absoluto que você vai ver o resultado sempre será 1 pra esse triângulo aqui mas
+
+34
+00:02:49,940 --> 00:02:58,740
+existe um outro caso que ainda assim são vizinhos que é esse aqui esse aqui esse aqui que são os valores
+
+35
+00:02:58,740 --> 00:03:00,480
+que estão na diagonal.
+
+36
+00:03:00,480 --> 00:03:04,750
+Você vai ver que nesse caso não vai dar um Estado vai dar 2.
+
+37
+00:03:04,770 --> 00:03:13,680
+Então vou pagar o seguinte eu tenho aqui Linha 3 Coluna 3 vou pagar aqui o outro vai dar 4 e 2 Se eu
+
+38
+00:03:13,680 --> 00:03:14,700
+pagar a diferença.
+
+39
+00:03:14,700 --> 00:03:26,260
+3 4 3 e 2 você vai ver que 3 4 resultado vai dar certo olhando sempre o valor absoluto.
+
+40
+00:03:26,260 --> 00:03:30,540
+Eu não estou preocupado se é menos 1 ou mais um vai pagar um valor absoluto.
+
+41
+00:03:30,540 --> 00:03:37,170
+7 pra pagar o valor absoluto em Java você tem um Mac ponto A B.
+
+42
+00:03:37,280 --> 00:03:43,740
+Ou seja se for negativo ele vai te dar sempre o valor positivo é 3 e 2 o Estado também vai dar um de
+
+43
+00:03:43,740 --> 00:03:49,120
+tal forma que a distância entre esse aqui no meio.
+
+44
+00:03:49,170 --> 00:03:57,120
+Qualquer um nessas 4 direções a distância vai ser 2 ou seja eu tenho uma distância de um pra ser um
+
+45
+00:03:57,120 --> 00:04:04,290
+vizinho ou eu tenho distância de 2 Se ele estiver na diagonal se estiver na diagonal eu tenho uma distância
+
+46
+00:04:04,290 --> 00:04:11,850
+de 2 TB na diagonal até uma distância de 2 ou se ele tiver nesse sentido aqui na cruz eu tenho uma distância
+
+47
+00:04:11,850 --> 00:04:18,540
+de 1 ou seja a fórmula o algoritmo que eu vou usar vai ser o seguinte primeiro o valor ele está na diagonal
+
+48
+00:04:18,630 --> 00:04:22,380
+ou seja em algum diagonal minha seja aqui eu também.
+
+49
+00:04:22,380 --> 00:04:26,660
+Por exemplo se tiver aqui outra casinha aqui em cima.
+
+50
+00:04:26,670 --> 00:04:29,460
+Isso aqui também estará como se fosse na diagonal.
+
+51
+00:04:29,460 --> 00:04:35,400
+Pode ser aqui em cima mas lá em cima esse aqui também estará na minha diagonal seja ele está na diagonal
+
+52
+00:04:35,400 --> 00:04:38,670
+seja nem está na minha linha nem está na minha coluna verdadeiro.
+
+53
+00:04:38,820 --> 00:04:45,590
+Se a distância de algum diagonal for duas casas significa quem é o vizinho porque na diagonal sim para
+
+54
+00:04:45,600 --> 00:04:51,900
+a distância dois e se tiver na minha linha na mesma coluna que eu a distancia obrigatoriamente tem que
+
+55
+00:04:51,900 --> 00:04:54,940
+ser 1 se for o significa meu vizinho.
+
+56
+00:04:55,050 --> 00:05:00,940
+Então esse é um algoritmo que eu vou usar se tiver na cruz certo na ou na mesma linha que como que é
+
+57
+00:05:01,000 --> 00:05:07,260
+a distância é um vizinho se tiver na diagonal e a distância pudores também significar o vizinho.
+
+58
+00:05:07,300 --> 00:05:13,920
+E essa é a regra universal para dizer se em um determinado campo é ou não vizinho do outro significa
+
+59
+00:05:13,920 --> 00:05:20,150
+que se você tentar colocar um campo que não está realmente pelado ele não pode permitir que adicione
+
+60
+00:05:20,160 --> 00:05:20,910
+como vizinho.
+
+61
+00:05:21,210 --> 00:05:27,030
+Mas se você colocar um campo e uma enxada lá do outro você tem que adicionar permitir que ele seja adicionado
+
+62
+00:05:27,030 --> 00:05:31,650
+com um vizinho na próxima aula que mostrar um pouco da teoria na próxima aula vou mostrar para vocês
+
+63
+00:05:31,650 --> 00:05:33,900
+a implementação na prática e até lá.

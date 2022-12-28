@@ -1,0 +1,291 @@
+1
+00:00:00,840 --> 00:00:06,270
+Pessoal fala um pouquinho sobre isso para vocês terem ideia da aplicação dos dois mundos e como é importante
+
+2
+00:00:06,270 --> 00:00:11,550
+você conhecer as soluções de armazenamento de dados relacionais como não relacionais.
+
+3
+00:00:11,550 --> 00:00:16,440
+Pra que você use a solução certa no seu negócio.
+
+4
+00:00:16,500 --> 00:00:23,460
+Eu participei durante muito tempo de um projeto que era pra quando alguém está trabalhando e se machuca
+
+5
+00:00:23,460 --> 00:00:26,240
+e precisa receber algum benefício do governo.
+
+6
+00:00:26,310 --> 00:00:31,620
+Ele precisa passar por um médico para que o médico de fato dê um diagnóstico em cima do diagnóstico
+
+7
+00:00:31,620 --> 00:00:33,880
+ele receba ou não um benefício.
+
+8
+00:00:34,020 --> 00:00:39,690
+E para isso tem uma perícia o médico vai fazer uma perícia em cima dessa perícia ele vai fazer toda
+
+9
+00:00:39,690 --> 00:00:46,140
+a anamnese que eles acham que é fazer o exame clínico do trabalhador em cima disso ele define que tipo
+
+10
+00:00:46,140 --> 00:00:50,200
+de benefício Aquele segurado tem direito ou não.
+
+11
+00:00:50,250 --> 00:00:55,030
+Mentalmente ele pode realmente não ter nenhum problema e conseguir voltar pro trabalho normalmente.
+
+12
+00:00:55,050 --> 00:01:01,320
+E não vou entrar muito em detalhes na questão do negócio mas imagino que você tem um fluxo mais ou menos
+
+13
+00:01:01,320 --> 00:01:08,490
+assim que o fluxo da aplicação você começa a aplicação que é uma aplicação web em cada bolinha que apresenta
+
+14
+00:01:08,490 --> 00:01:09,250
+uma página.
+
+15
+00:01:09,270 --> 00:01:14,070
+E aí você vai navegando ou a aba pode abstrair exatamente o que é que significa isso.
+
+16
+00:01:14,440 --> 00:01:21,270
+Mas são passos de um fluxo de juízas você começa um fluxo único e a partir de determinado momento você
+
+17
+00:01:21,270 --> 00:01:28,440
+começa a focar esse fluxo chegando em diversas possíveis soluções.
+
+18
+00:01:28,440 --> 00:01:35,790
+Dentro desse o ISA é de acordo com aquilo que você vai escolhendo você vai focando em várias possibilidades
+
+19
+00:01:35,790 --> 00:01:36,860
+diferentes.
+
+20
+00:01:37,260 --> 00:01:44,760
+Então aqui você tem mais ou menos como seria lá um fluxo para o segurado e fazendo em cima disso ele
+
+21
+00:01:44,760 --> 00:01:46,690
+vai cair aqui em situações diferentes.
+
+22
+00:01:47,040 --> 00:01:50,880
+Imagine a seguinte situação imagine que você começou aqui um fluxo.
+
+23
+00:01:50,880 --> 00:01:52,240
+Você chegou aqui.
+
+24
+00:01:52,290 --> 00:01:57,380
+Certo entrou aqui passou pra isso aqui entrou nesse caminho entrou aqui terminou bem aqui.
+
+25
+00:01:57,390 --> 00:02:01,060
+Ou seja você terminou o fluxo nesse ponto aqui.
+
+26
+00:02:01,080 --> 00:02:08,010
+A observação importante aqui é quanto os dados estão sendo coletados e quanto a ser feita a perícia
+
+27
+00:02:08,220 --> 00:02:14,340
+esses dados não são usados em nenhuma parte no sistema apenas quando o médico vai lá Hidalgo o cliente
+
+28
+00:02:14,340 --> 00:02:21,300
+final ou seja concluiu o processo é que esses dados vão ser usados em outros processos pra que de fato
+
+29
+00:02:21,300 --> 00:02:23,710
+o cara receba por exemplo dinheiro alguma coisa do tipo.
+
+30
+00:02:24,000 --> 00:02:30,570
+Enquanto isso esses dados estão sendo assistidos em um banco relacional mais ou menos se eu puder chutar
+
+31
+00:02:30,580 --> 00:02:36,330
+que isso era mais ou menos uns 20 tabelas pra persistir todos os dados que são coletados durante esse
+
+32
+00:02:36,330 --> 00:02:36,880
+fluxo.
+
+33
+00:02:37,170 --> 00:02:44,260
+Então se o médico foi lá começou a fazer entrou em stand by aqui e ele chegou antes de terminar percebeu
+
+34
+00:02:44,550 --> 00:02:50,630
+uma coisa achou que cometi um erro eu vou voltar o fluxo e vou querer agora e por outro caminho por
+
+35
+00:02:50,650 --> 00:02:55,970
+que ele queira ir por esse caminho aqui entra vai por aqui e por aqui termina bem assim.
+
+36
+00:02:56,330 --> 00:03:03,880
+Ou seja enquanto ele for no primeiro passo por aqui ele vai voltando a lente e insistindo na ida em
+
+37
+00:03:03,960 --> 00:03:10,040
+20 tabelas diferentes quando você vai voltar você não pode apagar nada mais quando você seleciona um
+
+38
+00:03:10,050 --> 00:03:15,210
+outro caminhão que é conflitante com o primeiro você precisa excluir os dados das outras tabelas para
+
+39
+00:03:15,210 --> 00:03:22,270
+não deixar os dados inconsistentes e você vai excluindo China paralisando até que você chega aqui acha
+
+40
+00:03:22,290 --> 00:03:27,060
+que é esse o médico vai clicar não sabe não quando eu vou voltar agora eu vou por outro caminho que
+
+41
+00:03:27,060 --> 00:03:28,320
+eu quero terminar aqui.
+
+42
+00:03:28,590 --> 00:03:31,050
+Então você percebe a complexidade.
+
+43
+00:03:31,050 --> 00:03:37,960
+Você tem um fluxo desse que já é grande em cima trabalhando em cima de 20 ou mais tabelas persistindo
+
+44
+00:03:38,020 --> 00:03:44,370
+excluindo alterando isso no banco relacional é muito complexo de ser feito dava muito trabalho.
+
+45
+00:03:44,700 --> 00:03:51,210
+Imagine se você agora faz o seguinte eu não vou usar isso durante o fluxo não vou mais aplicar nas minhas
+
+46
+00:03:51,210 --> 00:03:59,200
+tabelas ou vou simplesmente pegar toda essa estrutura aqui vou mapear em cima de um único documento.
+
+47
+00:03:59,370 --> 00:04:07,830
+Aí só em um banco não relacional nesse caso tudo que o usuário faz durante esse esse fluxo aqui super
+
+48
+00:04:07,830 --> 00:04:14,430
+complicado ele persiste uma única estrutura ou seja uma API e mais de vinte tabelas um único com um
+
+49
+00:04:14,430 --> 00:04:17,970
+único documento um só persiste durante o processo.
+
+50
+00:04:17,970 --> 00:04:23,950
+Lá persiste persiste persistem no final quando de fato ele deu o aval final para outro.
+
+51
+00:04:24,050 --> 00:04:25,980
+Vale ideia isso mesmo o que eu quero fazer.
+
+52
+00:04:26,230 --> 00:04:33,680
+Ele pega esse documento e aí sim preciso de uma vez só uma única vez essas minhas tabelas os dados já
+
+53
+00:04:33,720 --> 00:04:34,550
+consistentes.
+
+54
+00:04:34,590 --> 00:04:40,290
+Então nesse caso seria muito mais fácil em vez de você ficar se preocupando com as idas e vindas desse
+
+55
+00:04:40,290 --> 00:04:44,180
+processo apagando excluído atualizado um monte de dados.
+
+56
+00:04:44,180 --> 00:04:51,000
+Vocês se preparem em armazenar tudo isso em um único documento e só aí no final do fluxo o que de fato
+
+57
+00:04:51,100 --> 00:04:57,280
+não foi efetivado dizem é exatamente isso que eu quero diagnosticar é exatamente essa a minha decisão.
+
+58
+00:04:57,300 --> 00:04:59,640
+Aí sim ele bem se faria isso.
+
+59
+00:04:59,660 --> 00:05:07,620
+Enfim tabelas ou seja nem o mundo é SQL nem o modelo relacional vai dar a resposta definitiva pra esse
+
+60
+00:05:07,620 --> 00:05:13,890
+problema e o mundo não relacional da área a solução ideal para esse problema nesse problema o vejo que
+
+61
+00:05:13,890 --> 00:05:21,930
+é uma excelente oportunidade você usar o melhor dos dois mundos é muito fácil você persistir 20 40 o
+
+62
+00:05:21,930 --> 00:05:28,620
+conteúdo de 40 tabelas dentro de uma estrutura só que apresente esse fluxo e aí uma vez que você termina
+
+63
+00:05:28,620 --> 00:05:34,650
+você pode pegar o resultado desse fluxo e salvar esse fim na tabela uma única vez a partir daí outros
+
+64
+00:05:34,650 --> 00:05:41,300
+furos podem eventualmente consultar esses dados para prosseguir o processo de concessão por exemplo
+
+65
+00:05:41,300 --> 00:05:42,120
+de um benefício.
+
+66
+00:05:42,120 --> 00:05:47,150
+Então você percebe que o exemplo que você tem o melhor dos dois mundos trabalha a nosso favor.
+
+67
+00:05:47,160 --> 00:05:54,840
+Por isso eu quis colocar um capítulo de banco relacional explicando os princípios as consultas os relacionamentos
+
+68
+00:05:54,850 --> 00:06:00,370
+como é que você faz algumas dicas de modelagem agora estou falando pouquinho sobre os bancos não relacionais.
+
+69
+00:06:00,450 --> 00:06:05,320
+Então uma vez que você falou a mim essa base de conhecimento em banco relacional é a base de conhecimento
+
+70
+00:06:05,320 --> 00:06:11,220
+e banco não relacional você seja capaz de aplicar essas duas soluções dentro do negócio que você está
+
+71
+00:06:11,220 --> 00:06:12,110
+tentando resolver.
+
+72
+00:06:12,270 --> 00:06:17,490
+Então espero na próxima aula para isso começar de fato mexer um pouco mexer no cliente e os comerciais
+
+73
+00:06:17,570 --> 00:06:19,710
+tornam se os primeiros comandos e até aproximá lo.

@@ -1,0 +1,83 @@
+1
+00:00:00,320 --> 00:00:05,310
+Pessoal para instalar um jogo a gente vai entrar no jogo beber download na primeira opção.
+
+2
+00:00:05,310 --> 00:00:10,260
+Você vai selecionar a aba serve e selecionar o último uma versão para Windows.
+
+3
+00:00:10,260 --> 00:00:16,260
+No caso há quatro pontos dois download ele vai entrar com um processo de downloads que é um processo
+
+4
+00:00:16,260 --> 00:00:23,250
+rápido muito grande esse finalizar basicamente onde vai rodar esse arquivo num processo de Wizard Supersimples.
+
+5
+00:00:23,700 --> 00:00:32,740
+Então vou selecionar Next em aceitar a licença e selecionar aceitar ou selecionar a opção completo complete.
+
+6
+00:00:32,890 --> 00:00:40,230
+E aqui basicamente deixar as opções já estão configuradas e selecionar mexe mexe mais uma vez e finalmente
+
+7
+00:00:40,250 --> 00:00:40,750
+instala
+
+8
+00:00:45,830 --> 00:00:46,960
+pronto finalizar.
+
+9
+00:00:46,960 --> 00:00:54,830
+Para finalizar a gente vai criar uma pasta dentro do diretório C da máquina que a pasta data e depois
+
+10
+00:00:54,830 --> 00:00:55,400
+dentro.
+
+11
+00:00:55,400 --> 00:01:00,860
+A pasta dB então primeira coisa nós vamos criar algo que é um novo diretório a nova pasta.
+
+12
+00:01:00,860 --> 00:01:09,950
+O nome da pasta será data dentro dessa pasta data ao entrar vou criar uma outra pasta novo diretório
+
+13
+00:01:10,460 --> 00:01:15,930
+para criar pasta de bebê que é exatamente o local onde o mundo vai inicializar os bancos de dados.
+
+14
+00:01:15,930 --> 00:01:18,530
+é aí que ele vai colocar os arquivos.
+
+15
+00:01:18,530 --> 00:01:24,970
+Feito isso nós vamos entrar novamente na Explorer para ser arquivos de programa.
+
+16
+00:01:25,000 --> 00:01:28,710
+O bebê serve 4 ponto 2 bi dentro.
+
+17
+00:01:28,730 --> 00:01:35,260
+Vai ter um executável muito dele exatamente o que você vai clicar duas vezes pra inicializar.
+
+18
+00:01:35,660 --> 00:01:41,420
+Ele mostra em vários blogs se mostrou na inicialização do mundo e essa frase do final que diz que a
+
+19
+00:01:41,420 --> 00:01:49,640
+instalação deu certo Waiting for conecte na porta 27 0 17 ou seja está pronto pra ser usado e está esperando
+
+20
+00:01:49,640 --> 00:01:53,910
+por conexões exatamente na porta que foi definida na inicialização.
+
+21
+00:01:54,140 --> 00:01:57,980
+Então esse é o processo de configuração do Windows e até aproximá próxima.

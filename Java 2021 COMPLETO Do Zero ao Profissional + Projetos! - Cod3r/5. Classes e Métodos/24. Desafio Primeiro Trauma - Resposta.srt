@@ -1,0 +1,175 @@
+1
+00:00:00,120 --> 00:00:07,390
+Pensar a mochila para vocês a resposta ou tirar esses comentários aqui que foi só para a gente definir
+
+2
+00:00:07,460 --> 00:00:16,230
+que algumas regras básicas é o seguinte nós estamos nesse cenário aqui dentro de um método estático
+
+3
+00:00:16,230 --> 00:00:18,840
+ou seja um metro que pertence à classe.
+
+4
+00:00:19,410 --> 00:00:27,180
+Só que essa esse atributo aqui da Linha 5 ele é um atributo que pertence à instância ou seja eu só consigo
+
+5
+00:00:27,690 --> 00:00:32,600
+a partir de um método de classe acessar um atributo de distância.
+
+6
+00:00:32,610 --> 00:00:39,690
+Se antes eu criar uma instância mesmo que eu esteja na própria classe eu não consigo acessar esse valor
+
+7
+00:00:39,800 --> 00:00:41,880
+a não ser que eu crio instância.
+
+8
+00:00:42,300 --> 00:00:48,250
+Então vou precisar criar uma instância do tipo primeiro trauma cada um na minha classe que eu vou chamar
+
+9
+00:00:48,250 --> 00:00:56,850
+aqui de B recebe mil primeiro trauma e vou colocar aqui chamar o construtor ou seja criei uma instância
+
+10
+00:00:56,850 --> 00:00:57,980
+da classe.
+
+11
+00:00:58,170 --> 00:01:05,130
+Primeiro terá meu tipo na da classe B recebe mil primeiro trauma agora sim a partir dessa instância
+
+12
+00:01:05,130 --> 00:01:13,110
+p que eu consigo fazer um pontuar e aí sim eu consigo ter acesso ao valor da variável 3 ou seja mesmo
+
+13
+00:01:13,110 --> 00:01:20,400
+estando na própria classe você só consegue acessar um membro distância a partir de um método estático
+
+14
+00:01:20,400 --> 00:01:25,380
+se você criar uma instância então sou obrigado a criar um instância uma ou outra forma que você tinha
+
+15
+00:01:25,380 --> 00:01:31,060
+de resolver em Moscou que eu queria aqui um álbum inteiro B recebe o valor 4.
+
+16
+00:01:31,470 --> 00:01:37,440
+Outra forma que você tem se você tentar acessar aqui diretamente o valor de B você não vai conseguir
+
+17
+00:01:37,440 --> 00:01:44,340
+acessar vai dar um problema porque você não consegue acessar diretamente o valor que pertença à instância
+
+18
+00:01:44,340 --> 00:01:51,870
+a partir de um membro estático aqui eu poderia usar o mesmo valor P Ponto B C daria certo também mas
+
+19
+00:01:51,870 --> 00:01:58,280
+se você quiser transformar esse atributo em estático aí eu não preciso acessar.
+
+20
+00:01:58,380 --> 00:02:04,740
+Usando a instância eu posso simplesmente acessar direto a variável B então estão duas formas que você
+
+21
+00:02:04,740 --> 00:02:11,850
+tem pra conseguir dessa comunicação entre algo estático com a distância ou você transforma essa coisa
+
+22
+00:02:11,850 --> 00:02:17,700
+Distance em algo estático que foi o caso do B ou seja uma variável de instância acabei mudando a era
+
+23
+00:02:17,700 --> 00:02:24,630
+pra ser estática algo estático pode acessar algo estático ou seja um membro de classe consegue acessar
+
+24
+00:02:24,780 --> 00:02:30,840
+outro membro de classe ou membro estático também consegue acessar outro membro estático é a mesma coisa.
+
+25
+00:02:31,140 --> 00:02:38,250
+Mais Se você não quiser transformar um atributo pra ser um membro estático ou um membro de classe ele
+
+26
+00:02:38,250 --> 00:02:41,460
+irá continuar sendo um atributo de instância.
+
+27
+00:02:41,460 --> 00:02:46,800
+Aí sim você obrigatoriamente pra acessar ele precisa criar uma instância que conforme eu fiz aqui na
+
+28
+00:02:46,800 --> 00:02:48,570
+minha 10 e na Linha 11.
+
+29
+00:02:48,660 --> 00:02:55,230
+A partir daí a instância usa na natação contou Eu consegui acessar o atributo app e como B passou a
+
+30
+00:02:55,230 --> 00:02:57,770
+ser estático eu consigo acessar ele diretamente.
+
+31
+00:02:58,170 --> 00:03:04,500
+Então esse é um conhecimento que tem tudo a ver com atributos estáticos e atributos de instância e eu
+
+32
+00:03:04,510 --> 00:03:10,380
+espero que você tenha conseguido resolver o desafio porque eu não consegui la no meu começo como programador
+
+33
+00:03:10,700 --> 00:03:14,700
+mais independente se você não tiver conseguido resolver esse desafio.
+
+34
+00:03:14,700 --> 00:03:20,460
+Eu espero que mais esse exemplo também traga um pouco mais de clareza pra esse conceito que é importante
+
+35
+00:03:20,460 --> 00:03:25,770
+não é um conceito tão simples principalmente para quem está começando noto que os alunos têm sim uma
+
+36
+00:03:25,790 --> 00:03:31,050
+dificuldade com esse conceito e é extremamente normal que todos esses conceitos que a gente está vendo
+
+37
+00:03:31,610 --> 00:03:37,950
+precise de um certo tempo de maturação às vezes repetir a aula mais uma vez fazer um exercício mais
+
+38
+00:03:37,950 --> 00:03:40,560
+uma vez tudo isso é extremamente normal.
+
+39
+00:03:40,590 --> 00:03:46,290
+Eu te encorajo se você tiver começando no mundo da programação de certa forma você ainda tem algumas
+
+40
+00:03:46,290 --> 00:03:51,810
+dúvidas sobre tudo aquilo que eu já falei no capítulo não tem problema vai lá repete assistiu quantas
+
+41
+00:03:51,810 --> 00:03:58,530
+vezes for necessário porque eu tenho certeza que no final isso vai ser compensado com o conhecimento.
+
+42
+00:03:58,530 --> 00:04:01,450
+Sendo assim realmente captado por vocês.
+
+43
+00:04:01,510 --> 00:04:02,850
+Então fico por aqui qualquer dúvida.
+
+44
+00:04:02,850 --> 00:04:07,470
+Você também tem o nosso fórum para que você possa estar fazendo suas perguntas então desperta na proximal.

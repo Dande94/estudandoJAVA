@@ -1,0 +1,143 @@
+1
+00:00:00,420 --> 00:00:07,110
+Nós acabamos de ver o conteúdo distribuído e eu falei um pouquinho sobre o fato de que quando você colocar
+
+2
+00:00:07,110 --> 00:00:13,740
+a muitas estrelas isso não é uma boa prática porque pode explodir a quantidade de estranhos lá por distritos.
+
+3
+00:00:14,100 --> 00:00:19,710
+Então nesse caso o ideal é você usar um cara chamado string bio da sala eu vou mostrar para você rapidamente
+
+4
+00:00:20,100 --> 00:00:24,390
+como é que é ele e algumas das funcionalidades mais importantes que ele tem.
+
+5
+00:00:24,530 --> 00:00:31,290
+Então pra nós fazermos esse exemplo eu vou clicar com o botão direito em cima do pacote e clicar com
+
+6
+00:00:31,290 --> 00:00:33,840
+o botão direito Mio Less.
+
+7
+00:00:34,650 --> 00:00:38,870
+O nome da classe vai ser explorado string miúda.
+
+8
+00:00:39,450 --> 00:00:43,930
+Vou finalizar e vou criar aqui.
+
+9
+00:00:45,950 --> 00:00:48,870
+Para criar um estilingue Mil Faces 13 mil.
+
+10
+00:00:49,520 --> 00:00:51,440
+SB recebe os 13 mil.
+
+11
+00:00:52,440 --> 00:01:01,510
+E aí depois que eu chamo de metro chamada de anexar uma determinada string a mil então coloca apenas
+
+12
+00:01:01,520 --> 00:01:09,710
+João ponto a pé de vírgula ponto aprende Maria eu posso concatenar uma chamada da parede atrás da outra.
+
+13
+00:01:09,710 --> 00:01:15,810
+Não tem problema em caso de a proposta Marquis 13 mil apenas vírgula aprende Pedro.
+
+14
+00:01:16,470 --> 00:01:21,620
+E aí eu posso chamar o apelido e fazer o que seria equivalente a colocar fim na ação só que aqui vai
+
+15
+00:01:21,620 --> 00:01:26,870
+ser otimizado e não vai gerar essa explosão distribuí la no puro estilo que ele vai fazer uma forma
+
+16
+00:01:26,900 --> 00:01:28,540
+mais otimizada continuada.
+
+17
+00:01:28,580 --> 00:01:34,960
+Só pra deixar claro que esse é um projeto mutável então sou chamado Extreme Builder ponto Reverse e
+
+18
+00:01:35,000 --> 00:01:40,850
+imprimi isso no console chamado Extreme Builder públicos os Trending Attack.
+
+19
+00:01:41,030 --> 00:01:45,760
+Você vai perceber sem atribuir nada simplesmente chamando reverse.
+
+20
+00:01:45,790 --> 00:01:48,200
+Ele gerou.
+
+21
+00:01:48,380 --> 00:01:55,390
+Ao contrário ele fez uma reversa mais Trine ou seja os 30 mil bem diferente da estreia ele é notável
+
+22
+00:01:55,480 --> 00:01:58,890
+por imprimir aqui no console 30 mil pontos substituí.
+
+23
+00:01:58,940 --> 00:02:00,230
+Ele também tem esse método.
+
+24
+00:02:00,800 --> 00:02:02,990
+Nesse caso ele vai retornar aos trilhos.
+
+25
+00:02:03,020 --> 00:02:09,150
+Tá certo mas não vai mudar o conteúdo dele nem todo o metro vai mudar o conteúdo substitui.
+
+26
+00:02:09,220 --> 00:02:16,880
+E pra finalizar vou chamar Extreme Builder ponto onde ele vai pagar tudo o que você colocar em nome
+
+27
+00:02:16,960 --> 00:02:19,540
+do estribilho daí vai converter para o monstrinho.
+
+28
+00:02:19,560 --> 00:02:26,200
+A partir dessa história você pode fazer o que você quiser só comentar essa linha aqui tá.
+
+29
+00:02:26,670 --> 00:02:33,710
+E aí você vai ter aqui os valores que você foi fazendo aprende aprende basicamente que você trabalha
+
+30
+00:02:33,710 --> 00:02:39,720
+mais no estilingue Bildu e a questão do apêndice no final você converte ela pra monstrinho.
+
+31
+00:02:40,250 --> 00:02:46,910
+Mas se você quiser explorar um pouco mais a PI basta você colocar um ponto aqui você vai ver todas as
+
+32
+00:02:47,300 --> 00:02:50,810
+opções que você tem pra trabalhar com Bieber.
+
+33
+00:02:51,000 --> 00:02:57,580
+O importante é a questão da otimização então é essencial quando você tiver principalmente o contexto
+
+34
+00:02:57,640 --> 00:03:04,100
+de interação de Lupi onde você vai ficar concatenar os crimes com cuidado para não concatenar da forma
+
+35
+00:03:04,100 --> 00:03:09,830
+padrão que a gente faz com mais uso os 13 mil do que ele vai te dar uma performance melhor e vai consumir
+
+36
+00:03:09,830 --> 00:03:10,730
+bem menos memória.

@@ -1,0 +1,411 @@
+1
+00:00:00,330 --> 00:00:03,810
+Agora vão achar pra vocês um exemplo de filtro.
+
+2
+00:00:03,900 --> 00:00:05,840
+Certo A gente vai acabar usando MAC também.
+
+3
+00:00:05,850 --> 00:00:10,210
+Por isso que eu acabei colocando o Mac num primeiro momento agora ele vai usar o filtro junto com o
+
+4
+00:00:10,210 --> 00:00:14,250
+Mac pra gente resolver esse exercício agora.
+
+5
+00:00:14,460 --> 00:00:20,070
+Então nós vamos criar uma nova classe que eu vou chamar aqui de filtro dentro dessa classe.
+
+6
+00:00:20,070 --> 00:00:22,280
+Nós vamos definir o nosso método men.
+
+7
+00:00:22,870 --> 00:00:24,330
+E aqui vou fazer o seguinte.
+
+8
+00:00:24,330 --> 00:00:29,370
+Na verdade antes de a gente implementar algo que eu vou criar uma outra classe chamada aluno eu vou
+
+9
+00:00:29,370 --> 00:00:37,210
+colocar aquele aluno aluno vai ser uma classe bem simples eu vou colocar aqui para maximizar vou definir
+
+10
+00:00:37,230 --> 00:00:43,820
+primeiro vai ter um atributo trinco um nome vou colocar como sendo falou também.
+
+11
+00:00:44,010 --> 00:00:53,310
+Até o final da nota então aqui eu vou definir um construtor a gente pode usar aquele atalho para a gente
+
+12
+00:00:53,310 --> 00:01:00,540
+ver que o construtor usa no filme clique com o botão direito social aqui e o construtor usando filtros
+
+13
+00:01:01,170 --> 00:01:03,290
+selecionar os dois mandar gerar.
+
+14
+00:01:03,330 --> 00:01:06,030
+Ele gerou aqui o nosso custo público.
+
+15
+00:01:06,210 --> 00:01:12,660
+Não preciso ter subir aqui uma vez que são finais ou seja constantes não vou precisar mudar para estou
+
+16
+00:01:12,660 --> 00:01:18,630
+coloca no final se você precisasse criar uma classe com valores variáveis você poderia colocar aqui
+
+17
+00:01:18,630 --> 00:01:25,190
+é público geral Socket 7 e tal sem nenhum problema nesse caso aqui eu tenho um aluno recebendo nome
+
+18
+00:01:25,270 --> 00:01:31,130
+e nota aqui eu vou criar alguns alunos pra que a gente possa criar uma lista de alunos então aluno vou
+
+19
+00:01:31,170 --> 00:01:42,680
+colocar aqui um recebe mil alunos vou colocar o nome da ANA a nota 7 ou 8 ou duplicado que eu vou que
+
+20
+00:01:42,710 --> 00:01:58,040
+o aluno 2 3 4 5 6 colocar no próximo dia 1 Vou colocar o coloca pra beca.
+
+21
+00:01:58,470 --> 00:02:16,120
+Finalmente o Pedro vai ter que 5 pontos 8 8 9 8 6 8 8 7 e finalmente o Pedro 8 8.
+
+22
+00:02:16,140 --> 00:02:18,760
+Coloquei aqui a lista.
+
+23
+00:02:18,910 --> 00:02:30,690
+O caso vai ser do tipo o aluno colocar aqueles alunos recebem 3 x 1 tu és lixo.
+
+24
+00:02:30,690 --> 00:02:39,510
+Vou passar aqui um dois três quatro vírgula assim finalmente seis.
+
+25
+00:02:40,050 --> 00:02:44,990
+Mas temos na nossa lista pra que a gente possa começar a fazer o uso do filtro depois do Mac.
+
+26
+00:02:45,000 --> 00:02:45,960
+O que é que eu quero fazer.
+
+27
+00:02:46,430 --> 00:02:55,350
+Eu quero filtrar apenas os alunos que foram aprovados que tiveram nota acima de 7 e eu quero imprimir
+
+28
+00:02:55,350 --> 00:02:57,370
+uma frase dizendo Parabéns.
+
+29
+00:02:57,390 --> 00:03:00,020
+O nome do aluno está aprovado.
+
+30
+00:03:00,130 --> 00:03:05,640
+Certo está exatamente isso que eu quero filtrar os aprovados e mostrar uma lista com as frase de todos
+
+31
+00:03:05,640 --> 00:03:06,840
+os alunos aprovados.
+
+32
+00:03:07,260 --> 00:03:14,040
+Então pra gente filtrar apenas os alunos aprovados em um vídeo que eu votei este time com mais dados
+
+33
+00:03:14,040 --> 00:03:18,300
+e eu quero pegar um subconjunto desse time para torcer que seja todo mundo.
+
+34
+00:03:18,300 --> 00:03:24,330
+Certo mas não necessariamente será todo mundo no mapa e sempre o mapeamento é um extremo de um tamanho
+
+35
+00:03:24,330 --> 00:03:28,480
+para um mesmo tamanho no caso do filtro não fazer alunos.
+
+36
+00:03:28,500 --> 00:03:30,280
+Ponto estranho.
+
+37
+00:03:30,840 --> 00:03:37,740
+E aqui eu vou colocar um filtro e eu posso passar aqui um predicado como eu falei pra vocês nesse caso
+
+38
+00:03:37,740 --> 00:03:46,170
+eu vou receber o aluno e aqui eu posso colocar aluno ponto nota maior ou igual a 7.
+
+39
+00:03:46,170 --> 00:03:49,530
+Esse é o meu filtro que eu vou usar pra pagar pelos alunos aprovados.
+
+40
+00:03:49,540 --> 00:03:56,250
+Depois eu posso fazer o MEP que vai converter um flat médio mais que um Mac e aqui eu vou receber um
+
+41
+00:03:56,250 --> 00:03:59,550
+aluno e vou querer retornar monstrinho.
+
+42
+00:03:59,760 --> 00:04:03,400
+Nesse caso eu posso fazer o seguinte estilingue sei lá.
+
+43
+00:04:03,430 --> 00:04:04,220
+Parabéns.
+
+44
+00:04:04,230 --> 00:04:06,870
+Lembra em qual foi a frase que eu disse no começo.
+
+45
+00:04:06,930 --> 00:04:14,750
+Parabéns por colocar o nome do aluno por exemplo no ponto de concatenar aqui e tal como na verdade eu
+
+46
+00:04:14,760 --> 00:04:20,780
+falei o seguinte parabéns nome da pessoa aponto o nome que eu vou colocar aqui.
+
+47
+00:04:20,940 --> 00:04:32,530
+Você foi aprovado e finalmente eu vou colocar aqui um fora hit Pra que eu possa imprimir o console então
+
+48
+00:04:32,620 --> 00:04:42,130
+System Coca-Cola System ponto Walsh Garrett referência de brinde Alien para a gente o resultado.
+
+49
+00:04:42,130 --> 00:04:49,390
+Nesse caso eu tenho um filtro depois o método primeiro filtra os alunos aprovados ou seja alunos que
+
+50
+00:04:49,390 --> 00:04:56,440
+tenham a nota maior do que 7 para depois fazer um mapeamento de um objeto ao aluno para um objeto string
+
+51
+00:04:56,490 --> 00:05:01,360
+eu vou já quebrar essas funções aqui e saiba aqui ensinam pra você ver direitinho que quando querem
+
+52
+00:05:01,360 --> 00:05:06,310
+fazem mas eu coloquei as soluções diretamente aqui no Mac e no Filter porque é também uma possibilidade
+
+53
+00:05:06,330 --> 00:05:09,270
+mas eu vou já faturar executando você vai ver.
+
+54
+00:05:09,280 --> 00:05:19,270
+Parabéns Ana você foi para um lado ou aprovada certo colocar junto tal qual você foi aprovado para o
+
+55
+00:05:19,270 --> 00:05:19,630
+nada.
+
+56
+00:05:19,630 --> 00:05:20,770
+Parabéns Daniel.
+
+57
+00:05:20,770 --> 00:05:21,810
+Parabéns Rebeca.
+
+58
+00:05:21,820 --> 00:05:22,970
+Parabéns Pedro.
+
+59
+00:05:23,380 --> 00:05:31,540
+Então se eu quiser jogar isso aqui pra cima eu posso criar aqui um prato de peixe pra de carne que vai
+
+60
+00:05:31,540 --> 00:05:34,070
+receber um valor do tipo aluno.
+
+61
+00:05:34,690 --> 00:05:39,720
+Então coloco aqui aprovado recebe isso aqui.
+
+62
+00:05:40,060 --> 00:05:45,480
+Ou seja recebi um aluno e retornei o valor essa nota de modo que o site verdadeiro ou falso.
+
+63
+00:05:45,480 --> 00:05:53,140
+Ou então pensei está provado não posso usar o filtro pra adiar ao está aprovado ou então simplesmente
+
+64
+00:05:53,140 --> 00:05:59,830
+aprovado acho que é até mais legal então colocar aqui filtrar os aprovados e depois faz o mapeamento
+
+65
+00:05:59,830 --> 00:06:03,440
+mostra na frase Parabéns eu posso pagar isso aqui.
+
+66
+00:06:03,730 --> 00:06:09,790
+Nesse caso eu vou precisar de uma fonte e a fonte vai ser o seguinte eu vou receber como parâmetro de
+
+67
+00:06:09,820 --> 00:06:13,200
+um aluno e vou retornar nessa faixa.
+
+68
+00:06:13,900 --> 00:06:16,270
+E aqui eu posso colocar lá.
+
+69
+00:06:16,420 --> 00:06:27,560
+Saudação colocando nanquim ou saudação aprovado com o título aqui embaixo joga a minha linda espadachim.
+
+70
+00:06:27,700 --> 00:06:34,170
+Recebi aqui um aluno tão apaixonado aluno pego o nome dele com concatenar aqui a frase no final mostra
+
+71
+00:06:34,660 --> 00:06:36,340
+saudação aprovado.
+
+72
+00:06:36,370 --> 00:06:42,300
+Então nesse caso usei um filtro ou seja o resultado do filtro ele é um instruído também.
+
+73
+00:06:42,310 --> 00:06:47,860
+Ou seja a operação intermediária depois eu chamei o MEC poderia aplicar de novo um outro filtro depois
+
+74
+00:06:47,860 --> 00:06:51,480
+o outro Mac dependendo da situação posso fazer isso.
+
+75
+00:06:51,490 --> 00:06:58,690
+Esse encadeamento é chamado de funções de formas as mais flexíveis possíveis não tem necessariamente
+
+76
+00:06:58,990 --> 00:07:00,510
+que você seguir uma ordem.
+
+77
+00:07:00,850 --> 00:07:04,030
+Então nesse caso o que eu precisaria de uma ordem aqui.
+
+78
+00:07:04,180 --> 00:07:08,980
+Porque nesse caso a partir do predicado esperam receber um aluno e só recebo o aluno no momento que
+
+79
+00:07:08,980 --> 00:07:11,750
+eu estou começando acostume se eu fizer um mapeamento.
+
+80
+00:07:12,040 --> 00:07:17,770
+Eu já transformei um aluno no estilingue então seu Hibbert especificamente nesse caso aqui não vai dar
+
+81
+00:07:17,770 --> 00:07:23,880
+certo porque o filtro espera receber um aluno pra ele decidir se vai ou não aprovar e já esse mérito
+
+82
+00:07:23,880 --> 00:07:29,380
+transformou um aluno extra em 7 então investir aqui seria um problema mas você pode compor da forma
+
+83
+00:07:29,380 --> 00:07:34,950
+que for necessário contanto que você tenha consciência que o resultado do processamento de um desses
+
+84
+00:07:34,960 --> 00:07:41,410
+passos de uma dessas operações intermediárias tem que ser compatível com o tipo de dado que você espera
+
+85
+00:07:41,410 --> 00:07:43,150
+receber no outro passo.
+
+86
+00:07:43,150 --> 00:07:48,460
+Isso é extremamente importante assim como isso já acontecia lá nos nossos exemplos de composição de
+
+87
+00:07:48,460 --> 00:07:52,560
+funções com gente trabalhava no capítulo anterior com lambda diretamente.
+
+88
+00:07:52,810 --> 00:07:57,580
+Então fico por aqui com um exemplo bem simples mais um exemplo que mostra muito como você pode usar
+
+89
+00:07:57,580 --> 00:08:02,690
+isso na prática é um exemplo simples mas com certeza exemplos desse tipo você vai acabar enfrentando
+
+90
+00:08:02,690 --> 00:08:03,580
+o dia a dia.
+
+91
+00:08:03,820 --> 00:08:10,350
+Você pode sim recorrer pra festinhas pra te ajudar sem necessariamente precisar criar um foco sempre
+
+92
+00:08:10,350 --> 00:08:12,110
+que necessariamente precisar o FI.
+
+93
+00:08:12,130 --> 00:08:18,010
+Você tem que levar em consideração que esse tipo de método aprovado saudação aprovado.
+
+94
+00:08:18,010 --> 00:08:19,790
+Tudo isso você vai usar.
+
+95
+00:08:19,790 --> 00:08:25,330
+Você não precisa escrever mais uma vez esse tipo de corte uma vez que você cria um código que já verifica
+
+96
+00:08:25,330 --> 00:08:31,000
+que já calcula quando o aluno está aprovado não você bota esse código no local digamos assim realizável
+
+97
+00:08:31,010 --> 00:08:37,390
+usável uma classe com métodos estáticos sempre que você precisar recorrer a esse tipo de lógica você
+
+98
+00:08:37,390 --> 00:08:43,550
+não precisa reescrever essa lógica embora a lógica pra saber se um aluno está provada bem simples mas
+
+99
+00:08:43,630 --> 00:08:45,790
+que poderia ser um cálculo mais complexo.
+
+100
+00:08:46,180 --> 00:08:52,240
+Imagine você escreve uma única vez e sempre que você precisar aplicar novamente esse filtro você já
+
+101
+00:08:52,240 --> 00:08:56,280
+tem essa lógica pronta pra te ajudar é muito mas muito legal mesmo.
+
+102
+00:08:56,350 --> 00:09:00,670
+Fique por aqui e até a próxima aula que eu vou lançar o desafio de filtro.
+
+103
+00:09:00,870 --> 00:09:01,200
+Até lá.

@@ -1,0 +1,463 @@
+1
+00:00:00,210 --> 00:00:06,210
+Pessoal essa parte de programação funcional de lambidas instruídos que a gente vai ver no próximo capítulo
+
+2
+00:00:06,630 --> 00:00:15,780
+surgiu a partir do Java 8 mas mesmo antes do Java 8 já existiam algumas interfaces que não necessariamente
+
+3
+00:00:15,780 --> 00:00:21,870
+tinham esse nome de interface funcional mas eram interfaces que tinham apenas um único método ou seja
+
+4
+00:00:21,870 --> 00:00:29,550
+era possível ter esse tipo de comportamento você utilizar os lâminas expressos dentro de interfaces
+
+5
+00:00:29,550 --> 00:00:32,730
+que já vêm do Java mesmo antes do Java 8.
+
+6
+00:00:32,730 --> 00:00:38,100
+Por exemplo quando você trabalha com thread A gente pode entrar um pouco mais de detalhes mais na frente
+
+7
+00:00:38,210 --> 00:00:45,630
+mas eu posso criar aqui um exércitos um exército só pra mostrar esse conceito aqui um exercício de trades.
+
+8
+00:00:45,630 --> 00:00:49,690
+Por exemplo colocar no plural pra não chocar com a classe média.
+
+9
+00:00:50,000 --> 00:00:56,610
+Então aqui você tem uma interface chamada Luana Piovani boa grana bom de Java conto lei.
+
+10
+00:00:56,880 --> 00:01:02,280
+E aqui você pode colocar por exemplo tem um projeto de como é que a gente poderia implementar essa interface
+
+11
+00:01:02,450 --> 00:01:03,710
+do Java 8.
+
+12
+00:01:03,780 --> 00:01:11,190
+Existe o conceito que você pode por exemplo de áudio em cima de uma interface plana bom e ele vai criar
+
+13
+00:01:11,190 --> 00:01:15,160
+como se fosse uma classe anônima ou seja logo depois que você dá.
+
+14
+00:01:15,210 --> 00:01:21,870
+Você não pode distanciar uma interface ou interface define apenas métodos abstratos então não faz sentido
+
+15
+00:01:21,870 --> 00:01:28,920
+você implementar uma interface mais é possível você instancia naquele momento uma interface de tal forma
+
+16
+00:01:29,310 --> 00:01:30,340
+que ele vai conseguir.
+
+17
+00:01:30,390 --> 00:01:35,540
+Ele vai criar uma classe anônima ou seja o que é uma classe anônima assim sem nome.
+
+18
+00:01:35,570 --> 00:01:37,890
+Você não criou formalmente uma classe.
+
+19
+00:01:38,100 --> 00:01:44,730
+Eu até poderia criar por exemplo uma classe que ao fazer o seguinte eu posso criar aqui uma nova classe
+
+20
+00:01:45,360 --> 00:01:49,340
+chamada trabalho por exemplo certa.
+
+21
+00:01:49,700 --> 00:01:54,260
+E aqui eu digo que essa classe implementa essa interface.
+
+22
+00:01:54,930 --> 00:01:58,210
+E aí se ela implemente essa interface eu tenho que ter um método.
+
+23
+00:01:58,320 --> 00:02:05,850
+Então essa seria uma forma que eu posso por exemplo a partir desse ano eu vou criar aqui alguma atividade
+
+24
+00:02:05,850 --> 00:02:14,160
+por exemplo para fazer vou colocar aqui um fora hit que ele vai colocar que vai de 0 até 100 imprimindo
+
+25
+00:02:14,580 --> 00:02:23,190
+System Alt tarefa até Estelle já fazer 100 vezes imprimi tarefas tarefa 100 vezes no console.
+
+26
+00:02:23,530 --> 00:02:29,490
+Você seria o meu trabalho e vamos supor que lá na minha classe 3 aqui que eu criei no final eu vou criar
+
+27
+00:02:29,490 --> 00:02:37,650
+aqui um T2 no trabalho 2 e eu não quero por exemplo ter que lo uma classe trabalhe 2 eu quero implementar
+
+28
+00:02:37,650 --> 00:02:44,400
+diretamente aqui você pode chamar que eu não vou automaticamente ele vai criar aqui essas chaves aqui
+
+29
+00:02:44,400 --> 00:02:48,420
+pra qual é a definição de uma classe e um classe sem nome.
+
+30
+00:02:48,480 --> 00:02:53,850
+E aqui dentro eu coloquei o mesmo método que eu defendia que não trabalham de tal forma que eu posso
+
+31
+00:02:53,850 --> 00:03:04,340
+ter uma implementação parecida aqui eu colocar por exemplo aqui a tarefa 2 então eu tenho tarefa 2 e
+
+32
+00:03:04,400 --> 00:03:15,280
+eu vou criar aqui bom tarefa que tive ao distanciar o meu trabalho eu coloquei trabalho depois tarefas
+
+33
+00:03:15,290 --> 00:03:23,540
+para mudar tudo para trabalho e trabalho então vou colocar vai ser trabalho falho e aqui vai ser o trabalho
+
+34
+00:03:23,880 --> 00:03:25,060
+2 certo.
+
+35
+00:03:25,070 --> 00:03:30,180
+Só que nesse caso eu criei uma classe que implementa a interface que tem um pouco mais de trabalho e
+
+36
+00:03:30,180 --> 00:03:31,620
+nesse caso o que é baixo.
+
+37
+00:03:31,950 --> 00:03:37,260
+Eu simplesmente criei uma classe anônimo pra ter o trabalho 2 aqui embaixo eu quiser chamar o que é
+
+38
+00:03:37,260 --> 00:03:37,970
+uma tragédia né.
+
+39
+00:03:37,980 --> 00:03:44,970
+Pra começar Trash é um processo que pode ser executado paralelamente e ele tem duas formas de verdade
+
+40
+00:03:44,980 --> 00:03:51,510
+esse efeito tanto pode ser feito em um único processador e o processador vai escalonar o Android para
+
+41
+00:03:51,520 --> 00:03:56,700
+outro ou seja ele vai dar um pouquinho de processador para outra série e aí para dar um pouquinho processador
+
+42
+00:03:56,700 --> 00:04:03,090
+para outro e depois dar um pouquinho ou seja com um único processador que é o que realmente faz os cálculos
+
+43
+00:04:03,090 --> 00:04:05,600
+e faz o seu corpo ser executado.
+
+44
+00:04:05,730 --> 00:04:11,820
+Você pode com um único processador ter essa questão onde ele vai escalando na escala humana de um Android
+
+45
+00:04:11,820 --> 00:04:17,000
+para o outro para executar para parecer que você está executando de forma paralela mas na verdade não.
+
+46
+00:04:17,100 --> 00:04:20,790
+Você está simplesmente fazer um escalonamento entre duas três e mais.
+
+47
+00:04:20,880 --> 00:04:28,500
+Hoje em dia o processador tem múltiplos cores e tem múltiplos processadores amargos e tem quatro processadores
+
+48
+00:04:28,500 --> 00:04:34,280
+oito processadores e é possível que você tenha um paralelismo real você tem duas coisas ser executado
+
+49
+00:04:34,320 --> 00:04:37,730
+exatamente no mesmo tempo em processadores diferentes.
+
+50
+00:04:37,950 --> 00:04:43,380
+Quem vai aplicar a lógica de como ele vai jogar isso pra ir para um meio físico na água é feito pela
+
+51
+00:04:43,380 --> 00:04:46,480
+Ben e pelo mecanismo do sistema operacional.
+
+52
+00:04:46,740 --> 00:04:52,990
+Então pra fazer isso o que é que eu vou fazer eu vou criar aqui uma nova thread seja neutra colocar
+
+53
+00:04:53,170 --> 00:05:01,210
+outra no singular não confunda culturais que eu acabei de criar certo trash é você como parâmetro para
+
+54
+00:05:01,210 --> 00:05:08,920
+a tarefa de um robô algo que pode ser executado em paralelo no caso o que pode ser o trabalho e no final
+
+55
+00:05:09,010 --> 00:05:14,920
+eu posso tanto se eu quiser colocar que eu posso criar uma variável sem problema com o caso de Trad.
+
+56
+00:05:15,420 --> 00:05:17,710
+Recebe e entra um outro.
+
+57
+00:05:17,710 --> 00:05:27,190
+Vou criar aqui um atrás de dois T2 recebe trabalho de dois e no final vou chamar o teu ponto Start para
+
+58
+00:05:27,190 --> 00:05:34,170
+iniciar a thread e vou chamar o T2 pronto está de tal forma que está aqui o nosso código.
+
+59
+00:05:34,170 --> 00:05:39,960
+Você vai perceber que elas vão poder executar de forma paralela sete sétima aparecer ora trabalhou ora
+
+60
+00:05:39,970 --> 00:05:44,790
+trabalhe dois de forma alternada porque os dois códigos estão executando de forma paralela.
+
+61
+00:05:44,900 --> 00:05:48,180
+Então aqui ou ele acaba executando um depois outro certo.
+
+62
+00:05:48,190 --> 00:05:55,440
+Se eu colocar aqui uma quantidade maior de interações isso vai fazer alguma diferença aqui por exemplo.
+
+63
+00:05:55,540 --> 00:06:03,780
+Na verdade o que eu posso fazer pra simular isso é o seguinte eu vou jogar aqui 10 diminuir ou colocar
+
+64
+00:06:03,800 --> 00:06:08,800
+aqui também e tem a possibilidade de chamar aquilo outro
+
+65
+00:06:12,330 --> 00:06:17,140
+ponto de ônibus que seja que é o metro estático e eu digo quatro segundos.
+
+66
+00:06:17,140 --> 00:06:24,910
+Por exemplo quantos milissegundos eu quero que atrase para então querer que ela pare 100 milissegundos.
+
+67
+00:06:24,910 --> 00:06:27,200
+Isso aqui pode gerar um erro.
+
+68
+00:06:27,420 --> 00:06:31,240
+Então descobrir como é que ela resolve isso da forma mais simples.
+
+69
+00:06:31,420 --> 00:06:36,280
+Eu vou colocar só para gente tá está certo eu quero mostrar a verdade não quero falar sobre o tratamento
+
+70
+00:06:36,280 --> 00:06:43,300
+de erro por enquanto não há qualquer enquete e vou deixar do jeito que está aqui se usa esse código
+
+71
+00:06:43,300 --> 00:06:50,200
+que trai e coloca outra hipótese limpa aqui dentro e coloca enquete e que serve só pra a de passar.
+
+72
+00:06:50,200 --> 00:06:52,080
+Zero vírgula um segundo parado.
+
+73
+00:06:52,090 --> 00:06:57,270
+A gente vê o executando em paralelo dá outro certo para você ver que as duas estão rodando para paralelo
+
+74
+00:06:57,280 --> 00:06:59,050
+vou colocar esse mesmo código aqui.
+
+75
+00:06:59,080 --> 00:07:03,250
+Ou seja ele não copiou o coelho direito ou copiar isso aqui.
+
+76
+00:07:03,260 --> 00:07:09,340
+Recurso contra você que comprovem de tal forma que as duas teses vão ficar parados e vocês vão ver um
+
+77
+00:07:09,340 --> 00:07:15,010
+executando ao lado da outra exatamente esse o conceito de trade mas muito homem querendo falar de trade
+
+78
+00:07:15,520 --> 00:07:21,190
+que eu posso falar sobre isso em outro momento da história aqui você tem a tarefa um executou tarefa
+
+79
+00:07:21,190 --> 00:07:29,320
+2 tarefa para F2 tarefa 1/2 você já executou de forma alternada você percebe que teriam talvez uma forma
+
+80
+00:07:29,320 --> 00:07:35,950
+muito mais simples de você fazer isso sem necessariamente precisar fazer todo essa implementação de
+
+81
+00:07:35,950 --> 00:07:39,630
+uma classe anônimo até criar uma classe implementar a interface.
+
+82
+00:07:39,970 --> 00:07:45,720
+Em outras palavras se eu criar aqui um trabalho 3 por exemplo posso usar uma vida então só pra gente
+
+83
+00:07:45,720 --> 00:07:47,510
+vê um grande objetivo.
+
+84
+00:07:47,530 --> 00:07:54,250
+Estou chegando agora quer colocar aquela grana bom vou chamar aqui trabalho pra isso e mostrar que mesmo
+
+85
+00:07:54,250 --> 00:08:01,750
+as interfaces que não são interfaces ditas funcionais ou criadas como interfaces funcionais originalmente
+
+86
+00:08:02,050 --> 00:08:08,040
+continuou funcionando no contexto de interfaces funcionais ou seja tem um comparei tu comparei o que
+
+87
+00:08:08,050 --> 00:08:13,270
+a gente pode ver um pouco mais na frente no cabide de tópicos mais avançados também tem um lugar na
+
+88
+00:08:13,280 --> 00:08:19,990
+boca a gente tá tá achando que sejam outras interfaces podem também ser aplicadas no contexto interfaces
+
+89
+00:08:19,990 --> 00:08:26,110
+funcionais ou seja você pode usar lambidas as praxes pra pra encher de se implementar esses métodos
+
+90
+00:08:26,110 --> 00:08:31,660
+assim como a gente começou lá no capítulo falando sobre cálculo certo então mostrando que eu trabalho
+
+91
+00:08:31,660 --> 00:08:39,700
+3 nesse caso ele não implementa e não recebe nenhum parâmetro não retorna nada então pra gente fazer
+
+92
+00:08:39,700 --> 00:08:46,160
+aqui eu posso simplesmente colocar em um parâmetro que eu posso definir a minha interface também colocando
+
+93
+00:08:46,170 --> 00:08:51,880
+um ponto e vírgula no final e se eu quiser pegar aqui por exemplo vou copiar só pra aproveitar que o
+
+94
+00:08:51,880 --> 00:08:59,200
+mesmo código tô pagano aqui esse fora jogando pra cá e aqui eu vou colocar a tarefa 3 sejam a mesma
+
+95
+00:08:59,200 --> 00:09:02,240
+lógica ele alterna entre as 3 tarefas.
+
+96
+00:09:02,380 --> 00:09:09,590
+Vou colocar aqui uma terceira thread ou seja um terceiro processo paralelo e vou publicar aqui também
+
+97
+00:09:09,830 --> 00:09:13,520
+serve pra 83 como Restart e SP a executar.
+
+98
+00:09:13,520 --> 00:09:20,990
+Falta gente colocar aqui o trabalho que 3 ou seja 3 de 3 a o trabalho 3 e 3 com destaque.
+
+99
+00:09:21,050 --> 00:09:22,850
+Essa é toda a gente vai ter aula.
+
+100
+00:09:22,990 --> 00:09:31,870
+Começou com a 2 depois de estar 3 1 2 1 2 3 e executou os 3 trabalhos em paralelo ou seja você consegue
+
+101
+00:09:32,200 --> 00:09:39,540
+usar todos os benefícios de ter lambidas as brechas ou mesmo usar uma função não é um método um em sua
+
+102
+00:09:39,540 --> 00:09:45,310
+referência para o método para que esse método possa ser executado então não posso muito bem já ter esse
+
+103
+00:09:45,310 --> 00:09:57,940
+método aqui implementarem algum local por exemplo o craque estático de voz de Trabalho 3 não recebe
+
+104
+00:09:57,940 --> 00:10:01,560
+nenhum parâmetro simplesmente tem um amanhã.
+
+105
+00:10:01,710 --> 00:10:07,640
+A minha lógica já prevê fim de algum local sem necessariamente precisar implementar de novo.
+
+106
+00:10:07,640 --> 00:10:09,020
+é aqui que eu venho.
+
+107
+00:10:09,020 --> 00:10:18,190
+Se eu quiser referenciar isso faço fretes no plural que é a minha classe e passo a referência pra trabalho.
+
+108
+00:10:18,200 --> 00:10:23,930
+3 Também há a possibilidade extremamente interessante para quem está fazendo sem necessariamente precisar
+
+109
+00:10:24,380 --> 00:10:30,570
+implementar um plano B ou criar uma classe anônima ou criar uma classe para implementar a interface.
+
+110
+00:10:30,590 --> 00:10:37,310
+Posso usar os benefícios que foram introduzidos a partir do Java 8 e interfaces anteriores ao Java onde
+
+111
+00:10:37,310 --> 00:10:43,460
+isso acontece não só especificamente no bolso mas em outras interfaces é um recurso extremamente interessante
+
+112
+00:10:43,460 --> 00:10:49,640
+não só para mostrar para vocês mas esse exercício de dar falar de trás e outros momentos também no capítulo
+
+113
+00:10:49,640 --> 00:10:57,260
+de tópicos mais avançados como falar de manutenção genérico ou vou falar de trainees reflecte também
+
+114
+00:10:57,260 --> 00:11:02,420
+que é um tema interessante mas é tema mais pra frente então fico por aqui e até aproximá la do nosso
+
+115
+00:11:02,420 --> 00:11:02,870
+capitão.
+
+116
+00:11:02,870 --> 00:11:06,050
+Para finalizar o nosso capítulo de lambidas e até lá.

@@ -1,0 +1,111 @@
+1
+00:00:00,180 --> 00:00:06,030
+Pessoal vou lançar para vocês um desafio pra vocês alterarem a classe produto que já foi criada e vai
+
+2
+00:00:06,030 --> 00:00:12,150
+ser a seguinte lógica vamos supor que essa classe produto faz parte de um sistema que você está desenvolvendo
+
+3
+00:00:12,150 --> 00:00:15,570
+para um loja e o nome da loja 25.
+
+4
+00:00:15,610 --> 00:00:22,320
+O centro é isso quando o nome da loja disse que choque na loja nós temos um política de com um desconto
+
+5
+00:00:22,320 --> 00:00:26,880
+ele aplicado é aplicado para todos os produtos sem exceção.
+
+6
+00:00:26,880 --> 00:00:31,770
+Nunca vai uma situação que um produto vai estar com desconto 10 por cento e outro com desconto 20 em
+
+7
+00:00:32,100 --> 00:00:37,310
+todos os produtos sempre estão mesmo em desconto no mesmo patamar de desconto.
+
+8
+00:00:37,450 --> 00:00:44,360
+Por padrão o desconto de 25 por cento que é o nome da loja mas se for por exemplo o Natal ou se for
+
+9
+00:00:44,370 --> 00:00:47,950
+Dia das Mães a gente pode colocar 30 35 por cento.
+
+10
+00:00:48,090 --> 00:00:54,750
+Ou seja variar mais quando vai variar o desconto ele varia exatamente para todos os produtos sem exceção.
+
+11
+00:00:54,750 --> 00:01:01,650
+Então já que todos os produtos obrigatoriamente vai ter o mesmo desconto em vez de você ter uma variável
+
+12
+00:01:01,650 --> 00:01:08,430
+de instância que você tem um desconto para cada produto você pode colocar o desconto como sendo uma
+
+13
+00:01:08,430 --> 00:01:09,890
+variável de classe.
+
+14
+00:01:09,890 --> 00:01:15,390
+Nesse caso vai variar porque o dono do sistema disse que o valor vai ficar variando com o tempo dependendo
+
+15
+00:01:15,390 --> 00:01:19,470
+da situação mas que por padrão o valor é 25 por cento.
+
+16
+00:01:19,550 --> 00:01:21,690
+Ou seja 0 ponto 25.
+
+17
+00:01:21,810 --> 00:01:27,870
+Esse é um cenário que provavelmente não acontece em quase nenhum empresa mais para a gente poder usar
+
+18
+00:01:27,870 --> 00:01:28,410
+aqui.
+
+19
+00:01:28,590 --> 00:01:34,020
+O nosso desafio em cima do desconto é aplicar o desconto como sendo o mesmo estádio.
+
+20
+00:01:34,080 --> 00:01:37,830
+Então seu trabalho é substituir o desconto para ser estático.
+
+21
+00:01:37,830 --> 00:01:42,570
+E aí depois disso você vai começar a ajustar o código para refletir um código para essa nova realidade.
+
+22
+00:01:42,960 --> 00:01:45,450
+Ou seja você começa o desafio.
+
+23
+00:01:45,540 --> 00:01:51,240
+Chegando aqui em desconto é colocar a palavra em estática e a partir daí eu quero que você faça todo
+
+24
+00:01:51,240 --> 00:01:53,750
+o resto que eu falei aqui é o valor padrão.
+
+25
+00:01:53,760 --> 00:01:55,120
+Zero pontos 25.
+
+26
+00:01:55,190 --> 00:02:00,300
+E fazer também todos os ajustes necessários para que essa mudança seja refletida e que seu código fique
+
+27
+00:02:00,300 --> 00:02:01,250
+coerente.
+
+28
+00:02:01,290 --> 00:02:04,890
+No final das contas então fico por aqui na próxima resposta e até lá.

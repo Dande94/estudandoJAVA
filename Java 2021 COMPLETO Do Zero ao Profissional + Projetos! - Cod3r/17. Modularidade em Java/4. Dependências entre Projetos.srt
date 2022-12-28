@@ -1,0 +1,423 @@
+1
+00:00:00,360 --> 00:00:07,860
+Pessoal antes de ir para a próxima aula eu lembrei de algo importante que eu preciso deixar claro para
+
+2
+00:00:07,860 --> 00:00:15,120
+vocês antes de entrar no próximo exercício que é o seguinte nós temos aqui dois projetos está e eu posso
+
+3
+00:00:15,120 --> 00:00:19,320
+muito bem criar aqui algum arquivo qualquer.
+
+4
+00:00:19,320 --> 00:00:25,410
+Por exemplo um teste arquivo TXT no pacote de fogo.
+
+5
+00:00:25,480 --> 00:00:35,610
+Na verdade eu não vou colocar no pacote de fogo vou criar aqui um pacote chamado sei lá calculo por
+
+6
+00:00:35,610 --> 00:00:42,980
+exemplo temporariamente vou já com esse pacote vou jogar o teste dentro de cálculo e aqui dentro.
+
+7
+00:00:43,010 --> 00:00:50,430
+Leva daqui um trechinho da aplicação só pra ele me abriu um pacote de fogo e uma vez criado isso eu
+
+8
+00:00:50,430 --> 00:00:52,840
+posso criar aqui um metro qualquer publique.
+
+9
+00:00:52,950 --> 00:01:04,260
+A classe é pública também não é estática Gore diz opa aqui dentro eu simplesmente faço.
+
+10
+00:01:04,970 --> 00:01:05,490
+Opa.
+
+11
+00:01:05,550 --> 00:01:05,980
+Pronto.
+
+12
+00:01:06,720 --> 00:01:14,220
+Então criei um metro qualquer dentro de um projeto qualquer eu posso se quiser exportar esse projeto
+
+13
+00:01:14,550 --> 00:01:16,800
+e transformar ele em um arquivo Java.
+
+14
+00:01:16,860 --> 00:01:23,190
+Você pode clicar aqui com o botão direito em cima do projeto certo e aí você tem essa opção aqui de
+
+15
+00:01:23,280 --> 00:01:26,720
+exportar por exemplo então vou exportar.
+
+16
+00:01:26,760 --> 00:01:32,760
+Existe uma opção que você pode colocar aqui já que ele vai dizer o que eu quero exportar meu projeto
+
+17
+00:01:32,760 --> 00:01:41,400
+para um ano bom já foi um ano bom já falei eu e um Jack dentro dele tem uma classe meio que tem uma
+
+18
+00:01:41,400 --> 00:01:47,590
+classe que tem um metro e meio melhor dizendo E aí você pode dizer qual é a classe e qual o método que
+
+19
+00:01:47,610 --> 00:01:54,570
+será usado como sendo a porta de entrada da sua aplicação e aí ele usa aquele Gear como sendo já o ano
+
+20
+00:01:54,600 --> 00:01:55,580
+bom.
+
+21
+00:01:55,650 --> 00:02:02,490
+Isso acontece eu tenho um exemplo aqui na minha máquina do Dropbox eu tenho um arquivo ponto já que
+
+22
+00:02:02,780 --> 00:02:12,060
+a BP roubou o V3 zero pontos já e ele é um ano bom já no clico duas vezes aqui nele e ele abre uma aplicação.
+
+23
+00:02:12,900 --> 00:02:15,290
+Então ele foi lá e abriu essa aplicação Java.
+
+24
+00:02:15,420 --> 00:02:20,820
+Essa aplicação Java que eu uso pra escrever possivelmente eu vou ainda comentar sobre essa aplicação
+
+25
+00:02:20,820 --> 00:02:25,980
+dentro do nosso curso de Java mostrando detalhes dessa aplicação e liberando o código pra vocês mas
+
+26
+00:02:25,980 --> 00:02:31,590
+vai ser mais pra frente porque essa aplicação mais complexa e aí eu preciso para ver como é que eu vou
+
+27
+00:02:31,590 --> 00:02:36,990
+mostrar isso pra vocês mas vai ter aí no curso também essa aplicação que é bastante interessante mas
+
+28
+00:02:36,990 --> 00:02:44,620
+aqui eu quero exportar esse projeto com um arquivo já e aí eu posso muito bem exportar.
+
+29
+00:02:45,060 --> 00:02:47,460
+Vou dizer que o que é que eu vou querer que ele exporte.
+
+30
+00:02:47,460 --> 00:02:50,310
+Por exemplo no caso que o SRC.
+
+31
+00:02:50,610 --> 00:02:57,750
+Vou dizer o destino por exemplo eu vou colocar que o destino vai ser dentro do meu desktop então vou
+
+32
+00:02:57,750 --> 00:03:05,910
+selecionar aqui o desktop vou selecionar o curso Java vou selecionar aqui o app financeiro e vou criar
+
+33
+00:03:05,910 --> 00:03:10,070
+dentro de apoio financeiro uma pasta chamada libres no plural.
+
+34
+00:03:10,260 --> 00:03:17,490
+Da mesma forma que eu criei as livres importei no capítulo passado as livres do Internet por exemplo
+
+35
+00:03:17,490 --> 00:03:24,450
+aqui eu vou jogar dentro do outro projeto a libido calculo então posso dizer que o nome desse já sei
+
+36
+00:03:25,580 --> 00:03:32,580
+é traço cálculo e aí eu posso gerar.
+
+37
+00:03:32,580 --> 00:03:35,330
+Finalizar vocês vão perceber que ele vai gerar.
+
+38
+00:03:35,380 --> 00:03:39,960
+Eu vou clicar aqui com o botão direito mandar dar um refresh você vai ver que ele criou o álibi aqui
+
+39
+00:03:39,960 --> 00:03:43,230
+dentro ele colocou o app traz um cálculo ponto já.
+
+40
+00:03:43,230 --> 00:03:51,600
+Dessa forma eu posso clicar com o botão direito e mandar aqui no Bild PF adicionar esse já no Bild PF
+
+41
+00:03:51,600 --> 00:03:58,800
+de tal forma que eu passo a referenciar o arquivo já que é correspondente a esse outro projeto ou seja
+
+42
+00:03:59,310 --> 00:04:06,240
+eu não tenho uma relação direta entre projetos mas eu os porteiros já joguei pra cá e fiz uma referência
+
+43
+00:04:06,240 --> 00:04:12,540
+de tal forma que agora aqui dentro eu poderia ter acesso às classes que foram definidas aqui dentro
+
+44
+00:04:12,540 --> 00:04:13,540
+desse jato.
+
+45
+00:04:13,650 --> 00:04:21,000
+Obviamente eu tenho o pacote tem um arquivo teste ponto clássica exatamente o compilado do arquivo teste
+
+46
+00:04:21,040 --> 00:04:21,820
+ponto Java.
+
+47
+00:04:21,900 --> 00:04:28,320
+Então é assim que você consegue exportar uma aplicação tanto a aplicação que tem um método meio digamos
+
+48
+00:04:28,320 --> 00:04:28,740
+assim.
+
+49
+00:04:29,120 --> 00:04:31,470
+Então ela é como é que seria do metro no meio.
+
+50
+00:04:31,710 --> 00:04:38,170
+Eu posso vim aqui eu posso criar um método mínimo posso executar esse método então eu vou chamar aqui
+
+51
+00:04:39,090 --> 00:04:40,650
+diz opa.
+
+52
+00:04:40,650 --> 00:04:42,170
+Vou executar esse método.
+
+53
+00:04:42,430 --> 00:04:48,680
+Ele vai colocar a Oppo aqui na hora que eu quiser exportar sexo aqui não tem diretamente a ver com o
+
+54
+00:04:48,680 --> 00:04:51,260
+módulo mas vai estar relacionado por conta das dependências.
+
+55
+00:04:51,270 --> 00:04:51,970
+Mas vamos lá.
+
+56
+00:04:52,230 --> 00:04:54,900
+Quando você vem aqui mandar exportar.
+
+57
+00:04:54,930 --> 00:04:57,260
+Agora sim eu consigo gerar o ano bom.
+
+58
+00:04:57,270 --> 00:05:04,680
+Já falaram e aí colocado aqui ao as classes que têm o metro meio que nós criamos e eu vou selecionar
+
+59
+00:05:04,730 --> 00:05:07,520
+aqui aqui dentro de Happy calculo que seria o teste.
+
+60
+00:05:07,800 --> 00:05:12,230
+Você selecionou a classe que é o metro no meio e diz qual o destino.
+
+61
+00:05:12,240 --> 00:05:18,110
+Aqui você pode dizer algo ao destino vai ser essa pasta e você pode exportar o arquivo agora com um
+
+62
+00:05:18,120 --> 00:05:19,540
+arquivo executável.
+
+63
+00:05:19,550 --> 00:05:24,210
+Se o usuário clicar duas vezes dependendo da configuração se o usuário clicar duas vezes a aplicação
+
+64
+00:05:24,210 --> 00:05:30,480
+vai abrir ou você entra no console no terminal e coloca em Java menu já o nome do arquivo que ele vai
+
+65
+00:05:30,840 --> 00:05:31,920
+abrir a sua aplicação.
+
+66
+00:05:31,980 --> 00:05:39,630
+Mas voltando aqui vocês perceberam que pra eu criar uma dependência do app financeiro pra web calculo
+
+67
+00:05:39,720 --> 00:05:41,750
+eu precisei exportar.
+
+68
+00:05:41,760 --> 00:05:49,290
+Já precisei pegar esse já jogar para além da pasta Libby adicionar no Bild PF e muito trabalho para
+
+69
+00:05:49,290 --> 00:05:54,520
+eu ficar fazendo isso sempre que eu precisar ele tem uma independência entre dois projetos.
+
+70
+00:05:54,570 --> 00:05:55,410
+Certo.
+
+71
+00:05:55,410 --> 00:05:56,720
+Então eu não vou fazer.
+
+72
+00:05:56,730 --> 00:06:03,270
+Eu não vou usar essa estratégia embora na prática o que você acaba fazendo quando vai para a produção
+
+73
+00:06:03,270 --> 00:06:08,820
+digamos assim você define as dependências a partir dos arquivos ponto já assim como a biblioteca tá
+
+74
+00:06:08,820 --> 00:06:09,350
+bom.
+
+75
+00:06:09,390 --> 00:06:18,230
+Nesse caso eu vou tirar isso aqui PF vou clicar aqui onde tem Bild PF configurá lo em breve vou excluí
+
+76
+00:06:18,480 --> 00:06:21,990
+aqui certo esse arquivo não vou precisar mais dele.
+
+77
+00:06:21,990 --> 00:06:27,410
+Vou também excluir essa pasta livros que não vou precisar dela.
+
+78
+00:06:27,630 --> 00:06:32,590
+E tem uma forma de você criar uma dependência direta de um projeto com outro.
+
+79
+00:06:32,700 --> 00:06:36,780
+Então eu vou inclusive apagar também aqui o pacote de calculo.
+
+80
+00:06:36,830 --> 00:06:42,310
+Eu acabei de deixar exatamente como a gente começou a nao sao certos solos dois projetos e o modo II
+
+81
+00:06:42,450 --> 00:06:48,810
+traço cultural algo mais que eu quero dizer é que vai ter necessidade além de você criar um módulo além
+
+82
+00:06:48,810 --> 00:06:54,090
+de você exportar e assim determinados pacotes nós vamos fazer isso na próxima aula.
+
+83
+00:06:54,150 --> 00:07:00,330
+Existe a necessidade de haver uma dependência entre esses dois projetos e para isso a gente pode fazer
+
+84
+00:07:00,330 --> 00:07:05,890
+a dependência viajar como mostrei pra vocês mas você pode clicar com o botão direito aqui.
+
+85
+00:07:06,060 --> 00:07:07,430
+Você pode vim aqui Bild.
+
+86
+00:07:07,440 --> 00:07:15,240
+PF é onde tem que configure Bird PF e você tem algumas abas aqui aba quem está lá pois não é que eu
+
+87
+00:07:15,240 --> 00:07:22,380
+quero eu posso clicar aqui em projetos e eu acabei de clicar em cima do projeto PIN traço financeiro
+
+88
+00:07:22,390 --> 00:07:28,770
+daquele propriedades para o projeto Web traço financeiro e aí você pode ver aqui onde tem módulo e PF
+
+89
+00:07:28,920 --> 00:07:29,820
+clicar nele.
+
+90
+00:07:30,180 --> 00:07:37,050
+E aí você vai ter a possibilidade de dizer que você quer adicionar um outro projeto no caminho digamos
+
+91
+00:07:37,050 --> 00:07:40,210
+assim dos módulos onde o Java procurar os módulos.
+
+92
+00:07:40,230 --> 00:07:48,390
+E aqui eu posso usar o outro projeto isso é bom porque eu não preciso ficar gerando um arquivo já copiar
+
+93
+00:07:48,390 --> 00:07:53,500
+o Java para a outra parte para daí ele conseguir meus arquivos aqui não diretamente.
+
+94
+00:07:53,640 --> 00:08:00,990
+Já existe uma dependência entre o projeto épico traço financeiro e o projeto traça o cálculo certo para
+
+95
+00:08:00,990 --> 00:08:06,300
+quem já trabalha com Java e já conhece muito bem essa parte de dependência.
+
+96
+00:08:06,300 --> 00:08:12,210
+Essa é uma aula trivial mas para quem está bem no Java pela primeira vez ela tem que assumir que você
+
+97
+00:08:12,210 --> 00:08:16,960
+está assistindo o vídeo pode estar tendo contato com o Java pela primeira vez durante o curso.
+
+98
+00:08:16,960 --> 00:08:22,200
+Então é muito importante você entender que quando você passa para trabalhar com mais de um projeto você
+
+99
+00:08:22,200 --> 00:08:29,100
+tem sim que ter algum tipo de dependência pra enxergar o código do outro projeto seja uma dependência
+
+100
+00:08:29,370 --> 00:08:34,860
+direta de um projeto com o outro ou seja a partir de um arquivo jar que foi exportado e o projeto é
+
+101
+00:08:34,860 --> 00:08:40,320
+jogado dentro do Classe chefe do seu outro projeto é pegar um jardim um projeto e jogar em outro.
+
+102
+00:08:40,740 --> 00:08:45,690
+Então eu mostrei as duas formas só que a forma que a gente vai usar é exatamente essa clique com o botão
+
+103
+00:08:45,690 --> 00:08:54,180
+direito BID PF configure da PF e na aba projetos você tem como dizer qual é o projeto que esse projeto
+
+104
+00:08:54,180 --> 00:09:00,930
+depende ou seja o épico braço financeiro depende do projeto e traça o cálculo isso feito na próxima
+
+105
+00:09:00,930 --> 00:09:05,940
+aula a gente vai estar com tudo pronto para a gente definir os módulos entender os princípios por trás
+
+106
+00:09:05,940 --> 00:09:08,970
+desse fantástico recurso no JD K-9.

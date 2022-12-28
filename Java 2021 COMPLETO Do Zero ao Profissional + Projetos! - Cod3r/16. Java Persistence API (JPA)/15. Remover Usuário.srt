@@ -1,0 +1,279 @@
+1
+00:00:00,610 --> 00:00:05,950
+Agora nós vamos falar sobre a exclusão já já fizemos a inspeção.
+
+2
+00:00:06,030 --> 00:00:13,050
+Fizemos consultas tanto a partir do Haiti como consultas para obter todos os usuários da base colocando
+
+3
+00:00:13,050 --> 00:00:19,560
+a limitação lá para não trazer a base inteira e fizemos algumas alterações marchando um pouquinho.
+
+4
+00:00:19,710 --> 00:00:23,250
+O que significa o objeto está num estado gerenciado e gerenciado.
+
+5
+00:00:23,250 --> 00:00:30,340
+Agora vou falar para vocês da exclusão então para isso nós vamos criar uma nova classe dentro de 10
+
+6
+00:00:30,360 --> 00:00:38,170
+pontos básicos chamada remover o e remover o usuário.
+
+7
+00:00:38,370 --> 00:00:45,620
+Vamos criar novamente aqui Uma Thurman e nós vamos continuar usando diretamente o menu.
+
+8
+00:00:45,630 --> 00:00:52,380
+Logo na sequência nós vamos criar um deal na Data Access Object que vai nos ajudar a encapsular parte
+
+9
+00:00:52,380 --> 00:00:59,550
+da complexidade e ter que usar um ménage manualmente certo para facilitar também a nossa vida.
+
+10
+00:00:59,550 --> 00:01:07,650
+Então eu vou pegar essa parte inicial do mini ver que tem feito isso todas as aulas já vou colocar aqui
+
+11
+00:01:07,650 --> 00:01:16,030
+no final para fechar o Klaus Meine e também fechar o menu de feto.
+
+12
+00:01:16,230 --> 00:01:23,340
+Aqui no meio nós vamos fazer o processo de exclusão o primeiro eu vou consultar o registro e depois
+
+13
+00:01:23,340 --> 00:01:30,600
+eu vou exclui para fazer a consulta vou fazer da forma mais simples possível para que usuário recebe
+
+14
+00:01:30,720 --> 00:01:34,100
+o usuário a partir do Messenger.
+
+15
+00:01:34,140 --> 00:01:41,320
+Eu vou pegar o método Find que a gente já usou anteriormente passando a classe usuario o usuário de
+
+16
+00:01:41,350 --> 00:01:49,590
+classe que eu vou passar por exemplo onde vou procurar que na base só pra ver quais são os usuários
+
+17
+00:01:49,590 --> 00:01:54,970
+cadastrados que eu escolhi pra excluídos usuários.
+
+18
+00:01:55,420 --> 00:01:59,400
+Eu vou cadastrar um usuário manualmente aqui o usuário outro.
+
+19
+00:02:00,040 --> 00:02:11,340
+Então vou colocar aqui um ponto e eu não feche ou clicar aqui em.
+
+20
+00:02:12,330 --> 00:02:18,360
+Ele vai aplicar uma vez ou consultando novamente aqui você vai ver que esse usuário do outro já está
+
+21
+00:02:18,360 --> 00:02:20,020
+presente na base.
+
+22
+00:02:20,340 --> 00:02:27,060
+Então uma vez feito isso eu vou selecionar aqui o raio de 8 lembrado que nesse caso ele está mapeado
+
+23
+00:02:27,060 --> 00:02:29,500
+para um longo então qualquer 8 L.
+
+24
+00:02:29,580 --> 00:02:35,360
+Se não é vaca mapeando isso para um inteligente como ele tentar inserir ou interagir dentro de um lote
+
+25
+00:02:35,400 --> 00:02:37,050
+não vai conseguir fazer isso.
+
+26
+00:02:37,190 --> 00:02:37,580
+Pronto.
+
+27
+00:02:37,590 --> 00:02:43,230
+Antes de excluir o que é que eu vou fazer eu vou verificar fazer um teste pra saber se o usuário ele
+
+28
+00:02:43,260 --> 00:02:48,170
+está diferente de Lula porque se ele me anulou significa que o usuário hoje já não está na base.
+
+29
+00:02:48,540 --> 00:02:52,860
+Então não tem por que eu tentar excluir o usuário que não existe está certo.
+
+30
+00:02:53,080 --> 00:02:59,910
+E aqui vai cair naquele mesmo cenário que é o cenário da inclusão no cenário da alteração eu preciso
+
+31
+00:02:59,910 --> 00:03:06,450
+gerar um impacto na alteração no banco de dados sempre que eu coloco o registro ele vai gerar uma alteração
+
+32
+00:03:06,450 --> 00:03:09,390
+no banco de dados sempre que altera o registro.
+
+33
+00:03:09,390 --> 00:03:13,110
+Ele vai alterar o banco de dados obviamente quando faço a exclusão.
+
+34
+00:03:13,110 --> 00:03:18,010
+Ele também vai gerar um impacto no banco de dados e são sempre que eu precisar que sempre que eu fizer
+
+35
+00:03:18,010 --> 00:03:24,150
+a operação que vai causar um impacto no banco de dados vai gerar alguma alteração no banco de dados
+
+36
+00:03:24,480 --> 00:03:31,290
+seja porque eu excluí algo acrescentei ou terei eu preciso estar dentro de um contexto transacional.
+
+37
+00:03:31,290 --> 00:03:35,770
+Ele não vai conseguir excluir se eu simplesmente mandar ele excluir sem o contexto nacional.
+
+38
+00:03:35,770 --> 00:03:39,010
+Posso até estar aqui pra fazer o que a gente já fez anteriormente.
+
+39
+00:03:39,020 --> 00:03:45,280
+Então vou chamar aquele engenheiro de ponto removido passar o usuário pra ele remover.
+
+40
+00:03:45,490 --> 00:03:52,230
+Já selecionei usuário chamei o remova e no final fechei o menu geralmente menos etc.
+
+41
+00:03:52,290 --> 00:03:53,760
+Você vai executar isso aqui.
+
+42
+00:03:53,850 --> 00:03:59,330
+Ele vai executar as operações feitas no Selection mas não foi isso.
+
+43
+00:03:59,390 --> 00:04:04,400
+O comando do tipo delete porque nesse caso ele não deletou o usuário.
+
+44
+00:04:04,460 --> 00:04:11,010
+Aí 8 porquê eu não coloquei dentro de um contexto transacional que eu posso abrir ao abrir a transação
+
+45
+00:04:11,010 --> 00:04:19,800
+só se realmente o usuário de baixo para ingenuo é tão grande transepto ponto ganho e posso duplicar
+
+46
+00:04:19,800 --> 00:04:25,690
+essa linha em coloca aqui pra baixo só substituído pelo Committee certo.
+
+47
+00:04:25,690 --> 00:04:30,590
+Então aqui ele vai efetuar essa transação projetado.
+
+48
+00:04:30,600 --> 00:04:36,480
+Agora sim ele vai fazer um Selection aqui foi o primeiro Fayed e depois ele fez um delete pra excluir
+
+49
+00:04:36,480 --> 00:04:37,550
+o usuário por aí.
+
+50
+00:04:38,080 --> 00:04:44,880
+Então e mostrando aqui onde tinha até o oitavo registro acetona agora a gente não tem mais o oitavo
+
+51
+00:04:44,880 --> 00:04:53,030
+registro porque foi excluído então esse é o processo de exclusão mas vimos o crude meu cliente o Hide
+
+52
+00:04:53,070 --> 00:05:02,110
+updates Lite e na próxima aula nós vamos focar na criação de uma outra entidade a gente até agora diz
+
+53
+00:05:02,220 --> 00:05:04,680
+que a gente criou que foi a entidade usuário.
+
+54
+00:05:04,830 --> 00:05:12,150
+Basicamente onde colocou três motéis que é o arroba chegou a roubar o arroba hoje em Direito velho coloca
+
+55
+00:05:12,150 --> 00:05:18,240
+na estratégia a gente vai estender um pouco mais a questão das amostragens usadas mas vamos a outras
+
+56
+00:05:18,240 --> 00:05:19,700
+ver como algo colam.
+
+57
+00:05:19,890 --> 00:05:27,420
+Nós vamos usar o tempo para mapear para o nome de tabela diferente em cima dessa outra entidade no caso
+
+58
+00:05:27,420 --> 00:05:29,760
+a entidade produto que nós vamos criar.
+
+59
+00:05:29,910 --> 00:05:35,610
+Eu vou criar um belo olha este não vai ficar amarrado a produto vai ser um balcão genérico para que
+
+60
+00:05:35,610 --> 00:05:40,020
+a gente possa usar esse ideal e simplificar os nossos exercícios.
+
+61
+00:05:40,020 --> 00:05:47,660
+Vocês vão perceber que dentro dos exercícios terá por exemplo novo obter remover que a gente está criando.
+
+62
+00:05:47,820 --> 00:05:52,700
+Em vez de ficar acessando menos de fato para criar um ente menos ideal.
+
+63
+00:05:52,710 --> 00:05:58,260
+A gente vai criar um belo obra a partir dele usar o que vai tornar o nosso método em que a execução
+
+64
+00:05:58,260 --> 00:06:03,970
+do nosso código nosso exercício no nosso exemplo mais simples porque parte da complexidade vai estar
+
+65
+00:06:04,050 --> 00:06:05,810
+encapsulado dentro.
+
+66
+00:06:05,810 --> 00:06:08,210
+Vai estar escondida dentro do Dell.
+
+67
+00:06:08,280 --> 00:06:13,570
+Então a gente vai primeiro criar uma entidade colocando um pouco mais de anotação pra discutir algumas
+
+68
+00:06:13,590 --> 00:06:18,300
+outras possibilidades que a gente tem usando outras Another eixos e logo na sequência ele vai criar
+
+69
+00:06:18,300 --> 00:06:23,780
+um Bell para facilitar o nosso acesso ao banco de dados usando o JP.
+
+70
+00:06:23,820 --> 00:06:26,610
+Então fico por aqui na próxima aula a gente continua até lá.

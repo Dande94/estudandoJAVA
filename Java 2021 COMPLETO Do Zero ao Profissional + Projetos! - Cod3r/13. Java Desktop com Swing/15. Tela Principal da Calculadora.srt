@@ -1,0 +1,403 @@
+1
+00:00:00,530 --> 00:00:06,990
+Agora nós vamos começar mais um projeto aqui no nosso capítulo de Sully que é seu projeto para a calculadora.
+
+2
+00:00:07,050 --> 00:00:12,210
+Eu vou abri a calculadora do Mac que vai ser a minha fonte inspiradora.
+
+3
+00:00:12,210 --> 00:00:17,940
+Nós vamos usar essa aplicação pra gerar uma réplica dessa aplicação Java.
+
+4
+00:00:18,030 --> 00:00:22,880
+Aí é importante entender um pouquinho mais de como funciona a calculadora né por exemplo coloco aqui
+
+5
+00:00:22,890 --> 00:00:25,170
+o número 50.
+
+6
+00:00:25,170 --> 00:00:32,390
+Se eu clico no Mais Você vai ver que o 50 permanece no display mais ou menos que eu começar a pressionar
+
+7
+00:00:32,540 --> 00:00:41,270
+novos dígitos por exemplo 3 0 significa que o 50 foi armazenado o símbolo da operação que eu cliquei
+
+8
+00:00:41,280 --> 00:00:43,950
+que foi mas também ficou armazenado internamente.
+
+9
+00:00:43,950 --> 00:00:50,810
+Agora eu coloquei 30 de tal forma que se eu apertar por exemplo o símbolo de subtração ele vai subtrair
+
+10
+00:00:50,820 --> 00:00:57,450
+o resultado da primeira operação que foi 50 que está armazenado internamente mais o 30 que está no display
+
+11
+00:00:57,520 --> 00:01:03,540
+e agora colocando o símbolo de subtração por exemplo ele vai concluir a operação anterior que gerou
+
+12
+00:01:03,540 --> 00:01:08,880
+o resultado 80 de tal forma que agora vai ficar menos próximo da marca digitar.
+
+13
+00:01:08,880 --> 00:01:15,590
+Por exemplo se eu digitar aqui 78 ele já tem o Linux armazenado já tinha 80.
+
+14
+00:01:15,630 --> 00:01:22,440
+Antes eu coloquei menos ele armazenou 80 menos e agora no display está a 38 de tal forma que se eu colocar
+
+15
+00:01:22,440 --> 00:01:28,560
+um igual ele vai gerar o estado 2 é assim que funciona sempre tenho um número o resultado da comparação
+
+16
+00:01:28,560 --> 00:01:34,740
+fica armazenado internamente e aquele que está no display vai ser usado para fazer nova operação é mais
+
+17
+00:01:34,740 --> 00:01:40,080
+ou menos isso que a gente vai estar explorando na nossa calculadora eu não vou colocar nem esse símbolo
+
+18
+00:01:40,080 --> 00:01:45,420
+pra ficar alternando positivo e negativo até poderia fazer supersimples e eu não vou trabalhar com um
+
+19
+00:01:45,420 --> 00:01:47,390
+percentual esse até.
+
+20
+00:01:47,500 --> 00:01:53,340
+Depois se faz ou não esse botão para alternar de positivo e negativo não seria um problema para cá pra
+
+21
+00:01:53,340 --> 00:01:53,850
+você.
+
+22
+00:01:53,850 --> 00:01:59,370
+Com o exercício de casa mas de qualquer forma o nosso objetivo é construir a calculadora e depois a
+
+23
+00:01:59,370 --> 00:02:04,650
+gente vai entender um pouquinho mais como foi desenvolvido a lógica da calculadora vai entender um pouquinho
+
+24
+00:02:04,650 --> 00:02:09,880
+mais como quem pode pagar essa lógica e replicado dentro da nossa aplicação já que por enquanto não
+
+25
+00:02:09,880 --> 00:02:16,330
+vou fechar a calculadora e nós vamos criar um novo projeto para colocar no projeto Java o nome do projeto
+
+26
+00:02:16,330 --> 00:02:24,210
+vai ser calculadora e nós vamos já que é um projeto eu vou colocar aqui para não criar o nosso módulo
+
+27
+00:02:24,690 --> 00:02:32,160
+aqui dentro eu vou criar pacotes que vai ser baseado num projeto como a gente já expliquei anteriormente.
+
+28
+00:02:32,160 --> 00:02:44,510
+Então vou criar uma classe que eu vou chamar aqui de lá dura e o pacote vai ser com pouca ajuda.
+
+29
+00:02:44,790 --> 00:02:51,870
+Fique à vontade para colocar o nome do pacote que você queira chamar aquilo de caos que é o pacote dentro
+
+30
+00:02:51,870 --> 00:02:53,400
+do meu projeto vai ser visão.
+
+31
+00:02:53,410 --> 00:02:55,150
+Então aqui eu tenho B.
+
+32
+00:02:55,260 --> 00:03:02,310
+Com Gold e com o na empresa calcule o nome do projeto dentro da empresa que eu trabalho eles usam o
+
+33
+00:03:02,310 --> 00:03:08,420
+pacote especificamente que nós vamos construir para criar a camada de apresentação na nossa aplicação.
+
+34
+00:03:08,430 --> 00:03:16,770
+O meu primeiro objetivo aqui eu vou dentro de calculadora na verdade a calculadora vai estender j falei
+
+35
+00:03:17,480 --> 00:03:24,150
+eu vou criar aqui um construtor então aqui a terceira opção tem um curto todo público vou tirar esse
+
+36
+00:03:24,150 --> 00:03:32,540
+comentário e vou criar aqui o método e a partir do Metro eu vou chamá lo de construtor calculadora ele
+
+37
+00:03:32,540 --> 00:03:38,240
+vai chamar o construtor e vai iniciar nossa aplicação como ele está reclamando aqui negociar com essa
+
+38
+00:03:38,310 --> 00:03:45,010
+advertência Se eu der um comando contra ou ele vai dar algumas opções de casa aqui pra ele suprimiu
+
+39
+00:03:45,030 --> 00:03:53,120
+One e cereal eu não quero você realizar essa tela então não vou precisar ter o cereal baixo e o Haiti
+
+40
+00:03:53,160 --> 00:03:54,660
+como já falei anteriormente.
+
+41
+00:03:54,880 --> 00:03:57,750
+Então quer que eu vou fazer aqui pra iniciar nossa aplicação.
+
+42
+00:03:57,750 --> 00:04:01,900
+Primeiro eu vou colocar aqui o site de bom pra ser igual.
+
+43
+00:04:02,100 --> 00:04:07,890
+Ou seja a partir desse momento como eu iniciar minha aplicação já lá apareceu uma tela mesmo que pequena
+
+44
+00:04:07,890 --> 00:04:08,540
+tela.
+
+45
+00:04:08,830 --> 00:04:14,660
+Olho na telinha que eu tenho como maximizar a tela não é tão fácil porque por conta do tamanho deixa
+
+46
+00:04:14,680 --> 00:04:23,970
+ver se eu consigo aqui pegar um ponto para conseguir maximizar se eu mesmo fechando a aplicação ele
+
+47
+00:04:23,970 --> 00:04:26,750
+não vai finalizá lo tem que matar manualmente aqui.
+
+48
+00:04:27,240 --> 00:04:35,280
+Então o próximo comando eu fazer vai ser o set de fogo Close Operation que ele pode ser 2 na verdade
+
+49
+00:04:35,280 --> 00:04:35,670
+né.
+
+50
+00:04:35,670 --> 00:04:42,390
+Eu falei com vocês que ele dispôs de um close up dispôs ele vai finalizar a tela atual.
+
+51
+00:04:42,390 --> 00:04:47,890
+Se você tiver apenas uma única tela na sua aplicação ele faz o mesmo efeito de sair da aplicação.
+
+52
+00:04:47,910 --> 00:04:48,990
+é uma possibilidade.
+
+53
+00:04:48,990 --> 00:04:55,500
+Vai funcionar também mas outra possibilidade que garante que você vai realmente sair da aplicação é
+
+54
+00:04:55,500 --> 00:05:01,570
+o exit com Klaus e eu posso eu constante diretamente por quê.
+
+55
+00:05:01,570 --> 00:05:02,210
+Por quê.
+
+56
+00:05:02,270 --> 00:05:06,400
+Porque eu já estou herdando de Jeffrey imitam se coloca aquele de frame.
+
+57
+00:05:06,440 --> 00:05:07,090
+Ponto.
+
+58
+00:05:07,190 --> 00:05:14,150
+Tinha um close também dá certo mas como o ego de Jeffrey recebo todos os atributos comportamentos constantes
+
+59
+00:05:14,480 --> 00:05:17,060
+de Jeffrey me isso faz com que a aplicação finalize.
+
+60
+00:05:17,540 --> 00:05:24,320
+Então será que ele vai abrir a janela para rodar no processo aqui fechando a aplicação aqui você vai
+
+61
+00:05:24,320 --> 00:05:25,070
+ver que foi Mark.
+
+62
+00:05:25,070 --> 00:05:28,990
+O processo foi finalizado por conta desse comando.
+
+63
+00:05:29,010 --> 00:05:35,810
+Outro passo que eu vou fazer vai ser definir o tamanho da tela então que o site definido a largura e
+
+64
+00:05:35,810 --> 00:05:45,470
+altura a largura que nós vamos usar vai ser 232 e a altura vai ser 322 que é mais ou menos o tamanho
+
+65
+00:05:45,890 --> 00:05:46,730
+da calculadora.
+
+66
+00:05:46,730 --> 00:05:51,560
+Já fiz isso previamente então sei que esse tamanho de tela que vai ser ideal para a nossa calculadora.
+
+67
+00:05:51,560 --> 00:05:59,300
+Se eu pegar a calculadora aqui no Mac só com um referencial você vai ver que é muito próximo daquilo
+
+68
+00:05:59,300 --> 00:06:01,190
+que a gente tem aqui no próprio Mac.
+
+69
+00:06:01,550 --> 00:06:07,220
+Então foi baseado nela então ele tem uma tela mais ou menos do mesmo tamanho já que já está muito próximo
+
+70
+00:06:07,220 --> 00:06:08,630
+daquilo que eu quero deixar aqui.
+
+71
+00:06:08,630 --> 00:06:13,340
+Sempre que for necessário vou trazer o projeto original para que a gente possa estar bem.
+
+72
+00:06:13,470 --> 00:06:15,470
+Está dando certo ou não aquilo que ele está fazendo.
+
+73
+00:06:15,470 --> 00:06:20,690
+Eu vou me preparar muito com as fontes não sei quantos depois eu podem até encontrar um fonte que seja
+
+74
+00:06:20,690 --> 00:06:23,100
+mais parecida com essa fonte aqui.
+
+75
+00:06:23,120 --> 00:06:29,420
+Vou usar uma fonte mais simples mas vocês podem procurar algo que fique realmente igual como está aqui
+
+76
+00:06:29,420 --> 00:06:37,610
+na calculadora do MAC e a outra coisa que eu quero fazer antes de finalizar o set Location relative.
+
+77
+00:06:38,000 --> 00:06:43,850
+Eu vou passar aquele valor nulo a gente sabe que nesse caso nossa aplicação vai abrir no centro da tela
+
+78
+00:06:44,260 --> 00:06:50,710
+e nós temos já a nossa classe na divisão que é a principal tela que vai dar entrada na nossa aplicação.
+
+79
+00:06:50,720 --> 00:06:53,760
+Quer Klaus calculadora mas vamos dividi.
+
+80
+00:06:54,020 --> 00:07:00,020
+Antes de falar sobre isso rapidinho eu vou mostrar que a calculadora é muito legal que se você olhar
+
+81
+00:07:00,290 --> 00:07:04,630
+o projeto você pensar como eu iria organizar a interface gráfica.
+
+82
+00:07:05,060 --> 00:07:09,050
+Quais são as partes digamos assim que compõem a interface gráfica.
+
+83
+00:07:09,050 --> 00:07:15,560
+Essa pergunta é interessante porque a forma como você organiza a aplicação ela é extremamente importante
+
+84
+00:07:15,560 --> 00:07:21,350
+e ela vai dizer como vai está organizado se vai ser fácil de manter ou se vai ser difícil.
+
+85
+00:07:21,350 --> 00:07:28,010
+Se vai ser didático para quem olhar o código entender aqui tem tal elemento aqui tem um elemento x esse
+
+86
+00:07:28,010 --> 00:07:31,760
+elemento aqui está dentro de outro elemento então de forma.
+
+87
+00:07:31,790 --> 00:07:37,470
+é importante que o seu código de certa forma ele seja didático ele fique fácil de ser entendido.
+
+88
+00:07:37,520 --> 00:07:42,500
+Por isso que é importante quando você olha a aplicação dessa você entender como você organizaria.
+
+89
+00:07:42,500 --> 00:07:46,230
+Eu não vou dar resposta na sala eu quero que você pense um pouco na próxima.
+
+90
+00:07:46,250 --> 00:07:51,200
+A gente vai continuar o nosso projeto da calculadora e aí sim eu vou falar um pouco mais sobre quais
+
+91
+00:07:51,200 --> 00:07:55,420
+componentes visuais usamos definido para modelar a nossa tela.
+
+92
+00:07:55,430 --> 00:08:01,100
+Nós vamos precisar usar alguns layout tremendo em gestos que são gerenciadores de layout do suingue.
+
+93
+00:08:01,110 --> 00:08:07,200
+Nós vamos usar o bode layout que nós vamos usar o grid de Bad layout que nós vamos usar o Flow Flow
+
+94
+00:08:07,200 --> 00:08:11,630
+o layout de ok para que a gente possa organizar a nossa tela da melhor forma possível.
+
+95
+00:08:11,910 --> 00:08:17,660
+Mas isso é um detalhe que é uma das coisas que eu quero focar nesse exercício da calculadora são esses
+
+96
+00:08:17,660 --> 00:08:23,320
+gerenciadores de layout que é algo importante muito suingue você sabe organizar os componentes na tela.
+
+97
+00:08:23,380 --> 00:08:26,350
+Mas eu quero que você pense dessa aula para a próxima aula.
+
+98
+00:08:26,360 --> 00:08:33,210
+Como você iria organizar quais são os componentes e quais são as classes que você vai criar tomar divisão
+
+99
+00:08:33,220 --> 00:08:35,330
+para organizar essa interface gráfica.
+
+100
+00:08:35,630 --> 00:08:40,990
+Essa é uma pergunta importante na próxima aula vou responder ela vai continuar o nosso projeto a calculadora
+
+101
+00:08:41,060 --> 00:08:41,480
+e até lá.

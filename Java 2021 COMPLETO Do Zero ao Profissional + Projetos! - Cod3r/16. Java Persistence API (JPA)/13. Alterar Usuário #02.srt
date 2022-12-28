@@ -1,0 +1,215 @@
+1
+00:00:00,290 --> 00:00:06,660
+Pensar nas mãos agora fazer o segundo exercício de alterar o usuário é esse segundo exercício primeiro
+
+2
+00:00:06,660 --> 00:00:07,770
+vou mostrar a ele.
+
+3
+00:00:07,800 --> 00:00:14,850
+7 Não vai ser um tanto quanto estranho e depois eu vou explicar por que isso aconteceu e tentar explicar
+
+4
+00:00:14,850 --> 00:00:19,300
+um pouco esse conceito o que é um objeto está num estado gerenciado ou não gerenciado.
+
+5
+00:00:19,300 --> 00:00:31,770
+Então eu vou criar aqui altera a usuario dores eu vou copiar o conteúdo alterar o usuário para a gente
+
+6
+00:00:31,800 --> 00:00:39,920
+ganhar tempo e não perder tempo escrevendo exatamente a mesma coisa então o craque recupera até o telefone
+
+7
+00:00:40,850 --> 00:00:49,570
+e maximizar produtos que a gente já tem feito até então criei o manifesto Oriente Médio e abri uma transação
+
+8
+00:00:49,570 --> 00:00:59,010
+total e eu vou colocar aqui Leonardo alterado faltará só não vou deixar no meio de etiquetar e vou simplesmente
+
+9
+00:00:59,010 --> 00:01:02,520
+tirar o comando que faz a atualização.
+
+10
+00:01:02,610 --> 00:01:05,570
+Não vou comentar vou deixar aqui comentado.
+
+11
+00:01:06,030 --> 00:01:11,430
+Esse comando não está mais sendo executado obviamente com o que eu acabei de comentar esse comando.
+
+12
+00:01:11,430 --> 00:01:17,940
+Só que eu abri outra nação fiz uma consulta ao terei aqui os dados na verdade eu não precisaria nem
+
+13
+00:01:18,120 --> 00:01:24,790
+alterar o meio vou deixar aqui alterar apenas o nome e vou comentar a transação e depois fechar um ménage
+
+14
+00:01:24,960 --> 00:01:30,210
+E MUITO MENOS DE FATO olhando pra esse código você vai dizer o seguinte eu amava esse código ele vai
+
+15
+00:01:30,510 --> 00:01:36,150
+consultar o usuário você acertou no homem mas como você não fez nenhum homem um marginal.
+
+16
+00:01:36,240 --> 00:01:41,460
+O fato de você comentar a transação não vai gerar nenhum efeito ou seja o usuário não terá esse nome
+
+17
+00:01:41,910 --> 00:01:45,660
+alterado não sei não será gerado um update no banco de dados.
+
+18
+00:01:45,900 --> 00:01:53,280
+Se a gente executar aqui certo você vai ver que ele tal Leonardo pode até olhar aqui no BC isto é esse
+
+19
+00:01:53,280 --> 00:02:02,780
+ponto XML é para ele mostrá lo novamente na consulta e eu vou entrar aqui não faltará usuário dor coisa
+
+20
+00:02:03,820 --> 00:02:10,140
+que ele vai mostrar aqui vai mostrar a consulta gerada gerou um Salete e depois gerou o app deste média
+
+21
+00:02:10,160 --> 00:02:17,160
+eram Salete era esperado ele foi gerado aqui no Fayed mas depois ele gerou um acidente e se a gente
+
+22
+00:02:17,160 --> 00:02:27,990
+olhar o resultado aqui onde você vai ver que o nome Leonardo foi alterado certo ou alterado corta aqui
+
+23
+00:02:29,870 --> 00:02:32,740
+muitos bandidos.
+
+24
+00:02:32,970 --> 00:02:40,000
+Salvei Não tenho margem chamado aqui quero ressaltar que o médio está comentado não é pra ele jamais
+
+25
+00:02:40,070 --> 00:02:42,750
+comando e ESET expondo novamente.
+
+26
+00:02:42,750 --> 00:02:49,830
+Ainda assim ele gerou uma alteração que fez com que o nome Leonardo alterado novamente esteja aparecendo
+
+27
+00:02:49,830 --> 00:02:54,650
+aqui e agora só pra não ficar com este nome gigantesco no altar para Leonardo.
+
+28
+00:02:54,760 --> 00:03:01,980
+E tal fato é que está provado que mesmo não é chamado Merge ele gerou alteração e por quê que isso aconteceu
+
+29
+00:03:01,980 --> 00:03:10,170
+porque quando você fez uma consulta dentro junto com o texto transacional o resultado dessa consulta
+
+30
+00:03:10,240 --> 00:03:17,570
+ele é dito como uma entidade que está num estado gerenciado que é um Estado gerenciado o Estado gerenciada
+
+31
+00:03:17,590 --> 00:03:25,200
+como JP ele tem digamos assim um gerenciamento em cima daquele objeto e qualquer mudança que você faça
+
+32
+00:03:25,200 --> 00:03:31,920
+dentro de um contexto transacional essa mudança será sincronizada com o banco de dados mesmo que você
+
+33
+00:03:31,920 --> 00:03:39,360
+não chame o método mágico certo ou seja em outras palavras qualquer mudança que você fizer no objeto
+
+34
+00:03:39,760 --> 00:03:45,330
+numa hora ou outro JPEG vai pegar esse objeto e vai sincronizar ele com o banco de dados de tal forma
+
+35
+00:03:45,750 --> 00:03:51,990
+que os dados serão atualizados lá no banco de dados mesmo que você não chame o Merge.
+
+36
+00:03:51,990 --> 00:03:58,200
+Lá o Excel por exemplo coloca aqui Leonardo por exemplo Leitão que não foi nenhum caso que a gente fez
+
+37
+00:03:58,200 --> 00:04:05,160
+até então que eu vou colocar o Big in Translation pra ficar depois será que ele vai alterar ou não a
+
+38
+00:04:05,160 --> 00:04:13,200
+informação se executar você vai ver que ele vai mostrar que o Select e ainda assim vai mostrar um app
+
+39
+00:04:13,200 --> 00:04:18,350
+de tal forma que o dado foi alterado no banco de dados ou não na lei tão certo.
+
+40
+00:04:18,540 --> 00:04:19,030
+Porquê.
+
+41
+00:04:19,040 --> 00:04:22,440
+Porque é que ele continua dentro de um contexto transnacional.
+
+42
+00:04:22,470 --> 00:04:28,140
+Esse é um comportamento que acontece sempre que o objeto está num estado gerenciado.
+
+43
+00:04:28,140 --> 00:04:34,450
+Lá existe a possibilidade de eu por exemplo não ter o objeto no Estado gerenciado.
+
+44
+00:04:34,500 --> 00:04:40,490
+Existe sim uma mancha na proximal como é que você pode fazer com que o objeto não fique no Estado gerenciado
+
+45
+00:04:40,500 --> 00:04:45,870
+se ele não estiver num Estado gerenciado significa que ele só irá ser atualizado no banco de dados se
+
+46
+00:04:45,870 --> 00:04:51,810
+você for lá e explicitamente chamar o comando Merge na próxima a gente vai trabalhar com isso eu vou
+
+47
+00:04:52,050 --> 00:04:57,780
+tornar o objeto não gerenciado você vai dizer que ele não vai ser atualizado no banco de dados e aí
+
+48
+00:04:57,870 --> 00:05:01,870
+vai chamar explicitamente o Merge e vai atualizar o objeto.
+
+49
+00:05:01,880 --> 00:05:05,230
+Então fica aí esse cuidar essa ressalva.
+
+50
+00:05:05,240 --> 00:05:11,210
+O ideal é que você esteja trabalhando com o objeto a maior parte do tempo não gerenciada pelo não ficar
+
+51
+00:05:11,420 --> 00:05:15,650
+por exemplo de tempos em tempos querem sincronizar aquilo que você está mexendo no objeto e mandando
+
+52
+00:05:15,650 --> 00:05:16,790
+pro banco.
+
+53
+00:05:16,790 --> 00:05:23,070
+E quando você realmente precisar pense chia aí sim você entra num contexto transacional e manda as informações
+
+54
+00:05:23,070 --> 00:05:26,710
+do banco de dados para os qual continua esse exemplo e ele espera lá.

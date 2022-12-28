@@ -1,0 +1,371 @@
+1
+00:00:00,080 --> 00:00:06,250
+Pessoal ao falar um pouquinho sobre o valor padrão das variáveis eu vou usar também a classe data aqui
+
+2
+00:00:06,590 --> 00:00:12,090
+só para que a gente possa fazer alguns rascunhos da série pois eu vou limpar deixar a classe do jeito
+
+3
+00:00:12,100 --> 00:00:12,470
+que está.
+
+4
+00:00:12,480 --> 00:00:20,650
+Só pra você entendeu o conceitual e o seguinte Quando você cria uma variável ou uma variável tanto faz.
+
+5
+00:00:20,650 --> 00:00:26,640
+Pode ser um site pode ser um short pode ser um hit pode ser um long.
+
+6
+00:00:26,720 --> 00:00:33,240
+Todos esses tipos quando você for criar uma variável de instância ou variável de classe por padrão o
+
+7
+00:00:33,240 --> 00:00:39,800
+valor será zero ou seja baixo shortinho longo e o valor será zero.
+
+8
+00:00:39,990 --> 00:00:51,750
+Quando você criar um flows por exemplo é dado o valor padrão será 0 0 também 0 0 aqui como tem ponto
+
+9
+00:00:51,750 --> 00:00:53,990
+flutuante então ele fica 0 0.
+
+10
+00:00:54,240 --> 00:01:02,470
+O Bulent que é um outro tipo primitiva tinha o valor padrão é falso e o valor padrão do chá.
+
+11
+00:01:02,470 --> 00:01:12,170
+Finalmente nós temos oito tipos primitivos 1 2 3 4 5 6 7 e o oitavo que é o chá o valor padrão do chá
+
+12
+00:01:12,270 --> 00:01:18,420
+vai ser o primeiro elemento da tabela único de lá que é o 00 00.
+
+13
+00:01:18,810 --> 00:01:21,420
+Então esse aqui é o valor padrão do chá.
+
+14
+00:01:21,420 --> 00:01:23,310
+Esse é o valor padrão do bule.
+
+15
+00:01:23,610 --> 00:01:28,260
+Esse que abalou o padrão do Flow de zero e baixou o rating de longo zero.
+
+16
+00:01:28,260 --> 00:01:33,090
+Só que esse valor padrão ele é dado quando você não define nada.
+
+17
+00:01:33,090 --> 00:01:39,480
+Por exemplo nesse caso que algum dia mês e ano se você não informa nada você vai ver que o valor padrão
+
+18
+00:01:39,480 --> 00:01:41,440
+é 0 0 0.
+
+19
+00:01:41,700 --> 00:01:49,440
+Mais quando você define uma variável local por exemplo a ponto e vírgula não define valor nenhum.
+
+20
+00:01:49,540 --> 00:01:55,650
+E aqui eu vou usar o valor da variável a cor tentar usar o valor da variável a nesse contexto vai dar
+
+21
+00:01:55,650 --> 00:01:56,290
+um problema.
+
+22
+00:01:56,310 --> 00:01:57,190
+Porquê.
+
+23
+00:01:57,210 --> 00:02:05,250
+Porque uma variável local não é inicializar por padrão uma variável de instância ou uma variável que
+
+24
+00:02:05,250 --> 00:02:11,400
+pertence à classe de outras palavras variáveis definidas dentro e diretamente dentro do corpo da classe.
+
+25
+00:02:11,400 --> 00:02:19,670
+Fora dos métodos vão sendo realizada por padrão então um inteiro vai ter valor zero e o bullying falso.
+
+26
+00:02:19,740 --> 00:02:28,950
+O Flow de Zero Zero sorte zero o caractere vai ter a primeira letra ao lado da tabela Unicode e esqueci
+
+27
+00:02:28,950 --> 00:02:30,310
+de dizer objetos.
+
+28
+00:02:30,540 --> 00:02:39,950
+De forma geral objetos vão ter por padrão o valor nulo certo significa que monstrinho por padrão e assim
+
+29
+00:02:40,230 --> 00:02:43,650
+recebe o valor nulo se eu não fizer nada está.
+
+30
+00:02:43,860 --> 00:02:51,210
+Isso aqui é um valor válido o que é que significa nulo nulo significa que essa essa variável não aponta
+
+31
+00:02:51,210 --> 00:02:53,370
+para nenhum local de memória.
+
+32
+00:02:53,370 --> 00:02:59,940
+Lembra que eu fiz aquele desenho quando você trabalha com objetos ou cria a data data D um recebe uma
+
+33
+00:02:59,940 --> 00:03:00,830
+nova data.
+
+34
+00:03:00,860 --> 00:03:06,330
+Aí você tem uma variável dentro dessa variável tem um endereço de memória que aponta para onde o objeto
+
+35
+00:03:06,330 --> 00:03:07,140
+está na memória.
+
+36
+00:03:07,500 --> 00:03:13,380
+Quando você não aponta para nenhum objeto de memória você usa o módulo certo eu vou falar um pouco mais
+
+37
+00:03:13,380 --> 00:03:18,630
+sobre o núcleo proximal só para deixar um pouco claro algumas questões também relativo ao ano.
+
+38
+00:03:18,890 --> 00:03:24,840
+Mas vamos lá quando eu quero focar agora em relação à inicialização isso serve para o primitivo ou mesmo
+
+39
+00:03:24,840 --> 00:03:31,290
+pra objeto se você tentar criar algo variável que é local ou seja definida dentro de um construtor ou
+
+40
+00:03:31,320 --> 00:03:38,310
+de um método e você não inicializar essa variável você não pode usar essa variável porque não é inicializar.
+
+41
+00:03:38,310 --> 00:03:44,370
+Por padrão ela é uma regra da linguagem porque é que não inicia com ela o padrão foi uma definição da
+
+42
+00:03:44,370 --> 00:03:44,930
+linguagem.
+
+43
+00:03:44,930 --> 00:03:51,600
+O fato de não inicializar variáveis locais então nesse caso o acho ou tentar usar e tentar executar
+
+44
+00:03:51,600 --> 00:03:56,790
+esse código lá dado o teste fica claro que vai dar um erro ela está mostrando e a mensagem vai ser o
+
+45
+00:03:56,790 --> 00:04:05,040
+seguinte desloca o verbo ou as variáveis locais pode não ter sido inicializar certo então você obrigatoriamente
+
+46
+00:04:05,040 --> 00:04:11,490
+precisa inicializar ou diretamente na própria linha por exemplo igual a 2 que não vai ter problema ou
+
+47
+00:04:11,490 --> 00:04:18,290
+você na linha seguinte ou antes de usar a variável da primeira vez você vai colocar igual a 2 ou igual
+
+48
+00:04:18,300 --> 00:04:24,390
+qualquer valor que você queira inicializar inclusive o próprio golo padrão 0 7 então nesse caso quando
+
+49
+00:04:24,390 --> 00:04:31,470
+você tem uma variável local você obrigatoriamente precisa inicializar essa variável já discutiu um pouquinho
+
+50
+00:04:31,470 --> 00:04:36,630
+sobre os valores padrões qualquer tipo primitivo numérico é zero.
+
+51
+00:04:36,690 --> 00:04:43,710
+O Bulletin é falso e o caractere é o primeiro caractere lado da tabela Unicode o Barra 0 0 0 e todo
+
+52
+00:04:43,710 --> 00:04:48,410
+o resto em Java e objeto é o valor padrão de um objeto é nulo.
+
+53
+00:04:48,540 --> 00:04:53,230
+A mesma coisa vai acontecer para restringir se você criar um estrito string.
+
+54
+00:04:53,400 --> 00:05:01,830
+Assim ponto e vírgula é você tentar colocar um ponto e vírgula parte sim e eu tentar aqui ele também
+
+55
+00:05:01,910 --> 00:05:07,020
+não cala ela dizendo que uma variável local pode não ter sido oficializada que é o caso aqui.
+
+56
+00:05:07,160 --> 00:05:12,620
+Você pode até colocar o valor nulo certo e aí você executa é o resultado que vai ser impresso aqui vai
+
+57
+00:05:12,620 --> 00:05:18,000
+ser nulo ou seja não tem nenhum objeto string senão referenciado por essa variável S.
+
+58
+00:05:18,080 --> 00:05:20,790
+Uma coisa é a variável s estar nula.
+
+59
+00:05:20,780 --> 00:05:24,990
+Outra coisa completamente diferente é a variável S está vazia.
+
+60
+00:05:25,010 --> 00:05:30,890
+São duas coisas diferentes no caso da Trindade mas qualquer objeto também a inicialização por padrão
+
+61
+00:05:31,160 --> 00:05:34,070
+como sendo nulo então esses são os valores padrão.
+
+62
+00:05:34,070 --> 00:05:40,830
+Já no caso dos valores que estão diretamente na instância eles vão ser sinalizados com zero ou posso
+
+63
+00:05:40,960 --> 00:05:45,050
+comentar esse aqui ou não inicializar em nenhuma variável.
+
+64
+00:05:45,050 --> 00:05:48,970
+Quando eu criei chamei a data sem nenhum parâmetro no construtor.
+
+65
+00:05:49,010 --> 00:05:54,860
+Se você olhar o resultado ou exatamente aquele que eu queria que eu vou colocar logo logo depois System
+
+66
+00:05:54,860 --> 00:06:02,970
+Audi dê um ponto logo que chamassem o system algo qualquer que eu dê um ponto imprimi data formatada
+
+67
+00:06:03,290 --> 00:06:07,150
+você vai ver que o resultado parcial 0 0 0.
+
+68
+00:06:07,190 --> 00:06:07,730
+Porque.
+
+69
+00:06:07,780 --> 00:06:14,010
+Porque o valor de instância n os chips primitivos ou qualquer valor de instância ele vai ser inicializar
+
+70
+00:06:14,030 --> 00:06:21,170
+com os valores padrões o caso de valores numéricos valor padrão 0 como eu falei pra vocês estão voltando
+
+71
+00:06:21,170 --> 00:06:28,640
+aqui eu vou comentar essa linha pra que eu possa inicializar com valor do Mundo de 1970 que é o valor
+
+72
+00:06:28,640 --> 00:06:31,750
+padrão que nós usamos aqui no nosso cenário da data certo.
+
+73
+00:06:32,000 --> 00:06:38,360
+Então espero ter ficado claro variáveis de instância aí é outra questão 7 que importante também quando
+
+74
+00:06:38,360 --> 00:06:44,110
+você define uma constante só pra finalizar quando você define um constante como você define uma variável
+
+75
+00:06:44,120 --> 00:06:52,020
+por exemplo a x a vírgula você sabe que isso vai ser realizado com um valor zero.
+
+76
+00:06:52,040 --> 00:06:52,430
+Porquê.
+
+77
+00:06:52,450 --> 00:06:59,780
+Porque é o valor padrão do inteiro mas quando você define Constantino você obrigatoriamente precisa
+
+78
+00:06:59,780 --> 00:07:04,460
+definir a constante até o construtor ter sido raptado certo.
+
+79
+00:07:04,550 --> 00:07:10,610
+Então ou você define o valor da constante diretamente na definição da constante por exemplo x recebe
+
+80
+00:07:10,720 --> 00:07:11,660
+o valor 3.
+
+81
+00:07:11,660 --> 00:07:18,500
+Isso não é um problema pode ser feito ou então no mais tardar você vai definir o valor da constante
+
+82
+00:07:18,530 --> 00:07:26,450
+dentro do construtor X recebe 100 também uma possibilidade a mais quando você define um valor que é
+
+83
+00:07:26,450 --> 00:07:27,860
+uma constante.
+
+84
+00:07:27,860 --> 00:07:34,250
+Você precisa definir essa constante até o objeto ter sido criado e ele não vai dar o valor padrão você
+
+85
+00:07:34,250 --> 00:07:40,670
+tem que de forma explícita inicializar uma constante seja diretamente na constante ou no construtor.
+
+86
+00:07:40,760 --> 00:07:45,770
+Mas quando a gente está trabalhando como variáveis as variáveis são oficializadas com um valor padrão
+
+87
+00:07:45,770 --> 00:07:49,620
+quando pertencem à instância ou são de classe.
+
+88
+00:07:49,670 --> 00:07:57,430
+A mesma coisa que você coloca um estático x Ponto e Vírgula esse valor vai ser realizado com uma luz
+
+89
+00:07:57,460 --> 00:08:02,160
+eram não preciso formal valor zero porque por padrão isso vai se tornar lucro.
+
+90
+00:08:02,160 --> 00:08:09,050
+Já as variáveis locais como eu falei obrigatoriamente precisam ser realizadas de forma explícita isso
+
+91
+00:08:09,050 --> 00:08:14,540
+para ter ficado claro esse conceito é só uma nuance que é importante você saber na próxima aula ou falar
+
+92
+00:08:14,540 --> 00:08:20,220
+um pouquinho sobre nulo que é um conceito importante inclusive nas primeiras confusões que eu tive com
+
+93
+00:08:20,220 --> 00:08:22,360
+meu chefe mas vou deixar para falar está proximal.

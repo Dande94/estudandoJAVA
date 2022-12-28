@@ -1,0 +1,267 @@
+1
+00:00:00,300 --> 00:00:07,140
+Agora pessoal nós vamos criar classes CSS relativo aos botões eu vou usar uma mesma classe nos dois
+
+2
+00:00:07,140 --> 00:00:07,560
+botões.
+
+3
+00:00:07,550 --> 00:00:13,140
+Eu não preciso criar uma classe para cada elemento mas posso usar uma mesma classe e uma classe é um
+
+4
+00:00:13,140 --> 00:00:20,110
+conjunto de atributos visuais para que você possa aplicar estilo aos elementos dentro do sua aplicação
+
+5
+00:00:20,110 --> 00:00:20,810
+em Java Flex.
+
+6
+00:00:20,820 --> 00:00:25,290
+Eu vou mostrar pra vocês e nós vamos fechar a aplicação.
+
+7
+00:00:25,800 --> 00:00:35,010
+Eu vou criar aqui um outro estilo então vou criar aqui um ou dois botões e nós vamos usar o background
+
+8
+00:00:35,040 --> 00:00:35,670
+cólon.
+
+9
+00:00:36,840 --> 00:00:42,950
+Nós vamos usar aqui o teste e o que eu vou copiar para cá.
+
+10
+00:00:42,990 --> 00:00:48,190
+Deixa eu ver o background cola que eu usei vai ser branco então FFF.
+
+11
+00:00:48,270 --> 00:00:53,010
+O texto com o texto eu coloquei 34.
+
+12
+00:00:53,010 --> 00:00:57,690
+Eu acho que na verdade eu coloquei exatamente o logo do título que é diferente.
+
+13
+00:00:57,710 --> 00:01:03,510
+Naturalmente a minha que mais eu vou colocar aqui as luzinha e vou dar fim a outras propriedades.
+
+14
+00:01:03,510 --> 00:01:10,920
+Por exemplo o fundo Says que a gente definiu aqui eu vou colocar pra c 28 eu coloco depois diminui um
+
+15
+00:01:10,920 --> 00:01:12,160
+pouco.
+
+16
+00:01:12,220 --> 00:01:14,020
+Aqui são 24.
+
+17
+00:01:14,280 --> 00:01:23,870
+Vou definir o tamanho do botão então fx menos traço a largura a largura.
+
+18
+00:01:23,880 --> 00:01:30,090
+No caso aqui a largura mínima e eu vou colocar 60 seus.
+
+19
+00:01:30,490 --> 00:01:38,600
+E vou colocar um ou duplicar essa linha vou colocar que a altura dos Oscar também se acentua pixels.
+
+20
+00:01:38,610 --> 00:01:50,460
+Fora isso eu coloquei o raio no caso FX ponto because Back Launch braço ilhéus que é o raio na verdade
+
+21
+00:01:50,460 --> 00:01:57,330
+um raio baixa se a metade do tamanho que você vai ter uma esfera perfeita no caso o que 30 pixels.
+
+22
+00:01:57,570 --> 00:02:03,320
+Algumas propriedades são diferentes por exemplo a altura mínima largura minha altura mínima são iguais.
+
+23
+00:02:03,690 --> 00:02:12,090
+Mas no caso do raio é diferente no CSS pra web no caso é borra bordas que é o raio da borda.
+
+24
+00:02:12,250 --> 00:02:15,680
+Aqui é background um pouquinho diferente.
+
+25
+00:02:15,710 --> 00:02:20,870
+Um feito isso não da classe e botões posso aplicar os dois botões aqui.
+
+26
+00:02:20,910 --> 00:02:31,180
+Essa classe então nós temos o botão do equipamento um botão de Sacramento ponto estável Class ponto
+
+27
+00:02:31,800 --> 00:02:40,140
+adicionar nome da classe e botões Carregar nesse mesmo na mesma linha e jogar aqui para baixo só trocando
+
+28
+00:02:40,220 --> 00:02:44,720
+um incremento de Sacramento por letramento.
+
+29
+00:02:44,850 --> 00:02:47,640
+Com isso ver como é que ficou o resultado.
+
+30
+00:02:47,640 --> 00:02:54,930
+Não dá para aumentar um pouquinho a lembra do botão Eu vou colocar aqui 28 que a gente está acertando
+
+31
+00:02:55,770 --> 00:02:57,440
+ficou lotado aqui.
+
+32
+00:02:58,050 --> 00:03:04,590
+Então nós temos o nosso botão acrescentando lutando diminuindo nós já temos aqui o botão você pode colocar
+
+33
+00:03:04,590 --> 00:03:10,750
+outras propriedades CSS para aplicar sombra ou outra coisa que você queira.
+
+34
+00:03:10,770 --> 00:03:16,200
+Isso não é um problema só você colocando e verificando quais são as propriedades disponíveis.
+
+35
+00:03:16,230 --> 00:03:22,500
+Assim como no CSS quando você precisa fazer um estilo css você não sabe exatamente qual a propriedade
+
+36
+00:03:22,500 --> 00:03:23,570
+que faz aquilo né.
+
+37
+00:03:23,570 --> 00:03:25,410
+Como é que aplicou a sombra.
+
+38
+00:03:25,410 --> 00:03:31,380
+Você vai lá e coloca na internet pesquisa e descobre as propriedades disponíveis da mesma coisa.
+
+39
+00:03:31,380 --> 00:03:36,090
+Você também vai ver quais são as propriedades que são suportadas pelo Java Flex a partir do momento
+
+40
+00:03:36,090 --> 00:03:41,840
+que você precisar conseguir alguma coisa dentro da sua parte visual da aplicação.
+
+41
+00:03:41,850 --> 00:03:43,800
+Preciso fazer isso até nada é feito.
+
+42
+00:03:43,800 --> 00:03:45,580
+Como é que eu faço isso em Java e flex.
+
+43
+00:03:45,590 --> 00:03:52,530
+Você vai lá pesquisa e vê como é que o que está faltando aqui a gente aplicar um estilo condicional
+
+44
+00:03:52,530 --> 00:03:59,580
+de acordo com a condição você aplica o estilo não é pra gente fazer isso a gente pode criar aqui mais
+
+45
+00:03:59,580 --> 00:04:02,430
+duas classes pra definir duas cores.
+
+46
+00:04:02,430 --> 00:04:08,640
+Então por exemplo criar aqui uma classe verde e vou criar uma outra classe na Madeira eu vou pegar já
+
+47
+00:04:08,640 --> 00:04:19,140
+que a cor que é difícil colocar aqui dentro e vou colocar uma classe chamada milha e também vai ter
+
+48
+00:04:19,140 --> 00:04:27,080
+um fio aqui pra dentro pra você selecionar como pode botar o cursor aqui em cima ou com ele aparecer
+
+49
+00:04:27,560 --> 00:04:30,520
+clicou e no caso aqui eu vou selecionar aqui.
+
+50
+00:04:30,600 --> 00:04:36,310
+Você vai vendo aqui agora o que mais me agrada caso aqui vou selecionar essa fechando.
+
+51
+00:04:36,330 --> 00:04:39,620
+Ele colocou no ferro o vermelho que era pra seu cliente né.
+
+52
+00:04:40,050 --> 00:04:47,220
+Vamos jogar aqui pra baixo e vou aqui no dele agora corrigir meu erro clicando aqui vou selecionar a
+
+53
+00:04:47,220 --> 00:04:51,870
+cor verde por exemplo.
+
+54
+00:04:53,400 --> 00:04:56,040
+O que eles tem para deixar na tela.
+
+55
+00:04:56,070 --> 00:05:03,720
+Ele atualiza a patente Verde coloca um cursor em cima o verde e então são duas cores que eu vou selecionar
+
+56
+00:05:03,930 --> 00:05:09,970
+o que está faltando agora a gente aplicar esse X condicional como é que eu vou saber isso pode colocá
+
+57
+00:05:09,970 --> 00:05:10,220
+la.
+
+58
+00:05:10,260 --> 00:05:17,700
+Pode criar inclusive um método separado pra baixo momento que você fizer um incremento de Sacramento.
+
+59
+00:05:17,700 --> 00:05:24,150
+Esse método ser chamado e aplicá los corretamente dentro do lei o que representa o número que é exatamente
+
+60
+00:05:24,410 --> 00:05:30,600
+o número que eu vou deixar isso como desafio para aproximá lo se quiser criar um método que vai aplicar
+
+61
+00:05:30,600 --> 00:05:37,260
+o estilo de acordo com o valor do número se o número for positivo ele aplica o estilo adicionando vende
+
+62
+00:05:37,510 --> 00:05:43,530
+se o número for negativa ele vai lá e aplique o Chile em vermelho então da mesma forma que você consegue
+
+63
+00:05:43,530 --> 00:05:44,460
+ter no Gant.
+
+64
+00:05:44,460 --> 00:05:51,150
+Está claro se o método adicionar você vai ter associado ao bad está o Clécio o método remover quando
+
+65
+00:05:51,150 --> 00:05:54,230
+você quiser remover um estilo determinado elemento.
+
+66
+00:05:54,520 --> 00:06:02,070
+A dica importante para você fazer esse desafio mais à próxima aula vou dar a resposta para vocês e espero
+
+67
+00:06:02,100 --> 00:06:02,280
+lá.

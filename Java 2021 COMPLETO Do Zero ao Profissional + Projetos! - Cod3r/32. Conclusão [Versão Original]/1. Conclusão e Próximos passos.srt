@@ -1,0 +1,71 @@
+1
+00:00:00,450 --> 00:00:05,030
+Então pessoal chegamos ao final do curso de Fundamentos de programação Java.
+
+2
+00:00:05,130 --> 00:00:08,780
+Muito obrigado por me acompanhar até aqui nesse projeto.
+
+3
+00:00:08,820 --> 00:00:12,810
+Agora depois de concluído o curso você já conhece a linguagem Java.
+
+4
+00:00:12,810 --> 00:00:18,970
+Já compreende vários princípios importantes de programação geral que você entende as bases do paradigma
+
+5
+00:00:18,970 --> 00:00:25,380
+de orientação a objeto que é capaz de desenvolver aplicações básicas usando os conhecimentos adquiridos
+
+6
+00:00:25,380 --> 00:00:25,970
+no curso.
+
+7
+00:00:26,010 --> 00:00:34,130
+Entretanto a sua jornada está apenas começando mas sem dúvida um passo importante foi dado em seus alicerces
+
+8
+00:00:34,140 --> 00:00:40,830
+de programação foram construídos então agora chegou a hora de partir para um novo desafio que é desenvolver
+
+9
+00:00:40,830 --> 00:00:47,200
+uma aplicação que permita me deixar uma advertência e um Conselho de Desenvolvimento de Software.
+
+10
+00:00:47,280 --> 00:00:55,050
+é uma área muito vasta e por isso é muito fácil se distrair com dezenas de tecnologias técnicas frameworks
+
+11
+00:00:55,130 --> 00:00:56,000
+e linguagens.
+
+12
+00:00:56,010 --> 00:01:02,670
+Eu acredito que um bom profissional deve sim conhecer várias tecnologias mas cuidado para não tentar
+
+13
+00:01:02,670 --> 00:01:09,600
+aprender tudo de uma vez esteve no meio de muitas informações e manter se focado no objetivo de construir
+
+14
+00:01:09,600 --> 00:01:11,150
+uma aplicação simples.
+
+15
+00:01:11,160 --> 00:01:18,080
+é esse objetivo que ajudará a consolidar os conhecimentos abordados nesse tipo só em cenários reais.
+
+16
+00:01:18,080 --> 00:01:23,980
+O conhecimento adquirido irá ganhar forma e isso fará um grande diferença na sua vida profissional.
+
+17
+00:01:24,000 --> 00:01:30,190
+Eu desejo sinceramente que essas aulas têm ajudado e espero nos encontrar em um próximo curso.
+
+18
+00:01:30,210 --> 00:01:32,010
+Grande abraço e até breve.

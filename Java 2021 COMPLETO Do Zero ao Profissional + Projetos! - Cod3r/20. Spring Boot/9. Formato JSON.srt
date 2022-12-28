@@ -1,0 +1,555 @@
+1
+00:00:00,260 --> 00:00:04,060
+Na sala eu vou falar um pouquinho sobre o formato de som.
+
+2
+00:00:04,080 --> 00:00:10,450
+Eu entrei aqui coloquei no Google som ali bem onde só Format.
+
+3
+00:00:10,650 --> 00:00:17,460
+E esse aqui é um som formata invalidez total então as duas coisas eu vou usar essa ferramenta só pra
+
+4
+00:00:17,460 --> 00:00:22,470
+mostrar para vocês um pouco isso ou mais essa ferramenta não vai ser importante de forma nenhuma para
+
+5
+00:00:22,470 --> 00:00:23,540
+nosso curso.
+
+6
+00:00:23,550 --> 00:00:31,990
+Você começa definindo um objeto de som na verdade o que é som Java Script Object.
+
+7
+00:00:32,050 --> 00:00:32,750
+Notei isso.
+
+8
+00:00:33,120 --> 00:00:38,130
+Esta é uma das formas que você tem para criar um objeto em JavaScript.
+
+9
+00:00:38,130 --> 00:00:47,700
+Mais uma observação extremamente importante sobre som de som e um formato textual de som um texto certo
+
+10
+00:00:47,700 --> 00:00:48,560
+diferente.
+
+11
+00:00:48,870 --> 00:00:55,850
+E como você cria um objeto em JavaScript embora a nomenclatura seja muito muito parecida.
+
+12
+00:00:55,860 --> 00:01:01,480
+Isso é um formato textual e um formato para transferir informações entre sistemas.
+
+13
+00:01:01,960 --> 00:01:09,640
+Ela tem uma aplicação só mais do que a aplicação End em Java e um front end por exemplo em O Yeti em
+
+14
+00:01:09,670 --> 00:01:11,920
+angular envio o que é muito comum.
+
+15
+00:01:11,970 --> 00:01:17,730
+Você tem essa aplicação desenvolvida o back end ou seja a sua API o seu uso Web Services desenvolvido
+
+16
+00:01:17,730 --> 00:01:18,530
+em Java.
+
+17
+00:01:18,730 --> 00:01:24,810
+E você tem uma aplicação front end criada em outra linguagem por exemplo JavaScript com um desses frameworks
+
+18
+00:01:24,810 --> 00:01:25,560
+modernos.
+
+19
+00:01:25,980 --> 00:01:32,280
+Então aqui nós temos duas aplicações embora no seu negócio sejam uma aplicação só são duas aplicações
+
+20
+00:01:32,280 --> 00:01:33,410
+distintas.
+
+21
+00:01:33,410 --> 00:01:40,320
+E você usa muito frequentemente só pra transferir as informações da aplicação Mankind para a sua aplicação
+
+22
+00:01:40,320 --> 00:01:47,850
+front end e mesmo serve pra integrar aplicações de diferentes tecnologias até a aplicação em PHP.
+
+23
+00:01:47,840 --> 00:01:53,920
+Você tem a aplicação iPad uma aplicação em Java e essas aplicações precisam se comunicar.
+
+24
+00:01:53,940 --> 00:02:01,860
+Um dos formatos mais famosos de interoperabilidade entre as aplicações é entre os dados e o formato
+
+25
+00:02:01,860 --> 00:02:02,370
+de som.
+
+26
+00:02:02,700 --> 00:02:08,360
+Apesar de que no nome tem um JavaScript Object notei que ele está muito presente fora do JavaScript
+
+27
+00:02:08,500 --> 00:02:14,390
+também quase todas as linguagens suportam o tipo de integração com isso.
+
+28
+00:02:14,430 --> 00:02:18,470
+Então vamos lá para gente definir um objeto no formato de som.
+
+29
+00:02:18,520 --> 00:02:21,960
+Nós vamos começar definindo um par de chaves.
+
+30
+00:02:21,960 --> 00:02:26,450
+Isso é que define um objeto e um objeto dentro do JavaScript.
+
+31
+00:02:26,460 --> 00:02:34,320
+Ele é um objeto formado por pares chave e valor você define aqui eu vou ter que colocar com o espaço
+
+32
+00:02:34,320 --> 00:02:38,570
+porque o Tab não funciona aqui dentro por algum motivo certo ou não coloco o Tab.
+
+33
+00:02:38,580 --> 00:02:45,420
+Ele vai para outros ícones aqui vou colocar aqui um espaço mesmo dois três e aqui eu vou definir uma
+
+34
+00:02:45,420 --> 00:02:46,050
+chave.
+
+35
+00:02:46,050 --> 00:02:54,870
+Por exemplo aos poucos eu estou definindo aqui o cliente então vou colocar o nome dois pontos e aí eu
+
+36
+00:02:54,870 --> 00:03:00,960
+coloco o nome do cliente uns Books seja Maria Piedra certa.
+
+37
+00:03:01,440 --> 00:03:05,610
+Então aqui o que eu preciso fazer já que Maria Pereira é um string.
+
+38
+00:03:05,630 --> 00:03:11,220
+Então vou colocá la entre aspas duplas para definir que se trata de um estranho.
+
+39
+00:03:11,220 --> 00:03:14,060
+Aqui tem uma outra questão também que é o seguinte.
+
+40
+00:03:14,280 --> 00:03:20,310
+Se eu mandar ele processar você vai ver que ele vai dar um jeito válido mas aqui no resultado que ele
+
+41
+00:03:20,310 --> 00:03:27,450
+gerou ele colocou o nome também com aspas duplas tá ele tá tá dizendo que só teve o que ele chamou de
+
+42
+00:03:27,450 --> 00:03:28,590
+Missing outros.
+
+43
+00:03:28,600 --> 00:03:31,340
+Ou seja faltou as aspas duplas.
+
+44
+00:03:31,470 --> 00:03:36,420
+é só clicar aqui pra ele não corrigir o som e mandar processar.
+
+45
+00:03:36,420 --> 00:03:43,020
+Você vai ver que o resultado vai ser um endereço inválido exatamente porque o nome está inválido porque
+
+46
+00:03:43,020 --> 00:03:50,670
+eu preciso colocar as chaves entre aspas duplas então isso aqui também tem que estar dentro de as duas
+
+47
+00:03:50,670 --> 00:03:51,380
+duplas.
+
+48
+00:03:51,390 --> 00:03:57,240
+Agora sim eu tenho um endereço válido quando processador você vai ver que o resultado disso não vale
+
+49
+00:03:57,390 --> 00:03:58,200
+tá.
+
+50
+00:03:58,390 --> 00:04:04,290
+Outra coisa que pode gerar também o problema quando você tem uma vírgula que não é necessário por exemplo
+
+51
+00:04:04,290 --> 00:04:10,350
+só tem um atributo dentro do meu objeto e eu coloquei uma vírgula e eu vou resetar você vai ver que
+
+52
+00:04:10,350 --> 00:04:17,070
+ele disse que tem uma vírgula mais aqui que é altamente não suportado pelo padrão então gerou um dia
+
+53
+00:04:17,120 --> 00:04:23,860
+só é válido se você mandar ele dar o Fix ele vai corrigir isso vai dar um jeito válido só que ele colocou
+
+54
+00:04:24,180 --> 00:04:28,510
+que foi uma informação foi removido o que ele chamou de triplo em comum né.
+
+55
+00:04:28,680 --> 00:04:35,840
+Seria essa virgula adicional aqui mas usar vírgula eu não vou colocar novos atributos então ter o nome
+
+56
+00:04:36,180 --> 00:04:42,450
+por exemplo e por porque eu vou colocar eu sempre quero usar o paganismo 2.3 1 2 3 e eu vou colocar
+
+57
+00:04:42,450 --> 00:04:51,840
+por exemplo a data de nascimento então aqui vou colocar dois pontos já uma data vai ser colocado também
+
+58
+00:04:51,840 --> 00:04:57,490
+no formato Trine 13 do 11 de 1991.
+
+59
+00:04:58,020 --> 00:05:05,560
+Então coloquei que a data de e testando novamente você vai ver que nós teremos um Anderson vago colocando
+
+60
+00:05:05,560 --> 00:05:08,310
+aqui mais uma vírgula.
+
+61
+00:05:08,320 --> 00:05:14,980
+Vou tratar o endereço desse cliente como sendo um outro objeto ou seja um objeto ele pode ter um outro
+
+62
+00:05:14,980 --> 00:05:16,220
+objeto dentro dele.
+
+63
+00:05:16,690 --> 00:05:23,800
+Então vou colocar aqui em que coloquei um espaço aqui no endereço.
+
+64
+00:05:24,010 --> 00:05:31,420
+Vou colocar aqui dois pontos e vou definir um objeto que vai apresentar esse endereço é um objeto e
+
+65
+00:05:31,420 --> 00:05:35,760
+um par de chaves daqui um dois três.
+
+66
+00:05:35,770 --> 00:05:39,100
+Agora vou ter que dar 6 1 2 3 1 2 3.
+
+67
+00:05:39,520 --> 00:05:49,940
+Vou definir aqui por exemplo logradouro e aí vai ser 2 pontos na rua a b c.
+
+68
+00:05:50,310 --> 00:05:59,950
+VOU COLOCAR UMA VIRGULA 1 2 3 4 5 6 vou definir o número e o número pode ser um valor inteiro então
+
+69
+00:05:59,950 --> 00:06:06,100
+o valor inteiro não precisa estar dentro de aspas duplas não tem problema ou seja poder isso também
+
+70
+00:06:06,100 --> 00:06:10,210
+suporta valores numéricos assim como valores e valores numéricos.
+
+71
+00:06:10,340 --> 00:06:12,680
+Valor verdadeiro falso booleano.
+
+72
+00:06:12,690 --> 00:06:18,250
+O outro objeto como já estou mostrando aqui então nós temos um objeto que o quer para a gente do nosso
+
+73
+00:06:18,250 --> 00:06:24,970
+cliente então o nome data de nascimento e nós temos aqui o endereço é dentro de um endereço ele é um
+
+74
+00:06:24,970 --> 00:06:32,590
+objeto que tem outros atributos chave e valor por exemplo logradouro ou alguma coisa número algum alguma
+
+75
+00:06:32,590 --> 00:06:38,050
+coisa eu vou processar você vai ver que o resultado não está no valor do seu objeto nem do outro eu
+
+76
+00:06:38,080 --> 00:06:41,940
+posso colocar por exemplo aqui um dois três.
+
+77
+00:06:41,980 --> 00:06:50,530
+Esse é o cliente VIP um cliente em especial da empresa vou dizer que é verdadeiro ou seja há também
+
+78
+00:06:50,530 --> 00:06:53,360
+a possibilidade de colocar um valor verdadeiro ou falso.
+
+79
+00:06:53,660 --> 00:07:01,130
+Então acessando eu coloquei colocou como verdadeiro e entendeu que se trata de um valor Granadeiro falso.
+
+80
+00:07:01,300 --> 00:07:07,870
+Além de ter a possibilidade de chave e valor eu tenho um texto que tem um valor o goleiro o falso tem
+
+81
+00:07:07,870 --> 00:07:15,520
+um valor numérico posso colocar também estão de valores quebrados né por exemplo casas decimais então
+
+82
+00:07:16,000 --> 00:07:27,100
+por exemplo o cliente aqui tem o salário e aí eu posso colocar aqui o salário do cliente pra c 7800
+
+83
+00:07:27,110 --> 00:07:30,540
+e noventa e três pontos 56.
+
+84
+00:07:30,980 --> 00:07:37,940
+Então sei que a média de salário do cliente também é algo válido coloca a Bíblia direitinho e processando
+
+85
+00:07:38,610 --> 00:07:39,510
+quem está de volta.
+
+86
+00:07:39,520 --> 00:07:45,970
+Se eu colocar aqui um trecho em comum ou seja um amigo é desnecessária e eu pedi para ele não corrigir
+
+87
+00:07:46,040 --> 00:07:47,010
+e processar.
+
+88
+00:07:47,320 --> 00:07:53,520
+Ele vai reclamar dizendo que tem um amigo lá envolve ele exatamente o ponto e tem essa briga inválida
+
+89
+00:07:54,090 --> 00:07:55,230
+continuado.
+
+90
+00:07:55,330 --> 00:08:01,300
+Eu vou colocar mais uma vírgula aqui e vou definir uma lista agora que também é um tipo de alimento
+
+91
+00:08:01,300 --> 00:08:09,870
+extremamente importante dentro de um dia e só então aqui eu vou criar uma lista de dependentes e eu
+
+92
+00:08:09,880 --> 00:08:18,160
+vou defini la Rei certo esse rei pode ser um simples rei de textos não por porque não quer apagar mais
+
+93
+00:08:18,160 --> 00:08:26,830
+informações do dependente eu posso simplesmente colocar aqui o dependente da Maria vai ser a Ana quem
+
+94
+00:08:26,830 --> 00:08:32,770
+são os filhos dela por exemplo a Maria tem um filho chamado Pedro em homenagem a ela mesma e a Maria
+
+95
+00:08:32,770 --> 00:08:36,550
+tem um outro filho chamado Rafael.
+
+96
+00:08:37,120 --> 00:08:43,060
+Então eu posso ter uma simples lista como se fosse distrito sem problema nenhum aqui é um lixo de três
+
+97
+00:08:43,060 --> 00:08:46,940
+elementos relacionados ao bem estar aqui processá los.
+
+98
+00:08:47,080 --> 00:08:49,650
+Nós continuamos tendo onde isso é válido aqui.
+
+99
+00:08:49,690 --> 00:08:59,800
+Xavi falou que um objeto tenho aqui e estranhos vamos supor que eu queira colocar aqui no nosso cliente
+
+100
+00:09:00,350 --> 00:09:10,330
+a ideia de que o Halo 1 2 3 4 e os dependentes também sejam outros clientes da empresa e eu quero transformar
+
+101
+00:09:10,330 --> 00:09:11,820
+isso pra objetos.
+
+102
+00:09:11,830 --> 00:09:13,020
+Não tem problema.
+
+103
+00:09:13,120 --> 00:09:23,950
+Você pode vim aqui o seu Harry dentro do Harry em solos espaço 1 2 3 4 5 6 m que eu vou definir um outro
+
+104
+00:09:24,010 --> 00:09:37,950
+objeto e esse objeto vai ter lá por exemplo Aydin sei lá 2 1112 vírgula e vai ter nove.
+
+105
+00:09:39,040 --> 00:09:46,810
+E aqui o Nobre vai dizendo Sim eu sou muito criativo nos nomes.
+
+106
+00:09:47,200 --> 00:09:53,920
+Então criei aqui um Harry ou seja uma lista só que dentro dessa lista eu tenho um outro objeto que também
+
+107
+00:09:53,920 --> 00:09:58,690
+não é um problema no qual eu posso colocar na mesma linha eu posso quebrar em múltiplas linhas sem problema
+
+108
+00:09:58,700 --> 00:10:03,190
+também dá tudo isso numa linha só que por isso não faz diferença.
+
+109
+00:10:03,260 --> 00:10:08,460
+Um processando a gente vai continuar tendo um deles um galho aqui dentro de dependentes nós temos um
+
+110
+00:10:08,460 --> 00:10:09,220
+ou outro objeto.
+
+111
+00:10:09,220 --> 00:10:16,680
+Se eu quiser colocar mais objetos eu posso colocar aqui um amigo e selecionar aquilo só pra tirar ele
+
+112
+00:10:16,720 --> 00:10:28,150
+como um pouco outro cliente R$ 2 mil sempre 14 e vai ser que o Pedro Silva o da que ela Olha Pedro Silva
+
+113
+00:10:28,560 --> 00:10:33,140
+Serra estão processando nós temos também um descontrole.
+
+114
+00:10:33,170 --> 00:10:35,830
+Então basicamente esse é o formato de som.
+
+115
+00:10:36,030 --> 00:10:43,620
+Ele é um formato textual é um formato que está presente em praticamente todas as linguagens e tecnologias
+
+116
+00:10:43,620 --> 00:10:44,570
+de mercado.
+
+117
+00:10:44,580 --> 00:10:48,380
+Ele é um formato que serve pra ter interoperabilidade.
+
+118
+00:10:48,390 --> 00:10:55,710
+Consegue falar de primeira entre as aplicações ou seja você consegue trocar informações entre aplicações
+
+119
+00:10:55,710 --> 00:10:57,820
+usando esse formato de som.
+
+120
+00:10:57,840 --> 00:11:04,830
+Existem outros formatos textuais como por exemplo o formato e Bol que é um formato baseado muito em
+
+121
+00:11:04,830 --> 00:11:05,610
+espaços.
+
+122
+00:11:05,610 --> 00:11:13,670
+Você tem o próprio XML que também é um formato muito famoso muito conhecido e foi muito usado no passado
+
+123
+00:11:13,680 --> 00:11:17,420
+mais frequentemente no passado para trocar informações entre aplicações.
+
+124
+00:11:17,640 --> 00:11:23,850
+Mas hoje em dia um dia isso acaba sendo o principal formato de interoperabilidade entre as aplicações
+
+125
+00:11:23,880 --> 00:11:27,280
+e para trocar dados entre as diversas aplicações.
+
+126
+00:11:27,300 --> 00:11:31,170
+E não é diferente aqui também no caso dos tributos.
+
+127
+00:11:31,200 --> 00:11:38,510
+Tanto é que por padrão quando você responde um abcesso com um objeto automaticamente ele já converte
+
+128
+00:11:38,510 --> 00:11:40,180
+esse objeto para o formato.
+
+129
+00:11:40,180 --> 00:11:45,480
+Isso espera que tenha ficado claro do que eu quis mostrar pra vocês explicando um pouquinho do formato.
+
+130
+00:11:45,550 --> 00:11:52,950
+Isso é como você pode criar um som válido e a gente continua na próxima aula desenvolvendo novos exercícios
+
+131
+00:11:52,950 --> 00:11:55,410
+e novos alicerces para a gente fazer.
+
+132
+00:11:55,470 --> 00:12:01,200
+Acredito que na próxima aula a gente vai ter outra aula teórica rapidinho só pra falar um pouquinho
+
+133
+00:12:01,200 --> 00:12:03,530
+sobre os métodos HTTP.
+
+134
+00:12:03,600 --> 00:12:08,850
+Falar um pouquinho mais detalhado sobre os oito metros só pra gente entender um pouco mais depois fazer
+
+135
+00:12:08,850 --> 00:12:15,090
+um exercício mapeando esses métodos dentro dos nossos websérie e também mostrando pra vocês Como é que
+
+136
+00:12:15,090 --> 00:12:20,900
+a gente pode acessar esses métodos já que no Brasil é mais fácil você fazer e que são do tipo Gardiner
+
+137
+00:12:20,940 --> 00:12:26,350
+você digita o RL e simplesmente já está funcionando mas a gente vai mostrar para vocês outra ferramenta
+
+138
+00:12:26,430 --> 00:12:29,850
+que vai nos ajudar muito a testar os nossos websérie.
+
+139
+00:12:29,850 --> 00:12:33,360
+Então isso é cena para os próximos capítulos não para as próximas aulas.

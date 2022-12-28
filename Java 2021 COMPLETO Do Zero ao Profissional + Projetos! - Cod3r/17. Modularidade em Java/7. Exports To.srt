@@ -1,0 +1,147 @@
+1
+00:00:00,270 --> 00:00:08,050
+Pessoal vamos supor que você caia num cenário por exemplo que você precise você tem um cenário válido
+
+2
+00:00:08,090 --> 00:00:15,690
+um caso de uso válido que você precisa compartilhar um pacote interno para um outro módulo O ideal talvez
+
+3
+00:00:15,720 --> 00:00:21,000
+fosse você já que uma determinada classe precisa ser acessado por fora do módulo.
+
+4
+00:00:21,300 --> 00:00:27,300
+Talvez fosse mais interessante você mudar de pacote do que você não assim abriu o pacote inteiro mas
+
+5
+00:00:27,300 --> 00:00:35,630
+você pode sim ter a possibilidade de exportar um determinado pacote eu posso fazer o seguinte esportes
+
+6
+00:00:36,050 --> 00:00:45,180
+e aí o pacote vai ser interno mas eu quero exportar especificamente para o sujeito e eu digo do modo
+
+7
+00:00:45,180 --> 00:00:48,230
+que eu quero exportar por exemplo o modelo financeiro.
+
+8
+00:00:48,270 --> 00:00:55,260
+Então dentro do módulo calculo você diz você não está dependendo do modelo financeiro você está só deixando
+
+9
+00:00:55,260 --> 00:01:02,010
+aberta a possibilidade do módulo financeiro acessar as classes internas dentro do seu do seu módulo
+
+10
+00:01:02,010 --> 00:01:08,040
+de cálculo então esse aqui é o esporte se você tem a possibilidade de exportar determinados pacotes
+
+11
+00:01:08,360 --> 00:01:12,200
+com todas suas classes internas para um determinado módulo para automóveis.
+
+12
+00:01:12,210 --> 00:01:15,260
+Feito isso para a gente testar eu vou entrar aqui em teste.
+
+13
+00:01:15,930 --> 00:01:25,920
+Vou maximizar aqui vou criar operações aritméticas para chamar a equipe B recebe mil operações aritméticas
+
+14
+00:01:26,690 --> 00:01:34,860
+e vou chamar de System Audi encher ali ao pé ponto soa passando 4 5 e 6.
+
+15
+00:01:34,950 --> 00:01:41,410
+Então aqui o resultado é exatamente aquilo que eu já esperava no valor 9 é o valor que existe.
+
+16
+00:01:41,460 --> 00:01:48,990
+Vale salientar aqui também com relação à questão de quais são os módulos que você pode colocar se você
+
+17
+00:01:48,990 --> 00:01:52,400
+quiser colocar mais um módulo por exemplo basta você colocar vírgula.
+
+18
+00:01:52,890 --> 00:01:57,240
+Então você coloca por exemplo financeiro e ponto logo.
+
+19
+00:01:57,300 --> 00:02:04,920
+Obviamente aponto logo tem que dizer que depende certo desse módulo mas você pode separar por vírgula
+
+20
+00:02:04,980 --> 00:02:09,210
+e declarar mais de um módulo que terá acesso a esse pacote.
+
+21
+00:02:09,210 --> 00:02:13,750
+Ou seja você está permitindo o acesso mais para módulos específicos.
+
+22
+00:02:13,890 --> 00:02:19,800
+Outra coisa interessante com relação à dependência cíclica que não cheguei a comentar na hora passada.
+
+23
+00:02:19,980 --> 00:02:27,750
+Você pode ter dependência cíclica não necessariamente o lado B e o B depende do há mais o lado do B
+
+24
+00:02:27,780 --> 00:02:30,100
+o B depende do seio c Depende do A.
+
+25
+00:02:30,110 --> 00:02:36,150
+Continua sendo uma dependência cíclica então pra não achar pra vocês isso que vai gerar um erro.
+
+26
+00:02:36,660 --> 00:02:48,800
+Então nós temos o seguinte o app cálculo ele depende de login e o financeiro depende de cálculo.
+
+27
+00:02:48,870 --> 00:02:54,900
+Se eu fizer com que o login dependa do financeiro eu vou ter uma dependência cíclica também.
+
+28
+00:02:54,890 --> 00:03:01,350
+Então quais e eu vou colocar aqui ou financeira fazendo isso.
+
+29
+00:03:01,560 --> 00:03:04,110
+Ele detecta que há uma dependência cíclica.
+
+30
+00:03:04,110 --> 00:03:04,560
+Por quê.
+
+31
+00:03:04,560 --> 00:03:12,840
+Porque o logo independe do financeiro o financeiro depende do cálculo e o cálculo depende do log acaba
+
+32
+00:03:12,840 --> 00:03:20,180
+gerando uma dependência cíclica que não é interessante de forma nenhuma então dentro do que eu não posso
+
+33
+00:03:20,390 --> 00:03:28,080
+perder no financeiro e no nosso caso dado o tema da quebra do esporte colocando aqui eu coloquei o esporte
+
+34
+00:03:28,080 --> 00:03:33,330
+em determinado pacote especificamente para um módulo e se eu quiser exportar para mais de um modelo
+
+35
+00:03:33,330 --> 00:03:36,390
+basta colocar o vídeo que você vai exportar.
+
+36
+00:03:36,810 --> 00:03:44,400
+Então pessoal fique por aqui com mais um exercício na parte de módulos de Java Net que é exatamente
+
+37
+00:03:44,400 --> 00:03:50,270
+o esporte que o esporte específico para determinados módulos e até aproximá lo.

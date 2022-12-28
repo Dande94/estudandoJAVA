@@ -1,0 +1,319 @@
+1
+00:00:00,200 --> 00:00:07,570
+Só li tudo que eu mostro aqui no nosso curso são recursos que devem ser utilizados ou devem.
+
+2
+00:00:07,580 --> 00:00:13,370
+Você deve procurar utilizar no dia a dia e sempre que acontecer isso ou alertá lo dar esse alerta pra
+
+3
+00:00:13,370 --> 00:00:16,040
+você como é o caso do brinquedo continua.
+
+4
+00:00:16,050 --> 00:00:22,650
+Você pode usar o continua e sim habitualmente você vai usar e o cenário pode ser válido mas ela é algo
+
+5
+00:00:22,650 --> 00:00:29,190
+que você não deve usar com muita frequência porque os movimentos que você ficar usando com muita frequência
+
+6
+00:00:29,590 --> 00:00:34,440
+como está desviando o fluxo da sua aplicação pode ser que você fique com um fluxo mais difícil de ser
+
+7
+00:00:34,440 --> 00:00:42,180
+entendido mais esse exemplo que eu vou dar que é um gay mais invocado ainda esse eu acho que você deve
+
+8
+00:00:42,180 --> 00:00:48,900
+fugir ao máximo se você usar ele é um código só pra fazer um exemplo simples e tal até é válido em alguns
+
+9
+00:00:48,900 --> 00:00:54,910
+troços mas eu acho que você deve fugir desse tipo de estrutura que eu vou mostrar nessa aula até porque
+
+10
+00:00:54,930 --> 00:01:00,990
+nos próximos capítulos vou mostrar outras formas que você tem de organizar o código criar outros métodos
+
+11
+00:01:00,990 --> 00:01:06,600
+criar outras classes e isso vai te ajudar muito a organizar o teu algorítimo se você fez um algorítimo
+
+12
+00:01:06,600 --> 00:01:09,830
+tão complexo que precisa estar usando esse tipo de estrutura.
+
+13
+00:01:09,890 --> 00:01:11,880
+Muito provavelmente é bom você repensar.
+
+14
+00:01:11,970 --> 00:01:16,710
+E aí eu acho que acendeu o sinal de alerta para que você tenha cuidado para não implementar algo muito
+
+15
+00:01:16,710 --> 00:01:21,330
+complicado principalmente usando o rotulado que eu vou mostrar aqui no exemplo.
+
+16
+00:01:21,370 --> 00:01:24,550
+Então só com mais só pra mostrar existe essa funcionalidade.
+
+17
+00:01:24,570 --> 00:01:30,720
+Eu não estou encorajando você a usar pelo contrário estou dizendo que você tem muito cuidado e tentar
+
+18
+00:01:30,720 --> 00:01:32,520
+fugir o máximo deste tipo de estrutura.
+
+19
+00:01:32,550 --> 00:01:37,140
+Mas é bom mostrar porque é algo que existe e se você vê isso no colo de alguém você já vai saber do
+
+20
+00:01:37,140 --> 00:01:37,800
+que se trata.
+
+21
+00:01:37,830 --> 00:01:40,640
+Então fui rotulado.
+
+22
+00:01:40,930 --> 00:01:49,200
+E aqui eu vou criar o método e eu vou definir dois laços do tipo fora e primeiro entrará em cima da
+
+23
+00:01:49,200 --> 00:01:58,880
+variável aí que vai até o valor 10 e vou colocar até o valor os três para não ficar muito muitas repetições.
+
+24
+00:01:58,890 --> 00:02:04,870
+Vou criar um outro laço só agora na variável j o L já sabe que está no contexto né.
+
+25
+00:02:05,100 --> 00:02:11,040
+E aqui aquele vai de 0 a 3 vai fazer 3 repetições 0 1 2 3 ele sai.
+
+26
+00:02:11,130 --> 00:02:12,360
+Aquilo que é que eu posso fazer.
+
+27
+00:02:12,360 --> 00:02:15,430
+Eu posso chegar por exemplo fazer um teste.
+
+28
+00:02:15,600 --> 00:02:25,560
+Se a variável for igual a variável e foi igual igual a 1 eu quero que ele chame o país certo.
+
+29
+00:02:25,560 --> 00:02:31,070
+Então se eu fizer aqui pra ele chamar o rei ele vai sair quando for igual.
+
+30
+00:02:31,090 --> 00:02:37,330
+Ele vai sair o breque vai agir em cima desse laço FOR mais interno mais não do laço externo.
+
+31
+00:02:37,330 --> 00:02:46,270
+E aqui eu vou mostrar o valor aqui System out EFE vou usar aqui d outro D.
+
+32
+00:02:46,440 --> 00:02:53,690
+Vou passar o valor e o valor de Joca e eu já vou colocar aqui também um baiano pra ele quebra nas minhas
+
+33
+00:02:53,690 --> 00:02:54,030
+tá.
+
+34
+00:02:54,090 --> 00:02:59,370
+Na verdade eu vou colocar aqui não vou colocar um espaço vou colocar um Barrinha aqui lá embaixo eu
+
+35
+00:02:59,400 --> 00:03:02,790
+vou chamar aquilo que eu já quebra a linha automaticamente.
+
+36
+00:03:02,830 --> 00:03:08,130
+Todo esse código deixou executar também no modo de D burro que acho que vai ficar mais fácil pra vocês
+
+37
+00:03:08,130 --> 00:03:11,330
+entenderam do que se trata nesse contexto.
+
+38
+00:03:11,370 --> 00:03:18,140
+Esse boi aqui tem dois possíveis alvos digamos assim você pode fazer um buraco em cima do laço forte
+
+39
+00:03:18,180 --> 00:03:21,570
+mais interno e do laço forte mais externo.
+
+40
+00:03:21,570 --> 00:03:26,420
+Nesse caso ele vai sair do laço FOR mais interno e não o laço mais externo.
+
+41
+00:03:26,820 --> 00:03:32,290
+Então o vai acontecer eu vou dar que vocês não encontrou bem que estou aqui certo.
+
+42
+00:03:32,310 --> 00:03:35,410
+0 0 0 1 0 2.
+
+43
+00:03:35,410 --> 00:03:39,340
+E aí ele saiu agora vai pro igual colo e foi igual.
+
+44
+00:03:39,390 --> 00:03:45,690
+Ele vai entrar no laço FOR mais interno vai chamar o Black e ele vai sair do foro mais interno e não
+
+45
+00:03:45,690 --> 00:03:52,620
+do fogo mais externo ou seja de tal forma que ele vai continuar executando agora o foco mais externo
+
+46
+00:03:52,650 --> 00:03:55,850
+é aquele tom 2 0 2 1 2 2.
+
+47
+00:03:55,860 --> 00:04:03,240
+No final ele terminou a execução mas se eu quisesse que esse que ele agisse em cima do laço mais externo
+
+48
+00:04:03,240 --> 00:04:10,680
+e não do laço mais interno é possível desde que você criou o rótulo pra esse enfoque mais externo.
+
+49
+00:04:10,720 --> 00:04:16,830
+Eu posso fazer isso bota aqui pra perspectiva Jabba eu posso fazer isso maximizar aqui colocar um rótulo
+
+50
+00:04:16,830 --> 00:04:17,280
+aqui.
+
+51
+00:04:17,610 --> 00:04:21,890
+Então eu posso chamar esse rótulo aqui de externo ou externo dois pontos fora.
+
+52
+00:04:22,140 --> 00:04:29,060
+é como se eu tivesse dando um nome pra esse laço aqui e aqui eu posso colocar por exemplo de terno embora
+
+53
+00:04:29,100 --> 00:04:34,320
+não vá usar o item só mostrando que você acabou de dar um nome para o laço externo e acabou de dar um
+
+54
+00:04:34,320 --> 00:04:41,560
+nome por Laço interno de tal forma que se você quiser sair do laço externo você coloca dois externo
+
+55
+00:04:41,940 --> 00:04:47,700
+ou seja ele vai entender que você está querendo fazer um black não no laço interno mais um laço externo
+
+56
+00:04:47,700 --> 00:04:56,880
+e colocar um sistema pontual ponto prende prende ali colocando fim.
+
+57
+00:04:58,370 --> 00:05:04,770
+Então ele vai executar em vai sair do laço mais externo seja nesse caso não está mais agindo um laço
+
+58
+00:05:04,770 --> 00:05:05,570
+interno.
+
+59
+00:05:05,710 --> 00:05:12,570
+E nesse caso usando o bem rotulado você consegue ter a flexibilidade e não ficar amarrado a sair do
+
+60
+00:05:12,570 --> 00:05:18,410
+fluxo do laço mais interno mais você vai poder sair do laço mais isto só deletar essa linha aqui.
+
+61
+00:05:18,690 --> 00:05:25,500
+Essa linha que aqui nós temos um que agindo não é o padrão né é você não usa rótulo ele vai sair da
+
+62
+00:05:25,500 --> 00:05:31,890
+estrutura atual que no caso é o for mais interno e coloca no rótulo você vai sair do fogo.
+
+63
+00:05:31,920 --> 00:05:37,230
+Mas isto é a única forma que você consegue fazer isso aplicando um rótulo seja dando um nome para o
+
+64
+00:05:37,240 --> 00:05:43,800
+laço e aí referenciando ele novamente uma obra que tanto faz você colocar na mesma linha como você pode
+
+65
+00:05:43,800 --> 00:05:49,100
+se quiser fazer dessa forma colocar o rótulo aqui em cima e o fogo logo embaixo.
+
+66
+00:05:49,120 --> 00:05:55,370
+Certo As duas formas são válidas colocando aqui executou apenas o primeiro exercício possa colocar uma
+
+67
+00:05:56,430 --> 00:06:04,930
+vírgula ou colchetes para cá mais delimitado dos pares digamos assim 1 0 0 0 1 0 2.
+
+68
+00:06:05,160 --> 00:06:13,680
+Se eu não chamar o laço externo a execução vai ser 0 0 0 1 0 2 e finalmente 2 0 2 1 2 2 porque quando
+
+69
+00:06:14,120 --> 00:06:21,950
+alguém aí chamou por aí o laço mais interno faltando aqui eu quero deixar o recinto em alto lado você
+
+70
+00:06:22,110 --> 00:06:28,350
+percebe que ele vai ser bem estranho se o fluxo entendeu ou se vai ficar com você imagine se eu tiver
+
+71
+00:06:28,350 --> 00:06:35,570
+vários laços um bem do outro você tem no nomeando os laços ele sai no dia ou depois sai do outro sai
+
+72
+00:06:35,570 --> 00:06:40,770
+do mais interna e a confusão é grande com certeza você não vai ter uma clareza de Cole que é o que eu
+
+73
+00:06:40,770 --> 00:06:46,770
+sempre insisto é que o mais importante é você ter um código claro e não é algo que eu te aconselho a
+
+74
+00:06:46,770 --> 00:06:47,790
+usar certo.
+
+75
+00:06:48,060 --> 00:06:51,530
+Lembro muito os tempos do gol de jogo né.
+
+76
+00:06:51,530 --> 00:06:56,400
+Você ficava mudando o foco da aplicação usando Gold ou mais ao tempo que eu acho que não vale a pena
+
+77
+00:06:56,720 --> 00:07:01,830
+a gente resgatar na próxima aula vou pegar esse mesmo exemplo vou aplicá lo continuas só para a gente
+
+78
+00:07:01,830 --> 00:07:07,170
+ver que também é possível ter um contínuo e rotulado vale na verdade copiar esse exemplo é só substituir
+
+79
+00:07:07,180 --> 00:07:12,180
+aqui pelo perna proximal pra gente fazer esse exemplo rapidinho que também não é algo que eu aconselho
+
+80
+00:07:12,180 --> 00:07:14,710
+você fazer no dia a dia então tá avisado então até a próxima.

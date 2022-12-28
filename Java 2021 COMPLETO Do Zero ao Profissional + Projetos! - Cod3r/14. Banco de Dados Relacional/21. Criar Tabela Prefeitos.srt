@@ -1,0 +1,259 @@
+1
+00:00:00,250 --> 00:00:07,560
+Pessoal nós já criamos a relação para muitos estados juntos com cidades ou seja o Estado tem várias
+
+2
+00:00:07,560 --> 00:00:08,510
+cidades.
+
+3
+00:00:08,550 --> 00:00:13,830
+Nós vamos criar agora a tabela de prefeito para fazer a relação um para um e depois nós vamos fazer
+
+4
+00:00:13,830 --> 00:00:19,090
+relação muitos para muitos estão neste momento a gente vai trabalhar na criação da tabela o prefeito
+
+5
+00:00:19,470 --> 00:00:22,890
+além de ter uma chave primária saiu da tabela.
+
+6
+00:00:22,890 --> 00:00:25,380
+No caso cidade para a tabela o prefeito.
+
+7
+00:00:25,380 --> 00:00:31,500
+Além disso vamos ter que ter uma construção com um estranho ou seja não construi pra si uma única para
+
+8
+00:00:31,500 --> 00:00:38,210
+garantir que o prefeito esteja associada apenas alguma cidade ou cidade associada a um prefeito isso
+
+9
+00:00:38,520 --> 00:00:40,040
+é a relação a um.
+
+10
+00:00:40,060 --> 00:00:46,200
+A relação de um para muitos com adicionado um estranho e mítico um estranho então lá.
+
+11
+00:00:46,420 --> 00:00:51,370
+Então para isso vou criar um novo arquivo dentro de banco relacional e o Fahel.
+
+12
+00:00:51,390 --> 00:00:55,060
+O nome do arquivo vai ser criar tabela prefeito.
+
+13
+00:00:55,060 --> 00:00:56,400
+Ponto SQL.
+
+14
+00:00:56,410 --> 00:00:59,540
+Aqui nós vamos criar tem F.
+
+15
+00:00:59,750 --> 00:01:05,580
+Note que existe é opcional você pode colocar o nome do prefeito se colocar no plural sempre colocando
+
+16
+00:01:05,670 --> 00:01:09,060
+estados cidades agora prefeitos.
+
+17
+00:01:09,090 --> 00:01:11,260
+Vou definir a chave primária então vai ser.
+
+18
+00:01:11,270 --> 00:01:17,950
+Aí vai ser um inteiro sem sinal note nulo e auto incremento depois eu vou dizer que é uma chave primária.
+
+19
+00:01:18,210 --> 00:01:25,140
+O nome do prefeito vai ser um baixar de 245 também não nulo e eu vou colocar a cidade a indicar exatamente
+
+20
+00:01:25,140 --> 00:01:30,380
+a chave estrangeira exatamente o campo que vai apontar para a chave primária não tratar bem ou seja
+
+21
+00:01:30,380 --> 00:01:31,930
+vai ser a nossa chave estrangeira.
+
+22
+00:01:32,370 --> 00:01:35,270
+Então cidade aí vai ser um inteiro sem sinal.
+
+23
+00:01:35,340 --> 00:01:37,130
+Vou colocar contra a America.
+
+24
+00:01:37,230 --> 00:01:45,480
+Aí vou colocá lo e o link cidade aí ou seja a cidade aí ali tem a Constran e fórum que eu sei de chave
+
+25
+00:01:45,480 --> 00:01:46,560
+estrangeira.
+
+26
+00:01:46,560 --> 00:01:51,060
+Ela vai ser obrigatoriamente única ou seja só posso ter uma única cidade.
+
+27
+00:01:51,180 --> 00:01:57,780
+Ou seja não pode haver repetição na coluna cidade aí e aqui eu vou colocar um fórum que seja a chave
+
+28
+00:01:57,780 --> 00:02:04,770
+estrangeira que vai ser o campo cidade Adi apontando ou seja referenciada a tabela de cidades e o campo
+
+29
+00:02:04,850 --> 00:02:10,260
+aí então finalmente feito isso vou colocar aqui um ponto e vírgula então revisado nós temos um campo
+
+30
+00:02:10,260 --> 00:02:17,070
+que vai ser a nossa chave estrangeira que eu coloquei aqui forem que eu seja cidade a referencia na
+
+31
+00:02:17,070 --> 00:02:24,870
+tabela cidades e além disso cidade aí não aceito duplicação e isso é o que caracteriza uma relação para
+
+32
+00:02:24,880 --> 00:02:29,110
+um a uma certa um certo questionamento digamos assim.
+
+33
+00:02:29,250 --> 00:02:34,950
+Em quais momentos você deve fazer uma relação e parar um pouco e se é uma relação para algum.
+
+34
+00:02:34,950 --> 00:02:39,190
+Em muitas situações você vai querer colocar todos os dados no mesmo na tabela.
+
+35
+00:02:39,210 --> 00:02:44,400
+Só que nesse caso por exemplo tem uma tabela de cidades eu tenho uma tabela de prefeito e de fato essa
+
+36
+00:02:44,400 --> 00:02:50,520
+relação pra mim você poderia colocar por exemplo o prefeito como sendo uma coluna da tabela cidade ou
+
+37
+00:02:50,520 --> 00:02:54,230
+seja diretamente dentro da cidade você já colocaria no prefeito.
+
+38
+00:02:54,240 --> 00:02:57,660
+Tudo vai depender da quantidade de atributos que tem medo do prefeito.
+
+39
+00:02:57,660 --> 00:03:01,440
+Tudo vai depender um pouco da quantidade de consultas que você faz.
+
+40
+00:03:01,460 --> 00:03:01,910
+Porquê.
+
+41
+00:03:02,280 --> 00:03:07,680
+Porque quando você faz um jovem obviamente é uma consulta mais lenta do que você custar apenas uma única
+
+42
+00:03:07,680 --> 00:03:08,200
+tabela.
+
+43
+00:03:08,370 --> 00:03:15,050
+Então cabe aí um acerto de decisão de modelagem no momento que você for modelar uma relação um pra um.
+
+44
+00:03:15,330 --> 00:03:20,910
+Então sempre que você for modelar uma relação pra outro sempre pergunto será que esse dado não é melhor
+
+45
+00:03:21,000 --> 00:03:25,270
+alocado na mesma tabela e aí você pode fazer essa.
+
+46
+00:03:25,500 --> 00:03:31,980
+Essa crítica digamos assim em si de fato merece uma tabela diferente ou se os dados podem estar dentro
+
+47
+00:03:31,980 --> 00:03:33,590
+de uma única tabela certo.
+
+48
+00:03:33,690 --> 00:03:39,180
+Aqui tem o fato de que eu quero de fato mostrar relação pra um quero mostrar para você qual a mecânica
+
+49
+00:03:39,180 --> 00:03:44,820
+de construção por isso eu coloquei em tabelas separadas mas o que iria digamos assim nortear a minha
+
+50
+00:03:44,820 --> 00:03:52,230
+decisão principalmente o negócio a quantidade de consultas que eu vou fazer usando esses dois dados
+
+51
+00:03:52,530 --> 00:03:53,690
+juntos.
+
+52
+00:03:53,730 --> 00:03:59,750
+Outra questão em relação à performance de desempenho será que eu preciso ter um desempenho nessa funcionalidade
+
+53
+00:03:59,760 --> 00:04:06,810
+será que é crítico então quando você tem questões de desempenho envolvidas então a sua tendência é colocar
+
+54
+00:04:06,810 --> 00:04:12,780
+os dados numa mesma tabela porque é mais rápido do que você fazer junções mais raramente você vai obter
+
+55
+00:04:13,080 --> 00:04:18,600
+esses dados juntos e eventualmente você vai querer mudar e colocar em tabelas separadas para organizar
+
+56
+00:04:18,600 --> 00:04:24,870
+os dados então tudo vai depender de como você vai precisar modelar os dados essa e esse precisar digamos
+
+57
+00:04:24,870 --> 00:04:27,730
+assim vem dos requisitos do seu sistema.
+
+58
+00:04:27,730 --> 00:04:32,940
+E a minha preocupação nesse momento é mostrar para você um pouco da mecânica envolvida na criação de
+
+59
+00:04:32,940 --> 00:04:34,140
+uma relação para algo.
+
+60
+00:04:34,170 --> 00:04:41,180
+Então criamos a tabela eu posso clicar aqui em cima das etapas ele vai dizer que gerou sem problema
+
+61
+00:04:41,180 --> 00:04:46,620
+ou executou o comando com o estado de dor ou seja deu certo na próxima aula mas vamos fazer as inserções
+
+62
+00:04:46,620 --> 00:04:51,990
+da tabela preferido para depois a gente fazer algumas consultas inclusive usando aquilo que eu já vi
+
+63
+00:04:51,990 --> 00:04:57,550
+na aula passada da teoria de Left slide.
+
+64
+00:04:57,700 --> 00:05:02,450
+E nós também vamos simular união de um Left e de um.
+
+65
+00:05:02,620 --> 00:05:07,440
+Então na próxima sala de espera para a gente fazer as nossas inserções na tabela prefeito ir até lá.

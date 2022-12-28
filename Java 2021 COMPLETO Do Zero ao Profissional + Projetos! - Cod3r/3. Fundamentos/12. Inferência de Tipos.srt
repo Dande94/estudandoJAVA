@@ -1,0 +1,567 @@
+1
+00:00:00,260 --> 00:00:07,170
+Pessoal Eu queria falar pra vocês sobre um recurso que surgiu no Java 10 ou seja nós acabamos de falar
+
+2
+00:00:07,170 --> 00:00:12,520
+de um recurso na aula passada na aula antes que duas aulas atrás de um recurso que surgiu no Java 9
+
+3
+00:00:12,760 --> 00:00:18,830
+que foi o fato de dentro do terminal do seu computador você conseguir chamar o shell e você conseguir
+
+4
+00:00:18,830 --> 00:00:24,240
+executar código Java no interpretador é muito bom pra você testar um conceito verificar alguma coisa
+
+5
+00:00:24,360 --> 00:00:26,310
+da linguagem então algo extremamente útil.
+
+6
+00:00:26,310 --> 00:00:32,600
+Várias linguagens têm interpretador no profile comandos ou no terminal da sua máquina e nós vamos falar
+
+7
+00:00:32,610 --> 00:00:36,470
+agora de um recurso que surgiu no Java chamado inferência.
+
+8
+00:00:36,610 --> 00:00:41,090
+Vou achar pra vocês isso tem tudo a ver com variáveis e constantes.
+
+9
+00:00:41,130 --> 00:00:47,710
+Eu quero falar sobre isso na sala colocando aqui o nome do nosso exercício inferência e eu vou definir
+
+10
+00:00:47,890 --> 00:00:53,370
+o método em que a nossa porta de entrada ou seja a partir desse momento a classe inferência passa a
+
+11
+00:00:53,370 --> 00:00:54,370
+ser executada.
+
+12
+00:00:54,480 --> 00:00:58,230
+Ou seja se eu clicar no botão verde eu consigo executar o código nessa classe.
+
+13
+00:00:58,230 --> 00:01:02,620
+Por enquanto não tem coelho nenhum então resultado aqui no meu terminal ficou vazio.
+
+14
+00:01:03,300 --> 00:01:08,700
+Obviamente se você executar esse código diretamente no terminal o seu computador também vais e passo
+
+15
+00:01:08,700 --> 00:01:09,980
+o caminho mais prático.
+
+16
+00:01:10,140 --> 00:01:15,570
+A gente executa aqui no Terminal do eclipse então estavam lá quando a gente definiu uma variável eu
+
+17
+00:01:15,570 --> 00:01:16,500
+falei pra vocês.
+
+18
+00:01:16,500 --> 00:01:22,290
+Por enquanto a gente só foi introduzido com a variável do tipo W pois eu falar um pouco mais a dos tipos
+
+19
+00:01:22,290 --> 00:01:23,680
+primitivos da linguagem.
+
+20
+00:01:23,880 --> 00:01:29,240
+Eu coloco por exemplo W a recebe um valor 4 com 5.
+
+21
+00:01:29,410 --> 00:01:35,460
+E aqui eu coloco por exemplo o System audio para imprimir o valor da variável a executar não escolhe
+
+22
+00:01:35,470 --> 00:01:39,670
+nada mais é esperado do que ser exibido valor 4 5.
+
+23
+00:01:39,690 --> 00:01:45,630
+Quando você trabalha variáveis dentro de métodos que eu quero dizer com isso é possível vou falar isso
+
+24
+00:01:45,630 --> 00:01:46,620
+mais na frente.
+
+25
+00:01:46,630 --> 00:01:53,590
+Agora é possível colocar definição de variável aqui fora fora do Metro do meio por exemplo.
+
+26
+00:01:53,910 --> 00:01:55,940
+é possível mas não é algo que eu vou falar agora.
+
+27
+00:01:55,950 --> 00:02:02,580
+Mas isso não vale para esse cenário que só vale para quando nós temos e variáveis definidas dentro dos
+
+28
+00:02:02,580 --> 00:02:08,040
+métodos o método Lem por exemplo é um método obviamente eu falar um pouco mais na frente sobre isso
+
+29
+00:02:08,490 --> 00:02:17,600
+mais é possível você não informar o tipo e simplesmente fazer colocá lo vá vá letra B recebe o valor
+
+30
+00:02:17,630 --> 00:02:24,890
+4 pontos 5 4 pontos 5 é possível você fazer isso quer que o Java vai fazer nesse cenário.
+
+31
+00:02:25,140 --> 00:02:32,700
+Ele vai inferir por isso o nome do nosso exercício em inferência ele vai inferir pelo tipo da variável
+
+32
+00:02:32,820 --> 00:02:34,650
+pelo valor que você colocou aqui.
+
+33
+00:02:34,650 --> 00:02:35,210
+4.
+
+34
+00:02:35,280 --> 00:02:37,730
+5 Qual é o tipo da variável.
+
+35
+00:02:37,920 --> 00:02:44,390
+Então repetindo o Java ele vai inferir pelo valor que você colocou ele vai saber que esse valor de um
+
+36
+00:02:44,400 --> 00:02:50,880
+determinado tipo da linguagem ou seja ele bem inferior o Chico pelo valor que você colocou.
+
+37
+00:02:50,880 --> 00:02:54,090
+Nesse caso a variável B vai ser o tipo d'água.
+
+38
+00:02:54,090 --> 00:02:54,530
+Por quê.
+
+39
+00:02:54,530 --> 00:02:58,000
+Porque 4 pontos 5 ele é um valor do tipo W.
+
+40
+00:02:58,500 --> 00:03:04,410
+Então se você definiu aqui o valor vá 4 ponto 5 e vai executar o código você vai ver que novamente ele
+
+41
+00:03:04,410 --> 00:03:06,530
+vai imprimi 4 pontos 5.
+
+42
+00:03:06,690 --> 00:03:13,470
+Se eu criar uma ou outra variável ou grau variável que sei que recebe o texto entre aspas duplas então
+
+43
+00:03:13,470 --> 00:03:22,170
+recebo aqui um texto com o ponto e vírgula o Java vai inferir que essa variável do tipo string é certo
+
+44
+00:03:22,170 --> 00:03:23,640
+e não vou falar mais besteira.
+
+45
+00:03:23,700 --> 00:03:29,310
+Mas o que eu quero salientar que pelo valor que você colocou aqui ou seja um texto entre aspas duplas
+
+46
+00:03:29,700 --> 00:03:33,220
+ele vai inferir que essa variável C é do tipo string.
+
+47
+00:03:33,390 --> 00:03:41,990
+Eu posso chegar aqui já que é uma variável colocasse recebi outro qualquer aqui ou outro texto tem para
+
+48
+00:03:41,990 --> 00:03:44,880
+além de fazer isso não tem problema nenhum.
+
+49
+00:03:44,910 --> 00:03:51,630
+No final posso chamar o System Alt imprimi o valor de sei executável ele vai exibir o valor de outro
+
+50
+00:03:51,630 --> 00:03:58,230
+texto seu duplicar essa linha e mover pra cima e você vai ver que ele vai imprimir tanto o valor de
+
+51
+00:03:58,230 --> 00:04:05,130
+texto como o valor de outro texto até daqui pra você e para um pouco mais quando você vai ter um texto
+
+52
+00:04:05,280 --> 00:04:06,360
+e outro texto.
+
+53
+00:04:06,360 --> 00:04:12,360
+O que é que não pode ser feito quando você tem um inferência que não pode acontecer é você pegar por
+
+54
+00:04:12,360 --> 00:04:19,040
+exemplo a variável sei que é do tipo o texto entre aspas duplas e colocar um valor de 4 ou 5.
+
+55
+00:04:19,050 --> 00:04:25,920
+Isso o Java não vai permitir bloqueio porque as variáveis em Java sempre são de um determinado tipo
+
+56
+00:04:26,290 --> 00:04:28,460
+e esse tipo 1 nunca vai mudar.
+
+57
+00:04:28,460 --> 00:04:35,610
+Se eu define que uma variável na linha seja do tipo W na linha seguinte na linha 10 eu não posso simplesmente
+
+58
+00:04:35,610 --> 00:04:41,820
+chegar e dizer que a variável a agora vai receber um valor de texto eu não posso fazer isso porque.
+
+59
+00:04:42,130 --> 00:04:49,320
+Porque Java amarrou o tipo da variável a para ser um tipo numérico então obrigatoriamente sempre é sempre
+
+60
+00:04:49,320 --> 00:04:51,510
+a variável a ser do tipo numérico.
+
+61
+00:04:51,660 --> 00:04:57,270
+Eu não sei se essa informação vai consentir ou ajudar mais mas eu vou falar mesmo assim é certo marcar
+
+62
+00:04:57,870 --> 00:05:03,680
+outras linguagens trabalham os mais flexíveis como é o caso do JavaScript.
+
+63
+00:05:03,980 --> 00:05:05,630
+Quando você programe JavaScript.
+
+64
+00:05:05,630 --> 00:05:11,900
+Quando você cria uma variável você discar a variável por exemplo ela é uma variável não tem um tipo
+
+65
+00:05:11,900 --> 00:05:14,450
+associado e você pode colocar o texto.
+
+66
+00:05:14,450 --> 00:05:16,510
+Você pode colocar um valor numérico.
+
+67
+00:05:16,520 --> 00:05:21,170
+Você pode colocar o que você quiser ou seja o tipo que você quiser associado a essa variável.
+
+68
+00:05:21,180 --> 00:05:24,820
+Já Java não funciona sem Java obrigatoriamente.
+
+69
+00:05:24,860 --> 00:05:27,980
+Amarraram o tipo nesse caso ao tentar executar.
+
+70
+00:05:27,980 --> 00:05:31,010
+Nós temos dois erros de código que nós temos.
+
+71
+00:05:31,000 --> 00:05:37,220
+O erro na linha 10 e temos o erro na Linha 21 exatamente porque eu tentei misturar os tipos da independente
+
+72
+00:05:37,220 --> 00:05:43,190
+se você colocou o tipo explicitamente como no caso que diabo você colocou.
+
+73
+00:05:43,220 --> 00:05:45,490
+Você não pode colocar um valor diferente.
+
+74
+00:05:45,500 --> 00:05:52,070
+Você até pode se quiser como eu já mostrei já que é uma variável colocar um valor por exemplo 12 pontos
+
+75
+00:05:52,070 --> 00:05:55,710
+57 não tem problema continua sendo um valor bom.
+
+76
+00:05:56,030 --> 00:06:00,980
+Eu posso duplicar essa linha em colocar aqui embaixo ou se vai ter e eu vou só comentar rapidinho essa
+
+77
+00:06:00,980 --> 00:06:01,980
+aqui de baixo.
+
+78
+00:06:02,120 --> 00:06:09,410
+Certo Resultado você vai ter o resultado 4 pontos 5 na linha 8 foi impresso na linha 11 ele imprimiu
+
+79
+00:06:09,440 --> 00:06:16,400
+valor 12 pontos 57 certo mais aqui eu tenho ainda trabalho com o mesmo tipo.
+
+80
+00:06:16,490 --> 00:06:22,490
+Existe uma exceção que é o fato de que você consegue colocar valor inteiro mas esse valor inteiro vai
+
+81
+00:06:22,490 --> 00:06:28,770
+ser convertido pra 12 pontos eram 2 e quando você vai ver que ele foi convertido para 12 pontos 0 porque
+
+82
+00:06:28,770 --> 00:06:34,520
+ele já sabe que eu consigo representar um número inteiro dentro dos números reais então ele faz isso
+
+83
+00:06:34,800 --> 00:06:40,430
+para a gente automaticamente mas você não pode mudar o tipo por exemplo para o valor histria como é
+
+84
+00:06:40,430 --> 00:06:46,970
+o caso nem o fato nem no caso do app você não consegue fazer isso mesmo também usando o valor quando
+
+85
+00:06:46,970 --> 00:06:53,850
+você usa vá no momento que ele recebe o valor ele já vai inferir esse valor já vai definir aquela variável
+
+86
+00:06:53,850 --> 00:06:59,600
+em um determinado tipo e esse tipo pode ser um valor numérico pode ser um valor do texto pode ser outras
+
+87
+00:06:59,600 --> 00:07:02,770
+coisas que a gente vai introduzir durante o nosso capitulo.
+
+88
+00:07:03,200 --> 00:07:10,390
+Então aqui uma outra questão importante é que você pode enfrentar em outros exemplos por exemplo o seguinte.
+
+89
+00:07:10,520 --> 00:07:17,930
+Aqui embaixo eu vou definir uma variável que vai ser a letra D eu vou colocar ponto e vírgula não associei
+
+90
+00:07:17,930 --> 00:07:26,090
+nenhum valor para a variável vai na linha seguinte eu vou lá e coloco D recebe o valor 123 ponto mês
+
+91
+00:07:26,290 --> 00:07:29,660
+5 seja um valor da bola não tem problema nenhum.
+
+92
+00:07:29,660 --> 00:07:35,450
+E depois na próxima linha eu vou lá imprime o valor da variável dei executando esse código você vai
+
+93
+00:07:35,450 --> 00:07:38,530
+ver que 123 tomei assim que foi impresso.
+
+94
+00:07:38,660 --> 00:07:46,090
+Ou seja eu defini a variável na linha 26 inicializar a variável na linha 27 ou seja definir a variável
+
+95
+00:07:46,100 --> 00:08:01,160
+declarei a variável e então vou colocar aquilo claro e a Del foi declarada aqui variável que foi inicializar
+
+96
+00:08:01,720 --> 00:08:05,360
+e aqui foi usada certa usei a variável possui.
+
+97
+00:08:05,360 --> 00:08:15,230
+Nesse caso aqui eu fiz as duas coisas eu fiz a declaração da variáveis e inicializar a variável na mesma
+
+98
+00:08:15,230 --> 00:08:18,740
+linha ou seja declarei a variável a inicializar ela.
+
+99
+00:08:18,980 --> 00:08:25,490
+Aqui embaixo eu declarei a variável na linha 26 e na linha 27 eu inicializar a variável.
+
+100
+00:08:25,490 --> 00:08:31,760
+Pela primeira vez isso funciona funciona já mostrei pra vocês como diálogos executando aqui o nosso
+
+101
+00:08:31,760 --> 00:08:38,070
+código ou se está bem no que o Estado 123 apareceu eu não consigo fazer isso usando o VaR.
+
+102
+00:08:38,160 --> 00:08:45,950
+Ok se eu fizer o vá a letra e ponto e vírgula e só na linha seguinte eu fizer aqui por exemplo 1 2 3
+
+103
+00:08:45,950 --> 00:08:53,390
+ponto 45 ele vai dar um problema porque na hora que você declara a variável você precisa já inicializar
+
+104
+00:08:53,390 --> 00:09:00,530
+ela porque a partir da inicialização que o Java consegue inferir qual é o tipo de dado associado àquela
+
+105
+00:09:00,530 --> 00:09:01,190
+variável.
+
+106
+00:09:01,220 --> 00:09:07,880
+Você até pode de forma genérica chamar vai deixar o Java digamos assim descobri automaticamente qual
+
+107
+00:09:07,880 --> 00:09:14,750
+é a variável mas você não consegue declarar a variável ali inicializar e na outra você tem que fazer
+
+108
+00:09:14,750 --> 00:09:16,550
+isso numa única linha.
+
+109
+00:09:16,550 --> 00:09:18,830
+Aí sim ele passa a funcionar corretamente.
+
+110
+00:09:19,280 --> 00:09:24,340
+E aí como a gente já viu anteriormente certos a gente consegue exibir o valor dessa variável.
+
+111
+00:09:24,770 --> 00:09:30,920
+Então fica aí a dica de que é possível né Se você encontrar um código desse tipo em Java surgiu a partir
+
+112
+00:09:30,920 --> 00:09:35,150
+do Java 10 e algo não tão antigo algo relativamente novo.
+
+113
+00:09:35,140 --> 00:09:40,760
+E aí ele consegue fazer a inferência mas isso não significa que você vai conseguir dentro de uma variável
+
+114
+00:09:40,760 --> 00:09:44,020
+colocar valores de tipos diferentes não você.
+
+115
+00:09:44,030 --> 00:09:50,740
+Se você definiu que a variável numérica sempre será numérica independente se você definiu de forma explícita
+
+116
+00:09:50,740 --> 00:09:57,860
+o tipo ou se você deixou o Java descobrir automaticamente a partir da inferência é pra ele inferir qual
+
+117
+00:09:57,860 --> 00:10:03,350
+o time da variável ele vai olhar o que você associou se você associou o texto.
+
+118
+00:10:03,360 --> 00:10:08,550
+Ele vai entender que você está colocando essa variável do tipo string que é o tipo de texto em Java.
+
+119
+00:10:08,550 --> 00:10:14,690
+Se você colocou um valor com ponto flutuante ele vai inferir que essa variável é do tipo agulha.
+
+120
+00:10:14,700 --> 00:10:20,340
+Por exemplo você colocou o valor inteiro ele vai inferir que o valor da variável é um valor inteiro.
+
+121
+00:10:20,430 --> 00:10:23,110
+E aqui cabe a observação a gente fez isso aqui.
+
+122
+00:10:23,250 --> 00:10:28,010
+Eu criei uma variável com casas decimais e depois eu criei uma variável inteira.
+
+123
+00:10:28,080 --> 00:10:30,950
+Se eu fizer o contrário vai dar problema certo.
+
+124
+00:10:30,990 --> 00:10:35,210
+Se eu fizer vá F recebe 12.
+
+125
+00:10:35,220 --> 00:10:38,830
+Isso aqui é um valor inteiro inteiro.
+
+126
+00:10:39,280 --> 00:10:44,710
+E aí ele já descobriu que isso aqui e aqui o mal ultrapassa a inteiro o valor da minha variável F será
+
+127
+00:10:44,700 --> 00:10:46,590
+um valor inteiro dentro do Java.
+
+128
+00:10:46,590 --> 00:10:54,780
+Se eu fizer F recebe o valor de 12 pontos eram bem pertinho mas é totalmente diferente porque é um número
+
+129
+00:10:54,780 --> 00:10:55,680
+quebrado.
+
+130
+00:10:55,680 --> 00:11:02,680
+Ele vai dar um problema ok porque é um valor inteiro dentro do Java não consegue armazenar casas decimais.
+
+131
+00:11:02,680 --> 00:11:08,850
+E aí você não vai conseguir fazer essa atribuição porque o Java não vai se responsabilizar em arredondar
+
+132
+00:11:08,850 --> 00:11:14,390
+para o seu valor ou mesmo trocar o Galo ou então Java quero que você seja explícito dizendo o que é
+
+133
+00:11:14,390 --> 00:11:19,230
+que você quer fazer com esse valor que tem mais informações do que pode ser armazenado dentro de um
+
+134
+00:11:19,230 --> 00:11:19,970
+inteiro.
+
+135
+00:11:20,050 --> 00:11:26,940
+Eu ainda vou falar sobre os tipos primitivos do Java 7 mas essa última observação também é importante
+
+136
+00:11:27,210 --> 00:11:31,950
+porque você não vai conseguir uma vez criando um valor inteiro você não consegue colocar valores de
+
+137
+00:11:32,040 --> 00:11:34,770
+casas decimais mas o contrário é verdadeiro.
+
+138
+00:11:34,800 --> 00:11:40,370
+Valores como casas decimais conseguem receber valores inteiros e isso o Java permite que então nas salas
+
+139
+00:11:40,380 --> 00:11:47,010
+de usar inferência que é o fato de que você consegue criar variáveis usando a palavra var mas isso não
+
+140
+00:11:47,010 --> 00:11:53,190
+faz com que você consiga misturar os títulos em Java porque Java a linguagem que os tipos são fortes
+
+141
+00:11:53,310 --> 00:11:58,950
+ou seja para você definir uma variável ou uma constante obrigatoriamente você precisa dizer o tipo dessa
+
+142
+00:11:58,950 --> 00:12:00,270
+variável e dessa constante.

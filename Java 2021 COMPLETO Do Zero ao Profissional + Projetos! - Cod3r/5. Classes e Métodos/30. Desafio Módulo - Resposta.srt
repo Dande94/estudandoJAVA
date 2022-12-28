@@ -1,0 +1,355 @@
+1
+00:00:00,160 --> 00:00:04,260
+Penso agora vou mostrar a resposta do desafio que eu lancei na aula passada.
+
+2
+00:00:04,470 --> 00:00:10,410
+Eu vou clicar aqui com o botão direito cima de uma dessas armas aqui eu vou colocar Close ao fechar
+
+3
+00:00:10,410 --> 00:00:17,160
+todas as abas e eu vou criar aqui no ano preciso fechar todas as abas só pra deixar que a nossa ideia
+
+4
+00:00:17,160 --> 00:00:18,650
+é um pouco mais limpa.
+
+5
+00:00:18,770 --> 00:00:22,640
+Vou criar a primeira classe em que eu vou chamar de comida.
+
+6
+00:00:22,950 --> 00:00:24,730
+Então chama a classe comida.
+
+7
+00:00:25,020 --> 00:00:33,390
+E aqui nós vamos definir dois atributos eu vou colocar aqui um atributo string o nome da comida vou
+
+8
+00:00:33,390 --> 00:00:40,410
+criar aqui um atributo da ABL que vai ser o peso da comida e vou criar aqui o construtor então a comida
+
+9
+00:00:40,770 --> 00:00:45,510
+vai receber uma string no homem.
+
+10
+00:00:46,200 --> 00:00:53,310
+Bom mesmo é aqui eu preciso pegar os valores que eu recebi como parâmetro.
+
+11
+00:00:53,330 --> 00:00:59,120
+Isso está nos valores que pertencem à instância e os atributos de instância.
+
+12
+00:00:59,130 --> 00:01:02,910
+Pra isso eu uso desse ponto o nome e serve o nome.
+
+13
+00:01:03,240 --> 00:01:09,590
+Eu vou fazer a mesma coisa desse ponto teso recebe um valor de peso e agora eu vou criar.
+
+14
+00:01:09,840 --> 00:01:15,480
+Eu posso até se for o caso pessoal para ficar um pouco mais organizado dentro de classe e criar um novo
+
+15
+00:01:15,480 --> 00:01:18,430
+pacote um desafio.
+
+16
+00:01:19,110 --> 00:01:25,230
+E aí eu coloco por exemplo a classe comida dentro do pacote desafio né para ter um super pacote dentro
+
+17
+00:01:25,380 --> 00:01:26,600
+do pacote clássico.
+
+18
+00:01:26,790 --> 00:01:33,700
+Então aqui criei comida eu vou criar aqui uma nova classe em nome da classe será a pessoa.
+
+19
+00:01:33,810 --> 00:01:44,790
+Essa classe também terá os mesmos dois atributos então string nome e dado peso para a abstração do nosso
+
+20
+00:01:44,790 --> 00:01:45,300
+negócio.
+
+21
+00:01:45,300 --> 00:01:48,710
+Não preciso de outras informações além dessas duas aqui.
+
+22
+00:01:48,930 --> 00:01:57,390
+Então aquilo criador cogitou a pessoa que vai receber este nome e o da Teresa.
+
+23
+00:01:58,100 --> 00:02:09,240
+E aqui eu coloco desse ponto o nome recebe nome e depois com outro recebe peso.
+
+24
+00:02:10,260 --> 00:02:16,020
+Finalmente nós temos aqui a classe Pessoa também só que a classe pessoa precisa de um método a mais
+
+25
+00:02:16,020 --> 00:02:17,200
+que é um método comum.
+
+26
+00:02:17,550 --> 00:02:23,400
+Então nesse caso eu vou criar aqui um método como que vai retornar onde poder retornar até o peso da
+
+27
+00:02:23,400 --> 00:02:23,900
+pessoa.
+
+28
+00:02:23,920 --> 00:02:25,420
+Mas eu posso não retorna nada.
+
+29
+00:02:25,910 --> 00:02:32,700
+Então como vai receber como parâmetro de comida eu posso receber um parâmetro geométrico tanto um tipo
+
+30
+00:02:32,700 --> 00:02:36,140
+primitivo como outro objeto sem problema.
+
+31
+00:02:36,510 --> 00:02:43,900
+E uma vez que eu recebia a comida eu posso até testar para saber se a comida está diferente no bolo
+
+32
+00:02:43,920 --> 00:02:48,110
+para ter uma garantia de que realmente eu recebi uma comida válida.
+
+33
+00:02:48,160 --> 00:02:51,060
+Se você tiver de faringe nulo eu posso fazer o quê.
+
+34
+00:02:51,230 --> 00:03:01,080
+Desse ponto um peso mais igual seja uma atribuição aditiva EM CIMA DE COMIDA ponto peso uma vez que
+
+35
+00:03:01,080 --> 00:03:07,170
+eu pego o peso da comida e acrescento ao peso da pessoa significa que chamar nesse método a pessoa vai
+
+36
+00:03:07,170 --> 00:03:13,500
+engordar certo então ao garantir que a comida está valendo faringe nulo pra ter certeza que eu posso
+
+37
+00:03:13,500 --> 00:03:20,130
+chamar comida do peso e não ter nenhum problema caso passe uma comida inválida ou seja algo nulo simplesmente
+
+38
+00:03:20,130 --> 00:03:22,580
+não faço nada e a pessoa não vai engordar.
+
+39
+00:03:22,580 --> 00:03:29,790
+E finalmente nós vamos usar aqui não criar uma nova classe e o nome dessa outra classe vai ser jantar
+
+40
+00:03:30,400 --> 00:03:33,090
+dentro da classe jantar agora nós vamos ter o método.
+
+41
+00:03:33,210 --> 00:03:38,520
+é aqui que eu vou fazer a lógica de distanciar a comida lista se as comidas melhor dizendo instancia
+
+42
+00:03:38,520 --> 00:03:41,420
+a pessoa e a gente vai fazer a pessoa comer comida.
+
+43
+00:03:41,460 --> 00:03:50,760
+Então eu vou lá comida você recebe mil comida e aqui eu vou passar o nome da comida vai ser arroz e
+
+44
+00:03:50,760 --> 00:03:53,560
+o peso da comida zero ponto 2 2 3.
+
+45
+00:03:53,580 --> 00:04:00,660
+Exatamente como eu falei lá no vídeo de explicação do desafio vou criar uma segunda comida C2 que eu
+
+46
+00:04:00,660 --> 00:04:08,300
+vou chamar aqui minha comida distanciado e sem feijão.
+
+47
+00:04:08,510 --> 00:04:17,310
+O foco aqui 0 ponto 3 0 pouco trazendo tanto faz vai dar a mesma coisa 300 gramas e vou criar aqui uma
+
+48
+00:04:17,310 --> 00:04:23,780
+pessoa pessoa recebe mil pessoas.
+
+49
+00:04:24,490 --> 00:04:28,460
+Aqui eu vou chamar a pessoa de João João.
+
+50
+00:04:28,560 --> 00:04:36,810
+E finalmente a pessoa vai ter oitenta e nove quilos foto com 800 gramas está para a pessoa ficar muito
+
+51
+00:04:36,810 --> 00:04:43,340
+perto não colocar 99 que a pessoa passe de 100 quilos e fica mais dramático o nosso exercício.
+
+52
+00:04:43,390 --> 00:04:46,130
+Então a pessoa está 200 gramas de 100 quilo.
+
+53
+00:04:46,420 --> 00:04:54,590
+E aí eu vou chamar aqui p ponto vou colocar aqui arroz pra ser 180 fica melhor para a pessoa não passar
+
+54
+00:04:54,590 --> 00:05:03,030
+a ideia então que ao pé ponto comer ou passar comida imprimiu o valor da pessoa que antes posso até
+
+55
+00:05:03,030 --> 00:05:11,260
+colocar aqui dentro de pessoal para usar o olho para não ter que batizou várias vezes terá que distribuir
+
+56
+00:05:11,980 --> 00:05:26,400
+apresentar e aqui dentro vou fazer o seguinte Brittany se ela coloca distribuí la eu sou o concatenar
+
+57
+00:05:26,400 --> 00:05:41,760
+com o nome e tenho mais peso e finalmente colocar aqui que nos falta no final ponto certo.
+
+58
+00:05:42,510 --> 00:05:50,910
+Olá eu sou o nome da pessoa e tenho tantos quilos faltou só mais em um aqui pra finalizar a nossa apresentação
+
+59
+00:05:50,920 --> 00:05:54,980
+uma pessoa então quando o fizer a pessoa pronta a apresentar ele vai retornar.
+
+60
+00:05:55,020 --> 00:05:58,520
+Essa histria não precisa ficar repetindo estão aqui no jantar.
+
+61
+00:05:58,840 --> 00:06:06,650
+Eu posso antes ele começar a comer colocar até foto apresentar seu resultado.
+
+62
+00:06:06,780 --> 00:06:07,400
+Você vai ver.
+
+63
+00:06:07,470 --> 00:06:11,520
+Olá eu sou o João tenho 99 pontuou 8 quilos.
+
+64
+00:06:11,520 --> 00:06:17,850
+Agora eu comi a comida eu vou duplicar essa linha aqui vou colocar pra baixo vou apresentar de novo
+
+65
+00:06:18,200 --> 00:06:18,960
+alertando.
+
+66
+00:06:19,290 --> 00:06:20,920
+Olá eu sou o João.
+
+67
+00:06:21,000 --> 00:06:29,520
+Eu tenho 99 98 quilos ou seja começou com 99 contou que agora está com 99 pontos 98 porque ele aumentou
+
+68
+00:06:29,520 --> 00:06:35,540
+180 gramas e finalmente seu eu comecei duplicar de novo com o começo certo eu vou comer.
+
+69
+00:06:35,610 --> 00:06:40,900
+Eu vou mostrar se apresentar como médio e depois se apresentar por meio finalmente eu vou se apresentar
+
+70
+00:06:40,970 --> 00:06:42,910
+ou ficar mais uma vez ou outra.
+
+71
+00:06:43,140 --> 00:06:45,570
+E agora para executar as etapa.
+
+72
+00:06:45,570 --> 00:06:48,220
+Só vou mudar aqui agora pra C2.
+
+73
+00:06:48,390 --> 00:06:52,210
+Primeiro eu exijo a apresentar ele com a minha comida.
+
+74
+00:06:52,380 --> 00:06:57,690
+Depois ele se apresenta novamente e um pouquinho mais gordo como a comida 2 e finalmente se apresenta
+
+75
+00:06:57,690 --> 00:06:59,060
+pela terceira vez aqui.
+
+76
+00:06:59,340 --> 00:07:05,970
+Já com mais de 100 quilos Nany transitando você vai ver estão aumentando um pouco o console.
+
+77
+00:07:05,970 --> 00:07:13,860
+Você tem a primeira vez em 99 pontuou oito depois noventa e nove pontos 98 e finalmente 100 quilos e
+
+78
+00:07:13,860 --> 00:07:21,360
+280 gramas ou seja ele passou dos 100 quilos depois de ter comido uma porção de arroz e uma porção de
+
+79
+00:07:21,360 --> 00:07:22,270
+feijão.
+
+80
+00:07:22,290 --> 00:07:24,570
+Você pode criar outras comidas habitualmente.
+
+81
+00:07:24,660 --> 00:07:27,290
+Então esse foi o nosso desafio agora a gente teve.
+
+82
+00:07:27,630 --> 00:07:32,430
+Nós criamos um pacote à parte nem fazia parte do desafio mas só para organizar um pouco mais o nosso
+
+83
+00:07:32,430 --> 00:07:33,440
+código.
+
+84
+00:07:33,450 --> 00:07:39,000
+Aqui dentro nós temos a comida nós temos a pessoa e a gente começou a fazer uma colaboração entre as
+
+85
+00:07:39,000 --> 00:07:45,510
+classes ou seja a partir de pessoa a pessoa receber um ou outro objeto que você criou que é a comida
+
+86
+00:07:45,510 --> 00:07:51,570
+e esse outro objeto também tinha peso e a partir do peso da comida você conseguiu interagir com o peso
+
+87
+00:07:51,570 --> 00:07:52,290
+da pessoa.
+
+88
+00:07:52,300 --> 00:07:53,140
+Isso foi muito legal.
+
+89
+00:07:53,160 --> 00:07:56,910
+Espero que vocês tenham conseguido fazer um desafio e até aproximá lo.

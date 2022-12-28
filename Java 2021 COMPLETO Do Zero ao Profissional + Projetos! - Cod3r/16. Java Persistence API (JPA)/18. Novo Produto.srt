@@ -1,0 +1,187 @@
+1
+00:00:00,240 --> 00:00:02,730
+Penso agora nós vamos criar um novo produto.
+
+2
+00:00:02,740 --> 00:00:08,250
+é pelo fato de a gente já ter criado o DNA ou pelo menos a base dele vai ficar muito mais fácil agora
+
+3
+00:00:08,540 --> 00:00:14,590
+para a gente criar os nossos exercícios então ainda dentro de teste ponto base já que eu criei a entidade
+
+4
+00:00:14,630 --> 00:00:17,150
+e produto dentro do modelo básico.
+
+5
+00:00:17,280 --> 00:00:25,170
+Eu vou criar aqui uma nova classe que vai seguir no mesmo padrão um novo produto.
+
+6
+00:00:25,230 --> 00:00:28,720
+E aqui nós vamos criar o nosso método.
+
+7
+00:00:29,250 --> 00:00:35,040
+Então um ponto aqui é pra criar um d algo criar um Dell e eu vou passar por exemplo nesse caso eu quero
+
+8
+00:00:35,040 --> 00:00:41,310
+criar um deal específico para o produto então eu posso colocar aqui um produto certo.
+
+9
+00:00:41,450 --> 00:00:47,400
+Uma outra coisa muito comum que as pessoas fazem o seguinte você pode criar aqui uma classe.
+
+10
+00:00:47,620 --> 00:00:51,610
+Eu posso resolver distanciar e eu vou resolver as duas formas de acesso.
+
+11
+00:00:51,620 --> 00:00:55,670
+Só vou fazer assim no próximo a gente faz o que eu estava querendo explicar agora.
+
+12
+00:00:55,680 --> 00:01:02,390
+Mas eu vou deixar para a próxima tão lá cria aqui recebe mil óculos.
+
+13
+00:01:02,460 --> 00:01:10,080
+Eu não preciso passar o produto nesse caso eu posso passar o produto pra vocês não produto por outro
+
+14
+00:01:10,450 --> 00:01:17,730
+lado como parâmetro para esse Deal especificamente o caso da inserção eu não vou precisar passar esse
+
+15
+00:01:17,730 --> 00:01:18,440
+parâmetro.
+
+16
+00:01:18,840 --> 00:01:22,060
+Mas se eu fosse fazer alguma consulta aqui eu precisaria certo.
+
+17
+00:01:22,290 --> 00:01:29,310
+Então lá vou criar aqui um produto ou então produto um produto recebe um produto.
+
+18
+00:01:29,310 --> 00:01:31,880
+Vou passar o nome do produto.
+
+19
+00:01:31,890 --> 00:01:40,880
+Tracei a meta e vou passar aqui o valor da caneta pra C7 ponto 45.
+
+20
+00:01:40,920 --> 00:01:47,160
+Uma vez feito isso já tendo rodá lo aqui implementado baixo o chamado da aposta com o caudal depois.
+
+21
+00:01:47,280 --> 00:01:49,890
+Então dá um ponto.
+
+22
+00:01:49,890 --> 00:01:53,890
+Aí eu tenho como se eu quiser eu posso abrir a transação.
+
+23
+00:01:53,970 --> 00:02:05,340
+Posso incluir o produto então aqui produto e posso fechar a transação não fechar o Down fechar a transação.
+
+24
+00:02:05,340 --> 00:02:09,870
+E depois se eu quiser fechar tudo numa única chamada.
+
+25
+00:02:09,960 --> 00:02:16,350
+Isso aqui vai funcionar então executado larguei ao que ele me cadastrou tinha um produto.
+
+26
+00:02:16,350 --> 00:02:23,830
+Se a gente for olhar algo duplicado essa não aparece de cima que produtos.
+
+27
+00:02:24,030 --> 00:02:28,420
+Nós temos produto de camiseta 7 ponto 45.
+
+28
+00:02:28,630 --> 00:02:39,960
+Vou colocar aqui por exemplo notebooks para seu valor 2 mil 987 contra 78.
+
+29
+00:02:39,960 --> 00:02:49,010
+Nesse caso eu não vou fazer isso aqui eu vou simplesmente mal incluir atômico passando o produto e se
+
+30
+00:02:49,010 --> 00:02:53,420
+eu quiser já fechar aqui o meu Dell.
+
+31
+00:02:53,460 --> 00:02:59,120
+Vocês são a única linha que eu vou fazer o que eu preciso desde já posso fazer tudo numa linha só executando
+
+32
+00:03:00,700 --> 00:03:07,790
+então o resultado que inclui mais um item pra gente terminar vou colocar aqui mais um outro item que
+
+33
+00:03:07,810 --> 00:03:08,670
+vai ser esse
+
+34
+00:03:11,380 --> 00:03:21,840
+monitor de 23 e aqui eu vou colocar que o valor vai ser 789 contam 98.
+
+35
+00:03:22,110 --> 00:03:34,920
+é só pra gente garantir que no final mostrar que ali do produto dois pontos ou pagar um produto então
+
+36
+00:03:35,040 --> 00:03:40,550
+pede só pra gente ter certeza que o produto também está disponível.
+
+37
+00:03:40,560 --> 00:03:48,360
+Depois da inclusão então lo mais uma vez o recorde do produto é igual a três exatamente o produto que
+
+38
+00:03:48,360 --> 00:03:50,480
+foi seguido agora por último certo.
+
+39
+00:03:50,490 --> 00:03:55,020
+Então nós temos a caneta boutique e o monitor de 23 polegadas.
+
+40
+00:03:55,050 --> 00:03:56,400
+Então pessoal ficamos por aqui.
+
+41
+00:03:56,400 --> 00:04:02,100
+Nosso primeiro exemplo usava o Dell agora de novo produto no próximo exercício.
+
+42
+00:04:02,100 --> 00:04:09,630
+Nós vamos fazer o obter produtos nós vamos acessar aquele Metro que a gente criou no Dell que é o de
+
+43
+00:04:09,720 --> 00:04:11,400
+obter todos.
+
+44
+00:04:11,850 --> 00:04:15,660
+Vocês vão perceber que vai ficar bem mais simples pra gente usar esse método.
+
+45
+00:04:15,840 --> 00:04:20,800
+E na sequência a gente vai trabalhar depois com a parte de relacionamento como já falei anteriormente
+
+46
+00:04:20,800 --> 00:04:26,670
+então ficamos por aqui nessa aula aproximá lo nós vamos usar novamente judeu agora pra consultar todos
+
+47
+00:04:26,670 --> 00:04:28,990
+os produtos e até aproximá lo.

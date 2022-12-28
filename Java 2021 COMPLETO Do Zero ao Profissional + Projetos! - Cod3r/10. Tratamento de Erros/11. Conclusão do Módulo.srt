@@ -1,0 +1,107 @@
+1
+00:00:00,180 --> 00:00:06,690
+Só chegamos no final do nosso capítulo de tratamento de erro vimos vários exemplos legais entendemos
+
+2
+00:00:06,690 --> 00:00:10,670
+um pouco de como o Java trata a questão do tratamento.
+
+3
+00:00:10,740 --> 00:00:16,830
+Você tem o troll a boca a classe mais genérica de lá você tem erros que são coisas mais graves e as
+
+4
+00:00:16,830 --> 00:00:23,190
+exceções a gente entendeu também que as exceções são divididas em dois grandes grupos as ações checadas
+
+5
+00:00:23,250 --> 00:00:28,650
+e não checadas ou verificadas não verificadas tá muito importante você entender a diferença é muito
+
+6
+00:00:28,650 --> 00:00:35,840
+importante você saber quando usar quando usar outra e também entender a mecânica do tratamento de exceção
+
+7
+00:00:35,850 --> 00:00:41,980
+dentro de Java usando traiu quem falha ele como ser um bloco executado todas as vezes dependente da
+
+8
+00:00:42,110 --> 00:00:42,630
+ou não.
+
+9
+00:00:43,020 --> 00:00:48,450
+Então qualquer código que você queira tratar o erro que é um código potencial que pode gerar algum tipo
+
+10
+00:00:48,450 --> 00:00:55,000
+de problema você coloca um trai e coloca os skates associados as exceções que você quer tratar.
+
+11
+00:00:55,320 --> 00:01:00,930
+E aí você pode usar um mesmo bloco pra tratar mais de uma exceção você pode ter um bloco de queijo pra
+
+12
+00:01:00,930 --> 00:01:02,820
+cada sessão especificamente.
+
+13
+00:01:02,820 --> 00:01:06,490
+Tudo vai depender de como você vai precisar tratar esse assunto.
+
+14
+00:01:06,540 --> 00:01:09,390
+Vamos revisitar esses termos em outros momentos.
+
+15
+00:01:09,390 --> 00:01:14,810
+Ou seja agora que a gente já tem mais esse recurso na nossa bagagem digamos assim de Java a gente tá
+
+16
+00:01:14,820 --> 00:01:18,990
+livre para usar o tratamento de exceção em outros exemplos que a gente vai eventualmente fazer mais
+
+17
+00:01:18,990 --> 00:01:19,490
+pra frente.
+
+18
+00:01:19,500 --> 00:01:25,350
+Principalmente nos projetos que são os locais que eu tento digamos assim consolidar todo o aprendizado
+
+19
+00:01:25,350 --> 00:01:30,570
+até então é algo um pouco maior para que a gente possa realmente ver como na prática a gente pode usar
+
+20
+00:01:30,570 --> 00:01:37,860
+todos esses recursos de orientação objeto da parte de colégios de princípios de programação funcional
+
+21
+00:01:37,860 --> 00:01:38,320
+também.
+
+22
+00:01:38,340 --> 00:01:41,800
+E tudo isso será concentrado nos projetos que nós vamos fazer durante o curso.
+
+23
+00:01:41,810 --> 00:01:46,350
+Então no próximo capítulo nós teremos nosso primeiro projeto e outros para lá para a gente usar tudo
+
+24
+00:01:46,350 --> 00:01:47,940
+aquilo que a gente já aprendeu.
+
+25
+00:01:47,970 --> 00:01:52,600
+é um projeto inicialmente mais simples e com o tempo a gente vai colocar um projeto mais complicado.
+
+26
+00:01:52,620 --> 00:01:55,190
+Então fico por aqui e até o próximo módulo.
+
+27
+00:01:55,260 --> 00:01:55,560
+Até lá.

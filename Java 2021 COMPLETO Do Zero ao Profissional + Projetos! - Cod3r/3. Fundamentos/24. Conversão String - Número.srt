@@ -1,0 +1,467 @@
+1
+00:00:00,150 --> 00:00:07,320
+Pessoal próximo a exemplo a gente vai converter o contrário de string o número e distribui para número
+
+2
+00:00:07,320 --> 00:00:13,020
+e uma conversa mais perigosa você também concorda comigo que nem toda string é possível ser convertida
+
+3
+00:00:13,020 --> 00:00:16,360
+para um número mas todo o numeral é possível ser convertido para Astrid.
+
+4
+00:00:16,380 --> 00:00:19,440
+Basta colocar um sem aspas duplas né.
+
+5
+00:00:19,440 --> 00:00:24,380
+Grosso modo você pegar um número e colocasse duas duplas você tem uns 30 mas nem todos tinham o todo
+
+6
+00:00:24,390 --> 00:00:27,090
+desse passivo pra ser corrigido para um número.
+
+7
+00:00:27,090 --> 00:00:33,270
+Isso pode gerar alguns problemas não é nesse ponto que a gente vai trabalhar os erros dentro do Java
+
+8
+00:00:33,690 --> 00:00:39,000
+mas você vai perceber que eu vou tentar ser comportado não colocar números inválidos mas lá na frente
+
+9
+00:00:39,000 --> 00:00:44,250
+ele vai tratar esses erros e mostrar como é que você pode se esperar o mesmo pedir para o usuário digitar
+
+10
+00:00:44,250 --> 00:00:47,400
+algum valor vale do zero e vai ter muitas possibilidades.
+
+11
+00:00:47,400 --> 00:00:54,100
+Cada momento que vai passando com uso cada novo recurso introduzido vai abrindo um leque de possibilidades
+
+12
+00:00:54,100 --> 00:01:02,590
+de novos desafios pra ser propostos novas abordagens ou novos e até mesmo o nível de dificuldade.
+
+13
+00:01:02,630 --> 00:01:07,610
+Aquilo que a gente vai propondo pra vocês pode aumentar porque você já tem um leque de possibilidades
+
+14
+00:01:07,620 --> 00:01:12,140
+no começo a gente tá mais limitado vendo ali as bases os fundamentos da linguagem.
+
+15
+00:01:12,270 --> 00:01:17,550
+Depois ele vai ter muito mais tranquilidade para propor outras coisas mais interessantes mais próximos
+
+16
+00:01:17,910 --> 00:01:20,250
+do que seria encontrado num projeto real.
+
+17
+00:01:20,280 --> 00:01:26,340
+Uma empresa não subestime o poder das bases que você tem e com a gente fala se isso é um curso básico
+
+18
+00:01:26,340 --> 00:01:32,040
+básico não no sentido de ser fácil mas de formar as bases eu lembro que na minha trajetória como desenvolvedor
+
+19
+00:01:32,550 --> 00:01:38,030
+eu uma das coisas mais difíceis para mim foi realmente ter uma base sólida da linguagem.
+
+20
+00:01:38,190 --> 00:01:43,350
+E é exatamente isso que eu quero trazer aqui no curso de Java não apenas te dá uma base sólida da linguagem
+
+21
+00:01:43,350 --> 00:01:46,310
+mas também excelente mostrar projetos reais na prática.
+
+22
+00:01:46,350 --> 00:01:52,820
+Você pode organizar um projeto de uma forma interessante com boas práticas e também te levar com esses
+
+23
+00:01:52,820 --> 00:01:54,570
+recursos avançados da linguagem.
+
+24
+00:01:54,570 --> 00:01:59,580
+Trabalhar com o banco de dados tudo isso faz parte do escopo do nosso curso estavam lá.
+
+25
+00:01:59,610 --> 00:02:05,640
+O próximo a nossa próxima classe que nós vamos criar aqui vai ser a classe para fazer exatamente o contrário
+
+26
+00:02:05,640 --> 00:02:12,330
+nós vamos converter string para número total conversão estende o número ainda dentro do nosso pacote
+
+27
+00:02:12,750 --> 00:02:19,050
+de fundamentos que eu vou criar o nosso método Mei maximiza a tela e eu vou aqui fazer o seguinte eu
+
+28
+00:02:19,050 --> 00:02:27,240
+vou criar um monstrinho chamada ralou e vai receber uma classe quer visual em vez de usar o terminal
+
+29
+00:02:27,240 --> 00:02:32,510
+para a gente pegar essa informação do usuário eu vou usar uma janelinha visual que é o J.
+
+30
+00:02:32,550 --> 00:02:40,560
+OP Você não encontra espaço amostral J Option tem ele já importou aqui em cima Java x ponto suingue
+
+31
+00:02:40,560 --> 00:02:46,260
+Ponto G o topo de um tem e o visual vai aparecer na telinha para a gente e o nome da funcionalidade
+
+32
+00:02:46,260 --> 00:02:52,800
+vai ser show inputs da Log e aqui eu vou colocar a mensagem que eu quero mostrar para o usuário então
+
+33
+00:02:53,760 --> 00:03:06,180
+digite digite o primeiro número exato ficou muito grande a sentença de código realmente ficou muito
+
+34
+00:03:06,180 --> 00:03:13,050
+grande então a gente pode por exemplo aqui antes não no meio da histria mas antes da estreia até pode
+
+35
+00:03:13,050 --> 00:03:19,200
+mudar de time ele vai acabar com Cat mas isso pode dar um entra aqui pra que esse valor pra que a sentença
+
+36
+00:03:19,200 --> 00:03:21,150
+de Cole fique em quebrada em 12 dias né.
+
+37
+00:03:21,210 --> 00:03:27,450
+Mas é uma única sentença de código porque nós temos um único ponto e vírgula que eu posso duplicar esse
+
+38
+00:03:27,450 --> 00:03:28,660
+mesmo valor aqui embaixo.
+
+39
+00:03:28,690 --> 00:03:38,580
+Colocar valor 2 e colocar aqui a mensagem para ser digite o segundo valor segundo o número posso colocar
+
+40
+00:03:39,330 --> 00:03:47,340
+dois pontos dois pontos e se a gente executar só pra ver inicialmente executado ele vai começar que
+
+41
+00:03:47,340 --> 00:03:51,100
+o nosso programinha e apareceu a tela que podemos digitar.
+
+42
+00:03:51,300 --> 00:03:55,800
+Aqui você pode digitar qualquer coisa que quer um valor textual mas eu espero que você digite por exemplo
+
+43
+00:03:55,800 --> 00:04:00,050
+o número 3 pontos 5 por exemplo ok.
+
+44
+00:04:00,050 --> 00:04:04,950
+O primeiro número vai aparecer de novo a janelinha 4 pontos 7 e OK.
+
+45
+00:04:04,980 --> 00:04:10,300
+Certo é exatamente isso que ele vai fazer quando você coloca o OK o valor ele vai ser atribuído aqui
+
+46
+00:04:10,320 --> 00:04:12,450
+pra essa variável valor e valores.
+
+47
+00:04:12,600 --> 00:04:20,000
+No primeiro momento eu posso fazer uma soma que não será um só valor mas o valor 2.
+
+48
+00:04:20,190 --> 00:04:23,040
+O que isso nesse caso será uma concatenação.
+
+49
+00:04:23,070 --> 00:04:27,990
+Quando você tem duas estrelas e você usa o símbolo do mais ele vai simplesmente chutar um estilingue
+
+50
+00:04:27,990 --> 00:04:29,270
+da outra.
+
+51
+00:04:29,400 --> 00:04:32,000
+Então novamente que o nosso código.
+
+52
+00:04:32,190 --> 00:04:39,790
+Você vai ver que ele vai achar uma loja Nelita eu vou cortar 2 3 entre 4 8 9.
+
+53
+00:04:39,960 --> 00:04:42,780
+O resultado vai ser 2 3 4 8 9.
+
+54
+00:04:42,780 --> 00:04:44,070
+Tudo junto claramente.
+
+55
+00:04:44,440 --> 00:04:55,470
+Mas não temos um valor numérico aqui não posso criar um W chamado aqui numero recebe W e aí a função
+
+56
+00:04:55,470 --> 00:05:01,770
+que a gente vai usar para transformar uma string em um valor lógico da ABL vai ser Passion da.
+
+57
+00:05:01,770 --> 00:05:08,940
+Da mesma forma que eu tenho inveja ponto paciente choque ponto Passos Jorge eu tenho o diabo ponto passe
+
+58
+00:05:08,960 --> 00:05:09,730
+W.
+
+59
+00:05:09,810 --> 00:05:14,170
+Aqui eu vou passar o valor do primeiro valor.
+
+60
+00:05:14,190 --> 00:05:21,770
+Ponto e Vírgula posso duplicar isso e colocar aqui número 2 a série Halo 2 e finalmente eu tenho a soma
+
+61
+00:05:21,780 --> 00:05:24,840
+posso criar aqui uma outra variável.
+
+62
+00:05:24,840 --> 00:05:35,850
+Por exemplo só recebe um número mais número 2 posso exibir o valor da soma.
+
+63
+00:05:35,850 --> 00:05:42,590
+Então por exemplo colocar um estilete real só que o valor de soma.
+
+64
+00:05:42,810 --> 00:05:51,720
+E finalmente eu posso colocar a média e é pego somente dividido por 2.
+
+65
+00:05:52,080 --> 00:06:01,200
+Então pra ver qual o Estado que vai dar retorno nós temos aqui o valor 7 8 9 e a nota do aluno por exemplo
+
+66
+00:06:01,200 --> 00:06:02,640
+8 pontos 3.
+
+67
+00:06:02,640 --> 00:06:11,790
+A média final dele é a soma de 16 pontos 20 e a média deu 8 pontos dá certo oportuno e aí já cabe uma
+
+68
+00:06:11,790 --> 00:06:13,610
+observação importante.
+
+69
+00:06:13,620 --> 00:06:17,170
+é certo que às vezes alguns alunos se confundem com isso.
+
+70
+00:06:17,400 --> 00:06:21,520
+Você percebe que houve um problema de precisão na linguagem Java.
+
+71
+00:06:21,650 --> 00:06:22,420
+Ok.
+
+72
+00:06:22,570 --> 00:06:31,980
+Porque deu resultado que 16 pontos 20 0 0 0 0 1 3 1 lá no final outra coisa 8 contra 10 e no final deu
+
+73
+00:06:31,980 --> 00:06:39,240
+um aqui no final de imprecisão e isso é extremamente normal isto é muito comum acontecer nas linguagens
+
+74
+00:06:39,990 --> 00:06:42,220
+os dois valores que eu visitei foram e isso está.
+
+75
+00:06:42,570 --> 00:06:49,820
+Eu vou pagar aqui por exemplo Abril °0 vou usar outra linguagem só pra mostrar pra vocês aqui no Brasil
+
+76
+00:06:49,980 --> 00:06:58,590
+o Coca que abriu o Chrome vou abrir uma nova janela do Chrome e trazer pra cá e vou minimizar a janela
+
+77
+00:06:58,590 --> 00:07:01,020
+que isso não vai ficar aqui.
+
+78
+00:07:01,070 --> 00:07:02,840
+Precisa não colocar aqui mesmo.
+
+79
+00:07:02,940 --> 00:07:09,070
+Então vou abrir aqui o console e desenvolvedor certo e colocar no time um console por maximizar aqui
+
+80
+00:07:09,080 --> 00:07:15,150
+pra ficar bem claro para vocês que queriam colocar aqui o console e controles que não achava certo e
+
+81
+00:07:15,150 --> 00:07:20,640
+vou somar 9 7 quanto 9 8 3 o resultado vai dar 16.
+
+82
+00:07:20,640 --> 00:07:22,860
+Ponto 2 0 0 0 0 3.
+
+83
+00:07:22,860 --> 00:07:26,830
+Ou seja exatamente o mesmo resultado que aconteceu em Java.
+
+84
+00:07:26,880 --> 00:07:34,950
+Estranho ou não é estranho na verdade o que acontece é que existem várias técnicas e vários algoritmos
+
+85
+00:07:34,950 --> 00:07:41,940
+para você construir essa lógica de como dentro da linguagem de programação é feito a soma de números.
+
+86
+00:07:41,940 --> 00:07:48,540
+Existe uma lógica binária por trás e um algoritmo por trás que tem um todo especificação em cima disso
+
+87
+00:07:48,540 --> 00:07:55,060
+se as linguagens usasse um algoritmo que trai cem por cento de precisão nos números.
+
+88
+00:07:55,230 --> 00:07:59,920
+Esse tipo de operação é muito mais lenta dentro do computador.
+
+89
+00:08:00,330 --> 00:08:05,600
+Usando esse algorítimo que é padrão por quase todas as linguagens que algoritmos bem mais rápido que
+
+90
+00:08:05,610 --> 00:08:09,340
+algo interno da linguagem não é mais que traz esse nível de precisão.
+
+91
+00:08:09,450 --> 00:08:15,360
+Boa parte das linguagens prefere perder um pouquinho na precisão aqui do que tem um algoritmo muito
+
+92
+00:08:15,360 --> 00:08:22,770
+mais fluido é mais ou trabalhe num sistema de banco e o sistema de banco ele precisa de um nível de
+
+93
+00:08:22,770 --> 00:08:28,430
+precisão muito grande tal e eu tenho que realmente ter um nível de precisão Exato.
+
+94
+00:08:28,500 --> 00:08:32,650
+Então nesse caso você pode usar um cara chamado de BI decimal.
+
+95
+00:08:33,130 --> 00:08:40,560
+O Big décimo se ele não é por padrão disponível no Java o leigo está dentro de Java ponto mas ponto
+
+96
+00:08:40,560 --> 00:08:41,440
+B e décimo.
+
+97
+00:08:41,460 --> 00:08:47,850
+Esse cara vai te dar o estado que você quer com precisão que você precisa mas por padrão como a maioria
+
+98
+00:08:47,850 --> 00:08:53,810
+das pessoas não estão preocupadas com o nível de precisão de não sei quantas casas decimais aqui pq
+
+99
+00:08:53,820 --> 00:09:01,800
+se você arredondar você vai ter um resultado preciso estar correto 7 8 9 8 3 da 8 contudo esse nível
+
+100
+00:09:01,800 --> 00:09:06,140
+de imprecisão que para a maioria das pessoas não vai causar nenhum problema.
+
+101
+00:09:06,210 --> 00:09:12,660
+Então é possível que você prefira ter um código muito mais rápido que traga esse nível de imprecisão
+
+102
+00:09:12,660 --> 00:09:19,050
+muito baixo do que você tem mas execução seja precisa e algumas situações algumas vezes dependendo do
+
+103
+00:09:19,050 --> 00:09:24,700
+nível de aprenda a operação melhor dizendo você vai ter um Estado preciso certo.
+
+104
+00:09:24,720 --> 00:09:26,320
+Aqui já deu resultado precisa.
+
+105
+00:09:26,670 --> 00:09:32,730
+Já 8 ponto 3 o resultado não dá preciso então depende inteiramente da própria linguagem não é tanto
+
+106
+00:09:33,060 --> 00:09:37,980
+uma questão específica do Java mas se você fala em outras linguagens você vai enfrentar essa mesma questão
+
+107
+00:09:38,340 --> 00:09:41,370
+seja acabei falando de outra execução mas também é importante.
+
+108
+00:09:41,370 --> 00:09:43,120
+às vezes vão surgindo algumas coisas.
+
+109
+00:09:43,120 --> 00:09:48,480
+é importante a gente falar mais o foco dessa aula há exatamente o passe da ABL da mesma forma que o
+
+110
+00:09:48,480 --> 00:09:55,100
+foco da aula passada foi ter falado estranho certo você tem um gostinho para converter de número pra
+
+111
+00:09:55,100 --> 00:09:57,650
+Astrid tanto o valor primitivo.
+
+112
+00:09:57,650 --> 00:10:04,110
+Também dá pra ser convertido mas não atacam pouco diretamente na variável e sim usando o lápis.
+
+113
+00:10:04,110 --> 00:10:10,810
+Muita gente já estaria passando mal ou primitivo dá certo na sala mostrei o passe da Lua passando Astrid.
+
+114
+00:10:11,060 --> 00:10:14,980
+E obviamente se você colocar o valor errado certo.
+
+115
+00:10:15,030 --> 00:10:19,890
+Se eu colocar um valor que não é um estímulo que você vai ver que ele vai gerar um problema e não vai
+
+116
+00:10:19,890 --> 00:10:24,630
+conseguir converter porque a gente não está tratando os erros por enquanto mais essa é uma questão que
+
+117
+00:10:24,630 --> 00:10:26,820
+eu vou abordar mais na frente como eu falei anteriormente.

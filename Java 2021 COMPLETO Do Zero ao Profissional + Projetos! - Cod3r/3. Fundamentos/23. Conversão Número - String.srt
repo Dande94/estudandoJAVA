@@ -1,0 +1,243 @@
+1
+00:00:00,170 --> 00:00:06,030
+Pessoal embora eu tenha falado já em outro exercício a conversão entre chips numéricos para a histria
+
+2
+00:00:06,030 --> 00:00:11,640
+em que histria e para tipos numéricos nessa aula na próxima eu vou falar sobre isso para deixar um pouco
+
+3
+00:00:11,640 --> 00:00:14,410
+mais estruturado para que você possa ter um exercício.
+
+4
+00:00:14,410 --> 00:00:20,700
+Especificamente sobre isso até porque você converter texto e número um número em texto é algo bastante
+
+5
+00:00:20,700 --> 00:00:24,890
+recorrente que pode no dia a dia você precisar é tão importante.
+
+6
+00:00:24,900 --> 00:00:31,630
+Também tem esse recurso aí na sua e na sua o canivete suíço dentro da linguagem de programação Java
+
+7
+00:00:31,680 --> 00:00:36,940
+estavam aptos para isso mas vamos criar uma nova classe e não dessa classe.
+
+8
+00:00:37,020 --> 00:00:38,500
+Será conversão.
+
+9
+00:00:38,520 --> 00:00:44,610
+Primeiro vou fazer número pra histria e o conversor mais simples usando um método chamado de hosting
+
+10
+00:00:44,610 --> 00:00:48,390
+tem algumas técnicas diferentes vou mostrar ao mundo essas técnicas na sala.
+
+11
+00:00:48,420 --> 00:00:56,040
+Então inicialmente eu vou definir uma variável inteira só que usando a classe o lápis e o inteligente.
+
+12
+00:00:56,370 --> 00:01:04,190
+Então vou definir uma variável chamada número 1 recebe o valor das mil e vou a pagar esse valor 10 mil
+
+13
+00:01:04,190 --> 00:01:07,370
+e converter para um valor do tipo string é muito simples.
+
+14
+00:01:07,390 --> 00:01:14,400
+Já viu isso dentro de nós temos uma série de funcionalidades à nossa disposição a partir do momento
+
+15
+00:01:14,400 --> 00:01:22,140
+que a gente usa a notação contou que usar usando ponto extra ele vai converter esse valor inteiro para
+
+16
+00:01:22,230 --> 00:01:26,080
+valores trimestrais e tal resultado é 10 mil.
+
+17
+00:01:26,100 --> 00:01:31,230
+Tanto faz você colocar um vestido ou não colocar nesse contexto ele mais exatamente a mesma coisa.
+
+18
+00:01:31,230 --> 00:01:37,020
+Mais uma vez que você tem agora um estranho você pode se beneficiar de funcionalidades que só estão
+
+19
+00:01:37,020 --> 00:01:44,760
+disponíveis dentro da TRIM como é o caso do link pra você saber a quantidade de caracteres que pertencem
+
+20
+00:01:45,120 --> 00:01:46,060
+a essa strings.
+
+21
+00:01:46,230 --> 00:01:52,980
+Então a máquina temos o número usando cinco caracteres e pra descobrir isso a gente usou o leve que
+
+22
+00:01:52,980 --> 00:02:00,450
+é uma função que está presente na histria e não no número certo então só está la com isso ao tentar
+
+23
+00:02:00,450 --> 00:02:06,780
+acessar isso diretamente coloca assim você vai ver que não é possível porque o livro não está disponível
+
+24
+00:02:07,200 --> 00:02:11,480
+dentro do Inter ascético e muito menos dentro do que é um valor.
+
+25
+00:02:11,610 --> 00:02:13,020
+Conforme a gente viu.
+
+26
+00:02:13,140 --> 00:02:17,120
+Ele não tem nenhuma funcionalidade associada ao permitir apenas o valor.
+
+27
+00:02:17,160 --> 00:02:25,180
+Outra questão outra forma que você tem também de converter um número pra igualou estaria usando diretamente
+
+28
+00:02:25,180 --> 00:02:25,960
+com Inter.
+
+29
+00:02:26,160 --> 00:02:32,220
+E aí nesse caso você pode ter uma variável do tipo primitivo aqui no caso tem um nome variável usando
+
+30
+00:02:32,220 --> 00:02:32,730
+o app.
+
+31
+00:02:32,730 --> 00:02:38,160
+Aqui ele tem uma variável usando um tipo primitivo conforme a gente já tinha visto anteriormente.
+
+32
+00:02:38,160 --> 00:02:42,010
+Nesse caso também pode usar a função que os.
+
+33
+00:02:42,030 --> 00:02:48,450
+Só que indiretamente muita gente sem necessariamente ser a função de o e a parte da variável.
+
+34
+00:02:48,450 --> 00:02:49,880
+Como é que funciona isso.
+
+35
+00:02:50,010 --> 00:02:57,300
+Se eu colocar um ponto de Histria eu posso passar um número dois pra ser convertido para extinguir se
+
+36
+00:02:57,390 --> 00:03:04,750
+eu consigo converter um valor primitivo pra uns 30 32 deixe que eu chamo diretamente do tipo que é inteligente
+
+37
+00:03:05,070 --> 00:03:11,490
+eu definiu o inteligente de número 1 e a partir do momento que não eram do tipo Inter hoje eu consigo
+
+38
+00:03:11,490 --> 00:03:13,350
+fazer numero 1 ponto string.
+
+39
+00:03:13,770 --> 00:03:20,640
+Nesse caso usamos diretamente o tipo a gente conseguiu colocar muita gente ponto estaria passando um
+
+40
+00:03:20,640 --> 00:03:23,800
+valor primitivo no caso aqui 100 mil.
+
+41
+00:03:23,880 --> 00:03:25,910
+Isso vai funcionar da mesma forma.
+
+42
+00:03:26,050 --> 00:03:33,420
+Você vai ver que ele converteu e da mesma forma eu consigo também colocar um ponto e aqui para ver o
+
+43
+00:03:33,420 --> 00:03:36,940
+tamanho já que eu tenho a partir disso também tenho uns 30.
+
+44
+00:03:36,950 --> 00:03:42,630
+Nesse caso eu tenho um número de seis dígitos aqui eu tenho um número de cinco dígitos e Pra terminar
+
+45
+00:03:42,630 --> 00:03:49,330
+eu falei pra vocês mesmo você tendo um valor tanto primitivo na verdade Sixteen Alt.
+
+46
+00:03:49,440 --> 00:03:56,470
+Aqui se tem algum parente ali mesmo você tem um valor primitivo ou um valor do tipo rapá.
+
+47
+00:03:56,520 --> 00:04:03,390
+Se você fizer algo o que não é muito interessante eu acho que é um artifício tecnológico que não não
+
+48
+00:04:03,390 --> 00:04:04,200
+cabe aqui né.
+
+49
+00:04:04,230 --> 00:04:10,670
+Você converteu o número pra uns 30 concatenar com estilo base e a partir disso você tem o f aqui o Java
+
+50
+00:04:10,710 --> 00:04:17,730
+sabe ele tem consciência de que essa operação vai gerar um valor do tipo distrital você consegue também
+
+51
+00:04:17,730 --> 00:04:24,180
+ter um leve tanto funcionando em Salvador aqui também pode funcionar no caso diretamente com um tipo
+
+52
+00:04:24,450 --> 00:04:26,400
+primitivo como seu duplicado.
+
+53
+00:04:26,490 --> 00:04:30,350
+Essa linha aqui eu consigo também pagar alguns números.
+
+54
+00:04:30,670 --> 00:04:36,570
+Eu tenho a mesma coisa sonora eu consigo tanto converter o número PRA ESSE TIMINHO usa a nova funcionalidade
+
+55
+00:04:37,680 --> 00:04:45,030
+como também aqui maximiza a tela pra ficar aparecendo como eu também consigo diretamente do engenheiro
+
+56
+00:04:45,090 --> 00:04:53,200
+da mesma coisa vai acontecer algo nessa você coloca aquilo lá onde ponto extremo você vai passar logo
+
+57
+00:04:53,280 --> 00:05:06,030
+você vai ter também a mesma coisa pra dar bom ponto string certo você vai ter um choque de choque contra
+
+58
+00:05:06,380 --> 00:05:12,140
+o distritão isso vai acontecer não apenas para muita gente mas também para os outros tipos que a gente
+
+59
+00:05:12,210 --> 00:05:14,610
+mencionou em alguns alas laterais.
+
+60
+00:05:14,610 --> 00:05:20,730
+E você também vai conseguir fazer essa conversão para extinguir ou seja o número para este vídeo usando
+
+61
+00:05:20,730 --> 00:05:22,910
+a concatenação de casa que é o símbolo do.

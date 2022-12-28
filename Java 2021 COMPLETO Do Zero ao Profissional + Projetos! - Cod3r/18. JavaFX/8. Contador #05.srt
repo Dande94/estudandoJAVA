@@ -1,0 +1,215 @@
+1
+00:00:00,230 --> 00:00:07,350
+Quando a pessoa quer que eu vou fazer agora eu vou criar um outro método que vai nos ajudar a atualizar
+
+2
+00:00:07,440 --> 00:00:14,270
+o leigo não apenas no que diz respeito ao valor do leilão mas também no que diz respeito ao estilo que
+
+3
+00:00:14,420 --> 00:00:14,950
+aplicado.
+
+4
+00:00:14,960 --> 00:00:19,870
+Faz o seguinte eu vou criar um metro que vai ser um metro privado proibidos.
+
+5
+00:00:20,100 --> 00:00:22,830
+Não vai retornar nada e o nome do Metro será
+
+6
+00:00:25,370 --> 00:00:32,550
+atualizado o número.
+
+7
+00:00:32,760 --> 00:00:38,790
+Esse método aqui vai servir o próprio Leblon passa aqui o Leblon.
+
+8
+00:00:39,130 --> 00:00:46,290
+Eu até poderia colocar o Leblon no número como sendo uma variável de instância diretamente na classe
+
+9
+00:00:46,320 --> 00:00:50,240
+como eu poderia fazer isso levou o título para os outros elementos.
+
+10
+00:00:50,660 --> 00:00:57,280
+Mas nesse caso eu preferi passar como parâmetro então leigo e aqui dentro que eu vou fazer.
+
+11
+00:00:57,360 --> 00:01:00,810
+Eu vou pegar um contador e vou.
+
+12
+00:01:00,870 --> 00:01:03,500
+Na verdade eu preciso saber se vai entrar mental do Sacramento.
+
+13
+00:01:03,500 --> 00:01:11,160
+Não vou fazer isso aqui não vou simplesmente chamar o Leblon vou pagar sabia que era o valor de Contador
+
+14
+00:01:11,220 --> 00:01:14,180
+que essa linha está duplicada nos dois exercícios.
+
+15
+00:01:14,790 --> 00:01:21,630
+Então aqui eu também tinha essa linha duplicada então em vez de fazer isso aqui eu vou chamar o método
+
+16
+00:01:22,040 --> 00:01:31,400
+atualizar Leblon e vou passar aqui o tempo inteiro e vou fazer a mesma coisa aqui embaixo.
+
+17
+00:01:31,470 --> 00:01:36,540
+Ver se continua a funcionar a pólis a lei bom número passe o leigo.
+
+18
+00:01:36,690 --> 00:01:43,020
+Ver aqui a verdade lembrando que isso pegam o nome do parâmetro que simplesmente estudei.
+
+19
+00:01:43,230 --> 00:01:45,280
+Isso só prova estar funcionando ainda.
+
+20
+00:01:45,710 --> 00:01:49,880
+E eu concentrar tudo num único metro duplicado.
+
+21
+00:01:50,120 --> 00:01:53,490
+Continuo atualizando por lei vou sem problema nenhum.
+
+22
+00:01:53,490 --> 00:02:00,990
+A primeira coisa que eu vou fazer depois que atualizar aqui o texto do leigo é que eu vou pegar o seguinte
+
+23
+00:02:01,210 --> 00:02:12,540
+lei do estïœo claras quanto remover ou remover tanto a classe B pode ser que não tem.
+
+24
+00:02:12,590 --> 00:02:20,580
+Não tem problema em meu ver não tiver e vou remover o vermelho para limpar digamos assim qualquer estilo
+
+25
+00:02:20,580 --> 00:02:25,740
+que eu tenha colocado pra daí um objeto que eu garanto que não tememos o verde nem o vermelho.
+
+26
+00:02:25,800 --> 00:02:32,500
+Eu vou usar o número pra como critério para dizer se ele usar um ou outro se o número.
+
+27
+00:02:32,760 --> 00:02:43,370
+Na verdade o contador e contador maior do que zero significa que eu vou colocar um bom Bad estïœo Class
+
+28
+00:02:43,830 --> 00:02:47,460
+ou adicionar o verde.
+
+29
+00:02:47,490 --> 00:02:54,570
+Caso contrário se o contador for menor do que fizeram.
+
+30
+00:02:54,850 --> 00:03:05,360
+Aí ele baixou na mesma coisa só aqui a classe média está bem melhor que qualquer vermelha em verde e
+
+31
+00:03:05,380 --> 00:03:06,470
+vermelho.
+
+32
+00:03:06,710 --> 00:03:09,440
+Tanto faz falta aqui.
+
+33
+00:03:09,540 --> 00:03:15,880
+Vermelho significa que esse formato reserva de Cabo Verde se for menor do que zero acaba vermelho mesmo
+
+34
+00:03:15,900 --> 00:03:23,280
+se fosse zero não vai ter nem um clássico nem outro porque ao remover as duas classes aqui eu criei
+
+35
+00:03:23,280 --> 00:03:29,490
+um único método pra chamar aqui não clique no botão não ter que me preocupar com o código aplicado nas
+
+36
+00:03:29,490 --> 00:03:30,960
+duas chamadas que eu estou chamando.
+
+37
+00:03:30,960 --> 00:03:33,110
+Esse método duas vezes.
+
+38
+00:03:33,210 --> 00:03:36,210
+Então pra gente testar uma está funcionando.
+
+39
+00:03:36,410 --> 00:03:48,170
+Vou mostrar que ele está Branquinho que eu colocar ele com o verde e se eu diminuí continua zero branquinho
+
+40
+00:03:48,660 --> 00:03:50,670
+e menos vermelho.
+
+41
+00:03:50,720 --> 00:03:56,280
+De tal forma que agora tenho a aplicação do Chile condicional de acordo com uma determinada variável
+
+42
+00:03:56,720 --> 00:03:57,480
+no meu sistema.
+
+43
+00:03:57,480 --> 00:04:02,990
+Se ela tiver o valor positivo que eu disto é um valor negativo.
+
+44
+00:04:03,000 --> 00:04:04,230
+Fica vermelha.
+
+45
+00:04:04,370 --> 00:04:10,800
+Baseado na lógica que eu defini aqui dentro desse método você pode criar um método com o nome diferente.
+
+46
+00:04:10,800 --> 00:04:16,300
+Você pode não necessariamente colocar toda essa lógica aqui dentro só parte por exemplo do estilo de
+
+47
+00:04:16,380 --> 00:04:18,450
+aplicar estilo no lema numérico.
+
+48
+00:04:18,450 --> 00:04:24,990
+Você pode ter os elementos como variáveis de instância então tem outras estratégias para fazer esse
+
+49
+00:04:24,990 --> 00:04:31,180
+mesmo exercício mas só mostrando pra vocês aí algumas as possibilidades com relação aos Java Express
+
+50
+00:04:31,650 --> 00:04:37,350
+e principalmente nesse exercício eu quis mostrar pra vocês Como aplicar estilo nos elementos visuais
+
+51
+00:04:37,350 --> 00:04:39,600
+do Java Flex usando o CSS.
+
+52
+00:04:39,660 --> 00:04:45,000
+Então nos próximos exemplos que a gente vai construir eu vou também usar esses recursos que nós aprendemos
+
+53
+00:04:45,000 --> 00:04:45,470
+aqui.
+
+54
+00:04:45,720 --> 00:04:50,750
+Eu espero na próxima aula para mais exercícios ainda no nosso capítulo de Java flex e para lá.

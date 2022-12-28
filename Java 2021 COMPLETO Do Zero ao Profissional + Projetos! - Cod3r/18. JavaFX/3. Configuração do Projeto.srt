@@ -1,0 +1,707 @@
+1
+00:00:00,130 --> 00:00:05,730
+Pronto agora que a gente já configurou a nossa biblioteca de usuário nós vamos criar o projeto para
+
+2
+00:00:05,730 --> 00:00:11,820
+que a gente possa usar o Java Flex pela primeira vez mostrando aqui a tela que eu vou clicar com o botão
+
+3
+00:00:11,820 --> 00:00:16,320
+direito para criar um novo projeto então uniu Java Project.
+
+4
+00:00:16,380 --> 00:00:22,510
+O nome do projeto vai ser exercícios traço Java e flex.
+
+5
+00:00:22,860 --> 00:00:29,750
+Nesse caso vou selecionar filmes se ele vai bem para criar um módulo eu vou criar um modo tracei exercícios
+
+6
+00:00:30,170 --> 00:00:31,180
+FX.
+
+7
+00:00:31,530 --> 00:00:32,910
+Então vou colocar aqui.
+
+8
+00:00:33,160 --> 00:00:37,730
+Ele vai criar um novo projeto com um arquivo módulo e traço um ponto Java.
+
+9
+00:00:37,860 --> 00:00:44,760
+Nosso projeto como outros projetos que a gente criou anteriormente nós temos acesso ao Jota e System
+
+10
+00:00:44,790 --> 00:00:47,500
+Library ou seja a própria API do Java.
+
+11
+00:00:47,520 --> 00:00:54,370
+Nós vamos precisar agora adicionar nosso projeto ou clicar com o botão direito BID e eu vou selecionar
+
+12
+00:00:54,380 --> 00:01:00,690
+aqui outra opção para configurar o vídeo que ficam clicando aqui e eu vou selecionar não em projetos
+
+13
+00:01:00,810 --> 00:01:03,910
+vou selecionar aqui nessa opção chamada Library.
+
+14
+00:01:04,050 --> 00:01:12,470
+A gente já tem associada ao módulo iPad o JRS System Laborinho ou seja no caso aqui o Java C 12 ou 13
+
+15
+00:01:12,490 --> 00:01:19,210
+também tem um trecho configurado mas nesse caso o que está com 12 e eu vou clicar aqui para ele adicionar
+
+16
+00:01:19,420 --> 00:01:25,660
+e usar lá ou então adicioná la Grey e nós vamos selecionar aquilo e usá la.
+
+17
+00:01:25,800 --> 00:01:31,340
+Ele vai mostrar todas as bibliotecas de usuário que nós configuram Amos dentro desse país.
+
+18
+00:01:31,350 --> 00:01:37,350
+No caso só tem uma biblioteca configurado que é o Java FX 13 e foi a biblioteca que a gente configurou
+
+19
+00:01:37,350 --> 00:01:38,960
+na aula passada finalizar.
+
+20
+00:01:39,570 --> 00:01:45,780
+Ou seja acabei de chamar uma biblioteca de usuário que eu criei e eu coloquei associada ao módulo e
+
+21
+00:01:45,850 --> 00:01:52,290
+ou pra eu conseguir usar o Java e feito eu preciso definir quais dentro do módulo.
+
+22
+00:01:52,680 --> 00:01:58,430
+Então fiz aqui o aplicativo agora que a minha disposição tanto o Java como o Java Flex.
+
+23
+00:01:58,800 --> 00:02:01,990
+Então nós vamos criar aqui um novo arquivo falho.
+
+24
+00:02:02,690 --> 00:02:07,440
+Eu vou chamar esse aqui lá primeiro.
+
+25
+00:02:07,980 --> 00:02:19,190
+Primeiro FX só ser nosso primeiro programa em Java e Flex dentro do pacote básico e antes de usar as
+
+26
+00:02:19,190 --> 00:02:26,400
+coisas do Java e Flex eu vou precisar fazer com que essa classe estenda um cara chamado application
+
+27
+00:02:26,650 --> 00:02:28,980
+para você procurar que o Application.
+
+28
+00:02:29,010 --> 00:02:35,430
+Eu só tenho um application que é com ponto ou ponto e a W tem que não é a classe que estou querendo
+
+29
+00:02:35,430 --> 00:02:36,110
+agendar.
+
+30
+00:02:36,340 --> 00:02:41,860
+Então pra gente conseguir isso eu tenho que entrar aqui dentro de Módulo II e fazer o seguinte só sei
+
+31
+00:02:42,070 --> 00:02:49,910
+quais Java FX ponto ele vai me achar todos os que estão disponíveis para a gente eu vou selecionar aqui
+
+32
+00:02:49,980 --> 00:02:52,280
+Controls ponto e vírgula.
+
+33
+00:02:52,280 --> 00:02:58,220
+Então quero requerer Java Flex Controls pronto a partir do momento que ele define o que requeiram o
+
+34
+00:02:58,230 --> 00:03:03,200
+Java Flex ponto contra o uso eu tenho a possibilidade de importar o Application.
+
+35
+00:03:03,810 --> 00:03:10,830
+Além de aparecer o que estava aparecendo antes né apareceu também ao Java FX ponto Application exatamente
+
+36
+00:03:10,950 --> 00:03:15,690
+esse sujeito nessa classe que eu quero fazer a herança.
+
+37
+00:03:15,690 --> 00:03:21,150
+Uma vez feito isso ele exige que tenha um método implementado ele está dizendo o seguinte sou o tipo
+
+38
+00:03:21,150 --> 00:03:28,260
+o primeiro é flex deve implementar um método chamado Start quando eu colocar aqui pra ele completar
+
+39
+00:03:28,320 --> 00:03:29,170
+Estate.
+
+40
+00:03:29,340 --> 00:03:34,290
+Dá uma olhada no nome do parâmetro não estavam em nome do parâmetro que algo está aí.
+
+41
+00:03:34,320 --> 00:03:41,820
+Ele só detectou que o nome do parâmetro era mera extenso porque eu importei o código fonte a partir
+
+42
+00:03:41,820 --> 00:03:46,860
+do código fonte ele tem acesso a algumas informações a mais como por exemplo o nome dos parâmetros então
+
+43
+00:03:46,860 --> 00:03:53,760
+quando eu fizer para ele implementar esse método automaticamente ele já traz o nome do atributo que
+
+44
+00:03:53,760 --> 00:03:59,490
+foi definido lá no código fonte do Java FX e se você não importar o código fonte o que vai acontecer
+
+45
+00:03:59,490 --> 00:04:03,410
+aqui ele vai colocar alguma coisa aqui zero.
+
+46
+00:04:03,410 --> 00:04:08,790
+Por exemplo certa ele vai colocar como se fosse um nome genérico e não o nome que foi definido lá na
+
+47
+00:04:08,790 --> 00:04:09,590
+documentação.
+
+48
+00:04:09,590 --> 00:04:12,360
+Esse é uma das coisas interessantes que você pode ter.
+
+49
+00:04:12,360 --> 00:04:19,400
+Além disso você consegue acessar o código fonte colocando o Command ou Control com um clique do mouse.
+
+50
+00:04:19,410 --> 00:04:26,220
+No caso do Mac ele como no caso do Windows e Linux com controle você sabe que segura a tecla clica ele
+
+51
+00:04:26,220 --> 00:04:28,130
+vai mostrar pra você o código fonte.
+
+52
+00:04:28,320 --> 00:04:33,240
+Ou seja pra quem está desenvolvendo para quem está aprendendo a tecnologia interessante tem acesso ao
+
+53
+00:04:33,240 --> 00:04:38,760
+código fonte às vezes para tirar alguma dúvida de comportamento tal não que seja necessário.
+
+54
+00:04:38,760 --> 00:04:42,210
+Você está lendo o código fonte mas às vezes pode ser bom.
+
+55
+00:04:42,220 --> 00:04:48,660
+Toda vez que configurado existe um conceito no Java e Flex que eu vou tentar explicar um pouco mais
+
+56
+00:04:48,660 --> 00:04:55,280
+detalhado durante o capítulo que é o conceito de estar X no conceito de sim de Senna.
+
+57
+00:04:55,300 --> 00:05:02,100
+Imagine teatro no teatro e tem esteja ele pode ter até mais um esteja bem traduzido para o português
+
+58
+00:05:02,100 --> 00:05:06,270
+seria palco dentro de um palco imaginando uma peça de teatro.
+
+59
+00:05:06,270 --> 00:05:11,670
+Você vai ter diferentes cenas você vai até a abertura da peça vai ter uma cena no meio.
+
+60
+00:05:11,670 --> 00:05:14,430
+Vai ter um drama vai ter depois sei lá um assassinato.
+
+61
+00:05:14,430 --> 00:05:17,640
+Depois vem o policial e tenta descobrir quem foi que matou.
+
+62
+00:05:17,760 --> 00:05:22,410
+Ou seja uma peça de teatro que está acontecendo em cima de um palco de um Estado.
+
+63
+00:05:22,440 --> 00:05:30,060
+Ela vai ter várias cenas então ele usa essa metáfora digamos assim de palco e de cenas pra também trabalhar
+
+64
+00:05:30,060 --> 00:05:31,910
+dentro do filme que já havia feito.
+
+65
+00:05:31,920 --> 00:05:36,140
+Você tem um três significa a tela certo.
+
+66
+00:05:36,450 --> 00:05:43,210
+E dentro dessa tela da sua janela você pode ter diferentes configurações em diferentes cenas para mostrar
+
+67
+00:05:43,210 --> 00:05:45,030
+aos seus componentes visuais.
+
+68
+00:05:45,290 --> 00:05:52,530
+Então basicamente ele usa essa analogia pra você definir o que seria uma cena o que seria por exemplo
+
+69
+00:05:53,010 --> 00:05:54,350
+um de São Paulo.
+
+70
+00:05:54,360 --> 00:05:57,600
+Você recebe a priori no momento que cria uma aplicação.
+
+71
+00:05:57,600 --> 00:06:03,870
+O palco principal que seria o primeiro esteja em cima desses três você consegue colocar quantas cenas
+
+72
+00:06:03,870 --> 00:06:04,700
+você quiser.
+
+73
+00:06:04,710 --> 00:06:10,980
+Claro que uma cena estará sendo apresentada poucas vezes mas você pode trocar as cenas eu vou mostrar
+
+74
+00:06:10,980 --> 00:06:14,280
+isso nos exemplos pra tornar esse programa mais.
+
+75
+00:06:14,280 --> 00:06:19,520
+A gente precisa ter o método Man como qualquer outro exercício que a gente fez até então.
+
+76
+00:06:19,810 --> 00:06:26,510
+E aqui existe um método especial que eu recebi por herança de application que é o método Launch Beta
+
+77
+00:06:26,550 --> 00:06:30,060
+que lado passando usar isso como parâmetro.
+
+78
+00:06:30,060 --> 00:06:39,450
+Com isso ele vai executar essa aplicação se você fizer que esteja pronto o show ele já vai executar
+
+79
+00:06:39,450 --> 00:06:45,230
+mais alguns probleminhas eu vou resolver com vocês aqui durante a execução então vai executar.
+
+80
+00:06:45,300 --> 00:06:52,110
+Aqui a gente ver o primeiro problema ele vai gerar uma recessão então vai tentar resolver o problema
+
+81
+00:06:52,230 --> 00:06:59,220
+aqui na prática então mas a primeira coisa que vai acontecer você vai perceber que nada vai acontecer
+
+82
+00:06:59,340 --> 00:07:02,280
+quando você clicar a aplicação vai inicializar.
+
+83
+00:07:02,280 --> 00:07:04,980
+Vai ficar inclusive o nome Java aqui em cima.
+
+84
+00:07:04,980 --> 00:07:11,220
+Você vai perceber que esse botãozinho de parar vai ficar vermelho e não apareceu tela não apareceu absolutamente
+
+85
+00:07:11,220 --> 00:07:18,750
+nada então vou pausar aqui e uma vez que você fez a execução se você clicar aqui do lado do botão verdinho
+
+86
+00:07:18,750 --> 00:07:20,500
+tem um sétimo para baixo.
+
+87
+00:07:20,910 --> 00:07:28,350
+Quando você clica ele mostra todos os exercícios e todas as classes que tem um método em que foram executados
+
+88
+00:07:28,350 --> 00:07:34,350
+ou pelo menos algumas classes nas últimas dez classes que foram executados aqui no eclipse que tem o
+
+89
+00:07:34,350 --> 00:07:35,330
+método Men.
+
+90
+00:07:35,490 --> 00:07:41,520
+A última é exatamente o último exercício que nós clicamos agora que é o primeiro flex se você vem aqui
+
+91
+00:07:41,520 --> 00:07:42,660
+ou é o ramo.
+
+92
+00:07:42,660 --> 00:07:45,630
+Se você clicar aqui de novo ele vai executar novamente.
+
+93
+00:07:46,170 --> 00:07:50,790
+Então vou pausar se você quiser executar um exemplo passado clicando aqui.
+
+94
+00:07:50,820 --> 00:07:57,070
+Você vai ter por exemplo teste 2 o novo aluno clicando aqui ele vai executar um exercício que a gente
+
+95
+00:07:57,090 --> 00:07:58,380
+desenvolveu anteriormente.
+
+96
+00:07:58,380 --> 00:08:06,030
+Eu vou pausar aqui por 4 e clicar no impacto no meu console e vou clicar na seta para baixo e vou selecionar
+
+97
+00:08:06,140 --> 00:08:15,840
+aquilo Configuration associado ao exemplo que nós executamos naquele primeiro FX aqui associado a ele
+
+98
+00:08:15,900 --> 00:08:24,680
+Você vai entrar na aba argumentos e você vai desmarcar essa opção que e use bem essa Flag aqui menos
+
+99
+00:08:24,680 --> 00:08:26,980
+X está te um asteroide.
+
+100
+00:08:27,060 --> 00:08:29,130
+Clicando aqui ele vai.
+
+101
+00:08:29,160 --> 00:08:35,240
+Agora vou dar um play e vou selecioná lo agora se ele vai executar e vai dar um essa ação.
+
+102
+00:08:35,280 --> 00:08:43,590
+A exceção que deu é que ele não conseguiu fazer uma reflexão no caso o Java FX.
+
+103
+00:08:43,590 --> 00:08:51,150
+Ele precisa fazer uma reflexo em cima dessa classe primeiro FX ou seja dentro do sistema de modo a gente
+
+104
+00:08:51,150 --> 00:08:58,020
+viu que um módulo ele previne que seja feito acesso via reflexo a uma determinada classe A não ser que
+
+105
+00:08:58,020 --> 00:09:05,630
+você use aquela opção ou pense se você abrir por exemplo um pacote está disponível pra ser feito Java
+
+106
+00:09:05,630 --> 00:09:08,400
+e Flash nas classes daquele pacote.
+
+107
+00:09:08,670 --> 00:09:09,750
+Então o que é que eu vou fazer.
+
+108
+00:09:09,890 --> 00:09:16,740
+Eu vou selecionar OpenSSL e Volpi para ele abrir o pacote inteiro no caso o pacote básico.
+
+109
+00:09:17,100 --> 00:09:24,270
+Então com essas duas configurações a primeira configuração a gente entrou em ano Configuration em cima
+
+110
+00:09:24,390 --> 00:09:30,070
+do arquivo e no caso que em cima do primeiro FX que gente executarem argumentos diz.
+
+111
+00:09:30,070 --> 00:09:32,160
+Marcamos essa opção.
+
+112
+00:09:32,160 --> 00:09:37,240
+Ou seja e aí a partir daí nós executamos e depois agora ele abriu.
+
+113
+00:09:37,290 --> 00:09:43,710
+A gente já abriu o pacote básico para permitir que seja feita reflexão dentro das classes do pacote
+
+114
+00:09:43,710 --> 00:09:50,320
+básico porque no caso o Java FX precisa acessar essa classe primeiro FX via Flash.
+
+115
+00:09:50,400 --> 00:09:57,320
+Então por isso a gente colocou aqui ou pense o pacote básico não só para abri o primeiro FX ou outro
+
+116
+00:09:57,330 --> 00:10:04,490
+Java mas outras classes que a gente vai querer ainda nesse mês o pacote básico então aqui a gente pode
+
+117
+00:10:04,490 --> 00:10:13,280
+colocar algumas outras informações por exemplo se eu quiser criar uma cena eu posso criar aqui h vertical
+
+118
+00:10:13,280 --> 00:10:15,480
+box por exemplo.
+
+119
+00:10:15,500 --> 00:10:23,540
+Só pra gente ver aqui vai ser um box aqui eu vou criar um vertical Box posso criar por exemplo um botão.
+
+120
+00:10:23,540 --> 00:10:30,140
+Então botam aqui no caso não é Java ponto a W tem mais Java Flex.
+
+121
+00:10:30,290 --> 00:10:32,450
+Ponto sim ponto controle.
+
+122
+00:10:32,510 --> 00:10:39,030
+Vocês perceberam que a gente importou Apache Control e controle control também traz Application partes
+
+123
+00:10:39,040 --> 00:10:40,480
+de cenas e tal.
+
+124
+00:10:40,700 --> 00:10:53,440
+Então eu vou colocar aqui um botão que botão recebe e eu vou colocar aquilo lá.
+
+125
+00:10:53,460 --> 00:11:03,190
+Nunca passei a aplicar aqui o botão B e C B sei como é bom B e C.
+
+126
+00:11:03,320 --> 00:11:11,060
+Nesse caso aqui como é que eu vou colocar o box para baixo como no vertical ele Bada usar os elementos
+
+127
+00:11:11,060 --> 00:11:12,110
+na vertical.
+
+128
+00:11:12,530 --> 00:11:22,340
+Então eu posso fazer o seguinte ao box to box set tilt do outro adicionar.
+
+129
+00:11:22,390 --> 00:11:33,620
+Aí eu vou colocar um botão ou aplicar mais duas vezes vou adicionar aqui o botão B e o botão C e vou
+
+130
+00:11:33,800 --> 00:11:37,970
+criar uma cena já que eu criei um box que tem três botões.
+
+131
+00:11:37,980 --> 00:11:44,040
+Vou criar uma cena então Sim sim vou colocar aqui lá.
+
+132
+00:11:44,210 --> 00:11:50,760
+Sem na principal senão única ou então simplesmente cena.
+
+133
+00:11:50,800 --> 00:11:59,570
+Aí sim vou passar meu box que tem os componentes do box é um componente que Leal tinha de barba em usar
+
+134
+00:11:59,720 --> 00:12:06,560
+os elementos na vertical assim como um H box vai organizar os elementos na horizontal sempre que você
+
+135
+00:12:06,560 --> 00:12:12,680
+precisar organizar elementos na vertical você usa o reboque sempre que você quiser organizar os componentes
+
+136
+00:12:13,070 --> 00:12:15,560
+na horizontal você usa o H Box.
+
+137
+00:12:15,560 --> 00:12:20,970
+Nesse caso eu passei o boxe para a minha cena e a partir do meu palco né.
+
+138
+00:12:20,980 --> 00:12:27,260
+Meus aí eu você tá com a cena que estará sendo mostrada naquele momento no caso aqui vai ser a minha
+
+139
+00:12:27,890 --> 00:12:28,610
+única cena.
+
+140
+00:12:28,610 --> 00:12:31,940
+Vou colocar para ficar um pouco mais personalizado.
+
+141
+00:12:31,940 --> 00:12:34,880
+A única cena que é a única cena da minha aplicação.
+
+142
+00:12:35,420 --> 00:12:39,790
+Eu vou jogar uma única cena no meu palco principal para esse bi.
+
+143
+00:12:40,020 --> 00:12:43,370
+Então feito isso eu vou executar aqui.
+
+144
+00:12:43,370 --> 00:12:46,350
+Ele vai mostrar os botões na tela.
+
+145
+00:12:46,580 --> 00:12:53,930
+Mostrou que o botão A B e C e eu posso definir por exemplo o tamanho da minha senha não vai ter é um
+
+146
+00:12:53,930 --> 00:13:02,150
+dos parâmetros é a largura e altura vou dizer que a altura vai a largura primeiro vai ser duzentos e
+
+147
+00:13:02,270 --> 00:13:04,110
+a altura vai ser 400.
+
+148
+00:13:04,670 --> 00:13:11,990
+Então para gente ver aqui um tamanho um pouco maior que os três botões A B C e você pode usar algumas
+
+149
+00:13:11,990 --> 00:13:21,180
+propriedades do rei box por exemplo um box ponto set especial por exemplo o espaço que eu quero entre
+
+150
+00:13:21,440 --> 00:13:27,170
+no espaço de 10 polegadas e que está novamente você vai ver que eles não vão estar mais grudados um
+
+151
+00:13:27,170 --> 00:13:30,690
+com o outro colocou um espaço de 10.
+
+152
+00:13:30,710 --> 00:13:34,240
+Eu também posso trabalhar com a parte de alinhamento então Box.
+
+153
+00:13:34,440 --> 00:13:36,570
+Ponto sete alimentos.
+
+154
+00:13:36,590 --> 00:13:43,840
+Então vou usar um pós exposição e um número um a numeração e vou chamar aqui o Centro para me posicionar
+
+155
+00:13:44,120 --> 00:13:48,260
+no meio da tela salvando executando mais uma vez.
+
+156
+00:13:48,710 --> 00:13:54,920
+A gente tem o nosso primeiro exercício em Java e fecha com a tela com os três botões com ela está muito
+
+157
+00:13:54,920 --> 00:13:58,770
+grande deixa diminui um pouco o que eu vou colocar.
+
+158
+00:13:58,820 --> 00:14:05,720
+Sei que eu vou colocar cento e cinquenta pra gente finalizar última execução.
+
+159
+00:14:05,720 --> 00:14:11,330
+A gente viu só mesmo para a gente testar o Java e Flex que está tudo funcionando exceto uns três botões
+
+160
+00:14:11,330 --> 00:14:15,820
+aqui na tela usando o layout de partido ver box.
+
+161
+00:14:15,860 --> 00:14:21,520
+Eu também poderia fazer a mesma coisa colocando um H box ou não bastaria substituir e apagar o box.
+
+162
+00:14:21,530 --> 00:14:28,650
+E aqui eu poderia trocar vendi 650 por R$ 650 e sem tamanho vai funcionar.
+
+163
+00:14:28,730 --> 00:14:36,050
+Só em portal como Shift ou contra o Shift para organizar os impostos e executá lo mais uma vez a última
+
+164
+00:14:36,050 --> 00:14:40,070
+vez para mostrar os três botões A B e C.
+
+165
+00:14:40,100 --> 00:14:46,590
+Nesse caso os botões não estão fazendo absolutamente nada só para pra gente colocar aqui no botão C
+
+166
+00:14:47,120 --> 00:14:48,710
+do set.
+
+167
+00:14:48,830 --> 00:14:56,160
+Ou seja quando acontecer chamem a disputar uma lâmpada sem problema.
+
+168
+00:14:56,160 --> 00:14:57,520
+Quer saber do evento.
+
+169
+00:14:57,860 --> 00:15:04,980
+E aqui eu posso chamar o ponto existe para sair da aplicação passando passamos status zero significa
+
+170
+00:15:04,980 --> 00:15:08,420
+que o botão C agora vai chamar o System pontua.
+
+171
+00:15:08,460 --> 00:15:17,070
+Poderia até colocar isso numa linha só sem necessariamente que a maquininha só vou duplicar para o botão
+
+172
+00:15:17,570 --> 00:15:30,380
+A e B nesse caso em vez de ser um system executivo ou balcão System Alt a imprimi lo e o outro e imprimir
+
+173
+00:15:30,390 --> 00:15:37,810
+o valor de B substituir isso para a gente ter os três botões fazendo uma coisa bem era o previsto e
+
+174
+00:15:37,850 --> 00:15:39,330
+o sei vai sair da aplicação.
+
+175
+00:15:39,340 --> 00:15:48,140
+Então executando mais uma vez você vai ver que olha o console aqui do lado que ele vai mostrar a A B
+
+176
+00:15:48,540 --> 00:15:50,760
+e C vai fechar a aplicação.
+
+177
+00:15:51,030 --> 00:15:56,430
+Então fico por aqui só na próxima aula a gente continua fazendo mais um exemplo em Java Flex e até lá.

@@ -1,0 +1,255 @@
+1
+00:00:00,210 --> 00:00:05,910
+Pessoal na sala vou fazer duas coisas primeiro vamos criar um novo esquema dentro do banco de dados
+
+2
+00:00:06,180 --> 00:00:10,980
+para que a gente possa a partir desse banco de dados a gente fazer nossas tabelas criar nossas tabelas
+
+3
+00:00:10,980 --> 00:00:14,850
+fazer nossas consultas e desenrolar os exercícios desse capítulo.
+
+4
+00:00:14,910 --> 00:00:20,040
+E também vou baixar um plug in no verso com ele para a gente executar as consultas diretamente a partir
+
+5
+00:00:20,040 --> 00:00:22,840
+do verso como não usando o Work Bank.
+
+6
+00:00:22,880 --> 00:00:30,660
+Então só pra gente começar ele pode criar o esquema diretamente no bem ou pode criar o esquema a partir
+
+7
+00:00:30,930 --> 00:00:31,740
+da linha de comando.
+
+8
+00:00:31,740 --> 00:00:34,040
+Então espera que você já tenha instalado o outro.
+
+9
+00:00:34,140 --> 00:00:41,330
+Então vou colocar aqui o mais quero bens e eu espero também que o banco de dados tivessem executado
+
+10
+00:00:41,330 --> 00:00:44,410
+o meu caso aqui ou mais queele está sendo executado.
+
+11
+00:00:44,520 --> 00:00:49,260
+O banco está rodando conforme mostrei para vocês a instalação se você tiver usado o Windows por exemplo
+
+12
+00:00:49,540 --> 00:00:53,640
+e pelo banco de dados está rodando na sua máquina normalmente estão abrindo um work Bank.
+
+13
+00:00:53,700 --> 00:00:59,320
+No meu caso o que eu já tenho uma conexão é configurada mais só mostrando que você pode criar aqui coloca
+
+14
+00:00:59,340 --> 00:01:07,110
+o nome da conexão novamente vai ser esse backup local a porta 3 era o meia usuário e senha até esta
+
+15
+00:01:07,110 --> 00:01:10,900
+conexão criar conexão novamente no caso o que já está a funcionar na conexão.
+
+16
+00:01:10,950 --> 00:01:15,890
+Eu não tenho nenhum banco criado a não ser um banco suíço que já viu por padrão eu vou clicar no botão
+
+17
+00:01:15,890 --> 00:01:16,550
+aqui.
+
+18
+00:01:17,190 --> 00:01:23,340
+Ele vai dizer qual o nome do esquema eu vou usar o l moderno WM certo e vou mandar aplicar eu posso
+
+19
+00:01:23,340 --> 00:01:29,690
+aplicar por aqui como também eu posso no terminal entrar aqui usando.
+
+20
+00:01:29,700 --> 00:01:36,110
+Eu coloquei já o comando mais Kelly menos menos deixou um coloquei no perfil do meu sistema seja eu
+
+21
+00:01:36,120 --> 00:01:40,880
+consigo acessar por aqui também se eu quiser acessar menus.
+
+22
+00:01:41,440 --> 00:01:49,530
+No caso usuário menos pé para ele pedir a senha eu vou colocar assim 1 2 3 4 5 6 7 8 que assim que eu
+
+23
+00:01:49,530 --> 00:01:52,730
+usei e aqui dentro posso evitar usá lo.
+
+24
+00:01:52,780 --> 00:01:59,860
+DD então por exemplo criei esquema W e me colocar um ponto e vírgula.
+
+25
+00:01:59,880 --> 00:02:06,120
+Então ele vai dizer que foi criado o esquema WM e aí se eu quiser eu posso dizer Uzi WM para a partir
+
+26
+00:02:06,120 --> 00:02:12,120
+daqui ele começar a usar o banco de dados e posso criar tabelas e tal tudo posso criar por aqui.
+
+27
+00:02:12,170 --> 00:02:18,900
+Como não Refresh você vai ver que ele já criou o esquema WM posterior moderno e dentro desse esquema.
+
+28
+00:02:18,900 --> 00:02:23,590
+Por enquanto não tem nenhuma tabela porque criar a tabela vai ser fruto de outra aula ele não desce
+
+29
+00:02:23,590 --> 00:02:29,180
+então nessa Alemanha criamos o esquema você pode criar diretamente no outro mês ou pode fechar ele que
+
+30
+00:02:29,180 --> 00:02:35,430
+não o novo causando nele durante o capítulo de não salvar e nós vamos aqui eu vou dar um peixe pra ele
+
+31
+00:02:35,430 --> 00:02:37,890
+sai e volta pro terminal fechar o terminal.
+
+32
+00:02:37,890 --> 00:02:40,320
+Beleza então nós criamos o esquema.
+
+33
+00:02:40,380 --> 00:02:45,900
+Na verdade eu acabei criando pelo terminal e você pode criar pelo que bens normalmente sem problema
+
+34
+00:02:45,900 --> 00:02:46,420
+nenhum.
+
+35
+00:02:46,440 --> 00:02:51,570
+Nesse caso eu vou criar aqui uma nova pasta que vai ser a pasta que nós vamos colocar os nossos exercícios
+
+36
+00:02:51,860 --> 00:02:54,840
+nome da parte vai ser banco traço relacional.
+
+37
+00:02:55,200 --> 00:03:00,300
+Então vou colocar todos os meus exercícios aqui dentro só que antes de a gente colocar os exercícios
+
+38
+00:03:00,300 --> 00:03:05,130
+que vai ser o que eu vou fazer na próxima aula eu vou instalar um plug in que vai ser o pouquinho eu
+
+39
+00:03:05,130 --> 00:03:10,930
+vou colocar aqui dentro dessa baixa que é o market Play slide plug ins de extensões do verso Kodi.
+
+40
+00:03:11,280 --> 00:03:16,830
+Você coloca que data Biz e manda pesquisar quando ele pesquisar o primeiro que vai aparecer pelo menos
+
+41
+00:03:16,830 --> 00:03:17,470
+para mim.
+
+42
+00:03:17,550 --> 00:03:22,070
+Essa opção que houvesse com o traço data Biz clicando aqui.
+
+43
+00:03:23,500 --> 00:03:26,460
+Ele vai estar lá eu vou dar um giro laudos
+
+44
+00:03:29,480 --> 00:03:36,080
+ou seja ele já está instalado e agora vou fazer o jogo como de chip estão contra o chip tem a opção
+
+45
+00:03:36,100 --> 00:03:43,550
+que se coloca mais Kelly e ele vai colocar o conecte o mais quer é barra puxe guri CRB clicando aqui
+
+46
+00:03:44,120 --> 00:03:48,140
+ele vai selecionar qual você quer mais quer puxe guri eu quero mais que ele.
+
+47
+00:03:48,170 --> 00:03:54,540
+Qual o nome do servidor no meu caso vai ser local gaúcho mesmo Caucaia qual usuário eu vou usar usuário
+
+48
+00:03:54,540 --> 00:03:59,320
+o último onde você pode usar outro usuário que eventualmente você vai usar para se conectar com o banco
+
+49
+00:03:59,840 --> 00:04:07,180
+e eu vou colocar aqui a senha 1 2 3 4 5 6 7 8 que a minha senha de banco de dados obviamente.
+
+50
+00:04:07,700 --> 00:04:12,420
+Essa é uma senha pra um ambiente de teste um ambiente que você não vai ter nenhum dado certo.
+
+51
+00:04:12,530 --> 00:04:17,420
+Então coloquei uma senha super simples nesse caso qual é o esquema que você quer usar.
+
+52
+00:04:17,420 --> 00:04:18,820
+Eu quero usar o esquema.
+
+53
+00:04:18,980 --> 00:04:25,990
+WM Isso significa que qualquer comando a fazer Select Update criação de tabela todos esses comandos
+
+54
+00:04:25,990 --> 00:04:29,240
+eram diretamente refletidos no nosso esquema WM.
+
+55
+00:04:29,250 --> 00:04:32,660
+Ali eu prefiro trabalhar com o Alckimin sem problema certo.
+
+56
+00:04:32,690 --> 00:04:37,460
+Só vou trabalhar aqui porque eu vou ficar criar os arquivos quero que cada um dos arquivos apareça mas
+
+57
+00:04:37,460 --> 00:04:44,570
+se você quer trabalhar aqui num ambiente tranquilo você pode criar aqui ao seu celular fazendo tudo
+
+58
+00:04:44,570 --> 00:04:45,960
+por aqui sem problema nenhum.
+
+59
+00:04:46,280 --> 00:04:51,980
+Nesse caso eu não tenho nenhuma tabela criada então nós vamos criar a tabela cidade e tabelas estaduais
+
+60
+00:04:52,050 --> 00:04:52,400
+e tal.
+
+61
+00:04:52,400 --> 00:04:53,500
+Por enquanto não temos.
+
+62
+00:04:53,850 --> 00:04:58,940
+Mas você vai poder executar os comandos por aqui e a resposta no próprio Wikimedia é uma possibilidade
+
+63
+00:04:59,300 --> 00:05:04,460
+eu vou preferir colocar os meus comandos diretamente aqui no verso como usando esse login.
+
+64
+00:05:04,600 --> 00:05:08,060
+E na próxima aula a gente continua fazendo nossos primeiros exercícios e eu espero lá.

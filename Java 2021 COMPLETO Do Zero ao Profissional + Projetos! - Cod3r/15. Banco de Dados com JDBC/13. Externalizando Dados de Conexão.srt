@@ -1,0 +1,595 @@
+1
+00:00:00,650 --> 00:00:08,230
+Isso agora nós vamos usar um recurso bastante interessante que é o arquivo de propriedade ou o arquivo
+
+2
+00:00:08,490 --> 00:00:15,760
+do próprio estilo e mostrar para vocês nós vamos criar e bloquear diretamente tentou ser mas não necessariamente
+
+3
+00:00:15,760 --> 00:00:21,490
+precisa estar bem dessa agência inclusive você pode criar um padrão por exemplo de colocar o arquivo
+
+4
+00:00:21,670 --> 00:00:28,150
+do próprio site fora do projeto algo colocado dentro da pasta do nome do usuário.
+
+5
+00:00:28,180 --> 00:00:35,300
+Todo sistema operacional tem uma pasta home quando abro aqui por exemplo do terminal do Mac.
+
+6
+00:00:35,470 --> 00:00:42,840
+Ele abre dentro da pasta de usuário se der um WD no Mac ele vai dizer qual a sua pasta rumo e usa traço
+
+7
+00:00:42,850 --> 00:00:49,960
+Leonardo Leitão seu Mac por exemplo pra ele mostrar que todos o sistema baseado em um único CD então
+
+8
+00:00:49,960 --> 00:00:53,430
+ele tem um sistema de arquivos diferente do que por exemplo acontece no Windows.
+
+9
+00:00:53,760 --> 00:00:59,980
+Mas tem esses arquivos por exemplo que começam com um ponto que são arquivos que não são visíveis quando
+
+10
+00:00:59,980 --> 00:01:05,240
+você dá um comando para listar os arquivos por padrão ou seja como tem um ponto na frente.
+
+11
+00:01:05,230 --> 00:01:10,710
+Sistemas baseados em Unix consideram esse arquivos como sendo arquivos não visíveis.
+
+12
+00:01:10,720 --> 00:01:17,470
+Você poderia muito bem criar um arquivo desses se ela apontou conexão ponto próprio e mandar o Java
+
+13
+00:01:17,470 --> 00:01:23,260
+ler um arquivo que está dentro de uma determinada pasta mas o nosso caso aqui eu vou colocar o arquivo
+
+14
+00:01:23,260 --> 00:01:24,890
+diretamente dentro do SRC.
+
+15
+00:01:25,180 --> 00:01:26,400
+Então para isso eu vou.
+
+16
+00:01:26,410 --> 00:01:30,790
+Só estou falando isso que você pode internalizar esse arquivo se você quiser.
+
+17
+00:01:31,030 --> 00:01:38,410
+E muitas muitas empresas ou projetos fazem isso na gestão analisam o arquivo colocam fora por exemplo
+
+18
+00:01:38,410 --> 00:01:44,230
+um apache pré determinada que aí qualquer pessoa que vai implantar o sistema consegue facilmente entrar
+
+19
+00:01:44,230 --> 00:01:49,880
+nesse arquivo já que é um arquivo textual e fazer as alterações necessárias de acordo com aquele ambiente.
+
+20
+00:01:49,900 --> 00:01:56,740
+Nosso objetivo é internalizar tirar de dentro do ano da nossa classe fábrica conexão tirar todos os
+
+21
+00:01:56,740 --> 00:02:02,710
+valores literais e jogar isso pra dentro de um arquivo textual textual não necessariamente vai ter extensão
+
+22
+00:02:02,710 --> 00:02:09,660
+ponto TXT mas nesse caso especificamente vai ter a extensão do próprio já que esse arquivo só fabrica
+
+23
+00:02:09,670 --> 00:02:15,610
+conexão ele vai ser compilado e vai gerar um arquivo bate com o bonitão não tem como ninguém chegar
+
+24
+00:02:15,910 --> 00:02:21,530
+lá no bate com o de alterar o conteúdo dessas extremos a não ser que ele esteja buscando assim estilingues
+
+25
+00:02:21,550 --> 00:02:22,990
+externo ao arquivo.
+
+26
+00:02:23,020 --> 00:02:30,840
+Como fazer aqui então dentro dessa sei eu vou criar aqui um arquivo chamado Fay eu vou selecionar com
+
+27
+00:02:30,910 --> 00:02:32,760
+quem não tem um arquivo do próprio.
+
+28
+00:02:33,050 --> 00:02:39,150
+E aqui eu vou colocar talvez até tem jogo aqui ou clicando com o botão direito eu aqui não tem nenhum.
+
+29
+00:02:39,160 --> 00:02:46,580
+Vou colocar outro e procurar que a própria Shell não tem nenhum arquivo do próprio time ou selecionar
+
+30
+00:02:46,580 --> 00:02:49,030
+um filho selecioná lo fail.
+
+31
+00:02:49,150 --> 00:02:57,460
+Eu vou chamar o arquivo de conexão com outro Properties no plural e ele vai criar aqui um aqui ponto
+
+32
+00:02:57,530 --> 00:03:03,160
+próprias e aqui dentro basicamente você vai ter a chave falou então por exemplo vou criar três chaves
+
+33
+00:03:03,160 --> 00:03:05,540
+que vai sair do banco.
+
+34
+00:03:05,970 --> 00:03:08,810
+O RL recebe determinado valor.
+
+35
+00:03:09,050 --> 00:03:17,710
+Segundo a chave vai ser banco ponto o usuário que vai ter o valor e finalmente um banco o ponto central
+
+36
+00:03:17,710 --> 00:03:22,320
+vai ter um outro valor quem sabe 1 2 3 4 5 6 7 8.
+
+37
+00:03:22,320 --> 00:03:30,820
+O usuário vai ser rude e eu vou pegar o RL diretamente do arquivo e falha de conexão que vai sendo essa
+
+38
+00:03:30,830 --> 00:03:38,860
+ou RL que toda ela eu vou copiar jogar dentro do meu arquivo outro propos o legal que um arquivo do
+
+39
+00:03:38,920 --> 00:03:45,760
+próprio chão arquivo textual embora não tenha a extensão pouco TXT qualquer pessoa pode abrir esse arquivo
+
+40
+00:03:46,060 --> 00:03:51,910
+e fazer as mudanças necessárias então se eu vim aqui por exemplo no terminal alguns com o que você implantou
+
+41
+00:03:51,910 --> 00:03:59,050
+o sistema que está rodando o que está consumindo esses arquivos num ambiente Unix por exemplo você entra
+
+42
+00:03:59,050 --> 00:03:59,710
+no terminal.
+
+43
+00:03:59,710 --> 00:04:04,030
+Nesse caso vou entrar em desktop vai ter que ao projeto.
+
+44
+00:04:04,090 --> 00:04:13,180
+Acho que é curso de água dentro do curso Java mas vai ter o nosso projeto exercícios exercícios em C.
+
+45
+00:04:13,330 --> 00:04:21,250
+E aqui dentro posso abrir qualquer editora por exemplo ouvi a conexão próprio própria e eu abro e ele
+
+46
+00:04:21,250 --> 00:04:26,940
+vai ter um arquivo textual e eu consigo fazer qualquer edição que eu quero aqui vou abrir um outro editor
+
+47
+00:04:26,940 --> 00:04:35,670
+tem um nano conexão ponto próprios e também consigo fazer as alterações aqui modal por exemplo Guti
+
+48
+00:04:36,400 --> 00:04:43,370
+dois salvou um arquivo contra o UOL e saída você vai ver que o arquivo foi alterado aqui.
+
+49
+00:04:43,450 --> 00:04:47,330
+Ao fechar o arquivo ele não deu Refresh mais.
+
+50
+00:04:47,360 --> 00:04:49,560
+Se eu abri novamente o arquivo volto próprios.
+
+51
+00:04:49,570 --> 00:04:56,740
+Você vai ter que que o usuário foi alterado como um arquivo textual você pode alterar externamente seu
+
+52
+00:04:56,740 --> 00:05:02,100
+código fonte dentro do bate com o Java você não consegue entrar em um verso que eu criei o arquivo do
+
+53
+00:05:02,140 --> 00:05:09,140
+próprio Escher fazer com que o nosso arquivo fábrica de conexão passe a consumir os dados a partir de
+
+54
+00:05:09,160 --> 00:05:10,320
+um arquivo do próprio.
+
+55
+00:05:10,330 --> 00:05:16,600
+Para isso nós vamos criar um outro método que eu vou chamar aqui eu vou criar um método privado.
+
+56
+00:05:16,900 --> 00:05:23,230
+Vai ser um método estático também que ele vai retornar um arquivo do tipo o próprio X existe uma classe
+
+57
+00:05:23,650 --> 00:05:24,670
+que está dentro de Java.
+
+58
+00:05:24,670 --> 00:05:31,590
+Contudo é o chamado próprio estilo floral que é exatamente uma classe que lê esse arquivo e pega a chave
+
+59
+00:05:31,590 --> 00:05:32,350
+falou.
+
+60
+00:05:32,440 --> 00:05:39,100
+é uma forma mais intuitiva então pegar aqui e ele vai aqui dentro consumir esse arquivo.
+
+61
+00:05:39,100 --> 00:05:46,140
+Eu já sei o caminho do arquivo então vou fazer o seguinte ao criar aqui uma cópia X eu acho que ele
+
+62
+00:05:46,150 --> 00:05:49,580
+próprio admitiu o próprio X.
+
+63
+00:05:49,630 --> 00:05:55,990
+A partir dessa classe A gente vai carregar antes eu vou chamar um metro que vai ser o metro que vai
+
+64
+00:05:56,620 --> 00:05:57,760
+carregar o arquivo.
+
+65
+00:05:57,760 --> 00:06:02,470
+Na verdade vou carregar o estrume de dados e passar esses times por método.
+
+66
+00:06:02,470 --> 00:06:09,130
+Existe um método de propos que é um método Low de esse logo ele pode receber um input destruir pode
+
+67
+00:06:09,190 --> 00:06:18,560
+recebeu a ideia certa entrar exatamente o empuxo que eu vou passar para ele pulou de Blumenau.
+
+68
+00:06:18,760 --> 00:06:22,350
+Na verdade Lula não would eu vou passar um estranho pra ele daqui a pouco.
+
+69
+00:06:22,340 --> 00:06:31,050
+Primeiro eu vou definir o perfil meu caso que o caminho para o arquivo vai ser barra conexão.
+
+70
+00:06:31,280 --> 00:06:34,880
+O petista que é o nome do arquivo que defini.
+
+71
+00:06:35,020 --> 00:06:41,300
+Se você tiver por exemplo eu quero pegar o arquivo lá no diretório nome do usuário.
+
+72
+00:06:41,470 --> 00:06:43,520
+Você tem como pegar essa informação.
+
+73
+00:06:43,720 --> 00:06:50,450
+E aí eu acho que o Java tem uma variável apagar rapidamente o Brasil.
+
+74
+00:06:50,470 --> 00:06:58,960
+Se você colocar aqui eu esqueci como é que existe cabeça mas coloca aqui o Java diretório home por exemplo
+
+75
+00:06:58,960 --> 00:07:03,540
+vai ter uma propriedade dizia que batizada aqui ao System ponto Bad própio X.
+
+76
+00:07:04,030 --> 00:07:12,760
+é exatamente o que ele usurpou do roubo isso aqui faz ele retornar à pasta do usuário e com essa propriedade
+
+77
+00:07:12,760 --> 00:07:18,620
+você sabe a paixão do usuário e Barra e usar Barra Leonardo Leitão ou então se for no Windows vai esquecer
+
+78
+00:07:18,660 --> 00:07:22,170
+dois pontos Barra e usar o seu nome né.
+
+79
+00:07:22,450 --> 00:07:28,330
+Então cara seu operacional vai ter um local específico se for no caso do Linux vai ser barra Barra alguma
+
+80
+00:07:28,330 --> 00:07:29,170
+coisa.
+
+81
+00:07:29,320 --> 00:07:34,810
+Então em cima dessa propriedade ele vai conseguir pegar essa informação baseado no sistema operacional
+
+82
+00:07:35,140 --> 00:07:40,420
+e vai você vai conseguir por exemplo ler um arquivo que vai ter Estela no seu projeto por exemplo então
+
+83
+00:07:40,420 --> 00:07:45,880
+uma vez que eu tenho um caminho que eu vou fazer eu vou pegar a fábrica de conexão que a minha classe
+
+84
+00:07:46,660 --> 00:07:50,930
+contactless tem um metro chamado sete pessoas.
+
+85
+00:07:51,010 --> 00:07:52,190
+Estranho.
+
+86
+00:07:52,300 --> 00:07:57,300
+E aí eu passo o caminho que eu quero e ele vai ser o responsável por lei.
+
+87
+00:07:57,430 --> 00:08:02,650
+A informação não vai conseguir pegar o arquivo do próprio site vai carregar o arquivo pouco próprios
+
+88
+00:08:03,070 --> 00:08:08,020
+esse método ele também lançou uma exceção checada na seção.
+
+89
+00:08:08,040 --> 00:08:13,260
+Aí eu vou lançar essa exceção aqui ou adicionar ou declarei.
+
+90
+00:08:13,300 --> 00:08:15,650
+Então trouxe ali Section.
+
+91
+00:08:15,730 --> 00:08:23,150
+No final eu vou retornar o arquivo próprio e uma vez que eu vou chamar esse metro aqui ao grande Gate
+
+92
+00:08:23,170 --> 00:08:31,970
+Properties vão fazer o seguinte eu vou carregar um arquivo como o próprio Shiki chama de Drop Dead própria
+
+93
+00:08:32,010 --> 00:08:36,030
+X aqui como ele lança uma exceção do tipo You Back Section.
+
+94
+00:08:36,160 --> 00:08:41,070
+Aqui embaixo eu vou querer tratar tanto SQL que serve como WhatsApp.
+
+95
+00:08:41,470 --> 00:08:47,350
+Então não vou ter problema com isso uma vez que eu tenho aqui o ponto próprio em vez de lei o valor
+
+96
+00:08:47,910 --> 00:08:54,310
+erradicou a ideia de que eu vou colocar a própria conta própria chegou a passar a chave com a chave
+
+97
+00:08:54,640 --> 00:09:00,580
+que vai retornar ao RL do banco de dados que obtive a partir desse arquivo aqui de conexão no seu olhar
+
+98
+00:09:00,580 --> 00:09:01,470
+Lau.
+
+99
+00:09:01,510 --> 00:09:03,620
+A chave é banco.
+
+100
+00:09:03,620 --> 00:09:04,320
+Ponto.
+
+101
+00:09:04,360 --> 00:09:09,640
+O RL é assim que eu consigo internalizar as informações que passam.
+
+102
+00:09:09,850 --> 00:09:18,980
+Banco ponto RL no local que tem usuário é o local que tem senha também vou substituir BC Banco ponto
+
+103
+00:09:19,470 --> 00:09:22,620
+usuário e aqui banco ponto.
+
+104
+00:09:22,680 --> 00:09:29,310
+Sendo dessa forma eu consigo acessar as informações não estão mais dentro do meu código e sim fora.
+
+105
+00:09:29,470 --> 00:09:35,880
+A parte de um arquivo e nesse caso eu estou padronizado acessando o arquivo diretamente em C.
+
+106
+00:09:36,250 --> 00:09:41,110
+Mas se você quiser colocar externo por exemplo então a parte de usuário que seria provavelmente como
+
+107
+00:09:41,110 --> 00:09:42,650
+eu iria fazer na prática.
+
+108
+00:09:42,760 --> 00:09:44,980
+Só pra deixar o arquivo dentro do projeto.
+
+109
+00:09:44,980 --> 00:09:46,920
+Quando vocês baixarem já está tudo lá.
+
+110
+00:09:47,170 --> 00:09:51,420
+Eu vou acabar colocando dentro do SPC ficar vendo essa aí ser ruim.
+
+111
+00:09:51,440 --> 00:09:57,220
+Busquei o quê quando você vai empacotar o seu projeto um arquivo pouco já o arquivo próprio chega vai
+
+112
+00:09:57,220 --> 00:10:03,160
+ficar dentro do arquivo pronto já que não é tão ante o que é mais interessante você colocar o arquivo
+
+113
+00:10:03,190 --> 00:10:05,890
+por exemplo isto é analisar a partir de uma pasta padrão.
+
+114
+00:10:06,030 --> 00:10:09,940
+Então para a gente testar para ter certeza que vai estar funcionando ainda.
+
+115
+00:10:10,100 --> 00:10:13,300
+Eu vou pegar aqui o exemplo de consulta ao consultor.
+
+116
+00:10:13,690 --> 00:10:21,220
+Ele está usando a nossa cópia de conexão que foi mudada quando ele mostrou que o resultado acessou corretamente.
+
+117
+00:10:21,220 --> 00:10:28,480
+Se eu tentar alterar por exemplo a chave para o banco o RL 2 já vai dar problema porque ele não conhece
+
+118
+00:10:29,020 --> 00:10:30,000
+esse banco.
+
+119
+00:10:30,000 --> 00:10:38,890
+O L 2 8 executando ele vai dizer vai dar um problema dizendo que ele não pode ser nula e voltando la
+
+120
+00:10:38,890 --> 00:10:45,670
+para o nosso foco de conexão colocando a chave correta ele vai obter essa informação de um arquivo pouco
+
+121
+00:10:45,670 --> 00:10:53,330
+próprio ou seja não é uma boa prática você colocar as informações de conexão diretamente de forma radical
+
+122
+00:10:53,490 --> 00:10:58,210
+de dentro do seu colo porque você vai ter uma dificuldade muito grande ficar mantém nessas informações
+
+123
+00:10:58,210 --> 00:11:04,150
+a bolha era agora o Bild de produção tem que colocar informação além de ser uma falha de segurança além
+
+124
+00:11:04,150 --> 00:11:09,130
+de você eventualmente colocar uma senha dessa cometário dentro de um repositório.
+
+125
+00:11:09,130 --> 00:11:16,120
+Já aconteceu comigo em outras situações no passado eu coloquei a senha e isso gerou um problema de segurança
+
+126
+00:11:16,120 --> 00:11:22,090
+certo na época eu acho que eu perdi alguns dólares porque alguém achou a senha e acabou fazendo besteira
+
+127
+00:11:22,090 --> 00:11:28,210
+na minha conta mas o fato é que hoje sempre das primeiras coisas que eu faço é não colocar por exemplo
+
+128
+00:11:28,210 --> 00:11:30,250
+essas informações no repositório.
+
+129
+00:11:30,370 --> 00:11:36,140
+Uma dica legal para quem usa o derrame é você colocar no guichê no ponto.
+
+130
+00:11:36,140 --> 00:11:38,030
+Ignore esse arquivo né.
+
+131
+00:11:38,050 --> 00:11:43,730
+Quem não sabe o que é lobby não se preocupe não é algo que eu estou trabalhando aqui nesse momento eventualmente
+
+132
+00:11:43,750 --> 00:11:46,740
+pode até colocar alguma informação sobre isso no futuro.
+
+133
+00:11:47,080 --> 00:11:53,500
+Mas se você vai salvar o seu código em algum repositório de código salvar isso pra um time estar trabalhando
+
+134
+00:11:53,500 --> 00:11:58,100
+é dela que você não mande esse arquivo para o repositório que você pode fazer.
+
+135
+00:11:58,280 --> 00:12:04,880
+Aí a gente pode duplicar esse arquivo e colocar aqui conexão do próprio Chicão por exemplo sei lá que
+
+136
+00:12:05,200 --> 00:12:09,650
+conexão de sei lá é modelo próprio.
+
+137
+00:12:09,760 --> 00:12:16,420
+E aí você cria um arquivo de modelo que não vai ter nenhuma informação vai ter só o esqueleto do arquivo
+
+138
+00:12:16,890 --> 00:12:23,380
+e aí quando você for realmente configurar o seu projeto você copia o Conexão modelo que vai estar no
+
+139
+00:12:23,380 --> 00:12:31,030
+repositório vazio gera aqui a conexão ponto próprio e aí sim você preenche todas as informações locais
+
+140
+00:12:31,030 --> 00:12:35,840
+no ambiente que você vai executar e não essa informação ser assistida no repositório.
+
+141
+00:12:36,280 --> 00:12:41,800
+Então algumas dicas importantes como a gente pode melhorar o nosso arquivo de conexão está analisando
+
+142
+00:12:41,860 --> 00:12:49,420
+todas as informações nela RL de acesso ao banco de dados o usuário é assim que são informações sensíveis.
+
+143
+00:12:49,450 --> 00:12:54,820
+Eu coloquei isso dentro de um arquivo próprio e dedico pra vocês no nosso caso o que a gente usou o
+
+144
+00:12:54,820 --> 00:13:02,350
+arquivo diretamente dentro do SEI MAIS ABAIXO aqui a dica que esse vai ser vai ser a abordagem não interessante
+
+145
+00:13:02,380 --> 00:13:04,850
+quando você foi empacotar o seu projeto.
+
+146
+00:13:05,000 --> 00:13:10,450
+Então o ideal é você colocar isso externo por exemplo usar na pasta do usuário a possibilidade ou você
+
+147
+00:13:10,450 --> 00:13:15,100
+pode padronizar uma pasta específica que você vai criar e colocar esse arquivo lá dentro.
+
+148
+00:13:15,370 --> 00:13:16,150
+Então fique por aqui.
+
+149
+00:13:16,150 --> 00:13:21,040
+Pessoal na próxima aula a gente continua ainda no nosso capítulo DJ do MC e até lá.

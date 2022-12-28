@@ -1,0 +1,315 @@
+1
+00:00:00,230 --> 00:00:07,940
+Só ainda olhando para a classe data que a gente trabalhou no ano passado coloca no 10 é chamado um construtor
+
+2
+00:00:07,950 --> 00:00:10,960
+a partir de outro também usa a nudez como método.
+
+3
+00:00:10,960 --> 00:00:17,450
+O quero falar um pouquinho sobre as variáveis locais são constantes e variáveis que você define dentro
+
+4
+00:00:17,450 --> 00:00:19,810
+do escopo dos métodos.
+
+5
+00:00:19,810 --> 00:00:25,750
+Então pegando aqui por exemplo esse método obter data formatada você poderia muito bem pegar essa string
+
+6
+00:00:25,750 --> 00:00:33,920
+aqui e eu criar aqui dentro de uma variável string chamada formato recebe esse valor.
+
+7
+00:00:34,350 --> 00:00:41,190
+E aqui eu uso essa variável formato dentro do método no qual defini a variável certo logo na linha seguinte
+
+8
+00:00:41,220 --> 00:00:48,870
+definem a variável na Linha 3 e na linha 24 usei obviamente essa é uma variável no local na nomenclatura.
+
+9
+00:00:48,930 --> 00:00:55,350
+Quando você define uma variável fora do método dentro da classe ela pode ser uma variável de instância
+
+10
+00:00:55,670 --> 00:01:02,370
+e pode ser uma variável de classe N ou um membro estático ou um atributo estático ou um atributo de
+
+11
+00:01:02,370 --> 00:01:07,440
+instância e a gente sabe que instância é sinônimo de objeto Então também posso dizer que um atributo
+
+12
+00:01:07,770 --> 00:01:14,790
+é objeto quando você define um valor variável dentro de um método a gente chama que essa é uma variável
+
+13
+00:01:15,060 --> 00:01:22,170
+local pois se uma variável não constante proposta é variável de instância constante de instância variável
+
+14
+00:01:22,170 --> 00:01:28,110
+de classe constante de classe contra mim posso ter uma variável local ou uma constante local o que vai
+
+15
+00:01:28,110 --> 00:01:29,420
+definir o final.
+
+16
+00:01:29,440 --> 00:01:34,830
+Se eu colocar um fim no que antes da definição dessa variável passa a ser uma constante.
+
+17
+00:01:34,980 --> 00:01:41,660
+Mas o princípio é o mesmo uma vez que eu defino uma variável local dentro do metro significa que o escopo
+
+18
+00:01:42,130 --> 00:01:48,870
+a área de visibilidade dessa variável apenas dentro daquele método e mais especificamente a parte da
+
+19
+00:01:48,870 --> 00:01:52,060
+linha que você definiu para o final do método.
+
+20
+00:01:52,080 --> 00:01:57,390
+Então outras linguagens têm até comportamentos um pouco diferente mas nesse caso se eu definir essa
+
+21
+00:01:57,390 --> 00:02:03,510
+variável na linha 23 por mais que eu tenha outros códigos aqui antes eventualmente posso ter outros
+
+22
+00:02:03,510 --> 00:02:04,910
+códigos aqui antes.
+
+23
+00:02:04,920 --> 00:02:09,220
+Essa variável não estará visível antes da definição da variável na linha.
+
+24
+00:02:09,390 --> 00:02:16,710
+Só a partir da definição para baixo e também estará limitado ao escopo na definição do método eu não
+
+25
+00:02:16,710 --> 00:02:23,030
+posso por exemplo por mais que eu tenha definido a variável formato eu tenha definido e tentar acessá
+
+26
+00:02:23,030 --> 00:02:26,640
+lo em outro Met na época era que um formato diferente.
+
+27
+00:02:26,640 --> 00:02:30,600
+No método imprimir data formatada eu não posso fazer isso.
+
+28
+00:02:30,640 --> 00:02:31,080
+Por quê.
+
+29
+00:02:31,100 --> 00:02:37,710
+Porque essa é uma variável local não variável que foi definida dentro do escopo do método obtê data
+
+30
+00:02:37,710 --> 00:02:38,780
+formatada.
+
+31
+00:02:38,930 --> 00:02:43,620
+Além do mais eu preciso usar essa variável formato e mais um método que é que eu faço.
+
+32
+00:02:43,620 --> 00:02:49,890
+Aí você coloca essa variável como uma variável que pertence à classe E aí você coloca essa variável
+
+33
+00:02:49,890 --> 00:02:54,420
+como uma variável que é uma variável de instância uma variável de classe.
+
+34
+00:02:54,420 --> 00:03:00,550
+Basta você colocar essa variável para fora do método eu posso colocar essa variável em qualquer lugar
+
+35
+00:03:00,550 --> 00:03:05,310
+agora e você pode colocar uma vez que a variável está diretamente dentro da classe.
+
+36
+00:03:05,310 --> 00:03:12,290
+Fora dos métodos você pode inclusive colocar as variáveis no final do arquivo sem problema nenhum certo
+
+37
+00:03:12,300 --> 00:03:17,430
+então eu não posso usar o formato aqui em cima porque está dando erro aqui está no tempo que eu coloquei
+
+38
+00:03:17,460 --> 00:03:18,510
+como final.
+
+39
+00:03:18,760 --> 00:03:23,540
+Mas se eu colocar como variável não vai ter problema ele vai entrar aqui vai conseguir alterar o que
+
+40
+00:03:23,670 --> 00:03:29,550
+essa variável pertence à instância como ela pertence à instância eu posso acessar em qualquer método
+
+41
+00:03:29,550 --> 00:03:30,980
+de instância certo.
+
+42
+00:03:30,990 --> 00:03:32,840
+Então você pode definir aqui embaixo.
+
+43
+00:03:32,850 --> 00:03:34,800
+Você pode definir aqui em cima.
+
+44
+00:03:34,800 --> 00:03:36,860
+Você pode definir entre os métodos.
+
+45
+00:03:37,140 --> 00:03:37,890
+Mas aí vai.
+
+46
+00:03:37,890 --> 00:03:43,320
+Se você quer ter um código desorganizado você vai colocar em vários locais diferentes definições de
+
+47
+00:03:43,320 --> 00:03:49,790
+variáveis normalmente o padrão é colocar no início do Metro você coloca todas as variáveis de instância
+
+48
+00:03:49,800 --> 00:03:56,130
+todas as variáveis de classe ou constantes também e não ficar misturado colocar entre os metros e tal
+
+49
+00:03:56,220 --> 00:03:58,510
+sinal fica mais difícil você conseguir ler o código.
+
+50
+00:03:58,530 --> 00:04:05,820
+Nesse caso do formato eu não quero que o formato seja visível diretamente na instância eu quero que
+
+51
+00:04:05,820 --> 00:04:11,610
+ele fique como sendo uma variável local mais especificamente um constante local algo que eu não vou
+
+52
+00:04:11,610 --> 00:04:17,880
+mudar ela dentro do meu colo então coloco falham monstrinho formato recebe determinado valor e aqui
+
+53
+00:04:17,880 --> 00:04:24,060
+eu posso acessar essa constante tranquilamente já que na outra no outro método eu não posso fazer isso
+
+54
+00:04:24,440 --> 00:04:31,560
+porque essa variável local essa constante local foi definida dentro do escopo dessa função que deu certo
+
+55
+00:04:31,560 --> 00:04:35,460
+mais precisamente a partir da linha da definição para baixo.
+
+56
+00:04:35,460 --> 00:04:42,240
+Outra coisa importante é sobre os parâmetros que você recebe a parte onde um construtor de um método
+
+57
+00:04:42,380 --> 00:04:50,160
+esses parâmetros também eles são visíveis apenas dentro daquele método aquele construtor que significa
+
+58
+00:04:50,160 --> 00:04:58,660
+que quando você cria aqui na linha 10 uma instância passa o número 31 o número 12 e o ano 2020 quando
+
+59
+00:04:58,680 --> 00:05:04,410
+você ao clicar aqui com direito a um control clicado ele vai lá para cá.
+
+60
+00:05:04,410 --> 00:05:12,000
+Esses valores só estarão visíveis durante a construção do objeto o que significa que seu na linha seguinte
+
+61
+00:05:12,000 --> 00:05:14,170
+que é a linha 12 que tem códigos.
+
+62
+00:05:14,310 --> 00:05:21,410
+Essa instância não vai mais ter acesso a essas três informações a não ser que eu faço o que eu fiz aqui.
+
+63
+00:05:21,420 --> 00:05:28,230
+Pegue os valores que eu recebi como parâmetro e salve esses valores diretamente nas variáveis a que
+
+64
+00:05:28,230 --> 00:05:29,210
+distância.
+
+65
+00:05:29,250 --> 00:05:33,780
+Exatamente por isso que eu tenho que fazer o que eu tenho que pegar os valores que eu recebi como parâmetro
+
+66
+00:05:33,780 --> 00:05:36,390
+e salvar as variáveis distância por quê.
+
+67
+00:05:36,390 --> 00:05:42,840
+Porque os parâmetros de um método os parâmetros de um construtor também são visíveis apenas dentro do
+
+68
+00:05:42,840 --> 00:05:43,660
+construtor.
+
+69
+00:05:43,880 --> 00:05:50,150
+E quando o custo termina de executar esses valores são perdidos e eles vão ser tirados da memória certo.
+
+70
+00:05:50,160 --> 00:05:55,080
+A mesma coisa vai servir para os metros se você passar um parâmetro para o método quando esse método
+
+71
+00:05:55,080 --> 00:06:00,690
+termina esse parâmetro não estará disponível fora do método a não ser que você coloque algum variável
+
+72
+00:06:00,960 --> 00:06:06,080
+a não ser que esse parâmetro seja um objeto que foi passado para o outro metro mais aí são outras questões
+
+73
+00:06:06,090 --> 00:06:12,540
+que eu quero dizer pra você o seguinte tantos parâmetros são visíveis apenas dentro daquele método como
+
+74
+00:06:12,540 --> 00:06:18,420
+também as variáveis ou constantes que você cria dentro do metro que são exatamente as variáveis locais.
+
+75
+00:06:18,450 --> 00:06:24,900
+Na próxima aula vou falar um pouquinho sobre o valor padrão que cada tipo tem dentro do Java o tipo
+
+76
+00:06:24,900 --> 00:06:32,160
+primitivo tem valor por exemplo inteiro zero bolha é falso eu falar um pouquinho sobre isso também fazer
+
+77
+00:06:32,160 --> 00:06:38,910
+um paralelo porque tem uma diferença aqui entre você definir um atributo de instância ou um atributo
+
+78
+00:06:38,910 --> 00:06:42,800
+de classe um atributo local e ter um comportamento ligeiramente diferente.
+
+79
+00:06:42,820 --> 00:06:45,060
+Eu quero comentar sobre isso na proximal.

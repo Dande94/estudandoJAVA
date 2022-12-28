@@ -1,0 +1,211 @@
+1
+00:00:00,150 --> 00:00:08,070
+Pessoal falando em Black existem duas palavras reservadas no Java que é sei que o continuem são formas
+
+2
+00:00:08,070 --> 00:00:11,900
+que você tem de quebrar o fluxo natural das coisas.
+
+3
+00:00:11,900 --> 00:00:19,100
+Por exemplo no caso do switch o fluxo natural entre aspas seria entrar no switch e executar.
+
+4
+00:00:19,200 --> 00:00:23,870
+Desde o começo até o final uma vez que ele entrou em um dos casos de alguns linguagens já mudaram esse
+
+5
+00:00:23,880 --> 00:00:24,810
+comportamento.
+
+6
+00:00:24,810 --> 00:00:31,590
+Comportamento padrão do site ele executa apenas um Keys e quando você quer que ele vá descer para os
+
+7
+00:00:31,590 --> 00:00:37,400
+próximos você coloca uma palavra que quer dizer que ele vai continuar pelos próximos está mais o Play.
+
+8
+00:00:37,440 --> 00:00:43,110
+Ele tem esse conceito digamos assim de quebrar o fluxo natural a ordem natural das coisas eu vou mostrar
+
+9
+00:00:43,110 --> 00:00:48,350
+pra você o uso do play aqui dentro de um laço folgo para que você entenda que eu estou falando depois
+
+10
+00:00:48,360 --> 00:00:51,620
+a gente vai ver também que o continente tem esse mesmo propósito.
+
+11
+00:00:51,780 --> 00:00:56,460
+Só que muda um pouquinho o efeito que o breque vai causar e o contínuo e vai causar.
+
+12
+00:00:56,460 --> 00:01:02,520
+São 12 palavras diferentes que geram efeitos diferentes eu quero tratar com vocês nos próximos exercícios
+
+13
+00:01:02,520 --> 00:01:10,560
+então nós vamos criar aqui uma classe chamada por aí vou criar como um uso do play que é algo menos
+
+14
+00:01:11,160 --> 00:01:13,290
+aconselhado menos recorrente.
+
+15
+00:01:13,290 --> 00:01:19,420
+Eu vou tentar fazer exemplos bem simples pra não puxar muita sardinha pro lado nem do Black nem do continuou.
+
+16
+00:01:19,530 --> 00:01:24,730
+às vezes é útil mas via de regra você acaba não precisando usar esse tipo de estrutura.
+
+17
+00:01:24,930 --> 00:01:31,370
+Eu vou definir um forte e aí você tem como criar um foco já com algumas facilidades dentro do Java eu
+
+18
+00:01:31,380 --> 00:01:37,470
+própria te ajudo eu vou colocar aqui ou ele vai começar do zero até um valor menor do que 10 e ele vai
+
+19
+00:01:37,470 --> 00:01:39,440
+querer metade.
+
+20
+00:01:39,630 --> 00:01:48,090
+Aqui dentro eu posso fazer o seguinte se o valor de for igual igual a 5 eu quero que você chame o Bois
+
+21
+00:01:48,300 --> 00:01:49,280
+e no final.
+
+22
+00:01:49,290 --> 00:01:55,290
+Depois do foco eu vou exibir o valor de fim e pra gente ver o comportamento do Brent que eu vou mostrar
+
+23
+00:01:55,290 --> 00:02:01,650
+pra vocês os fazem no blog no código e antes do Black eu vou mostrar aqui dentro o valor de ir para
+
+24
+00:02:01,650 --> 00:02:04,980
+a gente entender exatamente qual era o valor de cada iteração.
+
+25
+00:02:05,070 --> 00:02:10,460
+Então vou colocar um powerpoint aqui na minha 9 e vai executar o código no modo verbal que ele vai mudar
+
+26
+00:02:10,460 --> 00:02:11,630
+o que der certo.
+
+27
+00:02:12,030 --> 00:02:16,910
+E aí eu vos ataco o S6 acreditam vocês é igual a 5.
+
+28
+00:02:16,930 --> 00:02:19,080
+Não não é porque eu igual a zero.
+
+29
+00:02:19,200 --> 00:02:24,850
+Eu posso inclusive colocar aqui é igual igual a 5.
+
+30
+00:02:24,870 --> 00:02:26,000
+O resultado vai dar falso.
+
+31
+00:02:26,000 --> 00:02:32,340
+Possa pagar essa expressão aqui agora nós temos a expressão que nos interessa aqui que é o Mi 5 então
+
+32
+00:02:32,340 --> 00:02:38,910
+o próximo passo ele vai pular sim esse obviamente não vai executar o que mais está no console zero.
+
+33
+00:02:39,030 --> 00:02:46,270
+Depois o Wii vali ou seja um ano de 45 então vai dar falso e vai valer 2 aqui.
+
+34
+00:02:46,560 --> 00:02:52,550
+Sempre que muda ele muda que acusem aqui em cima nas variáveis está executando mais uma vez igual a
+
+35
+00:02:52,780 --> 00:03:03,480
+2 3 e 4 ano e foi igual a 5 ele encontra o play boy que vai fazer o bem que ele vai interromper a sua
+
+36
+00:03:03,480 --> 00:03:10,310
+execução do laço e vai pra depois do laço ou seja ele interrompe de forma abrupta naquele momento aquela
+
+37
+00:03:10,320 --> 00:03:15,770
+interação um laço só sai do laço indo para a linha logo na sequência depois do laço.
+
+38
+00:03:15,840 --> 00:03:21,750
+Então sou dela e sei que ele vai para a linha de 16 pro fim do programa dela e 8 ele termina exibe o
+
+39
+00:03:21,760 --> 00:03:28,050
+valor de imagem que você tá executando um laço pra procurar algo algum elemento dentro de uma lista
+
+40
+00:03:28,050 --> 00:03:33,660
+por exemplo e você acha aquele elemento você tem uma lista de mil elementos quando você chegou no elemento
+
+41
+00:03:33,660 --> 00:03:38,880
+203 você achou que queria você pode chamar alguém que está saí para não ter que percorrer ali já até
+
+42
+00:03:38,880 --> 00:03:43,980
+o final por exemplo sabia que seria um exemplo do uso do Black mais do que o boneco faz ele quebra o
+
+43
+00:03:43,980 --> 00:03:46,880
+fluxo naquele momento momento que o breque foi chamado.
+
+44
+00:03:47,220 --> 00:03:53,960
+Ele vai sair da estrutura atual que no caso que é o foco o que pode ser aplicado também ao usuário.
+
+45
+00:03:54,080 --> 00:03:59,620
+O bloqueio pode ser aplicado ao switch que a gente viu na aula passada mas o bem que ele não faz muito
+
+46
+00:03:59,820 --> 00:04:01,680
+não faz sentido dentro de um F.
+
+47
+00:04:01,790 --> 00:04:07,130
+Ele faz sentido dentro de um laço de repetição mas no caso que eu digo o contexto atual que esse break
+
+48
+00:04:07,210 --> 00:04:12,460
+vai sair não é especificamente o chefe mas o laço foco está aqui em cima.
+
+49
+00:04:12,610 --> 00:04:18,700
+Esse é o exemplo do que você pode executar tanto no modo de banco ou até mudar o modo Java.
+
+50
+00:04:18,750 --> 00:04:24,060
+Como você pode executar também diretamente sem problema sem o uso do básico pois então nesse caso ele
+
+51
+00:04:24,060 --> 00:04:32,220
+vai no momento que o 5 Encontro Black Mesa com a própria linha do 5 e nem vai imprimir o Igor 5 já baixo
+
+52
+00:04:32,220 --> 00:04:38,460
+aqui pelo final do fone sai da execução então esse é bem simples ele desvia o fluxo atual.
+
+53
+00:04:38,460 --> 00:04:40,860
+Na próxima aulas uso eu continuei e para lá.

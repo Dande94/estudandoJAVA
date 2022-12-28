@@ -1,0 +1,399 @@
+1
+00:00:00,270 --> 00:00:06,560
+Mas vamos agora começar a interagir com um banco de dados usando a nossa aplicação exprime Botti.
+
+2
+00:00:07,110 --> 00:00:15,520
+E o que nós vamos fazer agora é o seguinte nós vamos precisar configurar o nosso projeto mais duas dependências
+
+3
+00:00:15,530 --> 00:00:22,290
+uma dependência diz respeito ao JP a gente poderia ter adicionado lá como a gente criou o projeto no
+
+4
+00:00:22,290 --> 00:00:30,270
+site na tarde de Spring o poderia ter selecionado já o driver do mais Kelly e o JP mas eu resolvi não
+
+5
+00:00:30,270 --> 00:00:33,220
+colocar naquele momento e agora a gente vai precisar adicionar.
+
+6
+00:00:33,630 --> 00:00:38,160
+Então para isso eu vou entrar dentro do ponto XML.
+
+7
+00:00:38,160 --> 00:00:43,620
+Esse arquivo é o que descreve o nosso projeto no que diz respeito ao meio vem e a gente vai acrescentar
+
+8
+00:00:43,620 --> 00:00:45,210
+duas dependências aqui.
+
+9
+00:00:45,330 --> 00:00:53,310
+Então eu vou copiar essa dependência que não como eu sei e daqui como ele vê.
+
+10
+00:00:53,530 --> 00:01:01,680
+Uma observação é que vocês vão ver que existe um artigo ou mesmo em anexo um arquivo ou um código que
+
+11
+00:01:01,680 --> 00:01:07,120
+vai te ajudar no preenchimento dessas dependências para você ter que colocar isso manualmente.
+
+12
+00:01:07,260 --> 00:01:13,650
+O ideal é que você vá lá copie e cole para não haver aqui na primeira dependência alguém pouco experiente
+
+13
+00:01:13,660 --> 00:01:17,250
+afirmou que ponto Bush continua exatamente a mesma coisa.
+
+14
+00:01:17,310 --> 00:01:25,360
+Spring multi traço Start continua a mesma coisa só que em vez de web a gente vai colocar data pra isso.
+
+15
+00:01:25,370 --> 00:01:34,260
+JP ou seja exatamente a mesma dependência de senha só que com data traço JP legal salvando aqui você
+
+16
+00:01:34,260 --> 00:01:36,420
+vai ver que ele vai começar a fazer um processo.
+
+17
+00:01:36,990 --> 00:01:42,830
+Eu não consegui me achar na outra vez mas ele vai mostrar que está fazendo um bolo de quinoa espécie
+
+18
+00:01:42,840 --> 00:01:46,120
+obtendo as informações as dependências.
+
+19
+00:01:46,350 --> 00:01:53,940
+E aí no final ele gera o seu projeto com essas dependências inclusas e eu vou precisar também adicionar
+
+20
+00:01:54,190 --> 00:02:02,460
+outra dependência que eu vou usar só o esqueleto mais eu vou precisar digitar só o grupo de arte forte
+
+21
+00:02:02,460 --> 00:02:03,900
+aí vai ser diferente.
+
+22
+00:02:03,920 --> 00:02:16,090
+Então eu vou apagar aqui eu vou apagar aqui e nós vamos digitar um bocadinho mais Kelly assim e artefatos
+
+23
+00:02:16,260 --> 00:02:28,380
+aí vai ser mais que ele traço conectam pra isso já então nós temos mais SQL traço conector traço Java
+
+24
+00:02:28,500 --> 00:02:35,490
+e o grupo aí comecei no mais quer essa dependência é responsável por baixar o driver de comunicação
+
+25
+00:02:35,490 --> 00:02:41,050
+com o banco mais que ele vai fazer o processo de novo eu poderia ter salvo apenas uma incumbência de
+
+26
+00:02:41,090 --> 00:02:43,230
+fazer esse processo uma única vez.
+
+27
+00:02:43,510 --> 00:02:46,830
+Mas como eu salvei ele processou.
+
+28
+00:02:46,830 --> 00:02:50,460
+Agora ele está processando novamente essa outra pendência.
+
+29
+00:02:50,820 --> 00:02:52,790
+O que nós vamos fazer aqui.
+
+30
+00:02:52,860 --> 00:02:58,260
+Como eu estou gravando isso em outra máquina eu não está tendo a nossa aplicação.
+
+31
+00:02:58,380 --> 00:03:04,850
+Se você tiver com a aplicação executando para a aplicação dá um stop nela e inicializar novamente para
+
+32
+00:03:04,860 --> 00:03:10,850
+que todas as dependências sejam consideradas então vou da nossa classe principal que tem um metro e
+
+33
+00:03:10,870 --> 00:03:11,410
+meio.
+
+34
+00:03:11,470 --> 00:03:13,050
+Como está a aplicação.
+
+35
+00:03:13,110 --> 00:03:15,320
+A aplicação vai iniciar.
+
+36
+00:03:15,660 --> 00:03:22,600
+Nós temos que fazer agora outra configuração essa eu não vou digitar EU VOU COPIAR mesmo aqui meu planejamento.
+
+37
+00:03:22,600 --> 00:03:27,930
+O que não faz tanto sentido eu copiar isso normal porque é que nós vamos fazer aqui dentro de um esforço
+
+38
+00:03:27,960 --> 00:03:32,350
+e nossa aplicação inclusive falhou porque a gente não fez essa configuração.
+
+39
+00:03:32,430 --> 00:03:37,210
+Dentre os sócias tem um arquivo chamado Application um ponto Properties.
+
+40
+00:03:37,320 --> 00:03:41,830
+Esse é um arquivo de propriedades Chaves falou e está vazio.
+
+41
+00:03:41,890 --> 00:03:43,530
+Eu vou copiar esse conteúdo.
+
+42
+00:03:43,530 --> 00:03:47,040
+A gente vai discutir um pouquinho do que é que tem nesse conteúdo.
+
+43
+00:03:47,070 --> 00:03:50,290
+Basicamente o que a gente tem aqui eu vou salvar esse arquivo.
+
+44
+00:03:50,310 --> 00:03:57,480
+A gente tem que o experiente ponto data sob esse ponto porque é ele que vai apontar pra J BBC 2 pontos
+
+45
+00:03:57,480 --> 00:04:04,030
+mais SQL 2 pontos Barra BA o nome da minha máquina no caso eu estou acessando o banco que foi definido
+
+46
+00:04:04,030 --> 00:04:05,720
+na minha própria máquina.
+
+47
+00:04:05,850 --> 00:04:13,020
+A porta do banco de dados é a 3 3 0 meia que está rodando por padrão e o nome do banco de dados que
+
+48
+00:04:13,020 --> 00:04:15,200
+eu vou criar vai ser escrito.
+
+49
+00:04:15,270 --> 00:04:17,980
+Então eu vou copiar aqui o nome do banco de dados.
+
+50
+00:04:18,330 --> 00:04:26,400
+Ouvi aqui mas quero me colocar aqui e nós vamos criar um banco de dados também pode criar pelo próprio
+
+51
+00:04:26,400 --> 00:04:33,810
+SQL como eu posso criar diretamente aqui esse ali e mandar que o nome do esquema que eu vou colocar
+
+52
+00:04:33,810 --> 00:04:36,450
+lo experimente aplicar.
+
+53
+00:04:36,990 --> 00:04:44,340
+Ele vai dizer ao cliente esquema Spring Bush manda aplicar e ele vai gerar o banco de dados para a gente
+
+54
+00:04:44,490 --> 00:04:52,500
+fechar aqui e tal como ele deu o erro em alguma coisa especificamente a instalação mas ele criou certamente
+
+55
+00:04:52,520 --> 00:04:54,560
+o banco de dados embutido.
+
+56
+00:04:54,740 --> 00:05:03,070
+As tabelas não foram definidas vai definir os nossos objetos nossos mapear e coragem for trabalhar com
+
+57
+00:05:03,070 --> 00:05:09,220
+elas automaticamente JPL vai gerar o banco para a gente por essa mais fácil sem necessariamente precisar
+
+58
+00:05:09,720 --> 00:05:11,490
+criar um banco de dados.
+
+59
+00:05:11,940 --> 00:05:17,980
+Mas nós já vimos as Kelly então não seria tão difícil você criar um banco de dados mas vão preferir
+
+60
+00:05:17,980 --> 00:05:25,540
+que o próprio Bernard e o próprio JPL gere para o esquema o que vai ficar mais fácil já que nosso objetivo
+
+61
+00:05:25,540 --> 00:05:29,760
+é focar nas Tribute e não propriamente nesse momento no banco de dados.
+
+62
+00:05:30,100 --> 00:05:35,720
+Eu vou lá criei um banco chamado Tribute exatamente com o nome do banco que definiu aqui na minha o
+
+63
+00:05:35,750 --> 00:05:43,810
+Harrier de conexão o meu é usar bem que eu usava e seu usuário rude e a minha senha sendo um banco de
+
+64
+00:05:43,810 --> 00:05:51,770
+dados 1 2 3 4 5 6 7 8 Se você tiver um outro você coloca aqui no que diz respeito ao DD ali alto do
+
+65
+00:05:51,840 --> 00:05:59,860
+deve quer dizer da alta definição leigo ou seja o cliente tem o Alter They Do Drop e tudo que diz respeito
+
+66
+00:05:59,860 --> 00:06:06,160
+à criação do esquema do banco de dados que eu estou dizendo pra ele fazer o dente tem o nome que ele
+
+67
+00:06:06,160 --> 00:06:09,890
+não faz nada tem um update que tenho um drop traço Update.
+
+68
+00:06:10,250 --> 00:06:14,740
+Eu não estou enganado que ele vai para o banco e criar novamente as tabelas.
+
+69
+00:06:14,740 --> 00:06:20,800
+Nós vamos usar sempre o update ele vai sempre criando novas tabelas mas não vai instruiu as tabelas
+
+70
+00:06:20,800 --> 00:06:22,600
+a cada nova execução do sistema.
+
+71
+00:06:22,890 --> 00:06:29,110
+E por último o dialeto A gente pegou aqui uma classe dialeto liberdade para dizer que a gente está usando
+
+72
+00:06:29,230 --> 00:06:37,960
+algo mais que ele na versão 5 usando aqui o BB Ballet tb é um dos tipos de engine e processamento no
+
+73
+00:06:37,960 --> 00:06:43,900
+Banco do mais que KLM que tem restrições tal esse que inseriu um dialeto padrão para trabalhar com mais
+
+74
+00:06:43,900 --> 00:06:52,210
+que outras palavras e isso já que o SQL ele é uma linguagem que ele tem diferenças entre os bancos de
+
+75
+00:06:52,210 --> 00:06:52,560
+dados.
+
+76
+00:06:52,560 --> 00:06:59,290
+Exatamente por isso que o Internet cria essas classes de dialetos para lidar com as diferenças do SQL.
+
+77
+00:06:59,300 --> 00:07:06,670
+Como assim lá a gente está usando o JP só que por baixo o JP vai gerar comandos SQL sejam para criar
+
+78
+00:07:06,670 --> 00:07:13,420
+tabelas sejam para inserir dados para alterar para consultar para excluir tudo isso apesar de a gente
+
+79
+00:07:13,420 --> 00:07:20,380
+ter feito os mapeamentos os mapeamentos servem pra digamos assim a partir de um objeto Java ele conseguia
+
+80
+00:07:20,380 --> 00:07:27,470
+entender onde estão as colunas e a tabela que aquele objeto foi mapeado para daí ele gerar os SQL pra
+
+81
+00:07:27,490 --> 00:07:34,360
+ele gerar um SQL específico por mais que ele tenha um dialeto pra ele em geral o SQL que tem as nuances
+
+82
+00:07:34,360 --> 00:07:38,380
+por exemplo as especificidades do ele precisa do dialeto dórico.
+
+83
+00:07:38,800 --> 00:07:44,230
+Então por isso que a gente também serve aqui como parte da configuração de internet o dialeto.
+
+84
+00:07:44,650 --> 00:07:50,380
+Então nós temos um banco criado nós temos o nosso arquivo Application o próprio X atualizado.
+
+85
+00:07:50,380 --> 00:07:57,550
+Eu não escrevi tudo copiei e nós temos as nossas dependências atualizadas dentro do ponto de XML.
+
+86
+00:07:57,710 --> 00:08:03,170
+Isso eu vou entrar na nossa classe de exercícios vou parar nossa aplicação aqui.
+
+87
+00:08:03,280 --> 00:08:09,160
+Nossa aplicação está parado porque não conseguiu executar de forma correta e agora vou estar lá a nossa
+
+88
+00:08:09,160 --> 00:08:15,460
+aplicação iniciais a ela para que ele possa fazer a conexão com o banco de dados ela é válida a todo
+
+89
+00:08:15,460 --> 00:08:23,350
+o processo aqui e no final das contas a nossa aplicação para tablets uma porta 80 80 se a configuração
+
+90
+00:08:23,350 --> 00:08:29,080
+deu certo ou seja a gente conseguiu de fato conectar com o banco de dados significa que os nossos outros
+
+91
+00:08:29,080 --> 00:08:33,220
+serviços a gente já tinha criado anteriormente o barco vai continuar funcionando.
+
+92
+00:08:33,250 --> 00:08:43,520
+Então para isso eu vou abrir novamente o Brasil para a gente entrar local Roxy 80 80 barra ao lado.
+
+93
+00:08:44,080 --> 00:08:50,830
+Então se ele vai retornar corretamente significa a nossa aplicação continua funcionando mesmo depois
+
+94
+00:08:50,830 --> 00:08:59,290
+de ter colocado a parte da configuração do JP a e especificamente conectando com o nosso banco de dados
+
+95
+00:08:59,400 --> 00:08:59,920
+SQL.
+
+96
+00:09:00,250 --> 00:09:06,080
+Então pra não ficar muito longa já que passou um certo tempo configurando a nossa aplicação proximal
+
+97
+00:09:06,090 --> 00:09:12,260
+a gente retoma pra aí sim a gente fazer a inserção de um produto nós vamos criar com esse modelo em
+
+98
+00:09:12,290 --> 00:09:18,400
+uma loja como a gente vai criar a nossa classe que vai interagir com o JP vocês vão perceber que é muito
+
+99
+00:09:18,400 --> 00:09:24,490
+mais muito mais simples o que o experiente já traz implementações prontas pra gente vai ficar muito
+
+100
+00:09:24,490 --> 00:09:28,660
+fácil interagir com banco de dados gente continua na próxima aula e até lá.

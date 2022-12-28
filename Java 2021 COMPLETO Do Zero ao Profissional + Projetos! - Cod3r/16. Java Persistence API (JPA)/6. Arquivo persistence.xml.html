@@ -1,0 +1,28 @@
+<h4>O arquivo <strong>persistence.xml</strong> utilizado na aula.</h4><p><br></p><pre class="prettyprint linenums">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;persistence version="2.1" 
+    xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"&gt;
+    &lt;persistence-unit name="exercicios-jpa"&gt;
+        &lt;provider&gt;org.hibernate.jpa.HibernatePersistenceProvider&lt;/provider&gt;
+        
+        &lt;mapping-file&gt;META-INF/consultas.xml&lt;/mapping-file&gt;
+        
+        &lt;properties&gt;
+            &lt;property name="javax.persistence.jdbc.driver"
+                value="com.mysql.jdbc.Driver"/&gt;
+            &lt;property name="javax.persistence.jdbc.url"
+                value="jdbc:mysql://localhost/curso_java"/&gt;
+            &lt;property name="javax.persistence.jdbc.user"
+                value="root"/&gt;
+            &lt;property name="javax.persistence.jdbc.password"
+                value="12345678"/&gt;
+            
+            &lt;property name="hibernate.dialect"
+                value="org.hibernate.dialect.MySQL57Dialect"/&gt;
+            &lt;property name="hibernate.show_sql" value="true"/&gt;
+            &lt;property name="hibernate.format_sql" value="true"/&gt;
+            &lt;property name="hibernate.hbm2ddl.auto" value="update"/&gt;
+        &lt;/properties&gt;
+    &lt;/persistence-unit&gt;
+&lt;/persistence&gt;</pre>

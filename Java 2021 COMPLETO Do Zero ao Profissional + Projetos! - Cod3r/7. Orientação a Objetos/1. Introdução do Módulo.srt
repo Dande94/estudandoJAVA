@@ -1,0 +1,107 @@
+1
+00:00:00,390 --> 00:00:05,910
+Estamos começando mais um capítulo do nosso curso de Java completo e nesse capítulo nós vamos falar
+
+2
+00:00:05,910 --> 00:00:08,270
+sobre orientação a objeto.
+
+3
+00:00:08,460 --> 00:00:16,460
+Esse é um tema muito importante porque a linguagem Java é fortemente baseada na esse paradigma de programação
+
+4
+00:00:16,470 --> 00:00:22,560
+paradigma de programação forma que você usa para pensar o software.
+
+5
+00:00:22,590 --> 00:00:28,320
+Existem mais de um paradigma vou comentar com vocês nesse capítulo mas a orientação objeto inclusive
+
+6
+00:00:28,500 --> 00:00:34,900
+já começou a falar sobre ela naquele capítulo que eu falei de classe e método fala no conceito clássico
+
+7
+00:00:35,130 --> 00:00:42,120
+conceito de objeto a relação que existe entre membros de classe e membros de objeto que é a instância
+
+8
+00:00:42,130 --> 00:00:48,330
+tudo isso também tem tudo a ver com a orientação objeto agora a gente vai pegar aquele conhecimento
+
+9
+00:00:48,330 --> 00:00:54,570
+que foi visto nesse capítulo e vamos estender esse conhecimento falando de outros conceitos que são
+
+10
+00:00:54,570 --> 00:01:01,950
+muito importantes a orientação objeto como os pilares orientação objeto quer o que é encapsulamento
+
+11
+00:01:02,110 --> 00:01:09,390
+quer polimorfismo que é a abstração então tudo isso será esmiuçado e detalhado nesse capítulo além de
+
+12
+00:01:09,390 --> 00:01:15,330
+ter vários exercícios e outros conceitos importantes como classe abstrata interface e tudo isso será
+
+13
+00:01:15,330 --> 00:01:21,450
+coberto nesse capítulo então um capítulo também muito importante porque quem diz respeito às bases da
+
+14
+00:01:21,450 --> 00:01:27,690
+linguagem já está chegando um ponto do curso que a gente tem cursos o suficiente para começar a fazer
+
+15
+00:01:27,690 --> 00:01:29,310
+os nossos primeiros projetos.
+
+16
+00:01:29,320 --> 00:01:34,980
+Então eu estou passando por um momento do curso que é a formação da base para que você possa ter a partir
+
+17
+00:01:34,980 --> 00:01:38,720
+dessa base sólida e construir projetos mais realistas.
+
+18
+00:01:38,730 --> 00:01:42,430
+Projetos que realmente tragam funcionalidade em alta.
+
+19
+00:01:42,450 --> 00:01:48,720
+Meu objetivo não é apenas falar das bases mais se mostrar como desenvolver projetos reais em Java mas
+
+20
+00:01:48,720 --> 00:01:56,340
+é muito importante passar por todos esses conceitos coleções Reis classe objeto orientação objeto ou
+
+21
+00:01:56,340 --> 00:01:58,260
+parte de estruturas de controle.
+
+22
+00:01:58,290 --> 00:02:04,140
+Então tudo isso a gente já viu e agora nós estamos entrando na parte de orientação objeto que é um tema
+
+23
+00:02:04,230 --> 00:02:10,170
+que não digamos assim que você vai precisar de vários exercícios vários projetos reais para aí amadurecer
+
+24
+00:02:10,170 --> 00:02:10,770
+esse tema.
+
+25
+00:02:11,070 --> 00:02:16,970
+Mas eu quero que você saiba esse capítulo com os conceitos bem digamos assim sólidos na sua cabeça.
+
+26
+00:02:16,970 --> 00:02:21,020
+E além disso eu quero reforçar esses conceitos com vários exercícios e desafios.
+
+27
+00:02:21,030 --> 00:02:25,380
+Então fico por aqui na próxima aula nas começa começar a entrar de cara nesse tema e até lá.

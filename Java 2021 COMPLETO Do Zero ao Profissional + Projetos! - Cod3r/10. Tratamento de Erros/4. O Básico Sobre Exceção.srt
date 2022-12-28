@@ -1,0 +1,755 @@
+1
+00:00:00,370 --> 00:00:08,310
+Nós vamos agora criar um novo pacote dentro do nosso projeto e nesse pacote nós vamos criar nossos exercícios
+
+2
+00:00:08,310 --> 00:00:11,630
+relacionados a esse capítulo de tratamento do dinheiro.
+
+3
+00:00:11,640 --> 00:00:21,750
+Eu vou colocar o nome do pacote para essa ação então vou colocar aqui essa ação é o nosso primeiro exercício.
+
+4
+00:00:21,750 --> 00:00:30,090
+Vou criar uma classe chamada base com o Java e aqui nós vamos criar o nosso método.
+
+5
+00:00:30,660 --> 00:00:35,820
+Então pra começar a gerar um problema para a gente entender esse primeiro problema depois a gente vai
+
+6
+00:00:36,130 --> 00:00:42,560
+evoluindo aqui no tratamento de então por exemplo se eu pegar aqui assistente pontual de ponto pra gente
+
+7
+00:00:42,600 --> 00:00:48,860
+ali sete dividido por zero por exemplo isso aqui vai dar um erro e executando.
+
+8
+00:00:48,870 --> 00:00:55,170
+Você vai ver que ele vai mostrar aqui a nossa pilha de execução que é essa ação básico ponto meio ou
+
+9
+00:00:55,170 --> 00:00:58,520
+seja o nosso único método da nossa aplicação.
+
+10
+00:00:58,590 --> 00:01:03,150
+O problema aconteceu no arquivo básico o ponto Java na Linha 7.
+
+11
+00:01:03,150 --> 00:01:10,680
+Exatamente essa linha que aconteceu o problema e aconteceu com essa ação ele chamou aqui na thread principal
+
+12
+00:01:11,050 --> 00:01:16,650
+certa tradição linhas de execução você pode executar o seu código em múltiplas linhas de execução ou
+
+13
+00:01:16,650 --> 00:01:23,070
+seja múltiplas trades e isso ele vai dizer pra você que thread ocorreu o problema no caso o que aconteceu
+
+14
+00:01:23,070 --> 00:01:29,760
+na parede principal que é que a trágica criada quando seu programa executa o tipo de erro que foi gerado
+
+15
+00:01:29,880 --> 00:01:32,170
+o tipo aritmético X.
+
+16
+00:01:32,220 --> 00:01:37,520
+Ou seja é aqui a mensagem de erro dividido por zero a mensagem de erro.
+
+17
+00:01:37,620 --> 00:01:41,430
+Algumas linguagens geram isso como sendo infinito.
+
+18
+00:01:41,430 --> 00:01:48,310
+Se eu pegar por exemplo aqui o Chrome não necessariamente todas as linguagens tratam os erros nas mesmas
+
+19
+00:01:48,330 --> 00:01:49,100
+formas.
+
+20
+00:01:49,140 --> 00:01:58,720
+Não sei se isso é claro pra todo mundo mas se eu pegar em Java ou console o login e eu colocar 7 hackear
+
+21
+00:01:59,130 --> 00:02:06,150
+JavaScript sai melhor dizendo 7 dividido puseram executar ele vai daqui e fingir ou seja infinito.
+
+22
+00:02:06,150 --> 00:02:12,930
+Já o Java que é totalmente diferente do JavaScript não pelos nomes Java JavaScript ou por uma questão
+
+23
+00:02:12,930 --> 00:02:18,800
+mais de marketing do que propriamente de filosofias que são linguagens que têm filosofias diferentes
+
+24
+00:02:18,900 --> 00:02:26,700
+embora as duas linguagens tenham sido inspirado do ponto de vista de sintaxe do c a usam chaves é tal
+
+25
+00:02:26,700 --> 00:02:28,920
+que veio do C digamos assim.
+
+26
+00:02:28,950 --> 00:02:34,260
+Ponto e vírgula no final da sentença e coisas do tipo mais são linguagens que têm filosofias bem diferentes
+
+27
+00:02:34,360 --> 00:02:39,850
+caso o JavaScript ele gera um valor infinito no caso do Java ele gera uma exceção.
+
+28
+00:02:39,930 --> 00:02:44,700
+Então aqui é um problema e eu preciso tratar esse problema porque se eu quiser chegar no fim do meu
+
+29
+00:02:44,700 --> 00:02:51,000
+programa colocando aqui Finn você vai ver que ele não vai chegar no fim do programa porque a execução
+
+30
+00:02:51,000 --> 00:02:54,520
+foi interrompida de forma abrupta a partir de uma sessão.
+
+31
+00:02:54,580 --> 00:03:00,000
+O outro cenário também bem conhecido é que há pouca gente trata esse erro é o seguinte imagine que eu
+
+32
+00:03:00,000 --> 00:03:09,700
+tenho aqui uma função método então públicos estáticos colocar Boyd é o nome dessa função será imprimir
+
+33
+00:03:10,350 --> 00:03:13,230
+algum e eu vou usar o aluno que eu peguei.
+
+34
+00:03:13,230 --> 00:03:19,470
+Outro capítulo então vou importar de outro capítulo certo aqui eu vou receber o aluno deixa deixou copiar
+
+35
+00:03:19,470 --> 00:03:26,820
+melhor porque para não gerar problema vou dar um contra o Zé comprovar aqui ele é uma cópia do aluno
+
+36
+00:03:26,820 --> 00:03:30,300
+eu vou importam qual Kaká exatamente o mesmo aluno.
+
+37
+00:03:30,300 --> 00:03:35,500
+Estou muito preocupado com o conteúdo de Halloween propriamente dito não é aqui eu vou simplesmente
+
+38
+00:03:35,510 --> 00:03:43,380
+em qualquer imprimi acho que o nome do aluno e vou chamar um sistema de primeira ali em italiano algum
+
+39
+00:03:43,730 --> 00:03:44,940
+outro nome.
+
+40
+00:03:45,420 --> 00:03:50,820
+Esse é o tipo de método que ele está vulnerável porque ele está vulnerável porque você pode passar um
+
+41
+00:03:50,820 --> 00:03:51,640
+aluno nulo.
+
+42
+00:03:51,660 --> 00:03:58,100
+é até possível que isso seja sua intenção digamos assim gerar um erro se alguém passar um valor nulo
+
+43
+00:03:58,120 --> 00:04:00,120
+ou sequer gerar o erro não tem problema.
+
+44
+00:04:00,420 --> 00:04:03,560
+Inclusive você pode gerar até um outro erro sem problema nenhum.
+
+45
+00:04:03,870 --> 00:04:09,600
+Mas aqui do jeito que está se você quiser que esse método funcione mesmo quando um aluno não é passado
+
+46
+00:04:10,050 --> 00:04:14,610
+esse código não está legal com o que você está usando um aluno sem saber se esse aluno realmente existe.
+
+47
+00:04:14,700 --> 00:04:24,470
+Então se eu vim aqui criar um aluno um aluno por exemplo recebe um nulo ou seja não tem ou não tem nenhum
+
+48
+00:04:24,480 --> 00:04:33,300
+instância não criei nenhum aluno pra cá e vou chamá lo imprimi o nome do aluno passando qual seja como
+
+49
+00:04:33,300 --> 00:04:40,730
+parâmetro esse aqui também gerará um erro que te acolheu será gerado aqui no cérebro então executado.
+
+50
+00:04:40,740 --> 00:04:47,070
+Você vai ver que gerou um problemão agora está aqui já aumentou você tem um método básico também na
+
+51
+00:04:47,070 --> 00:04:54,210
+linha 9 que chamou o método básico o ponto de imprimir o nome do aluno na linha 17 dentro do arquivo
+
+52
+00:04:54,210 --> 00:05:02,450
+básico ponto Java a 17 ocorreu o problema exatamente aqui na linha 17 e aqui a técnica o conceito de
+
+53
+00:05:02,450 --> 00:05:08,720
+pilha será exibido na mensagem o que com mais tem só 2 metros a pilha é bem pequena em cima nós temos
+
+54
+00:05:08,870 --> 00:05:12,840
+a mensagem no tipo de sessão que aconteceu no ponto certo.
+
+55
+00:05:12,990 --> 00:05:16,760
+E essa é um tipo de exceção que não tem nenhuma mensagem associada.
+
+56
+00:05:16,760 --> 00:05:22,070
+Se tiver a mensagem associada você vai ver que logo depois do tipo da sessão vem mais um texto.
+
+57
+00:05:22,450 --> 00:05:28,190
+Ou seja se eu comentar essa linha e acertar novamente você vai ver o tipo de sessão agora aconteceu
+
+58
+00:05:28,190 --> 00:05:29,090
+no metro Men.
+
+59
+00:05:29,180 --> 00:05:37,160
+Era o tipo aritmético que e dois pontos logo depois você está tendo a mensagem de que é um bar de visão
+
+60
+00:05:37,500 --> 00:05:38,320
+vazio.
+
+61
+00:05:38,510 --> 00:05:43,370
+Então quando você tem mensagem você tem os dois pontos como você não tem mensagem ele simplesmente dá
+
+62
+00:05:43,940 --> 00:05:45,060
+a exceção no caso.
+
+63
+00:05:45,060 --> 00:05:48,730
+Como é que serve para a gente tratar o erro.
+
+64
+00:05:48,740 --> 00:05:57,050
+A gente vai precisar colocar um bloco chamado trai é associado ao outro e você tem que ter um 7 um fim
+
+65
+00:05:57,060 --> 00:06:00,770
+aí eu vou explicar os dois mas nessa linha falar um pouquinho mais do.
+
+66
+00:06:01,310 --> 00:06:08,090
+Então esse bloco assim como é um bloco f só a função define um bloco.
+
+67
+00:06:08,120 --> 00:06:15,890
+A classe define um bloco um bloco definido como parte de Chaves e então coloco aqui abro um par de chaves
+
+68
+00:06:16,330 --> 00:06:22,520
+e dentro desse par de chaves eu vou colocar um código que pode gerar algum tipo de problema em cima
+
+69
+00:06:22,610 --> 00:06:23,960
+associado a esse trainee.
+
+70
+00:06:23,960 --> 00:06:28,080
+Eu posso colocar um ou mais blocos do tipo CAD.
+
+71
+00:06:28,230 --> 00:06:35,780
+Eu vou colocar aquele sabichão de forma geral vou chamar aqui de chefe não posso colocar exceção sem
+
+72
+00:06:35,780 --> 00:06:37,170
+problema nenhum.
+
+73
+00:06:37,280 --> 00:06:40,400
+Essa ação é associado a esse bloco.
+
+74
+00:06:40,400 --> 00:06:44,950
+Eu posso pegar essa ação e mostrar por exemplo alguma causa.
+
+75
+00:06:44,990 --> 00:06:47,440
+Eu posso simplesmente dizer que aconteceu algo.
+
+76
+00:06:47,630 --> 00:06:49,550
+Por exemplo eu vou colocar aqui.
+
+77
+00:06:49,640 --> 00:07:09,780
+Ocorreu um erro na no momento de imprimir o nome do usuário é muito grande mas não tem problema não
+
+78
+00:07:09,980 --> 00:07:13,450
+um até pra ele quebrar em 12 dias consigo ler a mensagem inteira.
+
+79
+00:07:13,470 --> 00:07:20,820
+Então em outras palavras ele vai conseguir passar esse código vai gerar um erro que ele vai cair no
+
+80
+00:07:20,900 --> 00:07:26,540
+card porque gerou um erro mas depois ele vai gerar um outro problema aqui embaixo porque eu dividir
+
+81
+00:07:26,580 --> 00:07:34,290
+7 puseram no Java o infinito vai gerar um problema então etanol primeiramente ele colocou aqui não sei
+
+82
+00:07:34,290 --> 00:07:40,860
+exatamente a hora tá mas ele colocou que ocorreu um erro no momento de imprimir o nome do usuário e
+
+83
+00:07:40,860 --> 00:07:44,350
+logo depois ele executou escolhe o que gerou um problema.
+
+84
+00:07:44,370 --> 00:07:46,140
+Pega no site e depuseram.
+
+85
+00:07:46,310 --> 00:07:50,880
+Eu vou colocar agora um outro bloco você pode fazer a seguinte uma dica legal aqui na equipe se você
+
+86
+00:07:50,880 --> 00:07:56,440
+selecionar esse trecho você clicar com o botão direito tem a opção que é o surreal.
+
+87
+00:07:56,590 --> 00:08:03,380
+O FN e envolva com ela você pode usar contrai Cat Block.
+
+88
+00:08:03,380 --> 00:08:12,630
+No meu caso se eu usar o alt como Z ele vai me dar opção então ao selecionar essa linha algo como dizer
+
+89
+00:08:12,960 --> 00:08:20,100
+ele vai me dar que atrai Cat Block e quando ele vai envolver esse trecho com um bloco do tipo traficante
+
+90
+00:08:20,190 --> 00:08:23,610
+colocou essa ação de forma genérica aqui.
+
+91
+00:08:23,640 --> 00:08:30,390
+Mas como eu sei que esse problema tá sendo um erro aritmético eu posso selecionar essa exceção que também
+
+92
+00:08:30,390 --> 00:08:34,410
+faz parte de Java ponto Lenny e por isso eu não preciso importar.
+
+93
+00:08:34,410 --> 00:08:41,410
+Eu posso tratar um erro especifico que eu tanto posso tratar de forma mais genérica que não é o padrão
+
+94
+00:08:41,410 --> 00:08:46,090
+não é a forma mais indicada para você seguir tratados de forma genérica.
+
+95
+00:08:46,110 --> 00:08:50,970
+O ideal é que você tenha consciência de quais são os erros que podem acontecer em determinado código
+
+96
+00:08:50,970 --> 00:08:54,700
+e a partir dali você tentar tratar de forma mais específica mais.
+
+97
+00:08:54,720 --> 00:08:59,760
+Muitas vezes é comum que você realmente queira tratar de forma genérica porque não importa o erro.
+
+98
+00:08:59,760 --> 00:09:04,320
+A única coisa que você vai fazer vai ser mandar a mensagem para o usuário habitualmente tratado de forma
+
+99
+00:09:04,320 --> 00:09:10,370
+genérica não é um problema extremamente grande mas sempre que você puder tratar de forma específica
+
+100
+00:09:10,400 --> 00:09:14,210
+realmente tem a consciência de quais erros podem acontecer.
+
+101
+00:09:14,210 --> 00:09:20,190
+Um trecho de código muito provavelmente você vai ter coisas mais relevantes pra documentar ou logar
+
+102
+00:09:20,190 --> 00:09:26,760
+esse erro ou fazer algum tipo de processamento por baixo pra tentar tratar o erro de forma mais específica
+
+103
+00:09:26,760 --> 00:09:29,600
+possível e aí te ajudar a resolver o problema.
+
+104
+00:09:29,610 --> 00:09:35,610
+Quando você mata do seu sistema para a produção quanto mais você destrinchar as mensagens geram quanto
+
+105
+00:09:35,610 --> 00:09:41,880
+mais você logo isso e coloca dentro de um arquivo pra depois você consultar e isso entender como resolver
+
+106
+00:09:42,330 --> 00:09:44,870
+melhor e mais fácil será manter o seu sistema.
+
+107
+00:09:45,270 --> 00:09:51,350
+Então aqui nós fizemos um system on line gerou um problema e aqui eu peguei o erro que foi gerado que
+
+108
+00:09:51,360 --> 00:09:57,250
+novamente coloca só letra e é que eu chamei o método que está presente na seção que é o print instrui
+
+109
+00:09:57,430 --> 00:10:03,540
+Prince se ele vai imprimir a pilha de execução ou seja em que ponto aconteceu o problema ou em que ponto
+
+110
+00:10:03,540 --> 00:10:05,660
+essa exceção foi lançada.
+
+111
+00:10:05,670 --> 00:10:11,640
+Eu já tem essa informação pra gente não executando nesse caso agora você vai perceber que como os dois
+
+112
+00:10:11,640 --> 00:10:18,210
+erros gerados foram tratados usando maquete ele vai chegar no fim da nossa aplicação imprimir essa linha
+
+113
+00:10:18,210 --> 00:10:21,180
+que em nenhum momento até agora tinha sido impresso.
+
+114
+00:10:21,230 --> 00:10:26,400
+E caso você tenham ocorreu um erro no momento de imprimir o nome do usuário.
+
+115
+00:10:26,400 --> 00:10:32,540
+Depois ele imprimiu essa ação e finalmente ele colocou fim ela executou na ordem certa mas esse Prince
+
+116
+00:10:32,540 --> 00:10:37,850
+Tetris se ele não é assim como ele pode ser executado fora de hora por isso que a mensagem pela ordem
+
+117
+00:10:37,840 --> 00:10:44,040
+é diferente mais se eu não usar ele por exemplo aqui eu colocar por exemplo o System Audio presente
+
+118
+00:10:44,040 --> 00:10:46,320
+ali ocorreu
+
+119
+00:10:49,380 --> 00:10:54,690
+o erro 2 pontos e aqui é usar e pouco de.
+
+120
+00:10:54,930 --> 00:11:00,900
+Você vai ver que ele vai mostrar na mensagem primeiro com o erro no momento de inserir imprimi o usuário
+
+121
+00:11:00,900 --> 00:11:06,420
+depois ocorreu um erro pega na mensagem no ponto e não tem mensagem por isso como eu mostrei no primeiro
+
+122
+00:11:06,480 --> 00:11:13,530
+dia essa ação aritmética tem sim mensagem de erro eu achar para vocês agora atacando mais uma vez tem
+
+123
+00:11:13,660 --> 00:11:17,370
+ocorreu um erro no momento de imprimir o nome do usuário.
+
+124
+00:11:17,400 --> 00:11:20,270
+Depois ocorreu um erro e visão puseram.
+
+125
+00:11:20,650 --> 00:11:26,970
+E finalmente mostrei aqui pra vocês o resultado final seja no nosso código terminou de forma bem sucedida
+
+126
+00:11:26,980 --> 00:11:27,480
+por quê.
+
+127
+00:11:27,480 --> 00:11:31,940
+Por mais que tenham ocorrido erros eu tratei os erros e ele seguiu o fluxo normal até o final.
+
+128
+00:11:31,950 --> 00:11:37,360
+Então nessa aula eu apresentei pra vocês dois erros e mostrei o trai e o CAT.
+
+129
+00:11:37,740 --> 00:11:44,340
+Basicamente é essa a informação mais importante que você entender aqui o bloco é um bloco um bloco que
+
+130
+00:11:44,340 --> 00:11:49,920
+tem código que pode gerar erro e a partir desse momento que aquele código pode gerar o erro você pode
+
+131
+00:11:49,920 --> 00:11:51,340
+tratar se você quiser.
+
+132
+00:11:51,630 --> 00:11:58,980
+Eu a partir de um candidatando eu enquete Você tem de mostrar a mensagem Você tem a possibilidade de
+
+133
+00:11:58,980 --> 00:12:00,340
+gerar um outro erro.
+
+134
+00:12:00,480 --> 00:12:05,340
+Eu vou mostrar isso em outro exercício você também tem a possibilidade de silenciar o erro embora esse
+
+135
+00:12:05,340 --> 00:12:06,720
+não seja uma boa prática.
+
+136
+00:12:06,750 --> 00:12:13,020
+Você pode sim silenciar em momentos muito específicos coisas que você tem certeza que não vai dar problema.
+
+137
+00:12:13,380 --> 00:12:21,480
+Mas eu me lembro de um colega que ele colocou um traficante e ele fez mais ou menos assim ou ele comentou
+
+138
+00:12:21,480 --> 00:12:30,030
+Não tinha nada nenhum código dentro e ele colocou o seguinte comentário nunca chegará aqui e aí de alguma
+
+139
+00:12:30,030 --> 00:12:37,290
+forma depois ele colocou pra essa informação sei se ele cai aqui dentro e entra num arquivo né colocar
+
+140
+00:12:37,290 --> 00:12:42,180
+por exemplo a informação aqui a mensagem para quem te conhece e parar depois.
+
+141
+00:12:42,390 --> 00:12:48,930
+Na primeira vez que a gente publicou o sistema em produção ou seja exatamente no local que ele achava
+
+142
+00:12:48,930 --> 00:12:54,090
+que nunca poderia entrar foi o primeiro e o que aconteceu seja ele entrou em um erro que a gente esperava
+
+143
+00:12:54,090 --> 00:12:57,120
+que acontecesse em produção e foi o primeiro banho.
+
+144
+00:12:57,120 --> 00:13:02,730
+Tanto é que a gente riu muito depois porque o comentário que estava no ponto em que aconteceu o problema
+
+145
+00:13:02,730 --> 00:13:08,610
+tinha um comentário que nunca iria entrar ali e nunca ia chegar nesse ponto porque era só uma mera formalidade
+
+146
+00:13:08,610 --> 00:13:09,120
+tratar.
+
+147
+00:13:09,540 --> 00:13:15,420
+Então às vezes você silenciar uma exceção ou seja silenciar uma exceção significa que você vai colocar
+
+148
+00:13:15,520 --> 00:13:19,790
+um bloco quente e simplesmente você não vai fazer nada aqui dentro.
+
+149
+00:13:19,860 --> 00:13:25,830
+Ou seja se eu fizer aí é só mostrar pra vocês e acertar o código você vai perceber que não aconteceu
+
+150
+00:13:25,830 --> 00:13:32,440
+nada simplesmente ele foi até o final gerou o problema você caiu no teste mas você não fez nada no CAT
+
+151
+00:13:32,450 --> 00:13:37,830
+significa que ele vai está como se nada tivesse acontecido só que aconteceram dois erros e você silenciar
+
+152
+00:13:37,830 --> 00:13:40,060
+os erros e simplesmente você calar.
+
+153
+00:13:40,110 --> 00:13:46,260
+O erro que foi gerado você pode usar isso como falei nem coisas muito pontuais muito específicas mas
+
+154
+00:13:46,260 --> 00:13:53,130
+você precisa ter muito cuidado o que acontece quando você precisa silenciar o erro ou você precisa digamos
+
+155
+00:13:53,130 --> 00:14:00,760
+assim não fazer nada como já acontece e dentro do erro você vai logar isso dentro de um arquivo que
+
+156
+00:14:00,770 --> 00:14:04,390
+é logar e o que é você que faz muito sentido também no tratamento.
+
+157
+00:14:04,390 --> 00:14:11,670
+Dinheiro e você jogar digamos assim a mensagem de erro pra dentro de um arquivo anexo a aplicação está
+
+158
+00:14:11,670 --> 00:14:12,430
+executando.
+
+159
+00:14:12,510 --> 00:14:15,840
+Então imagine que você tem uma aplicação que está rodando na web.
+
+160
+00:14:15,960 --> 00:14:17,660
+Usuário acesse seu site.
+
+161
+00:14:17,700 --> 00:14:22,350
+Acontece o erro que você não quer jogar isso para o usuário é um erro que dá para ser digamos assim
+
+162
+00:14:22,350 --> 00:14:25,100
+não precisa informar o usuário que aconteceu aquele cheiro.
+
+163
+00:14:25,230 --> 00:14:27,680
+Você pode salvar toda a mensagem de erro.
+
+164
+00:14:27,760 --> 00:14:30,040
+Toda a pilha de execução.
+
+165
+00:14:30,150 --> 00:14:35,220
+O tipo de erro gerado colocado dentro de um arquivo texto e esse arquivo pode ser consumido em outro
+
+166
+00:14:35,220 --> 00:14:41,170
+momento alguém vai lá ou eu quero o arquivo de log que é um arquivo texto lá do servidor.
+
+167
+00:14:41,700 --> 00:14:46,340
+E aí o usuário por exemplo alienado ou tentava acessando o site por volta de um e-mail.
+
+168
+00:14:46,350 --> 00:14:49,190
+Eu tentei fazer a operação tal e deu problema.
+
+169
+00:14:49,350 --> 00:14:54,320
+A beleza foi um e-mail ao anotar o IMEI mais ou menos um e-mail vou lá no arquivo de log.
+
+170
+00:14:54,390 --> 00:14:59,820
+Todos os erros eles são normalmente quando você coloca dentro de um arquivo você diz a hora que aconteceu
+
+171
+00:14:59,820 --> 00:15:02,730
+o erro e a mensagem de erro e você vai lá no servidor.
+
+172
+00:15:02,820 --> 00:15:07,020
+E aí pegando por exemplo mais ou menos 1 hora e 20 até duas horas da tarde você vai dar uma olhada no
+
+173
+00:15:07,020 --> 00:15:12,580
+log e ver todos os erros que acontecendo provavelmente você a partir dessas mensagens vai descobrir
+
+174
+00:15:12,580 --> 00:15:16,410
+o que potencialmente pode ter causado o erro que o usuário reportou.
+
+175
+00:15:16,920 --> 00:15:22,940
+Então quando você quer silenciar o mínimo que você faz na prática é colocar isso dentro de um arquivo
+
+176
+00:15:22,940 --> 00:15:25,820
+pra daí você conseguir investigar o que é que está acontecendo.
+
+177
+00:15:25,830 --> 00:15:37,020
+Se você procurar dentro daquilo no Google por exemplo coloque o Java logo lá Larry biota de log in set
+
+178
+00:15:37,090 --> 00:15:38,880
+talvez usado pelo log.
+
+179
+00:15:39,250 --> 00:15:46,080
+Ele vai mostrar várias opções que você tem logo Ford ui que essa é uma das mais usadas.
+
+180
+00:15:46,170 --> 00:15:52,150
+Você tem várias possibilidades pra você usar bibliotecas que vão te ajudar alongar o sistema.
+
+181
+00:15:52,200 --> 00:15:57,510
+Isso é um assunto interessante porque está também relacionado com isso e eventualmente mais para a frente
+
+182
+00:15:57,510 --> 00:16:01,010
+em que pode usar uma ferramenta como essa para alugar um sistema.
+
+183
+00:16:01,440 --> 00:16:06,710
+Talvez um projeto final do nosso set mais algum importante algo que vale a pena ser mencionado.
+
+184
+00:16:06,870 --> 00:16:12,360
+Quando você for por exemplo se precisar silenciar uma exceção que eventualmente pode ser algo útil pelo
+
+185
+00:16:12,360 --> 00:16:19,260
+menos log o que aconteceu nessa sessão para assim acontecer alguma coisa você tem esse registro e a
+
+186
+00:16:19,260 --> 00:16:22,130
+partir daí você conseguir tentar resolver um eventual problema.
+
+187
+00:16:22,140 --> 00:16:22,970
+Então fico por aqui.
+
+188
+00:16:22,970 --> 00:16:29,130
+Pessoal fizemos nosso primeiro exercício básico de tratamento de erro usando um bloco de raquete na
+
+189
+00:16:29,130 --> 00:16:31,770
+próxima a gente continua fazendo mais exercícios e até lá.

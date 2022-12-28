@@ -1,0 +1,271 @@
+1
+00:00:00,270 --> 00:00:05,470
+Só na sala vou lançar para vocês um novo desafio e aí lembrando que já falei isso algumas vezes eu acho
+
+2
+00:00:05,470 --> 00:00:07,690
+que eu falei tenho quase certeza relaxa.
+
+3
+00:00:07,750 --> 00:00:12,510
+Se não conseguir fazer os desafios o mais importante principalmente para quem está começando e tentar
+
+4
+00:00:12,980 --> 00:00:18,120
+é o fato de não conseguir isso não é ruim porque com certeza quando você não consegue ver o resultado
+
+5
+00:00:18,120 --> 00:00:22,970
+sendo feito e na sua tela logo na sequência isso gera muito aprendizado.
+
+6
+00:00:23,100 --> 00:00:29,060
+E eu quero deixar claro para vocês que isso não pode ser um fator de motivação muito importante que
+
+7
+00:00:29,070 --> 00:00:31,900
+você tem de fazer e não conseguir faz parte.
+
+8
+00:00:31,920 --> 00:00:37,640
+Eu na minha vida profissional na minha carreira de programador muitos mais muitos desafios Eu não consegui
+
+9
+00:00:37,650 --> 00:00:41,390
+precisei de ajuda de outras pessoas e isso é extremamente normal.
+
+10
+00:00:41,440 --> 00:00:42,870
+Então clicando aqui.
+
+11
+00:00:43,040 --> 00:00:49,830
+Mas vamos definir uma nova classe o nome dessa classe será desafio aritméticos.
+
+12
+00:00:50,070 --> 00:00:56,410
+Certo Ele vai criar um arquivo Java também no final das contas e nós vamos criar o nosso método.
+
+13
+00:00:56,790 --> 00:01:01,380
+Eu quero falar pra você antes de mostrar o desafio quero falar um requisito um pré requisito para esse
+
+14
+00:01:01,380 --> 00:01:08,820
+desafio que é o seguinte porque você tem uma variável que pode ser o resultado de uma operação por exemplo
+
+15
+00:01:09,240 --> 00:01:12,420
+não importa no multiplicação se tem uma variável aqui.
+
+16
+00:01:12,410 --> 00:01:16,120
+Você pegou o resultado de uma expressão armazenou na variável A.
+
+17
+00:01:16,200 --> 00:01:23,460
+Vamos supor que você quer criar uma variável B inteira que vai ser elevado à terceira potência.
+
+18
+00:01:23,460 --> 00:01:30,090
+Como é que eu posso fazer isso em Java em Java tem uma classe chamada mas é dentro dessa classe média
+
+19
+00:01:30,100 --> 00:01:36,660
+e uma clara tem uma funcionalidade chamada power ou seja P ou W de potência.
+
+20
+00:01:36,990 --> 00:01:43,050
+E aqui você coloca o valor da variável a seu primeiro parâmetro o valor da variável que você quer ela
+
+21
+00:01:43,070 --> 00:01:43,900
+marca.
+
+22
+00:01:44,130 --> 00:01:52,350
+A Terceira Potência não coloco a ela para três certo nesse caso seu olhar que ajuda o resultado de Paula
+
+23
+00:01:52,740 --> 00:01:55,740
+vai ser mudado e não o valor inteiro.
+
+24
+00:01:55,740 --> 00:02:01,630
+Eu posso aqui como eu sei que o resultado será um inteiro eu posso se quiser fazer um teste então coloco
+
+25
+00:02:01,630 --> 00:02:08,190
+que o índice e o resultado será armazenado inteiro sem problema nenhum como eu posso se quiser mudar
+
+26
+00:02:08,280 --> 00:02:13,620
+a variável para ser do tipo W que é um exemplo de caixa que eu precisei fazer na praia acho legal você
+
+27
+00:02:13,620 --> 00:02:16,520
+está evoluindo e falando de outras coisa que você vai pegar.
+
+28
+00:02:16,650 --> 00:02:19,920
+Conhecimentos visto anteriormente já aplica na prática.
+
+29
+00:02:19,920 --> 00:02:25,140
+Aqui eu tomei uma decisão não quero ter um Estado inteiro então vou precisar fazer um teste já que a
+
+30
+00:02:25,140 --> 00:02:32,700
+função Palm retorna um valor do tipo W e o resultado dessa operação que vai ser exatamente o valor de
+
+31
+00:02:32,710 --> 00:02:42,560
+B eu tenho vou pagar um valor menor então quatro vezes três vai dar 12 e eu vou colocar no final e tracei
+
+32
+00:02:42,840 --> 00:02:46,770
+menos 10 ou seja o resultado já vai dar 2 2 alarmada.
+
+33
+00:02:46,770 --> 00:02:50,400
+3 O resultado vai ser 8 então resetar um resultado 8.
+
+34
+00:02:50,400 --> 00:02:52,500
+Fica mais fácil para a gente monitorar o resultado.
+
+35
+00:02:52,500 --> 00:02:56,300
+Então a dica é essa se você precisar elevar o número.
+
+36
+00:02:56,340 --> 00:03:03,510
+A segunda potência ou Terceira Potência décima potência baixa você colocar o número que você quer coloca
+
+37
+00:03:03,630 --> 00:03:10,590
+a potência e o resultado dessa operação vai ser um número elevado alguma coisa e você pode nesse caso
+
+38
+00:03:10,590 --> 00:03:12,750
+colocar o valor se duplicar.
+
+39
+00:03:12,760 --> 00:03:19,890
+Aqui você pode colocar como sendo um valor inteiro ou então se você criar o variável sei do tipo W.
+
+40
+00:03:19,910 --> 00:03:21,480
+Também não vai dar problema.
+
+41
+00:03:21,490 --> 00:03:27,680
+7 ou seja o resultado é um valor C aqui se eu pegar o valor se a única diferença que nesse caso vai
+
+42
+00:03:27,680 --> 00:03:34,080
+dar 8 e não sei mandar 8 pontos 0 mas é claro não vai ter diferença em termos de valor final.
+
+43
+00:03:34,080 --> 00:03:39,930
+Mais um artigo da lei outro artigo inteiro então esse é um pré requisito para o nosso exercício não
+
+44
+00:03:39,930 --> 00:03:46,020
+tem necessariamente a ver com um algoritmo que você vai precisar fazer para executar mas com certeza
+
+45
+00:03:46,020 --> 00:03:48,310
+você vai precisar usar um pouco de.
+
+46
+00:03:48,750 --> 00:03:54,450
+Então essa é a expressão que representa o nosso desafio que é o seguinte você tem uma fórmula.
+
+47
+00:03:54,570 --> 00:03:59,730
+Essa forma tem vários colchetes e várias chaves pra daqui a questão de precedência na quinta além de
+
+48
+00:03:59,880 --> 00:04:02,930
+Chaves executado antes de colchetes também.
+
+49
+00:04:02,940 --> 00:04:07,100
+E aí a ideia é você resolver as partes dessa equação salvando em variáveis.
+
+50
+00:04:07,110 --> 00:04:12,510
+Então você pode criar uma variável para representar essa fórmula aqui em cima depois vou trabalhar para
+
+51
+00:04:12,510 --> 00:04:18,320
+representar essa fórmula e aí você pega o resultado dessa operação que depois a leva ao quadrado.
+
+52
+00:04:18,330 --> 00:04:23,970
+Depois subtrai o resultado dessa expressão adequada ao quadrado com essa outra expressão depois leva
+
+53
+00:04:23,970 --> 00:04:27,420
+tudo ao cubo e depois divide por 10 elevado ao cubo certo.
+
+54
+00:04:27,430 --> 00:04:29,070
+Eu já fiz a resolução aqui né.
+
+55
+00:04:29,070 --> 00:04:29,890
+Como é que seria.
+
+56
+00:04:29,940 --> 00:04:33,280
+Isso aqui só pra você testar vai dar o Estado 150.
+
+57
+00:04:33,330 --> 00:04:40,230
+Essa expressão aqui vai dar um estado 100 aqui vai ficar 50 levada a 3 e 10 elevado a 3 em baixo o resultado
+
+58
+00:04:40,230 --> 00:04:45,870
+vai dar 125 certo então se já tem resolução a ideia aqui não é apenas usar os operadores aritméticos
+
+59
+00:04:45,870 --> 00:04:54,570
+você tem só tem subtração multiplicação e divisão mas eu também quero que vocês organizem essa fórmula
+
+60
+00:04:54,570 --> 00:05:02,240
+imparcial que você quebre o problemas em variáveis armazene os valores aqui nessas variáveis o resultado
+
+61
+00:05:02,270 --> 00:05:05,510
+você vai fazer novas operações guarda novas variáveis.
+
+62
+00:05:05,510 --> 00:05:06,960
+No final você tem um resultado.
+
+63
+00:05:06,970 --> 00:05:12,660
+A expressão é um problema que diz respeito não apenas às operações aritméticas mas mais do que isso
+
+64
+00:05:12,660 --> 00:05:17,330
+e como você vai organizar as variáveis pra quebrar direitinho essa fórmula grande porque se você colocar
+
+65
+00:05:17,330 --> 00:05:20,810
+essa fórmula inteira numa única expressão dá certo.
+
+66
+00:05:21,170 --> 00:05:26,150
+Mas vai ficar um cone muito ilegível mas o ideal é que você consiga quebrar essa expressão maior em
+
+67
+00:05:26,150 --> 00:05:30,890
+partes e aí sim você começar a resolver o problema de uma forma muito mais fácil de intervir.
+
+68
+00:05:30,960 --> 00:05:34,040
+O código então figura aqui na próxima aula a resposta e até lá.

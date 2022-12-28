@@ -1,0 +1,275 @@
+1
+00:00:00,230 --> 00:00:06,600
+Nós vamos falar agora sobre recursividade recursividade uma técnica bem simples que você tem uma função
+
+2
+00:00:06,930 --> 00:00:09,950
+que chama ela mesmo para resolver um determinado problema.
+
+3
+00:00:09,960 --> 00:00:16,500
+Pode ser um problema matemático como por exemplo o fatorial ele pode ser resolvido de forma recursiva.
+
+4
+00:00:16,500 --> 00:00:22,200
+Eu vou mostrar um exemplo fazendo de forma recursiva e fazendo o sensei de forma recursiva pra você
+
+5
+00:00:22,200 --> 00:00:29,550
+comparar as duas implementações mas existem muitos cenários onde você pode usar algoritmos recursivos
+
+6
+00:00:29,670 --> 00:00:34,680
+uma vez implementa um campo minado e quando o usuário clica no botão ele pode ter uma bomba quando não
+
+7
+00:00:34,680 --> 00:00:40,100
+tem ele sai explodindo tudo o que tem ao redor que não tem bomba certo.
+
+8
+00:00:40,240 --> 00:00:47,190
+E aí esse algoritmo quando eu cliquei pra ele sair escondido no mapa onde não tem bomba eu fiz um algoritmo
+
+9
+00:00:47,200 --> 00:00:50,390
+uma vez de forma recursiva e funcionou muito bem.
+
+10
+00:00:50,560 --> 00:00:53,400
+Então recursividade pode ser usado em muitos cenários.
+
+11
+00:00:53,430 --> 00:00:58,500
+A única coisa importante que você tem que ter em mente é a primeira que obrigatoriamente passa recursivo
+
+12
+00:00:58,540 --> 00:01:02,450
+ele tem que chamar o próprio mérito ou seja o metro tem que chamar ele mesmo.
+
+13
+00:01:02,460 --> 00:01:06,510
+Outro ponto importante é que você tem uma condição de parada.
+
+14
+00:01:06,530 --> 00:01:07,160
+Porquê.
+
+15
+00:01:07,280 --> 00:01:13,170
+Porque se o método FICAR CHAMANDO ELE MESMO indefinidamente isso vai gerar um problema que é chamado
+
+16
+00:01:13,320 --> 00:01:19,500
+estoque overflow ou seja a pilha de execução no seu programa estourou.
+
+17
+00:01:19,500 --> 00:01:22,190
+O que é pilha de execução só pra falar bem rápido.
+
+18
+00:01:22,200 --> 00:01:27,450
+Imagine a seguinte situação você inicia o seu programa a partir do meio do mato no meio você chama o
+
+19
+00:01:27,450 --> 00:01:28,640
+método.
+
+20
+00:01:29,200 --> 00:01:32,510
+E aí o medo texugo entra na pilha de execução.
+
+21
+00:01:32,550 --> 00:01:38,100
+Quando você entra no meio já começa a pilha com o método e quando o método chamou o testemunho ele coloca
+
+22
+00:01:38,480 --> 00:01:43,830
+o Na Pilha se você no teste chama o Teste 2 ele coloca 2 Na Pilha.
+
+23
+00:01:43,910 --> 00:01:49,420
+Se no estágio 2 você chama o Teste 3 ele coloca 3 na pilha ou seja você tem na pilha.
+
+24
+00:01:49,530 --> 00:01:56,980
+O método é o metro teste um teste 2 e 3 no momento que ele termina a execução do teste 3 e não chama
+
+25
+00:01:56,980 --> 00:01:58,140
+mais ninguém.
+
+26
+00:01:58,140 --> 00:02:05,310
+Ele vai voltar o fluxo pra quem chamou o Teste 3 que é justamente o Teste 2 se ele termina o Teste 2
+
+27
+00:02:05,310 --> 00:02:10,030
+sem chamar nenhum outro método ele vai voltar o fluxo Pro Teste.
+
+28
+00:02:10,340 --> 00:02:17,180
+Vamos supor que não taxam ele chamou agora o teste 4 aí vai ficar na pilha metro e teste um teste.
+
+29
+00:02:17,180 --> 00:02:24,390
+4 Quando ele termina o teste 4 ele retorna para a quem chamou o teste 1 quando ele termina teste e não
+
+30
+00:02:24,390 --> 00:02:26,630
+chama mais ninguém para o método.
+
+31
+00:02:27,020 --> 00:02:29,950
+E quando ele termina o seu programa termina.
+
+32
+00:02:30,000 --> 00:02:35,980
+Se você cria um método recursivo por exemplo você tem um metro meio chamou o método teste e o trecho
+
+33
+00:02:35,980 --> 00:02:43,050
+ele é recursivo ele chama ele mesmo quando ele chamá lo ele mesmo vai ficar um tacho na pilha ele chamou
+
+34
+00:02:43,050 --> 00:02:49,530
+ele mesmo de novo vai ficar texugo de novo e assim ele vai criando várias versões de teste e se você
+
+35
+00:02:49,530 --> 00:02:55,830
+não tiver condição de parada para que ele possa desfazer e voltar e a pilha começar a diminuir ele vai
+
+36
+00:02:55,830 --> 00:03:00,450
+gerar o que ele chama de estouro de pilha ou o famoso estoque overflow.
+
+37
+00:03:00,510 --> 00:03:05,640
+Essas duas coisas são importantes primeiro você tem um algorítimo que chame ele mesmo e depois você
+
+38
+00:03:05,640 --> 00:03:11,190
+tem a condição de parada para que ele possa parar de chamar a si próprio uma hora saí dessa recursão
+
+39
+00:03:11,220 --> 00:03:22,320
+então vou lá eu vou criar aqui uma nova classe Less o pacote vai ser avançado e o nome da classe vai
+
+40
+00:03:22,320 --> 00:03:33,110
+c recursividade ou finalizar vou criar o metro no meio e vou criar dois métodos aqui fora.
+
+41
+00:03:33,350 --> 00:03:41,550
+O primeiro método vai ser muito fatorial fora passa um numero que é o que eu quero calcular o fatorial
+
+42
+00:03:41,920 --> 00:03:48,060
+eu vou implementar o fatorial usando só um laço formal sem recursividade eu vou fazer aqui fatorial
+
+43
+00:03:48,060 --> 00:03:57,240
+recebi um e eu faço o laço de 1 até o numero que foi passado implementar no fatorial que é o fatorial
+
+44
+00:03:57,360 --> 00:04:08,140
+vezes o índice começando com o ele fazendo fatorial 1 multiplica fatorial e depois 2 multiplica o resultado
+
+45
+00:04:08,140 --> 00:04:14,940
+e depois 3 multiplique assim ele vai fazer no fatorial e no final ele retorna o resultado de fatorial
+
+46
+00:04:15,490 --> 00:04:21,070
+que é justamente essa variável que ele dá acrescentando toda vida multiplicada pelo próximo.
+
+47
+00:04:21,140 --> 00:04:29,220
+E se isso voltar aqui e chamar esse metro System Audio prende ali fatorial fora assando 5.
+
+48
+00:04:29,480 --> 00:04:37,950
+Ele vai executar o valor fatorial 7 120 no caso do 5 fatorial de 4 que é 4 vezes 3 vezes 2 vezes vai
+
+49
+00:04:38,260 --> 00:04:46,600
+dar 4 fatorial de 3 a 3 vezes 2 vezes 1 vai dar o valor de 6 e assim sucessivamente.
+
+50
+00:04:46,610 --> 00:04:54,570
+Agora vou gerar implementação no fatorial usando recursividade então vou criar uma nova função fatorial
+
+51
+00:04:54,570 --> 00:05:01,320
+recebe o número da mesma forma a assinatura é igual número e retorna um número só que aqui eu vou fazer
+
+52
+00:05:01,530 --> 00:05:04,280
+a primeira coisa que eu vou colocar no método e a condição de parada.
+
+53
+00:05:04,290 --> 00:05:13,360
+Então vou fazer assim se o número for menor ou igual a 1 por definição fatorial fatorial de zero também.
+
+54
+00:05:13,800 --> 00:05:20,340
+Então se o número for menor ou igual a 1 automaticamente ele vai retornar o resultado uma vez que ele
+
+55
+00:05:20,340 --> 00:05:25,130
+entra nesse resultado e sai resolver toda a questão da recursividade.
+
+56
+00:05:25,470 --> 00:05:31,980
+Então continuado eu vou colocar Brittany no número de vezes o fatorial de número menos 1 a gente pode
+
+57
+00:05:31,980 --> 00:05:37,950
+quebrar o fatorial sempre pelo número de vezes o fatorial de um número menos um que é justamente o que
+
+58
+00:05:37,950 --> 00:05:39,870
+está explicito aqui na linha 4.
+
+59
+00:05:40,410 --> 00:05:50,280
+Então o fatorial de seis é seis vezes o fatorial de 5 o fatorial de 5 e 5 vezes o fatorial de 4 de 4
+
+60
+00:05:50,280 --> 00:05:56,380
+a 4 vezes fatorial de 3 e assim ele vai resolvendo até que ele chegue no fatorial de 1 quando ele chegar
+
+61
+00:05:56,380 --> 00:06:02,670
+no fatorial ele coloca a condição de parada e aí ele retorna e sai multiplicado até que ele gera toda
+
+62
+00:06:02,670 --> 00:06:09,630
+a multiplicação e gera o resultado final do fatorial então note aqui os 2 pontos que eu falei a condição
+
+63
+00:06:09,630 --> 00:06:18,510
+de parada canalha linha até 22 se o número for menor igual a 1 ele vai retornar o valor e aqui a recursividade
+
+64
+00:06:18,510 --> 00:06:27,030
+ou seja eu estou chamando o metro fatorial dentro do método fatorial certo então pra acertar isso aqui
+
+65
+00:06:28,260 --> 00:06:36,570
+vou colocar System de brinde ali fatorial de 5 talvez até 120.
+
+66
+00:06:36,640 --> 00:06:44,800
+Se eu colocar o fatorial de 3 para ficar exatamente os mesmos valores 6 fatorial de 4 aqui e fatorial
+
+67
+00:06:44,800 --> 00:06:48,690
+de 4 aqui vai dar 24 nos 2.
+
+68
+00:06:48,760 --> 00:06:55,960
+Então essa são as duas implementações aumentar aqui eu tenho a implementação usando um laço forte e
+
+69
+00:06:56,000 --> 00:07:00,330
+tem uma implementação usando de forma recursiva.

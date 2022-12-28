@@ -1,0 +1,335 @@
+1
+00:00:00,300 --> 00:00:07,490
+Só na sala quero falar rapidamente sobre um conceito que você vai encontrar de forma muito presente
+
+2
+00:00:07,490 --> 00:00:12,680
+nas soluções lambida que é o conceito de interface funcional.
+
+3
+00:00:12,840 --> 00:00:15,210
+O que seria uma interface funcional.
+
+4
+00:00:15,210 --> 00:00:21,300
+Se eu entrar aqui na nossa interface que a gente criou no exemplo passado existe uma anotação chamada
+
+5
+00:00:21,500 --> 00:00:26,900
+roupa funcional interface e essa interface está definida dentro de Java.
+
+6
+00:00:26,900 --> 00:00:29,380
+Por outro leigo não precisa importar ela.
+
+7
+00:00:29,520 --> 00:00:32,490
+Basicamente o que é que essa anotação faz.
+
+8
+00:00:32,620 --> 00:00:33,980
+Eu não preciso usar ela.
+
+9
+00:00:34,020 --> 00:00:41,450
+Eu posso usar ela até para deixar claro que você vai usar essa interface no contexto de lambida mas
+
+10
+00:00:41,450 --> 00:00:48,890
+o que ela fossa é você tem apenas um único método momento que você cria dois métodos dentro de uma interface
+
+11
+00:00:49,160 --> 00:00:56,040
+e você tenta fazer isso aqui associar o lambda que representa uma função colocar isso ou representa
+
+12
+00:00:56,040 --> 00:00:58,420
+um metro também no contexto de Java usar.
+
+13
+00:00:58,630 --> 00:01:00,350
+Não vou usar nesse capítulo.
+
+14
+00:01:00,450 --> 00:01:05,320
+De certa forma o método e função como sendo termos intercambiáveis.
+
+15
+00:01:05,320 --> 00:01:11,820
+Até porque quando você vai para um contexto de programação funcional programação funcional exatamente
+
+16
+00:01:11,820 --> 00:01:13,590
+porque ela é baseada na função.
+
+17
+00:01:13,650 --> 00:01:19,200
+Só que em Java por conta da orientação objeto a gente acaba chamando função como sendo o metro porque
+
+18
+00:01:19,200 --> 00:01:24,640
+as funções elas vivem digamos assim elas são criadas dentro de um contexto de uma classe então algo
+
+19
+00:01:24,660 --> 00:01:29,250
+acaba dando a liberdade para estar falando metro de função de forma intercambiável.
+
+20
+00:01:29,250 --> 00:01:36,570
+Certo Quando você cria uma função aqui usando o lambda tá você precisa associar essa função a uma determinada
+
+21
+00:01:36,570 --> 00:01:37,440
+interface.
+
+22
+00:01:37,560 --> 00:01:44,430
+Só que se essa interface tiver mais de uma função o método é nesse caso como é que o Java vai saber
+
+23
+00:01:44,460 --> 00:01:47,510
+qual função está sendo implementada.
+
+24
+00:01:47,520 --> 00:01:49,530
+Quando você passa essa expressão.
+
+25
+00:01:49,710 --> 00:01:56,640
+Então nesse caso quando você marca essa é uma interface funcional funcional interfaces significa que
+
+26
+00:01:56,640 --> 00:02:03,930
+se você tentar criar aqui outra função chamada Teaching que recebe um atributo ou simplesmente não sabe
+
+27
+00:02:03,930 --> 00:02:06,390
+nada ele vai começar a dar problema.
+
+28
+00:02:06,390 --> 00:02:07,020
+Por quê.
+
+29
+00:02:07,080 --> 00:02:10,470
+Porque é um interface funcional só pode ter apenas um único metro.
+
+30
+00:02:10,830 --> 00:02:17,280
+Estou colocando aqui vale do Tejo um pouco de cálculo não é uma interface funcional porque aquele não
+
+31
+00:02:17,280 --> 00:02:23,220
+é uma interface funcional porque você colocou mais de um metro então uma interface funcional.
+
+32
+00:02:23,220 --> 00:02:29,220
+Ele é um conceito que vai te ajudar a partir das interfaces funcionais que você vai conseguir criar
+
+33
+00:02:29,310 --> 00:02:35,220
+as lambidas as funções do tipo lábio que são funções anônimas que você usa dentro do seu corpo.
+
+34
+00:02:35,460 --> 00:02:40,860
+Depois eu vou falar também de outro assunto que é o método de referência referência de métodos que também
+
+35
+00:02:40,860 --> 00:02:45,630
+está envolvido nesse contexto de programação funcional das lambidas tá certo.
+
+36
+00:02:45,900 --> 00:02:52,850
+Mas de qualquer forma pra você definir lambidas em cima de interface você precisa ter interfaces funcionais.
+
+37
+00:02:52,930 --> 00:03:00,960
+Vou abrir rapidamente because pra gente não olhada na documentação abrir aqui sabe que abrirá na outra
+
+38
+00:03:00,960 --> 00:03:05,520
+janela aqui no computador só abri pra cá.
+
+39
+00:03:05,970 --> 00:03:06,400
+Certo.
+
+40
+00:03:06,450 --> 00:03:12,790
+Aqui se eu procurar a documentação basta você colocar que Java.
+
+41
+00:03:12,870 --> 00:03:14,230
+Ponto útil.
+
+42
+00:03:14,250 --> 00:03:15,670
+Ponto.
+
+43
+00:03:15,990 --> 00:03:19,140
+Você vai ver a documentação do Java 8.
+
+44
+00:03:19,170 --> 00:03:27,170
+Existem várias interfaces funcionais está certo não funcional interferências para o Baidu tais apps
+
+45
+00:03:27,180 --> 00:03:28,030
+for lambidas.
+
+46
+00:03:28,050 --> 00:03:32,750
+Ou seja você tem expressões lambidas que serão atribuídas a essas.
+
+47
+00:03:32,790 --> 00:03:39,900
+Essas interfaces funcionais e a gente vai usar várias dessas interfaces funcionais nos nossos exemplos
+
+48
+00:03:39,900 --> 00:03:41,970
+inclusive eu vou faturar.
+
+49
+00:03:42,180 --> 00:03:45,630
+Eu vou mudar esse exemplo que a gente usa uma interface que nós criamos.
+
+50
+00:03:45,620 --> 00:03:46,500
+Tá certo.
+
+51
+00:03:46,630 --> 00:03:51,540
+é nessa lógica coisa que eu fiz em termos de código foi acrescentar essa no trecho.
+
+52
+00:03:51,540 --> 00:03:57,000
+Depois a gente vai explicar pra vocês Como você pode criar uma no Peixe mas por enquanto só mostrando
+
+53
+00:03:57,000 --> 00:04:02,850
+que essa não deixa ela vai de certa forma aplicá lo a validação se a interface for de fato a interface
+
+54
+00:04:02,850 --> 00:04:06,270
+funcional ela vai ficar ok não vai gerar nenhum erro.
+
+55
+00:04:06,420 --> 00:04:12,540
+Caso você acrescente o outro método automaticamente ela passa a gerar problemas seu código não vai funcionar.
+
+56
+00:04:12,960 --> 00:04:19,600
+Então mesmo que você não coloque ela certo se você não colocar ela e ainda assim você colocar aqui um
+
+57
+00:04:19,600 --> 00:04:21,930
+outro método por exemplo ao teste.
+
+58
+00:04:22,390 --> 00:04:25,070
+Seja essa não é mais uma interface funcional.
+
+59
+00:04:25,410 --> 00:04:30,630
+Então isso significa que você não vai mais conseguir aplicar um holandês por baixo para uma variável
+
+60
+00:04:30,630 --> 00:04:31,660
+do tipo calculo.
+
+61
+00:04:31,660 --> 00:04:32,100
+Por quê.
+
+62
+00:04:32,110 --> 00:04:37,620
+Porque cálculo já não é uma interface funcional uma interface funcional uma interface que tem apenas
+
+63
+00:04:37,770 --> 00:04:39,340
+um único método certo.
+
+64
+00:04:39,450 --> 00:04:47,340
+Então eu preciso tirar isso eu posso se quiser usar aqui o arroba não interferisse pra deixar tanto
+
+65
+00:04:47,340 --> 00:04:53,220
+o marcado explícito que essa interface funcional é bom porque seu outro codificador chegar aqui vou
+
+66
+00:04:53,220 --> 00:04:56,160
+colocar aqui outra função dentro dessa interface.
+
+67
+00:04:56,160 --> 00:05:01,970
+Um outro método dentro dessa interface pra colocar a nova funcionalidade não já está marcado com algo
+
+68
+00:05:01,990 --> 00:05:08,260
+funcional interferisse deixa claro que você quer usar essa interface também no contexto das expressões
+
+69
+00:05:08,260 --> 00:05:15,200
+lambda certo na próxima aula eu vou mostrar pra vocês Como a gente poderia refazer esse mesmo código
+
+70
+00:05:15,220 --> 00:05:21,340
+vai ser bem simples alteração usando uma das interfaces funcionais que já são disponibilizadas pelo
+
+71
+00:05:21,340 --> 00:05:26,620
+Java a gente vai usar algumas dessas certo mostrar não todos mas de mãos alguns para que você possa
+
+72
+00:05:26,620 --> 00:05:32,320
+entender os princípios e também a gente vai depois de um tempo a aplicar também alguns desafios pra
+
+73
+00:05:32,320 --> 00:05:35,200
+que vocês possam estar desenvolvendo esse conceito.
+
+74
+00:05:35,200 --> 00:05:40,510
+Nesse capítulo acho que eu vou ter um desafio mais para o final do capítulo mais no outro capítulo com
+
+75
+00:05:40,510 --> 00:05:46,660
+certeza lá na parte do colégio a gente vai ter muitos desafios legais usando o conhecimento nesse capítulo
+
+76
+00:05:46,750 --> 00:05:52,110
+e o conhecimento relacionado a isto mph que é o próximo tema do próximo capítulo.
+
+77
+00:05:52,330 --> 00:05:57,820
+Então fique por aqui na próxima aula vou mostrar pra vocês o cálculo Tech 3 que é mudando um pouquinho
+
+78
+00:05:57,820 --> 00:06:03,140
+sem usar um interface nossa que foi definida no nosso código como é o caso da interface cálculo mas
+
+79
+00:06:03,150 --> 00:06:08,680
+eu vou mostrar como você pode usar uma interface que já existe e que está definida dentro desse pacote
+
+80
+00:06:08,680 --> 00:06:09,990
+aqui que é o Java.
+
+81
+00:06:09,990 --> 00:06:15,280
+Contudo o ponto fraco não é boa parte do nosso capítulo vai ser usando várias dessas interfaces para
+
+82
+00:06:15,280 --> 00:06:20,480
+você entender as principais e também entender um pouco mais do conceito de lambda.
+
+83
+00:06:20,570 --> 00:06:23,590
+Acho que é muito importante então fico por aqui na próxima aula.
+
+84
+00:06:23,650 --> 00:06:24,940
+A gente continua até lá.

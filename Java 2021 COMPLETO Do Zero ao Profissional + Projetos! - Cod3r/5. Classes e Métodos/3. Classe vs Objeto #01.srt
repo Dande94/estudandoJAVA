@@ -1,0 +1,707 @@
+1
+00:00:00,680 --> 00:00:07,410
+Agora é uma das aulas mais importantes do curso que nós vamos falar de conceitos essenciais para o Java
+
+2
+00:00:07,740 --> 00:00:10,020
+tipo orientação objeto nessa aulas.
+
+3
+00:00:10,030 --> 00:00:17,530
+Usei o conceito de classe nas aulas e o conceito de objeto a relação que existe entre classe objeto
+
+4
+00:00:17,540 --> 00:00:20,030
+e alguns outros conceitos que está começando.
+
+5
+00:00:20,030 --> 00:00:27,500
+Durante o capítulo eu gosto muito durante os meus cursos deixar muito claro alguns conceitos e alguns
+
+6
+00:00:27,500 --> 00:00:34,610
+princípios porque esses conceitos eles são mais duradouros do que propriamente detalhes de código eventualmente
+
+7
+00:00:34,670 --> 00:00:36,400
+a linguagem evolui.
+
+8
+00:00:36,480 --> 00:00:42,470
+Eventualmente você precisa sair de uma linguagem para outra e esses conceitos acabam sendo aplicados
+
+9
+00:00:42,470 --> 00:00:48,070
+em múltiplas linguagens conceitos como por exemplo de orientação objeto não se aplica apenas a Java
+
+10
+00:00:48,080 --> 00:00:54,100
+se você conhece orientação objeto em Java você vai conseguir aplicar isso em outras linguagens.
+
+11
+00:00:54,100 --> 00:00:59,740
+Por isso eu acho muito importante ter um foco e uma atenção muito forte nos conceitos.
+
+12
+00:00:59,810 --> 00:01:05,140
+Por isso com aula descem de conceitos extremamente importante o fato de eu não estar qualificaram nessa
+
+13
+00:01:05,200 --> 00:01:13,160
+hora não deve ser tratada como aula menos importante porque o conceitual é essencial para você fazer
+
+14
+00:01:13,160 --> 00:01:17,090
+as coisas certas ou tomar as decisões certas no momento que você for quando.
+
+15
+00:01:17,420 --> 00:01:23,110
+Então aqui começa que o ponto de partida da orientação a objeto que a forma.
+
+16
+00:01:23,120 --> 00:01:28,100
+O principal paradigma de programação que a gente encontra em Java e também em outras linguagens é um
+
+17
+00:01:28,100 --> 00:01:34,460
+dos paradigmas mais usados no mundo atualmente orientação objeto é a ideia de orientação a objeto que
+
+18
+00:01:34,460 --> 00:01:41,660
+terá um capítulo especificamente sobre isso e tentar aproximar a forma que você define o modelo seu
+
+19
+00:01:41,660 --> 00:01:48,710
+software aproxima isto do mundo real algo que uma é composto por objetos e a interação desses objetos
+
+20
+00:01:48,710 --> 00:01:54,310
+tudo pode ser convertido em objeto eu estou vendo aqui algumas coisas por exemplo tem um monitor e tem
+
+21
+00:01:54,320 --> 00:02:00,740
+um outro monitor eu tenho uma câmera que tem ônus tem parede até o porta eu estou vendo aqui mas tem
+
+22
+00:02:00,740 --> 00:02:08,180
+carro televisão computador tudo isso são objetos que esses objetos têm características e esses objetos
+
+23
+00:02:08,180 --> 00:02:14,200
+têm comportamentos e sobre isso e mais algumas coisas que eu vou falar na sala falta um pouquinho eu
+
+24
+00:02:14,210 --> 00:02:19,580
+queria falar da importância do conceito no alto já fiz algumas enquetes principalmente com os alunos
+
+25
+00:02:19,610 --> 00:02:25,340
+mas também com alguns colegas de trabalho sobre conceitos básicos tanto de orientação objeto como da
+
+26
+00:02:25,340 --> 00:02:29,000
+computação como toda a programação de forma mais ampla.
+
+27
+00:02:29,020 --> 00:02:35,510
+Eu noto que as pessoas muitas vezes têm dificuldades de se expressar ou de explicar conceitos básicos
+
+28
+00:02:35,510 --> 00:02:38,280
+é muito importante que você foque no conceito.
+
+29
+00:02:38,300 --> 00:02:44,300
+Entendeu o conceito de uma forma profunda de entender relacionar os conceitos vai te ajudar no dia a
+
+30
+00:02:44,300 --> 00:02:50,120
+dia da programação a fazer as escolhas certas porque se você entende o conceito entende o princípio
+
+31
+00:02:50,130 --> 00:02:56,680
+você vai perceber de uma forma mais fácil com aquele princípio ou aquele conceito foi violado por conta
+
+32
+00:02:56,670 --> 00:02:58,040
+das suas escolhas.
+
+33
+00:02:58,040 --> 00:03:02,360
+Outra muito importante e que eu vou falar nesse capítulo vai servir como base.
+
+34
+00:03:02,560 --> 00:03:08,000
+E eu quero que seja uma base bem sólida para que você possa a partir daí construir a todo esse conceito
+
+35
+00:03:08,000 --> 00:03:13,640
+de orientação objeto que é extremamente importante não apenas para Java mas para várias linguagens que
+
+36
+00:03:13,640 --> 00:03:15,200
+usam esse conceito.
+
+37
+00:03:15,260 --> 00:03:20,940
+Esse paradigma que a forma de pensar orientado a objeto como eu falei a sintaxe.
+
+38
+00:03:21,050 --> 00:03:27,050
+Se tem um ponto e vírgula se não tem ponto e vírgula se o bloco a define chaves ou é com colchetes isso
+
+39
+00:03:27,050 --> 00:03:33,580
+varia de linguagem para a linguagem mas os conceitos se forem bem entendidos podem ser vão transpor
+
+40
+00:03:33,590 --> 00:03:38,540
+na verdade não apenas o jargão mas você vai conseguir entender como funciona a orientação objeto em
+
+41
+00:03:38,540 --> 00:03:45,680
+outras linguagens isso é extremamente poderoso ou seja não subestime o conceito tente o máximo possível
+
+42
+00:03:45,680 --> 00:03:51,470
+focar nos conceitos para você uma vez entendendo muito bem o conceito consigo extrapolar para outras
+
+43
+00:03:51,470 --> 00:03:55,260
+linguagens focando aqui no Java já que nós estamos no curso de Java.
+
+44
+00:03:55,340 --> 00:04:00,110
+Eu quero começar falando sobre a anatomia de uma classe a anatomia de uma classe.
+
+45
+00:04:00,110 --> 00:04:03,970
+Então você tem que a palavra reservada na linguagem classe.
+
+46
+00:04:04,070 --> 00:04:10,730
+Você tem um nome da classe o nome da classe normalmente uma convenção guia prático você começa com letra
+
+47
+00:04:10,730 --> 00:04:13,340
+maiúscula e cada nova palavra.
+
+48
+00:04:13,340 --> 00:04:19,430
+Se for uma palavra composta por duas ou três palavras já que você não pode usar espaços e coloca a primeira
+
+49
+00:04:19,430 --> 00:04:25,730
+letra de cada palavra maiúsculo para que você consiga facilmente identificar o nome da classe cliente
+
+50
+00:04:25,730 --> 00:04:32,300
+especial produto frágil ou seja que você vai criar uma classe chamada produto frágil.
+
+51
+00:04:32,300 --> 00:04:38,180
+Em vez de você colocar só o P maiúsculo eu acho minúscula a primeira letra de cada palavra você coloca
+
+52
+00:04:38,470 --> 00:04:41,140
+maiúsculas é uma convenção ou se segue se quiser.
+
+53
+00:04:41,420 --> 00:04:43,270
+Mas a boa prática diz isso.
+
+54
+00:04:43,280 --> 00:04:49,520
+Outra questão que antes da palavra Class pode existir algumas outras palavras aqui incerta alguns outros
+
+55
+00:04:49,910 --> 00:04:54,980
+modificadores que a gente vai ver mais na frente mas também é possível onde é classe de alguma coisa
+
+56
+00:04:55,490 --> 00:05:02,440
+assim também como depois do nome da classe e antes da abertura Duque do bloco de código mede a abertura
+
+57
+00:05:02,440 --> 00:05:09,160
+das chaves aqui ao outro coloca nos três pontinhos também tem a possibilidade de algumas variações exatamente
+
+58
+00:05:09,580 --> 00:05:11,850
+essa seta amarela leva em consideração.
+
+59
+00:05:11,860 --> 00:05:17,560
+Aqui essas variações serão abordadas mais à frente do uso principalmente com a gente entrar no capítulo
+
+60
+00:05:17,560 --> 00:05:20,660
+de orientação a objeto um dos pilares da orientação objeto.
+
+61
+00:05:20,680 --> 00:05:24,000
+Os princípios de orientação ao objeto eram.
+
+62
+00:05:24,120 --> 00:05:30,520
+A gente vai ver que aqui vai ter algumas palavras adicionais na hora de definir a classe certo dentro
+
+63
+00:05:30,520 --> 00:05:33,340
+da classe agora a gente vai olhar a anatomia da classe.
+
+64
+00:05:33,340 --> 00:05:38,710
+Nós temos a palavra classe temos algumas palavras antes como eu falei aqui nós temos o nome da classe
+
+65
+00:05:38,710 --> 00:05:44,130
+B nessa notação com a primeira letra maiúscula e cada nova palavra também com a primeira letra maiúscula
+
+66
+00:05:44,520 --> 00:05:50,170
+e nós temos o corpo da classe ou seja o conteúdo da classe e outras questões muito importantes.
+
+67
+00:05:50,170 --> 00:05:55,610
+Você tem uma clareza sabe exatamente o que a gente pode colocar dentro do copo de uma classe.
+
+68
+00:05:55,900 --> 00:05:59,470
+Até agora nós criamos classe média classe metro no meio.
+
+69
+00:05:59,500 --> 00:06:00,080
+Por quê.
+
+70
+00:06:00,310 --> 00:06:05,880
+Porque como eu falei pra vocês eu quero criar exercícios independentes cada exercício com sua história.
+
+71
+00:06:05,890 --> 00:06:06,900
+Começo meio e fim.
+
+72
+00:06:06,910 --> 00:06:12,110
+Cada exercício cada arquivo e cada classe é um exercício cada exercício executável.
+
+73
+00:06:12,180 --> 00:06:17,710
+E a gente executa sem depender dos exercícios passados agora a gente vai entrar num novo patamar digamos
+
+74
+00:06:17,710 --> 00:06:23,340
+assim de forma bem gradual para que a gente possa começar a interagir as classes entre si para que a
+
+75
+00:06:23,340 --> 00:06:26,980
+gente possa criar outras estruturas que não apenas classe e método.
+
+76
+00:06:27,460 --> 00:06:32,390
+A gente precisa entender o que é que pode ser colocado dentro de um corpo de uma classe.
+
+77
+00:06:32,680 --> 00:06:38,100
+Basicamente o que a gente tem vendo como uma classe são os atributos e comportamentos.
+
+78
+00:06:38,110 --> 00:06:44,300
+Vou parar rapidinho para pensar no mundo real apaga alguns exemplos que são fáceis de explicar por exemplo
+
+79
+00:06:44,300 --> 00:06:50,590
+o carro tem característica tem por exemplo pense em algumas características do carro mudar pra você
+
+80
+00:06:50,600 --> 00:06:52,300
+e três segundos ao 13.
+
+81
+00:06:52,310 --> 00:06:58,960
+2 Se quiser pausar planejar é melhor do que ficar essa pressão de contato mais se você pensou por exemplo
+
+82
+00:06:59,170 --> 00:07:06,340
+como colocar uma característica o peso do carro uma característica a velocidade máxima que o carro chega
+
+83
+00:07:06,340 --> 00:07:10,720
+também uma característica para lá definindo nossas especificações do carro.
+
+84
+00:07:10,720 --> 00:07:14,530
+Outra característica seria a marca do carro o modelo do carro.
+
+85
+00:07:14,530 --> 00:07:17,110
+Tudo isso são características do carro.
+
+86
+00:07:17,140 --> 00:07:19,590
+Você pode pensar em alguns comportamentos.
+
+87
+00:07:19,630 --> 00:07:27,340
+Que o carro tem um comportamento você pensa característica são o substantivo do carro e os comportamentos
+
+88
+00:07:27,340 --> 00:07:30,750
+são as ações ou os verbos que o carro faz.
+
+89
+00:07:30,760 --> 00:07:39,390
+Por exemplo acelerar é um comportamento calmo frear o comportamento ligar desligar ligar o ar condicionado
+
+90
+00:07:39,400 --> 00:07:44,830
+todos esses comportamentos são exemplos daquilo que você consegue fazer dentro do carro.
+
+91
+00:07:44,830 --> 00:07:47,260
+Tempos de verbo em termos de ação.
+
+92
+00:07:47,650 --> 00:07:54,640
+Então dentro do corpo de uma classe em que você tem atributos comportamentos existe uma relação entre
+
+93
+00:07:54,640 --> 00:08:00,550
+classe e objeto eu vou já falar sobre isso mas por enquanto olhando para a classe apenas dentro do corpo
+
+94
+00:08:00,550 --> 00:08:05,990
+da classe mas ambos têm atributos e comportamentos de beleza e o que são esses atributos e opções de
+
+95
+00:08:06,030 --> 00:08:08,500
+comportamentos exatamente o que vem na sequência.
+
+96
+00:08:08,860 --> 00:08:16,450
+Os atributos são testados e os comportamentos são métodos que tipo de dados você pode ter dados dos
+
+97
+00:08:16,450 --> 00:08:17,710
+mais diversos tipos.
+
+98
+00:08:17,710 --> 00:08:26,910
+Por exemplo nós podemos ter tipos lá um atributo um dado do tipo um atributo do tipo booleano.
+
+99
+00:08:27,400 --> 00:08:35,270
+Nós podemos ter um atributo com um tipo pouco mais complexo como por exemplo um bem que apresenta o
+
+100
+00:08:35,280 --> 00:08:40,510
+mandato certo você pode ter um outro atributo que representa aquilo estranho.
+
+101
+00:08:40,870 --> 00:08:47,560
+Você pode ter um atributo que é selado um tipo que nem existe na linguagem Java que você criou.
+
+102
+00:08:47,560 --> 00:08:54,310
+Por exemplo um produto certo então você pode ter os dados apresentados pelos mais diversos tipos.
+
+103
+00:08:54,310 --> 00:08:59,290
+Pode ser primitivo ou pode ser outros tipos como é o caso da estreia da data do 10.
+
+104
+00:08:59,350 --> 00:09:04,410
+Eu ainda vou falar que esses chips também estão muito relacionados com o conceito de classe eu vou seguir.
+
+105
+00:09:04,690 --> 00:09:10,390
+Eu sei que eu posso ter em relação aos métodos os métodos são os comportamentos e assim como tenho um
+
+106
+00:09:10,390 --> 00:09:16,360
+método que executou meu algoritmo até um século dentro um metro e meio que é uma sequência de passos.
+
+107
+00:09:16,360 --> 00:09:21,670
+Eu vou ter lá várias sentenças recolhe terminados com ponto e vírgula eu vou ter estruturas de controle
+
+108
+00:09:21,940 --> 00:09:26,050
+para saber se executam determinada sentença ou não baseado numa expressão.
+
+109
+00:09:26,050 --> 00:09:28,660
+Se a nota for maior do que 7 faça isso.
+
+110
+00:09:28,660 --> 00:09:32,360
+Caso contrário se judeus faça que o outro.
+
+111
+00:09:32,620 --> 00:09:37,990
+Ter um foco faz repetição ou seja dentro do método Mengo você tem todo o algoritmo toda a seqüência
+
+112
+00:09:37,990 --> 00:09:42,220
+de passos pra fazer o seu processamento ou sua ação.
+
+113
+00:09:42,250 --> 00:09:48,910
+Da mesma forma dentro de uma classe que vai definir um determinado tipo o tipo carro tipo aluno tipo
+
+114
+00:09:48,970 --> 00:09:52,120
+professor vai ter atributos e comportamentos.
+
+115
+00:09:52,120 --> 00:09:55,300
+Assim como no mundo real você tem atributos e comportamentos.
+
+116
+00:09:55,300 --> 00:10:01,200
+Outra coisa importante também como a gente pensa em obtê la o mundo real e fazer isso no mundo real
+
+117
+00:10:01,200 --> 00:10:09,650
+os objetos têm relacionamentos então você tem um amanhã tem muitos filhos sei lá você tem um tio que
+
+118
+00:10:09,650 --> 00:10:14,560
+tem muitos sobrinhos o sobrinho tem muitos tios você tem um relacionamento entre as coisas.
+
+119
+00:10:14,580 --> 00:10:21,480
+Ontem muitas disciplinas o aluno tem vários professores um professor tem vários alunos um aluno tem
+
+120
+00:10:21,480 --> 00:10:28,200
+uma matrícula e uma matrícula tem ou pelo menos um aluno tem um registro na faculdade e o dá para um
+
+121
+00:10:28,200 --> 00:10:34,890
+aluno ou seja você tem relação entre os objetos um carro tem vários pneus um pneu pertence a um carro
+
+122
+00:10:35,130 --> 00:10:42,060
+tem portas pode pertencer ao carro então no mundo real você tem objetos com atributos e comportamentos
+
+123
+00:10:42,060 --> 00:10:48,090
+e esses objetos se relacionam entre si das múltiplas formas que é possível se relacionar no mundo.
+
+124
+00:10:48,150 --> 00:10:53,200
+é muito importante voltar sempre e de certa forma e apontando para o mundo real.
+
+125
+00:10:53,220 --> 00:10:57,120
+O que pouca orientação a objeto é uma tentativa de pegar.
+
+126
+00:10:57,120 --> 00:11:02,640
+Olhar o Mundo Real simplificar a complexidade do mundo real trazer isso para além do software.
+
+127
+00:11:03,060 --> 00:11:09,690
+Então se você vai definir um sistema de biblioteca ou um sistema de uma clínica você muito provavelmente
+
+128
+00:11:09,690 --> 00:11:14,250
+se tiver conversando com o dono da clínica pra fazer o sistema na clínica você vai precisar conversar
+
+129
+00:11:14,250 --> 00:11:20,760
+com ele entender quais são os objetos como esses objetos interagem entre si para daí você começar a
+
+130
+00:11:20,760 --> 00:11:23,270
+entender a clínica tem uma agenda.
+
+131
+00:11:23,280 --> 00:11:30,510
+A clínica tem o médico a clínica tem enfermeiros a clínica tem funcionários e como isso pode se relacionar
+
+132
+00:11:30,780 --> 00:11:36,610
+para definir um software pode ser que no software que você mais Gerar link precisa ter todos esses conceitos
+
+133
+00:11:36,640 --> 00:11:38,760
+de software mais dependendo da demanda.
+
+134
+00:11:38,760 --> 00:11:40,640
+Pode ser que precise sim.
+
+135
+00:11:40,680 --> 00:11:47,160
+Então a classe é resumido aqui eu falei até agora tem corpo definido esse corpo nós temos atributos
+
+136
+00:11:47,160 --> 00:11:48,210
+e comportamentos.
+
+137
+00:11:48,630 --> 00:11:57,210
+Nós chamamos esses atributos e esses comportamentos dentro da classe nós chamamos de membros os membros
+
+138
+00:11:57,780 --> 00:12:03,830
+da classe em que ao que eu vou falar um pouco mais profundamente na próxima aula mais ou como eles falam
+
+139
+00:12:03,840 --> 00:12:09,390
+quais são os membros de uma classe basicamente a gente tem atributos e comportamentos certo que são
+
+140
+00:12:09,390 --> 00:12:16,310
+os dados esses dados têm estruturas de dados tudo se encaixando nas estruturas de dados para dizer como
+
+141
+00:12:16,350 --> 00:12:17,520
+Dado vai se comportar.
+
+142
+00:12:17,520 --> 00:12:22,310
+Quais são as restrições ou como esse dado é estruturado dentro do computador.
+
+143
+00:12:22,350 --> 00:12:25,770
+Também nós temos os métodos que são os nossos algoritmos.
+
+144
+00:12:25,770 --> 00:12:31,410
+Nós temos lá no começo do curso de bio algoritmo que é exatamente o método e também nós temos outras
+
+145
+00:12:31,410 --> 00:12:38,100
+estruturas de dados que é exatamente como o dado é organizado e daí nós temos os próprios dados ensina
+
+146
+00:12:38,120 --> 00:12:40,920
+o dado ao futuro de dados.
+
+147
+00:12:41,390 --> 00:12:43,740
+Então esses são os atributos e comportamentos.
+
+148
+00:12:43,740 --> 00:12:49,680
+A gente consegue ver claramente que isso não é o algoritmo a estrutura de dados com os dados estão presentes
+
+149
+00:12:49,680 --> 00:12:53,720
+dentro da classe ou seja a ideia da classe já partiram para o próximo.
+
+150
+00:12:53,770 --> 00:13:00,750
+é exatamente esse agrupado ou você dentro de uma única estrutura agrupar atributos e comportamentos
+
+151
+00:13:00,750 --> 00:13:04,020
+logo como é que era antes e a orientação objeto.
+
+152
+00:13:04,020 --> 00:13:07,770
+Não foi o primeiro paradigma criado para desenvolver softwares.
+
+153
+00:13:07,770 --> 00:13:10,490
+é um paradigma bem antigo mas não foi o primeiro.
+
+154
+00:13:10,500 --> 00:13:18,720
+Antes você tinha funcionalidades funções ou procedimentos e você tinha dados como duas coisas separadas
+
+155
+00:13:18,730 --> 00:13:25,020
+de orientação a objeto trouxe a ideia de você juntar o dado e o comportamento inclusive você colocar
+
+156
+00:13:25,020 --> 00:13:30,600
+o comportamento ou seja um método muito próximo mudado no qual ele precisa mexer.
+
+157
+00:13:30,600 --> 00:13:37,830
+Por exemplo você tem um carro e uma das características do carro é a velocidade atual e uma característica
+
+158
+00:13:37,830 --> 00:13:41,030
+que varia com o tempo o seu carro tiver parado zero.
+
+159
+00:13:41,460 --> 00:13:47,970
+Mas se você começa a acelerar seja se você começar a chamar o comportamento e executar o comportamento
+
+160
+00:13:47,970 --> 00:13:54,360
+de acelerar esse comportamento que é o método se for modelado no Java ele será responsável por alterar
+
+161
+00:13:54,360 --> 00:13:56,040
+a velocidade atual do carro.
+
+162
+00:13:56,130 --> 00:13:59,780
+Ou seja uma característica do carro que varia com o tempo.
+
+163
+00:13:59,800 --> 00:14:05,650
+Nem todas as características são fixas por exemplo uma televisão tem cinquenta e duas polegadas vai
+
+164
+00:14:05,660 --> 00:14:12,420
+ficar mexendo nessa característica da televisão na hora sempre terá 52 polegadas mas algumas características
+
+165
+00:14:12,420 --> 00:14:15,190
+são variáveis como é o caso da velocidade atual.
+
+166
+00:14:15,210 --> 00:14:21,060
+Então você percebe que a ideia de juntar os métodos os comportamentos junto com as características de
+
+167
+00:14:21,440 --> 00:14:27,450
+uma única estrutura faz com que você consiga ter uma proximidade maior e essa proximidade faz todo sentido
+
+168
+00:14:27,450 --> 00:14:33,780
+seja algo que altera o dado está muito próximo do lugar dentro de uma única estrutura que é exatamente
+
+169
+00:14:33,830 --> 00:14:35,640
+o futuro da classe ou seja a classe.
+
+170
+00:14:35,970 --> 00:14:40,330
+Ele é um agrupado de atributos e comportamentos antes da orientação objeto.
+
+171
+00:14:40,330 --> 00:14:46,890
+Esses essas duas coisas eram separados se tinham funções e dados e com orientação objetos juntou isso
+
+172
+00:14:46,890 --> 00:14:47,950
+uma estrutura só.
+
+173
+00:14:48,240 --> 00:14:52,200
+Ou seja atributos e comportamentos nem atributos e métodos dentro da classe.
+
+174
+00:14:52,410 --> 00:14:58,620
+A próxima coisa que eu quero falar com vocês é sobre alguns fatos e sobre classe que são fatos muito
+
+175
+00:14:58,620 --> 00:15:04,020
+importa é muito esclarecedor é sobre clássicos mas eu quero deixar isso para proximal pra não ficar
+
+176
+00:15:04,020 --> 00:15:08,880
+um aulão muito grande eu vou quebrar em duas partes e na próxima aula a gente continua falando de alguns
+
+177
+00:15:08,880 --> 00:15:11,960
+fatos muito importantes sobre classe e outros para lá.

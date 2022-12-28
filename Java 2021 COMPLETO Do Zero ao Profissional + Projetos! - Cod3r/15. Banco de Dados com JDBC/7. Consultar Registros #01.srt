@@ -1,0 +1,479 @@
+1
+00:00:00,210 --> 00:00:06,320
+Pessoal existe uma diferença bem significativa entre os paradigmas.
+
+2
+00:00:06,320 --> 00:00:12,420
+Uma coisa é você trabalhar como paradigma de orientação a objeto que você tem uma série de características
+
+3
+00:00:12,420 --> 00:00:13,470
+como herança.
+
+4
+00:00:13,650 --> 00:00:22,320
+Você tem polimorfismo você tem composição você tem relacionamentos direcionais bidirecional você tem
+
+5
+00:00:22,320 --> 00:00:28,170
+uma série de coisas eu vou tratar um pouco mais sobre isso essa diferença dos paradigmas vou trabalhar
+
+6
+00:00:28,170 --> 00:00:35,100
+o capítulo de JP mais eu vou querer consultar dados do banco de dados a partir dos registros na tabela
+
+7
+00:00:35,100 --> 00:00:38,150
+pessoas e mentalmente eu vou querer jogar.
+
+8
+00:00:38,250 --> 00:00:39,740
+Essas colunas dessas.
+
+9
+00:00:39,750 --> 00:00:46,200
+Esse resultado obtido na consulta dentro de um objeto eu vou mostrar isso pra vocês nas salas um objeto
+
+10
+00:00:46,210 --> 00:00:52,660
+pessoa vai ser um exemplo muito simples porque existem poucas colunas na verdade só colhe o nome.
+
+11
+00:00:52,830 --> 00:00:59,310
+Não tem relacionamentos mais complexos se você tem uma necessidade tem muito esse mapeamento de banco
+
+12
+00:00:59,310 --> 00:01:01,220
+de dados em objetos.
+
+13
+00:01:01,230 --> 00:01:07,860
+é exatamente nesse problema que o JP junto com a implementação de Bennet entra e que é um framework
+
+14
+00:01:07,860 --> 00:01:15,040
+de mapeamento objeto relacional ou seja ele faz o mapeamento entre o mundo do banco de dados que é uma
+
+15
+00:01:15,050 --> 00:01:22,380
+entidade relacionamento com o mundo e orientação objeto exatamente o conceito de Rn mapeamento objeto
+
+16
+00:01:22,380 --> 00:01:29,240
+relacional relacional do banco e objeto da orientação objeto o paradigma que o Java SE BASEIA.
+
+17
+00:01:29,520 --> 00:01:35,250
+Então Dito isso mais na frente ele vai trabalhar muito esse conceito de como o banco mapeia e como é
+
+18
+00:01:35,250 --> 00:01:39,570
+feito o mapeamento do mundo orientado a objeto e isso a gente vai ver um pouco mais para a frente e
+
+19
+00:01:39,590 --> 00:01:44,130
+que eu vou criar um exemplo muito simples mostrando como é que a gente pode criar um objeto e pegar
+
+20
+00:01:44,130 --> 00:01:47,110
+o resultado 7 do Jd. Messejana.
+
+21
+00:01:47,140 --> 00:01:50,180
+Esse acesso direto ao banco jogado em objeto.
+
+22
+00:01:50,190 --> 00:01:56,360
+Pra isso eu vou criar uma classe chamada de pessoa pessoa.
+
+23
+00:01:56,620 --> 00:02:06,150
+Aqui eu vou criar dois atributos então atributos privados para indivíduo acolhe mapear para a coluna
+
+24
+00:02:06,160 --> 00:02:13,720
+Código Civil restringir o micro a mapear a coluna nome.
+
+25
+00:02:13,770 --> 00:02:23,190
+Aqui eu vou criar os metros letras de setas ou selecionar aqueles dois bi para gerar o daqui com a SHiFT
+
+26
+00:02:24,630 --> 00:02:27,210
+Control Shift serve para formatar Windows e Linux.
+
+27
+00:02:27,720 --> 00:02:36,200
+E vou também criar aqui um construtor usando os fios de Eu vou selecionar os dois de Guajará o construtor
+
+28
+00:02:36,210 --> 00:02:39,480
+que já recebe por padrão o código nome.
+
+29
+00:02:39,510 --> 00:02:51,090
+Com isso até a pessoa criada nós vamos criar uma nova classe que eu vou chamar de consultar pessoa pessoas
+
+30
+00:02:51,870 --> 00:02:55,660
+e logo na sequência vamos criar e consultar pessoas.
+
+31
+00:02:55,700 --> 00:03:00,820
+Há dois já colocando o r para que a gente possa filtrar a partir do nome.
+
+32
+00:03:00,830 --> 00:03:05,480
+Então no nosso caso aqui nós vamos consultar todas as pessoas da tabela.
+
+33
+00:03:05,520 --> 00:03:10,040
+E no caso do filho que nós vamos usar vai ser a partir do nome então filtrar as pessoas por nome.
+
+34
+00:03:10,060 --> 00:03:13,460
+O primeiro caso que nós vamos fazer vai ser constar todas as pessoas.
+
+35
+00:03:13,460 --> 00:03:23,700
+Então para isso a gente precisa ter uma conexão o craque Connection Conexão recebe a fábrica conexão
+
+36
+00:03:23,720 --> 00:03:28,820
+ponto Ganchinho conexão uma vez que a gente tem a conexão.
+
+37
+00:03:28,830 --> 00:03:41,500
+Eu vou definir o que o meu SQL coloca em latim asterisco foram pessoas que a minha consulta é.
+
+38
+00:03:41,640 --> 00:03:43,520
+Feito isso eu vou criar o meu estreitamento.
+
+39
+00:03:43,530 --> 00:03:45,810
+Nesse caso eu não vou passar nenhum parâmetro.
+
+40
+00:03:45,810 --> 00:03:55,540
+Eu vou criar um sistema que já tinha feito anteriormente a partir da conexão ponto que criei estreitamento
+
+41
+00:03:56,040 --> 00:03:57,330
+e na hora de executar.
+
+42
+00:03:57,360 --> 00:04:02,960
+A gente passa o SQL aqui vai e começa a dar erro por conta da recessão.
+
+43
+00:04:02,970 --> 00:04:08,600
+Vou também lançar na assinatura do Mané Fróes aquela que serve e vai.
+
+44
+00:04:08,910 --> 00:04:16,420
+A partir dos testemunhos executar o Apache 2 aqui dispensando quaisquer legal.
+
+45
+00:04:16,440 --> 00:04:20,860
+Antes de finalizar vou chamar a minha conexão com o Klaus.
+
+46
+00:04:20,860 --> 00:04:25,180
+Também posso chamar um plus no estreitamento sem problemas deste ponto.
+
+47
+00:04:25,350 --> 00:04:27,270
+Também é possível.
+
+48
+00:04:27,390 --> 00:04:35,250
+Só que nesse caso tem a diferença que eu quero pegar o resultado que até Salete e eu quero armazenar
+
+49
+00:04:35,750 --> 00:04:37,290
+é uma variável.
+
+50
+00:04:37,380 --> 00:04:43,440
+Então esse método das equipes ao meu ver é na verdade a gente tem que vai tornar o valor booleano.
+
+51
+00:04:43,920 --> 00:04:51,780
+Mas tenho outras aqui no caso aqui é o as equipes quero querem lo colocar as equipes que vai retornar
+
+52
+00:04:51,780 --> 00:05:00,610
+para a gente fez outro site pagando aqui as equipes que eles retornam usam o site ajustado esse mesmo
+
+53
+00:05:00,720 --> 00:05:04,140
+site também é do Java e ponto SQL.
+
+54
+00:05:04,510 --> 00:05:09,960
+Alguns sites também é uma interface em Java conta SQL.
+
+55
+00:05:09,990 --> 00:05:16,620
+Vou chamar aqui de resultado que a partir desse resultado a gente consegue obter as informações que
+
+56
+00:05:16,620 --> 00:05:18,630
+foram omitidas no banco de dados.
+
+57
+00:05:18,630 --> 00:05:23,940
+No caso de um insight querendo colocar informação no banco de dados no caso do Salete eu quero pegar
+
+58
+00:05:23,940 --> 00:05:31,890
+o banco e trazer para o Java exatamente dentro de resultado que nós vamos ter essa informação como espera
+
+59
+00:05:31,890 --> 00:05:35,900
+receber múltiplas minhas então vou criar um método baixo.
+
+60
+00:05:36,020 --> 00:05:38,850
+Eu não sei quantas linhas a priori eu até poderia pagar.
+
+61
+00:05:38,850 --> 00:05:47,310
+Resultado a quantidade de registros obtidos mas eu vou fazer que o resultado ponto que me deu o próximo
+
+62
+00:05:47,310 --> 00:05:48,490
+resultado.
+
+63
+00:05:48,490 --> 00:05:55,680
+Isso aqui esse método tanto ele seleciona o próximo resultado como ele diz se tem ou não o próximo registro
+
+64
+00:05:55,900 --> 00:05:57,620
+eletrônico verdadeiro ou falso.
+
+65
+00:05:57,660 --> 00:06:03,510
+Se ele retornar verdadeiro significa que um próximo resultado não é o primeiro registro foi selecionado.
+
+66
+00:06:03,510 --> 00:06:08,670
+Aí eu faço o que tem que fazer e me deu próximo a ele se ele deve verdadeira quer dizer que tem mais
+
+67
+00:06:08,670 --> 00:06:11,060
+o registro para processar e aí ele vai processar.
+
+68
+00:06:11,090 --> 00:06:18,270
+Quando o Flash é falso ou seja todos os registros foram processados ele sai do ar ele fecha a conexão
+
+69
+00:06:18,620 --> 00:06:21,160
+e fecha o estágio em primeiro e depois de fechar conexão.
+
+70
+00:06:21,420 --> 00:06:27,300
+Então aqui dentro em cima de resultado eu vou fazer o seguinte ou primeiro criar aqui eu não precisaria
+
+71
+00:06:27,300 --> 00:06:34,320
+fazer isso mas eu vou criar aqui uma lista do tipo pessoa que eu vou chamar de pessoa do plural certo.
+
+72
+00:06:34,420 --> 00:06:48,510
+Eu acho que alguém já importou o lixo a religião e vou adicionar dentro de pessoas para adicionar uma
+
+73
+00:06:48,510 --> 00:06:56,610
+nova pessoa então ela tem um cunho pessoal que recebe o código e um nome e eu escolhi o nome eu vou
+
+74
+00:06:56,610 --> 00:06:59,190
+pegar a parte de resultado para não ficar muito grande.
+
+75
+00:06:59,190 --> 00:07:07,160
+Tudo tem uma linha só vou criar um inteiro chamado código que recebe alguma coisa que eu coloco já que
+
+76
+00:07:07,170 --> 00:07:16,130
+ele recebe e vou criar uma outra variável string nome que acerta também alguma coisa e a partir disso
+
+77
+00:07:16,210 --> 00:07:19,320
+colocar um ponto e vírgula vou criar a pessoa a partir desse código.
+
+78
+00:07:19,360 --> 00:07:25,770
+O objetivo é obter isso a partir de um resultado então dentro de resultado já que eu selecionei uma
+
+79
+00:07:25,770 --> 00:07:31,290
+linha a partir do Mac imagino que vai fazer uma consulta no banco de dados ele vai me retornar um conjunto
+
+80
+00:07:31,290 --> 00:07:37,710
+de linhas 50 linhas mil linhas 3 mil registros do chamado aqui de linhas.
+
+81
+00:07:37,710 --> 00:07:44,480
+Então aqui quando eu coloco Net selecione a primeira e aí sim na primeira linha eu vou para aqui resultado
+
+82
+00:07:44,490 --> 00:07:46,110
+ponto 7.
+
+83
+00:07:47,130 --> 00:07:52,040
+Ou seja eu quero pegar o ID eu posso tanto pegar como na parte do índice.
+
+84
+00:07:52,110 --> 00:07:59,130
+Assim se 1 2 3 como eu posso pegar colou na parte do nome então acho mais previsível apagar parte do
+
+85
+00:07:59,130 --> 00:08:04,510
+nome então até porque o código é a mesma coisa resultado ponto Guedes.
+
+86
+00:08:04,620 --> 00:08:13,500
+Só que em beijinho vai ser Bad string então Bad distribuídos e aqui eu vou casting o nome da coluna
+
+87
+00:08:13,500 --> 00:08:17,930
+que representa o nome então estado GA distrito de nome vai mudar o nome.
+
+88
+00:08:17,940 --> 00:08:19,370
+Resultado gatinho.
+
+89
+00:08:19,440 --> 00:08:22,050
+Código animal código com código nome.
+
+90
+00:08:22,110 --> 00:08:28,630
+Eu crio uma pessoa e logo na sequência posso fazer um foguete para percorrer a pessoa então qualquer
+
+91
+00:08:28,650 --> 00:08:39,840
+pessoa que tem em cima da serra lixo e pessoas que eu mostro que eu quiser o System Audi tem um código.
+
+92
+00:08:40,140 --> 00:08:51,090
+O concatenar aqui sei lá uma tinha e vou dar aqui um ponto grande só pra mostrar o nome e o código o
+
+93
+00:08:51,090 --> 00:08:58,540
+nome das pessoas que obtive e que está faltando concatenação para executar em nosso código Eletrosul.
+
+94
+00:08:58,570 --> 00:09:00,230
+3 Leitão.
+
+95
+00:09:00,330 --> 00:09:05,200
+4 Marina Silva sem Gabriel Silva 101.
+
+96
+00:09:05,460 --> 00:09:12,050
+Então essa é o nosso exercício de Salete relativamente simples foi um pouco maior porque eu criei uma
+
+97
+00:09:12,060 --> 00:09:18,970
+lista a partir do resultado eu poderia ter simplesmente pego o resultado e não ter colocado dentro de
+
+98
+00:09:18,960 --> 00:09:24,210
+uma classe por exemplo dentro de um objeto mas aqui eu fiz questão de colocar e criar um objeto pessoa
+
+99
+00:09:24,570 --> 00:09:30,960
+colocar os resultados à parte dentro de um objeto para daí a gente ter uma lista de pessoas e os Analíticos
+
+100
+00:09:31,050 --> 00:09:31,590
+pessoas.
+
+101
+00:09:31,590 --> 00:09:38,450
+Posteriormente poderia ser inclusive em outro código a usar aquelas pessoas e peguei a como código pessoa
+
+102
+00:09:38,450 --> 00:09:44,520
+com o nome então eu poderia ter feito direto sem necessariamente ter precisado criar uma classe e acessar
+
+103
+00:09:44,510 --> 00:09:49,680
+os dados diretamente mais importante você perceber como é que você pode pegar os dados do Banco de Dados
+
+104
+00:09:49,680 --> 00:09:51,510
+e jogá los para dentro de um objeto.
+
+105
+00:09:51,520 --> 00:09:58,260
+Quando a gente for o JP vocês vão perceber que esse processo é muito mais simples porque é automatizado
+
+106
+00:09:58,710 --> 00:10:05,090
+ou seja o próprio já faz todo o trabalho de mapear o mundo relacionar alguns do banco de dados para
+
+107
+00:10:05,090 --> 00:10:08,750
+o mundo orientado a objeto o que traz grandes benefícios.
+
+108
+00:10:08,760 --> 00:10:14,900
+Mas como falei anteriormente é possível que você tenha projetos que são projetos simples que vão fazer
+
+109
+00:10:14,900 --> 00:10:20,740
+muito trabalho de banco de dados copiar dados de um banco para o outro ou mesmo processamentos Bétis
+
+110
+00:10:20,750 --> 00:10:25,540
+de madrugada para pegar um série de dados processar esses dados jogar noutra tabela.
+
+111
+00:10:25,610 --> 00:10:29,030
+Então o uso de jogos de PC também é muito útil no dia a dia.
+
+112
+00:10:29,030 --> 00:10:32,360
+Eu uso muito o JD BC quando trabalho com projeto Java.
+
+113
+00:10:32,360 --> 00:10:36,710
+Hoje eu trabalho com muitas linguagens diferentes então nem sempre eu estou trabalhando diretamente
+
+114
+00:10:36,710 --> 00:10:37,430
+com Java.
+
+115
+00:10:37,670 --> 00:10:42,950
+Mas sempre que eu uso eu preciso trabalhar com o Banco de forma mais intensa sem necessariamente ter
+
+116
+00:10:43,400 --> 00:10:49,700
+a necessidade de fazer todo esse mapeamento para além do orientado a objeto Java NBC é uma alternativa
+
+117
+00:10:49,700 --> 00:10:56,630
+extremamente relevante então fico por aqui no nosso exercício de consultar pessoas e na próxima aula
+
+118
+00:10:56,630 --> 00:10:58,730
+a gente faz o consultar pessoas.
+
+119
+00:10:58,760 --> 00:11:06,530
+Dois agora incluindo a nossa consulta há a cláusula web para que possa filtros a partir do que foi digitado
+
+120
+00:11:06,530 --> 00:11:08,460
+pelo usuário eu na proximal.

@@ -1,0 +1,687 @@
+1
+00:00:00,250 --> 00:00:07,260
+Só nessa hora vou falar para vocês a diferença entre uma aplicação serve e numa aplicação em sites é
+
+2
+00:00:07,260 --> 00:00:14,520
+uma distinção e uma caracterização também uma escolha arquitetural é importante que você tem que entender
+
+3
+00:00:14,610 --> 00:00:17,310
+e fazer quando você for desenvolver a sua aplicação.
+
+4
+00:00:17,310 --> 00:00:23,340
+Já entrando na própria caracterização dessas diferenças vou falar inicialmente sobre a evolução nas
+
+5
+00:00:23,340 --> 00:00:30,170
+arquiteturas depois a gente conceitua essas duas estratégias diferentes e você tem uma aplicação cliente
+
+6
+00:00:30,180 --> 00:00:32,380
+site ou uma aplicação sérvia.
+
+7
+00:00:32,400 --> 00:00:39,750
+Olhando aqui a evolução das arquiteturas a primeira arquitetura que a gente pode imaginar a aplicação
+
+8
+00:00:40,040 --> 00:00:45,000
+distribuída dentro do ambiente de rede era a aplicação em um frame.
+
+9
+00:00:45,000 --> 00:00:52,260
+A primeira era que você tinha terminais burros acessando a aplicação construída em frame tudo era centralizado
+
+10
+00:00:52,470 --> 00:00:53,370
+em frente.
+
+11
+00:00:53,400 --> 00:00:59,170
+A lógica era executada no meio frame inclusive a geração da tela era gerada a partir de um frame.
+
+12
+00:00:59,240 --> 00:01:06,240
+Ao terminar apenas para você digitar informações de entrada e aquilo era direcionado por um frame.
+
+13
+00:01:06,240 --> 00:01:12,270
+A segunda era que foi a hora que eu comecei a desenvolver foi mais ou menos nessa época que era época
+
+14
+00:01:12,270 --> 00:01:13,860
+do cliente servidor.
+
+15
+00:01:14,250 --> 00:01:19,740
+Nessa época era época de ouro do Delfim Não sei se alguém que está assistindo esse curso veio dessa
+
+16
+00:01:19,740 --> 00:01:25,680
+época do Delfim eu comecei a programar em Delphi acho que os dois meses mais ou menos dois meses e meio
+
+17
+00:01:25,680 --> 00:01:28,200
+depois eu passei para trabalhar com Java.
+
+18
+00:01:28,190 --> 00:01:34,770
+Quando eu mudei de empresa de qualquer forma nessa época você tinha aplicações chamado de duas camadas
+
+19
+00:01:34,940 --> 00:01:41,270
+então três camadas que era o cliente um cliente rico que a aplicação desktop feito em Delphi você tinha
+
+20
+00:01:41,280 --> 00:01:44,250
+às vezes um e um servidor.
+
+21
+00:01:44,650 --> 00:01:48,660
+A ideia é desenvolvida em breve para poder fazer alguma coisa eu estou usando o Delphi aqui só como
+
+22
+00:01:48,660 --> 00:01:55,660
+exemplo mais isso serve para qualquer tipo de aplicação rica na época das aplicações feitas em desktop
+
+23
+00:01:55,670 --> 00:01:57,890
+poderia ser VB ou qualquer outra linguagem.
+
+24
+00:01:57,920 --> 00:02:03,690
+De qualquer forma você tinha um cliente rico desktop com regras de negócios implementadas no próprio
+
+25
+00:02:03,690 --> 00:02:08,340
+cliente e às vezes esse cliente acessa diretamente o banco de dados.
+
+26
+00:02:08,340 --> 00:02:14,070
+Ou seja seria o modelo duas camadas ou então também tem um modelo de três camadas que você tem um cliente
+
+27
+00:02:14,070 --> 00:02:20,720
+rico desktop e com regras dentro dele você tem ali o Midori no meio e tenho acesso o banco de dados
+
+28
+00:02:20,730 --> 00:02:27,390
+depois como três camadas ou diretamente no desktop acessando o banco de dados ou mesmo comido no meio
+
+29
+00:02:27,390 --> 00:02:35,620
+do caminho tanto faz essa época você tem acesso a arquitetura cliente servidor no qual a aplicação desktop
+
+30
+00:02:35,620 --> 00:02:42,370
+é uma aplicação rica no sentido de que várias coisas são processadas do lado do cliente o servidor.
+
+31
+00:02:42,570 --> 00:02:49,260
+Muitas vezes servia apenas para ter os dados centralizados a partir de um banco de dados SGBD mais a
+
+32
+00:02:49,260 --> 00:02:52,440
+ideia é você ter um cliente rico nesse modelo.
+
+33
+00:02:52,560 --> 00:02:56,840
+Você tinha a dificuldade de atualizar a aplicação.
+
+34
+00:02:56,840 --> 00:02:57,460
+Por quê.
+
+35
+00:02:57,720 --> 00:03:03,810
+Porque como o cliente era rico sempre que mudava a versão você tinha que sair replicando essa aplicação
+
+36
+00:03:03,810 --> 00:03:07,070
+desktop em dezenas ou centenas de máquinas.
+
+37
+00:03:07,070 --> 00:03:12,110
+Eu mesmo como trabalhei em infra estrutura no começo quando comecei a estagiar foi na área de infra.
+
+38
+00:03:12,300 --> 00:03:19,170
+Eu passei eu me lembro de noites a fio a gente passava pela pituitária até legal mas passava a madrugada
+
+39
+00:03:19,170 --> 00:03:24,750
+inteira ou o fim de semana inteiro atualizando todas as máquinas de uma empresa grande para aqui segunda
+
+40
+00:03:24,750 --> 00:03:30,810
+feira o sistema tivesse atualizado em todas as máquinas Chiquita está bem se a conexão estava direitinho
+
+41
+00:03:30,900 --> 00:03:36,300
+porque mexer com venda mexer com dinheiro então tinha que ter certeza que segunda feira a empresa iria
+
+42
+00:03:36,300 --> 00:03:37,860
+abrir sem nenhum tipo de problema.
+
+43
+00:03:37,860 --> 00:03:39,920
+Eu mesmo passei por isso.
+
+44
+00:03:40,050 --> 00:03:45,720
+Tinha até programinhas que fazia essa distribuição do software de uma forma mais tranquila.
+
+45
+00:03:45,840 --> 00:03:51,510
+Mas de qualquer forma em algumas situações a gente precisava intervir na máquina instalar e fazer coisas
+
+46
+00:03:51,510 --> 00:03:57,210
+do tipo Então mas o processo de distribuição de uma nova versão não é tão simples como na época do frame
+
+47
+00:03:57,210 --> 00:04:03,330
+que era centralizado ou seja se você atualizar o Código do mesmo frame automaticamente todos os clientes
+
+48
+00:04:03,330 --> 00:04:10,620
+estão atualizados porque toda a lógica de negócio toda renderização parte do frame como algo centralizado
+
+49
+00:04:10,680 --> 00:04:16,230
+aqui nessa arquitetura como você tem um cliente rico consequentemente quando há uma atualização no sistema
+
+50
+00:04:16,390 --> 00:04:18,840
+vigente a regra vai impactar a aplicação cliente.
+
+51
+00:04:18,840 --> 00:04:25,980
+Você vai precisar distribuir isso de uma forma inteligente mas dá trabalho porque não é algo automático
+
+52
+00:04:26,010 --> 00:04:32,040
+você tem que de fato em todas as máquinas para resolver esse problema de instalação a não ser que você
+
+53
+00:04:32,040 --> 00:04:33,240
+tenha algo automatizado.
+
+54
+00:04:33,240 --> 00:04:38,670
+De qualquer forma ainda assim exige um trabalho muito grande para ter certeza que de fato a versão mais
+
+55
+00:04:38,670 --> 00:04:44,580
+nova foi instalada em cada um dos clientes se você tiver um parque de usuários muito grande como era
+
+56
+00:04:44,580 --> 00:04:46,950
+o caso que eu enfrentei quando eu era estagiário.
+
+57
+00:04:46,950 --> 00:04:51,270
+De fato você vai ter dias para conseguir fazer a migração de uma empresa inteira.
+
+58
+00:04:51,270 --> 00:04:54,140
+Quando há mudanças de sistema está certo.
+
+59
+00:04:54,150 --> 00:04:57,530
+De qualquer forma depois a gente correu para a era da web e da web.
+
+60
+00:04:57,870 --> 00:05:03,920
+A gente passou a ter no primeiro o que a gente chama de aplicação serve site que é exatamente o conceito
+
+61
+00:05:03,920 --> 00:05:06,110
+que eu quero trabalhar com vocês não é de hoje.
+
+62
+00:05:06,200 --> 00:05:15,110
+A aplicação sérvia a aplicação que toda a aplicação da lógica toda a renderização das páginas são processados
+
+63
+00:05:15,110 --> 00:05:16,470
+do lado do servidor.
+
+64
+00:05:16,790 --> 00:05:24,800
+Então a máquina do usuário Brasil e do usuário ele serve apenas como certa forma terminal o que obviamente
+
+65
+00:05:24,800 --> 00:05:33,020
+você pode até misturar tá na aplicação com parte de código executando no lado do Frontier gera algum
+
+66
+00:05:33,020 --> 00:05:40,280
+tipo de JavaScript para validar ou fazer algum tipo de animação ou algum tipo de interação na tela.
+
+67
+00:05:40,280 --> 00:05:47,420
+De uma forma talvez menor mas via de regra aplicações versátil o conteúdo é gerado do lado servidor.
+
+68
+00:05:47,600 --> 00:05:53,090
+Isso para mim foi uma grande frustração quando eu comecei a desenvolver web eu tinha acabado de sair
+
+69
+00:05:53,090 --> 00:05:58,880
+de uma experiência de dois ou três meses se programar em Delphi praticamente fazendo só relatórios e
+
+70
+00:05:58,880 --> 00:06:03,890
+algumas delas mais simples eu tinha pouquíssima base de programação e eu estava aprendendo tinha vindo
+
+71
+00:06:03,890 --> 00:06:10,630
+da infra estrutura passei alguns anos trabalhando com redes em servidores dando suporte a uma rede que
+
+72
+00:06:10,780 --> 00:06:16,610
+parte impressora não funciona esse tipo de coisa que tem suporte a cabo uma hora ou outra tem que sujar
+
+73
+00:06:16,610 --> 00:06:22,640
+as mãos e então fiz um pouco disso e aí eu me cansei de expor meu chefe eu quero o desenvolvimento e
+
+74
+00:06:22,640 --> 00:06:23,540
+o que gosta é isso.
+
+75
+00:06:23,540 --> 00:06:29,540
+Sempre quis trabalhar com desenvolvimento e ele me colocou parte também trabalhando com Delphi durante
+
+76
+00:06:29,540 --> 00:06:34,460
+os dois meses depois eu mudei de empresa e comecei a trabalhar com Java e Java para a web.
+
+77
+00:06:34,730 --> 00:06:39,730
+Eu tinha na minha cabeça tirando o fato de que o Java tinha uma tecnologia chamada applets.
+
+78
+00:06:39,760 --> 00:06:46,160
+Tirando isso eu imaginava que eu ia programar Java diretamente no Brasil e que o Brasil iria interpretar
+
+79
+00:06:46,160 --> 00:06:47,150
+a linguagem Java.
+
+80
+00:06:47,660 --> 00:06:56,030
+Quando eu descobri que o Java era usado do lado do servidor para gerar conteúdo HTML de forma dinâmica
+
+81
+00:06:56,030 --> 00:06:57,710
+usando o código Java.
+
+82
+00:06:57,770 --> 00:06:59,920
+Aquilo ali foi um balde de água fria.
+
+83
+00:06:59,930 --> 00:07:06,430
+Eu fiquei extremamente desapontado e decepcionado da forma como era construído e isso para mim parecia
+
+84
+00:07:06,440 --> 00:07:13,660
+muito estranho era mais natural que o que o Brasil suportasse as linguagens como Java na época eu não
+
+85
+00:07:13,660 --> 00:07:19,070
+conhecia muitas linguagens ou mesmo Pascal lá do Delphi eu pudesse programar isso diretamente no Brasil
+
+86
+00:07:19,100 --> 00:07:26,250
+mas não era verdade então nesse caso nessa arquitetura você tem uma distribuição muito simples porque
+
+87
+00:07:26,250 --> 00:07:32,080
+é web então uma vez que você muda o seu site automaticamente todos os clientes estão atualizados.
+
+88
+00:07:32,080 --> 00:07:34,800
+Você tem um grande ganho do ponto de vista.
+
+89
+00:07:34,910 --> 00:07:40,220
+Quando você tem uma arquitetura baseada em Delphi cliente servidor que você tem cliente rico mas que
+
+90
+00:07:40,220 --> 00:07:45,320
+tem que ter esse cuidado na hora de atualizar as versões das máquinas dos usuários aqui você não tem
+
+91
+00:07:45,320 --> 00:07:52,310
+esse problema mas de certa forma você volta um pouco para a era do frame no qual o servidor centraliza
+
+92
+00:07:52,310 --> 00:07:59,000
+todas as responsabilidades e o conteúdo gerado a partir do servidor e mandando o conteúdo para a máquina
+
+93
+00:07:59,000 --> 00:07:59,870
+do cliente.
+
+94
+00:07:59,870 --> 00:08:01,950
+Isso de certa forma é ruim.
+
+95
+00:08:01,970 --> 00:08:09,110
+Você pega por exemplo tecnologias como PHP Python o próprio Java que são tecnologias que rodam no Mac
+
+96
+00:08:09,310 --> 00:08:11,980
+onde você hoje tem esse contras.
+
+97
+00:08:12,100 --> 00:08:19,850
+Essa esse confronto melhor dizendo Você tem clientes ricos que querem se comportar como um desktop lá
+
+98
+00:08:19,850 --> 00:08:25,820
+na máquina do usuário no Brasil de forma que você consegue ter drag and drop e consegue ter muitos recursos
+
+99
+00:08:25,820 --> 00:08:28,870
+com a aplicação desktop dispõe.
+
+100
+00:08:28,880 --> 00:08:30,740
+Você consegue ter isso no Brasil.
+
+101
+00:08:30,740 --> 00:08:36,620
+Só que ao mesmo tempo você tem esse tipo de aplicação ser gerada pelo servidor é muito ruim porque qualquer
+
+102
+00:08:36,620 --> 00:08:43,190
+tipo de alteração que você precise fazer na sua página precisa em um servidor para gerar um conteúdo
+
+103
+00:08:43,430 --> 00:08:44,660
+e atualizar a página.
+
+104
+00:08:44,660 --> 00:08:50,420
+Isso vai gerar uma latência vai gerar uma lentidão na experiência do usuário fora que a página vai ser
+
+105
+00:08:50,420 --> 00:08:53,450
+renderizados novamente ou pelo menos parte da página.
+
+106
+00:08:53,780 --> 00:08:59,870
+Então esse é um tipo de experiência não tão legal mas o fato do conceito mesmo de uma aplicação que
+
+107
+00:08:59,870 --> 00:09:06,800
+é do lado do servidor se ele serve e saïœde e que você tenha códigos do lado do servidor que gera o
+
+108
+00:09:06,800 --> 00:09:10,770
+conteúdo dinâmico não tenho um arquivo físico no lado do servidor.
+
+109
+00:09:11,080 --> 00:09:14,030
+Ele gera esse arquivo e manda isso para o Brasil.
+
+110
+00:09:14,060 --> 00:09:19,970
+De certa forma não é exatamente a abordagem que a gente usa hoje mais moderna e a próxima etapa na evolução
+
+111
+00:09:20,210 --> 00:09:27,410
+é exatamente as aplicações front end ou aplicações cliente sites quer do lado do cliente você volta
+
+112
+00:09:27,410 --> 00:09:33,170
+para aquela ideia da aplicação que era feita na época desktop por exemplo Delphi você tem a aplicação
+
+113
+00:09:33,180 --> 00:09:40,490
+clínica que tem vários comportamentos dentro dessa aplicação e o acesso ao servidor é um acesso muito
+
+114
+00:09:40,490 --> 00:09:42,850
+mais para obter dados certo.
+
+115
+00:09:42,980 --> 00:09:49,340
+Obviamente é diferente do Delphi que você tinha uma aplicação desktop que acessavam diretamente o banco
+
+116
+00:09:49,340 --> 00:09:49,820
+de dados.
+
+117
+00:09:49,820 --> 00:09:54,390
+Muitas vezes esse era o modelo a aplicação diretamente acessa no banco.
+
+118
+00:09:54,500 --> 00:10:02,240
+Aqui você tem de fato um servidor ou um código implementado servidor para aplicar regras de negócio
+
+119
+00:10:02,350 --> 00:10:11,270
+para gerar o seus abcessos e obviamente gerando os abcessos se você não pode simplesmente expor o acesso
+
+120
+00:10:11,270 --> 00:10:12,110
+aos dados direto.
+
+121
+00:10:12,110 --> 00:10:18,020
+Você tem que aplicar filtros de validação você tem que aplicar camadas de segurança você tem que aplicar
+
+122
+00:10:18,350 --> 00:10:23,360
+várias outras coisas que não é época como você ter um sistema internet é feito no desktop.
+
+123
+00:10:23,660 --> 00:10:30,260
+Você não tinha tantos perigos digamos assim porque você está dentro de uma rede segregada controlada
+
+124
+00:10:30,290 --> 00:10:34,320
+e separada por e coisas do tipo que não está na internet.
+
+125
+00:10:34,400 --> 00:10:39,590
+Então você precisa ter um cuidado e segurança e algumas outras coisas muito maior do que você tinha
+
+126
+00:10:39,590 --> 00:10:41,430
+na época do desktop.
+
+127
+00:10:41,480 --> 00:10:50,450
+Você tem clientes ricos ou seja parte do processo de renderização dos componentes regras de detalhes
+
+128
+00:10:50,450 --> 00:10:52,480
+visuais ou mesmo mensagem de áudio.
+
+129
+00:10:52,490 --> 00:10:56,230
+Tudo isso é gerado do lado do cliente usando JavaScript.
+
+130
+00:10:56,360 --> 00:11:03,440
+Daí o fato de que como você tem hoje modelos ricos há aplicações que se comportam como aplicações desktop.
+
+131
+00:11:03,440 --> 00:11:10,130
+Do lado do Brasil e do lado do cliente você precisa sim dominar muito JavaScript principalmente os frameworks
+
+132
+00:11:10,130 --> 00:11:18,380
+mais modernos do mercado que aqui viu Angola e tem outros outros frameworks menores esses são os três
+
+133
+00:11:18,680 --> 00:11:24,740
+mais mencionados digamos assim nesse período mas de qualquer forma você precisa dominar assim o Supremo
+
+134
+00:11:25,120 --> 00:11:31,550
+JavaScript para que você possa criar de fato aplicações ricas sem precisar reinventar essa base estrutural
+
+135
+00:11:31,550 --> 00:11:35,060
+de um frame ou de qualquer forma para a gente resumir essa aula.
+
+136
+00:11:35,060 --> 00:11:44,420
+A ideia é muito simples a aplicação serve saïœde o conteúdo HTML ele é gerado a partir do servidor ou
+
+137
+00:11:44,420 --> 00:11:51,650
+seja não apenas dados enviados do servidor para o Brasil mas o HTML é gerado do lado do servidor e manda
+
+138
+00:11:51,740 --> 00:11:54,350
+essa informação para ser renderizados no Brasil.
+
+139
+00:11:54,620 --> 00:12:01,100
+Quando você trabalha com a aplicação front end uma aplicação cliente saïœde é muito comum você ter o
+
+140
+00:12:01,100 --> 00:12:02,730
+conceito de S.p.A.
+
+141
+00:12:03,020 --> 00:12:04,780
+O que esperar é assim.
+
+142
+00:12:05,450 --> 00:12:09,140
+Application uma aplicação que tem uma única página.
+
+143
+00:12:09,170 --> 00:12:15,680
+Essa aplicação de uma única página a primeira página renderizados e a partir daí ele pega o JavaScript
+
+144
+00:12:15,800 --> 00:12:23,420
+que você usou para fazer a aplicação e toda a parte visual da página HTML que é construído e gerado
+
+145
+00:12:23,450 --> 00:12:30,620
+dinamicamente pelo JavaScript e pelo código Javascript e não mais gerado pelo servidor o servidor passa
+
+146
+00:12:30,620 --> 00:12:37,490
+a ter serviços web com arquitetura bastante comum você tem Web Services do lado do servidor que geram
+
+147
+00:12:37,760 --> 00:12:43,150
+dados e pode ser no formato XML mas de forma mais comum e um formato de som.
+
+148
+00:12:43,190 --> 00:12:46,810
+Você tem um abscesso Isolation gerando dados no formato.
+
+149
+00:12:46,940 --> 00:12:52,030
+Então uma vez que você carrega os dados na sua aplicação HTML JavaScript.
+
+150
+00:12:52,310 --> 00:12:55,430
+A partir daí toda a sua aplicação gerar dinamicamente.
+
+151
+00:12:55,460 --> 00:13:02,180
+Do lado do cliente você passa a consumir os dados diretamente do servidor mas não mais HTML vindo do
+
+152
+00:13:02,180 --> 00:13:06,580
+servidor e sim dados no formato de som por exemplo.
+
+153
+00:13:06,580 --> 00:13:11,380
+Aí você pode perguntar o posto uma aplicação mística tanto o plano de saúde como serve.
+
+154
+00:13:11,510 --> 00:13:17,900
+Pode sim inclusive nesse quesito você tem alguns frameworks que te facilitam.
+
+155
+00:13:17,900 --> 00:13:23,800
+Você pega uma aplicação Server site e colocar funcionalidades no site.
+
+156
+00:13:23,810 --> 00:13:29,610
+Então por exemplo tem uma aplicação que eu dou manutenção que é feita em PHP ou seja o código serve
+
+157
+00:13:29,610 --> 00:13:36,050
+ao saïœde e algumas funcionalidades dessa aplicação foi migrado para real aqui nessa aplicação.
+
+158
+00:13:36,050 --> 00:13:42,180
+A grande maioria das telas ainda é gerado lá do servidor e algumas telas é gerada usando um framework
+
+159
+00:13:42,190 --> 00:13:44,300
+cliente site famoso que eu vi aqui.
+
+160
+00:13:44,600 --> 00:13:52,090
+Ou seja toda o HTML que é construído dentro daquela página gerada e aqui é feito diretamente no cliente
+
+161
+00:13:52,440 --> 00:13:55,260
+e ele fica apenas chamando serviços web.
+
+162
+00:13:55,370 --> 00:14:00,680
+Do lado do servidor pra consumir dados ou para enviar dados para você assistido alguma coisa do tipo
+
+163
+00:14:00,890 --> 00:14:06,220
+certo espera ter ficado claro a diferença de cliente site serve de saïœde.
+
+164
+00:14:06,370 --> 00:14:10,330
+Eu espero também ter ficado ficado clara essa questão da evolução.
+
+165
+00:14:10,370 --> 00:14:15,710
+De certa forma é cíclico você saiu de um ambiente centralizado no mainframe passou para a aplicação
+
+166
+00:14:15,710 --> 00:14:22,460
+rica desktop certo dentro de uma rede mais local segregado no desktop para acessar o banco de dados.
+
+167
+00:14:22,460 --> 00:14:27,350
+Depois voltamos para aquela era do frame centralizado só que agora no ambiente web sem o problema de
+
+168
+00:14:27,350 --> 00:14:28,300
+distribuição.
+
+169
+00:14:28,330 --> 00:14:35,100
+E finalmente chegamos na era no qual os clientes são ricos só que no ambiente web sem problema de distribuição.
+
+170
+00:14:35,120 --> 00:14:40,580
+Você até pode ter algum problema de distribuição se você tiver usando cache coisas do tipo mas não se
+
+171
+00:14:40,580 --> 00:14:45,020
+compara nada se compara com o problema que a gente tinha na época de aplicações Desktop.
+
+172
+00:14:45,020 --> 00:14:48,980
+Tá certo então espero que tenha ficado claro esse conceito e espero na próxima aula.

@@ -1,0 +1,291 @@
+Bloco 1 - finalizado
+______________________________________________________________________________________________________________________
+Bloco 2 - assistir a instalação
+______________________________________________________________________________________________________________________
+Bloco 3 -
+F007 - concluído
+F008 - concluído
+F009 - 
+metodo main - ponto de partida de um programa JAVA;
+'crtl + m' -> oculta e exibe barra latral tipo 'ctrl + b' do VScode ;
+atalho ->'syso + enter'  imprima ima linha na saída do sistema;
+'ctrl + shift + F11' -> executa o console;
+
+F010 - 
+JAVA e organizado em senteças de código terminadas em ponto e virgula ';'; 
+'ctrl + shift + F' -> identa o codigo automaticamente;
+
+F011 - 
+Como criar um projeto;
+Como criar pacotes (que são pastas);
+Como criar arquivos '.java';
+Entender o peso dos pacostes na organização do código;
+O peso que cada arquivo '.java' tem;
+
+F012 - Desafio;
+F013 - Resposta;
+
+F014 -
+// comentário de uma linha;
+/**/ comentário por range(várias linhas);
+'ctrl + /' atalho para comentar a linha;
+'/** + enter' - comentário de documntação; procurar por "javadoc string"; au digitar '@' aparece opções de tópicos;
+
+
+F015 -
+declarar váriavel;
+declarar constante;
+constante usar letra maiúscula(UPPERCASE);
+'+' concatenar string com variavel;
+
+F016 - desafio;
+jshell - no prompt de comando pra simular o interpretador do JAVA;
+link para formatar o decimal <https://samuelmg.wordpress.com/2008/08/30/limitando-casas-decimais-com-java/>
+F017 - resposta;
+para mover linhas de código é igual ao VScode;
+para duplicar linha 'ctrl + alt + seta';
+
+F018 - 
+compreensão automática dos tipos  dentro da variaveis;
+não pode trocar a tipagem no automático;
+JAVA é de tipagem forte;
+
+F019 - 
+tipos primitivos;
+8 tipos primitivos;
+
+6 numéricos:
+	interios 4 tipos: a diferença e o tamanho:
+	byte;
+	short; 
+	int;
+	long;
+	-----
+	ponto flutuante 2 tipos; 
+	float;
+	double -> dobro do float de capacidade de armazanamento;
+	
+	
+2 Ñ numericos:
+boolean -> true ou false, diferente do JS que aeita numeros como tru ou false(0 = false , 1.... = true) no JAVA aceita somente as condições básicas;
+char;
+
+se setarmos de forma literal um numero inteiro em variavel declarada como REAL ela assumirá papel de inteiro;
+
+cuidar ao troca o armazenamento das tipagens, exemplo: caso coloque um dado que esta em byte para short o JAVA irá entender que está tudo bem, porém se tirar de shrot e passar pra byte, o JAVA expressará error;
+
+F020 - 
+
+práticas com tipo primitivo;
+3_234_445_223L; //possível usar underline para organizar numeros grandes, adicinar  'L' ao final do nuemro para o JAVA entender que o numero é um literal long, caso o valor exceda os tamanho de int;
+11_445.44F; //Para numéros reais há também um caso parecido, caso sete um valor doufle numa váriavel float, então ai final do numero adicionar 'F', para informar que ese valor é um literal float;
+
+caso declare uma variavel e não usa o eclipse irá expressar conflito; porém não é algo grave;
+
+F021 - 
+String não e tipo primitivo;
+.toUpperCase();
+.replace(1º param,2º param);
+.concat(param);
+.lenght();
+Tipos de primitivos não tem operador '.';
+
+
+F022 -
+Import;
+funcionalidades que não estão presentes no JAVA porém o mesmo precisa ser importado;
+
+F023 -
+tipo String: é imutavel,  por´m substituivel;
+
+System.out.println("Olá pessoal".charAt(5)) -> "e", captura a letra na possição requirida;
+String s = "Boa Tarde";
+System.out.println(s.startsWith("Boa")); -> treu,  verifica se a string começa com o que foi setado no parametro;
+System.out.println(s.startsWith("boa")); -> false, pois é case sensitive;
+System.out.println(s.toLowerCase().startsWith("boa")); -> true, passando tudo pra minusculo e deposi verificando 
+System.out.println(s.length()); -> 9, veirfica o tamanho da string;
+System.out.println(s.equals("boa tarde")); -> false, verifica se é igual ao parametro; 
+System.out.println(s.equalsIgnoreCase("boa tarde")); -> true, veirfica se é igual o parametro ignorando o case sensitive.
+
+funciona também com casos de inferencia;
+
+//metodo parecido com template string
+System.out.printf("Nome: %s %s tem %d anos e recebe %f de salario.\n", nome, sobrenome,idade,salario);
+System.out.printf("Nome: %s %s tem %d anos e recebe %.2f de salario.", nome, sobrenome,idade,salario);
+
+\n -> quebra linha;
+%s -> string;
+%d -> numero inteiros;
+%f -> numeros reais
+%.2f - > arredondar as casas decimais(pode se arrendondar para + ou para - casas);
+
+
+//Passando por .format
+String frase = String.format("Nome: %s %s tem %d anos e recebe %.2f de salario.", nome, sobrenome,idade,salario);
+System.out.println(frase);
+
+System.out.println(frase.contains("anos")); -> true, verifica se contém a o que está no parametro;
+System.out.println(frase.indexOf("salario")); -> 58,  traz o posição que soque está no parametro;
+System.out.println(frase.substring(28));-> exibe a string a partir do indexOf stado no parametro;
+System.out.println(frase.substring(28 , 54)); -> exibe o que estiver nesse intervalo;
+
+F024 - 
+console:
+System.out.println() -> printa no console e pula linha, porém o comando só obedecido depois de printar;
+System.out.print(); -> printa no console;
+System.out.printf("Megasena: %d %d %d %d %d %d ", 1,2,3,4,5,6); ->  pra usar com o modelo formt;
+System.out.printf("Salário: %.1f %n ", 1234.5678); -> %n quebra a linha no modelo format;
+
+import java.util.Scanner;
+Scanner entrada = new Scanner(System.in); -> irá monitorar o que vc irá inserir e capturar;
+
+.nextLine() -> para string;
+.nextInt() -> para inteiros;
+.close(); -> parar o scanner;
+.next -> persquisar todas as opções;
+
+F025 - 
+objeto e primitivo:
+Wrappers: são versões objeto dos tipos primitivos;
+
+F026 - 
+Wrapper;
+________________
+Byte - Classe
+Short - Classe
+Interger - Classe
+Long - Classe L
+Boolean - Classe
+Float - Classe F
+Double - Classe
+Charater - Classe
+
+byte - primitivo
+short - primitivo
+int - primitivo
+long - primitivo
+boolean - primitivo
+float - primitivo
+double - primitivo
+char - primitivo
+________________
+.byteValue()-> valor dentro da variavel;
+.toString() -> converte para String;
+.parseInt() - >conveter para inteiro;
+.parseBoolean() -> converter para boolean
+
+Integer i = Integer.parseInt(entrada.next()); capturar através do scanner transformar em interio e armazenar na variavel i;
+Boolean bo = Boolean.parseBoolean("true"); transformar string em boolean;
+
+
+F027 -
+Conversão de primitivos
+
+caso converta 3.2 de float para int na conversão irá se torna 3 o .2 será perdido, caso passe de int pra float o 3 irá para 3.0;
+
+quando converte do menor para o maior exemplo de int para long a conversão ocorre de maneira implicita, e quando vai do maior para o menor deve ser explicita;
+
+F028 -
+o java não analisa tamanho, analise tipo, então por mais que o valor caibá tanto no int quanto byte expressará erro;
+
+truncando na conversão, por execeder o tamanho do byte de capacidade, ele volta pro inicio da capacidade de armazenamento;
+
+
+float b = (float) 1.123456788888;// (conversão explicita) por ter execesso de numeros o float não suporta e trunca o valor ->1.1234568; o double suporta mais facilmente
+
+F029 -
+concluída;
+F030 -
+concluída
+F031 -
+concluída
+F032 -
+concluída
+
+F033 -
+Operadores:
+	Unários: a++ -> apenas um operando;
+	Binário: 3+2 -> tem dois operandos
+	Ternário: v ? v: u -> três operando
+-Aritimétcos;
+-Releacionais;
+-Lógicos;
+-Atribuição;
+
+prefix : operador antes do operando -> ++a;
+postfix : operador depois do operando -> a++;
+infix: operador entre dois operandos -> a + b;
+
+F034 -
+Aritiméticos
+
+F035 - 
+math.pow(,)-> Exponenciação, 1º valor da base ou variavel que deseja elevar, 2º valor do expoente;
+como o retorno de Math.pow() é do tipo double fazendo o CAST convete pra inteiro;
+
+F036 -
+resposta do exercício;
+Tambem ensinou a debugar o código, como aplicar BreakPoints e executar com Debug; tecla F6 percorre linha por linha; F8 termina de executar o código;S
+atalhos:
+'ctrl + shift + F6' = navega entre janelas de projetos em aberto;
+'ctrl + shift + F7' = alterna entra as tabs -> as package, console, corevage e editor;
+'ctrl + shift + F8' = atalho de perspectiva -> JAVA, Debug entre outras;
+
+F037 - 
+Tabela verdade;
+true -> verdadeiro;
+false -> falso;
+AND -> as duas condições precisão ser satisfatórias, ambas verdadeiras ou ambas falsas;
+OR -> umas das condições pre ser satisfatória, uma verdadeira e uma falsa;
+XOR -> exclusivamente verdadeira ou falsa, por exemplo, se as duas forem verdadeira o resultado vai ser falso, pois preciso que apenas uma verdaeira e não as duas;
+NOT -> inverte o sentido do operador lógico - !true  = false, dupla negação volta ao estado original -  !!false = false;
+
+F038 -
+Lógicos
+
+F039 -
+Desafio
+F040 -
+Resposta Desafio
+"   \" " -> contra-barra mas aspa (escape) é uma forma de usar aspas dentro de uma string;
+atalho de edição multiplas linahs = 'ctrl + alt + a' -> ainda não dominei essa técnica;
+
+F041 - 
+Operadores Lógicos;
+**Reassistir a AULA**
+
+F042 - 
+Operadores de atribuição;
+
+F043 - 
+Operadores Unarios;
+System.out.println(++a == b--);// deu verdadeiro pois 'a' foi incrementado antes da comparação , 'a' virou 2  e 'b' era 2 também quando comparou  e por isso deu verdadeiro, e só depois da comparação o 'b' decrementou virando 1;
+
+F044 - 
+Operador Ternário;
+
+F045 - 
+Comparador de Strings; 
+.equals() -> comparador de conteudo
+.trim() -> eliminar espaços em  branco;
+.next() -> tira o espaços em branco (posteriormente talvez não precise do .trim()) e o .nextLine() -> não tira os espaço em branco;
+
+
+F046 - 
+JRE -> Ambiente de execução JAVA -> Para o usuário
+JDK -> Kit de desenvolvedor JAVA -> para o desenvolvedor
+JVM -> Maquina virtual JAVA
+byte code
+
+F047 - 
+Usando Java em VScode
+
+F048 - 
+Desafio calculadora
+se usar o JOptionPane - deve converter de string para tipagem desejada
+
+//Meu racicio pro desafio estava certo porém, como sabia qual a maneira ele queria que montasse o desafio
+//acabei arregando e fui direto a resposta, sendo que se tivesse seguido minha intuição teria dado certo;
+______________________________________________________________________________________________________________________
+
+Concluído

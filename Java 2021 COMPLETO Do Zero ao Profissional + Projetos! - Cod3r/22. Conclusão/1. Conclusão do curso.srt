@@ -1,0 +1,155 @@
+1
+00:00:00,450 --> 00:00:08,640
+Chegamos no final do nosso curso de Java e foi um curso extremamente longo até maior do que tinha previsto
+
+2
+00:00:08,700 --> 00:00:09,990
+inicialmente.
+
+3
+00:00:10,020 --> 00:00:17,220
+E nesse curso a gente teve muitas informações valiosas sobre o Java e sobre alguns frameworks e bibliotecas
+
+4
+00:00:17,220 --> 00:00:19,920
+que durante o curso a gente foi aprendendo.
+
+5
+00:00:19,920 --> 00:00:27,600
+Nós começamos o curso falando pouquinho do paradigma procedural que essa parte mais fundamental na programação
+
+6
+00:00:27,630 --> 00:00:36,480
+que é blocos de código sentenças códigos futuras de controle os operadores aritméticos relacionais operadores
+
+7
+00:00:36,480 --> 00:00:43,350
+lógicos a gente viu muitos exercícios e desafio sobre essa parte mais básica da programação.
+
+8
+00:00:43,380 --> 00:00:49,260
+E depois aí partiu também para outros paradigmas como orientação objeto a gente falou sobre encapsulamento
+
+9
+00:00:49,770 --> 00:00:51,990
+herança polimorfismo.
+
+10
+00:00:51,990 --> 00:00:58,410
+Fizemos alguns exemplos também falamos sobre administração e fizemos alguns exemplos mostrando o paradigma
+
+11
+00:00:58,410 --> 00:00:59,750
+orientado a objeto.
+
+12
+00:00:59,850 --> 00:01:07,740
+Eu também falei sobre essa parte mais programação funcional que foi introduzida no Java 8 foi um acréscimo
+
+13
+00:01:07,740 --> 00:01:12,250
+ao Java extremamente significativo e a gente cobriu aqui no nosso curso também.
+
+14
+00:01:12,360 --> 00:01:17,520
+Falando um pouco dessa parte mais funcional que foi introduzida no Java a gente falou do sistema de
+
+15
+00:01:17,520 --> 00:01:20,400
+módulos que foi introduzido no Java 9.
+
+16
+00:01:20,760 --> 00:01:27,750
+Nós falamos sobre o Indiana que é a parte de interface gráfica mais antiga falamos em Java e flex.
+
+17
+00:01:27,750 --> 00:01:35,250
+A gente falou acesso a banco de dados seja com o JD BC como também com o JP a gente viu como acessar
+
+18
+00:01:35,400 --> 00:01:38,030
+o banco de dados e mais Kelly.
+
+19
+00:01:38,040 --> 00:01:41,140
+A gente falou também sobre o JP.
+
+20
+00:01:41,190 --> 00:01:46,650
+Já falei Spring but também que é algo extremamente relevante para os dias atuais.
+
+21
+00:01:46,650 --> 00:01:52,230
+Não tem pessoal apesar de o custo ser extremamente longo nessa centauros não tem como a gente se aprofundar
+
+22
+00:01:52,590 --> 00:01:55,900
+e entrar em cada um dos detalhes de cada um dos temas.
+
+23
+00:01:55,920 --> 00:02:02,730
+Alguns temas merecem sim uso à parte para que a gente possa aprofundar e realmente entregar um conteúdo
+
+24
+00:02:02,730 --> 00:02:05,850
+bem detalhado de cada tema e mais alguns outros temas.
+
+25
+00:02:05,850 --> 00:02:12,510
+Faz mais sentido que você entenda os fundamentos entenda a base e com essa base você consiga desenvolver
+
+26
+00:02:12,840 --> 00:02:16,230
+as especificidades de cada projeto de cada empresa.
+
+27
+00:02:16,380 --> 00:02:22,170
+Então quando você for por exemplo pagar o conteúdo do JP a que a gente viu aqui no nosso curso e aplicar
+
+28
+00:02:22,170 --> 00:02:29,190
+na prática você vai ver que vão surgir necessidades específicas dentro do seu projeto que com a base
+
+29
+00:02:29,190 --> 00:02:35,520
+que você tem você já está preparado sim para enfrentar esses problemas para enfrentar esses desafios.
+
+30
+00:02:35,520 --> 00:02:41,340
+Da mesma forma que você tem uma base no espírito Bush a partir dessa base que você já conhece.
+
+31
+00:02:41,550 --> 00:02:42,990
+Como configurar um projeto.
+
+32
+00:02:42,990 --> 00:02:45,800
+Você já entende alguns conceitos importantes.
+
+33
+00:02:45,810 --> 00:02:52,690
+Você pesquise um pouco e você vai sim conseguir resolver problemas e desafios usando esse tributo e
+
+34
+00:02:52,710 --> 00:02:56,880
+principalmente usando a linguagem Java que é o foco no nosso curso.
+
+35
+00:02:56,880 --> 00:03:03,270
+Então pessoal é isso mas finalizamos aqui o nosso curso Java espero que vocês tenham gostado do curso.
+
+36
+00:03:03,270 --> 00:03:09,690
+7 Se você ainda não avaliou o curso considere avaliar porquê para a gente é extremamente importante
+
+37
+00:03:09,960 --> 00:03:15,630
+que você coloque uma avaliação sincera pra eventualmente gente melhor algum ponto ou receber o elogio
+
+38
+00:03:15,630 --> 00:03:21,060
+que a gente gosta bastante também e receber hoje então fico por aqui até um próximo curso um grande
+
+39
+00:03:21,060 --> 00:03:23,700
+abraço e muito obrigado pela confiança.

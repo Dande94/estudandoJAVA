@@ -1,0 +1,339 @@
+1
+00:00:00,180 --> 00:00:06,900
+Pessoal agora nós vamos fazer um exercício para usar a função e a função Max.
+
+2
+00:00:06,900 --> 00:00:14,700
+E aqui nós vamos fazer o seguinte a observação com relação ao mente mente mente e não mede também a
+
+3
+00:00:14,700 --> 00:00:15,960
+função exterminador.
+
+4
+00:00:15,990 --> 00:00:22,100
+Você tem ele eu mostrei me a partir dela você gera um valor verdadeiro ou falso ou seja depois de ir
+
+5
+00:00:22,410 --> 00:00:28,920
+ao médico você não consegue por exemplo fazer um Mac fazer o idoso porque o resultado é falso.
+
+6
+00:00:29,010 --> 00:00:37,940
+Como a gente já viu no exercício passado então vou lá que aqui uma nova classe não da classe C Max.
+
+7
+00:00:38,840 --> 00:00:47,980
+Vou aproveitar também a lista dos nossos alunos pra não ter que escrever novamente aqui parte dos três
+
+8
+00:00:48,030 --> 00:00:55,080
+ou pegar os alunos e a lista só isso eu prestar nessa aula e vou jogar aqui os nossos queridos alunos
+
+9
+00:00:55,590 --> 00:01:03,550
+e vou criar chamar uma interface chamada Comparato Jabba o último ponto comparei que essa interface
+
+10
+00:01:03,950 --> 00:01:11,680
+que eu vou dizer o aluno e essa interface ela vai comparar dois alunos e eu vou chamar aqui por exemplo
+
+11
+00:01:11,680 --> 00:01:16,340
+o meu critério de comparação vai ser nota ou melhor nota certo.
+
+12
+00:01:16,800 --> 00:01:25,140
+Então basicamente eu poderia daqui um dia eu comparei e aí em cima disso eu vou ter que implementar
+
+13
+00:01:25,440 --> 00:01:32,640
+aqui um metro Chamado Compare para comparar dois alunos mas a gente já viu que eu posso usar o lambda
+
+14
+00:01:32,640 --> 00:01:39,120
+pra isso também eu não preciso implementar isso usando essa forma que eu posso usar o lambda e é exatamente
+
+15
+00:01:39,120 --> 00:01:39,750
+como fazer.
+
+16
+00:01:39,750 --> 00:01:47,770
+Eu tenho um aluno tenho um aluno dois e aqui eu vou implementar a minha função para comparar dois alunos
+
+17
+00:01:47,790 --> 00:01:56,460
+no caso eu quero comparar usando a nota e então fazer o seguinte só se aluno ponto a nota foi maior
+
+18
+00:01:56,460 --> 00:02:00,030
+do que aluno 2 ponto.
+
+19
+00:02:00,330 --> 00:02:04,570
+Nota significa que eu vou retornar.
+
+20
+00:02:04,890 --> 00:02:09,170
+Aí eu já chamei o eterno aqui significa que ele não vai olhar nenhum Cole que está abaixo.
+
+21
+00:02:09,240 --> 00:02:17,250
+Vou fazer o contrário se a nota do aluno for menor do que a nota do aluno 2 eu vou retornar menos um.
+
+22
+00:02:17,370 --> 00:02:23,820
+Caso contrário os dois alunos têm exatamente a mesma nota e eu vou retornar de zero uma função de comparação
+
+23
+00:02:23,830 --> 00:02:31,920
+ela vai conseguir fazer a ordenação por exemplo de uma lista ou vai comparar dois objetos quem é maior
+
+24
+00:02:31,920 --> 00:02:32,670
+do que o outro.
+
+25
+00:02:32,670 --> 00:02:37,120
+De acordo com determinados critérios e nesse caso estou usando como critério a nota.
+
+26
+00:02:37,250 --> 00:02:45,400
+Aqui está um problema europeu tenho já uma variável ao olhar dois aqui o chamar de aluno eu vou chamar
+
+27
+00:02:45,400 --> 00:02:57,480
+aqui de dois extremos sai mudana que vai ser o alvo no qual um aluno 2 e London estão dois dois e aqui
+
+28
+00:02:57,480 --> 00:02:58,930
+eu tenho Brittany.
+
+29
+00:02:58,940 --> 00:03:05,100
+Caso a nota do aluno seja maior ou seja o primeiro elemento não seja mais do que o segundo a retornar
+
+30
+00:03:05,990 --> 00:03:12,090
+certos caso o primeiro elemento seja menor do que o segundo baseado no meu critério que a nota vai tornar
+
+31
+00:03:12,090 --> 00:03:15,870
+menos um significa que o primeiro é menor do que o segundo.
+
+32
+00:03:15,870 --> 00:03:22,470
+Caso contrário se as duas notas forem iguais usando esse critério de comparação os dois alunos são iguais.
+
+33
+00:03:22,470 --> 00:03:26,970
+Eu até poderia ter um segundo critério de comparação caso ele seja igual.
+
+34
+00:03:27,060 --> 00:03:34,050
+Dê uma olhada na nota no nome do aluno por ordem alfabética ou se tem bom comportamento ou não ou qualquer
+
+35
+00:03:34,050 --> 00:03:39,570
+outro critério que você queira ordenar mais esse caso como meu único critério será o critério de nota
+
+36
+00:03:39,570 --> 00:03:45,440
+se as notas forem iguais os dois alunos serão iguais em cima disso a gente consegue usar e comparar
+
+37
+00:03:45,540 --> 00:03:52,530
+a gente consegue definir quem é o melhor aluno da turma quem é o biólogo usa esses critérios é exatamente
+
+38
+00:03:52,530 --> 00:03:55,160
+aqui que nós vamos usar a função de Max.
+
+39
+00:03:55,590 --> 00:04:05,730
+Então vou pegar alunos ponto para construir em cima do chip eu posso pagar aqui Max e passo a me comparar
+
+40
+00:04:05,730 --> 00:04:12,440
+e ele espera receber esse comparar para definir se o aluno com maior ou menor Lolita nesse caso eu passar
+
+41
+00:04:12,440 --> 00:04:16,940
+a melhor nota e o resultado dessa expressão vai ser um a um.
+
+42
+00:04:16,980 --> 00:04:23,840
+Eu acho que não tem o que Justin de aluno não tem na verdade receber um álbum não é aqui eu posso colocá
+
+43
+00:04:23,920 --> 00:04:27,250
+lo para receber o próprio aluno deixou vazar daqui.
+
+44
+00:04:27,390 --> 00:04:31,450
+Eu não tenho um aluno é isso aqui que vem depois do arroba.
+
+45
+00:04:31,470 --> 00:04:33,200
+Só por curiosidade né.
+
+46
+00:04:33,210 --> 00:04:40,030
+Isso aqui é o resto com o dinheiro que foi gerado pra esse aluno se eu vim aqui na classe aluna implementar
+
+47
+00:04:40,040 --> 00:04:51,210
+aqui as cores por exemplo que vai retornar o valor só pra gente ser feito de curiosidade retornei e
+
+48
+00:04:51,230 --> 00:04:56,760
+vou executar novamente você vai ver que o resultado vai ser estranho que o nome da classe N é completo
+
+49
+00:04:56,760 --> 00:05:06,520
+com um pacote nome da classe A o cachecol que foi gerado para esse aluno tão só efeito de curiosidade
+
+50
+00:05:06,560 --> 00:05:10,820
+que não tem relação direta com a nossa com nosso exercício.
+
+51
+00:05:10,830 --> 00:05:16,870
+Eu vou criar os 30 e tão públicos District.
+
+52
+00:05:17,590 --> 00:05:30,390
+E aqui vou colocar pra ele retornar por exemplo não me contratem concatenar sem nota e concatenar com
+
+53
+00:05:30,890 --> 00:05:35,700
+a nota executada lá Max pegou o melhor aluno da turma.
+
+54
+00:05:35,810 --> 00:05:44,450
+Então vai dizer ao Gabi tem nota 10 se eu quiser pegar o piloto aluno da turma posso aplicá lo em cima
+
+55
+00:05:44,450 --> 00:05:51,590
+de melhor nota ou então posso criar um outro comparei o chamado pior nota que seria exatamente o contrário
+
+56
+00:05:51,650 --> 00:05:58,090
+decencia a nota do primeiro formato que segundo e torna menos um caso contrário torna se for menor.
+
+57
+00:05:58,370 --> 00:06:04,760
+E se não for não dos dois em estado zero que são iguais então essas duas possibilidades um menor com
+
+58
+00:06:04,760 --> 00:06:11,720
+relação à nota ou a melhor nota traz etanol a pior nota alguma eu poderia também foi o caso como eu
+
+59
+00:06:11,720 --> 00:06:22,520
+falei né duplicar isso cria a pior nota nesse caso seria exatamente a mesma coisa se desse segundo eu
+
+60
+00:06:22,520 --> 00:06:25,210
+vou fazer um Marques em cima da pior nota.
+
+61
+00:06:25,850 --> 00:06:30,890
+Então você tem um estado parecido onde tirou a nota para refutar de novo CH bi não porque eu esqueci
+
+62
+00:06:30,890 --> 00:06:36,310
+de mudar aqui não estou colocando aqui pra gente corrigir ao menos um acertando novamente.
+
+63
+00:06:36,310 --> 00:06:42,690
+A gente tem um resultado correto aqui só pra gente isso aqui esses dois são iguais.
+
+64
+00:06:42,690 --> 00:06:49,860
+E se eu quiser usar nota até duplicar esse que jogar pra cima eu teria que fazer o mínimo.
+
+65
+00:06:49,940 --> 00:06:54,180
+Você quem apenas a mínima pior nota que tem certos.
+
+66
+00:06:54,310 --> 00:06:59,000
+Dá pra ler isso de uma forma transparente mais beleza usando o critério da melhor nota.
+
+67
+00:06:59,000 --> 00:07:03,670
+Quem tem o máximo é a Gaby usando o critério da pior nota.
+
+68
+00:07:03,680 --> 00:07:07,420
+Quem tem o mínimo a mínima pior nota também a Gabi.
+
+69
+00:07:07,880 --> 00:07:14,590
+é aqui a mesma coisa ao contrário quem tem a mínima melhor nota vai ser a aluna ou seja era a pior aluna
+
+70
+00:07:14,920 --> 00:07:16,700
+nesse sentido na nota.
+
+71
+00:07:16,760 --> 00:07:19,810
+E quem tem a máxima a pior nota.
+
+72
+00:07:19,820 --> 00:07:20,750
+Também alunos.
+
+73
+00:07:20,790 --> 00:07:27,560
+São duas formas diferentes de fazer e fazer uso da função mas espero que tenha ficado claro é pra você
+
+74
+00:07:27,830 --> 00:07:33,520
+fazer uso de Maximino você precisa implementar um comparei do que é uma interface também funcional porque
+
+75
+00:07:33,530 --> 00:07:40,700
+tem apenas um único método que tem como objetivo comparar dois objetos quando você retorna significa
+
+76
+00:07:40,700 --> 00:07:45,570
+que o primeiro objeto é maior do que o segundo o primeiro objeto que foi passado como parâmetro e mais
+
+77
+00:07:45,570 --> 00:07:50,670
+do que o segundo se você retorna a menos um quer dizer que o segundo parâmetro é maior do que o primeiro.
+
+78
+00:07:50,720 --> 00:07:55,940
+Se você retornar a zero segundo o critério que você definiu os dois objetos são iguais.
+
+79
+00:07:55,940 --> 00:08:01,940
+Então fico por aqui pessoal e na próxima aulas vamos juntar em um único exemplo algumas outras funções
+
+80
+00:08:01,940 --> 00:08:07,160
+que eu ainda não falei pra vocês das Twin tem outras funções que não cabem foras mais aí eu deixo pra
+
+81
+00:08:07,160 --> 00:08:13,550
+vocês explorarem a PI depois que vocês assistirem esse capital estiverem estudando o site é muito importante
+
+82
+00:08:13,590 --> 00:08:19,130
+você tem essa curiosidade entender a API principalmente para que você possa saber quando usar determinadas
+
+83
+00:08:19,130 --> 00:08:24,980
+ferramentas mais aproximada de Bauza algumas outras funções que não foram abordadas exercícios separados
+
+84
+00:08:25,290 --> 00:08:30,020
+e outros para lá para a gente está no caso do finalzinho do nosso capitão deste time espero que tenha
+
+85
+00:08:30,020 --> 00:08:33,670
+sido bastante útil tudo aquele que você viu até então e até para os.

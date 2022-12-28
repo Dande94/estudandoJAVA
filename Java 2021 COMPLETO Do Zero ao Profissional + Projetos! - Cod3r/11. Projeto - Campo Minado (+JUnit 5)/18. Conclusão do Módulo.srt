@@ -1,0 +1,107 @@
+1
+00:00:00,190 --> 00:00:06,420
+Só chegamos no final da sessão do nosso primeiro projétil do curso eu fiz questão de fazer um projeto
+
+2
+00:00:06,430 --> 00:00:12,900
+não foram bem cadenciado explicando cada um dos detalhes mostrando os recursos que a gente já aprendeu
+
+3
+00:00:12,900 --> 00:00:14,520
+anteriormente em um projeto.
+
+4
+00:00:14,530 --> 00:00:15,900
+São muitos detalhes.
+
+5
+00:00:15,930 --> 00:00:21,330
+Eu espero que a partir desse projeto você consigo vislumbrar situações mais realistas que precisam me
+
+6
+00:00:21,400 --> 00:00:27,530
+deixe que você vai se preocupar com coberturas de teste você vai ter que se preocupar com fatoração
+
+7
+00:00:27,570 --> 00:00:30,560
+melhorias Bangs e coisas do tipo certo.
+
+8
+00:00:30,630 --> 00:00:32,400
+Muitas coisas legais.
+
+9
+00:00:32,400 --> 00:00:37,920
+Aplicamos muitas coisas legais que a gente já tinha trabalhado anteriormente nos exercícios com tratamento
+
+10
+00:00:37,920 --> 00:00:46,950
+de erros Twins lambda pré preencheu a parte de orientação a objeto encapsulamento criação de classe
+
+11
+00:00:46,950 --> 00:00:51,930
+A gente não usou todos os recurso criativo até então mais muita coisa a gente conseguiu aplicar nesse
+
+12
+00:00:51,930 --> 00:00:55,610
+projeto tinham um projeto pequeno mas um projeto dá pra ver muita coisa legal.
+
+13
+00:00:55,620 --> 00:01:02,460
+Usamos também a parte de um metro chamar a si mesmo que recursividade que a gente não tinha visto anteriormente
+
+14
+00:01:02,460 --> 00:01:07,800
+mas a fez isso a partir da explosão clicando e ele vai selecionando outros campos que tem a vizinhança
+
+15
+00:01:07,800 --> 00:01:08,620
+segura.
+
+16
+00:01:08,620 --> 00:01:12,570
+Tem muita coisa legal foi visto eu quis ver com calma para que a gente também pudesse introduzir um
+
+17
+00:01:12,570 --> 00:01:18,990
+tema novo que foi tema de testes então além do primeiro projeto a gente também falou de um tema muito
+
+18
+00:01:18,990 --> 00:01:25,350
+mais muito importante mesmo que é como testar uma aplicação não isto a aplicação inteira pra não criar
+
+19
+00:01:25,410 --> 00:01:29,770
+um conjunto de aulas muito maior do que a gente já teve nesse modelo que foi grande até que a gente
+
+20
+00:01:29,780 --> 00:01:33,930
+tem muitas outras coisas para Brenda no curso mas de qualquer forma eu acho que deu pra dar uma boa
+
+21
+00:01:33,930 --> 00:01:39,900
+ideia de como você pode fazer o teste na prática tem muitos outros detalhes da parte teste que você
+
+22
+00:01:39,900 --> 00:01:41,340
+pode ver no nosso parceiro.
+
+23
+00:01:41,350 --> 00:01:46,740
+Lá o Wagner que tem muitos cursos de teste inclusive na área de Java também acho que a maioria acaba
+
+24
+00:01:46,740 --> 00:01:48,800
+trabalhando com Java de uma forma ou de outra.
+
+25
+00:01:48,900 --> 00:01:54,540
+Então fico por aqui nessa sessão que foi o nosso primeiro projeto maior eu trabalhei no combate de console
+
+26
+00:01:54,540 --> 00:01:59,550
+mas depois nós vamos inserir também a parte de aplicações visuais tal figura que nesse módulo é até
+
+27
+00:01:59,550 --> 00:02:02,660
+o próximo do nosso curso completo de Java e até lá.

@@ -1,0 +1,191 @@
+1
+00:00:00,350 --> 00:00:06,960
+Ao falar sobre o que conversam entre tipos primitivos e o todo não estou falando de conversões de tipos
+
+2
+00:00:07,340 --> 00:00:08,490
+de qualquer tipo.
+
+3
+00:00:08,550 --> 00:00:14,850
+Já mais focado exatamente entre os Chicos primitivos existiam alguns tipos de conversões que não vão
+
+4
+00:00:15,360 --> 00:00:20,800
+acontecer e não vou conseguir por exemplo converter um valor booleano para o valor inteiro.
+
+5
+00:00:20,800 --> 00:00:27,480
+Eu não vou conseguir por exemplo converter o texto qualquer valor inteiro algumas conversões não são
+
+6
+00:00:27,780 --> 00:00:33,780
+factíveis mas outras conversões são sim eu vou comentar com você sobre isso focando ou especificamente
+
+7
+00:00:33,780 --> 00:00:39,330
+na conversão entre tipos numéricos dentro do Java.
+
+8
+00:00:39,510 --> 00:00:40,760
+A regra básica me interessa.
+
+9
+00:00:40,770 --> 00:00:46,340
+Nós temos três tipos numéricos quatro tipos numéricos inteiros é o bit.
+
+10
+00:00:47,010 --> 00:00:50,720
+Então nós temos o baixo e nós temos aqui o shorts.
+
+11
+00:00:50,970 --> 00:00:56,980
+Nós temos muitos e finalmente nós temos o log in loco.
+
+12
+00:00:57,180 --> 00:01:00,460
+Nesse caso você tem o bit.
+
+13
+00:01:00,600 --> 00:01:02,290
+Você tem um.
+
+14
+00:01:02,640 --> 00:01:07,330
+Você tem o inglês e você tem um long convertem no do baixo short.
+
+15
+00:01:07,500 --> 00:01:13,800
+Você não tem poder de pedir informação convertendo xote pro índio você não tem perigo de pedir informação
+
+16
+00:01:14,070 --> 00:01:20,510
+convertendo se prolongue você não tem perigo de Cuba pela informação porque é tudo o que cabe aqui dentro
+
+17
+00:01:20,520 --> 00:01:27,240
+vai caber aqui que vai caber aqui que vai caber aqui exceto o que eu tenho todos os tipos inteiros e
+
+18
+00:01:27,250 --> 00:01:32,790
+o fato a única diferença de um para o outro é que vai sempre aumentando o tamanho mais as conversões
+
+19
+00:01:32,940 --> 00:01:40,740
+do login para o índice pode causar perda de informação e aqui o Japão vai exigir que de forma explícita
+
+20
+00:01:41,190 --> 00:01:44,240
+seja explícita você vai ter que fazer essa conversão.
+
+21
+00:01:44,340 --> 00:01:51,720
+E nesse caso que o primeiro vai ser de forma implícita de forma implícita ou seja vai haver conversão
+
+22
+00:01:51,750 --> 00:01:57,660
+mais o Java faz de forma implícita porque ele sabe que não tem problema você fazer a conversão do tipo
+
+23
+00:01:57,720 --> 00:02:02,580
+inteiro para outro tipo inteiro do menor para o maior mais o contrário você vai ter que fazer de forma
+
+24
+00:02:02,580 --> 00:02:03,310
+explícita.
+
+25
+00:02:03,360 --> 00:02:10,050
+Você pega aqui o Inti e fazem uma conversão por sorte e do sorte você fazer um conversão por baixo ou
+
+26
+00:02:10,050 --> 00:02:14,760
+seja que a conversão explícita é aqui também não conversão explícito.
+
+27
+00:02:14,760 --> 00:02:22,150
+Certo que só tinha uma outra regra que você eventualmente vai querer fazer um tipo inteiro.
+
+28
+00:02:22,290 --> 00:02:29,760
+De forma geral inteiro pra um tipo que tem ponto flutuante então esse tipo de conversão se você tem
+
+29
+00:02:29,760 --> 00:02:34,920
+de um lado o valor inteiro e você tendo ao lado o valor de ponto flutuante e aqui mesmo sendo do mesmo
+
+30
+00:02:34,920 --> 00:02:40,600
+tamanho você vai ter problema de conversão se você fizer uma conversão de uma fonte pra um inteiro.
+
+31
+00:02:40,620 --> 00:02:47,620
+Imagine que aqui dentro você tem um valor 3 ponto 2 obrigatoriamente quando você converter ele vai chegar
+
+32
+00:02:47,630 --> 00:02:54,150
+ao lado inteiro com um valor 3 ou seja as casas decimais foram perdidas e no outro cenário que é o cenário
+
+33
+00:02:54,150 --> 00:03:00,180
+você pegar um valor 3 jogando para um tipo de ponto flutuante você não vai ter problema porque a conversão
+
+34
+00:03:00,540 --> 00:03:06,960
+vai gerar por exemplo aqui um valor 3 pontos já que eu tenho um 3 inteiro gerou 1 3 0 e você não pede
+
+35
+00:03:06,960 --> 00:03:13,860
+a informação então nesse caso nós temos uma conversão implícita e nesse outro caso nós temos uma conversão
+
+36
+00:03:14,270 --> 00:03:21,900
+explícita a regra basicamente é tamanho se cabe o valor de um tipo ou outro ele converte de forma implícita
+
+37
+00:03:21,900 --> 00:03:25,320
+se você baixa um tipo maior ou menor ele vai dar problema.
+
+38
+00:03:25,500 --> 00:03:31,920
+Então como eu falei anteriormente o Java não vai analisar o valor ele vai analisar o tipo não importa
+
+39
+00:03:32,250 --> 00:03:41,970
+se dentro do longa você tem um valor um caminho longo e o cabo não cabem no barco forte e o cabo não
+
+40
+00:03:41,970 --> 00:03:46,670
+baixe não importa se você define uma variável log com valor.
+
+41
+00:03:47,040 --> 00:03:53,570
+Então se você tentar pagar esse valor e converter para o Java vai exigir que você fa faça de forma explícita
+
+42
+00:03:53,570 --> 00:03:58,950
+da mesma forma que se você tem um valor com ponto flutuante quer jogar dentro de um valor inteiro você
+
+43
+00:03:58,950 --> 00:04:00,650
+também tem que fazer de forma explícita.
+
+44
+00:04:00,660 --> 00:04:06,420
+Então sempre que houver problema de tamanho ou problema de perda em formação Java vai querer que o programador
+
+45
+00:04:06,420 --> 00:04:11,880
+seja explícito pra garantir que você realmente está ciente que pode haver uma perda de informação.
+
+46
+00:04:11,990 --> 00:04:18,150
+A próxima aula vai partir pra prática para vocês entender um pouco mais como isso se dá dentro da conversão
+
+47
+00:04:18,150 --> 00:04:23,970
+dos tipos primitivos principalmente numéricos e até lá para a gente ver o conceito de casting até colocar
+
+48
+00:04:23,970 --> 00:04:28,700
+o nome questes que é exatamente a conversão que nós vamos abordar para os mal.

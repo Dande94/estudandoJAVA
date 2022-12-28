@@ -1,0 +1,87 @@
+1
+00:00:00,190 --> 00:00:06,630
+Pessoal agora vão mostrar o resultado do nosso desafio e vai ser o seguinte eu vou criar um laço forte
+
+2
+00:00:07,220 --> 00:00:13,880
+e eu vou criar um variado distrito chamada V que recebe inicialmente um estilete.
+
+3
+00:00:14,220 --> 00:00:16,590
+Então essa vai ser minha inicialização na variável.
+
+4
+00:00:16,590 --> 00:00:21,230
+Qual vai ser o critério para dizer se ele vai continuar ou não um laço.
+
+5
+00:00:21,240 --> 00:00:28,920
+Eu quero que ele imprima uma Cerqueira duas três quatro cinco mas quando chegar 1 600 quilos eu quero
+
+6
+00:00:28,920 --> 00:00:30,480
+que ele saia do laço.
+
+7
+00:00:30,480 --> 00:00:34,170
+Então eu vou usar o recurso novamente pra comparar estilingue.
+
+8
+00:00:34,360 --> 00:00:38,920
+Vou fazer o seguinte só enquanto o V for diferente.
+
+9
+00:00:38,920 --> 00:00:49,150
+Vou usar aqui e se for diferente de um 2 3 4 5 6 6 tílias significa o que eu quero que ele continue
+
+10
+00:00:49,150 --> 00:00:58,450
+executando o laço e o meu incremento será ver mais igual eu vou fazer a atribuição com caráter nativo
+
+11
+00:00:58,450 --> 00:01:04,680
+o sexo não exige sempre acrescentando a Nova Sertã ilha certo aqui dentro você simplesmente jogasse
+
+12
+00:01:04,760 --> 00:01:06,130
+tem algo diferente ali.
+
+13
+00:01:06,210 --> 00:01:08,660
+O valor de V Exa também se colhe.
+
+14
+00:01:08,670 --> 00:01:13,400
+Aqui você vai ver que nós vamos ter exatamente o mesmo resultado 1 2 3 4 5.
+
+15
+00:01:13,410 --> 00:01:19,320
+Só que aqui embaixo eu não usei de forma nenhuma valor numérico usei apenas string inicializar a variável
+
+16
+00:01:19,320 --> 00:01:26,900
+v com a quilha fiz uma comparação que não é um critério de saida do laço sempre que chegar em seis quilos
+
+17
+00:01:27,120 --> 00:01:31,300
+o cara exibe isso até a quinta e fiz aqui uma concatenação.
+
+18
+00:01:31,380 --> 00:01:37,350
+Cada novo laço mais time vai ser acrescentada com mais não sei que de tal forma que o resultado é exatamente
+
+19
+00:01:37,350 --> 00:01:38,020
+o mesmo.
+
+20
+00:01:38,200 --> 00:01:43,020
+Eu achei muito legal esse desafio porque abriu a mente de outras formas que você tem para controlar
+
+21
+00:01:43,020 --> 00:01:44,880
+o laço o foco fica por aqui.
+
+22
+00:01:44,880 --> 00:01:48,990
+Na próxima aula a gente vai continuar falando de outros assuntos ainda nesse capítulo e até lá.

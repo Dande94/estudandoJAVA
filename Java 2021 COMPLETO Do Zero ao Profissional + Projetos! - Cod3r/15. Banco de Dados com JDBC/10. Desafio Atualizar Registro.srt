@@ -1,0 +1,123 @@
+1
+00:00:00,180 --> 00:00:08,370
+Pessoal vocês já viram no capítulo passado como se faz ou em sessão com os quais o chuta como se faz
+
+2
+00:00:08,370 --> 00:00:14,910
+o Opus Dei em cima de um registro que já existe no banco de dados como se faz a exclusão.
+
+3
+00:00:15,030 --> 00:00:21,750
+E eu quero lançar um desafio para vocês que vai o seguinte o desafio eu quero que vocês primeiro selecione
+
+4
+00:00:21,860 --> 00:00:29,040
+uma pessoa pelo Haiti ou seja você vai querer selecionar pessoas de 100 ou se vai lá atrás essa pessoa
+
+5
+00:00:29,580 --> 00:00:30,950
+uma vez que você tem essa pessoa.
+
+6
+00:00:30,950 --> 00:00:35,160
+Você vai alterar o nome da pessoa ou você até poderia pedir para o usuário.
+
+7
+00:00:35,250 --> 00:00:43,110
+O novo nome aí informa aí aí a pessoa diz o edital informa o novo nome e a pessoa diz o nome da pessoa
+
+8
+00:00:43,480 --> 00:00:50,340
+e no final você faz o OP deixe no banco de dados o app deixa muito simples só relembrar aqui você vai
+
+9
+00:00:50,350 --> 00:01:01,710
+colocar tuites nome da tabela pessoas sétimo nome igual boca aqui entre aspas simples.
+
+10
+00:01:01,970 --> 00:01:10,560
+Ana Pinheiro Rocha e você coloca o filtro que você não quer atualizar todos os registros do banco de
+
+11
+00:01:10,560 --> 00:01:19,380
+dados então o código é igual acento não executado.
+
+12
+00:01:19,440 --> 00:01:21,010
+Você vai fazer algo.
+
+13
+00:01:21,030 --> 00:01:29,700
+Deixe esse título for bem sucedida colocou aquele que deixa bem sucedida e no final se fizer uma nova
+
+14
+00:01:29,700 --> 00:01:36,390
+consulta você vai ver que nós temos agora Pinheiro Rocha que foi atualizada então esse é o comando SQL
+
+15
+00:01:36,390 --> 00:01:37,220
+para atualizar.
+
+16
+00:01:37,530 --> 00:01:43,410
+Então você já sabe como passar por exemplo aqui eu vou precisar passar um batalhão inteiro e eu vou
+
+17
+00:01:43,410 --> 00:01:46,680
+precisar passar um parâmetro ou seja dois parâmetros.
+
+18
+00:01:46,690 --> 00:01:48,330
+Primeiro nome e depois o código.
+
+19
+00:01:48,750 --> 00:01:53,640
+Então se já sabe que vai precisar usar um preparo esteja pra passar os parâmetros e eu passo a passo
+
+20
+00:01:53,640 --> 00:01:55,700
+é simples informa o nome da pessoa.
+
+21
+00:01:56,010 --> 00:02:03,500
+Selecione a pessoa depois você informa o nome dá o novo nome da pessoa e a partir daí você faz um update
+
+22
+00:02:03,510 --> 00:02:10,210
+estão há exatamente os três passos dessa nova pessoa com o nome alterar um nome e mandar um beijo para
+
+23
+00:02:10,220 --> 00:02:10,860
+banco de.
+
+24
+00:02:10,950 --> 00:02:14,950
+Então esse é o desafio que eu estou lançando nessa aula na próxima aula.
+
+25
+00:02:14,970 --> 00:02:20,040
+Eu dou a respostas é muito importante que você tente fazer os desafios mesmo que esses desafios não
+
+26
+00:02:20,040 --> 00:02:22,190
+estejam muito claros na cabeça de vocês.
+
+27
+00:02:22,200 --> 00:02:27,810
+Tentar ajuda muito na hora de comparar o resultado veio exatamente onde foi que você fez melhor.
+
+28
+00:02:27,900 --> 00:02:29,970
+Onde foi que você deixou a desejar.
+
+29
+00:02:30,000 --> 00:02:36,120
+Qual foi o erro que você cometeu ou acertou que você cometeu e eu acho que é muito importante você parar
+
+30
+00:02:36,120 --> 00:02:41,240
+um tempinho pra tentar resolver os desafios então fique por aqui na aproximá lo da resposta.
+
+31
+00:02:41,250 --> 00:02:46,260
+Desafio qualquer coisa pausa o vídeo faz e depois assiste a resposta na próxima aula.

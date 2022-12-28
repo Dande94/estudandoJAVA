@@ -1,0 +1,235 @@
+1
+00:00:00,330 --> 00:00:01,350
+Agora eu vou estar lá.
+
+2
+00:00:01,470 --> 00:00:04,650
+O equilíbrio se o JD cair no Mac é assim.
+
+3
+00:00:04,750 --> 00:00:10,680
+E pra isso eu já baixei tanto o instalador do eclipse como o último a última versão do JB já está disponível
+
+4
+00:00:10,680 --> 00:00:11,580
+no site da Orca.
+
+5
+00:00:11,580 --> 00:00:16,370
+Vou mostrar para você e só você pode a partir do BRA lá chegar para baixar esses dois.
+
+6
+00:00:16,380 --> 00:00:17,980
+Esses dois instaladores.
+
+7
+00:00:18,120 --> 00:00:20,300
+Você pode entrar em Java ponto Orca.
+
+8
+00:00:20,310 --> 00:00:26,370
+Conto com entrar nesse endereço ele vai redirecionar para a página da Orca especificamente para a página
+
+9
+00:00:26,370 --> 00:00:28,350
+do Java dentro do domínio da Orca.
+
+10
+00:00:28,800 --> 00:00:32,130
+E aqui logo no começo você tem esse link Java.
+
+11
+00:00:32,140 --> 00:00:38,610
+Esse é a versão 12 você pode colocá lo aqui mesmo em Java e tanto faz você pode em um caminho ou no
+
+12
+00:00:38,610 --> 00:00:44,930
+outro aqui logo no primeiro ou na primeira opção que tem nesse botãozinho aqui azul ou download.
+
+13
+00:00:44,940 --> 00:00:49,590
+Você vai selecionar a última versão que o Java S é 12 0.
+
+14
+00:00:49,620 --> 00:00:56,210
+Aqui eu estou selecionando para baixar o JD que e o kit de desenvolvimento Java clicando aqui.
+
+15
+00:00:56,250 --> 00:01:03,400
+A gente vai entrar nas opções e você vai ter que selecionar que aceita a licença ou seja aceita aqui.
+
+16
+00:01:03,400 --> 00:01:08,460
+E nesse caso selecione a opção D MG do Mac e assim tá bom.
+
+17
+00:01:08,460 --> 00:01:13,650
+Clicando aqui você vai ter acesso ao mesmo arquivo que eu tenho no desktop da minha máquina e se você
+
+18
+00:01:13,650 --> 00:01:16,790
+entrar em aquele ponto ok você vai ter também.
+
+19
+00:01:16,830 --> 00:01:24,450
+Logo de cara aqui a opção para fazer o download aqui você também tem a última versão que a 19 06.
+
+20
+00:01:24,450 --> 00:01:30,060
+Clicando aqui ele vai te mostrar um amigo que alguns tem vários amigos do mundo local mais próximo da
+
+21
+00:01:30,060 --> 00:01:30,810
+sua conexão.
+
+22
+00:01:30,810 --> 00:01:34,890
+Clicando aqui você vai ter exatamente o mesmo instalador que nós temos aqui.
+
+23
+00:01:35,340 --> 00:01:41,290
+Então eu vou primeiro iniciar fazendo a instalação do Java então clique duas vezes aqui.
+
+24
+00:01:41,380 --> 00:01:46,440
+Ele vai abrir o ISO aí pra gente configurar o Java Supersimples não tenho dificuldade nenhuma.
+
+25
+00:01:47,070 --> 00:01:55,670
+Então clicando aqui duas vezes continua a instalar e vai pedir a sua senha colocassem
+
+26
+00:01:58,370 --> 00:02:01,430
+pronto instalação concluída com sucesso.
+
+27
+00:02:01,430 --> 00:02:12,080
+Se eu abri aqui o terminal coloca o Java menos fecha você vai ver que a opção que nós temos agora 12
+
+28
+00:02:12,290 --> 00:02:16,140
+01 coloca no aqui idiota Shell.
+
+29
+00:02:16,230 --> 00:02:22,130
+Você vai ter à disposição um interpretador do Java pra você fazer algum tipo de operação por exemplo
+
+30
+00:02:23,600 --> 00:02:27,820
+mais 2 possui aquele interpretador do Java.
+
+31
+00:02:27,830 --> 00:02:33,200
+Falar um pouco sobre isso um pouco mais na frente no custar está o fato aqui que o jato DK foi instalado
+
+32
+00:02:33,260 --> 00:02:35,060
+de forma bem sucedida.
+
+33
+00:02:35,060 --> 00:02:41,020
+Posso até desmontar aqui ejetar e uma vez instalado você pode até escolher o instalador sem problema
+
+34
+00:02:41,030 --> 00:02:41,450
+certo.
+
+35
+00:02:41,750 --> 00:02:46,800
+Então o próximo passo vai ser instalá lo Eclipse ele vai abrir isso também para pra gente selecionar
+
+36
+00:02:46,810 --> 00:02:53,230
+vai fazê la baixar alguns arquivos para que ele possa configurá lo localmente clicando aqui.
+
+37
+00:02:53,230 --> 00:02:54,320
+Eclipse instala.
+
+38
+00:02:54,980 --> 00:02:59,840
+Então ele vai realmente abrir agora e vai selecionar a opção.
+
+39
+00:02:59,840 --> 00:03:06,680
+A segunda opção mostra para vocês que quando abri o instalador que na segunda opção Eclipse beta para
+
+40
+00:03:06,680 --> 00:03:12,560
+desenvolvedores intérpretes selecionar essa opção ele já vai mostrar qual a pasta de instalação dentro
+
+41
+00:03:12,560 --> 00:03:14,720
+de usas suporte.
+
+42
+00:03:14,720 --> 00:03:20,290
+No nosso caso o que é que eu estou lendo a máquina que estou logado com esse usuário aqui suporte e
+
+43
+00:03:20,480 --> 00:03:25,940
+está em processo de instalação também é simples vou precisar aceitar algumas licenças e colocar alguns
+
+44
+00:03:25,950 --> 00:03:31,520
+certificados mas eu vou mostrar pra vocês durante o fluxo de instalação para outra marca que eu vou
+
+45
+00:03:31,520 --> 00:03:37,610
+me lembrar de aceitar as licenças clicar em aceitar que ele está perguntando se eu quero estar lá alguns
+
+46
+00:03:37,610 --> 00:03:39,230
+conteúdos que não estão assinados.
+
+47
+00:03:39,260 --> 00:03:45,860
+Vou responder relembrar lembrar minha escolha e dizer que aceito e vou selecionar todos os certificados
+
+48
+00:03:45,860 --> 00:03:48,500
+aqui mandar aceitar o certificado selecionado.
+
+49
+00:03:48,830 --> 00:03:54,200
+Nesse ponto já está praticamente no final da instalação e a próxima coisa que vai aparecer pra você
+
+50
+00:03:54,200 --> 00:03:59,540
+inicializar o arquivo a partir do instaladores pode fazer isso ou não será tranquilo você pode acessar
+
+51
+00:03:59,540 --> 00:04:06,560
+por aqui ou mesmo você consegue acessar também o eclipse a partir do próprio menu do Mac que eu posso
+
+52
+00:04:06,560 --> 00:04:13,850
+clicar em Launch pra ele abri o eclipse ele fecha o instalador e a partir desse ponto todo o resto do
+
+53
+00:04:13,850 --> 00:04:18,110
+processo é igual exatamente igual para Windows Linux e Mac.
+
+54
+00:04:18,560 --> 00:04:23,240
+Então vou parar por aqui porque o processo de instalação foi feito bem sucedida a gente já tem o Java
+
+55
+00:04:23,240 --> 00:04:30,190
+configurado na máquina temos o eclipse configurado e a partir da criação do Space que é exatamente essa
+
+56
+00:04:30,200 --> 00:04:35,420
+tela que ele está mostrando aqui eu vou deixar pra fazer isso no vídeo só que vai servir para todos
+
+57
+00:04:35,420 --> 00:04:40,100
+os sistemas operacionais ou seja ele vai voltar pro nosso conteúdo regular do curso.
+
+58
+00:04:40,280 --> 00:04:46,920
+Então fico por aqui na configuração do JD k e do eclipse no ambiente do sistema operacional e que o
+
+59
+00:04:46,920 --> 00:04:48,330
+s e até aproximá lo.

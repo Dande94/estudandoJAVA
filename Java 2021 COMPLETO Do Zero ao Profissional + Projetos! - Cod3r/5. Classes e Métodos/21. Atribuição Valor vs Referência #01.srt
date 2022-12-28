@@ -1,0 +1,527 @@
+1
+00:00:00,210 --> 00:00:07,680
+Pessoal outra questão importante também que vale a pena ser mencionado nesse capítulo é a diferença
+
+2
+00:00:07,740 --> 00:00:13,760
+entre a atribuição por um valor versus atribuição por referência.
+
+3
+00:00:14,080 --> 00:00:18,510
+Eu vou mostrar para vocês um exemplo para que vocês possam entender um pouquinho a diferença.
+
+4
+00:00:18,500 --> 00:00:25,440
+Basicamente a gente tem atribuição por valor para os tipos primitivos e a atribuição por referência
+
+5
+00:00:25,440 --> 00:00:33,730
+para objetos estão aqui em outras palavras nós temos aqui os primitivos e adiantando aqui no espólio
+
+6
+00:00:33,770 --> 00:00:41,970
+os primitivos a atribuição feita por valor e atribuição por referência são os objetos.
+
+7
+00:00:42,300 --> 00:00:45,920
+Então vou falar um pouquinho começando por exemplo com os tipos primitivos.
+
+8
+00:00:46,350 --> 00:00:55,540
+Imagine que você tem aqui uma variável onde você coloca a recebe o valor 2 significa aquilo lá no meio
+
+9
+00:00:55,550 --> 00:01:03,300
+da memória do computador você tem a memória do computador e essa memória vai definir lá dentro da memória
+
+10
+00:01:04,120 --> 00:01:06,230
+o espaço de memória.
+
+11
+00:01:06,230 --> 00:01:09,910
+Esse espaço de memória vai ter um rótulo que você chamou de A.
+
+12
+00:01:10,020 --> 00:01:12,990
+E dentro desse espaço de memória vai ter um valor 2.
+
+13
+00:01:13,050 --> 00:01:18,390
+Talvez seja você acabou de fazer isso quando você definiu aqui por exemplo.
+
+14
+00:01:18,750 --> 00:01:26,460
+B recebe o valor de a neste momento o momento que você faz uma atribuição atribuição é feita a partir
+
+15
+00:01:26,460 --> 00:01:33,540
+desse símbolo só volta aqui quando você faz isso o que é que acontece lá na memória é criado um outro
+
+16
+00:01:33,540 --> 00:01:39,690
+espaço de memória esse espaço de memória vai ser rotulado com o valor b que é o nome da sua variável
+
+17
+00:01:39,930 --> 00:01:46,460
+e o valor vai seu valor valor 2 também certo nesse caso foi feito cópia ou seja sempre que você criou
+
+18
+00:01:46,460 --> 00:01:53,190
+a variável primitiva e você associa essa variável a partir de uma atribuição para uma outra variável
+
+19
+00:01:53,520 --> 00:02:01,730
+é feita uma cópia de tal forma que se na linha seguinte você fizer aqui há mais mais e você fizer depois
+
+20
+00:02:01,740 --> 00:02:10,430
+bem menos menos eu fiz aqui uma operação na área de incremento de O incrementa a variável a querer manter
+
+21
+00:02:10,440 --> 00:02:11,610
+a variável B.
+
+22
+00:02:11,730 --> 00:02:15,720
+Você vai perceber que lá na memória o valor de 2 vai passar C.
+
+23
+00:02:15,750 --> 00:02:22,970
+3 E o valor de 2 aqui vai passar a ser 1 ou seja Eu acrescentei o B incrementa igual.
+
+24
+00:02:23,070 --> 00:02:26,790
+Ou seja são valores diferentes valores independentes.
+
+25
+00:02:26,790 --> 00:02:27,300
+Porquê.
+
+26
+00:02:27,300 --> 00:02:31,790
+Porque nesse momento aquilo que eu fiz uma atribuição.
+
+27
+00:02:31,980 --> 00:02:40,430
+Essa atribuição foi feita por um valor uma cópia do valor foi atribuída a para b ou seja uma cópia Diabo
+
+28
+00:02:40,530 --> 00:02:44,740
+passou para B de tal forma que agora tem duas cópias independentes.
+
+29
+00:02:44,760 --> 00:02:54,150
+Quando você cria dirá que quando você cria um objeto então colocando aqui eu criei o objeto data pegando
+
+30
+00:02:54,150 --> 00:03:03,500
+a classe que a gente criou D recebe em data certa porque aqui é bem simples.
+
+31
+00:03:03,720 --> 00:03:11,210
+Nesse caso se eu fizer aqui o Data D2 recebe o valor.
+
+32
+00:03:11,790 --> 00:03:18,060
+Agora eu também vou ter aqui uma área de memória no meu computador certo.
+
+33
+00:03:18,610 --> 00:03:25,830
+E aqui dentro ele vai criar um metro que eu crio D nesse primeiro momento aqui ele vai criar uma área
+
+34
+00:03:26,190 --> 00:03:32,880
+de memória no meu computador essa área de memória vai ser rotulada com o nome da variável D um S A forma
+
+35
+00:03:32,880 --> 00:03:39,180
+que o acesso de meu programa área de memória é aqui dentro o valor associado a essa área de memória
+
+36
+00:03:39,180 --> 00:03:48,150
+não vai ser o objeto em si ele vai ser o endereço que eu vou colocar de forma mais didática tá um valor
+
+37
+00:03:48,150 --> 00:03:57,280
+hexadecimal por exemplo 1 2 3 e isso aqui na verdade que vai acontecer que ele vai apontar coloca aqui
+
+38
+00:03:57,630 --> 00:04:04,690
+como Azul e vai apontar para uma área de memória que de fato aqui tem os valores de dia mês e ano então
+
+39
+00:04:04,700 --> 00:04:12,390
+aqui vai ter o valor do dia mas é o próprio objeto mais a variável que tem dentro dela um endereço de
+
+40
+00:04:12,390 --> 00:04:18,240
+memória ou seja o local onde foi criado o objeto onde foi distanciado do objeto.
+
+41
+00:04:18,570 --> 00:04:24,240
+Então se esse objeto tiver muitas informações dentro dele ele ocupa mais memória mais a variável em
+
+42
+00:04:24,240 --> 00:04:27,200
+si ela tem apenas um endereço de memória.
+
+43
+00:04:27,540 --> 00:04:33,960
+Quando eu faço essa atribuição aqui em cima eu fiz uma atribuição de dois tipos primitivos um inteiro
+
+44
+00:04:33,990 --> 00:04:35,070
+para outro inteiro.
+
+45
+00:04:35,080 --> 00:04:41,700
+Quando eu faço essa atribuição aqui ou seja eu estou atribuindo o valor de D2.
+
+46
+00:04:41,880 --> 00:04:48,470
+Nesse caso significa que ele vai criar um outro espaço de memória no computador certo ele vou rotular
+
+47
+00:04:48,510 --> 00:04:49,900
+isso aqui também.
+
+48
+00:04:49,920 --> 00:04:57,060
+Aqui também não é possível rotular de D2 e o endereço vai ser copiado de um provedor de tal forma que
+
+49
+00:04:57,060 --> 00:05:05,900
+eu tenho o valor de D2 apontando valor hexadecimal 2 3 não se preocupa muito com o valor interno porque
+
+50
+00:05:05,900 --> 00:05:13,370
+isso não é tão relevante para a gente o fato é que foi feito uma atribuição do endereço de tal forma
+
+51
+00:05:13,700 --> 00:05:18,920
+que esse objeto também passa a apontar para o mesmo objeto na memória.
+
+52
+00:05:18,910 --> 00:05:25,930
+Certo tanto a variável como a variável D2 de tal forma deixe só pagar aqui o conteúdo desse objeto.
+
+53
+00:05:25,930 --> 00:05:32,760
+Vamos supor que esse objeto foi oficializado como valor padrão até porque eu acho que está assim no
+
+54
+00:05:32,800 --> 00:05:37,310
+nosso mundo de 1970.
+
+55
+00:05:37,310 --> 00:05:47,510
+Então se você vem aqui continuando o código e você por exemplo colocar aqui D2 recebe o valor de dia
+
+56
+00:05:47,930 --> 00:05:50,000
+igual a 3.
+
+57
+00:05:50,010 --> 00:05:56,390
+Isso significa que ele vai D2 a conta pra esse objeto na memória significa que o valor de dia não vai
+
+58
+00:05:56,390 --> 00:06:01,270
+ser mais um valor de dia vai ser o valor 3 já que eu mudei pra 3.
+
+59
+00:06:01,290 --> 00:06:09,980
+Isso você vem aqui por exemplo continuando o código você colocou um ponto não ponto um mês recebe o
+
+60
+00:06:09,980 --> 00:06:19,520
+valor 7 significa que agora aponta pra esse mesmo objeto e você vai tirar que ele vai passar a ter o
+
+61
+00:06:19,520 --> 00:06:20,970
+valor 7.
+
+62
+00:06:21,140 --> 00:06:27,740
+Ou seja tanto a parte dele como a partir de 2 eles compartilham o mesmo endereço que apontam para o
+
+63
+00:06:27,740 --> 00:06:35,340
+mesmo objeto tanto manipula esse objeto como D2 também manipula o objeto de tal forma que o que eu fizer
+
+64
+00:06:35,350 --> 00:06:43,360
+parte de uma variável a outra variável também vai enxergar isso porque a atribuição foi feita por referência.
+
+65
+00:06:43,670 --> 00:06:51,290
+Então aqui eu estou fazendo um mercenário estou fazendo a atribuição por referência e aqui cima fiz
+
+66
+00:06:51,300 --> 00:06:54,560
+a atribuição com o valor certo.
+
+67
+00:06:54,590 --> 00:06:56,900
+Há uma diferença muito gritante.
+
+68
+00:06:56,930 --> 00:07:00,300
+Isso faz com que o comportamento seja completamente diferente.
+
+69
+00:07:00,370 --> 00:07:05,900
+Eu vou comentar aqui um pouquinho o espaço de memória só pra mostrar pra vocês que um outro cenário
+
+70
+00:07:06,070 --> 00:07:12,660
+que é o seguinte imagine que na linha logo depois que eu fiz essas duas alterações aqui eu falei o seguinte
+
+71
+00:07:12,680 --> 00:07:24,860
+D2 recebe o data certa ou mesmo dê um recebe um dado tanto faz se eu fizer isso D2 recebe um lunático
+
+72
+00:07:24,870 --> 00:07:28,010
+e que vai acontecer vai acontecer aqui.
+
+73
+00:07:28,010 --> 00:07:31,820
+D2 não vai mais apontar pra esse objeto.
+
+74
+00:07:31,820 --> 00:07:34,940
+Ou seja o endereço aqui de D2 vai mudar.
+
+75
+00:07:34,940 --> 00:07:39,310
+D2 vai apontar para um outro objeto que foi criado na memória.
+
+76
+00:07:39,380 --> 00:07:45,050
+Então ele vai ter a data de 1970.
+
+77
+00:07:45,410 --> 00:07:53,120
+Ele vai apontar pra cá pra esse novo objeto é o endereço de memória que vai estar aqui vai ser o 2 3
+
+78
+00:07:53,120 --> 00:07:55,010
+e 4 e vai ser diferente.
+
+79
+00:07:55,010 --> 00:07:57,790
+Ou seja porque agora D2 aponta para um outro objeto.
+
+80
+00:07:57,800 --> 00:08:08,060
+Quando eu fizer D2 ponto dia recebe o valor 4 significa que eu vou estar mudando agora esse novo objeto
+
+81
+00:08:08,060 --> 00:08:15,290
+aqui coloca no valor 4 aqui porquê agora eu tô apontando para uma outra área de memória e se eu fizer
+
+82
+00:08:15,350 --> 00:08:24,230
+por exemplo agora que deu 1 recebe o valor de D2 que é que vai acontecer o que vai acontecer aqui não
+
+83
+00:08:24,230 --> 00:08:31,160
+vai mais apontar para essa instância ou seja Deus vai apontar para esse novo objeto que foi criado aqui
+
+84
+00:08:31,160 --> 00:08:38,320
+que é o mesmo de D2 já que eu peguei o valor de D2 aqui estou atribuindo o valor de D1 significa que
+
+85
+00:08:38,450 --> 00:08:49,190
+agora eu vou limpar essa variável aqui e vou substituir pelo valor de D2 que vai ser 2 3 e 4 valeu e
+
+86
+00:08:49,190 --> 00:08:53,990
+agora o que é que vai acontecer com esse objeto que tá aqui no meio que ninguém mais aponta pra ele
+
+87
+00:08:54,500 --> 00:09:01,690
+esse objeto ele vai ser excluído da memória a partir de um processo chamado Gabinete coletam certo e
+
+88
+00:09:01,690 --> 00:09:07,720
+o coletor de lixo do Java quando você tem um objeto na memória que não é mais referenciado por nenhuma
+
+89
+00:09:07,730 --> 00:09:14,300
+variável significa que esse objeto não pode ser mais alcançado novamente pelo programa e ele vai ser
+
+90
+00:09:14,300 --> 00:09:17,120
+coletado pelo coletor de lixo do Java.
+
+91
+00:09:17,130 --> 00:09:22,820
+Esse é um processo automático de liberação de memória que acontece a partir da própria máquina virtual
+
+92
+00:09:22,820 --> 00:09:29,320
+que vai fazer lá todos os ciclos de coletar os dados que não precisam mais ser utilizados e isso te
+
+93
+00:09:29,390 --> 00:09:34,940
+ajuda digamos assim ou te livra como programador tem que ficar liberando a memória como era em linguagens
+
+94
+00:09:34,940 --> 00:09:37,130
+mais antigas no caso do C.
+
+95
+00:09:37,130 --> 00:09:40,370
+Por exemplo você tinha que alocar memória de alocar memória.
+
+96
+00:09:40,370 --> 00:09:45,620
+No caso do Java não ou seja quando não há memória de memória não tem mais nenhuma referência.
+
+97
+00:09:45,620 --> 00:09:52,880
+O gabinete coleta e o coletor de lixo vai ser responsabilizado de tirar essa área da memória ou seja
+
+98
+00:09:52,880 --> 00:09:58,490
+você não precisa se preocupar com isso está o fato de você tá mexendo aqui criando novas instâncias
+
+99
+00:09:58,490 --> 00:10:06,150
+atribuindo no outro caso aqui como o tipo objeto vai acontecer exatamente isso uma atribuição de tipos
+
+100
+00:10:06,190 --> 00:10:13,160
+objetos não apontado por um mesmo local de memória é muito importante você ter consciência disso saber
+
+101
+00:10:13,610 --> 00:10:19,040
+que você pode a partir de duas variáveis e está acessando o mesmo dado para que você não se confunda
+
+102
+00:10:19,040 --> 00:10:24,010
+e você tem a plena consciência de que em determinados momentos você vai estar trabalhando com referência
+
+103
+00:10:24,400 --> 00:10:28,800
+e alguns momentos você vai estar trabalhando com a cópia é a última coisa que eu quero falar com vocês
+
+104
+00:10:28,960 --> 00:10:37,070
+é o seguinte você pode perguntar leu eu sou obrigado a trabalhar com referência sempre que tiver trabalhando
+
+105
+00:10:37,070 --> 00:10:38,210
+com o objeto.
+
+106
+00:10:38,220 --> 00:10:44,740
+Sim quando você faz uma atribuição como é o caso desse cenário que se faz o símbolo é igual.
+
+107
+00:10:44,900 --> 00:10:51,770
+Você trabalha com referência aí você acabou de atribuir a referência para outra variável e as duas referem
+
+108
+00:10:51,770 --> 00:10:57,290
+se a apontar para o mesmo local de memória mais mais à frente a gente vai ver que o Java disponibiliza
+
+109
+00:10:57,290 --> 00:11:00,690
+um método para que todos os objetos em Java.
+
+110
+00:11:00,720 --> 00:11:09,230
+A estrela tem o escala e tem a classe Produto que nós criamos tem a capacidade também tem todos esses
+
+111
+00:11:09,230 --> 00:11:18,350
+objetos tem um método chamado Colony certo método chamado Colony esse método ele não está digamos assim
+
+112
+00:11:18,470 --> 00:11:26,840
+não é funcional por padrão mas você pode definir como é que eu vou clonar um determinado objeto e como
+
+113
+00:11:26,840 --> 00:11:32,660
+é que você pode colocar um objeto gerando uma cópia exata daquele objeto se você não quiser atribuir
+
+114
+00:11:32,660 --> 00:11:39,080
+uma referência para outra variável de tal forma que as duas variáveis mexam no mesmo objeto você tem
+
+115
+00:11:39,080 --> 00:11:41,830
+a possibilidade de clonar um objeto.
+
+116
+00:11:41,870 --> 00:11:46,670
+é um conceito que eu vou falar um pouco mais para frente não precisa nem falar sobre isso agora.
+
+117
+00:11:46,910 --> 00:11:52,650
+O fato é que eu quero ressaltar para você nessa aula que quando você trabalha com tipos primitivos e
+
+118
+00:11:52,700 --> 00:12:00,470
+faz um atribuição essa atribuição é feita por valor ou seja uma cópia do valor criada na memória de
+
+119
+00:12:00,470 --> 00:12:06,230
+tal forma que eu tenho dois valores independentes e quando você trabalha com um objeto você vai fazer
+
+120
+00:12:06,230 --> 00:12:13,310
+a atribuição por referência quando você pega uma determinada variável e atribui a parte de outra variável.
+
+121
+00:12:13,310 --> 00:12:20,000
+Você está fazendo uma cópia da referência certa ou uma cópia do endereço então as duas variáveis a apontar
+
+122
+00:12:20,000 --> 00:12:25,820
+para o mesmo endereço na memória de tal forma que se você mudar um objeto a partir de um ou você mudar
+
+123
+00:12:25,820 --> 00:12:27,200
+o objeto a partir de outra.
+
+124
+00:12:27,470 --> 00:12:34,250
+As duas variáveis vão perceber a mudança porque se trata do mesmo objeto e você tem alternativa em Java
+
+125
+00:12:34,250 --> 00:12:36,500
+que é quem vai falar mais na frente.
+
+126
+00:12:36,530 --> 00:12:42,800
+E você criar um método você escreveu o método clone e aí quando você chama o clone uma cópia do objeto
+
+127
+00:12:42,800 --> 00:12:43,580
+é criado.
+
+128
+00:12:43,790 --> 00:12:48,470
+Mas isso não é feito automaticamente tem algumas bibliotecas que te ajudam a fazer um clone de forma
+
+129
+00:12:48,470 --> 00:12:53,840
+mais automatizada mas por padrão isso não acontece na linguagem Java ele vai falar sobre isso um pouco
+
+130
+00:12:53,840 --> 00:12:54,900
+mais na frente.
+
+131
+00:12:54,920 --> 00:13:00,830
+Por enquanto a gente vai focar no valor de referência na próxima hora de fazer um exemplo para mostrar
+
+132
+00:13:00,830 --> 00:13:02,180
+isso e eu espero lá.

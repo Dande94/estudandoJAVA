@@ -1,0 +1,651 @@
+1
+00:00:00,410 --> 00:00:04,590
+Só agora a gente vai configurar o arquivo persistentes com XML.
+
+2
+00:00:04,590 --> 00:00:13,380
+Eu não sei vocês mas eu por exemplo não me preocupo em decorar e como configurar um arquivo desses.
+
+3
+00:00:13,440 --> 00:00:14,950
+Para mim é algo irrelevante.
+
+4
+00:00:14,970 --> 00:00:22,140
+No meu caso eu acho que vale muito mais a pena você perder tempo com conceitos entendendo os princípios
+
+5
+00:00:22,140 --> 00:00:28,050
+por trás das coisas do que propriamente entender como configurar um arquivo de configuração deste cabeça
+
+6
+00:00:28,330 --> 00:00:28,720
+certo.
+
+7
+00:00:28,770 --> 00:00:32,010
+Então a gente vai configurar aqui manualmente escrevendo tudo até para a gente.
+
+8
+00:00:32,010 --> 00:00:37,070
+Passo a Passo discutindo cada uma das possibilidades e das configurações necessárias.
+
+9
+00:00:37,410 --> 00:00:44,650
+Mas na prática eu acabo pega nessas informações na internet que acabou sendo muito mais fácil mais eu
+
+10
+00:00:44,710 --> 00:00:51,120
+vou ver se eu lembre de colocar esse arquivo completamente configurado como anexo à aula para que você
+
+11
+00:00:51,120 --> 00:00:54,260
+quiser baixar e não precisar escrever tudo isso.
+
+12
+00:00:54,420 --> 00:01:01,040
+Pode ser também uma solução interessante então a primeira coisa que eu vou definir aqui que eu vou querer
+
+13
+00:01:01,320 --> 00:01:09,480
+salientar para vocês essa técnica é chamada persistência e Unit ou Unidade de persistência e essa unidade
+
+14
+00:01:09,480 --> 00:01:15,410
+de persistência tem um nome e esse nome é importante no caso aqui está o mesmo nome do projeto que a
+
+15
+00:01:15,420 --> 00:01:17,660
+exercícios traço JP.
+
+16
+00:01:17,790 --> 00:01:24,360
+Eu posso colocar tranquilamente esse nome mas essa persistência e humildade persistência ela representa
+
+17
+00:01:25,290 --> 00:01:31,500
+uma conexão com o banco de dados por exemplo com um conjunto de informações para um banco de dados específico
+
+18
+00:01:31,500 --> 00:01:33,200
+não é uma conexão com o banco de dados.
+
+19
+00:01:33,210 --> 00:01:39,150
+Na porque a partir de uma unidade de persistência você pode criar dezenas e dezenas de conexões com
+
+20
+00:01:39,150 --> 00:01:45,060
+o mesmo banco de dados mas dentro dela você vai ter informações para um banco de dados específico Imagine
+
+21
+00:01:45,060 --> 00:01:50,730
+a seguinte situação você tem um sistema que trabalha com o banco tem o banco atual tem o banco legado
+
+22
+00:01:51,030 --> 00:01:55,710
+tem um banco de um outro sistema que você acaba fazendo integração via banco de dados que não é tão
+
+23
+00:01:55,710 --> 00:02:01,880
+comum hoje mas eventualmente você pode consultar um avião ou mesmo alterar um outro banco de dados.
+
+24
+00:02:01,890 --> 00:02:02,590
+Outro sistema.
+
+25
+00:02:02,610 --> 00:02:08,670
+Você vai ter diferentes tags nela seja persistência em unidades diferentes para cada um dos bancos de
+
+26
+00:02:08,670 --> 00:02:15,270
+dados que você vai interagir no momento que você for criá la ao interagir com JP você precisa dizer
+
+27
+00:02:15,270 --> 00:02:19,630
+qual é a idade persistência que ele vai usar para criar conexão.
+
+28
+00:02:19,720 --> 00:02:23,240
+é exatamente a partir desse nome aqui que a gente vai precisar.
+
+29
+00:02:23,300 --> 00:02:31,950
+Aqui eu poderia colocar o BdP Banco de Dados eu posso colocá la o banco atual Banco legado Banco do
+
+30
+00:02:31,950 --> 00:02:33,660
+Sistema X Y Z.
+
+31
+00:02:33,900 --> 00:02:39,870
+Você pode ter mais uma unidade de persistência então você tem uma tele maior chamada persistência que
+
+32
+00:02:39,870 --> 00:02:46,410
+envolve todo o mundo e dentro você pode ter várias não somente mais várias unidades de persistência
+
+33
+00:02:46,730 --> 00:02:52,730
+e aquele dentro local que você vai colocar as informações para aquele banco de dados específico.
+
+34
+00:02:52,860 --> 00:02:57,920
+A primeira coisa que nós vamos informar aqui é usando a tele Provider.
+
+35
+00:02:58,410 --> 00:03:02,390
+Então provavelmente algumas dessas Teles aqui vão estar.
+
+36
+00:03:02,400 --> 00:03:04,340
+Você vai ter curso completo de outros não.
+
+37
+00:03:04,340 --> 00:03:10,990
+Então aqui vou ter que provar que é o Provab nós vamos usar uma classe do Bermejo e se você der aquilo
+
+38
+00:03:11,110 --> 00:03:21,880
+como Shift X Control Shift eu vou colocar aqui o Barney um asterisco para o vai.
+
+39
+00:03:22,110 --> 00:03:26,720
+é exatamente essa classe que a gente vai usá e Berni persistentes para o vídeo.
+
+40
+00:03:27,300 --> 00:03:29,810
+E essa classe só está disponível por quê.
+
+41
+00:03:29,870 --> 00:03:30,400
+Quê.
+
+42
+00:03:30,480 --> 00:03:38,540
+Eu importei as bibliotecas olhe e olhe que ele está pegando exercícios traço JP a barra libres Bá e
+
+43
+00:03:38,560 --> 00:03:45,720
+brevemente corre quase 5 ponto 4 com todo final puto já é exatamente aqui que ele está pegando essa
+
+44
+00:03:45,720 --> 00:03:55,410
+classe certo então sim dessa classe eu posso ter daqui clicar com o botão direito e eu posso aqui aproveitar
+
+45
+00:03:55,650 --> 00:03:57,980
+isso aqui pra copiar esse endereço.
+
+46
+00:03:57,980 --> 00:04:01,690
+Não sei se eu vou conseguir copiado aqui não tentei.
+
+47
+00:04:01,760 --> 00:04:03,960
+Deixa eu ver se eu consigo jogar pra cá.
+
+48
+00:04:03,990 --> 00:04:05,090
+Conseguiram.
+
+49
+00:04:05,130 --> 00:04:08,700
+Então basicamente essa é a classe que nós vamos ter comprovado.
+
+50
+00:04:08,820 --> 00:04:15,570
+Ok ponto é bem neste ponto o JP é o nome da classe A internet é persistência para o Baidu então esse
+
+51
+00:04:15,570 --> 00:04:17,340
+vai ser o nosso trabalho.
+
+52
+00:04:17,610 --> 00:04:22,200
+Depois a gente vai ter de colocar aqui as classes também que foi uma piada pois eu vou mostrar isso
+
+53
+00:04:22,200 --> 00:04:29,580
+pra vocês mais não na sala e aqui eu vou criar um outro tele chamada própria X no plural.
+
+54
+00:04:30,030 --> 00:04:33,240
+Então vou colocar aqui pra ver se ele acha que não vai criar.
+
+55
+00:04:33,240 --> 00:04:39,260
+Completando não mais eu vou fazer isso que ele já vai em copo de coca pelo menos a parte final né.
+
+56
+00:04:39,270 --> 00:04:46,010
+E aqui dentro nós vamos criar uma série de Tropa X no singular que vai ter nome e um valor.
+
+57
+00:04:46,320 --> 00:04:55,650
+Eu votei 2 3 4 eu vou ter que 1 2 3 4 ou 8 propriedades então eu poderia até duplicar só que as primeiras
+
+58
+00:04:55,650 --> 00:05:05,230
+quatro voltei com o nome e o nome vai ser um conjunto de palavras separadas por pouco Java x ponto de
+
+59
+00:05:05,790 --> 00:05:08,710
+persistência e ponto.
+
+60
+00:05:09,190 --> 00:05:10,780
+J.
+
+61
+00:05:11,190 --> 00:05:21,680
+Vc então as primeiras quatro voltei essa esse começo no nome da propriedade certo e as outras vou jogar
+
+62
+00:05:21,680 --> 00:05:23,050
+aqui para baixo.
+
+63
+00:05:23,110 --> 00:05:28,070
+As outras quatro vão ter outro começo que vai ser bem menos então.
+
+64
+00:05:28,160 --> 00:05:35,000
+São propriedades específicas de Bernard e Bernard essas propriedades de cima são propriedades que já
+
+65
+00:05:35,000 --> 00:05:37,070
+foram padronizadas pelo JP.
+
+66
+00:05:37,360 --> 00:05:38,810
+Então sempre começa com Java.
+
+67
+00:05:38,810 --> 00:05:39,360
+Ponto.
+
+68
+00:05:39,380 --> 00:05:46,650
+Java x ponto persistência então já é algo que está dentro da documentação e o que não é Java x ponto
+
+69
+00:05:46,800 --> 00:05:52,880
+persistente começa com ou propriedades específicas do Bermejo o que vai acontecer que você pode usar
+
+70
+00:05:52,880 --> 00:06:01,340
+o JP aqui é uma interface que é o conjunto de interfaces e anotações que foram documentadas pelo Java
+
+71
+00:06:01,370 --> 00:06:05,750
+que você pode usar a partir de diversos provedores ou diversos problemas.
+
+72
+00:06:05,930 --> 00:06:15,500
+E os dois mais famosos é o Internet e o outro mais famoso o eclipse que também é um Provider extremamente
+
+73
+00:06:15,500 --> 00:06:15,970
+famoso.
+
+74
+00:06:15,980 --> 00:06:23,420
+JB se você colocar na internet você vai ver que é também um alternativa o padrão de mercado e o Internet
+
+75
+00:06:23,480 --> 00:06:25,460
+muito mais usado que o eclipse link.
+
+76
+00:06:25,460 --> 00:06:31,310
+é por isso que Balzac no curso então vou duplicar mais quatro vezes então voltei ao todo.
+
+77
+00:06:31,310 --> 00:06:39,050
+Dentro das propriedades do meu persistência e Unity eu tenho oito propriedades quatro propriedades diz
+
+78
+00:06:39,050 --> 00:06:46,880
+respeito à conexão JD BC com banco de dados né usuário senha e outras informações e aqui algumas outras
+
+79
+00:06:46,880 --> 00:06:49,210
+informações relacionadas ao próprio Bernard.
+
+80
+00:06:49,220 --> 00:06:54,860
+Por exemplo eu quero que ele gere para mim as tabelas do banco de dados e a configuração da internet.
+
+81
+00:06:54,980 --> 00:07:01,280
+Eu quero que ele mostre o SQL gerado legalmente meu caro e gerado para a gente conseguir ver exatamente
+
+82
+00:07:01,280 --> 00:07:02,710
+o que ele está fazendo no banco de dados.
+
+83
+00:07:02,720 --> 00:07:08,210
+Ele pode colocar algumas outras configurações aqui também a primeira configuração que eu quero falar
+
+84
+00:07:08,210 --> 00:07:12,230
+com respeito ao JD BC vai ser a questão do driver.
+
+85
+00:07:12,710 --> 00:07:18,680
+Então nós vamos usar o driver que é o mais queele se a gente procurar aqui como ele que tem que ir procurar
+
+86
+00:07:18,680 --> 00:07:24,220
+qualquer classe e interface qualquer tipo dentro do clichê.
+
+87
+00:07:24,300 --> 00:07:31,630
+Aqui eles conseguem ver Open Taipé e aqui eu coloco um driver você vai ver que nós vamos ter aqui com
+
+88
+00:07:31,770 --> 00:07:38,690
+o ponto mais queele pontos j deve ser ponto Driver exatamente esse arquivo que eu inclusive também o
+
+89
+00:07:38,710 --> 00:07:46,760
+que eu mais quero é outra DBS Dragon que é o driver que nós vamos usar pra conectar com o mais velho
+
+90
+00:07:46,760 --> 00:07:54,620
+então aqui no valor eu vou colocar esse Dragon aqui eu posso colocar em esse problema no Omi e igualou
+
+91
+00:07:54,740 --> 00:08:00,100
+os próximos três vai ser o RL que nós vamos usar contra o RL.
+
+92
+00:08:00,220 --> 00:08:03,440
+Outro ponto é usar.
+
+93
+00:08:03,890 --> 00:08:07,510
+E por último lá estaremos o ponto de acesso hoje.
+
+94
+00:08:07,850 --> 00:08:13,460
+Ou seja é muito parecido com aquilo que a gente definiu no nosso arquivo como o próprio Chery definiu
+
+95
+00:08:13,460 --> 00:08:19,990
+aqui quanto próprias que tinham o RL que tinha usuários usuário que tinha também uma senha.
+
+96
+00:08:20,000 --> 00:08:29,810
+Certo Se eu procurar aqui Command Shift e aí procurar aqui próprio X jogar aqui asterisco do próprio
+
+97
+00:08:29,810 --> 00:08:30,240
+X.
+
+98
+00:08:30,560 --> 00:08:37,750
+Nós temos na nossa conexão ponto próprios x carente em algum ponto RL bom ponto usuário do ponto 100
+
+99
+00:08:37,750 --> 00:08:40,540
+e basicamente ele vai ter as mesmas informações aqui.
+
+100
+00:08:40,800 --> 00:08:44,860
+Ao RL que eu vou colocar a b e c j d.
+
+101
+00:08:44,870 --> 00:08:52,970
+BC na verdade eu posso usá la não é possível aproveitar então aquele tão própria x própria X para outra
+
+102
+00:08:52,970 --> 00:08:54,450
+conexão um pouco própria.
+
+103
+00:08:54,740 --> 00:08:56,760
+Posso usar aqui.
+
+104
+00:08:57,530 --> 00:09:07,480
+Essa parte inicial o coloca aqui no RJ BBC 2 pontos mais quero dois pontos do local roxo cursos d'água.
+
+105
+00:09:07,610 --> 00:09:16,040
+O usuário vai ser o último e finalmente assim vai ser 1 2 3 4 5 6 7 8 Pronto a primeira parte das primeiras
+
+106
+00:09:16,040 --> 00:09:23,600
+4 propriedades foram resolvidas as outras 4 propriedades a primeira é com relação ao dialeto que é o
+
+107
+00:09:23,600 --> 00:09:24,590
+da Elat.
+
+108
+00:09:24,670 --> 00:09:30,260
+Ou seja qual o dialeto que Bennett vai usar para conectar com o banco de dados uma coisa é você ter
+
+109
+00:09:30,260 --> 00:09:32,130
+o driver de outra coisa.
+
+110
+00:09:32,270 --> 00:09:40,460
+Existe uma diferença não são diferenças muito grandes existem diferenças entre os SQL suportados pelos
+
+111
+00:09:40,460 --> 00:09:47,870
+bancos de dados a maioria acaba implementando o SQL Anzhi que é o padrão mais é possível que você tem
+
+112
+00:09:47,870 --> 00:09:55,310
+algumas pequenas diferenças entre um comando SQL no puxei o comando SQL no órgão comando SQL mas Kelly
+
+113
+00:09:55,580 --> 00:10:02,710
+por exemplo a parte de geração de chave e auto incremento nem no caso do pushing e do Orca trabalha
+
+114
+00:10:02,860 --> 00:10:06,930
+consigo no caso do mais quero você trabalha com moto inteiramente em cima da coluna.
+
+115
+00:10:07,020 --> 00:10:12,630
+Então todos esses detalhes acabam influenciando de uma forma ou de outra a forma como você vai digamos
+
+116
+00:10:12,630 --> 00:10:14,130
+assim interagir com o banco de dados.
+
+117
+00:10:14,130 --> 00:10:20,390
+Por isso selecionar o dialeto é importante no nosso caso então para a gente procurar que o dialeto se
+
+118
+00:10:20,460 --> 00:10:33,660
+coloca aqui como Shift T o coloca mais SQL tem esse 5 no BB mas eu vou selecionar esse aqui 5 7 da Let
+
+119
+00:10:33,780 --> 00:10:40,120
+Go clicar nele aqui ou selecionar esse órgão e ponto é bem menos alegre.
+
+120
+00:10:40,270 --> 00:10:46,040
+Aqui eu estava usando outro dialeto mas vou usar esse aqui que eu acho que vai funcionar também tranquilamente
+
+121
+00:10:46,050 --> 00:10:53,920
+então vou colocar aqui o valor do dialeto e o nome de uma classe que é essa que olhe ponto B mexe Portalegre
+
+122
+00:10:53,930 --> 00:10:57,150
+com muito mais queeles 5.7.
+
+123
+00:10:57,350 --> 00:11:04,890
+Alex tá o outro a outra configuração outra propriedade que nós vamos usar vai ser na verdade são opcionais
+
+124
+00:11:04,890 --> 00:11:10,920
+não obrigatoriamente precisaria que o show Vanderley SQL porque eu vou colocar essa propriedade como
+
+125
+00:11:10,920 --> 00:11:12,660
+centro para mostrar o SQL.
+
+126
+00:11:12,750 --> 00:11:19,380
+A outra propriedade que tem a ver com isso primeiro vai ser formatar o SQL então Format lá em SQL pra
+
+127
+00:11:19,380 --> 00:11:25,880
+ele mostrar no console também vou colocar isso aqui como sendo verdadeiro e finalmente eu vou ter uma
+
+128
+00:11:25,880 --> 00:11:34,860
+opção aqui também muito importante interessante que vai ser o HB endêmica de internet Ju D D.
+
+129
+00:11:34,890 --> 00:11:40,670
+Ele quer Cabedelo lembra lá do capítulo de banco de dados PDL e data Definition línguas.
+
+130
+00:11:40,680 --> 00:11:46,230
+Basicamente é a propriedade que a gente vai usar tá faltando aqui também um alto basicamente a dizer
+
+131
+00:11:46,230 --> 00:11:49,330
+não se ele vai ou não gerar pra você.
+
+132
+00:11:49,440 --> 00:11:55,190
+O esquema de banco de dados a partir das tabelas é isso o que vai acontecer.
+
+133
+00:11:55,260 --> 00:12:00,540
+Ele vai olhar um mapeamento que você fez nos seus objetos a partir desses objetos.
+
+134
+00:12:00,540 --> 00:12:07,010
+Idealmente ele é capaz de criar para você o banco de dados criar para você as tabelas ou seja gerar
+
+135
+00:12:07,080 --> 00:12:11,790
+o PDL certo isso não é muito usado em produção.
+
+136
+00:12:11,790 --> 00:12:18,300
+Isso é muito usado em sistemas grandes porque você quer ter um controle muito cuidadoso sobre as tabelas.
+
+137
+00:12:18,300 --> 00:12:24,240
+Você quer ter realmente certeza que não está sendo criado a tabela com não deveria ser criada.
+
+138
+00:12:24,240 --> 00:12:29,640
+Então você quer sim ter uma ingerência muito grande sobre como o banco de dados vai evoluir.
+
+139
+00:12:29,640 --> 00:12:37,190
+Você não vai deixar isso a cargo digamos assim do JP a mais aqui no nosso caso eu vou usar a propriedade.
+
+140
+00:12:37,450 --> 00:12:43,440
+Que você pode usar nome por exemplo não faça nada mas aqui eu vou usar a possibilidade de ele gerar
+
+141
+00:12:43,440 --> 00:12:49,440
+para mim vou usar esse benefício que vai digamos assim evitar que o que eu tenho que criar os modelos
+
+142
+00:12:49,440 --> 00:12:51,640
+e criar as tabelas manualmente.
+
+143
+00:12:51,660 --> 00:12:58,470
+Então com isso pessoal nós temos a nossa persistência e configurada com as conexões para as informações
+
+144
+00:12:58,470 --> 00:13:04,770
+de conexão e o driver ao RL o usuário a senha.
+
+145
+00:13:04,770 --> 00:13:08,520
+Nós definimos aqui o dialeto que o Hibernian vai usar.
+
+146
+00:13:08,590 --> 00:13:14,640
+Ou seja ele vai usar comandos SQL que é completamente compatível com o mais que ele é aqui mais algumas
+
+147
+00:13:14,640 --> 00:13:22,740
+outras questões deixam SQL não seria pode ser completamente removido Format SQL também é a última propriedade
+
+148
+00:13:22,740 --> 00:13:26,920
+que nós colocamos foi pra ele gerar as tabelas automaticamente.
+
+149
+00:13:26,970 --> 00:13:33,450
+Qualquer mudança que você faça no modelo ele vai sempre fazer um update para deixar as tabelas de acordo
+
+150
+00:13:33,450 --> 00:13:38,510
+com o último mapeamento então se você criou um ou criou um objeto mapeou ele.
+
+151
+00:13:38,610 --> 00:13:44,460
+A primeira vez que você for fazer uma conexão ele vai criar a tabela no banco de dados você cria novos
+
+152
+00:13:44,460 --> 00:13:49,560
+atributos ele vai pegar esses novos atributos e vai adicionar isso também no banco de dados e assim
+
+153
+00:13:49,560 --> 00:13:51,120
+ele vai sempre atualizado.
+
+154
+00:13:51,150 --> 00:13:58,230
+Existe uma outra possibilidade que é pra ele tropa e depois atualizar ele sempre limpa o banco de dados
+
+155
+00:13:58,460 --> 00:14:03,660
+para todas as tabelas depois cria novamente também uma possibilidade que você pode usar mas no nosso
+
+156
+00:14:03,660 --> 00:14:09,840
+caso o update será suficiente para que a gente possa não se preocupar muito com Dedé e com a criação
+
+157
+00:14:09,840 --> 00:14:12,420
+das tabelas e isso vai ser feito pela internet.
+
+158
+00:14:12,420 --> 00:14:17,210
+Tudo indica que o nosso arquivo persiste com XML está configurado.
+
+159
+00:14:17,370 --> 00:14:24,390
+Tá faltando o último detalhe a gente colocar aqui as classes que nós vamos precisar definir e colocar
+
+160
+00:14:24,390 --> 00:14:30,420
+aqui até tirar isso aqui mas se precisar declarar as classes que serão as nossas entidades eu sei que
+
+161
+00:14:30,420 --> 00:14:35,970
+estarão indo pro banco de dados mas vai fazer isso na próxima alguma gente criar o nosso primeiro exemplo
+
+162
+00:14:35,980 --> 00:14:40,950
+hoje me coloco aqui e aí teste pra saber se tudo está funcionando por enquanto eu vou tirar isso para
+
+163
+00:14:40,950 --> 00:14:43,920
+não gerar nenhum problema na próxima lista continua e até lá.

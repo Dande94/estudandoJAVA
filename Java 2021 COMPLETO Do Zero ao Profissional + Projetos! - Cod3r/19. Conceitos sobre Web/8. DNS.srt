@@ -1,0 +1,667 @@
+1
+00:00:00,450 --> 00:00:05,910
+Só vou falar na sala sobre essa é uma visão bem simples só pra você entender um pouco do comportamento
+
+2
+00:00:05,910 --> 00:00:12,900
+do DNS não é algo que nós vamos precisar de fato dentro do nosso curso pra desenvolver a aplicação mas
+
+3
+00:00:12,900 --> 00:00:15,690
+é bom que você tem só uma noção do que é o DNS.
+
+4
+00:00:15,690 --> 00:00:21,030
+Me lembro que quando eu trabalhava com suporte uma das das configurações que eu tinha que fazer no servidores
+
+5
+00:00:21,390 --> 00:00:27,810
+era usando DNS não estou enganado era o binding que era o DNS do Linux e que você trabalha em servidores
+
+6
+00:00:28,280 --> 00:00:34,730
+o que reina é fato são servidores Linux então você tem que entender quando for para o lado de aplicação
+
+7
+00:00:34,730 --> 00:00:41,400
+em produção dificilmente você vai ter servidores unidas para PT no caso de um Microsoft que é pra colocar
+
+8
+00:00:41,400 --> 00:00:46,620
+um chapéu ou coisa mais de 90 por cento ou até mais do que isso.
+
+9
+00:00:46,650 --> 00:00:48,360
+Os servidores são Linux.
+
+10
+00:00:48,360 --> 00:00:54,570
+Então falando porque o servidor DNS é a idéia dele e traduzi os nomes de domínios que são mais fáceis
+
+11
+00:00:54,570 --> 00:00:59,880
+para a gente decorar obviamente é mais fácil decorar o nome do que decorar um endereço IP o número é
+
+12
+00:00:59,910 --> 00:01:01,710
+a idéia do DEM e SC.
+
+13
+00:01:01,710 --> 00:01:08,190
+De fato os registros nem uma tabela pra fazer esse mapeamento de nomes de domínios para endereços IP
+
+14
+00:01:08,340 --> 00:01:13,770
+não apenas nomes de domínios mas você pode ter o domínio apontando para outro caminho.
+
+15
+00:01:13,770 --> 00:01:21,570
+Você pode ter um bem que dentro dele tem é referência para um outro DNS para resolver de fato essa essa
+
+16
+00:01:21,570 --> 00:01:23,390
+conversão de nome para o IP.
+
+17
+00:01:23,400 --> 00:01:27,780
+Você pode ter registros textuais para fazer algum tipo de validação.
+
+18
+00:01:27,780 --> 00:01:34,770
+Você pode ter registros de servidores de e-mail para aquele domínio e vários registros podem estar presente
+
+19
+00:01:35,130 --> 00:01:37,170
+em um servidor DNS está certo.
+
+20
+00:01:37,230 --> 00:01:41,330
+Aqui dá um exemplo você tem um endereço www Ponto BR.
+
+21
+00:01:41,610 --> 00:01:45,860
+Na verdade o domínio em si e com o ponto com.br.
+
+22
+00:01:45,990 --> 00:01:52,440
+Então você tem um www como sendo um subdomínios com o ponto com.br uma convenção certa o histórico de
+
+23
+00:01:52,440 --> 00:01:53,810
+usar o www.
+
+24
+00:01:53,940 --> 00:02:00,920
+Múltiplos endereços você pode ter até o que ele chama de domínio no leque de que é quando você acessa
+
+25
+00:02:00,930 --> 00:02:07,560
+simplesmente com o ponto como BR e é redirecionado por exemplo para o WWW que seria a página da sua
+
+26
+00:02:07,560 --> 00:02:08,290
+empresa.
+
+27
+00:02:08,300 --> 00:02:15,670
+O fato que você tem o domínio no caso do com.br dentro do registro que você é do seu DNS provedor de
+
+28
+00:02:15,690 --> 00:02:16,110
+DNS.
+
+29
+00:02:16,110 --> 00:02:23,140
+Você vai ter lá os registros e você pode criar o www aponta para capital.
+
+30
+00:02:23,250 --> 00:02:28,560
+Lá fora um boto cor de cabo de guerra aponta para uma outra marca para um outro sistema.
+
+31
+00:02:28,560 --> 00:02:34,710
+Você pode quebrar o subdomínios para que você tenha várias máquinas em serviço dentro do guarda chuva
+
+32
+00:02:35,040 --> 00:02:36,200
+daquele domínio.
+
+33
+00:02:36,210 --> 00:02:42,730
+O fato é que quando você vai criar um domínio com.br você entra no Registro BR.
+
+34
+00:02:42,780 --> 00:02:49,280
+Coloque lá seu usuário e senha o domínio mais ou menos abaixo de 30 reais por ano super barato coloca
+
+35
+00:02:49,290 --> 00:02:56,250
+lá o nome do sistema que você quer o nome da sua empresa comprou o domínio e aí lá no DNS do Registro
+
+36
+00:02:56,250 --> 00:02:59,490
+BR ele tem o DNS grátis que você pode usar.
+
+37
+00:02:59,490 --> 00:03:02,510
+Você vai colocar as referências por exemplo.
+
+38
+00:03:02,850 --> 00:03:06,090
+A máquina www aponta para o IP.
+
+39
+00:03:06,450 --> 00:03:13,130
+Você coloca o nome do IP ou mesmo você pode dizer que a máquina aponta para um balanço de carga lá na
+
+40
+00:03:13,140 --> 00:03:19,290
+Luz o que vai fazer o seu sistema então você tem como configurar o seu DS diretamente no provedor que
+
+41
+00:03:19,290 --> 00:03:20,310
+você comprou.
+
+42
+00:03:20,310 --> 00:03:27,210
+No caso quando não comprei domínios que não são nacionais eu comprei usar um provedor GoldenEye e quando
+
+43
+00:03:27,230 --> 00:03:30,650
+comprei os nacionais eu comprei diretamente no registro B.
+
+44
+00:03:30,720 --> 00:03:35,280
+Uma coisa interessante que eu passei como experiência interessante estar compartilhando um pouco das
+
+45
+00:03:35,280 --> 00:03:45,030
+experiências que eu desenvolvi uma aplicação que precisava ter subdomínios específicos para cada cliente
+
+46
+00:03:45,060 --> 00:03:46,260
+que fossem dinâmicos.
+
+47
+00:03:46,260 --> 00:03:53,730
+Por exemplo eu poderia ter por exemplo até um aqui meu site onde com.br o cliente X ele acessava o cliente
+
+48
+00:03:53,730 --> 00:03:58,520
+X do meu site quando com.br o cliente y.
+
+49
+00:03:58,740 --> 00:04:02,380
+Essa é sabe o cliente sob um ponto meu site Ponto BR.
+
+50
+00:04:02,400 --> 00:04:03,260
+Coisas do tipo.
+
+51
+00:04:03,260 --> 00:04:07,620
+Então o domínio que no caso aqui seria o www.
+
+52
+00:04:07,680 --> 00:04:10,200
+Ele era dinâmico baseado no tipo de cliente.
+
+53
+00:04:10,200 --> 00:04:19,070
+Só que o DNS do Registro BR ele não suporta ter por exemplo o asterisco asterisco ponto como o como
+
+54
+00:04:19,080 --> 00:04:21,310
+motoboy e redireciona para tal.
+
+55
+00:04:21,450 --> 00:04:27,720
+Ele não pode e não não permite fazer isso manualmente cadastrar cada um dos clientes do DNS porque ele
+
+56
+00:04:27,720 --> 00:04:30,700
+não suportava esse Coringa tá certo.
+
+57
+00:04:30,720 --> 00:04:37,680
+Então eu tive que nesse caso especificamente desse sistema eu tive que no servidor do BR cadastrar o
+
+58
+00:04:37,680 --> 00:04:45,580
+DNS de outra empresa no caso da Amazon se eu não estou enganado o Rota 53 que é um serviço de DNS.
+
+59
+00:04:45,960 --> 00:04:52,950
+E lá se ele suporta o Excel indicar um Mac seria o coringa para que qualquer subdomínios daquele domínio
+
+60
+00:04:52,950 --> 00:04:56,000
+caia em determinada máquina pelo sob domínio.
+
+61
+00:04:56,010 --> 00:05:02,330
+Eu sei exatamente quem é o cliente eu sei exatamente qual o banco de dados então eu consigo personalizar
+
+62
+00:05:02,690 --> 00:05:06,220
+o meu site especificamente baseado no filme do Minho.
+
+63
+00:05:06,240 --> 00:05:13,670
+Ele nem precisa acessar diretamente o site pelo subdomínios vai ver que existe um tipo de registro chamado
+
+64
+00:05:13,670 --> 00:05:19,740
+Seneme que é um apelido que ele pode colocar o endereço no site dele e que por baixo ele acessa esse
+
+65
+00:05:19,740 --> 00:05:23,890
+sob domínio e aí domínio eu consigo fazer várias coisas interessantes.
+
+66
+00:05:23,920 --> 00:05:30,860
+é um caso que eu passei com o DNS inativo e não tive como fazê lo diretamente no registro e acabei fazendo
+
+67
+00:05:30,860 --> 00:05:38,170
+isso migrando o DNS no Registro BR tem apenas a referência de onde estão os meus outros servidores DNS
+
+68
+00:05:38,470 --> 00:05:44,240
+e lá se cadastrem todos os detalhes para um determinado domínio certo que é um dos exemplos.
+
+69
+00:05:44,240 --> 00:05:48,980
+No caso aqui o DNS funciona usando o protocolo UDP.
+
+70
+00:05:48,980 --> 00:05:56,000
+Eu acho que já comentei sobre isso e ele usa a porta 53 UDP e User Data grampo Protocol um protocolo
+
+71
+00:05:56,310 --> 00:06:03,770
+de melhor esforço ele não é não é tão confiável como é o TCP mas ele é mais rápido ele é mais leve.
+
+72
+00:06:03,920 --> 00:06:10,100
+Então o DNS ele usa esse protocolo até porque os servidores de DNS os mais famosos digamos assim são
+
+73
+00:06:10,100 --> 00:06:17,120
+servidores bem estáveis e que têm uma segurança muito maior então o DP era muito mais rápido então provavelmente
+
+74
+00:06:17,120 --> 00:06:19,170
+por isso eles usam um protocolo UDP.
+
+75
+00:06:19,280 --> 00:06:25,670
+Falando um pouquinho sobre o funcionamento básico de DNS nós temos aqui o primeiro passo o usuário informa
+
+76
+00:06:25,760 --> 00:06:31,720
+o endereço do Brasil e se imaginando um caso de sucesso direto então o segundo passo.
+
+77
+00:06:31,970 --> 00:06:38,700
+O computador envia uma consulta da MS se não tiver esse DNS sendo resolvido em cache ele manda um cônsul
+
+78
+00:06:38,710 --> 00:06:42,100
+do DNS para um servidor local que ele é referenciado.
+
+79
+00:06:42,110 --> 00:06:47,810
+Você tem por exemplo dentro das suas configurações de rede você tem o endereço IP você tem a máscara
+
+80
+00:06:47,810 --> 00:06:53,840
+de subir rede pra dizer que parte do IP apresenta a rede que ele apresentou.
+
+81
+00:06:54,320 --> 00:06:59,240
+Você tem por exemplo qual o servidor DNS que está configurado na sua máquina.
+
+82
+00:06:59,240 --> 00:07:03,210
+Você tem o gay por exemplo se estiver numa rede corporativa.
+
+83
+00:07:03,230 --> 00:07:07,980
+Qual é o próximo por exemplo a empresa que você vai usar para sair para a internet.
+
+84
+00:07:08,260 --> 00:07:15,200
+E coisas do tipo é uma das configurações é ter o endereço DNS se o servidor DNS que você estiver apontando
+
+85
+00:07:15,200 --> 00:07:16,190
+foi válido.
+
+86
+00:07:16,190 --> 00:07:21,160
+Você não consegue navegar porque ele precisa resolver os nomes obviamente localmente na sua máquina
+
+87
+00:07:21,170 --> 00:07:30,020
+você não tem essa essa essa condição de resolver os nomes e outra coisa do DNS ele resolve alguns nomes
+
+88
+00:07:30,020 --> 00:07:36,350
+e muito poucos ele precisa em outros servidores de maior hierarquia pra conseguir de fato resolver determinados
+
+89
+00:07:36,350 --> 00:07:43,760
+nomes o servidor no passo 3 responde com um endereço IP se ele converte o nome que você passou na consulta
+
+90
+00:07:43,760 --> 00:07:51,380
+DNS e devolve o IP no passo 4 o computador acessa o servidor a partir do IP obtido esse seria o passo
+
+91
+00:07:51,380 --> 00:07:56,060
+a passo do funcionamento de uma requisição incluindo o servidor DNS.
+
+92
+00:07:56,060 --> 00:07:58,790
+Esse fluxo é uma forma bem simples.
+
+93
+00:07:58,790 --> 00:08:05,870
+Existem dois tipos de busca o DNS pode fazer a busca recursiva que funcionam dessa forma você tem um
+
+94
+00:08:05,870 --> 00:08:13,160
+cliente DNS que a sua máquina não Brasil por exemplo acessar determinado endereço e aí ele tem associado
+
+95
+00:08:13,160 --> 00:08:19,610
+aquele que é um servidor DNS todo o cliente e toda máquina precisa ter um modem e assim que é referenciado.
+
+96
+00:08:19,700 --> 00:08:25,460
+E aí você vai tentar acessar um endereço com o ponto com.br no caso www.
+
+97
+00:08:25,560 --> 00:08:32,210
+Ponto Com o ponto como também é a máquina quem não tem resolvido o IP para o qual ela vai de fato fazer
+
+98
+00:08:32,210 --> 00:08:33,340
+a requisição.
+
+99
+00:08:33,340 --> 00:08:43,400
+Então nesse caso o DNS 11 12 tu percebe que dentro dele não tem essa resolução ele não sabe que a WWW
+
+100
+00:08:43,430 --> 00:08:48,620
+colocou o documento com bem então de forma recursiva ele vai passar para a frente.
+
+101
+00:08:48,830 --> 00:08:53,580
+Essa essa pesquisa da MS mandando para outros servidores é.
+
+102
+00:08:53,630 --> 00:09:00,560
+Você conhece o endereço tal qual o endereço tal e aí algum servidor DNS vai responder essa requisição
+
+103
+00:09:00,560 --> 00:09:06,710
+diz o MP e o servidor que você originalmente pediu para ele resolver o endereço vai te responder e dizer
+
+104
+00:09:07,220 --> 00:09:08,360
+o endereço que você quer.
+
+105
+00:09:08,360 --> 00:09:12,320
+Esse 23 35 m 7 9 8.
+
+106
+00:09:12,320 --> 00:09:17,930
+E aí entra a questão do cache em muitos servidores uma vez que ele resolve o nome ele vai fazer um cache
+
+107
+00:09:18,320 --> 00:09:24,620
+daquele endereço e de tal forma que você não tem um endereço apenas de um único servidor web do mundo
+
+108
+00:09:24,800 --> 00:09:28,060
+inclusive nas configurações da rede do seu computador.
+
+109
+00:09:28,070 --> 00:09:35,240
+Você tem o conceito de DNS primário DNS secundário porque se o primário não responder por algum motivo
+
+110
+00:09:35,540 --> 00:09:43,020
+ele pode perguntar o DNS secundário e ele vai fazer no cache por isso quando você muda a referência
+
+111
+00:09:43,270 --> 00:09:45,500
+e o DNS em um servidor.
+
+112
+00:09:45,560 --> 00:09:51,170
+Isso precisa ser replicado para o mundo inteiro demora um tempo pra essa replicação acontecer para que
+
+113
+00:09:51,170 --> 00:09:58,730
+você possa ter de fato o seu DNS atualizado e que você consiga de fato resolver para a máquina certo.
+
+114
+00:09:58,740 --> 00:10:05,830
+A outra estratégia é que e a busca interativa no qual esse cliente não é uma aplicação como o Brasil
+
+115
+00:10:05,830 --> 00:10:13,330
+por exemplo faz uma requisição por exemplo para acessar www ponto corresponde com.br e o servidor DNS
+
+116
+00:10:13,340 --> 00:10:20,200
+veja retorna ao endereço ou mesmo fazer uma busca recursiva e não atrás do DNS ele passa a referência
+
+117
+00:10:20,230 --> 00:10:26,890
+de um outro servidor DNS que de fato vai poder atender essa demanda Imagine a seguinte situação você
+
+118
+00:10:26,890 --> 00:10:36,940
+está nos Estados Unidos e quer acessar o endereço www o ponto alto do computador é um servidor DNS americano
+
+119
+00:10:36,940 --> 00:10:43,140
+que tem como responsabilidade atender endereços que estão cadastrados nos Estados Unidos.
+
+120
+00:10:43,180 --> 00:10:47,070
+Ele vai ver poxa tu tem o endereço que termina com.br.
+
+121
+00:10:47,410 --> 00:10:53,920
+Então quem tem esse endereço é um servidor lá no Brasil então vou passar para o DNS do Brasil lá no
+
+122
+00:10:53,920 --> 00:11:00,280
+registro B para que você de lá ele consiga e delegando isso em quem de fato vai resolver esse endereço.
+
+123
+00:11:00,610 --> 00:11:07,490
+Então no caso vai passar referência para um outro DNS e aí você faz a consulta à máquina cliente toma
+
+124
+00:11:07,510 --> 00:11:10,090
+ciência desse novo endereço chama lá.
+
+125
+00:11:10,150 --> 00:11:16,600
+O segundo nem é esse que foi passado e aí esse ns pode resolver inclusive o outro bem pode fazer uma
+
+126
+00:11:16,600 --> 00:11:22,720
+pesquisa não está mais comigo no Registro BR usuário que cadastrou esse domínio resolveu mudar o DNS
+
+127
+00:11:22,720 --> 00:11:29,650
+para o DNS da Amazon e volte para lá na Amazon para obter de fato essa conversão então isso acontece
+
+128
+00:11:29,650 --> 00:11:35,520
+também tem a busca recursiva que o DNS vai chamando outro até encontrar de fato endereço como também
+
+129
+00:11:35,570 --> 00:11:39,660
+tem a busca interativa que é o que eu mostrei aqui nesse último visuais.
+
+130
+00:11:39,670 --> 00:11:46,950
+Falando agora dos registros DNS nós temos alguns registros diferentes e vou colocar aqui os principais
+
+131
+00:11:46,950 --> 00:11:53,320
+nós temos registro do tipo a que normalmente você diz qual o subdomínios daquele domínio vai apontar
+
+132
+00:11:53,320 --> 00:11:54,500
+para um determinado IP.
+
+133
+00:11:54,880 --> 00:11:56,800
+Então você coloca www.
+
+134
+00:11:57,370 --> 00:12:04,320
+E um registro aqui aponta para o IP e aí você coloca o IP lá 20 bom alguma coisa alguma coisa pode ou
+
+135
+00:12:04,330 --> 00:12:11,110
+não ser o esse p aponta para o servidor que de fato vai resolver o www do seu domínio.
+
+136
+00:12:11,110 --> 00:12:19,110
+Você tem tanto como criar um registro para o IPv4 como você também tem como criar um registro DNS pra
+
+137
+00:12:19,300 --> 00:12:20,640
+IPv6.
+
+138
+00:12:20,650 --> 00:12:28,600
+Além disso você tem um registro do DNS pra ser dono do meio e então quer um servidor de meio que responde
+
+139
+00:12:28,870 --> 00:12:34,150
+e meios com o desporto com o setor de meio e o servidor do Google.
+
+140
+00:12:34,150 --> 00:12:40,000
+Então quando você for configurar para o seu domínio apontava o servidor do Google do Gmail por exemplo.
+
+141
+00:12:40,000 --> 00:12:45,760
+Você vai ter uma configuração bem pra colocá lo aos servidores do Google para de fato quando você mandar
+
+142
+00:12:45,760 --> 00:12:48,930
+um e-mail pro seu domínio nos servidores do Google.
+
+143
+00:12:49,030 --> 00:12:55,950
+Você pode ter dentro de um DNS um apontamento para o outro DNS que é o que eu falei no começo da aula.
+
+144
+00:12:55,990 --> 00:13:01,660
+Por exemplo DNS do Registro BR não atendia às minhas necessidades e eu precisei mudar.
+
+145
+00:13:01,720 --> 00:13:09,790
+No caso desse projeto para o DNS da Amazon então o DNS do registro B eu tenho dois registros DNS primário
+
+146
+00:13:09,790 --> 00:13:16,760
+secundário apontando para um outro servidor DNS e o outro registro também muito comum é o Seneme para
+
+147
+00:13:16,960 --> 00:13:18,190
+você por exemplo.
+
+148
+00:13:18,440 --> 00:13:26,620
+Porque você comprou um sistema de vendas chamado vendas online com.br e você é o cliente Chico.
+
+149
+00:13:26,980 --> 00:13:32,960
+Então você acessa a sua parte no sistema dentro do vendas online como domínio.
+
+150
+00:13:32,970 --> 00:13:34,940
+Qual o RL Chico.
+
+151
+00:13:35,020 --> 00:13:37,840
+Ponto vendas online ponto com.br.
+
+152
+00:13:37,870 --> 00:13:45,460
+Só que você quer que o cliente final não tenha acesso ao RL se ela era oficial do seu site que é o portal
+
+153
+00:13:45,460 --> 00:13:46,960
+do Chico junto com o botão B.
+
+154
+00:13:47,470 --> 00:13:55,530
+Então você pode criar um registro Seneme dizendo que o portal do Chico como o do BR aponta pra Chico
+
+155
+00:13:55,590 --> 00:14:01,330
+por pelo menos um ponto como você tem aqui no caso um apelido ou seja um endereço apontando para outro
+
+156
+00:14:01,330 --> 00:14:01,900
+endereço.
+
+157
+00:14:02,350 --> 00:14:08,460
+Então normalmente você tem registros que fazem esse mapeamento entre P e o endereço né.
+
+158
+00:14:08,500 --> 00:14:14,350
+O grande objetivo do DNS você passa o endereço ele resolve IP mas também tem a possibilidade de você
+
+159
+00:14:14,350 --> 00:14:20,700
+ter outros tipos de registro no caso por exemplo Seneme e MX.
+
+160
+00:14:21,030 --> 00:14:23,860
+O IPv4 e IPv6 IPv4.
+
+161
+00:14:23,920 --> 00:14:30,460
+Você tem registros TXT por exemplo então tem vários outros tipos de registro que você pode colocar dentro
+
+162
+00:14:30,460 --> 00:14:38,470
+de um bem esta certo é um assunto mais do que propriamente em desenvolvimento você como futuro devotos
+
+163
+00:14:38,470 --> 00:14:41,810
+ou devotos que trabalha tanto com o desenvolvimento como infra.
+
+164
+00:14:41,860 --> 00:14:46,570
+Você vai ter que se deparar com algumas situações e configurar servidores e coisas do tipo como eu já
+
+165
+00:14:46,570 --> 00:14:49,280
+tive que passar na minha vida profissional.
+
+166
+00:14:49,300 --> 00:14:55,180
+De qualquer forma é importante você ter um conhecimento básico sobre DNS despertar proximal ainda no
+
+167
+00:14:55,180 --> 00:14:58,910
+capítulo de conceitos para a web e espero lá.

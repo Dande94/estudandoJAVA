@@ -1,0 +1,303 @@
+1
+00:00:00,560 --> 00:00:07,440
+Penso agora nós vamos antes de criar um exercício que vai criar uma tabela dentro do banco de dados.
+
+2
+00:00:07,440 --> 00:00:13,540
+Como eu falei no final do ano passado nós vamos criar uma classe que vai nos ajudar a criar conexão.
+
+3
+00:00:13,540 --> 00:00:14,010
+Por quê.
+
+4
+00:00:14,010 --> 00:00:19,140
+Porque sempre que para cada exército eu vou precisar criar conexão para fazer um comando do banco de
+
+5
+00:00:19,140 --> 00:00:25,700
+dados seja um comando de criação de tabela um comando de inserir dados na tabela de consultar e excluir.
+
+6
+00:00:26,010 --> 00:00:31,400
+Então pra gente tem que ficar copiando esse código todo árbitro ideal a gente jogar isso dentro de uma
+
+7
+00:00:31,410 --> 00:00:35,150
+classe que vai nos ajudar a criar uma conexão de uma forma mais tranquila.
+
+8
+00:00:35,510 --> 00:00:46,020
+Então para isso eu vou criar aqui uma nova classe e essa classe eu vou chamar quindim fabrica conexão
+
+9
+00:00:46,850 --> 00:00:47,860
+comércio.
+
+10
+00:00:48,660 --> 00:00:55,080
+E dentro desse dessa classe pobre poderia até ser uma classe abstrata poderia criar metro de distância
+
+11
+00:00:55,170 --> 00:00:55,590
+também.
+
+12
+00:00:56,040 --> 00:01:03,800
+Eu vou criar um método estático pra simplificar o acesso então publico estático que vai torná lo Connection
+
+13
+00:01:03,890 --> 00:01:11,400
+e Java ponto SQL é o nome desse método vai ser grande conexão com motor padronizado tudo para português.
+
+14
+00:01:11,400 --> 00:01:19,200
+Então vou colocar os nomes em português Eu vou criar vou pegar aqui a do banco de dados essas trim que
+
+15
+00:01:19,560 --> 00:01:30,840
+o usuário conexão até aqui é o suficiente aqui dentro esse método vai tornar que o resultado dessa chamada
+
+16
+00:01:30,840 --> 00:01:41,710
+do drive menos então Ménage AutoCAD Connection RL usuários sem qualquer numa só que dá certo.
+
+17
+00:01:41,970 --> 00:01:49,730
+E aqui ele precisa contratar essa ação ou lançar essa ação SQL serve.
+
+18
+00:01:49,830 --> 00:01:57,240
+Aqui eu vou fazer os dois eu vou tratar e lançar o OK eu vou tratar a exceção então eu posso fazer o
+
+19
+00:01:57,240 --> 00:01:58,020
+seguinte.
+
+20
+00:01:58,280 --> 00:02:05,300
+Se eu selecionar esse código aqui e se eu der um como diálogos Zen ele vai me dar a opção de trocar
+
+21
+00:02:05,300 --> 00:02:11,070
+de bloco ou seja ele vai circundar a seleção comprar Cash Block e no caso de vocês provavelmente vai
+
+22
+00:02:11,070 --> 00:02:13,600
+ser contra Walt Disney na tecla de atalho.
+
+23
+00:02:13,650 --> 00:02:18,670
+Uma vez selecionado o código ele vai circundar esse código contratante.
+
+24
+00:02:18,690 --> 00:02:25,060
+Nesse caso o que ele já detectou que esse código estava lançando um SQL Section aqui dentro.
+
+25
+00:02:25,110 --> 00:02:31,240
+Em vez de silenciar essa ação porque eu preciso retornar alguma coisa ou eu poderia retornar nulo e
+
+26
+00:02:31,240 --> 00:02:34,570
+dizer ou não foi possível criar conexão na retorna conexão nula.
+
+27
+00:02:34,830 --> 00:02:44,080
+Mas nesse caso eu prefiro ir lançar uma exceção ou colocar que alterou o Access.
+
+28
+00:02:44,340 --> 00:02:46,610
+Ou seja vou transformar essa ação voluntária.
+
+29
+00:02:46,960 --> 00:02:53,870
+E vou passar como causa original a SQL Access que foi lançada dentro da troika.
+
+30
+00:02:53,910 --> 00:03:00,930
+Se ele não consegui por exemplo conectar com o banco de dados então eu vou basicamente trocar uma ação
+
+31
+00:03:00,930 --> 00:03:07,750
+checada por uma seção do checado eu prefiro trabalhar na maioria dos casos com exceções não checadas.
+
+32
+00:03:07,760 --> 00:03:10,810
+é basicamente o que estou fazendo aqui trocando essa ação por outra.
+
+33
+00:03:10,820 --> 00:03:16,920
+Uma pergunta que você pode fazer é o seguinte lay off faz sentido eu colocar as informações de conexão
+
+34
+00:03:16,920 --> 00:03:19,860
+de banco de dados diretamente no código.
+
+35
+00:03:19,860 --> 00:03:25,530
+Por exemplo eu tenho um ambiente de desenvolvimento e o acesso a esse banco tem um ambiente de teste.
+
+36
+00:03:25,860 --> 00:03:31,920
+Ele acessa esse banco tem um ambiente de homologar o meu sistema antigo a produção tem o sistema em
+
+37
+00:03:31,920 --> 00:03:36,990
+produção como é que eu vou gerenciar essas senhas diretamente no código.
+
+38
+00:03:37,020 --> 00:03:39,690
+é muito ruim você conseguir fazer isso.
+
+39
+00:03:39,690 --> 00:03:46,410
+Existem algumas técnicas como você pode analisar por exemplo um arquivo com os dados de conexão mais
+
+40
+00:03:46,410 --> 00:03:49,200
+à frente eu vou mostrar pra vocês o uso do arquivo.
+
+41
+00:03:49,200 --> 00:03:50,180
+Ponto próprios.
+
+42
+00:03:50,180 --> 00:03:56,490
+Nós vamos substituir esses valores fixos aqui por chamadas ao arquivo próprios.
+
+43
+00:03:56,520 --> 00:04:03,090
+Nós vamos tornar digamos assim a clássica fábrica conexão não dependente dessas definições radical ou
+
+44
+00:04:03,090 --> 00:04:08,960
+do tipo que o coloquei diretamente nem da classe A ideia é isto é analisar essas informações tanto do
+
+45
+00:04:08,970 --> 00:04:15,270
+RL como do usuário como de e colocar isto entre o arquivo ponto próprios para que você possa editá los.
+
+46
+00:04:15,330 --> 00:04:18,390
+Dependendo do tipo de ambiente que você queira acessar.
+
+47
+00:04:18,390 --> 00:04:23,820
+Voces sao ambientes de desenvolvimento configurou o arquivo ponto próprios para ambientes de movimentar
+
+48
+00:04:23,810 --> 00:04:30,480
+ou acessar o ambiente de produção configure o arquivo próprio com as informações de produção e aí você
+
+49
+00:04:30,480 --> 00:04:32,570
+vai conseguir internalizar essas informações.
+
+50
+00:04:32,570 --> 00:04:38,640
+Por enquanto como não estou preocupado ainda com isso com múltiplos ambientes isto analisar vou deixar
+
+51
+00:04:38,760 --> 00:04:41,730
+o grande conexão com os valores fixos aqui dentro.
+
+52
+00:04:41,730 --> 00:04:42,270
+Certo.
+
+53
+00:04:42,450 --> 00:04:48,160
+A gente pode testar esse método de conexão substituindo aquilo banco de dados só pra jantar estar e
+
+54
+00:04:48,180 --> 00:04:53,740
+depois eu vou voltar e deixar esse arquivo da forma como foi construído no exemplo do vídeo mas só para
+
+55
+00:04:53,740 --> 00:04:55,770
+a gente substituir rapidamente outros.
+
+56
+00:04:55,920 --> 00:05:06,910
+Eu poderia comentar tudo isso aqui é aqui um Connection chamar com o mesmo nome conexão recebe fábrica
+
+57
+00:05:06,970 --> 00:05:14,680
+conexão ponto grande conexão e então com isso pode até estar bem assim ele continua mostrando que o
+
+58
+00:05:14,680 --> 00:05:19,450
+banco foi criado com sucesso executando o banco criado com sucesso.
+
+59
+00:05:19,450 --> 00:05:24,340
+Se eu tentar criar um banco que não exige jogo não existe mesmo.
+
+60
+00:05:25,090 --> 00:05:27,620
+Não tem esse banco executando.
+
+61
+00:05:27,660 --> 00:05:34,300
+Você vai ver que ele criou uma faixa de onde foi criado e eu vou propor o banco aqui Drop Screen porque
+
+62
+00:05:34,310 --> 00:05:39,370
+eu não quero que ele fique esse banquinho já está.
+
+63
+00:05:39,550 --> 00:05:42,250
+Então só para a gente testar a gente viu que deu certo.
+
+64
+00:05:42,250 --> 00:05:49,570
+A criação do nosso banco eu vou tirar isso aqui e vou comentar essas linhas aqui.
+
+65
+00:05:49,570 --> 00:05:52,460
+Vai continuar funcionando como tal se anteriormente.
+
+66
+00:05:52,470 --> 00:05:58,540
+E na próxima aula aí sim nós vamos criar a nossa tabela usando Java no Brasil vamos desenvolver o comando
+
+67
+00:05:58,540 --> 00:06:04,990
+SQL que vai criar a tabela no banco de dados e nós vamos já usar nossa fábrica conexão que é uma classe
+
+68
+00:06:04,990 --> 00:06:09,530
+específica para criar conexões a partir do método GET desconexo.
+
+69
+00:06:09,610 --> 00:06:14,390
+Então a partir dessa classe eu não vou mais precisar ficar me preocupando em criar esse trecho de código
+
+70
+00:06:14,400 --> 00:06:19,250
+que bom que eu vou usar ele e mais à frente a gente faz as mudanças que eu já falei né.
+
+71
+00:06:19,270 --> 00:06:23,140
+Quer substituir esses valores literais que eu coloquei aqui.
+
+72
+00:06:23,200 --> 00:06:28,620
+Os valores estão analisados dentro de arquivo próprio e vou explicar para vocês o formato de um arquivo
+
+73
+00:06:28,630 --> 00:06:33,740
+pouco próprio que basicamente é uma chave e um valor a partir de um arquivo textual.
+
+74
+00:06:33,850 --> 00:06:38,920
+E depois a gente fala também de outros detalhes como por exemplo o padrão de projeto Dell que tem muita
+
+75
+00:06:38,920 --> 00:06:44,860
+relação com acesso a dados não fica por aqui na próxima aula ou nos criar a tabela dentro do nosso banco
+
+76
+00:06:44,860 --> 00:06:48,600
+de dados Java russo Java e até lá.

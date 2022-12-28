@@ -1,0 +1,307 @@
+1
+00:00:00,480 --> 00:00:07,530
+Agora nós vamos trabalhar com a UEFA e o Chelsea seja o caso contrário ela sempre estará associada a
+
+2
+00:00:07,530 --> 00:00:09,120
+um F e o F.
+
+3
+00:00:09,120 --> 00:00:14,400
+Ele pode ter uma expressão que é Toni verdadeiro falso ou verdadeiro ele executa o bloco associado ao
+
+4
+00:00:14,400 --> 00:00:14,930
+ex.
+
+5
+00:00:15,120 --> 00:00:22,470
+Se for falso vai executar a sentença de código ou bloco associado ao eles tanto F pode ter apenas uma
+
+6
+00:00:22,470 --> 00:00:28,830
+única sentença ou um bloco de código como essa também pode ter uma única sentença um bloco de código.
+
+7
+00:00:28,980 --> 00:00:34,320
+Ou seja se tiver apenas uma única sentença pode não colocar as chaves que define um bloco de código
+
+8
+00:00:34,580 --> 00:00:38,220
+como também você pode ter um bloco de código que tem apenas uma única sentença.
+
+9
+00:00:38,220 --> 00:00:44,370
+Como a gente já viu dos exemplos nesse capítulo eu vou criar aqui uma nova classe no Class dentro do
+
+10
+00:00:44,370 --> 00:00:46,960
+pacote de controle chamada EF.
+
+11
+00:00:47,090 --> 00:00:52,520
+Celso vou colocar a letra F maiúsculo e maiúsculo e o hepta em maiúsculas.
+
+12
+00:00:52,530 --> 00:00:58,400
+A cada nova palavra eu coloco a primeira letra de cada novo palavra maiúscula e nome de classe.
+
+13
+00:00:58,830 --> 00:01:04,680
+Normalmente a gente coloca letras começando com letras maiúsculas e os nomes cada novo palavra com a
+
+14
+00:01:04,680 --> 00:01:05,760
+primeira letra maiúscula.
+
+15
+00:01:05,770 --> 00:01:07,970
+Vou criar aqui o nosso método.
+
+16
+00:01:08,060 --> 00:01:16,040
+E nesse exemplo eu vou criar aqui uma variável chamada falou e vou obter informação a partir do J Option
+
+17
+00:01:16,120 --> 00:01:18,670
+bem até Maxis aqui.
+
+18
+00:01:18,780 --> 00:01:22,360
+Ponto show Input da Locke.
+
+19
+00:01:22,750 --> 00:01:27,700
+Logo que a mensagem vai ser número dois pontos.
+
+20
+00:01:27,700 --> 00:01:34,910
+Colocar um ponto e vírgula aqui caberá a outro linha para poder ficar visível aqui pra todo mundo.
+
+21
+00:01:34,920 --> 00:01:42,110
+O próximo passo vai ser transformar esse número em um valor inteiro se eu quiser pagar um inteiro número
+
+22
+00:01:42,560 --> 00:01:48,760
+pra eu transformar um estilingue em um número como é que eu faço não posso usar o entendido no caso
+
+23
+00:01:48,760 --> 00:01:55,120
+do inteiro ponto parcialmente ou seja ele vai fazer um passe de um valor escrito para o valor inteiro.
+
+24
+00:01:55,140 --> 00:02:00,690
+Obviamente se você não digitar um valor inteiro ou algo que possa ser convertido para o valor inteiro
+
+25
+00:02:00,690 --> 00:02:06,550
+ele vai gerar um problema e nesse caso eu vou ser bem comportado não vou tentar violá digamos assim
+
+26
+00:02:06,560 --> 00:02:08,240
+sustentá la.
+
+27
+00:02:08,280 --> 00:02:15,720
+A minha idéia é definir se esse número é um número par ou um número ímpar e eu consigo fazer isso detectar
+
+28
+00:02:15,720 --> 00:02:22,070
+se o número e Palm fazem um módulo de um número por 2 6 qualquer número módulo 2.
+
+29
+00:02:22,140 --> 00:02:27,030
+Se o resultado for zero quer dizer que o número é Paulo seja um número divisível opuseram já que o Move
+
+30
+00:02:27,030 --> 00:02:32,630
+e o resto da divisão esse número foi então o resto vai ser 1 eu posso fazer isso usando 2 FX.
+
+31
+00:02:32,660 --> 00:02:44,190
+Se você coloca aquele número 1 colocar aqui módulo modo 2 foi igual a zero ou seja duplo igual e um
+
+32
+00:02:44,190 --> 00:02:51,690
+símbolo de comparação que eu fiz uma operação aritmética numero Módulo 2 Se isso for igual a zero significa
+
+33
+00:02:51,690 --> 00:03:06,410
+que eu tenho um número par então coloco número um par e posso criar um outro f 10 F número f número
+
+34
+00:03:06,870 --> 00:03:09,860
+Módulo 2 igual a 1.
+
+35
+00:03:09,900 --> 00:03:22,340
+Nesse caso eu tenho que um número ímpar sendo então executado aqui vai aparecer janelinha nessa janela
+
+36
+00:03:22,340 --> 00:03:34,740
+Mococa aqui em 1233 ok o resultado é numerais e novamente vou colocar um número para 2222 executando
+
+37
+00:03:34,810 --> 00:03:35,840
+o número par.
+
+38
+00:03:35,970 --> 00:03:37,420
+Nesse caso como é que eu faria.
+
+39
+00:03:37,450 --> 00:03:45,940
+Eu não preciso criar dois chefes com duas expressões eu simplesmente não posso negar que sim o número
+
+40
+00:03:46,740 --> 00:03:49,920
+Módulo 2 foi igual a zero.
+
+41
+00:03:49,920 --> 00:03:58,510
+Eu tenho um determinado bloco no caso a mesma coisa eram meus.
+
+42
+00:03:58,590 --> 00:04:05,490
+Seja caso contrário eu vou ter System aos números.
+
+43
+00:04:06,800 --> 00:04:12,700
+E aqui no caso eu só tenho uma única sentença de código eu posso tirar as chaves posso posso tirar as
+
+44
+00:04:12,710 --> 00:04:20,790
+chaves aqui posso tirar Chaves aqui embaixo posso ter apenas chaves do lado seus e não tem chave junto
+
+45
+00:04:20,790 --> 00:04:26,920
+do poste é o contrário posso voltar a Chaves aqui e posso tirar as chaves do caso do Celso porque tem
+
+46
+00:04:26,920 --> 00:04:31,480
+apenas uma única sentença ele colhe todos essas situações são válidas.
+
+47
+00:04:31,500 --> 00:04:39,500
+Vou colocar no aqui 757 1654 nunca um número par também vai mostrar os dois.
+
+48
+00:04:39,520 --> 00:04:46,620
+Então nesse caso tirar esses dois erros iniciais então que eu tenho o caso contrário que pode ser um
+
+49
+00:04:46,620 --> 00:04:53,790
+bloco de código lembrando que você não vai colocar ponto e vírgula nem museus nem no eBay se eu colocar
+
+50
+00:04:53,790 --> 00:05:01,610
+um ponto e vírgula aqui zero significa que o LC estará associado a essa sentença de não há esse número
+
+51
+00:05:01,970 --> 00:05:05,320
+ou seja mesmo o digital no valor baixo vai continuar chamando.
+
+52
+00:05:05,530 --> 00:05:10,920
+Então essa também é a observação importante embora no desafio acho que ficou bem claro isso e coloca
+
+53
+00:05:10,970 --> 00:05:12,050
+aqui 22.
+
+54
+00:05:12,420 --> 00:05:13,220
+OK.
+
+55
+00:05:13,340 --> 00:05:19,910
+Ou seja numa era pra mim porque eu coloquei um ponto e digo aqui acabam colocando um par de chaves também
+
+56
+00:05:20,330 --> 00:05:26,350
+não é mesmo tem um único interesse de colocar preferindo usar as chaves para definir um bloco.
+
+57
+00:05:26,570 --> 00:05:28,690
+Mas aí cabe a questão de custo de cada um.
+
+58
+00:05:28,690 --> 00:05:31,250
+O importante é que você tem uma consistência né.
+
+59
+00:05:31,250 --> 00:05:37,340
+Se você tiver por exemplo um sistema grande e tem momentos que você tem uma sentença de código você
+
+60
+00:05:37,340 --> 00:05:43,190
+vai lá e coloca sem chaves depois com chaves acaba que seu código fica menos padronizado não que seja
+
+61
+00:05:43,530 --> 00:05:48,500
+um problema não que isso gera um impacto muito grande mas mantém uma consistência na forma como você
+
+62
+00:05:48,500 --> 00:05:55,370
+escreve Acho que seria interessante algumas situações eu acabo por exemplo gerando um chefe com uma
+
+63
+00:05:55,370 --> 00:05:56,390
+única linha.
+
+64
+00:05:56,390 --> 00:05:58,630
+Em algumas situações eu consigo ser mais curto.
+
+65
+00:05:58,630 --> 00:06:04,670
+Por exemplo você está determinado valor diferente de zero pra se atribuir uma variável se for muito
+
+66
+00:06:04,670 --> 00:06:08,690
+pequeno eu coloco uma linha mas via de regra moto partiu.
+
+67
+00:06:08,990 --> 00:06:14,740
+Eu trabalho tanto F como Suzana blocos de código certo aí fica a seu critério se você vai usar ou não
+
+68
+00:06:14,740 --> 00:06:17,280
+vai usar o bloco quando você tiver uma única sentença.
+
+69
+00:06:17,390 --> 00:06:23,110
+Mas o mais importante nesse exemplo quando essa expressão ou seja dentro dos parênteses associado ao
+
+70
+00:06:23,110 --> 00:06:28,670
+erro sempre é uma expressão que retorna verdadeiro falso com essa expressão verdadeira.
+
+71
+00:06:28,780 --> 00:06:33,530
+Ele executa o bloco ou a sentença associada ao erro com essa expressão é falsa.
+
+72
+00:06:33,650 --> 00:06:40,610
+Ele vai executar o Bloco a sentença de código associado ao não fique por aqui na próxima aula mas vamos
+
+73
+00:06:40,610 --> 00:06:46,430
+ver um outro cenário que é o seguinte se eu tiver mais de duas possibilidades alguns porque eu quero
+
+74
+00:06:46,430 --> 00:06:53,760
+mostrar que o usuário passou a ser de determinada situação que ele escolheu para a ação que ele tem
+
+75
+00:06:53,760 --> 00:06:57,140
+em fazer reparação mais um trabalho ele está reprovado.
+
+76
+00:06:57,140 --> 00:07:01,510
+Você tem vários cenários e quer trabalhar isso como está para fazer.
+
+77
+00:07:01,500 --> 00:07:03,590
+E assim eu vou mostrar isso para os mal.

@@ -1,0 +1,543 @@
+1
+00:00:00,360 --> 00:00:07,050
+Nós vamos agora falar sobre comentários de Coelho é um assunto que gera uma certa confusão e vou comentar
+
+2
+00:00:07,050 --> 00:00:08,580
+durante aula sobre isso.
+
+3
+00:00:09,090 --> 00:00:14,070
+Mas existem três tipos de comentários dentro do Japão existe um comentário de uma única linha.
+
+4
+00:00:14,730 --> 00:00:17,220
+Existem comentários de múltiplas linhas.
+
+5
+00:00:17,220 --> 00:00:22,010
+Existe um ou outro comentário que também de múltiplas linhas que é chamado Java doc.
+
+6
+00:00:22,140 --> 00:00:28,390
+Isso comentário Java doc é especial porque ele tem um conjunto de comandos que começam com o símbolo
+
+7
+00:00:28,390 --> 00:00:33,150
+do arroba que vão dar informações sobre o seu código.
+
+8
+00:00:33,150 --> 00:00:34,700
+Quem é o autor do código.
+
+9
+00:00:35,100 --> 00:00:38,390
+Desde quando aquele código foi introduzido no seu sistema.
+
+10
+00:00:38,470 --> 00:00:45,050
+A versão do código caricata na versão ponto tá na versão 2 ou na versão 3 certo.
+
+11
+00:00:45,360 --> 00:00:50,300
+Então existem várias informações ou metadados que você coloca dentro da sua classe.
+
+12
+00:00:50,400 --> 00:00:57,660
+Note que você documenta o código e existem ferramentas dentro do Java chamado Java doc que ele vai ler
+
+13
+00:00:57,780 --> 00:01:06,200
+as informações do seu código e vai gerar um site se fosse sua página com todos os pacotes todas as classes
+
+14
+00:01:06,210 --> 00:01:09,130
+com tudo aquilo que você documentou no seu colo.
+
+15
+00:01:09,130 --> 00:01:15,990
+Então fica legal para que você facilmente consiga navegar e entender o que é que um determinado comportamento
+
+16
+00:01:15,990 --> 00:01:19,670
+faz com a classe e serve pra dentro do seu sistema.
+
+17
+00:01:19,990 --> 00:01:25,470
+A gente vai ver na prática como funcionam esses esses comentários.
+
+18
+00:01:25,480 --> 00:01:32,550
+Em outras aulas vamos mostrar como gerar um Java doc a partir de um código de um projeto Java que você
+
+19
+00:01:32,550 --> 00:01:33,680
+já tem certo.
+
+20
+00:01:33,930 --> 00:01:36,120
+Então nós vamos ficar aqui fundamentos.
+
+21
+00:01:36,180 --> 00:01:49,710
+Clique com o botão direito e o Class o nome do nosso da nossa classe será comentário nos aqui dentro.
+
+22
+00:01:49,790 --> 00:01:57,830
+Eu vou criar o metro mais lembrado aqui como os exemplos são independentes apenas com até um metro por
+
+23
+00:01:57,830 --> 00:02:06,000
+exemplo como nós vamos imprimir System ponto auge como ali é minha palavra primeiro e eu vou colocar
+
+24
+00:02:06,000 --> 00:02:11,310
+também o System com este ponto preenche ali e coloca a palavra programa.
+
+25
+00:02:11,310 --> 00:02:14,800
+Separei em 12 linhas aquele mesmo comando ela passada.
+
+26
+00:02:14,800 --> 00:02:20,300
+Como é que a gente poderia lê se esse comando poderia lê de trás para frente.
+
+27
+00:02:20,400 --> 00:02:23,340
+Imprima uma nova linha e.
+
+28
+00:02:23,600 --> 00:02:30,450
+Quer dizer hilário também tem um comando print que prende faz ele imprime e permanece na mesma linha.
+
+29
+00:02:30,480 --> 00:02:35,870
+Se você colocar ali ele vai imprimir o texto que você informou entre aspas duplas.
+
+30
+00:02:36,330 --> 00:02:39,960
+E a partir desse momento que ele imprime ele já vai para a próxima linha.
+
+31
+00:02:40,110 --> 00:02:42,630
+E o próximo texto vai ser impresso na linha de baixo.
+
+32
+00:02:42,990 --> 00:02:51,100
+Então você vai executar esse código aqui com a grafia 1.0 primeiro o primeiro programa na linha de baixo.
+
+33
+00:02:51,540 --> 00:02:57,830
+Então a forma de lei é o seguinte imprime a nova linha na saída do sistema.
+
+34
+00:02:58,680 --> 00:03:05,430
+Qual seria a saída padrão do sistema padrão do sistema seria a tela mesmo por escrito pra mim no console.
+
+35
+00:03:05,430 --> 00:03:09,280
+Existem outros tipos de saída com a impressora e aí vai.
+
+36
+00:03:09,660 --> 00:03:17,250
+Mas o fato é que a saída padrão que é o System pontual que imprime na tela o determinado trecho que
+
+37
+00:03:17,250 --> 00:03:22,610
+você colocou aqui pra ele imprimir o caso aqui primeiro e depois programa.
+
+38
+00:03:23,400 --> 00:03:29,870
+Então o que nós vamos colocar um comentário de uma única linha Barra Barra porque aqui cuidado com os
+
+39
+00:03:29,870 --> 00:03:33,720
+comentários óbvios eu vou falar um pouco sobre isso mais à frente.
+
+40
+00:03:33,770 --> 00:03:40,360
+é uma coisa que eu pessoalmente acho chato e que o equilibrista que tenta fazer essa correção ortográfica.
+
+41
+00:03:40,520 --> 00:03:45,860
+Só que ele só faz pra inglês então tudo que minha gente em português parece que ficou com um corretor
+
+42
+00:03:45,860 --> 00:03:53,720
+dizendo que está errado então eu que Isabelita você pode botar o mouse em cima ou se selecionar contra
+
+43
+00:03:53,800 --> 00:04:02,930
+um baita opção que dizem bom esperar o cheque se você selecionar essa opção então ele vai parar de ficar
+
+44
+00:04:02,960 --> 00:04:07,430
+procurando erro com a língua de fora isto parece que fica errado.
+
+45
+00:04:08,060 --> 00:04:11,600
+Então aqui eu tenho apenas comentário de um encaminha.
+
+46
+00:04:11,660 --> 00:04:20,050
+Se eu escrever qualquer coisa fora dessa linha ele vai tentar interpretar isso como sendo um texto dentro
+
+47
+00:04:20,060 --> 00:04:24,130
+de um programa em Java e ele vai daí o porquê esse texto não existe.
+
+48
+00:04:24,470 --> 00:04:31,850
+Então quando tá dentro do babado aí sim a gente consegue colocar o que você quiser porque não vai interpretar
+
+49
+00:04:33,050 --> 00:04:44,140
+o craque um comentário de múltiplas linhas aqui em cima com barra asterisco asterisco barra esse asterisco
+
+50
+00:04:44,140 --> 00:04:52,300
+no meio aqui é simplesmente um detalhe visual se só quero criar várias linhas que você vai completando
+
+51
+00:04:52,760 --> 00:05:01,240
+com asterisco meu pra ficar mais bonitinho mais na verdade o que eu precisaria mesmo é ter o Barra asterisco
+
+52
+00:05:01,260 --> 00:05:06,190
+o asterisco o barril que eu coloco aqui dentro vai tá valendo vou voltar aqui
+
+53
+00:05:09,300 --> 00:05:17,180
+não sei como me faz imprimir no console a palavra primeiro e em seguida crio uma nova linha.
+
+54
+00:05:17,280 --> 00:05:26,190
+Eu comentei aqui o que esse comando tá fazendo vou comentar aqui o método Metro Man e aqui já é um pouco
+
+55
+00:05:26,190 --> 00:05:29,340
+diferente e diferente sentido quase parecido com esse.
+
+56
+00:05:29,820 --> 00:05:34,750
+A única diferença é que na abertura tem Barra asterisco asterisco para.
+
+57
+00:05:35,010 --> 00:05:42,420
+Basta um asterisco e no final termina com o mesmo asterisco Barra esses asteriscos intermediários aqui
+
+58
+00:05:42,420 --> 00:05:49,630
+é mera mera pra ficar bonitinho mas na verdade eles não são necessários o que é importante e basta isso
+
+59
+00:05:49,630 --> 00:05:57,560
+para asterisco e finalizar com o asterisco Barra no final documentando esse método.
+
+60
+00:05:57,980 --> 00:06:01,840
+Esse método é a porta de entrada de um programa Java.
+
+61
+00:06:01,900 --> 00:06:10,480
+Já falei isso várias vezes e ele recebe esse aviso que são os parâmetros do método que apresenta os
+
+62
+00:06:10,480 --> 00:06:16,510
+parâmetros que são passados na linha de comando eu vou falar lá na frente sobre isso mas se você executa
+
+63
+00:06:16,500 --> 00:06:22,660
+o seu programa já baixou a linha de comando do nosso por exemplo do terminal do shell você pode passar
+
+64
+00:06:22,730 --> 00:06:29,050
+parâmetros na hora de chamar o seu programa e os parâmetros vão ser recebidos a partir dessa estrutura
+
+65
+00:06:29,050 --> 00:06:35,560
+aqui mais lá na frente vou falar sobre isso por enquanto só para documentar mesmo e por último aqui
+
+66
+00:06:35,560 --> 00:06:36,720
+em cima na classe
+
+67
+00:06:39,430 --> 00:06:42,940
+nós vamos documentar aqui também usamos Java doc.
+
+68
+00:06:42,940 --> 00:06:51,390
+Então vou colocar a barra asterisco asterisco asterisco Barra no final e vou colocar la classe responsável
+
+69
+00:06:52,130 --> 00:06:59,020
+ou mostrar o uso dos três tipos de comentário que o Java suporta.
+
+70
+00:06:59,540 --> 00:07:04,510
+Vou completar aqui com meu nome novamente as pessoas nas empresas colocam em meio.
+
+71
+00:07:04,730 --> 00:07:06,590
+Quem é o autor da classe.
+
+72
+00:07:06,890 --> 00:07:09,580
+Aquela versão da classe B é só um ponto zero.
+
+73
+00:07:09,600 --> 00:07:12,740
+E essa classe está desde a versão 2 ponto 2 do sistema.
+
+74
+00:07:13,030 --> 00:07:17,990
+Talvez nessas marcações acho que o arroubo é alguma coisa.
+
+75
+00:07:17,990 --> 00:07:21,540
+Esses dados são interpretados pelo Java doc.
+
+76
+00:07:21,650 --> 00:07:28,850
+Na hora que ele vai ler essa classe ele vai lá com ele criava a página dizia lá o site toda a documentação
+
+77
+00:07:28,850 --> 00:07:35,870
+ele vai vai terra faria sei lá de quem é o autor de conversão e deixo claro essa versão tá determinada
+
+78
+00:07:35,870 --> 00:07:42,470
+classe e você pode linkar com outra pra ele vai ver mais detalhes dessa outra classe e coisas do tipo
+
+79
+00:07:42,470 --> 00:07:50,410
+então ele nessas informações esses metadados que são do Java doc Gasset então se você acha aqui uma
+
+80
+00:07:50,410 --> 00:07:57,700
+arroba ele vai mostrar outras coisas que por exemplo sim que a da classe D para quem entende que é pra
+
+81
+00:07:57,710 --> 00:08:01,610
+dizer que não tem nada classe não é mais pra ser usado que foi descontinuada.
+
+82
+00:08:01,780 --> 00:08:07,590
+E aí você tem várias opções para você documentar o seu código.
+
+83
+00:08:07,640 --> 00:08:13,010
+Deixa eu fazer uma observação sozinha em relação ao que achou da documentação que foi justamente o que
+
+84
+00:08:13,010 --> 00:08:13,970
+eu coloquei aqui.
+
+85
+00:08:14,630 --> 00:08:18,080
+Cuidado com os comentários alguns e muito.
+
+86
+00:08:18,080 --> 00:08:25,430
+Como você vê as pessoas escrevendo comentários que não tem nenhum tipo de relevância dentro do código
+
+87
+00:08:25,430 --> 00:08:26,120
+foi criado.
+
+88
+00:08:26,120 --> 00:08:33,380
+Vamos supor que você crie uma classe chamada fechar venda e aí você vai lá na documentação naquela classe
+
+89
+00:08:33,380 --> 00:08:39,920
+em cima disso essa classe é responsável por fechar opinião e venda faz algum sentido você fazer esse
+
+90
+00:08:39,920 --> 00:08:41,010
+comentário.
+
+91
+00:08:41,180 --> 00:08:47,690
+Sim já que o nome da classe já tá dizendo a mesma coisa que o comentário está dizendo ou então você
+
+92
+00:08:47,690 --> 00:08:55,810
+coloca alguma estrutura comum é muito ruim coloca por exemplo só a letra A e aí você diz essa letra
+
+93
+00:08:55,820 --> 00:08:57,260
+apresenta isso aquilo.
+
+94
+00:08:57,890 --> 00:09:06,730
+Então a minha dica é mais importante do que você como um monte de comentários em seu código.
+
+95
+00:09:06,930 --> 00:09:14,300
+E vocês já criaram o seu código de uma forma clara criar o seu código de uma forma que você lê no código.
+
+96
+00:09:14,300 --> 00:09:20,430
+Você já entendeu que aquele código fonte está no começo do curso e essa é uma dica talvez para você
+
+97
+00:09:20,480 --> 00:09:27,050
+tivesse mais avançado mais só pra dizer tente evitar os comentários que não dizem nada.
+
+98
+00:09:27,050 --> 00:09:31,010
+Comentários óbvios ou comentários que dizem aquilo que todo mundo já sabe.
+
+99
+00:09:31,010 --> 00:09:38,090
+Então por exemplo esse é um tipo de comentário que dentro de um programa real não faz sentido ele está
+
+100
+00:09:38,090 --> 00:09:46,280
+escrito porque é isso que as pessoas já sabem o que faz mas eu estou começando a aprender eu estou acompanhando
+
+101
+00:09:46,280 --> 00:09:47,330
+o curso agora.
+
+102
+00:09:47,360 --> 00:09:53,570
+Então sim faz todo o sentido que todo aquele código que você escrever que é novo você vai documentar
+
+103
+00:09:53,570 --> 00:09:59,800
+mas entendo o contexto que ele está sendo documentado e está sendo comentado em um contexto educacional
+
+104
+00:09:59,920 --> 00:10:06,710
+o que você está aprendendo a programar agora mas quando você passar essa fase inicial onde você já conhece
+
+105
+00:10:07,190 --> 00:10:13,760
+a estrutura da linguagem já conhece as principais funcionalidades que a linguagem provê provê não faz
+
+106
+00:10:13,760 --> 00:10:19,670
+sentido toda a linha de código que você vai escrever você vai dizer o que aquela gente tá fazendo porque
+
+107
+00:10:20,120 --> 00:10:25,250
+muitas vezes aquilo já vai estar impresso pela própria escrita do código porque você já tem uma certa
+
+108
+00:10:25,250 --> 00:10:27,090
+maturidade já sabe o que se trata.
+
+109
+00:10:27,380 --> 00:10:34,220
+Então a minha mensagem que diz respeito a boas práticas de documentação e documentos é aquilo que é
+
+110
+00:10:34,220 --> 00:10:40,590
+relevante aquilo que o programador não não lendo o código já deve ter que indicar aquilo.
+
+111
+00:10:40,610 --> 00:10:42,850
+Isso só está tão difícil de lei.
+
+112
+00:10:43,010 --> 00:10:49,080
+Você precisa ficar documentando para explicar ele é mais importante que você tira a documentação e tem
+
+113
+00:10:49,080 --> 00:10:51,880
+que tornar o código mais claro mais situações.
+
+114
+00:10:51,910 --> 00:10:58,790
+Por exemplo você tem um determinado trecho do seu programa que ele é muito lento porque ele precisa
+
+115
+00:10:58,790 --> 00:11:03,710
+fazer uma chamada lá no site da Bovespa para pagar a cotação do dólar.
+
+116
+00:11:04,160 --> 00:11:11,180
+Então você só usa esse método com cuidado porque toda vez que você chamar ele ele vai lá na Bovespa
+
+117
+00:11:11,180 --> 00:11:16,610
+pagar o dólar e trazer isso demora em média entre dois a três segundos.
+
+118
+00:11:16,610 --> 00:11:19,900
+Então esse é um comentário que faz sentido ser feito.
+
+119
+00:11:19,900 --> 00:11:20,420
+Por quê.
+
+120
+00:11:20,600 --> 00:11:24,620
+Porque só olhando o nome do Metro pegar cotação atual.
+
+121
+00:11:24,620 --> 00:11:28,940
+Você não tem a garantia de que aquilo vai lá na Bovespa.
+
+122
+00:11:29,030 --> 00:11:36,830
+Você pode até mudar o nome do metro pra ser mais claro pegar cotação atual na Bovespa mas isso não representa
+
+123
+00:11:36,830 --> 00:11:42,230
+propriamente o que é um método lento que é um método que pode trazer algum tipo de problema de performance.
+
+124
+00:11:42,240 --> 00:11:46,530
+Se você coloca isso no comentário é um comentário relevante pra fechar a aula.
+
+125
+00:11:46,580 --> 00:11:52,410
+Nós temos três tipos de comentário o comentário de uma única linha que Barra Barra nós temos comentários
+
+126
+00:11:52,460 --> 00:11:57,450
+múltiplos e o Barra asterisco asterisco Barra.
+
+127
+00:11:57,450 --> 00:12:04,460
+E nós temos o comentário que é Java doc que é o Barra asterisco asterisco asterisco Barra no final é
+
+128
+00:12:04,470 --> 00:12:12,290
+o Java doc ele tem um conjunto de metadados eles arroba arroba autocarro o parâmetro arroba baixo e
+
+129
+00:12:12,290 --> 00:12:19,700
+aí você usa esses metadados pra documentar o seu código e quando ele gerar a documentação que é aquele
+
+130
+00:12:20,030 --> 00:12:25,760
+que ele portar aquele site um padrão Java doc já vai estar tudo linkar e aí vai estar dizendo que é
+
+131
+00:12:25,760 --> 00:12:26,240
+um autor.
+
+132
+00:12:26,240 --> 00:12:28,890
+Desde quando foi feito o que é que cada coisa faz.
+
+133
+00:12:29,060 --> 00:12:34,700
+é uma prática que é recomendada você segui mais cuidado com os comentários óbvios comente aquilo que
+
+134
+00:12:34,700 --> 00:12:41,060
+realmente foi importante ser comentado e sempre favorece mais importante do que a próprio muitos comentários
+
+135
+00:12:41,060 --> 00:12:43,970
+e que o seu código ele seja de fácil leitura.
+
+136
+00:12:43,970 --> 00:12:48,290
+Você olha o coelho e consegue perceber rapidamente aquilo que o código faz.

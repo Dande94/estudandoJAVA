@@ -1,0 +1,967 @@
+1
+00:00:00,120 --> 00:00:04,200
+No ano passado nós começamos a trabalhar os pilares da orientação a objeto.
+
+2
+00:00:04,200 --> 00:00:10,170
+O primeiro pilar que a gente detalhou ao passado foi o pilar do encapsulamento que é a capacidade que
+
+3
+00:00:10,170 --> 00:00:17,100
+você tem de esconder parte do código de encapsular parte do código para que você não exponha tudo em
+
+4
+00:00:17,100 --> 00:00:22,650
+todos os momentos para que você tenha parte do código visível para a outra classe mais baixa do Código
+
+5
+00:00:22,650 --> 00:00:26,590
+vai ser escondida ou encapsulado na sala.
+
+6
+00:00:26,590 --> 00:00:30,920
+Vamos trabalhar o conceito da herança que é uma outra forma de reuso.
+
+7
+00:00:30,920 --> 00:00:38,010
+Nós começamos o capítulo falando de composição e você tem uma classe que usa uma ou outra classe para
+
+8
+00:00:38,010 --> 00:00:42,210
+que você não escreveu todo o código uma classe e sim uma classe a colaborar com a outra.
+
+9
+00:00:42,230 --> 00:00:49,960
+Os exemplos que nós criamos nós fizemos relações pra um pra ti e pra mim estão Oprah Winfrey Caio montou
+
+10
+00:00:50,560 --> 00:00:58,110
+pra mim foi compra e fizemos também a relação e aí tio e sobrinho certo existem várias relações desse
+
+11
+00:00:58,110 --> 00:01:06,000
+tipo relações geracionais o bi direcionais e fizemos exemplos em cima de uso de códigos em composição
+
+12
+00:01:06,000 --> 00:01:10,860
+e nessa altura vou mostrar uma outra forma de uso de Coelho que é herança.
+
+13
+00:01:10,950 --> 00:01:17,430
+Então nós temos aqui uso de código nós temos a composição e a herança e a pergunta é como é que eu consigo
+
+14
+00:01:17,430 --> 00:01:22,860
+identificar se eu vou usar Coelho a partir de composição ou a parte de herança.
+
+15
+00:01:22,860 --> 00:01:30,600
+Existe uma máxima já que o espólio que você deve priorizar a composição no lugar da herança composição
+
+16
+00:01:30,930 --> 00:01:33,600
+sempre será mais flexível do que herança.
+
+17
+00:01:33,840 --> 00:01:38,540
+Mas existem algumas dicas e eventualmente usar herança é algo que pode te ajudar.
+
+18
+00:01:38,550 --> 00:01:47,340
+Você não pode assim usar de forma exagerada a herança e nem aconselhado você tem muitas hierarquias
+
+19
+00:01:47,340 --> 00:01:52,080
+de herança eu vou entrar em detalhe um pouco mais no final do vídeo mais eu quero falar inicialmente
+
+20
+00:01:52,080 --> 00:01:57,680
+sobre como você identificar e que tem algumas pistas da série pista simples para você identificar.
+
+21
+00:01:57,720 --> 00:02:02,790
+Isso não é uma regra cem por cento não é fechado em cima daquilo que eu vou mostrar para vocês aqui
+
+22
+00:02:02,790 --> 00:02:03,930
+mais uma dica.
+
+23
+00:02:03,930 --> 00:02:09,660
+Quando você tem composição quando você tem herança adiantada no mundo real você tem mais composição
+
+24
+00:02:09,660 --> 00:02:12,180
+do que herança e também no software.
+
+25
+00:02:12,180 --> 00:02:16,610
+é preferível que você tenha também mais composição do que herança.
+
+26
+00:02:16,740 --> 00:02:23,570
+Quando você consegue formar frases do tipo tem ou tem uma ou tem uso ou tem uma.
+
+27
+00:02:23,610 --> 00:02:24,300
+Certo.
+
+28
+00:02:24,390 --> 00:02:28,710
+Você consegue encaixar anualmente melhor o lado da composição.
+
+29
+00:02:28,710 --> 00:02:32,340
+Quando você tem uma frase é ou é uma caixa.
+
+30
+00:02:32,400 --> 00:02:34,770
+Então normalmente você acaba aplicando herança.
+
+31
+00:02:34,800 --> 00:02:36,710
+Como eu disse não é uma regra fechada.
+
+32
+00:02:36,720 --> 00:02:40,480
+Mas você pode se basear um pouco nessa ideia.
+
+33
+00:02:40,530 --> 00:02:43,700
+Então por exemplo o carro tem um motor.
+
+34
+00:02:43,710 --> 00:02:48,870
+Se existe uma relação entre o carro montou a relação para o local tem o motor.
+
+35
+00:02:48,960 --> 00:02:53,350
+O motor pertence a um carro e essa é uma relação de uso digamos assim.
+
+36
+00:02:53,390 --> 00:03:00,660
+Composição carro tem portas então muito provavelmente você vai mapear carro para Portas como um rei
+
+37
+00:03:01,050 --> 00:03:03,050
+ou com uma Collection está certo.
+
+38
+00:03:03,060 --> 00:03:09,060
+No caso de uma quantidade fixa você pode mapear muito bem para um rei ou mesmo dependendo da situação
+
+39
+00:03:09,060 --> 00:03:10,000
+para um colégio.
+
+40
+00:03:10,260 --> 00:03:12,660
+Então casa tem uma cozinha.
+
+41
+00:03:12,670 --> 00:03:16,000
+A cozinha pertence a uma classe caso a caso tem uma cozinha.
+
+42
+00:03:16,210 --> 00:03:19,700
+Então você também tem uma relação de composição diferente.
+
+43
+00:03:19,710 --> 00:03:22,870
+Em contraponto você tem uma relação.
+
+44
+00:03:23,220 --> 00:03:27,870
+Por exemplo o Civic é um carro gato e mamífero.
+
+45
+00:03:27,900 --> 00:03:29,850
+Maçã é uma fruta.
+
+46
+00:03:29,850 --> 00:03:36,480
+Todos esses são cenários que você irá provavelmente mapear melhor para uma herança porque uma relação
+
+47
+00:03:36,600 --> 00:03:38,170
+é um herança o quê.
+
+48
+00:03:38,190 --> 00:03:42,600
+Como é que você consegue usar código a partir da composição composição.
+
+49
+00:03:42,600 --> 00:03:49,050
+Você vai ter uma referência para aquilo que você está digamos assim usavam um carro dentro da classe
+
+50
+00:03:49,050 --> 00:03:56,190
+Carro até uma referência para motor de tal forma que você consegue a partir do motor acessar os giros.
+
+51
+00:03:56,250 --> 00:04:01,440
+Você consegue a partir do carro uma vez que você acelera gerar impacto no motor ou então existe uma
+
+52
+00:04:01,440 --> 00:04:03,480
+colaboração entre as duas classes.
+
+53
+00:04:03,480 --> 00:04:10,260
+No caso de herança como o próprio nome já já já remete a essa questão de você dá algo de alguém é um
+
+54
+00:04:10,260 --> 00:04:13,420
+outro mecanismo pra você reutilizar código.
+
+55
+00:04:13,470 --> 00:04:18,930
+Então por exemplo você vai herdar por exemplo algumas características e comportamentos pré definidos
+
+56
+00:04:18,930 --> 00:04:22,230
+na classe pai imaginando um Civic como sendo o carro.
+
+57
+00:04:22,650 --> 00:04:26,240
+Então você vai criar uma classe mais genérica chamada carro.
+
+58
+00:04:26,310 --> 00:04:33,510
+Você vai criar outra classe mais específica que seria o Civic e o Cid que vai herdar comportamentos
+
+59
+00:04:33,510 --> 00:04:40,560
+de carro por exemplo todo o carro tem um método ligado o local tem um método de desligar todo o carro
+
+60
+00:04:40,590 --> 00:04:43,960
+tem um metro acelerar todo o carro ter o metro frear.
+
+61
+00:04:44,280 --> 00:04:50,970
+Então esse tipo de comportamento você pode receber via herança e sem que seja necessário implementar
+
+62
+00:04:50,970 --> 00:04:53,700
+absolutamente nada dentro do Civic.
+
+63
+00:04:53,700 --> 00:04:55,750
+Você recebe esses comportamentos.
+
+64
+00:04:55,990 --> 00:05:01,620
+Eu não sei se vocês estão lembrados em vários momentos do curso ou o aumento do curso eu mostrei pra
+
+65
+00:05:01,620 --> 00:05:08,930
+vocês que uma classe ou qualquer classe que você criem já vai ter alguns comportamentos como o caos
+
+66
+00:05:09,290 --> 00:05:13,740
+Rachel Couch Kate Cleese eu não me expliquem do Colony.
+
+67
+00:05:13,890 --> 00:05:18,360
+Em alguns momentos vamos checar você hoje com a gente um o espaço na Cleide a gente vai ver por exemplo
+
+68
+00:05:18,360 --> 00:05:25,380
+que a data tem dia mês e ano além de ter um dia o mês e o ano tem uma série de outras funcionalidades
+
+69
+00:05:25,380 --> 00:05:29,560
+e aquelas funcionalidades eles só apareceram por conta da herança.
+
+70
+00:05:29,640 --> 00:05:32,700
+Então mostrando aqui um exemplo de herança seguir nessa do.
+
+71
+00:05:33,210 --> 00:05:39,240
+Então você tem muito claramente essa ideia de algo mais genérico e a partir do momento que você vai
+
+72
+00:05:39,240 --> 00:05:45,690
+descendo na estrutura de hierarquia nessa árvore que eventualmente pode ser gerada de hierarquia você
+
+73
+00:05:45,690 --> 00:05:47,500
+vai ficando cada vez mais específico.
+
+74
+00:05:47,500 --> 00:05:53,490
+Então por exemplo aqui nessa nesse exemplo que animal é o mais genérico a partir de animal você tem
+
+75
+00:05:53,490 --> 00:05:55,440
+mamífero e você tem um filho.
+
+76
+00:05:55,470 --> 00:06:02,090
+Fica um pouco mais específico a parte de mamífero você tem mamíferos aquáticos e mamíferos terrestres
+
+77
+00:06:02,180 --> 00:06:07,080
+e aí em cima dessas outras classificações você vai conseguir especificar ainda mais né.
+
+78
+00:06:07,080 --> 00:06:13,740
+Você vai ter aqui as baleias e coisas do tipo o mamífero vai ter os equinos os caprinos e então tudo
+
+79
+00:06:13,740 --> 00:06:20,580
+isso você pode ainda especificar ainda mas até você chegar no nível mais expressivo aqui é um exemplo
+
+80
+00:06:20,580 --> 00:06:24,950
+que você tem várias digamos assim camadas de hierarquia animal.
+
+81
+00:06:24,960 --> 00:06:28,260
+Você tem um mamífero você tem um mamífero terrestre.
+
+82
+00:06:28,320 --> 00:06:31,390
+Aí você tem o selo aos humanoides.
+
+83
+00:06:31,390 --> 00:06:36,270
+Eu não sei exatamente não vou entrar muito detalhe na biologia aí você vai gerando várias hierarquias
+
+84
+00:06:36,270 --> 00:06:38,210
+de herança e uma coisa para você ter cuidado.
+
+85
+00:06:38,210 --> 00:06:40,400
+Você tem hierarquias muito longas.
+
+86
+00:06:40,500 --> 00:06:45,990
+Isso pode gerar algumas dificuldades na hora de manter o coelho mais é possível que você precise em
+
+87
+00:06:45,990 --> 00:06:46,890
+alguma situação.
+
+88
+00:06:46,900 --> 00:06:47,820
+Então aqui é um exemplo.
+
+89
+00:06:47,820 --> 00:06:55,450
+Claramente há uma herança por exemplo e quanto mais genérico você tem por exemplo quanto mais genérico
+
+90
+00:06:55,450 --> 00:07:02,760
+é o conceito menos coisa aquela aquela classe deve fazem então por exemplo se eu tenho uma classe animal
+
+91
+00:07:03,450 --> 00:07:04,200
+eu não vou ter.
+
+92
+00:07:04,200 --> 00:07:08,190
+Por exemplo métodos Mamá por exemplo produzir leite.
+
+93
+00:07:08,190 --> 00:07:08,550
+Por quê.
+
+94
+00:07:08,550 --> 00:07:10,850
+Porque nem todo animal vai fazer esse tipo de coisa.
+
+95
+00:07:11,280 --> 00:07:15,960
+Então você vai ter que encontrar comportamentos que são comuns a todos os animais.
+
+96
+00:07:15,960 --> 00:07:16,410
+Por quê.
+
+97
+00:07:16,440 --> 00:07:21,010
+Porque uma vez que você definiu a herança todos os animais vão dar aquele comportamento.
+
+98
+00:07:21,420 --> 00:07:28,350
+Então se você chegar à conclusão do ponto de vista do seu da sua abstração seu mundo real e a um disse
+
+99
+00:07:28,410 --> 00:07:32,550
+que o meu animal a um único metro que ele vai ter vai ser respirar.
+
+100
+00:07:32,910 --> 00:07:37,560
+O que todo animal respira mas nem todo animal por exemplo vai se locomover.
+
+101
+00:07:38,010 --> 00:07:42,950
+Eventualmente você não vai querer colocá locomover se mexer.
+
+102
+00:07:42,960 --> 00:07:44,440
+O que querem todo animal se mexe.
+
+103
+00:07:44,430 --> 00:07:49,710
+Então você pode chegar à conclusão que todo animal tem algum tipo de forma de se mexer.
+
+104
+00:07:49,710 --> 00:07:52,680
+Então vou colocar respirar e se locomover.
+
+105
+00:07:52,710 --> 00:07:55,960
+Como serão os dois metros que eu quero usar dentro de animal.
+
+106
+00:07:56,010 --> 00:08:00,090
+Você vai descendo na hierarquia e por exemplo o mamífero.
+
+107
+00:08:00,100 --> 00:08:04,800
+Aí você vai ter por exemplo além de se locomover além de respirar.
+
+108
+00:08:04,800 --> 00:08:08,890
+Você vai ter um método por exemplo uma marca é todo mamífero.
+
+109
+00:08:08,940 --> 00:08:15,960
+E aí se você coloca o mamífero aquático você vai ter o método de nadar que todo mamífero aquático nado
+
+110
+00:08:15,960 --> 00:08:21,390
+e aí você vai especificando a paixão momento que você vai ficando mais específico.
+
+111
+00:08:21,390 --> 00:08:27,960
+Você ganha por herança todos os comportamentos e atributos definidos nas classes mais acima ou seja
+
+112
+00:08:27,960 --> 00:08:30,370
+nas classes pai e quem chama.
+
+113
+00:08:30,630 --> 00:08:35,220
+Ou então superclássico que são as classes que estão acima dessa classe na hierarquia.
+
+114
+00:08:35,220 --> 00:08:41,960
+Tudo aquilo que foi definido você vai recebendo por herança não apenas da classe imediatamente assinou
+
+115
+00:08:41,970 --> 00:08:49,290
+mas de todas as classes ou seja uma milha terrestre vai receber tudo que foi definido em mamífero e
+
+116
+00:08:49,290 --> 00:08:51,540
+tudo que foi definido é animal.
+
+117
+00:08:51,540 --> 00:08:57,530
+Se você definiu um animal ele vai se locomover que o animal também vai respirar obrigatoriamente um
+
+118
+00:08:57,530 --> 00:09:00,720
+mamífero terrestre também vai ter esses comportamentos.
+
+119
+00:09:00,750 --> 00:09:07,040
+Se você definiu que um mamífero ele vai mamar significa que o mamífero terrestre também terá esse comportamento
+
+120
+00:09:07,500 --> 00:09:13,320
+e assim vai descer na hierarquia de tal forma que quanto mais específico você vai ficando quanto mais
+
+121
+00:09:13,320 --> 00:09:18,320
+você vai descer na hierarquia mais comportamentos você vai agregando.
+
+122
+00:09:18,330 --> 00:09:24,300
+Porque você vai agregando todos os pais digamos assim todas as super classes que estão naquela hierarquia
+
+123
+00:09:24,300 --> 00:09:25,130
+de herança.
+
+124
+00:09:26,040 --> 00:09:32,430
+Existe essa conotação essa nomenclatura Superclássico é a classe mais genérica ou seja quanto mais acima
+
+125
+00:09:32,430 --> 00:09:38,490
+na hierarquia mais genérica o conceito mais genérico mais abrangente é aquela classe.
+
+126
+00:09:38,610 --> 00:09:44,400
+E quanto mais genérica menos comportamentos provavelmente você vai conseguir encaixar nessa classe.
+
+127
+00:09:44,410 --> 00:09:50,180
+Porque esse comportamento precisa estar presente em toda a hierarquia que está em baixo porque não existe
+
+128
+00:09:50,180 --> 00:09:55,650
+acepção digamos assim se você definiu o comportamento na classe mais genérica todas as outras classes
+
+129
+00:09:56,010 --> 00:09:57,550
+vão adotar esse comportamento.
+
+130
+00:09:57,880 --> 00:10:02,210
+E você tem um conceito de classe que é a classe mais específica.
+
+131
+00:10:02,210 --> 00:10:08,030
+Eventualmente você vai ter situações do tipo você vai ter que uma classe em que você tem uma herança
+
+132
+00:10:08,030 --> 00:10:13,000
+para uma outra classe em que você tem um herança que para outra classe que você tem uma herança aqui
+
+133
+00:10:13,240 --> 00:10:14,340
+pra outra classe.
+
+134
+00:10:14,700 --> 00:10:22,760
+Nessa relação aqui por exemplo essa que assusta é essa que a subclasse nessa hierarquia aqui nessa relação
+
+135
+00:10:22,770 --> 00:10:29,050
+essa que a subclasse é essa que a supre nessa relação aqui é essa que a subclasse é essa quer subir
+
+136
+00:10:29,190 --> 00:10:33,510
+dependendo de quem você tá olhando de que parte digamos assim da hierarquia.
+
+137
+00:10:33,510 --> 00:10:34,750
+Você está olhando.
+
+138
+00:10:34,910 --> 00:10:40,600
+Não vai ser a subclasse que a classe mais específica outra ser superclássico que a classe mais genérica
+
+139
+00:10:40,600 --> 00:10:47,670
+segue então uma classe ela pode ser super classe em outro momento ela se a subclasse porque você está
+
+140
+00:10:47,670 --> 00:10:54,330
+comparando com outra classe mas existe essa nomenclatura super classe e classe pai e subclasse é a classe
+
+141
+00:10:54,330 --> 00:10:56,570
+mais específico ou a classe filha.
+
+142
+00:10:56,730 --> 00:11:05,040
+Outro conceito também muito importante é o conceito de que nem toda hierarquia é gera herança nem toda
+
+143
+00:11:05,040 --> 00:11:06,070
+hierarquia gerará.
+
+144
+00:11:06,150 --> 00:11:13,020
+Por exemplo você tem uma hierarquia militar um soldado não é um cabo um cabo não é um sargento ou um
+
+145
+00:11:13,020 --> 00:11:19,310
+sargento não é um cabo e vice versa né sargento não é um tenente então aqui é um exemplo que você tem
+
+146
+00:11:19,310 --> 00:11:25,110
+uma hierarquia mas não é um hierarquia que gera herança neste outro caso aqui por exemplo você tem uma
+
+147
+00:11:25,110 --> 00:11:26,580
+certa hierarquia.
+
+148
+00:11:26,590 --> 00:11:32,820
+7 Essa era porque eu era aqui que a gente consegue sim mapear para um lado mais esse caso que especificamente
+
+149
+00:11:32,880 --> 00:11:34,100
+não consegue mapear.
+
+150
+00:11:34,440 --> 00:11:36,300
+E aqui você não tem uma relação.
+
+151
+00:11:36,600 --> 00:11:38,980
+E você também não tem uma relação de herança.
+
+152
+00:11:38,980 --> 00:11:44,250
+Certo é que provavelmente também você não vai ter uma relação de composição mas vai ter um outro tipo
+
+153
+00:11:44,250 --> 00:11:46,750
+de relação mas não há relação de herança.
+
+154
+00:11:46,800 --> 00:11:54,030
+Até porque não tem essa relação é um mais um e só indica uma forma para você ter um critério ali digamos
+
+155
+00:11:54,030 --> 00:12:00,840
+assim fácil de análise mas nem sempre tudo que apresentam você vai querer mapear como herança inclusive
+
+156
+00:12:01,200 --> 00:12:06,550
+existem alguns padrões de projeto certo e padrões de projeto são.
+
+157
+00:12:06,570 --> 00:12:13,140
+Você tem um problema recorrente no mundo do software o mesmo pode ser mais abrangente no mundo da arquitetura
+
+158
+00:12:13,140 --> 00:12:14,580
+da engenharia na medicina.
+
+159
+00:12:14,580 --> 00:12:21,510
+Você tem um problema e você tem uma forma padrão digamos assim já foi provada que funciona e esse padrão
+
+160
+00:12:21,510 --> 00:12:23,430
+pode ser aplicado para resolver esse problema.
+
+161
+00:12:23,490 --> 00:12:29,340
+Segundo o criador dos padrões que criou um livro chamado A linguagem dos padrões que ele Christopher
+
+162
+00:12:29,400 --> 00:12:36,960
+Alexander que era um arquiteto de prédios de empreendimentos e ele começou a perceber que existiam padrões
+
+163
+00:12:36,960 --> 00:12:38,730
+nas construções.
+
+164
+00:12:38,760 --> 00:12:45,660
+Se eu fizer a construção com esse padrão fica muito bem essa ou essa outra forma digamos assim geométrica.
+
+165
+00:12:45,660 --> 00:12:48,480
+Então esse tipo de coisa dá muito certo.
+
+166
+00:12:48,480 --> 00:12:53,790
+Nesse contexto ele começou a perceber os padrões e começou a catalogar rapidamente as pessoas perceberam
+
+167
+00:12:53,790 --> 00:12:59,220
+que essa caixa onde os padrões tinham também não sofre Software é uma coisa que ele fala e que sempre
+
+168
+00:12:59,220 --> 00:13:05,670
+que você aplica um padrão um padrão de projeto você nunca aplica na mesma forma você sempre vai adaptar
+
+169
+00:13:05,670 --> 00:13:07,260
+para a necessidade do seu problema.
+
+170
+00:13:07,650 --> 00:13:14,790
+Então é muito comum existem alguns livros clássicos como por exemplo a Gangue dos Quatro Mac e o Gang
+
+171
+00:13:14,790 --> 00:13:18,500
+of Four que é um livro que catalogou vários padrões.
+
+172
+00:13:18,510 --> 00:13:21,050
+Eu não estou enganado são 23 padrões do golfe.
+
+173
+00:13:21,090 --> 00:13:28,230
+Se você procurar na internet e G ou F um patrono dos padrões do golfe você vai ver lá todos os padrões
+
+174
+00:13:28,590 --> 00:13:34,690
+e alguns desses padrões ajudam a substituir ou tocar e falar exatamente isso.
+
+175
+00:13:34,690 --> 00:13:39,540
+Alguns padrões que ajudam a substituir herança por composição.
+
+176
+00:13:39,570 --> 00:13:43,260
+é um desses padrões que é um padrão muito famoso eu decorei tudo.
+
+177
+00:13:43,360 --> 00:13:49,440
+é um padrão que te ajuda a substituir composição por herança Ok qualquer composição acaba sendo mais
+
+178
+00:13:49,440 --> 00:13:51,340
+flexível do que herança.
+
+179
+00:13:51,360 --> 00:13:54,120
+Isso não acontece em todas as linguagens.
+
+180
+00:13:54,120 --> 00:13:59,790
+Algumas linguagens têm um conceito chamado herança múltipla o que quer dizer isso em Java.
+
+181
+00:13:59,790 --> 00:14:03,020
+Vocês vão perceber que uma classe.
+
+182
+00:14:03,300 --> 00:14:05,970
+Existem outras regras que vou falar um pouco mais à frente.
+
+183
+00:14:06,070 --> 00:14:10,700
+Pessoalmente não vou falar de interface mas uma classe em Java.
+
+184
+00:14:11,230 --> 00:14:19,110
+Ela só pode digamos assim verdade uma classe ou seja uma classe classe por exemplo dois aqui só pode
+
+185
+00:14:19,110 --> 00:14:21,080
+herdar da Classe Zero.
+
+186
+00:14:21,220 --> 00:14:27,810
+E você pode ter outras classes herdam da mesma classe mais uma classe 3 só pode herdar de uma única
+
+187
+00:14:27,810 --> 00:14:35,400
+classe essa classe 0 em uma classe por exemplo só pode andar de uma única classe e se você fizer essa
+
+188
+00:14:35,400 --> 00:14:42,500
+digamos série estrutura se ela classe 4 quem você vai ter uma certa limitação qualquer classe só herda
+
+189
+00:14:42,510 --> 00:14:43,360
+de uma classe.
+
+190
+00:14:43,380 --> 00:14:47,880
+Algumas linguagens permitem que a gente conhece como herança múltipla.
+
+191
+00:14:47,880 --> 00:14:54,810
+Por exemplo você tem uma classe em qualquer que pode herdar de múltiplas classes diferentes.
+
+192
+00:14:54,820 --> 00:15:03,490
+Você tem aqui algumas classes certo e se por verdade mais de uma classe certo isso não acontece em Java
+
+193
+00:15:03,490 --> 00:15:09,880
+e aqui por exemplo acontece em C++ você tem uma flexibilidade maior mas por outro lado você tem alguns
+
+194
+00:15:09,880 --> 00:15:17,350
+outros problemas certo que tem formas de resolver como por exemplo você definiu funcionalidades conflitantes
+
+195
+00:15:17,350 --> 00:15:22,020
+e mais de uma classe como é que você vai querer qual dessas funcionalidades você quer usar.
+
+196
+00:15:22,070 --> 00:15:28,810
+Então o que seria mais ou menos na vida real você tem por exemplo se herda do pai da mãe e seu pai trabalha
+
+197
+00:15:28,810 --> 00:15:30,270
+de um jeito ou mãe de outro.
+
+198
+00:15:30,280 --> 00:15:35,450
+Qual dessas características se cuida de quem o seu pai na sua mão e a forma de trabalhar mais cuidar
+
+199
+00:15:35,780 --> 00:15:37,330
+da classe A ou da classe B.
+
+200
+00:15:37,340 --> 00:15:42,670
+Então esse são alguns conflitos que você tem em algumas linguagens que trabalha com heranças múltiplas
+
+201
+00:15:42,670 --> 00:15:48,820
+no caso o Java trabalha com herança simples embora a gente vai ver algumas regras com relação à interface
+
+202
+00:15:48,820 --> 00:15:49,900
+um pouco mais na frente.
+
+203
+00:15:49,900 --> 00:15:52,740
+Então essa questão da herança eu vou me achar na praxe.
+
+204
+00:15:52,750 --> 00:15:59,320
+Como isso é feito e você receber por padrão comportamentos e atributos sem necessariamente precisar
+
+205
+00:15:59,320 --> 00:16:02,590
+definir esses comportamentos dentro da sua classe.
+
+206
+00:16:02,710 --> 00:16:09,550
+Embora exista um conceito que é o conceito de sobre escrever algo então por exemplo desenhando aqui
+
+207
+00:16:09,550 --> 00:16:17,020
+você tem uma classe em qualquer outra aqui você tem uma classe e você tem uma ou outra classe em que
+
+208
+00:16:17,020 --> 00:16:23,260
+herda o comportamento dessa classe de cinema então vamos supor que o vermelhão aqui é um atributo então
+
+209
+00:16:23,260 --> 00:16:24,760
+você tem um atributo.
+
+210
+00:16:24,760 --> 00:16:31,310
+Você tem um ou outro atributo e você tem aqui alguns métodos até um método dois métodos.
+
+211
+00:16:31,330 --> 00:16:36,610
+Então por padrão você acaba recebendo dependendo de algumas regrinhas que você recebe esses atributos
+
+212
+00:16:36,610 --> 00:16:38,380
+e comportamentos na classe de.
+
+213
+00:16:38,500 --> 00:16:45,190
+Eventualmente você vai ter algum comportamento desses que você não quer digamos assim receber por herança
+
+214
+00:16:45,490 --> 00:16:51,490
+exatamente como foi definido na classe baixa então vamos supor que lá no animal você definiu que o animal
+
+215
+00:16:51,490 --> 00:16:55,900
+respira o animal respira um determinado padrão.
+
+216
+00:16:55,960 --> 00:17:03,010
+Só que você chegou num nível de hierarquia tão específico que você quer tornar o método respirar mais
+
+217
+00:17:03,010 --> 00:17:07,830
+otimizado ou especificar mais detalhes de como esse método não é implementado.
+
+218
+00:17:07,840 --> 00:17:10,880
+Você pode definir novamente o método.
+
+219
+00:17:10,880 --> 00:17:16,040
+Então por que esse método seja o método a esse seja o método B.
+
+220
+00:17:16,360 --> 00:17:23,800
+Então vamos com um método B você quer redefinir é possível você reescrever o método B na subclasse que
+
+221
+00:17:23,800 --> 00:17:30,940
+é a classe que é desse comportamento e eventualmente você também tem a possibilidade se quiser de apontar
+
+222
+00:17:31,300 --> 00:17:38,500
+para a implementação original ou seja usar a implementação original e complementar mas mais alguma coisa
+
+223
+00:17:38,510 --> 00:17:44,050
+então em algum ponto desse código você chama a implementação original pode fazer algumas coisas antes
+
+224
+00:17:44,060 --> 00:17:47,420
+algumas coisas depois certo mas você pode se quiser.
+
+225
+00:17:47,530 --> 00:17:53,770
+Sobre escrever completamente o comportamento da classe pai mas quando você não faz absolutamente nada
+
+226
+00:17:53,770 --> 00:18:01,380
+quando você simplesmente diz que algo herda de outra classe você por padrão já recebe esse comportamento.
+
+227
+00:18:01,390 --> 00:18:06,670
+Os atributos de comportamento vai depender um pouco daqueles níveis de invisibilidade que eu conversei
+
+228
+00:18:06,670 --> 00:18:11,220
+com vocês na hora passada se é proibitivo não vai ser adotado por padrão então vai ter algumas regras
+
+229
+00:18:11,260 --> 00:18:15,880
+se a gente for para a prática a gente vai ver um pouco melhor sobre isso mas basicamente o que a gente
+
+230
+00:18:15,880 --> 00:18:22,060
+tem é a herança você define uma série de comportamentos aqui na classe pai e esses comportamentos.
+
+231
+00:18:22,060 --> 00:18:27,760
+Quando você olha para a classe filha são dados sem que você tem que escrever absolutamente nada que
+
+232
+00:18:27,760 --> 00:18:34,590
+basta você indicar que uma classe era de outro eu vou mostrar pra vocês que existe uma palavra reservada
+
+233
+00:18:34,600 --> 00:18:42,550
+na linguagem que é o Hex tendes então essa palavra que tem desde que diz que uma classe era de outra
+
+234
+00:18:42,550 --> 00:18:47,800
+classe eu vou mostrar isso para vocês na prática é exatamente essa tipo de forma de reuso diferente
+
+235
+00:18:47,800 --> 00:18:52,770
+da composição que a composição você tem aqui uma classe essa classe.
+
+236
+00:18:52,770 --> 00:18:59,020
+Você define um atributo que é do tipo que aponta para uma outra classe ou outra classe definido você
+
+237
+00:18:59,020 --> 00:19:05,320
+tem uma relação de composição você define um variável um atributo que é um tipo de outra classe.
+
+238
+00:19:05,320 --> 00:19:10,990
+Esse é o tipo de uso já esse você define os comportamentos de risco a classe era de outro e então todos
+
+239
+00:19:10,990 --> 00:19:16,270
+os comportamentos que podem ser transmitidos por herança vai ser recebida na classe filha inclusive
+
+240
+00:19:16,270 --> 00:19:19,480
+com a possibilidade sobre escrever o comportamento.
+
+241
+00:19:19,480 --> 00:19:25,210
+Caso seja necessário então fique por aqui nós vimos agora o segundo pilar para os maus o museu o terceiro
+
+242
+00:19:25,210 --> 00:19:29,500
+pilar que é exatamente o que vem depois o polimorfismo e até lá.

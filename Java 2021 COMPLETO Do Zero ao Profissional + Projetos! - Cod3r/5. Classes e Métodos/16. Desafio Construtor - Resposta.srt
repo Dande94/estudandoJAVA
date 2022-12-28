@@ -1,0 +1,143 @@
+1
+00:00:00,220 --> 00:00:06,570
+Só agora nós vamos responder o desafio que eu propus na aula passada e como nós estamos na classe data.
+
+2
+00:00:06,570 --> 00:00:12,560
+O nome do posto será data exatamente em nossas letras maiúsculas e minúsculas.
+
+3
+00:00:12,630 --> 00:00:22,150
+Nesse caso eu vou criar um texto padrão e vou criar também um construtor de data que recebe em dia de
+
+4
+00:00:23,590 --> 00:00:26,610
+meias tintas.
+
+5
+00:00:26,730 --> 00:00:31,320
+Na verdade para não confrontar o nome das variáveis que eu ainda vou falar sobre isso então esse dia
+
+6
+00:00:31,800 --> 00:00:41,910
+inicial eu vou copiar aqui ao mês inicial e não inicial então pra eu salvar vão fazer dia recebe dia
+
+7
+00:00:42,540 --> 00:00:50,640
+inicial ponto e vírgula mais recebe e-mails inicial também ponto e vírgula e finalmente ano recebe um
+
+8
+00:00:50,640 --> 00:00:53,530
+ano inicial ponto e vírgula.
+
+9
+00:00:53,550 --> 00:00:58,980
+Outro caso que eu comentei com vocês é o do consultor padrão que vai receber a data padrão para ser
+
+10
+00:00:58,980 --> 00:01:10,240
+primeiro de janeiro de 1980 então aqui outro dia recebe todo mês recebe o valor e não recebe valor de
+
+11
+00:01:10,230 --> 00:01:18,410
+1970 ou seja por padrão se o usuário criar com o custo padrão ele vai separar esses valores.
+
+12
+00:01:18,570 --> 00:01:25,500
+Aqui não há data teste eu posso simplesmente deixar a data pra ser padrão e a data de hoje eu vou criar
+
+13
+00:01:26,200 --> 00:01:35,550
+31 do 12 mil e 2020 melhor dizendo que eu não preciso mais acertar os valores aqui embaixo porque Por
+
+14
+00:01:35,550 --> 00:01:43,430
+padrão ele vai usar esses valores ou você vai perceber que agora voltei ao Primeiro de Janeiro 1970
+
+15
+00:01:43,780 --> 00:01:52,470
+31 de 12 e 2020 primeiro de janeiro de 1970 31/12 2020 ali eu quero mudar só por exemplo um mês o cara
+
+16
+00:01:52,470 --> 00:02:01,350
+mudar só o ano não tem problema até 1 ponto 1 ANO recebe 2 mil e 21 executado você vai ter em primeiro
+
+17
+00:02:01,350 --> 00:02:08,820
+de janeiro de 2021 e o primeiro de janeiro de 2021 e o primeiro de janeiro de 2021 porque ele pegou
+
+18
+00:02:08,910 --> 00:02:15,180
+as outras informações por padrão e o ano foi modificado como qualquer outra variável pode ser modificada
+
+19
+00:02:15,180 --> 00:02:16,490
+sem problema nenhum.
+
+20
+00:02:16,770 --> 00:02:23,280
+Então aqui nós temos dois consultores se você quiser criar outros construtores só recebendo o dia só
+
+21
+00:02:23,280 --> 00:02:24,840
+receberão um dia e o mês.
+
+22
+00:02:24,860 --> 00:02:26,000
+Você pode fazer o quê.
+
+23
+00:02:26,010 --> 00:02:31,070
+Você não vai conseguir fazer o seguinte Já que eu até já mostrei pra vocês que isso lá é possível.
+
+24
+00:02:31,260 --> 00:02:39,070
+Imagine que você vai criar aqui uma construtora que vai inicializar só o dia certo.
+
+25
+00:02:39,070 --> 00:02:42,990
+Então você pode passar somente um inteiro que vai inicializar o dia.
+
+26
+00:02:42,990 --> 00:02:48,140
+Se você tentar criar um outro construtor que também só recebe um inteiro só que agora você vai querer
+
+27
+00:02:48,150 --> 00:02:51,210
+receber o ano certo e fazer isso.
+
+28
+00:02:51,270 --> 00:02:56,850
+Isso não é possível em Java porque o Java não vai conseguir diferenciar quando você tentar criar uma
+
+29
+00:02:56,850 --> 00:02:58,590
+data que passa apenas o inteiro.
+
+30
+00:02:58,600 --> 00:03:03,830
+Se você está querendo chamar o dia inicial ou sustentar querendo chamar o ano inicial.
+
+31
+00:03:03,850 --> 00:03:10,530
+Porque esses dois construtores aqui têm a mesma assinatura o mesmo nome a mesma quantidade de parâmetros
+
+32
+00:03:10,880 --> 00:03:15,120
+e o mesmo tipo dos parâmetros ou seja uma data que seria apenas um único inteiro.
+
+33
+00:03:15,160 --> 00:03:17,480
+Então isso é um problema não pode.
+
+34
+00:03:17,530 --> 00:03:23,570
+Você até pode diferenciar de outras formas se você tiver formas diferentes tipos diferentes.
+
+35
+00:03:23,580 --> 00:03:28,540
+A Ordem dos parâmetros de parentes mais construtores com a mesma assinatura não é possível.
+
+36
+00:03:28,680 --> 00:03:32,030
+Então essa é a resposta do nosso desafio e até proximal.

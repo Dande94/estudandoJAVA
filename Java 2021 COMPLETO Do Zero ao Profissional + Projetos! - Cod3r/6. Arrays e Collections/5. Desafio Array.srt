@@ -1,0 +1,91 @@
+1
+00:00:00,310 --> 00:00:06,150
+Na minha sala vou lançar para vocês o desafio que vai ser o seguinte O desafio é calcular a média das
+
+2
+00:00:06,150 --> 00:00:11,470
+notas de um aluno só que agora o usuário vai passar essas informações pra você.
+
+3
+00:00:11,700 --> 00:00:16,260
+Então a primeira pergunta é que o programa vai apresentar para o usuário o seguinte Quantas notas você
+
+4
+00:00:16,260 --> 00:00:23,580
+quer informar aos órgãos o querem informar cinco notas quatro dez notas uma vez que o usuário informou
+
+5
+00:00:23,580 --> 00:00:29,240
+quem informar por exemplo cinco notas você vai criar um array de cinco posições para receber as notas.
+
+6
+00:00:29,880 --> 00:00:35,100
+Existem algumas formas mais otimizadas de fazer o algoritmo mas eu quero que você quebre o algoritmo
+
+7
+00:00:35,100 --> 00:00:42,540
+em dois laços folga no primeiro laço fora você vai simplesmente pegar as notas e armazenar essas notas
+
+8
+00:00:42,550 --> 00:00:43,940
+morrem sete.
+
+9
+00:00:43,980 --> 00:00:49,170
+Então você vai usar o forno tradicional então você vai mostrar assim digite a nota.
+
+10
+00:00:49,280 --> 00:00:54,770
+Aí o usuário vai coloque digite a nota 2 Digite a nota 3 a nota 4 e a nota 5.
+
+11
+00:00:54,770 --> 00:00:58,380
+E aí você armazena tudo aquilo que o usuário informou coloca.
+
+12
+00:00:58,620 --> 00:01:04,840
+Depois que você já imaginou todas as notas você vai percorrer novamente o Harry usa no Fórum.
+
+13
+00:01:05,040 --> 00:01:10,800
+E aí você vai somar todas as notas de uma variável soma e depois desse foco você somou tudo e colocou
+
+14
+00:01:10,810 --> 00:01:15,530
+na variável soma e no final você apresenta o resultado que a média do aluno.
+
+15
+00:01:15,550 --> 00:01:21,000
+Eu sei que dá para você fazer um único fora a soma e capturar os elementos colocar não a Rei mas eu
+
+16
+00:01:21,000 --> 00:01:24,650
+quero que você quebre em duas partes primeiro salve os dados.
+
+17
+00:01:24,700 --> 00:01:31,860
+Rei informando inclusive o índice certo e o zero não ensinou a Rei mais a primeira nota segundo a nota
+
+18
+00:01:31,890 --> 00:01:33,300
+a terceira nota e tal.
+
+19
+00:01:33,410 --> 00:01:39,090
+E finalmente você vai somar todas as notas e a última coisa que o programa vai fazer exibir a média
+
+20
+00:01:39,150 --> 00:01:39,600
+do aluno.
+
+21
+00:01:39,600 --> 00:01:41,670
+Então esse é o nosso desafio.
+
+22
+00:01:41,670 --> 00:01:46,950
+Só que agora o usuário que vai informar a quantidade de elementos o usuário que vai formar as notas
+
+23
+00:01:47,270 --> 00:01:51,890
+e no final você mostra a média de espera na proximal para mostrar a resolução e até lá.

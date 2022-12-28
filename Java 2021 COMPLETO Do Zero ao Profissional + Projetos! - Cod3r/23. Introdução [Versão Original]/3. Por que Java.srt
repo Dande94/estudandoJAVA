@@ -1,0 +1,415 @@
+1
+00:00:00,370 --> 00:00:03,860
+As perguntas que surgem quando você vai escolher a linguagem.
+
+2
+00:00:03,900 --> 00:00:08,680
+E porquê escolher aquela linguagem Java.
+
+3
+00:00:08,760 --> 00:00:13,830
+é sem dúvida uma das linguagens senão a linguagem mais utilizada do mundo.
+
+4
+00:00:13,980 --> 00:00:19,920
+E isso por si só já seria um fato extremamente relevante para você levar em consideração aprender a
+
+5
+00:00:19,920 --> 00:00:21,140
+linguagem Java.
+
+6
+00:00:21,260 --> 00:00:26,230
+Até porque o mercado utiliza Java em muitas empresas digamos assim.
+
+7
+00:00:26,310 --> 00:00:31,090
+Então vão aqui alguns fatos interessantes para você conhecer sobre a linguagem Java.
+
+8
+00:00:31,350 --> 00:00:37,050
+Primeiro o fato de respeito que a linguagem tem uma quantidade gigantesca de desenvolvedores no mundo
+
+9
+00:00:37,290 --> 00:00:44,390
+está certo e isso te dá um certo uma certa segurança do ponto de vista de tirar dúvidas e resolver problemas.
+
+10
+00:00:44,390 --> 00:00:51,270
+Então se você parte para usar uma linguagem onde ela é extremamente usada no mundo dificilmente você
+
+11
+00:00:51,270 --> 00:00:52,680
+vai chegar num beco sem saída.
+
+12
+00:00:52,680 --> 00:00:57,840
+Dificilmente você vai chegar a situação de dificuldade no uso da linguagem.
+
+13
+00:00:57,840 --> 00:01:03,780
+Um problema que você precisa resolver é a chance de você não encontrar alguma resposta.
+
+14
+00:01:03,780 --> 00:01:08,690
+Seu problema é extremamente pequeno porque a linguagem extremamente adotada pelos desenvolvedores.
+
+15
+00:01:08,700 --> 00:01:17,020
+Outro fato importante é que o Java ele roda praticamente na totalidade dos computadores do mundo.
+
+16
+00:01:17,030 --> 00:01:24,420
+Diria que mais de 90 noventa e muitos por cento dos computadores do mundo têm instalado a máquina virtual
+
+17
+00:01:24,420 --> 00:01:29,580
+que é um conceito que eu vou falar um pouquinho depois dentro do uso mas está instalado o que significa
+
+18
+00:01:29,580 --> 00:01:35,300
+que se você fizer um programa em Java existe uma chance extremamente grande de o seu programa De Cara
+
+19
+00:01:35,310 --> 00:01:41,550
+sem precisar instalar absolutamente nada dentro do computador do usuário já rodar sem problema nenhum.
+
+20
+00:01:41,670 --> 00:01:46,140
+Então isso já é digamos assim um ponto positivo para a adoção da linguagem.
+
+21
+00:01:46,140 --> 00:01:51,720
+Como já mencionei ela é uma plataforma Java não só a linguagem mas ao redor do Java existe toda uma
+
+22
+00:01:51,720 --> 00:01:59,970
+plataforma digamos assim de soluções corporativas soluções para a internet soluções de banco de dados
+
+23
+00:01:59,970 --> 00:02:06,630
+e muitas outras coisas é digamos assim a plataforma mais utilizada do mundo é uma linguagem que você
+
+24
+00:02:06,630 --> 00:02:14,550
+consegue ter uma grande variedade e atinge uma grande variedade de dispositivos e isso com certeza é
+
+25
+00:02:14,550 --> 00:02:19,360
+um dos pontos mais fortes que se pode argumentar na hora de escolher a linguagem.
+
+26
+00:02:19,380 --> 00:02:25,410
+Outro aspecto extremamente importante que pesa a favor do Java principalmente desse mercado é que a
+
+27
+00:02:25,410 --> 00:02:32,430
+gente vive hoje de dispositivos móveis no qual nós temos duas grandes plataformas competindo com a plataforma
+
+28
+00:02:32,430 --> 00:02:37,990
+da Apple OSI e a plataforma do Google o Android dentro da plataforma Android.
+
+29
+00:02:38,160 --> 00:02:41,500
+Você desenvolve nativamente usando a linguagem Java.
+
+30
+00:02:41,910 --> 00:02:47,730
+Então se você pensar eu quero ser um desenvolvedor para dispositivos móveis trabalhando com a plataforma
+
+31
+00:02:47,730 --> 00:02:50,260
+Android e programar de forma nativa.
+
+32
+00:02:50,280 --> 00:02:53,840
+Praticamente requisito essencial você aprende a programar em Java.
+
+33
+00:02:54,150 --> 00:02:59,700
+Então isso é algo que traz também um peso muito grande na hora de escolher a linguagem Java.
+
+34
+00:02:59,700 --> 00:03:07,080
+Outra coisa que é extremamente importante também pensando na origem da linguagem a linguagem Java surgiu
+
+35
+00:03:07,080 --> 00:03:08,490
+a partir da linguagem C.
+
+36
+00:03:08,490 --> 00:03:15,960
+A linguagem C ela gerou diversas outras linguagens como C Sharp Objective-C C próprio JavaScript tem
+
+37
+00:03:15,960 --> 00:03:22,560
+uma sintaxe embora tenha muitas essências diferentes essas linguagens mais têm uma sintaxe muito próxima
+
+38
+00:03:22,860 --> 00:03:23,570
+do C.
+
+39
+00:03:23,580 --> 00:03:29,790
+Parecido com a forma de escrever em linguagem C então uma vez que você aprende a linguagem Java você
+
+40
+00:03:29,790 --> 00:03:31,350
+domina a linguagem Java.
+
+41
+00:03:31,350 --> 00:03:37,500
+é muito simples você transitar digamos assim entre outras linguagens porque ela acaba sendo a linguagem
+
+42
+00:03:37,510 --> 00:03:43,020
+muito central e um dos aspectos que eu considero pessoalmente muito importante principalmente para quem
+
+43
+00:03:43,020 --> 00:03:48,570
+é estudante quem está entrando no mercado tem que aprender a programar.
+
+44
+00:03:48,570 --> 00:03:54,180
+Eu indicaria sem dúvida que Java é um dos fortes candidatos para acesso a primeira linguagem de programação
+
+45
+00:03:54,600 --> 00:04:00,750
+porque ela é muito central surgiu de uma linguagem muito utilizada é extremamente importante que a linguagem
+
+46
+00:04:00,750 --> 00:04:07,170
+C só aquela linguagem mais simples de se trabalhar em linguagem mais moderna que implementa de forma
+
+47
+00:04:07,170 --> 00:04:14,490
+muito madura os conceitos de orientação a objeto então você consegue transitar desde uma aplicação simples
+
+48
+00:04:14,490 --> 00:04:17,490
+mais procedural mais estruturada.
+
+49
+00:04:17,490 --> 00:04:22,950
+Você consegue fazer em linguagem Java e você consegue partir rapidamente para conceitos de orientação
+
+50
+00:04:22,950 --> 00:04:25,870
+objeto com a versão nova do Java 8.
+
+51
+00:04:25,880 --> 00:04:30,520
+Você consegue também incorporar alguns conceitos do paradigma funcional.
+
+52
+00:04:30,660 --> 00:04:36,570
+Então a partir dela você consegue transitar para outras linguagens e com isto dar novas tecnologias
+
+53
+00:04:36,570 --> 00:04:41,670
+de uma forma digamos assim muito mais natural do que se você aprendeu a linguagem que está meio fora
+
+54
+00:04:41,670 --> 00:04:45,990
+desse desfecho digamos assim de linguagem que surgiram a partir do C.
+
+55
+00:04:45,990 --> 00:04:50,660
+Obviamente não existe bala de prata no que diz respeito à tecnologia.
+
+56
+00:04:50,670 --> 00:04:56,340
+Você não pode dizer que Java vai ser a solução para todos os seus problemas e todos os projetos que
+
+57
+00:04:56,340 --> 00:05:02,340
+você vai fazer daqui pra frente você vai preferir Java ela é a linguagem porque ela é mais usado no
+
+58
+00:05:02,340 --> 00:05:03,660
+mundo etc etc.
+
+59
+00:05:03,660 --> 00:05:05,320
+Não é não é assim que funciona.
+
+60
+00:05:05,340 --> 00:05:11,370
+Cada projeto tem suas próprias demandas e se você pudesse ser um poliglota no que diz respeito a linguagens
+
+61
+00:05:11,370 --> 00:05:12,660
+de programação.
+
+62
+00:05:12,840 --> 00:05:17,570
+Isso sem dúvida nenhuma vai facilitar muito o seu desenvolvimento pessoal.
+
+63
+00:05:17,590 --> 00:05:23,040
+é o que eu estou querendo dizer aqui é que Java digamos assim é uma escolha extremamente segura no que
+
+64
+00:05:23,040 --> 00:05:29,810
+diz respeito às possibilidades no mercado de trabalho você vai encontrar muitas oportunidades que usam
+
+65
+00:05:29,820 --> 00:05:34,070
+Java como base digamos assim de conhecimento.
+
+66
+00:05:34,110 --> 00:05:42,110
+Você tem uma facilidade de transitar para outras linguagens porque muitas linguagens vieram do C C++
+
+67
+00:05:42,210 --> 00:05:46,500
+Shape próprio JavaScript que tem uma influência na sintaxe.
+
+68
+00:05:47,010 --> 00:05:52,680
+O PHP também tem algumas coisas que parecem dar certo mas tem muita coisa que diz respeito à sintaxe
+
+69
+00:05:52,980 --> 00:05:56,620
+que vem do C sentenças de código de vírgula.
+
+70
+00:05:56,640 --> 00:05:58,080
+A sintaxe também lembra.
+
+71
+00:05:58,080 --> 00:06:03,300
+Então você consegue transitar entre várias linguagens de uma forma mais simples se você é um cara que
+
+72
+00:06:03,300 --> 00:06:11,530
+conhece bem a linguagem Java e você tem a garantia de que o teu conhecimento pelo estudo ele vai ser
+
+73
+00:06:11,530 --> 00:06:18,690
+amparado por um ano pela comunidade ampla base de desenvolvedores e o conhecimento gerado ao redor da
+
+74
+00:06:18,690 --> 00:06:20,880
+linguagem Java eles têm um eixo grande.
+
+75
+00:06:21,000 --> 00:06:27,790
+Além do que você tem uma base gigantesca de coisas já prontas pra te ajudar a fazer aplicações para
+
+76
+00:06:27,810 --> 00:06:33,960
+web e fazer websérie se fazer interface gráfica fazer acesso ao banco de dados.
+
+77
+00:06:33,960 --> 00:06:38,750
+Mexer com arquivos trabalhar com um conjunto imenso e praticamente tudo.
+
+78
+00:06:38,750 --> 00:06:43,000
+Você já vai ter ali alguém que já fez antes que fez alguma coisa para ajudar.
+
+79
+00:06:43,110 --> 00:06:48,580
+Certo então longe de mim dizer que Java é a solução de todos os problemas.
+
+80
+00:06:48,600 --> 00:06:54,540
+Obviamente não existe nenhuma linguagem no mundo que vai solucionar todos os problemas da melhor forma
+
+81
+00:06:54,540 --> 00:06:55,170
+possível.
+
+82
+00:06:55,170 --> 00:07:00,240
+Algumas são mais rápidas e por consequente são mais complicadas de mexer.
+
+83
+00:07:00,270 --> 00:07:06,480
+Outras são mais simples mas são mais lentas outras são focadas apenas na web e outras são focadas mais
+
+84
+00:07:06,480 --> 00:07:12,990
+generalistas e aí dependendo do seu projeto depende da sua necessidade dependendo do tempo que você
+
+85
+00:07:12,990 --> 00:07:19,500
+tem do conhecimento da equipe e você vai escolher entre uma linguagem ou outra entre a tecnologia e
+
+86
+00:07:19,520 --> 00:07:20,420
+a tecnologia B.
+
+87
+00:07:20,640 --> 00:07:27,520
+Mas sem dúvida pode ter certeza que a linguagem Java é uma excelente escolha para que você começa a
+
+88
+00:07:27,520 --> 00:07:27,970
+aprender.
+
+89
+00:07:28,080 --> 00:07:34,410
+Porque além de você conhecer Java além de você conseguir programar para sistemas Android além de você
+
+90
+00:07:34,410 --> 00:07:40,200
+conseguir trabalhar com a linguagem mais utilizada no mundo além de você conseguir trabalhar com a linguagem
+
+91
+00:07:40,200 --> 00:07:48,870
+que é a base das aplicações Android você também vai ter a visão central de programação do paradigma
+
+92
+00:07:48,870 --> 00:07:54,240
+orientação a objeto então você vai estar numa posição estratégica eu diria para que você possa a partir
+
+93
+00:07:54,240 --> 00:08:01,620
+desse ponto saia e passa a ser um profissional que conhece múltiplas linguagens segue um conselho e
+
+94
+00:08:01,620 --> 00:08:03,330
+aprenda bem a linguagem.
+
+95
+00:08:03,330 --> 00:08:08,640
+Cuidado para você não tentar aprender diversas linguagens e muita coisa ao mesmo tempo e aquilo te confundi
+
+96
+00:08:09,090 --> 00:08:12,840
+mais uma vez que você tem uma base sólida em Java.
+
+97
+00:08:12,840 --> 00:08:19,890
+Você não fica restrito à linguagem você consiga explorar outras coisas porque cada vez mais as aplicações
+
+98
+00:08:19,890 --> 00:08:23,380
+corporativas elas demandam múltiplas linguagens.
+
+99
+00:08:23,400 --> 00:08:29,070
+Dificilmente você consegue construir uma aplicação de ponta a ponta utilizando apenas um linguagem.
+
+100
+00:08:29,100 --> 00:08:31,100
+Pode fazer sim claro que pode.
+
+101
+00:08:31,290 --> 00:08:36,720
+Mas muitas vezes por uma questão de performance por uma questão de custo você trabalha com várias linguagens
+
+102
+00:08:36,790 --> 00:08:43,100
+e de forma colaborativa elas interagem entre si para entregar um produto digamos assim corporativo.
+
+103
+00:08:43,110 --> 00:08:48,840
+Se você estava na dúvida se escolhia ou não a linguagem Java pode ter certeza que Java é uma excelente
+
+104
+00:08:48,840 --> 00:08:49,280
+escolha.

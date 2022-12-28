@@ -1,0 +1,583 @@
+1
+00:00:00,230 --> 00:00:06,300
+Pessoal na sala mas vamos falar sobre um conceito importante J pra que é o conceito de carregamento
+
+2
+00:00:06,300 --> 00:00:14,280
+tardio ou carregamento apressado seria o laser e o que são duas possibilidades que você tem quando há
+
+3
+00:00:14,280 --> 00:00:20,390
+relacionamentos e quando precisa carregar por exemplo a partir de uma entidade carregar outra entidade.
+
+4
+00:00:20,400 --> 00:00:28,790
+Qual é a regra que você pode aplicar como sendo o default exige um comportamento padrão nesse caso e
+
+5
+00:00:28,800 --> 00:00:33,450
+sempre que você tiver uma relação por exemplo eu tenho.
+
+6
+00:00:33,810 --> 00:00:41,640
+Nós fizemos aqui uma relação cliente e assento e você fizer por exemplo uma chamada de cliente e ele
+
+7
+00:00:41,640 --> 00:00:44,440
+tem um assento e a relação.
+
+8
+00:00:44,460 --> 00:00:51,120
+Por padrão Jota Pirajá traz o assento do cliente porque ele entende que vai trazer apenas um único registro.
+
+9
+00:00:51,120 --> 00:00:52,590
+Então isso não vai pesar muito.
+
+10
+00:00:52,590 --> 00:00:58,490
+Então por padrão no caso de uma relação um para um ou então muitos para um.
+
+11
+00:00:58,710 --> 00:01:06,630
+Por exemplo um filho já traria amanhã mas amanhã não entraria a lista dos filhos ok da mãe para os filhos
+
+12
+00:01:06,630 --> 00:01:08,180
+a relação muitos né.
+
+13
+00:01:08,490 --> 00:01:09,270
+Para muitos.
+
+14
+00:01:09,300 --> 00:01:16,060
+Então sempre que for pra um pra um ou então muitos anos ele vai trazer o relacionamento com o padrão.
+
+15
+00:01:16,060 --> 00:01:18,270
+E nesse cenário vai ser.
+
+16
+00:01:18,360 --> 00:01:21,240
+Ou seja ele já traiu de forma apressada.
+
+17
+00:01:21,390 --> 00:01:23,550
+E no caso que é pra muitos.
+
+18
+00:01:23,550 --> 00:01:29,390
+Ou seja para muitos ou muitos para muitos o relacionamento vai ser pouco padrão.
+
+19
+00:01:29,400 --> 00:01:32,790
+Luiza e eu vão achar pra vocês o impacto disso.
+
+20
+00:01:32,830 --> 00:01:40,350
+O que é que vai causar e não mostrar como isso pode gerar erros o e eventualmente ele não tiver como
+
+21
+00:01:40,350 --> 00:01:45,420
+obtê lo de forma tardia os dados e vão achar pra você como é que gente pode mudar essa opção.
+
+22
+00:01:45,420 --> 00:01:50,220
+Então pra isso eu vou usar o exercício passado que no final das contas eu não vou mudar absolutamente
+
+23
+00:01:50,220 --> 00:01:53,070
+nada no nosso código vou simplesmente mexer.
+
+24
+00:01:53,220 --> 00:01:58,410
+Mostrar para vocês alguns cenários depois a gente vai deixar o código original tomar.
+
+25
+00:01:58,830 --> 00:02:06,390
+Nesse cenário aqui nós temos um pedido e nós estamos obtendo o pedido de código e a partir do pedido
+
+26
+00:02:06,480 --> 00:02:13,680
+eu percorri os itens e os itens já têm uma relação para muitos o pedido tem muitos itens então ele precisa
+
+27
+00:02:13,770 --> 00:02:17,480
+obter isso no banco de dados e ele não vai obter por padrão.
+
+28
+00:02:17,520 --> 00:02:21,230
+Então quando executou esse código aqui vai executar uma segunda vez.
+
+29
+00:02:21,760 --> 00:02:29,310
+Então você vai ver que ele vai executar duas consultas a primeira consulta foi para obter o pedido e
+
+30
+00:02:29,310 --> 00:02:36,380
+eu falei isso rapidamente na aula passada ou ele fez aqui um Selection obtendo o pedido de a data e
+
+31
+00:02:36,420 --> 00:02:38,220
+simplesmente obteve o pedido.
+
+32
+00:02:38,220 --> 00:02:38,760
+Por quê.
+
+33
+00:02:38,760 --> 00:02:46,330
+Porque dentro do pedido eu não tenho nenhuma relação pra um tensor relações pra pra mim.
+
+34
+00:02:46,470 --> 00:02:54,690
+Então o antigo Mini é uma relação que eu tenho pedido tem muitos itens de pedido então nesse caso ele
+
+35
+00:02:54,690 --> 00:02:57,760
+não trouxe por padrão os itens de pedido.
+
+36
+00:02:57,810 --> 00:03:02,010
+Depois ele fez um outro Celeste porque ele fez esse outro celeste.
+
+37
+00:03:02,400 --> 00:03:10,230
+Ele que fez um outro site porque logo na sequência eu fiz um teste itens e aí ele pegou de forma tardia
+
+38
+00:03:10,240 --> 00:03:16,830
+ou seja Gleisi ele carregou de forma tardia porque eu tentei acessar o método Guedes itens e observação
+
+39
+00:03:16,830 --> 00:03:26,430
+só foi possível ele fazer essa obtenção dos dados de forma tardia porque o Ximenes que obteve os pedidos
+
+40
+00:03:26,430 --> 00:03:28,000
+ainda estava aberto.
+
+41
+00:03:28,140 --> 00:03:34,020
+Ou seja no momento que eu criei o ideal é criado em homenagem e essa intimidade só foi fechado aqui
+
+42
+00:03:34,020 --> 00:03:34,750
+embaixo.
+
+43
+00:03:35,070 --> 00:03:41,370
+Então como mesmo sentimento já que tinha obtido o pedido estava aberto e ele foi lá capaz de obter os
+
+44
+00:03:41,370 --> 00:03:42,570
+itens do pedido.
+
+45
+00:03:42,570 --> 00:03:45,630
+Por isso que ele conseguiu fazer uma outra consulta.
+
+46
+00:03:45,630 --> 00:03:53,230
+E notem que no momento que ele obteve o item de pedido ele já trouxe também as informações de produto.
+
+47
+00:03:53,230 --> 00:03:53,860
+Por quê.
+
+48
+00:03:54,120 --> 00:04:02,600
+Porque o produto ou a relação do item de pedido do produto é uma relação pra vocês não é sua nascente
+
+49
+00:04:02,610 --> 00:04:10,050
+olhar dentro do item de pedido Você vai ver que a relação que ele tem com o produto é jogar a pedido
+
+50
+00:04:10,120 --> 00:04:18,930
+e ter o ano pra produto ou seja por padrão não obtenham o item de pedido ele já traz o pedido e já traz
+
+51
+00:04:18,930 --> 00:04:25,220
+também o produto porque tem uma relação para algo com O Hobbit e apenas o único registro ele traz por
+
+52
+00:04:25,230 --> 00:04:25,720
+padrão.
+
+53
+00:04:25,800 --> 00:04:32,090
+Então nesse caso do arrombamento a opção padrão com relação ao frete que é a propriedade que eu estou
+
+54
+00:04:32,090 --> 00:04:39,090
+trabalhando aqui e então isso aqui já é definido por padrão certo ou seja o frete de uma relação de
+
+55
+00:04:39,140 --> 00:04:42,300
+jogar aí já é o contrário.
+
+56
+00:04:42,330 --> 00:04:45,590
+Se olhar aqui no pedido não há relação de ministro.
+
+57
+00:04:45,630 --> 00:04:47,980
+Por padrão o frete.
+
+58
+00:04:48,080 --> 00:04:55,500
+Essa relação é leasing porque é uma lista de itens então ele não vai trazer ele tem o seguinte se é
+
+59
+00:04:55,500 --> 00:05:02,630
+um irista pode eventualmente ser dezenas centenas de itens eu não vou trazer esses itens e vou deixar
+
+60
+00:05:02,630 --> 00:05:09,030
+o usuário de forma explícita ou mesmo a partir do carregamento a partir de um metro Gate e pagar de
+
+61
+00:05:09,040 --> 00:05:13,400
+forma leis e pagar essas informações sem trazer essas informações no primeiro momento.
+
+62
+00:05:13,400 --> 00:05:18,020
+Já no caso isso aqui é o padrão de comportamento padrão sem mudar nada.
+
+63
+00:05:18,020 --> 00:05:21,980
+Já no caso de uma relação de um ano o comportamento é o oposto.
+
+64
+00:05:22,010 --> 00:05:26,610
+Ele vai trazer de forma afobado digamos assim o IA.
+
+65
+00:05:27,020 --> 00:05:32,570
+Então nesse caso fica claro que ele trouxe só o pedido no primeiro cenário e no segundo cenário ele
+
+66
+00:05:32,570 --> 00:05:40,030
+trouxe o item e trouxe o produto com o pedido já estava carregado então ele não precisou trazer o pedido.
+
+67
+00:05:40,070 --> 00:05:45,360
+Nessa segunda consulta aquilo que ele já sabe que o vídeo já estava digamos assim dentro desse caixinha
+
+68
+00:05:45,360 --> 00:05:49,860
+em que o JPP queria no momento que ele está lá as chamadas tá bom.
+
+69
+00:05:50,030 --> 00:05:56,570
+Então o próximo o próximo teste eu quero fazer o seguinte eu vou entrar aqui obter o pedido e eu vou
+
+70
+00:05:56,840 --> 00:06:03,350
+fechar o download antes logo depois de obter o pedido e vou tentar chamar um Guedes.
+
+71
+00:06:03,350 --> 00:06:10,270
+E tem o que é que vai acontecer nesse caso se eu pago o saldo aqui você vai ver que vai gerar um essa
+
+72
+00:06:10,280 --> 00:06:11,360
+ação.
+
+73
+00:06:11,390 --> 00:06:18,880
+Ele fez um select para obter o pedido e logo na sequência ele deu algo e inicializar Hisham Access.
+
+74
+00:06:18,980 --> 00:06:27,800
+Ou seja ele tentou inicializar um atributo Luizinho de forma tardia só que o engenheiro já estava fechado
+
+75
+00:06:27,800 --> 00:06:31,310
+ele não tinha mais como obter essas informações do banco de dados.
+
+76
+00:06:31,400 --> 00:06:37,850
+E aí ele gerou essa essa ação então esse é o tipo de acepção muito comum quando você está trabalhando
+
+77
+00:06:37,850 --> 00:06:39,900
+com objetos gerenciados.
+
+78
+00:06:39,920 --> 00:06:45,260
+Então nesse caso nas possibilidades que a gente pode fazer para resolver esse problema e chegar lá no
+
+79
+00:06:45,260 --> 00:06:52,400
+pedido a gente pode dizer ao invés de trazer essas informações de forma Luisinho eu quero que você traga
+
+80
+00:06:52,400 --> 00:07:00,570
+de forma digna e aí a gente pode entrar aqui no pedido executar novamente nenhuma obteve pedido novamente.
+
+81
+00:07:00,590 --> 00:07:06,050
+Ele já vai trazer de uma única vez as informações você percebe que ele fez apenas uma única consulta
+
+82
+00:07:06,510 --> 00:07:13,480
+e a consulta que traz os dados do pedido os dados do tempo e os dados do produto tudo na consulta só
+
+83
+00:07:13,480 --> 00:07:19,370
+se executou de uma vez trouxe tudo e montou os objetos para a gente da forma que eu consegui acessar
+
+84
+00:07:19,460 --> 00:07:26,300
+não apenas o pedido mas também os itens e também a questão do próprio produto o nome do produto também
+
+85
+00:07:26,300 --> 00:07:29,270
+está disponível a partir de uma única chamada.
+
+86
+00:07:29,270 --> 00:07:36,170
+Esse é o tipo de estratégia que era muito conveniente muito simples JP para te dá um poder muito grande
+
+87
+00:07:36,170 --> 00:07:42,860
+ou seja você consegue com um simples mudança na anotação obter as informações de uma forma muito mais
+
+88
+00:07:42,860 --> 00:07:43,640
+conveniente.
+
+89
+00:07:43,640 --> 00:07:47,860
+Qual é a pegadinha ou o problema é desempenho.
+
+90
+00:07:48,050 --> 00:07:56,090
+Você vai querer colocar como um relacionamento que na sua grande maioria das vezes você precisa acessar
+
+91
+00:07:56,090 --> 00:07:59,650
+apenas a classe e não os muitos.
+
+92
+00:07:59,720 --> 00:08:07,590
+Por exemplo 80 por cento das vezes que o acesso ao pedido eu não preciso olhar os itens do pedido.
+
+93
+00:08:07,700 --> 00:08:10,000
+Então faz sentido você marcar.
+
+94
+00:08:10,370 --> 00:08:16,700
+Ou seja você trazer em 100 por cento dos casos os itens como na maioria das vezes você não precisa trabalhar
+
+95
+00:08:16,700 --> 00:08:20,030
+com os itens precisa trabalhar apenas com um pedido.
+
+96
+00:08:20,060 --> 00:08:26,420
+Então nesse caso faz muito mais sentido você não traz essas informações e quando você precisar trazer
+
+97
+00:08:26,420 --> 00:08:33,230
+o pedido e os itens aí sim você criou uma consulta personalizada no JP aquela gente vai criar outro
+
+98
+00:08:33,240 --> 00:08:38,810
+JPL ainda outro neto o nosso exercício aqui no nosso capitão melhor dizendo aí sim você cria uma consulta
+
+99
+00:08:38,810 --> 00:08:46,730
+que traz as informações a partir de cenários específicos então na maioria das vezes você não traz o
+
+100
+00:08:46,730 --> 00:08:47,410
+dado.
+
+101
+00:08:47,530 --> 00:08:51,980
+E quando necessário você cria uma consulta específica para trazer essa informação.
+
+102
+00:08:51,980 --> 00:08:57,920
+Então é importante que você tenha cuidado com esse tipo de coisa esse é um dos pontos que geram o maior
+
+103
+00:08:57,920 --> 00:09:01,310
+nível de problemas de desempenho no JP.
+
+104
+00:09:01,340 --> 00:09:07,370
+Quando você pega relacionamentos só com o que você precisa ter as informações em determinados momentos
+
+105
+00:09:07,370 --> 00:09:16,760
+você vai lá e coloca como sendo na verdade às vezes você tem uma classe que tem uma relação para muitos
+
+106
+00:09:17,090 --> 00:09:18,370
+e você tem uma outra essa.
+
+107
+00:09:18,440 --> 00:09:25,670
+Muitos aqui tem outra relação muito aqui embaixo se você marcar aqui e aqui ele vai trazer não apenas
+
+108
+00:09:25,670 --> 00:09:28,590
+os filhos mas os filhos dos filhos.
+
+109
+00:09:28,610 --> 00:09:35,330
+Isso pode gerar uma consulta gigantesca ou seja pra você pegá los o nome de alguma coisa o nome de um
+
+110
+00:09:35,330 --> 00:09:42,160
+cliente você trouxe os clientes todos os dependentes trouxe lá as formas de pagamento os dependentes
+
+111
+00:09:42,170 --> 00:09:45,170
+ou seja muita coisa para obter apenas uma única informação.
+
+112
+00:09:45,260 --> 00:09:53,240
+Então o ideal é que você deixe as relações na forma padrão que no caso aqui Luisinho e quando necessário
+
+113
+00:09:53,240 --> 00:09:54,460
+você cria uma consulta.
+
+114
+00:09:54,500 --> 00:09:58,250
+Você pode dizer eu tenho um cenário de uma relação.
+
+115
+00:09:58,250 --> 00:10:06,210
+Para muitos que esses dois essas duas entidades andam 99 por cento das vezes no meu sistema eu vou precisar
+
+116
+00:10:06,210 --> 00:10:09,060
+acessar tanto o pai como os filhos.
+
+117
+00:10:09,060 --> 00:10:15,280
+Há aí uma situação que você tem um cenário específico então é melhor você trazer uma consulta que traz
+
+118
+00:10:15,280 --> 00:10:21,180
+tudo o que você gera duas consultas duas consultas pra trazer o pai e depois os filhos é mais lento
+
+119
+00:10:21,210 --> 00:10:23,730
+do que você numa consulta sobre título.
+
+120
+00:10:24,120 --> 00:10:30,540
+Então se na grande maioria esmagadora das vezes você realmente precisa do pai e dos filhos aí sim vai
+
+121
+00:10:30,810 --> 00:10:38,350
+fazer sentido você marcar a relação com leis como melhor dizendo que é o contrário do padrão que isto
+
+122
+00:10:38,370 --> 00:10:39,270
+que estabelecido.
+
+123
+00:10:39,280 --> 00:10:40,640
+Quer exatamente o Luis.
+
+124
+00:10:40,650 --> 00:10:44,780
+Então fica a dica nesse caso você pode trazer de uma única vez.
+
+125
+00:10:44,850 --> 00:10:52,580
+Ou então se eu colocar o fechado ao menos pra depois eu posso ainda assim manter a relação com o Luis
+
+126
+00:10:52,590 --> 00:10:58,400
+e aí ele vai fazer duas consultas então esse é um atributo fértil que eu quis falar nessa aula.
+
+127
+00:10:58,410 --> 00:11:05,210
+Por padrão sempre que julgar o frete e então que eu só coloquei o valor padrão.
+
+128
+00:11:05,870 --> 00:11:16,530
+Então assim o Paulo de folga e eu vou colocar aqui meu pedido.
+
+129
+00:11:16,890 --> 00:11:27,360
+Mas uma coisa só pra deixar registrado que esse é o valor de fogo que fecha o teto de colocar em cima.
+
+130
+00:11:27,620 --> 00:11:31,710
+Tá ficando muito grande aqui só pra dizer que
+
+131
+00:11:34,680 --> 00:11:40,420
+ou seja qualquer coisa mini confete
+
+132
+00:11:42,950 --> 00:11:48,580
+e mil parece mesmo comentar e colocar do outro lado.
+
+133
+00:11:48,890 --> 00:12:01,690
+E no caso do diretor de cinema de São Paulo defende Fred qualquer coisa de show buffet e pronto aparece
+
+134
+00:12:02,040 --> 00:12:10,260
+aqui só pra ficar registrado que é exatamente esse atributo dessa essa capacidade de obter e você consegue
+
+135
+00:12:10,260 --> 00:12:16,470
+usar o Flash dentro do JPL se você quer fazer uma consulta quer fazer uma consulta pra pegar o pedido
+
+136
+00:12:16,470 --> 00:12:21,250
+mas eu quero que ele traga também o item de pedido eu quero que ele traga o produto.
+
+137
+00:12:21,330 --> 00:12:27,420
+Então você pode colocar lá os fretes que ele vai trazer pra você essas informações a partir de uma consulta
+
+138
+00:12:27,420 --> 00:12:28,340
+personalizada.
+
+139
+00:12:28,350 --> 00:12:34,320
+Então essa é a forma correta de se fazer você coloca lasers nos relacionamentos que envolvem muitos
+
+140
+00:12:34,320 --> 00:12:40,140
+itens e aí quando necessário você usa consultas personalizadas para trazer os dados de acordo com as
+
+141
+00:12:40,140 --> 00:12:41,760
+necessidades que você precisa.
+
+142
+00:12:41,760 --> 00:12:42,750
+Então fico por aqui.
+
+143
+00:12:43,050 --> 00:12:45,280
+A gente não mudou nada no nosso exercício.
+
+144
+00:12:45,570 --> 00:12:50,610
+Eu simplesmente coloquei o fechar pra cima para dissimular o erro e depois mostrei como é que você pode
+
+145
+00:12:50,610 --> 00:12:55,590
+trabalhar com fecho pra trazer os dados na próxima aula a gente continua agora nas mãos participa dos
+
+146
+00:12:55,590 --> 00:12:58,910
+relacionamentos muitos para muitos eles disparou.

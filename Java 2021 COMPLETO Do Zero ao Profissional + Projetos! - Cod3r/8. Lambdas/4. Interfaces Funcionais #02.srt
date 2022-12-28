@@ -1,0 +1,187 @@
+1
+00:00:00,160 --> 00:00:07,710
+Pessoal outra observação que eu queria também reforçar nessa aula com relação às interfaces funcionais
+
+2
+00:00:08,130 --> 00:00:15,870
+é que existem algumas outras situações que você pode ter mais de um método mais o que você obrigatoriamente
+
+3
+00:00:15,870 --> 00:00:21,450
+precisa respeitar é que você precisa ter apenas um único método abstrato certo.
+
+4
+00:00:21,470 --> 00:00:25,470
+Então por exemplo a gente sabe que quando você define um metro sim ele é um método abstrato.
+
+5
+00:00:25,480 --> 00:00:30,110
+Por padrão ele é público e abstrato mas existem outras possibilidades.
+
+6
+00:00:30,110 --> 00:00:33,710
+Por exemplo você tem um método de fogo dentro de um interface.
+
+7
+00:00:34,110 --> 00:00:40,780
+Será possível que você tenha um metro isso não irá digamos assim inviabilizar a sua interface funcional.
+
+8
+00:00:40,830 --> 00:00:47,910
+Se você tiver um metro de fogo está mostrando pra você que ao seu criar que um fogo retornar por exemplo
+
+9
+00:00:47,920 --> 00:00:49,740
+extraí o nome do Metro sei lá.
+
+10
+00:00:49,800 --> 00:00:53,840
+Será legal esse metro simplesmente retornar.
+
+11
+00:00:53,850 --> 00:00:59,880
+Aqui no distrito de Braga na verdade eu vou até apagar isso aqui depois tá só pra mostrar pra você que
+
+12
+00:00:59,880 --> 00:01:02,190
+existe essa possibilidade então coloquei aqui.
+
+13
+00:01:02,200 --> 00:01:09,150
+O legal é um metro Defour não deu nenhum problema no fato de estar usando a validação aqui via modelo
+
+14
+00:01:09,340 --> 00:01:13,650
+e não gerou nenhum problema executando novamente o nosso código.
+
+15
+00:01:13,650 --> 00:01:19,620
+Ainda com Defour executou sem problema nenhum de coloca no que insistem em algo ali Aline vou chamar
+
+16
+00:01:19,620 --> 00:01:26,730
+aqui qualquer ponto legal ou seja um método default também posso executar mas o diabo sabe que como
+
+17
+00:01:26,730 --> 00:01:33,780
+só tem apenas um único método abstrato significa que essa expressão lambda será a implementação desse
+
+18
+00:01:33,780 --> 00:01:39,360
+método abstrato e você tem aqui no caso um outro método que tem a implementação padrão.
+
+19
+00:01:39,360 --> 00:01:47,360
+Outro exemplo também é possível fazer por exemplo você colocar aqui um método estático estático e string
+
+20
+00:01:47,700 --> 00:01:50,100
+apagar esse método no final da aula certo.
+
+21
+00:01:50,130 --> 00:02:00,590
+Colocar Kill massa ou então qualquer que seja muito legal muito legal e aqui dentro ou retornar.
+
+22
+00:02:00,990 --> 00:02:09,560
+Muito legal porque virgula ou seja também é uma possibilidade que você tem associado a uma interface
+
+23
+00:02:09,570 --> 00:02:12,090
+ter um método estático certo.
+
+24
+00:02:12,120 --> 00:02:12,650
+E aí.
+
+25
+00:02:12,650 --> 00:02:17,450
+Aqui você vai olhar dentro da seção da interface do System Audio.
+
+26
+00:02:17,520 --> 00:02:26,320
+Ali vou chamar aqui a própria interface calculo ponto muito legal ou seja acessar ela de forma estática.
+
+27
+00:02:26,330 --> 00:02:30,900
+Então tenho aqui um método default acessando diretamente a partir de caos.
+
+28
+00:02:31,050 --> 00:02:39,150
+E nesse caso que colocamos muito legal como sendo um método estático no caso dessa função default você
+
+29
+00:02:39,150 --> 00:02:42,530
+tem a possibilidade de acessar o resultado dessa etapa.
+
+30
+00:02:42,840 --> 00:02:49,430
+Então colocando aqui está passando um determinado valor por exemplo inclusive você pode passar o valor
+
+31
+00:02:49,430 --> 00:02:53,390
+que também serve qualquer um da Voodoo e acessar o balão por aqui.
+
+32
+00:02:53,420 --> 00:03:00,630
+Mas no caso do estático você não tem essa possibilidade porque no caso do estático isso está relacionado
+
+33
+00:03:00,630 --> 00:03:04,500
+diretamente à interface e não às instâncias certo.
+
+34
+00:03:04,500 --> 00:03:10,700
+Então você não consegue acessar ou executar por aqui podendo então se você tentar acessar e executar.
+
+35
+00:03:10,760 --> 00:03:13,320
+Você não tem essa possibilidade aqui dentro.
+
+36
+00:03:13,320 --> 00:03:18,990
+Como era de se esperar a gente já viu isso é o mesmo conceito que a partir de um metro de distância
+
+37
+00:03:19,140 --> 00:03:24,540
+você consegue acessar os membros de status mais a partir de um metro estático você não tem acesso ao
+
+38
+00:03:24,540 --> 00:03:27,070
+10 que seria a instância atual.
+
+39
+00:03:27,540 --> 00:03:34,450
+Então isso acontece então você tem também a possibilidade de ter outros tipos de metros dentro de um
+
+40
+00:03:34,450 --> 00:03:36,580
+interface funcional vou deixar.
+
+41
+00:03:36,780 --> 00:03:42,480
+Acho que é importante deixar isso de tirar mas eu acho melhor deixar isso até para servir de referência
+
+42
+00:03:42,480 --> 00:03:43,070
+né.
+
+43
+00:03:43,080 --> 00:03:47,100
+O importante é o requisito é você ter apenas uma única.
+
+44
+00:03:47,400 --> 00:03:54,120
+O único método abstrato porque esse é o metro que não foi dado na implementação é exatamente esse metro
+
+45
+00:03:54,120 --> 00:04:00,450
+que o Japão vai substituir no momento que você definir um holandês prédio então na próxima aula eu vou
+
+46
+00:04:00,450 --> 00:04:07,320
+criar aqui o cálculo do Teste 3 para que a gente possa usar as interfaces funcionais disponibilizadas
+
+47
+00:04:07,320 --> 00:04:08,700
+pelo Java e até lá.

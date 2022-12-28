@@ -1,0 +1,455 @@
+1
+00:00:00,210 --> 00:00:05,760
+Pessoal na sala quero falar para vocês da palavrinha n 10 e das duas formas que a gente tem para usar
+
+2
+00:00:05,760 --> 00:00:07,600
+o 10 dentro de um código Java.
+
+3
+00:00:07,950 --> 00:00:12,810
+Eu vou usar para isso o exercício que a gente já fez no passado que é o exercício da data.
+
+4
+00:00:12,810 --> 00:00:15,550
+Na verdade foi feito a partir de um desafio.
+
+5
+00:00:15,690 --> 00:00:21,450
+Então nós vamos executá la usando o teste data e nós vamos mexer especificamente na capacidade para
+
+6
+00:00:21,450 --> 00:00:25,100
+que a gente possa usar o 10 de duas formas diferentes estavam lá.
+
+7
+00:00:25,780 --> 00:00:32,970
+A primeira forma que você vai encontrar o uso do 10 é o seguinte ele pode ser usado independente de
+
+8
+00:00:32,970 --> 00:00:40,440
+você ter conflito de nomes por exemplo sempre que você quer acessar uma variável que pertence à instância
+
+9
+00:00:40,470 --> 00:00:44,120
+você pode usar o desse ponto o nome da variável.
+
+10
+00:00:44,370 --> 00:00:52,800
+Então nesse caso vamos supor que eu não tenha o dia inicial no qual e tenho o nome da variável dia.
+
+11
+00:00:52,800 --> 00:00:58,610
+Se você fizer um dia recebe dia você está fazendo absolutamente nada.
+
+12
+00:00:58,610 --> 00:01:04,290
+Você está pegando esse parâmetro que você recebeu aqui pegando o valor do parâmetro que está do lado
+
+13
+00:01:04,590 --> 00:01:11,760
+direito da expressão e alterando o próprio valor do parâmetro que está do lado esquerdo certo o parâmetro
+
+14
+00:01:11,760 --> 00:01:18,060
+ali também pode ser final se você quiser marcar um parâmetro pra ele se constante você precisa marcar
+
+15
+00:01:18,070 --> 00:01:21,480
+na definição da função parâmetro como ser no final.
+
+16
+00:01:21,480 --> 00:01:27,120
+Nesse caso ele não é uma constante ele pode ser alterado durante um metro num parâmetro e aqui nesse
+
+17
+00:01:27,120 --> 00:01:29,130
+caso é exatamente isso que está acontecendo.
+
+18
+00:01:29,130 --> 00:01:32,520
+Você pegou a variável dia e colocou na própria variável.
+
+19
+00:01:32,550 --> 00:01:40,550
+Se eu tivesse feito dia +1 por exemplo você pagaria o valor de dia e acrescentaria ao valor de dia estaria
+
+20
+00:01:40,770 --> 00:01:46,050
+na própria variável dia que representa esse parâmetro do construtor.
+
+21
+00:01:46,440 --> 00:01:54,990
+Como é que eu faço para acessar o dia que a minha variável distância nesse caso você usa o 10 10 ponto
+
+22
+00:01:55,110 --> 00:02:02,430
+dia recebe o valor não de dia mais obviamente eu não quero mexer naquilo que foi passado com argumento
+
+23
+00:02:02,440 --> 00:02:03,310
+procuro chutou.
+
+24
+00:02:03,660 --> 00:02:08,360
+Eu vou pagar o valor que eu recebi como parâmetro e alteram a variável de instância.
+
+25
+00:02:08,520 --> 00:02:16,380
+A mesma coisa mesmo que não haja conflito de nomes eu posso colocar o 10 ponto mês recebe mês inicial
+
+26
+00:02:16,500 --> 00:02:19,860
+e desse ponto um ano recebe ano inicial.
+
+27
+00:02:19,860 --> 00:02:25,380
+Nesse caso se eu quiser colocar o nome dos parâmetros que acabou acabo fazendo isso na prática.
+
+28
+00:02:25,380 --> 00:02:32,490
+Na maior parte do tempo tá colocando os nomes exatamente iguais aos nomes dos atributos que pertencem
+
+29
+00:02:32,490 --> 00:02:33,550
+à instância.
+
+30
+00:02:33,620 --> 00:02:40,070
+Nesse caso como eu quero eu quero resolver o conflito já que o nome dos parâmetros é exatamente o mesmo
+
+31
+00:02:40,080 --> 00:02:47,190
+nome dos atributos e uso deles para referenciar o objeto que está sendo criado naquele momento.
+
+32
+00:02:47,190 --> 00:02:54,900
+Da mesma forma como esse método aqui por exemplo esse método habitué data formatada também é um metro
+
+33
+00:02:54,900 --> 00:02:56,730
+que pertence à instância.
+
+34
+00:02:56,730 --> 00:03:02,880
+Se é um metro que pertence à instância eu também posso ter acesso à instância atual a instância no qual
+
+35
+00:03:02,880 --> 00:03:09,720
+esse método pertence assim como o valor do dia o valor do mês e o valor do ano pertence a uma instância
+
+36
+00:03:09,760 --> 00:03:15,060
+porque são variáveis de instância em um método obter a data formatada e imprimir data formatada.
+
+37
+00:03:15,060 --> 00:03:18,120
+São métodos que pertencem também à instância.
+
+38
+00:03:18,120 --> 00:03:24,150
+Nesse caso como é um método que não é estático ou seja o metro que pertence à instância você também
+
+39
+00:03:24,150 --> 00:03:31,390
+consegue acessar dia a partir do 10 desse ponto dia 10 do mês descontou.
+
+40
+00:03:31,410 --> 00:03:38,160
+Nesse caso como eu não tem conflito de nomes eu posso simplesmente referenciar dia mês e ano ele vai
+
+41
+00:03:38,160 --> 00:03:44,760
+saber que se trata do objeto atual que é exatamente o que o desaponta o desaponta para o objeto atual
+
+42
+00:03:44,760 --> 00:03:51,870
+que está executando esse código certo então esse código aqui obter dados formatados sempre estará sendo
+
+43
+00:03:51,930 --> 00:03:58,080
+executada a partir de uma instância e é exatamente essa instância que chamou esse método a bit data
+
+44
+00:03:58,080 --> 00:04:01,110
+formatada que é o 10 que o desaponta.
+
+45
+00:04:01,230 --> 00:04:07,070
+Então esse é o primeiro uso do 10 você usar o 10 para referenciar o objeto atual.
+
+46
+00:04:07,170 --> 00:04:13,010
+7 Não tem perigo você chamar essa função sem ter uma instância porque esse é o mesmo a instância já
+
+47
+00:04:13,000 --> 00:04:19,920
+é um método estático não tem como você acessar o 10 então por exemplo só como exemplo eu vou já excluir
+
+48
+00:04:19,940 --> 00:04:30,030
+que nem mais ou criar estatísticas Istat Lloyd Teaching e aqui dentro eu tentar fazer algo do tipo 10
+
+49
+00:04:30,620 --> 00:04:36,410
+ponto dia eu não posso fazer isso desse ponto o dia recebe o valor de 3 ponto e vírgula.
+
+50
+00:04:36,450 --> 00:04:43,110
+Isso aqui é uma sentença de código válida nesse método de cima que é um metro de instância que o 10
+
+51
+00:04:43,110 --> 00:04:49,200
+está disponível mas essa é uma sentença de código inválida dentro de um método estático ok.
+
+52
+00:04:49,380 --> 00:04:58,200
+Porque o método é estático ele existe associado à classe certo é o 10 e 11 instância uma das instâncias
+
+53
+00:04:58,200 --> 00:04:58,920
+da classe.
+
+54
+00:04:59,280 --> 00:05:01,350
+Então não está disponível aqui.
+
+55
+00:05:01,410 --> 00:05:07,840
+De tal forma se você colocar o cursor em cima ele vai dizer não pode usar 10 em um contexto estático
+
+56
+00:05:07,840 --> 00:05:10,110
+ou seja em um método estático certo.
+
+57
+00:05:10,260 --> 00:05:15,720
+Então só para a gente vê esse conceito olhando onde essa função Big Data formatada foi chamado aqui
+
+58
+00:05:15,720 --> 00:05:17,640
+dentro de data teste.
+
+59
+00:05:17,700 --> 00:05:23,340
+Se você olhar foi chamado em dois locais diferentes foi chamado aqui na linha 12 e foi chamado na Linha
+
+60
+00:05:23,370 --> 00:05:30,960
+15 obtê data formatada e você percebe que o hobbit a data formatada ele está associado sempre a uma
+
+61
+00:05:30,960 --> 00:05:34,220
+instância ou seja aqui na Linha 12.
+
+62
+00:05:34,390 --> 00:05:41,880
+A distância d ou seja nesse momento o 10 aponta exatamente para o mesmo objeto que foi criado aqui na
+
+63
+00:05:41,880 --> 00:05:50,760
+linha 7 que é o que a mesma variável aqui aponta para local de memória e também aqui na linha 15 o D2
+
+64
+00:05:50,810 --> 00:05:53,310
+obter a data formatada nesse contexto.
+
+65
+00:05:53,340 --> 00:05:59,910
+O 10 vai apontar para o objeto que foi criado na linha 10 ou seja dependendo de qual objeto você usou
+
+66
+00:05:59,910 --> 00:06:05,550
+pra chamar a função desde apontar para esse objeto que está sendo executado naquele momento um objeto
+
+67
+00:06:05,550 --> 00:06:07,350
+que é dono daquela função.
+
+68
+00:06:07,360 --> 00:06:14,400
+Então para as funções que não são marcadas como estática ou seja funções de instância você tem associado.
+
+69
+00:06:14,550 --> 00:06:20,160
+Então aqui eu posso colocar aqui desse ponto um dia para referenciar a variável o dia certo então eu
+
+70
+00:06:20,160 --> 00:06:26,310
+tanto usei o desde que consultou porque nesse caso eu precisaria usar aldeias para resolver o conflito
+
+71
+00:06:26,600 --> 00:06:32,510
+pra dizer o que é que é parâmetro e o que é que a variável instância é nesse caso o da Função BIT data
+
+72
+00:06:32,520 --> 00:06:33,370
+formatada.
+
+73
+00:06:33,410 --> 00:06:38,880
+Eu não necessariamente precisaria usar o 10 aqui mas usei só para mostrar para vocês que tem essa possibilidade.
+
+74
+00:06:39,360 --> 00:06:46,170
+Além disso você pode usar o 10 pra chamar a partir de um construtor ou se chamar outro construtor.
+
+75
+00:06:46,170 --> 00:06:47,350
+Como assim não.
+
+76
+00:06:47,410 --> 00:06:54,900
+Em vez de eu ser tardia mais um ano 1 em cada linha eu posso simplesmente vou comentar essa linha COMENTAR
+
+77
+00:06:54,900 --> 00:06:59,400
+AQUI COMENTAR AQUI COMENTAR AQUI E posso chamar.
+
+78
+00:06:59,490 --> 00:07:11,340
+Por exemplo no caso Kill 10 mas não atacam ponto diretamente a chamada como uma função 7 chamando 10
+
+79
+00:07:11,340 --> 00:07:12,690
+como uma função.
+
+80
+00:07:12,690 --> 00:07:18,930
+Isso aqui é a mesma coisa que você chamar o outro construtor da classe ou seja o que vai definir qual
+
+81
+00:07:18,980 --> 00:07:30,030
+construtor você está chamando e a quantidade de parâmetros então coloca que em dia mês e ano 1970 ou
+
+82
+00:07:30,030 --> 00:07:36,280
+seja você pode usar o DS como um objeto 10 desse ponto o nome do atributo desse ponto o método.
+
+83
+00:07:36,390 --> 00:07:43,900
+Ou seja aqui se eu quiser chamar esse outro Metro eu também posso fazer desse ponto Obi tem data formatada
+
+84
+00:07:43,890 --> 00:07:50,780
+sem problema nenhum e já na linha 3 e eu estou usando 10 de forma diferente estou usando desse método.
+
+85
+00:07:50,850 --> 00:07:57,950
+E o que vai definir que o construtor será chamada a quantidade de parâmetro e a Ordem dos parâmetros.
+
+86
+00:07:57,990 --> 00:08:04,440
+Então sempre que você usa o DS como método significa que você está chamando quem chutou ou seja você
+
+87
+00:08:04,440 --> 00:08:10,830
+só pode usá lo como um método dentro de outro consultor serve para você chamar de um consultor chamar
+
+88
+00:08:10,920 --> 00:08:11,960
+outro construtor.
+
+89
+00:08:12,240 --> 00:08:18,960
+Você não vai usar o 10 dessa forma aqui dentro de um metro que não é um construtor não posso fazer por
+
+90
+00:08:18,960 --> 00:08:24,780
+exemplo isso aqui fora eu não posso chamar desse diretamente dentro de obter dados formatado ok.
+
+91
+00:08:25,010 --> 00:08:30,430
+Porque essa é a forma usada para a parte de um construtor se chamar outro construtor.
+
+92
+00:08:30,560 --> 00:08:36,600
+E outra coisa que não pode acontecer é certa eu vou comentar rapidamente essas três linhas aqui e você
+
+93
+00:08:36,780 --> 00:08:43,830
+chamar o confortou você chamou o primeiro e o primeiro chamou o segundo ou seja quando você cria assim
+
+94
+00:08:44,160 --> 00:08:50,350
+você vai passar o dia mês e ano para achar mais chutou mas esse construtor chamou o primeiro a marcar
+
+95
+00:08:50,730 --> 00:08:55,280
+um um construtor chamando o outro indefinidamente isso não pode acontecer.
+
+96
+00:08:55,380 --> 00:09:01,110
+Certo Você sempre tem que chamar o construtor de tal fonte um deles realmente construiu o objeto até
+
+97
+00:09:01,110 --> 00:09:01,800
+o final.
+
+98
+00:09:01,890 --> 00:09:07,270
+Então nesse caso eu não posso usar o peso aqui e vou comentar essas linhas aqui.
+
+99
+00:09:07,270 --> 00:09:13,800
+Pra que a gente realmente realize o valor dos atributos de instância que foram definidos diretamente
+
+100
+00:09:13,940 --> 00:09:15,580
+na nossa classe data certa.
+
+101
+00:09:15,630 --> 00:09:20,870
+Então essa é a forma que a partir de um construtor você consegue chamar outro construtor.
+
+102
+00:09:21,210 --> 00:09:23,290
+Ou seja usando desse método.
+
+103
+00:09:23,540 --> 00:09:28,350
+E você também pode usar o DS para referenciar o objeto atual.
+
+104
+00:09:28,380 --> 00:09:34,830
+Normalmente você acaba usando quando você precisa resolver conflitos de nomes e quando você tem parâmetros
+
+105
+00:09:35,130 --> 00:09:41,130
+que têm exatamente os mesmos nomes dos atributos de instância claro que você sempre pode ter a possibilidade
+
+106
+00:09:41,130 --> 00:09:46,830
+de mudar o nome do parâmetro isto não é um problema mas via de regra você acaba colocando os mesmos
+
+107
+00:09:46,830 --> 00:09:50,280
+nomes então você usa o deles para diferenciar o que é parâmetro.
+
+108
+00:09:50,280 --> 00:09:55,890
+Nesse caso especificamente do construtor e o que é atributo que pertence à instância você também pode
+
+109
+00:09:55,890 --> 00:10:02,380
+ter parâmetros com o mesmo nome dentre os metros e você pode há aquilo que é parâmetro do método é aquilo
+
+110
+00:10:02,380 --> 00:10:06,530
+que é variável de instância ou atributo instância também usando bens.
+
+111
+00:10:06,610 --> 00:10:12,250
+Então você pode usar o 10 diretamente nos métodos você pode usar o para acessar um atributo pode usá
+
+112
+00:10:12,250 --> 00:10:15,870
+lo desse ponto para acessar o método que pertence à instância.
+
+113
+00:10:15,870 --> 00:10:22,270
+Como você também pode chamar o 10 como um método nesse caso significa que você está chamando um construtor.
+
+114
+00:10:22,450 --> 00:10:23,850
+A partir de outro construtor.

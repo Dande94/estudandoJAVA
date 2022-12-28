@@ -1,0 +1,463 @@
+1
+00:00:00,520 --> 00:00:05,980
+Chegou a hora de conhecermos a história do Java e vou falar um pouquinho de cada um dos eventos mais
+
+2
+00:00:05,980 --> 00:00:08,870
+importantes que nortearam desde o início.
+
+3
+00:00:08,900 --> 00:00:13,600
+Lá em 90 91 até hoje em 2016.
+
+4
+00:00:13,600 --> 00:00:20,080
+é muito interessante como os projetos muitas vezes eles nascem com um objetivo e durante a sua execução
+
+5
+00:00:20,530 --> 00:00:26,990
+eles vão modificando a forma vaga até que de um hora para outra ele toma uma direção que não foi previsto
+
+6
+00:00:26,990 --> 00:00:27,880
+inicialmente.
+
+7
+00:00:27,880 --> 00:00:29,810
+Isso aconteceu com a linguagem Java.
+
+8
+00:00:29,860 --> 00:00:33,980
+Na verdade o projeto inicial que era o projeto gringo em.
+
+9
+00:00:34,230 --> 00:00:38,700
+Ele não tinha a intenção primeira dentro do projeto de criar uma nova linguagem.
+
+10
+00:00:38,700 --> 00:00:42,330
+A partir disso revolucionar o mundo da computação na verdade hoje.
+
+11
+00:00:42,470 --> 00:00:50,550
+Lá no final de 90 e 91 ele era focado na criação de pequenos dispositivos.
+
+12
+00:00:50,560 --> 00:00:58,300
+No caso eles acabaram em 1992 gerando um dispositivo um protótipo chamado está recebem esse está Seven
+
+13
+00:00:58,330 --> 00:01:04,840
+que foi fruto do Green Project que na época era liderado pelos games Gosling que é tão conhecido como
+
+14
+00:01:04,840 --> 00:01:06,750
+o pai do Java o criador da linguagem.
+
+15
+00:01:07,180 --> 00:01:16,150
+Ele no céu do seu time lá conhecido como time e eles durante esse tempo 91 eles desenvolveram esse projeto
+
+16
+00:01:16,240 --> 00:01:19,860
+chamado estar Seven ou estrelinha 7.
+
+17
+00:01:19,940 --> 00:01:25,900
+E era na verdade um dispositivo pequenininho assim mais ou menos 6 7 polegadas que tinha tela sensível
+
+18
+00:01:25,900 --> 00:01:26,800
+ao toque.
+
+19
+00:01:26,950 --> 00:01:29,890
+Ele tinha saída de áudio.
+
+20
+00:01:29,900 --> 00:01:35,680
+Tinham até lá um sinal de rádio para fazer comunicação com outros dispositivos.
+
+21
+00:01:35,820 --> 00:01:42,820
+E a ideia desse dispositivo era controlar digamos assim uma casa inteligente você a partir dele conseguiria
+
+22
+00:01:42,820 --> 00:01:47,230
+ver a sua casa selecionar os cômodos da casa em cima da seleção.
+
+23
+00:01:47,230 --> 00:01:53,730
+Você poderia ver os dispositivos que a sua casa estariam conectado nesse centralizador digamos assim.
+
+24
+00:01:53,730 --> 00:01:58,300
+Achei que ficaria na TV e poderia mexer no controle de brilho.
+
+25
+00:01:58,300 --> 00:02:05,080
+Você poderia mudar os canais a TV poderia controlar o seu aparelho de videocassete ou DVD o que você
+
+26
+00:02:05,380 --> 00:02:07,360
+tivesse lá disponível na época.
+
+27
+00:02:07,420 --> 00:02:11,220
+E aí seria mais ou menos uma casa inteligente.
+
+28
+00:02:11,230 --> 00:02:14,090
+Você sempre controla da parte está.
+
+29
+00:02:14,150 --> 00:02:20,000
+E nesse projeto que surgiu do que quer justamente depois de um tempo ele passou a ser o mascote no Java.
+
+30
+00:02:20,010 --> 00:02:26,100
+Mas ele fazia parte da interação do próprio sistema operacional que foi criado pelo Estado ceva então
+
+31
+00:02:26,370 --> 00:02:30,960
+foi criado um sistema operacional para controlar esses dispositivos que eram guri S.
+
+32
+00:02:31,230 --> 00:02:37,220
+E eles criaram também uma linguagem que inicialmente eles denominaram indicou que dizem que o nome que
+
+33
+00:02:37,270 --> 00:02:43,000
+surgiu a partir da visão digamos assim que um dia me gozo tinha na janela da sala dele que tinha um
+
+34
+00:02:43,000 --> 00:02:47,850
+grande Carvalho já que a tradução de João Carvalho para o português.
+
+35
+00:02:47,980 --> 00:02:53,000
+E aí a partir disso ele criou o nome da linguagem o que era a linguagem que estava dentro desse contexto
+
+36
+00:02:53,000 --> 00:02:54,180
+do projeto.
+
+37
+00:02:54,190 --> 00:03:00,220
+O projeto que era voltado para pequenos dispositivos é o protótipo que foi gerado como fruto do trabalho
+
+38
+00:03:00,220 --> 00:03:01,590
+de 91 ou 92.
+
+39
+00:03:01,590 --> 00:03:04,750
+Foi justamente o está cego em que eu acabei de mencionar.
+
+40
+00:03:04,870 --> 00:03:11,680
+O grande problema do projeto está servem era que ele era à frente do seu tempo então eles tentaram comercializar
+
+41
+00:03:11,680 --> 00:03:18,220
+esse produto ofereceram pra algumas emissoras de TV a cabo e não teve sucesso na hora de transformar
+
+42
+00:03:18,220 --> 00:03:23,230
+esse produto em realmente grande escala eles ficaram simplesmente no protótipo como fizeram algumas
+
+43
+00:03:23,230 --> 00:03:26,770
+unidades de protótipo mas eles não conseguiram avançar muito.
+
+44
+00:03:26,890 --> 00:03:29,860
+E aí o projeto Green Project foi engavetado.
+
+45
+00:03:30,010 --> 00:03:36,490
+Até que em 94 surge a internet criação de um dos pesquisadores mais conhecidos no mundo da informática
+
+46
+00:03:36,490 --> 00:03:40,470
+que é o Tim Berners-Lee ele que criou a internet em 1994.
+
+47
+00:03:40,510 --> 00:03:47,140
+E aí eles começaram a perceber que o Green Project trazia interatividade muito grande naquele contexto
+
+48
+00:03:47,140 --> 00:03:51,230
+inicial para dispositivos portáteis digamos assim.
+
+49
+00:03:51,410 --> 00:03:56,770
+E por que não adaptar essa interatividade que eles conseguiram trazer para este projeto.
+
+50
+00:03:56,860 --> 00:04:01,710
+Dentro do contexto da web que já está virando meio que uma feira naquele momento.
+
+51
+00:04:01,720 --> 00:04:08,770
+E aí eles criaram um navegador chamado Web Planner justamente para mesclar a ideia do Tim Berners-Lee
+
+52
+00:04:08,770 --> 00:04:11,760
+e da criação na Internet da criação do HTML.
+
+53
+00:04:11,770 --> 00:04:18,010
+Ele começou o nascedouro da internet com a interatividade trazida pela linguagem ou que nesse mesmo
+
+54
+00:04:18,010 --> 00:04:23,530
+ano foi rebatizada para Java já que ele já tinha uma outra linguagem com esse mesmo nome.
+
+55
+00:04:23,530 --> 00:04:29,290
+E aí eles também mudaram esse projeto que chamava de web arcaico como se fosse um navegador interativo
+
+56
+00:04:29,320 --> 00:04:29,860
+para web.
+
+57
+00:04:29,860 --> 00:04:36,130
+O primeiro protótipo de interatividade ali na web onde as coisas se moviam entao eles mudaram o nome
+
+58
+00:04:36,130 --> 00:04:43,060
+de Web para Java então era como se fosse um navegador trazendo a interatividade que o que conseguiu
+
+59
+00:04:43,270 --> 00:04:49,840
+colocar dentro do servem para dentro de um contexto da web que era esse protótipo de navegador.
+
+60
+00:04:49,960 --> 00:04:59,270
+Saíram de 94 para 95 o Java foi oficialmente lançado em 1995 mais ou menos na mesma época ele foi lançado
+
+61
+00:04:59,300 --> 00:05:07,280
+outro chamada JavaScript não fui porque são duas linguagens bem diferentes de essência mas a questão
+
+62
+00:05:07,280 --> 00:05:14,480
+ali foi porque como o Java estava no vi muito grande ele estava numa popularização muito grande as pessoas
+
+63
+00:05:14,780 --> 00:05:22,790
+acreditavam muito no potencial do Java e tinham todo a marca em volta do Java e pegando essa onda digamos
+
+64
+00:05:22,790 --> 00:05:28,160
+assim que o Java estava inserido lá exclusivos que eram linguagens estava sendo tocado pelo Net que
+
+65
+00:05:28,190 --> 00:05:31,170
+acabou sendo rebatizado para JavaScript.
+
+66
+00:05:31,370 --> 00:05:36,260
+Mas além da jogada de marketing não há ligação entre essas duas linguagens Java e JavaScript.
+
+67
+00:05:36,260 --> 00:05:41,540
+São linguagens completamente diferentes produzidas por fornecedores diferentes mas que por uma jogada
+
+68
+00:05:41,540 --> 00:05:45,730
+de marketing resolveram usar nomes parecidos Java e JavaScript.
+
+69
+00:05:45,920 --> 00:05:49,000
+Mas que em essência são duas linguagens bastante diferentes.
+
+70
+00:05:49,010 --> 00:05:53,330
+Em 1996 saiu a primeira versão versão 2.0 do Java.
+
+71
+00:05:53,330 --> 00:06:00,320
+Tinha vários problemas bem como qualquer tecnologia inicial e avançando um pouquinho no tempo em 2002.
+
+72
+00:06:00,330 --> 00:06:03,630
+Foi aí que saiu a versão um 4 da linguagem.
+
+73
+00:06:03,640 --> 00:06:10,040
+Nesse nessa época de 2002 Java já era a linguagem amplamente utilizada no mundo inteiro e na verdade
+
+74
+00:06:10,070 --> 00:06:15,760
+em 2003 foi quando de fato eu comecei a trabalhar com Java e na época eu comprei esse livro Java.
+
+75
+00:06:15,770 --> 00:06:21,040
+Como programar um livro clássico aí tem as versões mais nova.
+
+76
+00:06:21,090 --> 00:06:26,840
+à medida que a linguagem foi evoluindo mais foi a partir de 2003 que eu comecei de fato a trabalhar
+
+77
+00:06:26,840 --> 00:06:33,260
+com Java e percebi naquela época como o Java trazia muitas novidades e era uma linguagem extremamente
+
+78
+00:06:33,260 --> 00:06:40,490
+moderna se comparar por exemplo com quem estava acostumado a mexer na Apple C C++ e ele facilitava bastante
+
+79
+00:06:40,490 --> 00:06:45,650
+esse com essa conceituação de orientação a objeto e muitas outras modernidades que eu Java trouxe na
+
+80
+00:06:45,650 --> 00:06:51,440
+época então a partir da versão 1 ponto 4 a gente pode dizer que o Java já estava praticamente espalhado
+
+81
+00:06:51,440 --> 00:06:52,350
+no mundo inteiro.
+
+82
+00:06:52,430 --> 00:06:59,120
+Continuando em 2004 foi quando saiu a versão 5 da linguagem e eu me lembro que foi uma evolução muito
+
+83
+00:06:59,120 --> 00:07:01,170
+grande da linguagem um ponto 4.
+
+84
+00:07:01,200 --> 00:07:08,720
+Ele passou a se chamar esse nomenclatura de um ponto um ponto 2 1 3 1 ponto 4 passou a chamar Java 5
+
+85
+00:07:09,130 --> 00:07:14,840
+e dentro do Java 5 foi uma evolução muito grande e trouxe grandes recursos que a gente tem na linguagem
+
+86
+00:07:15,080 --> 00:07:24,800
+até hoje como genéricos e anotei então muitas coisas importantes foram acrescentadas a versão 4 para
+
+87
+00:07:24,800 --> 00:07:30,650
+a versão 5 eu diria que foi uma das versões mais interessantes e trouxe muitos avanços a linguagem Java.
+
+88
+00:07:30,650 --> 00:07:39,610
+Já na versão 6 e 7 eu não posso dizer a mesma coisa a versão 6 foi em 2006 e a versão 7 foi em 2011
+
+89
+00:07:39,890 --> 00:07:48,020
+tiveram mudanças obviamente melhorias internas de desempenho mas o ponto de vista de mudança na linguagem.
+
+90
+00:07:48,020 --> 00:07:56,600
+A versão 5.0 trouxe mais novidades e também a versão 8 que eu vou já falar nesse meio tempo em 2010.
+
+91
+00:07:56,690 --> 00:08:03,920
+Ora quem comprou e passou digamos assim a ser proprietário do Java embora em 2006 o Java tenha sido
+
+92
+00:08:03,920 --> 00:08:06,230
+disponibilizado como código aberto.
+
+93
+00:08:06,230 --> 00:08:12,230
+Além de que existe um conjunto de empresas que trabalham em cima das novas especificações do Java.
+
+94
+00:08:12,380 --> 00:08:17,630
+Não é só a hora digamos assim que decide as coisas mais a hora que passou a ser a proprietária da ação
+
+95
+00:08:17,960 --> 00:08:24,920
+e por consequência o Java passou a ser digamos assim a máquina virtual passou a ser desenvolvida e coordenada
+
+96
+00:08:24,930 --> 00:08:30,580
+nos movimento pela Oracle embora existam outras máquinas virtuais abertas mas a principal delas é que
+
+97
+00:08:30,570 --> 00:08:36,530
+ainda é gerenciada pela hora e obviamente ela tem um peso nas escolhas da evolução da linguagem muito
+
+98
+00:08:36,530 --> 00:08:36,990
+grande.
+
+99
+00:08:37,100 --> 00:08:44,330
+Em 2014 saiu a versão 8 da linguagem que é a versão atual e essa versão também foi uma versão muito
+
+100
+00:08:44,330 --> 00:08:45,080
+interessante.
+
+101
+00:08:45,080 --> 00:08:45,840
+Por quê.
+
+102
+00:08:46,070 --> 00:08:52,370
+Porque ela aproximou o Java de um paradigma que está sendo muito usado que cada vez mais está em vários
+
+103
+00:08:52,440 --> 00:08:55,560
+nós em de programação que é o paradigma funcional.
+
+104
+00:08:55,910 --> 00:09:03,580
+Então o Java trouxe o que chama de lambda e achamos que ele trouxe os destruímos dentro da escola e
+
+105
+00:09:03,960 --> 00:09:09,750
+trouxe também um novo nova engine de interpretação de JavaScript chamado mexe role.
+
+106
+00:09:10,040 --> 00:09:17,660
+Já tinha sido criado uma versão anterior lá na versão 6 que foi a ruína J BK 6 do Java que também era
+
+107
+00:09:17,660 --> 00:09:22,200
+um APIs de interpretação de JavaScript dentro da máquina virtual.
+
+108
+00:09:22,340 --> 00:09:30,220
+E ela foi melhorada trocada por uma nova foi a mecha Roni na versão 8 melhorou bastante essa parte do
+
+109
+00:09:30,280 --> 00:09:35,800
+suporte em JavaScript e existe a promessa de 2017 saí.
+
+110
+00:09:35,840 --> 00:09:42,070
+A nova versão do Java JD K já existia algumas especulações e novas funcionalidades.
+
+111
+00:09:42,320 --> 00:09:48,500
+Mas como essas personalidades não fazem parte do escopo do curso eu vou deixar em aberto mas em 2017
+
+112
+00:09:48,500 --> 00:09:54,100
+está prevista a nova versão do Java para pessoal essa é a breve história do Java e é muito interessante
+
+113
+00:09:54,110 --> 00:10:01,000
+eu acho muito legal da história do Java é justamente essa questão de que as coisas vão sendo uma forma
+
+114
+00:10:01,000 --> 00:10:07,240
+mais natural às vezes você parte de um projeto que tem um plano de fazer determinada coisa mais o mercado
+
+115
+00:10:07,240 --> 00:10:14,060
+em si acaba direcionando as ações e o desenvolvimento para um lado.
+
+116
+00:10:14,150 --> 00:10:18,210
+Muito provavelmente não tinha sido nem sequer imaginado no início do projeto.

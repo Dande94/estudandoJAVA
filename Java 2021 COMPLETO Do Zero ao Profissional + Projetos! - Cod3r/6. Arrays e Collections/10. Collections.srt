@@ -1,0 +1,415 @@
+1
+00:00:00,180 --> 00:00:06,960
+Pessoal até agora no capítulo A gente já trabalhou com a Rui mas um exercício exercícios de maior dimensão
+
+2
+00:00:06,960 --> 00:00:13,980
+no caso de duas dimensões com uma atriz fizemos já um desafio lá Rei também falamos sobre a teoria de
+
+3
+00:00:14,020 --> 00:00:19,710
+que os erros como demonstrei no passado mais especificamente falando do Chico já que a gente não estava
+
+4
+00:00:19,710 --> 00:00:26,510
+trabalhando no contexto de colégios nessa aula quero falar com vocês a visão geral das coleções das
+
+5
+00:00:26,530 --> 00:00:31,490
+colégios que nós vamos trabalhar aqui no nosso capítulo em outro capítulo mais pra frente vou falar
+
+6
+00:00:31,490 --> 00:00:39,120
+do estranho que ai que é uma forma bastante interessante pra você fazer algoritmos em cima de dados
+
+7
+00:00:39,120 --> 00:00:44,430
+dentro de um colégio mais para encontrá lo e falar sobre as bases dos colégios entender os fundamentos
+
+8
+00:00:44,430 --> 00:00:47,230
+de cada um para que serve cada um dos colégios.
+
+9
+00:00:47,280 --> 00:00:53,820
+Entender também os principais funcionalidades principais coisas que você pode fazer é adicionar elementos
+
+10
+00:00:54,130 --> 00:01:00,410
+remover elementos ou limpar uma coleção e verificar se um determinado objeto está dentro de um colégio
+
+11
+00:01:00,410 --> 00:01:01,080
+e tal.
+
+12
+00:01:01,110 --> 00:01:02,860
+Então tudo isso é muito importante.
+
+13
+00:01:02,910 --> 00:01:11,700
+Diferentemente do Harry certo as Collection ela tem tamanhos e variáveis elas podem crescer com o tempo
+
+14
+00:01:11,700 --> 00:01:16,340
+você cria uma Collection não precisa dizer quantos elementos vai ter.
+
+15
+00:01:16,470 --> 00:01:19,520
+Você até pode dizer se quiser mais você n��o precisa.
+
+16
+00:01:19,530 --> 00:01:26,220
+E aí você vai adicionando um elemento dois 3 mil 2 mil elementos você vai crescendo a Collection uma
+
+17
+00:01:26,220 --> 00:01:29,900
+página meio que você vai acrescentando Essa é uma vantagem gigantesca.
+
+18
+00:01:29,920 --> 00:01:35,910
+Você tem a capacidade de acrescentar os elementos Collection é uma outra coisa que acontece e você pode
+
+19
+00:01:35,910 --> 00:01:39,240
+ter Collection com dados misturados.
+
+20
+00:01:39,240 --> 00:01:44,820
+Você pode ter por exemplo uma Collection que tem zero que tem uma historinha que tem um dado que tem
+
+21
+00:01:44,820 --> 00:01:46,300
+um objeto que tem uma data.
+
+22
+00:01:46,310 --> 00:01:52,170
+Você pode ter tudo misturado embora a boa prática diga que você vai ter uma Collection de apenas um
+
+23
+00:01:52,170 --> 00:01:59,910
+único tipo trabalhar com dados homogêneos e dados do mesmo tipo é muito mais organizada e essa é a preferência
+
+24
+00:01:59,970 --> 00:02:05,250
+embora no caso das colecções você tenha a possibilidade de misturar os dados.
+
+25
+00:02:05,250 --> 00:02:12,150
+Outra questão mais é que as Collection não suporta tipos primitivos você não consegue criar uma Collection
+
+26
+00:02:12,150 --> 00:02:13,790
+do tipo certo.
+
+27
+00:02:13,840 --> 00:02:21,060
+Nesse caso se criarem um array ou você usa o rapper quer que a versão objeto de todos os tipos primitivos
+
+28
+00:02:21,060 --> 00:02:23,180
+no caso do It é o Inter.
+
+29
+00:02:23,250 --> 00:02:31,930
+No caso do Lula é a classe mulher com maiúsculo no caso do cabo cha e o caractere classe C maiúsculo
+
+30
+00:02:32,280 --> 00:02:37,620
+nome completo caractere é para cada tipo primitivo tem uma classe o rapper correspondente certo.
+
+31
+00:02:37,670 --> 00:02:43,310
+Então falando um pouquinho das Collection nós temos alguns Collection a primeira Collection e o set.
+
+32
+00:02:43,410 --> 00:02:50,220
+O site é um conjunto certo e ele tem algumas características que valem aqui primeiro em conjunto ele
+
+33
+00:02:50,220 --> 00:02:57,030
+por padrão não obrigatoriamente vai ser sempre ele e não ordenado ele não garante uma ordenação mas
+
+34
+00:02:57,030 --> 00:03:04,230
+você tem o software de 7 que é o conjunto ordenado você também pode criar ele e não indexado ou seja
+
+35
+00:03:04,260 --> 00:03:11,600
+você não tem como acessar a partir de um sétimo elemento pelo iniciar me deu o elemento de índice.
+
+36
+00:03:11,610 --> 00:03:15,120
+Isso não é possível ser feito a partir de uma estrutura chamada 7.
+
+37
+00:03:15,120 --> 00:03:15,660
+Por quê.
+
+38
+00:03:15,930 --> 00:03:20,700
+Porque o conjunto ele não é ordenado por padrão então ele não é indexado.
+
+39
+00:03:20,800 --> 00:03:26,850
+é outra questão também muito importante com relação a Collection é que ela não aceita repetição.
+
+40
+00:03:26,850 --> 00:03:33,140
+Ou seja você não consegue colocar dois elementos dentro de um site que são iguais a ela e vai gerar
+
+41
+00:03:33,150 --> 00:03:38,760
+erro não vai gerar erro como você colocar um valor que já existiam sete ele simplesmente ignora e não
+
+42
+00:03:38,760 --> 00:03:41,510
+adiciona aquele valor no 7.
+
+43
+00:03:41,520 --> 00:03:47,790
+Outra Collection que nós vamos ver na Collection é exatamente traduzido para português coleção ou seja
+
+44
+00:03:47,790 --> 00:03:53,790
+uma coleção de coisas armazenadas dentro de uma estrutura e a forma como você vai armazenar vai depender
+
+45
+00:03:53,790 --> 00:03:55,680
+do tipo de coleção que você vai usar.
+
+46
+00:03:55,680 --> 00:04:01,860
+Se você usa um conjunto ele vai ter algumas características de como armazenar os dados e se você usar
+
+47
+00:04:02,100 --> 00:04:07,440
+por exemplo a lista você vai ter uma outra característica de como usar e como organizar esses dados
+
+48
+00:04:07,490 --> 00:04:13,530
+então a memória então também são estruturas de dados de como organizar os dados do computador assim
+
+49
+00:04:13,530 --> 00:04:16,470
+como inteira um futuro de dados no site também.
+
+50
+00:04:16,800 --> 00:04:21,210
+Ela é uma estrutura de base no organismo dado de determinada forma dentro do computador.
+
+51
+00:04:21,210 --> 00:04:25,250
+Já o lixo ele é mais parecido com o lixo.
+
+52
+00:04:25,290 --> 00:04:30,640
+Ele é indexado ou seja você consegue acessar a partir do índice zero.
+
+53
+00:04:30,780 --> 00:04:39,000
+O primeiro elemento em o segundo elemento 22 terceiro elemento e vai até o tamanho da lista menos certo
+
+54
+00:04:39,050 --> 00:04:44,940
+que é o último elemento já que a lista é uma estrutura indexada e ela aceita a repetição.
+
+55
+00:04:44,940 --> 00:04:48,330
+Você pode colocar dados repetidos sem problema nenhum.
+
+56
+00:04:48,330 --> 00:04:54,650
+Já o 7 você não consegue avançando você tem o Mac também como estruturas chave valor.
+
+57
+00:04:54,930 --> 00:04:55,940
+Ou seja o MEP.
+
+58
+00:04:56,010 --> 00:04:58,170
+Ele é mais eu vejo o lixo.
+
+59
+00:04:58,170 --> 00:05:05,430
+Você tem apenas uma estrutura lá há uma lista dentro os sete seria um conjunto que você tem vários valores
+
+60
+00:05:05,430 --> 00:05:06,450
+dentro como.
+
+61
+00:05:06,540 --> 00:05:13,690
+é uma estrutura chave valor como se fosse duas colunas se CPF nome e nome telefone.
+
+62
+00:05:13,680 --> 00:05:21,210
+Então você tem uma chave valor e na chave você tem uma estrutura que não aceita repetição ou seja na
+
+63
+00:05:21,210 --> 00:05:28,740
+chave e você não aceita repetição é mais parecido com um set e o valor aceito repetição é como se fosse
+
+64
+00:05:29,100 --> 00:05:31,680
+uma junção de um 7.
+
+65
+00:05:31,680 --> 00:05:35,630
+Aqui a chave é um clichê no valor certo.
+
+66
+00:05:35,640 --> 00:05:41,280
+Então é uma possibilidade que você tem para enxergar o mega estrutura charme valor além da gente ter
+
+67
+00:05:41,570 --> 00:05:47,850
+uma métrica no futuro achar valor e a lista que mistura indexada e altura que aceite a repetição e a
+
+68
+00:05:47,850 --> 00:05:54,270
+lista futura ordenada pela ordem de inserção e coloque o primeiro elemento assim como também acontece
+
+69
+00:05:54,270 --> 00:06:01,010
+numa referência à lista crescem sem necessariamente você precisar mudar os dados para o outro.
+
+70
+00:06:01,010 --> 00:06:06,330
+Rei você pode adicionar novos elementos da lista sem necessariamente precisar se preocupar com o tamanho
+
+71
+00:06:06,330 --> 00:06:13,860
+fixo até porque a lista o 7 o MEP e todas as suas estruturas são dinâmicas crescem dinamicamente.
+
+72
+00:06:13,860 --> 00:06:21,530
+Além disso você tem a fina quer que eu seja implementou uma fila que tem a lógica feche os altos e o
+
+73
+00:06:21,540 --> 00:06:27,420
+primeiro a entrar e o primeiro a sair a lógica da fila que é o FEEF o Grande conhecido FEEF.
+
+74
+00:06:27,420 --> 00:06:32,790
+Certo A fila também é uma estrutura clássica estrutura de dados clássica que a gente vai ver nesse capítulo
+
+75
+00:06:32,780 --> 00:06:39,720
+implementar um fila implementar não usar a fila do Java que é aqui e também nós temos a estética a pilha
+
+76
+00:06:39,980 --> 00:06:41,790
+certo que implementa uma pilha.
+
+77
+00:06:41,820 --> 00:06:47,780
+Você está ex-técnico e o Leste faz algo seja o último a entrar e o primeiro a sair.
+
+78
+00:06:48,030 --> 00:06:50,830
+Você tem uma pilha de livro até que uma mesa.
+
+79
+00:06:50,850 --> 00:06:57,960
+Você coloca lá no livro seja o primeiro a entrar e depois você coloca o livro que eu sei que foi o último
+
+80
+00:06:57,960 --> 00:06:58,780
+a entrar.
+
+81
+00:06:58,980 --> 00:07:06,090
+Uso manterá os mitral sujos se você for tirasse a convenção na Bíblia você primeiro vai tirar o último
+
+82
+00:07:06,090 --> 00:07:06,640
+que entrou.
+
+83
+00:07:06,650 --> 00:07:11,880
+O que exatamente isso lamentou depois que você tirou o outro depois você tirou o outro primeiro que
+
+84
+00:07:11,880 --> 00:07:18,240
+entrou e o último que vai sair certo então é exatamente o que diz que essa lógica o último a entrar
+
+85
+00:07:18,330 --> 00:07:25,110
+é o primeiro a sair usando a lógica do livro certo já a pilha implementa o fio.
+
+86
+00:07:25,110 --> 00:07:30,000
+Então nós vamos ver essas estruturas set list Map que está aqui.
+
+87
+00:07:30,000 --> 00:07:35,610
+Você tem outras subdivisões e outras estruturas como o veto por exemplo mais a gente vai se concentrar
+
+88
+00:07:35,970 --> 00:07:41,730
+nessas aqui que já vai dar uma boa visão daquilo que você pode encontrar dentro dos colégios e vocês
+
+89
+00:07:41,730 --> 00:07:46,490
+vão perceber que boa parte dos métodos são comuns a todos os colégios.
+
+90
+00:07:46,540 --> 00:07:53,580
+Eu quero adicionar um elemento no set você vai usar a função antes de adicionar o quero adicionar um
+
+91
+00:07:53,580 --> 00:07:56,900
+elemento na lista você vai adicionar a função.
+
+92
+00:07:57,200 --> 00:07:59,460
+Aí eu quero saber o tamanho de um set.
+
+93
+00:07:59,460 --> 00:08:03,430
+Você vai usar a função certos sites.
+
+94
+00:08:03,660 --> 00:08:09,940
+Diferente do lenço que ela não é rei que é um atributo que é uma função chamada sais no lixo com a mão
+
+95
+00:08:09,940 --> 00:08:12,130
+da função que dá o tamanho da lista.
+
+96
+00:08:12,150 --> 00:08:13,950
+Sites também certo.
+
+97
+00:08:13,950 --> 00:08:19,690
+Então vocês vão perceber que vai ter funções comuns a todos os colégios.
+
+98
+00:08:19,690 --> 00:08:23,070
+Certo Alguns vão ser diferentes se você for para o Mac.
+
+99
+00:08:23,070 --> 00:08:26,610
+O MAC acaba tendo algumas funcionalidades diferentes porque ele achava o valor.
+
+100
+00:08:26,970 --> 00:08:29,970
+Mas você vai encontrar boa parte dessas funcionalidades.
+
+101
+00:08:29,970 --> 00:08:31,280
+Os mesmos métodos.
+
+102
+00:08:31,280 --> 00:08:32,310
+Imagine no colégio.
+
+103
+00:08:32,430 --> 00:08:36,470
+Então fique por aqui na próxima aula falar especificamente sobre o set.
+
+104
+00:08:36,770 --> 00:08:37,290
+E até lá.

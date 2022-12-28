@@ -1,0 +1,363 @@
+1
+00:00:00,150 --> 00:00:06,000
+Pessoal nem civil vão achar pra vocês a instalação do Mais Querido mas quero que bem obviamente a ferramenta
+
+2
+00:00:06,000 --> 00:00:11,760
+gráfica que é usada para acessar o banco de dados são duas instalações independentes vão achar pra vocês
+
+3
+00:00:11,770 --> 00:00:18,810
+Como fazer isso no Mac e então a primeira coisa que nós vamos fazer é abrir aqui mais SQL para que a
+
+4
+00:00:18,810 --> 00:00:21,610
+gente possa entrar no site mais que.
+
+5
+00:00:21,810 --> 00:00:28,430
+Na opção download você vai ter aqui na última opção mais quero com mil e digitando clicando aqui.
+
+6
+00:00:28,680 --> 00:00:34,050
+Você vai só clicar em Mais quer Chromium que serve e primeiros nós vamos instalar o servidor e depois
+
+7
+00:00:34,050 --> 00:00:39,170
+nós vamos instalar a ferramenta gráfica para acessar o servidor então mais que ele recebe.
+
+8
+00:00:39,540 --> 00:00:45,420
+Vou selecionar a primeira opção que essa DER MG arcaicos então clicando aqui dá luz.
+
+9
+00:00:45,540 --> 00:00:50,940
+Eu não vou nem me logar nem fazer o cadastro vou simplesmente clicar aqui ou não obrigado.
+
+10
+00:00:50,940 --> 00:00:53,280
+Por favor faça o download clicando aqui.
+
+11
+00:00:53,310 --> 00:00:58,860
+Ele vai realizar o download e a segunda opção que eu vou já começa a instalar aqui e mais quero bens.
+
+12
+00:00:59,040 --> 00:01:04,620
+Então pesquisado mais quero algo que mente você vai ter aqui também o primeiro site Java a entrar diretamente
+
+13
+00:01:04,620 --> 00:01:10,650
+no ar que vou selecionar essa opção da Lei de mais quero bens só vai ter uma única opção para Mac o
+
+14
+00:01:10,660 --> 00:01:14,820
+SX se você tiver um outro sistema operacional basta selecionar aqui.
+
+15
+00:01:14,820 --> 00:01:17,620
+No meu caso aqui me conhece clicando aqui.
+
+16
+00:01:17,620 --> 00:01:22,860
+Download é a mesma coisa o app pra local fazer o cadastro mas ao clicar aqui não obrigado.
+
+17
+00:01:22,860 --> 00:01:28,670
+Por favor faça o download ele vai inicializar o mais que na versão 8 ou 11 já foi feito o download.
+
+18
+00:01:28,680 --> 00:01:35,380
+Então já vou começar a instalação processo Super Simples clicando duas vezes ele vai abrir uma janela
+
+19
+00:01:35,420 --> 00:01:38,780
+para você clicar em inicializar o instalador clicando aqui.
+
+20
+00:01:38,850 --> 00:01:46,170
+Nessa opção ele vai começar o ISA eu vou colocar para ele continuar continuar vou continuar e aceitar
+
+21
+00:01:46,170 --> 00:01:47,180
+a licença.
+
+22
+00:01:47,190 --> 00:01:49,720
+Não vou mudar a localização padrão de instalação.
+
+23
+00:01:49,740 --> 00:01:56,560
+Vou pedir para instalar colocar aqui minha senha aqui é uma configuração importante que precisa ser
+
+24
+00:01:56,560 --> 00:02:02,200
+feita aqui é o seguinte no momento que eu estou gravando o vídeo o mais quero algo que ainda não suporta
+
+25
+00:02:02,200 --> 00:02:07,990
+essa versão mais forte de criptografia então se você marcar essa opção tem como mudar isso depois da
+
+26
+00:02:07,990 --> 00:02:09,550
+instalação sem problema nenhum.
+
+27
+00:02:09,700 --> 00:02:15,540
+Então como eu quero fazer a conexão usando mais quero algo bem eu vou usar essa opção legada que vem
+
+28
+00:02:15,550 --> 00:02:16,800
+do mais que L5.
+
+29
+00:02:17,230 --> 00:02:22,950
+Então você pode colocar essa mudar depois pode sem problema já vou colocar para ele usar a opção legal
+
+30
+00:02:22,950 --> 00:02:25,440
+e não mexe nessa tela eu vou colocar aqui.
+
+31
+00:02:25,480 --> 00:02:32,060
+Assim que nós vamos usar o banco de dados para o usuário busca o super usuário e no mínimo oito caracteres
+
+32
+00:02:32,070 --> 00:02:37,480
+então vou colocar aqui uma senha simples já que não tenho nenhuma pretensão de usar o servidor pra colocar
+
+33
+00:02:37,480 --> 00:02:43,170
+dados sérios ele não vai ser usado em nenhum momento para a produção só para a gente fazer teste de
+
+34
+00:02:43,170 --> 00:02:43,800
+movimento.
+
+35
+00:02:43,810 --> 00:02:49,660
+Então vou colocar assim simples e vou deixar marcar essa opção pra ele está o servidor uma vez que a
+
+36
+00:02:49,660 --> 00:02:51,260
+instalação foi completa.
+
+37
+00:02:51,280 --> 00:02:58,630
+Vou clicar aqui e finalizar colocar mais uma vez aqui o meu lar minha senha de usuário finalizou a instalação
+
+38
+00:02:58,630 --> 00:03:04,180
+se você entrar dentro vou colocar para remover o lixo se você entrar dentro da System Reference você
+
+39
+00:03:04,180 --> 00:03:10,880
+vai ver aqui tem um ícone agora mais Kelly clicando duas vezes você vai ver aqui Cabeção que está ativo
+
+40
+00:03:10,880 --> 00:03:12,620
+ou seja que está sendo executada.
+
+41
+00:03:12,670 --> 00:03:19,270
+Quais versões estão instaladas você tem a possibilidade de clicar aqui Michalis Database e mudar aquela
+
+42
+00:03:19,270 --> 00:03:26,050
+opção para usar criptografia forte você tem que mudar aqui dessa opção e clicar aqui em configuração
+
+43
+00:03:26,050 --> 00:03:28,870
+você verá exatamente a pasta de instalação.
+
+44
+00:03:28,870 --> 00:03:35,140
+Falando nisso não vou entrar aqui no terminal e vocês vão perceber que o terminal não tem o comando
+
+45
+00:03:35,140 --> 00:03:39,740
+mais que é instalado e eu vou querer que eu tenha acesso ao comando mais quero aqui no terminal.
+
+46
+00:03:39,880 --> 00:03:46,070
+Então pra isso eu vou colocar aqui ao sul do ano Olhe tudo que você quer usar e PC.
+
+47
+00:03:46,080 --> 00:03:48,330
+Barra de Tarefas gutural.
+
+48
+00:03:48,580 --> 00:03:53,760
+E aqui vou colocar minha senha para poder digitar esse arquivo com o super usuário é aqui embaixo.
+
+49
+00:03:53,890 --> 00:03:59,950
+Eu vou usar esse caminho aqui e colocar o pérfido colocando esse caminhão aqui no PF contra o apagão
+
+50
+00:03:59,960 --> 00:04:07,150
+nesse X aqui era pra ter entrado na ida ao control V e colocar a pasta Barbiere então bah o Sr.
+
+51
+00:04:07,330 --> 00:04:14,770
+Louca o bar quere Babi você pega essa pasta que é o BESI direto e coloca Babi no final para que de fato
+
+52
+00:04:14,770 --> 00:04:21,310
+vá vou dar aqui um contra o outro pra ele salvar o arquivo contra o X pra sair vou fechar esse terminal
+
+53
+00:04:21,640 --> 00:04:23,390
+e abrir o terminal.
+
+54
+00:04:23,510 --> 00:04:28,020
+E aí você vai ver colocando aqui algo mais Kelly menos menos.
+
+55
+00:04:28,260 --> 00:04:34,390
+Acham que ele vai mostrar a versão são 8 pontos 0 ponto 11 e pra entrar nessa ferramenta de comando
+
+56
+00:04:34,390 --> 00:04:42,120
+baixo colocar mais e menos de usuario usuário colocar rudes e menos pé para digitar sem o colocando
+
+57
+00:04:42,120 --> 00:04:44,290
+em item ele vai pedir a senha.
+
+58
+00:04:44,480 --> 00:04:51,400
+Entrei aqui você tem a opção de colocar por exemplo jogo data vezes por exemplo vírgula ele mostra os
+
+59
+00:04:51,400 --> 00:04:58,730
+bancos você pode fazer Select em sete detidos criar tabela criada há também aquele que você queira fazer.
+
+60
+00:04:58,730 --> 00:04:59,880
+Vou colocar aqui.
+
+61
+00:04:59,890 --> 00:05:02,090
+Saí e voltei para o terminal.
+
+62
+00:05:02,090 --> 00:05:07,930
+Ou seja agora ou tentado a instância do mais quero rodando instalada no Mac e assim como também tem
+
+63
+00:05:07,930 --> 00:05:14,560
+a possibilidade de entrar na ferramenta de comando e acessar por aqui o agora mas vamos fazer a instalação
+
+64
+00:05:14,920 --> 00:05:18,560
+do bicho que já foi baixado aqui ou mais quero diz.
+
+65
+00:05:18,760 --> 00:05:23,110
+é super simples basta você arrastar ela para além de application Jam uma vez que foi arrastado você
+
+66
+00:05:23,110 --> 00:05:28,990
+abre e começa a executar ele se conecta com mais Kelly que precisa estar executando é muito importante
+
+67
+00:05:29,350 --> 00:05:34,840
+que ele esteja aqui nessa opção de instâncias esteja sem fazer parte porque só será possível conectar
+
+68
+00:05:34,840 --> 00:05:40,550
+com o banco de dados sim tiver uma instância e um servidor em execução então clicando aqui.
+
+69
+00:05:40,600 --> 00:05:42,910
+Basta você arrastar para dentro de application.
+
+70
+00:05:42,910 --> 00:05:51,250
+Ele vai copiar uma vez copiado mas podemos entrar em aplicativos e abrir o mais ou menos pronto copiou
+
+71
+00:05:51,360 --> 00:05:58,330
+entrando em Application lhes dessem um pouquinho aqui você vai ver mais velho menos clicando duas vezes
+
+72
+00:05:58,850 --> 00:06:05,450
+qual é a primeira vez que abre e ele vai mostrar uma mensagem ou colocar looping e aqui ele pegou uma
+
+73
+00:06:05,450 --> 00:06:11,380
+conexão que já tinha armazenado mais eu posso criar um outro aqui mas é tão longo dar conexão a esse
+
+74
+00:06:11,930 --> 00:06:12,970
+local.
+
+75
+00:06:12,970 --> 00:06:21,070
+Vai ser esse backup pelo qual a porta vai ser a porta padrão e armazenar a senha do que coloca no aqui
+
+76
+00:06:21,080 --> 00:06:21,790
+minha senha
+
+77
+00:06:24,650 --> 00:06:27,090
+ok testa na conexão.
+
+78
+00:06:27,230 --> 00:06:30,460
+Ele vai dizer que a conexão foi feita de forma bem sucedida.
+
+79
+00:06:30,470 --> 00:06:37,600
+Se você tiver colocado a criptografia forte e aberta no problema de conexão você vai ter que colocar
+
+80
+00:06:37,600 --> 00:06:38,730
+o quê para ele criar.
+
+81
+00:06:38,810 --> 00:06:46,610
+Então clicar duas vezes já abri aqui para você acessar a colocação Salete véus bancos de dados disponíveis
+
+82
+00:06:46,610 --> 00:06:48,980
+e tal sítio vai dar algum problema.
+
+83
+00:06:48,980 --> 00:06:54,360
+Você entra lá e insiste em preferência na parte mais Kelly você clicar aqui.
+
+84
+00:06:54,380 --> 00:07:02,030
+Aliás data mesmo se pode mudar da criptografia forte para a criptografia legado na versão 5 0 porque
+
+85
+00:07:02,030 --> 00:07:07,630
+nesse momento o oponente não suporta essa criptografia mais nova e não vai conseguir conectar e tal
+
+86
+00:07:07,640 --> 00:07:10,040
+trocando essa opção para a opção legada.
+
+87
+00:07:10,100 --> 00:07:16,070
+Você consegue tranquilamente acessar usando uma SQL o Turquemenistão ou ficar por aqui nós instalamos
+
+88
+00:07:16,070 --> 00:07:23,660
+o mais querem na versão 8 configurados a partir do acesso ao comando mais quer pelo terminal que é importante
+
+89
+00:07:23,660 --> 00:07:28,730
+e eventualmente você vai querer fazer alguma coisa no terminal e bonita disponível o comando e também
+
+90
+00:07:28,730 --> 00:07:31,100
+instalá los o mais velho bens.
+
+91
+00:07:31,130 --> 00:07:34,460
+Tudo isso no Mac ou SX Espero no próximo vídeo.

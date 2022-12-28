@@ -1,0 +1,775 @@
+1
+00:00:00,110 --> 00:00:08,100
+Então o pessoal aqui se vocês estão bem lembrado nós temos uma anotação chamada a robô que anotação
+
+2
+00:00:08,210 --> 00:00:09,270
+obrigatória vai dar.
+
+3
+00:00:09,270 --> 00:00:11,590
+Nós temos duas anotações obrigatórias né.
+
+4
+00:00:11,620 --> 00:00:21,410
+A companhia de TI e o bloco de aço toda entidade precisa ter um de onde ele pode ter várias estratégias.
+
+5
+00:00:21,420 --> 00:00:28,820
+Eu vou usar que é inerente de velha estratégia Strategy Identity Identidade.
+
+6
+00:00:28,900 --> 00:00:36,300
+Significa que o produto vai ter sua própria sequência única certo e às vezes depende do tipo de estratégia
+
+7
+00:00:36,300 --> 00:00:37,050
+para o seu uso.
+
+8
+00:00:37,180 --> 00:00:42,610
+O Haiti pode ser compartilhado mais de uma tabela dependendo do banco de dados também.
+
+9
+00:00:42,720 --> 00:00:49,020
+Se você usar 5s então o automático consegue dependendo da implementação de cada banco de dados tem sua
+
+10
+00:00:49,020 --> 00:00:58,650
+própria realidade que no caso nós vamos usar Identity e eu vou criar os métodos betas setas ou selecionar
+
+11
+00:00:58,650 --> 00:01:02,920
+aqui todos colocar para gerar.
+
+12
+00:01:03,300 --> 00:01:09,120
+é com isso que um Command Shift serve pra ele formatar.
+
+13
+00:01:09,200 --> 00:01:09,500
+Pronto.
+
+14
+00:01:09,510 --> 00:01:11,540
+Nós temos a nossa identidade criada.
+
+15
+00:01:11,550 --> 00:01:15,150
+O próximo passo vai ser mais criados.
+
+16
+00:01:15,330 --> 00:01:21,470
+O nosso a nossa classe responsável por fazer a persistência de um produto.
+
+17
+00:01:21,480 --> 00:01:30,600
+Então vou criar aqui uma nova interface não é só a classe C a interface e eu vou trocar aqui onde tem
+
+18
+00:01:30,750 --> 00:01:39,570
+gente diz Eu vou chamar repositórios ou seja lançando os repositórios no plural então aqui dentro nós
+
+19
+00:01:39,570 --> 00:01:48,780
+vamos criar uma classe chamada produto se torne um repositório de dados esse repositório de dados pode
+
+20
+00:01:48,780 --> 00:01:56,280
+ser um arquivo um arquivo texto um repositório de dados pode ser uma planilha Excel um repositório de
+
+21
+00:01:56,280 --> 00:02:02,760
+dados pode ser um banco de dados então na verdade a ideia do repositório é simplesmente você abstrair
+
+22
+00:02:03,340 --> 00:02:10,740
+menos se criar métodos de alto nível que vai abstrair todo o acesso aos dados assim como Data Access
+
+23
+00:02:10,830 --> 00:02:12,960
+Object Model A ou B.
+
+24
+00:02:13,020 --> 00:02:16,550
+Ele também tem essa visão de administrar os dados.
+
+25
+00:02:16,890 --> 00:02:22,770
+Ele tem aquele aquela pegada mais digamos assim da implementação e o repositório tem mais essa pegada
+
+26
+00:02:22,770 --> 00:02:27,300
+de definir a interface e como você vai abstrai o acesso a dados.
+
+27
+00:02:27,690 --> 00:02:34,350
+Então o que é que nós vamos fazer para que a gente possa receber de mão beijada a implementação do repositório
+
+28
+00:02:34,350 --> 00:02:35,550
+relacionado ao produto.
+
+29
+00:02:35,910 --> 00:02:43,200
+Nós vamos estender a interface pode estendê lo a outra interface mais ou menos estender uma interface
+
+30
+00:02:43,200 --> 00:02:50,970
+chamada de crude após torre que está dentro de um pontos Spring Framework ponto data ponto repositório.
+
+31
+00:02:51,660 --> 00:02:56,070
+E nós vamos definir duas coisas relacionadas aos genéricos o primeiro.
+
+32
+00:02:56,070 --> 00:02:58,470
+Qual é a classe que nós vamos trabalhar.
+
+33
+00:02:58,850 --> 00:03:05,400
+Nós vamos trabalhar com a classe Produto eu vou colocar o produto aqui ou não encontrou espaço para
+
+34
+00:03:05,400 --> 00:03:11,490
+ele importar o produto e também vou dizer que o tipo de Aydin ou seja o identificador do produto que
+
+35
+00:03:11,490 --> 00:03:19,280
+nós vamos trabalhar vai ser identificado inteiro aqui no contexto do genérico.
+
+36
+00:03:19,300 --> 00:03:26,580
+Eu não consigo usar até quebrar aqui duas linhas para ficar fácil de você visitar aqui no contexto dos
+
+37
+00:03:26,580 --> 00:03:33,570
+genéricos a gente não pode usar tipos primitivos então como eu usei dentro da minha classe lá um inteiro
+
+38
+00:03:34,070 --> 00:03:40,050
+perto que é um produto que eu estou usando lá pra ele ser do tipo.
+
+39
+00:03:40,240 --> 00:03:46,710
+Então que seria a relação é que a versão orientada a objeto o tipo primitivo inteiro.
+
+40
+00:03:47,100 --> 00:03:53,730
+Então nós temos uma interface chamada de produtos Apple Store e vai estender a interface estende outra
+
+41
+00:03:53,730 --> 00:03:57,960
+interface eu estou estendendo de crude e repositório.
+
+42
+00:03:57,960 --> 00:04:06,020
+Aqui nós temos o produto e o tipo de entidade que esse repositório será responsável por persistirem
+
+43
+00:04:06,030 --> 00:04:12,840
+seria alterar consultar e tal é o segundo parâmetro que foi passado de genéricos e o tipo relacionado
+
+44
+00:04:12,840 --> 00:04:16,650
+ao Haiti do produto que no caso um tipo inteiro legal.
+
+45
+00:04:16,650 --> 00:04:22,620
+Com isso nós já temos a nossa implementação de repositório e nós vamos ter um conceito que também é
+
+46
+00:04:22,620 --> 00:04:26,070
+muito importante que é o conceito de injeção de dependência.
+
+47
+00:04:26,100 --> 00:04:30,820
+Já falar um pouco mais sobre ele não na sala mas talvez na próxima.
+
+48
+00:04:30,840 --> 00:04:36,270
+Detalhe um pouco mais esse conceito uma vez criado isso agora nós vamos criar o nosso controle.
+
+49
+00:04:36,270 --> 00:04:43,980
+Nós criamos o produto a entidade criamos o produto o repositório que vai ser responsável por abstrair
+
+50
+00:04:44,070 --> 00:04:50,730
+os dados e agora nós vamos criar o nosso controle uma as questões relacionadas ao MVC.
+
+51
+00:04:50,780 --> 00:04:58,530
+Isso pode digamos assim assustar quem está começando é a criação de muitos artefatos de código que está
+
+52
+00:04:58,530 --> 00:05:05,140
+criando uma classe entidade temos um interface que é responsável pelo acesso a dados poderíamos até
+
+53
+00:05:05,140 --> 00:05:11,530
+ter criado uma classe D essa classe é responsável por todo o processo de persistência mas o Spring já
+
+54
+00:05:11,530 --> 00:05:12,250
+nos dá isso.
+
+55
+00:05:12,250 --> 00:05:17,860
+Por isso que eu criei uma interface e estamos criando agora uma outra classe ela relacionada ao controle.
+
+56
+00:05:18,400 --> 00:05:24,670
+Então o fato de você criar muitos artefatos de código diz respeito ao fato de que a gente está separando
+
+57
+00:05:24,670 --> 00:05:26,080
+as responsabilidades.
+
+58
+00:05:26,500 --> 00:05:32,650
+Então o fato de separar as responsabilidades faz com que você acaba criando mais classes e isso não
+
+59
+00:05:32,650 --> 00:05:36,650
+é um problema muito bom que você separa as responsabilidades.
+
+60
+00:05:36,730 --> 00:05:42,310
+Quem está começando e muitas vezes quer implementar tudo em um local só para ver o algorítimo inteiro
+
+61
+00:05:42,310 --> 00:05:47,770
+ali mais na verdade é uma aplicação você acaba realmente separando as responsabilidades.
+
+62
+00:05:47,770 --> 00:05:50,920
+Existe uma ou outra classe que eventualmente pode surgir.
+
+63
+00:05:50,920 --> 00:05:56,920
+Pode entrar também nessa questão Quem sabe se vai falar um pouco dele mais para frente mais continuando
+
+64
+00:05:56,920 --> 00:06:04,690
+nós criamos o nosso produto e mapeamos ele pra a tabela no banco de dados usando a roupa íntima e usando
+
+65
+00:06:05,170 --> 00:06:06,210
+o balde.
+
+66
+00:06:06,340 --> 00:06:12,290
+Colocamos também a estratégia de geração do site a partir do gênero item o velho já na estratégia identifica
+
+67
+00:06:12,320 --> 00:06:14,540
+ele vai gerar uma chave e auto incremento.
+
+68
+00:06:14,620 --> 00:06:19,850
+Criamos um repositório e agora nós vamos criar dentro de controle.
+
+69
+00:06:20,140 --> 00:06:25,390
+Aqui já está uma outra camada esse aqui faz tudo parte do modelo ou seja tudo que não controla e que
+
+70
+00:06:25,400 --> 00:06:29,220
+vai acessar os dados regras de negócio fica bem imóvel.
+
+71
+00:06:29,260 --> 00:06:38,980
+E aqui nós vamos criar mais um controle que eu vou chamar de produto controla uma classe chamada produto
+
+72
+00:06:40,040 --> 00:06:40,990
+Controller.
+
+73
+00:06:41,440 --> 00:06:47,660
+Apesar de ser um capítulo de exercícios isso aqui tem sim uma pegada muito próxima daquilo que seria
+
+74
+00:06:47,660 --> 00:06:49,370
+uma aplicação também.
+
+75
+00:06:49,870 --> 00:06:57,930
+é um produto que controla e nós vamos fazer o que já tem feito até então nós vamos criar aqui anotar
+
+76
+00:06:58,060 --> 00:07:08,650
+melhor dizendo com o Watch Controller nós vamos colocar aqui criar uma função e vai retornar um produto.
+
+77
+00:07:08,650 --> 00:07:11,200
+Essa função não importa aqui o produto.
+
+78
+00:07:11,230 --> 00:07:20,170
+Essa função vou chamar de novo produto e ela vai receber como parâmetro uma string cresce o nome do
+
+79
+00:07:20,170 --> 00:07:20,580
+produto.
+
+80
+00:07:20,580 --> 00:07:23,620
+Por enquanto nosso produto só tem um atributo mesmo.
+
+81
+00:07:24,040 --> 00:07:28,570
+Então nós vamos receber um monstrinho que eu vou chamar aqui de nome certo.
+
+82
+00:07:28,600 --> 00:07:31,540
+Então o meu objetivo vai ser criar um produto.
+
+83
+00:07:31,570 --> 00:07:39,660
+Então eu vou distanciar um produto e produto que eu vou chamar de produto que certo o produto.
+
+84
+00:07:39,850 --> 00:07:46,490
+Eu poderia ter criado dentro de produto já um construtor que recebe o nome então eu posso ter que o
+
+85
+00:07:46,490 --> 00:07:47,260
+custo padrão.
+
+86
+00:07:47,260 --> 00:07:56,320
+Na verdade preciso ter o custo padrão e posso se quiser criar um construtor é baseado nos filmes e vai
+
+87
+00:07:56,320 --> 00:07:58,700
+receber por exemplo o nome.
+
+88
+00:07:58,700 --> 00:07:59,980
+Então também posso.
+
+89
+00:07:59,980 --> 00:08:03,750
+Quer saber também onde é só pra mostrar pra vocês.
+
+90
+00:08:03,760 --> 00:08:05,590
+Então vou formatar aqui.
+
+91
+00:08:06,370 --> 00:08:12,530
+Voltando ao nosso controle aqui eu já poderia passar diretamente o nome que eu recebi como parâmetro.
+
+92
+00:08:13,060 --> 00:08:17,150
+O próximo passo vai ser eu vou retornar aqui.
+
+93
+00:08:17,590 --> 00:08:20,470
+O produto que foi recebido a partir do nome.
+
+94
+00:08:21,040 --> 00:08:27,400
+Então aqui eu posso colocar um post mapping ou seja esse método vai ser chamado sempre que for feito
+
+95
+00:08:27,400 --> 00:08:32,050
+a aquisição ou o chip o que a gente precisa definir agora qual é o RL.
+
+96
+00:08:32,560 --> 00:08:35,820
+Eu vou chamar isso para esse método aqui.
+
+97
+00:08:36,100 --> 00:08:42,910
+Para isso eu vou colocar aqui um único Echo Mapping associado a clássico produto.
+
+98
+00:08:43,180 --> 00:08:50,180
+E aqui eu vou colocar só para diferenciar dos outros exercícios não vou colocar o Barra API barra de
+
+99
+00:08:50,530 --> 00:08:56,890
+produtos natural e se eu não colocar nenhum ou aquele associado ao.
+
+100
+00:08:57,340 --> 00:09:03,850
+Ou seja quando for feito a requisição para isso RL e foi uma aquisição do tipo gauche ele vai chamar
+
+101
+00:09:04,000 --> 00:09:08,510
+esse método aqui certo e eu vou esperar receber isso.
+
+102
+00:09:08,530 --> 00:09:15,070
+O nome a partir de um parâmetro da requisição que alguns aqui conhece para então pensar a gente pode
+
+103
+00:09:15,070 --> 00:09:22,060
+testar esse método usando o Pochmann Eu vou fazer o seguinte Ao clicar aqui mais ele abre uma nova aba
+
+104
+00:09:22,620 --> 00:09:26,320
+e nós vamos criar uma requisição do tipo host.
+
+105
+00:09:26,380 --> 00:09:36,310
+Nós vamos definir aquela que ele possui HTTP 2 pontos Bambam local os 80 80 Barra lembre que ele disputou
+
+106
+00:09:36,310 --> 00:09:49,170
+a API Barra produtos e aqui no que diz respeito Bari eu vou usar esse X www.
+
+107
+00:09:49,180 --> 00:09:57,230
+Ponto forme o RM com o deles é que a gente vai passar o que vai no corpo do baile como se fosse um formulário
+
+108
+00:09:57,270 --> 00:10:04,460
+certo o formulário é feito pouco chique eu vou colocar o nome e o valor que eu vou colocar aqui vai
+
+109
+00:10:04,460 --> 00:10:09,300
+ser uma caneta Bic preta.
+
+110
+00:10:10,110 --> 00:10:15,400
+Então nós definimos aqui no bar e lá no corpo da aquisição eu não estou falando do bar e da resposta
+
+111
+00:10:15,490 --> 00:10:17,910
+falando do bar e da requisição civil.
+
+112
+00:10:17,940 --> 00:10:23,580
+Estou fazendo uma requisição e aqui eu coloquei o nome que é exatamente o que eu espero receber aqui
+
+113
+00:10:23,580 --> 00:10:24,850
+no atributo nome.
+
+114
+00:10:25,270 --> 00:10:27,900
+Eu coloquei nome e caneta Bic preta.
+
+115
+00:10:27,960 --> 00:10:29,290
+Vou enviar.
+
+116
+00:10:29,760 --> 00:10:34,460
+Ele vai contar para a gente a resposta e a resposta veio aqui outro nome.
+
+117
+00:10:34,530 --> 00:10:48,900
+Caneta Bic preta o valor eu vou colocar aqui por exemplo já beira o Praia aqui Geddel Vieira aqui na
+
+118
+00:10:48,900 --> 00:10:53,550
+frente para onde ela beira enviar novamente ele vai retornar para a gente.
+
+119
+00:10:53,650 --> 00:10:58,310
+De zero geladeira do ponto de vista de mapeamento funcionando.
+
+120
+00:10:58,350 --> 00:11:06,000
+Tem uma anotação que a gente pode usar aqui que é arrogante isso expôs Bari pra você deixar claro que
+
+121
+00:11:06,000 --> 00:11:09,190
+esse produto faz parte do.
+
+122
+00:11:09,300 --> 00:11:16,140
+Certo Não é necessário mas você pode sim querer usar essa anotação para deixar claro isso faz parte
+
+123
+00:11:16,770 --> 00:11:18,420
+do corpo da resposta.
+
+124
+00:11:18,720 --> 00:11:25,320
+Uma coisa é o corpo da aquisição outra coisa é um corpo da resposta não vamos lá nós temos aqui o nosso
+
+125
+00:11:25,320 --> 00:11:31,160
+produto e agora que a gente precisa fazer é interagir com o repositório como é que a gente vai interagir
+
+126
+00:11:31,160 --> 00:11:37,020
+com o repositório já que ele é uma interface e daí a gente vai usar um conceito chamado injeção de dependência.
+
+127
+00:11:37,350 --> 00:11:39,890
+Primeiro a gente vai usar nessa aula.
+
+128
+00:11:40,140 --> 00:11:44,550
+Do ponto de vista prático depois a gente vai falar um pouquinho sobre o que é que significa a injeção
+
+129
+00:11:44,550 --> 00:11:45,300
+de dependência.
+
+130
+00:11:45,870 --> 00:11:52,470
+Então para isso eu vou fazer o seguinte eu vou criar aqui um atributo privado que eu vou chamar de produto
+
+131
+00:11:53,490 --> 00:12:01,200
+repositório e eu vou chamar com o mesmo nome para o produto porque tal lei é pra gente usar esse produto
+
+132
+00:12:01,200 --> 00:12:09,270
+Apple Store eu vou usar uma anotação chamada auto o agente que ele vai automaticamente colocar um objeto
+
+133
+00:12:09,270 --> 00:12:14,780
+dentro desse atributo aqui certo atributo um produto Apple Store.
+
+134
+00:12:14,770 --> 00:12:20,880
+Quando eu tentar usar ele vai ter um objeto que foi criado pelo Spring já que o experiente que está
+
+135
+00:12:20,880 --> 00:12:24,180
+dentro do display Bush ele usa o framework Spring.
+
+136
+00:12:24,230 --> 00:12:28,060
+Ele vai adicionar para a gente uma implementação.
+
+137
+00:12:28,080 --> 00:12:32,790
+Isso é muito estranho eu não sei como é que por exemplo vai ter um objeto colocado que eu vou explicar
+
+138
+00:12:32,790 --> 00:12:37,890
+para vocês com mais calma na próxima aula que é injeção de dependência e também falando no conceito
+
+139
+00:12:37,890 --> 00:12:41,440
+de inversão de controle em inglês off Control.
+
+140
+00:12:41,760 --> 00:12:43,360
+E tem a ver também com essa questão.
+
+141
+00:12:43,390 --> 00:12:49,790
+Essa independência por enquanto imagine que quando você coloca essa anotação automaticamente o experiente
+
+142
+00:12:49,800 --> 00:12:55,770
+vai ser responsável por criar um objeto desse tipo aquele produto repositório.
+
+143
+00:12:55,770 --> 00:13:00,340
+Você não precisa se preocupar com isso uma vez que você tem um produto Apple Store.
+
+144
+00:13:00,450 --> 00:13:04,720
+A gente pode muito facilmente chamar produto Apple Store ponto.
+
+145
+00:13:04,790 --> 00:13:13,470
+Sei que eu vou passar o meu produto pra ele salvar automaticamente como já está tudo configurado conexão.
+
+146
+00:13:13,470 --> 00:13:19,590
+Na próxima vez que eu fizer isso além de ele persistir o produto no mais quero você não perceber que
+
+147
+00:13:19,590 --> 00:13:25,170
+o dia vai ser retornado de forma correta porque a instância que foi passada para o Metro sei que será
+
+148
+00:13:25,170 --> 00:13:30,860
+alterado de tal forma que quando retornar será fornecido de forma correta.
+
+149
+00:13:30,960 --> 00:13:40,580
+A gente está aqui colocando de novo eu vou colocar produtos vou colocar a geladeira não tem problema
+
+150
+00:13:41,040 --> 00:13:47,170
+vou mandar ele agora você vai ver que a resposta é um pouquinho diferente de igual.
+
+151
+00:13:47,480 --> 00:13:58,000
+E o nome geladeira local por exemplo lápis preto mandar salvar.
+
+152
+00:13:58,080 --> 00:14:05,490
+Ele vai persistir e todo o lápis preto com de dois significa que se a gente chorar no banco de dados
+
+153
+00:14:05,490 --> 00:14:09,310
+ou dentro do Spring Bolt Eu vou daqui e feche.
+
+154
+00:14:09,660 --> 00:14:18,910
+Nós temos a nossa tabela produto que é exatamente o mesmo da classe e aqui eu vou selecionar esse banco
+
+155
+00:14:18,960 --> 00:14:26,580
+nesse esquema como padrão ao 7 foi o esquema de tal forma que agora consigo fazer um Salete asterisco
+
+156
+00:14:26,580 --> 00:14:34,320
+foram produto acertado ele vai mostrar para a gente que tem dois produtos cadastrados o produto é geladeira
+
+157
+00:14:34,390 --> 00:14:35,730
+e lápis preto.
+
+158
+00:14:35,730 --> 00:14:39,630
+Ou seja o nosso processo de inserção está funcionando.
+
+159
+00:14:39,660 --> 00:14:42,190
+Eu vim aqui para prestar mais uma vez.
+
+160
+00:14:42,500 --> 00:14:54,070
+Então vai isto aqui na HQ Mix de melhor produto inserir mais um produto foi inserido.
+
+161
+00:14:54,090 --> 00:15:00,200
+Se a gente ficar aqui no banco de dados e executar mais uma vez nós temos o produto três que até o que
+
+162
+00:15:00,220 --> 00:15:01,540
+não era o que eu queria.
+
+163
+00:15:01,870 --> 00:15:08,860
+Então pessoal posso até tirar o espaço que eu posso apagar e se eu vim e se eu saí aqui ou ali vão colocar
+
+164
+00:15:08,860 --> 00:15:09,880
+esse botão papai.
+
+165
+00:15:10,000 --> 00:15:15,690
+Automaticamente ele gera para pra gente como quero para alterar no banco de dados beleza.
+
+166
+00:15:15,700 --> 00:15:17,280
+Então era isso que eu tinha para falar.
+
+167
+00:15:17,290 --> 00:15:24,520
+Nós fizemos o teste usando o conhecimento e mais do que isso nós aqui na nossa aplicação nós criamos
+
+168
+00:15:24,670 --> 00:15:28,750
+o controle e criamos uma entidade no caso do produto.
+
+169
+00:15:28,750 --> 00:15:34,990
+Criamos também a classe que vai fazer a persistência na verdade um interface que vai fazer persistência
+
+170
+00:15:35,320 --> 00:15:37,650
+e quem vai fornecer para a gente implementação.
+
+171
+00:15:37,680 --> 00:15:42,930
+O próprio Spring nesse caso é um cenário mais simples porque não tem tantas regras de negócio.
+
+172
+00:15:42,940 --> 00:15:48,940
+Se tivesse muitas áreas de negócio ou se tivesse regras de negócio a gente colocaria também outra classe.
+
+173
+00:15:49,300 --> 00:15:55,060
+Nem ficaria dentro do controle nem ficaria dentro da entidade nem ficaria nem um repositório ficaria
+
+174
+00:15:55,060 --> 00:15:58,560
+na outra classe que eu comentei com vocês rapidamente que é o sexo.
+
+175
+00:15:58,930 --> 00:16:00,430
+A gente vai ver mais na frente.
+
+176
+00:16:00,550 --> 00:16:02,020
+Alguns detalhes sobre isso.
+
+177
+00:16:02,020 --> 00:16:03,770
+Por exemplo em relação ao sexo.
+
+178
+00:16:04,230 --> 00:16:08,710
+O que eu quero cadastrar um usuário mas eu não posso cadastrar o usuário que já está cadastrado para
+
+179
+00:16:08,710 --> 00:16:09,640
+esse tipo de situação.
+
+180
+00:16:09,640 --> 00:16:15,760
+Você precisa criar uma classe que vai fazer essas verificações sendo o usuário precisa ter determinados
+
+181
+00:16:15,760 --> 00:16:20,790
+padrões não pode ter mais do que tantas letras tem que ter caracteres especiais.
+
+182
+00:16:20,800 --> 00:16:26,950
+Então esses são exemplos de validações que precisam ser colocadas em algum local na época do controle
+
+183
+00:16:26,950 --> 00:16:32,480
+e validar não é papel da sua entidade e nem é papel por exemplo dado o repositório.
+
+184
+00:16:32,500 --> 00:16:37,570
+Então precisa ter uma ou outra classe para exatamente separar as responsabilidades o que eu tenho falado
+
+185
+00:16:37,900 --> 00:16:42,640
+para vocês é importante muito importante você colocar responsabilidades em cada local.
+
+186
+00:16:42,730 --> 00:16:48,790
+Então pessoal fique sabendo dessa aula exatamente o conceito de injeção de dependência que é um conceito
+
+187
+00:16:48,790 --> 00:16:51,610
+importante não apenas no espírito.
+
+188
+00:16:51,820 --> 00:16:59,350
+Por exemplo é usado no framework do ângulo usado no próprio Java e de forma muito forte do JB por exemplo
+
+189
+00:16:59,680 --> 00:17:05,530
+você tem esse conceito é um conceito que serve não apenas para o experiente mas serve também para outras
+
+190
+00:17:05,620 --> 00:17:08,720
+outras tecnologias como você escutar a injeção de dependência.
+
+191
+00:17:08,980 --> 00:17:14,170
+O conceito que eu vou explicar na próxima aula exatamente o mesmo para todos eles embora as implementações
+
+192
+00:17:14,530 --> 00:17:17,520
+vão variar de acordo com a tecnologia confirmou.
+
+193
+00:17:17,570 --> 00:17:22,090
+Com a linguagem então fico por aqui na próxima aula vamos entender um pouquinho mais sobre esse conceito
+
+194
+00:17:22,090 --> 00:17:25,170
+importante que é a injeção de dependência e até lá.

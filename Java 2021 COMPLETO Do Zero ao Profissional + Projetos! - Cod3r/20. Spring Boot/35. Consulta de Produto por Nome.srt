@@ -1,0 +1,351 @@
+1
+00:00:00,450 --> 00:00:08,160
+Pessoal na sala quero mostrar para vocês uma consulta a partir do nome pra gente obter todos os produtos
+
+2
+00:00:08,160 --> 00:00:11,230
+que contêm uma determinada palavra.
+
+3
+00:00:11,250 --> 00:00:18,720
+Por exemplo se a gente pega aqui na nossa massa de dados nós temos o produto 3 4 e o produto 15 contém
+
+4
+00:00:18,720 --> 00:00:21,690
+tanto a palavra caneta com a palavra Bic.
+
+5
+00:00:21,750 --> 00:00:25,540
+Então nosso povo quer obter todos os produtos que têm a palavra Bic.
+
+6
+00:00:26,190 --> 00:00:31,850
+Então a gente vai mostrar agora como é feito essa consulta dentro do espírito de Bush.
+
+7
+00:00:31,980 --> 00:00:39,060
+Aqui um conceito importante que eu já mencionei para vocês anteriormente é o conceito de convenção quando
+
+8
+00:00:39,060 --> 00:00:46,240
+você cria uma convenção por exemplo todos os métodos que começam com a palavra fim.
+
+9
+00:00:46,830 --> 00:00:53,140
+Então por exemplo vai de Bay alguma coisa o experiente Bush entende que esse método vai fazer uma pesquisa
+
+10
+00:00:53,140 --> 00:00:56,510
+para fazer uma busca Salete no banco de dados.
+
+11
+00:00:56,610 --> 00:01:03,510
+Então o brinde embute na equipe os tributos e definiu uma série de convenções que vão nos ajudar a criar
+
+12
+00:01:03,510 --> 00:01:10,110
+métodos sem a gente necessariamente precisar implementar esses métodos o que é muito legal.
+
+13
+00:01:10,110 --> 00:01:16,860
+Até porque que dentro do produto repositório aí nós estamos trabalhando com a interface.
+
+14
+00:01:16,860 --> 00:01:20,190
+Nós não estamos trabalhando com a implementação.
+
+15
+00:01:20,490 --> 00:01:23,160
+Então o que é que eu vou fazer que eu vou criar o método.
+
+16
+00:01:23,160 --> 00:01:26,360
+Só a interface é só definição desse método.
+
+17
+00:01:26,490 --> 00:01:32,480
+Mais por seguir uma convenção significa que automaticamente ele vai implementar para a gente.
+
+18
+00:01:32,970 --> 00:01:43,350
+Então o metro vou colocar aqui ao público e vou retornar aqui entrei ou não de produto.
+
+19
+00:01:43,380 --> 00:01:46,530
+Eu vou chamar o método com um nome muito específico.
+
+20
+00:01:46,530 --> 00:01:54,790
+Então vai ser o seguinte fail Bali o próximo coisa que vem na faixa de Bay alguma coisa Faye Bay Gui
+
+21
+00:01:55,200 --> 00:02:03,510
+Fay de Bailey Faye Bai fiscal de Faye Bai qualquer nome de atributo que você queira colocar no nosso
+
+22
+00:02:03,510 --> 00:02:09,900
+caso especificamente nós definimos nomes em português no caso de nome e preço e desconto.
+
+23
+00:02:10,320 --> 00:02:15,210
+Então se eu quero procurar por exemplo por nome Hilton coloca exatamente o mesmo nome do atributo no
+
+24
+00:02:15,210 --> 00:02:19,870
+caso o que ofende Bay nome e vai ficar misturado em português inglês.
+
+25
+00:02:19,950 --> 00:02:27,180
+Mais a convenção que foi estabelecida foi inglês então já coloca aqui defende Bay no Omi e eu vou colocar
+
+26
+00:02:27,180 --> 00:02:31,500
+aqui on line por exemplo.
+
+27
+00:02:31,950 --> 00:02:35,550
+Então quero procurar Find Bay no Omi.
+
+28
+00:02:35,670 --> 00:02:41,550
+Ou seja eu quero que contenha um determinado atributo aqui que eu posso colocar no nome então parte
+
+29
+00:02:41,560 --> 00:02:42,320
+em nome.
+
+30
+00:02:42,640 --> 00:02:49,320
+Então essa é uma função que vai estar disponível para a gente usar e quem vai implementar essa função
+
+31
+00:02:49,320 --> 00:02:56,150
+vai ser o próprio spring board próprio framework contanto que eu siga as convenções que foram pré estabelecidas
+
+32
+00:02:56,160 --> 00:02:59,350
+tem uma série de nomes que são suportados.
+
+33
+00:02:59,460 --> 00:03:05,970
+Então é mais ou precisa fazer uma consulta mais mais específica que muito provavelmente pela Convenção
+
+34
+00:03:05,970 --> 00:03:07,340
+de nome eu não vou conseguir.
+
+35
+00:03:07,350 --> 00:03:14,280
+Você tem que chamar um JPL e você tem como colocar aqui em cima um arroba com R.
+
+36
+00:03:14,370 --> 00:03:14,970
+E aqui.
+
+37
+00:03:15,060 --> 00:03:19,800
+A partir da bactéria você consegue definir uma consulta que ele vai usar.
+
+38
+00:03:20,070 --> 00:03:26,040
+Essa consulta dentro dessa função você não necessariamente precisa implementar a função porque você
+
+39
+00:03:26,040 --> 00:03:28,560
+pode seguindo por exemplo as convenções.
+
+40
+00:03:28,560 --> 00:03:33,320
+Então uma vez que eu definir aqui essa função vamos voltar aqui para o nosso controle.
+
+41
+00:03:33,390 --> 00:03:40,800
+Eu vou criar aqui aplicar essa função aqui do gatinho e nós vamos criar uma função que coloca aquele
+
+42
+00:03:40,810 --> 00:03:46,410
+item produtores no Omi vai tornar mais um produto.
+
+43
+00:03:46,410 --> 00:03:56,760
+Eu vou receber aqui o chefe VR boca vou chamar um estilingue que vai ser parte em nome e eu vou colocar
+
+44
+00:03:56,760 --> 00:03:58,670
+aqui no BET mapping.
+
+45
+00:03:58,740 --> 00:04:07,170
+RL é diferente então coloca aquilo que vai apontar para a Barra nome Barra e eu vou chamar aqui parte
+
+46
+00:04:07,170 --> 00:04:09,600
+do nome exatamente o mesmo nome do atributo aqui tá.
+
+47
+00:04:10,080 --> 00:04:16,770
+Então parte no homem como chamar a barra nome e passa um baixo nome ele vai aqui entrar e vai fazer
+
+48
+00:04:16,770 --> 00:04:18,360
+a consulta baseado no nome.
+
+49
+00:04:18,720 --> 00:04:22,190
+Então em vez de chamá lo em geral já tem um aqui à disposição.
+
+50
+00:04:22,200 --> 00:04:28,140
+O FAI de baixo nome que tem em mim e eu vou passar o parte no nome como parâmetro vão testar pra ver
+
+51
+00:04:28,140 --> 00:04:29,790
+se vai funcionar corretamente.
+
+52
+00:04:30,330 --> 00:04:36,330
+Então em vez de chamar aqui Página Zero vou chamar aqui homi Babi.
+
+53
+00:04:36,630 --> 00:04:45,260
+Estão executando ele trouxe uma caneta Bic vermelha caneta bic azul e caneta Bic.
+
+54
+00:04:45,720 --> 00:04:50,730
+Então eu passei o nome por exemplo caneta caneta.
+
+55
+00:04:51,060 --> 00:04:55,960
+Então trouxe os mesmos métodos então vou colocar aqui por exemplo o nome lápis preto.
+
+56
+00:04:56,110 --> 00:04:59,580
+Então ele trouxe um nome que contém parte.
+
+57
+00:05:00,110 --> 00:05:06,740
+Daquelas trim que você colocou tá aqui no caso a gente pode colocar essa forma ou outra forma que você
+
+58
+00:05:06,740 --> 00:05:14,430
+tem para garantir que ele vai ignorar letras maiúsculas e minúsculas você pode me colocar aqui ou ignorem.
+
+59
+00:05:14,510 --> 00:05:17,820
+Isso também faz parte da Convenção.
+
+60
+00:05:18,170 --> 00:05:23,430
+Então alterando aqui obviamente eu preciso alterar aqui no meu controle chamar aquilo.
+
+61
+00:05:23,580 --> 00:05:27,620
+Ignorem isso é só tirar aqui.
+
+62
+00:05:28,040 --> 00:05:29,370
+Ignore isso.
+
+63
+00:05:29,630 --> 00:05:33,710
+Pronto salvando aqui um refresh.
+
+64
+00:05:33,710 --> 00:05:36,260
+Você vai ver que vai funcionar perfeitamente.
+
+65
+00:05:36,710 --> 00:05:44,970
+E se eu colocar uma letra errada por exemplo colocar aqui lá um outro alto e salvar e ao tentar executar.
+
+66
+00:05:45,050 --> 00:05:47,100
+Você vai ver que ele vai gerar um problema.
+
+67
+00:05:47,150 --> 00:05:51,400
+Exatamente porque esse nome que eu coloquei na verdade eu também tenho que alterar aqui né.
+
+68
+00:05:51,440 --> 00:05:58,030
+Assim também é demais de colocar aqui um outro aqui porque nesse caso ele não achou a função boa daqui
+
+69
+00:05:58,040 --> 00:05:59,190
+pra frente.
+
+70
+00:05:59,240 --> 00:06:02,250
+Você vai ver algo sobre ela e Freixo não vai funcionar.
+
+71
+00:06:02,250 --> 00:06:09,310
+Se a gente olhar aqui na mensagem de erro você vai ver que vai ter uma mensagem de erro exatamente dizendo
+
+72
+00:06:09,320 --> 00:06:18,290
+que não conseguiu fazer com falta pra essa propriedade aqui exatamente porque essa palavra que você
+
+73
+00:06:18,290 --> 00:06:26,390
+colocou não segue a convenção que foi pré estabelecida pela equipe do boletim não apenas tem como tem
+
+74
+00:06:26,390 --> 00:06:32,750
+e tem outros tipos por exemplo iniciado com alguma coisa finalizado com determinado trecho você tem
+
+75
+00:06:32,750 --> 00:06:38,630
+várias opções para que você possa usando um padrão de convenção.
+
+76
+00:06:38,660 --> 00:06:41,360
+Algumas correções pré estabelecidas.
+
+77
+00:06:41,420 --> 00:06:48,890
+Você consegui realmente fazer as consultas sem necessariamente precisar implementar isso na prática
+
+78
+00:06:48,890 --> 00:06:56,480
+o que é bastante interessante mesmo em consultas mais complexas usando o JPL ou usando o correio nativo.
+
+79
+00:06:56,480 --> 00:07:03,200
+Você vai conseguir fazer isso na prática que vocês podem não pesquisar a pessoa extremamente importante
+
+80
+00:07:03,200 --> 00:07:06,020
+que vocês tenham essa cultura de pesquisar.
+
+81
+00:07:06,440 --> 00:07:12,740
+Olha na documentação dos tributos para que vocês vejam quais são todas essas convenções e tentem experimentar
+
+82
+00:07:12,800 --> 00:07:17,900
+isso é extremamente importante e não é tão difícil você já tem um projeto configurado.
+
+83
+00:07:17,900 --> 00:07:21,260
+Você já viu vários exemplos que eu mostrei pra vocês aqui.
+
+84
+00:07:21,650 --> 00:07:29,120
+Inclusão alteração exclusão de consulta consulta à página para consulta a partir de determinado atributo
+
+85
+00:07:29,390 --> 00:07:34,530
+que foi tema dessa aula usando as convenções que foram estabelecidas pelo Expressinho Burti.
+
+86
+00:07:34,570 --> 00:07:40,310
+Eu tenho certeza que vocês forem lá na documentação e derem outras olhadas em relação a nomes possíveis
+
+87
+00:07:40,310 --> 00:07:44,750
+vocês vão encontrar várias possibilidades com relação aos nomes.
+
+88
+00:07:44,750 --> 00:07:48,170
+Beleza pessoal então é isso que eu tinha pra essa aula e até a próxima.

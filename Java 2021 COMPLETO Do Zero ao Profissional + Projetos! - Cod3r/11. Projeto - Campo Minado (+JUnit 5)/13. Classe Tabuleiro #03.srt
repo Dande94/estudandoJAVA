@@ -1,0 +1,551 @@
+1
+00:00:00,150 --> 00:00:05,020
+Pessoal nós vamos fazer o seguinte eu vou fazer aqui a fragmentação no distrito.
+
+2
+00:00:05,050 --> 00:00:10,890
+Eu acho já para um momento de nós criarmos a classe que vai ser a classe média e a classe que nós vamos
+
+3
+00:00:10,890 --> 00:00:18,440
+usar como se na classe principal do nosso projeto não será ela que vai até a lógica em side cafés apitando
+
+4
+00:00:18,450 --> 00:00:19,160
+o jogo.
+
+5
+00:00:19,410 --> 00:00:23,340
+Mas eu vou colocar aqui uma implementação de Justin com estilo vazia.
+
+6
+00:00:23,430 --> 00:00:29,860
+Vou entrar aqui no nosso pacote e dentro diretamente do tabuleiro.
+
+7
+00:00:30,030 --> 00:00:32,390
+Ok já é dentro do nosso pacote.
+
+8
+00:00:32,410 --> 00:00:33,940
+Que belo ponto concorda.
+
+9
+00:00:33,940 --> 00:00:35,150
+Conto sem ele.
+
+10
+00:00:35,160 --> 00:00:40,560
+Eu vou criar uma classe que eu vou chamar de aplicação a aplicação.
+
+11
+00:00:40,560 --> 00:00:51,960
+Aqui nós teremos o nosso método temporário certo e eu vou criar aqui um tabuleiro tabuleiro chamado
+
+12
+00:00:52,620 --> 00:01:04,650
+tabuleiro recebiam 4 dérbi de tabuleiro vou passar aqui a quantidade de linhas por exemplo seis linhas
+
+13
+00:01:05,430 --> 00:01:10,330
+6 colunas e seis minas.
+
+14
+00:01:10,340 --> 00:01:12,090
+Provavelmente vai estar bem fácil.
+
+15
+00:01:12,600 --> 00:01:20,520
+Essa versão que mais pouca gente tem como forma de jogar pode fazer alguns ajustes para ficar um pouco
+
+16
+00:01:20,520 --> 00:01:23,360
+mais difícil ou mais fácil dependendo da situação.
+
+17
+00:01:23,520 --> 00:01:27,000
+Então vai imprimir o valor de tabuleiro no console executado.
+
+18
+00:01:26,990 --> 00:01:31,610
+Você vai ver que imprimir o Brasil é exatamente esse primeiro médico eu quero implementar na sala onde
+
+19
+00:01:31,620 --> 00:01:36,510
+eu tenho os outros métodos que eu não vou passar lá pra cá confira está faltando alguns aqui eu vou
+
+20
+00:01:36,510 --> 00:01:38,160
+criar eu disse pra vocês.
+
+21
+00:01:38,160 --> 00:01:43,060
+Vai ter uma quantidade relativamente grande de concatenar ações então vou usar aqui.
+
+22
+00:01:43,070 --> 00:01:49,680
+Tribuna Com o chamado PSB recebe Dilma está em Ibiúna então sempre que você tiver uma quantidade muito
+
+23
+00:01:49,680 --> 00:01:53,670
+grande de concatenação preciso montar um estilingue.
+
+24
+00:01:53,670 --> 00:02:01,470
+A partir de muitas partes o estribilho é um clássico interessante para fazer isso você chama o Astrid.
+
+25
+00:02:01,930 --> 00:02:05,820
+Ele converte tudo o que você concatenar ou um estilingue no final.
+
+26
+00:02:06,000 --> 00:02:12,300
+Então basicamente eu quero fazer agora e mostrar nas linhas e colunas todos os campos que nós definimos
+
+27
+00:02:12,300 --> 00:02:14,970
+o ponto de vista do distrito e do campo.
+
+28
+00:02:14,970 --> 00:02:20,970
+Já foi definido a gente já criou anteriormente nós vamos usar este lustre para representar um dos campos
+
+29
+00:02:20,990 --> 00:02:28,140
+na xisto é marcado o asterisco que vai explodir tal e aqui agora vou fazer esse processo para cada uma
+
+30
+00:02:28,140 --> 00:02:29,220
+das linhas e colunas.
+
+31
+00:02:29,570 --> 00:02:36,920
+Então inicialmente vão fazer um só imaginado a linha Ali Ali mudou em todos os cantos.
+
+32
+00:02:36,970 --> 00:02:48,230
+Aqui eu vou colocar as linhas e vou fazer um outro foto mais interno eu vou trocar esse bloco sei de
+
+33
+00:02:48,230 --> 00:02:52,720
+coluna e aqui eu vou colocar as colunas.
+
+34
+00:02:52,770 --> 00:02:58,650
+A gente vai vendo a partir desses dois laços que a gente precisa ajustar as cores.
+
+35
+00:02:59,010 --> 00:03:04,520
+Então pra eu imprimir aqui eu vou chamar SBT pronto atendimento.
+
+36
+00:03:04,740 --> 00:03:11,750
+Vou colocar um espaço em branco antes e o espaço em branco depois e vou colocar aqui no meio pra imprimi
+
+37
+00:03:11,910 --> 00:03:13,680
+o valor do campo propriamente dito.
+
+38
+00:03:13,680 --> 00:03:21,870
+Como que eu tenho um monstrengo digamos assim mas sim de uma sequência de Campos seja dentro do meu
+
+39
+00:03:21,870 --> 00:03:22,580
+tabuleiro.
+
+40
+00:03:22,650 --> 00:03:28,840
+Eu tenho todos os campos e não há uma única senão única sequência dentro de uma lista.
+
+41
+00:03:28,890 --> 00:03:38,340
+Eu vou fazer o seguinte eu vou criar aqui um valor e assim Recife como fizeram dentro de cada um desses
+
+42
+00:03:38,340 --> 00:03:48,120
+campos aqui eu vou dar um e mais mais e vou colocar pra pegar aqui o campo por essa variável então Campos
+
+43
+00:03:48,120 --> 00:03:53,950
+pouco Bad passando o valor de e aquilo que será impresso aqui.
+
+44
+00:03:54,090 --> 00:03:57,780
+Será exatamente o valor do campo que eu estou imprimindo.
+
+45
+00:03:57,780 --> 00:04:03,930
+O valor das colunas estão primeira linha minhas de todas as colunas depois de mim e tal.
+
+46
+00:04:04,050 --> 00:04:07,810
+Então pra eu quebrar as linhas é minha separadas mesmo.
+
+47
+00:04:07,810 --> 00:04:10,250
+Outra é colocar um atendimento de fora.
+
+48
+00:04:10,350 --> 00:04:13,750
+Depois de se formar interno colocando em baile.
+
+49
+00:04:13,860 --> 00:04:15,240
+Aí sim ele vai quebrar a linha.
+
+50
+00:04:15,390 --> 00:04:16,640
+Então executado.
+
+51
+00:04:17,010 --> 00:04:24,360
+Ele vai ver o resultado de 2 3 4 5 6 1 2 3 4 5 6.
+
+52
+00:04:24,360 --> 00:04:25,520
+A mesma coisa.
+
+53
+00:04:25,710 --> 00:04:35,340
+2 3 4 5 6 6 linhas e 6 colunas com todos os campos estão digamos assim fechados ele colocou a apresentação
+
+54
+00:04:35,340 --> 00:04:36,880
+de uma interrogação.
+
+55
+00:04:37,020 --> 00:04:42,570
+Então a gente tem uma versão básica do distrito que pode melhorar um pouco mais depois pra gente colocar
+
+56
+00:04:42,570 --> 00:04:50,800
+por exemplo qual o sinal 0 0 0 0 1 então um pouco mais de flexibilidade na hora de jogar.
+
+57
+00:04:51,240 --> 00:04:57,630
+Mas o que está faltando a gente criar é a função que vai abrir um campo a partir do índice.
+
+58
+00:04:58,050 --> 00:05:05,220
+Então eu vou colocar aqui as públicas logo depois de o construtor lucrar com a função seguinte ao público
+
+59
+00:05:05,250 --> 00:05:07,120
+se coloca aqui como sendo.
+
+60
+00:05:07,600 --> 00:05:17,120
+Eu vou abrir o campo e vou passar aqui a linha e coluna e a partir dessas duas informações eu quero
+
+61
+00:05:17,120 --> 00:05:21,580
+abrir o campo que tem exatamente essa minha coluna pra gente fazer isso.
+
+62
+00:05:21,620 --> 00:05:28,160
+Eu vou usar o pretexto de criar um pai plano para que a gente possa executar selecionar o campo certo.
+
+63
+00:05:28,160 --> 00:05:33,980
+A partir daí a gente um método nobre que eu tenho que fazer em outras palavras e procurar dentro dessa
+
+64
+00:05:33,980 --> 00:05:34,540
+lista.
+
+65
+00:05:34,540 --> 00:05:40,280
+Qual é o campo que tem a linha baseada na linha que foi passada à coluna porque a coluna que foi passada
+
+66
+00:05:40,280 --> 00:05:41,490
+ia fechar um metro.
+
+67
+00:05:42,230 --> 00:05:45,730
+Eu posso fazer isso da seguinte forma Campos.
+
+68
+00:05:45,760 --> 00:05:46,990
+Ponto.
+
+69
+00:05:47,000 --> 00:05:49,830
+Isto é meu paralelos tinham que ser mais rápido.
+
+70
+00:05:49,880 --> 00:05:50,900
+Não tem problema.
+
+71
+00:05:50,900 --> 00:05:59,740
+Vou chamar aqui um filtro pra filtrar por exemplo o campo vai ter em campo o ponto gatilho linha.
+
+72
+00:05:59,810 --> 00:06:00,890
+Tem que ser igual.
+
+73
+00:06:00,890 --> 00:06:02,130
+A linha foi passada.
+
+74
+00:06:02,180 --> 00:06:07,210
+Posso criar um outro filtro aqui em marcha pra outro filtro que vai ser grande.
+
+75
+00:06:07,250 --> 00:06:11,180
+Como eu posso filtrar uma única vez com os dois.
+
+76
+00:06:11,180 --> 00:06:12,650
+Então posso fazer o seguinte.
+
+77
+00:06:12,880 --> 00:06:16,570
+Então a expressão pode ser gatinha.
+
+78
+00:06:16,770 --> 00:06:24,030
+E ser ponto verde coluna igual à coluna que foi passada.
+
+79
+00:06:24,080 --> 00:06:30,210
+A vantagem é você fazer esse filtro usando apenas um ele que já testa tanto a linha como a coluna faz
+
+80
+00:06:30,300 --> 00:06:36,080
+com que você tenha um filtro mais rápido se necessariamente você precisar percorrer duas vezes filtrar
+
+81
+00:06:36,140 --> 00:06:37,700
+a sua coluna e sua linha.
+
+82
+00:06:37,880 --> 00:06:44,450
+Então aqui é uma possibilidade interessante por mais que a nossa expressão foi um pouco maior e uma
+
+83
+00:06:44,450 --> 00:06:46,730
+vez feito isso eu vou pegar aqui.
+
+84
+00:06:46,760 --> 00:06:53,280
+O primeiro então que fiz foi pego o primeiro elemento aqui só vai retornar um único elemento.
+
+85
+00:06:53,280 --> 00:07:01,940
+Aí eu peguei o forte faz com que a partir daqui eu tenha apenas um apaixonam de campo que é exatamente
+
+86
+00:07:01,940 --> 00:07:04,400
+o tipo de parâmetro que eu tenho dentro da lista.
+
+87
+00:07:04,670 --> 00:07:09,800
+Então se você olhar o resultado o Fábio foge ele vai retornar para a gente não mais o historinha porque
+
+88
+00:07:09,800 --> 00:07:16,430
+ele é uma operação treinadora ele vai retornar para a gente um opcional de campo e a gente sabe que
+
+89
+00:07:16,430 --> 00:07:19,530
+o Lopes não de campo a gente já viu esse tipo antes.
+
+90
+00:07:19,610 --> 00:07:21,820
+Tem um método eles fazem.
+
+91
+00:07:21,920 --> 00:07:25,180
+Ou seja se tiver presente execute ou determinada ação.
+
+92
+00:07:25,180 --> 00:07:31,810
+E aqui nós temos o próprio campo e nesse lado você vai chamar o do abril.
+
+93
+00:07:31,860 --> 00:07:37,690
+Ou seja cabe ele abriu o campo se tiver presente que vai bater com a minha coluna que você passou aqui.
+
+94
+00:07:37,700 --> 00:07:42,620
+Então esse é um método que vai ser o método de abrir e outro método que a gente vai precisar também
+
+95
+00:07:42,620 --> 00:07:50,780
+ao metro de marcar que não vai ser muito diferente desse aqui eu vou chamar o método marcar que você
+
+96
+00:07:50,780 --> 00:07:52,390
+vai passar a linha coluna.
+
+97
+00:07:52,390 --> 00:08:00,580
+Basicamente eu vou pegar aqui o filtro selecione a linha que foi passada e que foi passada deu mate
+
+98
+00:08:00,680 --> 00:08:03,120
+achou esse elemento para o primeiro.
+
+99
+00:08:03,140 --> 00:08:11,950
+Se tiver presente vai chamar o Zé outro marca ao alterar a marcação aqui eu vou chamar também altera
+
+100
+00:08:11,960 --> 00:08:19,640
+a marcação para a FCA seguir a mesma lógica então abri você escolhe em qual a coluna e altera a marcação
+
+101
+00:08:19,640 --> 00:08:20,900
+diz a linha à coluna.
+
+102
+00:08:20,900 --> 00:08:26,450
+Feito isso agora a gente consegue fazer alguns testes aqui ou então no nosso próprio método.
+
+103
+00:08:26,930 --> 00:08:32,170
+Você pode fazer os testes unitários e eu encorajo você fazer os testes unitários mais aqui eu fazer
+
+104
+00:08:32,180 --> 00:08:44,590
+o seguinte tabuleiro ponto a abri o Abril 3 3 e vou marcar aqui só pra gente testar o tabuleiro.
+
+105
+00:08:44,740 --> 00:08:58,620
+Quanto alterar a marcação do 4 4 e vou marcar também por exemplo o 4 5 bateu 5 fizeram até 5 porque
+
+106
+00:08:58,630 --> 00:09:05,720
+a gente colocou aqui 6 linhas e seis colunas traz apenas se eu tentar abri e ele encontrar uma bomba
+
+107
+00:09:05,720 --> 00:09:10,850
+ele vai dar essa ação caso ele não encontrou a bomba ele vai abrir o campo tratado.
+
+108
+00:09:11,180 --> 00:09:25,730
+Eu abri o 4 4 0 2 3 4 uma me abriu 3 então quiseram 2 3 0 1 2 3 exatamente esse campo aqui e ao redor
+
+109
+00:09:25,730 --> 00:09:31,000
+dele existe uma bomba por isso que ele não saiu expandindo e eu marquei o 4 4.
+
+110
+00:09:31,030 --> 00:09:34,220
+Esse é o 4 5 caso seja marcação.
+
+111
+00:09:34,220 --> 00:09:38,720
+Se ele for bem sucedida é igual abri também novamente.
+
+112
+00:09:38,890 --> 00:09:46,440
+Agora eu tentei abri o 3 3 que foi esse aqui ele saiu escondido pra outros e aqui eu tenho duas bombas
+
+113
+00:09:46,460 --> 00:09:53,210
+aqui eu tenho duas duas uma ou duas e eu marquei também essa é aqui nesse ponto que é exatamente o 4
+
+114
+00:09:53,210 --> 00:10:00,700
+4 ou seja a linha 4 com o número 4 ele acabou colocando o valor 2 porque aí porque antes de alternar
+
+115
+00:10:00,700 --> 00:10:06,910
+a marcação como ele abriu ele já saiu escondido e esse era um dos campos que podia ser aberto logo de
+
+116
+00:10:06,910 --> 00:10:07,810
+cara.
+
+117
+00:10:07,810 --> 00:10:13,510
+Por isso que ele não está marcado aqui seu primeiro marcado e depois mandar abrir.
+
+118
+00:10:13,510 --> 00:10:18,610
+Você vai ver que esse campo sempre estará marcado até porque ele não pode abrir um canto marcado que
+
+119
+00:10:18,720 --> 00:10:27,090
+ao 2 abril de cara porque era uma vizinhança perigosa então ele não expandiu e aqui está marcado eventualmente
+
+120
+00:10:27,120 --> 00:10:28,500
+começa a executar demais.
+
+121
+00:10:28,510 --> 00:10:33,870
+Pode ser que ele gera até uma explosão nesse campo estará marcado ele acabou escondido pediu uma vizinha
+
+122
+00:10:34,030 --> 00:10:40,090
+que podia escondi e se eu tivesse de executar mais alto algumas vezes uma hora ou outra ele vai acabar
+
+123
+00:10:40,090 --> 00:10:41,520
+gerando a explosão.
+
+124
+00:10:41,830 --> 00:10:44,770
+Eu consigo simular a situação simulou.
+
+125
+00:10:44,770 --> 00:10:46,540
+Nesse caso estava minado.
+
+126
+00:10:46,630 --> 00:10:52,490
+3.3 Eu tentei abrir e gerou uma explosão que servem ou seja nesse caso não haveria pedido.
+
+127
+00:10:52,600 --> 00:10:58,190
+Se tivesse começado a abrir o tabuleiro por aqui a gente fez alguns testes agora da forma tradicional
+
+128
+00:10:58,200 --> 00:10:58,970
+usando.
+
+129
+00:10:59,320 --> 00:11:03,790
+Algumas coisas visuais já estão funcionando só que a gente precisa criar uma classe que vai controlar
+
+130
+00:11:03,790 --> 00:11:04,900
+essa lógica.
+
+131
+00:11:04,970 --> 00:11:10,900
+Usuário digitar o campo onde está a linha onde está a coluna ou então digitar os dois ao mesmo tempo
+
+132
+00:11:10,900 --> 00:11:18,190
+com vírgula selecionar se quer marcar se quer abrir o campo e aí perguntado e executam o jogo pra daí
+
+133
+00:11:18,190 --> 00:11:24,080
+a gente conseguir executar o jogo de forma interativa ou seja repetindo até o usuário chegar a uma conclusão
+
+134
+00:11:24,090 --> 00:11:31,200
+homens perdem a partir de uma explosão na próxima aulas uns espartilho para uma classe nova que é implementar
+
+135
+00:11:31,270 --> 00:11:37,510
+o nossa nosso pacote visão e ter apenas uma única classe neste pacote que será a classe responsável
+
+136
+00:11:37,510 --> 00:11:42,840
+por fazer essa interação com o usuário de mostrar algumas perguntas do usuário responder.
+
+137
+00:11:42,860 --> 00:11:49,180
+O jogo evoluído do próprio console do sistema então fico por aqui na próxima continua para a gente já
+
+138
+00:11:49,180 --> 00:11:52,720
+está nos finalmente do jogo bem pertinho de concluir e até lá.

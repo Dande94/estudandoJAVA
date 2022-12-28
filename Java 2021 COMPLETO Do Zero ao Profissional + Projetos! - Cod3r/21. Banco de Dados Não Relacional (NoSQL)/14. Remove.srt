@@ -1,0 +1,311 @@
+1
+00:00:00,400 --> 00:00:04,390
+Pensar nas mãos agora fazer as remoções para gente vender um pouquinho também.
+
+2
+00:00:04,410 --> 00:00:08,120
+Como funciona a função de músicos da aula passar pra cá.
+
+3
+00:00:08,190 --> 00:00:15,940
+Eu criei um arquivo chamado Opus Dei TXT e peguei exatamente as mesmas consultas que nós fizemos lado
+
+4
+00:00:16,260 --> 00:00:22,070
+nos mesmos rapidez que nós fizemos na aula passada coloquei aqui as consultas e não coloquei mais updates
+
+5
+00:00:22,080 --> 00:00:28,870
+eu coloquei sem problema nós fizemos uma consulta no final posso até copiar mim só pra ficar registrado
+
+6
+00:00:28,890 --> 00:00:29,770
+aqui.
+
+7
+00:00:29,940 --> 00:00:38,370
+Certo mas o fato é que nós fizemos esses três updates usando aqui o filtro o 7 o 7 depois usamos o push
+
+8
+00:00:38,400 --> 00:00:41,790
+pra adicionar um novo objeto dentro de cidades.
+
+9
+00:00:41,790 --> 00:00:43,900
+Agora nós vamos criar aqui um arquivo.
+
+10
+00:00:44,780 --> 00:00:51,450
+Eu vou criar o arquivo e escrever diretamente no próprio console lá do morro e depois a gente copia
+
+11
+00:00:51,590 --> 00:00:56,910
+pois depois um cópia pra cá você copia em casa para aqui conosco mais do que um repositório do curso
+
+12
+00:00:56,910 --> 00:01:02,400
+todos os registros daquilo que nós fizemos nesse capítulo que também estejam disponíveis no âmbito do
+
+13
+00:01:02,400 --> 00:01:08,370
+nosso curso então vamos continuar aqui eu vou daqui uns LS só para a gente ter uma referência.
+
+14
+00:01:08,370 --> 00:01:14,540
+A gente tem atualmente hoje quatro registros na nossa coleção de estados.
+
+15
+00:01:14,640 --> 00:01:19,370
+Nós vamos fazer agora o primeiro bebê dos Estados Reguffe a sigla.
+
+16
+00:01:19,380 --> 00:01:24,710
+Assim eu vou remover o Estado cuja sigla é assim no caso do estado do Acre.
+
+17
+00:01:24,980 --> 00:01:29,040
+Então selecionando aí até aqui ele disse que hoje foi removido.
+
+18
+00:01:29,040 --> 00:01:34,470
+Se eu fizer um bebê ponto estados pouco cauteloso vai ver que agora tem três registros apenas ou seja
+
+19
+00:01:34,470 --> 00:01:39,820
+três documentos fazem uma consulta então bebê ponto estados faz.
+
+20
+00:01:39,840 --> 00:01:44,360
+Aqui eu vou colocar ele ficar mais bonitinho.
+
+21
+00:01:44,370 --> 00:01:51,910
+Nós temos atualmente o estado de Alagoas no estado do Rio de Janeiro e o Estado de São Paulo.
+
+22
+00:01:51,960 --> 00:02:01,440
+Vou colocar aqui um CLS e agora eu vou excluir os Estados que não têm encetado não tem ao atributo população
+
+23
+00:02:01,440 --> 00:02:09,090
+então faz o seguinte bebê ponto estados Porto Novo vou usar como filtro população dois pontos o operador
+
+24
+00:02:09,250 --> 00:02:15,090
+existe dois pontos falsos ou seja não tem e não tem esse atributo.
+
+25
+00:02:15,090 --> 00:02:19,920
+Só que eu quero limitar essa minha remoção para apenas um único registro.
+
+26
+00:02:19,920 --> 00:02:26,940
+Se a gente olhar aqui anteriormente você vê que a cidade de São Paulo tem atributo população mas o Rio
+
+27
+00:02:26,940 --> 00:02:29,070
+de Janeiro não tem população.
+
+28
+00:02:29,130 --> 00:02:31,230
+No caso Alagoas tem população.
+
+29
+00:02:31,350 --> 00:02:37,410
+De qualquer forma Serasa e taças comanda apenas um único registro iria ser apagado mas se você passar
+
+30
+00:02:37,410 --> 00:02:43,280
+com um segundo parâmetro pra ser excluído apenas um significa que só vai ser excluído apenas um.
+
+31
+00:02:43,320 --> 00:02:50,070
+Eu posso até colocar pra ser um troll por exemplo então vou colocar aqui pra Centro.
+
+32
+00:02:50,340 --> 00:02:52,210
+Nós temos dois.
+
+33
+00:02:52,360 --> 00:03:01,680
+Aqui coloca aqui ou seja nesse caso dois estados têm população o caso são paulo tem população e Rio
+
+34
+00:03:01,680 --> 00:03:04,770
+de Janeiro tem população fazendo isso.
+
+35
+00:03:04,790 --> 00:03:07,570
+Eles estão dizendo que eu quero que ele escolha apenas um.
+
+36
+00:03:07,650 --> 00:03:14,510
+Por mais que o critério aponte pra dois ele vai excluir apenas um então executando aqui.
+
+37
+00:03:14,910 --> 00:03:22,110
+Ele disse que excluiu nesse caso se eu fizer um filho ele continua com o Estado de São Paulo e continua
+
+38
+00:03:22,110 --> 00:03:28,920
+com o estado do Rio de Janeiro mas o estado de Alagoas que tem um atributo população foi excluído porque
+
+39
+00:03:29,220 --> 00:03:35,340
+ele ao critério era esse eu disse para escolher apenas o registro a partir desse comando de.
+
+40
+00:03:35,970 --> 00:03:41,430
+Então obviamente se eu fizer um caos de em estados onde cauteloso daqui tem apenas dois registros nesse
+
+41
+00:03:41,430 --> 00:03:46,050
+momento pode estar agora mas temos o Estado de São Paulo no estado do Rio de Janeiro.
+
+42
+00:03:46,080 --> 00:03:53,550
+Eu quero fazer o seguinte eu quero atualizar a população do estado do Rio de Janeiro pra 16 milhões
+
+43
+00:03:53,550 --> 00:03:59,460
+720 mil habitantes são 16 milhões 720 mil habitantes.
+
+44
+00:03:59,460 --> 00:04:06,520
+Vocês podem pausar o vídeo agora e tentar fazer esse desafio que é atualizar vocês de criar um jornal
+
+45
+00:04:06,560 --> 00:04:09,900
+atributo população no Estado do Rio de Janeiro.
+
+46
+00:04:10,000 --> 00:04:13,440
+Atualizando o valor de 16 milhões 720 mil habitantes.
+
+47
+00:04:13,480 --> 00:04:20,160
+Eu vou passar um vídeo você pause o vídeo aí tenta fazer esse desafio e eu vou mostrar o resultado em
+
+48
+00:04:20,160 --> 00:04:21,110
+3 segundos
+
+49
+00:04:24,610 --> 00:04:29,960
+pronto agora vou mostrar para vocês o resultado então vai ser bem simples ao bebê ponto estados ponto
+
+50
+00:04:29,960 --> 00:04:33,730
+updates a sigla vai Sérgio J vírgula.
+
+51
+00:04:33,780 --> 00:04:35,490
+Eu vou usar o operador set.
+
+52
+00:04:35,680 --> 00:04:43,230
+Dois pontos o objeto é sem população e vai ser de 16 milhões 720 mil habitantes dando a ideia aqui d
+
+53
+00:04:43,250 --> 00:04:53,260
+um erro aqui está faltando eu fechar o meu filtro aqui em cima claro e tirar 1 a chave aqui atrás fazendo
+
+54
+00:04:53,260 --> 00:04:59,470
+isso vai dar certo ou seja ele atualizou aqui o Rio de Janeiro e se eu fizer uma consulta colocando
+
+55
+00:04:59,470 --> 00:05:09,530
+aqui um filho você vai ver que agora o Rio de Janeiro também tem a população de 16 milhões 720 mil habitantes.
+
+56
+00:05:09,670 --> 00:05:15,700
+Nesse caso agora porque não colocar a população porque eu quero excluir os Estados que têm população
+
+57
+00:05:15,700 --> 00:05:22,420
+menor do que em 20 milhões de habitantes são paulo tem uma população de 45 milhões de habitantes e o
+
+58
+00:05:22,420 --> 00:05:26,000
+Rio de Janeiro tem um população menor do que 20 milhões de habitantes.
+
+59
+00:05:26,020 --> 00:05:33,670
+Então pra fazer essa remoção um operador de bola ele tem Last deve usar esse aparador pra seu filtro
+
+60
+00:05:33,670 --> 00:05:36,880
+passa o critério que nós vamos usar para excluir os Estados.
+
+61
+00:05:36,880 --> 00:05:44,510
+Então vou colocar aquele bebê ponto estados ponto em novo no caso a população vou colocar ele tem de
+
+62
+00:05:44,510 --> 00:05:45,320
+Leste.
+
+63
+00:05:45,930 --> 00:05:51,610
+E aí vou colocar aqui 20 milhões de habitantes então nesse caso o critério que eu vou usar para remover
+
+64
+00:05:51,610 --> 00:05:57,880
+é que a população tem menos de 20 milhões de habitantes eu poderia se quiser colocar aqui para remover
+
+65
+00:05:57,880 --> 00:06:04,600
+no máximo x Estados sem problema mas esse caso não vai fazer diferença e já foi removido o Estado se
+
+66
+00:06:04,600 --> 00:06:07,100
+a gente fizer uma consulta aqui vai proibir.
+
+67
+00:06:07,240 --> 00:06:13,030
+Vocês vão ver que o único estado que sobrou foi o estado de São Paulo porque nessa última remoção ele
+
+68
+00:06:13,030 --> 00:06:16,210
+tem uma população maior do que 20 milhões de habitantes.
+
+69
+00:06:16,330 --> 00:06:22,690
+Então pessoal ficamos por aqui na sala que nós vimos a função remover e fizemos alguns testes diferentes
+
+70
+00:06:22,830 --> 00:06:29,730
+de como remover a parte por exemplo o tamanho da do Estado na quantidade de habitantes usando o operador
+
+71
+00:06:29,740 --> 00:06:30,680
+lá dentro.
+
+72
+00:06:31,000 --> 00:06:36,680
+Nós fizemos a exclusão simples simplesmente excluir a parte de um filtro fizemos uma exclusão passando
+
+73
+00:06:36,700 --> 00:06:41,080
+como o segundo parâmetro marcar o limite máximo daquilo que a gente queria excluir.
+
+74
+00:06:41,380 --> 00:06:47,070
+Então é sempre bom e sempre seguro se você quer excluir apenas um único registro passa o segundo parâmetro
+
+75
+00:06:47,080 --> 00:06:51,520
+que ele vai garantir que vai ser excluído apenas o único registro porque eventualmente se você tiver
+
+76
+00:06:51,520 --> 00:06:56,650
+feito alguma coisa errado você garante que pelo menos somente o único registro foi excluído.
+
+77
+00:06:56,650 --> 00:07:01,870
+Ficamos por aqui na posse aula a gente continua mas vamos criar uma outra coleção de empresa e eu espero
+
+78
+00:07:01,870 --> 00:07:02,620
+na proximal.

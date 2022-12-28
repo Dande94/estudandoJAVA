@@ -1,0 +1,503 @@
+1
+00:00:00,270 --> 00:00:03,150
+Pessoal quero falar um pouquinho pra vocês nessa aula.
+
+2
+00:00:03,150 --> 00:00:11,370
+A relação que existe na construção do objeto como funciona a construção do objeto quando a herança é
+
+3
+00:00:11,490 --> 00:00:17,310
+a relação que existe com os construtores é importante você entender um pouco desse princípio.
+
+4
+00:00:17,340 --> 00:00:24,870
+Nós vimos em alguns algumas aulas atrás não sei exatamente quantas que nós podemos definir mais de um
+
+5
+00:00:24,920 --> 00:00:30,680
+construtor dentro de uma classe então nós temos uma classe e nós temos aqui um construtor que essa quantidade
+
+6
+00:00:30,680 --> 00:00:36,210
+de parâmetros e nós temos um outro construtor que está no outro outra quantidade e parâmetros por exemplo
+
+7
+00:00:36,210 --> 00:00:38,610
+pode ter até um terceiro construtor sem problema nenhum.
+
+8
+00:00:38,820 --> 00:00:47,610
+Nós vimos que o construtor usado dentro de um construtor você usando o 10 como um método você pode chamar
+
+9
+00:00:47,610 --> 00:00:50,190
+um construtor dentro de outro construtor.
+
+10
+00:00:50,190 --> 00:00:55,860
+Então vamos supor que num caso bem simples que você a partir desse construtor queira chamar o construtor
+
+11
+00:00:55,860 --> 00:01:00,480
+de baixo esse construtor de barco que queira chamar o outro construtor de barco.
+
+12
+00:01:00,480 --> 00:01:06,170
+Isso é um problema não é um problema porque constou pode chamar o outro e outro constou pode chamar
+
+13
+00:01:06,170 --> 00:01:09,750
+o terceiro o que não pode acontecer é você.
+
+14
+00:01:09,840 --> 00:01:16,050
+A parte desse construtor querer chamar o primeiro de novo o que ele vai gerar um círculo infinito Ele
+
+15
+00:01:16,050 --> 00:01:21,810
+nunca vai sair desse processo de construção ou mesmo você a partir desse chamar o construtor de cima
+
+16
+00:01:22,170 --> 00:01:28,320
+também não pode porque ele baixará indefinidamente um ciclo que ele nunca vai resolver e nunca vai construir
+
+17
+00:01:28,320 --> 00:01:32,540
+o objeto de tal forma que ele pode fazer isso chamar o outro.
+
+18
+00:01:32,540 --> 00:01:38,040
+Mais um desses construtores precisa realmente concluir o processo de construção.
+
+19
+00:01:38,220 --> 00:01:45,150
+Quando você tem a estrutura de herança então você tem aqui uma classe e você tem uma ou outra classe
+
+20
+00:01:45,240 --> 00:01:45,920
+em cima.
+
+21
+00:01:45,920 --> 00:01:52,020
+E esse cara herda do de cinco ou sete então tem aqui uma classe mais genérica a classe mais específica
+
+22
+00:01:52,020 --> 00:01:55,240
+que a sua classe e baixa subclasse.
+
+23
+00:01:55,620 --> 00:02:02,310
+Vamos supor que você defina dentro dessa classe um construtor aqui defina um outro construtor.
+
+24
+00:02:02,370 --> 00:02:07,650
+E aqui em cima você tem o construtor padrão o que é que vai acontecer nessa construção bons porque você
+
+25
+00:02:07,980 --> 00:02:14,400
+chamou aqui a partir desse construtor se chamou o custo de baixo e necessariamente quando você chama
+
+26
+00:02:14,400 --> 00:02:20,930
+o custo de baixo pelo menos um construtor vai chamar o construtor a classe pai.
+
+27
+00:02:21,060 --> 00:02:27,120
+Certo Como é que eu chamo o construtor da classe pai o chamado construtor da classe atual você chama
+
+28
+00:02:27,120 --> 00:02:35,520
+o 10 como um método é pra chamar o construtor da classe baixa vocês chamam os supere o supérfluo como
+
+29
+00:02:35,660 --> 00:02:36,660
+método.
+
+30
+00:02:36,690 --> 00:02:44,940
+Da mesma forma que você consegue fazer 10 ponto o nome do atributo certo você consegue fazer isso da
+
+31
+00:02:44,940 --> 00:02:47,980
+mesma forma que você consegue também chamar se chupa.
+
+32
+00:02:48,410 --> 00:02:49,000
+Ponto.
+
+33
+00:02:49,080 --> 00:02:55,590
+O nome do método ou o nome do atributo A gente usou isso no exemplo que nós fizemos do herói dentro
+
+34
+00:02:55,590 --> 00:02:56,960
+da classe herói.
+
+35
+00:02:57,180 --> 00:03:04,830
+A gente conseguiu chamar o metro para cá a partir do Sul o sul bem acessado sul e como sendo a referência
+
+36
+00:03:05,160 --> 00:03:07,840
+do meu objeto o que representa a classe Python.
+
+37
+00:03:08,170 --> 00:03:12,480
+Mas você também pode chamar o Supremo como um método.
+
+38
+00:03:12,500 --> 00:03:15,510
+Isso significa que você está chamando o construtor da classe baixa.
+
+39
+00:03:15,930 --> 00:03:23,250
+Então por mais que você tenha situações complexas por exemplo eu tenho aqui uma classe que tem uma outra
+
+40
+00:03:23,250 --> 00:03:29,550
+classe e aqui eu tenho uma herança e você tem aquilo que chutou você tem o outro custou.
+
+41
+00:03:29,550 --> 00:03:36,380
+Você tem um outro construtor você tem aqui mais dois construtores então um pouquinho Apache desse ao
+
+42
+00:03:36,380 --> 00:03:40,520
+usuario construir um objeto chamado esse constante do meio.
+
+43
+00:03:40,590 --> 00:03:46,340
+Esse conceito pode chamar o 10 por exemplo esse outro pode chamar o 10 aqui embaixo.
+
+44
+00:03:46,360 --> 00:03:52,020
+Esse outro chutou mais esse aqui uma vez que eu não tenho mais nenhum outro construtor obrigatoriamente
+
+45
+00:03:52,020 --> 00:03:58,440
+precisa chamar um dos dois construtores de cima e uma vez esse constou aqui chegar para chamar o dele
+
+46
+00:03:58,440 --> 00:04:05,100
+também para construir os anéis com chutou e esse constou vai chamar o construtor da classe pai certo
+
+47
+00:04:05,160 --> 00:04:11,040
+de tal forma que ele vai construir toda a hierarquia de objeto não apenas o objeto atual mas tem que
+
+48
+00:04:11,040 --> 00:04:15,770
+chamar o construtor da classe pai e aí você vai construindo o objeto.
+
+49
+00:04:15,930 --> 00:04:16,770
+Padrão.
+
+50
+00:04:16,800 --> 00:04:21,000
+Quando você tem uma classe eu já falei isso anteriormente.
+
+51
+00:04:21,000 --> 00:04:25,900
+Quando você tem uma classe você tem um construtor padrão que você não precisa implementar.
+
+52
+00:04:26,080 --> 00:04:30,190
+E esse conceito padrão está definido dentro da classe de forma implícita.
+
+53
+00:04:30,180 --> 00:04:38,120
+Por padrão todo construtor padrão ele tem apenas uma única chamada dentro dele que é o Super e eu sou
+
+54
+00:04:38,130 --> 00:04:39,490
+bem ele chama.
+
+55
+00:04:39,510 --> 00:04:42,360
+Em outras palavras o custo padrão na classe pai.
+
+56
+00:04:42,480 --> 00:04:48,300
+Então por padrão todo o construtor padrão que é o custo padrão constou que não recebe nenhum parâmetro
+
+57
+00:04:48,860 --> 00:04:55,350
+ele ou a sua implementação normal ou seja d for chamar o construtor padrão na classe pai.
+
+58
+00:04:55,380 --> 00:05:02,210
+Lá Lawrence na classe não tiver o conceito padrão que é que vai acontecer aconteceu e você explicitamente
+
+59
+00:05:02,210 --> 00:05:04,520
+precisa chamar o construtor correto.
+
+60
+00:05:04,590 --> 00:05:07,770
+Eu vou mostrar isso pra vocês nesse exercício então vou parar aqui.
+
+61
+00:05:07,940 --> 00:05:15,560
+A gravação pede vou já voltar aqui para o nosso colo para que a gente possa ver esse conceito na prática.
+
+62
+00:05:15,560 --> 00:05:20,840
+Vou fazer o seguinte dentro do nosso exemplo se esse é o desafio que nós fizemos no ano passado mais
+
+63
+00:05:20,840 --> 00:05:27,200
+o anterior do herói do jogador tal a nossa classe genérica o jogador não tem nenhum com chutou mas o
+
+64
+00:05:27,240 --> 00:05:31,320
+2.0 chutou explícito porque toda classe tem pelo menos um cão chutou.
+
+65
+00:05:31,640 --> 00:05:36,020
+Nesse caso constatou que ela tem um custo implícito que é o custo padrão.
+
+66
+00:05:36,020 --> 00:05:43,280
+Vamos supor que dentro do jogador eu não queira ter o conceito padrão eu queira ter o chutou explícito
+
+67
+00:05:43,310 --> 00:05:44,410
+o que vai acontecer.
+
+68
+00:05:44,420 --> 00:05:51,470
+Eu posso chegar aqui ou definir o nome do jogador ou seja definiu constou que o mesmo nome da classe
+
+69
+00:05:51,770 --> 00:05:58,430
+sem nenhum tipo de retorno é que eu vou definir que obrigatoriamente vou receber como parâmetro a posição
+
+70
+00:05:58,430 --> 00:06:08,840
+X e a posição Y do meu jogador de tal forma que eu faço 10 pontos X recebe X e 10 pontos y recebe o
+
+71
+00:06:08,840 --> 00:06:09,850
+valor de PIBs.
+
+72
+00:06:09,950 --> 00:06:17,740
+No momento que eu salvar esse arquivo ponto Java o eclipse automaticamente vai gerar o ponto que ele
+
+73
+00:06:17,750 --> 00:06:23,650
+vai compilar o nosso código ele está fazendo isso porque aqui dentro de Project eu tenho esse menu ao
+
+74
+00:06:23,650 --> 00:06:29,930
+custo e automaticamente saltado salvei ele vai gerar o pulo Class e automaticamente vai gerar vários
+
+75
+00:06:29,930 --> 00:06:32,140
+problemas da nossas heranças porquê.
+
+76
+00:06:32,150 --> 00:06:38,110
+Porque agora ele vai dizer que o herói não pode ser criado por quem o que acontece o que é o construtor
+
+77
+00:06:38,120 --> 00:06:42,140
+padrão que é o construtor que tem o mesmo nome da classe que é herói.
+
+78
+00:06:42,170 --> 00:06:43,330
+Qual é o trabalho dele.
+
+79
+00:06:43,330 --> 00:06:46,750
+O que é que ele faz por padrão simplesmente chamar o suspeito.
+
+80
+00:06:47,000 --> 00:06:49,800
+Ou seja ele vai chamar o construtor padrão da classe pai.
+
+81
+00:06:49,910 --> 00:06:51,440
+Mas isso já não existe.
+
+82
+00:06:51,440 --> 00:06:58,490
+Ou seja não tem mais a possibilidade de eu construí o objeto pai o objeto o jogador usando o construtor
+
+83
+00:06:58,490 --> 00:07:05,460
+padrão se ele vem aqui jogador e dizer que ele tem a possibilidade de criar um jogador usando o conceito
+
+84
+00:07:05,480 --> 00:07:10,900
+padrão para que o jovem jogador não vai receber nenhum parâmetro.
+
+85
+00:07:11,060 --> 00:07:18,170
+E eu posso por exemplo aqui chamar o 10 passar a coordenadas eram zero como será padrão 7 ou seja eu
+
+86
+00:07:18,170 --> 00:07:23,990
+voltei a ter o meu conceito ou padrão o que significa que dentro Gerald não tem problema nenhum.
+
+87
+00:07:24,020 --> 00:07:29,720
+O meu construtor chamar o Supremo porque esse é o construtor da classe pai continua existindo porque
+
+88
+00:07:29,720 --> 00:07:36,370
+lá na classe baixa ou se usa aqui com o como no meu caso ou contra ou você coloca aqui em cima.
+
+89
+00:07:36,590 --> 00:07:43,460
+Ele vai exatamente para o custo total da classe Bay que é o construtor que não sabe nenhum parâmetro
+
+90
+00:07:43,460 --> 00:07:49,460
+exatamente o conceito de custo padrão e aqui outro chamado 10 que é o construtor da própria classe chamado
+
+91
+00:07:50,040 --> 00:07:52,370
+constou que recebe o X e o IBGE.
+
+92
+00:07:52,400 --> 00:07:54,110
+Mas voltando aqui eu vou tirar.
+
+93
+00:07:54,590 --> 00:08:01,190
+Eu não quero ter o custo padrão como é que eu faço pra resolver esse problema você pode resolver colocando
+
+94
+00:08:01,340 --> 00:08:07,640
+explicitamente o valor de x e y aqui ou mesmo colocar essa responsabilidade pra quem foi instancia ao
+
+95
+00:08:07,650 --> 00:08:13,750
+herói no caso que eu vou fazer o seguinte vou também esperar receber um X e Y.
+
+96
+00:08:13,990 --> 00:08:22,230
+E vou passar o X pra cá e o Ibson pra cá de tal forma que na hora de construir o meu herói aqui no jogo
+
+97
+00:08:22,330 --> 00:08:28,750
+tá no jogo eu vou construir ou repassando o valor de x e o valor de y.
+
+98
+00:08:28,930 --> 00:08:34,410
+E não vou passar não vou precisar passar aqui depois simplesmente construir ou repassando valores x
+
+99
+00:08:34,410 --> 00:08:43,040
+e y no caso do monstro eu vou criar aqui o construtor padrão então mesmo um curso tem o mesmo nome da
+
+100
+00:08:43,040 --> 00:08:43,600
+classe.
+
+101
+00:08:43,630 --> 00:08:44,800
+Então colocar aqui.
+
+102
+00:08:45,110 --> 00:08:52,820
+E nesse caso eu vou digamos assim chamar o sub passado 0 zero ou seja todo mundo criado ele começa na
+
+103
+00:08:52,820 --> 00:08:59,660
+posição 00 que poderia ser uma boa lógica do seu programa ou você mesmo dizer que posição ou chuva apareceu
+
+104
+00:08:59,660 --> 00:09:04,880
+o que seria mais flexível mas como eu quero resolver de duas formas diferentes uma passa nos valores
+
+105
+00:09:04,880 --> 00:09:12,110
+fixos aqui e no caso do herói eu passei o valor no próprio constou do herói de tal forma que agora eu
+
+106
+00:09:12,110 --> 00:09:18,950
+estou chamando explicitamente eu preciso chamar explicitamente sempre que a classe baixa não tiver o
+
+107
+00:09:19,010 --> 00:09:20,570
+uso do padrão definido.
+
+108
+00:09:20,670 --> 00:09:27,530
+Então esse é um conceito importante que você conhece que no jogo eu posso chamar um monstro sem definir
+
+109
+00:09:27,530 --> 00:09:30,530
+nada pelo padrão de jabá assumir o valor 0 zero.
+
+110
+00:09:30,680 --> 00:09:37,040
+Se você quiser criar aqui dentro de monstro um outro construtor que recebe X e Y também poderia ser
+
+111
+00:09:37,040 --> 00:09:48,360
+um possibilidade você pode colocar aqui só pra receber x y e você chamar aqui por exemplo para x e y.
+
+112
+00:09:48,370 --> 00:09:55,400
+E aqui você tanto pode chamar o super como você pode chamar o 10 ou seja o 10 está chamando esse cogitou
+
+113
+00:09:55,990 --> 00:10:01,970
+e esse constou está chamando suprem de tal forma que pelo menos vai no consultor da classe pai.
+
+114
+00:10:02,010 --> 00:10:08,610
+E agora tem a possibilidade de construir o monstro aqui dentro de jogo passando o chamado custo padrão
+
+115
+00:10:08,960 --> 00:10:13,380
+e saltando depois a posição do moço como eu também posso passar os parâmetros aqui.
+
+116
+00:10:13,380 --> 00:10:14,180
+Tá certo.
+
+117
+00:10:14,190 --> 00:10:20,130
+Então algumas possibilidades para a gente criar e resolver essa questão do custo padrão então por padrão
+
+118
+00:10:20,640 --> 00:10:25,150
+um construtor padrão e muito padrão não estou falando mais por padrão.
+
+119
+00:10:25,150 --> 00:10:31,850
+Uma classe tem um conceito padrão e esse conceito padrão chama o conceito do padrão da classe pai será
+
+120
+00:10:31,860 --> 00:10:38,190
+na classe pai o conceito padrão não estiver definido você precisa e explicitamente definiu o construtor
+
+121
+00:10:38,230 --> 00:10:41,390
+e chamar o bem passando os parâmetros corretos.
+
+122
+00:10:41,400 --> 00:10:48,150
+Porque o Java não sabe como criar esse objeto a não ser que você explicitamente diga quais são os parâmetros
+
+123
+00:10:48,150 --> 00:10:54,270
+necessários para criar a classe suspeita certo uma vez que você instancia uma classe específica não
+
+124
+00:10:54,270 --> 00:11:00,870
+apenas essa classe distanciada mas todos os construtores em toda a hierarquia é chamado de tal forma
+
+125
+00:11:00,870 --> 00:11:07,430
+que sempre há uma classe chamo suprem para a outra classe seja de forma implícita ou seja de forma explícita
+
+126
+00:11:07,430 --> 00:11:09,870
+fique por aqui na próxima a gente continua até lá.

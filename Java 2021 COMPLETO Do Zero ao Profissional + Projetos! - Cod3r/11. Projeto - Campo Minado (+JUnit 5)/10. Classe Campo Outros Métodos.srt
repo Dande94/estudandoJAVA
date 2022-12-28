@@ -1,0 +1,447 @@
+1
+00:00:00,140 --> 00:00:07,020
+Penso agora nas mãos parti para aos finalmente da nossa classe campo para daí parti para outro espaço
+
+2
+00:00:07,020 --> 00:00:08,050
+o nosso jogo.
+
+3
+00:00:08,100 --> 00:00:11,510
+Vou criar aqui algumas coisas que eu sei que vou precisar.
+
+4
+00:00:11,720 --> 00:00:16,770
+E o fluxo normal é você é implementado é a paixão mesmo que você precise de uma funcionalidade.
+
+5
+00:00:16,770 --> 00:00:18,260
+Você vai lá implementar ela.
+
+6
+00:00:18,600 --> 00:00:24,050
+Nesse caso eu vou precisar eu sei que eu vou precisar mais na frente porque eu já tenho.
+
+7
+00:00:24,050 --> 00:00:29,830
+Já tem um código completo do jogo eu vou ser que eu vou precisar da função que vai retornar.
+
+8
+00:00:29,840 --> 00:00:30,790
+Qual é a linha.
+
+9
+00:00:30,810 --> 00:00:33,150
+E qual é a coluna naquele campo.
+
+10
+00:00:33,150 --> 00:00:39,030
+Nós temos dois atributos do tipo então vou criar um método Guedes eu posso criar um método GET usando
+
+11
+00:00:39,030 --> 00:00:40,990
+Properties para ajudá lo.
+
+12
+00:00:41,070 --> 00:00:50,010
+Generation Get três setas Se você pegar por exemplo um campo que é booleano por exemplo minar você vai
+
+13
+00:00:50,010 --> 00:00:59,640
+ver que o set é esse minado e o 7 melhor dizendo é o examinado e o 7.7 minado e campos como por exemplo
+
+14
+00:00:59,640 --> 00:01:01,740
+minha coluna que é um campo final.
+
+15
+00:01:01,740 --> 00:01:07,950
+A única opção que vai ter o deste guia é o bad coluna porque você não pode alterar esse campo então
+
+16
+00:01:08,280 --> 00:01:11,560
+criana que dois metros que é a gatinha mais comum.
+
+17
+00:01:11,640 --> 00:01:17,870
+Continuando o próximo próximo Metro que a gente vai precisar dele também é um método muito importante.
+
+18
+00:01:18,000 --> 00:01:24,360
+é o metro que vai retornar a bula que vai dizer se para aquele campo o objetivo foi alcançado.
+
+19
+00:01:24,360 --> 00:01:31,830
+Nós temos dois possíveis objetivos qual é você abri o campo que não está minado um objetivo ou seja
+
+20
+00:01:31,830 --> 00:01:37,740
+você acabou de resolver aquele campo então olhando aqui vai iniciar o jogo aqui pra esse campo aqui
+
+21
+00:01:37,740 --> 00:01:39,470
+que eu estou com o cursor do mouse sim.
+
+22
+00:01:39,530 --> 00:01:41,020
+Meu objetivo foi alcançado.
+
+23
+00:01:41,020 --> 00:01:41,660
+Por quê.
+
+24
+00:01:41,960 --> 00:01:48,450
+Porque era um campo que não tinha mina e um campo que está aberto ou seja acabei de abrir um campo que
+
+25
+00:01:48,450 --> 00:01:49,440
+estava seguro.
+
+26
+00:01:49,440 --> 00:01:54,330
+Todos esses campos aqui que estão abertos foram campos que eu já atingiu meu objetivo.
+
+27
+00:01:54,330 --> 00:01:55,000
+Por quê.
+
+28
+00:01:55,290 --> 00:02:00,360
+Porque era um campo seguros que eu abri esse campo aqui especificamente.
+
+29
+00:02:00,370 --> 00:02:02,580
+Eu tenho certeza que ele tem uma bomba.
+
+30
+00:02:02,580 --> 00:02:10,260
+Se eu clicar e marcar esse campo pra esse campo também atingiu o objetivo que foi marcar um campo que
+
+31
+00:02:10,260 --> 00:02:10,960
+tem bomba.
+
+32
+00:02:10,980 --> 00:02:15,950
+Ou seja torneio ele marcado de certa forma ninguém mais vai poder estourar essa bomba.
+
+33
+00:02:15,970 --> 00:02:23,790
+Para atingir o objetivo do jogo eu preciso atingi o meu alvo meu objetivo para todos os campos do tabuleiro.
+
+34
+00:02:23,820 --> 00:02:29,850
+Só que eu preciso definir qual é o objetivo de cada um dos campos então vou criar um método chamado
+
+35
+00:02:30,870 --> 00:02:33,940
+objetivo alcançado.
+
+36
+00:02:34,170 --> 00:02:37,680
+E nesse método objetivo alcançado eu vou ter esses dois objetivos.
+
+37
+00:02:37,680 --> 00:02:45,750
+Então vou colocar aquele Bullet bullet que é uma variável chamada aqui desvendado desvendada quando
+
+38
+00:02:45,810 --> 00:02:55,850
+o campo não está minado e o campo está aberto ou seja eu acabei de desvendar um campo que realmente
+
+39
+00:02:55,850 --> 00:03:02,450
+estava seguro e o outro objetivo é proteger o campo que eu vou chamar aquele.
+
+40
+00:03:03,080 --> 00:03:04,840
+Tem Gideão.
+
+41
+00:03:04,850 --> 00:03:15,250
+Se um campo tiver protegido significa que esse campo está minado e o campo está marcado que marcado
+
+42
+00:03:15,500 --> 00:03:20,090
+ou seja um campo que está minado e marcado é um campo protegido.
+
+43
+00:03:20,090 --> 00:03:25,560
+Significa se atinge um dos dois objetivos atinge o objetivo para esse campo.
+
+44
+00:03:25,970 --> 00:03:33,170
+Então a resposta é se o campo estiver desvendado ou estiver protegido.
+
+45
+00:03:33,200 --> 00:03:38,690
+Aí eu tenho um objetivo alcançado para um campo especificamente para saber se atingiu o objetivo do
+
+46
+00:03:38,690 --> 00:03:39,580
+jogo.
+
+47
+00:03:39,670 --> 00:03:44,900
+Se o objetivo foi alcançado para o jogo inteiro basta olhar para todos os campos que eu tenho o meu
+
+48
+00:03:44,900 --> 00:03:48,020
+objetivo alcançar o próximo um metro que eu vou criar.
+
+49
+00:03:48,360 --> 00:03:53,960
+Sei a quantidade de minas que eu tenho na vizinhança e vou chamar um metro que vai tornar aqui um valor
+
+50
+00:03:54,370 --> 00:03:56,130
+longos.
+
+51
+00:03:56,260 --> 00:04:02,290
+Eu vou chamar aqui em Minas na vizinhança.
+
+52
+00:04:02,450 --> 00:04:09,580
+Uma vez feito isso eu vou mostrar exatamente esses números aqui ao 2 2 1 2 e tá certo.
+
+53
+00:04:09,860 --> 00:04:15,550
+Então quero fazer o seguinte posso também usar e destruímos muito fácil colocar vizinhos.
+
+54
+00:04:15,710 --> 00:04:18,230
+Ponto é estranho.
+
+55
+00:04:18,440 --> 00:04:24,890
+Vou aplicar aqui um filtro pra eu filtrar somente os vizinhos que tem Mina.
+
+56
+00:04:24,890 --> 00:04:32,570
+Então vou passar o predicado vizinho vizinho ponto minado seja quero filtrar todos os vizinhos minados
+
+57
+00:04:32,570 --> 00:04:40,650
+e aí eu faço um caos a partir desse caos eu sei exatamente a quantidade de minas que eu tenho na vizinhança.
+
+58
+00:04:40,670 --> 00:04:47,150
+Outro método que pode ser importante também vai ser um metro de reiniciar o jogo e eu quero reiniciar
+
+59
+00:04:47,150 --> 00:04:56,450
+o estado de cada um dos campos então chamar se a nesse Metro eu vou basicamente usar aos três atributos
+
+60
+00:04:56,450 --> 00:05:00,020
+que é aberto igual falso.
+
+61
+00:05:00,020 --> 00:05:02,580
+Depois eu tenho o campo minado.
+
+62
+00:05:02,840 --> 00:05:04,400
+Vai ser igual falso.
+
+63
+00:05:04,910 --> 00:05:09,880
+E finalmente eu tenho o campo marcado pra ser igual a falso.
+
+64
+00:05:10,610 --> 00:05:17,110
+Ou seja as únicas três variáveis que eu tenho com relação aos vizinhos continua sendo os mesmos.
+
+65
+00:05:17,120 --> 00:05:19,780
+Não vou mudar os campos de posição.
+
+66
+00:05:19,950 --> 00:05:26,300
+E em relação à minha coluna também não vou mudar que eu vou mudar seus campos aberto minado e marcado
+
+67
+00:05:26,810 --> 00:05:32,810
+uma vez que eu serei eu vou ter que sortear de novo as minas etapa de todo o processo de inicializar
+
+68
+00:05:32,810 --> 00:05:36,420
+o jogo que essa loja estará dentro do tabuleiro não dentro do campo.
+
+69
+00:05:36,420 --> 00:05:41,670
+E o próximo passo a última coisa que nós vamos fazer vai ser definir o nosso método.
+
+70
+00:05:41,760 --> 00:05:47,270
+Trinca já que eu vou mostrar uma mina no nosso terminal.
+
+71
+00:05:47,470 --> 00:05:52,400
+Eu vou precisar implementar um metro industrial pra isso eu vou fazer algumas lógicas aqui ao primeiro
+
+72
+00:05:52,700 --> 00:05:59,370
+se o campo estiver marcado o campo marcado eu vou mostrar ele como sendo muito x.
+
+73
+00:05:59,390 --> 00:06:07,310
+Então vou colocar aqui a representação de um campo marcado será x certo fazer que meus erros e o segundo
+
+74
+00:06:07,310 --> 00:06:13,940
+cenário vai ser se o campo estiver aberto e minado.
+
+75
+00:06:13,940 --> 00:06:23,730
+Se o campo estiver aberto e minado seja acabou de perder o jogo eu vou colocar aqui um asterisco para
+
+76
+00:06:23,800 --> 00:06:26,630
+a gente vê que aquele campo tinha uma mina dentro deles.
+
+77
+00:06:26,690 --> 00:06:30,410
+Então asterisco vai apresentar como se fosse uma bola com uma bomba.
+
+78
+00:06:30,410 --> 00:06:41,150
+O próximo cenário vai ser o seguinte se o campo estiver aberto e eu tiver Minas na vizinhança for maior
+
+79
+00:06:41,150 --> 00:06:50,020
+do que zero ou seja tem minas a vizinhança significa que eu vou mostrar aqui retornar longe.
+
+80
+00:06:50,240 --> 00:06:51,480
+Ponto.
+
+81
+00:06:51,960 --> 00:06:57,710
+Passem logo pontos trincas e eu vou pagar o valor de Minas na vizinhança.
+
+82
+00:06:57,710 --> 00:07:03,980
+Em outras palavras eu quero mostrar a quantidade de Minas que tem aquela vizinhança como o jogo no campo
+
+83
+00:07:03,980 --> 00:07:08,300
+minado mostra que tem duas minas minas para colocar tudo em preto e branco.
+
+84
+00:07:08,330 --> 00:07:13,030
+Vou colocar cores embora seja possível usar cor terminal com linguagem Java.
+
+85
+00:07:13,040 --> 00:07:16,500
+Mas eu não vou adicionar essa complexidade desnecessária aqui no nosso jogo.
+
+86
+00:07:16,610 --> 00:07:19,620
+Fiquei com o modelo indicado pra você usar o CPF.
+
+87
+00:07:19,670 --> 00:07:25,700
+Se o campo tiver aberto se ele cai nessa de cima quer dizer que a quantidade de minas é maior do que
+
+88
+00:07:25,700 --> 00:07:26,040
+a zero.
+
+89
+00:07:26,050 --> 00:07:32,560
+Se ele caiu de baixo quer dizer que a quantidade de minas é zero então vou simplesmente colocar aqui
+
+90
+00:07:32,560 --> 00:07:38,840
+um monstrinho vazia com um espaço em branco lembrando que todos as minhas apresentações têm apenas um
+
+91
+00:07:38,840 --> 00:07:45,230
+único único dígito por mais que eu tenha minas ao redor de todas as posições um dígito máximo em 9.
+
+92
+00:07:45,770 --> 00:07:52,770
+Há aqui espaço vazio aqui x finalmente.
+
+93
+00:07:52,770 --> 00:07:59,850
+Se ele não caiu nem um passo anterior significa que o campo está fechado não foi mexido ainda e eu vou
+
+94
+00:07:59,850 --> 00:08:06,630
+colocar aqui uma interrogação pra deixar claro que essa menina ainda não foi mexida e não sei exatamente
+
+95
+00:08:06,630 --> 00:08:07,690
+o que tem embaixo dela.
+
+96
+00:08:07,690 --> 00:08:08,360
+Tô pronto.
+
+97
+00:08:08,370 --> 00:08:13,260
+Esse aqui é o final da nossa classe campo tem outros métodos que a gente pode testar.
+
+98
+00:08:13,380 --> 00:08:19,590
+Se eu rodar aqui o nosso teste e colocar o cubo a cobertura você vai ver que a nossa cobertura caiu
+
+99
+00:08:19,590 --> 00:08:24,130
+porque a nossa classe aumentou de tamanho e a gente não adicionou novos testes.
+
+100
+00:08:24,600 --> 00:08:32,690
+Nós temos agora o nosso campo com 64 pontos quatro por cento de cobertura de código 7.
+
+101
+00:08:32,690 --> 00:08:39,630
+Aí eu deixo aqui pra vocês em casa pra que vocês possam aumentar o nosso nível de cobertura testando
+
+102
+00:08:39,630 --> 00:08:43,810
+tudo aquilo que não foi ainda contemplado com nossa classe em campo teste.
+
+103
+00:08:44,160 --> 00:08:50,100
+Então criem novos métodos taxas novas funcionalidades pra saber se realmente o objetivo foi atingido
+
+104
+00:08:50,510 --> 00:08:57,200
+se a quantidade de minas a vizinhança está calculando de forma correta e colocando os vizinhos colocando
+
+105
+00:08:57,210 --> 00:09:04,110
+alguns pra ficar minado e ver se o número realmente bate com aquilo que a realidade é outra classe que
+
+106
+00:09:04,110 --> 00:09:10,590
+você pode testar também a estima que é mais fácil de testar porque só vai um caractere e você tem facilmente
+
+107
+00:09:10,590 --> 00:09:15,050
+como saber se o resultado extremo gerado e o resultado que você espera.
+
+108
+00:09:15,370 --> 00:09:20,130
+Então acho que pra você completar aquilo que a gente já começou em relação aos testes não vai ser muito
+
+109
+00:09:20,130 --> 00:09:20,970
+complicado.
+
+110
+00:09:21,150 --> 00:09:26,460
+Então fico por aqui pensando aproximá las do o tabuleiro agora com um risco um pouco mais alto para
+
+111
+00:09:26,460 --> 00:09:31,920
+que a gente possa concluir o nosso projeto em um tempo aceitável que é um projeto muito grande assim
+
+112
+00:09:31,960 --> 00:09:35,490
+na próxima a gente continua implementando o tabuleiro e até lá.

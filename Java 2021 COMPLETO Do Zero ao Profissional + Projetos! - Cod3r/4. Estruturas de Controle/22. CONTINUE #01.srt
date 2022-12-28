@@ -1,0 +1,171 @@
+1
+00:00:00,300 --> 00:00:06,390
+Outra palavra que vai também desviar o fluxo contínuo continua Eu vou mostrar pra vocês o comportamento
+
+2
+00:00:06,390 --> 00:00:09,350
+também usando essa técnica de divulgar o código.
+
+3
+00:00:09,350 --> 00:00:15,920
+Na verdade o boletim sai da estrutura e continua e ele interrompe apenas aquela repetição já vai para
+
+4
+00:00:15,920 --> 00:00:17,660
+a próxima e vou mostrar isso.
+
+5
+00:00:17,950 --> 00:00:21,020
+Então colocando aqui uma nova classe.
+
+6
+00:00:21,510 --> 00:00:28,510
+Vou chamar a classe continuei e vou definir um método.
+
+7
+00:00:28,580 --> 00:00:31,080
+E aqui vou criar também um laço forte.
+
+8
+00:00:31,460 --> 00:00:38,100
+7 Só trocar nessa parte final que não me interessa pelo valor 10 estão aqui dentro posso fazer o seguinte
+
+9
+00:00:38,340 --> 00:00:47,950
+sim o II Módulo 2 foi igual igual a 1 ou seja tem um valor ímpar.
+
+10
+00:00:48,210 --> 00:00:55,290
+Significa que eu vou chamar aqui eu continuei e aí aqui embaixo eu vou imprimi o valor de 7.
+
+11
+00:00:55,290 --> 00:01:01,260
+Essa é uma forma não muito inteligente de você imprimi os valores pares mas eu vou mostrar pra você
+
+12
+00:01:01,260 --> 00:01:07,830
+aqui também Lugano no na linha 8 eu vou colocar um brinco pois aqui você vai ver execução passo a passo.
+
+13
+00:01:08,250 --> 00:01:14,670
+Então chegou aqui no Brasil pois na linha 8 estou colocando aqui ao 6 ele encontrou continuei e fui
+
+14
+00:01:14,670 --> 00:01:15,540
+para a Linha 12.
+
+15
+00:01:16,290 --> 00:01:17,480
+O valor é esse.
+
+16
+00:01:17,490 --> 00:01:24,840
+Essa expressão de colocar essa expressão aqui inteira que ao colocar essa expressão com baixa expressão
+
+17
+00:01:25,460 --> 00:01:32,090
+o valor nesse caso o que é verdadeiro ou seja ele vai entrar não continuei porque esse valor ainda chamou
+
+18
+00:01:32,100 --> 00:01:34,270
+continua e vai para a próxima iteração.
+
+19
+00:01:34,290 --> 00:01:41,220
+Agora o IP vale 2 e essa expressão aqui vai ser falso como é falso e não vai entrar no continuei e vai
+
+20
+00:01:41,220 --> 00:01:43,950
+imprimir o valor de 12 que era o valor de 2.
+
+21
+00:01:43,950 --> 00:01:49,430
+O próximo a expressão passa a ser verdadeira entrando continuei interrompe aquela repetição vai para
+
+22
+00:01:49,430 --> 00:01:56,640
+a próxima ou seja ele continua executando o laço fo usando continua enquanto o que gera a interrupção
+
+23
+00:01:56,640 --> 00:02:02,110
+do Laço foi vai para a próxima linha depois do fogo contínuo ele interrompe apenas aquela iteração e
+
+24
+00:02:02,110 --> 00:02:10,530
+que aquela repetição tem interação de interação entre as pessoas e iteração que é o conceito de repetição
+
+25
+00:02:10,920 --> 00:02:17,660
+algo que é iterativo e o que ta fazendo repetições executando repetições tão difíceis aqui.
+
+26
+00:02:17,670 --> 00:02:22,700
+A expressão agora falsa não vai entrar no fim mas está presente ali.
+
+27
+00:02:22,720 --> 00:02:28,510
+4 Agora é verdadeira a expressão contínua e por essa repetição certo.
+
+28
+00:02:28,560 --> 00:02:35,910
+6 pulam 7 7 8 pulo 9 e sai do laço finalizando nosso programa.
+
+29
+00:02:35,910 --> 00:02:42,110
+Ou seja sempre que eu continuei encontrado ele vai então pegar apenas aquela repetição.
+
+30
+00:02:42,120 --> 00:02:46,860
+Então no caso eu quero exibir todos os valores menos o quinto elemento.
+
+31
+00:02:46,980 --> 00:02:51,390
+Certo Eu poderia aqui ao duplicar isso duplicar.
+
+32
+00:02:51,420 --> 00:02:56,200
+Aqui embaixo posso colocar se for igual a 5.
+
+33
+00:02:56,370 --> 00:02:57,710
+Ele vai encontrar o continuei.
+
+34
+00:02:57,980 --> 00:03:00,560
+Esse é um exemplo que é habitualmente incerto.
+
+35
+00:03:00,610 --> 00:03:06,930
+Eu posso até colocassem as chaves por exemplo que é algo bastante curto então você poderia muito bem
+
+36
+00:03:07,230 --> 00:03:08,550
+fazer essa forma.
+
+37
+00:03:08,920 --> 00:03:10,880
+Então se for assim continua.
+
+38
+00:03:10,980 --> 00:03:12,720
+Se não for ele vai acertar o resto.
+
+39
+00:03:12,720 --> 00:03:23,200
+Então aqui imaginando começar no dia 1 e indo até 10 ele vai exibir 1 2 3 4 6 7 8 9 10 então só mostrando
+
+40
+00:03:23,220 --> 00:03:33,870
+aquilo executando ele jogou bola que já no modo japonês executou 0 2 4 6 8 e depois começou 1 2 3 4
+
+41
+00:03:34,170 --> 00:03:36,620
+5 6 7 8 9 10.
+
+42
+00:03:36,800 --> 00:03:42,900
+Ou seja exatamente isso o conceito do contínuo ele interrompe aquela repetição e o que a gente vê na
+
+43
+00:03:42,900 --> 00:03:48,630
+aula passada ele sai do laço atual com break e quando a linha da sua execução chega no Brasil.

@@ -1,0 +1,355 @@
+1
+00:00:00,150 --> 00:00:06,510
+Só na sala 2 vamos trabalhar com um arquivo CSS ainda não vou trabalhar muito no posicionamento dos
+
+2
+00:00:06,510 --> 00:00:13,200
+elementos na tela mas vou adicionar um CCS vou vincular o CSS com algum dos elementos que estão na tela
+
+3
+00:00:13,250 --> 00:00:16,480
+então para a gente sim continuar o nosso exercício.
+
+4
+00:00:16,500 --> 00:00:27,080
+Eu vou criar um novo arquivo então vou criar aqui um arquivo com o nome do arquivo vai ser login conta
+
+5
+00:00:27,780 --> 00:00:28,800
+CSS.
+
+6
+00:00:29,520 --> 00:00:34,160
+Vou definir uma classe CSS aqui que eu vou chamar de login.
+
+7
+00:00:34,290 --> 00:00:42,730
+Eu vou colocar aqui inicialmente dentro de um FX Black Launch braço colo.
+
+8
+00:00:42,970 --> 00:00:49,090
+Vou colocar aqui em vermelho por enquanto pois a gente vai mudar para colocar um background em um gradiente
+
+9
+00:00:49,240 --> 00:00:50,800
+legal certo.
+
+10
+00:00:51,150 --> 00:00:57,870
+Então definiu o login e eu preciso carregar o login aqui no meu arquivo no meu web ponto XML.
+
+11
+00:00:58,260 --> 00:01:04,970
+Então vou fazer o seguinte vou definir um distrito que eu vou chamar aqui de arquivo CS e assim vou
+
+12
+00:01:05,040 --> 00:01:15,800
+fazer praticamente a mesma coisa um bad Class outro grande o esforço aqui no caso vai ser XML barra
+
+13
+00:01:16,310 --> 00:01:26,860
+logo ponto CSS e como eu preciso pegar um estilingue e não abro aqui e ali eu vou chamar aquele Tu Eterno
+
+14
+00:01:26,880 --> 00:01:38,740
+fome tem o meu arquivo e finalmente aqui relacionar a minha cena cena ponto Grande x ponto adicionar
+
+15
+00:01:39,080 --> 00:01:40,030
+o CSS.
+
+16
+00:01:40,320 --> 00:01:42,150
+Nesse caso algo está shit.
+
+17
+00:01:42,540 --> 00:01:47,150
+Ele é observa o boliche de string.
+
+18
+00:01:47,220 --> 00:01:52,370
+Então tem que passar para ele um estranho no caso aqui o meu arquivo CSS.
+
+19
+00:01:52,780 --> 00:01:54,310
+Pronto carregado.
+
+20
+00:01:54,360 --> 00:01:59,570
+Eu teria a possibilidade agora de aplicar estilo dentro do meu arquivo XML.
+
+21
+00:01:59,750 --> 00:02:05,970
+é o primeiro que eu posso aplicar estilo relacionado à própria tela inteira que eu vá aplicar essa classe
+
+22
+00:02:05,970 --> 00:02:07,660
+Looking que eu acabei de criar aqui.
+
+23
+00:02:08,190 --> 00:02:16,140
+Então pra fazer isso aqui você vai usar a propriedade onde está eu less e no estádio que eu vou passar
+
+24
+00:02:16,140 --> 00:02:20,470
+qual é a classe que eu quero aplicar no caso clássico Looking.
+
+25
+00:02:20,700 --> 00:02:25,650
+O que significa nesse caso que ele vai pintar a nossa tela de vermelho.
+
+26
+00:02:25,680 --> 00:02:26,680
+Tudo indica que sim.
+
+27
+00:02:26,770 --> 00:02:33,790
+Aqui deu certo aplicou colocou a nossa tela em vermelho e existe a possibilidade de abrir aqui o Brasil.
+
+28
+00:02:34,050 --> 00:02:42,900
+Só para a gente fazer aquilo lá fazer o que eu faço o que traz aqui no planejamento ou tem uma página
+
+29
+00:02:42,900 --> 00:02:45,050
+que eu gosto muito que é isso aí.
+
+30
+00:02:45,060 --> 00:02:51,690
+Se você clicar aqui ele vai mostrar alguns gradientes bem interessantes para a gente.
+
+31
+00:02:51,970 --> 00:02:53,920
+Aqui é um exemplo mais claro.
+
+32
+00:02:54,000 --> 00:02:59,160
+Eu vou passar para o próximo aqui mais vermelho pegar tudo legal.
+
+33
+00:02:59,180 --> 00:03:02,400
+Se eu chamo viu para estar legal.
+
+34
+00:03:02,730 --> 00:03:14,330
+Esse equipamento dá mais prazo vai ser qualquer um desses não vai dar certo.
+
+35
+00:03:14,540 --> 00:03:15,270
+Dizer isso aqui.
+
+36
+00:03:15,280 --> 00:03:16,970
+Pronto bombou.
+
+37
+00:03:17,010 --> 00:03:20,900
+Eu vou clicar com o botão direito aqui para inspecionar.
+
+38
+00:03:21,300 --> 00:03:26,690
+Quando você pede para inspecionar as primeiras coisas que vai acontecer aqui está o gigante pixel diminuir
+
+39
+00:03:27,120 --> 00:03:35,130
+isso aqui colocar aqui um pouco de menos nas coisas que vai aparecer logo de cara fechar aqui novamente
+
+40
+00:03:35,870 --> 00:03:43,110
+para inspecionar vai ser o código CSS que corresponde ao Big Klaus.
+
+41
+00:03:43,320 --> 00:03:50,830
+Então o código é basicamente esse eu pego Claudius e agora em diante tal se eu copiar isso aqui como
+
+42
+00:03:50,850 --> 00:03:56,070
+eu sei é jogar dentro da minha aplicação no meu CSS.
+
+43
+00:03:57,060 --> 00:04:03,870
+Obviamente a propriedade não é bem essa que é preciso teclar no colo e eu posso simplesmente não jogar
+
+44
+00:04:03,990 --> 00:04:10,720
+aquilo que eu peguei do CSS pra cá que ele vai conseguir interpretar isso como sendo um background válido.
+
+45
+00:04:10,720 --> 00:04:15,150
+Você vai executar Aqui ou você vai perceber que ele vai colocar um gradiente interessante na nossa tela
+
+46
+00:04:15,510 --> 00:04:21,090
+dizendo que o gradiente mais bonito que você vai conseguir não mais que é um exemplo de algo que funciona
+
+47
+00:04:21,090 --> 00:04:27,090
+bem aqui o prédio está ok a gente pode se for o caso tentar colocar um com a fonte branca também não
+
+48
+00:04:27,090 --> 00:04:35,310
+tem problema nenhum para a próxima classe que eu vou criar aqui vai ser o braço título e eu vou definir
+
+49
+00:04:35,340 --> 00:04:46,950
+duas propriedades que vai ser FX onde sites que no caso aqui vai ser 24 pixels e outro vai ser o FX
+
+50
+00:04:46,980 --> 00:04:50,140
+ponto táxi traço.
+
+51
+00:04:50,510 --> 00:04:53,690
+Eu vou colocar a cor pra ser branco.
+
+52
+00:04:53,760 --> 00:04:54,420
+Como é que fica.
+
+53
+00:04:54,420 --> 00:05:00,710
+Qualquer coisa eu coloco aqui o background que eu tinha selecionado durante lamento.
+
+54
+00:05:01,120 --> 00:05:06,580
+E foi exatamente o background que eu selecionei planejamento que vai bater muito bem com fundo de Branquinha.
+
+55
+00:05:06,660 --> 00:05:12,840
+Caso contrário a gente pode voltar para preto ou definir o background que eu coloquei no planejamento.
+
+56
+00:05:12,840 --> 00:05:17,860
+Com isso eu preciso vincular essa classe no título.
+
+57
+00:05:17,970 --> 00:05:24,540
+Lá no meu FX ml então pra fazer isso algum título é esse cara que eu primeiro lembro aqui eu posso colocar
+
+58
+00:05:24,540 --> 00:05:32,290
+a propriedade onde está eu lhes vou passar o nome que eu defini la no meu sucesso logo no título.
+
+59
+00:05:32,790 --> 00:05:36,760
+Elas acertaram você vai ver que a fonte vai crescer e ela vai ficar branquinha também.
+
+60
+00:05:36,770 --> 00:05:38,600
+OF Qual a fonte maior.
+
+61
+00:05:38,880 --> 00:05:45,120
+Eu vou colocar o background que eu tinha usado no planejamento o que eu acho que vai ficar mais interessante
+
+62
+00:05:46,020 --> 00:05:47,160
+colocá la no bloquinho.
+
+63
+00:05:47,420 --> 00:05:57,270
+Então o primeiro RGB vai ser 20 depois cento e trinta e seis e 204.
+
+64
+00:05:58,290 --> 00:06:04,800
+E o outro RGB vai ser 43 43 50.
+
+65
+00:06:05,230 --> 00:06:08,600
+E finalmente no 7 8.
+
+66
+00:06:09,060 --> 00:06:10,830
+Qual é o gradiente que você vai usar.
+
+67
+00:06:10,830 --> 00:06:16,150
+Isso é menos importante como que o resultado vai ficar mais azul a.
+
+68
+00:06:17,100 --> 00:06:18,010
+Olho no resultado.
+
+69
+00:06:18,150 --> 00:06:24,090
+Acho que ficou mais discreta do que a versão passada então vou usar esse background aqui com fundo branco.
+
+70
+00:06:24,090 --> 00:06:25,280
+Vai ficar bem interessante.
+
+71
+00:06:25,640 --> 00:06:28,150
+Vou acabar aplicando também para as outras.
+
+72
+00:06:28,160 --> 00:06:37,260
+Criei uma classe SS que vai ser o ponto Loki traço forme um traço lei bom.
+
+73
+00:06:37,800 --> 00:06:45,520
+Então os leigos do formulário eu vou usar aqui as mesmas duas propriedades então fonte de sais aqui
+
+74
+00:06:45,530 --> 00:06:48,750
+vai ser 16 pixels e a cor vai ser branca.
+
+75
+00:06:48,750 --> 00:06:52,140
+E vou também duplicar isso aqui Brasil.
+
+76
+00:06:52,150 --> 00:06:57,220
+O informe coloca aqui um botão.
+
+77
+00:06:57,360 --> 00:07:01,140
+A fonte continuará a ser padrão e o tamanho vai ser 16.
+
+78
+00:07:01,140 --> 00:07:08,160
+Então não tenho mais essas duas classes para aplicar aqui na minha interface gráfica então o leigo vou
+
+79
+00:07:08,160 --> 00:07:21,120
+colocar aqui onde está eu lhes tracei algum traço forme traço leve a aplicar tanto aqui de baixo e vou
+
+80
+00:07:21,120 --> 00:07:28,880
+aplicar no botão ou algum traço forte traço no botão pronto.
+
+81
+00:07:29,000 --> 00:07:34,470
+Salve um ano para a gente ver que os tamanhos do ponto de vista dissesse assim eu vou aplicar só isso.
+
+82
+00:07:34,830 --> 00:07:41,700
+Então já aumentou o tamanho aumentou o tamanho da fonte do próprio formulário e a fonte também do botão
+
+83
+00:07:41,700 --> 00:07:44,420
+para ficar um pouco mais bastante aproximada.
+
+84
+00:07:44,430 --> 00:07:50,340
+Nós vamos começar a trabalhar no nosso próprio XML para colocar algumas coisas dentro dele a gente pode
+
+85
+00:07:50,340 --> 00:07:56,400
+colocar muitas coisas no CSS inclusive mais coisas mais eu quero mexer um pouco mais aqui no XML já
+
+86
+00:07:56,400 --> 00:08:01,650
+que é o foco dessa área aqui nessa parte do nosso capítulo de Java FX.
+
+87
+00:08:01,650 --> 00:08:03,270
+Então pessoal fique por aqui.
+
+88
+00:08:03,270 --> 00:08:08,730
+Na próxima aula a gente continua para trabalhar algumas coisas dentro do arquivo XML que a nossa viu
+
+89
+00:08:09,000 --> 00:08:09,720
+e espero lá.

@@ -1,0 +1,187 @@
+1
+00:00:00,200 --> 00:00:06,090
+Só agora vão fazer a configuração do Java e do eclipse aqui no Linux.
+
+2
+00:00:06,240 --> 00:00:07,670
+A nova versão do Ubuntu.
+
+3
+00:00:07,990 --> 00:00:13,440
+Então para isso eu vou inicialmente baixar a máquina virtual em Java completo.
+
+4
+00:00:13,700 --> 00:00:20,700
+Um pouco com ele vai direcionar para a página do Java dentro do domínio da Orca.
+
+5
+00:00:21,390 --> 00:00:28,730
+E aqui a gente vai ter a opção de baixar o JD carta ou selecionar a última versão já BCR 12 0.
+
+6
+00:00:29,070 --> 00:00:36,360
+Aqui a fazer ora com o JD cabe selecionar aqui na opção de download e você vai basicamente aceitar a
+
+7
+00:00:36,360 --> 00:00:38,370
+licença e escolher a versão que você quer.
+
+8
+00:00:38,370 --> 00:00:46,020
+Nesse caso eu quero instalar a versão para Debian e selecionar esse primeiro link que é certo então
+
+9
+00:00:46,020 --> 00:00:47,070
+vai fazer o download.
+
+10
+00:00:47,070 --> 00:00:50,520
+Enquanto isso eu já vou entrar na página do eclipse.
+
+11
+00:00:50,550 --> 00:00:52,710
+Eu vou colocar aqui Eclipse.
+
+12
+00:00:53,170 --> 00:00:53,610
+Ok
+
+13
+00:00:58,300 --> 00:01:05,980
+entrar na página do eclipse a gente vai ter a opção de download nós temos a última versão aqui.
+
+14
+00:01:06,500 --> 00:01:09,100
+Então eu vou selecionar aqui download 64 bits.
+
+15
+00:01:09,560 --> 00:01:14,440
+Ele selecionou aqui um amigo lá do Paraná eu vou selecionada Lord ele vai ficar fazendo o download está
+
+16
+00:01:14,470 --> 00:01:16,930
+rodando olha aqui vai demorar algum tempinho.
+
+17
+00:01:17,330 --> 00:01:20,930
+Assim que terminar a gente volta para mostrar o processo de instalação.
+
+18
+00:01:20,930 --> 00:01:29,810
+O pessoal baixou aqui os dois eu vou mostrar aqui na página até coisa que não vou clicar aqui duas vezes
+
+19
+00:01:29,810 --> 00:01:35,890
+no JD cá pra gente instalar aqui pelo próprio aplicativo no Supersimples.
+
+20
+00:01:35,990 --> 00:01:38,510
+Então não vai ter dificuldade nenhuma.
+
+21
+00:01:38,870 --> 00:01:42,180
+Clicando aqui estão sendo
+
+22
+00:01:45,670 --> 00:01:49,090
+nosso pessoal o processo de instalação que JD finalizou.
+
+23
+00:01:49,620 --> 00:01:55,500
+Então eu joguei o instalador do eclipse para dentro de desktop certo e a gente vai compactar ele aqui
+
+24
+00:01:55,560 --> 00:01:56,910
+clicando com o botão direito.
+
+25
+00:01:56,920 --> 00:02:05,150
+Tem estrategia ele vai criar essa pasta aqui dentro nós temos equipes instalem galgou clicar duas vezes
+
+26
+00:02:05,150 --> 00:02:10,100
+pra ele rodar o processo de instalação do eclipse e a gente vai selecionar algumas configurações aqui
+
+27
+00:02:10,110 --> 00:02:14,870
+vai fazer o download de algumas coisas e depois que tiver instalado a gente vai abrir e o clipe está
+
+28
+00:02:14,870 --> 00:02:22,140
+aí então eu vou selecionar clipe CD Pra desenvolvedor mais que essa segunda opção vou estar lá na Pacha
+
+29
+00:02:22,140 --> 00:02:24,860
+padrão ele colocou dentro de Roma com o clipe.
+
+30
+00:02:24,890 --> 00:02:29,880
+Então essa aposta que ele vai estar lá durante o ISA a gente vai perguntar algumas coisas de licença
+
+31
+00:02:29,880 --> 00:02:35,220
+então vou aceitar e sempre que aparecer algum na tela eu volto aqui pra comentar com vocês aí e quando
+
+32
+00:02:35,220 --> 00:02:39,150
+tiver aqui no fluxo de download eu vou passar mais rápido certo.
+
+33
+00:02:39,150 --> 00:02:45,030
+Já abriu aqui uma outra janela que é pra você aceitar várias licenças eu vou selecionar um membro pra
+
+34
+00:02:45,030 --> 00:02:50,300
+aceitar todos e vou aceitar e ele vai também perguntar mais algumas coisas mais pra frente então vou
+
+35
+00:02:50,310 --> 00:02:55,620
+ser ouvida quer porque a gente volta que ele tá perguntando pessoas a gente pode instalar alguns conteúdos
+
+36
+00:02:55,620 --> 00:03:02,300
+que não estão assinados eu vou aceitar também clicando em member 2 a ele vai mostrar outra janela para
+
+37
+00:03:02,300 --> 00:03:08,430
+a gente selecionar aqui o certificado do eclipse e vou selecionar todos e aceitá la está praticamente
+
+38
+00:03:08,430 --> 00:03:13,360
+no final da instalação certo uma vez instalado você vai ter e já instalou aqui.
+
+39
+00:03:13,400 --> 00:03:19,020
+Se você seleciona a tecla do Windows e colocar aqui o clipe já vai aparecer pra gente ver clipes.
+
+40
+00:03:19,020 --> 00:03:24,450
+7 Você pode abrir por aqui ou diretamente pelo processo pelo botão que é disponibilizado no final da
+
+41
+00:03:24,450 --> 00:03:25,580
+instalação.
+
+42
+00:03:25,620 --> 00:03:29,910
+Colocar aqui daqui pra frente o processo é exatamente o mesmo.
+
+43
+00:03:29,910 --> 00:03:35,760
+Independente da plataforma que você vai passar você vai parar no Windows no Mac e no Linux.
+
+44
+00:03:35,760 --> 00:03:40,240
+A criação do cheque especial que eu vou comentar em outro momento um certo mais na frente.
+
+45
+00:03:40,250 --> 00:03:45,690
+Vou fazer um vídeo que vai seguir para os três sistemas então o processo foi configurado corretamente.
+
+46
+00:03:45,690 --> 00:03:50,760
+Posso até dar um Audi para a equipe de entrar mas a instalação foi feita com sucesso Java instalado
+
+47
+00:03:51,170 --> 00:03:53,200
+clipes instalado no ambiente no botão.

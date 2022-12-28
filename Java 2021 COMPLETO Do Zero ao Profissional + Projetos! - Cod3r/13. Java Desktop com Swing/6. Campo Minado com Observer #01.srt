@@ -1,0 +1,299 @@
+1
+00:00:00,150 --> 00:00:05,360
+Agora nós vamos criar a nossa segunda versão do nosso projeto Campo Minado.
+
+2
+00:00:05,400 --> 00:00:14,310
+Para isso eu vou deixar aqui todas as abas abertas e vou criar um novo projeto que vai ser o seguinte
+
+3
+00:00:14,470 --> 00:00:23,460
+eu já Project nome do projeto vai ser de campo traço combinado e eu vou colocar mais um traço e chamar
+
+4
+00:00:23,460 --> 00:00:25,140
+aqui no final disso.
+
+5
+00:00:25,570 --> 00:00:32,100
+Nós vamos usar agora nossa interface gráfica vou não vou criar nenhum módulo inclusive tá bem pertinho
+
+6
+00:00:32,100 --> 00:00:36,780
+da gente falar também sobre módulos aqui no curso que é um recurso muito legal que foi introduzido no
+
+7
+00:00:36,780 --> 00:00:40,900
+Java 9 e vou entrar aqui dentro de desktop.
+
+8
+00:00:41,050 --> 00:00:47,250
+Nós temos aqui vários cursos na aula na Paralela Python PHP todos os cursos aqui paralelos estão rolando
+
+9
+00:00:47,250 --> 00:00:51,250
+aqui no meu desktop mais especificamente em Tacna no curso de Java.
+
+10
+00:00:51,330 --> 00:00:58,570
+Vou entrar em SC e vou copiar a pasta BR que vai vim não apenas o belo mas todo o nosso código.
+
+11
+00:00:58,980 --> 00:01:04,130
+Eu vou jogar Apache beta dentro GSC sei do meu projeto Java.
+
+12
+00:01:04,140 --> 00:01:10,050
+De tal forma que se eu daqui e Flash na aplicação ou mesmo sem ela vai precisar de um refresh clique
+
+13
+00:01:10,080 --> 00:01:13,360
+com o botão direito Refresh ou F5.
+
+14
+00:01:13,440 --> 00:01:20,270
+Ele vai mostrar para a gente o código que eu vou precisar aqui eu vou e não vou mais ter essa classe
+
+15
+00:01:20,350 --> 00:01:21,440
+tabuleiro console.
+
+16
+00:01:21,590 --> 00:01:23,190
+Não vou precisar dela.
+
+17
+00:01:23,340 --> 00:01:26,290
+A classe aplicação também vai morrer.
+
+18
+00:01:26,440 --> 00:01:31,500
+Eu vou deixar o pacote visual que é um pacote que nós vamos criar as nossas interfaces gráficas.
+
+19
+00:01:31,560 --> 00:01:34,140
+Esse pacote é exceção à explosão e saí.
+
+20
+00:01:34,170 --> 00:01:36,000
+Também não vou mais usar.
+
+21
+00:01:36,000 --> 00:01:41,880
+E nós vamos precisar fazer algumas adaptações aqui no nosso modelo clicando em campo coisas que não
+
+22
+00:01:41,880 --> 00:01:44,180
+vão existir mais aqui no nosso código.
+
+23
+00:01:44,230 --> 00:01:51,570
+O estranho aqui dirá que marcham os 30 para apresentar uma menina poderia até ficar se você quiser se
+
+24
+00:01:51,570 --> 00:01:54,640
+apresentar a estreia disso mas não precisa.
+
+25
+00:01:54,650 --> 00:02:00,810
+E com relação a lançamento da exceção isso aqui não existe mais.
+
+26
+00:02:01,320 --> 00:02:09,820
+Qualquer produto que implementar nova versão.
+
+27
+00:02:10,230 --> 00:02:13,700
+Essa questão de tudo é algo interessante.
+
+28
+00:02:14,090 --> 00:02:19,190
+Até um recurso da equipe que eu posso baixar pra vocês agora é o seguinte Quando você coloca tudo você
+
+29
+00:02:19,190 --> 00:02:26,370
+peça ao mesmo quando você coloca Fix my fixe me quer dizer que você tem um erro que precisa ser corrigido
+
+30
+00:02:26,480 --> 00:02:29,120
+e tudo é o que você vai fazer ainda no seu colo.
+
+31
+00:02:29,130 --> 00:02:31,580
+Você só coloca um comentário para fazer isso depois.
+
+32
+00:02:32,040 --> 00:02:43,380
+Então se eu colocar aqui o Window Show o viu jogar aqui e colocar tudo em cima.
+
+33
+00:02:43,590 --> 00:02:46,350
+Que são testes na verdade ou testes.
+
+34
+00:02:46,350 --> 00:02:53,550
+Clicando aqui você vai ver que nós temos um fixe Mini que foi defendendo da classe tal e que aqui o
+
+35
+00:02:53,550 --> 00:03:00,480
+comentário que você colocou no inclusive aqui um exclamação e tudo claro a nova ação quando você clica
+
+36
+00:03:00,750 --> 00:03:05,420
+para ver todos os as pendências todas as tarefas que você colocou dentro do código fonte.
+
+37
+00:03:05,940 --> 00:03:12,510
+Essa é uma estratégia interessante então daquele tipo de obra é tirar um corte indevido que a gente
+
+38
+00:03:12,510 --> 00:03:14,080
+tinha anteriormente.
+
+39
+00:03:14,130 --> 00:03:23,010
+Vou entrar aqui na classe tabuleiro que também usa essa essa ação atirar aqui esse tratamento vou colocar
+
+40
+00:03:23,610 --> 00:03:32,250
+por enquanto Section e aqui eu vou colocar um Fix my já que você aqui não é um código que é para ficar
+
+41
+00:03:32,310 --> 00:03:38,250
+não é simplesmente um planeta tem que corrigir isso ajustar a implementação
+
+42
+00:03:44,190 --> 00:03:44,460
+do
+
+43
+00:03:48,270 --> 00:03:57,660
+método não abrir aqui um combo de chip que ele resolveu bocha agora meu tabuleiro é o meu cabelo não
+
+44
+00:03:57,660 --> 00:04:00,660
+dependem mais das estações.
+
+45
+00:04:00,660 --> 00:04:08,930
+Nós temos apenas o pacote visão e o pacote modelo outra coisa que pode e já que posso limpar aqui embaixo.
+
+46
+00:04:09,000 --> 00:04:14,760
+Essa implementação de que os 32 se um como de Dengue baixo e Control D também é a mesma tecla para ele
+
+47
+00:04:14,760 --> 00:04:21,830
+vai apagando as linhas e a gente vai distribuir os outros metros.
+
+48
+00:04:21,900 --> 00:04:27,690
+Eu vou deixar muito provavelmente vai precisar mexer na visibilidade de alguns metros porque a lógica
+
+49
+00:04:27,690 --> 00:04:34,020
+da nossa aplicação vai mudar e aí isso vai impactar em alguns metros que a gente definiu como sendo
+
+50
+00:04:34,020 --> 00:04:40,470
+o pacote tal então na próxima aula nós vamos começar a fazer as primeiras mudanças pra usar o padrão
+
+51
+00:04:40,470 --> 00:04:43,670
+observe aqui nessas duas classes o que é que vai acontecer.
+
+52
+00:04:43,680 --> 00:04:49,640
+Quais são os possíveis eventos que podem acontecer num carro por exemplo o capô ele pode ser tão leve
+
+53
+00:04:49,670 --> 00:04:50,850
+que abri.
+
+54
+00:04:50,880 --> 00:04:53,450
+Você pode também marcar um campo.
+
+55
+00:04:53,490 --> 00:04:55,920
+Você pode ter um efeito de desmarcar o campo.
+
+56
+00:04:55,920 --> 00:04:58,650
+Você pode ter um efeito de explosão.
+
+57
+00:04:58,650 --> 00:05:04,420
+Você pode ter uma ideia reinicialização no campo todas essas são possibilidades que podem acontecer
+
+58
+00:05:04,420 --> 00:05:10,060
+com o campo por exemplo o tabuleiro tem algum tipo de evento que pode acontecer sim em um tabuleiro
+
+59
+00:05:10,450 --> 00:05:16,870
+já que ele controla todos os campos no tabuleiro pode detectar quando o jogo foi perdido e o tabuleiro
+
+60
+00:05:16,870 --> 00:05:18,310
+pode detectar com algum jogo.
+
+61
+00:05:18,430 --> 00:05:20,650
+O objetivo do jogo foi alcançado.
+
+62
+00:05:20,990 --> 00:05:27,520
+Então você pode ter um evento associado ao tabuleiro de resultado e você pode ter um evento no campo
+
+63
+00:05:27,520 --> 00:05:33,640
+associado aos eventos que acontecem no campo e abriu o campo de marcadores marcar explodir coisas do
+
+64
+00:05:33,640 --> 00:05:38,860
+tipo e é exatamente em cima desses eventos que a partir da próxima algo começa a trabalhar criando eventos
+
+65
+00:05:38,860 --> 00:05:44,740
+relacionados ao campo criando eventos relacionados ao tabuleiro e criando ou implementando um padrão
+
+66
+00:05:44,740 --> 00:05:45,330
+observa.
+
+67
+00:05:45,330 --> 00:05:52,200
+De uma forma mais abrangente para que a nossa interface gráfica possa ser modificada a partir de observe
+
+68
+00:05:52,250 --> 00:05:58,300
+ou dizer que a interface gráfica ela e o observador está interessado em ser notificado quando algo ainda
+
+69
+00:05:58,300 --> 00:06:04,410
+acontecer e como vai acontecer a interface gráfica será modificada e aí você vai ver a interface ser
+
+70
+00:06:04,480 --> 00:06:11,290
+atualizada de acordo com os eventos que forem disparados tanto da classe em campo como da classe tabuleiro.
+
+71
+00:06:11,290 --> 00:06:17,500
+Então a gente já limpou criou um novo projeto na próxima aula começa a incorporar o padrão observe dentro
+
+72
+00:06:17,500 --> 00:06:23,410
+do nosso joguinho do Campo Minado pra depois a gente colocar a interface gráfica e vai ser um exercício
+
+73
+00:06:23,410 --> 00:06:28,330
+muito legal primeiro que a gente vai aprender mais o padrão observa e segundo o que a gente vai começar
+
+74
+00:06:28,660 --> 00:06:30,480
+a fazer um projeto real.
+
+75
+00:06:30,490 --> 00:06:34,610
+O uso da interface gráfica é muito legal não posso continuar.

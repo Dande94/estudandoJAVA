@@ -1,0 +1,383 @@
+1
+00:00:00,340 --> 00:00:07,510
+Só agora vamos falar sobre uma questão extremamente importante que é o R.
+
+2
+00:00:07,960 --> 00:00:18,880
+M que é o mapeamento objeto relacional o objeto Leishmania lixo anal Elixir Mapping serve este olhar
+
+3
+00:00:18,880 --> 00:00:30,010
+que só é exatamente a sigla mais objetos Election Election Map nós vamos ver aqui algum objeto Election
+
+4
+00:00:30,100 --> 00:00:36,650
+NAL Map que é exatamente o mapeamento objeto relacional CGS é a sigla em inglês fazer um tempo que eu
+
+5
+00:00:36,650 --> 00:00:43,620
+não pesquisava mais exatamente a tradução seria SN um mapeamento objeto relacional.
+
+6
+00:00:43,720 --> 00:00:48,810
+Vamos falar um pouquinho sobre esse conceito que é um conceito importantíssimo aqui no JPL.
+
+7
+00:00:48,850 --> 00:00:50,010
+Como é que acontece.
+
+8
+00:00:50,020 --> 00:00:52,250
+Já pra vocês um pouco na prática.
+
+9
+00:00:52,660 --> 00:00:54,960
+Normalmente você vai definir uma classe.
+
+10
+00:00:55,000 --> 00:01:01,600
+Por exemplo vou simplificar pronta e escrever todos os detalhes aqui eu tenho uma classe Produto e essa
+
+11
+00:01:01,600 --> 00:01:08,020
+classe de produto aqui vai ter um determinado conjunto de atributos e obviamente você tem isso aqui
+
+12
+00:01:08,020 --> 00:01:14,620
+do lado orientado a objeto e descontrolado você tem no mundo entidade relacionamento um certo mundo
+
+13
+00:01:14,620 --> 00:01:21,250
+e você tem aqui a classe o objeto que você tem a tabela então uma vez que eu defino uma classe aqui
+
+14
+00:01:21,250 --> 00:01:27,490
+no mundo entidade relacionamento mais tempo por exemplo uma tabela com linhas e colunas como é que eu
+
+15
+00:01:27,490 --> 00:01:35,140
+faço para mapear isso ou seja mapear uma classe em uma tabela pra fazer isso eu vou usar dentro do mundo
+
+16
+00:01:35,140 --> 00:01:38,110
+do Java do JP o conceito de hífen.
+
+17
+00:01:38,530 --> 00:01:45,640
+Então por exemplo só para dar alguns exemplos pra vocês mas depois a gente pode entrar em outros cenários
+
+18
+00:01:45,640 --> 00:01:50,380
+digamos assim ele vai na a gente vai entrar em outros cenários mais complexos mais eu quero mostrar
+
+19
+00:01:50,380 --> 00:01:56,830
+pra você rapidamente só um pouquinho da filosofia por trás disso certo o colocar aqui com o braço amarelo.
+
+20
+00:01:56,860 --> 00:02:05,980
+Então o que acontece lá no JP exige um anotei que é o arroba tem algo lá não rouba tempo eu vou passar
+
+21
+00:02:06,010 --> 00:02:13,130
+como parâmetro pra o tempo o nome da tabela ou mesmo na tabela no qual essa imagem que você quer seja
+
+22
+00:02:13,130 --> 00:02:17,030
+uma classe certo você seja uma classe chamado produto.
+
+23
+00:02:17,270 --> 00:02:21,120
+E aqui dentro vou ter uma série de atributos e comportamentos.
+
+24
+00:02:21,520 --> 00:02:28,060
+Então quando eu coloco em cima da classe uma anotação dizer não arroba tempo eu coloco o nome da tabela
+
+25
+00:02:28,390 --> 00:02:34,570
+significa que essa classe estará sendo mapeada para essa tabela do banco de dados que por exemplo tem
+
+26
+00:02:34,570 --> 00:02:38,320
+o nome sei lá tb.
+
+27
+00:02:38,510 --> 00:02:42,520
+Lá em produtos.
+
+28
+00:02:42,520 --> 00:02:49,780
+Então uma vez que eu tenho uma tabela chamar tb demais produtos para eu criar essa relação esse mapeamento
+
+29
+00:02:49,870 --> 00:02:56,780
+entre um objeto e uma tabela eu uso anotei trecho dizendo que o nome da tabela no qual S.
+
+30
+00:02:56,800 --> 00:03:01,090
+Essa classe aponta e tb não demais produtos.
+
+31
+00:03:01,090 --> 00:03:10,090
+Dessa forma o framework de persistência no caso BPN JP ele saberá que por trás tem se essas informações
+
+32
+00:03:10,100 --> 00:03:11,500
+esses metadados.
+
+33
+00:03:11,500 --> 00:03:19,510
+Ele vai interpretar esses metadados que faz exatamente o mapeamento você tem aqui um objeto e você tem
+
+34
+00:03:19,510 --> 00:03:28,920
+aqui uma tabela então esse objeto precisa ser mapeado para essa tabela a partir de algum tipo de informação
+
+35
+00:03:28,920 --> 00:03:29,920
+XML.
+
+36
+00:03:29,950 --> 00:03:37,360
+Só notei que objeto você tem atributos que tem um atributo e aqui você tem um nome comum.
+
+37
+00:03:37,500 --> 00:03:44,460
+Então é feito um mapeamento desse atributo para essa coluna desse outro atributo para essa outra coluna
+
+38
+00:03:44,460 --> 00:03:50,910
+então você vai fazendo o mapeamento dos objetos para as tabelas dos atributos para as colunas do mesmo
+
+39
+00:03:50,910 --> 00:03:56,230
+jeito que eu tenho uma anotação chamada arroba termo ou carga que já tem muito amarelo que o coloca
+
+40
+00:03:56,230 --> 00:04:04,050
+aqui em vez de você tem anotei foi chamada arroba ai de que você vai dizer que um determinado atributo
+
+41
+00:04:04,050 --> 00:04:10,290
+aqui ele é a chave primária dessa tabela ou seja vai ser a chave primária lá no banco de dados ou seja
+
+42
+00:04:10,380 --> 00:04:14,340
+esse atributo representa a coluna que é a chave primária.
+
+43
+00:04:14,340 --> 00:04:21,930
+Você tem uma outra anotei o chamado Colo ou seja você vai dizer que esse atributo ele apontou para um
+
+44
+00:04:21,930 --> 00:04:25,350
+determinado coluna não necessariamente você precisa colocar.
+
+45
+00:04:25,380 --> 00:04:28,850
+Por padrão todo o atributo a ser mapeado para um colo.
+
+46
+00:04:29,040 --> 00:04:37,830
+Mas por exemplo você tem um atributo chamado Lemmy e lá no banco de dados eu tenho uma coluna chamada
+
+47
+00:04:37,970 --> 00:04:47,430
+em mim produto pode por exemplo certo ou seja Enemy Prodi não tem nada a ver com o nome do atributo
+
+48
+00:04:47,430 --> 00:04:49,890
+no qual essa coluna está mapeada.
+
+49
+00:04:49,890 --> 00:04:55,740
+Então pra você conseguir mudar digamos assim o nome do atributo para realmente o nome na coluna do banco
+
+50
+00:04:55,740 --> 00:04:58,750
+de dados você usa uma no trecho chamada colam.
+
+51
+00:04:58,830 --> 00:05:03,340
+Então uma boa parte daquilo que você precisa fazer como está lidando com o JP.
+
+52
+00:05:03,450 --> 00:05:11,400
+E fazer esse mapeamento objeto relacional ou objeto que eles chamam mapa de mapeamento objeto relacional
+
+53
+00:05:11,410 --> 00:05:17,430
+e é exatamente esse trabalho que a gente precisa fazer mapear o nosso objeto para o banco de dados para
+
+54
+00:05:17,430 --> 00:05:24,600
+daí a gente conseguir pegar o objeto e automaticamente interno JP vai transformar esse objeto mapeado
+
+55
+00:05:24,950 --> 00:05:27,550
+em comandos SQL.
+
+56
+00:05:27,570 --> 00:05:33,520
+No final das contas quem vai gerar o E7 quem vai gerar o update é quem vai gerar o Select.
+
+57
+00:05:33,720 --> 00:05:38,630
+Tudo isso será o framework de persistência no caso BPN.
+
+58
+00:05:38,700 --> 00:05:46,530
+A partir das interfaces no JP certo então o nosso trabalho vai implementar o RM e depois a gente vai
+
+59
+00:05:46,530 --> 00:05:50,630
+trabalhar com algumas outras classes interface do JP.
+
+60
+00:05:50,880 --> 00:05:55,770
+Para que a gente consiga realmente interagir com o banco de dados chamar as soluções para fazer todo
+
+61
+00:05:55,770 --> 00:06:00,350
+o trabalho de crude que o cliente updates de lixo.
+
+62
+00:06:00,390 --> 00:06:04,800
+Isso aqui pessoal vai ficar claro para vocês na prática a gente vai começar a partir de exemplos muito
+
+63
+00:06:04,800 --> 00:06:09,060
+simples e vai tornando os nossos exercícios mais complexos com o passar do tempo.
+
+64
+00:06:09,060 --> 00:06:15,510
+Outra coisa legal do JP a que vocês vão perceber é que o JP a depender de como ele foi configurado ele
+
+65
+00:06:15,510 --> 00:06:21,960
+pode criar para a gente as tabelas automaticamente a partir do mapeamento que a gente criou.
+
+66
+00:06:22,320 --> 00:06:29,910
+Então tem algumas coisas que são usadas apenas com esse propósito de criar as tabelas ou mesmo documentar
+
+67
+00:06:30,540 --> 00:06:36,660
+como um determinado colono foi criado no banco de dados e que não vai digamos assim fazer tanta diferença
+
+68
+00:06:36,660 --> 00:06:38,940
+no momento que você tiver inserido os dados.
+
+69
+00:06:38,940 --> 00:06:45,770
+Por exemplo se uma coluna anote nu ou não vai ser muito útil você dizer que uma determinada coluna anote
+
+70
+00:06:45,780 --> 00:06:46,620
+nu.
+
+71
+00:06:47,070 --> 00:06:53,070
+Ou seja ela não aceita nulo no momento que você for criar as tabelas mais ou menos que você estiver
+
+72
+00:06:53,070 --> 00:06:54,690
+fazendo a persistência.
+
+73
+00:06:54,690 --> 00:06:57,980
+Esse nu não vai servir para validar os dados.
+
+74
+00:06:57,990 --> 00:07:03,700
+Existe uma outra biblioteca que faz esse trabalho de validar os dados a partir das anotações.
+
+75
+00:07:03,750 --> 00:07:09,570
+A gente não vai trabalhar com elas aqui nesse capítulo mas o fato é que algumas dessas informações que
+
+76
+00:07:09,570 --> 00:07:15,620
+a gente coloca no Iêmen no mapeamento objeto relacional vai servir pra no momento de criar as tabelas
+
+77
+00:07:15,620 --> 00:07:21,300
+e outras informações vai servir para todos os momentos principalmente no que diz respeito aos nomes
+
+78
+00:07:21,300 --> 00:07:21,800
+né.
+
+79
+00:07:21,810 --> 00:07:28,170
+Ou seja essa classe aponta pra tabela que tem esse nome se tiver o mesmo nome e por padrão vai funcionar
+
+80
+00:07:28,180 --> 00:07:33,660
+ou seja se você tiver um banco de dados não colou uma chamada nem mim eu não preciso nem mesmo colocar
+
+81
+00:07:33,660 --> 00:07:39,960
+o colo ok porque ele vai usar uma convenção ou seja o nome do atributo tem exatamente o mesmo nome na
+
+82
+00:07:39,960 --> 00:07:47,960
+coluna e o Java usa uma convenção de que se o nome da classe é produto nome da tabela também será produto
+
+83
+00:07:47,960 --> 00:07:50,960
+no mesmo nome sem a questão de colocar no plural.
+
+84
+00:07:50,970 --> 00:07:56,220
+Se você quiser colocar o nome na tabela produtos que você tem que usar a notação rouba tempo mas a gente
+
+85
+00:07:56,220 --> 00:08:01,290
+vai entrar em cada uma dessas anotações eu estou mais aqui preocupado em mostrar pra vocês o conceito
+
+86
+00:08:01,650 --> 00:08:08,430
+do RM que a ideia de você mapear cada um dos atributos de cada objeto que representa o modelo da sua
+
+87
+00:08:08,430 --> 00:08:13,300
+aplicação mapear isso para as tabelas do banco de dados e fazer esse depara.
+
+88
+00:08:13,320 --> 00:08:18,630
+Na verdade é um grande dia para você tem a classe apontando para a tabela você tem um atributo apontando
+
+89
+00:08:18,630 --> 00:08:19,350
+para a coluna.
+
+90
+00:08:19,650 --> 00:08:24,840
+Obviamente existe cenários mais complexos mas para abordar os principais cenários durante o capítulo
+
+91
+00:08:24,840 --> 00:08:31,440
+fique por aqui na próxima hora começa configurando o nosso projeto ainda precisa baixar o Internet para
+
+92
+00:08:31,440 --> 00:08:34,010
+que a gente consiga usar ele pelo nosso projeto.
+
+93
+00:08:34,020 --> 00:08:39,640
+Nós vamos aproveitar uma biblioteca que a gente já tinha anteriormente que é o driver com mais queeles
+
+94
+00:08:39,660 --> 00:08:44,720
+vai continuar usando mais que ele continua usando exatamente o mesmo banco na próxima aula a gente configura
+
+95
+00:08:44,720 --> 00:08:49,800
+o projeto para que a gente possa criar os nossos exercícios e ele espera lá para a gente começa a colocar
+
+96
+00:08:49,800 --> 00:08:52,140
+a mão na massa no capítulo de JPL.

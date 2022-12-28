@@ -1,0 +1,287 @@
+1
+00:00:00,380 --> 00:00:05,860
+Um outro bloco importante para a gente conhecer que também está associado ao The Way Cat al filho ali
+
+2
+00:00:06,410 --> 00:00:08,200
+fazer um exame para mostrar isso para vocês.
+
+3
+00:00:08,280 --> 00:00:17,040
+Criar aqui uma classe em que eu vou chamar de família ali colocando aqui ali e vou mostrar para vocês
+
+4
+00:00:17,040 --> 00:00:20,900
+um exemplo bem simples então por exemplo nem vou.
+
+5
+00:00:21,270 --> 00:00:29,410
+Imagine que você tem aqui um bloco atrai Cat toca aquilo ai tem um ticket.
+
+6
+00:00:29,660 --> 00:00:34,640
+Vou colocar um CAT de Accept no mesmo ano e estou muito preocupado contigo dessa ação nesse caso né.
+
+7
+00:00:35,130 --> 00:00:42,180
+Então vamos supor que eu vá fazer o seguinte Cole vou colocar aqui uma entrada para pegar um cana transportava
+
+8
+00:00:42,280 --> 00:00:46,060
+cana e vou pegar aqui entrada na caixinha.
+
+9
+00:00:46,130 --> 00:00:56,250
+Vamos fazer o seguinte ao System Alt Pink Alien 7 dividido pelo coro entrada ponto NET.
+
+10
+00:00:56,510 --> 00:01:01,250
+Então o usuário vai fornecer uma entrada e eu vou pagar essa entrada e dividir por sete.
+
+11
+00:01:01,320 --> 00:01:08,290
+Se eu executar esse código colocar aqui System áudios de e ponto verde.
+
+12
+00:01:08,690 --> 00:01:13,290
+E aqui no final eu tenho um fim executando o nosso código.
+
+13
+00:01:13,290 --> 00:01:17,010
+Você vai ver que eu vou precisar digitar alguma coisa com qualquer um.
+
+14
+00:01:17,010 --> 00:01:21,690
+O resultado é 7 milhões opção e nenhum problema.
+
+15
+00:01:21,690 --> 00:01:23,990
+Não tive dificuldade nenhuma com meu código.
+
+16
+00:01:24,000 --> 00:01:31,140
+Quando ela está novamente é colocar um valor zero que vai acontecer na Linha 3 e vai gerar um problema.
+
+17
+00:01:31,140 --> 00:01:37,770
+Ele vai interromper o código nessa linha e vai pular diretamente croquete e vai mostrar a mensagem final
+
+18
+00:01:37,930 --> 00:01:40,320
+que aconteceu aqui com Bastos.
+
+19
+00:01:40,400 --> 00:01:46,020
+Aconteceu que essa execução da Linha 15 não aconteceu no caso de por quê.
+
+20
+00:01:46,290 --> 00:01:52,530
+Porque a entrada não foi fechada assim como a entrada não foi fechada significa que ele gerou um erro
+
+21
+00:01:52,530 --> 00:01:54,780
+e você deixou o recurso aberto.
+
+22
+00:01:55,160 --> 00:02:00,890
+Mas como é que eu faço por exemplo se eu quiser executar o código entrada para o Toulouse mesmo que
+
+23
+00:02:00,890 --> 00:02:05,060
+não aconteça o erro é exatamente para isso que existe o bloco falha.
+
+24
+00:02:05,130 --> 00:02:12,050
+Eu vou colocar a declaração do nosso scanner para fora do set o nosso trava ficar social system Alt
+
+25
+00:02:12,180 --> 00:02:13,460
+entrada pouco closed.
+
+26
+00:02:13,840 --> 00:02:16,440
+E aí que é que eu vou fazer eu vou criar um bloco falha.
+
+27
+00:02:16,940 --> 00:02:21,940
+E aí esse bloco falha ele vou colocar aqui um texto um presente.
+
+28
+00:02:21,990 --> 00:02:28,680
+Finalmente finalmente três pontinhos eu vou colocar uma entrada ponto uso pra cá.
+
+29
+00:02:28,680 --> 00:02:34,080
+Ou seja se essa sentença que está dentro do trailer dê algum problema ele vai cair no CAT.
+
+30
+00:02:34,320 --> 00:02:36,730
+Mas ainda assim vai ser chamado finally.
+
+31
+00:02:36,820 --> 00:02:41,940
+E se essa sentença de código não gerar nenhum problema ainda assim eu falha ele será chamado Em outras
+
+32
+00:02:41,940 --> 00:02:43,060
+palavras.
+
+33
+00:02:43,240 --> 00:02:49,680
+Sempre falo ele será chamado seja o código do trainee executor de forma correta ou se ele tiver gerado
+
+34
+00:02:49,680 --> 00:02:52,270
+alguma exceção em todos os casos.
+
+35
+00:02:52,320 --> 00:03:00,000
+Esse bloco será chamado exatamente pra esses momentos que você quer forçar que algo seja executado independente
+
+36
+00:03:00,000 --> 00:03:01,020
+de ter ou não.
+
+37
+00:03:01,020 --> 00:03:07,090
+Imagine que você está tentando executar algum ação no banco de dados e você gerou um problema você quer
+
+38
+00:03:07,110 --> 00:03:08,550
+ainda assim fechar a conexão.
+
+39
+00:03:08,550 --> 00:03:14,760
+Você bota no falha ali o ponto guloso para fechar a conexão vocês de forma bem sucedida e ainda assim
+
+40
+00:03:14,760 --> 00:03:16,290
+quer fechar a conexão.
+
+41
+00:03:16,290 --> 00:03:21,360
+Você coloca no final ali que vai ser sempre chamado exatamente o que está acontecendo também aqui no
+
+42
+00:03:21,360 --> 00:03:23,280
+nosso entra nosso escandinavo.
+
+43
+00:03:23,640 --> 00:03:25,300
+Então vai executar mais uma vez.
+
+44
+00:03:25,710 --> 00:03:32,850
+Nesse caso eu vou colocar o valor o Estado será 7 e chamou finalmente depois está no nosso código e
+
+45
+00:03:32,970 --> 00:03:34,890
+logo colocar finalmente não tem fim.
+
+46
+00:03:34,890 --> 00:03:42,270
+Finalmente não vou colocar aqui faria tal resultado com o valor 2 3.
+
+47
+00:03:42,330 --> 00:03:48,450
+Deu finalmente o sistema ou falha ele e mais uma vez executado coloca no valor zero você vai perceber
+
+48
+00:03:48,450 --> 00:03:55,080
+que vai ser gerado o erro mais ele vai chamar também falha ali e depois é primeiro ele executa o CAT.
+
+49
+00:03:55,160 --> 00:04:01,510
+Ou seja ele imprime a mensagem de erro que é dividido puseram depois ele chama falha e aí ele continuou
+
+50
+00:04:01,520 --> 00:04:06,840
+o código normalmente porque o erro foi tratado mesmo que o erro eventualmente não tenha sido tratado
+
+51
+00:04:06,850 --> 00:04:10,890
+vamos supor que eu joguei aqui aritmético erro.
+
+52
+00:04:10,950 --> 00:04:12,020
+Tá certo.
+
+53
+00:04:12,030 --> 00:04:14,980
+é bom que eu esteja tratando algo mais específico.
+
+54
+00:04:15,000 --> 00:04:22,110
+Por exemplo eu estou tratando alguns off Memory erro em vez de tratar um essa ação não tem nada a ver
+
+55
+00:04:22,110 --> 00:04:27,930
+o erro que será gerado com a Out of Memory erro mas mesmo assim mesmo não tratando o erro ele baixa
+
+56
+00:04:27,930 --> 00:04:30,860
+mal faz dele independente de qualquer coisa detectado.
+
+57
+00:04:31,090 --> 00:04:32,720
+Vou colocar zero.
+
+58
+00:04:33,270 --> 00:04:39,420
+Ou seja ele não tratou não caiu bucket mas mesmo assim ele chamou falha ele só depois é que essa ação
+
+59
+00:04:39,420 --> 00:04:40,260
+foi lançada.
+
+60
+00:04:40,260 --> 00:04:46,400
+Ou seja o erro aritmético dizerem que foi dividido puseram ou seja independente de qualquer coisa falha
+
+61
+00:04:46,440 --> 00:04:53,850
+ele sempre foi chamado e na verdade você pode até ter um bloco desses sem sentem o.
+
+62
+00:04:53,880 --> 00:05:00,660
+Então se eu duplicar isso aqui você pode eu vou colocar isso aqui de novo pra ser um ET Section e aqui
+
+63
+00:05:00,660 --> 00:05:06,510
+embaixo eu vou tirar o bloco Vou simplesmente ter algo assim não trai falha ele sim necessariamente
+
+64
+00:05:06,510 --> 00:05:15,970
+tem um calote e aí ainda assim ele será chamado certo ao colocar aqui faina hashtags era um iPhone 02
+
+65
+00:05:16,110 --> 00:05:16,960
+executado.
+
+66
+00:05:17,490 --> 00:05:20,880
+Ele vai mal vou colocar o valor zero inicialmente.
+
+67
+00:05:21,420 --> 00:05:25,830
+Nesse caso vai ter um problema porque ele vai fechar a entrada aqui não vou deixar pra fechar só na
+
+68
+00:05:25,830 --> 00:05:27,460
+segunda vez seguinte.
+
+69
+00:05:27,560 --> 00:05:31,720
+Eu não vou fechar nessa primeiro fechar sou nascido e criado.
+
+70
+00:05:31,860 --> 00:05:38,270
+Vou colocar aqui o valor zero certo deu problema flanelinha de novo valor zero.
+
+71
+00:05:38,340 --> 00:05:44,330
+Deu um problema porque eu não tratei agora não sou eu mesmo console mas ainda assim executou falha dois
+
+72
+00:05:44,430 --> 00:05:47,400
+ou seja em todas as situações ele é chamado.

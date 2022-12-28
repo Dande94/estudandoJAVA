@@ -1,0 +1,363 @@
+1
+00:00:00,180 --> 00:00:06,240
+Penso agora que nós temos duas tabelas e tabelas preenchidas hoje eles fazem nossas consultas duas consultas
+
+2
+00:00:06,240 --> 00:00:10,830
+na verdade duas formas diferentes de fazer consultas com o idioma e vou mostrar isso na sala.
+
+3
+00:00:11,140 --> 00:00:13,600
+Então nós vamos criar aqui um novo arquivo.
+
+4
+00:00:13,770 --> 00:00:17,650
+Eu coloquei o botão errado clicando aqui.
+
+5
+00:00:17,660 --> 00:00:24,930
+Eu falei o nome do arquivo que nós vamos criar vai se consultar com o ponto SQL então aqui dentro vou
+
+6
+00:00:24,930 --> 00:00:29,490
+fazer o seguinte eu vou colocar um select asterisco from Estados.
+
+7
+00:00:29,580 --> 00:00:35,760
+Então nesse caso nós temos uma consulta normal só que quando formos colocar mais tabelas é muito importante
+
+8
+00:00:35,760 --> 00:00:40,590
+ter uma API uma ilha para cada tabela para que você possa referenciar não é obrigado.
+
+9
+00:00:40,590 --> 00:00:45,780
+Você pode usar um nome da tabela completo mas via de regra você acaba colocando algum apelido nesse
+
+10
+00:00:45,780 --> 00:00:51,510
+caso eu vou colocar simplesmente a letra e para o Estado e para adicionar uma nova tabela basta você
+
+11
+00:00:51,510 --> 00:00:56,760
+colocar a vírgula e o nome da outra tabela colocando por exemplo eles também associado no caso aqui
+
+12
+00:00:56,760 --> 00:00:57,260
+sei.
+
+13
+00:00:57,660 --> 00:01:05,630
+Então tem o selecione tudo ou seja todas as colunas tanto de Estado como de cidade foram Estado e vírgula
+
+14
+00:01:05,640 --> 00:01:07,700
+cidade sei beleza.
+
+15
+00:01:07,830 --> 00:01:13,920
+Nesse caso se eu executar você vai ver que vai gerar uma consulta muito estranha ao contra o chip que
+
+16
+00:01:14,040 --> 00:01:20,610
+vai funcionar ele vai gerar uma consulta muito estranho que irá fazer o que ele chama de um produto
+
+17
+00:01:20,610 --> 00:01:29,190
+cartesiano das duas tabelas ou seja eu vou ter Campinas associada com a região Norte a C Niterói associado
+
+18
+00:01:29,190 --> 00:01:34,340
+com aquele Caruaru associado com a Juazeiro com o Acre e Campinas com Alagoas.
+
+19
+00:01:34,380 --> 00:01:40,830
+Ele vai fazer um produto cartesiano e o produto cartesiano significa que todas as linhas da tabela estado
+
+20
+00:01:41,190 --> 00:01:47,530
+estarão relacionadas com todas as linhas da tabela cidade ou seja ele não vai usar a chave primária
+
+21
+00:01:47,550 --> 00:01:50,280
+chave estrangeira para fazer essa relação.
+
+22
+00:01:50,280 --> 00:01:55,590
+Nesse caso faz esse tipo de consulta não vai dar um estalo legal porque ele vai gerar uma quantidade
+
+23
+00:01:55,920 --> 00:02:00,360
+bem grande de registro só aqui fazendo todo mundo relacionar com todo mundo.
+
+24
+00:02:00,360 --> 00:02:08,010
+Nesse caso é importante que a gente coloque um filtro era pra que o Haiti no Estado seja exatamente
+
+25
+00:02:08,010 --> 00:02:15,060
+igual a cidade do estado onde ela Aydin ou seja a chave primária na tabela Estado que foi pra tabela
+
+26
+00:02:15,060 --> 00:02:21,960
+cidade você tem que igualar era pra que de fato a cidade possa estar relacionado com o seu estado corretamente.
+
+27
+00:02:22,270 --> 00:02:28,670
+Então executando essa consulta com um disse E você vai ver que agora sim tem um Campinas associado com
+
+28
+00:02:28,680 --> 00:02:34,980
+São Paulo eu tenho Niterói é associado com o Rio de Janeiro e tem o Caruaru associado com Pernambuco
+
+29
+00:02:34,980 --> 00:02:37,670
+e Juazeiro do Norte associado com o Ceará.
+
+30
+00:02:37,680 --> 00:02:42,890
+Se eu vim aqui colocar por exemplo selecione o nome desse.
+
+31
+00:02:42,930 --> 00:02:48,990
+Nessa consulta aqui você deve contra o chip que tal você vai ver que deu um erro porque é um erro porque
+
+32
+00:02:48,990 --> 00:02:55,620
+a coluna nome é uma coluna ambígua a coluna existe tanto na tabela Estado como na tabela cidade então
+
+33
+00:02:55,620 --> 00:03:02,070
+nesse caso você quer selecionar o nome e o nome do Estado ou o nome da cidade e aí pra isso exijo o
+
+34
+00:03:02,070 --> 00:03:09,180
+Elias o apelido ou o nome completo da tabela ou então você coloca por exemplo e ponto o nome vírgula
+
+35
+00:03:09,480 --> 00:03:18,370
+sei o nome e aí pode colocar por exemplo região então nesse caso não há ambiguidade.
+
+36
+00:03:18,380 --> 00:03:24,230
+Inclusive a região não precisa ter um apelido porque não há ambiguidade contra o chipset.
+
+37
+00:03:24,290 --> 00:03:30,900
+Você coloca por exemplo o nome e região nesse caso eu vou colocar só o colocar aqui um apelido eles
+
+38
+00:03:30,920 --> 00:03:32,250
+também pra não ficar aqui.
+
+39
+00:03:32,250 --> 00:03:36,090
+Eu acho que esse blog não é um blog do mais Kelly.
+
+40
+00:03:36,110 --> 00:03:41,110
+Essa consulta só colocaram não que vai funcionar aqui provavelmente esse público não tá trazendo um
+
+41
+00:03:41,110 --> 00:03:46,730
+resultado legal publicado aqui que torna nessa consulta aqui não contra o rei.
+
+42
+00:03:46,930 --> 00:03:56,010
+Só dá uns usam aqui pra ficar mais fácil você vê executando ele trouxe nome em nome de São Paulo Campinas
+
+43
+00:03:56,010 --> 00:04:02,500
+região Sudeste Rio de Janeiro Niterói Pernambuco Caruaru por algum motivo o blogueiro aqui não está
+
+44
+00:04:02,500 --> 00:04:09,030
+atrás legal mas acho que você pode colocar por exemplo o s estado João Cabral aqui mais um amigo pra
+
+45
+00:04:09,030 --> 00:04:26,350
+ficar um pouco mais claro esse estado aqui nessa cidade e essa região na região from aqui o executando
+
+46
+00:04:26,670 --> 00:04:28,070
+consulta contra Chávez.
+
+47
+00:04:28,500 --> 00:04:34,140
+Nesse caso ele vai trazer as três colunas estado cidade e região que diferem em seu nome mas este não
+
+48
+00:04:34,140 --> 00:04:39,870
+é um blog é um blog do próprio bloguinho e no verso como ele não tem a ver especificamente com alguma
+
+49
+00:04:39,870 --> 00:04:45,740
+limitação do mais quero uma vez que você diz a tabela é com a coluna mesmo que tenha nomes repetidos
+
+50
+00:04:45,750 --> 00:04:46,660
+não tem problema.
+
+51
+00:04:46,810 --> 00:04:52,500
+Então a questão é você definir qual a coluna e a tabela se tem exatamente o mesmo nome isso não é um
+
+52
+00:04:52,500 --> 00:04:53,220
+problema.
+
+53
+00:04:53,270 --> 00:04:54,570
+No mais quero aqui no blog.
+
+54
+00:04:54,600 --> 00:04:59,820
+Parece que não estava trazem nas duas colunas mas nesse caso ele vai trazer da mesma forma o pessoal
+
+55
+00:04:59,820 --> 00:05:02,210
+que se eu voltar aqui e isso.
+
+56
+00:05:02,220 --> 00:05:08,600
+Como você vai ver que ele vai trazer todas as colunas mesmo inclusive os nomes e seus nomes são Paulo
+
+57
+00:05:08,610 --> 00:05:15,540
+nome Campinas Wadih duas vezes a região a população aqui todas as colunas veio porque de fato isso é
+
+58
+00:05:15,540 --> 00:05:19,950
+o comportamento normal esperado aqui no público faz um pouquinho diferente da primeira foto que nós
+
+59
+00:05:19,950 --> 00:05:24,720
+fizemos a junção foi colocando mais uma tabela na cláusula from.
+
+60
+00:05:24,970 --> 00:05:30,540
+é importante que você faça um filtro na web para quem não faça um produto cartesiano com todas as linhas
+
+61
+00:05:30,540 --> 00:05:35,700
+das duas tabelas gerar um resultado que não tem nada a ver não seja a cidade que não está associado
+
+62
+00:05:35,700 --> 00:05:36,940
+com determinado estado.
+
+63
+00:05:37,160 --> 00:05:43,440
+E aqui nós usamos um filtro pra fazer justamente essa relação no qual o Estado é exatamente igual à
+
+64
+00:05:43,440 --> 00:05:51,260
+cidade do estado onde além de outra forma de fazer consulta ou fazer o seguinte você Alex caso sei pouco
+
+65
+00:05:51,300 --> 00:05:55,900
+o nome da cidade vou quebrar aqui embaixo.
+
+66
+00:05:56,250 --> 00:06:06,450
+O próximo vai ser e aponta o nome e estado região região e eu vou colocar aqui from estados em vez de
+
+67
+00:06:06,450 --> 00:06:09,980
+colocar diretamente na cláusula foram outras tabelas.
+
+68
+00:06:09,990 --> 00:06:17,130
+Vou colocar aqui embaixo usando a palavrinha ou então vou colocar o seguinte ao esse espaço ou a junção
+
+69
+00:06:17,370 --> 00:06:23,030
+do tipo m na próxima aula ou falam um pouquinho mais dos chips que tem left on o site.
+
+70
+00:06:23,530 --> 00:06:29,430
+Vou entrar um pouco mais em detalhe menos tipos de junções que você pode ter entre duas tabelas.
+
+71
+00:06:29,430 --> 00:06:31,570
+Certo mas aqui eu usei né.
+
+72
+00:06:31,890 --> 00:06:39,420
+Vou colocar aqui cidade C se já coloquei o Elias aqui e vou definir determinar qual é as duas colunas
+
+73
+00:06:39,420 --> 00:06:41,430
+que eu vou usar para fazer essa junção.
+
+74
+00:06:41,550 --> 00:06:46,140
+Então vou colocar aqui no caso Apple II igual a C.
+
+75
+00:06:46,140 --> 00:06:51,960
+Ponto o estado onde além de tal há também uma possibilidade para você fazer a junção então selecionando
+
+76
+00:06:51,960 --> 00:06:52,650
+o que eu quero.
+
+77
+00:06:52,650 --> 00:06:58,220
+Qualquer ataque com uma de chipset ele executou e o resultado deu exatamente o que eu queria.
+
+78
+00:06:58,230 --> 00:07:00,730
+Cidade Campinas estado e região.
+
+79
+00:07:00,750 --> 00:07:06,540
+Fiz a junção de forma correta a partir desse critério aquilo que você pode colocar numa linha só pode
+
+80
+00:07:06,570 --> 00:07:11,120
+colocar em duas linhas sem problema nenhum na forma como você deseja formatar.
+
+81
+00:07:11,160 --> 00:07:16,430
+Você pode escolher que executando funcionou normalmente então vimos duas formas de fazer junção uma
+
+82
+00:07:16,650 --> 00:07:18,170
+diretamente na cláusula from.
+
+83
+00:07:18,180 --> 00:07:23,970
+Você coloca as duas tabelas e você faz um filtro ou você pode colocar cláusula foram apenas com uma
+
+84
+00:07:23,970 --> 00:07:30,360
+única tabela e usar o e-mail e dizer na outra tabela que você quer juntar e depois do UOL Você diz exatamente
+
+85
+00:07:30,360 --> 00:07:36,670
+quais são as colunas que vão ser iguais se forem chaves com duas colunas você vai ter que ter mais de
+
+86
+00:07:36,780 --> 00:07:37,600
+uma cláusula.
+
+87
+00:07:37,610 --> 00:07:44,310
+Assim você pode usar o Estado poupa de igual a C outro estado aí você pode colocar aqui um índio e colocar
+
+88
+00:07:44,320 --> 00:07:45,210
+outro critério.
+
+89
+00:07:45,210 --> 00:07:49,200
+Outra comparação para saber se outra coluna é igual a outra coluna certo.
+
+90
+00:07:49,290 --> 00:07:53,940
+Até agora nós não usamos nenhum índio e em nenhum outro filtro de consultas que nós fizemos até aqui
+
+91
+00:07:54,260 --> 00:07:59,010
+mais vamos ter oportunidade de ver isso no capítulo de espera na próxima aula e até lá.

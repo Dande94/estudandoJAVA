@@ -1,0 +1,471 @@
+1
+00:00:00,080 --> 00:00:06,960
+Pessoal continuando nosso exercício nós vamos agora colocar os primeiros elementos visuais dentro do
+
+2
+00:00:06,960 --> 00:00:15,840
+nosso arquivo Java FX e nós também vamos criar uma classe Java que vai nos ajudar a ligar os componentes
+
+3
+00:00:15,840 --> 00:00:20,120
+que foram definidos dentro do nosso arquivo JS X em XML.
+
+4
+00:00:20,400 --> 00:00:26,670
+Nós vamos ter como ligar eles a uma classe Java e aqui está presente um padrão de projeto conhecido
+
+5
+00:00:26,670 --> 00:00:30,520
+como MVC Model vi o controle a minha viu.
+
+6
+00:00:30,600 --> 00:00:34,830
+Ou seja a interface gráfica é definida dentro do arquivo XML.
+
+7
+00:00:34,890 --> 00:00:41,140
+A partir de linguagem de marcação no caso o XML e nós vamos criar uma classe Java que será o nosso controlador
+
+8
+00:00:41,520 --> 00:00:46,470
+e dentro dessa classe A gente vai conseguir ter acesso aos elementos visuais e a gente vai conseguir
+
+9
+00:00:46,470 --> 00:00:50,890
+criar método que vai responder por exemplo clique no botão parada aí.
+
+10
+00:00:50,910 --> 00:00:56,880
+A partir dessa classe controladora eu consegui chamar outras classes na minha aplicação habitualmente
+
+11
+00:00:57,230 --> 00:01:04,140
+acessar a entidade do JP eventualmente chamar a classe que vai aplicar regras de negócio e daí vai inseri
+
+12
+00:01:04,470 --> 00:01:05,390
+no banco de dados.
+
+13
+00:01:05,400 --> 00:01:11,550
+Então você tem a visão que o viu como sendo a sua interface gráfica definida em XML.
+
+14
+00:01:11,820 --> 00:01:18,210
+Nós teremos um controle que é exatamente essa classe que estará ligada a viu conseguindo capturar eventos
+
+15
+00:01:18,210 --> 00:01:24,300
+do clique ou mesmo acessar componentes visuais e a partir do seu controlador do seu controle.
+
+16
+00:01:24,300 --> 00:01:28,780
+Você pode chamar as classes de negócio que é representado pelo módulo.
+
+17
+00:01:28,860 --> 00:01:36,560
+Então MVC que é um módulo viu Controller viu exatamente nesse cenário que o arquivo XML o controlador
+
+18
+00:01:36,630 --> 00:01:42,990
+que fica no meio controlando a sua interface gráfica e chamando o modelo que pode ser qualquer outra
+
+19
+00:01:42,990 --> 00:01:44,700
+classe da sua aplicação.
+
+20
+00:01:44,700 --> 00:01:50,120
+Então a primeira coisa que eu quero conversar com vocês aqui na aula passada eu acabei coloca na borda
+
+21
+00:01:50,150 --> 00:01:55,800
+bem mas eu não queria colocar o bode apenas queria colocar o grid bem que vai ser melhor para a gente
+
+22
+00:01:55,800 --> 00:01:58,220
+definir minha nossa interface de login.
+
+23
+00:01:58,260 --> 00:02:03,960
+Então vou colocar grande bem vou aproveitar em vez de colocar fixo pode bem eu vou colocar um asterisco
+
+24
+00:02:04,350 --> 00:02:10,860
+pra porque eu vou precisar de outras classes relacionadas ao real como Coca-Cola construiu então aqui
+
+25
+00:02:11,190 --> 00:02:17,230
+já garante que o importe vai ter contemplado e outro importe que eu vou precisar além de Java FX sim
+
+26
+00:02:17,310 --> 00:02:25,220
+pouco layout e o Java FX sim ponto de controle pra ter acesso ao Lembo ao botão Alt fio.
+
+27
+00:02:25,250 --> 00:02:29,290
+Eu peço o perfil de outros controles que a gente vai precisar definir.
+
+28
+00:02:29,320 --> 00:02:34,650
+Na nossa interface gráfica a primeira coisa que eu quero fazer além de ajeitar aqui os dois impostos
+
+29
+00:02:34,650 --> 00:02:40,380
+que eu vou precisar mudar para bem e dentro do meu ponto XML.
+
+30
+00:02:40,410 --> 00:02:46,320
+A gente vai precisar carregar a interface gráfica eu vou carregar a interface gráfica Apache eu vou
+
+31
+00:02:46,320 --> 00:02:56,600
+criar aqui ou aqui e ali Java o Cotonete o RL vou chamar aqui arquivo Arquivo J XML recebe.
+
+32
+00:02:57,060 --> 00:03:04,890
+Eu vou colocar o Pet less ponto Bad professores só se você passa um monstrinho que é o caminho.
+
+33
+00:03:04,890 --> 00:03:06,470
+Prefiro Barra tonal.
+
+34
+00:03:06,610 --> 00:03:12,420
+O RL e aqui eu vou passar o caminho parecido com o que a gente tem feito anteriormente.
+
+35
+00:03:12,420 --> 00:03:21,240
+Basicamente a barra XML comum do pacote é o nome do arquivo e logo um ponto XML com o RL apontando para
+
+36
+00:03:21,240 --> 00:03:28,710
+o arquivo eu consigo chamar o XML logo D que é uma classe que pertence ao Java FX.
+
+37
+00:03:28,710 --> 00:03:34,830
+Ponto é preciso ml como a gente já deu em caixas dizendo que a gente depende do módulo Java x ponto
+
+38
+00:03:35,420 --> 00:03:41,100
+XML então a gente tem acesso também a essa classe e aqui eu tenho um método low end que recebe como
+
+39
+00:03:41,100 --> 00:03:47,940
+parâmetro uma localização a Location quer do tipo RL ele retorna um tipo genérico T.
+
+40
+00:03:48,360 --> 00:03:53,660
+Ou seja se ele retorna tipo genérico T não vou precisar me preocupar em fazer um teste.
+
+41
+00:03:53,690 --> 00:03:55,660
+Conversão dá o passo aqui.
+
+42
+00:03:55,660 --> 00:04:03,090
+O arquivo XML é no nosso caso especificamente a gente está retornando um vídeo.
+
+43
+00:04:03,150 --> 00:04:09,460
+Então eu não posso colocar aqui no XML um grande bem que eu vou chamar aqui de raiz.
+
+44
+00:04:09,610 --> 00:04:15,560
+Recebe isso aqui eu vou só importar o Gripen para não dar nenhum problema e daí uma vez que eu tenho
+
+45
+00:04:15,680 --> 00:04:20,160
+meu critiquem vindo de um arquivo XML o resto é padrão então vai criar um senão.
+
+46
+00:04:20,610 --> 00:04:24,190
+Então sim vou chamar aqui de cena.
+
+47
+00:04:24,220 --> 00:04:26,660
+Recebi sim.
+
+48
+00:04:26,760 --> 00:04:36,210
+Vou passar o raiz que é o meu Gripen e vou definir o tamanho de 350 por 400 ou o tamanho da minha tela
+
+49
+00:04:36,210 --> 00:04:40,250
+e vou chamar aqui outro ponto 7.
+
+50
+00:04:40,950 --> 00:04:42,920
+Sim passando a cena.
+
+51
+00:04:42,930 --> 00:04:52,710
+Além disso eu vou querer também encetar o título do meu esteja em um set top box aqui na tela de login
+
+52
+00:04:53,220 --> 00:04:59,120
+e voltar está assim ao executar a aplicação e a tela aparecerá com o que ele conseguiu carregar o arquivo
+
+53
+00:04:59,130 --> 00:05:06,680
+FX em apareceu tela de login uma coisa que eu quero evitar é o usuário maximizar qualquer tela de login.
+
+54
+00:05:06,710 --> 00:05:12,710
+Eu quero que ela fique com tamanho fixo e aqui para resolver isso eu posso colocá lo em meus tempos.
+
+55
+00:05:12,860 --> 00:05:16,190
+Outros sete sites com igual falso.
+
+56
+00:05:16,830 --> 00:05:21,810
+E aí ele não vai permitir ao usuário alterar o tamanho da tela nem arrastando o menu no cantinho da
+
+57
+00:05:21,810 --> 00:05:27,870
+tela e nem a partir do botão aqui então são duas opções que não estarão válidas para a gente.
+
+58
+00:05:27,870 --> 00:05:30,010
+A partir dessa tela de login ok.
+
+59
+00:05:30,190 --> 00:05:36,330
+Se já está funcionando aqui o login então a gente já pode tentar colocar aqui um elemento visual e ver
+
+60
+00:05:36,330 --> 00:05:37,300
+o que é que acontece.
+
+61
+00:05:37,380 --> 00:05:44,760
+Então vou colocar aqui um batom está um pouco lento aqui embaixo bem deixou aqui o botão Eu vou colocar
+
+62
+00:05:44,760 --> 00:05:50,730
+o atributo de teste pra gente ver o resultado e eu vou colocar aqui para você entrar.
+
+63
+00:05:50,930 --> 00:05:57,250
+Vai ser o botão que a gente vai executar clicar para ele entrar no sistema e executá lo aqui.
+
+64
+00:05:57,660 --> 00:05:59,130
+Elas estão mais uma vez.
+
+65
+00:05:59,130 --> 00:06:02,600
+Vou colocar aqui o botão se ele aparece na tela.
+
+66
+00:06:02,600 --> 00:06:05,010
+Apareceu aqui na tela sem problema nenhum.
+
+67
+00:06:05,340 --> 00:06:10,330
+Eu vou colocar outros elementos a gente vai ajustando de acordo com a necessidade.
+
+68
+00:06:10,410 --> 00:06:12,610
+Vou colocar aqui lembrou.
+
+69
+00:06:13,620 --> 00:06:19,150
+Ele completa sim vou colocar aqui e olhe que já vai fechar para a gente leigo.
+
+70
+00:06:19,530 --> 00:06:22,480
+Eu vou ter pelo menos três leigos.
+
+71
+00:06:22,570 --> 00:06:26,770
+Vou colocar o teste em si.
+
+72
+00:06:26,850 --> 00:06:30,690
+Seja bem vindo o leigo o principal.
+
+73
+00:06:30,870 --> 00:06:37,980
+Nós teremos um leigo que vai ser um rolo textual altamente relacionado a um e-mail que vai ser do campo
+
+74
+00:06:37,980 --> 00:06:41,590
+de meio e tem um outro leigo teste.
+
+75
+00:06:42,030 --> 00:06:49,240
+E vai ser a senha dois pontos que vai ser o leilão associado ao campo de San Salvador aqui depois a
+
+76
+00:06:49,240 --> 00:06:54,330
+gente se preocupa mais com a parte visual algo a deixar para uma outra aula a gente se preocupar com
+
+77
+00:06:54,330 --> 00:06:55,040
+isso.
+
+78
+00:06:55,100 --> 00:06:58,350
+Tá meio que colocando tudo num canto só serve.
+
+79
+00:06:58,360 --> 00:07:00,710
+Seja bem vindo tudo no índice zero.
+
+80
+00:07:00,720 --> 00:07:05,190
+Então o que é que a gente vai fazer aqui em termos de posicionamento.
+
+81
+00:07:05,190 --> 00:07:11,370
+Primeiro a gente vai colocar um posicionamento sei lá padrão e depois a gente vai fazer nos ajustes
+
+82
+00:07:11,370 --> 00:07:13,420
+necessários vou colocar um embaixo do outro.
+
+83
+00:07:13,950 --> 00:07:17,890
+Então vou usar o grid tem ponto.
+
+84
+00:07:18,240 --> 00:07:31,380
+Eu tenho aqui o cólon Index ser 0 e vou pegar isso aqui colocá lo no Index pra 6 0 também.
+
+85
+00:07:31,490 --> 00:07:37,230
+Empregos pra vocês era esse aqui vai ser a posição do primeiro.
+
+86
+00:07:37,530 --> 00:07:40,090
+Esse aqui eu vou colocar pra série.
+
+87
+00:07:40,150 --> 00:07:44,660
+O colo ainda que 0 é ruim pra c é a senha.
+
+88
+00:07:44,740 --> 00:07:54,440
+Vou colocar o endereço próximo zero eu tive que esperar C2 e o botão Eu vou colocar por enquanto pra
+
+89
+00:07:54,450 --> 00:08:01,420
+ser só pra cada um aparecer no seu devido local e depois a gente vai fazer os ajustes necessários olhando
+
+90
+00:08:01,440 --> 00:08:02,350
+o resultado.
+
+91
+00:08:02,400 --> 00:08:11,370
+Seja bem vindo e-mail e senha e o botão vou também precisar colocar aqui no meio o teste fios então
+
+92
+00:08:11,410 --> 00:08:14,430
+qualquer um teste em fios.
+
+93
+00:08:14,660 --> 00:08:21,480
+Aqui vou precisar também definir o posicionamento de fios então acabar deslocando os outros componentes
+
+94
+00:08:21,480 --> 00:08:22,160
+para baixo.
+
+95
+00:08:22,730 --> 00:08:30,630
+Esse aqui vai ser eu pois vou colocar um outro teste viu se aqui vai ser um leilão isolado lá no começo
+
+96
+00:08:30,630 --> 00:08:34,870
+da página o leilão é um teste de filmagem aqui.
+
+97
+00:08:35,190 --> 00:08:42,770
+Na verdade eu vou usar a mesma posição só que eu vou colocar rolo e o outro também pegar um outro filme
+
+98
+00:08:42,810 --> 00:08:54,230
+aqui embaixo e colocar do lado do outro e vai ser do Index 2 e vai ser o cólon Index e aqui embaixo
+
+99
+00:08:54,250 --> 00:08:57,940
+vou qual acabo de editar no botão entrar só pra gente bem mais qualificada.
+
+100
+00:08:58,020 --> 00:09:03,630
+A interface agora não por enquanto eu não estou preocupado muito com o layout só posicionando as coisas
+
+101
+00:09:03,630 --> 00:09:04,080
+na tela.
+
+102
+00:09:04,170 --> 00:09:12,230
+Então tem um guia de entrada e nesse caso da senha não é um filme mais um filme formal.
+
+103
+00:09:12,990 --> 00:09:21,480
+Filmes ou cópia aqui pra baixo e se for de filmes executando agora eu coloco aqui meio aqui.
+
+104
+00:09:21,500 --> 00:09:24,270
+Eu tenho um campo de sei lá garotão.
+
+105
+00:09:24,420 --> 00:09:29,490
+Essa foi a primeira parte do nosso Exército eu vou tentar quebrar em várias partes para não ficar muito
+
+106
+00:09:29,880 --> 00:09:33,320
+digamos assim um aulão muito grande na próxima aula que é que eu vou fazer.
+
+107
+00:09:33,390 --> 00:09:36,870
+Eu vou tentar pegar vou tentar não vou fazer né.
+
+108
+00:09:36,870 --> 00:09:39,370
+Vou pegar aqui peço pessoal.
+
+109
+00:09:39,510 --> 00:09:44,250
+O campo não é aquilo que você colocou nesse campo de berço hoje é aquele que você colocou no campo de
+
+110
+00:09:44,250 --> 00:09:51,740
+entrada e vou também vincular o clique do botão ao método e a partir de uma classe controladora ou seja
+
+111
+00:09:51,960 --> 00:09:57,600
+não criou ainda uma classe controladora achando que o nosso exercício dentro de f XML.
+
+112
+00:09:57,600 --> 00:10:03,330
+Nós não temos o login controlado vamos criar uma classe e nós vamos aprender como é que eu consigo pegar
+
+113
+00:10:03,330 --> 00:10:10,030
+os componentes visuais da tela e vincular tanto com atributos dentro dessa classe como no momento em
+
+114
+00:10:10,040 --> 00:10:11,090
+que eu clicar no botão.
+
+115
+00:10:11,100 --> 00:10:16,950
+O método dentro da classe controladora será chamado exatamente para a gente fazer o teste e verificar
+
+116
+00:10:16,950 --> 00:10:21,270
+se o login está certo se não está certo se o usuário conseguiu se logar ou não.
+
+117
+00:10:21,270 --> 00:10:27,240
+Então fique por aqui na próxima aula a gente completa completo não faz mais parte do nosso exercício
+
+118
+00:10:27,510 --> 00:10:30,260
+da tela de login com o XML e outros para lá.

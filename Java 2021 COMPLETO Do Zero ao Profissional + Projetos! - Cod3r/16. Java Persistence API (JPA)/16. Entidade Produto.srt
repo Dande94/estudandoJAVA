@@ -1,0 +1,703 @@
+1
+00:00:00,590 --> 00:00:07,460
+Só agora nós vamos criar ainda dentro desse dessa parte básica do capítulo sem falar de relacionamentos
+
+2
+00:00:07,730 --> 00:00:12,330
+mas vamos criar uma outra entidade dentro de um modelo ponto básico.
+
+3
+00:00:12,330 --> 00:00:21,690
+O nome dessa entidade nessa classe VAI SER PRODUTO E nós vamos agora criar os atributos depois em aplicar
+
+4
+00:00:21,780 --> 00:00:26,980
+o mapeamento objeto relacional dessa classe Produto pra uma tabela do banco de dados.
+
+5
+00:00:27,060 --> 00:00:33,960
+Como a gente colocou na nossa configuração do mapa pra ele criar o modelo e criar algo em geral PDL
+
+6
+00:00:34,140 --> 00:00:39,570
+a partir do mapeamento ele vai usar um mapeamento pra criar a tabela então a gente não vai precisar
+
+7
+00:00:39,570 --> 00:00:40,680
+se preocupar com isso.
+
+8
+00:00:41,070 --> 00:00:49,770
+Inclusive e não precisa você fazer nada com relação ao produto para que ele cria a tabela ou produto.
+
+9
+00:00:49,860 --> 00:00:56,170
+Você pode por exemplo criar todo o mapeamento de produto declarar o produto dentro do persistem os pontos
+
+10
+00:00:56,180 --> 00:01:01,510
+XML e se você executar por exemplo o método para criar um novo usuário.
+
+11
+00:01:01,530 --> 00:01:06,060
+Ele vai criar a tabela o produto a primeira vez que você usar o JPEG depois que a tabela tiver sido
+
+12
+00:01:06,060 --> 00:01:11,640
+mapeada e independente se você usar o produto ou não ele pode inclusive testar que isso vai acontecer
+
+13
+00:01:11,750 --> 00:01:18,410
+então lá vou criar aqui três atributos o primeiro atributo vai ser um atributo Long Way.
+
+14
+00:01:18,750 --> 00:01:25,500
+O segundo atributo vai ser o atributo nome do produto que vai ser um estranho nome e o terceiro atributo
+
+15
+00:01:25,500 --> 00:01:30,660
+vai ser um atributo do tipo da que vai ser o preço.
+
+16
+00:01:30,660 --> 00:01:36,750
+Aqui no caso eu posso colocar também um condado ou primitivo sem problema nenhum certo.
+
+17
+00:01:36,870 --> 00:01:39,480
+Eventualmente o produto pode não ter recebido o preço ainda.
+
+18
+00:01:39,480 --> 00:01:46,470
+Você pode colocar um babão objeto e não necessariamente mudar o permitiu está então aqui só uma escolha
+
+19
+00:01:46,470 --> 00:01:54,790
+mais pode ser você pode usar os dois para amanhã vou gerar os métodos os métodos betas setas ou selecionar
+
+20
+00:01:54,790 --> 00:01:58,640
+aqui os três para gerar.
+
+21
+00:01:58,800 --> 00:02:06,480
+E também vou gerar o construtor padrão conceito ou padrão é importante que exista um requisito se você
+
+22
+00:02:06,480 --> 00:02:13,200
+não tiver o conceito padrão o JP não vai conseguir gerar para seus objetos por exemplo como você faz
+
+23
+00:02:13,200 --> 00:02:14,440
+aqui no remover.
+
+24
+00:02:14,850 --> 00:02:21,070
+Nós fizemos um Find 7 se ele quer obter o usuário a partir do código 8.
+
+25
+00:02:21,150 --> 00:02:26,820
+Ele devolveu para o usuário se o usuário não tivesse conquistou o padrão então está aqui só para vocês
+
+26
+00:02:26,820 --> 00:02:30,790
+verem o mental constou padrão.
+
+27
+00:02:30,900 --> 00:02:37,060
+Ele já vai dar um problema aqui dizendo que é necessário ter o custo do padrão certo então arguidos
+
+28
+00:02:37,150 --> 00:02:43,530
+comentar até que na checagem do próprio cliente ele já mostrou que é preciso ter o custo padrão 7 por
+
+29
+00:02:43,530 --> 00:02:45,570
+isso que eu estou criando o custo padrão.
+
+30
+00:02:45,570 --> 00:02:50,730
+Além de criar alguns consultores que eu posso eventualmente querer usar aqui pra simplificar a criação
+
+31
+00:02:50,730 --> 00:02:57,490
+do objeto para criar algo estou usando o conceito padrão e depois chamar o set em mais de uma linha.
+
+32
+00:02:57,900 --> 00:03:00,880
+Então vou criar aqui o custo usando os filtros.
+
+33
+00:03:01,030 --> 00:03:07,050
+Normalmente eu não passo a medir porque onde vai vir do banco mais você poderia criar também um outro
+
+34
+00:03:07,050 --> 00:03:10,040
+construtor recebendo também de pronto.
+
+35
+00:03:10,170 --> 00:03:15,510
+Criei aqui a minha entidade o que é que eu vou fazer agora vou criar um mapeamento objeto relacional
+
+36
+00:03:15,520 --> 00:03:22,290
+como essa classe será persistido no banco de dados ou seja qual é a tabela do banco de dados que vai
+
+37
+00:03:22,290 --> 00:03:27,980
+armazenar as informações de produto nos atributos de nome e preço.
+
+38
+00:03:28,210 --> 00:03:34,870
+E aqui pra começar eu preciso marcar que essa minha entidade tem um arroba.
+
+39
+00:03:34,890 --> 00:03:41,310
+Essa é uma anotação obrigatória uma vez que salvo o arquivo ele começa a reclamar dizendo que eu preciso
+
+40
+00:03:41,310 --> 00:03:43,350
+ter o arrogante.
+
+41
+00:03:43,380 --> 00:03:49,210
+Aí eu também vou colocar o arroba gênero velho no caso aqui.
+
+42
+00:03:49,230 --> 00:03:56,860
+A estratégia que nós vamos usar vai ser a de dentista ou seja eu vou ter um valor único para cada produto.
+
+43
+00:03:56,880 --> 00:04:01,680
+Esse valor não vai ser compartilhado entre as tabelas nem entre as entidades.
+
+44
+00:04:01,760 --> 00:04:08,790
+Pronto uma vez feito isso eu preciso lá no meu persiste nesse ponto XML e declarar aqui uma nova classe.
+
+45
+00:04:08,790 --> 00:04:15,900
+Posso duplicar esse arquivo e aqui vai ser modelo um ponto básico um ponto produto exatamente aqui no
+
+46
+00:04:15,900 --> 00:04:18,930
+mesmo pacote então só mudei aqui a parte final.
+
+47
+00:04:18,930 --> 00:04:19,860
+Pronto.
+
+48
+00:04:19,860 --> 00:04:27,540
+Uma vez feito isso eu atendi os requisitos necessários para a funcionalidade de produto Se eu executar
+
+49
+00:04:27,990 --> 00:04:33,690
+novamente eu vou até executar e depois vou dela tal se eu entrar aqui no banco de dados e der um refresh
+
+50
+00:04:33,690 --> 00:04:40,890
+aí você vai ver que a única tabela que não vai dar as únicas duas tabelas que tem ao usuário e pessoas
+
+51
+00:04:41,370 --> 00:04:48,780
+usuários veio do mapeamento que a gente fez com o JP aí pessoas no capítulo passado com o JD BC Se eu
+
+52
+00:04:48,840 --> 00:04:55,410
+executar agora por exemplo obter o usuário que vai fazer só consulta no banco de dados não vai alterar
+
+53
+00:04:55,410 --> 00:04:57,090
+absolutamente nada.
+
+54
+00:04:57,440 --> 00:05:02,520
+E você vai ver que ainda assim vai criar a tabela.
+
+55
+00:05:02,610 --> 00:05:07,360
+Idealmente acreditei no produto porque ele percebeu que tem uma entidade nova.
+
+56
+00:05:07,830 --> 00:05:12,500
+Ele percebeu que no banco de dados não tem a tabela pronta para receber essa entidade.
+
+57
+00:05:12,500 --> 00:05:17,170
+E como esse setor persiste esse ponto XML pra ele fazer o update.
+
+58
+00:05:17,520 --> 00:05:23,610
+Ele vai sim atualizar sempre que ele percebeu uma nova mudança o novo atributo que você eventualmente
+
+59
+00:05:23,610 --> 00:05:24,430
+colocou né.
+
+60
+00:05:24,720 --> 00:05:34,960
+Então por exemplo se eu colocasse aqui no meu produto outro atributo chamado descrição por exemplo descrição
+
+61
+00:05:35,700 --> 00:05:43,170
+e aí fosse lá e colocasse os metros quadrados e C3 executando por exemplo o óbito do usuário.
+
+62
+00:05:43,170 --> 00:05:48,340
+Certo Ele vai gerar uma atualização no banco de dados então ele chegou aqui ao mal.
+
+63
+00:05:48,570 --> 00:05:53,260
+Bom produto adicionando a coluna descrição blá blá blá.
+
+64
+00:05:53,350 --> 00:06:02,610
+Certo O CHUTE terá a coluna aqui ver se ele vai gerar um app Walter novamente obter usuário executando
+
+65
+00:06:02,940 --> 00:06:08,010
+no caso da exclusão ele acabou não excluindo o atributo da tabela mas sempre que você acrescenta um
+
+66
+00:06:08,010 --> 00:06:14,610
+atributo esse atributo não for trazido ele vai lá e acrescenta e gera uma atualização no banco de dados
+
+67
+00:06:14,970 --> 00:06:15,920
+até exclusão.
+
+68
+00:06:15,920 --> 00:06:21,300
+Realmente não faz sentido ele acerta a exclusão com o tempo que eventualmente você pode ter uma tabela
+
+69
+00:06:21,300 --> 00:06:28,400
+maior com vários atributos de você querer mapear apenas uma parte das colunas aí ele terá uma coluna
+
+70
+00:06:28,400 --> 00:06:33,840
+no banco de dados não acho que seria arriscado demais ou ele prefere não fazer nada e sempre que você
+
+71
+00:06:33,840 --> 00:06:40,200
+adicionou uma coluna que não tem lá no banco de dados e você não colocou nada e por padrão ele mapeia
+
+72
+00:06:40,200 --> 00:06:44,340
+para uma coluna e sim ele acrescenta mais aproveitando que ele criou aqui.
+
+73
+00:06:44,370 --> 00:06:51,330
+Eu vou excluí a tabela o produto então fazer um drop colocado final.
+
+74
+00:06:51,540 --> 00:06:57,120
+Ele vai excluir a tabela e nós vamos usar alguns outros mapeamentos pra gente ter um mapeamento um pouco
+
+75
+00:06:57,120 --> 00:07:01,450
+mais completo aqui simulando algumas situações e com outros recursos.
+
+76
+00:07:01,470 --> 00:07:06,290
+Vai acabar também trabalhando ao longo do capítulo então a primeira coisa que pode fazer.
+
+77
+00:07:06,600 --> 00:07:13,350
+Existe uma nova paixão chamada arroba tá bom e obviamente anotei trecho ele é um recurso da linguagem
+
+78
+00:07:13,350 --> 00:07:19,790
+que é sensível ao local que você coloca obviamente se eu colocar a arroba tem associado a classe.
+
+79
+00:07:20,220 --> 00:07:26,550
+Eu estou a nota na classe eu colocar uma nota 1 em cima de um atributo certo então ele é sensível a
+
+80
+00:07:26,550 --> 00:07:33,570
+localização então aqui a arroba tem algo eu posso colocar por exemplo o nome da tabela e aqui eu vou
+
+81
+00:07:33,570 --> 00:07:39,330
+colocar o nome na tabela de produtos no plural mas poderia colocar qualquer outro nome de tabela que
+
+82
+00:07:39,330 --> 00:07:44,810
+você queira por exemplo tb anda lá não sei por que você criou a nomenclatura da sua empresa NET.
+
+83
+00:07:44,820 --> 00:07:50,760
+Eu não gosto muito dessas nomenclaturas de bloco Eu sou um cara de código que usa o banco de dados há
+
+84
+00:07:50,760 --> 00:07:56,670
+muitos anos e sistemas complexos com banco de dados consultas e tal mas o pessoal de banco de dados
+
+85
+00:07:56,670 --> 00:08:01,690
+às vezes gosta de colocar pelo mesmo onde eu trabalhava gostava de colocar as nomenclaturas estranhas
+
+86
+00:08:01,730 --> 00:08:08,290
+daí você tem sempre essa necessidade de ficar fazendo a tradução ao que essa sigla em mímica desenho
+
+87
+00:08:08,350 --> 00:08:14,970
+o nome TX quer dizer isso é na descrição e aí que essas nomenclaturas estranhas eu acabo não gostando
+
+88
+00:08:14,970 --> 00:08:15,640
+muito.
+
+89
+00:08:15,990 --> 00:08:19,990
+Mas o fato é que você pode colocar o nome da tabela que você quiser.
+
+90
+00:08:20,430 --> 00:08:27,140
+Eu já falei pra vocês e já ficou provado na prática que quando você coloca um atributo dentro de uma
+
+91
+00:08:27,160 --> 00:08:35,340
+entidade ele necessariamente está ele vai receber uma série de valores fofos que são as convenções e
+
+92
+00:08:35,340 --> 00:08:40,950
+então qualquer atributo dentro de uma entidade está mapeado para uma coluna de mesmo nome e você pode
+
+93
+00:08:40,950 --> 00:08:47,670
+sim mudar o nome da coluna e pode colocar alguns informações e essas informações vão ser bastante úteis
+
+94
+00:08:47,670 --> 00:08:53,580
+para duas coisas na minha idade primeiro pra Geralda Ideli se você quiser que o JP gere o PDL.
+
+95
+00:08:53,880 --> 00:09:00,780
+E outra informação também de documentação segue muito fraca a questão e você sabe qual é o atributo
+
+96
+00:09:00,780 --> 00:09:06,420
+no banco de dados que é obrigatório qual atributo opcional e você consegue ver isso a partir de quando
+
+97
+00:09:06,420 --> 00:09:15,120
+você coloca no Tejo e então colocando aquela roupa colo e eu coloquei por exemplo que o nome dessa minha
+
+98
+00:09:15,120 --> 00:09:22,050
+coluna vai ser por exemplo pode andar até em nome nem gosto desse nome mas só pra ficar diferente do
+
+99
+00:09:22,050 --> 00:09:22,890
+padrão.
+
+100
+00:09:22,890 --> 00:09:27,780
+Então pode andar lá em meu nome fica claro que já o nome do produto que está meio da tabela ou produto
+
+101
+00:09:27,830 --> 00:09:32,900
+e mais algumas pessoas colocam siglas e tal e que eu estou só colocando o exemplo.
+
+102
+00:09:32,910 --> 00:09:39,030
+Outra propriedade que a gente pode usar aqui é que só vai servir pra ele gerar o banco de dados e por
+
+103
+00:09:39,030 --> 00:09:48,180
+exemplo o tamanho desse casal quero que ele tenha lá o padrão 245 quero que ele tenha Cento e vinte
+
+104
+00:09:48,180 --> 00:09:50,360
+caracteres ou 200 caracteres.
+
+105
+00:09:50,760 --> 00:09:57,900
+Então você pode colocar aqui se o JP foi o responsável por gerar o banco ele vai usar esses 200 caracteres
+
+106
+00:09:57,900 --> 00:10:05,040
+lá na geração se ele não responsável por gerar o banco o que vai valer na prática o que está no banco
+
+107
+00:10:05,040 --> 00:10:07,210
+de dados e não que está aqui na montagem.
+
+108
+00:10:07,650 --> 00:10:15,330
+Então ele não vai aplicar nenhum tipo de validação embora exista um API do Java Net que vale deixam
+
+109
+00:10:15,920 --> 00:10:22,410
+o Java X quanto vale deixam que você baixa uma biblioteca do Java que ele tem todo um conjunto já no
+
+110
+00:10:22,410 --> 00:10:29,880
+trecho que vai te ajudar a aplicar alguns validações básicas e obrigatoriedade de janela o número tem
+
+111
+00:10:29,880 --> 00:10:33,140
+que ser no mínimo tanto e no máximo tanto.
+
+112
+00:10:33,140 --> 00:10:41,040
+Então você tem formas automatizadas de aplicar validações na inclusive tem uma API Java para fazer isso
+
+113
+00:10:41,340 --> 00:10:46,050
+mas aqui não é o caso aqui vai seguir para duas coisas primeiro pra você de certa forma documentar o
+
+114
+00:10:46,050 --> 00:10:52,270
+banco como você olhar você já sabe que lá no banco o tamanho da coluna 200 caracteres.
+
+115
+00:10:52,270 --> 00:10:57,090
+Então você se quiser já pode aplicar uma ou outra validação ou qualquer coisa do tipo.
+
+116
+00:10:57,230 --> 00:11:03,660
+E você também sabe por exemplo homologou igual a falso ou seja não aceito o valor nulo o nome.
+
+117
+00:11:03,930 --> 00:11:10,350
+Então quando você vê no trecho de certa forma fosse um comentário acerto ou então não tem problema.
+
+118
+00:11:10,350 --> 00:11:16,110
+Mesmo que você não usa JPEG para gerar o banco de dados colocar essas informações pode ser interessante
+
+119
+00:11:16,410 --> 00:11:22,440
+do ponto de vista de documentação mas se você gera o banco de dados a partir do JP passa a ter um sistema
+
+120
+00:11:22,440 --> 00:11:25,960
+menor você controla a geração a partir do JP.
+
+121
+00:11:26,150 --> 00:11:32,100
+Isso é fundamental porque a partir dessas informações é que ele vai ser capaz de gerar o banco de dados
+
+122
+00:11:32,100 --> 00:11:34,330
+com as características corretas tá bom.
+
+123
+00:11:34,650 --> 00:11:39,870
+Então para uma primeira coluna coloque o nome alterou o nome da coluna assim como alterar o nome da
+
+124
+00:11:39,870 --> 00:11:45,350
+tabela definir o tamanho da coluna e dizendo que essa coluna não aceita o aluno.
+
+125
+00:11:45,390 --> 00:11:48,960
+O próximo passo para o teste que eu vou usar aqui também vai se cola.
+
+126
+00:11:49,340 --> 00:11:55,470
+E já que é um valor numérico vou usar alguns outros atributos então qualquer que ele nem me fará se
+
+127
+00:11:56,290 --> 00:11:56,880
+pode.
+
+128
+00:11:56,900 --> 00:12:03,940
+Até lá o preço vai mudando com relação a aceitá lo também não vai aceitar o aluno.
+
+129
+00:12:04,050 --> 00:12:10,380
+é que a gente pode trabalhar com dois atributos que é o que precisa e o isqueiro o prestígio e dizer
+
+130
+00:12:10,440 --> 00:12:14,350
+quantos digamos assim qual o tamanho do número.
+
+131
+00:12:14,480 --> 00:12:22,890
+Precisam de 11 dígitos então você pode ter 0,0 000 11 números assim como você pode ter um número com
+
+132
+00:12:22,890 --> 00:12:24,510
+11 dígitos também.
+
+133
+00:12:24,780 --> 00:12:31,860
+é o que achou das casas decimais é exatamente o isqueiro o isqueiro eu vou colocar 2 o que significa
+
+134
+00:12:31,860 --> 00:12:38,940
+que o 11 é o valor total então se você tiver dois dígitos nas casas decimais você tem nove dígitos antes
+
+135
+00:12:39,240 --> 00:12:40,560
+do amigo longe do ponto.
+
+136
+00:12:40,560 --> 00:12:48,180
+No caso da notação americana então precisão é o tamanho do campo e qual a precisão do seu número é o
+
+137
+00:12:48,180 --> 00:12:53,860
+isqueiro e quantos números você tem depois do ponto flutuante serve as casas decimais.
+
+138
+00:12:54,090 --> 00:13:01,110
+Então pronto aqui eu fiz um mapeamento usando mais duas ou no Tejo que é o arroba termo definido o homem.
+
+139
+00:13:01,110 --> 00:13:02,870
+Você pode ter outras.
+
+140
+00:13:03,030 --> 00:13:07,020
+Outros atributos aqui no tempo como por exemplo se você quiser dizer quais são.
+
+141
+00:13:07,020 --> 00:13:08,780
+Qual o esquema que você está usando.
+
+142
+00:13:08,780 --> 00:13:14,670
+Eu vou usar porque você tem múltiplos esquemas do banco de dados ou trabalhando com o esquema do sistema
+
+143
+00:13:14,670 --> 00:13:20,910
+legados ou trabalhando com banco de dados atual do sistema então eu posso colocar aqui ou o meu esquema
+
+144
+00:13:21,060 --> 00:13:29,850
+seria no caso do um curso andar lá em Java então eu poderia colocar o uso dela em Java e funcionaria
+
+145
+00:13:29,850 --> 00:13:33,660
+tranquilamente ou seja qualquer consulta que eu vou fazer.
+
+146
+00:13:33,660 --> 00:13:40,620
+Ele vai usar esse esquema para gerar as consultas então é como se ele fizesse em vez de fazer Select.
+
+147
+00:13:40,690 --> 00:13:46,010
+O ponto asterisco fará o usuário por tudo que eu fizesse em Java a ponto.
+
+148
+00:13:46,030 --> 00:13:48,050
+Usuários aqui também funciona.
+
+149
+00:13:48,080 --> 00:13:53,190
+Certa essa consulta vai funcionar então quando você coloca o esquema você está marcando um determinado
+
+150
+00:13:53,190 --> 00:13:58,040
+esquema do banco de dados dentro da própria entidade é uma possibilidade.
+
+151
+00:13:58,040 --> 00:14:03,880
+Normalmente eu não usaria isso na prática não deixaria o próprio Ximena.
+
+152
+00:14:03,900 --> 00:14:09,450
+Na verdade eu não usaria isso na prática principalmente porque na prática em sistemas maiores você acaba
+
+153
+00:14:09,450 --> 00:14:12,950
+controlando a geração das tabelas manualmente.
+
+154
+00:14:12,970 --> 00:14:18,240
+Isso serviria se você tiver por exemplo múltiplos esquemas e você quer garantir que uma determinada
+
+155
+00:14:18,240 --> 00:14:24,250
+entidade vai sempre acessar um determinado banco mas você também consegue fazer isso a partir do menu
+
+156
+00:14:24,270 --> 00:14:24,990
+de.
+
+157
+00:14:25,210 --> 00:14:31,530
+Porque você consegue criar um enchimento e já a partir do menu de feto é que ele vai digamos assim ter
+
+158
+00:14:31,590 --> 00:14:34,100
+informações específicas de conexão.
+
+159
+00:14:34,410 --> 00:14:40,830
+Então ela acaba resolvendo isso no uso mas persiste assim onde as unidades de persistência.
+
+160
+00:14:40,840 --> 00:14:47,700
+Ok ok lá eu consigo dizer qual o banco seu banco ligado ao seu banco atual sem necessariamente precisar
+
+161
+00:14:47,820 --> 00:14:54,870
+colocar isso fixo dentro do da minha entidade se eu colocar fixo se por algum motivo alguém mudar o
+
+162
+00:14:54,870 --> 00:15:00,820
+nome do esquema do banco de dados vai gerar um problema então essa não é uma estratégia assim tá bom
+
+163
+00:15:00,820 --> 00:15:06,850
+mas só pra dizer que existe outros atributos de você colocar aqui vírgula e dê um contra espaço você
+
+164
+00:15:06,850 --> 00:15:12,670
+vai bem as possibilidades que você tem pra acessar os atributos então pra gente testar.
+
+165
+00:15:12,730 --> 00:15:19,110
+Eu vou executar aqui qualquer exercício bem sabe que ele vai criar pra gente.
+
+166
+00:15:19,600 --> 00:15:25,510
+Então ele foi lá criou o banco de dados ao cliente tem o produto.
+
+167
+00:15:25,510 --> 00:15:31,720
+Se a gente olhar aqui não é frágil você vai ver que ele criou a tabela produto todos no plural e as
+
+168
+00:15:31,720 --> 00:15:37,800
+colunas exatamente o de nome e o olhe pra isso não tem nenhuma padronização né.
+
+169
+00:15:37,810 --> 00:15:43,780
+Coloquei em dois em duas colunas e não coloquei mais só pra mostrar pra vocês a ideia que não é falar
+
+170
+00:15:43,780 --> 00:15:50,140
+de padronização e sim achar pra vocês algumas outras possibilidades no mapeamento objeto relacional
+
+171
+00:15:50,140 --> 00:15:55,460
+e Gil vai falar a partir das provas na próxima aula irá falar do Down nós vamos criar um Deus e depois
+
+172
+00:15:55,480 --> 00:16:01,240
+testar a classe Produto já usando esse ideal e depois ninguém falar de relacionamentos que é um aspeto
+
+173
+00:16:01,600 --> 00:16:03,030
+muito importante no JP.
+
+174
+00:16:03,070 --> 00:16:04,150
+Então fico por aqui.
+
+175
+00:16:04,300 --> 00:16:07,940
+Na próxima aula nós vamos falar do deus só pra ter certeza.
+
+176
+00:16:08,050 --> 00:16:09,470
+Isso mesmo e até lá.

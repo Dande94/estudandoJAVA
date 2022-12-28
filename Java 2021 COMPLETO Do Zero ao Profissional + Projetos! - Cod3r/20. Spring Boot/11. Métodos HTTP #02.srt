@@ -1,0 +1,299 @@
+1
+00:00:00,080 --> 00:00:08,220
+Só na sala nós vamos fazer o uso de mais de um método HTTP só pra mostrar pra vocês como é simples fazer
+
+2
+00:00:08,220 --> 00:00:11,310
+um mapeamento além do Ballet Bolshoi.
+
+3
+00:00:11,360 --> 00:00:13,680
+Eu vou colocar o ponto limite.
+
+4
+00:00:14,050 --> 00:00:22,350
+Eu pedi para vocês verem cada um desses métodos funcionando em diferentes com diferentes métodos HTTP
+
+5
+00:00:22,410 --> 00:00:23,190
+certo.
+
+6
+00:00:23,460 --> 00:00:28,230
+Aí a gente vai ter um problema que vai ser muito difícil de testar porque a gente não consegue fazer
+
+7
+00:00:28,230 --> 00:00:32,620
+de forma tão direta diretamente no Brasil e para incentivar usar outra ferramenta.
+
+8
+00:00:32,630 --> 00:00:34,860
+Eu vou mostrar pra vocês qual será.
+
+9
+00:00:35,430 --> 00:00:37,870
+Então nós vamos criar um novo controle.
+
+10
+00:00:38,060 --> 00:00:47,190
+Eu vou criar aqui um novo Controller nome desse controle que eu coloquei que esse método se controla
+
+11
+00:00:47,210 --> 00:01:02,010
+então métodos HTTP para completar o controller e nós vamos adotar esse controle como um todo.
+
+12
+00:01:03,450 --> 00:01:10,300
+E nós vamos criar aqui um método que vai tornar um extreme do Metro disse Gates.
+
+13
+00:01:10,350 --> 00:01:12,960
+Ele vai simplesmente retornar
+
+14
+00:01:15,600 --> 00:01:27,310
+ao cargo foi que eu coloquei o texto de requisição para requisição de arte vou copiar esse método vai
+
+15
+00:01:27,410 --> 00:01:41,480
+ser impôs outros ele é o Pet eu vou mandar isso aqui pra vocês aqui pra colocar o Pet.
+
+16
+00:01:41,580 --> 00:01:54,210
+Os dois de operação juntos em um final feliz um aqui seus todos aqui seu último artigo e seu pet.
+
+17
+00:01:54,900 --> 00:02:03,990
+E finalmente aqui volto então pra gente marcar agora eu posso inclusive Olha que interessante eu posso
+
+18
+00:02:03,990 --> 00:02:17,340
+inclusive colocar um baixo aqui e guache pra colocar o RL minha amada métodos e aqui embaixo eu vou
+
+19
+00:02:17,460 --> 00:02:26,160
+usar a mesma RL para todos os métodos só que com um só métodos HTTP diferentes ele vai conseguir a pelos
+
+20
+00:02:26,160 --> 00:02:27,820
+métodos diferentes.
+
+21
+00:02:27,840 --> 00:02:30,850
+Então aqui eu vou colocar o arroba detinha.
+
+22
+00:02:31,350 --> 00:02:38,940
+Então como eu não coloquei nenhum blefe aqui ele vai assumir esse como sendo PF pra esse método e aqui
+
+23
+00:02:38,940 --> 00:02:45,080
+eu vou colocar a robô Touch Bingo que eu vou colocá la.
+
+24
+00:02:45,420 --> 00:02:52,230
+Pois bem aqui embaixo do balcão pet shop na frente obviamente.
+
+25
+00:02:52,260 --> 00:03:01,200
+E finalmente eu vou colocar aqui um banco de leite e pronto todos os metros estão mapeados.
+
+26
+00:03:01,200 --> 00:03:07,890
+A gente já consegue chegar aqui no gatinho foi muito muito fácil eu colocar apenas métodos.
+
+27
+00:03:08,580 --> 00:03:15,150
+Ele vai dizer que aqui sou um tipo Bad como é que eu poderia fazer uma requisição do tipo poxa eu posso
+
+28
+00:03:15,150 --> 00:03:22,650
+fazer é que sou do tipo Occhi eu tiver usado por exemplo um formulário como formular HTTP eu consigo
+
+29
+00:03:22,980 --> 00:03:28,710
+usá la em São Paulo já está posso mostrar pra vocês não está lá tanto nos planos aqui mensalão.
+
+30
+00:03:29,100 --> 00:03:31,260
+Mas se eu entrar dentro tá legal.
+
+31
+00:03:31,280 --> 00:03:36,080
+Interessante mostrar isso depois a gente vai falar um pouco mais sobre esses detalhes dentro aqui do
+
+32
+00:03:36,080 --> 00:03:39,690
+UOL Sources a gente pode criar aqui uma página HTML.
+
+33
+00:03:40,320 --> 00:03:49,320
+Então se eu colocar aqui ou outros e procurar aqui HTML posso criar uma página HTML Macchi e o nome
+
+34
+00:03:49,830 --> 00:04:00,990
+da página que eu vou colocar aqui vai ser um formulário HTML inglês e aqui dentro vou colocar o título
+
+35
+00:04:00,990 --> 00:04:16,420
+pra ser um formulário formulário e aqui eu posso colocar h um link para ter um título chamado claro.
+
+36
+00:04:16,470 --> 00:04:16,820
+Pronto.
+
+37
+00:04:16,820 --> 00:04:24,810
+Com isso eu coloquei a minha página dentro de SC meio o dentro de estádio que eu coloquei no formulário
+
+38
+00:04:25,020 --> 00:04:26,050
+HTML.
+
+39
+00:04:26,220 --> 00:04:35,630
+Se eu entrar aqui agora e colocá la o Mario Couto HTML você vai ver que vai aparecer essa página se
+
+40
+00:04:35,700 --> 00:04:42,150
+eu consigo seguir uma página da Internet aplicações print mude e aqui eu posso criar aqui já um termo
+
+41
+00:04:42,150 --> 00:04:47,750
+de HTML que não é tanto foco do nosso curso vai focar mais no back end desenvolvido em Java.
+
+42
+00:04:48,210 --> 00:04:55,230
+Mas ele pode criar aqui matéria do tipo conforme formulário e aqui dentro posso colocar um botão por
+
+43
+00:04:55,230 --> 00:05:03,210
+exemplo e aqui eu vou colocar o botão para separar teu texto enviar e aqui após a entrada há um refresh
+
+44
+00:05:03,210 --> 00:05:10,710
+na nossa aplicação nós temos agora um formulário com esse botão Enviar aqui no formulário eu posso definir
+
+45
+00:05:11,700 --> 00:05:13,140
+o método que eu vou usar.
+
+46
+00:05:13,190 --> 00:05:19,330
+Então e por padrão enquete mais eu posso por exemplo vim aqui colocar touch.
+
+47
+00:05:19,530 --> 00:05:21,740
+Enfim quando eu vi agora ele vai fazer um pouco.
+
+48
+00:05:21,820 --> 00:05:23,370
+é só aquilo que o RL.
+
+49
+00:05:23,400 --> 00:05:32,130
+Aí eu posso colocar um anexo e aqui na eu vou definir o nome da minha ou ela vai ser métodos quem exatamente
+
+50
+00:05:32,150 --> 00:05:34,670
+ela RL que eu espero e pra ela tá.
+
+51
+00:05:34,980 --> 00:05:39,230
+Então agora que eu tenho aqui um proxy eu vou dar um e feche a aplicação.
+
+52
+00:05:39,480 --> 00:05:43,200
+Quando eu enviar eu vou bater na barra e métodos.
+
+53
+00:05:43,710 --> 00:05:45,520
+Eu disse que o que eu quero.
+
+54
+00:05:45,510 --> 00:05:50,700
+Só que eu fiz uma requisição do tipo hoje eu tô aqui ela entrou no método Touch.
+
+55
+00:05:50,930 --> 00:05:57,230
+E aí é um dos problemas que a gente vai enfrentar exatamente porque aqui é associado ao método.
+
+56
+00:05:57,300 --> 00:06:03,300
+A gente não vai conseguir testar todos os métodos do HTTP porque no caso do formulário ele não suporta
+
+57
+00:06:03,300 --> 00:06:05,130
+todos os demais do HTTP.
+
+58
+00:06:05,160 --> 00:06:11,430
+Se você colocar o cursor aqui em cima você vai ver o que ele suporta o método GET IT e o POS e o pudim
+
+59
+00:06:11,670 --> 00:06:12,170
+de leite.
+
+60
+00:06:12,180 --> 00:06:13,290
+Como é que a gente vai fazer.
+
+61
+00:06:13,470 --> 00:06:19,580
+Como a gente fazer isso a partir do uso de Ajax essa e outras coisas que a gente não vai tanto focar
+
+62
+00:06:19,920 --> 00:06:26,020
+aqui na sala não só pra achar pra vocês que é possível fazer uma aquisição hoje a partir de um formulário.
+
+63
+00:06:26,020 --> 00:06:32,580
+Se o cara submeter essas informações o servidor abaixo de um formulário enviado e depois eu mostro pra
+
+64
+00:06:32,580 --> 00:06:38,220
+vocês Como é que a gente pode criar um formulário e passar informações desse formulário para o nosso
+
+65
+00:06:38,220 --> 00:06:43,650
+observe se eu vou falar isso mais na frente mas por enquanto eu só vou achar pra vocês uma alternativa
+
+66
+00:06:43,970 --> 00:06:48,220
+em relação à chamada do método pra chamar usando um.
+
+67
+00:06:48,510 --> 00:06:53,550
+Mais pra gente testar todos os metros o pudim de leite o Pet o Portuguese.
+
+68
+00:06:53,810 --> 00:07:00,150
+Nós vamos instalar uma ferramenta chamada Pochmann que é uma ferramenta muito mais muito usada quando
+
+69
+00:07:00,150 --> 00:07:08,400
+você vai desenvolver a pesquisa ou websérie em qualquer linguagem seja em Java e PHP em JavaScript em
+
+70
+00:07:08,400 --> 00:07:14,660
+Python ou seja essa ferramenta ajuda no desenvolvimento de praticamente todas as linguagens e ser para
+
+71
+00:07:14,710 --> 00:07:17,320
+a gente testar os nossos websérie.
+
+72
+00:07:17,340 --> 00:07:22,530
+Então nós vamos fazer isso na próxima aula instalar essa ferramenta e a gente vai passar a usar ela
+
+73
+00:07:22,530 --> 00:07:25,720
+pra testar os outros métodos que nós criamos no caso aqui.
+
+74
+00:07:26,100 --> 00:07:31,740
+Além do Porsche nós criamos o puto Beto de leite e com essa ferramenta vai ficar muito fácil para a
+
+75
+00:07:31,740 --> 00:07:32,370
+gente já está.

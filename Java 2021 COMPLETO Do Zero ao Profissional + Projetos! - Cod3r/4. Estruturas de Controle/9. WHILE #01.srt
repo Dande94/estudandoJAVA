@@ -1,0 +1,323 @@
+1
+00:00:00,350 --> 00:00:07,410
+Agora vamos passar para a estrutura de controle que nos dá a habilidade de causar repetição no nosso
+
+2
+00:00:07,410 --> 00:00:14,410
+código seja para repetir uma sentença de código ou repetir um bloco de código inteiro o nome o futuro
+
+3
+00:00:14,460 --> 00:00:15,520
+de controle.
+
+4
+00:00:15,690 --> 00:00:21,930
+Eu quero dizer enquanto uma determinada expressão for verdadeira ele vai ficar executando aquele bloco
+
+5
+00:00:21,930 --> 00:00:28,590
+aquela sentença múltiplas vezes até que em determinada condição vire falsa e aí sim ele sai do bloco
+
+6
+00:00:28,890 --> 00:00:35,930
+o chefe ele só serve para selecionar um trecho de código em detrimento de outro e o eu vários da possibilidade
+
+7
+00:00:35,930 --> 00:00:36,880
+de repetição.
+
+8
+00:00:36,870 --> 00:00:42,280
+Eu vou exatamente tratar sobre isso nesse exemplo então nós vamos clicar com o botão direito aqui e
+
+9
+00:00:42,330 --> 00:00:49,040
+o Class eu vou chamar aqui para assim o raio determinado.
+
+10
+00:00:49,270 --> 00:00:56,490
+Eu vou explicar o que quer dizer isso determinado vou selecionar aqui Finish e vamos criar um certo
+
+11
+00:00:56,550 --> 00:01:02,680
+eu vou querer que uma determinada expressão por exemplo sei lá.
+
+12
+00:01:02,730 --> 00:01:08,780
+Bom dia seja executado dessa vez eu posso até duplicar aqui dez vezes.
+
+13
+00:01:08,800 --> 00:01:12,090
+Deixo aqui três seis nove exatamente dez horas.
+
+14
+00:01:12,160 --> 00:01:13,660
+Foi bem planejado aqui.
+
+15
+00:01:13,680 --> 00:01:16,170
+Foi sorte na verdade então dez vezes.
+
+16
+00:01:16,200 --> 00:01:22,940
+Obviamente ele vai executar Bom dia dez vezes mas se eu não quiserem usar a repetição né.
+
+17
+00:01:22,950 --> 00:01:29,270
+Repetiu duplicar você sentença de Cole quero fazer com que essa linha se repita dez vezes.
+
+18
+00:01:29,370 --> 00:01:35,460
+Pra fazer isso a gente pode usar uma variável pra contar um determinado valor uma determinada variável
+
+19
+00:01:35,460 --> 00:01:41,700
+a gente usa essa variável para controlar a quantidade de repetições do áudio dentro do assunto que eu
+
+20
+00:01:41,700 --> 00:01:42,590
+tenho aqui.
+
+21
+00:01:42,690 --> 00:01:48,370
+A estrutura de controle eu posso definir um bloco assim como eu tenho um F só que em vez de ter o f
+
+22
+00:01:48,380 --> 00:01:49,390
+que eu tenho um.
+
+23
+00:01:49,470 --> 00:01:58,100
+E no caso do áudio eu tenho aqui uma expressão e essa expressão obrigatoriamente vai retornar TRU ou
+
+24
+00:01:58,390 --> 00:01:59,180
+falso.
+
+25
+00:01:59,250 --> 00:02:05,190
+Se essa expressão retornar verdadeiro significa que ele vai ficar repetindo esse bloco até que essa
+
+26
+00:02:05,190 --> 00:02:07,080
+expressão é falsa.
+
+27
+00:02:07,080 --> 00:02:13,740
+Então eu vou fazer o seguinte eu vou criar aqui um contador recebe um valor e eu vou fazer colocar a
+
+28
+00:02:13,740 --> 00:02:22,970
+seguinte expressão dentro do outro parênteses coloca aquele contador tem que ser menor ou igual a 10.
+
+29
+00:02:23,610 --> 00:02:27,400
+Ou seja se eu colocar um ponto e vírgula é uma coisa ficar funcionado.
+
+30
+00:02:27,450 --> 00:02:33,660
+Eu tenho uma expressão verdadeira que eu seja o contador ali ou seja um é menor do que 10 o verdadeiro
+
+31
+00:02:34,190 --> 00:02:40,050
+é da forma que está aqui ele vai gerar o que eu chamo de laço infinito porque ele vai gerar um laço
+
+32
+00:02:40,050 --> 00:02:45,480
+infinito porque ele vai ficar infinitamente dizer bom dia e não tem nada dentro do meu código vai fazer
+
+33
+00:02:45,480 --> 00:02:48,270
+com que esse laço pare de executar porquê.
+
+34
+00:02:48,480 --> 00:02:54,390
+Porque essa expressão nunca retornará um valor falso porque o contador não está sendo modificado dentro
+
+35
+00:02:54,390 --> 00:02:55,220
+do código.
+
+36
+00:02:55,560 --> 00:03:00,720
+Então uma vez que ele está aqui no nosso infinito eu vou parar aqui nesse ciclo de stop para terminar
+
+37
+00:03:00,730 --> 00:03:03,330
+nosso programa olímpico é o console.
+
+38
+00:03:03,610 --> 00:03:08,490
+E vou fazer algo aqui dentro do meu contador que vai modificar o valor de Contador.
+
+39
+00:03:08,490 --> 00:03:15,210
+Por exemplo eu poderia colocar o contador vai receber o valor 20 se eu fizer que o contador vai receber
+
+40
+00:03:15,210 --> 00:03:16,710
+o valor do aluguel.
+
+41
+00:03:16,740 --> 00:03:20,290
+Significa que ele vai executar esse bloco apenas uma única vez.
+
+42
+00:03:20,370 --> 00:03:22,980
+Essa expressão ela é verdadeira.
+
+43
+00:03:23,010 --> 00:03:28,800
+Ele executa algum dia depois eu botei o pra contador ser 20 na próxima vez que ele voltar está contador
+
+44
+00:03:28,830 --> 00:03:31,940
+ali 20 ou seja 20 não é menor ou igual a 10.
+
+45
+00:03:31,940 --> 00:03:36,410
+Essa expressão passará a ser falso ele não executa novamente o apoio.
+
+46
+00:03:36,690 --> 00:03:43,120
+Nesse caso eu posso usar aquela estratégia de usar o incremento mais mais ou seja na primeira vez que
+
+47
+00:03:43,120 --> 00:03:44,480
+ele entrar o contador vai além.
+
+48
+00:03:44,520 --> 00:03:48,750
+Quando ele encontrar o mais mais ele passa C2 a executar a próxima repetição.
+
+49
+00:03:48,760 --> 00:03:55,150
+Depois três quatro cinco seis até que em determinado momento o contador passa a ser maior do que 10
+
+50
+00:03:55,150 --> 00:03:58,990
+como ele passa a ser o 11 e aí o Laio não vai mais repetir.
+
+51
+00:03:59,290 --> 00:04:08,310
+Então executando isso você vai ver que ele vai repetir 10 vezes ou 2 3 4 5 6 7 8 9 e 10 em vez de colocar
+
+52
+00:04:08,310 --> 00:04:17,310
+o bom dia que eu posso colocar o valor de igual percentual dele pra mostrar um valor inteiro.
+
+53
+00:04:17,350 --> 00:04:25,330
+Vou passar o valor de Contador King contador e obviamente transformar meu Prince Ali chefe executando.
+
+54
+00:04:25,470 --> 00:04:28,030
+Você vai ver que o resultado é igual.
+
+55
+00:04:28,080 --> 00:04:34,710
+Eu vou colocar um barra aqui pra ele quebrar em minhas diferentes traz à tona mais uma vez mas vamos
+
+56
+00:04:34,710 --> 00:04:41,180
+ter algo ali na primeira vez depois de 2 3 4 5 6 7 8 9 10.
+
+57
+00:04:41,220 --> 00:04:48,300
+O que eu disse é que esse é um apoio determinado porque a gente sabe pelo contador quantas vezes a gente
+
+58
+00:04:48,300 --> 00:04:49,110
+quer repetir né.
+
+59
+00:04:49,110 --> 00:04:54,720
+A gente está usando variáveis de controle que vai trazer para a gente uma quantidade determinada de
+
+60
+00:04:54,720 --> 00:04:58,740
+repetições eu sei que eu quero repetir 10 vezes eu sei.
+
+61
+00:04:58,800 --> 00:05:01,250
+Coloca no quero repetir 20 vezes.
+
+62
+00:05:01,250 --> 00:05:06,080
+Então ele vai executar de 1 até 20 passando por todos os elementos.
+
+63
+00:05:06,440 --> 00:05:13,530
+Então fica fácil mas eu quero fazer aqui em vez de incrementar o e eu quero incrementar de dois em dois.
+
+64
+00:05:13,700 --> 00:05:14,370
+Não tem problema.
+
+65
+00:05:14,390 --> 00:05:20,150
+Você pode fazer uma atribuição aditiva que cada repetição lhe vai acrescentar dois à variável contador.
+
+66
+00:05:20,260 --> 00:05:24,710
+Esse caso se você vai ver que ele colocou 3 5 7 9.
+
+67
+00:05:24,710 --> 00:05:24,980
+11.
+
+68
+00:05:24,980 --> 00:05:25,400
+13.
+
+69
+00:05:25,400 --> 00:05:25,820
+15.
+
+70
+00:05:25,820 --> 00:05:26,450
+17.
+
+71
+00:05:26,450 --> 00:05:33,140
+19 Se eu começar aqui com zero e colocar o valor pra ser menor não vai chegar até 20.
+
+72
+00:05:33,140 --> 00:05:43,570
+Vai baixar todos os valores pares até o valor do 20 0 2 4 6 8 10 12 14 16 18 se eu colocar aqui o 25
+
+73
+00:05:43,610 --> 00:05:48,610
+pra ser igual ele vai achar de 0 até 27 no caso 11 valores.
+
+74
+00:05:48,620 --> 00:05:55,100
+Ou seja você está trabalhando com maio que é uma estrutura mais voltada para você tem uma quantidade
+
+75
+00:05:55,190 --> 00:05:57,300
+indeterminada de vezes.
+
+76
+00:05:57,350 --> 00:06:00,410
+7 está trabalhando de uma forma determinada.
+
+77
+00:06:00,410 --> 00:06:04,800
+Existe uma estrutura chamada Fog que é o que eu vou mostrar pra vocês na próxima aula e depois a gente
+
+78
+00:06:04,860 --> 00:06:07,890
+volta para o raio indeterminado determinado foco.
+
+79
+00:06:08,030 --> 00:06:13,880
+é exatamente essa estrutura só que de uma forma já planejada para essa estreia espaço que você vai ter
+
+80
+00:06:13,880 --> 00:06:19,240
+a variável você vai ter a expressão e você vai ter o incremento ou a modificação na variável.
+
+81
+00:06:19,250 --> 00:06:23,810
+Mostrar pra vocês na próxima holofote e depois a gente volta com o apoio determinado.

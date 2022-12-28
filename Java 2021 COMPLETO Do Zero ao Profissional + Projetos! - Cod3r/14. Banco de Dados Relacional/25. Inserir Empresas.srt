@@ -1,0 +1,235 @@
+1
+00:00:00,240 --> 00:00:07,170
+Pessoal agora nós vamos precisar inseri os dados na tabela tanto de empresas ou seja cadastrar as empresas.
+
+2
+00:00:07,170 --> 00:00:10,800
+Depois eu faço a associação dessas empresas com a cidade.
+
+3
+00:00:10,800 --> 00:00:18,060
+Então para isso nós vamos criar um novo arquivo falam o nome do arquivo vai se inseri empresas ponto
+
+4
+00:00:18,060 --> 00:00:18,880
+SQL.
+
+5
+00:00:19,260 --> 00:00:22,470
+Então nós vamos fazer aqui em sete empresas.
+
+6
+00:00:22,670 --> 00:00:25,760
+Vou colocar aqui nome e CNPJ.
+
+7
+00:00:25,770 --> 00:00:30,890
+Nós vamos colocar aqui os valores pra inserir várias empresas em um único inseto então Bradesco vou
+
+8
+00:00:30,900 --> 00:00:32,610
+colocar um CNPJ aqui.
+
+9
+00:00:32,670 --> 00:00:36,970
+Sei que não é de fato o CNPJ da empresa mas isso não importa muito pra gente.
+
+10
+00:00:37,330 --> 00:00:41,210
+Vou colocar aqui no caso vale qualquer outro CNPJ.
+
+11
+00:00:41,210 --> 00:00:47,950
+Tem um site que gera sim PJ fez bota fé CNPJ que ele gera para você o CNPJ.
+
+12
+00:00:47,950 --> 00:00:56,150
+Então Cielo o valor 0 15 em 9 ou edital já é um dos problemas que podem surgir o fato de você ter escolhido.
+
+13
+00:00:56,180 --> 00:01:03,160
+No caso eu ter escolhido Inhotim no campo esse zero já não é significativo então ele já perderia o Zero
+
+14
+00:01:03,510 --> 00:01:10,920
+já se fosse um campo baixar não perderia nesse caso colocando tentando dar um de Shift para inserir
+
+15
+00:01:10,970 --> 00:01:12,060
+esses dados.
+
+16
+00:01:12,060 --> 00:01:14,220
+Vocês vão perceber que vai dar um problema.
+
+17
+00:01:14,310 --> 00:01:21,510
+Quem está dizendo que o valor é formado ele é maior do que o rígido que o espaço inteiro armazena por
+
+18
+00:01:21,510 --> 00:01:22,020
+padrão.
+
+19
+00:01:22,290 --> 00:01:29,460
+Então nesse caso eu vou executar aqui eu vou deixar que eu vou fazer uma alteração na tabela usando
+
+20
+00:01:29,610 --> 00:01:38,070
+alta ou não da tabela no caso empresas vou modificar no caso o CNPJ para baixar de 14.
+
+21
+00:01:38,070 --> 00:01:48,000
+Aqui eu tenho 1 2 3 4 5 6 7 8 9 10 11 12 13 e 14 caracteres eu vou colocar exatamente o mesmo tamanho
+
+22
+00:01:48,400 --> 00:01:55,200
+se eventualmente CNPJ mudar colocou um tamanho a mais e tal você simplesmente vem aqui e modifica o
+
+23
+00:01:55,200 --> 00:02:03,610
+valor dessa coluna então vou lá não uma digite ele executou e retornou com sucesso.
+
+24
+00:02:03,650 --> 00:02:11,060
+Nesse caso posso até colocar aqui pra baixo o colocar aqui a consulta agora imagine que você tá com
+
+25
+00:02:11,080 --> 00:02:13,130
+lixívia e executado.
+
+26
+00:02:13,210 --> 00:02:19,340
+De fato agora ele alterou três linhas ou seja três linhas que foram alteradas a partir dessa inserção
+
+27
+00:02:19,580 --> 00:02:26,840
+então nesse caso pessoal vale observar que mesmo sem o valor está delimitado por aspas eu consegui inserir
+
+28
+00:02:26,840 --> 00:02:29,800
+esse número dentro de um baixar sem problema nenhum.
+
+29
+00:02:30,110 --> 00:02:36,410
+Então continuando aqui eu vou só mostrar pra vocês tem um comando chamado 10x e aí eu posso descrever
+
+30
+00:02:36,410 --> 00:02:43,470
+o conteúdo da tabela então executando aqui algo como Shift e você vai ver exatamente o campo sem PJ
+
+31
+00:02:43,520 --> 00:02:45,680
+agora ele é um baixar de 14.
+
+32
+00:02:45,980 --> 00:02:48,480
+Ele aceita nulo.
+
+33
+00:02:49,110 --> 00:02:56,840
+Ele tem algum tipo de chave tem essa que é uma chave única no CNPJ é a chave adiam a chave primária
+
+34
+00:02:56,960 --> 00:03:04,020
+ele aceita nulo mas não não aceitando o nome e o valor da foto e alguns extras aqui por exemplo.
+
+35
+00:03:04,070 --> 00:03:10,070
+Nessa primeira coluna e auto incrementa o 10 que te ajuda a descrever a tabela você pode fazer isso
+
+36
+00:03:10,070 --> 00:03:18,920
+com qualquer outra tabela sem problema nenhum então coloca naqueles dez prefeitos então um ponto e vírgula
+
+37
+00:03:19,010 --> 00:03:26,240
+executado com um aditivo que ele irá mostrar e escrever exatamente como é que está a tabela prefeitos
+
+38
+00:03:26,450 --> 00:03:29,300
+mostrando todos os detalhes de como a tabela foi construída.
+
+39
+00:03:29,300 --> 00:03:35,600
+Além disso vou colocar aqui um selection from empresas para a gente lembrar exatamente o conteúdo de
+
+40
+00:03:35,600 --> 00:03:43,120
+empresas e também vou colocar aqui cidade celeste asterisco foram as cidades tão commodity como a lixívia
+
+41
+00:03:43,210 --> 00:03:53,290
+e traz à tona que nós temos as nossas empresas e as nossas cidades exatamente as duas tabelas que nós
+
+42
+00:03:53,290 --> 00:03:54,380
+vamos relacionar.
+
+43
+00:03:54,630 --> 00:03:56,130
+Então aqui faz o seguinte.
+
+44
+00:03:56,380 --> 00:04:05,500
+Então vou INSERI EM EMPRESAS Vanderlan e comunidades e vou colocar aqui empresa a cidade de sedes são
+
+45
+00:04:05,500 --> 00:04:07,890
+as três colunas que nós vamos inserir nesses sete.
+
+46
+00:04:07,890 --> 00:04:09,390
+Então os valores vão ser.
+
+47
+00:04:10,550 --> 00:04:17,820
+Ou seja vou relacionar o Bradesco com a cidade de Campinas e dizer que ele é a sede do Bradesco em Campinas.
+
+48
+00:04:17,890 --> 00:04:23,710
+Vou colocar aqui um 2.0 ou seja no caso a empresa vai ser vale.
+
+49
+00:04:23,770 --> 00:04:28,540
+A cidade vai ser Campinas e eu vou dizer que não é a sede da Vale.
+
+50
+00:04:28,540 --> 00:04:36,400
+Lá em Campinas eu vou colocar aqui 2 1 0 no caso 2 vai ser vale no caso anterior estereótipo que mistura
+
+51
+00:04:36,430 --> 00:04:43,270
+eu coloquei aqui um Bradesco cidade de Niterói dizendo que não é de lá enaltecer o caso e a empresa
+
+52
+00:04:43,270 --> 00:04:51,610
+2 que no caso Vale na cidade de Campinas e não é a sede não é lá eu coloquei zero finalmente pra terminar
+
+53
+00:04:51,610 --> 00:04:52,730
+2 2 1.
+
+54
+00:04:52,930 --> 00:04:56,240
+Ou seja a empresa 2 vale na cidade.
+
+55
+00:04:56,240 --> 00:05:03,420
+2 Niterói a lá em Niterói sete estão colocando aqui as ilações executado como X.
+
+56
+00:05:04,480 --> 00:05:11,440
+Ele disse Aqui quatro linhas foram afetadas e na proximal nós vamos fazer um a uma consulta que vai
+
+57
+00:05:11,740 --> 00:05:17,710
+juntar essas duas tabelas trata a tabela empresa como a tabela cidade usando a tabela intermediária
+
+58
+00:05:17,710 --> 00:05:19,460
+para fazer essa relação.
+
+59
+00:05:19,510 --> 00:05:22,840
+Na próxima audiência com outra vem mais essa consulta e espero lá.

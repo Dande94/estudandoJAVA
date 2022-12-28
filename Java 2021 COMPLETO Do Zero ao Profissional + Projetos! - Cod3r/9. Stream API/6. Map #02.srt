@@ -1,0 +1,559 @@
+1
+00:00:00,330 --> 00:00:07,980
+Agora nós vamos ver na prática aquilo que a gente na teoria na passada sobre o MEP vão achar pra vocês.
+
+2
+00:00:08,010 --> 00:00:14,890
+O exemplo vai ser o seguinte nós vamos criar aqui uma classe que eu vou chamar.
+
+3
+00:00:15,420 --> 00:00:22,190
+Não tem problema crápulas como o Mac porque na verdade o MEP vai ser comportamento o método do intestino
+
+4
+00:00:22,200 --> 00:00:24,930
+então não vai gerar nenhum problema pra gente tá.
+
+5
+00:00:25,260 --> 00:00:31,500
+Então aqui eu vou criar um método meio e eu vou fazer aquela mesma técnica que eu fiz em passado criei
+
+6
+00:00:32,050 --> 00:00:42,540
+com sua política estrias e eu vou criar aqui períodos que recebe o System Alves e a referência para
+
+7
+00:00:42,560 --> 00:00:49,620
+Prisco a gente irá usar algumas vezes e facilita que vai ficar Manaus em nosso contrato eu vou lá eu
+
+8
+00:00:49,620 --> 00:01:00,250
+vou fazer o seguinte eu vou criar aqui uma lista sejam List distrito Oxalá de matas vou ter que responder
+
+9
+00:01:00,680 --> 00:01:13,380
+as listas passando algumas marcas aqui então me W coloca aqui outra marca pra ser Alt e o crack uma
+
+10
+00:01:13,380 --> 00:01:20,750
+terceira marca da segunda ronda BMW e Audi em cima dessas marcas.
+
+11
+00:01:20,760 --> 00:01:27,840
+Eu vou mostrar pra vocês Como é que a gente pode aplicar o metal e fazer o seguinte marcas que isto
+
+12
+00:01:27,850 --> 00:01:28,100
+aí.
+
+13
+00:01:28,110 --> 00:01:34,470
+Ou seja aqui começa a minha operação de Bild né Bild Operation seja construir isto.
+
+14
+00:01:34,770 --> 00:01:40,620
+Agora vou aplicar nesse caso o primeiro exemplo aqui uma única operação intermediária que vai ser o
+
+15
+00:01:41,010 --> 00:01:41,840
+MAP.
+
+16
+00:01:41,850 --> 00:01:48,600
+Eu tenho algumas possibilidades flat mas eu vou colocar o MAC aqui dentro eu vou dizer o seguinte eu
+
+17
+00:01:48,600 --> 00:01:54,960
+quero transformar todas as palavras pra letras maiúsculas o que é que eu vou receber como parâmetro
+
+18
+00:01:55,210 --> 00:02:00,810
+dessa lama pré chegou a receber cada um dos itens ou cada uma das marcas e então posso colocar em mim
+
+19
+00:02:00,810 --> 00:02:02,310
+já que são marcas.
+
+20
+00:02:02,310 --> 00:02:11,280
+Vou colocar aqui me ponto Chu caso seja Mococa a letra maiúscula é uma vez feito isso eu posso chamar
+
+21
+00:02:11,280 --> 00:02:18,650
+uma função terminal no caso original função que depois dela não tem mais nada não tenho de volta o instruindo
+
+22
+00:02:19,080 --> 00:02:26,340
+nesse caso onde seu olhar pra você mostra para vocês que o exemplo do MEP colocando o médico ele vai
+
+23
+00:02:26,450 --> 00:02:33,450
+ser se eu soubesse eu consigo maximizar como ele recebe um funk e ele retorna.
+
+24
+00:02:33,680 --> 00:02:40,500
+Isto aí eu chamei o MEP a partir de um estranho que retornam outros tem que retorna outros Soninha aquela
+
+25
+00:02:40,500 --> 00:02:47,280
+ideia das operações intermediárias já foram hit Ela é uma das operações terminais de tal forma que depois
+
+26
+00:02:47,590 --> 00:02:53,220
+eu não posso chamar nada porque não tem mais nada pra ser feito então nesse caso o que é que eu fiz
+
+27
+00:02:53,220 --> 00:03:00,680
+eu peguei um filme de Marta são as três marcas quero que todas as letras fiquem maiúsculas como um BMW
+
+28
+00:03:00,760 --> 00:03:08,940
+e no final das contas termino o console de tal forma que você vai Bill BMW Audi ronda legal como é que
+
+29
+00:03:08,940 --> 00:03:13,890
+seria para a gente ter uma composição aqui nesse caso dar um exemplo pra ficar um pouco mais claro.
+
+30
+00:03:13,980 --> 00:03:19,650
+A ideia é essa eu vou criar aqui algumas lambidas e já vou armazenar isso em variáveis para que eu possa
+
+31
+00:03:19,650 --> 00:03:20,960
+usar depois as variáveis.
+
+32
+00:03:20,960 --> 00:03:23,420
+Então o que aqui criar um operador binário.
+
+33
+00:03:23,910 --> 00:03:29,100
+Nesse caso eu vou estar sempre trabalhando com histeria então vou receber uma 30 tornam este fim de
+
+34
+00:03:29,100 --> 00:03:36,780
+semana string retornar aos trilhos então vou colocar aqui com maiúscula vou fazer exatamente isso eu
+
+35
+00:03:36,780 --> 00:03:45,500
+vou receber aqui qualquer um inédito e fazer um ponto pra Keys seria a minha primeira operação na área
+
+36
+00:03:45,860 --> 00:03:51,640
+vou criar um outro operador na área que vai pegar por exemplo primeira letra.
+
+37
+00:03:52,140 --> 00:03:53,500
+E aí eu vou pagar.
+
+38
+00:03:53,880 --> 00:04:01,750
+E aí eu vou chamar aqui a partir das 30 tem uma função chamada Chart Pet que vai retornar não a estreia
+
+39
+00:04:01,790 --> 00:04:05,390
+mas vai tornar um caractere Cha zero.
+
+40
+00:04:05,550 --> 00:04:10,620
+E já que eu não posso retornar um caractere já que eu estou sempre retornando o mesmo tipo do parâmetro
+
+41
+00:04:10,620 --> 00:04:11,350
+que eu recebi.
+
+42
+00:04:11,880 --> 00:04:19,800
+Eu posso aqui concatenar com isto e vazia ou seja um caractere concatenar estilingue vazia mas gerar
+
+43
+00:04:19,800 --> 00:04:26,070
+um string que vai ter apenas o primeiro caractere da palavra que foi passado como parâmetro pra essa
+
+44
+00:04:26,070 --> 00:04:34,470
+data e finalmente eu vou duplicar aqui até a terceira lâmina que eu vou chamar aqui grito e vou pegar
+
+45
+00:04:34,470 --> 00:04:41,690
+o valor que eu recebi ou seja concatenar com várias exclamações tá bom.
+
+46
+00:04:42,000 --> 00:04:48,600
+Então feito isso pessoal tenho três expressões leves que vão receber um valor e retorna um mesmo valor
+
+47
+00:04:48,600 --> 00:04:51,000
+do mesmo tipo que eu poderia usar também uma fantoche.
+
+48
+00:04:51,000 --> 00:04:57,080
+Se eu quisesse eu quero transformar string em número então precisaria de numa fonte ou seja você pois
+
+49
+00:04:57,090 --> 00:04:59,200
+tem como parâmetro o retorno número.
+
+50
+00:04:59,550 --> 00:05:02,790
+Mas nesse caso como sempre é string string eu recebo.
+
+51
+00:05:02,790 --> 00:05:08,730
+Comparando este minha atual Listening na próxima recebo comparando com mestria atualmente string.
+
+52
+00:05:09,090 --> 00:05:15,030
+Então fica fácil mandar as diferenças que a gente vai perceber agora com relação ao capítulo passado
+
+53
+00:05:15,060 --> 00:05:20,670
+que agora em vez de fazer isso usando apenas um único dado eu vou fazer isso usando um analista de dados
+
+54
+00:05:20,670 --> 00:05:24,990
+seja um conjunto de dados certo exatamente com o que este filme me dá esse poder.
+
+55
+00:05:25,310 --> 00:05:34,200
+Eu poderia aplicar isso aqui em cima de uma histria qualquer que com maiúscula conto tem depois primeira
+
+56
+00:05:34,350 --> 00:05:46,980
+letra que tem raça no grito e no final eles chamam aqui pra ele me dar um adore a passando por exemplo
+
+57
+00:05:47,350 --> 00:05:50,910
+sei lá bem me dar sei que é uma das possibilidades.
+
+58
+00:05:50,910 --> 00:05:58,980
+Isso aqui eu posso passar dentro de um sistema além de tal forma que o resultado vai ser B será a primeira
+
+59
+00:05:58,980 --> 00:06:04,230
+letra ele pegou tudo colocou mais uso que pegou a primeira letra depois colocou as interrogações nesse
+
+60
+00:06:04,230 --> 00:06:11,640
+caso em vez de fazer aqui eu vou fazer usando as Twain então que fazer com marcas isto é poderia ser
+
+61
+00:06:11,640 --> 00:06:16,800
+até um paralelo estranho esse problema e aqui na outra linha vou fazer o seguinte só para mapear ou
+
+62
+00:06:16,800 --> 00:06:24,290
+passar maiúsculas e aí no final vou chamar o Forum que é uma operação terminal e vou colocar o primeiro
+
+63
+00:06:24,300 --> 00:06:30,150
+só pra gente ver primeiro cenário primeiro cenário ele pegou tudo colocou letras maiúsculas eu vou colocar
+
+64
+00:06:30,150 --> 00:06:40,730
+aqui vocês System aulas só pra dar um banho eu vou colocar aqui e usando POSI são na composição primeiro
+
+65
+00:06:40,810 --> 00:06:47,990
+cenário coloquei todas as letras maiúsculas colocar mais um baile pra dar uma separação maior para.
+
+66
+00:06:48,070 --> 00:06:56,770
+Primeiro colocar letras maiúsculas depois eu vou chamar novamente o Met e agora sétimo vou passar agora
+
+67
+00:06:56,760 --> 00:06:57,750
+a primeira letra.
+
+68
+00:06:57,750 --> 00:07:04,050
+Ou seja ele vai pegar a primeira letra de cada palavra executando você vai ver até agora tem o b a e
+
+69
+00:07:04,050 --> 00:07:13,470
+h e o próximo passo pra cada letra q ele pegou de araque Map eu vou passar a função que vai transformar
+
+70
+00:07:13,570 --> 00:07:19,850
+vai fazer um terceiro mapeamento usando o grito como sendo a lógica certa aplicada eu posso colocar
+
+71
+00:07:19,850 --> 00:07:28,470
+aqui um espaço pra no final ficar tudo grudado ao B e H são as três primeiras letras junto com as exclamações
+
+72
+00:07:28,470 --> 00:07:35,450
+que eu coloquei olhar o texto original ele continua o mesmo certo continua com os mesmos dados e sempre
+
+73
+00:07:35,600 --> 00:07:38,670
+gerando novos destinos com novos dados.
+
+74
+00:07:38,700 --> 00:07:43,090
+Isso é muito interessante o fato que você também consegue fazer composição.
+
+75
+00:07:43,130 --> 00:07:49,040
+Só que agora em vez de fazer composição em cima de um único dado você consegue aplicar isso em conjunto
+
+76
+00:07:49,060 --> 00:07:54,150
+numa coleção de dados o que te dá muito poder flexibilidade muito grande.
+
+77
+00:07:54,270 --> 00:08:00,950
+E o mais isso aqui de certa forma será que eu vou usar isso mais uma vez porque a sensação que eu tenho
+
+78
+00:08:01,340 --> 00:08:06,460
+é que eu preciso estar criando isso todas as vezes não na verdade a gente pode fazer o seguinte só eu
+
+79
+00:08:06,470 --> 00:08:16,250
+posso ter um classe em qualquer que eu vou chamar aqui e sei lá utilitários por exemplo e aqui dentro
+
+80
+00:08:16,250 --> 00:08:23,750
+dessa classe utilitários eu posso muito bem criar várias funções que fazem coisas simples aqui o utilitário
+
+81
+00:08:23,750 --> 00:08:25,180
+não é muito genérico né não.
+
+82
+00:08:25,190 --> 00:08:29,920
+Talvez não seria o caso de eu criar aqui mas como é um exemplo mais simples eu vou criar dessa forma
+
+83
+00:08:29,970 --> 00:08:38,580
+tá aqui eu posso fazer o seguinte Aqui eu defino que é esse esses atributos aqui são estáticos estático
+
+84
+00:08:38,880 --> 00:08:40,440
+e estático.
+
+85
+00:08:40,730 --> 00:08:50,500
+E aí eu posso dizer que isso aqui também não se limita a colocar tudo na forma de falar não também colocando
+
+86
+00:08:50,930 --> 00:08:58,700
+um pouco pacifico ou pior uma beleza publique publique e publique de tal forma que você pode usar isso
+
+87
+00:08:58,760 --> 00:09:06,910
+aqui onde está posso colocar aqui é um utilitário com maiúscula e não preciso ter função definida maiúscula
+
+88
+00:09:07,000 --> 00:09:13,910
+que eu posso usar isso de algum ponto que não necessariamente seja aqui ou então se você quiser você
+
+89
+00:09:13,910 --> 00:09:16,030
+ainda pode fazer algo do tipo aqui.
+
+90
+00:09:16,580 --> 00:09:26,090
+Você tem uma função certo crédito e essa função não necessariamente seriam lambida vai retornar o valor
+
+91
+00:09:26,090 --> 00:09:28,800
+de arqueólogos têm essa função.
+
+92
+00:09:29,120 --> 00:09:34,490
+Então a função gritou Você tem aqui dois atributos que foram definidos até quebra aqui pra não ficar
+
+93
+00:09:34,490 --> 00:09:35,770
+muito grande.
+
+94
+00:09:35,790 --> 00:09:40,210
+Ela tem dois atributos que representam lambidas estáticos.
+
+95
+00:09:40,220 --> 00:09:46,700
+Você tem uma função grito que vai retornar string então coloca os monstrinhos que são grito que você
+
+96
+00:09:46,700 --> 00:09:54,600
+pode usar em outros locais aqui no caso ele vai pegar o valor de qualquer string e ele vai pegar algo
+
+97
+00:09:54,630 --> 00:10:00,560
+Aladdin e simplesmente concatenar legal tem uma função que eu posso usar não apenas nesse contexto no
+
+98
+00:10:00,560 --> 00:10:05,240
+metro mas eu posso usar em outros cenários também lá como é que eu faço pra usar isso.
+
+99
+00:10:05,240 --> 00:10:11,870
+Muito simples você pode usar megafone reforçou a diferença de método é aqui onde tem grito eu posso
+
+100
+00:10:11,870 --> 00:10:21,350
+comentar que eu grito e posso fazer o seguinte são utilitários libertários e referenciar o grito ou
+
+101
+00:10:21,380 --> 00:10:27,410
+seja essa é uma forma até mais interessante porque você tem uma função que respeita o operador na área
+
+102
+00:10:27,410 --> 00:10:29,640
+ou seja recebe a string e retorna string.
+
+103
+00:10:29,660 --> 00:10:33,260
+Você pode usar essa função em outros locais do seu sistema inclusive aqui.
+
+104
+00:10:33,800 --> 00:10:38,490
+Então aqui eu vou comentar aqui vou tirar essa parte que é certa pra ficar bonitinho.
+
+105
+00:10:38,840 --> 00:10:44,810
+Eu usei a primeira letra aqui mas usei os outros valores que usei tanto a partir de um lambda despacho
+
+106
+00:10:44,980 --> 00:10:49,610
+que definir uma classe com a parte ou função de usando referência.
+
+107
+00:10:49,610 --> 00:10:54,860
+E aí eu acho que deve ter ficado claro pra vocês que você pode definir isso em outro local um local
+
+108
+00:10:54,860 --> 00:11:01,850
+que pode ser usado em outras partes do seu sistema inclusive você para transformar essa classe em uma
+
+109
+00:11:01,850 --> 00:11:06,340
+interface caso você não queira que seja tão ansiado.
+
+110
+00:11:06,350 --> 00:11:12,410
+O novo utilitário aqui só pode ter que tirar o falham porque eu faria não combina com interface certo
+
+111
+00:11:12,410 --> 00:11:17,630
+você não pode ter um metro fácil não que não pode ser sobrescrito a partir de uma interface então você
+
+112
+00:11:17,630 --> 00:11:25,020
+pode criar se uma interface ou mesmo você pode criar uma classe e você transformar o construtor dessa
+
+113
+00:11:25,040 --> 00:11:26,500
+classe pra ser privado.
+
+114
+00:11:26,510 --> 00:11:32,360
+Olha que legal você pode transformar o construtor pra ser privado de tal forma que se alguém tentar
+
+115
+00:11:32,410 --> 00:11:38,600
+isto se há uma nova classe do tipo utilitário porque não precisa distanciar já que tudo é estático certo
+
+116
+00:11:38,660 --> 00:11:39,670
+como tudo estático.
+
+117
+00:11:39,680 --> 00:11:47,360
+Você não precisa por exemplo se dá da possibilidade de a pessoa fazer isso aqui ou o utilitário não
+
+118
+00:11:47,360 --> 00:11:48,110
+pode fazer isso.
+
+119
+00:11:48,110 --> 00:11:48,570
+Por quê.
+
+120
+00:11:48,590 --> 00:11:50,690
+Porque o construtor é privado.
+
+121
+00:11:50,690 --> 00:11:58,310
+Se o construtor não fosse privado SERIO SE TIRASSE aqui você poderia construir um utilitário mas se
+
+122
+00:11:58,310 --> 00:12:03,860
+você não quiser que um diga que não tem nada a ver com um Mac mas que está relacionado com o fato de
+
+123
+00:12:03,860 --> 00:12:10,160
+eu colocar por exemplo os metros de um outro local que o cara mostrar mais pra você não é tanto isso
+
+124
+00:12:10,190 --> 00:12:16,730
+mas o fato de que uma vez você criando esses métodos de algum local que possa ser utilizado quando você
+
+125
+00:12:16,730 --> 00:12:23,120
+for fazer esse tipo de processamento você não precisa criar um grande método com todo o passo a passo
+
+126
+00:12:23,120 --> 00:12:27,440
+pra transformar um dado o jeito que você quer você pode criar pequenas soluções.
+
+127
+00:12:27,440 --> 00:12:33,030
+Você pode ter certeza que essas funções utilizadas em outros locais e em outros contextos de uma forma
+
+128
+00:12:33,030 --> 00:12:37,030
+muito mais fácil porque se tratam de funções com pouca responsabilidade.
+
+129
+00:12:37,440 --> 00:12:42,990
+Então a gente de certa forma faz seguindo mais ou menos a mesma ideia do capítulo passado só que agora
+
+130
+00:12:42,990 --> 00:12:46,510
+com a sequência de dados ou sequência de objetos.
+
+131
+00:12:46,510 --> 00:12:53,400
+E isso faz sentido sim porque a gente está mantendo o mesmo paradigma aí está também focando em paradigmas
+
+132
+00:12:53,400 --> 00:12:57,720
+funcionais ou seja um estratégia funcional para resolver os problemas.
+
+133
+00:12:57,720 --> 00:13:03,480
+Então espero que tenha ficado claro esse exemplo de mapping tanto usando o MAC diretamente como depois
+
+134
+00:13:03,480 --> 00:13:10,410
+fazendo o encadeamento de vários metros usando composição e mostrei pra vocês que vocês podem exportar
+
+135
+00:13:10,410 --> 00:13:16,230
+colocar por exemplo essas expressões lambda ou mesmo criar um método fora em um local que você possa
+
+136
+00:13:16,310 --> 00:13:22,020
+utilizar e não necessariamente pra você usar precisa definir a função lambda certo.
+
+137
+00:13:22,110 --> 00:13:27,750
+O fato de eu estar definindo as funções lambidas dentro de cada metro no meio pode passar a falsa sensação
+
+138
+00:13:27,870 --> 00:13:30,420
+de que você sempre tem que definir uma função para usar.
+
+139
+00:13:30,420 --> 00:13:34,850
+Ela na verdade é exportada enfim e de outro aquilo que você usar como quis mostrar nesse exemplo.
+
+140
+00:13:35,160 --> 00:13:38,940
+Então até a próxima aula proposta para você o desafio de Mac é até lá.

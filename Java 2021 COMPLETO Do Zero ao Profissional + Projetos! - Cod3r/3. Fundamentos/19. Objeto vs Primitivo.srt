@@ -1,0 +1,195 @@
+1
+00:00:00,180 --> 00:00:07,980
+Pessoal tudo em Java não tudo em Java seria exagero mas Java é fortemente centrado em classe.
+
+2
+00:00:07,980 --> 00:00:12,910
+Tanto é que a gente está criando uma classe para cada exercício novo que a gente tá fazendo.
+
+3
+00:00:12,910 --> 00:00:18,230
+Então vou criar uma nova classe já para justificar que Java é um linguagem centradas em classes.
+
+4
+00:00:18,250 --> 00:00:23,900
+Vou colocar aqui uma nova classe só para falar de um conceito rápido um gancho para a próxima aula colocar
+
+5
+00:00:23,930 --> 00:00:29,070
+no aqui primitivo diversos objetos.
+
+6
+00:00:29,670 --> 00:00:36,510
+Então a gente já discutiu já falei pra vocês que Java tem 8 tipos primitivos no caso são 6 numéricos
+
+7
+00:00:36,860 --> 00:00:46,700
+e o bolero é o e tem o baixo shortinho Long Beach 2 bits 4 bit 8 bit eu tenho flores 4 baixos e o Bloco
+
+8
+00:00:46,920 --> 00:00:49,290
+8 bit certo ou seja o dobro do FLOW.
+
+9
+00:00:49,320 --> 00:00:55,470
+Por isso que o nome da boneca é o dobro nesse caso eu já conversei com vocês já falei pra vocês o seguinte
+
+10
+00:00:55,530 --> 00:01:03,660
+quando eu tenho uma classe com estrias tinha uma classe certo a colocar aqui e assim recebi por exemplo
+
+11
+00:01:03,750 --> 00:01:05,940
+o texto qualquer texto.
+
+12
+00:01:06,090 --> 00:01:12,150
+Isso aqui a estrovenga é uma classe assim como primitivos versos objeto e uma classe no momento que
+
+13
+00:01:12,150 --> 00:01:18,120
+você cria um determinado valor de uma classe como é o caso de um estranho mas dizemos que esse valor
+
+14
+00:01:18,120 --> 00:01:26,220
+criado é um objeto seja associado ao s nós temos um objeto esse objeto coloca na notação ponto tem atributos
+
+15
+00:01:26,220 --> 00:01:28,260
+e comportamentos como é o caso.
+
+16
+00:01:28,260 --> 00:01:36,150
+Se eu colocar aqui Ju pq por exemplo ou seja o comportamento do objeto estrito foi criado que tem exatamente
+
+17
+00:01:36,160 --> 00:01:43,680
+o belo texto da mesma forma que eu posso criar o valor do texto aqui eu posso usar um eu string e passar
+
+18
+00:01:43,820 --> 00:01:50,220
+nenhum valor texto certo essa é uma forma menos usual para você criar um estridente sim porque o que
+
+19
+00:01:50,220 --> 00:01:56,820
+você queria muito muito frequentemente a gente acaba colocando diretamente o texto associado ao volume.
+
+20
+00:01:56,850 --> 00:02:02,160
+Você também pode criar um objeto dessa forma em algo que eu vou entrar em detalhes mais no capítulo
+
+21
+00:02:02,160 --> 00:02:02,660
+de.
+
+22
+00:02:03,150 --> 00:02:09,240
+Mas o fato é que você tem os tipos primitivos de um lado e todo o resto em Java são objetos né.
+
+23
+00:02:09,270 --> 00:02:14,760
+Você tem tipos primitivos de objeto nas grandes diferenças dos tipos primitivos como é o caso de um
+
+24
+00:02:14,760 --> 00:02:22,460
+inteiro aqui por exemplo que recebe o volume 2 3 e o fato de que esse inteiro eu não tenho notação correta
+
+25
+00:02:22,540 --> 00:02:28,950
+não tenho nenhum comportamento associado a um tipo primitivo porque é um tipo primitivo e apenas um
+
+26
+00:02:29,400 --> 00:02:35,840
+tipo só tem um só carrega dentro dele o valor e aí uma pergunta que pode surgir se leu e se eu precisar
+
+27
+00:02:35,840 --> 00:02:43,650
+ter algum valor numérico que eu tenha comportamentos associados existe isso em Java exigi que a quem
+
+28
+00:02:43,650 --> 00:02:51,810
+chama de o rapaz certo seria escrever isso aqui ou colocar aqui pois o rapper quer dizer aquilo que
+
+29
+00:02:51,810 --> 00:02:59,550
+envolve o invólucro sexo ou coisa do tipo e o rap é a versão objeto dos tipos primitivos e para cada
+
+30
+00:02:59,550 --> 00:03:04,350
+tipo primitivo tem papel associado e eu vou falar isso na próxima aula.
+
+31
+00:03:04,740 --> 00:03:10,620
+Então nesse caso quero deixar bem claro pra você o time primitivo ele é algo extremamente importante
+
+32
+00:03:10,710 --> 00:03:16,560
+mas ele é mais pobre nesse sentido porque ele só carrega o valor isso não é algo ruim porque muitas
+
+33
+00:03:16,560 --> 00:03:22,020
+vezes você tá precisando apenas armazenar o valor de um determinado número pra fazer operações você
+
+34
+00:03:22,020 --> 00:03:28,350
+não precisa ter comportamentos associados a esse valor você pode não usar muitas vezes acontece isso
+
+35
+00:03:28,770 --> 00:03:40,510
+mas existe a aversão ao objeto dos tipos primitivos não apenas são aversão ao objeto dos tipos cáqui
+
+36
+00:03:42,440 --> 00:03:49,220
+primitivos mas vamos falar sobre isso na próxima aula mais a diferença que tem primitivo os objetos
+
+37
+00:03:49,250 --> 00:03:56,990
+tudo é Java e objeto menos os tipos primitivos ou seja tudo em Java objeto menos os oito tipos primitivos
+
+38
+00:03:56,990 --> 00:03:57,690
+que a gente tem.
+
+39
+00:03:57,860 --> 00:04:03,860
+Então como tudo em Java é baseado em classes com exceção dos tipos primitivos todo o resto é classe
+
+40
+00:04:03,860 --> 00:04:08,710
+A parte dessa classe muito provavelmente vão surgir os objetos mas eu vou entrar mais detalhe mais na
+
+41
+00:04:08,710 --> 00:04:14,630
+frente mais como você cria objetos e determinada classe você tem a possibilidade de ter atributos e
+
+42
+00:04:14,630 --> 00:04:20,840
+comportamentos esse é um fator que você já pode já desde o começo está ligado com relação a isso.
+
+43
+00:04:20,840 --> 00:04:26,690
+Isso será muito explicado muito aprofundado todos os conceitos serão trabalhados com muito tranquila
+
+44
+00:04:26,690 --> 00:04:27,620
+no capítulo yoga.
+
+45
+00:04:27,980 --> 00:04:33,680
+Mas como eu vou falar dos larápios no próximo na próxima aula ou seja seria a versão orientada a objeto
+
+46
+00:04:33,680 --> 00:04:38,420
+dos ciclos primitivos era legal fazer assim esse paralelo embora já tenha feito em outra aula.
+
+47
+00:04:38,420 --> 00:04:44,660
+Só pra deixar registrado aqui um aula separado para os alunos ou os meus papéis ou seja tem oito classes
+
+48
+00:04:44,900 --> 00:04:50,330
+que vão para a cara tipo primitivo tem o índio tem uma classe chamada intangível Long tem uma classe
+
+49
+00:04:50,330 --> 00:04:53,340
+chamada Long eu vou mostrar pra vocês está para os mal.

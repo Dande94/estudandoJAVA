@@ -1,0 +1,451 @@
+1
+00:00:00,090 --> 00:00:06,390
+Agora nós estamos na última aula do nosso jeitinho de campo minado com interface gráfica usando o swing.
+
+2
+00:00:06,480 --> 00:00:13,190
+Tá faltando apenas a gente notificar para o usuário a vitória ou a derrota e fazer alguns ajustes pra
+
+3
+00:00:13,200 --> 00:00:15,330
+gente conseguir inicializar o jogo.
+
+4
+00:00:15,330 --> 00:00:20,610
+Então pra isso eu vou implementar esse método e registrar o Observador que é nesse Metro que eu recebo
+
+5
+00:00:20,610 --> 00:00:25,450
+um evento que me disse houve a vitória lá vou fazer o seguinte out.
+
+6
+00:00:25,800 --> 00:00:35,850
+O evento ponto Ex ganhou a gente vai conseguir aqui mostrar que a parte j tem poucos shows nessas blog
+
+7
+00:00:36,290 --> 00:00:41,340
+e recebe dois parâmetros o primeiro parâmetro alterna entre componente e o segundo parâmetro a mensagem
+
+8
+00:00:41,520 --> 00:00:46,650
+não perde componente eu posso passar um nulo ou mesmo que posso passar o 10 já que eu estou dentro de
+
+9
+00:00:46,650 --> 00:00:49,850
+um componente que representa o cliente do.
+
+10
+00:00:49,910 --> 00:00:55,620
+Então Jota Pena que também é um componente que pode ser passado aqui como tela para essa telinha aqui
+
+11
+00:00:56,230 --> 00:01:05,020
+na praça esse diálogo tinha mostrado a mensagem que na mensagem eu vou mostrar que ganhou ganhou um
+
+12
+00:01:05,070 --> 00:01:09,120
+carinha feliz e aqui Wells
+
+13
+00:01:11,820 --> 00:01:18,690
+é uma carinha triste fala pra gente está pra saber se realmente está sendo exibido quarta além de outras
+
+14
+00:01:18,690 --> 00:01:30,900
+está na tela principal o que perigoso aqui perdeu então nesse caso eu cliquei desci ele prendeu gerou
+
+15
+00:01:30,900 --> 00:01:34,120
+todo mundo ficou vermelho só depois.
+
+16
+00:01:34,130 --> 00:01:39,740
+Não sei se vocês notaram mas só depois que eu fechei a janela foi que ele atualizou o X e o branco aqui
+
+17
+00:01:40,570 --> 00:01:48,300
+está mais uma vez pra vocês verem esse comportamento vi que ele está analisando na ordem que eu quero
+
+18
+00:01:48,310 --> 00:01:56,820
+que eles deveriam se colocar aqui ou aqui eu sei que alguma coisa que ele não colocou o símbolo do X
+
+19
+00:01:56,820 --> 00:01:57,140
+aqui.
+
+20
+00:01:57,150 --> 00:02:02,860
+Só depois que eu esteja na tela ele bem atualiza quando você tem esses problemas de ordem digamos assim
+
+21
+00:02:02,880 --> 00:02:04,690
+de algo pra ser executado.
+
+22
+00:02:04,770 --> 00:02:15,070
+Uma das estratégias é usar o criar uma classe chamada Swing utilities e tem um método chamado Volk leia
+
+23
+00:02:15,330 --> 00:02:24,120
+ou seja invocar depois ele recebe uma interface do tipo robô que é a interface até passado usada também
+
+24
+00:02:24,120 --> 00:02:30,380
+no contexto da Trend e dão basicamente o que eu quero fazer é jogar esse código aqui pra dentro pra
+
+25
+00:02:30,390 --> 00:02:34,560
+ele só mostrar para o usuário que ganhou ou perdeu posteriormente.
+
+26
+00:02:34,860 --> 00:02:39,930
+Isso garante que você consiga atualizar sua interface inteira só depois que a interface inteira foi
+
+27
+00:02:39,930 --> 00:02:40,580
+atualizada.
+
+28
+00:02:40,580 --> 00:02:45,530
+Aí sim você gosta de usar a mensagem usando o show da obra.
+
+29
+00:02:45,540 --> 00:02:54,660
+Com isso já resolve esse problema que ela chama renderização voltar para casa 2 2 então ele perdeu.
+
+30
+00:02:54,660 --> 00:03:00,980
+Ele já mostrou o X depois que eu fecho não precisa mais atualizar porque o X já está sendo exibido.
+
+31
+00:03:01,050 --> 00:03:06,990
+Então foi esse o campo que eu cliquei que gerou a minha derrota então quero marcar o X funcionou corretamente
+
+32
+00:03:06,990 --> 00:03:08,850
+chamando o que levou o atleta.
+
+33
+00:03:09,000 --> 00:03:15,780
+O próximo passo é dentro do IVA hoteleira ou seja depois que ele passar por aqui mostrar a mensagem
+
+34
+00:03:15,770 --> 00:03:21,750
+do usuário eu quero que ele chame o tabuleiro o ponto inicial.
+
+35
+00:03:21,900 --> 00:03:27,110
+O que acontece se a gente não criou nenhum evento associado ao inicial.
+
+36
+00:03:27,540 --> 00:03:33,750
+Quando eu chamo a função é iniciado e chamo lá aqui pra cada um dos casos inicialmente se há basicamente
+
+37
+00:03:33,750 --> 00:03:39,690
+certos atributos diretamente e não gera nenhum tipo de argumento associado ao reiniciar significa uma
+
+38
+00:03:39,690 --> 00:03:44,920
+interface gráfica como Avatar só respondendo aos eventos que acontecem.
+
+39
+00:03:45,090 --> 00:03:51,960
+Ela não vai ser modificada a interface não vai ser atualizada que dá o mesmo chamado aqui dentro de
+
+40
+00:03:52,000 --> 00:03:56,080
+tablet tem no tabuleiro o chamado tabuleiro ponto a iniciar.
+
+41
+00:03:56,080 --> 00:04:01,950
+Preste atenção que eu estou chamando isso dentro do invólucro Luiza não é fora de dentro.
+
+42
+00:04:01,950 --> 00:04:04,090
+Chamei o tabuleiro pra iniciar.
+
+43
+00:04:04,230 --> 00:04:07,740
+Como não tem nenhuma avental associada à minha tela não vai fazer nada.
+
+44
+00:04:07,870 --> 00:04:14,660
+Evitando que ao clicar no desempate pedimos a mensagem Ok.
+
+45
+00:04:14,840 --> 00:04:20,700
+Eu chamei um e iniciado toda a parte interna da minha aplicação o campo e o tabuleiro estão completamente
+
+46
+00:04:20,700 --> 00:04:22,020
+analisados.
+
+47
+00:04:22,020 --> 00:04:28,980
+Só que a interface visual não foi notificado então pra resolver isso eu vou criar mais aqui dentro de
+
+48
+00:04:28,980 --> 00:04:39,480
+campo evitando criar mais um evento que vai se iniciar e eu vou usar esse apelido quando dentro do campo
+
+49
+00:04:39,870 --> 00:04:42,490
+bonachão a inicial seria pra cada campo.
+
+50
+00:04:42,520 --> 00:04:45,170
+Eu vou notificá que houve uma reinicialização.
+
+51
+00:04:45,430 --> 00:04:53,180
+Então pra isso vou chamar aquele edificado observadores dentro do.
+
+52
+00:04:53,310 --> 00:04:54,510
+Fazendo isso.
+
+53
+00:04:54,510 --> 00:05:03,870
+Vai chegar lá no meu botão canto ele vai chamar aqui esse evento não foi tratado especificamente com
+
+54
+00:05:03,930 --> 00:05:09,140
+os gays mas em embarcar em um caso de fogo que é exatamente o que eu quero aplicar estilo padrão.
+
+55
+00:05:09,510 --> 00:05:14,940
+Então eu quero que ela aplique o estilo padrão sempre que foi realizado o carro voltar a estar aqui
+
+56
+00:05:15,060 --> 00:05:21,660
+para a gente ver se realmente ele vai inicializar o jogo depois que eu perdi que já perdi.
+
+57
+00:05:21,770 --> 00:05:23,930
+A origem do problema todo mundo tiamina.
+
+58
+00:05:24,330 --> 00:05:30,780
+Ok ele atualizou mas não atualizou a questão da borda.
+
+59
+00:05:30,820 --> 00:05:37,170
+Acredito porque aqui no estilo padrão a lei não coloca na borda mas é preciso colocar essa mesma borda
+
+60
+00:05:37,590 --> 00:05:44,610
+porque eu defendia que ensinam pra que eu possa estar a borda sempre que aplicá los no para testar pra
+
+61
+00:05:44,610 --> 00:05:48,990
+saber se se esse o problema executando mais uma vez
+
+62
+00:05:51,800 --> 00:05:59,230
+por outro seleciona certinho esse que considera estar legal.
+
+63
+00:05:59,310 --> 00:06:01,790
+O problema mostrou a origem do problema.
+
+64
+00:06:01,950 --> 00:06:07,160
+Aquele que eu queria que tinha a bomba e todos os outros que também estavam marcados com bola ele finalmente
+
+65
+00:06:07,180 --> 00:06:08,300
+ok.
+
+66
+00:06:08,810 --> 00:06:13,570
+Estabeleceu o jogo para que ele possa jogar novamente clicando aqui.
+
+67
+00:06:13,870 --> 00:06:19,740
+Quem estabeleceu o jogo funcionando corretamente inclusive o jogo inicializar.
+
+68
+00:06:19,760 --> 00:06:25,890
+Acho que podemos jogar várias vezes o nosso campo minado e aí como você vai definir o mínimo de complexidade
+
+69
+00:06:25,890 --> 00:06:28,760
+se vai ser poucas miras ou muitas por exemplo.
+
+70
+00:06:28,760 --> 00:06:36,770
+Se eu vim aqui lá na tela principal foi exatamente o único que tem 50 minas a colocar só 5 a gente consegue
+
+71
+00:06:36,770 --> 00:06:43,130
+simular uma vitória muito fácil voltar a estar aqui novamente para ver se realmente funcionar de forma
+
+72
+00:06:43,130 --> 00:06:44,630
+correta.
+
+73
+00:06:44,660 --> 00:06:51,130
+Muito difícil perder esse jogo nao marcar marcar marcar aqui.
+
+74
+00:06:51,230 --> 00:07:00,680
+Tem dia que não tem aqui um arqueiro você já conheceu o caso da vitória jogando aqui marcar marcar mas
+
+75
+00:07:00,720 --> 00:07:07,270
+para abrir esse espaço marcar aqui e abrir esse abrir e marcar esse dinheiro.
+
+76
+00:07:07,310 --> 00:07:11,720
+Se tiver algum problema de atualização alemão atualizou tudo.
+
+77
+00:07:11,730 --> 00:07:17,810
+Usar os botões de algumas situações não ficou completamente da forma como era pra ficar.
+
+78
+00:07:17,810 --> 00:07:22,730
+Você pode garantir dentro de botão uma peça a lente indica mais uma acessar a mente.
+
+79
+00:07:22,730 --> 00:07:24,630
+Você precisa implementar isso.
+
+80
+00:07:24,650 --> 00:07:28,970
+Esse é o método que vai chamar todos os metros que vão mexer no estilo do botão.
+
+81
+00:07:29,110 --> 00:07:34,640
+Então se depois desses metros você quer garantir que o botão vai estar sempre atualizado você pode chamar
+
+82
+00:07:34,640 --> 00:07:41,090
+kill switch Utilities e o Vox Lenita você vai voltar depois.
+
+83
+00:07:41,480 --> 00:07:50,940
+E aqui você pode passar o mesmo despacho conforme eu passei a chamá lo de forma explícita o método é
+
+84
+00:07:51,150 --> 00:07:53,270
+um método validade.
+
+85
+00:07:53,420 --> 00:08:00,550
+Isso reforça que o componente seja redesenhado na tela sempre que você chamar um aplicativo estilo abrir
+
+86
+00:08:00,570 --> 00:08:05,720
+qualquer um desses aplicativo que garante que você não vai ter nenhum problema de renderização não é
+
+87
+00:08:05,720 --> 00:08:11,510
+necessário que você chame isso mas se você quiser garantir que o componente será quitado sempre você
+
+88
+00:08:11,510 --> 00:08:12,910
+pode chamar uma coleira.
+
+89
+00:08:12,940 --> 00:08:18,200
+E se por algum motivo ele não adiantou eu já peguei algumas situações que foi necessário chamar de forma
+
+90
+00:08:18,200 --> 00:08:19,480
+explícita.
+
+91
+00:08:19,670 --> 00:08:24,220
+Vale desde que ele valida o componente e repita ele na tela.
+
+92
+00:08:24,230 --> 00:08:30,280
+Você tem certeza que o componente está na sua última versão e ele sempre será renderizar de forma correta
+
+93
+00:08:30,290 --> 00:08:32,900
+então o último teste só para gente finalizar que o nosso colo.
+
+94
+00:08:32,900 --> 00:08:43,050
+Para ter certeza que essa adição não quebrou nada aqui ao marcar marcar que o macaquinho aqui abre esse
+
+95
+00:08:43,700 --> 00:08:50,510
+vou abrir esse marca aqui finalmente marcando esse ele percebe que o objetivo do jogo foi alcançado
+
+96
+00:08:50,510 --> 00:08:51,570
+mas que está muito fácil.
+
+97
+00:08:51,750 --> 00:08:56,640
+Mas você pode brincar com facilidade exatamente colocando a quantidade de máquinas ou mesmo aumentamos
+
+98
+00:08:56,660 --> 00:08:58,520
+as linhas e as colunas do jogo.
+
+99
+00:08:58,620 --> 00:09:04,610
+Pessoal fique por aqui nós fizemos muitas coisas legais no jogo vimos muitos conceitos que são de certa
+
+100
+00:09:04,610 --> 00:09:12,950
+forma avançados conceitos de eventos e tal mas a minha ideia aqui é realmente puxar e vocês conceitos
+
+101
+00:09:12,940 --> 00:09:14,770
+reais para aplicar em aplicações reais.
+
+102
+00:09:14,790 --> 00:09:20,630
+Por mais que o exemplo do Campo Minado é um exemplo simples ele é a aplicação simples mas também uma
+
+103
+00:09:20,630 --> 00:09:26,050
+aplicação e a aplicação prática usou e pra mim tudo de uma forma muito interessante.
+
+104
+00:09:26,180 --> 00:09:31,910
+A gente vai ter outros projetos ainda projetos inclusive maiores do que o campo minado mas com um bom
+
+105
+00:09:31,910 --> 00:09:37,370
+projeto pra gente começar se tiver alguma dúvida não deixem isso trava alto o progresso no curso continua
+
+106
+00:09:37,380 --> 00:09:42,250
+traremos alguns exercícios a mais sobre sei que serão mais simples do que propriamente no campo minado
+
+107
+00:09:42,260 --> 00:09:47,290
+que era um projeto real já agora vai fazer alguns exercícios pra entender alguns princípios do suingue
+
+108
+00:09:47,300 --> 00:09:49,550
+depois a gente vai bem mais pra frente.
+
+109
+00:09:49,640 --> 00:09:55,880
+A parte Java e Flex que também é muito legal trabalhar com aplicações desktop com o Java reflete a abordagem
+
+110
+00:09:55,880 --> 00:10:01,700
+bem mais moderna se Javert é bem mais novo que eu sei que a gente também vai ver e fazer aplicações
+
+111
+00:10:01,700 --> 00:10:07,550
+para que você possa usar tanto entender os princípios e entender os conceitos e entender como usar os
+
+112
+00:10:07,550 --> 00:10:12,020
+componentes mas também aprender no contexto de aplicações práticas não fique por aqui.
+
+113
+00:10:12,020 --> 00:10:15,260
+Tem mais aula ainda nesse capítulo de suíte até para os mal.

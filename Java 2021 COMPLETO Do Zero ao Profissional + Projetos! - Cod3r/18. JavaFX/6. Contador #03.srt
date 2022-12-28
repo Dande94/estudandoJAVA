@@ -1,0 +1,703 @@
+1
+00:00:00,420 --> 00:00:06,840
+Agora nós vamos trabalhar com a parte de estilo na nossa aplicação e para isso nós vamos criar dentro
+
+2
+00:00:06,840 --> 00:00:09,780
+do pacote básico um novo arquivo.
+
+3
+00:00:09,990 --> 00:00:12,510
+Agora não mais uma classe mais um fail.
+
+4
+00:00:13,410 --> 00:00:16,440
+Então eu fui eu o nome do arquivo.
+
+5
+00:00:16,440 --> 00:00:24,120
+Eu vou chamar exatamente com o mesmo nome da classe então esse contador conta SS assim tão com C maiúsculo
+
+6
+00:00:24,580 --> 00:00:31,850
+e extensão com CSS pra quem não é familiar com a questão de arquivo CSS não vem da web.
+
+7
+00:00:32,250 --> 00:00:38,880
+Basicamente quando você trabalha com a aplicação para web você cria o estilo da sua aplicação dentro
+
+8
+00:00:38,880 --> 00:00:40,760
+de um arquivo como CSS.
+
+9
+00:00:41,040 --> 00:00:48,280
+Quem trabalha com web por mais de um ou dois dias já viu que é um arquivo CSS a sintaxe é muito simples.
+
+10
+00:00:48,390 --> 00:00:51,470
+Eu vou mostrar para vocês agora como funciona.
+
+11
+00:00:51,510 --> 00:00:55,320
+Basicamente a gente cria a quem chama de classe.
+
+12
+00:00:55,330 --> 00:01:02,760
+Então vou chamar aqui eu chamei ao ver o nome e o que chama de conteúdo então outro conteúdo.
+
+13
+00:01:02,760 --> 00:01:05,210
+O ponto é importante tem que existir.
+
+14
+00:01:05,520 --> 00:01:12,520
+Existem outras formas de você criar elementos CSS mais um deles colocando aqui ou um ponto na frente
+
+15
+00:01:12,580 --> 00:01:18,930
+um nome que você vai dar que é o nome que você quiser no caso aqui conteúdo aqui dentro do par de chaves
+
+16
+00:01:18,930 --> 00:01:25,050
+eu vou definir uma série de propriedades e valores para aplicar alguma coisa que tenha um conteúdo.
+
+17
+00:01:25,050 --> 00:01:35,310
+Por exemplo no caso da web eu tenho um cara chamado Beco um traço colo e aqui eu posso colocar por exemplo
+
+18
+00:01:35,400 --> 00:01:36,740
+vermelho.
+
+19
+00:01:37,290 --> 00:01:40,590
+Só que no caso do Java e flex não é essa propriedade.
+
+20
+00:01:40,600 --> 00:01:44,440
+Você coloca um traço FX traço background cola.
+
+21
+00:01:44,910 --> 00:01:51,900
+Essa é a propriedade que o Java Flex vai usar digamos assim para preencher o background de alguma coisa
+
+22
+00:01:51,900 --> 00:01:55,720
+que você marcar que tem o estilo conteúdo.
+
+23
+00:01:55,990 --> 00:02:00,930
+Então vou ficar por aqui na página do CSS e vou mostrar para vocês como é que a gente pode importar
+
+24
+00:02:01,230 --> 00:02:06,250
+no CSS dentro de um arquivo como Java ou só maximizar aqui.
+
+25
+00:02:06,240 --> 00:02:17,100
+Então nós vamos criar string aqui CSS um arquivo CSS que na verdade não é nem o arquivo ou o caminho
+
+26
+00:02:17,740 --> 00:02:28,240
+caminho do CSS recebe aquele Get less ponto Guedes pessoas.
+
+27
+00:02:28,440 --> 00:02:35,290
+E aqui eu vou passar o PF no caso Barra base que é o nome do pacote.
+
+28
+00:02:35,380 --> 00:02:46,030
+Aqui o Barra seria o então o pacote básico Barra o montador CSS e aqui tem um método dentro de gatil
+
+29
+00:02:46,080 --> 00:02:51,410
+só acho que eu vou colocar na linha seguinte que é o externo forte.
+
+30
+00:02:51,470 --> 00:02:57,420
+Ou seja para a fome externa que é o caminhão que seria o caminhão completo colocando aqui eu vou ter
+
+31
+00:02:57,420 --> 00:03:02,370
+o caminhão do CSS associado à cena principal.
+
+32
+00:03:02,370 --> 00:03:10,470
+Eu tenho um método Senna é o principal ponto que garante está em X estágio x exatamente os arquivos
+
+33
+00:03:10,470 --> 00:03:23,190
+CSS cascade X o SS CSS é exatamente o S está ele é o S de X e o sêmen de casca de folhas de estilos
+
+34
+00:03:23,250 --> 00:03:24,300
+em cascata.
+
+35
+00:03:24,510 --> 00:03:33,060
+Então Gad está ele X ou então adicionar eu vou passar o caminho do CSS para ele adicionar uma vez feito
+
+36
+00:03:33,060 --> 00:03:41,700
+isso eu já tenho a minha disposição um arquivo CSS beleza então só fazendo isso se você executar o arquivo
+
+37
+00:03:41,700 --> 00:03:43,170
+CSS não existe.
+
+38
+00:03:43,260 --> 00:03:45,140
+Ele vai dar um problema.
+
+39
+00:03:45,310 --> 00:03:49,620
+Se for executar ele mostrou a tela normalmente significa que está funcionando.
+
+40
+00:03:49,620 --> 00:03:57,030
+Se você tentar colocar um contador dois e tentar executá lo vai dar problema e não vai executar corretamente
+
+41
+00:03:57,210 --> 00:03:58,230
+porque não encontrou.
+
+42
+00:03:58,710 --> 00:04:05,460
+Então se você importou corretamente e adicionou um estágio X forma correta e pra funcionar normalmente
+
+43
+00:04:05,460 --> 00:04:09,800
+a aplicação mostra aqui antes de associar Ostrom.
+
+44
+00:04:09,990 --> 00:04:15,720
+Então agora que eu sei que o arquivo CSS foi carregado corretamente eu quero associar o conteúdo que
+
+45
+00:04:15,720 --> 00:04:18,510
+é exatamente o estilo que eu defini.
+
+46
+00:04:18,510 --> 00:04:23,460
+Por enquanto esse estilo só tem um atributo um valor ou uma chave e um valor.
+
+47
+00:04:23,460 --> 00:04:29,800
+Posso ter vários estilos aqui várias propriedades para definir qual será o estilo do conteúdo.
+
+48
+00:04:29,850 --> 00:04:35,160
+Por enquanto defini somente que a cor de background vai ser vermelha como é que eu consigo associar
+
+49
+00:04:35,250 --> 00:04:38,170
+isso aqui com algum elemento visual da minha tela.
+
+50
+00:04:38,220 --> 00:04:43,610
+Eu não vou usar o ponto vou usar apenas o nome e o conteúdo daqui um conto como diz ser contra o ser
+
+51
+00:04:43,650 --> 00:04:48,840
+para copiar e associado ao meu boxe principal que é o meu conteúdo.
+
+52
+00:04:48,990 --> 00:04:49,520
+Eu vou.
+
+53
+00:04:49,530 --> 00:05:00,500
+Posso inclusive até trocar aqui VLC boxe principal para ser box com um som e mostrar que a pediu não
+
+54
+00:05:01,040 --> 00:05:06,430
+ficava com Control como nenhum eu posso dar um e-mail é fácil.
+
+55
+00:05:06,890 --> 00:05:12,210
+E aí tudo o que ele fizer ele vai mexer em todas as variáveis da então Box.
+
+56
+00:05:12,340 --> 00:05:15,470
+Conteúdo eu vou pagar que o principal.
+
+57
+00:05:15,480 --> 00:05:20,320
+é então ele vai alterar o nome da variável para a box conteúdo.
+
+58
+00:05:20,930 --> 00:05:23,380
+Então aqui pegando um box.
+
+59
+00:05:23,600 --> 00:05:24,700
+Conteúdo.
+
+60
+00:05:24,710 --> 00:05:26,330
+Ponto grande.
+
+61
+00:05:26,650 --> 00:05:34,390
+Está eu não é estágio sheet mas se está eu que lhes garante está aí o Class ponto.
+
+62
+00:05:34,520 --> 00:05:40,650
+Adicionar um monstrinho que eu vou adicionar aqui o nome da classe que eu criei é exatamente a classe
+
+63
+00:05:40,680 --> 00:05:42,980
+conteúdo no mundo CSS.
+
+64
+00:05:43,400 --> 00:05:49,160
+Quando você define alguma coisa que começa com um ponto a gente chama de classe CSS classe CSS nada
+
+65
+00:05:49,160 --> 00:05:51,600
+mais é do que um grupo de atributos.
+
+66
+00:05:51,650 --> 00:05:55,240
+Eu quero que a minha fonte seja uma fonte específica.
+
+67
+00:05:55,290 --> 00:05:56,790
+Eu quero que seja real.
+
+68
+00:05:56,900 --> 00:05:59,430
+Eu quero que o tamanho da fonte seja 20.
+
+69
+00:05:59,750 --> 00:06:05,960
+Eu quero que a cor da fonte seja verde eu quero que o barco seja vermelho então você definiu uma série
+
+70
+00:06:05,960 --> 00:06:08,950
+de propriedades e agrupa isso dentro de uma classe.
+
+71
+00:06:09,380 --> 00:06:15,980
+Você dá um nome pra essa classe você pega essa classe e atribui a algum elemento visual no caso a forma
+
+72
+00:06:15,980 --> 00:06:23,060
+que eu tenho para atribuir exatamente kill box conteúdo Gant estïœo Clécio a que eu criei uma classe
+
+73
+00:06:23,060 --> 00:06:25,400
+a adicionar à classe conteúdo.
+
+74
+00:06:25,400 --> 00:06:28,650
+Nesse ponto eu não coloco o ponto.
+
+75
+00:06:29,010 --> 00:06:34,100
+Então colocar um ponto não vai dar certo aqui ele já espera que você coloque apenas o nome da classe
+
+76
+00:06:34,220 --> 00:06:36,110
+mais dentro do arquivo CSS.
+
+77
+00:06:36,110 --> 00:06:39,770
+Você precisa colocar um ponto então é importante salientar isso.
+
+78
+00:06:39,770 --> 00:06:45,080
+Por enquanto a única coisa que ele está marcando é que o background vermelho é só pra gente ver o resultado.
+
+79
+00:06:45,080 --> 00:06:52,160
+Então eu vou clicar aqui onde você vai ver que o CSS foi importado de forma correta e que a propriedade
+
+80
+00:06:52,160 --> 00:06:57,580
+foi também importada de forma correta ou seja associado ao elemento e forma correta.
+
+81
+00:06:57,580 --> 00:07:02,590
+Nesse caso eu não quero ter algo vermelho mas eu quero que seja preto.
+
+82
+00:07:02,600 --> 00:07:07,100
+Posso colocar Kill Black então executado.
+
+83
+00:07:07,250 --> 00:07:13,040
+Você vai ver que o resultado vai ser Black vai sumir os dois leigos ou vai ficar muito claro que não
+
+84
+00:07:13,040 --> 00:07:16,010
+sumi não porque não era exatamente preto né.
+
+85
+00:07:16,040 --> 00:07:19,970
+Vai ficar bem claro aqui por conta da cor que nós definimos.
+
+86
+00:07:19,970 --> 00:07:24,160
+Eu posso inclusive colocar outras propriedades aqui.
+
+87
+00:07:24,350 --> 00:07:29,540
+Além disso além de definir a cor e também a fonte pra dar fim à fonte.
+
+88
+00:07:29,540 --> 00:07:30,840
+Outra coisa importante.
+
+89
+00:07:31,290 --> 00:07:33,290
+Eu vou abrir aqui.
+
+90
+00:07:33,600 --> 00:07:41,420
+Fontes do junto com uma fonte que eu acho muito legal que uso hoje eu vou mostrar pra vocês Como é que
+
+91
+00:07:41,420 --> 00:07:44,080
+a gente pode usar uma fonte diferente.
+
+92
+00:07:44,110 --> 00:07:50,240
+Você pode escolher qualquer fonte sem problema eu goste da House hoje aqui vou usar nesse exemplo clicando
+
+93
+00:07:50,240 --> 00:07:52,700
+aqui na Fonte selecionada.
+
+94
+00:07:52,820 --> 00:07:56,360
+Você tem aqui o CSS para pegar a fonte.
+
+95
+00:07:56,800 --> 00:08:01,790
+Eu vou pagar apenas não vou pagar tudo porque isso aqui é pra uma página HTML.
+
+96
+00:08:01,820 --> 00:08:09,550
+Desenvolvimento para a web vou selecionar apenas o endereço https dois pontos Barra Barra antes do Google
+
+97
+00:08:09,560 --> 00:08:16,640
+API ponto com barra CSS interrogação frame igual ou os vou pegar.
+
+98
+00:08:16,640 --> 00:08:27,170
+Isso aqui vou copiar vou jogá la na minha aplicação onde tem aqui a cena principal cena principal ponto
+
+99
+00:08:27,170 --> 00:08:29,540
+Bet raio x.
+
+100
+00:08:29,690 --> 00:08:31,040
+Ponto adicional.
+
+101
+00:08:31,120 --> 00:08:38,410
+Em vez de adicionar um caminho D da minha aplicação ou adicionar esse caminho para pegar a fonte na
+
+102
+00:08:38,420 --> 00:08:47,340
+própria internet para automóveis que eu coloquei o RL que eu posso lá na minha meu CCS usar aqui ou
+
+103
+00:08:48,560 --> 00:08:52,420
+seria fonte traço frame.
+
+104
+00:08:52,790 --> 00:09:00,250
+Só que nesse caso é menos FX penetração FX traço font family 2 pontos vai ser a fonte Household que
+
+105
+00:09:00,250 --> 00:09:07,900
+é exatamente a mesma fonte que eu importei aqui ao copiar isso aqui e colocar o nome da fonte pra ser
+
+106
+00:09:08,170 --> 00:09:15,020
+escolhido posso colocar assim posso colocar fora sem problema algum pra gente esta obra vai estar funcionando
+
+107
+00:09:15,430 --> 00:09:20,420
+pois ele vai abrir a aplicação e vocês vão perceber que a fonte vai ser diferente.
+
+108
+00:09:21,000 --> 00:09:26,900
+Então tá bem claro eu vou até mudar a questão da cor agora a propriedade aqui para definir a cor da
+
+109
+00:09:26,900 --> 00:09:35,090
+fonte vai ser o FX traço Tex traço filtro pra enchimento do texto e uma propriedade diferente do que
+
+110
+00:09:35,090 --> 00:09:37,510
+a gente encontra no CSS que é o colo.
+
+111
+00:09:37,850 --> 00:09:45,620
+E aqui eu vou colocar que a fonte vai ser um cinza quase branco se eu for poderia colocar aqui o site
+
+112
+00:09:45,680 --> 00:09:46,750
+pra ser branca.
+
+113
+00:09:46,790 --> 00:09:55,840
+Como posso colocar o hashtag em FF é porque seria o branco se você conhece como a cor as cores RGB Red
+
+114
+00:09:56,300 --> 00:09:58,080
+e Blue são formadas.
+
+115
+00:09:58,190 --> 00:10:04,830
+Não pesquisa da Internet a primeira apresentava a quantidade de vermelho.
+
+116
+00:10:05,350 --> 00:10:09,810
+A segunda é o verde e a terceira o azul.
+
+117
+00:10:09,910 --> 00:10:14,980
+Em cima dessa composição de Red Blue Window você consegue formar as cores.
+
+118
+00:10:15,240 --> 00:10:19,060
+E se você colocar o cursor do mouse em cima ele vai mostrar para você que a cor branca.
+
+119
+00:10:19,060 --> 00:10:26,500
+Clicando aqui você pode escolher qualquer cor que você queira selecionando com você fecha automaticamente.
+
+120
+00:10:26,500 --> 00:10:30,460
+Ele vai colocar a cor específica que você selecionou aqui.
+
+121
+00:10:30,730 --> 00:10:34,750
+Então é uma vantagem que você tem colocando aqui ao azul.
+
+122
+00:10:34,940 --> 00:10:43,320
+E aí você pode empregar cores específicas da paleta de cores branco seleciona fecha e ele vai mostrar
+
+123
+00:10:43,320 --> 00:10:47,290
+que minha cor quase branco na foto do botão é aqui não sei quê.
+
+124
+00:10:47,770 --> 00:10:49,430
+Então pode ser.
+
+125
+00:10:49,960 --> 00:10:51,280
+FFF.
+
+126
+00:10:51,670 --> 00:10:55,230
+Ou seja LED dos dois primeiros é bom.
+
+127
+00:10:55,420 --> 00:11:06,580
+Quando você tem essas duas primeiras você tem valores repetidos por exemplo a b e c c essa cor aqui.
+
+128
+00:11:06,580 --> 00:11:11,620
+Se eu colocar aqui em cima você vai ver que essa cor assim cinza quase em quase cinza um pouquinho diferente
+
+129
+00:11:11,620 --> 00:11:12,310
+do cinza.
+
+130
+00:11:12,880 --> 00:11:20,970
+Então quando você tem repetido a B B e C C você pode colocar a b e c vai dar exatamente a mesma cor
+
+131
+00:11:21,160 --> 00:11:28,000
+porque as três letras têm repetido a b BCC atrás o que é uma forma de você fazer mais se eu quiser colocar
+
+132
+00:11:28,490 --> 00:11:36,770
+e quem quiser colocar completo vai c seis letras S o primeiro vai ser os dois relacionados a rede.
+
+133
+00:11:36,820 --> 00:11:41,690
+Depois o Green depois o Blue quer exatamente o R G B uma ação de cor.
+
+134
+00:11:41,690 --> 00:11:46,540
+Isso aqui tem muito a ver com o desenvolvimento paralelo como aqui a gente está usando isso toca a explicando
+
+135
+00:11:46,540 --> 00:11:49,210
+um pouco mais para quem nunca viu isso na vida.
+
+136
+00:11:49,270 --> 00:11:54,900
+Basicamente definindo a cor define a família e define a cor de Black Fraude.
+
+137
+00:11:54,980 --> 00:12:01,580
+Com isso a cor agora vai ter um contraste maior o qual seria o correspondente do Black para o RGB que
+
+138
+00:12:01,840 --> 00:12:12,880
+seria o 0 0 0 ou então 0 0 0 0 0 0 6 6 zeros e o preto e o fim já que é o número hexa decimal que vai
+
+139
+00:12:12,880 --> 00:12:14,300
+de 0 até o fim.
+
+140
+00:12:14,320 --> 00:12:17,990
+O FF é o branco e o 0 0 0 é o preto.
+
+141
+00:12:18,100 --> 00:12:24,890
+Eu também posso colocar aqui 0 0 0 já que tenho números repetidos e com isso está mais uma vez só para
+
+142
+00:12:24,890 --> 00:12:29,770
+a gente vê a cor do texto e também vê a cor.
+
+143
+00:12:29,770 --> 00:12:36,190
+Na verdade aquilo não mudou a cor do texto porque esse texto não está diretamente associado com o conteúdo
+
+144
+00:12:36,190 --> 00:12:43,840
+então vou fazer o seguinte eu vou criar que ao ponto de eu vir aqui no caso eu criei um formulário da
+
+145
+00:12:44,090 --> 00:12:46,360
+lei bom número.
+
+146
+00:12:46,540 --> 00:12:50,380
+Então eu vou criar aqui uma classe chamada número 1.
+
+147
+00:12:51,110 --> 00:13:01,170
+Vou colocar pra cá o número e vou associar dentro da lei bom número à classe número então colocar colocasse
+
+148
+00:13:01,200 --> 00:13:12,930
+na lei um número muito grande de estágio Class 8 Saná e aqui o nome da classe esse número fazendo agora
+
+149
+00:13:12,970 --> 00:13:19,690
+o teste vocês vão perceber que o número de arcar com a fonte bem mais clara agora ficou com a fonte
+
+150
+00:13:19,690 --> 00:13:23,250
+mais clara inclusive eu posso mexer no tamanho da fonte também.
+
+151
+00:13:23,700 --> 00:13:35,050
+Então aqui dentro eu vou colocar a seu FX traço uma fonte para acesso a sites tamanho da fonte ou colocar
+
+152
+00:13:35,050 --> 00:13:39,970
+que a fonte vai ter 22 pixels então executando mais uma vez.
+
+153
+00:13:39,970 --> 00:13:44,730
+Agora você vai ver que a fonte acaba em maio ou não sei exatamente o tamanho que define no planejamento
+
+154
+00:13:45,310 --> 00:13:47,800
+mas a gente muda se for o caso ficou bem maior.
+
+155
+00:13:48,220 --> 00:13:55,810
+A fonte do número deixou bem só quando foi que eu coloquei no caso do contador eu coloquei um pouco
+
+156
+00:13:55,810 --> 00:14:03,720
+maior que 28 anos e vou criar uma outra classe que vai ser a classe 1 título.
+
+157
+00:14:04,130 --> 00:14:11,570
+Título eu vou colocar essas mesmas duas propriedades aqui só que a cor que eu coloquei foi um azul.
+
+158
+00:14:11,590 --> 00:14:15,870
+Eu posso até escolher a cor na hora diferente do Planejamento.
+
+159
+00:14:16,120 --> 00:14:22,920
+Aqui nesse círculo é só você escolher um com quem você acha que é bonito depois é azul ok.
+
+160
+00:14:22,990 --> 00:14:31,030
+Automaticamente ele já coloca a cor aqui e o tamanho aqui do título vai ser esse e lá 36 pixels é pra
+
+161
+00:14:31,030 --> 00:14:41,060
+gente agora também associar o leigo ou pagar isso aqui coloca o contador que liga o título ou substitui
+
+162
+00:14:41,320 --> 00:14:43,580
+o título é aqui a classe.
+
+163
+00:14:43,590 --> 00:14:52,720
+Sem título traz dessa forma que a gente aplica estilo css na nossa aplicação temos temos agora um nome
+
+164
+00:14:52,720 --> 00:15:03,090
+e contador que está ficando mais interessante o nosso número 0 1 2 3 4 5 Acapulco vai aplicar o Chile
+
+165
+00:15:03,120 --> 00:15:07,920
+condicional para ele ficar verdinho ou vermelho de acordo com a lei também.
+
+166
+00:15:07,950 --> 00:15:10,680
+Vamos mexer no botão para que o botão possa ser redondo.
+
+167
+00:15:11,040 --> 00:15:16,650
+Então já fizemos uma parte e aprendemos na sala com um portal CSS dentro da nossa própria aplicação.
+
+168
+00:15:16,650 --> 00:15:24,780
+Como importar um CSS uma fonte à parte ou RL e também começamos a aplicar estilo na nossa aplicação
+
+169
+00:15:24,780 --> 00:15:31,560
+nas primeiras classes criamos uma classe por título criamos uma classe com o conteúdo criamos uma classe
+
+170
+00:15:31,560 --> 00:15:36,880
+para um número aumentamos a fonte e colocamos cores também na nossa aplicação.
+
+171
+00:15:36,950 --> 00:15:42,750
+Na próxima aulas vamos mexer no botão para colocar um botão redondo e um botão um pouco maior e também
+
+172
+00:15:42,750 --> 00:15:47,880
+aplicar o estilo condicional aqui no nosso valor numérico provavelmente o estilo condicional a deixar
+
+173
+00:15:47,880 --> 00:15:49,400
+para uma aula separada proximal.
+
+174
+00:15:49,410 --> 00:15:52,690
+Vamos mexer no botão só para não ficar muito gigantesca.
+
+175
+00:15:52,930 --> 00:15:58,180
+Essa aula mais gigantesca do que já está até agora então nos vemos na próxima aula.
+
+176
+00:15:58,180 --> 00:15:58,590
+E até lá.

@@ -1,0 +1,239 @@
+1
+00:00:00,440 --> 00:00:07,440
+Só para está que o nosso Deus oque nós implementamos na hora passada eu vou criar aqui um novo arquivo
+
+2
+00:00:08,160 --> 00:00:18,420
+que eu vou chamar de fechem vou criar aqui um método nem uma coisa legal desse nosso blog que não vai
+
+3
+00:00:18,420 --> 00:00:24,680
+mais jogar exceções do tipo SQL que serve que não vou mais preocupar com isso ao criar um B.O chamado
+
+4
+00:00:24,750 --> 00:00:27,540
+ou recebe dinheiro de alguém.
+
+5
+00:00:27,870 --> 00:00:36,390
+Eu vou chamar que não deu ao ponto inclui vou passar que o SQL eu vou criar aqui uma string chamada
+
+6
+00:00:36,390 --> 00:00:48,210
+SQL e recebe o nosso set então vou fazer o seguinte De Sanctis então pessoas vou colocar aqui a coluna
+
+7
+00:00:48,520 --> 00:00:51,780
+nome velhos os valores.
+
+8
+00:00:51,780 --> 00:00:53,340
+Vai ser um parâmetro.
+
+9
+00:00:53,820 --> 00:01:00,480
+Então eu espero pra conseguir inseri isso aqui no banco de dados eu preciso passar o SQL é preciso passar
+
+10
+00:01:00,480 --> 00:01:05,870
+o atributo por exemplo o nome que pode ser sei lá.
+
+11
+00:01:05,900 --> 00:01:19,470
+João da Silva tem muita criatividade com o nome não é bom duplicar ou triplicar ou colocar aqui.
+
+12
+00:01:19,490 --> 00:01:35,330
+Júlia vai ter que já uma pereira tal coisa escolhe no de estado onde ele terminou.
+
+13
+00:01:35,400 --> 00:01:41,730
+Aparentemente ele inseriu as pessoas aqui ao João da Silva Ana Júlia de João Pereira.
+
+14
+00:01:41,730 --> 00:01:48,000
+A gente pode pegar isso aqui e colocar dentro de um system Alt que vai ficar interessante porque ele
+
+15
+00:01:48,000 --> 00:01:50,740
+vai mostrar o Audi que foi retornado.
+
+16
+00:01:50,830 --> 00:02:01,020
+Então vou criar aqui mais dois System alguns são mais embaixo e vou pegar isso inclui jogar pra cá eu
+
+17
+00:02:01,020 --> 00:02:08,090
+vou pegar esse guri e jogar pra cá pra tirar esses dois filmes aqui.
+
+18
+00:02:08,430 --> 00:02:16,830
+Quando a gente executa agora você vai ver que ele vai colocá los ai diz o 114 115 116 a exatamente usar
+
+19
+00:02:16,830 --> 00:02:21,360
+isso que foi gerado foram gerados 114 115 116.
+
+20
+00:02:21,480 --> 00:02:26,550
+Se a gente quiser garantir por exemplo que não vai mais usar sinal a gente pode criar um método aqui
+
+21
+00:02:26,550 --> 00:02:33,930
+dentro um metro um público que vai ser responsável por fechar conexão com empresas públicas volte com
+
+22
+00:02:34,130 --> 00:02:43,170
+shows e a partir desse método com eu consigo vaga na conexão grande conexão ponto.
+
+23
+00:02:43,200 --> 00:02:49,630
+Com certeza esse método de conexão vai ter uma conexão válida da contratante.
+
+24
+00:02:49,860 --> 00:02:59,860
+No caso do ela independente de qualquer coisa aqui eu vou ter um farnel ali no Fale eu vou pegar conexão
+
+25
+00:02:59,880 --> 00:03:05,430
+recebe de tal forma que eu vou matar a conexão a partir desse método.
+
+26
+00:03:05,430 --> 00:03:14,230
+Então se eu quiser lá no meu teste ao chamar Kidal ponto clausus eu garanto que eu fechei a conexão.
+
+27
+00:03:14,220 --> 00:03:21,180
+Então você percebe a ideia aqui não é tanto mostrar uma implementação válida ou mais mostra a ideia
+
+28
+00:03:21,600 --> 00:03:29,610
+que você tem de criar e tirar um pouco essa responsabilidade daquele código de infra estrutura e colocar
+
+29
+00:03:29,610 --> 00:03:35,590
+isso dentro de um ideal ou encapsular essas chamadas de infra estrutura para que você consiga ter uma
+
+30
+00:03:35,630 --> 00:03:37,640
+chamadas de mais alto nível.
+
+31
+00:03:37,710 --> 00:03:44,530
+Aqui ainda tenho o acesso o SQL passa nos parâmetros mais é muito mais simples a chamada ao ponto incluído
+
+32
+00:03:44,770 --> 00:03:50,670
+passamos SQL e os parâmetros do que necessariamente precisar fazer aquilo que a gente tá fazendo nos
+
+33
+00:03:50,670 --> 00:03:55,030
+outros exemplos então só é encapsulado rapidamente olhando.
+
+34
+00:03:55,290 --> 00:04:02,160
+Nós criamos um método que é no SQL é uma lista de atributos passa mais de um atributo eu posso passar
+
+35
+00:04:02,160 --> 00:04:09,940
+então por exemplo aqui ou vamos supor que eu queira passar o código ou então colocar aqui o código vou
+
+36
+00:04:09,990 --> 00:04:18,720
+passar um segundo parâmetro aqui e vou passar um segundo parâmetro aqui ao código mil vou passar mil
+
+37
+00:04:19,880 --> 00:04:23,700
+e vou passar aqui 1002 então executado.
+
+38
+00:04:23,760 --> 00:04:31,220
+Você vai ver que ele gerou 1000 1001 1002 se a gente olhar ele realmente passou os parâmetros pra casa
+
+39
+00:04:31,220 --> 00:04:37,170
+ou tentar executar de novo vai dar problema de chave mas o fato é que a gente tá recebendo uma lista
+
+40
+00:04:37,170 --> 00:04:44,400
+de atributos e o SQL eu crio o testemunhos pedindo para ele retornar ao site as chaves geradas adicionam
+
+41
+00:04:44,460 --> 00:04:51,630
+os atributos aqui eu passo o estreitamento e a lista de atributos pra esse método privado aqui que vai
+
+42
+00:04:51,630 --> 00:04:57,740
+simplesmente percorrer cada um dos atributos detectam qual é o tipo nessa histria inicial inteiro se
+
+43
+00:04:57,750 --> 00:05:03,810
+é um W se é longo e tal excetuando os atributos corretos na ordem correta né.
+
+44
+00:05:03,800 --> 00:05:09,630
+Imaginando que você passou os atributos na ordem correta ele pega sim se vai se empregar incrementando
+
+45
+00:05:09,960 --> 00:05:16,860
+de tal forma que ele vai ser tantos atributos e finalmente a gente tem aqui o Apache de inserção na
+
+46
+00:05:16,860 --> 00:05:24,150
+gente verifica e executa o update verifica se foi realmente feito no Tibete se foi ele pega as chaves
+
+47
+00:05:24,150 --> 00:05:28,770
+geradas e retorna a chave gerada a partir desse método.
+
+48
+00:05:28,800 --> 00:05:35,580
+E caso contrário caso ele não consiga atualizar e nem tem a chave retornado ele vai tornar menos juros
+
+49
+00:05:36,000 --> 00:05:39,600
+ou então se der algum problema ele retorna à sessão de ontem.
+
+50
+00:05:40,080 --> 00:05:46,030
+Ou seja a forma de você usar é bem mais simples do que se você tivesse realmente implementado todas
+
+51
+00:05:46,040 --> 00:05:51,450
+suas chamadas dentro do código de negócio a ideia aqui como eu falei pra vocês é exatamente você ter
+
+52
+00:05:51,450 --> 00:05:59,550
+essa noção de que o D A ou seja o Data Access Object é um objeto que tem como objetivo encapsular toda
+
+53
+00:05:59,550 --> 00:06:05,640
+a complexidade de infra estrutura e acessar o banco de dados para que você possa ter métodos de mais
+
+54
+00:06:05,640 --> 00:06:10,860
+alto nível e você usar esses métodos dentro da sua aplicação de uma forma muito mais simples do que
+
+55
+00:06:10,860 --> 00:06:17,730
+você ficar misturando código de acesso a banco com código de regras de negócio então a idéia é exatamente
+
+56
+00:06:17,730 --> 00:06:23,660
+mostrar pra vocês muito mais do que dar um implementação mais mais digamos assim profissional desse
+
+57
+00:06:23,670 --> 00:06:25,240
+tipo de padrão de projeto.
+
+58
+00:06:25,340 --> 00:06:29,330
+A gente pode até revisitar isso depois em algum sistema que a gente vai fazer mais pra frente.
+
+59
+00:06:29,640 --> 00:06:34,980
+Mas por enquanto a ideia era mostrar o padrão que você tem mais ou menos ideia do que ele faz na próxima
+
+60
+00:06:34,980 --> 00:06:37,790
+aula a gente continua pra encerra o capítulo e ele espera lá.

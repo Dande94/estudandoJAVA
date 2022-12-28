@@ -1,0 +1,447 @@
+1
+00:00:00,450 --> 00:00:07,950
+Java é uma linguagem orientada a objeto inclusive esse é o paradigma ou seja a forma de pensar quando
+
+2
+00:00:07,950 --> 00:00:12,160
+você programa em Java e pensando orientada a objeto.
+
+3
+00:00:12,210 --> 00:00:18,470
+Esse paradigma essa forma de pensar está presente em praticamente tudo que a gente faz a linguagem está
+
+4
+00:00:18,660 --> 00:00:22,570
+muito difícil e um desafio digamos assim ensinar para você.
+
+5
+00:00:22,620 --> 00:00:29,220
+A base da linguagem sem antes falar de orientação objeto e na verdade eu vou deixar a orientação objeto
+
+6
+00:00:29,220 --> 00:00:30,170
+pouquinho pra depois.
+
+7
+00:00:30,170 --> 00:00:37,020
+São conceitos que requer um pouco mais de maturidade do código mas tem algumas coisas que fica difícil
+
+8
+00:00:37,020 --> 00:00:40,680
+de explicar sem que a gente faça alguma pincelada em cima.
+
+9
+00:00:40,680 --> 00:00:43,390
+Algumas coisas são importantes.
+
+10
+00:00:43,540 --> 00:00:50,800
+Uma dessas coisas importantes é a anotação de ponto G exclusivos hoje ela passará a ter usado já eu
+
+11
+00:00:50,810 --> 00:00:56,340
+quero só falar um pouquinho sobre ela para que você possa entender um pouquinho de como as coisas funcionam
+
+12
+00:00:56,340 --> 00:01:03,360
+e lá na frente a gente vai deixar tudo mais claro quando for falar dos conceitos e métodos classes e
+
+13
+00:01:03,360 --> 00:01:05,430
+coisas do tipo a mais em pauta.
+
+14
+00:01:05,430 --> 00:01:11,420
+Fala um pouco sobre essa caixa na anotação eu falei pra vocês numa aula passada que um programa Java
+
+15
+00:01:11,430 --> 00:01:18,450
+organizado em sentenças e código terminado com ponto e vírgula e blocos de código esses blocos agrupam
+
+16
+00:01:18,450 --> 00:01:26,010
+um conjunto de sentenças e o outro padrão também muito comum dentro do Java é a anotação ponto o ponto
+
+17
+00:01:26,010 --> 00:01:28,820
+ele é extremamente importante eu vou criar um exemplo aqui.
+
+18
+00:01:29,100 --> 00:01:34,710
+A gente vai discutir um pouquinho sobre esse exemplo pra falar um pouquinho sobre como o programa Java
+
+19
+00:01:34,710 --> 00:01:35,580
+e organizado.
+
+20
+00:01:35,580 --> 00:01:37,960
+Então vou clicar aqui.
+
+21
+00:01:38,030 --> 00:01:47,350
+Mil conhece o nome da classe C notação ponto aqui eu vou criar
+
+22
+00:01:50,360 --> 00:01:59,480
+dentro de um metro e meio eu vou criar aqui uma variável estranho chamada S e eu coloquei aqui bom dia
+
+23
+00:02:00,020 --> 00:02:03,050
+e coloquei um ponto depois entre aspas.
+
+24
+00:02:03,320 --> 00:02:08,030
+Quase tudo em Java são objetos existem algumas exceções que eu vou mencionar um pouco mais na frente
+
+25
+00:02:08,030 --> 00:02:08,880
+do curso.
+
+26
+00:02:09,130 --> 00:02:17,720
+Então string que é um texto delimitado por aspas duplas em Java é considerado um objeto e sempre que
+
+27
+00:02:17,830 --> 00:02:21,800
+tem um objeto Coragem gente coloca o objeto pronto.
+
+28
+00:02:21,860 --> 00:02:29,440
+Ele vai mostrar um conjunto de informações conjunto de coisas que podem ser dados como a gente falou
+
+29
+00:02:29,440 --> 00:02:34,950
+lá no começo e falou sobre algoritmos estruturas de dados essas coisas que aparece quando eu coloco
+
+30
+00:02:34,950 --> 00:02:40,210
+o ponto pode ser ou dados ou podem ser comportamentos o objeto em Java.
+
+31
+00:02:40,280 --> 00:02:46,910
+Ele é um misto não é uma junção de dados e comportamento mas na frente vou falar sobre isso mas por
+
+32
+00:02:46,910 --> 00:02:52,850
+enquanto eu quero focar na questão da anotação do ponto quando eu tenho um objeto e coloco o ponto ele
+
+33
+00:02:52,970 --> 00:02:58,040
+me dá um conjunto de funcionalidades ou de outros dados para eu trabalhar.
+
+34
+00:02:58,310 --> 00:03:05,970
+Então por exemplo no caso da histria uma das funcionalidades possíveis é ter um futuro chamado Ju Keys
+
+35
+00:03:06,260 --> 00:03:16,140
+que na verdade ele é um comportamento sempre que você vê aqui algum nome identificado ou identificado
+
+36
+00:03:16,140 --> 00:03:21,720
+ou segue exatamente aquele mesmo que ela mesma padrão aquela mesma convenção que eu falei pra você assim
+
+37
+00:03:21,740 --> 00:03:27,230
+começa com a letra minúscula e cada nova palavra tem a primeira letra maiúscula tá certo.
+
+38
+00:03:27,860 --> 00:03:34,010
+Então esse identificador ele é seguido por parênteses e de alguma forma isso quer dizer que isso é um
+
+39
+00:03:34,010 --> 00:03:40,880
+comportamento e esse comportamento como eu falei lá analogia algoritmo é um método ou seja um comportamento
+
+40
+00:03:40,960 --> 00:03:48,680
+pois ele recebe dados e ele retorna um dado e esse dado que retorna é justamente o que eu vou ter acesso.
+
+41
+00:03:48,680 --> 00:03:57,320
+Quando eu coloco o ponto eu vou ter um conjunto de comportamentos e estruturas de dados e dados que
+
+42
+00:03:57,320 --> 00:04:00,710
+dizem respeito ao que é esse comportamento.
+
+43
+00:04:00,710 --> 00:04:08,000
+Para que isso retorne sua pesquisa ele retorna também um extremo exatamente da mesma forma como essas
+
+44
+00:04:08,000 --> 00:04:15,950
+strings aqui e aí eu posso colocar uma outra funcionalidade aqui como por exemplo o replays certo colocar
+
+45
+00:04:16,150 --> 00:04:18,930
+replays dentro do replay isso eu vou dizer.
+
+46
+00:04:18,950 --> 00:04:24,760
+Substitua onde tem o interrogação que eu coloquei aqui.
+
+47
+00:04:24,840 --> 00:04:27,090
+Substitua pela palavra bicha.
+
+48
+00:04:27,270 --> 00:04:35,400
+Então eu coloquei um estilingue conto convertia a Extreme para a letra maiúscula que era essa primeira
+
+49
+00:04:35,400 --> 00:04:39,930
+estrela aqui e aí me retornou a estrela com letra maiúscula.
+
+50
+00:04:39,960 --> 00:04:50,730
+Substitua o interrogação Colmbia e finalmente faça ao concatenação com o interrogação deixou maximizar
+
+51
+00:04:50,730 --> 00:04:52,660
+aqui clicando duas vezes aqui.
+
+52
+00:04:52,920 --> 00:05:01,040
+Há um protocolo geral e aqui há uma sentença recolhe terminada com um ponto e vírgula parece bem confusa
+
+53
+00:05:01,050 --> 00:05:04,130
+porque tem vários pontos em várias partes aqui.
+
+54
+00:05:04,650 --> 00:05:10,860
+Mas na verdade se você entendeu a anotação e o ponto é bem simples o que eu tenho em mente aqui é o
+
+55
+00:05:10,860 --> 00:05:17,610
+estrito que é um objeto e vou falar sobre isso mais depois sei que eu coloco o ponto eu tenho acesso
+
+56
+00:05:17,700 --> 00:05:20,110
+a tudo aquilo que pertence ao objeto.
+
+57
+00:05:20,130 --> 00:05:23,880
+No caso da estilingue ele tem esse show para quê.
+
+58
+00:05:24,000 --> 00:05:29,910
+Ele retorna monstrinho como essa primeira só que com todas as letras maiúsculas e aí eu tenho acesso
+
+59
+00:05:30,450 --> 00:05:38,070
+a uma função chamada replay esse que substitui uma coisa por outra cara ele substitua o interrogação
+
+60
+00:05:38,070 --> 00:05:40,360
+que está aqui pela palavra Bia.
+
+61
+00:05:40,470 --> 00:05:48,870
+E no final ele vai concatenar o resultado dessa operação que é a estrela onde com letra maiúscula é
+
+62
+00:05:48,960 --> 00:05:55,070
+a interrogação substituída por Bia vai concatenar a exclamação.
+
+63
+00:05:55,070 --> 00:06:03,540
+E pra finalizar eu vou simplesmente imprimi na saída do sistema a variável S declarei que na linha 6
+
+64
+00:06:03,930 --> 00:06:08,340
+Note que aqui também eu também tenho a anotação pontuou System.
+
+65
+00:06:08,390 --> 00:06:12,920
+Ponto Audi ponto presente.
+
+66
+00:06:12,920 --> 00:06:18,280
+Ali você consegue perceber a diferença entre brinde ali e Audi.
+
+67
+00:06:18,280 --> 00:06:23,900
+A diferença básica é tirada a questão da cor e tal qual a diferença básica entre os dois.
+
+68
+00:06:23,920 --> 00:06:32,660
+A diferença básica é que ali tem os parênteses ou seja ele é um comportamento e o Audi não tem parentes
+
+69
+00:06:32,670 --> 00:06:34,740
+ele é um dado certo.
+
+70
+00:06:34,810 --> 00:06:43,420
+Falar mais sobre isso mas lá na frente o curso mais só pra ficar claro que você percebe que o Audi aqui
+
+71
+00:06:43,430 --> 00:06:50,430
+era diferente de sua pequenez e que tem parentes que fazem isto porque parece que tem parentes diferente
+
+72
+00:06:50,440 --> 00:06:57,640
+do cocares que tem parentes é diferente do parente Chiellini que tem uns parentes e depois todos esses
+
+73
+00:06:57,640 --> 00:07:09,060
+aqui pequenos replays com Kate e ali são comportamentos e o Audi já é um dado tão alto acessado.
+
+74
+00:07:09,270 --> 00:07:18,130
+é um comportamento que pertence ao Audi A8 e aqui dentro do carro coloquei ponto o primogênito pertence
+
+75
+00:07:18,170 --> 00:07:21,950
+ao Audi e o Audi pertence ao System.
+
+76
+00:07:21,970 --> 00:07:31,510
+A lógica de leitura é essa ou seja System é uma classe que possui esse Audi Audi e torna uma classe
+
+77
+00:07:31,510 --> 00:07:33,480
+que possui essa função.
+
+78
+00:07:33,490 --> 00:07:40,690
+A mesma coisa que aqui é um estilingue que possui esse comportamento que retornou a string que possuem
+
+79
+00:07:40,690 --> 00:07:47,080
+esse outro comportamento que retorna assim ao extremo oposto esse comportamento.
+
+80
+00:07:47,080 --> 00:07:52,510
+Ou seja você consegue encaixe a chamada atrás da outra embora pareça confuso.
+
+81
+00:07:52,630 --> 00:08:02,230
+No caso aqui com Kate ele aponta para o retorno décimo desse comportamento o Ripley se aponta para quem
+
+82
+00:08:02,230 --> 00:08:09,610
+foi retornado nesse comportamento e sua pesquisa aponta para estribo onde que foi definido aqui na linha
+
+83
+00:08:09,610 --> 00:08:11,310
+6 tranquilo.
+
+84
+00:08:11,350 --> 00:08:18,640
+é importante perceber você vai ver muita anotação nessa anotação ponto de você tem uma classe ou um
+
+85
+00:08:18,640 --> 00:08:19,370
+objeto.
+
+86
+00:08:19,380 --> 00:08:26,130
+Pois eu vou falar de férias na frente mais você tem aqui por exemplo System pontual de ponto pra.
+
+87
+00:08:26,210 --> 00:08:32,850
+Então sempre que você entender sabe que até um ponto eu tenho duas possibilidades ou até um dado a ter
+
+88
+00:08:32,860 --> 00:08:38,680
+um comportamento e o dado ele vem sem parênteses e o comportamento vem com um parêntese o fato é que
+
+89
+00:08:38,680 --> 00:08:45,160
+eu posso em há uma chamada atrás da outra como eu fiz de propósito aqui na linha 6 só pra mostrar isso
+
+90
+00:08:45,160 --> 00:08:46,120
+pra você.
+
+91
+00:08:46,150 --> 00:08:47,230
+Tá certo.
+
+92
+00:08:47,280 --> 00:08:54,160
+E isso tudo representou a única sentença de coelho a lei poderia separar isso várias centenas de código
+
+93
+00:08:54,170 --> 00:08:55,410
+Sim poderia.
+
+94
+00:08:55,420 --> 00:09:04,630
+Você poderia separar a primeira aqui botar um ponto e vírgula e aí depois você faria assim SBS.
+
+95
+00:09:05,410 --> 00:09:11,750
+Ou seja você pega o resultado e aí você bota um ponto e vírgula aqui e faz isso.
+
+96
+00:09:12,700 --> 00:09:20,480
+Essa é uma variável e então você pode pegar o resultado dessa expressão jogar S E você chama esse ponto
+
+97
+00:09:20,490 --> 00:09:24,770
+replay se substitui e assim substitui na mesma variável.
+
+98
+00:09:24,790 --> 00:09:30,790
+Mesma coisa você faz aqui substitui a mesma variável e no final você imprime avariado você poderia fazer
+
+99
+00:09:30,790 --> 00:09:31,370
+assim.
+
+100
+00:09:32,020 --> 00:09:38,290
+Mas eu resolvi fazer dessa forma pra que você possa perceber essa questão de concatenar e para que você
+
+101
+00:09:38,290 --> 00:09:44,950
+possa achar um pouco menos confuso mais lá na frente vai explicar o que é um método que são esses comportamentos
+
+102
+00:09:44,970 --> 00:09:50,390
+porque dos parênteses o que é que significa cada um dessas informações que estão dentro dos parentes
+
+103
+00:09:50,390 --> 00:09:51,650
+está certo.
+
+104
+00:09:51,670 --> 00:09:59,590
+E como é que o Metro retorna um valor o que significa a classe que é justamente esse sistema que eu
+
+105
+00:09:59,590 --> 00:10:05,170
+vou explicar tudo direitinho mas por enquanto é importante que você consiga conviver com essa anotação
+
+106
+00:10:05,170 --> 00:10:09,850
+em alguns momentos porque a gente vai estar usando ela antes mesmo de conceituar todas essas coisas
+
+107
+00:10:09,850 --> 00:10:16,330
+está certa e aí você ficar um pouco mais familiarizado com isso lá na frente quando eu fizer a explicação
+
+108
+00:10:16,390 --> 00:10:21,680
+foi o conhecimento vai digamos assim completar e vai ficar tudo mais claro pra você.
+
+109
+00:10:21,940 --> 00:10:30,100
+Então pra finalizar nós vamos executar o código contra o mafioso e o resultado vai ser bom dia.
+
+110
+00:10:30,280 --> 00:10:37,120
+Bia exatamente porque a gente colocou porquês substituiu a interrogação por Bia no final com capim novo
+
+111
+00:10:38,100 --> 00:10:42,370
+a exclamação no final da série um resultado.
+
+112
+00:10:42,370 --> 00:10:44,520
+Bom dia Bia com exclamação no final.

@@ -1,0 +1,695 @@
+1
+00:00:00,720 --> 00:00:06,810
+Agora nós vamos ver a diferença entre membros de classe e membros de instância ou seja os membros que
+
+2
+00:00:06,810 --> 00:00:11,390
+pertencem a um objeto criado e o valor está associado ao objeto criado.
+
+3
+00:00:11,430 --> 00:00:17,430
+O valor está associado à classe e essa é a diferença muito importante eu lembro que os alunos do presencial
+
+4
+00:00:17,430 --> 00:00:22,590
+tinham algumas dúvidas com relação a isso expliquei por exemplo há uma semana num sábado no outro na
+
+5
+00:00:22,590 --> 00:00:28,490
+outra semana no outro sala eu perguntava e eu sentia que não tinha o conceito não estava no fim.
+
+6
+00:00:28,500 --> 00:00:33,720
+A grande vantagem do custo humano é que você pode ver quantas vezes quiser aula e eu tenho certeza que
+
+7
+00:00:33,720 --> 00:00:35,250
+esse conceito vai ficar claro certo.
+
+8
+00:00:35,250 --> 00:00:35,850
+Então vou lá.
+
+9
+00:00:36,180 --> 00:00:41,640
+Inicialmente eu vou imaginar aqui que nós vamos criar uma classe que eu criei na verdade eu vou pegar
+
+10
+00:00:41,640 --> 00:00:44,300
+um exemplo que a gente já usou nesse capítulo.
+
+11
+00:00:44,300 --> 00:00:51,720
+Então por exemplo uma classe chamado Data a classe data tem três atributos tem um atributo dia tem um
+
+12
+00:00:51,720 --> 00:01:00,180
+atributo mês e tem um atributo ano quando você cria uma nova instância a data e pra isso você usa a
+
+13
+00:01:00,180 --> 00:01:03,390
+palavra reservada mil junto com o construtor.
+
+14
+00:01:03,780 --> 00:01:11,100
+Significa que você vai criar aqui uma instância desse lado essa instância vai ter alguns espaços para
+
+15
+00:01:11,100 --> 00:01:18,270
+que seja armazenado os valores no caso aqui eu tenho três atributos dia mais um ano e como o valor está
+
+16
+00:01:18,270 --> 00:01:25,080
+associado à instância por isso que eu digo que é um atributo de instância ou um atributo de objeto que
+
+17
+00:01:25,080 --> 00:01:31,560
+significa que para cada novo objeto criado eu vou ter um espaço de memória pra colocar o valor pra esse
+
+18
+00:01:31,560 --> 00:01:34,560
+atributo por exemplo se eu quero colocar aqui.
+
+19
+00:01:34,620 --> 00:01:40,230
+Vamos supor vou colocar Pessoa em vermelho que eu sei que é a instância dê certo cria uma instância
+
+20
+00:01:40,230 --> 00:01:40,570
+dele.
+
+21
+00:01:40,920 --> 00:01:42,280
+Então aqui dentro eu voltei.
+
+22
+00:01:42,300 --> 00:01:53,100
+Dia 3 o coloca aí é outra coisa provocamos juntos então dia 3 mês 10 é o ano 2020 ou seja se eu criar
+
+23
+00:01:53,100 --> 00:02:02,610
+uma nova instância que cria uma nova instância usando uniu ou seja eu vou ter um outro objeto aqui esse
+
+24
+00:02:02,610 --> 00:02:09,270
+outro objeto vai ter também três espaços pra colocar o valor e sei exatamente o dia o mês e um ano.
+
+25
+00:02:09,330 --> 00:02:13,220
+B por exemplo dia sétimo mês.
+
+26
+00:02:13,240 --> 00:02:19,800
+11 em 2023 e aqui por exemplo seria a minha data.
+
+27
+00:02:19,810 --> 00:02:20,450
+2.
+
+28
+00:02:20,470 --> 00:02:27,570
+Certo Ou seja para cada nova instância que eu crio os valores estarão associados à instância e aí a
+
+29
+00:02:27,570 --> 00:02:29,600
+pergunta que vai surgir é o seguinte leu.
+
+30
+00:02:29,940 --> 00:02:36,540
+Então qual é a diferença de eu ter um atributo de classe A diferença é o seguinte se você vem aqui e
+
+31
+00:02:36,660 --> 00:02:45,350
+sei que o dia não é mais um atributo de instância e você coloca a palavra estático e estático.
+
+32
+00:02:45,570 --> 00:02:53,670
+E aí você coloca um atributo por exemplo um atributo dia que significa que no momento que você usa essa
+
+33
+00:02:53,670 --> 00:03:00,900
+palavra que está aqui você está dizendo que o atributo ou seja o valor do atributo pertence à classe.
+
+34
+00:03:01,350 --> 00:03:07,710
+Ou seja agora eu não votei no valor individual para cada instância ou seja eu vou ter apenas um único
+
+35
+00:03:07,710 --> 00:03:12,600
+valor e esse valor estará associado à classe e não a cada uma das instâncias.
+
+36
+00:03:12,990 --> 00:03:19,110
+Então o momento que eu transformei não faz muito sentido do ponto de vista de lógica certo nesse cenário
+
+37
+00:03:19,120 --> 00:03:25,860
+aqui da data você tem um dia como sinal um estágio mais para mostrar que o momento que eu transformo
+
+38
+00:03:26,100 --> 00:03:32,970
+o dia pra ser estático significa que lá na instância eu não vou ter um valor associado a um dia e nem
+
+39
+00:03:32,970 --> 00:03:39,600
+vou ter um valor associado ao dia aqui o que significa que eu tenho o mês associado à instância o ano
+
+40
+00:03:39,600 --> 00:03:46,620
+associado à instância mais um dia ele estará apenas o valor associado à classe.
+
+41
+00:03:46,740 --> 00:03:53,070
+Já que o valor estará associado à classe de pagar aqui essa linha 7 vai aumentar um pouquinho aqui o
+
+42
+00:03:53,070 --> 00:04:01,170
+tamanho da classe é certo e vou cortar um pouquinho aqui essas duas setas fazem a seta menor para cá
+
+43
+00:04:01,550 --> 00:04:02,970
+e fazer acerta uma pra cá.
+
+44
+00:04:03,090 --> 00:04:11,690
+Então já que o valor está associado à classe aqui dentro eu vou colocar dia recebe o valor por exemplo.
+
+45
+00:04:11,690 --> 00:04:19,470
+3 Isso significa automaticamente como o valor agora pertence à classe e não mais à instância todas as
+
+46
+00:04:19,470 --> 00:04:26,850
+instâncias terão o dia 3 porque eu só tem um único valor e esse valor estará associado à classe.
+
+47
+00:04:26,940 --> 00:04:29,720
+Então em outras palavras se resumia o conceito.
+
+48
+00:04:29,720 --> 00:04:38,150
+Quando você tem uma classe e dentro dessa classe você tem um atributo a um atributo bem um atributo
+
+49
+00:04:38,160 --> 00:04:38,930
+sei.
+
+50
+00:04:39,040 --> 00:04:46,980
+Esses atributos são distância o que significa que para cada nova instância criado então você vai ter
+
+51
+00:04:46,980 --> 00:04:51,640
+aqui uma instância ou outra instância três instâncias.
+
+52
+00:04:51,660 --> 00:04:58,350
+Aqui dentro você vai ter o valor associado a cada um desses atributos então tem um valor associado ao
+
+53
+00:04:58,350 --> 00:05:05,790
+primeiro um valor só segundo o valor só será o terceiro a mesma coisa para cada um das instâncias.
+
+54
+00:05:05,830 --> 00:05:08,520
+Ou seja se você tivesse instâncias você vai ter.
+
+55
+00:05:08,690 --> 00:05:13,050
+Cada instância com os três valores que você definiu aqui na classe.
+
+56
+00:05:13,360 --> 00:05:16,950
+Então aqui em cima nós temos a assim.
+
+57
+00:05:17,800 --> 00:05:24,860
+E aqui nós temos os objetos ou as instâncias objetos e aqui nós temos a classe.
+
+58
+00:05:24,940 --> 00:05:30,990
+Se eu disser que esse primeiro aqui vai passar a ser estático então vou lá macaquinho vermelhinho isso
+
+59
+00:05:31,000 --> 00:05:38,230
+aqui significa que ele vai ser estático automaticamente o valor que está associado à instância já não
+
+60
+00:05:38,230 --> 00:05:44,770
+vai mais estar na instância e o valor estará associado aqui ou seja o valor estará dentro da classe
+
+61
+00:05:45,100 --> 00:05:50,080
+o que significa que para aquela classe eu vou ter apenas uma única cópia desse valor.
+
+62
+00:05:50,430 --> 00:05:57,330
+E esse valor pode ser usado pelas instâncias pode ser acessado pelas instâncias mas é uma única cópia.
+
+63
+00:05:57,490 --> 00:06:01,880
+Então se você alterar o valor de um atributo que pertence à classe.
+
+64
+00:06:02,230 --> 00:06:07,690
+Esse atributo está sendo compartilhado com todas as instâncias até porque ele só tem um único valor
+
+65
+00:06:07,960 --> 00:06:09,070
+para aquela classe.
+
+66
+00:06:09,430 --> 00:06:15,850
+Então em outras palavras você está alterando o atributo para todos as instâncias porque só tem uma única
+
+67
+00:06:15,850 --> 00:06:16,380
+cópia.
+
+68
+00:06:16,480 --> 00:06:22,120
+Imagine a situação que você tem um atributo que ele precisa ser exatamente o mesmo para todas as instâncias
+
+69
+00:06:22,120 --> 00:06:25,950
+criadas então não faz sentido você tem exatamente o mesmo atributos.
+
+70
+00:06:25,950 --> 00:06:31,570
+Então um exemplo prático disso imagine que você criou aqui uma classe.
+
+71
+00:06:31,860 --> 00:06:34,090
+Ora a classe A e B de outrora azul tem problema.
+
+72
+00:06:34,150 --> 00:06:43,690
+Então você criou uma classe chamada classe me f dentro da classe média você criou um atributo de instância
+
+73
+00:06:43,840 --> 00:06:50,990
+certo chamado PI então você criou um atributo o Cáucaso não coloca na classe B então veja que você criou
+
+74
+00:06:50,990 --> 00:06:58,750
+um atributo chamado PI e esse atributo tem um valor ou padrão de três pontos 14 mas como você não disse
+
+75
+00:06:58,750 --> 00:07:00,610
+que esse atributo pertence à classe.
+
+76
+00:07:00,970 --> 00:07:08,740
+A cada nova instância da classe média você vai querer ter uma cópia do valor de pi então como bem da
+
+77
+00:07:08,740 --> 00:07:14,590
+classe vai ter um valor associado a esse atributo de instância que pertence à instância.
+
+78
+00:07:14,590 --> 00:07:17,600
+Significa que aqui eu vou ter o número 3.
+
+79
+00:07:17,650 --> 00:07:23,320
+Ponto 14 eu vou ter o número 3 ponto 14 e o número 3.
+
+80
+00:07:23,320 --> 00:07:24,480
+Ponto 14.
+
+81
+00:07:24,790 --> 00:07:34,520
+Todos associados ao valor de pi então aqui eu votei fi igual a isso que é igual a isso pi é igual a
+
+82
+00:07:34,510 --> 00:07:41,360
+isso certo ou seja você tem exatamente o mesmo valor o mesmo valor que os três objetos.
+
+83
+00:07:41,450 --> 00:07:41,850
+Quê.
+
+84
+00:07:41,860 --> 00:07:48,010
+Porque você disse que o PI pertence à instância alelo então quer dizer se eu tiver mil instâncias da
+
+85
+00:07:48,010 --> 00:07:55,960
+classe média eu vou ter mil cópias da variável Pi constante Piceno que o PI não muda ele não vai variar
+
+86
+00:07:55,960 --> 00:08:02,050
+ele é exatamente o mesmo e não faz sentido você ter esse valor duplicado ou triplicado ou multiplicado
+
+87
+00:08:02,050 --> 00:08:09,400
+por mil vezes aí na memória sendo que é exatamente o mesmo valor ou seja nesse caso faz muito mais sentido
+
+88
+00:08:09,730 --> 00:08:16,960
+você pegar esse valor de B e aplicar a palavra em estádio que eu vou colocar na reta que não é mais
+
+89
+00:08:18,100 --> 00:08:27,540
+estática ou seja o B sendo estático significa que agora o valor associado ao BI estará associado à classe
+
+90
+00:08:27,760 --> 00:08:29,320
+e não à instância.
+
+91
+00:08:29,470 --> 00:08:36,880
+Ou seja eu posso apagar o valor de pi dessa instância possa pagar o valor dessa instância possa apagar
+
+92
+00:08:36,900 --> 00:08:41,500
+o valor de vida Assistance porque o valor ele pertence à classe.
+
+93
+00:08:41,500 --> 00:08:48,190
+O fato de eu marcar um atributo como estático faz com que o valor que antes era associado a cada uma
+
+94
+00:08:48,190 --> 00:08:53,620
+das instâncias passem a pertencer apenas à classe ao molde.
+
+95
+00:08:53,890 --> 00:09:02,290
+E a gente já viu se eu tenho uma classe em produto certo uma classe produto a partir dessa classe eu
+
+96
+00:09:02,290 --> 00:09:09,190
+consigo criar quantas instâncias de produto eu quiser e então vou ter aqui vários produtos criados a
+
+97
+00:09:09,190 --> 00:09:10,280
+partir da classe.
+
+98
+00:09:10,660 --> 00:09:19,410
+Em outras palavras nós temos uma classe certo pra criar em objetos.
+
+99
+00:09:19,860 --> 00:09:22,110
+Então nós temos uma única classe.
+
+100
+00:09:22,140 --> 00:09:29,220
+Nós temos um objeto ou seja se eu transforma atributo pra estático que antes ele tinha uma cópia do
+
+101
+00:09:29,220 --> 00:09:36,270
+valor pra cada objeto passou a ter apenas uma única cópia associado à classe ou seja esse valor será
+
+102
+00:09:36,270 --> 00:09:40,560
+compartilhado por todas as instâncias daquele tipo daquela classe.
+
+103
+00:09:40,560 --> 00:09:45,960
+Por último só colocando aqui uma observação por exemplo vamos supor que eu crio uma data.
+
+104
+00:09:46,420 --> 00:09:51,600
+Então criou aqui data base 100 recebe.
+
+105
+00:09:51,970 --> 00:10:00,520
+Vou criar aqui e eu vou chamar aqui data Ponto e Vírgula agora eu vou fazer o seguinte já deu.
+
+106
+00:10:00,810 --> 00:10:05,440
+E aí eu chamo o ponto de acesso a atributo por exemplo dia.
+
+107
+00:10:05,790 --> 00:10:14,520
+Então faço dia recebe o valor por exemplo 7 e termina com ponto e vírgula o meu relate que está tudo
+
+108
+00:10:14,670 --> 00:10:15,770
+certo mas tudo bem.
+
+109
+00:10:15,970 --> 00:10:18,560
+Então vou lá deu um ponto dia recebe 7.
+
+110
+00:10:18,570 --> 00:10:26,910
+Nesse caso eu precisei criar uma instância aqui ou instância pra só a partir dessa instância eu consegui
+
+111
+00:10:27,000 --> 00:10:31,640
+acessar a variável um dia pouco e pouco quem dia pertence a instância.
+
+112
+00:10:31,680 --> 00:10:38,900
+Ou seja você só consegue acessar um membro de instância no momento que você cria uma instância certa
+
+113
+00:10:38,970 --> 00:10:46,170
+ou seja você precisa instancia um objeto para a partir desse objeto você acessar a variável que eu fiz
+
+114
+00:10:46,170 --> 00:10:46,580
+aqui.
+
+115
+00:10:46,620 --> 00:10:54,200
+Eu tenho um tipo data criei uma instância dei um precisei instancia um novo objeto e atribui a d um
+
+116
+00:10:54,630 --> 00:11:00,590
+só a partir do que eu consigo deu no que eu consigo acessar o atributo dia.
+
+117
+00:11:00,870 --> 00:11:06,990
+Quando eu defino que por exemplo vou criar aqui o código então vou criar aqui tudo em para ficar mais
+
+118
+00:11:06,990 --> 00:11:17,310
+simples na classe chamada março e abro as minhas chaves aqui dentro eu vou definir um atributo por exemplo
+
+119
+00:11:18,680 --> 00:11:30,910
+estáticos vou chamar aqui atributo de TI e colocar o valor do atributo pra c 3 ponto 14 ponto e vírgula.
+
+120
+00:11:31,030 --> 00:11:36,020
+Ou seja pronto acabei de criar uma classe que tem um atributo estático.
+
+121
+00:11:36,010 --> 00:11:44,010
+Nesse caso eu não preciso criar uma nova instância de MF Eu não preciso deixar só pagar aqui.
+
+122
+00:11:44,310 --> 00:11:49,110
+Isso aqui eu vou pagar isso aqui vou colocar um pouquinho menor pra outra classe mais minha até aqui
+
+123
+00:11:49,120 --> 00:11:52,470
+certa que é um Chaves aqui pra mim outra chave está.
+
+124
+00:11:52,840 --> 00:12:05,680
+Então lá eu não preciso fazer isso não preciso criar MERDA EM MIM recebe e eu neve pra uma vez que é
+
+125
+00:12:05,680 --> 00:12:13,870
+um ponto e vírgula serve pra uma vez que eu tenho uma instância criada fazei em mim ponto p alguma coisa
+
+126
+00:12:13,870 --> 00:12:21,190
+One ponto P vezes 2 é alguma coisa do tipo certo ou pegar o resultado disso e jogar numa variável por
+
+127
+00:12:21,190 --> 00:12:23,720
+exemplo sei lá.
+
+128
+00:12:23,800 --> 00:12:25,800
+E aqui já faltou foi o tipo também né.
+
+129
+00:12:25,860 --> 00:12:32,630
+E aqui em cima já faltou tipo o que eu notei então é melhor daqui pra ca dizer que o PIB aqui é bom.
+
+130
+00:12:33,070 --> 00:12:37,980
+Vou colocar aqui por acaso tá bom.
+
+131
+00:12:38,020 --> 00:12:38,430
+Pronto.
+
+132
+00:12:38,430 --> 00:12:40,940
+Tem um Estado que dá bom tipo é importante né.
+
+133
+00:12:40,940 --> 00:12:46,210
+Esqueci o nome da variável e o valor e esse valor está associado à classe.
+
+134
+00:12:46,210 --> 00:12:52,630
+Nesse caso não preciso como eu estava dizendo eu não preciso criar uma instância pra parte dessa instância
+
+135
+00:12:52,720 --> 00:12:57,000
+acessar os operado com outra variável p não como é que eu faço.
+
+136
+00:12:57,010 --> 00:12:58,190
+Então pra acessar.
+
+137
+00:12:58,420 --> 00:13:05,200
+Nesse caso eu posso acessar diretamente pela classe sem criar instância eu posso simplesmente fazer
+
+138
+00:13:05,200 --> 00:13:15,250
+aqui aquilo System ponto Alt Print se eu quiser imprimir o valor de pi e aqui dentro dos parênteses
+
+139
+00:13:15,710 --> 00:13:25,510
+eu posso fazer simplesmente assim ao ponto P que amarelinho ponto.
+
+140
+00:13:25,750 --> 00:13:33,580
+Ou seja diretamente a partir da classe 1 eu uso a anotação ponto ou até colocar o ponto aqui mais forte
+
+141
+00:13:33,870 --> 00:13:40,930
+acesso p porque sei porque eu posso acessar diretamente pela classe ou seja pela classe eu acesso aqui
+
+142
+00:13:41,200 --> 00:13:47,380
+porque eu marquei o membro como estático seríssimo membro pertencente à classe em outras palavras eu
+
+143
+00:13:47,380 --> 00:13:55,690
+não preciso criar uma nova instância para a partir da instância eu acessar a variável dia 7 aqui no
+
+144
+00:13:55,690 --> 00:13:58,530
+caso qualquer dia uma variável de instância.
+
+145
+00:13:58,660 --> 00:14:05,950
+No caso com essa variável estática eu posso acessar diretamente usando a classe classe e ponto o nome
+
+146
+00:14:05,950 --> 00:14:06,920
+do membro.
+
+147
+00:14:06,990 --> 00:14:12,580
+Lembre se o método é estático o seu metro estático você pode acessar diretamente pela classe em nome
+
+148
+00:14:12,580 --> 00:14:13,390
+da classe.
+
+149
+00:14:13,400 --> 00:14:14,020
+Ponto.
+
+150
+00:14:14,080 --> 00:14:20,650
+O nome do método certo assim como você pode criar atributos estáticos você também pode criar métodos
+
+151
+00:14:20,650 --> 00:14:21,630
+estáticos.
+
+152
+00:14:21,670 --> 00:14:22,830
+Então essa é a teoria.
+
+153
+00:14:22,840 --> 00:14:30,520
+Você entendeu quando eu marco algo como estático automaticamente aquele método ou aquele atributo ele
+
+154
+00:14:30,520 --> 00:14:32,390
+vai pertencer à classe.
+
+155
+00:14:32,730 --> 00:14:38,620
+E o impacto maior não é tanto no método embora o método faça diferença sim porque esse é um método de
+
+156
+00:14:38,620 --> 00:14:39,730
+instância.
+
+157
+00:14:39,730 --> 00:14:43,070
+Você só pode chamar aquele método a partir de um instante.
+
+158
+00:14:43,130 --> 00:14:49,150
+Esse é um metro de classe você pode também chamar um metro diretamente a partir da classe mas o maior
+
+159
+00:14:49,150 --> 00:14:55,830
+impacto será nos atributos porque o valor do atributo vai passar da instância para a classe ou seja
+
+160
+00:14:55,840 --> 00:15:02,200
+você acabou de perder várias áreas de memórias que eram reservadas ou dedicadas para cada objeto ou
+
+161
+00:15:02,200 --> 00:15:06,630
+seja cada objeto tinha seu próprio valor como você Marco estático.
+
+162
+00:15:06,710 --> 00:15:12,450
+Esse valor vai ser migrado para a única área de memória que pertence à classe.
+
+163
+00:15:12,580 --> 00:15:17,290
+Ou seja você vai ter apenas uma única cópia do valor associado àquele atributo.
+
+164
+00:15:17,290 --> 00:15:23,810
+Nesse caso o QI do Marfim você vai ter apenas um único bit associado à classe Marfim porque ele é estático
+
+165
+00:15:23,830 --> 00:15:24,940
+se não fosse estático.
+
+166
+00:15:24,940 --> 00:15:30,240
+Para cada nova instância você precisaria ter uma cópia digamos assim do PIB.
+
+167
+00:15:30,230 --> 00:15:35,590
+Isso ocuparia mais memória exceto quando você tem dados que não precisam pertencer à instância você
+
+168
+00:15:35,590 --> 00:15:37,000
+pode marcar como estático.
+
+169
+00:15:37,330 --> 00:15:43,600
+Mas eu diria que a grande maioria dos atributos das variáveis não pertence ao objeto porque cada objeto
+
+170
+00:15:43,600 --> 00:15:44,860
+vai ter sua própria cópia.
+
+171
+00:15:44,860 --> 00:15:48,030
+Esse é o padrão quando você não informa nada.
+
+172
+00:15:48,030 --> 00:15:50,030
+Esse é o comportamento que vai acontecer.
+
+173
+00:15:50,280 --> 00:15:53,230
+Mas você também tem à sua disposição a palavra estático.
+
+174
+00:15:53,390 --> 00:15:56,680
+E nas próximas aulas nós vamos começar bem isso na prática para lá.

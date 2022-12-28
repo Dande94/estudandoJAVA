@@ -1,0 +1,663 @@
+1
+00:00:00,220 --> 00:00:07,890
+Pessoal nós vamos agora criar dentro do nosso projeto épico traço cálculo uma classe bem simples para
+
+2
+00:00:07,890 --> 00:00:13,260
+que a gente possa usar o código a partir do outro projeto que é o EP financeiro.
+
+3
+00:00:13,710 --> 00:00:20,880
+Então eu vou definir aqui os pacotes como sendo pacotes mais realistas mais próximos do que a gente
+
+4
+00:00:20,880 --> 00:00:22,010
+encontra na realidade.
+
+5
+00:00:22,020 --> 00:00:28,520
+Então vou colocar aqui br Um ponto com ponto com o nome da empresa ponto.
+
+6
+00:00:28,590 --> 00:00:35,700
+OP Que seria o nome genérico da minha aplicação pode ser qualquer nome fenix sei lá o nome da sua aplicação
+
+7
+00:00:35,700 --> 00:00:36,370
+certo.
+
+8
+00:00:36,520 --> 00:00:44,580
+E aqui o nome do pacote ponto calculo que seria basicamente o nome da empresa em nome do projeto e o
+
+9
+00:00:44,580 --> 00:00:50,840
+nome do módulo daquele projeto não necessariamente o nome do pacote precisa ser exatamente o nome do
+
+10
+00:00:50,850 --> 00:00:57,650
+módulo dentro de um único projeto pode ter muitos pacotes diferentes todos estarão dentro do mesmo modo
+
+11
+00:00:57,820 --> 00:01:02,660
+que é exatamente o que está sendo descrito aqui dentro do Módulo II traço ponto Java.
+
+12
+00:01:02,760 --> 00:01:08,090
+Então no momento que eu estou gravando esse vídeo você pode ter um módulo por projeto.
+
+13
+00:01:08,090 --> 00:01:10,800
+O módulo por arquivo já está certo.
+
+14
+00:01:10,830 --> 00:01:16,190
+Se no futuro eles não permite ter mais um módulo dentro de um único projeto eu não sei mais.
+
+15
+00:01:16,200 --> 00:01:23,790
+Hoje você coloca um arquivo módulo traço e ponto Java diretamente dentro dessa área sei todos os pacotes
+
+16
+00:01:23,790 --> 00:01:29,370
+que estarão dentro de SC pertencerão a esse módulo que foi declarado dentro desse arquivo.
+
+17
+00:01:29,370 --> 00:01:36,150
+Uma vez definido aqui o pacote NB ponto concorda ponto e ponto calculo eu vou colocar aqui o nome da
+
+18
+00:01:36,150 --> 00:01:44,970
+classe que eu vou implementar aqui vai ser a classe calculadora e vou definir também um outro pacote
+
+19
+00:01:44,970 --> 00:01:54,090
+aqui dentro que vai ser um pacote desse fim uma ou outra classe chamada Operações operações
+
+20
+00:01:55,860 --> 00:02:03,380
+aritméticas e eu vou colocar essa classe especificamente dentro de um pacote que eu vou chamar de interna.
+
+21
+00:02:03,810 --> 00:02:09,720
+Imagine que o pacote interno só para representar essa necessidade que você tem que ter pacotes que não
+
+22
+00:02:09,720 --> 00:02:15,120
+serão visíveis fora do módulo e pacotes que serão visíveis fora do molde.
+
+23
+00:02:15,120 --> 00:02:21,270
+Então imagine que eu tenho aqui operações aritméticas como sendo a face interna uma classe que não é
+
+24
+00:02:21,270 --> 00:02:26,860
+pra ser visível fora do módulo e calculadora como cena clássica pra ser visível fora de moda.
+
+25
+00:02:27,270 --> 00:02:33,830
+Então aqui no centro de operações aritméticas eu vou criar apenas uma única função pública então você
+
+26
+00:02:33,890 --> 00:02:45,950
+que publica NW a função soma eu vou receber um conjunto aqui de bolso porque eu vou chamar aqui nãos
+
+27
+00:02:46,170 --> 00:02:54,060
+de números e aqui dentro nós vamos fazer o cálculo pra retornar números do tipo W pra gente fazer isso
+
+28
+00:02:54,090 --> 00:03:03,420
+a gente pode usar o seguinte lá dentro diarréias da classe a raiz a raiz Java contudo tem a possibilidade
+
+29
+00:03:03,420 --> 00:03:06,250
+de você chamar que misturem e passá la.
+
+30
+00:03:06,330 --> 00:03:11,550
+Ele vai transformar isso num estúdio transformando no instruindo você tem a possibilidade de chamar
+
+31
+00:03:11,730 --> 00:03:20,020
+o Windows como a gente já viu anteriormente passa um valor inicial 0 e faz uma operação de soma auxilio
+
+32
+00:03:20,040 --> 00:03:25,640
+quero reduzir todo o meu rei em um único número que representa a soma de cada um deles.
+
+33
+00:03:25,680 --> 00:03:33,180
+Então aqui dentro eu passo um lâmina que seria o total e o numero atual simplesmente atual e aqui eu
+
+34
+00:03:33,180 --> 00:03:40,020
+vou somar o total mais o atual começando com o zero que é o meu valor inicial ele vai passar por cada
+
+35
+00:03:40,020 --> 00:03:45,750
+um dos números e soma e ele pega o zero que é o primeiro e então um total zero com o primeiro item da
+
+36
+00:03:45,750 --> 00:03:49,360
+lista ele vai somando até que no final ele tem o Estado total.
+
+37
+00:03:49,380 --> 00:03:55,620
+Então essa é a implementação do meu método soma dentro de operações aritméticas lá em calculadora eu
+
+38
+00:03:55,620 --> 00:04:06,560
+vou fazer o seguinte vou declarar que operações com operações não aparecia em operações aritméticas.
+
+39
+00:04:06,580 --> 00:04:12,800
+Escrevi alguma coisa errada então é faturar clássico então aqui
+
+40
+00:04:16,390 --> 00:04:30,450
+nem me coloca aqui ao pé sobre as operações aritméticas ou finalizar não deixou eu mudar porque provavelmente
+
+41
+00:04:30,450 --> 00:04:33,130
+eu tô usando Michel comentário.
+
+42
+00:04:33,600 --> 00:04:45,450
+Pronto vou limpar isso eu vou fazer a mesma coisa infecto Enemy opera sonhos aritméticas.
+
+43
+00:04:45,450 --> 00:04:46,140
+Pronto.
+
+44
+00:04:46,170 --> 00:04:56,400
+Agora mudou e agora posso usar aqueles trailers de operações aritméticas vou declarar aqui como sei
+
+45
+00:04:56,510 --> 00:05:07,450
+lá obter aritmética e operações aritméticas móveis ou declarando aqui a minha variável.
+
+46
+00:05:07,450 --> 00:05:10,180
+Existe uma possibilidade que você clicar aqui.
+
+47
+00:05:10,190 --> 00:05:17,060
+Conto com uma de Audi e assim ou mesmo contra o Audi é assim que a gente usa para gerar os métodos de
+
+48
+00:05:17,070 --> 00:05:18,330
+7 e tal.
+
+49
+00:05:18,410 --> 00:05:23,550
+Aqui tem uma possibilidade que é você criar Generation do elegante método.
+
+50
+00:05:23,560 --> 00:05:24,290
+O que é isso.
+
+51
+00:05:24,320 --> 00:05:32,230
+E você simplesmente criar um método dentro dessa classe que só faz chamar um metro de outra classe então
+
+52
+00:05:32,230 --> 00:05:38,500
+acabei de criar um método somar aqui que simplesmente chamo o método Somália operações aritméticas passando
+
+53
+00:05:38,830 --> 00:05:44,260
+os mesmos parâmetros e tornam na mesma coisa ele vai simplesmente delegar a execução desse método para
+
+54
+00:05:44,260 --> 00:05:51,430
+a outra classe uma vez que você tem um atributo que tem determinados metros você usa essa opção para
+
+55
+00:05:51,430 --> 00:05:56,620
+delegar na elegante método ele vai mostrar para vocês todos os métodos que estão disponíveis e você
+
+56
+00:05:56,620 --> 00:05:59,790
+pode simplesmente clicar no botão.
+
+57
+00:05:59,800 --> 00:06:02,980
+Ele cria os métodos para delegar a execução.
+
+58
+00:06:02,980 --> 00:06:09,340
+Então pronto eu estou fazendo isso basicamente eu quero só criar duas classes uma onde vai ter implementação
+
+59
+00:06:09,340 --> 00:06:11,740
+real e essa classe interna.
+
+60
+00:06:11,740 --> 00:06:14,980
+Eu não quero tornar ela visível fora do módulo.
+
+61
+00:06:15,060 --> 00:06:21,160
+Eu criei uma outra classe qualquer que usa essa classe interna e essa sim vai ser exposta para fora
+
+62
+00:06:21,160 --> 00:06:21,650
+do modo.
+
+63
+00:06:21,760 --> 00:06:28,080
+Obviamente que eu estou criando um exemplo um pouco menos realista do ponto de vista de negócio mais
+
+64
+00:06:28,080 --> 00:06:30,910
+que é realista do ponto de vista do que acontece na prática.
+
+65
+00:06:30,910 --> 00:06:38,590
+Você tem classes que implementam funcionalidades internas dentro de um projeto e classes que serão expostas
+
+66
+00:06:38,590 --> 00:06:43,210
+ou estarão visíveis para fora daquele modo exatamente o que eu quero simular aqui.
+
+67
+00:06:43,270 --> 00:06:44,900
+Pronto criei isso.
+
+68
+00:06:44,900 --> 00:06:47,440
+E aí eu vou lá no meu modelo financeiro.
+
+69
+00:06:47,480 --> 00:06:54,320
+Vou criar aqui uma classe teste então vou criar aqui uma classe de feche para usar esses arquivos e
+
+70
+00:06:54,320 --> 00:07:00,120
+aqui eu vou colocar dentro do pacote para simular um cenário mais realista berro ponto com ponto com
+
+71
+00:07:00,880 --> 00:07:04,780
+ponto e ponto financeiro.
+
+72
+00:07:04,860 --> 00:07:08,890
+Então seria o modo financeiro da minha aplicação dentro da empresa.
+
+73
+00:07:09,080 --> 00:07:15,580
+E aqui eu criei a classe Tech uma vez que eu criei a classe Hitachi e eu vou tentar por exemplo usar
+
+74
+00:07:15,670 --> 00:07:26,920
+a calculadora então calculadora vou colocar aqui calculadora o local que recebe uma calculadora vou
+
+75
+00:07:26,920 --> 00:07:32,000
+tentar chamar aquilo por exemplo system on line caos.
+
+76
+00:07:32,110 --> 00:07:34,020
+Ponto.
+
+77
+00:07:34,680 --> 00:07:42,630
+Ele vem mostrando aqui em completando Cacau ponto soma e vou passar aqui por exemplo 2 3 e 4.
+
+78
+00:07:42,640 --> 00:07:46,290
+Você está vendo que já está gerando vários erros porque está gerando vários erros.
+
+79
+00:07:46,290 --> 00:07:52,140
+Por que a calculadora não é visível pra fora do modo no que está definido dentro do projeto e que traça
+
+80
+00:07:52,150 --> 00:07:53,110
+o cálculo.
+
+81
+00:07:53,110 --> 00:07:59,490
+Então se você colocar aqui o cursor em cima você vai dizer se ele vai dizer o seguinte ou o tipo B pontocom
+
+82
+00:07:59,770 --> 00:08:05,500
+com o Dep cálculo calculadora note acesse Bonomo não está acessível.
+
+83
+00:08:05,500 --> 00:08:08,910
+Como é que eu faço para tornar a calculadora acessível.
+
+84
+00:08:08,930 --> 00:08:11,420
+Eu vivo dentro do meu modo não é.
+
+85
+00:08:11,900 --> 00:08:18,250
+E aqui eu preciso fazer o seguinte eu vou lá e coloco esportes.
+
+86
+00:08:18,250 --> 00:08:19,630
+E digo qual é o pacote.
+
+87
+00:08:19,630 --> 00:08:24,720
+Eu quero exportar no caso eu não quero esse portal que termina com um ponto interno mais eu quero esse
+
+88
+00:08:24,720 --> 00:08:27,180
+portal que termina com o ponto calculo.
+
+89
+00:08:27,220 --> 00:08:32,680
+E aí fazendo isso eu exporta esse arquivo pra ficar visível para outros módulos.
+
+90
+00:08:32,680 --> 00:08:39,210
+Legal eu suportei e agora tem a possibilidade de consumir acessar essa classe a partir de outro modo.
+
+91
+00:08:39,300 --> 00:08:45,250
+Porque é possível agora acessar tudo que foi definido dentro desse desse pacote.
+
+92
+00:08:45,260 --> 00:08:53,380
+Na IBM com a cloud calculo que por enquanto só tem uma classe que é a calculadora o Sul pacotes não
+
+93
+00:08:53,380 --> 00:08:55,740
+estão automaticamente acessíveis.
+
+94
+00:08:55,810 --> 00:08:58,460
+Você precisa declarar cada pacote.
+
+95
+00:08:58,780 --> 00:09:04,540
+O fato de eu ter declarado que esse aqui será exportado não significa que o interno também será importado
+
+96
+00:09:04,600 --> 00:09:10,630
+e exportado melhor dizendo Se eu quiser exportar o interno eu preciso colocar um outro esporte.
+
+97
+00:09:10,630 --> 00:09:13,070
+E aí sim colocar interno.
+
+98
+00:09:13,150 --> 00:09:20,440
+Não é o caso eu não quero exportar o externo e quero exportar apenas o boom ponto com ponto Cold ponto
+
+99
+00:09:20,430 --> 00:09:21,040
+calculo.
+
+100
+00:09:21,040 --> 00:09:27,300
+Só que isso não é o suficiente para usar essa classe calculadora dentro da minha classe peixe.
+
+101
+00:09:27,310 --> 00:09:27,940
+Por quê.
+
+102
+00:09:28,240 --> 00:09:35,560
+Porque eu tô dentro de um outro módulo e eu preciso definir de forma explícita quais são os módulos
+
+103
+00:09:35,560 --> 00:09:37,120
+que eu uso certo.
+
+104
+00:09:37,360 --> 00:09:42,780
+O módulo só tem um único módulo que é sim importado de forma implícita.
+
+105
+00:09:42,800 --> 00:09:45,320
+Eu vou colocar o seguinte quais.
+
+106
+00:09:45,440 --> 00:09:54,910
+E aí eu vou definir Java ponto B x Java ponto B x certo que olhava contábeis e um módulo e o único módulo
+
+107
+00:09:54,910 --> 00:10:02,360
+que por padrão ele vem já importado e você não precisa o Japão contábeis é porque é dentro do Japão
+
+108
+00:10:02,430 --> 00:10:05,740
+contábeis que está o pacote Java ponto.
+
+109
+00:10:05,770 --> 00:10:09,280
+Não confunda módulo com pacote.
+
+110
+00:10:09,290 --> 00:10:12,000
+Pacote é uma coisa módulo e outro módulo.
+
+111
+00:10:12,180 --> 00:10:18,870
+Ele agrupa um conjunto de pacotes e já o pacote é o que a gente já conhece que agrupa um conjunto de
+
+112
+00:10:18,870 --> 00:10:19,640
+classes.
+
+113
+00:10:19,680 --> 00:10:24,850
+Só que como a nomenclatura é parecida diga se em Java ponto B e Java ponto O.
+
+114
+00:10:25,110 --> 00:10:31,560
+Na verdade uma coisa é um pacote outra coisa são os módulos então que eu estou requerendo um módulo
+
+115
+00:10:31,680 --> 00:10:32,930
+Java ponto B.
+
+116
+00:10:33,060 --> 00:10:40,740
+Esse módulo Java o ponto B é um módulo que dentro dele tem alguns pacotes eu posso até olhar aqui procurar
+
+117
+00:10:40,830 --> 00:10:47,450
+deixou ver que algo do Brasil colocar aqui
+
+118
+00:10:51,520 --> 00:11:01,470
+técnicas de molho Java o ponto B x estão Java o ponto B se ele vai murchar pra gente quais sãos os pacotes
+
+119
+00:11:01,470 --> 00:11:04,410
+que estão incluídos dentro do Java ponto B.
+
+120
+00:11:04,410 --> 00:11:07,060
+Dentro desse módulo que ao Japão no ponto B.
+
+121
+00:11:07,170 --> 00:11:13,910
+Então nós temos o Java e o Java linguagem Java leiga no texto tudo está bem que Java leigo.
+
+122
+00:11:13,920 --> 00:11:23,220
+Na verdade o Java mete o Java Net o Java em You Are You e outros pacotes aqui ou Java.
+
+123
+00:11:23,250 --> 00:11:30,720
+Você tem um série de pacotes que fazem parte do pacote do Java a ponto B que é esse módulo que tem uma
+
+124
+00:11:30,720 --> 00:11:36,330
+série de pacotes dentro dele então não preciso dizer que o apoio financeiro depende do Java ponto B
+
+125
+00:11:36,450 --> 00:11:39,840
+que por padrão já está disponível para a gente.
+
+126
+00:11:39,930 --> 00:11:44,850
+Isso aqui é opcional apesar de eu poder colocar assim mais para que eu possa usar calculadora eu preciso
+
+127
+00:11:44,850 --> 00:11:47,270
+dizer que que eu vou requerer algo.
+
+128
+00:11:47,290 --> 00:11:48,090
+Quais.
+
+129
+00:11:48,570 --> 00:11:50,840
+Nesse caso vai se f.
+
+130
+00:11:50,940 --> 00:11:51,730
+Ponto.
+
+131
+00:11:51,790 --> 00:11:57,050
+Calculo ele inclusive vai completar para a gente sabe porque ele sabe que tem esse módulo do cálculo.
+
+132
+00:11:57,060 --> 00:12:04,200
+Agora sim uma vez que eu defini que o meu módulo financeiro precisa do módulo cálculo uma vez que o
+
+133
+00:12:04,200 --> 00:12:10,470
+módulo calculo disse que esse pacote que vai estar disponível para fora do módulo.
+
+134
+00:12:10,530 --> 00:12:19,210
+Agora sim eu consigo usar o meu teste então executando aqui o teu Estado Novo que soma 2 mais 3 5 mais
+
+135
+00:12:19,230 --> 00:12:20,290
+4 9.
+
+136
+00:12:20,610 --> 00:12:27,360
+Então pessoal esse foi o primeiro exercício que nós fizemos de módulo e aqui é onde a gente vai encontrar
+
+137
+00:12:27,510 --> 00:12:34,180
+o conceitual mais importante que é exatamente você tem dentro de um determinado módulo.
+
+138
+00:12:34,190 --> 00:12:36,510
+Vou seguir exatamente aquele que você quer exportar.
+
+139
+00:12:36,510 --> 00:12:43,290
+Por exemplo se eu vim aqui e sei que eu não quero mais exportar o cálculo ele simplesmente não vai mais
+
+140
+00:12:43,290 --> 00:12:49,740
+funcionar na classe Hitachi e se define a classe Tech você tentar acessar por exemplo uma classe que
+
+141
+00:12:49,740 --> 00:12:55,990
+não foi prevista pra ser acessada com operações aritméticas.
+
+142
+00:12:56,050 --> 00:12:59,060
+OP E eu coloco aqui nulo por exemplo.
+
+143
+00:12:59,070 --> 00:13:04,920
+Certo Só o fato de tentar declarar isso vai gerar um problema porque eu não consigo acessar essa classe
+
+144
+00:13:04,920 --> 00:13:08,270
+porque ela está inacessível porque não foi exportada.
+
+145
+00:13:08,280 --> 00:13:15,990
+Outra coisa interessante também é que uma vez que eu defino que dentro do app financeira eu dependo
+
+146
+00:13:15,990 --> 00:13:26,040
+de app calculo se houve cálculo de que aqui quais é o ponto financeiro você vai ver que vai gerar um
+
+147
+00:13:26,040 --> 00:13:28,790
+problema ele não vai deixar de iPhone nenhum.
+
+148
+00:13:28,800 --> 00:13:30,900
+Você tem dependência cíclica.
+
+149
+00:13:30,900 --> 00:13:33,390
+Por mim isso vai resolver muita.
+
+150
+00:13:33,420 --> 00:13:39,230
+Vai tirar de você na verdade muita dor de cabeça porquê dependência cíclica é um dos piores coisas que
+
+151
+00:13:39,240 --> 00:13:46,380
+para acontecer em um sistema modular então nesse caso apenas pode ter a dependência de uma única direção
+
+152
+00:13:46,390 --> 00:13:51,540
+não bidirecional como é o caso que eu tentei mostrar pra vocês estão nesse primeiro exemplo.
+
+153
+00:13:51,540 --> 00:13:57,900
+Nós vimos as duas palavras mais importantes que é o esportes para exportar um determinado pacote.
+
+154
+00:13:57,900 --> 00:14:01,800
+Você precisa exportar explicitamente cada um que você queira.
+
+155
+00:14:01,800 --> 00:14:06,930
+Tem mais alguns detalhes que a gente vai ver em outras aulas e a outra palavra extremamente importante
+
+156
+00:14:07,020 --> 00:14:10,620
+e quais você tem que dizer aquilo que você depende.
+
+157
+00:14:10,740 --> 00:14:17,740
+Então eu dependo por exemplo acessar coisas relacionadas a SQL então você vai ter colocado e quais Java
+
+158
+00:14:17,740 --> 00:14:19,330
+ou ponto SQL.
+
+159
+00:14:19,330 --> 00:14:20,450
+E aí você vai.
+
+160
+00:14:20,460 --> 00:14:25,330
+Aí sim você vai ter a possibilidade de usar os recursos digamos assim duas Kelly.
+
+161
+00:14:25,350 --> 00:14:31,620
+Caso você queira usar dentro de um sistema de módulos no caso o que é por padrão o BC então que eu posso
+
+162
+00:14:31,620 --> 00:14:36,720
+colocar até um comentário por padrão já é importado e o resto.
+
+163
+00:14:36,710 --> 00:14:41,590
+Você precisa dizer explicitamente aquilo quais são os módulos que você vai precisar.
+
+164
+00:14:41,590 --> 00:14:46,780
+E nesse caso é um módulo por projeto e não pode ter dependências SICAD ou por tudo aquilo que a gente
+
+165
+00:14:46,800 --> 00:14:48,130
+aprendeu na próxima.
+
+166
+00:14:48,270 --> 00:14:53,290
+A gente continua bem mais detalhes e mais exercícios sobre o sistema de módulos do Java e até o.

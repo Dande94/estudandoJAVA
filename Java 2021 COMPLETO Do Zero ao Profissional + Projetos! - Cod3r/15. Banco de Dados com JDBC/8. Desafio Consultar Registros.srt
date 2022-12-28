@@ -1,0 +1,123 @@
+1
+00:00:00,210 --> 00:00:05,370
+Pessoal eu vou lançar o próximo exercício consultar pessoas.
+
+2
+00:00:05,370 --> 00:00:11,610
+2 Como desafio eu não tinha planejado pra ser um desafio mas eu acho que cabe sim um desafio nesse ponto
+
+3
+00:00:11,620 --> 00:00:12,950
+qual o desafio.
+
+4
+00:00:12,960 --> 00:00:20,250
+Eu quero que vocês obtenham a partir de um escanteio parte do nome da pessoa e para isso vocês vão usar
+
+5
+00:00:20,310 --> 00:00:23,450
+o link então vão achar pra vocês Como é que seria feito aqui né.
+
+6
+00:00:23,500 --> 00:00:30,890
+Então selecionamos todas as pessoas se você quer selecionar pessoas que contem por exemplo a parte então
+
+7
+00:00:30,900 --> 00:00:32,600
+vou colocar aqui o nome.
+
+8
+00:00:32,670 --> 00:00:39,930
+Se eu colocar algo igual a si Silva você vai ver que ele não vai obter ninguém porque não tem nenhuma
+
+9
+00:00:39,930 --> 00:00:42,310
+pessoa que tenha um nome exatamente esse.
+
+10
+00:00:42,420 --> 00:00:49,260
+Mas se você usar um lápis aí sim você vai conseguir fazer uma consulta de partes de um determinado nome.
+
+11
+00:00:49,290 --> 00:00:55,950
+Aqui no caso ainda não vai fazer nada porque você precisa usar os percentuais é que antes e depois para
+
+12
+00:00:55,950 --> 00:01:02,380
+dizer que mandei todas as pessoas que no nome exista a letra S é e.
+
+13
+00:01:02,380 --> 00:01:04,950
+Você vai ver todo mundo que tem se hoje vai trazer.
+
+14
+00:01:05,010 --> 00:01:09,330
+Se você quer alguém que começa com um determinado conjunto de letras por exemplo.
+
+15
+00:01:09,450 --> 00:01:16,440
+M.A. aí ele vai trazer aqui no caso a Maria porque você colocou o percentual apenas depois você quer
+
+16
+00:01:16,440 --> 00:01:18,650
+alguém que termine com algo.
+
+17
+00:01:18,770 --> 00:01:27,960
+Logo que o percentual a termina com determinado conjunto de caracteres no caso a mais eu quero que contenha
+
+18
+00:01:28,110 --> 00:01:34,890
+por exemplo a letra a certo ele vai trazer todo mundo compenetrado o tem Maria tem que pegar aqui por
+
+19
+00:01:34,890 --> 00:01:38,730
+exemplo a letra só a letra.
+
+20
+00:01:38,760 --> 00:01:42,930
+Leonardo tem e Ana Pinheiro também tem um resto não tem.
+
+21
+00:01:43,340 --> 00:01:49,320
+Então eu quero que vocês façam essa consulta o usuário mais digital a partir do escaneia as letras que
+
+22
+00:01:49,320 --> 00:01:53,190
+ele quer consultar e logo na sequência você vai mostrar o resultado.
+
+23
+00:01:53,190 --> 00:02:00,840
+Você pode se basear fortemente no consultar pessoas lembrando que agora nós vamos precisar passar um
+
+24
+00:02:00,840 --> 00:02:02,400
+parâmetro pra consulta.
+
+25
+00:02:02,400 --> 00:02:09,030
+Quando você passo o parâmetro para uma consulta você não usa concatenação você usou exatamente isso
+
+26
+00:02:09,030 --> 00:02:14,100
+que eu quero que você use nesse desafio é pegar mais ou menos que a gente fez do exercício de consulta
+
+27
+00:02:14,100 --> 00:02:18,830
+a pessoa pode inclusive copiar e colar o ideal você realmente tentar fazer do zero.
+
+28
+00:02:18,870 --> 00:02:24,090
+Eu vou fazer isso vou copiar e colar e a partir desse exercício a gente vai fazer as mudanças necessárias
+
+29
+00:02:24,480 --> 00:02:31,280
+para incluir a cláusula ué especificamente o limite que eu quero digitar alguns caracteres já obter
+
+30
+00:02:31,290 --> 00:02:34,280
+todo mundo que tem aqueles caracteres na próxima aula.
+
+31
+00:02:34,290 --> 00:02:35,590
+A resposta é até.

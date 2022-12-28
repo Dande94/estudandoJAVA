@@ -1,0 +1,883 @@
+1
+00:00:00,140 --> 00:00:05,820
+Pensava nessa nova marcha para vocês a relação que existe entre em muitos momentos a relação de duas
+
+2
+00:00:05,820 --> 00:00:08,300
+classes que é a relação.
+
+3
+00:00:08,400 --> 00:00:14,860
+São listas Tá certo então eu vou em várias e várias exemplos que você pode pagar por exemplo.
+
+4
+00:00:14,970 --> 00:00:22,240
+Você tem usuário perfil perfil usuário usuário pode ser administrador pode ser superior administrador
+
+5
+00:00:22,380 --> 00:00:28,550
+um administrador pode ter vários usuários que têm esse perfil o usuário pode ser professor administrador
+
+6
+00:00:28,560 --> 00:00:32,960
+é outra coisa e você pode ter vários usuários com perfil de professor.
+
+7
+00:00:32,970 --> 00:00:38,670
+Por exemplo você tem a relação tio e sobrinho o tio tem vários sobrinhos o sobrinho pode ter vários
+
+8
+00:00:38,670 --> 00:00:39,060
+tiros.
+
+9
+00:00:39,060 --> 00:00:42,690
+Você tem a relação entre aluno e disciplina.
+
+10
+00:00:42,690 --> 00:00:47,640
+Certo o aluno e curso um curso tem vários alunos e um aluno tem vários cursos.
+
+11
+00:00:47,740 --> 00:00:49,220
+Exatamente isso que eu vou mostrar.
+
+12
+00:00:49,470 --> 00:00:54,170
+Mas existem muitas relações de uma vez que eu proponho uma dessas relações.
+
+13
+00:00:54,170 --> 00:00:59,690
+é interessante você pensar em outras e tentar fazer exercícios que tenham uma mesma relação todos os
+
+14
+00:00:59,700 --> 00:00:59,940
+anos.
+
+15
+00:00:59,940 --> 00:01:02,960
+Você vai encontrar muitos exemplos na vida real.
+
+16
+00:01:02,990 --> 00:01:06,960
+Lá o celular tem um chip e o chip tem um celular ou um celular.
+
+17
+00:01:07,020 --> 00:01:13,200
+Tem exatamente dois chips ou é um chip está relacionado com o celular então você pode tentar modelar
+
+18
+00:01:13,620 --> 00:01:19,140
+vários cenários porque acho que é interessante você pensar um pouco no mundo real ou então pensar em
+
+19
+00:01:19,140 --> 00:01:24,960
+algum sistema que você usa ou mesmo em algum sistema da empresa que você trabalha com certeza que você
+
+20
+00:01:24,960 --> 00:01:29,760
+vai conseguir ver esses objetos e entender a relação desses objetos.
+
+21
+00:01:29,760 --> 00:01:32,910
+Como isso poderia ser modelado para software.
+
+22
+00:01:33,080 --> 00:01:41,330
+Então clicar aqui eu vou definir uma classe chamada curso e vou definir uma outra classe chamada aluno.
+
+23
+00:01:41,790 --> 00:01:44,760
+Então nós temos aqui o aluno e o curso.
+
+24
+00:01:44,760 --> 00:01:54,520
+Então o aluno vai ter o nome e o aluno vai ter saquinho de lixo.
+
+25
+00:01:54,570 --> 00:02:01,170
+Vai ter curso eu vou chamar essa religião cursos no coral já que é uma lista de acesso a manter coerente
+
+26
+00:02:01,530 --> 00:02:03,710
+e aqui vai ter uma religião.
+
+27
+00:02:03,810 --> 00:02:08,180
+O curso que eu não preciso for mau uso e finalmente conter vírgula.
+
+28
+00:02:08,200 --> 00:02:10,860
+E aqui se eu quiser também posso colocar no lixo.
+
+29
+00:02:11,100 --> 00:02:17,490
+Contanto que não importe o Java ou o lixo certo então o aluno não omitiu lixo de cursos e eu achei muito
+
+30
+00:02:17,490 --> 00:02:25,670
+parecido só aqui aqui do lado do curso mas seu uso tem um nome e tem uma lista de alunos.
+
+31
+00:02:25,720 --> 00:02:33,010
+Então não vou colocar no próprio curso mas sim uma lista de alunos que eu vou chamar no plural alunos.
+
+32
+00:02:33,030 --> 00:02:44,250
+Vou criar um método dentro do curso Pra adicioná lo ou então chamar o aluno que eu vou fazer o seguinte
+
+33
+00:02:44,270 --> 00:02:47,970
+que ele vai retornar onde eu vou fazer.
+
+34
+00:02:48,180 --> 00:02:58,710
+Vou receber um aluno como parâmetro então aluno aluno e vou fazer a seguinte dez alunos ponto adicionado
+
+35
+00:02:59,450 --> 00:03:10,560
+ao aluno e automaticamente que eu fiz isso eu faço aluno 8 cursos foto adicionar 10.
+
+36
+00:03:10,590 --> 00:03:17,600
+Ou seja eu fiz uma relação bidirecional e eu posso fazer também lá dentro de aluno.
+
+37
+00:03:18,210 --> 00:03:24,060
+Posso ter um método adicionar curso quero fazer algo parecido.
+
+38
+00:03:24,060 --> 00:03:27,440
+Vai receber um curso aqui como parâmetro.
+
+39
+00:03:27,540 --> 00:03:30,360
+E aí eu faço aula desse ponto.
+
+40
+00:03:30,360 --> 00:03:31,330
+Cursos.
+
+41
+00:03:31,350 --> 00:03:33,950
+Ponto adicional curso.
+
+42
+00:03:33,960 --> 00:03:34,730
+Ponto e vírgula.
+
+43
+00:03:34,740 --> 00:03:37,130
+No final posso fazer curso.
+
+44
+00:03:37,220 --> 00:03:44,580
+Outro ponto adicional desse é aqui esse método vai retornar.
+
+45
+00:03:44,680 --> 00:03:52,500
+Volte com retorno do método obrigatório vou criar aqui um construtor de aluno pra você dizer que o nome
+
+46
+00:03:52,500 --> 00:04:02,770
+do aluno vai se farão constante e aí eu posso colocar aquele estranho nome que vez ou outro nome recebe
+
+47
+00:04:04,570 --> 00:04:14,580
+homem e vou também colocar aqui no curso para o curso também tem um bom futuro então uso distribuí para
+
+48
+00:04:14,600 --> 00:04:23,450
+receberem esse nome recebe e dizer que o nome do curso é feminino e vou dizer também que essa lista
+
+49
+00:04:23,750 --> 00:04:30,710
+não é aqui no aluno também vou dizer que essa lista em constante o que quer dizer uma lista constante
+
+50
+00:04:30,710 --> 00:04:34,340
+já tentamos responder pra você uma lista constante.
+
+51
+00:04:34,360 --> 00:04:42,830
+Ele é uma lista que foi ansiada na minha memória um site para que eu lá pegue rapidamente e ligar que
+
+52
+00:04:42,860 --> 00:04:48,790
+a gravação dele rapidinho fazer aqui um exemplo ao vivo.
+
+53
+00:04:49,200 --> 00:04:52,530
+Ele está contando aqui para começar a gravar propagava.
+
+54
+00:04:52,790 --> 00:04:57,710
+Então eu falei o seguinte Quando você cria uma variável cria uma variável.
+
+55
+00:04:57,710 --> 00:05:02,720
+Por exemplo uma lista de cursos então acha que cria uma variável chamada cursos.
+
+56
+00:05:02,870 --> 00:05:08,480
+Então foi criada na memória de um computador uma variável essa variável no tipo lista e aqui dentro.
+
+57
+00:05:08,600 --> 00:05:16,230
+Essa lista aponta para um endereço 1 2 3 4 ou seja aponta para um objeto na memória e esse objeto representa
+
+58
+00:05:16,340 --> 00:05:24,950
+a lista certo aqui dentro vai ter vários itens mais que tocar em dizer que esse curso seja essa área
+
+59
+00:05:24,950 --> 00:05:27,220
+de memória que eu chamei de curso.
+
+60
+00:05:27,410 --> 00:05:32,550
+Ela aponta para esse endereço de memória quando você diz que isso aqui é um fato não.
+
+61
+00:05:32,550 --> 00:05:39,770
+Quando você diz que isso aqui afinal é uma constante o que não pode mudar é o endereço de memória que
+
+62
+00:05:39,770 --> 00:05:44,910
+ele está apontando eu não posso simplesmente em algum momento no meu colo fazer isso aqui.
+
+63
+00:05:45,140 --> 00:05:54,230
+Eu não posso chegar e mostrar pra você isso aqui eu não posso colocar cursos ou então sei lá 10 usos
+
+64
+00:05:54,920 --> 00:06:00,490
+para cursos recebe uma nova novo a raiz.
+
+65
+00:06:00,560 --> 00:06:01,560
+Eu não posso fazer isso.
+
+66
+00:06:01,560 --> 00:06:02,290
+Por quê.
+
+67
+00:06:02,540 --> 00:06:06,530
+Porque cursos é algo constante mas não é constante.
+
+68
+00:06:06,530 --> 00:06:12,990
+Os elementos que estão dentro da lista eu posso remover os elementos eu posso adicionar novos elementos.
+
+69
+00:06:13,100 --> 00:06:19,100
+Eu posso limpar a lista usando o clip ou seja tirar todos os elementos da lista mas o que eu não posso
+
+70
+00:06:19,100 --> 00:06:25,970
+fazer é pegar essa variável cursos que eu criei e apontar para um outro endereço de memória.
+
+71
+00:06:25,970 --> 00:06:28,830
+Eu não posso fazer isso você tem que ter uma outra lista aqui.
+
+72
+00:06:28,850 --> 00:06:30,230
+Isso aqui eu não posso fazer.
+
+73
+00:06:30,230 --> 00:06:30,680
+Por quê.
+
+74
+00:06:30,680 --> 00:06:36,920
+Porque é uma variável final uma vez que eu não sei a lista e essa variável aponta pra esse endereço
+
+75
+00:06:36,920 --> 00:06:42,560
+de memória você não pode criar um novo objeto e apontar e fazer com que essa variável aponte para um
+
+76
+00:06:42,560 --> 00:06:43,700
+novo espaço de memória.
+
+77
+00:06:43,700 --> 00:06:44,250
+Por quê.
+
+78
+00:06:44,570 --> 00:06:50,070
+Porque é uma variável final como se no final ela sempre irá apontar para esse mesmo endereço de memória.
+
+79
+00:06:50,180 --> 00:06:59,120
+Embora o conteúdo da lista seja um conteúdo variável exato aqui e ali por lado ou seja o conteúdo é
+
+80
+00:06:59,120 --> 00:07:05,810
+variável posso acrescentando diminuir tirando elementos e excluindo limpando a lista o que eu não posso
+
+81
+00:07:06,500 --> 00:07:10,280
+alterar a referência dessa constante está certo.
+
+82
+00:07:10,290 --> 00:07:13,520
+Mas a lista em si pode ser modificada sem problema nenhum.
+
+83
+00:07:13,670 --> 00:07:15,320
+Então não tem nenhum problema.
+
+84
+00:07:15,710 --> 00:07:18,120
+Eu sei como você não faz não aqui.
+
+85
+00:07:18,200 --> 00:07:20,730
+Como não tem nenhum problema eu coloco aqui também.
+
+86
+00:07:20,730 --> 00:07:25,520
+Comecei no final a única coisa que me aconteceu é que eu não posso distanciar uma nova lista sempre
+
+87
+00:07:25,730 --> 00:07:27,390
+apontará para a mesma lista.
+
+88
+00:07:27,800 --> 00:07:32,930
+Ou seja claro que cada nova instância uma nova instância vai apontar para uma nova lista porque isso
+
+89
+00:07:33,500 --> 00:07:37,980
+é uma variável de instância variável que pertence a cada curso criado.
+
+90
+00:07:38,000 --> 00:07:43,310
+Cada curso terá sua própria lista de alunos assim como cada aluno criado cada aluno terá sua própria
+
+91
+00:07:43,310 --> 00:07:44,750
+lista de cursos.
+
+92
+00:07:45,080 --> 00:07:52,120
+Então pra gente testar aqui eu vou criar uma classe chamada cursos.
+
+93
+00:07:52,190 --> 00:07:59,300
+O curso teste pode ser aluno teste tanto faz que eu estou trabalhando com duas classes aqui então vou
+
+94
+00:07:59,300 --> 00:08:06,970
+criar aquele aluno aluno recebe o aluno ou passa aqui ou não.
+
+95
+00:08:07,070 --> 00:08:15,560
+Eu não vou colocar aqui duplicar que vou colocar o aluno dois ou três.
+
+96
+00:08:15,590 --> 00:08:18,080
+Aqui vai ser a Maria II.
+
+97
+00:08:18,110 --> 00:08:23,350
+Aqui vai ser o Pedro e vou criar aqui o curso.
+
+98
+00:08:23,520 --> 00:08:28,930
+O curso recebe o curso aqui.
+
+99
+00:08:29,120 --> 00:08:36,470
+Primeiro vai ser Java completo e depois eu vou duplicar aqui.
+
+100
+00:08:36,470 --> 00:08:46,310
+Vai ter um web completo web em 2023 muito à frente do seu tempo.
+
+101
+00:08:46,840 --> 00:08:58,010
+E aqui eu vou colocar por exemplo o curso de um pet shop três cursos um curso um curso dores de curso
+
+102
+00:08:58,040 --> 00:09:01,950
+três e agora posso fazer o relacionamento entre os objetos.
+
+103
+00:09:01,970 --> 00:09:13,260
+Então posso fazer o seguinte só um ponto a adicionar à aluno passa a que o aluno aluno e vou dizer que
+
+104
+00:09:13,260 --> 00:09:21,000
+o aluno também faz parte do curso que o curso 2 adiciona ao lume.
+
+105
+00:09:21,360 --> 00:09:27,700
+O aluno e o aluno 3 fazem parte desse curso certo.
+
+106
+00:09:27,740 --> 00:09:30,670
+3 Aqui é o curso 3.
+
+107
+00:09:31,020 --> 00:09:36,570
+Finalmente ele vai ter todos os alunos então qualquer que adicioná lo ou fazer o contrário eu posso
+
+108
+00:09:36,570 --> 00:09:46,770
+fazer o seguinte aluno aluno ponto adicional do curso vai ser o curso.
+
+109
+00:09:46,810 --> 00:09:55,160
+3 Vou duplicar as três vezes o aluno dois e três tem um custo três ou seja relaxo nem tanto usando a
+
+110
+00:09:55,160 --> 00:09:56,980
+partir do curso acrescenta.
+
+111
+00:09:57,010 --> 00:10:02,810
+Aluno com a paixão do aluno acrescentando um curso como esses métodos já nos ajudam a fazer a relação
+
+112
+00:10:02,810 --> 00:10:04,340
+bidirecional.
+
+113
+00:10:04,370 --> 00:10:09,890
+Eu não preciso me preocupar em ter de fazer tudo isso manualmente no metro no meio de tal forma que
+
+114
+00:10:09,890 --> 00:10:15,650
+eu posso fazer uma foto em cima de um aluno por exemplo o aluno dois pontos.
+
+115
+00:10:15,920 --> 00:10:21,600
+Posso pagar pelo curso pontuou alunos.
+
+116
+00:10:21,640 --> 00:10:23,890
+Eu vou pegar todos os alunos do curso.
+
+117
+00:10:24,050 --> 00:10:33,240
+Então por exemplo aula chamados daqui estou matriculado no curso
+
+118
+00:10:37,280 --> 00:10:50,130
+e outro System Audi e com meu nome e eu colocar aqui pra seu nome de usuário que vai ser um aluno com
+
+119
+00:10:50,630 --> 00:11:01,080
+nome o belga tinha três pontos também e no final vou colocar em um só um System para dar um espaço com
+
+120
+00:11:01,080 --> 00:11:03,150
+os outros alunos que estão aqui.
+
+121
+00:11:03,660 --> 00:11:05,520
+Estou matriculado no curso.
+
+122
+00:11:05,570 --> 00:11:12,910
+Meu nome é Joao estou matriculado no curso amaria Maria se fosse o curso 3 que temos três alunos já
+
+123
+00:11:12,940 --> 00:11:25,620
+mostra todos onde estou matriculado no curso e vou colocar aqui no curso melhor curso outro nome certo
+
+124
+00:11:25,950 --> 00:11:33,600
+concatenar novamente aqui colocar uns três pontinhos e vou colocar aqui pra ele vim para a parte de
+
+125
+00:11:33,600 --> 00:11:34,740
+baixo que.
+
+126
+00:11:35,310 --> 00:11:36,360
+Nesse caso aqui.
+
+127
+00:11:36,450 --> 00:11:45,060
+O curso que o curso traz está local fixo aqui estou matriculado aumentar um pouco aqui para onde estou
+
+128
+00:11:45,060 --> 00:11:50,630
+matriculado no curso Eliete e meu nome João não estou matriculado no curso.
+
+129
+00:11:50,680 --> 00:11:55,030
+Meu nome é Maria e estou matriculado no custaram meu nome.
+
+130
+00:11:55,260 --> 00:12:01,590
+Ou seja você também consegue fazer aquilo que eu falei negociar parte de uma classe e pegar a outra
+
+131
+00:12:01,590 --> 00:12:03,510
+que paga a primeira que pega a outra.
+
+132
+00:12:03,520 --> 00:12:15,570
+Então como a relação para mim aqui eu posso fazer por exemplo aluno ponto cursos muito grandes.
+
+133
+00:12:15,600 --> 00:12:23,190
+O primeiro curso é me dê todos os alunos do curso do primeiro curso que esse aluno está matriculado
+
+134
+00:12:23,640 --> 00:12:29,610
+então aqui se eu colocar um sistema experiente ali você vai conseguir ver todos os alunos certo desse
+
+135
+00:12:29,610 --> 00:12:31,960
+curso como aqui o aluno.
+
+136
+00:12:31,980 --> 00:12:38,540
+Ele não tem um método estria ele está mostrando dessa forma mas se eu falar em aula e colocar um metro
+
+137
+00:12:38,540 --> 00:12:47,250
+implementar um método de sua colocar aquela string exterior e eu retornar nesse método será impresso
+
+138
+00:12:47,310 --> 00:12:48,220
+bonitinho lá.
+
+139
+00:12:48,570 --> 00:12:49,640
+Nesse ponto aqui.
+
+140
+00:12:50,010 --> 00:12:52,070
+Então nesse caso retorna.
+
+141
+00:12:52,290 --> 00:12:58,590
+Por exemplo eu posso retornar só o nome por exemplo certo ou então meu nome e alguma coisa é concatenar
+
+142
+00:12:58,730 --> 00:13:03,660
+aqui eu sou obrigado a colocar público por uma questão de herança depois eu vou comentar um pouco mais
+
+143
+00:13:03,990 --> 00:13:06,480
+com vocês o que significa essa palavra público.
+
+144
+00:13:06,970 --> 00:13:13,200
+Mas agora oficiais é a mesma coisa vocês vão perceber que o resultado vai ser o nome das pessoas com
+
+145
+00:13:13,200 --> 00:13:18,690
+quem implementa esse método esse método e outras palavras ele é o método usado sempre que você quer
+
+146
+00:13:18,690 --> 00:13:21,980
+converter um objeto para o formato de string.
+
+147
+00:13:21,990 --> 00:13:28,500
+Aqui você pode colocar o nome da pessoa pode colocar a lista de cursos que essa pessoa faz o mesmo se
+
+148
+00:13:28,500 --> 00:13:40,050
+você pode colocar aqui uma frase ao meu nome é acrescentar que concatenar uma variável nome seja já
+
+149
+00:13:40,050 --> 00:13:47,240
+forma que você retornado string vai ser a forma que o objeto irá ser impresso como monstrinho.
+
+150
+00:13:47,250 --> 00:13:51,520
+Sempre que for necessário pelo Java transformar um objeto no formato de string.
+
+151
+00:13:51,510 --> 00:13:57,990
+Ele vai usar essa função de estilingue para fazer isto aqui fica melhor colocação do nome do aluno porque
+
+152
+00:13:57,990 --> 00:14:02,330
+aí eu acho que a própria impressão fica mais interessante que o nosso Senado.
+
+153
+00:14:02,550 --> 00:14:08,700
+Então nesse caso eu a partir do aluno eu peguei os custos desse aluno peguei o primeiro curso do aluno
+
+154
+00:14:08,810 --> 00:14:11,810
+e depois eu peguei todos os alunos daquele curso.
+
+155
+00:14:11,820 --> 00:14:15,160
+Aqui você poderia fazer por exemplo dentro de aluno.
+
+156
+00:14:15,810 --> 00:14:27,480
+Eu vou criar uma função por exemplo aqui vai vai retornar um curso e o nome do Metro vai se obter curso
+
+157
+00:14:28,440 --> 00:14:30,010
+por nome.
+
+158
+00:14:30,660 --> 00:14:36,870
+Então você passa aqui o nome do curso e ele vai tornar o curso com aquele nome.
+
+159
+00:14:37,380 --> 00:14:46,250
+Então por exemplo você pode criar um curso para chamar que essa maravilha procurada recebe nulo porém
+
+160
+00:14:46,280 --> 00:14:47,150
+colapsa.
+
+161
+00:14:47,640 --> 00:14:54,990
+Vou retornar esse curso que é o curso procurado e aqui eu posso percorrer todos os cursos desse aluno
+
+162
+00:14:54,990 --> 00:14:58,680
+pra saber se algum curso tem o nome que foi passado como parâmetro.
+
+163
+00:14:58,680 --> 00:15:07,200
+Então posso fazer o seguinte não só pra cada curso que o aluno tem que fazer o que desse fundo cursos
+
+164
+00:15:07,850 --> 00:15:09,820
+vou fazer o teste em si.
+
+165
+00:15:09,980 --> 00:15:16,090
+O curso Autonomy for igual e Klaus e com os ignore.
+
+166
+00:15:16,170 --> 00:15:21,690
+Por exemplo o nome que foi passado como parâmetro significa que você pode retornar ao curso aqui.
+
+167
+00:15:21,690 --> 00:15:24,270
+Então tornar esse curso.
+
+168
+00:15:24,300 --> 00:15:29,050
+Nesse caso eu nem precisaria criar essa variável aqui porque eu posso.
+
+169
+00:15:29,070 --> 00:15:33,300
+Se ele não encontrar aqui no final ele se torna nulo.
+
+170
+00:15:33,740 --> 00:15:38,070
+é uma forma que você pode usar para procurar um curso a partir de um nome em um curso que pertença a
+
+171
+00:15:38,070 --> 00:15:39,120
+determinado aluno.
+
+172
+00:15:39,630 --> 00:15:45,360
+Então você faz o aluno ponto obter recursos Java completa ele vai retornar ao curso a partir do nome
+
+173
+00:15:45,360 --> 00:15:50,690
+ou seja eu criei um outro método que procura dentro daquele aluno um curso com aquele nome.
+
+174
+00:15:50,730 --> 00:15:56,520
+Esse método pode encontrar caso o nome do curso seja igual ao nome que você passou a ele retorne o curso
+
+175
+00:15:56,520 --> 00:15:57,600
+encontrado.
+
+176
+00:15:57,600 --> 00:16:03,480
+Caso contrário ele vai passar por todos os cursos não entrou em nenhum momento dentro do chefe e o resultado
+
+177
+00:16:03,480 --> 00:16:04,530
+será nulo.
+
+178
+00:16:04,530 --> 00:16:08,300
+Vou fazer o seguinte vou pagar ao aluno.
+
+179
+00:16:08,340 --> 00:16:19,860
+O aluno faz parte do curso Java completo então posso pegar esse nome aqui e fazer o seguinte aluno ponto
+
+180
+00:16:20,340 --> 00:16:25,860
+obter curso com o nome Java completo então armazenar isso aqui.
+
+181
+00:16:25,870 --> 00:16:27,790
+Variável curso.
+
+182
+00:16:28,670 --> 00:16:35,720
+O curso encontrado em contrato recebe isso aqui e após fazer um teste.
+
+183
+00:16:35,710 --> 00:16:49,200
+Esse curso encontrado eu vou imprimi a lista o curso encontrar com outro aluno ou seja pagar todos os
+
+184
+00:16:49,200 --> 00:16:55,020
+alunos se o curso foi encontrado o uso foi diferente de novo então executado.
+
+185
+00:16:55,080 --> 00:16:58,580
+No final ele encontrou deixa eu pagar aqui para mostrar pra vocês.
+
+186
+00:16:58,860 --> 00:17:04,800
+Esse curso foi encontrado eu vou fazer um curso tem encontrado outro nome e depois eu mostro os alunos
+
+187
+00:17:04,840 --> 00:17:11,240
+deixam o curso foi encontrado foi Java completo quem são os alunos João e Maria certo.
+
+188
+00:17:11,250 --> 00:17:17,880
+Então mais um outro Metro aqui só pra mostrar pra vocês que você a partir de um determinado objeto como
+
+189
+00:17:17,940 --> 00:17:21,710
+esse objeto essa classe tem uma referência para a outra classe.
+
+190
+00:17:21,720 --> 00:17:27,020
+Você pode criar uma série de metros que vai te ajudar a interagir uma classe com outra seja procurando
+
+191
+00:17:27,020 --> 00:17:31,950
+um curso por nome seja me dê o primeiro curso que esse usuário se matriculou.
+
+192
+00:17:31,950 --> 00:17:37,500
+Você tem todos os cursos você tem eventualmente um atributo que vai responder essa pergunta você pode
+
+193
+00:17:37,500 --> 00:17:44,160
+criar um método que vai usar a outra classe para responder alguma necessidade do seu sistema então percebam
+
+194
+00:17:44,520 --> 00:17:50,940
+a importância de relacionar uma classe com outra tanto a parte de um relacionamento um para um como
+
+195
+00:17:50,940 --> 00:17:56,490
+relacionamento um para aí com um relacionamento para aí é uma coisa que eu quero deixar claro pra vocês
+
+196
+00:17:56,490 --> 00:18:03,120
+é o seguinte e você está começando da orientação a objeto eu acho que é boa parte dos alunos que assistem
+
+197
+00:18:03,120 --> 00:18:11,670
+um curso estão iniciando na programação é muito importante você encarar esses exercícios como algo que
+
+198
+00:18:11,790 --> 00:18:18,480
+ainda precisa ser adquirido digamos assim todo o conhecimento necessário para você e modelando tudo
+
+199
+00:18:18,480 --> 00:18:20,280
+isso de uma forma natural.
+
+200
+00:18:20,330 --> 00:18:26,670
+Tem muito comum que nesse mesmo momento haja ainda algumas dúvidas é muito comum que haja ainda alguns
+
+201
+00:18:27,000 --> 00:18:32,370
+questionamentos de como você vai implementar todo esse tipo de relacionamento entre os objetos numa
+
+202
+00:18:32,370 --> 00:18:33,720
+aplicação real.
+
+203
+00:18:33,840 --> 00:18:40,500
+Certo Eu não espero maturidade pra você perceber isso no escalão maior tá indo também na escala de exercício
+
+204
+00:18:40,500 --> 00:18:46,330
+mas muita coisa do que você percebe aqui ainda de forma incompleta porque não a gente não está usando
+
+205
+00:18:46,330 --> 00:18:53,940
+o encapsulamento não está usando o polimorfismo não está usando herança que são pilares orientação objeto
+
+206
+00:18:54,050 --> 00:18:59,970
+mas ainda assim tem muitos conceitos importantes que estão embutidos dentro de um exercício desse.
+
+207
+00:19:00,270 --> 00:19:05,850
+E não espere que com apenas alguns exercícios tudo isso passe a ser completamente desvendado com você
+
+208
+00:19:05,850 --> 00:19:13,590
+até porque com o tempo com experiência com errar e corrigir aqui vocês vão amadurecendo e conhecendo
+
+209
+00:19:13,590 --> 00:19:17,920
+de forma profunda esse paradigma que é tão importante tão usado nos dias atuais.
+
+210
+00:19:17,920 --> 00:19:22,920
+Orientação objeto então o objetivo do curso é te mostrar vários exemplos e principalmente como a gente
+
+211
+00:19:22,920 --> 00:19:29,820
+compartilha os projetos lá nos projetos que vocês vão perceber a modelagem sendo aplicada num cenário
+
+212
+00:19:29,820 --> 00:19:30,530
+real.
+
+213
+00:19:30,630 --> 00:19:36,420
+Tá certo então é importante que você faça exercícios é importante que você faça os desafios para que
+
+214
+00:19:36,420 --> 00:19:40,660
+você possa experimentar e ver exatamente como está o seu conhecimento.
+
+215
+00:19:40,740 --> 00:19:46,440
+De acordo com aquilo que já foi ensinado mais ter dúvidas e ter questionamentos durante o processo é
+
+216
+00:19:46,440 --> 00:19:47,720
+algo extremamente natural.
+
+217
+00:19:47,730 --> 00:19:53,010
+Quando você passa pelos capítulos e começa a fazer exercícios de capítulos mais avançados talvez seja
+
+218
+00:19:53,010 --> 00:19:59,700
+uma boa ideia você voltar para capítulos anteriores e rever algumas aulas conceituais inclusive e fazer
+
+219
+00:19:59,700 --> 00:20:01,260
+alguns desafios de exercícios.
+
+220
+00:20:01,280 --> 00:20:05,050
+Porque eu tenho certeza que isso vai te ajudar bastante não fique por aqui na próxima.
+
+221
+00:20:05,050 --> 00:20:07,380
+A gente continua ainda nesse capítulo e até lá.

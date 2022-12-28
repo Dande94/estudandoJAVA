@@ -1,0 +1,943 @@
+1
+00:00:00,230 --> 00:00:05,480
+Mas vamos agora falar sobre algoritmos como na verdade a sala é uma visão geral de algoritmo.
+
+2
+00:00:05,700 --> 00:00:10,990
+E eu não tenho a pretensão de aprofundar esse tema extremamente rico.
+
+3
+00:00:11,040 --> 00:00:14,700
+Por exemplo na faculdade ele é ministrado em um semestre inteiro.
+
+4
+00:00:14,700 --> 00:00:20,790
+Na verdade eu vou falar sobre as principais informações que você precisa saber durante todo o decorrer
+
+5
+00:00:20,790 --> 00:00:26,250
+do curso nós vamos estar sempre trabalhando os conceitos de algoritmo mas não está colocando na prática
+
+6
+00:00:26,260 --> 00:00:32,040
+nos exemplos as ideias relacionadas ao algoritmo e durante o fluxo no curso.
+
+7
+00:00:32,040 --> 00:00:35,870
+Com certeza você vai aprender aquilo que é importante.
+
+8
+00:00:35,880 --> 00:00:41,370
+Por enquanto vou dar uma visão geral vou falar algumas ideias por trás desse conceito importantíssimo
+
+9
+00:00:41,370 --> 00:00:42,240
+para o algoritmo.
+
+10
+00:00:42,600 --> 00:00:48,030
+Em cima disso nós vamos construir uma visão geral e a partir daí nós vamos trabalhar pelo nosso curso
+
+11
+00:00:48,040 --> 00:00:53,970
+e durante os exercícios com certeza esses conceitos vão ser aprofundados para ficar bem mais claro.
+
+12
+00:00:53,970 --> 00:00:59,660
+Tudo aquilo que eu vou falar na sala para começar o algoritmo é o estudo de lógica.
+
+13
+00:00:59,660 --> 00:01:06,990
+Eles estão muito relacionados e um algoritmo depende dessa conceituação desse estudo de lógica que é
+
+14
+00:01:06,990 --> 00:01:14,060
+uma disciplina que meio que mescla digamos assim um caráter matemático um caráter filosófico porque
+
+15
+00:01:14,070 --> 00:01:18,200
+a lógica o estudo do raciocínio da argumentação válida.
+
+16
+00:01:18,260 --> 00:01:24,420
+E aí você tem com a parte da lógica inferior quando a argumentação é válida quando ela é falaciosa e
+
+17
+00:01:24,430 --> 00:01:32,430
+aí tem várias técnicas e estudos relacionados à lógica que nos ajudam a construir os nossos algoritmos.
+
+18
+00:01:32,460 --> 00:01:38,490
+Então você sempre vai vê uma certa relação de proximidade quando se fala de algoritmo você pensar um
+
+19
+00:01:38,490 --> 00:01:44,690
+pouco no estudo da lógica não é o tema propriamente da aula eu vou focar em no algoritmo.
+
+20
+00:01:44,910 --> 00:01:51,090
+Mas você tem que perceber que existe essa relação e quando você estuda lógica com certeza isso te ajuda
+
+21
+00:01:51,150 --> 00:01:55,700
+a construir um raciocínio válido ajudando assim a construir o estudo de algoritmos.
+
+22
+00:01:55,710 --> 00:02:02,010
+Partindo para o conceito de algoritmo algoritmo é uma sequência de passos que visa fazer um determinado
+
+23
+00:02:02,010 --> 00:02:08,790
+processamento fazer alguma ação em cima de um conjunto de dados por exemplo então quando você pensa
+
+24
+00:02:08,790 --> 00:02:17,180
+numa sequência de passos porque você tem um algoritmo que tem dez passos na prática não acontece sempre.
+
+25
+00:02:17,190 --> 00:02:24,780
+Algumas vezes sim o algoritmo vai ser executado passando pelo passo 1 2 3 até chegar no Passo 10 e aí
+
+26
+00:02:24,780 --> 00:02:25,880
+terminou a origem.
+
+27
+00:02:26,190 --> 00:02:31,840
+Ou seja ele executou todos os passos de forma sequencial mas nem sempre isso é verdade.
+
+28
+00:02:31,860 --> 00:02:39,630
+às vezes o algoritmo precisa usar uma estrutura de repetição por exemplo você quer repetir o passo 5
+
+29
+00:02:39,630 --> 00:02:48,480
+e 6 durante um tempo até que determinada condição seja conseguido até que um determinado dado mude de
+
+30
+00:02:48,480 --> 00:02:49,970
+valor coisa do tipo.
+
+31
+00:02:50,070 --> 00:02:56,280
+Então dentro do algoritmo é muito comum você usar estruturas de repetição você vai repetir determinados
+
+32
+00:02:56,280 --> 00:03:02,180
+passos até que determinada conheçam um dado chegue no valor que você está esperando.
+
+33
+00:03:02,200 --> 00:03:08,020
+Uma outra possibilidade também que a gente usa que é muito comum encontrar nos algoritmos e tomadas
+
+34
+00:03:08,090 --> 00:03:09,000
+de decisão.
+
+35
+00:03:09,330 --> 00:03:14,700
+Então é possível que você chegue num ponto no seu algoritmo e haja uma decisão a ser tomada.
+
+36
+00:03:14,700 --> 00:03:22,770
+Por exemplo se o aluno tirou nota maior do que a média estabelecida pela escola ele vai entrar no rol
+
+37
+00:03:22,770 --> 00:03:24,780
+dos alunos que estão aprovados.
+
+38
+00:03:24,810 --> 00:03:30,380
+Se o aluno não não atingiu essa nota ele vai entrar no rol dos alunos que estão em recuperação.
+
+39
+00:03:30,750 --> 00:03:37,500
+Então essa tomada de decisão faz com que em alguns momentos o passo seja executado em detrimento de
+
+40
+00:03:37,500 --> 00:03:38,450
+outros passos.
+
+41
+00:03:38,460 --> 00:03:44,790
+Então quando você conhece um algoritmo com esse Passos não significa obrigatoriamente que todos os passos
+
+42
+00:03:44,790 --> 00:03:50,150
+serão executados mas sim que existe a possibilidade de que todos os passos executados.
+
+43
+00:03:50,160 --> 00:03:57,460
+Também existe a possibilidade de que alguns passos sejam executados de forma repetitiva e às vezes assim
+
+44
+00:03:57,490 --> 00:04:01,840
+fica alguns passos não serão executados baseado em determinadas condições.
+
+45
+00:04:02,010 --> 00:04:09,060
+Então é importante que você perceba essa conceituação bem simples a vida é cheia de algoritmos e o que
+
+46
+00:04:09,060 --> 00:04:15,090
+eu quero dizer com isso eu quero dizer que os algoritmos não são programas de computadores embora os
+
+47
+00:04:15,090 --> 00:04:19,910
+programas de computador utilizem algoritmos para executar suas atividades.
+
+48
+00:04:19,920 --> 00:04:26,620
+Na verdade algoritmos com esse passo e elas podem ser executados por um computador como pode ser executado
+
+49
+00:04:26,670 --> 00:04:27,590
+por um ser humano.
+
+50
+00:04:27,660 --> 00:04:33,930
+Por exemplo como é que eu vou saí na minha casa até chegar a determinado ponto da cidade e aí você vai
+
+51
+00:04:33,930 --> 00:04:40,200
+descrever o conjunto de passos necessários para sair de um ponto há até um ponto B.
+
+52
+00:04:40,200 --> 00:04:49,740
+Você pega bem x tantos metros depois o terceiro sinal você dobra direita e você vai até passar um estádio
+
+53
+00:04:49,740 --> 00:04:56,720
+de futebol quando você passa ao estádio futebol na rotatória você pega a segunda saída e aí você anda
+
+54
+00:04:56,750 --> 00:05:03,790
+três a quatro bolas quando você vê a usina elétrica você vai dobrar à direita anda mais dois quilômetros
+
+55
+00:05:03,790 --> 00:05:04,770
+chega num shopping.
+
+56
+00:05:04,780 --> 00:05:12,000
+Então esse é um conjunto de passos que você vai escrever e executar para sair de um ponto A ao ponto
+
+57
+00:05:12,000 --> 00:05:12,610
+B.
+
+58
+00:05:12,790 --> 00:05:15,120
+é um passo da vida real.
+
+59
+00:05:15,420 --> 00:05:20,810
+Então por exemplo você tá numa mesa de escritório você tem que assinar uma pilha de papéis.
+
+60
+00:05:20,970 --> 00:05:26,210
+Você vai pegar o primeiro papel assina e joga na pilha dos papéis assinados.
+
+61
+00:05:26,220 --> 00:05:27,830
+Tem mais papel tem.
+
+62
+00:05:27,870 --> 00:05:32,430
+Você pega o próximo papel assina e coloca na pilha dos papéis.
+
+63
+00:05:32,580 --> 00:05:35,410
+Já foram assinados tem mais papel tem.
+
+64
+00:05:35,420 --> 00:05:39,360
+Você vai lá pega assina percebe que existe uma repetição.
+
+65
+00:05:39,360 --> 00:05:44,120
+Também aqui está um conjunto de passos que eu estou fazendo aqui no caso uma repetição.
+
+66
+00:05:44,250 --> 00:05:50,010
+E aí eu vou fazendo isso até que a pilha seja totalmente consumida e eu não vou ter mais nenhum papel
+
+67
+00:05:50,010 --> 00:05:50,640
+para assinar.
+
+68
+00:05:51,060 --> 00:05:53,070
+Então é um algorítimo da vida real.
+
+69
+00:05:53,100 --> 00:05:59,340
+Outro exemplo de algoritmo você é um funcionário dos Correios você recebe um documento e verifica Sedex
+
+70
+00:06:00,090 --> 00:06:06,740
+Sedex então vou despachar e colocar direto no caminhão para ir mais rápido essa encomenda normal é um
+
+71
+00:06:06,740 --> 00:06:12,810
+PAC um PAC ela não vai entrar no caminhão agora vai esperar ali no armário destinado para as encomendas
+
+72
+00:06:12,820 --> 00:06:19,470
+só vão sair amanhã Sedex e então vai fazer esse fluxo se não for sedex faz o outro fluxo.
+
+73
+00:06:19,470 --> 00:06:25,950
+Você percebe aqui que existe uma tomada de decisão sobre determinada condição for verdadeira se for
+
+74
+00:06:25,950 --> 00:06:29,560
+sedex você faz uns passos bem sei.
+
+75
+00:06:29,700 --> 00:06:36,120
+Se não for sedex se for um PAC você faz os passos B por exemplo.
+
+76
+00:06:36,120 --> 00:06:36,820
+Entendeu.
+
+77
+00:06:36,840 --> 00:06:43,380
+Então aqui você tem algoritmos da vida real que são sequências de passos na vida real que tanto envolvem
+
+78
+00:06:43,380 --> 00:06:49,260
+a caixa de tomadas de decisão como a caixa de repetição e isso também se aplica aos nossos sistemas
+
+79
+00:06:49,260 --> 00:06:51,170
+e se aplica aos nossos programas.
+
+80
+00:06:51,180 --> 00:06:56,940
+Agora nós vamos fazer o seguinte vou pegar um exemplo e vou trabalhar ele em três versões diferentes
+
+81
+00:06:56,940 --> 00:07:01,330
+para mostrar para vocês alguns conceitos importantes relacionados a algoritmos.
+
+82
+00:07:01,360 --> 00:07:03,360
+E aí eu vou fazer a primeira versão.
+
+83
+00:07:03,420 --> 00:07:08,970
+A segunda a terceira a gente vai perceber a diferença entre elas é uma sequência de passos como se você
+
+84
+00:07:08,970 --> 00:07:16,020
+tivesse acabado de acordar no trabalho você vai fazer a seqüência de passos para o trabalho.
+
+85
+00:07:16,040 --> 00:07:21,690
+Vai ser uma versão mais simplificada só para a gente entender que alguns conceitos importantes e imagináveis
+
+86
+00:07:21,690 --> 00:07:22,830
+são um ponto zero.
+
+87
+00:07:22,830 --> 00:07:25,310
+O primeiro passo nesse algoritmo é Vichy.
+
+88
+00:07:25,590 --> 00:07:31,390
+A pessoa colocou a cueca depois colocou álcool e colocou a meia calça ou o sapato.
+
+89
+00:07:31,620 --> 00:07:37,050
+Depois de ficar só de sapato colocou a calça e por último colocou a camisa certa.
+
+90
+00:07:37,380 --> 00:07:44,130
+Então pensar um pouco nesse passo a passo você percebe que como a pessoa colocou amei o sapato antes
+
+91
+00:07:44,130 --> 00:07:51,110
+de colocar a calça na hora de colocar calça a pessoa ter uma dificuldade maior para conseguir se Vichy
+
+92
+00:07:51,140 --> 00:07:58,110
+porque trocou a ordem do algoritmo embora o resultado final tenha dado certo ninguém notou um fato estranho
+
+93
+00:07:58,110 --> 00:08:00,150
+a pessoa foi trabalhar normalmente.
+
+94
+00:08:00,150 --> 00:08:04,380
+Você percebe que esse algoritmo não parece ser a versão mais otimizada.
+
+95
+00:08:04,380 --> 00:08:10,590
+A gente começa a perceber aqui que a Ordem dos Passos faz uma diferença muito grande inclusive nesse
+
+96
+00:08:10,590 --> 00:08:15,330
+caso a ordem do espaço deixou o algoritmo um pouco mais difícil de ser executado.
+
+97
+00:08:15,360 --> 00:08:23,720
+A versão 2 Ponto Zero a ordem foi mudar o que acontece a pessoa começou o algoritmo xixi na calça depois
+
+98
+00:08:23,720 --> 00:08:31,660
+de 20 a calça colocou a meia e os sapatos então já teve mais facilidade assim para colocar o sapato
+
+99
+00:08:31,660 --> 00:08:32,850
+e para baixo a calça.
+
+100
+00:08:32,880 --> 00:08:37,140
+Depois que fez isso colocou a cueca e por último colocou a blusa.
+
+101
+00:08:37,260 --> 00:08:43,830
+Então nesse caso você percebe que a mudança melhorou em um aspecto porque ele conseguiu fechar a calça
+
+102
+00:08:43,830 --> 00:08:49,380
+de forma mais rápida mais afinada quando ele foi para o trabalho como um super homem e colocou a cueca
+
+103
+00:08:49,380 --> 00:08:50,300
+por cima da calça.
+
+104
+00:08:50,310 --> 00:08:54,490
+E aí gerou um erro porque o resultado final não era o resultado esperado.
+
+105
+00:08:54,510 --> 00:08:59,140
+Provavelmente a pessoa foi do trabalho e sofreu bullying.
+
+106
+00:08:59,400 --> 00:09:05,400
+Então você percebe que no primeiro cenário uma sequência de passos que não deu resultado mais otimizado
+
+107
+00:09:05,930 --> 00:09:12,720
+e a segunda versão foi mexido nos braços e acabou gerando um resultado que não era o resultado esperado.
+
+108
+00:09:12,870 --> 00:09:19,830
+Então é possível que quando você mexe a sequência dos passos você consiga ter um resultado melhor do
+
+109
+00:09:19,830 --> 00:09:25,440
+ponto de vista de performance como você pode corrigir um eventual bug que tenha sido introduzido só
+
+110
+00:09:25,440 --> 00:09:29,540
+por conta da sequência de passos mal planejada ou mal pensada.
+
+111
+00:09:29,580 --> 00:09:35,010
+Partiram para a versão 3 0 aí sim a gente vai fazer o algoritmo de forma correta começou a vestir na
+
+112
+00:09:35,010 --> 00:09:42,540
+cueca depois colocou a calça e o terceiro passo meia quarto passo colocou o sapato e por último colocou
+
+113
+00:09:42,540 --> 00:09:43,220
+a blusa.
+
+114
+00:09:43,230 --> 00:09:50,100
+Então tem aqui a moral da história e a sequência de passos ela também é muito importante na hora em
+
+115
+00:09:50,100 --> 00:09:51,730
+que você coloca os passos.
+
+116
+00:09:51,790 --> 00:09:57,930
+é extremamente importante tanto do ponto de vista de desempenho que a coisa mais otimizada vai te trazer
+
+117
+00:09:57,930 --> 00:10:04,720
+um desempenho melhor a questão é que introduzir bancos dentro do seu sistema obviamente existem situações
+
+118
+00:10:04,720 --> 00:10:10,770
+em que você pode trocar um passo por outro sentido da ordem e o algoritmo vai acabar não mudando vai
+
+119
+00:10:10,770 --> 00:10:17,660
+permanecer tão certo quanto se eu passo alguém antes ou você B vier depois ou vice versa.
+
+120
+00:10:17,690 --> 00:10:24,030
+é até possível que em alguns momentos não faça diferença a ordem mas com certeza vão existir momentos
+
+121
+00:10:24,030 --> 00:10:30,450
+onde a ordem do algoritmo tanto pode causar problemas de desempenho como também pode introduzir erros
+
+122
+00:10:30,450 --> 00:10:31,620
+dentro de seu sistema.
+
+123
+00:10:31,650 --> 00:10:34,390
+Esse é um conceito importantíssimo para você tem menos.
+
+124
+00:10:34,390 --> 00:10:40,490
+Existem diversas classificações de algoritmo e não é o escopo desse curso.
+
+125
+00:10:40,480 --> 00:10:47,820
+Está trabalhando sobre essas diversas versões de algoritmo você tem algoritmos seriais paralelos algoritmos
+
+126
+00:10:47,820 --> 00:10:51,140
+determinístico algoritmos não determinísticos.
+
+127
+00:10:51,270 --> 00:10:57,060
+Você tem diversas classificações mas vamos acabar uma hora ou outra estudando alguns desses tipos de
+
+128
+00:10:57,270 --> 00:10:59,700
+algoritmo dentro dessas classificações.
+
+129
+00:10:59,740 --> 00:11:08,840
+às vezes um algoritmo se encaixa mais uma classificação mas um algoritmo ele pode ser iterativo e determinístico.
+
+130
+00:11:08,850 --> 00:11:11,940
+Ele pode ser um algoritmo recursivo e determinístico.
+
+131
+00:11:11,940 --> 00:11:18,240
+Então esses termos são termos importantes de ser conhecido mas não é tanto o foco do curso trabalhando
+
+132
+00:11:18,240 --> 00:11:21,090
+com essa nomenclatura as classificações dos algoritmos.
+
+133
+00:11:21,090 --> 00:11:27,930
+Se existe uma figura digamos assim que representa o algoritmo de forma bastante rica e que eu gostaria
+
+134
+00:11:27,930 --> 00:11:33,540
+que você prestasse muita atenção nesse momento é a figura que eu vou apresentar agora que a visão geral
+
+135
+00:11:33,800 --> 00:11:40,290
+é o algoritmo lá na frente nós vamos na estrutura chamada Método e você vai perceber a relação que existe
+
+136
+00:11:40,290 --> 00:11:44,160
+com essa figura inclusive eu vou mostrar essa figura também lá.
+
+137
+00:11:44,310 --> 00:11:50,900
+Quando falamos sobre isso mas por enquanto a gente sabe que o algoritmo na sequência de Passos Coelho
+
+138
+00:11:50,950 --> 00:11:57,510
+passo para lá até cinco dez passos e depressa com esse passo ele vai fazer repetições ou ele vai tomar
+
+139
+00:11:57,510 --> 00:11:58,820
+decisões.
+
+140
+00:11:58,900 --> 00:12:03,270
+O passo é outro para poder executar a lógica que você estabeleceu para ele fazer.
+
+141
+00:12:03,690 --> 00:12:10,080
+Só que essa sequência de passos via de regra ela trabalha com um conjunto de dados de entrada que são
+
+142
+00:12:10,080 --> 00:12:15,750
+os insumos que você vai usar para fazer o processamento e esse processamento vai pegar esses dados e
+
+143
+00:12:15,750 --> 00:12:17,960
+processar para gerar uma saída.
+
+144
+00:12:18,330 --> 00:12:21,600
+Então por exemplo imaginando que o algoritmo seja um programa
+
+145
+00:12:24,380 --> 00:12:30,060
+de vídeo o seu player de vídeo ele tem um algoritmo lá para fazer todo o processamento do vídeo mas
+
+146
+00:12:30,080 --> 00:12:36,360
+o que é que ele recebe como um insumo como entrada ele recebe o arquivo do vídeo e o que é que ele gera
+
+147
+00:12:36,360 --> 00:12:42,990
+como resultado do processamento ele gera a imagem no monitor e gerou o áudio saindo do fone de ouvido
+
+148
+00:12:43,330 --> 00:12:46,500
+ou numa caixa de som da forma como tivesse sido configurado.
+
+149
+00:12:47,160 --> 00:12:53,760
+Então você percebe que os algoritmos mesmo os algoritmos da vida real por exemplo o velho algoritmo
+
+150
+00:12:53,760 --> 00:12:59,880
+da receita de bolo de bolo tem um conjunto de ingredientes que são as minhas entradas.
+
+151
+00:12:59,880 --> 00:13:06,900
+Esses ingredientes eles são processados seguindo a seqüência passo a passo e no final ele gera o bolo
+
+152
+00:13:06,900 --> 00:13:07,770
+com a resposta.
+
+153
+00:13:08,250 --> 00:13:15,030
+Então existem algoritmos que não têm entrada ele simplesmente processa um determinado conjunto de passos
+
+154
+00:13:15,220 --> 00:13:16,800
+dá uma saída.
+
+155
+00:13:16,830 --> 00:13:22,600
+Existem algoritmos que têm entrada processa os dados mas não gera nenhuma saída.
+
+156
+00:13:22,620 --> 00:13:29,010
+Existem outros algoritmos que nem têm entrada nem tem saída ele simplesmente processa alguma coisa e
+
+157
+00:13:29,010 --> 00:13:32,460
+nem retorna nada e nem recebe nada como parâmetro.
+
+158
+00:13:32,460 --> 00:13:37,290
+Eu sei que nesse momento pode parecer um tanto abstrato imaginar para para que segue uma sequência de
+
+159
+00:13:37,290 --> 00:13:42,240
+passos que não recebe nem um dado de entrada e que não gera nenhum saída.
+
+160
+00:13:42,240 --> 00:13:45,230
+Por incrível que pareça são extremamente úteis.
+
+161
+00:13:45,480 --> 00:13:51,120
+Mas por enquanto não faz muito sentido ficar buscando diversos exemplos para tentar mostrar a cada um
+
+162
+00:13:51,120 --> 00:13:56,190
+desses cenários o importante é que você percebe essa figura e entenda a lógica dela.
+
+163
+00:13:56,310 --> 00:14:04,080
+Eu tenho dados de entrada serão processado pelo meu algoritmo que gera uma saída que também são dados
+
+164
+00:14:04,080 --> 00:14:10,260
+então se você pensar do ponto de vista de verbos e substantivos os meus dados seguindo o meu substantivo
+
+165
+00:14:10,260 --> 00:14:12,860
+seriam as coisas que eu uso para processar.
+
+166
+00:14:13,440 --> 00:14:20,460
+O algoritmo é justamente o verbo ação de transformar esses dados em alguma outra coisa e gerar uma saída
+
+167
+00:14:20,790 --> 00:14:26,520
+embora como eu já mencionei existem algoritmos que não têm entrada e por isso que não tem saída.
+
+168
+00:14:26,520 --> 00:14:33,180
+Existe algoritmo que tem entrada e saída mas durante o uso a gente vai percebendo essas variações que
+
+169
+00:14:33,180 --> 00:14:38,910
+existem nos algoritmos lá na frente vou falar sobre o método você vai perceber a relação e como chegar
+
+170
+00:14:38,910 --> 00:14:47,280
+lá nós vamos perceber que nem sempre é necessário receber algo ou retornar algo para que o algoritmo
+
+171
+00:14:47,280 --> 00:14:48,170
+seja útil.
+
+172
+00:14:48,240 --> 00:14:55,200
+Os algoritmos eles podem ser representados de diversas formas eles podem ser apresentados com linguagem
+
+173
+00:14:55,200 --> 00:15:03,010
+natural seria português inglês francês ela escreve a receita de bolo por exemplo você coloca por exemplo
+
+174
+00:15:03,070 --> 00:15:07,720
+as instruções ou seja passo a passo para ligar o sonho à festa também.
+
+175
+00:15:07,720 --> 00:15:13,650
+Você vai fazer isso em linguagem natural ou você pode usar linguagens artificiais como é o caso do Java
+
+176
+00:15:13,650 --> 00:15:16,840
+do Seixal API do JavaScript e PHP.
+
+177
+00:15:16,840 --> 00:15:22,660
+Todas essas linguagens de programação são linguagens artificiais ou mesmo as pseudo linguagens que são
+
+178
+00:15:22,660 --> 00:15:30,010
+linguagens que não são interpretadas no próprio computador mas são usadas para te ensinar os princípios
+
+179
+00:15:30,010 --> 00:15:34,260
+por trás e o algoritmo é feito em linguagem artificial.
+
+180
+00:15:34,270 --> 00:15:40,890
+Então você coloca a criação de variáveis definem os seus passos cria um certo formalismo ali para você
+
+181
+00:15:40,950 --> 00:15:42,230
+representar o seu algoritmo.
+
+182
+00:15:42,520 --> 00:15:48,940
+Existem outras formas formas visuais por exemplo com o fluxo programa que é muito comum você usar para
+
+183
+00:15:48,940 --> 00:15:54,300
+definir o fluxo na empresa para definir um algoritmo ou qualquer coisa relacionada com esse passo com
+
+184
+00:15:54,330 --> 00:15:57,310
+a tomada de decisões ou mesmo repetições.
+
+185
+00:15:57,310 --> 00:16:00,410
+Você consegue representar isso de forma visual com o fluxo.
+
+186
+00:16:00,730 --> 00:16:06,170
+Então um exemplo de linguagem natural como já citei é a receita de bolo onde você tem lá seus ingredientes
+
+187
+00:16:06,170 --> 00:16:13,790
+sendo listados é a forma que você vai misturar esses ingredientes para fazer a mistura inicial.
+
+188
+00:16:13,790 --> 00:16:19,960
+Quanto tempo você mexe como você bota no forno a temperatura e todo o detalhamento para você criar o
+
+189
+00:16:19,960 --> 00:16:22,790
+bolo que é que você precisa fazer para sair.
+
+190
+00:16:22,840 --> 00:16:28,030
+Um conjunto de ingredientes faz a seqüência de passos e chegar ao resultado final.
+
+191
+00:16:28,030 --> 00:16:35,200
+Como já falei também um fluxo grama é uma representação visual onde você tem algumas figuras padronizadas
+
+192
+00:16:35,200 --> 00:16:38,820
+como por exemplo o losango é uma tomada de decisão.
+
+193
+00:16:38,860 --> 00:16:42,700
+Você chega a uma determinada decisão e vê a nota é maior a 7.
+
+194
+00:16:42,700 --> 00:16:49,420
+Se for faça o processamento olhar o lado se não for faça o processamento de recuperação então é uma
+
+195
+00:16:49,420 --> 00:16:52,680
+forma bastante efetiva de você comunicar.
+
+196
+00:16:52,720 --> 00:16:55,570
+A lógica é a seqüência de passos do seu algoritmo.
+
+197
+00:16:55,570 --> 00:17:01,450
+Por exemplo é uma outra forma é você usar pseudo linguagem com a linguagem que já segue os princípios
+
+198
+00:17:01,840 --> 00:17:06,430
+da linguagem de programação com um certo formalismo para você fazer as coisas.
+
+199
+00:17:06,460 --> 00:17:12,280
+Só que a linguagem mais comodidade para você aprender como se faz um programa a partir de uma linguagem
+
+200
+00:17:12,610 --> 00:17:15,290
+como por exemplo Portugal é muito conhecida.
+
+201
+00:17:15,490 --> 00:17:24,400
+Então nesse caso eu definiu um algoritmo que eu chamei soma de dois valores na Linha 2 eu criei um Apache
+
+202
+00:17:24,580 --> 00:17:32,080
+para declarar as variáveis eu coloquei declarei as variáveis soma a e b e essas três variáveis são um
+
+203
+00:17:32,080 --> 00:17:39,520
+tipo inteiro como declarei na Linha 3 e aí na Linha 4 até a linha 9 definiu um bloco começando na Linha
+
+204
+00:17:39,520 --> 00:17:46,450
+4 e terminando na linha 9 tem um bloco de código e aí dentro desse bloco tem uma seqüência de passos
+
+205
+00:17:46,450 --> 00:17:54,100
+para justamente somar aos dois valores então na linha 5 eu coloco digite dois números na linha 6 eu
+
+206
+00:17:54,100 --> 00:18:02,410
+leio o número a e b na linha 7 eu faço a soma propriamente dita somam a mais b e atribui o resultado
+
+207
+00:18:02,760 --> 00:18:03,940
+à variável soma.
+
+208
+00:18:04,000 --> 00:18:10,780
+Isso na linha 7 e por último eu escrevo o resultado da soma provavelmente na tela do usuário.
+
+209
+00:18:11,080 --> 00:18:17,920
+Então você percebe que eu consegui definir se esse algoritmo segue esse passo de uma forma mais formal
+
+210
+00:18:18,310 --> 00:18:22,540
+já mais próximo das linguagens artificiais de programação que a gente conhece.
+
+211
+00:18:22,810 --> 00:18:29,890
+Então pra finalizar eu queria só falar um pouquinho sobre a relação que existe entre algoritmo e linguagem
+
+212
+00:18:29,890 --> 00:18:36,160
+de programação em linguagens de programação são organizadas muitas vezes em níveis por exemplo linguagens
+
+213
+00:18:36,160 --> 00:18:37,640
+de baixo nível.
+
+214
+00:18:37,780 --> 00:18:42,940
+Você quer dizer que a linguagem ela está bem próxima da linguagem de máquina ou seja ela está muito
+
+215
+00:18:42,940 --> 00:18:47,160
+mais longe do ser humano e mais próximo do mundo binário do zero.
+
+216
+00:18:47,200 --> 00:18:52,120
+Você pega por exemplo a Assembleia em que a linguagem que está muito próxima da máquina.
+
+217
+00:18:52,300 --> 00:18:57,280
+Então pra você fazer algo simples em assembleia como por exemplo somar dois números você vai ter que
+
+218
+00:18:57,280 --> 00:19:02,260
+mover registradores e fazer determinadas coisas que não linguagens de alto nível.
+
+219
+00:19:02,350 --> 00:19:05,730
+Uma linguagem que está mais próximo do ser humano você não precisaria.
+
+220
+00:19:05,980 --> 00:19:13,300
+Então o seu algoritmo fazer minha Assembleia vai ter sei lá 30 40 passos pra fazer determinado trabalho
+
+221
+00:19:13,720 --> 00:19:16,960
+e às vezes você consegue fazer esse mesmo algoritmo.
+
+222
+00:19:16,960 --> 00:19:21,210
+Uma linguagem de alto nível como Java em duas linhas ou apenas por exemplo.
+
+223
+00:19:21,430 --> 00:19:27,550
+Então a forma como você vai desenhar o seu conjunto de passos o seu algoritmo vai ser sensível à escolha
+
+224
+00:19:27,550 --> 00:19:28,300
+da linguagem.
+
+225
+00:19:28,420 --> 00:19:33,700
+Então é importante que você perceba essa relação porque dependendo da linguagem ela vai te trazer um
+
+226
+00:19:33,700 --> 00:19:39,280
+determinado conjunto de facilidades isso vai fazer com que o turismo diminua o tamanho o que é uma coisa
+
+227
+00:19:39,280 --> 00:19:40,090
+desejável.
+
+228
+00:19:40,090 --> 00:19:43,070
+Quanto menos olho escrevemos melhor vai ser.
+
+229
+00:19:43,250 --> 00:19:48,640
+E algumas outras linguagens você não vai ter a mesma facilidade e provavelmente esse algoritmo vai ter
+
+230
+00:19:48,640 --> 00:19:55,240
+um conjunto maior de Minas então esse foi o resumo do resumo do resumo de algoritmo.
+
+231
+00:19:55,240 --> 00:20:01,480
+Falando as principais características um ano um pouco o algoritmo fala algumas verdades importantes
+
+232
+00:20:01,480 --> 00:20:07,500
+sobre a origem mas fique tranquilo que durante o curso nós vamos trabalhar esse tema do algoritmo e
+
+233
+00:20:07,540 --> 00:20:10,250
+também nas estruturas de dados que é o tema da próxima aula.
+
+234
+00:20:10,450 --> 00:20:17,110
+De forma muito prática e em cima desses exercícios dá se parte daquele que for falando durante as aulas
+
+235
+00:20:17,110 --> 00:20:21,440
+eu tenho certeza que esses dois conceitos vão começar a fazer sentido pra você.
+
+236
+00:20:21,610 --> 00:20:25,450
+Principalmente porque nós vamos praticá la até a próxima aula de estruturas de dados.

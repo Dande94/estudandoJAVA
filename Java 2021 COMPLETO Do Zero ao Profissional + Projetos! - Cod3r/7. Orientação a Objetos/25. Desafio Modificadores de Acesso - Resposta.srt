@@ -1,0 +1,399 @@
+1
+00:00:00,180 --> 00:00:07,200
+Para o pessoal por padrão os nossos atributos construtores metros estão com um nível de visibilidade
+
+2
+00:00:07,220 --> 00:00:14,640
+pacote no momento que eu tirei a classe de teste fora do pacote automaticamente quebrou porque tudo
+
+3
+00:00:14,640 --> 00:00:20,530
+foi definido com o nível de visibilidade para o pacote com exceção da própria classe que tem por padrão
+
+4
+00:00:20,530 --> 00:00:21,330
+ao nível público.
+
+5
+00:00:21,330 --> 00:00:27,870
+Quando você criou a nova classe por padrão Java colocou o público mas você também pode definir o nível
+
+6
+00:00:27,870 --> 00:00:30,310
+de visibilidade da classe para esse pacote.
+
+7
+00:00:30,330 --> 00:00:36,330
+Se você quiser tá bom então você pode colocar classe Carro pode ter visibilidade e pacote mas não é
+
+8
+00:00:36,330 --> 00:00:37,590
+suportado.
+
+9
+00:00:37,680 --> 00:00:44,340
+Você colocar por exemplo o protected proibitivos se você quiser colocar aqui algo que você não consegue
+
+10
+00:00:44,340 --> 00:00:45,630
+colocar isso não pode.
+
+11
+00:00:45,890 --> 00:00:52,180
+E também para o Pateta também não é o nível de visibilidade suportado por uma classe tem algumas exceções
+
+12
+00:00:52,180 --> 00:00:57,690
+se você tiver um winner Class mais clássico você coloca diretamente dentro de um arquivo o nível de
+
+13
+00:00:57,690 --> 00:01:03,250
+visibilidade pública ou você simplesmente coloca para seu nível de visibilidade pacote.
+
+14
+00:01:03,280 --> 00:01:07,710
+Em outras palavras aquela classe só é visível dentro daquele pacote.
+
+15
+00:01:07,950 --> 00:01:13,500
+Então volta aqui para o público quer que nós vamos precisar pra distanciar um carro fora da classe você
+
+16
+00:01:13,500 --> 00:01:19,260
+tem que colocar esse público mais em nenhum momento os dois estão assinando um carro que estão sem o
+
+17
+00:01:19,260 --> 00:01:21,330
+Civic instancia uma Ferrari.
+
+18
+00:01:21,580 --> 00:01:27,900
+Então não necessariamente eu preciso tornar o construtor de carro público mais eu preciso tornar o construtor
+
+19
+00:01:27,900 --> 00:01:34,210
+de Civic públicos e eu preciso transformar também o construtor de Ferrari para ser público então aqui
+
+20
+00:01:34,650 --> 00:01:40,160
+eu coloco o público coloco o público como um Ferrari sei que estão no mesmo pacote.
+
+21
+00:01:40,470 --> 00:01:46,750
+Eu posso deixar o construtor de carro pra c visibilidade pacote ou mesmo se não quiser que o carro a
+
+22
+00:01:46,750 --> 00:01:48,990
+pessoa está o carro diretamente.
+
+23
+00:01:49,160 --> 00:01:55,980
+Eu posso colocar para o construtor de carro ser pop isso significa que esse custoso cara visível por
+
+24
+00:01:55,980 --> 00:01:57,900
+herança quando houver uma herança.
+
+25
+00:01:58,020 --> 00:02:01,860
+Ele vai conseguir acessar esse construtor ou seja vai conseguir chamar o Super.
+
+26
+00:02:01,860 --> 00:02:06,870
+Feito isso a gente já resolveu o problema da construção ou seja a linha 11 já não passa de um problema
+
+27
+00:02:07,320 --> 00:02:12,670
+mais o medo de acelerar como ele é algo que vai ser visível publicamente eu possa acessar ou chamar
+
+28
+00:02:12,670 --> 00:02:17,550
+um metro a acelerar fora do pacote não precisa ter ANSA para chamar o acelerador.
+
+29
+00:02:17,880 --> 00:02:23,730
+Então vou querer que dentro de carro o metro acelerasse de um metro público certo eu vou querer que
+
+30
+00:02:23,730 --> 00:02:25,740
+o método de frear também seja um metro.
+
+31
+00:02:25,750 --> 00:02:32,160
+Publique fazendo isso salvando a gente não vai ter mais um problema com relação ao carro.
+
+32
+00:02:32,280 --> 00:02:36,520
+O Caltech agora vai conseguir chamar o acelerador e conseguir também chama frear.
+
+33
+00:02:36,630 --> 00:02:43,590
+Tem uma observação interessante que é o seguinte se você pensar sobre escrever um método por exemplo
+
+34
+00:02:44,010 --> 00:02:47,850
+você nunca poderá diminuir o nível de visibilidade.
+
+35
+00:02:47,850 --> 00:02:51,920
+Eu não posso transformar um método público em um método protético.
+
+36
+00:02:51,920 --> 00:02:52,270
+Por quê.
+
+37
+00:02:52,280 --> 00:02:55,000
+Porque eu estou diminuindo a visibilidade.
+
+38
+00:02:55,020 --> 00:02:56,450
+No Japão não permite isso.
+
+39
+00:02:56,440 --> 00:03:04,040
+Quando você sobre escreve o metro você tem que manter a mesma visibilidade ou aumentar a visibilidade
+
+40
+00:03:04,050 --> 00:03:05,250
+por exemplo.
+
+41
+00:03:05,250 --> 00:03:10,670
+Existe um método que eu recebo como padrão que é um clone de O Clone ele tem um nível de visibilidade
+
+42
+00:03:10,850 --> 00:03:13,170
+protected você consegue ver pelo símbolo.
+
+43
+00:03:13,170 --> 00:03:18,640
+Então se você pedir para implementar o clone você vai ver que o nível de visibilidade é protected.
+
+44
+00:03:18,900 --> 00:03:24,240
+Mas eu posso transformar esse nível de visibilidade para o público isso não gera um erro está certo.
+
+45
+00:03:24,690 --> 00:03:30,210
+Mas o que eu não posso fazer é diminuir o nível de visibilidade então nesse caso se eu quiser sobre
+
+46
+00:03:30,210 --> 00:03:35,790
+escrever acelerar eu tenho que manter o nível de visibilidade público aí sim eu consigo sobre escrever
+
+47
+00:03:35,790 --> 00:03:42,270
+esse problema ainda vou deixar isso aqui comentado mas vou colocar que o público só pra fazer uma alusão
+
+48
+00:03:42,270 --> 00:03:47,870
+de que se você quiser sobre escrever tem que colocar público da mesma forma que eu vim aqui.
+
+49
+00:03:48,090 --> 00:03:56,550
+Sobre escrever o metro string ou string esse método ele só pode ser sobrescrito por mais que esteja
+
+50
+00:03:56,550 --> 00:03:58,650
+correto a assinatura do método.
+
+51
+00:03:58,890 --> 00:04:05,250
+Ele não vai permitir porque o que você tem que definir o livro de visibilidade pública porque se você
+
+52
+00:04:05,250 --> 00:04:11,520
+não informar nada significa que isso quer visibilidade pacote e você não pode diminuir na hora de sobre
+
+53
+00:04:11,520 --> 00:04:14,880
+escrever um metro não pode diminuir o nível de visibilidade.
+
+54
+00:04:14,880 --> 00:04:22,400
+Dito isso nós já resolvemos o caso do carro que é basicamente a gente precisou tornar o custo do público
+
+55
+00:04:22,690 --> 00:04:27,620
+e precisamos tornar o metro acelerar o metro frear públicos também.
+
+56
+00:04:27,630 --> 00:04:30,650
+O próximo passo é a gente resolver o jogo.
+
+57
+00:04:30,830 --> 00:04:37,250
+Com relação àquele carro existe o Delta certo deve ter a velocidade atual.
+
+58
+00:04:37,350 --> 00:04:42,570
+Você pode querer por exemplo transmitir um dado por herança então você pode querer usar aqui algo para
+
+59
+00:04:42,570 --> 00:04:49,080
+ser protegido e usar também como sempre o teto é a velocidade máxima como é algo final que não muda.
+
+60
+00:04:49,200 --> 00:04:54,260
+Se você quiser colocar como o público não tem problema porque uma vez que foi distanciado um dado público
+
+61
+00:04:54,250 --> 00:04:56,670
+o que nunca muda não tem tanto problema.
+
+62
+00:04:56,670 --> 00:04:57,270
+Por quê.
+
+63
+00:04:57,330 --> 00:05:03,360
+Isso não irá gerar nenhum efeito colateral já ele é uma constante atualmente se você quiser contar com
+
+64
+00:05:03,360 --> 00:05:05,430
+o público não seria um problema.
+
+65
+00:05:05,850 --> 00:05:10,540
+Então aqui no jogo é que a gente tem problema mas não estamos conseguindo acessar nenhum construtor
+
+66
+00:05:10,560 --> 00:05:13,050
+de monstro nem um construtor de herói.
+
+67
+00:05:13,410 --> 00:05:19,290
+Então para isso eu vou precisar transformar aqui onde o povo chutou pra ser públicos de herói.
+
+68
+00:05:19,290 --> 00:05:26,240
+Vou precisar transformar o construtor de monstro também em praça pública públicos e de públicos.
+
+69
+00:05:26,390 --> 00:05:30,670
+A priori eu não preciso mexer no construtor de jogadores.
+
+70
+00:05:30,710 --> 00:05:35,970
+Tá mas se eu quiser por exemplo colocar um protesto de time garantir que toda a herança mesmo que esteja
+
+71
+00:05:35,970 --> 00:05:38,090
+num pacote diferente continua funcionando.
+
+72
+00:05:38,100 --> 00:05:42,210
+Ok eu posso querer aqui fazer o que.
+
+73
+00:05:42,300 --> 00:05:45,410
+Além disso o atacar ele esteja disponível.
+
+74
+00:05:45,660 --> 00:05:52,280
+Então tem que mexer lá dentro do jogador e colocar essa função de atacar pra a função pública já que
+
+75
+00:05:52,860 --> 00:05:54,930
+publicamente eu vou usar a função atacar.
+
+76
+00:05:55,010 --> 00:06:00,550
+é um outro problema que nós mostrei aqui em herói já que eu estou escrevendo esse método.
+
+77
+00:06:00,720 --> 00:06:08,250
+Inclusive posso colocar aqui o Morais pra deixar claro que o subscrevem mas isso não influencia digamos
+
+78
+00:06:08,250 --> 00:06:13,800
+assim o fato sobre escrever não é só a validação e aqui eu preciso colocar público porque eu não posso
+
+79
+00:06:13,800 --> 00:06:17,400
+diminuir o nível de visibilidade como eu falei pra vocês.
+
+80
+00:06:17,400 --> 00:06:20,780
+Beleza parte do nosso código está funcionado.
+
+81
+00:06:20,830 --> 00:06:27,730
+Está faltando alguns pequenos detalhes como resolver o caso do X e do y então nesse caso eu vou por
+
+82
+00:06:27,720 --> 00:06:35,490
+em quatro e fazer o seguinte eu vou lá e jogador vou transformar isso aqui é o vida que eu posso definiu
+
+83
+00:06:35,500 --> 00:06:39,840
+de vida vai ser pop não estou usando diretamente o vídeo dentro do jogo.
+
+84
+00:06:39,840 --> 00:06:43,690
+Pelo que eu saiba não estou usando piloto estou usando o vida certo.
+
+85
+00:06:43,810 --> 00:06:50,280
+Eu vou fazer o seguinte andar também tem que ser público então acho mexer aqui dentro de jogador vou
+
+86
+00:06:50,370 --> 00:06:56,940
+colocar também pra se adaptar a esse público bacana que público que temporariamente ele faz o seguinte
+
+87
+00:06:56,940 --> 00:07:03,810
+temporariamente eu vou colocar esses três atributos pra ser públicos então colocar público vida publicou.
+
+88
+00:07:03,840 --> 00:07:07,640
+O valor de x é o valor de Ibson.
+
+89
+00:07:07,740 --> 00:07:13,800
+Certo Isso vai corrigir nosso problema se eu tentar executar aqui o jogo você vai ver que vai funcionar
+
+90
+00:07:13,800 --> 00:07:15,810
+se eu tentar executar o Caltech.
+
+91
+00:07:16,200 --> 00:07:23,370
+Você vai ver que vai funcionar na próxima aula vou tentar evitar fazer esses atributos serem públicos
+
+92
+00:07:23,370 --> 00:07:29,250
+eu vou substituir esse público pelo Paraiba pra que a gente possa introduzir um conceito que é muito
+
+93
+00:07:29,250 --> 00:07:33,700
+usado em Java que é o conceito de Guedes e sete são conceitos importantes.
+
+94
+00:07:33,700 --> 00:07:36,230
+Tem uma relação sim com encapsulamento.
+
+95
+00:07:36,480 --> 00:07:38,430
+Eu vou mostrar pra vocês na próxima aula.
+
+96
+00:07:38,670 --> 00:07:39,750
+Então fico por aqui.
+
+97
+00:07:39,840 --> 00:07:45,870
+Nós corrigimos o nosso código aplicamos os níveis de visibilidade corretos e na próxima aula eu vou
+
+98
+00:07:46,110 --> 00:07:49,760
+substituir esse público por valores privados.
+
+99
+00:07:49,860 --> 00:07:55,080
+A gente vai criar metros de série para que a gente possa acessar esses valores então fico por aqui até
+
+100
+00:07:55,140 --> 00:07:59,730
+proximal pra gente fazer essa mudança entender um pouco mais de encapsulamento na prática e até.

@@ -1,0 +1,151 @@
+1
+00:00:00,210 --> 00:00:06,840
+Pessoal agora quero lançar para vocês o desafio do nosso módulo e o desafio vai ser o seguinte eu quero
+
+2
+00:00:06,840 --> 00:00:16,350
+que vocês criem três classes uma classe que será classe pessoa a outra classe será classe comida e a
+
+3
+00:00:16,350 --> 00:00:18,880
+terceira classe vai se juntar.
+
+4
+00:00:18,980 --> 00:00:23,910
+Então vai ser o seguinte a classe jantar vai ter o metro meio você vai implementar o algoritmo pra criar
+
+5
+00:00:23,910 --> 00:00:31,110
+uma pessoa instancia uma pessoa instancia duas comidas e fazer com que a pessoa coma a comida eu vou
+
+6
+00:00:31,110 --> 00:00:32,010
+mostrar pra vocês.
+
+7
+00:00:32,010 --> 00:00:38,480
+Basicamente quero que vocês façam a classe Pessoa vai ter o nome da pessoa e vai ter o peso da pessoa
+
+8
+00:00:38,490 --> 00:00:45,060
+o peso pode ser um bolo inteiro ou mesmo pode ser uma boa tanto faz a pessoa vai além de ter o nome
+
+9
+00:00:45,060 --> 00:00:46,370
+dela que vai ser um estilingue.
+
+10
+00:00:46,710 --> 00:00:54,330
+Além de ter o peso que vai dar bom vai ter um método chamado comm e esse método como ele vai receber
+
+11
+00:00:54,330 --> 00:01:02,880
+como parâmetro um outro objeto da classe comida a classe comida também vai ter o nome da comida e vai
+
+12
+00:01:02,880 --> 00:01:06,230
+ter o peso da comida que também pode ser um dado.
+
+13
+00:01:06,600 --> 00:01:13,680
+Quando você passar o objeto comida pra um método comer dentro da pessoa certa tomara que fique claro
+
+14
+00:01:13,680 --> 00:01:19,800
+isso você vai pegar o peso da comida e vai acrescentar o peso para o peso da pessoa.
+
+15
+00:01:19,800 --> 00:01:25,350
+De tal forma que depois que você chamar um método como esse passando a instância de comida o peso daquela
+
+16
+00:01:25,350 --> 00:01:31,760
+comida será acrescentado ao peso da pessoa de tal forma que a pessoa vai ganhando peso.
+
+17
+00:01:31,890 --> 00:01:37,080
+A partir do momento que você for chamando o método come e aí a classe jantar que vai ser a terceira
+
+18
+00:01:37,080 --> 00:01:40,830
+classe criada lá dentro de jantar você coloca o metro no meio.
+
+19
+00:01:41,040 --> 00:01:50,160
+Você instancia uma comida por exemplo onde a comida pode ser no próprio confortou feijão da comida 0,2
+
+20
+00:01:50,160 --> 00:01:59,910
+2 3 ou seja duzentos e 23 gramas zero contra 2/3 o peso da comida sei lá feijão criou a segunda comida
+
+21
+00:02:00,180 --> 00:02:08,850
+e a comida C2 recebe mil comida passado o nome da comida arroz e o peso dela 0 ponto trazendo 0 ponto
+
+22
+00:02:08,870 --> 00:02:10,950
+3 seria 300 gramas.
+
+23
+00:02:10,950 --> 00:02:17,400
+Agora você já tem a comida Feijão que é o seu 1 a comida arroz que é o C2 e ela se vai criar uma pessoa
+
+24
+00:02:17,670 --> 00:02:20,280
+pessoa PSB ou pessoa.
+
+25
+00:02:20,450 --> 00:02:27,700
+E aí você pega ponto que comeu ou seja um metro de dentro da pessoa que vai esperar receber um objeto
+
+26
+00:02:27,730 --> 00:02:33,720
+tipo comida e dentro desse Metro você vai pagar o peso da comida e acrescentar o peso a comida no peso
+
+27
+00:02:33,720 --> 00:02:34,440
+da pessoa.
+
+28
+00:02:34,440 --> 00:02:40,470
+De tal forma que se a pessoa comeu 300 gramas de arroz vai engordar 300 gramas e no final você murcha
+
+29
+00:02:40,800 --> 00:02:44,590
+no console o peso antes de comer o peso depois de comer.
+
+30
+00:02:44,610 --> 00:02:50,700
+Certo O nome da pessoa é o peso antes e o peso depois acho que deve ter ficado claro sinal na próxima
+
+31
+00:02:50,700 --> 00:02:54,140
+aula vou mostrar mais ou menos como é que eu vou estruturar o código.
+
+32
+00:02:54,160 --> 00:02:58,800
+Lá você pode pausar em determinados momentos e tentar fazer todo o resto do desafio.
+
+33
+00:02:58,800 --> 00:03:03,300
+Mas eu acho que deu pra entender pra explicação se vai criar três classes a primeira classe de comida
+
+34
+00:03:03,300 --> 00:03:05,580
+com peso e o nome da comida.
+
+35
+00:03:05,580 --> 00:03:11,610
+Depois a classe Pessoa também vai ter peso e nome e finalmente a classe jantar que vai ter um metro
+
+36
+00:03:11,610 --> 00:03:17,790
+e meio e lá você vai criar duas comidas criar a pessoa faz a pessoa comer comida e mostre o peso antes
+
+37
+00:03:17,790 --> 00:03:22,810
+de comer e o peso depois para realmente você ter a garantia que a pessoa engordou depois de comer.
+
+38
+00:03:22,980 --> 00:03:26,490
+Então fico por aqui na próxima aula do a resposta o desafio é até lá.

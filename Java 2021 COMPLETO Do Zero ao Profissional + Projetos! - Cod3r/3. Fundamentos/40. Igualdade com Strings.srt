@@ -1,0 +1,335 @@
+1
+00:00:00,190 --> 00:00:07,380
+Só agora que a gente passou pelos operadores os operadores binários Honório ternário eu quero voltar
+
+2
+00:00:07,380 --> 00:00:13,860
+rapidinho para uma questão com relação a string que é algo muito importante que é quando você faz comparação
+
+3
+00:00:13,860 --> 00:00:19,980
+distrital sai a pensar fazer comparação insistindo usando um operador relacional igual igual ou quem
+
+4
+00:00:20,000 --> 00:00:25,320
+mais ter situações que isso não vai ser legal certo eu vou mostrar pra vocês agora eu vou criar aqui
+
+5
+00:00:26,130 --> 00:00:32,600
+classe então vou colocar aqui uma nova classe chamado tipo string que a gente tem uma classe com esse
+
+6
+00:00:32,600 --> 00:00:39,270
+nome então não posso usar a mesma eu vou colocar aqui é quase pra gente trabalhar especificamente da
+
+7
+00:00:39,270 --> 00:00:40,780
+questão do uso aqui.
+
+8
+00:00:41,160 --> 00:00:48,770
+Então se você faz algo desse tipo define uns 32 e coloque igual igual aos 32.
+
+9
+00:00:48,780 --> 00:00:55,230
+Esse resultado vai dar verdadeiro ou seja você tem um estado verdadeiro ou seja da falsa sensação de
+
+10
+00:00:55,230 --> 00:01:01,290
+qualquer vez que você for comparar duas estrias o resultado vai ser verdadeiro isso não é correto.
+
+11
+00:01:01,290 --> 00:01:07,750
+Por exemplo se eu criar aqui vou usar aqui embaixo na verdade ou criar aqui uma historinha assim vou
+
+12
+00:01:07,800 --> 00:01:17,850
+colocar eu vou colocar aqui um alô dois três vírgula e vou comparar aqui por exemplo dois igual igual
+
+13
+00:01:18,290 --> 00:01:20,280
+aqui obviamente fora né.
+
+14
+00:01:20,430 --> 00:01:28,020
+Igual a esse o resultado vai dar falso certo não são iguais embora o conteúdo dessas duas estrias sejam
+
+15
+00:01:28,020 --> 00:01:29,220
+verdadeiras.
+
+16
+00:01:29,220 --> 00:01:36,870
+Então nesse caso conforme que você tem é você usar dois pontos e gols a gente sabe que dentro e hoje
+
+17
+00:01:36,920 --> 00:01:44,760
+trim que é um objeto você tem a notação contra e onde uma série de funcionalidades e dentro dessas funcionalidades
+
+18
+00:01:44,760 --> 00:01:46,160
+você tem o ICS.
+
+19
+00:01:46,230 --> 00:01:50,570
+Aí sim eu posso colocá lo 2 e com os assim.
+
+20
+00:01:50,610 --> 00:01:58,140
+Agora o resultado será verdadeiro porque o idoso vai comparar os conteúdos e não vai entrar em qualquer
+
+21
+00:01:58,140 --> 00:02:04,710
+outra questão interna da linguagem existe algumas questões que eu pude strings e não vou entrar no mérito
+
+22
+00:02:05,040 --> 00:02:10,280
+nesse ponto do curso mas o fato é que isso aqui vai dar banho Nabeiro e quando você cria usando essa
+
+23
+00:02:10,290 --> 00:02:17,070
+forma não vai dar outro exemplo só pra mostrar pra vocês né tenazes não é forçação de barra colocar
+
+24
+00:02:17,070 --> 00:02:17,370
+isso.
+
+25
+00:02:17,400 --> 00:02:22,100
+Isso aqui acabou sendo forçação de barra porque num jogo muito difícil você criar um estilingue assim
+
+26
+00:02:22,140 --> 00:02:28,790
+mais você tiver um escambo por exemplo que coloca na entrada recebe mil.
+
+27
+00:02:29,150 --> 00:02:34,860
+Esse canal serve para a gente vai entender o que significa essa palavrinha mil mais para frente tem
+
+28
+00:02:34,860 --> 00:02:36,460
+que ter paciência né.
+
+29
+00:02:36,490 --> 00:02:41,280
+Alguns alunos ficam chateados porque eu não quero explicar tudo naquele momento não faz sentido explicar
+
+30
+00:02:41,280 --> 00:02:41,990
+tudo.
+
+31
+00:02:42,330 --> 00:02:48,420
+Se não seria um custo extremamente parar passaria aulas e aulas explicando cada palavra e no devido
+
+32
+00:02:48,420 --> 00:02:52,030
+tempo vai ter com certeza todos esses conceitos explicados.
+
+33
+00:02:52,030 --> 00:03:03,010
+Então quem coloca no close aqui colocar os 30min e assim o colocasse aqui pra ser esse e aqui colocar
+
+34
+00:03:03,050 --> 00:03:05,960
+PS2 recebe entrada.
+
+35
+00:03:06,040 --> 00:03:11,030
+Ponto Certo.
+
+36
+00:03:11,450 --> 00:03:13,260
+Pronto.
+
+37
+00:03:13,590 --> 00:03:23,760
+Feito isso agora tem um S2 e aí eu posso comparar aqui se o S2 igual S2 é igual a S2 e eu vou digitar
+
+38
+00:03:23,760 --> 00:03:30,030
+exatamente o valor de 2 pra bem se essa comparação vai dar verdadeiro falso estão.
+
+39
+00:03:30,590 --> 00:03:33,600
+Outro à espera no digital acordo candidate 2.
+
+40
+00:03:33,730 --> 00:03:35,810
+Então o resultado é falso.
+
+41
+00:03:35,820 --> 00:03:43,530
+às vezes você numa situação dessas pode até acontecer do usuário digitar por exemplo vários espaços
+
+42
+00:03:43,530 --> 00:03:46,450
+e colocar um s vários espaços.
+
+43
+00:03:46,470 --> 00:03:51,750
+Isso aqui obviamente seria completamente falso porque é um time diferente mas existe uma funcionalidade
+
+44
+00:03:51,900 --> 00:03:57,920
+da string chamada trim que eu posso colocar aqui algo que vai tirar os espaços em branco.
+
+45
+00:03:57,960 --> 00:03:58,650
+é isso.
+
+46
+00:03:58,950 --> 00:04:02,690
+Nesse caso aqui continua gerando um resultado falso.
+
+47
+00:04:02,940 --> 00:04:04,630
+O que são valores diferentes.
+
+48
+00:04:04,960 --> 00:04:12,350
+Mas se eu duplicar isso e usar o caos aí sim você vai ver que o Estado será aquele que eu espero tão
+
+49
+00:04:12,950 --> 00:04:13,880
+e caos.
+
+50
+00:04:13,920 --> 00:04:22,220
+Vou colocar aqui o S2 trem pagador que eu tenho em substituir o objeto e tirar esse igual.
+
+51
+00:04:22,300 --> 00:04:29,040
+Meu grande objetivo é que quando você tiver comparando strings você use o ICS não é igual certa usar
+
+52
+00:04:29,430 --> 00:04:36,030
+essa é a moral da louca estou querendo mostrar pra vocês nesse caso executado e eu vou colocar aquele
+
+53
+00:04:36,030 --> 00:04:43,140
+espaço espaço espaço 2 espaço espaço espaço por conta do trilho executado resulta o último resultado
+
+54
+00:04:43,270 --> 00:04:43,770
+do teste.
+
+55
+00:04:43,770 --> 00:04:44,960
+Vai dar em nada.
+
+56
+00:04:45,140 --> 00:04:51,230
+Se eu tirar o trem obviamente e colocar sem espaço em branco não vai ter problema.
+
+57
+00:04:51,240 --> 00:04:58,230
+2 Vai dar verdadeiro mas se está novamente e colocar você digital aqui ao espaço.
+
+58
+00:04:58,230 --> 00:05:05,720
+2 espaço espaço aqui embaixo não tem trilha mas está e o resultado acabou dando outro certo.
+
+59
+00:05:05,720 --> 00:05:06,330
+Por quê.
+
+60
+00:05:06,680 --> 00:05:12,410
+Porque no caso o próprio marketing ele já tirou os espaços em branco certo agora que eu lembrei que
+
+61
+00:05:12,410 --> 00:05:19,160
+o Max tira os espaços brancos e o maxilar não tira certo o maxilar que vai deixar exatamente da forma
+
+62
+00:05:19,160 --> 00:05:20,060
+que você digitou.
+
+63
+00:05:20,450 --> 00:05:25,910
+Então se eu colocar espaços brancos aqui você vai ver que o resultado vai dar falso porque nesse caso
+
+64
+00:05:25,910 --> 00:05:31,240
+não tem o TRIM mas se usá lo tem aqui um ponto triplo.
+
+65
+00:05:31,520 --> 00:05:34,000
+Aí sim esse vai tirar os espaços brancos.
+
+66
+00:05:34,030 --> 00:05:42,710
+Elas estarão salvando aqui 2.0 e as equipas novamente aqui que a gente vai ver que o time vai fazer
+
+67
+00:05:42,710 --> 00:05:44,710
+diferença com o que ele vai tirar os espaços em branco.
+
+68
+00:05:44,720 --> 00:05:51,560
+Tanto é que se eu jogar pra você o resultado de S2 aqui só pra vocês tirarem a prova dos nove.
+
+69
+00:05:52,040 --> 00:05:58,880
+Se eu colocar vários espaços dois vários espaços e você vai ver o que ele realmente colocou todos os
+
+70
+00:05:58,880 --> 00:06:01,830
+espaços aqui como imprimir no console.
+
+71
+00:06:01,910 --> 00:06:06,840
+Isso eu colocá la na China já faz automaticamente.
+
+72
+00:06:07,100 --> 00:06:10,030
+Ele já tira né pra gente nos espaços em branco.
+
+73
+00:06:10,050 --> 00:06:16,280
+Então nesse caso não adianta você colocar os espaços brancos que eu já tirei isso pra gente é só um
+
+74
+00:06:16,280 --> 00:06:22,000
+detalhe aqui entre marchinha mexe lá no mais importante para a gente nessa aula entender o igualzinha
+
+75
+00:06:22,040 --> 00:06:24,200
+e quando você for comparar as strings.
+
+76
+00:06:24,200 --> 00:06:29,650
+Cuidado pra não comparar usando o símbolo de igual porque habitualmente se você criar um abstraindo
+
+77
+00:06:29,660 --> 00:06:33,410
+dessa forma ou mesmo pegar uns tinha a parte de cana.
+
+78
+00:06:33,710 --> 00:06:37,770
+Quando você tentar comparar os valores são iguais eles vão mostrar que não sou diferente.
+
+79
+00:06:37,770 --> 00:06:43,710
+Então pra isso você tem o ICMS que é um método extremamente importante na histria decidiu comparar se
+
+80
+00:06:43,730 --> 00:06:50,360
+duas três são iguais é algo essencial na programação você muito provavelmente vai enfrentar isso várias
+
+81
+00:06:50,360 --> 00:06:52,510
+vezes na sua vida de programador certo.
+
+82
+00:06:52,560 --> 00:06:58,280
+Então para já atenção que não compara com igual igual porque algumas vezes vai dar certo mas e outras
+
+83
+00:06:58,280 --> 00:06:59,210
+vezes não vai dar.
+
+84
+00:06:59,210 --> 00:07:00,520
+Isso pode ser um problema grande.

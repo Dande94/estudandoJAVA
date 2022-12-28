@@ -1,0 +1,183 @@
+1
+00:00:00,330 --> 00:00:06,030
+Assim com um comando de rapidez também é muito importante VIM JUNTO COM O Delete também é essencial
+
+2
+00:00:06,230 --> 00:00:10,860
+para que você não delete sua tabela inteira a não ser claro que você queira de fato escolher a tabela
+
+3
+00:00:10,860 --> 00:00:17,040
+inteira você tem que usar o zero para evitar qualquer problema seu ou Breaking Bad só pra mostrar pra
+
+4
+00:00:17,040 --> 00:00:22,240
+vocês que ele bate ponto trava na hora de executar comando delete.
+
+5
+00:00:22,500 --> 00:00:26,760
+Então se ele abre aqui rapidinho ou salva que só aqui
+
+6
+00:00:33,420 --> 00:00:40,270
+não abriu aqui clicar duas vezes e clicar aqui com o botão direito o nosso que você pode fazer bem clicar
+
+7
+00:00:40,270 --> 00:00:43,090
+com o botão direito e dizer que esse é o esquema default.
+
+8
+00:00:43,180 --> 00:00:48,470
+7 default esquema significa que ele vai ficar marcado aqui diferente dos outros.
+
+9
+00:00:48,760 --> 00:00:53,670
+E aí você vai qualquer comando que você executar aqui você vai executar nesse esquema então vou só dar
+
+10
+00:00:53,670 --> 00:00:56,190
+uns 1 aqui clicando aqui.
+
+11
+00:00:57,740 --> 00:01:07,160
+Colocar bem grande colocar aquele delete from estados se eu simplesmente desaparece de comando pois
+
+12
+00:01:07,450 --> 00:01:13,190
+seu comando é o mesmo clicando nesse rádio também executa você vai ver que ele deu um erro dizendo o
+
+13
+00:01:13,190 --> 00:01:20,900
+seguinte você está usando o seu efeito deixe mude se você quiser fazer um update sem o e você tem que
+
+14
+00:01:20,900 --> 00:01:23,180
+desabilitar essa possibilidade.
+
+15
+00:01:23,180 --> 00:01:30,120
+Por padrão aqui no Ocidente vem habilitar tem uma Flags em que você pode colocar 6 filmou em off alguma
+
+16
+00:01:30,170 --> 00:01:34,860
+coisa do tipo você pode colocar inclusive na linha de comando mesmo nas configurações set.
+
+17
+00:01:34,880 --> 00:01:41,200
+Isso é algo do Arquimedes serve para evitar que você faça um update ou mesmo delete sem então.
+
+18
+00:01:41,210 --> 00:01:43,240
+Aqui nós vamos criar um novo arquivo.
+
+19
+00:01:43,420 --> 00:01:49,660
+Vou colocar aqui o nome do arquivo pra excluir estados pontas Kelly nós vamos colocar aqui ou delete
+
+20
+00:01:49,950 --> 00:01:56,390
+que é o comando usado para excluir o registro do banco de dados não vou dizer as colunas porque eu vou
+
+21
+00:01:56,390 --> 00:02:03,890
+excluir uma linha inteira e não algumas colunas então foram listados ali e eu quero apagar algumas colunas.
+
+22
+00:02:03,890 --> 00:02:09,650
+Você quer usar o app deixa você coloque por exemplo nulo se aceita anula coisas do tipo então delete
+
+23
+00:02:09,650 --> 00:02:10,780
+from estados.
+
+24
+00:02:10,910 --> 00:02:14,390
+Nesse caso é sigla recebe.
+
+25
+00:02:14,660 --> 00:02:21,970
+Usando esse filtro não exclui o elemento 1001 colocando aqui como de chifre é pra executá lo colocou
+
+26
+00:02:21,980 --> 00:02:29,900
+delete foram listados a sigla e me disse que a União foi afetada e disse que o Estatuto do Servidor
+
+27
+00:02:29,900 --> 00:02:40,200
+foi 2 Se ele for bem sucedida se ele está novamente sem flash asterisco foram listados aqui.
+
+28
+00:02:40,210 --> 00:02:45,350
+Você vai perceber que de fato o elemento mil foi excluído.
+
+29
+00:02:45,500 --> 00:02:52,970
+Outra forma de você fazer é colocando por exemplo delete from Estado você não precisa dizer exatamente
+
+30
+00:02:52,970 --> 00:02:54,890
+o EDI pode aumentar a validade.
+
+31
+00:02:54,890 --> 00:02:59,510
+Por exemplo eu quero excluir qualquer que seja maior ou igual a mil.
+
+32
+00:02:59,570 --> 00:03:04,410
+Também vai funcionar nesse caso só vai excluir porque só tem de fato um único site mal do que é minha
+
+33
+00:03:04,430 --> 00:03:12,200
+mas se tivesse vários ele poderia excluir a parte de um erro tão comum de chip que é excluído.
+
+34
+00:03:12,200 --> 00:03:19,420
+Nesse caso apenas uma única linha foi afetada e nesse caso eu usei o Edinho como sendo o meu critério
+
+35
+00:03:19,420 --> 00:03:25,920
+e filtro para excluir os estados do topo a exclusão como a inserção como o update.
+
+36
+00:03:25,930 --> 00:03:32,230
+São três comandos mais simples de ser executado a consulta que ela tem várias nuances várias formas
+
+37
+00:03:32,230 --> 00:03:37,870
+de você fazer consultas então eu diria que o maior desafio dentro da linguagem SQL no que diz respeito
+
+38
+00:03:37,870 --> 00:03:38,380
+ao D.
+
+39
+00:03:38,440 --> 00:03:44,940
+ML é o Data manipula eixo linguagem e o comando Salete o comando sala ao comando mais rico que tem para
+
+40
+00:03:44,970 --> 00:03:51,550
+a inserção atualização e exclusão são comandos mais simples são de poucas formas de você variar em cima
+
+41
+00:03:51,550 --> 00:03:52,270
+dos comandos.
+
+42
+00:03:52,270 --> 00:03:57,340
+Claro que você pode colocar mais filtros para você excluir aquilo que você quer.
+
+43
+00:03:57,340 --> 00:04:02,080
+Claro que você pode na hora de atualizar também colocar vários filtros diferentes mas eu diria que a
+
+44
+00:04:02,080 --> 00:04:08,350
+maior parte do tempo você gasta quebrando a cabeça com SQL em comandos do tipo Select para você selecionar
+
+45
+00:04:08,350 --> 00:04:12,280
+os registros que de fato você quer obter a partir de uma consulta na próxima.
+
+46
+00:04:12,310 --> 00:04:15,660
+Continuamos a ideia do nosso capital de banco nacional e separou.

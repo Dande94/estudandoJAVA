@@ -1,0 +1,671 @@
+1
+00:00:00,210 --> 00:00:07,110
+Agora vão achar para vocês na parte prática como o iCloud os esconde funcionam para a gente ver exatamente
+
+2
+00:00:07,410 --> 00:00:08,320
+a mesma teoria.
+
+3
+00:00:08,320 --> 00:00:12,720
+Agora na prática para afixar aquilo que a gente já aprendeu lá estão para isso.
+
+4
+00:00:12,720 --> 00:00:19,440
+Em vez de criar dentro de Harry especificamente não é só um conceito específico de Harry nem específico
+
+5
+00:00:19,830 --> 00:00:24,300
+de Collection está mas é muito usado no contexto de Collection.
+
+6
+00:00:24,600 --> 00:00:32,070
+Eu vou criar esse exercício com a licença poética para criar fora do nosso do nosso pacote do Capítulo
+
+7
+00:00:32,070 --> 00:00:32,400
+7.
+
+8
+00:00:32,400 --> 00:00:42,360
+Vou criar dentro do pacote classe então vou colocar aqui e eu classe o nome desse arquivo será com e
+
+9
+00:00:42,690 --> 00:00:50,950
+caos Ranch Couch e eu vou criar o outro o outro.
+
+10
+00:00:50,970 --> 00:00:55,440
+Outra classe que vai representar os meus dados que eu vou chamar aqui de usuário para não mexer em nenhuma
+
+11
+00:00:55,440 --> 00:00:58,990
+das classes antigas eu vou criar a classe usuário.
+
+12
+00:00:59,220 --> 00:01:05,190
+Essa classe usuários terá apenas o nome então vou colocar aqui um estilingue de nome e aí em cima dessa
+
+13
+00:01:05,190 --> 00:01:09,320
+classe usuário vou colocar nome e-mail certo nome e meio.
+
+14
+00:01:09,840 --> 00:01:15,750
+E nós vamos usar essa classe Usuario Para a gente está está hoje com os churrascos então inicialmente
+
+15
+00:01:15,870 --> 00:01:18,270
+aqui dentro eu vou colocar um Metro Man.
+
+16
+00:01:18,540 --> 00:01:19,980
+Vou criar o primeiro usuário.
+
+17
+00:01:20,030 --> 00:01:27,670
+O usuário recebe mil usuários em sabe que por padrão é um custo padrão está disponível.
+
+18
+00:01:27,680 --> 00:01:42,620
+Vou fazer o ponto o nome recebem por exemplo e vou colocar Pedro Silva Vou usar o ponto e meio Sammy.
+
+19
+00:01:43,080 --> 00:01:52,600
+Pedro Silva arroba dizer o ponto com ponto.
+
+20
+00:01:52,650 --> 00:01:54,690
+Criei o primeiro usuário.
+
+21
+00:01:54,720 --> 00:02:02,730
+Vou duplicar essa esse conjunto agora vou chamar aqui nessas três linhas vou chamar usuário dois usuário
+
+22
+00:02:02,730 --> 00:02:08,880
+dois usuários dois ou seja duplique as minhas é incontestável que esses dois usuários têm exatamente
+
+23
+00:02:08,880 --> 00:02:10,350
+os mesmos valores.
+
+24
+00:02:10,440 --> 00:02:17,790
+Se eu fizer um system Alt Print e Aline COLOCAR UM IGUAL IGUAL O 2 Você vai ver que esse resultado vai
+
+25
+00:02:17,790 --> 00:02:23,740
+dar falso porque vai dar falso porque são dois objetos distintos na memória.
+
+26
+00:02:24,150 --> 00:02:29,980
+Ou seja ele está comparando endereços de memória igual igual faz exatamente isso certo conforme falei.
+
+27
+00:02:30,050 --> 00:02:37,710
+Próxima comparação é o seguinte ele coloca aqui o System Auditorium que alinhe o ponto e se eu falei
+
+28
+00:02:37,710 --> 00:02:45,420
+pra você por mais que o nosso a nossa classe usuário não tem definido e por padrão toda classe 7 é todo
+
+29
+00:02:45,420 --> 00:02:49,320
+objeto criar toda instância criado tem o ICS à disposição.
+
+30
+00:02:49,330 --> 00:02:58,580
+O ponto é que os U2 ou seja o usuário tá igual usuário 2 sabe que como a gente não mexeu no Icon o usuário
+
+31
+00:02:58,580 --> 00:03:02,260
+não fizemos absolutamente nada pra implementar o ICS.
+
+32
+00:03:02,310 --> 00:03:04,230
+Esse também será um atestado falso.
+
+33
+00:03:04,240 --> 00:03:04,800
+Por quê.
+
+34
+00:03:05,130 --> 00:03:11,040
+Porque o Windows vai fazer exatamente a mesma coisa que um igual igual Silas e tal será a e b que o
+
+35
+00:03:11,040 --> 00:03:12,810
+resultado também é falso.
+
+36
+00:03:12,850 --> 00:03:19,800
+Eu topo posso fazer usuario contra micros usuario 2 como o contrario usuário 2 ponto com os usuários
+
+37
+00:03:20,190 --> 00:03:27,960
+fazendo isso aqui ao System Audio Alien o 2 ponto e com os eu tenho o que eu tenho à disposição aqui
+
+38
+00:03:27,960 --> 00:03:36,480
+ou em meio o nome Ai eu tenho e os escolhidos 37 class not FAI Note foi ao Haiti e alguns outros metros
+
+39
+00:03:36,480 --> 00:03:44,010
+aqui um deles é o ICS e um recorde aqui eu vou chamar novamente o Windows e passar ao usuário um certo
+
+40
+00:03:44,310 --> 00:03:52,420
+e quando você vai ver que é falso se eu fizer isso aqui ao usuario igual igual ao usuário.
+
+41
+00:03:52,440 --> 00:03:58,940
+Obviamente aqui é verdadeiro a mesma coisa se eu fizer usuário.
+
+42
+00:03:59,290 --> 00:04:07,220
+Ponto com os usuario também será verdadeira mas até 1/2 em êxtase Bernadette já acordou comparada à
+
+43
+00:04:07,230 --> 00:04:07,960
+mesma coisa.
+
+44
+00:04:08,370 --> 00:04:13,470
+Então não vou deixar isso aqui porque isso aqui sabe que é verdadeiro já que a forma como o Japão interpreta
+
+45
+00:04:13,470 --> 00:04:18,320
+isso é correto então não faz sentido ser falso comparar um objeto com ele mesmo.
+
+46
+00:04:18,690 --> 00:04:26,910
+Então nós fizemos aqui as possíveis comparações e vimos que todos eram falsos porque no caso o ICS por
+
+47
+00:04:26,910 --> 00:04:29,730
+padrão tem exatamente a mesma implementação.
+
+48
+00:04:29,730 --> 00:04:38,310
+Se a gente for aqui e colocar deixou ver aqui dentro de usuário eu vou implementar o Windows então vou
+
+49
+00:04:38,310 --> 00:04:46,410
+colocar Quioto e com isso boto é quem vai mostrar aqui pra implementar e aqui eu posso definir qual
+
+50
+00:04:46,410 --> 00:04:50,640
+é o critério que eu vou usar pra comparar dois objetos.
+
+51
+00:04:50,640 --> 00:04:59,130
+Nesse caso recebi um Object aqui que eu vou chamar de objeto é pra eu jogar esse objeto como um usuário
+
+52
+00:04:59,130 --> 00:05:08,020
+já compra um usuário com um usuário faz o seguinte ao usuário outro recebe e agora coloca aqui outro
+
+53
+00:05:08,270 --> 00:05:17,420
+usuário e fazer um caixão conversam ele tem o usuário como sendo um tipo mais genérico eu esse objeto
+
+54
+00:05:17,420 --> 00:05:23,290
+para o usuário algo que a gente acabou não falando ainda né mas simplesmente é o mesmo conceito de caixinha
+
+55
+00:05:23,660 --> 00:05:30,230
+se você tem uma variável por exemplo o que você quer convertê lo para um inteiro você diz o tipo inteiro
+
+56
+00:05:30,230 --> 00:05:36,530
+entre parênteses que é o cache e converte um W inteiro certa que é a mesma coisa estou convertendo um
+
+57
+00:05:36,530 --> 00:05:38,930
+objeto que é algo bem genérico no Java.
+
+58
+00:05:38,930 --> 00:05:44,210
+Na verdade o objetivo é o topo da hierarquia aquilo que há de mais genérico no Java e o objetivo é a
+
+59
+00:05:44,210 --> 00:05:50,420
+raiz de todos os objetos ou seja a classe Man de todo o mundo a partir dessa classe.
+
+60
+00:05:50,420 --> 00:05:54,890
+Todo mundo é descendente dela certo como se fosse o Adam certo.
+
+61
+00:05:54,890 --> 00:05:56,620
+Tudo começa a partir dessa classe.
+
+62
+00:05:56,960 --> 00:06:02,450
+Então aqui eu fiz um caixa ou objeto fiz uma conversão para o usuário e joguei aqui.
+
+63
+00:06:02,540 --> 00:06:10,580
+Você pode até ser um pouco mais seguro quer fazer o seguinte Se um objeto é uma instância eu falei pra
+
+64
+00:06:10,580 --> 00:06:17,330
+vocês que você pode usar uma instância da classe tal instância de alguma coisa e tal aqui você tem um
+
+65
+00:06:17,330 --> 00:06:25,610
+operador chamado mistas off ou seja o objeto que foi passado é uma instância de usuário se isso for
+
+66
+00:06:25,610 --> 00:06:30,790
+verdadeiro significa que a gente pode implementar todo toda a nossa lógica aqui dentro.
+
+67
+00:06:30,790 --> 00:06:37,580
+Caso não seja verdadeiro o resultado pode ser retornado como falso certo ou seja se ele entrou aqui
+
+68
+00:06:37,580 --> 00:06:40,880
+dentro ele vai fazer a lógica até retornar ao valor.
+
+69
+00:06:41,000 --> 00:06:47,060
+Caso contrário ele não entrou aqui dentro ou mesmo caiu no caos significa que o resultado é falso.
+
+70
+00:06:47,060 --> 00:06:52,750
+Eu não posso dizer que o usuário pode ser igual a alguma coisa que não tem nada a ver com o usuário.
+
+71
+00:06:52,850 --> 00:06:57,890
+Então o usuário nunca será igual a uma data o usuário nunca será igual a um produto ele tem que ser
+
+72
+00:06:57,890 --> 00:07:03,230
+exatamente o mesmo tipo mas essa gente entrar nessa complexidade ou fazer de forma mais simples.
+
+73
+00:07:03,350 --> 00:07:03,890
+Eu vou.
+
+74
+00:07:04,190 --> 00:07:07,450
+Vamos supor que eu não quero ter um código seguro nem eu quero.
+
+75
+00:07:07,700 --> 00:07:11,840
+Eu garanto que eu vou receber um usuário você bem comportado no nosso exemplo pois a gente bota ele
+
+76
+00:07:11,840 --> 00:07:13,450
+pra ficar um pouco mais robusto.
+
+77
+00:07:13,900 --> 00:07:20,120
+Então faz o seguinte eu peguei o objeto converti para o usuário tem aqui um outro usuário e qual o meu
+
+78
+00:07:20,120 --> 00:07:22,920
+critério de igualdade eu vou querer saber.
+
+79
+00:07:23,060 --> 00:07:30,370
+Outro ponto é igual a 10 pontos nome.
+
+80
+00:07:30,410 --> 00:07:39,110
+Ou seja se o nome é igual e aí eu posso criar uma variável aqui fazer o seguinte colocar aquele nome
+
+81
+00:07:39,680 --> 00:07:50,760
+igual recebe isso aqui e vou criar uma outra variável booleana pra dizer se o e-mail é igual recebi.
+
+82
+00:07:50,900 --> 00:07:57,650
+Outro ponto é meio igual igual desse ponto e meio.
+
+83
+00:07:57,830 --> 00:08:03,830
+Nesse caso eu estou usando o igual igual que não é o ideal o ideal é usar o uso eu vou achar pra você
+
+84
+00:08:03,840 --> 00:08:04,250
+está.
+
+85
+00:08:04,670 --> 00:08:08,570
+Mas por enquanto a gente não vai ter problema em ter um nome igual.
+
+86
+00:08:09,500 --> 00:08:16,020
+é meio igual e o meu critério pra dizer que um determinado usuário é igual ao outro usuário.
+
+87
+00:08:16,040 --> 00:08:21,290
+Agora sim que eu tenho é com os implementado Se eu executar isso aqui você vai ver que o resultado vai
+
+88
+00:08:21,290 --> 00:08:28,720
+dar verdadeiro ou seja ele deu falso na comparação do igual igual mas deu verdadeiro aqui quando comparei.
+
+89
+00:08:28,750 --> 00:08:36,290
+Certo não é uma boa prática você colocar aqui um igual igual também pode colocar um conceito que também
+
+90
+00:08:36,790 --> 00:08:47,000
+é caos e a gente colocar de vez no homem é a mesma coisa ele vai colocar aqui Hope Klaus apontando para
+
+91
+00:08:47,230 --> 00:08:52,030
+a 10 metros.
+
+92
+00:08:52,250 --> 00:08:58,270
+Novamente o nosso exercício você vai ver que o resultado vai dar merda dele do mesmo jeito usado e com
+
+93
+00:08:58,280 --> 00:09:00,410
+o uso das tirinhas string também é um objeto.
+
+94
+00:09:00,420 --> 00:09:05,450
+Consequentemente as 30 igual aqui pessoal ainda existem algumas outras comparações que a gente pode
+
+95
+00:09:05,450 --> 00:09:08,490
+fazer para checar se algo está no local né.
+
+96
+00:09:08,510 --> 00:09:13,670
+Esse não é um código que ainda está muito robusto certo mas eu nem quero me preocupar muito com isso
+
+97
+00:09:13,670 --> 00:09:18,720
+agora que eu terei que fazer várias outras verificações pra ter certeza o próprio a outra verificação
+
+98
+00:09:18,730 --> 00:09:21,860
+que eu até mostrei aquela que eu comecei é o instancia Office.
+
+99
+00:09:22,310 --> 00:09:31,370
+Então vamos supor que eu vá aqui no meu veículos e Cold Passat que no final um determinado objeto por
+
+100
+00:09:31,370 --> 00:09:39,520
+exemplo eu dei certo passe eu deixo você importar o Java o último deles e executar esse código.
+
+101
+00:09:39,530 --> 00:09:41,450
+Você vai ver que ele vai dar uma exceção por quê.
+
+102
+00:09:41,450 --> 00:09:47,190
+Porque ele não vai conseguir converter uma data em uma classe do tipo usuário.
+
+103
+00:09:47,270 --> 00:09:53,960
+Ele colocou aqui o clássico te deixe não pode ser convertido eu não pode ser feito cache para uma classe
+
+104
+00:09:53,960 --> 00:09:59,410
+do tipo usuario como é que eu posso resolver isso eu posso resolver isso fazendo exatamente o instancia
+
+105
+00:10:00,280 --> 00:10:07,980
+então sim o objeto que você recebeu instancia ao usuário.
+
+106
+00:10:08,120 --> 00:10:12,960
+Aí sim você vai fazer toda essa lógica que ao que eu defini.
+
+107
+00:10:13,040 --> 00:10:19,340
+Caso contrário tem que retornar obrigatoriamente alguma coisa caso contrário o resultado é falso.
+
+108
+00:10:19,370 --> 00:10:25,820
+Já ficou um pouquinho mais robusto o nosso código está novamente o erradicou Record sabe que o Estado
+
+109
+00:10:25,820 --> 00:10:28,220
+é falso mas não gerou nenhum problema.
+
+110
+00:10:28,220 --> 00:10:30,880
+Essa foi a primeira parte do nosso IR COM OS.
+
+111
+00:10:31,110 --> 00:10:40,270
+Vou fazer o seguinte eu vou substituir esse nome medicos verídicos escolheu colocar aqui apenas e clicar
+
+112
+00:10:40,280 --> 00:10:41,510
+com o botão direito.
+
+113
+00:10:41,560 --> 00:10:50,480
+Feito o ENEM eu vou colocar aqui no Brasil se a gente não criou o risco de ainda certo e eu vou deixar
+
+114
+00:10:50,480 --> 00:10:51,800
+pra criar um recorde.
+
+115
+00:10:51,800 --> 00:11:07,250
+Eu vou colocar inclusive um comentário que falta eu vou colocar o riacho onde será abordado em outra
+
+116
+00:11:07,620 --> 00:11:08,550
+aula certo.
+
+117
+00:11:08,570 --> 00:11:09,950
+Só para ficar o comentário aqui.
+
+118
+00:11:10,190 --> 00:11:17,510
+Então por enquanto quando você faz comparações um objeto com o outro diretamente esconde não é necessário
+
+119
+00:11:17,570 --> 00:11:22,550
+você consegue comparar e ter os resultados coerentes mas quando você vai para uma estrutura que usa
+
+120
+00:11:22,550 --> 00:11:25,730
+o uso escolhe como eixo Map raio 7.
+
+121
+00:11:25,970 --> 00:11:30,320
+Por exemplo se você não implementar uma forma coerente você vai ter problema então faz o seguinte já
+
+122
+00:11:30,320 --> 00:11:32,450
+que a gente não vê essas estruturas.
+
+123
+00:11:32,510 --> 00:11:35,600
+Primeiro falar sobre essas estruturas as coletas.
+
+124
+00:11:35,780 --> 00:11:40,910
+A gente vai aprender a usar elas e lá no final do capítulo a gente volta pra implementá las.
+
+125
+00:11:41,000 --> 00:11:46,910
+Nesse contexto de coleções para pra gente tendo um pouco mais na prática pra implementar o México COD
+
+126
+00:11:46,940 --> 00:11:48,750
+aqui é muito simples.
+
+127
+00:11:48,750 --> 00:11:54,050
+Eu posso até implementar um formato temporária que se coloca feche espaço ele vai mostrar a primeira
+
+128
+00:11:54,050 --> 00:11:55,200
+opção e escolhe.
+
+129
+00:11:55,410 --> 00:11:58,190
+E você pode retornar qualquer valor inteiro.
+
+130
+00:11:58,190 --> 00:12:06,820
+Você pode por exemplo fazer como eu falei lá no exemplo pegar por exemplo desse ponto o nome Ponto leve
+
+131
+00:12:06,970 --> 00:12:14,030
+que é o tamanho do nome e você vai ter mais coordenado se o nome do usuário que foi passado foi Pedro
+
+132
+00:12:14,030 --> 00:12:20,140
+Silva então escolhido será 1 2 3 4 5 6 7 8 9 10 11.
+
+133
+00:12:20,540 --> 00:12:23,940
+Ou seja pela quantidade de letras o nome vai gerar um escudo inteiro.
+
+134
+00:12:23,940 --> 00:12:30,800
+11 Você pode gerar qualquer coisa inclusive retornar com o de fixo retornar um retorno a zero significa
+
+135
+00:12:30,800 --> 00:12:35,270
+que todos os objetos do tipo o usuário terá um corte igual.
+
+136
+00:12:35,270 --> 00:12:41,120
+Em outras palavras se você jogar um milhão de usuários dentro de um site que usa um cachecol pra pesquisar
+
+137
+00:12:41,120 --> 00:12:46,970
+de forma rápida todos os usuários têm exatamente o mesmo esconde significa que ele vai ter que executar
+
+138
+00:12:46,970 --> 00:12:51,670
+o ícone pra todos os usuários que estão dentro desse conjunto que é um milhão de usuários.
+
+139
+00:12:51,770 --> 00:12:57,410
+Ou seja em vez de fazer alguma coisa apenas poucas vezes você mais e tal é quase um milhão de vezes
+
+140
+00:12:57,760 --> 00:13:01,730
+o que vai deixar sua busca muito muito muito mais lenta certo.
+
+141
+00:13:02,030 --> 00:13:08,990
+Então aqui só um exemplo de uso de escolha você pode colocar isso ou mesmo se você quiser o próprio
+
+142
+00:13:08,990 --> 00:13:13,880
+equilíbrio ele gera para a gente vou mostrar rapidamente mais eu vou fazer isso ou vou comprar um conto
+
+143
+00:13:13,880 --> 00:13:21,320
+como X aqui pra ficar sem os dois e aí você clicar com o botão direito você tem uma opção que é Source
+
+144
+00:13:21,710 --> 00:13:28,970
+e aqui embaixo você tem Generation reage com os amigos clique com o botão direito na opção SOS e você
+
+145
+00:13:28,980 --> 00:13:34,730
+tem Generation escute que amigos você vai dizer quais são os atributos que você quer usar.
+
+146
+00:13:34,730 --> 00:13:40,560
+Que representa a igualdade do objeto e automaticamente ele vai implementar para você a escolha.
+
+147
+00:13:41,080 --> 00:13:43,420
+Essa é a forma que eu acabo usando por padrão.
+
+148
+00:13:43,700 --> 00:13:48,570
+Então por padrão eu uso esse rascunho de o veículo gerado pelo eclipse.
+
+149
+00:13:48,590 --> 00:13:49,720
+Não vejo problema.
+
+150
+00:13:49,730 --> 00:13:55,580
+é um código maior ou mais é um código que funciona muito bem à prova de erro já foi testado milhares
+
+151
+00:13:55,580 --> 00:13:56,660
+e milhares de pessoas.
+
+152
+00:13:56,660 --> 00:14:01,010
+Então você só diz quais são os atributos e automaticamente ele gera pra você.
+
+153
+00:14:01,370 --> 00:14:07,510
+Então se eu executar Aqui ou você vê ele vai gerar um estado carente ao passo em falso.
+
+154
+00:14:07,730 --> 00:14:11,240
+Era o primeiro a comparação de políticos do verdadeiro verdadeiro.
+
+155
+00:14:11,230 --> 00:14:16,100
+Finalmente comparando com a data o resultado do falso eu vou deixar essa linha o aqui também não ter
+
+156
+00:14:16,100 --> 00:14:25,250
+nenhuma advertência e vou substituir o código gerado pelo Netflix não é momento para fazer isso muito
+
+157
+00:14:25,250 --> 00:14:30,090
+pra gerar aplicativos e deixar a nossa versão aqui mais cinco linhas certo.
+
+158
+00:14:30,380 --> 00:14:32,810
+Então vou deixar aqui com valor zero mesmo.
+
+159
+00:14:32,840 --> 00:14:34,740
+O nosso rascunho está aqui.
+
+160
+00:14:34,790 --> 00:14:43,130
+Se a gente fazer tabuada aqui organizar um bote é a última opção o resultado será verdadeiro pelos dois.
+
+161
+00:14:43,190 --> 00:14:44,120
+é falso aqui.
+
+162
+00:14:44,150 --> 00:14:49,220
+Claro se eu mudar alguma coisa e colocar aqui Pedro por 2 horas o resultado vai dar tudo falso porque
+
+163
+00:14:49,220 --> 00:14:53,820
+os dois objetos são diferentes tanto o nome como o e-mail.
+
+164
+00:14:53,990 --> 00:14:56,340
+Vai influenciar no resultado final certo.
+
+165
+00:14:56,710 --> 00:15:02,460
+Então fico por aqui pessoal para pra gente ver bem a primeira parte nessa lógica hidráulicos é um recorde
+
+166
+00:15:02,790 --> 00:15:07,670
+mas hoje só faz mais sentido marchar para vocês depois que a gente falar sobre as Collection a gente
+
+167
+00:15:07,680 --> 00:15:13,170
+vai ver os coletivos lá no final do capítulo a gente retoma mais o exercício e escolha aí eu já coloco
+
+168
+00:15:13,170 --> 00:15:17,280
+isso dentro do pacote de coleções então aproximadamente continua e até lá.

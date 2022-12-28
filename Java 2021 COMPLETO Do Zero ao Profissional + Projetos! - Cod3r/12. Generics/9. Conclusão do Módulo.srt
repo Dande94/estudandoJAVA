@@ -1,0 +1,127 @@
+1
+00:00:00,190 --> 00:00:07,350
+Só chegamos no final do nosso capítulo de genéricos e é um tema bastante interessante primeiro porque
+
+2
+00:00:07,720 --> 00:00:14,070
+aparece muito rápido já que você está sempre usando classes que possuem tipos genéricos e é importante
+
+3
+00:00:14,070 --> 00:00:19,820
+também você ter a visão da pessoa que constrói uma classe genérica e isso vai te ajudar no teu corpo
+
+4
+00:00:19,830 --> 00:00:20,430
+no dia a dia.
+
+5
+00:00:20,430 --> 00:00:27,780
+Vai te ajudar a criar classes que são mais flexíveis e que ao mesmo tempo não precisam fazer conversões
+
+6
+00:00:27,780 --> 00:00:33,720
+porque conversões podem gerar problemas e quando você usa genéricos esse tipo de validação é feita no
+
+7
+00:00:33,720 --> 00:00:34,820
+momento da compilação.
+
+8
+00:00:34,810 --> 00:00:39,660
+Se você cria um amarração para uma classe e passa um parâmetro o que não é válido.
+
+9
+00:00:39,660 --> 00:00:41,560
+Você vai ter um problema de compilação.
+
+10
+00:00:41,560 --> 00:00:46,550
+Isso te ajuda a ter um código mais seguro até porque o erro de compilação é muito mais espaço e resolvido
+
+11
+00:00:46,560 --> 00:00:49,380
+que o erro que acontece apenas involuntário.
+
+12
+00:00:49,830 --> 00:00:52,940
+Então espero que tenha ficado claro o conceito de genéricos.
+
+13
+00:00:52,950 --> 00:00:59,190
+Claro também a nomenclatura na época nomes genéricos no sentido que você construiu uma classe genérica
+
+14
+00:00:59,190 --> 00:01:05,400
+mas no momento em algum momento você vai precisar especificar seja no âmbito distanciado seja no momento
+
+15
+00:01:05,400 --> 00:01:11,160
+de gerar uma herança ou mesmo na hora de chamar o método você vai especificar ou de forma implícita
+
+16
+00:01:11,160 --> 00:01:16,710
+quando você passo um determinado tipo de conselho very ou mesmo quando você lê explicitamente diz o
+
+17
+00:01:16,710 --> 00:01:19,270
+tipo então vimos vários cenários interessantes.
+
+18
+00:01:19,290 --> 00:01:23,020
+Fizemos vários exemplos pra que esse conceito fique muito claro na sua mente.
+
+19
+00:01:23,020 --> 00:01:27,510
+Eu sinceramente espero que você tenha passado por esse capítulo entendendo tudo aquilo que foi apresentado
+
+20
+00:01:27,510 --> 00:01:32,360
+pra você no final esteve ali a questão do Conquer o bobo que a gente usou 7.
+
+21
+00:01:32,600 --> 00:01:38,400
+E na nossa classe genérica a gente não tinha como fazer a implementação do coberto de uma forma tão
+
+22
+00:01:38,400 --> 00:01:44,500
+genérica como tal código sem que fosse mudar o código pra colocar o comparativo e é basicamente descaracterizar
+
+23
+00:01:44,700 --> 00:01:48,080
+aquilo que a gente tinha construído no nosso exemplo dos pares.
+
+24
+00:01:48,080 --> 00:01:54,420
+Mas de qualquer forma rapidamente eu fiz uma aula extra meio alienígena esse capítulo quer falar um
+
+25
+00:01:54,420 --> 00:02:00,900
+pouquinho da interface com o robô e como essa interface vai estar alinhado digamos assim vai ser necessário
+
+26
+00:02:00,900 --> 00:02:07,830
+para o uso do 3.7 que é um conjunto ordenado e ela inclusive se você definiu coopera com aperte o que
+
+27
+00:02:07,830 --> 00:02:12,300
+é igual ele vai usar isso perfil como será o critério de uso.
+
+28
+00:02:12,330 --> 00:02:18,570
+Isso vai evitar você ter mais de um elemento dentro do E7 se forem todos iguais como aconteceu no nosso
+
+29
+00:02:18,570 --> 00:02:24,120
+exemplo então isso aqui é algo fora do contexto de genéricos mas também algo importante do contexto
+
+30
+00:02:24,120 --> 00:02:24,490
+geral.
+
+31
+00:02:24,510 --> 00:02:30,330
+Fico por aqui nesse capítulo pessoal até o próximo capítulo do nosso curso completo temos muitas coisas
+
+32
+00:02:30,330 --> 00:02:35,240
+muitos projetos legais para ser visto durante o curso eles esperam na proximal.

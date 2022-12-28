@@ -1,0 +1,555 @@
+1
+00:00:00,250 --> 00:00:06,480
+Só quero falar com vocês aqui nesse primeiro exercício que nós vamos fazer um exercício bem simples
+
+2
+00:00:07,010 --> 00:00:07,850
+mostrando.
+
+3
+00:00:07,860 --> 00:00:13,890
+Vou criar uma lista e a gente vai imprimi os valores dessa lista distribuiu o console e vou mostrar
+
+4
+00:00:13,890 --> 00:00:21,440
+isso de três formas diferentes vou mostrar isso usando o forró fora e usando ali a própria lista.
+
+5
+00:00:21,450 --> 00:00:28,230
+Para isso nós vamos usar depois o áudio usado interditou a mostrar pra vocês que é um interface disponibilizada
+
+6
+00:00:28,230 --> 00:00:32,640
+no Java pra terá conjuntos ou lixo de objetos.
+
+7
+00:00:32,730 --> 00:00:35,790
+Sete vão mostrar DEPOIS A GENTE FAZENDO A MESMA COISA COM ESTE TIME.
+
+8
+00:00:35,810 --> 00:00:43,980
+Eu quero focar no aspecto bem peculiar estilo que é o fato de que as interações ou parte do trabalho
+
+9
+00:00:43,980 --> 00:00:46,050
+será feito internamente para extrair.
+
+10
+00:00:46,090 --> 00:00:50,510
+Existe uma mudança de paradigma na forma que você pensa porque.
+
+11
+00:00:50,530 --> 00:00:57,140
+Porque quando você faz um algorítimo e vamos assim mais procedural um algorítimo tradicional chamassem
+
+12
+00:00:57,240 --> 00:01:03,630
+certo você vai fazer algo que só você vai ter por exemplo a variável e que vai controlar o seu laço.
+
+13
+00:01:03,630 --> 00:01:10,140
+Você vai fazê la é mais mais pra ir pro próximo elemento você vai fazer todo o passo a passo depois
+
+14
+00:01:10,170 --> 00:01:15,930
+do laço depois do teste pra saber se você vai querer usar aquele elemento ou não usando F.
+
+15
+00:01:15,990 --> 00:01:22,320
+Só que isso muitas vezes dentro do contexto da programação funcional passa a ser resolvido de forma
+
+16
+00:01:22,320 --> 00:01:28,530
+interna pela linguagem ou mesmo de forma interna sendo resolvida isso pela API destruímos dentro do
+
+17
+00:01:28,530 --> 00:01:29,180
+Java.
+
+18
+00:01:29,310 --> 00:01:35,790
+Então vocês vão perceber que vai ter em determinados momentos que a gente não vai precisar fazer o teste.
+
+19
+00:01:35,970 --> 00:01:43,290
+Muitos momentos eu diria que na grande maioria a gente não vai precisar fazer um laço controlá las porque
+
+20
+00:01:43,380 --> 00:01:47,300
+esses recursos essas questões são resolvidas internamente.
+
+21
+00:01:47,300 --> 00:01:49,500
+Devido a isto em mente vai ver isso.
+
+22
+00:01:49,500 --> 00:01:57,140
+Um exemplo bem prático exatamente focar isso com vocês hoje é o fato de que o laço ou seja a interação
+
+23
+00:01:57,490 --> 00:02:03,710
+que repetição a seja passar por todos os elementos isso será resolvido internamente dentro das Twin.
+
+24
+00:02:03,720 --> 00:02:08,660
+Diferente do que acontece no Fórum este é o que acontece também no Inter aí tem uma hashtag para vocês
+
+25
+00:02:08,670 --> 00:02:15,090
+na prática vai ficar mais fácil e esse é um conceito importante entender que parte daquilo que era responsabilidade
+
+26
+00:02:15,090 --> 00:02:21,480
+nossa com o desenvolvedor passa a ser digamos assim embutido e fica a cargo da própria linguagem.
+
+27
+00:02:21,480 --> 00:02:27,630
+Aqui no caso apresentado pela API Swing então toda linguagem funcional tem um pouco dessa questão você
+
+28
+00:02:27,630 --> 00:02:35,810
+foca em partes muito específicas que dependem da lógica do seu negócio e parte do processo repetitivo
+
+29
+00:02:35,820 --> 00:02:42,040
+de fazer um teste um laço uma transformação de uma lista em outra lista.
+
+30
+00:02:42,060 --> 00:02:44,660
+Isso tudo passa a ser resolvido internamente.
+
+31
+00:02:44,700 --> 00:02:49,410
+Como você trabalha com esse princípio da programação funcional é um pouco do paradigma de programação
+
+32
+00:02:49,410 --> 00:02:50,240
+funcional.
+
+33
+00:02:50,300 --> 00:02:55,820
+Aqui no caso do jogo vou criar o novo pacote então vamos criar aqui um novo pacote.
+
+34
+00:02:56,030 --> 00:03:05,430
+Eu vou chamar esse pacote destruímos indústrias e aqui dentro nós vamos criar o nosso primeiro exercício
+
+35
+00:03:05,440 --> 00:03:08,520
+vou criar um clássico ou chamar imprimindo
+
+36
+00:03:11,950 --> 00:03:12,870
+objetos.
+
+37
+00:03:12,890 --> 00:03:17,750
+Será que a gente já fez a gente imprimiu objetos ou strings.
+
+38
+00:03:17,760 --> 00:03:24,660
+A coisa mais comum foi a coisa que gente mais fez o curso foi isso mais eu quero nessa aula focar especificamente
+
+39
+00:03:24,660 --> 00:03:30,690
+em três formas diferentes que nós vamos trabalhar aqui certo uma confraria e outra com alho e outra
+
+40
+00:03:30,690 --> 00:03:36,990
+com a interação um laço de repetição sendo feito internamente pelo próprio pela própria linguagem que
+
+41
+00:03:36,990 --> 00:03:37,470
+é o Java.
+
+42
+00:03:37,590 --> 00:03:45,730
+Então aqui eu vou criar uma lista não importa que o Java 8 lixe vou colocar o TiVo para o seu tipo distrito
+
+43
+00:03:45,730 --> 00:03:51,060
+onde faz esse comportamento iria funcionar para o objeto funcionar para números para estilo eu vou usar
+
+44
+00:03:51,100 --> 00:03:59,010
+estilo que é algo bem simples vou chamar aqui aprovados por exemplo lista de aprovados de algum curso
+
+45
+00:04:00,220 --> 00:04:02,490
+ou disciplina por exemplo na faculdade né.
+
+46
+00:04:02,500 --> 00:04:14,760
+E aqui eu vou ter alguns nomes por exemplo nomes pequenos até o atleta Lu vai ter o dia em que o Luka
+
+47
+00:04:15,630 --> 00:04:23,250
+vai te falar que temos aqui uma lista de quatro pessoas e agora vou fazer algumas formas diferentes
+
+48
+00:04:23,250 --> 00:04:25,530
+de exibir essa lista no console.
+
+49
+00:04:25,540 --> 00:04:29,100
+Ou seria aquele forró tradicional que a gente pode usar.
+
+50
+00:04:29,220 --> 00:04:35,880
+Por exemplo lista de aprovados certo não estava nem querendo fazer essa versão aqui com sites e aqui
+
+51
+00:04:35,880 --> 00:04:38,320
+você vai fazer aprovados.
+
+52
+00:04:38,330 --> 00:04:39,280
+Ponto.
+
+53
+00:04:39,330 --> 00:04:48,090
+Bad sim si é pegar esse aqui você pode jogar aqui no System alinhem pra jornalista.
+
+54
+00:04:48,220 --> 00:04:56,760
+7 Você tem dessa forma também mostrar títulos em ou ucraniana mas esse time aqui já não quer trabalhar
+
+55
+00:04:56,810 --> 00:05:01,970
+nessa sala mostrar é uma possibilidade mas eu vou focar aqui é uma forma mais otimizada então aqui nós
+
+56
+00:05:01,970 --> 00:05:13,220
+temos outro nome dois pontos aprovados e aqui eu vou exibir no console o nome traz exatamente o mesmo
+
+57
+00:05:13,550 --> 00:05:21,830
+resultado que eu vou colocar um system algo fora desenhado usando fóruns.
+
+58
+00:05:21,920 --> 00:05:24,280
+Vou criar aqui um outro sistema de Ali.
+
+59
+00:05:24,290 --> 00:05:30,670
+Vou dar aqui um baile para ele quebrar a linha agora usando e ter direito.
+
+60
+00:05:31,050 --> 00:05:32,150
+Que seria isso.
+
+61
+00:05:32,150 --> 00:05:39,180
+A partir da lista nós temos como pagar o interesse do terei uma interface do Java que ela tem 2 metros.
+
+62
+00:05:39,260 --> 00:05:46,130
+Ela tem um metro que retorna o valor verdadeiro falso que é bem próximo ou seja existe um outro elemento
+
+63
+00:05:46,130 --> 00:05:53,600
+dentro desse e terei todo esse tarado iteração quer dizer repetição você passar por todos os meses por
+
+64
+00:05:53,600 --> 00:06:01,750
+exemplo é uma lista de interação e você interagir com outra pessoa então a interação sem win win terei
+
+65
+00:06:01,880 --> 00:06:07,910
+exatamente essa interface que tem dois metros um item próximo se tiver próximo ele pode pedir pra eles
+
+66
+00:06:07,920 --> 00:06:14,480
+pois só me deu o próximo elemento aí ele recebe o próximo elemento ele tem de novo bem próximo tem pois
+
+67
+00:06:14,480 --> 00:06:20,270
+então me deu pra isso a Alemanha tem próximo não não tem acabou e aí você sai eu posso fazer isso usando
+
+68
+00:06:20,350 --> 00:06:27,050
+mas eu não tenho uma quantidade determinada de repetições usar não ter feito mas a gente vai conseguir
+
+69
+00:06:27,050 --> 00:06:31,610
+fazer a mesma coisa que pois aqui se usa Wario usando especificamente o direito.
+
+70
+00:06:31,940 --> 00:06:38,850
+Então vou criar aqui a interface Letter to play terei também recebe aqui um genérico jogo colocaram
+
+71
+00:06:38,850 --> 00:06:45,800
+o Inter oito tipos e string já que a minha lista do tipo string e qualquer que é eleito ou qualquer
+
+72
+00:06:45,800 --> 00:06:47,610
+outro nome pode ser hit.
+
+73
+00:06:47,630 --> 00:06:55,520
+Por exemplo se quiser recebe a partir da lista aprovados eu tenho como pagar o direito e terei ele vai
+
+74
+00:06:55,520 --> 00:07:01,670
+retornar para militar a a implementação evitará dor que é capaz de percorrer essa lista que eu criei
+
+75
+00:07:02,110 --> 00:07:08,340
+a partir disso a forma que eu tenho pra percorrer é usado e tem Rex Nash.
+
+76
+00:07:08,420 --> 00:07:09,950
+Ou seja tem próximo.
+
+77
+00:07:10,100 --> 00:07:15,650
+Se for verdadeiro significa que ele vai entrar no olho dele aqui eu posso pegar o próximo elemento usado
+
+78
+00:07:15,650 --> 00:07:17,950
+e terei apontou Max.
+
+79
+00:07:18,110 --> 00:07:24,910
+Ou seja me der para os monstrinhos ele pega essa string e passa pelo Parlamento tem próximo tem me dê
+
+80
+00:07:24,910 --> 00:07:31,940
+o próximo e por aí pro outro e aí ele vai fazer também o processo de percorrer cada um dos alimentos
+
+81
+00:07:31,970 --> 00:07:33,090
+que usa na internet.
+
+82
+00:07:33,530 --> 00:07:40,780
+Nessa primeira forma eu precisei por mais que eu não precisei controlar o índice é pra saber exatamente
+
+83
+00:07:40,790 --> 00:07:46,280
+que momento estava eu ainda assim precisei fazer um fora para percorrer cada um dos alimentos usando
+
+84
+00:07:46,290 --> 00:07:47,010
+internet.
+
+85
+00:07:47,070 --> 00:07:53,890
+Eu ainda assim precisei criar um terei e controlar o laço usando a eu pegar não ter jeito tem próximo
+
+86
+00:07:54,260 --> 00:08:00,770
+e aí sim pagar um preço pela mentira pois tem próximo líder próximo bem próximo tem pois meu próximo
+
+87
+00:08:01,060 --> 00:08:01,890
+tem próximo.
+
+88
+00:08:01,910 --> 00:08:07,850
+Até que em determinado momento ele para executar uma ou outra forma vou mostrar para vocês não vale
+
+89
+00:08:07,850 --> 00:08:14,060
+mais pra frente algumas formas diferentes de criar estranhas e outras formas e a partir de uma lista
+
+90
+00:08:14,060 --> 00:08:21,320
+então posso criar aqui um estranho que está dentro de Java o último ponto isto também é uma interface
+
+91
+00:08:21,770 --> 00:08:28,670
+e essa interface também recebe o tipo quero ter o instruiu mas também um conjunto de objetos só que
+
+92
+00:08:28,670 --> 00:08:34,340
+uma das características marcantes dessa lista desse conjunto de objetos é essa estrutura de objetos
+
+93
+00:08:34,430 --> 00:08:40,100
+é o fato de que a interação ocorre de forma interna e algumas funcionalidades acabam ocorrendo de forma
+
+94
+00:08:40,100 --> 00:08:46,190
+interna sem necessariamente você explicitamente modificar isso já sei se você está acostumado com o
+
+95
+00:08:46,190 --> 00:08:53,480
+tempo com certeza tão extremo de dados quando você recebe os bytes que você está assistindo esse vídeo
+
+96
+00:08:53,480 --> 00:09:00,500
+agora você tem recebido o Estoril de dados às vezes quando a pessoa faz uma transmissão ao vivo no YouTube
+
+97
+00:09:00,500 --> 00:09:07,340
+por exemplo está rolando é um ditado ou seja um conjunto de dados não é uma sequência de dados que vai
+
+98
+00:09:07,430 --> 00:09:11,290
+passar a determinada informação mesmo jeito nessa idade isto.
+
+99
+00:09:11,660 --> 00:09:15,770
+Ou seja é uma sequência de dados assim como a lista de dados.
+
+100
+00:09:15,770 --> 00:09:22,130
+Assim também como interagir com uma sequência de dados só que uma das características é que a interação
+
+101
+00:09:22,130 --> 00:09:29,610
+e o lapso acontece internamente e muitas funções que você precisaria expõem isso usando a API normal.
+
+102
+00:09:29,750 --> 00:09:36,410
+Se eu quiser por exemplo pegar todo mundo todos os elementos que começam com a letra L em diante por
+
+103
+00:09:36,410 --> 00:09:42,040
+exemplo maior do que a letra L eu precisaria colocar um trecho aqui pra fazer esse filtro já construiu
+
+104
+00:09:42,200 --> 00:09:46,180
+você não vai precisar mostrar isso durante o capítulo que eu tenho uma historinha.
+
+105
+00:09:46,670 --> 00:09:55,540
+Eu vou criar aqui este item 01 só sigla e vou pegar aqui a partir de aprovados então aprovados.
+
+106
+00:09:55,580 --> 00:09:56,970
+Ponto estranho.
+
+107
+00:09:56,990 --> 00:10:03,140
+Tem dois tipos aqui depois a gente vai entrar com mais de o paralelo estranho é o próprio turismo gaúcho
+
+108
+00:10:03,160 --> 00:10:09,910
+filme aqui e agora que eu tenho essa variável até colocar aqui onde estou mesmo mas fica mais interessante
+
+109
+00:10:10,020 --> 00:10:20,520
+e mais interessante é certo só não que esse ter feito com E maiúsculo que é a interface esse direito
+
+110
+00:10:20,680 --> 00:10:26,350
+minúsculo é o nome da variável que eu criei aqui embaixo eu vou fazer o seguinte ao invés de eu precisar
+
+111
+00:10:26,350 --> 00:10:31,470
+me preocupar em fazer um fora eu simplesmente faço este ponto.
+
+112
+00:10:31,480 --> 00:10:37,650
+Fora isso a gente já usou isso fora em todos os momentos e aqui dentro coloca o sistema de ponto alguns
+
+113
+00:10:38,050 --> 00:10:46,890
+passam a referência pelo método print selling ou seja nesse caso eu abstrai parte da complexidade tem
+
+114
+00:10:46,900 --> 00:10:53,800
+que ficar preocupado se tem próximo pelo próximo passo é o próximo para a função ou simplesmente chama
+
+115
+00:10:53,920 --> 00:10:54,700
+o método.
+
+116
+00:10:54,700 --> 00:10:58,420
+Ou seja chamo uma função por isso que paradigma é funcional.
+
+117
+00:10:58,450 --> 00:11:06,130
+O foco é a função e a composição de funções para que você possa ir evoluindo os dados alteramos dados
+
+118
+00:11:06,130 --> 00:11:12,310
+embora não no paradigma funcionários estão a princípio muito forte que é o princípio de você trabalhar
+
+119
+00:11:12,310 --> 00:11:17,190
+com dados imutáveis e pode entrar em outro momento sobre essa seara.
+
+120
+00:11:17,210 --> 00:11:24,640
+Todo conceitual é interessante sobre esse assunto mas a ideia que a gente já vivenciou no capítulo passado
+
+121
+00:11:24,640 --> 00:11:31,660
+de você ter funções pequenas que você consegue compor várias funções e executar uma sequência de funções
+
+122
+00:11:31,660 --> 00:11:37,960
+um atrás da outra para executar por exemplo um algoritmo mais complexo está muito presente também no
+
+123
+00:11:37,960 --> 00:11:39,010
+conceito destruídos.
+
+124
+00:11:39,010 --> 00:11:44,740
+Então só para amostral aquilo tem outra forma que eu vou colocar um system alguns aqui pra colocar o
+
+125
+00:11:44,800 --> 00:11:49,690
+Barra e ser usando isto.
+
+126
+00:11:50,530 --> 00:11:57,030
+E nós temos as três formas diferentes primeiro usando fora e depois de ter feito por último usando isto
+
+127
+00:11:57,180 --> 00:12:02,430
+para fazer exatamente a mesma coisa só que no caso da estreia eu sei de que é uma sequência de dados
+
+128
+00:12:02,630 --> 00:12:07,540
+você tem um estúdio de vídeos que é uma sequência de bits que apresenta o vídeo que está sem diálogo
+
+129
+00:12:07,540 --> 00:12:13,120
+você também tem um estranho que é uma sequência de dados que pode ser do tipo produto que pode ser do
+
+130
+00:12:13,120 --> 00:12:18,670
+tipo string e que vai ser do tipo inteiro assim o tipo é definido a partir do genérico você pode ter
+
+131
+00:12:18,670 --> 00:12:22,960
+inclusive do tipo um objeto bem genérico que você pode colocar qualquer coisa dentro.
+
+132
+00:12:23,050 --> 00:12:29,400
+Mas esse princípio que você tem aqui o laço interno está colocando que algo está inclusive colocar aqui
+
+133
+00:12:29,400 --> 00:12:36,550
+um comentário laço interno é algo extremamente importante e marcante.
+
+134
+00:12:36,630 --> 00:12:42,550
+E é exatamente apresenta esse conceito de que parte do trabalho que você está fazendo aquele trabalho
+
+135
+00:12:42,550 --> 00:12:48,940
+repetitivo de ter que definir todos os detalhes do algoritmo passa a ficar interno dentro da linguagem.
+
+136
+00:12:48,940 --> 00:12:50,410
+Isso é extremamente interessante.
+
+137
+00:12:50,410 --> 00:12:56,470
+Isso tem muito a ver tem um princípio muito usado dentro da programação funcional parte dos problemas
+
+138
+00:12:56,470 --> 00:12:59,410
+já é resolvido nativamente pela linguagem.
+
+139
+00:12:59,410 --> 00:13:04,720
+Vocês vão perceber isso de uma forma mais clara dos exemplos que nós vamos fazer durante o capítulo.

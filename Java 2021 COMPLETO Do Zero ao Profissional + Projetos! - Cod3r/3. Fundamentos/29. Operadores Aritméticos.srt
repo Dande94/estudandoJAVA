@@ -1,0 +1,283 @@
+1
+00:00:00,240 --> 00:00:07,260
+Agora nas mãos dos operadores aritméticos e na próxima aula vou propor pra vocês um a finíssima no tema
+
+2
+00:00:07,560 --> 00:00:12,010
+os operadores aritméticos que só operadores bem simples bem intuitivos.
+
+3
+00:00:12,010 --> 00:00:18,570
+Estou está acostumado com soma subtração divisão multiplicação e o operador talvez seja diferente para
+
+4
+00:00:18,570 --> 00:00:24,100
+algumas pessoas que não têm contato com o mundo da programação e um módulo um módulo e o resto da divisão
+
+5
+00:00:24,120 --> 00:00:26,870
+vão achar para vocês nesses assistam.
+
+6
+00:00:27,000 --> 00:00:34,790
+Para isso nós vamos criar aqui uma nova classe da classe que será aritméticos são os operadores aqui
+
+7
+00:00:34,950 --> 00:00:38,750
+binários que vão trabalhar os operadores aritméticos.
+
+8
+00:00:38,760 --> 00:00:39,210
+Tanto faz.
+
+9
+00:00:39,210 --> 00:00:44,640
+Você pode fazer uma operação aritmética diretamente dentro de um system Audio por exemplo colocando
+
+10
+00:00:44,640 --> 00:00:47,350
+aqui dois mais três.
+
+11
+00:00:47,370 --> 00:00:50,010
+Um Estado obviamente vai dar cinco.
+
+12
+00:00:50,010 --> 00:00:53,500
+Como você também pode armazenar valores muitas variáveis.
+
+13
+00:00:53,590 --> 00:01:03,150
+Portanto usando a questão da inferência quando você coloca o valor X recebe 3 4 pontos 56 ele sabe que
+
+14
+00:01:03,150 --> 00:01:06,120
+se trata de um valor do tipo W claramente.
+
+15
+00:01:06,130 --> 00:01:12,290
+Você pode definir também diretamente o valor W Y recebe o valor 2.
+
+16
+00:01:12,290 --> 00:01:13,620
+Ponto 2.
+
+17
+00:01:13,620 --> 00:01:20,520
+Então nesse caso a gente pode fazer as operações para a gente entender todas as operações aritméticas
+
+18
+00:01:20,520 --> 00:01:29,070
+se tem X mais Y a soma ou execução aqui vai dar um valor quebrado até duplicar aqui a mesma coisa para
+
+19
+00:01:29,070 --> 00:01:37,260
+fazer a subtração fazer a divisão fazer a multiplicação e depois fazer a divisão ortogonal o resultado
+
+20
+00:01:37,260 --> 00:01:43,410
+como são operações com valores do tipo dado sempre o resultado será dado que a gente já viu eu falei
+
+21
+00:01:43,410 --> 00:01:44,700
+pra vocês né.
+
+22
+00:01:44,700 --> 00:01:50,460
+No caso de inteiros também fazem a mesma coisa para os inteiros criar um valor que terei valor um valor
+
+23
+00:01:50,580 --> 00:01:59,370
+8 variável até certo valor 8 eu vou criar um time d que recebe o valor 3.
+
+24
+00:01:59,370 --> 00:02:03,470
+Nesse caso eu posso inclusive duplicar essas linhas aqui.
+
+25
+00:02:03,870 --> 00:02:08,150
+Jogar aqui para baixo e vou substituir onde tem o X.
+
+26
+00:02:08,180 --> 00:02:12,730
+Vou colocar onde tenho y acabei certo.
+
+27
+00:02:12,840 --> 00:02:17,400
+No caso da divisão de valores inteiros o resultado também será inteiro.
+
+28
+00:02:17,390 --> 00:02:25,560
+Já falei isso é importante você custará essa questão Então colocando aqui executado você tem o resultado
+
+29
+00:02:25,560 --> 00:02:28,560
+da divisão de 8 dividido por três vai dar dois.
+
+30
+00:02:28,570 --> 00:02:34,420
+Tá certo galera passa da 2 é alguma coisa mas ele simplesmente trocou na mesma forma que o deu para
+
+31
+00:02:34,450 --> 00:02:45,360
+as outras operações ele fez normalmente não 8 mais 3 11 8 menos 3 5 8 vezes 3 a 4 e hoje dividido por
+
+32
+00:02:45,360 --> 00:02:50,520
+três deu o resultado inteiro porque a divisão entre números inteiros já estava inteiro lá.
+
+33
+00:02:50,550 --> 00:02:55,650
+Nesse caso não tenho como colocar um ponto zero porque não é um valor literal como que eu posso fazer
+
+34
+00:02:55,940 --> 00:02:58,290
+pra essa operação da UOL quebrada.
+
+35
+00:02:58,290 --> 00:03:04,500
+Você pode usar o questiona a conversão aqui eu posso colocar por exemplo o que eu quero converter para
+
+36
+00:03:04,500 --> 00:03:05,270
+um dado.
+
+37
+00:03:05,520 --> 00:03:12,710
+Ou seja ele vai pagar o meu inteiro coberto e o resultado será um dado até então 2 mm.
+
+38
+00:03:12,930 --> 00:03:19,080
+5 No final porque eu fiz uma conversão não tem problema você consegue fazer isso embora a gente não
+
+39
+00:03:19,080 --> 00:03:23,820
+esteja trabalhando com o valor literal você tem a possibilidade eu vou duplicar na verdade vou deixá
+
+40
+00:03:23,820 --> 00:03:31,440
+la com o valor inteiro o que vai acontecer normalmente se você não fala nada e mostra que é possível
+
+41
+00:03:31,440 --> 00:03:37,670
+também mesmo com valores inteiros você fazer um cache e converter e gerar um valor ou o resultado quebrado
+
+42
+00:03:37,780 --> 00:03:44,760
+e o último dos operadores aritméticos aqui operador de módulo que é o resto da divisão por exemplo 8
+
+43
+00:03:44,760 --> 00:03:53,280
+dividido por 3 o valor S2 e o resto C2 é exatamente o valor do operador módulo e operador módulo ele
+
+44
+00:03:53,730 --> 00:04:02,850
+usa esse percentual para ser o seu símbolo então 8 Módulo 3 o resultado vai ser 2 certo que é o resto
+
+45
+00:04:02,850 --> 00:04:08,940
+da divisão da mesma forma que se ele duplicar isso aqui usar o valor de A e B tanto usando o valor da
+
+46
+00:04:08,940 --> 00:04:15,410
+variável como usar no valor do literal você consegue fazer as operações aritméticas então executando
+
+47
+00:04:15,450 --> 00:04:22,680
+que finalmente nós temos o resto da divisão como sendo 2 então 2 VEZES 3 da 6 sobra 2 no final.
+
+48
+00:04:22,680 --> 00:04:28,980
+Ou seja tanto a divisão inteira vai dar o resultado 2 como o resto da divisão também vai dar certo aqui
+
+49
+00:04:28,980 --> 00:04:32,990
+também no hotel creche que a possibilidade que você tem mesmo em uma operação de inteiro.
+
+50
+00:04:33,000 --> 00:04:39,980
+Se você quiser converter para um W ou mesmo para um flow que também flows funcionaria se o colocar aqui
+
+51
+00:04:40,060 --> 00:04:41,600
+pra converter pra um slot.
+
+52
+00:04:41,970 --> 00:04:48,300
+O resultado também seria o valor com casas decimais certo só que com a precisão menor obviamente o dado
+
+53
+00:04:48,300 --> 00:04:55,230
+tem uma precisão bem maior do que um foguete então claramente ele converteu quando tem um slot ele converte
+
+54
+00:04:55,260 --> 00:05:02,350
+o Estado pra flores quando tem um W ele converte um estado final então não tem muito segredo com relação
+
+55
+00:05:02,410 --> 00:05:11,470
+às operações obviamente você consegue fazer operações mais complexas colocando por exemplo X mais Y
+
+56
+00:05:12,220 --> 00:05:15,610
+menos a multiplicado por B.
+
+57
+00:05:15,950 --> 00:05:20,860
+Então o que é que ele vai fazer é que existe uma preferência e uma precedência multiplicação tem uma
+
+58
+00:05:20,860 --> 00:05:25,090
+precedência ou seja é processada primeiro do que as outras operações.
+
+59
+00:05:25,510 --> 00:05:32,200
+Então nesse caso ele vai multiplicar pelo bem que o Estado vai dar 24 depois ele vai somar esses dois
+
+60
+00:05:32,200 --> 00:05:35,260
+valores aqui e subtrair 24.
+
+61
+00:05:35,440 --> 00:05:41,350
+O resultado vai ser 12 e alguma coisa na próxima aula vou lançar um desafio pra vocês.
+
+62
+00:05:41,530 --> 00:05:48,850
+Esse desafio não será apenas pra você trabalhar com as operações aritméticas mas também pra você definir
+
+63
+00:05:48,850 --> 00:05:54,670
+variáveis e organizar uma fórmula grande em parte para que você consiga quebrar um problema maior em
+
+64
+00:05:54,670 --> 00:06:00,310
+pequenas partes em páginas variáveis e a colaboração nessas variáveis gerar o resultado final.
+
+65
+00:06:00,310 --> 00:06:06,250
+Eu tenho que dar uma dica também como a fórmula vai usar exponenciação certo é lavada cubo vou precisar
+
+66
+00:06:06,250 --> 00:06:11,410
+mostrar pra vocês como é feito isso em Java e em Java tem uma função dentro de marfim que você consegue
+
+67
+00:06:11,410 --> 00:06:13,410
+levar um número uma determinada potência.
+
+68
+00:06:13,420 --> 00:06:18,130
+Vou mostrar isso também como pré requisito para você conseguir fazer o desafio fiscal ficar aqui na
+
+69
+00:06:18,130 --> 00:06:18,720
+próxima aula.
+
+70
+00:06:18,730 --> 00:06:23,950
+Vou lançar um desafio ainda falando dos operadores aritméticos pra vocês consolidarem esse tema num
+
+71
+00:06:23,950 --> 00:06:26,320
+cenário um pouco mais realista e até aproximá la.

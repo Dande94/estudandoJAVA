@@ -1,0 +1,271 @@
+1
+00:00:00,160 --> 00:00:07,140
+Olha esse vídeo eu vou fazer a instalação do mais Kelly o servidor mais Kelly e o mais quero Work Bitch
+
+2
+00:00:07,140 --> 00:00:12,270
+que é a ferramenta gráfica que nós vamos usar para interagir com o banco de dados para fazer certos
+
+3
+00:00:12,270 --> 00:00:19,100
+updates criar banco da Europa banco Criar Tabela e coisas do tipo que estão entrando aqui no Brasil.
+
+4
+00:00:19,110 --> 00:00:24,700
+Eu vou selecionar aqui para ali pesquisar mais quero é o primeiro que vai aparecer algo mais que ele
+
+5
+00:00:24,990 --> 00:00:31,690
+e aqui você pode entrar na opção de download pra você fazer o download da versão como Unix disse o que
+
+6
+00:00:31,680 --> 00:00:37,590
+é a edição da comunidade ou seja versão gratuita do mais quero então clicando aqui com méritos downloads
+
+7
+00:00:37,740 --> 00:00:41,300
+clicando nessa primeira opção mais quero como ele recebe.
+
+8
+00:00:41,340 --> 00:00:46,710
+Você vai ter a opção no caso do Windows para instalá lo único com a partir de um único instalador você
+
+9
+00:00:46,710 --> 00:00:52,620
+consegue instalar todos os produtos da aplicação que iniciamos que é o download recomendado e a versão
+
+10
+00:00:52,620 --> 00:00:54,960
+que eu vou baixar essa primeiro MS está lá.
+
+11
+00:00:55,270 --> 00:01:02,160
+Peçam 32 bits a única versão que tem tem duas versões tem uma versão web que vai fazer o download sob
+
+12
+00:01:02,160 --> 00:01:07,050
+demanda e de acordo com aquilo que você selecionar é uma versão que baixa tudo desde o começo eu gostaria
+
+13
+00:01:07,040 --> 00:01:14,190
+de para sanar essa Web que nós vamos instalar apenas os seguem e Benji com o clique ele vai te perguntar
+
+14
+00:01:14,190 --> 00:01:19,740
+se você quer fazer o login ou fazer um cadastro eu não quero fazer login meu cadastro então vou selecionar
+
+15
+00:01:19,740 --> 00:01:20,430
+esse link.
+
+16
+00:01:20,790 --> 00:01:26,910
+Não obrigado simplesmente me leve por download então clicar já vai começar o download aqui há um valor
+
+17
+00:01:26,910 --> 00:01:32,340
+pequeno de 15 Mega e depois ele vai entrar no processo de instalação e lá selecionar aquilo que a gente
+
+18
+00:01:32,340 --> 00:01:33,800
+quer de fato está lá.
+
+19
+00:01:33,810 --> 00:01:39,420
+Uma vez que foi baixado eu vou clicar aqui e ele vai iniciar o processo de instalação que é super simples
+
+20
+00:01:39,420 --> 00:01:44,730
+não tenho dificuldade em não se vê sempre que aparecer uma tela de controle de acesso você responde
+
+21
+00:01:44,730 --> 00:01:45,130
+sim.
+
+22
+00:01:45,840 --> 00:01:51,300
+Então quando ele abre e se instala só pode ser eventualmente que ele um pra você dizendo que tem uma
+
+23
+00:01:51,300 --> 00:01:56,520
+versão mais nova do mais que ela instala para você instalar você pode atualizar ou não fica a seu critério
+
+24
+00:01:56,850 --> 00:02:00,620
+mas acho que não vai influenciar o nosso processo de instalação clicando aqui.
+
+25
+00:02:00,640 --> 00:02:07,350
+Custo então nesse caso o alvo só então vou clicar aqui mais que ele serve mas que ele saiba oito então
+
+26
+00:02:07,360 --> 00:02:12,780
+vou selecionar aqui mandar ele e trazer pra cá para instalar e dentro de application eu vou querer instalar
+
+27
+00:02:12,800 --> 00:02:17,270
+o mais quero bis não selecionada que é a versão 6 com três pontos da.
+
+28
+00:02:17,640 --> 00:02:18,300
+Vou instalar.
+
+29
+00:02:18,420 --> 00:02:23,010
+Então esses são os dois pacotes eu quero instalar o servidor mais que é o Work Bitch.
+
+30
+00:02:23,220 --> 00:02:29,430
+Vou selecionar Bacchi e vou colocar para ele executar a instalação de melhor fazer o download instalar
+
+31
+00:02:29,610 --> 00:02:31,890
+assim contornar esse processo que demora um tempo.
+
+32
+00:02:32,220 --> 00:02:34,670
+Nós voltamos pra concluir a instalação aqui no vídeo
+
+33
+00:02:43,140 --> 00:02:48,740
+é só o processo de download de instalação foi concluída vou selecionar anexos ele está dizendo que eu
+
+34
+00:02:48,740 --> 00:02:53,750
+mais quero saber está pronto para ser configurado e selecione anexo para o processo de configuração
+
+35
+00:02:53,750 --> 00:02:54,560
+ser feito.
+
+36
+00:02:54,560 --> 00:03:02,150
+Nesse caso eu vou selecionar a opção padrão stand alone SQL Server Maxi vou deixar essa opção de configuração
+
+37
+00:03:02,150 --> 00:03:08,300
+pra um computador de desenvolvimento TCP IP porta 3 3 0 6 que é a porta padrão.
+
+38
+00:03:08,300 --> 00:03:13,670
+Não vou mudar nenhuma dessas configurações que foram propostas por ele aqui próximo nessa questão do
+
+39
+00:03:13,670 --> 00:03:15,040
+método de autenticação.
+
+40
+00:03:15,060 --> 00:03:21,350
+Eu vou trocar para a versão Lego por porque nós estamos trabalhando dentro do ambiente de desenvolvimento
+
+41
+00:03:21,350 --> 00:03:24,200
+não há necessidade de ter uma criptografia mais forte.
+
+42
+00:03:24,470 --> 00:03:29,810
+E há algumas incompatibilidades dependendo do que você vai usar para conectar com essa versão do mais
+
+43
+00:03:29,830 --> 00:03:33,170
+quero então com essa versão a versão mais nova.
+
+44
+00:03:33,440 --> 00:03:39,280
+Então ainda há algumas incompatibilidades eu vou deixar bem são legais sim porque para a versão de desenvolvimento
+
+45
+00:03:39,290 --> 00:03:43,970
+não vejo nenhum problema usar esse método e o Metro que traz uma maior compatibilidade então vou usar
+
+46
+00:03:43,970 --> 00:03:47,100
+essa versão use lagos alpinos queixo método.
+
+47
+00:03:47,300 --> 00:03:54,620
+O próximo agora vou definir assim onde vou usar um assim Supersimples pra não esquecer letras estão
+
+48
+00:03:54,650 --> 00:03:57,650
+colocando aqui você escolhe assim que você desejar.
+
+49
+00:03:57,890 --> 00:04:01,970
+Ele disse que é uma senha fraca mas para mim não tem problema nenhum porque eu estou dentro de um ambiente
+
+50
+00:04:02,420 --> 00:04:06,410
+de desenvolvimento que não tem nenhuma pretensão de colocar dados sensíveis.
+
+51
+00:04:06,530 --> 00:04:11,380
+Vou colocar aqui pra ele manter tudo o que é padrão pra ele criar um serviço no Windows esse vai ser
+
+52
+00:04:11,380 --> 00:04:15,490
+o nome e vai inicializar o serviço juntamente com a inicialização do Windows.
+
+53
+00:04:15,480 --> 00:04:20,780
+Para mim é o que eu quero fazer então clicando aqui neste blog clicar para eles atalho a fazer todo
+
+54
+00:04:20,780 --> 00:04:27,900
+o passo a passo de configuração e no final nós vamos ter o mais sequer configurado para uma pessoa a
+
+55
+00:04:27,900 --> 00:04:32,940
+instalação concluída todos os passos foram executados no selecionar aqui Finish ou dar um baixa que
+
+56
+00:04:33,110 --> 00:04:40,110
+determina a instalação da configuração foi concluída Macchi está at Work Bitch ou seja ele abriu a mente
+
+57
+00:04:40,140 --> 00:04:45,750
+assim como clicar em finas exatamente o que eu quero e agora nós vamos criar a nossa primeira conexão
+
+58
+00:04:46,080 --> 00:04:51,240
+Supersimples aqui já tem uma conexão para outra só clicar aqui duas vezes já vai pedir para o colocar
+
+59
+00:04:51,300 --> 00:04:59,310
+a saída coloca aqui a senha e vou pedir para ele guardar a senha dentro de um ambiente seguro que armazena
+
+60
+00:04:59,310 --> 00:04:59,980
+localmente.
+
+61
+00:04:59,990 --> 00:05:06,090
+Vou colocar o ok na próxima vez e não vai pedir mais para assim se você coloca aqui sete estados vai
+
+62
+00:05:06,090 --> 00:05:11,160
+ver que de fato ele está sem detalhes se você quisesse fazer suas consultas basta você entrar aqui ou
+
+63
+00:05:11,160 --> 00:05:14,420
+só tirar essa porta aqui para deixar um pouco mais de espaço.
+
+64
+00:05:14,520 --> 00:05:19,830
+Então com isso pessoal nós terminamos a instalação do mais Kelly e do mais quero que eu seja instalamos
+
+65
+00:05:19,860 --> 00:05:25,530
+o servidor e a ferramenta gráfica para que você possa manipular os bancos criar seus esquemas criar
+
+66
+00:05:25,530 --> 00:05:31,350
+tabelas fazer consultas tudo aquilo que você precisa para interagir com um servidor do mais quero então
+
+67
+00:05:31,350 --> 00:05:34,140
+fico por aqui no vídeo e até a próxima oportunidade.
+
+68
+00:05:34,140 --> 00:05:35,250
+Grande abraço e tal.

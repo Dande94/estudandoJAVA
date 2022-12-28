@@ -1,0 +1,659 @@
+1
+00:00:00,920 --> 00:00:07,500
+Agora nós vamos fazer o nosso primeiro programa é um programa extremamente simples mas não subestime
+
+2
+00:00:07,500 --> 00:00:10,950
+a capacidade de informação que esse programa pode dar.
+
+3
+00:00:10,950 --> 00:00:15,330
+Principalmente se você está iniciando no mundo da programação certo.
+
+4
+00:00:15,330 --> 00:00:24,000
+Então aqui dentro do nosso curso Java nós vamos clicar com o botão direito em cima de SRC o craque o
+
+5
+00:00:24,230 --> 00:00:25,300
+conhece.
+
+6
+00:00:25,450 --> 00:00:30,090
+Até aqui pacote que eu falei que conhece tá certo vamos criar classe.
+
+7
+00:00:30,420 --> 00:00:36,750
+E a primeira coisa que nós vamos dizer que pacote essa classe vai estar armazenada e eu vou colocar
+
+8
+00:00:36,750 --> 00:00:41,740
+aqui no pacote fundamentos é o nome da nossa classe.
+
+9
+00:00:41,810 --> 00:00:51,720
+Vai ser primeiro o programa troca então o pacote de fundamentos na nossa classe será o primeiro programa
+
+10
+00:00:51,720 --> 00:01:01,600
+eu vou finalizar aqui ele criou um pacote chamado fundamentalista que inclusive criou o primeiro programa
+
+11
+00:01:01,600 --> 00:01:02,670
+pomo do Java.
+
+12
+00:01:02,680 --> 00:01:10,910
+Então se nós analisarmos aqui a estrutura de colocar no Windows Explorer ou no Explorer do seu operacional
+
+13
+00:01:10,920 --> 00:01:20,590
+não falar em B ou lá no Linux aqui você vai ver o o Java que é o nosso projeto dentro de SC que é esse
+
+14
+00:01:20,590 --> 00:01:22,110
+mesmo aqui.
+
+15
+00:01:22,730 --> 00:01:30,610
+Mas vamos encontrar uma pasta chamada fundamentos que é exatamente o mesmo nome do nosso pacote eu falei
+
+16
+00:01:30,610 --> 00:01:39,720
+que tem essa relação inclusive gera de fato uma pasta no seu sistema de arquivos e dentro do da pasta
+
+17
+00:01:39,720 --> 00:01:46,930
+fundamental vai ter primeiro programa com o Java que é exatamente o mesmo nome da classe que você acabou
+
+18
+00:01:46,930 --> 00:01:54,790
+de criar e o que acontece também é que tem essa pasta Bin também vai ter o mesmo a mesma estrutura que
+
+19
+00:01:54,790 --> 00:01:56,700
+você definiu aqui na Série C.
+
+20
+00:01:56,830 --> 00:02:03,800
+Só que no lugar de ter o primeiro programa Java nós vamos encontrar aqui o primeiro programa Ponto less.
+
+21
+00:02:04,090 --> 00:02:08,320
+Isso aqui o que acontece e eu vou também explicar isso na minha frente.
+
+22
+00:02:08,350 --> 00:02:14,980
+Como foi explicar o processo de compilação o que ele faz é transformar o arquivo ponto Java que é um
+
+23
+00:02:14,980 --> 00:02:23,350
+arquivo de texto que você pode inclusive abrir com qualquer editor seu clicar aqui clicar com o botão
+
+24
+00:02:23,350 --> 00:02:28,250
+direito ver aqui ou abri com o mote pede por exemplo.
+
+25
+00:02:28,290 --> 00:02:31,750
+Aqui é um arquivo textual que você vai escrever nele.
+
+26
+00:02:31,750 --> 00:02:37,090
+Aqui nós vamos ao eclipse para escrever nele e já dentro de mim.
+
+27
+00:02:37,240 --> 00:02:43,690
+O primeiro programa contactless é um arquivo binário que é interpretado pelo Java.
+
+28
+00:02:44,140 --> 00:02:50,080
+Então a máquina virtual do Java vai interpretar esse arquivo vai executar o seu programa a partir do
+
+29
+00:02:50,080 --> 00:02:53,510
+arquivo pouco claras e não a partir do arquivo Java.
+
+30
+00:02:53,800 --> 00:02:56,870
+Mas lá na frente eu vou explicar um pouco sobre esse conceito.
+
+31
+00:02:56,860 --> 00:02:58,560
+Por enquanto nosso foco aqui.
+
+32
+00:02:58,780 --> 00:03:03,880
+Você percebeu a relação que existe naquilo que nós criamos um eclipse e aquilo que foi criado lá no
+
+33
+00:03:03,880 --> 00:03:07,830
+seu PC ou no lugar onde você armazenou o seu projeto.
+
+34
+00:03:07,830 --> 00:03:12,160
+Por enquanto nosso foco aqui vai ser fazer nosso primeiro programa.
+
+35
+00:03:12,160 --> 00:03:19,950
+Então eu falei pra vocês que nós temos o nosso pacote que é onde nós armazenam nossas classes dentro
+
+36
+00:03:19,950 --> 00:03:20,550
+da classe.
+
+37
+00:03:20,550 --> 00:03:25,950
+Nós temos a estrutura ou o método Mei que é o ponto de entrada de um programa Java.
+
+38
+00:03:26,220 --> 00:03:36,590
+Então dentro dessa estrutura onde começa as chaves aqui fecha aqui dentro eu vou digitar bem e aí vou
+
+39
+00:03:37,140 --> 00:03:38,330
+para o espaço.
+
+40
+00:03:39,290 --> 00:03:45,710
+Essa é a principal tecla de atalho do eclipse contra o espaço que ele vai te mostrar algumas coisas
+
+41
+00:03:45,710 --> 00:03:52,970
+que você pode usar para completar um determinado trecho de um texto que você digitou no seu arquivo.
+
+42
+00:03:53,390 --> 00:04:00,180
+Então aqui ele está me dá a sugestão de criar um método meio metro se eu clicar duas vezes aqui ele
+
+43
+00:04:00,200 --> 00:04:07,600
+vai criar estrutura para mim e dentro dessa estrutura nós vamos definiu a única linha de comando pra
+
+44
+00:04:07,600 --> 00:04:10,620
+ser o nosso primeiro programa com o que é que eu vou digitar aqui.
+
+45
+00:04:10,640 --> 00:04:13,240
+System.
+
+46
+00:04:13,660 --> 00:04:18,420
+Aí eu posso escolher aqui tem várias opções eu vou escolher a Audi ok.
+
+47
+00:04:18,710 --> 00:04:26,510
+E tem várias opções e eu vou colocar aqui print ali e vou dentro desses parênteses aqui algo colocar
+
+48
+00:04:26,570 --> 00:04:29,040
+parênteses e fecho com ponto e vírgula.
+
+49
+00:04:29,220 --> 00:04:32,110
+E dentro desse parênteses vou colocar o texto que eu quiser.
+
+50
+00:04:32,120 --> 00:04:34,860
+Aí eu posso colocar qualquer coisa que não vai ter problema.
+
+51
+00:04:35,060 --> 00:04:42,830
+Aqui eu vou colocar por exemplo o primeiro programa salvando esse arquivo é executado aqui nessa 7ª
+
+52
+00:04:43,070 --> 00:04:50,220
+ou ele vai colocar aqui no console que eu já Billy tem mas se você não tiver habilitado ele vai aparecer
+
+53
+00:04:50,220 --> 00:04:57,430
+o console vai aparecer aqui primeiro programa uma tecla de atalho para executar seria o Control f 11.
+
+54
+00:04:58,080 --> 00:05:00,940
+Ele também executa do mesmo jeito com o troféu 11.
+
+55
+00:05:01,330 --> 00:05:09,180
+Ou então você tinha que executar então a primeira pergunta que surge quando você está começando a programar
+
+56
+00:05:09,190 --> 00:05:14,160
+uma linguagem é importante que você faça perguntas pergunta sempre independente de qual linguagem você
+
+57
+00:05:14,160 --> 00:05:21,080
+está aprendendo e como é que essa linguagem é organizada da forma mais primitiva possível.
+
+58
+00:05:21,090 --> 00:05:26,400
+Como é que um programa Java e organizado olhando para esse programa a gente consegue fazer algumas considerações
+
+59
+00:05:26,400 --> 00:05:27,080
+importantes.
+
+60
+00:05:27,080 --> 00:05:36,360
+A primeira delas é um programa Java ele é organizado em sentenças de código terminadas por ponto e vírgula
+
+61
+00:05:36,840 --> 00:05:39,570
+sentenças de código terminadas com o continuísmo.
+
+62
+00:05:39,930 --> 00:05:43,640
+Então vamos pensar um pouco no português como é que o português é organizado.
+
+63
+00:05:43,640 --> 00:05:49,620
+O português é organizado com um conjunto de palavras que geram uma sentença e a sentença em português
+
+64
+00:05:49,620 --> 00:05:53,590
+ela termina com um ponto mais um Java diferente.
+
+65
+00:05:53,610 --> 00:05:57,340
+A sentença de código Java termina com vírgula.
+
+66
+00:05:57,840 --> 00:06:01,250
+Eu posso por exemplo quebrar isso aqui.
+
+67
+00:06:01,560 --> 00:06:06,260
+Aqui dá um espaço aqui posso quebrar essa linha aqui.
+
+68
+00:06:06,270 --> 00:06:10,410
+Tudo isso aqui é uma única sentença de código Java.
+
+69
+00:06:10,410 --> 00:06:11,040
+Por quê.
+
+70
+00:06:11,220 --> 00:06:15,700
+Porque eu tenho uma única sentença embora tenho várias amigas assim como o português também posso ter
+
+71
+00:06:16,400 --> 00:06:20,340
+a mesma sentença ocuparam várias amiguinhas terminada com outro.
+
+72
+00:06:20,480 --> 00:06:26,670
+Aqui é a mesma coisa sem muita sentença terminada com o que digo eu posso usar a aquele atalho contra
+
+73
+00:06:26,670 --> 00:06:30,820
+o chip TF aquele formato Coelho novamente tá certo.
+
+74
+00:06:31,200 --> 00:06:39,050
+Então eu tenho sentenças de códigos terminados com pouco brilho eu posso por exemplo aqui se eu quiser
+
+75
+00:06:39,090 --> 00:06:43,180
+posso copiar e colar aqui embaixo.
+
+76
+00:06:43,330 --> 00:06:48,970
+Eu tenho agora duas sentenças de código terminados com ponto e vírgula tem uma sentença na linha 6 e
+
+77
+00:06:48,970 --> 00:06:50,430
+sentença da Linha 6.
+
+78
+00:06:51,490 --> 00:06:58,130
+Mas voltando aqui deixando só uma sentença mesmo então eu tenho sentenças de código terminada com vírgula.
+
+79
+00:06:58,180 --> 00:07:07,900
+Eu tenho blocos de código que são delimitados com chaves abertura de Chaves e fechamento em Chaves.
+
+80
+00:07:07,900 --> 00:07:14,620
+Então são duas coisas que traz a organização básica de um programa em Java são sentenças de código que
+
+81
+00:07:14,620 --> 00:07:16,630
+são delimitados ou finalizados.
+
+82
+00:07:16,630 --> 00:07:21,100
+Melhor dizendo que o ponto e vírgula e blocos de código estão olhando para esse fim.
+
+83
+00:07:21,190 --> 00:07:28,460
+Esse primeiro programa você consegue me dizer quanto a sentença de código tem quantos blocos tem.
+
+84
+00:07:28,510 --> 00:07:29,750
+Simples.
+
+85
+00:07:29,770 --> 00:07:34,870
+Aqui eu tenho uma única sentença caso da Linha 6 terminada com vigor.
+
+86
+00:07:35,410 --> 00:07:40,330
+Eu tenho aqui um bloco que começa na Linha 5.
+
+87
+00:07:40,840 --> 00:07:46,580
+Tanto é que quando você coloca o cursor a equipe seleciona o par relacionado à chave.
+
+88
+00:07:46,600 --> 00:07:50,160
+Então começa na linha 5 e termina na Linha 7.
+
+89
+00:07:50,520 --> 00:07:56,760
+Eu tenho um outro bloco que começa na Linha 3 e termina lá na linha 8.
+
+90
+00:07:56,770 --> 00:08:05,170
+Outra coisa importante que você percebe aqui é que quando há uma relação de um determinado pedaço do
+
+91
+00:08:05,170 --> 00:08:08,480
+coelho está dentro de outro eixo.
+
+92
+00:08:08,820 --> 00:08:14,250
+O próprio editor do caso é quem você lhe dá um espaço para dar a ideia de que um lado do outro.
+
+93
+00:08:14,250 --> 00:08:18,150
+Então por exemplo aqui na linha CC percebe que há um espaço aqui.
+
+94
+00:08:18,730 --> 00:08:22,180
+Esse espaço quer dizer que essa linha lá está dentro.
+
+95
+00:08:22,180 --> 00:08:30,580
+Dentro desse bloco a mesma coisa que esse bloco também tem um espaço daqui daqui dizendo que esse bloco
+
+96
+00:08:30,580 --> 00:08:38,170
+aqui ele pertence a esse bloco maior aqui tá certo então um programa Java organizado em sentenças de
+
+97
+00:08:38,170 --> 00:08:43,390
+código terminados com vírgula e ele é usado também em blocos de código.
+
+98
+00:08:43,390 --> 00:08:50,500
+Uma coisa importante é uma vez que eu tenho um bloco A e B assim eu não posso ter um bloco B que está
+
+99
+00:08:50,500 --> 00:08:52,320
+parcialmente dentro do app.
+
+100
+00:08:52,390 --> 00:08:55,060
+Só que tem uma parte fora não existe isso.
+
+101
+00:08:55,240 --> 00:08:58,850
+Um bloco sempre estará totalmente dentro do outro.
+
+102
+00:08:58,870 --> 00:09:08,010
+Isso é um princípio básico de programação então você não tem interseção Apache com dois blocos na plataforma
+
+103
+00:09:08,020 --> 00:09:15,100
+é como se fosse um conjunto na verdade é sempre um bloco estará dentro de outro bloco estará alinhado
+
+104
+00:09:15,190 --> 00:09:18,920
+dentro de outro bloco é muito importante que você tenha isso em mente.
+
+105
+00:09:18,940 --> 00:09:23,730
+Outra coisa que nós também podemos tirar desse primeiro exemplo é que dentro de um programa Java tudo
+
+106
+00:09:23,730 --> 00:09:31,060
+o que for texto textual no sentido em que você quer exibir uma mensagem ou você tem alguma informação
+
+107
+00:09:31,060 --> 00:09:38,090
+que você quer colocar textual que você coloca entre aspas duplas chama isso que distingue.
+
+108
+00:09:38,360 --> 00:09:44,950
+Depois eu falava que uma olha só pra esse um pouco mais sobre sobre strings está certo mas é importante
+
+109
+00:09:44,980 --> 00:09:52,270
+que você já de cara perceba que tem essa anotação digamos assim entre aspas duplas que você colocar
+
+110
+00:09:52,750 --> 00:09:54,700
+mesmo que seja apenas uma única letra.
+
+111
+00:09:55,050 --> 00:10:00,440
+Ela significa dentro do Java que é um monstrinho só como a brincadeira digamos assim.
+
+112
+00:10:00,460 --> 00:10:10,720
+Se eu vim aqui e colocar ponto e vírgula com que virou ponto vírgula e salvar embora isso não faça absolutamente
+
+113
+00:10:10,720 --> 00:10:11,490
+nada.
+
+114
+00:10:11,530 --> 00:10:13,720
+Esse é um programa Java válido.
+
+115
+00:10:13,900 --> 00:10:17,810
+Você vai executar que ele ele executou.
+
+116
+00:10:17,810 --> 00:10:21,400
+Essa é a única linha realmente está executando alguma coisa no seu programa.
+
+117
+00:10:21,660 --> 00:10:27,590
+Mas eu tenho agora em vez de ter apenas uma única sentença tenho quatro sentenças de código.
+
+118
+00:10:27,640 --> 00:10:31,200
+A primeira na linha 6 7 8 9 9.
+
+119
+00:10:31,260 --> 00:10:40,460
+Se eu quiser por algum motivo eu posso aqui colocar um bloco de código começando aqui e terminando aqui
+
+120
+00:10:40,580 --> 00:10:48,180
+vou dar um Control Shift F para formatar você percebe que a própria ideia já coloca um espaço aqui pra
+
+121
+00:10:48,180 --> 00:10:54,330
+dizer que essas duas sentenças que não fazem absolutamente nada só pra deixar claro que elas estão alinhadas
+
+122
+00:10:54,330 --> 00:11:00,330
+dentro desse bloco de código que também não faz nenhum sentido eu escrever do jeito que eu estou colocando
+
+123
+00:11:00,330 --> 00:11:04,320
+aqui mas isso também é um programa Java válido.
+
+124
+00:11:04,320 --> 00:11:08,910
+Se eu executar aqui você percebe que ele continua funcionando.
+
+125
+00:11:09,000 --> 00:11:15,210
+Só para deixar bem claro esse conceito um programa Java o forma mais básica possível ele é organizado
+
+126
+00:11:15,210 --> 00:11:21,230
+em sentenças de código que terminam com um ponto e vírgula é organizado em blocos de código.
+
+127
+00:11:21,240 --> 00:11:27,780
+Preste atenção esse bloco aqui no campo sua luta sem sentido nenhum está aqui mas você percebe que esse
+
+128
+00:11:27,780 --> 00:11:37,440
+bloco apagasse isso aqui onde você percebe que esse bloco da Linha 5 a Linha 7 ele tem um sentido será
+
+129
+00:11:37,470 --> 00:11:41,720
+justamente a porta de entrada de um programa Java que é o Metro do meio.
+
+130
+00:11:41,830 --> 00:11:45,270
+Eu já mencionei ele é na linha 3.
+
+131
+00:11:45,270 --> 00:11:51,990
+Esse bloco de código justamente representa a estrutura da classe e primeiro programa.
+
+132
+00:11:52,350 --> 00:11:58,370
+Mas ainda vamos falar sobre classe e entender exatamente todo o conceito que existe por trás de classe
+
+133
+00:11:58,590 --> 00:12:04,650
+mais por enquanto que você precisa entender de classe que classe define um bloco como está definido
+
+134
+00:12:04,650 --> 00:12:12,720
+aqui e todo o seu programa vai está a ser executado e tudo aquilo que fiz foi escrever vai tá dentro
+
+135
+00:12:12,720 --> 00:12:19,770
+da classe com algumas pequenas exceções como por exemplo a declaração do pega esse nome que tem que
+
+136
+00:12:19,770 --> 00:12:23,550
+batem exatamente com o nome do pacote onde a classe está.
+
+137
+00:12:23,610 --> 00:12:30,060
+Então se eu por exemplo colocar aqui tirar um s e salvar vai gerar um erro no seu código.
+
+138
+00:12:30,180 --> 00:12:37,260
+Então tem que voltar aqui para bater exatamente o nome do pacote com o nome do pacote na classe está
+
+139
+00:12:38,040 --> 00:12:41,900
+outra coisa que tem que bater o nome da classe.
+
+140
+00:12:41,910 --> 00:12:46,320
+Tem que bater com o nome do arquivo então primeiro programa aqui não está batendo.
+
+141
+00:12:46,320 --> 00:12:49,630
+Se eu tentar executar ele vai gerar um erro certo.
+
+142
+00:12:49,670 --> 00:12:51,930
+Vai dizer que não foi possível carregar.
+
+143
+00:12:51,930 --> 00:12:57,780
+Então tem que botar aqui mesmo o nome e outra coisa que é importante é que o método mem ele tem que
+
+144
+00:12:57,780 --> 00:13:05,820
+ser escrito exatamente dessa forma se você colocar por exemplo em maiúsculo e tentar executar esse programa
+
+145
+00:13:05,820 --> 00:13:08,600
+ele vai dizer o método não foi encontrado.
+
+146
+00:13:08,640 --> 00:13:14,190
+Se você colocar qualquer outra variação que não seja Mei ele simplesmente não vai encontrar e não vai
+
+147
+00:13:14,190 --> 00:13:14,740
+executar.
+
+148
+00:13:15,120 --> 00:13:22,340
+Então na sala nós vimos vários conceitos extremamente importantes dentro do Java vimos que esse PAC
+
+149
+00:13:22,420 --> 00:13:27,150
+tem que bater com um pacote o nome da classe também tem que bater com os nomes das classes e outras
+
+150
+00:13:27,150 --> 00:13:29,480
+regras mais para frente.
+
+151
+00:13:29,490 --> 00:13:34,860
+O método da forma como ele é definido segue um conjunto de regras e não pode.
+
+152
+00:13:35,080 --> 00:13:41,160
+Você não pode variar na verdade a única coisa que pode variar é esse argumentos aqui porque colocar
+
+153
+00:13:41,160 --> 00:13:46,380
+qualquer coisa aqui que não vai fazer diferença vai continuar sem resultado certo.
+
+154
+00:13:46,970 --> 00:13:52,420
+E falamos muito sobre a questão da organização de um programa em que programa Java é organizado sentenças
+
+155
+00:13:52,430 --> 00:13:57,540
+código caminhando com pouco vigor e em bloco e recolho esses blocos.
+
+156
+00:13:57,540 --> 00:14:03,060
+Eles agrupam digamos assim e agrupam um conjunto de sentenças pra fazer alguma coisa.
+
+157
+00:14:03,060 --> 00:14:09,630
+Eles podem servir pra fazer repetição de um grupo de sentenças ele pode servir para selecionar um grupo
+
+158
+00:14:09,930 --> 00:14:11,620
+em detrimento de outro.
+
+159
+00:14:11,730 --> 00:14:16,910
+Pode servir pra colocar dentro de um método como aqui no máximo meio uma sequência atrás da outra.
+
+160
+00:14:17,070 --> 00:14:26,950
+Mas importante é que o bloco ele traz consigo a ideia de que há uma coisa que é uma junção universal
+
+161
+00:14:26,970 --> 00:14:32,350
+a relação entre aquelas sentenças e elas estão agrupadas dentro de um bloco.
+
+162
+00:14:32,760 --> 00:14:38,730
+Com certeza a ideia de que você acabou de criar um grupo além de sentenças para fazer um determinado
+
+163
+00:14:38,730 --> 00:14:39,870
+trabalho certo.
+
+164
+00:14:40,260 --> 00:14:47,010
+Então por essa aula vou buscar por aqui mais que é extremamente importante que esses conceitos estejam
+
+165
+00:14:47,010 --> 00:14:52,070
+na sua cabeça porque nós vamos usá lo em praticamente tudo que nós vamos fazer daqui pra frente.

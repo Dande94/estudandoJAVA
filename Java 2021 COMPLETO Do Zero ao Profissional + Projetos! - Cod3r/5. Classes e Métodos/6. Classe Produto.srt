@@ -1,0 +1,591 @@
+1
+00:00:00,300 --> 00:00:06,000
+Agora que a gente já viu a parte mais teórica dessa parte inicial do nosso capítulo que é principalmente
+
+2
+00:00:06,000 --> 00:00:12,480
+conceito clássico conceito de objeto e a relação que existe entre classe objeto vamos agora começar
+
+3
+00:00:12,840 --> 00:00:14,230
+nosso primeiro exercício.
+
+4
+00:00:14,290 --> 00:00:21,600
+E para isso nós vamos criar um novo pacote e então selecionar aqui pacotes do pacote será clássico se
+
+5
+00:00:21,600 --> 00:00:28,920
+você colocar aqueles que é uma palavra reservada da linguagem Java uma das questões com relação a palavras
+
+6
+00:00:28,920 --> 00:00:35,550
+reservadas é que elas são de fato reservadas só quem pode usar esse tipo de palavra já você não pode
+
+7
+00:00:35,550 --> 00:00:41,550
+criar uma variável com a palavra reservada por exemplo não posso criar variáveis chamada W não posso
+
+8
+00:00:41,550 --> 00:00:43,670
+criar variáveis chamada Class.
+
+9
+00:00:43,710 --> 00:00:49,290
+Também não posso criar um pacote chamado classe a aplicar um palavra reservado na linguagem mas posso
+
+10
+00:00:49,290 --> 00:00:52,690
+chamar Classic em português não tem problema nenhum.
+
+11
+00:00:52,690 --> 00:00:57,050
+E assim eu posso criar o nome do pacote porque não vai completar com a palavra reservada da linguagem
+
+12
+00:00:57,390 --> 00:00:58,610
+clicar com o botão direito.
+
+13
+00:00:58,610 --> 00:01:00,360
+Agora sim vou criar uma nova classe.
+
+14
+00:01:00,360 --> 00:01:05,710
+Poderia ter criado uma classe já com um pacote sem problema nenhum então não haverá classe aqui sim
+
+15
+00:01:05,780 --> 00:01:11,820
+no o nome do pacote mas em nome da classe será um produto e esse foi seu primeiro exercício que eu vou
+
+16
+00:01:11,820 --> 00:01:18,900
+criar duas classes no mesmo exercício criar classes produto a classe produto não terá um metro no meio
+
+17
+00:01:19,100 --> 00:01:24,480
+e vou criar uma outra classe para acessar o produto usando o metro no momento certo.
+
+18
+00:01:24,750 --> 00:01:25,900
+Então o que é que eu vou fazer aqui.
+
+19
+00:01:26,010 --> 00:01:32,250
+Eu vou definir que o nosso produto tem três atributos e note que eu vou criar os atributos diretamente
+
+20
+00:01:32,250 --> 00:01:33,140
+dentro da classe.
+
+21
+00:01:33,150 --> 00:01:39,180
+Então vou colocar aqui o primeiro atributo vai ser monstrinho que eu vou chamar de nome e vou colocar
+
+22
+00:01:39,180 --> 00:01:40,470
+ponto e vírgula.
+
+23
+00:01:40,470 --> 00:01:48,270
+O segundo atributo será o valor da ABL que eu vou chamar aqui de preço ou vírgula e normalmente eu não
+
+24
+00:01:48,270 --> 00:01:54,780
+vou usar no caso que aceito até poderia usar mais para faria se você não usa acento não de variáveis
+
+25
+00:01:54,780 --> 00:02:02,250
+constantes nome de classe de métodos e finalmente vou criar outra variável que será o desconto certo
+
+26
+00:02:02,250 --> 00:02:10,170
+no caso o desconto ele vai estar entre 0 e 1 então por exemplo zero o ponto seria 10 por cento de desconto
+
+27
+00:02:10,170 --> 00:02:17,520
+0 ou 3 30% 0 ponto 9 90 por cento de desconto e o preço vai ser o preço que você quiser colocar e nós
+
+28
+00:02:17,520 --> 00:02:22,570
+também colocamos aqui um extra para representar o nome do produto ou seja eu criei uma classe.
+
+29
+00:02:22,920 --> 00:02:28,050
+A partir dessa classe momento que eu chamei alguns votou no momento que eu quiser criar um instancia
+
+30
+00:02:28,050 --> 00:02:35,100
+a novos objetos os objetos criados serão esses mesmos três atributos nome para isso desconto que é que
+
+31
+00:02:35,110 --> 00:02:42,130
+vou fazer agora eu vou criar um novo ou a nova classe 1000 class para criar um padrão.
+
+32
+00:02:42,130 --> 00:02:48,330
+Eu vou chamar um nome da classe também de produto eu não posso usar duas classes com o mesmo nome certo
+
+33
+00:02:48,330 --> 00:02:54,390
+e eu vou colocar o final para ser teste então eu vou criar o produto e produto teste sendo que o produto
+
+34
+00:02:54,390 --> 00:02:59,470
+teste vai ser a classe que nós vamos usar para testar o produto que nós acabamos de criar.
+
+35
+00:02:59,490 --> 00:03:05,880
+é nessa classe Produto dessa classe que nós colocaremos o método para a gente usar o produto.
+
+36
+00:03:06,060 --> 00:03:12,810
+Como eu estou dentro de um mesmo pacote ou seja tanto a classe produto como a classe Produto Tech está
+
+37
+00:03:12,810 --> 00:03:14,970
+dentro do pacote classe.
+
+38
+00:03:15,360 --> 00:03:21,570
+Eu não preciso me importar a classe Produto eu consigo usar classe Produto sem necessariamente precisar
+
+39
+00:03:21,570 --> 00:03:22,800
+importá.
+
+40
+00:03:22,800 --> 00:03:27,580
+Essa é uma regra que juntamente com todos os arquivos que estão dentro de Java.
+
+41
+00:03:27,580 --> 00:03:33,720
+Ponto leigo também acontece não preciso importar nada que está dentro de Java Controller assim como
+
+42
+00:03:33,720 --> 00:03:40,230
+também não preciso importar nada que eu vá usar e eventualmente usar que está dentro do próprio pacote
+
+43
+00:03:40,230 --> 00:03:41,110
+clássico.
+
+44
+00:03:41,130 --> 00:03:45,760
+Por exemplo se eu pegasse aqui a classe B sei que eu vou usar.
+
+45
+00:03:45,870 --> 00:03:51,060
+Se eu quisesse usar a classe Black coloca que eu dou um contra o espaço amostral.
+
+46
+00:03:51,300 --> 00:03:53,960
+Você quer usar o Black que está dentro do controle.
+
+47
+00:03:54,010 --> 00:03:59,610
+Ou você quer usar os outros tipos de Black que tem aqui na API do Java não quero usar esse que está
+
+48
+00:03:59,680 --> 00:04:02,210
+classe controle só clicar duas vezes aqui.
+
+49
+00:04:02,310 --> 00:04:05,570
+Você vai perceber que ele vai impor tal controle.
+
+50
+00:04:05,720 --> 00:04:11,400
+Sei que é exatamente o nome do meu pacote no nome da classe que eu quero usar como visto em pacotes
+
+51
+00:04:11,400 --> 00:04:11,970
+diferentes.
+
+52
+00:04:11,970 --> 00:04:19,350
+Nesse caso eu precisaria importar se eu quisesse usar algum exercício que eu fiz em um capítulo anterior
+
+53
+00:04:19,390 --> 00:04:26,010
+mas agora como juntar dentro do mesmo mesmo pacote que estamos dentro do mesmo capítulo.
+
+54
+00:04:26,010 --> 00:04:29,280
+Aqui eu posso usar a classe Produto sem problema nenhum.
+
+55
+00:04:29,280 --> 00:04:36,030
+Agora nós vamos fazer a nossa primeira criação de objetos de uma forma mais digamos assim inconsciente
+
+56
+00:04:36,030 --> 00:04:43,630
+a gente já fez isso várias vezes aqui por exemplo no nosso exercício de fundamentos.
+
+57
+00:04:43,660 --> 00:04:46,670
+Lá não acho que eu desafio calculadora.
+
+58
+00:04:46,770 --> 00:04:47,460
+Vários exemplos.
+
+59
+00:04:47,460 --> 00:04:53,250
+Na verdade eu desafio fui calculadora e o que eu criei o scanner que eu vou copiar isso vou fechar esse
+
+60
+00:04:53,250 --> 00:04:57,350
+arquivo e vou copiar aqui só para gente comparar com relação.
+
+61
+00:04:57,350 --> 00:05:02,270
+Como foi isto ansiado seguir mais ou menos o mesmo padrão.
+
+62
+00:05:02,650 --> 00:05:09,370
+E também vou comparar com a criação de uma variável que define o título o nome da variável recebe o
+
+63
+00:05:09,370 --> 00:05:18,640
+valor da variável do mesmo jeito que tipo vai ser sacana o nome a variável entrada recebe o símbolo
+
+64
+00:05:18,640 --> 00:05:26,590
+de atribuição na mesma forma que uniu esse ou seja esse o é exatamente a palavra reservada na linguagem
+
+65
+00:05:26,590 --> 00:05:33,400
+Java que é responsável por chamar o construtor e o nome do construtor exatamente o mesmo nome da classe.
+
+66
+00:05:33,520 --> 00:05:38,260
+Então se eu quero criar uma classe do tipo de produto eu tenho que chamar o construtor de produto então
+
+67
+00:05:38,500 --> 00:05:44,850
+para distanciar o fazem exatamente a mesma sequência ou chamar que ao colocar o produto e o tipo.
+
+68
+00:05:44,890 --> 00:05:47,700
+Ou seja uma classe define o tipo eu falei pra vocês.
+
+69
+00:05:47,710 --> 00:05:56,470
+Então nós temos um código o nome do produto eu vou chamar aqui um produto recebe e eu vou colocar aqui
+
+70
+00:05:56,500 --> 00:06:04,350
+produto coloco os parentes e termino com um ponto e vírgula ou seja da mesma forma que a é um canal
+
+71
+00:06:04,420 --> 00:06:10,660
+tipo o nome da variável mil alguma coisa pra distanciar um produto do mesmo jeito que eu vou tirar isso
+
+72
+00:06:11,050 --> 00:06:13,260
+certo eu não preciso dessas dores.
+
+73
+00:06:13,390 --> 00:06:19,030
+Essas duas sentenças de código e vou simplesmente distanciar um produto ou seja uma classe define o
+
+74
+00:06:19,030 --> 00:06:19,710
+tipo.
+
+75
+00:06:19,700 --> 00:06:25,790
+Então pra criar uma baseada em Java eu preciso dizer o título até posso se quiser fazer o seguinte ou
+
+76
+00:06:26,200 --> 00:06:30,670
+vá P2 recebe mil produto.
+
+77
+00:06:30,760 --> 00:06:31,430
+Porquê.
+
+78
+00:06:31,720 --> 00:06:38,650
+Porque embora eu tenha usado vá o Java consegue inferir o tipo eu já falei isso um capítulo de fundamentos
+
+79
+00:06:38,650 --> 00:06:44,530
+ou seja pelo valor é exatamente a partir do valor que ele consegue inferir o tipo da variável corretamente
+
+80
+00:06:44,620 --> 00:06:45,190
+produto.
+
+81
+00:06:45,190 --> 00:06:51,790
+Então aqui nós temos duas instâncias temos uma classe que é um blog criamos duas instâncias independentes
+
+82
+00:06:51,790 --> 00:06:54,510
+o que é que vai variar de um instância para a outra os valores.
+
+83
+00:06:54,790 --> 00:07:01,750
+Então posso fazer algo aqui eu posso usar anotação ponto pra acessar os membros que pertencem à instância
+
+84
+00:07:01,890 --> 00:07:05,260
+que foram definidos na classe mais esse caso são membros de instância.
+
+85
+00:07:05,560 --> 00:07:12,800
+Então pelo nome o próprio cliente já completa para a gente até um ponto não recebe no caso que o estreante
+
+86
+00:07:13,190 --> 00:07:20,250
+então vá alterar o valor dessa variável colocando por exemplo o produto vai ser noite Bubbles sabe conter
+
+87
+00:07:20,320 --> 00:07:29,440
+vírgula vou colocar aqui ao pé um ponto ele mostra para mim pra isso mas sei por exemplo 4 mil 356 pontos
+
+88
+00:07:29,470 --> 00:07:39,700
+89 ou lo e finalmente ter um outro desconto recebe o valor zero ponto 25 o que significa que esse produto
+
+89
+00:07:39,700 --> 00:07:52,020
+terá 25 sem desconto e posso colocar aqui em B2 com outro nome pra receber camiseta preta Ponto e Vírgula
+
+90
+00:07:52,030 --> 00:08:04,720
+posso colocar aqui P2 ponto pra isso pra receber 12 pontos 56 e finalmente B2 com desconto recebe o
+
+91
+00:08:04,720 --> 00:08:15,170
+valor 01 ponto 29 7.0 era ponto 29 que no final dá 29 por cento ou seja tenho uma única único molde
+
+92
+00:08:15,320 --> 00:08:17,690
+que a minha classe a classe definitivo.
+
+93
+00:08:17,800 --> 00:08:23,340
+Criei duas instâncias dessa classe usando a palavra reservada em mil.
+
+94
+00:08:23,470 --> 00:08:29,680
+Certo Eu vou falar um pouco mais sobre quem chutou tal fato aqui o nome da classe e aqui eu tenho o
+
+95
+00:08:29,680 --> 00:08:35,310
+nome do construtor exatamente da mesma forma usando as letras maiúsculas e minúsculas no caso de eu
+
+96
+00:08:35,310 --> 00:08:37,960
+ter um P maiúsculo a mesma que define na classe.
+
+97
+00:08:38,210 --> 00:08:44,140
+Mas vamos entrar um pouco mais em detalhe nem sempre você vai ter exatamente o mesmo nome de um lado
+
+98
+00:08:44,140 --> 00:08:50,260
+e do outro vai ter algum situações que você vai variar isso mas tem outros princípios que precisam ser
+
+99
+00:08:50,260 --> 00:08:52,620
+ensinados antes de gente chegar nesse momento.
+
+100
+00:08:52,960 --> 00:08:58,570
+Mas por enquanto vai fazer um pouco mais comportada né o produto associei a produto aqui no caso defini
+
+101
+00:08:58,790 --> 00:09:00,670
+la e ele vai fazer um inferência.
+
+102
+00:09:00,910 --> 00:09:03,150
+Essa variável também será do tipo produto.
+
+103
+00:09:03,460 --> 00:09:11,650
+Finalmente se eu quiser mostrar aqui eu posso fazer P2 com outro nome para exibir o valor de P2 o nome
+
+104
+00:09:11,650 --> 00:09:18,250
+de P2 o caso de caneta preta e posso duplicar essa linha aqui e colocar também aqui para acessar todos
+
+105
+00:09:18,250 --> 00:09:22,780
+os atributos se quiserem pelo nome P2 com o nome em um ponto.
+
+106
+00:09:22,780 --> 00:09:29,770
+Preço Desconto então pra você acessar o seu uso a natação ponto pra você alterar o valor de um variável.
+
+107
+00:09:30,010 --> 00:09:33,950
+Então você coloca um ponto pra isso recebe alguma coisa.
+
+108
+00:09:33,950 --> 00:09:38,320
+Da mesma forma que você pode pegar os valores é pra você usar os valores.
+
+109
+00:09:38,320 --> 00:09:45,890
+Você também usa a natação ponto então aqui eu posso calcular o valor final do preço por exemplo do notebook
+
+110
+00:09:45,950 --> 00:09:53,650
+que posso pagar ao System hoje Prince Alien e eu vou pagar P Ponto pra isso tem um preço melhor dizendo
+
+111
+00:09:53,970 --> 00:10:06,190
+e aqui eu vou multiplicar por menos o teu desconto então pode até ter que armazenar meu preço no preço
+
+112
+00:10:06,190 --> 00:10:08,280
+final que então o coloca.
+
+113
+00:10:08,470 --> 00:10:14,520
+Dado o preço final recebe isso aqui.
+
+114
+00:10:14,530 --> 00:10:18,410
+Preço final posso colocar aqui o valor de preço final.
+
+115
+00:10:18,640 --> 00:10:21,370
+Posso duplicar essa linha e tem um preço final.
+
+116
+00:10:21,370 --> 00:10:32,570
+2 GB R$ 2 recebe menos dois pontos desconto e eu posso até calcular por exemplo a média.
+
+117
+00:10:32,590 --> 00:10:36,370
+Então somar os dois preço final.
+
+118
+00:10:36,380 --> 00:10:38,920
+2 dividir por dois.
+
+119
+00:10:38,920 --> 00:10:44,530
+Nesse caso aqui como esse aqui tem prioridade né tem precedência tem uma praça densa e maior eu posso
+
+120
+00:10:44,530 --> 00:10:49,360
+colocar isso aqui e acertando mais ou.
+
+121
+00:10:49,390 --> 00:10:57,010
+A média no nosso carrinho de compra digamos assim nós definimos dois valores então o valor 4 mil alguma
+
+122
+00:10:57,010 --> 00:10:58,920
+coisa ou 12 reais.
+
+123
+00:10:59,040 --> 00:11:08,060
+Somando os 2 GB a média dos nossos produtos a 1600 alguma coisa que eu posso até colocar isso pra mim
+
+124
+00:11:08,110 --> 00:11:13,630
+coloca uma variável tão média carrinho recebe isso aqui.
+
+125
+00:11:14,330 --> 00:11:23,280
+E finalmente eu posso usar até o interfone pra colocar que a média do carrinho é igual.
+
+126
+00:11:23,290 --> 00:11:31,720
+Aí eu coloco o símbolo do Real por exemplo posso colocar porcentagem afim e posso colocar um ponto dois
+
+127
+00:11:32,140 --> 00:11:41,050
+pra ele não ficar com muitas casas decimais então passando agora o parâmetro média do carrinho acertando
+
+128
+00:11:41,580 --> 00:11:49,330
+a gente tem um valor real 1638 ponto 29 e a média do carrinho desses dois produtos é tão mais importante
+
+129
+00:11:49,330 --> 00:11:56,290
+que do nosso exercício e nós criamos um tipo que está lá no outro arquivo certo esse tipo simplesmente
+
+130
+00:11:56,350 --> 00:12:06,760
+define três variáveis nome preço e desconto e essas três variáveis pertencem ao objeto ou sempre e sempre
+
+131
+00:12:06,760 --> 00:12:13,030
+que eu crio um novo objeto eu vou ter novos espaços de memória que vão armazenar o valor de nome.
+
+132
+00:12:13,120 --> 00:12:15,860
+O valor de preço é o valor de desconto certo.
+
+133
+00:12:15,900 --> 00:12:20,510
+A gente vai entrar um pouco mais de detalhe nisso a classe definitivo que eu criei uma classe.
+
+134
+00:12:20,920 --> 00:12:28,300
+Eu consigo criar variáveis do tipo que a classe define então cria uma variável produto e definir variáveis
+
+135
+00:12:28,300 --> 00:12:34,450
+do tipo o produto está se usando uniu a gente vai aprofundar um pouco mais a caixa do construtor mas
+
+136
+00:12:34,450 --> 00:12:39,700
+a priori a gente usa o nome da classe exatamente o nome do construtor e coloca os parênteses já que
+
+137
+00:12:39,700 --> 00:12:44,560
+o construtor é um método e não a ação sempre que eu chamo um método vai ter os parentes eu vou falar
+
+138
+00:12:44,560 --> 00:12:49,570
+um pouco mais sobre isso também nesse capítulo e depois para gente acessar os atributos de uma classe
+
+139
+00:12:49,570 --> 00:12:57,070
+a gente usa a notação ponto B um ponto nome pelo ponto preço pelo ponto de desconto que é o nome da
+
+140
+00:12:57,070 --> 00:12:59,140
+variável que eu criei o nome da minha instância.
+
+141
+00:12:59,380 --> 00:13:04,420
+Então nesse exemplo nós temos uma classe e nós criamos duas instâncias e depois a gente começa a criar
+
+142
+00:13:04,420 --> 00:13:10,360
+outras variáveis em cima dos valores dos atributos dessa instância também membros a gente para chamar
+
+143
+00:13:10,720 --> 00:13:16,090
+membros de uma forma mais geral um membro pode ser atribuído ou comportamento eu também posso falar
+
+144
+00:13:16,210 --> 00:13:22,900
+acessando os atributos da instância ou atributo nome um atributo nome de B2 da instância P2 e assim
+
+145
+00:13:22,900 --> 00:13:23,580
+vai ser.
+
+146
+00:13:23,660 --> 00:13:28,510
+Espero que tenha ficado para esse primeiro exemplo foi um exemplo simples vou estar lançando desafios
+
+147
+00:13:28,510 --> 00:13:34,000
+para que vocês possam pagar esse mesmo exemplo e jogar isso na prática o mais rápido possível na próxima
+
+148
+00:13:34,000 --> 00:13:35,580
+aula vou lançar um desafio disparou.

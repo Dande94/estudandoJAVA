@@ -1,0 +1,259 @@
+1
+00:00:00,250 --> 00:00:06,510
+Agora nós vamos falar sobre o Flow e vou mostrar pra vocês que também é algo legal e super simples de
+
+2
+00:00:06,510 --> 00:00:07,140
+usar.
+
+3
+00:00:07,480 --> 00:00:16,840
+Então vou criar aqui de novo uma nova classe em que eu vou chamar aqui fechem logo o Flow fogo solar
+
+4
+00:00:16,930 --> 00:00:30,840
+como bem e eu vou fazer ele estender o fogo também do Java FX pondo sim ponto legal nesse ponto Open
+
+5
+00:00:30,960 --> 00:00:32,930
+aqui no ponto legal.
+
+6
+00:00:33,450 --> 00:00:43,190
+Vou duplicar isso substituísse Hitachi feche logo Open certa na raiz eu não precisaria em teoria ficar
+
+7
+00:00:43,190 --> 00:00:47,260
+comentando porque ele está sempre substituindo o a referência.
+
+8
+00:00:47,570 --> 00:00:52,280
+Tanto faz eu vou deixar de ser comentado mesmo que a gente vai sempre pegando o último na se você precisar
+
+9
+00:00:52,640 --> 00:00:58,910
+pegar um anterior basta colocar no final ou mesmo comentar o corte tá então executando agora nós temos
+
+10
+00:00:58,910 --> 00:01:03,400
+o nosso mais novo layout sendo usado que é Open beleza.
+
+11
+00:01:03,530 --> 00:01:10,220
+Eu vou voltar aqui nós vamos criar um construtor dentro desse conceito vou criar quadrados então um
+
+12
+00:01:10,220 --> 00:01:18,730
+quadrado que recebi um agrado e vou duplicar.
+
+13
+00:01:18,950 --> 00:01:29,540
+Mais uma vez aqui eu vou criar 2 3 4 5 Tá bom o suficiente e vou pegar aqui Tio Beto Guedes o grande
+
+14
+00:01:30,280 --> 00:01:36,200
+ponto adicionar e passar o ano de 2003.
+
+15
+00:01:36,200 --> 00:01:38,740
+Big Brother 4 Calígula 5.
+
+16
+00:01:38,790 --> 00:01:44,680
+Adicionar todos eles com isso eles já vão aparecer ele não vai por cima do outro vai ficar um do lado
+
+17
+00:01:44,690 --> 00:01:52,690
+do outro sem problema criando aqui um flow e se eu diminuir ele vai colocar na linha de baixo.
+
+18
+00:01:52,760 --> 00:01:58,250
+Certo Kim é bem intuitivo e de acordo com ele vai simplesmente seguir no fluxo como é na escrita né.
+
+19
+00:01:58,260 --> 00:02:02,240
+Começando da esquerda para a direita de cima para baixo sem paralelo.
+
+20
+00:02:02,630 --> 00:02:09,050
+Então a gente pode usar algumas ferramentas né alguns metros pra melhorar um pouco legal ou pelo menos
+
+21
+00:02:09,060 --> 00:02:12,980
+ajustar de acordo com nossa necessidade tem o H.
+
+22
+00:02:13,050 --> 00:02:19,640
+Gap ou seja qual o espaço que você quer no eixo horizontal entre os elementos não coloquei 10 eu posso
+
+23
+00:02:19,640 --> 00:02:26,660
+citar também o gap pra na verdade você está primeiro HD que débil não colocando aqui você vai ver que
+
+24
+00:02:26,660 --> 00:02:32,930
+ele vai ter um espaço na horizontal mais um momento que eu quebra aqui ou ele não vai ter espaço na
+
+25
+00:02:32,930 --> 00:02:37,160
+vertical terá exatamente o que que faz isso 7.
+
+26
+00:02:37,880 --> 00:02:40,820
+Gap de 10.
+
+27
+00:02:40,980 --> 00:02:47,840
+Agora a gente vai ter um espaço tanto entre os elementos na horizontal como na vertical.
+
+28
+00:02:47,840 --> 00:02:55,400
+Outra questão que você pode querer colocar pede ou seja o espaçamento desse gerenciador de layout para
+
+29
+00:02:55,520 --> 00:03:01,610
+o mundo exterior é o espaçamento interno a aqui a gente tem um cara chamado sites.
+
+30
+00:03:01,940 --> 00:03:05,500
+E você pode colocar especificamente tanto.
+
+31
+00:03:05,690 --> 00:03:10,510
+Você tem mais de um construtor não quer sabe top o site moram lá todos.
+
+32
+00:03:10,520 --> 00:03:16,850
+E o que você passa irá aplico mesmo pra todos que ele cavou usam top o site moram lá.
+
+33
+00:03:16,950 --> 00:03:22,730
+Ou seja passando aqui dez ele vai aplicar 10 pixels em todas as direções.
+
+34
+00:03:22,730 --> 00:03:29,000
+Então executando aqui mais uma vez você vai ver que agora ele não vai estar mais grudado nas bordas
+
+35
+00:03:29,310 --> 00:03:35,020
+da nossa sina aqui também ele fica funcionando direitinho né.
+
+36
+00:03:35,030 --> 00:03:42,750
+Claro que eu diminuí mais do que o tamanho do quadrado mas sempre que eu aumenta ele vai tentando ajustar.
+
+37
+00:03:42,890 --> 00:03:47,190
+Seguindo o fluxo da página fluxo da página ao fluxo da tela.
+
+38
+00:03:47,300 --> 00:03:56,400
+Volto com isso a gente tem outras opções que é o set tem orientei tchan tchan tchan.
+
+39
+00:03:56,760 --> 00:04:02,350
+Ou então você tem duas orientações é aquela que é horizontal e vertical por padrão e usa a horizontal
+
+40
+00:04:02,680 --> 00:04:09,490
+mas a gente pode usar a orientação vertical significa que agora ele vai colocar os elementos na vertical.
+
+41
+00:04:09,500 --> 00:04:16,340
+Se a gente separa aqui você vai ver que agora os elementos vão aparecer dessa forma é claro no momento
+
+42
+00:04:16,340 --> 00:04:21,230
+que eu for diminuindo a tela ele vai quebrando e seguir no fluxo.
+
+43
+00:04:21,230 --> 00:04:25,020
+Sempre na vertical coloca nos elementos e depois mais uma linha é outra linha.
+
+44
+00:04:25,030 --> 00:04:32,630
+Então a gente também pode usar uma questão do alinhamento sete alinhamentos também dá a possibilidade
+
+45
+00:04:32,690 --> 00:04:34,460
+tal posicionamento.
+
+46
+00:04:34,460 --> 00:04:37,580
+Você pode dizer o cara centralizado o lado direito.
+
+47
+00:04:37,730 --> 00:04:44,710
+Então ele vai centralizar os elementos do lado direito colocando aqui os elementos centralizados do
+
+48
+00:04:44,750 --> 00:04:45,950
+lado direito.
+
+49
+00:04:45,950 --> 00:04:51,820
+A partir do momento que a gente for diminuindo ele vai colocando os elementos alinhados do lado direito.
+
+50
+00:04:51,920 --> 00:04:58,090
+Tem um comportamento dele e no caso o que colocou só o primeiro e depois colocou os outros.
+
+51
+00:04:58,230 --> 00:05:05,900
+No mais você tem diversas possibilidades para trabalhar com o Flow Open e um dos gerenciadores de layout
+
+52
+00:05:05,900 --> 00:05:12,240
+que vai ajudar esse o fluxo da sua tela ele vai colocar nos elementos por padrão da esquerda para a
+
+53
+00:05:12,240 --> 00:05:17,570
+direita de cima para baixo mas você pode ir mudando de acordo com a orientação alimente Machina que
+
+54
+00:05:17,580 --> 00:05:22,200
+pede e os espaços entre os elementos e o layout do Supersimples.
+
+55
+00:05:22,230 --> 00:05:26,360
+útil você tem uma tela mais simples que quer simplesmente seguir o fluxo.
+
+56
+00:05:26,360 --> 00:05:28,510
+é uma boa opção também para ser usado.
+
+57
+00:05:28,510 --> 00:05:32,530
+Então pessoal esse é o terceiro gerenciador de layout que dormimos o corpo.
+
+58
+00:05:32,750 --> 00:05:35,060
+Borda bem e agora o Flow Open.
+
+59
+00:05:35,070 --> 00:05:41,240
+O próximo vai ser que o Grid já é um layout de um pouco mais complexo mas também um pouco mais poderoso
+
+60
+00:05:41,250 --> 00:05:42,170
+a gente vai bem.
+
+61
+00:05:42,330 --> 00:05:49,140
+Uma das possíveis utilizações dele é ver algumas possibilidades interessantes e possivelmente mais à
+
+62
+00:05:49,140 --> 00:05:50,390
+frente onde deve usar ele.
+
+63
+00:05:50,430 --> 00:05:53,670
+Em outra oportunidade também então o pessoal fique por aqui.
+
+64
+00:05:53,670 --> 00:06:00,550
+Já vimos alguns gerenciadores e temos mais três no futuro e o grande bem estar que tem o tail.
+
+65
+00:06:00,700 --> 00:06:03,630
+Então fico por aqui na próxima aula a gente continua e até lá.

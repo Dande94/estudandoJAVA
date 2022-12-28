@@ -1,0 +1,759 @@
+1
+00:00:00,330 --> 00:00:05,760
+Agora nós vamos começar a exercitar e nesse capítulo em vejo a gente ter apenas um único pacote ou criar
+
+2
+00:00:05,760 --> 00:00:12,610
+dois pacotes um para a gente armazenar os exercícios desafios relacionados ao rei e um outro pacote
+
+3
+00:00:12,630 --> 00:00:16,020
+vou criar para a gente colocar toda a parte de Collection lá dentro.
+
+4
+00:00:16,500 --> 00:00:23,850
+Então para isso dentro de SC vou criar um novo pacote não posso criar uma classe dentro da classe social
+
+5
+00:00:23,850 --> 00:00:32,280
+um novo pacote então aqui é o pacote de 100 reais no plural e o nome da classe eu vou colocar como você
+
+6
+00:00:32,290 --> 00:00:39,050
+no exercício certo para eu não vou colocar como se fosse rei também o nome você colocar no singular
+
+7
+00:00:39,390 --> 00:00:45,090
+mas a gente vai usar uma classe nesses assim chamado Reis no plural que eu vou usar para imprimir Harry
+
+8
+00:00:45,150 --> 00:00:50,910
+no console e aí para não ter nenhum tipo de conflito eu vou chamar essa classe de exercício então fica
+
+9
+00:00:50,910 --> 00:00:53,000
+exercício dentro do pacote.
+
+10
+00:00:53,000 --> 00:01:00,090
+Rei fica claro que a gente tá trabalhando nesse exercício com conceito e com o Harry com esse tipo dentro
+
+11
+00:01:00,090 --> 00:01:06,240
+da linguagem Java que eu expliquei na aula passada então ele já viu que um Harry aceita um conjunto
+
+12
+00:01:06,240 --> 00:01:12,510
+de dados armazenados que é indexado você acessa a partir de um determinado índice e o Harry tamanho
+
+13
+00:01:12,510 --> 00:01:13,280
+fixo.
+
+14
+00:01:13,410 --> 00:01:18,450
+E o Harry também estrutura homogênea todos os dados são do mesmo tipo então você acha que eu vou querer
+
+15
+00:01:18,450 --> 00:01:28,460
+colocar as notas de um aluno então o craque da bola do tipo Harry certo aqui de notas o aluno a recebe
+
+16
+00:01:29,350 --> 00:01:30,230
+da ABL.
+
+17
+00:01:30,300 --> 00:01:35,280
+é que no final quando colocar o par de colchetes eu tenho que dizer a quantidade de notas que eu quero
+
+18
+00:01:35,280 --> 00:01:36,350
+atribuir pra esse aluno.
+
+19
+00:01:36,360 --> 00:01:43,260
+Por exemplo 3 7 dos colchetes aqui 3 significa que eu tenho uma quantidade fixa e eu também tenho um
+
+20
+00:01:43,260 --> 00:01:46,300
+tipo homogêneo de todos os dados serão do tipo W.
+
+21
+00:01:46,410 --> 00:01:47,730
+Algumas curiosidades aqui.
+
+22
+00:01:47,730 --> 00:01:48,370
+Exato.
+
+23
+00:01:48,510 --> 00:01:51,530
+Eu posso colocar esse par de colchetes aqui.
+
+24
+00:01:51,660 --> 00:01:53,070
+Se eu fizer isso vai dar um erro.
+
+25
+00:01:53,130 --> 00:01:59,580
+O que você tá atribuindo um ar quente dado em cima de uma nota que é do tipo W está o problema.
+
+26
+00:01:59,910 --> 00:02:06,570
+Mas você pode colocar um par de colchetes aqui junto do nome da variável junto do identificador da variável
+
+27
+00:02:06,880 --> 00:02:07,240
+certo.
+
+28
+00:02:07,290 --> 00:02:12,570
+Você pode colocar antes e depois melhor dizendo você se quiser também.
+
+29
+00:02:12,570 --> 00:02:14,850
+Outra possibilidade é colocar antes.
+
+30
+00:02:14,850 --> 00:02:21,110
+Também dá certo você pode dar um espaço e deixar o par de colchetes entre o tipo e número da variável.
+
+31
+00:02:21,120 --> 00:02:27,750
+Eu pessoalmente prefiro colocar junto do tipo aqui para definir que esse é um tipo Rei e um preferência
+
+32
+00:02:27,750 --> 00:02:30,000
+minha mas você pode usar um outro padrão.
+
+33
+00:02:30,000 --> 00:02:36,230
+A linguagem Java aceita algumas possibilidades a única que não é possível é você colocar esse país de
+
+34
+00:02:36,240 --> 00:02:38,390
+colchetes antes do nome W.
+
+35
+00:02:38,420 --> 00:02:39,150
+Isso não é erro.
+
+36
+00:02:39,260 --> 00:02:44,440
+Mas os outros cenários é possível se fazer algo ou padronizar em todos os exercícios dessa forma aqui
+
+37
+00:02:44,550 --> 00:02:48,700
+junto do tipo eu coloco o pad com X para definir que é um array.
+
+38
+00:02:48,810 --> 00:02:54,350
+Nesse caso uma rede uma única dimensão ou seja se você precisar criar uma rede de múltiplas dimensões
+
+39
+00:02:54,880 --> 00:02:56,210
+três por três.
+
+40
+00:02:56,320 --> 00:03:01,350
+Vou fazer um exercício sobre isso mas você bota um outro par de colchetes aqui e obviamente aqui você
+
+41
+00:03:01,350 --> 00:03:06,960
+tem que colocar um ou outro par de colchetes dizer a quantidade de elementos naquela área 3 por três
+
+42
+00:03:06,990 --> 00:03:10,060
+e uma matriz 3 por 3 ou uma rede de outra.
+
+43
+00:03:10,130 --> 00:03:16,860
+Aí a gente fala sobre isso então inicialmente defendia que notas do aluno a que eu faço pra adicionar
+
+44
+00:03:16,860 --> 00:03:23,860
+as notas nesse a gente pode acessar parte do índice então coloca aqui outra notas ali não há índices
+
+45
+00:03:23,860 --> 00:03:34,200
+eram por exemplo o aluno vai ter a nota lá 7 Ponto 9 no outro está acessando aqui nota do aluno a.
+
+46
+00:03:34,470 --> 00:03:40,500
+Se um aluno por exemplo tem nota 8 eu posso colocar como sendo um inteiro que automaticamente ele vai
+
+47
+00:03:40,500 --> 00:03:41,860
+converter para uma aluna.
+
+48
+00:03:41,880 --> 00:03:47,290
+Nesse caso ele faz uma conversão implícita certo a gente viu e já falou sobre isso.
+
+49
+00:03:47,440 --> 00:03:53,130
+Aqui não tem perigo de haver pela informação então o Java transforma esse literal INTEIRO PRA DENTRO
+
+50
+00:03:53,130 --> 00:03:54,350
+DO R certo.
+
+51
+00:03:54,450 --> 00:04:05,270
+E nós temos aqui notas do aluno a 22 recebe por exemplo o valor 6 7 traz só as 3 notas do aluno.
+
+52
+00:04:05,270 --> 00:04:10,500
+Como é que a gente faz por exemplo pra imprimir os dados do Harry no console.
+
+53
+00:04:10,800 --> 00:04:17,940
+Eu posso imprimir individualmente mas se eu fizer aqui o System Audio print ali notas do aluno e mandar
+
+54
+00:04:17,940 --> 00:04:20,720
+imprimir o resultado não vai ser o Estado que a gente espera.
+
+55
+00:04:20,730 --> 00:04:22,670
+7 Vai ser um valor estranho.
+
+56
+00:04:22,970 --> 00:04:29,670
+é uma das formas que a gente tem pra fazer isso e usando essa classe chamada Reis no plural se você
+
+57
+00:04:29,670 --> 00:04:34,470
+der um contra o espaço a primeira opção que vai aparecer é a reis de Java.
+
+58
+00:04:34,480 --> 00:04:41,160
+Contudo dentro dessa classe a raiz que está dentro de Java o que precisa ser importado tem uma função
+
+59
+00:04:41,160 --> 00:04:48,090
+chamada de Ju string certo um ele vai torná la no formato mais interessante para a gente premium.
+
+60
+00:04:48,390 --> 00:04:50,710
+Então aqui eu posso colocá la aqui dentro.
+
+61
+00:04:51,070 --> 00:04:56,250
+Eu posso salvar isso nas variáveis Trim e eu posso colocar diretamente dentro do System pontual de ponto
+
+62
+00:04:56,250 --> 00:05:02,680
+pra gente além de só maximizar que a tela seja você vai perceber que o valor é exatamente os valores
+
+63
+00:05:02,680 --> 00:05:03,440
+que eu coloquei.
+
+64
+00:05:03,440 --> 00:05:11,800
+6 7 8 9 8 0 que se converteu para a W 6 pontos 7 Se eu duplicar essa linha em conversa para o começo
+
+65
+00:05:12,220 --> 00:05:20,950
+você vai perceber que antes de salvar os valores necessários 8 9 8 6 7 os valores são em sinalizados
+
+66
+00:05:20,950 --> 00:05:28,040
+com o valor padrão de cada um dos tipos se um objeto é nulo se for mulher vai ser falso e no caso de
+
+67
+00:05:28,040 --> 00:05:29,670
+W vai ser 0 ponto zero.
+
+68
+00:05:29,950 --> 00:05:36,460
+Então a gente alerta aqui você vai ver amostral zero pontos 0 em todos os elementos você já foi oficializado
+
+69
+00:05:36,910 --> 00:05:43,560
+e depois a gente alterou as notas do aluno e conseguiu mostrar que o segundo Harry já com os dados preenchidos.
+
+70
+00:05:43,560 --> 00:05:45,950
+Como faço para percorrer esse Harry.
+
+71
+00:05:46,050 --> 00:05:56,270
+Certo na forma que você tem e criando uma variável que é igual a zero ponto e vírgula é menor do que
+
+72
+00:05:56,270 --> 00:05:59,380
+3 7 ele vai o índice é zero.
+
+73
+00:05:59,390 --> 00:06:06,310
+2 Quando chegar a 3 é pra sair e eu posso colocar aqui mais mais fazendo isso eu posso por exemplo antes
+
+74
+00:06:06,310 --> 00:06:12,440
+do melaço criar uma variável antes chamada de total recebe o valor zero.
+
+75
+00:06:12,620 --> 00:06:21,230
+E aqui eu faço por exemplo total mais igual ao nome do arranha céus de notas.
+
+76
+00:06:21,280 --> 00:06:29,320
+Aluno a índice é você já na primeira vez que ele entrar vai pagar um fizeram acrescenta ao total depois
+
+77
+00:06:29,480 --> 00:06:31,350
+insinuam acrescenta o total em si.
+
+78
+00:06:31,350 --> 00:06:38,150
+2 acrescenta o total quando ele for pro 23 que seria fora do rei ele vai sair do lado certo.
+
+79
+00:06:38,440 --> 00:06:45,540
+Então a gente tem um total que logo depois se eu quiser colocar System pontual total dividido por três
+
+80
+00:06:45,540 --> 00:06:47,410
+a gente vai ter a média do aluno.
+
+81
+00:06:47,510 --> 00:06:54,050
+Nesse caso como o total e do tipo W 3.0 o tipo inteiro o resultado entre um bom e um inteiro sempre
+
+82
+00:06:54,050 --> 00:06:55,210
+será um W.
+
+83
+00:06:55,270 --> 00:07:00,950
+Então não preciso me preocupar aqui com a questão de converter tudo pra inteiro só aconteceria isso
+
+84
+00:07:00,950 --> 00:07:03,980
+se os dois valores fossem inteiros executado.
+
+85
+00:07:04,090 --> 00:07:11,440
+A média do aluno foi 7 pontos 53 7 tal significa que o aluno passou a gente pode fazer algumas melhorias
+
+86
+00:07:11,440 --> 00:07:17,770
+aqui e algumas das melhorias eu falei pra vocês que o Harry ele é um objeto como objeto ele tem atributos
+
+87
+00:07:17,830 --> 00:07:22,540
+e comportamentos é um dos atributos do Harry é exatamente o tamanho dele.
+
+88
+00:07:22,570 --> 00:07:27,400
+Inveja eu tenho que colocar aqui tem três argumentos porque ele tem um valor duplicado ou triplicado.
+
+89
+00:07:27,400 --> 00:07:30,340
+Na verdade eu tenho o tamanho do Harry aqui em cima.
+
+90
+00:07:30,340 --> 00:07:35,770
+3 Eu tenho o de novo estou usando o tamanho do Harry porque se eu mudar isso aqui pra 4.
+
+91
+00:07:35,770 --> 00:07:43,360
+Certo E aqui eu vim e colocar uma nova linha por exemplo a 23 agora a nota do aluno não vai ser tirou
+
+92
+00:07:43,570 --> 00:07:50,100
+9 pontos 7 se eu executar esse código você vai ver que ainda assim ele vai apontar a mesma média porquê
+
+93
+00:07:50,210 --> 00:07:56,140
+que ele não está considerando a 4ª nota que foi acrescentado o ideal é que eu não fique colocando de
+
+94
+00:07:56,140 --> 00:08:02,390
+forma fixa a quantidade de notas e sim o uso é um atributo ok então pra isso eu vou fazer notas algum
+
+95
+00:08:02,500 --> 00:08:08,500
+a ponto leve ou seja o comprimento do Harry é aqui ele já sabe quantos elementos tem no Harry.
+
+96
+00:08:08,530 --> 00:08:13,900
+Então vou percorreu o Rio inteiro sem hesitar obviamente ele vai dar uma média maior do que pode porque
+
+97
+00:08:13,900 --> 00:08:19,790
+agora estou pegando a somatória de quatro notas e dividindo por três aqui embaixo.
+
+98
+00:08:19,810 --> 00:08:25,180
+Então o Estado deu mais do que 10 que não faz sentido a gente sabe que aqui também o valor tem que ser
+
+99
+00:08:25,180 --> 00:08:33,640
+4 ou mesmo pegar notas algum ponto leve ou seja dividir pela quantidade de notas que agora sim tem um
+
+100
+00:08:33,640 --> 00:08:40,240
+código à prova de alterações se tiver mais uma nota ele vai pegar todas as notas somar e dividir de
+
+101
+00:08:40,240 --> 00:08:41,950
+forma correta pelo tamanho do Harry.
+
+102
+00:08:41,980 --> 00:08:45,540
+Então essa é uma forma muito comum de você percorrer um a rei.
+
+103
+00:08:45,670 --> 00:08:52,360
+Ou seja continua sendo um foco porque é uma quantidade determinada de repetições eu sei que a quantidade
+
+104
+00:08:52,360 --> 00:08:57,730
+é exatamente a mesma quantidade do tamanho do Harry mesmo que o Harry possa ser de tamanhos diferentes
+
+105
+00:08:57,730 --> 00:09:04,510
+quando ele chegar nessa linha do Forró eu sei que o tamanho do Harry vai ser usado como referência pra
+
+106
+00:09:04,510 --> 00:09:09,340
+ele fazer a quantidade de pessoas por isso esse caso fica mais apropriado você usar um foto que não
+
+107
+00:09:09,380 --> 00:09:16,470
+há outra forma que você tem pra inicializar um a rei por exemplo vou colocar aqui uma bula vou chamar
+
+108
+00:09:16,720 --> 00:09:24,820
+notas aluno B recebe você abre um par de chaves e aqui dentro espalhe chaves você coloca os elementos
+
+109
+00:09:24,820 --> 00:09:29,410
+de Rei em outras linguagens é usado parte de conceitos como JavaScript.
+
+110
+00:09:29,590 --> 00:09:35,410
+Mas aqui no Java se usa um par de chaves para definir os valores e literais para um array então por
+
+111
+00:09:35,410 --> 00:09:39,040
+exemplo esse aluno também vai ter quatro notas então vou pegar aqui.
+
+112
+00:09:39,170 --> 00:09:41,690
+O aluno tirou 6 8 9.
+
+113
+00:09:41,740 --> 00:09:47,070
+Depois o aluno tirou 8 8 9 e depois o aluno tirou 5 pontos 5.
+
+114
+00:09:47,300 --> 00:09:51,010
+Finalmente o aluno tirou 10 7 então também tem 4 notas.
+
+115
+00:09:51,010 --> 00:09:58,150
+Só que agora eu inicializar as notas diretamente a partir de valores literais ainda continua sendo algo
+
+116
+00:09:58,150 --> 00:10:04,550
+homogêneo porque sobre o tipo W mesmo eu passando aqui o interesse será convertido para Diablo III que
+
+117
+00:10:04,550 --> 00:10:08,550
+também tem uma quantidade de elementos pré definida e um tamanho fixo.
+
+118
+00:10:08,590 --> 00:10:13,630
+Esse caso é exatamente a mesma quantidade de elementos que você colocou aqui no Harry.
+
+119
+00:10:13,880 --> 00:10:20,670
+Então vamos lá fazer também a mesma colocar um laço forte se você completado é um contra o espaço e
+
+120
+00:10:20,720 --> 00:10:22,850
+você pedir pra interagir sobre Barney.
+
+121
+00:10:22,870 --> 00:10:27,810
+Ele já já vai pegar o Harry mais próximo do foi e vai fazer o laço pra você.
+
+122
+00:10:27,980 --> 00:10:29,810
+Nesse caso a primeira opção.
+
+123
+00:10:29,810 --> 00:10:35,420
+Ele vai trazer exatamente a escolha que já está mostrando ao interagir na variável e aí tem que ser
+
+124
+00:10:35,420 --> 00:10:38,570
+menor do que a nota do aluno bem menos do tamanho.
+
+125
+00:10:38,600 --> 00:10:41,910
+E mais mais exactamente vai trazer um laço forte.
+
+126
+00:10:42,110 --> 00:10:46,310
+Nesse caso não tem problema usar a mesma variável e eu aqui sim.
+
+127
+00:10:46,310 --> 00:10:46,890
+Por quê.
+
+128
+00:10:47,130 --> 00:10:53,060
+Porque essa variável e ela só tem um escopo só está visível dentro desse laço forte.
+
+129
+00:10:53,300 --> 00:10:58,010
+Ou seja não na próxima linha na linha 24 ou mesmo na linha 3 que está vazia.
+
+130
+00:10:58,040 --> 00:11:02,480
+Essa variável já não existe porque ela só está visível dentro do filme então eu posso usar novamente
+
+131
+00:11:02,900 --> 00:11:04,960
+a mesma variável e sem problema.
+
+132
+00:11:05,030 --> 00:11:06,060
+Aqui eu posso.
+
+133
+00:11:06,050 --> 00:11:12,170
+Se for o caso usar a mesma variável total ou eu posso criar uma outra mas eu posso usar mesmo se quiser
+
+134
+00:11:12,380 --> 00:11:16,670
+então posso renomear essa variável pra la total aluno.
+
+135
+00:11:16,670 --> 00:11:21,530
+Para fazer isso a opção que você tem para mudar a variável em todos os locais é você clicar com o botão
+
+136
+00:11:21,530 --> 00:11:28,310
+direito você tem que infecta e tem um meio irmão de morte inclusive com a tecla de atalho para renomear
+
+137
+00:11:28,310 --> 00:11:29,450
+o valor de uma variável.
+
+138
+00:11:29,450 --> 00:11:36,780
+Então colocando aqui para renomear aqui eu posso colocar o total aluno.
+
+139
+00:11:37,450 --> 00:11:42,470
+Então você coloca no ele vai mudar em todos os locais que referencia essa variável que eu vou criar
+
+140
+00:11:42,470 --> 00:11:51,460
+um total total aluno aluno B recebe valor zero.
+
+141
+00:11:51,530 --> 00:11:59,830
+E aqui eu vou fazer a mesma coisa em no total aluno vê uma atribuição aditiva em cima de notas.
+
+142
+00:11:59,880 --> 00:12:04,970
+Aluno B se é pra pegar cada um dos elementos da lei.
+
+143
+00:12:05,440 --> 00:12:13,820
+E finalmente eu posso colocar no final para calcular o total do aluno dividido por notas do aluno do
+
+144
+00:12:13,820 --> 00:12:14,520
+B.
+
+145
+00:12:14,700 --> 00:12:17,940
+Ponto leia nota que leia.
+
+146
+00:12:18,020 --> 00:12:24,560
+Ele é um atributo e não é o comportamento ele é um dado associado à honra e isso vai mudar com a gente
+
+147
+00:12:24,560 --> 00:12:30,110
+vou trabalhar com um colégio lá vai ser um método e aqui ele é um atributo certo inclusive vai mudar
+
+148
+00:12:30,110 --> 00:12:30,920
+de nome também.
+
+149
+00:12:30,980 --> 00:12:38,060
+Lá vai se sair de lá em cumprimento à outra tamanho cartões de escolha de quem desenvolveu a API do
+
+150
+00:12:38,060 --> 00:12:42,730
+Java mas eu não lá que é exatamente o atributo que vai dizer o tamanho que foi definido.
+
+151
+00:12:42,950 --> 00:12:49,310
+Faz sentido que lá seja uma função método porque o tamanho é algo variável lá é que vai ser fixo.
+
+152
+00:12:49,370 --> 00:12:55,190
+Então até faz sentido se a gente analisar nas perspectivas mais continuado o que eu fiz fiz também um
+
+153
+00:12:55,200 --> 00:12:55,760
+outro.
+
+154
+00:12:55,770 --> 00:12:58,350
+Isso aqui outra agora com dados literais.
+
+155
+00:12:58,400 --> 00:13:04,010
+Já inicializar o Harry com os dados sem necessariamente precisar fazer de um com um certo.
+
+156
+00:13:04,130 --> 00:13:05,860
+Aqui é um caso menos usado.
+
+157
+00:13:05,860 --> 00:13:06,240
+Por quê.
+
+158
+00:13:06,240 --> 00:13:07,580
+Por dificilmente.
+
+159
+00:13:07,970 --> 00:13:13,030
+Ou pelo menos é menos comum que você tenha os dados fixos para colocar a rei.
+
+160
+00:13:13,160 --> 00:13:19,780
+Via de regra você usar esses dados a partir de uma fonte de dados a partir de algum algum banco de dados
+
+161
+00:13:19,790 --> 00:13:23,360
+ou coisas do tipo Você carrega esse aí com os dados.
+
+162
+00:13:23,360 --> 00:13:28,900
+Mas também é uma forma que você pode usar no dia a dia colocando diretamente os valores para inicializar.
+
+163
+00:13:29,330 --> 00:13:38,430
+Inclusive você pode ter uma variável então eu posso ter aqui uma variável nota armazenada em série o
+
+164
+00:13:38,430 --> 00:13:42,910
+valor por exemplo 5 pontos novos ou para melhorar qualquer nota do aluno.
+
+165
+00:13:43,000 --> 00:13:49,770
+E aqui eu uso nota armazenada como sendo uma variável para compor o conteúdo.
+
+166
+00:13:49,940 --> 00:13:56,240
+Então coloquei valor literal literal o valor de uma variável ou mesmo se eu não vou mudar eu posso colocar
+
+167
+00:13:56,240 --> 00:14:03,380
+um falha constante e coloco o valor dessa variável dentro de um array e funciona corretamente sem problema
+
+168
+00:14:03,380 --> 00:14:09,620
+nenhum certo então nós temos aqui os nossos 2 a raiz inicialmente a nota do aluno a colocamos de forma
+
+169
+00:14:09,680 --> 00:14:16,430
+fixa acessando cada um dos elementos para o alvo serem um elemento por exemplo ao colocar no System
+
+170
+00:14:16,430 --> 00:14:22,020
+algo diferente ali eu quero pegar a nota do aluno hacker pegar a primeira nota.
+
+171
+00:14:22,160 --> 00:14:26,200
+Então você pode ir lá para baixar a primeira nota do aluno.
+
+172
+00:14:26,570 --> 00:14:28,990
+Eu quero pegar a última nota do aluno.
+
+173
+00:14:29,000 --> 00:14:30,800
+Como é que você pode pegar leve com a nota do aluno.
+
+174
+00:14:30,800 --> 00:14:33,910
+Você coloca a nota do aluno a dentro do colchetes.
+
+175
+00:14:33,910 --> 00:14:39,920
+Você pode usar de novo nota do aluno a ponto leve menos um.
+
+176
+00:14:39,990 --> 00:14:46,060
+Uma forma relativamente longa nessa escreveu um bocado para falar isso mais você pega o tamanho do rei
+
+177
+00:14:46,100 --> 00:14:46,940
+menos um.
+
+178
+00:14:46,940 --> 00:14:53,420
+Obrigatoriamente você vai pagar a última nota do Harry e cuidado se você tentar acessar por exemplo
+
+179
+00:14:53,460 --> 00:15:03,030
+as notas do aluno índice 10 que não existe porque ele só vai até o 22 0 2 ou mesmo aqui o valor 4 que
+
+180
+00:15:03,030 --> 00:15:09,990
+ele está fora das dimensões do rei está fora do tamanho do rei porque o maior índice nesse nosso exemplo
+
+181
+00:15:10,140 --> 00:15:13,950
+é o 3 né já que ele vai de 0 1 2 e 3 4 está fora.
+
+182
+00:15:14,310 --> 00:15:21,340
+Então se a gente acertar você vai ver que vai gerar um erro que é o nome do rei Index auto off baldes
+
+183
+00:15:21,340 --> 00:15:22,260
+e recebe.
+
+184
+00:15:22,410 --> 00:15:24,780
+Ou seja o índice que você forneceu está além.
+
+185
+00:15:24,810 --> 00:15:27,110
+Está fora dos limites do Tio Rei.
+
+186
+00:15:27,120 --> 00:15:28,020
+Isso gera um erro.
+
+187
+00:15:28,020 --> 00:15:34,770
+Por isso eu vou comentar essa linha 7 comentários de qualquer colocando aqui qualquer erro porque você
+
+188
+00:15:34,770 --> 00:15:40,730
+tentou acessar um elemento que está fora dos limites do Harry 7 então fizemos várias coisas legais sobre
+
+189
+00:15:40,740 --> 00:15:46,350
+Harry e vimos várias coisas interessantes vê na teoria agora na prática na próxima aula passar um desafio
+
+190
+00:15:46,350 --> 00:15:47,610
+pra vocês e até lá.

@@ -1,0 +1,319 @@
+1
+00:00:00,270 --> 00:00:05,170
+Agora vou falar mais um layout do Java Flex.
+
+2
+00:00:05,250 --> 00:00:08,650
+Esse vai ser o nosso último layout que o Tay tem.
+
+3
+00:00:08,940 --> 00:00:16,870
+E quando você tem a estrutura de uma grite na verdade conta os tamanhos das células ou dos trios sem
+
+4
+00:00:16,920 --> 00:00:21,380
+o fixa anel com tamanho fixo diferente do grande pente que você consegue.
+
+5
+00:00:21,500 --> 00:00:26,970
+é uma flexibilidade maior mas se você precisa de uma estrutura mais ou menos parecida com Flow só que
+
+6
+00:00:26,970 --> 00:00:30,530
+você tem os tamanhos específicos e tamanhos fixos.
+
+7
+00:00:30,660 --> 00:00:36,420
+O mais que o componente seja pequeno é você quer que ele ocupe o mesmo tamanho do componente grande
+
+8
+00:00:36,420 --> 00:00:38,210
+que está do lado de todos os componentes.
+
+9
+00:00:38,220 --> 00:00:44,090
+Então tá ele bem pode ser uma excelente escolha pra você então clicar AQUI OU ACHAR pra você isso.
+
+10
+00:00:44,110 --> 00:00:47,190
+Exemplo disso é tão fácil teste.
+
+11
+00:00:47,690 --> 00:01:04,890
+Aí o vou andar da Vale bem e nós vamos criar o construtor e eu vou comentar os anteriores porque tem
+
+12
+00:01:04,890 --> 00:01:11,550
+um que tem uma caixa espartana atrás de lá provavelmente o tempo que li distanciou já fui para a próxima
+
+13
+00:01:11,550 --> 00:01:20,730
+linha atrás já foi anunciada eu não vou querer isso vou duplicar aqui vou fazer aqui o TX tá aí bem
+
+14
+00:01:20,730 --> 00:01:26,390
+vou comentar os anteriores deixar só esse último aí vocês podem comentar ou não dependendo do que vocês
+
+15
+00:01:26,390 --> 00:01:26,730
+querem.
+
+16
+00:01:26,730 --> 00:01:34,830
+Pronto aqui já temos o nosso Tai bem disponível eu vou fazer o seguinte vou criar aqui uma lista de
+
+17
+00:01:34,890 --> 00:01:42,190
+elementos EU VOU USAR AQUI NO CASO O quadrado e um quadrado colocar aqui quadrados
+
+18
+00:01:44,240 --> 00:01:46,460
+Michi.
+
+19
+00:01:47,520 --> 00:01:49,720
+Finalizar aqui é nossa intenção de código.
+
+20
+00:01:49,750 --> 00:01:57,600
+Eu vou colocar aqui um fórum que vai interagir de 0 até 8 então ele vai gerar 8 elementos eu posso colocar
+
+21
+00:01:57,600 --> 00:01:59,910
+até 10 sem problema zero.
+
+22
+00:02:00,220 --> 00:02:04,680
+Isso não é mais que começa do zero ele vai fazer 10 iterações aqui dentro.
+
+23
+00:02:04,690 --> 00:02:15,320
+Vou acrescentar ao quadrado ponto adicionar o quadrado vou na Madeira eu vou começar de um dia eu vou
+
+24
+00:02:15,990 --> 00:02:24,030
+até o Paulo Nobre ele vai mostrar que nove quadrados eu vou multiplicar e ver esses 10 para gerar o
+
+25
+00:02:24,030 --> 00:02:30,420
+tamanho do quadrado como um quadrado e os lados iguais então ele vai usar esse valor aqui há um construtor
+
+26
+00:02:30,420 --> 00:02:32,160
+de quadrado.
+
+27
+00:02:32,160 --> 00:02:38,340
+Na verdade eu nem coloquei largura e altura ao quadrado na verdade minha possui largura e altura não
+
+28
+00:02:38,340 --> 00:02:43,130
+era pra ser só o tamanho então ao tamanho.
+
+29
+00:02:43,380 --> 00:02:49,070
+Eu vou usar o tamanho pra 2 as duas dimensões altura e largura.
+
+30
+00:02:49,460 --> 00:02:56,560
+E aí eu vou passar apenas 6 parâmetro a primeira vez que estou usando isso então corrigir um defeito
+
+31
+00:02:56,590 --> 00:03:04,800
+isso eu vou adicionar toda a lista de uma vez que não tem aquele bad Children ou outro gay.
+
+32
+00:03:04,920 --> 00:03:12,400
+Na verdade não é de chamar Oh eu vou passar a lista de quadrados plural o que é que vai acontecer.
+
+33
+00:03:12,400 --> 00:03:23,910
+Por padrão executará ele vai colocar os tais lá dentro da minha tela então nós temos aqui 1 2 3 4 5
+
+34
+00:03:23,910 --> 00:03:26,790
+6 7 8 9.
+
+35
+00:03:27,270 --> 00:03:30,930
+Você percebe que cada um deles está ocupando o mesmo espaço.
+
+36
+00:03:30,930 --> 00:03:35,490
+Por mais que ele seja pequenininho ele está ocupando um espaço esse aqui também é a minha nota ocupando
+
+37
+00:03:35,490 --> 00:03:42,150
+espaço e assim vai até que o maior ocupa o espaço inteiro então esse espaço aqui é exatamente o mesmo
+
+38
+00:03:42,150 --> 00:03:45,060
+espaço que esse pequeno aqui ocupado.
+
+39
+00:03:45,120 --> 00:03:52,520
+Esse aqui é o tal Open ou seja todos os tais meus tijolinhos são do mesmo tamanho e ele também vai quebrar
+
+40
+00:03:52,530 --> 00:03:54,910
+de acordo com o Flow legal muito parecido.
+
+41
+00:03:55,230 --> 00:03:57,720
+Existem algumas possibilidades que a gente pode colocar.
+
+42
+00:03:57,720 --> 00:04:05,850
+Por exemplo eu quero organizar por exemplo o elemento dentro da tag eu não quero que ele fique por exemplo
+
+43
+00:04:05,850 --> 00:04:11,520
+nessa Quina que em vez de ficar no meio está centralizado dentro do espaço dessa tarefa mas se você
+
+44
+00:04:11,520 --> 00:04:18,450
+quiser por exemplo que ele fique na parte de baixo do lado direito você pode fazer isso existir o equivalente
+
+45
+00:04:18,450 --> 00:04:22,600
+ao 7 online que é o 7 eu.
+
+46
+00:04:22,900 --> 00:04:32,010
+E aqui você usa a mesma posição por exemplo ao colocar a bola site seria na parte de baixo do lado direito
+
+47
+00:04:33,030 --> 00:04:38,670
+então colocando aqui ou você vai ver que agora ele já vai fazer o ajuste e colocar os elementos no Bora
+
+48
+00:04:39,570 --> 00:04:48,180
+Bora lá mais perto fica mais claro vê o que ele está ocupando esse espaço aqui tá ocupando esse espaço
+
+49
+00:04:48,180 --> 00:04:50,730
+aqui ao quadradinho esse outro.
+
+50
+00:04:50,810 --> 00:04:57,120
+Esse espaço vocês ouvem que é exatamente o mesmo tamanho vai se aproximando até que esse aqui tem o
+
+51
+00:04:57,120 --> 00:05:04,500
+tamanho completo e esse outro aqui pegue essa parte do lado de cá ocupa o espaço todo então tem outras
+
+52
+00:05:04,500 --> 00:05:15,270
+coisas como por exemplo você tem o site GAP que diz Guerra pra você tê la ao seu lado dez centímetros
+
+53
+00:05:15,340 --> 00:05:20,840
+e você tem um gadget que também você tem as mesmas opções que você tem outros áudios.
+
+54
+00:05:20,850 --> 00:05:30,970
+Outra coisa que eu coloquei também a questão da orientação nessa antes deixando o padrão a orientação
+
+55
+00:05:30,980 --> 00:05:31,410
+na linha.
+
+56
+00:05:31,430 --> 00:05:38,930
+Mas você pode colocar um trecho vertical sem problemas e também tem um backup se você quiser usar.
+
+57
+00:05:39,150 --> 00:05:43,900
+Então coloca me aqui briga de ideias tanto na linha como na coluna.
+
+58
+00:05:44,020 --> 00:05:49,920
+E nesse caso eu coloquei a orientação para ser vertical ou porque a partir do momento que eu vou diminuindo
+
+59
+00:05:50,100 --> 00:05:53,470
+ele vai fazendo os amigos ficarem na posição correta.
+
+60
+00:05:53,570 --> 00:05:59,500
+A observação que todos os tais digamos assim têm exatamente o mesmo então é mais ou menos como o leal.
+
+61
+00:05:59,520 --> 00:06:06,780
+Só que você não pensa muito em linhas e colunas é mais você tem um fluxo de mais ou menos no Foley só
+
+62
+00:06:06,810 --> 00:06:13,260
+que nesse caso todos os alimentos exatamente com o mesmo tamanho é útil você às vezes precisa de situações
+
+63
+00:06:13,260 --> 00:06:13,620
+dessa.
+
+64
+00:06:13,650 --> 00:06:19,890
+Você tem lá um formulário que tem os leigos têm exatamente os mesmos tamanhos dos inputs e você quer
+
+65
+00:06:19,890 --> 00:06:26,460
+organizar os elementos do lado por exemplo da direita e então você consegue fazer isso de uma forma
+
+66
+00:06:26,550 --> 00:06:32,210
+bem interessante apagar o maior componente vai colocar todos os pagamentos exatamente do mesmo tamanho.
+
+67
+00:06:32,220 --> 00:06:34,040
+Isso aqui é o meu bem.
+
+68
+00:06:34,080 --> 00:06:35,590
+Eu acho que não tenho mais nada para falar.
+
+69
+00:06:35,620 --> 00:06:39,940
+Tem a questão do TED que também coloquei que é exatamente a mesma coisa.
+
+70
+00:06:40,130 --> 00:06:46,970
+A gente já tinha feito sites e aqui eu posso passar um bad 20 por exemplo para aplicar em todas as direções
+
+71
+00:06:46,980 --> 00:06:50,360
+eu não posso ter na primeira em cima né.
+
+72
+00:06:50,400 --> 00:06:58,920
+Se for mesmo do HTML a top vai sempre no sentido do relógio em cima top lá direto embaixo e do lado
+
+73
+00:06:58,920 --> 00:06:59,980
+esquerdo mesmo.
+
+74
+00:07:00,150 --> 00:07:05,860
+Mesmo a ordem do CSS toque o site embora L'Art pode colocar individualmente.
+
+75
+00:07:05,860 --> 00:07:12,240
+Eu quero colocar em cima dindim na lateral das embaixo e na outra lateral bem.
+
+76
+00:07:12,270 --> 00:07:19,170
+Então você pode passar também pede para se afastar dos outros componentes da forma que você preferir.
+
+77
+00:07:19,560 --> 00:07:22,820
+Então fizemos aqui mais um gerenciador de layout.
+
+78
+00:07:22,890 --> 00:07:28,380
+Esse foi o último que a gente fez nessa parte do capítulo relacionado ao layout espero que tenha ficado
+
+79
+00:07:28,380 --> 00:07:35,790
+claro pra vocês como vocês podem organizar visualmente a sua aplicação em Java Flex e por aqui e até
+
+80
+00:07:35,790 --> 00:07:36,340
+aproximá lo.

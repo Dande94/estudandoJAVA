@@ -1,0 +1,559 @@
+1
+00:00:00,320 --> 00:00:07,590
+Pessoal nessa aula vou falar rapidamente sobre dois padrões de projeto que têm relação com a parte de
+
+2
+00:00:07,590 --> 00:00:12,930
+persistência e persistência quando você vai pegar os dados da sua aplicação que você está colocando
+
+3
+00:00:12,930 --> 00:00:16,740
+por exemplo no formulário vai persistir isso em algum banco de dados.
+
+4
+00:00:17,070 --> 00:00:23,370
+Obviamente que nesse contexto estou falando de banco de dados relacional falando demais Kelly Key.
+
+5
+00:00:23,490 --> 00:00:30,990
+Ora o que eu mais quero serve é mais SQL Server da Microsoft SQL e todos os bancos que estão dentro
+
+6
+00:00:30,990 --> 00:00:34,050
+desse paradigma de banco de dados relacionais.
+
+7
+00:00:34,050 --> 00:00:46,710
+Aqui existem dois grandes padrões de projetos que é o deles o Data Map que é o padrão utilizado pelo
+
+8
+00:00:46,710 --> 00:01:02,140
+JP e o outro padrão extremamente popular para mim é o Active Record volta aqui quem mudou a interface
+
+9
+00:01:02,140 --> 00:01:11,930
+eu não sei mais como é que faz para voltar algo tão mais activos ou seja qual é as duas filosofias por
+
+10
+00:01:11,930 --> 00:01:13,490
+trás desses dois padrões.
+
+11
+00:01:13,490 --> 00:01:21,090
+Basicamente você tem mais linguagens de programação por exemplo esse conceito muito forte do paradigma
+
+12
+00:01:21,090 --> 00:01:22,710
+e orientação objeto.
+
+13
+00:01:22,730 --> 00:01:28,210
+Isso acontece em Java e isso acontece em Python isso acontece.
+
+14
+00:01:28,240 --> 00:01:34,760
+Isso acontece em muitas linguagens PHP e tal certo então você tem de um lado muitas vezes o paradigma
+
+15
+00:01:34,760 --> 00:01:42,110
+de orientação objeto um objeto com atributos e comportamentos que você tem do outro lado há uma tabela
+
+16
+00:01:42,110 --> 00:01:49,670
+com suas colunas e com suas chaves e com suas restrições e o relacionamento é feito entre tabelas a
+
+17
+00:01:49,670 --> 00:01:54,980
+partir de uma chave primária que viram a chave estrangeira dentro de outra tabela e você estabelece
+
+18
+00:01:54,980 --> 00:01:56,240
+os relacionamentos.
+
+19
+00:01:56,240 --> 00:02:03,680
+Então basicamente o Active Record você vai ver coisas isso aqui é muito encontrado por exemplo em frameworks
+
+20
+00:02:03,680 --> 00:02:05,560
+do PHP como o lar Abel.
+
+21
+00:02:05,560 --> 00:02:09,550
+Você tem um activo é lá que eu acho que é o eloquente.
+
+22
+00:02:09,830 --> 00:02:15,980
+Você tem no próprio Ruby on Rails você tem também o padrão ActiveX de lá.
+
+23
+00:02:16,280 --> 00:02:17,680
+Ou seja você.
+
+24
+00:02:17,870 --> 00:02:20,990
+Por exemplo você vai criar um objeto chamado Client.
+
+25
+00:02:20,990 --> 00:02:27,400
+Você criou um objeto chamado cliente e o cliente tem uma série de atributos e comportamentos.
+
+26
+00:02:27,440 --> 00:02:33,830
+Esse cliente ele vai estar digamos assim ter uma relação com a tabela Clientes que você tem lá no seu
+
+27
+00:02:33,830 --> 00:02:40,990
+banco de dados então você tem uma tabela um pouco no meio da tabela e clientes aqui no plural.
+
+28
+00:02:41,030 --> 00:02:47,000
+Então obviamente você tem uma série de atributos que vão estar relacionados com algumas dessas colunas
+
+29
+00:02:47,000 --> 00:02:48,300
+aqui do banco de dados.
+
+30
+00:02:48,680 --> 00:02:52,790
+Então esse atributo aqui vai para essa coluna esse outro atributo para esse tal.
+
+31
+00:02:53,100 --> 00:02:58,190
+Então quando você tem um padrão Active Record é na verdade o que acontece aqui.
+
+32
+00:02:58,190 --> 00:03:04,850
+A própria entidade ou seja o próprio objeto que tem uma relação com determinada tabela do banco de dados
+
+33
+00:03:04,850 --> 00:03:10,630
+ele vai ter dentro dele todos os métodos necessários para se persistir.
+
+34
+00:03:10,670 --> 00:03:18,650
+Ou seja é como se fosse o registro ativo como se fosse o próprio objeto ele de forma ativa tem os metros
+
+35
+00:03:18,650 --> 00:03:26,130
+necessários para se inserir dentro do banco de dados e normalmente isso é feito a partir de herança.
+
+36
+00:03:26,240 --> 00:03:33,170
+Você vai lá faz com que determinado um determinado objeto preenche a rede de uma classe por exemplo
+
+37
+00:03:33,170 --> 00:03:39,890
+chamada Active Record e essa classe vai ter todos os métodos que serão dados que serão usados também
+
+38
+00:03:39,890 --> 00:03:49,220
+para o PS x então por exemplo você vai criar aqui clientes você recebe alguma coisa aqui e aí você vai
+
+39
+00:03:49,220 --> 00:03:52,110
+ter por exemplo C ponto 6.
+
+40
+00:03:52,300 --> 00:03:59,300
+Se você tem um método dentro de cliente que é responsável por salvar aquele objeto então o banco de
+
+41
+00:03:59,300 --> 00:04:02,740
+dados ou então talvez um ponto em sete.
+
+42
+00:04:02,840 --> 00:04:09,410
+O seu ponto é bom e você muitas vezes vez de acessar apenas sua instância você pode testar situações
+
+43
+00:04:09,410 --> 00:04:12,290
+do tipo acessar o nome da classe.
+
+44
+00:04:12,290 --> 00:04:17,810
+Então Klein cliente um ponto.
+
+45
+00:04:19,160 --> 00:04:24,560
+Ou seja passa aqui por exemplo todos os filtros que você quer pra obter um determinado cliente do banco
+
+46
+00:04:24,560 --> 00:04:25,520
+de dados.
+
+47
+00:04:25,640 --> 00:04:30,400
+Aqui claramente se trata de um método estático ou seja o metro que pertence à classe.
+
+48
+00:04:30,400 --> 00:04:30,950
+Por quê.
+
+49
+00:04:31,250 --> 00:04:35,080
+Porque é pra você buscar clientes dentro de uma tabela do banco de dados.
+
+50
+00:04:35,120 --> 00:04:39,900
+Você não busca a partir de uma única instância ou seja a partir de uma única linha na tabela você busca
+
+51
+00:04:39,900 --> 00:04:48,050
+a partir do que seria a tabela e mais ou menos como se a classe representasse a tabela e a instância
+
+52
+00:04:48,110 --> 00:04:52,550
+representasse uma linha não um registro aqui do banco de dados.
+
+53
+00:04:52,790 --> 00:04:59,210
+Então quando você cria um cliente define o nome desse cliente define o código do cliente definhar se
+
+54
+00:04:59,210 --> 00:05:05,450
+os atributos seta lá no seu programa na orientação objeto dentro do Java por exemplo e você chama o
+
+55
+00:05:05,450 --> 00:05:12,230
+ponto cego significa que ele vai pegar essa instância e vai converter dentro do serviço em uma instrução
+
+56
+00:05:12,230 --> 00:05:16,270
+SQL para inseri ou pra fazer um update em cima do dados.
+
+57
+00:05:16,390 --> 00:05:18,290
+Os dados do Banco de Dados certo.
+
+58
+00:05:18,310 --> 00:05:23,540
+Então quando você vai fazer uma consulta e um Selection normalmente você vai a um select em cima da
+
+59
+00:05:23,540 --> 00:05:30,170
+classe cliente já que essa classe representa digamos assim alguma tabela no banco de dados e não necessariamente
+
+60
+00:05:30,170 --> 00:05:33,720
+em cima de um instância porque é uma instância no objeto.
+
+61
+00:05:33,740 --> 00:05:40,580
+Ele vai ser mapeado para um registro minha aqui no banco de dados onde cada atributo desse objeto vai
+
+62
+00:05:40,580 --> 00:05:44,050
+ser mapeado para cada um dos atributos dessa tabela.
+
+63
+00:05:44,060 --> 00:05:49,450
+Tá certo então por isso que quando você criou a instância você bota por exemplo chame Metro sei que
+
+64
+00:05:49,460 --> 00:05:55,940
+ele vai gerar no banco de dados um novo registro ao lado apenas se for uma inserção vai gerar um logo
+
+65
+00:05:55,940 --> 00:05:59,180
+se for rapidamente ele vai atualizar o registro já existente.
+
+66
+00:05:59,180 --> 00:06:02,110
+Então esse é um padrão chamado Active.
+
+67
+00:06:02,170 --> 00:06:09,210
+Quando você tem o próprio objeto responsável com todos os métodos interagir com a camada de persistência
+
+68
+00:06:09,480 --> 00:06:15,060
+e isso normalmente é feito a partir de aranha se você tem por exemplo uma classe base com todos os métodos
+
+69
+00:06:15,060 --> 00:06:17,440
+necessários para fazer a persistência.
+
+70
+00:06:17,470 --> 00:06:22,830
+Uma das implementações mais interessantes para vocês tiveram um pouco mais de curiosidade pesquisarem
+
+71
+00:06:22,830 --> 00:06:28,650
+sobre isso até porque no nosso capitão nós não vamos falar muito sobre eles já que não é o padrão usado
+
+72
+00:06:28,920 --> 00:06:34,290
+no JPL no Japão mas se você quiser pesquisar e entender mais sobre esse padrão de projeto dá uma olhada
+
+73
+00:06:34,290 --> 00:06:42,180
+no YouTube sobre vídeos de Active Record em cima do framework Ruby on Rails o eles informou que tem
+
+74
+00:06:42,180 --> 00:06:48,190
+implementação muito mais muito interessante do activo e acordo com várias funcionalidades legais que
+
+75
+00:06:48,240 --> 00:06:51,520
+você pode dar uma olhada para ver como é que o Google implementa isso.
+
+76
+00:06:51,520 --> 00:06:54,740
+Entender mais ou menos como funciona esse padrão de projeto.
+
+77
+00:06:54,780 --> 00:07:03,450
+Já o Data Map é o padrão utilizado pelo JPEG que na verdade é você criar você tem um lado você tem um
+
+78
+00:07:03,450 --> 00:07:12,420
+objeto na verdade você tem de um lado um objeto você tem aqui outro objeto.
+
+79
+00:07:12,490 --> 00:07:18,560
+2 Você vai ter por exemplo uma tabela e você vai ter lá uma tabela.
+
+80
+00:07:18,750 --> 00:07:19,480
+2.
+
+81
+00:07:19,500 --> 00:07:26,700
+A ideia aqui é você usar algum tipo de mecanismo ou seja um arquivo XML sejam arquivos de som.
+
+82
+00:07:26,700 --> 00:07:32,180
+Pode ser também um ANOTEI UM POUCO MAIS OU MENOS aqui que é o que é mais comum no dia a dia de trabalho
+
+83
+00:07:32,180 --> 00:07:32,880
+como JPEG.
+
+84
+00:07:33,460 --> 00:07:41,310
+E Você usa algum tipo de metadados pra você fazer o mapeamento entre o atributo do objeto e uma determinada
+
+85
+00:07:41,310 --> 00:07:43,320
+coluna do banco de dados.
+
+86
+00:07:43,320 --> 00:07:48,800
+Na verdade antes de você pegar o atributo do objeto e mapear para uma coluna dentro de uma tabela do
+
+87
+00:07:48,800 --> 00:07:55,890
+banco de dados você pega o próprio objeto e faz o mapeamento dele para um determinado tabela ou seja
+
+88
+00:07:55,890 --> 00:07:59,360
+esse objeto ele está dentro dessa tabela.
+
+89
+00:07:59,370 --> 00:08:00,570
+Esse é outro objeto aqui.
+
+90
+00:08:00,570 --> 00:08:04,330
+2 Ele tem uma relação com essa outra tabela do banco de dados.
+
+91
+00:08:04,420 --> 00:08:10,800
+E aí para cada atributo que você tem aqui dentro você vai fazer um mapeamento para determinadas colunas
+
+92
+00:08:11,070 --> 00:08:16,160
+que você tem naquela tabela e então tem um ou outro atributo que vai ser mapeado para essa coluna aqui.
+
+93
+00:08:16,200 --> 00:08:21,210
+Esse outro atributo vai ser mapeado para essa isso é outro atributo vai ser mapeado para essa e assim
+
+94
+00:08:21,210 --> 00:08:23,800
+você faz um mapeamento exatamente.
+
+95
+00:08:23,820 --> 00:08:31,740
+A ideia do mapa aqui não é o mapeamento de dados entre o seu objeto e onde é apelidado aquele atributo
+
+96
+00:08:31,740 --> 00:08:33,900
+vai ser inserido dentro do banco de dados.
+
+97
+00:08:34,290 --> 00:08:38,820
+Então você tem vários padrões e várias questões que envolvem o mapeamento.
+
+98
+00:08:38,820 --> 00:08:44,850
+Por exemplo eu posso ter um determinado dois objetos que são mapeados para homens na tabela.
+
+99
+00:08:44,850 --> 00:08:48,010
+Posso pegar um objeto que é mapeado para mais de uma tabela.
+
+100
+00:08:48,150 --> 00:08:52,620
+Tem a questão do tamanho dos relacionamentos como é que eu vou mapear os relacionamentos do banco de
+
+101
+00:08:52,620 --> 00:08:55,440
+dados para os relacionamentos do mundo orientado a objeto.
+
+102
+00:08:55,530 --> 00:08:58,940
+Então todas essas questões são resolvidas dentro do JP.
+
+103
+00:08:59,310 --> 00:09:01,360
+é o padrão que está por trás disso.
+
+104
+00:09:01,380 --> 00:09:02,100
+O Data MAP.
+
+105
+00:09:02,190 --> 00:09:06,900
+Então pessoal como o objetivo da sala é fazer uma comparação entre esses dois padrões eu vou deixar
+
+106
+00:09:06,900 --> 00:09:10,170
+para me aprofundar um pouco mais num mapa Map certo.
+
+107
+00:09:10,440 --> 00:09:18,790
+Então só para finalizar o que acontece no activo é que você tem determinada classe que tem a funcionalidade
+
+108
+00:09:18,800 --> 00:09:20,970
+tão pouco aqui activos
+
+109
+00:09:23,500 --> 00:09:24,560
+como se fosse aquilo.
+
+110
+00:09:24,740 --> 00:09:35,370
+Aqui eu vou ter uma série de funcionalidades seis sete updates de baile funk e o lá você vai ter funções
+
+111
+00:09:35,370 --> 00:09:37,690
+que vai te ajudar com o espirituoso consultas.
+
+112
+00:09:37,710 --> 00:09:43,840
+E a partir disso você tem uma herança e aí você vai ter por exemplo a clássica cliente.
+
+113
+00:09:44,310 --> 00:09:52,500
+A classe um produto que você também vai ter no seu sistema que você herda de que o ele vai ter uma série
+
+114
+00:09:52,500 --> 00:09:57,240
+de funcionalidades pronta pra que você possa fazer a persistência da sua aplicação.
+
+115
+00:09:57,250 --> 00:10:05,430
+Esse aqui é um padrão outro padrão é você ter aqui uma classe por exemplo chamada produto e essa classe
+
+116
+00:10:05,430 --> 00:10:13,080
+tem uma série de atributos um dois três atributos e você tem uma forma de dizer essa classe está sendo
+
+117
+00:10:13,080 --> 00:10:19,890
+mapeada para essa tabela no banco de dados então você tem por exemplo essa classe é mapeado para essa
+
+118
+00:10:19,890 --> 00:10:20,590
+tabela.
+
+119
+00:10:20,610 --> 00:10:26,130
+Esse atributo aqui está mapeado para essa coluna como já falei anteriormente esse outro atributo está
+
+120
+00:10:26,130 --> 00:10:32,930
+mapeado para cá e aí não necessariamente essas informações precisam estar dentro do objeto dessa classe
+
+121
+00:10:32,940 --> 00:10:37,800
+as informações pode estar dentro de um XML e pode estar dentro de um dia isso pode ser feito a partir
+
+122
+00:10:37,800 --> 00:10:42,950
+de anotei essa classe que não necessariamente ela precisa herdar de nada.
+
+123
+00:10:43,080 --> 00:10:49,100
+Simplesmente o mapeamento serve para dizer exatamente onde vai ser persistido cada informação.
+
+124
+00:10:49,170 --> 00:10:55,650
+A partir daí você chama algo externo para fazer a persistência que não eu não preciso de nenhum tipo
+
+125
+00:10:55,650 --> 00:10:56,520
+de outro padrão.
+
+126
+00:10:56,520 --> 00:11:02,610
+Por exemplo como ideal para fazer a persistência nesse caso que data mapa eventualmente você vai precisar
+
+127
+00:11:02,610 --> 00:11:06,330
+de um Data Access Hollywood pra poder fazer a persistência.
+
+128
+00:11:06,400 --> 00:11:12,270
+Então é isso que eu queria falar pelo menos a primeira aula comparando o Data mapa com Active Record
+
+129
+00:11:12,280 --> 00:11:17,990
+se você quiser dar uma olhada entra no YouTube dá uma olhada e Active Record do meu Rei que é um filme
+
+130
+00:11:18,580 --> 00:11:20,750
+muito interessante lá ele vai murchar pra você.
+
+131
+00:11:21,010 --> 00:11:24,280
+Alguns exemplos de como você pode persistir aí o governo colhe.
+
+132
+00:11:24,280 --> 00:11:27,280
+Você vai ter uma noção mais exata daquilo que eu estou falando.
+
+133
+00:11:27,280 --> 00:11:32,840
+Já o Data mapa e como ele será usado durante todo o capítulo de JP você vai ter muito mais facilidade
+
+134
+00:11:32,840 --> 00:11:38,970
+de entender ele já que o padrão utilizado no JP e nós vamos ver durante todo o capítulo fico por aqui
+
+135
+00:11:38,980 --> 00:11:45,040
+pessoal e na próxima aula vamos falar um pouquinho mais aprofundado sobre qual é exatamente o mapeamento
+
+136
+00:11:45,040 --> 00:11:48,580
+objeto relacional que tem tudo a ver com o padrão data mapa.
+
+137
+00:11:48,700 --> 00:11:49,870
+Isso vai bem um pouquinho mais.
+
+138
+00:11:49,870 --> 00:11:56,200
+Como isso é feito dentro do mundo do Java do JP só pra gente ter a parte teórica e depois ir para a
+
+139
+00:11:56,200 --> 00:11:58,930
+parte prática e entender a partir dos exercícios.
+
+140
+00:11:58,930 --> 00:11:59,650
+Então até lá.

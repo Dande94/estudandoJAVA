@@ -1,0 +1,423 @@
+1
+00:00:00,300 --> 00:00:07,740
+Pessoal agora nós vamos fazer uma pequena alteração no exercício passado que foi o exercício para que
+
+2
+00:00:07,740 --> 00:00:14,610
+a gente possa acrescentar a possibilidade de ter um relacionamento bidirecional e como isso é feito
+
+3
+00:00:14,610 --> 00:00:16,340
+dentro do JP.
+
+4
+00:00:17,040 --> 00:00:24,750
+A gente tem uma relação um para um entre cliente e assento e para isso a gente colocou dentro de cliente
+
+5
+00:00:24,870 --> 00:00:31,500
+um atributo chamado assento e marcamos esse atributo como arroba antes lá e estão ali para criar um
+
+6
+00:00:31,500 --> 00:00:33,690
+relacionamento bidirecional.
+
+7
+00:00:33,990 --> 00:00:42,600
+Imagino que seja simples basta entrar em assento criar um atributo do tipo cliente então o craque atrai
+
+8
+00:00:42,590 --> 00:00:45,030
+muitos clientes.
+
+9
+00:00:45,030 --> 00:00:53,950
+Vou chamar aqui de cliente e vou marcar esse atributo com a o ano até aqui tudo bem.
+
+10
+00:00:53,950 --> 00:01:01,180
+Tem mais um detalhe que precisa ser feito então gerar os métodos de cetim e colocá los um metro nos
+
+11
+00:01:01,330 --> 00:01:05,680
+três setas para marca que manda gerar.
+
+12
+00:01:05,760 --> 00:01:14,300
+Ok tudo bem nós tenhamos um outro atributo os metros Gad 7 tenhamos na marcação de que é um a um a relação
+
+13
+00:01:14,790 --> 00:01:17,570
+da forma como está aqui o que é que vai acontecer.
+
+14
+00:01:17,820 --> 00:01:25,110
+O que vai acontecer é que será criado um atributo dentro de assento chamado cliente andar Aydin.
+
+15
+00:01:25,410 --> 00:01:32,220
+E ele vai criar a coluna nas duas tabelas o que não é interessante não existe um relacionamento bidirecional
+
+16
+00:01:32,460 --> 00:01:33,240
+de dados.
+
+17
+00:01:33,240 --> 00:01:39,300
+Você até pode fazer isso mas vai violar sem dúvida os princípios de banco de dados com quem esse relacionamento
+
+18
+00:01:39,300 --> 00:01:42,270
+bidirecional vai ficar muito estranho.
+
+19
+00:01:42,270 --> 00:01:48,420
+Vai dar muita margem a você ter inconsistência de dados então não é feito relacionamento bidirecional
+
+20
+00:01:48,420 --> 00:01:49,620
+no banco de dados.
+
+21
+00:01:49,620 --> 00:01:51,520
+Nesse caso como é que eu tenho.
+
+22
+00:01:51,540 --> 00:01:53,170
+Como é que eu consigo dizer.
+
+23
+00:01:53,190 --> 00:02:00,750
+JP a que aqui se trata uma relação bidirecional que já foi mapeada em outro atributo para a gente dizer
+
+24
+00:02:00,750 --> 00:02:01,480
+isso.
+
+25
+00:02:02,040 --> 00:02:09,240
+Ou seja volta aqui para dizer que isso aqui é simplesmente a relação bidirecional que já foi mapeada
+
+26
+00:02:09,240 --> 00:02:10,620
+em outro atributo.
+
+27
+00:02:10,770 --> 00:02:17,130
+Nós vamos usar um atributo chamado Mapa de Bay o mapa de Bay vai dizer qual o nome do outro atributo
+
+28
+00:02:17,160 --> 00:02:23,340
+ou seja qual o nome do atributo que tem a relação no qual eu estou fazendo aqui o lado bidirecional.
+
+29
+00:02:23,370 --> 00:02:28,950
+A segunda parte da relação está então nesse caso o relacionamento mesmo.
+
+30
+00:02:28,950 --> 00:02:36,140
+Ele foi mapeado pelo atributo que está dentro de Quintino e o nome do atributo é aceito.
+
+31
+00:02:36,150 --> 00:02:44,190
+Então é exatamente esse o nome que eu vou colocar aqui dentro de acento que ele está dizendo que a relação
+
+32
+00:02:44,570 --> 00:02:50,050
+ante o ano foi mapeada no atributo acento ou seja a relação está definida lá.
+
+33
+00:02:50,070 --> 00:02:55,680
+Aqui eu estou apenas trabalhando com o Big personalidade se é que existe isso.
+
+34
+00:02:56,010 --> 00:03:02,340
+O fato de eu ter criado outro atributo para que a partir de assento também consiga chegar no cliente
+
+35
+00:03:02,340 --> 00:03:04,500
+que possui aquele acento agora sim.
+
+36
+00:03:04,650 --> 00:03:07,210
+Nós temos uma relação bidirecional.
+
+37
+00:03:07,560 --> 00:03:12,330
+Então se a gente acertar aqui por exemplo exercício novo cliente acento dois.
+
+38
+00:03:12,420 --> 00:03:20,400
+A gente fez aqui uma inclusão deixou fazer uma consulta que talvez fique melhor para a gente ver exatamente
+
+39
+00:03:20,400 --> 00:03:32,180
+como querem fazer então eu vou colocar aqui uma classe chamada obter clientes aceito.
+
+40
+00:03:32,580 --> 00:03:36,120
+Nós vamos definir o nosso método.
+
+41
+00:03:36,580 --> 00:03:43,540
+Eu vou criar aqui dá para a gente obter a parte de cliente certo então vou colocar o seguinte o primeiro
+
+42
+00:03:43,570 --> 00:03:51,120
+bota aqui dao em cima de cliente então chamada a hora certa Dao.
+
+43
+00:03:51,540 --> 00:03:59,770
+Não preciso informar cliente aqui eu vou passar cliente em ponto Class que eu quero consultar cliente.
+
+44
+00:03:59,850 --> 00:04:06,390
+Nesse caso eu quero consultar o cliente a partir de um áudio específico então quais são os clientes
+
+45
+00:04:06,390 --> 00:04:07,440
+cadastrados aqui.
+
+46
+00:04:07,730 --> 00:04:11,280
+Ao cliente 1 3 7 9.
+
+47
+00:04:11,720 --> 00:04:18,140
+A impressão que dentro meu Down não criei um método que vai obter um cliente específico.
+
+48
+00:04:18,150 --> 00:04:25,760
+Então vou fazer agora o seguinte ou criar aqui publique para retornar não é aquela entidade pode ter
+
+49
+00:04:26,400 --> 00:04:35,970
+por aí colocar de letra maiúscula vou receber aqui object que vai ser um site que pode ser monstrinho.
+
+50
+00:04:35,970 --> 00:04:39,790
+Pode ser um valor longo e pode ser muito fim não tem problema.
+
+51
+00:04:40,080 --> 00:04:44,060
+Aqui eu vou simplesmente retornar em Minas Gerais ponto final.
+
+52
+00:04:44,490 --> 00:04:46,370
+Eu já tenho uma classe dentro.
+
+53
+00:04:46,560 --> 00:04:51,830
+A partir do atributo classe eu simplesmente vou passar la como parâmetro.
+
+54
+00:04:51,930 --> 00:04:59,180
+Ou seja com isso eu consigo criar mais esse metro dentro do meu Bell então aqui dentro eu vou chamar
+
+55
+00:05:00,420 --> 00:05:17,310
+o cliente recebe ao ponto de obter moradia vou passar no caso que choveu onde se passa aqui ali e com
+
+56
+00:05:17,310 --> 00:05:20,990
+isso a gente vai conseguir fazer algo do tipo.
+
+57
+00:05:21,030 --> 00:05:27,670
+Por exemplo clientes Otto Guedes aceitam pagar aqui.
+
+58
+00:05:27,670 --> 00:05:28,760
+Ponto.
+
+59
+00:05:28,900 --> 00:05:36,070
+Guedes não deu certo então deixou de imprimir o resultado correto.
+
+60
+00:05:36,160 --> 00:05:42,650
+No final o chamado ao ponto de fechar a no resultado
+
+61
+00:05:46,030 --> 00:05:49,590
+primeira coisa que eu quero ver ele trouxe o valor 23 F.
+
+62
+00:05:49,600 --> 00:05:55,390
+Ou seja a partir do cliente que obtive ele trouxe o acento daquele cliente.
+
+63
+00:05:55,420 --> 00:06:01,560
+Outra coisa que eu quero verificar é com relação aqui a tabela para ter certeza que não foi criado dentro
+
+64
+00:06:01,560 --> 00:06:09,010
+de acento um atributo a mais ou seja dentro de acento Eu tenho dois atributos de um nome e dentro de
+
+65
+00:06:09,020 --> 00:06:13,670
+cliente nós temos o Edi o nome e o acento.
+
+66
+00:06:13,720 --> 00:06:19,330
+Ok até aqui do ponto de vista das colunas a tabela não foi criada uma coluna a mais por conta da relação
+
+67
+00:06:19,690 --> 00:06:28,390
+bidirecional e eu consigo fazer por exemplo isso aqui também não deixou criar aqui mais um está em algum
+
+68
+00:06:28,390 --> 00:06:35,480
+ponto então cliente ponto Guedes aceito ponto outro cliente.
+
+69
+00:06:35,480 --> 00:06:38,520
+Ponto GATT em nome do cliente por exemplo.
+
+70
+00:06:38,840 --> 00:06:43,250
+Nesse caso eu tô acessando o cliente do acento.
+
+71
+00:06:43,270 --> 00:06:50,020
+Então ele conseguiu sim pegar o valor do cliente ficava dentro do acento eu poderia por exemplo consultar
+
+72
+00:06:50,020 --> 00:06:54,170
+um acento grave e tentar pegar o assento dele.
+
+73
+00:06:54,190 --> 00:07:02,530
+Então o que seria talvez um caso um pouco mais realista vou criar aqui aos clientes o que dá aos.
+
+74
+00:07:02,890 --> 00:07:09,970
+Só sei que finalmente ao fechar vou criar aqui um outro que eu vou chamar de tal acentos então vou colocar
+
+75
+00:07:09,970 --> 00:07:15,250
+esse tal cliente pra cima pra fechar aqui em cima vou criar aqui um balcão
+
+76
+00:07:18,000 --> 00:07:24,900
+acento falso aqui e acolá sem acento e obviamente ACEITO pouco claras.
+
+77
+00:07:25,000 --> 00:07:37,870
+Nesse caso se eu fizer acento recebe acento então legal acento ponto.
+
+78
+00:07:38,040 --> 00:07:39,970
+Optei por aí.
+
+79
+00:07:40,030 --> 00:07:46,370
+Deixa eu ver o que é que tem lá dentro da tabela sem a qual tem um guardião de quatro.
+
+80
+00:07:46,900 --> 00:07:52,960
+Então o acento diário de quatro 4 quatro.
+
+81
+00:07:54,100 --> 00:08:03,890
+Uma vez que eu peguei o acento então vou fazer o seguinte Não aceito ponto x cliente ponto outro nome.
+
+82
+00:08:03,920 --> 00:08:09,730
+São Paulo eu estou mostrando o nome do sendo a parte do cliente que obtive na base e agora estou pagando
+
+83
+00:08:10,120 --> 00:08:16,280
+do nome do cliente a partir do assento que obtive na base daquele espaço colocar isso aqui.
+
+84
+00:08:16,300 --> 00:08:25,690
+Finalmente fechar o assento fechar abrir o grau fechei os dois acertando.
+
+85
+00:08:26,140 --> 00:08:31,650
+Então nós temos aqui tanto o nome do assento a parte do cliente como o nome do cliente.
+
+86
+00:08:31,690 --> 00:08:38,920
+A partir do assento a partir de uma relação bi direcional se vocês você pode testar em casa certo se
+
+87
+00:08:38,920 --> 00:08:46,780
+você vem aqui dentro de assento e tirar esse atributo map de Bay você vai ver que vai ser criado um
+
+88
+00:08:46,780 --> 00:08:52,660
+outro atributo não quero fazer isso que vou ter que pagar a tabela ao botequim pra colocar os dados
+
+89
+00:08:52,660 --> 00:08:53,920
+novamente tal.
+
+90
+00:08:54,030 --> 00:09:00,220
+Então você pode fazer esse exercício em casa para verificar que de fato ele vai gerar um atributo a
+
+91
+00:09:00,220 --> 00:09:05,140
+mais o que não é interessante então em outras palavras a forma de interpretar aqui é o seguinte você
+
+92
+00:09:05,140 --> 00:09:13,660
+vai ter aqui é uma relação pra um correto mas o atributo que realmente mapeia essa relação é exatamente
+
+93
+00:09:13,660 --> 00:09:22,090
+o atributo assento que está na outra classe ou seja dentro da classe que o atributo assento mapeia a
+
+94
+00:09:22,090 --> 00:09:25,890
+relação pra um ou então mando de outra forma né.
+
+95
+00:09:26,110 --> 00:09:31,570
+A relação está mapeada pelo atributo assento dentro da classe cliente.
+
+96
+00:09:32,020 --> 00:09:37,450
+Então essa é a forma que você interpreta olhando pra esse mapeamento interpretar que essa é a segunda
+
+97
+00:09:37,450 --> 00:09:43,300
+parte da relação bidirecional essa a primeira parte e de fato o atributo que mapeia a relação que é
+
+98
+00:09:43,300 --> 00:09:48,230
+e onde será criada a coluna na tabela que está mapeada para aquela entidade.
+
+99
+00:09:48,310 --> 00:09:54,070
+E aqui simplesmente a segunda parte da relação seja esse tipo de mapeamento não vai gerar uma coluna
+
+100
+00:09:54,070 --> 00:09:54,990
+no banco de dados.
+
+101
+00:09:55,060 --> 00:10:03,430
+Então só pra gente finalizar a aula o mapeamento a relação lo está mapeado no atributo assento que pertence
+
+102
+00:10:03,490 --> 00:10:04,960
+à classe cliente.
+
+103
+00:10:04,960 --> 00:10:07,770
+Então é exatamente isso que esse mapeamento diz.
+
+104
+00:10:07,770 --> 00:10:14,320
+E essa é a foto que você vai criar uma relação bidirecional para um mapeamento pra mostrar também como
+
+105
+00:10:14,320 --> 00:10:19,660
+fazer isso um relacionamento um para muitos a gente vai começar a trabalhar com esse tipo de relacionamento
+
+106
+00:10:19,960 --> 00:10:20,680
+na próxima aula.

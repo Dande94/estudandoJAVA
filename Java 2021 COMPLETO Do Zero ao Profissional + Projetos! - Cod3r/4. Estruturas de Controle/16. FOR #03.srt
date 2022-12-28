@@ -1,0 +1,447 @@
+1
+00:00:00,240 --> 00:00:07,320
+Pessoal agora nosso terceiro exemplo de folga falar de duas coisas é o forte do outro e eu quero salientar
+
+2
+00:00:07,910 --> 00:00:13,670
+uma questão extremamente importante então pra isso nós vamos criar uma nova classe chamada Force 3 eu
+
+3
+00:00:13,680 --> 00:00:20,250
+quero salientar uma coisa muito importante que é a questão do escopo que eu vou mostrar um exemplo mais
+
+4
+00:00:20,250 --> 00:00:23,550
+simples depois eu vou pagar esse exemplo e vou fazer um foda em outro.
+
+5
+00:00:23,730 --> 00:00:34,400
+Quando eu defino um laço fora eu corto aqui e recebe um valor zero ponto e vai ser menor do que 10 ou
+
+6
+00:00:34,440 --> 00:00:36,650
+melhor dizendo é mais mais.
+
+7
+00:00:36,840 --> 00:00:44,030
+Coloco aqui um par de chaves e vou imprimir o valor tinha o console certo usando print além de se executar
+
+8
+00:00:44,040 --> 00:00:53,820
+esse código ele vai fazer 10 repetições mostrando de 0 até 9 0 1 2 3 4 5 6 7 8 9 7 há um laço também
+
+9
+00:00:53,820 --> 00:00:59,520
+muito famoso não sei de 0 até o número sem usar o menor igual ou menor.
+
+10
+00:00:59,640 --> 00:01:00,280
+Pronto.
+
+11
+00:01:00,300 --> 00:01:08,040
+Nesse caso se eu tentar acessar depois o laço FOR A variável em certa variável e não estará disponível.
+
+12
+00:01:08,050 --> 00:01:08,810
+Porquê.
+
+13
+00:01:08,910 --> 00:01:11,410
+Porque a Maria abriu e ela tem isso culpa.
+
+14
+00:01:11,470 --> 00:01:17,170
+Ou seja ela tem uma área que ela está visível apenas dentro do bloco associado ao fogo.
+
+15
+00:01:17,280 --> 00:01:20,640
+Existe alguma forma de a gente acessar o Wi fora do Laço.
+
+16
+00:01:20,640 --> 00:01:27,870
+Se eu quiser continuar acessando e depois do laço posso pode desde que você tire a declaração da variável
+
+17
+00:01:27,870 --> 00:01:35,350
+e dentro do fórum e coloque aquilo ali antes que eu tanto posso usar o wi dentro do laço o foco depois
+
+18
+00:01:35,350 --> 00:01:44,580
+do laço só posso continuar usando a variável e então você vai ver que ele 0 1 2 3 4 5 6 7 8 9.
+
+19
+00:01:44,730 --> 00:01:54,960
+Aí eu vou colocar aqui só pra gente mostra algo saiu saiu do foco e aí depois ele vai mostrar o valor
+
+20
+00:01:54,970 --> 00:02:01,960
+10 ou seja mostrar de 0 até 9 dentro do fórum saiu do laço e aí sim que ele mostrou o décimo item.
+
+21
+00:02:02,160 --> 00:02:09,120
+Nesse caso porque a variável foi definida fora do laço eu consigo acessar ela também fora do bloco associado
+
+22
+00:02:09,120 --> 00:02:09,870
+ao fogo.
+
+23
+00:02:09,900 --> 00:02:15,840
+Se eu colocar novamente a variável aqui que é o que acontece na maior parte do tempo significa que essa
+
+24
+00:02:15,840 --> 00:02:22,140
+variável só estará disponível dentro do laço forte e aí vai ter um problema se você tentar criar uma
+
+25
+00:02:22,140 --> 00:02:27,460
+variável com o mesmo nome é igual a zero ponto e vírgula.
+
+26
+00:02:27,570 --> 00:02:28,980
+Isso aqui vai dar um problema porquê.
+
+27
+00:02:29,000 --> 00:02:34,140
+Porque tem uma variável que tem o mesmo nome da variável que está controlando o laço aqui vai gerar
+
+28
+00:02:34,140 --> 00:02:40,470
+um conflito ou colocar o cursor em cima ele vai dizer ao variável local duplicada então não posso fazer
+
+29
+00:02:40,470 --> 00:02:44,360
+isso mas eu posso criar a variável depois do laço forte.
+
+30
+00:02:44,590 --> 00:02:45,050
+Porquê.
+
+31
+00:02:45,070 --> 00:02:52,140
+Porque nesse caso essa variável está restrita a esse laço ou seja fora do Laço foi não tem nenhuma variável
+
+32
+00:02:52,140 --> 00:02:54,860
+com o nome e eu posso usar o mesmo valor.
+
+33
+00:02:55,260 --> 00:02:59,010
+Nesse caso só duplicar a semente e temos que pagar em cima.
+
+34
+00:02:59,370 --> 00:03:06,380
+Então colocando aqui e executar mais uma vez você vai variar de 0 a 9 depois do laço saiu do foco e
+
+35
+00:03:06,390 --> 00:03:11,940
+a variável é vale zero aqui porque definem a variável na Linha 12 então existe essa questão do escopo
+
+36
+00:03:12,330 --> 00:03:17,670
+onde a variável está disponível dependendo de onde você declarar variável ela pode estar disponível
+
+37
+00:03:17,670 --> 00:03:23,790
+dentro de um laço só com ela pode estar disponível na função inteira e outra coisa que também é interessante
+
+38
+00:03:24,000 --> 00:03:31,140
+salientar nesse exemplo é que eu estou falando de escopo é que você não pode usar uma variável antes
+
+39
+00:03:31,140 --> 00:03:37,050
+de declarar ela então se eu declarar a variável na linha 14 e tentar usar a variável na linha 3 Eu não
+
+40
+00:03:37,050 --> 00:03:37,900
+consigo fazer.
+
+41
+00:03:37,980 --> 00:03:44,010
+Existem algumas exceções que eu vou falar mais à frente mas dentro de um método o algoritmo é executado
+
+42
+00:03:44,010 --> 00:03:46,380
+de forma sequencial primeira linha.
+
+43
+00:03:46,500 --> 00:03:52,320
+Segundo ele encontrou o wi fi vai pular por ali e essa é a próxima base que está sempre de cima para
+
+44
+00:03:52,320 --> 00:03:57,880
+baixo então a ordem é também muito importante então voltando a Nokia mostrar para vocês um laço medonho
+
+45
+00:03:58,050 --> 00:04:09,170
+no então Coca cola quente e recebe um valor zero ponto e vírgula é menor do que 10 vírgula e mais mais
+
+46
+00:04:10,050 --> 00:04:12,260
+coloca que o bloco associado.
+
+47
+00:04:12,260 --> 00:04:18,730
+Se eu quiser definir um outro forró eu já não posso usar a variável e então posso usar o J que também
+
+48
+00:04:19,040 --> 00:04:21,540
+é um par muito utilizado na J.
+
+49
+00:04:21,540 --> 00:04:23,150
+X e Y por exemplo.
+
+50
+00:04:23,340 --> 00:04:34,470
+Então coloco j no valor zero ponto e vírgula e o j vai ser menor do que 10 pontos vírgula J mas mais
+
+51
+00:04:35,040 --> 00:04:40,530
+agora tenho duas variáveis então nesse caso estou indo de 0 a 9 de 0 a 9 12 vezes ou seja fazendo 10
+
+52
+00:04:40,530 --> 00:04:41,910
+repetições em cada.
+
+53
+00:04:41,970 --> 00:04:44,290
+No final ele vai repetir 100 vezes.
+
+54
+00:04:44,460 --> 00:04:54,550
+Se eu colocar aqui ou System que o espaço onde Alt Print F vou mostrar que os dois valores distribuíam
+
+55
+00:04:55,080 --> 00:04:59,430
+entre colchetes vou colocar aqui porcentagem porcentagem
+
+56
+00:05:01,560 --> 00:05:04,060
+espaço porcentagem D.
+
+57
+00:05:04,110 --> 00:05:12,410
+Aqui eu passo o valor e j digo e nesse exemplo uma coisa legal a gente poder fazer o Big Bang né que
+
+58
+00:05:12,400 --> 00:05:14,580
+a gente faz e tal como passo a passo.
+
+59
+00:05:14,820 --> 00:05:20,730
+Então sou colocado que um pontinho na minha nobre clicando duas vezes ele vai colocar essa bolinha em
+
+60
+00:05:20,790 --> 00:05:26,970
+verdinhas ataco o chifre afim 11 e como aqui no meu caso como já de hoje então de que em vez de clicar
+
+61
+00:05:27,360 --> 00:05:34,110
+aqui nada verde eu posso explicar esse inseto pra ele fazer executar no modo de Bang no modo de blog
+
+62
+00:05:34,140 --> 00:05:40,670
+como eu disse pra ele mudar a perspectiva automaticamente ele já mudou a perspectiva e eu consigo executar
+
+63
+00:05:40,680 --> 00:05:47,340
+passo a passo inclusive vendo os valores das variáveis aqui e começou com zero J começou com zero então
+
+64
+00:05:47,570 --> 00:05:51,700
+tá colocar que vocês ele vai pra próxima linha.
+
+65
+00:05:51,840 --> 00:05:52,880
+Agora o J.
+
+66
+00:05:52,950 --> 00:06:00,460
+II continua 0 J2 J3 J 4 e J5 J 6 7 8 9.
+
+67
+00:06:00,600 --> 00:06:08,890
+Agora vai passar para igual então vai ser igual ele mas está o laço mais interno 10 vezes certo que
+
+68
+00:06:08,950 --> 00:06:14,430
+ele está colocando tudo na mesma linha vou colocar só mais uma pequena mudança que colocar um system
+
+69
+00:06:14,460 --> 00:06:21,520
+algo diferente ali pra ele quebra a linha sempre que ele for até o 9 e vou passar para o próximo e quebra
+
+70
+00:06:21,540 --> 00:06:24,090
+a linha Target novamente.
+
+71
+00:06:24,400 --> 00:06:33,990
+Já está no modo de blog então f 6 0 0 0 1 0 2 0 3 0 4 05 06 07 08.
+
+72
+00:06:34,050 --> 00:06:39,760
+E aí o J vai passar de 9 para 10 e essa expressão passará a ser falsa.
+
+73
+00:06:39,800 --> 00:06:45,390
+Então tá mais uma vez passou pra ser falsa a ele vai incrementar o valor do yuan que valia zero vai
+
+74
+00:06:45,390 --> 00:06:55,730
+valer e agora ele vai fazer 2 3 e 4 e o J5 e o j 6 7 8 9.
+
+75
+00:06:56,040 --> 00:07:01,380
+Agora ele vai passar a valer 2 Outra coisa que você pode fazer quando tiver de buscar o código também
+
+76
+00:07:01,380 --> 00:07:08,850
+é você selecionar uma expressão e selecionar como Shift e que nesse caso o que ele vai inspecionar vai
+
+77
+00:07:08,850 --> 00:07:15,930
+dizer se esse valor é verdadeiro falso continua sendo verdadeiro e você pode fazer o seguinte Ao selecionar
+
+78
+00:07:16,020 --> 00:07:22,590
+esse trecho clicar com o botão direito e colocar aqui no box clicar em um lote ele vai mostrar mais
+
+79
+00:07:22,590 --> 00:07:29,330
+uma janelinha em que eu posso até colocar o Word aqui embaixo do chuveiro que consiga que baixe Trótski
+
+80
+00:07:29,370 --> 00:07:30,580
+embaixo do teu Watch.
+
+81
+00:07:30,600 --> 00:07:36,310
+Aqui que essa expressão é menor do que 10 eu posso adicionar uma outra expressão aqui por exemplo um
+
+82
+00:07:36,750 --> 00:07:45,730
+J menor do que 10 resultado ele vai mostrar se o J é menor do que 10 dependendo do código que ele tiver
+
+83
+00:07:45,730 --> 00:07:52,710
+do ponto no código ele tiver entrando aqui até no mais uma vez ao S6 agora a gente vai ter um J menor
+
+84
+00:07:52,710 --> 00:08:02,890
+do que 10 e 4 talvez 6 6 7 6 9 6 6 3 4 5 6 7 8 9.
+
+85
+00:08:02,910 --> 00:08:10,290
+A última vez e agora ele vai passar a ser falso porque o j passou a não ser mais igual a 10 e ele vai
+
+86
+00:08:10,290 --> 00:08:16,680
+passar a ser falso ele sai e nesse caso na linha 11 é porque todo ano ele tira essa expressão porque
+
+87
+00:08:16,680 --> 00:08:18,520
+na linha 11 o J não existe.
+
+88
+00:08:18,600 --> 00:08:26,550
+O J só existe como estiver executando o laço FOR mais interno mas se eu der mais um f 6 aqui e ele entrar
+
+89
+00:08:26,550 --> 00:08:32,370
+num laço forte você vai ver que essa expressão volta a ficar correta mostrando o valor que Truffaut
+
+90
+00:08:32,370 --> 00:08:37,390
+dependendo da situação então existem várias formas então selecionando aquele trecho e Cole clicando
+
+91
+00:08:37,400 --> 00:08:43,530
+pra ele inspecionar inclusive a tecla de atalho você consegue ver o valor mas você também consegue ver
+
+92
+00:08:43,530 --> 00:08:49,590
+todas as variáveis aqui nessa parte de variáveis está muito legal você tem a possibilidade de entender
+
+93
+00:08:49,590 --> 00:08:55,560
+exatamente o que está acontecendo isso ocorre quando você tiver divulgado e você pode também criar outros
+
+94
+00:08:55,560 --> 00:09:01,660
+break points e aí você pode dar um F8 o F8 ele vai navegar pro próximo Prey.
+
+95
+00:09:02,010 --> 00:09:07,210
+Aqui se eu posso tirar esse brinco que eu tirei isso dá um F8 ele vai correr até para o sobrinho eu
+
+96
+00:09:07,230 --> 00:09:10,230
+vou clicar e for de novo ele vai para próximo bretões.
+
+97
+00:09:10,700 --> 00:09:14,940
+Ou seja cada vez que agora estou colocando um ponto você vai ver que ele vai desenhar uma nova linha
+
+98
+00:09:15,480 --> 00:09:25,350
+F8 toda alinhando igual a 5 toda linha do igual 6 é igual a 7 igual ao 8 é igual a 9 e aí ele vai finalizar
+
+99
+00:09:25,650 --> 00:09:33,060
+o nosso código porque ele vai mostrar os 11 11 vezes que ele entrou aqui sem repetição 10 laços do laço
+
+100
+00:09:33,060 --> 00:09:42,270
+de fora e 10 laço do laço de dentro seja lá de fora das vezes ele fora até a segunda vez das vezes.
+
+101
+00:09:42,270 --> 00:09:47,160
+Terceira vez 10 vezes aqui dentro é assim que ele vai executando um laço dentro do outro e uma vez que
+
+102
+00:09:47,160 --> 00:09:53,720
+eu terminei de fazer todo o meu processo de Bang eu vou voltar para a perspectiva Java que está aqui.
+
+103
+00:09:53,730 --> 00:09:58,760
+Certo aí ele volta inclusive pra Mexico México a organização das nossas telas e o nosso console tem
+
+104
+00:09:59,890 --> 00:10:06,660
+e a gente finalizou o nosso exercício de folga falando de duas coisas e mostra um laço forte um do outro
+
+105
+00:10:06,660 --> 00:10:13,080
+mas o mais importante é essa questão do escopo você entender que quando você define uma variável dentro
+
+106
+00:10:13,080 --> 00:10:18,690
+de um laço ele vai ficar restrito àquele laço não apenas se você definir a variável no próprio corpo
+
+107
+00:10:18,690 --> 00:10:24,270
+do foco mas você define no variável dentro do bloco ele vai ficar restrito àquele bloco e caso você
+
+108
+00:10:24,270 --> 00:10:28,920
+queira usar a variável depois do laço você necessariamente precisará declarar a variável.
+
+109
+00:10:28,940 --> 00:10:31,170
+Fora essa questão do escopo né.
+
+110
+00:10:31,200 --> 00:10:35,350
+Até onde a variável fica visível na lei do código é muito importante.
+
+111
+00:10:35,460 --> 00:10:40,260
+E como falei também a ordem a sequência que você vai declarar nas coisas também é importante você não
+
+112
+00:10:40,260 --> 00:10:45,020
+pode dentro de um método declarar variável e depois tentar usar antes.

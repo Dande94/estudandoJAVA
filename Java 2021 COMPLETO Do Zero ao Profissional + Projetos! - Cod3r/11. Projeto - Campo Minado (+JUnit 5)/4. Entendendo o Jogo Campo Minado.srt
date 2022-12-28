@@ -1,0 +1,287 @@
+1
+00:00:00,120 --> 00:00:07,440
+Um dos aspectos importantíssimos quando você vai fazer um projeto real embora esteja no contexto do
+
+2
+00:00:07,440 --> 00:00:13,980
+nosso primeiro projeto é um projeto simples é um projeto dentro de um contexto educacional muito importante
+
+3
+00:00:14,030 --> 00:00:19,050
+está sempre dando para vocês as perspectivas que vocês vão encontrar em um projeto real.
+
+4
+00:00:19,110 --> 00:00:25,170
+Quando você vai desenvolver um projeto real é importantíssimo por mais que o projeto seja simples ou
+
+5
+00:00:25,170 --> 00:00:31,590
+intermediário ou complexo que você converse com um especialista daquele negócio e atenda aos requisitos
+
+6
+00:00:31,590 --> 00:00:35,560
+do projeto para daí você ter a capacidade de abstrair essa.
+
+7
+00:00:35,790 --> 00:00:36,980
+Esse conhecimento.
+
+8
+00:00:36,990 --> 00:00:42,390
+Aquilo que você quer resolver com um projeto para daí você mapear isso em software mostrando para vocês
+
+9
+00:00:42,390 --> 00:00:50,420
+aqui rapidamente sobre o nosso negócio aqui no sistema de Campo Minado nosso joguinho de campo minado.
+
+10
+00:00:50,430 --> 00:00:56,400
+é importante você entender que o que é que nós temos em termos de mapeamento é um exercício muito importante
+
+11
+00:00:56,400 --> 00:01:00,570
+para você começar a entender como você iria mapear esse projeto.
+
+12
+00:01:00,570 --> 00:01:07,140
+Eu não estou colocando esse desafio o projeto como sendo algo como sendo um desafio para você pausar
+
+13
+00:01:07,140 --> 00:01:10,400
+o vídeo e tentar fazer o projeto inteiro do zero.
+
+14
+00:01:10,410 --> 00:01:15,780
+é um projeto que requer um determinado tempo para que você começa a mapear e entender um pouco de como
+
+15
+00:01:15,780 --> 00:01:21,240
+você pode mapear isso para o mundo real então não quero lançar isso como desafio mas eu quero.
+
+16
+00:01:21,240 --> 00:01:27,000
+Se você quiser pausar o vídeo alguns momentos pra tentar imaginar como você iria mapear esse projeto
+
+17
+00:01:27,010 --> 00:01:33,480
+acho que é algo bastante interessante a gente pode nessa aula como sendo a primeira aula do nosso projeto
+
+18
+00:01:33,480 --> 00:01:40,640
+já criar os arquivos criar aquilo que a gente entende que pode ser algo útil para a gente tá fazendo
+
+19
+00:01:40,640 --> 00:01:41,590
+mal ao sistema.
+
+20
+00:01:41,610 --> 00:01:46,750
+é difícil você criar todos os arquivos da sua aplicação e gays porque não é assim que funciona.
+
+21
+00:01:47,100 --> 00:01:54,780
+Mas aqui olhando pra esse jogo eu percebo algumas coisas muito claras primeiro que você tem o campinho
+
+22
+00:01:54,900 --> 00:02:02,040
+certo ou você pode dar um nome que você quiser eu vou chamar de campo e eu vou chamar isso tudo certo
+
+23
+00:02:02,130 --> 00:02:04,730
+que é o conjunto dos campos de tabuleiro.
+
+24
+00:02:04,770 --> 00:02:11,100
+Então o campo claramente para mim ele tem uma linha e uma coluna se você vai chamar essa primeira linha
+
+25
+00:02:11,100 --> 00:02:17,550
+de linha 0 ou Linha 1 tanto faz questão de nomenclatura interna mas imagina que você tem vários campos
+
+26
+00:02:17,550 --> 00:02:19,100
+dentro de uma linha.
+
+27
+00:02:19,230 --> 00:02:22,980
+Você tem uma segunda linha e uma terceira linha uma quarta linha.
+
+28
+00:02:22,980 --> 00:02:28,710
+Você tem várias linhas e colunas dentro de um tabuleiro vários campos esse campo pode estar minado ou
+
+29
+00:02:28,710 --> 00:02:29,590
+não.
+
+30
+00:02:29,640 --> 00:02:34,800
+Esse campo pode estar aberto ou não esse campo pode estar marcado ou não.
+
+31
+00:02:34,800 --> 00:02:40,420
+Então tem alguns atributos que você consegue ver abaixo o medo que você vai jogar ou clicar aqui.
+
+32
+00:02:40,920 --> 00:02:44,020
+é interessante quando cliquei foi o que aconteceu.
+
+33
+00:02:44,040 --> 00:02:48,780
+Ele foi expandindo todos os campos que não tinham perigo.
+
+34
+00:02:48,780 --> 00:02:50,520
+Por exemplo eu cliquei nesse.
+
+35
+00:02:50,970 --> 00:02:57,060
+Automaticamente ele abriu esse e ele viu que ao redor desse campo aqui não tem nenhum perigo ele pode
+
+36
+00:02:57,060 --> 00:03:03,870
+continuar abrindo esse aqui ele abriu e foi expandindo ou seja de forma recursiva gravemente ou seja
+
+37
+00:03:03,870 --> 00:03:10,060
+o metro abri chamou assim mesmo várias vezes até ele chegar em momentos que ao redor tinham Minas.
+
+38
+00:03:10,080 --> 00:03:17,570
+Então eu sei que eu tenho um número um ao redor dessa mina e que só tem um quadrado digamos assim escondido.
+
+39
+00:03:17,580 --> 00:03:21,420
+Significa que obrigatoriamente esse quadradinho aqui tem uma mina.
+
+40
+00:03:21,450 --> 00:03:23,010
+Se eu aplicar vai explodir.
+
+41
+00:03:23,190 --> 00:03:28,570
+Mas eu posso provavelmente clicar com o botão direito e marcar dizendo que isso é um campo perigoso.
+
+42
+00:03:29,040 --> 00:03:34,170
+Então aqui eu já deixou claro que eu não quero abrir essa mina porque eu sei que vai ter uma bomba a
+
+43
+00:03:34,170 --> 00:03:39,570
+mesma coisa que eu sei aqui nessa mina marcada com azul dizendo que tem uma mina ao redor desse campo
+
+44
+00:03:39,570 --> 00:03:41,480
+e só tem uma mina disponível.
+
+45
+00:03:41,550 --> 00:03:43,360
+Significa que isso aqui é uma bomba.
+
+46
+00:03:43,410 --> 00:03:48,960
+Da mesma forma que aqui no verdinho nesse campo está marcado com dois tem duas duas minas ao redor desse
+
+47
+00:03:48,960 --> 00:03:49,610
+campo.
+
+48
+00:03:49,980 --> 00:03:57,090
+E como só tem dois dois campos fechados significa que também eu um campo do mesmo jeito aqui com três
+
+49
+00:03:57,120 --> 00:04:03,870
+bem melhor ao redor dele só tem três campinhos fechados está dizendo que os três estão abertos então
+
+50
+00:04:03,870 --> 00:04:09,780
+posso aqui marcar como sendo também uma mina e esse aqui está dizendo que só tem dois e esses dois já
+
+51
+00:04:09,780 --> 00:04:15,150
+estão marcados em vídeo aqui e não tenho mina nem assim eu vou marcando aquilo que eu considero como
+
+52
+00:04:15,150 --> 00:04:20,730
+sendo perigoso e se eventualmente eu clicar em algum canto que eu sei que tem mina ele vai explorar
+
+53
+00:04:20,730 --> 00:04:26,310
+e mostrar para a gente todas as minas então basicamente esse é o nosso negócio que a gente tem linhas
+
+54
+00:04:26,310 --> 00:04:31,950
+e colunas dentro de um tabuleiro você tem a mina em cima disso a gente vai aplicar as nossas lógicas
+
+55
+00:04:31,950 --> 00:04:37,680
+aqui eu posso ver aqui de cara dentro de modelo 3 vamos ter uma clássico eu vou chamar de campo.
+
+56
+00:04:38,160 --> 00:04:44,430
+Então colocando aqui a classe campo e vou ter também uma classe chamada tabuleiro eu não vou avançar
+
+57
+00:04:44,430 --> 00:04:52,500
+muito no nosso digamos assim tá bom goleiro eu não vou entrar muito em outras classes para a gente descobrindo
+
+58
+00:04:52,500 --> 00:04:58,740
+isso com o tempo certo mas a gente vai focar na próxima aula no campo a gente vai definir os seus atributos
+
+59
+00:04:59,020 --> 00:05:07,290
+como os seus comportamentos e se você quiser entrar aqui eu peguei o primeiro site que tinha campo minado
+
+60
+00:05:07,340 --> 00:05:13,770
+em inglês e mais sei até que mais sei lá online ponto com isso você tem um jogo no campo minado à sua
+
+61
+00:05:13,770 --> 00:05:18,480
+disposição para você ter está a entender mais ou menos com seu negócio entender o negócio entender a
+
+62
+00:05:18,480 --> 00:05:19,680
+funcionalidade do jogo.
+
+63
+00:05:19,680 --> 00:05:25,500
+Você começa a perceber determinados comportamentos que precisam estar na nossa versão aqui para que
+
+64
+00:05:25,500 --> 00:05:27,940
+ele possa mapear exatamente essa lógica aqui.
+
+65
+00:05:28,240 --> 00:05:33,980
+Então você vai ter o campinho ou você vai ter um campo que está marcado um campo que está aberto.
+
+66
+00:05:33,990 --> 00:05:39,000
+Quem não tem nenhuma mina você tem um conceito de vizinhança né para aqui se a vizinhança ao redor estiver
+
+67
+00:05:39,000 --> 00:05:44,610
+seguro você pode ir expandindo e abrindo mais o jogo e coisas do tipo e então ficar aqui na próxima
+
+68
+00:05:44,610 --> 00:05:45,290
+aula.
+
+69
+00:05:45,330 --> 00:05:50,870
+Nós vamos focar na nossa primeira classe de modelo que é a classe campo definiu seus atributos.
+
+70
+00:05:50,870 --> 00:05:56,980
+Se você quiser pensar um pouquinho quais são os atributos que tipo de comportamentos você vai ter.
+
+71
+00:05:56,980 --> 00:06:02,190
+Pensa na alta no papel e vai junto comigo pra ver se aquilo que você pensou é exatamente aquilo que
+
+72
+00:06:02,190 --> 00:06:04,230
+eu vou fazer aqui nao é aproximá la.

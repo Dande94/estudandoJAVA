@@ -1,0 +1,739 @@
+1
+00:00:00,340 --> 00:00:04,460
+Pessoal essa é a primeira vez que estou gravando em pé aqui no estúdio.
+
+2
+00:00:05,220 --> 00:00:11,490
+Estou com dor nas costas aqui sentar muito na cadeira e coloquei para gravar que impera a justiça mesmo.
+
+3
+00:00:11,490 --> 00:00:17,550
+Então vamos lá só mostra rapidamente uma teoria de sete para a gente já entrar no exercício só para
+
+4
+00:00:17,640 --> 00:00:25,290
+recapitular o 7 é um conjunto em cima do set você consegue fazer operações de conjunto por exemplo união
+
+5
+00:00:25,290 --> 00:00:28,620
+entre dois conjuntos a interseção entre dois conjuntos.
+
+6
+00:00:28,620 --> 00:00:34,290
+Você vai ter algumas operações desse tipo e você pode trabalhar o conjunto de forma de alguns dados
+
+7
+00:00:34,380 --> 00:00:36,180
+heterogêneo como é o caso aqui.
+
+8
+00:00:36,240 --> 00:00:38,630
+Você pode ter múltiplos alinhamentos.
+
+9
+00:00:38,640 --> 00:00:44,790
+Nós vamos fazer nessa aula um conjunto heterogêneo até colocar uma carinha triste pra mostrar pra você.
+
+10
+00:00:44,790 --> 00:00:49,140
+Essa não é a forma ideal porque você trabalhar dentro de um conjunto.
+
+11
+00:00:49,320 --> 00:00:55,560
+Muitos tipos diferentes acaba trazendo mais desorganização do que a organização ela o mais eu preciso
+
+12
+00:00:55,560 --> 00:01:03,630
+trabalhar no meu algorítimo com clientes com fornecedores e com esse lá com produtos.
+
+13
+00:01:03,630 --> 00:01:05,090
+Eu não posso misturar não.
+
+14
+00:01:05,130 --> 00:01:13,140
+Você tem um conjunto dos clientes um conjunto dos fornecedores uma lista lá dos produtos então você
+
+15
+00:01:13,140 --> 00:01:17,730
+pode criar mais estrutura separados e no momento certo você faz as interações entre eles está bom.
+
+16
+00:01:18,210 --> 00:01:23,190
+Então o ideal é trabalhar de forma homogênea que eu vou mostrar nesse exemplo mas um ou outro vocês
+
+17
+00:01:23,190 --> 00:01:28,570
+vão perceber que o fato de estar trabalhando de forma heterogênea vai gerar algumas advertências.
+
+18
+00:01:28,570 --> 00:01:31,340
+Isso será inevitável porque eu já vai ficar 19.
+
+19
+00:01:31,350 --> 00:01:37,080
+Não use dessa forma usa de forma heterogênea o uso de forma homogênea que é melhor.
+
+20
+00:01:37,080 --> 00:01:38,010
+Então tá bom.
+
+21
+00:01:38,100 --> 00:01:40,670
+Outra questão importante não aceita repetição.
+
+22
+00:01:40,770 --> 00:01:43,160
+Ou seja não aceito objetos duplicados.
+
+23
+00:01:43,170 --> 00:01:48,180
+Se você colocar objetos que tenham o mesmo eu mesmo escolho você vai ter problema.
+
+24
+00:01:48,300 --> 00:01:50,430
+Pode ser ordenado ou não.
+
+25
+00:01:50,430 --> 00:01:52,960
+Existem algumas formas de você ordenar um sete.
+
+26
+00:01:53,270 --> 00:01:58,440
+Mas a primeira metade vai trabalhar com sete não ordenado e não é uma estrutura indexado.
+
+27
+00:01:58,450 --> 00:02:03,910
+E nós vamos trabalhar especificamente nesse exemplo com x 7 x 7.
+
+28
+00:02:03,930 --> 00:02:07,700
+é um dos tipos possíveis que você tem de ter conjunto dentro do Java.
+
+29
+00:02:07,710 --> 00:02:15,330
+Você tem o 7 como sendo 1 a gente vai entrar um pouco mais detalhes na hora e uma interface não é uma
+
+30
+00:02:15,330 --> 00:02:21,480
+classe certa ele define as regras quais são os métodos que vai ter dentro de um site existem várias
+
+31
+00:02:22,050 --> 00:02:23,800
+versões diferentes do site.
+
+32
+00:02:23,800 --> 00:02:30,440
+Uma delas é o Rage 7 que é o mais comum e nós vamos usar no nosso exemplo então vou criar uma nova classe
+
+33
+00:02:30,710 --> 00:02:34,550
+e aproveitar também para criar uma nova paixão um novo pacote.
+
+34
+00:02:34,700 --> 00:02:42,290
+O nome da classe será o ataque ao conjunto aqui bagunçado que a gente vai colocar várias coisas dentro
+
+35
+00:02:42,300 --> 00:02:49,490
+desse conjunto e vou colocar o nome do pacote para serem relações Tá certo então Finish.
+
+36
+00:02:50,050 --> 00:02:53,610
+E aqui dentro vou criar o meu no.
+
+37
+00:02:53,760 --> 00:02:56,580
+Aqui nós vamos definir um rancho em sete.
+
+38
+00:02:56,630 --> 00:03:02,450
+Se você colocar resto escreverei você vai ver Rashid sete está dentro de Java o último ele por padrão
+
+39
+00:03:02,460 --> 00:03:07,380
+vai colocar esse pai e o menor que é maior que a letra dentro.
+
+40
+00:03:07,500 --> 00:03:10,480
+A gente vai trabalhar com esse conceito um pouco mais na frente.
+
+41
+00:03:10,500 --> 00:03:15,450
+Na verdade um pouco mais à frente na próxima aula e vou falar sobre isso mas por enquanto eu vou deixar
+
+42
+00:03:15,600 --> 00:03:17,160
+o set sem nada.
+
+43
+00:03:17,160 --> 00:03:25,740
+Vou chamar aqui de conjunto recebe mil Rage 7 também vou tirar esse símbolo que deixa apenas o Rage
+
+44
+00:03:25,740 --> 00:03:27,590
+7 Ponto e vírgula.
+
+45
+00:03:27,630 --> 00:03:33,000
+Você vai perceber que ele vai sim conseguir criar o nosso acesso ao que ele vai ficar com algumas advertências
+
+46
+00:03:33,000 --> 00:03:33,450
+aqui.
+
+47
+00:03:33,540 --> 00:03:37,020
+A gente não vai ligar para essas advertências e depois a gente vai tratar elas.
+
+48
+00:03:37,140 --> 00:03:42,590
+No próximo exemplo então eu vou colocar aquele conjunto primeiro método é um método adicional.
+
+49
+00:03:42,720 --> 00:03:47,190
+Nesse caso eu tenho a possibilidade de misturar várias coisas.
+
+50
+00:03:47,190 --> 00:03:56,250
+Por exemplo um ponto dois colocando aqui ponto e vírgula conjunto certo adicionar vou colocar aqui para
+
+51
+00:03:56,400 --> 00:03:58,400
+adicionar um valor thru.
+
+52
+00:03:58,800 --> 00:04:01,360
+Vou colocar aqui um conjunto.
+
+53
+00:04:01,480 --> 00:04:02,420
+Ponto.
+
+54
+00:04:02,510 --> 00:04:08,400
+Adicionar o app irá adicionar por exemplo aqui um um em teste bingo.
+
+55
+00:04:08,610 --> 00:04:11,670
+Então já adicionem um bullying já chamei o 30.
+
+56
+00:04:12,170 --> 00:04:20,370
+Vou adicionar aqui um valor inteiro adicionado calma bagunçou nosso conjunto e vou adicionar por exemplo
+
+57
+00:04:20,370 --> 00:04:24,370
+um caractere equipamento chamado a letra X.
+
+58
+00:04:24,570 --> 00:04:28,950
+Então o que nós temos aqui é um conjunto com várias das bagunçada.
+
+59
+00:04:28,950 --> 00:04:29,940
+Você pode pintá la.
+
+60
+00:04:29,970 --> 00:04:34,560
+Você disse que a Rey não suporta tipos primitivos né.
+
+61
+00:04:34,620 --> 00:04:37,050
+Um anão Collection nos portos primitivos.
+
+62
+00:04:37,140 --> 00:04:38,340
+é verdade.
+
+63
+00:04:38,340 --> 00:04:45,810
+O que vai acontecer aqui é que automaticamente ele vai converter esse um ponto 2 do tipo bolha primitivo
+
+64
+00:04:45,820 --> 00:04:53,490
+ele vai fazer o boné não davam o dado ele vai te convertesse algo pra uma classe do tipo da série então
+
+65
+00:04:53,490 --> 00:05:02,550
+ele faz essa conversão automática pra gente a mesma coisa que ele vai converter Bu para a cúpula que
+
+66
+00:05:02,700 --> 00:05:11,530
+vai acontecer a áustria não precisa porque já é objeto aqui ele vai converter Inhotim pra muita gente.
+
+67
+00:05:11,660 --> 00:05:15,270
+E finalmente aqui ele vai converter o chá o caracterizar.
+
+68
+00:05:15,650 --> 00:05:21,890
+Só vou deixar só um comentário para não ficar muito poluída que nosso código fato é que há essa conversão
+
+69
+00:05:21,890 --> 00:05:23,180
+automática pra gente.
+
+70
+00:05:23,180 --> 00:05:30,890
+Próximo passo mas se a gente exibir a quantidade de elementos de um conjunto ou seja operação mais básica
+
+71
+00:05:30,890 --> 00:05:34,250
+seria adicionar o tamanho excluir.
+
+72
+00:05:34,270 --> 00:05:41,290
+Então vou colocar aqui por exemplo ao conjunto não tem o ponto lá não tem essa possibilidade continua
+
+73
+00:05:41,300 --> 00:05:41,770
+rei.
+
+74
+00:05:41,780 --> 00:05:43,430
+Também tem mais ninguém.
+
+75
+00:05:43,430 --> 00:05:49,900
+Nós temos aqui outros sites aqui que nós vamos saber o tamanho do nosso conjunto então vou colocar aqui
+
+76
+00:05:50,150 --> 00:06:00,960
+maximizando aqui troca aqui tem tamanho concatenar com sites de todo o tamanho 5 elementos altamente
+
+77
+00:06:00,950 --> 00:06:03,290
+quem colocou aqui 1 2 3 4 5.
+
+78
+00:06:03,430 --> 00:06:08,620
+O Excel adicionar elementos repetidos por exemplo ao conjunto.
+
+79
+00:06:08,750 --> 00:06:09,940
+Ponto.
+
+80
+00:06:10,280 --> 00:06:16,620
+Adicionar o valor do teste à pergunta Qual será.
+
+81
+00:06:16,660 --> 00:06:17,510
+Ou duplicar essa linha.
+
+82
+00:06:17,510 --> 00:06:19,870
+Qual será o tamanho do nosso conjunto.
+
+83
+00:06:19,870 --> 00:06:26,720
+Depois de adicionar o teste Você vai ver que o tamanho será 6 elementos é que será 6 se não pode ter
+
+84
+00:06:26,720 --> 00:06:29,210
+número repetido não pode ter valor repetido.
+
+85
+00:06:29,240 --> 00:06:31,700
+Nesse caso não houve repetição ok.
+
+86
+00:06:31,820 --> 00:06:36,860
+Eu tenho um teste com P maiúsculo teste com t minúsculo são duas coisas diferentes.
+
+87
+00:06:36,860 --> 00:06:42,890
+Se eu colocar o teste com P maiúsculo você vai ver que agora ele vai continuar com cinco elementos porque
+
+88
+00:06:42,890 --> 00:06:44,630
+ele não aceita repetição.
+
+89
+00:06:44,630 --> 00:06:51,560
+Se eu tentar inserir a letra X por exemplo ele continuará com cinco elementos porque não aceita repetição.
+
+90
+00:06:51,560 --> 00:06:57,780
+O próximo passo vai ser a gente remover elementos de dentro do nosso conjunto.
+
+91
+00:06:57,800 --> 00:07:05,270
+Então quando você remove elemento do conjunto então por exemplo um conjunto ponto removido ele vai retornar
+
+92
+00:07:05,660 --> 00:07:07,370
+verdadeiro falso.
+
+93
+00:07:07,370 --> 00:07:12,800
+Se ele não conseguir remover nada ele retorna falso se ele remover alguma coisa retorna verdadeiro.
+
+94
+00:07:12,980 --> 00:07:18,490
+Se eu por exemplo tentar remover as string teste você vai ver que o resultado será falso por quê.
+
+95
+00:07:18,520 --> 00:07:21,160
+Porque não existe teste dentro do conjunto.
+
+96
+00:07:21,160 --> 00:07:23,080
+Por isso ele não vai conseguir remover.
+
+97
+00:07:23,140 --> 00:07:29,040
+Já se eu tentar remover a string teste com P maiúsculo o resultado será verdadeiro porque o casting
+
+98
+00:07:29,060 --> 00:07:35,990
+teste com P maiúsculo está presente e ele vai remover essa histria da mesma forma que se eu tentar remover
+
+99
+00:07:36,140 --> 00:07:46,400
+Aqui Daqui e colocar a letra X ele vai remover essa letra porque algo que está presente dentro do conjunto.
+
+100
+00:07:46,400 --> 00:07:54,110
+Depois disso se eu vou aplicar aqui o tamanho você vai ver que o tamanho que era 6 elementos ou 5 não
+
+101
+00:07:54,110 --> 00:07:58,150
+foi adicionado nenhum depois cinco elementos eu removido 2.
+
+102
+00:07:58,200 --> 00:08:04,430
+Agora o estado do nosso conjunto será 3 e o outro método também muito interessante que é muito usado
+
+103
+00:08:04,430 --> 00:08:05,530
+e o que tens.
+
+104
+00:08:05,690 --> 00:08:13,040
+Então se a gente colocar aqui algum sistema de primeira linha em conjunto contou com itens e eu vou
+
+105
+00:08:13,040 --> 00:08:17,810
+passar por exemplo se ele contém a letra X o Estado será falso.
+
+106
+00:08:17,860 --> 00:08:18,140
+Quê.
+
+107
+00:08:18,150 --> 00:08:26,570
+Porque eu já ouvi a letra X que valia 25 acertando um resultado falso duplicado que compense o valor
+
+108
+00:08:27,340 --> 00:08:34,310
+por exemplo executando o Estado outro bi tens o valor falso.
+
+109
+00:08:34,610 --> 00:08:42,340
+O resultado será falso e contém o valor true Estado será troll porque nós temos aqui o outro é falso.
+
+110
+00:08:42,360 --> 00:08:47,390
+Então contentes ele serve para você verificar se um determinado alimento está ou não contido dentro
+
+111
+00:08:47,390 --> 00:08:48,590
+do conjunto.
+
+112
+00:08:48,590 --> 00:08:57,200
+Eu criei aqui ao craque em um site novo copiar da linha 9 e jogar aqui embaixo vou fazer uma alteração
+
+113
+00:08:57,200 --> 00:09:04,640
+primeiro o nome da variável mas esse conjunto chamado de números e números é possível depois eu vou
+
+114
+00:09:04,640 --> 00:09:10,090
+falar um pouco mais sobre isso eu colocar desse lado agora tem que importar né.
+
+115
+00:09:10,120 --> 00:09:16,340
+é o 7 que está dentro de Java o último e note que todos os outros com exceção do primeiro que é 1 e
+
+116
+00:09:16,700 --> 00:09:23,070
+todos os outros são do tipo C certo a verde tipo C já o 7 e o roxo com a letra II.
+
+117
+00:09:23,240 --> 00:09:27,570
+Isso significa alguma coisa interessante que nós vamos trabalhar mais pra frente.
+
+118
+00:09:27,560 --> 00:09:35,180
+Isso aqui também é uma sentença válida em Java né você definir uma variável tipo 7 e atribuir um objeto
+
+119
+00:09:35,480 --> 00:09:42,050
+do tipo RX 7 onde vai falar sobre esse conceito no capítulo Jó então não vou focar muito mais aqui também
+
+120
+00:09:42,160 --> 00:09:48,350
+é algo válido pode fazer coisas enfim pode continuar se você colocar um site desse lado não vai fazer
+
+121
+00:09:48,350 --> 00:09:53,570
+nenhuma diferença do ponto de vista de funcionalidade não vai ter nenhum problema mas aqui também só
+
+122
+00:09:53,570 --> 00:09:58,110
+pra deixar claro que é possível e mais na frente eu vou explicar o que significa isso.
+
+123
+00:09:58,110 --> 00:10:05,100
+Esse conceito está por trás nessa variação citei aqui de um lado um valor aqui do lado citei o time
+
+124
+00:10:05,190 --> 00:10:07,020
+que tem um 7 ou tem mais 7.
+
+125
+00:10:07,410 --> 00:10:12,570
+Existe um princípio de orientação a objeto que está acontecendo aqui e depois ao comentar um pouco mais
+
+126
+00:10:12,950 --> 00:10:18,000
+você na verdade não só um princípio mas de um princípio eu vou comentar vocês mais na frente.
+
+127
+00:10:18,060 --> 00:10:24,630
+Então aqui vou pagar aqui meus conto adicionar vou colocar aqui um número ou duplicar mais duas vezes
+
+128
+00:10:24,630 --> 00:10:27,620
+colocar o número dois e o número 3.
+
+129
+00:10:27,660 --> 00:10:33,150
+Eu falei pra vocês que você tem apenas a possibilidade de fazer a União e também fazer interseção.
+
+130
+00:10:33,150 --> 00:10:36,900
+Vou mostrar a vocês em cima desse conjunto que nós criamos.
+
+131
+00:10:37,290 --> 00:10:44,430
+Antes disso eu vou exibir na consola o valor de um número só pra você ver que nesse caso a Collection
+
+132
+00:10:44,430 --> 00:10:51,180
+já implementa a forma de mostrar isso como um monstrinho tanto Nunes como seu duplicar isso aqui e mostrar
+
+133
+00:10:51,180 --> 00:10:59,440
+o valor de conjunto com o conjunto executado.
+
+134
+00:10:59,540 --> 00:11:00,890
+Você vai ver que ele mostra.
+
+135
+00:11:00,990 --> 00:11:08,980
+Sobrou aqui um ponto dois um e outro que são os três valores esse outro aqui nós temos os valores inteiros.
+
+136
+00:11:09,180 --> 00:11:16,610
+Nesse caso pra fazer fazer a união entre os conjuntos eu posso fazer por exemplo conjunto.
+
+137
+00:11:16,780 --> 00:11:22,360
+Ponto adicionar ou e aqui eu passo.
+
+138
+00:11:22,730 --> 00:11:30,110
+Ou seja eu acabei de fazer uma união peguei tudo o que tem uso e joguei dentro de conjunto de tal forma
+
+139
+00:11:30,110 --> 00:11:32,290
+que agora o resultado é a união dos dois.
+
+140
+00:11:32,310 --> 00:11:38,420
+Isso alterou o conjunto certo se você fizer isso ele vai alterar o conteúdo de conjunto de tal forma
+
+141
+00:11:38,420 --> 00:11:41,010
+que será exibida aqui com valor de conjunto.
+
+142
+00:11:41,050 --> 00:11:49,850
+Ele vai perceber que agora nós temos a união seja em um ponto 2 2 3 e o outro é hora que está aqui não
+
+143
+00:11:49,850 --> 00:11:51,930
+reflete a ótica que foi incluído.
+
+144
+00:11:52,280 --> 00:11:57,650
+Embora um ponto 2 bateu depois de incluir o mais outro está aparecendo por último set então ele não
+
+145
+00:11:57,650 --> 00:12:02,780
+mantém minha ordem de inclusão não tem uma ordem para que você possa estar presente tentando acessar
+
+146
+00:12:03,200 --> 00:12:15,040
+os elementos a partir de determinada ordem certo aqui seria a união de qualquer união entre dois conjuntos.
+
+147
+00:12:15,120 --> 00:12:17,990
+E agora eu vou comentar essa nível fazem interseção.
+
+148
+00:12:18,380 --> 00:12:20,050
+Então boto um conjunto.
+
+149
+00:12:20,110 --> 00:12:21,480
+Ponto item.
+
+150
+00:12:22,190 --> 00:12:27,020
+Ou seja ele vai reter apenas aquilo que está no outro conjunto que você passar que é exatamente o conceito
+
+151
+00:12:27,020 --> 00:12:27,900
+de interseção.
+
+152
+00:12:28,010 --> 00:12:34,430
+Então somente aquilo que está dentro desse conjunto será retido no conjunto de tal forma que o resultado
+
+153
+00:12:34,430 --> 00:12:43,790
+final vai ser apenas um único valor em comum desses dois conjuntos têm 1 2 3 2 e 3 ou seja no final
+
+154
+00:12:44,150 --> 00:12:46,040
+o conjunto fica apenas com um valor.
+
+155
+00:12:46,220 --> 00:12:48,770
+Nesse caso o seu olhar o tamanho você vai ver que o tamanho.
+
+156
+00:12:49,340 --> 00:12:57,040
+E finalmente eu posso chamar na verdade vamos colocar o System em algum conjunto ponto que liga ele
+
+157
+00:12:57,060 --> 00:13:02,850
+pra limpar e no final colocar no valor de conjunto você vai ver que o resultado é vazio.
+
+158
+00:13:02,990 --> 00:13:08,200
+Então alguns desses métodos não são métodos específicos do conjunto.
+
+159
+00:13:08,210 --> 00:13:14,480
+Alguns esses métodos estão presentes também na lista de sites o que queria adicionar certo a gente vai
+
+160
+00:13:14,480 --> 00:13:17,810
+ver também isso bem da lista do conceito da lista.
+
+161
+00:13:17,810 --> 00:13:20,780
+A lista tem alguns metros adicionais como pagar pelo Haiti.
+
+162
+00:13:20,780 --> 00:13:25,460
+Também é possível que não é mais o fato é que a gente viu muitos metros interessantes eu vou criar um
+
+163
+00:13:25,470 --> 00:13:26,490
+outro exercício.
+
+164
+00:13:26,510 --> 00:13:33,440
+Ainda falando sobre conjuntos só para a gente vê o conjunto de dados homogêneos nesse caso a gente misturou
+
+165
+00:13:33,440 --> 00:13:37,790
+os dados de aproximá mas vamos ver conjuntos de dados homogêneos.
+
+166
+00:13:37,810 --> 00:13:45,320
+Se a gente finalizar só pra gente não manter esses esses essas advertências aparecem no nosso projeto.
+
+167
+00:13:45,350 --> 00:13:52,130
+Se você colocar o cursor do mouse de algum dessas advertências no caso do Linux e do Windows você pode
+
+168
+00:13:52,130 --> 00:13:53,630
+usar o Control.
+
+169
+00:13:53,690 --> 00:14:00,350
+No meu caso do Mac eu vou usá lo como John e usando como ele vai sugerir algumas coisas.
+
+170
+00:14:00,350 --> 00:14:09,320
+Por exemplo eu posso adicionar um super Warning Alt IPS jogo em relação ao método Man eu posso fazer
+
+171
+00:14:09,320 --> 00:14:11,260
+isso em cima de conjunto.
+
+172
+00:14:11,330 --> 00:14:16,280
+Vou ter que fazer isso em todos os cantos que eventualmente precisem colocar advertência mas eu vou
+
+173
+00:14:16,280 --> 00:14:23,600
+colocar um super worm associado ao homem essa ele vai colocar essa observação que nessa notação é melhor
+
+174
+00:14:23,600 --> 00:14:28,530
+dizendo de tal forma que para esse erro especificamente ele vai parar de reclamar.
+
+175
+00:14:28,550 --> 00:14:34,700
+Aqui eu tenho uma outra advertência eu baixa qualquer um como de um certo e ele vai perguntar se eu
+
+176
+00:14:34,700 --> 00:14:41,450
+quero fazer um surpreso olhe pra um valor em cheque relacionada ao meio eu vou colocar que sim ele vai
+
+177
+00:14:41,450 --> 00:14:47,980
+colocá lo em outra moto supra as ordens de tal forma que nosso código passa a não ficar com o One.
+
+178
+00:14:48,050 --> 00:14:54,950
+Eu não quero resolver o One nessa aula eu vou usar essa estratégia aqui pra ele silenciar digamos assim
+
+179
+00:14:54,950 --> 00:15:01,220
+as advertências porque eu quero que realmente a gente use nesse exemplo um conjunto bagunçado ou seja
+
+180
+00:15:01,220 --> 00:15:07,790
+um conjunto com dados heterogêneos mas na próxima aula já vai usar as nossas coleções com dados homogêneos
+
+181
+00:15:08,120 --> 00:15:13,130
+usando um conceito chamado genérico sei lá nós já vamos fazer um código que não vai gerar advertência
+
+182
+00:15:13,130 --> 00:15:19,400
+então vou apelar nesse momento para o Supremo olhe porque eu quero realmente que o código dessa forma
+
+183
+00:15:19,400 --> 00:15:25,850
+para você entender essa possibilidade trabalhar assim é possível trabalhar também na lista é possível
+
+184
+00:15:25,970 --> 00:15:32,540
+trabalhar com dados misturados também no Mapping mas daqui pra frente eu vou trabalhar usando dados
+
+185
+00:15:32,630 --> 00:15:36,650
+homogêneos que eu acho que é muito mais interessante na próxima a gente continua até lá.

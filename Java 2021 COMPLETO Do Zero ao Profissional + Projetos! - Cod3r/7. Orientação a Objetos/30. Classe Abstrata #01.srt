@@ -1,0 +1,379 @@
+1
+00:00:00,210 --> 00:00:06,990
+Pessoal outro conceito importante é com relação orientação objeto e você tem um conceito chamado de
+
+2
+00:00:06,990 --> 00:00:08,640
+classe abstrata.
+
+3
+00:00:08,640 --> 00:00:10,530
+Então o aqui o clássico
+
+4
+00:00:14,330 --> 00:00:22,970
+abstrata o que seria uma classe abstrata a gente viu até agora dois conceitos nós vimos um conceito
+
+5
+00:00:22,970 --> 00:00:29,930
+na aula passada é um conceito que a gente tá usando no curso todo nós temos um lado desse dessa linha
+
+6
+00:00:29,930 --> 00:00:31,770
+que irá explicar o que é essa linha.
+
+7
+00:00:31,850 --> 00:00:39,440
+Nós temos a classe concreta um cocar azul lá sim concreta
+
+8
+00:00:42,300 --> 00:00:48,100
+concreta e nós temos na outra ponta coloca o vermelho.
+
+9
+00:00:48,110 --> 00:00:52,440
+A interface antes de mais nada.
+
+10
+00:00:52,440 --> 00:01:00,600
+Todos esses conceitos são extraídos do mundo real então por exemplo eu tenho um conceito abstrato chamado
+
+11
+00:01:00,600 --> 00:01:05,030
+mouse certo o computador tem um mouse que é um periférico do computador.
+
+12
+00:01:05,030 --> 00:01:07,220
+Existe esse conceito abstrato.
+
+13
+00:01:07,270 --> 00:01:12,780
+Eu tenho um conceito abstrato eu tenho um conceito concreto que é esse mal especificamente que tem algum
+
+14
+00:01:12,780 --> 00:01:19,200
+tipo de Magic Mouse ela tem uma especificação tem um modelo que tem uma marca ou seja isso aqui é um
+
+15
+00:01:19,200 --> 00:01:27,570
+objeto concreto embora esse objeto concreto ele atenda a requisitos digamos assim abstratos seja o mouse
+
+16
+00:01:27,570 --> 00:01:32,510
+ele tem um determinado comportamento ele pode ter alguns características sempre lutou.
+
+17
+00:01:32,540 --> 00:01:37,980
+Se ele tem um dragão para colocá la ou a si mesmo para colocar ou não se ele tem fim ou não mas ele
+
+18
+00:01:37,980 --> 00:01:41,700
+segue um determinado padrão um certo conceito abstrato o mouse.
+
+19
+00:01:41,700 --> 00:01:43,520
+Você tem uns mouses reais.
+
+20
+00:01:43,680 --> 00:01:50,580
+Da mesma forma que você tem um conceito abstrato célula ai você tem celulares concretos com o Samsung
+
+21
+00:01:50,580 --> 00:01:52,300
+como um iPhone.
+
+22
+00:01:52,320 --> 00:01:58,680
+Você tem a possibilidade de ter conceitos concretos isso também faz parte do mundo real certo então
+
+23
+00:01:58,740 --> 00:02:05,690
+uma classe concreta e uma classe no qual todos os métodos estão definidos.
+
+24
+00:02:05,700 --> 00:02:14,880
+Ou seja se eu colocar aqui ou 100% dos métodos estão implementados certo ou seja todos os métodos têm
+
+25
+00:02:14,880 --> 00:02:16,040
+corpo.
+
+26
+00:02:16,050 --> 00:02:18,220
+Isso significa uma classe concreta.
+
+27
+00:02:18,240 --> 00:02:24,630
+Até agora todas as nossas classes mais definem os métodos e os métodos têm com você lá um par de chaves
+
+28
+00:02:24,630 --> 00:02:29,970
+e dentro você coloca a implementação se o método tem que retornar ao extremo que obrigatoriamente você
+
+29
+00:02:29,970 --> 00:02:36,150
+tem então Brittany retorna nos trilhos o metro retorna ao blog e você não precisa ter o telefone e assim
+
+30
+00:02:36,150 --> 00:02:38,690
+vai mas ele tem corpo tem uma implementação.
+
+31
+00:02:38,730 --> 00:02:45,540
+No outro extremo nós temos a interface ou a interface é uma estrutura que tem os métodos mas esses métodos
+
+32
+00:02:45,540 --> 00:02:48,660
+não têm corpo tem apenas a definição do método.
+
+33
+00:02:48,660 --> 00:02:50,270
+Qual é o tipo de retorno.
+
+34
+00:02:50,310 --> 00:02:56,610
+Qual o nome do método e quais são os parâmetros que precisam ser passados mais você no nível da interface
+
+35
+00:02:56,620 --> 00:03:00,000
+não sabe exatamente como implementar aquele método.
+
+36
+00:03:00,000 --> 00:03:05,850
+E aí toda a classe que implementam em determinada interface precisa definir esses métodos.
+
+37
+00:03:05,880 --> 00:03:13,600
+Ou seja no outro extremo a interface tem zero por cento dos Métodos implementados.
+
+38
+00:03:13,620 --> 00:03:19,020
+Isso acontece existe uma exceção que eu posso comentar depois com relação à interface.
+
+39
+00:03:19,110 --> 00:03:23,310
+E o que a gente chama de método foi o método padrão.
+
+40
+00:03:23,320 --> 00:03:28,530
+Eu vou comentar em outra aula para entender um pouquinho sobre isso mas vamos por enquanto pensar nesse
+
+41
+00:03:28,530 --> 00:03:34,320
+contexto mais é possível que dentro interface você defina uma implementação padrão para um determinado
+
+42
+00:03:34,320 --> 00:03:40,200
+método mas a priori a gente vai trabalhar com esse conceito de zero por cento imagina aquele metro padrão
+
+43
+00:03:40,200 --> 00:03:43,510
+que você define o método coloque ponto e vírgula sem nenhuma implementação.
+
+44
+00:03:43,510 --> 00:03:51,930
+E o que seria a classe abstrata a classe abstrata e a classe em que pode tanto ter todos os métodos
+
+45
+00:03:52,110 --> 00:03:59,610
+abstratos como ela pode ter parte dos métodos abstratos como ela pode ser completamente concreta no
+
+46
+00:03:59,610 --> 00:04:04,610
+sentido de ter todos os métodos definidos não concreta mais de todos os métodos definidos.
+
+47
+00:04:04,740 --> 00:04:06,690
+Ou seja uma classe abstrata.
+
+48
+00:04:06,690 --> 00:04:13,440
+Se ela tiver dez metros ela pode ter os dez Métodos implementados ou seja metros concretos com o corpo
+
+49
+00:04:13,620 --> 00:04:15,890
+e consequentemente com a implementação.
+
+50
+00:04:16,110 --> 00:04:22,980
+Essa classe abstrata pode ter dez metros todos os 10 serem métodos abstratos ou seja métodos que não
+
+51
+00:04:22,980 --> 00:04:25,080
+têm uma implementação.
+
+52
+00:04:25,080 --> 00:04:31,800
+Ela pode ter parte dos métodos cinco metros e definidos com corpo cinco metros abstratos pode ter um
+
+53
+00:04:31,800 --> 00:04:38,940
+metro abstrato nove metros implementados pode ter exatamente o que quiser mas qual é a primeira consequência
+
+54
+00:04:38,940 --> 00:04:44,120
+de você ter uma classe abstrata uma classe abstrata não pode ser distanciada.
+
+55
+00:04:44,460 --> 00:04:54,450
+Então no momento que você faz aqui ou você coloca aqui por exemplo públicos abstractos ou abstratos
+
+56
+00:04:54,450 --> 00:04:55,520
+esclarece.
+
+57
+00:04:56,810 --> 00:05:06,740
+Pessoa abre aqui Chaves fechados o momento que você usa essa palavrinha aqui reservada a abstract automaticamente
+
+58
+00:05:06,740 --> 00:05:19,590
+significa que você não pode fazer mais isso que a pessoa pessoa recebe mil pessoa pessoa.
+
+59
+00:05:19,790 --> 00:05:21,320
+Você não pode mais distanciar.
+
+60
+00:05:21,330 --> 00:05:21,990
+Por quê.
+
+61
+00:05:22,010 --> 00:05:28,660
+Porque é uma classe abstrata não permite a instância ação ou seja isso não pode ser feito alertou para
+
+62
+00:05:28,670 --> 00:05:31,060
+quem não quero criar uma classe abstrata.
+
+63
+00:05:31,070 --> 00:05:33,380
+Você quer criar uma classe abstrata.
+
+64
+00:05:33,380 --> 00:05:38,660
+Quando você tem herança quando você quer criar uma classe supra é uma classe que vai ser usada para
+
+65
+00:05:38,660 --> 00:05:41,630
+ser dada por outras classes concretas.
+
+66
+00:05:41,630 --> 00:05:47,330
+Não faz sentido você criar uma classe abstrata que nunca será herdada porque essa é uma classe abstrata
+
+67
+00:05:47,330 --> 00:05:48,770
+nunca será dada.
+
+68
+00:05:48,770 --> 00:05:53,990
+Você não pode distanciar essa classe A não ser que você queira criar uma classe com todos os metros
+
+69
+00:05:53,990 --> 00:05:59,450
+estáticos aí não precisaria distanciar também pode ser um cenário mas via de regra você cria uma classe
+
+70
+00:05:59,450 --> 00:06:00,070
+abstrata.
+
+71
+00:06:00,080 --> 00:06:02,300
+Quando você quer ter herança.
+
+72
+00:06:02,300 --> 00:06:08,240
+Então olhando o que nós temos de um lado a interface que tem uns metros abstratos você tem do outro
+
+73
+00:06:08,240 --> 00:06:14,570
+lado uma classe concreta que obrigatoriamente todos os metros precisam estar definidos e navegaram de
+
+74
+00:06:14,570 --> 00:06:15,590
+uma ponta a outra.
+
+75
+00:06:15,590 --> 00:06:21,260
+Você tem uma classe abstrata que pode ter algum método abstrato não necessariamente precisa ter algo
+
+76
+00:06:21,260 --> 00:06:27,590
+um metro sem corpo ou seja um metro abstrato pode não ter nenhum metro abstrato mas se você marca a
+
+77
+00:06:27,590 --> 00:06:33,860
+classe como abstrata automaticamente você não pode distanciar objetos a partir de uma classe da mesma
+
+78
+00:06:33,860 --> 00:06:41,600
+forma que eu não tenho nenhum objeto concreto do tipo o mouse é o que eu tenho e mouses que foram implementados
+
+79
+00:06:41,630 --> 00:06:44,830
+por marcas com referências com funcionalidades concretas.
+
+80
+00:06:44,830 --> 00:06:45,240
+Por quê.
+
+81
+00:06:45,260 --> 00:06:47,270
+Porque isso é um objeto concreto.
+
+82
+00:06:47,300 --> 00:06:49,880
+O conceito Mouse é algo abstrato.
+
+83
+00:06:49,880 --> 00:06:56,810
+Da mesma forma que o conceito animal é algo abstrato você tem um cachorro com algo concreto que você
+
+84
+00:06:56,810 --> 00:07:02,270
+tem lá lá e sim que é um cachorro específico ou seja é um conceito concreto e o conceito cachorro é
+
+85
+00:07:02,270 --> 00:07:09,530
+algo abstrato se você quiser referenciar ou representar isso no software você usa classes abstratas
+
+86
+00:07:09,910 --> 00:07:11,860
+aproximar ou vão achar para vocês.
+
+87
+00:07:11,900 --> 00:07:17,270
+Como funciona um pouco da mecânica de classes abstratas para que você possa entender o uso da palavra
+
+88
+00:07:17,270 --> 00:07:17,860
+abstrato.
+
+89
+00:07:17,870 --> 00:07:23,630
+Como você pode usar isso na parte prática no Java para você entender um pouco desse conceito que acontece
+
+90
+00:07:23,630 --> 00:07:26,990
+no mundo real tentei mostrar isso a partir do exemplo do mouse.
+
+91
+00:07:26,990 --> 00:07:33,260
+Exemplo por exemplo Salt Lake é um conceito genérico mas você tem dispositivos com marca com determinado
+
+92
+00:07:33,760 --> 00:07:41,150
+referência lá eu e o Samsung S10 e o iPhone 11 ou seja você tem modelos específicos concretos de um
+
+93
+00:07:41,150 --> 00:07:43,580
+determinado conceito abstrato.
+
+94
+00:07:43,580 --> 00:07:49,430
+Isso acontece no mundo real e também pode ser modelado em software vou mostrar para vocês na prática
+
+95
+00:07:49,430 --> 00:07:50,030
+na proximal.

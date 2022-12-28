@@ -1,0 +1,359 @@
+1
+00:00:00,140 --> 00:00:06,690
+Para o pessoal não fechar aqui a nossa tela é nós vamos começar a mexer no display e o display ele vai
+
+2
+00:00:06,690 --> 00:00:14,130
+ter componente para Walter colocar aqui para ver que não lembro exatamente o texto que está contido
+
+3
+00:00:14,130 --> 00:00:16,230
+dentro desse meu jeito.
+
+4
+00:00:16,300 --> 00:00:18,450
+Não acho que vai ser um número que eu vou colocar.
+
+5
+00:00:18,480 --> 00:00:23,430
+Da mesma forma que na calculadora eu tenho um leigo também parte não é de que eu vou clicando aqui ele
+
+6
+00:00:23,430 --> 00:00:29,670
+vai colocando os números dentro desse Lego e vou colocar até algumas coisas que ele acaba não fazendo
+
+7
+00:00:29,690 --> 00:00:35,640
+mas que não é tão complexo de ser feito por exemplo colocar aqui um recurso que eu não vou estar me
+
+8
+00:00:35,640 --> 00:00:41,100
+preocupando muito com o tempo que você coloca muitos números dentro da calculadora ele vai diminuindo
+
+9
+00:00:41,490 --> 00:00:42,630
+o tamanho da fonte.
+
+10
+00:00:42,630 --> 00:00:49,560
+Eu vou colocar a fonte já não muito grande como inicialmente aqui um fonte bem grande inicial e se eu
+
+11
+00:00:49,560 --> 00:00:53,680
+colocar a fonte desse tamanho eu vou acabar não conseguindo colocar muitos números na tela.
+
+12
+00:00:54,030 --> 00:00:59,100
+Mas esse tratamento para diminuir o tamanho da fonte não vou fazer no nosso projeto porque afinal considera
+
+13
+00:00:59,100 --> 00:01:04,580
+ser tão importante mas que você pode estar pesquisando e usando como exercício de casa é muito importante.
+
+14
+00:01:04,590 --> 00:01:11,070
+Já falei isso algumas vezes que vocês aprendam a pesquisar soluções porque na prática no mundo real
+
+15
+00:01:11,070 --> 00:01:16,650
+você vai passar por situações que você nunca passou antes e você vai precisar do querido amigo Google
+
+16
+00:01:16,650 --> 00:01:23,280
+pra pesquisar e entender como é que faz determinadas questões e a partir daí saber evoluiu o código
+
+17
+00:01:23,290 --> 00:01:29,070
+indeterminados para resolver determinados recursos ou implementar até novas funcionalidades.
+
+18
+00:01:29,070 --> 00:01:34,540
+é importante muito importante aprender a caminhar porque é algo que faz parte da mídia.
+
+19
+00:01:34,600 --> 00:01:42,450
+Ele o desenvolvedor então não é um leigo eu o chamei de lei Bom já vou instancia aqui e eu leigo.
+
+20
+00:01:42,630 --> 00:01:45,210
+Posso até colocar isso como senão foi não.
+
+21
+00:01:45,220 --> 00:01:50,560
+Não necessariamente eu preciso distanciar ele cogitou até poderia mesmo ser no final.
+
+22
+00:01:50,640 --> 00:01:57,380
+Se eu quiser eu posso distanciar aqui do próprio consultor então defino o leigo e aqui no futuro.
+
+23
+00:01:57,760 --> 00:02:06,570
+Constancio na construção do Lego você pode vou colocar temporariamente aqui 1 2 3 4,5 6 só pra gente
+
+24
+00:02:06,570 --> 00:02:08,900
+ter uma referência melhor do número na tela.
+
+25
+00:02:08,970 --> 00:02:15,610
+E aqui pra começar eu já posso adicionar o leigo para gente testar aqui.
+
+26
+00:02:15,960 --> 00:02:20,400
+Por isso mesmo aparece onde já apareceu aqui centralizado onde as coisas importantes aqui pra gente
+
+27
+00:02:20,400 --> 00:02:29,330
+vai se definir logo o background do nosso do nosso display tal qual aquele 7 degrau onde eu vou distanciar
+
+28
+00:02:29,330 --> 00:02:31,690
+o novo com cola.
+
+29
+00:02:32,080 --> 00:02:37,300
+Ai tem um recurso que eu acho legal que é o seguinte eu não sei exatamente qual o RGB que eu vou usar
+
+30
+00:02:37,470 --> 00:02:39,500
+o Red Blue.
+
+31
+00:02:39,540 --> 00:02:44,820
+Eu tenho uma ferramenta que funciona no Mac mas que tem outras com certeza vai ter outras ferramentas
+
+32
+00:02:44,820 --> 00:02:51,800
+para o Windows que é esse cola que eu uso muito para desenvolver web e desenvolver desktop e desenvolver
+
+33
+00:02:52,280 --> 00:02:57,340
+Mobile eu estou sempre pegando o couro de algum local que eu acho interessante tentando replicar se
+
+34
+00:02:57,360 --> 00:03:05,100
+ao abrir a calculadora eu vou colocar esse algo assim implica que ele vai escolher qualquer coisa que
+
+35
+00:03:05,100 --> 00:03:10,970
+eu queira clicando aqui ele vai me dizer exatamente aquilo que eu quero pra eu replicar essa cor aqui
+
+36
+00:03:10,990 --> 00:03:22,750
+pro RGB colocá 46 C vermelho 49 vai ser feliz 49 e 55 estou enganado.
+
+37
+00:03:22,750 --> 00:03:31,270
+Você é bem próximo do cinza na poderia colocar todas iguais 49 49 49 não teria problema nenhum mas essa
+
+38
+00:03:31,270 --> 00:03:38,220
+é a cor espectral de executá la e que ele vai colocar o blecaute e a cor continua sendo Preta eu já
+
+39
+00:03:38,220 --> 00:03:46,540
+vou mudar aqui algumas questões do leilão então leigo eu vou ter um metro aqui chamado 7 grau de cola.
+
+40
+00:03:46,860 --> 00:03:55,990
+Eu posso colocar aqui ficou pra ser branca Light também você vê agora ficou branquinha.
+
+41
+00:03:55,990 --> 00:03:57,790
+A próxima mudança que eu vou fazer.
+
+42
+00:03:57,790 --> 00:03:59,460
+Vai ser um leigo.
+
+43
+00:03:59,470 --> 00:04:04,000
+Conto sete fontes ou criar uma nova fonte.
+
+44
+00:04:04,070 --> 00:04:05,850
+Colocar um fonte bem simples.
+
+45
+00:04:05,970 --> 00:04:10,490
+Tem um construtor de fonte que ele vai pegar o nome da fonte.
+
+46
+00:04:10,720 --> 00:04:19,440
+O estilo e o tamanho e o nome da fonte que pode ser aquela correria e o estilo que provocou aquela fonte.
+
+47
+00:04:19,440 --> 00:04:20,200
+Ponto.
+
+48
+00:04:21,520 --> 00:04:31,000
+Acho que ele quer fontes em negrito é o tamanho da fonte vou coloca para seu tamanho 30 metros e o resultado
+
+49
+00:04:32,360 --> 00:04:39,400
+colocou aqui uma fonte maior já me parece mais interessante o que está faltando agora eu colocar a fonte
+
+50
+00:04:39,400 --> 00:04:43,690
+para aparecer mais do lado direito da tela e mais centralizada.
+
+51
+00:04:44,060 --> 00:04:47,000
+E aí para isso ele vai precisar mexer em um gerenciador de layout.
+
+52
+00:04:47,440 --> 00:04:53,660
+Nesse caso o gerenciador de layout que a gente usava é um gerenciador muito simples que o coloca ao
+
+53
+00:04:53,680 --> 00:04:57,310
+set layout de nome do gerenciador.
+
+54
+00:04:57,310 --> 00:05:02,320
+Vai ser humilde Flow levá los Fowler Alt.
+
+55
+00:05:02,410 --> 00:05:05,370
+Um dos parâmetros que você pode passar é o alinhamento.
+
+56
+00:05:05,360 --> 00:05:07,690
+Estão pegando o próprio fully Alt.
+
+57
+00:05:07,690 --> 00:05:14,440
+Ele tem uma série de constantes e isso acontece em outros momentos por exemplo aqui no caso da calculadora
+
+58
+00:05:14,440 --> 00:05:18,300
+a gente usou Audi Audi para passar como parâmetro.
+
+59
+00:05:18,300 --> 00:05:23,950
+O botão de áudio precisei de uma constante que é um constante do tipo histria mais ou não digamos assim
+
+60
+00:05:23,950 --> 00:05:24,690
+não sei.
+
+61
+00:05:25,020 --> 00:05:27,620
+Eu posso até escrever né monstrinho.
+
+62
+00:05:27,860 --> 00:05:33,400
+Mas usar constante é mais garantido que você não vai errar de digitação então aqui se você clicar Control
+
+63
+00:05:33,430 --> 00:05:39,410
+e clicar aqui norte você vai ele vai navegar para a tela e você vai ver que os valores das estribos
+
+64
+00:05:39,580 --> 00:05:40,660
+valores das constantes.
+
+65
+00:05:40,660 --> 00:05:47,740
+Melhor dizendo a mesma coisa que no caso do Flow eu tenho um dos parâmetros para o Flow e o alinhamento
+
+66
+00:05:47,740 --> 00:05:49,560
+e o alinhamento é um inteiro.
+
+67
+00:05:49,570 --> 00:05:55,660
+Eu não sei se eu vou passar um 01 teclar acontecesse ou passá lo então em vez de passar o literal 0
+
+68
+00:05:55,990 --> 00:06:04,660
+2 eu pego aqui ao próprio Flow e Alt dentro dele vai até as constantes por exemplo logo senta legging
+
+69
+00:06:04,840 --> 00:06:06,240
+left slide.
+
+70
+00:06:06,310 --> 00:06:12,100
+Então nesse caso o alinhar no site então coloca no site se a gente olhar o valor da constante aqui você
+
+71
+00:06:12,100 --> 00:06:17,980
+vai ver que o site representa o valor 2 e até poderia colocar o valor literal 2 mas faz muito mais sentido
+
+72
+00:06:17,980 --> 00:06:22,370
+do ponto de vista de quem está lendo o código colocar o valor da constante.
+
+73
+00:06:22,620 --> 00:06:28,980
+Estão executando aqui no nosso código ou você vai ver que ele vai colocá la desse lado do lado direito.
+
+74
+00:06:29,040 --> 00:06:34,350
+E o que está faltando a gente mexer em alguns espaçamento tanto aqui em cima como na lateral.
+
+75
+00:06:34,470 --> 00:06:40,450
+é pra gente fazer isso no próprio Flow layout e na construção tem outros dois parâmetros e corta aqui
+
+76
+00:06:40,450 --> 00:06:45,310
+uma vírgula um contra espaço você vai ter que primeiro alinhamento.
+
+77
+00:06:45,310 --> 00:06:50,800
+O segundo é o gap horizontal e desceram um gap vertical.
+
+78
+00:06:50,830 --> 00:06:54,360
+Então pra esses dois valores eu vou usar de gay na horizontal.
+
+79
+00:06:54,400 --> 00:06:57,970
+10 EU Gap vertical 25.
+
+80
+00:06:57,970 --> 00:07:02,410
+São valores que eu já testei previamente pra B e que ficam com estado na tela.
+
+81
+00:07:02,500 --> 00:07:07,540
+Então aqui eu coloquei ele mais embaixo não coloquei exatamente alinhado nesta manhã mas é só você mexer
+
+82
+00:07:07,540 --> 00:07:10,650
+nos ajustes que eu vou fazer mais ou menos como eu fiz.
+
+83
+00:07:10,690 --> 00:07:12,330
+Como na calculadora do Mac.
+
+84
+00:07:12,690 --> 00:07:17,550
+O valor fica mais embaixo depois que ele aumenta a quantidade e ele fica um pouquinho menor.
+
+85
+00:07:17,950 --> 00:07:24,180
+Ele acaba colocando o valor não alinhado aqui mas na parte de baixo eu também quis espreitar colocar
+
+86
+00:07:24,310 --> 00:07:29,890
+na parte de baixo todos a mesma fonte como eu falei anteriormente mas é só uma questão de você procurar
+
+87
+00:07:29,890 --> 00:07:35,890
+a fonte e tentar diferenciar fonte ele está lá a fonte não é algo muito complicado mas o fato é que
+
+88
+00:07:35,890 --> 00:07:41,320
+nós já construímos a partir do nosso display na próxima aula ou nos continuar implementando o botão
+
+89
+00:07:41,610 --> 00:07:47,710
+pra depois que tiver o botão para a parte do teclado então fique por aqui na próxima a gente continua
+
+90
+00:07:47,800 --> 00:07:50,500
+ainda no nosso projeto da calculadora e até lá.

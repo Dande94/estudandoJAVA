@@ -1,0 +1,775 @@
+1
+00:00:00,150 --> 00:00:04,200
+Pensava era falar um pouquinho pra vocês da teoria relacionada com a Rey.
+
+2
+00:00:04,260 --> 00:00:09,750
+Se a gente entrar num exercício quero falar um pouquinho de algo algumas características que são marcantes
+
+3
+00:00:09,750 --> 00:00:13,120
+do Harry para que você já possa conhecer previamente.
+
+4
+00:00:13,170 --> 00:00:20,460
+Estão falando um pouquinho do Harry certo e nós vamos dividir o capítulo na verdade em dois grandes
+
+5
+00:00:20,460 --> 00:00:25,030
+temas vamos ser primeiramente Warren depois falar sobre isso Collection Collection.
+
+6
+00:00:25,050 --> 00:00:29,770
+Elas têm tipos diferentes você tem lixo Collection o 7 né.
+
+7
+00:00:29,820 --> 00:00:32,510
+João lista o conjunto são coleções.
+
+8
+00:00:32,510 --> 00:00:37,590
+Você tem outros tipos de colegas que eu vou discutir com vocês durante o capítulo mais o primeiro tema
+
+9
+00:00:37,590 --> 00:00:39,720
+desse capítulo será o Harry.
+
+10
+00:00:39,720 --> 00:00:42,660
+Quais são as características marcantes de Harry.
+
+11
+00:00:42,660 --> 00:00:44,700
+Tem duas características marcantes.
+
+12
+00:00:44,700 --> 00:00:50,820
+Uma é que o Harry é uma estrutura estática ou seja uma estrutura que tem um tamanho fixo uma vez que
+
+13
+00:00:50,820 --> 00:00:58,020
+você criou um Harry você tem que dizer no momento da criação quantos elementos ou quantos valores disse
+
+14
+00:00:58,050 --> 00:01:05,010
+Harry vai armazenar o cara armazenar cinco valores armazenar mil e quinhentos valores tenho que dizer
+
+15
+00:01:05,010 --> 00:01:07,220
+exatamente o tamanho do Harry certo.
+
+16
+00:01:07,310 --> 00:01:11,210
+Então vou criar aqui por exemplo uma rede em seis posições.
+
+17
+00:01:11,230 --> 00:01:17,220
+Vou definir aqui um Harry que é uma estrutura unidimensional e tem uma dimensão.
+
+18
+00:01:17,320 --> 00:01:23,430
+E aqui eu vou partir aqui no meio e em baixo em três partes e a quinta em três partes ou seja eu tenho
+
+19
+00:01:23,540 --> 00:01:26,420
+um dois três quatro cinco seis posições.
+
+20
+00:01:26,430 --> 00:01:29,910
+Normalmente esse Harry é obviamente para você acessar no seu programa.
+
+21
+00:01:29,900 --> 00:01:31,780
+Ele tem que referência alguma variável.
+
+22
+00:01:31,920 --> 00:01:36,360
+Vamos supor que eu vou colocar o nome da variável de móveis que você criou.
+
+23
+00:01:36,370 --> 00:01:41,220
+Harry eu vou falar um pouco mais de como criar isso no código aproximar próxima alguém vai trabalhar
+
+24
+00:01:41,220 --> 00:01:41,680
+com Cole.
+
+25
+00:01:41,680 --> 00:01:46,740
+Por enquanto está trabalhando com um conceito uma vez que você criou uma variável ai você criou um novo
+
+26
+00:01:46,740 --> 00:01:54,090
+Harry e associou essa variável a esse Harry nunca vai poder mudar de tamanho a não ser que você crie
+
+27
+00:01:54,090 --> 00:02:00,150
+um outro Harry e esse outro Harry seja atribuído a uma variável já que é uma variável algo que pode
+
+28
+00:02:00,150 --> 00:02:03,210
+estar mudando com o tempo desde o seu algoritmo.
+
+29
+00:02:03,210 --> 00:02:09,030
+Diferente de uma constante você pode criar um Harry de seis posições depois você pode criar um Harry
+
+30
+00:02:09,030 --> 00:02:13,990
+com 10 15 500 posições e associar a mesma variável.
+
+31
+00:02:14,030 --> 00:02:20,400
+Mas o que aconteceu foi que você criou dois anéis você tinha uma variável apontaram para uma referência
+
+32
+00:02:20,400 --> 00:02:25,140
+de memória que tinham Harry lá de cinco seis posições no caso do nosso exemplo.
+
+33
+00:02:25,140 --> 00:02:31,740
+E depois você resolveu mudar e aumentar o Harry então você pode mudar a referência de uma variável mas
+
+34
+00:02:31,740 --> 00:02:37,190
+não alterar o tamanho de um Harry porque o Harry hoje futuro estática que tem um tamanho fixo.
+
+35
+00:02:37,200 --> 00:02:45,960
+Então só para deixar claro que o Harry ele tem uma estrutura estática ou Harry é algo estático ou qualquer
+
+36
+00:02:45,960 --> 00:02:52,140
+estático e ou seja ele tem um tamanho fixo certo.
+
+37
+00:02:52,160 --> 00:02:54,470
+Então essa é uma das características do Harry.
+
+38
+00:02:54,500 --> 00:02:58,810
+Qual é a segunda característica do Harry que também é uma característica marcante.
+
+39
+00:02:58,810 --> 00:03:06,390
+O Harry ele é um anjinho ou seja uma vez que você disse que vai colocá la criar uma rede inteiros.
+
+40
+00:03:06,570 --> 00:03:10,410
+Todos os dados do Harry obrigatoriamente serão inteiros.
+
+41
+00:03:10,410 --> 00:03:15,680
+Então você tem com os dados então Harry.
+
+42
+00:03:15,720 --> 00:03:20,100
+Ele tem os dados são homogêneos e ele tem um tamanho fixo estático.
+
+43
+00:03:20,100 --> 00:03:25,020
+Isso não significa que você não pode por exemplo pegar uma rede de seis posições.
+
+44
+00:03:25,020 --> 00:03:30,840
+Depois você cria um novo rei de 12 posições e copia todos os dados de seis para 12 e você vai ganhar
+
+45
+00:03:30,840 --> 00:03:32,020
+mais espaço.
+
+46
+00:03:32,130 --> 00:03:37,830
+E aí você tem a capacidade de ir trocando essas informações evoluindo para novos arrays.
+
+47
+00:03:37,840 --> 00:03:44,550
+Mas você não pode pegar um rei que tem um tamanho seis posições e acrescentar novos espaços ou novos
+
+48
+00:03:44,550 --> 00:03:47,550
+elementos porque isso não é permitido.
+
+49
+00:03:47,580 --> 00:03:53,710
+Outra característica muito marcante do Harry é o fato de que o Harry é uma estrutura indexada boa que
+
+50
+00:03:53,750 --> 00:03:55,650
+eu vou colocar aqui nesse meu Rei.
+
+51
+00:03:55,650 --> 00:03:58,750
+As notas de uma turma então vai ser uma rede W.
+
+52
+00:03:59,010 --> 00:04:03,320
+Então vou definir aqui por exemplo a nota para a C7.
+
+53
+00:04:03,320 --> 00:04:04,730
+Ponto 2.
+
+54
+00:04:04,770 --> 00:04:07,070
+Aqui vai ser 6 com seis.
+
+55
+00:04:07,170 --> 00:04:09,780
+Outra pessoa tirou nove contra oito.
+
+56
+00:04:09,780 --> 00:04:18,870
+Aqui eu tenho sete pontos tenho cinco pontos dois e finalmente eu tenho sete pontos eram sete eu tenho
+
+57
+00:04:18,870 --> 00:04:22,950
+um dois três quatro cinco seis notas e essas notas.
+
+58
+00:04:22,950 --> 00:04:28,990
+Ou seja lá Rei não obrigatoriamente esse Harry mas qualquer rei ele vai ser indexado.
+
+59
+00:04:29,130 --> 00:04:35,690
+Ou seja pra você acessar cada um dos elementos você acessa a partir de um valor numérico de um inteiro.
+
+60
+00:04:35,700 --> 00:04:41,880
+Então esse primeiro elemento accionamento de índice zero sempre começa a partir de zero.
+
+61
+00:04:41,880 --> 00:04:51,360
+Esse aqui é o elemento 21 22 23 24 e finalmente 25 ou seja uma rede que tem seis posições ele vai do
+
+62
+00:04:51,690 --> 00:04:52,700
+zero ateus.
+
+63
+00:04:52,710 --> 00:04:56,210
+O índice é 5 ou seja o tamanho menos um 0.
+
+64
+00:04:56,460 --> 00:05:01,290
+Então essa é a forma que você acessa Harry como é que você arranjava.
+
+65
+00:05:01,300 --> 00:05:06,660
+Eu até falei que não colhe mas o mundo definha e que nao tem hora para a gente entender o rei.
+
+66
+00:05:06,650 --> 00:05:18,770
+Ele também é um objeto certo então eu posso também definir outra característica que o Harry é um objeto.
+
+67
+00:05:18,770 --> 00:05:22,640
+Ou seja você tem atributos e comportamentos associados ao rei.
+
+68
+00:05:22,790 --> 00:05:24,670
+Como é que você faz para criar um rei.
+
+69
+00:05:24,680 --> 00:05:30,000
+Primeira coisa o fato de ele ser homogêneo você precisa definir o tipo pra esse rei.
+
+70
+00:05:30,470 --> 00:05:35,610
+Então você pode criar por exemplo assim.
+
+71
+00:05:36,150 --> 00:05:37,400
+Isso aqui é o quê.
+
+72
+00:05:37,410 --> 00:05:44,700
+Isso aqui se trata de você criou uma variável do tipo inteira quando você usa os colchetes associado
+
+73
+00:05:44,790 --> 00:05:51,480
+ao tipo você está dizendo o que você acabou de criar um rei do tipo inteiro então fica muito claro que
+
+74
+00:05:51,500 --> 00:05:58,200
+aquilo é exatamente o ponto como você diz o tipo do Harry associado com colchetes que você está dizendo
+
+75
+00:05:58,200 --> 00:06:00,700
+que esse tipo é um tipo homogêneo.
+
+76
+00:06:00,720 --> 00:06:07,040
+E aqui você recebe o seja aqui vai receber igual ou usa a palavra reservada lá em roxo.
+
+77
+00:06:07,150 --> 00:06:10,580
+Poderia até colocar aqui pra manter a padronização.
+
+78
+00:06:10,630 --> 00:06:12,530
+O índice também chegou a chamar Joaquim.
+
+79
+00:06:12,560 --> 00:06:15,120
+Também a palavra redesenhada da linguagem então.
+
+80
+00:06:15,550 --> 00:06:17,510
+Ah e aqui eu vou receber.
+
+81
+00:06:18,420 --> 00:06:23,760
+Ou seja pra criar uma raiz você usa o operador Nil certa assim como você usa em qualquer outro objeto.
+
+82
+00:06:24,030 --> 00:06:26,120
+Só que a sintaxe é um pouquinho diferente.
+
+83
+00:06:26,310 --> 00:06:32,910
+E aqui eu vou definir esse seja o tipo também eu vou colocar aqui os colchetes.
+
+84
+00:06:33,180 --> 00:06:39,110
+Só que com a diferença que no final você precisa dizer exatamente a quantidade de elementos que esse
+
+85
+00:06:39,110 --> 00:06:45,410
+Harry vai tentar é exatamente essa característica do estático que vai tá aqui nesse ponto.
+
+86
+00:06:45,410 --> 00:06:51,410
+Então vamos supor que o meu Rei vai ter seis posições como eu falei eu vou colocar aqui seis e termina
+
+87
+00:06:51,420 --> 00:06:54,000
+minha sentença de código com vírgula.
+
+88
+00:06:54,010 --> 00:06:58,770
+Então a definição de uma Rei você usa sim a palavra reservada.
+
+89
+00:06:58,820 --> 00:07:06,990
+Mil você usa o tipo exatamente pra dizer que é homogênea ou seja aqui também fica claro que se trata
+
+90
+00:07:07,140 --> 00:07:13,670
+apenas de valores inteiros dentro desse Harry você não vai poder colocar mulher nem valor quebrado.
+
+91
+00:07:13,710 --> 00:07:16,740
+Nesse caso especificamente nem foi inteira eu criei.
+
+92
+00:07:17,030 --> 00:07:22,560
+Então eu teria que apagar aquilo ver se vai caber tomara que caiba então colocar aquilo que tinha o
+
+93
+00:07:22,650 --> 00:07:24,220
+corte roxo.
+
+94
+00:07:24,300 --> 00:07:33,730
+Aqui vai ser bom e eu vou pagar aqui para ficar coerente com aquilo que eu desenhamos e vou colocar
+
+95
+00:07:33,750 --> 00:07:42,220
+aqui minha boca da HBO caminho espremida que mais da série vocês entenderam então o tipo entre colchetes
+
+96
+00:07:42,310 --> 00:07:48,160
+o valor desse lado que eu disse exatamente o tamanho do arrastão fica claro que ele é um tamanho estático
+
+97
+00:07:48,610 --> 00:07:56,200
+e define aqui o tipo do Harry ou seja ele é um monge e como é que eu faço agora pra inserir os valores
+
+98
+00:07:56,200 --> 00:07:57,040
+dentro do Harry.
+
+99
+00:07:57,040 --> 00:08:02,470
+Existem algumas formas você já pode na inicialização do Harry já aceitar todos os dados e mostrar isso
+
+100
+00:08:02,470 --> 00:08:05,860
+no código mais para a gente adicionando elemento por elemento.
+
+101
+00:08:05,860 --> 00:08:08,230
+Você pode pegar a variável a.
+
+102
+00:08:08,410 --> 00:08:14,410
+Aqui você pode colocar o colchetes pra dizer exatamente qual é o elemento qual o índice do elemento
+
+103
+00:08:14,410 --> 00:08:15,490
+que você quer alterar.
+
+104
+00:08:15,750 --> 00:08:21,730
+Então nesse caso eu posso dizer que quer alterar o elemento de índice 2 significa que esse valor vai
+
+105
+00:08:21,730 --> 00:08:22,630
+receber aqui.
+
+106
+00:08:22,630 --> 00:08:25,000
+Por exemplo o valor 10.
+
+107
+00:08:25,000 --> 00:08:31,660
+Então vou colocar aqui qualquer valor como amarelinha ou coca amarelinha que vai receber 10 pontos zero
+
+108
+00:08:31,930 --> 00:08:32,730
+ponto e vírgula.
+
+109
+00:08:33,190 --> 00:08:40,060
+Quando eu fizer isso quem é o elemento 22 na verdade elemento 22 é o que era 9 contou 8.
+
+110
+00:08:40,070 --> 00:08:45,680
+Então na verdade não é nova cultura de opacidade termina aqui e coloca o valor certo.
+
+111
+00:08:45,940 --> 00:08:50,680
+Então nesse caso eu estou só simulando obviamente do jeito que está escrito.
+
+112
+00:08:50,800 --> 00:08:57,450
+Só teria valor esse elemento aqui todo o resto seria zerado porque o valor padrão é zero.
+
+113
+00:08:57,470 --> 00:09:03,930
+Certo Quando você não realiza o elemento W dentro de um aí ele vai ser zero quantos eram quantos anos.
+
+114
+00:09:04,070 --> 00:09:10,660
+E aí eu quero por exemplo colocar aqui um outro elemento a acessando o primeiro elemento do rei então
+
+115
+00:09:11,110 --> 00:09:19,320
+eu vou ter aqui o alinhamento de índices zero recebem por exemplo o valor 9 ponto 2 significa que no
+
+116
+00:09:19,330 --> 00:09:24,910
+elemento de índices zero ou seja no primeiro elemento aí eu vou colocar aqui o valor 9 ponto 2 então
+
+117
+00:09:24,910 --> 00:09:32,710
+veja aqui coloco 9 ponto 2 certo então a 5 você vai conseguir acessar os valores aqui nesse caso eu
+
+118
+00:09:32,710 --> 00:09:40,210
+estou usando esta notação pra eu alterar o valor usando a atribuição da mesma forma que você pode sem
+
+119
+00:09:40,210 --> 00:09:40,960
+problema nenhum.
+
+120
+00:09:40,960 --> 00:09:53,940
+Criar aqui System ponto a ponto print ficou muito bonito aqui e aí eu acesso normalmente como acessar
+
+121
+00:09:54,050 --> 00:09:55,150
+qualquer variável.
+
+122
+00:09:55,160 --> 00:10:01,830
+Ah nesse caso tem que passar o índice e o índice pode ser qualquer índice por exemplo o índice 5 seria
+
+123
+00:10:01,830 --> 00:10:02,420
+o último.
+
+124
+00:10:02,490 --> 00:10:09,380
+E nesse caso você está acessando o sexto e último elemento do Harry usando um índice 5 já que o índice
+
+125
+00:10:09,380 --> 00:10:14,960
+de Harry começa a partir do zero então recapitulando Warren tem mais uma coisa eu quero falar ainda
+
+126
+00:10:14,960 --> 00:10:20,930
+mais o Harry ele é uma estrutura fixa de tamanho fixo no momento da criação você diz qual o tamanho
+
+127
+00:10:20,930 --> 00:10:21,530
+do Harry.
+
+128
+00:10:21,530 --> 00:10:26,620
+O Harry é uma estrutura como um anjinho que os dados todos os dados são do mesmo tipo.
+
+129
+00:10:26,720 --> 00:10:33,200
+Ou seja se você criou a string em todos os dados eram strings e se você cria um array de cliente todos
+
+130
+00:10:33,200 --> 00:10:36,760
+os dados são clientes se você criou a permitir o W.
+
+131
+00:10:36,770 --> 00:10:38,300
+Todos os dados serão da ABL.
+
+132
+00:10:38,600 --> 00:10:44,630
+Obviamente você consegue fazer algumas conversões automáticas se você atribuir um valor inteiro ele
+
+133
+00:10:44,630 --> 00:10:46,610
+vai automaticamente converter para W.
+
+134
+00:10:46,790 --> 00:10:50,270
+Mas os tipos sempre serão exatamente os mesmos.
+
+135
+00:10:50,270 --> 00:10:57,060
+Harry é um objeto o que significa que você consegue acessar por exemplo uma coisa ou tem uma diferença
+
+136
+00:10:57,120 --> 00:11:04,220
+que acho que é importante falar uma coisa e você tem a ponto alguma coisa que é que você está acessando
+
+137
+00:11:04,570 --> 00:11:06,790
+e a que é um objeto.
+
+138
+00:11:06,800 --> 00:11:14,870
+Outra coisa é você fazer por exemplo a si dois Ponto Certo Se você fizer isso.
+
+139
+00:11:14,870 --> 00:11:16,220
+Isso aqui vai dar errado por quê.
+
+140
+00:11:16,240 --> 00:11:18,280
+Porque há 22.
+
+141
+00:11:18,350 --> 00:11:24,850
+Isso aqui é um tipo de cabo que é um dos elementos do Harry ou seja 22 ela lamentou das sete ou seja
+
+142
+00:11:24,860 --> 00:11:32,120
+nesse caso como você armazenou tipos primitivos você não tem como usar notação contudo porque ele especificamente
+
+143
+00:11:32,120 --> 00:11:38,420
+nesse caso o elemento de 22 ele é um tipo primitivo de seu elemento de 22 fosse um objeto se você tivesse
+
+144
+00:11:38,420 --> 00:11:44,300
+acessando o objeto aí sim você poderia também usar a notação ponto mais especificamente nesse caso não
+
+145
+00:11:44,690 --> 00:11:50,570
+porque quando você usa a parte do índice você acessa um dos elementos e aquele elemento retornado vai
+
+146
+00:11:50,570 --> 00:11:52,840
+ter um método se ele for um objeto.
+
+147
+00:11:52,850 --> 00:11:56,340
+Se ele for permitido não vai ter pra gente finalizar.
+
+148
+00:11:56,420 --> 00:12:01,880
+é muito comum hoje você ter por exemplo um vetor na matemática uma estrutura unidimensional e você tem
+
+149
+00:12:01,880 --> 00:12:05,170
+várias várias posições para armazenar os dados ok.
+
+150
+00:12:05,180 --> 00:12:06,110
+Como é que eu faço.
+
+151
+00:12:06,110 --> 00:12:12,710
+Por exemplo em Java para representar uma matriz de dados porque eu quero representar algo desse tipo
+
+152
+00:12:12,820 --> 00:12:20,720
+uma matriz 3 por 3 que eu coloco por exemplo 1 2 3 4 5 6 7 8 9 7.
+
+153
+00:12:20,720 --> 00:12:22,760
+Como é que eu crio uma estrutura dessa em Java.
+
+154
+00:12:22,760 --> 00:12:28,910
+Esse tipo de estrutura multidimensional não exige o que você vai converter isso é quando você vai converter
+
+155
+00:12:28,910 --> 00:12:31,140
+isso para Java você vai fazer o seguinte.
+
+156
+00:12:31,280 --> 00:12:39,440
+Você vai ter um array certo colocar Guiñazu de três posições e dentro dessa rede três posições você
+
+157
+00:12:39,440 --> 00:12:42,530
+vai ter outro Harry e três posições.
+
+158
+00:12:42,540 --> 00:12:51,110
+Outra três posições ou outra rede três posições de tal forma que você vai ter algum como trocar vermelho
+
+159
+00:12:51,240 --> 00:12:59,590
+que vai ter 1 2 3 4 5 6 7 8 e 9.
+
+160
+00:12:59,990 --> 00:13:00,980
+Ou seja você tem.
+
+161
+00:13:00,980 --> 00:13:05,270
+Você pode ter dentro de um Harry um outro rei.
+
+162
+00:13:05,310 --> 00:13:07,980
+7 Você pode ter uma renda ou a renda de Warren.
+
+163
+00:13:08,150 --> 00:13:18,490
+Sem problema nenhum isso é definido assim leva os para criar o tipo da bolsa bom ou definir aquilo que
+
+164
+00:13:18,490 --> 00:13:22,360
+eu achei é que dentro do armário vai ter outro rei.
+
+165
+00:13:22,360 --> 00:13:28,660
+Essa é a forma que você definha Rei multidimensional sejam Harry quem tem margem ou dimensão Harry dentro
+
+166
+00:13:28,660 --> 00:13:29,230
+do outro.
+
+167
+00:13:29,250 --> 00:13:35,950
+De certa forma como você imagina a forma como você organiza suas ideias é mais ou menos assim você pensa
+
+168
+00:13:35,980 --> 00:13:40,260
+uma matriz ou mesmo não uma estrutura que eu não sei nem se eu vou conseguir desenhar.
+
+169
+00:13:40,420 --> 00:13:47,970
+Por exemplo a futura multidimensional você tem aqui uma matriz e você tem por exemplo algo desse tipo.
+
+170
+00:13:48,540 --> 00:13:51,670
+Você pode ter um cubo digamos assim de informações.
+
+171
+00:13:51,680 --> 00:13:54,850
+Você usa muito essas estruturas multi dimensionais.
+
+172
+00:13:54,850 --> 00:14:01,060
+Quando você trabalha com inteligência artificial quando você trabalha com redes neurais por exemplo
+
+173
+00:14:01,060 --> 00:14:06,290
+de aprendizado você acaba usando muitas questão do Harry principalmente a Rui dimensionais.
+
+174
+00:14:06,310 --> 00:14:11,820
+Mas não é tanto tempo que a gente vai abordando aqui nesse capítulo certo há um tema muito específico
+
+175
+00:14:12,120 --> 00:14:18,130
+mas de qualquer forma a partir da aqui você tem uma dimensão que seria eu o Harry propriamente.
+
+176
+00:14:18,130 --> 00:14:20,770
+Você tem duas dimensões seria uma atriz.
+
+177
+00:14:20,770 --> 00:14:24,920
+Você tem três dimensões que é o cubo e a partir da terceira quarta dimensão.
+
+178
+00:14:24,980 --> 00:14:30,970
+George já não consegue visualizar como é que seria desenhado no espaço mas o fato é que na prática o
+
+179
+00:14:30,970 --> 00:14:34,840
+que você tem é um rei dentro do outro uma estrutura dentro do outro.
+
+180
+00:14:35,200 --> 00:14:41,790
+E aí você para definir duas dimensões você coloca assim para definir três dimensões assim e outro colchetes
+
+181
+00:14:41,820 --> 00:14:43,260
+aqui quatro dimensões.
+
+182
+00:14:43,260 --> 00:14:50,110
+Aí você vai criar estruturas mais complexas mas isso certo você usar uma estrutura dessa que é muito
+
+183
+00:14:50,110 --> 00:14:50,730
+específico.
+
+184
+00:14:50,740 --> 00:14:55,330
+Você acaba não usam a raiz de muitas dimensões a não ser que você esteja trabalhando com alguma coisa
+
+185
+00:14:55,720 --> 00:15:00,310
+muito mais voltada para a matemática que não é tanto o nosso caso o foco do curso.
+
+186
+00:15:00,310 --> 00:15:02,440
+De qualquer forma essa foi a visão geral.
+
+187
+00:15:02,450 --> 00:15:08,690
+O que você precisa pensar de forma mais clara exatamente essas características do Harry que é um objeto
+
+188
+00:15:08,690 --> 00:15:12,920
+ou seja então tem atributos e comportamentos que o Harry.
+
+189
+00:15:13,150 --> 00:15:16,450
+Ele é uma estrutura de tamanho fixo não é um estudo estático.
+
+190
+00:15:16,480 --> 00:15:19,640
+Outra característica que o Harry é de tipos homogêneo certo.
+
+191
+00:15:19,720 --> 00:15:26,590
+Você vai perceber isso no momento que você vai criar a ele um determinado tipo e se você acessa o Harry
+
+192
+00:15:26,590 --> 00:15:29,890
+a partir dessa anotação dos colchetes mas a gente vai bem na prática.
+
+193
+00:15:30,010 --> 00:15:34,020
+Na próxima aula entender um pouco mais sobre como a gente pode usá la na prática.
+
+194
+00:15:34,060 --> 00:15:36,470
+Depois a gente vai ter desafio então até aproximá mal.

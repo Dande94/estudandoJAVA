@@ -1,0 +1,491 @@
+1
+00:00:00,140 --> 00:00:06,480
+Só nessa hora eu vou fazer um outro exemplo os anos sete mas o meu foco não será tanto nos métodos do
+
+2
+00:00:06,480 --> 00:00:13,500
+7 mais para a gente mudar essa questão de um 7 que é heterogêneo para um 7 que é homogêneo que todos
+
+3
+00:00:13,500 --> 00:00:18,360
+os dados são do mesmo tipo eu vou criar aqui outra classe.
+
+4
+00:00:18,360 --> 00:00:28,350
+Eu vou chamar essa classe de conjunto um conjunto comportado e eu vou definir um conjunto que vai ter
+
+5
+00:00:28,350 --> 00:00:31,800
+todos os dados do mesmo tipo como é que eu faço isso eu faço assim.
+
+6
+00:00:31,830 --> 00:00:38,000
+Inicialmente quando eu criei um site eu vou colocar aqui e ali pode disputar RX 7 ou propriamente 7
+
+7
+00:00:38,040 --> 00:00:38,810
+sem problema.
+
+8
+00:00:39,070 --> 00:00:44,120
+Sétimo da lista recebe mil x 7.
+
+9
+00:00:44,120 --> 00:00:45,780
+Isso sem usar o corpo cúmplice.
+
+10
+00:00:45,830 --> 00:00:53,820
+Vou colocar aqui sete vírgula se eu colocar um coma de chifre ou então contra o chefe de ópera de organizar
+
+11
+00:00:53,820 --> 00:00:55,050
+os impostos.
+
+12
+00:00:55,140 --> 00:01:01,220
+O primeiro set vai ser já o último set e o RX 7 com o último conflito ele já importou automaticamente.
+
+13
+00:01:01,260 --> 00:01:06,840
+Então essa é a forma que a gente vai ter a liberdade que não sei se é uma boa liberdade provavelmente
+
+14
+00:01:06,840 --> 00:01:15,720
+não de misturar dados dentro de um set aqui que é eu uso menor que é o maior que é ao lado do nome do
+
+15
+00:01:15,720 --> 00:01:24,180
+site e uso por exemplo o tipo string que eu estou dizendo eu estou dizendo que agora a minha lista obrigatoriamente
+
+16
+00:01:24,180 --> 00:01:26,880
+estará do tipo string da forma como eu coloco aqui.
+
+17
+00:01:27,250 --> 00:01:31,950
+Então eu também posso colocar aqui outro lá então se eu colocar isso você vai perceber que vai parar
+
+18
+00:01:32,010 --> 00:01:35,950
+as advertências a única advertência é o fato que eu criei uma bariátrica.
+
+19
+00:01:35,970 --> 00:01:41,200
+Ainda não estou usando mas eu vou usar ela agora então é extra ponto adicional.
+
+20
+00:01:41,430 --> 00:01:48,660
+Olha a diferença que acontecia no exemplo passado quando eu fazia que conjunto o ponto adicionar e eu
+
+21
+00:01:48,770 --> 00:01:54,900
+dessa que não encontra espaço você vai ver que o que está escrito aqui associado ao adicionar é a palavrinha
+
+22
+00:01:55,010 --> 00:01:55,690
+objetivo.
+
+23
+00:01:55,770 --> 00:02:03,700
+Ou seja tudo o que representa um objetivo tanto é que o ente os inteiros os tipos primitivos melhor
+
+24
+00:02:03,720 --> 00:02:04,910
+dizem não são objetos.
+
+25
+00:02:04,910 --> 00:02:10,350
+Por isso que eles não são suportados pelos colegas mas isso na prática fica muito tranquilo porque você
+
+26
+00:02:10,350 --> 00:02:15,960
+pode informar valores primitivos que ele automaticamente converte para um objeto certo que é um conceito
+
+27
+00:02:15,960 --> 00:02:22,770
+chamado também de auto Box que automaticamente coloca um tipo primitivo dentro da caixa que seria o
+
+28
+00:02:22,770 --> 00:02:23,820
+seu próprio.
+
+29
+00:02:23,890 --> 00:02:29,880
+Se for um de como eu já falei com vocês anteriormente mais que eu quero ressaltar aqui ao metro adicionar
+
+30
+00:02:29,880 --> 00:02:36,860
+nós temos a palavrinha objeto o que significa que nesse contexto eu posso inserir qualquer objeto já
+
+31
+00:02:36,930 --> 00:02:41,850
+no verão aqui o conjunto comportado e uso um metro adicionais ou um contra espaço.
+
+32
+00:02:41,850 --> 00:02:46,330
+Você vai ver que o Metro adicionava receber apenas uma string.
+
+33
+00:02:46,440 --> 00:02:52,950
+Ou seja porque já aconteceu isso não aconteceu isso porque eu usei aquilo ou dentro do menor que em
+
+34
+00:02:52,950 --> 00:02:53,540
+maio ok.
+
+35
+00:02:53,550 --> 00:02:59,900
+O tipo de dados que eu quero amarrar para adicionar dentro dessa lista ai se eu passar por exemplo Moto
+
+36
+00:03:00,000 --> 00:03:06,480
+2 vai dar certo não vai dar um erro de compilação de tal forma que o seu código nem será gerado nem
+
+37
+00:03:06,480 --> 00:03:08,720
+um ponto Class será gerado.
+
+38
+00:03:08,770 --> 00:03:13,590
+Isso significa que o seu sistema não pode vibrar para o usuário porque você tem que corrigir esse erro
+
+39
+00:03:13,590 --> 00:03:19,820
+já que você disse que especificamente essa lista só vai aceitar valores do tipo string.
+
+40
+00:03:20,020 --> 00:03:25,340
+Eu até posso achar isso aqui colocar entre aspas duplas passa a ser uma string certo.
+
+41
+00:03:25,350 --> 00:03:31,050
+Isso não é mais um problema mas você percebe que agora está marcando especificamente com o tipo que
+
+42
+00:03:31,050 --> 00:03:39,580
+você falou tanto eu como posso colocar Ana o duplicado aqui embaixo aplicar mais algumas vezes aqui.
+
+43
+00:03:39,980 --> 00:03:50,130
+Carlos Lucas por exemplo e nós temos agora uma lista que não tem advertência nenhum em nenhum momento
+
+44
+00:03:50,130 --> 00:03:56,640
+eu precisei colocar se o prazo ou coisa do tipo e nós temos dados homogêneos todos os dados são do tipo
+
+45
+00:03:56,640 --> 00:04:04,800
+string e você pode inclusive criar listas de classes que você definiu ao criar uma classe o usuário
+
+46
+00:04:04,800 --> 00:04:06,780
+pode criar um perfil de usuário.
+
+47
+00:04:06,930 --> 00:04:08,250
+Pode sim também.
+
+48
+00:04:08,340 --> 00:04:13,970
+Então aqui nesse caso há uma simplificação que eu posso fazer que é o seguinte uma vez que eu defina
+
+49
+00:04:14,200 --> 00:04:17,060
+esse lado tipo o que eu quero amarrar a minha lista.
+
+50
+00:04:17,160 --> 00:04:23,190
+Neste outro caso eu não necessariamente preciso repeti não posso simplesmente colocar o que ele chama
+
+51
+00:04:23,190 --> 00:04:26,310
+de operador daimon e parece me que eu sou um diamante.
+
+52
+00:04:26,400 --> 00:04:31,680
+Você pode colocar o Brasil que também ele vai validar e só vai permitir que valores do tipo estilingue
+
+53
+00:04:31,680 --> 00:04:32,880
+sejam adicionados.
+
+54
+00:04:32,910 --> 00:04:39,030
+Você tem que adicionar isso pelo menos você colocar assim fica como se fosse uma lista que aceita qualquer
+
+55
+00:04:39,030 --> 00:04:39,710
+valor.
+
+56
+00:04:40,250 --> 00:04:46,150
+Mas de qualquer forma se você coloca assim o Java sabe que você está lidando exatamente com mesmo te
+
+57
+00:04:46,260 --> 00:04:52,950
+é a mesma coisa que você copiar daqui pra cá mas você não precisa fazer isso porque a partir do Java
+
+58
+00:04:53,100 --> 00:04:54,360
+7 eu acho.
+
+59
+00:04:54,720 --> 00:05:01,310
+Ele adicionou isso aqui não sei se é o Java 7 ou Java 8 mas foi adicionada trate então.
+
+60
+00:05:01,310 --> 00:05:06,800
+Feito isso a gente pode também usar nesse contexto o fórum íntimo e nesse caso fica fácil porque eu
+
+61
+00:05:06,800 --> 00:05:16,500
+sei o tipo dos elementos string nome dado dois pontos da lista.
+
+62
+00:05:16,590 --> 00:05:22,370
+A prova de Barros então posso percorrer os candidatos em cima dessa.
+
+63
+00:05:22,410 --> 00:05:24,600
+17 lista de aprovados.
+
+64
+00:05:24,620 --> 00:05:28,220
+Aqui eu vou mostrar o nome do candidato executando.
+
+65
+00:05:28,340 --> 00:05:32,670
+Aí você vai perceber aquilo bem avaliado sem necessariamente mudar aqui.
+
+66
+00:05:32,690 --> 00:05:36,200
+Então posso colocar como dizem alguns.
+
+67
+00:05:36,370 --> 00:05:36,710
+Ah.
+
+68
+00:05:36,830 --> 00:05:45,470
+E aí eu consigo selecionar vários elementos assim copiar como saiu o show contra o Altinho no Windows
+
+69
+00:05:45,880 --> 00:05:46,820
+e no Linux.
+
+70
+00:05:47,360 --> 00:05:48,710
+Então feito isso.
+
+71
+00:05:48,780 --> 00:05:54,360
+Nós temos agora a lista de aprovados observação e é um site e esse 7.
+
+72
+00:05:54,380 --> 00:05:58,540
+Ele não respeita a ordem de inserção e não tem ordenação.
+
+73
+00:05:58,670 --> 00:06:06,560
+Por isso que eu coloquei Ana Carlos e Luque Pedro e ali já tem um Luka Pedro e Carlos certa de sim mas
+
+74
+00:06:06,590 --> 00:06:13,190
+eu queria usar um 7 pra não ter duplicação e ao mesmo tempo queria que ele mantém se a organização tem
+
+75
+00:06:13,190 --> 00:06:15,040
+essa possibilidade existe.
+
+76
+00:06:15,370 --> 00:06:21,640
+Eu posso comentar isso aqui e vou duplicar essa linha aqui embaixo e vou em vez de usar um raio x 7.
+
+77
+00:06:21,680 --> 00:06:30,030
+Eu vou usar um Three 7 7 e aí eu vou dar um aqui um aditivo de Etiópia organizar os impostos seja agora
+
+78
+00:06:30,050 --> 00:06:37,850
+ele importou 3 7 não mais de 7 3 7 ele garante a ordem de sacam suas etapas e vai ver que primeiro ano
+
+79
+00:06:37,850 --> 00:06:45,410
+e depois o Carlos depois o Lucas finalmente Pedro e especificamente o 3 7 ele faz parte do software
+
+80
+00:06:45,410 --> 00:06:53,090
+de 7 que são conjuntos ordenados um contra o Shift e só você vai ver que em vez de ter o 7 o software
+
+81
+00:06:53,090 --> 00:06:55,480
+de 7 ele também é um 7.
+
+82
+00:06:55,520 --> 00:07:00,950
+Ele também é um conjunto só que é uma lista de conjuntos que aceitam a ordenação que tem algum critério
+
+83
+00:07:00,950 --> 00:07:01,750
+de ordenação.
+
+84
+00:07:01,840 --> 00:07:05,690
+O critério pode ser ordem de sessão ou qualquer outra coisa que você queira definir.
+
+85
+00:07:06,080 --> 00:07:11,090
+Ele vai falar um pouco mais disso mais na frente tá mas o fato que também tem a possibilidade de você
+
+86
+00:07:11,090 --> 00:07:17,810
+usar um sorteio 7 ou mesmo se você quiser ser mais simplista você pode colocar 3 7 de um árbitro e do
+
+87
+00:07:17,810 --> 00:07:22,000
+outro não tem problema nenhum também vai executar sem problema.
+
+88
+00:07:22,010 --> 00:07:27,020
+Mas pra finalizar vou deixar aqui o sorteio de 7 que tem a menor possibilidade.
+
+89
+00:07:27,260 --> 00:07:33,170
+Então nesse caso foi obedecido a ordem de inserção porque a gente usou o tipo de conjunto que aceita
+
+90
+00:07:33,180 --> 00:07:38,260
+Ordenação e que aceita Ordenação baseada na ordem de exceção mais importante do que isso.
+
+91
+00:07:38,260 --> 00:07:45,110
+Nesse exemplo a gente usou dados homogêneos todos os elementos desse conjunto são do mesmo tipo e se
+
+92
+00:07:45,110 --> 00:07:50,250
+você tentar adicionar qualquer elemento diferente você vai perceber que vai gerar um erro de compilação
+
+93
+00:07:50,270 --> 00:07:56,720
+seja o Java nem vai gerar o arquivo pronto claras e você precisa obedecer uma vez que você usa esse
+
+94
+00:07:56,720 --> 00:07:57,660
+tipo de anotação.
+
+95
+00:07:57,680 --> 00:08:03,380
+O nome desse tipo de anotação é genéricos e mais à frente eu vou falar sobre isso eu vou mostrar pra
+
+96
+00:08:03,380 --> 00:08:07,490
+você como você pode e você entender melhor esse conceito.
+
+97
+00:08:07,610 --> 00:08:13,160
+Entender porque porquê que o nome é esse genéricos porque parece estranho se você olhar bem você não
+
+98
+00:08:13,160 --> 00:08:19,340
+está tornando genérico se quer dizer genérico né você não está tornando mais genérico você está tornando
+
+99
+00:08:19,340 --> 00:08:25,880
+algo mais específico não sei se vocês concordam comigo a gente tinha um conjunto que aceitava tudo de
+
+100
+00:08:25,880 --> 00:08:32,450
+forma genérica agora tem um conjunto que aceita especificamente apenas a Trimble certo esse nome faz
+
+101
+00:08:32,450 --> 00:08:39,110
+sentido faz e por muito tempo eu achei que em vez de genéricos o nome deveria ser específico se por
+
+102
+00:08:39,110 --> 00:08:45,120
+exemplo serve o que torna um determinado conjunto mais específico mais faz sentido sim esse nome.
+
+103
+00:08:45,300 --> 00:08:50,180
+Eu vou discutir mais na frente com a gente falar de alguns temas mais avançados aí sim a gente vai entender
+
+104
+00:08:50,180 --> 00:08:56,390
+de forma mais profunda os genéricos por enquanto que você precisa saber se você usar essa anotação na
+
+105
+00:08:56,390 --> 00:08:57,550
+minha ok ok.
+
+106
+00:08:57,560 --> 00:09:03,170
+O tipo que você colocar dentro será o tipo usado pelos elementos só para a gente finalizar aqui mostram
+
+107
+00:09:03,200 --> 00:09:12,860
+muitos exemplos ou copiar jogar aqui embaixo ou até copiar isso aqui deixam um 757 e vou colocar aqui
+
+108
+00:09:12,860 --> 00:09:23,360
+por exemplo se é que eu vou colocá los substituíram os da forma tradicional e nuns e aqui eu vou colocar
+
+109
+00:09:23,360 --> 00:09:25,610
+por exemplo passei um valor inteiro.
+
+110
+00:09:25,610 --> 00:09:30,170
+Nesse caso você vai perceber que ele não aceita o valor inteiro como eu falei pra vocês né.
+
+111
+00:09:30,320 --> 00:09:38,780
+Esse cara se eu quiser colocar eu posso usar o Internet ou daqui pra importá los as classes e ele passou
+
+112
+00:09:38,780 --> 00:09:49,280
+a reclamar agora porque nem o Monkey inteiro 1 2 colocar aqui 120 e coloca aqui por exemplo 6 certo
+
+113
+00:09:49,530 --> 00:10:00,060
+e posso percorrê lo caso posso até colocar 20 por exemplo a on line percorrido por exemplo menos não
+
+114
+00:10:00,060 --> 00:10:05,930
+tem problema ele vai fazer o alto boxe ele vai converter um objeto para um tipo primitivo.
+
+115
+00:10:06,120 --> 00:10:13,710
+E posso colocar aqui o que não aceita dentro das coleções não aceita valores primitivos mas você pode
+
+116
+00:10:13,710 --> 00:10:20,340
+por exemplo usar aquelas classes que correspondem aos tipos primitivos certo que nós temos um conjunto
+
+117
+00:10:20,340 --> 00:10:22,620
+totalmente de valores inteiros.
+
+118
+00:10:22,620 --> 00:10:25,770
+E aqui nós temos um conjunto totalmente de valores distintos.
+
+119
+00:10:25,860 --> 00:10:30,710
+Como falei Posso criar um conjunto de um objeto meu de usuário.
+
+120
+00:10:30,710 --> 00:10:36,900
+Você pode nesse pacote a gente não criou nenhum objeto por exemplo para a gente colocar mais.
+
+121
+00:10:36,900 --> 00:10:40,080
+Funciona assim a gente vai ver alguns exemplos sobre isso mais na frente.
+
+122
+00:10:40,350 --> 00:10:45,600
+Mas por enquanto eu vou ficar por aqui nessa segunda aula de conjunto e na próxima aulas vamos ver lista
+
+123
+00:10:45,710 --> 00:10:46,050
+e até lá.

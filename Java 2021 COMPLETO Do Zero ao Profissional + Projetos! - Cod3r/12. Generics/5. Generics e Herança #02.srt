@@ -1,0 +1,155 @@
+1
+00:00:00,300 --> 00:00:04,050
+Pessoal agora eu quero mostrar pra vocês não há outra.
+
+2
+00:00:04,050 --> 00:00:10,050
+Outro recurso que tem os genéricos que é você criar algumas restrições com relação a esses tipos.
+
+3
+00:00:10,680 --> 00:00:15,630
+Eu quero por exemplo criar um tipo tem um tipo pode ser qualquer coisa pode ser objeto de parecer uma
+
+4
+00:00:15,630 --> 00:00:21,930
+exceção pode ser tudo mas se você quiser criar alguma restrição é possível você fazer isso tudo na hora
+
+5
+00:00:21,930 --> 00:00:27,860
+de criar o tipo genérico como também na hora de você fazer essa eu vou mostrar isso pra você.
+
+6
+00:00:27,970 --> 00:00:34,950
+Mas uso criar aqui uma nova nova classe chamado Caixa número.
+
+7
+00:00:35,640 --> 00:00:43,850
+Nós temos o caixa inteiro nós temos a caixa e agora vou criar caixa número então a Caixa número da caixa
+
+8
+00:00:44,610 --> 00:00:51,180
+e você sabe que a gente vai precisar resolver o tipo genérico quer com uma frase eu vou criar aqui um
+
+9
+00:00:51,180 --> 00:00:55,910
+tipo genérico T que pode ser qualquer número pode ser e pode ser um wine também.
+
+10
+00:00:55,950 --> 00:01:04,170
+Por exemplo eu vou dizer que esse existentes na obra na obra é uma classe abstrata que está dentro de
+
+11
+00:01:04,170 --> 00:01:04,640
+Java.
+
+12
+00:01:04,640 --> 00:01:12,590
+Ponto lembre que a classe pai do inteligente é a Play a classe pai do W e a classe pai do Flow também
+
+13
+00:01:12,600 --> 00:01:20,880
+é dessas classes quem apresentou números então é uma forma genérica de você dizer que o tipo tem obrigatoriamente
+
+14
+00:01:20,880 --> 00:01:26,800
+tem que estender a classe naba e eu posso pagar esse valor substituir aqui.
+
+15
+00:01:26,950 --> 00:01:34,090
+Ou seja eu resolvi o Enem e agora eu passei com mais responsabilidade pra quem foi instancia a Caixa
+
+16
+00:01:34,090 --> 00:01:40,020
+o número então nesse caso vocês vão perceber que nós vamos ter agora uma restrição a mais ou criar uma
+
+17
+00:01:40,020 --> 00:01:45,750
+nova classe chamada caixa número 10.
+
+18
+00:01:46,440 --> 00:01:55,200
+Vamos criar aqui um Mega Man e vocês estão se encaixando no verão e eu não posso simplesmente colocar
+
+19
+00:01:55,200 --> 00:02:06,120
+esse brinde então coloca a caixa na caixa número e colocar isso você vai ver que vai gerar um problema
+
+20
+00:02:06,850 --> 00:02:08,410
+de caixa.
+
+21
+00:02:08,640 --> 00:02:16,250
+E ele embora tenha resolvido aqui pra restringi lo colocar que guardá lo guardá la feche.
+
+22
+00:02:16,500 --> 00:02:23,070
+Isso não vai dar certo porque aí porque caixa número tem uma restrição de que não aceita o valor do
+
+23
+00:02:23,070 --> 00:02:32,320
+tipo string porque sempre obrigatoriamente tem sim algo que é obra e aqui eu posso colocar dado dava
+
+24
+00:02:32,390 --> 00:02:34,320
+momento não é nenhum problema.
+
+25
+00:02:34,380 --> 00:02:40,890
+Essa instituição passa sem problema nenhum mais do tipo eu não posso porque há uma restrição total porque
+
+26
+00:02:40,890 --> 00:02:47,440
+eu fiz basicamente eu disse que tem o tipo aí já resolvi do ponto de vista de caixa mas no momento que
+
+27
+00:02:47,440 --> 00:02:54,600
+eu defendi Caixa o número Disque 100 existentes na obra ou seja essa instituição precisa ser atendida
+
+28
+00:02:54,920 --> 00:03:01,020
+pra que essa classe funcione corretamente de tal forma que eu precisei criar 15 W.
+
+29
+00:03:01,230 --> 00:03:10,560
+Posso imprimi aquele caixa ou outro abri o tipo de retorno dado e eu posso substituir e criar outros
+
+30
+00:03:10,680 --> 00:03:18,030
+exercícios aqui na caixa 2 caixa B por exemplo Caixa BB e Caixa D.
+
+31
+00:03:18,390 --> 00:03:24,450
+E aqui eu posso ter um título inteiro sem problema nenhum contanto que eu passe um valor inteiro aqui
+
+32
+00:03:24,480 --> 00:03:30,220
+também então agradaram tanto a Caixa como a caixa B estão funcionando corretamente.
+
+33
+00:03:30,270 --> 00:03:37,400
+Aquele tipo de classe que eu passei ele atende a necessidade não há restrição que foi acrescentada nos
+
+34
+00:03:37,400 --> 00:03:44,430
+genéricos dessa classe tipo número ou seja qualquer tipo genérico você passa obrigatoriamente ele tem
+
+35
+00:03:44,430 --> 00:03:46,860
+que ser o tipo NABA então fico por aqui.
+
+36
+00:03:46,860 --> 00:03:52,560
+Pessoal mais uma funcionalidade dos genéricos nesse caso a gente colocou uma restrição dos tipos que
+
+37
+00:03:52,560 --> 00:03:58,240
+a gente quer obter e você pode ter outras formas de trabalhar com isso inclusive com interrogações como
+
+38
+00:03:58,260 --> 00:04:05,070
+achar um pouco mais na frente ou outras funcionalidades não é qualquer coisa que eu vou achar pra vocês
+
+39
+00:04:05,070 --> 00:04:10,190
+alguns outros recursos disponíveis ainda no capítulo de genéricos e espero lá os proximal.

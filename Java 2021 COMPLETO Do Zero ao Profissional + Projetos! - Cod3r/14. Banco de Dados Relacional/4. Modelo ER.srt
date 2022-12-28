@@ -1,0 +1,619 @@
+1
+00:00:00,300 --> 00:00:04,020
+Sejam bem vindos ao nosso capítulo de banco relacional.
+
+2
+00:00:04,020 --> 00:00:09,240
+Nesse capítulo vamos trabalhar os principais conceitos relacionados a banco relacional e também nos
+
+3
+00:00:09,240 --> 00:00:10,370
+vamos ver muito.
+
+4
+00:00:10,410 --> 00:00:16,230
+A linguagem SQL e eu queria falar para você seguinte levá los ao banco mais quer que é uma das opções
+
+5
+00:00:16,230 --> 00:00:18,330
+de banco de dados que tem no mercado.
+
+6
+00:00:18,370 --> 00:00:23,280
+é uma opção popular a opção que você consegue baixar gratuitamente eu espero que nesse vídeo você já
+
+7
+00:00:23,280 --> 00:00:28,940
+tenha passado pelos vídeos de configuração caso você não tenha instalado vá lá que na aula anterior
+
+8
+00:00:28,950 --> 00:00:34,620
+vou estar colocando pra vocês os links dos vídeos que vão estar no Youtube que são vídeos só de instalação
+
+9
+00:00:34,620 --> 00:00:38,210
+tanto mais que ele eventualmente se você quiser também instalar o Work.
+
+10
+00:00:38,340 --> 00:00:43,140
+é interessante também ter para que você possa criar o banco de dados embora no nosso capítulo nós vamos
+
+11
+00:00:43,140 --> 00:00:48,270
+usá o de e o próprio Messi como instalar um plug in no verso com ele para a gente trabalhar os comandos
+
+12
+00:00:48,270 --> 00:00:53,970
+SQL diretamente no verso da mesma forma como já tem trabalhado nos outros capítulos mas essa aula que
+
+13
+00:00:53,970 --> 00:00:57,390
+é um pouco mais conceitual então existem.
+
+14
+00:00:57,450 --> 00:01:03,810
+Antigamente você tinha um sistemas cuidando dos próprios dados então no começo nos primórdios do sistema
+
+15
+00:01:04,110 --> 00:01:10,280
+além de ter todas as regras além de ter que lidar com as entradas do usuário ele também tem que cuidar
+
+16
+00:01:10,290 --> 00:01:16,380
+do armazenamento tinha que colocar os dados por exemplo em arquivos que indexar os dados que fazer toda
+
+17
+00:01:16,390 --> 00:01:21,960
+uma loja todo um trabalho muito grande pra que você conseguisse armazenar os dados e esses dados eram
+
+18
+00:01:21,960 --> 00:01:25,170
+armazenados gerenciados pela própria aplicação.
+
+19
+00:01:25,170 --> 00:01:31,020
+Ou seja depois de um tempo percebeu se que esse era um domínio de conhecimento bastante específico e
+
+20
+00:01:31,020 --> 00:01:33,000
+precisava ter soluções.
+
+21
+00:01:33,030 --> 00:01:38,550
+Esse princípio vai criar um sistema de duas camadas por exemplo na época do Delphi você tinha o deve
+
+22
+00:01:38,550 --> 00:01:42,890
+como ser na aplicação desktop e a outra camada era a camada de banco de dados.
+
+23
+00:01:42,910 --> 00:01:48,480
+Nesse sistema três camadas tinham front end que eram a aplicação desktop tinha um servidor lá como se
+
+24
+00:01:48,480 --> 00:01:49,720
+fosse um back end.
+
+25
+00:01:49,830 --> 00:01:52,740
+E tinha também o banco de dados como você na terceira camada.
+
+26
+00:01:52,920 --> 00:01:59,540
+E esses sistemas passaram a ser conhecidos como G B D.
+
+27
+00:01:59,670 --> 00:02:04,170
+Os sistemas gerenciadores de banco de dados e esses tenham sido os mais diversos.
+
+28
+00:02:04,170 --> 00:02:13,880
+Você tem o próprio SQL é uma opção você tem um órgão falando em órgão ou hoje a dona do mais que ela
+
+29
+00:02:13,890 --> 00:02:18,330
+é órgão em 2008 ao mais caro foi comprado pela Sony.
+
+30
+00:02:18,480 --> 00:02:22,980
+Foi inclusive uma transação que chamou bastante a atenção porque ele chegou na casa do bilhão US$ 1
+
+31
+00:02:22,980 --> 00:02:23,750
+bilhão.
+
+32
+00:02:23,790 --> 00:02:30,000
+A compra do mais caro pela ação e depois a hora como no ano seguinte 2009 comprou ação inclusive todos
+
+33
+00:02:30,000 --> 00:02:32,320
+os produtos relacionados à ação.
+
+34
+00:02:32,410 --> 00:02:36,290
+E hoje o mais Kelly está dentro dos produtos.
+
+35
+00:02:36,370 --> 00:02:42,600
+O guarda chuva da Orca que é uma gigante muito muito forte nessa área é banco de dados Orca o principal
+
+36
+00:02:42,600 --> 00:02:45,180
+produto da própria empresa que tem o mesmo nome.
+
+37
+00:02:45,420 --> 00:02:50,760
+Então este é um local muito grande dessa parte uma autoridade inclusive boa parte de recursos que foram
+
+38
+00:02:50,760 --> 00:02:53,640
+adicionados do Mais Querido também foi adicionado dentro.
+
+39
+00:02:53,640 --> 00:02:59,840
+Já a da orca ou como senadora desse SGBD certo eu quero falar um pouquinho pra vocês primeiro que obviamente
+
+40
+00:02:59,850 --> 00:03:05,130
+mais que ele usa a linguagem SQL que é um dos grandes alvos do nosso capitão.
+
+41
+00:03:05,130 --> 00:03:13,020
+Vamos ver muito a ideia do SQL aqui que é a linguagem de consultas estruturadas hoje com R Language.
+
+42
+00:03:13,080 --> 00:03:20,820
+Todos esses bancos usam tem algumas variações entre eles mas a assentar assim digamos a ser muito parecida
+
+43
+00:03:20,820 --> 00:03:26,110
+tem algumas diferenças alguns recursos a mais como é que um trabalha determinadas questões.
+
+44
+00:03:26,130 --> 00:03:33,090
+Outro trabalha um pouquinho diferente mais a gente vai ver essa parte mais fundamental mais basilar
+
+45
+00:03:33,240 --> 00:03:38,760
+do SQL para que você possa ter uma base legal para daí você entender as nuances de cada um dos bancos
+
+46
+00:03:38,760 --> 00:03:39,140
+de dados.
+
+47
+00:03:39,150 --> 00:03:44,730
+Então ele vai ver mais quero primeiro porque é um servidor gratuito você consegue baixar ele sem fazer
+
+48
+00:03:44,790 --> 00:03:50,610
+nenhum tipo de cadastro e pelo menos vai lá clica no link abaixo conforme já mostrei anteriormente no
+
+49
+00:03:50,610 --> 00:03:51,690
+vídeo de instalação.
+
+50
+00:03:51,870 --> 00:03:54,270
+Além disso é um banco superpopulação certo.
+
+51
+00:03:54,340 --> 00:03:58,800
+Então nessa área quero trabalhar com vocês alguns conceitos importantes e um dos primeiros conceitos
+
+52
+00:03:58,800 --> 00:04:07,050
+é o modelo entidade relacionamento modelo entidade relacionamento é um modelo no qual se baseia o banco
+
+53
+00:04:07,050 --> 00:04:12,330
+de dados e o paradigma no qual se baseia o banco de dados assim como você pode construir a aplicação
+
+54
+00:04:12,570 --> 00:04:13,680
+orientada a objeto.
+
+55
+00:04:13,680 --> 00:04:18,510
+Você vai se basear nos princípios da orientação objeto para construir a sua aplicação.
+
+56
+00:04:18,510 --> 00:04:24,120
+Assim também você vai se basear no modelo entidade relacionamento para construir e modelar os seus dados.
+
+57
+00:04:24,390 --> 00:04:29,250
+Então você percebe que tem duas coisas aqui você tem a identidade e tem um relacionamento a entidade
+
+58
+00:04:29,580 --> 00:04:34,670
+seria na nossa tabela então os dados são armazenados de forma tubular.
+
+59
+00:04:34,680 --> 00:04:40,680
+Então você tem por exemplo as colunas como sendo os atributos de um determinado dado que você quer moldá
+
+60
+00:04:40,680 --> 00:04:46,260
+la num determinado que você quer armazenada na tabela então por exemplo imagine que eu quero armazenar
+
+61
+00:04:46,260 --> 00:04:47,670
+dados de carro.
+
+62
+00:04:47,820 --> 00:04:55,290
+Então dentro dessa tabela de cálculos vai ter uma coluna por exemplo que vai ter a marca você vai ter
+
+63
+00:04:55,410 --> 00:04:57,890
+uma coluna que vai ter o modelo.
+
+64
+00:04:58,080 --> 00:05:05,120
+Você vai ter uma coluna que barra o ano do carro um chassi e coisas do tipo e você pode ter outros atributos
+
+65
+00:05:05,120 --> 00:05:11,670
+ou outras colunas sendo mapeados para esse modelo de armazenar os dados de forma tabulados.
+
+66
+00:05:11,690 --> 00:05:14,240
+Muito comum você vê por exemplo isso.
+
+67
+00:05:14,400 --> 00:05:19,950
+Até lá células que são as linhas e as colunas você armazenam os dados por exemplo no tubular.
+
+68
+00:05:20,030 --> 00:05:22,800
+Acho que esse tipo de armazenamento é bem incomum.
+
+69
+00:05:22,820 --> 00:05:25,650
+Eu tenho certeza que você já deve ter visto vários exemplos.
+
+70
+00:05:25,650 --> 00:05:31,970
+Então no momento que eu tenho aqui os meus atributos as minhas colunas desse lado eu tenho os dados
+
+71
+00:05:31,970 --> 00:05:32,960
+propriamente dito.
+
+72
+00:05:32,960 --> 00:05:34,880
+Ou seja são as entidades.
+
+73
+00:05:35,160 --> 00:05:40,220
+Então aqui é como se eu tivesse aqui nesse eixo aqui como se eu tivesse a classe.
+
+74
+00:05:40,220 --> 00:05:45,310
+Então se eu tivesse que fazer uma comparação com o mundo da UOL isso aqui seria a classe.
+
+75
+00:05:45,400 --> 00:05:51,970
+Isso aqui seria as instâncias dessa classe ou seja uma vez que você coloca uma linha uma dupla também
+
+76
+00:05:51,980 --> 00:05:59,170
+muito conhecida que eu posso trabalhar o nome linha ou seja uma linha do banco de dados ou uma tupla
+
+77
+00:05:59,260 --> 00:06:01,670
+também é muito muito usado.
+
+78
+00:06:01,690 --> 00:06:06,010
+Se você for trabalhar por exemplo numa cadeira de banco de dados eles vão usar muito esse nome de tupla
+
+79
+00:06:06,280 --> 00:06:12,180
+que é um registro ou seja qual a marca por exemplo fia te qual é o modelo.
+
+80
+00:06:13,000 --> 00:06:16,230
+Qual o ano 2018.
+
+81
+00:06:16,280 --> 00:06:22,120
+Qual chassi você vai colocar de cada linha representa um conjunto de dados que estão aderentes a essas
+
+82
+00:06:22,120 --> 00:06:24,880
+colunas que foram definidas aqui no banco.
+
+83
+00:06:24,880 --> 00:06:29,960
+O modelo que está no relacionamento em banco relacional como é o caso do mais querem um banco que tem
+
+84
+00:06:29,970 --> 00:06:30,750
+esquema.
+
+85
+00:06:30,820 --> 00:06:37,450
+O esquema do banco de dados é a definição de como os dados serão armazenados as instruções as regras
+
+86
+00:06:37,450 --> 00:06:42,650
+estão por exemplo cada coluna dessa aqui vai ter um tipo de dado é diferente.
+
+87
+00:06:42,700 --> 00:06:44,190
+Por exemplo a marca.
+
+88
+00:06:44,380 --> 00:06:51,760
+Vai ser um tipo de cadeia de caracteres que mapeia isso no banco de dados como por exemplo o chá ou
+
+89
+00:06:51,760 --> 00:06:58,930
+seja um chá e uma letra aqui vale variável ou seja um conjunto variável de caracteres e você pode dizer
+
+90
+00:06:58,930 --> 00:07:05,860
+que é um baixar de duzentos caracteres ou seja ele vai armazenar dentro dessa coluna no máximo até 200
+
+91
+00:07:05,860 --> 00:07:07,690
+caracteres de forma variável.
+
+92
+00:07:07,780 --> 00:07:14,040
+Então isso significa se você usar não usasse de forma variável ele ocupará a memória de 200 caracteres
+
+93
+00:07:14,040 --> 00:07:19,690
+independente se você usa só dois ou três e usar não vai achar que é o mais comum pra trabalhar com dados
+
+94
+00:07:20,020 --> 00:07:21,250
+textuais.
+
+95
+00:07:21,250 --> 00:07:26,290
+Você coloca por exemplo 200 ele vai armazenar de uma forma mais otimizada não vai ocupar os 200 também
+
+96
+00:07:26,290 --> 00:07:32,010
+não vai ocupar exatamente a quantidade de caracteres que você colocou para que haja a questão interna
+
+97
+00:07:32,160 --> 00:07:34,850
+de dados não faz muito sentido e terá mais um fator que o vai achar.
+
+98
+00:07:35,170 --> 00:07:39,550
+Ele vai te dar uma cadeia de caracteres para você armazenar dados textuais.
+
+99
+00:07:39,550 --> 00:07:44,010
+Então o modelo poderia ser baixado o ano poderia ser um minuto inteiro.
+
+100
+00:07:44,010 --> 00:07:49,300
+Certo O chassi poderia ser também um baixar porque tem letras e números e tal e você vai mapear e nós
+
+101
+00:07:49,300 --> 00:07:54,070
+vamos ver isso na prática mostrando para você como criar tabelas e vou mostrar para vocês alguns dos
+
+102
+00:07:54,070 --> 00:07:56,890
+tipos mais famosos mais tem data.
+
+103
+00:07:56,890 --> 00:08:01,990
+Você tem valores numéricos inteiros valores numéricos reais que tem casas decimais.
+
+104
+00:08:02,110 --> 00:08:05,110
+Você também tem textos que eu falei que baixar.
+
+105
+00:08:05,170 --> 00:08:12,390
+Você tem a possibilidade de armazenar dados binários que eu tanto tenho o lobby que é o banner laicos
+
+106
+00:08:12,510 --> 00:08:16,840
+objetos ou lobby que é o caractere óbvio.
+
+107
+00:08:16,940 --> 00:08:23,950
+Então via de regra quando você mais armazena um valor textual alguns bancos suportam no máximo até 4
+
+108
+00:08:23,950 --> 00:08:27,150
+mil caracteres ou então 8 mil caracteres.
+
+109
+00:08:27,150 --> 00:08:33,040
+Ali é mais caro armazenar um texto muito grande você tem a possibilidade de usar um desses objetos largos
+
+110
+00:08:33,040 --> 00:08:35,320
+e armazenar algo maior dentro do banco de dados.
+
+111
+00:08:35,320 --> 00:08:42,300
+Via de regra você não armazena por exemplo imagem vídeo esse tipo de coisa de banco de dados.
+
+112
+00:08:42,300 --> 00:08:48,400
+Você tenta armazenar esse ou outros outros mecanismos que não banco e no banco você simplesmente armazena
+
+113
+00:08:48,400 --> 00:08:53,930
+um endereço onde está a imagem onde está o vídeo mais você permite a possibilidade de fazer isso mas
+
+114
+00:08:53,940 --> 00:09:00,710
+há muito o foco aqui do nosso sal então está trabalhando aqui com o modelo entidade relacionamento que
+
+115
+00:09:00,760 --> 00:09:01,570
+tem duas partes.
+
+116
+00:09:01,570 --> 00:09:07,630
+Primeiro a entidade que é exatamente a tabela e a tabela dividida em colunas cada coluna tem um tipo
+
+117
+00:09:07,990 --> 00:09:14,320
+e as linhas que são as tuplas representam os dados da tabela então você tem uma tabela com X colunas
+
+118
+00:09:14,320 --> 00:09:20,620
+e você pode ter milhares de linhas cada linha representando um dado que foi armazenado na tabela.
+
+119
+00:09:20,790 --> 00:09:27,670
+E obviamente esse dado ele tem que estar aderente às restrições que forem impostas pelo esquema diferente
+
+120
+00:09:27,670 --> 00:09:31,270
+por exemplo do banco Morgan o que a gente vai ver depois que é um banco sem esquema.
+
+121
+00:09:31,600 --> 00:09:37,900
+Você não tem esse conceito de coluna você não tem que obrigatoriamente atender os requisitos de cada
+
+122
+00:09:37,900 --> 00:09:38,260
+coluna.
+
+123
+00:09:38,260 --> 00:09:40,580
+Você pode inclusive ter dados variáveis.
+
+124
+00:09:40,810 --> 00:09:46,800
+Por exemplo armazenar um carro dentro de um banco não relacional o banco não SQL nesse caso o carro
+
+125
+00:09:46,800 --> 00:09:51,820
+um carro pode ter placa ou outro não tem um impacto Demarco outro pode não ter um pai tem um atributo
+
+126
+00:09:51,820 --> 00:09:53,980
+que só o local tem os outros não têm.
+
+127
+00:09:54,160 --> 00:09:56,890
+Então é bem mais flexível porque é um banco sem esquema.
+
+128
+00:09:56,920 --> 00:09:59,710
+No caso um banco relacional modelo relacional.
+
+129
+00:09:59,710 --> 00:10:05,050
+Ele é um modelo que tem sim ESQUEMA E ELE VAI NO ESQUEMA serve para validar os seus dados.
+
+130
+00:10:05,050 --> 00:10:10,630
+Os dados que forem armazenados do banco eles precisam estar aderentes às instruções que foram impostas
+
+131
+00:10:10,630 --> 00:10:11,290
+pelo esquema.
+
+132
+00:10:11,590 --> 00:10:17,290
+Então fizemos aqui uma tabela e outro conceito muito importante desse dessa ideia do modelo entidade
+
+133
+00:10:17,290 --> 00:10:18,910
+relacionamento é o relacionamento.
+
+134
+00:10:19,420 --> 00:10:27,070
+Então você tem por exemplo uma tabela que tem aqui por exemplo o produto você tem por exemplo outra
+
+135
+00:10:27,070 --> 00:10:31,510
+tabela de dados que é de clientes por exemplo.
+
+136
+00:10:31,750 --> 00:10:39,970
+Então que a tabela não importa muito aqui quais são os dados só pra gente vê essa tabela produto o cliente
+
+137
+00:10:40,090 --> 00:10:43,470
+tem uma relação dentro de um sistema de venda por exemplo.
+
+138
+00:10:43,540 --> 00:10:50,110
+Então você entra por exemplo em um site de venda quer comprar um videogame e comprar um videogame mais
+
+139
+00:10:50,110 --> 00:10:51,090
+três jogos.
+
+140
+00:10:51,160 --> 00:10:56,800
+Obviamente o videogame é um dos produtos que estão cadastrados dentro do site de venda você um cliente
+
+141
+00:10:56,830 --> 00:10:58,490
+tem que ter uma relação entre eles.
+
+142
+00:10:58,810 --> 00:11:04,000
+Então por exemplo a relação entre eles poderia muito bem estar estabelecida em cima de uma outra tabela
+
+143
+00:11:04,000 --> 00:11:05,230
+chamada pedido.
+
+144
+00:11:05,710 --> 00:11:09,690
+Então o que é quando você realmente faz uma compra um pedido ou compra tanto faz.
+
+145
+00:11:09,700 --> 00:11:17,320
+Então existe sim as relações entre essas tabelas para que você consiga de fato ter como mapear seu cliente.
+
+146
+00:11:17,600 --> 00:11:23,270
+João comprou a partir do pedido Número que fez a compra do produto.
+
+147
+00:11:23,380 --> 00:11:30,070
+PS4 cliente Maria fez a partir do pedido tal a compra do produto X Y Z.
+
+148
+00:11:30,250 --> 00:11:36,400
+Então há uma necessidade de se fazer relacionamentos entre essas tabelas para que você consiga de fato
+
+149
+00:11:36,730 --> 00:11:42,700
+ter os seus dados e ter como você a partir de um determinado dados chegar em outros dados por exemplo.
+
+150
+00:11:42,910 --> 00:11:47,280
+O cliente X compra fez quantos pedidos dentro do meu site se quiser.
+
+151
+00:11:47,630 --> 00:11:51,510
+E qual foi o produto mais caro que ele comprou até hoje o produto tal.
+
+152
+00:11:51,790 --> 00:11:56,650
+Então vou me ligar para saber se ele tem algum problema no produto coisas do tipo então essa relação
+
+153
+00:11:56,650 --> 00:12:01,930
+entre os dados é extremamente importante e ou seja a lei da entidade você também tem que se preocupar
+
+154
+00:12:01,930 --> 00:12:05,320
+muito com essa questão e entender muito bem quais são os relacionamentos.
+
+155
+00:12:05,320 --> 00:12:08,380
+Vou trabalhar os relacionamentos na próxima aula então espero lá.

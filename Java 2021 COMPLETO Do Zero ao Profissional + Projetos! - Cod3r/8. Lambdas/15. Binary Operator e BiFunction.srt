@@ -1,0 +1,387 @@
+1
+00:00:00,430 --> 00:00:06,930
+Agora nós vamos ver o operador binário vamos achar para vocês duas interfaces funcionais pra gente trabalhar
+
+2
+00:00:06,930 --> 00:00:13,150
+comparado o binário pra você fazer composição de funções um operador binário chamado outro não dá certo
+
+3
+00:00:13,160 --> 00:00:13,600
+por quê.
+
+4
+00:00:13,620 --> 00:00:19,710
+Porque um operador binário recebe dois parâmetros de entrada e como o retorno da função só retorna um
+
+5
+00:00:19,710 --> 00:00:25,710
+valor não tem como esse valor encaixar em dois parâmetros para a próxima função mas você consegue a
+
+6
+00:00:25,710 --> 00:00:31,080
+partir de um operador binário gerando um resultado em cadeia com o operador na área por exemplo certo
+
+7
+00:00:31,330 --> 00:00:32,560
+e vou mostrar isso pra vocês.
+
+8
+00:00:32,560 --> 00:00:38,920
+Também é possível fazer composição com o operador binário mandando o dado para uma função ou para o
+
+9
+00:00:38,920 --> 00:00:45,750
+operador na área ou mostrar isso pra vocês agora então nós criamos aqui o operador na área criar uma
+
+10
+00:00:45,750 --> 00:00:56,980
+nova classe chamada operador binário então aqui o craque no meio e nós vamos começar definindo primeiro
+
+11
+00:00:56,990 --> 00:01:02,100
+bloquear um lambida para calcular a média de duas notas então se é um operador binário eu quero receber
+
+12
+00:01:02,100 --> 00:01:05,610
+dois parâmetros um bom exemplo seria calcular a média.
+
+13
+00:01:05,810 --> 00:01:15,480
+Vamos fazer o seguinte você vai operar então Java o último ponto o que é que eu quero receber.
+
+14
+00:01:15,510 --> 00:01:22,020
+Um operador binário ele tanto os dois parâmetros de entrada como o retorno são do mesmo tipo.
+
+15
+00:01:22,290 --> 00:01:31,500
+Então nesse caso eu vou colocar pra ser dado o nome vai ser da minha variável baixei a média e aqui
+
+16
+00:01:31,500 --> 00:01:39,610
+eu vou atribuir essa função essa LaTeX por acho que vai receber dois números tamanho de vírgula em dois
+
+17
+00:01:39,840 --> 00:01:44,830
+como eu tenho dois parâmetros obrigatoriamente eu preciso definir os tipos.
+
+18
+00:01:44,880 --> 00:01:51,510
+Obrigatoriamente eu preciso envolver cumpadi de parênteses e se eu quiser eu também posso colocar o
+
+19
+00:01:51,510 --> 00:01:52,730
+tipo certo.
+
+20
+00:01:52,860 --> 00:01:56,360
+Não é requerido eu não gosto de usar qualquer tipo.
+
+21
+00:01:56,790 --> 00:01:59,250
+Mas você também pode fazer isso não geraria nenhum erro.
+
+22
+00:01:59,280 --> 00:02:08,430
+Então aqui para a gente retornar um resultado seria mais em dois então como a soma ela tem uma prioridade
+
+23
+00:02:08,430 --> 00:02:13,220
+menor do que a divisão então coloco entre parênteses aqui dividido por dois.
+
+24
+00:02:13,230 --> 00:02:19,860
+Os dois valores são valores e w então como são valores de algo e ele vai ter preferência e o resultado
+
+25
+00:02:19,860 --> 00:02:23,310
+será dado ou então não preciso me preocupar com esse valor inteiro aqui.
+
+26
+00:02:23,580 --> 00:02:29,270
+O resultado só seria inteiro se todos os envolvidos digamos assim a operação fosse inteiro.
+
+27
+00:02:29,270 --> 00:02:34,830
+Mas nesse caso aqui o tipo do tipo da água aqui é uma possibilidade então para a gente usar a média
+
+28
+00:02:35,380 --> 00:02:48,360
+eu posso colocar aqui existem alguns que em média muito a bola o coloca aqui nove pontos oito e cinco
+
+29
+00:02:48,720 --> 00:02:51,680
+pontos sete versus olhe passou não.
+
+30
+00:02:51,890 --> 00:02:55,760
+O resultado é 7 pontos 75 foi aprovado.
+
+31
+00:02:55,950 --> 00:03:02,040
+Aqui eu vou tirar o w não vou colocar vou deixar apenas uns 2 valores para que você também possa saber
+
+32
+00:03:02,040 --> 00:03:07,200
+que os tipos também a possibilidade é válida embora eu prefiro trabalhar com essa forma mais enxuta
+
+33
+00:03:07,200 --> 00:03:15,620
+que eu acho que vai caber tudo na mesma é legal está no site por 75 vou criar uma outra ou outra e outra
+
+34
+00:03:15,630 --> 00:03:21,800
+lambida vai fazer um pouco mais de possibilidades e para isso eu preciso ter um pouco mais de flexibilidade
+
+35
+00:03:21,810 --> 00:03:22,690
+que eu quero fazer.
+
+36
+00:03:22,690 --> 00:03:28,650
+Cara eu recebi duas notas e quero retornar nessa lambida.
+
+37
+00:03:28,960 --> 00:03:32,300
+O estatuto do aluno está aprovado ou reprovado.
+
+38
+00:03:32,310 --> 00:03:35,550
+Pra fazer isso eu não consigo fazer uma operação binária.
+
+39
+00:03:35,550 --> 00:03:36,040
+Por quê.
+
+40
+00:03:36,150 --> 00:03:40,090
+Porque eu precisei receber dois números ele vai ter que me retornar uma string.
+
+41
+00:03:40,140 --> 00:03:46,170
+Isso não dá para fazer uma operação binária porque a interface é um pouco mais restritiva.
+
+42
+00:03:46,440 --> 00:03:51,950
+Mas é muito simples pra fazer isso eu vou usar aqui um baile funk e eu tenho 3 tipos.
+
+43
+00:03:51,950 --> 00:03:56,690
+Agora tem uma flexibilidade total o tipo do primeiro tipo do segundo tipo de retorno.
+
+44
+00:03:56,730 --> 00:03:58,560
+O primeiro vai ser o W.
+
+45
+00:03:58,590 --> 00:04:05,210
+O segundo tipo também será um dado porque eu tenho duas notas da ABL e o resultado será distribuído.
+
+46
+00:04:05,280 --> 00:04:11,190
+Aqui eu vou colocar o nome da função para esse resultado recebe aqui embaixo eu vou fazer o seguinte
+
+47
+00:04:11,190 --> 00:04:26,030
+você tenho VIRGULA EM DOIS E o resultado vai ser o seguinte o rock aqui aqui mais 2 dividido por 2 se
+
+48
+00:04:26,030 --> 00:04:30,950
+isso aqui era eu vou colocar isso aqui também entre parênteses só pra não ter nenhum problema.
+
+49
+00:04:31,130 --> 00:04:38,450
+Se isso aqui for maior ou igual a sete significa que o resultado será aprovado.
+
+50
+00:04:38,450 --> 00:04:45,930
+Caso contrário o resultado será pronto para colocar um ponto e vírgula que agora tem uma função que
+
+51
+00:04:45,950 --> 00:04:48,680
+faz um pouco mais de responsabilidade além dele.
+
+52
+00:04:48,760 --> 00:04:55,310
+Ela calcula a média certa ela vai também converter essa média para os estados pra gente usar.
+
+53
+00:04:55,370 --> 00:04:59,360
+Eu posso até as possibilidade de fazer o seguinte.
+
+54
+00:04:59,810 --> 00:05:09,230
+Eu posso jogar isso aqui pra cima para provocar a pneumonia e colocar o de chave se eu colocar o par
+
+55
+00:05:09,230 --> 00:05:13,040
+de chaves no posso inclusive calcular média.
+
+56
+00:05:13,060 --> 00:05:26,660
+Em outro momento aqui estão por exemplo o caso da ABL nota final recebe isso certo e ponto e vírgula
+
+57
+00:05:27,310 --> 00:05:31,180
+portanto se na verdade CB.
+
+58
+00:05:31,280 --> 00:05:41,840
+Isso aqui sem a verificação do teste aqui embaixo coloca a nota final algo 7.
+
+59
+00:05:41,960 --> 00:05:47,900
+Ele vai jogar por outro lado caso contrário vai colocar reprovado e finalmente que o vírus já que esse
+
+60
+00:05:47,890 --> 00:05:54,170
+aqui também é uma inspiração ou seja uma sentença de corte termina com perigo pra gente testar.
+
+61
+00:05:54,290 --> 00:05:57,260
+Muito simples como colocar aquele resultado.
+
+62
+00:05:57,650 --> 00:06:08,330
+Ponto a Clay e vou colocar por exemplo coloquei 9 contra 8 vezes e não tirou 9 pontos 7 9 8 7.
+
+63
+00:06:08,450 --> 00:06:15,470
+Aqui embaixo ele tirou 5 pontos certos tirou nota pouco menor dos dois.
+
+64
+00:06:15,500 --> 00:06:17,350
+As duas avaliações.
+
+65
+00:06:17,430 --> 00:06:25,660
+Resultado o valor será provado e colocar por exemplo 4 pontos no Estado será reprovado.
+
+66
+00:06:25,670 --> 00:06:31,670
+Servem então estacionado diretamente a gente já chegou e fez as duas coisas tanto calculou a média como
+
+67
+00:06:31,670 --> 00:06:36,730
+também calculou se a média mole do Q7 pra ele mostrasse Aprovado Reprovado.
+
+68
+00:06:36,740 --> 00:06:43,550
+Nesse caso a gente tem uma função pequena também que faz que duas responsabilidades não seria algo tão
+
+69
+00:06:44,000 --> 00:06:51,950
+complicado assim de lidar com isso mas de certa forma essa primeira expressão aqui ela é mais reutilizável
+
+70
+00:06:52,200 --> 00:06:58,160
+certo e a função média eu posso criar uma outra função que eu vou chamar aqui em lá de conceito só pra
+
+71
+00:06:58,160 --> 00:06:59,430
+não misturar os nomes.
+
+72
+00:06:59,700 --> 00:07:08,680
+Eu vou criar uma certa função então aqui já vou de ponto flutuante que vai receber como parâmetro da
+
+73
+00:07:08,860 --> 00:07:15,470
+ABL e vai retornar o trilho que vai ser o conceito da pessoa então conceito.
+
+74
+00:07:15,770 --> 00:07:22,850
+Eu vou esperar receber aqui um valor de médio então seria um m que iriam fazer eu sei em mi maior igual
+
+75
+00:07:22,850 --> 00:07:24,050
+a 7.
+
+76
+00:07:24,200 --> 00:07:29,210
+Aí aqui eu vou retornar aprovado aprovado.
+
+77
+00:07:29,260 --> 00:07:35,300
+Caso contrário eu vou retornar para lá como o Grande tinha esse código.
+
+78
+00:07:35,300 --> 00:07:38,540
+Vou colocar a minha lá pra cima pra baixo.
+
+79
+00:07:38,550 --> 00:07:44,120
+Pronto agora tem uma função conceito e tem uma função média calcula a média que é um operador binário
+
+80
+00:07:44,500 --> 00:07:50,300
+mas que retorna um valor do tipo W e esse valor do tipo pode ser passado como parâmetro para a minha
+
+81
+00:07:50,300 --> 00:07:55,940
+função o conceito de tal forma que eu posso ter essa mesma funcionalidade em vez de estar concentrado
+
+82
+00:07:55,940 --> 00:08:02,300
+em uma única função posso ter duas funções e usar composição de funções pra me ajudar a ter funções
+
+83
+00:08:02,300 --> 00:08:02,960
+menores.
+
+84
+00:08:03,200 --> 00:08:08,750
+Então pra eu testar colocar em System além de preencher Aline então faz o seguinte João média.
+
+85
+00:08:09,030 --> 00:08:15,520
+Quem Brenno vou passar não posso passar um ano na função binária por exemplo 7 sei que ou geraria um
+
+86
+00:08:15,520 --> 00:08:22,730
+problema mas eu posso passar um conceito de conceito que é uma função que é bom parâmetro ponto a Clay
+
+87
+00:08:22,850 --> 00:08:29,170
+e vou passar aqui por exemplo onde 9 pontos 7 e 4.
+
+88
+00:08:29,600 --> 00:08:36,500
+Ou seja eu tenho a possibilidade de ter a mesma coisa só que usando composição de funções funções menores.
+
+89
+00:08:36,590 --> 00:08:42,560
+Se eu passar aqui 5 pontos você vai ver que o resultado será a prova tão legal.
+
+90
+00:08:42,560 --> 00:08:48,590
+O fato de a gente entender um pouco mais as interfaces faz exemplos que de certa forma capturam aquilo
+
+91
+00:08:48,590 --> 00:08:53,780
+que a gente viu no exemplo passado e entendeu um pouquinho desses princípios da programação funcional.
+
+92
+00:08:53,840 --> 00:08:59,150
+Ou seja essa ideia de você ter funções pequenas é fazer uma composição de funções pra você implementar
+
+93
+00:08:59,150 --> 00:09:06,140
+um algorítimo maior faz todo o sentido te ajuda a ter um alto grau de uso nas funções ou seja escrever
+
+94
+00:09:06,140 --> 00:09:11,170
+a lógica em apenas um único local e que essa lógica faça algo bem específico.
+
+95
+00:09:11,180 --> 00:09:16,440
+E aí se você quiser fazer uma junção dessas lógicas você usa a composição de funções.
+
+96
+00:09:16,430 --> 00:09:18,430
+Então eu fico por aqui até a próxima aula.
+
+97
+00:09:18,440 --> 00:09:21,150
+Ainda no nosso capítulo de lambidas.

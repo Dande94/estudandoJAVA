@@ -1,0 +1,947 @@
+1
+00:00:00,270 --> 00:00:05,590
+Agora nós vamos falar sobre o tipo Mestrinho embora a gente já esteja usando tipos de outras aulas.
+
+2
+00:00:05,640 --> 00:00:07,910
+é muito importante uma aula focada nesse tipo.
+
+3
+00:00:07,910 --> 00:00:13,740
+A gente vê tanto algumas funcionalidades como entender alguns conceitos desse tipo tão importante depois
+
+4
+00:00:13,740 --> 00:00:20,310
+dos tipos primitivos que são os oito tipos básicos da linguagem as Triangle e o outro tipo seria o nono
+
+5
+00:00:20,310 --> 00:00:25,300
+tipo mais importante da linguagem talvez até mais importante do que alguns primitivos.
+
+6
+00:00:25,620 --> 00:00:31,950
+Mas no caso de trigo nada mais é do que um conjunto de caracteres que é um valor básico da linguagem
+
+7
+00:00:31,950 --> 00:00:37,890
+e que puxar mais ele tem alguns tratamentos especiais de linguagem eu quero conversar com vocês sobre
+
+8
+00:00:37,890 --> 00:00:38,500
+isso.
+
+9
+00:00:38,820 --> 00:00:42,520
+Então para iniciar nós vamos criar aqui uma nova classe Class.
+
+10
+00:00:42,550 --> 00:00:49,260
+O nome do nosso Darcy será do tipo string e eu não vou colocar somente string para não gerar conflito
+
+11
+00:00:49,290 --> 00:00:51,400
+com o tipo de string do Java.
+
+12
+00:00:51,400 --> 00:00:56,730
+O Duolingo serve então por isso eu crio o nome da classe tipo string que vai ficar mais fácil para não
+
+13
+00:00:56,730 --> 00:01:01,320
+gerar nenhum conflito de nomes não que isso seja um problema mas vou deixar a qualificação um pouco
+
+14
+00:01:01,320 --> 00:01:08,070
+mais chato que você tem que colocar agora todos os tipos o tipo string de uma forma completa em Java
+
+15
+00:01:08,240 --> 00:01:14,970
+outro lenga industrial já que há um conflito se você usar o nome da classe com sendo string então inicialmente
+
+16
+00:01:14,970 --> 00:01:16,960
+eu vou colocar aqui o System Alt.
+
+17
+00:01:17,100 --> 00:01:23,330
+Vou colocar um valor literal a gente já viu que é possível usamos o valor literal colocar funcionalidades
+
+18
+00:01:23,340 --> 00:01:25,020
+então se eu coloco por exemplo.
+
+19
+00:01:26,670 --> 00:01:32,080
+Olá pessoal e eu coloco aqui ponto chave.
+
+20
+00:01:32,430 --> 00:01:35,180
+Ou seja qual é a letra no índice.
+
+21
+00:01:35,200 --> 00:01:35,970
+Zero.
+
+22
+00:01:36,000 --> 00:01:39,110
+Ele vai colocar a letra do hino fizeram a letra.
+
+23
+00:01:39,540 --> 00:01:40,700
+Então.
+
+24
+00:01:41,100 --> 00:01:42,780
+Você vai ver que é literal.
+
+25
+00:01:42,810 --> 00:01:46,110
+Qual é o índice 1 0 1 2 3.
+
+26
+00:01:46,110 --> 00:01:47,280
+Qual é a letra no índice.
+
+27
+00:01:47,280 --> 00:01:53,730
+3 o espaço branco também vai colocar o espaço em branco e assim com ela entra no índice.
+
+28
+00:01:53,730 --> 00:02:00,190
+2 Quando você vai ver o que é acentuado então essa é uma funcionalidade pertencente ao estricnina.
+
+29
+00:02:00,210 --> 00:02:06,330
+Você consegue ler pegar letras específicas dentro de um estranho e mais do que isso aqui eu estou mostrando
+
+30
+00:02:06,330 --> 00:02:12,210
+o fato de que nós a partir de um valor literal já tinha mostrado isso na aula de natação conto a partir
+
+31
+00:02:12,210 --> 00:02:18,150
+de um valor literal sem ter uma variável associada você consegue ainda assim chamar as funcionalidades
+
+32
+00:02:18,510 --> 00:02:24,810
+de um string como a string não é um tipo primitivo você consegue chamar a funcionalidade da estreia
+
+33
+00:02:24,810 --> 00:02:28,370
+em ou coisa que não tem anotação ponto ao tipo primitivo.
+
+34
+00:02:28,370 --> 00:02:33,660
+Como falei anteriormente assim como a gente fez no outro exemplo eu vou criar uma variável e assim vou
+
+35
+00:02:33,660 --> 00:02:35,090
+colocar aqui.
+
+36
+00:02:35,140 --> 00:02:36,030
+Boa tarde.
+
+37
+00:02:36,470 --> 00:02:41,920
+E nós vamos trabalhar com algumas das funcionalidades das trilhas atuais colocando aqui insistem em
+
+38
+00:02:41,920 --> 00:02:43,440
+algo assim.
+
+39
+00:02:43,440 --> 00:02:49,450
+Ponto para a gente usar aqui a primeira funcionalidade chama aquilo com Cat passando monstrinho então
+
+40
+00:02:49,470 --> 00:02:55,470
+qualquer aqui três exclamações você vai ver que o resultado vai ser boa tarde.
+
+41
+00:02:55,470 --> 00:03:01,950
+Se eu duplicar essa linha e usar o símbolo de mais nenhum símbolo de adição que nesse caso não significa
+
+42
+00:03:02,100 --> 00:03:07,990
+uma soma significam a concatenação vai ter um resultado muito parecido com um card.
+
+43
+00:03:08,140 --> 00:03:10,670
+Na verdade o Estado vai ser exatamente o mesmo.
+
+44
+00:03:10,710 --> 00:03:16,890
+Uma observação importante com relação a este fim é o fato de que a Time é um objeto imutável o que significa
+
+45
+00:03:16,890 --> 00:03:23,570
+que você nunca vai conseguir mudar o valor inicial que você atribui hoje 30 no caso que Boa tarde mas
+
+46
+00:03:23,610 --> 00:03:28,760
+eu não consigo fazer por exemplo assim recebi esse ponto.
+
+47
+00:03:28,770 --> 00:03:36,470
+Jogo perfeito por exemplo 7 você consegue fazer isso mas você não está modificando o valor inicial dentro
+
+48
+00:03:36,650 --> 00:03:38,650
+que foi armazenada parte da letra S.
+
+49
+00:03:38,820 --> 00:03:46,370
+Você está substituindo o valor que está na letra S pelo valor de S.Paulo ou porque é esse de pagar mesmo
+
+50
+00:03:46,370 --> 00:03:51,040
+esse time coloca em letra maiúscula mas você não está modificando o valor original.
+
+51
+00:03:51,030 --> 00:03:54,530
+Depois vocês vão ver a diferença mais na frente do que querem dizer.
+
+52
+00:03:54,540 --> 00:04:01,150
+O fato é que você consegue substituir o valor de GS mas não modificar o valor original exceto se eu
+
+53
+00:04:01,170 --> 00:04:05,190
+por exemplo fiz assim recebi.
+
+54
+00:04:05,310 --> 00:04:06,810
+Bom dia.
+
+55
+00:04:06,810 --> 00:04:13,470
+Aqui eu estou substituindo completamente o valor sem mesmo usar o valor de gs original de tal forma
+
+56
+00:04:13,470 --> 00:04:19,220
+que daqui pra frente o resultado vai ser bom dia 7 que substitui o valor da mesma forma que eu substituir
+
+57
+00:04:19,250 --> 00:04:21,720
+que eu não estou modificando o valor.
+
+58
+00:04:21,720 --> 00:04:27,030
+Boa tarde como acontece em outros cenários e outros títulos você consegue modificar o valor no caso
+
+59
+00:04:27,100 --> 00:04:30,830
+que você não consegue porque tinha um objeto imutável.
+
+60
+00:04:30,930 --> 00:04:37,640
+Então continuando para chamar outras funcionalidades da Trindade eu posso olhar e saber se restringiam
+
+61
+00:04:37,760 --> 00:04:47,070
+a esse ponto Estás f ou seja inicia com eu coloco aqui boa será casting inicial ou não com a palavra
+
+62
+00:04:47,070 --> 00:04:49,930
+boas é dado o valor será verdadeiro falso.
+
+63
+00:04:50,250 --> 00:04:52,230
+Nesse caso o valor é verdadeiro.
+
+64
+00:04:52,350 --> 00:05:00,790
+Se usar o mesmo exemplo e colocar a letra b minúscula você vai perceber que o resultado correto ele
+
+65
+00:05:00,790 --> 00:05:05,360
+vai dar um estalo falso porque ele não inicia com a letra boa minúscula.
+
+66
+00:05:05,590 --> 00:05:08,750
+Se ele quiser por exemplo fazer junta aqui.
+
+67
+00:05:08,860 --> 00:05:10,450
+Ju.
+
+68
+00:05:10,680 --> 00:05:16,320
+E aí sim passar um estilingue em letra minúscula pra não considerar letras maiúsculas e minúsculas.
+
+69
+00:05:16,510 --> 00:05:19,260
+Você vai ver agora sim o Estado vai ser tu.
+
+70
+00:05:19,290 --> 00:05:25,090
+Porque antes de saber mais trigo começa com boa eu transformei era pra longe.
+
+71
+00:05:25,090 --> 00:05:28,330
+Depois da comparação o que nesse caso deu errado.
+
+72
+00:05:28,870 --> 00:05:34,260
+Então nem tudo que é o resultado de um metro e de um estilingue vai retornar um ao outro extremo.
+
+73
+00:05:34,320 --> 00:05:39,880
+Vai depender do tipo de funcionalidade se você por exemplo quer saber quantos caracteres tem uma string.
+
+74
+00:05:39,890 --> 00:05:46,390
+Assim como o lance ou seja o comprimento executado o resultado vai dar um valor inteiro no caso de 9
+
+75
+00:05:46,720 --> 00:05:53,600
+7 então algumas funcionalidades das em retornam novas estrias assim como algumas funcionalidades e tornam
+
+76
+00:05:53,620 --> 00:06:01,100
+outros valores no caso de inicia com um baita Anabela ou falso Luis Barreto o anão de balão inteiro.
+
+77
+00:06:01,150 --> 00:06:06,740
+Outra função também que você usa muito é o S ponto em inglês.
+
+78
+00:06:06,940 --> 00:06:12,350
+Por exemplo coloca na final colocar termina com dia uma exclamação.
+
+79
+00:06:12,520 --> 00:06:19,650
+O resultado é falso o que não termina com a exclamação termina sem exclamação tão exaltada não vai dar.
+
+80
+00:06:19,650 --> 00:06:20,700
+Boa tarde.
+
+81
+00:06:21,130 --> 00:06:28,270
+Boa tarde executado aqui o resultado vai dar verdadeiro ou seja começa com boa maiúsculo sim depois
+
+82
+00:06:28,270 --> 00:06:33,690
+de transformar para a letra minúscula que começa com boa letra minúscula e finalmente termina com tag
+
+83
+00:06:33,730 --> 00:06:41,700
+eu também posso colocar aqui todo em maiúsculo tarde e ao mesmo tempo usar aqui o jogo perfeito para
+
+84
+00:06:41,700 --> 00:06:44,020
+testar o Estado também será verdadeiro.
+
+85
+00:06:44,020 --> 00:06:51,090
+Outra funcionalidade também muito importante da histria é a comparação de igualdade que é o icon estão.
+
+86
+00:06:51,210 --> 00:06:55,110
+Esse ponto e caos certo com S.
+
+87
+00:06:55,130 --> 00:06:58,010
+Nesse caso vou colocar aqui.
+
+88
+00:06:58,090 --> 00:07:04,630
+Boa tarde vou colocar a batalha com b minusculo você vai ver que o resultado vai dar falso porque não
+
+89
+00:07:04,630 --> 00:07:08,540
+é igual mas eu tenho outra funcionalidade que é o caos.
+
+90
+00:07:08,630 --> 00:07:15,940
+Ignore Keys exceto nesse caso ele não vai olhar essa letra maiúscula minúsculo se for igual ele vai
+
+91
+00:07:15,940 --> 00:07:22,120
+dar o estado verdadeiro ou seja nesse caso o Estado será verdadeiro porque o ícone é dinamarquês e Wayne
+
+92
+00:07:22,150 --> 00:07:28,330
+não vai considerar letras maiúsculas e minúsculas qualquer caractere diferente acentuação sem acentuação
+
+93
+00:07:28,720 --> 00:07:32,730
+ele vai levar em consideração as letras maiúsculas e minúsculas também não.
+
+94
+00:07:32,740 --> 00:07:39,100
+Eu também poderia usar associado com o título hoje gays por exemplo show de Lorde gays.
+
+95
+00:07:39,150 --> 00:07:39,870
+Ponto.
+
+96
+00:07:39,980 --> 00:07:43,040
+E ele também vai dar um estado verdadeiro.
+
+97
+00:07:43,240 --> 00:07:49,150
+Mas esse caso seria mais interessante você usar diretamente a função que já desconsidera letras maiúsculas
+
+98
+00:07:49,150 --> 00:07:50,200
+e minúsculas.
+
+99
+00:07:50,230 --> 00:07:56,430
+Falei pra vocês que vocês podem criar variáveis como Va e o Java fazer a inferência na Intel levar nome
+
+100
+00:07:56,860 --> 00:08:04,360
+recebe Pedro ele vai fazer experiência vai colocar algo em nome da mesma forma o sobrenome recebe por
+
+101
+00:08:04,360 --> 00:08:11,170
+exemplo Santos ele vai se associar pelo tipo da variável que foi colocado em sobrenome ele sabe que
+
+102
+00:08:11,170 --> 00:08:12,710
+também representa um estranho.
+
+103
+00:08:12,730 --> 00:08:17,530
+Isso faz com que você também tenha associado a essas variáveis por exemplo e ponto alguma coisa ele
+
+104
+00:08:17,770 --> 00:08:23,680
+vai achar pra você todas as funcionalidades que estão disponíveis instruindo da mesma forma que se você
+
+105
+00:08:23,680 --> 00:08:29,460
+tivesse criado um variável do tipo string colocando aqui outras variáveis por exemplo idade baixinho
+
+106
+00:08:29,550 --> 00:08:33,680
+o valor inteiro e finalmente o valor do salário vai ser um valor da W.
+
+107
+00:08:33,970 --> 00:08:38,650
+Porque por padrão ele colocando a bola não sei que você colocou o F no final que ele vai inferir que
+
+108
+00:08:38,650 --> 00:08:40,570
+você tem uma variável do tipo Flows.
+
+109
+00:08:40,570 --> 00:08:47,770
+Tanto faz é que no caso Cloud o dado não é incomum você ter situações que você precisa por exemplo daqui
+
+110
+00:08:47,770 --> 00:08:54,650
+o System pontual que você vai colocar nome em dois pontos vai concatenar com a variável nome.
+
+111
+00:08:54,660 --> 00:09:04,900
+Aí você coloca mais e aí você coloca o sobrenome em dois pontos e coloca aqui por exemplo a variável
+
+112
+00:09:04,900 --> 00:09:05,900
+sobrenome.
+
+113
+00:09:05,920 --> 00:09:11,350
+Nesse caso nem ficou tão claro mais ele mais juntar um nome junto com o sobrenome barcas.
+
+114
+00:09:11,410 --> 00:09:18,520
+Estranho a visualização final quando ele colocou o nome Pedro tudo junto de sobrenome você tem que lembrar
+
+115
+00:09:18,520 --> 00:09:25,940
+de ficar nos espaços ou mesmo andando de um bairro pra ele quebra a linha exata novamente ao nome Pedro
+
+116
+00:09:25,940 --> 00:09:32,690
+o sobrenome Santos é muito chato você tem que em alguns contextos ficava nessa concatenação por exemplo
+
+117
+00:09:32,690 --> 00:09:43,590
+ao espaço idade em dois pontos colocar apenado com a idade de mais idade concatenar mais.
+
+118
+00:09:43,690 --> 00:09:51,910
+Depois disso até um salário espaço um salario dois pontos colocar apenado com um salário fica uma sentença
+
+119
+00:09:51,910 --> 00:10:00,190
+de código gigantesca ou seja já sumiu do mapa faz tempo eu posso colocar aqui no espaço Berrini depois
+
+120
+00:10:00,200 --> 00:10:08,300
+eu posso colocar aqui embaixo se quiser também também nós temos o nome sobrenome idade salário e aí
+
+121
+00:10:08,300 --> 00:10:14,690
+não é tão legal você fazer várias concatenação para quebrar em múltiplas linhas aqui para aparecer tudo
+
+122
+00:10:14,690 --> 00:10:20,320
+dentro da nossa ideia mas ainda assim tem esse trabalho de ficar concatenar as estrias e tal.
+
+123
+00:10:20,330 --> 00:10:27,320
+Outra possibilidade que você tem no caso do System algum ponto prende Aline você pode substituir o System
+
+124
+00:10:27,320 --> 00:10:31,900
+coca naquele sistema contou Harald brindes.
+
+125
+00:10:32,340 --> 00:10:39,700
+E aí você usa uma string de formatação por exemplo aqui um nome em dois pontos bola é.
+
+126
+00:10:40,150 --> 00:10:46,700
+E aqui eu posso usar a variável de nome e aí te colocar um ponto final obviamente você vai perceber
+
+127
+00:10:46,700 --> 00:10:55,030
+que ele vai exibir o valor de nome e no final nome Pedro vai até colocar aqui no final mais mais e concatenar
+
+128
+00:10:55,200 --> 00:10:58,250
+os dois espaços duas linhas em branco.
+
+129
+00:10:58,490 --> 00:11:01,400
+Você vai ver que ele colocou Pedro aqui no final.
+
+130
+00:11:01,400 --> 00:11:09,860
+Eu posso colocar um outro bola aqui e eu coloco aqui vírgula sobre o sobrenome que vai fazer com que
+
+131
+00:11:09,860 --> 00:11:12,930
+ele substitua o nome no primeiro dólar.
+
+132
+00:11:12,950 --> 00:11:15,100
+Esse é o sobrenome no segundo.
+
+133
+00:11:15,100 --> 00:11:26,380
+Não é assim tão adaptando o nome Pedro Santos Então ou coloca naquele senhor Pedro Santos tem.
+
+134
+00:11:26,430 --> 00:11:29,090
+E aqui eu vou colocar bola dei.
+
+135
+00:11:29,220 --> 00:11:31,880
+Que tal substituir valores inteiros.
+
+136
+00:11:31,970 --> 00:11:38,850
+E aqui eu posso colocar idade já vou quebrar na outra minha para ficar mais claro.
+
+137
+00:11:38,870 --> 00:11:39,900
+Meu código todo.
+
+138
+00:11:39,980 --> 00:11:48,530
+Colocar um ponto no final executando ao Senhor Pedro Santos tem 33 anos e ganha vou colocar aqui em
+
+139
+00:11:48,530 --> 00:11:50,340
+Angola F.
+
+140
+00:11:50,530 --> 00:11:51,090
+F.
+
+141
+00:11:51,500 --> 00:11:53,350
+E ganha aí o passado.
+
+142
+00:11:53,460 --> 00:12:05,130
+Salário salário ou seja controle total no código ele vai mostrar que o seu roupeiro Santos tem 33 anos
+
+143
+00:12:05,650 --> 00:12:12,160
+dois anos e anos e ganha e antes ganhava qualquer um e um prazer.
+
+144
+00:12:12,230 --> 00:12:22,050
+Quanto mais ele ganha ganha status reais aí note que no final colocou 12 mil trazendo 45 8 9 8 7 0 0
+
+145
+00:12:22,050 --> 00:12:29,330
+0 colocou seis dígitos no final e aí você pode personalizar e colocar um ponto dois pra dizer que você
+
+146
+00:12:29,330 --> 00:12:32,630
+quer que seja exibido aqui bola.
+
+147
+00:12:32,710 --> 00:12:39,190
+Ponto 2 pra que você possa dizer quantas casas decimais você quer que tenha na estreia gerada que eu
+
+148
+00:12:39,200 --> 00:12:43,820
+vou colocar pra baixo na verdade colocar senhas para ficar mais mais claro.
+
+149
+00:12:43,820 --> 00:12:52,910
+Certo que você vai ver o senhor Pedro Santos tem 33 anos e ganha 12 mil trezentos e 45 contra 99 ele
+
+150
+00:12:53,000 --> 00:12:58,430
+só colocou duas casas decimais porque eu falei para ele colocar aqui duas casas decimais essa é uma
+
+151
+00:12:58,430 --> 00:13:03,290
+forma interessante e você pode usar exatamente essa mesma estrutura.
+
+152
+00:13:03,350 --> 00:13:10,900
+Você pode colocar no GF Como eu posso fazer o seguinte após criar monstrinhos de ponto ao cabo que fazem
+
+153
+00:13:11,150 --> 00:13:19,560
+recebe string ponto Format ele vai me dar exatamente a mesma coisa e copiar isso e colocar dentro Format.
+
+154
+00:13:19,990 --> 00:13:25,950
+Eu consigo a mesma coisa a mesma estrutura do projeto só que agora dentro de uma variável string que
+
+155
+00:13:26,030 --> 00:13:31,510
+agora posso usar o System Audio cliente além de passar na frase que o resultado é exatamente o mesmo.
+
+156
+00:13:32,030 --> 00:13:38,450
+Nesse caso aqui eu vou colocar um Barrinha no final pra ele cavalo nessa parada eu tenho aqui outra
+
+157
+00:13:38,450 --> 00:13:45,380
+frase exatamente igual o senhor Pedro Santos tem 33 anos e ganha 12 mil trazendo 45 outro 99.
+
+158
+00:13:45,950 --> 00:13:50,990
+Ou seja o String Format também é uma forma que você tem de criar uma estria indie em vez de você ficar
+
+159
+00:13:50,990 --> 00:13:56,870
+concatenar gerando todos os distritos concatenar duas você pode usar o formato pra colocar esses símbolos
+
+160
+00:13:56,870 --> 00:14:02,510
+especiais dentro da Astrid e depois substitui variáveis e o próprio já vai lá.
+
+161
+00:14:02,590 --> 00:14:09,380
+Então qual esse valor e substituir as variáveis que você passou pra cada porcentagem alguma coisa porcentagem
+
+162
+00:14:09,380 --> 00:14:17,670
+essa porcentagem S são os crimes porcentagem D são valores inteiros porcentagem F em valores ponto flutuante.
+
+163
+00:14:17,660 --> 00:14:23,230
+Aqui você também pode definir até quantas casas decimais você quer exibir e da mesma forma que eu usei
+
+164
+00:14:23,240 --> 00:14:29,690
+esse monte de concatenação dentro de um brinde Aline eu poderia muito bem tirar isso criar aqui uma
+
+165
+00:14:29,690 --> 00:14:40,970
+variável tão distribui mais uma frase recebe esse valor com o que viu aqui no final e eu passo mais
+
+166
+00:14:41,120 --> 00:14:43,990
+uma frase pra cá também não uma possibilidade.
+
+167
+00:14:44,050 --> 00:14:49,850
+Você pode criar um monstrinho e a partir da concatenação de várias outras distribui junto com os trilhos
+
+168
+00:14:49,850 --> 00:14:55,370
+junto com valores inteiros e no final se você pegar esse time e somar o valor inteiro o resultado vai
+
+169
+00:14:55,370 --> 00:14:57,180
+ser a junção das coisas né.
+
+170
+00:14:57,260 --> 00:15:03,770
+A concatenação total também realidades extremamente parecem existir algo muito importante a gente vai
+
+171
+00:15:03,810 --> 00:15:09,490
+usar no exterior do nosso curso praticamente todos os exercícios na grande maioria deles é algo que
+
+172
+00:15:09,490 --> 00:15:14,910
+naturalmente você vai aprendendo e outras questões mais profundas sobre strings que não faz muito sentido
+
+173
+00:15:14,910 --> 00:15:20,550
+ao entrar no mérito da questão nesse ponto no uso mais o mais importante é você saber usar string.
+
+174
+00:15:20,620 --> 00:15:26,740
+Outra coisa que eu aconselho vocês principalmente pra quem está começando é você explorar a própria
+
+175
+00:15:26,750 --> 00:15:34,460
+página Astrid né você faz o seguinte ou você coloca que o System Alt coloca uma frase qualquer aqui
+
+176
+00:15:34,780 --> 00:15:40,870
+e coloca ponto não contra o espaço e começa a ver bem quais são as possibilidades que você tem por exemplo
+
+177
+00:15:41,270 --> 00:15:42,270
+tens.
+
+178
+00:15:42,520 --> 00:15:52,110
+Será que essa mistura contém qual dentro de frase qualquer item dentro dela a palavra é igual a zero
+
+179
+00:15:52,600 --> 00:15:58,660
+você vai ver que é verdadeiro ou seja dentro de frases qualquer tem igual e aí você pode.
+
+180
+00:15:58,660 --> 00:16:03,920
+Você tem várias possibilidades para você estar explorando a então duplica a linha.
+
+181
+00:16:03,960 --> 00:16:10,120
+Blatter está outra funcionalidade então nem tudo faz sentido ou ficar se lixando pra não virá mais ou
+
+182
+00:16:10,120 --> 00:16:13,190
+menos uma enciclopédia de todas as funcionalidades.
+
+183
+00:16:13,180 --> 00:16:17,350
+Mas você tem a possibilidade de ter várias outras possibilidades aqui dentro.
+
+184
+00:16:17,500 --> 00:16:24,810
+Então qual é o índice da palavra em qual dentro dessa frase eu coloco a palavra qual já que exige se
+
+185
+00:16:24,810 --> 00:16:35,110
+eu daqui e tal você vai ver que ele está na posição 6 então 0 2 3 4 5 6 ou seja a partir do 6 começa
+
+186
+00:16:35,620 --> 00:16:44,050
+a palavra qual outra função muito importante é o subscrito ou seja você pegar o trecho da Trindade então
+
+187
+00:16:44,080 --> 00:16:51,190
+coloca naquele subdistrito e aí você pode dizer ao cargo que começa a partir do caractere 6 e aí o 6
+
+188
+00:16:51,190 --> 00:16:52,580
+ele vai incluir.
+
+189
+00:16:52,840 --> 00:16:58,480
+Você vai dizer que ele começou a partir do 6 e colocou qualquer subdistrito e também tem um segundo
+
+190
+00:16:58,480 --> 00:17:00,700
+parâmetro o segundo parâmetro.
+
+191
+00:17:00,780 --> 00:17:02,840
+Se você der um contra espaço você vai ver.
+
+192
+00:17:02,980 --> 00:17:08,800
+O primeiro é o índice inicial que inclusive ele entrou nessa você colocou uma essa do 6 o 6 vai entrar
+
+193
+00:17:09,190 --> 00:17:14,600
+e você tem o índice final então se eu colocar por exemplo ele vai até o 8.
+
+194
+00:17:14,860 --> 00:17:23,650
+Então nesse caso já que ele começa do 6 ele vai 6 7 8 mais 8 não entra no resultado final então ele
+
+195
+00:17:23,650 --> 00:17:26,910
+vai até o 7 e o quê.
+
+196
+00:17:27,070 --> 00:17:32,290
+Nesse caso ele vai selecionar essas duas letras lembrando que o 6 e inclusive ele vai incluir o caractere
+
+197
+00:17:32,290 --> 00:17:36,070
+6 mas ele não vai incluir o caractere 8.
+
+198
+00:17:36,070 --> 00:17:46,390
+Então quando você vai estar aqui o que você coloca até o 10 ele vai pegar aquilo 6 7 8 9 10 mas ele
+
+199
+00:17:46,390 --> 00:17:50,770
+não vai usar o 10 porque está fora do reino vai pegar até o 9.
+
+200
+00:17:50,770 --> 00:17:57,970
+Se você Passo 10 mas ele não vai pegar o 10 não está incluído na sua estreia em Salvador e você vai
+
+201
+00:17:57,970 --> 00:17:59,070
+ver que ele vai pegar a palavra.
+
+202
+00:17:59,070 --> 00:18:04,710
+Qual então tem muitas outras funcionalidades importantes da histria que você pode explorar.
+
+203
+00:18:04,930 --> 00:18:07,240
+Como se estivesse em casa uma vez que terminei o exercício.
+
+204
+00:18:07,240 --> 00:18:14,980
+Você pode lá não olhar em outras funcionalidades ler artigos sobre o assunto é extremamente importante
+
+205
+00:18:14,980 --> 00:18:20,110
+eu acho que faz parte da vida de qualquer programador tentar ser independente.
+
+206
+00:18:20,110 --> 00:18:23,530
+é claro que um curso desses vai te dar uma sequência lógica de como aprender.
+
+207
+00:18:23,530 --> 00:18:30,010
+Claro que vai ter conceitos importantes de orientação a objeto que eu demorei muitos meses ou anos para
+
+208
+00:18:30,010 --> 00:18:30,750
+aprender.
+
+209
+00:18:30,910 --> 00:18:36,880
+E o custo desse bate da forma muito direta aquilo que você precisa levar em consideração.
+
+210
+00:18:36,880 --> 00:18:43,180
+Boas práticas de programação isso é muito legal ter um curso como essa sua disposição vai te dá um caminho
+
+211
+00:18:43,180 --> 00:18:45,430
+muito mais curto pra você evoluir.
+
+212
+00:18:45,700 --> 00:18:51,730
+Mas por outro lado é importante que você também aprenda a andar com suas próprias pernas no início você
+
+213
+00:18:51,730 --> 00:18:57,670
+vai copiar o exercício de forma literal vai olhar cada frase no olhar cada sentença de código você vai
+
+214
+00:18:57,670 --> 00:19:03,540
+copiar as frases ou copiar sentenças de código vai executar o código e eventualmente vai ter o erro
+
+215
+00:19:03,790 --> 00:19:10,090
+canalizando vai exatamente faltou isso ou aquilo ou outro mas com o passar dos capítulos das aulas você
+
+216
+00:19:10,090 --> 00:19:17,580
+também pode criar algo um hábito de não tentar copiar exatamente como eu fiz e tentar por exemplo.
+
+217
+00:19:17,620 --> 00:19:23,380
+Assisti à aula vi como foi claro pela mistura e terminado o desafio era terminar o exercício.
+
+218
+00:19:23,380 --> 00:19:27,550
+Eu vou fechar o Brasil aqui minimizar o Brasil e vou tentar fazer com minhas próprias a minha própria
+
+219
+00:19:27,550 --> 00:19:30,440
+cabeça sem olhar o código e ficar copiando.
+
+220
+00:19:30,470 --> 00:19:36,820
+Você tenta eventualmente você vai errar e com o tempo você percebe que vai precisar cada vez menos de
+
+221
+00:19:36,820 --> 00:19:39,090
+olhar literalmente cada coisa.
+
+222
+00:19:39,100 --> 00:19:44,440
+Você vai acabar prestando atenção naquilo que foi feito no conceito que foi ensinado e você vai conseguir
+
+223
+00:19:44,440 --> 00:19:50,290
+replicar aquilo que você já domina sem algumas sentenças de códigos mais básicas porque você domina
+
+224
+00:19:50,650 --> 00:19:52,140
+algumas estruturas de controle.
+
+225
+00:19:52,150 --> 00:19:55,680
+Porque você sabe que é uma classe sabe criar isso e aquilo outro.
+
+226
+00:19:55,750 --> 00:20:02,080
+Você vai conseguir fazer as coisas sem necessariamente ficar cada um dos passos é importante copiar.
+
+227
+00:20:02,120 --> 00:20:07,420
+Eu acho que o processo de imitar é extremamente essencial no processo de aprendizado.
+
+228
+00:20:07,420 --> 00:20:12,010
+Basta você ver uma criança aprender a falar que você vai perceber que esse processo de imitar é muito
+
+229
+00:20:12,010 --> 00:20:18,610
+importante mas também depois de um tempo que você começa a imitá lo se já vai pegar a sintaxe e a semântica
+
+230
+00:20:18,610 --> 00:20:24,370
+básica de um programa em Java e aí você consegue também tentar improvisar improvisada com suas próprias
+
+231
+00:20:24,370 --> 00:20:25,090
+pernas.
+
+232
+00:20:25,110 --> 00:20:30,560
+Eu te aconselho a fazer isso não apenas nesse capítulo Fundamentos mas também durante todo o curso.
+
+233
+00:20:30,680 --> 00:20:34,150
+Vê um exercício que você pode copiar alguns exercícios e outros.
+
+234
+00:20:34,140 --> 00:20:41,410
+Você tenta improvisar um pouco tentar não senão copiar a palavra por palavra baixa tentar fazer exatamente
+
+235
+00:20:41,410 --> 00:20:46,990
+o mesmo exercício o mesmo colhe que foi proposto na aula e a partir daí você começa a ganhar fluência
+
+236
+00:20:46,990 --> 00:20:48,190
+muito maior da linguagem.
+
+237
+00:20:48,190 --> 00:20:50,120
+Tenho certeza que isso vai te ajudar bastante.

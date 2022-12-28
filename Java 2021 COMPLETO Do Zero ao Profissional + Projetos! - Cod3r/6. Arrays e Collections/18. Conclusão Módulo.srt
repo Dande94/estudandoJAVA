@@ -1,0 +1,55 @@
+1
+00:00:00,220 --> 00:00:03,490
+Só chegamos ao final do nosso capítulo de Collection.
+
+2
+00:00:03,690 --> 00:00:07,910
+Fazemos muitas coisas interessantes dos fundamentos tanto de Harry.
+
+3
+00:00:08,100 --> 00:00:14,100
+Vimos uma a três coleções sete Elixir Map pilha fila.
+
+4
+00:00:14,240 --> 00:00:19,780
+Vamos ver ainda em outros capítulos principalmente quando foi falar disto em apêndice Twins.
+
+5
+00:00:19,890 --> 00:00:24,990
+Vai ser muito importante também a gente dessa base para que a gente possa construir outras lógicas mais
+
+6
+00:00:24,990 --> 00:00:30,420
+interessantes usando essa nova API que foi introduzida no Java 8 que tem alguns conceitos de um paradigma
+
+7
+00:00:30,420 --> 00:00:36,270
+chamado programação funcional que foi a partir dessa adição em Java 8 que a gente teve um pouco do mundo
+
+8
+00:00:36,270 --> 00:00:40,920
+do paradigma funcional dentro do Java que é a linguagem muito focado na orientação objeto.
+
+9
+00:00:40,980 --> 00:00:46,710
+Mais ainda temos muitas coisas interessantes para gente ver Java com muita calma todos os exercícios
+
+10
+00:00:46,770 --> 00:00:52,080
+mas ainda temos muitas coisas para a gente explorar do Java está bem perto a gente começar a trazer
+
+11
+00:00:52,080 --> 00:00:57,780
+mais projetos pra dentro do Java que está construindo as bases da linguagem para que você tenha bases
+
+12
+00:00:57,780 --> 00:01:03,660
+sólidas para a partir daí você é para os desafios maiores mais gente vai ter sim projetos aqui do curso
+
+13
+00:01:04,080 --> 00:01:09,180
+e você não perde por esperar espero que vocês estejam gostando do curso até então eu espero na próxima
+
+14
+00:01:09,180 --> 00:01:11,760
+sessão do nosso curso completo de Java e até lá.

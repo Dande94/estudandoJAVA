@@ -1,0 +1,663 @@
+1
+00:00:00,340 --> 00:00:07,230
+Agora vou mostrar para vocês um exemplo sobre herança certo e eu quero falar algumas outras coisas também
+
+2
+00:00:07,230 --> 00:00:07,910
+nesse desafio.
+
+3
+00:00:07,920 --> 00:00:14,450
+Nesse exemplo pra que a gente possa entender alguns outros mecanismos importantes de Jabba especificamente
+
+4
+00:00:14,460 --> 00:00:22,050
+eu quero falar nessa aula sobre ele e eu vou colocar lo dentro do contexto do nosso exercício de herança.
+
+5
+00:00:22,410 --> 00:00:28,510
+Mas eu quero minha pra mostrar um pouquinho pra vocês como funciona a ética é um outro tipo de estrutura.
+
+6
+00:00:28,740 --> 00:00:31,170
+Além da classe que você pode criar em Java.
+
+7
+00:00:31,560 --> 00:00:38,370
+Então para isso nós vamos criar aqui primeiramente uma nova classe e o Class é o nome dessa classe que
+
+8
+00:00:38,370 --> 00:00:39,000
+eu vou criar.
+
+9
+00:00:39,000 --> 00:00:41,820
+Não vai estar dentro de óculos de composição.
+
+10
+00:00:41,820 --> 00:00:49,190
+Eu quero colocar aqui dentro o pacote herança certa para ele criar um novo pacote dentro de ainda é
+
+11
+00:00:49,230 --> 00:00:51,890
+o nome da classe e será jogado.
+
+12
+00:00:52,320 --> 00:00:58,770
+Então nós vamos criar uma classe mais um jogo que você vai criar um jogo 2D que vai ter vários jogadores
+
+13
+00:00:58,770 --> 00:01:00,220
+dentro de um tabuleiro.
+
+14
+00:01:00,300 --> 00:01:03,330
+E aí você tem uma classe genérica chamada jogador.
+
+15
+00:01:03,330 --> 00:01:13,010
+Esse jogador vai ter por exemplo uma posição x dentro de um tabuleiro lá possui uma posição específica
+
+16
+00:01:13,740 --> 00:01:21,890
+X e Y e você tem a posição x e y em todo o jogador ele tem a possibilidade de andar dentro do tabuleiro
+
+17
+00:01:21,900 --> 00:01:27,360
+por exemplo então vou colocar uma lógica muito complexa pra não entrar muito nos detalhes do algoritmo
+
+18
+00:01:27,810 --> 00:01:31,060
+mas dá para fazer alguns exercícios bem legais com relação a isso.
+
+19
+00:01:31,510 --> 00:01:32,400
+é o jogador.
+
+20
+00:01:32,400 --> 00:01:40,380
+Ele tem um método chamado por exemplo vai na mulher para saber se o jogador andou ou não se ele conseguiu
+
+21
+00:01:40,380 --> 00:01:41,570
+andar certo.
+
+22
+00:01:41,580 --> 00:01:48,900
+Então por exemplo não pode andar para a linha X ou Y negativo porque o tabuleiro começa do zero zero
+
+23
+00:01:48,930 --> 00:01:54,270
+que seria a quina do tabuleiro e ele vai crescendo até 100 100 por exemplo então dependendo da situação
+
+24
+00:01:54,270 --> 00:01:59,370
+você pode tentar mandar para uma determinada direção e ele simplesmente não andar com quem não tem mais
+
+25
+00:01:59,650 --> 00:02:01,900
+digamos assim a área para o boneco andar.
+
+26
+00:02:01,990 --> 00:02:07,620
+E aqui você pode passar algum parâmetro para o boneco andar tipo assim eu quero que o boneco ande por
+
+27
+00:02:07,620 --> 00:02:08,340
+Norte.
+
+28
+00:02:08,640 --> 00:02:10,310
+Eu quero que o boneco ande para o sul.
+
+29
+00:02:10,320 --> 00:02:12,990
+Eu quero que ele ande para leste para o Oeste.
+
+30
+00:02:13,260 --> 00:02:19,020
+Então escolhe passar algum parâmetro para identificar isso em cima disso a gente vai incrementar o da
+
+31
+00:02:19,190 --> 00:02:20,170
+metade.
+
+32
+00:02:20,310 --> 00:02:27,120
+A questão do X do item dependendo da situação é aqui nesse contexto de andar que eu quero colocar pra
+
+33
+00:02:27,120 --> 00:02:33,870
+vocês o exemplo do uso de numeração da pra isso eu vou criar aqui uma nova classe só para a gente testar
+
+34
+00:02:33,870 --> 00:02:34,460
+o jogador.
+
+35
+00:02:34,590 --> 00:02:40,110
+Então vou colocar aqui por exemplo o jogo que seria a nossa classe que vai ter um metro no meio.
+
+36
+00:02:40,710 --> 00:02:45,920
+E aqui nós vamos criar um homem nessa classe que nós vamos inicialmente distanciar um jogador ainda
+
+37
+00:02:45,920 --> 00:02:54,430
+não falando especificamente de herança eu vou colocar aqui j que serei o jogador recebe mil jogadores.
+
+38
+00:02:54,540 --> 00:02:59,090
+Então nesse caso nosso código aqui está para além porque ele precisa retornar ao bullying.
+
+39
+00:02:59,520 --> 00:03:02,900
+Então vou colocar aqui só por enquanto o título falso certo.
+
+40
+00:03:02,910 --> 00:03:06,820
+Ou então retornar ou dizer que ele realmente conseguiu andar.
+
+41
+00:03:06,930 --> 00:03:13,110
+E aqui eu vou criar uma nova classe que vai ser o seguinte ao criar aqui uma nova classe não uma nova
+
+42
+00:03:13,180 --> 00:03:19,710
+em 7 Você tem aqui mil Rio você tem pacote classe interface o terceiro o quarto melhor dizendo aqui
+
+43
+00:03:20,040 --> 00:03:25,620
+depois da linha e hino é aqui eu vou criar um hino chamado direção.
+
+44
+00:03:25,740 --> 00:03:34,530
+Eu poderia só criar um ano eu poderia passar aqui no estribos para receber por exemplo direção e em
+
+45
+00:03:34,530 --> 00:03:37,530
+cima desse monstrinho ou mesmo um valor inteiro.
+
+46
+00:03:37,530 --> 00:03:40,790
+O codificador poderia passar direção como sendo um estranho.
+
+47
+00:03:40,820 --> 00:03:48,250
+Não posso colocar aqui j um ponto andar passando aqui a direção norte.
+
+48
+00:03:48,540 --> 00:03:50,010
+Qual a desvantagem disso.
+
+49
+00:03:50,010 --> 00:03:54,540
+O que você precisa saber exatamente qual é o texto que você precisa passar.
+
+50
+00:03:54,600 --> 00:04:02,270
+Ou mesmo se for um valor do tipo inteiro você precisa saber exatamente que representa o norte e o U2
+
+51
+00:04:02,270 --> 00:04:06,660
+e apresenta o leste o 3 o sul o 4 Oeste.
+
+52
+00:04:06,660 --> 00:04:08,960
+Você precisa ficar fazendo o mapeamento.
+
+53
+00:04:08,970 --> 00:04:11,160
+Isso não torna o código muito simples.
+
+54
+00:04:11,220 --> 00:04:15,150
+Então aqui dentro do jogador você poderia fazer um teste aqui.
+
+55
+00:04:15,300 --> 00:04:20,870
+Se a direção pontuou ou então fazer até o contrário né.
+
+56
+00:04:21,240 --> 00:04:29,800
+Sim Astrid é norte e os ignore Keys foi igual à direção.
+
+57
+00:04:30,090 --> 00:04:36,120
+Então nesse caso para algo mandar para o Norte você vai incrementar o valor do item ou então ele vai
+
+58
+00:04:36,120 --> 00:04:37,710
+descer no tabuleiro por nós.
+
+59
+00:04:37,740 --> 00:04:42,050
+Então você vai pegar aqui por exemplo y mais mais.
+
+60
+00:04:42,150 --> 00:04:48,270
+Ou seja se ele está na posição 00 que é o padrão você vai incrementar o equilíbrio com o nosso estado
+
+61
+00:04:49,030 --> 00:04:56,190
+de tal forma que se eu vim aqui no jogo e pedir pra ele andar por Norte algumas vezes no final se a
+
+62
+00:04:56,190 --> 00:05:05,770
+gente olhar o valor de um jogador posição iPhone você vai ver que ele realmente andou quatro posições
+
+63
+00:05:05,770 --> 00:05:11,430
+certo para nós dois três quatro começou a se movimentar dentro do tabuleiro.
+
+64
+00:05:11,440 --> 00:05:14,520
+Outra coisa interessante que pode até fazer aqui certo.
+
+65
+00:05:14,600 --> 00:05:19,210
+E não vou mexer não constou nome pois eu me mês mais à frente para mostrar algumas coisas interessantes
+
+66
+00:05:19,210 --> 00:05:26,770
+sobre herança estavam a começar pelo 00 mesmo e se você quiser fazer alguma mexida de jogador ou coloca
+
+67
+00:05:26,770 --> 00:05:36,700
+X igual a 10 é jogador ponto é igual a 20 ou seja esse jogador está na posição 10 e na posição 20 do
+
+68
+00:05:36,700 --> 00:05:37,550
+tabuleiro.
+
+69
+00:05:37,690 --> 00:05:43,170
+Pedi pra mandar para o Note 4 vezes executar não fui para a posição 20 quadro legal.
+
+70
+00:05:43,170 --> 00:05:48,700
+Como é que eu poderia agora substituir esse tipo de parâmetro pra um parâmetro mais interessante.
+
+71
+00:05:48,700 --> 00:05:51,550
+Você até poderia passar o valor inteiro né.
+
+72
+00:05:51,550 --> 00:05:54,400
+Outra possibilidade seria você jogadores e a direção.
+
+73
+00:05:54,400 --> 00:05:57,450
+Vai ser um valor do tipo.
+
+74
+00:05:57,580 --> 00:06:05,830
+Então faça aqui um juiz e aí você vai fazer o seguinte se a direção for igual igual quer dizer que ele
+
+75
+00:06:05,830 --> 00:06:11,890
+vai dar para o norte e você vai ter que criar aqui provavelmente uma série de comentários pra você dizer
+
+76
+00:06:11,920 --> 00:06:19,570
+que a direção pode ser um inteiro e que representam o Norte o 2 e apresenta isso aquilo outro mais não
+
+77
+00:06:19,570 --> 00:06:25,890
+é uma estratégia interessante porque quando você fizer isso quando você coloca aqui ou por exemplo ande
+
+78
+00:06:26,380 --> 00:06:33,710
+pra direção não fica claro pra você o que se trata em si mas assim o mundo está condena aqui ao norte.
+
+79
+00:06:34,000 --> 00:06:38,770
+Então não há também uma forma interessante pra você fazer isso do jeito que tá aqui vai funcionar ele
+
+80
+00:06:38,770 --> 00:06:45,100
+vai continuar dando pro norte se você passar por exemplo vale o 2 ele não vai fazer absolutamente nada
+
+81
+00:06:45,100 --> 00:06:49,360
+vai contra a posição 20 mas não é uma estratégia também interessante.
+
+82
+00:06:49,840 --> 00:06:55,210
+O que nós vamos fazer aqui é usar uma numeração a numeração serve pra quando você tem uma quantidade
+
+83
+00:06:55,210 --> 00:06:56,950
+definida de possibilidades.
+
+84
+00:06:56,950 --> 00:07:04,060
+Por exemplo os dias da semana segunda terça quarta e quinta sexta sábado e domingo os meses do ano janeiro
+
+85
+00:07:04,060 --> 00:07:06,870
+fevereiro março abril maio até dezembro.
+
+86
+00:07:06,940 --> 00:07:09,800
+Você tem uma quantidade determinada de opções.
+
+87
+00:07:09,820 --> 00:07:15,930
+Assim como o meu jogador tenho jogado aí por Norte pelo sul e leste para oeste ele não pode dar por
+
+88
+00:07:15,920 --> 00:07:17,260
+exemplo na diagonal.
+
+89
+00:07:17,290 --> 00:07:23,790
+Até poderia também colocar se fosse o caso mas esse caso ele só anda uma posição na vertical ou na horizontal
+
+90
+00:07:23,810 --> 00:07:31,430
+então você pode criar uma numeração para representar esse tipo de coisa então criado aqui ao criar o
+
+91
+00:07:32,000 --> 00:07:39,530
+Máquina de direção por exemplo aqui dentro eu coloco nem além da mera marcação as possibilidades e então
+
+92
+00:07:39,530 --> 00:07:47,210
+vou colocar aqui ao norte depois no sentido do relógio na morte depois de Marcio léxica.
+
+93
+00:07:47,440 --> 00:07:55,890
+Depois vai ser o Sul e finalmente o oeste são as quatro possibilidades que eu tenho para definir quem
+
+94
+00:07:55,930 --> 00:08:02,170
+é ou no Maraca homem simples só coloca na lista dos elementos separados como digo lá é lembrado.
+
+95
+00:08:02,170 --> 00:08:04,990
+Isso aqui não está entre aspas duplas.
+
+96
+00:08:04,990 --> 00:08:11,410
+Isso aqui não representa um monstrinho que não representa um valor numérico embora exista associado
+
+97
+00:08:11,410 --> 00:08:19,990
+aí o valor 0 1 2 e 3 aqui certo para a numeração e era uma oração pode ter outros atributos você pode
+
+98
+00:08:19,990 --> 00:08:25,450
+criar métodos e atributos dentro de uma numeração não vou fazer isso nesse exemplo vou focar no exemplo
+
+99
+00:08:25,450 --> 00:08:32,080
+mais simples quero simplesmente usar os valores da numeração uma vez que eu criei o hino e também definiu
+
+100
+00:08:32,080 --> 00:08:40,140
+o tipo assim como a classe de tal forma que o meu jogador ele pode receber como parâmetro a direção
+
+101
+00:08:40,440 --> 00:08:45,750
+então até aqui eu coloquei o nome errado ele acabou importando algo que não deveria mais beleza vou
+
+102
+00:08:45,770 --> 00:08:48,620
+colocar aqui outra direção também.
+
+103
+00:08:49,370 --> 00:08:55,810
+Eu vou dar aqui um Command Shift Shop para limpar os impostos e uma vez que eu recebi uma direção eu
+
+104
+00:08:55,810 --> 00:09:00,760
+preciso testar pra saber se a minha direção é do tipo norte.
+
+105
+00:09:00,820 --> 00:09:06,320
+Então a direção é igual igual à direção.
+
+106
+00:09:06,320 --> 00:09:07,990
+Ponto forte.
+
+107
+00:09:08,350 --> 00:09:13,940
+Ou seja se a direção que eu passei for pro norte ele vai pegar o Ibson e acrescentar.
+
+108
+00:09:14,050 --> 00:09:18,280
+E aqui no jogo eu preciso agora passar admiração.
+
+109
+00:09:18,290 --> 00:09:20,410
+Então posso colocar a direção.
+
+110
+00:09:20,470 --> 00:09:22,350
+Ponto forte.
+
+111
+00:09:22,450 --> 00:09:25,990
+Direção norte.
+
+112
+00:09:25,990 --> 00:09:27,250
+Direção norte.
+
+113
+00:09:27,250 --> 00:09:33,130
+Direção quando norte ou seja nesse caso ele vai mandar as quatro posições porque eu pedi pra ele andar
+
+114
+00:09:33,130 --> 00:09:35,380
+quatro vezes na direção norte.
+
+115
+00:09:35,380 --> 00:09:42,160
+Você até pode criar metros específico se você quiser eu posso 500 o jogador criar um metro chamado andar
+
+116
+00:09:42,270 --> 00:09:46,490
+norte automaticamente guiado por norte sem precisar passar um parâmetro.
+
+117
+00:09:46,490 --> 00:09:52,180
+Mas nesse caso o que eu vou preferir passar o parâmetro certo ele pode fazer aqui ou no STF ou mesmo
+
+118
+00:09:52,180 --> 00:09:53,020
+no switch.
+
+119
+00:09:53,020 --> 00:09:56,710
+Aqui também daria certo fazer um sei onde você tem um switch.
+
+120
+00:09:56,820 --> 00:10:05,930
+Toca aqui sem completar a direção como sendo um parâmetro e aqui dentro eu vou colocar aqui ok.
+
+121
+00:10:06,630 --> 00:10:13,260
+Norte no caso norte significa que ele vai colocar aqui algo pessoal mais mais.
+
+122
+00:10:13,270 --> 00:10:19,920
+No final das contas ele vai chamar aquilo e não vai chamar um certo pra sair.
+
+123
+00:10:19,960 --> 00:10:23,870
+Outra possibilidade existe lanche o coloca aqui.
+
+124
+00:10:23,910 --> 00:10:30,970
+Slash certo indo para o lanchinho significa que ele vai acrescentar o X no entanto vai fazer x mais
+
+125
+00:10:30,970 --> 00:10:34,440
+mais baixa maquiou buracos.
+
+126
+00:10:34,480 --> 00:10:40,030
+Se eu tiver Cuisine Sul significa que ele está indo para o sul o norte.
+
+127
+00:10:40,030 --> 00:10:42,550
+Na verdade o Norte não é mais mais o norte.
+
+128
+00:10:42,580 --> 00:10:50,060
+Ele vai subir então ele vai ser menos do Sul e que é o idioma mais mas ele vai descer para o sul na
+
+129
+00:10:50,080 --> 00:10:55,720
+Itália acrescentando o valor do Y imagine que aqui eu tenho o meu tabuleiro tudo depende da referência
+
+130
+00:10:55,720 --> 00:10:56,760
+na verdade né.
+
+131
+00:10:56,820 --> 00:11:05,330
+Que meu tabuleiro aqui na superior esquerda é o 00 ele aumentado o X pra cá e o Y para baixo.
+
+132
+00:11:05,360 --> 00:11:11,100
+Certo No meu caso aqui no vídeo eu estou indo da esquerda para a direita aumentando o valor do X que
+
+133
+00:11:11,150 --> 00:11:12,420
+o coloca na CSU.
+
+134
+00:11:12,730 --> 00:11:13,630
+Mas eu gostei.
+
+135
+00:11:13,670 --> 00:11:20,960
+Eu tenho os menos menos y ele vai subindo para o Sul eu vou colocar o Ibson mais mais para o leste ele
+
+136
+00:11:20,960 --> 00:11:24,960
+vai aumentando X e XI ele vai diminuindo x.
+
+137
+00:11:25,020 --> 00:11:34,120
+Então hoje o pega aqui o X menos menas e vou dar também um saque então esses são os casos não vai ter
+
+138
+00:11:34,120 --> 00:11:42,530
+um caso de folk rock aos dois pontos não vai ter o caso de fogo e no final das contas eu retorno TRU.
+
+139
+00:11:43,030 --> 00:11:47,700
+Ou então no caso de fogo e aqui por exemplo não retorno certo.
+
+140
+00:11:47,890 --> 00:11:55,400
+Você é o mais eu preciso além de ter as direções eu preciso verificar se o valor atual já não é zero
+
+141
+00:11:55,420 --> 00:12:01,330
+e tal e tal muito provavelmente se você precisar de um nível de teste mais apurado você não iria usar
+
+142
+00:12:01,330 --> 00:12:08,860
+o seguinte eu iria usar o F é falso então é certo conforme mostrei eu não posso acrescentar o valor
+
+143
+00:12:08,860 --> 00:12:11,840
+de y pra ir pra patamares negativos por exemplo.
+
+144
+00:12:11,850 --> 00:12:18,940
+Então além de você receber a direção você precisa verificar se o valor de x ou determinado valor se
+
+145
+00:12:18,940 --> 00:12:24,430
+diferem fizeram mais do que zero e tal qual você vai acreditar então isso e provavelmente vai gerar
+
+146
+00:12:24,430 --> 00:12:30,640
+alguns testes mais complexos aí você precisa recorrer ao chefe não sei suíço por enquanto eu vou deixar
+
+147
+00:12:30,640 --> 00:12:32,320
+assim só pra gente.
+
+148
+00:12:32,500 --> 00:12:36,220
+Como exemplo aqui porque o meu foco nessa aula marchar pra vocês.
+
+149
+00:12:36,270 --> 00:12:42,670
+Uso do certo embora já esteja no contexto do curso do exercício de herança e nós vamos continuar esse
+
+150
+00:12:42,670 --> 00:12:46,780
+exercício na próxima aula para falar um pouquinho de herança que de certa forma abriu um parênteses
+
+151
+00:12:47,140 --> 00:12:49,590
+pra falar um pouco da enumeração.
+
+152
+00:12:49,900 --> 00:12:54,280
+Então tá achando que o jogo eu posso colocar aqui andei pelo norte.
+
+153
+00:12:54,520 --> 00:13:02,510
+Depois mandei lá Collection e depois andei por norte de novo e depois andei pelo leste e novamente só
+
+154
+00:13:02,510 --> 00:13:04,740
+pra gente ver realmente ele se mexia.
+
+155
+00:13:04,740 --> 00:13:06,170
+Vou começar do 10 10.
+
+156
+00:13:06,220 --> 00:13:11,920
+Então nesse caso como ele ele foi para o norte ele subiu e ele foi para o leste então ele acrescentou
+
+157
+00:13:12,250 --> 00:13:21,930
+o isso e diminuiu X não diminuiu o X e acrescentou o Islã de tal forma que seu olhar que deixou duplicar
+
+158
+00:13:21,940 --> 00:13:25,500
+essa linha ou colocar o valor de x e o valor de y.
+
+159
+00:13:25,610 --> 00:13:31,810
+O X foi pra 12 porque eu fui pro leste então ele aumentou o valor de x e o Norte ele diminuiu o valor
+
+160
+00:13:31,820 --> 00:13:37,630
+disse um pouco ele começou a subir no tabuleiro serve tão só mostra pra vocês aqui a questão da numeração
+
+161
+00:13:37,930 --> 00:13:43,690
+que também é algo importante assim como a classe de um tipo a numeração é um valor especial para definir
+
+162
+00:13:43,710 --> 00:13:47,110
+tipos uma quantidade determinada de opções.
+
+163
+00:13:47,110 --> 00:13:52,550
+Por exemplo como é o caso da semana dos meses do ano e no caso aqui no nosso exemplo a direção que ele
+
+164
+00:13:52,600 --> 00:13:57,880
+só pode dessas quatro possibilidades norte sul leste e oeste que são as quatro possibilidades que nós
+
+165
+00:13:57,880 --> 00:14:03,280
+definimos a nossa numeração na próxima loja vamos continuar criando mais algumas possibilidades com
+
+166
+00:14:03,280 --> 00:14:09,550
+relação ao nosso joguinho aqui só pra mostrar algumas coisas interessantes e aplicar herança para lá.

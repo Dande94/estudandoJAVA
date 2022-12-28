@@ -1,0 +1,519 @@
+1
+00:00:00,120 --> 00:00:04,920
+Pessoal na sala quero falar um pouquinho pra vocês dos tipos de erros depois eu vou entrar um pouco
+
+2
+00:00:04,920 --> 00:00:11,430
+mais em detalhe especificamente na parte de exceções que são exceções checadas e não checadas mais só
+
+3
+00:00:11,430 --> 00:00:13,280
+pra dar um panorama geral né.
+
+4
+00:00:13,320 --> 00:00:15,740
+Você tem basicamente dois tipos de erros.
+
+5
+00:00:15,750 --> 00:00:21,750
+Você tem alguns erros que são detectados pelo compilador e chama esses erros.
+
+6
+00:00:21,780 --> 00:00:29,910
+Erros de compilação certo então os erros de compilação impedem o processo que é o processo natural.
+
+7
+00:00:29,940 --> 00:00:37,230
+Você tem um arquivo Java com código fonte e gerar o seu arquivo pronto Class ou seja o compilador não
+
+8
+00:00:37,230 --> 00:00:39,030
+vai executar esse processo.
+
+9
+00:00:39,030 --> 00:00:45,810
+Java um topless quando você tem um erro de compilação que é digamos assim um erro que é mais fácil de
+
+10
+00:00:45,810 --> 00:00:52,530
+detectar um erro de compilação não é o que gera tantos problemas porque o próprio compilador já para
+
+11
+00:00:52,590 --> 00:00:56,040
+esse processo uma vez o compilador parou nesse processo.
+
+12
+00:00:56,040 --> 00:01:00,070
+Você não consegue nem fazer a sua aplicação e ser executado para frente.
+
+13
+00:01:00,090 --> 00:01:09,810
+Esse tipo de processo de compilação acontece em Java porque Java ele compila o seu código para uma linguagem
+
+14
+00:01:09,870 --> 00:01:15,960
+intermediária que é interpretada pela máquina virtual exatamente o processo que tem de você sai de um
+
+15
+00:01:15,960 --> 00:01:18,950
+arquivo pouco Java para um arquivo Class.
+
+16
+00:01:19,020 --> 00:01:26,900
+Linguagens que são interpretadas por exemplo PHP e a linguagem interpretada JavaScript a linguagem interpretada
+
+17
+00:01:26,900 --> 00:01:31,140
+o que acontece um interpretador lê diretamente o código que você escreveu.
+
+18
+00:01:31,140 --> 00:01:35,940
+E aí você não tem esse conceito de linha de erros de compilação.
+
+19
+00:01:35,940 --> 00:01:36,330
+Por quê.
+
+20
+00:01:36,330 --> 00:01:39,250
+Porque você não tem um processo de compilação.
+
+21
+00:01:39,270 --> 00:01:42,990
+Até existem por exemplo no PHP que a linguagem interpretada.
+
+22
+00:01:42,990 --> 00:01:47,340
+Formas de compilar para ter uma otimização maior é uma coisa muito específica.
+
+23
+00:01:47,340 --> 00:01:54,190
+Existem algumas linguagens interpretadas como citei na JavaScript é um bambi e outra PHP também e ouvir
+
+24
+00:01:54,230 --> 00:02:00,720
+essas linguagens não tem assim seguro de compilação porque o código que você escreve é o código que
+
+25
+00:02:00,720 --> 00:02:03,370
+será interpretado na hora de executar.
+
+26
+00:02:03,420 --> 00:02:09,190
+Certo Só que Java sim tem esse processo você executa um arquivo ponto então pra vocês estão arquivo.
+
+27
+00:02:09,660 --> 00:02:15,960
+Antes tem que ter um processo de compilação não é uma compilação que vai gerar um arquivo interpretado
+
+28
+00:02:15,960 --> 00:02:20,140
+pelo Windows nem pelo Linux nem pelo Mac nem pelo seu celular.
+
+29
+00:02:20,280 --> 00:02:26,150
+Ele vai ser interpretado pela máquina virtual mas não é o código fonte que é interpretado e sim o que
+
+30
+00:02:26,160 --> 00:02:30,290
+ali não é um arquivo ponto Less que usa uma linguagem intermediária.
+
+31
+00:02:30,300 --> 00:02:35,720
+Existem outros tipos de erro que são erros de tempo de execução.
+
+32
+00:02:35,870 --> 00:02:41,440
+Voltar aqui qualquer um vermelhinho para sempre os erros que nós vamos tratar mas aqui que são os erros
+
+33
+00:02:41,520 --> 00:02:48,660
+em tempo de execução então os erros em tempo de execução são os erros que vão acontecer com o seu programa
+
+34
+00:02:48,660 --> 00:02:53,640
+já foi compilado quando o usuário está acessando seu programa e por algum motivo aconteceu um erro pode
+
+35
+00:02:53,640 --> 00:02:56,850
+ser erros que foram previstos por você.
+
+36
+00:02:56,850 --> 00:03:04,280
+Por exemplo se eu tentar acessar o banco de dados e por algum motivo o banco de dados não está disponível.
+
+37
+00:03:04,290 --> 00:03:10,020
+Alguém tirou o cabo de rede eu estou tentando acessar um arquivo remoto e não consigo e aí em uma situação
+
+38
+00:03:10,040 --> 00:03:15,090
+dessa você vai acabar prevendo esse tipo de cenário que pode acontecer se eu tentar fazer um download
+
+39
+00:03:15,090 --> 00:03:16,400
+de um arquivo exigiu.
+
+40
+00:03:16,400 --> 00:03:22,710
+Há uma possibilidade não muito remota de que por algum motivo o usuário esteja tentando baixar um arquivo
+
+41
+00:03:22,740 --> 00:03:27,180
+sem internet então esse é um cenário que você vai precisar usar o tratamento de exceção que é aquele
+
+42
+00:03:27,180 --> 00:03:29,130
+que será abordado nesse capítulo.
+
+43
+00:03:29,130 --> 00:03:33,390
+Pra que você no caso de erro você tem de fazer algum tipo de ação.
+
+44
+00:03:33,400 --> 00:03:37,940
+Se acontecer um erro eu vou tentar esperar 30 segundos para repetir novamente.
+
+45
+00:03:38,370 --> 00:03:40,890
+Ou se aconteceu o erro eu vou tentar três vezes.
+
+46
+00:03:40,890 --> 00:03:44,450
+Caso não consiga eu mostro a mensagem para o usuário.
+
+47
+00:03:44,460 --> 00:03:48,940
+Que tipo de tratamento como você vai tentar lidar com a situação de erro.
+
+48
+00:03:48,960 --> 00:03:53,610
+é exatamente o trabalho que você tem na hora de tratar a mensagem como você vai lidar com isso.
+
+49
+00:03:53,610 --> 00:03:58,500
+Dentro do Java os erros que acontecem quando o programa está sendo executado.
+
+50
+00:03:58,560 --> 00:04:00,260
+Existem basicamente dois.
+
+51
+00:04:00,260 --> 00:04:06,770
+Na verdade você tem um hierarquia de erros que seria mais ou menos um ataque de classe baseada em área.
+
+52
+00:04:06,770 --> 00:04:16,350
+Se você tem a mão em todos os problemas que podem acontecer em Java estão dentro de uma classe chamada
+
+53
+00:04:17,120 --> 00:04:24,360
+COBOL e a partilha trombou ou seja algo que pode ser lançado diferentemente de outros mecanismos em
+
+54
+00:04:24,360 --> 00:04:27,280
+Java é uma exceção ou um erro.
+
+55
+00:04:27,480 --> 00:04:32,710
+Ele é lançado ou seja sua aplicação você tem esse conceito de sua aplicação.
+
+56
+00:04:32,730 --> 00:04:38,820
+Interrompi o momento que aconteceu o erro e lançou um erro quando esse erro é lançado.
+
+57
+00:04:38,820 --> 00:04:45,420
+Acontece uma parada naquele momento e quem chamou aquela funcionalidade aquele método quis todo ou todo
+
+58
+00:04:45,420 --> 00:04:51,900
+algoritmo é Java acontece dentro de métodos de que somente de classes esses métodos podem lançar exceções
+
+59
+00:04:51,900 --> 00:04:57,420
+assim como também não dá brecha para lançar exceções também mas o alemão DAX brecha nada mais é do que
+
+60
+00:04:57,420 --> 00:05:02,290
+um método implementado a partir de uma interface na altura acabou sendo um metro de qualquer forma.
+
+61
+00:05:02,710 --> 00:05:07,090
+Então quando você lança um erro você vai acabar interrompendo aquele processo.
+
+62
+00:05:07,090 --> 00:05:14,860
+Quem chamou o método será responsável por tratar o erro ou simplesmente não fazer nada e isso vai propagando
+
+63
+00:05:14,860 --> 00:05:16,470
+até o começo do seu programa.
+
+64
+00:05:16,530 --> 00:05:23,060
+Em algum momento você vai precisar tratar mais só falando aqui do ponto de vista dado os erros que acontecem
+
+65
+00:05:23,060 --> 00:05:24,010
+em tempo de execução.
+
+66
+00:05:24,010 --> 00:05:31,210
+Você tem uma classe definida em Java chamada Trouble ou seja algo que pode ser lançado seria mais ou
+
+67
+00:05:31,210 --> 00:05:32,550
+menos como lançava.
+
+68
+00:05:32,650 --> 00:05:37,430
+Ou seja tudo o que é lançavam em Java vai estar de bafômetro.
+
+69
+00:05:37,480 --> 00:05:46,280
+Na verdade você tem duas grandes estruturas de baixo trombou você tem erro aqui errou certo que seria
+
+70
+00:05:46,390 --> 00:05:58,900
+o inglês e você tem um outro tipo de classe chamada excepto Section o erro é algo que há um mecanismo
+
+71
+00:05:58,900 --> 00:06:05,430
+de herança certo um erro herda de trombou assim como é que serve também arma de fogo.
+
+72
+00:06:05,620 --> 00:06:11,890
+Erro é algo mais sério e algo mais crítico certo por exemplo o erro normalmente é lançado em algo que
+
+73
+00:06:11,890 --> 00:06:13,540
+não pode ser recuperado.
+
+74
+00:06:13,560 --> 00:06:15,970
+Chamo achar pra vocês rapidamente inativos.
+
+75
+00:06:16,030 --> 00:06:24,370
+Se você der um comando de chifre te ei TATU você vai conseguir pesquisar em todas as classes do Java
+
+76
+00:06:24,430 --> 00:06:30,220
+e da sua aplicação por exemplo se colocar o aluno vai aparecer que nós temos dois alunos um aluno bem
+
+77
+00:06:30,220 --> 00:06:34,420
+destruímos e um aluno dentro de óculos de composição.
+
+78
+00:06:34,420 --> 00:06:42,700
+Se você colocar por exemplo errou você vai ver que tem vários classes errou inclusive vai até a Java
+
+79
+00:06:42,700 --> 00:06:45,740
+ponto lenga que é o erro que eu estou falando.
+
+80
+00:06:45,760 --> 00:06:48,490
+Quisera ele apresenta algo mais grave.
+
+81
+00:06:48,520 --> 00:06:54,780
+Existe um erro bem famoso em Java que é o Alt off Memory erro.
+
+82
+00:06:55,020 --> 00:07:01,870
+Ou seja qual a sua aplicação fica sem memória você tá usando mais memória do que essa a aplicação pode
+
+83
+00:07:01,870 --> 00:07:02,440
+prover.
+
+84
+00:07:02,560 --> 00:07:09,010
+Esse é um tipo de erro tão crítico que você não consegue mais ter memória para aplicar na sua pra usar
+
+85
+00:07:09,010 --> 00:07:15,730
+na sua aplicação que simplesmente essa aplicação é para Lee ou seja esse é um tipo de cenário que é
+
+86
+00:07:15,730 --> 00:07:22,000
+algo que você não vai tanto se preocupar em tratar o que são erros mais críticos são erros que vão realmente
+
+87
+00:07:22,000 --> 00:07:28,090
+parar sua aplicação e esse é um tipo de erro que pode acontecer e sua aplicação ficou sem memória é
+
+88
+00:07:28,090 --> 00:07:34,520
+porque aquele é um erro justamente porque ele é algo mais crítico e além disso você tem que saber sempre
+
+89
+00:07:34,690 --> 00:07:41,920
+e o que seria uma exceção à regra que depois a gente vai subdividir vai ter outras situações nessa ação
+
+90
+00:07:41,960 --> 00:07:43,840
+checado não acaba mais.
+
+91
+00:07:43,840 --> 00:07:50,350
+As exceções são situações que é impossível você se reparar é possível você tratar o erro e você fazer
+
+92
+00:07:50,350 --> 00:07:56,660
+algum tipo de ação para evitá la para você mostrar para o usuário a mensagem ou você tentar repetir
+
+93
+00:07:56,660 --> 00:08:04,180
+aqui algum determinado tempo ou você salvar os dados em alguma estrutura pra depois você tentar no dia
+
+94
+00:08:04,180 --> 00:08:10,300
+seguinte então tem várias situações várias formas que você pode tratar um igual tentei obter o dólar
+
+95
+00:08:10,540 --> 00:08:14,240
+cotação do dólar a partir de um determinado site não deu certo.
+
+96
+00:08:14,380 --> 00:08:18,800
+Trato o erro como alternativa tentei em outro site de backup.
+
+97
+00:08:18,850 --> 00:08:23,650
+Então existem muitas estratégias que você pode usar para tratar exceções normalmente as exceções.
+
+98
+00:08:23,650 --> 00:08:30,860
+Você acaba tratando e erros por exemplo são coisas mais graves que de fato a sua aplicação já degringolou
+
+99
+00:08:30,880 --> 00:08:34,210
+já não é digamos assim passível de você separar.
+
+100
+00:08:34,210 --> 00:08:40,600
+Normalmente tem essa conotação é algo mais grave mais severo que normalmente não é passível de recuperação.
+
+101
+00:08:40,650 --> 00:08:44,900
+E essa ação é algo que você pode tratar com algum fluxo normal.
+
+102
+00:08:44,920 --> 00:08:48,340
+Entenda essa ação como sendo um desvio de fluxo.
+
+103
+00:08:48,340 --> 00:08:52,990
+Sua aplicação está executando de forma normal acontece uma exceção de forma abrupta.
+
+104
+00:08:52,980 --> 00:09:01,030
+Por exemplo um método que promete retornar um monstrinho ou ele retorna um estilingue ou ele vai gerar
+
+105
+00:09:01,030 --> 00:09:01,780
+uma exceção.
+
+106
+00:09:01,810 --> 00:09:06,850
+Lembrando que você pode retornar anulam associado a um estranho certo mas se você diz que vai tornar
+
+107
+00:09:06,850 --> 00:09:10,710
+um estilingue ou você retorna um texto ou é nulo.
+
+108
+00:09:10,720 --> 00:09:14,030
+Também é possível não é possível aplicar nulo no amarelo o tipo string.
+
+109
+00:09:14,470 --> 00:09:20,080
+Ou você interrompe a execução do Metro de forma abrupta com uma exceção.
+
+110
+00:09:20,110 --> 00:09:25,990
+Essa ação normalmente é tratado como já falei anteriormente então você tem erros de compilação seja
+
+111
+00:09:26,020 --> 00:09:32,110
+quando você não consegue compilar esse tipo de problema bem tranquilo porque o compilador avisa você
+
+112
+00:09:32,110 --> 00:09:39,430
+corrige o erro e aí você compila e executa e você tem erros em tempo de execução e esses erros são os
+
+113
+00:09:39,430 --> 00:09:45,160
+erros que você precisa realmente fazer teste para ter certeza que você não está entregando o código
+
+114
+00:09:45,160 --> 00:09:49,120
+com erro que você precisa se preocupar em tratar de diversas situações.
+
+115
+00:09:49,120 --> 00:09:55,870
+Por exemplo vou usar um arquivo remoto eu vou acessar um site eu vou acessar um banco de dados de o
+
+116
+00:09:55,870 --> 00:10:01,060
+banco de dados não estar disponível naquele momento então todo esse tipo de situação que foge à regra
+
+117
+00:10:01,060 --> 00:10:05,980
+de funcionar que foge à regra de você receber os dados todos corretos.
+
+118
+00:10:05,980 --> 00:10:12,070
+Você tem que a partir desse momento começar a se preocupar em aplicar as validações para que você não
+
+119
+00:10:12,370 --> 00:10:18,910
+permita digamos assim que seu sistema de forma inadequada insira informações por exemplo no banco de
+
+120
+00:10:18,910 --> 00:10:22,510
+dados que vai mais à frente que não foram validadas.
+
+121
+00:10:22,510 --> 00:10:27,880
+Se você tentar acessar o banco sempre vê o fato de o banco eventualmente não estar disponível.
+
+122
+00:10:27,880 --> 00:10:32,470
+Então tudo isso precisa ser previsto e isso você vai fazer a partir das exceções.
+
+123
+00:10:32,470 --> 00:10:36,280
+Então você tem a raiz todas as sensações e o trombo.
+
+124
+00:10:36,310 --> 00:10:44,900
+Se eu colocar aqui clipes você vai ver que alterou algo Java ponto lendo séculos é a raiz das exceções.
+
+125
+00:10:44,980 --> 00:10:46,570
+Você tem o.
+
+126
+00:10:46,910 --> 00:10:55,050
+Escreva em Direito que errou também ao Java Controller que errou e você tem que saber Section também
+
+127
+00:10:55,050 --> 00:11:01,220
+já lhe contou Lady Sérgio e a mãe de todas as ações da gente vai entrar um pouco mais em detalhe a gente
+
+128
+00:11:01,220 --> 00:11:06,950
+vai falar um pouco mais esse capítulo de essas ações que é o que a gente acaba usando com maior frequência
+
+129
+00:11:06,950 --> 00:11:11,660
+depois a gente vai entender um pouco mais os tipos dessas ações que tem que são dois grandes grupos
+
+130
+00:11:11,660 --> 00:11:13,820
+a gente vai aprender também a usar esses dois grandes grupos.

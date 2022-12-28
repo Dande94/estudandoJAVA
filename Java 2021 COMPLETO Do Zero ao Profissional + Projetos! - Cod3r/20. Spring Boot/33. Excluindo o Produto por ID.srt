@@ -1,0 +1,299 @@
+1
+00:00:00,180 --> 00:00:09,380
+Agora nós vamos fazer o leite e para isso nós vamos criar aqui porque serão também o que vai retornar
+
+2
+00:00:09,450 --> 00:00:22,440
+bois vou chamar aqui esse método de produto e vou receber a parte do Outback bom sejam variáveis de
+
+3
+00:00:22,440 --> 00:00:25,950
+perfil do produto que eu quero exclui.
+
+4
+00:00:26,580 --> 00:00:34,080
+Então a partir disso a gente vai conseguir chamar o produto repositório aí pronto.
+
+5
+00:00:34,140 --> 00:00:36,970
+Tem um limite que eu passo o próprio produto.
+
+6
+00:00:37,020 --> 00:00:41,490
+Os Moonspell que você queira consultar lo produto um produto específico.
+
+7
+00:00:41,490 --> 00:00:48,090
+Fazer alguma coisa nele para depois deletar ou você fazer um tipo de software delete aí no caso você
+
+8
+00:00:48,090 --> 00:00:56,190
+não iria deletar fisicamente e sim você iria fazer um update alterando um determinado atributo lá na
+
+9
+00:00:56,190 --> 00:00:57,000
+sua tabela.
+
+10
+00:00:57,030 --> 00:00:59,640
+Se você não sabe o que é um software delete.
+
+11
+00:01:00,000 --> 00:01:02,970
+O vídeo da olhada no YouTube que você vai encontrar vários exemplos.
+
+12
+00:01:02,970 --> 00:01:09,320
+Basicamente o software delete quando você não deleta o registro no banco de dados fisicamente.
+
+13
+00:01:09,660 --> 00:01:17,340
+é como se você criasse uma coluna mais chamada por exemplo deletado se tiver zero significa que não
+
+14
+00:01:17,340 --> 00:01:18,210
+está deletado.
+
+15
+00:01:18,210 --> 00:01:23,970
+Se você atualizar a coluna pra um não significa que está deletado nem às vezes as pessoas usam um campo
+
+16
+00:01:23,970 --> 00:01:27,330
+de data por exemplo deletado aí.
+
+17
+00:01:27,400 --> 00:01:32,280
+E aí se tiver a data acertada significa aquele registro foi deletado naquela data.
+
+18
+00:01:32,280 --> 00:01:38,430
+Caso o campo esteja nulo significa que o registro não está valendo nenhuma uma forma que você tem de
+
+19
+00:01:38,430 --> 00:01:45,490
+não excluir fisicamente o registro do banco de dados e criar uma exclusão lógica que seria um software
+
+20
+00:01:46,110 --> 00:01:52,100
+software macio onde elas são uma exclusão massiva digamos assim não sofre delete.
+
+21
+00:01:52,110 --> 00:01:57,570
+Muita gente usa até porque excluir o registro do banco de dados principalmente quando você tem uma série
+
+22
+00:01:57,570 --> 00:02:01,580
+de relacionamentos é uma tarefa um tanto quanto complicada.
+
+23
+00:02:01,580 --> 00:02:07,830
+Você tem que excluir todos os relacionamentos todas as dependências e tal então é muito comum trabalhar
+
+24
+00:02:07,830 --> 00:02:09,270
+com o software delete.
+
+25
+00:02:09,390 --> 00:02:14,700
+Então se você não conhece esse conceito a fundo se você tem alguma dúvida ainda mesmo com essa explicação
+
+26
+00:02:14,700 --> 00:02:21,400
+breve aqui dá uma olhada no Youtube que tem vários exemplos sobre isso é algo bastante simples no caso
+
+27
+00:02:21,400 --> 00:02:27,750
+o que fazer de fato a exclusão física no banco de dados então que o produto ponto repositório nós temos
+
+28
+00:02:27,750 --> 00:02:30,660
+aqui um delete a partir do próprio produto.
+
+29
+00:02:30,660 --> 00:02:34,860
+Como a gente tem aqui o Haiti vai ficar mais simples pra gente deletar parte do Haiti.
+
+30
+00:02:35,250 --> 00:02:37,330
+Então já vou receber aqui o Haiti.
+
+31
+00:02:37,410 --> 00:02:46,740
+Nesse caso eu vou ter que mapear aqui com o de lite Bing e eu precisava enfim aqui um blefe pra daqui
+
+32
+00:02:46,740 --> 00:02:54,540
+a gente ter o Haiti passado a partir do PF já que eu tenho aqui um PF bom então nós temos aqui o bairro
+
+33
+00:02:54,780 --> 00:03:01,590
+de Al Aire continua sendo a mesma da nossa classe só eu tiro os impostos desnecessários então eu tenho
+
+34
+00:03:01,590 --> 00:03:11,370
+aqui um mapa e bar produtos que eu coloco Bah aí passando a requisição do tipo delete significa que
+
+35
+00:03:11,370 --> 00:03:16,890
+ele vai chamar que o Metro exclui e se eu passar por exemplo a requisição do tipo Gate na mesma ou RL
+
+36
+00:03:16,890 --> 00:03:23,670
+ele vai chamar o hobbit produto por aí e caso o chamem passando delete ele vai excluir o produto que
+
+37
+00:03:23,670 --> 00:03:24,750
+foi passado por aí.
+
+38
+00:03:25,170 --> 00:03:26,740
+Então eu tenho duas.
+
+39
+00:03:26,910 --> 00:03:34,800
+O RL exatamente as mesmas o que está variando e o método entre o ballet e o método Gatti é a mesma coisa
+
+40
+00:03:34,800 --> 00:03:40,080
+que ótima mesmo RL que é exatamente a sua RL com dois métodos diferentes.
+
+41
+00:03:40,080 --> 00:03:48,000
+Ele está fazendo a mesma funcionalidade tanto o boss como o poucos vai fazer o Eu sei que suporta tanto
+
+42
+00:03:48,060 --> 00:03:56,970
+a inserção como a atualização melhor botão para testar para ver se realmente eu vou selecionar aqui
+
+43
+00:03:57,090 --> 00:03:59,560
+ou delete.
+
+44
+00:03:59,820 --> 00:04:04,310
+Vou passar por exemplo o produto Quinzinho que foi o último que a gente cadastrou.
+
+45
+00:04:04,320 --> 00:04:10,860
+Ou então eu tirar aqui produtos que estão com dados incompletos se você coloca maquiagem mas temos o
+
+46
+00:04:10,860 --> 00:04:12,210
+10 e 11.
+
+47
+00:04:12,660 --> 00:04:17,970
+Então passa aqui o 10 que faz mais sentido para a gente.
+
+48
+00:04:18,510 --> 00:04:26,670
+Ele não ou na nada a gente pode ver que funcionou ele vai retornar só uns 200 não dá resposta a requisição
+
+49
+00:04:26,760 --> 00:04:31,680
+dos ventos o que significa que a requisição foi executada de forma bem sucedida.
+
+50
+00:04:31,800 --> 00:04:39,720
+Agora excluindo o AI DE 11 executado não retornou nada no corpo da requisição mas ele retornou aos Estados
+
+51
+00:04:39,720 --> 00:04:47,520
+duzentos o que significa que ele executou de forma correta a gente tem aqui o iPad 5 mil 6 que está
+
+52
+00:04:47,520 --> 00:04:52,980
+exatamente igual o outro aparece como se fosse uma duplicação no nosso cadastro então eu vou apagar
+
+53
+00:04:53,910 --> 00:04:58,980
+o registro assim como e vou também apagar o registro de 6.
+
+54
+00:04:59,970 --> 00:05:05,440
+é muito fácil apagar exatamente o que a gente não tem relacionamentos mais complexos.
+
+55
+00:05:05,520 --> 00:05:10,920
+Nesse exemplo se você tivessem relacionamentos mais complexos então o que é que você faria você primeiro
+
+56
+00:05:10,920 --> 00:05:17,160
+teria que excluir os relacionamentos pra depois que depende daquele regime para depois excluir aquele
+
+57
+00:05:17,160 --> 00:05:17,790
+registro.
+
+58
+00:05:17,800 --> 00:05:22,410
+Além do mais eu tenho relacionamentos espalhados em dez tabelas diferentes.
+
+59
+00:05:22,410 --> 00:05:23,220
+Como é que eu faço.
+
+60
+00:05:23,220 --> 00:05:29,760
+Você tem que excluído de todas as tabelas para daí você exclui na tabela quem realmente você quer excluir.
+
+61
+00:05:29,880 --> 00:05:35,700
+Ou então você vai recorrer a um software Delete que é uma possibilidade muito usada no mercado.
+
+62
+00:05:36,010 --> 00:05:41,340
+E aí você tem que se ligar que sempre que você for mostrar os registros para o usuário você tem que
+
+63
+00:05:41,340 --> 00:05:48,240
+filtrar apenas os registros que não foram excluídos já que o registro continua ainda no banco de dados.
+
+64
+00:05:48,390 --> 00:05:53,820
+Então você tem que ter esse cuidado de sempre mostrar apenas os registros válidos que não foram excluídos.
+
+65
+00:05:54,360 --> 00:05:55,920
+Então essa é a nossa tabela.
+
+66
+00:05:55,970 --> 00:06:03,360
+Nós temos um dois três seis nove registros da todos eles com os dados tirando os dois primeiros aqui
+
+67
+00:06:03,360 --> 00:06:09,540
+que têm desconto zero e o preço zero e vocês para usar aí como um desafio pra chamar a função.
+
+68
+00:06:09,540 --> 00:06:16,260
+Putin é o método http: Putin para alterar tanto a geladeira como o lápis preto passando aqui tanto um
+
+69
+00:06:16,260 --> 00:06:19,330
+desconto válido como também um valor válido.
+
+70
+00:06:19,710 --> 00:06:26,070
+Então é isso pessoal até agora a gente fez o cliente e o App updates e o de elite na próxima aula a
+
+71
+00:06:26,070 --> 00:06:32,630
+gente vai fazer uma consulta apaixonada é algo extremamente importante você já deve ter visto nos sistemas
+
+72
+00:06:32,760 --> 00:06:38,690
+que você tem uma tabela com aqueles com aquela paginação de 2 2 em 20.
+
+73
+00:06:38,730 --> 00:06:45,150
+Você vai clicando e vai tendo parte dos dados essa é uma forma bastante utilizada para que você não
+
+74
+00:06:45,150 --> 00:06:48,050
+consulte todos os dados de uma única só vez.
+
+75
+00:06:48,150 --> 00:06:51,690
+Na próxima aula vou mostrar como fazer isso dentro do Spring Butt e até lá.

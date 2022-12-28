@@ -1,0 +1,159 @@
+1
+00:00:00,120 --> 00:00:06,210
+Mais um capítulo do nosso curso de jovem nesse capítulo mas vamos falar de tratamento de exceção.
+
+2
+00:00:06,210 --> 00:00:09,520
+Entender como isso é feito dentro do Java por.
+
+3
+00:00:09,540 --> 00:00:11,040
+O que acontece aqui.
+
+4
+00:00:11,190 --> 00:00:17,550
+Muitas vezes você vai enfrentar erros de compilação que o seu código não compila mais porque tem algum
+
+5
+00:00:17,550 --> 00:00:19,780
+erro de sintaxe.
+
+6
+00:00:19,790 --> 00:00:27,090
+Se que você fez alguma alguma ação que viola algum requisito algum a restrição da linguagem.
+
+7
+00:00:27,370 --> 00:00:33,690
+Existem erros que ocorrem somente em momento de execução e.
+
+8
+00:00:33,720 --> 00:00:41,730
+Para isso existem as acepções que são situações que você gera dentro do código pra sinalizar que alguma
+
+9
+00:00:41,730 --> 00:00:48,210
+coisa diferente aconteceu não necessariamente precisa ser um erro sim mas pode ser algo que você quer
+
+10
+00:00:48,570 --> 00:00:54,900
+digamos assim interrompeu o fluxo normal e trata aquilo como uma forma diferente ou seja você tem regras
+
+11
+00:00:55,260 --> 00:00:59,880
+na sua aplicação regras de negócio que vão dizer como a sua aplicação funciona.
+
+12
+00:00:59,880 --> 00:01:07,020
+Que tipo de validações você precisa aplicar um determinado dado e eventualmente como a regra é violada
+
+13
+00:01:07,020 --> 00:01:09,220
+você pode lançar uma exceção.
+
+14
+00:01:09,300 --> 00:01:10,690
+Esse é um tema importante.
+
+15
+00:01:10,710 --> 00:01:14,520
+Esse capítulo precede o próximo capítulo.
+
+16
+00:01:14,540 --> 00:01:21,060
+Obviamente o próximo capítulo será o nosso primeiro projétil dentro do curso mas vamos fazer um projeto
+
+17
+00:01:21,480 --> 00:01:27,720
+de comando em console usando ainda o empuxo lá e o scanner para receber entrada e tal.
+
+18
+00:01:27,720 --> 00:01:32,100
+Para que a gente possa fazer toda uma revisão de tudo aquilo que a gente já viu e colocar isso na prática
+
+19
+00:01:32,100 --> 00:01:38,070
+é um projeto pequeno mas que ao mesmo tempo dê para a gente uma noção de encapsulamento.
+
+20
+00:01:38,070 --> 00:01:45,240
+Dê para a gente uma noção de orientação a objeto que a gente possa usar o texto mph e possa criar lâminas
+
+21
+00:01:45,490 --> 00:01:51,090
+que a gente possa apaziguar as coisas e de certa forma revisar tudo aquilo que a gente viu até então
+
+22
+00:01:51,400 --> 00:01:57,030
+e também nós iremos usar nesse projeto tratamento dessa ação que é o tema desse capítulo nesse capítulo
+
+23
+00:01:57,030 --> 00:02:00,880
+nós vamos entender como criar sessões personalizadas.
+
+24
+00:02:00,890 --> 00:02:07,410
+Como tratar exceções os tipos de exceções que existem e são checadas e são checada.
+
+25
+00:02:07,740 --> 00:02:13,500
+Nós vamos ter uma aula teórica falando pouquinho sobre pilha de execução é um conceito importante que
+
+26
+00:02:13,500 --> 00:02:18,710
+poderia até ter sido falado antes mas que agora faz sentido a gente falar por quê.
+
+27
+00:02:18,930 --> 00:02:24,970
+Você vai perceber esse conceito de pilhéria acepção muito presente dentro dessa questão das assessoras.
+
+28
+00:02:24,990 --> 00:02:28,040
+Até pra você sabe exatamente que ponto Ocorreu um erro.
+
+29
+00:02:28,080 --> 00:02:35,070
+Ele coloca essa ideia de pilha isso não está inerente ao assunto dessas ações é algo que faz parte das
+
+30
+00:02:35,070 --> 00:02:40,230
+linguagens de programação é muito importante você entender esse conceito e eu vou falar esse conceito
+
+31
+00:02:40,230 --> 00:02:45,420
+também nesse capítulo tem muita coisa legal pra gente e nesse capítulo é um capítulo que pra série é
+
+32
+00:02:45,420 --> 00:02:46,470
+nosso primeiro projeto.
+
+33
+00:02:46,580 --> 00:02:53,730
+Nós vamos ter outros projetos durante o nosso curso Projeto com um desktop de fazer interface gráfica
+
+34
+00:02:53,730 --> 00:02:57,370
+vai ter projeto para a gente trabalhar também parte de web.
+
+35
+00:02:57,460 --> 00:03:02,460
+Tudo tem muita coisa legal banco de dados ainda vai vir mais pro futuro mais pra esse primeiro projeto.
+
+36
+00:03:02,460 --> 00:03:07,170
+Selecionei esses capítulos até o capítulo que relata a minha decepção que também é algo que a gente
+
+37
+00:03:07,170 --> 00:03:09,330
+quer usar no projeto então fico por aqui.
+
+38
+00:03:09,330 --> 00:03:14,940
+Na próxima aulas uso começar a entender como o Java lida com um tratamento de exceções e até lá para
+
+39
+00:03:14,940 --> 00:03:19,350
+a gente fazer os nossos primeiros exercícios intervir um pouquinho também na parte teórica que estar
+
+40
+00:03:19,350 --> 00:03:19,880
+nas aulas.

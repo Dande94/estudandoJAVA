@@ -1,0 +1,559 @@
+1
+00:00:00,120 --> 00:00:09,090
+Pessoal vamos supor que vocês criem a classe para até algumas funções alguns métodos utilitários para
+
+2
+00:00:09,090 --> 00:00:15,020
+trabalhar com listas mas porque você precisa trabalhar muitas vezes com lista e você precisa.
+
+3
+00:00:15,060 --> 00:00:21,390
+Habitualmente tá pegando lá o último elemento da lista ou penúltimo medalha se você precisa usar muito
+
+4
+00:00:21,390 --> 00:00:22,290
+esse tipo de lógica.
+
+5
+00:00:22,290 --> 00:00:29,520
+Você pode criar uma função estática por exemplo onde as alternativas dentro de uma classe para que você
+
+6
+00:00:29,520 --> 00:00:36,810
+possa utilizar isso de forma frequente e como você trabalha com listas que têm tipos genéricos.
+
+7
+00:00:36,810 --> 00:00:42,840
+O interessante é se você quer pegar o penúltimo ou último elemento de uma lista você pega do tipo que
+
+8
+00:00:42,840 --> 00:00:50,390
+você que já faz parte da lista se é um lixo string QS Metro retorno string se é uma lista de clientes
+
+9
+00:00:50,390 --> 00:00:56,280
+que esse metro retorne o cliente é pra você fazer isso você acaba precisando também usar genéricos não.
+
+10
+00:00:56,310 --> 00:01:01,560
+Do ponto de vista diretamente da classe mais genéricos dentro do método eu vou mostrar isso para vocês
+
+11
+00:01:01,560 --> 00:01:13,290
+agora vou criar aqui uma classe chamada lista útil por exemplo que vai ter uma série de funcionalidades
+
+12
+00:01:13,470 --> 00:01:17,820
+de métodos que vão te ajudar a fazer as ações com a lista.
+
+13
+00:01:17,820 --> 00:01:26,790
+Então por exemplo eu vou criar aqui um metro públicos estático que vai retornar ao objetivo seja o passe
+
+14
+00:01:26,790 --> 00:01:31,760
+genérico e o nome do Metro vai ser GET ou útil.
+
+15
+00:01:32,440 --> 00:01:39,330
+Oxalá aqui para a gente ter duas versões diferentes vai ser o último e depois ele vai fazer uma outra
+
+16
+00:01:39,330 --> 00:01:45,000
+versão usando tipos genéricos então vamos supor que você espera receber uma lista.
+
+17
+00:01:45,720 --> 00:01:48,290
+Então vou passar aqui uma lista.
+
+18
+00:01:48,300 --> 00:01:49,490
+Interface lixo.
+
+19
+00:01:50,070 --> 00:01:55,460
+Ele vai ter um tipo genérico é aqui que eu vou substituir por uma interrogação.
+
+20
+00:01:55,620 --> 00:01:58,550
+Eu posso inclusive até tirar o genérico se quiser.
+
+21
+00:01:58,930 --> 00:02:06,100
+Então te marcelista e no final das contas eu vou retornar em cima de lista.
+
+22
+00:02:06,150 --> 00:02:07,630
+Ponto.
+
+23
+00:02:08,160 --> 00:02:12,960
+Ou pegar o índice como é que eu pego o índice do último elemento da lista já que o índice começa com
+
+24
+00:02:12,960 --> 00:02:13,650
+zero.
+
+25
+00:02:13,650 --> 00:02:16,450
+Então vou pegar a lista.
+
+26
+00:02:16,450 --> 00:02:17,520
+Ponto.
+
+27
+00:02:17,540 --> 00:02:23,560
+Sais de banho não são tão assim que eu pego o último da lista usando o índice.
+
+28
+00:02:23,570 --> 00:02:26,050
+E o que eu posso até tirar é isso.
+
+29
+00:02:26,050 --> 00:02:28,800
+Se eu quiser tirar isso ele vai ficar dando uma advertência.
+
+30
+00:02:29,130 --> 00:02:36,050
+E aí eu posso colocar até um olha aqui nessa esbórnia melhor dizendo ao protagonista ou então aplicar
+
+31
+00:02:36,230 --> 00:02:44,370
+o prazo One voltados para o método Gate mundo colocando aqui eu posso suprimir o One ou mesmo se não
+
+32
+00:02:44,370 --> 00:02:45,630
+quiser suprimiu Horne.
+
+33
+00:02:45,690 --> 00:02:50,340
+Eu posso dizer Oh essa lista pode ser de qualquer coisa.
+
+34
+00:02:50,340 --> 00:02:55,460
+Não é a mesma coisa que você dizer isso é isso que eu quero ou a lista de objetos.
+
+35
+00:02:55,470 --> 00:03:01,410
+Isso aqui ele vai querer uma lista de objetos explicitamente do tipo óbvio se você colocar que é um
+
+36
+00:03:01,410 --> 00:03:07,480
+lixo de objetos você está dizendo explicitamente que quer apenas uma lista de objetos né.
+
+37
+00:03:07,530 --> 00:03:15,060
+Embora você possa ter passado outros objetos clientes números e tal aí você ter criado o lixo de objetos
+
+38
+00:03:15,450 --> 00:03:15,720
+você.
+
+39
+00:03:15,720 --> 00:03:22,360
+Outra possibilidade é qualquer coisa que é questão de objeto que também é uma possibilidade.
+
+40
+00:03:22,560 --> 00:03:30,270
+Você pode fazer isso só que como algo de artigo mais genérico isso aqui é a mesma coisa de colocar apenas
+
+41
+00:03:30,270 --> 00:03:35,600
+isso a não ser que você coloque um outro tipo aqui como cliente como lá dei.
+
+42
+00:03:35,620 --> 00:03:40,790
+Tinha aí uma coisa mais específica beleza você está especificando algo mais no caso de hoje que é o
+
+43
+00:03:40,800 --> 00:03:44,860
+mais genérico você colocar isso também funciona corretamente.
+
+44
+00:03:44,880 --> 00:03:46,300
+Em outras palavras aqui.
+
+45
+00:03:46,740 --> 00:03:53,910
+Eu simplesmente tirei da jogada a questão dos genéricos da lista estão retornando algo muito genérico
+
+46
+00:03:53,910 --> 00:03:54,960
+que é um objeto.
+
+47
+00:03:54,960 --> 00:03:59,730
+Isso não vai ser tão interessante porque se eu passar para ele uma lista de clientes ou lixo de números
+
+48
+00:04:00,090 --> 00:04:04,710
+eu ainda vou precisar fazer o cache do resultado pra aquilo que eu preciso.
+
+49
+00:04:04,710 --> 00:04:15,580
+Então o projeto já está aqui pra mostrar pra vocês não vou criar uma classe chamada lista o teste.
+
+50
+00:04:16,020 --> 00:04:28,340
+Vou criar aqui duas listas ou criar uma lista de distritos e eu vou colocar aqui links de linguagens.
+
+51
+00:04:28,340 --> 00:04:35,950
+Vou fazer o seguinte respondo as List passando aqui se
+
+52
+00:04:39,340 --> 00:04:39,700
+tiver
+
+53
+00:04:42,500 --> 00:04:48,490
+de Java e C faz mais vírgula.
+
+54
+00:04:48,840 --> 00:04:56,820
+Vou criar uma outra lista então lista de valores inteiros ok.
+
+55
+00:04:57,060 --> 00:05:10,130
+Vamos fazer a mesma a esse ponto os 1 2 3 4 5 6 ponto e vírgula vou chamar fusão.
+
+56
+00:05:10,210 --> 00:05:20,590
+Na verdade eu vou fazer o seguinte vou criar uma variável última linguagem vai receber a minha função
+
+57
+00:05:21,200 --> 00:05:29,300
+que o chamei de lista o último ponto o último passando por.
+
+58
+00:05:29,350 --> 00:05:36,700
+Nesse caso eu passei lentes mas ele vai retornar um objetivo porque eu não estou usando genéricos então
+
+59
+00:05:36,760 --> 00:05:40,440
+tem que fazer o teste que nem sempre vai ser bem sucedido.
+
+60
+00:05:40,450 --> 00:05:48,540
+Nesse caso vai ser porque eu tenho de fato um escrito e eu vou colocar o tema Linguagem executado em
+
+61
+00:05:48,760 --> 00:05:53,400
+C++ e fazer a mesma coisa só que o partido inteiro.
+
+62
+00:05:53,410 --> 00:05:59,610
+Vou colocar aqui o último número da lista.
+
+63
+00:05:59,620 --> 00:06:09,250
+Outro ponto onde eu vou passar uns são os números também vai retornar algum objetivo.
+
+64
+00:06:09,250 --> 00:06:16,720
+Aí eu vou precisar fazer um teste pra logo depois esperando na esperança que o resultado realmente seja
+
+65
+00:06:17,220 --> 00:06:24,790
+um balão do tipo inteligente se tudo der certo ele vai retornar para o último momento eu vou mostrar
+
+66
+00:06:24,790 --> 00:06:31,280
+pra vocês alguns com base no último número executado vai ser o número 6.
+
+67
+00:06:31,480 --> 00:06:33,900
+Então C++ é o número 6.
+
+68
+00:06:33,900 --> 00:06:39,280
+A minha função funciona o algoritmo foi feito de forma correta mas eu não estou usando os genéricos.
+
+69
+00:06:39,300 --> 00:06:44,680
+Isso faz com que eu preciso ficar fazendo essas conversões que não são tão interessantes então eu vou
+
+70
+00:06:44,680 --> 00:06:48,210
+criar aqui uma outra versão que vai ser o seguinte.
+
+71
+00:06:48,490 --> 00:06:54,050
+Vou criar aqui a versão 2 da função é algo como fazer antes.
+
+72
+00:06:54,070 --> 00:07:01,020
+Na verdade aqui do que eu posso definir essa função tem um tipo genérico pronto.
+
+73
+00:07:01,060 --> 00:07:02,650
+Isso não gera nenhum problema.
+
+74
+00:07:03,080 --> 00:07:08,710
+E também não gera nenhuma solução por enquanto no momento que eu tenho um tipo tem associado a essa
+
+75
+00:07:08,710 --> 00:07:16,420
+função eu posso dizer que eu vou pegar o tipo T também dentro dessa lista ou seja a lista que foi passada
+
+76
+00:07:16,420 --> 00:07:20,620
+com esse tipo B será o tipo que será usado dentro dessa função.
+
+77
+00:07:20,710 --> 00:07:24,920
+Então definiu o tipo T que é exatamente o tipo T definido na lista.
+
+78
+00:07:25,050 --> 00:07:32,500
+Eu posso dizer que eu vou retornar um objeto do tipo T de tal forma que já que não recebiam neste tipo
+
+79
+00:07:32,500 --> 00:07:38,590
+T não vai ter nenhum problema do ponto de vista de compatibilidade retornar um objeto já que essa lista
+
+80
+00:07:38,590 --> 00:07:40,570
+que eu recebi é do tipo T.
+
+81
+00:07:40,580 --> 00:07:46,900
+Isso facilita bastante porque esse tipo de construção permite que eu não preciso me preocupar com cache
+
+82
+00:07:46,930 --> 00:07:52,270
+porque no momento que eu passo uma lista de strings automaticamente o tipo retornado será uma string
+
+83
+00:07:52,660 --> 00:07:58,720
+porque a lista passada for do tipo tem um certo tipo estrita nos trilhos tudo será escrito e eu não
+
+84
+00:07:58,720 --> 00:08:04,630
+posso tirar isso porque é exatamente esse item que diz que esse método tem esse tipo genérico aqui embora
+
+85
+00:08:04,960 --> 00:08:09,070
+na hora de chamar o metro você não precisa se preocupar em passar esse tipo.
+
+86
+00:08:09,070 --> 00:08:11,890
+Isso não vai digamos assim influenciar na chamada do seu metro.
+
+87
+00:08:11,890 --> 00:08:18,460
+A única coisa que o tipo tem foi definido e aí você está simplesmente fazendo amarração exatamente o
+
+88
+00:08:18,460 --> 00:08:24,910
+tipo T da lista será o tipo que eu vou retornar desse método Olha como ficou mais fácil de consumir
+
+89
+00:08:24,910 --> 00:08:33,040
+esse tipo de método vou duplicar daqui pra baixo e vou fazer o seguinte vou pegar aqui o último 2 como
+
+90
+00:08:33,040 --> 00:08:35,150
+eu passei o.
+
+91
+00:08:35,190 --> 00:08:43,860
+Aí eu vou colocar a última linguagem 2 o último número 2 linguagem número 2 linguagem número 1 linguagem
+
+92
+00:08:44,890 --> 00:08:53,590
+não salva aqui e da mesma forma embaixo que eu vou chamar o GATE útil 2 ele vai automaticamente saber
+
+93
+00:08:53,680 --> 00:09:00,890
+se você passou uma lista do tipo T ou seja no caso aqui uma lista do tipo interagir com o resultado
+
+94
+00:09:01,210 --> 00:09:08,550
+de muita gente e eu não vou poder por exemplo dizer que é do tipo string porque ele sabe olhando pelos
+
+95
+00:09:08,560 --> 00:09:15,490
+parâmetros que você definiu que ele vai retornar especificamente o tipo que está contido dentro da lista.
+
+96
+00:09:15,550 --> 00:09:16,810
+O que é muito interessante.
+
+97
+00:09:16,810 --> 00:09:22,810
+Ou seja você consegue ter uma validação você consegue ter um único metro que é capaz de pegar listas
+
+98
+00:09:23,230 --> 00:09:25,930
+dos mais diversos tipos genéricos possíveis.
+
+99
+00:09:25,930 --> 00:09:26,500
+Por quê.
+
+100
+00:09:26,770 --> 00:09:30,530
+Porque você conseguiu usar o tipo genérico diretamente dentro do método.
+
+101
+00:09:30,530 --> 00:09:36,520
+E note que você não precisa se preocupar com isso apesar de que se você quiser digamos assim ser mais
+
+102
+00:09:36,520 --> 00:09:48,310
+explícito e amar você pode colocar o tipo genérico aqui ao colocar um feixe tipo genérico inteligente
+
+103
+00:09:48,780 --> 00:09:49,610
+pronto.
+
+104
+00:09:49,730 --> 00:09:52,420
+E aí você consegue explicitar.
+
+105
+00:09:52,510 --> 00:09:54,760
+Nesse caso especificamente eu quero usar.
+
+106
+00:09:54,760 --> 00:09:55,850
+Tipo 1.
+
+107
+00:09:55,900 --> 00:10:02,860
+Agora se você tentar passar por exemplo o Lens aqui você não vai conseguir passar porque você disse
+
+108
+00:10:02,950 --> 00:10:07,150
+explicitamente que nessa chamada Você é o tipo.
+
+109
+00:10:07,160 --> 00:10:13,110
+Muita gente vai passar obrigatoriamente precisar passar uma lista de inteiros que não vai funcionar.
+
+110
+00:10:13,180 --> 00:10:19,870
+Ele vai validar mas se eu voltar e colocar vamos salvar essa etapa você vai ver que vai funcionar de
+
+111
+00:10:19,870 --> 00:10:27,310
+forma bem sucedida mas não é necessário você especificar o tipo como a gente fez aqui na linha 18.
+
+112
+00:10:27,310 --> 00:10:33,020
+Eu simplesmente passei um lixo nos trilhos ele já conferiu que como você passou uma lista de Tui que
+
+113
+00:10:33,040 --> 00:10:38,560
+é o tipo string ele vai ter retornado o mesmo tipo trilho o que é muito interessante ou seja você é
+
+114
+00:10:38,560 --> 00:10:46,030
+capaz de usar tipos genéricos em métodos como você também é capaz de usar tipos genéricos em classe.
+
+115
+00:10:46,420 --> 00:10:52,920
+No caso da classe você pode resolver distanciar um objeto daquela classe dizendo o tipo ou mesmo na
+
+116
+00:10:52,920 --> 00:10:58,630
+hora da herança e eu mostrei pra vocês dois exemplos com relação a isso e em relação à classe.
+
+117
+00:10:58,630 --> 00:11:05,170
+Você pode definir um tipo genérico em relação ao método você também pode definir o tipo genérico que
+
+118
+00:11:05,170 --> 00:11:07,420
+é exatamente o exemplo dessa aula.
+
+119
+00:11:07,420 --> 00:11:14,320
+Você coloca o tipo genérico antes do tipo de retorno do nome do metro nos parâmetros e a partir do momento
+
+120
+00:11:14,320 --> 00:11:20,530
+que você definiu o tipo genérico ou mais de um tipo genérico você pode que vá criar um ou outro Metro
+
+121
+00:11:20,530 --> 00:11:21,400
+aqui só de teste.
+
+122
+00:11:21,400 --> 00:11:27,460
+Na verdade vou criar aqui baixam então aqui eu vou colocá lo públicos estático que vou definir um tipo
+
+123
+00:11:27,460 --> 00:11:32,150
+genérico a vírgula B ou C.
+
+124
+00:11:32,440 --> 00:11:41,710
+Vou dizer que esse método vai retornar um tipo ser chamado de teste que vai receber o tipo ah sei lá
+
+125
+00:11:42,400 --> 00:11:52,510
+fora há um tipo B chamado aqui de barra bem executado nós temos aqui um método e obviamente eu tenho
+
+126
+00:11:52,930 --> 00:11:55,120
+que retornar alguma coisa do tipo sei.
+
+127
+00:11:55,210 --> 00:12:02,980
+Então coloco aqui sei lá X recebe aqui e eu vou retornar.
+
+128
+00:12:03,040 --> 00:12:04,160
+Tipo teste.
+
+129
+00:12:04,330 --> 00:12:10,200
+Nesse caso eu não vou ter problema digamos assim na construção do meu código porque eu tenho um três
+
+130
+00:12:10,200 --> 00:12:16,510
+tipos genérica recebe a lá não encha esse tipo de construção essa é mais complexa você conseguia amarrar
+
+131
+00:12:16,920 --> 00:12:22,960
+mais do ponto de vista de compilação tá certo você pode ter mais de um parâmetro genérico sem problema
+
+132
+00:12:22,960 --> 00:12:28,670
+nenhum você pode ter um dois três quantos você precisar pra definir o seu metro o que estou querendo
+
+133
+00:12:28,680 --> 00:12:29,570
+dizer.
+
+134
+00:12:29,620 --> 00:12:36,610
+Você define o tipo genérico e a partir daí você consegue definir o tipo de retorno e os tipos de parâmetros
+
+135
+00:12:36,610 --> 00:12:38,950
+baseados neste tipo genérico.
+
+136
+00:12:38,950 --> 00:12:43,230
+O que deixa muito mais espaço para você usar esses valores na prática.
+
+137
+00:12:43,270 --> 00:12:48,870
+Você até pode especificar algo do tipo quando você for invocar um metro na hora da chamada do método
+
+138
+00:12:49,240 --> 00:12:55,630
+mas você não é necessário fazer como eu mostrei aqui na linha 18 sem especificar o tipo na Linha 21
+
+139
+00:12:55,720 --> 00:12:56,860
+especificando o tipo.
+
+140
+00:12:56,860 --> 00:13:03,610
+Na prática eu acabo não especificando o tipo e usado de forma mais natural como é o caso da Linha 18.

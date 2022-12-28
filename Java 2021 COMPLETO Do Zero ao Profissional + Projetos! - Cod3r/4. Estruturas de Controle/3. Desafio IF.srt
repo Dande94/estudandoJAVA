@@ -1,0 +1,99 @@
+1
+00:00:00,230 --> 00:00:06,030
+Pessoal quero mostrar pra vocês aqui o desafio da que quero propor vou dar resposta na próxima aula
+
+2
+00:00:06,030 --> 00:00:14,190
+que é o seguinte eu criei uma nova classe chamado desafio certo desafio EF ponto Java dentro do nosso
+
+3
+00:00:14,190 --> 00:00:19,620
+nosso pacote controle que acabou que o pacote do nosso capitulo escrevi o seguinte código.
+
+4
+00:00:19,830 --> 00:00:27,870
+Nota vale um ponto 3 isso coloquei um critério aqui nota maior ou igual a 9 e coloquei aqui um bloco
+
+5
+00:00:27,870 --> 00:00:31,470
+de código verbal imprimi quadro de honra e vai imprimir.
+
+6
+00:00:31,500 --> 00:00:35,790
+Você é fera e eu quero saber Você olhando pra esse código.
+
+7
+00:00:35,790 --> 00:00:42,900
+Quero saber como esse código será executado se ele vai mostrar ou se ele não vai mostrar esse.
+
+8
+00:00:42,930 --> 00:00:46,180
+Essas duas impressões aqui no console certa a minha pergunta é essa.
+
+9
+00:00:46,530 --> 00:00:49,200
+Olhando para o código você acha que ele vai mostrar ou não.
+
+10
+00:00:49,720 --> 00:00:51,640
+Ele vai executar o código certo.
+
+11
+00:00:52,100 --> 00:01:00,420
+E você vai ver que mesmo o aluno tendo tirado um ponto 3 é o nosso critério senão nota maior ou igual
+
+12
+00:01:00,420 --> 00:01:01,260
+a 9.
+
+13
+00:01:01,290 --> 00:01:09,040
+Ainda assim ele vai exibir o quadro de honra e vai exibir vocifera contra todas as probabilidades.
+
+14
+00:01:09,150 --> 00:01:10,920
+Então não quero saber de você.
+
+15
+00:01:10,920 --> 00:01:12,100
+O desafio é esse.
+
+16
+00:01:12,240 --> 00:01:15,300
+Onde está o problema certo onde está o problema.
+
+17
+00:01:15,300 --> 00:01:16,230
+Qual é o problema.
+
+18
+00:01:16,360 --> 00:01:22,190
+Porquê que esse problema não foi gerado por conta dessa inconsistência que o nosso código o aluno tirou
+
+19
+00:01:22,190 --> 00:01:27,360
+a nota 1 ponto 3 ou seja a pior nota da turma é o sistema do colégio está dizendo que o cara está no
+
+20
+00:01:27,360 --> 00:01:29,930
+quadro de honra está dizendo que uma na fera.
+
+21
+00:01:29,970 --> 00:01:31,950
+Será que o cara tirou a pior nota da turma.
+
+22
+00:01:31,950 --> 00:01:32,780
+Como é que pode.
+
+23
+00:01:32,800 --> 00:01:34,320
+é exatamente esse o desafio.
+
+24
+00:01:34,320 --> 00:01:38,340
+Quero saber onde está o Bang buquê que gerou o blog Na próxima aula.
+
+25
+00:01:38,380 --> 00:01:38,930
+A resposta.

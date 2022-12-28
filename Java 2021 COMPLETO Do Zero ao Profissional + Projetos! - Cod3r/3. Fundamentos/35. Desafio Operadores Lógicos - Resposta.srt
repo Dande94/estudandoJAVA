@@ -1,0 +1,303 @@
+1
+00:00:00,450 --> 00:00:06,450
+Agora vou mostrar para vocês a solução do nosso exercício aqui dos operadores lógicos que vai ser o
+
+2
+00:00:06,450 --> 00:00:17,970
+seguinte vou criar uma variável do tipo que vai se chamar TV 50 é a operação que vai modelar se ele
+
+3
+00:00:17,970 --> 00:00:26,710
+vai comprar ou não uma TV de 50 operação do tipo e então coloco aqui ao trabalho e trabalho.
+
+4
+00:00:26,780 --> 00:00:33,060
+2 O que vai dizer se ele vai comprar ou não uma televisão de 50 polegadas e aqui eu posso colocar o
+
+5
+00:00:33,060 --> 00:00:44,460
+System Cochrane por exemplo comprou TV 50 e aqui posso colocar aspas duplas e colocar umas as duas duplas
+
+6
+00:00:44,460 --> 00:00:50,400
+aqui o que é que vai acontecer vou ter um as duplas aqui e vou ter um aqui no final mas eu posso colocar
+
+7
+00:00:50,400 --> 00:00:56,580
+uma barra antes que ele vá usar como uma forma de você colocar aspas duplas dentro de um monstrinho.
+
+8
+00:00:56,590 --> 00:01:02,120
+é certo que ele chama enxame de Skype em um bar na frente dele você está dizendo pro Java que você quer
+
+9
+00:01:02,120 --> 00:01:08,220
+exibir o valor literal das aspas duplas dentro de um string que já é delimitada por aspas duplas.
+
+10
+00:01:08,730 --> 00:01:15,390
+Então aqui compra uma televisão de 50 polegadas coloca uma interrogação espaço e vou concatenar com
+
+11
+00:01:15,390 --> 00:01:16,730
+essa variável que eu criei.
+
+12
+00:01:16,730 --> 00:01:27,120
+Comprou TV de 50 posso até colocar aqui TV com maiúscula interveio mais uns 5 7 tanto faz.
+
+13
+00:01:27,390 --> 00:01:34,400
+Então executando nosso código ele vai dizer ao comprar comprou TV de 50 não vou até colocar fita maiúsculas
+
+14
+00:01:34,990 --> 00:01:38,520
+porque nesse caso os dois trabalhos foram falsos.
+
+15
+00:01:38,520 --> 00:01:44,420
+Se eu colocar aqui Granadeiro é verdadeiro.
+
+16
+00:01:44,430 --> 00:01:46,590
+O resultado será verdadeiro.
+
+17
+00:01:46,590 --> 00:01:54,330
+Outra dica legal que o comando de áudio a certo é uma forma que você tem de editar múltiplas linhas
+
+18
+00:01:54,780 --> 00:01:55,780
+dentro do equilíbrio.
+
+19
+00:01:55,810 --> 00:02:01,260
+Posso selecionar 12 linhas e colocar as musiquinhas são falsas ou então as duas linhas são verdadeiras
+
+20
+00:02:01,260 --> 00:02:07,770
+certo ele muda o tamanho da fonte que serve quando eu estou nesse modo de edição mas tem como você la
+
+21
+00:02:07,770 --> 00:02:12,170
+nas permissões em fonte dizer que é também coletivo.
+
+22
+00:02:12,180 --> 00:02:20,430
+Nesse cenário de adição de múltiplas linhas ele vai manter também o mesmo tamanho de fonte que eu acho
+
+23
+00:02:20,430 --> 00:02:25,650
+que é exatamente o que o Tech editor blog Selection fonte será editar aqui.
+
+24
+00:02:25,790 --> 00:02:27,580
+A minha fonte está bem de quatro.
+
+25
+00:02:27,950 --> 00:02:35,270
+Eu vou colocar aqui para editar para permanecer com a fonte 24 mercenária que ao clicar e fechar nesse
+
+26
+00:02:35,270 --> 00:02:42,450
+caso deu como de Alt a certo eu vou conseguir selecionar as duas minhas interditaram a linha eu consigo
+
+27
+00:02:42,450 --> 00:02:43,680
+digitar na outra.
+
+28
+00:02:44,040 --> 00:02:49,530
+Então nesse caso consigam colocar aqui 300 Rafales que nesse caso é melhor porque ele mantém a mesma
+
+29
+00:02:49,530 --> 00:02:54,240
+linha e não fica estranho pq ele mantém a mesma linha e não fica estranho então com o Mundial.
+
+30
+00:02:54,990 --> 00:03:02,280
+Depois que eu estou nesse modo aí que eu posso mexer que eu sou novo os dois pra ver nesse caso os dois
+
+31
+00:03:02,280 --> 00:03:04,850
+verdadeiros deixou o Alpha aqui.
+
+32
+00:03:04,880 --> 00:03:11,850
+O modo como evitar esse modo a assertiva fica conhecida em X e o site ficou com a cruz quando saiu ela
+
+33
+00:03:11,850 --> 00:03:18,540
+bota pra selecionar o texto está pronto legal feito isso é aqui contar nesse modo você consegue selecionar
+
+34
+00:03:18,540 --> 00:03:21,460
+o trecho acima e editar tudo de uma vez só.
+
+35
+00:03:21,660 --> 00:03:23,910
+Que é bastante interessante dependendo da situação.
+
+36
+00:03:23,950 --> 00:03:29,280
+Então feito isso executando a gente viu que estava verdadeiro se ele comprou a razão de 50 se os dois
+
+37
+00:03:29,280 --> 00:03:33,610
+trabalhos foram executados tão próximo tacho coloca na bula.
+
+38
+00:03:33,770 --> 00:03:43,620
+Passei comprou sorvete no caso do sol da verdade eu vou logo para a TV de 32 comprou tenho 32.
+
+39
+00:03:43,640 --> 00:03:49,960
+Nesse caso nós temos o trabalho ou exclusivo o trabalho.
+
+40
+00:03:49,960 --> 00:03:51,040
+2 Por quê.
+
+41
+00:03:51,360 --> 00:03:56,310
+Porque sem nenhum trabalho der certo ele não vai comprar um livro inteiro do uso e se os dois trabalhos
+
+42
+00:03:56,310 --> 00:03:59,790
+derem certo ele também não irá comprar a TV de trinta e duas por quê.
+
+43
+00:03:59,790 --> 00:04:01,850
+Por que a TV de 50 foi comprada.
+
+44
+00:04:01,840 --> 00:04:08,290
+Então no caso comprou outra lá onde trinta e duas e um ou exclusivo tal vou duplicar com a saída.
+
+45
+00:04:08,320 --> 00:04:12,610
+Qual capital grega de 32 tinha avariado.
+
+46
+00:04:12,660 --> 00:04:19,560
+Colocando aqui embaixo quando não comprou atrasou em trinta e duas por tempo que a de 50 foi comprada.
+
+47
+00:04:19,560 --> 00:04:23,040
+Se eu colocar um dos dois vai ser falso.
+
+48
+00:04:23,040 --> 00:04:27,960
+Aí eu não compro dos anos 50 e passa a comprar televisão de 32.
+
+49
+00:04:27,960 --> 00:04:41,180
+O próximo que nós vamos fazer vai ser o sorvete então boné pró sorvete então vai ser trabalho ou trabalho.
+
+50
+00:04:41,190 --> 00:04:50,700
+2 O resultado vai da verdadeira ou falsa dependendo do cenário ou duplicar aqui substituíram tomou comprou
+
+51
+00:04:50,700 --> 00:05:02,370
+o sorvete aí eu vou colocar aqui a variável comprou o sorvete não poderíamos no nosso código ele colocou
+
+52
+00:05:02,410 --> 00:05:03,630
+comprou o sorvete por quê.
+
+53
+00:05:03,630 --> 00:05:09,460
+Porque é um dos trabalhos deu certo eu foi comprar TV vou parar na TV e obrigatoriamente compro sorvete
+
+54
+00:05:09,960 --> 00:05:16,300
+e por último aqui vai ser um aparador na área do Casa mais saudável.
+
+55
+00:05:16,810 --> 00:05:23,280
+Ou seja se não tomou sorvete vai ficar mais saudável então é a negação da variável que comprou o sorvete.
+
+56
+00:05:23,280 --> 00:05:31,980
+Nesse caso o que nós temos um operador alterado na hora certo e nos outros casos nós temos operadores
+
+57
+00:05:31,980 --> 00:05:32,990
+binários aqui.
+
+58
+00:05:33,240 --> 00:05:42,390
+Inclusive eu posso até colocar aqui onde não se compra o sorvete pode ser que algo tão bom mais saudável
+
+59
+00:05:42,870 --> 00:05:45,870
+recebe um sorvete.
+
+60
+00:05:45,940 --> 00:05:51,110
+Eu posso dar variável aqui ou diretamente a negação na expressão sem problema nenhum.
+
+61
+00:05:51,120 --> 00:05:58,590
+Então o operador o Mario vai ficar mais aqui e aqui certo posso colocar aqui ou então em cima da linha
+
+62
+00:05:59,220 --> 00:06:00,960
+e colocar em cima da linha de milhão.
+
+63
+00:06:00,960 --> 00:06:01,400
+Pronto.
+
+64
+00:06:01,820 --> 00:06:09,750
+Então nós temos os nossos três operadores aí o Wi exclusivo e o UOL e temos aqui o nosso operador anarquia
+
+65
+00:06:09,780 --> 00:06:11,010
+negação lógica.
+
+66
+00:06:11,010 --> 00:06:15,840
+E finalmente nós temos aqui as frases no final para dizer o que vai acontecer dependendo da situação
+
+67
+00:06:15,900 --> 00:06:20,800
+traz à tona que no final nós temos um dos trabalhos deu certo não com a própria razão de 50 comprar
+
+68
+00:06:20,810 --> 00:06:23,200
+de 32 e aqui não sou vidente.
+
+69
+00:06:23,220 --> 00:06:26,350
+Acho que tem mais coisas do que deveria.
+
+70
+00:06:26,420 --> 00:06:30,670
+Resultado tomou sorvete e ficou mais saudável não.
+
+71
+00:06:30,750 --> 00:06:34,390
+No caso o que é verdadeiro e verdadeiro.
+
+72
+00:06:34,770 --> 00:06:42,740
+Ele vai comprar de 50 não compra de 32 tomar sorvete não fica mais saudável e finalmente se for falso.
+
+73
+00:06:43,380 --> 00:06:44,470
+é falso.
+
+74
+00:06:44,700 --> 00:06:49,670
+O resultado da não compra de 50 nem de 32 não tomam sorvete.
+
+75
+00:06:49,710 --> 00:06:51,510
+E finalmente fica mais saudável.
+
+76
+00:06:51,510 --> 00:06:55,400
+Então esse é o resultado do nosso desafio espero que vocês tenham gostado e até proximal.

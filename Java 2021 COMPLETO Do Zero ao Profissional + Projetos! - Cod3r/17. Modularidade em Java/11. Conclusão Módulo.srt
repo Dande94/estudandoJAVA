@@ -1,0 +1,71 @@
+1
+00:00:00,280 --> 00:00:07,470
+Pessoal chegamos ao final do nosso capítulo de módulos dentro do Java anexo já a partir do Java no JB
+
+2
+00:00:07,470 --> 00:00:14,040
+K-9 é um tema muito relevante principalmente para quando você for trabalhar em projetos reais em projetos
+
+3
+00:00:14,040 --> 00:00:18,900
+grandes de empresas que precisam ter um nível de encapsulamento muito grande.
+
+4
+00:00:18,960 --> 00:00:25,590
+Eu já sofri no passado muito com isso com dependência cíclica com projetos grandes com muitos módulos
+
+5
+00:00:25,590 --> 00:00:33,000
+e as dependências e sem você ter um nível grande de encapsulamento e por isso eu conheço a importância
+
+6
+00:00:33,000 --> 00:00:39,480
+de você ter esse tipo de recurso no Java foi algo que durante muitos anos eu buscava como desenvolvedor
+
+7
+00:00:39,510 --> 00:00:44,330
+pesquisava e entendia que isso existe em outras linguagens e não tinha no Java.
+
+8
+00:00:44,700 --> 00:00:50,960
+Até que no JB K-9 eles implementaram isso pra mim foi uma mudança muito grande de como você simplesmente
+
+9
+00:00:50,970 --> 00:00:53,780
+encapsulamento dentro de projetos grandes em Java.
+
+10
+00:00:53,820 --> 00:01:00,090
+Daí para mim a importância desse tema dentro da linguagem a importância desse recurso está disponível
+
+11
+00:01:00,090 --> 00:01:06,000
+para a gente tem da linguagem o que garante uma qualidade maior na sua aplicação espero que vocês tenham
+
+12
+00:01:06,000 --> 00:01:10,780
+compreendido os princípios espero que vocês tenham entendido os exercícios.
+
+13
+00:01:10,890 --> 00:01:15,810
+A gente vai já começar mais um outro capítulo do nosso curso completo que ainda não decidi provavelmente
+
+14
+00:01:15,810 --> 00:01:21,900
+vai ser Java e fez você baixar descobrir e fico por aqui nesse capítulo e até a próxima aula a gente
+
+15
+00:01:21,900 --> 00:01:28,920
+vai tendo muita oportunidade de pegar esses conceitos e testar e usar em cenários mais realistas nossos
+
+16
+00:01:28,920 --> 00:01:29,690
+políticos.
+
+17
+00:01:29,910 --> 00:01:34,410
+Mas por enquanto a gente fica com os exercícios e mais na frente a gente trabalha esses conceitos e
+
+18
+00:01:34,410 --> 00:01:40,510
+projetos maiores fica por aqui até a próxima aula do próximo capítulo do curso e até lá.

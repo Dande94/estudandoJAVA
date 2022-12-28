@@ -1,0 +1,75 @@
+1
+00:00:00,390 --> 00:00:06,570
+O desafio que eu quero lançar para vocês nessa aula é o seguinte eu quero que vocês adicionem mais dois
+
+2
+00:00:06,570 --> 00:00:09,140
+atributos dentro de produto.
+
+3
+00:00:09,150 --> 00:00:15,870
+Um dos atributos vai ser o preço que você vai colocar um valor maior do que zero e o outro atributo
+
+4
+00:00:15,870 --> 00:00:25,910
+vai ser um desconto que vai ser um valor entre 0 e 1 ou seja 0,5 e 50 por cento de desconto 0,05 S5
+
+5
+00:00:26,200 --> 00:00:29,210
+desconto zero ponto 15 15 por cento.
+
+6
+00:00:29,310 --> 00:00:35,970
+E assim vai então 0 ponto zero o ponto não seria sempre sem desconto 0 zero por cento de desconto de
+
+7
+00:00:35,970 --> 00:00:39,540
+qualquer coisa no intervalo vai ser convertido para um percentual.
+
+8
+00:00:39,960 --> 00:00:45,720
+Então quero que vocês criem dois atributos o seu preço o outro vai ser um desconto você tem que colocar
+
+9
+00:00:45,720 --> 00:00:52,950
+esses atributos dentro da nossa classe Produto e alterar o código para que esses atributos também estejam
+
+10
+00:00:52,950 --> 00:00:58,950
+disponíveis a partir do nosso Websense e no final quero que vocês insiram um produto usando Pochmann
+
+11
+00:00:59,310 --> 00:01:04,680
+para realmente considerar os novos atributos como a gente usou na nossa configuração lá no Application.
+
+12
+00:01:04,680 --> 00:01:07,490
+Ponto próprios para ele fazer o update.
+
+13
+00:01:07,580 --> 00:01:14,480
+Significa que se você adicionar novos atributos na classe Produto automaticamente o JP vai atualizar
+
+14
+00:01:14,490 --> 00:01:17,460
+nossa tabela de banco de dados o que é muito legal.
+
+15
+00:01:17,460 --> 00:01:23,440
+Vai parecer muito transparente mas afinal nas contas houve sim uma atualização no banco de dados houve
+
+16
+00:01:23,480 --> 00:01:30,920
+um alter ego ou não o bedelho um dado do infinito inglês usado SQL pra criar novos campos da tabela
+
+17
+00:01:31,270 --> 00:01:36,630
+mas ele vai fazer isso automaticamente pra gente eu quero que vocês crianças dois atributos e de fato
+
+18
+00:01:36,630 --> 00:01:42,540
+consigam a parte do post me mandar esses atributos para o banco de dados aproximá lo da resposta e até
+
+19
+00:01:42,540 --> 00:01:42,720
+lá.

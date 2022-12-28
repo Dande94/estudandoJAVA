@@ -1,0 +1,303 @@
+1
+00:00:00,180 --> 00:00:07,800
+Só agora eu vou falar sobre os principios ou os pilares da orientação a objeto ou seja quais são os
+
+2
+00:00:07,800 --> 00:00:12,390
+conceitos ou os princípios que sustentam a orientação objeto.
+
+3
+00:00:12,390 --> 00:00:18,510
+E são quatro princípios e eu vou comentar um princípio coral e Saulo falar sobre o primeiro princípio
+
+4
+00:00:18,510 --> 00:00:20,220
+que é encapsulamento.
+
+5
+00:00:20,220 --> 00:00:26,880
+Depois eu vou falar sobre a herança depois sobre o polimorfismo e finalmente sobre a abstração uma visão
+
+6
+00:00:26,880 --> 00:00:29,400
+rápida sobre esses princípios.
+
+7
+00:00:29,400 --> 00:00:32,130
+E o seguinte os pilares da orientação objeto.
+
+8
+00:00:32,130 --> 00:00:38,220
+Esses princípios precisam ser bem compreendidos por vocês pra que você quando for desenvolver software
+
+9
+00:00:38,220 --> 00:00:44,370
+que usa o paradigma de orientação objeto ou seja você vai usar a orientação objeto como sendo a sua
+
+10
+00:00:44,370 --> 00:00:45,690
+forma de pensar.
+
+11
+00:00:45,810 --> 00:00:51,060
+Esses princípios precisam estar na sua mente para que você a partir desses princípios modere o software
+
+12
+00:00:51,060 --> 00:00:54,540
+sem ferir aquilo que foi dito em cada um deles.
+
+13
+00:00:54,540 --> 00:00:58,410
+O que é que significa um encapsulamento só com uma visão geral.
+
+14
+00:00:58,440 --> 00:01:08,070
+O encapsulamento é que o objeto é classe e o objeto ele precisa partir da complexidade do objeto precisa
+
+15
+00:01:08,070 --> 00:01:11,090
+e está escondida por um mundo estéril.
+
+16
+00:01:11,160 --> 00:01:18,240
+Por exemplo vamos pegar um objeto no mundo real um carro um carro parte do carro você consegue interagir
+
+17
+00:01:18,240 --> 00:01:20,310
+diretamente com a direção.
+
+18
+00:01:20,490 --> 00:01:27,750
+Como é a marcha os pedais principalmente em direção à marcha os pedais que você interage com cada ignição
+
+19
+00:01:27,930 --> 00:01:33,870
+também mas você não precisa conhecer como funciona internamente o motor do carro.
+
+20
+00:01:33,870 --> 00:01:39,990
+Você pode nunca ter visto o motor você nunca ter tido a curiosidade de abrir o capô do carro para ver
+
+21
+00:01:39,990 --> 00:01:43,850
+o que é que tem dentro e você ainda assim será capaz de dirigir um carro.
+
+22
+00:01:43,860 --> 00:01:52,230
+Como você consegue lidar com a direção com a marcha com os pedais que é a interface de comunicação entre
+
+23
+00:01:52,230 --> 00:01:53,820
+o ser humano e o carro.
+
+24
+00:01:53,820 --> 00:02:01,170
+O que tem dentro do carro os processos que acontecem de queima de combustível de rotações do motor ou
+
+25
+00:02:01,170 --> 00:02:05,220
+injeção eletrônica coisa do tipo Você não precisa conhecer por quê.
+
+26
+00:02:05,520 --> 00:02:12,990
+Porque esses detalhes ou essa complexidade está encapsulado dentro do carro então você não precisa conhecer
+
+27
+00:02:13,380 --> 00:02:16,740
+os detalhes internos de um objeto para usar esse objeto.
+
+28
+00:02:16,740 --> 00:02:18,840
+Esse é o primeiro princípio o encapsulamento.
+
+29
+00:02:18,930 --> 00:02:24,750
+O segundo princípio herança que eu ouvi na próxima aula é um princípio que só para dar uma visão geral
+
+30
+00:02:24,810 --> 00:02:31,400
+é um princípio de uso de código assim como a gente viu o uso de código usando composição.
+
+31
+00:02:31,400 --> 00:02:37,950
+A herança também é um tipo de reuso de código só que enquanto na composição você tem uma relação tem
+
+32
+00:02:38,430 --> 00:02:49,830
+por exemplo um cliente tem umas compras a compra tem uns itens o item tem um produto ou seja uma relação
+
+33
+00:02:49,830 --> 00:03:01,390
+tem quando você relaciona por exemplo é seu carro você vai ter a relação e por exemplo o Celta e o carro
+
+34
+00:03:01,570 --> 00:03:09,870
+se a bike é o carro via de regra quando você tem uma relação e você tem uma herança certa você recebe
+
+35
+00:03:09,960 --> 00:03:17,460
+atributos e comportamentos Viera assim como o filho recebe atributos e comportamentos do pai via carga
+
+36
+00:03:17,460 --> 00:03:22,410
+genética um objeto também pode herdar características e comportamentos de outro objeto.
+
+37
+00:03:22,470 --> 00:03:26,110
+Então esse é um dos pilares da orientação a objeto também certo.
+
+38
+00:03:26,160 --> 00:03:35,670
+O terceiro pilar é o polimorfismo é a capacidade que você tem de usar algum conceito mais genérico e
+
+39
+00:03:35,700 --> 00:03:39,480
+dentro desse conceito mais genérico você colocar coisas específicas.
+
+40
+00:03:39,480 --> 00:03:50,190
+Por exemplo eu posso criar no meu sistema um atributo animal por exemplo e associar esse animal um cachorro
+
+41
+00:03:50,550 --> 00:03:53,040
+e associar esse animal um gato.
+
+42
+00:03:53,050 --> 00:03:54,060
+Por quê.
+
+43
+00:03:54,100 --> 00:03:55,020
+Porquê.
+
+44
+00:03:55,050 --> 00:03:56,170
+São conceitos.
+
+45
+00:03:56,180 --> 00:04:02,940
+O animal é mais genérico é gato e cachorro são tipos de animais ou seja para haver um polimorfismo dependendo
+
+46
+00:04:02,940 --> 00:04:04,260
+do tipo de polimorfismo.
+
+47
+00:04:04,260 --> 00:04:05,900
+Vou explicar mais na frente.
+
+48
+00:04:06,000 --> 00:04:07,560
+Precisa haver herança.
+
+49
+00:04:07,830 --> 00:04:10,660
+Então existe uma herança entre animal e gato.
+
+50
+00:04:10,680 --> 00:04:18,510
+O gato é um animal cachorro também é um animal então como eu consigo ter esse mecanismo de herança eu
+
+51
+00:04:18,510 --> 00:04:25,600
+consigo criar um atributo do tipo animal e atribuir valores mais específicos a tipos mais específicos.
+
+52
+00:04:25,610 --> 00:04:31,240
+é por isso que algumas situações a gente conseguiu criar por exemplo um atributo do tipo lista.
+
+53
+00:04:31,380 --> 00:04:33,960
+Só que na hora de criar eu criei uma religião.
+
+54
+00:04:33,990 --> 00:04:36,750
+Ou seja tem um nicho desse lado e a religião do outro.
+
+55
+00:04:36,840 --> 00:04:42,660
+Da mesma forma que eu posso ter um animal de um lado e definha o nome da variável ou seja o tipo mais
+
+56
+00:04:42,660 --> 00:04:49,490
+genérico o animal eu posso criar um cachorro e associar animal eu posso criar um gato e associar o animal
+
+57
+00:04:49,500 --> 00:04:55,560
+isso a gente vai discutir um pouco mais na aula de polimorfismo e o último pilar o quarto pilar é a
+
+58
+00:04:55,560 --> 00:05:02,430
+abstração ou seja a abstração é aquilo que eu já comentei acho que outros quando você vai desenvolver
+
+59
+00:05:02,430 --> 00:05:09,140
+um sistema você observa o mundo real observando o mundo real você tem a complexidade do mundo real e
+
+60
+00:05:09,150 --> 00:05:15,150
+essa complexidade precisa ser simplificada ou administrar a vida para que você consiga escrever software
+
+61
+00:05:15,150 --> 00:05:19,310
+que vá digamos assim corresponder a necessidades do seu negócio.
+
+62
+00:05:19,310 --> 00:05:26,350
+Nem todas as características e comportamentos de um objeto no mundo real estarão presentes no seu software.
+
+63
+00:05:26,370 --> 00:05:33,270
+Nem todos os objetos do mundo real estarão presentes no seu software por exemplo você tem uma clínica
+
+64
+00:05:33,270 --> 00:05:34,470
+e você tem um telefone.
+
+65
+00:05:34,470 --> 00:05:42,990
+Você tem um caderno você tem gavetas móveis você precisa modelar móveis gavetas telefones tudo isso
+
+66
+00:05:43,230 --> 00:05:45,300
+no seu sistema provavelmente não.
+
+67
+00:05:45,330 --> 00:05:51,540
+Você tem um lixeiro uma TV ou um sofá isso não faz parte da necessidade que você tem para modelar um
+
+68
+00:05:51,540 --> 00:05:55,210
+sistema que vai atender os processos da clínica.
+
+69
+00:05:55,230 --> 00:06:01,250
+Você tem um médico só que o médico tem muitas outras características o médico mas pode ter um a esposa
+
+70
+00:06:01,260 --> 00:06:06,040
+pode ter filhos pode ter um carro mas isso faz sentido ser modelado no sistema.
+
+71
+00:06:06,090 --> 00:06:07,240
+Muito provavelmente não.
+
+72
+00:06:07,260 --> 00:06:10,760
+Então que você vai fazer abstrair o mundo real.
+
+73
+00:06:10,770 --> 00:06:16,840
+Tirar uma simplificação que interessa para resolver o seu negócio também é um outro pilar da orientação
+
+74
+00:06:16,840 --> 00:06:17,340
+a objeto.
+
+75
+00:06:17,340 --> 00:06:22,770
+Vou fazer o seguinte Já que eu falei de forma resumida dos quatro pilares na próxima aula eu vou entrar
+
+76
+00:06:22,770 --> 00:06:24,740
+no primeiro pilar que é o encapsulamento.

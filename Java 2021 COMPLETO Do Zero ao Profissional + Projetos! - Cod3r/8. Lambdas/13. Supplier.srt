@@ -1,0 +1,195 @@
+1
+00:00:00,270 --> 00:00:04,680
+Agora nós vamos ver o Suplicy que é o fornecedor suprido.
+
+2
+00:00:04,770 --> 00:00:11,910
+Talvez certo e aqui eu vou criar uma nova classe que eu vou chamar de fornecedor e uma interface bem
+
+3
+00:00:11,910 --> 00:00:17,260
+simples fornecer ou criar aqui o nosso método.
+
+4
+00:00:17,520 --> 00:00:22,540
+Basicamente o que um fornecedor faz é fornecer algo e devolver algo.
+
+5
+00:00:22,600 --> 00:00:28,560
+Esse tipo de interface é um tipo de interface que não recebe nenhum parâmetro e retorna alguma coisa.
+
+6
+00:00:28,560 --> 00:00:32,610
+Então por exemplo colocar aqui que suporta Java.
+
+7
+00:00:32,610 --> 00:00:34,360
+Ponto G o ponto G.
+
+8
+00:00:34,860 --> 00:00:40,410
+Vamos supor que eu queira retornar uma lista no lixo em Java ou outro ponto lixo.
+
+9
+00:00:40,650 --> 00:00:48,180
+Você pode colocar alguns genéricos dentro do outro então e esses genéricos aqui que dar um espaço aqui
+
+10
+00:00:48,590 --> 00:00:51,180
+aos genéricos específico do Subway.
+
+11
+00:00:51,390 --> 00:00:56,760
+E aqui dentro substituindo e eu posso colocar que essa vai ser uma lista de strings certo.
+
+12
+00:00:56,810 --> 00:01:02,210
+Isso não é um problema ou seja você tem aqui um tipo que é uma lista de distritos sendo passada pra
+
+13
+00:01:02,220 --> 00:01:05,490
+ser o tipo de retorno que você vai usar dentro do Subway.
+
+14
+00:01:05,570 --> 00:01:09,670
+7 juntando tudo você tem essa anotação aqui isso não é um problema.
+
+15
+00:01:09,960 --> 00:01:12,880
+Então eu vou colocar aqui pra sei lá.
+
+16
+00:01:12,930 --> 00:01:20,550
+Essa interface vou chamar uma lista e aqui eu vou passar a minha expressão lambida nesse caso como não
+
+17
+00:01:20,550 --> 00:01:26,610
+recebo nenhum parâmetro de entrada certo eu sou obrigado a colocar os parênteses faz parte da sintaxe
+
+18
+00:01:26,640 --> 00:01:28,540
+e o que eu posso retornar.
+
+19
+00:01:28,530 --> 00:01:36,310
+Por exemplo Reis se lixo e eu passo aqui por exemplo nomes com três letras que eu goste muito porque
+
+20
+00:01:36,410 --> 00:01:39,990
+são curtos aqui no curso estão lá sempre os mesmos nomes.
+
+21
+00:01:40,290 --> 00:01:52,070
+Bia lia os arquivos de meu filho Guilherme tem uma lista é pra você chamar o Suplicy.
+
+22
+00:01:52,110 --> 00:01:57,470
+Você tem um método Guedes certo então tem uma lista com 8 7.
+
+23
+00:01:57,480 --> 00:02:03,960
+Ele vai devolver aquilo que o Suplicy pode fornecer aqui no caso o que assinaram a lista.
+
+24
+00:02:03,960 --> 00:02:09,210
+Ou seja exatamente isso que ele vai retornar a lista até posso colocar um tipo bem genérico por exemplo
+
+25
+00:02:09,230 --> 00:02:10,590
+ao objetivo.
+
+26
+00:02:10,650 --> 00:02:16,950
+O Meu Super ídolo vai retornar logo gente ou seja qualquer coisa ele pode digamos assim retornar.
+
+27
+00:02:16,980 --> 00:02:23,380
+Isso não iria gerar um problema no seu colo mas quanto mais específico você for melhor vai ser esse
+
+28
+00:02:23,490 --> 00:02:27,710
+você tem um fornecedor de uma lista ou fornecedor de algo.
+
+29
+00:02:27,720 --> 00:02:35,010
+Por exemplo eu quero fazer um sistema de teste e quero que ele gere uma lista automaticamente para mim
+
+30
+00:02:35,010 --> 00:02:39,420
+e para testar então você pode criar um alarme de fluxo que vai gerar para você.
+
+31
+00:02:39,420 --> 00:02:45,160
+Valores aí aleatórios a carolice distribui e aí você vai ter lá um fornecedor que geralmente distribui
+
+32
+00:02:45,170 --> 00:02:46,070
+certo.
+
+33
+00:02:46,110 --> 00:02:51,390
+E mais eu queria passar por exemplo algum parâmetro pra dizer quantos mesmo na lista aí você já não
+
+34
+00:02:51,390 --> 00:02:52,130
+vai usá los.
+
+35
+00:02:52,170 --> 00:02:57,210
+Zelaya você vai usar por exemplo uma foto em que você pode passar um parâmetro que é um número ele pode
+
+36
+00:02:57,210 --> 00:03:04,140
+retornar um lixo então dependendo da necessidade você vai usar o outro no caso especificamente do Suplicy.
+
+37
+00:03:04,140 --> 00:03:08,160
+Não tem nada que Bacchi fazer aqui uma composição certo.
+
+38
+00:03:08,520 --> 00:03:13,800
+Então por exemplo se não tem 11 metros relacionados a operações lógicas obviamente porque ele retorna
+
+39
+00:03:13,800 --> 00:03:21,660
+nada e também não tem aquela composição que tem tantos na função como na operação na área que é o DEM.
+
+40
+00:03:21,660 --> 00:03:28,560
+Outra função é DEM ou outra que você não tem certo tipo de interface mais simples nesse sentido não
+
+41
+00:03:28,560 --> 00:03:34,650
+só para mostrar o Suplicy que é o tipo de interface funcional que não é top que não recebe nenhum parâmetro
+
+42
+00:03:34,910 --> 00:03:41,100
+é o fato de não receber nenhum parâmetro de força a colocar os parentes em duas situações você é forçado
+
+43
+00:03:41,460 --> 00:03:45,010
+dentro de uma função de uma expressão lambda colocar os parentes.
+
+44
+00:03:45,490 --> 00:03:50,940
+E quando você não tem nenhum parâmetro e no segundo cenário quando você tem mais de um parâmetro a única
+
+45
+00:03:50,940 --> 00:03:56,400
+possibilidade que você tem de suprimir os parentes dos parâmetros é quando você tem apenas um único
+
+46
+00:03:56,400 --> 00:03:57,360
+parâmetro certo.
+
+47
+00:03:57,660 --> 00:04:02,760
+Mas você também pode colocar os parentes se quiser simular sua preferência eu acabo preferindo não colocar
+
+48
+00:04:02,760 --> 00:04:04,990
+porque deixar sentar se um pouco mais enxuta.
+
+49
+00:04:05,220 --> 00:04:06,670
+Então continuamos a aproximá lo.

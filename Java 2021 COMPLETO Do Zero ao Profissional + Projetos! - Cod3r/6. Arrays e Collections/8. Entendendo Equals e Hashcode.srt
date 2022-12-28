@@ -1,0 +1,827 @@
+1
+00:00:00,120 --> 00:00:06,870
+Pessoal nessa aula quero falar um pouquinho sobre o conceito de igualdade dentro de objetos no Java
+
+2
+00:00:06,870 --> 00:00:10,290
+é só um conceito bastante importante de ser conhecido.
+
+3
+00:00:10,290 --> 00:00:13,030
+E eu queria falar um pouco sobre isso na sala que é o segundo.
+
+4
+00:00:13,620 --> 00:00:19,440
+Quando você tem você cria lá um objeto por exemplo um objeto produto.
+
+5
+00:00:19,440 --> 00:00:23,190
+Então você vai tê la como uma variável produto
+
+6
+00:00:25,870 --> 00:00:37,370
+recebe mil produto contíguo aqui no final você vê se você fez isso lá na memória do computador.
+
+7
+00:00:38,380 --> 00:00:46,390
+Você vai ter uma variável tem um que vai estar associado com um endereço de memória que 0 x 1 2 3 por
+
+8
+00:00:46,390 --> 00:00:49,930
+exemplo é a prova para um determinado objeto aqui na memória.
+
+9
+00:00:49,930 --> 00:00:53,950
+Ou seja a gente já viu falar um pouquinho sobre isso como ele falou sobre a atribuição por valor por
+
+10
+00:00:53,950 --> 00:00:54,630
+referência.
+
+11
+00:00:55,120 --> 00:01:04,720
+Quando você cria lá um produto é porque o produto só tem um único atributo um nome recebem por exemplo
+
+12
+00:01:05,500 --> 00:01:06,240
+caneta.
+
+13
+00:01:06,580 --> 00:01:17,770
+E aí você cria um outro produto você cria um produto Produto B2 você cria um outro produto exatamente
+
+14
+00:01:17,770 --> 00:01:23,560
+usando um produto do mesmo jeito que eu fiz aqui só não vou copiar pra mim demorar tanto assim e você
+
+15
+00:01:23,560 --> 00:01:24,740
+faz produto.
+
+16
+00:01:24,740 --> 00:01:33,030
+2 QUANTO NO NOME recebe caneta exatamente igual ao produto de cima.
+
+17
+00:01:33,040 --> 00:01:40,810
+7 Você criou uma outra variável P2 aqui que aponta para um outro endereço de memória 2 3 4.
+
+18
+00:01:40,870 --> 00:01:47,290
+Isso aqui aponta para um outro objeto na memória com dois objetos distintos na memória só que tem exatamente
+
+19
+00:01:47,290 --> 00:01:52,600
+os mesmos valores nome e caneta o nome e a caneta e esse objeto tem apenas um único atributo ou seja
+
+20
+00:01:52,600 --> 00:01:54,460
+todos os atributos são iguais.
+
+21
+00:01:54,460 --> 00:01:59,930
+7 Se tivesse outros atributos para esse desconto Imagine que todos são exatamente iguais.
+
+22
+00:01:59,940 --> 00:02:06,170
+A pergunta é para apagar a memória só para não ficar muito muito bagunçada com a explicação.
+
+23
+00:02:06,280 --> 00:02:14,170
+A pergunta é se eu uso a operação de igualdade os dois iguais para saber se algo é igual ao outro.
+
+24
+00:02:14,170 --> 00:02:19,900
+Então por exemplo quando eu pergunto por exemplo dois é igual e igual a dois.
+
+25
+00:02:19,900 --> 00:02:24,710
+Isso aqui é um resultado que dá verdadeiro ou seja mandato.
+
+26
+00:02:24,710 --> 00:02:25,390
+Por quê.
+
+27
+00:02:25,390 --> 00:02:32,110
+Porque dois a dois está aí a pergunta se eu fizesse a mesma operação de igualdade só que para um objeto
+
+28
+00:02:32,540 --> 00:02:37,090
+eu colocar um igual igual a P2.
+
+29
+00:02:37,090 --> 00:02:39,750
+Será que são a expressão verdadeiro falso.
+
+30
+00:02:39,790 --> 00:02:46,620
+Vocês vão perceber que essa é uma expressão certo que será resolvida pra falso certo.
+
+31
+00:02:46,620 --> 00:02:47,170
+Por quê.
+
+32
+00:02:47,180 --> 00:02:48,030
+Que é falso.
+
+33
+00:02:48,100 --> 00:02:58,720
+Porque só de forma alegórica ele aponta para um endereço de memória 0 x 1 2 3 e o P2 aponta para a numeração
+
+34
+00:02:58,720 --> 00:03:04,660
+decimal 2 3 4 ou seja são endereços distintos.
+
+35
+00:03:04,660 --> 00:03:11,340
+Significa que se ele fizer essa igualdade aqui isso aqui vai resolver pra falso também porque ele está
+
+36
+00:03:11,350 --> 00:03:13,270
+comparando o endereço de memória.
+
+37
+00:03:13,270 --> 00:03:19,720
+Sempre que você faz uma comparação usando igual e igual você está comparando o endereço de memória se
+
+38
+00:03:19,720 --> 00:03:25,990
+são dois objetos distintos mesmo que têm os mesmos dados as mesmas informações.
+
+39
+00:03:25,990 --> 00:03:31,540
+Essa comparação vai ser falsa e a pergunta será que na maioria do tempo você está querendo comparar
+
+40
+00:03:31,540 --> 00:03:37,850
+se os objetos são iguais do ponto de vista dos valores ou você está querendo comparar endereços de memória.
+
+41
+00:03:37,960 --> 00:03:43,780
+Eu arrisco a dizer que boa parte das vezes você está querendo saber se dois objetos são iguais se tem
+
+42
+00:03:44,110 --> 00:03:50,710
+o mesmo índice e tem o mesmo nome tem o mesmo preço são exatamente iguais ou pelo menos quais são os
+
+43
+00:03:50,710 --> 00:03:55,750
+atributos dentro de um objeto que define que um é igual ao outro no seu sistema.
+
+44
+00:03:55,750 --> 00:04:01,480
+Pode ser que só o índice seja suficiente para definir que um objeto é igual ao outro certo mas depois
+
+45
+00:04:01,560 --> 00:04:06,010
+sendo um pouco mais isso vamos imaginar que todos os atributos são iguais e se você quiser comparar
+
+46
+00:04:06,010 --> 00:04:12,100
+os dois muito provavelmente você vai querer que dê igual e normalmente você não estará muito preocupado
+
+47
+00:04:12,100 --> 00:04:16,330
+com o endereço de memória como é o caso o que é certo em títulos primitivos.
+
+48
+00:04:16,330 --> 00:04:23,150
+Como você atribui um valor ou não a essa distinção entre endereços de memória diferentes.
+
+49
+00:04:23,150 --> 00:04:29,930
+Então sempre que você fizer por exemplo 3 ponto 2 é igual igual a 3.
+
+50
+00:04:29,930 --> 00:04:30,820
+Ponto 2.
+
+51
+00:04:30,820 --> 00:04:37,290
+Isso aqui são dois tipos primitivos dois da ABL e o resultado será nesse caso o que é verdadeiro.
+
+52
+00:04:37,310 --> 00:04:38,050
+Certo.
+
+53
+00:04:38,400 --> 00:04:43,810
+Mas quando você trabalha com objetos de memória se você fizer uma comparação igual igual você está comparando
+
+54
+00:04:44,080 --> 00:04:45,160
+endereço de memória.
+
+55
+00:04:45,250 --> 00:04:49,820
+Daí vai surgir um método chamado caos certo.
+
+56
+00:04:50,020 --> 00:04:56,640
+Esse método é Klaus que é um elo para aquilo ali o caos.
+
+57
+00:04:56,650 --> 00:05:02,070
+Ele é um metro que está disponível em todos os objetos em Java.
+
+58
+00:05:02,120 --> 00:05:08,620
+Além do mais eu criei uma classe chamada cliente eu criei o método incluso mais ele vai receber esse
+
+59
+00:05:08,770 --> 00:05:15,310
+por padrão o Metro do IBM todo objeto independente seja objeto do próprio Java um objeto uma classe
+
+60
+00:05:15,310 --> 00:05:16,510
+criada por você.
+
+61
+00:05:16,510 --> 00:05:23,200
+A partir dessa classe você vai distanciar objetos toda a classe recebe esse método e qual é o objetivo
+
+62
+00:05:23,200 --> 00:05:24,640
+do métricos.
+
+63
+00:05:24,640 --> 00:05:31,790
+Dentro do método incluso você vai colocar a lógica que vai definir como um objeto produto é igual ao
+
+64
+00:05:31,810 --> 00:05:32,950
+outro objeto produto.
+
+65
+00:05:32,950 --> 00:05:38,000
+Qual é o critério que você vai usar para saber se um objeto é igual a algum outro então exato.
+
+66
+00:05:38,080 --> 00:05:41,220
+Sobre esse método que eu quero falar um pouquinho pra vocês.
+
+67
+00:05:41,350 --> 00:05:46,600
+Vamos supor pegar nesse mesmo exemplo aqui de cima deixou limpar um pouquinho.
+
+68
+00:05:46,990 --> 00:05:52,150
+Essa parte aqui vai voltar para o nosso código de ensino que fica mais fácil explicação.
+
+69
+00:05:52,150 --> 00:05:56,460
+A gente já viu que se fizer um igual igual ele vai dar falso.
+
+70
+00:05:56,580 --> 00:06:00,930
+A pergunta é já que eu falei que o Windows vai servir exatamente para isso.
+
+71
+00:06:01,030 --> 00:06:09,820
+Se eu fizer um ponto já que um objeto possa acessar os atributos e comportamentos desse objeto bem eu
+
+72
+00:06:09,820 --> 00:06:13,590
+falei pra você que automaticamente a gente vai ver isso na prática também certo.
+
+73
+00:06:13,750 --> 00:06:21,300
+Automaticamente qualquer objeto criado em Java terá o ICS se eu fizer um e com os P2.
+
+74
+00:06:21,520 --> 00:06:25,780
+A minha pergunta é essa expressão aqui ou ela vai dar verdadeiro falso.
+
+75
+00:06:26,260 --> 00:06:35,320
+Essa expressão irá resultar em falso porque o órgão entende se os dois têm exatamente o mesmo valor
+
+76
+00:06:35,320 --> 00:06:42,750
+que caneta porque é deu falso deu falso porque por padrão se você não fizer nada o comportamento do
+
+77
+00:06:42,800 --> 00:06:50,890
+ICS é exatamente igual ao comportamento de um igual igual a P2.
+
+78
+00:06:50,890 --> 00:06:55,690
+Ou seja por padrão esse é o comportamento igual que vai acontecer no Windows.
+
+79
+00:06:55,690 --> 00:07:02,230
+Em outras palavras isso aqui também vai retornar Falso se você quiser implementar o ICS você vai ter
+
+80
+00:07:02,230 --> 00:07:08,470
+que criar essa função definir qual vai ser o critério de igualdade entre dois objetos e aí sim essa
+
+81
+00:07:08,470 --> 00:07:10,480
+função irá retornar verdadeiro falso.
+
+82
+00:07:10,480 --> 00:07:16,150
+Nós vamos implementar essa função mas antes disso eu quero falar de um conceito muito importante sobre
+
+83
+00:07:16,150 --> 00:07:24,360
+a igualdade especificamente no Java que além do ICS você tem uma outra função que você usa pra implementar
+
+84
+00:07:24,370 --> 00:07:27,060
+eu quero conversar com você sobre isso agora certo.
+
+85
+00:07:27,160 --> 00:07:33,520
+Então já está claro pra vocês que o Windows ele é a função que vai definir a igualdade entre dois objetos
+
+86
+00:07:34,060 --> 00:07:40,870
+e o Windows por padrão tem o mesmo comportamento de comparar com igual igual que ele sempre olha o endereço
+
+87
+00:07:40,870 --> 00:07:47,020
+de memória se são dois objetos distintos por mais que tenham os mesmos valores vai dar falso porque
+
+88
+00:07:47,020 --> 00:07:53,560
+são objetos diferentes na memória certa e isso é igual igual faz e é isso que o Windows faz por padrão.
+
+89
+00:07:53,680 --> 00:07:56,740
+Mais uma questão importante com relação aos veículos é o seguinte.
+
+90
+00:07:57,090 --> 00:08:01,410
+A gente vocês vão perceber que o ICS que essa função.
+
+91
+00:08:01,630 --> 00:08:07,460
+Certo Ela vem junto com outra função chamada mexem com eles.
+
+92
+00:08:07,740 --> 00:08:11,320
+é exatamente sobre essas duas funções que eu quero falar.
+
+93
+00:08:11,350 --> 00:08:14,640
+Nessa altura essa introdução foi pra falar um pouquinho de igualdade.
+
+94
+00:08:14,860 --> 00:08:19,550
+Mas o que eu quero falar mesmo é o ICS hoje e o de lá por que ele está falando isso agora.
+
+95
+00:08:19,740 --> 00:08:25,620
+Que ele está falando isso no contexto de um capítulo que vai falar de coleções e que vai falar de.
+
+96
+00:08:25,700 --> 00:08:26,540
+Porquê.
+
+97
+00:08:26,720 --> 00:08:33,340
+Vai existir algumas estruturas que nós vamos usar que é o seguinte o Java tem uma estrutura conjunto
+
+98
+00:08:33,950 --> 00:08:41,320
+certo que representa um conjunto e o nome dessa estrutura e fecho sete.
+
+99
+00:08:41,710 --> 00:08:46,690
+Ou seja a pergunta é como é que eu vou conseguir encontrar um elemento dentro de um conjunto de outros
+
+100
+00:08:46,690 --> 00:08:47,380
+elementos.
+
+101
+00:08:47,380 --> 00:08:52,690
+Vamos supor que você tem um conjunto com 10 mil produtos você criou um conjunto e esse conjunto tem
+
+102
+00:08:52,690 --> 00:08:54,030
+10 mil produtos dentro.
+
+103
+00:08:54,030 --> 00:08:55,720
+Você quer encontrar um produto.
+
+104
+00:08:56,260 --> 00:08:59,190
+Será que vai ser importante o conceito de igualdade.
+
+105
+00:08:59,230 --> 00:09:00,760
+Vai ser muito importante.
+
+106
+00:09:01,000 --> 00:09:06,420
+E porque será que o nome desse conjunto um dos conjuntos que o Java disponibiliza chamado de haxixe
+
+107
+00:09:06,770 --> 00:09:10,830
+7 é exatamente porque ele usa esse conceito que rege o Código.
+
+108
+00:09:10,840 --> 00:09:13,110
+Quero falar com vocês na sala certa.
+
+109
+00:09:13,110 --> 00:09:18,210
+Então deixa eu voltar aqui só pra contextualizar porque eu estou falando isso agora porque esse conceito
+
+110
+00:09:18,610 --> 00:09:26,290
+hoje vai ser útil quando você for procurar elementos dentro de listas dentro de conjuntos dentro de
+
+111
+00:09:26,290 --> 00:09:27,910
+mapas que a gente vai estudar aqui.
+
+112
+00:09:28,020 --> 00:09:33,940
+Então todas essas estruturas de dados que a gente vai eventualmente armazenar vários elementos dentro
+
+113
+00:09:33,940 --> 00:09:38,110
+dela a gente vai precisar percorrer e encontrar esses elementos.
+
+114
+00:09:38,110 --> 00:09:42,930
+Eu vou criar aqui um cenário que é o que acontece aqui só pra botar o resto.
+
+115
+00:09:43,180 --> 00:09:51,430
+é uma função que vai retornar um valor inteiro e o iCloud é uma função que vai retornar TRU ou falso.
+
+116
+00:09:51,430 --> 00:09:56,560
+Em outras palavras vai retornar um valor do tipo bullying bolha.
+
+117
+00:09:57,490 --> 00:10:02,950
+Ou seja é óbvio que isso aqui vai retornar um valor bolha porque se você quer fazer alguma coisa do
+
+118
+00:10:02,950 --> 00:10:12,100
+tipo o produto 2 ponto e com os produto você passa como parâmetro o produto que você quer comparar.
+
+119
+00:10:12,220 --> 00:10:14,530
+Ou seja o produto dois é igual ao produto.
+
+120
+00:10:14,530 --> 00:10:17,190
+Isso aqui é para retornar Verdadeiro ou falso.
+
+121
+00:10:17,190 --> 00:10:19,200
+é de se esperar que aconteça isso.
+
+122
+00:10:19,210 --> 00:10:24,550
+Então bicos vai retornar um gole outro e o riacho com ele vai tornar um valor limite certo.
+
+123
+00:10:24,560 --> 00:10:30,090
+E a pergunta é pra ele que existe um racha com ele porque que ele está relacionado com o ICMS e convocará
+
+124
+00:10:30,120 --> 00:10:37,480
+explicar agora imagine a seguinte situação você tem aqui um conjunto com vários objetos dentro e você
+
+125
+00:10:37,480 --> 00:10:48,280
+tem esses conjuntos são baseados em objetos do tipo usuário e você tem aqui um usuário chamado Ana.
+
+126
+00:10:48,280 --> 00:10:54,080
+Imagine se um objeto é um dos atributos e um nome que você tem usuário.
+
+127
+00:10:54,430 --> 00:11:00,700
+Bia você tem a liga e você tem que o sítio certo são quatro usuários você tem mais outros usuários por
+
+128
+00:11:00,700 --> 00:11:04,660
+exemplo você tem a Luana que também é um usuário.
+
+129
+00:11:04,660 --> 00:11:10,540
+Você tem o Luca você tem o Kiko certo mesmo.
+
+130
+00:11:10,630 --> 00:11:11,310
+Pronto.
+
+131
+00:11:11,440 --> 00:11:18,850
+Imagino que você tenha outros milhares de clientes dentro desse conjunto então aqui fora nós temos um
+
+132
+00:11:18,850 --> 00:11:19,810
+conjunto.
+
+133
+00:11:19,820 --> 00:11:27,430
+Aí a pergunta que eu quero procurar dentro desse conjunto um elemento químico por exemplo então vou
+
+134
+00:11:27,430 --> 00:11:29,410
+colocar aqui o meu alvo de busca.
+
+135
+00:11:29,530 --> 00:11:34,630
+Eu quero encontrar um elemento chamado que obviamente o Kiko está bem desse conjunto mas eu não sei
+
+136
+00:11:34,630 --> 00:11:40,210
+exatamente em que posição ele está o cara pegar na verdade outro atributo desse usuário por exemplo
+
+137
+00:11:40,210 --> 00:11:45,850
+só aqui o meu critério de busca ou seja pra saber se um objeto é igual ao outro vou usar apenas o nome
+
+138
+00:11:45,850 --> 00:11:49,910
+dele pra gente falar um pouquinho sobre o Ecus e o cachecol.
+
+139
+00:11:49,930 --> 00:11:50,660
+Então beleza.
+
+140
+00:11:50,920 --> 00:11:54,080
+Vamos supor para ao comparar que o usuário igual ao outro.
+
+141
+00:11:54,080 --> 00:11:58,960
+Eu preciso de dois atributos o nome e o e-mail apagar o nome e-mail.
+
+142
+00:11:58,990 --> 00:12:01,440
+Vou pesquisando certo o Icon.
+
+143
+00:12:01,570 --> 00:12:03,150
+Ele é um método mais lento.
+
+144
+00:12:03,160 --> 00:12:03,640
+Por quê.
+
+145
+00:12:03,640 --> 00:12:10,810
+Porque ele vai comparar um atributo dois às vezes dez atributos dependendo da idade com complexo e a
+
+146
+00:12:10,810 --> 00:12:17,470
+lógica pra você fazer a igualdade ele vai usar esse método pra comparar realmente se um objeto é igual
+
+147
+00:12:17,470 --> 00:12:18,390
+ao outro.
+
+148
+00:12:18,430 --> 00:12:19,530
+Então se eu tiver.
+
+149
+00:12:19,570 --> 00:12:27,100
+Imagine que nesse conjunto eu tenha 100 mil usuários eu vou precisar chamar 100 mil vezes o método e
+
+150
+00:12:27,170 --> 00:12:33,530
+colocar um método mais lento pra daí eu saber qual é o objeto que eu estou procurando encontrar igualdade
+
+151
+00:12:33,530 --> 00:12:34,810
+eu pego o objeto que eu quero.
+
+152
+00:12:35,320 --> 00:12:38,080
+Então essa é a estratégia usada pelo Java.
+
+153
+00:12:38,080 --> 00:12:38,680
+Por quê.
+
+154
+00:12:38,680 --> 00:12:45,130
+Porque existe um racha com o qual o objetivo do esconde esconde tem como objetivo seu método muito mais
+
+155
+00:12:45,130 --> 00:12:52,930
+rápido que ele separe os elementos que não são iguais pra te dar apenas os objetos que têm possibilidade
+
+156
+00:12:53,350 --> 00:12:54,480
+de ser igual.
+
+157
+00:12:54,500 --> 00:12:58,180
+Sete que realmente valha a pena usar a igualdade para saber se era igual ou não.
+
+158
+00:12:58,270 --> 00:13:04,720
+Ou seja você executa o riacho com uma passagem muito rápida sobre o conjunto para realmente separar
+
+159
+00:13:04,720 --> 00:13:08,740
+aquilo que não tem perigo de ser igual para aquilo que pode ser igual.
+
+160
+00:13:08,830 --> 00:13:14,380
+E a partir daí você vai realmente o Náutico só em um subconjunto do conjunto inteiro.
+
+161
+00:13:14,380 --> 00:13:21,550
+Então por exemplo vamos supor que você usa a quantidade de letras do nome pra você fazer uma busca mais
+
+162
+00:13:21,550 --> 00:13:28,330
+rápida então aqui eu tenho um que a quantidade de letras no cálculo de letras do que é igual a 4.
+
+163
+00:13:28,810 --> 00:13:35,770
+Então imagine que esse 4 é o que você usou pra seu corpo então em cima do riacho como você vai comparar
+
+164
+00:13:35,770 --> 00:13:41,710
+com com o de outros alimentos que a quantidade de letra dos outros usuários que estão dentro do conjunto
+
+165
+00:13:41,960 --> 00:13:46,840
+lembre que a gente tem 100 mil elementos dentro do nosso conjunto a gente vai fazer uma passagem rápida
+
+166
+00:13:47,200 --> 00:13:48,240
+usando um esconde.
+
+167
+00:13:48,370 --> 00:13:54,720
+Então ele só vai usar o com uso depois que ele separar todo mundo que tem um risco igual porque é um
+
+168
+00:13:54,730 --> 00:14:01,020
+busca muito mais rápido só então é que ele vai pegar esse subconjunto que sobrou e vai testar o iCloud.
+
+169
+00:14:01,370 --> 00:14:07,990
+Então por que ele passou nos 100 mil elementos e ele percebeu algo que tem quatro letras agora tem quatro
+
+170
+00:14:07,990 --> 00:14:14,050
+letras então ele não vai rodar o iCloud na ANA nem em Barra da Arabia nem a barra da analogia nem vai
+
+171
+00:14:14,040 --> 00:14:21,320
+rodar no Cid mas ele vai rodar na Lua no Luca e no Kiko porque são três elementos que têm o mesmo.
+
+172
+00:14:21,390 --> 00:14:26,710
+Claro que o resto como ele é gerado não fala mais complexa pra tentar evitar essa igualdade.
+
+173
+00:14:26,720 --> 00:14:31,960
+Até pra evitar que muitos elementos fiquem depois com os demais só dá um exemplo pra você entender a
+
+174
+00:14:31,960 --> 00:14:38,650
+lógica então como o Lumia tem um risco igual ao de que eu estou buscando como o Luca tem uma escolha
+
+175
+00:14:38,650 --> 00:14:41,020
+igual do que eu estou buscando com o Kiko.
+
+176
+00:14:41,020 --> 00:14:47,980
+Tio Rei ficou legal do Kiko então esse serão os três elementos que eu vou fazer o realmente a chamar
+
+177
+00:14:47,980 --> 00:14:53,800
+do ICS pra comparar de forma mais profunda de forma mais lenta também pra daí eu saber se o usuário
+
+178
+00:14:53,830 --> 00:14:59,590
+é igual ao outro então imagina se numa situação hipotética eu tenho 100 mil elementos desses 100 mil
+
+179
+00:14:59,590 --> 00:15:08,650
+elementos apenas 7 tem o mesmo código é absurdamente mais rápido passar pelos 100 mil com o de só em
+
+180
+00:15:08,650 --> 00:15:16,180
+cima do 7 elementos que tem o mesmo checkout executar o ICS do que eu ter que executar o ICS pra todos
+
+181
+00:15:16,270 --> 00:15:18,700
+os 100 mil elementos de um conjunto.
+
+182
+00:15:18,700 --> 00:15:23,170
+Por isso que eu acho que hoje é o Windows eles andam em conjunto.
+
+183
+00:15:23,170 --> 00:15:28,330
+Por isso que essas duas informações extremamente importantes para que você faça a igualdade um objeto
+
+184
+00:15:28,510 --> 00:15:34,150
+com o de como sendo um método muito mais rápido que vai comparar apenas inteiras essa comparação é muito
+
+185
+00:15:34,150 --> 00:15:40,330
+mais hábil e com o uso como sendo um metro que pode comparar apenas um atributo pode comparar dois atributos
+
+186
+00:15:40,330 --> 00:15:47,440
+pode comparar vinte atributos dependendo de como seja a lógica de igualdade entre dois objetos tá certo.
+
+187
+00:15:47,440 --> 00:15:53,990
+Então por isso que tenho um cachecol que é uma forma rápida de você fazer igualdade somente usar as
+
+188
+00:15:53,990 --> 00:16:00,760
+coisas iguais irão passar para o ICS então sempre que você tiver implementando igualdade entre objetos
+
+189
+00:16:00,760 --> 00:16:07,060
+em Java você vai usar esses dois métodos e escolher o uso exatamente para isso que segue via de regra
+
+190
+00:16:07,060 --> 00:16:14,260
+o que acontece se você tem 100 mil elementos o cachecol provavelmente será o único dentro desse 100
+
+191
+00:16:14,260 --> 00:16:20,410
+mil elementos de tal forma que no final 100 mil elementos se você rodar só com o que você vai encontrar
+
+192
+00:16:20,410 --> 00:16:26,860
+não 7 mas apenas um único elemento é em cima desse único elemento que você rodou e com isso pra saber
+
+193
+00:16:26,860 --> 00:16:32,230
+se realmente são iguais ou não certo então eu falei algumas coisas bastante interessantes e importantes
+
+194
+00:16:32,230 --> 00:16:39,110
+sobre igualdade de objetos se você usar igual igual ele vai comparar memória se você usar o wi fi com
+
+195
+00:16:39,130 --> 00:16:44,980
+uso por padrão que foi definido por padrão você também vai comparar a memória e somente quando você
+
+196
+00:16:44,980 --> 00:16:51,550
+define o método é simplesmente a hora que você vai começar e que nenhum critério seu para definir quando
+
+197
+00:16:51,550 --> 00:16:53,260
+um objeto é igual ao outro.
+
+198
+00:16:53,350 --> 00:16:58,620
+é uma observação importante sempre que você implementou e com uso você também irá implementar o Echo
+
+199
+00:16:58,620 --> 00:17:04,970
+como ele é muito importante porque esses dois conjuntos se você implementar só o recurso e não implementá
+
+200
+00:17:04,970 --> 00:17:12,040
+la com ele quando você for usar Echo Map RX 7 algumas das coleções que eu vou mostrar ainda nesse capítulo
+
+201
+00:17:12,160 --> 00:17:16,870
+você vai perceber que o comportamento será estranho como você tentar buscar algum objeto o resultado
+
+202
+00:17:16,870 --> 00:17:17,990
+não será correto.
+
+203
+00:17:18,070 --> 00:17:21,670
+Então por isso que esses 2 metros em conjunto.
+
+204
+00:17:21,680 --> 00:17:27,730
+é por isso que eu vou tirar esse X aqui porque x é importante porque eu escolheu um método muito importante
+
+205
+00:17:27,730 --> 00:17:32,440
+é necessário implementar na próxima aula a gente continua fazendo exercício pra gente ver tudo aquilo
+
+206
+00:17:32,440 --> 00:17:33,350
+que a gente viu.
+
+207
+00:17:33,610 --> 00:17:36,100
+Na teoria só que na prática e até lá.

@@ -1,0 +1,87 @@
+1
+00:00:00,330 --> 00:00:06,750
+Chegamos no final de mais um capítulo do nosso curso e nesse capítulo nós vimos as estruturas de controle.
+
+2
+00:00:06,750 --> 00:00:10,910
+Ou seja agora você tem a capacidade de controlar o seu algoritmo.
+
+3
+00:00:10,920 --> 00:00:15,810
+Ou seja não é aquele algorítimo que vai sair do primeiro passo e vai até o último executando todos os
+
+4
+00:00:15,810 --> 00:00:20,160
+passos você tem a capacidade de repetir uma sentença ou um bloco de código.
+
+5
+00:00:20,160 --> 00:00:25,470
+Você tem a capacidade de selecionar um código em detrimento de outro ou executar códigos de forma condicional
+
+6
+00:00:25,500 --> 00:00:29,760
+ou seja dependendo da condição você executa ou não uma sentença ou um bloco de código.
+
+7
+00:00:29,760 --> 00:00:34,040
+Isso é extremamente importante você tem esse controle.
+
+8
+00:00:34,200 --> 00:00:39,780
+Como você vai executar o seu código é algo que faz parte diria que cem por cento da vida de um programador
+
+9
+00:00:39,780 --> 00:00:43,570
+é então dominar as estruturas de controle essencial se você está começando.
+
+10
+00:00:43,650 --> 00:00:48,480
+Eu tenho certeza que isso vai abrir um leque de possibilidades muito grande se você já tem experiência
+
+11
+00:00:48,480 --> 00:00:49,800
+com outras linguagens.
+
+12
+00:00:49,980 --> 00:00:55,440
+Eu tenho certeza que boa parte dos recursos apresentados nesse capítulo você já conhece porque faz parte
+
+13
+00:00:55,440 --> 00:00:57,880
+do dia a dia de qualquer linguagem de programação.
+
+14
+00:00:57,900 --> 00:01:05,340
+No próximo capítulo nós veremos temas extremamente importantes que é classe e métodos a gente vai entender
+
+15
+00:01:05,340 --> 00:01:08,250
+o conceito de método vai entender o conceito de classe.
+
+16
+00:01:08,370 --> 00:01:12,990
+A gente está criando classe em todos os nossos exercícios agora sim vai entender o conceito por trás
+
+17
+00:01:12,990 --> 00:01:15,080
+do clássico certo então fico por aqui.
+
+18
+00:01:15,080 --> 00:01:20,880
+Pessoal nesse capítulo no próximo capítulo veremos assuntos extremamente importantes e lá vai começar
+
+19
+00:01:20,880 --> 00:01:26,670
+o início da orientação a objetos seja os primeiros passos da orientação objetos serão dados no próximo
+
+20
+00:01:26,670 --> 00:01:27,420
+capítulo.
+
+21
+00:01:27,460 --> 00:01:32,280
+é um capítulo muito legal gosto muito de ensinar ele e espero que você também esteja empolgado para
+
+22
+00:01:32,280 --> 00:01:35,190
+assistir às próximas aulas do curso de Java e disparou.

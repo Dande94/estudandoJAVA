@@ -1,0 +1,763 @@
+1
+00:00:00,230 --> 00:00:06,010
+Penso agora uma falar do terceiro pilar da orientação a objeto já falei de encapsulamento falei da herança
+
+2
+00:00:06,020 --> 00:00:09,010
+a gente não faz exercício ainda mais vai fazer em breve.
+
+3
+00:00:09,060 --> 00:00:17,070
+E agora eu vou falar do polimorfismo é muito importante essa parte conceitual porque a orientação objeto
+
+4
+00:00:17,130 --> 00:00:22,140
+essa parte conceitual muito forte não veio você entendendo minha parte conceitual pra você ir para a
+
+5
+00:00:22,140 --> 00:00:27,660
+praxe começar bem esses conceitos na prática o que vai realmente fazer você entender os conceitos não
+
+6
+00:00:27,660 --> 00:00:33,810
+só fazer os exercícios aqui do nosso capitulo mas também colocar isso na prática em projetos reais que
+
+7
+00:00:33,810 --> 00:00:39,120
+a gente também vai ter no curso certo então essa parte conceitual extremamente importante de orientação
+
+8
+00:00:39,120 --> 00:00:45,960
+a objeto não poderia criar um capítulo de orientação objeto sem ter um foco muito grande digamos assim
+
+9
+00:00:45,960 --> 00:00:51,510
+na parte conceitual por isso está fazendo um pouco mais de conceito mais gente mais já entrar nos exercícios
+
+10
+00:00:51,510 --> 00:00:57,040
+também fala um pouquinho sobre pole ou seja múltiplas formas polimorfismo.
+
+11
+00:00:57,540 --> 00:01:01,700
+Seria mais ou menos a divisão da palavra ou polimorfismo.
+
+12
+00:01:01,710 --> 00:01:08,760
+Nós temos dois tipos de polimorfismo e eu descobri que tinha dois tipos de polimorfismo na forma da
+
+13
+00:01:08,760 --> 00:01:14,370
+pior forma possível que foi errando uma questão de prova certo eu para mim só tinha um polimorfismo
+
+14
+00:01:14,370 --> 00:01:19,600
+dinâmico era o que eu conhecia na época e depois descobri que tinham um polimorfismo estático.
+
+15
+00:01:19,630 --> 00:01:25,080
+E eu descobri isso prova Tá certo então o que é que significa o polimorfismo estático.
+
+16
+00:01:25,080 --> 00:01:28,690
+Já coloquei que significa sobrecarga ou sobrecarga.
+
+17
+00:01:29,100 --> 00:01:35,550
+Imagine que você tem aqui um clássico do século 70 uma classe dentro dessa classe eu já mostrei pra
+
+18
+00:01:35,550 --> 00:01:41,730
+vocês que vocês podem criar dois métodos ou mais métodos com o mesmo nome.
+
+19
+00:01:41,790 --> 00:01:48,420
+Embora os métodos precisem ter assinaturas únicas o que é a assinatura de um método é o nome do método
+
+20
+00:01:48,560 --> 00:01:55,760
+e os seus parâmetros então a quantidade de parâmetros vai influenciar os tipos dos parâmetros vai influenciar
+
+21
+00:01:56,020 --> 00:02:00,440
+e a Ordem dos parâmetros vai influenciar mais você vai usar o mesmo nome.
+
+22
+00:02:00,440 --> 00:02:06,650
+Quando você tem métodos com o mesmo nome e com parâmetros diferentes você tem sobrecarga.
+
+23
+00:02:06,660 --> 00:02:13,650
+Você está sobrecarregando aquele homem certo não no sentido do programa ficar pesado não mais no sentido
+
+24
+00:02:13,650 --> 00:02:20,820
+de você usar várias vezes o mesmo nome então imagino que esse aqui seja uma classe certo clássico e
+
+25
+00:02:20,830 --> 00:02:24,790
+aqui dentro você vai definir um método chamado opa.
+
+26
+00:02:24,920 --> 00:02:25,650
+Coca cola.
+
+27
+00:02:25,780 --> 00:02:26,720
+Opa.
+
+28
+00:02:26,740 --> 00:02:31,960
+Esse método tem um conjunto de parâmetros aqui você define um outro método.
+
+29
+00:02:32,200 --> 00:02:38,590
+OPA que tem um conjunto de parâmetros obviamente diferente do conjunto de parâmetros anteriores precisa
+
+30
+00:02:38,590 --> 00:02:45,640
+ter ou mais parâmetros ou parâmetros de tipos diferentes ou a Ordem dos parâmetros ser diferente.
+
+31
+00:02:45,640 --> 00:02:51,260
+Embora não seja um solução muito interessante você ter os mesmos parâmetros só que em ordem diferentes.
+
+32
+00:02:51,310 --> 00:02:55,840
+Acho que vai gerar mais confusão do que quer esclarecimento mais homens.
+
+33
+00:02:55,840 --> 00:02:58,560
+Você acaba criando um método OPA com um parâmetro.
+
+34
+00:02:58,890 --> 00:03:04,750
+O método algo passa dois parâmetros o outro método acaba passando três parâmetros aí você consegue ter
+
+35
+00:03:04,750 --> 00:03:08,520
+uma facilidade maior para ter a sobrecarga e você tem que por exemplo.
+
+36
+00:03:08,530 --> 00:03:15,580
+Quanto aos métodos você quiser contanto que a assinatura do Metro seja o nome do método e os seus parâmetros
+
+37
+00:03:15,580 --> 00:03:16,850
+sejam diferentes.
+
+38
+00:03:17,230 --> 00:03:19,600
+Então aqui eu tenho o mesmo método.
+
+39
+00:03:19,720 --> 00:03:28,830
+Opa funcionando de múltiplas formas ou seja múltiplas formas polimorfismo porque é um polimorfismo estático.
+
+40
+00:03:28,990 --> 00:03:31,430
+Ele é um polimorfismo estático por quê.
+
+41
+00:03:31,630 --> 00:03:34,900
+Ele acontece estatisticamente no seu código.
+
+42
+00:03:34,900 --> 00:03:37,360
+Você escreveu esse polimorfismo.
+
+43
+00:03:37,390 --> 00:03:42,240
+Ou seja essas múltiplas formas diferentes de usar o mesmo método.
+
+44
+00:03:42,310 --> 00:03:44,180
+Ou seja lá está o quê.
+
+45
+00:03:44,290 --> 00:03:49,930
+Você escreveu estatisticamente no seu core não acontecem de forma dinâmica durante a execução do código
+
+46
+00:03:49,930 --> 00:03:50,320
+certo.
+
+47
+00:03:50,710 --> 00:03:56,170
+Então aqui de forma estática você tem mesmo um metro funcionando de três formas diferentes.
+
+48
+00:03:56,410 --> 00:03:59,610
+Por isso que o nome e múltiplas formas ou polimorfismo.
+
+49
+00:04:00,040 --> 00:04:06,280
+Então esse é o polimorfismo estático significa a sobrecarga exatamente a mesma coisa de sobrecarga você
+
+50
+00:04:06,280 --> 00:04:11,470
+fala polimorfismo estático e falar sobre carga são sinônimos tá certo.
+
+51
+00:04:11,590 --> 00:04:16,570
+Então se você encontrar em si alguma questão de prova saiba que existe essa possibilidade de chamar
+
+52
+00:04:16,570 --> 00:04:22,390
+sobrecarga para mim na hora da prova só conhecia com sobrecarga não conhecia que isso era um polimorfismo
+
+53
+00:04:22,720 --> 00:04:30,070
+estático e outro tipo de polimorfismo é um polimorfismo dinâmico e eu quero concentrar o resto da aula
+
+54
+00:04:30,070 --> 00:04:31,600
+falando sobre ele.
+
+55
+00:04:31,600 --> 00:04:39,040
+Para você ter um polimorfismo dinâmico como pré requisito certo um pré requisito para isso acontecer
+
+56
+00:04:39,040 --> 00:04:41,410
+você precisa ter herança.
+
+57
+00:04:41,590 --> 00:04:50,110
+Então a partir da herança é que você consegue ter o polimorfismo as múltiplas formas de forma dinâmica
+
+58
+00:04:50,300 --> 00:04:51,650
+eu vou mostrar para vocês agora.
+
+59
+00:04:52,060 --> 00:04:57,940
+Imagine a seguinte situação você tem um carrão que é um conceito mais genérico ou seja dá aula passada
+
+60
+00:04:57,940 --> 00:05:05,050
+a gente viu que a Superclássico e nós temos aqui o Civic que é a subclasse ou seja uma classe mais específica.
+
+61
+00:05:05,170 --> 00:05:08,170
+Ou seja o carro é a super classe Civic.
+
+62
+00:05:08,360 --> 00:05:09,200
+Subclasse.
+
+63
+00:05:09,610 --> 00:05:14,420
+Normalmente você vai criar como você vai distanciar como um Civic.
+
+64
+00:05:14,710 --> 00:05:16,870
+Você vai ter se assim ao Civic.
+
+65
+00:05:17,170 --> 00:05:23,590
+Ou seja o tipo da classe já que classe de fim o antigo Civic que deve o nome da variável identificador
+
+66
+00:05:23,590 --> 00:05:29,490
+da variável chamado C recebe um novo Civic ou seja que você está chamando o construtor.
+
+67
+00:05:29,800 --> 00:05:35,940
+E aqui você tem um nome da classe média você percebe que é a mesma coisa você tem sido que de um lado
+
+68
+00:05:35,950 --> 00:05:42,160
+Civic do outro serve como quiser essa aquele amarelo ta exatamente as duas coisas porque nesse caso
+
+69
+00:05:42,160 --> 00:05:47,280
+eu criei uma variável do tipo C distanciam o Civic e nada mais comum do que isso.
+
+70
+00:05:47,330 --> 00:05:54,490
+Continuei meu colo de forma bem tranquila mas existe a possibilidade de você criar um tipo mais genérico
+
+71
+00:05:54,490 --> 00:05:59,800
+ou seja eu criei uma classe do tipo carro certa uma classe define o tipo então definida que o carro
+
+72
+00:06:00,160 --> 00:06:10,510
+C recebe mil cívica ou seja eu estou sem um carro específico e atribui isso a um tipo mais genérico.
+
+73
+00:06:10,510 --> 00:06:16,060
+Ou seja eu instância em um tipo específico e atribuem uma variável do tipo mais genérico.
+
+74
+00:06:16,060 --> 00:06:21,790
+Por o que aconteceu isso aconteceu isso porque tem era assim a parte da herança que eu consigo fazer
+
+75
+00:06:21,790 --> 00:06:23,320
+esse tipo de atribuição.
+
+76
+00:06:23,320 --> 00:06:32,430
+Lembra que em determinados momentos no curso nós fizemos assim ao lixo a recebe o nome El Rey lixo e
+
+77
+00:06:32,430 --> 00:06:35,230
+não vou escrever tudo aquilo que não vai caber a religião.
+
+78
+00:06:35,290 --> 00:06:41,890
+A religião que é um tipo mais específico Elixir é um tipo mais genérico eu consigo fazer esse tipo esse
+
+79
+00:06:41,890 --> 00:06:44,080
+tipo de atribuição sem problema nenhum.
+
+80
+00:06:44,080 --> 00:06:50,290
+Já no caso do carro a gente consegue sim distanciar um tipo mais específico e atribui isso para um tipo
+
+81
+00:06:50,290 --> 00:06:51,470
+mais genérico.
+
+82
+00:06:51,490 --> 00:06:53,830
+Você pode pensar legal eu entendi.
+
+83
+00:06:53,830 --> 00:07:00,370
+Eu tenho herança consigo distanciar um tipo mais específico e atribuir um tipo mais genérico mais da
+
+84
+00:07:00,400 --> 00:07:03,360
+onde é que tem a questão do polimorfismo.
+
+85
+00:07:03,370 --> 00:07:11,020
+Polimorfismo acontece porque uma vez que você instancia ou nessa linha uma variável C e você atribui
+
+86
+00:07:11,170 --> 00:07:20,750
+essa variável se quer o carro si Viking você pode usar essa mesma variável sem atribui uma nova Ferrari
+
+87
+00:07:20,750 --> 00:07:26,480
+ou seja você acabou de mudar a forma que está dentro de seu CGC.
+
+88
+00:07:26,490 --> 00:07:32,690
+é do tipo genérico o carrão mas o que tem dentro ora vai ter forma diz Sylvia que em outra hora vai
+
+89
+00:07:32,690 --> 00:07:38,570
+ter forma de um outra hora vai ter uma forma de corola outra hora vai ter uma forma de Ferrari ou seja
+
+90
+00:07:38,570 --> 00:07:46,580
+você consegue usando a mesma variável ser o tipo mais genérico carro atribuir objetos de múltiplas formas
+
+91
+00:07:46,580 --> 00:07:50,090
+ou seja objetos fixos que tem várias formas.
+
+92
+00:07:50,090 --> 00:07:50,630
+Por quê.
+
+93
+00:07:50,910 --> 00:07:57,410
+Porque você consegue criar um variável mais genérico do tipo mais genérico e atribuir qualquer tipo
+
+94
+00:07:57,410 --> 00:08:04,760
+que anda desse tipo mais genérico ou seja qualquer carro pode ser atribuído à variável C de tal forma
+
+95
+00:08:04,760 --> 00:08:10,920
+que a variável C com o tempo ela pode assumir múltiplas formas formas dos tipos mais específicos de
+
+96
+00:08:10,920 --> 00:08:11,750
+acerto.
+
+97
+00:08:11,900 --> 00:08:18,950
+Esse tipo de relação aqui ou na diagonal transversal não pode acontecer você não pode atribuir uma Ferrari
+
+98
+00:08:18,950 --> 00:08:21,460
+para um Civic em o circo para uma Ferrari.
+
+99
+00:08:21,460 --> 00:08:22,010
+Por quê.
+
+100
+00:08:22,010 --> 00:08:32,780
+Porque a Ferrari e o Civic não Civic ela a Ferrari também não mas Civic é um carro e é Ferrari é um
+
+101
+00:08:32,780 --> 00:08:33,850
+carro também.
+
+102
+00:08:34,190 --> 00:08:38,490
+é o contrário nem sempre é verdadeiro um carro é uma Ferrari.
+
+103
+00:08:38,660 --> 00:08:39,770
+Provavelmente não.
+
+104
+00:08:39,800 --> 00:08:45,880
+Sei que você tem muito dinheiro um carro e um Civic que nem sempre pode ser.
+
+105
+00:08:45,890 --> 00:08:51,860
+Pode ser que sim como pode ser que não é tão a relação e um acontece do tipo mais específico para o
+
+106
+00:08:51,860 --> 00:08:54,770
+tipo mais genérico o tipo mais específico.
+
+107
+00:08:54,770 --> 00:09:00,380
+Ele é um tipo mais genérico cem por cento das vezes mas o contrário não é verdadeiro.
+
+108
+00:09:00,390 --> 00:09:03,740
+E essa relação transversal também não é verdadeira certo.
+
+109
+00:09:03,890 --> 00:09:09,350
+Isso aqui poderia muito bem ser explicado lá na parte de eras porque tem a ver com herança você não
+
+110
+00:09:09,350 --> 00:09:17,540
+poder se relacionar aos tipos transversais e você também não pode digamos assim associar criar uma variável
+
+111
+00:09:17,810 --> 00:09:23,620
+do tipo Civic e associar um carro que é um conceito mais genérico que isso nem sempre vai ser verdadeiro.
+
+112
+00:09:23,620 --> 00:09:30,590
+Você até pode usar aquele conceito que a gente viu lá no começo do curso que conversam Keshi não é mais
+
+113
+00:09:30,590 --> 00:09:37,190
+o que mexe ele pode acontecer de forma bem sucedida como ele pode acontecer de forma errada então é
+
+114
+00:09:37,190 --> 00:09:40,270
+possível que dê problema depois entender um pouco mais em detalhe.
+
+115
+00:09:40,330 --> 00:09:46,250
+Outro exemplo que a gente pode usar por exemplo a questão do polimorfismo é quando você cria um método.
+
+116
+00:09:46,700 --> 00:09:53,300
+Então aos poucos eu vou criar um método chamado estacionar que recebe um Civic ou seja recebe um tipo
+
+117
+00:09:53,690 --> 00:09:54,850
+mais específico.
+
+118
+00:09:54,860 --> 00:10:00,890
+Eu posso passar uma Ferrari para cá não eu posso passar uma ou outra classe quero de carro diferente
+
+119
+00:10:00,890 --> 00:10:07,580
+Civic e também não porque isso é um método específico ele vai receber especificamente o Civic ou qualquer
+
+120
+00:10:07,580 --> 00:10:10,270
+outra classe que venha a idade Civic.
+
+121
+00:10:10,490 --> 00:10:13,510
+Mas como é que eu posso usar polimorfismo por exemplo no método.
+
+122
+00:10:13,610 --> 00:10:20,960
+Eu posso criar um parâmetro mais genérico que é o parâmetro o carro momento que eu digo que meu parâmetro
+
+123
+00:10:20,960 --> 00:10:22,170
+do Metro estacionar.
+
+124
+00:10:22,190 --> 00:10:24,960
+Ele recebe um carro e não mais um Civic.
+
+125
+00:10:25,010 --> 00:10:30,470
+Significa que em algum momento eu posso passar um Civic e outro momento eu posso passar um Ferrari e
+
+126
+00:10:30,470 --> 00:10:36,740
+outro movimento eu posso passar um Corolla posso passar um Fusca posso passar uma Brasília um Chevette
+
+127
+00:10:36,740 --> 00:10:39,880
+um Monza exceto os carros aí do ano dos anos 80.
+
+128
+00:10:40,190 --> 00:10:44,120
+Então você pode passar qualquer carro que você queira passar.
+
+129
+00:10:44,120 --> 00:10:44,570
+Por quê.
+
+130
+00:10:44,570 --> 00:10:47,390
+Porque você já passou nos tipos mais específicos.
+
+131
+00:10:47,390 --> 00:10:53,780
+Em outras palavras a variável se ela pode assumir múltiplas formas.
+
+132
+00:10:53,780 --> 00:10:58,340
+Por isso polimorfismo porque é dinâmico porque é que mais tarde.
+
+133
+00:10:58,340 --> 00:11:04,160
+Por isso vai acontecer dinamicamente dentro do seu código de acordo com aquilo que fossem executado
+
+134
+00:11:04,160 --> 00:11:05,270
+um código.
+
+135
+00:11:05,270 --> 00:11:08,610
+Você não sabe de antemão que vai se distanciar de uma Ferrari.
+
+136
+00:11:08,690 --> 00:11:14,690
+Você não sabe de antemão que tipo de carro será passado como parâmetro para essa função mas de forma
+
+137
+00:11:14,690 --> 00:11:15,600
+dinâmica.
+
+138
+00:11:15,690 --> 00:11:21,750
+Isso vai acontecer uma hora você vai passar um carro ou outro e a variável z assumir múltiplas formas
+
+139
+00:11:21,750 --> 00:11:22,610
+está certo.
+
+140
+00:11:22,610 --> 00:11:28,640
+Então como eu falei pra vocês esse tipo de atribuição que eu fiz um exemplo meio que um quadrado bola
+
+141
+00:11:28,700 --> 00:11:34,490
+passou essa ideia para você de que você pode sim atribuir uma bola dentro do quadrado aqui porque ele
+
+142
+00:11:34,510 --> 00:11:34,970
+cabe.
+
+143
+00:11:34,970 --> 00:11:40,220
+São conceitos que se encaixam nessa ideia de encaixar aqui nesse exemplo doido né.
+
+144
+00:11:40,220 --> 00:11:46,100
+Aqui você tem um triângulo triângulo também encaixa nesse quadrado de tal forma que embora o triângulo
+
+145
+00:11:46,460 --> 00:11:52,230
+ele seja diferente do quadrado esses conceitos se encaixam porque existe uma relação de herança mais
+
+146
+00:11:52,400 --> 00:11:53,670
+nesse sentido aqui.
+
+147
+00:11:53,840 --> 00:12:00,560
+Nessa linha aqui na transversal certo você não consegue fazer essa relação porque como eu falei pra
+
+148
+00:12:00,560 --> 00:12:04,490
+vocês um circo não é um Ferrari muito menos um Ferrari e um Civic.
+
+149
+00:12:04,520 --> 00:12:11,060
+Da mesma forma sem olhar outros exemplos aqui mais em cima você vai perceber que o anfíbio não é um
+
+150
+00:12:11,060 --> 00:12:17,060
+mamífero um mamífero não é um anfíbio uma milha terrestre não é um mamífero aquático e muito menos um
+
+151
+00:12:17,060 --> 00:12:23,520
+aquático então tudo isso você vai conseguir qualquer tipo de hierarquia você vai conseguir chegar a
+
+152
+00:12:23,520 --> 00:12:24,720
+essa conclusão está certo.
+
+153
+00:12:25,170 --> 00:12:30,420
+Ou seja o tipo mais específico era o tipo mais genérico mais nas laterais não funciona e o contrário
+
+154
+00:12:30,420 --> 00:12:35,260
+também não é baladeiro nem todo tipo mais genérico é do tipo mais específico.
+
+155
+00:12:35,280 --> 00:12:39,900
+Eu acho que isso é bem tranquilo então esse é o conceito de polimorfismo.
+
+156
+00:12:39,900 --> 00:12:41,460
+Nós temos dois polimorfismo.
+
+157
+00:12:41,460 --> 00:12:48,210
+Como falei Nós temos a sobrecarga que é o polimorfismo estático ou seja de forma estática parada ele
+
+158
+00:12:48,210 --> 00:12:53,850
+foi definido no Código você escreveu várias funções com o mesmo nome e por isso essas várias funções
+
+159
+00:12:53,850 --> 00:12:59,690
+com o mesmo nome têm comportamentos diferentes se comportam de múltiplas formas.
+
+160
+00:12:59,880 --> 00:13:06,030
+E há outra forma que você tem é a partir dela se você cria uma hierarquia de herança e você consegue
+
+161
+00:13:06,030 --> 00:13:13,170
+a partir do tipo mais genérico receber objetos instancia dados a partir dos tipos mais específicos e
+
+162
+00:13:13,170 --> 00:13:20,010
+da forma que um tipo mais genérico ou classe mais genérico consegue se comportar de todos os tipos mais
+
+163
+00:13:20,010 --> 00:13:23,580
+específicos ou seja consegue também ter múltiplas formas.
+
+164
+00:13:23,580 --> 00:13:29,610
+Isso serve para a criação de uma variável conforme mostrei pra vocês aqui certo nessa parte do código
+
+165
+00:13:29,850 --> 00:13:35,970
+como também conseguem funcionar em parâmetros de funções ou seja você consegue criar uma função que
+
+166
+00:13:35,970 --> 00:13:42,180
+tem múltiplas formas também recebem vários parâmetros diferentes e isso te ajuda muito se você colocar
+
+167
+00:13:42,180 --> 00:13:49,480
+por exemplo esse caso do símbolo específico você vai precisar criar um estacional para a Ferrari o estacionar
+
+168
+00:13:49,500 --> 00:13:52,540
+para qualquer outro carro que surgisse na sua aplicação.
+
+169
+00:13:52,560 --> 00:13:55,530
+Vou criar um outro carrão do tipo Fusca.
+
+170
+00:13:55,530 --> 00:14:00,840
+Você vai precisar criar um metro e estacionar para estacionar um fusca no caso quando você tem uma classe
+
+171
+00:14:00,840 --> 00:14:02,330
+mais genérica.
+
+172
+00:14:02,420 --> 00:14:09,690
+O tipo do Metro estacionar o mais que você criar novas classes de novos tipos de carros diferentes se
+
+173
+00:14:09,690 --> 00:14:14,970
+ele andar de carro você não precisa se preocupar porque você vai conseguir atribuir novos carros para
+
+174
+00:14:14,970 --> 00:14:15,390
+cá.
+
+175
+00:14:15,540 --> 00:14:21,450
+Sem problema nenhum porque você está usando o conceito do polimorfismo que te ajuda a ter um código
+
+176
+00:14:21,930 --> 00:14:28,200
+que ele consegue suportar melhor eventuais evoluções ou seja qualquer novo carro que surgir não vai
+
+177
+00:14:28,200 --> 00:14:31,260
+ter problema esse metro estacionar vai funcionar sem problema nenhum.
+
+178
+00:14:31,350 --> 00:14:33,340
+Então esse é o conceito de polimorfismo.
+
+179
+00:14:33,370 --> 00:14:39,720
+Nós temos o terceiro pilar de orientação objeto nós vamos para o quarto pilar a próxima aula é muito
+
+180
+00:14:39,720 --> 00:14:45,010
+interessante o fato de você estar fazendo um ano porque você pode revisitar esses vídeos depois.
+
+181
+00:14:45,150 --> 00:14:51,030
+Eu tenho certeza que tem muito conceito legal e nem sempre todos esses conceitos ficam claros num primeiro
+
+182
+00:14:51,030 --> 00:14:57,990
+momento é normal que você realmente precisa exercitar colocar isso em prática pra só então você conseguir
+
+183
+00:14:58,320 --> 00:15:03,890
+entender de forma mais profunda esses conceitos e não se engane na hora de aplicar estes conceitos você
+
+184
+00:15:03,890 --> 00:15:10,860
+vai passar muito muito tempo amadurecendo a ideia da orientação a objeto experimentando cometendo erros
+
+185
+00:15:11,220 --> 00:15:17,910
+e depois corrigindo esses erros e escrevendo o código mal encapsulado e depois você percebe isso começa
+
+186
+00:15:17,960 --> 00:15:21,690
+a faturar para ter um código com maior nível de encapsulamento.
+
+187
+00:15:21,690 --> 00:15:27,960
+Você faz um código com herança muito grande e depois você percebe que não precisava daquilo e começa
+
+188
+00:15:27,960 --> 00:15:31,610
+a enxugar então faz parte do processo de aprendizado.
+
+189
+00:15:31,610 --> 00:15:37,930
+Esse processo de experimentação é muito normal e isso não é do dia para noite que se aprende orientação
+
+190
+00:15:37,940 --> 00:15:43,530
+a objeto então fico por aqui pensar na próxima aulas vamos ver o quarto pilar da orientação a objeto
+
+191
+00:15:43,560 --> 00:15:45,590
+que é a abstração é o de estar lá.

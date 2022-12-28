@@ -1,0 +1,343 @@
+1
+00:00:00,120 --> 00:00:03,900
+Então o pessoal mostra uma resposta ao desafio que eu propus na aula passada.
+
+2
+00:00:03,900 --> 00:00:06,750
+Nesse caso a gente analisar bem o que está acontecendo aqui.
+
+3
+00:00:06,810 --> 00:00:11,780
+O que eu tenho dia barmen esbarra na áustria certo.
+
+4
+00:00:11,860 --> 00:00:17,820
+é exatamente o tipo de retorno que essa pulsão vai retornar um valor do tipo string.
+
+5
+00:00:17,890 --> 00:00:21,280
+Eu preciso passar algum parâmetro como entrada.
+
+6
+00:00:21,450 --> 00:00:27,960
+Eu vou precisar do dia do mês e do ano mais três informações já estão contidas dentro da classe.
+
+7
+00:00:28,050 --> 00:00:32,290
+Então eu não preciso passar nem um parâmetro pra esse método.
+
+8
+00:00:32,370 --> 00:00:35,490
+O que eu vou precisar agora é chamar que eu retorne.
+
+9
+00:00:35,490 --> 00:00:38,110
+Nesse caso eu posso usar dentro de string.
+
+10
+00:00:38,110 --> 00:00:42,620
+Tem uma função chamada Format Format.
+
+11
+00:00:42,750 --> 00:00:50,580
+E aqui eu vou passar exatamente a mesma estrutura que eu passei no interfiram passando isso aqui e passado
+
+12
+00:00:50,580 --> 00:00:51,880
+um dia mês e ano.
+
+13
+00:00:51,960 --> 00:00:58,470
+Nesse caso eu não vou colocar o Barra mini porque eu acho fica mais flexível ou seja se a pessoa quiser
+
+14
+00:00:58,470 --> 00:01:02,610
+colocar a data dentro de um texto não necessariamente vai ter um bairro.
+
+15
+00:01:02,830 --> 00:01:10,820
+E aqui em vez de chamar dê um ponto o Dia D um ponto mês cada porcentagem representa uma variável inteira
+
+16
+00:01:11,010 --> 00:01:17,100
+então vai colocar o dia mês e ano nesse formato certo então a minha função data formatada está pronta.
+
+17
+00:01:17,100 --> 00:01:19,960
+Agora a gente vai usar ela dentro de data protege.
+
+18
+00:01:20,460 --> 00:01:27,450
+Então aqui eu posso tanto criar uma variável como posso diretamente aqui dentro do meu chefe ou mesmo
+
+19
+00:01:27,450 --> 00:01:34,170
+preencher a linha em que talvez seja até melhor nesse caso chamar que eu dê um pouco ele amostral ano
+
+20
+00:01:34,290 --> 00:01:35,300
+dia e meio.
+
+21
+00:01:35,310 --> 00:01:40,550
+Se eu desse um pouquinho mais ele vai colocar um hobby tem data formatada então se eu colocar ordem
+
+22
+00:01:40,800 --> 00:01:43,560
+ele vai filtrar basicamente o que fica pra eu colocar.
+
+23
+00:01:43,560 --> 00:01:48,430
+Então vai ser ele completar o nome da função e tem data formatada.
+
+24
+00:01:48,690 --> 00:01:50,380
+Mesma coisa que embaixo.
+
+25
+00:01:50,820 --> 00:01:53,380
+D2 que contou com B.
+
+26
+00:01:53,550 --> 00:01:58,730
+E aí não entra ele vai completar pra gente não dá função obter dados formatada.
+
+27
+00:01:58,760 --> 00:02:03,680
+Então nesse caso as etapas vai perceber que o resultado será exatamente o mesmo.
+
+28
+00:02:03,990 --> 00:02:11,010
+Só que agora em vez de replicar isso duas vezes eu consegui colocar essa lógica da função aqui também.
+
+29
+00:02:11,010 --> 00:02:19,020
+Se a gente quiser e VEJA exibirá até 20 20 Helinho tecnocrata interino mas vou colocar por exemplo string
+
+30
+00:02:19,920 --> 00:02:29,430
+data formatada recebe isso aqui posso colocar uma variável e aí eu uso a variável PRA FAZER ALGUMA COISA
+
+31
+00:02:29,430 --> 00:02:32,920
+OU MESMO COMPOR aqui e colocar no console.
+
+32
+00:02:33,210 --> 00:02:36,390
+Posso tanto armazenar já que essa função retorna a string.
+
+33
+00:02:36,810 --> 00:02:41,130
+Então eu posso armazenar uma variável fazer alguma outra coisa e tal.
+
+34
+00:02:41,190 --> 00:02:48,290
+Se você colocar o System Alt Print e line diretamente aqui dentro vai ficar estranho.
+
+35
+00:02:48,330 --> 00:02:53,010
+Eu posso até criar uma outra função por exemplo algo que não faz parte do nosso desafio mas só pra mostrar
+
+36
+00:02:53,010 --> 00:03:00,310
+aos poucos vai criar um metro chamado imprimir em data formatada certa.
+
+37
+00:03:00,660 --> 00:03:07,590
+Nesse caso aquilo vai retornar algum título vai ter alguns parâmetros aqui e eu quero usar aqui dentro
+
+38
+00:03:07,590 --> 00:03:11,520
+o System Alt Print Alien pra imprimir o valor da data formatado.
+
+39
+00:03:11,510 --> 00:03:17,370
+Nesse caso se eu quero só imprimir no console será que eu preciso receber algum parâmetro.
+
+40
+00:03:17,790 --> 00:03:23,280
+A gente já viu que eu não vou precisar receber nenhum parâmetro ok porque eu já tenho todas as informações
+
+41
+00:03:23,280 --> 00:03:23,760
+aqui.
+
+42
+00:03:24,150 --> 00:03:29,850
+Então posso simplesmente não precisar disso eu preciso retornar alguma coisa no momento que eu chamo
+
+43
+00:03:29,850 --> 00:03:32,640
+aqui são o principal tipo Aline não.
+
+44
+00:03:33,030 --> 00:03:39,330
+Então nesse caso eu posso chamar aqui Void pode significar ausência de retorno não preciso retornar
+
+45
+00:03:39,330 --> 00:03:39,910
+nada.
+
+46
+00:03:40,240 --> 00:03:48,100
+E aqui eu posso usar o GF e usar essa mesma estratégia que eu colocando aqui certo.
+
+47
+00:03:48,450 --> 00:03:53,780
+Então dessa forma eu posso se quiser até colocar um Barrinha se for o caso nós temos aqui o imprimir
+
+48
+00:03:53,780 --> 00:03:54,940
+dado que formatado.
+
+49
+00:03:55,230 --> 00:04:01,500
+Então eu tenho tanto a possibilidade de ter o retorno como se eu quiser.
+
+50
+00:04:01,500 --> 00:04:08,400
+Aqui eu posso chamar ao ponto de imprimir a ata formatado e aqui dentro ele jabá internamente chamar
+
+51
+00:04:08,820 --> 00:04:14,880
+o System Alt Print de alguma coisa certa imprimi corretamente e outra coisa que você pode fazer aqui
+
+52
+00:04:15,370 --> 00:04:21,750
+uma função pode chamar outra então em vez de eu ter aqui de novo e fazer isso aqui repetido eu posso
+
+53
+00:04:21,750 --> 00:04:29,510
+aqui dentro colocao hobby tem data formatada que aí ele vai obter a ata formatado aqui em cima vai retornar
+
+54
+00:04:29,510 --> 00:04:35,550
+um string e o retorno Tim está sendo mandada propriamente no caso aqui e ali não.
+
+55
+00:04:35,550 --> 00:04:40,890
+No caso aqui já não seria o primeiro chefe no caso poderia ser ali ou então Prince certo então jogando
+
+56
+00:04:40,890 --> 00:04:45,360
+aqui obter data formatada o resultado vai ser aquilo que a gente espera.
+
+57
+00:04:45,430 --> 00:04:54,440
+Um método usando outro executando seja ele primeiro aqui certo se eu quiser imprimir o valor de T2 imprimi
+
+58
+00:04:54,900 --> 00:04:57,190
+data formatada a premio.
+
+59
+00:04:57,510 --> 00:05:04,040
+Usando o método obtém a data formatar se alguém uma variável ou próximo preencher a linha ou nesse caso
+
+60
+00:05:04,110 --> 00:05:07,800
+já está chamando o presente ali dentro da própria função.
+
+61
+00:05:07,890 --> 00:05:11,990
+Tem alguma forma mais interessante do que a outra.
+
+62
+00:05:11,990 --> 00:05:13,720
+Tem sim certo.
+
+63
+00:05:13,720 --> 00:05:18,150
+O mais interessante é você retorna ao valor ok.
+
+64
+00:05:18,380 --> 00:05:22,730
+Porque esse tipo de método não irá funcionar na aplicação desktop.
+
+65
+00:05:23,120 --> 00:05:27,370
+Esse tipo de método não irá funcionar numa aplicação web.
+
+66
+00:05:27,530 --> 00:05:31,140
+Esse tipo de método não irá funcionar na aplicação mobile.
+
+67
+00:05:31,150 --> 00:05:31,650
+Por quê.
+
+68
+00:05:31,650 --> 00:05:36,590
+Porque ele simplesmente só vai funcionar dentro de uma aplicação terminal.
+
+69
+00:05:36,620 --> 00:05:38,840
+Já um metro que retorna ao extremo.
+
+70
+00:05:39,230 --> 00:05:44,420
+O fato de ele retornar este vinho faz com que você use seu ex-time da forma que você quiser e você pode
+
+71
+00:05:44,420 --> 00:05:46,360
+colocar esses sim em uma página web.
+
+72
+00:05:46,370 --> 00:05:50,970
+Você pode colocar essa histria na aplicação desktop na aplicação de celular.
+
+73
+00:05:51,230 --> 00:05:58,020
+Ou seja você tem uma flexibilidade muito maior para usar uma função dessa forma no que você amarrar.
+
+74
+00:05:58,080 --> 00:06:01,380
+Que isso só será exibido no terminal do seu sistema.
+
+75
+00:06:01,460 --> 00:06:05,750
+Aqui estou morto já nas duas funções só pra mostrar uma função que não retorna nada.
+
+76
+00:06:05,870 --> 00:06:12,170
+é também um fato que eu consigo a partir de uma função chamar outra função mas para deixar claro essa
+
+77
+00:06:12,170 --> 00:06:18,590
+função de cima que tem uma flexibilidade maior do que a função de baixo embora nesse nosso contexto
+
+78
+00:06:18,920 --> 00:06:26,930
+pareça mais fácil eu chamar dessa forma do até aqui chamar o System Alt Print ali e chamar ou obter
+
+79
+00:06:26,930 --> 00:06:27,800
+dados formatar.
+
+80
+00:06:27,800 --> 00:06:34,190
+Claro que aqui eu tenho um pouco mais de trabalho nesse contexto mas o fato de que você restringe o
+
+81
+00:06:34,190 --> 00:06:40,190
+uso dessa função apenas quando você tiver um contexto terminal faz com que não seja uma boa estratégia
+
+82
+00:06:40,270 --> 00:06:46,040
+certa então você tenta deixar o uso digamos assim a forma que você vai usar para imprimir uma determinada
+
+83
+00:06:46,040 --> 00:06:51,800
+informação somente quando você realmente precisar fazer isso aqui dentro de uma classe que tem por objetivo
+
+84
+00:06:51,800 --> 00:06:53,660
+ser uma classe genérica.
+
+85
+00:06:53,660 --> 00:07:00,040
+O ideal é que você trabalhe com parâmetros de entrada e com retorno e como você vai exibir os usuários.
+
+86
+00:07:00,050 --> 00:07:04,500
+Outra questão que vai estar em outra parte do sistema não dentro da classe data.

@@ -1,0 +1,431 @@
+1
+00:00:00,550 --> 00:00:10,360
+Pessoal vamos fazer agora um exemplo de encapsulamento e eu quero fazer uma alusão a a vida social das
+
+2
+00:00:10,360 --> 00:00:11,570
+pessoas certo.
+
+3
+00:00:11,740 --> 00:00:17,640
+O nível de intimidade que uma pessoa tem com o outro fazendo um paralelo em cima das classes.
+
+4
+00:00:17,650 --> 00:00:19,630
+Como isso se comporta dentro do Japão.
+
+5
+00:00:19,630 --> 00:00:23,180
+Nós temos quatro níveis de visibilidade pra eles.
+
+6
+00:00:23,520 --> 00:00:28,510
+Nós temos depois o nível de visibilidade padrão que é quando você não tem uma palavra que é o que a
+
+7
+00:00:28,510 --> 00:00:31,010
+gente causa em quase todos os momentos.
+
+8
+00:00:31,170 --> 00:00:35,060
+Está criando um a um atributo de uma instância.
+
+9
+00:00:35,080 --> 00:00:41,080
+Então coloca alguma coisa em que não definiu que é proibido nem protesta nem quer público então automaticamente
+
+10
+00:00:41,400 --> 00:00:47,700
+é o nível de fogo que é o segundo nível que é o segundo nível mais restrito privada e o mais restrito.
+
+11
+00:00:47,710 --> 00:00:52,380
+Depois nós temos o pacote que é o nível padrão que é quando você não coloca nada.
+
+12
+00:00:52,660 --> 00:00:59,350
+Depois você tem um protesto em que a diferença do pacote é sempre transmitido por herança sempre.
+
+13
+00:00:59,350 --> 00:01:05,620
+Ou seja todo atributo é todo comportamento e Metro que tem um nível de visibilidade para o teto que
+
+14
+00:01:05,620 --> 00:01:08,000
+será transmitido por herança.
+
+15
+00:01:08,140 --> 00:01:11,410
+é o quarto nível público que é o mais abrangente.
+
+16
+00:01:11,410 --> 00:01:19,150
+Se eu fizer aqui um paralelo com casos por exemplo vamos definir que aqui você tem uma casa a certo.
+
+17
+00:01:19,160 --> 00:01:26,560
+Então 71 a casa e você tem aqui uma casa bem boa cautela aqui uma casa B.
+
+18
+00:01:27,340 --> 00:01:33,070
+Então imagine que você tem aqui uma pessoa chamado lá Paulo
+
+19
+00:01:36,790 --> 00:01:39,000
+e você tem dentro da casa.
+
+20
+00:01:39,340 --> 00:01:47,200
+A Ana Ana é casada com Paulo a Ana por exemplo tem alguns segredos aqui que só ela sabe esses segredos
+
+21
+00:01:47,200 --> 00:01:53,100
+que só ela sabe e tem um nível de visibilidade proibitivo colocar aqui um preto pra seguir mais ou menos
+
+22
+00:01:53,110 --> 00:01:57,030
+que a gente tinha feito antes está tal nível de visibilidade privado.
+
+23
+00:01:57,180 --> 00:01:58,420
+E o que estou colocando aqui.
+
+24
+00:01:58,430 --> 00:02:06,010
+Pretinho significa que somente a conhece aquela característica aquele comportamento porque ele é privado
+
+25
+00:02:06,010 --> 00:02:09,380
+apenas a própria classe vai ter consciência disso.
+
+26
+00:02:09,400 --> 00:02:16,600
+Paulo também tem seus próprios segredos que só ele conhece porque tem um nível de visibilidade proibitivo.
+
+27
+00:02:17,050 --> 00:02:24,460
+Existem alguns o segundo nível é até mais restrito ou seja que também remete um pouco a intimidade que
+
+28
+00:02:24,540 --> 00:02:26,490
+a classe tem com a outra né.
+
+29
+00:02:26,550 --> 00:02:33,250
+E o pacote imagina que essa casa com você num pacote e as pessoas como sendo classes então dentro do
+
+30
+00:02:33,250 --> 00:02:35,430
+pacote que seria a casa a.
+
+31
+00:02:35,470 --> 00:02:42,030
+Existem algumas características e alguns comportamentos que só são visíveis dentro do pacote.
+
+32
+00:02:42,040 --> 00:02:44,020
+Exatamente esses vermelhinhos aqui.
+
+33
+00:02:44,380 --> 00:02:52,240
+Ou seja quem mora em outra casa nos boca eu tenho aqui na outra casa o Pedro e eu tenho aqui na outra
+
+34
+00:02:52,240 --> 00:02:54,310
+casa a Júlia.
+
+35
+00:02:54,460 --> 00:03:00,100
+Então eles moram na mesma casa o Pedro e a Júlia da mesma forma que o paulistano mora na mesma casa
+
+36
+00:03:00,540 --> 00:03:07,180
+e tem algumas características que o Pedro não conhece da ANA porque são características tanto por características
+
+37
+00:03:07,180 --> 00:03:09,460
+privadas que só Ana conhece dela.
+
+38
+00:03:09,520 --> 00:03:14,800
+é só o Paulo conhece dele mesmo e características que estão visíveis apenas para quem mora na mesma
+
+39
+00:03:14,800 --> 00:03:15,370
+casa.
+
+40
+00:03:15,790 --> 00:03:19,150
+Então por exemplo a Ana Paula está em casa.
+
+41
+00:03:19,220 --> 00:03:24,640
+Ela não gosta de tomar banho a noite está muito provavelmente quem não mora na mesma casa não vai conhecer
+
+42
+00:03:24,640 --> 00:03:27,200
+essa característica mas que mora na mesma casa.
+
+43
+00:03:27,220 --> 00:03:32,920
+Provavelmente sim porque é amiga de intimidade do Paulo e a Ana que mora na mesma casa é maior do que
+
+44
+00:03:32,920 --> 00:03:39,820
+a ANA e a Júlia que mora em casas diferentes da HBO e vamos supor que também aqui só para enfim colocar
+
+45
+00:03:39,820 --> 00:03:43,600
+um pouco mais de elementos que o Pedro é filho da ANA.
+
+46
+00:03:43,600 --> 00:03:51,160
+De certa forma Pedro herdou comportamentos da ANA se você definiu que a ANA tem alguns comportamentos
+
+47
+00:03:51,250 --> 00:03:54,640
+por exemplo que são protesta ele ou seja amarelinho.
+
+48
+00:03:54,640 --> 00:04:01,260
+Esses comportamentos serão transmitidos por herança para o Pedro mais os vermelhos não porque é porque
+
+49
+00:04:01,270 --> 00:04:08,020
+o vermelho que é o padrão a nível de visibilidade pacote só é visível em quem está dentro do mesmo pacote.
+
+50
+00:04:08,020 --> 00:04:10,470
+Isso é visível para quem está morando na mesma casa.
+
+51
+00:04:10,480 --> 00:04:16,660
+Já as características e comportamentos amarelos que são os protetores então vou colocar aqui o pretinho
+
+52
+00:04:16,660 --> 00:04:18,520
+só pra gente ter aqui.
+
+53
+00:04:19,240 --> 00:04:28,070
+Como é que diz a legenda então aqui vai ter que ser eu privado o vermelho que eu chamei aqui Marcio
+
+54
+00:04:28,630 --> 00:04:37,560
+Defour Defour ou visibilidade pacotes ou seja visível apenas dentro do mesmo pacote.
+
+55
+00:04:37,960 --> 00:04:46,350
+Nós temos um amarelinho que vai ser um protected Protection que é quando é transmitido por herança e
+
+56
+00:04:46,360 --> 00:04:50,770
+o último vai ser o verdinho que vai ser o público.
+
+57
+00:04:50,860 --> 00:04:56,950
+Quando você tem a visibilidade que todo mundo consegue ver então a Ana também vai ter algumas características
+
+58
+00:04:56,950 --> 00:04:59,530
+públicas que todo mundo consegue enxergar.
+
+59
+00:04:59,530 --> 00:05:04,750
+O Paulo também vai ter algumas características públicas de tal forma que o Pedro consegue ver tudo o
+
+60
+00:05:04,750 --> 00:05:06,320
+que é público do Paulo.
+
+61
+00:05:06,370 --> 00:05:12,850
+O Pedro consegue ver tudo o que é público da ANA e também conseguem receber por herança algumas características
+
+62
+00:05:13,210 --> 00:05:19,300
+que são protetores que é exatamente essas aqui e a Júlia que não tem nenhuma relação de herança com
+
+63
+00:05:19,300 --> 00:05:21,720
+a ANA e nem mora na mesma casa.
+
+64
+00:05:21,850 --> 00:05:27,490
+Vai ver apenas aquilo que é público de tal forma que a Júlia também só verá as características públicas
+
+65
+00:05:27,820 --> 00:05:28,390
+do Paulo.
+
+66
+00:05:28,400 --> 00:05:35,680
+Então fazendo um paralelo com a casa você consegue ter um pouco mais de entendimento como esses níveis
+
+67
+00:05:35,680 --> 00:05:43,310
+de visibilidade vão influenciar na relação entre as classes e os pacotes ou seja o pacote é visto como
+
+68
+00:05:43,310 --> 00:05:49,660
+uma casa visto como trazendo o nível de intimidade maior entre as classes.
+
+69
+00:05:49,660 --> 00:05:56,170
+Vai te ajudar a entender que quando você coloca classes juntas no mesmo pacote e isso tem um significado
+
+70
+00:05:56,170 --> 00:06:01,930
+importante do ponto de vista encapsulamento significa que há uma comunicação mais íntima entre essas
+
+71
+00:06:01,930 --> 00:06:09,970
+classes se você define um pacote para seu RH para cuidar da parte do RH da sua empresa pressupõe se
+
+72
+00:06:09,970 --> 00:06:16,390
+que essas classes que estão dentro do mesmo pacote de RH elas têm um nível de comunicação maior do que
+
+73
+00:06:16,750 --> 00:06:19,100
+outras classes que estão em outros pacotes.
+
+74
+00:06:19,100 --> 00:06:25,630
+Daí você tem a possibilidade de usar outros níveis de visibilidade como é o nível de fogo e o nível
+
+75
+00:06:25,770 --> 00:06:31,450
+para o teto né que você só pode transmitir digamos assim essas informações para quem está dentro do
+
+76
+00:06:31,450 --> 00:06:39,210
+mesmo pacote e também para quem está fora do pacote via herança acabei não falando o Paulo também terá
+
+77
+00:06:39,210 --> 00:06:45,470
+acesso às informações para o técnico da ANA porque ele terá as informações para o ataque da ANA porque
+
+78
+00:06:45,570 --> 00:06:48,660
+eles estão no mesmo pacote e estão na mesma casa.
+
+79
+00:06:48,690 --> 00:06:57,180
+Então Paulo enxerga da ANA tanto o nível de visibilidade em default como Paulo enxerga o nível de visibilidade
+
+80
+00:06:57,210 --> 00:07:03,310
+para o técnico com Paulo enxerga o nível de visibilidade pública ou seja essas três visibilidade o Paulo
+
+81
+00:07:03,330 --> 00:07:06,380
+enxerga da ANA porque ele está no mesmo pacote.
+
+82
+00:07:06,400 --> 00:07:13,550
+A única coisa que o Paulo não enxerga Ana são os atributos que só é visível dentro da própria classe.
+
+83
+00:07:13,560 --> 00:07:18,540
+Já o Pedro ele não vai enxergar o nível de visibilidade privado da ANA.
+
+84
+00:07:18,690 --> 00:07:22,880
+O Pedro não vai enxergar o nível de visibilidade pacote da ANA por quê.
+
+85
+00:07:22,890 --> 00:07:24,250
+Porque ele está em outro pacote.
+
+86
+00:07:24,270 --> 00:07:28,670
+Mas o Pedro ele vai sim ver os atributos protected.
+
+87
+00:07:28,710 --> 00:07:31,440
+Porque ele vai receber esses atributos por herança.
+
+88
+00:07:31,440 --> 00:07:35,460
+E o Pedro conseguirá acessar os atributos públicos da ANA.
+
+89
+00:07:35,460 --> 00:07:35,970
+Por quê.
+
+90
+00:07:35,970 --> 00:07:42,710
+Porque todo atributo público é visível pra todo mundo faz ele aqui mais uma simulação tirar aqui tirar
+
+91
+00:07:42,710 --> 00:07:43,110
+aqui.
+
+92
+00:07:43,470 --> 00:07:49,390
+A Júlia não será capaz de ver o atributo privado dada a Ana por exemplo.
+
+93
+00:07:49,410 --> 00:07:50,130
+Nem do Paulo.
+
+94
+00:07:50,130 --> 00:07:50,640
+Por quê.
+
+95
+00:07:50,640 --> 00:07:53,250
+Porque está em outro pacote não é a própria classe.
+
+96
+00:07:53,250 --> 00:08:00,420
+A Júlia não vai conseguir acessar os atributos vermelhinhos que são de fogo porque está em outro pacote.
+
+97
+00:08:00,420 --> 00:08:06,560
+A Júlia não vai conseguir acessar os atributos protetores porque além de estar em outro pacote não recebeu
+
+98
+00:08:06,570 --> 00:08:07,630
+por herança.
+
+99
+00:08:07,650 --> 00:08:13,130
+Certo então não vai conseguir a única coisa que a Júlia irá conseguir ler tanto da ANA como do Paulo.
+
+100
+00:08:13,220 --> 00:08:16,920
+São os atributos públicos tirar o vermelho né.
+
+101
+00:08:17,010 --> 00:08:19,410
+Colocar aqui se ela um verdinho o rosto.
+
+102
+00:08:19,630 --> 00:08:21,180
+Então por que ela vai conseguir ler.
+
+103
+00:08:21,390 --> 00:08:23,440
+Porque o público é visível pra todo mundo.
+
+104
+00:08:23,440 --> 00:08:29,160
+Então entendendo um pouco essa Genaro que não quis gravar mais uma vez essa dinâmica porque é exatamente
+
+105
+00:08:29,250 --> 00:08:35,280
+em cima desse exemplo que nós vamos trabalhar na próxima aula é importante você entender como o nível
+
+106
+00:08:35,280 --> 00:08:42,000
+de visibilidade influencia como a classe consegue vê a outra classe nem uma classe consegue ver uma
+
+107
+00:08:42,020 --> 00:08:48,060
+outra classe de formas diferentes de acordo com o nível de proximidade que essas classes têm ou com
+
+108
+00:08:48,060 --> 00:08:51,480
+quem estão no mesmo pacote ou porque há uma relação de herança.

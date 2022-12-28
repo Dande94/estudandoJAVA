@@ -1,0 +1,339 @@
+1
+00:00:00,180 --> 00:00:06,800
+Agora que a gente implementou Já o aplicativo especificamente para o caso do abri que ele vai mostrar
+
+2
+00:00:06,810 --> 00:00:09,060
+todos os leigos né um.
+
+3
+00:00:09,060 --> 00:00:15,630
+De acordo com a quantidade de vizinhos agora lamentar os outros três metros aplicar o aplicativo padrão
+
+4
+00:00:15,990 --> 00:00:20,440
+o aplicativo explodir o aplicativo marcação mais simples.
+
+5
+00:00:20,460 --> 00:00:28,890
+Basicamente o aplicativo padrão você ataque o beco onde o local acaba e coral onde padrão e vou limpar
+
+6
+00:00:28,890 --> 00:00:35,280
+o texto porque escrevi o texto tanto no macaco como no explodir então vou colocar aqui o site Tech para
+
+7
+00:00:35,290 --> 00:00:36,370
+o Brasil.
+
+8
+00:00:36,480 --> 00:00:39,960
+Nos outros também eu vou fazer a mesma coisa o aplicativo explodir.
+
+9
+00:00:40,020 --> 00:00:47,460
+Eu vou colocar um X pra dizer que ele foi explodido e vou colocar um beco Launch explodir.
+
+10
+00:00:47,560 --> 00:00:54,780
+Então colocar aquela de explodir e vou aqui chamar o 7 blecaute também.
+
+11
+00:00:54,870 --> 00:01:01,500
+Agora eu vou colocar o blecaute em marcar e o set poderia ser só uma bandeira e uma imagem mais eu vou
+
+12
+00:01:01,500 --> 00:01:04,710
+colocar trancas colocando a letra em Além do texto.
+
+13
+00:01:04,710 --> 00:01:07,130
+Você pode se quiser também selecionar um ícone.
+
+14
+00:01:07,170 --> 00:01:10,370
+No caso do campeonato é uma bandeirinha na então você tem um metro 7.
+
+15
+00:01:10,500 --> 00:01:12,850
+Como para definiu o ícone de um botão.
+
+16
+00:01:12,850 --> 00:01:17,880
+Então aqui no caso coloque o background olhe marcar e colocar a letra para marcar o X.
+
+17
+00:01:17,940 --> 00:01:19,090
+Quando houver uma explosão.
+
+18
+00:01:19,500 --> 00:01:23,250
+Então para a gente estar aqui o resultado então executado.
+
+19
+00:01:23,310 --> 00:01:34,470
+Ao clicar para que fique clicando aqui eu tenho aquele colocou o X não pintou de vermelho aí explodiu
+
+20
+00:01:34,470 --> 00:01:37,140
+e abriu outros aqui também não foi pintado de vermelho.
+
+21
+00:01:37,140 --> 00:01:42,480
+Na verdade o juiz podia realmente o aplicativo está vermelho.
+
+22
+00:01:42,540 --> 00:01:51,240
+Eu vou usar que tem a possibilidade que tem um metro que é o 7 pouco Pet que aí ela aplica ao decorar
+
+23
+00:01:51,240 --> 00:01:52,290
+de uma forma diferente.
+
+24
+00:01:52,290 --> 00:01:57,580
+Ele vai ocupar o que achou do botão Todos chutar estava só pra ver se isso é a questão mais lógica é
+
+25
+00:01:57,580 --> 00:01:58,580
+isso mesmo.
+
+26
+00:01:58,590 --> 00:02:01,260
+Então tal que ele abriu vários.
+
+27
+00:02:01,260 --> 00:02:05,800
+Eu sei que esse aqui vai se marcar e então vou clicar com o botão direito.
+
+28
+00:02:05,850 --> 00:02:09,570
+Ele marcou o setor B e coloque todo e eu sei que esses dois aqui estão com um problema.
+
+29
+00:02:09,570 --> 00:02:11,990
+Qualquer um desses dois que eu clicar vai explodir uma bomba.
+
+30
+00:02:12,000 --> 00:02:20,550
+O fiscal gerou vermelho o blecaute colocou no finzinho certo colocou um X cinza abaixo talvez colocou
+
+31
+00:02:20,550 --> 00:02:21,390
+um X verde.
+
+32
+00:02:21,390 --> 00:02:28,340
+Então o ideal é colocar aqui respondi pra ele colocar um X branco talvez o branco fique melhor então
+
+33
+00:02:28,350 --> 00:02:33,770
+vou colocar aqui um 7 graus de cola.
+
+34
+00:02:34,030 --> 00:02:37,640
+Conto what.
+
+35
+00:02:38,120 --> 00:02:48,000
+E aquilo virou marca posso colocá la pra c a letra preta em então colocar um Black que a gente foge
+
+36
+00:02:48,760 --> 00:02:53,610
+de qualquer definição que tenha acontecido nesses outros metros então aqui no Chile o Marca é preto
+
+37
+00:02:53,610 --> 00:03:01,410
+com aquele fundo azul e branco com fundo vermelho e o padrão padrão é preciso mexer até com quem não
+
+38
+00:03:01,410 --> 00:03:06,580
+vai ter texto nenhum então não tem problema executando mais uma vez pra gente ver o resultado colocando
+
+39
+00:03:06,600 --> 00:03:08,610
+aqui olha abril vários.
+
+40
+00:03:08,610 --> 00:03:14,950
+Eu sei que eu posso marcar esse aqui eu posso marcar isso com certeza isso aqui com certeza também é
+
+41
+00:03:14,970 --> 00:03:20,170
+esse com certeza já que esse aqui tem dois isso aqui com certeza não tem nem esse tempo.
+
+42
+00:03:20,190 --> 00:03:25,140
+Já ouvi alguns campos aqui e vou clicar nele só para a gente ver o resultado quando explodiam.
+
+43
+00:03:25,470 --> 00:03:32,370
+Então colocou branco ficou mais legal ficou mais fácil de ver e ele abriu outros campos que não aplicou
+
+44
+00:03:32,370 --> 00:03:33,770
+o estilo de explosão.
+
+45
+00:03:33,860 --> 00:03:38,640
+Porque esses campos que foram abertos eles foram abertos a partir do evento.
+
+46
+00:03:38,700 --> 00:03:42,710
+Aconteceu o seguinte quem é que detecta que houve uma vitória ou uma derrota.
+
+47
+00:03:42,730 --> 00:03:47,860
+E o tabuleiro lá no tabuleiro a gente tem esse metro que ocorreu e vento.
+
+48
+00:03:47,880 --> 00:03:53,900
+Aí ele sabe se o ambiente foi de explosão pra ele mostrar as minas a partir desse método o metro mostrar
+
+49
+00:03:53,910 --> 00:04:02,340
+Minas ele vai fazer o seguinte corta aqui um filtro de baixo e até um foguete aqui primeiro ele verifica
+
+50
+00:04:02,670 --> 00:04:09,510
+se o campo minado pra depois ele lá e abriu os campos a partir de 7 aberto só que seja aberto ele só
+
+51
+00:04:09,510 --> 00:04:14,290
+vai notificar os observadores dizerem que o campo abriu e vai ter momentos que o campo abri.
+
+52
+00:04:14,320 --> 00:04:19,320
+Ele vai precisar mostrar sítio ver mina de uma forma que o campo foi explodido.
+
+53
+00:04:19,500 --> 00:04:24,780
+Mas eu quero o diferencial vou mostrar pra você o seguinte eu quero diferenciar qual foi o campo que
+
+54
+00:04:24,780 --> 00:04:30,810
+gerou o problema e o campo que gerou o problema que era marcar com X e os outros campos que foram explodidos
+
+55
+00:04:30,810 --> 00:04:32,110
+por conta que você perdeu.
+
+56
+00:04:32,110 --> 00:04:34,710
+Eu não quero pintar com X quero deixar só vermelhinho.
+
+57
+00:04:35,010 --> 00:04:42,330
+Então faz o seguinte lá no método que vai ser responsável por abrir o campo que é isso aqui eu vou fazer
+
+58
+00:04:42,330 --> 00:04:51,090
+um teste que vai ser o seguinte não sei o campo que está tentando ser aberto eles minado em vez de mostrar
+
+59
+00:04:51,090 --> 00:04:53,390
+tudo isso que ele vai fazer aqui embaixo.
+
+60
+00:04:53,730 --> 00:05:02,540
+Eu vou citar o Beco de sete degraus para pra Beco explodir e vou.
+
+61
+00:05:02,560 --> 00:05:06,870
+Fora isso acho que precisa fazer mais nada e simplesmente sair desse mato.
+
+62
+00:05:06,880 --> 00:05:10,770
+No critério eu acho também precisa definir aqui a questão da linha.
+
+63
+00:05:10,790 --> 00:05:16,820
+Então a minha aposta é colocar antes para definir a linha independente qualquer coisa se fulminado ele
+
+64
+00:05:16,810 --> 00:05:23,110
+seta vermelho saia sinal fulminado eletrodoméstico que calcula a quantidade de vizinhos e tal chovesse
+
+65
+00:05:23,110 --> 00:05:29,560
+isso suficiente pra a gente resolver o nosso problema clicando aqui ao abrir várias e que eu posso marcar
+
+66
+00:05:29,560 --> 00:05:36,730
+marcar marcar e se eu quiser explodir e explodir esse esse gerou o problema e ele acabou abrindo também
+
+67
+00:05:36,730 --> 00:05:43,170
+os que estão marcados outro filtro que a gente pode criar pra ele não usar e não tem tabelas marcadas
+
+68
+00:05:43,180 --> 00:05:49,710
+porque eu já marquei eu sei que ele de Minas então posso fazer o seguinte lá no tabuleiro vou mostrar
+
+69
+00:05:49,710 --> 00:05:59,030
+as minas eu vou pegar todos os campos minados e vou fazer um outro filtro que vai ser de não marcar
+
+70
+00:06:00,070 --> 00:06:02,000
+não marcado.
+
+71
+00:06:02,050 --> 00:06:08,240
+Aí não vai apagar os campos marcado fazer mais testes para ver se está funcionando está executando.
+
+72
+00:06:08,400 --> 00:06:17,860
+Não vou ficar aqui aqui aqui aqui para abri vou marcar esse marca isso marca esse esse aqui também com
+
+73
+00:06:17,860 --> 00:06:26,530
+certeza isso aqui também é ciência que é com certeza esse aqui não é e esse aqui também não era mais
+
+74
+00:06:26,530 --> 00:06:29,980
+aqui com certeza esses dois tem mina então clicar aqui pra marcar.
+
+75
+00:06:30,610 --> 00:06:36,040
+Então ele me mostrou todos os outros que não tinha minas e os marcados ele simplesmente não mexeu porque
+
+76
+00:06:36,040 --> 00:06:41,530
+eu fui eu terei seja você percebe como a programação funcional rapidamente você consegue implementar
+
+77
+00:06:41,530 --> 00:06:42,140
+as lojas.
+
+78
+00:06:42,140 --> 00:06:47,500
+Como falei anteriormente com pouca coisa aplicando um filtro você consegue resolver um problema que
+
+79
+00:06:47,500 --> 00:06:49,060
+a gente tem aqui no nosso código.
+
+80
+00:06:49,060 --> 00:06:54,400
+O próximo passo que está faltando gente agora é detectar que houve uma vitória porque do jeito que está
+
+81
+00:06:54,400 --> 00:07:01,840
+aqui eu vou continuar mexendo no jogo consigo ainda continuar jogando um pouco que não dá PT a vitória
+
+82
+00:07:02,200 --> 00:07:07,690
+e nem parei não fiz absolutamente nada com relação a isso o próximo passo mas se a gente voltar pro
+
+83
+00:07:07,690 --> 00:07:14,170
+outro painel tabuleiros se eu fechar o nosso jogo painel tabuleiro a gente tem essa parte aqui que nós
+
+84
+00:07:14,170 --> 00:07:19,330
+vamos mostrar para o usuário que houve uma vitória e além disso a gente vai inicializar o jogo depois
+
+85
+00:07:19,330 --> 00:07:22,740
+que o usuário for notificado na próxima a gente faz isso eu disse Pera lá.

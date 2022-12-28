@@ -1,0 +1,171 @@
+1
+00:00:00,170 --> 00:00:04,870
+Só agora quero passar para vocês um desafio relacionado com o MAP.
+
+2
+00:00:05,070 --> 00:00:11,940
+Então para isso nós vamos criar uma classe chamado Desafio map e eu vou criar aqui a lista pra vocês
+
+3
+00:00:11,940 --> 00:00:16,920
+começarem o trabalho vou colocar um comentário da mesma forma que eu fiz e outro desafio.
+
+4
+00:00:16,920 --> 00:00:20,060
+No capítulo passado para você saber exatamente aquilo que eu quero.
+
+5
+00:00:20,340 --> 00:00:24,340
+Então o nome será o desafio MAP.
+
+6
+00:00:24,680 --> 00:00:34,830
+Vou criar aqui um metro no meio e eu vou fazer o seguinte definitivo lista essa lista vai ser de valores
+
+7
+00:00:34,920 --> 00:00:45,750
+inteiros chamar nomes seriam os números e aqui eu vou criar em cima de Reis as listas e vou passar aqui
+
+8
+00:00:45,750 --> 00:00:52,980
+alguns números por exemplo 1 2 3 4 5 6 7 8 9 em escala suficiente de 1 a 9.
+
+9
+00:00:53,100 --> 00:00:59,360
+E o desafio vai ser o seguinte vou pagar os comentários que tenho notado vou colocar aqui embaixo.
+
+10
+00:00:59,400 --> 00:01:00,440
+Pronto.
+
+11
+00:01:00,480 --> 00:01:06,630
+Quero que vocês criem mapas que vão fazer o seguinte primeiro você vai pegar o número de cada número
+
+12
+00:01:06,630 --> 00:01:11,780
+aqui que foi colocar o nome dessa lista e vai transformar esse número pra uns 30.
+
+13
+00:01:11,780 --> 00:01:20,070
+Binária então o número 6 vai ser transformado pra distribuí 1 0 que é a representação binária do número
+
+14
+00:01:20,070 --> 00:01:21,060
+6.
+
+15
+00:01:21,060 --> 00:01:25,730
+Isso será uns 37 1 ou seja vai ser do tipo distritão a partir de um número.
+
+16
+00:01:25,830 --> 00:01:32,040
+Você vai fazer um mapeamento que vai numero gerando uma string binária uma vez que você tem hoje tem
+
+17
+00:01:32,060 --> 00:01:38,900
+binário segundo o outro o mapeamento que você vai fazer usando MAC PI vai se reverter a extraindo e
+
+18
+00:01:38,890 --> 00:01:40,150
+inverter a string.
+
+19
+00:01:40,680 --> 00:01:50,120
+Talvez fosse o caso de chamar aqui inverter a histria ou seja mesmo caso do 6 ou seja 1 0 vai passar
+
+20
+00:01:50,120 --> 00:01:51,060
+6 0.
+
+21
+00:01:51,620 --> 00:01:58,240
+Ou seja simplesmente a inversão dos valores o último passo do seu primeiro e assim sucessivamente é
+
+22
+00:01:58,250 --> 00:02:03,690
+o terceiro passo vai ser converter de volta o valor o que vai ser a representação binária e o número
+
+23
+00:02:03,690 --> 00:02:08,960
+converter essa string de zeros de Quero que você converta para um valor inteiro.
+
+24
+00:02:09,150 --> 00:02:19,290
+Então no final o 6 vai virar o Zero depois vai ser investido 1 1 0 0 0 1 converter novamente para um
+
+25
+00:02:19,290 --> 00:02:25,320
+valor inteiro vai dar bolo 3 ou seja no primeiro momento você vai ter o 6 e depois de ter feito esses
+
+26
+00:02:25,320 --> 00:02:31,170
+3 mapeamentos o valor que você vai ter no final vai ser o valor 3 isso vai acontecer pra todos os valores
+
+27
+00:02:31,170 --> 00:02:31,460
+atuais.
+
+28
+00:02:31,920 --> 00:02:41,550
+Então 2 0 1 4 K 1 grau 1 e no final então esses mesmos três passos e o comentário que eu fiz anteriormente
+
+29
+00:02:41,610 --> 00:02:48,080
+para outro exemplo também segue ali e eu não sei como converter um valor inteiro pra um monstrinho é
+
+30
+00:02:48,570 --> 00:02:54,870
+binária é simples se você pesquisar no Google acho que com 5 minutos você vai descobrir qual a função
+
+31
+00:02:54,870 --> 00:02:55,770
+que faz isso.
+
+32
+00:02:55,970 --> 00:03:02,160
+Eu não sei como fazer a inversão de um triângulo também é fácil existem várias possibilidades para você
+
+33
+00:03:02,160 --> 00:03:08,240
+fazer e se você pesquisar com certeza você vai achar algum algoritmo que vai te fazer isso certo.
+
+34
+00:03:08,240 --> 00:03:15,210
+Isso aqui finalmente converter essa string para o valor inteiro também é algo que você vai conseguir
+
+35
+00:03:15,330 --> 00:03:21,120
+e eu vou dar uma dica não sei se eu deveria dar alguns das respostas pra resolver isso está dentro da
+
+36
+00:03:21,120 --> 00:03:27,150
+classe muita gente tem alguns comportamentos e dentro dele vai ter algumas funções que vai te ajudar
+
+37
+00:03:27,240 --> 00:03:32,550
+tanto a partir do inteiro gerar essa estrela binária com uma parte da estrela binária gerar um inteiro
+
+38
+00:03:32,550 --> 00:03:33,870
+e a inversão.
+
+39
+00:03:33,900 --> 00:03:38,070
+Provavelmente você vai ter que usar uma outra classe aí que eu não vou dar dica pra vocês também pesquisarem
+
+40
+00:03:38,400 --> 00:03:45,570
+mais aqui são três metros o nosso foco não é tanto esses algoritmos em uso aqui mas sim o próprio Mega
+
+41
+00:03:45,580 --> 00:03:50,300
+Happiness só que para a gente chamar o MAC precisa ter uma função que vai transformar um dado em outro
+
+42
+00:03:50,360 --> 00:03:56,440
+e nesse contexto nós vamos usar essa lógica então fica aí meu desafio na próxima aula a resposta é até
+
+43
+00:03:56,440 --> 00:03:56,610
+lá.

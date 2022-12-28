@@ -1,0 +1,819 @@
+1
+00:00:00,180 --> 00:00:05,520
+Pessoal na sala vou falar da anatomia de um método e esse é um assunto.
+
+2
+00:00:05,710 --> 00:00:10,030
+Ele vai falar sobre o método e eu vou explicar um pouquinho sobre a anatomia o método e o comportamento
+
+3
+00:00:10,030 --> 00:00:13,880
+o método está relacionado com o algorítimo com a ação certa.
+
+4
+00:00:13,880 --> 00:00:15,410
+Então o objeto.
+
+5
+00:00:15,410 --> 00:00:21,470
+Assim a classe que gera os objetos e os objetos eles possuem atributos e comportamentos.
+
+6
+00:00:21,570 --> 00:00:27,380
+Ou seja a gente definiu duas classes até agora a classe Produto e a classe data como desafio.
+
+7
+00:00:27,390 --> 00:00:32,940
+Essas duas classes têm atributos no caso do produto tem o nome do produto tem um preço tem um desconto
+
+8
+00:00:32,940 --> 00:00:38,850
+no caso a data tem um dia ou mais de um ano mas a gente vai querer eventualmente ter comportamentos.
+
+9
+00:00:38,850 --> 00:00:45,210
+Então se dentro do produto já quiser ter um comportamento que vai me dar o preço já com desconto tem
+
+10
+00:00:45,210 --> 00:00:51,570
+um algorítimo tem um processo ali uma equação matemática que vai dar resposta em cima dos atributos
+
+11
+00:00:51,570 --> 00:00:52,510
+que eu já tenho.
+
+12
+00:00:52,690 --> 00:00:58,860
+Não consigo calcular algo e retornar então pra fazer isso eu preciso de um algoritmo preciso de um método
+
+13
+00:00:59,100 --> 00:01:05,130
+pra me dar essa ação de calcular o preço já com desconto e sobre isso eu queria falar nessa aula sobre
+
+14
+00:01:05,220 --> 00:01:13,290
+o método certo então meu objetivo aqui na sala é falar sobre os métodos tá lá na parte de algoritmo
+
+15
+00:01:13,290 --> 00:01:18,810
+mas no começo não sei se vocês lembram mais ou definir o que é um algoritmo algoritmo é uma sequência
+
+16
+00:01:18,810 --> 00:01:21,130
+de passos então você tem que o seu algoritmo.
+
+17
+00:01:21,160 --> 00:01:30,080
+Passos não obrigatoriamente esses passos são executados na ordem sequencial tipo 1 2 3 4 às vezes há
+
+18
+00:01:30,390 --> 00:01:36,120
+pulos e quando você tem condicionais talvez só execute um determinado passo em determinadas condições
+
+19
+00:01:36,120 --> 00:01:42,960
+ou mesmo pegar um conjunto de passos e executar de forma repetitiva e você fica executando repetições
+
+20
+00:01:42,960 --> 00:01:44,780
+até com determinada condição.
+
+21
+00:01:44,910 --> 00:01:50,950
+Mude o laço de repetição acabe saindo mais basicamente você tem um algoritmo com uma seqüência de passos
+
+22
+00:01:51,400 --> 00:01:58,770
+eventualmente essa sequência de passos vai receber alguns parâmetros de entrada certo e eventualmente
+
+23
+00:01:58,860 --> 00:02:01,260
+esse algoritmo vai gerar um modo de saída.
+
+24
+00:02:01,420 --> 00:02:07,440
+Então por exemplo você que eu vou criar um algoritmo que vai executar a soma de dois números então tem
+
+25
+00:02:07,440 --> 00:02:13,620
+um algoritmo aqui que vai representar um passo para fazer a soma de dois números eu tenho como entrada
+
+26
+00:02:13,760 --> 00:02:15,950
+um número 1 por exemplo 3.
+
+27
+00:02:16,140 --> 00:02:23,040
+Tenho comentado aqui no número 2 e o resultado desse algoritmo é a soma dos dois números que eu recebi
+
+28
+00:02:23,040 --> 00:02:27,740
+o resultado vai ser 5 ou seja tem um conjunto de entradas de um conjunto de saídas.
+
+29
+00:02:27,870 --> 00:02:35,460
+Existem algoritmos que ele tem o conjunto de entradas por exemplo tenho aqui uma duas três quatro entradas
+
+30
+00:02:35,460 --> 00:02:36,460
+quantos se quiser.
+
+31
+00:02:36,600 --> 00:02:39,140
+E esse algoritmo não gera nenhum saída.
+
+32
+00:02:39,130 --> 00:02:44,670
+E nesse caso nós vamos ter uma palavra em especial para dizer quando o algoritmo em Java não retorna
+
+33
+00:02:44,670 --> 00:02:48,010
+nada certo ele simplesmente recebe dados mas não retorna nada.
+
+34
+00:02:48,330 --> 00:02:54,930
+E vocês vão perceber que a gente não vai conseguir fazer um mapeamento muito direto em cima do algoritmo
+
+35
+00:02:54,970 --> 00:03:01,140
+pra os métodos ou seja isso aqui somam se os nossos métodos.
+
+36
+00:03:01,850 --> 00:03:06,940
+E aqui nós temos os parâmetros os métodos e o método pode retornar algo.
+
+37
+00:03:07,140 --> 00:03:13,020
+O método pode receber parâmetros de entrada e não retorna absolutamente nada ou seja não tem nada que
+
+38
+00:03:13,020 --> 00:03:13,620
+é retornado.
+
+39
+00:03:13,620 --> 00:03:22,700
+No final nós temos algoritmos ou métodos que não recebe nada de entrada mas ele gera um retorno certo
+
+40
+00:03:22,700 --> 00:03:30,930
+e possível e nós temos algoritmos ou mesmo Nós temos métodos que têm um conjunto de passos nem tem nada
+
+41
+00:03:31,140 --> 00:03:34,980
+é passado como parâmetro e nada é retornado.
+
+42
+00:03:34,980 --> 00:03:41,370
+Método esse também é um cenário super válido existem métodos e comportamentos que não necessariamente
+
+43
+00:03:41,370 --> 00:03:45,030
+precisam receber nada e não necessariamente precisam retornar nada.
+
+44
+00:03:45,360 --> 00:03:48,180
+A gente vai ver isso durante o passar das aulas.
+
+45
+00:03:48,480 --> 00:03:54,570
+Então fala um pouquinho sobre a anatomia de um método e mais ou menos assim você tem o nome.
+
+46
+00:03:54,750 --> 00:04:03,810
+Então eu tenho o nome do método e não foi de forma inconsciente foi de forma proposital que coloquei
+
+47
+00:04:03,810 --> 00:04:10,800
+a primeira letra minúscula e cada nova palavra passei a primeira letra maiúscula então começa com letra
+
+48
+00:04:10,800 --> 00:04:17,430
+minúscula mas cada nova palavra eu coloco letra maiúscula assim que a comissão foi assim que se padronizou
+
+49
+00:04:17,430 --> 00:04:22,830
+a nomenclatura de métodos mas você coloca o nome que quiser mas eu acabo usando isso não apenas em Java
+
+50
+00:04:22,860 --> 00:04:28,050
+mas em muitas línguas acabo colocando a primeira letra minúscula certo quando a linguagem não tem uma
+
+51
+00:04:28,050 --> 00:04:35,160
+convenção diferem muito importante você ficar ligado com relação à convenção e aqui você tem um método
+
+52
+00:04:35,580 --> 00:04:41,300
+que não recebe nenhum parâmetro você simplesmente coloque colocar abre e fecha parênteses aqui dentro
+
+53
+00:04:41,310 --> 00:04:44,130
+você vai definir todos os parâmetros que é passado para um metro.
+
+54
+00:04:44,150 --> 00:04:45,800
+Mas esse primeiro cenário aqui.
+
+55
+00:04:46,020 --> 00:04:48,220
+Vamos supor que esse método não tem nenhum parâmetro.
+
+56
+00:04:48,630 --> 00:04:55,120
+E aí eu defino aqui o corpo do meu método um método também define o bloco então define o corpo do metro
+
+57
+00:04:55,120 --> 00:05:02,100
+a partir do par de chaves e aqui dentro nós ou nos teus algoritmos a nossa passo delimitado por um ponto
+
+58
+00:05:02,100 --> 00:05:02,690
+e vírgula.
+
+59
+00:05:02,940 --> 00:05:05,850
+Obviamente que vai executar a função desse método.
+
+60
+00:05:05,850 --> 00:05:10,180
+Faltou a última coisa definir aqui que é o retorno do método certo.
+
+61
+00:05:10,190 --> 00:05:13,090
+Na verdade eu usei o retorno como vermelho e parâmetro como azul.
+
+62
+00:05:13,090 --> 00:05:18,070
+Então só para deixar nomenclatura aqui coerente aqui seriam os meus parâmetros.
+
+63
+00:05:18,240 --> 00:05:20,370
+Certo é o retorno do método.
+
+64
+00:05:20,520 --> 00:05:23,880
+Vai ser por exemplo o tipo que eu quero retornar.
+
+65
+00:05:23,880 --> 00:05:30,710
+Se esse método vai retornar um minutinho então eu vou dizer aqui que esse método retorna.
+
+66
+00:05:30,780 --> 00:05:39,000
+Se esse método vai retornar um monstrinho então eu vou dizer exatamente o tipo que esse método vai retornar.
+
+67
+00:05:39,370 --> 00:05:44,220
+E se esse método não retorna nada é o primeiro cenário que eu quero trabalhar com vocês.
+
+68
+00:05:44,610 --> 00:05:51,030
+Eu vou dizer que nesse caso esse método vai retornar Void de vodca dizer vazio.
+
+69
+00:05:51,120 --> 00:05:58,440
+Então como um método retorna Void significa que não há retorno nesse método ou seja a ausência de retorno
+
+70
+00:05:58,650 --> 00:06:01,380
+só colocando aqui as chaves pra vim pra cá.
+
+71
+00:06:01,760 --> 00:06:05,010
+Então colocar aqui serve só pra ficar bonitinho.
+
+72
+00:06:05,010 --> 00:06:11,730
+A definição do meu método é provavelmente em muitos passaram a colocar a orientação para ser aqui então
+
+73
+00:06:11,730 --> 00:06:12,860
+nós temos o método.
+
+74
+00:06:13,260 --> 00:06:16,670
+Então aqui só é que a planta tem uma cor diferente.
+
+75
+00:06:16,770 --> 00:06:21,480
+Por exemplo o roxo eu tenho aqui o meu tipo de retorno certo.
+
+76
+00:06:21,680 --> 00:06:26,700
+E aqui eu tenho os parâmetros de entrada aqui é o teu nome do meu método.
+
+77
+00:06:26,700 --> 00:06:30,020
+E aqui dentro eu tenho o meu algorítimo então algorítimo.
+
+78
+00:06:30,420 --> 00:06:33,710
+Nós temos as entradas que aqui no caso pode não ter nenhuma.
+
+79
+00:06:33,720 --> 00:06:37,950
+Pode ter esse tal termo o tipo de retorno aqui e aqui no meio.
+
+80
+00:06:37,950 --> 00:06:45,000
+Eu tenho o meu passo a passo com meu algoritmo exatamente isso aqui vem aqui por meio do método tipo
+
+81
+00:06:45,000 --> 00:06:51,990
+de retorno vem pra cá os parâmetros vem pra cá pode não ter nenhum e eu tenho o nome do método certo
+
+82
+00:06:52,000 --> 00:06:56,790
+vou só retornar aqui ficou muito bagunçado com esse monte de linha.
+
+83
+00:06:56,820 --> 00:07:02,880
+O fato é que é o nosso primeiro método o tipo de retorno o nome do método os parâmetros o algoritmo.
+
+84
+00:07:02,910 --> 00:07:09,590
+Vamos supor que eu queira criar um método que recebe dois parâmetros o método soma a que ele vai retornar
+
+85
+00:07:09,620 --> 00:07:11,850
+o valor de um número ou um número b.
+
+86
+00:07:11,850 --> 00:07:13,950
+Como é que eu poderia criar um método somar aqui.
+
+87
+00:07:14,460 --> 00:07:19,770
+Então primeiramente eu vou começar pelo tipo de retorno tipo de retorno do método somar poderia ser
+
+88
+00:07:19,770 --> 00:07:23,880
+um inteiro se eu recebi dois valores inteiros o retorno também será inteiro.
+
+89
+00:07:23,940 --> 00:07:29,300
+Então para simplificar vou dizer que o tipo de retorno é inteiro então esse tipo de retorno.
+
+90
+00:07:29,430 --> 00:07:38,580
+O nome do método que coloquei converge então qualquer que some a esse método vai receber parâmetros.
+
+91
+00:07:39,000 --> 00:07:43,140
+Então vou colocar aqui os parentes maior para definir os parâmetros.
+
+92
+00:07:43,480 --> 00:07:49,110
+Então o primeiro parâmetro vai ser eu vou colocar aqui o tipo da variável pra ser vermelho onde tem
+
+93
+00:07:49,110 --> 00:07:50,400
+que tipo eu vou colocar vermelho.
+
+94
+00:07:50,400 --> 00:07:58,020
+Então primeiro o parâmetro vai ser o nome da variável se a colocar aqui uma vírgula vou definir de novo
+
+95
+00:07:58,020 --> 00:07:59,390
+um tipo.
+
+96
+00:08:00,180 --> 00:08:01,920
+é o tipo da variável.
+
+97
+00:08:01,920 --> 00:08:08,540
+O nome da variável vai ser bem então nome da variável a nome da variável B o tipo inteiro inteiro e
+
+98
+00:08:08,550 --> 00:08:09,850
+a função retorna inteiro.
+
+99
+00:08:09,900 --> 00:08:18,060
+Ou seja nesse caso eu tenho uma função que recebe dois parâmetros de entrada e vai retornar um parâmetro.
+
+100
+00:08:18,060 --> 00:08:22,590
+Seria mais ou menos como essa figurinha que eu tenho meu algoritmo sequência de passos.
+
+101
+00:08:22,590 --> 00:08:28,440
+Vou receber duas entradas isso seja o valor a e o valor b.
+
+102
+00:08:28,560 --> 00:08:33,400
+Esse algoritmo vai retornar à soma dos dois que também é do tipo.
+
+103
+00:08:33,420 --> 00:08:41,400
+Nesse caso tenho muitos a b e o resultado aqui será um valor inteiro que é exatamente a soma de A mais
+
+104
+00:08:41,400 --> 00:08:48,660
+B taxa no impasse que a gente já fez várias vezes e eu vou mostrar pra vocês aqui como seria a implementação
+
+105
+00:08:48,660 --> 00:08:56,400
+desse método no momento que dentro de uma função eu digo que essa função irá retornar o valor certo
+
+106
+00:08:56,400 --> 00:09:02,780
+o algoritmo vai retornar eu obrigatoriamente vou usar uma palavra reservada da linguagem Java que eu
+
+107
+00:09:03,620 --> 00:09:05,880
+li.
+
+108
+00:09:06,050 --> 00:09:12,560
+Também é uma variável reservada até poderia parar até aqui seguindo o padrão de cores da Eclipse.
+
+109
+00:09:12,660 --> 00:09:18,350
+Não estou seguindo não me lembro todas as cores mais uma palavra reservada com né.
+
+110
+00:09:18,420 --> 00:09:24,850
+Se for naquele layout Branquinho aquele tema mais claro então eu tenho o tipo 20 e também tem um tipo
+
+111
+00:09:25,080 --> 00:09:32,500
+aqui então a palavra Brittany voltam pra ela ela é usada pra devolver algo que você diz que é devolvi
+
+112
+00:09:32,510 --> 00:09:38,400
+na função se você disse que devolveu o inteiro obrigatoriamente você precisa retornar um inteiro.
+
+113
+00:09:38,400 --> 00:09:46,890
+Aqui eu posso simplesmente colocar a mais b e colocar um ponto e vírgula por exemplo.
+
+114
+00:09:46,890 --> 00:09:52,350
+Isso é o suficiente pra você implementar a função soma recebiam uma variável a receber uma variável
+
+115
+00:09:52,350 --> 00:09:58,590
+B aí eu separo por vírgula todos os parâmetros e eu mostrei pra vocês que vocês podem receber vários
+
+116
+00:09:58,590 --> 00:10:02,770
+parâmetros não estou mostrando isso aqui eu tenho dois parâmetros.
+
+117
+00:10:02,770 --> 00:10:09,040
+Na verdade eu tenho o inteiro a tempo inteiro bem esses dois parâmetros separados por vírgulas.
+
+118
+00:10:09,230 --> 00:10:13,360
+Aqui dentro eu faço as operações a mais bem retorna alguma coisa.
+
+119
+00:10:13,750 --> 00:10:21,890
+Eu também se quisesse poderia implementar de uma outra forma limpa aqui eu posso criar uma variável
+
+120
+00:10:22,070 --> 00:10:26,870
+por exemplo variável onde eu vou chamar essa variável quindim
+
+121
+00:10:31,070 --> 00:10:41,370
+dado resultado recebe o valor de há mais escrever que relógio mais complicado e que tem que trocar mais
+
+122
+00:10:41,460 --> 00:10:42,530
+beleza cria barba.
+
+123
+00:10:42,530 --> 00:10:46,840
+Resultado e aqui embaixo eu coloco o leitor.
+
+124
+00:10:47,070 --> 00:10:55,310
+Ou seja retorne o valor da variável resultado do útil.
+
+125
+00:10:55,410 --> 00:11:00,690
+Então nesse caso define um algorítimo em duas linhas cria uma variável que é o resultado de a mais bela
+
+126
+00:11:00,700 --> 00:11:04,270
+depois e o resultado também é um algoritmo válido.
+
+127
+00:11:04,270 --> 00:11:09,820
+Só que usando duas linhas eu normalmente como é uma coisa muito simples nesse caso acho que já retornaria
+
+128
+00:11:09,820 --> 00:11:11,830
+direto à soma de A mais B.
+
+129
+00:11:12,040 --> 00:11:19,510
+Então aqui é um exemplo de cenário que você tem o algoritmo que tanto recebe dados de entrada e como
+
+130
+00:11:19,990 --> 00:11:22,940
+ele retorna alguma coisa neste outro cenário.
+
+131
+00:11:22,960 --> 00:11:30,580
+Eu tenho um algoritmo aqui que não recebe nada certo ou seja eu não tem um parâmetro de entrada e eu
+
+132
+00:11:30,580 --> 00:11:32,060
+não tenho retorno aqui.
+
+133
+00:11:32,140 --> 00:11:34,500
+Você pode ter a mistura.
+
+134
+00:11:34,510 --> 00:11:37,300
+Eu posso não ter dados e retornar um inteiro.
+
+135
+00:11:37,330 --> 00:11:39,920
+Eu posso receber alguma coisa e retornar Boyd.
+
+136
+00:11:40,240 --> 00:11:43,960
+Esses são os dois extremos e não se nada e não retorna nada.
+
+137
+00:11:43,980 --> 00:11:48,970
+Esse aqui recebe alguma coisa tornar alguma coisa os outros cenários são fáceis de inferir e a gente
+
+138
+00:11:48,970 --> 00:11:50,650
+vai ver isso na prática.
+
+139
+00:11:50,660 --> 00:11:55,700
+A última questão que eu quero trabalhar com vocês é o seguinte de forma genérica a anatomia de um clássico
+
+140
+00:11:56,110 --> 00:12:08,260
+é o seguinte nós temos o tipo de retorno então tipo nós temos aqui o nome em nome do método certo.
+
+141
+00:12:08,290 --> 00:12:20,290
+Nós temos os parâmetros que também têm tipo e não homem vírgula tipo e nome.
+
+142
+00:12:20,300 --> 00:12:24,230
+Ou seja sei aqui quantos você quiser chama os parentes.
+
+143
+00:12:24,470 --> 00:12:28,300
+E nós temos também aqui o corpo do método.
+
+144
+00:12:28,310 --> 00:12:34,780
+Então colocando aqui o corpo do Metro vou colocar em cinza para o seu nosso comentário.
+
+145
+00:12:34,780 --> 00:12:40,670
+Aqui nós temos o corpo do nosso método de observação que eu quero é o seguinte.
+
+146
+00:12:40,850 --> 00:12:43,080
+Isso aqui é o nome do método.
+
+147
+00:12:43,530 --> 00:12:58,590
+Mas a lista de parâmetros é essa que define a identidade do método ou qualquer dente da no método do
+
+148
+00:12:58,610 --> 00:12:59,600
+mérito porquê.
+
+149
+00:12:59,720 --> 00:13:06,830
+Isso define a identidade do médico porque dentro de uma classe você só pode ter um método que tem o
+
+150
+00:13:06,830 --> 00:13:12,620
+mesmo nome ou quantidade de parâmetros porque é isso porque dentro de uma determinada classe você não
+
+151
+00:13:12,620 --> 00:13:21,200
+pode ter dois métodos com a mesma identidade e Norte em que eu estou dizendo que o tipo de retorno não
+
+152
+00:13:21,200 --> 00:13:27,650
+faz parte da identidade do método e o que faz parte é o nome do método e os parâmetros que você passou
+
+153
+00:13:28,070 --> 00:13:29,740
+para um determinado método.
+
+154
+00:13:29,750 --> 00:13:36,560
+Então por exemplo suponha que eu vá criar aqui anotando que o Baixinho quer do tipo vamos colocar aqui
+
+155
+00:13:36,710 --> 00:13:42,000
+na tela assim que eu vou chamar por exemplo de cálculo e calculadora.
+
+156
+00:13:42,050 --> 00:13:49,430
+Essa classe define um bloco de código então define o bloco Eu posso criado dentro dessa classe por exemplo
+
+157
+00:13:50,020 --> 00:13:54,010
+um método chamado somar.
+
+158
+00:13:54,430 --> 00:13:59,090
+Esse método somava a receber o cálculo foi mais simples aqui.
+
+159
+00:13:59,810 --> 00:14:04,360
+A vírgula B Vou fechar aqui.
+
+160
+00:14:04,620 --> 00:14:08,680
+E esse método dentro dele tem aqui um bloco que vai implementar esse método.
+
+161
+00:14:08,690 --> 00:14:12,770
+Obviamente esse método tem que ter um tipo de retorno para isso não vai dar problema certo.
+
+162
+00:14:12,850 --> 00:14:19,550
+O método que retornou é que soma dois números anuais dentro dessa classe eu posso criar um outro método
+
+163
+00:14:19,670 --> 00:14:20,720
+chamado somar.
+
+164
+00:14:21,270 --> 00:14:28,190
+Eu vou colocar aqui um pouquinho menor somar e aqui eu posso definir que esse método recebe um inteiro.
+
+165
+00:14:28,230 --> 00:14:39,270
+A vírgula um inteiro d vírgula um inteiro C fechando aqui um parênteses eu vou colocar o corpo no método.
+
+166
+00:14:39,590 --> 00:14:45,920
+Obviamente aqui dentro vai ter a implementação cética não estou me preocupando muito agora e aqui vai
+
+167
+00:14:45,920 --> 00:14:47,510
+ter um tipo de retorno.
+
+168
+00:14:47,510 --> 00:14:53,660
+Nesse caso eu posso usar só hoje é que a cor vermelha que vai passar sem aviso.
+
+169
+00:14:53,790 --> 00:15:01,620
+Pronto eu posso ter esses dois métodos chamado com o mesmo nome somar e somar dentro da classe causa.
+
+170
+00:15:01,670 --> 00:15:02,280
+Posso.
+
+171
+00:15:02,290 --> 00:15:11,280
+Qualquer que eu posso porque a quantidade de parâmetros eu tenho um dois três parâmetros dois parâmetros.
+
+172
+00:15:11,480 --> 00:15:20,060
+Eu posso por exemplo que eu vá copiar isso aqui só vai somar isso aqui vou duplicar vou jogar isso aqui
+
+173
+00:15:20,060 --> 00:15:26,990
+pra baixo eu posso ter esse outro método aqui embaixo dentro da Classical que não mas se eu fizer isso
+
+174
+00:15:26,990 --> 00:15:34,370
+leva ao céu mudar aqui o valor lá e o valor b e eu chamar por exemplo para esse valor de x e esse valor
+
+175
+00:15:34,370 --> 00:15:41,210
+de y posso ter não o Java vai olhar para a identidade do método a gente também chama isso de assinatura
+
+176
+00:15:41,210 --> 00:15:47,470
+do método apenas os tipos então você tem aqui o tipo de retorno.
+
+177
+00:15:47,690 --> 00:15:51,270
+Você tem o nome do método um nome.
+
+178
+00:15:51,420 --> 00:16:00,400
+E aqui você tem dentro dos parentes os tipos então você porque vai ser você o segundo parâmetro flows
+
+179
+00:16:00,680 --> 00:16:08,790
+por exemplo é aquele tipo de retorno só para a gente colocar um tipo de barra e tornar um tipo booleano.
+
+180
+00:16:09,140 --> 00:16:15,230
+Então isso aqui vai definir mais ou menos a assinatura do método aqui e a assinatura do Metro a identidade
+
+181
+00:16:15,230 --> 00:16:15,680
+do metro.
+
+182
+00:16:15,710 --> 00:16:23,130
+Chama também de assinatura certa acho que é até mais comum assim na altura do método.
+
+183
+00:16:23,210 --> 00:16:29,030
+Então nesse caso claro que eu estou mostrando uma definição de uma assinatura de método incompleta está
+
+184
+00:16:29,030 --> 00:16:34,970
+faltando definir os tipos das variáveis mas só pra deixar claro pra você que o Java ele não vai olhar
+
+185
+00:16:34,970 --> 00:16:37,130
+que esse nome aqui é X.
+
+186
+00:16:37,130 --> 00:16:44,870
+Esse que aí conheci aqui há esse que é bem pra ele não importa o que importa é que você tem dois parâmetros
+
+187
+00:16:44,870 --> 00:16:51,500
+e os dois parâmetros são inteiros INTEIRO E O NOME DO METRO é exatamente qual seja essa assinatura aqui
+
+188
+00:16:51,860 --> 00:16:57,820
+é exatamente igual a essa assinatura aqui o que significa que ele não pode ter esses dois metros então
+
+189
+00:16:57,830 --> 00:17:05,660
+sou obrigado a pagar esse método somar porque eles não podem estar na mesma classe já esses dois podem
+
+190
+00:17:05,660 --> 00:17:06,380
+por quê.
+
+191
+00:17:06,480 --> 00:17:13,670
+Porque embora eu tenha o mesmo nome de método aqui em somar e somar aqui ele vai diferenciar e vai conseguir
+
+192
+00:17:13,670 --> 00:17:21,050
+diferenciar um metro do outro pela quantidade de parâmetros que tem três e esse aqui tem apenas dois
+
+193
+00:17:21,050 --> 00:17:32,130
+metros então se algum momento eu criar uma classificao que então crie aqui ao que sei recebe mil cálculos.
+
+194
+00:17:32,300 --> 00:17:43,790
+Então se eu fizer 15 C ponto somado e eu passar o valor 2 3 e 4 obrigatoriamente o Java sabe que você
+
+195
+00:17:43,790 --> 00:17:50,180
+está chamando sua máquina sabe três parâmetros então ele vai vim lá pra cima não consigo aqui e vim
+
+196
+00:17:50,180 --> 00:17:56,430
+aqui pra cima não mas venho aqui pra cima ele vai chamar esse aqui porque ele em qualquer Salitre esperamos
+
+197
+00:17:56,510 --> 00:18:02,450
+que então essa diferenciação que o Japão consegue fazer em outras palavras você consegue ter métodos
+
+198
+00:18:02,450 --> 00:18:08,930
+com o mesmo nome contanto que os parâmetros sejam diferentes às vezes só inverter a ordem já é o suficiente.
+
+199
+00:18:08,930 --> 00:18:14,690
+Vou comentar um pouco mais sobre isso mas esse é o resumo do que seria a anatomia de um metro né gente
+
+200
+00:18:14,690 --> 00:18:19,610
+td um pouco lá no algorítimo que a gente tem uma seqüência de passos que recebe parâmetros e retorna
+
+201
+00:18:19,640 --> 00:18:25,610
+alguma coisa é essa que é a anatomia de um metro certo você define o tipo de retorno nome do método
+
+202
+00:18:25,610 --> 00:18:26,860
+e os parâmetros de entrada.
+
+203
+00:18:26,860 --> 00:18:29,110
+Mostrei aqui alguns cenários diferentes.
+
+204
+00:18:29,110 --> 00:18:34,310
+Agora vai partir pra prática pra colocar tudo isso que a gente viu na sala mais teórica na prática de
+
+205
+00:18:34,310 --> 00:18:35,200
+esperma proximal.

@@ -1,0 +1,51 @@
+1
+00:00:00,120 --> 00:00:07,010
+Pessoal quero lançar um desafio que agora vocês vão acrescentar aos construtores dentro da classe data.
+
+2
+00:00:07,070 --> 00:00:12,470
+Eu quero que você crie dois construtores o construtor padrão ou seja o cara que você uma vez criado
+
+3
+00:00:12,480 --> 00:00:17,940
+outro conquistou o seu e perdeu padrão então tem que definir de forma explícita o construtor padrão
+
+4
+00:00:18,330 --> 00:00:22,510
+e eu quero que vocês definam o construtor que vai receber em dia mês e ano.
+
+5
+00:00:22,560 --> 00:00:30,420
+Observação eu quero que quando for chamado o construtor padrão que por padrão à data seja primeiro dia
+
+6
+00:00:30,540 --> 00:00:40,140
+um mês o ano 1970 que seria a data zera o marco zero do calendário único está bom então quando você
+
+7
+00:00:40,140 --> 00:00:46,440
+chamar o consultor padrão e se você não informar o dia e o mês do ano eu quero que o dia padrão seja
+
+8
+00:00:47,190 --> 00:00:54,990
+o mês padrão seja um ano padrão seja 1970 ou seja o primeiro de janeiro de 1970 quando você chamar o
+
+9
+00:00:54,990 --> 00:01:00,840
+construtor que recebe dia mês e ano aí o dia que você passar será acertado nas variáveis.
+
+10
+00:01:01,050 --> 00:01:05,280
+Então dois construtores o conceito padrão e o construtor quer saber os três parâmetros.
+
+11
+00:01:05,280 --> 00:01:12,450
+E quando você chamar o padrão do ano de 1970 será a data do nosso objeto data então fique por aqui na
+
+12
+00:01:12,450 --> 00:01:12,870
+próxima.
+
+13
+00:01:12,960 --> 00:01:14,570
+A resposta desse desafio é.

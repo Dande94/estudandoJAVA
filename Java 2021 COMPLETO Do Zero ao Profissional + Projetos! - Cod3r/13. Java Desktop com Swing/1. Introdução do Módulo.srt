@@ -1,0 +1,327 @@
+1
+00:00:00,210 --> 00:00:05,580
+Começaram mais um capítulo no nosso curso de Java e nesse capítulo mas vamos falar sobre programação
+
+2
+00:00:05,580 --> 00:00:11,030
+de interfaces gráficas com o usuário pra desktop usando suingue.
+
+3
+00:00:11,100 --> 00:00:15,610
+Vai ter um outro capítulo mais pra frente pra gente falar de Java e Flash mas nesse capítulo vou cobrir
+
+4
+00:00:15,900 --> 00:00:21,930
+o tema suíte biblioteca de componentes visuais que tem toda uma programação pra construir interfaces
+
+5
+00:00:21,930 --> 00:00:25,650
+gráficas com usuário para aplicações desktop multiplataforma.
+
+6
+00:00:25,680 --> 00:00:31,780
+Você pode instalar no Mac o Windows no Linux e é uma solução muito interessante para você criar aplicações
+
+7
+00:00:31,800 --> 00:00:32,630
+desktop.
+
+8
+00:00:32,910 --> 00:00:38,190
+Eu vou falar sobre essa parte do Java Net que é a biblioteca do suingue que são componentes visuais
+
+9
+00:00:38,190 --> 00:00:43,800
+e mais na frente ele vai falar de uma versão mais moderna também para construir interfaces gráficas
+
+10
+00:00:43,800 --> 00:00:46,710
+multiplataformas que é o Java Flex.
+
+11
+00:00:46,740 --> 00:00:52,470
+Vai ser um tema de outro capítulo nesse capítulo eu também quero fazer uma evolução no nosso projeto
+
+12
+00:00:52,800 --> 00:00:57,050
+Campo Minado pra que a gente possa acrescentar interface gráfica com o usuário.
+
+13
+00:00:57,150 --> 00:01:03,240
+Então no lugar de gente tem uma aplicação que funcionava no terminal via console o que não é muito interessante
+
+14
+00:01:03,260 --> 00:01:05,320
+mensalmente para um jogo.
+
+15
+00:01:05,430 --> 00:01:09,480
+A gente vai colocar uma interface gráfica para que a gente possa ter o nosso campo minado.
+
+16
+00:01:09,480 --> 00:01:15,480
+Será implementado a parte de interface gráfica e nós também vamos precisar fazer algumas mudanças na
+
+17
+00:01:15,480 --> 00:01:20,310
+implementação no que diz respeito à lógica do jogo para que a gente possa ter o uso de um padrão de
+
+18
+00:01:20,310 --> 00:01:27,780
+projeto que é muito mais muito importante mesmo não apenas pra esse capítulo não apenas para a parte
+
+19
+00:01:27,780 --> 00:01:30,090
+de suingue ou mesmo pra qualquer biblioteca.
+
+20
+00:01:30,090 --> 00:01:35,910
+Pelo menos a grande maioria das bibliotecas que trabalham com componentes visuais usam um padrão de
+
+21
+00:01:35,910 --> 00:01:40,250
+projeto conhecido como observa se até outros nomes também.
+
+22
+00:01:40,260 --> 00:01:46,020
+Por exemplo no mundo do Java a gente conhece como o List também é um sinônimo pra esse padrão observe
+
+23
+00:01:46,020 --> 00:01:48,410
+que é um padrão muito importante.
+
+24
+00:01:48,420 --> 00:01:55,650
+Muitas bibliotecas modernas também só usa em Java scripting que usa mesmo em Java usam esse padrão de
+
+25
+00:01:55,650 --> 00:02:02,670
+projeto próprio JavaScript que é a linguagem da web é fortemente baseado no padrão observa a técnica
+
+26
+00:02:02,790 --> 00:02:09,780
+de requisição Ajax que todo mundo conhece essa técnica de fazer requisições assíncrona na web que também
+
+27
+00:02:09,780 --> 00:02:11,460
+usa o padrão de projeto observa.
+
+28
+00:02:11,460 --> 00:02:15,080
+Então esse é um tema muito importante e estou colocando observa.
+
+29
+00:02:15,090 --> 00:02:20,430
+Nesse capítulo vocês vão perceber que no primeiro momento o capítulo não vai falar de Suely embora o
+
+30
+00:02:20,430 --> 00:02:22,400
+tema principal seja ele por quê.
+
+31
+00:02:22,630 --> 00:02:26,820
+Porque esse padrão observa e está muito presente também no suingue.
+
+32
+00:02:27,090 --> 00:02:32,060
+E esse é um padrão de projeto que vale muito a pena ensinar pra vocês aqui no curso.
+
+33
+00:02:32,070 --> 00:02:37,500
+Por isso a gente vai fazer inicialmente um exemplo isolado sobre o padrão observe e entender como funciona
+
+34
+00:02:37,500 --> 00:02:43,290
+o padrão pra depois a gente tentar pegar esse padrão aplicar o nosso jogo e a partir daí a gente vai
+
+35
+00:02:43,290 --> 00:02:48,990
+colocar interface gráfica e vocês vão perceber que em vários momentos a gente vai precisar também usar
+
+36
+00:02:48,990 --> 00:02:50,370
+o padrão observa.
+
+37
+00:02:50,400 --> 00:02:55,830
+No contexto do suingue no contexto interfaces gráficas tão importantes de malhas sequências padrão de
+
+38
+00:02:55,830 --> 00:03:02,160
+projeto não apenas o observa mas outros padrões de projeto que forem sendo oportunos colocar dentro
+
+39
+00:03:02,160 --> 00:03:07,800
+do nosso curso eu vou estar colocando esses padrões e vou estar falando sobre eles explica na teoria
+
+40
+00:03:07,800 --> 00:03:13,730
+do padrão para que você consiga não apenas entender o padrão mas entender como aplicar o padrão na prática.
+
+41
+00:03:13,740 --> 00:03:20,610
+Depois dos paradigmas de programação que são a filosofia máxima de como você vai pensar para construir
+
+42
+00:03:20,610 --> 00:03:25,860
+o seu software você tem um paradigma de orientação a objeto tem um paradigma funcional tem um paradigma
+
+43
+00:03:25,860 --> 00:03:32,940
+procedural ou seja cada um desses paradigmas ditam as formas como você vai resolver os problemas de
+
+44
+00:03:32,940 --> 00:03:34,030
+software.
+
+45
+00:03:34,080 --> 00:03:40,220
+Outra coisa muito interessante complementa esse conceito paradigma são os padrões de projetos.
+
+46
+00:03:40,230 --> 00:03:48,050
+Existe uma série de padrões catalogados e documentados e esses padrões ajudam a resolver problemas comuns
+
+47
+00:03:48,090 --> 00:03:54,660
+que são encontrados como uma forma de uma forma elegante de uma forma flexível de uma forma que as pessoas
+
+48
+00:03:54,660 --> 00:04:00,880
+já conhecem quando você visava implementar aqui a minha solução usando o padrão de projeto observa.
+
+49
+00:04:01,170 --> 00:04:07,170
+Então quem já conhece o padrão quem já leu sobre ele já entende a filosofia do observe e só esse nome
+
+50
+00:04:07,170 --> 00:04:12,660
+já é esclarecedor o suficiente para você entender como você vai fazer a solução e então entender sobre
+
+51
+00:04:12,660 --> 00:04:14,100
+o padrão de projeto.
+
+52
+00:04:14,100 --> 00:04:19,250
+Também é muito importante e por isso estou pegando um dos principais padrões de projeto do mercado e
+
+53
+00:04:19,260 --> 00:04:24,260
+colocando nesse capítulo para que a gente possa primeiro entender ele para depois ir para o suingue
+
+54
+00:04:24,260 --> 00:04:26,700
+e entender como sua ele também usa esse padrão.
+
+55
+00:04:26,700 --> 00:04:33,180
+Muito fortemente na suas soluções está certo então mas vamos nesse capítulo aprender sobre Swing e nesse
+
+56
+00:04:33,180 --> 00:04:39,120
+capítulo nós vamos falar muito sobre o padrão observa e iniciar o Capítulo falando sobre isso e nós
+
+57
+00:04:39,120 --> 00:04:44,960
+vamos pegar o nosso projeto do campo minado e convertê lo para uma versão com interface gráfica.
+
+58
+00:04:44,970 --> 00:04:50,910
+Inicialmente eu vou ao primeiro contato que você vai ter com suingue vai ser dentro do contexto do nosso
+
+59
+00:04:50,910 --> 00:04:52,650
+projeto tinha um campo minado.
+
+60
+00:04:52,650 --> 00:04:56,820
+Depois que terminar o projeto combinado a gente pega alguns outros exercícios para que a gente possa
+
+61
+00:04:56,820 --> 00:05:02,470
+complementar um pouco mais de alguns temas importantes sobre o sonho então fico por aqui na próxima
+
+62
+00:05:02,550 --> 00:05:04,570
+a gente continua falar assim.
+
+63
+00:05:04,580 --> 00:05:11,280
+Observação importante na próxima aula eu vou liberar o meu primeiro vídeo o primeiro vídeo que eu gravei
+
+64
+00:05:11,640 --> 00:05:12,860
+sério na vida.
+
+65
+00:05:12,860 --> 00:05:18,630
+O primeiro vídeo que eu gravei aparecendo é o primeiro vídeo que eu publiquei no antigo canal que era
+
+66
+00:05:18,630 --> 00:05:20,790
+chamado de aulas de programação.
+
+67
+00:05:20,790 --> 00:05:26,540
+Depois o canal aula de programação virou coube ao canal foi excluída a gente começou um canal novo o
+
+68
+00:05:26,730 --> 00:05:32,940
+fato que foi o primeiro vídeo que eu lancei no canal há quatro cinco anos atrás quatro anos atrás eu
+
+69
+00:05:32,940 --> 00:05:39,270
+acho um tabu por aí quatro quatro ou cinco anos atrás e eu quero colocar esse vídeo porque é exatamente
+
+70
+00:05:39,270 --> 00:05:43,330
+sobre o padrão e o projeto segue o exemplo que eu coloco no final do vídeo.
+
+71
+00:05:43,500 --> 00:05:46,430
+Eu vou replicar esse exemplo no vídeo seguinte.
+
+72
+00:05:46,440 --> 00:05:52,080
+No vídeo seguinte a gente vai construir o mesmo exemplo que eu mostrei lá no vídeo e nós vamos codificar
+
+73
+00:05:52,080 --> 00:05:53,770
+o mesmo exemplo que eu coloquei no vídeo.
+
+74
+00:05:53,770 --> 00:05:56,700
+Então durante esse vídeo o próximo vídeo com uma marcha pra vocês.
+
+75
+00:05:56,690 --> 00:06:01,860
+Vocês podem assistir até o final sem se preocupar em pausar e codificar aquilo que eu estou mostra no
+
+76
+00:06:01,860 --> 00:06:06,980
+final do vídeo porque no vídeo seguinte nós vamos construir do zero esse exemplo dentro do nosso projeto
+
+77
+00:06:07,000 --> 00:06:10,200
+exercício que já está usando ele para fazer os nossos exercícios.
+
+78
+00:06:10,260 --> 00:06:15,420
+Então nós vamos construir esse exemplo específico do padrão percebe que será apresentado no próximo
+
+79
+00:06:15,420 --> 00:06:16,100
+vídeo.
+
+80
+00:06:16,200 --> 00:06:21,060
+Não precisa seguir no próximo vídeo porque no outro nós vamos construir o exercício do zero e então
+
+81
+00:06:21,060 --> 00:06:21,690
+fico por aqui.
+
+82
+00:06:21,690 --> 00:06:27,480
+Pessoal na introdução de mais um capítulo do nosso curso de Java completo e até lo.

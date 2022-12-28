@@ -1,0 +1,151 @@
+1
+00:00:00,270 --> 00:00:05,290
+Pessoas vão lá agora fazer uma consulta que vai envolver três tabelas no caso a minha.
+
+2
+00:00:05,310 --> 00:00:12,270
+Meu objetivo é fazer a consulta entre cidades empresas ou seja a relação em mim mais eu vou precisar
+
+3
+00:00:12,270 --> 00:00:17,730
+de uma tabela intermediária que é exatamente essa tabela que faz a relação entre cidades e empregos.
+
+4
+00:00:17,730 --> 00:00:21,360
+Então vamos lá pra isso eu vou criar aqui um novo arquivo.
+
+5
+00:00:21,360 --> 00:00:26,240
+Vai ser um consulta bem simples eu vou colocar aqui consultar empresas ponto SQL.
+
+6
+00:00:26,280 --> 00:00:32,170
+Eu não vou usar nem a palavra em é melhor dizendo Embora a consulta seja um e-mail.
+
+7
+00:00:32,510 --> 00:00:37,230
+Mas eu vou usar a estratégia vasculhar golos em anteriormente como você mais só para dar uma relembrada
+
+8
+00:00:37,230 --> 00:00:42,950
+então vou colocar aqui ao seletos e aponte o nome ou seja a empresa conta o número já que a tabela vou
+
+9
+00:00:42,960 --> 00:00:49,290
+colocar o Elias não um apelido para é de empresa e sei mas seu apelido da tabela cidade então já estou
+
+10
+00:00:49,290 --> 00:00:58,840
+usando aqui e outro nome e sei o nome vou colocar aqui from empresas e virgula empresas mais idade eu
+
+11
+00:00:58,840 --> 00:01:08,460
+vou chamar o RG e o Vírgula e cidades eu vou usar o Elias pra ser cidade então tem três tabelas em empresas
+
+12
+00:01:08,460 --> 00:01:14,560
+e empresas Vanderlan unidades e a tabela que será referenciada por esse apelido.
+
+13
+00:01:14,990 --> 00:01:17,870
+E finalmente cidades referenciada pela letra C.
+
+14
+00:01:17,970 --> 00:01:25,500
+Então nesse caso contusão no joelho faço amarração na cláusula era então colocando aqui eu vou colocar
+
+15
+00:01:25,840 --> 00:01:31,080
+o r e ponto Edinho tem que ser igual a E o ponto.
+
+16
+00:01:31,080 --> 00:01:40,940
+Empresa Vanderlan Aydin ser pontuais tem que ser igual a E o ponto cidade de Adelaide ou seja a medida
+
+17
+00:01:40,940 --> 00:01:47,210
+a empresa tem que ser exatamente igual ao da tabela intermediária que está a empresa ponto Aydin e Wadi
+
+18
+00:01:47,250 --> 00:01:53,610
+da cidade tem que ser exatamente o valor de cidade que está dentro da tabela intermediária.
+
+19
+00:01:53,760 --> 00:01:57,750
+Então aqui eu também usei dentro do usei várias cláusulas.
+
+20
+00:01:57,860 --> 00:02:04,160
+A primeira cláusula ou seja e a segunda cláusula então todas as cláusulas têm que ser verdadeira para
+
+21
+00:02:04,160 --> 00:02:09,240
+que ele traga o resultado e eu posso se quiser finalmente colocar uma outra cláusula para posso colocar
+
+22
+00:02:09,240 --> 00:02:15,870
+por exemplo que a empresa tem que ser cede Eu posso colocar cede igual a um ou simplesmente posso simplesmente
+
+23
+00:02:15,870 --> 00:02:22,260
+colocar cede que ele vai entender que se esse campo for ele traz esse campo fizeram que ele não vai
+
+24
+00:02:22,260 --> 00:02:22,780
+trazer.
+
+25
+00:02:23,220 --> 00:02:29,670
+Cabe a observação nesse caso se executar essa consulta aqui dentro do versículo vocês vão perceber que
+
+26
+00:02:29,670 --> 00:02:35,140
+ele vai trazer apenas uma única coluna para aquele problema aquela aquela restrição que nós temos.
+
+27
+00:02:35,150 --> 00:02:36,790
+Marcelo está aqui.
+
+28
+00:02:36,810 --> 00:02:43,230
+Você vai perceber que ele vai trazer as duas colunas tanto Bradesco Campinas Vale e Niterói.
+
+29
+00:02:43,320 --> 00:02:50,640
+Se eu colocar aqui um nome por exemplo colocar um apelido então aqui vai ser uma empresa aqui vai ser
+
+30
+00:02:50,640 --> 00:02:52,820
+na cidade.
+
+31
+00:02:52,830 --> 00:02:58,270
+Aí ele vai de fato conseguir trazer aqui também estão digite executando.
+
+32
+00:02:58,350 --> 00:03:05,820
+Ele vai trazer a empresa Bradesco Rali Cidade CAMPINAS E olhe que eu posso usar por exemplo mas se eu
+
+33
+00:03:05,820 --> 00:03:13,620
+quiser ele vai também funcionar como Chipre e se eu quiser colocar também entre aspas aqui sem problema
+
+34
+00:03:13,620 --> 00:03:16,850
+ou posso colocar até Tibet para amanhã.
+
+35
+00:03:17,290 --> 00:03:25,440
+Tudo aqui como chifre e voltando ele vai trazer a empresa cidade no caso ele trouxe as duas colunas
+
+36
+00:03:25,440 --> 00:03:30,890
+porque eu fiz um e eu trouxe aquilo que de fato está relacionado entre as duas tabelas.
+
+37
+00:03:30,900 --> 00:03:36,540
+Então o pessoal ficou por aqui nas salas vimos como relacionado duas tabelas agora para mim e espero
+
+38
+00:03:36,540 --> 00:03:38,700
+na próxima aula um grande abraço e até lá.

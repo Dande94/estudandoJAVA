@@ -1,0 +1,439 @@
+1
+00:00:00,470 --> 00:00:03,270
+Nessa aula vão achar para vocês a segunda forma.
+
+2
+00:00:03,280 --> 00:00:11,430
+Se passar parâmetros pela web é mais uma coisa que eu queria falar antes pra vocês é o seguinte a forma
+
+3
+00:00:11,430 --> 00:00:17,350
+como eu passei parâmetros na aula passada eu coloquei aqui.
+
+4
+00:00:17,400 --> 00:00:26,940
+A gente viu né HTTP 2 com os Barbara local os 80 80 Barra clientes e eu coloquei aqui Barra por exemplo
+
+5
+00:00:27,670 --> 00:00:35,710
+1 2 3 e ele trouxe o cliente nessa coloca aqui e mostra formatado bonitinho né.
+
+6
+00:00:35,790 --> 00:00:42,220
+Vou colocar aqui um 2 3 e colocar 1 2 3 4 5 6 ele vai lá e converte esse valor para um valor inteiro.
+
+7
+00:00:42,450 --> 00:00:48,490
+Ou seja essa é uma forma digamos assim suportada pela maioria dos frameworks que desenvolvem Web Services
+
+8
+00:00:48,540 --> 00:00:55,860
+mas essa não é a forma padrão de se passar parâmetro a partir de uma requisição do tipo garante o protocolo
+
+9
+00:00:55,860 --> 00:00:56,760
+HTTP.
+
+10
+00:00:56,880 --> 00:01:04,440
+Ele define que os parâmetros ele são passados por exemplo colocando um símbolo de interrogação e a partir
+
+11
+00:01:04,440 --> 00:01:13,950
+daí você paga a aposta nos parâmetros por exemplo a Edi igual a 1 2 3 4 5 6 e comercial no homem o segundo
+
+12
+00:01:13,950 --> 00:01:25,900
+parâmetro é igual a x e comercial um terceiro parâmetro você pode colocá la boa igual ao BC.
+
+13
+00:01:25,920 --> 00:01:29,500
+Você pode passar uma série de parâmetros na aquisição.
+
+14
+00:01:29,570 --> 00:01:35,390
+O caso do Gate os parâmetros vão diretamente ao RL e no caso de aquisição do tipo touch.
+
+15
+00:01:35,400 --> 00:01:39,080
+Os parâmetros vão internamente dentro do corpo da requisição.
+
+16
+00:01:39,720 --> 00:01:43,860
+Então chamam achar pra vocês um exemplo para alguma gente eu devo ter falado sobre isso no capítulo
+
+17
+00:01:44,220 --> 00:01:50,220
+de conceito sobre web e provavelmente eu dei esse mesmo exemplo do que é um exemplo muito fácil e todo
+
+18
+00:01:50,220 --> 00:01:52,760
+mundo tem acesso que é o Google.
+
+19
+00:01:52,980 --> 00:02:01,230
+Google conta com o site que ele mostra para a gente as pesquisas dentro do Google.com existe um serviço
+
+20
+00:02:01,650 --> 00:02:08,400
+chamado sort que é o serviço de pesquisa se eu colocar a barra sort ele vai voltar aqui para a mesma
+
+21
+00:02:08,400 --> 00:02:11,150
+página inclusive até mudou aqui o endereço certo.
+
+22
+00:02:11,240 --> 00:02:17,550
+Então você coloca o Santos então a interrogação e agora quero passar parâmetros que vão me ajudar a
+
+23
+00:02:17,550 --> 00:02:20,850
+especificar que tipo de pesquisa eu quero fazer.
+
+24
+00:02:20,970 --> 00:02:26,640
+Um dos parâmetros que há disponível é o parâmetro que eu sei disso porque eu já testei outras vezes
+
+25
+00:02:26,640 --> 00:02:28,320
+já vi como é que ele gera o RL.
+
+26
+00:02:28,660 --> 00:02:32,940
+Eu estou só passando pra vocês aqueles detalhes mas o fato é que eu conheço alguns desses parâmetros
+
+27
+00:02:32,940 --> 00:02:34,490
+usados no serviço.
+
+28
+00:02:34,920 --> 00:02:41,850
+Então uma vez que eu coloquei na Barra o ponto Google.com Barra Santos aqui está usando a porta 80 que
+
+29
+00:02:41,850 --> 00:02:46,900
+é a porta padrão por isso que eu não coloquei nenhuma porta que não RL e o que quer dizer com ela.
+
+30
+00:02:46,920 --> 00:02:47,920
+Ou seja o consumo.
+
+31
+00:02:47,920 --> 00:02:51,420
+Qual é o termo de consulta que eu vou querer pesquisar.
+
+32
+00:02:51,570 --> 00:02:56,680
+Aí eu posso colocar que eu não quis mais um.
+
+33
+00:02:56,700 --> 00:03:01,950
+Por exemplo então ele vai pegar esses dois termos e vai pesquisar no Google de tal forma que você vai
+
+34
+00:03:01,950 --> 00:03:09,270
+ver que ao Linux Ubuntu e eu vou continuar aqui na AIEA o bastante dois pontos ok igual Linux mais um
+
+35
+00:03:09,280 --> 00:03:09,990
+tudo.
+
+36
+00:03:10,070 --> 00:03:15,680
+Se você olhar o tipo de resposta que veio bem a resposta em português não sei todas.
+
+37
+00:03:15,690 --> 00:03:18,210
+Imagem Vídeo Notice e tal.
+
+38
+00:03:18,240 --> 00:03:24,200
+E aí eu posso usar um outro tipo de parâmetro pra eu personalizar ainda mais a minha requisição.
+
+39
+00:03:24,300 --> 00:03:31,830
+Ele trazia a resposta em inglês se eu colocar o IP comercial e eu colocar um HD ali suponho eu que seja
+
+40
+00:03:31,830 --> 00:03:36,740
+de rosto Language ou seja a linguagem na máquina cliente certo.
+
+41
+00:03:36,780 --> 00:03:44,190
+Aqui eu coloco por exemplo em inglês isso é um então você vai ver que a resposta agora que foi gerada
+
+42
+00:03:44,520 --> 00:03:49,540
+vai ser em inglês ou Paulo Mendes vídeo meus shopping etc.
+
+43
+00:03:49,540 --> 00:03:57,040
+Então essa é a forma padrão dentro especificada no protocolo HTTP que você passa parâmetros para alguma
+
+44
+00:03:57,060 --> 00:04:03,300
+requisição que você possa parâmetros para o servidor para com determinada requisição tenham a resposta
+
+45
+00:04:03,300 --> 00:04:04,810
+personalizada.
+
+46
+00:04:04,810 --> 00:04:11,340
+Então aqui no caso que a gente usou no passado colocando Barra alguma coisa isso aqui é a forma que
+
+47
+00:04:11,340 --> 00:04:14,460
+também é suportada pela maioria dos frame ou mais.
+
+48
+00:04:14,610 --> 00:04:19,920
+Se você tiver uma forma padrão olhando do ponto de vista do protocolo você passar o que eles chamam
+
+49
+00:04:19,920 --> 00:04:27,840
+de Kelly isto seria o que você personaliza parâmetros para que a resposta daquela requisição venha com
+
+50
+00:04:27,840 --> 00:04:35,420
+algum tipo de personalização a partir do resultado não apenas da RL mas da lei e dos parâmetros.
+
+51
+00:04:35,430 --> 00:04:41,070
+Uma das vantagens de você colocar por exemplo a requisição de alguns parâmetros é que você consegue
+
+52
+00:04:41,490 --> 00:04:48,600
+salvar isso nos favoritos por exemplo bookmarks e passar um link com não apenas Haile mas também os
+
+53
+00:04:48,600 --> 00:04:53,160
+parâmetros para obter exatamente o mesmo resultado de quem conseguiu chegar aqui.
+
+54
+00:04:53,280 --> 00:04:54,750
+Então é interessante.
+
+55
+00:04:54,750 --> 00:05:01,110
+Uma das formas interessantes que você tem é o fato de colocar diretamente direto eles parâmetros.
+
+56
+00:05:01,120 --> 00:05:02,900
+Um dos efeitos colaterais.
+
+57
+00:05:03,400 --> 00:05:06,510
+Imagine que você tivesse fazendo um serviço de login.
+
+58
+00:05:06,520 --> 00:05:14,770
+Não é o caso aqui não vai funcionar só RL mas você colocasse aqui por exemplo e usa igual a si lá aluno
+
+59
+00:05:15,320 --> 00:05:25,810
+e Comercial tivesse WD por exemplo de 100 fossem 1 2 3 4 5 6 iria aparecer na web e ele sendo usuário
+
+60
+00:05:26,160 --> 00:05:30,760
+e não o asterisco asterisco não serve nem aparecer assim ia aparecer.
+
+61
+00:05:30,770 --> 00:05:37,780
+Assim mesmo que isso é ruim porque eventualmente se a sua sem aparecer nem o RL isso aparecer no histórico
+
+62
+00:05:37,780 --> 00:05:40,600
+pode ser que isso seja uma vulnerabilidade.
+
+63
+00:05:40,690 --> 00:05:47,120
+O fato de você mandar sem nenhuma dar os parâmetros dentro do corpo da requisição é interessante certo
+
+64
+00:05:47,260 --> 00:05:53,740
+que ele fique dentro da requisição não você não tem como vê esses parâmetros não é ele mas isso não
+
+65
+00:05:53,740 --> 00:05:58,050
+é o suficiente para você ter uma requisição segura para uma requisição segura.
+
+66
+00:05:58,060 --> 00:06:06,990
+Você precisa usar o protocolo HTTP S ou seja o HTTP seguro é bom e assim no final é seguro então nesse
+
+67
+00:06:07,000 --> 00:06:10,600
+caso a gente vai voltar aqui para fazer os nossos testes.
+
+68
+00:06:10,600 --> 00:06:17,610
+Só que agora em vez de criar passar diretamente no PF nós vamos passar um parâmetro na Kelly.
+
+69
+00:06:17,980 --> 00:06:27,780
+Então vou criar de novo um método públicos Klein onde eu vou colocar aqui ao obter um cliente por aí.
+
+70
+00:06:27,790 --> 00:06:32,230
+2 Vou definir aqui o meu inteiro.
+
+71
+00:06:32,480 --> 00:06:43,860
+Aí vou retornar aqui Brittany e eu cliente só como parâmetro.
+
+72
+00:06:43,870 --> 00:06:53,680
+Aqui eu vou ter um outro cliente que vai se lá o João Augusto um eu vou colocar aqui o CPF pra
+
+73
+00:06:56,860 --> 00:07:08,870
+2 2 3 3 3 4 4 onde vivo então o próximo passo vai ser mapear esse método com o GATE map e esse caso
+
+74
+00:07:08,870 --> 00:07:17,090
+eu não vou colocar o Barra aí porque eu não vou precisar ter ele na verdade ou ele que eu vou usar chegando
+
+75
+00:07:17,800 --> 00:07:19,320
+aqui só pra mostrar a diferença.
+
+76
+00:07:19,780 --> 00:07:26,040
+Então eu vou ao maximizar aqui o Brasil pra ficar mais fácil de ver o conteúdo da.
+
+77
+00:07:26,410 --> 00:07:35,590
+Então aqui eu vou colocar a lei e ela vai ser clientes diretamente não RL e o outro faz o seguinte Ao
+
+78
+00:07:35,590 --> 00:07:43,250
+L vai ser apenas clientes e eu vou colocar interrogação eu vou passar aí de igual a 1 2 3 vai ser essa
+
+79
+00:07:43,240 --> 00:07:49,340
+a linha que eu queria chamar então note que ela vai ser apenas para clientes e não clientes.
+
+80
+00:07:49,390 --> 00:07:56,940
+Aí então fechando aqui e fechando aqui aqui no meu Map eu vou colocar HTML.
+
+81
+00:07:57,070 --> 00:08:02,740
+Eu não vou colocar nenhum blefe não vou precisar colocar nada e a única coisa que eu preciso fazer é
+
+82
+00:08:02,740 --> 00:08:10,160
+dizer que agora esse aí vai ser um parâmetro da minha requisição enquanto eu tinha aqui o blefe o verbo
+
+83
+00:08:10,170 --> 00:08:14,610
+que seria uma variável do PF agora botei e creche.
+
+84
+00:08:14,880 --> 00:08:23,410
+Então até aqui o encaixe para então daqui heróica com essa parada eu posso passar algumas informações
+
+85
+00:08:23,410 --> 00:08:30,900
+com relação a como vai ser o meu quarto para vou até quebrar aqui em 12 linhas para ficar mais fácil
+
+86
+00:08:31,330 --> 00:08:38,650
+todo mundo vê então aqui dá um curto espaço o primeiro que eu vou colocar vai ser o o nome e o nome
+
+87
+00:08:38,830 --> 00:08:45,520
+do parâmetro que ele espera receber vai ser dito ou seja se chegar um parâmetro onde ele vai colocar
+
+88
+00:08:45,610 --> 00:08:47,510
+esse valor aqui dentro.
+
+89
+00:08:47,570 --> 00:08:52,120
+Isso aí a gente vai conseguir gerar o cliente a partir do site testando.
+
+90
+00:08:52,510 --> 00:08:59,920
+Vou voltar aqui eu vou colocar uma interrogação aí de igual a 1 2 3.
+
+91
+00:08:59,980 --> 00:09:08,650
+Agora nós temos o João Augusto com o CPF 1 2 2 3 3 3 4 4 e o site dele vai ser 1 2 3 conforme eu passei
+
+92
+00:09:09,010 --> 00:09:15,570
+aqui ao 12 mil 321 também ele vai gerar os 12 mil 321.
+
+93
+00:09:16,000 --> 00:09:22,780
+Você pode definir alguns outros atributos aqui ao Virgula colocar se ele é um parâmetro requerido ou
+
+94
+00:09:22,780 --> 00:09:23,250
+não.
+
+95
+00:09:23,260 --> 00:09:29,980
+Ou então se ele tem um valor padrão que vale ou padrão seja se o usuário não passa nada ele vai pagar
+
+96
+00:09:30,040 --> 00:09:36,790
+o valor eu vou colocar o valor entre aspas duplas já que o padrão vai ser um estranho já que tudo que
+
+97
+00:09:36,790 --> 00:09:39,540
+está dentro de um a lei é um estranho certo.
+
+98
+00:09:39,910 --> 00:09:47,260
+Então aqui colocando o valor do jeito que estava ele vai assumir o valor passado caso eu não passe nenhum
+
+99
+00:09:47,260 --> 00:09:48,200
+parâmetro.
+
+100
+00:09:48,340 --> 00:09:53,410
+Ele ainda assim vai cair nesse método e o valor retornado vai ser um pouco esse pouco que eu coloquei
+
+101
+00:09:53,440 --> 00:09:54,160
+como padrão.
+
+102
+00:09:54,250 --> 00:09:59,040
+Então pessoal aí essa é a segunda forma que você tem para passar parâmetros pra dentro de um lado segue
+
+103
+00:09:59,040 --> 00:10:07,480
+se vão mostrar outros detalhes com relação a como é que eu faço pra colocar no parâmetro do meu observe
+
+104
+00:10:07,480 --> 00:10:12,990
+se um objeto por exemplo do cliente ou um objeto tira o produto.
+
+105
+00:10:13,000 --> 00:10:19,600
+é possível fazer isso e você vai ver que o experimento vai também nos ajudar e vai colocar certos valores
+
+106
+00:10:19,600 --> 00:10:20,890
+internos dentro do objeto.
+
+107
+00:10:20,890 --> 00:10:26,380
+Vou deixar isso para mais para frente na próxima aula vou propor um desafio pra vocês agora que a gente
+
+108
+00:10:26,380 --> 00:10:28,490
+já falou um pouco mais sobre o alicerce.
+
+109
+00:10:28,780 --> 00:10:34,980
+Nós mostramos alguns detalhes como receber parâmetros dentro de um método que está mapeado para o RL.
+
+110
+00:10:35,230 --> 00:10:38,770
+Agora na próxima aula vou propor pra vocês um desafio e até lá.

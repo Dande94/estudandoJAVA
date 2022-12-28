@@ -1,0 +1,347 @@
+1
+00:00:00,460 --> 00:00:02,670
+Peço agora para a gente gerar o cálculo.
+
+2
+00:00:02,660 --> 00:00:07,440
+Teste 3 Você pode também se quiser dar um contra ou ser contra o V.
+
+3
+00:00:07,520 --> 00:00:13,430
+Ele vai perguntar qual o nome da classe que você quer criar exatamente ele conseguia inferir que eu
+
+4
+00:00:13,430 --> 00:00:18,330
+estava na rua calcula o trecho 2 e o próximo seria o 3 já sugeriu que um nome diferente.
+
+5
+00:00:18,340 --> 00:00:21,290
+Ok ele vai criar uma nova classe.
+
+6
+00:00:21,630 --> 00:00:26,850
+Eu sei agora vou fazer o seguinte vou usar uma das interfaces funcionais definidas pelo Jabour é uma
+
+7
+00:00:26,920 --> 00:00:33,280
+dessas interfaces aqui que a gente pode usar e essa interface chamada painel operado.
+
+8
+00:00:33,310 --> 00:00:40,160
+Se a gente dê uma olhada aqui na descrição vai ver o seguinte representa uma operação que recebe dois
+
+9
+00:00:40,250 --> 00:00:46,550
+operandos ou seja dois parâmetros de entradas do mesmo tipo e produz um resultado que tem o mesmo o
+
+10
+00:00:46,580 --> 00:00:53,420
+mesmo tipo dos operandos assim como a gente tem uma soma uma multiplicação são operações binárias de
+
+11
+00:00:53,420 --> 00:01:00,350
+dois operandos para um operador certo um painel operei oito traz a ilusão que você vai ter dois parâmetros
+
+12
+00:01:00,350 --> 00:01:06,800
+de entrada do mesmo tipo e vai retornar um valor do mesmo tipo exatamente o que nós estamos fazendo
+
+13
+00:01:06,800 --> 00:01:12,710
+aqui no nosso exemplo certo eu tenho dois parâmetros do mesmo tipo que a gente usou no cálculo que é
+
+14
+00:01:12,710 --> 00:01:18,990
+o W da B e agora nós vamos retornar também o valor do mesmo tipo que é o tipo W.
+
+15
+00:01:19,010 --> 00:01:24,140
+A primeira coisa que eu vou fazer vai ser substituir uma interface que nós definimos por uma interface
+
+16
+00:01:24,500 --> 00:01:28,850
+que já está presente no Java lá naquele pacote Java.
+
+17
+00:01:28,890 --> 00:01:38,970
+O ponto fraco então é pra gente usar aqui ao colocar ali ao pé direito e aqui dentro de Java.
+
+18
+00:01:38,970 --> 00:01:41,680
+Ponto último ponto.
+
+19
+00:01:41,780 --> 00:01:48,750
+Assim como a gente na lista define um tipo genérico para especificar qual é o tipo de dado que vai de
+
+20
+00:01:48,820 --> 00:01:54,200
+uma lista aqui eu preciso especificar qual tipo de parâmetro o que eu quero usar.
+
+21
+00:01:54,650 --> 00:01:57,920
+Eu posso colocar o tipo da ABL como posso colocar o tipo.
+
+22
+00:01:57,930 --> 00:02:02,600
+Muita gente está trabalhando aqui com valores inteiros mas para deixar mais genérico eu vou colocar
+
+23
+00:02:02,600 --> 00:02:09,440
+W é até legal que mostre pra vocês uma as mudanças vai precisar fazer uma vez que eu coloco da HBO aqui
+
+24
+00:02:09,590 --> 00:02:12,410
+de cara uma vez que substituiu o tipo.
+
+25
+00:02:12,440 --> 00:02:18,120
+Agora gente não tem mais a interface cálculo a gente tem interface painel e direito.
+
+26
+00:02:18,140 --> 00:02:25,070
+A gente já não vai ter mais a função Executar executar foi nós que criamos dentro dessa interface aqui
+
+27
+00:02:25,130 --> 00:02:31,210
+em vez de ter funções executadas vamos ter a função Play certo e a Claire passa dois parâmetros.
+
+28
+00:02:31,220 --> 00:02:38,360
+No caso de dois e três e eu vou passar também a Claire aqui e vou tirar o legal é muito legal porque
+
+29
+00:02:38,360 --> 00:02:41,340
+a gente não vai mais precisar disso nesse exemplo.
+
+30
+00:02:41,780 --> 00:02:45,920
+Então por que é que está acontecendo esse problema está acontecendo esse problema pelo seguinte a seguinte
+
+31
+00:02:45,920 --> 00:02:53,270
+situação como você define o literal inteiro ou seja qualquer número literal que não tem ponto alguma
+
+32
+00:02:53,270 --> 00:03:01,220
+coisa né não tem casas decimais ou ponto flutuante ele é do tipo Inti é o Java não permite esse tipo
+
+33
+00:03:01,220 --> 00:03:09,100
+de conversão direta você não consegue converter o valor inteiro primitivo pra um valor da ABL do tipo
+
+34
+00:03:09,110 --> 00:03:16,790
+clássico tá certo você consegue sim converter um dado primitivo automaticamente pra um dado do tipo
+
+35
+00:03:16,790 --> 00:03:19,440
+classe mas não consegue isso aqui.
+
+36
+00:03:19,700 --> 00:03:24,950
+Então nesse caso colocar não só pra deixar claro que o Java não permite esse tipo de conversão direta
+
+37
+00:03:24,950 --> 00:03:35,450
+quero que eu prove que eu baixa colocar da About A recebe o valor é um literal inteiro e ele não permite
+
+38
+00:03:35,450 --> 00:03:42,230
+pagar 1 colocar diretamente nem da variável atual se eu colocar um ponto zero aí sim sem problema nenhum
+
+39
+00:03:42,470 --> 00:03:48,330
+porque eu estou fazendo algo que no segundo caso não é um dado primitivo pra um dado do tipo classe.
+
+40
+00:03:48,740 --> 00:03:56,750
+Então por conta disso é preciso fazer mais uma mudança é colocar aqui 2 pontos 0 3 4 0 se eu quiser
+
+41
+00:03:56,750 --> 00:04:05,780
+continuar sendo inteiro e 2 0 3 pontos 0 já que nesse contexto aqui na definição do tipo dos genéricos
+
+42
+00:04:05,780 --> 00:04:11,750
+eu não posso usar o tipo primitivo da água desse jeito certo o Java também não permite a restrição da
+
+43
+00:04:11,750 --> 00:04:19,440
+linguagem pra tipos genéricos só porque só é suportado classes e W é a versão de classe em Java e orientado
+
+44
+00:04:19,520 --> 00:04:22,970
+a objeto do tipo primitivo W minúsculo.
+
+45
+00:04:23,360 --> 00:04:27,720
+Então nesse caso tem o mesmo comportamento ou eu não em teoria.
+
+46
+00:04:27,810 --> 00:04:32,660
+Em outras palavras que eu não quero dizer nesse exercicio você não precisaria pra fazer exatamente a
+
+47
+00:04:32,660 --> 00:04:36,880
+mesma coisa definir uma interface cálculo porque.
+
+48
+00:04:37,180 --> 00:04:44,600
+Porque Java já definiu a interface que é exatamente nesse cenário que é o painel operado que é uma operação
+
+49
+00:04:44,600 --> 00:04:52,070
+que recebe dois parâmetros de entrada do mesmo tipo e retornam um outro parâmetro do mesmo tipo.
+
+50
+00:04:52,180 --> 00:04:57,980
+Se eu quisesse ter mais flexibilidade se eu quisesse usar um outro método que recebe parâmetros diferentes
+
+51
+00:04:57,980 --> 00:05:05,300
+e retorna um valor diferente até isso já existe um interface funcional que já trata esse caso existe
+
+52
+00:05:05,600 --> 00:05:06,900
+e a gente vai ver mais na frente.
+
+53
+00:05:06,900 --> 00:05:09,930
+Por enquanto como o nosso caso todos os tipos eram iguais.
+
+54
+00:05:09,930 --> 00:05:13,130
+O primeiro parâmetro é o segundo parâmetro eram iguais.
+
+55
+00:05:13,130 --> 00:05:18,070
+é o tipo de retorno era exatamente iguais ao tipo do parâmetro que eu recebi.
+
+56
+00:05:18,490 --> 00:05:23,920
+Então esse tipo de interface bem operei todos davam muito certo.
+
+57
+00:05:23,970 --> 00:05:29,610
+A gente pode ter do tipo da aba ou eu poderia ter colocado também muita gente sem problema nenhum.
+
+58
+00:05:29,610 --> 00:05:34,250
+Certo definha que um cálculo 2 ou posso duplicar para baixo.
+
+59
+00:05:34,270 --> 00:05:37,040
+E aqui eu tenho um filho.
+
+60
+00:05:37,360 --> 00:05:39,050
+Muita gente.
+
+61
+00:05:39,240 --> 00:05:47,550
+2 Colocar aqueles 2 2 e nesse caso irá passar valores inteiros certo ou seja o que vai definir o que
+
+62
+00:05:47,550 --> 00:05:53,310
+será retornado e o que será recebido exatamente essa a notação dos genéricos aqui que você define o
+
+63
+00:05:53,310 --> 00:05:58,290
+tipo que será aplicado tanto para os parâmetros de entrada como para o tipo de retorno.
+
+64
+00:05:58,300 --> 00:06:02,680
+Aí eu posso receber duas listas e retornar à outra lista.
+
+65
+00:06:02,670 --> 00:06:06,560
+Eu posso receber duas estreantes e concatenar as strings e retornar.
+
+66
+00:06:06,870 --> 00:06:13,630
+Eu posso receber sei lá dois valores Bully fazer alguma operação e retornar.
+
+67
+00:06:13,650 --> 00:06:17,850
+Você tem várias possibilidades para trabalhar com esse tipo de interface.
+
+68
+00:06:17,850 --> 00:06:23,950
+Existem outras possibilidades mais flexíveis como eu falei que o parâmetro do tipo o segundo para mostrar
+
+69
+00:06:24,030 --> 00:06:29,700
+de outro o retorno de outro ou seja você pode ter uma interface que faz exatamente essa questão em fazer
+
+70
+00:06:29,760 --> 00:06:36,680
+um exemplo mais na frente sobre isso que é exatamente essa que ao Bayern representa a função que aceito
+
+71
+00:06:36,690 --> 00:06:42,860
+dois argumentos e produz um resultado ou seja recebe dois argumentos de entrada e retorna alguma coisa
+
+72
+00:06:42,870 --> 00:06:49,940
+só que nesse caso essa interface tem três títulos diferentes ou seja você pode passar o índio retornam
+
+73
+00:06:49,960 --> 00:06:50,810
+à lista.
+
+74
+00:06:50,850 --> 00:06:52,340
+O jeito que você quiser tá bom.
+
+75
+00:06:52,560 --> 00:06:57,900
+Depois a gente faz exemplo usando isso por enquanto meu objetivo nessa aula era mostrar para você que
+
+76
+00:06:57,900 --> 00:07:03,900
+a gente poderia usar uma interface funcional que já foi definida pelo Java sem necessariamente ter criado
+
+77
+00:07:03,990 --> 00:07:07,150
+a nossa máquina e a nossa interface funcional calculo.
+
+78
+00:07:07,270 --> 00:07:12,270
+Mas foi legal começar com ela pouca gente viu o processo inteiro a gente criou uma interface funcional.
+
+79
+00:07:12,360 --> 00:07:15,390
+Depois usamos criamos as nossas expressões lambda.
+
+80
+00:07:15,780 --> 00:07:21,170
+E aí eu mostrei pra vocês um pouquinho da notação que serve para a qualidade e também expliquei a restrição
+
+81
+00:07:21,180 --> 00:07:27,160
+que é exatamente o fato de você obrigatoriamente só ter uma única função.
+
+82
+00:07:27,150 --> 00:07:33,210
+O único método abstrato da interface você pode até ter outros métodos de fogo estático.
+
+83
+00:07:33,210 --> 00:07:36,550
+Isso acontece também as interfaces funcionais do Java.
+
+84
+00:07:36,560 --> 00:07:42,830
+Você tem outros métodos além do método abstrato mas todas essas interfaces só têm apenas um único método
+
+85
+00:07:42,850 --> 00:07:43,490
+abstrato.
+
+86
+00:07:43,740 --> 00:07:48,510
+Então fico por aqui na próxima aula a gente continua falando mais sobre esse tema muito interessante
+
+87
+00:07:48,510 --> 00:07:50,510
+que as lambidas e até aproximá lo.

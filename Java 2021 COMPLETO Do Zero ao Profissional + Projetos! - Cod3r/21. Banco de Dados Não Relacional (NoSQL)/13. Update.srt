@@ -1,0 +1,227 @@
+1
+00:00:00,600 --> 00:00:07,290
+Nós vamos agora fazer algo nos dentes em cima dos nossos dados então para isso fato o seguinte dê bem
+
+2
+00:00:07,570 --> 00:00:10,070
+ponto s t.
+
+3
+00:00:10,210 --> 00:00:14,410
+E você ganhará um tablet por exemplo ele vai completar porque há muita coisa que estava disponível nos
+
+4
+00:00:14,410 --> 00:00:20,720
+Estados e aqui por exemplo fazer um faz tudo para irem executar.
+
+5
+00:00:20,880 --> 00:00:26,910
+Você vai ver exatamente os nossos estados São Paulo no caso de Janeiro Alagoas e Acre.
+
+6
+00:00:27,240 --> 00:00:33,930
+Voltando aqui vou fazer um update então coloca no BB conquistados ponto updates aqui eu vou passar primeiro
+
+7
+00:00:34,050 --> 00:00:38,760
+um qual é o filtro que eu quero usar para fazer o meu update então quero fazer um update de cima do
+
+8
+00:00:38,760 --> 00:00:46,440
+Estado de São Paulo virgula e vou colocar agora o objeto que eu quero passar citando o caso os valores
+
+9
+00:00:46,950 --> 00:00:49,140
+usando esse operador o.
+
+10
+00:00:49,180 --> 00:00:57,770
+Então vou usar 7 2 pontos e passa a população 2 pontos e vou passar a população de São Paulo é 45 milhões.
+
+11
+00:00:57,780 --> 00:01:01,700
+340 mil habitantes estão colocando aqui.
+
+12
+00:01:01,710 --> 00:01:07,260
+Ele deu um resultado no valor da Net em cima do filtro que nós usamos que o Estado de São Paulo e o
+
+13
+00:01:07,260 --> 00:01:15,390
+valor foi modificado e agora de novo você vai ver que o Estado de São Paulo além de ter nome sigla região
+
+14
+00:01:15,390 --> 00:01:21,570
+e cidades e também agora vai ter o atributo população que nós usamos para atualizar esse modelo como
+
+15
+00:01:21,580 --> 00:01:25,760
+no passado updates tão poucos estados pondo updates.
+
+16
+00:01:25,830 --> 00:01:32,700
+Vou colocar aqui sigla dois pontos Alagoas e aí até mim posso fazer um 7 em cima por exemplo de 1 a
+
+17
+00:01:32,700 --> 00:01:39,100
+Rei e cidades cidade coloca naquelas cidades dois pontos lá Rei eu vou colocar o nome da cidade vai
+
+18
+00:01:39,270 --> 00:01:45,450
+Sergipe e simplesmente coloquei o nome deixei a cidade aqui depois que eu cheguei a Rei fechei o objeto
+
+19
+00:01:45,450 --> 00:01:48,080
+que representa essa opacidade.
+
+20
+00:01:48,140 --> 00:01:48,880
+REI.
+
+21
+00:01:48,990 --> 00:01:52,070
+Depois eu fechei esse outro objeto que representa o 7.
+
+22
+00:01:52,380 --> 00:01:55,450
+E finalmente eu fechei a função.
+
+23
+00:01:55,830 --> 00:02:02,060
+Nesse caso pessoal isso aqui vai funcionar porque no caso do Estado de Alagoas eu não tenho e nem a
+
+24
+00:02:02,070 --> 00:02:04,520
+cidade vou citar para a primeira vez.
+
+25
+00:02:04,710 --> 00:02:10,180
+A primeira cidade o estado de Alagoas então consigo fazer assim tranquilamente colocando aqui para fazer
+
+26
+00:02:10,200 --> 00:02:16,740
+o que mais se vai perceber que agora o estado de Alagoas tem cidades e o nome da cidade é Sergipe conforme
+
+27
+00:02:16,740 --> 00:02:23,070
+a gente colocou no caso de São Paulo e eu não posso fazer um site senão ele vai substituir as cidades
+
+28
+00:02:23,070 --> 00:02:24,260
+que já existem.
+
+29
+00:02:24,330 --> 00:02:31,320
+Nesse caso vou usar um operador chamado Bus então dB por oito estados um top 10 vou colocar que a sigla
+
+30
+00:02:31,320 --> 00:02:38,280
+São Paulo para filtrar e agora eu vou colocar os dois pontos o nome da cidade que eu quero colocar a
+
+31
+00:02:38,280 --> 00:02:49,540
+cidade Santos viu a população 433 1966 habitantes então finalizando a minha consulta então eu tenho
+
+32
+00:02:49,740 --> 00:02:56,250
+bebê ponto estados top 10 o primeiro parâmetro vai ser o filtro que eu quero aplicar pra fazer updates
+
+33
+00:02:56,650 --> 00:03:03,390
+e o segundo parâmetro nesse caso em vez de usar um Mercedes eu fiz um empuxo em cima do atributo cidades
+
+34
+00:03:03,390 --> 00:03:11,130
+adicionando esse objeto que ao nome Santos e população 433 1966 habitantes.
+
+35
+00:03:11,130 --> 00:03:18,370
+Esse objeto vai ser adicionado dentro do a cidade ou seja usando o operador pois colocando o item aqui
+
+36
+00:03:18,810 --> 00:03:20,210
+ele disse que encontrou.
+
+37
+00:03:20,210 --> 00:03:28,080
+Ele deu mexe no registro e modificou o registro a partir desse mês e transitando aqui o fingido você
+
+38
+00:03:28,090 --> 00:03:36,630
+vai ver que nós temos mais um cidade que foi adicionada para o Harry já pré existente na cidade de São
+
+39
+00:03:36,630 --> 00:03:37,180
+Paulo.
+
+40
+00:03:37,350 --> 00:03:43,500
+E pra finalizar fazem uma consulta que é DB conquistados ponto final e vou querer que ele traga apenas
+
+41
+00:03:43,500 --> 00:03:46,250
+os estados que têm o atributo população.
+
+42
+00:03:46,260 --> 00:03:53,190
+Já viu isso que tem um operador chamado Eclesiastes então coloco aqui presente população dois pontos
+
+43
+00:03:53,190 --> 00:03:59,580
+um objeto e eu vou colocar existisse dois pontos tu nesse caso ele vai trazer apenas os estados que
+
+44
+00:03:59,580 --> 00:04:01,610
+tem um atributo população.
+
+45
+00:04:01,730 --> 00:04:06,900
+Aqui eu fiz o filtro no fim de agora eu vou fazer o meu projeto e dizer quais são os atributos que eu
+
+46
+00:04:06,900 --> 00:04:11,970
+quero que venham a partir essa consulta no Paraguai digo mais traga apenas o nome então vou colocar
+
+47
+00:04:11,970 --> 00:04:19,110
+a Bíblia nome e finalizar na consulta então ele trouxe o estado de Alagoas e o Estado de São Paulo Estado
+
+48
+00:04:19,110 --> 00:04:25,320
+de São Paulo nós adicionamos a população nessa aula e o estado de Alagoas desde a primeira inserção
+
+49
+00:04:25,320 --> 00:04:31,590
+já tinham atribuído à população disponível então na sala pessoal fizemos alguns tipos de updates diferentes
+
+50
+00:04:31,890 --> 00:04:37,560
+mas vimos que a primeira parte do parâmetro do método deixa pra você filtrar que é muito importante
+
+51
+00:04:37,560 --> 00:04:45,150
+se você não quer digamos assim se você quer atualizar tudo e então coloca equipas de B e estados.
+
+52
+00:04:45,150 --> 00:04:46,660
+Ponto D.
+
+53
+00:04:47,120 --> 00:04:54,480
+E aí se você passar o primeiro 1ª parte como sendo objeto vazio significa que você tá filtrando pagando
+
+54
+00:04:54,480 --> 00:05:02,110
+todos os registros digamos assim todos os documentos ou melhor dizendo Então a primeira parte é o filtro
+
+55
+00:05:02,110 --> 00:05:08,400
+e depois você pode passar quais são os atributos que você quer atualizar nós usamos dois operadores.
+
+56
+00:05:08,410 --> 00:05:14,830
+Usamos o Opera do site para aceitar um atributo e usamos o operador push para adicionar um objeto dentro
+
+57
+00:05:14,830 --> 00:05:18,610
+de um hábito na próxima a gente continua fazendo Murphy e até lá.

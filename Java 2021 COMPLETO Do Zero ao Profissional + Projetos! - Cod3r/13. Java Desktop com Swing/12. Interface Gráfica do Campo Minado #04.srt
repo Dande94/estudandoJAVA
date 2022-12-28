@@ -1,0 +1,699 @@
+1
+00:00:00,170 --> 00:00:06,640
+Nessa aula nós vamos mexer com a implementação da interface que apresenta os eventos que podem acontecer
+
+2
+00:00:06,640 --> 00:00:10,720
+no mouse um bem que eu estou realmente interessado no clique do mouse.
+
+3
+00:00:10,740 --> 00:00:15,870
+A gente vai precisar implementar outros métodos que estão presentes nessa interface uma das coisas que
+
+4
+00:00:15,870 --> 00:00:21,490
+você pode fazer é que a possibilidade se você quiser fazer isso é o seguinte onde pode criar uma interface
+
+5
+00:00:21,540 --> 00:00:26,680
+eu me achar primeiro que é que vai acontecer aqui pra contextualizar o que achou do problema então eu
+
+6
+00:00:26,740 --> 00:00:33,780
+implementem na verdade uma interface chamada Campo observador e quero implementar uma interface chamada
+
+7
+00:00:33,870 --> 00:00:38,330
+mouse e deixe o mouse Listening melhor dizendo que é Java.
+
+8
+00:00:38,330 --> 00:00:40,500
+Ponto a Ponto.
+
+9
+00:00:40,560 --> 00:00:44,320
+Aqui eu vou ter uma série de métodos que eu preciso implementar.
+
+10
+00:00:44,320 --> 00:00:54,360
+Então vou colocar aqui embaixo então colocar a interface dos eventos no Maps.
+
+11
+00:00:54,900 --> 00:01:01,380
+Então aqui vou pegar por exemplo o que eu vou realmente querer DESCE TODOS ESSES metros e esse mouse
+
+12
+00:01:01,380 --> 00:01:02,640
+parece indicar o primeiro.
+
+13
+00:01:02,730 --> 00:01:04,870
+Primeiro não é o primeiro que eu selecionei aqui né.
+
+14
+00:01:05,010 --> 00:01:07,610
+Os outros não vão querer não me interessa então.
+
+15
+00:01:07,710 --> 00:01:09,870
+Mouse clica não quero.
+
+16
+00:01:09,870 --> 00:01:16,530
+Então já vou tirar QUE VOU TIRAR ISSO AQUI DEIXAR UM METRO bem curtinho que eu vou deixar aqui um método
+
+17
+00:01:16,950 --> 00:01:19,700
+sem nenhuma implementação do plano apenas uma única linha.
+
+18
+00:01:19,710 --> 00:01:26,570
+O próximo que eu colocava em seu entorno também não me interessa a implementação desse método vou de
+
+19
+00:01:26,610 --> 00:01:30,660
+hoverboard ou qualquer outro eu posso deixar os metros lá sem paralelo.
+
+20
+00:01:30,660 --> 00:01:36,350
+Só que eu quero que eles Occupy menor quantidade de linhas possíveis não vou tirar isso.
+
+21
+00:01:36,520 --> 00:01:43,110
+Vou voltar para cá e no final das contas está faltando mais um metro que é um mouse Lisa.
+
+22
+00:01:43,250 --> 00:01:50,610
+Então posso fazer isso e eu tenho vários métodos que eu não vou usar.
+
+23
+00:01:50,610 --> 00:01:51,940
+Quero usar apenas esse aqui.
+
+24
+00:01:51,970 --> 00:01:54,930
+Uma outra possibilidade é fazer não está certo.
+
+25
+00:01:54,930 --> 00:02:02,740
+Você vai ver o que está fazendo aqui você veio do Ponto Verde botão foi igual igual ao iOS.
+
+26
+00:02:03,000 --> 00:02:12,180
+Significa que o usuário clicar com o botão direito então System ótico ali coloca o botão esquerdo Alt
+
+27
+00:02:12,390 --> 00:02:16,290
+que é o principal botão esquerdo.
+
+28
+00:02:16,290 --> 00:02:25,410
+Caso contrário Deus aciona ou outro botão ou o botão esquerdo para abrir o outro botão para alternar
+
+29
+00:02:25,410 --> 00:02:30,060
+a questão da marcação então outro botão
+
+30
+00:02:33,850 --> 00:02:34,880
+principal.
+
+31
+00:02:36,430 --> 00:02:38,770
+A gente tá faltando registrar o evento.
+
+32
+00:02:38,790 --> 00:02:42,310
+Eu só fiz implementar a interface mas ainda não registrei o evento.
+
+33
+00:02:42,310 --> 00:02:43,930
+Para registrar é simples.
+
+34
+00:02:44,390 --> 00:02:54,650
+Então coloco que adicionar mouse List n 10 ou seja a própria classe implementa o mouse lista complementar
+
+35
+00:02:54,700 --> 00:02:55,470
+sua interface.
+
+36
+00:02:55,470 --> 00:03:01,890
+Agora sim a partir desse ponto não significa que eu me registrei estou interessado e notificado cada
+
+37
+00:03:01,890 --> 00:03:09,060
+vez que um evento no mouse acontecer então clicando ao botão esquerdo e clicar com o botão direito ao
+
+38
+00:03:09,390 --> 00:03:14,670
+outro botão então ele vai perceber de acordo com aquilo que a gente clicou e vai ser modificado a partir
+
+39
+00:03:14,670 --> 00:03:15,430
+desse método.
+
+40
+00:03:15,430 --> 00:03:22,230
+Uma outra estratégia é o que iria implementar muito o evento do mouse não quero ter que implementar
+
+41
+00:03:22,230 --> 00:03:23,460
+todos esses métodos.
+
+42
+00:03:23,460 --> 00:03:30,480
+Você pode criar uma interface sua e tratar todos esses métodos aqui mouse clica entre o exit ou Elísio
+
+43
+00:03:30,480 --> 00:03:36,100
+como sendo default ou mesmo todos os métodos como sendo default e você só implementa aquilo que interessa.
+
+44
+00:03:36,110 --> 00:03:37,390
+é uma possibilidade.
+
+45
+00:03:37,800 --> 00:03:43,710
+Então eu poderia criar aqui uma interface e não fazer isso não mas eu poderia criar um interface e tornar
+
+46
+00:03:43,710 --> 00:03:49,140
+todos os métodos de fogo seja o Brasil por padrão ele só implementou o metro que eu quero.
+
+47
+00:03:49,260 --> 00:03:55,560
+Nesse caso eu vou precisar quando houve um clique no botão para detectar se for o botão eu seria dentro
+
+48
+00:03:55,560 --> 00:03:56,210
+do evento.
+
+49
+00:03:56,220 --> 00:03:59,580
+Tenho a informação de qual botão foi pressionado.
+
+50
+00:03:59,580 --> 00:04:07,020
+Se for significa que ele clicou no botão esquerdo para abrir o campo se for qualquer outro botão eu
+
+51
+00:04:07,020 --> 00:04:08,440
+vou considerar como sendo.
+
+52
+00:04:08,550 --> 00:04:14,240
+Para alternar a marcação então nessa classe eu já tenho o atributo do campo à minha disposição.
+
+53
+00:04:14,230 --> 00:04:15,410
+Se eu fizer campo.
+
+54
+00:04:15,580 --> 00:04:24,110
+Ponto abri na verdade o método abri não está público então preciso fazer isso teria entrado lá em campo.
+
+55
+00:04:24,750 --> 00:04:27,290
+O método abri procurar ele.
+
+56
+00:04:27,490 --> 00:04:32,780
+Se você selecionar contra o UOL Como você consegue ver os metros aqui eu vou selecionar um metro abri
+
+57
+00:04:33,480 --> 00:04:39,930
+aqui eu até colocar a obra como sendo público e de novo como joga contra ou dependendo do seu sistema
+
+58
+00:04:39,930 --> 00:04:46,440
+operacional você tem um método que é o alternar a marcação que também é o método que eu vou precisar
+
+59
+00:04:46,560 --> 00:04:48,420
+transformar para o público.
+
+60
+00:04:48,420 --> 00:04:56,460
+Voltando lá para o meu campo botão botar o campo que eu acho mal abri caso ele clique com o botão esquerdo
+
+61
+00:04:56,460 --> 00:05:00,690
+do mouse e no outro cenário eu vou chamá lo de campo.
+
+62
+00:05:00,700 --> 00:05:03,090
+Ponto alternar a marcação.
+
+63
+00:05:03,090 --> 00:05:09,150
+Aqui a gente já detectou e dentro do mouse detectando a mente do mouse a gente vai chamar um evento
+
+64
+00:05:09,150 --> 00:05:09,860
+no campo.
+
+65
+00:05:09,900 --> 00:05:16,170
+O campo vai gerar um evento que vai notificar de volta a minha interface certo então o fluxo é o mais
+
+66
+00:05:16,170 --> 00:05:18,370
+ou menos assim que você gerou um clique no mouse.
+
+67
+00:05:18,390 --> 00:05:24,640
+A classe botão campo executa os movimentos do mouse foi notificado quando notificou que houve um clique
+
+68
+00:05:24,660 --> 00:05:30,870
+você dispara a abertura de um campo abrindo o campo ele vai gerar uma série de testes lá para saber
+
+69
+00:05:30,870 --> 00:05:35,770
+que tipo de argumento que foi disparado no evento por exemplo de explosão foi gerado.
+
+70
+00:05:35,910 --> 00:05:40,510
+Ele vai cair novamente dentro dessa classe chamado método evento ocorreu.
+
+71
+00:05:40,560 --> 00:05:46,770
+Passado o nome do campo e passando bem esse campo aqui é exatamente o campo que eu já tenho e então
+
+72
+00:05:47,130 --> 00:05:49,030
+nem preciso me preocupar com esse parâmetro.
+
+73
+00:05:49,050 --> 00:05:56,240
+Até poderia implementar apenas o evento do campo sem necessariamente precisar ter como resposta o campo
+
+74
+00:05:56,250 --> 00:05:59,140
+que gerou o evento mas só para deixar um pouco mais detalhado.
+
+75
+00:05:59,350 --> 00:06:05,250
+Aí os parâmetros eu então pude até juntar tudo isso dentro de uma classe chamada acampamento mas eu
+
+76
+00:06:05,250 --> 00:06:07,490
+não vou criar outras possibilidades.
+
+77
+00:06:07,490 --> 00:06:09,300
+O fato é que eu recebo o campo aqui também.
+
+78
+00:06:09,690 --> 00:06:15,250
+E aí agora vai aplicar o tiro abri o estilo de marcar explodir o estilo padrão.
+
+79
+00:06:15,330 --> 00:06:20,230
+Então vou primeiro aplicar aqui o estilo abri então clicando aqui nessa classe nós vamos implementar.
+
+80
+00:06:20,260 --> 00:06:27,720
+A primeira coisa que eu vou ser aqui pra citar o Black Launch do para seu because padrão.
+
+81
+00:06:27,730 --> 00:06:36,350
+Você Taborda quinta 7 borda pra voltar aqui borda Factory.
+
+82
+00:06:36,750 --> 00:06:43,100
+Eu vou colocar Kuyt criei lá em bem mais aqui embaixo.
+
+83
+00:06:43,420 --> 00:06:48,520
+Lá embora vou passar com o braço cola ponto Grey.
+
+84
+00:06:48,730 --> 00:06:56,230
+Ou seja a classe cola além de você conseguir criar um com o passado o RGB que é o vermelho o verde o
+
+85
+00:06:56,230 --> 00:06:56,680
+azul.
+
+86
+00:06:56,680 --> 00:07:04,390
+Você tem uma série de constantes que representam Clow cores já conhecidas como preto azul.
+
+87
+00:07:04,390 --> 00:07:15,250
+Esse sim inclui o verde o cinza claro o magenta laranja o rosa e talos que têm várias cores pré definidas
+
+88
+00:07:15,250 --> 00:07:20,170
+e algumas cores eu vou usar e outras cores e eu acabei definindo diretamente o RGB.
+
+89
+00:07:20,560 --> 00:07:24,230
+Então uma vez que eu abri a primeira coisa que eu vou fazer vai ser essa tal background padrão.
+
+90
+00:07:24,240 --> 00:07:29,490
+Caso não esteja acertado com o teclado padrão é a segunda coisa vai se definir um agora para seu online
+
+91
+00:07:29,610 --> 00:07:35,220
+borda e você já vai ver que vai gerar um efeito visual interessante que o botão foi afundado.
+
+92
+00:07:35,220 --> 00:07:41,770
+Vou colocar aqui na tela principal isso é se ele realmente chegar aqui o que ele chamou de explodir
+
+93
+00:07:41,780 --> 00:07:43,270
+não vai entrar nesse método.
+
+94
+00:07:43,600 --> 00:07:49,840
+Clicar aqui que aconteceu o que prova mesmo que queira uma bomba e ele saibam o chamado vários outros
+
+95
+00:07:49,840 --> 00:07:57,070
+porque já perdi o jogo ou clicarem novamente ou fechei o abri novamente a tela principal se eu clicar
+
+96
+00:07:57,070 --> 00:08:02,770
+e só não abri ele acabou abrindo várias campanhas por quem sabe quando a vizinhança segura ao redor
+
+97
+00:08:02,770 --> 00:08:04,590
+ele Sabino de forma recursiva.
+
+98
+00:08:04,960 --> 00:08:09,320
+Mas o fato é que já dá pra ver o efeito visual do que é que está aberto do que está fechado.
+
+99
+00:08:09,440 --> 00:08:16,220
+Outra coisa muito importante nesse método é a gente saber quantos vizinhos tem em determinado campo
+
+100
+00:08:16,230 --> 00:08:23,990
+quem tem o número dos vizinhos é importante então fazer o seguinte ou fazer um switch pegando o campo.
+
+101
+00:08:24,040 --> 00:08:24,740
+Ponto.
+
+102
+00:08:25,000 --> 00:08:29,120
+Acho que tem um metro que diz a quantidade de vizinhos de procurar aqui dentro de campo.
+
+103
+00:08:29,230 --> 00:08:34,180
+Eu nem sei se esse método tá público ou vizinhança segura
+
+104
+00:08:37,160 --> 00:08:42,960
+Minas na vizinhança esse método é um método que diz quantas Minas tem na vizinhança vou colocá lo para
+
+105
+00:08:42,980 --> 00:08:45,800
+ser público pivô e Farense.
+
+106
+00:08:45,830 --> 00:08:48,960
+Ele aqui dentro de Minas na vizinhança.
+
+107
+00:08:48,980 --> 00:08:55,250
+E aí eu votei várias possibilidades que se tiver apenas uma única mina na vizinhança eu vou querer mostrar
+
+108
+00:08:55,250 --> 00:08:58,130
+esse valor em vez de se tiver duas querem mostrar em azul.
+
+109
+00:08:58,130 --> 00:09:00,830
+Se tiver três vou querer mostrar em vermelho assim.
+
+110
+00:09:01,010 --> 00:09:07,150
+De acordo com o número que eu vou colocar vai ter uma cor que vai apresentar mais ou menos gravidade.
+
+111
+00:09:07,200 --> 00:09:10,500
+Aqui a questão sulista não aceita valores do tipo longa.
+
+112
+00:09:10,510 --> 00:09:12,420
+Então vou converter isso pra gente.
+
+113
+00:09:12,680 --> 00:09:17,300
+Vou fazer um teste aqui pra gente já que o resultado de Caldas é longo.
+
+114
+00:09:17,510 --> 00:09:20,490
+Estão aqui voltam pra cá já funciona.
+
+115
+00:09:20,510 --> 00:09:27,640
+A questão do índio então no quesito em que eu vou tirar esse papo de colocar só dois ou tirar esse nem
+
+116
+00:09:27,680 --> 00:09:33,990
+essa exceção aqui que não faz sentido nesse momento e vou citar aqui um set fora graus que aconteceu
+
+117
+00:09:34,050 --> 00:09:42,020
+frente a cor da letra e vou colocar o texto verde pra c quando tem apenas uma única mina ao redor.
+
+118
+00:09:42,220 --> 00:09:50,600
+Não tem mais mina por exemplo duas minas ao redor fazer a mesma coisa que eu fiz aqui são sete graus
+
+119
+00:09:50,680 --> 00:09:51,520
+e o branco.
+
+120
+00:09:51,560 --> 00:09:58,220
+Só que aqui em vez de seu texto velho vou colocar cola pontuou Blue Azul.
+
+121
+00:09:58,250 --> 00:10:10,690
+Vou duplicar isso aqui agora pra três vai ser com e ela vou definir aqui no caso o quarto.
+
+122
+00:10:10,770 --> 00:10:18,620
+Vou duplicar novamente aqui embaixo Brasil 6 4 5 6.
+
+123
+00:10:18,740 --> 00:10:31,960
+Ou seja se for 4 5 ou 6 vizinhos vou colocar pra c o vermelho grande e finalmente no caso de fogo.
+
+124
+00:10:32,170 --> 00:10:43,540
+Se não é um vizinho se não há 2 é sinal e 3 nem 4 5 6 7 8 9 que é o mais grave possível e eu vou colocar
+
+125
+00:10:43,540 --> 00:10:52,840
+aqui então vou colocar aqui pra ser assim Rosa e vou dar um branco que não preciso no final já que é
+
+126
+00:10:52,840 --> 00:10:54,350
+o último não tem problema nenhum.
+
+127
+00:10:54,470 --> 00:11:02,530
+Cacimba é o próximo passo vai ser eu pegar o valor então por exemplo a áustria em que falou recebe e
+
+128
+00:11:02,580 --> 00:11:11,300
+eu vou fazer o seguinte teste sim a quantidade de minas da vizinhança mesmo ter um método lá que assim
+
+129
+00:11:11,380 --> 00:11:19,290
+assegurou na vizinhança não como idiota da vizinhança segura um metro que retorna verdadeiro ou falso
+
+130
+00:11:19,300 --> 00:11:25,580
+então posso usar esse método pra detectar se eu vou precisar ou não colocar o texto no botão.
+
+131
+00:11:25,660 --> 00:11:36,190
+Se a vizinhança não for segura eu posso colocar aqui o valor de Campos à vizinhança.
+
+132
+00:11:36,220 --> 00:11:39,560
+Isso aqui como o valor inteiro eu preciso concatenar um estranho.
+
+133
+00:11:39,590 --> 00:11:47,320
+Então posso colocar aqui mais concatenação caso contrário ou seja a vizinhança segura o lema do botão
+
+134
+00:11:47,350 --> 00:11:49,520
+vai ser um estilingue vazia.
+
+135
+00:11:49,750 --> 00:11:51,290
+Aqui tem que ser campeão.
+
+136
+00:11:51,310 --> 00:11:52,060
+Ponto.
+
+137
+00:11:52,090 --> 00:12:01,120
+Vizinhança segura aqui tudo da classe botão Eu tenho um método 7 test set aqui eu vou passar o valor
+
+138
+00:12:01,450 --> 00:12:06,370
+que representa quantos vizinhos eu tenho ao redor daquele campo.
+
+139
+00:12:06,370 --> 00:12:13,210
+Se não tiver nenhum ele coloca este índio vazia se tiver algum vizinho se de Minas a vizinhança for
+
+140
+00:12:13,210 --> 00:12:19,820
+maior do que eu ou seja porque a vizinhança não é segura ele vai mostrar a quantidade e vai usar álcool.
+
+141
+00:12:19,840 --> 00:12:26,250
+De acordo com o nível de criticidade se tiver apenas um vizinho ou na redondeza ele mostra em vez investigadores
+
+142
+00:12:26,410 --> 00:12:34,920
+mostra Azul 3 amarelo e aí vai mostrar pra vocês o efeito visual desse Metro implementado.
+
+143
+00:12:35,020 --> 00:12:41,410
+Clicando aqui você vai ver o que ele abriu vários e colocou dois asnos e eu só tenho um e dois aqui
+
+144
+00:12:41,860 --> 00:12:45,750
+significa automaticamente se tem um vizinho ao redor desse campo.
+
+145
+00:12:45,850 --> 00:12:47,850
+Se eu clicar aqui significa uma bomba.
+
+146
+00:12:47,850 --> 00:12:53,930
+Então quando o aplicativo abre não só esse mas abri as outras bombas que tem um jogo.
+
+147
+00:12:53,980 --> 00:12:58,390
+Ao clicar ele abriu todo o campo que tem bomba exatamente está acontecendo.
+
+148
+00:12:58,390 --> 00:12:59,090
+Por quê.
+
+149
+00:12:59,210 --> 00:13:05,920
+Porque dentro do tabuleiro que ele reconhece como acontece um evento no campo aqui dentro do tabuleiro.
+
+150
+00:13:05,920 --> 00:13:12,530
+Lá no final nós temos o método que está detectando quando acontecer um evento no campo e aqui ele tem
+
+151
+00:13:12,550 --> 00:13:19,000
+ele um metro para mostrar todas as meninas e quando esse metro mostrar todas as minas é chamado.
+
+152
+00:13:19,240 --> 00:13:26,680
+Ele vai chamar o metro set aberto de cada um das Minas e aqui esse metro set aberto ele vai notificar
+
+153
+00:13:26,680 --> 00:13:31,600
+todo mundo que está interessado que aconteceu a 4 de abril e por isso que automaticamente o campo se
+
+154
+00:13:31,600 --> 00:13:33,440
+atualiza e mostra o resultado.
+
+155
+00:13:34,030 --> 00:13:40,930
+Então voltando aqui é um fluxo relativamente enrolado porque você gera um evento visual que gera um
+
+156
+00:13:40,930 --> 00:13:47,150
+evento dentro do campo que é notificado pelo tabuleiro que aí manda de volta para a interface gráfica
+
+157
+00:13:47,150 --> 00:13:52,270
+e tal mas funciona muito bem você não tem um acoplamento muito grande.
+
+158
+00:13:52,270 --> 00:14:00,280
+Claro que para quem está começando esse projeto trivial mas é um projeto que usa recursos bastante interessantes
+
+159
+00:14:00,280 --> 00:14:06,910
+se você for olhar novamente o padrão presta atenção na implementação foi com calma tenham certeza que
+
+160
+00:14:06,910 --> 00:14:09,410
+contem com isso vai ficar muito mais fácil pra você.
+
+161
+00:14:09,490 --> 00:14:15,850
+Mas uma coisa é certa nenhum tipo de dúvida eu fiquei com dúvida do projeto do campo minado.
+
+162
+00:14:15,850 --> 00:14:22,900
+Isso não é motivo pra que você trave o custo para fazer o curso que está com tudo num determinado ponto.
+
+163
+00:14:22,900 --> 00:14:28,040
+é muito importante que você siga o fluxo do custo mesmo que algumas dúvidas ainda persistam que com
+
+164
+00:14:28,030 --> 00:14:35,530
+o tempo com maturidade e se você pegar por exemplo algo que você viu há uma semana atrás dez dias atrás
+
+165
+00:14:35,530 --> 00:14:41,150
+e rever novamente você jamais vi aquele colhe com uma perspectiva diferente com a clareza maior.
+
+166
+00:14:41,200 --> 00:14:46,720
+Isso com certeza pode te ajudar você dar tempo para uma vez que você tem uma dúvida alguma coisa vai
+
+167
+00:14:46,720 --> 00:14:51,610
+para a frente o mesmo tiro um tempo para descansar e depois rever o código que eu tenho certeza que
+
+168
+00:14:51,610 --> 00:14:57,520
+o fato de você conseguir rever mais uma vez o exercício vai te ajudar muito a entender eventuais dúvidas
+
+169
+00:14:57,520 --> 00:14:58,880
+que possam surgir até aqui.
+
+170
+00:14:59,230 --> 00:15:06,330
+Então nós implementamos o nosso botão campo especificamente a parte de aplicar o estilo na hora de que
+
+171
+00:15:06,330 --> 00:15:08,340
+é o método mais complicado.
+
+172
+00:15:08,350 --> 00:15:14,400
+Eu vou deixar para implementar os outros métodos na próxima aula juntos implementar o aplicativo padrão
+
+173
+00:15:14,410 --> 00:15:20,000
+aplicativo explodir e também o aplicativo marcar eventualmente outras coisas a mais para a gente melhorar
+
+174
+00:15:20,010 --> 00:15:21,500
+nossa interface gráfica.
+
+175
+00:15:21,520 --> 00:15:27,060
+Por aqui na próxima aula continua ainda mexendo no nosso na nossa classe botão campo e até lá.

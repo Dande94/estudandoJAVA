@@ -1,0 +1,627 @@
+1
+00:00:00,320 --> 00:00:05,490
+Na sala vão marchar para a Lua seis formas diferentes de você criar este time set mostrando pra vocês
+
+2
+00:00:05,490 --> 00:00:07,170
+algumas alternativas.
+
+3
+00:00:07,180 --> 00:00:10,870
+Foca naquela primeira caixinha que são as operações de Bélgica.
+
+4
+00:00:10,990 --> 00:00:19,290
+Então para isso vamos fazer o seguinte eu vou criar aqui uma nova classe em nome da classe será criando
+
+5
+00:00:20,830 --> 00:00:26,510
+isso treinos e nós vamos criar aqui um método mais pessoal.
+
+6
+00:00:26,560 --> 00:00:31,110
+A gente vai usar muito nesse exemplo como a gente já tem usado em outros momentos.
+
+7
+00:00:31,110 --> 00:00:34,790
+O marco de referência é referência para método certo.
+
+8
+00:00:34,890 --> 00:00:44,580
+Se eu quero pegar por exemplo System ponto Alt Print por exemplo eu quero atribui isso aqui pra uma
+
+9
+00:00:44,580 --> 00:00:52,890
+variável que tipo de interface funcional conseguiria atribuir uma função que recebe um parâmetro.
+
+10
+00:00:52,890 --> 00:00:58,140
+No caso aqui pode ser um string pode ser um inteiro pode ser um objeto de forma mais genérico e não
+
+11
+00:00:58,140 --> 00:01:02,690
+retorna nada ou seja recebe um parâmetro com a interface em outras palavras.
+
+12
+00:01:02,820 --> 00:01:06,590
+Funcional que recebe um parâmetro e não retorna nada.
+
+13
+00:01:06,740 --> 00:01:11,610
+Qual é o consumo que a gente viu no capítulo passado.
+
+14
+00:01:11,610 --> 00:01:19,380
+Então se você criar que não consuma e eu passar por exemplo quero por exemplo inicialmente trabalhar
+
+15
+00:01:19,380 --> 00:01:27,190
+com isto xing ling então aqui você consegue associar e colocar um mouse por exemplo.
+
+16
+00:01:27,540 --> 00:01:32,650
+Então coloca o Consumer 32 bits para apontar para a referência disse.
+
+17
+00:01:32,650 --> 00:01:37,770
+Isto é o ponto alto do Printing significa que agora em vez de ter toda a vida para colocar no System
+
+18
+00:01:37,780 --> 00:01:44,070
+cultural Xi Reference print eu posso simplesmente referenciar print passa passar isso como um parâmetro
+
+19
+00:01:44,410 --> 00:01:47,150
+da primeira forma que você tem para construir aqui.
+
+20
+00:01:47,160 --> 00:01:52,320
+Na verdade não é o foco da nossa aula só mostrando que a gente consegue criar aqui uma referência para
+
+21
+00:01:52,320 --> 00:01:56,970
+esse para essa referência de método e passar isso para as funções por exemplo fora isso que a gente
+
+22
+00:01:56,970 --> 00:02:05,170
+vai usar o nosso exemplo então no primeiro caso eu vou criar aqui um estilingue Java ou destruir o time
+
+23
+00:02:05,250 --> 00:02:07,530
+de tipos String.
+
+24
+00:02:07,810 --> 00:02:11,630
+E aqui eu vou colocar para a C algumas linguagens de programação.
+
+25
+00:02:11,630 --> 00:02:13,390
+Como é que eu posso criar um.
+
+26
+00:02:13,590 --> 00:02:19,620
+Uma das formas que você tem é usando um método estático definido na própria isto é o que é estranho
+
+27
+00:02:20,560 --> 00:02:21,900
+off.
+
+28
+00:02:21,960 --> 00:02:23,690
+E aqui eu posso passar o X2.
+
+29
+00:02:23,760 --> 00:02:29,890
+Por exemplo colocar a linguagem Java ou outra linguagem que eu vou colocar vai ser o Lula.
+
+30
+00:02:29,940 --> 00:02:35,580
+Eu vou colocar inclusive alguns espaços aqui no extremo já que eu vou usar em vez de usar print ela
+
+31
+00:02:35,580 --> 00:02:38,040
+vai usar só print vai ficar na mesma linha certo.
+
+32
+00:02:38,470 --> 00:02:44,140
+é a última linguagem que eu vou colocar aqui vai ser que eu vou colocar no último elemento.
+
+33
+00:02:44,240 --> 00:02:50,860
+E aí depois que ele imprimi essa historinha aqui ele passe para a próxima linha e aí fica mais fácil
+
+34
+00:02:50,880 --> 00:02:55,020
+a gente conseguir ver os resultados sendo impressos aqui no nosso console.
+
+35
+00:02:55,110 --> 00:03:00,390
+Então pra gente IMPRIMIR aqui lentes ou seja as linguagens eu posso colocar links ponto.
+
+36
+00:03:00,580 --> 00:03:06,120
+Fora isso eu posso passar um metro para fingir que eu vim aqui em cima e nós vamos usar várias vezes
+
+37
+00:03:06,120 --> 00:03:08,580
+essa impressão por isso que eu já coloquei dentro de uma variável.
+
+38
+00:03:09,030 --> 00:03:15,360
+Então a primeira forma que a gente tem para criar um estudo em meus anos tem um ponto off que é um método
+
+39
+00:03:15,360 --> 00:03:15,930
+estático.
+
+40
+00:03:15,930 --> 00:03:22,900
+Tanto é que eu estou acessando ele diretamente a partir da interface certa vou criar aqui um array e
+
+41
+00:03:22,980 --> 00:03:27,170
+strings que são outra forma que a gente tem para criar uma historinha e a partir de um array.
+
+42
+00:03:27,540 --> 00:03:34,150
+Então vou colocar aqui mais links vou criar aqui ou ali em Java.
+
+43
+00:03:34,210 --> 00:03:41,070
+Aí ele é delimitado com você quer criar já com os valores literais delimitados com chaves de um par
+
+44
+00:03:41,070 --> 00:03:42,030
+de chaves.
+
+45
+00:03:42,130 --> 00:03:45,050
+Aqui eu vou colocar a linguagem Python.
+
+46
+00:03:45,710 --> 00:03:54,270
+Ela corta um espaço aqui também a próxima linguagem Lisp é uma linguagem funcional vou colocar o que
+
+47
+00:03:54,270 --> 00:04:02,470
+é uma linguagem de script certo e vou colocar aqui o gol a linguagem no Google algo em linguagem tirei
+
+48
+00:04:02,610 --> 00:04:11,290
+pra tentar substituir parte desse processamento mais pesado na C C++ lá do Google para processamento
+
+49
+00:04:11,370 --> 00:04:17,310
+bem rápido ou linguagem muito otimizada é uma excelente linguagem inclusive eu ouvi falar que tem um
+
+50
+00:04:17,310 --> 00:04:23,880
+custo da cauda muito muito gol e então lá tem mais linguagens e agora vou mostrar para vocês como criar
+
+51
+00:04:24,330 --> 00:04:26,730
+uma historinha a partir de um rei.
+
+52
+00:04:26,730 --> 00:04:34,650
+Você também pode usar o mesmo instrumento isto é um ponto pode passar aqui mais leigos como eu criei
+
+53
+00:04:34,650 --> 00:04:38,640
+aqui uma historinha parte disso já posso encadeada com o casal.
+
+54
+00:04:38,640 --> 00:04:40,510
+Fora isso que passa algo Print.
+
+55
+00:04:40,980 --> 00:04:46,150
+Ele também vai exibir o conteúdo dessas outras linguagens ao Python Lisp.
+
+56
+00:04:46,660 --> 00:04:49,570
+é uma outra forma que você tem para criar.
+
+57
+00:04:49,680 --> 00:04:56,180
+Eu mostrei me a partir daquela classe que a gente já usou algumas vezes a classe A Raiz dentro de arrays
+
+58
+00:04:56,190 --> 00:05:04,100
+ou seja de Java onde a raiz existe um metro chamado e a partir desse metros você pode passar uma rede
+
+59
+00:05:04,130 --> 00:05:07,170
+por exemplo ao mais lentes.
+
+60
+00:05:07,350 --> 00:05:11,220
+Eu já tem um estúdio para chamar por exemplo Floris passando Print.
+
+61
+00:05:11,250 --> 00:05:17,720
+Ou seja essa é a terceira forma de criar ou seja tem uma forma usando estrutura off passamos valores
+
+62
+00:05:17,720 --> 00:05:25,420
+e literais tem uma forma usa mesmo isto em um ponto off passando a Rui e tenho a fonte a partir a raiz.
+
+63
+00:05:25,410 --> 00:05:29,820
+Ponto isto é passar o ano inteiro pra ele criar um show.
+
+64
+00:05:29,840 --> 00:05:33,470
+A partir daí eu consegui fazer as operações necessárias.
+
+65
+00:05:33,480 --> 00:05:41,750
+Outra forma usando o próprio ponto isto é que você tem a possibilidade de além de você passar por exemplo
+
+66
+00:05:42,030 --> 00:05:49,270
+o Rei você dizer o subi conjunto de mãos assim de usar e trocaram por exemplo pegado.
+
+67
+00:05:49,310 --> 00:05:57,260
+O elemento começa do zero então a partir do segundo elemento indo até o dia 22 só que ele não vai incluir
+
+68
+00:05:57,260 --> 00:05:58,560
+o andamento de 22.
+
+69
+00:05:58,560 --> 00:06:06,410
+Nesse caso ele vai selecionar apenas um único elemento que é o elemento de que um elemento de dentro
+
+70
+00:06:06,410 --> 00:06:07,550
+de mais leis.
+
+71
+00:06:07,580 --> 00:06:14,330
+Alice é tão única linguagem que ele vai mostrar seria o Ministro aqui ou executando um o ministro.
+
+72
+00:06:14,460 --> 00:06:22,220
+Se eu colocar ele vai do 1 até o instrui só que o 3 não incluso então 0 não entra não entra o 2 entre
+
+73
+00:06:22,220 --> 00:06:26,930
+o 3 não entra porque ele bateu 3 sem inclui o 3 a 1.
+
+74
+00:06:27,020 --> 00:06:31,680
+Ele inclui mais o último elemento aqui o segundo parâmetro não certas editado.
+
+75
+00:06:31,730 --> 00:06:38,880
+Ele colocou o disco e o seu colocar em 4 embora não tenha esse 4 0 1 2 3.
+
+76
+00:06:38,900 --> 00:06:44,330
+Ele vai sempre até o índice menos um item no mapa do segundo elemento do Harry.
+
+77
+00:06:44,480 --> 00:06:48,130
+Até o último detalhe também colocou Alice.
+
+78
+00:06:48,410 --> 00:06:54,470
+Ou seja uma outra forma que você tem para pegar um subconjunto ou um sublinhar Rei e transformar isso
+
+79
+00:06:54,530 --> 00:06:55,400
+em um estranho.
+
+80
+00:06:55,460 --> 00:07:02,740
+Uma outra forma que você tem também para gerar a construir a partir das Collection a partir das Collection.
+
+81
+00:07:02,750 --> 00:07:04,820
+Você consegue também gerar destruímos.
+
+82
+00:07:05,200 --> 00:07:10,260
+Então a gente já viu isso mas porque eu tenho aqui uma lista que eu vou colocar aqui uma lista de histria
+
+83
+00:07:10,350 --> 00:07:18,800
+que eu vou chamar aqui vou outras lentes e aqui eu tenho outro exemplo Rei ponto lixo e aqui eu tenho
+
+84
+00:07:18,910 --> 00:07:33,910
+c o coloca aqui pirata até te colocar ele no cofre eu vou colocar aqui um barra que no final me precisa
+
+85
+00:07:33,920 --> 00:07:36,170
+que o cofre que vai ser a última que eu vou mostrar.
+
+86
+00:07:36,690 --> 00:07:42,280
+Mas de qualquer forma tenho aqui mais três linguagens e usando outras lentes.
+
+87
+00:07:42,290 --> 00:07:46,640
+A gente viu que tem aqui algo estranho usando esse time.
+
+88
+00:07:47,150 --> 00:07:52,270
+Você tem várias funcionalidades inclusive o forte que por enquanto é um nome que a gente viu passando
+
+89
+00:07:52,430 --> 00:07:53,670
+aqui o principal.
+
+90
+00:07:53,680 --> 00:08:04,000
+A gente acertando você vai ter c PHP e Cole e nós temos a possibilidade outras leis pontuou.
+
+91
+00:08:04,100 --> 00:08:07,190
+Paralelo estranho você já esteve em paralelo.
+
+92
+00:08:07,190 --> 00:08:07,930
+Fora Ishii.
+
+93
+00:08:07,970 --> 00:08:13,130
+Ele vai mostrar as linguagens não necessariamente na ordem que foi definida.
+
+94
+00:08:13,140 --> 00:08:15,650
+Porque agora ele vai abrir um show em paralelo.
+
+95
+00:08:15,840 --> 00:08:20,650
+Aqui você vai ver que ele mostrou primeiro o PHP.
+
+96
+00:08:20,750 --> 00:08:26,440
+Depois ele mostrou o controle e o código quebrou ali e depois ele mostrou o seio.
+
+97
+00:08:26,490 --> 00:08:27,090
+Tá bom.
+
+98
+00:08:27,380 --> 00:08:34,610
+Então você percebe que agora como ele abriu jogo em paralelo não digam sim os dados não são processados
+
+99
+00:08:34,990 --> 00:08:38,740
+na ordem é o melhor processamento nesse caso é apenas mostrar no console.
+
+100
+00:08:38,740 --> 00:08:44,630
+Por isso que eles não foram exibidos no console e eles não foram exibidos no console.
+
+101
+00:08:44,630 --> 00:08:51,590
+Na sequência ficou definido que o estilo foi feito de forma paralela e por isso várias vezes vocês vão
+
+102
+00:08:51,590 --> 00:08:58,130
+perceber que vai ter diferentes tipos de resultados porque cada vez os valores são executados em sequências
+
+103
+00:08:58,130 --> 00:08:59,330
+diferentes.
+
+104
+00:08:59,330 --> 00:09:06,020
+Outra possibilidade que você tem para criar um é você tem um método chamado gênero aí certo gênero ele
+
+105
+00:09:06,020 --> 00:09:14,580
+vai gerar uma historinha é infinita certo ou potencialmente infinita que não tem a ordem não tem um
+
+106
+00:09:14,580 --> 00:09:22,100
+ordenação certo e para isso dentro do gênero você passa não há um lambida por exemplo ou uma função
+
+107
+00:09:22,460 --> 00:09:24,860
+que será um suplício um suplício.
+
+108
+00:09:24,950 --> 00:09:28,160
+é uma função que não é parâmetro e retorna alguma coisa.
+
+109
+00:09:28,610 --> 00:09:35,480
+Então por exemplo o que se passa aqui é que não recebe nenhum parâmetro e retorna à letra a sete já
+
+110
+00:09:35,480 --> 00:09:40,450
+que eu tenho aqui uma historinha em que está exibindo apenas valores do tipo string e eu vou retornar
+
+111
+00:09:40,450 --> 00:09:46,740
+que um estranho então feito isso eu posso colocar aqui fora hit Pra ele imprimir.
+
+112
+00:09:46,760 --> 00:09:52,610
+Vocês vão perceber que o resultado será o programa não vai mais parar e continuar executando e gerado
+
+113
+00:09:52,610 --> 00:09:58,070
+mal estar gerando aí indefinidamente se eu tentar limpar o console ele continua gerando até que eu venho
+
+114
+00:09:58,070 --> 00:10:04,490
+aqui e usar o computador fica até um pouco mais lento porque ele fica consumindo muito processamento
+
+115
+00:10:04,490 --> 00:10:10,610
+porque fica gerando de forma indefinida o valor certo então aqui você tem uma das possibilidades é o
+
+116
+00:10:10,610 --> 00:10:18,080
+gênero aí é a outra possibilidade que você tem também geralmente construído de forma infinita e usado
+
+117
+00:10:18,080 --> 00:10:18,440
+aqui.
+
+118
+00:10:18,440 --> 00:10:23,250
+O estranho ponto é.
+
+119
+00:10:23,540 --> 00:10:27,700
+Só que nesse caso você já tem a ordenação certo.
+
+120
+00:10:27,770 --> 00:10:35,450
+Então aqui por exemplo porque eu queira gerar a interação de valores inteiros gerar números inteiros
+
+121
+00:10:35,860 --> 00:10:39,780
+então posso até que o valor inicial seria zero.
+
+122
+00:10:40,000 --> 00:10:46,490
+E logo na sequência é o segundo parâmetro que vai ser o meu operador na área ou seja eu recebo um parâmetro
+
+123
+00:10:46,960 --> 00:10:52,150
+e retorna alguma coisa então nesse caso ou vou receber um valor por exemplo.
+
+124
+00:10:52,580 --> 00:10:58,930
+Ou seja aqui baixa se comparado e possa retornar mais um ano.
+
+125
+00:10:59,000 --> 00:11:04,430
+Aqui há uma sequência sempre que um atalho foi gerado ele vai gerar primeiro matéria ou passa para o
+
+126
+00:11:04,430 --> 00:11:08,600
+primeiro e depois gera o segundo terceiro e aí sim vai gerando.
+
+127
+00:11:08,600 --> 00:11:11,150
+Nesse caso eu posso chamar aqui também fora.
+
+128
+00:11:11,480 --> 00:11:18,470
+Se eu tentar usar o print vai dar problema porque botei esse print específico para distribuir mas nada
+
+129
+00:11:18,470 --> 00:11:23,020
+me impede de substituir por exemplo esse string pra gente.
+
+130
+00:11:23,030 --> 00:11:28,310
+Assim eu consigo tanto imprimir strings como eu consigo imprimir também em valores numéricos ou então
+
+131
+00:11:28,490 --> 00:11:39,500
+posso fazer o seguinte eu posso duplicar essa linha gerar por exemplo um valor inteiro e ter um print
+
+132
+00:11:39,520 --> 00:11:42,940
+ali apontando para um print helênico.
+
+133
+00:11:43,070 --> 00:11:50,270
+Quem vai usar esse print quebra a trincas vou usar esse link que foi pensado para imprimir valores inteiros
+
+134
+00:11:50,350 --> 00:11:51,440
+executado.
+
+135
+00:11:51,650 --> 00:11:57,230
+Você vai ver que agora de forma indefinida ele vai ter gerado aí milhares e milhares de valores.
+
+136
+00:11:57,220 --> 00:12:01,890
+Certo Um atrás do outro até que parem o ministro.
+
+137
+00:12:01,910 --> 00:12:07,970
+Ou seja ele gerou aqui 1 milhão 277 mil vezes e 0 71.
+
+138
+00:12:07,980 --> 00:12:15,150
+Sejam humilhados em 77 mil zeros se atentem para a quantidade de vezes que ele gerou isto é meu time
+
+139
+00:12:15,230 --> 00:12:20,270
+é potencialmente infinito vai gerar até que o seu programa para essa tal aquisição dos fogos no primeiro
+
+140
+00:12:20,270 --> 00:12:27,260
+caso extremo generais ele gera sim uma ordenação mas também potencialmente infinita e isto é um ponto
+
+141
+00:12:27,260 --> 00:12:34,250
+interessante ele gera e tem um sigilo que seria a semente inicial para você começa a gerar na primeira
+
+142
+00:12:34,250 --> 00:12:41,320
+vez esse valor zero e passado pra cá e aí você gera por exemplo o caso aqui né mais usarão mais um gerou
+
+143
+00:12:41,330 --> 00:12:47,990
+primeiro e depois ele mais o segundo terceiro e vai sempre gerando um atrás da outra forma também pra
+
+144
+00:12:47,990 --> 00:12:52,590
+gente gerar instruindo viu várias formas diferentes.
+
+145
+00:12:52,600 --> 00:12:56,910
+Tá na cara aquela primeira parte do Bild que você constrói uma historinha.
+
+146
+00:12:56,930 --> 00:13:02,210
+Pode ser a partir de 1 Collection pode ser a partir de uma função estática.
+
+147
+00:13:02,330 --> 00:13:03,550
+Twin off.
+
+148
+00:13:03,780 --> 00:13:09,800
+Aqui eu vou comentar também faz comentários não vou mais escolho não só para gente ter a referência
+
+149
+00:13:09,890 --> 00:13:11,120
+do Prince Ali.
+
+150
+00:13:11,120 --> 00:13:15,570
+Nós usamos o Warren os pontos Twin e usamos a própria Collection.
+
+151
+00:13:15,790 --> 00:13:20,930
+Tanto o estranho como paralelo isto e eu mostrei pra vocês que ele acabou processando os elementos de
+
+152
+00:13:20,930 --> 00:13:27,380
+forma diferente cada vez que ele processa de forma paralela e vimos várias formas diferentes interessante
+
+153
+00:13:27,380 --> 00:13:29,140
+de criar inclusive criado.
+
+154
+00:13:29,150 --> 00:13:35,470
+Papa não passa de um rei para criar um estúdio então aqui serve de referência pra você aproximar a gente
+
+155
+00:13:35,480 --> 00:13:41,780
+continua fazendo ou falando um pouco mais da parte intermediária que a parte mais legal que criar criativo
+
+156
+00:13:41,830 --> 00:13:46,970
+em beleza o primeiro passo mais do que você vai fazer com os dados que a gente vai conseguir explorar
+
+157
+00:13:46,970 --> 00:13:49,500
+mais escapismo após uma mal a gente continua até lá.

@@ -1,0 +1,307 @@
+1
+00:00:00,230 --> 00:00:06,600
+Pessoal uma das coisas importantes como a gente pensa em estruturas de controle é você tentar encaixar
+
+2
+00:00:06,600 --> 00:00:10,040
+a estrutura de controle certa para a situação certa.
+
+3
+00:00:10,110 --> 00:00:16,230
+Esse é um caso que a gente está usando uma estrutura que é mais planejada para ter uma quantidade indeterminada
+
+4
+00:00:16,230 --> 00:00:19,950
+de repetições então vai fazer um exemplo sobre isso na próxima aula.
+
+5
+00:00:20,160 --> 00:00:26,250
+Mais a estrutura mais adequada para você ter uma quantidade determinada de repetições não é o raio é
+
+6
+00:00:26,250 --> 00:00:27,580
+uma estrutura chamada folha.
+
+7
+00:00:27,600 --> 00:00:34,590
+Vou mostrar pra vocês nessa aula isso eu vou criar aqui um novo arquivo dentro da nova classe dentro
+
+8
+00:00:34,590 --> 00:00:36,580
+do nosso pacote controle.
+
+9
+00:00:36,720 --> 00:00:44,250
+Chamar aqui fora um certo mas vamos ter alguns exemplos fora 2 e 3 e eu vou criar aqui.
+
+10
+00:00:44,930 --> 00:00:53,670
+Criando o homem eu vou copiar o exercício passado essa estrutura tudo eu vou colocar dentro e foco e
+
+11
+00:00:53,670 --> 00:00:57,720
+aqui eu vou fazer a migração dessa estrutura para o foco.
+
+12
+00:00:57,800 --> 00:01:01,050
+Como é que seria eu vou colocar o foco aqui.
+
+13
+00:01:01,290 --> 00:01:10,260
+Vou definir três partes a primeira parte aqui a parte a parte B e Parte C as três partes separadas por
+
+14
+00:01:10,260 --> 00:01:15,720
+ponto e vírgula e eu vou ter um bloco de código e essas três partes exatamente as três partes que eu
+
+15
+00:01:15,730 --> 00:01:22,290
+sentei na aula passada que você tem o contador zero termina com o ponto e vírgula só com uma cópia até
+
+16
+00:01:22,290 --> 00:01:24,660
+aqui porque eu já coloquei o ponto e vírgula aqui.
+
+17
+00:01:24,660 --> 00:01:27,400
+Então você tem a definição da variável.
+
+18
+00:01:27,570 --> 00:01:33,140
+Eu vou chamar essa variável aqui eu vou comentar esse código aqui exato pra gente ter só lá se for.
+
+19
+00:01:33,530 --> 00:01:40,710
+Depois nós temos a expressão que eu vou copiar aqui ou a expressão fica aqui no meio a letra B e depois
+
+20
+00:01:40,710 --> 00:01:44,320
+nós temos o incremento certo aqui.
+
+21
+00:01:44,420 --> 00:01:50,730
+O caso do incrementado de dois em dois então essa estrutura que já foi pensada já foi planejada para
+
+22
+00:01:50,730 --> 00:01:58,830
+você ter uma quantidade determinada de repetições inclusive como copiar o corpo ou comentar essa linha.
+
+23
+00:01:59,040 --> 00:02:05,210
+Eu não preciso disso basta ter o System alto aqui e imprimi o resto eu posso apagar e agora nós temos
+
+24
+00:02:05,210 --> 00:02:09,720
+uma estrutura que vai fazer exatamente a mesma coisa eu vou salvar 15 em passado não é exatamente a
+
+25
+00:02:09,720 --> 00:02:10,500
+mesma coisa.
+
+26
+00:02:10,510 --> 00:02:19,380
+1 0 2 4 6 8 10 12 14 e 18 20 o que é exatamente essa mesma estrutura que a gente tinha lá no caso do
+
+27
+00:02:19,380 --> 00:02:20,010
+óleo.
+
+28
+00:02:20,070 --> 00:02:25,530
+Só que agora usando um fóssil de uma quantidade determinado de repetições da mesma forma que eu posso
+
+29
+00:02:25,530 --> 00:02:32,930
+incrementar assim eu posso também colocar aqui o mais mais ou seja incrementar e colocar aqui pra c
+
+30
+00:02:33,380 --> 00:02:36,910
+de até 10 e começar de novo.
+
+31
+00:02:37,260 --> 00:02:42,630
+Ou seja a gente também tem possibilidade ou 1 2 3 4 5 6 7 8 9 10.
+
+32
+00:02:42,630 --> 00:02:48,150
+Você pode fazer o contrário começar do 10 e decrescente até chegar a 1 Você tem muitas possibilidades
+
+33
+00:02:48,170 --> 00:02:55,130
+mas essa é uma estrutura focada planejada para você ter uma quantidade determinada de repetições ali
+
+34
+00:02:55,280 --> 00:03:00,840
+e o que seria uma estrutura que tem uma quantidade indeterminada de repetições eu vou já mostrar mais
+
+35
+00:03:00,840 --> 00:03:03,020
+antes e mostrar pra você isso.
+
+36
+00:03:03,060 --> 00:03:08,130
+Outra coisa que eu queria só mostrar rapidamente aqui é que não obrigatoriamente você precisa ter as
+
+37
+00:03:08,130 --> 00:03:10,730
+três partes definidas dentro de um só.
+
+38
+00:03:10,740 --> 00:03:19,020
+Por exemplo posso criar a variável X que recebe o valor 2 que você pode ter um ponto e vírgula já colocar
+
+39
+00:03:19,020 --> 00:03:22,850
+a expressão então x tem ser menor do que 10.
+
+40
+00:03:22,870 --> 00:03:28,470
+Vou colocar aqui um ponto e vírgula e vou colocar um bloco associado dentro do bloco Eu Vou colocar
+
+41
+00:03:28,470 --> 00:03:31,090
+o Incremental x mais mais.
+
+42
+00:03:31,090 --> 00:03:38,250
+E aqui eu vou imprimir o valor de x se existem algo para frente alinhem colocando aqui X o k treinando
+
+43
+00:03:38,250 --> 00:03:45,300
+com o próprio valor de x está X igual o espaço aqui estando aqui você vai ver que ele também colocou
+
+44
+00:03:45,300 --> 00:03:53,850
+2 3 4 5 6 7 8 9 ou seja mais eu coloquei os valores separados aqui no meio eu tenho apenas a minha expressão
+
+45
+00:03:53,850 --> 00:03:59,040
+nem coloquei a inicialização dentro do foco e nem coloquei um encaminhamento falso fiz como se fosse
+
+46
+00:03:59,040 --> 00:04:00,350
+basicamente um óleo.
+
+47
+00:04:00,420 --> 00:04:05,580
+Nesse caso faz muito mais sentido você coloca a inicialização da variável dentro foi incremento também
+
+48
+00:04:05,580 --> 00:04:07,050
+dentro do foco certo.
+
+49
+00:04:07,050 --> 00:04:12,530
+Outra possibilidade eu vou já apagar esses códigos pra deixar só o primeiro e você criar um laço infinito
+
+50
+00:04:12,540 --> 00:04:18,300
+você pode criar um laço infinito com folga dessa forma ou colocando assim ou simplesmente que no meio
+
+51
+00:04:18,310 --> 00:04:26,430
+colocar no trono uma expressão verdadeira nunca vai mudar significa que você coloca fim a esse programa
+
+52
+00:04:26,430 --> 00:04:29,450
+nunca vai parar e as etapas são as etapas.
+
+53
+00:04:29,790 --> 00:04:38,760
+Ele vai ficar indefinidamente aqui ou mesmo se eu tirar o aqui no meio certo e você vai ver que ele
+
+54
+00:04:38,760 --> 00:04:43,130
+vai ficar indefinidamente executando porque isso aqui também é um laço infinito.
+
+55
+00:04:43,270 --> 00:04:54,360
+O que eu quero fazer é eu posso até colocar um comentário que é um laço infinito e vou comentar essa
+
+56
+00:04:54,360 --> 00:04:57,540
+linha e esse desenho aqui.
+
+57
+00:04:57,560 --> 00:05:02,350
+Na verdade eu vou tirar porque não faz nem muito criar um futuro folga nessa estratégia.
+
+58
+00:05:02,580 --> 00:05:08,610
+Então em resumo o pessoal aqui traz a primeira aula de folga você tem um foco uma estrutura focada em
+
+59
+00:05:08,610 --> 00:05:10,450
+uma repetição determinada.
+
+60
+00:05:10,470 --> 00:05:16,480
+Você tem uma quantidade determinada de repetições você tem três passa a primeira parte e a declaração
+
+61
+00:05:16,480 --> 00:05:17,640
+na variável.
+
+62
+00:05:17,640 --> 00:05:23,910
+A segunda parte é a expressão que vai retornar verdadeiro falso que vai dizer se ele vai continuar repetindo
+
+63
+00:05:23,970 --> 00:05:24,740
+ou não.
+
+64
+00:05:24,900 --> 00:05:27,960
+E a terceira parte é exatamente a mudança.
+
+65
+00:05:27,960 --> 00:05:34,410
+A manipulação na variável de controle é para que em determinado momento esse laço pare de executar certo.
+
+66
+00:05:34,410 --> 00:05:40,210
+Assim como nós temos o áudio focado em uma quantidade indeterminada eu vou mostrar isso aproximá lo.
+
+67
+00:05:40,350 --> 00:05:46,860
+O Fórum estrutura de controle focada para a quantidade pré definida de repetições pode ser mil repetições
+
+68
+00:05:47,250 --> 00:05:49,600
+10 repetições nem uma repetição.
+
+69
+00:05:49,940 --> 00:05:55,230
+Se você já começar com a expressão falsa ele não vai nem entrar dentro do laço mas de qualquer forma
+
+70
+00:05:55,230 --> 00:06:00,500
+ele tem esse foco então você tem essa consciência de escolher a estrutura de controle certa para os
+
+71
+00:06:00,500 --> 00:06:05,370
+momentos certo é muito importante para que você possa também tem um código mais previsível que é muito
+
+72
+00:06:05,370 --> 00:06:11,700
+importante que você olhe e sinta que a forma como foi escrito como uma forma natural está na próxima
+
+73
+00:06:11,700 --> 00:06:15,840
+aula iremos voltar para o olho para a gente ver uma segunda versão do áudio.
+
+74
+00:06:15,840 --> 00:06:21,360
+Essa primeira versão já foi um gancho para a gente entrar no fórum você tem as três partes só que feitos
+
+75
+00:06:21,360 --> 00:06:22,650
+de forma separada.
+
+76
+00:06:22,770 --> 00:06:28,560
+Mostrei o foco para fazer esse paralelo com a determinado e agora vou mostrar para vocês o que naturalmente
+
+77
+00:06:28,560 --> 00:06:34,440
+é mais usado com a eu quero você tem quantidade de repetição determinada e mostrar na proximal.

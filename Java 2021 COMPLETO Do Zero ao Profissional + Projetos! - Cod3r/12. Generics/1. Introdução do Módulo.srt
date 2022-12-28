@@ -1,0 +1,103 @@
+1
+00:00:00,120 --> 00:00:07,260
+Nesse capítulo pessoal nós vamos ver os genéricos a gente já usou genérico e como consumidor de uma
+
+2
+00:00:07,260 --> 00:00:08,570
+classe genérica.
+
+3
+00:00:09,270 --> 00:00:16,400
+Até brinquei e falei com vocês que a minha sensação no começo era pouca e que os genéricos tinham nomes
+
+4
+00:00:16,410 --> 00:00:23,400
+genéricos pouca na minha cabeça parecia que você estava especificando e não generalizando é algo que
+
+5
+00:00:23,400 --> 00:00:29,430
+eu tive dúvida durante muito tempo até que eu pude entender que na verdade o nome genéricos não é do
+
+6
+00:00:29,430 --> 00:00:34,070
+ponto de vista de quem usa a funcionalidade mas de quem constrói a classe.
+
+7
+00:00:34,070 --> 00:00:41,250
+Você constrói uma classe em um método genérico e em determinados momentos você vai dizer que tipo de
+
+8
+00:00:41,250 --> 00:00:41,880
+valor.
+
+9
+00:00:41,880 --> 00:00:48,830
+Que tipo arquétipo ou seja que classe você quer resolver para um determinado tipo genérico.
+
+10
+00:00:48,950 --> 00:00:53,460
+E é exatamente sobre isso que eu quero mostrar nesse capítulo quero mostrar para você como é que você
+
+11
+00:00:53,460 --> 00:00:57,050
+pode construir uma classe usando os genéricos.
+
+12
+00:00:57,060 --> 00:01:02,340
+Em outras palavras eu quero mostrar pra você como é que você pode construir uma classe genérica e como
+
+13
+00:01:02,340 --> 00:01:03,780
+você usar essa classe.
+
+14
+00:01:03,780 --> 00:01:07,410
+Você vai especificar o tipo para ser substituído.
+
+15
+00:01:07,410 --> 00:01:12,210
+Vou mostrar tudo isso nesse capítulo porque é um tema interessante embora seja um tema um pouquinho
+
+16
+00:01:12,210 --> 00:01:18,030
+mais avançado é um tema que a gente vai constantemente está usando genéricos dentro do nosso curso seja
+
+17
+00:01:18,030 --> 00:01:21,140
+na parte das coleções isto é com a gente.
+
+18
+00:01:21,140 --> 00:01:27,690
+Vou trabalhar com JP a em A gente vai acabar usando Coquinho criar uma boa classe e persistência mais
+
+19
+00:01:27,690 --> 00:01:28,740
+genérica.
+
+20
+00:01:28,740 --> 00:01:32,130
+E aí a gente vai se beneficiar do conceito de genéricos também.
+
+21
+00:01:32,130 --> 00:01:37,730
+Então é algo interessante você conhecer não apenas do ponto de vista de quem usa que você coloca lá
+
+22
+00:01:37,730 --> 00:01:39,380
+o menor quer mais ok.
+
+23
+00:01:39,390 --> 00:01:45,240
+Dentro desses dois símbolos você coloca o tipo que você quer especificar mas também aprender como criar
+
+24
+00:01:45,240 --> 00:01:46,260
+uma classe genérica.
+
+25
+00:01:46,260 --> 00:01:51,450
+é exatamente o tema desse capítulo e na próxima aulas vamos começar o nosso primeiro exemplo e outros
+
+26
+00:01:51,460 --> 00:01:51,850
+para lá.

@@ -1,0 +1,251 @@
+1
+00:00:00,430 --> 00:00:05,540
+Agora vou falar sobre o ou pelo jeito certo aparador na área.
+
+2
+00:00:05,880 --> 00:00:10,640
+Lembro muito que assisti a alguns canais no YouTube e o pessoal disse que começa a falar inglês que
+
+3
+00:00:10,650 --> 00:00:13,180
+só tem o patrocínio do Kelly.
+
+4
+00:00:13,770 --> 00:00:18,870
+Seria mais ou menos assim no meio da aula está falando nesses inglês aqui com meu sotaque do Kentucky
+
+5
+00:00:18,870 --> 00:00:20,020
+né.
+
+6
+00:00:20,040 --> 00:00:28,560
+Sugeri aí o patrocínio não é mais beleza lá então eu vou criar aqui um nova um novo arquivo certo então
+
+7
+00:00:28,840 --> 00:00:36,980
+eu falo o nome do nosso arquivo será o operador na área coloca uma parada na área.
+
+8
+00:00:37,020 --> 00:00:40,710
+Eu vou criar o metro Men e o operador na área.
+
+9
+00:00:40,710 --> 00:00:45,170
+Ele é muito legal muito simples pra você fazer encadeamento de várias chamadas.
+
+10
+00:00:45,190 --> 00:00:45,630
+Por quê.
+
+11
+00:00:45,630 --> 00:00:51,960
+Porque o tipo de parâmetro que você passa como entrada é o tipo de retorno que é gerado e então esse
+
+12
+00:00:51,960 --> 00:00:57,660
+retorno que é gerado pode ser passado como parâmetro para a próxima função e você tem uma cadeia bem
+
+13
+00:00:57,660 --> 00:01:01,900
+interessante de chamar de função para si transformando o dado.
+
+14
+00:01:01,960 --> 00:01:06,570
+O legal dessa abordagem funcional é porque você consegue ter funções muito focado.
+
+15
+00:01:06,570 --> 00:01:08,310
+Já falei isso algumas vezes né.
+
+16
+00:01:08,370 --> 00:01:14,890
+Funções muito focadas que fazem apenas um único trabalho tem um potencial de uso muito grande.
+
+17
+00:01:14,940 --> 00:01:20,240
+Por isso que é muito legal você trabalhar com esse tipo de estrutura funcional certo.
+
+18
+00:01:20,310 --> 00:01:24,810
+Então deixou maximizar aqui ou fazer o seguinte ou criar.
+
+19
+00:01:24,910 --> 00:01:31,910
+Aí o perito e o perito que vai receber interagem.
+
+20
+00:01:32,220 --> 00:01:33,330
+é o primeiro que eu vou.
+
+21
+00:01:33,340 --> 00:01:40,560
+A primeira função é ser mais dois e essa função simplesmente vai pegar um número que eu recebi aí e
+
+22
+00:01:40,620 --> 00:01:47,490
+vai retornar com mais dois vai ser essa minha primeira função usando uma operador na área vou duplicar
+
+23
+00:01:47,490 --> 00:01:54,980
+essa linha para facilitar que é escrita e vou criar aqui uma função chamada vezes 2 que ela vai fazer
+
+24
+00:01:54,990 --> 00:02:02,460
+vai pegar um número e devolver o número multiplicado por dois e vou criar aqui uma terceira função que
+
+25
+00:02:02,460 --> 00:02:10,020
+eu vou chamar aqui ao quadrado porque vai pegar um numeral e devolver o numeral quadrado seja o número
+
+26
+00:02:10,350 --> 00:02:15,490
+de vezes em que recebi o número o número vezes o próprio número vai dar um valor ao quadrado.
+
+27
+00:02:15,580 --> 00:02:27,390
+Aqui posso por exemplo colocar em System algo diferente ali vou colocar mais dois ponto e o coloca aqui
+
+28
+00:02:27,390 --> 00:02:35,980
+vezes 2 vezes 2 ponto que o coloca ao quadrado.
+
+29
+00:02:36,010 --> 00:02:40,940
+E no final vou chamar aqui o aplique para realçar o valor inicial 0.
+
+30
+00:02:41,070 --> 00:02:46,020
+Então eu vou fazer o seguinte em vez de colocar isso diretamente no System hoje não fica muito grande.
+
+31
+00:02:46,480 --> 00:02:54,450
+Eu vou criar aqui um valor cliente que eu vou chamar aqui o resultado vai receber isso aqui e aí eu
+
+32
+00:02:54,450 --> 00:03:02,360
+posso quebrar isso e mais uma linha que vai ficar mais fácil de entender o que está acontecendo aqui
+
+33
+00:03:02,590 --> 00:03:05,000
+eu vou pagar o resultado gerado.
+
+34
+00:03:05,400 --> 00:03:06,950
+Eu vou jogar naquele estado.
+
+35
+00:03:07,600 --> 00:03:17,430
+Então nesse caso se eu passei 0 inicialmente ele vai pegar somar 2 e ficar 2 dois meses 2 4 4 ao quadrado
+
+36
+00:03:17,520 --> 00:03:20,610
+o resultado será 16 executado.
+
+37
+00:03:20,670 --> 00:03:26,580
+Ele passou com todas as funções fazendo um encadeamento de funções o final gerou o resultado 16.
+
+38
+00:03:26,820 --> 00:03:34,380
+Além do design você tem outra função que também sai para fazer composição de função que ele compôs só
+
+39
+00:03:34,380 --> 00:03:36,150
+que compôs e ele vai rodar.
+
+40
+00:03:36,270 --> 00:03:41,590
+Ao contrário vez de ele colocar a função depois ou seja você vai ler nesse sentido.
+
+41
+00:03:41,700 --> 00:03:48,540
+Execute essa depois execute essa e depois execute essa conclusão ao contrário.
+
+42
+00:03:48,960 --> 00:03:58,130
+Então posso colocar para a plateia exatamente o mesmo resultado colocar o resultado 2 recebe ao quadrado
+
+43
+00:03:58,260 --> 00:04:08,760
+ponto compôs ou seja antes de executar o quadrado execute vezes 2 antes de executá vezes 2 execute mais
+
+44
+00:04:08,840 --> 00:04:09,700
+dois.
+
+45
+00:04:09,900 --> 00:04:17,820
+De tal forma que ele vai fazer o comportamento ao contrário ele vai começar pelo último e finalmente
+
+46
+00:04:17,910 --> 00:04:24,660
+eu coloco o mesmo play que é o metro que está no processo então colocando o zero aí para fazer a leitura
+
+47
+00:04:24,660 --> 00:04:25,590
+seria o contrário né.
+
+48
+00:04:25,590 --> 00:04:31,260
+Pegue 0 e aí coloque mais 2 depois de 2 e finalmente ao quadrado.
+
+49
+00:04:31,380 --> 00:04:38,370
+Eu acho que talvez mais natural seja sempre colocar o próximo pra ele na sequência que a gente já está
+
+50
+00:04:38,370 --> 00:04:45,270
+acostumado e de cima para baixo mas o composto também é uma possibilidade que você tenta copiar aqui
+
+51
+00:04:45,280 --> 00:04:49,850
+contra o cérebro jogar aqui pra baixo contra ou ver resultado 2.
+
+52
+00:04:50,020 --> 00:04:54,810
+E a gente executando aqui percebe que os dois resultados foram 16.
+
+53
+00:04:54,870 --> 00:05:01,540
+Então resumindo nós usamos esse exercício em operação na área que é um tipo de operação anti eu diria
+
+54
+00:05:01,540 --> 00:05:07,510
+que é uma das interfaces funcionais que você vai acabar usando com frequência com que você tem um método
+
+55
+00:05:07,510 --> 00:05:12,280
+que meça um produto faz alguma coisa e retorna o outro produto.
+
+56
+00:05:12,370 --> 00:05:18,340
+Você poder em cardeal recebe um cliente retorna o cliente recebe uma maratona o número o recebe e sei
+
+57
+00:05:18,340 --> 00:05:25,800
+lá um ângulo em retorno Lula a lista é autonomista é o tipo de comportamento que não é incomum não é
+
+58
+00:05:25,910 --> 00:05:32,170
+comum na verdade você ter esse tipo de operação é muito interessante o fato é que você consegue encaixar
+
+59
+00:05:32,170 --> 00:05:38,200
+várias chamadas uma depois da outra ou seja criar funções específicas que tem como responsabilidade
+
+60
+00:05:38,200 --> 00:05:44,770
+apenas uma única ação faz com que você tenha um nível de uso muito maior então é extremamente importante
+
+61
+00:05:44,800 --> 00:05:49,480
+você ter isso na sua mente e funções muito grandes com muitas responsabilidades.
+
+62
+00:05:49,480 --> 00:05:54,910
+Dificilmente você vai conseguir promover mais uso pra elas então o pessoal fique por aqui na próxima
+
+63
+00:05:55,000 --> 00:05:59,110
+descontinuou a primeira e outras interfaces funcionais do Java e até lá.

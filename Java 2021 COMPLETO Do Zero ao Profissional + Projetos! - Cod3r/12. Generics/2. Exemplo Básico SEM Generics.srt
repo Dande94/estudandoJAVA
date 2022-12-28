@@ -1,0 +1,407 @@
+1
+00:00:00,150 --> 00:00:07,190
+Pensar nesse exemplo eu vou mostrar pra vocês uma classe usando genéricos e pra isso vou criar um pacote
+
+2
+00:00:07,200 --> 00:00:08,970
+também chamado de genéricos.
+
+3
+00:00:08,970 --> 00:00:12,060
+Então nós vamos criar uma nova classe.
+
+4
+00:00:12,720 --> 00:00:15,900
+Eu vou criar uma classe chamada caixa.
+
+5
+00:00:16,480 --> 00:00:21,650
+Vai ser uma classe que vai guardar alguma coisa essa coisa que eu vou guardar além da caixa pode ser
+
+6
+00:00:21,650 --> 00:00:26,950
+um inteiro pode ser um álbum pode ser uma pessoa pode ser qualquer outra coisa.
+
+7
+00:00:27,060 --> 00:00:32,640
+Vou fazer um objeto que guarda apenas um único atributo e esse atributo eu quero trabalhar ele de forma
+
+8
+00:00:32,640 --> 00:00:39,060
+genérica não quero que ela marque por exemplo um tipo específico então vou colocar aqui o nome da classe
+
+9
+00:00:39,060 --> 00:00:44,970
+vai ser genéricos e eu chamar de caixa beleza.
+
+10
+00:00:45,000 --> 00:00:55,620
+Eu posso fazer na verdade fazer um exemplo se eu vou colocar aqui caixa objeto e nós vamos fazer uma
+
+11
+00:00:55,620 --> 00:00:59,590
+caixa que tem apenas um único atributo e esse atributo é genérico.
+
+12
+00:00:59,610 --> 00:01:06,150
+Mas eu não vou usar os genéricos nesse exercício pra você fazer uma comparação entre esse exercício
+
+13
+00:01:06,150 --> 00:01:11,310
+e o próximo eu ia fazer o próximo nessa mas eu acabei de mudar de ideia e nós vamos fazer algo para
+
+14
+00:01:11,310 --> 00:01:17,300
+preparar e até embasar porquê que os genéricos é interessante pra vocês.
+
+15
+00:01:17,370 --> 00:01:23,000
+Provavelmente vão acabar mostrando outros exemplos também nessa mesma questão aqui mais pra começar
+
+16
+00:01:23,000 --> 00:01:23,660
+a ficar legal.
+
+17
+00:01:23,670 --> 00:01:30,630
+Então vou criar aqui um atributo privado que eu vou colocar o tipo mais genérico suportado no Java que
+
+18
+00:01:30,630 --> 00:01:35,340
+é o objetivo e vou chamar esse atributo aqui de coisa e vou criar dois metros.
+
+19
+00:01:35,340 --> 00:01:41,730
+Vou criar um método que é correspondente ao set e o outro correspondente ao GATE o 7 eu vou chamar de
+
+20
+00:01:41,730 --> 00:01:45,950
+guardar e o Betti eu vou chamar de abri certo já que é uma caixa.
+
+21
+00:01:45,950 --> 00:01:49,900
+Então vou guardar alguma coisa na caixa ou então abrir a caixa para pegar essa coisa.
+
+22
+00:01:50,250 --> 00:01:58,500
+Então vou criar aqui um método público no método 7 eu vou retornar Boyd e eu vou chamar aqui guardado
+
+23
+00:01:58,900 --> 00:02:04,950
+e ele recebe um objeto que eu vou chamar aqui de coisa e basicamente que eu vou fazer.
+
+24
+00:02:04,950 --> 00:02:10,510
+Vai ser desse ponto coisa recebe a coisa que eu recebi como parâmetro.
+
+25
+00:02:10,530 --> 00:02:10,930
+Tá bom.
+
+26
+00:02:11,310 --> 00:02:20,160
+Então para outras parâmetro aqui 79 já tem coisa que é o atributo distância desse objeto é outro método
+
+27
+00:02:20,320 --> 00:02:26,790
+que eu também vou colocar publique que vai retornar o objeto objetivo que eu vou chamar aqui de abri
+
+28
+00:02:27,340 --> 00:02:33,720
+ou seja quando você abrir a caixa ele vai retornar exatamente a coisa que foi armazenada dentro da caixa.
+
+29
+00:02:34,230 --> 00:02:38,740
+Então pronto criei o meu objeto coisa basicamente o que eu tenho aqui é um metro Gate 7.
+
+30
+00:02:38,760 --> 00:02:45,370
+Só que o chamei de nomes diferentes só pra contextualizar dentro da classe em caixa objetos que eu criei.
+
+31
+00:02:45,480 --> 00:02:57,000
+Vou criar uma outra classe chamada caixa objeto teste de caixa objeto teste dessa classe então eu vou
+
+32
+00:02:57,000 --> 00:02:59,760
+colocar um metro no meio para a gente criar a nossa caixa.
+
+33
+00:03:00,240 --> 00:03:05,520
+Então o que você vai percebendo nesse tipo de cenário é que a gente vai precisar trabalhar muito com
+
+34
+00:03:05,570 --> 00:03:07,550
+casting conversões.
+
+35
+00:03:07,890 --> 00:03:09,210
+Isso não é tão legal.
+
+36
+00:03:09,210 --> 00:03:14,220
+Primeiro que é perigoso pode ter situações que você tentar converter uma coisa em outro que não vai
+
+37
+00:03:14,220 --> 00:03:19,620
+dar certo você vai levar uma exceção e vai ter uma exceção sendo lançada no seu código e isso não é
+
+38
+00:03:19,620 --> 00:03:20,400
+tão interessante.
+
+39
+00:03:20,400 --> 00:03:32,020
+Vou colocar o caixa a SAD e o caixa objeto e aí eu vou colocar aqui por exemplo a caixa a ponto de guardar
+
+40
+00:03:32,080 --> 00:03:37,020
+e o que irei guardar por exemplo um valor do tipo 2.
+
+41
+00:03:37,020 --> 00:03:38,120
+Ponto 3.
+
+42
+00:03:38,280 --> 00:03:43,880
+Fazendo isso o que é que vai acontecer isso aqui é um valor primitivo literal primitivo do tipo W.
+
+43
+00:03:44,310 --> 00:03:51,360
+Então automaticamente já que eu coloquei um tipo de dado primitivo ele vai converter isso pra uma classe
+
+44
+00:03:51,360 --> 00:03:55,140
+do tipo B que ele faz o que ele chama de alto Box né.
+
+45
+00:03:55,170 --> 00:04:01,440
+Pegar um primitivo e colocar dentro do rapper que aquela classe que envolve o primitivo.
+
+46
+00:04:01,440 --> 00:04:07,900
+Isso aqui é um processo que acontece automaticamente de tal forma que do ponto de vista de código eu
+
+47
+00:04:07,900 --> 00:04:11,330
+posso tentar fazer isso aqui ou eu vou criar aquilo.
+
+48
+00:04:11,370 --> 00:04:18,480
+Muita gente por exemplo lá chamar aqui de coisa mesmo e vou pagar é caixa.
+
+49
+00:04:18,480 --> 00:04:19,400
+Ponto.
+
+50
+00:04:19,710 --> 00:04:28,680
+Abri e nesse caso como não vai dar certo eu posso fazer um teste então achei que no final das contas
+
+51
+00:04:28,680 --> 00:04:34,440
+eu vou mostrar o valor de coisa e tal a primeira característica que aconteceu aqui no momento que eu
+
+52
+00:04:34,440 --> 00:04:39,840
+chamei o método abri ele vai me retornar um objetivo como eu quero normalmente trabalhar com alguma
+
+53
+00:04:39,840 --> 00:04:41,770
+coisa mais específica.
+
+54
+00:04:41,820 --> 00:04:44,780
+Dificilmente vou estar trabalhando no nível do Object.
+
+55
+00:04:44,910 --> 00:04:48,210
+Eu preciso fazer um cache e esse é um cache perigoso.
+
+56
+00:04:48,290 --> 00:04:55,290
+Ok ok só vai dar certo se queixe se aquilo que foi retornado a partir do método abri realmente foi um
+
+57
+00:04:55,290 --> 00:05:02,090
+inteiro e nesse caso a gente sabe que não foi um inteiro ele foi de esse queixo vai dar problema.
+
+58
+00:05:02,310 --> 00:05:08,360
+Se a gente executar esse código você vai perceber o seguinte ao que ele deu um problema de classe cresce
+
+59
+00:05:08,640 --> 00:05:15,940
+sépia ou seja a classe do tipo Java além de W já que teve aquela conversa automática do primitivo para
+
+60
+00:05:15,940 --> 00:05:20,890
+o rapper não pode ser feito um cache pra Java além de internet.
+
+61
+00:05:21,010 --> 00:05:26,520
+Aqui eu poderia por exemplo colocar um W e aqui colocar um dá algo.
+
+62
+00:05:26,670 --> 00:05:35,140
+Aí sim eu teria a coisa né que obtive mas você percebe que é um tanto quanto chato porque você precisa
+
+63
+00:05:35,140 --> 00:05:38,750
+estar fazendo esse caixa não posso simplesmente fazer isso.
+
+64
+00:05:39,040 --> 00:05:46,090
+Ok Ok isso aqui é retornado do tipo pobre gente então nem todo Object é bom então o Java percebe já
+
+65
+00:05:46,090 --> 00:05:50,330
+que essa conversão nem sempre será feita de forma correta.
+
+66
+00:05:50,380 --> 00:05:57,010
+Eu quero que o programador de forma explícita vá lá e coloque o cache você vai lá tem que colocar o
+
+67
+00:05:57,010 --> 00:06:02,870
+queixo explícito não gera nenhum problema nenhum e divertem se o fato de você ter colocado um cache
+
+68
+00:06:02,870 --> 00:06:06,420
+explicito mas é um trabalho muito chato de ser feito.
+
+69
+00:06:06,430 --> 00:06:13,600
+Então se você for criar por exemplo outra caixa Bloquear aqui uma caixa então o caixa B eu já vou passar
+
+70
+00:06:13,600 --> 00:06:15,120
+aqui para caixa B.
+
+71
+00:06:15,130 --> 00:06:23,590
+O valor do tipo string aqui ou lá quando eu quiser obter algo na caixa eu preciso saber o que tem dentro
+
+72
+00:06:23,590 --> 00:06:32,160
+pra fazer México distribuir de tal forma que eu a coisa eu vou chamar aqui coisa que obtive na caixa
+
+73
+00:06:32,210 --> 00:06:42,220
+aí a coisa B que obtive na caixa B coloca aqui caixa B para criar a caixa B coloquei a caixa B aqui
+
+74
+00:06:42,820 --> 00:06:50,850
+chamei o aguardaria pois abrir a caixa B tem na coisa B finalmente mostrei o código eu tenho 2 ponto
+
+75
+00:06:50,890 --> 00:06:58,570
+3 e é lá que são as duas saídas aqui então tudo deu certo porque o que eu passei é o tipo correto e
+
+76
+00:06:58,570 --> 00:07:03,610
+fiz o cache do tipo correto mas é muito chato você ter que ficar fazendo essas conversões de objetos
+
+77
+00:07:03,670 --> 00:07:08,640
+para algo muito específico então tem que trabalhar com esse tipo de coisa você está sempre correndo
+
+78
+00:07:08,650 --> 00:07:15,970
+o risco de ter uma conversão e além de ter uma exceção do tipo classe Cast Section porque você tentou
+
+79
+00:07:15,970 --> 00:07:21,400
+converter um tipo para outro e não é a forma mais interessante para esse tipo de cenário.
+
+80
+00:07:21,400 --> 00:07:23,250
+Os genéricos vai ajudar bastante.
+
+81
+00:07:23,560 --> 00:07:24,070
+Porquê.
+
+82
+00:07:24,080 --> 00:07:29,230
+Porque com o tipo genérico você consegue dizer exatamente qual o tipo que você quer trabalhar e você
+
+83
+00:07:29,230 --> 00:07:30,960
+vai ter não é o dobro.
+
+84
+00:07:31,000 --> 00:07:38,170
+Aí você vai ter o tempo de compilação momento que esse caso aqui é que a gente colocou o tipo string
+
+85
+00:07:38,530 --> 00:07:41,960
+e você tentou fazer um teste para o tipo W.
+
+86
+00:07:41,980 --> 00:07:43,690
+Você colocou o w aqui.
+
+87
+00:07:43,870 --> 00:07:49,380
+Você não vai ter nenhum tipo de compilação o seu código vai compilar de forma correta o arquivo ponto
+
+88
+00:07:49,440 --> 00:07:55,510
+Class será gerado de forma correta você vai mudar a sua aplicação para o cliente mais quando o cliente
+
+89
+00:07:55,510 --> 00:07:57,000
+for usar a funcionalidade.
+
+90
+00:07:57,160 --> 00:08:02,790
+Aí você vai enfrentar um erro ou seja quando ele for executado você vai ter um erro de classe teste
+
+91
+00:08:02,900 --> 00:08:03,730
+e recebe.
+
+92
+00:08:03,760 --> 00:08:10,180
+Já no caso dos genéricos você vai ver que uma vez que você disse que um determinado lista só vai aceitar
+
+93
+00:08:10,180 --> 00:08:15,190
+valores do tipo string e se você tentar adicionar um cabo ou qualquer outro tipo você vai ter um erro
+
+94
+00:08:15,190 --> 00:08:18,350
+de compilação ele vai conseguir fazer a checagem.
+
+95
+00:08:18,400 --> 00:08:24,130
+Isso vai ajudar bastante e além do fato de que você não vai precisar ficar fazendo cache se você tem
+
+96
+00:08:24,130 --> 00:08:30,220
+uma classe que precisa ser genérica ou seja trabalhar com tipos diferentes tipos genéricos exatamente
+
+97
+00:08:30,220 --> 00:08:36,100
+para isso que serve genéricos e por isso que colocaram um nome genérico senão como eu imaginava no começo
+
+98
+00:08:36,470 --> 00:08:42,670
+que você tava especificando na verdade essa nomenclatura vem do fato de que você criou ou não é quem
+
+99
+00:08:42,670 --> 00:08:47,950
+desenvolveu a classe criou uma classe genérica e na hora de usar você especifica para a sua necessidade
+
+100
+00:08:48,340 --> 00:08:53,650
+na próxima aula vou fazer um exemplo muito parecido com isso pra gente tiver essa contraposição né como
+
+101
+00:08:53,650 --> 00:08:59,160
+a gente pode resolver esse problema pra evitar os testes e não ter problema digamos assim implantar
+
+102
+00:08:59,190 --> 00:09:01,960
+me usando genéricos e até aproximá lo.

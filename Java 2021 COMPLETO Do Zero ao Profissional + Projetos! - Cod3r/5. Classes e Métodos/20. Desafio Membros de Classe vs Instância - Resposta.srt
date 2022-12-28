@@ -1,0 +1,175 @@
+1
+00:00:00,690 --> 00:00:07,580
+Agora vão fazer a mudança começa aqui com os táticos colocando desconto passou a ser estático e vou
+
+2
+00:00:07,610 --> 00:00:09,800
+atribui o valor zero ponto.
+
+3
+00:00:09,850 --> 00:00:17,400
+5 Não vou marcar como farão porque esse valor eventualmente vai mudar uma vez que eu marquei um desconto
+
+4
+00:00:17,430 --> 00:00:19,320
+pra simbolo estático.
+
+5
+00:00:19,320 --> 00:00:26,160
+Já não faz sentido repassar o desconto no construtor porque esse é o passado no futuro vai passar a
+
+6
+00:00:26,160 --> 00:00:33,150
+falsa sensação pra quem está construindo o objeto que esse valor está sendo alterado digamos assim apenas
+
+7
+00:00:33,150 --> 00:00:39,120
+pra instância isso vai dar margem para a confusão ao deixar o seu colo não muito claro apesar de que
+
+8
+00:00:39,210 --> 00:00:42,980
+você consiga a partir do conforto alterar o desconto.
+
+9
+00:00:42,990 --> 00:00:48,870
+Isso não fica legal porque não vai trazer muita clareza o ideal que você acesse de uma forma mais explícita
+
+10
+00:00:49,270 --> 00:00:55,490
+ou seja você altere o desconto de uma forma a chamar diretamente a classe e produto ponto com desconto
+
+11
+00:00:55,530 --> 00:01:01,170
+receber alguma coisa a partir de metros de distância não tem problema nenhum você acessar o desconto
+
+12
+00:01:01,170 --> 00:01:05,060
+que é estático é porque a classe sempre vem antes da instância.
+
+13
+00:01:05,130 --> 00:01:11,280
+Se você está tentando acessar a partir de um metro que pertence à instância você tem sim acesso aos
+
+14
+00:01:11,280 --> 00:01:16,890
+valores da classe sem problema nenhum então tem um aqui continua com os mesmos métodos só fechará do
+
+15
+00:01:16,890 --> 00:01:17,790
+construtor.
+
+16
+00:01:17,790 --> 00:01:25,620
+Feito isso aqui dentro a gente vai ter um problema que eu não vou passar aqui 0,25 diretamente no produto
+
+17
+00:01:25,770 --> 00:01:31,930
+e nem vou acessar também um desconto aqui como sendo a parte da instância nesse caso eu vou colocar
+
+18
+00:01:31,950 --> 00:01:39,990
+o produto ponto de desconto e aí sim todos os produtos da minha loja Monteiro 29 por cento de desconto
+
+19
+00:01:40,110 --> 00:01:47,090
+então para a gente testar eu um produto no produto 2 C até os 29 por cento de desconto executado.
+
+20
+00:01:47,250 --> 00:01:53,820
+Nós temos aqui o resultado que na verdade não fica tão clara porque é um somatório numa média do carrinho.
+
+21
+00:01:53,830 --> 00:02:01,470
+Vou fazer o seguinte eu vou concatenar aqui eu vou com cautela novamente pergunto ponto o preço com
+
+22
+00:02:01,470 --> 00:02:07,340
+desconto para a gente ver o valor eu vou pagar exatamente esse trecho aqui jogar aqui em baixo e colocar
+
+23
+00:02:07,360 --> 00:02:13,620
+P2 outro preço com desconto executado aqui a gente tem 3 mil e alguma coisa já que o preço original
+
+24
+00:02:13,620 --> 00:02:20,580
+foi 4 mil trezentos e o valor da caneta que era 12 passou a ser 8 alguma coisa o que eu tenho quase
+
+25
+00:02:20,580 --> 00:02:22,150
+30 por cento de desconto.
+
+26
+00:02:22,260 --> 00:02:28,590
+Se eu colocar aqui pra 100 50 por cento de desconto vocês vão ver que vai ser exatamente a metade do
+
+27
+00:02:28,590 --> 00:02:37,980
+meu 4 mil trazendo alguma coisa ficou 2 mil e alguma coisa que era 12 e 56 passou a ser 6 e 28 ou seja
+
+28
+00:02:38,070 --> 00:02:41,600
+aqui fica claro que eu estou alterando o desconto do produto.
+
+29
+00:02:41,610 --> 00:02:47,890
+Então a dica importante de clareza e sempre vá pelo caminho da clareza da simplificação o caminho de
+
+30
+00:02:47,890 --> 00:02:51,580
+que um código que ele faz está explícito e não implícito.
+
+31
+00:02:52,050 --> 00:03:00,890
+Então quando você faz P2 ponto desconto você tá mostrando o código que tal terá um desconto de B2.
+
+32
+00:03:00,930 --> 00:03:05,910
+Mais o que está acontecendo implicitamente com você tal terão um desconto de todos os produtos do seu
+
+33
+00:03:05,910 --> 00:03:06,570
+sistema.
+
+34
+00:03:07,080 --> 00:03:11,400
+Então mesmo que ele bote por exemplo em itálico ficam a advertência.
+
+35
+00:03:11,520 --> 00:03:13,950
+O ideal é você evitar esse tipo de coisa.
+
+36
+00:03:13,950 --> 00:03:14,460
+Pode.
+
+37
+00:03:14,460 --> 00:03:20,670
+Você consegue fazer isso funciona funciona mais o ideal é que você seja explícito e que fique muito
+
+38
+00:03:20,670 --> 00:03:26,970
+claro o que você está alterando o desconto dos produtos de todos os produtos porque o desconto pertence
+
+39
+00:03:26,970 --> 00:03:32,130
+à classe já que o desconto é um atributo estático então esse aqui é o nosso desafio para que a gente
+
+40
+00:03:32,130 --> 00:03:37,380
+pudesse aplicar e estático também nossa classe Produto é um desafio simples.
+
+41
+00:03:37,380 --> 00:03:43,560
+Basicamente a gente colocou estático e o valor padrão e removeu para uma questão de simplificação de
+
+42
+00:03:43,560 --> 00:03:46,930
+clareza de código removeu o desconto do construtor.
+
+43
+00:03:47,340 --> 00:03:53,370
+E aqui a gente também não está mais acessando o desconto a partir de nenhuma instância está se desconto
+
+44
+00:03:53,400 --> 00:03:55,520
+diretamente a partir da classe.

@@ -1,0 +1,663 @@
+1
+00:00:00,090 --> 00:00:04,900
+Agora pessoal mais vamos falar sobre o grito de bem que é um gerenciador de layout.
+
+2
+00:00:05,280 --> 00:00:12,070
+Baseado em um brinde em linhas e colunas essa é a forma que você vai pensar para organizar o seu leal.
+
+3
+00:00:12,090 --> 00:00:15,680
+é possível dentro desse layout de você ter um elemento pobrismo.
+
+4
+00:00:15,690 --> 00:00:18,850
+Você pode fazer o Espanyol o espanhol.
+
+5
+00:00:18,850 --> 00:00:26,130
+UOL Esporte E você fazer com que um alimento ocupe mais de uma área no Krishna e mais uma célula dentro
+
+6
+00:00:26,130 --> 00:00:26,660
+do grid.
+
+7
+00:00:26,670 --> 00:00:27,950
+Mostrar isso para vocês.
+
+8
+00:00:28,260 --> 00:00:36,010
+Esse exercício toma lá nós vamos criar mais uma nova classe aqui dentro o nosso pacote layout.
+
+9
+00:00:36,190 --> 00:00:39,790
+O nome da classe vai ser péssimo queridinho.
+
+10
+00:00:39,790 --> 00:00:51,480
+Bem nós vamos fazer com que essa classe estenda e grite bem e eu vou criar aqui o custo do padrão nessa
+
+11
+00:00:51,480 --> 00:00:59,150
+classe para a gente começar a desenvolver volta aqui eu vou criar mais uma referência para a raiz aí
+
+12
+00:01:00,450 --> 00:01:04,950
+eu bem que sempre vai cagar o último trecho.
+
+13
+00:01:04,950 --> 00:01:07,890
+Na verdade nem Gripen.
+
+14
+00:01:08,660 --> 00:01:16,950
+Se alguém lá perguntar para o arquiteto Gripen é uma vez feito isso a gente vai começar a desenvolver
+
+15
+00:01:17,310 --> 00:01:21,090
+o nosso a nossa Gripen eu vou usar para esse exercício.
+
+16
+00:01:21,090 --> 00:01:28,350
+A caixa qualquer caixa recebe em caixa.
+
+17
+00:01:28,710 --> 00:01:39,150
+Conto com texto e aí vou colocar o texto vou duplicar isso aqui pra 6 caixas Tá certo então vai ser
+
+18
+00:01:39,450 --> 00:01:46,730
+2 3 4 5 6 e alterar tamanho para 2 3 4 5 6.
+
+19
+00:01:46,740 --> 00:01:56,440
+Existe uma propriedade no grid que é o sétimo Grid lá isso é bom para a gente vê as linhas do grid e
+
+20
+00:01:56,450 --> 00:02:01,650
+vai ficar mais fácil de entender exatamente o que está acontecendo e vou criar mais duas funções que
+
+21
+00:02:01,650 --> 00:02:10,160
+vai ser o seguinte vou criar uma função e eu vou ter que publique era beta ou nao colam com questões
+
+22
+00:02:10,630 --> 00:02:17,220
+como construir eu vou colocar assim CC decolam se aproximando um pequeno porque eu vou usar essa função
+
+23
+00:02:17,220 --> 00:02:19,280
+mais uma vez na mesma linha.
+
+24
+00:02:19,820 --> 00:02:25,860
+Então não muito grande mais CC seria cólon construí em meu nome é bom pra você usar porque com essas
+
+25
+00:02:25,860 --> 00:02:32,070
+duas letras Gui pode ser qualquer coisa séria mas só pra gente usar a função como um biquíni já que
+
+26
+00:02:32,070 --> 00:02:36,570
+eu vou repetir várias vezes eu vou definir o futuro aqui vai ter.
+
+27
+00:02:36,660 --> 00:02:39,290
+Acho que cinco linhas e cinco colunas.
+
+28
+00:02:39,660 --> 00:02:45,030
+Então eu vou criar uma função que vai torná la como um conceito e vou criar uma outra função que pode
+
+29
+00:02:45,150 --> 00:02:56,460
+inclusive ser proibidos proibitiva ou criar um blog construir isso é fácil e sem essas duas funções
+
+30
+00:02:56,460 --> 00:02:58,270
+vão retornar como vai ser.
+
+31
+00:02:58,320 --> 00:03:05,880
+As restrições ou como a coluna vai se comportar e como a linha vai se comportar você pode ter um app
+
+32
+00:03:05,980 --> 00:03:10,410
+com questões de coluna pra cada coluna que você tem que construir diferentes.
+
+33
+00:03:10,410 --> 00:03:15,870
+Essa coluna aqui vai ter um tamanho e 200 dessa que vai crescer 80 por cento.
+
+34
+00:03:15,870 --> 00:03:21,760
+Aqui vai ter um tamanho X você pode criar um nome para cada mas no nosso caso não criar a mesma postura
+
+35
+00:03:21,790 --> 00:03:23,180
+em todas as colunas.
+
+36
+00:03:23,180 --> 00:03:31,170
+Vão ser cinco colunas e cinco linhas está aqui para criar o cólon construindo eu criar algo com algum
+
+37
+00:03:31,170 --> 00:03:35,980
+custo X chamado de 67 mil um custo mensal.
+
+38
+00:03:36,060 --> 00:03:42,660
+Eu posso já passar os parâmetros se quiser diretamente no construtor pois eu posso passar embaixo também
+
+39
+00:03:42,960 --> 00:03:43,760
+sem problema.
+
+40
+00:03:43,810 --> 00:03:53,080
+CC outro aqui no caso definiu um site tem como você definir tamanhos fixos ou tamanhos baseados em percentuais.
+
+41
+00:03:53,130 --> 00:03:56,880
+Eu coloquei cinco colunas e cinco linhas exatamente para dividir.
+
+42
+00:03:56,940 --> 00:04:03,090
+Cada comuna vai ter 20 por cento do tamanho da tela se de todas as colunas ter o mesmo tamanho.
+
+43
+00:04:03,120 --> 00:04:08,560
+Eu também vou fazer inclusive aqui mas vou fazer ao mesmo tempo as duas funções vou construir isso eu
+
+44
+00:04:08,640 --> 00:04:16,830
+vou chamar aqui de SC recebe dinheiro constrói isso e aí você pode se quiser colocar esse tamanho baseado
+
+45
+00:04:16,830 --> 00:04:20,520
+em percentual como eu falei não sei.
+
+46
+00:04:20,520 --> 00:04:28,740
+Ponto 7 Você tem que a altura mínima dali em Altura máxima Se você quer que preencha a altura e o percentual
+
+47
+00:04:28,860 --> 00:04:29,630
+da altura.
+
+48
+00:04:29,640 --> 00:04:34,290
+Quero que essa linha tenha um autor que tenha um percentual de tantos por cento da tela.
+
+49
+00:04:34,290 --> 00:04:37,520
+E aí você pode colocar várias coisas naquela ação.
+
+50
+00:04:37,710 --> 00:04:39,810
+Se vai crescer se não vai crescer.
+
+51
+00:04:39,810 --> 00:04:46,650
+Essa linha aqui aí em cima do degrau por exemplo você vai ter as prioridades aí ele vai você vai crescer
+
+52
+00:04:46,650 --> 00:04:48,390
+sem aparecer nunca vai crescer.
+
+53
+00:04:48,660 --> 00:04:51,620
+E coisas do tipo aqui eu vou trabalhar também com o percentual.
+
+54
+00:04:51,770 --> 00:04:56,000
+Vou colocar um percentual de 20% para ficar bem fácil de entender.
+
+55
+00:04:56,010 --> 00:04:57,020
+Outra coisa que você tá.
+
+56
+00:04:57,050 --> 00:05:01,480
+Vai ser o 7 filme pra ele pra encher a altura.
+
+57
+00:05:01,480 --> 00:05:07,740
+Então vou colocar aqui tu já aqui na coluna ele vai pra encher a largura então CC ponto 7.
+
+58
+00:05:07,930 --> 00:05:13,950
+Filme pra encher a largura e então colocar outro e no final vou retornar.
+
+59
+00:05:14,020 --> 00:05:17,350
+CC Eu vou retornar sem
+
+60
+00:05:20,190 --> 00:05:26,170
+receber qualquer coisa a gente pode ir ajustando de acordo com a necessidade.
+
+61
+00:05:26,410 --> 00:05:32,540
+E aqui como nós vamos criar 55 colunas eu tenho 2 metros que eu vou usar para adicionar essas composições
+
+62
+00:05:32,540 --> 00:05:36,400
+e tal Betti rolo com estranhos.
+
+63
+00:05:36,420 --> 00:05:37,120
+Ponto.
+
+64
+00:05:37,150 --> 00:05:41,800
+Adicionar ou adicionar várias funções ao mesmo tempo.
+
+65
+00:05:41,950 --> 00:05:48,250
+E aqui eu posso colocá lo colam com questões quando eu chamo esse método ele cria uma nova instância
+
+66
+00:05:48,610 --> 00:05:50,260
+e constrói e joga aqui.
+
+67
+00:05:50,350 --> 00:05:56,590
+Então se repetir isso aqui mais quatro vezes pra cinco vezes e chamar essa função significa que eu vou
+
+68
+00:05:56,590 --> 00:05:59,390
+ter cinco colunas na minha aplicação.
+
+69
+00:05:59,400 --> 00:06:10,930
+Eu posso pagar aqui gatinho construir esse ponto adicionar ou coloco sem mostrar isso nasceu dois três
+
+70
+00:06:10,960 --> 00:06:17,900
+quatro cinco anos porque ele está abrindo aqui 4 e cinco pronto.
+
+71
+00:06:18,400 --> 00:06:23,810
+Então eu tenho cinco linhas cinco colunas já definida em cima dessas construções para automóveis que
+
+72
+00:06:23,830 --> 00:06:30,220
+definem as construções tanto de coluna como de linha que eu vou fazer agora vai se chamar os elementos
+
+73
+00:06:30,220 --> 00:06:37,030
+na tela dizendo exatamente onde é que eu quero adicionar cada um dos elementos a adicionar na coluna
+
+74
+00:06:37,030 --> 00:06:38,580
+zero linha zero.
+
+75
+00:06:38,590 --> 00:06:40,820
+Quantos espaços ele vai tomar.
+
+76
+00:06:40,900 --> 00:06:42,630
+Então eu vou colocar aqui.
+
+77
+00:06:42,650 --> 00:06:48,520
+Inicialmente vai adicionar algumas posições depois a gente vai fazer alguns ajustes pra gente realmente
+
+78
+00:06:48,520 --> 00:06:54,580
+entender como é que a gente pode posicionar os elementos eu vou chamar a função adicionais que são funções
+
+79
+00:06:54,580 --> 00:07:00,850
+de chamamento para esse layout que você passa por exemplo a caixa e eu vou dizer qual é o interesse
+
+80
+00:07:00,850 --> 00:07:01,730
+da coluna.
+
+81
+00:07:01,840 --> 00:07:07,750
+Quero inserir na coluna zero então coloco um como no zero e quero inserir na linha 01.
+
+82
+00:07:07,870 --> 00:07:09,790
+Eu coloco aqui a minha 0.
+
+83
+00:07:09,820 --> 00:07:17,530
+Com isso ele vai usar essas construções aqui vai mostrar o elemento dentro da coluna zero da linha zero.
+
+84
+00:07:17,680 --> 00:07:22,620
+E ele vai ocupar o centro da tela inteira porque eu tenho cinco colunas e cinco linhas.
+
+85
+00:07:22,620 --> 00:07:25,500
+Tá certo então ele ocupou o primeiro espaço.
+
+86
+00:07:25,550 --> 00:07:31,960
+Eu quero agora por exemplo colocar que eu quero que ele ocupe duas posições tanto na linha em duas posições
+
+87
+00:07:31,960 --> 00:07:36,490
+na coluna seja ocupar esses quatro quatro partes aqui.
+
+88
+00:07:36,520 --> 00:07:42,010
+Basta usar os outros parâmetros que e se houver um contra o espaço amostral aqui.
+
+89
+00:07:42,040 --> 00:07:45,790
+Esse segundo método é que é o primeiro.
+
+90
+00:07:46,230 --> 00:07:54,520
+Depois é o início da coluna da linha o COL espao seja o quanto ele vai expandir na coluna e quanto ele
+
+91
+00:07:54,520 --> 00:07:58,390
+vai expandir na minha pessoa colocar dois e um que vai acontecer.
+
+92
+00:07:58,390 --> 00:08:07,020
+Ele vai expandir esse elemento na coluna 7 lugar dar qual o espólio ficará mais largo que vai ocupar
+
+93
+00:08:07,120 --> 00:08:11,200
+o primeiro quadradinho e o segundo se eu quiser dar um espaço para baixo.
+
+94
+00:08:11,270 --> 00:08:18,760
+Logo aí ocupa os quatro aquilo que eu achar para vocês ao invés de colocar dois aqui executando.
+
+95
+00:08:18,760 --> 00:08:23,910
+Ele vai ocupar um quadrado maior do século outro espaço todinho.
+
+96
+00:08:24,020 --> 00:08:27,220
+Você não cara colocar o segundo elemento começa daqui.
+
+97
+00:08:27,330 --> 00:08:32,380
+Uma parte deles tocando no mesmo ponto e eu quero que ele ocupe esse.
+
+98
+00:08:32,470 --> 00:08:33,900
+Esse é esse.
+
+99
+00:08:33,900 --> 00:08:36,130
+Então aqui o índice zero.
+
+100
+00:08:36,250 --> 00:08:40,380
+Então seria para ele começar aqui e ali vai 2 dólares.
+
+101
+00:08:40,390 --> 00:08:45,060
+Então eu colocar o C2 adicionar C2.
+
+102
+00:08:45,700 --> 00:08:52,450
+Ele vai começar do 1 e vai 2 2 vai ter um quadradinho que eles vão ficar sobrepostos.
+
+103
+00:08:52,540 --> 00:08:58,840
+E como esse foi adicionado e segundo ele vai ficar em cima então executado vai ter que marcar um sobre
+
+104
+00:08:58,840 --> 00:09:04,680
+o outro e o segundo vai marcar o segundo primeiro porque ele foi adicionado no segundo.
+
+105
+00:09:04,750 --> 00:09:09,820
+Beleza como adicionar agora o terceiro vamos pensar aqui em que posição este vai adicionar o terceiro.
+
+106
+00:09:10,200 --> 00:09:14,990
+Vou colocar aqui para a gente ver então o quero adicionar o terceiro.
+
+107
+00:09:15,040 --> 00:09:18,970
+Bem aqui começa nesse quadrado indo até o final.
+
+108
+00:09:19,330 --> 00:09:28,850
+Então esse quadrado aqui vai ser o índice zero 2 ou seja a linha 2 e a coluna 0 2 3 4 então vai ser
+
+109
+00:09:28,930 --> 00:09:34,240
+4 4 2 e eu vou fazer um espaço.
+
+110
+00:09:34,500 --> 00:09:37,720
+3 1 3 4 2 1 3.
+
+111
+00:09:37,720 --> 00:09:39,100
+Eu não estou enganado.
+
+112
+00:09:39,130 --> 00:09:46,800
+Eu vou colocar aqui ou adicionar 3 4 1 2 3.
+
+113
+00:09:46,990 --> 00:09:53,040
+Eu acho que isso já está aqui pra ver como é que fica o resultado exatamente com essa posição.
+
+114
+00:09:53,050 --> 00:10:00,370
+Vou colocar Caixa 4 bem nessa posição logo abaixo do 3 mas ocupando apenas uma única caixa então esse
+
+115
+00:10:00,370 --> 00:10:14,020
+aqui vai ser a coluna 0 2 3 1 3 1 colocaram a aumentar eu colocasse 4 3 1 não preciso passar os outros
+
+116
+00:10:14,020 --> 00:10:19,170
+dois parâmetros porque ele não vai ocupar mais do que a célula.
+
+117
+00:10:19,260 --> 00:10:21,700
+Tão baixo chamar outro método.
+
+118
+00:10:21,700 --> 00:10:30,850
+Colocou o que eu vou colocar cinco começando aqui ao colocar o cinco aqui nessa ponta na última então
+
+119
+00:10:31,210 --> 00:10:47,260
+vai ser zero e a linha 0 2 3 e 4 então 0 4 no caixão adicionada C 4 0 4 e se eu quiser fazer com que
+
+120
+00:10:47,260 --> 00:10:57,510
+ele aumente na coluna posso colocar 2 1 e aí ele vai ocupar duas células na minha sina que é o caos.
+
+121
+00:10:58,300 --> 00:11:03,430
+Apaixonei duas vezes o C4 deu problema então C5 fez tanta falta.
+
+122
+00:11:03,430 --> 00:11:09,230
+Agora só o C6 do último né não ficou aqui é o último.
+
+123
+00:11:09,250 --> 00:11:13,380
+Ou seja vou colocar nessa posição que do lado terei só com o plano.
+
+124
+00:11:13,450 --> 00:11:30,750
+A única célula então vai ser 0 2 3 0 2 3 3 3 6 6 finalmente adicionar se 6 três meses sem pegar nenhum
+
+125
+00:11:30,750 --> 00:11:35,860
+tipo de dinheiro sem aumentar nem meus amigos correspondem ao pronto.
+
+126
+00:11:36,080 --> 00:11:41,460
+Essa é a posição dos 6 elementos 1 2 3 4 5 6.
+
+127
+00:11:41,910 --> 00:11:49,060
+Você tem por exemplo a possibilidade de colocar um V GAP e ele vai marchar também nas minhas Galt e
+
+128
+00:11:49,090 --> 00:11:53,110
+assim Bride linhas ou para você entender exatamente o que está acontecendo.
+
+129
+00:11:53,450 --> 00:12:07,020
+Então vou colocar 10 e colocar aqui um H bebe também de 10 para 20 mil resultados e para com isso vocês
+
+130
+00:12:07,020 --> 00:12:13,860
+vão ver que vai ficar muito fácil visualmente você perceber os gaps que existem entre cada uma das células
+
+131
+00:12:13,860 --> 00:12:19,110
+e como cada elemento ocupa dentro da células você pode colocar tamanhos fixos.
+
+132
+00:12:19,260 --> 00:12:27,270
+Por exemplo se você quiser pegar um elemento desse por exemplo roupas que colam constroem e vou definir
+
+133
+00:12:27,300 --> 00:12:29,550
+que vai ser fixo.
+
+134
+00:12:29,600 --> 00:12:38,470
+Colam com e veio esse ataque um percentual você tal como conquistou um ponto 7 pra si.
+
+135
+00:12:38,490 --> 00:12:45,510
+Por exemplo sei lá trezentos trezentos e muito duzentos e vou querer que o máximo também seja 200.
+
+136
+00:12:45,540 --> 00:12:50,480
+Então vai exatamente no tamanho 200 não vai permitir crescer nem diminuir.
+
+137
+00:12:50,810 --> 00:12:53,990
+E aqui em um deles eu posso passar aqui.
+
+138
+00:12:54,060 --> 00:12:59,270
+A coluna vai seu tamanho fixo vamos porque a coluna do meio vai ter um tamanho fixo.
+
+139
+00:12:59,540 --> 00:13:03,600
+Então eu posso passar uma construção diferente para a coluna do meio executando.
+
+140
+00:13:03,600 --> 00:13:09,500
+Vocês vão ver que a coluna do meio vai ter claramente um encaixe tão diferente só aumentou.
+
+141
+00:13:09,570 --> 00:13:17,430
+E aí o resto vai ocupar 20 por cento e tal aí vai acabar gerando algumas inconsistências porque as outras
+
+142
+00:13:17,490 --> 00:13:21,790
+colunas vão andar 80 por cento da tela e essa aqui do meio vai ter um tamanho fixo.
+
+143
+00:13:21,790 --> 00:13:25,800
+Será possível que baixem e que fora da tela por conta que o tamanho é fixo.
+
+144
+00:13:25,800 --> 00:13:33,000
+Ele não está mexendo o tamanho do meio mas o fato é que você tem flexibilidade para definir como você
+
+145
+00:13:33,000 --> 00:13:39,180
+quer organizar os seus elementos na tela certo ao colocar um pouco mais pra cima pra não ficar em cima
+
+146
+00:13:39,180 --> 00:13:41,390
+da minha imagem.
+
+147
+00:13:41,640 --> 00:13:50,630
+Você tem a flexibilidade colocar eu vou permanecer com todos flexíveis não vou deixar assim só pra mostrar
+
+148
+00:13:51,080 --> 00:13:52,900
+essa outra possibilidade.
+
+149
+00:13:53,020 --> 00:14:00,590
+E você também pode fazer essa possibilidade com relação logo que eu vou colocar um pouco menor 50.
+
+150
+00:14:00,860 --> 00:14:08,930
+Caí pelo menos tudo fica parecendo naquela só pra gente ver se realmente tudo vai aparecer na tela.
+
+151
+00:14:09,070 --> 00:14:09,780
+Pronto.
+
+152
+00:14:10,120 --> 00:14:16,070
+Aqui ficou menor sozinha só na coluna eu coloquei se eu quisesse colocar na linha eu também teria e
+
+153
+00:14:16,280 --> 00:14:27,120
+colocar um post e colocar tamanho gerar um ponto fixo aqui duplicados ou cabo fixo construímos aqui
+
+154
+00:14:27,130 --> 00:14:31,890
+em vez de serem dessa forma incessante.
+
+155
+00:14:32,370 --> 00:14:35,980
+A altura mínima vai ser 20 como coloquei.
+
+156
+00:14:36,060 --> 00:14:44,500
+E a altura máxima também vai ser bem vindos e vou pagar aqui no meio a mesma que eu coloquei filhos
+
+157
+00:14:45,300 --> 00:14:46,530
+também conta.
+
+158
+00:14:47,310 --> 00:14:53,010
+Essa é a última execução agora vocês vão ouvir aqui a coluna do meio e a linha do meio vai ficar bem
+
+159
+00:14:53,010 --> 00:14:56,240
+menor do que estavam acostumados nos outros cenários.
+
+160
+00:14:56,250 --> 00:15:01,340
+Se você for mexendo vai se adequando às necessidades pessoais.
+
+161
+00:15:01,420 --> 00:15:04,080
+Isso aqui mais um diferencial do layout.
+
+162
+00:15:04,080 --> 00:15:11,960
+Nesse caso agora o grite bem você tem outras formas de usar ele eu vou eventualmente outros exercícios
+
+163
+00:15:11,990 --> 00:15:14,670
+acabar usando o bem mais à frente.
+
+164
+00:15:14,670 --> 00:15:17,780
+Então fico por aqui pessoal mais um gerenciador de layout.
+
+165
+00:15:17,850 --> 00:15:23,640
+O próximo que nós vamos trabalhar depois do Gripen vai ser o estoque bem que também é muito interessante
+
+166
+00:15:23,660 --> 00:15:24,430
+e até aproximá lo.

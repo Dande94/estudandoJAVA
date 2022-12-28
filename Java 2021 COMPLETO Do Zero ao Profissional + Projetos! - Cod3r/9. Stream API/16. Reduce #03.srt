@@ -1,0 +1,363 @@
+1
+00:00:00,270 --> 00:00:05,790
+Agora nós vamos fazer o nosso segundo exercício de Windows e para isso eu vou criar mais um clássico
+
+2
+00:00:06,140 --> 00:00:12,220
+então uniu clãs ser dos dois.
+
+3
+00:00:12,720 --> 00:00:15,370
+E aqui nós vamos definir o nosso método.
+
+4
+00:00:15,810 --> 00:00:22,930
+Nesse caso eu vou usar classe aluno que a gente já criou nesse capítulo e eu vou criar um outro com
+
+5
+00:00:22,930 --> 00:00:28,200
+um futuro que nesse caso nesse exemplo que nós vamos trabalhar agora não vou precisar de bom comportamento
+
+6
+00:00:28,210 --> 00:00:35,450
+então para cá criando várias vezes passando bom comportamento verdadeiro verdadeiro eu vou assumir que
+
+7
+00:00:35,470 --> 00:00:38,130
+bom comportamento verdadeiro por padrão.
+
+8
+00:00:38,130 --> 00:00:45,060
+Nesse caso eu posso até fazer o seguinte posso chamar a partir desse custou de cima e chamar de baixo
+
+9
+00:00:45,090 --> 00:00:52,170
+passando o nome passando nota e finalmente passando com bom comportamento como sendo verdadeiro ou seja
+
+10
+00:00:52,170 --> 00:00:57,720
+usa a nudez eu chamo uma parte de um conflito que eu chamo outro consultor e fica um pouco mais fácil
+
+11
+00:00:57,930 --> 00:01:03,840
+para a gente trabalhar agora no nosso exercício tal como fazer o seguinte vou criar quatro alunos ou
+
+12
+00:01:03,840 --> 00:01:06,440
+criar aqui um aluno um
+
+13
+00:01:09,400 --> 00:01:17,850
+aluno eu vou passar aqui o nome do aluno vai ser presidente banana e roubasse a nota 7 com tudo certo
+
+14
+00:01:17,850 --> 00:01:32,030
+vou duplicar dou aula 1 2 3 4 então coloca aqui 2 3 4 7 6 e 10.
+
+15
+00:01:32,070 --> 00:01:43,690
+Aqui vai ser a de Gabi e aqui Marcelo estão os nossos 4 alunos e vou criar aqui uma lista lista do tipo
+
+16
+00:01:43,800 --> 00:01:49,940
+aluno marque alguns deles no plural e a partir de arrepios tu és lixo.
+
+17
+00:01:50,420 --> 00:01:58,910
+Vou passar a A2 A3 e A4 são os nossos quatro alunos nesse exercício.
+
+18
+00:01:59,040 --> 00:02:06,480
+Além de usar um tipo de dado que não é o tipo primitivo como foi no caso do ano passado eu vou usar
+
+19
+00:02:06,600 --> 00:02:14,670
+também o filtro vou usar o MEP e vou usá lo do 5 no jogo que é um exemplo bastante comum você encontrar
+
+20
+00:02:14,670 --> 00:02:19,650
+no mercado se tem algum algum algoritmo pay per la em execução.
+
+21
+00:02:19,680 --> 00:02:25,650
+São esses métodos executados um depois o outro usando este Wine pra você fazer processamentos que precisam
+
+22
+00:02:25,650 --> 00:02:33,510
+de filtro precisam de mapeamentos precisam de lógicas que vão reduzir os dados como o Windows eu vou
+
+23
+00:02:33,510 --> 00:02:38,940
+mostrar pra vocês nesse exemplo eu vou criar um predicado vou criar uma função e vou criar também uma
+
+24
+00:02:38,940 --> 00:02:45,490
+função acumulador para que a gente possa fazer essas operações usando um operador binário eBay meu do
+
+25
+00:02:45,540 --> 00:02:52,020
+primeiro predicado que é algo que recebe um aluno retorna verdadeiro ou falso então o predicado é usado
+
+26
+00:02:52,020 --> 00:02:53,010
+como eu quero filtrar.
+
+27
+00:02:53,340 --> 00:03:00,330
+Então eu quero filtrar todos os aprovados até já fez isso aprovado ou aprovado provado que nessa área
+
+28
+00:03:00,330 --> 00:03:03,070
+apenas um único aluno não é tão bom aluno.
+
+29
+00:03:03,120 --> 00:03:09,360
+E aqui eu vou fazer a nota tem que ser maior ou igual a 7.
+
+30
+00:03:09,360 --> 00:03:16,860
+Vou fazer aqui que achando que recebe um valor que eu vou receber um valor dessa minha fonte vai ser
+
+31
+00:03:16,860 --> 00:03:18,030
+pra fazer um mapeamento.
+
+32
+00:03:18,030 --> 00:03:22,280
+Quero receber um aluno que quero retornar apenas a nota desse aluno.
+
+33
+00:03:22,380 --> 00:03:29,670
+Então eu recebo como primeiro Paula parâmetro um aluno e retorno que me dá lucro e se anota aqui eu
+
+34
+00:03:29,670 --> 00:03:31,330
+posso chamar o nome de Dede.
+
+35
+00:03:31,330 --> 00:03:34,680
+Nota apenas a nota só nota 7.
+
+36
+00:03:34,680 --> 00:03:42,360
+Eu vou colocar aqui apenas nota que vai ser a função responsável por receber o aluno e aí eu vou retornar
+
+37
+00:03:42,680 --> 00:03:44,260
+a nota.
+
+38
+00:03:44,370 --> 00:03:45,800
+Simplesmente isso.
+
+39
+00:03:45,800 --> 00:03:53,250
+E finalmente eu vou criar aqui a minha terceira expressão e minha terceira lâmina acho Bonelli operation
+
+40
+00:03:53,640 --> 00:04:00,370
+operação binária que vai ser em cima do título da ABL que é o que eu vou receber como sendo cada uma
+
+41
+00:04:00,370 --> 00:04:05,760
+das notas e eu vou chamar aqui de somatório mais ou menos o que a gente fez no passado né.
+
+42
+00:04:06,100 --> 00:04:15,090
+Então eu vou pagar aqui por exemplo nós teremos um valor b e isso irá gerar um a mais de B certo não
+
+43
+00:04:15,090 --> 00:04:18,420
+necessariamente eu preciso chamar acumulador.
+
+44
+00:04:18,420 --> 00:04:20,430
+Na verdade eu quero que a função seja genérica.
+
+45
+00:04:20,450 --> 00:04:26,010
+Eu posso usar tanto o meu ídolo como posso usar para outra coisa completamente diferente sem necessariamente
+
+46
+00:04:26,070 --> 00:04:32,490
+precisar de explicitamente chamar acumulado a total falta que eu estou recebendo dois números esses
+
+47
+00:04:32,490 --> 00:04:38,810
+dois números são somados e o resultado é o que eu vou usar como acumulador dentro da função reduz mas
+
+48
+00:04:38,820 --> 00:04:44,880
+aqui eu quero posso criar a função de uma forma mais genérica para eu criar agora o meu pai plano de
+
+49
+00:04:44,880 --> 00:04:52,110
+execução ou seja criar o estopim para dar ao Bild a operação de construção usar minhas operações intermediárias
+
+50
+00:04:52,110 --> 00:04:59,610
+e chegar num operador de terminação que no caso do Windows eu vou usar essas três lâmpadas que eu criei
+
+51
+00:05:00,250 --> 00:05:08,240
+essas três variáveis inicialmente vão fazer o seguinte alunos ponto estranho ou pode ser aqui sem problema
+
+52
+00:05:08,240 --> 00:05:11,700
+nenhum paralelo este filme não voltei ter valor inicial.
+
+53
+00:05:11,720 --> 00:05:14,430
+Isso não vai gerar nenhum efeito colateral no meu caso.
+
+54
+00:05:14,450 --> 00:05:15,050
+Ponto.
+
+55
+00:05:15,050 --> 00:05:19,730
+Primeiro vou fazer chamar um filtro pra pegar apenas os alunos aprovados.
+
+56
+00:05:19,730 --> 00:05:28,320
+Depois disso eu vou fazer Map Fátima FPS e vou passar a função apenas nota.
+
+57
+00:05:28,340 --> 00:05:35,230
+Pra que a gente possa olhar apenas a nota é o próximo passo vai ser fazer um reduz.
+
+58
+00:05:35,240 --> 00:05:37,790
+Nesse caso eu vou passar o somatório.
+
+59
+00:05:37,790 --> 00:05:42,860
+Como resultado disso vai ser algo óbvio chamar de inteiro.
+
+60
+00:05:42,950 --> 00:05:50,210
+Eu posso concatenar aqui pronto nesse momento eu chamei eu chamei o meu bio de preparação de bio criei
+
+61
+00:05:50,210 --> 00:05:57,080
+duas operações intermediárias o filtro e o MEP e chamei a minha operação Determinação ou seja que não
+
+62
+00:05:57,080 --> 00:05:58,450
+irá retornar um outro estudo.
+
+63
+00:05:58,460 --> 00:06:00,160
+Por isso eu não posso continuar.
+
+64
+00:06:00,170 --> 00:06:06,800
+Meu pai Pilar usa na áustria porque ele não reconstruiu e aqui como ele retorna ao jornal inteiro eu
+
+65
+00:06:06,800 --> 00:06:10,090
+posso continuar com Katmandu EF.
+
+66
+00:06:10,340 --> 00:06:19,930
+E aqui eu chamo de System System ponto alto e passo a referência de British ali.
+
+67
+00:06:20,450 --> 00:06:26,990
+Nesse caso o resultado é 25 contudo gerou aqui um cartão de aproximação mas sem problema.
+
+68
+00:06:26,990 --> 00:06:36,470
+Na verdade o que ele fez foi o seguinte ele pegou 10 18 quanto mais sete da 25 de outubro e de 25 contudo
+
+69
+00:06:36,470 --> 00:06:37,080
+ele está certo.
+
+70
+00:06:37,100 --> 00:06:43,320
+Então ele somou apenas os valores dos alunos aprovados 5.0 que a nota da aluna foi 6.
+
+71
+00:06:43,330 --> 00:06:50,560
+Contudo se eu não colocasse o filtro ai sim ele iria somar o valor de todo mundo com 31 pontos três
+
+72
+00:06:50,630 --> 00:06:56,770
+não é só somar 18 +6 24 24 +7 31.
+
+73
+00:06:56,780 --> 00:07:03,880
+Como tenho um mesmo nas casas decimais tenho item 3 da apenas naquilo que você faz só um achado pra
+
+74
+00:07:03,870 --> 00:07:11,090
+vocês tanto o uso de uma classe igual um tanto o tamanho usar o filtro o Mac e Windows.
+
+75
+00:07:11,150 --> 00:07:17,030
+Na próxima aula eu ainda vou continuar trabalhando com essa questão de somatório de datas mas eu vou
+
+76
+00:07:17,030 --> 00:07:23,630
+fazer um exemplo mais complexo fazendo com que o valor que você vai usar para o seu acumulador não seja
+
+77
+00:07:24,050 --> 00:07:29,090
+um valor do tipo primitivo como é o da ou aqui vai ser um tipo mais complexo.
+
+78
+00:07:29,200 --> 00:07:34,160
+é exatamente esse 10x que eu quero mostrar e pra isso ninguém precisar usar outras funções que eu vou
+
+79
+00:07:34,160 --> 00:07:40,370
+mostrar pra vocês na próxima aula então na próxima aula teremos o terceiro exercício de u criando a
+
+80
+00:07:40,370 --> 00:07:46,570
+classe reduz se 3 é a passar a parte do nosso terceiro exercício mais além de criar essa classe.
+
+81
+00:07:46,730 --> 00:07:53,060
+Nós vamos precisar criar um outro ou outra classe que vai apresentar nossa média eu vou querer junto
+
+82
+00:07:53,060 --> 00:07:59,630
+do Edu se não apenas calcular o total somatório mas eu vou querer calcular média e por isso a gente
+
+83
+00:07:59,630 --> 00:08:05,320
+vai fazer isso a partir de uma classe onde a dificuldade de você calcular média usando o Windows é porque
+
+84
+00:08:05,330 --> 00:08:12,740
+pra calcular média você precisa ter dois valores acumulados que é o valor total e o valor da quantidade
+
+85
+00:08:12,740 --> 00:08:19,520
+de notas porque só aí você vai conseguir calcular a média e como a função só retorna o valor não dá
+
+86
+00:08:19,520 --> 00:08:21,560
+pra você fazer com apenas um incluído.
+
+87
+00:08:21,630 --> 00:08:28,190
+Se você calcular melhor que você pode fazer uma vez que você calculou o somatório você pode pegar a
+
+88
+00:08:28,190 --> 00:08:29,050
+lista B.
+
+89
+00:08:29,090 --> 00:08:31,690
+Quantos alunos tem daí você calcular a média.
+
+90
+00:08:31,730 --> 00:08:36,320
+Mas eu quero fazer o cálculo da média usando apenas um único Windows pra isso isso vai precisar criar
+
+91
+00:08:36,320 --> 00:08:39,580
+uma ou outra classe chamada média mas eu vou fazer isto aproximá lo.

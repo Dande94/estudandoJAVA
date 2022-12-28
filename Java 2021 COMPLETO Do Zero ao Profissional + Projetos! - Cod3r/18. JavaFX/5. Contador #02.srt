@@ -1,0 +1,119 @@
+1
+00:00:00,180 --> 00:00:09,870
+Eu só agora na parte 2 o nosso exercício eu quero aplicar a ação que vai mudar o valor do contador sempre
+
+2
+00:00:09,870 --> 00:00:15,540
+que cai mais ele vai incrementar o contador quando ele clicar em menos ele vai acrescentar o contador
+
+3
+00:00:15,540 --> 00:00:21,240
+que você quiser pausar o vídeo tentar fazer isso como desafio acho que vale a pena e eu vou começar
+
+4
+00:00:21,240 --> 00:00:22,640
+a fazer exatamente isso agora.
+
+5
+00:00:23,010 --> 00:00:30,960
+Eu vou definir aqui como um atributo da minha classe um atributo privado sem problema o tipo eu vou
+
+6
+00:00:30,960 --> 00:00:34,830
+chamar de Contador que vai inicializar com zero.
+
+7
+00:00:35,090 --> 00:00:38,460
+Qualquer leigo aqui comecei no zero até poderia pagar o contador.
+
+8
+00:00:38,980 --> 00:00:44,180
+Mas como sempre é zero eu vou deixar aqui de forma fixa o valor zero sim para o banho.
+
+9
+00:00:44,250 --> 00:00:53,940
+A gente já sabe que pra definir meus botões vou colocar o botão Sacramento do Santos onde eu vou receber
+
+10
+00:00:54,120 --> 00:01:01,080
+o evento e nós podemos criar aqui um lambda objetivo quando o usuário clicar no botão de Sacramento
+
+11
+00:01:01,080 --> 00:01:03,290
+e você pegar o valor de Contador.
+
+12
+00:01:03,980 --> 00:01:09,850
+Que ao menos menos de acrescentar uma vez que você sacramentou o valor você vai querer alterar a lei
+
+13
+00:01:10,590 --> 00:01:17,640
+do número então lembra o número vai ter que ter um método chamado set teste ou seja aceitar o texto.
+
+14
+00:01:17,760 --> 00:01:26,850
+E aí você pode chamar o G os string e você pode passar o valor inteiro que ele vai converter para a
+
+15
+00:01:26,850 --> 00:01:36,450
+string alterando o valor do leilão é a mesma coisa você pode fazer aqui no botão incremento ponto set
+
+16
+00:01:37,100 --> 00:01:46,620
+Section recebe um evento como parâmetro e aqui eu vou fazer o contador mais mais e vou também chamar
+
+17
+00:01:46,810 --> 00:01:58,120
+a lei bom número 7 este chamado aqui inteligente juiz trigo e convertendo um valor numérico para um
+
+18
+00:01:58,210 --> 00:02:02,280
+estranho e pagando também o valor descontado.
+
+19
+00:02:02,550 --> 00:02:09,360
+Então com isso nós temos os dois eventos funcionando agora o botão de fato vai fazer uma ação e a gente
+
+20
+00:02:09,430 --> 00:02:13,280
+executando 1 2 3 4 5 6 7 8 9 10.
+
+21
+00:02:13,290 --> 00:02:16,060
+Voltando vai ficar no número negativo.
+
+22
+00:02:16,080 --> 00:02:22,770
+Ou seja a parte operacional da aplicação está funcionando mais um dos grandes objetivos do nosso exercício
+
+23
+00:02:22,770 --> 00:02:29,640
+muito mais do que propriamente contador a gente falar como a gente pode aplicar estilo na nossa aplicação
+
+24
+00:02:29,690 --> 00:02:35,670
+e é exatamente o tema da próxima aula Saulo foi um pouquinho mais culta a gente viu essa parte operacional
+
+25
+00:02:35,670 --> 00:02:40,910
+do botão e também se você quisesse ter feito como um desafio poderia ter feito no começo já que gente
+
+26
+00:02:40,910 --> 00:02:48,300
+já tinha falado do 7 1 e o resto não era muito complicado era só você definir uma variável que armazenar
+
+27
+00:02:48,300 --> 00:02:55,200
+o contador e você incrementar e sacramentar e também alterar o leilão que armazena valor numérico na
+
+28
+00:02:55,200 --> 00:02:55,530
+tela.
+
+29
+00:02:55,860 --> 00:03:01,530
+Então pensar na próxima aula a gente continua pra fazer a última parte não sei se eu vou fazer um vídeo
+
+30
+00:03:01,530 --> 00:03:06,350
+só em dois mas a gente vai trabalhar com Apache do layout da nossa aplicação disparou.

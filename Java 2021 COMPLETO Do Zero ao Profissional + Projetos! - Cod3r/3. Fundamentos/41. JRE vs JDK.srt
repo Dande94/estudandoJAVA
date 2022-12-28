@@ -1,0 +1,567 @@
+1
+00:00:00,200 --> 00:00:09,210
+Só agora eu quero falar pra vocês um pouquinho sobre o conceito de J.R.R. e J K e falar um pouquinho
+
+2
+00:00:09,210 --> 00:00:13,990
+também sobre o conceito de baixo com o qual a gente está dentro do nosso programa.
+
+3
+00:00:13,990 --> 00:00:19,370
+Até agora todos os nossos exercícios a gente vai lá e criam uma nova classe essa classe ela é apresentada
+
+4
+00:00:19,380 --> 00:00:26,160
+dentro de um arquivo um ponto Java ou seja esse arquivo gerado é um arquivo ponto Java que fica lá dentro
+
+5
+00:00:26,160 --> 00:00:27,720
+da pasta no seu outros.
+
+6
+00:00:27,720 --> 00:00:29,430
+A gente criou o projeto no país.
+
+7
+00:00:29,790 --> 00:00:35,040
+Então fica lá o projeto criado com suas pastas com seus arquivos ponto Java.
+
+8
+00:00:35,490 --> 00:00:43,470
+Quando você manda executar um arquivo ponto Java é feito um processo de compilação essa compilação vai
+
+9
+00:00:43,470 --> 00:00:48,410
+gerar um outro arquivo que tem uma extensão conta Class.
+
+10
+00:00:48,600 --> 00:00:51,370
+Certo lá não letais e aqui você abre aqui.
+
+11
+00:00:51,500 --> 00:00:56,410
+Por fim a na minha máquina em colocar aqui dentro de desktop.
+
+12
+00:00:56,430 --> 00:00:58,230
+Nós temos aqui o curso Java.
+
+13
+00:00:58,680 --> 00:01:06,330
+Nós temos o nosso exercício tem aqui Apache SC que tem todos os arquivos ponto Java e esse arquivo pode
+
+14
+00:01:06,330 --> 00:01:13,020
+ser aberto qualquer editor de texto e nós temos aqui dentro de ponto bi as pastas fundamentos então
+
+15
+00:01:13,020 --> 00:01:17,880
+nós temos todos os nossos arquivos ponto classe então as temos aqui.
+
+16
+00:01:17,990 --> 00:01:25,020
+Correção de primitivo número desafio temos a pau nosso pacote né operadores com vários arquivos.
+
+17
+00:01:25,100 --> 00:01:26,740
+Ponto para quem recebe esse aqui.
+
+18
+00:01:26,750 --> 00:01:36,000
+Ponto quais exatamente o cara explicar pra vocês um pouquinho hoje com relação à diferença entre J e
+
+19
+00:01:36,660 --> 00:01:39,610
+versos J de K.
+
+20
+00:01:39,690 --> 00:01:46,050
+Certo O ponto claro vai servir nos dois casos só que a compilação é feita a parte dentro de um ambiente
+
+21
+00:01:46,050 --> 00:01:52,010
+de desenvolvimento J.R.R. Tolkien chama de Java Java
+
+22
+00:01:56,570 --> 00:02:09,450
+envolve muitos o ambiente de execução Java e o JD K e o Java Development Kit ou seja o kit de desenvolvimento
+
+23
+00:02:09,450 --> 00:02:12,620
+do Java ou kit do desenvolvedor Java certo.
+
+24
+00:02:12,750 --> 00:02:17,350
+Ou seja quem vai usar o j k é o desenvolvedor e o Debian.
+
+25
+00:02:17,430 --> 00:02:22,300
+Ou seja você se China com uso vai usá la com o J DK.
+
+26
+00:02:22,680 --> 00:02:26,390
+E quem vai usar aqui o J.R.R. vai ser o usuário.
+
+27
+00:02:26,390 --> 00:02:34,800
+Então o J é e será usado pelo usuário certo usuário do seu sistema lá o usuário que precisa acessar
+
+28
+00:02:34,800 --> 00:02:38,730
+a aplicação Java e fiz uma aplicação em Java para a web.
+
+29
+00:02:39,040 --> 00:02:43,680
+Eu preciso ter o JD calcula ter instalado na máquina do cliente lá do usuário.
+
+30
+00:02:43,680 --> 00:02:44,070
+Não.
+
+31
+00:02:44,070 --> 00:02:51,490
+Por que a aplicação Java para a web vai usar tecnologias da web HTML CSS e JavaScript.
+
+32
+00:02:51,510 --> 00:02:56,760
+Isso quando eu for para o Brasil o usuário não vai usar não sei que você usa uma tecnologia mais antiga.
+
+33
+00:02:56,890 --> 00:03:00,640
+Quer chamar de aplique aí sim precisa mas eu não vou falar muito sobre isso agora.
+
+34
+00:03:01,170 --> 00:03:04,200
+Eu vou antes de falar um pouco da diferença dos dois.
+
+35
+00:03:04,200 --> 00:03:11,310
+Os dois dentro dos dois tem um conceito envolve o conceito de máquina virtual e eu quero falar um pouquinho
+
+36
+00:03:11,310 --> 00:03:13,860
+pra você do que é o que está me conhece né.
+
+37
+00:03:13,910 --> 00:03:15,530
+Que é o J.
+
+38
+00:03:15,600 --> 00:03:16,440
+Vem aí.
+
+39
+00:03:16,530 --> 00:03:21,050
+Ou seja o Java Virtual Machine ou Máquina virtual Java.
+
+40
+00:03:21,420 --> 00:03:23,340
+Qual é a ideia de uma máquina virtual.
+
+41
+00:03:23,340 --> 00:03:29,400
+Imagine a seguinte situação você vai para um congresso um congresso na Alemanha todo falado em alemão
+
+42
+00:03:29,830 --> 00:03:32,710
+e você não sabe falar uma palavra em alemão.
+
+43
+00:03:32,730 --> 00:03:39,320
+Só que lá vai ter russo lá vai ter grego lá vai ter alemão e você não consegue falar nem russo nem grego
+
+44
+00:03:39,330 --> 00:03:40,070
+língua Alemão.
+
+45
+00:03:40,560 --> 00:03:46,650
+Mas você sabe falar português e você encontrou um intérprete chinês três intérpretes diferentes que
+
+46
+00:03:46,650 --> 00:03:52,950
+cada um consegue traduzir em português para alemão português grego e português para russo.
+
+47
+00:03:52,950 --> 00:03:57,390
+Isso faz com que você consiga se comunicar com qualquer pessoa do Congresso.
+
+48
+00:03:57,490 --> 00:04:05,340
+Porque são essas três línguas que estão lá disponíveis no Congresso então você tem você que fala português
+
+49
+00:04:05,790 --> 00:04:15,900
+você tem um cara que fala alemão você tem um cara que fala grego e você tem um cara que fala russo então
+
+50
+00:04:15,900 --> 00:04:21,600
+pra você conseguir conversar com você que fala em português fala um cara que fala em alemão você vai
+
+51
+00:04:21,600 --> 00:04:27,780
+precisar encontrar aqui um intérprete um cara que consegue ler português e traduzir para alemão.
+
+52
+00:04:28,140 --> 00:04:35,240
+Então esse cara vai fazer exatamente o papel de pegar PT transformar em alemão.
+
+53
+00:04:35,310 --> 00:04:42,300
+Você vai ter um outro cara que é o outro cara que vai conseguir lê a mesma linguagem de origem que é
+
+54
+00:04:42,300 --> 00:04:45,920
+português e traduzir isso para grego.
+
+55
+00:04:45,940 --> 00:04:51,760
+E você vai ter um outro cara que vai pegar em português e traduzir isso para o russo.
+
+56
+00:04:51,810 --> 00:04:58,530
+De tal forma que você vai falar aqui você vai falar aqui você vai falar aqui.
+
+57
+00:04:58,580 --> 00:05:01,990
+é esse cara que embaixadores vão conseguir entender.
+
+58
+00:05:02,000 --> 00:05:07,030
+é exatamente essa mesma ideia da máquina virtual e o que seria o PT.
+
+59
+00:05:07,150 --> 00:05:13,560
+é exatamente o português é exatamente o bate com o dito Schumacher pra você o seguinte João você aqui
+
+60
+00:05:13,560 --> 00:05:21,000
+em cima você vai escrever o seu código usando um arquivo ponto já que é um arquivo de texto peça arquivo
+
+61
+00:05:21,000 --> 00:05:29,330
+de texto vai ser transformado num arquivo pronto Class e aqui dentro nós temos o conceito do baixo com
+
+62
+00:05:29,850 --> 00:05:31,010
+o bytecode.
+
+63
+00:05:31,050 --> 00:05:37,140
+Exatamente o resultado gerado aqui no ponto Clécio seja o contactless é um arquivo baixo com ele e esse
+
+64
+00:05:37,140 --> 00:05:44,530
+arquivo ele não é interpretado por exemplo pelo seu computador Windows.
+
+65
+00:05:44,550 --> 00:05:48,660
+Ele não é interpretado pelo seu computador Linux.
+
+66
+00:05:49,260 --> 00:05:55,910
+Ele não é interpretado pelo seu computador Mac não é interpretado pelo seu Android por exemplo.
+
+67
+00:05:55,910 --> 00:05:59,970
+Todos esses caras entendem Java e outros dispositivos por exemplo.
+
+68
+00:05:59,970 --> 00:06:04,130
+Você tem aqui uma geladeira também que entende Java por exemplo.
+
+69
+00:06:04,140 --> 00:06:10,060
+Então o que é necessário para você que fala aqui embaixo escolheu ser o cara que fala português como
+
+70
+00:06:10,100 --> 00:06:15,930
+se conseguir conversar com um cara que fala alemão ou a pessoa que escreveu o código em Java que foi
+
+71
+00:06:15,930 --> 00:06:22,860
+compilado e foi transformado o arquivo de texto para um arquivo binário digamos assim que é interpretado
+
+72
+00:06:22,860 --> 00:06:27,570
+pela máquina virtual que é necessário para que o bate corpo seja interpretado.
+
+73
+00:06:27,570 --> 00:06:33,960
+é preciso que dentro do Windows seja desenvolvida uma máquina virtual então aqui dentro do Windows vai
+
+74
+00:06:33,960 --> 00:06:41,670
+ser desenvolvido uma vem uma Virtual Machine ou mais especificamente um JVM específico para Windows
+
+75
+00:06:42,060 --> 00:06:48,110
+que é capaz de ler e interpretar os códigos de máquina do sistema operacional Windows.
+
+76
+00:06:48,120 --> 00:06:56,120
+Você tem uma outra JVM aqui que foi desenvolvida especificamente para Linux que inclui bate com ele
+
+77
+00:06:56,130 --> 00:07:02,700
+ou seja você passa baixo Kodi pra essa vem e me passa bate com pressa bem ele consegue interpretar o
+
+78
+00:07:02,700 --> 00:07:07,980
+bate como de nos códigos os comandos do sistema operacional que ele está.
+
+79
+00:07:08,180 --> 00:07:15,260
+A mesma coisa você tem que ter um a máquina virtual Java que você tem que ter uma JVM aqui também para
+
+80
+00:07:15,260 --> 00:07:23,210
+Android j vem para a sua geladeira ou seu microfone de tal forma que você escreve uma única vez compila
+
+81
+00:07:23,210 --> 00:07:27,890
+uma única vez e esse mesmo código roda em qualquer dispositivo.
+
+82
+00:07:27,890 --> 00:07:34,260
+Tanto é que o jargão de longa no Java é escrevo uma vez e rode em qualquer lugar.
+
+83
+00:07:34,280 --> 00:07:39,590
+Exatamente por isso porque esse conceito de máquina virtual que não é um conceito que foi introduzido
+
+84
+00:07:39,590 --> 00:07:40,420
+no Java.
+
+85
+00:07:40,490 --> 00:07:43,680
+Mas eu diria que ele foi muito popularizado no Java na época.
+
+86
+00:07:43,690 --> 00:07:50,570
+Você escrevia uma vez e você é uma aplicação multiplataforma bastava compilar uma vez esse código rodava
+
+87
+00:07:50,570 --> 00:07:56,340
+no Windows rodava no Mac ou dava no Linux ou mesmo executava e o mesmo arquivo.
+
+88
+00:07:56,340 --> 00:07:56,990
+Ponto Já.
+
+89
+00:07:57,020 --> 00:08:03,290
+Por exemplo executar não mesmo é x e não é executável no sentido de X é mais executável no sentido de
+
+90
+00:08:03,290 --> 00:08:08,840
+que o programa pode ser executado em qualquer uma dessas plataformas sem necessariamente você precisar
+
+91
+00:08:09,020 --> 00:08:10,710
+compilar o código.
+
+92
+00:08:10,790 --> 00:08:16,770
+Outra vez isso foi muito popularizado e esse foi um dos pontos chaves para a popularidade do Java o
+
+93
+00:08:16,770 --> 00:08:21,590
+fato de você conseguir escrever programáveis e rodar em todas essas plataformas.
+
+94
+00:08:21,590 --> 00:08:26,850
+Quem viu a história do Java lá no começo lembra que o projeto ali ele foi muito focado com a questão
+
+95
+00:08:26,840 --> 00:08:30,280
+em dispositivos NAND casa inteligente.
+
+96
+00:08:30,380 --> 00:08:33,190
+Você tinha lá um computador caro está servem.
+
+97
+00:08:33,230 --> 00:08:37,420
+Quero um computador que visava controlar a casa há muitos anos atrás.
+
+98
+00:08:37,460 --> 00:08:39,400
+Acho que o à frente do seu tempo.
+
+99
+00:08:39,410 --> 00:08:43,510
+Se fosse hoje provavelmente teria até mais sucesso ou algum tempo atrás.
+
+100
+00:08:43,520 --> 00:08:48,470
+Mas naquela época foi muito à frente do seu tempo acabou que o Java tomou um rumo completamente diferente
+
+101
+00:08:48,470 --> 00:08:55,520
+no início mas é muito importante você entender exatamente o que o seu arquivo contém Java ele gera de
+
+102
+00:08:55,520 --> 00:09:02,390
+certa forma a linguagem universal que toda máquina virtual a entender exatamente como é o processo da
+
+103
+00:09:02,390 --> 00:09:09,560
+máquina virtual exatamente ao rodar seu código e muitas vezes traduzir isso para a linguagem de máquina.
+
+104
+00:09:09,560 --> 00:09:15,770
+De tal forma que essa vem me que ela foi construída especificamente para rodar no Windows.
+
+105
+00:09:15,800 --> 00:09:21,590
+Essa VM pois foi construída especificamente para rodar dentro do Linux.
+
+106
+00:09:21,590 --> 00:09:26,690
+Tanto é que quando você instala bem em você tem uma vem para o Windows você tem uma venda ali não se
+
+107
+00:09:26,690 --> 00:09:27,970
+tem um menu para Mac.
+
+108
+00:09:27,980 --> 00:09:34,610
+Você tem um Vine que roda embutido dentro do Android porque todos eles vão interpretar código Java.
+
+109
+00:09:34,620 --> 00:09:37,960
+Então esse conceito é extremamente importante você entendeu.
+
+110
+00:09:38,090 --> 00:09:42,490
+Voltando aqui qual é a diferença entre o j e j k.
+
+111
+00:09:42,500 --> 00:09:50,540
+Os dois têm um ambiente de execução Java ou seja o Java Lantern enviar homens é o que seria um sinônimo
+
+112
+00:09:50,540 --> 00:09:57,190
+de Java Virtual Machine exatamente na Virtual Machine A Máquina virtual Java que é um código Java executado
+
+113
+00:09:57,210 --> 00:10:04,730
+então o J é o que a gente tem com uma máquina virtual Java e o JD Caio Kitchen desenvolvedor além de
+
+114
+00:10:04,730 --> 00:10:09,850
+você ter o J.R.R. você tem o compilador Java que é o Java C.
+
+115
+00:10:09,860 --> 00:10:18,230
+Você tem como você gerar documentação em Java e Java doc O executável que vai ler o seu a suas documentações
+
+116
+00:10:18,240 --> 00:10:21,220
+e os seus comentários e vai gerar documentação do Java.
+
+117
+00:10:21,230 --> 00:10:27,590
+Você tem uma série de ferramentas de compilador você tem um série de ferramentas e além disso dentro
+
+118
+00:10:27,590 --> 00:10:31,010
+do JD cabo você tem o código fonte da API do Java.
+
+119
+00:10:31,010 --> 00:10:34,640
+Você consegue entrar por exemplo na unidade string e ver o código.
+
+120
+00:10:34,670 --> 00:10:36,980
+Como foi implementado as cinco certa.
+
+121
+00:10:36,990 --> 00:10:40,800
+Muita coisa está à disposição pra vocês da API básica do Java.
+
+122
+00:10:40,810 --> 00:10:44,840
+O que dentro do JD cava em um arquivo zip com código fonte.
+
+123
+00:10:44,900 --> 00:10:49,100
+Então a ideia é você ter o JD K como você vai ter um macro desenvolvedor.
+
+124
+00:10:49,120 --> 00:10:52,640
+Até quando você vai simplesmente usar o Java.
+
+125
+00:10:52,640 --> 00:10:54,380
+Existem algumas observações.
+
+126
+00:10:54,380 --> 00:11:03,520
+Por exemplo se você tiver um ambiente que j é Java levantar em armas mais o eclipse.
+
+127
+00:11:03,770 --> 00:11:06,860
+O eclipse dentro dele ele tem um compilador Java.
+
+128
+00:11:06,890 --> 00:11:14,540
+Então você tendo um J e usando um eclipse ele tem um compilador interno vai funcionar sem necessariamente
+
+129
+00:11:14,540 --> 00:11:15,840
+você ter um j d k.
+
+130
+00:11:16,280 --> 00:11:22,340
+Mas eu aconselho para todos os desenvolvedores que vocês instalem se j DK porque tem muitas ferramentas
+
+131
+00:11:22,340 --> 00:11:27,760
+interessantes que você vai acabar precisando no dia a dia mas essa é uma diferença importante você entender
+
+132
+00:11:28,090 --> 00:11:35,000
+J.D. Card kit de desenvolvimento Jr é o ambiente de execução e o conceito de máquina virtual que é exatamente
+
+133
+00:11:35,000 --> 00:11:37,580
+esse paralelo aqui da tradução.
+
+134
+00:11:37,620 --> 00:11:44,240
+Você fala uma língua vários intérpretes entendem aquela língua e traduzem para as linguagens de destino
+
+135
+00:11:44,420 --> 00:11:45,710
+alemão grego russo.
+
+136
+00:11:45,720 --> 00:11:52,010
+No caso aqui você escreve embaixo Cold e joga esse baixo com ele pra dentro gente jovem me ele vai sempre
+
+137
+00:11:52,010 --> 00:11:58,880
+que necessário traduzir as informações para as linguagens de máquina seja Windows Linux Mac Android
+
+138
+00:11:58,880 --> 00:12:06,180
+geladeira microondas aquilo que você quiser onde você quiser colocar o Java ele está na casa dos milhões
+
+139
+00:12:06,180 --> 00:12:13,110
+de dispositivos e no mundo você tem bilhões de dispositivos que rodam Java dentro deles e é um número
+
+140
+00:12:13,110 --> 00:12:14,490
+extremamente expressivo.
+
+141
+00:12:14,510 --> 00:12:19,860
+é uma das linguagens mais usadas do mundo e não é à toa que esse mecanismo de máquina virtual que não
+
+142
+00:12:19,860 --> 00:12:25,590
+foi inventado pelo Japão mais foi usado muito bem foi um dos responsáveis por popularizar a linguagem.

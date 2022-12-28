@@ -1,0 +1,439 @@
+1
+00:00:00,150 --> 00:00:05,070
+Agora nós vamos implementar o nosso painel tabuleiro que é um item pneu.
+
+2
+00:00:05,140 --> 00:00:11,280
+Na verdade eu falei pra você que um dia não é um conto tem um grupo de componentes e a ideia dentro
+
+3
+00:00:11,280 --> 00:00:18,680
+desse JP Pinel desse painel é colocar todos os botões que representam as linhas e as colunas do jogo.
+
+4
+00:00:18,900 --> 00:00:27,090
+E para isso dentro do dia é pena ter um metro chamado sete layout que é pra você define como os componentes
+
+5
+00:00:27,090 --> 00:00:29,780
+visuais serão dispostos na tela.
+
+6
+00:00:29,790 --> 00:00:33,380
+Como é que eu vou organizar os componentes visuais nem os da minha tela.
+
+7
+00:00:33,390 --> 00:00:38,940
+Esse é um cenário muito simples bloqueio por que eu vou querer organizar os componentes em linhas e
+
+8
+00:00:38,940 --> 00:00:40,030
+colunas.
+
+9
+00:00:40,170 --> 00:00:50,010
+E aí eu vou usar um layout chamado grid layout que eu Grid layout que é basicamente o que eu preciso
+
+10
+00:00:50,010 --> 00:00:55,980
+passar pelo crivo de layout que são duas informações a quantidade de linhas e a quantidade de colunas
+
+11
+00:00:55,980 --> 00:01:02,400
+que eu vou organizar os meus componentes em uma grade e agride e aqui passando o grande Layout.
+
+12
+00:01:02,400 --> 00:01:08,290
+Vou precisar saber a parte do tabuleiro quantas linhas eu tenho e quantas colunas eu tenho então faz
+
+13
+00:01:08,290 --> 00:01:12,200
+o seguinte jogo tabuleiro ponto sete.
+
+14
+00:01:12,270 --> 00:01:15,930
+Não tem um metro sete linhas de 1 metro de colunas.
+
+15
+00:01:15,940 --> 00:01:22,410
+Então quem vai precisar ir lá no tabuleiro e criar esse método então a gente tem aqui linhas colunas
+
+16
+00:01:22,410 --> 00:01:28,220
+e Minas eu vou fazer o seguinte eu vou transformar isso em algo no final porque algo que não muda uma
+
+17
+00:01:28,220 --> 00:01:32,650
+vez que você cria um tabuleiro ele vai ter um quantidade de linhas ou quantidade colunas e uma quantidade
+
+18
+00:01:32,650 --> 00:01:33,600
+de minas.
+
+19
+00:01:33,690 --> 00:01:39,010
+O máximo que você pode fazer é reiniciar o tabuleiro para ele começar do zero mas eu vou colocar como
+
+20
+00:01:39,010 --> 00:01:44,220
+os três como sendo constantes até porque eu recebo os três no construtor então não tem nenhum problema
+
+21
+00:01:44,420 --> 00:01:50,010
+e eu faz o seguinte eu vou criar um método Bad para cada um deles não tem problema já que é uma constante
+
+22
+00:01:50,010 --> 00:01:51,850
+então colocar aqui embaixo.
+
+23
+00:01:51,900 --> 00:01:54,210
+Colocar aqui uma de.
+
+24
+00:01:54,380 --> 00:02:04,760
+Assim você procura o atalho e betas setas seleccionar linhas e colunas.
+
+25
+00:02:05,250 --> 00:02:09,790
+Talvez Minas eu possa não deixar só esses dois que ocultou precisando por enquanto se precisar criar
+
+26
+00:02:09,800 --> 00:02:10,950
+outros gatos insetos.
+
+27
+00:02:10,980 --> 00:02:16,050
+A gente vai criando um para um cria aqui um método que vai retornar a quantidade de linhas e a quantidade
+
+28
+00:02:16,050 --> 00:02:17,170
+de colunas.
+
+29
+00:02:17,220 --> 00:02:19,880
+Vou falando alto aqui no meu painel tabuleiro.
+
+30
+00:02:20,100 --> 00:02:30,990
+Vou colocar aqui alguém de primeira linhas e depois vai ser as colunas então tabuleiro ponto dez colunas.
+
+31
+00:02:30,990 --> 00:02:35,550
+Vou quebrar isso aqui duas vezes para ficar visível.
+
+32
+00:02:35,550 --> 00:02:41,180
+Então tenho que ao site layout de grilo e aos tabuleiro Gatinhas e guerra de colunas.
+
+33
+00:02:41,180 --> 00:02:43,870
+A gente está vendo o efeito visual está para poucos.
+
+34
+00:02:43,870 --> 00:02:49,620
+Por enquanto você vai ver que não vai aparecer nada aparecer só pra lembrar que vou fazer o seguinte
+
+35
+00:02:49,630 --> 00:03:02,280
+vou pagar a quantidade de linhas e colunas vou multiplicar o no total recebe linhas vezes colunas que
+
+36
+00:03:02,320 --> 00:03:06,790
+seu total de elementos que vai ter um produto entre as linhas e as colunas.
+
+37
+00:03:06,790 --> 00:03:16,260
+Vou fazer aqui um laço forte e vou até o total de zero até o total e daqui pra cada repetição do laço
+
+38
+00:03:16,440 --> 00:03:24,010
+vou criar um botão sem nenhum alemão ser um botão vazio.
+
+39
+00:03:24,370 --> 00:03:25,860
+Meu resultado.
+
+40
+00:03:25,980 --> 00:03:33,420
+Ele vai colocar os botões ao colocar um botão em cada parte aqui do nosso nossa grid não agride foi
+
+41
+00:03:33,420 --> 00:03:36,390
+feita já com um tamanho específico pra ficar bem baixinho né.
+
+42
+00:03:36,390 --> 00:03:42,920
+Todos os botões encaixarem e é exatamente o efeito visual que eu quero aqui no nosso caso.
+
+43
+00:03:43,290 --> 00:03:47,130
+Só que eu não vou querer criar um botão.
+
+44
+00:03:47,190 --> 00:03:54,100
+Vou querer criar um botão específico do nosso jogo que eu vou chamar botão campo campo botão o jogo
+
+45
+00:03:54,140 --> 00:04:05,610
+aqui botão campo vou passar como parâmetro para o botão campo campo que vai ser importante receber um
+
+46
+00:04:05,610 --> 00:04:11,820
+campo como parâmetro coloquei em cima do campo o que vai acontecer os eventos e o botão vai se adaptar
+
+47
+00:04:11,830 --> 00:04:14,070
+de acordo com as necessidades.
+
+48
+00:04:14,070 --> 00:04:20,020
+Obviamente esse botão campo ele vai estender esse botão.
+
+49
+00:04:20,030 --> 00:04:27,630
+Então vou também colocar o cursor do mouse em cima e selecionar o prazo One seria não quero colocá lo
+
+50
+00:04:27,630 --> 00:04:32,760
+serial Brush onde posso colocar também tanto faz mas eu não vou ser alisar esses classe então não me
+
+51
+00:04:32,760 --> 00:04:34,680
+interessa usar isso.
+
+52
+00:04:34,680 --> 00:04:38,720
+E aí eu posso usar esse botão campo aqui no tabuleiro.
+
+53
+00:04:39,210 --> 00:04:43,550
+Faz o seguinte outro dístico aqui o resultado vai ser o mesmo.
+
+54
+00:04:44,610 --> 00:04:49,030
+Então botão de campo vou passar por enquanto nulo.
+
+55
+00:04:49,030 --> 00:04:55,980
+Quem não tem um campo ainda vai estar mais uma vez para apagar a última classe que faz a tábua que tem
+
+56
+00:04:55,980 --> 00:05:02,530
+o metro meio que é nossa tela principal e aí vai apertar mais selecionando a tela principal você vai
+
+57
+00:05:02,530 --> 00:05:08,280
+ver que a tela abriu a baixa todos os botões só que agora nós não temos um botão e sim um botão o cabo
+
+58
+00:05:08,280 --> 00:05:10,210
+que foi a classe que nós criamos.
+
+59
+00:05:10,220 --> 00:05:11,150
+Que é que vai acontecer.
+
+60
+00:05:11,170 --> 00:05:15,700
+Eu preciso ter acesso ou tirar escolhe o tipo que isso foi só temporário.
+
+61
+00:05:15,700 --> 00:05:19,810
+Eu preciso ter acesso a todos os campos do meu tabuleiro.
+
+62
+00:05:19,930 --> 00:05:26,590
+Só que olhando aquele tabuleiro eu não tenho um método Garotinho Campos por exemplo para ter acesso
+
+63
+00:05:26,590 --> 00:05:28,520
+a todos eles até uma lista.
+
+64
+00:05:28,550 --> 00:05:35,100
+Uma estratégia interessante que ele pode fazer é criar um método fora do meu tipo de metro fora.
+
+65
+00:05:35,650 --> 00:05:39,140
+Então posso colocar até em português já que não acordo em português.
+
+66
+00:05:39,600 --> 00:05:49,480
+Eu vou fazer aquilo para cada e vou receber como parâmetro o tipo de método que o fórum recebe e que
+
+67
+00:05:49,490 --> 00:05:50,520
+é um consumer.
+
+68
+00:05:50,870 --> 00:05:57,250
+Então perceber que é um consumo no caso aqui vai ser um consumo que vai passar campo como parâmetro
+
+69
+00:05:57,510 --> 00:06:04,620
+e eu vou chamar aqui de função e vou aqui dentro para cada um dos elementos chamar essa função do tipo
+
+70
+00:06:04,640 --> 00:06:09,520
+de consumo que foi passada como parâmetro e aqui na implementação é muito simples eu chamo Ocampo os
+
+71
+00:06:09,550 --> 00:06:15,210
+no plural ponto fora IBGE passando a função que eu recebi que era do tipo consumer.
+
+72
+00:06:15,520 --> 00:06:20,500
+Em outras palavras eu vou conseguir agora percorrer cada um dos elementos a saber no campo fazer alguma
+
+73
+00:06:20,500 --> 00:06:21,430
+coisa.
+
+74
+00:06:21,430 --> 00:06:23,860
+Como é que eu posso fazer isso aqui no meu painel tabuleiro.
+
+75
+00:06:23,860 --> 00:06:29,710
+Posso fazer o seguinte para cada e eu vou passar uma função que eu vou receber o campo o que é que eu
+
+76
+00:06:29,710 --> 00:06:30,470
+vou fazer aqui.
+
+77
+00:06:30,500 --> 00:06:39,340
+Tem um campo e vou adicionar um objeto atual um botão campo passando o campo como parâmetro.
+
+78
+00:06:39,340 --> 00:06:44,830
+Agora sim eu tenho cada um dos campos sendo passado para a classe que representa um campo visualmente
+
+79
+00:06:44,830 --> 00:06:51,730
+que é a classe botão campo organizar os impostos pra tirar a advertência aqui dentro do botão campo
+
+80
+00:06:51,770 --> 00:06:57,040
+eu tenho um carro pronto para a gente começar agora a implementar essa classe essa classe é a classe
+
+81
+00:06:57,040 --> 00:07:02,710
+que vai ter mais lógica e está mais uma vez para ver se ele vai criar todos os botões.
+
+82
+00:07:02,920 --> 00:07:06,850
+Criou todos os botões só que agora não mais fazem um só.
+
+83
+00:07:06,850 --> 00:07:13,930
+Nós criamos uma função para cada campo dentro do tabuleiro e pode ser fora e ou para cada campo.
+
+84
+00:07:13,950 --> 00:07:15,170
+Eu colocar aqui mais PC.
+
+85
+00:07:15,170 --> 00:07:23,590
+Para cada campo e essa função a gente usa ela para percorrer todos os campos e aí sim criar um botão
+
+86
+00:07:23,680 --> 00:07:29,740
+especificamente para cada um dos campos do meu tabuleiro e arejar adicionando esse campo dentro do meu
+
+87
+00:07:30,000 --> 00:07:33,280
+item que é o painel do tabuleiro que representa essa classe.
+
+88
+00:07:33,310 --> 00:07:41,320
+Outra coisa que a gente vai precisar fazer aqui depois de tabuleiro ponto registra o observador para
+
+89
+00:07:41,320 --> 00:07:47,090
+a gente ver o resultado então ele vai receber um evento que vai trazer um resultado.
+
+90
+00:07:47,470 --> 00:07:52,990
+E é nessa clássica a gente vai precisar mostrar para o usuário se ele ganhou ou se ele perdeu.
+
+91
+00:07:52,990 --> 00:08:03,090
+A gente vai implementar isso depois aqui mostrar resultado para o usuário.
+
+92
+00:08:03,460 --> 00:08:05,450
+Deixar como tudo a gente vai fazer depois.
+
+93
+00:08:05,440 --> 00:08:09,230
+Mais exatamente já que tem um tabuleiro nesse ponto.
+
+94
+00:08:09,260 --> 00:08:15,380
+Aqui a gente pode pegar essa informação mostrar para o usuário em algum momento se a gente quiser chamar
+
+95
+00:08:15,940 --> 00:08:21,540
+tabuleiro ponto inicial para o jogo reiniciar e ele conseguir jogar uma segunda vez.
+
+96
+00:08:21,550 --> 00:08:22,980
+São coisas que a gente vai fazer.
+
+97
+00:08:23,350 --> 00:08:29,110
+Depois não agora mais por enquanto a gente já conseguiu colocar todos os botões na tela e na próxima
+
+98
+00:08:29,110 --> 00:08:35,470
+aula nas 11 mexer no nosso componente botão campo que é o componente visual correspondente a cada um
+
+99
+00:08:35,470 --> 00:08:37,860
+dos campos do nosso tabuleiro.
+
+100
+00:08:37,900 --> 00:08:43,070
+E esse componente vai ser importante e vai ser um componente que vai ter mais código digamos assim por
+
+101
+00:08:43,070 --> 00:08:43,700
+quê.
+
+102
+00:08:43,750 --> 00:08:48,950
+Para cada evento que acontecer eu vou precisar exibiu o botão de uma forma diferente ou seja quando
+
+103
+00:08:48,970 --> 00:08:51,950
+clicar no botão ele vai ter uma cor diferente.
+
+104
+00:08:52,240 --> 00:08:57,400
+Quando na verdade ele não vai nem ficar com esse visual aqui que ele está agora porque é um visual que
+
+105
+00:08:57,400 --> 00:09:02,320
+não parece muito com os botões de um campo minado eu vou deixar ele com a cara mágica.
+
+106
+00:09:02,320 --> 00:09:06,220
+O combinado é sempre que clicar no botão e precisar acontecer alguma coisa.
+
+107
+00:09:06,230 --> 00:09:09,610
+é exatamente esse o próximo passo do nosso jogo.
+
+108
+00:09:09,670 --> 00:09:15,130
+Mexer aqui para depois a gente voltar para testar o resultado e aí sim mostrar para o usuário se ele
+
+109
+00:09:15,130 --> 00:09:19,870
+ganha ou se ele perdeu e reiniciar o jogo depois que o usuário for notificado do resultado.
+
+110
+00:09:19,870 --> 00:09:24,050
+Então fico por aqui na proximal mas uso mexer no botão campo e espero lá.

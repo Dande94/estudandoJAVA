@@ -1,0 +1,103 @@
+1
+00:00:00,360 --> 00:00:06,390
+Só agora nós estamos começando mais um capítulo no nosso curso de Java e nesse capítulo mais ou menos
+
+2
+00:00:06,390 --> 00:00:15,330
+V o JP quer o Java persistência e ideais e a gente vai usar a implementação que é a mais famosa implementação
+
+3
+00:00:15,330 --> 00:00:19,380
+de JP a internet que também é um framework super famoso.
+
+4
+00:00:19,380 --> 00:00:25,740
+Muita gente conhece a partir do Internet mas a gente vai usar em cima da especificação das interfaces
+
+5
+00:00:25,740 --> 00:00:28,490
+definidas na especificação do JP.
+
+6
+00:00:28,890 --> 00:00:35,610
+A gente vai trabalhar com um conceito muito importante e muito poderoso que é um padrão de persistência
+
+7
+00:00:35,610 --> 00:00:42,370
+que é um padrão chamado Data map e nós também vamos trabalhar com um conceito chamado opere em mídia
+
+8
+00:00:42,390 --> 00:00:45,030
+o mapeamento objeto relacional.
+
+9
+00:00:45,090 --> 00:00:51,990
+A gente tem dois paradigmas senão digamos assim e juntados ou agregados nesse conceito de mapeamento
+
+10
+00:00:51,990 --> 00:00:59,220
+objeto relacional nós temos o conceito e o paradigma do mundo relacional do banco de dados que é tabelas
+
+11
+00:00:59,220 --> 00:01:04,300
+relacionamentos chave primária chave estrangeira que foi aquilo que a gente já abordou no capítulo de
+
+12
+00:01:04,320 --> 00:01:10,350
+fundamentos de banco de dados a gente também tem outro paradigma de orientação a objeto e como.
+
+13
+00:01:10,410 --> 00:01:16,770
+Esses dois mundos ou esses dois paradigmas se conectam exatamente o papel desse padrão e o projeto da
+
+14
+00:01:16,770 --> 00:01:21,830
+alta Mapa juntamente com o mapeamento objeto relacional.
+
+15
+00:01:21,930 --> 00:01:26,790
+Todos esses conceitos serão abordados nesse capítulo e nós vamos ver na prática como trabalhar com o
+
+16
+00:01:26,800 --> 00:01:34,740
+JP com a inserção atualização consulta e consultar por aí a gente fazer relacionamentos relacionamentos
+
+17
+00:01:34,740 --> 00:01:37,570
+um para um para muitos muitos para muitos.
+
+18
+00:01:37,570 --> 00:01:40,530
+Então tudo isso será abordado nesse capítulo JP.
+
+19
+00:01:40,770 --> 00:01:46,750
+Para que você tenha a base desse framework tão relevante no mundo da persistência eu diria que o JP
+
+20
+00:01:46,930 --> 00:01:52,890
+junto com a internet deve ser a solução onde as soluções mais populares do mundo para a persistência
+
+21
+00:01:53,250 --> 00:01:58,080
+e a gente vai bem nesse capítulo trabalhando com a internet com a implementação a partir do ponto de
+
+22
+00:01:58,080 --> 00:02:04,800
+vista da especificação das APIs ou interfaces do JP nesse capítulo nós vamos trabalhar muito com aquele
+
+23
+00:02:04,800 --> 00:02:11,820
+conceito de amor deixando a roubar alguma coisa e usar muito agora esse conceito de amor techno e eu
+
+24
+00:02:11,820 --> 00:02:16,560
+vou trabalhar com você de forma muito calma para que todos os conceitos e todos os exemplos fiquem muito
+
+25
+00:02:16,560 --> 00:02:22,250
+claros na cabeça de vocês estão mais vamos começando mais um capítulo e JP a eu desperto na próxima
+
+26
+00:02:22,290 --> 00:02:25,520
+Copa fala um pouquinho sobre alguns conceitos antes de entrar na praia.

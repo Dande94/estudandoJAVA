@@ -1,0 +1,183 @@
+1
+00:00:00,720 --> 00:00:07,600
+Agora nós vamos transformar e mudar o estilo de polimorfismo que nós vamos usar transformou agora padrão
+
+2
+00:00:07,610 --> 00:00:12,990
+para um polimorfismo para um polimorfismo dinâmico estão pra fazer isso.
+
+3
+00:00:13,020 --> 00:00:19,070
+Eu vou precisar criar uma super classe das comidas eu tenho arroz já tem um feijão até um sorvete.
+
+4
+00:00:19,070 --> 00:00:24,370
+Preciso criar uma herança para daí eu ter a possibilidade de usar o polimorfismo.
+
+5
+00:00:24,390 --> 00:00:29,640
+A primeira coisa vai ser aplicar se eu vou criar aqui uma classe chamada Comida.
+
+6
+00:00:29,700 --> 00:00:37,350
+Comida vai ter as mesmas características que tem todas as comidas no caso o que peso basicamente então
+
+7
+00:00:37,390 --> 00:00:43,950
+comida vai ter um construtor que recebe o peso então a comida já está claro que a gente não vai ter
+
+8
+00:00:43,950 --> 00:00:50,850
+o custo padrão então vou precisar fazer algum tipo de trabalho em cada um andar subclasses pra estabelecer
+
+9
+00:00:50,880 --> 00:00:57,990
+que arroz era de comida então tem que colocar existentes comida então em vez de ter um método do 7 não
+
+10
+00:00:57,990 --> 00:01:01,350
+preciso ou não preciso ter o atributo privado.
+
+11
+00:01:01,350 --> 00:01:09,030
+A única coisa que eu preciso fazer é chamar um super ou seja a dois vai chamar o supremo da classe comida
+
+12
+00:01:09,030 --> 00:01:16,520
+já que a comida tem refutou quem recebe o peso e aqui o chão um metro sete e ele faz a validação correta.
+
+13
+00:01:16,560 --> 00:01:21,390
+Mesma coisa em feijão feijão existentes comida.
+
+14
+00:01:21,750 --> 00:01:25,160
+Eu não vou ter o peso então vou tirar aqui o atributo.
+
+15
+00:01:25,380 --> 00:01:33,540
+Vou substituir este peso no SOPA assado vou apagar esses dois métodos aqui a única coisa que eu vou
+
+16
+00:01:33,540 --> 00:01:40,830
+ter vai ser o construtor que recebe também o peso como parâmetro e chama o custo toda a classe sub e
+
+17
+00:01:40,830 --> 00:01:42,720
+finalmente o sorvete.
+
+18
+00:01:42,730 --> 00:01:47,430
+Eu vou tirar aqui o atributo vou tirar o método do jet set.
+
+19
+00:01:48,270 --> 00:01:55,890
+Vou definir qual a relação de herança com a palavra itens comida e finalmente eu vou chamar o Supremo
+
+20
+00:01:56,370 --> 00:02:04,120
+aqui em cima cima de sorvete chamado classe sou chamado chutou na classe pai a partir do método super
+
+21
+00:02:04,550 --> 00:02:12,540
+então feito isso nós temos o arroz dando comida ou seja arroz e comida feijão comida e sorvete a comida
+
+22
+00:02:13,090 --> 00:02:20,400
+e o vão fazer aqui pessoas sem comida não querem porque em pouco tempo mais que você queira usar isso
+
+23
+00:02:20,820 --> 00:02:26,610
+não é interessante você fazer a pessoa ser comida porque o conceito não diz isso.
+
+24
+00:02:26,880 --> 00:02:32,070
+Como já falei acho que cometer um aumento do custo não sei se eu comentei ou sugeriu isso em algum exemplo
+
+25
+00:02:32,310 --> 00:02:40,320
+que eu fiz no curso presencial e eu falei ao pessoal só comida na áfrica se tiver rodeado de leões famintos
+
+26
+00:02:40,320 --> 00:02:41,200
+entendeu pouca isso.
+
+27
+00:02:41,220 --> 00:02:47,280
+Esse conceito não bate pessoa não é comida então não tente forçar a barra do rio o uso de código quando
+
+28
+00:02:47,280 --> 00:02:50,430
+de fato não há pouco que você tenha naquele contexto.
+
+29
+00:02:50,760 --> 00:02:56,160
+Então aqui nós vamos acabar tendo esse código dentro de pessoa muito parecido com o código a gente tem
+
+30
+00:02:56,160 --> 00:02:57,570
+vidro de comida.
+
+31
+00:02:57,810 --> 00:03:04,620
+Então pra gente agora finalizar o uso do polimorfismo nós estabelecemos a herança como pré requisito
+
+32
+00:03:04,620 --> 00:03:11,760
+para o polimorfismo dinâmico e dentro de pessoa que a gente tem três metros eu vou substituir os três
+
+33
+00:03:11,760 --> 00:03:13,260
+metros por um metro só.
+
+34
+00:03:13,650 --> 00:03:21,110
+Ou seja a pessoa agora vai comer comida então comendo comida eu posso de forma genérica faço aqui comida
+
+35
+00:03:21,120 --> 00:03:26,160
+ou seja o peso da comida vai ser aplicado à pessoa e eu não preciso mais ter agora os outros métodos
+
+36
+00:03:26,160 --> 00:03:33,490
+específicos para tipos específicos porque ele consegue passar fome que pode modificar qualquer tipo
+
+37
+00:03:33,510 --> 00:03:39,870
+que era de comida feijão arroz e solvente inclusive tipos que não foram criados ainda você vai poder
+
+38
+00:03:39,870 --> 00:03:43,230
+passar desde que esses tipos de comida.
+
+39
+00:03:43,230 --> 00:03:45,830
+Certo ou então aqui para a gente testar o jantar.
+
+40
+00:03:45,840 --> 00:03:51,120
+O resultado será exatamente o mesmo agora tem um e-commerce que recebe um tipo mais genérico mais que
+
+41
+00:03:51,120 --> 00:03:56,850
+eu posso passar tipos específicos como é que comeu arroz feijão sorvete ou qualquer outra classe que
+
+42
+00:03:56,850 --> 00:03:58,410
+eventualmente eu vim criar.
+
+43
+00:03:58,690 --> 00:04:01,230
+Então quando o resultado é exatamente o mesmo.
+
+44
+00:04:01,380 --> 00:04:07,490
+Só que agora usando polimorfismo dinâmico então pra isso a gente precisou criar herança e também a gente
+
+45
+00:04:07,500 --> 00:04:13,590
+precisou tornar o método comer com um atributo do tipo mais genérico assim eu consigo passar tipos mais
+
+46
+00:04:13,590 --> 00:04:18,040
+específicos e consigo usar o polimorfismo dinâmico a meu favor.

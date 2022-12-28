@@ -1,0 +1,311 @@
+1
+00:00:00,590 --> 00:00:05,730
+Na zona agora começa a fazer nossos primeiros exemplos e eu vou usar o próprio terminal do mundo para
+
+2
+00:00:05,730 --> 00:00:12,750
+a gente fazer os exemplos mais importante que eu também coloque os arquivos dentro do nosso projeto
+
+3
+00:00:12,750 --> 00:00:15,600
+para eventualmente isso porque lá no guichê.
+
+4
+00:00:15,600 --> 00:00:22,740
+Vocês têm todos os comandos executados eu vou só criar aqui uma nova pasta chamada de banco não relacional
+
+5
+00:00:23,060 --> 00:00:27,780
+e dentro dessa pasta vou criar um arquivo embora não vai escrever nada nesse arquivo durante a aula
+
+6
+00:00:28,130 --> 00:00:29,680
+mais quando tiver que offline.
+
+7
+00:00:29,690 --> 00:00:34,230
+Eu vou colocar todos os comandos que eu visitei no terminal para vocês terem a referência.
+
+8
+00:00:34,590 --> 00:00:39,700
+Eventualmente quando você vai fazer um script para um longo bebê você vai usar JavaScript.
+
+9
+00:00:39,720 --> 00:00:45,510
+Mas nesse caso o não é propriamente um script e simplesmente os comandos digitais eu vou colocar comandos
+
+10
+00:00:45,510 --> 00:00:48,760
+básicos ponto TXT e aqui dentro.
+
+11
+00:00:48,780 --> 00:00:53,040
+Depois que tenho na aula vou jogar exatamente tudo aquilo que visitei no terminal.
+
+12
+00:00:53,040 --> 00:00:56,710
+Para vocês terem uma referência quando vocês baixar o repositório do curso.
+
+13
+00:00:56,860 --> 00:01:00,150
+Então voltando aqui o banco de dados está a ser executado.
+
+14
+00:01:00,150 --> 00:01:07,030
+Rodei o comando mongol dê certo que é o Dinho lá o processo que ficou executando um banco de dados.
+
+15
+00:01:07,140 --> 00:01:12,180
+Vou abrir aqui um outro terminal ou outra aula dependendo do sistema operacional que você deseja e vai
+
+16
+00:01:12,180 --> 00:01:19,260
+executar o comando logo que está disponível aqui na PF do meu sistema entra em qualquer pasta que consigo
+
+17
+00:01:19,320 --> 00:01:20,380
+acessar o banco.
+
+18
+00:01:20,700 --> 00:01:25,980
+Eu estou rodando a versão 4 ponto zero ponto em que a versão que está ali em aulas anteriores então
+
+19
+00:01:25,980 --> 00:01:27,540
+aqui dentro volta ao comando Mongo.
+
+20
+00:01:27,900 --> 00:01:31,990
+Então quando você entra ele vai mostrar aqui algumas mensagens não há nenhum problema.
+
+21
+00:01:32,310 --> 00:01:37,650
+E aí você pode colocar CDs para iPad e você começa a digitar o SUS como o Primeiro Comando que eu queria
+
+22
+00:01:37,650 --> 00:01:38,830
+baixar pra vocês é um help.
+
+23
+00:01:38,830 --> 00:01:44,370
+Tem algumas opções e você também pode usar o Tab para isso dependendo do contexto que você já tem escrito
+
+24
+00:01:44,370 --> 00:01:49,560
+por exemplo colocar aqui tb ponto e dar um cabo e duas vezes ele vai mostrar tudo aquilo que você tem
+
+25
+00:01:49,560 --> 00:01:56,910
+à sua disposição pra ser usado dentro da API do domingo onde mora aqui quem tem mais coisas aqui no
+
+26
+00:01:56,920 --> 00:01:58,180
+CLS novamente.
+
+27
+00:01:58,470 --> 00:02:03,650
+Nós vamos começar o primeiro comando que eu quero de fato mostrar pra vocês é o comando sou bebês no
+
+28
+00:02:03,690 --> 00:02:07,860
+plural ele vai mostrar todos os bancos de dados que estão disponíveis pra você.
+
+29
+00:02:07,860 --> 00:02:14,010
+Por enquanto só temos bancos de dados que vêm por padrão na instalação e nenhum banco de dados foi criado.
+
+30
+00:02:14,010 --> 00:02:19,570
+Além do show bebês você pode usar como hobby o uso que também é usado no mais Kelly.
+
+31
+00:02:19,590 --> 00:02:26,630
+Só que nesse caso eu posso usar um banco de dados que nem foi criado em vida por exemplo e use WM que
+
+32
+00:02:26,640 --> 00:02:31,890
+seria bem moderno tá colocando em serviço mudei para o banco de dados WM.
+
+33
+00:02:32,010 --> 00:02:36,780
+Então tudo o que eu fizer agora vou fazer dentro do banco de dados do WM que nem foi criado ainda em
+
+34
+00:02:36,780 --> 00:02:42,250
+cima disso eu posso mandar ele dar um show de endereço continua ainda sem ter criado esse bar porque
+
+35
+00:02:42,270 --> 00:02:47,910
+habitualmente eu não coloquei nenhum dado lá então ele não vai aparecer na lista mas eu posso por exemplo
+
+36
+00:02:47,910 --> 00:02:55,170
+dentro de um banco que em mim foi criado já criar uma coleção usando o comando DD ponto Key Collection
+
+37
+00:02:55,550 --> 00:03:02,430
+e passa no nome da coleção que eu quero criar por exemplo caso estados nesse caso se eu daqui pra vocês
+
+38
+00:03:02,430 --> 00:03:08,160
+agora um show de beleza ele vai aparecer o WM é porque de fato dentro do meu banco de dados agora tem
+
+39
+00:03:08,160 --> 00:03:12,800
+uma coleção criada a coleção de estados nem precisaria criar essa coleção.
+
+40
+00:03:12,800 --> 00:03:16,410
+Poderia simplesmente inserir os dados que ela criaria automaticamente.
+
+41
+00:03:16,410 --> 00:03:18,000
+Depois eu vou mostrar isso pra vocês.
+
+42
+00:03:18,000 --> 00:03:22,770
+Além de ter o show bebês você tem um comando chamado show Collection no plural.
+
+43
+00:03:22,770 --> 00:03:28,140
+Lembrando que são dois zeros aqui quinta um show Collection ele vai mostrar que foi criado uma Collection
+
+44
+00:03:28,140 --> 00:03:35,130
+chamada Estado se eu criar uma ou outra coleção só que agora é de Estado ser maiúsculo.
+
+45
+00:03:35,130 --> 00:03:40,650
+No primeiro caso eu coloquei é minúsculo e agora estou colocando e maiúsculo você vai perceber que ele
+
+46
+00:03:40,650 --> 00:03:47,830
+vai criar duas coleções de nomes diferentes o que significa que Key sensitive to contrastando com o
+
+47
+00:03:47,820 --> 00:03:54,300
+banco de dados relacional que em Cuisine sensitive o SQL também quis se sentir firmeza a maioria dos
+
+48
+00:03:54,300 --> 00:04:01,350
+bancos que eu conheço apenas todos que eu lembro agora são case sensitive e o nome da tabela não importa
+
+49
+00:04:01,350 --> 00:04:06,840
+a letra maiúscula minúscula o nome das colunas também não importa aqui você tem essa diferenciação você
+
+50
+00:04:06,840 --> 00:04:14,700
+tem estados com E maiúsculo e Estado com e minúsculo tem essas duas possibilidades não cuidado com as
+
+51
+00:04:14,700 --> 00:04:21,630
+letras pra você não tentar acessá la e criar outra e aí você inserir dados de 80 ali ou outra porque
+
+52
+00:04:21,630 --> 00:04:25,570
+isso vai gerar problemas na hora de você consultar os dados e.
+
+53
+00:04:25,680 --> 00:04:31,770
+Como é um banco muito flexível você pode eventualmente persistir no Estado com E maiúsculo e tentar
+
+54
+00:04:31,800 --> 00:04:38,040
+confortar um estado minúsculo e viu os dados Então presta atenção porque o banco é quem é esse sensitivo.
+
+55
+00:04:38,460 --> 00:04:45,060
+Além disso eu posso por exemplo chamar aqui BB 8 estados com E maiúsculo Drop.
+
+56
+00:04:45,270 --> 00:04:51,810
+Ele vai excluir essa tabela Se eu mostrar aqui chocolate 0 percebi que agora tem apenas uma única coleção
+
+57
+00:04:52,090 --> 00:04:56,420
+colocando e b d ponto listados no plural Drop.
+
+58
+00:04:56,760 --> 00:05:03,910
+Ele vai excluir a outra coleção mostrou no show percebi que nem uma coleção existe mais uma vez que
+
+59
+00:05:03,970 --> 00:05:06,250
+exclui todas as coleções de um banco.
+
+60
+00:05:06,700 --> 00:05:13,180
+Ele precisa mostrar que show depois você vai ver que o banco WM não aparece mais embora esteja ainda
+
+61
+00:05:13,180 --> 00:05:14,650
+usando esse banco seu.
+
+62
+00:05:14,740 --> 00:05:19,240
+Criar uma nova coleção automaticamente vai aparecer aqui na lista dos bancos de dados.
+
+63
+00:05:19,240 --> 00:05:22,420
+Então pra começar a gente viu alguns como interessantes.
+
+64
+00:05:22,420 --> 00:05:28,420
+Vimos o comando show desvios o comando para limpar o terminal vimos o comando para usar um determinado
+
+65
+00:05:28,420 --> 00:05:33,720
+banco e use o nome do banco que você queira e use o comando para mostrar Collection.
+
+66
+00:05:34,180 --> 00:05:43,000
+Chocolate usamos o cumaru pra criar coleção e então sempre DB ponto Chris Collection BB ponto o nome
+
+67
+00:05:43,000 --> 00:05:45,020
+da coleção ponto Drop.
+
+68
+00:05:45,420 --> 00:05:49,370
+Olha aqui que eu estou trabalhando como se fosse uma função como se fosse uma chamada em JavaScript.
+
+69
+00:05:49,370 --> 00:05:53,750
+DB notação ponto o nome da coleção que você quer acessar.
+
+70
+00:05:53,760 --> 00:05:54,980
+Ponto Drop.
+
+71
+00:05:55,050 --> 00:06:00,010
+O nome da coleção ponto 7 é o nome da coleção ponto 6 nome da coleção.
+
+72
+00:06:00,020 --> 00:06:03,430
+Contudo deixe o nome da coleção removido.
+
+73
+00:06:03,460 --> 00:06:09,070
+Todos esses são métodos que estão disponíveis para você manipular os dados dentro de uma coleção é a
+
+74
+00:06:09,070 --> 00:06:15,250
+chamada com a chamada de uma função Drop passando os parênteses no final certo alguns dessas chamadas
+
+75
+00:06:15,250 --> 00:06:21,760
+têm parâmetros e a outra simplesmente chama como uma função e alguns são comandos mesmo como chocolate.
+
+76
+00:06:21,940 --> 00:06:29,590
+Show de 10 use mobilidade são comandos administrativos que você vai acabar usando dentro do terminal
+
+77
+00:06:29,590 --> 00:06:34,600
+e linhas de comando então ficamos por aqui na sala na próxima aula continua vendo mais outros comandos
+
+78
+00:06:34,600 --> 00:06:35,850
+do Piauí e espera lá.

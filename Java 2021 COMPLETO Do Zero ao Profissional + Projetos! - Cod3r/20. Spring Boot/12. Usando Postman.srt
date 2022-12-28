@@ -1,0 +1,187 @@
+1
+00:00:00,120 --> 00:00:06,750
+Agora estou aqui na página do bolso pontocom que é a ferramenta que nós vamos usar.
+
+2
+00:00:06,780 --> 00:00:13,200
+Existe aqui a opção para você fazer o download é supersimples você faz o download e usa mais o processo
+
+3
+00:00:13,200 --> 00:00:14,940
+de instalação.
+
+4
+00:00:14,970 --> 00:00:19,500
+Eu já tenho instalado aqui na minha máquina então não preciso fazer o processo mas é um processo muito
+
+5
+00:00:19,500 --> 00:00:25,260
+mais muito simples mesmo não é necessário mostrar para vocês a instalação do Windows no Linux porque
+
+6
+00:00:25,260 --> 00:00:29,880
+é um processo bem fácil de ser feito e tenho muitos tutoriais na internet.
+
+7
+00:00:29,910 --> 00:00:35,390
+Acredito que até o próprio site deles eles devam colocar alguma coisa relacionada ao processo de instalação
+
+8
+00:00:35,510 --> 00:00:43,320
+da obra aqui bolso mesmo que uma ferramenta simples com relação ao uso da aplicação com certeza isso
+
+9
+00:00:43,320 --> 00:00:45,900
+vai ficar muito claro aqui durante a aula.
+
+10
+00:00:45,900 --> 00:00:53,640
+Mas o processo de instalação é super simples basta você entrar aqui no site baixar a aplicação e instalar
+
+11
+00:00:53,640 --> 00:00:55,090
+esse juízo normal.
+
+12
+00:00:55,470 --> 00:00:58,780
+Estou com a aplicação Sena aberta que no meu outro monitor.
+
+13
+00:00:58,980 --> 00:01:07,220
+Então eu vou maximizar a tela e ficar alternando entre o poncho e aqui a nossa aplicação em geral.
+
+14
+00:01:07,300 --> 00:01:12,720
+Então voltando aqui eu vou querer fazer um teste para a gente começar.
+
+15
+00:01:12,720 --> 00:01:16,620
+Aqui dentro nós temos os métodos do HTTP.
+
+16
+00:01:16,710 --> 00:01:26,650
+Então eu vou selecionar por exemplo o método GET IT vou colocar o HTTP 2 para a Barra local Occhi 2
+
+17
+00:01:26,670 --> 00:01:33,630
+pontos 80 80 Barra e vou colocar métodos que é o nome da requisição que quero fazer.
+
+18
+00:01:33,630 --> 00:01:39,740
+Por enquanto a gente não precisa se preocupar com parâmetros eu posso excluí esse parâmetro aqui.
+
+19
+00:01:40,560 --> 00:01:46,280
+O resto não precisa me preocupar também preciso me preocupar também posso tirar aqui perto.
+
+20
+00:01:46,360 --> 00:01:50,910
+é basicamente que a gente vai fazer agora fazer uma requisição então coloquei Gayet ao que eu quero
+
+21
+00:01:50,910 --> 00:01:55,870
+fazer um send ele vai responder para a gente com o resultado da requisição.
+
+22
+00:01:55,890 --> 00:02:02,280
+No caso aqui ele retornou apenas um a textual aquisição o tipo ganha se eu vim aqui e mandar para a
+
+23
+00:02:02,500 --> 00:02:02,840
+China.
+
+24
+00:02:02,850 --> 00:02:05,240
+Preciso fazer nada criar formulário e tal.
+
+25
+00:02:05,330 --> 00:02:12,120
+Eu venho aqui coloca mesmo aqui e ali no metro poxa ele vai retornar para a gente que são poucochinho
+
+26
+00:02:12,880 --> 00:02:14,350
+que são do tipo chute.
+
+27
+00:02:14,640 --> 00:02:21,000
+Eu vou executar ele vai fazer aquilo e que são do tipo que pede coisa e tal.
+
+28
+00:02:21,030 --> 00:02:27,290
+Ele vai fazer uma aquisição tipo pede finalmente a aquisição do tipo de link executado.
+
+29
+00:02:27,420 --> 00:02:28,710
+Ele vai trazer para a gente.
+
+30
+00:02:29,070 --> 00:02:34,280
+Nós fizemos uma aquisição tipo algo sobre o celibato em B e sei que são por padrão.
+
+31
+00:02:34,280 --> 00:02:39,790
+Ele não está retornando nada do que são o tipo de.
+
+32
+00:02:40,320 --> 00:02:46,950
+Ele vai fazer confusão aqui são do tipo Bete vai trazer o Zé Ruela deles e tal mas não vai trazer o
+
+33
+00:02:46,950 --> 00:02:53,620
+conteúdo não conseguiu fazê la a Inquisição mas não trouxe nada no barco não faz que são do tipo gay
+
+34
+00:02:53,670 --> 00:02:55,910
+aí sim ele traz o Bari também.
+
+35
+00:02:55,920 --> 00:03:00,780
+Beleza então só pra mostrar pra vocês essa ferramenta a gente vai estar usando a ferramenta do Porsche
+
+36
+00:03:01,320 --> 00:03:05,890
+aqui teria sido melhor ficar aqui a bolinha certa fica mais chique aqui nessa parte.
+
+37
+00:03:06,060 --> 00:03:13,170
+Mas de qualquer forma e a gente fez várias aquisições usando todos os metros e o gatinho por Chico pudim
+
+38
+00:03:13,380 --> 00:03:15,070
+de leite e o Pet.
+
+39
+00:03:15,340 --> 00:03:21,720
+E fica muito fácil em que usou a mesmíssima ou RS para fazer todas essas aquisições e métodos diferentes.
+
+40
+00:03:22,080 --> 00:03:27,990
+Então essa ferramenta do post vai ser muito útil pra gente trabalhar com esses múltiplos métodos HTTP
+
+41
+00:03:28,350 --> 00:03:34,350
+sem necessariamente precisar pegar criando um código ou uma chamada Ajax pra isso pra gente focar mesmo
+
+42
+00:03:34,350 --> 00:03:37,460
+na criação da API na próxima aula.
+
+43
+00:03:37,530 --> 00:03:44,630
+Nós vamos trabalhar a questão de passar parâmetros para o nosso abscesso como é que eu posso passar
+
+44
+00:03:44,630 --> 00:03:50,130
+a informação ao lado Bauza para o meu abscesso e em outras palavras como é que eu posso criar um método
+
+45
+00:03:50,490 --> 00:03:56,340
+que tem parâmetros que sabe parâmetros eu recebesse esse parâmetro para fazer algum tipo de personalização.
+
+46
+00:03:56,410 --> 00:03:59,090
+é isso que nós vamos começar a ver na próxima aula.
+
+47
+00:03:59,090 --> 00:03:59,640
+Eu disparou.

@@ -1,0 +1,651 @@
+1
+00:00:00,330 --> 00:00:06,450
+Agora nós vamos fazer o nosso primeiro exercício de e duro para a gente lê a parte mais básica entender
+
+2
+00:00:06,450 --> 00:00:12,030
+alguns comportamentos como na prática a gente pode pegar aquele conceito da aula passada e aplicar isso
+
+3
+00:00:12,150 --> 00:00:18,180
+usando a destruímos do Java então para isso eu vou criar uma nova classe em nome da classe.
+
+4
+00:00:18,180 --> 00:00:22,710
+Será o Windows mas não se fazem mais de um exercício.
+
+5
+00:00:22,740 --> 00:00:28,020
+Eu vou criar aqui um método para que a gente possa fazer o nosso primeiro exercício eu vou usar para
+
+6
+00:00:28,080 --> 00:00:30,180
+pegar um exemplo bem simples de números tá bom.
+
+7
+00:00:30,570 --> 00:00:38,880
+Então pega aqui uma lista de valores inteiros e muita gente chama aqui de nãos e vou a partir desse
+
+8
+00:00:38,950 --> 00:00:40,000
+ponto.
+
+9
+00:00:40,150 --> 00:00:52,860
+Deixe criar uma lista com 1 2 3 3 4 5 6 7 8 9 de 1 a 9 é o meu objetivo é somar todos os elementos usando
+
+10
+00:00:52,950 --> 00:01:00,390
+o Windows eu poderia fazer um filme para cada foto criar uma variável por exemplo inteira chamada total
+
+11
+00:01:00,760 --> 00:01:07,680
+e aí para cada iteração a gente vai pega fazem uma atribuição a atribuição aditiva a gente já faz isso
+
+12
+00:01:07,780 --> 00:01:14,120
+vai acrescentando os valores até que você tenha o total apresentado em cima de uma variável com Windows.
+
+13
+00:01:14,130 --> 00:01:20,730
+Isso é muito simples mas gente que você cria uma função que vai fazer o total que vai somar um acumulador
+
+14
+00:01:20,730 --> 00:01:21,870
+mais igual ao atual.
+
+15
+00:01:21,890 --> 00:01:22,850
+Uma única vez.
+
+16
+00:01:22,850 --> 00:01:28,850
+Você pode usar isso sempre que quiser sem necessariamente precisar fazer um laço criar a variável isso
+
+17
+00:01:28,850 --> 00:01:35,010
+mandam a cada interação seja muito mais trabalho você fazer isso não foram tradicional tanto que eu
+
+18
+00:01:35,010 --> 00:01:40,710
+vou fazer o seguinte eu vou criar uma função e essa função pode ser por exemplo um operador binário
+
+19
+00:01:40,740 --> 00:01:47,030
+ou seja que recebe dois parâmetros que seria o acumulador ou o valor atual e retorna algum resultado.
+
+20
+00:01:47,040 --> 00:01:53,750
+Será que no operador binário você tem todos os tipos cena do mesmo tipo na metade do acumulador.
+
+21
+00:01:53,910 --> 00:01:59,950
+O valor atual é o resultado do mesmo tipo mas você pode usar um fantoche fantoche ou um baile funk é
+
+22
+00:02:00,000 --> 00:02:07,530
+bem forte que você recebe o acumulador é de um tipo aleatório de outro e o resultado também pode ser
+
+23
+00:02:07,530 --> 00:02:08,380
+de outro tipo.
+
+24
+00:02:08,580 --> 00:02:13,320
+Então você tem a flexibilidade que quiser dependendo do tipo de interface funcional que você quer usar.
+
+25
+00:02:13,680 --> 00:02:20,170
+Nesse nosso caso eu vou chamar que vai operar então dentro de Java.
+
+26
+00:02:20,170 --> 00:02:26,730
+O último ponto foi falando um pouco mais perfeito vou colocar o Tigre você sem muita gente deu o nome
+
+27
+00:02:26,730 --> 00:02:33,590
+da variável e vai se soma é a expressão lambda sei baixei a segunda acumulador pode ser o que eu quiser
+
+28
+00:02:33,600 --> 00:02:38,510
+na verdade com esse total pode ser só pode ser não tem problema nenhum.
+
+29
+00:02:38,520 --> 00:02:39,290
+Então a C.
+
+30
+00:02:39,340 --> 00:02:44,860
+Vou colocar aqui pra c o valor atual e eu vou simplesmente pagar o acumulador.
+
+31
+00:02:45,220 --> 00:02:48,310
+Mas aqui a minha expressão lambda some.
+
+32
+00:02:48,740 --> 00:02:52,410
+Então pra gente usar é Dual SIM é super simples o processo é muito parecido.
+
+33
+00:02:52,410 --> 00:02:59,810
+Quem já fez até então nãos e vou chamar aqui estranho pra gente começa a criar o nosso chip e aqui vou
+
+34
+00:02:59,820 --> 00:03:05,780
+chamar a função induz uma observação com relação à função Dus é o seguinte.
+
+35
+00:03:05,850 --> 00:03:13,230
+Diferente do MEP é diferente do filtro é que são funções intermediárias são funções que tornam o outro
+
+36
+00:03:13,290 --> 00:03:20,580
+estranho o sexo o Fórum o fórum original função treinadora tá lá na ponta ou seja depois do Fórum Você
+
+37
+00:03:20,580 --> 00:03:24,140
+não tem como encaixar um Mac um filtro aí continua a encaixar o.
+
+38
+00:03:24,160 --> 00:03:30,030
+Porque o fórum já fosse um exterminador assim também o Windows é uma função Exterminador está lá no
+
+39
+00:03:30,030 --> 00:03:31,330
+terminal né.
+
+40
+00:03:31,380 --> 00:03:38,520
+Ou seja o resultado final de um idoso se não é o outro extremo isso é importante você perceber.
+
+41
+00:03:38,540 --> 00:03:40,200
+Acho que pela lógica dá pra perceber né.
+
+42
+00:03:40,200 --> 00:03:44,650
+Você tinha um time de números e no final do Windows vai ser um único número.
+
+43
+00:03:45,210 --> 00:03:51,130
+Nesse caso o pai aqui ao Windows e vou passar como parâmetro Windows.
+
+44
+00:03:51,300 --> 00:03:57,600
+A função soma e aí você vai ver clicando aqui soma vou colocar um ponto e vírgula por enquanto a gente
+
+45
+00:03:57,600 --> 00:04:00,710
+não vai executar ainda certa não vai gerar resultado nenhum.
+
+46
+00:04:00,750 --> 00:04:06,690
+Se você der um contra o espaço você vai ver que da forma como eu chamei aqui essa a primeira forma que
+
+47
+00:04:07,140 --> 00:04:14,100
+ele vai gerar o que ele chama de pop não do tipo interditar os anos genéricos lá seja mais ele vai gerar
+
+48
+00:04:14,100 --> 00:04:21,000
+um valor opcional porque não necessariamente você vai ter um resultado gerado certo e esse óbvio não
+
+49
+00:04:21,000 --> 00:04:24,720
+pode estar vazio mais pra você pegar o resultado gerado.
+
+50
+00:04:24,720 --> 00:04:30,540
+Você pode usar a função deles vão achar algumas possibilidades para vocês um é usando a função Gad nesse
+
+51
+00:04:30,540 --> 00:04:35,570
+caso com outro retornado então eu posso se quiser tem que ter alguns cuidados com relação a isso mas
+
+52
+00:04:35,580 --> 00:04:44,270
+eu posso associar até o valor primitivo então total recebe o Windows da soma e o resultado deixa que
+
+53
+00:04:44,280 --> 00:04:49,650
+eu posso por exemplo imprimir o valor total só para pra gente fazer a loja aqui de cabeça só somando
+
+54
+00:04:50,100 --> 00:05:03,500
+aí depois 2 3 contra 6 10 15 e depois 21 28 28 36 45 ou seja o resultado da soma de todos esses valores
+
+55
+00:05:03,500 --> 00:05:12,290
+equivale a 45 e é exatamente o resultado que espera receber aos 45 usando o idoso soma pagando o valor
+
+56
+00:05:12,290 --> 00:05:18,750
+de Guedes já que o resultado do uso da forma como o chamei ele é o alvo chamam de certo é um bolo opcional
+
+57
+00:05:18,750 --> 00:05:19,760
+de inteiro.
+
+58
+00:05:19,760 --> 00:05:28,130
+Quando você muda um pouquinho a assinatura você chama um estranho e aqui eu vou chamá lo o idoso posso
+
+59
+00:05:28,250 --> 00:05:33,580
+chamar paralelos tenho este problema que o Estoril produz.
+
+60
+00:05:33,650 --> 00:05:41,960
+Eu vou passar a função soma se antes da função soma eu passar o valor inicial por exemplo quero começar
+
+61
+00:05:41,960 --> 00:05:43,470
+o valor inicial com 100.
+
+62
+00:05:43,610 --> 00:05:47,550
+O resultado 12 já não é um opcional.
+
+63
+00:05:47,600 --> 00:05:53,060
+Muita gente vai ser o próprio inteiro mesmo porque como você passa um valor inicial independente de
+
+64
+00:05:53,070 --> 00:05:59,010
+ter nada nenhum elemento a ser passado aqui para o idoso como já tem o valor inicial.
+
+65
+00:05:59,030 --> 00:06:01,410
+A resposta será o valor inicial.
+
+66
+00:06:01,490 --> 00:06:06,470
+Então sem usar o português eu já posso colocar aqui muita gente.
+
+67
+00:06:06,470 --> 00:06:15,500
+Por exemplo vou chamar aqui total 2 recebe esse valor aqui chamado de total total para colocar no seu
+
+68
+00:06:15,500 --> 00:06:16,680
+valor primitivo.
+
+69
+00:06:17,510 --> 00:06:24,740
+O que acontece quando você tem um valor aqui fora do assunto a gente vai falar sobre erros no próximo
+
+70
+00:06:24,740 --> 00:06:31,810
+capítulo mas se eu tiver aqui um valor inteligente por exemplo que vou criar aqui um valor ele intervém
+
+71
+00:06:32,540 --> 00:06:34,020
+a quem recebe.
+
+72
+00:06:34,100 --> 00:06:41,570
+No caso aqui não tem problema nenhum você pode ter um valor nulo para uma variável que é de classe no
+
+73
+00:06:41,570 --> 00:06:47,570
+caso o que o interage com E maiúsculo se eu pagar que o limite bem e tentar associar um valor já que
+
+74
+00:06:47,560 --> 00:06:48,680
+é nulo.
+
+75
+00:06:48,680 --> 00:06:55,840
+Nesse caso nós vamos ter uma exceção chamada no ponto certo você vai ver o resultado vai ser no ponto
+
+76
+00:06:56,090 --> 00:07:02,450
+certo não porque você tentou pagar um valor apenas que é uma classe em um primitivo que tem nulo e você
+
+77
+00:07:02,450 --> 00:07:08,480
+não tem como aplicar nulo para o valor inteiro então tem que ter cuidado porque quando você vai fazer
+
+78
+00:07:08,480 --> 00:07:13,460
+essas conversões se não tiver molestado você pode ter uma exceção desse tipo aqui.
+
+79
+00:07:13,670 --> 00:07:20,630
+Então nesse caso eu sei que o Estado vai existir então ele vai fazer a conversão automática para o valor
+
+80
+00:07:20,630 --> 00:07:21,140
+inteiro.
+
+81
+00:07:21,140 --> 00:07:26,390
+Mas se você quiser ter um pouco mais de segurança você pode colocar o time pra 100 também.
+
+82
+00:07:26,780 --> 00:07:32,630
+Então aqui diferente do primeiro que a gente passou a função ele retornou logo chamaram de Itajaí e
+
+83
+00:07:32,630 --> 00:07:34,340
+eu tive que chamar a função Gate.
+
+84
+00:07:34,610 --> 00:07:39,790
+Nessa segunda vez eu passo o idoso com um passe e um valor inicial então não tem problema nenhum.
+
+85
+00:07:39,860 --> 00:07:45,470
+Ele vai fazer a mesma coisa a soma de todos os valores mas com o valor inicial era 100 reais mostrando
+
+86
+00:07:45,470 --> 00:07:48,100
+aqui o resultado pessoal total.
+
+87
+00:07:48,320 --> 00:07:49,560
+2.
+
+88
+00:07:49,850 --> 00:07:51,950
+Aconteceu o seguinte.
+
+89
+00:07:52,010 --> 00:07:58,170
+O resultado apesar de você ter colocado um valor para começar com um valor inicial 0 pra você receberia
+
+90
+00:07:58,170 --> 00:08:04,400
+o resultado pois enfim altera pra fazer o cenário está então com o valor inicial zero frisa que a soma
+
+91
+00:08:04,400 --> 00:08:09,320
+de todos os valores o resultado de reduz se nesse caso com o valor inicial.
+
+92
+00:08:09,320 --> 00:08:12,940
+Vai ser um valor inteiro mesmo que essa segunda chamada né.
+
+93
+00:08:12,950 --> 00:08:18,290
+Ele chama que esse valor inicial de identidade ou identidade seria o valor inicial que você vai passar
+
+94
+00:08:18,710 --> 00:08:20,510
+pra ele fazer a operação do idoso.
+
+95
+00:08:20,510 --> 00:08:26,210
+Depois eu passei uma operação binária do tipo inteiro que retornou o resultado do tipo inteiro sem problema
+
+96
+00:08:26,210 --> 00:08:28,230
+nenhum exatamente o mesmo resultado.
+
+97
+00:08:28,340 --> 00:08:31,620
+Só que nesse caso o que eu não precisei do GAT tá bom.
+
+98
+00:08:31,640 --> 00:08:37,310
+Chamei aqui o Guedes pra cá não precisei do gás porque com um passo igual ao inicial ele sempre terá
+
+99
+00:08:37,310 --> 00:08:38,000
+o bolo inteiro.
+
+100
+00:08:38,000 --> 00:08:43,040
+Por isso ele não precisou do álcool nesse caso especificamente quando faço um estranho paralelo ele
+
+101
+00:08:43,040 --> 00:08:50,100
+vai executar as chamadas dos alimentos de forma paralela e se eu passar o valor inicial pra todos.
+
+102
+00:08:50,300 --> 00:08:56,750
+As chamadas paralelas vai ter um valor inicial independente então se eu vou dividir por exemplo essa
+
+103
+00:08:56,750 --> 00:09:06,100
+operação no 1 2 3 4 5 6 7 9 chamadas para cada uma das chamadas ele vai passar o valor inicial e no
+
+104
+00:09:06,110 --> 00:09:11,750
+final quando ele for somar tudo vocês vão perceber que esse valor inicial ele foi considerado várias
+
+105
+00:09:11,750 --> 00:09:12,640
+vezes.
+
+106
+00:09:12,660 --> 00:09:19,370
+Então só executar você vai ver que o resultado vai dar 945 porque ele somou todos esses elementos mas
+
+107
+00:09:19,370 --> 00:09:22,180
+como ele passou o valor inicial para cada um deles.
+
+108
+00:09:22,310 --> 00:09:27,680
+No final das contas ele gerou um valor bem maior no caso quando você passa um valor inicial 0 não faz
+
+109
+00:09:27,680 --> 00:09:35,100
+diferença mas se você quiser garanti que passa no valor inicial ele vai gerar o resultado esperado.
+
+110
+00:09:35,180 --> 00:09:40,420
+Você tem por exemplo que passar um estranho sequencial de tal forma que esse valor inicial será passada
+
+111
+00:09:40,430 --> 00:09:46,640
+apenas a primeira vez e a partir daí ele vai executar no caso do Monaco somar de forma sequencial.
+
+112
+00:09:46,640 --> 00:09:51,680
+Então dependendo de qual estratégia você usa você pode ter esse efeito colateral principalmente se você
+
+113
+00:09:51,680 --> 00:09:58,400
+passar um valor inicial diferente de zero que ele pode considerar o valor inicial múltiplas vezes vai
+
+114
+00:09:58,400 --> 00:10:06,680
+depender da nesse caso do total eu posso usar em paralelo sempre ao menos nenhum paralelo estranho que
+
+115
+00:10:06,710 --> 00:10:12,140
+o resultado sempre será o mesmo não gerará nenhum tipo de impacto já que não possui valor inicial mas
+
+116
+00:10:12,140 --> 00:10:17,150
+se você quiser passar o valor inicial esse valor inicial foi diferente de zero você eventualmente pode
+
+117
+00:10:17,150 --> 00:10:20,440
+experimentar algum tipo de comportamento diferente.
+
+118
+00:10:20,450 --> 00:10:25,090
+Outro exemplo que eu vou fazer é pessoal exatamente para explorar um pouco mais do óbvio não.
+
+119
+00:10:25,130 --> 00:10:31,160
+Ainda que ando aqui faz parte do primeiro exercício certo na primeira parte assistiu Dulce aqui está
+
+120
+00:10:31,160 --> 00:10:34,620
+fazendo três exercícios dentro desse único vídeo.
+
+121
+00:10:34,630 --> 00:10:41,780
+Daí então fazer aquele ponto estranho se a gente pode por exemplo forma muito simples aplicar um filtro
+
+122
+00:10:41,800 --> 00:10:45,130
+é pouco quero receber um determinado valor.
+
+123
+00:10:45,600 --> 00:10:50,690
+Eu quero que esse valor seja maior do que estava há sempre um filtro baseado nesse filtro a gente sabe
+
+124
+00:10:50,690 --> 00:10:57,200
+que nenhum desses elementos vai acabar sendo e passar pra frente porque nenhum deles vai estar de acordo
+
+125
+00:10:57,200 --> 00:11:02,500
+com esse filtro aqui mas de qualquer forma faz o primeiro teste que depois a gente continua com a ideia
+
+126
+00:11:02,510 --> 00:11:07,770
+que eu vou passar uns coloridos também e vou passar a operação que eu criei esse SE.
+
+127
+00:11:08,060 --> 00:11:14,630
+Nesse caso eu tenho o resultado como sendo um show não digo inteiro porque eu passei a soma sem nenhum
+
+128
+00:11:14,630 --> 00:11:16,070
+valor inicial.
+
+129
+00:11:16,070 --> 00:11:23,700
+Aqui existe uma função da Etiópia não ideia por exemplo se estar presente e presente que aí se tiver
+
+130
+00:11:23,720 --> 00:11:31,480
+presente ele chama uma determinada ação então coloco aqui o sistema de ponto Alt e aí coloco aqui prende
+
+131
+00:11:31,620 --> 00:11:37,130
+ali significa fica se tiver presente ele vai chamar essa função caso contrário não chamam porque nesse
+
+132
+00:11:37,130 --> 00:11:38,000
+caso não está presa.
+
+133
+00:11:38,000 --> 00:11:44,360
+Inclusive tem um efeito paralisante embora seja o caso contrário que você também pode criar aqui só
+
+134
+00:11:44,400 --> 00:11:46,550
+colocar pra 6.5.
+
+135
+00:11:47,030 --> 00:11:52,220
+Você vai ver que os números maiores do que 5 6 6 7 8 e 9.
+
+136
+00:11:52,270 --> 00:12:01,220
+E aqui você tem 15 mais sete 22 vai dar 30 o valor então acertado o resultado vai dar 30 porque nesse
+
+137
+00:12:01,220 --> 00:12:06,560
+caso você tem um valor presente ou seja opcional de algum tipo que é o resultado do uso ele vai te dar
+
+138
+00:12:06,560 --> 00:12:12,200
+algumas funções interessantes caso exista um determinado valor você chamar com uma lâmpada ou mesmo
+
+139
+00:12:12,200 --> 00:12:15,410
+passar uma referência para o metro que falou que eu fiz aqui.
+
+140
+00:12:15,470 --> 00:12:24,020
+Então esse aqui foi o primeiro exercício só pra deixar claro que o resultado resultado foi opcional
+
+141
+00:12:24,270 --> 00:12:29,510
+de muita gente só que com um em maiúsculo.
+
+142
+00:12:30,230 --> 00:12:37,130
+E aqui nós fizemos o uso do Duce junto com fios e aplicamos um filtro antes para filtrar alguns elementos.
+
+143
+00:12:37,220 --> 00:12:43,010
+Depois chamamos o Windows e finalmente se o resultado estiver presente faça alguma coisa.
+
+144
+00:12:43,010 --> 00:12:48,110
+Pode ser uma referência para o metro ou mesmo pra se passar um lambida aqui também seria suportado.
+
+145
+00:12:48,110 --> 00:12:53,510
+Então esse foi o nosso primeiro exercício de uso a parte 1 vai ter mais duas partes falando de outros
+
+146
+00:12:53,510 --> 00:13:00,200
+exercícios que nós fizemos um exercício de três formas diferentes e usando a mesma função como que no
+
+147
+00:13:00,200 --> 00:13:06,650
+caso aqui foi um operador binário de Soma que pega o acumulador e vai somando certa um tipo de operação
+
+148
+00:13:06,650 --> 00:13:11,060
+é de uso muito comum quero somar todos os elementos de um carrinho.
+
+149
+00:13:11,060 --> 00:13:17,420
+Você pode fazer o MEP para pagar os preços dos produtos ou mesmo pagar o valor total não é o preço total
+
+150
+00:13:17,420 --> 00:13:19,490
+com um desconto de todos os produtos.
+
+151
+00:13:19,500 --> 00:13:25,490
+Depois que você faz um produto se você tem o somatório de tudo poderia ser uma das aplicações práticas
+
+152
+00:13:25,490 --> 00:13:30,200
+falei um pouquinho que quando você recebe um opcional inteiro você tem que chamar alguém.
+
+153
+00:13:30,320 --> 00:13:32,520
+No caso que você passou apenas a função.
+
+154
+00:13:32,630 --> 00:13:38,470
+Quando você passa um valor inicial você recebe o próprio valor que você espera no caso aqui um inteiro
+
+155
+00:13:38,810 --> 00:13:45,140
+e cuidado se você tiver o valor inicial chamado de forma paralela você vai perceber que ele vai passar
+
+156
+00:13:45,140 --> 00:13:49,800
+esse valor para cada uma das secções paralelas e isso pode ser um problema.
+
+157
+00:13:49,880 --> 00:13:55,940
+Então nesse caso eu preferi chamar nasci no segundo exercício este cereal pra que a gente não tenha
+
+158
+00:13:55,940 --> 00:14:00,970
+problemas com essa questão do valor inicial mas quando você passa um valor inicial sempre vai ter um
+
+159
+00:14:00,970 --> 00:14:07,490
+estado final então ele já não devolve pra gente um álbum inteiro e no final Eu misturei um pouquinho
+
+160
+00:14:07,490 --> 00:14:13,550
+aqui um filtro junto com o Windows e como ele retorna um álbum inteiro você tem algumas funções que
+
+161
+00:14:13,550 --> 00:14:17,490
+você pode usar como presente se tiver presente faz alguma coisa.
+
+162
+00:14:17,600 --> 00:14:23,090
+Caso contrário não faz absolutamente nada então esse foi o primeiro exercício e até proximal pra gente
+
+163
+00:14:23,090 --> 00:14:25,520
+fazer os segundos esses híbridos até lá.

@@ -1,0 +1,207 @@
+1
+00:00:00,390 --> 00:00:06,000
+Então pessoal apresentando para vocês uma das possíveis respostas esse é um exercício que não tem uma
+
+2
+00:00:06,000 --> 00:00:07,910
+resposta precisa.
+
+3
+00:00:07,920 --> 00:00:14,490
+Não desafio que tenham a resposta certa porque vai depender de como cada um modelou Imaginou a situação
+
+4
+00:00:14,490 --> 00:00:17,190
+mais segura aqui mais ou menos alinhada à clínica.
+
+5
+00:00:17,190 --> 00:00:20,070
+Vou criar aqui um novo Java Project.
+
+6
+00:00:20,160 --> 00:00:24,610
+O nome do nosso projeto será a faculdade.
+
+7
+00:00:24,630 --> 00:00:26,880
+O resto vai ficar exatamente igual né Jr.
+
+8
+00:00:26,920 --> 00:00:27,650
+12.
+
+9
+00:00:27,960 --> 00:00:33,380
+Ele vai criar os arquivos aqui separados tal só clicar em Fina Xira criou o projeto.
+
+10
+00:00:33,540 --> 00:00:40,920
+Não vão querer também criar um módulo qualquer não criar e aqui nós vamos criar a primeira classe que
+
+11
+00:00:40,920 --> 00:00:41,520
+eu vou criar.
+
+12
+00:00:41,520 --> 00:00:45,600
+Vai ser a classe professor então vou colocar que uniu classe.
+
+13
+00:00:46,080 --> 00:00:53,300
+Vou colocar o nome da classe pra ser professor e eu vou colocar dentro do pacote por exemplo um RH certo.
+
+14
+00:00:53,570 --> 00:00:58,400
+Eu poderia colocar dentro do pacote educacional mas eu vou colocar aqui dentro.
+
+15
+00:00:58,720 --> 00:01:03,570
+Então seguindo a mesma linha eu vou colocar aqui pessoal colocar filhos.
+
+16
+00:01:03,990 --> 00:01:11,040
+Então não tem a resposta certa mas como você vai imaginar imaginasse coisa ou outra outra pessoa digamos
+
+17
+00:01:11,040 --> 00:01:17,550
+assim extremamente importante dentro do contexto da faculdade o aluno é além do aluno você também terá
+
+18
+00:01:17,550 --> 00:01:25,310
+um funcionário e um funcionário também faz parte parte importantíssima na área certo.
+
+19
+00:01:25,590 --> 00:01:28,140
+Então nós temos o aluno funcionário professor.
+
+20
+00:01:28,150 --> 00:01:30,970
+Aí eu posso criar aqui um outro pacote.
+
+21
+00:01:31,050 --> 00:01:38,430
+Eu posso criar agora em vez de criar classe em um acordo cria um pacote Brasil chamado educacional Edu
+
+22
+00:01:38,440 --> 00:01:50,050
+K assim nao e dentro de educacional você pode ter por exemplo uma classe chamada disciplina.
+
+23
+00:01:50,070 --> 00:01:57,870
+Você pode ter por exemplo uma ou outra classe chamada prova certa ou seja uma prova tem várias disciplinas
+
+24
+00:01:57,870 --> 00:02:00,370
+e tal pode ter uma prova.
+
+25
+00:02:00,450 --> 00:02:08,260
+Você pode ter aqui um outro pacote chamado também baseado na Química Administração por exemplo ou ilustração
+
+26
+00:02:09,210 --> 00:02:11,000
+dentro de administração.
+
+27
+00:02:11,130 --> 00:02:18,960
+Você tem por exemplo uma classe chamada matrícula seja matrícula é algo administrativo que também influencia
+
+28
+00:02:18,960 --> 00:02:24,990
+na questão educacional e que faz uma relação entre professor aluno disciplina.
+
+29
+00:02:24,990 --> 00:02:29,040
+Certo mas é algo que acontece na parte administrativa da faculdade.
+
+30
+00:02:29,130 --> 00:02:35,220
+Você pode também ter uma agenda na faculdade por exemplo assim como eu tenho uma clínica.
+
+31
+00:02:35,220 --> 00:02:42,570
+Você tem uma agenda para reservar as salas e fazer essa alocação da parte física da faculdade e fora
+
+32
+00:02:42,570 --> 00:02:46,070
+outras milhares de coisas que você vai ter num sistema real da faculdade.
+
+33
+00:02:46,070 --> 00:02:52,050
+Mais importante que eu queria que exatamente você treinar essa parte mecânica de criar o projeto criar
+
+34
+00:02:52,050 --> 00:02:57,590
+os pacotes criar os arquivos porque isso vai fazer parte completamente do nosso curso.
+
+35
+00:02:57,900 --> 00:03:03,090
+Então nesse caso como a gente não vai estar mexendo nem no sistema da faculdade nem no sistema de clínica
+
+36
+00:03:03,510 --> 00:03:09,000
+você pode clicar com o botão direito do mouse e tem uma opção prática para fechar o projeto.
+
+37
+00:03:09,030 --> 00:03:12,050
+Logo depois que feche você tem Project.
+
+38
+00:03:12,120 --> 00:03:15,040
+Ele vai fechar o projeto e clínica.
+
+39
+00:03:15,060 --> 00:03:21,340
+Você também tem a opção pra dar um close Project o que significa que você não vai ficar bem nas informações
+
+40
+00:03:21,340 --> 00:03:26,910
+desse esse projeto se você quiser digamos assim dê acesso de novo aos arquivos desse projeto.
+
+41
+00:03:26,910 --> 00:03:29,360
+Pelo clipes aqui você vai ter que abrir o projeto.
+
+42
+00:03:29,730 --> 00:03:35,250
+E você tem a opção aqui de Open Project para abrir o projeto mas esse caso o projeto que nós vamos mexer
+
+43
+00:03:35,250 --> 00:03:39,960
+mesmo com o seu projeto de exercício então espera que vocês tenham gostado desse desafio vou estar sempre
+
+44
+00:03:39,960 --> 00:03:44,660
+propondo desafios mais 90 e hoje o centro mais do que isso.
+
+45
+00:03:44,730 --> 00:03:49,740
+Desafios de código escondem desafios só para a gente criar os projetos para que você possa tanto exercitar
+
+46
+00:03:49,740 --> 00:03:55,770
+um pouco a sua imaginação pensar um pouco mais na frente e pra onde a gente tá indo pra onde a gente
+
+47
+00:03:55,770 --> 00:04:00,720
+vai modelar pra onde todo esse conhecimento que eu vou mostrar pra vocês vai levar gente né.
+
+48
+00:04:00,720 --> 00:04:03,050
+O grande objetivo é criar aplicações reais.
+
+49
+00:04:03,390 --> 00:04:08,520
+Mas eu queria já desde o começo me achar pra vocês um pouquinho de como você pode estar imaginando um
+
+50
+00:04:08,520 --> 00:04:15,060
+programa real com vários arquivos com vários pacotes com eles interagiam entre si para formar algo maior
+
+51
+00:04:15,060 --> 00:04:21,420
+ou seja o velho ditado dividir para conquistar é exatamente isso que acontece no programa Real os arquivos
+
+52
+00:04:21,420 --> 00:04:25,160
+pequenos colaboram entre si para gerar uma solução grande.

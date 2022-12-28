@@ -1,0 +1,83 @@
+1
+00:00:00,210 --> 00:00:07,710
+Estamos começando mais um capítulo do nosso curso que é o capítulo de Java e Flex ou seja a nova API
+
+2
+00:00:07,710 --> 00:00:13,660
+para o desenvolvimento de interfaces gráficas para desktop no mundo do Java apesar de que o swing que
+
+3
+00:00:13,730 --> 00:00:16,610
+é a API antiga ainda funciona.
+
+4
+00:00:16,650 --> 00:00:24,000
+Ainda é válida e não está bem para quem não está digamos assim descontinuada ainda funciona e pode ser
+
+5
+00:00:24,000 --> 00:00:29,940
+usado hoje em dia Java e fretes e a API mais moderna é que se você tiver que preferir na hora de criar
+
+6
+00:00:29,940 --> 00:00:35,120
+um projeto é preferível que você crie com o Java e flex do que com o Java Swing.
+
+7
+00:00:35,280 --> 00:00:41,190
+Então nesse capítulo nós vamos entender os princípios apesar de que nós estejamos vivendo a era da web
+
+8
+00:00:41,250 --> 00:00:44,620
+onde boa parte das aplicações são desenvolvidas na web.
+
+9
+00:00:44,790 --> 00:00:50,340
+Ainda é muito vale desenvolver aplicações desktop e por isso é importante que você como desenvolvedor
+
+10
+00:00:50,670 --> 00:00:58,200
+saiba como desenvolver aplicações desktop e também alguns princípios por trás de cada tecnologia disponibilizada
+
+11
+00:00:58,200 --> 00:00:58,700
+no Japão.
+
+12
+00:00:58,700 --> 00:01:03,840
+Nós já vimos alguns exemplos disso ainda agora mas vamos aprender como desenvolver aplicações em Java
+
+13
+00:01:03,840 --> 00:01:10,890
+e feito se não perceber que há uma certa inspiração no mundo da web e quando você pode aplicar por exemplo
+
+14
+00:01:10,890 --> 00:01:17,180
+estilo na sua aplicação você pode criar arquivos ponto CSS se você vem da web.
+
+15
+00:01:17,400 --> 00:01:23,070
+Você vai ficar mais familiar com essa sintaxe que é suportada pelo Java e Flex se você não conhece não
+
+16
+00:01:23,070 --> 00:01:27,620
+tem problema a gente vai ver sim um arquivo separado para o arquivo CSS.
+
+17
+00:01:27,840 --> 00:01:33,720
+Para aplicativos na nossas interfaces gráficas em Java e Flex vamos fazer uma série de exercícios para
+
+18
+00:01:33,720 --> 00:01:39,270
+que você possa sair desse capítulo conhecendo essa tecnologia é apto a criar aplicações com ela.
+
+19
+00:01:39,430 --> 00:01:45,770
+Fico por aqui na próxima nós vamos configurar o nosso ambiente não vem nativamente dentro do JD A gente
+
+20
+00:01:45,780 --> 00:01:50,080
+precisa baixar o Java e fecha na nossa máquina configurar clipes.
+
+21
+00:01:50,180 --> 00:01:54,230
+E é exatamente o passo a passo que vou fazer na próxima aula e espero lá.

@@ -1,0 +1,283 @@
+1
+00:00:00,210 --> 00:00:06,210
+Penso agora uma das mudanças em fazer para resolver o problema que aconteceu na aula passada é o seguinte
+
+2
+00:00:06,270 --> 00:00:11,580
+já estava está previsto no planejamento só que acabei não fazendo durante as outras aulas mas vou mostrar
+
+3
+00:00:11,580 --> 00:00:20,190
+pra vocês agora que é o seguinte só se eu fizer a operação por exemplo 77 e multiplicar por três e colocá
+
+4
+00:00:20,190 --> 00:00:22,920
+lo igual quando você coloca é igual.
+
+5
+00:00:22,920 --> 00:00:29,550
+Significa que nesse momento você tem a última operação como sendo nula qualquer época ou igual a uma
+
+6
+00:00:29,550 --> 00:00:30,600
+apuração válida.
+
+7
+00:00:30,600 --> 00:00:37,530
+Quando você tem uma operação nula o nosso código já está considerando aqui que quando você entra nesse
+
+8
+00:00:37,530 --> 00:00:41,400
+mérito da última operação é nulo ele vai retornar ao texto atual.
+
+9
+00:00:41,400 --> 00:00:43,670
+Caso contrário ele vai acabar entrando aqui.
+
+10
+00:00:43,680 --> 00:00:47,710
+Como ele não vai gerar nenhum resultado ele Barrabás era uma calculadora.
+
+11
+00:00:47,790 --> 00:00:55,440
+Hoje a gente coloca o resultado se for um comando igual coloca a comparação pra ser nulo ou então a
+
+12
+00:00:55,440 --> 00:01:01,790
+gente considera que se a última operação foi igual ele também vai retornar o texto atual.
+
+13
+00:01:01,830 --> 00:01:15,300
+Então posso colocar aqui se a última operação for Lula ou a última operação for tipo comando igual significa
+
+14
+00:01:15,300 --> 00:01:20,790
+que ele vai tornar o texto atual isso que resolve nosso problema está executando.
+
+15
+00:01:20,790 --> 00:01:32,270
+Se a gente coloca aqui outro exemplo 77 vezes 3 igual dos 31 mas esse tempo continuou na calculadora
+
+16
+00:01:32,310 --> 00:01:45,870
+vou colocar aqui 9 igual 240 dividido por 2 estabelecem 120 menos 60 e um resultado essência aceita
+
+17
+00:01:46,530 --> 00:01:49,140
+mais 35.
+
+18
+00:01:49,350 --> 00:01:55,230
+Se eu colocar aqui uma explicação aí calculavam o anterior e já colocou a multiplicação como sinal de
+
+19
+00:01:55,230 --> 00:02:08,010
+comparação é explicado por três anos já deu 235 menos duzentos e 84 mais sete é igual a 8.
+
+20
+00:02:08,010 --> 00:02:12,420
+Acredito que a nossa calculadora esteja correta a Selic mas era a calculadora.
+
+21
+00:02:12,510 --> 00:02:19,350
+E aí fica com o trabalho de casa para vocês criarem um botão a mais a calculadora que vai gerar um evento
+
+22
+00:02:19,350 --> 00:02:26,760
+de mudança do sinal do valor atual então se você quer esse valor por exemplo e 30 você colocar um valor
+
+23
+00:02:26,760 --> 00:02:33,980
+negativo nesse caso se a gente colocar aqui um valor negativo da estaca acho que tem 12 anos o valor
+
+24
+00:02:34,010 --> 00:02:42,650
+vide o resultado vai ser menos 8 multiplicado por 3 o resultado vai dar menos 20 4 mais 30.
+
+25
+00:02:42,690 --> 00:02:46,260
+O resultado vai dar 6 ou seja está funcionando com valor negativo.
+
+26
+00:02:46,260 --> 00:02:51,810
+A gente pode criar um botão que aquele botão que vem lá na calculadora do Mac e aí pra isso gente pode
+
+27
+00:02:51,810 --> 00:02:53,530
+até abrir o Brasil.
+
+28
+00:02:53,550 --> 00:03:06,840
+Se você colocar as 2 por exemplo todas as máquinas por exemplo ele vai mostrar pra você qual o caractere
+
+29
+00:03:07,410 --> 00:03:14,660
+inclusive tem algum local e símbolo aqui se você der um contra ou sei lá você consegue criar um botão
+
+30
+00:03:14,670 --> 00:03:22,200
+Não sei exatamente ele uma mochila com o caractere mas a gente pode voltar lá no teclado criar aqui
+
+31
+00:03:22,200 --> 00:03:30,790
+o botão a mais depois do C duplicar isso aqui daqui pra baixo nós vamos ter aqui apenas dois.
+
+32
+00:03:31,140 --> 00:03:40,430
+Aqui continuou sendo nesse caso vai ser 2 2 0 e aqui eu posso substituir a Acer pelo menos e mais acertada
+
+33
+00:03:40,430 --> 00:03:46,170
+agora ele vai ter um botão a mais na nossa calculadora que é isso que é pra mudar o valor gente pode
+
+34
+00:03:46,230 --> 00:03:53,670
+usar esse comando aqui pra substituir o sinal do valor e colocar 8 e aí clicar aqui ele vai fazer a
+
+35
+00:03:53,670 --> 00:04:00,330
+mudança do sinal chover que era pra ser pra cada exercício mas eu posso tentar fazer aqui memória então
+
+36
+00:04:00,330 --> 00:04:03,240
+a gente já tem a soma subtração.
+
+37
+00:04:03,360 --> 00:04:09,660
+Basicamente se eu clicar lá o que é que eu vou fazer eu pegar o valor atual então posso até considerar
+
+38
+00:04:09,660 --> 00:04:18,780
+que se eu fizer o valor atual e você digitou um valor menos e mais eu posso considerar como sendo sei
+
+39
+00:04:18,910 --> 00:04:27,980
+lá o chamado sinal e eu posso fazer nada tentar detectar o comando.
+
+40
+00:04:28,250 --> 00:04:38,520
+Então posso ter um valor mais aqui ao substitui esse valor aqui vou retornar como sendo um sinal.
+
+41
+00:04:38,520 --> 00:04:44,210
+No caso do sinal eu vou pagar sempre o valor atual e vou substituir.
+
+42
+00:04:44,600 --> 00:04:57,300
+Então eu posso estar aqui fazer se fosse um sinal digital posso pegar o valor do display e adicionar
+
+43
+00:04:57,300 --> 00:05:03,370
+o sinal substituir o sinal no primeiro momento o seguinte fazer outro cenário mais simples que é pegar
+
+44
+00:05:03,390 --> 00:05:16,350
+o texto atual e seu próprio texto atual texto atual colocando o sinal antes então coloca que ao menos
+
+45
+00:05:17,650 --> 00:05:20,490
+é colocar o texto atual fazendo isso.
+
+46
+00:05:20,530 --> 00:05:28,020
+Esse funciona aqui pelo menos colocando o valor negativo coloca aquele 39 mais 11.
+
+47
+00:05:28,040 --> 00:05:37,350
+O resultado deu sem clicar aqui colocou menos e aí eu coloquei a mais nova e o resultado do 91 ou seja
+
+48
+00:05:37,350 --> 00:05:43,890
+colocou o teu sinal deu ok eu não posso colocar o sinal duas vezes então terei que verificar se tem
+
+49
+00:05:43,890 --> 00:05:45,510
+mais de um sinal colocado.
+
+50
+00:05:45,530 --> 00:05:57,720
+Também não posso fazer o seguinte se o tipo de comando de sinal é o texto atual do texto atual ponto
+
+51
+00:05:58,570 --> 00:05:59,150
+tens
+
+52
+00:06:01,500 --> 00:06:09,300
+menos significa que eu tenho que tirar o sinal então não faz o seguinte não vou fazer o texto atual
+
+53
+00:06:09,300 --> 00:06:12,450
+com outro subdistrito começando do zero.
+
+54
+00:06:12,780 --> 00:06:20,470
+Caso contrario ele vai entrar no outro aqui que ele não contém o símbolo de menos não precisava nem
+
+55
+00:06:20,880 --> 00:06:29,270
+testar isso e aqui eu coloco o símbolo de menos aqui tá apenado com o texto atual.
+
+56
+00:06:29,790 --> 00:06:35,690
+Então nesse caso o seu clicar uma vez ele tira essa aplicá lo outra que ele vai colocar o sinal colocando
+
+57
+00:06:35,700 --> 00:06:41,040
+outro 7 em menos 8 7 menos de 9 menos de.
+
+58
+00:06:41,140 --> 00:06:49,950
+Não deu certo 1 está estável cartada que na lógica tipo de comando é igual a sinal e se ele contém dentro
+
+59
+00:06:49,950 --> 00:06:57,070
+do texto na metade do texto não dentro do texto atual do texto atual dentro do texto atual se lendo
+
+60
+00:06:57,180 --> 00:07:01,350
+o texto atual tem que conter o sinal de menos se conter o sinal de menos.
+
+61
+00:07:01,560 --> 00:07:05,250
+Ele faz isso tira o sinal aqui e coloca.
+
+62
+00:07:05,430 --> 00:07:12,220
+Finalizando esse trecho da fala que não estava planejado certo então não há 78 pecados nessa 38 clicar
+
+63
+00:07:12,280 --> 00:07:21,300
+9 9 para a Positivo então mais 5 o resultado de 83 coloca no sinal menos 83.
+
+64
+00:07:21,480 --> 00:07:30,780
+Agora vou somar 8 tenho entre o Estado 3 negativo deu 3 negativo vezes 3 9 negativo colocando virou
+
+65
+00:07:30,780 --> 00:07:37,560
+9 multiplicado por 3 no Estado há 27 ou seja tá funcionado o nosso mais novo botão aqui pra mexer no
+
+66
+00:07:37,560 --> 00:07:41,080
+sinal da calculadora o que ficou faltando foi o percentual.
+
+67
+00:07:41,260 --> 00:07:46,440
+E aí você pode usar mais ou menos a mesma coisa que eu fiz aqui e acrescentar na funcionalidade da sua
+
+68
+00:07:46,440 --> 00:07:52,800
+calculadora o percentual mas o mais importante foi visto que a parte interface gráfica a parte da lógica
+
+69
+00:07:52,800 --> 00:07:59,670
+mais uma vez o padrão me serve foi colocado dentro da nossa solução que é muito interessante e fico
+
+70
+00:07:59,670 --> 00:08:04,640
+por aqui no nosso programa tinham da calculadora e até a próxima Audi muita coisa legal pra gente no
+
+71
+00:08:04,650 --> 00:08:05,700
+curso ele estava lá.

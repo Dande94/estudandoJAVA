@@ -1,0 +1,763 @@
+1
+00:00:00,270 --> 00:00:08,220
+Pessoal é um conceito importante com relação a encapsulamento e também relacionada ao Java e o conceito
+
+2
+00:00:08,220 --> 00:00:14,540
+de metros em setores ou seja quando você cria atributos dentro de uma classe.
+
+3
+00:00:14,540 --> 00:00:18,300
+Via de regra normalmente são atributos variáveis.
+
+4
+00:00:18,480 --> 00:00:25,960
+Você coloca esses atributos como privados e aí você cria métodos Gate 7 pra você acessar esses atributos
+
+5
+00:00:25,980 --> 00:00:29,410
+eu quero mostrar para vocês um pouquinho desse conceito.
+
+6
+00:00:29,440 --> 00:00:35,840
+Outro exercício depois a gente volta para o nosso exemplo aqui do o século estão entrando aqui em encapsulamento.
+
+7
+00:00:35,850 --> 00:00:43,920
+Eu vou criar uma classe em nome da classe e será por exemplo pessoa e pessoa que faz um exemplo bem
+
+8
+00:00:43,920 --> 00:00:47,180
+simples mesmo que a pessoa tem um atributo idade.
+
+9
+00:00:47,500 --> 00:00:54,120
+Então vou colocar o atributo de idade pra ser um atributo público e vou criar aqui uma outra classe
+
+10
+00:00:54,270 --> 00:01:06,510
+chamada pessoa teste e nós vamos definir aqui o método uma vez que eu crio uma pessoa recebe mil pessoa
+
+11
+00:01:06,930 --> 00:01:12,880
+você tem o dado de idade da pessoa pra ser um dado público nós colocamos como seu público.
+
+12
+00:01:12,900 --> 00:01:20,130
+Isso significa que você está expondo de certa forma pra ser bem marcante que nas palavras você tá expondo
+
+13
+00:01:20,130 --> 00:01:25,890
+as tripas do objeto pra todo mundo vem de tal forma que alguém pode chegar a dizer que essa pessoa tem
+
+14
+00:01:25,890 --> 00:01:27,110
+menos 30 anos.
+
+15
+00:01:27,630 --> 00:01:33,660
+Ou seja não existe nenhum mecanismo pelo fato de você colocar o atributo no público que a pessoa vai
+
+16
+00:01:33,660 --> 00:01:40,410
+ter a idade exposta e que você pode em qualquer lugar do seu código pode mexer de forma digamos assim
+
+17
+00:01:40,500 --> 00:01:47,790
+indesejada no valor de idade aplicando qualquer valor sem que haja nenhum tipo de filtro ou de validação
+
+18
+00:01:48,030 --> 00:01:54,480
+e você pode acessar por exemplo o valor da idade também um ponto idade e você vai ver que o resultado
+
+19
+00:01:54,490 --> 00:01:58,670
+nada mais normal do que ser menos 30 anos embora isso não seja possível.
+
+20
+00:01:58,680 --> 00:01:59,190
+Tá certo.
+
+21
+00:01:59,610 --> 00:02:05,640
+Então basicamente quando você tem um atributo você faz dos dois tipos de operação primeira operação
+
+22
+00:02:05,640 --> 00:02:15,000
+que nós fizemos aqui na linha 8 foi alterar o valor da variável e na linha 10 nós acessamos ou lemos
+
+23
+00:02:15,120 --> 00:02:18,890
+o valor dessa variável se altera o valor da variável.
+
+24
+00:02:19,020 --> 00:02:20,810
+Ou você lê o valor da variável.
+
+25
+00:02:20,810 --> 00:02:25,420
+São duas operações que você faz normalmente com atributos levá lo e alterar o valor.
+
+26
+00:02:25,470 --> 00:02:30,870
+Você pode ler o valor dentro de um contexto de uma expressão você pode ler o valor passando esse valor
+
+27
+00:02:30,870 --> 00:02:35,100
+comparando para outra função mais ou você além do valor ou você está alterando.
+
+28
+00:02:35,100 --> 00:02:39,750
+Caso seja uma variável se for constante a única coisa que você pode fazer é ler o valor.
+
+29
+00:02:39,750 --> 00:02:46,140
+Dito isso como é que a gente faz para resolver isso depende da linguagem você vai ter soluções distintas
+
+30
+00:02:46,140 --> 00:02:52,160
+de acerto inclusive o cálculo em que a linguagem baseada em Java tem outras formas de resolver está
+
+31
+00:02:52,210 --> 00:02:58,290
+mais no Java ou se resolve isso normalmente usando o que a gente chama de Get 3 em setas eu vou criar
+
+32
+00:02:58,290 --> 00:03:01,160
+uma versão aportuguesada do que seria o Gate 7.
+
+33
+00:03:01,160 --> 00:03:08,470
+Depois a gente muda o nome para até os nomes usados oficialmente está não só é usado isso como convenção
+
+34
+00:03:08,490 --> 00:03:15,040
+mas também em alguns frameworks em Java usa esse conceito de Gate 7 para fazer as coisas funcionarem.
+
+35
+00:03:15,060 --> 00:03:21,630
+Então como é que eu faço pra ler uma variável privada então eu vou lá e converteu isso pra um bit ou
+
+36
+00:03:21,630 --> 00:03:29,370
+seja a única classe que pode alterar o valor de idade que pode ler o valor de idade e a classe Pessoa
+
+37
+00:03:29,450 --> 00:03:30,380
+automaticamente.
+
+38
+00:03:30,440 --> 00:03:32,100
+Eu não faço essa mudança.
+
+39
+00:03:32,100 --> 00:03:36,700
+Você percebe que eu não vou conseguir mais alterar e nem vou conseguir mais ilegalidade.
+
+40
+00:03:36,720 --> 00:03:42,570
+Primeiro eu vou tentar resolver o problema da lei por isso eu vou comentar o metro que altera o valor
+
+41
+00:03:42,570 --> 00:03:48,230
+de idade então para a lei o valor que eu posso criar um método de ter esse metro pode ser público e
+
+42
+00:03:48,240 --> 00:03:54,680
+esse metro já que eu quero o meu valor da idade é esperado que esse metro retorne o mesmo tipo dado
+
+43
+00:03:54,690 --> 00:03:59,800
+atributo que eu estou querendo ler no caso que esse método vai retornar inteiro então vou retornar o
+
+44
+00:03:59,800 --> 00:04:08,070
+inteiro nome do Metro sei lá ler idade e já é um método não preciso passar nenhum parâmetro já que eu
+
+45
+00:04:08,070 --> 00:04:15,510
+tenho o atributo idade dentro da minha classe eu simplesmente vou retornar o valor de idade ou seja
+
+46
+00:04:15,510 --> 00:04:22,530
+agora que eu tenho um método público chamado Lei idade ele retorna o valor de idade significa que aqui
+
+47
+00:04:22,530 --> 00:04:31,470
+eu posso agora chamar o método lei idade e consigo acessar o caso aqui vai ser zero porque eu não teria
+
+48
+00:04:31,480 --> 00:04:38,010
+o valor da idade eu até poderia passar não consultou o valor da idade então eu vou aqui passar a pessoa
+
+49
+00:04:38,450 --> 00:04:46,790
+criar que o custo total público Tiago eu quero que o custo seja público a pessoa recebe idade e aqui
+
+50
+00:04:46,830 --> 00:04:48,030
+eu vou fazer.
+
+51
+00:04:48,030 --> 00:04:57,420
+Tirando isso aqui 10 conto idade recebe e da tal forma que a executar novamente isso aqui você vai perceber
+
+52
+00:04:57,420 --> 00:05:04,280
+que a pessoa tem 30 anos se passo negativo você vai perceber que a pessoa tem menos 30 anos ou que daqui
+
+53
+00:05:04,280 --> 00:05:07,580
+a pouco a gente resolve o problema da idade da pessoa.
+
+54
+00:05:07,940 --> 00:05:13,880
+Então continuando eu criei um metro pra ali a idade agora quero criar um metro pra alterá la já que
+
+55
+00:05:13,880 --> 00:05:19,280
+o atributo continua sendo privado eu não vou conseguir fazer esse tipo de operação não consigo alterar
+
+56
+00:05:19,610 --> 00:05:25,320
+diretamente no atributo para alterar eu vou criar um outro método que eu vou chamar aqui também será
+
+57
+00:05:25,330 --> 00:05:31,310
+um metro de públicos que eu vou chamar ele vai retornar nada vou simplesmente alterar não preciso retornar
+
+58
+00:05:31,310 --> 00:05:41,240
+o valor do atributo e o nome do Metro será alterado e daí ele vai receber como parâmetro a nova idade
+
+59
+00:05:41,240 --> 00:05:49,820
+que eu quero aplicar no objeto e aí eu vou lá e faço desse ponto de idade recebe nova idade.
+
+60
+00:05:50,120 --> 00:05:58,680
+Então com isso com esse método altera a idade eu consigo chegar aqui e falar ao pessoal alterar a idade
+
+61
+00:05:59,090 --> 00:06:05,690
+vou passar o valor menos 30 anos e consigo agora alterar o valor da idade a partir do método.
+
+62
+00:06:05,690 --> 00:06:07,740
+Estou lendo a parte do metro.
+
+63
+00:06:07,740 --> 00:06:14,150
+A idade está alterando a parte do metro alterar a idade e alguns porque eu passei a idade correta há
+
+64
+00:06:14,150 --> 00:06:15,830
+30 anos vou comentar essa.
+
+65
+00:06:16,140 --> 00:06:22,920
+O resultado vai ser 30 mas eu fui lá acho meio alterar idade e passei a idade inválida por exemplo menos
+
+66
+00:06:22,940 --> 00:06:26,290
+30 anos o que significa que irá acabar aplicando o resultado.
+
+67
+00:06:26,300 --> 00:06:33,650
+Você pode pensar se leu beleza você mudou agora porque colocou o atributo como sendo privado e você
+
+68
+00:06:34,130 --> 00:06:40,320
+alterou a partir de um método e leu o valor do atributo a partir de um metro mais eu não vi nenhum ganho
+
+69
+00:06:40,430 --> 00:06:46,460
+porque porque continua ainda com um problema legal qual é o ganho de você tem métodos para acessar os
+
+70
+00:06:46,460 --> 00:06:47,820
+valores dos atributos.
+
+71
+00:06:47,840 --> 00:06:55,390
+O ganho que você pode agora sem necessariamente mexer absolutamente nada na classe Pessoa imagina que
+
+72
+00:06:55,400 --> 00:07:02,730
+não apenas na classe Pessoa teste você usa esse método mas você usa esse método em 300 lugares diferentes
+
+73
+00:07:02,730 --> 00:07:04,050
+do seu sistema.
+
+74
+00:07:04,100 --> 00:07:10,880
+Uma vez feito isso você pode vim aqui na classe Pessoa e alterar o comportamento na hora de mexer com
+
+75
+00:07:10,880 --> 00:07:19,040
+o valor do atributo você pode simplesmente aplicar agora uma validação se o valor da novidade for maior
+
+76
+00:07:19,400 --> 00:07:23,290
+ou igual a zero já que a pessoa pode ter zero anos por exemplo.
+
+77
+00:07:23,630 --> 00:07:27,880
+Então se for maior igual a zero significa que eu vou aplicar o valor da novidade.
+
+78
+00:07:27,890 --> 00:07:34,190
+Caso contrário eu não faço absolutamente nada ou então caso contrário você pode até jogar um erro caso
+
+79
+00:07:34,190 --> 00:07:38,050
+a pessoa crie passando a idade que seja inválida.
+
+80
+00:07:38,180 --> 00:07:41,870
+Então aqui a gente não falou de erro ou ainda então não vou comentar muito sobre isso.
+
+81
+00:07:41,870 --> 00:07:48,020
+Então nesse caso eu fiz uma validação e agora no nosso caso o algoritmo vai funcionar de forma diferente
+
+82
+00:07:48,030 --> 00:07:50,180
+ao invés de ter menos 30 anos.
+
+83
+00:07:50,180 --> 00:07:53,720
+O que vai prevalecer foi a data que eu passei no curso todo objeto.
+
+84
+00:07:53,720 --> 00:07:54,310
+Por quê.
+
+85
+00:07:54,610 --> 00:08:01,670
+Porque ao alterar a idade agora está considerando o menos 30 mas se eu passar por exemplo menos 45 anos
+
+86
+00:08:01,670 --> 00:08:08,870
+aqui no momento da construção do objeto se executado vai saber que o Estado ficou menos 45 e aí dentro
+
+87
+00:08:08,870 --> 00:08:13,440
+da construção em vez de ser tá usando diretamente o que você recebeu.
+
+88
+00:08:13,550 --> 00:08:20,720
+Você pode chamar Kill ou alterar a idade e passar a idade que você recebeu no curso do objeto caso ele
+
+89
+00:08:20,720 --> 00:08:26,740
+passou a idade inválida ele não vai considerar a cidade de volta e o é a pessoa vai ter idade zero que
+
+90
+00:08:26,750 --> 00:08:33,020
+a idade valida padrão que foi definida isso porquê você não definiu nenhum tipo de erro gerado a partir
+
+91
+00:08:33,020 --> 00:08:38,540
+do momento que ele passou o mandato inválido ou seja tanto na construção como se você tentar alterar
+
+92
+00:08:38,540 --> 00:08:44,780
+em um segundo momento todos vão chamar exatamente o mesmo método e esse método aplica uma validação
+
+93
+00:08:44,780 --> 00:08:48,490
+que garante que a idade não possa ser mais do que zero.
+
+94
+00:08:48,500 --> 00:08:51,140
+Vamos supor que você quer colocar uma nova regra.
+
+95
+00:08:51,140 --> 00:08:58,640
+Seu pai está aqui e o usuário pode passar a data por exemplo menos 230 anos se você executar você vai
+
+96
+00:08:58,640 --> 00:09:05,000
+ver que agora a pessoa vai ter 230 anos e você sabe que isso não é verdade então você pode que ao colocar
+
+97
+00:09:05,000 --> 00:09:11,250
+uma nova regra dizem não à idade tem que ser menor ou igual a 120 anos.
+
+98
+00:09:11,250 --> 00:09:18,050
+Então você pode usar essa como sendo a regra e agora se você tentar passar 130 anos ele não vai considerar
+
+99
+00:09:18,050 --> 00:09:21,530
+isso como sendo uma data válida e você pode muito bem.
+
+100
+00:09:21,650 --> 00:09:28,090
+Outra regra que você pode fazer é pegar a data que a pessoa passou e tentar aplicar um valor absoluto.
+
+101
+00:09:28,280 --> 00:09:34,100
+Então por exemplo aqui dentro de pessoa eu possa aplicar uma nova regra que é o seguinte a nova idade
+
+102
+00:09:34,670 --> 00:09:39,170
+vai receber um ponto absoluto.
+
+103
+00:09:39,170 --> 00:09:45,650
+A idade que foi passada a novidade ou seja o que é valor negativo passa a ser positivo e aí se o valor
+
+104
+00:09:45,650 --> 00:09:52,430
+positivo que foi obtido a partir absoluto tiver dentro desse intervalo o valor da idade será implementado.
+
+105
+00:09:52,430 --> 00:09:59,990
+Notem que eu já mudei várias vezes a implementação dessa função sem precisar mexer no nosso código o
+
+106
+00:09:59,990 --> 00:10:04,310
+resultado vai ser diferente onde está o resultado vai ser 45 anos.
+
+107
+00:10:04,310 --> 00:10:04,810
+Por quê.
+
+108
+00:10:05,030 --> 00:10:10,340
+Porque se ele passou um mandato negativo eu vou considerar a data positiva ou você pode ou não querer
+
+109
+00:10:10,730 --> 00:10:15,860
+esse tipo de regra mas eu estou mudando as regras sem ter que mudar uma vírgula do que está chamando
+
+110
+00:10:15,950 --> 00:10:17,030
+os métodos.
+
+111
+00:10:17,150 --> 00:10:23,990
+Isso é uma das vantagens do encapsulamento O fato é que você consegue mexer na implementação sem gerar
+
+112
+00:10:23,990 --> 00:10:29,390
+nenhum impacto em quem está chamando aquele código ou seja quem está chamando código não precisa conhecer
+
+113
+00:10:29,390 --> 00:10:31,730
+como implementar internamente.
+
+114
+00:10:31,820 --> 00:10:37,490
+Para usar basta saber quais são os parâmetros que serão passados para o método e aquilo que será retomado
+
+115
+00:10:37,880 --> 00:10:40,030
+a partir do retorno do método.
+
+116
+00:10:40,370 --> 00:10:45,860
+Então só para a gente dar o nome e os nomes corretos para cada um desses métodos normalmente nós chamamos
+
+117
+00:10:46,280 --> 00:10:51,800
+o método que lê um determinado valor e chama de método GET idade.
+
+118
+00:10:52,130 --> 00:10:58,290
+Nós usamos exatamente o mesmo atributo coloquem na letra a primeira letra maiúscula e coloca no gato
+
+119
+00:10:58,310 --> 00:10:59,350
+na frente.
+
+120
+00:10:59,390 --> 00:11:02,930
+Esse aqui é o famoso método GET through.
+
+121
+00:11:03,080 --> 00:11:09,920
+A gente acaba chamando betas no plural que você pode ter muitos métodos do tipo tá em um metro que altera
+
+122
+00:11:10,060 --> 00:11:17,890
+a gente chama de 7 a 7 idade média idade que eu vou ter que renomear pra 7 idade.
+
+123
+00:11:18,000 --> 00:11:24,550
+E aqui é o nosso método 1 7 7 ou 7 Delcídio e mais de um metro.
+
+124
+00:11:24,630 --> 00:11:31,070
+O site recebe o parâmetro do mesmo tipo do parâmetro que você colocou aqui eu posso até colocar o mesmo
+
+125
+00:11:31,070 --> 00:11:35,620
+nome só consegue diferenciar usa no BESA pra você diferencial qual é o parâmetro.
+
+126
+00:11:35,630 --> 00:11:39,640
+Qual é o atributo de instância nesse caso aqui.
+
+127
+00:11:39,760 --> 00:11:45,240
+Enfim colocou nomes diferentes e então não precisou usar o 10 embora tenha usado aqui algo desse quantidade.
+
+128
+00:11:45,470 --> 00:11:47,110
+Aqui faltou e maiúsculo.
+
+129
+00:11:47,120 --> 00:11:47,630
+7.
+
+130
+00:11:47,750 --> 00:11:48,700
+E daí.
+
+131
+00:11:48,700 --> 00:11:55,940
+E finalmente a gente precisa agora fazer o seguinte vou chamar aqui 7 e daí eu vou chamar o Guedes idade
+
+132
+00:11:55,970 --> 00:11:59,340
+que são os 2 metros Guedes e 7.
+
+133
+00:11:59,370 --> 00:12:07,330
+Observação alguns porque eu queria que na pessoa o outro atributo pra eles restringir o nome e o eclipse
+
+134
+00:12:07,460 --> 00:12:10,630
+ele consegue gerar para a gente os metros Gate 7.
+
+135
+00:12:10,760 --> 00:12:17,150
+Se você colocar com o botão direito do mouse que só tem a opção Source de código se você vem aqui embaixo
+
+136
+00:12:17,150 --> 00:12:20,590
+ele vai ter algo inerente Get 3 setas.
+
+137
+00:12:20,780 --> 00:12:28,070
+Se você clicar ele já vai mostrar pra vocês quais são os atributos que não têm os betas insetos no caso
+
+138
+00:12:28,800 --> 00:12:31,730
+ao atributo idade a gente já criou manualmente.
+
+139
+00:12:31,730 --> 00:12:38,640
+Então não precisa criar esse caso você pode clicar aqui ao cara criar o ou quero criar os dois o gatinho.
+
+140
+00:12:38,660 --> 00:12:45,020
+Você coloca generais automaticamente ele vai criar pra você ao usar o mesmo padrão que eu usei na unidade
+
+141
+00:12:45,030 --> 00:12:46,550
+meu colocando o nome.
+
+142
+00:12:46,940 --> 00:12:53,630
+Ou seja esse primeiro a primeira letra maiúscula coloca um Gad na frente retorna do mesmo tipo da variável
+
+143
+00:12:53,630 --> 00:12:54,650
+que você definiu.
+
+144
+00:12:54,960 --> 00:13:01,580
+E aqui o sétimo nome certo usando desse conta o nome e seta nome aqui no caso não aplique nenhuma regra
+
+145
+00:13:01,580 --> 00:13:08,140
+mas eu poderia sim implementar várias regras de validação para só alterar o nome sítio e alterando um
+
+146
+00:13:08,140 --> 00:13:14,440
+para o outro não é válido e no construtor a gente também pode receber aqui uma string nome.
+
+147
+00:13:14,900 --> 00:13:20,870
+Nesse caso a gente pode usar o 7 nome para que a gente possa ter o nome certo e aí sim tiver alguma
+
+148
+00:13:20,870 --> 00:13:26,070
+validação aqui dentro basta implementar uma vez que em todo canto será chamado também.
+
+149
+00:13:26,260 --> 00:13:35,390
+Então a pessoa TX posso passar aqui por exemplo com o nome da pessoa sem Pedro Mendes 45 anos ele vai
+
+150
+00:13:35,390 --> 00:13:41,090
+considerar como sendo 45 anos e eu posso inclusive implementar aqui.
+
+151
+00:13:41,090 --> 00:13:50,360
+Sobre escreveu Ju string é que a gente pode pegar essas informações a partir do café da manhã por exemplo
+
+152
+00:13:51,560 --> 00:13:57,580
+Olá Deus sonho é equivocado.
+
+153
+00:13:57,610 --> 00:14:03,200
+Grande nome mas o outro estilo vou colocar aqui embaixo.
+
+154
+00:14:03,280 --> 00:14:07,710
+Tenho concatenar aqui com grande idade
+
+155
+00:14:11,740 --> 00:14:19,050
+mas eu vou colocar só um set pronto feito isso a gente sobre escreveu o extremo.
+
+156
+00:14:19,530 --> 00:14:28,220
+E agora nosso exemplo de teste eu posso duplicar essa linha e colocar pra eles e B o valor de um aquele
+
+157
+00:14:28,230 --> 00:14:32,050
+baita chamado estribo executado.
+
+158
+00:14:32,070 --> 00:14:36,950
+Ele mostrou aqui 45 anos Olá eu sou o Pedro e tenho 45 anos certo.
+
+159
+00:14:36,990 --> 00:14:39,980
+Nós usamos nesse exemplo os D3 C3.
+
+160
+00:14:40,050 --> 00:14:46,890
+Esse assunto é um assunto que tem uma relação com encapsulamento ou seja você tornar os atributos privados
+
+161
+00:14:46,980 --> 00:14:48,920
+e criar os metros Gate 7.
+
+162
+00:14:48,930 --> 00:14:54,740
+Eles ajudam a você encapsular seus dados e ter um maior controle na hora de modificar o dados validar
+
+163
+00:14:54,750 --> 00:15:00,960
+e deixar apenas os dados serem alterados quando está saindo de um Estado válido para um outro estado
+
+164
+00:15:00,960 --> 00:15:01,560
+válido.
+
+165
+00:15:01,560 --> 00:15:02,800
+Isso é muito legal.
+
+166
+00:15:02,910 --> 00:15:07,980
+Existem algumas críticas à questão dos Get 37 mas eu não vou entrar muito no mérito aqui certo para
+
+167
+00:15:07,980 --> 00:15:13,500
+não estender muito algo mais é um tema extremamente importante e muito usado em Java e vários frameworks
+
+168
+00:15:13,500 --> 00:15:20,750
+também usam os métodos Guedes e setas nos seus padrões de codificação e então fica aí o conceito para
+
+169
+00:15:20,780 --> 00:15:22,230
+que serve metro no jet set.
+
+170
+00:15:22,230 --> 00:15:28,830
+Como ele pode te ajudar a ter um código mais encapsulado como você consegue mudar eventualmente a regra
+
+171
+00:15:28,890 --> 00:15:32,530
+a lógica sem necessariamente precisar mudar de quem chama.
+
+172
+00:15:32,690 --> 00:15:34,020
+Você também pode ter.
+
+173
+00:15:34,020 --> 00:15:40,440
+Não necessariamente você precisa ter um beta apontando para um atributo por exemplo que é só um exemplo
+
+174
+00:15:40,440 --> 00:15:44,530
+rápido para a gente finalizar a aula que eu pensei agora é o seguinte.
+
+175
+00:15:44,730 --> 00:15:53,350
+A gente pode criar aqui outro atributo chamado sobre o nome e aí eu vou colocar aqui esse atributo sobrenome
+
+176
+00:15:53,370 --> 00:16:02,760
+também da classe me qualquer corte de listening sobrenome já tinha investido na TV livre vou colocar
+
+177
+00:16:02,770 --> 00:16:10,340
+isso pra cima e vou criar novos gadgets insetos usam Eclipse então vou clicar com o botão direito código
+
+178
+00:16:10,350 --> 00:16:16,240
+SOS 707 que vai mostrar só que o sobrenome gera aí o metro Gate 7.
+
+179
+00:16:16,260 --> 00:16:22,960
+E agora tenho também a possibilidade de chamar o sétimo sobrenome faça no sobrenome que eu recebi.
+
+180
+00:16:23,070 --> 00:16:26,300
+Agora eu preciso passar também o sobrenome aqui.
+
+181
+00:16:26,400 --> 00:16:32,690
+Eu posso passar Pedro coca aqui no Reino Unido.
+
+182
+00:16:33,330 --> 00:16:35,300
+Então nós temos o nome e o sobrenome.
+
+183
+00:16:35,340 --> 00:16:42,000
+Eu posso criar por exemplo dentro de pessoa um objeto que não tem um atributo relacionado.
+
+184
+00:16:42,300 --> 00:16:48,570
+Então por exemplo eu não tenho um atributo chamado nome completo mas eu posso muito bem criar um gueto
+
+185
+00:16:49,020 --> 00:16:56,700
+que vai retornar para mim um nome completo então eu tenho aqui ao público e string GOTO Get It nome
+
+186
+00:16:57,360 --> 00:16:58,650
+completo.
+
+187
+00:16:58,660 --> 00:17:03,930
+E aqui eu vou retornar ao Twitter e pagar aqui por exemplo.
+
+188
+00:17:04,440 --> 00:17:13,920
+Posso usar até o metro e mesmo um nome concatenar aqui com um espaço mais gays de sobrenome então feito
+
+189
+00:17:13,920 --> 00:17:23,140
+isso agora dentro da minha classe eu posso se quiser colocar aqui sistematicamente ali em português
+
+190
+00:17:23,340 --> 00:17:29,970
+nome completo ou seja não preciso ter necessariamente um atributo que a gente chama de atributo calculado.
+
+191
+00:17:29,990 --> 00:17:35,720
+Está sendo calculado a partir de um método sem necessariamente você precisar ter o atributo à sua disposição.

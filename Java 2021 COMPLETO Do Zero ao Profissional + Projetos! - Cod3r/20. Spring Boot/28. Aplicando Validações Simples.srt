@@ -1,0 +1,287 @@
+1
+00:00:00,380 --> 00:00:04,350
+Nós vamos agora aplicar as validações conforme falei na aula passada.
+
+2
+00:00:04,920 --> 00:00:10,980
+Então para isso nós vamos entrar em produto e nós vamos usar também a mesma estratégia.
+
+3
+00:00:11,130 --> 00:00:15,670
+Anotei uma observação que eu já falei pra vocês vamos JP né.
+
+4
+00:00:15,720 --> 00:00:22,530
+O Lyoto também trabalha com o conceito de convenção existe em convenções que faz com que qualquer atributo
+
+5
+00:00:22,530 --> 00:00:29,190
+que você coloque dentro da classe ele passe a ser mapeado para o comum do banco de dados se você não
+
+6
+00:00:29,190 --> 00:00:32,310
+quiser mapear você usa uma transeunte.
+
+7
+00:00:32,310 --> 00:00:38,920
+O fato de não ter mapeado nenhum desses atributos fez com que esses atributos fossem opcionais.
+
+8
+00:00:38,910 --> 00:00:47,450
+Esses atributos tivessem determinados tamanhos e tal beleza então lá eu vou querer fazer algumas validações
+
+9
+00:00:47,570 --> 00:00:56,190
+e uma delas vai ser em cima do nome e eu vou colocar aqui um norte Blank então Java e X ponto vale deixo
+
+10
+00:00:56,380 --> 00:01:00,720
+ponto com questões top do próprio Java.
+
+11
+00:01:00,790 --> 00:01:08,940
+Deixe me colocar o Note que vai formalizar esse valor seja obrigatoriamente diferente de Brasil com
+
+12
+00:01:08,940 --> 00:01:13,800
+relação ao preço eu vou querer que o valor mínimo do preço.
+
+13
+00:01:13,800 --> 00:01:21,080
+Por exemplo vou colocar aqui um amigo aqui dentro eu vou ter o velho sempre que você tiver dentro de
+
+14
+00:01:21,080 --> 00:01:27,930
+uma moto deixou o velho como é o caso aqui você não necessariamente precisa colocar o Velho recebe por
+
+15
+00:01:27,930 --> 00:01:30,690
+exemplo recebe zero.
+
+16
+00:01:31,050 --> 00:01:34,790
+Você não é obrigado a colocar o valor você pode simplesmente colocar no zero.
+
+17
+00:01:35,520 --> 00:01:40,540
+E aqui significa que o preço mínimo pode ser zero e não pode ser negativo.
+
+18
+00:01:40,560 --> 00:01:49,980
+E com relação ao desconto eu posso colocar aqui no mínimo o desconto vai ser zero e o desconto máximo
+
+19
+00:01:50,180 --> 00:01:59,430
+vai ser o desconto está entre 0 e 1 causa algumas restrições em cima da PIDE já não vale um bem simples
+
+20
+00:01:59,430 --> 00:02:05,970
+para a gente fazer algumas ligações pra não deixar branco colocar no mínimo valor zero que no mínimo
+
+21
+00:02:06,300 --> 00:02:09,580
+o valor entre 0 e 1 7 0 no máximo.
+
+22
+00:02:09,660 --> 00:02:19,690
+Pronto com isso o nosso próximo passo vai ser entrar lá em produto controle e eu vou anotar esse produto.
+
+23
+00:02:19,930 --> 00:02:30,070
+Anotei que foi chamado de Valente ou seja também os anos de Java x ponto vale e deixa a gente vai importar.
+
+24
+00:02:30,190 --> 00:02:36,780
+Eu quero que esse produto seja um produto válido a partir daí ele vai aplicar as validações pra garantir
+
+25
+00:02:37,080 --> 00:02:42,660
+que o produto esteja aderente às regras que seguem então as regras definidas lá na net.
+
+26
+00:02:42,720 --> 00:02:49,050
+Lembrando que essa são as ligações mais simples você tem uma série de anotações você pode inclusive
+
+27
+00:02:49,050 --> 00:02:54,540
+criar suas próprias anotações também e aqui a gente vai garantir que o produto só vai ser passado pra
+
+28
+00:02:54,540 --> 00:02:57,460
+ser inserido se ele for um produto válido.
+
+29
+00:02:57,510 --> 00:03:04,800
+Nós podemos testar novamente aqui ou executando gerou aqui um belo caixa ou seja um em 1 400 é um erro
+
+30
+00:03:04,800 --> 00:03:07,310
+do cliente e não do servidor.
+
+31
+00:03:07,950 --> 00:03:13,600
+Então se ele foi feito a requisição errada e ele vai baixar pra vocês aqui.
+
+32
+00:03:14,820 --> 00:03:20,130
+Em relação ao produto no campo o preço o valor rejeitado foi esse.
+
+33
+00:03:20,350 --> 00:03:29,130
+A mensagem padrão foi essa que veio você tem um outro erro outro erro relacionado ao objeto produto
+
+34
+00:03:29,130 --> 00:03:32,520
+ao campo de desconto esse valor foi rejeitado.
+
+35
+00:03:32,520 --> 00:03:38,020
+Você tem um outro erro aqui e também em relação ao produto o nome e o valor digitado.
+
+36
+00:03:38,020 --> 00:03:41,530
+Foi então que deu o erro.
+
+37
+00:03:41,660 --> 00:03:45,660
+Note Black você tem as mensagens por exemplo.
+
+38
+00:03:45,750 --> 00:03:51,240
+B um problema de validação do objeto produto ou a quantidade de erros que foi gerado foi trend.
+
+39
+00:03:51,730 --> 00:03:56,940
+R Com relação a essas mensagens é possível personalizar qualquer em português e tal.
+
+40
+00:03:56,990 --> 00:04:02,790
+Acho que não no arquivo ponto próprias se você pode substituir o mais objetivo pra gente é exatamente
+
+41
+00:04:02,790 --> 00:04:05,760
+mostrar isso quando você não tem um valente.
+
+42
+00:04:05,850 --> 00:04:12,560
+Você não coloca o valente ele vai acabar ficando inconsistente certa e não vai conseguir executá lo.
+
+43
+00:04:12,600 --> 00:04:19,290
+Ele vai dar um erro 500 e e 400 executando ele até quebrou aqui nossa aplicação parou de funcionar.
+
+44
+00:04:19,790 --> 00:04:27,000
+Eu não volto aqui eu falei vou entrar de novo aqui em exercícios e mandar executar de novo o nosso código
+
+45
+00:04:27,490 --> 00:04:35,580
+e eu vou resolver os problemas até ele realmente voltar a persistir então colocando e eu troco o diabo.
+
+46
+00:04:35,930 --> 00:04:40,700
+Esqueci de mudar a minha cara minha sorte então vou logo acertar.
+
+47
+00:04:40,710 --> 00:04:50,550
+Ele vai gerar o erro então eu vou colocar aqui primeiro passei 0 ponto 5 Pois aqui está de novo ele
+
+48
+00:04:50,550 --> 00:04:59,640
+não vai baixar vou colocar aqui pra c porque em %5 ele vai gerar e aqui ele gerou um único problema
+
+49
+00:05:00,020 --> 00:05:04,150
+e foi o produto do momento certo.
+
+50
+00:05:04,170 --> 00:05:12,300
+O nome do produto que o Brasil colocar espaço em branco sobre se ele permite ou executou ainda assim
+
+51
+00:05:12,300 --> 00:05:14,120
+não permitiu espaços em branco.
+
+52
+00:05:14,130 --> 00:05:17,600
+Eu vou colocar aqui um produto para você Buck.
+
+53
+00:05:17,830 --> 00:05:18,810
+Pronto.
+
+54
+00:05:19,020 --> 00:05:22,520
+Agora sim ele vai voltar PS x corretamente.
+
+55
+00:05:22,740 --> 00:05:28,110
+Exatamente porque todos os atributos estão válidos aí ele aceitou o produto e mandou o produto para
+
+56
+00:05:28,180 --> 00:05:29,090
+o banco de dados.
+
+57
+00:05:29,100 --> 00:05:34,350
+Então uma chance pra vocês uma forma simples de validar integrado com a API de validação do próprio
+
+58
+00:05:34,350 --> 00:05:35,420
+Java.
+
+59
+00:05:35,550 --> 00:05:38,400
+E ele está integrado também nessa questão do próprio espírito.
+
+60
+00:05:38,400 --> 00:05:43,860
+Você consegue usar de uma forma muito simples dentro do seu controle marcando determinado objeto que
+
+61
+00:05:43,860 --> 00:05:46,230
+você está recebendo os dados a partir de um Porsche.
+
+62
+00:05:46,650 --> 00:05:52,810
+Ele só vai permitir que esse objeto seja passado para dentro desse método de objeto chega.
+
+63
+00:05:53,220 --> 00:05:57,990
+Então aí esse pessoal mais um dica importante do uso do experiente a gente vai ter que continuar agora
+
+64
+00:05:57,990 --> 00:06:04,170
+nossa API e nós vamos fazer agora a listagem de produtos a atualização de produtos e a exclusão de produtos
+
+65
+00:06:04,680 --> 00:06:11,380
+que a gente possa concluir a nossa API durante todo o cadastro o crude meu cliente White rapidez e de
+
+66
+00:06:11,380 --> 00:06:18,720
+lixo em cima de produto aí a gente já fez o processo não apenas do JP além de inserir no banco de dados
+
+67
+00:06:18,940 --> 00:06:25,860
+as operações mas também do ponto de vista do spring board de criar Web Services para atender a todas
+
+68
+00:06:25,860 --> 00:06:30,030
+essas demandas relacionadas ao crude é um cadastro de produtos.
+
+69
+00:06:30,030 --> 00:06:34,670
+Depois a gente vai ter outros desafios e outras coisas pra gente comentar também no escurinho Bush.
+
+70
+00:06:34,680 --> 00:06:40,790
+Então fico por aqui pensar que continuamos a proximal evoluindo o nosso cadastro de produtos usando
+
+71
+00:06:40,820 --> 00:06:42,360
+Primus com o JP.
+
+72
+00:06:42,470 --> 00:06:42,960
+E até lá.

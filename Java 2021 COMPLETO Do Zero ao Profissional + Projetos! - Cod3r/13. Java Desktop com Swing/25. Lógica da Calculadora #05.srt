@@ -1,0 +1,467 @@
+1
+00:00:00,270 --> 00:00:06,330
+Pessoal agora continuando a lógica da nossa aplicação a gente já viu que quando ele cai no céu significa
+
+2
+00:00:06,330 --> 00:00:14,460
+que uma operação de subtração multiplicação e divisão ou igual gerou ele cai no Chelsea até porque se
+
+3
+00:00:14,460 --> 00:00:18,450
+der um comando inválido ele vai cair no primeiro caso que é o nulo.
+
+4
+00:00:18,450 --> 00:00:25,130
+Se ele digitou os EUA ele cai nesse cenário aqui caso tem digitado o número ou vírgula ele cai nesse
+
+5
+00:00:25,170 --> 00:00:31,770
+o que sobra pra gente são só as operações só conferindo ao nós temos usará o número avícola serão mapeados
+
+6
+00:00:32,130 --> 00:00:38,670
+e nós temos aqui ao zerar o número e a vírgula no que sobrou foi aqui a divisão multiplicação subtração
+
+7
+00:00:38,670 --> 00:00:40,150
+soma igual.
+
+8
+00:00:40,150 --> 00:00:44,120
+Exatamente nesses cenários é aqui que ele vai cair no elas.
+
+9
+00:00:44,190 --> 00:00:50,100
+A gente sabe que se ele caiu aqui significa que ele apertou em um desses botões aqui e automaticamente
+
+10
+00:00:50,100 --> 00:00:57,720
+o substitui passa a ser verdadeiro ao substituir passa a ser verdadeiro se não tiver esse comando eu
+
+11
+00:00:57,720 --> 00:01:04,080
+vou colocar aqui só comentar por um encontrão executado aqui no nosso cenário se eu digitar alguns números
+
+12
+00:01:04,080 --> 00:01:12,780
+por exemplo 7 8 9 multiplicado e colocar 3 2 ele está sempre pensando só que uma vez que eu cliquei
+
+13
+00:01:12,780 --> 00:01:20,690
+em alguma operação e pra isso substitui o que está no display e aqui eu vou comentar essa ironia exaltando
+
+14
+00:01:20,700 --> 00:01:29,760
+você vai ver que agora ele vai substituir ao 7 8 9 multiplicando o 3 2 1 ele substituiu dividindo o
+
+15
+00:01:29,760 --> 00:01:34,790
+7 8 9 somado com 2 3 2.
+
+16
+00:01:35,100 --> 00:01:40,320
+Ou seja sempre que eu clico em alguma das operações o próximo valor digitado vai ser substituído.
+
+17
+00:01:40,500 --> 00:01:46,860
+Exatamente o que está acontecendo quando ele cai nesse cenário que se o substituir tiver verdadeiro
+
+18
+00:01:46,860 --> 00:01:53,690
+ele substitui o texto atual pelo texto caso contrário ele vai sempre apitando e no final ele Max substituir
+
+19
+00:01:53,700 --> 00:01:55,530
+como sendo falso.
+
+20
+00:01:55,540 --> 00:02:00,320
+Outro passo que eu tenho que fazer é calcular o novo valor do texto atual.
+
+21
+00:02:00,570 --> 00:02:06,870
+Então o texto atual ele vai precisar calcular de acordo com a última operação citada e também de acordo
+
+22
+00:02:06,870 --> 00:02:08,580
+com o tipo de operação.
+
+23
+00:02:08,580 --> 00:02:17,680
+Então pra isso eu vou criar um método à parte para obter resultado a operação é e que eu vou este método
+
+24
+00:02:17,720 --> 00:02:24,870
+não exige banal como ele vai criar um metro aqui embaixo e temporariamente eu vou retornar o próprio
+
+25
+00:02:25,410 --> 00:02:28,210
+texto atual pois a gente melhora isso aqui.
+
+26
+00:02:28,260 --> 00:02:36,060
+O próximo passo ou o que é que acontece eu vou clicar em algum botão que vai gerar um evento e vai gerar
+
+27
+00:02:36,060 --> 00:02:43,740
+uma soma subtração e tal eu preciso armazenar nesse último essa última operação a operação que chegou
+
+28
+00:02:43,740 --> 00:02:50,550
+aqui no caso calculei aquele tipo de comando então tipo de comando você vai acertar na última operação
+
+29
+00:02:50,680 --> 00:02:58,330
+e eu também preciso fazer o texto de boa fé vai receber o valor de texto atual.
+
+30
+00:02:58,350 --> 00:03:04,590
+Então eu peguei o texto atual citei no banco significa que na próxima vez que você tentar alguma coisa
+
+31
+00:03:04,590 --> 00:03:10,470
+você vai substituir o texto atual pelo novo texto digitado e o texto base vai ter o valor anterior que
+
+32
+00:03:10,470 --> 00:03:17,540
+você salvou aqui ou na linha 56 e eu vou também ter pegue a última operação que o usuário clicou e quando
+
+33
+00:03:17,550 --> 00:03:23,010
+mais ou menos dá uma explicação eu vou ter essa informação dentro dessa variável e eu vou precisar usar
+
+34
+00:03:23,010 --> 00:03:24,030
+ela aqui dentro.
+
+35
+00:03:24,490 --> 00:03:30,180
+Então na primeira vez que eu entrar nessa função o valor vai estar nulo e então só estou citando que
+
+36
+00:03:30,210 --> 00:03:34,540
+o tipo de comando depois que a última operação já foi calculado.
+
+37
+00:03:34,540 --> 00:03:43,770
+Então por exemplo se calhar a calculadora aqui dizer ah eu coloquei 2 3 nesse momento nem o banco foi
+
+38
+00:03:43,770 --> 00:03:50,670
+interceptado nem ela infla a operação está acertada então eu vou clicar AQUI NO MAIS cliquei no mais
+
+39
+00:03:50,690 --> 00:03:57,740
+ao digitar 23 na tela cliquei no mais continuou o resultado da comparação o texto atual continua sendo
+
+40
+00:03:57,780 --> 00:04:05,220
+23 porque eu não tinha nenhum comando e o texto atual acabou de ser transferido para o bofe e a última
+
+41
+00:04:05,220 --> 00:04:11,010
+o último comando foi um comando de mais ou seja agora essa variável está achatada eu estou mostrando
+
+42
+00:04:11,010 --> 00:04:16,550
+na calculadora da Apple mas estou tentando aplicar a lógica todo definido aqui na nossa classe.
+
+43
+00:04:16,830 --> 00:04:23,950
+Então agora o último comando é o mais o texto é o 23 e o texto atual continua sendo o 23.
+
+44
+00:04:23,970 --> 00:04:29,760
+Na próxima vez que eu digitar ele vai cair aqui na minha 51 52 porque eu vou editar por exemplo o valor
+
+45
+00:04:29,760 --> 00:04:30,510
+7.
+
+46
+00:04:30,990 --> 00:04:34,220
+Ele limpou a calculadora digitou o valor 7.
+
+47
+00:04:34,500 --> 00:04:40,510
+Só que agora eu já tenho comando mais digitado o momento que eu digitar um segundo o comando por exemplo
+
+48
+00:04:40,510 --> 00:04:46,890
+o comando de subtração e ele só vai executar o comando de subtração que acordou clicar agora depois
+
+49
+00:04:47,250 --> 00:04:51,470
+que ele executar o resultado da operação anterior que a operação de soma.
+
+50
+00:04:51,540 --> 00:04:57,690
+Por isso que eu coloquei primeiro para ele olhar o resultado da operação pra depois ele salvar o tipo
+
+51
+00:04:57,690 --> 00:05:03,680
+de comando e pra depois se mexer pega o talo do texto que foi o resultado da operação e aí sim salvar
+
+52
+00:05:03,680 --> 00:05:04,490
+um cofre.
+
+53
+00:05:04,640 --> 00:05:11,990
+De tal forma que se eu clicar aqui menos ele vai pegar os 23 mais o 7 vai jogar isso no bofe ao menos
+
+54
+00:05:12,350 --> 00:05:18,350
+ele pegou 30 já pegou esse resultado 30 jogou no bofe de tal forma que o próximo falou que digitar por
+
+55
+00:05:18,350 --> 00:05:24,170
+exemplo 10 ele já limpou o display agora posso criar uma nova operação só colocar mais ele vai pegar
+
+56
+00:05:24,260 --> 00:05:27,410
+os 30 menos o 10 e vai se preparando certo.
+
+57
+00:05:27,430 --> 00:05:33,590
+Então a lógica dessa primeira é o cálculo o valor da operação anterior para o resultado eu já colocar
+
+58
+00:05:33,590 --> 00:05:39,950
+no bofe e aí também pagar o valor da última operação aqui dentro do jogo e ter o resultado da operação
+
+59
+00:05:40,310 --> 00:05:46,590
+se a última operação for nula ou seja não fiz nada ainda.
+
+60
+00:05:46,590 --> 00:05:54,410
+Não é a primeira vez que eu estou entrando aqui eu vou simplesmente retornar o texto atual porque esse
+
+61
+00:05:54,410 --> 00:06:00,120
+método está retornando ao extremo caso a última operação esteja acertada aí sim eu vou entrar pra Caio
+
+62
+00:06:00,130 --> 00:06:06,800
+vou ter que converter os valores pra o valor da ABL pra daí eu fazer as operações matemáticas então
+
+63
+00:06:07,250 --> 00:06:17,030
+eu vou ter um dado que representa o valor do ferro então eu vou ter o número número fé que vai ser o
+
+64
+00:06:17,030 --> 00:06:29,810
+seguinte ao pagar aqui da ABL ponto pacífico da ABL pegando o valor de texto do texto atual no texto
+
+65
+00:06:30,050 --> 00:06:39,860
+oferta ponto triplo eu vou substitui a vírgula por ponto já que o valor lá que foi digitado na calculadora
+
+66
+00:06:39,860 --> 00:06:41,090
+está com vírgula.
+
+67
+00:06:41,090 --> 00:06:47,270
+Só que o Java só vai interpretar 5 pontos estão colocando aqui pra baixo o que vi no final.
+
+68
+00:06:47,330 --> 00:06:53,080
+Eu tenho aqui uma mulher bofe que veio a partir do texto bofe substituindo a vírgula por ponto.
+
+69
+00:06:53,180 --> 00:07:02,240
+Se eu duplicar isso aqui agora vou ter o meu número atual que está digitado no display já que o texto
+
+70
+00:07:02,990 --> 00:07:11,410
+atual atual substitui o ponto e vírgula a vírgula pelo ponto e agora tem os meus dois números.
+
+71
+00:07:11,400 --> 00:07:13,220
+Pronto pra fazer uma operação matemática.
+
+72
+00:07:13,220 --> 00:07:18,900
+Vou criar aqui um resultado que vai começar do zero.
+
+73
+00:07:18,900 --> 00:07:23,920
+E aí em cima do tipo de operação que foi a última operação que foi detectada e que eu vou fazer.
+
+74
+00:07:24,320 --> 00:07:33,340
+A soma subtração então faz o seguinte se a última operação for tipo 1 no comando for um comando disso
+
+75
+00:07:33,350 --> 00:07:43,040
+soma por exemplo eu vou pegar o número de boa fé que vou primeiro digitado mas o número atual.
+
+76
+00:07:43,040 --> 00:07:46,050
+Isso aqui é uma jogada de resultado.
+
+77
+00:07:46,490 --> 00:07:48,260
+Basicamente eu vou precisar fazer isso.
+
+78
+00:07:48,260 --> 00:07:49,720
+Resultado.
+
+79
+00:07:49,720 --> 00:07:56,280
+Resultado basicamente vou precisar fazer isso para todos os cenários então copiar os erros.
+
+80
+00:07:56,690 --> 00:08:03,350
+Se o tipo de operação for subtração aí cuidado com a ordem primeiro vem um bofe e depois no número atual
+
+81
+00:08:03,400 --> 00:08:11,180
+é porque o bofe foi digitado primeiro e tão alto número bem enfermeiros número atual vou duplicar aqui
+
+82
+00:08:11,760 --> 00:08:20,960
+ou criar aqui operação de multiplicação e a última aqui divisão que eu vou multiplicar e aqui eu vou
+
+83
+00:08:21,750 --> 00:08:26,510
+dividi pronto nesse caso eu preciso agora retornar um valor do tipo string.
+
+84
+00:08:26,600 --> 00:08:32,440
+Então eu vou pegar distribuí resultado.
+
+85
+00:08:33,300 --> 00:08:43,320
+Por recebe um ponto Ju estaria passando o resultado.
+
+86
+00:08:43,750 --> 00:08:53,320
+E aqui eu vou dar um replays no ponto pra ele passasse uma vírgula que eu quero mostrar no display como
+
+87
+00:08:53,320 --> 00:08:55,030
+se viu.
+
+88
+00:08:55,060 --> 00:09:01,150
+Feito isso eu vou colocar aqui pra ele retornar um resultado extremo.
+
+89
+00:09:01,390 --> 00:09:07,570
+Aí depois eu vou precisar fazer mais algumas coisas vou mostrar pra vocês não é tanto que eu vou pegar
+
+90
+00:09:07,570 --> 00:09:14,740
+por exemplo 8 mais dois igual gerou estado um.
+
+91
+00:09:14,820 --> 00:09:19,030
+Só tenho 10 como um balão inteiro e tem que ponto vírgula zero.
+
+92
+00:09:19,030 --> 00:09:24,910
+No final eu vou querer tirar esse virgula zero caso seja um galo inteiro então posso fazer o seguinte
+
+93
+00:09:24,940 --> 00:09:29,360
+posso criar um boneco aqui pra si inteiro.
+
+94
+00:09:29,630 --> 00:09:34,420
+Se o resultado extingui resultado.
+
+95
+00:09:35,170 --> 00:09:40,690
+Este ponto induz o erro vírgula zero.
+
+96
+00:09:40,690 --> 00:09:45,600
+Se ele terminar com 1,0 quer dizer que o valor inteiro se o valor foi inteiro.
+
+97
+00:09:45,910 --> 00:09:49,210
+Eu vou fazer o seguinte resultado está aí.
+
+98
+00:09:49,250 --> 00:09:56,330
+Ponto depois vírgula zero monstrinho vazia.
+
+99
+00:09:56,380 --> 00:10:03,280
+Caso contrário ele vai retornar o resultado string com o meu grande QI mais do botar pra baixo.
+
+100
+00:10:03,720 --> 00:10:13,050
+Pronto pra testá lo coloca aqui 89 mais 23.
+
+101
+00:10:13,080 --> 00:10:14,440
+Resultado.
+
+102
+00:10:14,470 --> 00:10:15,550
+112.
+
+103
+00:10:16,360 --> 00:10:22,420
+Colocar por exemplo mas já acabou zerado aqui ou está com algum Bang.
+
+104
+00:10:22,770 --> 00:10:28,030
+Mas já está funcionando parte na lógica de colocar aqui 12 vezes.
+
+105
+00:10:28,030 --> 00:10:34,250
+3 O resultado vai ser 36 com a bola inteiro e não colocar a casa decimal no final.
+
+106
+00:10:34,340 --> 00:10:39,250
+Vou ficar por aqui na sala a gente já fez uma parte da lógica já está funcionando aqui as operações
+
+107
+00:10:39,250 --> 00:10:41,410
+e tornando o resultado até trocar aqui.
+
+108
+00:10:41,830 --> 00:10:48,610
+Esse resultado nos 30 está muito grande pra colocar aqui como sempre um texto fica menores.
+
+109
+00:10:49,130 --> 00:10:51,310
+Então pronto o texto vai ser o resultado.
+
+110
+00:10:51,320 --> 00:10:57,400
+Tirando as vírgulas por pontos e terminar com zero vírgula zero significa que inteira interesse foi
+
+111
+00:10:57,400 --> 00:11:01,560
+inteiro Globo substitui o vírgula zero vazio.
+
+112
+00:11:01,720 --> 00:11:04,290
+Caso contrário ele retorna o próprio texto.
+
+113
+00:11:04,300 --> 00:11:08,830
+Ele pode até fazer uma operação que não seja com valores inteiros só pra testá lo.
+
+114
+00:11:09,160 --> 00:11:19,890
+Então 7 vírgula 2 colocando mais um dia não está considerando o corda aqui mais 0,3.
+
+115
+00:11:19,960 --> 00:11:24,660
+O resultado vai ser 0,5 ou seja está funcionando.
+
+116
+00:11:24,680 --> 00:11:28,900
+Ele tem alguns bancos a nossa calculadora mais vai resolver isso nas próximas aulas então fique por
+
+117
+00:11:28,900 --> 00:11:29,700
+aqui até lá.

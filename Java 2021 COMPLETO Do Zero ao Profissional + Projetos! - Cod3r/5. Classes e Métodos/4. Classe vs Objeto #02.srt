@@ -1,0 +1,735 @@
+1
+00:00:00,450 --> 00:00:06,300
+Agora vamos falar de alguns fatos muito importa a marca de dois fatos que são muito importantes com
+
+2
+00:00:06,300 --> 00:00:07,650
+relação à classe.
+
+3
+00:00:07,760 --> 00:00:14,380
+Eu quero falar continuando a aula passada para essa aula primeiro fato é o seguinte a classe define
+
+4
+00:00:14,450 --> 00:00:21,840
+o tipo lei com calma certa ou uma classe define um tipo e um tipo e uma estrutura de dados como a gente
+
+5
+00:00:21,840 --> 00:00:26,660
+já viu por exemplo tem um tipo inteiro tem um tipo de.
+
+6
+00:00:26,940 --> 00:00:32,000
+Ou seja esses tipos definem estrutura de dados é algo que vai estrutural dado.
+
+7
+00:00:32,000 --> 00:00:38,880
+Uma coisa é você ter estrutura de dado para você ter o dado e a classe define o tipo é um tipo personalizado
+
+8
+00:00:38,880 --> 00:00:40,170
+para a sua aplicação.
+
+9
+00:00:40,530 --> 00:00:42,080
+Vamos imaginar o seguinte.
+
+10
+00:00:42,240 --> 00:00:47,660
+Java é uma linguagem generalista assim como PHP assim como Python JavaScript.
+
+11
+00:00:47,760 --> 00:00:55,040
+Não faz sentido dentro do Java como nenhuma dessas outras linguagens você tem um tipo específico para
+
+12
+00:00:55,040 --> 00:01:01,120
+representar uma disciplina e representar um aluno e apresentar um médico representar um paciente.
+
+13
+00:01:01,140 --> 00:01:08,010
+Tudo isso são tipos que vão ser criados para atender um negócio específico para atender às necessidades
+
+14
+00:01:08,010 --> 00:01:09,570
+de uma aplicação específica.
+
+15
+00:01:10,050 --> 00:01:16,710
+Então você tem a necessidade de criar tipos personalizados tipos que vão te ajudar a construir a tua
+
+16
+00:01:16,710 --> 00:01:17,740
+aplicação.
+
+17
+00:01:17,820 --> 00:01:24,940
+E é exatamente isso que uma classe faz uma classe define o tipo um tipo personalizado seu ou seja define
+
+18
+00:01:24,940 --> 00:01:29,400
+uma estrutura de dados e esse é o fator número um que eu quero ressaltar nessa aula que também é um
+
+19
+00:01:29,400 --> 00:01:35,970
+fato muito importante que uma classe define um tipo personalizado uma classe define a estrutura de dados
+
+20
+00:01:35,970 --> 00:01:43,710
+personalizada sua e o segundo fato que eu quero trabalhar com vocês é a classe representa uma abstração.
+
+21
+00:01:43,710 --> 00:01:48,890
+Em outras palavras a classe representa uma simplificação.
+
+22
+00:01:48,890 --> 00:01:55,360
+Vou tentar pegar aqui um exemplo simples para mostrar para vocês o que seria uma abstração.
+
+23
+00:01:55,470 --> 00:02:00,480
+Você tem sempre o mundo real e eu vou estar sempre falando de mundo real porque a orientação objeto
+
+24
+00:02:00,930 --> 00:02:08,280
+ela tem como fonte de inspiração muito forte o mundo real tentar modelar o mundo real em software usando
+
+25
+00:02:08,280 --> 00:02:10,290
+os objetos e suas interações.
+
+26
+00:02:10,380 --> 00:02:15,150
+Então se você vai conversar com o médico dono de uma clínica pra construir um sistema da clínica ele
+
+27
+00:02:15,150 --> 00:02:21,030
+vai te dizer ok na clínica gente tem uma agenda aí a gente tem um funcionário que trabalha com essa
+
+28
+00:02:21,030 --> 00:02:28,080
+agenda nós temos o corpo de médicos o corpo de enfermeiros nós temos isso e aquilo outro muito provavelmente
+
+29
+00:02:28,080 --> 00:02:34,140
+você vai olhar esses conceitos e tentar mapear o mundo real ou seja pegar o cenário real com todas as
+
+30
+00:02:34,140 --> 00:02:40,910
+suas complexidades e trazer para o software de um fogo simplificar eu vou exemplificar para vocês para
+
+31
+00:02:40,920 --> 00:02:47,130
+ver se fica fácil esse conceito de abstração e como isso vai variar de sistema para sistema.
+
+32
+00:02:47,130 --> 00:02:49,870
+Como isso vai variar de necessidade para necessidade.
+
+33
+00:02:50,220 --> 00:02:57,810
+Imagine que lá no seu bairro tem um mercado um pequeno mercado que precisa de um sistema para controlar
+
+34
+00:02:57,810 --> 00:02:58,430
+o estoque.
+
+35
+00:02:58,440 --> 00:03:06,060
+Então muito provavelmente nesse sistema de estoque você vai precisar definir uma classe chamada produto
+
+36
+00:03:06,570 --> 00:03:09,680
+certo nesse produto você vai ter o nome do produto.
+
+37
+00:03:09,680 --> 00:03:12,390
+Você vai ter a descrição do produto.
+
+38
+00:03:12,480 --> 00:03:14,220
+Você vai ter o preço do produto.
+
+39
+00:03:14,220 --> 00:03:20,700
+Você vai ter o desconto do produto que você vai ter a quantidade de itens daquele produto que tem no
+
+40
+00:03:20,700 --> 00:03:24,690
+estoque na mercearia ou no mercado dependendo como você chama.
+
+41
+00:03:24,690 --> 00:03:30,870
+Então nós temos um produto simples para representar uma necessidade simples que é controlar o estoque
+
+42
+00:03:30,870 --> 00:03:34,510
+de um pequeno comércio ali que vende no bairro.
+
+43
+00:03:34,530 --> 00:03:41,040
+Esse mesmo produto pode também existir dentro de um sistema ultra mega complexo da Amazon.
+
+44
+00:03:41,160 --> 00:03:47,910
+Ou seja você tem um tipo chamado produto que é um gerador de dados para um sistema de comércio simples
+
+45
+00:03:47,910 --> 00:03:48,620
+de bairro.
+
+46
+00:03:48,630 --> 00:03:55,160
+Você também tem esse mesmo tipo essa mesma abstração do mundo real um produto dentro do sistema da Amazon
+
+47
+00:03:55,170 --> 00:04:01,950
+será que o produto que eu vou criar lá na eu vou ter que um outro produto para definir a complexidade.
+
+48
+00:04:02,070 --> 00:04:09,240
+Será que a abstração desses dois produtos ou a forma como esses produtos foram escritos em código Java
+
+49
+00:04:09,240 --> 00:04:11,250
+para esses dois sistemas será que a mesma.
+
+50
+00:04:11,250 --> 00:04:17,610
+Não porque o produto na mãos ele vai precisar de uma série de atributos pra que o negócio da Amazon
+
+51
+00:04:17,610 --> 00:04:18,440
+seja atendida.
+
+52
+00:04:18,440 --> 00:04:24,950
+Então por exemplo pra mercearia para o mercado você não vai precisar das dimensões do produto porque
+
+53
+00:04:24,960 --> 00:04:33,070
+a forma de organizar e muito ali na prática vai colocando onde cabe ter essa ação dos donos das frutas
+
+54
+00:04:33,090 --> 00:04:39,990
+e tal não tem muito muita ciência envolvida mais na Amazon precisa ter toda a dimensão das caixas ou
+
+55
+00:04:39,990 --> 00:04:46,230
+seja o produto precisa das dimensões da caixa pra que ele consiga colocar o produto na forma mais otimizada
+
+56
+00:04:46,230 --> 00:04:47,690
+possível dentro do galpão.
+
+57
+00:04:47,700 --> 00:04:55,050
+Então além disso vai ter informações sobre exportação sobre imposto sobre muitas coisas que na verdade
+
+58
+00:04:55,100 --> 00:05:02,210
+um sistema mais simples não precisa ou seja abstração de um produto para o o software pode ser completamente
+
+59
+00:05:02,210 --> 00:05:08,330
+mesmo que seja a mesma abstração completamente diferente para outro software e mesmo assim mesmo olhando
+
+60
+00:05:08,330 --> 00:05:14,210
+para o mundo real muita coisa não interessa mesmo pra uma abstração mais complexa como é o caso da Amazon
+
+61
+00:05:14,210 --> 00:05:15,460
+por exemplo.
+
+62
+00:05:15,700 --> 00:05:18,930
+Por que um produto dentro da caixa ele tem várias curvas.
+
+63
+00:05:19,100 --> 00:05:25,490
+Essas cúpulas provavelmente não faz diferença para o que interessa e as dimensões da caixa já que o
+
+64
+00:05:25,490 --> 00:05:31,340
+produto será armazenado sempre dentro da caixa e isso é o suficiente para saber como ele vai armazenar
+
+65
+00:05:31,340 --> 00:05:33,230
+aquele produto da forma mais otimizada.
+
+66
+00:05:33,650 --> 00:05:39,680
+Então é muito importante você perceber até apagar esse produto para não ficar muito poluída que a tela.
+
+67
+00:05:39,690 --> 00:05:47,030
+Isso aqui é muito importante você perceber que uma classe também representa uma abstração ou uma simplificação
+
+68
+00:05:47,030 --> 00:05:48,140
+do mundo real.
+
+69
+00:05:48,140 --> 00:05:54,800
+Assim como a classe define um tipo personalizado uma coisa que eu quero falar com você já que nós definimos
+
+70
+00:05:54,800 --> 00:05:57,170
+que uma classe é uma estrutura de dados.
+
+71
+00:05:57,290 --> 00:06:05,150
+Obviamente essa postura de dados 1 hora vai gerar dados ou seja vai definir organizar certos tipos de
+
+72
+00:06:05,150 --> 00:06:12,260
+dados e é exatamente o que a gente chama de objeto a partir de uma classe a gente cria objetos e esses
+
+73
+00:06:12,260 --> 00:06:19,520
+objetos e os dados assim como nós temos a estrutura de dados inteira estrutura de dados reais números
+
+74
+00:06:19,520 --> 00:06:26,180
+reais caudal Flow florete assim como nós temos o bullying verdadeiro falso nós temos os dados o inteiro
+
+75
+00:06:26,180 --> 00:06:32,540
+pode ser o número um número 30 o número menos 47 ou seja todos são dados de um determinado estrutura
+
+76
+00:06:32,540 --> 00:06:35,680
+de dados assim como a nossa classe define o futuro de dados.
+
+77
+00:06:35,680 --> 00:06:43,460
+Sempre que você cria dados usando aquela classe como referência nós temos os objetos Objeto A OBJETO
+
+78
+00:06:43,460 --> 00:06:50,150
+B objeto c todos são dados gerados a partir de determinada classe ou seja a partir de uma classe médico
+
+79
+00:06:50,580 --> 00:06:58,910
+eu posso criar quantos objetos eu quiser e o que vai variar não é a estrutura do objeto e sim os valores
+
+80
+00:06:58,910 --> 00:07:00,530
+que eu vou dar para aqueles atributos.
+
+81
+00:07:00,530 --> 00:07:07,430
+Por exemplo o nome do médico o CRM define uma classe produto o que vai variar e o nome do produto a
+
+82
+00:07:07,430 --> 00:07:13,370
+descrição do produto a quantidade do produto no estoque ou seja os valores associados aos atributos
+
+83
+00:07:13,370 --> 00:07:21,590
+vão mudar mais o nome dos atributos os tipos os atributos tudo isso permanece igual porque veio da mesma
+
+84
+00:07:21,590 --> 00:07:27,890
+estrutura ou seja a classe da estrutura o que você cria a partir da classe e o objeto então é exatamente
+
+85
+00:07:27,890 --> 00:07:34,970
+isso que é a relação entre classe e objeto o objeto e os dados que foram criados a partir de uma determinada
+
+86
+00:07:34,970 --> 00:07:37,890
+classe e a classe representa a estrutura de dados.
+
+87
+00:07:37,910 --> 00:07:43,700
+Em outras palavras a classe define o tipo e os objetos representam os dados.
+
+88
+00:07:43,700 --> 00:07:49,400
+Você também pode chamar os objetos distantes então é muito comum você ouvir por exemplo a seguinte frase
+
+89
+00:07:49,520 --> 00:07:58,150
+Eu criei dez objetos do tipo produto ou seja o tipo a classe e os objetos foram as instâncias Take One
+
+90
+00:07:58,150 --> 00:08:03,950
+instâncias que foram criadas a partir de determinada estrutura de dados é um objeto um instante são
+
+91
+00:08:03,950 --> 00:08:04,550
+sinônimos.
+
+92
+00:08:04,540 --> 00:08:12,560
+Você pode também usar a seguinte frase ai eu acabei de distanciar ou seja eu acabei de criar 10 objetos
+
+93
+00:08:12,560 --> 00:08:18,370
+do tipo o produto então esse tipo de nomenclatura muito importante que você esteja familiarizado até
+
+94
+00:08:18,370 --> 00:08:23,450
+para que quando você for conversar com a equipe de desenvolvimento você use os termos que todo mundo
+
+95
+00:08:23,450 --> 00:08:30,350
+entende então objeto é sinônimo de distância eu posso dizer ai eu criei a partir dessa classe em que
+
+96
+00:08:30,350 --> 00:08:36,350
+as usem eu criei a instância a instância B e a instância C assim como eu posso dizer que eu criei o
+
+97
+00:08:36,350 --> 00:08:43,840
+objeto a um objeto B o objeto sei posso usar também instância como verbo e eu acabei distanciar trazendo
+
+98
+00:08:43,890 --> 00:08:51,180
+os objetos do tipo o produto certo então tipo o produto faz a relação que eu tenho classe em produtos
+
+99
+00:08:51,210 --> 00:08:57,590
+já que classe representa um tipo já que essa relação e classe diversos objetos que representam muito
+
+100
+00:08:57,590 --> 00:09:04,370
+bem a relação de classe objeto olhando de outra perspectiva a gente já viu um pouco do que representa
+
+101
+00:09:04,490 --> 00:09:09,800
+uma classe e nós vimos um pouco do que representa o objeto e agora eu quero falar da relação entre classe
+
+102
+00:09:09,800 --> 00:09:10,570
+e objeto.
+
+103
+00:09:10,970 --> 00:09:18,080
+Olhando aqui para esses desenhos com a inspiração arquitetônica muito forte definem aqui como se fosse
+
+104
+00:09:18,080 --> 00:09:24,110
+um projeto de uma casa uma planta baixa e uma casa não exatamente que talvez a planta baixa de uma casa
+
+105
+00:09:24,110 --> 00:09:29,540
+feita por um arquiteto de três anos estava ali eu me criei aqui a minha planta baixa da casa e a partir
+
+106
+00:09:29,540 --> 00:09:34,600
+desse molde eu consigo criar várias casas usando o mesmo padrão.
+
+107
+00:09:34,640 --> 00:09:39,530
+Lembra naqueles moldes que você tinha que levá la para a praia por exemplo que mora numa cidade litorânea
+
+108
+00:09:39,530 --> 00:09:46,640
+como eu tinha e tem uns moldes de plástico por exemplo no formato de estrela no formato de concha no
+
+109
+00:09:46,640 --> 00:09:54,040
+formato de caixa de casa melhor dizendo onde caixa você pega lá algum formato de concha aplica na areia.
+
+110
+00:09:54,170 --> 00:10:00,350
+Quando você tira a área fica naquele formato da forma do molde você tem um molde de um estrela você
+
+111
+00:10:00,350 --> 00:10:06,870
+aplica na areia e a areia vai ficar exatamente no formato que você aplicou lá um balde então essa idade
+
+112
+00:10:06,880 --> 00:10:12,440
+ou classe a classe define a estrutura como Você aplicou um molde por exemplo de ferro em cima de uma
+
+113
+00:10:12,440 --> 00:10:13,780
+massa de biscoito.
+
+114
+00:10:13,880 --> 00:10:19,820
+O resultado que vai ser gerado vários objetos ou várias instâncias B ou seja os biscoitos com aquele
+
+115
+00:10:19,820 --> 00:10:23,770
+formato mais você percebe que o acaso não é exatamente um ao outro.
+
+116
+00:10:23,780 --> 00:10:30,630
+Uma casa que importa tem tem uma porta frontal só que uma porta vermelha e outra verde.
+
+117
+00:10:30,800 --> 00:10:33,460
+Essa Casa tem uma janelinha em cima da porta.
+
+118
+00:10:33,470 --> 00:10:40,790
+Tem um amarelo e a outra vermelha ou seja os dados os valores mudam mas a estrutura permanece a mesma.
+
+119
+00:10:40,800 --> 00:10:46,610
+é isso que estou querendo fazer uma alusão com os valores dos atributos ou seja você tem um produto
+
+120
+00:10:46,610 --> 00:10:47,850
+que tem nome tem.
+
+121
+00:10:47,980 --> 00:10:52,970
+Ou seja todos os produtos que foram criados a partir de uma classe de um tipo que definiu o nome lá
+
+122
+00:10:52,970 --> 00:10:53,770
+vai ter nome.
+
+123
+00:10:53,780 --> 00:11:00,770
+Só que em um notebook o outro vai ser borracha ou outro lápis e aí você vai variando os valores dos
+
+124
+00:11:00,770 --> 00:11:01,540
+atributos aqui.
+
+125
+00:11:01,560 --> 00:11:06,960
+Outro exemplo na mesa do mesmo conceito é uma classe representa um molde pegando o molde de uma roupa
+
+126
+00:11:06,980 --> 00:11:13,930
+por exemplo têm tamanhos específicos e tal e quando você for cortar um tecido pode ser diferente um
+
+127
+00:11:13,950 --> 00:11:20,330
+pode ser um diz o outro pode ser um acenda o outro sei um outro tecido qualquer e o fato é que você
+
+128
+00:11:20,330 --> 00:11:26,320
+tem o mesmo molde e a partir de um único molde você pode gerar quantos objetos você quiser.
+
+129
+00:11:26,330 --> 00:11:32,030
+Então você tem uma única planta a partir dessa mesma planta você pode gerar quantas casas e prédios
+
+130
+00:11:32,060 --> 00:11:32,820
+você quiser.
+
+131
+00:11:33,170 --> 00:11:38,710
+Então a ideia basta ter um molde para você ter quantos objetos seja dentro de um sistema.
+
+132
+00:11:38,780 --> 00:11:43,400
+Quando você for definiu o tipo que vai apresentar um aluno.
+
+133
+00:11:43,460 --> 00:11:49,760
+Você pode ter basta ter apenas um tipo você eventualmente pode ter mais de um quando você tem diferenças
+
+134
+00:11:49,760 --> 00:11:50,630
+entre esses tipos.
+
+135
+00:11:50,640 --> 00:11:56,480
+Eu tenho um aluno regular e tenho um aluno bolsista eu tenho um aluno especial.
+
+136
+00:11:56,510 --> 00:12:00,950
+Eventualmente você pode ter tipos diferentes e eu vou falar mais sobre isso quando vou falar de orientação
+
+137
+00:12:00,960 --> 00:12:01,780
+objeto.
+
+138
+00:12:01,940 --> 00:12:06,070
+Mas se você vai apresentar um aluno basta ter uma classe aluno que você pode criar.
+
+139
+00:12:06,070 --> 00:12:07,690
+Quantos alunos você quiser.
+
+140
+00:12:07,820 --> 00:12:13,340
+Ou seja exatamente a relação que você tem entre Maude e os objetos gerados a partir desse modo que pode
+
+141
+00:12:13,340 --> 00:12:14,770
+ser também chamado de distância.
+
+142
+00:12:14,770 --> 00:12:17,580
+Como falei meu Classic Mode.
+
+143
+00:12:17,630 --> 00:12:22,310
+Você tem as instâncias da mesma coisa classe você tem os objetos e objetos.
+
+144
+00:12:22,320 --> 00:12:27,870
+Instâncias são sinônimos só para a gente estar um pouco mais para um contexto e programação imagine
+
+145
+00:12:27,920 --> 00:12:34,390
+que você criou uma classe chamada produto e esse produto tem nome preço e desconto.
+
+146
+00:12:34,400 --> 00:12:40,520
+Você tem três atributos não é preciso conto e esses atributos estarão tipos por exemplo.
+
+147
+00:12:40,670 --> 00:12:42,600
+O nome será um estilingue.
+
+148
+00:12:42,770 --> 00:12:44,990
+O preço provavelmente será um W.
+
+149
+00:12:45,170 --> 00:12:51,680
+O desconto será um dado por você criar um objeto em cima dessa estrutura na estrutura de dados que a
+
+150
+00:12:51,680 --> 00:12:53,190
+clássica é um tipo.
+
+151
+00:12:53,300 --> 00:13:00,620
+Você também terá nome preço desconto certo então por exemplo eu tenho o nome que tenho no futebol que
+
+152
+00:13:00,620 --> 00:13:07,280
+tem um nome aqui embaixo tem sei lá eu tem um preço tem dois mil quatro mil 200 milhões e ele tem um
+
+153
+00:13:07,280 --> 00:13:15,860
+preço aqui tem 1800 tem desconto 15 por cento com 35 ou seja eu tenho exatamente a mesma estrutura dos
+
+154
+00:13:15,860 --> 00:13:16,590
+dois lados.
+
+155
+00:13:16,620 --> 00:13:22,610
+Dois objetos porque todos vieram da mesma do mesmo tipo da mesma estrutura de dados o que vai variar
+
+156
+00:13:22,610 --> 00:13:28,810
+são os valores um tem onde Bucky outro está lá o outro tem um preço maior ou tem um preço menor o outro
+
+157
+00:13:28,820 --> 00:13:30,700
+não tem escolha que o outro tem.
+
+158
+00:13:30,740 --> 00:13:32,090
+Tudo isso vai variar certo.
+
+159
+00:13:32,090 --> 00:13:34,580
+Então isso aqui são as minhas instâncias.
+
+160
+00:13:34,620 --> 00:13:41,590
+E aqui eu tenho os meus dados surgindo a partir de uma classe então aqui eu tenho a minha classe certo
+
+161
+00:13:41,860 --> 00:13:45,940
+que um jovem chama de classes ou posso colocar aqui em português de forma genérica.
+
+162
+00:13:45,940 --> 00:13:55,640
+E nós temos aqui o nosso objeto e nós temos aqui o nosso objeto 2 e pode ter quantos objetos você quiser
+
+163
+00:13:55,670 --> 00:13:57,710
+quantas instâncias você quiser.
+
+164
+00:13:57,710 --> 00:14:05,050
+Outra coisa que vale que a menção certa a observação é sobre o construtor ou seja o construtor.
+
+165
+00:14:05,390 --> 00:14:09,620
+Ele é um método especial é um método que nós vamos estudar.
+
+166
+00:14:09,620 --> 00:14:15,440
+Nesse capítulo eu vou mostrar para vocês ele é o responsável por a partir de uma classe criar objetos
+
+167
+00:14:15,920 --> 00:14:21,950
+não é algo que você precisa se preocupar muito mas lembra que a gente usou uma palavrinha chamada mil
+
+168
+00:14:22,250 --> 00:14:27,680
+ou seja mil Kane especificamente esse cara a gente usou isso em alguns exercícios.
+
+169
+00:14:27,690 --> 00:14:34,250
+é exatamente essa palavrinha logo depois do email que eles tem a chamada do construtor não precisa se
+
+170
+00:14:34,250 --> 00:14:39,220
+preocupar muito a gente vai bem isso exercícios de Core isso aqui já é uma parte muito para o código.
+
+171
+00:14:39,230 --> 00:14:45,740
+Mas o fato que o construtor é um método especial que a partir de uma classe cria os objetos.
+
+172
+00:14:45,740 --> 00:14:51,140
+Então nessa aula junto com a aula passada que a gente também começou a trabalhar esses conceitos nós
+
+173
+00:14:51,140 --> 00:14:54,190
+vimos a diferença o conceito melhor dizemos de classe.
+
+174
+00:14:54,200 --> 00:15:00,500
+O conceito de objeto e a relação que existe entre classes objeto qualquer dúvida pessoal no exercício
+
+175
+00:15:00,500 --> 00:15:08,070
+novamente executa novamente os conceitos e a explicação é algo muito importante você tem esse conceitos
+
+176
+00:15:08,090 --> 00:15:15,180
+da ponta da língua tem esses conceitos na cabeça porque isso é a base para orientação objeto e vai por
+
+177
+00:15:15,180 --> 00:15:21,950
+mim os conceitos são muito importantes os conceitos conseguem sobreviver mais do que os detalhes ele
+
+178
+00:15:21,960 --> 00:15:22,460
+colhe.
+
+179
+00:15:22,500 --> 00:15:25,630
+Eventualmente as linguagens vão evoluindo a sintaxe.
+
+180
+00:15:25,940 --> 00:15:32,270
+Eventualmente você tem recursos novos novas formas de fazer você eventualmente pode precisar aprender
+
+181
+00:15:32,270 --> 00:15:37,880
+outras linguagens que têm outras formas de escrever código mas esses conceitos não te acompanhar não
+
+182
+00:15:37,880 --> 00:15:40,310
+apenas em Java mas em várias outras linguagens.
+
+183
+00:15:40,610 --> 00:15:45,080
+Então por isso que é muito importante ter um foco no conceito é exatamente o que quero trazer nessas
+
+184
+00:15:45,080 --> 00:15:45,500
+aulas.

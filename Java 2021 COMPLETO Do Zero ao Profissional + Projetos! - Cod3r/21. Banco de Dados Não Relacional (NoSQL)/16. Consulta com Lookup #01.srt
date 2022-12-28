@@ -1,0 +1,231 @@
+1
+00:00:00,240 --> 00:00:05,850
+Própria só agora nós vamos fazer as nossas consultas com o capim em vez de fazer diretamente aqui no
+
+2
+00:00:05,850 --> 00:00:11,440
+Terminal do morro vou limpar o terminal do morro e vou fazer essas consultas diretamente aqui no RS.
+
+3
+00:00:11,870 --> 00:00:17,480
+E para isso vou fazer o seguinte nós vamos criar um novo arquivo falou o nome do arquivo.
+
+4
+00:00:17,580 --> 00:00:24,120
+Vai ser consultas no cabo e ponto TXT vamos fazer as consultas aqui e eventualmente gente vai copiando
+
+5
+00:00:24,120 --> 00:00:24,880
+para executá la.
+
+6
+00:00:25,230 --> 00:00:29,140
+Então vou colocar DD ponto empresas ponto agregado.
+
+7
+00:00:29,220 --> 00:00:35,310
+Vou abrir o meu pai pra lá de agregação aqui com esse aí é o primeiro passo que eu vou fazer no meu
+
+8
+00:00:35,310 --> 00:00:36,480
+pai plano de agregação.
+
+9
+00:00:36,480 --> 00:00:42,690
+Vai ser fácil mete em cima desse médico quero filtrar o Bradesco para a parte do Bradesco fazer relação
+
+10
+00:00:42,690 --> 00:00:46,790
+com o Estado sítio com o Estado a partir do atributo está doidinho.
+
+11
+00:00:46,900 --> 00:00:54,420
+Então primeiro vou fazer o meu nome em dois pontos Bradesco estão pegando essa consulta aqui inicial
+
+12
+00:00:54,720 --> 00:00:56,700
+vou colocar aqui.
+
+13
+00:00:56,790 --> 00:01:04,860
+De fato ele trouxe o Bradesco já vou colocar aqui no final fica melhor para a gente visualizar o resultado
+
+14
+00:01:04,870 --> 00:01:13,780
+então claro aqui executando ele de fato trouxe o Bradesco do Bradesco o nome trouxe o Estado a indica
+
+15
+00:01:13,780 --> 00:01:17,570
+exatamente o atributo que nós vamos usar para fazer o primeiro local.
+
+16
+00:01:17,890 --> 00:01:20,040
+Então tá nessa alocação mais simples.
+
+17
+00:01:20,110 --> 00:01:25,440
+Então diretamente a partir do dia do próprio documento que eu quero fazer capital então aqui eu vou
+
+18
+00:01:25,440 --> 00:01:29,070
+fazer o Caps nesse local e segue o mesmo padrão do médio.
+
+19
+00:01:29,070 --> 00:01:35,640
+Tenho uma frase do meu pai plano de agregação e eu coloco dolo Cappi dois pontos ou objeto que vai ter
+
+20
+00:01:35,640 --> 00:01:41,680
+os atributos do local no final Feijó aqui posso colocar um vírgula aqui e aqui eu vou colocar primeiro
+
+21
+00:01:41,690 --> 00:01:42,300
+Front.
+
+22
+00:01:42,360 --> 00:01:48,270
+Qual é o nome do documento da Collection melhor dizendo que eu vou fazê lo Cape nesse caso eu quero
+
+23
+00:01:48,270 --> 00:01:50,790
+fazer um bocado na Colégio estados.
+
+24
+00:01:50,850 --> 00:01:57,740
+O próximo atributo é o local fio ou seja o fio que faz a relação com essa tabela de Estados e esse local
+
+25
+00:01:57,750 --> 00:02:05,830
+fio está dentro de empresas qual é o campo dentro de empresas que faz relação com a coleção Estado.
+
+26
+00:02:05,880 --> 00:02:09,320
+Nesse caso o campo é exatamente o Estado.
+
+27
+00:02:09,490 --> 00:02:18,120
+Aí logo o local fios e o campo local que pertence à empresa certo então é listado aí qual é o campo
+
+28
+00:02:18,120 --> 00:02:22,440
+que está dentro dos Estados que faz o PAC digamos assim essa relação.
+
+29
+00:02:22,440 --> 00:02:32,130
+Exatamente o fórum fios que vai acender ali então fora fios pertence a estados de colocar o fio de pertence
+
+30
+00:02:32,430 --> 00:02:38,490
+a empresas que fazem nesse relacionamento a falta não mais um atributo para dizer qual o nome do atributo
+
+31
+00:02:38,490 --> 00:02:41,270
+que será criado a partir desse no CAPS.
+
+32
+00:02:41,310 --> 00:02:44,460
+E aí o nome do atributo vai ser estado no singular.
+
+33
+00:02:44,460 --> 00:02:49,190
+Feito isso vou selecionar aqui um control C executado.
+
+34
+00:02:49,410 --> 00:02:52,260
+Você vai ver que o resultado é exatamente o esperado.
+
+35
+00:02:52,260 --> 00:03:00,570
+Tenho aqui uma empresa Bradesco o Estado é objeto Jardim do Estado relacionado e nesse caso ele trouxe
+
+36
+00:03:00,730 --> 00:03:09,510
+a Rei no caso Estados e ele trouxe o único estado que deu match nisso aí que é exatamente o estado de
+
+37
+00:03:09,600 --> 00:03:10,370
+São Paulo.
+
+38
+00:03:10,530 --> 00:03:16,910
+Eu posso até tirar de dentro desse rei usando a fazenda do pai Clay agregação.
+
+39
+00:03:17,120 --> 00:03:24,870
+Então é muito simples eu posso até copiar aqui para ficar mais fácil copiar aqui colocar aqui embaixo
+
+40
+00:03:25,500 --> 00:03:35,370
+a frase em vez de México sim e aqui na verdade o nome do atributo que eu quero fazer o índio como tá
+
+41
+00:03:35,370 --> 00:03:40,800
+do lado direito então vou colocar a bola estado no singular.
+
+42
+00:03:40,980 --> 00:03:50,610
+Fazendo isso nós temos mais um passo no nosso plano de agregação até aqui e ele trouxe aqui o Estado
+
+43
+00:03:50,670 --> 00:03:56,990
+agora fora da lei tem um objeto que representa o estado desse relacionamento da empresa com o Estado.
+
+44
+00:03:57,000 --> 00:04:04,090
+Nesse caso como é um relacionamento direto com o documento e estado fica até mais fácil porque eu tendo
+
+45
+00:04:04,100 --> 00:04:09,660
+direto o Estado aqui dentro o Estado pode acessar o que eu quiser em relação a isso quando for a cidade
+
+46
+00:04:09,660 --> 00:04:15,270
+vai ser um pouquinho mais chato para encontrar exatamente a cidade que a gente quer e eu vou deixar
+
+47
+00:04:15,360 --> 00:04:21,510
+esse outro local e para aproximá lo mais Só recapitulando antes de terminar nós fizemos aqui um lanche
+
+48
+00:04:21,570 --> 00:04:27,910
+pra pegar o Bradesco entre todas as empresas pegamos a empresa que tem no Bradesco fizemos o capital
+
+49
+00:04:28,200 --> 00:04:36,300
+na Collection os estados o local fios dentro da empresa e o Estado aí que foi o campo que nós criamos
+
+50
+00:04:36,570 --> 00:04:42,810
+é o fórum fios ou seja o filme estrangeiro que tá na outra coleção é exatamente o moderno Haiti que
+
+51
+00:04:42,810 --> 00:04:48,000
+nós queremos fazer mas então feito esse médio e criamos um atributo chamado Estado.
+
+52
+00:04:48,270 --> 00:04:55,350
+Então nesse caso como pode dar mais de um digamos assim ele trouxe um rei com todos os estados e nesse
+
+53
+00:04:55,350 --> 00:05:00,620
+caso fizeram isso poucas o Brasil poderia até ter vindo mais ele criaria vários documentos mais como
+
+54
+00:05:00,750 --> 00:05:07,110
+só um ele pegou esse objeto que tirou de dentro da raiz e gerou um único documento com a relação entre
+
+55
+00:05:07,110 --> 00:05:08,640
+a empresa e o Estado.
+
+56
+00:05:08,640 --> 00:05:13,790
+Foi exatamente essa consulta que nós fizemos agora proximal a gente faz a mesma consulta só que em vez
+
+57
+00:05:13,790 --> 00:05:19,470
+de relacionar com o Estado relaciona com uma das cidades do estado e até lá para a gente fazer a última
+
+58
+00:05:19,470 --> 00:05:21,610
+consulta esse capítulo e até aproximá lo.

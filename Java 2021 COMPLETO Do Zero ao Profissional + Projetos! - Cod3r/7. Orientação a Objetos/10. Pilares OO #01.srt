@@ -1,0 +1,1019 @@
+1
+00:00:00,230 --> 00:00:05,790
+Só falam um pouquinho sobre o primeiro pilar da orientação a objeto entrando um pouco mais em detalhe
+
+2
+00:00:06,670 --> 00:00:13,980
+nesse pilar específico de orientação a objeto é o pilar de encapsulamento certo encapsulamento é você
+
+3
+00:00:13,980 --> 00:00:20,010
+colocar algo dentro de uma cápsula eu quero encapsular alguma coisa ou pagar alguma coisa e colocar
+
+4
+00:00:20,010 --> 00:00:25,990
+dentro de algum recipiente onde uma cápsula especificamente com o numa encapsulamento.
+
+5
+00:00:26,010 --> 00:00:32,000
+Na verdade quem é a cápsula do encapsulamento ou o objeto já falou um pouco sobre isso.
+
+6
+00:00:32,010 --> 00:00:39,150
+Imagine que você tem um encapsulamento na vida real você tem diversos cenários ou seja eu estou usando
+
+7
+00:00:39,150 --> 00:00:44,380
+um computador mas eu não preciso conhecer internamente como o computador funciona.
+
+8
+00:00:44,390 --> 00:00:47,250
+Eu não preciso saber como é o processamento.
+
+9
+00:00:47,250 --> 00:00:51,300
+Que tipo de memória existe dentro do processador.
+
+10
+00:00:51,300 --> 00:00:53,550
+Que tipo de memória tem na placa mãe.
+
+11
+00:00:53,550 --> 00:00:58,030
+Que tipo de chips ou mesmo solda existem dentro de uma placa mãe presente.
+
+12
+00:00:58,060 --> 00:01:05,610
+Tudo isso está escondido encapsulado que eu preciso digamos assim deixei o mouse eu preciso aprender
+
+13
+00:01:05,670 --> 00:01:11,440
+a mexer no teclado ou seja são as interfaces de comunicação entre você e o computador.
+
+14
+00:01:11,460 --> 00:01:16,960
+Isso sim você precisa aprender a interagir mais conhecer detalhes de implementação.
+
+15
+00:01:16,960 --> 00:01:18,170
+Você não precisa conhecer.
+
+16
+00:01:18,200 --> 00:01:21,690
+Isso também acontece dentro de um programa de computador.
+
+17
+00:01:21,780 --> 00:01:25,330
+Imagine a seguinte situação eu vou colocar aqui do lado.
+
+18
+00:01:25,440 --> 00:01:32,940
+Imagine que você tem aqui um determinado objeto uma classe que virou um objeto certo você tem aqui três
+
+19
+00:01:32,940 --> 00:01:40,660
+objetos no momento que esse objeto aqui vai usar esse outro objeto que coloca na sede nessa direção.
+
+20
+00:01:40,740 --> 00:01:43,830
+A única coisa que você precisa bons pontos aqui dentro.
+
+21
+00:01:43,920 --> 00:01:51,990
+Eu tenho um método que eu coloquei ele visível e aqui dentro eu criei mais outros dois metros que não
+
+22
+00:01:51,990 --> 00:01:58,710
+são visíveis ou seja são metros que são visíveis apenas aqui dentro desse objeto certo.
+
+23
+00:01:58,710 --> 00:02:05,730
+Nesse caso se você vai estabelecer uma relação de um objeto com outro certo você obrigatoriamente só
+
+24
+00:02:05,730 --> 00:02:06,990
+vai conseguir enxergar.
+
+25
+00:02:07,110 --> 00:02:08,930
+Esse método vende por quê.
+
+26
+00:02:09,090 --> 00:02:13,070
+Por os outros dois estão encapsulados estão escondidos.
+
+27
+00:02:13,110 --> 00:02:19,980
+Ou seja você como usuário de um carro você vai conseguir interagir diretamente com a direção você vai
+
+28
+00:02:19,980 --> 00:02:22,410
+conseguir interagir diretamente com a marcha.
+
+29
+00:02:22,410 --> 00:02:25,930
+Você vai conseguir interagir diretamente com os pedais.
+
+30
+00:02:26,310 --> 00:02:32,880
+Então imagine que a direção está visível está publicando para você que a marcha está pública.
+
+31
+00:02:32,880 --> 00:02:38,760
+Você pode interagir com ela e os pedais estão também públicos ou seja essa é a forma que você tem para
+
+32
+00:02:38,760 --> 00:02:39,970
+interagir com o carro.
+
+33
+00:02:40,440 --> 00:02:47,090
+Quando você vai por exemplo pensar no motor na queima de combustível não vale nada.
+
+34
+00:02:47,100 --> 00:02:54,370
+Contos é apenas o motor giro por exemplo isso tudo está encapsulado e isso tudo está escondido usando
+
+35
+00:02:54,370 --> 00:02:58,140
+a linguagem mais próxima do Java e isso está privado.
+
+36
+00:02:58,140 --> 00:03:04,400
+Então algo está privado significa que está escondido não está visível para quem vai usar aquela coisa
+
+37
+00:03:04,410 --> 00:03:10,620
+sejam um objeto usando outro objeto ou você ser humano usando o carro certo.
+
+38
+00:03:10,620 --> 00:03:17,520
+O princípio é o mesmo a direção está pública a marcha está pública ou os pedais estão públicos mais
+
+39
+00:03:17,520 --> 00:03:25,050
+o motor por exemplo está privado ele está escondido e você como um motorista não tem acesso e não precisa
+
+40
+00:03:25,050 --> 00:03:30,990
+ter acesso a essa informação muito menos conhecer como é feito internamente todo o processo de combustão
+
+41
+00:03:30,990 --> 00:03:32,760
+como a energia vai para as rodas.
+
+42
+00:03:32,760 --> 00:03:37,000
+Você não se preocupou com nada disso simplesmente você acessa aquilo que é público.
+
+43
+00:03:37,140 --> 00:03:43,780
+Da mesma forma uma determinada classe ou um objeto quando ele for depender de outro objeto a gente viu
+
+44
+00:03:43,780 --> 00:03:50,190
+que uma classe um objeto depende de outro objeto exige a composição você se preocupa apenas com aquilo
+
+45
+00:03:50,190 --> 00:03:57,150
+que está visível e não com aquilo que está encapsulado então selecionar alguns comportamentos e alguns
+
+46
+00:03:57,150 --> 00:03:59,940
+atributos pra serem escondidos.
+
+47
+00:03:59,940 --> 00:04:06,360
+é muito importante e isso faz parte do processo de encapsular certo é muito importante que você como
+
+48
+00:04:06,360 --> 00:04:12,960
+programador saiba distinguir e saiba escolher aquilo que precisa estar público aquilo que a pessoa está
+
+49
+00:04:12,960 --> 00:04:17,630
+visível para todo mundo e aquilo que precisa estar escondido ou encapsulado.
+
+50
+00:04:17,670 --> 00:04:25,410
+Vou já falar um pouquinho dos níveis de encapsulamento você pode estar mais ou menos escondido as coisas
+
+51
+00:04:25,470 --> 00:04:27,540
+são só para mostrar um exemplo com relação a isso.
+
+52
+00:04:27,540 --> 00:04:33,710
+Outra coisa importante é o seguinte vamos supor criar aqui um cenário relativamente maluco porque é
+
+53
+00:04:33,780 --> 00:04:34,840
+um encapsulamento.
+
+54
+00:04:34,980 --> 00:04:42,420
+Ele é importante porque isso é tudo que você criar estiver sempre visível.
+
+55
+00:04:42,430 --> 00:04:47,340
+Isso pode gerar uma forma de comunicação entre os objetos muito complexa.
+
+56
+00:04:47,460 --> 00:04:53,190
+Então antes eu vou mostrar que depois eu vou contar uma história maluca que você tem duas classes aí
+
+57
+00:04:53,190 --> 00:05:01,000
+você tem a classe A com a coisa pública tudo que for beijinho é público pode ser acessado e você tem
+
+58
+00:05:01,030 --> 00:05:07,390
+outra classe que tem também várias coisas públicas e o Amarelinho quer dizer eu vou colocar aqui o vermelho
+
+59
+00:05:07,500 --> 00:05:11,050
+e a relação que tem de dependência de uma coisa com a outra.
+
+60
+00:05:11,050 --> 00:05:13,990
+Vamos supor que isso tudo Caravaggio são métodos.
+
+61
+00:05:14,050 --> 00:05:16,810
+Então esse método usa esse método.
+
+62
+00:05:16,810 --> 00:05:24,790
+Esse método que usa esse usa esse esse eu vou colocar seta que nessa direção aqui aqui nessa direção.
+
+63
+00:05:24,790 --> 00:05:29,560
+Esse método usa esse e esse método usa esse aqui.
+
+64
+00:05:29,630 --> 00:05:34,630
+Imagine você ter uma classe e duas classes que tem esse nível de relacionamento entre elas.
+
+65
+00:05:34,630 --> 00:05:39,520
+Qualquer mudança que você aplica aqui vai gerar efeitos colaterais de um ao outro.
+
+66
+00:05:39,520 --> 00:05:46,120
+Você mudou algo nesse método vai gerar impacto neles que provavelmente vai gerar impacto nesse e você
+
+67
+00:05:46,120 --> 00:05:53,380
+vai gerar impacto em outras classes e isso é um baixo nível de encapsulamento ou seja um baixo nível
+
+68
+00:05:53,470 --> 00:06:00,250
+que você escondeu as coisas isso gera alta um alto acoplamento ou seja é muito dependente um coisa da
+
+69
+00:06:00,250 --> 00:06:00,890
+outra.
+
+70
+00:06:00,910 --> 00:06:04,300
+Outro cenário certo para dar uma contrapartida.
+
+71
+00:06:04,870 --> 00:06:12,940
+Imagine que você tenha 15 metros em vez de mim aqui e você tenha vários outros metros aqui que são escondidos
+
+72
+00:06:12,940 --> 00:06:14,690
+que ninguém consegue acessar.
+
+73
+00:06:14,690 --> 00:06:20,030
+Se a própria classe e aqui desse outro lado do mesmo jeito você tem um metro de um verde.
+
+74
+00:06:20,120 --> 00:06:26,660
+E aqui você tem vários métodos vizinhos que sua classe pode acessar e ter um metro amarelo que o outro.
+
+75
+00:06:26,710 --> 00:06:33,940
+Depois eu vou entrar em detalhe ou outro nível de encapsulamento que é verde nem é público nem vermelhinho
+
+76
+00:06:33,940 --> 00:06:41,620
+privado e nesse caso você tem aqui uma relação por exemplo pegar aquilo roxo só pra mudar com você tem
+
+77
+00:06:41,620 --> 00:06:45,240
+uma relação apenas nesse sentido esse método precisa desse outro.
+
+78
+00:06:45,400 --> 00:06:48,520
+Ou seja esse é o tipo de cenário muito mais saudável.
+
+79
+00:06:48,520 --> 00:06:49,230
+Por quê.
+
+80
+00:06:49,520 --> 00:06:50,050
+Porquê.
+
+81
+00:06:50,050 --> 00:06:55,140
+Mesmo que você mude alguma coisa aqui dentro desse vermelhinho eu mudei um código aqui.
+
+82
+00:06:55,220 --> 00:07:00,580
+é possível que como você mudou só no vermelhinho que você não precisa gerar um impacto na outra classe
+
+83
+00:07:00,580 --> 00:07:06,220
+é bem mais provável que nesse cenário você não precise gerar impacto diferente do outro que há um alto
+
+84
+00:07:06,220 --> 00:07:10,180
+nível de acoplamento ou seja muito acoplado.
+
+85
+00:07:10,180 --> 00:07:14,950
+Imagine dez pessoas correndo uma maratona cada um independente da outra.
+
+86
+00:07:14,950 --> 00:07:19,040
+é muito mais rápido que dez pessoas correrem todos de mãos dadas.
+
+87
+00:07:19,040 --> 00:07:25,630
+Então o nível de dificuldade vai ser muito maior quando você tem um alto grau de dependência entre as
+
+88
+00:07:25,630 --> 00:07:31,630
+coisas que vai te ajudar nesse processo de esconder parte do corpo que não precisa estar público pra
+
+89
+00:07:31,630 --> 00:07:34,220
+todo mundo há exatamente o encapsulamento.
+
+90
+00:07:34,270 --> 00:07:38,410
+Eu estava querendo dizer o seguinte Quando você esconde parte na implementação.
+
+91
+00:07:38,410 --> 00:07:45,310
+Quando um engenheiro quer um carro ele esconde parte das coisas para que você tenha um mínimo de interação
+
+92
+00:07:45,310 --> 00:07:50,980
+possível para que você possa usar o carro da forma mais fácil possível sem precisar entendê la parte
+
+93
+00:07:50,980 --> 00:07:51,920
+interna.
+
+94
+00:07:51,940 --> 00:08:00,010
+Imagine a seguinte situação porque cada companhia cada marca de cal implemente a forma de dirigir de
+
+95
+00:08:00,010 --> 00:08:01,030
+uma forma diferente.
+
+96
+00:08:01,030 --> 00:08:08,170
+Vamos supor que a Ford você precise de vez em quando apertar um botão no teto para injetar gasolina.
+
+97
+00:08:08,170 --> 00:08:10,740
+Por que eles não conseguiram resolver esse problema.
+
+98
+00:08:10,740 --> 00:08:14,380
+Se você está dirigindo aqui passe passa a marcha normal tal.
+
+99
+00:08:14,440 --> 00:08:19,930
+Vez por outra vai ter um ponteiro na no painel do carro que diz agora precisar apertar para injetar
+
+100
+00:08:19,930 --> 00:08:23,420
+mais gasolina e você aperta o botão aqui ok.
+
+101
+00:08:23,490 --> 00:08:29,250
+A Ford funciona assim mostrou que a Chevrolet já não precisa apertar o botão para injetar gasolina mais
+
+102
+00:08:29,260 --> 00:08:37,930
+a marcha você passa fazendo uma maçaneta por exemplo estão aqui dirigindo a segunda marcha roda a maçaneta.
+
+103
+00:08:38,010 --> 00:08:43,630
+Vou passar mais uma marcha com a maçaneta de novo quer voltar logo a maçaneta ao contrário.
+
+104
+00:08:43,990 --> 00:08:49,240
+Já a Ford passa a marcha normal como a gente conhece só que tem que apertar um botão.
+
+105
+00:08:49,240 --> 00:08:55,640
+Já imaginou um cara que passou a vida toda dirigindo um Chevrolet que dirige normal não aperta o botão
+
+106
+00:08:55,640 --> 00:08:59,200
+na gasolina mais passa a marcha com uma maçaneta.
+
+107
+00:08:59,200 --> 00:09:02,020
+Tem que trocar de carro para um Ford.
+
+108
+00:09:02,020 --> 00:09:03,120
+Seria muito difícil.
+
+109
+00:09:03,120 --> 00:09:03,490
+Por quê.
+
+110
+00:09:03,490 --> 00:09:08,180
+Porque a forma de comunicação entre o motorista e o carro mudou.
+
+111
+00:09:08,560 --> 00:09:14,410
+Então quando você muda a forma de comunicação isso gera impacto para quem está usando aquela coisa.
+
+112
+00:09:14,530 --> 00:09:20,790
+Então quando você muda algo que é público quando você muda algo que é digamos assim invisível para o
+
+113
+00:09:20,790 --> 00:09:21,700
+outro objeto.
+
+114
+00:09:21,700 --> 00:09:24,910
+Provavelmente aquela mudança irá causar um efeito colateral.
+
+115
+00:09:25,270 --> 00:09:31,120
+Então quanto mais coisas escondidas quanto menos você expor para o usuário ou para o objeto que está
+
+116
+00:09:31,120 --> 00:09:38,170
+usando aquele objeto quanto menos ficar visível ou em outras palavras quanto mais encapsulado for mais
+
+117
+00:09:38,170 --> 00:09:43,930
+escondido for menor a chance de você ter problema no relacionamento das coisas.
+
+118
+00:09:44,020 --> 00:09:49,320
+Imagine por exemplo um outro cenário você se expõe de uma forma muito constante nas redes sociais.
+
+119
+00:09:49,420 --> 00:09:52,560
+Tudo o que acontece com você você se expõe.
+
+120
+00:09:52,630 --> 00:09:58,390
+Nessa situação você vai ter uma chance muito maior de ter problemas do que pessoas que são reservadas
+
+121
+00:09:58,390 --> 00:10:04,460
+que escondem mais da vida porque nesse sentido você vai ter uma exposição menor então as pessoas vão
+
+122
+00:10:04,470 --> 00:10:11,310
+ter menos chance que de alguma forma ter um relacionamento ruim e serem mais ou menos isso que eu quero
+
+123
+00:10:11,310 --> 00:10:17,080
+dizer que o encapsulamento seja o objeto ele é uma caixa preta ou seja escondido a implementação.
+
+124
+00:10:17,120 --> 00:10:19,350
+E você expõe algumas coisas.
+
+125
+00:10:19,380 --> 00:10:25,800
+Ou seja você expõe que algum atributo para poder ser usado você expõe o método um atributo é o método.
+
+126
+00:10:25,800 --> 00:10:32,010
+Isso aqui é aquilo que está público que está visível mas dentro a implementação você não precisa conhecer
+
+127
+00:10:32,010 --> 00:10:37,860
+para usar um determinado objeto ou seja um local pode ser visto como uma caixa preta como o próprio
+
+128
+00:10:37,860 --> 00:10:40,810
+objeto você cria dentro de um programa também pode sei.
+
+129
+00:10:41,220 --> 00:10:47,490
+Quando eu falei encapsulamento ou encapsulamento envolve a cápsula em quem a cápsula a cápsula é exatamente
+
+130
+00:10:47,490 --> 00:10:49,800
+o objeto e esse objeto.
+
+131
+00:10:49,800 --> 00:10:55,680
+Ele é um agrupado ou ele grupo que os membros do objeto que são atributos e comportamentos estou falando
+
+132
+00:10:55,680 --> 00:10:56,360
+isso.
+
+133
+00:10:56,550 --> 00:11:02,970
+Já há um bom tempo dez ou capítulos de métodos e classes estou falando que o objeto ele agrupa atributos
+
+134
+00:11:02,970 --> 00:11:10,320
+e comportamentos e o fato de você agrupar atributos e comportamentos te dá uma maior chance de você
+
+135
+00:11:10,320 --> 00:11:13,030
+conseguir encapsular as coisas.
+
+136
+00:11:13,110 --> 00:11:20,310
+Se você coloca o método que vai alterar um determinado dado bem próximo do dado é possível que aquele
+
+137
+00:11:20,310 --> 00:11:27,000
+dado não precise ficar visível para nenhuma outra classe do seu sistema porque você já tem um da classe
+
+138
+00:11:27,000 --> 00:11:29,570
+um metro que vai alterar aquele dado.
+
+139
+00:11:29,570 --> 00:11:36,030
+Então você pode tornar realidade encapsulado ou seja cuidado fique escondido para todo o resto do sistema
+
+140
+00:11:36,140 --> 00:11:41,910
+e você garante que a única um único metro que vai alterar aquele dado é aquele Metro que você criou
+
+141
+00:11:41,910 --> 00:11:44,250
+naquele ponto dentro da classe.
+
+142
+00:11:44,250 --> 00:11:46,930
+Isso te dá um grau de segurança maior.
+
+143
+00:11:47,020 --> 00:11:55,350
+Por exemplo uso por exemplo muito simples você criou um objeto certo você criou um objeto chamado pessoa
+
+144
+00:11:55,470 --> 00:12:03,870
+e a pessoa tem um atributo chamado Idade é óbvio que esse atributo idade ele não pode ser por exemplo
+
+145
+00:12:03,870 --> 00:12:07,140
+valor ao menos 30 alguém tem menos 30 anos de idade.
+
+146
+00:12:07,270 --> 00:12:14,920
+Não mas se você coloca o atributo idade pra ser um atributo encapsulado ou escondido e você cria métodos
+
+147
+00:12:15,340 --> 00:12:18,970
+que vai alterar esses valores da idade.
+
+148
+00:12:19,330 --> 00:12:26,100
+Nesse método você pode validar e não permitir que a idade seja fornecida para por exemplo um valor negativo
+
+149
+00:12:26,170 --> 00:12:28,600
+se for uma data de nascimento você não pode.
+
+150
+00:12:28,600 --> 00:12:33,910
+Você pode não permitir colocar uma data no futuro porque sua data de nascimento daqueles que já nasceram
+
+151
+00:12:33,910 --> 00:12:41,440
+então quando você tem uma cápsula quando você tem uma estrutura que agrupa essas informações ou seja
+
+152
+00:12:41,440 --> 00:12:48,910
+atributos e comportamentos você tem uma maior possibilidade de conseguir ter encapsulamento porque os
+
+153
+00:12:48,910 --> 00:12:55,750
+dados e os métodos e os comportamentos que alteram os dados estão juntos dentro do objeto ou seja juntos
+
+154
+00:12:55,750 --> 00:13:01,540
+dentro das cápsulas que você tem em Java agora parte um pouco mais para a prática.
+
+155
+00:13:01,660 --> 00:13:10,030
+Você tem os modificadores de acesso nós temos um modificador que é o nível mais digamos assim restrito
+
+156
+00:13:10,030 --> 00:13:10,780
+possível.
+
+157
+00:13:10,810 --> 00:13:17,100
+Você tem um default você tem o protected você tem o público vão falar pra vocês.
+
+158
+00:13:17,120 --> 00:13:23,280
+A começar pelo travesti e pelo público que são os dois mais usados e são os dois mais fáceis de entender
+
+159
+00:13:23,680 --> 00:13:28,660
+quando você define uma classe em que essa bolinha representa uma classe certo.
+
+160
+00:13:28,690 --> 00:13:32,680
+E aí você cria um atributo dentro da classe do tipo privado.
+
+161
+00:13:32,690 --> 00:13:38,370
+Colocar o Vermelhinho aqui você cria um atributo privado quando você cria um atributo privado.
+
+162
+00:13:38,410 --> 00:13:44,890
+Ele só pode ser acessado dentro da própria classe em uma outra classe pode acessar diretamente esse
+
+163
+00:13:44,890 --> 00:13:49,630
+atributo você não pode criar outra classe no seu sistema.
+
+164
+00:13:49,640 --> 00:13:51,630
+é aí que você cria o método.
+
+165
+00:13:51,880 --> 00:13:56,140
+A partir desse Metro você não consegue acessar um atributo privado de uma outra classe.
+
+166
+00:13:56,140 --> 00:13:56,720
+Por quê.
+
+167
+00:13:57,010 --> 00:13:58,370
+Porque é atributo privado.
+
+168
+00:13:58,380 --> 00:14:00,310
+Então isso aqui não pode acontecer.
+
+169
+00:14:00,310 --> 00:14:08,420
+O que pode acontecer é você definir um método visível certo já falar do público é esse método sim.
+
+170
+00:14:08,500 --> 00:14:15,700
+Ele acessa o atributo privado você até pode a partir de outra classe e acessar esse metro público.
+
+171
+00:14:15,850 --> 00:14:22,700
+E esse método acessar o privado mas se ele é privado só pode ser acessado dentro da própria classe.
+
+172
+00:14:22,730 --> 00:14:29,470
+Então esse é o nível de visibilidade mais restrito possível que um determinado atributo ou método só
+
+173
+00:14:29,470 --> 00:14:34,580
+é visível dentro da própria classe ou pode ser acessado diretamente na própria classe.
+
+174
+00:14:35,050 --> 00:14:42,280
+Outro cenário é o extremo oposto ou seja você criar um atributo ou um método tudo isso vale tanto para
+
+175
+00:14:42,290 --> 00:14:48,190
+atributo para Metro certo você criar a linha verde que publica que significa que qualquer classe no
+
+176
+00:14:48,190 --> 00:14:56,260
+seu sistema pode acessar esse atributo ou esse método público diretamente não tem nenhum problema é
+
+177
+00:14:56,260 --> 00:15:01,810
+público em qualquer lugar do seu sistema sem nenhuma restrição pode acessar o membro público.
+
+178
+00:15:01,840 --> 00:15:07,030
+Então esses são os dois extremos ou de um extremo você está o mais restrito possível que é o privado
+
+179
+00:15:07,390 --> 00:15:12,550
+que pode ser acessado apenas dentro da própria classe e o público está exatamente no outro extremo que
+
+180
+00:15:12,550 --> 00:15:14,630
+pode ser acessado por todo mundo.
+
+181
+00:15:14,680 --> 00:15:18,080
+Beleza o que nós temos esses dois extremos eu entendi.
+
+182
+00:15:18,300 --> 00:15:20,350
+Mas tá faltando ali luz do meio né.
+
+183
+00:15:20,360 --> 00:15:24,460
+E o pacote é o protetor de eu falar do pacote por enquanto.
+
+184
+00:15:24,460 --> 00:15:27,450
+Depois a gente fala um pouco mais o produto mais na frente certo.
+
+185
+00:15:27,940 --> 00:15:31,700
+Vamos imaginar que você tem aqui pacotes.
+
+186
+00:15:31,860 --> 00:15:36,820
+Ah e você tem aqui um pacote B dentro do pacote.
+
+187
+00:15:36,820 --> 00:15:43,100
+Você tem aqui uma classe C tem duas classes e aqui eu tenho duas classes dentro do pacote B o protetor
+
+188
+00:15:43,100 --> 00:15:49,530
+de amarelinho né então você tem aqui um atributo amarelo um atributo amarelo um atributo amarelo um
+
+189
+00:15:49,540 --> 00:15:50,850
+atributo amarelo.
+
+190
+00:15:50,890 --> 00:15:57,300
+Nesse caso que pode ser feito essa classe Kim pode acessar o atributo amarelo da outra classe.
+
+191
+00:15:57,310 --> 00:15:58,080
+Por quê.
+
+192
+00:15:58,080 --> 00:16:00,060
+Porque ele está dentro do mesmo pacote.
+
+193
+00:16:00,070 --> 00:16:08,440
+Quando você define um atributo ou o método peca Junho ou seja pacote ele só é acessível dentro de classes
+
+194
+00:16:08,440 --> 00:16:10,370
+que estão dentro do mesmo pacote.
+
+195
+00:16:10,380 --> 00:16:14,660
+Que significa que isso aqui não é possível ou seja parte dessa classe.
+
+196
+00:16:14,860 --> 00:16:20,320
+Você não consegue acessar esse membro amarelinho ou a partir dessa classe você não consegue acessar
+
+197
+00:16:20,320 --> 00:16:21,380
+esse outro membro aqui.
+
+198
+00:16:21,380 --> 00:16:21,880
+Por quê.
+
+199
+00:16:21,880 --> 00:16:28,380
+Porque ele enviou o pacote só pode ser acessado dentro do próprio pacote então posso tirar isso aqui.
+
+200
+00:16:28,380 --> 00:16:30,590
+Por que isso não pode acontecer da mesma forma.
+
+201
+00:16:31,030 --> 00:16:37,180
+Essa classes e que pode acessar esse membro pacote porque os dois estão no mesmo pacote.
+
+202
+00:16:37,240 --> 00:16:43,960
+Então quando você tem uma visibilidade pacote significa que você só pode acessar em classes que estão
+
+203
+00:16:43,960 --> 00:16:45,790
+dentro do mesmo pacote.
+
+204
+00:16:45,800 --> 00:16:54,280
+Por isso também vale lembrar que essa definição default padrão ou seja por padrão o nível de visibilidade
+
+205
+00:16:54,280 --> 00:17:01,240
+e pacote nos nossos exemplos na grande maioria do tempo a gente usou de visibilidade padrão simplesmente
+
+206
+00:17:01,240 --> 00:17:07,210
+colocou lá criou um atributo de uma classe colocou a string nome produto ou produto.
+
+207
+00:17:07,210 --> 00:17:10,390
+A gente não disse que era público não disse que era privado.
+
+208
+00:17:10,390 --> 00:17:13,480
+Não disse que era protected quando você não diz nada.
+
+209
+00:17:13,540 --> 00:17:17,470
+Na verdade não tem a palavrinha Pé de parada enfim em nível de visibilidade.
+
+210
+00:17:17,470 --> 00:17:23,800
+Quando você não informa nada significa que ele é o nível dele foi exatamente o nível de visibilidade
+
+211
+00:17:23,820 --> 00:17:30,430
+pacote ou seja o atributo o método é visível dentro da própria classe e também visível dentro do pacote.
+
+212
+00:17:30,430 --> 00:17:37,390
+Outra característica você vai notar tudo o que o Praia tem o pacote tem e acrescenta mais alguma coisa.
+
+213
+00:17:37,390 --> 00:17:44,130
+Tudo o que o Praia vende é o pacote ou o nível default tem o protesto protected também tem ou se acrescentam
+
+214
+00:17:44,220 --> 00:17:45,550
+mais alguma coisa.
+
+215
+00:17:45,550 --> 00:17:52,360
+E por último o público tem não apenas o que o bravo faz que é visível na própria classe não apenas o
+
+216
+00:17:52,360 --> 00:17:59,230
+que o pacote faz que é visível no próprio pacote não apenas o que protege ele faz mas também acrescenta
+
+217
+00:17:59,230 --> 00:18:05,260
+mais níveis de visibilidade ou seja sempre que você vai saindo aqui do nível de encapsulamento você
+
+218
+00:18:05,260 --> 00:18:12,510
+vai acrescentando novas novas possibilidades de uso e nunca substituindo tudo o que ele tem o outro
+
+219
+00:18:12,510 --> 00:18:14,580
+vai ter mais algumas outras coisas.
+
+220
+00:18:14,670 --> 00:18:17,670
+Então o proibitiva é visível na própria classe.
+
+221
+00:18:18,190 --> 00:18:22,930
+O pacote é visível na própria classe e também no próprio pacote.
+
+222
+00:18:23,020 --> 00:18:30,130
+Significa que essa classe que para acessar o valor da outra classe mais essa classe que as usem para
+
+223
+00:18:30,130 --> 00:18:34,870
+acessar o seu próprio valor porque ele também tem tudo o que gente tem.
+
+224
+00:18:34,870 --> 00:18:40,940
+RIO protestos vai depender de um dos outros pilares da orientação a objeto que era Ansa.
+
+225
+00:18:41,080 --> 00:18:47,870
+Em outras palavras você pode sim acessar um atributo e outro pacote desde que ele seja herdado.
+
+226
+00:18:47,880 --> 00:18:53,350
+Então a diferença do pacote para protected é exatamente como atributo protected ele é visível no próprio
+
+227
+00:18:53,350 --> 00:18:59,900
+pacote ele é visível na própria classe e ele é transmitido por herança para um outro pacote.
+
+228
+00:18:59,920 --> 00:19:05,530
+A gente vai entender um pouco mais desse nível de visibilidade como a gente for trabalhar com herança
+
+229
+00:19:05,540 --> 00:19:10,900
+e com a gente entender o principal orientação objeto de herança e por último o público é aberto para
+
+230
+00:19:10,900 --> 00:19:11,440
+todo mundo.
+
+231
+00:19:11,440 --> 00:19:16,160
+Esses são os princípios esse é o princípio do encapsulamento certo.
+
+232
+00:19:16,180 --> 00:19:21,780
+Você tem um objeto como se na cabeça atributos e metros e você tem níveis de invisibilidade.
+
+233
+00:19:22,090 --> 00:19:26,400
+O privado é o mais restrito o pacote visível dentro para o pacote.
+
+234
+00:19:26,980 --> 00:19:32,700
+O protected é visível na própria classe e no pacote e é transmitido por herança pode ser visível em
+
+235
+00:19:32,710 --> 00:19:36,480
+outro pacote desde que haja herança e o público.
+
+236
+00:19:36,490 --> 00:19:41,470
+Ele fica visível para todo mundo a partir do Java 9 e foi introduzido um conceito de modo que a gente
+
+237
+00:19:41,470 --> 00:19:47,500
+vai ter um capítulo do curso pra falar só sobre isso só sobre como funcionam os módulos dentro do Java.
+
+238
+00:19:47,590 --> 00:19:52,300
+E isso também de certa forma influenciou um pouco no encapsulamento.
+
+239
+00:19:52,300 --> 00:19:57,330
+Como você pode criar novas novas formas de esconder códigos ambos moto.
+
+240
+00:19:57,350 --> 00:20:02,620
+A gente vai deixar para falar sobre isso é um capítulo à parte por enquanto nós vamos focar no nosso
+
+241
+00:20:02,620 --> 00:20:06,030
+exercício nesses quatro níveis de visibilidade para.
+
+242
+00:20:06,520 --> 00:20:09,070
+O pé de Calder foi o protesto de público.
+
+243
+00:20:09,070 --> 00:20:16,530
+Só uma observação esses quatro níveis de visibilidade geram três palavras reservadas né.
+
+244
+00:20:16,570 --> 00:20:25,750
+O bichinho vai gerar a palavra reservada para eventos privado o default não gera nenhuma palavra reservada
+
+245
+00:20:25,780 --> 00:20:27,120
+que não tem porquê.
+
+246
+00:20:27,390 --> 00:20:33,370
+Quando você não coloca nada o nível default o protesto é exatamente esse mesmo nome até que eu estou
+
+247
+00:20:33,430 --> 00:20:35,860
+usando o nome protected.
+
+248
+00:20:35,950 --> 00:20:43,830
+Isso aqui também é a palavra reservada e Public também a palavra reservada só no impacto no desenho.
+
+249
+00:20:44,550 --> 00:20:55,230
+Tira de mais colocar aqui pronto aqui e por último nós temos aqui o público também a palavra reservada.
+
+250
+00:20:55,230 --> 00:21:00,390
+Certo São palavras que você vai perceber como é que você vai colocar uma coisinha diferente porque são
+
+251
+00:21:00,390 --> 00:21:05,120
+palavras reservadas da linguagem algo que não tem palavra reservada e o.
+
+252
+00:21:05,220 --> 00:21:10,780
+Porque quando você não coloca o nível de visibilidade por padrão ele vai usar um nível de invisibilidade
+
+253
+00:21:10,910 --> 00:21:11,670
+pacote.
+
+254
+00:21:12,060 --> 00:21:17,870
+Então fique por aqui falei mais do que devia na proximal onde vai vir o próximo pilar orientação objeto
+
+255
+00:21:17,880 --> 00:21:20,000
+que a herança me espera lá.

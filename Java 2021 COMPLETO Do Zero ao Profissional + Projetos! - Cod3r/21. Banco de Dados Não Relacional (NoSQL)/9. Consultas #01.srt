@@ -1,0 +1,391 @@
+1
+00:00:00,340 --> 00:00:05,850
+Precisamos agora seguir com a Lei de Consultas e mostrar para você na sala as consultas já fazem as
+
+2
+00:00:05,850 --> 00:00:11,790
+consultas mais simples e depois a gente vai colocando outras consultas um pouco mais complicadas então
+
+3
+00:00:11,790 --> 00:00:17,880
+Pra começar eu vou limpar aqui o nosso curso nosso terminal dizendo nós vamos começar pela tudo que
+
+4
+00:00:17,880 --> 00:00:21,570
+nós já temos feito que dê bem poucos estados pontuais.
+
+5
+00:00:21,650 --> 00:00:28,560
+Aqui ele vai procurar todos os estados que estão cadastrados em uma coleção além de usar essa possibilidade.
+
+6
+00:00:28,560 --> 00:00:30,060
+Você tem um bebê ponto estados.
+
+7
+00:00:30,060 --> 00:00:37,410
+Quando falo pouco irei mas também usamos essa opção para mostrar os estados no formato mais fácil de
+
+8
+00:00:37,410 --> 00:00:42,710
+ser lida e cada um dos documentos no formato mais fácil já que eles estão no formato de som.
+
+9
+00:00:43,020 --> 00:00:47,970
+Então fica mais fácil de você olhar o resultado dessa forma além de ter o filho você tem um filho de
+
+10
+00:00:47,970 --> 00:00:54,750
+um ano é pra pegar apenas um único registro então bebê um dos estados o faz um ano você é simplesmente
+
+11
+00:00:54,750 --> 00:00:57,260
+meu filho de 1 ano e vai pegar o primeiro que ele encontrar.
+
+12
+00:00:57,320 --> 00:01:00,550
+Mas você pode passar dentro da chamada dessa função.
+
+13
+00:01:00,550 --> 00:01:07,300
+Tanto faz quando vai de algum tipo de filtro então colocando aqui o bebê para um dos estados do filho.
+
+14
+00:01:07,740 --> 00:01:14,250
+Vou passar um objeto que é o meu filtro ou seja eu quero pegar um objeto cuja sigla seja RJ fazendo
+
+15
+00:01:14,250 --> 00:01:18,570
+isso ele vai trazer um único registro que tem essa sigla RJ.
+
+16
+00:01:18,560 --> 00:01:21,510
+Nesse caso se eu colocasse eu fiz.
+
+17
+00:01:21,540 --> 00:01:26,810
+Ainda assim eu só teria um único estado com essa sigla então o resultado seria apenas um único Estado.
+
+18
+00:01:26,960 --> 00:01:32,290
+E obviamente depois de um fax desse eu posso colocar o Piauí sem problema nenhum.
+
+19
+00:01:32,290 --> 00:01:37,560
+Mesmo passa no filtro depois não posso já comprei sem problema dentro dos filtros.
+
+20
+00:01:37,560 --> 00:01:41,610
+Você pode ter inclusive operadores como é o IG.
+
+21
+00:01:41,660 --> 00:01:44,530
+Como eu vou usar um ou um engine.
+
+22
+00:01:44,820 --> 00:01:50,730
+Seria difícil a não ser que usasse por exemplo a região Sudeste mas acabava só o registro usá UOL aqui
+
+23
+00:01:51,000 --> 00:01:51,970
+para mostrar para vocês.
+
+24
+00:01:51,970 --> 00:01:55,660
+Mas o mesmo é parecido então DB ponto estados.
+
+25
+00:01:55,670 --> 00:01:56,630
+Ponto.
+
+26
+00:01:56,820 --> 00:02:03,270
+Vou colocar aqui o operador e aí vocês vão perceber que esse padrão de escrita que começa com bola.
+
+27
+00:02:03,420 --> 00:02:10,010
+Bola e algum tipo de operador que você vai usar tanto quando você fizer as consultas agregadas.
+
+28
+00:02:10,010 --> 00:02:17,550
+Se não perceber esses esse padrão tanto para os operadores como pra próprias fases vou consultar agregada
+
+29
+00:02:17,580 --> 00:02:18,530
+que a gente chama de pai.
+
+30
+00:02:18,530 --> 00:02:23,570
+Lá depois eu vou entrar um pouco mais em detalhe então o momento que eu abri a função fiz para passar
+
+31
+00:02:23,570 --> 00:02:29,100
+os parâmetros o primeiro parâmetro sempre é um objeto e esse objeto apresenta o filtro da consulta que
+
+32
+00:02:29,100 --> 00:02:31,460
+eu quero fazer eu posso passar o filtro direto.
+
+33
+00:02:31,710 --> 00:02:37,830
+Eu posso colocar alguns operadores como é o caso que cobrem um objeto e posso ser operado ou dois pontos
+
+34
+00:02:37,830 --> 00:02:43,360
+vou abrir aqui um rei e dentro dessa rede coloco todos os filtros digamos assim que eu quero aplicar
+
+35
+00:02:43,360 --> 00:02:50,620
+ou então no caso eu vou colocar o sigla dois pontos RJ vírgula sigla dois pontos.
+
+36
+00:02:50,660 --> 00:02:56,180
+Assim posso fechar aqui Warren e finalmente fechar também a chamar de metro.
+
+37
+00:02:56,180 --> 00:03:01,610
+Então fechei aquele objeto no civil até o segundo fechei o Harry.
+
+38
+00:03:02,070 --> 00:03:08,520
+Depois já fechei o objeto que representa a chama o parâmetro que vem daqui pra Call será finalmente
+
+39
+00:03:08,520 --> 00:03:16,650
+fechei a função Fay ou seja tem um monte de chaves colchetes chave em parênteses então preste atenção
+
+40
+00:03:16,650 --> 00:03:22,680
+pra não digitar errado e finalmente um bocadinho comprei para o resultado bonitinho então executado.
+
+41
+00:03:23,010 --> 00:03:29,420
+Ele trouxe tanto o estado que tem a sigla RJ como também porque eu usei o Estado que tem a sigla ASCII.
+
+42
+00:03:29,880 --> 00:03:36,840
+Obviamente se eu fizesse aqui em vez do eu colocasse o engine nem o Estado tem essas duas siglas ao
+
+43
+00:03:36,840 --> 00:03:43,080
+mesmo tempo então acertado o resultado seria vazio mas com o resultado exatamente aquele que a gente
+
+44
+00:03:43,080 --> 00:03:49,740
+espera tanto veio aqui como veio o Rio de Janeiro um outro tipo de consulta que surge pelo fato de o
+
+45
+00:03:49,740 --> 00:03:56,850
+banco ser não relacional não tem esse clima e você querer saber se um determinado atributo está acontecendo
+
+46
+00:03:56,850 --> 00:04:03,510
+ou não dentro de uma coluna então por exemplo eu quero consultar todos os estados que têm o atributo
+
+47
+00:04:03,510 --> 00:04:04,740
+população.
+
+48
+00:04:04,740 --> 00:04:11,940
+Então poderia fazer assim ao BB um dos estados pouco faz vou usar aqui população dois pontos e aí usei
+
+49
+00:04:12,730 --> 00:04:14,880
+existisse 2 pontos.
+
+50
+00:04:14,970 --> 00:04:20,840
+Ou seja usei o meu filtro qual o filtro em cima do atributo população e eu vou usar aqui uma aquisição
+
+51
+00:04:20,850 --> 00:04:26,970
+extra pra saber se esse atributo está presente ou não ele vai trazer noutras palavras todos os estados
+
+52
+00:04:26,970 --> 00:04:33,950
+que têm um atributo população presente estado ele trouxe apenas o único estado que é o estado de Alagoas.
+
+53
+00:04:34,020 --> 00:04:36,140
+Posso colocar aqui.
+
+54
+00:04:37,130 --> 00:04:42,020
+E aí ele trouxe apenas o estado de Alagoas porque é o único estado que tem esse atributo dentro dos
+
+55
+00:04:42,020 --> 00:04:43,100
+seus dados.
+
+56
+00:04:43,110 --> 00:04:48,980
+Além disso você não vai querer sempre fazer uma consulta de casa e todos os dados da coleção pra isso
+
+57
+00:04:48,990 --> 00:04:56,040
+você tem 2 metros pra te ajudar a fazer consultas página que é o ex-equipe e o limite você pode usar
+
+58
+00:04:56,040 --> 00:04:58,310
+por exemplo tb conquistados ponto.
+
+59
+00:04:58,740 --> 00:05:02,520
+Ele traz tudo você pode usar por exemplo associado com.
+
+60
+00:05:02,650 --> 00:05:05,070
+Você pode usar por exemplo o ex-equipe.
+
+61
+00:05:05,080 --> 00:05:10,210
+Ele vai pular uma quantidade de valor que você passou comparando então ele pulou vai pular o primeiro
+
+62
+00:05:10,210 --> 00:05:14,550
+registro vai pegar parte do segundo e você pode usar associado com isso.
+
+63
+00:05:14,620 --> 00:05:20,570
+O limite para limitar o resultado que você quer obter o valor do impacto o console vai evitar que os
+
+64
+00:05:20,590 --> 00:05:26,710
+clipes e passar também o limite para limitar o resultado para apenas dois registros então ele trouxe
+
+65
+00:05:26,750 --> 00:05:32,560
+aquele nome Alagoas e todo o seu gênero que foram os primeiros que nós cadastrados dentro da nossa coleção
+
+66
+00:05:32,870 --> 00:05:38,560
+já cá estou falando de paginação você pega os dados paginação também é muito comum você querer pegar
+
+67
+00:05:38,710 --> 00:05:44,140
+o código o caos em cima de uma determinada coleção quantos registros tem dentro dessa coleção.
+
+68
+00:05:44,500 --> 00:05:47,630
+Então DB ponto estados o local de um Estado e 4.
+
+69
+00:05:47,920 --> 00:05:52,180
+Então pra você montar um página adornar sua tela digamos assim você precisaria do Caltech pra saber
+
+70
+00:05:52,180 --> 00:05:59,770
+quantos ícones você vai gerar e você precisa do Skip e do limite pra você imaginando a consulta trazem
+
+71
+00:05:59,770 --> 00:06:01,260
+exatamente aquilo que você quer.
+
+72
+00:06:01,300 --> 00:06:06,500
+Outra pérola de que você pode fazer assim eu sou obrigado a trazer sempre todos os dados.
+
+73
+00:06:06,700 --> 00:06:09,580
+Eu posso filtrar quais são os atributos que eu quero trazer.
+
+74
+00:06:09,580 --> 00:06:12,480
+Pode sim fazer uma consulta pra mostrar isso.
+
+75
+00:06:12,500 --> 00:06:19,750
+Dê ponto estados pouco faz mas vamos filtrar a sigla são paulo ou seja o primeiro parâmetro do método
+
+76
+00:06:20,290 --> 00:06:22,500
+é o nosso filtro vírgula.
+
+77
+00:06:22,630 --> 00:06:28,030
+O segundo parâmetro vai ser um objeto para dizer quais são os atributos que eu quero trazer na consulta.
+
+78
+00:06:28,420 --> 00:06:34,570
+Então coloco por exemplo o nome ou seja um homem está dizendo que esse atributo estará presente no resultado
+
+79
+00:06:34,570 --> 00:06:35,410
+final.
+
+80
+00:06:35,450 --> 00:06:41,170
+Eu posso colocar um outro atributo por exemplo vírgula sigla dois pontos ou não significa que além de
+
+81
+00:06:41,170 --> 00:06:47,500
+trazer o nome ele vai trazer a sigla torre padrão lá também vai vir o resultado está aí.
+
+82
+00:06:47,500 --> 00:06:54,060
+Aí veio aí veio o nome São Paulo e daí a sigla logomarca eu faço para tirar Waiting.
+
+83
+00:06:54,100 --> 00:07:01,270
+Muito simples basta você colocar aqui vírgula dois pontos zero quer dizer que não vai estar presente
+
+84
+00:07:01,630 --> 00:07:07,870
+no resultado final coloca no item ele vai trazer apenas o nome em São Paulo e sigla SP não trouxe por
+
+85
+00:07:07,870 --> 00:07:11,660
+exemplo a cidades e outras coisas que tem dentro do objeto.
+
+86
+00:07:11,710 --> 00:07:16,990
+Se eu quiser filtrar por exemplo atrasei apenas o nome das cidades que estão dentro de um Estado é possível
+
+87
+00:07:16,990 --> 00:07:23,950
+também e colocando aqui ou tb poucos estados ponto onde vou também filtrar o Estado de São Paulo e agora
+
+88
+00:07:23,950 --> 00:07:28,480
+vou fazer o seguinte ao cidades outro nome ele vai trazer.
+
+89
+00:07:28,790 --> 00:07:33,950
+E aqui ele vai trazer não vai trazer também um engenheiro se vai editar fora e vai trazer apenas cidades
+
+90
+00:07:33,970 --> 00:07:34,830
+ponto o nome.
+
+91
+00:07:35,170 --> 00:07:38,680
+Ou seja dentro de cidades trago apenas um atributo nome acertado.
+
+92
+00:07:39,010 --> 00:07:45,150
+Ele trouxe cidades trouxe um rei que tem um nome em Campinas Guarulhos de nome Sorocaba.
+
+93
+00:07:45,310 --> 00:07:50,580
+Seja você consegue fazer um determinado tipo de filtro pra trás exatamente os dados que você quer.
+
+94
+00:07:50,830 --> 00:07:54,390
+A partir dessa API que o mongo DB disponibiliza pra você.
+
+95
+00:07:54,550 --> 00:08:00,900
+Então ficamos aqui na sala nas consultas mais básicas vou jogar essas consultas dentro aqui do nosso
+
+96
+00:08:00,900 --> 00:08:09,150
+ou da nossa parte de bancos não relacionais então vou colocar aqui um arquivo chamado consultas txt.
+
+97
+00:08:09,370 --> 00:08:13,810
+Então vou para o vídeo vou colocar isso com os outros que estão na sala na próxima aulas eles fazem
+
+98
+00:08:13,810 --> 00:08:18,190
+algumas consultas mais complexas usando agregar este índice para lá.

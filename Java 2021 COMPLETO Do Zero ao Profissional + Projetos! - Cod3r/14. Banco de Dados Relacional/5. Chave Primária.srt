@@ -1,0 +1,391 @@
+1
+00:00:00,210 --> 00:00:05,310
+Pessoal essa gente tende a própria menos nos relacionamentos é muito importante a gente estender o conceito
+
+2
+00:00:05,310 --> 00:00:11,290
+de chave primária então só não vão achar para você exatamente isso o conceito de chave
+
+3
+00:00:16,810 --> 00:00:17,440
+primária.
+
+4
+00:00:18,070 --> 00:00:25,150
+Ou seja quem chama do inglês para que a chave primária é um conceito bastante importante e ela tem algumas
+
+5
+00:00:25,150 --> 00:00:27,760
+características muito importante eu quero primeiro.
+
+6
+00:00:27,820 --> 00:00:30,010
+Já começa a ressaltar uma chave primária.
+
+7
+00:00:30,330 --> 00:00:31,930
+Ela tem que ser única.
+
+8
+00:00:32,660 --> 00:00:34,720
+Então é uma característica basta.
+
+9
+00:00:34,750 --> 00:00:39,880
+Talvez a característica mais marcante de uma chave primária é o fato é que ela e sei que ela é única
+
+10
+00:00:39,880 --> 00:00:45,850
+dentro de uma tabela a chave primária é uma coluna de uma tabela onde as características mais marcantes
+
+11
+00:00:45,850 --> 00:00:52,390
+é o fato de que essa chave é única não obrigatoriamente todas toda coluna que só aceita dados únicos
+
+12
+00:00:52,390 --> 00:00:53,400
+e uma chave primária.
+
+13
+00:00:53,740 --> 00:00:55,870
+Mas a chave primária é uma única.
+
+14
+00:00:55,900 --> 00:01:03,550
+Outra característica da chave primária e que é não vazia ou seja uma chave primária não aceita bolo
+
+15
+00:01:03,570 --> 00:01:10,010
+vazios e não vazia e o terceiro é não muda certo.
+
+16
+00:01:10,010 --> 00:01:16,500
+Então se você vai colocar um valor para ser a chave primária que tem a possibilidade de mudar.
+
+17
+00:01:16,520 --> 00:01:20,190
+Esqueça porque não é a possibilidade de mudar uma chave primária.
+
+18
+00:01:20,380 --> 00:01:25,400
+é algo bastante trabalhoso é possível fazer mas é algo muito trabalhoso então não faz muito sentido
+
+19
+00:01:25,760 --> 00:01:28,920
+você querer trabalhar com a chave primária que mude.
+
+20
+00:01:29,000 --> 00:01:34,000
+Porque isso vai gerar muita dor de cabeça então essas são as três características principais.
+
+21
+00:01:34,030 --> 00:01:37,040
+A gente pensa na chave primária estamos aqui um exemplo.
+
+22
+00:01:37,100 --> 00:01:44,750
+Pouca gente tem uma tabela chamada cliente e essa tabela inicialmente vai ter lá quatro campos então
+
+23
+00:01:44,750 --> 00:01:54,440
+vou colocar aqui uma tabela vai ter aqui um campo chamado Código vai ter um campo chamado nome vai ter
+
+24
+00:01:54,440 --> 00:02:05,090
+um campo chamado meio e vai ter um campo chamado CPF então aqui você vai até o cliente de código cliente
+
+25
+00:02:05,160 --> 00:02:06,050
+2 cliente.
+
+26
+00:02:06,080 --> 00:02:06,840
+3.
+
+27
+00:02:06,930 --> 00:02:16,340
+4 Você tem aqui você tem aqui a Bia você tem o Carlos e aí vai sete você vai colocar aqui os outros
+
+28
+00:02:16,340 --> 00:02:18,890
+12 tem o e-mail de cada um e tal.
+
+29
+00:02:19,070 --> 00:02:20,750
+Então momento vou definir essa tabela.
+
+30
+00:02:20,750 --> 00:02:27,490
+Código nome e CPF com quatro colunas eu vou dizer que a coluna código vai ser a minha chave primária.
+
+31
+00:02:27,600 --> 00:02:32,510
+Depois eu vou fazer algumas considerações sobre as possibilidades que você tem pra ter uma chave primária
+
+32
+00:02:32,510 --> 00:02:37,030
+mas por enquanto vou mostrar pra vocês que essa coluna é a coluna que é a chave primária.
+
+33
+00:02:37,310 --> 00:02:42,860
+Então essa coluna normalmente existem duas possibilidades dois caminhos para você trabalhar com colunas
+
+34
+00:02:42,860 --> 00:02:54,050
+do tipo chave primária ou você tem uma coluna que é gerada a partir de subam gays o que seria.
+
+35
+00:02:54,060 --> 00:03:01,910
+Sou gay que sou gay diz que é um conceito muito simples que é a chave é sintético ou algo artificial
+
+36
+00:03:02,240 --> 00:03:08,930
+ou seja essa coluna que código ela foi gerada artificialmente com valores que não tem nenhum significado
+
+37
+00:03:08,930 --> 00:03:14,720
+para o usuário propriamente dito para o cliente que está aqui se não cadastrado nessa tabela é simplesmente
+
+38
+00:03:14,720 --> 00:03:18,890
+um valor gerado para que ele possa ser o único dentro de uma tabela.
+
+39
+00:03:19,010 --> 00:03:25,070
+Então por exemplo um código desse tipo aqui é uma sequência inteira 2 3 que é o mais comum para você
+
+40
+00:03:25,070 --> 00:03:31,670
+ter como chave primária é o valor chamado sou gay disse que a chave é sintética não tem nenhuma relação
+
+41
+00:03:32,000 --> 00:03:33,960
+digamos assim com a vida natural.
+
+42
+00:03:33,990 --> 00:03:39,620
+Há outra possibilidade que você também poderia ter pra gerar uma chave primária seria gerar uma chave
+
+43
+00:03:39,620 --> 00:03:50,190
+natural que chama de Natural Natural QI ou seja uma chave natural da pessoa tamanho que a letra está
+
+44
+00:03:50,190 --> 00:03:57,600
+muito legal mais uma lá tão natural que seria você pegar por exemplo um CPF da pessoa ou um RG e mais
+
+45
+00:03:57,600 --> 00:04:04,170
+o emissor do engine é um parceiro chave com duas colunas se você pega algo dar vida a pessoa que já
+
+46
+00:04:04,170 --> 00:04:08,850
+faz parte dela e usa essa informação como sendo a chave primária.
+
+47
+00:04:08,850 --> 00:04:10,270
+Só que tem que ter um cuidado.
+
+48
+00:04:10,510 --> 00:04:16,340
+Porque se algum tipo de erro na hora de cadastrar você vai ter por exemplo o CPF da Maria João Jesualdo
+
+49
+00:04:16,430 --> 00:04:20,520
+não foi para a Maria você vai cair no caso que você não vai conseguir.
+
+50
+00:04:20,710 --> 00:04:27,510
+Muito muito fácil mudar a chave primária de uma tabela então via de regra a gente acaba usando uma chave
+
+51
+00:04:27,550 --> 00:04:34,050
+sintética ou algo gerado artificialmente nem do banco de dados só pra garantir uma coluna certo que
+
+52
+00:04:34,050 --> 00:04:40,080
+tem um valor único ou seja essa coluna a partir dessa coluna eu consigo encontrar um único registro
+
+53
+00:04:40,080 --> 00:04:44,460
+dentro de uma tabela com potenciais milhares ou até milhões de registros.
+
+54
+00:04:44,640 --> 00:04:50,640
+Então esse conceito de chave primária além da chave primária C uma coluna além da chave primária C única
+
+55
+00:04:50,910 --> 00:04:56,100
+além de ela não aceitar valores básicos além de que ela não vai mudar de uma forma fácil você tem que
+
+56
+00:04:56,100 --> 00:04:58,390
+mudar mas não foram muito mais complicada.
+
+57
+00:04:58,440 --> 00:05:03,840
+A chave primária não vai servir completamente para gerar relacionamentos dentro do banco de dados é
+
+58
+00:05:03,840 --> 00:05:07,970
+outra coisa também que está associado com a chave primária o fato de que essa chave primária.
+
+59
+00:05:08,400 --> 00:05:14,160
+Ela normalmente você fazer uma pesquisa por chave primária dentro de uma tabela muito rápido porque
+
+60
+00:05:14,160 --> 00:05:18,820
+é criado e estruturas que chamam a quem chama dinheiro indeciso que esse a partir dessas estruturas
+
+61
+00:05:18,810 --> 00:05:24,710
+que você consegue rapidamente localizar um único registro ou uma única tupla dentro de um banco de dados.
+
+62
+00:05:24,780 --> 00:05:31,020
+Outra questão também vale mencionar aqui é o fato por exemplo você pode perguntar assinalados eu quero
+
+63
+00:05:31,020 --> 00:05:38,550
+que essa coluna que meio ela não aceita valores duplicados eu quero que os e-mails não possam haver
+
+64
+00:05:38,550 --> 00:05:44,100
+duplicação dentro da tabela de clientes ou seja um cliente tem um e-mail e esse e-mail cadastrado apenas
+
+65
+00:05:44,100 --> 00:05:50,820
+para aquele clientes eu preciso transformar essa coluna numa chave primária não existe dentro do esquema
+
+66
+00:05:50,820 --> 00:05:53,220
+do banco de dados você vai definir o seu esquema.
+
+67
+00:05:53,230 --> 00:05:58,470
+Você coloca uma série de restrições que os dados precisam atender essas restrições para que eles possam
+
+68
+00:05:58,470 --> 00:06:02,850
+ser armazenados de forma e válida de forma consistente.
+
+69
+00:06:02,850 --> 00:06:07,680
+Então uma das instituições que você pode colocar em cima de uma coluna e dizer que essa coluna é uma
+
+70
+00:06:07,680 --> 00:06:14,580
+coluna do tipo única certo que aí vai criar uma custom ou seja uma restrição para dizer que essa coluna
+
+71
+00:06:14,580 --> 00:06:15,630
+é do tipo única.
+
+72
+00:06:15,900 --> 00:06:22,200
+Ou seja ele não vai aceitar repetição dentro dessa coluna mas não não necessariamente você precisa ter
+
+73
+00:06:22,550 --> 00:06:25,020
+e essa coluna como será a chave primária.
+
+74
+00:06:25,140 --> 00:06:30,840
+Imagine você colocar o e-mail como será a chave primária se o usuário mudar o cliente quiser mudar de
+
+75
+00:06:30,840 --> 00:06:31,640
+meio.
+
+76
+00:06:31,860 --> 00:06:37,620
+Vai ser um a um ano vai ser praticamente impossível incomodar tem mais você não vai querer colocar um
+
+77
+00:06:37,620 --> 00:06:38,870
+dado que muda.
+
+78
+00:06:38,870 --> 00:06:44,280
+Como será a chave primária ali e eu também quero fazer com que o CPF seja um único não tem problema
+
+79
+00:06:44,280 --> 00:06:49,950
+coloque lá uma construi pra dizer que essa coluna só aceita dados únicos ou seja qualquer dado que foi
+
+80
+00:06:49,950 --> 00:06:52,950
+colocado aqui não vai aceitar a repetição.
+
+81
+00:06:52,950 --> 00:06:59,430
+Você pode sim fazer esse tipo de ação sem necessariamente ter a chave primária eu falei pra você.
+
+82
+00:06:59,430 --> 00:07:06,030
+A chave primária pode ser uma coluna pode ser mais ou mais colunas a verdade pode ter uma chave primária
+
+83
+00:07:06,410 --> 00:07:13,680
+que a composição de duas colunas então por exemplo você pega aqui uma tabela que tem as duas primeiras
+
+84
+00:07:13,680 --> 00:07:17,620
+coluna como colocar aqui código e código dois.
+
+85
+00:07:17,630 --> 00:07:21,780
+Então por que você gerou uma chave primária a partir dessas duas colunas.
+
+86
+00:07:21,780 --> 00:07:29,700
+Eu posso ter por exemplo eu posso ter uma repetição aqui contanto que o par não se repita então posso
+
+87
+00:07:29,700 --> 00:07:39,170
+ter 1 2 2 1 2 2 ou seja 2 se repete aqui o 2 se repete nessa coluna mas o par não pode se repetir porque
+
+88
+00:07:39,170 --> 00:07:45,260
+o PPA é a chave primária ou seja não há repetição usando o par como encheram a chave primária.
+
+89
+00:07:45,330 --> 00:07:51,810
+Ou seja essas duas colunas elas não podem em conjunto se repetir não é tão comum assim você usar chaves
+
+90
+00:07:51,810 --> 00:07:57,000
+primárias com mais uma coluna mas também é possível mais o mais importante é você entender esse conceito
+
+91
+00:07:57,000 --> 00:07:58,620
+de chave primária chave primária.
+
+92
+00:07:58,830 --> 00:08:05,070
+é algo extremamente importante dentro de uma tabela e ela é a coluna que identifica unicamente um registro
+
+93
+00:08:05,070 --> 00:08:10,440
+ou tupla dentro de uma tabela que pode ter milhares e milhares de registros mas também não significa
+
+94
+00:08:10,440 --> 00:08:16,890
+que você não pode ter outras colunas como o caso do CPF e do e-mail que também vai ser usado para identificar
+
+95
+00:08:17,180 --> 00:08:19,730
+um registro unicamente dentro de uma tabela.
+
+96
+00:08:19,730 --> 00:08:25,750
+O fato é que a chave primária é a partir dessa chave que os relacionamentos vão acontecer na próxima.
+
+97
+00:08:25,800 --> 00:08:31,470
+Vou trabalhar com vocês os relacionamentos e como se dá com a mecânica que se dá dentro de um banco
+
+98
+00:08:31,470 --> 00:08:35,430
+de dados como é que faz para relacionar uma tabela com a outra perna proximal.

@@ -1,0 +1,247 @@
+1
+00:00:00,270 --> 00:00:05,820
+Então pensar fazer que agora um segundo produto para a gente usar o nosso ideal é a paixão numérica
+
+2
+00:00:05,820 --> 00:00:11,340
+manequim vou precisar de novas o metro vai acrescentando nele e eu quero mostrar para vocês algo que
+
+3
+00:00:11,340 --> 00:00:16,440
+eu tinha de certa forma falado na aula passada mas acabei voltando atrás eu quero mostrar na sala uma
+
+4
+00:00:16,440 --> 00:00:19,710
+das formas que você tem de resolver o genérico.
+
+5
+00:00:19,710 --> 00:00:27,110
+Já falei sobre isso anteriormente e o fato de que na hora de distanciar você vai dizer o que eram de
+
+6
+00:00:27,120 --> 00:00:28,410
+ódio o produto.
+
+7
+00:00:28,680 --> 00:00:32,260
+Então você pode ir lá e colocar o genérico se distanciar.
+
+8
+00:00:32,310 --> 00:00:41,250
+Outra possibilidade que você tem é criar uma classe por exemplo chamada produto Dell e essa classe ela
+
+9
+00:00:41,250 --> 00:00:48,840
+vai estender do deus genérico e nesse momento você vai lá e coloca que essa classe especificamente vai
+
+10
+00:00:48,840 --> 00:00:50,430
+trabalhar com um produto.
+
+11
+00:00:50,550 --> 00:00:55,010
+Então você pode sim no momento distanciar um produto eles.
+
+12
+00:00:55,070 --> 00:01:02,920
+A gente dá certo você coloca lá da entidade aqui dentro desse produto de algo você pode criar métodos
+
+13
+00:01:02,920 --> 00:01:09,630
+e funcionalidades que são específicas de produto como por exemplo aplicar um desconto para todos os
+
+14
+00:01:09,630 --> 00:01:10,730
+produtos da base.
+
+15
+00:01:10,730 --> 00:01:16,650
+Então você pode criar um método específico para fazer isso sem necessariamente precisar colocar a complexidade
+
+16
+00:01:16,650 --> 00:01:18,650
+desse método dentro do negócio.
+
+17
+00:01:18,780 --> 00:01:26,340
+Tá bom então para a gente usar aqui uma segunda alternativa então nesse caso é criar outro noutra classe
+
+18
+00:01:26,340 --> 00:01:28,620
+chamada obter
+
+19
+00:01:31,000 --> 00:01:33,240
+produtos no plural.
+
+20
+00:01:33,430 --> 00:01:39,250
+Ocorre aqui para seu método e eu vou instancia algum produto dela.
+
+21
+00:01:39,350 --> 00:01:43,030
+E nesse caso também é interessante no caso do Dell.
+
+22
+00:01:43,510 --> 00:01:51,940
+Eu criei um construtor e esse construtor eu já achava o custo todo o suporte o custo da classe vai passando
+
+23
+00:01:51,960 --> 00:02:00,250
+o produto ponto Class ou seja tanto resolvi os genéricos aqui como eu resolvi também passar o produto
+
+24
+00:02:00,450 --> 00:02:01,760
+classe para o pai.
+
+25
+00:02:01,840 --> 00:02:07,730
+Ou seja em vez de chamar o construtor padrão eu chamei esse consultor que já sabia a classe e já aceitou
+
+26
+00:02:08,080 --> 00:02:15,670
+a classe direitinho então ao ter produto produto da Audi vou chamar aqui Dell recebe o produto da aula
+
+27
+00:02:15,670 --> 00:02:19,840
+que não tem um genérico para resolver que já foi resolvido anteriormente.
+
+28
+00:02:19,840 --> 00:02:32,170
+E aqui eu tenho uma lista porque eu digo produto recebo aqui produtos no plural recebe ao ponto de obter
+
+29
+00:02:32,170 --> 00:02:40,730
+todos aqueles já sei que estou trabalhando com o produto posso usar aqui um fora para fazer um produto
+
+30
+00:02:41,770 --> 00:02:50,960
+Produto da série produtos coral que provoca aqui um system audio para Ingelheim coloca aqui por exemplo
+
+31
+00:02:51,360 --> 00:02:51,760
+de um
+
+32
+00:02:55,000 --> 00:03:08,380
+produto muito grande e vou cortar aqui lá nome em dois pontos.
+
+33
+00:03:08,440 --> 00:03:20,740
+Vou concatenar um produto português alertando que ele vai mostrar que os resultados não caneta 2 GB
+
+34
+00:03:20,740 --> 00:03:22,630
+ou 3 Monitor.
+
+35
+00:03:22,630 --> 00:03:28,130
+Faltou aqui colocar aqui no monitor.
+
+36
+00:03:28,390 --> 00:03:38,680
+23 faço K para operar aqui sem necessariamente precisar fazer uma operação agora a gente também pode
+
+37
+00:03:38,680 --> 00:03:41,560
+usar a parte de extremos que a gente fez anteriormente.
+
+38
+00:03:41,580 --> 00:03:48,700
+Então por exemplo um preço total recebe produtos.
+
+39
+00:03:48,700 --> 00:04:02,040
+Ponto estranho e aqui eu posso quebrar por cima para baixo aqui ponto MEP e a gente vai colocar no Mac
+
+40
+00:04:02,050 --> 00:04:08,900
+pra ele pegar o produto e retornar por exemplo todo o Produto Ponto Verde preço.
+
+41
+00:04:10,000 --> 00:04:18,280
+Então vai tornar um W uma vez e tornou no W eu posso fazer um doce façam por exemplo o valor inicial
+
+42
+00:04:18,280 --> 00:04:27,190
+do meu doce e aqui eu passo na função que vai pegar por exemplo o preço é na verdade ele vai pagar o
+
+43
+00:04:27,190 --> 00:04:35,800
+total e o preço atual é fazer uma soma desse valor total mas o preço atual é pra finalizar a gente pode
+
+44
+00:04:36,130 --> 00:04:43,240
+pagar aqui ou o velho pronto e tem o valor total fazendo lá uso visto que a gente já viu anteriormente.
+
+45
+00:04:43,240 --> 00:04:54,370
+Então posso colocar aqui ou se tem algo que preencha ali o valor total e pagar aqui inclusive para ficar
+
+46
+00:04:54,370 --> 00:04:56,320
+bonitinho.
+
+47
+00:04:56,890 --> 00:05:00,210
+O preço total.
+
+48
+00:05:00,460 --> 00:05:07,470
+Só pra relembrar um pouquinho que a gente viu anteriormente soube então o valor total e três 1785 ponto
+
+49
+00:05:07,470 --> 00:05:11,980
+de enchimento que é exatamente o somatório desses valores aqui.
+
+50
+00:05:11,980 --> 00:05:19,620
+Pessoal ficamos por aqui nesse exercício fizemos aqui o nosso ideal a parte do Dell super enxuto.
+
+51
+00:05:19,630 --> 00:05:29,740
+Criei a depois chamei poderia já aqui no final finalizar o ou não então ao ponto de fechar só pra ele
+
+52
+00:05:29,740 --> 00:05:37,490
+garantir que o engenheiro já foi fechado e fizemos aqui uma leve revisão sobre parte de genéricos resolver.
+
+53
+00:05:37,530 --> 00:05:43,840
+Agora os genéricos usando a herança e não mais a instância como foi no passado e também aqui pra fechar
+
+54
+00:05:43,840 --> 00:05:50,800
+com chave de ouro fizemos aqui um papelinho na acepção de MPB dúzia pega no valor final com o somatório
+
+55
+00:05:50,800 --> 00:05:55,710
+de todos os produtos e aproximá los uns falam um pouquinho sobre relacionamento marcha no Chipre já
+
+56
+00:05:55,730 --> 00:06:01,600
+acionamento e as principais anotei temos que acabar usando os próximos chassis para logo na sequência
+
+57
+00:06:01,600 --> 00:06:06,790
+a gente vê na prática como o JP ele resolve essa questão dos relacionamentos.
+
+58
+00:06:06,880 --> 00:06:12,670
+Tem uma diferença entre relacionamento de banco relacionamento mal orientado objeto o JP vai nos ajudar
+
+59
+00:06:12,670 --> 00:06:14,180
+e isso a partir do RM.
+
+60
+00:06:14,440 --> 00:06:19,490
+Nós vamos começar a ver isso a partir da próxima aula porque na teoria e depois exercícios práticos
+
+61
+00:06:19,490 --> 00:06:23,000
+de todos os relacionamentos que estão disponíveis no JP.
+
+62
+00:06:23,070 --> 00:06:23,650
+Eu disparou.

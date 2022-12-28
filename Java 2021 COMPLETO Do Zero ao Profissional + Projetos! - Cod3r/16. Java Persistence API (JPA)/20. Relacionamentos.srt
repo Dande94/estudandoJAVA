@@ -1,0 +1,983 @@
+1
+00:00:00,560 --> 00:00:05,570
+Pessoal agora nós vamos entrar num assunto de relacionamentos né.
+
+2
+00:00:05,610 --> 00:00:09,900
+A gente já falou sobre relacionamentos no mundo orientação a objeto.
+
+3
+00:00:10,050 --> 00:00:16,140
+Nós já falamos também de relacionamentos no mundo intimidade e relacionamento.
+
+4
+00:00:16,140 --> 00:00:22,220
+E agora a gente vai unir os dois grupos digamos assim nessas duas formas de fazer relacionamentos no
+
+5
+00:00:22,230 --> 00:00:29,220
+mundo e do mundo relacional para que a gente consiga a partir do mapeamento objeto relacional pegar
+
+6
+00:00:29,220 --> 00:00:36,480
+os objetos que estão relacionados dentro de um programa em Java e testes esses dados nas tabelas correspondentes
+
+7
+00:00:36,480 --> 00:00:43,980
+no banco de dados e estão fazendo aqui uma recapitulação em cima dos relacionamentos está certo ou então
+
+8
+00:00:43,980 --> 00:00:49,220
+nós temos aqui os relacionamentos e eu quero falar da questão dos dois mundos de relacionamento.
+
+9
+00:00:49,230 --> 00:00:56,850
+Nós temos de um lado o relacionamento da paixão e Jó aqui era orientação objeto e nós temos do outro
+
+10
+00:00:56,850 --> 00:01:00,260
+lado o mundo intimidade relacionamento.
+
+11
+00:01:00,330 --> 00:01:06,690
+Quando a gente pensa no mundo entidade relacionamento nós temos aqui por exemplo uma tabela certo com
+
+12
+00:01:06,690 --> 00:01:15,480
+linhas e colunas e nós temos aqui outra tabela com uma série de linhas e uma série de colunas com que
+
+13
+00:01:15,480 --> 00:01:17,200
+é feito o relacionamento.
+
+14
+00:01:17,220 --> 00:01:24,210
+Na verdade existe um relacionamento principal na verdade existem variações de um relacionamento que
+
+15
+00:01:24,210 --> 00:01:26,210
+é o relacionamento um para muitos.
+
+16
+00:01:26,270 --> 00:01:32,700
+Então via de regra o que acontece é o seguinte nós temos dentro de um a tabela um conceito que o conceito
+
+17
+00:01:32,700 --> 00:01:40,590
+de chave primária então nós temos aqui uma determinada coluna que é definida como chave primária e não
+
+18
+00:01:40,590 --> 00:01:46,430
+quero relacionar essa tabela por exemplo que tem uma determinada chave primária com uma outra tabela.
+
+19
+00:01:46,440 --> 00:01:53,940
+Claro que existe outras variações dessa chave primária vai para a outra tabela é gerado uma fora em
+
+20
+00:01:53,950 --> 00:02:01,530
+que uma chave estrangeira certo então nós temos um FK e a partir de um aplicativo ou outro na tabela.
+
+21
+00:02:01,530 --> 00:02:05,490
+Esse é um tipo de relacionamento que você tem para muitos.
+
+22
+00:02:05,490 --> 00:02:15,150
+Ou seja eu tenho por exemplo aqui um registro que tem o ID desse lado e eu posso ter várias linhas.
+
+23
+00:02:15,150 --> 00:02:23,760
+Na outra tabela que vai ter uma relação com a edição de um rádio ou seja eu tenho uma linha aqui nessa
+
+24
+00:02:23,760 --> 00:02:30,170
+tabela cujo áudio está relacionada com várias tuplas vários registros.
+
+25
+00:02:30,270 --> 00:02:37,440
+Na outra tabela que também tem uma chave estrangeira como sendo o idioma que e estabelece uma relação.
+
+26
+00:02:38,040 --> 00:02:43,860
+Ou seja a chave primária de uma tabela vai para outra tabela como chave estrangeira estabelece na nossa
+
+27
+00:02:43,870 --> 00:02:47,200
+momento o relacionamento um para um.
+
+28
+00:02:47,230 --> 00:02:53,940
+é exatamente esse mesmo relacionamento chave primária vai para outra tabela só que a diferença é que
+
+29
+00:02:53,940 --> 00:02:57,380
+é criado uma restrição digamos assim.
+
+30
+00:02:57,510 --> 00:03:03,620
+Dentro dessa coluna para dizer que essa coluna não aceita a repetição então você tem a mesma estrutura
+
+31
+00:03:03,620 --> 00:03:06,050
+eu vou até desenhar novamente aqui.
+
+32
+00:03:06,390 --> 00:03:16,110
+Nós temos uma outra tabela aqui as linhas e as suas colunas têm outra tabela aqui as suas linhas e as
+
+33
+00:03:16,110 --> 00:03:17,280
+colunas.
+
+34
+00:03:17,280 --> 00:03:25,290
+Nós temos de um lado aqui definido uma chave primária ou seja uma que essa praga que vai para a outra
+
+35
+00:03:25,290 --> 00:03:31,870
+coluna na tabela ficou o meu não sabia que a tabela mais um supor que essa última coluna que um fórum
+
+36
+00:03:31,880 --> 00:03:34,190
+que a chave estrangeira certo.
+
+37
+00:03:34,190 --> 00:03:36,610
+Voltando aqui só para comentar.
+
+38
+00:03:36,750 --> 00:03:37,320
+Pronto.
+
+39
+00:03:37,620 --> 00:03:43,940
+Então essa coluna que é a última é a minha chave estrangeira e com a minha chave primária veio pra cá
+
+40
+00:03:43,950 --> 00:03:47,210
+eu tenho a priori um relacionamento.
+
+41
+00:03:47,550 --> 00:03:55,200
+Mas eu posso aplicar por exemplo nessa coluna que eu quero e minha Chaby estrangeiro possa aplicar uma
+
+42
+00:03:55,340 --> 00:03:59,940
+constroem ou seja uma restrição pra dizer que ela é única.
+
+43
+00:04:00,450 --> 00:04:06,150
+Ou seja quando você tem uma restrição que essa coluna não aceita dados duplicados ela tem que ser a
+
+44
+00:04:06,150 --> 00:04:13,620
+única no momento que eu pego aqui que eu tenho um site igual a um e eu associo por exemplo que essa
+
+45
+00:04:13,620 --> 00:04:19,110
+terceira linha aqui tem um de igual com alguma restrição e que isso é único.
+
+46
+00:04:19,350 --> 00:04:25,500
+Eu não posso aplicar de novo com a chave primária eu vim pra cá eu não posso aplicar uma outra coluna
+
+47
+00:04:25,510 --> 00:04:32,770
+em outra tupla pra ter um registo igual a 1 de tal forma que aqui a partir de uma variação de uma relação.
+
+48
+00:04:32,840 --> 00:04:40,470
+Aí eu acabei criando um relacionamento pra 1 ou seja com mais ou e mais ou transformo pra mim um pra
+
+49
+00:04:40,470 --> 00:04:42,990
+um e isso vai acontecer também né.
+
+50
+00:04:43,000 --> 00:04:49,360
+A partir de uma relação pra aí vai acontecer quando você tem uma relação e pra mim.
+
+51
+00:04:49,500 --> 00:04:54,510
+Então por exemplo você digita SW aqui deixou apagar.
+
+52
+00:04:55,110 --> 00:05:01,190
+Então se você quiser criar uma relação pra mim ou seja muito muitos.
+
+53
+00:05:01,430 --> 00:05:02,520
+Brahimi né.
+
+54
+00:05:02,940 --> 00:05:10,160
+Como você veja a relação você tem aqui uma tabela você tem aqui uma ou outra tabela
+
+55
+00:05:12,920 --> 00:05:20,390
+na verdade o que vai acontecer você vai criar uma tabela intermediária que pode ter duas ou mais colunas.
+
+56
+00:05:20,390 --> 00:05:21,790
+E aí o que vai acontecer.
+
+57
+00:05:21,800 --> 00:05:26,690
+A chave primária dessa tabela então até aqui.
+
+58
+00:05:26,750 --> 00:05:31,550
+Aqui vou uma marítima aqui e o que vai acontecer.
+
+59
+00:05:31,700 --> 00:05:40,930
+Essa chave vai vim pra cá e essa chave aqui vai vim pra cá de tal forma que eu vou ter um fórum que
+
+60
+00:05:41,750 --> 00:05:50,270
+é um fórum aqui de duas tabelas e essas duas colunas ao mesmo tempo vão formar a chave primária dessa
+
+61
+00:05:50,270 --> 00:05:53,900
+tabela ou seja uma chave primária composta por duas colunas.
+
+62
+00:05:53,900 --> 00:06:01,350
+Claro que essa outra tabela aqui intermediária pode ter outras colunas relacionadas a esse relacionamento.
+
+63
+00:06:01,430 --> 00:06:07,730
+Sejam colunas que estão associadas ao relacionamento entre essas duas tabelas mas quando você cria essa
+
+64
+00:06:07,730 --> 00:06:14,080
+tabela intermediária você está digamos assim virtualmente criando uma relação entre essas duas tabelas.
+
+65
+00:06:14,090 --> 00:06:16,750
+Por exemplo pra mim por exemplo.
+
+66
+00:06:17,020 --> 00:06:24,350
+Então na verdade você tem a relação em Brahimi ela é uma relação há na verdade duas relações um pra
+
+67
+00:06:24,350 --> 00:06:30,500
+mim porque ele também tem o mesmo mecanismo e chave primária virando uma chave estrangeira a chave primária
+
+68
+00:06:30,830 --> 00:06:38,300
+virado a chave estrangeira ou seja daqui pra cá eu tenho para mim que eu tenho pra mim de tal forma
+
+69
+00:06:38,300 --> 00:06:43,450
+que eu gera uma relação e Brahimi ou em mim me dá pelo menos como você parece certo.
+
+70
+00:06:43,470 --> 00:06:50,960
+Uma outra observação importante do mundo de relacionamento é que você não tem relações bidirecional
+
+71
+00:06:50,960 --> 00:06:57,260
+regionais ou seja eu não pego a chave de uma tabela em jogo nenhum é a chave da outro jogo na outra.
+
+72
+00:06:57,260 --> 00:07:03,860
+Não existe isso a relação sempre é um direcional de tal forma que é muito mais fácil por exemplo nesse
+
+73
+00:07:03,860 --> 00:07:12,800
+primeiro caso o que dá da relação para aí é mais fácil a partir da tabela eu pegar por exemplo e encontrar
+
+74
+00:07:12,800 --> 00:07:15,650
+quem é o meu correspondente na tabela.
+
+75
+00:07:15,660 --> 00:07:16,280
+Por quê.
+
+76
+00:07:16,550 --> 00:07:23,080
+Porque nessa coluna aqui eu tenho um Audi do meu.
+
+77
+00:07:23,090 --> 00:07:27,110
+Na minha relação do meu pai digamos assim e da relação.
+
+78
+00:07:27,110 --> 00:07:33,920
+Ou seja eu tenho explicitamente Cláudio ali um pai de 343 ou seja a partir de uma coluna dentro de um
+
+79
+00:07:33,920 --> 00:07:39,110
+registro na tabela filho eu consigo saber exatamente qual o meu Audi na tabela pai.
+
+80
+00:07:39,230 --> 00:07:45,490
+Já você olhando apenas para essa tabela você não consegue dizer quantos registros na tabela ou seja
+
+81
+00:07:45,500 --> 00:07:46,520
+na tabela.
+
+82
+00:07:46,940 --> 00:07:53,900
+Eu tenho relacionados ao G1 pra eu conseguir fazer isso eu preciso criar uma consulta que aí sim ele
+
+83
+00:07:53,900 --> 00:08:01,640
+vai perguntar por exemplo ali depto Selection asterisco frauda a tabela do lado bom porque aqui eu tenho
+
+84
+00:08:01,640 --> 00:08:08,420
+uma tabela para dar nome NET e uma tabela Man e aqui eu tenho uma tabela chamada de filhos ou filho
+
+85
+00:08:08,580 --> 00:08:10,130
+tá no singular mesmo.
+
+86
+00:08:10,400 --> 00:08:15,050
+Então você pode selecionar Select asterisco from filho.
+
+87
+00:08:15,070 --> 00:08:19,070
+O dia de amanhã amanha é dia igual.
+
+88
+00:08:19,070 --> 00:08:23,820
+Alguma coisa aí sim você consegue detectar todos os filhos relacionados àquela mãe.
+
+89
+00:08:24,260 --> 00:08:29,890
+Mas olhando aqui pra cada um dos registros facilmente você sabe quem é a mãe naquele filho.
+
+90
+00:08:29,980 --> 00:08:30,200
+Quê.
+
+91
+00:08:30,200 --> 00:08:37,070
+Porque você tem mais dinheiro então é importante você perceber que nesse cenário você vai ter uma relação
+
+92
+00:08:37,070 --> 00:08:44,460
+sempre unidirecional apenas um lado vai ter a chave com relação ao outro mas nunca bidirecional.
+
+93
+00:08:44,600 --> 00:08:47,130
+Já no mundo da orientação a objeto.
+
+94
+00:08:47,210 --> 00:08:52,820
+Nós temos relações digamos assim naturalmente um pra um.
+
+95
+00:08:52,820 --> 00:08:54,500
+Peraí peraí.
+
+96
+00:08:54,500 --> 00:09:00,590
+No caso aqui do mundo relacional a gente viu que a relação In Win é uma relação virtual a partir de
+
+97
+00:09:00,590 --> 00:09:06,750
+uma tabela intermediária ou seja são duas relações um pra mim pra você simular uma relação e para aí
+
+98
+00:09:07,130 --> 00:09:08,690
+a relação um pra um.
+
+99
+00:09:08,690 --> 00:09:15,680
+Na verdade não há relação com a restrição a mais e você tem naturalmente digamos assim fisicamente a
+
+100
+00:09:15,680 --> 00:09:16,470
+relação.
+
+101
+00:09:16,530 --> 00:09:24,680
+Aí já não muda algo você tem as três relações digamos assim físicas você tem por exemplo um clássico
+
+102
+00:09:25,220 --> 00:09:34,250
+por exemplo tem tenho aqui uma classe A não sou dessa classe A tem uma relação com a classe B.
+
+103
+00:09:34,400 --> 00:09:39,130
+Então o que é que acontece se eu tenho uma relação aqui por exemplo de um para um.
+
+104
+00:09:39,130 --> 00:09:47,400
+Provavelmente dentro da classe B eu vou ter um atributo do tipo da classe A se eu quiser ter uma relação
+
+105
+00:09:47,400 --> 00:09:53,460
+bidirecional ou seja que eu tenho um atributo da classe A ou seja uma relação à parte da classe B eu
+
+106
+00:09:53,460 --> 00:09:55,990
+consigo chegar na classe A.
+
+107
+00:09:56,010 --> 00:10:03,000
+Já se eu quiser ter uma relação bidirecional eu posso ter dentro da classe A eu posso ter um atributo
+
+108
+00:10:03,330 --> 00:10:10,740
+que aponta para o tipo da classe B de tal forma que tanto a partir da classe eu consigo chegar na classe
+
+109
+00:10:10,740 --> 00:10:18,220
+B com a parte da classe B eu consigo chegar na classe a qual é o mais comum você tem uma relação unidirecional
+
+110
+00:10:18,220 --> 00:10:19,980
+em relação bidirecional.
+
+111
+00:10:20,010 --> 00:10:23,060
+O mais comum é você ter uma relação unidirecional.
+
+112
+00:10:23,130 --> 00:10:28,780
+A gente acaba tentando habitar uma relação bidirecional para não gerar inconsistências.
+
+113
+00:10:28,800 --> 00:10:31,210
+Não é possível você ter uma relação bidirecional.
+
+114
+00:10:31,210 --> 00:10:31,670
+Tá bom.
+
+115
+00:10:31,950 --> 00:10:37,710
+Então você eu poderia colocar por exemplo se ela dar um exemplo qualquer aqui que minha na cabeça uma
+
+116
+00:10:37,710 --> 00:10:47,900
+classe chamada marido e uma classe chamada esposa então vamos supor que a partir da classe esposa você
+
+117
+00:10:47,900 --> 00:10:52,960
+tem um atributo do tipo marido marido.
+
+118
+00:10:53,000 --> 00:10:59,100
+E você possa também ter dentro do marido um atributo do tipo esposa.
+
+119
+00:10:59,230 --> 00:11:04,850
+E aí você consiga fazer a relação bidirecional a partir do marido você consegue saber quem é a esposa
+
+120
+00:11:04,850 --> 00:11:09,800
+daquele marido a partir da esposa você consegue saber quem é o marido daquela esposa então você tem
+
+121
+00:11:09,800 --> 00:11:18,710
+uma relação Braulio e bidirecional de tal forma que você consegue acessar aqui um exemplo da veja aqui.
+
+122
+00:11:18,710 --> 00:11:27,230
+Da mesma forma que você tem a relação para alguém você vai ter uma relação de tal forma que poucos tenho
+
+123
+00:11:27,250 --> 00:11:30,230
+aqui uma classe a chamar de mãe e filho.
+
+124
+00:11:30,230 --> 00:11:35,570
+Dá para simplificar então tem uma classe mãe e tem uma classe filho.
+
+125
+00:11:35,690 --> 00:11:41,090
+Do ponto de vista do mundo relacional do banco de dados a informação do relacionamento está sempre na
+
+126
+00:11:41,090 --> 00:11:50,060
+tabela que é exatamente a tabela INI que tem o código digamos assim do valor do Amanhã digamos assim
+
+127
+00:11:50,080 --> 00:11:58,160
+se for ele se for aqui olhando por exemplo do filho então nesse caso a gente pode ter o filho vai ter
+
+128
+00:11:58,280 --> 00:12:06,140
+um atributo do tipo mãe certo então vai ter que lá mais é o nome da classe e o nome do atributo pode
+
+129
+00:12:06,140 --> 00:12:09,290
+ser uma mão em qualquer outra coisa.
+
+130
+00:12:09,680 --> 00:12:14,570
+Então aqui você tem uma classe que tem um atributo do tipo de outra classe.
+
+131
+00:12:14,700 --> 00:12:24,020
+Aqui uma relação aí então aqui na verdade é para um filho e o amanhã seriam então aqui coloca no verdinho
+
+132
+00:12:24,590 --> 00:12:32,390
+aquilo teria relação o filho e o homem e a mãe seria de tal forma que a partir do filho você consegue
+
+133
+00:12:32,390 --> 00:12:33,110
+chegar amanhã.
+
+134
+00:12:33,250 --> 00:12:37,220
+E como é que eu poderia criar uma relação bidirecional ao lado da mãe.
+
+135
+00:12:37,220 --> 00:12:47,990
+Nesse caso eu teria que colocar uma lista lista do tipo filho já que o lar do filho ao lado.
+
+136
+00:12:48,410 --> 00:12:53,660
+Ou seja a mãe vai ter um atributo que é uma lista de filhos e o filho vai ter um único atributo que
+
+137
+00:12:53,660 --> 00:12:54,550
+a sua mãe.
+
+138
+00:12:55,040 --> 00:13:00,170
+Então que eu poderia dizer que o nome desse aqui é Maurício filho é o nome do atributo poderia ser filhos
+
+139
+00:13:00,770 --> 00:13:01,760
+no plural.
+
+140
+00:13:02,220 --> 00:13:08,120
+Então só dá um exemplo aqui do que seria um relacionamento mim no mundo orientado objeto aqui você pode
+
+141
+00:13:08,120 --> 00:13:14,690
+ter tanto um relacionamento unidirecional como você pode ter um relacionamento bidirecional e o outro
+
+142
+00:13:14,690 --> 00:13:20,750
+caso seria por exemplo o pai aqui Tio e sobrinho.
+
+143
+00:13:22,130 --> 00:13:30,620
+Então tem um sobrinho e tio aqui eu tenho um relacionamento para Inhotim para imitar de tal forma que
+
+144
+00:13:30,710 --> 00:13:38,750
+dentro de Tio eu voltei um lista vou colocar sobe em um local muito grande uma lista de sobrinhos e
+
+145
+00:13:38,780 --> 00:13:39,890
+do lado do sobrinho.
+
+146
+00:13:40,040 --> 00:13:47,930
+Eu vou ter também um bichinho de tio avô de tal forma que agora eu tenho uma relação nesse caso bidirecional
+
+147
+00:13:48,140 --> 00:13:52,940
+tio consegue acessar os sobrinhos e a partir de sobrinhos eu consigo acessar os tios.
+
+148
+00:13:52,940 --> 00:14:00,670
+Como eu falei pra vocês às vezes essa questão da relação bidirecional ela pode gerar alguns inconsistências
+
+149
+00:14:00,680 --> 00:14:06,380
+eu não sei se eu vou conseguir ser claro com vocês me eu tentar explicar e pegar no caso do um caso
+
+150
+00:14:06,380 --> 00:14:09,290
+da gente pra ver qual o exemplo que eu vou usar.
+
+151
+00:14:09,380 --> 00:14:13,060
+Pronto eu vou usar o exemplo de cliente e assento.
+
+152
+00:14:13,100 --> 00:14:14,480
+Então só mostrar pra você.
+
+153
+00:14:14,480 --> 00:14:22,740
+Imagine que você tem aqui cliente e você tem aqui um determinado assento.
+
+154
+00:14:22,740 --> 00:14:30,800
+Imagina a relação o cara que comprou por exemplo um assento dentro de uma quadra de basquete da NBA
+
+155
+00:14:30,850 --> 00:14:35,600
+ou mesmo um assento de avião então um assento está para um cliente.
+
+156
+00:14:35,600 --> 00:14:40,740
+Um cliente pode ter apenas um único assento só criar uma relação para qualquer um.
+
+157
+00:14:41,060 --> 00:14:49,550
+Quando você define uma relação unidirecional você vai definir qual é o lado da relação que pra você
+
+158
+00:14:49,550 --> 00:14:50,830
+é mais representativo.
+
+159
+00:14:50,840 --> 00:14:55,240
+Por exemplo no meu sistema eu sempre quero saber a partir de um cliente.
+
+160
+00:14:55,240 --> 00:15:01,400
+Qual é o assento dele então provavelmente você vai colocar um atributo assento dentro do cliente e não
+
+161
+00:15:01,400 --> 00:15:02,330
+o contrário.
+
+162
+00:15:02,540 --> 00:15:08,390
+Ah não na minha aplicação assento acaba sendo tem uma relevância mais importante então a partir do assento
+
+163
+00:15:08,750 --> 00:15:14,150
+que eu vou descobrir qual o cliente que está associado a aquele assento então se o negócio da sua aplicação
+
+164
+00:15:14,150 --> 00:15:20,420
+diz que você vai mais pelo lado do assento então provavelmente você dentro do assento vai ter um atributo
+
+165
+00:15:20,420 --> 00:15:26,390
+de cliente a não mais no meu caso eu vou ter situações que eu vou querer acessar dos dois lados.
+
+166
+00:15:26,390 --> 00:15:28,190
+Vai depender muito da situação.
+
+167
+00:15:28,220 --> 00:15:31,070
+Aí sim você pode criar uma relação bidirecional.
+
+168
+00:15:31,080 --> 00:15:37,820
+Mas eu quero mostrar para vocês o seguinte se você define que a relação é sempre unidirecional e somente
+
+169
+00:15:37,820 --> 00:15:40,930
+a parte do cliente você vai ter a informação do assento.
+
+170
+00:15:40,940 --> 00:15:44,830
+Então essa é uma informação que não tem consistente por quê.
+
+171
+00:15:45,030 --> 00:15:53,630
+Porque quando você define por exemplo um cliente cliente por exemplo Seattle a cliente Ana que é uma
+
+172
+00:15:53,640 --> 00:16:01,690
+instância da classe você vai ter dentro dela a referência do assento por exemplo vai ser o assento 8
+
+173
+00:16:01,780 --> 00:16:02,380
+F.
+
+174
+00:16:02,430 --> 00:16:06,240
+Então não tem perigo a partir do assento você encontrar um outro cliente.
+
+175
+00:16:06,450 --> 00:16:09,600
+Porque época o assento não tem nenhuma informação sobre o cliente.
+
+176
+00:16:09,880 --> 00:16:14,490
+Então é o caminho pra você encontrar qual é o assento de determinado cliente.
+
+177
+00:16:14,580 --> 00:16:21,360
+A partir do cliente você olhar por exemplo a instância que tem as informações da ANA você chega a informação
+
+178
+00:16:21,360 --> 00:16:24,230
+de que o assento 8 F pertence a um ano.
+
+179
+00:16:24,570 --> 00:16:27,930
+Quando você tem a relação bidirecional o que é que acontece.
+
+180
+00:16:28,110 --> 00:16:37,500
+Você vai ter a informação dos dois lados e se dentro do assento você tem aqui um assento que é o assento.
+
+181
+00:16:37,510 --> 00:16:45,300
+8 f se dentro ou 108 f você tem uma relação de cliente aponta para um cliente que é diferente da ANA
+
+182
+00:16:45,300 --> 00:16:48,460
+por exemplo o Carlos.
+
+183
+00:16:48,840 --> 00:16:54,420
+Então você tem uma relação de nomes assim consistente você tem dados inconsistentes.
+
+184
+00:16:54,420 --> 00:16:55,310
+Porquê.
+
+185
+00:16:55,320 --> 00:16:57,350
+Porque associado ao 108 f.
+
+186
+00:16:57,390 --> 00:17:02,400
+Você apontou pro Carlos mas a não está apontando para o assento 8 F.
+
+187
+00:17:02,730 --> 00:17:06,760
+Então você tem que ter cuidado quando você fizer a relação bidirecional.
+
+188
+00:17:06,840 --> 00:17:10,020
+Você garante que os dois lados têm dados consistentes.
+
+189
+00:17:10,110 --> 00:17:12,450
+Então a partir do assento 8 F.
+
+190
+00:17:12,510 --> 00:17:14,950
+Não é para eu encontrar o Carlos nesse caso.
+
+191
+00:17:15,020 --> 00:17:16,770
+E para encontrá la.
+
+192
+00:17:16,920 --> 00:17:22,920
+Então aqui pra eu referenciar essa instância que a conta para Ana.
+
+193
+00:17:22,920 --> 00:17:26,980
+Da mesma forma que esse dado aqui é para eu apontar para esse assento.
+
+194
+00:17:26,980 --> 00:17:33,480
+Ou seja você tem que garantir a consistência dos dados sempre que estiver trabalhando com relação bidirecional.
+
+195
+00:17:33,480 --> 00:17:40,350
+Então o amanhã vai ter um determinado filho o que é usual de código 3 só que jogue colo o texto a apontar
+
+196
+00:17:40,370 --> 00:17:43,730
+para a outra mãe que não é essa mãe que eu acabei de referenciar.
+
+197
+00:17:43,830 --> 00:17:48,090
+Então tem que ter esse cuidado com relação às relações bidirecional.
+
+198
+00:17:48,090 --> 00:17:55,050
+Então recapitular não só para terminar os relacionamentos no mundo só eles existem na sua forma digamos
+
+199
+00:17:55,050 --> 00:17:56,880
+assim é real.
+
+200
+00:17:56,970 --> 00:18:02,460
+Você tem relacionamento um dar uma classe então referência para outra classe.
+
+201
+00:18:02,880 --> 00:18:09,150
+Você tem relacionamento para muitos ou seja uma classe tem uma referência para uma lista de tipos de
+
+202
+00:18:09,150 --> 00:18:10,680
+outra classe.
+
+203
+00:18:10,800 --> 00:18:18,600
+Esse relacionamentos pode ser unidirecional ou bidirecional da mesma forma que um pra ele pode ser unidirecional
+
+204
+00:18:18,600 --> 00:18:19,530
+bidirecional.
+
+205
+00:18:19,550 --> 00:18:25,750
+E finalmente você também tem um relacionamento em Brahimi que é uma classe que tem uma lista do tipo
+
+206
+00:18:25,750 --> 00:18:30,830
+de outra classe e essa outra classe também tem uma lista de títulos da classe na primeira classe.
+
+207
+00:18:30,840 --> 00:18:35,810
+Você pode ter relacionamentos direcionais ou relacionamentos bi direcionais.
+
+208
+00:18:35,880 --> 00:18:42,690
+Já no caso do Mundo de relacionamento você tem a chave de uma tabela chave primária e indo para a outra
+
+209
+00:18:42,690 --> 00:18:44,680
+tabela com chave estrangeira.
+
+210
+00:18:44,700 --> 00:18:51,030
+Esse é um relacionamento digamos assim mais fundamental de banco de dados que um relacionamento Brahimi
+
+211
+00:18:51,150 --> 00:18:58,440
+e os outros dois são derivações ação digamos assim variações do relacionamento Brahimi e adicionando
+
+212
+00:18:58,440 --> 00:19:00,140
+uma constroem na chave estrangeira.
+
+213
+00:19:00,140 --> 00:19:06,180
+Você tem um relacionamento pra um relacionamento Brahimi e você tem uma relação virtual.
+
+214
+00:19:06,180 --> 00:19:10,600
+Parte de uma tabela intermediário ou seja dois relacionamentos um pra mim.
+
+215
+00:19:10,790 --> 00:19:13,880
+De dois lados formam um relacionamento.
+
+216
+00:19:14,130 --> 00:19:18,540
+Então é isso que eu queria falar para vocês dos relacionamentos tem uma diferença dos dois paradigmas
+
+217
+00:19:18,880 --> 00:19:24,440
+é só para gente complementar aqui falando pouquinho especificamente do Jota Beat.
+
+218
+00:19:24,510 --> 00:19:27,000
+Nós temos algumas anotações que nós vamos usar.
+
+219
+00:19:27,000 --> 00:19:36,000
+Nós temos a anotação e a arroba Johann que é um relacionamento pra um dos dois lados ou usa a mesma
+
+220
+00:19:36,000 --> 00:19:37,030
+anotação.
+
+221
+00:19:37,050 --> 00:19:47,880
+Nós temos a anotação a Olga o ano jogou mini ou seja a partir do lado eu quero relacionar algum lista
+
+222
+00:19:48,180 --> 00:19:49,880
+do lado muito está.
+
+223
+00:19:49,980 --> 00:19:55,400
+Então logo abaixo de mim eu vou ter aqui por exemplo uma lista com uma Collection.
+
+224
+00:19:55,710 --> 00:19:58,070
+Então vou colocar aqui uma lista.
+
+225
+00:19:58,110 --> 00:20:00,430
+Por exemplo logo abaixo desse cara.
+
+226
+00:20:00,540 --> 00:20:04,180
+Outra relação também importante é a relação.
+
+227
+00:20:04,200 --> 00:20:13,950
+Ao contrário dessa né que é o ministro ou então vou ter uma anotação chamada mini Ju ou seja que é o
+
+228
+00:20:13,950 --> 00:20:15,310
+par dessa relação.
+
+229
+00:20:15,420 --> 00:20:16,060
+Que é um par.
+
+230
+00:20:16,470 --> 00:20:18,640
+Eu tenho um ótimo mini mini João.
+
+231
+00:20:18,850 --> 00:20:28,110
+Mérito seria dentro do filho apontar para a mãe e o menino mão versa apontando para a lista de filhos.
+
+232
+00:20:28,110 --> 00:20:33,440
+Eu quero fazer uma relação bidirecional então tem que usar essas duas anotações.
+
+233
+00:20:33,510 --> 00:20:36,910
+Então o natural é você começar por essa menos de um ano.
+
+234
+00:20:37,040 --> 00:20:37,850
+Porquê.
+
+235
+00:20:38,070 --> 00:20:44,110
+A gente já viu que na tabela de filho onde eu tenho informação da mão então acaba sendo se a notação
+
+236
+00:20:44,110 --> 00:20:50,860
+principal para o CTS em relação a isso você precisa ter informação do lado da manhã do lado 1 e acessar
+
+237
+00:20:50,860 --> 00:20:57,390
+o Wine na lista do tipo aí então você vai precisar também usar essa notação e pra finalizar a gente
+
+238
+00:20:57,430 --> 00:21:02,930
+tem a outra anotação que é mini mini.
+
+239
+00:21:03,400 --> 00:21:10,680
+Então essas são as anotações que nós vamos usar relacionadas a os relacionamentos dentro do JP onde
+
+240
+00:21:11,640 --> 00:21:15,690
+o antigo Mini e Mini jogar e finalmente menos no dos dois lados.
+
+241
+00:21:15,690 --> 00:21:21,430
+Mesmo que você queira fazer uma relação bidirecional tem alguns truques nós vamos trabalhar nos exercícios
+
+242
+00:21:21,810 --> 00:21:28,610
+mas esse é um conceito conceitual e a parte teórica é importantíssima sobre relacionamentos e entender
+
+243
+00:21:28,930 --> 00:21:34,630
+que existe uma diferença entre os dois mundos e o ótimo chega justamente para facilitar a persistência
+
+244
+00:21:34,930 --> 00:21:38,080
+dos nossos objetos dentro do modelo do banco de dados.
+
+245
+00:21:38,110 --> 00:21:42,910
+Por aqui na próxima aula a gente continua para fazer nosso primeiro exercício que vai ser a relação
+
+246
+00:21:43,130 --> 00:21:44,650
+para aluno e disparou.

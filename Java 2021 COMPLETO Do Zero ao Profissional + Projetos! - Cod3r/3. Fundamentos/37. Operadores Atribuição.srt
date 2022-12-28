@@ -1,0 +1,239 @@
+1
+00:00:00,170 --> 00:00:06,600
+Pessoal desde o começo do capítulo logo no começo a gente falou sobre variáveis e constantes e nós começamos
+
+2
+00:00:06,600 --> 00:00:13,140
+a usar os operadores de atribuição um operador de atribuição também um operador que usa dois operandos.
+
+3
+00:00:13,140 --> 00:00:20,250
+Você tem o lado esquerdo da expressão e a variável que vai receber o valor é do lado direito.
+
+4
+00:00:20,250 --> 00:00:26,330
+Você pode ter um valor literal ou você pode ter uma ou outra variável mais o operador fica ali no meio.
+
+5
+00:00:26,330 --> 00:00:33,510
+Nessa notação em fixo entre os dois operandos é exatamente onde está que o nosso operador de atribuição
+
+6
+00:00:33,520 --> 00:00:35,340
+existem algumas outras variações.
+
+7
+00:00:35,340 --> 00:00:37,410
+Eu quero mencionar que vocês nessa aula.
+
+8
+00:00:37,800 --> 00:00:41,330
+Então nós vamos criar aqui um novo arquivo.
+
+9
+00:00:41,430 --> 00:00:44,930
+Eu vou colocar aqui o nome do nosso arquivo de atribuição.
+
+10
+00:00:44,960 --> 00:00:49,500
+Isso dentro de fundamentos operadores e operadores de atribuição.
+
+11
+00:00:49,500 --> 00:00:51,230
+Então eu vou colocar aqui.
+
+12
+00:00:51,460 --> 00:00:53,920
+Vamos definir o método.
+
+13
+00:00:54,250 --> 00:01:02,760
+E eu vou inicialmente criar aqui uma variável a recebe o valor três ou seja aqui eu tenho uma atribuição
+
+14
+00:01:02,760 --> 00:01:09,660
+conforme a gente tem feito desde o início eu tenho aqui por exemplo uma variável B recebe o valor da
+
+15
+00:01:09,660 --> 00:01:16,560
+variável algo seja do lado direito nela nossa expressão você tem a possibilidade de ter valores literais
+
+16
+00:01:16,650 --> 00:01:23,460
+ou mesmo outras variáveis ou também expressões nela você tem por exemplo um valor de c que recebe o
+
+17
+00:01:23,460 --> 00:01:27,540
+valor de A mais B e também uma possibilidade.
+
+18
+00:01:27,540 --> 00:01:33,420
+Você tem uma expressão ainda assim e eu tenho aqui um operador que trabalha com dois operandos os dois
+
+19
+00:01:33,420 --> 00:01:40,140
+operados e o resultado da expressão que será avaliado antes só depois esse resultado será atribuído
+
+20
+00:01:40,300 --> 00:01:41,640
+para a variável C.
+
+21
+00:01:41,790 --> 00:01:48,390
+Você também tem outras versões mais reduzidas por exemplo porque eu quero pagar o valor da variável
+
+22
+00:01:48,390 --> 00:01:54,270
+C para receber o valor da própria variável sei mais o valor da variável B.
+
+23
+00:01:54,400 --> 00:01:58,670
+Isso é possível ser feito sim e tem uma forma simplificada de fazer tem.
+
+24
+00:01:58,810 --> 00:02:01,010
+Como é que isso eu posso comentar.
+
+25
+00:02:01,010 --> 00:02:10,440
+O que coloco ou sei mais igual a B significa que eu estou acrescentando ao valor da variável C aquilo
+
+26
+00:02:10,440 --> 00:02:16,590
+que está dentro da variável B ou seja a mesma coisa de fazer c recebe sei mais bem eu posso fazer.
+
+27
+00:02:16,590 --> 00:02:24,120
+Por exemplo ser menos igual ao valor da variável a ou seja nesse caso está fazendo a mesma coisa de
+
+28
+00:02:24,120 --> 00:02:33,540
+100 recebe o valor de ser menos o valor de outra operação ser multiplicado igual ao valor de B o que
+
+29
+00:02:33,540 --> 00:02:41,820
+significa que nesse caso eu coloco C recebe C recebe o próprio C multiplicado pelo valor de B ou seja
+
+30
+00:02:41,820 --> 00:02:47,820
+são formas diferentes de você tem de atribuir uma variável em outra sem necessariamente precisar repetir
+
+31
+00:02:47,820 --> 00:02:55,380
+o valor de 100 você não está substituindo e sim fazendo uma atribuição aditiva uma atribuição subtrai
+
+32
+00:02:55,380 --> 00:03:03,060
+ativa uma atribuição muito explicativa você tem uma atribuição divisível que é o valor igual ao valor
+
+33
+00:03:03,060 --> 00:03:06,110
+de 3 valores de ar por exemplo.
+
+34
+00:03:06,120 --> 00:03:11,910
+Nesse caso se você não quer número quebrado basta colocar os valores inteiros que é o que vai acontecer
+
+35
+00:03:12,000 --> 00:03:14,480
+mas se você quiser o número quebrado tem que fazer um encaixe.
+
+36
+00:03:14,480 --> 00:03:20,130
+Por exemplo estou trabalhando com variáveis que a mesma coisa de 100 recebe o valor de c dividido medido
+
+37
+00:03:20,130 --> 00:03:21,130
+pelo valor de A.
+
+38
+00:03:21,520 --> 00:03:26,850
+E você também tem a possibilidade de fazer o operador módulo então um módulo igual a 2.
+
+39
+00:03:26,850 --> 00:03:29,660
+Por exemplo eu quero saber se esse número um número par ou ímpar.
+
+40
+00:03:29,730 --> 00:03:37,140
+Então isso aqui é a mesma coisa de ser 100 dividido por dois na verdade desses dois não ser Módulo 2
+
+41
+00:03:37,560 --> 00:03:46,770
+certo e esse resultado sei algum número Módulo 2 ele vai da 0 ou vai dar 1 se 10 0 significa número
+
+42
+00:03:46,820 --> 00:03:47,420
+par.
+
+43
+00:03:47,490 --> 00:03:54,420
+E se der significa o número ainda estão mostrando no final que o valor da variável segue as pisadas
+
+44
+00:03:54,850 --> 00:04:02,420
+no caso c é um valor pago antes de fazer o módulo eu posso duplicar essa linha colocar aqui em cima
+
+45
+00:04:02,410 --> 00:04:07,350
+para a gente ver o valor que tinha antes ao valor depois de todas essas operações é que o valor foi
+
+46
+00:04:07,650 --> 00:04:15,300
+6 e 6 obviamente é um valor pago por isso que o resto da divisão por 2 0 que qualquer número dividido
+
+47
+00:04:15,390 --> 00:04:16,870
+por dois o resto divisões.
+
+48
+00:04:16,950 --> 00:04:23,500
+Então nós temos aqui uma atribuição aditiva não atribuição subtrai ativa uma atribuição explicativa
+
+49
+00:04:23,540 --> 00:04:30,360
+a atribuição dividir divisível é uma atribuição de módulo ou atribuição módulo lá e aqui são formas
+
+50
+00:04:30,360 --> 00:04:36,390
+reduzidas que você tem de fazer atribuição em cima dos valores existem outras atribuições que você pode
+
+51
+00:04:36,390 --> 00:04:42,120
+fazer certo que são os operadores lunares eu vou comentar isso em outra aula mas só adiantando se você
+
+52
+00:04:42,120 --> 00:04:44,520
+fizer que ao ser mais mais.
+
+53
+00:04:44,520 --> 00:04:50,100
+Isso aqui não deixa de ser um operador de atribuição pouca isso é equivalente ou você faz vc recebe
+
+54
+00:04:50,100 --> 00:04:53,190
+o valor de ser mais um sucesso aqui internamente.
+
+55
+00:04:53,460 --> 00:05:00,450
+Quem vai fazer atribuição é o próprio Java mas esse é um operador na área de incremento e ele funcionou
+
+56
+00:05:00,450 --> 00:05:03,250
+como uma atribuição sempre acrescentando valor.
+
+57
+00:05:03,390 --> 00:05:09,850
+Isso é usar a subtração ele vai aumentar o valor e remover um valor da variável.
+
+58
+00:05:09,870 --> 00:05:11,790
+Mas eu vou comentar em outra aula.
+
+59
+00:05:11,790 --> 00:05:15,910
+Por isso eu não vou deixar registrado aqui só para adiantar então fico por aqui.
+
+60
+00:05:15,940 --> 00:05:18,840
+São os operadores de atribuição e até os.

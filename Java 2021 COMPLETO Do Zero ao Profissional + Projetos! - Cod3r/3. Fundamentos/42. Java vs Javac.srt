@@ -1,0 +1,371 @@
+1
+00:00:00,520 --> 00:00:06,450
+Vou mostrar aqui um exemplo pra vocês que meu exemplo talvez valesse a pena vocês estarem realmente
+
+2
+00:00:06,450 --> 00:00:14,480
+fazendo porque é um exemplo mais só pra mostrar mesmo a questão do Java com ele e do Java né que é o
+
+3
+00:00:14,490 --> 00:00:20,800
+que executa um código Java e mostra isso de um forma mais manual inclusive acessando no próprio terminal.
+
+4
+00:00:21,020 --> 00:00:27,360
+Então para isso eu vou abrir aqui um editor de texto que eu uso muito como hoje vou criar um arquivo
+
+5
+00:00:27,400 --> 00:00:32,540
+e esse aqui eu vou colocar dentro do no desktop e então colocar aqui Desktop.
+
+6
+00:00:32,770 --> 00:00:40,320
+Vou colocar aqui o nome do arquivo pra ser teste em Java e ele vai conhecer a linguagem Java daqui eu
+
+7
+00:00:40,320 --> 00:00:46,420
+vou criar uma classe e vou colocar que eu public class vou usar o mesmo nome do arquivo já vale aqui
+
+8
+00:00:46,440 --> 00:00:54,240
+a observação que a classe tem a classe pública que depois não falar um pouco mais porque tem exatamente
+
+9
+00:00:54,240 --> 00:00:56,840
+o mesmo nome do arquivo do Java.
+
+10
+00:00:56,960 --> 00:01:03,730
+Se você coloca o teste ponto Java o nome da classe Tech aqui eu vou criar um método publicos estático
+
+11
+00:01:03,820 --> 00:01:05,590
+e meio.
+
+12
+00:01:05,820 --> 00:01:13,630
+Vou colocar aqui string é aqui onde tem árabes você pode colocar chips não tem necessariamente PCs árabes
+
+13
+00:01:13,650 --> 00:01:20,460
+aqui até falar um pouquinho sobre isso na sala de Chaves aqui deixar x não tem problema não é aqui eu
+
+14
+00:01:20,460 --> 00:01:38,310
+vou usar o System alto Alt Print ali vou colocar Olá terminal do estado onde tive aqui aqui aposta um
+
+15
+00:01:38,310 --> 00:01:45,380
+pouquinho a fonte pra não ficar visível e aqui eu não coloquei dentro de um pacote pouco eu coloquei
+
+16
+00:01:45,400 --> 00:01:51,690
+o arquivo Souto DEM da nossa aplicação não necessariamente precisa ter um pacote aqui no caso um exemplo
+
+17
+00:01:51,690 --> 00:01:53,940
+disso tenho aqui a minha classe.
+
+18
+00:01:54,060 --> 00:02:01,290
+Coloquei o meu método meio e agora eu vou abrir o terminal pra gente compilar a classe então vou entrar
+
+19
+00:02:01,290 --> 00:02:09,870
+aqui dentro dessa que toco daqui um ms no caso do Windows e diz pra você visualizar o diretório aqui
+
+20
+00:02:09,870 --> 00:02:13,330
+eu tenho alguns arquivos e um deles é o teste pronto Java.
+
+21
+00:02:13,350 --> 00:02:15,770
+Se eu chamar aqui ao Java sei.
+
+22
+00:02:15,980 --> 00:02:18,150
+Ponto teste ponto Java e acertar.
+
+23
+00:02:18,160 --> 00:02:24,820
+Ele vai compilar o código e vai gerar um arquivo teste ponto Java e é exatamente esse artigo teste ponto
+
+24
+00:02:24,840 --> 00:02:28,730
+de teste ponto que LESS melhor dizendo o desconto Java ou código fonte.
+
+25
+00:02:28,740 --> 00:02:34,350
+Teste ponto Class é um arquivo binário se adequam Kate que ele mostra o conteúdo de um arquivo ao teste
+
+26
+00:02:34,350 --> 00:02:40,950
+ponto Java você vai ver que o conteúdo e o conteúdo de texto ele consegue mostrar perfeitamente aqui
+
+27
+00:02:41,310 --> 00:02:44,760
+mais ou tentar mostrar o conteúdo do arquivo morto claras.
+
+28
+00:02:44,760 --> 00:02:49,530
+Ele gerou aquilo que seria o bytecode que vai ser interpretado pela máquina virtual certo.
+
+29
+00:02:49,840 --> 00:02:53,760
+Ou seja um código bem mais estranho naquilo que a gente está acostumado a limpar o terminal.
+
+30
+00:02:53,850 --> 00:03:03,290
+é pra gente compilar Java C usando fechem ponto Java esculpir o código que gerou o contactless e ponto
+
+31
+00:03:03,300 --> 00:03:09,590
+Java exatamente como ele chama a máquina virtual do Java para executar o arquivo teste ponto.
+
+32
+00:03:09,640 --> 00:03:16,860
+Nesse caso eu não preciso colocar extensão mas colocar o Java em que ele vai executar coloco Olá terminal
+
+33
+00:03:16,860 --> 00:03:22,890
+do computador ou seja aquilo que eu coloquei ele vai mostrar aqui se você quiser por exemplo vou colocar
+
+34
+00:03:22,890 --> 00:03:27,620
+aqui pra ele tá forte Java.
+
+35
+00:03:27,810 --> 00:03:43,640
+Ponto último ponto Escânia e aqui eu posso criá la desse canal de entrada recebe mil esse canal vai
+
+36
+00:03:43,650 --> 00:03:46,390
+ser um system ponto.
+
+37
+00:03:46,890 --> 00:03:51,810
+Eu tenho um plug in do Java instalado no MS Code então ele acaba completando alguns cursos pra gente
+
+38
+00:03:51,810 --> 00:03:53,720
+não entrada.
+
+39
+00:03:53,920 --> 00:04:00,570
+Ponto closed SAP é um método usa então o resto de mim e o editor ideal para mostrar realmente fazem
+
+40
+00:04:00,570 --> 00:04:04,950
+na na mão e ela é muito boa inclusive para programar em Java.
+
+41
+00:04:04,950 --> 00:04:09,720
+Até fiquei muito na dúvida seus alvos escolheu usava eclipse mas pode ser que até em algum momento o
+
+42
+00:04:09,720 --> 00:04:15,900
+custo queria algumas aulas pra mostrar pra vocês Como configurar o esconde e como usar ele é muito legal
+
+43
+00:04:15,900 --> 00:04:16,790
+gosto muito.
+
+44
+00:04:16,920 --> 00:04:25,170
+Então aqui eu posso criar por exemplo um estilingue por exemplo entrada recebe entrada na boca já tem
+
+45
+00:04:25,170 --> 00:04:35,870
+esse nome né presidente ou recebe entrada na China Li aqui no final vou imprimi bosta aquele System
+
+46
+00:04:35,900 --> 00:04:45,850
+Audio olhe completa também colocar lo ou deixar concatenar algum valor da variável global só pra mostrar
+
+47
+00:04:45,850 --> 00:04:52,710
+aqui mais um exemplo vou precisar compilar novamente meu corpo que só executar de novo ele vai mostrar
+
+48
+00:04:52,710 --> 00:04:59,250
+o antigo e o que eles fazem essa compilação automática já mostra pra vocês o canto que está dizendo
+
+49
+00:04:59,250 --> 00:05:07,030
+pra ele automático ao compilar novamente agora executando o trecho Olá terminal o computador está esperando
+
+50
+00:05:07,030 --> 00:05:11,150
+digitar alguma coisa boa dizendo Olá também.
+
+51
+00:05:11,630 --> 00:05:14,610
+Então vá lá e colocou o valor é lá também.
+
+52
+00:05:14,690 --> 00:05:21,320
+Outra coisa só para deixar claro para que serve esse X aqui no meio e eu ver se eu consigo só imprimir
+
+53
+00:05:21,320 --> 00:05:27,540
+o valor de x aqui no final cis aos 89 mil alunos X.
+
+54
+00:05:28,050 --> 00:05:30,420
+E eu vou executar aqui novamente.
+
+55
+00:05:30,430 --> 00:05:38,110
+Vou ter de compilar novamente um processo manual e agora vou colocar aqui tachi.
+
+56
+00:05:38,120 --> 00:05:45,390
+Na verdade nem devia ter feito isso aqui um outro caso eu vou colocar não preciso para qualquer ISO
+
+57
+00:05:45,410 --> 00:05:48,290
+vou colocar aqui colchetes deram certo.
+
+58
+00:05:48,350 --> 00:05:52,260
+Vou compilar novamente e vou marchar pra você para fique certo.
+
+59
+00:05:52,250 --> 00:05:55,330
+Nesse caso vou chamar assim Java teste.
+
+60
+00:05:55,340 --> 00:06:06,410
+Vou passar um espaço vou colocar aqui que lá é legal e quando isso você vai bem o táxi achei que ele
+
+61
+00:06:06,530 --> 00:06:12,330
+exibiu o valor legal que foi passado na hora de acertar o seu programa Java.
+
+62
+00:06:12,410 --> 00:06:19,850
+Por isso que o nome aqui é verde X e diz que é exatamente os argumentos que você passa quando você vai
+
+63
+00:06:19,850 --> 00:06:23,250
+chamar um arquivo Java haviam terminado o computador.
+
+64
+00:06:23,510 --> 00:06:30,070
+é possível você passar alguns argumentos por exemplo eu fazer um comando no meu computador que vai ser
+
+65
+00:06:30,120 --> 00:06:31,150
+ele assim.
+
+66
+00:06:31,460 --> 00:06:33,700
+E aí ele vai fazer desse jeito seu passado.
+
+67
+00:06:33,700 --> 00:06:38,840
+Ele merece menos ele aí ele vai mostrar de uma forma completamente diferente os arquivos do meu computador
+
+68
+00:06:38,840 --> 00:06:42,120
+inclusive mostra arquivos que estão escondidos.
+
+69
+00:06:42,470 --> 00:06:45,670
+Então isso aqui são parâmetros que eu estou passando por.
+
+70
+00:06:45,710 --> 00:06:52,770
+Da mesma forma que eu consigo passar parâmetros para o meu programa Java e Java Technology Program aqui
+
+71
+00:06:52,820 --> 00:06:58,910
+legal é um parâmetro que eu passei então executando isso você vai ver ao lado do terminal do computador.
+
+72
+00:06:59,190 --> 00:07:05,780
+Aqui ele mostrou tanto valor que como mostrou também o argumento mas isso pessoal envolve outras questões
+
+73
+00:07:05,780 --> 00:07:11,120
+que em relação a Rui que eu vou falar mais à frente tal não é muito importante pra você tá se preocupando
+
+74
+00:07:11,120 --> 00:07:15,950
+com isso agora mas só mostrando um pouquinho pra que serve esses argumentos ou seja aqui no terminal
+
+75
+00:07:15,950 --> 00:07:22,340
+o computador você passa e outra coisa que eu quero mostrar exatamente a chamada de Java e Java C Java
+
+76
+00:07:22,340 --> 00:07:29,360
+C Java com um baile que é o que vai compilar transformar um arquivo Java no arquivo contactless e o
+
+77
+00:07:29,360 --> 00:07:35,810
+arquivo Java e o programa Java ME DIZER não arquivo Java ou programa Java que chama um arquivo ponto
+
+78
+00:07:35,810 --> 00:07:42,380
+Class ou que vai chamar Máquina Virtual para interpretar aquele aqui e aqui dentro do nosso código se
+
+79
+00:07:42,380 --> 00:07:47,990
+você clicar e saber qual o menu que já nem me lembro mais sobre projeta aqui ao projeto.
+
+80
+00:07:48,110 --> 00:07:50,910
+Você tem essa opção build automaticamente.
+
+81
+00:07:50,960 --> 00:07:57,320
+Significa que sempre que você salve um arquivo esse código é compilado automaticamente ou seja o próprio
+
+82
+00:07:57,320 --> 00:07:59,100
+Eclipse chão para a gente.
+
+83
+00:07:59,360 --> 00:08:05,540
+O compilador gera o ponto less mais novo e quando você executa ele executa o contactless mais novo sem
+
+84
+00:08:05,540 --> 00:08:10,460
+necessariamente você precisar ficar chamando esse processo manual mas acho que é legal você ter essa
+
+85
+00:08:10,460 --> 00:08:17,450
+noção do Java e do Java C não Java com pala e o Java que exatamente o programa que é o que chama a máquina
+
+86
+00:08:17,450 --> 00:08:21,000
+virtual para interpretar o baixo Code e o rodar o seu código.
+
+87
+00:08:20,990 --> 00:08:25,520
+A gente também entendeu que não era tanto objetivo da aula mas a gente entendeu um pouquinho sobre pra
+
+88
+00:08:25,520 --> 00:08:30,710
+que serve os argumentos e mais a frente a gente volta para revisitar conceitos que estão relacionados
+
+89
+00:08:30,710 --> 00:08:32,740
+com isso que é o caso do conceito de Harry.
+
+90
+00:08:32,990 --> 00:08:37,880
+Então esse arquivo que eu fiz ali por fora não vou colocar no nosso código só para vocês terem um exemplo
+
+91
+00:08:37,910 --> 00:08:44,540
+de como executar o nosso código a partir do terminal chamado Java como palha para transformar o Java
+
+92
+00:08:44,540 --> 00:08:49,670
+em ponto Class e depois chamamos o Java para interpretar o de cor de marca exatamente o arquivo ponto
+
+93
+00:08:49,670 --> 00:08:53,380
+que ele lê e executa o nosso código também de forma manual.

@@ -1,0 +1,411 @@
+1
+00:00:00,390 --> 00:00:06,690
+Não sei se vocês leram lá no primeiro capítulo como a gente falou de um algoritmo e depois falamos de
+
+2
+00:00:06,960 --> 00:00:09,150
+estrutura de dados principalmente na área de algoritmo.
+
+3
+00:00:09,150 --> 00:00:16,470
+Eu falei pra vocês que o algoritmo na seqüência de passos é a sequência de passos ela pode ter momentos
+
+4
+00:00:16,470 --> 00:00:20,610
+que um determinado passo é executado em detrimento de outro.
+
+5
+00:00:20,640 --> 00:00:26,820
+Então passo não executar de acordo com a condição ou mesmo vários passos executados múltiplas vezes
+
+6
+00:00:26,820 --> 00:00:31,380
+e esse é um tema que a gente vai abordar mais à frente no próximo capítulo desse capítulo a falar de
+
+7
+00:00:31,380 --> 00:00:33,630
+uma outra forma que você tem de atribuir.
+
+8
+00:00:33,660 --> 00:00:39,460
+A gente viu em aulas passadas e falou sobre a atribuição na aula passada na verdade falou de operador
+
+9
+00:00:39,470 --> 00:00:44,190
+na área que termina deixe de ser uma atribuição e logo na aula anterior falamos de atribuição certo
+
+10
+00:00:44,240 --> 00:00:50,100
+e eu vou falar na sala de uma atribuição condicional ou seja você tem a capacidade de escolher entre
+
+11
+00:00:50,100 --> 00:00:53,370
+dois valores para que você possa atribuir lhe uma variável.
+
+12
+00:00:53,370 --> 00:00:59,070
+Na verdade você pode colocar um operador ternário dentro do outro exatamente que dá ao operador ternário
+
+13
+00:00:59,150 --> 00:01:03,280
+mas eu vou trabalhar de uma forma mais simples colocando apenas um único operador ternário mas colocar
+
+14
+00:01:03,280 --> 00:01:09,000
+dois operadores três operadores ternário não é algo complexo de ser feito supersimples e não tem nada
+
+15
+00:01:09,270 --> 00:01:14,040
+além disso o fato é que o código não fica muito claro eu não gosto muito de trabalhar com mais um operador
+
+16
+00:01:14,040 --> 00:01:19,410
+ternário na mesma linha o ideal é você criar outra variável e aí trabalhando com múltiplas variáveis
+
+17
+00:01:19,410 --> 00:01:25,830
+como no nosso exemplo que nós usamos aqui nos operadores relacionais a gente cria várias variáveis não
+
+18
+00:01:25,830 --> 00:01:31,320
+tem problema você cria variáveis não tem que ali você criar variáveis com nomes relativamente grandes
+
+19
+00:01:31,330 --> 00:01:34,130
+porque a própria ideia vai te ajudando a completar.
+
+20
+00:01:34,180 --> 00:01:39,850
+Então vamos lá vamos criar aqui uma classe de operadores mil Class o nome da nossa classe irá bater
+
+21
+00:01:39,860 --> 00:01:46,890
+na área e que nós vamos criar um exemplo bem simples para trabalhar com o operador ternário que nada
+
+22
+00:01:46,890 --> 00:01:49,540
+mais é do que uma atribuição condicional.
+
+23
+00:01:49,620 --> 00:01:56,250
+Então inicialmente eu vou criar aqui uma variável dando nota que vai receber o valor sete pontos seis
+
+24
+00:01:56,810 --> 00:01:59,030
+e logo na sequência eu vou criar aqui.
+
+25
+00:01:59,040 --> 00:02:04,740
+Na verdade nota não fica melhor média então qualquer médio gosta de com e eu vou criar aqui um estilingue
+
+26
+00:02:04,740 --> 00:02:11,340
+chamada resultado e o resultado será condicional porque.
+
+27
+00:02:11,340 --> 00:02:13,250
+Porque vai depender do valor da média.
+
+28
+00:02:13,260 --> 00:02:19,840
+Se a média for maior ou igual a 7 certo pode ser sete sete pontos zero.
+
+29
+00:02:19,890 --> 00:02:27,150
+Aí sim se essa expressão for verdadeira eu vou retornar e atribuir as 30 nota que o tipo da variável
+
+30
+00:02:27,150 --> 00:02:29,760
+que eu estou atribuindo é do tipo string.
+
+31
+00:02:30,240 --> 00:02:36,060
+Então aqui eu tenho a minha inspiração que pode ser verdadeiro ou falso e logo na sequência eu tenho
+
+32
+00:02:36,170 --> 00:02:39,390
+o caso que essa expressão vai ser verdadeira.
+
+33
+00:02:39,390 --> 00:02:46,470
+Eu vou atribuir Resultado aprovado caso contrário colocando os dois pontos eu coloco aqui um estilingue
+
+34
+00:02:46,720 --> 00:02:51,080
+Bloco aprovado ou então reco são.
+
+35
+00:02:51,720 --> 00:02:58,110
+Então nesse caso eu fiz uma atribuição condicional porque condicional é porque aqui eu tenho uma expressão
+
+36
+00:02:58,140 --> 00:03:00,800
+que pode ser verdadeira ou falsa.
+
+37
+00:03:00,930 --> 00:03:07,920
+Se essa expressão for verdadeira o meu operador ternário ele tem dois símbolos que são separados e o
+
+38
+00:03:07,920 --> 00:03:15,090
+símbolo de interrogação que separa a mim expressão dos valores que vão ser atribuídos neles dois valores
+
+39
+00:03:15,090 --> 00:03:21,060
+que vão são atribuídos e tenho o signo de dois pontos que separa o valor no caso que a expressão for
+
+40
+00:03:21,060 --> 00:03:24,210
+verdadeira e o valor no caso que a expressão for falsa.
+
+41
+00:03:24,270 --> 00:03:31,550
+Nesse caso como já tenho aqui o resultado eu posso imprimi quis assistem ao diferente ali
+
+42
+00:03:35,130 --> 00:03:42,180
+está eu vou colocar aqui resultado certo eu posso colocar até com letra minúscula acho que vai ficar
+
+43
+00:03:42,180 --> 00:03:51,320
+mais interessante para o lado e reparação está aqui no caso seria em reparação fica melhor mas também
+
+44
+00:03:51,390 --> 00:03:53,670
+você tem o aluno está aprovado.
+
+45
+00:03:53,690 --> 00:04:03,210
+Posso colocar um ponto final e no caso se eu colocar cinco pontos sensual contra o f 11 o aluno está
+
+46
+00:04:03,210 --> 00:04:09,540
+em operação e você pode dizer vai ter situação aqui no caso de recuperação que dependendo da aluna ele
+
+47
+00:04:09,540 --> 00:04:15,190
+pode estar pior do que em reparação pode estar reprovado e aí você pode fazer o seguinte.
+
+48
+00:04:15,820 --> 00:04:22,940
+Estranho por exemplo o resultado da ação que você pode colocá lo.
+
+49
+00:04:22,950 --> 00:04:35,710
+Se a média do aluno for maior do que 5 significa que ele está em recuperação com o pré sal.
+
+50
+00:04:35,940 --> 00:04:39,980
+Caso contrário ele está reprovado pro lado.
+
+51
+00:04:40,410 --> 00:04:46,950
+Então nesse caso ele faz uma operação ternário certo e eu coloco esse resultado aqui embaixo como o
+
+52
+00:04:46,950 --> 00:04:48,100
+resultado final.
+
+53
+00:04:48,130 --> 00:04:51,450
+Esse aqui é o segundo resultado e eu vou.
+
+54
+00:04:51,450 --> 00:04:55,430
+O fato de a média dele ser maior do que cinco nessa primeira o resultado parcial.
+
+55
+00:04:55,450 --> 00:05:05,220
+Posso colocar aqui pra ser resultado parcial corte espacial é resultado final em estado parcial pode
+
+56
+00:05:05,220 --> 00:05:09,610
+até dar um valor distorcido porque qualquer número maior do crescimento vai dar em reparação.
+
+57
+00:05:09,900 --> 00:05:17,580
+Mas aqui embaixo é que ele vai realmente calcular o estado final o que seria equivalente ao ter um valor
+
+58
+00:05:17,580 --> 00:05:19,350
+ternário dentro do outro certo.
+
+59
+00:05:19,350 --> 00:05:24,900
+E aqui eu posso colocar o valor de Estado passaram inclusive se eu quiser pegar isso aqui e colocar
+
+60
+00:05:24,990 --> 00:05:26,300
+dentro da mesma linha.
+
+61
+00:05:26,310 --> 00:05:32,640
+Eu posso fazer certo ou seja eu posso ter uma expressão da eterna área da outra como eu falei isso não
+
+62
+00:05:32,640 --> 00:05:36,280
+é uma dificuldade nenhuma então nesse caso o aluno está em reparação.
+
+63
+00:05:36,330 --> 00:05:41,220
+Se eu colocar o aluno em três pontos seis quando o aluno está reprovado.
+
+64
+00:05:41,220 --> 00:05:45,090
+Se eu colocar um nota 8 pontos 6 o aluno está aprovado.
+
+65
+00:05:45,090 --> 00:05:51,300
+Nesse caso eu não quero trabalhar com eu falei com vocês e com múltiplos um operador ternário.
+
+66
+00:05:51,360 --> 00:05:56,700
+Do outro eu acho que é o tipo do cenário que vai trazer mais confusão do que ajuda então para a gente
+
+67
+00:05:56,700 --> 00:05:58,810
+trabalhar de uma forma mais simples.
+
+68
+00:05:58,830 --> 00:06:04,590
+é exatamente isso que eu quero que o corte final seja possa até quebrar em 12 meses para ficar um pouco
+
+69
+00:06:04,590 --> 00:06:05,900
+mais fácil a visualização.
+
+70
+00:06:05,910 --> 00:06:12,290
+Então se a média formal do Q7 logo depois da interrogação primeiro o resultado é o caso verdadeiro e
+
+71
+00:06:12,300 --> 00:06:14,790
+o segundo resultado é o caso falso.
+
+72
+00:06:14,830 --> 00:06:22,760
+Eu vou colocar o São Paulo ser chata e aprová lo direto.
+
+73
+00:06:23,190 --> 00:06:29,250
+Finalmente mostrando que a nossa lei está no final que é o resultado dessa expressão ternário ou seja
+
+74
+00:06:29,250 --> 00:06:36,610
+tem três operandos eu tenho a expressão eu tenho um valor quando é verdadeiro e eu tenho um valor é
+
+75
+00:06:36,720 --> 00:06:37,230
+falso.
+
+76
+00:06:37,260 --> 00:06:43,800
+Por isso que eu vou me ternário de três operandos em cima desse operador vi dois símbolos que é o símbolo
+
+77
+00:06:44,280 --> 00:06:48,580
+de interrogação e os os dois pontos para separar os dois valores etc.
+
+78
+00:06:48,620 --> 00:06:50,610
+Você pode tentar fazer outros exemplos.
+
+79
+00:06:50,620 --> 00:06:57,270
+Outra possibilidade que você teria de usar o operador ternário seria no caso que a gente fez aqui nos
+
+80
+00:06:57,270 --> 00:06:58,350
+relacionais.
+
+81
+00:06:58,740 --> 00:07:05,910
+Essa parte final que tem desconto aí pode também bota aqui pro ternário que você pegar esse exemplo
+
+82
+00:07:06,210 --> 00:07:10,860
+da nota do bom comportamento tal se tem desconto sim ou não.
+
+83
+00:07:10,860 --> 00:07:16,920
+Eu posso fazer aqui também outra variável chamada resultado lá em cima chamei o estado final que eu
+
+84
+00:07:16,920 --> 00:07:24,190
+vou chamar só resultado certo o resultado recebe o valor de desconto.
+
+85
+00:07:24,200 --> 00:07:30,320
+Aí eu coloco por exemplo se tenho desconto o resultado é sim caso contrário o resultado é.
+
+86
+00:07:30,790 --> 00:07:38,240
+Só que como um extra eu coloquei que tive da minha variável e distrito e aqui em vez de colocar outro
+
+87
+00:07:38,250 --> 00:07:41,670
+ou falso como estava insinuante nos salvar.
+
+88
+00:07:42,130 --> 00:07:44,280
+Aqui tem desconto falso.
+
+89
+00:07:44,280 --> 00:07:46,950
+é muito melhor você usar aquilo.
+
+90
+00:07:47,210 --> 00:07:55,980
+O resultado fica mais interessante na código não tem desconto não eu posso colocar aqui maiúscula a
+
+91
+00:07:55,980 --> 00:08:02,460
+mesma coisa que eu sim de um ponto de vista tem desconto não porque ele uma nota boa mas até um bom
+
+92
+00:08:02,460 --> 00:08:03,320
+comportamento.
+
+93
+00:08:03,360 --> 00:08:11,500
+Aqui também eu poderia usar um print CF né tem desconto que na verdade eu coloco gôndola S e.
+
+94
+00:08:12,070 --> 00:08:15,870
+Resultado também há a possibilidade de usar o PDF.
+
+95
+00:08:16,180 --> 00:08:20,200
+Etanol tem desconto não é.
+
+96
+00:08:20,370 --> 00:08:26,880
+Se eu fizer bom comportamento obviamente ela tem bom comportamento e quase a nota 10.
+
+97
+00:08:26,910 --> 00:08:29,050
+Ele vai ter desconto Sim certo.
+
+98
+00:08:29,070 --> 00:08:33,950
+Outra possibilidade que eu tenho pra usar o operador ternário pra converter por exemplo o valor dele
+
+99
+00:08:33,960 --> 00:08:35,410
+falso em sim não.
+
+100
+00:08:35,420 --> 00:08:41,310
+Por exemplo o Supersimples é algo extremamente útil no dia a dia quando você vai às vezes na interface
+
+101
+00:08:41,310 --> 00:08:46,890
+gráfica você recebe um valor booleano e quer mostrar para o usuário visualmente se está habilitado não
+
+102
+00:08:46,890 --> 00:08:48,720
+quer substituir por.
+
+103
+00:08:48,850 --> 00:08:51,000
+ótima alternativa é usar operador ternário.

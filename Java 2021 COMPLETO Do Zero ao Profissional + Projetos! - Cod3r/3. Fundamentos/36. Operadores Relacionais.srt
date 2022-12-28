@@ -1,0 +1,331 @@
+1
+00:00:00,270 --> 00:00:07,230
+Agora vamos falar sobre os operadores relacionais operadores maior ok maior ou igual menor que é diferente
+
+2
+00:00:07,290 --> 00:00:13,630
+igual e todos esses operadores têm algo em comum que é retornar valores verdadeiros.
+
+3
+00:00:13,650 --> 00:00:20,640
+O falso é muito comum você tem expressões na prática que envolvem operadores relacionais junto com operadores
+
+4
+00:00:20,640 --> 00:00:22,830
+lógicos que a gente viu nela passar.
+
+5
+00:00:22,830 --> 00:00:28,860
+Eu vou mostrar para vocês alguns exemplos dessa algo estão colocando aqui ou criando uma nova classe.
+
+6
+00:00:28,980 --> 00:00:38,730
+O nome será relacionais ainda dentro do pacote de fundamentos operadores de pacote operadores e aqui
+
+7
+00:00:39,120 --> 00:00:41,100
+eu vou definir o método.
+
+8
+00:00:41,470 --> 00:00:47,510
+Eu quero mostrar aquilo algo até mim é sempre interessante e apesar de ter falado o foco da aula se
+
+9
+00:00:47,520 --> 00:00:53,040
+operadores relacionais eu quero mostrar um comportamento estranho pra vocês que acontece no Java não
+
+10
+00:00:53,040 --> 00:00:58,500
+é algo muito comum você encontrar no dia a dia mais eu vou só ressaltar que existe essa possibilidade
+
+11
+00:00:58,500 --> 00:01:03,660
+de Java mas eu não estou encorajando você a usar esse tipo de recurso porque eu acho que não faz muito
+
+12
+00:01:03,660 --> 00:01:04,230
+sentido.
+
+13
+00:01:04,520 --> 00:01:11,970
+Mas eu não vou criar a variável inteira a que recebe o valor 97 e vou criar aqui uma variável inteira
+
+14
+00:01:12,070 --> 00:01:21,060
+de que vai receber o valor de um caractere a certo aspas simples não é as duplas é associado a cada
+
+15
+00:01:21,060 --> 00:01:28,920
+caractere da tabela Unicode você tem um número inteiro associado a uma letra e aqui exatamente em cima
+
+16
+00:01:28,920 --> 00:01:33,140
+do número associado à letra aquele que atribui a variável B certo.
+
+17
+00:01:33,150 --> 00:01:41,490
+E aí se eu fizer um system Alt e já usando um operador relacional de comparação ou seja a é igual igual
+
+18
+00:01:41,640 --> 00:01:48,810
+a B já que o operador de atribuição igual dentro do Java o operador de comparação para saber se o número
+
+19
+00:01:49,170 --> 00:01:56,430
+é igual ao outro o texto é igual ao outro um objeto igual ao outro e usando a comparação com ela são
+
+20
+00:01:56,430 --> 00:02:01,260
+objeto alguns detalhes como falar um pouco mais na frente certa vão lá executando esse código você vai
+
+21
+00:02:01,260 --> 00:02:06,100
+ver que ele está verdadeiro ou seja equivale a 97.
+
+22
+00:02:06,240 --> 00:02:13,370
+Eu falei pra vocês que existem uma forma de você imprimir um caractere usando o símbolo do ícone.
+
+23
+00:02:13,410 --> 00:02:19,230
+Se você colocar 0 0 97 não vai dar certo ele não vai imprimir a letra ok.
+
+24
+00:02:19,390 --> 00:02:23,700
+Porque esse número aqui de 4 dígitos é um número hexadecimal.
+
+25
+00:02:23,700 --> 00:02:27,630
+Então se eu pegar o Brasil eu vou tirar pegar um barco e trazer pra cá.
+
+26
+00:02:27,630 --> 00:02:31,440
+Certo é Jr minimizar quiabo pra outro.
+
+27
+00:02:31,560 --> 00:02:39,280
+Nesse caso se eu diminuir um pouco o que está muito grande nesse caso se você pegar um número 97 ou
+
+28
+00:02:39,430 --> 00:02:43,860
+hexadecimal você vai ver que o resultado é 61.
+
+29
+00:02:43,860 --> 00:02:52,850
+Então se eu fizer o 00 meia você vai ver que é exatamente o valor inteiro correspondente à letra.
+
+30
+00:02:52,860 --> 00:02:59,660
+Isso aqui também imprime a letra da mesma forma que vai ser exatamente 97 o número na base decimal que
+
+31
+00:02:59,670 --> 00:03:06,540
+vai ser colocado dentro da variável B então 97 exatamente igual a um caractere.
+
+32
+00:03:06,620 --> 00:03:13,650
+Mas nesse caso você tem que ter só a consciência de que esse não é o tipo de coisa legal de se usar
+
+33
+00:03:13,660 --> 00:03:15,210
+porque isso vai gerar confusão.
+
+34
+00:03:15,210 --> 00:03:21,690
+Quem olhasse esse vai ficar assim Poxa porque o cara colocou a letra c ele poderia colocar 97 em qualquer
+
+35
+00:03:21,690 --> 00:03:28,670
+outro literal inteiro então não faz tanto sentido mas só pra achar pra você um pouquinho dessa característica
+
+36
+00:03:28,670 --> 00:03:31,270
+também eu acho que torna o custo mais rico né.
+
+37
+00:03:31,290 --> 00:03:35,760
+Uma informação interessante é a comparação desses dois vai dar verdadeira.
+
+38
+00:03:35,760 --> 00:03:43,080
+Exatamente porque cada letra tem associado consigo um número que é exatamente a posição da letra dentro
+
+39
+00:03:43,080 --> 00:03:47,280
+da tabela e com o que falei pra vocês todos as comparações né.
+
+40
+00:03:47,280 --> 00:03:53,760
+Os operadores relacionais os operadores de comparação eles são operadores binários ou seja o operador
+
+41
+00:03:54,210 --> 00:04:01,710
+tem dois operandos ele tem essa notação é fixo ou seja o operador fica no meio dos dois operandos e
+
+42
+00:04:01,860 --> 00:04:06,460
+eles têm em comum de que todos eles vai retornar ao verdadeiro estado verdadeiro falso.
+
+43
+00:04:06,810 --> 00:04:15,070
+Então colocando aqui ao System algo ali então seu pai aqui três é maior do que 4 por exemplo resultado
+
+44
+00:04:15,610 --> 00:04:17,370
+falso 0 aqui.
+
+45
+00:04:17,370 --> 00:04:21,590
+3 é maior ou igual a 3.
+
+46
+00:04:21,620 --> 00:04:25,680
+O resultado vai dar verdadeiro porquê essa expressão verdadeira.
+
+47
+00:04:25,830 --> 00:04:28,590
+Você tem um outro que é o menor.
+
+48
+00:04:28,620 --> 00:04:35,900
+Então por exemplo coloca 3 é menor do que 7 e o resultado vai dar o verdadeiro porque 3 é menor do que
+
+49
+00:04:35,900 --> 00:04:36,810
+7.
+
+50
+00:04:36,950 --> 00:04:44,160
+Vou colocar 30 é menor ou igual a 7 em um estado falso então executado.
+
+51
+00:04:44,220 --> 00:04:50,010
+Nesse caso a ordem é importante primeiro você coloca o single de maior menor e depois o igual 7 nos
+
+52
+00:04:50,010 --> 00:04:54,690
+dois cenários ou maior igual e menor igual e nós temos.
+
+53
+00:04:54,690 --> 00:05:04,940
+Por último o diferente por exemplo 30 é 7 o Estado também vai dar o verdadeiro ou seja igual maior ou
+
+54
+00:05:04,950 --> 00:05:09,130
+igual menor menor igual e o diferente.
+
+55
+00:05:09,140 --> 00:05:20,430
+E aí você pode juntar situações como por exemplo você vai definir uma variável bula chamada bom comportamento
+
+56
+00:05:20,740 --> 00:05:21,310
+certo.
+
+57
+00:05:21,670 --> 00:05:32,310
+E aí você vai dizer qual é o comportamento você cria aqui por exemplo boné passou por média e aí vai
+
+58
+00:05:32,310 --> 00:05:34,530
+ter que uma variável inteira.
+
+59
+00:05:34,610 --> 00:05:36,490
+Ou então um centavo.
+
+60
+00:05:36,640 --> 00:05:39,070
+Nota se que recebe o valor que segue.
+
+61
+00:05:39,070 --> 00:05:40,410
+Ponto 3.
+
+62
+00:05:40,740 --> 00:05:49,980
+Você tem passou por média baixa C nota que a nota tem que ser maior ou igual a 7.
+
+63
+00:05:50,550 --> 00:06:03,550
+Então se ele tem um comportamento passou por média eu posso no final imprimir algo do tipo que tem desconto.
+
+64
+00:06:03,660 --> 00:06:05,790
+E aqui eu vou colocar exatamente.
+
+65
+00:06:05,910 --> 00:06:08,320
+Posso inclusive criar uma outra variável que
+
+66
+00:06:11,440 --> 00:06:19,130
+tem desconto recebe bom comportamento e faço comédia.
+
+67
+00:06:19,200 --> 00:06:24,990
+Ou seja eu tenho essa eu posso colocar essas expressões diretamente aqui sem necessariamente precisar
+
+68
+00:06:24,990 --> 00:06:31,800
+criar uma expressão eu posso colocar isso diretamente na sua comédia então só pra gente botar junto
+
+69
+00:06:31,800 --> 00:06:32,280
+né.
+
+70
+00:06:32,310 --> 00:06:37,950
+Poderia ter criado uma variável marca até melhor criar variar o set fica mais claro o olho mas você
+
+71
+00:06:37,950 --> 00:06:43,140
+pode colocar diretamente eu vou deixar barato eu acho que fica mais interessante com o valor da variável
+
+72
+00:06:43,220 --> 00:06:51,210
+e aqui eu vou colocar passou por média bem mais descritivo e ao bom comportamento passou por média significa
+
+73
+00:06:51,210 --> 00:06:59,230
+que ele vai ter desconto ou seja o resultado vai ser um final verdadeiro na época ele passou por média.
+
+74
+00:06:59,250 --> 00:07:10,490
+Se ele tivesse tirado 6 na verdade nem as autarquias está esgotado ou tem desconto verdadeiro colocando
+
+75
+00:07:10,560 --> 00:07:13,650
+6 pontos 3 salvando e executando.
+
+76
+00:07:13,650 --> 00:07:16,040
+Você não tem desconto falso.
+
+77
+00:07:16,110 --> 00:07:25,040
+Por mais que ele tem tirado 15 9 8 8 9 8 9 mas não tem um bom comportamento dentro do colégio.
+
+78
+00:07:25,110 --> 00:07:31,310
+Ele não estará apto a receber desconto então executado o mesmo resultado e tem desconto falso.
+
+79
+00:07:31,770 --> 00:07:38,570
+Ou seja aqui Eu misturei operadores relacionais e operadores lógicos pra definir essa expressão tem
+
+80
+00:07:38,580 --> 00:07:43,720
+desconto você pode colocar isso na expressão só que eu falei ou você pode quebrar invariáveis depois
+
+81
+00:07:43,720 --> 00:07:49,650
+e montando a lógica do seu programa não serve mais só pra mostrar o foco da nossa aula exatamente essa
+
+82
+00:07:49,650 --> 00:07:53,590
+parte que é igual o diferente que eu até subir aqui.
+
+83
+00:07:53,620 --> 00:08:01,250
+Depois o maior o maior ou igual o menor e o menor igual todos eles das expressões verdadeiro ou falso.

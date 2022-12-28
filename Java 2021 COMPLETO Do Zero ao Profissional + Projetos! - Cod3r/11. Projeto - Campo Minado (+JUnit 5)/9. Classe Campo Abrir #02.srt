@@ -1,0 +1,979 @@
+1
+00:00:00,450 --> 00:00:02,950
+Agora chegou a hora de garantir que a nossa.
+
+2
+00:00:02,950 --> 00:00:05,720
+Lógico que a gente criou está funcionado.
+
+3
+00:00:05,740 --> 00:00:11,460
+Se a gente criava métodos Menna criava a classe média está habitava mas agora está usando o tacho é
+
+4
+00:00:11,470 --> 00:00:17,370
+caro então ainda dentro de campo teste já com personalidade que pertencem à classe campo.
+
+5
+00:00:17,760 --> 00:00:23,710
+Mas vamos criar mais alguns metros para testar essas funções aqui a primeira função vai ser alternar
+
+6
+00:00:23,710 --> 00:00:30,600
+a marcação então vou fazer o seguinte Campeche aqui embaixo eu vou criar um outro o outro método chamado
+
+7
+00:00:30,700 --> 00:00:33,030
+fechem alternar a marcação.
+
+8
+00:00:33,180 --> 00:00:41,970
+E nesse caso eu vou fazer o seguinte Nós sempre recebemos um campo que está na posição 3 3 e ele está
+
+9
+00:00:41,970 --> 00:00:44,400
+no estado inicial ou seja não está marcado.
+
+10
+00:00:45,150 --> 00:00:56,040
+Então significa que se eu fizer que alguém acerte em falso se eu testar por exemplo o campo marcação
+
+11
+00:00:56,480 --> 00:01:03,990
+eu posso criar aqui alguns cálculos algumas funcionalidades que serão úteis por exemplo ao público ex
+
+12
+00:01:04,170 --> 00:01:10,500
+marcado que é como se fosse o método Gatti associada a campos do tipo boné.
+
+13
+00:01:10,950 --> 00:01:19,770
+Então quando você tem um método teste de um atributo borbulha o mais normal é o que seria o padrão não
+
+14
+00:01:19,770 --> 00:01:25,350
+é você chamar Guedes marcado e sim desmarcado mas também funciona como um gato.
+
+15
+00:01:25,360 --> 00:01:31,730
+Certo Embora não tenha o nome de um gatinho aqui e aqui eu vou retornar o valor de.
+
+16
+00:01:32,060 --> 00:01:36,780
+Então se esse mercado Berna der o falso 3 Esse é o campo.
+
+17
+00:01:36,780 --> 00:01:39,630
+Esse é um metro que pode tranquilamente ser público.
+
+18
+00:01:39,630 --> 00:01:40,210
+Por quê.
+
+19
+00:01:40,560 --> 00:01:43,460
+Porque é o metro que não gera nenhum efeito colateral.
+
+20
+00:01:43,460 --> 00:01:48,160
+Algo se chama esse metro ele simplesmente vai tornar o valor de uma variável.
+
+21
+00:01:48,590 --> 00:01:54,600
+Então nesse caso está marcado um metro que eu criei só para fazer o teste até porque dentro da classe
+
+22
+00:01:54,650 --> 00:01:58,140
+Campeche nós não temos acesso aos atributos privados.
+
+23
+00:01:58,290 --> 00:02:04,840
+Então essa é uma forma que a gente tem para verificar o que colocar que é o campo ponto desmarcado chamado
+
+24
+00:02:04,840 --> 00:02:09,000
+aqui ao site falso ele não é marcado porque inicialmente começa dessa forma.
+
+25
+00:02:09,120 --> 00:02:11,230
+Então deixa alternar a marcação.
+
+26
+00:02:11,310 --> 00:02:13,330
+Então nesse caso não vou chamar esse nome do Metro.
+
+27
+00:02:13,340 --> 00:02:20,410
+Não vou colocar aqui já outro teste só pra mim já ter algo teste aqui ou duplicar esse metro que j está
+
+28
+00:02:20,410 --> 00:02:28,670
+Walter na marcação e vou colocar o trecho em valor de mercado o valor padrão padrão
+
+29
+00:02:31,680 --> 00:02:35,450
+atributo atributo marcado.
+
+30
+00:02:35,770 --> 00:02:39,490
+Então por padrão eu espero que o valor de mercado seja falso.
+
+31
+00:02:39,850 --> 00:02:44,220
+Então executado aqui eu vou já testar aqui algum outro teste alternar a marcação.
+
+32
+00:02:44,250 --> 00:02:53,370
+Nesse caso se eu chamar Campo conto alternar marcação significa que o marcador tem que ser trocado já
+
+33
+00:02:53,370 --> 00:02:55,070
+que o valor padrão é zero.
+
+34
+00:02:55,510 --> 00:03:04,150
+Então deixe então executou corretamente nós temos agora oito testes acertados criamos o teste teste
+
+35
+00:03:04,170 --> 00:03:11,400
+o valor padrão do atributo marcado que é falso e criamos o teste alterna a marcação se chamamos o alternar
+
+36
+00:03:11,400 --> 00:03:16,790
+a marcação e ele colocou o valor como sendo verdadeiro.
+
+37
+00:03:16,820 --> 00:03:19,140
+Pode fazer mais um outro teste.
+
+38
+00:03:19,140 --> 00:03:27,370
+Com relação ao alternar na marcação que é importante teste alternar a marcação duas chamadas.
+
+39
+00:03:28,080 --> 00:03:34,910
+Então vou chamar duas vezes ao alternar a marcação o que significa que o campo tem passado desmarcado.
+
+40
+00:03:35,370 --> 00:03:41,430
+Então eu tenho que dar um A7 falso porque o campo vai passar a ser falso novamente porque eu o chamei
+
+41
+00:03:41,430 --> 00:03:45,830
+alterna a marcação passou a ser marcado até na marcação passou a ser falso.
+
+42
+00:03:45,830 --> 00:03:50,370
+Agora nós temos nove métodos e os nove metros funcionando corretamente.
+
+43
+00:03:50,370 --> 00:03:52,860
+Ou seja testamos o método alternar a marcação.
+
+44
+00:03:52,860 --> 00:03:57,930
+Outra coisa legal é o seguinte quando a gente está executando o código você está executando clicando
+
+45
+00:03:58,350 --> 00:04:02,830
+aqui nesses símbolos de um verde que vai rodar o nosso teste unitário com o 9 teste.
+
+46
+00:04:02,850 --> 00:04:09,630
+Todos funcionam como tal quando você clica em cima nesse ou outro símbolo ele está dizendo para a gente
+
+47
+00:04:09,640 --> 00:04:16,290
+rodar o teste que eles chamam de teste de cobertura para dizer quantos por cento do seu código está
+
+48
+00:04:16,290 --> 00:04:17,060
+coberto.
+
+49
+00:04:17,060 --> 00:04:23,610
+E qual o nível de cobertura que o teste está fazendo se de cada teste que você faz ele vai testar determinados
+
+50
+00:04:24,630 --> 00:04:26,970
+situações dentro de um determinado Cole.
+
+51
+00:04:26,970 --> 00:04:32,190
+Ele vai dizer pra você quais são as linhas que foram testadas quais foram as linhas que não foram testadas
+
+52
+00:04:32,190 --> 00:04:32,960
+ainda.
+
+53
+00:04:33,000 --> 00:04:35,940
+E tudo isso era dito a partir do teste de cobertura.
+
+54
+00:04:35,940 --> 00:04:43,310
+Se você colocar o cursor aqui em cima do campo teste e executar o teste de cobertura por exemplo certo
+
+55
+00:04:43,800 --> 00:04:45,780
+ele vai executar uma marcha para você.
+
+56
+00:04:45,810 --> 00:04:50,420
+Quantos por cento e aí a linha vai ficar verde onde o código cobriu.
+
+57
+00:04:50,430 --> 00:04:55,130
+Por exemplo aqui no nosso adicionar vizinho todas essas linhas estão verdes.
+
+58
+00:04:55,150 --> 00:04:56,050
+Porquê.
+
+59
+00:04:56,220 --> 00:05:03,370
+Porque ele passou por todas as situações tanto que sendo verdadeiro ou falso mais aqui onde a linha
+
+60
+00:05:03,490 --> 00:05:09,820
+amarela significa que nem todas as situações ou cenários possíveis para esse teste foram contemplados
+
+61
+00:05:09,830 --> 00:05:17,500
+aí se você colocar o cursor aqui em cima ele vai dizer eu desse um teste de quatro possibilidades foram
+
+62
+00:05:17,500 --> 00:05:18,150
+perdidas.
+
+63
+00:05:18,160 --> 00:05:22,750
+Ou seja eu testei três e uma das possibilidades não foi testada.
+
+64
+00:05:22,750 --> 00:05:26,820
+De acordo com meu teste mas já tem um nível interessante de cobertura.
+
+65
+00:05:26,830 --> 00:05:34,730
+Por exemplo aqui nesse caso alterna a marcação ele perdeu provavelmente um dos dois ou ele perdeu aqui
+
+66
+00:05:35,160 --> 00:05:37,410
+mas ele testou isso aqui.
+
+67
+00:05:37,510 --> 00:05:42,880
+O método abri não foi testado ainda por estar todo vermelho vizinhança segura.
+
+68
+00:05:42,880 --> 00:05:48,970
+Ele também não entrou no canal testei o método abri e o ex também está beijinho pouco entrou e ele vai
+
+69
+00:05:48,970 --> 00:05:50,220
+dizer pra você.
+
+70
+00:05:50,230 --> 00:05:56,620
+Os relatórios dos percentuais aquilo que foi coberto tal colocando aqui no campo nessa classe campo
+
+71
+00:05:57,010 --> 00:06:03,820
+significa que do código que a gente tem dentro dela 73 pontos cinco sendo que o código está contemplado
+
+72
+00:06:03,850 --> 00:06:10,990
+com os testes e outras classes tem zero por exemplo tabuleiro zero e tal que no teste nem faz sentido
+
+73
+00:06:10,990 --> 00:06:16,630
+olhar para a classe teste ou olhe para cá para o meu código fonte significa no meu código inteiro.
+
+74
+00:06:16,640 --> 00:06:23,050
+Aqui no meu pacote 72 por cento foi coberto talvez olhando o projeto todo foi coberto mais um pouquinho
+
+75
+00:06:23,060 --> 00:06:27,400
+porque que está considerando também um pacote de teste e essa também é um tipo de execução bastante
+
+76
+00:06:27,400 --> 00:06:32,800
+interessante porque você consegue verificar de uma forma muito interessante quantos por cento do seu
+
+77
+00:06:32,800 --> 00:06:39,580
+código já foi testado ou não e alguns empresa estabelecem níveis de exigência por exemplo você só pode
+
+78
+00:06:39,580 --> 00:06:45,310
+entregar um código para a produção se você tiver um nível de cobertura de teste e 80 por cento terá
+
+79
+00:06:45,310 --> 00:06:51,130
+exatamente esse nível de cobertura de teste que faz com que você atinja ou não um critério de qualidade
+
+80
+00:06:51,130 --> 00:06:52,360
+estabelecido pela empresa.
+
+81
+00:06:52,360 --> 00:06:57,460
+Então estou falando isso agora com quem está no contexto de projeto é um projeto muito pequeno mas é
+
+82
+00:06:57,460 --> 00:07:03,520
+algo interessante pra se mencionar porque as empresas exigem cobertura de teste exigem interfone da
+
+83
+00:07:03,570 --> 00:07:06,400
+área você tem esse conhecimento é legal.
+
+84
+00:07:06,400 --> 00:07:11,810
+Outra coisa que a gente vai fazer aqui ainda nessa parte de cobras eu vou clicar aqui nesse finzinho
+
+85
+00:07:11,820 --> 00:07:18,670
+um duplo tá pra limpar o nosso teste cobertura o nosso código não ficar vermelho verde senão fica ou
+
+86
+00:07:18,690 --> 00:07:21,130
+zona para a gente ter nosso código está lá de qualquer forma.
+
+87
+00:07:21,130 --> 00:07:27,820
+Voltei pra cá e a gente já testou adicionou aqui mais dois metros nessa aula que é o teste ao pé na
+
+88
+00:07:27,820 --> 00:07:28,750
+marcação.
+
+89
+00:07:28,750 --> 00:07:35,700
+Na verdade nós adicionamos 3 metros que é o teste padrão do atributo marcado que é o teste alterna a
+
+90
+00:07:35,710 --> 00:07:38,440
+marcação e alterna a marcação 12 vezes.
+
+91
+00:07:38,950 --> 00:07:44,500
+O próximo teste que eu vou fazer vai ser o de abri abriu o campo e então para a fabricante eu vou ter
+
+92
+00:07:44,500 --> 00:07:51,070
+vários testes diferentes eu não vou e propõem fechar todos os cenários tá bom até pra não ficar muito
+
+93
+00:07:51,090 --> 00:07:56,620
+gigante que o nosso projeto as aulas mais eu vou testar os mais importantes.
+
+94
+00:07:56,920 --> 00:08:09,650
+Então vou chamar aqui eu abri um cabo sem mínima e sem qualquer sinal de nada abri mão dominado não
+
+95
+00:08:10,760 --> 00:08:18,750
+marcado tal que o padrão ou seja um campo de por padrão bem nominado e não marcado vou chamar aqui campo.
+
+96
+00:08:19,380 --> 00:08:26,570
+Abri o resultado do abri tem que ser tu tem que abrir corretamente o teclado nem terminado e nem está
+
+97
+00:08:26,590 --> 00:08:32,000
+marcado então para a gente fazer esse teste aqui é mais um teste.
+
+98
+00:08:32,450 --> 00:08:36,460
+O resultado vai agora nós temos dois testes também um estado verdadeiro.
+
+99
+00:08:36,500 --> 00:08:37,680
+Vou fazer agora.
+
+100
+00:08:37,910 --> 00:08:46,460
+Vou abri o campo que está nominado mas está marcado ou seja ele não deve abrir esse campo porque o campo
+
+101
+00:08:46,460 --> 00:08:47,350
+está marcado.
+
+102
+00:08:47,810 --> 00:08:54,260
+Então vou colocar K7 falso porque o metro abrir não é pra marcar esse campo projetado.
+
+103
+00:08:54,320 --> 00:09:00,730
+O Estado deu errado porque eu chamo abrisse o campo um acerto com o que eu preciso dizer que o campo
+
+104
+00:09:00,830 --> 00:09:06,760
+está marcado não marquei um campo ponto alto na marcação.
+
+105
+00:09:06,770 --> 00:09:10,780
+Agora sim o campo está marcado e se eu fizer gol abri.
+
+106
+00:09:11,060 --> 00:09:17,240
+O Estado tem que ser verdadeiro certo o teste passou porque o Estado vai ser falso.
+
+107
+00:09:17,240 --> 00:09:23,060
+O próximo cenário que eu vou testar vai ser a gente tenta abrir em campo.
+
+108
+00:09:23,270 --> 00:09:29,060
+O Campo Minado é um campo marcado ou seja um nominado mercado deu certo.
+
+109
+00:09:29,180 --> 00:09:33,590
+Agora um campo que esteja minado é marcada para lhe proteger não vai dar problema.
+
+110
+00:09:34,130 --> 00:09:40,090
+Então eu preciso criar um método que vai minar o campo também porque eu não tenho esse método ainda.
+
+111
+00:09:40,160 --> 00:09:48,740
+Pra isso eu vou criar um método também com visibilidade pacote chamado gol retorno bula é o nome de
+
+112
+00:09:48,740 --> 00:09:53,180
+Metro vai se eliminar e aquilo é um método minado.
+
+113
+00:09:53,360 --> 00:10:04,910
+Eu vou simplesmente pegar o campo minado recebe um outro vídeo a voltar está primeiro se não tiver nada
+
+114
+00:10:05,990 --> 00:10:14,050
+aí ele se anima e retorna eu posso retornar voz também talvez aqui no caso seja importante eu retornar
+
+115
+00:10:14,060 --> 00:10:20,240
+verdadeiro falso não são simplesmente falhas para ser mais simples eu falo o seguinte a voz me chamou
+
+116
+00:10:20,240 --> 00:10:26,760
+me na ele certa variável minado Bratusek já tiver minado ele continua seta no prato sem problema nenhum.
+
+117
+00:10:26,780 --> 00:10:35,780
+Então já tem um metro nominar então que eu posso alterar a marcação e posso chamar de campo minado.
+
+118
+00:10:35,780 --> 00:10:39,210
+Agora eu tenho como cê tá ficando combinado.
+
+119
+00:10:39,230 --> 00:10:45,580
+Se eu tentar abri ainda assim ele não é pra fazer absolutamente nada nem gerar ação e nem abrir porque
+
+120
+00:10:45,590 --> 00:10:51,500
+o campo está marcado em 12 testes mais um teste executado de forma bem sucedida.
+
+121
+00:10:51,740 --> 00:11:00,880
+E agora se eu tentar executável duplicar esse teste em teste abri minado e não marcado.
+
+122
+00:11:00,980 --> 00:11:10,030
+Sem o acento não marcado o que significa que eu não vai alterar a marcação e você tá o campo minado.
+
+123
+00:11:10,040 --> 00:11:16,920
+Agora se eu abri é para gerar uma explosão e tal saber que vai falhar o teste porque ele gerou uma sensação
+
+124
+00:11:16,950 --> 00:11:21,480
+que é exatamente essa ação que eu espero essa ação explosão que.
+
+125
+00:11:21,650 --> 00:11:28,120
+Então pra gente resolver esse caso como o resultado do meu teste é o resultado de uma explosão.
+
+126
+00:11:28,350 --> 00:11:34,910
+Ou seja quero que geram recessão a forma que eu vou testar vai ser o seguinte existe um outro Asset.
+
+127
+00:11:35,030 --> 00:11:43,330
+Nós vamos usar isso que é diferente do iPhone 4 então colocar aqui ou acerte em feroz.
+
+128
+00:11:43,640 --> 00:11:46,850
+Ou seja espero que seja lançado com essa ação.
+
+129
+00:11:46,970 --> 00:11:56,960
+Vou passar aquele tipo de ação que eu quero que é explosão explosão e que Section Classe E aqui eu vou
+
+130
+00:11:56,960 --> 00:12:03,320
+passar um lambida que eu vou colocar aqui um par de chaves que não receber nenhum parâmetro dentro dessa
+
+131
+00:12:03,320 --> 00:12:08,380
+expressão lambida que eu vou executar o meu tachi aqui.
+
+132
+00:12:08,780 --> 00:12:11,880
+Se ele entrar aqui dentro e esse método.
+
+133
+00:12:12,020 --> 00:12:15,860
+Na verdade não vou nem chamar o acesse aqui nem vou simplesmente chamar um método.
+
+134
+00:12:16,220 --> 00:12:23,270
+Ou seja acessa esse metro aqui chamar essa exceção significa que o resultado vai dar o verdadeiro seja
+
+135
+00:12:23,270 --> 00:12:28,710
+ele vai dar um acesso atroz garantir que o resultado da chamada desse método foi uma exceção do tipo
+
+136
+00:12:28,710 --> 00:12:35,230
+A explosão recebe um ponto claro se ele vai testar o tipo dessa ação ou seja só lança essa ação correta
+
+137
+00:12:35,240 --> 00:12:42,020
+você pode além de testar o tipo de exceção testar o tipo de mensagem que foi gerado pela excessão nesse
+
+138
+00:12:42,020 --> 00:12:48,650
+nosso caso não tem mensagem então você está apenas se a recessão gerada ou sim primeiro se esse metro
+
+139
+00:12:48,650 --> 00:12:55,670
+gerou uma ação e segundo essa ação gerada foi exatamente o tipo de ação que é esperada a partir desse
+
+140
+00:12:55,670 --> 00:12:57,780
+acético etanol.
+
+141
+00:12:57,960 --> 00:13:02,030
+Mas o Estado deu verdadeiro porque realmente era uma ação essa ação.
+
+142
+00:13:02,030 --> 00:13:08,210
+Se eu comentar essa linha ele não vai mais lançar uma exceção e você vai ver que o nosso teste vai falhar
+
+143
+00:13:08,330 --> 00:13:14,690
+falhar porque sei que se você olhar aqui só deu um erro de acerto aqui porque ele esperava que fosse
+
+144
+00:13:14,690 --> 00:13:20,480
+lançado uma exceção o tipo explosão que sabe no final não aconteceu isso mas o nosso teste não está
+
+145
+00:13:20,480 --> 00:13:26,330
+completo agora economia no campo e esse campo está desmarcado significa que ele tem que lançam essa
+
+146
+00:13:26,330 --> 00:13:32,700
+ação e nós temos agora 13 testes sobre como está a nossa cobertura bolsa salas.
+
+147
+00:13:32,950 --> 00:13:38,060
+Se você clicar aqui em cima de um método e mandar ele gerar cobertura de maior na cobertura em cima
+
+148
+00:13:38,060 --> 00:13:43,460
+somente desse método mais se você selecionar a classe como todo mundo está.
+
+149
+00:13:43,700 --> 00:13:49,410
+Ele vai gerar cobertura correspondente a execução de todos os 13 testes que nós criamos até agora.
+
+150
+00:13:49,800 --> 00:13:58,100
+Nós temos um novo nível de cobertura de 95 pontos 5 sendo olhando aqui o nosso a nossa classe modelo
+
+151
+00:13:58,370 --> 00:13:59,030
+e campo.
+
+152
+00:13:59,030 --> 00:14:03,870
+Na verdade eu posso entrar aqui no campo a gente viu que foi crítico cobriu a parte do Abril Abril a
+
+153
+00:14:03,900 --> 00:14:10,520
+gente cobriu já entrando aqui explodindo com relação a vizinhança segura a gente não testou porque a
+
+154
+00:14:10,520 --> 00:14:15,670
+gente não colocou nenhum vizinho aqui exceto para ser executado mas a gente pode fazer isso agora só
+
+155
+00:14:15,670 --> 00:14:20,350
+para a gente testar e ter um pouco mais de cobertura aqui na nossa classe ou Campeche.
+
+156
+00:14:20,840 --> 00:14:30,350
+Vou criar aqui mais um teste com o vizinho fazer o seguinte vou duplicar esse aqui e vou criar aqui
+
+157
+00:14:30,460 --> 00:14:37,120
+feche abri pra fazer um teste simples pra também não já que o custo de teste é incerto com vizinhos
+
+158
+00:14:37,660 --> 00:14:43,310
+pra não ficar algo extremamente demorado aqui pra gente fazer todos os testes possível acho que você
+
+159
+00:14:43,310 --> 00:14:51,040
+já deve ter entendido aí um pouco da mecânica de como é feito os testes então vou criar aqui campo vizinho
+
+160
+00:14:53,000 --> 00:15:05,860
+que eu vou colocar esse vizinho o campo vai ser 2 2 o que aqui um vizinho 2 vai estar na linha 2 e na
+
+161
+00:15:05,860 --> 00:15:17,270
+coluna 3 o craque e um terceiro vizinho que vai estar na linha 2 e coluna 4 os 3 são vizinhos reais.
+
+162
+00:15:17,610 --> 00:15:29,830
+Aqui beltrano toca tu tá achando pronto conta adicionar vizinho 2 e 3 Mococa 2 3 e na verdade fazer
+
+163
+00:15:29,830 --> 00:15:38,270
+o seguinte ao invés de colocar os 3 pra ser vizinho do Campo atual eu vou colocar aqui um vizinho que
+
+164
+00:15:38,510 --> 00:15:40,000
+é o vizinho Real.
+
+165
+00:15:40,240 --> 00:15:50,120
+Vou colocar o vizinho do vizinho eu vou tirar esse vizinho três aqui.
+
+166
+00:15:50,650 --> 00:15:56,680
+Então eu vou ter o vizinho como seu vizinho no campo atual e vou pegar aqui.
+
+167
+00:15:56,680 --> 00:16:02,100
+Esse aqui vai ser o campo onde ou seja vai ser vizinho do vizinho.
+
+168
+00:16:02,670 --> 00:16:13,210
+Então vou pagar ao vizinho um ponto adicionar vizinho que vai ser o vizinho do vizinho ou seja eu voltei
+
+169
+00:16:13,630 --> 00:16:22,120
+o cap 3 3 o 2 2 e eu não quero saber se ele vai a partir do momento que eu abriu 3 3 se ele abriu 2
+
+170
+00:16:22,120 --> 00:16:27,560
+2 2 2 de abril porque todos vão ter presença segura e nenhum vai menina ao redor.
+
+171
+00:16:28,010 --> 00:16:36,840
+Então primeiro teste vcs queria que o vizinho o vizinho do vizinho depois que o vizinho e agora adicionado
+
+172
+00:16:36,900 --> 00:16:46,300
+um vizinho dentro do meu campo atual que tem como li em coluna 3.3 e agora vou abri o campo vou abri
+
+173
+00:16:46,570 --> 00:16:55,060
+o campo atual que é o 3 3 e eu quero verificar se os dois campos Tatu o vizinho como vizinho do vizinho
+
+174
+00:16:55,210 --> 00:17:03,850
+se ele vai tá ou não é aberto certo então ou daqui a sete anos eu vou fazer o seguinte teste pra saber
+
+175
+00:17:03,870 --> 00:17:09,910
+está aberto eu tenho que criar também um outro método canal de entrada então que é parecido com esse
+
+176
+00:17:09,910 --> 00:17:21,010
+que vai ser o Public mulher 3 aberto e ele vai retornar aqui.
+
+177
+00:17:21,520 --> 00:17:29,530
+O valor do atributo aberto pra gente testar agora vou colocar aqui no teste então vou fazer o seguinte
+
+178
+00:17:29,870 --> 00:17:33,520
+Não posso colocar talvez para ficar mais mais didático.
+
+179
+00:17:33,520 --> 00:17:48,700
+Qualquer que é o campo e esse aqui vai ser o campo 2 2 o campo 2 2 tem como vizinho de campo e o meu
+
+180
+00:17:48,700 --> 00:17:54,800
+campo atual que é o 3 3 ele tem como vizinho o campo 2 2 2.
+
+181
+00:17:54,880 --> 00:18:00,010
+Até posso colocar também o vizinho como sendo o campo mas não vai fazer diferença então abriu o campo
+
+182
+00:18:00,010 --> 00:18:01,960
+atual que é o 3 3.
+
+183
+00:18:01,960 --> 00:18:05,170
+Aqui vou fazer um teste em campo.
+
+184
+00:18:05,740 --> 00:18:17,500
+2 2 ponto aberto com o centro e o campo aberto também como sendo verdadeiro ou seja essa expressão tem
+
+185
+00:18:17,500 --> 00:18:19,620
+que dar verdadeiro abria apenas o campo.
+
+186
+00:18:19,670 --> 00:18:27,540
+Logo tu tá estando o 3 3 mas tanto o campo 2 2 tem que estar aberto como o campo também tem tabela 3
+
+187
+00:18:27,730 --> 00:18:33,940
+taxa pra dar verdadeiro ok uma vez que eu abro o campo e está seguro a vizinhança ele vai abrindo até
+
+188
+00:18:33,940 --> 00:18:35,490
+o final estão executando.
+
+189
+00:18:35,530 --> 00:18:42,550
+Também não acho verdadeiro certo ou seja os dois campos estão abertos inicialmente eles estão fechados
+
+190
+00:18:42,900 --> 00:18:50,500
+e depois eles passaram a ficar abertos por conta da execução do Adriano como abriu o campo ele acabou
+
+191
+00:18:50,500 --> 00:18:52,060
+abrindo os outros.
+
+192
+00:18:52,090 --> 00:18:58,230
+Outro trecho interessante só para pra gente está está mais um cenário tão abrir com vizinhos vou colocar
+
+193
+00:18:58,230 --> 00:19:06,820
+aqui abrir com vizinho os dois aqui eu vou fazer o seguinte eu vou pegar o campo dois dois pra ter um
+
+194
+00:19:06,820 --> 00:19:08,520
+campo minado como vizinho.
+
+195
+00:19:08,680 --> 00:19:12,220
+Então vou fazer o seguinte o 2 2 tem um campo.
+
+196
+00:19:12,230 --> 00:19:19,730
+Queria que o campo 11 eu vou criar aqui o campo 12 7 ou duplicar essa linha que publiquei.
+
+197
+00:19:19,990 --> 00:19:27,880
+Vou fazer o campo 12 e o campo 12 eu vou ser pai ele conseguiu dominar e então fazer o campo 12 em campo
+
+198
+00:19:27,880 --> 00:19:31,480
+12 ponto a ser agora eliminado.
+
+199
+00:19:32,080 --> 00:19:41,240
+E vou a social Campo 22 tanto o 11 como 22 são vizinhos do Campo 22 vou pagar 22 e vou colocar aqui
+
+200
+00:19:41,290 --> 00:19:47,990
+o campo 12 o campo 12 também a vizinha do campo 11 mas vamos relevar essa informação por enquanto.
+
+201
+00:19:47,990 --> 00:19:53,710
+O que significa isso que significa que uma vez que eu tento abrir o campo vizinho meu que é o Campo
+
+202
+00:19:53,710 --> 00:20:01,480
+22 que tem vizinhança perigosa ele não pode propagar essa abertura para os próximos níveis ou seja o
+
+203
+00:20:01,480 --> 00:20:09,400
+Campo 22 é pra estar aberto porque ANSA assegura mais o campo é pra estar fechado.
+
+204
+00:20:09,400 --> 00:20:12,970
+Então isso aqui é pra não está aberto.
+
+205
+00:20:13,070 --> 00:20:20,050
+Inclusive se você mandar as estratégias legais para você ter um digamos assim uma clareza maior do código
+
+206
+00:20:20,050 --> 00:20:22,960
+é você criar outros métodos.
+
+207
+00:20:22,960 --> 00:20:29,410
+Por exemplo se você quiser criar um outro método chamado esse fechado você simplesmente pode chamar
+
+208
+00:20:29,900 --> 00:20:32,140
+fazer a negação do ex aberto.
+
+209
+00:20:32,370 --> 00:20:39,400
+Esse não aberto então não aberto a mesma coisa que fechado então talvez do ponto de vista de leitura
+
+210
+00:20:39,400 --> 00:20:40,000
+de código.
+
+211
+00:20:40,000 --> 00:20:46,860
+Você tem a expressão si campo fechado fica mais fácil do que esse campo não aberto.
+
+212
+00:20:47,080 --> 00:20:52,330
+Então é uma das possibilidades que você tem pra ter as duas funções tanto aberto como fechado.
+
+213
+00:20:52,670 --> 00:21:01,660
+Então aqui olhando no nosso teste eu posso ter não aberto posso ter o seguinte o Campo 22 tem tá aberto
+
+214
+00:21:01,780 --> 00:21:04,410
+e o campo 11 tentar fechar.
+
+215
+00:21:04,410 --> 00:21:05,000
+Por quê.
+
+216
+00:21:05,020 --> 00:21:07,270
+Porque eu me dei o campo 12.
+
+217
+00:21:07,570 --> 00:21:12,880
+Então a partir do 22 já que ele tem a vizinhança não segura não pode propagar a abertura para outros
+
+218
+00:21:12,880 --> 00:21:15,130
+campos está executando aqui.
+
+219
+00:21:15,130 --> 00:21:20,980
+Nós teremos um outro teste ou seja 15 e também vai funcionar então do ponto de vista do campo a gente
+
+220
+00:21:20,980 --> 00:21:26,860
+fez a parte principal está faltando alguns outros metros que eu vou completar na próxima aula mas eu
+
+221
+00:21:26,860 --> 00:21:32,620
+não vou mais mexer nos testes se você quiser executar um teste mais a última vez trave antes que o centro
+
+222
+00:21:32,620 --> 00:21:35,080
+foi coberto clicando aqui.
+
+223
+00:21:35,170 --> 00:21:42,220
+A gente vê facilmente o nosso campo tá com um nível de cobertura do nível de cobertura muito bom né.
+
+224
+00:21:42,320 --> 00:21:51,070
+Não acontecem sem ser modelo o nosso campo tem 98 8 por cento de cobertura e uma cobertura do sonho
+
+225
+00:21:51,120 --> 00:21:58,830
+quiser qualquer sistema que tem um nível de cobertura acima de 85% 90% está num nível excelente porque
+
+226
+00:21:58,840 --> 00:22:02,370
+isso dá uma segurança muito maior pra mexer no.
+
+227
+00:22:02,360 --> 00:22:08,680
+Sabendo que você não quebrou outras funcionalidades vou clicar aqui para tirá lo da cobertura e na próxima
+
+228
+00:22:08,680 --> 00:22:13,900
+aula iremos fazer os últimos ajustes com relação à classe e campo colocando mais alguns metros e na
+
+229
+00:22:13,900 --> 00:22:16,390
+próxima aula a gente vai com o tabuleiro.
+
+230
+00:22:16,630 --> 00:22:24,640
+Eu vou lá a de teste do tabuleiro porque não ficar muito extenso eu acho que já deu pra entender um
+
+231
+00:22:24,640 --> 00:22:31,000
+pouco da filosofia de teste em um cenário muito mais realista certo com lógicas mais interessantes para
+
+232
+00:22:31,000 --> 00:22:36,400
+a gente realmente entender como você pode fazer testes na prática e também saber como você pode ter
+
+233
+00:22:36,400 --> 00:22:39,190
+cobertura nem informações de cobertura de teste.
+
+234
+00:22:39,190 --> 00:22:46,090
+Na prática os clipes de usar no dia 5 mas se eu ficar fazendo todos os testes é um processo que demora
+
+235
+00:22:46,090 --> 00:22:52,030
+muito e vai tomar muito tempo aqui no nosso curso então já que na minha visão já deu para entender um
+
+236
+00:22:52,030 --> 00:22:57,520
+pouco da filosofia de teste eu vou deixar pra você como um desafio não vou mostrar aquilo que uso como
+
+237
+00:22:57,520 --> 00:23:04,990
+você também poderia implementar os testes relacionados à classe de tabuleiro certo que nós vamos implementar
+
+238
+00:23:04,990 --> 00:23:10,630
+logo nas próximas aulas então tabuleiro eu vou direto para um objetivo final que é implementar classe
+
+239
+00:23:10,630 --> 00:23:15,820
+tabuleiro e depois em títulos finalmente do nosso jogo para realmente a gente agora de forma mais direta
+
+240
+00:23:16,170 --> 00:23:23,170
+mas fica de desafio pra vocês que o uso de teste unitário é extremamente importante e fundamental em
+
+241
+00:23:23,170 --> 00:23:29,890
+qualquer projeto se aplica aos testes de forma consciente aplicar os testes de forma que garanta que
+
+242
+00:23:29,890 --> 00:23:32,260
+o seu código está funcionando de forma correta.
+
+243
+00:23:32,260 --> 00:23:38,200
+Então acho que já passei a mensagem gastei aqui alguns minutos falando sobre isso e implementando alguns
+
+244
+00:23:38,200 --> 00:23:44,230
+testes na próxima a gente continua pra finalizar clássica e depois partimos para a classe do tabuleiro.
+
+245
+00:23:44,230 --> 00:23:44,520
+Até lá.

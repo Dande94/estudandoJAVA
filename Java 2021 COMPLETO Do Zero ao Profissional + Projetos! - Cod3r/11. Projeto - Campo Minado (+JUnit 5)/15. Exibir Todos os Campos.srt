@@ -1,0 +1,207 @@
+1
+00:00:00,270 --> 00:00:07,260
+Se mostrar para vocês os testes reais eu estava percebendo que é importante a gente mostrar quando houver
+
+2
+00:00:07,260 --> 00:00:13,770
+uma explosão mostrar todas as minas que estão localizadas dentro do tabuleiro que é o que acontece no
+
+3
+00:00:13,770 --> 00:00:20,760
+jogo normal é Quando inicio e começa a trabalhar clica aqui seleciona a mina ele abre todas as minas
+
+4
+00:00:20,760 --> 00:00:25,790
+e mostra exatamente quais locais as minas estão e isso é importante porque a gente vai conseguir verificar
+
+5
+00:00:25,790 --> 00:00:31,140
+se a quantidade de minas que a gente selecionou tá certo é coisa do tipo então eu vou implementar essa
+
+6
+00:00:31,140 --> 00:00:32,020
+mudança pra cá.
+
+7
+00:00:32,050 --> 00:00:39,640
+Enfim no final do jogo consigo ver as minas que foram executadas por enquanto executar o jogo se coloca
+
+8
+00:00:39,640 --> 00:00:52,140
+aqui um 0 0 coloca mão aqui pra abri ele abriu Coca-Cola Zero em abril não tinha Mina no zero e para
+
+9
+00:00:52,140 --> 00:00:58,110
+ele abri você perdeu ele mostra você perdeu pergunto se eu quero mostrar outra partida mas não mostra
+
+10
+00:00:58,110 --> 00:01:04,230
+absolutamente nenhuma informação de quais locais tinham Minas certo o cara continua a partida não sai
+
+11
+00:01:04,230 --> 00:01:10,110
+do jogo eu vou fazer essa pequena implementação pra não ficar me preocupando muito com a questão de
+
+12
+00:01:10,110 --> 00:01:12,360
+explosão então vou criar um método.
+
+13
+00:01:12,720 --> 00:01:19,740
+Nós temos aqui o método aberto eu vou criar um método set só que o Metro sete vezes torna se público
+
+14
+00:01:20,150 --> 00:01:26,730
+eu vou colocar com visibilidade de pacote só para o pacote ter acesso direto ao método.
+
+15
+00:01:26,730 --> 00:01:32,880
+Se vai deixar um determinado campo aberto ou não então para liberar o gatilho nesse campo eu posso colocar
+
+16
+00:01:32,880 --> 00:01:41,190
+como o Mundial de S Generation Gates em setas pode selecionar aquele campo aberto ou clicar nele e ele
+
+17
+00:01:41,190 --> 00:01:46,740
+vai gerar o set aberto a que eu vou tirar o público e deixar apenas o campo com visibilidade para o
+
+18
+00:01:46,750 --> 00:01:47,280
+corte.
+
+19
+00:01:47,350 --> 00:01:53,460
+Assim rapidamente eu consigo sentar todos os cães pra ficar perto e isso vai acontecer quando a explosão
+
+20
+00:01:53,760 --> 00:01:56,630
+foi gerada uma vez que eu fiz isso do campo.
+
+21
+00:01:56,640 --> 00:01:59,720
+Quem vai detectar a explosão é seu tabuleiro.
+
+22
+00:01:59,810 --> 00:02:05,900
+E é exatamente quando o usuário selecionar em abri que pode acontecer uma explosão.
+
+23
+00:02:05,920 --> 00:02:13,840
+Então nesse caso como eu não estou tratando a exceção eu vou criar aqui um traficante para detetar fazer
+
+24
+00:02:13,860 --> 00:02:15,930
+um corte em cima de mim.
+
+25
+00:02:16,130 --> 00:02:25,520
+A explosão pode acontecer eu vou chamar um metro pra ele abri todas as bombas Abri todos os campos e
+
+26
+00:02:25,630 --> 00:02:28,080
+lá onde estão as bombas.
+
+27
+00:02:28,110 --> 00:02:35,280
+Eu ainda vou querer que essa exceção seja propagada para alta classe então posso fazer um troll e uma
+
+28
+00:02:35,280 --> 00:02:41,820
+vez que eu trato dessa ação eu posso colocar alguma lógica que antes e ainda assim relançar essa ação
+
+29
+00:02:42,060 --> 00:02:48,770
+chamada na palavra from Ultron não necessariamente estará relacionada a uma nova instância o e recebe
+
+30
+00:02:48,810 --> 00:02:54,950
+o Mais Você pode pegar uma exceção que você já tem que é o caso do Canaltech e lançar ela chamado troll
+
+31
+00:02:54,960 --> 00:03:01,770
+ou seja eu parei ali e fiz um enquete até alguma coisa em ela sei porque a classe que usa tabuleiro
+
+32
+00:03:01,770 --> 00:03:08,520
+vai precisar dessa sessão para fazer os exames dos jogos mais aqui antes de lançar já que no momento
+
+33
+00:03:08,520 --> 00:03:14,850
+que eu abri eu sei que houve um problema e que o usuário já perdeu o jogo aqui eu posso fazer a lógica
+
+34
+00:03:15,150 --> 00:03:23,310
+para abri todos os campos pra abrir todos os campos eu posso chamar Kill Campus ponto fora hit e aqui
+
+35
+00:03:23,310 --> 00:03:31,410
+eu chamo eu tenho uma amiga que vai fazer o ponto ser ponto 7 aberto 4 e aqui significa que todos os
+
+36
+00:03:31,410 --> 00:03:37,490
+campos serão abertos mais ainda assim eu preciso quando perdê la em tabuleiro console.
+
+37
+00:03:37,890 --> 00:03:45,680
+Quando o usuário que eu saio do jogo ele vai perder B certo ou você perdeu quando aconteceu uma explosão.
+
+38
+00:03:46,200 --> 00:03:53,210
+Então nesse ponto eu preciso mostrar o tabuleiro para o usuário ver o tabuleiro com todos os dados com
+
+39
+00:03:53,280 --> 00:03:57,960
+todas as bolas exibidas aí sim embaixo você perdeu ele vai perguntar se quer continuar ou não então
+
+40
+00:03:58,050 --> 00:04:05,180
+vou executar novamente o jogo aqui só pra gente ver se realmente ele vai perder então vou colocar aqui
+
+41
+00:04:05,510 --> 00:04:09,500
+0 zero zero pra abri.
+
+42
+00:04:09,570 --> 00:04:18,900
+Ou seja que alguém adotem alguma bomba vou selecionar zero para abri ele abriu que usaram mas tem uma
+
+43
+00:04:18,900 --> 00:04:25,080
+bomba também você vai acionar o pedi para ele abri não tem.
+
+44
+00:04:25,170 --> 00:04:29,390
+Então com certeza não puseram o item sobre o seu corte.
+
+45
+00:04:29,970 --> 00:04:40,760
+Abri realmente uma bomba então uma duas três quatro bombas fez chover aqui eu acho na aplicação Big
+
+46
+00:04:40,790 --> 00:04:46,360
+Brother apenas três bombas então significa que um método que passou tinha nas bombas.
+
+47
+00:04:46,540 --> 00:04:48,730
+Tá soltando uma bomba mais do que eu pedi.
+
+48
+00:04:48,750 --> 00:04:54,900
+Porque eu passei para o tabuleiro aqui que eu queria apenas três minas então o método sorteado tem algum
+
+49
+00:04:54,900 --> 00:04:55,770
+problema.
+
+50
+00:04:55,770 --> 00:05:01,980
+E esse metro vou corrigir aproximadamente corrige esse método e depois para saber se está tudo ok aproximá
+
+51
+00:05:02,010 --> 00:05:06,200
+lo luta espera nem sei o blog ainda vou olhar aqui para aproximá la.
+
+52
+00:05:06,190 --> 00:05:08,540
+Proponho a correção pra esse blog e até lá.

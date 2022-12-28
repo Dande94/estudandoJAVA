@@ -1,0 +1,135 @@
+1
+00:00:00,240 --> 00:00:06,750
+Estamos começando mais um capítulo do nosso curso Java e nesse capítulo mais vamos virar parte dos fundamentos
+
+2
+00:00:06,750 --> 00:00:07,630
+da linguagem.
+
+3
+00:00:08,010 --> 00:00:12,780
+Nós estamos no período do curso e esse é o primeiro capítulo que a gente vai de fato entrar no código
+
+4
+00:00:13,100 --> 00:00:18,310
+mas nós vamos entrar numa série de capítulos que nós vamos formar as bases da linguagem.
+
+5
+00:00:18,310 --> 00:00:19,910
+Isso é extremamente importante.
+
+6
+00:00:19,950 --> 00:00:27,150
+Essa base e esses assuntos básicos eles são não no sentido básico de fácil mas no sentido de forma a
+
+7
+00:00:27,150 --> 00:00:30,970
+base da linguagem é extremamente importante nesse capítulo de fundamentos.
+
+8
+00:00:31,270 --> 00:00:37,410
+Mas vamos falar sobre estrutura básica onde um arquivo mede um programa em Java fala um pouquinho da
+
+9
+00:00:37,410 --> 00:00:42,020
+sintaxe das regras como a gente pode organizar as nossas linhas de código.
+
+10
+00:00:42,030 --> 00:00:49,490
+Como a gente pode definir conjuntos de linhas que são os blocos vou falar muito sobre variáveis constantes.
+
+11
+00:00:49,490 --> 00:00:56,210
+Vou falar sobre como você exibir os dados no console como você pode capturar dados no console o usuário
+
+12
+00:00:56,490 --> 00:00:59,640
+informa alguma coisa você captura essa informação.
+
+13
+00:00:59,640 --> 00:01:07,160
+Vou falar sobre os operadores aritméticos soma subtração multiplicação operadores lógicos relacionais
+
+14
+00:01:07,170 --> 00:01:13,860
+tem muita coisa interessante e alguns conceitos mais para o final do capítulo J RL e JD K.
+
+15
+00:01:13,920 --> 00:01:19,440
+Qual a diferença do Java e do Java com baila então são coisas importantes para que você possa conhecê
+
+16
+00:01:19,440 --> 00:01:21,480
+los dentro do ecossistema do Java.
+
+17
+00:01:21,490 --> 00:01:27,390
+A paixão de quem for avançando para novos capítulos a gente vai ver outras funcionalidades e agregando
+
+18
+00:01:27,390 --> 00:01:32,010
+conhecimento a esse conjunto de habilidades que a gente vai com a linguagem.
+
+19
+00:01:32,030 --> 00:01:37,020
+Aí o interessante é que a gente pode estar propondo novos desafios uma coisa interessante esse curso
+
+20
+00:01:37,320 --> 00:01:43,140
+já é a segunda versão desse curso já gravei esse curso em outro momento estou gravando agora com a versão
+
+21
+00:01:43,140 --> 00:01:48,960
+mais nova do Java com os novos recursos da linguagem então uso atualizado e também estendido a gente
+
+22
+00:01:48,960 --> 00:01:53,820
+vai ver muito mais coisas do que no outro mais uma coisa muito importante esse como será o primeiro
+
+23
+00:01:53,820 --> 00:01:54,860
+capítulo de código.
+
+24
+00:01:54,860 --> 00:01:59,720
+Vale a pena mencionar que dentro de todos os capítulos estarão desafios obviamente.
+
+25
+00:01:59,720 --> 00:02:05,670
+No início os desafios eram mais simples porque eu vou tentar colocar o desafio só aquilo que já foi
+
+26
+00:02:05,670 --> 00:02:09,740
+abordado até então e até aquele momento do desafio.
+
+27
+00:02:09,740 --> 00:02:15,000
+E a partir do momento que a gente foi evoluindo no curso os desafios vão agregando tudo aquilo que já
+
+28
+00:02:15,000 --> 00:02:16,140
+foi visto no passado.
+
+29
+00:02:16,140 --> 00:02:21,740
+Então se no passado você viu um determinado tema aquele tema pode fazer parte da solução do desafio
+
+30
+00:02:21,870 --> 00:02:27,750
+então pessoal fique por aqui no primeiro capítulo do nosso curso o primeiro capítulo de código de exercício
+
+31
+00:02:27,750 --> 00:02:32,970
+agora nós vamos entrar fundo no Java para aprender tudo o que a gente falou rapidamente na teoria sobre
+
+32
+00:02:32,980 --> 00:02:37,710
+algoritmo e futuro de dados agora vai colocar a mão na massa para entender isso como funciona no Japão
+
+33
+00:02:37,780 --> 00:02:43,320
+e nós vamos apresentar tudo de forma muito cadenciado de forma muito calma explicando os conceitos não
+
+34
+00:02:43,320 --> 00:02:48,240
+apenas mostrando como fazer mas explicando os porquês das coisas que vejo nas aulas.

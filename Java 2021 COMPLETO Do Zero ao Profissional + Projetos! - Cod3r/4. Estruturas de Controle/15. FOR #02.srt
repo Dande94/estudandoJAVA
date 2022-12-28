@@ -1,0 +1,159 @@
+1
+00:00:00,250 --> 00:00:06,510
+Se entrar no próximo exercício do laço o foco vou mostrar para vocês um fone de ouvido nessa possibilidade
+
+2
+00:00:06,510 --> 00:00:09,470
+que a gente tem que colocar um fone errado.
+
+3
+00:00:09,630 --> 00:00:17,210
+Eu quero lançar um mini desafio então pra isso vou criar aqui um arquivo chamado Foto 2.
+
+4
+00:00:17,400 --> 00:00:22,730
+Certo A gente vai ver um outro tipo de laço FOR mais na frente que eu falei pra vocês que eu x mais
+
+5
+00:00:22,740 --> 00:00:26,940
+nessa nesse capítulo gente não vai falar sobre isso porque envolve outros conhecimentos quer a parte
+
+6
+00:00:26,950 --> 00:00:28,810
+a Rui de Collection.
+
+7
+00:00:28,810 --> 00:00:34,530
+Eu vou deixar pra falar desse laço especificamente no capítulo de Harry no capítulo de colégio mas por
+
+8
+00:00:34,530 --> 00:00:39,960
+enquanto eu quero lançar o mini desafio que eu vou mostrar nesse vídeo que é você criar um laço forte
+
+9
+00:00:39,960 --> 00:00:47,030
+decrescente ou seja ele vai começar de 10 e vai até zero e ele vai decreta então de dois em dois e então
+
+10
+00:00:47,270 --> 00:01:01,310
+vai mostrar 10 8 6 5 4 5 6 6 8 6 4 2 Mostre o 0 e no final ele sai como mostra o Zé.
+
+11
+00:01:01,670 --> 00:01:08,100
+Então esse é o exercício você vai gerar um fole decrescente que vai mostrar o valor da variável de controle
+
+12
+00:01:08,100 --> 00:01:13,800
+que pode ser contador pode ser e pode ser X o nome da variável que você quiser eu vou colocar aqui nesse
+
+13
+00:01:13,800 --> 00:01:19,800
+exemplo o contador você vai apagar esse contador vai mostrar de dez até o zero pulando de 2 em 2 de
+
+14
+00:01:19,800 --> 00:01:20,930
+forma decrescente.
+
+15
+00:01:20,940 --> 00:01:25,200
+Então principalmente pra quem está começando a programar esse tipo de exercício é bastante interessante
+
+16
+00:01:25,200 --> 00:01:28,290
+porque você vai ganhando fluência na linguagem.
+
+17
+00:01:28,360 --> 00:01:33,980
+Então como já deu tempo você pausar o vídeo agora vou mostrar a solução que é supersimples estado independente
+
+18
+00:01:33,970 --> 00:01:35,330
+de você ter conseguido ou não.
+
+19
+00:01:35,340 --> 00:01:39,710
+Já falei é muito importante você tentar fazer os exercícios conseguiu.
+
+20
+00:01:39,710 --> 00:01:42,720
+Não acho que é algo que vai vir naturalmente com o tempo.
+
+21
+00:01:42,720 --> 00:01:47,580
+Então vou criar aqui uma variável de Contador.
+
+22
+00:01:47,580 --> 00:01:53,640
+Esse contador vai receber o valor de 10 C o valor inicial é a expressão que eu vou usar vai ser seu
+
+23
+00:01:53,640 --> 00:02:00,810
+contador tem que ser maior ou igual a zero ou seja zero também será incluído e o contador vai receber
+
+24
+00:02:01,240 --> 00:02:05,670
+uma atribuição subtrai ativo ser menos igual a 2.
+
+25
+00:02:05,670 --> 00:02:07,820
+Isso vai fazer com que o decrescente.
+
+26
+00:02:07,910 --> 00:02:16,140
+A variável do contador de 2 em 2 para a gente exibir aqui ou chamar que o System ponto aos ponto brindes
+
+27
+00:02:16,280 --> 00:02:25,390
+F é aqui vou passar Ministry que vai ser um contador igual a um contador contador igual percentual dele
+
+28
+00:02:25,500 --> 00:02:27,060
+para mostrar um valor inteiro.
+
+29
+00:02:27,060 --> 00:02:33,620
+Eu vou postar aqui passar como parâmetro adicional o contador exaltando o resultado.
+
+30
+00:02:33,650 --> 00:02:43,580
+Ele botou tudo na mesma linha e o rock aqui só pra ele quebrar a linha e pagou 10 8 6 4 2 0.
+
+31
+00:02:43,800 --> 00:02:48,750
+Seja de forma decrescente embora seja um exemplo simples pessoa é importante como autor lidando com
+
+32
+00:02:48,750 --> 00:02:53,610
+níveis e pessoas que estão realmente começando a programar agora é interessante mostrar outras formas
+
+33
+00:02:53,610 --> 00:02:58,730
+de fazer um laço forte embora a estrutura seja a mesma só questão de manipular os dados.
+
+34
+00:02:58,740 --> 00:03:01,860
+Você pode fazer de forma ascendente ou descendente.
+
+35
+00:03:01,860 --> 00:03:06,400
+Você pode de junho pulando os valores de 2 em 2 3 em 3.
+
+36
+00:03:06,420 --> 00:03:11,130
+Você tem uma flexibilidade muito grande para trabalhar com esse foco na próxima aula ou fazer um outro
+
+37
+00:03:11,130 --> 00:03:16,290
+exemplo de foco mostrando um laço dentro do outro e até lá para a gente ver um pouquinho sobre isso
+
+38
+00:03:16,590 --> 00:03:21,820
+vai ser importante também a gente um laço do outro porque se habitualmente você precisar consumiu uma
+
+39
+00:03:21,820 --> 00:03:27,110
+atriz que fala mais à frente o que é esse tipo de laço de estrutura pode ser útil.
+
+40
+00:03:27,150 --> 00:03:30,690
+Então na próxima aulas eles fazer o terceiro exemplo de folga eu espero lá.

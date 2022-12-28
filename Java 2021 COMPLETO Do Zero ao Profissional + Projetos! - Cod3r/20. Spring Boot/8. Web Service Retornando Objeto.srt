@@ -1,0 +1,339 @@
+1
+00:00:00,150 --> 00:00:07,960
+Só nesse exercício nós vamos em vez de retornar uma simples histria nas mãos e torná lo um objeto ou
+
+2
+00:00:08,080 --> 00:00:10,920
+uma resposta a uma chamada de uma função.
+
+3
+00:00:10,920 --> 00:00:17,400
+A gente vai ver com um objeto ele vai ser transformado para ser exibido no Brasil já que o Brasil ele
+
+4
+00:00:17,400 --> 00:00:24,660
+vai exibir apenas valores textuais e um objeto um valor binário que está na memória lá do Java e a gente
+
+5
+00:00:24,660 --> 00:00:28,950
+vai ver como o espírito de Bond vai lidar com essa situação de retornar um objeto.
+
+6
+00:00:28,950 --> 00:00:37,320
+Então para isso nós vamos criar dentro dos nossos do nosso pacote aqui do projeto eu vou criar um outro
+
+7
+00:00:37,320 --> 00:00:45,370
+pacote seguindo aquela mesma nomenclatura do MVC modo vil Controller vou criar um pacote chamado modelo
+
+8
+00:00:45,590 --> 00:00:52,010
+o modelo estrutural certo é que eu o chamei de cantor já que o chamei de controladores no plural choque
+
+9
+00:00:52,060 --> 00:01:03,340
+de módulos então criei uma classe não era isso que eu queria pagar aqui vou apagar aqui arquivo eu vou
+
+10
+00:01:03,340 --> 00:01:12,840
+criar aqui um novo clássico com o nome do pacote aqui em cima dos módulos e o nome da classe vai ser
+
+11
+00:01:13,630 --> 00:01:14,430
+cliente.
+
+12
+00:01:14,950 --> 00:01:20,000
+Então nós vamos ter a classe cliente e eu vou criar aqui três atributos.
+
+13
+00:01:20,170 --> 00:01:23,520
+O primeiro vai ser inteiro.
+
+14
+00:01:23,680 --> 00:01:31,810
+Eu vou chamar de o segundo vai ser também privado Bystrica eu vou chamar nome e o terceiro também vai
+
+15
+00:01:31,810 --> 00:01:35,170
+ser privado vai ser um tipo de string que eu vou chamar CPF.
+
+16
+00:01:35,740 --> 00:01:40,110
+Você pode até perguntar lama CPF não é composto apenas por valores numéricos.
+
+17
+00:01:40,120 --> 00:01:46,570
+Sim é composto por valores numéricos mais ou se tratar de um valor que a gente não vai fazer operações
+
+18
+00:01:46,570 --> 00:01:48,820
+matemáticas em cima de um CPF.
+
+19
+00:01:48,820 --> 00:01:52,200
+Não vou somado a esse défice não vou subtrair.
+
+20
+00:01:52,660 --> 00:02:01,170
+E eu tenho também a questão dos valores zeros à esquerda são valores não significativos nem formal ou
+
+21
+00:02:01,160 --> 00:02:02,980
+numérico ele vai acabar tirando.
+
+22
+00:02:02,990 --> 00:02:04,350
+Você tem que ter todo um tratamento.
+
+23
+00:02:04,350 --> 00:02:10,740
+Então o ideal é trabalhar valores mesmo que sejam valores numéricos como é o RG por exemplo e o valor
+
+24
+00:02:11,110 --> 00:02:17,620
+não é um valor que você vai precisar fazer operações matemáticas é melhor você armazenar como string
+
+25
+00:02:18,130 --> 00:02:21,470
+para evitar qualquer tipo de problema relacionado a números.
+
+26
+00:02:21,490 --> 00:02:27,100
+Se o zero for significativo e aí pode gerar algum tipo de problema então acaba preferindo fazer assim.
+
+27
+00:02:27,490 --> 00:02:35,260
+Eu vou colocar aqui o áudio como jazz si ou contra o lote s Windows pra geral consultor usando os campos.
+
+28
+00:02:35,770 --> 00:02:41,440
+Eu vou selecionar os três já selecionado e em geral vou ficar sem um custo padrão não vou precisar dele
+
+29
+00:02:41,440 --> 00:02:49,990
+por enquanto e aqui embaixo eu vou gerar os métodos jet set então inerente certas setas ou selecionar
+
+30
+00:02:49,990 --> 00:02:55,420
+tudo mandar gerar e ele vai gerar aqui.
+
+31
+00:02:55,550 --> 00:03:01,810
+Use os métodos eles então nós temos a nossa classe de modelo pronta para que a gente possa criar o nosso
+
+32
+00:03:01,930 --> 00:03:06,040
+outro controle e que vai retornar um objeto do tipo cliente.
+
+33
+00:03:06,040 --> 00:03:15,640
+Então vou criar aqui uma nova classe chamada cliente controle cliente Controller e nós vamos criar um
+
+34
+00:03:15,640 --> 00:03:24,400
+método bem simples que vai retornar o cliente o nome do método você pode ter cliente que não vai receber
+
+35
+00:03:24,400 --> 00:03:30,700
+nenhum parâmetro por enquanto que eu preciso importar o cliente e dentro desse método eu vou simplesmente
+
+36
+00:03:30,700 --> 00:03:45,940
+chamar Bertoni meu cliente bacana por exemplo de 28 o nome do cliente vai ser o Pedro e o CPF do cliente
+
+37
+00:03:45,950 --> 00:03:51,430
+vai ser 1 2 3 4 5 6 7 8 9 Trace 00.
+
+38
+00:03:51,520 --> 00:03:58,420
+Pronto esse aqui vai ser a informação do cliente ou só para ajeitar a formatação para 100 por cento.
+
+39
+00:03:58,420 --> 00:04:04,030
+O que a gente precisa fazer agora é colocar as anotações para que esse método seja chamado a partir
+
+40
+00:04:04,030 --> 00:04:05,460
+de alguma RL.
+
+41
+00:04:05,470 --> 00:04:14,620
+A primeira coisa que nós vamos fazer eu vou notar aqui com este Controller e vou colocar aqui o arroba
+
+42
+00:04:14,790 --> 00:04:20,590
+Get Map mapeando o perfil geral é aqui são do tipo Get.
+
+43
+00:04:20,590 --> 00:04:29,140
+Então não preciso me preocupar com o método eu vou mapear aqui ou ali clientes para qualquer um.
+
+44
+00:04:29,200 --> 00:04:35,140
+A gente vai fazer um ajuste com relação a esse caixa na Baviera eu vou fazer outra configuração mas
+
+45
+00:04:35,140 --> 00:04:41,010
+por enquanto eu quero colocar essa RL dentro do meu sistema pra chamar esse metros pra ver como é que
+
+46
+00:04:41,050 --> 00:04:41,890
+vai se comportar.
+
+47
+00:04:42,430 --> 00:04:50,900
+Então aqui eu vou selecionar e sua RL vou tirar aqui saudação e vou colocar clientes lá qualquer.
+
+48
+00:04:51,380 --> 00:04:57,850
+Então você vai ver que ele gerou aqui ao UOL textual e esse é um valor no formato de som.
+
+49
+00:04:57,850 --> 00:05:04,090
+Na próxima aula eu vou explicar de forma bem detalhada como funciona o formato de som que é um formato
+
+50
+00:05:04,090 --> 00:05:10,840
+essencial nos dias atuais para lidar com essa questão dos dados integração entre aplicações e tal.
+
+51
+00:05:10,990 --> 00:05:17,600
+Uma coisa legal que você pode fazer eu posso abrir aqui uma outra aba tem um login chamado som viu e
+
+52
+00:05:18,030 --> 00:05:24,800
+que é um plugin do Chrome e você pode instalar ele dentro do Chrome só maximizar um pouco o que o Brasil
+
+53
+00:05:24,810 --> 00:05:29,210
+está que eles já tenham instalado na minha máquina quando ele está bem aqui.
+
+54
+00:05:29,230 --> 00:05:37,450
+Acho que até que só a viu e ele tá até desabilitado mais coronel entrou numa página que tem Alisson
+
+55
+00:05:37,570 --> 00:05:38,860
+ele fica habilitado.
+
+56
+00:05:38,860 --> 00:05:44,810
+Olha a diferença aqui ele Isabelita e aqui ele habilita clique aqui.
+
+57
+00:05:44,920 --> 00:05:52,060
+Ele vai parar na página e ele vai mostrar o ícone de uma forma bem diferente ou seja mostrando aqui
+
+58
+00:05:52,420 --> 00:05:53,380
+as linhas.
+
+59
+00:05:53,440 --> 00:06:01,460
+Ele cria com esforço um estilo para mostrar o som já formatado que pra gente vai ser bem então nós vamos
+
+60
+00:06:01,460 --> 00:06:07,550
+usar esse dia sombrio para ver os resultados a partir das nossas requisições quando o resultado for
+
+61
+00:06:07,660 --> 00:06:10,470
+dia de e vai ser muito comum daqui pra frente.
+
+62
+00:06:10,520 --> 00:06:17,150
+A gente tem respostas e são objetos esses objetos eram convertidos pra ele são uma outra coisa que a
+
+63
+00:06:17,150 --> 00:06:25,610
+gente pode fazer que também é interessante é o fato de que a gente pode criar aqui direto na classe
+
+64
+00:06:25,810 --> 00:06:38,570
+um coach meu e aqui eu não preciso necessariamente colocar o valor ou peça até o local pra ser barra
+
+65
+00:06:39,020 --> 00:06:45,050
+clientes uma vez que eu digo que toda essa classe está mapeada para a Barra clientes eu não preciso
+
+66
+00:06:45,050 --> 00:06:46,990
+mais colocar o barco antes.
+
+67
+00:06:47,440 --> 00:06:53,510
+Eu posso simplesmente colocar apenas bar qualquer que ele sabe que esse método pertence a essa classe
+
+68
+00:06:53,510 --> 00:06:57,240
+então na verdade ele continuará sendo clientes do bar qualquer.
+
+69
+00:06:57,500 --> 00:07:01,500
+Então salvando aqui esse controle já está salvo se e fecham.
+
+70
+00:07:01,580 --> 00:07:05,940
+Você vai ver que continua funcionando ainda bar clientes bar qualquer.
+
+71
+00:07:05,940 --> 00:07:11,270
+Se eu colocar aqui qualquer dois só para ter certeza que ele está pagar melhor Canção Nova e eu coloco
+
+72
+00:07:11,270 --> 00:07:12,690
+aqui qualquer dois.
+
+73
+00:07:12,860 --> 00:07:20,090
+Você vai ver que ele vai trazer de fato a resposta que a gente quer a você não necessariamente precisa
+
+74
+00:07:20,090 --> 00:07:28,410
+colocar se for dentro de um caixa bem não precisa colocar o pé em baixa colocar isso e também funciona
+
+75
+00:07:28,410 --> 00:07:29,270
+ok.
+
+76
+00:07:29,270 --> 00:07:35,970
+Da mesma forma que aqui também funcionam que se você tem apenas o RL você pode fazer essa forma.
+
+77
+00:07:36,230 --> 00:07:42,710
+Salvei aqui dei um refresh e ele vai mostrar o resultado também como sendo o nosso cliente convertido
+
+78
+00:07:42,710 --> 00:07:44,450
+para o formato de Alisson.
+
+79
+00:07:44,600 --> 00:07:50,570
+E pra finalizar ficou claro deve ter ficado claro já que qualquer outro método que eu criei dentro dessa
+
+80
+00:07:50,570 --> 00:07:55,770
+classe com base em RL vai ser começado sempre com barra cliente.
+
+81
+00:07:56,150 --> 00:08:02,300
+O final que deu certo então na próxima aula eu vou parar um pouquinho aqui dos tributos vou mostrar
+
+82
+00:08:02,300 --> 00:08:08,930
+pra vocês um pouco do formato de som explicando um pouco do que acontece no formato e som de onde ele
+
+83
+00:08:08,930 --> 00:08:15,080
+vem e a importância dele nos dias atuais já que ele é usado em muitos e muitas tecnologias.
+
+84
+00:08:15,080 --> 00:08:19,130
+Eu vou parar um pouquinho pra explicar já que muita gente pode dizer que não conheça esteja lidando
+
+85
+00:08:19,130 --> 00:08:24,350
+com o formato de som pela primeira vez que fico por aqui na próxima aula a gente continua até lá.

@@ -1,0 +1,399 @@
+1
+00:00:00,130 --> 00:00:06,570
+Penso agora nós vamos implementar o layout do teclado aí viu que não dá pra usar o grande blecaute que
+
+2
+00:00:06,570 --> 00:00:12,000
+é um dos mais simples de ser usado porque existem alguns componentes alguns botões que vão ocupar mais
+
+3
+00:00:12,000 --> 00:00:19,560
+um espaço e para isso eu vou fazer o seguinte até voltar aqui como dizer pra ter de novo aquele mesmo
+
+4
+00:00:20,000 --> 00:00:25,040
+layout exterior para pra gente fazer algumas mudanças e começar a aplicar o grande blecaute.
+
+5
+00:00:25,320 --> 00:00:31,660
+Então vou fazer a primeira mudança que vai ser o seguinte eu vou criar aqui o queridinho Bad layout
+
+6
+00:00:31,680 --> 00:00:42,960
+chegou a chamar de layout recebe e eu Grid Bailey Audi e vou também criar o grid de grid com questões
+
+7
+00:00:43,420 --> 00:00:52,510
+que eu vou chamar só de sei 7 mil grite bem com os trens e vou fazer o seguinte vou substituir o meu
+
+8
+00:00:52,680 --> 00:00:59,370
+brinde leal pelo trabalhador leal que eu defendi na medida em que você vai ver que todos os componentes
+
+9
+00:00:59,370 --> 00:01:02,050
+vão ficar na mesma linha um lado ou outro.
+
+10
+00:01:02,050 --> 00:01:07,640
+Ele colocou tudo na tela mas ficou dessa forma que eu uso agora para organizar a tela.
+
+11
+00:01:07,650 --> 00:01:13,830
+Se você olhar o metro adicionar e não contra o espaço além de ter a possibilidade de passar um rolo
+
+12
+00:01:13,830 --> 00:01:20,610
+inteiro você pode passar um objeto como parâmetro e esse objeto vai ser exatamente as construções que
+
+13
+00:01:20,610 --> 00:01:24,780
+você vai aplicar na hora de colocar aquele elemento na tela.
+
+14
+00:01:24,810 --> 00:01:31,020
+Chris Berkeley alterou um layout bem flexível e uma das possibilidades é você organizar dentro do grid
+
+15
+00:01:31,020 --> 00:01:34,080
+bem legal em linhas e colunas.
+
+16
+00:01:34,080 --> 00:01:42,420
+Para isso você vai precisar das construções e a lógica é passar a construí como parâmetro para o segundo
+
+17
+00:01:43,200 --> 00:01:48,990
+parâmetro o que na verdade do Metro vai adicionar então o primeiro parâmetro vai ser o componente o
+
+18
+00:01:48,990 --> 00:01:55,640
+segundo parâmetro as construções vão rodar contra o V contra o velho com V.
+
+19
+00:01:55,830 --> 00:02:03,900
+E depois a gente faz o que eu vou apagar na verdade não vou usar dessa forma só para começar a testar
+
+20
+00:02:03,930 --> 00:02:06,620
+coisas que já podem de uma forma um pouco mais otimizadas.
+
+21
+00:02:06,810 --> 00:02:14,460
+Então estão aqui as construções agora a gente tem tanto o metro adicionar considerando a custo na hora
+
+22
+00:02:14,460 --> 00:02:16,280
+de renderizar o componente na tela.
+
+23
+00:02:16,410 --> 00:02:21,930
+Como é que a gente pode fazer antes de renderizar um determinado componente a gente pode alterar as
+
+24
+00:02:21,930 --> 00:02:28,040
+construções e adiciona depois gente altera constituem adicionam novamente Machar pra vocês aqui.
+
+25
+00:02:28,140 --> 00:02:36,900
+Se eu pegar o atributo grid em X eu tenho o eixo x que é o eixo na horizontal e o eixo y aqui é na vertical.
+
+26
+00:02:37,170 --> 00:02:43,550
+Então colocando aqui o set Grid y pra ser zero.
+
+27
+00:02:43,560 --> 00:02:49,940
+Ou seja estou na primeira linha do zero e o X vai ser zero e seu primeiro elemento.
+
+28
+00:02:49,980 --> 00:02:56,850
+E aí eu posso duplicar isso e colocá la além de bar logo depois de adicionar o primeiro botão e adicionar
+
+29
+00:02:56,940 --> 00:03:01,730
+o segundo botão vai ser no grid y 0.
+
+30
+00:03:01,910 --> 00:03:08,310
+Eu vou colocar aqui no canto só para a gente vê la a diferença de cara executando você vai ver que o
+
+31
+00:03:08,310 --> 00:03:13,670
+primeiro componente ele ficou no zero e o segundo no.
+
+32
+00:03:13,890 --> 00:03:15,890
+Como todos estão dando construi.
+
+33
+00:03:16,240 --> 00:03:20,970
+E aí depois ele acabou somando todos os outros componentes aqui ou no Grigio.
+
+34
+00:03:20,970 --> 00:03:28,310
+Já aqui pra todos os outros eu não mexi mais na construção ele passou todos os componentes C na posição.
+
+35
+00:03:28,800 --> 00:03:31,970
+E aí esse botão acabou ficando visível na frente dos outros.
+
+36
+00:03:31,980 --> 00:03:40,380
+Se eu quiser manter a mesma linha basta substituir o grid y traseiro está novamente você vai ver que
+
+37
+00:03:40,500 --> 00:03:45,860
+ele vai mostrar que o Acer é o botão mais e menos na mesma linha.
+
+38
+00:03:45,900 --> 00:03:54,870
+Eu posso inclusive não precisar mexer no Y já que eu mexi apenas no X ou Y continua o mesmo.
+
+39
+00:03:54,870 --> 00:04:02,450
+Eu Machine X para adicionar outro componente do lado posso duplicar essa linha aqui ou daqui para baixo.
+
+40
+00:04:02,450 --> 00:04:10,580
+Parece que pra cá e aqui eu coloco 0 x 2 e 3 0 aqui.
+
+41
+00:04:11,220 --> 00:04:20,190
+Ele colocou os componentes e acabou colocando o 7 junto com o barão porque todos estão nesse mesmo componente
+
+42
+00:04:20,190 --> 00:04:26,340
+mas aí a gente pode fazer o seguinte Aqui embaixo eu já digo que na segunda linha eu vou ter o grid
+
+43
+00:04:26,410 --> 00:04:35,000
+é igual a um grande X igual a zero você vai ver que ele já vai quebrar a linha de baixo astral colocou
+
+44
+00:04:35,100 --> 00:04:39,080
+os primeiros quatro botões à primeira linha e o outro na linha de baixo.
+
+45
+00:04:39,190 --> 00:04:45,030
+A gente vai exatamente fazer mais ou menos dessa forma só que em vez de eu fazer isso de forma manual
+
+46
+00:04:45,030 --> 00:04:51,660
+aqui repetir pra todos os casos eu vou criar uma função que vai me ajudar a adicionar os botões e aí
+
+47
+00:04:51,660 --> 00:04:57,540
+sim eu vou substituir cada uma dessas entradas pela função de adicionar fazer o seguinte vou criar uma
+
+48
+00:04:57,540 --> 00:05:06,680
+função chamada adicionar o botão que vai receber como parâmetro um estranho na verdade vai receber o
+
+49
+00:05:06,680 --> 00:05:13,990
+texto que eu vou colocar aqui a serem recebidos marcou que eu vou passar aqui vai ser cinza escuro que
+
+50
+00:05:14,090 --> 00:05:20,320
+vai receber a construi e vai receber a posição X e a posição Y.
+
+51
+00:05:20,390 --> 00:05:26,150
+Com essa chamada você vai conseguir inferir que o metro que eu quero criar vai ter a seguinte assinatura
+
+52
+00:05:26,330 --> 00:05:29,500
+vai receber uma string que eu vou chamar de texto.
+
+53
+00:05:29,720 --> 00:05:35,620
+Vai receber o com você simplesmente chamado Icon vai receber a construção em que eu vou chamar de C
+
+54
+00:05:35,910 --> 00:05:45,710
+e aqui vai ser o X e o Y de tal forma que eu vou aqui dentro fazer o seguinte eu vou criar aqui um botão
+
+55
+00:05:45,710 --> 00:05:55,030
+então tal botão recebe um botão que vai receber o texto e a cor como parâmetro que são esses dois parâmetros
+
+56
+00:05:55,030 --> 00:05:55,540
+aqui.
+
+57
+00:05:55,940 --> 00:05:58,220
+Só quebrar para ficar tudo aparecendo.
+
+58
+00:05:58,220 --> 00:06:01,260
+Além disso eu vou citar aqui não sei.
+
+59
+00:06:01,280 --> 00:06:02,060
+Ponto.
+
+60
+00:06:02,140 --> 00:06:13,090
+Grid X vai receber o valor de x e ser ponto mas cedeu Audi y que eu passei como parâmetro.
+
+61
+00:06:13,150 --> 00:06:23,030
+E além disso eu vai adicionar o botão e vou passar as construções como sendo o segundo parâmetro de
+
+62
+00:06:23,030 --> 00:06:28,700
+tal forma que aqui eu tenho um metro mais simples que vai me ajudar adicionar um botão dentro do meu
+
+63
+00:06:28,700 --> 00:06:34,880
+componente e aí em vez de ficar fazendo isso de forma manual eu vou adicionar o botão ao passo na cor
+
+64
+00:06:34,880 --> 00:06:37,120
+cinza zero zero.
+
+65
+00:06:37,190 --> 00:06:42,750
+Depois eu vou ter o botão que vai adicionar isso aqui.
+
+66
+00:06:42,780 --> 00:06:46,640
+Vou deixar por enquanto e quando eu posso até modificar se for o caso.
+
+67
+00:06:46,640 --> 00:06:48,790
+Depois vai seu percentual.
+
+68
+00:06:48,850 --> 00:06:51,050
+E por último essa divisão.
+
+69
+00:06:51,190 --> 00:06:55,740
+Só que a divisão com ou horas laranja laranja.
+
+70
+00:06:56,610 --> 00:07:06,380
+E eu vou colocar primeiro vai ser 0 0 depois um 0 2 0 e 3 0 vai apagar isso aqui até a minha primeira
+
+71
+00:07:06,380 --> 00:07:14,350
+linha então vou ter que trocar um comentário que não passei linha adicionando os quatro componentes.
+
+72
+00:07:14,360 --> 00:07:18,310
+Tá dando aqui pra testar.
+
+73
+00:07:18,590 --> 00:07:23,810
+Colocou os quatro botões na primeira linha vou duplicar isso aqui.
+
+74
+00:07:24,610 --> 00:07:38,620
+E nós temos agora vai ser 7 7 mas temos aqui depois o 8 8 depois do 9 e por último a operação de multiplicação
+
+75
+00:07:38,690 --> 00:07:47,640
+só que aqui é bem cinza escuro vai ser cinza claro não copiar aqui substitua isso.
+
+76
+00:07:47,750 --> 00:08:00,630
+Isso aqui vai ser ótimo ou seja essa aqui vai ser a nossa segunda linha da calculadora 2 executando
+
+77
+00:08:00,910 --> 00:08:05,810
+nós teremos primeira linha e a segunda linha não tá com os alinhamentos corretos mas a gente vai mexer
+
+78
+00:08:05,810 --> 00:08:11,420
+nisso vou fazer a mesma coisa pra Linha 3 Linha 4 5.
+
+79
+00:08:11,450 --> 00:08:27,310
+Então vou colocar linhas 2 3 4 5 vou substituir os valores pra sei que vou precisar mais que isso 6
+
+80
+00:08:27,320 --> 00:08:29,970
+7 8 9 e acho que a gente já criou essa.
+
+81
+00:08:30,440 --> 00:08:37,130
+Então pegar na calculadora como referência a primeira linha a gente já fez a 100 Mais Menos percentual
+
+82
+00:08:37,120 --> 00:08:39,470
+de visão depois 7 8.
+
+83
+00:08:39,500 --> 00:08:47,210
+Alguma explicação agora aqui na terceira 4 5 6 e menos 4 5 6 e menos.
+
+84
+00:08:47,210 --> 00:08:55,150
+Na outra linha na quarta linha vai ser 1 2 e 3 e mais 2 3 mais.
+
+85
+00:08:55,340 --> 00:09:03,720
+E finalmente aqui a gente tem 0 zero a vírgula é o símbolo de igual.
+
+86
+00:09:04,180 --> 00:09:11,660
+Então posso apagar todos esses botões que foram adicionados e nós temos agora todos os botões será adicionado
+
+87
+00:09:11,660 --> 00:09:19,120
+a partir do método tradicional do tal estamos apoiando mas temos esses aqui tá faltando só de ajustar
+
+88
+00:09:19,170 --> 00:09:20,190
+a questão das minhas.
+
+89
+00:09:20,220 --> 00:09:36,920
+Então a linha mais 1 0 e 2 aqui tem 2 2 2 2 2 3 3 3 3 tenho 4 4 4 4 6 começando do zero e Taubaté do
+
+90
+00:09:36,920 --> 00:09:38,850
+zero até 4 só cinco linhas.
+
+91
+00:09:39,020 --> 00:09:44,540
+Na nossa calculadora não está muito bonito ainda mais para todos os botões que vão ser mais e menos
+
+92
+00:09:44,540 --> 00:09:52,880
+percentual de visão 7 8 9 multiplicação 4 5 6 menos 1 2 3 mais duplique 0 porque eu vou querer que os
+
+93
+00:09:52,910 --> 00:09:56,570
+era de uma única linha a mais por enquanto a gente não faz isso ainda.
+
+94
+00:09:56,720 --> 00:10:02,930
+A vírgula tio é igual mas tem todos os botões aqui na vou continuar melhorando esse layout de expandir
+
+95
+00:10:02,930 --> 00:10:06,830
+meus botões e deixando todos eles de uma forma mais proporcional.
+
+96
+00:10:06,950 --> 00:10:12,350
+Então vou ficar por aqui na sala com esse layout mais estranho mais na próxima aula mas vamos ajustar
+
+97
+00:10:12,350 --> 00:10:17,480
+o layout de definiu os tamanhos corretos e posicionar nos botões de uma forma que o nosso layout fique
+
+98
+00:10:17,480 --> 00:10:20,180
+correto de acordo com aquilo que a gente tem na calculadora.
+
+99
+00:10:20,210 --> 00:10:24,340
+Então fui por aqui na qual a gente continua mexendo ainda no componente de teclado.
+
+100
+00:10:24,460 --> 00:10:24,920
+Para lá.

@@ -1,0 +1,935 @@
+1
+00:00:00,310 --> 00:00:08,250
+Pessoal agora nós vamos criar alguma Data Access Object para que a gente possa usar ele durante os exercícios
+
+2
+00:00:08,250 --> 00:00:11,480
+pra não ter que ficar copiando a cada novo exercício.
+
+3
+00:00:11,610 --> 00:00:18,360
+Menos gente menos de veto e coisas do tipo estava aproveitar aqui pra fechar todos os arquivos de exercício
+
+4
+00:00:18,870 --> 00:00:26,760
+e eu vou criar aqui um novo pacote que eu vou chamar Dinho Franco certo entra muito comum quando você
+
+5
+00:00:26,760 --> 00:00:35,140
+trabalha com sistemas maiores você criar aquele concelho de camadas a FCT por exemplo um pacote que
+
+6
+00:00:35,140 --> 00:00:38,930
+representa uma camada da sua aplicação por exemplo de infra estrutura.
+
+7
+00:00:39,030 --> 00:00:45,390
+Você tem uma camada que representa as regras da sua aplicação seria a camara de negócio ou camada de
+
+8
+00:00:45,390 --> 00:00:46,430
+lógica.
+
+9
+00:00:46,430 --> 00:00:51,830
+Você tem uma camada que representa as interfaces da sua aplicação então por exemplo vai ser Camara e
+
+10
+00:00:51,840 --> 00:00:55,800
+visam a apresentação ouviu o inglês certo.
+
+11
+00:00:56,190 --> 00:01:03,750
+Então você separa em camadas e tal no caso do Dell ele é um padrão voltado para a infra estrutura a
+
+12
+00:01:03,750 --> 00:01:10,830
+ideia dele é abstrair os dados e criar uma classe que vai entregar métodos de mais alto nível você não
+
+13
+00:01:10,830 --> 00:01:16,770
+precisa se preocupar com o framework não precisa se preocupar com cobre uma conexão você simplesmente
+
+14
+00:01:16,770 --> 00:01:22,230
+chamo Dell e ele faz o trabalho de acesso a banco de dados da mesma forma que eu posso ter a parte de
+
+15
+00:01:22,230 --> 00:01:25,150
+banco de dados dentro de um pacote de infra estrutura.
+
+16
+00:01:25,440 --> 00:01:30,630
+Você pode ter outras coisas de infra estrutura dentro desse pacote por exemplo um determinado ponto
+
+17
+00:01:30,630 --> 00:01:33,420
+do meu negócio eu preciso enviar um e-mail para o cliente.
+
+18
+00:01:33,780 --> 00:01:36,940
+No fluxo de negócio existe esse passo para mandar o e-mail dele.
+
+19
+00:01:36,960 --> 00:01:43,080
+Você criar toda a complexidade e mandar um e-mail dentro das regras da sua aplicação você simplesmente
+
+20
+00:01:43,080 --> 00:01:49,500
+delega isso pra uma classe Apache infra estrutura que vai se responsabilizar e mandar esse e-mail.
+
+21
+00:01:49,650 --> 00:01:55,920
+Então é cego não apenas para banco de dados mas para a índia de meio para envio por exemplo de uma mensagem
+
+22
+00:01:55,920 --> 00:02:02,400
+no WhatsApp ou no telegrama ou você quer mandar um SMS ou você quer fazer qualquer coisa que envolva
+
+23
+00:02:02,670 --> 00:02:04,320
+a parte de infra estrutura.
+
+24
+00:02:04,320 --> 00:02:06,600
+Você pode delegar isso para outra camada.
+
+25
+00:02:06,610 --> 00:02:09,770
+Não seja o negócio fica mais focado no negócio.
+
+26
+00:02:09,780 --> 00:02:13,970
+Sempre que precisar de infra estrutura ele chama um metro de alto nível.
+
+27
+00:02:14,210 --> 00:02:22,670
+Então eu vou logo criar aqui uma nova classe o nome da classe será de ou seja Data Access Object.
+
+28
+00:02:22,770 --> 00:02:26,990
+Eu vou criar uma classe usando genéricos a gente já viu isso.
+
+29
+00:02:27,030 --> 00:02:32,940
+Então colocar aqui é de entidade e com isso a gente vai deixar essa classe genérica não vou não vou
+
+30
+00:02:32,940 --> 00:02:35,420
+criar uma classe específica para o produto.
+
+31
+00:02:35,540 --> 00:02:40,080
+Não vou poder por exemplo usar esse clássico usuário com um produto ou qualquer outra entidade que a
+
+32
+00:02:40,080 --> 00:02:43,570
+gente vai criar no futuro uma possibilidade que a gente tem.
+
+33
+00:02:43,570 --> 00:02:46,430
+Certo não é algo incomum de ser feito.
+
+34
+00:02:46,440 --> 00:02:54,170
+Eu poderia fazer isso ou não a gente pode criar por exemplo uma interface funcional chamada entidade
+
+35
+00:02:54,360 --> 00:02:55,170
+certo.
+
+36
+00:02:55,170 --> 00:02:59,920
+Na verdade não há nenhuma entidade funcional porque ela não vai ter nenhuma função.
+
+37
+00:02:59,940 --> 00:03:06,660
+Vai ser uma entidade marca dura até uma interface que não tem nenhum tipo de metro dentro dele e a gente
+
+38
+00:03:06,660 --> 00:03:13,470
+pode por exemplo dizer o seguinte só o meu Dell tem que vai recebê lo e é aquela entidade que estende
+
+39
+00:03:13,470 --> 00:03:20,670
+por exemplo a entidade eu posso importar a entidade em prol do eu crio uma restrição que somente as
+
+40
+00:03:20,670 --> 00:03:27,460
+classes que implementarem a entidade vão ser possíveis de ser passados com meus genéricos aqui.
+
+41
+00:03:27,790 --> 00:03:32,540
+E aí eu teria que colocar o produto implemente se a entidade.
+
+42
+00:03:32,790 --> 00:03:38,580
+Ou seja é preciso fazer isso por mais que eu não tenha nenhum método é só para marcar aquela classe
+
+43
+00:03:38,580 --> 00:03:44,400
+implementa a entidade para você criar de certa forma um grupo de classes ali que tenham a mesma interface
+
+44
+00:03:44,400 --> 00:03:45,260
+em comum.
+
+45
+00:03:45,300 --> 00:03:50,850
+Por isso quem chama essa interface de marcador porque ela não gera nenhuma obrigação de implementação
+
+46
+00:03:50,850 --> 00:03:53,010
+de metro mais serve para a marca.
+
+47
+00:03:53,010 --> 00:03:56,920
+Por exemplo você até poderia se quiser a toda a interface.
+
+48
+00:03:56,950 --> 00:04:03,960
+A entidade tem que ter um método que retorna longo chamado Get It digo você poderia criar uma padronização
+
+49
+00:04:03,960 --> 00:04:09,810
+também mas só para mostrar que existe essa possibilidade eu não vou fazer isso aqui certa vou escolher
+
+50
+00:04:09,910 --> 00:04:18,480
+a entidade ou tirar aqui produto e não vou forçar o meu Dell implementar uma interface específica mais
+
+51
+00:04:18,480 --> 00:04:23,800
+só para mostrar que isso é uma possibilidade interessante se você quiser criar.
+
+52
+00:04:23,820 --> 00:04:29,150
+Você pode criar mais essa restrição pra você por exemplo não criar situações do tipo eu vou criar um
+
+53
+00:04:29,170 --> 00:04:34,520
+Dell que tenta persistir no banco de dados a classe e alterar o usuário.
+
+54
+00:04:34,520 --> 00:04:35,820
+2 Só que é o usuário.
+
+55
+00:04:35,820 --> 00:04:42,900
+2 Não é uma classe não é uma entidade não tem as anotações em JPEG então você pode criar situações que
+
+56
+00:04:42,900 --> 00:04:48,490
+você tem de passar uma classe que realmente não é uma classe que foi pensada para ser persistido no
+
+57
+00:04:48,510 --> 00:04:49,350
+banco mas não lá.
+
+58
+00:04:49,740 --> 00:04:53,700
+Eu vou criar aqui os dois atributos que já está acostumado.
+
+59
+00:04:53,700 --> 00:04:59,410
+No caso em que o investimento menos gere eu vou criar como estático então vai ter gente menos afeto
+
+60
+00:05:00,470 --> 00:05:02,020
+a fábrica de conexão.
+
+61
+00:05:02,210 --> 00:05:08,830
+No meu caso nós vamos criar fábricas de conexão apenas para um único único banco de dados então vou
+
+62
+00:05:08,840 --> 00:05:11,090
+ter apenas um único ente menos fértil.
+
+63
+00:05:11,080 --> 00:05:14,600
+é uma coisa legal não sei se eu falei pra vocês anteriormente.
+
+64
+00:05:14,750 --> 00:05:22,610
+Quando eu crio um atributo de instância por exemplo que é o caso do Ximenes esse mini.
+
+65
+00:05:22,660 --> 00:05:25,490
+Ele pode ser inicializar no construtor.
+
+66
+00:05:25,730 --> 00:05:31,790
+Obviamente o construtor é o responsável por criar a instância que eu posso fazer em Minas Gerais recebe
+
+67
+00:05:32,050 --> 00:05:36,440
+minério de ferro porque todo ente menos gente.
+
+68
+00:05:36,680 --> 00:05:43,850
+Ou seja eu acabei de inicializar o engenheiro na construção do objeto mais no caso de um atributo estático
+
+69
+00:05:43,960 --> 00:05:52,370
+o local para você inicializar algo sem salas diretamente aqui na declaração desse atributo ou você inicializar
+
+70
+00:05:52,370 --> 00:05:56,230
+isso a partir de um bloco estático como um bloco estático.
+
+71
+00:05:57,110 --> 00:06:03,680
+Você coloca que estático e abra um bloco e dentro desse bloco ele vai chamar isso apenas uma única vez
+
+72
+00:06:03,710 --> 00:06:07,870
+quando a classe for carregada pelo Japão certo.
+
+73
+00:06:07,920 --> 00:06:13,900
+Então com a classe que foi carregada nesse momento ele executa o bloco estático e alargar o bloco estático.
+
+74
+00:06:13,920 --> 00:06:19,050
+Você pode criar realmente uma lógica de inicialização na sua classe tem que ter um cuidado com o que
+
+75
+00:06:19,050 --> 00:06:25,700
+esse gerar um erro aqui dentro ele pode gerar um problema muito grande e pode gerar problema de carregamento
+
+76
+00:06:25,700 --> 00:06:27,060
+da sua aplicação.
+
+77
+00:06:27,070 --> 00:06:31,780
+Então ainda há algo a ser tratado aqui o erro é aí tratando o erro.
+
+78
+00:06:31,810 --> 00:06:37,920
+Você pode digamos assim documentar colocar um logo na sua aplicação certo.
+
+79
+00:06:37,930 --> 00:06:45,020
+Logo aquilo que aconteceu na criação da sua classe especialmente quando você trabalha com um banco de
+
+80
+00:06:45,020 --> 00:06:51,770
+dados na verdade o risco maior vai estar aqui quando você tentar criar conexão mais importante que você
+
+81
+00:06:51,770 --> 00:06:56,450
+tenha cuidado quando for criar um bloco estático para não gerar nenhum problema e isso não causar um
+
+82
+00:06:56,450 --> 00:06:58,360
+impacto muito sério na sua aplicação.
+
+83
+00:06:58,430 --> 00:07:08,010
+O ideal é você logar que é certo criar algum mecanismo usar por exemplo logo da vida e aplicar o login.
+
+84
+00:07:08,050 --> 00:07:14,360
+Ford sei que é muito famoso o que você pode usar para alongar criar todo um arquivo do que aconteceu
+
+85
+00:07:14,360 --> 00:07:17,330
+na sua aplicação inclusive erros de inicialização.
+
+86
+00:07:17,330 --> 00:07:24,650
+Então aqui dentro de Minas Gerais eu vou criar usando persistência e aqui nós vamos criar lucro em minas
+
+87
+00:07:24,650 --> 00:07:32,390
+de ferro passando a persistência e uniformidade e persistência a gente já viu isso é a unidade persistência
+
+88
+00:07:32,390 --> 00:07:34,690
+talento e persistência XML.
+
+89
+00:07:35,270 --> 00:07:42,790
+Nós temos aqui olho no código fonte o nome da unidade persistência e exercícios traço JPEG estão aqui
+
+90
+00:07:42,800 --> 00:07:43,340
+dentro.
+
+91
+00:07:43,350 --> 00:07:47,070
+Para colocar essa informação já maximiza aqui.
+
+92
+00:07:47,140 --> 00:07:55,070
+Pronto nós temos o nosso exercício TJ BA inicializar um bloco estático e criei o menos que representa
+
+93
+00:07:55,070 --> 00:07:57,410
+a nossa conexão pessoal.
+
+94
+00:07:57,420 --> 00:08:04,760
+Outra coisa que a gente vai precisar a classe ainda precisar passar a classe comparamos de Da mesma
+
+95
+00:08:04,760 --> 00:08:17,200
+forma que lá no obter procurar aqui obter usuários no caso obter o usuário no singular.
+
+96
+00:08:17,210 --> 00:08:21,210
+A gente precisou passar classe como parâmetro o metro.
+
+97
+00:08:21,440 --> 00:08:27,440
+Isso é importante porque a gente vai precisar acessar por exemplo o nome da classe pra entender como
+
+98
+00:08:27,440 --> 00:08:29,560
+é quem vai fazer consultas e tal.
+
+99
+00:08:29,570 --> 00:08:34,860
+Então no meu Dell também vou precisar receber como parâmetro o nome da classe.
+
+100
+00:08:35,300 --> 00:08:43,970
+Então eu vou criar aqui no construtor para receber por exemplo a s o Class vai ser da entidade e então
+
+101
+00:08:43,970 --> 00:08:49,580
+vou chamar aqui de classe Class uma palavra reservada não poderia usar mais como outra qualquer.
+
+102
+00:08:49,580 --> 00:08:53,380
+Tudo em português coloca a classe aqui que vai dar certo.
+
+103
+00:08:53,540 --> 00:09:07,830
+Então pra isso eu vou criar aqui um outro atributo de classe e vou aqui no metro fazer 10 outro clássico
+
+104
+00:09:08,780 --> 00:09:15,350
+recebem o atributo que recebi no curso toda a classe e para pra gente não deixar de ter o conceito padrão
+
+105
+00:09:15,350 --> 00:09:19,540
+que algumas vezes eu não vou querer trabalhar com a entidade específica que eu vou querer gerar um down
+
+106
+00:09:19,550 --> 00:09:20,680
+genérico.
+
+107
+00:09:20,690 --> 00:09:28,760
+Eu vou permitir passar nulo então vou chamar aqui eu estou desse passar na classe nunca vai ter situações
+
+108
+00:09:28,760 --> 00:09:34,730
+que o método vai exigir que a classe esteja preenchida a gente pode fazer um teste antes e eventualmente
+
+109
+00:09:34,730 --> 00:09:41,600
+jogar alguma exceção então então criei dois consultores o custo padrão e o construtor que recebe a classe
+
+110
+00:09:41,920 --> 00:09:48,440
+e agora nós vamos criar alguns metros que vai nos ajudar a trabalhar com a parte de transação trabalhar
+
+111
+00:09:48,440 --> 00:09:56,480
+boa parte de inserção e tal e tal exige uma técnica legal que é uma técnica que faz o seguinte jogo
+
+112
+00:09:56,660 --> 00:10:04,590
+eu vou criar aqui um exemplo rapidamente se eu falei sobre isso em outro momento mais quando você cria
+
+113
+00:10:04,590 --> 00:10:13,760
+um método eu vou criar aqui um método por exemplo públicos para retornar ao método vai ser Techint.
+
+114
+00:10:13,790 --> 00:10:18,720
+Quando você cria um método que retorna a própria classe atual.
+
+115
+00:10:18,740 --> 00:10:27,410
+Então por exemplo a história em português quando você cria um método dessa forma você consegue chamar
+
+116
+00:10:27,470 --> 00:10:33,620
+esse método de forma encadeada e gerar um encadeamento de chamadas de métodos na mesma sentença de código.
+
+117
+00:10:33,800 --> 00:10:40,160
+Então por exemplo o seu criador que o mesmo homem só pra mostrar pra você exatamente isso e eu vou criar
+
+118
+00:10:40,160 --> 00:10:53,000
+aqui um dia D aula e vou passar aqui a classe em prol do voto se eu fizer aqui ao ponto tachi e ai como
+
+119
+00:10:53,000 --> 00:10:58,820
+ele retorna o próprio objeto eu posso chamar de novo ponto x ponto.
+
+120
+00:10:58,880 --> 00:11:05,090
+Isso aqui funciona porque eu estou fazendo o próprio método Tech ele retorna à instância ideal ou então
+
+121
+00:11:05,090 --> 00:11:11,090
+eu consigo fazer esse encadeamento então vou usar essa técnica aqui para gente criar alguns métodos
+
+122
+00:11:11,420 --> 00:11:16,520
+para simplificar a nossa chamada lá como a gente precisar e ao mesmo tempo ter flexibilidade.
+
+123
+00:11:16,610 --> 00:11:21,970
+Primeiro Metro que eu vou criar vai ser para abrir a transacção então vou criar aqui um método públicos
+
+124
+00:11:22,520 --> 00:11:24,590
+que eu vou retornar.
+
+125
+00:11:24,600 --> 00:11:33,170
+OP E o nome do Metro vai ser abri T de transação poderia colocar a abrir transação ficaria um metro
+
+126
+00:11:33,170 --> 00:11:35,910
+um pouco maior mas para o suficiente.
+
+127
+00:11:35,960 --> 00:11:42,410
+Nesse caso a Britney eu vou lembrar aquele transação mas quanto mais claro for melhor vai ser o nome
+
+128
+00:11:42,410 --> 00:11:46,460
+do método aqui eu estou tentando colocar o método um pouco mais curtos.
+
+129
+00:11:46,460 --> 00:11:59,270
+Então já que eu tenho um ménage criado coloca a gente menos GE.Net transepto um ponto B e vou retornar.
+
+130
+00:11:59,800 --> 00:12:06,530
+Ou seja cabe a ele criar um metro que abri uma transação pra criar o metro que vai fechar eu vou criar
+
+131
+00:12:06,530 --> 00:12:15,310
+aqui outro método que eu vou chamar de fechado que vai fazer a mesma coisa só que ele vai chamar o convite
+
+132
+00:12:15,550 --> 00:12:22,490
+e também vai retornar ao próprio Deal e vou criar um método aqui parecido com esses dois que vai ser
+
+133
+00:12:22,490 --> 00:12:26,060
+o de incluir um gay.
+
+134
+00:12:26,840 --> 00:12:34,070
+Esse método vai chamar a gente menos um ponto x obviamente no caso de incluir eu vou precisar receber
+
+135
+00:12:34,070 --> 00:12:43,310
+a entidade do tipo e então vou usar o genérico zero ou Make aqui em cima certo e vou passar a entidade
+
+136
+00:12:43,310 --> 00:12:49,400
+para ser assistida de tal forma que agora eu tenho 1 metro quebra a transação que fecha a transação
+
+137
+00:12:49,400 --> 00:12:54,810
+e que inclui ali e mais eu quero criar um método que por exemplo já faço tudo isso automaticamente que
+
+138
+00:12:54,810 --> 00:12:57,320
+abra a transação que inclua e que feche.
+
+139
+00:12:57,680 --> 00:13:07,190
+Nós podemos criar um outro método já mais específico que será o método incluí atômico atômica no sentido
+
+140
+00:13:07,260 --> 00:13:14,630
+de transação na qual você tem um app algo atômico e que ele jamais realmente efetivar aquilo é um conceito
+
+141
+00:13:14,630 --> 00:13:21,380
+de transação transação é algo atômico ele você quiser colocar 10 formados para ser executados no banco
+
+142
+00:13:21,380 --> 00:13:27,830
+de dados oito sessões duas exclusões por exemplo você quer fazer isso de forma atômica ou vai tudo ou
+
+143
+00:13:27,830 --> 00:13:34,760
+não vai nada bem então você coloca entre uma transação e então inclui átomos significa que ele vai fazer
+
+144
+00:13:35,040 --> 00:13:44,840
+a inclusão já com as transações mas eu poderia colocar outro nome por exemplo inclui completo estou
+
+145
+00:13:44,840 --> 00:13:50,980
+conseguindo pensar no outro nome mas o fato que inclui atômico vai atender a nossa necessidade o que
+
+146
+00:13:50,990 --> 00:13:57,800
+significa que inclui já vai considerar a abertura e o fechamento da transação Quero incluir essa entidade
+
+147
+00:13:57,800 --> 00:14:03,440
+de forma atômica não vou precisar estar dentro de um contexto transacional maior então já posso chamar
+
+148
+00:14:03,440 --> 00:14:05,420
+esse método que ele já faz tudo.
+
+149
+00:14:05,420 --> 00:14:11,720
+Nesse caso o inclui atômico também vai retornar ao Dell não necessariamente precisa retornar à entidade
+
+150
+00:14:12,130 --> 00:14:21,820
+e pra fazer isso eu vou chamar o primeiro eu vou chamar desse ponto abri transação wild card Beacon
+
+151
+00:14:22,720 --> 00:14:31,310
+inclui e vou passar a entidade e depois vou chamar ou fechar a transação ou seja uma linha eu já fiz
+
+152
+00:14:31,310 --> 00:14:37,780
+a exclusão com outra abrindo na transação incluindo e fechando a transação único método no outro método
+
+153
+00:14:37,790 --> 00:14:42,890
+que a gente pode fazer vai ser o método para obter todos.
+
+154
+00:14:42,890 --> 00:14:46,740
+Então coloca aqui ao publico esse método.
+
+155
+00:14:46,760 --> 00:14:55,490
+Eu vou precisavam retornar aqui na verdade uma lista de entidade e não do metro se Comitê todo.
+
+156
+00:14:55,500 --> 00:15:01,030
+Depois a gente vai fazer noutros o metro de acordo com aquilo que for necessário obter todos.
+
+157
+00:15:01,030 --> 00:15:08,280
+Eu vou receber dois parâmetros do primeiro parâmetro vai ser a quantidade de registros que eu quero
+
+158
+00:15:08,370 --> 00:15:08,960
+obter.
+
+159
+00:15:09,030 --> 00:15:13,560
+A partir dessa consulta eu não vou querer obter todos os registros da base na época.
+
+160
+00:15:13,560 --> 00:15:14,730
+Isso é arriscado.
+
+161
+00:15:14,910 --> 00:15:16,580
+é um outro atributo que eu quero.
+
+162
+00:15:16,580 --> 00:15:24,840
+Vai ser exatamente o deslocamento desde o casamento que é o limite e o offset que são dois atributos.
+
+163
+00:15:24,840 --> 00:15:33,560
+Se eu colocar aqui por exemplo eu tenho eu tenho aqui sete registros se eu fizer aqui por exemplo alimentos
+
+164
+00:15:34,150 --> 00:15:37,140
+de cinco o limite de quatro.
+
+165
+00:15:37,140 --> 00:15:42,090
+Ele estava a limitar aos quatro primeiros só que eu não quero pagar os quatro primeiros eu quero fazer
+
+166
+00:15:42,090 --> 00:15:43,860
+um deslocamento de três.
+
+167
+00:15:44,250 --> 00:15:51,900
+Então posso fazer um offset de três estames e quando ele vai trazer algo quatro cinco seis sete.
+
+168
+00:15:52,260 --> 00:15:59,300
+A gente ter um deslocamento exatamente esses dois atributos que permitem que você faça a paginação da
+
+169
+00:15:59,390 --> 00:16:00,150
+uma consulta.
+
+170
+00:16:00,150 --> 00:16:03,630
+Você tem por exemplo um milhão de registros e quer pegar de dez em dez.
+
+171
+00:16:03,630 --> 00:16:10,040
+Então você coloca o offset 0 limite 10 você tem os 10 primeiros 9 7 10.
+
+172
+00:16:10,080 --> 00:16:10,960
+O limite de idade.
+
+173
+00:16:10,980 --> 00:16:12,680
+Você pega a segunda página.
+
+174
+00:16:12,680 --> 00:16:15,290
+Aí você vai patinando dentro da consulta.
+
+175
+00:16:15,290 --> 00:16:20,940
+Então no nosso caso eu vou criar um hábito ter todos que vai bem a quantidade que seria o limite.
+
+176
+00:16:20,950 --> 00:16:23,070
+JC posso colocar em inglês para ficar mais claro.
+
+177
+00:16:23,740 --> 00:16:31,550
+E o deslocamento e aqui a gente vai poder colocar dentro desse método que vai obter todos considerar
+
+178
+00:16:31,550 --> 00:16:33,960
+essas duas informações estava lá.
+
+179
+00:16:33,960 --> 00:16:42,060
+Primeiro eu vou testar para saber se a classe foi acertada ou não se a classe for igual Lula significa
+
+180
+00:16:42,060 --> 00:16:46,450
+que eu não vou conseguir atender à demanda desse método aqui.
+
+181
+00:16:46,560 --> 00:16:51,360
+Então nesse caso eu posso lançar uma exceção dizendo se você está tentando ter um metro mas quando você
+
+182
+00:16:51,360 --> 00:16:52,540
+não passou a classe.
+
+183
+00:16:52,860 --> 00:16:54,230
+Então eu não consigo aceitar.
+
+184
+00:16:54,230 --> 00:17:02,880
+Então tem uma exceção que é não suporta suporte técnico Operation Access.
+
+185
+00:17:03,060 --> 00:17:12,420
+E aqui você pode justificar que você não está suportando essa operação porque a classe em classe novo.
+
+186
+00:17:13,010 --> 00:17:18,280
+Então você pode colocar outras informações mais interessantes ou inclusive usar outros métodos como
+
+187
+00:17:18,960 --> 00:17:22,810
+talvez seja melhor do que isso pode ser legal.
+
+188
+00:17:23,010 --> 00:17:29,610
+Se bem que é legal não recebi nenhum argumento vou deixar essa que poderia lançar um ataque também sem
+
+189
+00:17:29,610 --> 00:17:30,000
+problema.
+
+190
+00:17:30,120 --> 00:17:33,220
+Então o que é que nós vamos fazer que nós vamos criar primeiro.
+
+191
+00:17:33,280 --> 00:17:41,940
+JP aquele que é uma consulta que vai ser um selection from eu vou precisar passar o nome da classe.
+
+192
+00:17:41,970 --> 00:17:46,500
+Não é o nome da tabela a fazer o JP que ele é um anão Java.
+
+193
+00:17:46,500 --> 00:17:48,320
+Persiste esse quadro de linguagem.
+
+194
+00:17:48,510 --> 00:17:53,580
+Então está sempre procurando sempre consultando em cima de objetos em cima de classes e não em cima
+
+195
+00:17:53,580 --> 00:17:54,230
+de tabelas.
+
+196
+00:17:54,660 --> 00:18:00,900
+Então pra pegar um nome da classe é muito fácil uma vez que ele garante que se ele passou por esse teste
+
+197
+00:18:00,960 --> 00:18:10,430
+aqui eu tenho a classe Table então fazer um clássico ponto da lei ou seja eu tenho o nome da classe
+
+198
+00:18:10,430 --> 00:18:18,180
+e aqui eu posso concluir a consulta colocando eles toda a em JP queele precisa ter um e ele está então
+
+199
+00:18:18,210 --> 00:18:25,800
+selection from o nome da classe e uma vez tenho isso agora eu vou conseguir fazer a consulta então pra
+
+200
+00:18:25,800 --> 00:18:34,220
+isso eu vou criar uma empresa com r do tipo até que eu vou receber.
+
+201
+00:18:34,240 --> 00:18:45,930
+Eu vou chamar aqui então menas outro cri cri cri cri e vou passar minha consulta que vai ser o J Bekele
+
+202
+00:18:45,990 --> 00:18:56,370
+e vou passar também a classe que eu tenho passar alta aqui viu classe e aí sim ele vai retornar a minha
+
+203
+00:18:56,370 --> 00:18:58,100
+consulta minha com ele.
+
+204
+00:18:58,260 --> 00:19:06,170
+Pra finalizar eu vou sentar aqui ri ponto 7 Max.
+
+205
+00:19:06,390 --> 00:19:12,900
+Pra certa quantidade que eu disse que esse é macio e vou também encetar com R.
+
+206
+00:19:13,300 --> 00:19:22,110
+Ponto 7 frouxo Brizola para seu deslocamento ou seja deslocar o início da consulta e aí ele traz a quantidade
+
+207
+00:19:22,110 --> 00:19:24,000
+de resultados que eu quero.
+
+208
+00:19:24,090 --> 00:19:34,030
+E pra finalizar realmente vou colocar aqui um ponto de crédito ou seja o resultado da minha consulta.
+
+209
+00:19:34,340 --> 00:19:39,240
+O mais eu queria ter um método obter todos que não precisam se preocupar em passar essas informações
+
+210
+00:19:39,240 --> 00:19:40,430
+sem problema.
+
+211
+00:19:40,590 --> 00:19:46,200
+A gente pode criar um outro método para fazer uma sobrecarga de métodos só que a gente tem que mudar
+
+212
+00:19:46,200 --> 00:19:55,310
+os parâmetros e aqui dentro eu simplesmente chamo PRA ELE RETORNAR desse ponto obter todos passando
+
+213
+00:19:55,310 --> 00:20:00,340
+a quantidade padrão S10 o deslocamento padrão vai ser zero.
+
+214
+00:20:00,490 --> 00:20:07,480
+Ou seja nós temos aqui agora obter todos e se eu quiser ser ecologicamente correto eu posso criar aqui
+
+215
+00:20:07,480 --> 00:20:10,710
+um outro método pra finalizar retorno.
+
+216
+00:20:10,710 --> 00:20:19,290
+Lógico que vai fechar o Dell e aqui eu posso fechar por exemplo a meningite ponto Klaus.
+
+217
+00:20:19,450 --> 00:20:25,390
+Eu não quero fechar que o enchimento de fato é porque eu mente menos afeto e ele vai servir não apenas
+
+218
+00:20:25,390 --> 00:20:31,000
+para um único ideal mas ele vai servir para todos os dados que eu vou criar na minha aplicação por isso
+
+219
+00:20:31,000 --> 00:20:38,150
+que ele é estático certo eu ele apenas uma única vez e pra cada novo dao gerado distanciado aí sim eu
+
+220
+00:20:38,140 --> 00:20:45,340
+vou instancia a mina de que é exatamente o cara que encapsular conexão que é o cara que vai fazer a
+
+221
+00:20:45,340 --> 00:20:48,260
+inclusão alteração exclusão e tal.
+
+222
+00:20:48,730 --> 00:20:56,140
+Então nós criamos um Dell claro que normalmente quando eu vou criar eu acabo testando criando ou olhado
+
+223
+00:20:56,140 --> 00:21:01,360
+fazendo algumas mudanças e tal mas é só para a gente ter aqui algumas ideias de como a gente pode criar
+
+224
+00:21:01,410 --> 00:21:01,900
+um ideal.
+
+225
+00:21:01,900 --> 00:21:10,090
+Está faltando ainda vários outros métodos de constar por aí de alterar excluir e o fato de a gente abrir
+
+226
+00:21:10,090 --> 00:21:14,300
+a transação e fechar de forma deixar essa possibilidade para o usuário.
+
+227
+00:21:14,320 --> 00:21:15,240
+Não dá para gente.
+
+228
+00:21:15,240 --> 00:21:21,880
+O Dell mais flexível porque eu posso criar um Dell abrir a conexão incluir um produto inclui um usuário
+
+229
+00:21:21,890 --> 00:21:26,620
+incluir qualquer outra coisa depois de fechar a transação sem necessariamente precisar me estressar
+
+230
+00:21:26,620 --> 00:21:29,320
+muito e acessar diretamente o Oriente Médio.
+
+231
+00:21:29,380 --> 00:21:35,560
+Então sobra uma acha pra vocês algumas ideias na próxima aulas vamos usar esse ideal e mostrar pra você
+
+232
+00:21:35,560 --> 00:21:40,210
+como vai ficar mais simples na hora de usar e logo depois da sequência que vai partir para a parte de
+
+233
+00:21:40,210 --> 00:21:41,730
+relacionamento.
+
+234
+00:21:41,940 --> 00:21:46,540
+Para muitos muitos para muitos mas aí já é um outro momento eu fico por aqui até proximal.

@@ -1,0 +1,231 @@
+1
+00:00:00,090 --> 00:00:07,350
+Seja muito bem vindo a mais um capítulo do nosso curso de jovem e nesse capítulo é um capítulo especial
+
+2
+00:00:07,590 --> 00:00:14,790
+porque nós vamos falar sobre isso Bring but is Spring but é uma tecnologia que tem uma popularidade
+
+3
+00:00:14,790 --> 00:00:20,430
+muito grande dentro do mundo do Java e o Java é uma das linguagens mais populares do mundo daí você
+
+4
+00:00:20,430 --> 00:00:27,490
+percebe a importância do Spring Building e como ele tem sido requerido em muitas entrevistas de emprego.
+
+5
+00:00:27,630 --> 00:00:34,020
+Muitas empresas usam o Java Spring embute uma das ferramentas que vai te dar um grau de produtividade
+
+6
+00:00:34,020 --> 00:00:35,000
+absurdo.
+
+7
+00:00:35,160 --> 00:00:41,460
+é uma ferramenta extremamente simples de ser usada e vocês vão testemunhar isso aqui no nosso capítulo
+
+8
+00:00:41,710 --> 00:00:44,450
+falando um pouquinho sobre o que é o Spring Bush.
+
+9
+00:00:44,490 --> 00:00:51,940
+Ele faz parte da suíte do conjunto de Fremont das Pinguim que tem muita coisa dentro dela certa.
+
+10
+00:00:51,990 --> 00:01:01,650
+Spring surgiu como alternativa ao Java e o Java e o Java Enterprise Edition ou o conjunto de funcionalidades
+
+11
+00:01:01,650 --> 00:01:03,670
+que são usadas em grandes corporações.
+
+12
+00:01:03,670 --> 00:01:10,560
+Então os brindes surgiu como alternativa mais simples pra se trabalhar e também mais leve para se trabalhar
+
+13
+00:01:10,560 --> 00:01:17,610
+com recursos voltados para empresas autenticação persistência e várias coisas têm dentro da suíte de
+
+14
+00:01:17,620 --> 00:01:21,210
+frameworks Spring como um pouquinho sobre Espanha build.
+
+15
+00:01:21,630 --> 00:01:22,490
+Ele é.
+
+16
+00:01:22,710 --> 00:01:30,030
+Ele gera para você uma aplicação independente uma aplicação estande Alone que é a aplicação que você
+
+17
+00:01:30,030 --> 00:01:33,330
+consegue start a ela a partir de um simples método.
+
+18
+00:01:33,400 --> 00:01:39,390
+Assim como a gente fez durante todo o nosso curso exercícios a gente criou o método Men para testar
+
+19
+00:01:39,390 --> 00:01:45,070
+o exercício ou mesmo criou uma classe colocou o método Men fez o algoritmo dentro do método.
+
+20
+00:01:45,390 --> 00:01:51,630
+Agora em geral usar o método do meio pra inicializar um servidor um servidor embarcado.
+
+21
+00:01:51,720 --> 00:01:56,490
+Para quem nunca usou Java para a web é pra você configurar um servidor.
+
+22
+00:01:56,490 --> 00:01:58,340
+Existe todo um passo a passo.
+
+23
+00:01:58,500 --> 00:02:00,510
+Você tem que instalar um servidor.
+
+24
+00:02:00,510 --> 00:02:06,870
+Você tinha que configurar o servidor para ser realizado dentro do eclipse tinham todo um processo de
+
+25
+00:02:06,870 --> 00:02:08,190
+configuração.
+
+26
+00:02:08,190 --> 00:02:13,890
+Arquivos de configuração para você realmente pelo servidor completamente configurado aqui não dentro
+
+27
+00:02:13,890 --> 00:02:16,070
+do espírito que você já recebe.
+
+28
+00:02:16,140 --> 00:02:22,110
+Todo esse trabalho de configuração de mão beijada e você simplesmente inicia a sua aplicação usando
+
+29
+00:02:22,110 --> 00:02:29,310
+o método Man e você já tem um servidor web funcionando sem precisar se preocupar com a configuração
+
+30
+00:02:29,310 --> 00:02:31,800
+isso é muito bom muito fácil de usar.
+
+31
+00:02:31,800 --> 00:02:38,550
+Vocês vão perceber que para você disponibilizar Web Services que vai ser o grande foco desse capítulo
+
+32
+00:02:38,550 --> 00:02:44,580
+embora ache que vai passar vários exercícios mostrando para você o básico do Espinho bot mostrando como
+
+33
+00:02:44,580 --> 00:02:50,580
+criar um alicerce bem simples depois e evoluindo falando sobre coisas relacionadas como por exemplo
+
+34
+00:02:50,700 --> 00:02:58,380
+é só falar sobre persistência também já falou de JP site pra usar tapear nesse capítulo pra construir
+
+35
+00:02:58,680 --> 00:03:04,920
+os nosso a nossa API os nossos Web Services mas vamos falar também sobre um pouco do protocolo HTTP
+
+36
+00:03:04,950 --> 00:03:10,530
+como um pré requisito para esse capítulo é muito importante que você tenha assistido já previamente
+
+37
+00:03:10,860 --> 00:03:17,010
+no capítulo que foi originalmente gravado para o curso de web mas que faz todo o sentido ser colocado
+
+38
+00:03:17,010 --> 00:03:17,320
+aqui.
+
+39
+00:03:17,750 --> 00:03:25,110
+São conceitos para a web e conceitos de assuntos relacionados à web que serão de certa forma usados
+
+40
+00:03:25,110 --> 00:03:29,230
+nesse capítulo tão importante um pré requisito que você assista.
+
+41
+00:03:29,310 --> 00:03:36,960
+Esse capítulo de conceitos lá falar sobre protocolo HTTP sobre DNS ou falar sobre a aplicação estática
+
+42
+00:03:36,960 --> 00:03:38,290
+é uma aplicação dinâmica.
+
+43
+00:03:38,280 --> 00:03:41,600
+Todos esses conceitos serão usados nesse capítulo.
+
+44
+00:03:41,790 --> 00:03:48,090
+E aí vocês vão perceber que o uso do Distributed traz uma produtividade muito grande não é à toa que
+
+45
+00:03:48,090 --> 00:03:51,640
+ele é muito utilizado hoje pelas empresas.
+
+46
+00:03:51,660 --> 00:03:57,540
+Então a gente vai ver passo a passo o exercício e construindo o conhecimento distributivo e usando também
+
+47
+00:03:57,540 --> 00:04:02,770
+integrado com outras tecnologias que já foram ensinados pra vocês aqui durante o curso.
+
+48
+00:04:03,060 --> 00:04:07,980
+Então é isso que eu tenho pra falar para vocês a gente vai trabalhar com isso bonde e traz dentro dele
+
+49
+00:04:08,010 --> 00:04:12,150
+um servidor pois eu vou entrar um pouco mais em detalhes sobre isso como eu falei para vocês também
+
+50
+00:04:12,150 --> 00:04:16,400
+vou ter outras tecnologias que a gente vai acabar precisando usar como um meio vem.
+
+51
+00:04:16,770 --> 00:04:22,480
+Eu não vou focar muito no meio mas a gente vai ter uma aula explicando para que serve ele e mostrando
+
+52
+00:04:22,480 --> 00:04:25,200
+o que é que ele traz de benefícios para o nosso projeto.
+
+53
+00:04:25,290 --> 00:04:30,000
+Vocês vão perceber que vai ser muito tranquila a configuração praticamente não vai precisar configurar
+
+54
+00:04:30,000 --> 00:04:32,220
+nada porque já vem tudo configurado.
+
+55
+00:04:32,220 --> 00:04:37,890
+Vocês vão ver isso a partir dos próximos 20 então fico por aqui no nosso vídeo de introdução é um capítulo
+
+56
+00:04:37,890 --> 00:04:43,770
+especial qualquer um capítulo que tem um alinhamento muito forte com o mercado e isso é muito bom para
+
+57
+00:04:43,770 --> 00:04:44,880
+o nosso curso.
+
+58
+00:04:44,890 --> 00:04:47,610
+Fico por aqui na próxima aula a gente continua e até lá.

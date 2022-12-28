@@ -1,0 +1,531 @@
+1
+00:00:00,300 --> 00:00:07,620
+Agora nós vamos criar o nosso primeiro alicerce e eu coloquei o Brasil aqui em cima na frente do console
+
+2
+00:00:08,310 --> 00:00:14,370
+porque a gente vai acabar usando mais o Brasil do que propriamente o console então ali que ele pra que
+
+3
+00:00:14,370 --> 00:00:16,480
+a gente possa caber no nosso abscesso.
+
+4
+00:00:16,560 --> 00:00:22,550
+Sempre que for necessário a gente vai fazer as devidas mudanças aqui na composição na tela.
+
+5
+00:00:22,560 --> 00:00:26,150
+Então vamos lá pra gente criar o nosso primeiro websérie.
+
+6
+00:00:26,160 --> 00:00:30,250
+Ele vai ficar mudando aqui mais beleza serve de problema então pra gente configurar aqui.
+
+7
+00:00:30,300 --> 00:00:40,440
+Eu posso até se for o caso real console jogar aqui pra dentro do Clips perto e posso minimizar ele aqui.
+
+8
+00:00:40,580 --> 00:00:42,200
+Eu acho que ele vai ficar escondido.
+
+9
+00:00:42,390 --> 00:00:45,260
+Eu boto o Brasil aqui por enquanto vai ser mais importante.
+
+10
+00:00:45,280 --> 00:00:49,550
+Depois a gente volta com um console pra cá e vamos lá.
+
+11
+00:00:49,590 --> 00:00:54,630
+Com relação a nossa aplicação nós vamos criar a nossa primeira classe então vou criar aqui uma nova
+
+12
+00:00:54,630 --> 00:00:58,510
+classe e vou aproveitar também para criar um novo pacote.
+
+13
+00:00:58,550 --> 00:01:05,400
+Eu quero fazer aqui uma pequena um pequeno parênteses que é o seguinte vocês vão perceber muito fortemente
+
+14
+00:01:05,760 --> 00:01:13,040
+nesse capítulo o uso de um padrão chamado Emmy V 100 Model e o controle.
+
+15
+00:01:13,060 --> 00:01:18,630
+E mais na frente no capítulo que algumas poucas horas pra frente eu vou mostrar um pouquinho do padrão
+
+16
+00:01:18,640 --> 00:01:25,320
+MVC vou explicar um pouco mais sobre esse padrão que é um padrão muito importante não apenas nesse contexto
+
+17
+00:01:25,320 --> 00:01:32,310
+aqui mas em vários outros contextos vários outros frameworks e várias outras tecnologias e linguagens.
+
+18
+00:01:32,310 --> 00:01:37,380
+Então como eu não quero focar muito agora no padrão em vez de planificar tudo muito teórico quero realmente
+
+19
+00:01:37,380 --> 00:01:43,050
+desenvolver alguns serviços na Web Services para depois a gente parar um pouquinho e fazer uma análise
+
+20
+00:01:43,050 --> 00:01:46,190
+sobre isso mas já vou usar a nomenclatura.
+
+21
+00:01:46,290 --> 00:01:54,270
+Com relação ao MVC então vou criar aqui dentro de um pacote bem ponto com bacon com é o nome da empresa.
+
+22
+00:01:54,300 --> 00:02:01,860
+O nome do projeto que eu vou colocar nesse projeto o pacote controladoras no plural e aqui eu vou criar
+
+23
+00:02:02,160 --> 00:02:06,320
+o nome da classe C primeiro Controller.
+
+24
+00:02:06,810 --> 00:02:12,510
+Eu vou usar uma nomenclatura metade português e metade em inglês embora eu não goste muito de trabalhar
+
+25
+00:02:12,960 --> 00:02:13,840
+misturado né.
+
+26
+00:02:13,840 --> 00:02:19,980
+Primeiro o controle é mais como controle é algo tão presente e tão forte uso de controle.
+
+27
+00:02:19,990 --> 00:02:24,570
+Eu vou deixar essa formatar um homem que eu vou colocar em português a primeira parte a segunda parte
+
+28
+00:02:24,570 --> 00:02:26,670
+eu vou acabar deixando o controle também.
+
+29
+00:02:26,670 --> 00:02:29,610
+Beleza então nós vamos criar o nosso primeiro sexo.
+
+30
+00:02:29,620 --> 00:02:35,870
+Vocês vão perceber que sempre que o salvar ele vai acabar rodando de novo a aplicação vai aparecer que
+
+31
+00:02:35,880 --> 00:02:37,580
+o console para a gente está.
+
+32
+00:02:37,870 --> 00:02:42,840
+Mas o fato é que eu acho que eu tenho até como parar o console para não aparecer.
+
+33
+00:02:42,840 --> 00:02:46,590
+Deixa eu ver se eu consigo salvar o console vai aparecer.
+
+34
+00:02:46,590 --> 00:02:50,180
+Eu acho que tem como desmarcar.
+
+35
+00:02:50,760 --> 00:02:58,820
+Eu acho que alguma dessas opções aqui é um marco para ele não ficar mostrando estar aqui.
+
+36
+00:02:58,950 --> 00:03:03,960
+Está certo mas se ele aparecer isso é menos importante então vou colocar aqui ao público.
+
+37
+00:03:04,500 --> 00:03:10,270
+Vou criar um método que vai retornar um estilingue e o nome do Metro vai sei lá.
+
+38
+00:03:10,440 --> 00:03:15,880
+é basicamente que eu vou fazer nesse método e retornar o monstrinho.
+
+39
+00:03:16,200 --> 00:03:22,480
+Por exemplo a de Spring Button para ser o nosso primeiro exercício aqui.
+
+40
+00:03:22,590 --> 00:03:23,790
+Legal.
+
+41
+00:03:23,940 --> 00:03:25,630
+Esse é um método Java normal.
+
+42
+00:03:25,620 --> 00:03:33,270
+Essa é uma classe Java normal não tem nada de especial o que eu preciso fazer agora é mapear a execução
+
+43
+00:03:33,270 --> 00:03:36,600
+desse método para alguma rede dentro da minha aplicação.
+
+44
+00:03:36,610 --> 00:03:43,720
+Então basicamente eu quero fazer quando digitar local Roxy porta 80 80 em vez de aparecer essa parte
+
+45
+00:03:43,720 --> 00:03:44,390
+em dinheiro.
+
+46
+00:03:44,670 --> 00:03:47,840
+Eu quero que apareça essa string Always Friend but.
+
+47
+00:03:47,940 --> 00:03:54,930
+Da mesma forma como lá no JP a gente usou as another shows para mapear um objeto para o banco de dados
+
+48
+00:03:54,940 --> 00:04:02,370
+agora vai usar no chão para mapear a classe e os seus métodos para o RL para que a gente possa a partir
+
+49
+00:04:02,370 --> 00:04:05,380
+de um RL o método ser chamado.
+
+50
+00:04:05,400 --> 00:04:10,120
+O resultado desse método da execução desse método vai ser devolvido o Brasil.
+
+51
+00:04:10,170 --> 00:04:16,740
+Pode ser uma página pode ser um texto pode ser um formato de som que a gente vai ver daqui a pouco nas
+
+52
+00:04:16,740 --> 00:04:17,930
+próximas aulas.
+
+53
+00:04:17,970 --> 00:04:23,640
+Então a primeira coisa que eu vou precisar fazer é anotar classe primeiro controle para aqueles Spring.
+
+54
+00:04:23,640 --> 00:04:30,450
+Considera essa classe como um controlador do tipo teste ou seja vou criar um apelido Chiclete eu vou
+
+55
+00:04:30,450 --> 00:04:35,990
+usar um rancho Controller não necessariamente precisaria usar um rancho Controller nesse caso mas eu
+
+56
+00:04:36,000 --> 00:04:38,720
+vou colocar como controle que vai na maior parte do tempo.
+
+57
+00:04:38,750 --> 00:04:45,810
+Vou acabar usando ele porque eu vou colocar aqui preste a Bel Control encontrou espaço aqui ele vai
+
+58
+00:04:45,810 --> 00:04:51,240
+mostrar as opções e eu tenho o primeiro como primeira opção como o resto controla dentro de Og Spring
+
+59
+00:04:51,320 --> 00:04:54,830
+Framework ponto zero e ponto baixo ponto no tempo.
+
+60
+00:04:55,290 --> 00:05:02,970
+Então marquei essa classe como um controle salvei ele não está mais aparecendo o console deu certo que
+
+61
+00:05:02,970 --> 00:05:03,760
+eu quis fazer.
+
+62
+00:05:04,080 --> 00:05:07,670
+Eu vou dar um refresh aqui e vai continuar ainda apresentando a tela.
+
+63
+00:05:07,920 --> 00:05:14,110
+Então a gente ainda não conseguiu mapear essa função para ser chamada a partir dessa barreira.
+
+64
+00:05:14,610 --> 00:05:20,660
+Então o próximo passo que nós vamos fazer é usar até dar um controle para maximizar ou usar um Another
+
+65
+00:05:20,950 --> 00:05:22,860
+chamada Coast.
+
+66
+00:05:22,920 --> 00:05:28,030
+A gente vai simplificar um pouco mais isso encaixe bem e dentro do encaixe.
+
+67
+00:05:28,110 --> 00:05:34,500
+Eu estou dizendo que eu quero mapear uma requisição para esse método legal.
+
+68
+00:05:34,580 --> 00:05:40,020
+Vamos baixar de novo boçal lá e ele vai anunciar a aplicação automaticamente.
+
+69
+00:05:40,020 --> 00:05:42,240
+Não e fecha aqui e ele trouxe.
+
+70
+00:05:42,310 --> 00:05:43,560
+Olá experimente.
+
+71
+00:05:43,580 --> 00:05:49,130
+Certo Ele conseguiu agora mapear essa RL para o encaixe medinho.
+
+72
+00:05:49,190 --> 00:05:49,770
+Porquê.
+
+73
+00:05:49,780 --> 00:05:58,650
+Porque existe uma convenção padrão de que a propriedade método ele aponta pra um método do tipo Gate.
+
+74
+00:05:58,880 --> 00:06:05,130
+E eu vou já falar para vocês sobre o protocolo HTTP em poucas horas na frente e também vou falar sobre
+
+75
+00:06:05,130 --> 00:06:06,750
+os métodos do HTTP.
+
+76
+00:06:06,750 --> 00:06:13,170
+Então se você já viu o capítulo de conceitos sobre o Web vocês já sabem um pouco sobre protocolo HTTP
+
+77
+00:06:13,170 --> 00:06:19,230
+mas eu vou ter uma aula específica dando um refresh nesse conteúdo certo nos metros HTTP.
+
+78
+00:06:19,650 --> 00:06:27,030
+Então isso aqui não tem essa opção esse método é a mesma coisa de ter um método Bad que é o método mais
+
+79
+00:06:27,030 --> 00:06:28,220
+usado na web.
+
+80
+00:06:28,230 --> 00:06:32,070
+Seu método pede todos os métodos do protocolo HTTP.
+
+81
+00:06:32,070 --> 00:06:35,230
+Aqui a gente está usando o http do esposo babá.
+
+82
+00:06:35,240 --> 00:06:42,300
+Essa gente tá usando o protocolo que o Ray Taxi Transfer Protocol Protocolo de Transferência de Hipertexto
+
+83
+00:06:42,720 --> 00:06:47,190
+certo então está usando esse protocolo aqui eu vou entrar um pouco mais de detalhe e algumas horas para
+
+84
+00:06:47,190 --> 00:06:47,610
+frente.
+
+85
+00:06:48,030 --> 00:06:50,040
+Então fatos eu salvei aqui.
+
+86
+00:06:50,100 --> 00:06:53,210
+Agora com o método BET é executado novamente.
+
+87
+00:06:53,220 --> 00:06:59,330
+Você vai ver que ele continua funcionando porque quando você digita alguma coisa no Brasil e você não
+
+88
+00:06:59,400 --> 00:07:03,120
+entra sempre você fará uma requisição do tipo Gate.
+
+89
+00:07:03,270 --> 00:07:08,550
+Depois a gente vai explicar um pouco mais sobre isso e se eu quiser por exemplo não colocar diretamente
+
+90
+00:07:08,550 --> 00:07:15,360
+no país mas se eu quiser usar o Barra olá eu quero que a partir do Olá ele chame esse método que vai
+
+91
+00:07:15,360 --> 00:07:16,940
+retornar essa saudação.
+
+92
+00:07:17,400 --> 00:07:24,410
+Então para isso a gente tem uma outra propriedade que é a propriedade em uma propriedade.
+
+93
+00:07:24,410 --> 00:07:32,630
+PF você pode definir se eu voltar aqui pra cima ou porque hoje mais leve recebe entre aspas Barra.
+
+94
+00:07:32,930 --> 00:07:33,520
+Olá.
+
+95
+00:07:33,720 --> 00:07:40,080
+O que significa que agora se chegar uma requisição com esse caminho barra lá de fora a requisição do
+
+96
+00:07:40,080 --> 00:07:47,710
+tipo Betti é que esse método será chamado e ele vai executar e tornar isso possível reflexa agora com
+
+97
+00:07:47,760 --> 00:07:55,060
+barra lá ele vai retornar o conteúdo que expirou lá em busca exatamente a chamada desse método.
+
+98
+00:07:55,080 --> 00:08:01,310
+Outra forma que a gente tem de fazer um mapeamento mais específico do que é esse e a gente definir algo
+
+99
+00:08:01,310 --> 00:08:02,360
+a pagar aqui.
+
+100
+00:08:02,520 --> 00:08:09,360
+Em vez de ter o rico Echo Mapping você vai poder configurar qual o tipo de método você já tem uma anotação
+
+101
+00:08:09,360 --> 00:08:13,050
+que é o Guedes mapping ou seja o GATE MAP.
+
+102
+00:08:13,110 --> 00:08:18,020
+Ele vai ser um mapeamento para um método do tipo Gate que é o método do HTTP.
+
+103
+00:08:18,240 --> 00:08:24,150
+Então que é o metro que é executado por padrão quando você digita ele não entra então get the map em
+
+104
+00:08:24,150 --> 00:08:29,580
+seu buraquinho então você vai voltar a tempo exatamente porque não está mais mapeado.
+
+105
+00:08:29,610 --> 00:08:33,060
+RL olá e se eu voltar aqui apagar e não entrei.
+
+106
+00:08:33,390 --> 00:08:36,120
+Aí sim ele vai mostrar ao Olá Spring.
+
+107
+00:08:36,430 --> 00:08:41,550
+E se eu quiser voltar a ter o perfil basta colocar se você der um contra o espaço você vai ver quais
+
+108
+00:08:41,550 --> 00:08:48,030
+são os atributos disponíveis nessa área o Tejo é nenhum deles vai ser o perfil de oposicao local.
+
+109
+00:08:48,200 --> 00:08:54,620
+Bah Olá salvando você vai ver e esse aqui vai dar problema.
+
+110
+00:08:54,810 --> 00:09:00,950
+Então aqui deu problema é só colocar a barra lá você vai ver que ele colocou aqui ou ali experimente
+
+111
+00:09:01,020 --> 00:09:07,020
+novamente se você quiser definir uma rede de dados coloca no aqui entre colchetes você pode colocar
+
+112
+00:09:07,020 --> 00:09:10,020
+mais de um logo RL por exemplo Barra.
+
+113
+00:09:10,390 --> 00:09:16,970
+Olá dois ou então Barra saudação e sal graça pra ficar um pouco mais interessante.
+
+114
+00:09:17,340 --> 00:09:21,600
+Então até o uso reles que atendem pra esse mesmo método.
+
+115
+00:09:22,050 --> 00:09:25,640
+Então você coloca a barra ao lá continua.
+
+116
+00:09:25,820 --> 00:09:33,000
+E se eu colocar aqui Barra saudação entre ele continua chamando o mesmo método.
+
+117
+00:09:33,000 --> 00:09:41,610
+Aí você pode ter mais de uma RL para o mesmo método já que se você percebeu que ao tirar isso você daqui
+
+118
+00:09:41,660 --> 00:09:47,930
+um contra o espaço você vai ver que o perfil ele é uma rede strings embora você possa colocar só uns
+
+119
+00:09:47,940 --> 00:09:54,420
+30 e ele já consiga tratar isso mas ele é uma restrição que pode ser passado mais um ou RL pra esse
+
+120
+00:09:54,420 --> 00:09:54,840
+método.
+
+121
+00:09:55,290 --> 00:10:00,820
+Então pessoal esse aqui foi o primeiro exercício que um comando Shift TF formatar o código.
+
+122
+00:10:01,050 --> 00:10:06,070
+E nós temos o nosso primeiro observa se criado usando Bete Mac.
+
+123
+00:10:06,080 --> 00:10:11,160
+A gente começou usando um rico Echo mapping que por padrão também é do tipo Bad mas você pode mudar
+
+124
+00:10:11,160 --> 00:10:17,670
+para outros e a gente colocou aqui pede pra dizer quais são as eles que vão chamar esse método.
+
+125
+00:10:17,670 --> 00:10:23,430
+Quando forem disparados a partir de uma requisição HTTP seja via Brasil ou qualquer outra ferramenta
+
+126
+00:10:23,490 --> 00:10:28,980
+então nosso primeiro acesso foi concluído aqui falei sobre tudo na próxima aula eu vou falar um pouquinho
+
+127
+00:10:28,980 --> 00:10:35,790
+mais sobre a questão de você simula alguns erros é que é importante você entender como esses erros acontecem
+
+128
+00:10:35,820 --> 00:10:39,520
+dentro do espírito e tentar se familiarizar com as mensagens.
+
+129
+00:10:39,600 --> 00:10:42,280
+E pra isso a gente vai usar um dos erros possíveis.
+
+130
+00:10:42,300 --> 00:10:46,100
+Na verdade você não há dois anos para a gente ver o que acontece na prática.
+
+131
+00:10:46,110 --> 00:10:47,480
+Então fico por aqui.
+
+132
+00:10:47,490 --> 00:10:52,290
+Na próxima aula a gente continua falando um pouquinho sobre simular alguns erros para que você esteja
+
+133
+00:10:52,290 --> 00:10:56,540
+familiarizado e isso vai te ajudar muito quando você for para um ambiente produtivo.

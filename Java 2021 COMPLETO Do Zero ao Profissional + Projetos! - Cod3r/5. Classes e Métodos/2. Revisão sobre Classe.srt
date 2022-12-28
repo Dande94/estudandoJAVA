@@ -1,0 +1,267 @@
+1
+00:00:00,700 --> 00:00:06,580
+Se nós entrarmos em conceitos novos que serão introduzidos na próxima aula eu quero falar rapidamente
+
+2
+00:00:06,580 --> 00:00:12,190
+sobre algumas coisas que de certa forma a gente ouviu sobre classe até agora embora não tenha de forma
+
+3
+00:00:12,700 --> 00:00:19,390
+formal digamos assim falado sobre conceitos de classe tal como a gente tá usando classe desde o início
+
+4
+00:00:19,390 --> 00:00:25,610
+como Java ou linguagem fortemente centrada eu diria completamente centrada em classe.
+
+5
+00:00:25,660 --> 00:00:30,310
+De certa forma a gente acabou trabalhando algumas coisas e eu quero ressaltar alguns fatos interessantes
+
+6
+00:00:30,310 --> 00:00:34,860
+sobre classe que de certa forma já está presente ou implícito até agora.
+
+7
+00:00:35,080 --> 00:00:41,440
+Olhando pra que por exemplo mas quando nós criamos um arquivo o Java por exemplo vou dar o nome do arquivo
+
+8
+00:00:41,440 --> 00:00:42,910
+de produto o Java.
+
+9
+00:00:43,420 --> 00:00:46,750
+Esse arquivo Por padrão ele fica dentro de um pacote.
+
+10
+00:00:46,750 --> 00:00:53,740
+Você até pode colocar um arquivo oculto Java fora de pacote ou seja diretamente dentro do SC mas a gente
+
+11
+00:00:53,770 --> 00:00:58,130
+acabou não fazendo isso a gente criou um pacote que representa de certa forma um basta.
+
+12
+00:00:58,250 --> 00:01:05,190
+E dentro desse pacote nós colocamos uma série de exercícios cada exercício de uma classe como você cria
+
+13
+00:01:05,200 --> 00:01:10,930
+por exemplo uma classe um produto ponto Java que é um arquivo textual inclusive mostrei que você pode
+
+14
+00:01:10,930 --> 00:01:17,560
+abri la noche para dar vida e escrever dentro não tem nada especial você simplesmente texto usando a
+
+15
+00:01:17,560 --> 00:01:18,790
+linguagem Java.
+
+16
+00:01:18,790 --> 00:01:23,710
+Dentro desse arquivo é criado uma classe com o mesmo nome do arquivo.
+
+17
+00:01:23,800 --> 00:01:30,050
+Existe uma regra em Java e eu vou falar um pouco mais sobre o conceito dessa palavra pública.
+
+18
+00:01:30,370 --> 00:01:38,480
+Quando você tem uma classe pública obrigatoriamente o nome da classe reflete o nome do arquivo inclusive
+
+19
+00:01:38,500 --> 00:01:41,470
+seguindo letras maiúsculas e minúsculas.
+
+20
+00:01:41,590 --> 00:01:47,800
+Ou seja se eu coloquei o nome do arquivo para esse produto com a letra p eu coloco a classe criada que
+
+21
+00:01:47,800 --> 00:01:54,960
+é pública tem que ter exatamente o mesmo nome do arquivo também com P maiúsculo se for o caso o certo
+
+22
+00:01:55,000 --> 00:01:59,630
+é então exatamente o mesmo nome que você colocou no arquivo e o nome da classe criada.
+
+23
+00:01:59,770 --> 00:02:06,520
+Esse é um fato interessante não obrigatoriamente você precisa ter uma classe por aqui você pode ter
+
+24
+00:02:06,520 --> 00:02:12,220
+dentro de um arquivo múltiplas classes mas é algo que eu não vou trabalhar muito agora pode deixar isso
+
+25
+00:02:12,220 --> 00:02:14,010
+para um outro momento do curso.
+
+26
+00:02:14,080 --> 00:02:20,070
+A gente tem de certa forma olhando pra essa figura que uma visão bem limitado que a gente usa hoje que
+
+27
+00:02:20,140 --> 00:02:26,600
+até agora basicamente o que a gente fez até agora foi criar classe e definiu o método nem criar classes
+
+28
+00:02:26,630 --> 00:02:27,570
+definem o método.
+
+29
+00:02:27,820 --> 00:02:33,970
+Ou seja o grande objetivo pra quem está fazendo assim essa mesma rotina é pra que a gente possa ter
+
+30
+00:02:33,970 --> 00:02:39,490
+cada classe independente da outra para que a gente consiga dentro de uma classe executar um determinado
+
+31
+00:02:39,490 --> 00:02:45,810
+código dentro do método que é uma sequência de passos ao nosso algoritmo de cada exercício digamos assim.
+
+32
+00:02:45,820 --> 00:02:51,280
+E dentro desse algoritmo nós temos sentenças de código terminado com o continuísmo e nós temos condicionais
+
+33
+00:02:51,280 --> 00:02:57,370
+estruturas de controle sim anoto o formato que é isso execute algumas sentenças caso contrário seja
+
+34
+00:02:57,370 --> 00:03:04,420
+ela se execute outro sentença nós temos laços de repetição como eu o fóruns temos o seguinte quer a
+
+35
+00:03:04,420 --> 00:03:10,240
+seleção múltipla e também nós fizemos o erro com deus associado com o outro e para quem de posse também
+
+36
+00:03:10,240 --> 00:03:17,080
+tem múltiplas escolhas dentro do Evo com Deus Ex nós vimos muitas coisas mas todos esses códigos rodam
+
+37
+00:03:17,080 --> 00:03:18,450
+dentro de um metro e meio.
+
+38
+00:03:18,590 --> 00:03:23,950
+E essa não é a realidade de um programa na verdade dentro de um programa você vai escolher uma classe
+
+39
+00:03:23,950 --> 00:03:29,530
+para você colocar dentro de uma classe um metro do meio metro no lance era a porta de entrada do seu
+
+40
+00:03:29,530 --> 00:03:30,190
+programa.
+
+41
+00:03:30,550 --> 00:03:35,740
+Ou seja todas as outras classes não terão um metro no meio porque não é necessário basta ter apenas
+
+42
+00:03:35,740 --> 00:03:37,060
+uma única porta de entrada.
+
+43
+00:03:37,060 --> 00:03:43,100
+Mas como a gente tá criando exercícios independentes ou seja cada aula tem um começo meio e fim.
+
+44
+00:03:43,210 --> 00:03:47,880
+A gente está usando essa estratégia que você criar uma classe dentro da classe.
+
+45
+00:03:47,890 --> 00:03:54,120
+Nós temos um método certo nós vamos expandir bastante esse conhecimento a partir da próxima aula.
+
+46
+00:03:54,200 --> 00:04:01,480
+E a última coisa que eu quero salientar pra vocês é que uma classe que ela define é um bloco de código
+
+47
+00:04:01,480 --> 00:04:08,200
+a gente viu que quando você definiu a classe estão colocando aqui a palavra reservada que roxo por exemplo
+
+48
+00:04:08,560 --> 00:04:13,120
+você tem aqui públicos e você tem classe.
+
+49
+00:04:13,690 --> 00:04:22,380
+O nome da classe por exemplo um pouco de produto Produto e aí você tem um par de chaves abre e fecha
+
+50
+00:04:22,390 --> 00:04:23,020
+Chaves.
+
+51
+00:04:23,050 --> 00:04:26,070
+Isso aqui é um bloco de código e dentro desse bloco de código.
+
+52
+00:04:26,070 --> 00:04:33,640
+Por enquanto a gente tem colocado aqui o método certo tem mais informações aqui tem outros depois é
+
+53
+00:04:33,640 --> 00:04:41,080
+o próprio método no também define um bloco de código certo e dentro desse bloco da classe embora nesse
+
+54
+00:04:41,080 --> 00:04:46,750
+momento do curso a gente tem apenas o método Men 7 nós vamos colocar outras coisas dentro do bloco da
+
+55
+00:04:46,750 --> 00:04:51,790
+classe mas também é muito importante que você tenha essa ideia na sua cabeça ou seja que uma classe
+
+56
+00:04:52,210 --> 00:04:58,630
+ela define um bloco de código assim como um metro no meio de um bloco de código assim como o chefe pode
+
+57
+00:04:58,640 --> 00:05:04,350
+definir um bloco de também definiu um bloco de código e então a gente basicamente que a gente viu foi
+
+58
+00:05:04,350 --> 00:05:05,290
+isso certo.
+
+59
+00:05:05,380 --> 00:05:10,380
+E a outra coisa que eu acho que não tinha salientado em outro momento do curso é o fato de que o nome
+
+60
+00:05:10,380 --> 00:05:15,210
+do arquivo influencia no nome da classe desde que essa classe seja pública.
+
+61
+00:05:15,210 --> 00:05:21,420
+Você tem essa amarração entre o nome do arquivo o nome da classe inclusive signo letras maiúsculas e
+
+62
+00:05:21,420 --> 00:05:26,650
+minúsculas é algo menos importante para agora mais vai entender que isso é uma regra que exige mais
+
+63
+00:05:26,670 --> 00:05:31,200
+lá na frente a gente vai entender exatamente o que significa um classe pública entender um pouco mais
+
+64
+00:05:31,200 --> 00:05:37,770
+essas regras de como o arquivo se relaciona com classe mais só mostrando que a gente já certa forma
+
+65
+00:05:37,770 --> 00:05:42,630
+está usando isso desde o começo do curso e agora nós vamos entrar em outras perspectivas nas vamos ter
+
+66
+00:05:43,140 --> 00:05:46,560
+uma possibilidade muito maior do que a gente pode colocar dentro de uma classe.
+
+67
+00:05:46,560 --> 00:05:49,860
+E é exatamente sobre esse tema que eu vou discutir com vocês na próxima aula.

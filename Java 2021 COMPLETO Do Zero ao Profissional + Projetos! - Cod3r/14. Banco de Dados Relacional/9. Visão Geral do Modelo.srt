@@ -1,0 +1,123 @@
+1
+00:00:00,360 --> 00:00:07,840
+Só nesse capítulo nós vamos trabalhar principalmente o SQL tanto à parte do game que à data manipula
+
+2
+00:00:08,010 --> 00:00:14,550
+línguas como também o PDL data definir um leigo só para digitar exatamente quais são as tabelas que
+
+3
+00:00:14,550 --> 00:00:20,640
+nós vamos criar para estender os relacionamentos independentes de vários tipos de colunas e também para
+
+4
+00:00:20,640 --> 00:00:24,940
+a gente fazer nossas consultas não achar para vocês um modelo para vocês entender mais ou menos até
+
+5
+00:00:24,960 --> 00:00:27,160
+que vai acontecer até o final do capítulo.
+
+6
+00:00:27,180 --> 00:00:36,590
+Vou criar uma tabela chamada Estados certo sempre usando o plural então aqui vai ter uma tabela chamada
+
+7
+00:00:36,640 --> 00:00:40,520
+Estados e nessa tabela vai ter uma série de colunas atributos dessa tabela.
+
+8
+00:00:40,520 --> 00:00:47,110
+Então nesse momento quero falar sobre as tabelas os relacionamentos a NASA aos estados vai ter uma outra
+
+9
+00:00:47,110 --> 00:00:48,980
+tabela chamada Cidades.
+
+10
+00:00:49,510 --> 00:00:56,320
+Obviamente a gente sabe que um Estado pode ter várias cidades e então vai ter uma relação que para muitos
+
+11
+00:00:56,730 --> 00:01:03,670
+um Estado pode ter várias cidades e uma cidade pertence a um estado além de estados e cidades eu vou
+
+12
+00:01:03,670 --> 00:01:06,340
+ter uma outra tabela chamada prefeitos
+
+13
+00:01:09,200 --> 00:01:17,090
+prefeitos e nós vamos ter uma relação um pra um ou seja como a cidade tem um prefeito um prefeito da
+
+14
+00:01:17,090 --> 00:01:23,900
+uma cidade então para simular uma relação para muitos vai ser estado de cidade é para simular uma relação
+
+15
+00:01:24,040 --> 00:01:26,890
+para algum vai ser em cidades e prefeitos.
+
+16
+00:01:26,900 --> 00:01:31,370
+Além disso eu vou ter uma outra tabela chamada empresas
+
+17
+00:01:36,040 --> 00:01:37,380
+empresas.
+
+18
+00:01:37,550 --> 00:01:41,950
+E há uma relação direta entre cidades e empresas.
+
+19
+00:01:41,980 --> 00:01:50,550
+Então pra isso eu vou criar uma tabela alguma coisa do tipo se anda lá vou colocar aqui reduzido o nome
+
+20
+00:01:50,570 --> 00:01:55,270
+mais Mauro provavelmente vou colocar o nome completo então aqui vai ter uma tabela intermediária que
+
+21
+00:01:55,270 --> 00:02:04,450
+vai ter uma relação pra muitos aqui é uma relação pra muitos aqui de tal forma que eu simule uma relação
+
+22
+00:02:05,740 --> 00:02:14,350
+de Brahimi para algum coisa do tipo certa que estão a relação ou seja Mocidade pode ter várias empresas
+
+23
+00:02:14,350 --> 00:02:16,390
+e uma empresa pode estar em várias cidades.
+
+24
+00:02:16,390 --> 00:02:21,910
+Essas serão as tabelas que nós vamos construir a partir da próxima aula primeiro criar na tabela estados
+
+25
+00:02:21,910 --> 00:02:26,650
+a gente vai trabalhar várias aulas somente com a tabela estados e positiva acrescentar outras tabelas
+
+26
+00:02:26,650 --> 00:02:32,710
+para quem possa criar relacionamentos fazer consultas usando mais uma tabela mostrando pra vocês um
+
+27
+00:02:32,710 --> 00:02:37,190
+pouco mais do quer em cima desse pequeno modelo que nós vamos usar durante esse capítulo que espero
+
+28
+00:02:37,260 --> 00:02:42,670
+na proximal pra para trabalhar a criação dessa tabela chamada Estados nós vamos criar a tabela e depois
+
+29
+00:02:42,670 --> 00:02:49,030
+vamos fazer inserção mas vamos fazer consulta vamos fazer a atualização por último ou fazer a exclusão
+
+30
+00:02:49,030 --> 00:02:54,310
+de dados dentro dessa tabela e depois vamos acrescentando novas tabelas e mostrando os relacionamentos
+
+31
+00:02:54,580 --> 00:02:55,600
+e até para os mal.

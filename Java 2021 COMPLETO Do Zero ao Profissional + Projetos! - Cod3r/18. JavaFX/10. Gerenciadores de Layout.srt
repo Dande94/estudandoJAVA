@@ -1,0 +1,671 @@
+1
+00:00:00,160 --> 00:00:06,510
+Um dos aspectos que você precisa estudar quando você aprende algum tipo de biblioteca ou tecnologia
+
+2
+00:00:06,510 --> 00:00:13,710
+relacionada à construção de interfaces gráficas é você entender como o layout de dentro dessa tecnologia
+
+3
+00:00:14,070 --> 00:00:16,080
+ele é aplicado por quem.
+
+4
+00:00:16,340 --> 00:00:22,980
+De interface gráfica tem total relação com a forma que você vai organizar os componentes visuais na
+
+5
+00:00:22,980 --> 00:00:30,030
+tela e aqui no caso do Java e Flex existe uma série de gerenciadores de layout que vão te ajudar a construir
+
+6
+00:00:30,030 --> 00:00:35,590
+as duas interfaces gráficas exatamente sobre isso que eu quero trabalhar nesse vídeo mostrando aqui
+
+7
+00:00:35,610 --> 00:00:36,730
+rapidamente a tela.
+
+8
+00:00:36,810 --> 00:00:43,530
+Vamos criar uma nova classe dentro de SC então Class o pacote não vai ser o pacote básico vou chamar
+
+9
+00:00:43,620 --> 00:00:49,620
+o pacote de layout e o nome da classe C e layout.
+
+10
+00:00:50,250 --> 00:00:54,820
+E já que eu criei um novo pacote eu vou precisar dentro de modo heliponto info.
+
+11
+00:00:55,450 --> 00:01:04,740
+Abri esse pacote então qualquer que o Prince leia áudios e vou fazer com que a Play Audio se estenda
+
+12
+00:01:05,470 --> 00:01:14,730
+até hoje tentei Application lembrando que o Java FX ponto Application vai precisar do método Start e
+
+13
+00:01:14,730 --> 00:01:18,120
+vai precisar também do método qualquer que o método.
+
+14
+00:01:18,600 --> 00:01:27,900
+Eu vou chamá lo todos os argumentos e aqui dentro eu vou chamar o três pontos em jogo só para testar
+
+15
+00:01:28,360 --> 00:01:30,420
+a parte inicial da aplicação.
+
+16
+00:01:30,490 --> 00:01:35,030
+Vou colocar aqui um título não gostei.
+
+17
+00:01:35,800 --> 00:01:46,900
+Todo o título pode ser gerenciadores de diálogos e pouca gente coloca a cena.
+
+18
+00:01:47,120 --> 00:01:53,820
+Então com isso já o suficiente para a gente acertar então vou executar esse código.
+
+19
+00:01:53,820 --> 00:01:58,870
+Ele vai simplesmente não mostrar nada porque ainda preciso pagar aquela configuração sozinha.
+
+20
+00:01:59,070 --> 00:02:03,470
+Entrar aqui e clicar aqui o link Configuration já está selecionado.
+
+21
+00:02:03,470 --> 00:02:09,420
+A última classe no caso o CarPlay Alt Audi argumentos vou desmarcar essa opção a aplicar.
+
+22
+00:02:09,540 --> 00:02:15,960
+Agora sim a Cortana vai aparecer na janela em branco para outros gerenciadores de layout e o tema das
+
+23
+00:02:15,960 --> 00:02:21,990
+próximas aulas não apenas dessa mas nas próximas aulas também eu vou criar duas classes que vai nos
+
+24
+00:02:21,990 --> 00:02:25,780
+ajudar a visualizar os gerenciadores de layout.
+
+25
+00:02:25,800 --> 00:02:33,730
+Vai ser enquadrado em uma caixa de colocar os nomes quadrado e caixa porque eu vou ajudar e retângulo
+
+26
+00:02:33,730 --> 00:02:36,870
+ou então chamar aquele quadrado.
+
+27
+00:02:36,870 --> 00:02:38,370
+Eu vou andar de retângulo.
+
+28
+00:02:38,490 --> 00:02:41,780
+Esse é um centro geométrico.
+
+29
+00:02:42,310 --> 00:02:54,020
+Então com aquilo que não está mostrando que simplesmente está na malha Hex quentes existentes Let It
+
+30
+00:02:54,180 --> 00:02:58,320
+Go e Java FX.
+
+31
+00:02:58,320 --> 00:03:01,930
+Ponto sim ponto cheio que são as formas geométricas.
+
+32
+00:03:02,510 --> 00:03:08,470
+Então eu vou criar um outro que vai também nos ajudar a fazer com que os dois têm comportamentos diferentes.
+
+33
+00:03:08,790 --> 00:03:13,860
+Ele acaba expandindo em cima das áreas que eu vou colocar e o outro tem um tamanho fixo e vai ajudar
+
+34
+00:03:13,860 --> 00:03:15,980
+a gente a visualizar.
+
+35
+00:03:16,060 --> 00:03:23,040
+é uma forma muito fácil a partir do layout que o outro chama de caixa de ferramentas de caixa e a caixa
+
+36
+00:03:23,040 --> 00:03:31,020
+eu coloquei para baixo de H box que foi exatamente um trabalho estenderem até a box que é um dos gerenciadores
+
+37
+00:03:31,020 --> 00:03:32,720
+de layout disponível para a gente.
+
+38
+00:03:32,980 --> 00:03:36,600
+Então eu vou lá vou criar aqui um construtor consultor padrão.
+
+39
+00:03:37,170 --> 00:03:44,020
+Esse conceito padrão vai chamar um outro construtor que eu vou criar um servidor público de caixa este
+
+40
+00:03:44,070 --> 00:03:52,650
+construtor vai receber dois parâmetros que vai ser a largura e altura então vou colocar aquela largura
+
+41
+00:03:53,700 --> 00:04:04,710
+de altura e vou a partir do construtor padrão chamar usando B passamos sem sei que vai ser a largura
+
+42
+00:04:04,710 --> 00:04:07,990
+e altura padrão da Caixa ou chamar isso de consultor.
+
+43
+00:04:08,220 --> 00:04:15,390
+Então aqui além de criar a caixa eu vou criar uma caixa colorida vai ter um background colorido para
+
+44
+00:04:15,390 --> 00:04:19,710
+facilitar as nossas nossos testes e as visualizações.
+
+45
+00:04:19,710 --> 00:04:31,110
+Nesse caso eu vou criar um arquivo de cores bit string já que por isso já vou inicializar aqui algumas
+
+46
+00:04:31,110 --> 00:04:31,650
+cores.
+
+47
+00:04:31,650 --> 00:04:38,970
+Então vou colocar as seis cores então vou pegar a cópia do que eu fiz eu vou até copiar mesmo em vez
+
+48
+00:04:38,970 --> 00:04:44,640
+de ficar digitando isso porque não tem muito sentido digitar essas esses valores que você decimal.
+
+49
+00:04:45,030 --> 00:04:51,720
+Então vocês podem copiar e pausar o vídeo copiar que são cores aleatórias usando hexadecimal vai ter
+
+50
+00:04:51,830 --> 00:04:57,650
+um azul vermelho roxo e cores variadas basicamente pra não precisar me preocupar muito na hora de criar
+
+51
+00:04:57,670 --> 00:04:58,160
+caixa.
+
+52
+00:04:58,170 --> 00:05:03,230
+Ele já coloca um background pra mim a primeira coisa que eu vou fazer vai ser daqui aqui igualmente.
+
+53
+00:05:03,240 --> 00:05:10,110
+Também vou colocar a possibilidade de colocar um Lembo no meio do cache para dizer se é de esquerda
+
+54
+00:05:10,110 --> 00:05:10,580
+e direita.
+
+55
+00:05:10,580 --> 00:05:11,370
+Assino embaixo.
+
+56
+00:05:11,370 --> 00:05:13,240
+Caixa 1 caixa 2 e tal.
+
+57
+00:05:13,350 --> 00:05:20,100
+Então aquilo vai ser um sem tamanho vou colocar o alinhamento dos armamentos do centro no caso especificamente
+
+58
+00:05:20,100 --> 00:05:21,190
+da Caixa.
+
+59
+00:05:21,330 --> 00:05:23,280
+Uma ala vai expandir e h Box.
+
+60
+00:05:23,280 --> 00:05:28,720
+Ele pode expandir eu vou acertar apenas o mínimo da largura.
+
+61
+00:05:29,220 --> 00:05:36,870
+Eu vou colocar aqui agora pra ele esse ataque é o mínimo a largura possível é 7 a altura mínima também
+
+62
+00:05:36,870 --> 00:05:44,680
+vai ser pegando o parâmetro de altura pra gente se tal decorar Launch aqui existe um método set básico
+
+63
+00:05:44,970 --> 00:05:52,800
+que recebe o mil background e como parâmetro ele vai receber um bocal de fio que é um preenchimento
+
+64
+00:05:52,800 --> 00:06:06,420
+de beco algo então maximizar aqui ou criar um Black fio ou chamar de fio recebe um background fio o
+
+65
+00:06:06,420 --> 00:06:12,940
+primeiro que ele vai receber um pente e uma cola também pode ser tratada como um pente certo.
+
+66
+00:06:13,100 --> 00:06:17,690
+Não vou colocar Kill Color só que lembrando que tem mais um cola.
+
+67
+00:06:17,700 --> 00:06:20,700
+Então quero o Java x ponto sim me poupem.
+
+68
+00:06:21,000 --> 00:06:27,360
+E existe um metro de qualquer Metro estático chamado Webby que é exatamente um metro que vai receber
+
+69
+00:06:27,360 --> 00:06:29,550
+um estilingue como parâmetro.
+
+70
+00:06:29,540 --> 00:06:34,450
+Então eu posso pegar uma dessas historinhas aqui e passar para ele colocar Co.
+
+71
+00:06:34,890 --> 00:06:42,180
+Então basicamente eu vou pegar para fazer o seguinte eu vou ter que criar uma variável e eu vou criar
+
+72
+00:06:42,180 --> 00:06:44,530
+a variável estática vou fazer o seguinte.
+
+73
+00:06:45,200 --> 00:06:48,390
+Então estático
+
+74
+00:06:51,210 --> 00:06:55,480
+é que vai controlar com o primeiro ele vai pagar com o time zero.
+
+75
+00:06:55,490 --> 00:07:01,860
+Cada vez que eu pegar um ou comprar um nova caixa ele vai incrementando o valor de IVA pagando uma automaticamente
+
+76
+00:07:01,860 --> 00:07:12,070
+diferente para fazer o seguinte eu baixei cores sim e eu já posso colocar mais mais que isso foi o caso.
+
+77
+00:07:12,150 --> 00:07:16,910
+Aí ele pega a cor do índice e depois que ele pega a cor ele incrementa o valor.
+
+78
+00:07:16,920 --> 00:07:21,720
+Eu também posso incrementar o valor disparado pra ficar mais claro se for o caso então posso aqui no
+
+79
+00:07:21,720 --> 00:07:23,970
+final dar um e mais mais eu sei.
+
+80
+00:07:23,990 --> 00:07:30,260
+Ou seja sempre que eu criar o novo caixa ele vai pegar uma cor e vai pra próxima cor.
+
+81
+00:07:30,360 --> 00:07:38,630
+De tal forma que eu tenho um índice zero 22 23 24 25.
+
+82
+00:07:39,060 --> 00:07:46,110
+Então eu posso ir até o índice 5 o que significa que depois de incrementar se o valor de foi igual a
+
+83
+00:07:46,110 --> 00:07:54,450
+6 eu tenho que fazer é igual a zero pra ele voltar pro zero e ficar sempre nesse looping primeira vez
+
+84
+00:07:54,450 --> 00:07:57,500
+que ele teria pago essa cor depois de pagar essa.
+
+85
+00:07:57,620 --> 00:08:04,220
+Essa se é essa como chegar aqui eu volto para o zero ele bota pra jogar de novo acorde índice zero e
+
+86
+00:08:04,230 --> 00:08:07,740
+sempre vai pegando com o válida dentro desse rei.
+
+87
+00:08:08,040 --> 00:08:14,210
+Então para pegar aqui o que é que eu vou precisar agora pra esse mundo parâmetro é como né.
+
+88
+00:08:14,460 --> 00:08:24,540
+Então aquilo ali eu vou colocar em TI e em sites que são os espaços eu vou colocar aqui também para
+
+89
+00:08:24,540 --> 00:08:31,430
+o seguinte só pra você ver como ficou aqui a implementação do call ficou pronto coloque em um beco sem
+
+90
+00:08:31,460 --> 00:08:40,020
+fio pego a co baseado no valor de é exatamente esse valor está um pouco estático porque ele não está
+
+91
+00:08:40,020 --> 00:08:46,080
+preso a alguma instância só ou seja eu quero criar as instâncias e aumentando um único valor e por isso
+
+92
+00:08:46,090 --> 00:08:47,650
+estou colocando ele estático.
+
+93
+00:08:47,730 --> 00:08:54,000
+Se eu colocasse o wi fi como sinal variável de instância cada nova cache criada teria seu próprio valor
+
+94
+00:08:54,290 --> 00:08:58,950
+o que não é interessante eu não sei que fosse um valor randômico ele pagasse de forma randômico como
+
+95
+00:08:58,950 --> 00:09:04,500
+um dos seis aqui mas eu quero sempre que ele pegue na ordem primeiro e depois esse assim vai pronto
+
+96
+00:09:04,530 --> 00:09:11,330
+uma vez definido aqui coloco um background melhor dizendo eu coloco aqui um fio e ele vai criar para
+
+97
+00:09:11,330 --> 00:09:14,000
+a gente encaixa certo então.
+
+98
+00:09:14,070 --> 00:09:21,320
+Outra coisa que eu quero colocar eu vou criar um método aqui que vai adicioná la dentro da caixa.
+
+99
+00:09:21,420 --> 00:09:25,740
+Eu não quero tornar obrigatório então vou criar um método que eu faça o seguinte publique.
+
+100
+00:09:26,310 --> 00:09:30,510
+Ele vai retornar na caixa eu vou já mostrar como é que usa.
+
+101
+00:09:30,870 --> 00:09:39,330
+Eu vou chamar o nome do metro com texto e vou passar aqui uma string que vai ser um texto aqui dentro
+
+102
+00:09:39,420 --> 00:09:46,400
+eu vou criar pode ser um teste ou então legal tanto faz ou criar um leigo Java fechei sim outro controle
+
+103
+00:09:46,990 --> 00:09:58,110
+lei recebe o leigo eu vou passar para o leigo o texto eu passei como parâmetro e vou adicionar esse
+
+104
+00:09:58,110 --> 00:10:09,000
+leigo nem entro nosso olhar boxe então perde Children ponto adicionar adicional lei e finalmente retornar
+
+105
+00:10:09,740 --> 00:10:15,300
+britânico depois ou seja a própria distância atual então para a gente testar.
+
+106
+00:10:15,370 --> 00:10:16,870
+Eu vou entrar aqui é legal.
+
+107
+00:10:16,940 --> 00:10:22,710
+Vou criar aqui uma cena chamada principal.
+
+108
+00:10:24,390 --> 00:10:27,250
+Sim vou completa aqui.
+
+109
+00:10:27,280 --> 00:10:27,990
+Pronto.
+
+110
+00:10:28,120 --> 00:10:39,300
+O elemento o elemento raiz vai ser sei lá o box só pra gente está aqui tempo ver box.
+
+111
+00:10:39,300 --> 00:10:47,110
+Vou passar esse tempo como cenários pra cá e vou passar aqui o tamanho pra c 800 seiscentos e no final
+
+112
+00:10:47,110 --> 00:10:56,330
+você tá sendo então mais 3 pontos set sim passando a cena principal da então já que tenho o tempo aqui
+
+113
+00:10:56,360 --> 00:11:05,280
+vou pegar um tempinho pontuou Guedes Children ponto tradicional.
+
+114
+00:11:05,290 --> 00:11:09,390
+Vou criar aqui uma nova caixa padrão.
+
+115
+00:11:09,490 --> 00:11:14,090
+Ele já vai colocar a sem possui e eu vou chamar aquele ponto.
+
+116
+00:11:14,400 --> 00:11:21,070
+Com texto eu vou passar aqui por exemplo caixão então é legal fazer essa forma um pouco que eu não sei
+
+117
+00:11:21,070 --> 00:11:25,130
+um objeto que chamei a função como essa função retorna uma caixa.
+
+118
+00:11:25,510 --> 00:11:27,340
+Ou seja retorna ao objeto atual.
+
+119
+00:11:27,700 --> 00:11:33,320
+Então não posso encaixar com texto sem necessariamente precisar criar duas linhas para a instancia o
+
+120
+00:11:33,320 --> 00:11:37,430
+objeto então com uma linha só assim coloco a caixa.
+
+121
+00:11:37,740 --> 00:11:42,520
+E aí eu coloco o texto se eu quiser ser opcional não preciso me preocupar em colocar.
+
+122
+00:11:42,520 --> 00:11:50,280
+Não posso distanciar aqui por exemplo cair quatro caixas 1 2 3 e 4 só para a gente testar meu resultado.
+
+123
+00:11:50,780 --> 00:11:59,340
+Quando ele vai mostrar as quatro caixas 1 2 3 e 4 se eu quiser colocar o espaço então a caixa ele meio
+
+124
+00:11:59,370 --> 00:12:05,860
+que completou o espaço eu vou agora mudar para o quadrado quadrado vai ter mais ou menos a mesma estrutura
+
+125
+00:12:05,860 --> 00:12:11,770
+então vou copiar aqui com essa ação que o quadrado não vai ter um campo de texto porque ele não suporta
+
+126
+00:12:11,770 --> 00:12:18,030
+texto que é o recheio que não suporta um rolo textual dentro dele.
+
+127
+00:12:18,040 --> 00:12:27,390
+Então vou mudar aquilo que chutou para a caixa quadrada quadrado o que não tem alimentos e em vez de
+
+128
+00:12:27,490 --> 00:12:36,440
+seu tamanho mínimo tamanho a largura e altura e o báculo sem fio não é essa forma que você para o Beco
+
+129
+00:12:36,960 --> 00:12:44,210
+do retângulo no caso você usa o 7 mil e o valor vai ser um pente que é o álcool.
+
+130
+00:12:44,450 --> 00:12:57,570
+E aqui eu posso passar cola ponto web passando o valor de cores sim e da mesma forma.
+
+131
+00:12:57,610 --> 00:13:05,240
+Aí depois de um incremento aí é o é igual a 6 para daí ele reiniciar o rolo de série sempre apagando
+
+132
+00:13:05,430 --> 00:13:06,400
+um covarde.
+
+133
+00:13:06,890 --> 00:13:12,670
+Então olha aqui eu criei seis cores vão estar só para a gente vem aqui porte.
+
+134
+00:13:12,870 --> 00:13:22,270
+Eu criei 1 2 3 4 5 6 7 então 5 6 7 executando.
+
+135
+00:13:22,270 --> 00:13:29,600
+A gente vai ver o que ele vai repetir a primeira com o nome coloquei 6 a 7 embaixo exatamente com 1
+
+136
+00:13:29,950 --> 00:13:32,900
+2 3 4 5 6 7.
+
+137
+00:13:33,190 --> 00:13:38,530
+Começo a repetir a cor a partir da sétima com uma coisa que ainda pode melhorar aqui é só aumentar um
+
+138
+00:13:38,530 --> 00:13:42,670
+pouquinho o Lembo desse que está dentro do abacaxi.
+
+139
+00:13:42,680 --> 00:13:53,560
+Então vou fazer essa pequena mudança então aí bom outro set onde eu vou criar uma nova fonte e um dos
+
+140
+00:13:53,560 --> 00:13:59,850
+construtores já sabe apenas o tamanho vou colocar aqui 24 travesti com tamanho mais interessante.
+
+141
+00:14:00,040 --> 00:14:07,420
+E quando ficou já mais legal o leigo com esse tamanho então tem um aqui as sete caixas agora eu vou
+
+142
+00:14:07,420 --> 00:14:10,980
+substituir só pra gente testar e ver como é que ficaria com o quadrado.
+
+143
+00:14:11,530 --> 00:14:16,210
+Então eu vou onde tem caixa que eu vou dar aqui um com uma de Alt.
+
+144
+00:14:16,690 --> 00:14:21,910
+Você percebe que o cursor vai mudar algo como de alterar para outra cor mudou eu posso selecionar isso
+
+145
+00:14:21,910 --> 00:14:22,450
+aqui.
+
+146
+00:14:23,050 --> 00:14:27,950
+Esse trecho é alterar todo mundo ao mesmo tempo.
+
+147
+00:14:28,670 --> 00:14:34,730
+E aí como dizem alguns ah ele volta e altera todo mundo.
+
+148
+00:14:34,750 --> 00:14:36,920
+Esqueci de alterar esse tamanho.
+
+149
+00:14:36,940 --> 00:14:44,260
+Isso aqui vai sumir ou que não tenham essa opção como desconto com o Mundial puxar novamente ele volta
+
+150
+00:14:44,860 --> 00:14:46,220
+pra o estado original.
+
+151
+00:14:46,220 --> 00:14:51,460
+Então nesse caso ele vai criar um quadrado com tamanho 100 por 100 agora nesse caso seu tamanho fixo.
+
+152
+00:14:51,460 --> 00:15:00,910
+Certo é que tá pra gente B vai ter que arcar com o tamanho e que só não vai crescer conforme uso do
+
+153
+00:15:01,150 --> 00:15:08,110
+caixa então nós temos dois elementos visuais com cores para que a gente possa testar os nossos diversos
+
+154
+00:15:08,110 --> 00:15:08,650
+Layout.
+
+155
+00:15:08,650 --> 00:15:14,240
+Por enquanto a gente não fez nenhum layout na proximal a gente acabou usando um H box mais aproximado
+
+156
+00:15:14,290 --> 00:15:17,010
+em cada um deles de uma forma bem estruturado.
+
+157
+00:15:17,020 --> 00:15:21,330
+Então vou tirar essa parte do box.
+
+158
+00:15:21,370 --> 00:15:23,340
+Vou tirar a cena principal.
+
+159
+00:15:23,340 --> 00:15:26,270
+Na próxima nós vamos usar o nosso primeiro gerenciador de layout.
+
+160
+00:15:26,830 --> 00:15:32,320
+E a gente cria a cena e faz toda a configuração necessária para fazer os nossos primeiros testes.
+
+161
+00:15:32,350 --> 00:15:37,810
+Então a sala foi mais pra gente e configurar o ambiente definir essas duas classes que é o quadrado
+
+162
+00:15:37,810 --> 00:15:38,730
+e a Caixa.
+
+163
+00:15:38,780 --> 00:15:43,810
+E a partir da próxima aula somos de cara entrar no gerenciador de layout do Java FX para que você possa
+
+164
+00:15:43,810 --> 00:15:50,410
+entender e entender quando você deve usar cada gerenciador de layout pra quando você tiver uma determinada
+
+165
+00:15:50,410 --> 00:15:50,980
+demanda.
+
+166
+00:15:50,980 --> 00:15:55,260
+Você sabe qual o melhor gerenciador de lealdade que vai te atender naquela situação.
+
+167
+00:15:55,270 --> 00:15:56,440
+Então fico por aqui.
+
+168
+00:15:56,440 --> 00:15:58,390
+Na próxima aula a gente continua e até lá.

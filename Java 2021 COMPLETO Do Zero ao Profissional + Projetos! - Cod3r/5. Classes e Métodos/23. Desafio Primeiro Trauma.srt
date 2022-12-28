@@ -1,0 +1,147 @@
+1
+00:00:00,120 --> 00:00:06,810
+Pessoal esse é um desafio que foi em que eu vou lançar para vocês agora que é um desafio que foi meu
+
+2
+00:00:06,810 --> 00:00:09,440
+primeiro trauma como programador.
+
+3
+00:00:09,630 --> 00:00:12,810
+Na época não tive a menor ideia de como resolver isso.
+
+4
+00:00:12,810 --> 00:00:18,450
+Inclusive até gravei um vídeo no canal falando um pouquinho sobre essa experiência lá no vídeo e mostra
+
+5
+00:00:18,450 --> 00:00:23,100
+rapidamente o problema que eu vou mostrar pra vocês aqui se vocês já viram esse vídeo no canal.
+
+6
+00:00:23,110 --> 00:00:29,390
+Então vai ser fácil esse desafio não vai ser um desafio que de certa forma já mostrei com mais um vez
+
+7
+00:00:29,870 --> 00:00:32,700
+mais se você não viu esse vídeo no canal.
+
+8
+00:00:32,700 --> 00:00:36,640
+Não vejo por enquanto e tente resolver o desafio que eu vou propor na sala.
+
+9
+00:00:36,740 --> 00:00:43,020
+E o desafio seguinte eu vou criar uma classe certa o nome da classe não tem muito a ver com o desafio.
+
+10
+00:00:43,130 --> 00:00:44,740
+Eu vou chamar de primeiro trauma.
+
+11
+00:00:44,810 --> 00:00:55,200
+Foi exatamente o meu primeiro trauma como programador certo trauma e aqui dentro vou criar o nosso método.
+
+12
+00:00:55,560 --> 00:01:01,530
+Quando comecei a programar percebi rapidamente que você podia criar variáveis e tal você poderia usar
+
+13
+00:01:01,530 --> 00:01:06,400
+essas variáveis por exemplo no System para além executando isso.
+
+14
+00:01:06,420 --> 00:01:11,030
+Nada mais óbvio do que ter o valor da variável 3 sem pressa no console.
+
+15
+00:01:11,550 --> 00:01:18,540
+E aí um dos primeiros testes que eu fiz foi jogar essa variável para fora do método e tentar executar
+
+16
+00:01:18,540 --> 00:01:23,580
+esse código e se eu tentar executar esse código vocês vão perceber que nós teríamos um problema esse
+
+17
+00:01:23,580 --> 00:01:25,110
+código não vai executar.
+
+18
+00:01:25,170 --> 00:01:31,350
+Então o desafio é o seguinte eu quero que sim você não pode mexer nessa linha certo eu vou colocar aqui
+
+19
+00:01:31,350 --> 00:01:40,290
+um comentário não pode mexer aqui apenas mexendo dentro do método.
+
+20
+00:01:40,370 --> 00:01:51,390
+Ou seja apenas mexendo aqui na linha que antes aqui pode mexer mexer aqui pode mexer.
+
+21
+00:01:51,600 --> 00:01:58,380
+Depois se você quiser sem problema pode mexer nessa linha também certa então você pode mexer dentro
+
+22
+00:01:58,380 --> 00:02:01,360
+do metro no meio mas não pode mexer na lei.
+
+23
+00:02:01,440 --> 00:02:04,830
+Fora eu quero que você corrija esse problema.
+
+24
+00:02:04,830 --> 00:02:10,590
+O que é que é necessário para que esse código volte a funcionar exatamente esse o desafio.
+
+25
+00:02:10,590 --> 00:02:17,120
+Quando eu tentei ir lá no meus primórdios de programador em 2003 eu não consegui resolver.
+
+26
+00:02:17,120 --> 00:02:20,510
+Fiquei chateado passei alguns dias ou semanas tentando.
+
+27
+00:02:20,700 --> 00:02:22,920
+Não sabia nem como procurar no livro.
+
+28
+00:02:22,920 --> 00:02:28,230
+Inclusive o livro que foi o primeiro livro que eu comprei está aquilo aqui do lado ou livro de Java.
+
+29
+00:02:28,230 --> 00:02:30,750
+Eu até mostrei esse livro também quando estava gravando.
+
+30
+00:02:30,750 --> 00:02:36,410
+Ele está aqui é um livro muito antigo de 2003 já dava um ponto quatro do Java.
+
+31
+00:02:36,420 --> 00:02:40,330
+Foi quando eu comecei a realmente estudar já muito tempo atrás.
+
+32
+00:02:40,410 --> 00:02:43,660
+E é exatamente esse desafio que eu quero que vocês resolva.
+
+33
+00:02:43,660 --> 00:02:49,170
+Tem a ver com aquilo que a gente já trabalhou no capítulo 7 eu não vou dar muita dica pra poder não
+
+34
+00:02:49,170 --> 00:02:51,350
+ajudar você tanto me desafia na próxima aula.
+
+35
+00:02:51,360 --> 00:02:56,450
+Eu mostro o desafio mostra algumas coisas interessantes inclusive mais uma forma de resolver.
+
+36
+00:02:56,580 --> 00:03:02,040
+Mas eu quero que vocês resolvam seguindo essas instruções que eu coloquei não pode mexer na linha 5
+
+37
+00:03:02,370 --> 00:03:06,690
+e pode mexer qualquer coisa dentro do método meio de aproximá lo da resposta.

@@ -1,0 +1,435 @@
+1
+00:00:00,180 --> 00:00:06,150
+Pessoal da resposta agora proposto na aula passada mas vamos fazer o seguinte vou criar primeiramente
+
+2
+00:00:06,150 --> 00:00:09,940
+duas constantes depois vou criar as duas variáveis uma para até a data.
+
+3
+00:00:09,940 --> 00:00:14,440
+A data não a temperatura e a outra com o resultado da expressão.
+
+4
+00:00:14,670 --> 00:00:17,290
+Então a primeira constante começa com um fato não.
+
+5
+00:00:17,580 --> 00:00:23,670
+O tipo da variável será do tipo dado e o nome dessa variável será fato que é exatamente o que eu vou
+
+6
+00:00:23,670 --> 00:00:26,570
+armazenar o resultado de em cinco dividido por nove.
+
+7
+00:00:26,970 --> 00:00:33,690
+Nesse caso eu posso usar cinco pontos era dividir por nove pontos zero ou mesmo apenas cinco dividido
+
+8
+00:00:33,690 --> 00:00:36,020
+por nove pontos zero ou o contrário.
+
+9
+00:00:36,030 --> 00:00:41,840
+A única coisa que eu não posso fazer é 5 dividir o 9 e os dois inteiros porque o resultado será um rolo
+
+10
+00:00:41,850 --> 00:00:47,190
+inteiro ou seja zero e no final a expressão mais retornasse empresário o que eu quero.
+
+11
+00:00:47,260 --> 00:00:52,320
+A outra constante também será do tipo da ABL da ABL será o ajuste.
+
+12
+00:00:52,330 --> 00:00:59,190
+E nesse caso o ajuste será 32 está eu posso colocar da W e o outro tipo que eu não vou introduzir mais
+
+13
+00:00:59,190 --> 00:01:06,570
+na frente que é o tipo inteiro e o índice também é um tipo valendo se eu colocar isso funciona colocando
+
+14
+00:01:06,570 --> 00:01:08,060
+da ABL também funciona.
+
+15
+00:01:08,070 --> 00:01:14,130
+E finalmente já que eu tenho agora as duas constantes eu vou definir a minha variável que representa
+
+16
+00:01:14,140 --> 00:01:18,600
+a temperatura e forem em estão colocando ABL sem um não forem.
+
+17
+00:01:18,990 --> 00:01:26,280
+Recebe 86 e agora tem todos os elementos necessários para calcular a temperatura em graus Celsius já
+
+18
+00:01:26,280 --> 00:01:27,540
+tem um fora em reais.
+
+19
+00:01:27,630 --> 00:01:35,000
+Aqui já até um ajuste 32 já tem um fator que é 5 dividido com o 9 agora posso fazer o resultado certo
+
+20
+00:01:35,010 --> 00:01:38,090
+armazenar em uma variável o resultado de uma inspiração.
+
+21
+00:01:38,300 --> 00:01:45,190
+Então colocando aqui dentro dos parentes vou colocar forem reais menos o ajuste ou daqui a 1 contra
+
+22
+00:01:45,410 --> 00:01:53,820
+mim e vou usar o multiplicador multiplicado pelo fator então multiplicador o símbolo do asterisco menos
+
+23
+00:01:53,820 --> 00:01:54,180
+aqui.
+
+24
+00:01:54,180 --> 00:01:57,730
+O resultado dessa expressão é exatamente a temperatura em certos.
+
+25
+00:01:57,990 --> 00:02:04,280
+Pra mostrar aqui o resultado não assistem pontual diferente ali coloco o resultado de Celsius então
+
+26
+00:02:04,310 --> 00:02:05,060
+executado.
+
+27
+00:02:05,070 --> 00:02:11,030
+Mas temos aí que 86 Fahrenheit é a mesma coisa que 30 graus Celsius.
+
+28
+00:02:11,040 --> 00:02:19,350
+Aqui eu posso incrementar um pouco mais o nosso exercício colocando um texto entre aspas duplas e colocando
+
+29
+00:02:19,830 --> 00:02:27,030
+o resultado e coloco o espaço e aqui eu coloco mais dinheiro certo.
+
+30
+00:02:27,380 --> 00:02:34,790
+E no final posso colocar a temperatura em seus no Mac no antes da aula fiquei procurando aqui achei
+
+31
+00:02:34,780 --> 00:02:42,450
+que o Alt K do MAC lhe dar essa bolinha em cima da Windows ou não estou lembrado exatamente qual é o
+
+32
+00:02:42,450 --> 00:02:47,880
+símbolo que faz essa bolinha que dos graus mais um pouco importante para o nosso exemplo tá só pra fazer
+
+33
+00:02:48,090 --> 00:02:54,600
+um bom acabamento final mas eu acho que no Windows tem alguma coisa pelo Painel de Controle de símbolos
+
+34
+00:02:54,600 --> 00:02:59,580
+que você consegue encontrar os símbolos lá se você realmente quiser colocar isso ou então você pega
+
+35
+00:02:59,580 --> 00:03:05,640
+na internet coloca o símbolo e temperatura provavelmente vai aparecer esse símbolo você copia e cola
+
+36
+00:03:06,000 --> 00:03:13,080
+que vai dar certo e traz à tona aqui ao nosso exemplo o resultado a 30 graus Celsius já que nós temos
+
+37
+00:03:13,080 --> 00:03:20,700
+aqui duas variáveis e nós não estamos usando essas duas variáveis que poderiam nesse caso ser final
+
+38
+00:03:20,700 --> 00:03:24,360
+porque em nenhum momento eu estou alterando elas dentro do nosso código.
+
+39
+00:03:24,840 --> 00:03:30,240
+Isso aqui continua sendo um código válido porque eu nao terei o valor de um raide depois que ela atribui
+
+40
+00:03:30,240 --> 00:03:32,210
+o valor de Fallen rate Eu não mudei mais.
+
+41
+00:03:32,850 --> 00:03:38,310
+Então pra gente realmente usar essas duas variáveis eu vou fazer o seguinte eu vou usar aqui farei reais
+
+42
+00:03:38,760 --> 00:03:50,580
+recebe o valor de 150 reais e vou pagar a nossa expressão Celsius e vou colocar em baixo pra ele calcular
+
+43
+00:03:50,580 --> 00:03:53,360
+novamente o valor da temperatura.
+
+44
+00:03:53,430 --> 00:03:58,650
+Aí tem um problema porque nesse caso ele vai calcular aqui em cima e vai calcular de novo só vai exibir
+
+45
+00:03:58,650 --> 00:04:03,190
+a última vez vai ser executado só porque é 11.
+
+46
+00:04:03,480 --> 00:04:10,500
+Então gerou o resultado aqui mais 5 pontos 5 5 5 5 meia no final geral também gerou modismo tá e eu
+
+47
+00:04:10,500 --> 00:04:17,580
+vou querer colocar essa expressão aqui e sentença de código mais em cima antes de executar a mudança
+
+48
+00:04:17,580 --> 00:04:25,500
+nas variáveis você pode usar a tecla de atalho ALT e o teclado pra cima e pra baixo então você consegue
+
+49
+00:04:25,500 --> 00:04:31,890
+mover uma linha de código dentro do eclipse usando a tecla de atalho seguro Alt pra cima e pra baixo.
+
+50
+00:04:32,350 --> 00:04:38,820
+Então você coloca pra cima pra baixo e se você quiser duplicar essa tecla aqui vai funcionar no Mac
+
+51
+00:04:38,820 --> 00:04:41,250
+e o comando de áudio pra baixo.
+
+52
+00:04:41,340 --> 00:04:48,000
+Certo Eu vou colocar aqui a mesma tecla no Windows na edição da durante a edição vou colocar pra você
+
+53
+00:04:48,360 --> 00:04:54,990
+essa tecla que duplica a bolinha então pra duplicar aquilo que é o Command Alt pra baixo posso duplicar
+
+54
+00:04:54,990 --> 00:05:01,680
+quantas vezes eu quiser sair a mesma coisa também como de assim ele também duplica.
+
+55
+00:05:01,680 --> 00:05:08,130
+Só que ele vai duplicar no próximo ou duplicar para baixo e promover a linha e o Audi para baixo e para
+
+56
+00:05:08,130 --> 00:05:13,830
+cima dela essas teclas eu acabo usando com muita frequência para duplicar linha ou mesmo promover uma
+
+57
+00:05:13,830 --> 00:05:14,700
+linha de local.
+
+58
+00:05:14,790 --> 00:05:19,020
+Então nesse caso nós temos aqui um frame rate defina a linha 10.
+
+59
+00:05:19,130 --> 00:05:26,230
+A expressão a nossa fórmula usada na linha 11 salvo na variável seu sim imprimido na Linha 12.
+
+60
+00:05:26,640 --> 00:05:33,700
+E finalmente nós alteramos o valor de 100 reais da linha 14 alteramos o valor de Celso já que as duas
+
+61
+00:05:33,700 --> 00:05:36,740
+são variáveis então possa alterar bem o algoritmo.
+
+62
+00:05:36,810 --> 00:05:40,350
+E no final mostrei novamente o resultado em seus.
+
+63
+00:05:40,530 --> 00:05:48,730
+Agora é 150 reais então você pode fazer vários testes até que seria o 0 em reais e pago o valor da menos
+
+64
+00:05:48,750 --> 00:05:49,950
+17 graus.
+
+65
+00:05:49,950 --> 00:05:51,360
+Ponto 7.7.
+
+66
+00:05:51,670 --> 00:05:53,300
+Então você pode fazer os experimentos.
+
+67
+00:05:53,310 --> 00:05:59,250
+B está tudo direitinho conferi com o Google mas essa é a forma correta para fazer a migração de graus
+
+68
+00:05:59,250 --> 00:06:04,530
+Fahrenheit 11 graus Celsius para que tenha ficado claro que o nosso desafio é outra questão importante
+
+69
+00:06:04,530 --> 00:06:10,370
+só para finalizar uma mensagem muito importante com relação aos desafios do custo que o seguinte consegui
+
+70
+00:06:10,410 --> 00:06:14,230
+fazer os desafios não é o grande desafio da época.
+
+71
+00:06:14,530 --> 00:06:15,180
+Por quê.
+
+72
+00:06:15,250 --> 00:06:21,450
+é comum que você não comece principalmente para quem está aprendendo a linguagem de programação nesse
+
+73
+00:06:21,450 --> 00:06:28,470
+curso que você não vai conseguir executar alguns desafios é plenamente normal durante a minha jornada
+
+74
+00:06:28,470 --> 00:06:33,480
+como programador muitos desafios não foram conseguidos eu não consegui fazer.
+
+75
+00:06:33,480 --> 00:06:39,460
+O grande problema que aconteceu comigo é você se desmotivar por que não conseguiu fazer os desafios.
+
+76
+00:06:39,450 --> 00:06:41,150
+é importante que você pare.
+
+77
+00:06:41,520 --> 00:06:46,530
+é importante que você pense como você poderia resolver os desafios principalmente se você está começando
+
+78
+00:06:46,530 --> 00:06:52,320
+a programar agora e é importante que no momento que você se sentir frustrado por não conseguir você
+
+79
+00:06:52,320 --> 00:06:54,290
+conseguir confrontar aquilo.
+
+80
+00:06:54,360 --> 00:06:55,790
+Qual a minha resposta.
+
+81
+00:06:55,800 --> 00:07:02,460
+Poxa faltou só isso faltou só um ponto e vírgula pra funcional então esqueci desse detalhe de colocar
+
+82
+00:07:02,820 --> 00:07:07,380
+o Mazinho pra concatenar por exemplo histria com determinada variável.
+
+83
+00:07:07,440 --> 00:07:11,970
+Então esqueci de colocar o System com S maiúsculo coloquei com s minúsculo.
+
+84
+00:07:12,120 --> 00:07:18,840
+Tudo isso é extremamente importante e importante porque você vai conseguir ver exatamente onde foi que
+
+85
+00:07:18,840 --> 00:07:24,870
+você errou você vai conseguir perceber aquilo que está deficiente em cima disso com certeza será gerado
+
+86
+00:07:24,910 --> 00:07:25,630
+evolução.
+
+87
+00:07:25,820 --> 00:07:31,650
+Eu tenho uma história de um aluno que passou uma semana eu dava aula no sábado ele ia se aula sempre
+
+88
+00:07:31,740 --> 00:07:33,050
+aos sábados.
+
+89
+00:07:33,150 --> 00:07:39,030
+Seja um exercício que eu passava no sábado só mostrava correção em outro salão depois de uma semana
+
+90
+00:07:39,030 --> 00:07:44,700
+ele passou uma semana quebrando na cabeça um exercício que estava faltando pra concluir um ponto e vírgula
+
+91
+00:07:44,910 --> 00:07:49,450
+ele esqueceu ponto e vírgula em um trecho do código lá no comecinho do código.
+
+92
+00:07:49,470 --> 00:07:54,520
+Isso fez com que todo o código parasse de funcionar ele ficou extremamente frustrado e eu falei assim.
+
+93
+00:07:55,110 --> 00:07:57,920
+Esse tipo de frustração esse tipo de trauma.
+
+94
+00:07:57,930 --> 00:08:00,520
+Até brinquei com ele a programação orientada a trauma.
+
+95
+00:08:00,780 --> 00:08:06,570
+Esse tipo de trauma é importante porque é porque ele gera o conhecimento quando você enfrenta um problema
+
+96
+00:08:06,570 --> 00:08:07,500
+de programação.
+
+97
+00:08:07,500 --> 00:08:12,430
+Poucos segundos depois alguém vai te ajudar a resolver aquele problema na resposta.
+
+98
+00:08:12,460 --> 00:08:17,250
+Isso faz com que o aprendizado seja muito muito fácil de ser adquirido.
+
+99
+00:08:17,250 --> 00:08:19,680
+Pouco tempo depois você já viu a resposta.
+
+100
+00:08:19,770 --> 00:08:21,120
+Já viu qual era o seu erro.
+
+101
+00:08:21,120 --> 00:08:26,340
+Pode ser que você aprenda que obviamente você vai aprender assim com a repetição mas às vezes essas
+
+102
+00:08:26,340 --> 00:08:32,010
+frustrações são extremamente importantes pra marcar determinados conceitos na cabeça de vocês.
+
+103
+00:08:32,010 --> 00:08:37,740
+Então não fique triste não fique desestimulado quando você fizer um desafio não conseguir isso é extremamente
+
+104
+00:08:38,070 --> 00:08:42,130
+normal e extremamente esperado por mim.
+
+105
+00:08:42,140 --> 00:08:48,470
+E quando você for evoluindo na linguagem tenho mais maturidade for realmente revisitando os conceitos
+
+106
+00:08:48,490 --> 00:08:53,940
+eu tenho certeza que vai ficar muito mais fluente na linguagem Java vai ter muito mais facilidade também
+
+107
+00:08:53,940 --> 00:08:56,580
+para resolver os desafios então fique por aqui.
+
+108
+00:08:56,850 --> 00:09:01,460
+Acho que esse foi o nosso primeiro desafio de código e até para o mal pra gente continuar nos capítulos
+
+109
+00:09:01,490 --> 00:09:02,070
+fundamentais.

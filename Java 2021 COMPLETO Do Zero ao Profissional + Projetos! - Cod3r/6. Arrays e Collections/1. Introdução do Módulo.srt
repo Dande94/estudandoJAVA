@@ -1,0 +1,83 @@
+1
+00:00:00,230 --> 00:00:06,180
+Que estamos iniciando mais um capítulo do nosso curso de Java e nesse capítulo vamos trabalhar com a
+
+2
+00:00:06,180 --> 00:00:13,410
+Reiss Collection que são estruturas que agrupam dados dentro de um único futuro seja a partir de uma
+
+3
+00:00:13,410 --> 00:00:20,190
+única variável ou constante a partir de uma referência você consegue ter um conjunto um grupo de informações
+
+4
+00:00:20,190 --> 00:00:26,310
+que pode ser uma lista que pode ser conjuntos que pode ser uma estrutura chave valor que pode funcionar
+
+5
+00:00:26,310 --> 00:00:32,670
+como a pilha ou seja o primeiro a entrar e o último a sair ou seja o último a entrar e o primeiro a
+
+6
+00:00:32,670 --> 00:00:35,340
+sair ou pode funcionar como uma fila.
+
+7
+00:00:35,340 --> 00:00:42,330
+O primeiro a entrar é o primeiro a sair ou você pode ter os futuros ordenados não ordenados indexados
+
+8
+00:00:42,330 --> 00:00:47,910
+ou seja que são que você consegue acessar os alarmes a partir de um índice 0 1 2 em que vai ver tudo
+
+9
+00:00:47,910 --> 00:00:48,630
+isso.
+
+10
+00:00:48,630 --> 00:00:54,990
+Nesse capítulo aqui é uma parte dos fundamentos dessa parte de coleções é a raiz e mais na frente a
+
+11
+00:00:54,990 --> 00:01:01,450
+gente vai ver um outro capítulo falando isto me arrepia que é uma forma muito mais muito interessante
+
+12
+00:01:01,450 --> 00:01:08,610
+de você consumir dados a partir de listas fazendo uso de um paradigma de programação funcional trazendo
+
+13
+00:01:08,610 --> 00:01:12,050
+alguns princípios desse paradigma pra dentro do Java.
+
+14
+00:01:12,050 --> 00:01:18,020
+A gente vai falar sobre isso mais à frente com calma mais Primeiro a gente precisa ver as bases de dados
+
+15
+00:01:18,060 --> 00:01:21,600
+coleções e entender os tipos as coleções as funcionalidades.
+
+16
+00:01:21,600 --> 00:01:27,510
+Como é que você faz pra criar um conjunto como é que você faz para criar uma lista de dados.
+
+17
+00:01:27,510 --> 00:01:32,550
+Como é que eu posso adicionar remover da lista saber se algo está ou não estar presente na lista.
+
+18
+00:01:32,550 --> 00:01:38,940
+Tudo isso será coberto com esse caso tem como pretensão são os completa então isso vai sim abordar temas
+
+19
+00:01:38,940 --> 00:01:43,200
+mais avançados como é o caso do Excel hippie que surgiu a partir do Java 8 7.
+
+20
+00:01:43,200 --> 00:01:48,320
+Então fico por aqui na próxima a vai começar a entender um pouquinho na teoria e vamos ter vários exercícios
+
+21
+00:01:48,340 --> 00:01:50,590
+desafios nesse capítulo desperta aproximá proximal.

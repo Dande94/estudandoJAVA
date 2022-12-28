@@ -1,0 +1,715 @@
+1
+00:00:00,420 --> 00:00:07,080
+Agora nós vamos criar um outro exercício que vai ser o relacionamento para muitos e nós vamos criar
+
+2
+00:00:07,080 --> 00:00:11,350
+um relacionamento no novo pacote dentro de um modelo.
+
+3
+00:00:11,370 --> 00:00:19,920
+Eu vou criar aqui uma nova classe e nós vamos criar a classe pedido e eu vou colocar aqui um modelo
+
+4
+00:00:21,060 --> 00:00:30,610
+para muitos e nós vamos criar dentro desse mesmo pacote outra classe que eu vou chamar aqui e tenho
+
+5
+00:00:31,400 --> 00:00:38,110
+pedido falhava na relação que existe entre o pedido e tem pedido vou criar dentro de pedido.
+
+6
+00:00:38,180 --> 00:00:40,660
+Basicamente só dois atributos pra simplificar.
+
+7
+00:00:40,660 --> 00:00:43,640
+Num primeiro momento pois a gente fala da relação bidirecional.
+
+8
+00:00:43,770 --> 00:00:47,060
+Vou criar aqui um atributo Long.
+
+9
+00:00:47,150 --> 00:00:51,870
+Aí eu vou criar um outro atributo também privado.
+
+10
+00:00:52,160 --> 00:00:57,460
+Deite 6 de água e deite num balde Java puta SQL.
+
+11
+00:00:57,490 --> 00:01:01,010
+E pra colocar sempre esse importe em relação à data e Jabuti.
+
+12
+00:01:01,010 --> 00:01:16,160
+Deixe eu colocar data vou geral os métodos datas certas vou colocar aqui vou gerar o construtor padrão
+
+13
+00:01:16,940 --> 00:01:22,650
+e vou gerar um outro construtor que vai ser o construtor que vai receber o mandato.
+
+14
+00:01:22,650 --> 00:01:28,640
+Então estou usando fios selecionar a data para já passa a data momento da construção.
+
+15
+00:01:28,640 --> 00:01:29,660
+Pronto.
+
+16
+00:01:29,660 --> 00:01:36,860
+Uma vez feito isso eu criei o objeto eu vou já vou criar logo um item de pedido também o item de pedido
+
+17
+00:01:36,860 --> 00:01:40,540
+vai ter o mesmo atributo aí Long.
+
+18
+00:01:41,150 --> 00:01:50,210
+O item de pedido ele vai ter uma relação tanto com o pedido como também vai ter uma relação com o produto
+
+19
+00:01:50,210 --> 00:01:52,610
+certo então nós vamos criar esse relacionamento.
+
+20
+00:01:52,620 --> 00:02:00,520
+Então eu vou ter que comprar algo além do pedido tenho aí o pedido também vai ter um outro atributo
+
+21
+00:02:00,520 --> 00:02:01,820
+que vai ser a quantidade.
+
+22
+00:02:01,830 --> 00:02:09,310
+Posso colocar aqui quantidade por exemplo certo posso colocar em jogo e interagir tanto faz.
+
+23
+00:02:09,470 --> 00:02:11,930
+A quantidade pode ser zero por padrão.
+
+24
+00:02:12,110 --> 00:02:17,270
+Não necessariamente precisaria ser nula e eu preciso também ter o preço.
+
+25
+00:02:17,750 --> 00:02:20,770
+O preço eu vou colocar como sendo da.
+
+26
+00:02:20,800 --> 00:02:25,550
+Tá bom pra eu detectar se vai anulou anulou não ou seja vai ter aceitado ou não.
+
+27
+00:02:25,550 --> 00:02:31,550
+Para isso além de ter individualmente o preço quero que o item de pedido vai ter um preço já que o produto
+
+28
+00:02:31,550 --> 00:02:37,770
+tem um preço porque eventualmente o preço do produto pode ir variando com o tempo mais um compra que
+
+29
+00:02:37,800 --> 00:02:43,580
+foi feita no ano passado foi praticado um determinado preço para aquele produto então o produto tem
+
+30
+00:02:43,580 --> 00:02:48,740
+um preço que é exatamente o preço daquele momento mas sempre que for feito uma venda não é um pedido
+
+31
+00:02:48,740 --> 00:02:56,750
+de compra lá ao ainda não sei exatamente o que fatura mas o fato é que o preço foi praticado naquele
+
+32
+00:02:56,750 --> 00:02:57,160
+momento.
+
+33
+00:02:57,170 --> 00:03:02,960
+Então a gente vai ter também um atributo para isso além de ter o próprio com a quantidade de itens de
+
+34
+00:03:02,960 --> 00:03:04,570
+determinado produto e o preço.
+
+35
+00:03:04,910 --> 00:03:13,880
+Eu vou ter uma relação aqui com pedido então vou criar entraves ou seja aqui eu tenho uma relação de
+
+36
+00:03:14,320 --> 00:03:15,220
+um para muitos.
+
+37
+00:03:15,220 --> 00:03:23,210
+Na verdade eu tenho muitos itens de pedido pra pedido então nesse caso vou usar uma anotação chamada
+
+38
+00:03:23,330 --> 00:03:25,190
+Mini Chuva.
+
+39
+00:03:25,580 --> 00:03:34,060
+Então a ideia é muitos itens de pedido está pra pedir certo então Mini é do lado da classe que você
+
+40
+00:03:34,070 --> 00:03:37,830
+está anotando e jogar do lado do pedido.
+
+41
+00:03:37,830 --> 00:03:43,780
+Então ministro Ah eu também vou ter uma relação com o produto a gente já criou o produto.
+
+42
+00:03:43,940 --> 00:03:50,480
+No exercício básico o produto da gente é bem simples tem dito tem o nome do produto tendo para isso
+
+43
+00:03:50,840 --> 00:03:58,640
+então vou aproveitar e usar esse produto aqui também pra estabelecer uma relação com essa entidade que
+
+44
+00:03:58,640 --> 00:03:59,210
+eu vou criar.
+
+45
+00:03:59,270 --> 00:04:05,730
+Então aqui eu vou criar um outro atributo privado que vai ter uma relação com um produto.
+
+46
+00:04:06,200 --> 00:04:14,990
+Então chamar aquele produto e colocá lo jogar é aquilo que nós temos é um item de pedido né.
+
+47
+00:04:15,020 --> 00:04:21,590
+Na verdade um pedido pode ter muitos itens de pedido e um produto também pode estar relacionado a muitos
+
+48
+00:04:21,650 --> 00:04:27,920
+itens de pedido mais um item de pedido obrigatoriamente está relacionado apenas um único pedido e também
+
+49
+00:04:28,130 --> 00:04:32,080
+um item de pedido está relacionado apenas a um único produto.
+
+50
+00:04:32,240 --> 00:04:38,030
+O fato de eu ter o preço duplicado aqui exatamente pelo que eu falei pra vocês na época é o preço que
+
+51
+00:04:38,030 --> 00:04:43,580
+foi praticado naquela venda tem que ser registrado porque o preço do produto vai variando com o tempo
+
+52
+00:04:43,590 --> 00:04:46,020
+para automóveis definindo esses atributos.
+
+53
+00:04:46,010 --> 00:04:56,350
+Eu vou fazer o seguinte eu vou criar aqui um metro os metros quietas setas vou selecionar todos os salários
+
+54
+00:04:57,770 --> 00:05:01,060
+e vou gerar 15 metros de °13 setas.
+
+55
+00:05:01,070 --> 00:05:13,240
+Eu vou criar aqui o construtor pediram custou padrão e vou criar aqui um outro construtor estou usando
+
+56
+00:05:13,310 --> 00:05:18,200
+filmes que vai selecionar que menos vai di vai receber o pedido.
+
+57
+00:05:18,200 --> 00:05:21,830
+Produto a quantidade e o preço.
+
+58
+00:05:21,830 --> 00:05:28,760
+Na verdade eu até poderia não necessariamente precisar receber o preço e o preço eu poderia pegar o
+
+59
+00:05:28,760 --> 00:05:37,510
+produto pode ser uma alternativa então posso fazer alguma coisa do tipo sei lá cheguei aqui em vez de
+
+60
+00:05:37,520 --> 00:05:45,850
+chamar isso aqui eu vou chamar os métodos 7 então vai ser o seguinte o chamado sétimo fedido vai receber
+
+61
+00:05:45,860 --> 00:05:54,230
+o pedido em vez de chamar o produto ou chamar o sétimo produto que vai receber o produto que eu recebi
+
+62
+00:05:54,230 --> 00:05:55,280
+como parâmetro.
+
+63
+00:05:55,300 --> 00:06:01,640
+Finalmente em 7 quantidade céticos quantidade vai receber a quantidade.
+
+64
+00:06:01,640 --> 00:06:06,270
+Lá no site do produto eu posso fazer aqui uma verificação que é o seguinte.
+
+65
+00:06:06,320 --> 00:06:14,590
+No momento que eu tal produto eu posso verificar se o produto que foi acertado foi diferente de novo
+
+66
+00:06:15,140 --> 00:06:29,570
+e o 10 conto o preço desse ponto pra isso for igual a nulo ou seja o preço está nulo e o produto que
+
+67
+00:06:29,570 --> 00:06:32,550
+eu recebi como parâmetro aqui farei firula.
+
+68
+00:06:32,870 --> 00:06:39,690
+Eu também posso verificar se o preço do produto é nulo também ou seja produto.
+
+69
+00:06:39,700 --> 00:06:43,040
+Na verdade não faz diferença a cidade de Natal ou deixar só isso.
+
+70
+00:06:43,040 --> 00:06:48,880
+Se o preço for nulo ou seja não foi citado ainda e o produtor de farinha de nulo eu posso pagar R$10
+
+71
+00:06:49,680 --> 00:06:50,810
+7.
+
+72
+00:06:51,160 --> 00:06:57,890
+Para isso recebe um produto pronto para isso.
+
+73
+00:06:58,040 --> 00:07:03,870
+Ou seja por padrão ele já vai afetar o preço do produto no preço do item de pedido no momento que eu
+
+74
+00:07:03,870 --> 00:07:04,880
+sei separar o produto.
+
+75
+00:07:04,880 --> 00:07:08,470
+Então não precisaria me preocupar interceptar o preço do produto.
+
+76
+00:07:08,480 --> 00:07:13,860
+Basta ter o produto que ele vai fazer isso automaticamente a partir do Metro seja produto.
+
+77
+00:07:13,880 --> 00:07:18,620
+Aí acaba simplificando um pouco a lógica não preciso me preocupar em fazer isso.
+
+78
+00:07:18,630 --> 00:07:27,320
+Então para definir aqui a classe começa a colocar alguns anotei vou colocar aqui ou a roubar aí vou
+
+79
+00:07:27,320 --> 00:07:38,450
+colocar aqui a Generali Tech velha que vai pegar que a estratégia Identity Identidade com relação a
+
+80
+00:07:38,860 --> 00:07:46,370
+pedido o João ok menos quantidade não precisa mapear vai ser mapeada pelo banco de dados está faltando
+
+81
+00:07:46,370 --> 00:07:49,770
+aqui colocá la em ti.
+
+82
+00:07:49,940 --> 00:07:55,400
+Você está colocar mexer no nome da tabela mas não necessariamente precisa me preocupar com isso.
+
+83
+00:07:55,520 --> 00:08:02,000
+E vou também anotar essa classe então aqui eu vou colocar a TIM.
+
+84
+00:08:02,090 --> 00:08:12,210
+Vou colocá la Malga Di Paula genérica de velha estratégia e pronto.
+
+85
+00:08:12,230 --> 00:08:17,800
+Não preciso mapear a data tá faltando agora a gente declarar esses essas duas classes dentro do persistem
+
+86
+00:08:17,810 --> 00:08:30,500
+esse XML então aqui vou criar pra muitos o nome vai ser incrível ou duplicar e o outro nome esse item
+
+87
+00:08:30,670 --> 00:08:38,340
+pedidos salvo os dois não tenho mais eles aqui no ponto de vista de mapeamento pedido ou quem tem pedido
+
+88
+00:08:38,660 --> 00:08:44,000
+ok também até um pedido tem um produto e a quantidade tem um preço e o resto está mapeado e eu estou
+
+89
+00:08:44,000 --> 00:08:48,650
+garantindo que o preço vai ser acertado quando o produto fosse atacado que eu posso colocar algumas
+
+90
+00:08:48,650 --> 00:08:49,490
+obrigatoriedade.
+
+91
+00:08:49,490 --> 00:09:03,920
+Por exemplo a Coca Cola então no bolo falso não aceito o valor do bolo e colam uma coisa é falsa também
+
+92
+00:09:03,920 --> 00:09:08,460
+vou colocar isso em relação à data do pedido.
+
+93
+00:09:08,640 --> 00:09:14,490
+O a troca obrigatória então já é uma validação a menos que eu precise me preocupar com coisas senão
+
+94
+00:09:14,510 --> 00:09:16,820
+informar e gerar um erro no banco de dados.
+
+95
+00:09:17,120 --> 00:09:20,540
+Então você tem que tratar essas informações para persistir os dados.
+
+96
+00:09:20,660 --> 00:09:34,070
+Então pra gente testar eu vou criar aqui um pacote chamado teste pra colocar um ponto pra muitos aqui
+
+97
+00:09:34,070 --> 00:09:39,650
+dentro eu vou criar uma classe que vai testar então vou criar aqui uma classe chamada Novo pedigree
+
+98
+00:09:39,660 --> 00:09:49,000
+então a classe novo pedido nesse caso pra simplificar eu já vou criar.
+
+99
+00:09:49,040 --> 00:09:54,200
+Na verdade vou criar um novo produto ou criar um novo item de pedido vou criar um novo pedido e vou
+
+100
+00:09:54,200 --> 00:09:55,190
+persistir tudo.
+
+101
+00:09:55,280 --> 00:10:01,880
+Então eu não vou fazer nenhuma consulta então vou criar Qingdao pra Object porque ele era simplesmente
+
+102
+00:10:01,880 --> 00:10:09,400
+também não passar o genérico não será um caminho tão forte que recebe mil.
+
+103
+00:10:10,270 --> 00:10:12,990
+Vou tirar aqui eu vou criar.
+
+104
+00:10:13,000 --> 00:10:19,480
+Primeiro vou criar um produto então produto que a gente tem uma classe que está lá não.
+
+105
+00:10:19,490 --> 00:10:25,650
+O modelo básico que criou algumas aulas atuais um produto recebe o produto.
+
+106
+00:10:25,660 --> 00:10:35,600
+Vou passar aqui o produto e o construtor recebe nome pra isso vou colocar aqui por exemplo Vieira falou
+
+107
+00:10:35,680 --> 00:10:42,090
+S2 1789 ponto 99 maximizar aqui outro vigor.
+
+108
+00:10:42,220 --> 00:10:53,910
+Vou criar um pedido o craque pedira pedido eu recebe pedido que passe apenas a data atual.
+
+109
+00:10:53,980 --> 00:11:03,120
+Na verdade aqui no pedido eu poderia inclusive nesse constou aqui chamar o outro que estou passando
+
+110
+00:11:03,390 --> 00:11:04,170
+eu deixo.
+
+111
+00:11:04,200 --> 00:11:09,280
+Ou seja ele usaria a data atual de tal forma que eu não preciso me preocupar em passar a data atual
+
+112
+00:11:09,280 --> 00:11:14,080
+com o que eu já estou usando no consultor então vou simplesmente criar um pedido que já vai colocar
+
+113
+00:11:14,080 --> 00:11:23,680
+o valor padrão na data e tá faltando agora eu criar o item de pedido então o item de pedido é perdida.
+
+114
+00:11:23,680 --> 00:11:31,350
+Na verdade aqui só de item recebe o item perdido.
+
+115
+00:11:31,400 --> 00:11:37,900
+Ele vai receber um pedido um produto e eu vou passar também a quantidade desse produto que eu quero
+
+116
+00:11:37,900 --> 00:11:38,550
+comprar.
+
+117
+00:11:38,580 --> 00:11:45,040
+Eu quero comprar dez geladeiras tem uma grande empresa quero colocar uma geladeira em cada filial pronto
+
+118
+00:11:45,080 --> 00:11:52,390
+criou os três e agora quer que eu vou fazer e eu vou chamar o Verdao e vou usar aquela estratégia ok.
+
+119
+00:11:52,660 --> 00:11:55,330
+Abri a transação.
+
+120
+00:11:55,480 --> 00:11:59,490
+Depois segundo passo eu vou incluir que eu preciso inclui primeiro.
+
+121
+00:11:59,870 --> 00:12:08,500
+Então vou incluir primeiro o produto depois que inclui o produto eu vou incluir o pedido já que o item
+
+122
+00:12:08,500 --> 00:12:10,330
+está relacionado ao pedido.
+
+123
+00:12:10,980 --> 00:12:18,600
+E finalmente eu vou incluir inclui o item perdido na verdade só item.
+
+124
+00:12:19,000 --> 00:12:29,160
+E finalmente eu vou fechar a transação e vou fechar o meu Deus deixou o último fechar.
+
+125
+00:12:29,210 --> 00:12:30,190
+Ponto e vírgula.
+
+126
+00:12:30,220 --> 00:12:36,670
+Agora eu tenho um Dell que você coloca aqui sempre ficava distraído pra abrir a transação inclui o produto
+
+127
+00:12:36,670 --> 00:12:40,460
+pedido e tem que fechar a transação e fechar a conexão.
+
+128
+00:12:40,570 --> 00:12:44,430
+Ou seja Acabei de fechar aqui em Minas Gerais uma vez que eu fechei.
+
+129
+00:12:44,440 --> 00:12:49,430
+Não consigo mais a e novamente pronto para algo com isso a gente pode testar agora para algo meu resultado.
+
+130
+00:12:49,960 --> 00:12:56,680
+Ele vai criar o nosso modelo então aqui antes ele mostrou o que foi que ele fez em relação à parte dele
+
+131
+00:12:56,680 --> 00:13:01,380
+ou criou uma tabela item pedido criou a tabela pedido.
+
+132
+00:13:01,420 --> 00:13:02,880
+Depois fez alteração.
+
+133
+00:13:02,880 --> 00:13:10,420
+Aí tem pedido para colocar uma Constran relacionado a Chaves e depois colocou aqui outra alteração para
+
+134
+00:13:10,420 --> 00:13:11,980
+relacionar com a chave de produto.
+
+135
+00:13:11,980 --> 00:13:18,670
+No final ele inseriu um produto e inseriu um pedido e finalmente inseriu o item de pedido.
+
+136
+00:13:18,670 --> 00:13:20,320
+Tudo dentro de uma única transação.
+
+137
+00:13:20,410 --> 00:13:25,490
+Obviamente a parte dele acontece antes desse processo aqui.
+
+138
+00:13:25,540 --> 00:13:29,620
+Sempre que você cria um Dell ele cria o engenheiro ele vai continuar.
+
+139
+00:13:29,710 --> 00:13:35,140
+De fato ele vai ver se tem alguma mudança no mapeamento e ele vai lá e faz as alterações mas depois
+
+140
+00:13:35,140 --> 00:13:37,890
+que ele fez ele fez esse processo.
+
+141
+00:13:37,950 --> 00:13:38,810
+A única transação.
+
+142
+00:13:38,810 --> 00:13:49,940
+Então se a gente olhar aqui eu vou colocar Salete asterisco asterisco from TI tem pedido.
+
+143
+00:13:50,640 --> 00:13:57,460
+Nós temos o item de pedido com a impressão que foi praticado naquele momento eu posso até mudar o preço
+
+144
+00:13:57,460 --> 00:13:59,910
+do produto esse valor vai continuar aqui.
+
+145
+00:13:59,920 --> 00:14:05,320
+Quantidade desse item naquele pedido 10 o pedido de pedido.
+
+146
+00:14:05,320 --> 00:14:09,770
+4 E esse item de pedido está relacionado com o produto.
+
+147
+00:14:09,790 --> 00:14:16,360
+4 Então se a descrição mudar o produto não tem problema você pode escolher um com a questão ou outro
+
+148
+00:14:16,720 --> 00:14:19,780
+nome na descrição ou mesmo nas características do produto.
+
+149
+00:14:19,780 --> 00:14:24,910
+Você pode ter alguma alteração e ainda assim você tem a capacidade de ter essas informações do produto
+
+150
+00:14:24,910 --> 00:14:25,730
+a partir do dia.
+
+151
+00:14:25,780 --> 00:14:31,750
+Mas o preço como é algo que foi praticado naquele momento quarta na Black Fraude pode estar na promoção
+
+152
+00:14:31,750 --> 00:14:36,970
+de Natal ou alguma coisa como a queima de estoque específico você paga um preço menor do que normalmente
+
+153
+00:14:37,330 --> 00:14:44,050
+o preço é por isso que é importante dentro do item de pedido também tem o preço e a gente também cadastrou
+
+154
+00:14:44,440 --> 00:14:49,510
+um produto então selecionado de cima da tabela do produto.
+
+155
+00:14:49,570 --> 00:15:01,530
+Acho que na verdade não lembro o nome da tabela de olhava tinha produtos olha aqui produto exercício
+
+156
+00:15:01,540 --> 00:15:09,920
+JP o modelo básico o nome da favela produtos no coral entram produtos está aqui os nossos produtos inclusive
+
+157
+00:15:09,920 --> 00:15:11,890
+a geladeira foi incluída.
+
+158
+00:15:11,960 --> 00:15:17,200
+E finalmente nós temos o Selahattin asterisco farol fedido.
+
+159
+00:15:17,210 --> 00:15:24,980
+Nós temos apenas um único pedido com a data de hoje 19 e em 16 do 11 2009 às 4 horas.
+
+160
+00:15:25,000 --> 00:15:26,670
+Tal foi feito um pedido.
+
+161
+00:15:26,690 --> 00:15:28,720
+Claro que aqui queria outras informações.
+
+162
+00:15:28,720 --> 00:15:36,950
+Quem foi o cliente que fez esse pedido e sei lá foi pago com a forma de pagamento e outros detalhes
+
+163
+00:15:36,980 --> 00:15:42,470
+mas que não faz tanto sentido eu estava achando um desses assim se o básico de relacionamento para muitos.
+
+164
+00:15:42,500 --> 00:15:48,570
+Até agora a gente criou esse relacionamento apenas do ponto de vista unidirecional né.
+
+165
+00:15:48,560 --> 00:15:54,680
+A gente tem que o item de pedido que é exatamente a tabela que tem essa informação do pedido.
+
+166
+00:15:54,920 --> 00:16:00,140
+Ele tem na verdade um criador de relacionamentos direcionais em relação a item de pedido para o produto
+
+167
+00:16:00,650 --> 00:16:03,300
+e outro de pedido pra item de pedido.
+
+168
+00:16:03,300 --> 00:16:09,620
+Você tem pedido para o pedido e tem inibido vir para o produto e do ponto de vista de item de pedido
+
+169
+00:16:09,620 --> 00:16:16,010
+para o produto não faz muito sentido você criar uma relação bidirecional porque Pokémon pouquíssimo
+
+170
+00:16:16,010 --> 00:16:20,270
+provável que no seu negócio você queira a partir do produto.
+
+171
+00:16:20,270 --> 00:16:25,070
+Saber quais são todos os itens de pedidos que estão relacionados aquele produto.
+
+172
+00:16:25,130 --> 00:16:31,500
+Essa é uma pergunta que provavelmente você não vai precisar responder no seu sistema já acessar os itens
+
+173
+00:16:31,500 --> 00:16:39,200
+de um pedido é algo extremamente importante e aí sim cabe uma relação bidirecional de forma mais digamos
+
+174
+00:16:39,200 --> 00:16:40,100
+assim embasada.
+
+175
+00:16:40,110 --> 00:16:40,530
+Por quê.
+
+176
+00:16:40,560 --> 00:16:47,040
+Porque vai ser muito comum que a partir do pedido você precise acessar a lista dos itens pedidos.
+
+177
+00:16:47,160 --> 00:16:51,440
+E é exatamente o que eu vou fazer na próxima aula criar uma relação bidirecional.
+
+178
+00:16:51,440 --> 00:16:58,070
+Para muitos a gente já criou a relação unidirecional na anotação mini Jump e agora nós vamos criar a
+
+179
+00:16:58,070 --> 00:17:05,580
+segunda parte e parte bidirecional da relação usando a anotação na próxima aula nos fazer isso e disparou.

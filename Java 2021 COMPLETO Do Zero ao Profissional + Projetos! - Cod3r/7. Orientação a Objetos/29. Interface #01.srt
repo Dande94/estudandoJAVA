@@ -1,0 +1,819 @@
+1
+00:00:00,190 --> 00:00:05,420
+Pessoal existe um conceito dentro do Java que é o conceito de interface.
+
+2
+00:00:05,430 --> 00:00:11,040
+Nesse capítulo a gente continuou usando o conceito de classe A gente cria novas classes a partir das
+
+3
+00:00:11,040 --> 00:00:18,270
+classes vocês criam os objetos nós usamos nessa aula o conceito de mostrar pra vocês rapidamente.
+
+4
+00:00:18,270 --> 00:00:25,280
+Só mencionei o conceito de Another Tech a gente viu no texto quando a um sobre escrita você pega nas
+
+5
+00:00:25,320 --> 00:00:31,110
+possibilidades você pode usar a Motegi 1 para validar quem realmente você está sobre escrevendo o método.
+
+6
+00:00:31,140 --> 00:00:36,960
+Essa maltês foi criada pelo Java e eu vou mostrar pra vocês agora o uso de interface.
+
+7
+00:00:37,340 --> 00:00:43,440
+Eu vou colocar aqui dentro do nosso exercício de herança na parte do desafio nós criamos aqui um carrão
+
+8
+00:00:43,480 --> 00:00:44,880
+cívicos uma Ferrari.
+
+9
+00:00:45,250 --> 00:00:48,270
+Eu vou mostrar para vocês o uso de Interface Interface.
+
+10
+00:00:48,690 --> 00:00:51,510
+Você clique com o botão direito nova.
+
+11
+00:00:51,780 --> 00:00:57,320
+Você vai criar aqui uma interface certo e você vai dar um nome pra essa interface por exemplo.
+
+12
+00:00:57,330 --> 00:01:05,070
+Vou chamar de esportivo o esportivo vai ser uma interface e vendo a interface é mais ou menos a mesma
+
+13
+00:01:05,070 --> 00:01:07,640
+estrutura de um clássico você tem que publique.
+
+14
+00:01:07,740 --> 00:01:11,160
+Só que substitui o nome de classe por interface.
+
+15
+00:01:11,160 --> 00:01:13,590
+Em relação ao nome do arquivo não tem problema.
+
+16
+00:01:13,590 --> 00:01:17,780
+Se eu substituísse aqui por classe e salvá la não tem nenhum problema.
+
+17
+00:01:18,030 --> 00:01:21,800
+Eu posso criar uma classe depois mudar para a interface que eu posso chamar.
+
+18
+00:01:21,950 --> 00:01:24,330
+Interface também sem problema nenhum.
+
+19
+00:01:24,330 --> 00:01:26,170
+Ou seja passa a ser uma interface.
+
+20
+00:01:26,280 --> 00:01:30,850
+Então qual é a diferença por exemplo de uma interface ou interface.
+
+21
+00:01:31,350 --> 00:01:33,210
+Ela vai ter métodos.
+
+22
+00:01:33,230 --> 00:01:36,040
+Esses métodos não podem ter corpo.
+
+23
+00:01:36,240 --> 00:01:42,380
+Ou seja uma interface define apenas a necessidade de você implementar algo.
+
+24
+00:01:42,500 --> 00:01:45,810
+Quando a classe ela herda de uma interface.
+
+25
+00:01:46,140 --> 00:01:53,830
+Então assim como a classe pode herdar de outra classe essa relação é sempre uma classe média de apenas
+
+26
+00:01:53,830 --> 00:02:00,810
+uma única classe e uma classe pode ter múltiplas subclasses mais uma classe só podia dar de uma classe
+
+27
+00:02:01,290 --> 00:02:05,510
+uma classe em relação à interface pode ajudar de múltiplas interfaces.
+
+28
+00:02:05,520 --> 00:02:12,630
+Então por exemplo vamos supor que eu vá definir dentro de esportivo um método chamado ligar Turbo.
+
+29
+00:02:12,960 --> 00:02:22,620
+Então vou colocar aqui pode até um metro chamado ligar Turbo e vou definir também que dentro da interface
+
+30
+00:02:22,980 --> 00:02:27,990
+eu vou ter um outro método chamado desligar Turbo.
+
+31
+00:02:28,560 --> 00:02:37,020
+Então uma vez que você tem um método a classe que é herdada essa interface estará rodando a obrigação
+
+32
+00:02:37,020 --> 00:02:39,150
+de implementar esse método.
+
+33
+00:02:39,150 --> 00:02:41,420
+Eu não sei como implementar esse método.
+
+34
+00:02:41,410 --> 00:02:41,700
+Por quê.
+
+35
+00:02:41,700 --> 00:02:46,260
+Por exemplo se eu colocar ligar Turbo na Ferrari ele vai se comportar de uma forma.
+
+36
+00:02:46,350 --> 00:02:51,070
+Se eu colocar o lagarto em um Bugatti ele vai se comportar de uma forma diferente.
+
+37
+00:02:51,070 --> 00:02:57,890
+Eventualmente eu quero decidir que uma determinada coisa tem um comportamento mas eu não sei como implementá
+
+38
+00:02:57,890 --> 00:02:58,390
+la.
+
+39
+00:02:58,620 --> 00:03:04,830
+Nesse cenário você pode usar a interface interface pode servir para você defini que algo tem aquele
+
+40
+00:03:04,830 --> 00:03:11,340
+metro mas você não tem ainda como implementar porque algo que você vai implementar especificamente em
+
+41
+00:03:11,340 --> 00:03:17,300
+cada uma das classes uma vez que eu digo que um determinado carro ele herda de uma determinada interface
+
+42
+00:03:17,310 --> 00:03:20,820
+o que eu vou ganhar na verdade é uma obrigação para implementar.
+
+43
+00:03:20,820 --> 00:03:25,030
+Não entendo a obrigação nesse sentido como algo ruim.
+
+44
+00:03:25,120 --> 00:03:32,190
+Entenda como você vai precisar digamos assim obedecer determinados padrões ou obedecer determinados
+
+45
+00:03:32,190 --> 00:03:32,820
+métodos.
+
+46
+00:03:33,180 --> 00:03:40,170
+Então uma vez que eu digo que Ferrari ele herda nessa interface nós vamos usar uma palavra diferente
+
+47
+00:03:40,200 --> 00:03:46,860
+que vai ser a palavra amplamente amplamente usada quando você quer dizer que uma determinada classe
+
+48
+00:03:47,010 --> 00:03:48,950
+implementa uma interface.
+
+49
+00:03:49,320 --> 00:03:50,860
+Ou seja uma classe.
+
+50
+00:03:50,910 --> 00:03:56,740
+Ela vai implementá lo vai definir todos os métodos que foram definidos na interface.
+
+51
+00:03:57,000 --> 00:04:03,750
+Então vou lá colocar aqui pra ser esportivo e uma vez que eu defino que essa classe vai ter que implementá
+
+52
+00:04:03,750 --> 00:04:07,240
+los metros de esporte você vai perceber que aqui vai estar ou não um problema.
+
+53
+00:04:07,500 --> 00:04:12,300
+Então você percebe que agora está bem melhor não aqui porque está gerando o que é isso.
+
+54
+00:04:12,300 --> 00:04:17,820
+Se você colocar o cursor do mouse em cima e esperar um pouquinho você vai ver que tem dois problemas
+
+55
+00:04:17,820 --> 00:04:25,350
+acontecendo e o problema é porque a Ferrari deve implementar o metro ou seja deve escreveu Metro que
+
+56
+00:04:25,350 --> 00:04:28,730
+foram definidos dentro da interface esportivo.
+
+57
+00:04:29,040 --> 00:04:33,450
+Então pra fazer isso eu posso colocar aqui ou ligar Turbo.
+
+58
+00:04:33,540 --> 00:04:38,850
+Posso tirar esse comentário que você já implementar e tem que também implementar um método desligar
+
+59
+00:04:38,850 --> 00:04:39,350
+Turbo.
+
+60
+00:04:39,350 --> 00:04:46,570
+Eu posso colocar só o começo do método usar o como completo para ele implementar o metro no método público.
+
+61
+00:04:46,620 --> 00:04:50,010
+Por padrão certa vou já voltar para esse tema com vocês.
+
+62
+00:04:50,160 --> 00:04:52,170
+Então o que é que eu posso fazer aqui.
+
+63
+00:04:52,170 --> 00:04:56,010
+Eu acabei deixando o Delta 350 que nem era pra ser.
+
+64
+00:04:56,020 --> 00:05:02,810
+Acabei esquecendo de apagar então por padrão Delta básico sem ligar o tubo eu vou colocar o Delta pra
+
+65
+00:05:02,830 --> 00:05:09,600
+135 ou seja ele vai acelerar de forma mais rápida ainda e se desligar o tubo o Delta volta se quiser.
+
+66
+00:05:10,010 --> 00:05:15,920
+Então vou usar o ligar e desligar tudo pra mexer no delta seja ele vai acelerar mais rápido ou mais
+
+67
+00:05:15,920 --> 00:05:16,340
+lento.
+
+68
+00:05:16,340 --> 00:05:20,530
+Então para a gente testar isso nós temos o nosso teste carro.
+
+69
+00:05:20,610 --> 00:05:26,360
+Se eu procurar aqui nós temos o nosso teste carro carro teste melhor dizendo.
+
+70
+00:05:26,600 --> 00:05:36,190
+No caso da Ferrari se estar aqui temos a velocidade da Ferrari essa parte final 10 20 e 35.
+
+71
+00:05:36,290 --> 00:05:39,740
+Nós criamos a Ferrari já que Ferrari era o tipo esportivo.
+
+72
+00:05:39,740 --> 00:05:42,750
+Vou tentar ligar o tubo só que existe uma questão importante.
+
+73
+00:05:43,370 --> 00:05:50,440
+Eu criei o tipo da variável como sendo o carro então se eu fizesse 2 ponto ligar tudo.
+
+74
+00:05:50,450 --> 00:05:52,670
+Eu não vou ter acesso a esse método.
+
+75
+00:05:52,710 --> 00:05:53,390
+Sabe por quê.
+
+76
+00:05:53,390 --> 00:05:55,640
+Porque dentro de carro não tenho esse método.
+
+77
+00:05:56,060 --> 00:06:01,190
+Então se eu quero ligar o tubo ou eu vou colocar isso pra ser um esportivo.
+
+78
+00:06:01,220 --> 00:06:03,860
+Mas aí se eu colocar esportivo perdeu acelerar.
+
+79
+00:06:04,250 --> 00:06:08,670
+Ou então de forma mais específica vou transformar isso para ser uma Ferrari.
+
+80
+00:06:08,690 --> 00:06:12,800
+Agora sim eu tenho um método ligar Turbo e ligar o turbo.
+
+81
+00:06:12,800 --> 00:06:18,550
+Eu tenho a possibilidade de acelerar mais rápido ou seja 30 60 95 porque ele não Turbo.
+
+82
+00:06:18,590 --> 00:06:22,490
+Eu tenho um delta maior e o carro acelera mais rápido certo.
+
+83
+00:06:22,760 --> 00:06:28,760
+Você pode tanto ligar como desligar o tubo porque agora a Ferrari implementa um carro esportivo.
+
+84
+00:06:28,940 --> 00:06:35,900
+Mas eu falei pra vocês que se você quiser criar uma outra interface ou até o que está faltando algo
+
+85
+00:06:35,900 --> 00:06:42,350
+que eu importei carro eu não estou usando então vou colocar o Civic pra usar o carro.
+
+86
+00:06:42,570 --> 00:06:44,570
+Então será que eu estou usando o tipo mais genérico.
+
+87
+00:06:44,570 --> 00:06:51,380
+No caso de Arthur Zanetti mais expressivo se eu criar aqui ou um outro ou outra interface chamada que
+
+88
+00:06:51,410 --> 00:06:55,400
+luxo certo ou seja o que seria um carro de luxo.
+
+89
+00:06:55,400 --> 00:07:02,270
+E aí eu posso dizer que todo carro de luxo ele vai ter outros dois metros que ao ligar ar condicionado
+
+90
+00:07:02,650 --> 00:07:08,170
+e tem um método vai desligar o ar condicionado.
+
+91
+00:07:08,180 --> 00:07:13,160
+Eu posso dizer por exemplo que a Ferrari também é um carro que implementa um carro de luxo.
+
+92
+00:07:13,150 --> 00:07:20,480
+Ou seja eu posso colocar aqui o outro a interface e o virgula luxo de tal forma que Ferrari agora vai
+
+93
+00:07:20,480 --> 00:07:22,520
+ter que implementar mais outros dois metros.
+
+94
+00:07:22,520 --> 00:07:23,120
+Por quê.
+
+95
+00:07:23,150 --> 00:07:29,030
+Porque a Ferrari é uma classe e essa classe precisa implementar os métodos que estão definidos dentro
+
+96
+00:07:29,030 --> 00:07:30,050
+de uma interface.
+
+97
+00:07:30,470 --> 00:07:37,390
+Eu vou falar ainda de um conceito e outra aula não sei se aproximaram um conceito chamado classe abstrata.
+
+98
+00:07:37,500 --> 00:07:42,770
+Eu vou comentar um pouco mais sobre esse tema com você mas por enquanto a nossa classe Ferrari não é
+
+99
+00:07:42,770 --> 00:07:43,660
+uma classe abstrata.
+
+100
+00:07:43,670 --> 00:07:50,230
+Por isso ela precisa implementar mais esses dois metros e não vou colocar que ela vai ser o método ligar
+
+101
+00:07:50,440 --> 00:07:52,150
+a TV.
+
+102
+00:07:52,310 --> 00:07:56,130
+Nós vamos ter agora um método de desligar.
+
+103
+00:07:56,240 --> 00:08:01,020
+Vou também tirar o comentário pra melhorar um pouco a implementação e ficar mais simples.
+
+104
+00:08:01,040 --> 00:08:07,970
+Eu vou lá dentro de carro eu vou implementar um método em vez de acessar o Delta diretamente ou fazer
+
+105
+00:08:07,970 --> 00:08:08,650
+o seguinte.
+
+106
+00:08:09,090 --> 00:08:16,910
+Eu vou colocar aqui um by para o Delta ficar privado e vou colocar o método jet set aqui ou então vou
+
+107
+00:08:16,920 --> 00:08:27,750
+clicar ou gerar aqui um código pessoas Gatinhas e Seta e vou pedir pra ele gerar o Bad 7 do Delta certo.
+
+108
+00:08:27,750 --> 00:08:29,770
+Isso vai facilitar um pouco a implementação.
+
+109
+00:08:29,770 --> 00:08:35,090
+Vai ficar melhor vocês vão perceber pra gente corrigir os erros eu vou fazer o seguinte jogo dentro
+
+110
+00:08:35,090 --> 00:08:38,320
+de Ferrari eu não tenho mais como acessar o Deus diretamente.
+
+111
+00:08:38,660 --> 00:08:43,710
+Então vou substituir isso por sete Delta pra receber o valor que.
+
+112
+00:08:43,970 --> 00:08:53,310
+Eu vou substituir o sétimo site Delta pra receber o valor 35 e vou receber aqui o 7 Delta pra receber.
+
+113
+00:08:53,320 --> 00:08:58,850
+Também quis então alterar isso deixa eu ver se tem algum outro erro nosso código não tem única classe
+
+114
+00:08:58,850 --> 00:09:03,650
+que estava usando Delta e fora da classe Carro era a Ferrari.
+
+115
+00:09:03,650 --> 00:09:09,220
+Então vou fazer o seguinte ao invés de Setal tal DELTA várias vezes o que pra mim não vai ser tão interessante.
+
+116
+00:09:09,670 --> 00:09:15,470
+Eu vou fazer o seguinte eu vou criar um atributo aqui barulhentos aqui faz parte mas a implementação
+
+117
+00:09:16,210 --> 00:09:24,470
+Bullet e você citar aqui por exemplo ligar Turbo e vou criar aqui um outro.
+
+118
+00:09:24,470 --> 00:09:30,660
+Outra variável mulher que vai se ligar a capital aqui dentro.
+
+119
+00:09:30,680 --> 00:09:34,200
+Eu vou simplesmente ligar tudo ou dentro de ligar Turbo.
+
+120
+00:09:34,210 --> 00:09:39,020
+Eu vou citar isso aqui pra tu dentro de desligar Turbo.
+
+121
+00:09:39,060 --> 00:09:40,760
+Eu vou citar isso aqui pra falso.
+
+122
+00:09:41,720 --> 00:09:53,170
+Então vai receber falso e dentro do legal eu vou fazer o lugar está pra ser verdadeiro cru
+
+123
+00:09:55,790 --> 00:10:02,330
+e finalmente vou colocar aqui um lugar pra ser ou seja definem essas duas variáveis.
+
+124
+00:10:02,390 --> 00:10:03,900
+E aí eu soube escrever.
+
+125
+00:10:03,950 --> 00:10:10,340
+O método foguete Delta é aqui eu vou considerar os vários cenários possíveis por exemplo.
+
+126
+00:10:10,340 --> 00:10:17,360
+Por padrão eu vou retornar ao Delta 15 que é o delta da Ferrari ou seja um delta padrão na Ferrari vai
+
+127
+00:10:17,360 --> 00:10:17,870
+ser o 15.
+
+128
+00:10:18,090 --> 00:10:28,630
+Vou fazer um teste se ele gato tiver ligado e ligar tiver desligado ou seja o caso que você vai ter
+
+129
+00:10:28,630 --> 00:10:30,320
+a maior potência na Ferrari.
+
+130
+00:10:30,550 --> 00:10:39,050
+Ou seja em outubro o ar está desligado então eu vou retornar o valor 35.
+
+131
+00:10:39,110 --> 00:10:47,630
+O segundo cenário que vai ter o maior nível de potência vai ser Deus teve seu legato está ligado e o
+
+132
+00:10:47,630 --> 00:10:55,190
+ar também está ligado nesse caso eu vou retornar 30 sei lá.
+
+133
+00:10:55,880 --> 00:11:04,410
+Então seus erros se não ligou o turbo e não ligou o ar.
+
+134
+00:11:04,730 --> 00:11:14,060
+Eu vou ter aqui o nível por exemplo um litro pra passei 20 e caso contrário ou seja realmente ele tá
+
+135
+00:11:14,060 --> 00:11:20,750
+com tudo desligado e o ar ligado aí sim ele vai voltar ao valor padrão que é o menor nível de potência
+
+136
+00:11:20,750 --> 00:11:21,490
+da Ferrari.
+
+137
+00:11:21,830 --> 00:11:28,160
+Só que eu preciso só garantir que lá dentro de carrão em vez de usar esse valor direto né onde ele está
+
+138
+00:11:28,160 --> 00:11:34,490
+usando o Delta ele usa o GATE Delta que aí sim eu consigo escrever esse valor até aqui dentro.
+
+139
+00:11:34,530 --> 00:11:40,640
+Usar o GATE Delta Gate Delta e no caso da Ferrari sobre escrevi esse valor para os vários níveis de
+
+140
+00:11:40,640 --> 00:11:45,680
+configuração do carro se tudo está ligado se o ar está ligado a ele vai ter mais ou menos potência na
+
+141
+00:11:45,680 --> 00:11:48,320
+hora de acelerar para que tenha ficado claro aí.
+
+142
+00:11:48,380 --> 00:11:56,530
+Basicamente o que eu fiz dentro da Ferrari foi criar 2 duas variáveis booleanas legato ligar esses quatro
+
+143
+00:11:56,540 --> 00:12:02,240
+metros ou ligar Turbo que veio a partir da interface esportivo que eu quero mostrar nesse exercício
+
+144
+00:12:02,640 --> 00:12:10,580
+e os outros 2 metros vieram a partir da interface luxo para exatamente mostrar que uma classe pode implementar
+
+145
+00:12:10,590 --> 00:12:12,990
+o poder de múltiplas interfaces.
+
+146
+00:12:13,340 --> 00:12:20,340
+E como você herda você herda a necessidade ou obrigação de implementar os métodos definidos na interface.
+
+147
+00:12:20,840 --> 00:12:27,810
+Então a gente criou colocou o SO variáveis aqui Bulent Tatto coca neutro ou falso e mente do Delta.
+
+148
+00:12:27,830 --> 00:12:32,780
+Ele vai dizer de acordo com o que tiver acertado na Ferrari se ele vai ter mais ou menos potência como
+
+149
+00:12:32,780 --> 00:12:35,760
+as duas variáveis começam com valores falsos.
+
+150
+00:12:35,820 --> 00:12:40,870
+Aqui foi inicializar de forma implícita mas se você quiser colocar de forma explícita também pode né.
+
+151
+00:12:40,880 --> 00:12:47,760
+Falso falso sei Joaquim Junior comércio desligado tubo também chamada que o Caltech.
+
+152
+00:12:48,050 --> 00:12:51,490
+Você vai ver que o cenário padrão se eu não ligar o turbo.
+
+153
+00:12:51,500 --> 00:12:55,110
+Obviamente o cenário padrão vai ter um delta de 15.
+
+154
+00:12:55,190 --> 00:12:57,590
+Então vai acrescentar de 15 em 15.
+
+155
+00:12:58,430 --> 00:13:04,130
+Então vou comentar que o turbo e executar você vai ver que ele vai aumentar 20.
+
+156
+00:13:04,310 --> 00:13:09,430
+Ele aumenta 20 depois freia assim 5 aumenta 23 5 no final acrescenta 20 por quê.
+
+157
+00:13:09,440 --> 00:13:13,220
+Porque o tubo está desligado mas o app também está desligado.
+
+158
+00:13:13,220 --> 00:13:20,380
+Se eu colocar aqui C2 ponto ligar o ah esse é o cenário que tem o pior desempenho que ele vai só acrescentar
+
+159
+00:13:20,780 --> 00:13:25,460
+o delta com 15 15 depois diminuiu 5 a mesma coisa.
+
+160
+00:13:25,460 --> 00:13:31,660
+E finalmente acrescentou que é mais só ligar o turbo aqui eu já vou ter um ganho se não estou enganado
+
+161
+00:13:31,670 --> 00:13:41,030
+de 30 joguei aqui exatamente como está o tubo ligado a ligado ele vai crescer de 30 em 30 então executando
+
+162
+00:13:41,030 --> 00:13:47,750
+aqui dentro de carro e Fidel deu resultado ele foi de 30 em 30 e depois diminui 5 mais 30 milhões cinco
+
+163
+00:13:47,770 --> 00:13:49,230
+e finalmente 80.
+
+164
+00:13:49,460 --> 00:13:56,240
+é o cenário que tem a maior potência é quando ele tem o desligado eu posso comentar isso eu posso simplesmente
+
+165
+00:13:56,240 --> 00:13:57,110
+chamar C2.
+
+166
+00:13:57,110 --> 00:13:57,910
+Ponto.
+
+167
+00:13:58,080 --> 00:13:59,850
+Desligar o ar.
+
+168
+00:14:00,030 --> 00:14:03,720
+é aí que você vai ver que ele vai acrescentar de 35 em 35.
+
+169
+00:14:03,890 --> 00:14:09,470
+O que vai gerar uma velocidade bem maior no final principalmente se eu não frear o carro então o pessoal
+
+170
+00:14:09,470 --> 00:14:14,990
+só mostrando pra vocês o conceito de interface por mais que eu esteja mostrando um conceito estou querendo
+
+171
+00:14:14,990 --> 00:14:21,320
+também explorar um pouco mais outros conceitos como é o caso que a gente faturou aqui tinham um atributo
+
+172
+00:14:21,590 --> 00:14:28,940
+colocou ele pra privados ok 7 o que nos deu a possibilidade de implementar um gatilho totalmente personalizado
+
+173
+00:14:28,940 --> 00:14:35,540
+para os cenários possíveis dado o estado do carro nem se está ligado se o tubo tá ligado se o ato ligado
+
+174
+00:14:35,540 --> 00:14:40,340
+faz com que eu ganhe o nível de flexibilidade maior o que é bastante interessante.
+
+175
+00:14:40,580 --> 00:14:41,430
+Então fico por aqui.
+
+176
+00:14:41,420 --> 00:14:46,880
+Pessoal o grande objetivo foi a gente mostrar essas duas interfaces que eu criei a interface esportivo
+
+177
+00:14:47,210 --> 00:14:54,680
+que tem dois metros a observação por padrão todo método dentro de interface público mesmo que eu não
+
+178
+00:14:54,680 --> 00:14:56,370
+coloque a palavra publique.
+
+179
+00:14:56,510 --> 00:15:00,720
+Do jeito que está aqui parece que a visibilidade é não é verdade.
+
+180
+00:15:00,750 --> 00:15:01,150
+Certo.
+
+181
+00:15:01,150 --> 00:15:05,030
+Você vai perceber isso no momento que você for implementá lo.
+
+182
+00:15:05,050 --> 00:15:11,290
+Como você disse eu vim aqui em Ferrari e tentar colocar isso pra ter uma visibilidade de fogo.
+
+183
+00:15:11,350 --> 00:15:13,030
+Você vai perceber que ele vai gerar um erro.
+
+184
+00:15:13,030 --> 00:15:13,510
+Por quê.
+
+185
+00:15:13,510 --> 00:15:15,850
+Por porque esse método ele é público.
+
+186
+00:15:16,180 --> 00:15:23,590
+Ele vai dizer algo você não pode reduzir a visibilidade ou não pode reduzir a visibilidade dado a partir
+
+187
+00:15:23,590 --> 00:15:25,360
+do Metro olhe esportivo.
+
+188
+00:15:25,370 --> 00:15:33,460
+E se eu tirar isso aqui e colocar aqui ou ligar Turbo você percebeu que ele é verdinho ele tem um aqui
+
+189
+00:15:33,690 --> 00:15:37,870
+porque esse é um método abstrato e eu vou comentar com vocês agora rapidamente sobre isso.
+
+190
+00:15:37,870 --> 00:15:38,520
+Por quê.
+
+191
+00:15:38,720 --> 00:15:43,860
+Porque dentro de interface todo método ele é público.
+
+192
+00:15:44,050 --> 00:15:50,410
+Mesmo que eu não diga que estava entre a interface ele é público e também todo método ele é abstrato
+
+193
+00:15:50,420 --> 00:15:56,770
+e o que é um método abstract Metro abstract metro que não tem corpo a um metro que você não tem o corpo
+
+194
+00:15:56,770 --> 00:15:58,050
+dele aqui que é.
+
+195
+00:15:58,240 --> 00:16:03,730
+Os parentes está certo para definir um par de chaves ou seja esse metro que é o metro que tem corpo
+
+196
+00:16:04,010 --> 00:16:07,480
+já é um método abstrato não é o metro que não tem corpo.
+
+197
+00:16:07,480 --> 00:16:12,720
+Então por padrão todos os métodos dentro de um interface são públicos e abstratos.
+
+198
+00:16:12,740 --> 00:16:16,650
+Isso é calçado um metro abstrato é um método que não vingou.
+
+199
+00:16:16,930 --> 00:16:21,520
+Eu vou entrar em um pouco mais de detalhe com vocês como falar de classe abstrata que eu acho que na
+
+200
+00:16:21,520 --> 00:16:24,950
+próxima aula falar sobre isso vou dar um pouco do conceitual.
+
+201
+00:16:24,970 --> 00:16:31,300
+Depois a gente faz um exercício mas dentro de um interface esses dois modificadores estão implícitos
+
+202
+00:16:31,660 --> 00:16:35,100
+embora se você quiser colocar de forma explícita não vai ter problema hein.
+
+203
+00:16:35,170 --> 00:16:40,540
+Só corrigem o problema aqui de Ferrari voltando modificado ou para o público já que gente não pode diminuir
+
+204
+00:16:40,960 --> 00:16:41,740
+a visibilidade.
+
+205
+00:16:41,740 --> 00:16:44,240
+Então esse foi um exemplo de interface e até para os mal.

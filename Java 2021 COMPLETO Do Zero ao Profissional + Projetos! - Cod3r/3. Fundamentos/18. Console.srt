@@ -1,0 +1,751 @@
+1
+00:00:00,130 --> 00:00:06,090
+Pensou nessa mas vamos focar no uso do console a gente está usando um console desde os primeiros exercícios
+
+2
+00:00:06,090 --> 00:00:11,340
+para imprimi tudo aquilo que a gente tem impresso no console e que dá clipes que também vai ser o mesmo
+
+3
+00:00:11,340 --> 00:00:17,160
+comportamento no terminal do seu computador tanto no prompt de comando do lado luminoso como no terminal
+
+4
+00:00:17,160 --> 00:00:18,570
+do Linux no Mac.
+
+5
+00:00:18,570 --> 00:00:24,630
+Tudo aquilo que você usa o System Audio quando preenche ali e ele vai imprimi no terminal do seu computador
+
+6
+00:00:24,630 --> 00:00:32,720
+assim como imprimir no console do Caribe e também vai trabalhar com a captura de informações do usuário.
+
+7
+00:00:32,720 --> 00:00:37,200
+Você também pode imprimir com você pode pedir para o usuário digita alguma informação.
+
+8
+00:00:37,330 --> 00:00:40,530
+Eu vou mostrar como você pode fazer isso na sala usando um scanner.
+
+9
+00:00:40,890 --> 00:00:46,860
+E aí quando precisar usar um importe e eu vou mostrar isso Saulo então o foco será tanto a gente imprimir
+
+10
+00:00:47,220 --> 00:00:51,390
+no console de formas diferentes e obter informações do usuário.
+
+11
+00:00:51,750 --> 00:00:58,230
+Então para isso eu vou clicar aqui e criar uma nova classe o nome da classe será console e nós vamos
+
+12
+00:00:58,230 --> 00:00:59,830
+definir o nosso método.
+
+13
+00:00:59,910 --> 00:01:08,130
+Inicialmente eu vou imprimir algumas coisas usando o print em seu print coloco o bloco System ALT S
+
+14
+00:01:08,130 --> 00:01:12,940
+e Y e se não encontra espaço ele vai colocar o comando completo com a Michelin.
+
+15
+00:01:13,260 --> 00:01:22,470
+Nesse caso ele usará o System ponto aos 36 sem o álibi que ele vai imprimir em um texto do console ou
+
+16
+00:01:22,470 --> 00:01:29,100
+seja assim que você passar como parâmetro e vai permanecer na mesma linha é só colocar bom e adaptar
+
+17
+00:01:29,130 --> 00:01:30,300
+ele vai imprimir normalmente.
+
+18
+00:01:30,300 --> 00:01:39,420
+Como era de se esperar se eu criar aqui no System ponto aos 30 novamente é um espaço e primeiro dia
+
+19
+00:01:39,420 --> 00:01:45,030
+você vai ver que como eu usei o Aline que é o primeiro que depois criou a nova linha.
+
+20
+00:01:45,030 --> 00:01:48,300
+Ele vai permanecer continuar na mesma linha executando.
+
+21
+00:01:48,300 --> 00:01:49,280
+Bom dia.
+
+22
+00:01:49,280 --> 00:01:55,920
+Se eu usar o 5S é um asteroide e um contra espaço ele vai usar por padrão preencher a linha que vai
+
+23
+00:01:55,920 --> 00:02:03,690
+criar uma nova linha mas ele vai criar uma nova linha digamos assim depois que ele Apache ou seja depois
+
+24
+00:02:03,690 --> 00:02:04,680
+coisa que tá bom.
+
+25
+00:02:04,690 --> 00:02:11,960
+Aí ele vai criar um novo linha nesse caso esse botão continuará na mesma linha desses dois Prince iniciais.
+
+26
+00:02:12,390 --> 00:02:16,040
+Então se você vai ver que o bug continua aqui Exato.
+
+27
+00:02:16,110 --> 00:02:28,590
+Se eu criar aqui novos System junto aos primos porque coloca a mesma coisa espaço dia a esse segundo
+
+28
+00:02:28,590 --> 00:02:34,410
+dia que mina esse mundo por ali vai estar na nova linha e ele mesmo vai criar a nova linha para o próximo
+
+29
+00:02:34,520 --> 00:02:38,470
+ano que vai chegar mais do jeito que daqui continuará.
+
+30
+00:02:38,460 --> 00:02:44,310
+Ainda algo bom na mesma linha anterior mas eu posso colocar um bairro em que é uma quebra de linha e
+
+31
+00:02:44,310 --> 00:02:47,710
+aí sim ele vai imprimir o valor na linha seguinte.
+
+32
+00:02:47,730 --> 00:02:52,620
+Nesse caso que eu posso até tirar esse espaço já que não tinha essa parada então vai ficar mais interessante
+
+33
+00:02:52,620 --> 00:02:54,600
+que a opção certa nesse caso.
+
+34
+00:02:54,630 --> 00:03:00,840
+Na mesma linha da linha anterior nada a impede de você por exemplo criar uma quebra de linha ou até
+
+35
+00:03:00,840 --> 00:03:03,970
+mais de uma quebra de linha usando o Barra.
+
+36
+00:03:04,260 --> 00:03:07,870
+E o próximo comando vai ser o System Photo Audio.
+
+37
+00:03:07,890 --> 00:03:11,160
+Por fim ao presente formatado.
+
+38
+00:03:11,610 --> 00:03:16,280
+E aqui eu posso colocar por exemplo Mega Sena.
+
+39
+00:03:16,350 --> 00:03:23,770
+Coloque dois pontos mola D que vai ser um número inteiro e depois um dólar na Ladeira da Ladeira da
+
+40
+00:03:23,820 --> 00:03:24,410
+ladeira.
+
+41
+00:03:24,670 --> 00:03:29,860
+Eu coloco aqui os números da Mega Sena 1 2 3 4 5 6.
+
+42
+00:03:29,890 --> 00:03:37,240
+Difícil sair mais boboca que essa questão todas as etapas da Mega Sena 1 2 3 4 5 6.
+
+43
+00:03:37,350 --> 00:03:42,940
+Usando essa forma que é usada aqui o estilo e formatado com alguns caracteres especiais.
+
+44
+00:03:42,950 --> 00:03:48,420
+Ele vai pegar esses caracteres especiais aqui vai substituir pelos valores que você passou entre a ordem
+
+45
+00:03:48,600 --> 00:03:53,400
+e a quantidade de valores que serão substituídos exatamente a mesma quantidade de elementos que você
+
+46
+00:03:53,400 --> 00:03:55,440
+passa separado por vírgula.
+
+47
+00:03:55,440 --> 00:04:01,500
+O primeiro é exatamente o valor do texto formatado e a partir daí você vai passar cada um dos valores
+
+48
+00:04:01,830 --> 00:04:03,170
+que você quer substitui.
+
+49
+00:04:03,210 --> 00:04:09,690
+Além de você ter a possibilidade de substituir valores inteiros no já mostrei pra vocês que vocês têm
+
+50
+00:04:09,690 --> 00:04:14,100
+que usar o atalho e trocar aqui pela web a fim de ficar até mais fácil.
+
+51
+00:04:14,490 --> 00:04:25,410
+E aqui eu vou colocar por exemplo um salário dois pontos eu coloco por exemplo gola ponto e passo por
+
+52
+00:04:25,410 --> 00:04:32,940
+exemplo um valor com casas decimais tão 1234 ponto 4 6 7 8.
+
+53
+00:04:32,940 --> 00:04:38,100
+Nesse caso tem 4 casas decimais mais eu pedi pra ele mostra apenas uma casa decimal.
+
+54
+00:04:38,100 --> 00:04:42,630
+Nesse caso o que ele vai mostrar a ponto 6 no final porque ele vai dá certo.
+
+55
+00:04:42,630 --> 00:04:48,540
+Então além de ele fazer uso de uma casa decimal só ele vai usar o arredondamento desse caso e vai ficar
+
+56
+00:04:48,540 --> 00:04:53,260
+com o nosso valor século 1234 ponto 6.
+
+57
+00:04:53,370 --> 00:05:01,000
+Aqui como o primo chefe também não tem uma quebra de linha eu posso usar um Barrinha que no final possibilidade
+
+58
+00:05:01,010 --> 00:05:06,870
+além do Barra em que você pode colocar uma porcentagem que aqui funciona também como cabo diretamente
+
+59
+00:05:07,290 --> 00:05:08,100
+executado.
+
+60
+00:05:09,380 --> 00:05:15,380
+Ele quebrou ali com o símbolo de percentual minha que eu também posso colocar o percentual em que ele
+
+61
+00:05:15,380 --> 00:05:16,120
+vai pra mim.
+
+62
+00:05:16,160 --> 00:05:21,110
+O salário já quebra a linha para o próximo comando que habitualmente chega aos atuais são as três principais
+
+63
+00:05:21,110 --> 00:05:26,690
+formas que a gente tem de estar jogando dados no console como a gente já tem usado o print mantém na
+
+64
+00:05:26,690 --> 00:05:31,720
+mesma linha brinca Aline imprime e depois quebra a linha imprime e quebra a linha e o brinquedo que
+
+65
+00:05:31,730 --> 00:05:37,310
+você consegue definir um estilo formatado com alguns símbolos e depois usar esses símbolos para substituir
+
+66
+00:05:37,790 --> 00:05:45,080
+dentro da histria usei com valores inteiros com valores com ponto flutuante tem 1 dólar s que representa
+
+67
+00:05:45,160 --> 00:05:55,370
+o extremo de zero dólar e assim eu posso colocar aqui por exemplo o empate em dois pontos dólar s e
+
+68
+00:05:55,400 --> 00:06:06,300
+aqui coloco lá um pouco usual e vou colocar também aqui não há quebra de linha certo também.
+
+69
+00:06:06,570 --> 00:06:13,070
+Você também tem que o usual próximo passo que eu vou mostrar vai se a gente usar o escândalo certo eu
+
+70
+00:06:13,070 --> 00:06:20,390
+não quero que você se preocupe muito com a aceitação em si eu quero que você foque no fato de que eu
+
+71
+00:06:20,390 --> 00:06:28,280
+estou querendo pegar informações do teclado a partir do console então usando a palavra escaneia qualquer
+
+72
+00:06:28,280 --> 00:06:34,110
+S maiúsculo não necessariamente prestaria qualquer S maiúsculo porque se eu der um contra o espaço por
+
+73
+00:06:34,110 --> 00:06:39,050
+que é que ele já vai me mostrar a opção com S maiúsculo e seu selecionar a opção correta ele já vai
+
+74
+00:06:39,050 --> 00:06:45,650
+corrigi para mim tanto o nome escrito no nome coloca no S maiúsculo como ele vai gerar um pote note
+
+75
+00:06:45,650 --> 00:06:53,000
+que o escândalo está dentro de Jabba ponto onde tem outros escândalos aí tem como ponto são ponto já
+
+76
+00:06:53,200 --> 00:06:54,710
+lá em Camp.
+
+77
+00:06:54,760 --> 00:07:00,600
+Ponto interno ponto levantado não é esse nem de baixo é exatamente o Java ponto Word.
+
+78
+00:07:00,770 --> 00:07:02,180
+Eu diria que depois do Java.
+
+79
+00:07:02,180 --> 00:07:02,600
+Ponto.
+
+80
+00:07:02,600 --> 00:07:08,720
+Além de o Java pontudo e o mais é o segundo mais usado no dia a dia quando você programe Java estão
+
+81
+00:07:08,760 --> 00:07:11,030
+executando aqui ao Java o Kane.
+
+82
+00:07:11,320 --> 00:07:18,470
+Quando eu fizer isso ele tanto trouxe o importe em cima como ele a corrigiu que a escrita coloca no
+
+83
+00:07:18,470 --> 00:07:19,750
+S maiúsculo.
+
+84
+00:07:19,870 --> 00:07:22,890
+Aí eu posso chamar isso de entrada entrada.
+
+85
+00:07:23,050 --> 00:07:26,710
+Recebi um email esse cara certo.
+
+86
+00:07:26,720 --> 00:07:32,540
+Nesse caso a gente você vai seguir exatamente do jeito que estou escrevendo esse cara na entrada recebe
+
+87
+00:07:32,650 --> 00:07:39,080
+o scanner e aqui dentro dos parênteses eu vou passar a seguinte formação System.
+
+88
+00:07:39,620 --> 00:07:40,590
+Ponto.
+
+89
+00:07:40,970 --> 00:07:48,830
+Ou seja a entrada do sistema ou System pontual de que a saída do sistema por padrão é a tela.
+
+90
+00:07:48,890 --> 00:07:55,820
+Ou seja existem outras saídas de um computador que é você transmitir alguma coisa de um S B você ter
+
+91
+00:07:55,820 --> 00:08:03,740
+uma impressora você tem sei lá ou mal a impressora 3D pra imprimir alguma coisa é uma saída de um computador
+
+92
+00:08:03,740 --> 00:08:08,630
+assim como um monitor também e uma série de um computador que seriam a entrada na entrada e o teclado
+
+93
+00:08:08,720 --> 00:08:13,790
+e o mouse aquilo que você recebe informações de entrada como a câmera por exemplo também é uma entrada
+
+94
+00:08:14,180 --> 00:08:22,340
+certo por padrão a saída do sistema padrão é o console e a tela é a entrada por padrão o teclado tal
+
+95
+00:08:22,340 --> 00:08:27,860
+como você diz que vai fazer o scanner não é um scanner de mesa mas que ele vai estranhar tudo aquilo
+
+96
+00:08:27,860 --> 00:08:33,170
+que você digita ele vai monitorar em outras palavras aquilo que você vai digitar lá o que significa
+
+97
+00:08:33,170 --> 00:08:37,550
+um dia eu to vendo que uniu também a palavra reservado na linguagem Java.
+
+98
+00:08:37,550 --> 00:08:43,320
+Assim como é público assim como a estática assim como é classe assim como Evolve assim como importe
+
+99
+00:08:43,530 --> 00:08:50,150
+que de fato a palavra reset embora da linguagem Java que nós iremos abordar mais na frente no capítulo
+
+100
+00:08:50,150 --> 00:08:51,340
+de orientação a objeto.
+
+101
+00:08:51,340 --> 00:08:58,890
+Por enquanto você vai copiar isso do mesmo jeito que eu crio uma variável inteira em Java então digo
+
+102
+00:08:58,890 --> 00:09:08,610
+que ao invés a recebe 3 ponto e vírgula eu também faço o tipo o nome da variável recebe o.
+
+103
+00:09:08,990 --> 00:09:15,260
+A criação aqui só que essa criação não é tão simples como ter apenas um literal 3 aqui mas o chip n
+
+104
+00:09:15,500 --> 00:09:23,180
+A forma é exatamente a mesma o tipo o nome identificador recebe um determinado valor e o scanner precisa
+
+105
+00:09:23,180 --> 00:09:28,790
+dentro dos 40 cm qual é digamos assim a entrada que você quer escanear.
+
+106
+00:09:28,850 --> 00:09:35,270
+Você pode usar um isqueiro por exemplo com um arquivo para escanear ler um arquivo Cabral possibilidade.
+
+107
+00:09:35,570 --> 00:09:40,610
+Nesse caso o System voltou a apontar para o teclado químico digitar no teclado protetor uma vez que
+
+108
+00:09:40,610 --> 00:09:45,920
+eu defendi a minha entrada agora vou imprimir uma frase para orientar o usuário aquele que eu quero
+
+109
+00:09:45,920 --> 00:09:47,440
+que ele digite no console.
+
+110
+00:09:47,450 --> 00:09:51,570
+Eu posso simplesmente colocar aqui esse problema minha entrada.
+
+111
+00:09:51,590 --> 00:09:52,860
+Ponto.
+
+112
+00:09:53,430 --> 00:10:02,110
+Lá em anexo lá vai colocar um ponto e vírgula e aí se eu colocar isso é eu já vou para aí não ficar
+
+113
+00:10:02,110 --> 00:10:02,920
+reclamando aqui.
+
+114
+00:10:03,010 --> 00:10:09,850
+Depois de tirar essa observação quiser passar divertem se aqui você vai ver que ele imprimiu tudo e
+
+115
+00:10:09,850 --> 00:10:11,380
+o programa não parou.
+
+116
+00:10:11,380 --> 00:10:17,870
+Tenho inclusive aqui que ele o programa está executado com esse símbolo disse top 15 quadrado bem mereceu
+
+117
+00:10:17,880 --> 00:10:23,110
+clicar o programa o programa termina mas porque que ele não terminou o não terminou porque ele está
+
+118
+00:10:23,110 --> 00:10:27,800
+esperando você digitar alguma coisa qualquer aqui por exemplo Leonardo.
+
+119
+00:10:28,000 --> 00:10:32,480
+Aí sim o programa passa da linha 22 e termina essa opção.
+
+120
+00:10:32,590 --> 00:10:37,890
+Ou seja nesse caso o programa vai ficar esperando o usuário digitar uma informação tão aqui sobre o
+
+121
+00:10:37,900 --> 00:10:39,680
+tocar que existem em Portugal.
+
+122
+00:10:39,690 --> 00:10:40,750
+Ponto.
+
+123
+00:10:41,020 --> 00:10:42,750
+Sem seu principal cliente.
+
+124
+00:10:42,790 --> 00:10:54,610
+Vou colocar aqui para colocar digite digite seu nome dois pontos em um espaço e eu vou armazenar essa.
+
+125
+00:10:54,660 --> 00:11:01,540
+O resultado daquilo que o usuário digitou eu vou armazenar dentro de uns 30 ou colocar nome.
+
+126
+00:11:01,670 --> 00:11:07,560
+Recebi isso e no final eu vou exibi System preenche ali o valor de novo.
+
+127
+00:11:07,690 --> 00:11:14,620
+Então não homem igual e vou concatenar com o nome que o usuário digitou.
+
+128
+00:11:14,620 --> 00:11:21,870
+Nesse caso como Printing permaneceu na mesma linha aqui e ali eu posso começar com barra ou então um
+
+129
+00:11:21,880 --> 00:11:22,650
+duplo Baier.
+
+130
+00:11:22,690 --> 00:11:28,660
+Ele quebra duas linhas e aquele que o usuário listou acertado ou digite o seu nome como colocar o cursor
+
+131
+00:11:28,660 --> 00:11:35,440
+você vai ver que ele vai ter o seu logo depois do digite seu nome eu vou colocar aqui Leonardo Leitão
+
+132
+00:11:35,620 --> 00:11:42,640
+então ele vai baixar o nome digitado Leonardo Leitão eu posso duplicar essas duas linhas aqui ou duplicar
+
+133
+00:11:42,640 --> 00:11:43,600
+embaixo.
+
+134
+00:11:43,800 --> 00:11:49,730
+E agora eu vou colocar o seguinte digite seu nome em seu sobrenome.
+
+135
+00:11:49,880 --> 00:12:01,790
+é aí que eu vou pegar sobrenome e vou colocar aqui o nome mais espaços em branco e sobrenome salvando
+
+136
+00:12:02,030 --> 00:12:04,430
+executar novamente.
+
+137
+00:12:05,230 --> 00:12:08,900
+Digite seu nome aqui ao meu lado.
+
+138
+00:12:08,920 --> 00:12:15,580
+Digite seu sobrenome qualquer que Leitão tem no final e coloca nome igual a Leitão.
+
+139
+00:12:15,580 --> 00:12:26,830
+Posso pedir também pra ele pegar a idade então aplicar aqui certa ou colocar digite sua idade.
+
+140
+00:12:26,830 --> 00:12:32,890
+Nesse caso em vez de pegar vou colocar aqui e ali.
+
+141
+00:12:33,070 --> 00:12:38,770
+Nesse caso eu vou pagar entrada ponto mexe lá no Barreto ou na áustria já que eu coloquei que idade
+
+142
+00:12:38,770 --> 00:12:40,970
+não posso pegá la.
+
+143
+00:12:41,110 --> 00:12:48,370
+Nesse caso ao pagar Net eu seja o próximo inteiro me deu inteiro e armazém idade e aqui em vez de imprimir
+
+144
+00:12:48,370 --> 00:13:04,690
+concatenar eu vou fazer o seguinte não vou colocar aqui dólar s dólar S tem dólar d ponto focal vi passar
+
+145
+00:13:04,740 --> 00:13:14,210
+aqui um nome sobrenome e finalmente a idade ou seja na Princesinha linha na nova safra.
+
+146
+00:13:14,580 --> 00:13:18,960
+E aqui se quiser pode até colocar percentual em mais não vai fazer muita diferença.
+
+147
+00:13:19,000 --> 00:13:25,570
+Já vou terminar o código aqui e está faltando só pra tirar esse problema dessa advertência é que no
+
+148
+00:13:25,570 --> 00:13:33,520
+caso do escravo a gente precisa fechar ele é certo que tal entrada entrada ponto Klaus porque ele fica
+
+149
+00:13:33,610 --> 00:13:35,420
+ocupando recursos da máquina.
+
+150
+00:13:35,750 --> 00:13:41,110
+Então uma vez que você parou de usar esse canal você fechou ele e o programa para ficar dando qualquer
+
+151
+00:13:41,110 --> 00:13:46,240
+tipo de advertência porque você abriu o escândalo e depois fechou ele no final a gente pode entrar em
+
+152
+00:13:46,240 --> 00:13:51,190
+mais detalhes sobre isso da mesma forma se eu abro um arquivo pra escrever um arquivo ou pra ler um
+
+153
+00:13:51,190 --> 00:13:57,070
+arquivo é interessante depois que você fez esse recurso para economizar memória e recursos alocados
+
+154
+00:13:57,070 --> 00:13:57,770
+na sua máquina.
+
+155
+00:13:58,150 --> 00:14:02,830
+Então pra gente gastar mais uma vez desse código ou primeiro imprimir tudo aquilo que eu defendi aqui
+
+156
+00:14:02,830 --> 00:14:10,830
+antes né consiste em algo pouco print Micheline print DF também e agora vou legal o dado colocar o sobrenome
+
+157
+00:14:10,950 --> 00:14:16,630
+da Itau e a idade em qualquer idade mesmo algo que eu tenho certa ou tá se aproximando ao colocar aqui
+
+158
+00:14:16,630 --> 00:14:20,680
+26 ou seja Leonardo Leitão tem 26 anos.
+
+159
+00:14:20,710 --> 00:14:26,370
+Então pessoal nessa aula nós vimos praticamente como imprimi de forma diferente está usando principalmente
+
+160
+00:14:26,890 --> 00:14:32,260
+o pente fino coisas no console é algo extremamente importante durante o nosso curso a gente vai criar
+
+161
+00:14:32,260 --> 00:14:37,360
+alguns projetos e o primeiro projeto que nós vamos criar vai ser um projeto todo em console provavelmente
+
+162
+00:14:37,360 --> 00:14:43,330
+com menu pra você selecionar algumas opções é tal que no final o capitão vai ter um projétil para a
+
+163
+00:14:43,330 --> 00:14:47,450
+gente pegar todo o conhecimento que a gente viu no capítulo e colocar na prática isso.
+
+164
+00:14:47,620 --> 00:14:52,810
+Então é importante não apenas que você saiba exibir algo no console mas também que você consegue pegar
+
+165
+00:14:52,810 --> 00:14:58,810
+essas informações e exibir na tela salva invariáveis exibir em outro momento ou fazer alguma lógica
+
+166
+00:14:58,810 --> 00:14:59,990
+em cima disso.
+
+167
+00:15:00,040 --> 00:15:06,540
+No caso sempre que eu pego em cada ponto na mochila eu precisei salvar isso dentro de uma variável porque
+
+168
+00:15:06,550 --> 00:15:12,880
+eu vou usar isso depois tanto variáveis do tipo estranho como eu usei o ano com tamanho variável do
+
+169
+00:15:12,880 --> 00:15:13,760
+tipo.
+
+170
+00:15:13,990 --> 00:15:19,080
+Quando eu usei o Netinho de Paula Eu quero salvar por exemplo um bom bode pode.
+
+171
+00:15:19,090 --> 00:15:21,690
+Você vai entrar numa pausa a entrada.
+
+172
+00:15:21,730 --> 00:15:22,960
+Ponto.
+
+173
+00:15:23,190 --> 00:15:24,630
+Você tem em anexo.
+
+174
+00:15:24,670 --> 00:15:35,860
+Juliano Max baixe Macchi boneco logo na caixinha lá em Long xote então você tem para todos os tipos
+
+175
+00:15:35,860 --> 00:15:36,840
+primitivos.
+
+176
+00:15:36,940 --> 00:15:39,920
+Você tem a capacidade de pegar usando funções especiais.
+
+177
+00:15:39,980 --> 00:15:42,480
+Dado que isso pode gerar problemas.
+
+178
+00:15:42,540 --> 00:15:49,000
+Se você der que o da W e você passar o valor string você vai ter problemas aí então você vai executar
+
+179
+00:15:49,000 --> 00:15:57,580
+mais uma vez aqui só pra vocês verem eu vou colocar aqui não leu o sobrenome Leitão idade 33 ele está
+
+180
+00:15:57,580 --> 00:16:04,270
+pedindo agora não mostrei nenhuma mensagem mas rapidinho eu vou colocar o teste executado ele vai dizer
+
+181
+00:16:04,630 --> 00:16:13,260
+isso não dá certo você tentou embutir Smart ou seja o tipo que você passou do iPod gerou um problema
+
+182
+00:16:13,420 --> 00:16:18,490
+e nós vamos trabalhar com problemas e tratamento de erros que podem acontecer no seu programa mais à
+
+183
+00:16:18,490 --> 00:16:19,350
+frente.
+
+184
+00:16:19,360 --> 00:16:24,220
+Por enquanto a gente vai tentar ser bem comportado e informar aquilo que realmente o programa está pedindo
+
+185
+00:16:24,610 --> 00:16:29,170
+mas vá lá a gente vai ver também sobre essa questão do tratamento de erro mas o que foi o foco da sala
+
+186
+00:16:29,170 --> 00:16:34,240
+é exatamente você pegar dados do console imprimir dados do console porque isso mas vamos usar durante
+
+187
+00:16:34,240 --> 00:16:37,860
+vários exercícios e fico por aqui até aproximá lo do nosso curso.
+
+188
+00:16:37,860 --> 00:16:39,520
+Ainda no nosso capítulo Fundamentos.

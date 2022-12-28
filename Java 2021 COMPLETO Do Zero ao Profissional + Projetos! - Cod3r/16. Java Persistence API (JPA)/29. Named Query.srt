@@ -1,0 +1,683 @@
+1
+00:00:00,300 --> 00:00:07,710
+Pessoal agora nós vamos criar uma consulta nomeada um meio R e para isso nós vamos.
+
+2
+00:00:07,710 --> 00:00:10,630
+Existem algumas formas de criar nem.
+
+3
+00:00:11,220 --> 00:00:13,780
+Uma das formas era você criar via no trecho.
+
+4
+00:00:13,830 --> 00:00:20,610
+Posso colocar aqui nem me ri a verdade nem me de coisas no plural.
+
+5
+00:00:20,640 --> 00:00:26,690
+Você pode criar várias nem mítico ali no singular de Ruy.
+
+6
+00:00:27,120 --> 00:00:30,110
+E aí você vai colocar nosso consultas aqui.
+
+7
+00:00:30,240 --> 00:00:33,620
+Você define o nome da consulta e a própria com ela em si.
+
+8
+00:00:33,810 --> 00:00:39,870
+Eu não goste de criar aqui porque você ficou com a classe extremamente poluída com várias consultas
+
+9
+00:00:39,870 --> 00:00:45,390
+dentro de uma classe que eu prefiro colocar em separado dentro de um arquivo e o que eu vou fazer aqui.
+
+10
+00:00:45,540 --> 00:00:47,110
+Para isso vou usar XML.
+
+11
+00:00:47,580 --> 00:00:50,380
+Então nós vamos criar dentro de meta.
+
+12
+00:00:50,390 --> 00:00:58,500
+Enfim eu vou clicar com o botão direito e eu não vou selecionar um arquivo XML rudes na raiz mas eu
+
+13
+00:00:58,500 --> 00:01:00,530
+vou pedir pra ele procurar aqui.
+
+14
+00:01:00,640 --> 00:01:11,610
+Você seleciona com o botão direito e eu Olha eu vou selecionar aqui e esse ao JP a é Mapping fail ou
+
+15
+00:01:11,610 --> 00:01:14,780
+seja um arquivo de mapeamento on line e JPEG.
+
+16
+00:01:15,180 --> 00:01:22,330
+Esse arquivo serve pra eu criar ordem emocional e eu não quero criar o meu game usando a Tech.
+
+17
+00:01:22,380 --> 00:01:24,420
+Quero criar os anéis XML.
+
+18
+00:01:24,420 --> 00:01:27,960
+Você pode mapear todas as entidades a partir XML.
+
+19
+00:01:27,960 --> 00:01:33,660
+Eu não gosto muito mais que eu vou usar esse mesmo arquivo para fazer as consultas.
+
+20
+00:01:33,680 --> 00:01:42,540
+Então chamar aqui consultas ao finalizar e esse arquivo de consultas ele precisa estar sendo referenciado
+
+21
+00:01:42,540 --> 00:01:50,510
+pelo persista esse ponto XML para isso logo depois de Provider antes das classes eu vou criar aqui.
+
+22
+00:01:50,700 --> 00:01:54,940
+Tem a propriedade que é mapping.
+
+23
+00:01:55,050 --> 00:02:01,880
+Que é um método infalível e eu vou apontar para esse arquivo que vai estar dentro de um beta traço e
+
+24
+00:02:01,900 --> 00:02:06,960
+enfim barra de consultas ponto XML.
+
+25
+00:02:07,560 --> 00:02:14,760
+Então se a gente tentar executar aqui funcionará esse caso estou inserida ou tentar fazer uma consulta
+
+26
+00:02:14,760 --> 00:02:22,230
+aqui para não ter nenhum tipo de efeito colateral obter o usuário só pra gente que já está executando
+
+27
+00:02:23,950 --> 00:02:25,210
+funcionou corretamente.
+
+28
+00:02:25,210 --> 00:02:32,280
+Se eu vim aqui não persiste esse ponto XML é apontado para apontar para algum frutas 2 por exemplo e
+
+29
+00:02:32,290 --> 00:02:33,930
+tentar obter usuários novamente.
+
+30
+00:02:33,930 --> 00:02:38,800
+Você vai ver que ele vai gerar um problema porque ele não achou o arquivo então só o fato de você ter
+
+31
+00:02:38,800 --> 00:02:44,570
+colocado o arquivo com insultos ele não tem gerado nenhum problema tanto na ida como na execução já
+
+32
+00:02:44,590 --> 00:02:50,360
+significa que a gente está apontar para um arquivo correto então lá dentro do nosso arquivo com um furo
+
+33
+00:02:50,360 --> 00:02:53,240
+dos pontos XML onde tem este método.
+
+34
+00:02:53,800 --> 00:02:59,710
+Eu vou pedir para gerar vou dar um contra espaço e selecionar aquilo nem Mindinho qual era o item essa
+
+35
+00:02:59,710 --> 00:03:01,910
+primeira que é um meme de.
+
+36
+00:03:02,050 --> 00:03:04,650
+Quando você quer fazer uma colagem nativa.
+
+37
+00:03:04,950 --> 00:03:09,960
+A gente vai fazer um exemplo disso depois não agora mas o que eu quero aqui vai ser uma meme de cordas
+
+38
+00:03:10,030 --> 00:03:18,160
+vamos usar o JP que e aqui dentro dessa pegue com ele eu vou criar uma outra tag que vai ser eu próprio
+
+39
+00:03:18,330 --> 00:03:21,090
+quero ensiná lo a linha.
+
+40
+00:03:21,160 --> 00:03:25,940
+Pronto eu vou criar aqui não compro espaço mas terem em mãos a pele.
+
+41
+00:03:26,250 --> 00:03:30,010
+E aqui dentro eu vou escrever a minha consulto o nome da consulta que eu vou criar.
+
+42
+00:03:30,460 --> 00:03:41,970
+Eu o chamei de filmes nota maior que então eu vou querer pegar filmes a partir da sua notável apagar
+
+43
+00:03:41,980 --> 00:03:48,640
+todos os filmes que tem a nota maior que algum note específico ou igual ou maior como clique aqui a
+
+44
+00:03:48,640 --> 00:03:57,770
+gente vai fazer essa consulta agora então ao seu fim from filme.
+
+45
+00:03:58,480 --> 00:04:01,470
+Lembrando que não há nome da tabela e o nome da entidade.
+
+46
+00:04:01,930 --> 00:04:14,020
+Então Select e F farão um filme e eu coloco e fico com outra nota maior ou igual tanto faz do q dois
+
+47
+00:04:14,020 --> 00:04:14,580
+pontos.
+
+48
+00:04:14,580 --> 00:04:19,830
+Nota 2 pontos nota vai ser a primeira vez aqui no capítulo 15 vai passar parâmetro pra uma consulta
+
+49
+00:04:19,840 --> 00:04:26,640
+o que já é legal e já coloca a lente definiu o XML além definiu a mesma coisa vai passar parâmetro para
+
+50
+00:04:26,650 --> 00:04:35,080
+consulta outra coisa que a gente pode fazer e pode fazer aqui em Flash para obter F.
+
+51
+00:04:35,190 --> 00:04:36,030
+Ponto.
+
+52
+00:04:36,390 --> 00:04:44,140
+Atores então a gente pode já dizer na consulta que você deve ter os atores eu não preciso marcar os
+
+53
+00:04:44,140 --> 00:04:46,180
+atores pra c.
+
+54
+00:04:46,540 --> 00:04:53,560
+E bota aí Luis você não vai trazer os atores mas quando eu precisar especificamente pegar filmes por
+
+55
+00:04:53,560 --> 00:04:57,790
+nota e também trazer os atores eu posso dizer isso na própria consulta.
+
+56
+00:04:57,800 --> 00:05:05,890
+Pronto definha a minha consulta delete aqui no JB que eu estou acessando aqui no caso as classes e os
+
+57
+00:05:05,890 --> 00:05:07,490
+atributos das classes.
+
+58
+00:05:07,480 --> 00:05:13,390
+Não estou me preocupando com a questão dado o nome e idade das colunas nas tabelas Tá bom estou pagando
+
+59
+00:05:13,750 --> 00:05:19,810
+os atributos que tem na classe não é fina filme Ponto nota filme Ponto atores que eu sei que tem um
+
+60
+00:05:19,810 --> 00:05:25,410
+lixo de atores entre o filme e ele vai pegar essas informações e converter isso pra SQL.
+
+61
+00:05:25,660 --> 00:05:31,220
+Então pronto fiz aqui a minha consulta já defini deixou executar novamente.
+
+62
+00:05:31,330 --> 00:05:40,770
+Aqui é o teu usuário executando pra funcionar tudo o que seja consulta pra dar problema.
+
+63
+00:05:40,780 --> 00:05:48,460
+E agora nós vamos gerar o que gera um novo método dentro de Dell que vai ser o metro que vai a partir
+
+64
+00:05:48,460 --> 00:05:51,290
+de uma a de quatro linhas está uma consulta.
+
+65
+00:05:51,580 --> 00:05:59,910
+Eu vou fazer o seguinte nós vamos criar outro método que esse método vai retornar à lista de entidades
+
+66
+00:05:59,920 --> 00:06:02,250
+da mesma forma que obter todos também.
+
+67
+00:06:02,590 --> 00:06:10,540
+Eu vou chamar esse método de consulta e ele vai receber na verdade uma string que vai ser o nome da
+
+68
+00:06:10,540 --> 00:06:20,350
+consulta então não houve consulta e vai receber também aqui varga ou seja argumentos variáveis e objetos
+
+69
+00:06:20,350 --> 00:06:25,760
+que vai receber uma série de parâmetros que eu vou usar na minha consulta e esses parâmetros vão ser
+
+70
+00:06:26,070 --> 00:06:30,970
+a chave e valor vou passar o nome do parâmetro um valor o nome do parâmetro o valor.
+
+71
+00:06:31,420 --> 00:06:35,780
+Então para isso eu preciso deixar retornar aqui no blog.
+
+72
+00:06:35,800 --> 00:06:37,850
+Por enquanto o retorno nulo.
+
+73
+00:06:38,380 --> 00:06:43,980
+E aí eu já vou criar um método para vocês entender como é que eu vou chamar essa consulta que deu certo.
+
+74
+00:06:44,470 --> 00:06:54,100
+Então eu vou criar aqui como o nome do pacote que eu coloquei aqui mas vou colocar nesse caso quem está
+
+75
+00:06:54,100 --> 00:07:02,810
+trabalhando com menos de 40 eu vou colocar aqui clássico vou chamar classe de obterem filmes e vou colocar
+
+76
+00:07:02,820 --> 00:07:05,680
+aqui teste ponto consulta.
+
+77
+00:07:06,260 --> 00:07:06,780
+Pronto.
+
+78
+00:07:07,150 --> 00:07:10,060
+Então nós vamos criar um método.
+
+79
+00:07:10,180 --> 00:07:20,700
+Nem vou criar um ideal ou então ideal de filme é um filme ou chamar alguém recebe dinheiro dela.
+
+80
+00:07:20,920 --> 00:07:21,890
+Vou passar aqui
+
+81
+00:07:24,950 --> 00:07:32,900
+do filme que eu não preciso passar mas vou passar aqui pelo construtor.
+
+82
+00:07:32,990 --> 00:07:35,650
+O filme conta a classe.
+
+83
+00:07:36,620 --> 00:07:47,910
+Então vou pegar lista de filme chamados de filmes do portal vai receber ao consultar.
+
+84
+00:07:47,980 --> 00:07:53,300
+Quer que eu vou passar como parâmetro para consultar ou passar o nome do anime de Perry.
+
+85
+00:07:53,350 --> 00:07:57,780
+Então como o nome da mesma de quem era esse olhar dentro de consultas ponto XML.
+
+86
+00:07:57,790 --> 00:08:10,290
+O nome de anêmico RF filmes nota maior e então posso até colocar aqui ou obter filmes com nota maior
+
+87
+00:08:10,290 --> 00:08:13,430
+q tape fica um pouco mais claro não é mais.
+
+88
+00:08:13,440 --> 00:08:19,520
+Tanto faz que leva o nome mais curto também dá certo obter filmes com nota maior que coloca o Paraná
+
+89
+00:08:19,590 --> 00:08:23,520
+para baixo e ele vai precisar receber um parâmetro.
+
+90
+00:08:23,520 --> 00:08:26,140
+O nome do parâmetro vai ser nota.
+
+91
+00:08:26,280 --> 00:08:33,660
+Então vou passar da seguinte forma vou passar o nome do Paraná no caso aqui em nota e vou passar logo
+
+92
+00:08:33,660 --> 00:08:40,380
+na sequência o valor do parâmetro que eu quero quero obter filmes com a nota maior do que oito e meio.
+
+93
+00:08:41,070 --> 00:08:46,140
+Então eu vou passar sempre assim o nome do parâmetro é o valor do parâmetro o nome do parâmetro o valor
+
+94
+00:08:46,140 --> 00:08:53,850
+do parâmetro de tal forma que dentro do método aqui e do tal eu preciso considerar isso.
+
+95
+00:08:53,850 --> 00:09:04,410
+Então nós vamos fazer o seguinte eu vou criar aqui um plano que vai ser do tipo vou chamar aqui eu vou
+
+96
+00:09:04,410 --> 00:09:15,750
+pagar aqui o ente Ménage ponto que criei nem me ri vou passar aqui o nome da consulta e vou passá la
+
+97
+00:09:15,810 --> 00:09:18,410
+assim que eu já tenho que dentro do dela.
+
+98
+00:09:19,140 --> 00:09:25,930
+Então o nome da consulta é a classe já tenho aqui é minha tábua de corno com ela eu vou precisar acertar
+
+99
+00:09:25,930 --> 00:09:32,160
+aqui os parâmetros então para acertar os parâmetros eu preciso fazer um laço forte em cima desses parâmetros
+
+100
+00:09:32,160 --> 00:09:36,900
+variáveis aqui que no final das contas ela acaba gerando uma rede de objetos.
+
+101
+00:09:36,900 --> 00:09:43,110
+Então vou fazer aquilo só quando precisar fazer um pó um pouco mais personalizado porque eu espero que
+
+102
+00:09:43,110 --> 00:09:49,800
+sempre esses parâmetros sejam múltiplos de dois porque eu sempre vou esperar até do índice zero o nome
+
+103
+00:09:49,800 --> 00:09:55,680
+do parâmetro no índice é o valor no índice 2 o nome do parâmetro no índice 3 o valor.
+
+104
+00:09:55,920 --> 00:09:57,270
+E assim sucessivamente.
+
+105
+00:09:57,720 --> 00:10:04,910
+Então aqui vou fazer um só para interagir em cima desse erro e de parâmetro dessa forma.
+
+106
+00:10:04,930 --> 00:10:11,640
+Só que em vez de acrescentar de junho eu vou querer que ele faça um atribuição de 2 em 2.
+
+107
+00:10:11,640 --> 00:10:13,880
+Ele vai pular de dois em dois parâmetros.
+
+108
+00:10:14,340 --> 00:10:19,560
+Então eu sempre vou pagar o primeiro como sendo o nome do Barão que o segundo como sendo no valor.
+
+109
+00:10:19,740 --> 00:10:21,460
+Ou seja vou percorrê lo de dois em dois.
+
+110
+00:10:21,460 --> 00:10:22,830
+Quais seus pares.
+
+111
+00:10:22,830 --> 00:10:25,020
+O nome do parâmetro é o valor do parâmetro.
+
+112
+00:10:25,410 --> 00:10:27,670
+Então nesse caso só passei um único parâmetro.
+
+113
+00:10:27,660 --> 00:10:36,630
+Então eu vou pegar aqui ao ponto o sétimo para não mencionar o nome do parâmetro vai estar dentro do
+
+114
+00:10:36,700 --> 00:10:39,640
+dinheiro para antes sim.
+
+115
+00:10:39,840 --> 00:10:44,570
+E é aí que eu vou converter isso aqui para o exterior.
+
+116
+00:10:45,210 --> 00:10:53,080
+E segundo o índice é mais um vai ser o valor desse parâmetro específico aqui.
+
+117
+00:10:53,400 --> 00:11:02,890
+Então citei todos os parâmetros uma vez que eu fiz isso aqui no final posso chamar um ponto Betim grisalhos
+
+118
+00:11:03,590 --> 00:11:06,000
+LIXO LIXO DE RESULTADOS.
+
+119
+00:11:06,000 --> 00:11:06,360
+Pronto.
+
+120
+00:11:06,360 --> 00:11:08,520
+Isso aqui a nossa consulta.
+
+121
+00:11:08,670 --> 00:11:15,210
+Certo A gente pode testar agora ou obter filmes ali vai testar várias coisas ao mesmo tempo e eu posso
+
+122
+00:11:15,390 --> 00:11:23,630
+fazer um forró em cima do filme um filminho recebem filmes.
+
+123
+00:11:23,760 --> 00:11:32,460
+Posso colocar por exemplo um filme em ponto diet não só para mim está no primeiro cenário o está aqui
+
+124
+00:11:32,460 --> 00:11:33,200
+para gente bem.
+
+125
+00:11:33,240 --> 00:11:36,790
+Qual foi o filme que tem a nota maior do que oito pontos cinco.
+
+126
+00:11:37,040 --> 00:11:43,740
+Ele gerou aqui ou trouxe o Star Wars trouxe duas vezes então vou colocar aqui na consulta.
+
+127
+00:11:46,220 --> 00:11:49,110
+Só pra evitar essa questão de trazer mais junto.
+
+128
+00:11:49,200 --> 00:11:50,530
+Contratado junto somos tá bom.
+
+129
+00:11:51,150 --> 00:11:58,540
+Então como ele tem mais tem dois atores acaba gerando dois filmes mas como você usa o distintivo ele
+
+130
+00:11:58,650 --> 00:12:03,620
+resolveria o problema vai trazer pra gente apenas um único registro de tal forma que se eu coloco aqui
+
+131
+00:12:03,630 --> 00:12:09,400
+System Alt Print ali filmes ponto sais.
+
+132
+00:12:09,480 --> 00:12:14,900
+Você vai ver que o resultado é apenas pela consulta gerada.
+
+133
+00:12:14,900 --> 00:12:22,560
+Você percebe que ele já fez aqui um joguinho com atores trazendo os atores desse filme com segurança.
+
+134
+00:12:24,340 --> 00:12:35,140
+Eu posso colocar aqui onde falei que meu joelho andava mais lá coca aqui.
+
+135
+00:12:35,270 --> 00:12:46,420
+Filme com atores com segurança a gente pode ter certeza que teremos os atores desse filme tão pequena
+
+136
+00:12:46,430 --> 00:12:53,640
+que o nome e você vai ter que estar horas logo na sequência a gente vai pra mim era um forte e quer
+
+137
+00:12:53,670 --> 00:12:55,060
+ficha e eu também posso.
+
+138
+00:12:55,060 --> 00:13:05,150
+Quiseram imprimir aqui a nota para garantir que a nota realmente formado falou que eu vou concatenar
+
+139
+00:13:05,320 --> 00:13:14,820
+um filme com Guedes nota e tal fizemos várias coisas interessantes nesse nosso exercício.
+
+140
+00:13:15,020 --> 00:13:23,540
+Fizemos qualquer um filme anota fizemos consulta nomeada ou seja criamos um arquivo XML e colocamos
+
+141
+00:13:23,540 --> 00:13:32,140
+uma consulta lá uma consulta que também faz o frete certo de outra entidade a partir do próprio JPL.
+
+142
+00:13:32,240 --> 00:13:38,460
+Colocamos o nome dentro do Bell nós criamos uma função que recebe o nome da consulta e os parâmetros
+
+143
+00:13:38,480 --> 00:13:43,760
+ou seja também agora nós passam os parâmetros para a consulta o que é bastante interessante.
+
+144
+00:13:43,760 --> 00:13:45,880
+Você também pode até limitar né.
+
+145
+00:13:45,920 --> 00:13:52,220
+Com relação aos parâmetros se tiver um parâmetro chamado limites e Offset você pode separar os dois
+
+146
+00:13:52,220 --> 00:14:01,740
+parâmetros que é o Max os outros e a questão do deslocamento lá você tem dois atributos que é o Galaxy
+
+147
+00:14:02,420 --> 00:14:07,430
+R Max e o outro que é o 7.
+
+148
+00:14:07,430 --> 00:14:13,100
+Foi este o episódio serviu pra você fazer uma paginação também é possível e depois disso nós fizemos
+
+149
+00:14:13,100 --> 00:14:20,930
+aqui o nosso método Man chamado Dell passando o nome da nossa consulta nomeada e o parâmetro chave igualou
+
+150
+00:14:21,260 --> 00:14:27,010
+fizemos lá um fora para acontecer para todos os parâmetros e no final fizemos aqui dois laços para obter
+
+151
+00:14:27,020 --> 00:14:33,680
+os filmes e a partir dos filmes obter os atores porque já que a gente fez o frete lá na nossa consulta
+
+152
+00:14:33,680 --> 00:14:40,070
+a gente já obteve tudo isso a partir de uma consulta personalizado seja lá para trás eu achei pra você
+
+153
+00:14:40,070 --> 00:14:47,240
+a questão do iG e do Luiza é pra você evitar o uso de grana ou seja trazer de forma afobado de forma
+
+154
+00:14:47,240 --> 00:14:53,270
+antecipada as informações porque na grande maioria dos casos o cenário você não vai precisar o tempo
+
+155
+00:14:53,270 --> 00:14:59,390
+todo dos filhos então pra isso que existem as consultas personalizadas então você tem que como essa
+
+156
+00:14:59,390 --> 00:15:04,970
+consulta que o gerente consulta que vai pegar filmes a partir da nota mas também é capaz de trazer os
+
+157
+00:15:04,970 --> 00:15:10,370
+atores o que é bastante interessante certo você percebe como o JPEG.
+
+158
+00:15:10,880 --> 00:15:16,820
+Ele traz flexibilidade e ele também traz facilidade e isso gera abstrai muito como ele vai obter as
+
+159
+00:15:16,850 --> 00:15:23,560
+informações do banco de dados são muito importante e quanto maior o poder maior responsabilidade.
+
+160
+00:15:23,560 --> 00:15:29,120
+Então se você tem muito poder a partir de um framework você também tem que ter muito cuidado para estar
+
+161
+00:15:29,120 --> 00:15:35,560
+sempre monitorando o que está acontecendo com baixo se não você acaba perdendo o controle da dado desempenho.
+
+162
+00:15:35,580 --> 00:15:41,900
+Porque você começa a tentar facilitar muito a sua vida e o JP vai acabar trazendo muito mais coisas
+
+163
+00:15:41,900 --> 00:15:43,440
+do que precisa no banco de dados.
+
+164
+00:15:43,470 --> 00:15:51,260
+Mas como já disse anteriormente quero reforçar aqui é o grande responsável por garantir a performance
+
+165
+00:15:51,260 --> 00:15:52,060
+digamos assim.
+
+166
+00:15:52,080 --> 00:15:59,000
+JB O desenvolvedor Peak dá os recursos e você tem que saber usar os recursos certos no momento certo.
+
+167
+00:15:59,300 --> 00:16:07,580
+Então fique por aqui na próxima aula nós vamos falar sobre e vou mostrar para vocês um exemplo de código
+
+168
+00:16:07,580 --> 00:16:08,030
+nativo.
+
+169
+00:16:08,030 --> 00:16:15,820
+Nós fizemos uma acordo do JP Nelson JPL acessando diretamente as entidades na aproximá las uns criam
+
+170
+00:16:15,820 --> 00:16:19,400
+aqui e ali e mapeando para um arquivo que não é uma entidade.
+
+171
+00:16:19,400 --> 00:16:22,700
+O resultado é mostrar pra vocês Como é que faz isso na próxima aula.

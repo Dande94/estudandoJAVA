@@ -1,0 +1,163 @@
+1
+00:00:00,090 --> 00:00:06,630
+Estamos começando mais um capítulo do nosso curso de Java nesse capítulo mas usei conceitos que são
+
+2
+00:00:06,630 --> 00:00:12,390
+muito importantes tanto para orientação objeto quanto para o próprio entendimento da linguagem Java
+
+3
+00:00:12,390 --> 00:00:15,890
+nas aulas falar sobre o que é clássico o que é objeto.
+
+4
+00:00:15,900 --> 00:00:19,980
+Qual a relação que existe entre clássico e objeto.
+
+5
+00:00:19,980 --> 00:00:21,330
+O que é método.
+
+6
+00:00:21,330 --> 00:00:27,110
+Como a gente pode sair um pouco dessas amarras do método que a gente tem seguido até aqui e expandir
+
+7
+00:00:27,130 --> 00:00:32,640
+o nosso vocabulário criando outros métodos e aprendendo como o método pode chamar o outro.
+
+8
+00:00:32,640 --> 00:00:39,390
+Então são muitos conceitos importantíssimos para que você possa não apenas entender a linguagem Java
+
+9
+00:00:39,390 --> 00:00:45,360
+de forma mais profunda mas também você dar os primeiros passos no paradigma de orientação a objeto a
+
+10
+00:00:45,360 --> 00:00:51,300
+forma como os programas são desenvolvidos em Java e não somente em Java mas também outras linguagens
+
+11
+00:00:51,660 --> 00:00:58,020
+usam essa forma de você organizar essa forma de você pensar que é uma forma orientada a objeto então
+
+12
+00:00:58,020 --> 00:01:03,440
+tem muitos conceitos que são essenciais para que você possa entender como você sai.
+
+13
+00:01:03,450 --> 00:01:04,110
+D Sim.
+
+14
+00:01:04,140 --> 00:01:09,960
+Nesse mundo dos exercícios e passo pra projetos maiores como você pode organizar o seu código.
+
+15
+00:01:09,960 --> 00:01:16,230
+Quais são os princípios por trás dessa forma de pensar esse paradigma de orientação a objetos.
+
+16
+00:01:16,280 --> 00:01:23,550
+E nesse capítulo ele é essencial basilar porque todos os conceitos que serão aprendidos aqui eles serão
+
+17
+00:01:23,550 --> 00:01:29,400
+usados com certeza para a gente trabalhar nos pilares nos princípios da orientação objeto aqui como
+
+18
+00:01:29,410 --> 00:01:33,710
+essa orientação objeto com esses conceitos importantíssimos a gente já viu.
+
+19
+00:01:33,870 --> 00:01:40,020
+Parte dos fundamentos da linguagem falamos sobre os operadores falamos sobre os tipos básicos da linguagem
+
+20
+00:01:40,020 --> 00:01:41,630
+os tipos primitivos.
+
+21
+00:01:41,730 --> 00:01:49,620
+A gente falou sobre estruturas de controle e os laços fora do ar e falamos também de múltiplas escolhas
+
+22
+00:01:49,620 --> 00:01:54,540
+com o Switch e agora chegou a hora de a gente tem desses conceitos é muito importante eu gosto muito
+
+23
+00:01:54,540 --> 00:01:59,720
+de salientar isso para os meus alunos e também para os meus colegas de trabalho da importância da gente
+
+24
+00:01:59,790 --> 00:02:06,140
+entender os conceitos é muito importante que os conceitos estejam muito bem claro na cabeça de todo
+
+25
+00:02:06,170 --> 00:02:11,070
+mundo porque aí em cima desses conceitos que formam a base de sustentação da linguagem você vai conseguir
+
+26
+00:02:11,070 --> 00:02:13,540
+entender outros princípios mais avançados.
+
+27
+00:02:13,530 --> 00:02:18,840
+Eu vou focar muito também nesse capítulo aí passar para vocês todos esses conceitos de uma forma muito
+
+28
+00:02:18,840 --> 00:02:24,330
+clara e também associado ao conceito associado a essa teoria básica que eu vou falar no começo que a
+
+29
+00:02:24,330 --> 00:02:28,870
+gente possa praticar isso de uma forma muito clara e também nossa alguns desafios.
+
+30
+00:02:28,880 --> 00:02:32,380
+Então esse capítulo é um dos capítulos mais importantes do curso.
+
+31
+00:02:32,430 --> 00:02:32,800
+O quê.
+
+32
+00:02:32,880 --> 00:02:33,480
+Quê.
+
+33
+00:02:33,630 --> 00:02:39,990
+Esse conceitual basilar no sentido de formar a base de sustentação para que você possa entender como
+
+34
+00:02:39,990 --> 00:02:46,100
+a linguagem Java é organizada em cima desse paradigma orientação objeto e você começa a entender onde
+
+35
+00:02:46,110 --> 00:02:49,080
+cada coisa vai agir com cada coisa funciona.
+
+36
+00:02:49,110 --> 00:02:54,600
+Esse capítulo é essencial então se você precisar essa é a primeira vez que você está entrando em contato
+
+37
+00:02:54,600 --> 00:03:00,900
+com esses conceitos classe objeto instância membros métodos.
+
+38
+00:03:00,930 --> 00:03:06,680
+Tudo isso será trabalhado nesse capítulo com muita calma então assista mais uma vez o caso revejo os
+
+39
+00:03:06,690 --> 00:03:13,110
+exercícios não é nada muito complicado mas são muitos conceitos que juntos formam a base de orientação
+
+40
+00:03:13,110 --> 00:03:13,590
+a objeto.
+
+41
+00:03:13,590 --> 00:03:15,290
+Por isso que esse capítulo é tão importante.

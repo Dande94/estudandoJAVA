@@ -1,0 +1,691 @@
+1
+00:00:00,330 --> 00:00:06,500
+Agora nós vamos começar a desenvolver nesse exercício o primeiro relacionamento que vai ser o relacionamento.
+
+2
+00:00:06,800 --> 00:00:13,380
+Para nós vamos fazer isso agora então pra começar nós vamos acessar a parte de modelo.
+
+3
+00:00:13,800 --> 00:00:22,470
+Eu vou criar uma nova classe com o nome da classe C assento e a classe não vai ficar dentro de modelo
+
+4
+00:00:22,760 --> 00:00:24,700
+básico e sim de modelo.
+
+5
+00:00:24,730 --> 00:00:33,390
+Ponto pra mim é o nome da classe vai ser aceito ou finalizado vai criar um novo pacote de modelo e aqui
+
+6
+00:00:33,390 --> 00:00:38,640
+também nem vou criar uma outra classe que vai ser a classe cliente.
+
+7
+00:00:39,080 --> 00:00:41,030
+Então nós vamos fazer o nosso mapeamento.
+
+8
+00:00:41,040 --> 00:00:46,340
+Primeiro preciso colocar as anotações obrigatórias a roupa íntima eu preciso.
+
+9
+00:00:46,340 --> 00:00:49,110
+Também tem a anotação a roubar.
+
+10
+00:00:49,210 --> 00:00:53,270
+Então vou criar aqui um atributo longo chamada EDI.
+
+11
+00:00:53,330 --> 00:01:02,670
+Vou colocar a roupa aí de que a obrigatoriedade e também vou colocar o general item velho pra ter um
+
+12
+00:01:02,670 --> 00:01:04,430
+valor gerado automaticamente.
+
+13
+00:01:04,440 --> 00:01:11,180
+Seguindo a estratégia idêntica ou seja identidade que no caso mais quer ele vai gerar uma chave de auto
+
+14
+00:01:11,180 --> 00:01:11,990
+incremento.
+
+15
+00:01:12,270 --> 00:01:18,810
+Além de ter o AI DE eu vou definir aqui outra coluna do tipo string chamada nome.
+
+16
+00:01:18,890 --> 00:01:23,540
+Eu vou usar esses mesmos dois atributos pra ter popular a tabela.
+
+17
+00:01:23,610 --> 00:01:30,900
+Aceito um acento tamanho vai ter um valor alto gerado e vai ter um robô.
+
+18
+00:01:31,140 --> 00:01:37,740
+Vou colocar as duas tabelas nas duas entidades nas classes melhor dizendo eu vou criar aqui um atributo
+
+19
+00:01:37,740 --> 00:01:47,770
+Tá bom que apontar o nome pra ser aceitos no plural e vou colocar aqui minha classe cliente.
+
+20
+00:01:48,000 --> 00:01:52,650
+A tabela Clientes no plural tá faltando OK.
+
+21
+00:01:52,660 --> 00:01:57,840
+Pronto uma vez que eu definir as duas classes definir que essas duas classes são entidades eu preciso
+
+22
+00:01:57,840 --> 00:02:06,930
+dentro do sistema de pontos XML e colocar essas duas classes aqui então vou criar o clássico modelo
+
+23
+00:02:07,840 --> 00:02:18,810
+ponto para outro ACENTO E VOU duplicar aqui substituindo só a parte final pra chamar cliente salvando.
+
+24
+00:02:18,800 --> 00:02:23,910
+Eu já tenho as duas clássicas sem problema só com algumas advertências porque eu tenho atributos não
+
+25
+00:02:23,910 --> 00:02:29,370
+usados aí beleza e agora vou partir para a parte do relacionamento.
+
+26
+00:02:29,370 --> 00:02:34,380
+Nós vamos criar um relacionamento e a primeira pergunta que eu quero criar na verdade é o relacionamento
+
+27
+00:02:34,470 --> 00:02:35,600
+unidirecional.
+
+28
+00:02:35,610 --> 00:02:43,300
+Quero que apenas um lado da relação tenha o atributo que representa a relação um para um entre assento
+
+29
+00:02:43,320 --> 00:02:44,400
+e cliente.
+
+30
+00:02:44,400 --> 00:02:49,890
+A primeira pergunta que você tem que fazer com alguém está desenvolvendo o sistema e é mais comum a
+
+31
+00:02:49,890 --> 00:02:57,360
+partir do cliente eu obter o assento dele ou é mais comum a partir do assento eu descobri que é o cliente
+
+32
+00:02:57,360 --> 00:02:58,950
+associado àquele assento.
+
+33
+00:02:58,950 --> 00:03:04,500
+A partir dessa pergunta você vai conseguir inferir que do lado em que em qual classe melhor dizer não
+
+34
+00:03:04,500 --> 00:03:08,640
+de que lado da relação você vai colocar o atributo.
+
+35
+00:03:08,700 --> 00:03:16,140
+Então eu acho que é mais com você a parte do cliente obter o assento do cliente do que a parte do assento
+
+36
+00:03:16,470 --> 00:03:19,340
+você querer saber quem é o cliente que está na criação.
+
+37
+00:03:19,340 --> 00:03:26,490
+Então acredito que o caminho natural seria a paixão do cliente ter um atributo do tipo sempre é uma
+
+38
+00:03:26,490 --> 00:03:31,740
+coisa que acontece em muito comum quando eu me lembro que eu passava desafios para os alunos mapear
+
+39
+00:03:31,830 --> 00:03:39,960
+e só muitos anos atrás talvez oito anos atrás ou mais eu falava Esse pessoal quer que vocês me apoiem
+
+40
+00:03:40,540 --> 00:03:46,710
+o assento dentro do cliente a pessoa pensava muito orientada ao banco de dados e fazia isso aqui ao
+
+41
+00:03:49,300 --> 00:03:54,330
+longo assento de por exemplo.
+
+42
+00:03:54,490 --> 00:04:02,230
+E aí você colocava o que Salah lá acolhe dizendo que o nome desse atributo seria alguma coisa do tipo
+
+43
+00:04:02,230 --> 00:04:04,990
+um assento onde é online.
+
+44
+00:04:05,010 --> 00:04:11,850
+Isso aqui você está mapeando de fato dentro da tabela cliente será criado um atributo que vai ser o
+
+45
+00:04:11,850 --> 00:04:14,260
+atributo que será usado pelo relacionamento.
+
+46
+00:04:14,320 --> 00:04:21,600
+Mas se você fizer isso dentro do Mundo do Japão você está trazendo as ideias do paradigma entidade relacionamento
+
+47
+00:04:21,600 --> 00:04:27,330
+ou seja do paradigma que o banco de dados segue e colocando dentro do seu mundo orientado a objeto essa
+
+48
+00:04:27,560 --> 00:04:29,330
+estratégia interessante.
+
+49
+00:04:29,360 --> 00:04:35,040
+é exatamente por isso que aqui nós não vamos ter esse tipo de atributo e sim nós vamos criar aqui um
+
+50
+00:04:35,040 --> 00:04:42,710
+atributo para eventos do tipo assim então de tal forma que eu não vou ter apenas acesso ao pedido há
+
+51
+00:04:42,710 --> 00:04:49,740
+sempre sim algo aí o nome ou qualquer outro atributo que o assento por ventura venha até então nesse
+
+52
+00:04:49,740 --> 00:04:52,620
+caso eu vou colocar no trecho.
+
+53
+00:04:52,890 --> 00:04:54,950
+Joana também de Java.
+
+54
+00:04:54,950 --> 00:05:01,950
+Ponto persistência que eu vou levá lo a um importe colam dessa forma por conta desse mapeamento vai
+
+55
+00:05:01,950 --> 00:05:08,300
+ser criado automaticamente dentro da Tabela Cliente um atributo chamado assento onde a linha diz que
+
+56
+00:05:08,350 --> 00:05:15,420
+é exatamente a chave estrangeira que vai vir na tabela sem ele sabe tudo isso por conta do tipo da classe
+
+57
+00:05:15,420 --> 00:05:16,350
+assento.
+
+58
+00:05:16,410 --> 00:05:22,020
+Ele sabe que dentro de assento existe aqui um mapeamento de uma entidade que a tabela exatamente as
+
+59
+00:05:22,050 --> 00:05:24,990
+tabela que ele consegue fazer um relacionamento.
+
+60
+00:05:25,260 --> 00:05:29,810
+Então o que é que eu vou fazer vou criar aqui um conceito padrão que necessariamente precisa ter.
+
+61
+00:05:29,970 --> 00:05:34,060
+Vou criar um construtor que vai receber os filtros.
+
+62
+00:05:34,070 --> 00:05:42,250
+Nesse caso receberá apenas o nome e vou criar também os métodos GET setas e calvo selecionar todos e
+
+63
+00:05:42,300 --> 00:05:44,280
+mandar gerar salvar aqui.
+
+64
+00:05:44,280 --> 00:05:47,520
+Na verdade vou formatar essa classe em Salvador.
+
+65
+00:05:47,670 --> 00:05:55,950
+Vou fazer a mesma coisa dentro de cliente vou criar o custo padrão ou criar o outro construtor que vai
+
+66
+00:05:55,950 --> 00:06:00,510
+receber apenas o nome e o assento do Sensei Waldir.
+
+67
+00:06:00,810 --> 00:06:06,880
+E finalmente vou gerar 15 metros de 7 selecionando todos finalizar.
+
+68
+00:06:07,320 --> 00:06:09,830
+Nós temos as duas classes geradas.
+
+69
+00:06:09,840 --> 00:06:10,270
+Pronto.
+
+70
+00:06:10,280 --> 00:06:16,780
+Queremos o mapeamento definir qual dos dois lados eu quero ter o relacionamento definitivo cada entre
+
+71
+00:06:16,790 --> 00:06:20,310
+de cliente que tem um relacionamento.
+
+72
+00:06:20,540 --> 00:06:27,260
+E nós vamos agora dentro de Tachi e desse teste básico vou criar aqui uma nova classe eu vou chamar
+
+73
+00:06:27,270 --> 00:06:38,790
+de nova cliente assento e coloquei no canto errado vou fazer o seguinte vou criar uma nova novo pacote
+
+74
+00:06:39,270 --> 00:06:49,650
+chamado para a 1 e vou copiar essa classe e arrastar para cá para outros afazeres de feto e colocou
+
+75
+00:06:49,650 --> 00:06:50,450
+no canto certo.
+
+76
+00:06:50,460 --> 00:06:57,000
+Então nós temos aqui um exercício novo cliente aceitou eu vou criar um método para a gente testar vai
+
+77
+00:06:57,000 --> 00:06:58,030
+ser muito simples.
+
+78
+00:06:58,050 --> 00:07:08,070
+Eu vou criar aqui um novo assento tal aceito acento recebe o assento vou passar o nome do assento por
+
+79
+00:07:08,070 --> 00:07:12,000
+exemplo 16 C o nome do assento.
+
+80
+00:07:12,000 --> 00:07:13,960
+Vou criar aqui um cliente.
+
+81
+00:07:14,020 --> 00:07:22,200
+O cliente recebe um cliente e vou passar o nome do cliente vai ser a Ana e o assento vai ser exatamente
+
+82
+00:07:22,200 --> 00:07:28,530
+o objeto que eu criei na linha 10 e agora vou querer persistir esses dois objetos no banco de dados
+
+83
+00:07:28,550 --> 00:07:34,380
+tem duas possibilidades eu posso criar um algo específico para assento e depois um balão específico
+
+84
+00:07:34,380 --> 00:07:35,250
+para a cliente.
+
+85
+00:07:35,570 --> 00:07:41,190
+E aí eu insira os dois para o interior do estado eu posso criar algo genérico.
+
+86
+00:07:41,220 --> 00:07:47,130
+Não vou precisar nesse momento me preocupar em fazer consulta eu vou dizer que o Dalva e sei ele vai
+
+87
+00:07:47,130 --> 00:07:56,880
+estar resolvido para o objetivo que é o tipo mais genérico qualquer que recebe dinheiro dela e a partir
+
+88
+00:07:56,880 --> 00:08:01,530
+desse único deus eu vou conseguir para assistir os dois objetos no banco de dados.
+
+89
+00:08:01,590 --> 00:08:07,940
+é a pergunta que vai surgir é o seguinte quem eu preciso ser primeiro precisa ser primeiro aceito ou
+
+90
+00:08:07,950 --> 00:08:10,070
+precisa ser o primeiro o cliente.
+
+91
+00:08:10,110 --> 00:08:17,220
+A gente fez uma modelagem de tal forma que dentro da tabela cliente eu vou ter o pedido sendo certo
+
+92
+00:08:17,220 --> 00:08:24,120
+porque eu coloquei o atributo digamos de que a o Centro dentro da tabela cliente uma vez que eu fiz
+
+93
+00:08:24,120 --> 00:08:30,390
+isso significa que lá no banco de dados eu botei o Adílio o cliente o nome do cliente e o pedido aceito
+
+94
+00:08:30,390 --> 00:08:34,260
+tudo isso na Tabela Cliente certo como eu fiz isso na balada cliente.
+
+95
+00:08:34,260 --> 00:08:40,830
+Primeiro preciso inserir o acento para quando foi inserido o cliente já tem o atributo digamos assim
+
+96
+00:08:40,880 --> 00:08:45,140
+pronto né o Adílio sempre pronto pra colocar na Tabela Cliente.
+
+97
+00:08:45,150 --> 00:08:49,930
+Então a ordem que eu vou seguir vai ser eu vou chamar aqui o tal ponto.
+
+98
+00:08:50,100 --> 00:08:59,340
+Abri a transação na outra linha eu vou colocar pra ele e inseri o acento vou na outra linha colocar
+
+99
+00:08:59,340 --> 00:09:01,620
+pra ele inserir o cliente.
+
+100
+00:09:01,620 --> 00:09:03,900
+Tudo isso vai ser numa única transação.
+
+101
+00:09:03,990 --> 00:09:11,850
+E finalmente eu vou chamar de fechar a transação e fechar a conexão que é o metro fechada dentro do
+
+102
+00:09:11,860 --> 00:09:12,350
+fechado.
+
+103
+00:09:12,350 --> 00:09:13,530
+Fechou em Ximenes.
+
+104
+00:09:13,950 --> 00:09:18,200
+Ou seja a partir do momento que eu o chamei eu fechar para um determinado valor não posso mais a ele
+
+105
+00:09:18,570 --> 00:09:23,420
+depois porque Minas vai estar fechado prontas que aqui pra gente ver.
+
+106
+00:09:23,940 --> 00:09:27,030
+Ele gerou dois excertos como era o esperado né.
+
+107
+00:09:27,030 --> 00:09:31,910
+Primeiro aceitou e depois o cliente para a gente olhar aqui ou não e creche.
+
+108
+00:09:31,920 --> 00:09:39,580
+Ele criou mais duas tabelas assim que o cliente e eu vou colocar aqui pra gente verificar os assentos.
+
+109
+00:09:39,660 --> 00:09:49,330
+Eu tenho um centro de edição 16 foi dentro de uma transação então tem isso só agora clientes.
+
+110
+00:09:49,660 --> 00:09:57,190
+O que vi lá executando também pode selecionar aqui nesse rolezinho ele vai mostrar onde aceitou.
+
+111
+00:09:57,410 --> 00:10:03,090
+é uma coisa interessante dentro de transacional mesmo que eu coloque por exemplo o assento para baixo
+
+112
+00:10:03,120 --> 00:10:13,800
+tente primeiro incluir o cliente depois o assento eu vou colocar aqui por exemplo lá lá 108 disse Carlos.
+
+113
+00:10:14,040 --> 00:10:19,640
+Ele ainda assim vai entender que há uma dependência primeiro precisa inserir o assento para depois ser
+
+114
+00:10:19,640 --> 00:10:23,460
+o cliente então ele vai resolver isso dentro de um contexto transacional.
+
+115
+00:10:23,490 --> 00:10:29,110
+Se fossem duas transações diferentes havia problemas vou achar para vocês ao executar aqui.
+
+116
+00:10:29,250 --> 00:10:30,970
+Nesse caso o que aconteceu.
+
+117
+00:10:31,320 --> 00:10:35,700
+Primeiro ele inseriu o cliente em sinal de que você falou.
+
+118
+00:10:35,820 --> 00:10:41,150
+Depois ele inseriu o assento e finalmente ele fez o app deixa no cliente para atualizar isso.
+
+119
+00:10:41,730 --> 00:10:47,080
+Então se a gente viu o resultado ele ainda conseguiu resolver na mesma hora em que você colocou.
+
+120
+00:10:47,110 --> 00:10:52,580
+Ele percebeu que essa dependência salvou e depois fez um update de tal forma que até que o aceitou.
+
+121
+00:10:52,770 --> 00:11:01,890
+2 8 e tenho aqui 2 Carlos apontando para o assento 2 Se eu fizer isso de forma digamos assim em transações
+
+122
+00:11:01,890 --> 00:11:06,010
+diferentes não duplicar isso aqui.
+
+123
+00:11:06,060 --> 00:11:17,310
+A ideia aqui é por exemplo tentar inseri o cliente e depois tentar inserir o acento nesse caso mas não
+
+124
+00:11:17,310 --> 00:11:28,110
+posso ter problema e ele vai gerar essa ação dizendo que não consegue por exemplo salvar o cliente se
+
+125
+00:11:28,110 --> 00:11:32,850
+o assento está no estado transeunte no Estado não salvo.
+
+126
+00:11:32,970 --> 00:11:39,150
+Então você precisa salvar o cliente mas como dentro de uma mesma transação ele consegue resolver mais
+
+127
+00:11:39,150 --> 00:11:44,850
+um algo mais interessante que você já coloque na ordem adequada já que você sabe que o assento precisa
+
+128
+00:11:44,850 --> 00:11:51,810
+ser preciso primeiro você primeiro persistirá sendo pra depois esse seu cliente não pagar aqui por exemplo
+
+129
+00:11:52,200 --> 00:11:55,110
+o assento 23 F.
+
+130
+00:11:55,330 --> 00:12:04,020
+Vou colocar aqui pra lá o guia de voz então pronto olhando o resultado para a gente deu mas temos agora
+
+131
+00:12:04,020 --> 00:12:08,750
+três assentos o 16 C 8 C e o 23 F.
+
+132
+00:12:08,760 --> 00:12:18,030
+Nós temos três clientes que é a ANA o Carlos e a Bia e eu acredito que ele não vá criar por padrão.
+
+133
+00:12:18,060 --> 00:12:23,980
+A chave única do relacionamento para um que é uma pena ele pode testar isso fazendo o seguinte.
+
+134
+00:12:25,160 --> 00:12:27,550
+7.
+
+135
+00:12:28,860 --> 00:12:39,670
+Por exemplo clientes da TIM no caso nã vou colocar para inserir o nome e inserir tamanho acento.
+
+136
+00:12:39,750 --> 00:12:45,940
+André Klein e vou passar aqui os valores pra C por exemplo.
+
+137
+00:12:46,570 --> 00:12:54,210
+Daniel Eu vou colocar até o acento nesse caso eu vou gerar uma inconsistência porque tanto na parte
+
+138
+00:12:54,250 --> 00:13:03,180
+apontando para o acento como com o Daniel com acento e sem jornal editado ele inseriu foram bem sucedidas
+
+139
+00:13:03,180 --> 00:13:08,000
+se eu procurar aqui os clientes você vai ver terá na parte de baixo pronto.
+
+140
+00:13:08,350 --> 00:13:14,520
+Olhando os clientes você vai ver que nós temos o Daniel apontado pela Accenture e a Ana também apontam
+
+141
+00:13:14,530 --> 00:13:18,940
+para acentuar que não é interessante nesse caso já que ele tem uma relação Braun.
+
+142
+00:13:18,960 --> 00:13:29,580
+Aqui nós podemos fazer o seguinte dentro de um cliente nós temos relacionamento de um ano e eu não posso
+
+143
+00:13:29,580 --> 00:13:31,640
+usar aqui o arroba colam.
+
+144
+00:13:31,680 --> 00:13:39,910
+Na verdade eu posso usar o arroba de Cole que é uma outra anotação específica para mapear Campos que
+
+145
+00:13:39,910 --> 00:13:42,950
+representam a junção de tabelas tá bom.
+
+146
+00:13:43,260 --> 00:13:50,130
+E aqui você também tem um atributo meio de por exemplo após colocar o atributo menu e usar o nome explicitamente.
+
+147
+00:13:50,160 --> 00:13:58,630
+Então posso colocar um acento Candela Aydin e posso usar o atributo Unix.
+
+148
+00:13:58,860 --> 00:14:06,210
+4 E aí ele vai garantir que dentro dessa coluna aceitou na amanhã em dia vou ter um valor único e eu
+
+149
+00:14:06,210 --> 00:14:12,610
+posso inclusive especificar que essa é uma relação obrigatória que eu tenho que ter um acento citado
+
+150
+00:14:12,630 --> 00:14:19,290
+não vou fazer isso mas eu você tá pra ser único uma vez que eu criei que eu vou fazer o seguinte eu
+
+151
+00:14:19,290 --> 00:14:26,460
+vou apagar aqui primeiro eu posso apagar os clientes porque então a dependência eu não posso apagar
+
+152
+00:14:26,460 --> 00:14:30,940
+os acentos já que o cliente da Ping já sentiu tal possa pagar os clientes de drop tb.
+
+153
+00:14:31,450 --> 00:14:40,800
+Outra o vou apagar aqui os acentos ou Drop da tabela tão propalado e agora eu vou tentar inserir novamente
+
+154
+00:14:41,130 --> 00:14:51,120
+novo cliente então começa na quinta dia 23 afim de inserir os dados vou olhar que acento e cliente.
+
+155
+00:14:51,120 --> 00:14:59,690
+Se eu tentar inseri o Daniel pra pegar o acento ele não vai permitir ao porquê chave duplicada com o
+
+156
+00:14:59,700 --> 00:15:06,350
+estranho é que foi criada a chave estrangeira e nesse caso aqui eu tenho de fato uma relação.
+
+157
+00:15:06,760 --> 00:15:13,560
+Então pra você ter essa construindo nada necessariamente precisa colocar dentro de cliente aqui o robô
+
+158
+00:15:13,570 --> 00:15:19,660
+de John incólume que é a anotação específico pra você mapear uma coluna que representam a relação entre
+
+159
+00:15:20,080 --> 00:15:26,380
+duas tabelas Tá bom então pra você colocar aqui a chave única agora nós temos uma relação pra um só
+
+160
+00:15:26,380 --> 00:15:34,420
+pra gente colocar mais alguns dados aqui então coloca aqui oito e filho pra ser executado.
+
+161
+00:15:34,620 --> 00:15:40,680
+E finalmente eu vou colocar aqui 16 a pra c.
+
+162
+00:15:40,940 --> 00:15:48,490
+Carlos tem cada um com seu próprio acento a relação entre duas tabelas então coloca que os clientes
+
+163
+00:15:48,500 --> 00:15:57,610
+nós temos três clientes aceitam um dois três e temos aqui o acento 8 x 3 f 8 e 16.
+
+164
+00:15:57,610 --> 00:16:03,280
+Se você tentar incluir o Daniel não vai funcionar diferente do nosso exemplo agora pouco.
+
+165
+00:16:03,280 --> 00:16:09,970
+Então nós fizemos o nosso primeiro exemplo de relacionamento pra várias coisas interessantes algumas
+
+166
+00:16:09,970 --> 00:16:15,720
+pegadinhas com relação a não criação dessa constroem o que eu precisei colocar lá roubou um golo.
+
+167
+00:16:15,820 --> 00:16:20,860
+Outra coisa interessante que a gente via com relação à ordem de inclusão nem mesmo dentro de uma transação
+
+168
+00:16:20,860 --> 00:16:26,530
+que você inverta a ordem ele acabou criando uma exceção ou outra inserção e depois no Ocidente mas na
+
+169
+00:16:26,530 --> 00:16:33,550
+ordem correta ele faz da forma mais otimizada e se você coloca em transações diferentes tentar persistir
+
+170
+00:16:33,890 --> 00:16:39,040
+num objeto que aponta para o objeto que não foi persistido isso não é um problema e você precisa fazer
+
+171
+00:16:39,050 --> 00:16:45,190
+a persistência na ordem correta a não ser que você use o recurso que ela mostra na próxima aula para
+
+172
+00:16:45,300 --> 00:16:51,940
+a gente ver como é que a partir de um objeto o JP automaticamente persiste outro exatamente o tempo
+
+173
+00:16:51,960 --> 00:16:53,830
+que eu vou falar na próxima aula eu disparou.

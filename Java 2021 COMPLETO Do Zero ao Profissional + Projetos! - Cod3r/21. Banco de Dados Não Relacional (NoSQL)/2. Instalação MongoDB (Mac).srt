@@ -1,0 +1,299 @@
+1
+00:00:00,240 --> 00:00:05,790
+Seja muito bem vindo a mais um capítulo do nosso curso é o ano moderno e nesse capítulo vamos trabalhar
+
+2
+00:00:05,790 --> 00:00:11,250
+com bancos não relacionais na verdade nós vamos trabalhar com o mundo BB que é um dos principais bancos
+
+3
+00:00:11,250 --> 00:00:13,140
+não relacionais do mercado.
+
+4
+00:00:13,140 --> 00:00:18,720
+é um banco baseado em documentos aproximá las um desvio um pouquinho mais sobre alguns conceitos importantes
+
+5
+00:00:18,720 --> 00:00:24,380
+dos bancos não relacionais nessa aulas vamos instalar o mongo DB um processo que eu vou rodar na sala
+
+6
+00:00:24,390 --> 00:00:26,850
+um processo baseado no Mac.
+
+7
+00:00:26,880 --> 00:00:32,670
+Mas é muito parecido com o Linux não vai ser tão diferente assim e os princípios também são os mesmos
+
+8
+00:00:32,670 --> 00:00:38,370
+do Windows eu também vou colocar os vídeos para que provavelmente já deve ter colocado o vídeo pra você
+
+9
+00:00:38,370 --> 00:00:39,760
+instalar também no Windows.
+
+10
+00:00:39,870 --> 00:00:46,900
+Então a primeira coisa que nós vamos fazer acessar o site do mongo DB https: 2 Barra Barra www.
+
+11
+00:00:46,940 --> 00:00:53,180
+DB ponto com quando você entra algum site tem a opção aqui pra obter um mongo DB nesse botão verde.
+
+12
+00:00:53,340 --> 00:00:59,100
+Clicando aqui você vai ter várias opções não há essa opção que é aberta por padrão que é o Atlas você
+
+13
+00:00:59,100 --> 00:01:04,620
+vai selecionar e sabe como segue que o servidor é aberto para a comunidade.
+
+14
+00:01:04,890 --> 00:01:10,560
+Ele já colocou aqui para baixar a versão do Mac e assim vou baixar o arquivo tarjas Z que é um arquivo
+
+15
+00:01:11,040 --> 00:01:18,060
+compactado em cima desse arquivo vou copiar e vou colocar essa pasta no Supersimples não tenho o processo
+
+16
+00:01:18,060 --> 00:01:24,720
+de instalação e sim de se compactar um arquivo e colocá lo no local certo adicionar o PDF e criar as
+
+17
+00:01:24,720 --> 00:01:29,570
+pastas onde serão armazenados os nossos banco de dados eu vou mostrar para vocês agora.
+
+18
+00:01:29,620 --> 00:01:36,870
+Então o processo da Luz terminou super pequenininho acho que 60 mega coisas do tipo vou compactar aqui
+
+19
+00:01:36,900 --> 00:01:38,270
+na própria página de download.
+
+20
+00:01:38,270 --> 00:01:45,830
+Vou renomear a pasta Tracey mongo DB traço 4 pontos 0 1.
+
+21
+00:01:45,980 --> 00:01:53,490
+Observação Se você tiver conversões anteriores tipo A3 com 6 3 com 4 e você já tiver criado a pasta
+
+22
+00:01:53,930 --> 00:01:59,130
+e Barra data base b que é onde ele armazena o banco de dados é possível que você tenha um problema na
+
+23
+00:01:59,130 --> 00:02:01,580
+hora de inicializar o banco.
+
+24
+00:02:01,620 --> 00:02:08,010
+Então é importante se você não tem nenhum dado crítico você pode deletar essa parte dele recriar os
+
+25
+00:02:08,010 --> 00:02:13,480
+seus dados e você tiver algum dado crítico na hora de inicializar o DB você pode direcionar para uma
+
+26
+00:02:13,480 --> 00:02:20,070
+outra pasta então se a observação que você está usando na versão do mundo 4 pontos 0 ponto aqui nos
+
+27
+00:02:20,070 --> 00:02:26,890
+nossos vídeos não para isso eu vou mover essa pasta para dentro de application então jogando aqui a
+
+28
+00:02:26,910 --> 00:02:32,680
+minha pasta vai ficar aqui embaixo ao longo do n 4 ponto onde eu vou selecionar o nome da pasta com
+
+29
+00:02:32,720 --> 00:02:34,380
+um browser copiado.
+
+30
+00:02:34,450 --> 00:02:41,760
+Eu vou abrir o terminal para que a gente possa acessar aqui ao sul do Nano e até C Barra PF eu vou colocar
+
+31
+00:02:41,760 --> 00:02:48,330
+dentro da Barra PF se colocassem entrando aqui no arquivo eu vou fazer o seguinte o caminho que eu vou
+
+32
+00:02:48,330 --> 00:02:54,020
+colocar vai ser Application se baixar o nome da pasta.
+
+33
+00:02:54,090 --> 00:03:02,230
+Barra esse é o caminho que eu quero que também seja acrescentado no perfil no caso do Mac eu tenho Barrett
+
+34
+00:03:02,230 --> 00:03:06,640
+esse da PF no caso do Linux se você tem por exemplo arquivo Paulo Betti.
+
+35
+00:03:06,770 --> 00:03:12,750
+R7 fica na própria parte do usuário tem muitas formas de você adicionar o próprio TC bairro vai também
+
+36
+00:03:12,750 --> 00:03:17,560
+no Linux que você consegue colocar um caminho pra ser adicionado no perfil do sistema.
+
+37
+00:03:17,850 --> 00:03:25,120
+Então nesse caso eu coloquei Barra Application Barra mongo DB traço 4 pontos 0 traço 4 pontos 0 ponto
+
+38
+00:03:25,140 --> 00:03:28,430
+1 Babi ou dar um control ópera de.
+
+39
+00:03:28,480 --> 00:03:34,170
+Aqui eu estou usando o Nano pode se ouvir qualquer editor da sua preferência vou fechar se eu fizer
+
+40
+00:03:34,270 --> 00:03:39,540
+vou dar aqui por exemplo Mongo menos brecha você vai ver que ele não tem esse comando.
+
+41
+00:03:39,630 --> 00:03:47,010
+Eu vou fechar abril o terminal novamente e vou digitar Kill Mongo menos vexame pra que você veja que
+
+42
+00:03:47,010 --> 00:03:53,790
+de fato agora reiniciando o terminal eu estou com a minha disposição para fechar que o Brasil fechar
+
+43
+00:03:53,790 --> 00:03:54,710
+aqui.
+
+44
+00:03:54,740 --> 00:03:56,740
+é isso que vou dar hoje.
+
+45
+00:03:57,160 --> 00:04:02,370
+Então posso estar tal banco de dados colocando o meu amigo dele colocando mudei.
+
+46
+00:04:02,430 --> 00:04:09,270
+Ele vai não vai estar lá e vai dizer o seguinte joga a pasta traço data traço BB não foi encontrado.
+
+47
+00:04:09,270 --> 00:04:13,950
+Então preciso criar essa pasta pra que de fato eu consiga tal banco de dados.
+
+48
+00:04:13,950 --> 00:04:19,260
+Então pra isso não vejo ataque ao sul do Barra de Barra data.
+
+49
+00:04:19,330 --> 00:04:26,280
+Vou colocar aqui minha senha criou a pasta e vou criar dentro dessa pasta Barra data a pasta Barra DP
+
+50
+00:04:26,670 --> 00:04:31,260
+estão colocando as duas pastas agora tem à minha disposição essas duas pastas.
+
+51
+00:04:31,260 --> 00:04:38,610
+Posso apostar que o mudei ele vai dizer que tem um problema de permissão não foi não conseguiu acessar
+
+52
+00:04:38,630 --> 00:04:39,260
+Itau.
+
+53
+00:04:39,420 --> 00:04:44,460
+Você pode rodar com um furo ou então mexer nas permissões dessa pasta certa vou rodar com um seguro
+
+54
+00:04:44,720 --> 00:04:45,950
+que é mais simples.
+
+55
+00:04:45,960 --> 00:04:49,430
+Pronto agora tenho o banco de dados rodando na minha máquina.
+
+56
+00:04:49,560 --> 00:04:56,540
+Na versão 4 pontos 0 ponto 1 eu preciso deixar esse processo ser executado por mais que apareça que
+
+57
+00:04:56,550 --> 00:05:04,460
+o Onix por mais que apareça algumas mensagens dizem homens lá não deu certo a instalação manda um presente
+
+58
+00:05:04,730 --> 00:05:10,570
+de fato do banco de dados rodando então quando aparece essa opção aqui é o for Connection na porta de
+
+59
+00:05:10,570 --> 00:05:14,210
+27 série 17 significa que deu certo.
+
+60
+00:05:14,270 --> 00:05:19,760
+E aí uma vez que o banco está executando você tem duas possibilidades pra acessar tem mais obviamente
+
+61
+00:05:19,760 --> 00:05:22,580
+mais as principais pra você acessar diretamente.
+
+62
+00:05:22,640 --> 00:05:29,420
+Ou você abre aqui outro terminal e abre uma outra aba e eu entro na ferramenta.
+
+63
+00:05:29,950 --> 00:05:37,660
+Um cliente no terminal do mundo olha aqui você vai ter a opção de resetar Help você tem como limpar
+
+64
+00:05:37,780 --> 00:05:43,700
+e mostrar por exemplo o D3 que é quando a gente vai na próxima aula vou mostrar um pouco mais detalhado
+
+65
+00:05:44,030 --> 00:05:46,370
+esses comandos você tem à sua disposição.
+
+66
+00:05:46,370 --> 00:05:53,630
+Essa ferramenta de linha de comando quer que nós vamos usar aqui no capítulo mais você também pode acessar
+
+67
+00:05:54,650 --> 00:05:56,030
+o robô.
+
+68
+00:05:56,040 --> 00:06:01,590
+3 Até que a ferramenta visual para você acessar também muda.
+
+69
+00:06:01,620 --> 00:06:03,790
+Bem então você pode instalar aqui e vou estar lá.
+
+70
+00:06:04,070 --> 00:06:09,950
+Essa versão mais você tem uma ferramenta visual para olhar os seus bancos e executar os comandos.
+
+71
+00:06:09,950 --> 00:06:13,980
+Tudo por aqui também uma opção muito interessante para vocês usarem.
+
+72
+00:06:14,000 --> 00:06:19,250
+Você pode baixar essa opção mas vamos durante o capítulo usar a ferramenta de linha de comando para
+
+73
+00:06:19,250 --> 00:06:24,740
+que a gente possa explorar um pouco mais da API do mundo espera na para pra gente continuar o nosso
+
+74
+00:06:24,740 --> 00:06:25,650
+Capitulo II.
+
+75
+00:06:25,670 --> 00:06:26,060
+Até lá.

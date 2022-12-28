@@ -1,0 +1,371 @@
+1
+00:00:00,300 --> 00:00:03,040
+Agora nós vamos fazer um exemplo usando Matriz.
+
+2
+00:00:03,270 --> 00:00:07,900
+Eu vou fazer um exemplo parecido com esse exemplo que nós fizemos um desafio.
+
+3
+00:00:07,980 --> 00:00:11,510
+Só que agora nós vamos pegar as notas de mais de um aluno.
+
+4
+00:00:11,510 --> 00:00:16,080
+Então a primeira pergunta que o programa vai fazer é quantos alunos tem na turma.
+
+5
+00:00:16,080 --> 00:00:22,100
+Então por exemplo uns três quatro ou cinco alunos a gente vai lá e armazena a quantidade de alunos.
+
+6
+00:00:22,100 --> 00:00:29,270
+5 Quantas notas cada aluno tem aluno tem duas notas ou três notas em armazena essa informação.
+
+7
+00:00:29,270 --> 00:00:36,770
+Nós vamos criar um rei dentro de outro array ou seja a matriz certo e a matriz vai ser o rei mais externo
+
+8
+00:00:36,810 --> 00:00:43,050
+vai ser a quantidade de alunos e cada rei que vai ser colocado dentro da rede mais externa ou seja ele
+
+9
+00:00:43,050 --> 00:00:47,640
+vai representar a quantidade de notas de cada um dos alunos e no final eu quero calcular a média da
+
+10
+00:00:47,640 --> 00:00:48,580
+turma inteira.
+
+11
+00:00:48,580 --> 00:00:49,860
+Como é que eu vou fazer isso.
+
+12
+00:00:50,220 --> 00:00:56,220
+Então vou mostrar para vocês agora se você quiser pausar e tentar fazer isso como desafio também acho
+
+13
+00:00:56,220 --> 00:00:59,730
+que é válido aplicar aqui na nova classe.
+
+14
+00:00:59,790 --> 00:01:09,840
+Eu vou chamar aqui de matriz certo e vou criar aqui um homem e nós vamos colocar aqui uma entrada.
+
+15
+00:01:09,990 --> 00:01:15,030
+Vou aumentar os impostos para ele importar o Escânia em cima disso eu vou fazer minha primeira pergunta
+
+16
+00:01:15,030 --> 00:01:28,830
+ao System Photo aos print aqui ou perguntar quantos alunos qualquer interrogação ponto vírgula ou qualquer
+
+17
+00:01:29,580 --> 00:01:37,370
+quantidade de alunos recebem entrada contou Max.
+
+18
+00:01:37,470 --> 00:01:42,810
+A próxima pergunta como fazer até duplicar esse trecho de código que posso aproveitar então.
+
+19
+00:01:43,230 --> 00:01:53,590
+Quantas notas por aluno ele vai formar uma qualquer quantidade de notas.
+
+20
+00:01:53,620 --> 00:02:00,060
+E com essas duas informações eu consigo criar minha matriz que vai ser a matriz da ABL ou seja a matriz
+
+21
+00:02:00,060 --> 00:02:11,730
+de duas dimensões que eu vou colocar notas da turma recebe da ABL a rede mais externa vai ser em cima
+
+22
+00:02:11,730 --> 00:02:19,480
+da quantidade de alunos então vou usar aquela quantidade para maximizar alunos e a rede mais interno
+
+23
+00:02:19,500 --> 00:02:27,760
+vai ser a quantidade de quantidade de notas e então a quantidade de notas impressa que passa a funcionar.
+
+24
+00:02:27,860 --> 00:02:33,550
+Faltou colocá la certa instancia a Bairro que também é um objeto.
+
+25
+00:02:33,930 --> 00:02:40,660
+Então nós temos aqui as notas da turma agora para a gente percorrer essa matriz colocar nas notas que
+
+26
+00:02:40,670 --> 00:02:45,950
+vai fazer o seguinte colocar aqui um som mais externo que vai em cima de notas a turma.
+
+27
+00:02:46,350 --> 00:02:52,260
+Ele vai percorrer cada um dos que seriam os alunos está certo e vai ter um informaes mais interno que
+
+28
+00:02:52,260 --> 00:02:54,860
+vai pegar aqui outro qualquer.
+
+29
+00:02:55,070 --> 00:03:03,930
+é importante aqui ou seja para cada elemento mais externo vou percorrer as notas então o J vai percorrer
+
+30
+00:03:03,930 --> 00:03:06,450
+a nota e representou o aluno.
+
+31
+00:03:06,460 --> 00:03:12,700
+Você pode até mudar a letra para ficar um pouco mais fácil algo colocar aqui de aluno para seu externo
+
+32
+00:03:13,200 --> 00:03:16,800
+e o de dentro vou chamar de para assim apresentar nota 7.
+
+33
+00:03:16,820 --> 00:03:24,870
+Então aqui vai ser a nota daquele aluno certo usando a e aqui vai ser mais mais para ir para a próxima
+
+34
+00:03:24,870 --> 00:03:25,610
+nota.
+
+35
+00:03:25,680 --> 00:03:32,220
+Aqui eu posso colocar um system aos 30 pra perguntar para o aluno por exemplo informe para baixo está
+
+36
+00:03:32,230 --> 00:03:39,550
+a porcaria do sistema na quinta e interagem com o sistema informe a nota coloca até um print afim que
+
+37
+00:03:39,630 --> 00:03:47,550
+eu acho vai ficar melhor que não informem a nota do aluno porcentagem D.
+
+38
+00:03:47,700 --> 00:03:53,400
+Então informa a nota porcentagem D também aqui do aluno porcentagem D.
+
+39
+00:03:53,850 --> 00:04:00,690
+Então vou colocar aqui dois pontos e aqui eu vou passar primeiro com essa nota e depois eu vou passar
+
+40
+00:04:00,760 --> 00:04:01,320
+por aqui.
+
+41
+00:04:01,320 --> 00:04:07,590
+Essa nota do aluno só pra gente quebrar isso aqui mais de um ano está todo mundo vendo aqui embaixo
+
+42
+00:04:07,670 --> 00:04:19,770
+eu vou pegar o valor notas da turma vou pagar aqui se ele fora ou seja aluno Mota recebe o valor que
+
+43
+00:04:19,770 --> 00:04:24,810
+foi digitado então a entrada ponto Net da ABL.
+
+44
+00:04:24,930 --> 00:04:33,040
+Pegando esse mesmo valor aqui eu já posso aqui em cima criar uma variável nota total no valor zero e
+
+45
+00:04:33,060 --> 00:04:40,200
+aqui no momento que eu pegar esse valor eu já posso acrescentar o valor total um total mais igual eu
+
+46
+00:04:40,200 --> 00:04:48,470
+já vou ter no final o valor total da medida para calcular a média final é simples do craque da média.
+
+47
+00:04:48,720 --> 00:04:50,790
+Será total.
+
+48
+00:04:51,030 --> 00:05:01,670
+E aí vai ser dividido pela quantidade de alunos vezes a quantidade de notas se tem três alunos e três
+
+49
+00:05:01,670 --> 00:05:07,910
+alunos tem três notas então nós vamos ter nove notas ao todo e a média da turma vai ser todas as notas
+
+50
+00:05:07,910 --> 00:05:09,540
+dividido por nove.
+
+51
+00:05:09,550 --> 00:05:17,000
+é exatamente que eu estou fazendo aqui nós temos a média e eu vou colocar aqui no final média da turma
+
+52
+00:05:17,720 --> 00:05:21,320
+e mais no cálculo da média.
+
+53
+00:05:21,320 --> 00:05:23,170
+Finalmente chamou o colégio no final.
+
+54
+00:05:23,180 --> 00:05:29,860
+Então nós temos aqui uma matriz de duas dimensões que é a quantidade de alunos a matriz externa se você
+
+55
+00:05:29,860 --> 00:05:35,540
+disser que são oito alunos da turma Vou ter oito espaços e dentro de cada espaço eu vou ter a quantidade
+
+56
+00:05:35,540 --> 00:05:42,010
+de notas só são duas notas por aluno então cada espaço desse vai ter duas notas e no final vai ter 16
+
+57
+00:05:42,020 --> 00:05:45,260
+notas que é exatamente as duas notas pelos oito alunos.
+
+58
+00:05:45,290 --> 00:05:50,870
+Então vamos executar nosso primeiro teste para saber se vai funcionar a quantidade de alunos eu vou
+
+59
+00:05:50,870 --> 00:05:56,500
+dizer que tem seis quantidade de notas por alguma coisa tem duas.
+
+60
+00:05:56,510 --> 00:06:03,040
+Então informe a nota zero do aluno zero eu vou parar aqui só para a gente se ajeitar aqui.
+
+61
+00:06:03,140 --> 00:06:09,800
+A questão do índice então vou colocá lo em mais um e a mais um para sempre começa a informa a nota.
+
+62
+00:06:09,800 --> 00:06:15,650
+A primeira nota do aluno segundo a nota do aluno assim vai executar novamente a quantidade de alunos
+
+63
+00:06:15,680 --> 00:06:22,760
+vai ser sim a quantidade de notas 2 informa a nota do aluno.
+
+64
+00:06:22,760 --> 00:06:29,750
+Vou colocar aqui o aluno tirou oito a nota 2 do aluno tirou oito e a nota 1 do aluno 2 aluno 2 tirou
+
+65
+00:06:29,750 --> 00:06:41,900
+9 9 1 3 tirou 7 7 o aluno 4 tirou 8 8 5 tirou nota 9.
+
+66
+00:06:42,320 --> 00:06:44,930
+Finalmente a média da turma vai ser 8 2.
+
+67
+00:06:45,080 --> 00:06:49,820
+Acho que tá certo o cálculo é certo eu não vou fazer o cálculo aqui na hora da aula não mas o fato é
+
+68
+00:06:49,820 --> 00:06:59,010
+que nós temos cinco alunos cada um com duas notas então nota 2 nota 1 e 2 logo no 2 nota 1 2 3 1 2 1
+
+69
+00:06:59,120 --> 00:07:01,250
+4 2 do aluno 5.
+
+70
+00:07:01,430 --> 00:07:07,460
+Tivemos das notas ao todo no final somando tudo dividindo por dez já que a multiplicação e quantidade
+
+71
+00:07:07,460 --> 00:07:11,050
+de alunos e a quantidade de notas nós temos a média da turma.
+
+72
+00:07:11,060 --> 00:07:14,870
+Só que agora usando uma matriz ou seja rei dentro do outro.
+
+73
+00:07:15,200 --> 00:07:20,330
+E pra isso a gente precisou fazer um forte do outro o primeiro fórum for mais externo melhor dizendo
+
+74
+00:07:20,770 --> 00:07:26,000
+ele vai percorrendo cada um dos alunos para cada um dos alunos ele faz um fone inteiro para percorrer
+
+75
+00:07:26,000 --> 00:07:27,620
+cada uma das notas do aluno.
+
+76
+00:07:27,680 --> 00:07:34,550
+Nessa estratégia tanto pra encheu a rei como também fizemos já a soma do total e no final se você quiser
+
+77
+00:07:34,550 --> 00:07:47,930
+usá la o System Audio preenche ali a raiz do trecho importa aqui já último ponto os trilhos e aqui a
+
+78
+00:07:47,930 --> 00:07:55,860
+gente pode colocar no outro extremo o valor de notas da turma 7 notas da turma só pra gente exibir você
+
+79
+00:07:55,890 --> 00:07:58,680
+já está mais uma vez pela quantidade de alunos.
+
+80
+00:07:58,790 --> 00:08:09,890
+Vai ser 3 a quantidade de notas vai ser 3 eu coloco aqui 7 7 7 2 8 8 8 9 9 9.
+
+81
+00:08:09,920 --> 00:08:16,700
+O resultado ele acabou imprimindo a mais externa mais de mil a mais interna que a gente pode fazer aqui
+
+82
+00:08:16,830 --> 00:08:23,450
+e fazer um fórum sem necessariamente precisar usar esse fórum mais complicado vou fazer o seguinte vou
+
+83
+00:08:23,450 --> 00:08:36,400
+criar aqui davam as notas do aluno e vou colocar aqui notas da turma ou seja nesse caso quando tiver
+
+84
+00:08:36,410 --> 00:08:42,650
+percorrendo esse foro mais externo quando tiver percorrido notas da turma cada um dos elementos vai
+
+85
+00:08:42,650 --> 00:08:50,550
+ser também um rei da ABL e aqui dentro eu posso colocar um print ali pra ele imprimir as notas do aluno
+
+86
+00:08:50,550 --> 00:08:57,760
+se ele vai conseguir ter o resultado que eu quero no último teste de QI quantidade de alunos 3 quantidade
+
+87
+00:08:57,770 --> 00:09:04,790
+notas 3 3 7 7 7 8 8 8 finalmente 9 9 9.
+
+88
+00:09:04,790 --> 00:09:10,940
+O resultado vai sim a média da turma 8 como era de se esperar que os valores que foram obtidos ao primeiro
+
+89
+00:09:11,000 --> 00:09:13,710
+aluno do segundo aluno será longo.
+
+90
+00:09:13,820 --> 00:09:18,980
+Então esse foi o nosso exercício de matriz até para os mal que nós vamos entender um conceito muito
+
+91
+00:09:18,980 --> 00:09:25,930
+importante antes mesmo de entrar em Collection que é o conceito de igualdade de objetos dentro do Java.
+
+92
+00:09:25,940 --> 00:09:30,110
+Esse é um conceito bastante interessante na próxima aula de vai entender um pouquinho dele.
+
+93
+00:09:30,260 --> 00:09:33,430
+Depois ele vai fazer um exercício prático sobre isso e aproximá proximal.

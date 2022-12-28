@@ -1,0 +1,699 @@
+1
+00:00:00,420 --> 00:00:07,680
+Mas vamos falar agora sobre variáveis e constantes é algo extremamente importante dentro de um programa
+
+2
+00:00:07,680 --> 00:00:10,720
+e você manipular os dados e trabalhar com esses dados.
+
+3
+00:00:10,740 --> 00:00:18,480
+Os dados eles podem ser armazenados em variáveis ou seja essas variáveis vão ser manipuladas e ser mudadas
+
+4
+00:00:18,480 --> 00:00:25,170
+durante seu programa onde podem ser armazenados e inconstantes uma vez que você definha constante durante
+
+5
+00:00:25,170 --> 00:00:26,290
+todo o seu programa.
+
+6
+00:00:26,310 --> 00:00:28,500
+Ela não pode ser mudada.
+
+7
+00:00:28,500 --> 00:00:36,420
+é importante dizer que em Java as variáveis e constantes elas uma vez que elas nascem elas vão ter um
+
+8
+00:00:36,420 --> 00:00:42,300
+tipo de dado ou seja em Java a linguagem dita fortemente dissipada.
+
+9
+00:00:42,380 --> 00:00:49,710
+Quer dizer isso se eu crio uma variável para armazenar o número eu não posso de forma nenhuma adicionar
+
+10
+00:00:49,710 --> 00:00:56,630
+um texto a essa variável não posso colocar um texto nela porque ela foi criada para ser usada como um
+
+11
+00:00:56,630 --> 00:00:57,300
+número.
+
+12
+00:00:57,360 --> 00:01:03,360
+Se eu crio uma variável para se ter um valor verdadeiro ou falso o cavalo booleano eu vou falar sobre
+
+13
+00:01:03,600 --> 00:01:06,180
+os tipos mais à frente.
+
+14
+00:01:06,720 --> 00:01:13,650
+Eu não posso colocar um número dentro desse nessa variável porque em Java as variáveis uma vez que ela
+
+15
+00:01:13,650 --> 00:01:19,940
+tem um título ela vai morrer com esse tipo ela não muda durante a execução do seu programa.
+
+16
+00:01:19,940 --> 00:01:23,090
+Já outras linguagens como por exemplo JavaScript.
+
+17
+00:01:23,610 --> 00:01:30,980
+Você não tem essa tipagem forte você pode criar uma variável e uma hora colocar um número 1 hora coloca
+
+18
+00:01:30,980 --> 00:01:36,360
+um texto para colocar um valor verdadeiro ou falso e aí você faz da forma como você quer.
+
+19
+00:01:36,360 --> 00:01:38,160
+Para armazenar essas variáveis.
+
+20
+00:01:38,160 --> 00:01:43,680
+Mais no caso do Java não Java é uma linguagem fortemente equipada.
+
+21
+00:01:44,100 --> 00:01:50,110
+Então uma vez que você cravou o tipo da variável você tem que desejar na criação uma variável do tipo.
+
+22
+00:01:50,610 --> 00:01:55,670
+Esse tipo vai estar sempre atrelado a essa variável não pode ser mudado.
+
+23
+00:01:55,680 --> 00:02:00,810
+Outra coisa é importante também em relação a variáveis e que quando você cria uma variável você tem
+
+24
+00:02:00,810 --> 00:02:06,480
+que dar um nome para essa variável ou pressa constante que é o que chamo de identificador.
+
+25
+00:02:06,930 --> 00:02:15,220
+Existem algumas regras bem simples em relação ao identificador e variáveis em Java por exemplo variável
+
+26
+00:02:15,220 --> 00:02:21,780
+não pode começar com o número 1 por exemplo 1 2 3 de Oliveira 4.
+
+27
+00:02:21,860 --> 00:02:30,090
+A variável que valida a variável não pode conter alguns caracteres como por exemplo mais ou menos tudo
+
+28
+00:02:30,090 --> 00:02:37,380
+aquilo que for usado dentro da própria linguagem comum como o operador alguma outra coisa não pode ser
+
+29
+00:02:37,380 --> 00:02:43,470
+usado você pode começar com Wanderlei você pode colocar o cifrão.
+
+30
+00:02:43,560 --> 00:02:49,380
+As variáveis podem ter letras maiúsculas e minúsculas inclusive elas são Key Sensitive uma vez que você
+
+31
+00:02:49,380 --> 00:02:56,250
+cria uma variável chamada navio todo em maiúscula e cria outra variável na navio todo e minúsculo são
+
+32
+00:02:56,250 --> 00:02:58,010
+duas variáveis diferentes.
+
+33
+00:02:58,090 --> 00:03:04,320
+Se você cria uma terceira variável navio com o Sol em maiúsculas e minúsculas é uma terceira variável
+
+34
+00:03:04,320 --> 00:03:10,410
+e todas podem coexistir dentro da mesma área do seu programa que não vai ter conflito porque as variáveis
+
+35
+00:03:10,410 --> 00:03:16,770
+são Key Sensitive só é importante entender que existe algum as convenções que você pode ou não seguir
+
+36
+00:03:17,200 --> 00:03:26,450
+mas que a grande maioria dos programadores Java ou seguem essas convenções e se você não seguir provavelmente
+
+37
+00:03:26,460 --> 00:03:33,750
+você vai ser chamado a atenção por algum outro programadores em algo criando fora do padrão tal qual
+
+38
+00:03:33,750 --> 00:03:42,240
+é o padrão intergaláctico digamos assim dessas dessas variáveis e constantes as variáveis elas começam
+
+39
+00:03:42,240 --> 00:03:46,820
+com letra minúscula e cada nova palavra que você cria você.
+
+40
+00:03:46,890 --> 00:03:52,500
+A primeira letra de cada palavra você coloca em maiúscula é o que a gente chama de câmera ok.
+
+41
+00:03:52,920 --> 00:03:59,960
+Então você criou a palavra por exemplo primeiro você coloca a palavra e a voz pouco o nome da variável
+
+42
+00:03:59,970 --> 00:04:07,860
+seja primeiro cliente então primeiro minúsculo seja cliente e maiúsculo o resto no nome do cliente vai
+
+43
+00:04:07,860 --> 00:04:09,200
+ser minúsculo.
+
+44
+00:04:09,210 --> 00:04:18,550
+Primeiro cliente idoso que você coloca primeiro o cliente maiúsculo mas o resto de cliente é minúsculo
+
+45
+00:04:19,300 --> 00:04:20,980
+idoso também maior.
+
+46
+00:04:21,060 --> 00:04:24,240
+Cada nova palavra que você vai colocar na sua variável.
+
+47
+00:04:24,240 --> 00:04:28,950
+A primeira letra dela maiúscula justamente a notação minúscula meu isso.
+
+48
+00:04:28,980 --> 00:04:35,360
+No caso das constantes a conversão diz que a constante era escrito todo em maiúsculo certo.
+
+49
+00:04:35,730 --> 00:04:38,420
+E cada palavra separada por Wanderley.
+
+50
+00:04:38,790 --> 00:04:45,850
+Então você tem navio escola navio maiúsculo Wanderley escola com maiúscula certo.
+
+51
+00:04:46,200 --> 00:04:52,980
+Então quando você olha para uma constante olha para uma variável fica muito fácil você perceber o que
+
+52
+00:04:52,980 --> 00:05:00,470
+é uma constante com a variável só pela forma como ela foi escrita então com as variáveis como minutos
+
+53
+00:05:00,480 --> 00:05:08,590
+por cada novo palavra a primeira letra maiúscula e as constantes todas em maiúscula separada com o Vanderlei.
+
+54
+00:05:08,660 --> 00:05:14,640
+Certo mas vamos criar agora uma nova classe pra mostrar um pouquinho do uso das constantes e variáveis.
+
+55
+00:05:14,640 --> 00:05:23,660
+Então vou clicar com o botão direito aqui e classe o pacote continua fundamentos e o nome da classe
+
+56
+00:05:23,660 --> 00:05:27,050
+vai ser variáveis e constantes.
+
+57
+00:05:27,050 --> 00:05:32,850
+Analisar vou criar um método contra o espaço entre pra criar.
+
+58
+00:05:33,270 --> 00:05:39,190
+Nesse exemplo nessa classe chamada variáveis e constantes talvez calcular a área da circunferência.
+
+59
+00:05:39,570 --> 00:05:40,510
+Bem Simples.
+
+60
+00:05:40,530 --> 00:05:44,740
+A fórmula é r é o quadrado.
+
+61
+00:05:44,920 --> 00:05:50,430
+Nós vamos criar a constante pi que não muda vamos ter a variável raio.
+
+62
+00:05:50,520 --> 00:05:54,990
+A variável área e no final nós vamos imprimir no console o valor da variável área.
+
+63
+00:05:55,050 --> 00:05:58,510
+Primeiro vou definir o tipo da variável quer do tipo da bola.
+
+64
+00:05:59,150 --> 00:06:00,720
+Eu vou falar sobre o chip.
+
+65
+00:06:00,720 --> 00:06:08,090
+Então por enquanto davam um número real com casas decimais o identificador da variável vai ser raio.
+
+66
+00:06:08,170 --> 00:06:12,630
+Eu vou colocar o símbolo use um igual que quer dizer atribuição.
+
+67
+00:06:13,000 --> 00:06:14,960
+Eu vou falar também sobre a atribuição.
+
+68
+00:06:15,120 --> 00:06:22,020
+Depois mais eu quero dizer que o valor que tiver do lado direito vai ser armazenado na variável cujo
+
+69
+00:06:22,020 --> 00:06:27,660
+notificado raio é o valor que eu vou armazenar vai ser 4 5.
+
+70
+00:06:27,780 --> 00:06:33,390
+Como dado o número real que aceita casas decimais então eu coloquei 4 pontos 5.
+
+71
+00:06:33,390 --> 00:06:37,830
+Lembrando que em inglês o separador de casas decimais é o ponto.
+
+72
+00:06:38,340 --> 00:06:44,760
+Como o Java é tudo pensado e todo feito em inglês ele usa a notação americana de ponto para separar
+
+73
+00:06:44,760 --> 00:06:46,240
+as casas decimais.
+
+74
+00:06:46,240 --> 00:06:52,550
+Então terminei a minha sentença com ponto e vírgula vou criar aqui uma outra sentença só que agora eu
+
+75
+00:06:52,550 --> 00:06:54,280
+comecei com a palavra final.
+
+76
+00:06:54,400 --> 00:07:01,850
+Não quer dizer o quê que agora vou criar uma constante também do tipo dado certo identificador essa
+
+77
+00:07:01,850 --> 00:07:10,880
+constante vai ser maiúsculo porque como convenção a gente usa constantes em maiúsculo também vai ser
+
+78
+00:07:10,880 --> 00:07:15,500
+atribuído um valor para ela e o valor vai ser 3 pontos 14 16.
+
+79
+00:07:15,520 --> 00:07:16,420
+Tá certo.
+
+80
+00:07:16,430 --> 00:07:18,540
+Da mesma forma como declarei em.
+
+81
+00:07:18,710 --> 00:07:26,150
+Só que eu coloquei o final pra dizer que essa constante não vai mudar e segue a mesma estrutura o tipo
+
+82
+00:07:26,980 --> 00:07:29,300
+da variável constante.
+
+83
+00:07:29,300 --> 00:07:38,840
+No caso da logo depois o identificador e aí sim eu faço a atribuição caso igual que não é uma comparação.
+
+84
+00:07:38,850 --> 00:07:43,970
+Não estou comparando uma coisa conquistou atribuindo pra comparar existem outros singles em que eu fala
+
+85
+00:07:44,000 --> 00:07:44,590
+depois.
+
+86
+00:07:44,610 --> 00:07:46,420
+E aqui eu tenho um W.
+
+87
+00:07:46,690 --> 00:07:56,540
+A área que recebe vezes raio fez raio x Java é uma função futura que vai fazer o quadrado né.
+
+88
+00:07:56,610 --> 00:08:03,950
+E a potência mas aqui num caso para simplificar eu coloquei Raio X aí duas vezes pra seu quadrado e
+
+89
+00:08:03,950 --> 00:08:07,970
+depois a gente fala um pouquinho sobre como é que faz pra fazer a potência.
+
+90
+00:08:07,970 --> 00:08:18,960
+Pra finalizar eu vou colocar System pontual pouco print e vou colocar a área concatenar em si mais e
+
+91
+00:08:19,000 --> 00:08:21,850
+aqui créu.
+
+92
+00:08:22,020 --> 00:08:27,580
+Queria que ele queria um monstrinho a área com um espaço vazio.
+
+93
+00:08:27,610 --> 00:08:34,500
+Eu sou só que cortou somando textos e esse texto quando eu coloco símbolos animais quer dizer que eu
+
+94
+00:08:34,500 --> 00:08:42,010
+estou concatenar não estou juntando deixo o outro no caso do pega na variável área que define que valia
+
+95
+00:08:42,090 --> 00:08:48,010
+8 no final estou colocando m2 como se fosse metros ao quadrado.
+
+96
+00:08:48,060 --> 00:08:55,560
+A unidade da arca colocando essa que é uma forma de fazer isso se eu executar esse código vai perceber
+
+97
+00:08:55,560 --> 00:09:03,680
+que ele colocou que a área 63 alguma coisa eu posso colocar o espaço aqui pra ficar melhor.
+
+98
+00:09:03,680 --> 00:09:09,510
+A metros quadrados agora vou imprimir de outra forma.
+
+99
+00:09:09,510 --> 00:09:18,630
+Só quero agora usar um print F como é que funciona um chefe coloco colocar essa anotação que a porcentagem
+
+100
+00:09:18,630 --> 00:09:23,990
+é f ou seja que ele vai colocar um número com ponto flutuante ou florete.
+
+101
+00:09:24,140 --> 00:09:28,350
+Pois é aqui que eu boto porcentagem F o que é que ele vai fazer.
+
+102
+00:09:28,370 --> 00:09:35,960
+Ele vai substituir dentro desse texto onde tem a porcentagem F pela variável que você passou aqui depois
+
+103
+00:09:35,960 --> 00:09:41,860
+da vírgula que no caso a variável área C que é uma outra forma de fazer só que agora com print CF o
+
+104
+00:09:41,870 --> 00:09:45,750
+que é que seria esse print deve imprimir de forma formatado.
+
+105
+00:09:45,760 --> 00:09:48,520
+Quem se f ele formatado formatado porquê.
+
+106
+00:09:48,530 --> 00:09:57,900
+Porque você consegue dentro do da sua do seu texto da sua estria em colocar alguns pontos com esse porcentagem
+
+107
+00:09:57,910 --> 00:09:58,220
+F.
+
+108
+00:09:58,300 --> 00:10:01,390
+Eles vão ser substituídos pelo valor de algumas variáveis.
+
+109
+00:10:01,680 --> 00:10:04,590
+Então aqui seria uma outra forma de fazer isso.
+
+110
+00:10:05,010 --> 00:10:06,050
+E pra finalizar
+
+111
+00:10:08,720 --> 00:10:12,230
+eu tenho a mesma coisa para meus no DF.
+
+112
+00:10:12,650 --> 00:10:21,860
+Só que eu coloquei aqui ou porcentagem contudo 2 Fiquei que seria esse ponto 2 que eu quero tem apenas
+
+113
+00:10:21,860 --> 00:10:23,830
+duas casas decimais.
+
+114
+00:10:23,930 --> 00:10:26,910
+Qual foi imprimi a área dessa circunferência.
+
+115
+00:10:27,330 --> 00:10:31,890
+Então só executar aqui ou ele colocou.
+
+116
+00:10:31,980 --> 00:10:41,790
+Note que o print é que ele depois que ele imprime ele quebra a linha colocar isso em maiúsculo ou Print.
+
+117
+00:10:41,850 --> 00:10:46,550
+O principal é que essa primeira ele imprimiu já quebrou a linha e o preenchia.
+
+118
+00:10:46,590 --> 00:10:50,330
+Na verdade não quebrou a linha ele imprimiu as duas na mesma linha.
+
+119
+00:10:50,460 --> 00:10:56,670
+Se você quiser imprimir quebrar na linha você pode colocar um bairro em que no final que é a mesma coisa
+
+120
+00:10:57,210 --> 00:11:01,770
+que quebra a linha ele vai interpretar esse bairro como sendo uma quebra de linha.
+
+121
+00:11:02,000 --> 00:11:12,050
+Então de novo escolhido ele imprimiu cada um na sua própria linha e presta atenção que no caso do DF
+
+122
+00:11:12,340 --> 00:11:20,400
+no primeiro ele colocou várias casas decimais e aqui no segundo ele matou apenas em duas casas decimais
+
+123
+00:11:20,400 --> 00:11:26,670
+inclusive ele fez um arredondamento 617 virou meia 2 aqui acerto.
+
+124
+00:11:26,910 --> 00:11:32,970
+Outra coisa interessante notar que como é um print formatado e essa é uma máquina que está configurado
+
+125
+00:11:32,970 --> 00:11:34,220
+em português.
+
+126
+00:11:34,440 --> 00:11:39,910
+Ele já colou quatro casas decimais com vírgula que é o padrão quem está acostumado aqui no Brasil.
+
+127
+00:11:39,930 --> 00:11:42,650
+Já o print normal que não é formatado.
+
+128
+00:11:43,410 --> 00:11:51,700
+Ele simplesmente colocou o valor mesmo bruto lá 63 ponto B 1 7 4 tranquilo.
+
+129
+00:11:51,930 --> 00:11:56,460
+Aqui são duas formas diferentes de imprimir no console.
+
+130
+00:11:56,760 --> 00:12:02,460
+O primeiro formatado berinjela queria mostrar essas duas formas e durante nossos exercícios a gente
+
+131
+00:12:02,460 --> 00:12:10,010
+vai comentar alternada que eu vou trabalhar com outros dois nós vamos trabalhar com o print Aline.
+
+132
+00:12:10,320 --> 00:12:17,370
+Lembrando que no caso do print ali eu tive que fazer essa concatenação porque aqui é uma estrutura só
+
+133
+00:12:17,540 --> 00:12:25,630
+consegue do começo ao final e eu precisei concatenar que é juntado um trecho no outro aqui embora a
+
+134
+00:12:25,630 --> 00:12:31,090
+área não seja um teste seja o número quando ele junta o texto comum ele simplesmente coloca o número
+
+135
+00:12:31,690 --> 00:12:32,900
+junto do texto.
+
+136
+00:12:32,900 --> 00:12:36,880
+Tanto é que aqui eu tive que dar o espaço sozinho para poder lhe juntar o número.
+
+137
+00:12:37,330 --> 00:12:39,200
+Com esse é aqui.
+
+138
+00:12:39,280 --> 00:12:49,060
+Se eu tirar isso aqui está você percebe que não tinham e 63 para escolher o espaço é o que chamo de
+
+139
+00:12:49,060 --> 00:12:50,060
+concatenar.
+
+140
+00:12:50,200 --> 00:12:58,390
+Juntar o texto no outro e aqui embaixo não tem duas estruturas primeiro tem o texto aqui escrito e aí
+
+141
+00:12:58,390 --> 00:13:07,000
+eu coloco o ponto onde vai ser substituído e esse é F e depois da vírgula eu passo todos os valores
+
+142
+00:13:07,000 --> 00:13:11,140
+que eu quero passar para ser substituído na indústria certo.
+
+143
+00:13:11,470 --> 00:13:18,030
+Então aqui é como se eu tivesse duas portas a primeira parte separada por vírgula e a segunda parte
+
+144
+00:13:18,060 --> 00:13:27,160
+fica justamente o a variável área que eu criei consigo certo lá na frente que eu não vou falar de método
+
+145
+00:13:27,170 --> 00:13:33,040
+vou explicar bem direitinho o que é que significa ser vivo legal porque aqui é composto de duas partes.
+
+146
+00:13:33,040 --> 00:13:38,740
+Mas por enquanto é importante que você entenda o que cada um quer dizer o que é que nós estamos querendo
+
+147
+00:13:39,010 --> 00:13:42,520
+frisar na sala variáveis e constantes.
+
+148
+00:13:43,270 --> 00:13:46,900
+Entender bem quem é que tem esses pontos aqui.
+
+149
+00:13:46,900 --> 00:13:48,970
+Tem tanta coisa de formação.
+
+150
+00:13:49,100 --> 00:13:51,690
+O importante agora é variável.
+
+151
+00:13:52,030 --> 00:13:57,210
+Você tem um tipo da variável o identificador da variável que é o nome.
+
+152
+00:13:57,620 --> 00:14:03,330
+E aqui eu fiz uma atribuição que eu poderia aqui nesse caso fazer assim.
+
+153
+00:14:04,060 --> 00:14:11,030
+Eu poderia definir a variável na linha 6 aqui embaixo.
+
+154
+00:14:11,250 --> 00:14:17,910
+Eu chamaria a variável e colocarei aqui por exemplo que ela recebe quatro pontos cinco.
+
+155
+00:14:18,040 --> 00:14:23,930
+Aquilo foi que eu fiz eu declarei a variável não atribui nenhum valor pra ela.
+
+156
+00:14:24,050 --> 00:14:27,610
+E aqui embaixo eu atribui o valor quatro pontos cinco.
+
+157
+00:14:27,610 --> 00:14:34,270
+Note que na linha de baixo quando chamei raio eu não precisei mas dizer que ela é do tipo W.
+
+158
+00:14:34,630 --> 00:14:41,110
+Porque o programa já sabe sozinho você só coloca o título quando você declara se eu colocar o tipo aqui
+
+159
+00:14:41,130 --> 00:14:46,510
+embaixo duas vezes vai gerar um problema no meu colo não vou conseguir fazer esse olho.
+
+160
+00:14:47,080 --> 00:14:54,670
+Então você pode declarar a variável uma linha e a outra minha você fazer a atribuição.
+
+161
+00:14:54,670 --> 00:15:01,210
+Como você pode fazer tudo na mesma linha como estou fazendo aqui para um efeito de simplificação e para
+
+162
+00:15:01,210 --> 00:15:03,080
+o corte ficar mais curto o.
+
+163
+00:15:03,600 --> 00:15:10,780
+O identificador atribui um valor para a variável igual que é atribuição quer dizer que o valor que está
+
+164
+00:15:10,780 --> 00:15:14,750
+do lado direito vai ser atribuído na variável que pelo lado esquerdo.
+
+165
+00:15:14,860 --> 00:15:23,530
+Aqui a mesma estrutura a diferença que eu coloquei foi não na frente coloca faixa você define uma constante.
+
+166
+00:15:23,570 --> 00:15:26,300
+é uma questão de convenção.
+
+167
+00:15:26,900 --> 00:15:35,580
+Eu coloquei aqui e maiúsculo pra dizer que é uma constante então sempre que você vê um nome assim em
+
+168
+00:15:35,650 --> 00:15:38,530
+maiúsculo você erradicar olha que é uma constante.
+
+169
+00:15:38,530 --> 00:15:43,660
+Se eu quisesse por exemplo criar uma variável como um pouco maior aqui poderia colocar aqui
+
+170
+00:15:47,500 --> 00:15:56,300
+reconhecerem essa nota que no caso aqui eu coloquei raio minúsculo a primeira letra maiúscula e o resto
+
+171
+00:15:56,300 --> 00:15:58,880
+minúscula e cada nova palavra.
+
+172
+00:15:59,030 --> 00:16:03,720
+A primeira letra maiúscula eu usei um atalho chamado Contra o Mundo.
+
+173
+00:16:04,020 --> 00:16:08,080
+E aí tem a opção aqui nem me postam e tem o que eu escrever.
+
+174
+00:16:08,220 --> 00:16:13,510
+é uma variável automaticamente atualiza nas outras dentro do mesmo arquivo.
+
+175
+00:16:14,490 --> 00:16:19,130
+Aqui se usa esse código é exatamente aquilo que a gente já tinha visto.

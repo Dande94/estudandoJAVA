@@ -1,0 +1,627 @@
+1
+00:00:00,360 --> 00:00:05,700
+Agora nós vamos começar mais um capítulo do ponto de vista de como vai ser o primeiro exercício do nosso
+
+2
+00:00:05,700 --> 00:00:11,400
+capítulo de estruturas de controle e nós vamos agora criar um novo pacote dentro do nosso projeto para
+
+3
+00:00:11,400 --> 00:00:16,260
+a gente colocar todos os exercícios desse capítulo dentro desse novo pacote.
+
+4
+00:00:16,260 --> 00:00:23,710
+Uma mudança que eu quero fazer aqui certo colocando a dentro da parte de preferências do eclipse.
+
+5
+00:00:23,760 --> 00:00:31,840
+Se você digitar aqui tem um grande tema e aqui nessa opção take e com isso não há piolhos.
+
+6
+00:00:31,890 --> 00:00:36,800
+Eu quero mudar o tema aqui eu acabo preferindo trabalhar com temas escuros.
+
+7
+00:00:37,290 --> 00:00:43,830
+Acho que talvez ele fique até melhor porque fica menos aquela tela branca fica talvez muito agressivo
+
+8
+00:00:44,100 --> 00:00:50,280
+pra você tá vendo no dia a dia então vou usar esse tema escuro aqui que eu acho mais interessante.
+
+9
+00:00:50,290 --> 00:00:54,980
+Mas você pode usar qualquer tema ou não vai fazer muita diferença em relação ao tema certo.
+
+10
+00:00:55,080 --> 00:00:59,670
+Acho que esse tema que é bom dá pra gente enxergar bem direitinho a letra tá grande é outra coisa com
+
+11
+00:00:59,670 --> 00:01:01,140
+relação ao tamanho da letra.
+
+12
+00:01:01,170 --> 00:01:08,120
+Se você tiver clipes colocando o caso com uma de mais ou menos ele vai diminuir o tamanho da letra.
+
+13
+00:01:08,190 --> 00:01:17,010
+Se você tiver um trackpad por exemplo aqui no Mac se maximizar ele funciona tranquilamente fazendo o
+
+14
+00:01:17,080 --> 00:01:23,970
+acho que fazem não condena assim que ele funciona e também no caso o que há de mais e menos acho que
+
+15
+00:01:23,970 --> 00:01:26,530
+é o Control mais ou menos outra observação.
+
+16
+00:01:26,640 --> 00:01:32,080
+Eu até gravar já deve ter gravado um álbum vou gravar no futuro mas para você já deve ter visto que
+
+17
+00:01:32,100 --> 00:01:35,860
+é as teclas de atalho né cada sistema vai ter suas teclas de atalho.
+
+18
+00:01:35,910 --> 00:01:41,820
+Eu posso depois até gravá las específicas falando sobre isso mas se você fizer um contra o Shift o L
+
+19
+00:01:41,830 --> 00:01:47,810
+é duas vezes e no meu caso do Mac o encontro acabou sendo como na maior parte do tempo e tal como o
+
+20
+00:01:47,820 --> 00:01:55,680
+de Shift L duas vezes ele abriu uma janela com todas as teclas de atalho que você consegue por exemplo
+
+21
+00:01:55,900 --> 00:01:59,750
+lay off que tenho que compilar o ou duplicar slides né.
+
+22
+00:02:00,210 --> 00:02:06,360
+Então você tem como ver qual é a tecla de atalho inclusive mudar a tecla de atalho caso a tecla de atalho
+
+23
+00:02:06,360 --> 00:02:08,700
+não esteja funcionando por algum motivo.
+
+24
+00:02:08,700 --> 00:02:14,970
+às vezes o sistema operacional ele acaba digamos assim já usando aquela tecla de atalho para a outra
+
+25
+00:02:14,970 --> 00:02:19,600
+coisa que isso vai tentar fazer o Baixinho não consegue né não funciona a tecla de atalho.
+
+26
+00:02:19,980 --> 00:02:26,370
+Então você consegue nessa tela ver todas as teclas que estão sendo configuradas que estão configuradas
+
+27
+00:02:26,370 --> 00:02:31,660
+dentro daquilo que você consegue inclusive renomear essas teclas então vou lá pra gente começar.
+
+28
+00:02:31,660 --> 00:02:36,710
+Eu vou criar dentro de SC uma nova classe em nome da classe.
+
+29
+00:02:36,750 --> 00:02:40,570
+Será F de estrutura de controle esse.
+
+30
+00:02:40,710 --> 00:02:43,420
+Traduzindo de inglês para português seria sim.
+
+31
+00:02:43,470 --> 00:02:46,670
+E aqui eu vou chamar o pacote de controle.
+
+32
+00:02:46,710 --> 00:02:50,830
+Então o pacote controle da Classe S vou finalizar.
+
+33
+00:02:50,850 --> 00:02:57,540
+Nós temos uma nova classe no novo pacote aqui dentro eu vou criar um método mas ainda não vamos falar
+
+34
+00:02:57,540 --> 00:02:58,750
+sobre métodos né.
+
+35
+00:02:58,750 --> 00:03:01,960
+O próximo capítulo que a gente vai trabalhar de métodos e classe.
+
+36
+00:03:02,010 --> 00:03:06,730
+Por enquanto você vai criar um método sabendo que ele é a porta de entrada de um programa em Java.
+
+37
+00:03:07,080 --> 00:03:11,990
+Então pra gente ter o nosso core um pouco mais dinâmico eu vou criar aqui um scanner.
+
+38
+00:03:12,200 --> 00:03:18,610
+Gente já viu esse canal no capítulo passado na então entrada.
+
+39
+00:03:20,900 --> 00:03:28,870
+Esse cara eu vou colocá lo no System ponto e vou finalizar esse cara no final.
+
+40
+00:03:28,940 --> 00:03:32,940
+A entrada do Klaus pra gente finalizar o scanner.
+
+41
+00:03:32,980 --> 00:03:39,820
+A primeira coisa que fazem no nosso scanner é salvar criar aqui uma nota por exemplo da HBO na outra
+
+42
+00:03:40,190 --> 00:03:42,920
+série o valor de entrada.
+
+43
+00:03:42,930 --> 00:03:43,760
+Ponto.
+
+44
+00:03:43,800 --> 00:03:45,120
+Next da HBO.
+
+45
+00:03:45,520 --> 00:03:49,960
+Então vou pagar aqui um dado antes de pegar a entrada propriamente dita.
+
+46
+00:03:50,040 --> 00:04:01,620
+Eu vou colocar aqui um sistema de ponto aos ponto brindes e vou colocar aqui por exemplo informa a média
+
+47
+00:04:01,770 --> 00:04:06,690
+era melhor média 2 pontos em vez de nota baixa uma variável média.
+
+48
+00:04:07,140 --> 00:04:14,040
+Então como é que posso fazer por exemplo exibiu uma mensagem apenas se a média do aluno for maior ou
+
+49
+00:04:14,040 --> 00:04:16,880
+igual a 7 eu quero dizer que o aluno foi aprovado.
+
+50
+00:04:17,010 --> 00:04:20,300
+Então pra eu fazer isso eu preciso de um estrutura condicional.
+
+51
+00:04:20,350 --> 00:04:25,500
+Ele até poderia usar uma atribuição ter na área como nós fizemos no desafio.
+
+52
+00:04:25,500 --> 00:04:30,900
+Foi um desafio no capítulo passado a gente usou vários atribuições na área pra conseguir fazer de uma
+
+53
+00:04:30,900 --> 00:04:37,570
+certa forma condicionais tá mais a forma que você tem pra fazer condicionais e usar na palavrinha F
+
+54
+00:04:38,040 --> 00:04:41,370
+palavrinha F também uma palavra reservada ou da linguagem.
+
+55
+00:04:41,370 --> 00:04:46,830
+Agora que eu mudei o esquema de cores não é mais roxo agora tá marrom as palavras reservadas da linguagem
+
+56
+00:04:47,190 --> 00:04:54,780
+mas é a mesma coisa então aqui dentro do FB você coloca um parênteses e aqui vai ter uma expressão que
+
+57
+00:04:54,780 --> 00:04:58,510
+obrigatoriamente precisa retornar Verdadeiro ou falso.
+
+58
+00:04:58,560 --> 00:05:06,940
+Ou seja uma expressão tudo falso Neto ou falso e não aceito como outras linguagens por exemplo outras
+
+59
+00:05:06,940 --> 00:05:12,760
+linguagens consegue converter várias coisas para a booleano JavaScript uma linguagem que consegue converter
+
+60
+00:05:12,760 --> 00:05:15,870
+número para booleano e string para booleano.
+
+61
+00:05:15,970 --> 00:05:21,170
+Qualquer coisa ela consegue converter para booleano Jar Jar ou não Java é mais restrito nesse sentido
+
+62
+00:05:21,220 --> 00:05:28,760
+é mais digamos assim formal e você precisa ter aqui dentro uma expressão que vai tornar verdadeiro falso.
+
+63
+00:05:29,170 --> 00:05:36,270
+E aqui nós podemos pegar por exemplo um valor de média média e maior ou igual a 7.
+
+64
+00:05:36,640 --> 00:05:41,150
+Eu posso comparar nesse caso com o tanto com um valor inteiro não tem problema.
+
+65
+00:05:41,140 --> 00:05:45,660
+Então sete contos eram que seria o valor da ABL nesse caso.
+
+66
+00:05:45,820 --> 00:05:53,780
+Logo depois dessas desse o que vier depois ele vai aplicar a lógica de condicional Se ele não está próximo
+
+67
+00:05:53,800 --> 00:05:59,680
+sentença de código ou o próximo bloco de código que venha então nesse caso eu não preciso obrigatoriamente
+
+68
+00:05:59,680 --> 00:06:05,110
+colocar na próxima linha mas é mais comum você colocar na próxima linha e você percebe que o próprio
+
+69
+00:06:05,140 --> 00:06:11,680
+cliente já deu espaço pra que essa sentença fique embaixo do fio ou seja eu vou colocar uma sentença
+
+70
+00:06:11,840 --> 00:06:18,190
+já daqui a indexação para mostrar para você que a próxima sentença ou o próximo bloco A está vinculado
+
+71
+00:06:18,640 --> 00:06:20,040
+a essa condicional.
+
+72
+00:06:20,230 --> 00:06:30,010
+Então aqui eu posso colocar por exemplo System pontual print e Line print além de aqui eu coloco aprovadas
+
+73
+00:06:30,170 --> 00:06:36,350
+contigo então nesse caso eu tenho uma sentença de código associado ao F e agora eu vou executar esse
+
+74
+00:06:36,350 --> 00:06:43,690
+código pra gente ver o resultado executado informa a média médio vai ser 7 colocado e tem o resultado
+
+75
+00:06:43,810 --> 00:06:52,120
+aprovado e executado mais uma vez coloca que a média é 6 ponto 9 9 9 9 acertando não é mostrar nada
+
+76
+00:06:52,530 --> 00:06:54,960
+o que o aluno não foi não passou.
+
+77
+00:06:55,000 --> 00:07:00,330
+Como a gente não fez nenhum arredondamento ele simplesmente aplicou a lógica e essa expressão tornou
+
+78
+00:07:00,340 --> 00:07:06,600
+falso e agora para a gente fazer um outro teste não vou copiar criar mais uma sentença de código como
+
+79
+00:07:06,710 --> 00:07:09,190
+copiar essa e colocar aqui embaixo.
+
+80
+00:07:09,470 --> 00:07:12,880
+E aqui eu vou colocar parabéns.
+
+81
+00:07:13,030 --> 00:07:23,200
+Parabéns e você está colocar aqui novamente a gente tá média do aluno foi 8 8 9 Eliéser to aprovado
+
+82
+00:07:23,310 --> 00:07:25,370
+e parabéns como era de se esperar.
+
+83
+00:07:25,480 --> 00:07:35,080
+Se eu vim aqui tá que a média é por exemplo 2 7 ou não tirar na média 2 3 2 e tal pq vai acontecer.
+
+84
+00:07:35,620 --> 00:07:39,160
+Ele vai mostrar o aprovado sim ou não.
+
+85
+00:07:39,370 --> 00:07:42,420
+No caso o que a gente sabe que ele não vai mostrar aprovado por quê.
+
+86
+00:07:42,450 --> 00:07:47,820
+Porque essa expressão aqui média que 7 vai ficar falsa e ele não vai mostrar essa linha aqui.
+
+87
+00:07:47,890 --> 00:07:49,360
+Mas será que ele vai mostrar a linha.
+
+88
+00:07:49,360 --> 00:07:50,390
+Parabéns.
+
+89
+00:07:50,470 --> 00:07:52,810
+Nesse caso sim ele vai continuar mostrando a linha.
+
+90
+00:07:52,810 --> 00:07:53,400
+Parabéns.
+
+91
+00:07:53,400 --> 00:07:56,530
+E nesse cenário não faz sentido que o parabéns seja mostrado.
+
+92
+00:07:56,540 --> 00:07:57,140
+Porquê.
+
+93
+00:07:57,550 --> 00:08:01,820
+Porque a gente só quer mostrar o parabéns caso a média seja maior do que sete.
+
+94
+00:08:01,900 --> 00:08:07,750
+Se esse fosse um código em Python por exemplo o pai do usa a identificação para definir um bloco de
+
+95
+00:08:07,750 --> 00:08:15,040
+código Java não Java define um bloco de código com baixo Chaves então pra ele associar duas sentenças
+
+96
+00:08:15,040 --> 00:08:19,510
+de código a essa expressão é preciso ter um bloco de código.
+
+97
+00:08:19,930 --> 00:08:26,680
+Então coloco aqui um bloco de código aberto não vou fechar o bloco baixo e agora sim eu tenho um bloco
+
+98
+00:08:26,740 --> 00:08:29,950
+associado ao EFI ou seja eu falei pra vocês né.
+
+99
+00:08:29,960 --> 00:08:35,950
+Qualquer coisa que venha depois do EP será executar de forma condicional seja uma expressão de código
+
+100
+00:08:36,090 --> 00:08:37,180
+um bloco de código.
+
+101
+00:08:37,570 --> 00:08:44,090
+Então nesse caso a próxima coisa que tem associado a esse é esse bloco de código que pode ter até vários
+
+102
+00:08:44,090 --> 00:08:50,610
+meses depois embora não faça sentido do ponto de vista de organização de código 7 seu ex está novamente
+
+103
+00:08:51,130 --> 00:08:56,140
+Overkill a média 6 pontos 7 não mostrou nada.
+
+104
+00:08:56,980 --> 00:09:05,050
+Novamente coloca na classe média 9 executando aí sim ele mostra aprovado parabéns ou seja você pode
+
+105
+00:09:05,050 --> 00:09:11,110
+associar ou dar um formato ao código 7 ou colocar mais aqui em cima formatado.
+
+106
+00:09:11,170 --> 00:09:18,840
+Agora sim nós temos um bloco de código associado ao wi fi então nós temos a expressão e alguma coisa
+
+107
+00:09:18,850 --> 00:09:23,710
+seja uma única sentença de código um bloco se você precisa mais de uma sentença obrigatoriamente tem
+
+108
+00:09:23,710 --> 00:09:29,740
+o tamanho de um bloco se você quer executar de forma incondicional apenas uma sentença você não precisa
+
+109
+00:09:29,740 --> 00:09:36,400
+ter um bloco social supondo que o usuário passou a nota 12 e você não quer que a nota 12 seja considerado
+
+110
+00:09:36,400 --> 00:09:46,300
+como aprovado por que anote inválida você pode colocar aqui média média tem que ser menor ou igual a
+
+111
+00:09:46,300 --> 00:09:54,370
+10 e seja a expressão lógica tem que ser maior igual a 7 agora nós temos um intervalo é só esse intervalo
+
+112
+00:09:54,370 --> 00:10:04,650
+vai entrar dentro do FT mas novamente colocamos 12 em executando de novo colocar no valor 10 ele mostra
+
+113
+00:10:05,160 --> 00:10:10,430
+mais uma vez o 7 também mostra aprovados e dentro desse ele morre.
+
+114
+00:10:10,490 --> 00:10:16,890
+Eu posso criar outras condições depois para a gente mostrar outros cenários por exemplo assim a média
+
+115
+00:10:17,400 --> 00:10:27,860
+for menor ou igual for menor na verdade do que 7 e a média for maior ou igual a 5.
+
+116
+00:10:28,440 --> 00:10:33,920
+Ou então sei lá 4 e meio significa que o aluno está em recuperação então posso colocar que insistem
+
+117
+00:10:33,930 --> 00:10:45,880
+em algo diferente ali recuperação e finalmente eu posso colocar sim a média foi menor do que há quatro
+
+118
+00:10:45,880 --> 00:10:52,560
+anos e meio e a média for maior ou igual a zero.
+
+119
+00:10:52,620 --> 00:10:58,680
+Eu vou dizer que o não está aprovado então sistematicamente ali reprovado certo.
+
+120
+00:10:58,680 --> 00:11:04,710
+Nesse caso aqui como eu só tenho uma sentença de código não obrigatoriamente preciso colocar o bloco
+
+121
+00:11:04,710 --> 00:11:11,370
+de código mais no meu estilo de codificação na maior parte das vezes eu não vou dizer que cem por cento
+
+122
+00:11:11,370 --> 00:11:17,420
+das vezes eu faço isso mas a maior parte das vezes eu uso mesmo com uma única sentença icónico.
+
+123
+00:11:17,490 --> 00:11:24,580
+Eu uso o bloco porque eu prefiro padronizar mas você pode usar o Bloco não só pra ver os outros cenários.
+
+124
+00:11:24,720 --> 00:11:35,920
+Nesse caso eu uma média aqui rende mais de 9 aprovado mas vamos colocar aqui a média 6 equiparação executando
+
+125
+00:11:36,030 --> 00:11:37,730
+aqui a média de 3.
+
+126
+00:11:37,800 --> 00:11:43,260
+Lá dá como é aprovado ou seja ele vai entrar apenas de um ponto que os rende são diferentes mas se por
+
+127
+00:11:43,260 --> 00:11:50,070
+algum motivo colocar aqui igual a 7 7 eu tenho tempo igual a 7 aqui como eu tenho igual 7 aqui.
+
+128
+00:11:50,100 --> 00:11:53,350
+Então dizer exatamente na hora de colocar a nota no Asset.
+
+129
+00:11:53,670 --> 00:11:57,210
+Ele vai mostrar tanto aprovado parabéns como reparação.
+
+130
+00:11:57,220 --> 00:12:03,690
+Tudo depende aqui no caso do Rio não tem problema para entrar em todos os erros dependendo se o resultado
+
+131
+00:12:03,780 --> 00:12:04,860
+é verdadeiro ou falso.
+
+132
+00:12:04,860 --> 00:12:08,630
+Então a expressão pode ser uma expressão bem grande não interessa certo.
+
+133
+00:12:08,850 --> 00:12:11,900
+O fato é que no final essa expressão tem que ser verdadeira ou falsa.
+
+134
+00:12:11,910 --> 00:12:16,530
+Outra estratégia que você também pode fazer com relação a essas expressões é salvar o resultado dessa
+
+135
+00:12:16,530 --> 00:12:18,230
+expressão variável.
+
+136
+00:12:18,300 --> 00:12:26,400
+Por exemplo posso colocar aqui uma variável do tipo boné ou chamar aquele critério de reprovação.
+
+137
+00:12:26,400 --> 00:12:30,400
+E aí eu passo aqui o valor de uma variável daqui um controlo Emmy acabou ficando maior.
+
+138
+00:12:30,810 --> 00:12:32,080
+Mas às vezes não tem problema.
+
+139
+00:12:32,100 --> 00:12:38,010
+Você tem por exemplo se você for usar isso em mais de uma expressão você pode usar que fica fácil de
+
+140
+00:12:38,030 --> 00:12:38,610
+você ler.
+
+141
+00:12:39,030 --> 00:12:45,040
+Então colocar esse critério de aprovação atingida por exemplo.
+
+142
+00:12:45,480 --> 00:12:48,860
+E aí eu coloco aqui esse critério de aprovação atingido.
+
+143
+00:12:48,960 --> 00:12:54,180
+Ele vai executar determinada sentença de código ou bloco de código associado ao erro.
+
+144
+00:12:54,840 --> 00:13:00,600
+Então fica interessante a leitura do código então muitas vezes se você tiver várias expressões para
+
+145
+00:13:00,600 --> 00:13:03,150
+colocar dentro de uma ele pode ficar muito grande.
+
+146
+00:13:03,150 --> 00:13:05,210
+O ideal é você quebrar invariáveis.
+
+147
+00:13:05,430 --> 00:13:08,100
+E aí você vai lá e coloca o F.
+
+148
+00:13:08,130 --> 00:13:09,320
+Apenas as variáveis.
+
+149
+00:13:09,330 --> 00:13:13,230
+Você pode ter até uma leitura mais fluida na secretaria a a a atingir.
+
+150
+00:13:13,220 --> 00:13:14,670
+Vá lá faça isso.
+
+151
+00:13:14,670 --> 00:13:20,190
+Se o critério de reprovação foi atingido e determinada ação faça isso ou aquilo.
+
+152
+00:13:20,190 --> 00:13:23,860
+Então tudo isso pode ser feito usando um bloco.
+
+153
+00:13:24,180 --> 00:13:29,520
+Nesse caso nós usamos apenas o efeito na próxima algo fazer um pequeno desafio um pouco diferente do
+
+154
+00:13:29,520 --> 00:13:30,390
+que eu tinha proposto.
+
+155
+00:13:30,390 --> 00:13:36,300
+Vou mostrar um código pra vocês e quero que vocês tentem imaginar qual será o resultado em cima desse
+
+156
+00:13:36,300 --> 00:13:36,900
+desafio.
+
+157
+00:13:36,900 --> 00:13:40,810
+Para explicar mais algumas coisas do bloco e evitar até a próxima aula e.

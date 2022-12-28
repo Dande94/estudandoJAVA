@@ -1,0 +1,387 @@
+1
+00:00:00,160 --> 00:00:07,110
+Pensar nos agora criar a tabela Estados e para isso dentro dessa pasta que nós criamos banco relacional
+
+2
+00:00:07,160 --> 00:00:14,640
+eu vou criar aqui um novo arquivo no nome do arquivo VAI SE CRIAR TABELA estado ponto SQL.
+
+3
+00:00:14,940 --> 00:00:20,970
+Eventualmente se você vai criar por exemplo um banco de dados com várias tabelas você pode usar por
+
+4
+00:00:20,970 --> 00:00:27,150
+exemplo um único arquivo sql inverso ou nada esse arquivo colocando toda a estrutura do seu banco como
+
+5
+00:00:27,150 --> 00:00:29,990
+você pode criar um processo chamado Migration.
+
+6
+00:00:30,010 --> 00:00:32,840
+Maio é um tema que nós vamos ver mais à frente no currículo.
+
+7
+00:00:32,850 --> 00:00:37,770
+Começa a trabalhar a interação do JavaScript do Mac com os bancos de dados.
+
+8
+00:00:37,780 --> 00:00:43,320
+Nós vamos integrar tanto o banco de dados relacional ou seja nós vamos usar o JavaScript para conectar
+
+9
+00:00:43,320 --> 00:00:49,740
+com o Banco Mais SQL e também vamos usar o JavaScript para conectar com o BB como um banco relacional
+
+10
+00:00:49,740 --> 00:00:55,440
+ele tem esquema você precisa criar tabelas antes de inserir os dados mas vamos usar um processo chamado
+
+11
+00:00:55,440 --> 00:01:00,540
+Migration lá na frente para a gente criar está à beira de uma forma diferente por enquanto ele vai criar
+
+12
+00:01:00,840 --> 00:01:02,110
+um arquivo por exercício.
+
+13
+00:01:02,110 --> 00:01:06,000
+Nós vamos usar o próprio SQL aqui direto para a criação de tabelas.
+
+14
+00:01:06,030 --> 00:01:12,390
+O subconjunto do SQL que é data de chamego Jiménez vamos entender um pouco se depois a gente usa esse
+
+15
+00:01:12,390 --> 00:01:12,870
+processo.
+
+16
+00:01:12,870 --> 00:01:16,770
+Essa técnica digamos assim de você criar um banco de dados a partir de um amigo.
+
+17
+00:01:16,780 --> 00:01:20,380
+Isso é muito legal e mais na frente vai falar sobre isso por enquanto.
+
+18
+00:01:20,530 --> 00:01:25,410
+Então pra começar vão marchar para vocês como é que é um comentário e SQL o comentário SQL você coloca
+
+19
+00:01:25,410 --> 00:01:31,250
+dois itens e enfim enfim é o que vem depois do hífen é um comentário SQL então colocando aquele hífen
+
+20
+00:01:31,290 --> 00:01:34,250
+vem criando a tabela e Estado.
+
+21
+00:01:34,390 --> 00:01:37,020
+Então pra começar a definir ok.
+
+22
+00:01:37,110 --> 00:01:44,190
+Tem bom estados e aqui lá pelos Parênteses diferente do corpo de uma função por exemplo em JavaScript
+
+23
+00:01:44,190 --> 00:01:50,010
+que é Chaves e coloca os parentes para definir cada uma das colunas e as regras relacionadas a essas
+
+24
+00:01:50,010 --> 00:01:51,170
+colunas estavam lá.
+
+25
+00:01:51,280 --> 00:01:56,940
+A primeira coluna que eu vou cravar seu coluna aí que vai ser do tipo eu posso dizer por exemplo que
+
+26
+00:01:56,940 --> 00:02:03,090
+assim vai ter o tamanho de 10 o tamanho 8 ou simplesmente deixaria de pegar o tamanho padrão.
+
+27
+00:02:03,120 --> 00:02:06,610
+Vou colocar que esse é um valor sem sinal ou seja um site.
+
+28
+00:02:07,010 --> 00:02:10,810
+Vou dizer que esse valor não aceita nulo ou seja note nunca.
+
+29
+00:02:10,860 --> 00:02:16,980
+Além de ser um inteiro sem sinal não nulo eu vou dizer especificamente pro dia em que ele é um valor
+
+30
+00:02:17,100 --> 00:02:21,360
+alto incrementado e tão alto Vanderlan incrementos.
+
+31
+00:02:21,540 --> 00:02:26,840
+Aí vai depender do banco que você esteja trabalhando alguns bancos trabalham com um conceito de sequence
+
+32
+00:02:27,180 --> 00:02:33,160
+ou seja esse alto incremento não está ligado diretamente à coluna e sim você pode usar um ciclo esse
+
+33
+00:02:33,200 --> 00:02:38,940
+para preencher um determinado campo que não mais velho você já pode marcar um campo com alto incremento.
+
+34
+00:02:38,970 --> 00:02:43,680
+Isso significa que se você não passar o valor desse aí ele vai gerar um valor inteiro vai incrementando
+
+35
+00:02:43,700 --> 00:02:46,300
+para cada nova sessão então esse seria o primeiro.
+
+36
+00:02:46,390 --> 00:02:52,760
+Aí eu seria o segundo de dois e aí ele vai auto incrementar esse valor pra você que é uma chave chamar
+
+37
+00:02:52,770 --> 00:02:59,550
+sobre o game que eu seja uma chave sintética e algo que foi gerado de forma artificial dentro da tabela
+
+38
+00:02:59,550 --> 00:03:02,500
+para que você pudesse ter uma chave primária única.
+
+39
+00:03:02,500 --> 00:03:03,970
+Essa é a melhor estratégia.
+
+40
+00:03:04,020 --> 00:03:09,480
+A estratégia mais usada porque você não vai ficar preso a nenhum dado específico do usuário que pode
+
+41
+00:03:09,480 --> 00:03:14,820
+eventualmente mudar isso vai gerar grandes problemas se você tiver uma chave primária que é uma chave
+
+42
+00:03:14,820 --> 00:03:20,580
+natural e sim isso acaba precisando de um alteração na jabuticaba isso conforme já mencionei anteriormente
+
+43
+00:03:20,690 --> 00:03:21,360
+no próximo.
+
+44
+00:03:21,540 --> 00:03:28,980
+Criar a coluna nome ou seja o nome vai ser um vasto chat de 45 posições eu poderia ter colocado 200
+
+45
+00:03:28,980 --> 00:03:35,670
+400 500 600 aprendendo aquilo que eu preciso mas os Estados já têm mais o mesmo mapeado no Brasil e
+
+46
+00:03:35,680 --> 00:03:39,450
+os Estados então nenhum deles passa de 45 caracteres.
+
+47
+00:03:39,450 --> 00:03:42,360
+Estou colocando o que também é um campo obrigatório.
+
+48
+00:03:42,400 --> 00:03:47,870
+Logo depois eu vou colocar a sigla do Estado que vai ser baixado duas posições.
+
+49
+00:03:47,940 --> 00:03:49,430
+Nesse caso o Note Now.
+
+50
+00:03:49,470 --> 00:03:56,220
+O próximo cabo que eu vou criar vai ser para mapear as regiões do Brasil são cinco regiões Norte Nordeste
+
+51
+00:03:56,460 --> 00:03:59,330
+Sudeste Centro-Oeste e Sul.
+
+52
+00:03:59,400 --> 00:04:02,970
+São valores pré definidos algo que dificilmente vai mudar.
+
+53
+00:04:03,090 --> 00:04:08,670
+Você poderia criar outra tabela para isso mas aqui vou criar um conceito digno de numeração.
+
+54
+00:04:08,760 --> 00:04:19,380
+Vou colocar naquela região e aqui vou colocar os valores ao Norte Nordeste Centro-Oeste Sudeste e Sul
+
+55
+00:04:19,410 --> 00:04:21,090
+que são as cinco regiões do Brasil.
+
+56
+00:04:21,090 --> 00:04:27,000
+Então pra você colocar valores dentro dessa coluna a região obrigatoriamente tem que ser num desses
+
+57
+00:04:27,000 --> 00:04:30,910
+valores pré definidos nessa numeração continuada.
+
+58
+00:04:30,990 --> 00:04:34,680
+Vou colocar que esse valor não nulo ou seja um também é obrigatório.
+
+59
+00:04:34,770 --> 00:04:40,790
+Vou colocar a população que vai ser um decimal de 5 aceitando 12 casas decimais.
+
+60
+00:04:40,790 --> 00:04:45,900
+Então nesse caso decimal tem cinco dígitos e dois dígitos são pontos flutuantes.
+
+61
+00:04:45,960 --> 00:04:50,090
+Além disso eu estou imaginando que a população como penalidade milhões.
+
+62
+00:04:50,160 --> 00:04:55,890
+Não coloquei o valor completo mas sim 45 milhões e 200 mil pessoas 45.
+
+63
+00:04:55,910 --> 00:05:02,570
+Ponto 2 800 mil pessoas 0,8 e assim vai trabalhar a população com milhões.
+
+64
+00:05:02,700 --> 00:05:04,170
+Também é o campo obrigatório.
+
+65
+00:05:04,170 --> 00:05:08,900
+E finalmente eu vou definir a chave primária da tabela vai ser a coluna A.
+
+66
+00:05:09,000 --> 00:05:15,540
+Até então nós definimos aquilo ali como sendo um inteiro sem sinal não nulo alto incremento é aqui embaixo.
+
+67
+00:05:15,600 --> 00:05:23,310
+Eu marquei que a coluna de que poderia colocar mais uma coluna a Edi vírgula nome eu teria uma chave
+
+68
+00:05:23,310 --> 00:05:25,070
+primária formada por duas colunas.
+
+69
+00:05:25,080 --> 00:05:30,010
+Mas nesse caso eu quero que a chave primária seja formada por apenas uma única coluna.
+
+70
+00:05:30,090 --> 00:05:36,120
+Outra coisa que eu quero colocar é não quero que haja duplicidade no nome e nem duplicidade na sigla.
+
+71
+00:05:36,120 --> 00:05:44,310
+Então pra isso eu coloco o nome e coloque o link para a sigla ou seja nem o nome aceita duplicidade
+
+72
+00:05:44,600 --> 00:05:46,710
+e nem a sigla aceita duplicidade.
+
+73
+00:05:46,710 --> 00:05:52,470
+Pra finalizar aqui eu vou colocar um ponto e vírgula nesse comando e aqui eu posso pra executar esse
+
+74
+00:05:52,470 --> 00:05:57,560
+comando como quer executar o arquivo inteiro eu posso clicar nesses símbolos e não aqui no banco ou
+
+75
+00:05:57,720 --> 00:06:01,200
+então você tem esse ícone aqui pra explicar.
+
+76
+00:06:01,590 --> 00:06:02,370
+Kelly.
+
+77
+00:06:02,700 --> 00:06:04,130
+Ele vai acertar o arquivo todo.
+
+78
+00:06:04,130 --> 00:06:10,710
+Você pode eventualmente querer selecionar um trecho do arquivo clicar com o botão direito de opção Select
+
+79
+00:06:10,780 --> 00:06:15,830
+teste SQL aí que o inglês correto e certo.
+
+80
+00:06:15,840 --> 00:06:23,040
+Clicando aqui você pode fazer tal então o comando Shift Command como Shift e ele vai executar um trecho
+
+81
+00:06:23,130 --> 00:06:25,050
+um trecho de código selecionado.
+
+82
+00:06:25,080 --> 00:06:30,450
+Então quando você tiver várias consultas no mesmo arquivo você pode selecionar Code Shift e no meu caso
+
+83
+00:06:30,450 --> 00:06:35,160
+no Mac você clicar com o botão direito ver o atalho também para o Windows clicando aqui.
+
+84
+00:06:35,160 --> 00:06:40,540
+Se não estiver conectado ele vai dar um erro ao clicar o servidor não selecionado.
+
+85
+00:06:40,560 --> 00:06:48,330
+Então para isso eu vou colocar como Shift ou contra o chip conectar chamar SQL e eu vou colocar mais
+
+86
+00:06:48,330 --> 00:06:56,950
+Kelly o roxo local roxo e o usuário Rudi sendo 1 2 3 4 5 6 7 8 e vou dizer que o esquema vai ser n ou
+
+87
+00:06:56,950 --> 00:06:58,110
+seja moderno.
+
+88
+00:06:58,200 --> 00:06:58,920
+Selecionei.
+
+89
+00:06:58,920 --> 00:07:05,520
+Agora sim eu posso clicar aqui e ele vai executar e dizer que foi criado ou não estou criando tabela
+
+90
+00:07:05,530 --> 00:07:12,180
+listadas aqui uma vez que executou ele deu o resultado eu vou só abri o mais quero bem só pra gente
+
+91
+00:07:12,180 --> 00:07:17,190
+ver que de fato foi criado e depois eu não vou ficar abrindo o mais quero uma equipe durante a execução
+
+92
+00:07:17,190 --> 00:07:23,820
+do nosso código WM na marra é achar que você vai ver algo que apareceu a tabela estados abestado tem
+
+93
+00:07:23,820 --> 00:07:30,870
+a coluna de nome Sila região e população se ele criou corretamente essa tabela na próxima aula a gente
+
+94
+00:07:30,870 --> 00:07:36,480
+vai continuar para a gente fazer as nossas primeiras inserções essa tabela depois nós vamos fazer Selection
+
+95
+00:07:36,570 --> 00:07:42,900
+depois do acidente e depois de fazer as quatro operações básicas que você faz que as operações do crude
+
+96
+00:07:43,070 --> 00:07:45,360
+com updates de lixo.
+
+97
+00:07:45,390 --> 00:07:49,370
+Na próxima aula a gente continua fazendo as nossas primeiras ações e eles estarão lá.

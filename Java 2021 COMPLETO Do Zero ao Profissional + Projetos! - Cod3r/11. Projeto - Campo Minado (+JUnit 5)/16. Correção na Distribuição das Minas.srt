@@ -1,0 +1,147 @@
+1
+00:00:00,270 --> 00:00:06,600
+O pessoal voltou aqui olhando rapidamente o olho nem testei ainda mais é simples a correção basta colocar
+
+2
+00:00:07,050 --> 00:00:13,380
+para calcular a quantidade de Minas depois que eu chamar o método na aí sim eu vou ter a quantidade
+
+3
+00:00:13,380 --> 00:00:14,910
+mais atualizada de Minas.
+
+4
+00:00:14,910 --> 00:00:19,790
+Acho que só troca na ONU que vai ser suficiente pra gente resolver o nosso blog.
+
+5
+00:00:20,280 --> 00:00:29,850
+Então eu vou pedir pra sair aqui do nosso nossa partida vou para a China novamente e aí está para saber
+
+6
+00:00:29,850 --> 00:00:35,340
+está tudo o que é agora para cá tem mais espaço o nosso jogo traz etanol já tirou várias.
+
+7
+00:00:35,400 --> 00:00:40,040
+Então se sei que eu tenho um amigo não idolo né.
+
+8
+00:00:40,140 --> 00:00:48,540
+Então esse ponto aqui vai ser um ponto de se abrir bares gerais então aqui vai se a Linha 5 e 0 1 2
+
+9
+00:00:48,540 --> 00:00:53,100
+5 2 vai gerar problema 5,2 abri.
+
+10
+00:00:53,490 --> 00:01:00,240
+Ele mostrou que realmente o que falta é uma duas três minas só estão em geral por partida.
+
+11
+00:01:00,240 --> 00:01:06,840
+Sim agora vou tentar executar a partida até o final pra ver se eu consigo ganhar um 00 ou pedir pra
+
+12
+00:01:06,840 --> 00:01:08,910
+abri abriu várias.
+
+13
+00:01:09,000 --> 00:01:16,040
+Vou tentar abrir aqui a 5.5 vou pedir pra abrir também mais aqui tem ao redor se essa aqui tem um lado
+
+14
+00:01:16,050 --> 00:01:20,760
+ou então pode ser essa é chover que essa aqui tem 3 a 1 agora.
+
+15
+00:01:20,850 --> 00:01:25,360
+Então se essa aqui tem 3 minas ao redor então todos estão concentradas aqui.
+
+16
+00:01:25,380 --> 00:01:36,180
+Tá certo então posso abrir essa aqui que seria a 4 5 a Linha 4 e assim posso abrir sem problema eu posso
+
+17
+00:01:36,180 --> 00:01:47,970
+abrir essas aqui de baixo todas dali da Linha 5 então 5 2 Eu posso abrir 5 3 eu posso abri 5 4 eu posso
+
+18
+00:01:47,970 --> 00:01:53,420
+abrir também então basicamente eu tenho que saber dessas aqui do meio.
+
+19
+00:01:53,470 --> 00:02:00,300
+Eu só tenho interrogação que eu mesmo vou marcar essa que seria aqui como ontem mas os índices tá meio
+
+20
+00:02:00,300 --> 00:02:08,730
+difícil né mas aqui 0 1 2 0 1 2 2 2 eu tenho que marcar uma troca aqui.
+
+21
+00:02:08,730 --> 00:02:18,540
+2 Depois de marcar voltar 1x0 aqui aqui eu tenho apenas uma coisa que essa aqui não é menina então aqui
+
+22
+00:02:18,590 --> 00:02:30,650
+é o 0 1 2 3 0 1 2 3 2 3 2 eu tenho que abri la mina tem mais essas 3 aqui pra descobrir se é normal
+
+23
+00:02:31,170 --> 00:02:44,130
+então essa aqui com certeza é 0 1 2 3 4 4 2 4 2 tem que marcar 4 2 marcar essa que já tem um amigo aqui
+
+24
+00:02:44,130 --> 00:02:56,070
+ou outra aqui eu tenho um amigo então com certeza já sei que não é mina então a 0 1 2 3 4 0 1 2 3 4
+
+25
+00:02:56,070 --> 00:03:06,990
+3 3 4 3 5 estou errado eu vou mandar abri ou seja deu certo tá faltando só essa que agora pra eu marcar
+
+26
+00:03:06,990 --> 00:03:21,900
+como sempre perigosa aqui eu tenho 3 Minas aqui 1 0 2 3 4 0 2 3 4 4 4 1 tem que marcar significa que
+
+27
+00:03:21,900 --> 00:03:28,640
+eu ganhei a partida porque todas as minas foram protegidas e eu posso executar uma outra partida.
+
+28
+00:03:28,650 --> 00:03:34,560
+Também acho que vale a pena no ganhou mostrar o tabuleiro como ficou na última versão.
+
+29
+00:03:34,560 --> 00:03:39,670
+Então só o último ajuste aqui na aplicação na verdade campo.
+
+30
+00:03:39,840 --> 00:03:46,520
+Na verdade aqui dentro do tabuleiro o console antes de mostrar você ganhou.
+
+31
+00:03:46,650 --> 00:03:52,740
+Mostrar que a última versão do tabuleiro também motivou a mudança e atestou estar funcionando que eu
+
+32
+00:03:52,740 --> 00:03:56,140
+vou fazer na próxima só para ajudar o acabamento final.
+
+33
+00:03:56,140 --> 00:04:02,850
+E a gente coloca ao lado do tabuleiro que os índices eram zero para que a gente possa ter uma facilidade
+
+34
+00:04:02,850 --> 00:04:10,150
+maior pra jogar poker jogando desse jeito sem ter os índices fica meio complicado a gente conseguir
+
+35
+00:04:10,770 --> 00:04:17,390
+visualizar o jogo de forma correta então na próxima aula vai fazer um incremento dentro da classe tabuleiro
+
+36
+00:04:17,400 --> 00:04:23,340
+especificamente na função o estribo para frente posso mostrar os índices e fazer isso na próxima aula
+
+37
+00:04:23,380 --> 00:04:23,970
+e de estar lá.

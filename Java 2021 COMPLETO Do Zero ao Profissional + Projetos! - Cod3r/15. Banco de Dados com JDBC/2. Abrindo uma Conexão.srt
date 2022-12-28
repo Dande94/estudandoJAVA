@@ -1,0 +1,947 @@
+1
+00:00:00,270 --> 00:00:06,150
+Penso agora não vai ser nossa primeira aula de código desse capítulo e meu objetivo naçao é apenas conectar
+
+2
+00:00:06,150 --> 00:00:07,290
+com banco de dados.
+
+3
+00:00:07,560 --> 00:00:12,690
+Então nesse ponto eu espero que vocês já tenham mais que ele configurado na máquina de vocês aqui eu
+
+4
+00:00:12,690 --> 00:00:19,270
+estou dando mais quero tenho um na verdade duas instâncias do mais que ele roda na porta padrão K3 3.0
+
+5
+00:00:19,350 --> 00:00:25,840
+meia e uma outra instância que roda na 3 3 0 7 ou seja duas portas diferentes essa que eu acabei usando
+
+6
+00:00:25,850 --> 00:00:31,410
+o percurso e PHP que eu uso para outras coisas posso usar qualquer uma das duas não tem importância.
+
+7
+00:00:31,410 --> 00:00:33,590
+Eu vou usar a na porta padrão.
+
+8
+00:00:33,640 --> 00:00:40,530
+Uma observação importante é o seguinte esse conceito de porta é um conceito que todo mundo deve saber
+
+9
+00:00:40,530 --> 00:00:43,480
+dentro da computação que é a porta.
+
+10
+00:00:43,480 --> 00:00:46,300
+Ela tem uma relação com o processo.
+
+11
+00:00:46,320 --> 00:00:52,590
+Como assim quando você vai fazer comunicação em rede eu preciso acessar um serviço que rode em outra
+
+12
+00:00:52,590 --> 00:00:53,530
+máquina.
+
+13
+00:00:53,640 --> 00:00:59,380
+Você usa um endereço IP para acessar essa outra máquina eventualmente você vai usar um endereço como
+
+14
+00:00:59,670 --> 00:01:07,860
+o da BW ponto com o desconto com.br e esse nome será resolvido a partir de um serviço chamado DNS.
+
+15
+00:01:07,860 --> 00:01:13,020
+Nesse caso já estou falando aqui no mais no conceito da Internet mas no final das contas cada máquina
+
+16
+00:01:13,050 --> 00:01:20,550
+dentro de uma rede usando o protocolo TCP IP vai ter uma idéia que é um endereço sei lá 1 9 2 8 8 0
+
+17
+00:01:20,970 --> 00:01:22,000
+6 aqui.
+
+18
+00:01:22,020 --> 00:01:28,500
+Ou seja o IP de um determinado máquina beleza quando você manda em determinada informação de uma máquina
+
+19
+00:01:28,500 --> 00:01:33,430
+que tem o IP X para uma outra máquina que tem o IP y.
+
+20
+00:01:33,510 --> 00:01:35,550
+Essa comunicação não é suficiente.
+
+21
+00:01:35,550 --> 00:01:36,150
+Por quê.
+
+22
+00:01:36,510 --> 00:01:43,320
+Porque a partir da máquina que terei PX você tem um processo que mandou um pacote para um outro processo
+
+23
+00:01:43,320 --> 00:01:45,030
+que está rodando na máquina.
+
+24
+00:01:45,390 --> 00:01:50,230
+Quando chegou a informação não é o suficiente você dizer que chegou a informação para a máquina.
+
+25
+00:01:50,430 --> 00:01:52,310
+Tá certo mas qual programa.
+
+26
+00:01:52,660 --> 00:01:56,010
+Ou seja qual processo vai atender a essa requisição.
+
+27
+00:01:56,010 --> 00:01:59,310
+Será que é um forte sinal de que está jogado ali na máquina da pessoa.
+
+28
+00:01:59,310 --> 00:02:01,500
+Será que é um Brasil que está rodando.
+
+29
+00:02:01,500 --> 00:02:06,570
+Será que a aplicação de meio e esse pacote vai ser interpretado por essa aplicação.
+
+30
+00:02:06,570 --> 00:02:11,760
+Tudo vai depender de qual é o processo que está rodando na porta ou seja quando você manda uma requisição
+
+31
+00:02:11,760 --> 00:02:13,010
+de uma máquina para outra.
+
+32
+00:02:13,380 --> 00:02:19,500
+A porta está embutida no caso do mais que ela é a porta padrão ou seja quando você não informa nem a
+
+33
+00:02:19,490 --> 00:02:24,850
+porta por padrão ele vai acessar a porta 3 3 0 meia.
+
+34
+00:02:24,930 --> 00:02:32,040
+Se você tiver colocado mais quero uma porta diferente da 3 3 0 meia no momento que você conectar você
+
+35
+00:02:32,040 --> 00:02:33,870
+precisa informar a porta.
+
+36
+00:02:34,020 --> 00:02:41,640
+Da mesma forma que o protocolo HTTP Por padrão ele atende na porta 80 se você não tiver rodando na porta
+
+37
+00:02:41,640 --> 00:02:47,880
+80 você vai ter que informar a porta no final da RL que você vai informar de cada protocolo.
+
+38
+00:02:47,880 --> 00:02:54,210
+Cada tipo de aplicação acaba tendo uma porta padrão e no caso que mais que é a porta 3 3.0 meses você
+
+39
+00:02:54,210 --> 00:02:59,460
+nunca instalou mais que ele vai estar lá pela primeira vez no processo de instalação ele vai te mostrar
+
+40
+00:02:59,550 --> 00:03:05,670
+a porta 3 3.0 e essa porta que eu assumi que a gente vai executar então clicando aqui.
+
+41
+00:03:06,060 --> 00:03:10,100
+Eu estou jogando local algures na porta 3.0 meia usuário que eu vou acessar.
+
+42
+00:03:10,130 --> 00:03:18,820
+O usuário Guti no caso que assim que eu escolhia 1 2 3 4 5 6 7 8 então com isso a gente consegue acessar
+
+43
+00:03:18,820 --> 00:03:24,390
+até uma série de banco de dados aqui que não vem ao caso e eu vou criar um banco de dados a partir de
+
+44
+00:03:24,390 --> 00:03:25,280
+uma aula com o exterior.
+
+45
+00:03:25,280 --> 00:03:28,750
+Por enquanto meu objetivo é apenas conectar com o banco de dados.
+
+46
+00:03:28,890 --> 00:03:31,000
+Eu vou continuar usando nosso projeto.
+
+47
+00:03:31,030 --> 00:03:37,110
+Exercícios vou criar uma nova pasta aqui no pacote que representa um novo capítulo.
+
+48
+00:03:37,110 --> 00:03:39,470
+O nome do pacote vai ser que J.
+
+49
+00:03:39,540 --> 00:03:47,430
+B C e dentro de j d MC Eu vou criar um novo ou nova classe que vai apresentar o teste da conexão.
+
+50
+00:03:47,430 --> 00:03:51,470
+Posso colocar aqui por exemplo um teste conexão.
+
+51
+00:03:51,790 --> 00:03:59,190
+Então finalizar e como a chamaremos os nossos exercícios desse capítulo terá digamos assim um começo
+
+52
+00:03:59,190 --> 00:03:59,990
+meio e fim.
+
+53
+00:04:00,000 --> 00:04:05,490
+Eu vou criar um método para que a gente possa tornar essa classe executável e aí a partida que a gente
+
+54
+00:04:05,500 --> 00:04:06,900
+testar nossa conexão.
+
+55
+00:04:06,900 --> 00:04:07,250
+Pronto.
+
+56
+00:04:07,310 --> 00:04:08,830
+Quer que eu vou precisar fazer agora.
+
+57
+00:04:08,850 --> 00:04:15,980
+Eu vou precisar criar uma conexão e antes disso eu vou criar uma string que eu vou chamar que distingue
+
+58
+00:04:16,620 --> 00:04:26,150
+de conexão e a gente vai colocar este link que representa a Time suportada pelo driver DJ JD MC.
+
+59
+00:04:26,160 --> 00:04:31,270
+Na verdade antes de testar qualquer coisa precisa ter o drive e eu vou já baixar o driver aqui nessa
+
+60
+00:04:31,290 --> 00:04:38,940
+aula então ele vai precisar informar a histria que representa em que local eu vou estar acessando o
+
+61
+00:04:38,940 --> 00:04:43,550
+meu banco de dados e essa histria começa com a sigla dessa API do Java.
+
+62
+00:04:43,550 --> 00:04:53,520
+Essa parte da API do Java que é o J D C ou seja Java Deira B conectividade uso de conectividade banco
+
+63
+00:04:53,520 --> 00:04:54,750
+de dados com o Java.
+
+64
+00:04:54,750 --> 00:05:02,130
+Aqui você coloca dois pontos o nome mais SQL que é o drive ou seja duas vezes mais ele.
+
+65
+00:05:02,390 --> 00:05:09,420
+E aqui eu coloco dois pontos Barra Barra e coloco o nome por exemplo do servidor local.
+
+66
+00:05:09,460 --> 00:05:14,930
+Ou seja ao acessar o servidor na minha própria máquina se eu precisasse colocar uma outra porta por
+
+67
+00:05:14,930 --> 00:05:18,980
+exemplo preciso acessar a porta 3 3 0 7.
+
+68
+00:05:19,340 --> 00:05:23,330
+Então eu colocaria 2 pontos 3 3 0 7.
+
+69
+00:05:23,570 --> 00:05:30,590
+Mas como eu vou acessar o 3 3 0 meia hora eu posso colocar explicitamente o nome da porta eu posso simplesmente
+
+70
+00:05:30,590 --> 00:05:36,610
+não colocar nada porque ele assumiu que a porta padrão então é essa que é a minha string de conexão.
+
+71
+00:05:36,620 --> 00:05:41,480
+Outra coisa que eu vou precisar para conectar vai o usuário que eu vou criar aqui uma outra histria
+
+72
+00:05:41,480 --> 00:05:44,900
+chamada usuário usuária.
+
+73
+00:05:45,430 --> 00:05:53,120
+Eu vou colocar aqui para seu usuário rude além do usuário eu vou precisar da seita eu vou criar outra
+
+74
+00:05:53,240 --> 00:06:00,820
+variável chamada sem eu posso colocar como constantes não teria problema nenhum offline não fale não
+
+75
+00:06:01,070 --> 00:06:10,250
+foi no dia que eu vou colocassem entre a C 1 2 3 4 5 6 7 8 se quer minha senha e agora nós vamos criar
+
+76
+00:06:10,370 --> 00:06:19,790
+a nossa conexão e para isso eu vou precisar importar um cara chamado Connection Connection e existe
+
+77
+00:06:19,790 --> 00:06:26,070
+uma coisa importante é o seguinte só quando você baixar o driver do mais quero por enquanto não baixar
+
+78
+00:06:26,070 --> 00:06:33,820
+ainda você vai ver que vai ter outros conexos inclusive conexos relacionados ao importe numa SQL mas
+
+79
+00:06:33,860 --> 00:06:41,960
+observação muito importante aqui todos os impostos que nós vamos fazer vai ser a partir de interfaces
+
+80
+00:06:42,410 --> 00:06:49,880
+e vai ser dentro do pacote Java ponto SQL certa muito importante isso é Java ponto SQL.
+
+81
+00:06:50,330 --> 00:06:55,400
+Então vou importar o Connection de Java ponto SQL Portel Connection.
+
+82
+00:06:55,430 --> 00:06:58,030
+Chamei aqui essa variável de conexão.
+
+83
+00:06:58,190 --> 00:07:06,480
+Vou agora chamar um cara chamado drive Manager que também é de Java ponto SQL ponto drag manager.
+
+84
+00:07:06,830 --> 00:07:13,250
+E aqui ele será o responsável por criar uma conexão e então eu tenho um método chamado Grand Connection
+
+85
+00:07:13,550 --> 00:07:20,780
+e vou passar três informações eu Passau aqui e ali vou passar esse terceiro Gate Connection aqui vou
+
+86
+00:07:20,780 --> 00:07:23,870
+passar o usuário e vou passar a senha.
+
+87
+00:07:24,200 --> 00:07:29,030
+Eu até poderia passar por exemplo um arquivo do próprio Tim para ele.
+
+88
+00:07:29,360 --> 00:07:35,330
+Eu posso simplesmente passar só o RL quando não tem o usuário e senha para acessar um banco de dados.
+
+89
+00:07:35,330 --> 00:07:38,440
+No nosso caso eu vou acessar esse terceiro aqui.
+
+90
+00:07:38,630 --> 00:07:44,650
+Eu vou passar a esse trilho de conexão até chamar o RL para ficar no finalzinho até me transformar o
+
+91
+00:07:44,660 --> 00:07:45,270
+RL.
+
+92
+00:07:46,320 --> 00:07:54,860
+Vou passar aqui o usuário usuário e vou passar a senha.
+
+93
+00:07:54,890 --> 00:07:59,940
+Com isso eu vou só colocar aqui 12 dias para ficar um pouco mais fácil.
+
+94
+00:08:00,170 --> 00:08:01,690
+E o que vai acontecer.
+
+95
+00:08:01,730 --> 00:08:05,960
+Esse é o método que lança uma ação checada.
+
+96
+00:08:05,960 --> 00:08:11,410
+A gente já viu anteriormente no capítulo de exceção que uma exceção checada precisa ser tratada.
+
+97
+00:08:11,640 --> 00:08:19,010
+Ou eu trato a exceção usando trompete ou eu lanço a exceção e deixo outra pessoa tratar essa ação.
+
+98
+00:08:19,010 --> 00:08:26,410
+Nesse caso eu posso simplesmente colocar aqui outro Strauss SQL fio.
+
+99
+00:08:26,450 --> 00:08:32,060
+Em outras palavras se aconteceu uma exceção não é simplesmente um ensaio do método nem abortar a aplicação
+
+100
+00:08:32,060 --> 00:08:34,040
+com o erro e eu não quero tratar.
+
+101
+00:08:34,040 --> 00:08:38,570
+Por enquanto não faz tanto sentido nesse caso tratar a exceção em outros contextos.
+
+102
+00:08:38,600 --> 00:08:41,120
+Em lugar Pietro a gente vai acabar tratando por enquanto.
+
+103
+00:08:41,240 --> 00:08:45,790
+Pra simplificar ou simplesmente não trouxe Acebes diretamente no método.
+
+104
+00:08:46,070 --> 00:08:50,400
+E se acontecer alguma sessão de Babel o resultado aqui no console.
+
+105
+00:08:50,410 --> 00:08:58,010
+Uma vez eu tenho a conexão será adaptado ou seja esse método aqui já vai garantir uma vez passam por
+
+106
+00:08:58,010 --> 00:08:58,270
+ele.
+
+107
+00:08:58,260 --> 00:09:01,120
+Significa que o banco foi conectar de forma bem sucedida.
+
+108
+00:09:01,160 --> 00:09:09,200
+Caso contrário ele vai lançar uma exceção e pode aqui no final chamar conexão com o Klaus para fechar
+
+109
+00:09:09,200 --> 00:09:10,110
+a conexão.
+
+110
+00:09:10,450 --> 00:09:16,020
+E aqui no meio eu posso dar um system Alt dizendo que são
+
+111
+00:09:18,660 --> 00:09:20,970
+tomadas com sucesso.
+
+112
+00:09:21,110 --> 00:09:26,980
+Nesse caso a gente vai ter um problema um pouco porque a gente não tem o driver do mais que ele para
+
+113
+00:09:26,990 --> 00:09:31,880
+conectar com o banco de dados ele é como é que ele sabe que ele vai conectar com mais Kelly.
+
+114
+00:09:32,180 --> 00:09:36,970
+Ele sabe exatamente porque bem aqui nas 39 RL de conexão.
+
+115
+00:09:37,130 --> 00:09:46,370
+Eu disse que ele vai usar o mais quer aqui que ele vai gerar um problema dizendo o seguinte não tem
+
+116
+00:09:46,580 --> 00:09:54,000
+nenhum driver que seja digamos assim compatível com essa historia de conexão que eu coloquei.
+
+117
+00:09:54,070 --> 00:09:59,480
+Tá certo então ele deu um problema na hora que ele foi tentar achar a classe responsável por conectar
+
+118
+00:09:59,680 --> 00:10:05,410
+lembrando que a gente sempre vai trabalhar com exceção do drive Ménage que é uma classe e vai trabalhar
+
+119
+00:10:05,410 --> 00:10:11,560
+com interfaces de quem vai implementar as interfaces vai ser o drive de conexão para a gente obter o
+
+120
+00:10:11,560 --> 00:10:24,040
+drive de conexão eu vou abrir uma nova aba do Brasil e nós temos aqui mais Kelly J BBC Braga downloads
+
+121
+00:10:24,100 --> 00:10:24,740
+clicando aqui.
+
+122
+00:10:24,740 --> 00:10:31,770
+Devem tomar SQL junto com conecta e tal você vai ter a possibilidade de baixar eu vou baixar esse que
+
+123
+00:10:31,780 --> 00:10:36,940
+a plataforma ainda preenche o arquivo ZIP ou baixar aqui embaixo.
+
+124
+00:10:37,030 --> 00:10:43,510
+Ele tem um tamanho pequeno quando você cair nessa página você coloca que ou não comece o download agora
+
+125
+00:10:43,510 --> 00:10:46,960
+certo não quero me preocupar em fazer um cadastro ou login.
+
+126
+00:10:47,050 --> 00:10:55,970
+Uma vez feito isso então então vá para a pasta de downloads eu vou abrir aqui e entrar downloads.
+
+127
+00:10:56,170 --> 00:11:03,220
+Aqui tem o dragão baixado ou mais queele conectou na versão 5 contou com 48 clicando duas vezes ele
+
+128
+00:11:03,230 --> 00:11:11,170
+vai compactar e aqui dentro você vai ver um arquivo já vou baixar esse debate tem esse já com traço
+
+129
+00:11:11,180 --> 00:11:19,880
+Bing mas eu vou achar isso aqui eu mais queele conectou Java 5 ponto 5 contou com 48 pontos já que eu
+
+130
+00:11:19,960 --> 00:11:27,550
+vou colocar aqui de lado rapidamente eu vou mostrar aqui a paixão do nosso projeto exercícios e aqui
+
+131
+00:11:27,550 --> 00:11:32,830
+eu vou criar uma pasta específica para eu colocar dentro dela as bibliotecas do projeto.
+
+132
+00:11:33,160 --> 00:11:39,340
+Então vou clicar com o botão direito em cima do projeto e exercícios vou colocar mil.
+
+133
+00:11:39,430 --> 00:11:42,470
+E aqui vai ter outra pasta.
+
+134
+00:11:42,880 --> 00:11:47,740
+Eu vou colocar o nome da pasta de líbios no plural ou seja qualquer biblioteca que eu queira colocar
+
+135
+00:11:47,740 --> 00:11:50,380
+no projeto vou colocado dentro dessa pasta.
+
+136
+00:11:50,560 --> 00:11:58,330
+Aqui eu posso simplesmente arrastar isso aqui pra dentro de Líbia ou você pode entrar diretamente onde
+
+137
+00:11:58,420 --> 00:12:04,690
+o projeto for armazenado e jogá la dentro da pasta e aqui ele vai perguntar algo ou sequer importar
+
+138
+00:12:04,840 --> 00:12:10,720
+esse arquivo para além do projeto você quer copiar o arquivo ou quer criar um link que aponta para o
+
+139
+00:12:10,720 --> 00:12:16,630
+arquivo nesse caso eu quero copiar de fato o arquivo pra cá e no final das contas ele vai copiar tudo
+
+140
+00:12:16,630 --> 00:12:23,770
+isso eu poderia ter feito diretamente no gerenciador de arquivo do meu sistema e poderia vim aqui desktop
+
+141
+00:12:23,770 --> 00:12:27,780
+e a cópia do arquivo por aqui não necessariamente pelo eclipse.
+
+142
+00:12:27,890 --> 00:12:33,580
+Pronto uma vez que eu tenho o driver do mais que ele que é exatamente a biblioteca que vai me ajudar
+
+143
+00:12:33,640 --> 00:12:40,660
+a conectar com o banco de dados aqui cabe a observação que é o seguinte o Java ele incorpora uma série
+
+144
+00:12:40,660 --> 00:12:43,120
+de funcionalidades dentro dele.
+
+145
+00:12:43,120 --> 00:12:48,150
+Ele incorpora funcionalidades de você criar uma interface gráfica de um suingue.
+
+146
+00:12:48,250 --> 00:12:54,910
+Ele coloca várias funcionalidades de manipulação de strings os tipos básicos muita coisa está contida
+
+147
+00:12:54,910 --> 00:12:56,820
+dentro da API do Java.
+
+148
+00:12:56,830 --> 00:13:02,800
+Em outras palavras uma vez que você instale o Java já tem contido dentro dele várias funcionalidades
+
+149
+00:13:02,800 --> 00:13:04,600
+pré definidas.
+
+150
+00:13:04,720 --> 00:13:06,810
+Mas nem tudo está dentro do Java.
+
+151
+00:13:06,820 --> 00:13:07,230
+Por quê.
+
+152
+00:13:07,270 --> 00:13:13,030
+Porque existem funcionalidades se você colocar tudo que o Java suporta dentro do Java.
+
+153
+00:13:13,390 --> 00:13:18,550
+O processo de instalação do Java vai ficar muito mais muito grande então não faz sentido você colocar
+
+154
+00:13:18,550 --> 00:13:25,930
+tudo dentro do Java águas pouco ele coloque o acesso ao banco mas quero dentro do Java eu coloque o
+
+155
+00:13:25,930 --> 00:13:32,920
+acesso ao banco hora o acesso ao banco da Microsoft que o acesso ao puxe guri ou seja muito mais volume
+
+156
+00:13:32,920 --> 00:13:38,650
+sendo acrescentado dentro do Java então imagine que você acrescentou um mega do drive ainda mais quero
+
+157
+00:13:38,680 --> 00:13:44,140
+mais o mega daquilo mais um mega drive de outro a biblioteca você vai ter uma instalação muito grande
+
+158
+00:13:44,560 --> 00:13:51,940
+então eventualmente eventualmente não em projetos reais você vai precisar importar uma série de bibliotecas
+
+159
+00:13:51,940 --> 00:13:55,200
+para que você possa ter o seu projeto implementado.
+
+160
+00:13:55,210 --> 00:14:01,150
+Eu preciso trabalhar com o sistema bancário então provavelmente vai ter alguma biblioteca que vai te
+
+161
+00:14:01,150 --> 00:14:08,170
+ajudar a conectar por exemplo com um determinado banco qual preciso trabalhar com inteligência artificial
+
+162
+00:14:08,170 --> 00:14:13,690
+e então vai ter uma biblioteca que vai te ajudar que vai ter algoritmos prontos para te ajudar a implementar
+
+163
+00:14:13,690 --> 00:14:14,980
+algoritmos de IA.
+
+164
+00:14:15,310 --> 00:14:20,620
+Então você vai ter uma série de bibliotecas ao longo da sua caminhada como desenvolvedor para que você
+
+165
+00:14:20,620 --> 00:14:25,780
+possa usar essas bibliotecas e a partir dela você consiga implementar o seu projeto de uma forma muito
+
+166
+00:14:25,780 --> 00:14:26,600
+mais tranquila.
+
+167
+00:14:26,650 --> 00:14:33,490
+Legal uma vez que eu coloquei o driver do Mais Querido dentro do meu projeto na pasta Libre se eu tentei
+
+168
+00:14:33,490 --> 00:14:39,310
+executar novamente o código você vai perceber que não vai acontecer nada de diferente daquilo que já
+
+169
+00:14:39,310 --> 00:14:45,520
+aconteceu anteriormente ou seja irá continuar gerando eu coloquei porque o fato de você colocar biblioteca
+
+170
+00:14:45,520 --> 00:14:52,780
+dentro de uma parte do projeto não dissipa o seu projeto num display Java onde essa pasta está quase
+
+171
+00:14:52,780 --> 00:14:54,400
+bibliotecas e estão lá dentro.
+
+172
+00:14:54,400 --> 00:15:00,460
+E quais bibliotecas precisam ser referenciadas pelo seu projeto para isso a gente pode clicando com
+
+173
+00:15:00,460 --> 00:15:04,530
+o botão direito do mouse em cima digo mais que ele conectou.
+
+174
+00:15:04,980 --> 00:15:09,070
+Nós vamos ter uma opção aqui que é o Bild.
+
+175
+00:15:09,280 --> 00:15:17,650
+E aqui a gente tem a opção que é adicionar Chu Bild ou seja no momento que o Java vai construir o projeto
+
+176
+00:15:17,650 --> 00:15:23,680
+no momento que o Java fosse executado ele vai entender onde estão as suas dependências que ele precisa
+
+177
+00:15:23,680 --> 00:15:24,530
+para funcionar.
+
+178
+00:15:24,910 --> 00:15:29,190
+E aí você adicionando esse arquivo pontos já nem eu nem comentei.
+
+179
+00:15:29,470 --> 00:15:35,610
+Esse arquivo tem uma extensão ponto já que é Java arcaico e o arquivo Java.
+
+180
+00:15:35,650 --> 00:15:41,950
+Ele é basicamente um arquivo ZIP só que dentro dele vai ter uma série de arquivos compilados naquele
+
+181
+00:15:41,950 --> 00:15:44,950
+arquivo ponto que LESS é a partir desse arquivo compilado.
+
+182
+00:15:44,950 --> 00:15:51,160
+Você consegue acessar ele dentro do seu projeto então vou clicar com o botão direito vou colocar aqui
+
+183
+00:15:51,830 --> 00:15:54,360
+build Bad adicionado o Bild BF.
+
+184
+00:15:54,360 --> 00:16:01,810
+Feito isso você vai ver algo que além de ter o j que é System largo e que é o próprio Java.
+
+185
+00:16:01,870 --> 00:16:09,450
+Você vai ter as bibliotecas referenciadas nesse caso a única biblioteca referenciada é o mais completo
+
+186
+00:16:10,000 --> 00:16:12,150
+Java 5 ponto certo.
+
+187
+00:16:12,190 --> 00:16:16,750
+A pasta Lib é apenas pra você adicionado o melhor Tex dentro do projeto.
+
+188
+00:16:16,830 --> 00:16:22,960
+E aqui ela vai ficar fisicamente mais uma vez que você adicionou ao bit PF a passa a ser digamos assim
+
+189
+00:16:22,960 --> 00:16:24,340
+considerado.
+
+190
+00:16:24,340 --> 00:16:33,750
+Essa biblioteca do mais que eu seja parte das bibliotecas referenciadas nela reflete ou ferro se lá
+
+191
+00:16:33,930 --> 00:16:39,430
+de certas bibliotecas referenciadas aqui meu sotaque do Kentucky não está ajudando não vou lá.
+
+192
+00:16:39,430 --> 00:16:47,580
+Feito isso significa que agora sim ele vai considerar essa biblioteca e executando Command Shift.
+
+193
+00:16:47,900 --> 00:16:55,270
+11 Você vai ver que ele colocou a conexão efetuada com sucesso aqui em cima ele deu uma mensagem de
+
+194
+00:16:55,270 --> 00:17:03,520
+advertência dizendo que ele tentou estabelecer uma conexão SSL uma conexão segura só que a identidade
+
+195
+00:17:03,640 --> 00:17:07,540
+do servidor não foi verificada a partir de um certificado válido.
+
+196
+00:17:07,630 --> 00:17:10,930
+Existe algumas opções que a gente pode colocar o seguinte.
+
+197
+00:17:11,330 --> 00:17:20,770
+Aqui eu posso colocar uma interrogação e passar alguns parâmetros como por exemplo US s SQL igual a
+
+198
+00:17:20,770 --> 00:17:21,820
+falso.
+
+199
+00:17:21,820 --> 00:17:28,660
+Se a gente fizer isso e executar novamente você vai ver que a conexão foi efetuada com sucesso e não
+
+200
+00:17:28,660 --> 00:17:31,180
+gerou nenhum tipo de advertência.
+
+201
+00:17:31,200 --> 00:17:37,510
+Só que nesse caso o que está acontecendo ele vai conectar com um servidor só que ele não vai usar uma
+
+202
+00:17:37,510 --> 00:17:39,810
+conexão segura o que não é desejável.
+
+203
+00:17:39,820 --> 00:17:47,440
+O ideal é a gente colocar essa propriedade e use SSL para que aí ele vai executar uma conexão segura
+
+204
+00:17:47,470 --> 00:17:52,170
+só que se a gente usar uma conexão segura a gente vai ter o problema por conta da identidade do servidor.
+
+205
+00:17:52,350 --> 00:17:57,840
+E pra resolver isso a gente vai criar um outro parâmetro que é o seguinte parâmetro velho foi
+
+206
+00:18:01,000 --> 00:18:04,920
+CRV certificados.
+
+207
+00:18:05,270 --> 00:18:13,630
+A gente vai colocar esse parâmetro pra ser falso é comercial e comercial serve pra separar os parâmetros
+
+208
+00:18:13,630 --> 00:18:19,710
+dentro da Barra ele assim como acontece na web também acontece na rede de conexão com o banco de dados
+
+209
+00:18:19,720 --> 00:18:28,400
+está seguindo mais ou menos o mesmo padrão lá então vai Série B Certificate pra falso e use SSL pra.
+
+210
+00:18:28,420 --> 00:18:35,290
+Ou seja ele não vai verificar o certificado do servidor mas ele vai usar uma conexão segura entre a
+
+211
+00:18:35,290 --> 00:18:39,330
+sua aplicação Java e o servidor mais Kelly.
+
+212
+00:18:39,330 --> 00:18:42,050
+Com isso a gente consegue executar.
+
+213
+00:18:42,490 --> 00:18:45,370
+Ele vai conectar de forma bem sucedida.
+
+214
+00:18:45,370 --> 00:18:51,970
+Ele vai usar uma conexão segura mas ele não vai verificar que o certificado do servidor.
+
+215
+00:18:51,970 --> 00:18:56,440
+O que a gente quer suficientemente vai garantir que a conexão é segura mas a gente não vai precisar
+
+216
+00:18:56,440 --> 00:19:02,020
+ter um certificado verificado pra esse servidor o que tornaria o processo mais complicado.
+
+217
+00:19:02,110 --> 00:19:06,300
+Então pronto na sala nós fizemos a conexão usando o JD BC.
+
+218
+00:19:06,340 --> 00:19:08,640
+Note que ainda não foi referenciado.
+
+219
+00:19:08,650 --> 00:19:10,310
+Qual é o banco de dados.
+
+220
+00:19:10,330 --> 00:19:17,680
+Se eu colocasse essa extra incompleta logo depois do nome da máquina eu colocaria a Porta 3 3 0 meia
+
+221
+00:19:17,920 --> 00:19:22,960
+é só mostrando pra vocês que vai funcionar colocar na porta de forma explícita ou executado.
+
+222
+00:19:23,080 --> 00:19:28,750
+Ele ainda vai conectar de forma bem sucedida e logo depois da porta você pode colocar aqui.
+
+223
+00:19:28,840 --> 00:19:33,850
+O banco de dados então não sei lá eu tenho um banco de dados chamado Agenda.
+
+224
+00:19:34,270 --> 00:19:37,450
+Então eu poderia colocar aqui a agenda.
+
+225
+00:19:37,480 --> 00:19:43,420
+Ainda assim ele iria conectar e foram bem sucedidas se eu colocar a agenda dois dias e você vai ver
+
+226
+00:19:43,420 --> 00:19:45,390
+que ele não vai conseguir conectar por quê.
+
+227
+00:19:45,400 --> 00:19:52,570
+Porque não existe o banco de dados hoje em dia ou Data Base agenda 2 e não conheço o data da agenda
+
+228
+00:19:52,600 --> 00:19:54,840
+2 mais uma vez.
+
+229
+00:19:54,900 --> 00:20:00,980
+Agenda ele bem conhece e consegue conectar de forma bem sucedida eu não vou querer conectar com nenhum
+
+230
+00:20:00,980 --> 00:20:02,610
+banco específico.
+
+231
+00:20:02,620 --> 00:20:07,480
+Eu também não vou querer colocar nenhum aporte específico o que eu estou usando a porta padrão.
+
+232
+00:20:07,550 --> 00:20:13,400
+Então nós fizéssemos exatamente isso e conseguir executar uma conexão com o banco de dados sem nenhum
+
+233
+00:20:13,400 --> 00:20:19,280
+banco específico na próxima aula a gente vai começar a trabalhar diretamente com os comandos do banco
+
+234
+00:20:19,280 --> 00:20:23,990
+mandando para ele criar um banco de dados que vai ser o banco de dados usado nos exercícios do nosso
+
+235
+00:20:23,990 --> 00:20:25,040
+curso de Java.
+
+236
+00:20:25,040 --> 00:20:28,550
+Na próxima aula a gente vai usar todo esse conhecimento de conectar.
+
+237
+00:20:28,550 --> 00:20:34,290
+Agora sim para criar um banco de dados dentro do mais quero então fique por aqui e até aproximá lo.

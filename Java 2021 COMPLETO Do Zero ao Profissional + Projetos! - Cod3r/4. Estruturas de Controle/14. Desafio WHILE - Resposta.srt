@@ -1,0 +1,235 @@
+1
+00:00:00,250 --> 00:00:02,930
+Por isso agora vão achar para vocês um desafio.
+
+2
+00:00:02,970 --> 00:00:07,300
+Algumas vezes eu vou digitar digital escambo e outras vezes eu vou entrar aqui o meu inibe de usar meus
+
+3
+00:00:07,310 --> 00:00:09,540
+níveis pra digitar rápido certo.
+
+4
+00:00:09,740 --> 00:00:11,490
+E aqui importar o Java útil.
+
+5
+00:00:11,540 --> 00:00:15,450
+Isso também vai depender da vez em algumas vezes eu vou fazer de um jeito que está.
+
+6
+00:00:15,810 --> 00:00:20,550
+Eu aconselho que você sempre esteja digitando a não ser que você diga não é essa parte já para mim está
+
+7
+00:00:20,550 --> 00:00:26,490
+tranquilo não tenho dificuldade então você pode ir se aproveitando dessas benesses nessas benefícios
+
+8
+00:00:26,500 --> 00:00:29,520
+que uma ideia o editor traz para a gente estava lá.
+
+9
+00:00:29,940 --> 00:00:36,060
+Inicialmente eu vou criar três variáveis não variáveis são variáveis inteiras que eu vou chamar quantidade
+
+10
+00:00:36,870 --> 00:00:43,980
+de notas que ela vai iniciar com zero ou seja nenhuma nota foi digitada mim vou criar outra variável
+
+11
+00:00:43,980 --> 00:00:49,950
+chamada de cabo que vai apresentar a nota atual que também será zero e vou criar aqui uma outra variável
+
+12
+00:00:49,950 --> 00:00:55,590
+W que vai representar o total total em minha série 0 certo.
+
+13
+00:00:55,590 --> 00:01:04,980
+é pra gente fazer que o Abril ou Maio vai ser o sinal de saída vai ser enquanto anota quanto a nota
+
+14
+00:01:05,340 --> 00:01:11,460
+for diferente de menos uma vez e quando o código se ela for igual menos 1 saia e no final obviamente
+
+15
+00:01:11,460 --> 00:01:21,090
+depois do AI A gente vai calcular a média calcular a média e a média Supersimples até criar outra variável
+
+16
+00:01:21,090 --> 00:01:28,900
+que dava pra receber em média recebe total dividido pela quantidade de notas.
+
+17
+00:01:28,920 --> 00:01:34,890
+Nesse caso eu tenho um inteiro mas como o total é um dado o resultado será um dado e aqui eu posso colocar
+
+18
+00:01:34,920 --> 00:01:42,180
+por exemplo uma média igual e eu posso concatenar por exemplo a variável média.
+
+19
+00:01:42,330 --> 00:01:48,430
+Então aqui eu já calculei a média final que está faltando agora a gente capturar cada uma das notas.
+
+20
+00:01:48,510 --> 00:01:53,110
+Eu só quero capturar notas válidas mais no primeiro momento não vou fazer isso eu vou deixar mesmo o
+
+21
+00:01:53,110 --> 00:01:53,700
+cubano aqui.
+
+22
+00:01:53,700 --> 00:02:00,570
+Depois a gente perde essa melhoria depois do primeiro teste da tela fazer o seguinte Aqui eu vou colocar
+
+23
+00:02:01,220 --> 00:02:12,600
+no System ponto algum ponto onde vou pedir que ela informe a nota pois posso dar um espacinho aqui.
+
+24
+00:02:12,630 --> 00:02:23,010
+Logo depois eu vou fazer nota recebe entrada de ponto mas este dado ponto e vou fazer o seguinte já
+
+25
+00:02:23,010 --> 00:02:31,410
+que o usuário digitou a nota vou pegar uma quantidade de notas mais mais e vou fazer o total pra pegar
+
+26
+00:02:31,410 --> 00:02:40,650
+mais igual a note digital agora o sujeito acrescentando uma atribuição aditiva à variável total e depois
+
+27
+00:02:40,650 --> 00:02:46,080
+também estou acrescentando fazendo o incremento em cima da quantidade de notas fazendo aqui o primeiro
+
+28
+00:02:46,080 --> 00:02:51,710
+tachi executando a primeira nota 8 acima da nota 8.
+
+29
+00:02:51,800 --> 00:03:00,170
+A terceira nota 8 ou digitar menos um e a média vai dar o ok a Maria vai dar 5 pontos 75.
+
+30
+00:03:00,170 --> 00:03:00,660
+Por quê.
+
+31
+00:03:00,660 --> 00:03:04,050
+Porque é a variável menos 1 foi considerada na nota.
+
+32
+00:03:04,050 --> 00:03:08,670
+Ou seja o próprio menos 1 entrou como uma nota válida só que na verdade ele não pode entrar com uma
+
+33
+00:03:08,670 --> 00:03:14,370
+nota válida então para a gente acrescentar a nota total e acrescentar a quantidade de notas digitadas.
+
+34
+00:03:14,370 --> 00:03:19,260
+Posso fazer isso aqui dentro de um bloco F 7 ou colocar um bloco F.
+
+35
+00:03:19,610 --> 00:03:23,120
+Vou jogar essas duas sentenças de o que pra dentro.
+
+36
+00:03:23,150 --> 00:03:34,500
+Aqui vou colocar a seguinte expressão a nota tem que ser menor ou igual a 10 e a nota tem que ser maior
+
+37
+00:03:34,740 --> 00:03:36,330
+ou igual a zero.
+
+38
+00:03:36,360 --> 00:03:41,760
+Aqui sim nesse cenário eu tenho apenas a consideração de notas válidas quando o usuário digitar menos
+
+39
+00:03:41,760 --> 00:03:47,100
+um não vai ter problema com o que ele não vai cair aqui não vai acrescentar nota e nem a quantidade
+
+40
+00:03:47,100 --> 00:03:55,690
+de notas também será mexida então tá faltando mais uma vez o teste supersimples e no caso 8 8 8 menos
+
+41
+00:03:55,700 --> 00:03:57,120
+1 a média é 8.
+
+42
+00:03:57,120 --> 00:04:07,770
+Como era de se esperar então no aqui 9 pontos 5 7 pontos 5 e 8 pontos 5 Se eu colocar aqui menos 1 a
+
+43
+00:04:07,770 --> 00:04:09,050
+médio vai dar 8 pontos 5.
+
+44
+00:04:09,090 --> 00:04:15,200
+Você pode testar várias estratégias o fato é que quando o usuário digita menos ou ele sabe que vai sair
+
+45
+00:04:15,200 --> 00:04:25,230
+o laço eu não sei a priori quantos alunos eu tenho aqui uma vez digite a nota ou menos um pra sair.
+
+46
+00:04:25,530 --> 00:04:33,180
+E outra coisa se o usuário digitar anote inválida eu posso colocar o que dizem que informe então o seguinte
+
+47
+00:04:33,180 --> 00:04:44,380
+nota inválida colocar um desenho piscar o olho já estão prontas estando aqui mais uma vez só pra gente
+
+48
+00:04:45,210 --> 00:04:52,370
+informa a nota ou menos um pra sair só maximizar rapidamente que o nosso terminal local.
+
+49
+00:04:52,590 --> 00:04:54,430
+Nota 10.
+
+50
+00:04:54,530 --> 00:05:05,130
+Tirou o 5 tirou 6 pontos 7 no final ele até colocou a nota inválida e colocou o piscar depois calculou.
+
+51
+00:05:05,130 --> 00:05:10,400
+Nesse caso tem que colocar um STF só tem um blog o nosso código teus.
+
+52
+00:05:10,650 --> 00:05:16,410
+Se a nota for diferente menos um ele só vai vim pra cá.
+
+53
+00:05:16,410 --> 00:05:21,540
+Se a nota for inválida mas se a nota for diferente menos um é que eu quero mostrar que a nota foi inválida
+
+54
+00:05:22,110 --> 00:05:24,960
+traz à tona mais uma vez só pra gente.
+
+55
+00:05:24,960 --> 00:05:30,500
+Agora está tudo ok são 10 9 8 7.
+
+56
+00:05:30,880 --> 00:05:35,620
+Eu vou digitar menos um cálculo a médio mostrou o resultado ao 8 ponto 5.
+
+57
+00:05:35,640 --> 00:05:40,960
+A média das notas digitadas então esse é o resultado do nosso desafio.
+
+58
+00:05:40,980 --> 00:05:44,450
+Eu espero que você chegue ao Estado e até proximal pra gente continuar.
+
+59
+00:05:44,550 --> 00:05:48,300
+Ainda no capítulo dos futuros de controle vendo o forro da tela.

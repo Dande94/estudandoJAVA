@@ -1,0 +1,611 @@
+1
+00:00:00,350 --> 00:00:04,550
+Agora vamos fazer a parte prática dos tipos primitivos da linguagem Java.
+
+2
+00:00:04,560 --> 00:00:08,330
+Então para isso nós vamos criar uma nova classe Class.
+
+3
+00:00:08,400 --> 00:00:15,480
+O nome da classe dentro do pacote do pacote fundamentos ainda o nome da classe será de tipos primitivos.
+
+4
+00:00:15,510 --> 00:00:19,950
+A gente vai trabalhar com todos os tipos primitivos da linguagem Java então para isso nós vamos criar
+
+5
+00:00:20,380 --> 00:00:25,440
+um método em que a porta de entrada a única coisa que a gente conversou sobre o método também é que
+
+6
+00:00:25,440 --> 00:00:30,560
+a porta de entrada então pra essa classe em tipos primitivos poderá ser executada.
+
+7
+00:00:30,570 --> 00:00:36,120
+Significa que precisa ter um ponto de entrada um metro ou rodar um contra um time para que a gente possa
+
+8
+00:00:36,120 --> 00:00:36,810
+maximizar.
+
+9
+00:00:36,810 --> 00:00:40,080
+Nós vamos trabalhar com chips primitivos inicialmente.
+
+10
+00:00:40,490 --> 00:00:45,210
+Eu vou trabalhar com a ideia de um funcionário os dados de um funcionário vou tentar usar todos os tipos
+
+11
+00:00:45,210 --> 00:00:51,180
+primitivos em cima desse um desse desse conceito de um funcionário embora na prática provavelmente seria
+
+12
+00:00:51,180 --> 00:00:56,160
+diferente mais para a gente testar todos os tipos em cima de variáveis que tenham algum significado
+
+13
+00:00:56,520 --> 00:01:02,610
+mais interessante não ficar só coloca no ABC aqui nas mãos e inicialmente trabalhar com os títulos numéricos
+
+14
+00:01:02,610 --> 00:01:07,320
+inteiros para a gente ver os quatro tipos e a única diferença que eu falei pra vocês é o tamanho certo
+
+15
+00:01:07,320 --> 00:01:09,300
+começando com baixo que é o menor deles.
+
+16
+00:01:09,690 --> 00:01:15,750
+Então anos de empresa recebe um número que instrui seria por exemplo um caso válido pra você definir
+
+17
+00:01:15,750 --> 00:01:20,020
+uma variável baixinha que ela não vai passar do regime desse tipo.
+
+18
+00:01:20,130 --> 00:01:27,240
+Nós temos depois sorte então o número de votos que esse funcionário fez área viaja muito já fez 542
+
+19
+00:01:27,240 --> 00:01:28,600
+votos por exemplo.
+
+20
+00:01:28,800 --> 00:01:34,680
+O próximo dado seria que o inteiro que vai mais ou menos com um regime de 2 bilhões é alguma coisa então
+
+21
+00:01:34,680 --> 00:01:40,650
+adido funcionado dentro da empresa 56 mil e alguma coisa então isso aqui é um regime que necessariamente
+
+22
+00:01:40,650 --> 00:01:43,980
+precisaria ser do inteiro aqui só para a gente olhar.
+
+23
+00:01:43,980 --> 00:01:52,380
+Se você colocar 32 mil e sete que eu acho que é o máximo que chegando positivos de El Salvador não tem
+
+24
+00:01:52,380 --> 00:01:56,610
+problema nenhum se eu colocar aqui 8 ele já vai dizer que está fora do Rio.
+
+25
+00:01:56,610 --> 00:02:02,430
+Se você colocar um mouse por cima ele vai dizer que não pode converter para choque porque nesse caso
+
+26
+00:02:02,430 --> 00:02:07,080
+o que está dando planos de conversão tem um valor maior do que ele cabe dentro do shopping está a mesma
+
+27
+00:02:07,080 --> 00:02:14,310
+coisa eu colocar aqui por exemplo 128 é um valor que está fora do ringue mais 127 ele caberia dentro
+
+28
+00:02:14,310 --> 00:02:20,320
+do rígido baixo todo não contra o Z AQUI PRA BOTAR PRA MIM 3 aqui voltar pra 15 42 tá.
+
+29
+00:02:20,730 --> 00:02:26,100
+E o valor inteiro pode ser até 2 bilhões de alguma coisa como eu comentei pra vocês a diferença basicamente
+
+30
+00:02:26,640 --> 00:02:33,240
+é a capacidade de armazenamento de cada um desses tipos e o próximo tipo vai ser longo e aqui no caso
+
+31
+00:02:33,240 --> 00:02:39,870
+pontos acumulados vão mostrar pra vocês que é possível separar usando o andar lá pra ficar mais fácil
+
+32
+00:02:39,870 --> 00:02:40,410
+a leitura.
+
+33
+00:02:40,410 --> 00:02:52,200
+Então por exemplo aqui são 13 bilhões 234 milhões 845 mil 223 então esse aqui seria por exemplo a quantidade
+
+34
+00:02:52,200 --> 00:02:55,570
+de pontos que o usuário acumulou dentro da empresa.
+
+35
+00:02:55,620 --> 00:03:01,320
+Aqui tem uma questão importante que é o seguinte eu falei pra vocês na aula passada que todos os valores
+
+36
+00:03:01,320 --> 00:03:06,150
+literais o que é um valor literal e aquele valor que você coloca diretamente no código no valor direto
+
+37
+00:03:06,270 --> 00:03:08,120
+não foi uma entrada do usuário.
+
+38
+00:03:08,160 --> 00:03:13,340
+Você não pegou essa parte de um banco de dados você simplesmente colocou o número lá direto no seu programa.
+
+39
+00:03:13,590 --> 00:03:19,110
+Você tem um literal que é um número literal que é o texto por exemplo aqui eu coloquei um literal que
+
+40
+00:03:19,110 --> 00:03:21,930
+está acima da capacidade do inteiro.
+
+41
+00:03:22,020 --> 00:03:28,410
+Se eu colocasse por exemplo 2 bilhões alguma coisa salvasse 2 bilhões acho que também passou um bilhão
+
+42
+00:03:28,470 --> 00:03:35,550
+e alguma coisa aqui ele caberia dentro de um inteiro e provavelmente 2 bilhões sendo que alguma coisa
+
+43
+00:03:35,550 --> 00:03:37,520
+vai caber também dentro dos inteiros.
+
+44
+00:03:37,830 --> 00:03:44,070
+Mas no momento que eu coloco 3 bilhões de alguma coisa eu passei a quantidade nos inteiros o que significa
+
+45
+00:03:44,070 --> 00:03:49,370
+que eu preciso dizer que esse literal não é mais um inteiro ele é um literal do tipo long.
+
+46
+00:03:49,370 --> 00:03:56,100
+Então pra eu dizer isso em Java eu uso a letra L associada a um número pode ser uma L maiúsculo e ele
+
+47
+00:03:56,100 --> 00:03:59,620
+sabe que agora esse literal não é mais um inteiro literal Long.
+
+48
+00:03:59,940 --> 00:04:02,050
+Ou então L minúsculo.
+
+49
+00:04:02,070 --> 00:04:07,470
+Eu não gosto muito do l minúsculo porque pode confundir com algum numero por exemplo ficar você ler
+
+50
+00:04:07,470 --> 00:04:12,820
+rápido e achar que isso se trata do número 1 por exemplo embora a fonte deixe claro que não é um número
+
+51
+00:04:12,830 --> 00:04:19,470
+1 mas você colocando um L maiúsculo fica lógico mais claro ainda que esse é um literal longo e ou seja
+
+52
+00:04:19,470 --> 00:04:25,830
+quando você vai definir o literal e você passa já a capacidade do inteiro você obrigatoriamente precisa
+
+53
+00:04:25,830 --> 00:04:30,860
+colocar a letra L se você não passar como é o caso de 2 bilhões sinta alguma coisa.
+
+54
+00:04:30,860 --> 00:04:36,840
+Se eu não colocar o L ele automaticamente vai pegar esse literal que é um inteiro e vai jogar dentro
+
+55
+00:04:36,840 --> 00:04:41,940
+de um local onde mais não tem problema ok porque ele a menor e o Ronaldo é maior então tudo o que cabe
+
+56
+00:04:41,940 --> 00:04:43,730
+no inteiro tamanho vai caber no long.
+
+57
+00:04:43,770 --> 00:04:50,070
+Então esse tipo de conversão já ele faz de forma implícita e implicitamente ele vai lá e coloca quando
+
+58
+00:04:50,070 --> 00:04:56,160
+você coloca um literal que já fere o tipo por padrão que é o tipo inteiro você obrigatoriamente precisa
+
+59
+00:04:56,160 --> 00:05:02,720
+colocar um l no final então tem essa pequena pegadinha em para vocês colocarem o próximo passo vai ser
+
+60
+00:05:02,720 --> 00:05:08,330
+gente definiu os títulos numéricos com ponto flutuante ou seja os títulos numéricos reais e nós temos
+
+61
+00:05:08,330 --> 00:05:08,750
+dois.
+
+62
+00:05:08,750 --> 00:05:14,960
+Então nós temos o Fallout que é o salário por exemplo 11 mil 445 ponto 44.
+
+63
+00:05:15,050 --> 00:05:20,510
+Esse também é um cenário que vai acontecer o que eu falei eu falei pra vocês que qualquer número como
+
+64
+00:05:20,510 --> 00:05:23,240
+ponto flutuante era do tipo W.
+
+65
+00:05:23,300 --> 00:05:25,730
+Damon é maior do que ele.
+
+66
+00:05:25,860 --> 00:05:32,990
+Seja o dobro e o dobro do flows em termos de capacidade de armazenamento o que significa que você vai
+
+67
+00:05:32,990 --> 00:05:36,080
+não vai conseguir colocar um robô dentro de um.
+
+68
+00:05:36,400 --> 00:05:43,120
+E o Java ele não vai analisar os valores e sim os tipos então esse é um literal que representa algo.
+
+69
+00:05:43,280 --> 00:05:49,340
+Então nesse caso como eu quero colocar um literal dentro do Fallout obrigatoriamente eu tento colocar
+
+70
+00:05:49,430 --> 00:05:56,650
+a letra F no final isso indica para o Java que você está escrevendo um literal Flow e não um literal
+
+71
+00:05:56,660 --> 00:05:57,380
+indagou quê.
+
+72
+00:05:57,390 --> 00:06:02,120
+Por padrão aqui também você pode colocar letra maiúscula em letra minúscula.
+
+73
+00:06:02,120 --> 00:06:07,400
+Você pode usar qualquer uma das os padrões de ações eu acabo preferindo usar letra maiúscula tá aqui
+
+74
+00:06:07,400 --> 00:06:18,850
+mesmo que seja um número um ponto 44 não importa isso aqui ele é um dado mesmo que seja 0,001 e o 0
+
+75
+00:06:18,860 --> 00:06:25,490
+cabe no fronte porque o Java não olha o número e percebe que cabe no flores porque o Java ele não analisou
+
+76
+00:06:25,610 --> 00:06:32,030
+o valor ele analisa o tipo como ele sabe que por padrão literal como ponto flutuante e do tipo W ele
+
+77
+00:06:32,030 --> 00:06:37,430
+vai colocar isso e vai dizer eu estou querendo colocar um tambor dentro de um valor Flow X não pode.
+
+78
+00:06:37,670 --> 00:06:46,700
+Então voltando aqui eu tenho o número 11 mil 445 ponto 44 do tipo flow ou seja esse literal representa
+
+79
+00:06:46,700 --> 00:06:48,660
+um corte aí sim eu consigo armazenar.
+
+80
+00:06:48,680 --> 00:06:53,340
+Caso você não coloque a letra F tem outras possibilidades que eu vou discutir um pouco mais pra frente.
+
+81
+00:06:53,720 --> 00:06:59,240
+Mas a forma mais simples nesse caso é dizer que esse é um literal Flow útil aí sim eu consigo armazenar
+
+82
+00:06:59,240 --> 00:06:59,750
+meu flow.
+
+83
+00:06:59,780 --> 00:07:07,050
+O próximo tipo primitivo do Java é o W aqui no caso vendas acumuladas note o padrão que eu estou usando
+
+84
+00:07:07,070 --> 00:07:12,590
+Camel Keys é a primeira letra minúscula cada nova palavra colocam a letra maiúscula.
+
+85
+00:07:12,620 --> 00:07:22,040
+Anos de empresa números de pontos acumulados salário vendas acumuladas e aí vai tá aqui eu vou colocar
+
+86
+00:07:22,040 --> 00:07:29,360
+2 bilhões 991 milhões 797 mil cento e 3 pontos eram.
+
+87
+00:07:29,420 --> 00:07:36,650
+Ou seja a quantidade de vendas acumuladas nesses anos de empresa é de 23 anos de empresa.
+
+88
+00:07:36,650 --> 00:07:43,550
+O cara vendeu isso ao todo nós temos aqui 6 títulos numéricos básicos os 4 tipos inteiros e os dois
+
+89
+00:07:43,550 --> 00:07:44,930
+tipos com ponto flutuante.
+
+90
+00:07:44,930 --> 00:07:51,110
+A diferença entre eles é fato dos tamanhos do menor para o maior e aqui tamanho do menor para o maior.
+
+91
+00:07:51,110 --> 00:07:55,990
+Os próximos dois tipos primitivos que a gente tem em Java e o tipo booleano verdadeiro falso.
+
+92
+00:07:56,030 --> 00:08:03,830
+Então mulher está de férias falso e você tem a possibilidade de colocar aqui também outro valor alto.
+
+93
+00:08:03,950 --> 00:08:09,560
+Ou seja são esses dois valores falso caipiras indicaram não estar de férias ou em Java.
+
+94
+00:08:09,560 --> 00:08:12,700
+Você não coloca um site colocar por exemplo zero.
+
+95
+00:08:12,800 --> 00:08:16,920
+Isso vai dar um erro e o Java não é permitido colocar zero ou qualquer outra coisa.
+
+96
+00:08:17,060 --> 00:08:23,400
+Já em outras linguagens isso é possível e o próximo é o último tipo primitivo dentro da linguagem Java
+
+97
+00:08:23,420 --> 00:08:27,670
+tipo caractere que é o chá que por exemplo coloca o status.
+
+98
+00:08:27,950 --> 00:08:30,380
+Por exemplo poderia significar ativo.
+
+99
+00:08:30,380 --> 00:08:34,460
+Então você pode ter uma letra para apresentar ativo e inativo.
+
+100
+00:08:34,610 --> 00:08:40,370
+Você pode colocar por exemplo no símbolo também você pode colocar os números também mas o que você não
+
+101
+00:08:40,370 --> 00:08:48,260
+pode colocar é por exemplo até ativo não pode porque aí são duas letras e um tipo caractere só aceita
+
+102
+00:08:48,320 --> 00:08:49,710
+uma única letra.
+
+103
+00:08:49,730 --> 00:08:56,130
+Você até pode colocar aqui um barra e colocar por exemplo 0 0 10.
+
+104
+00:08:56,150 --> 00:09:02,320
+Isso aqui significa um número dentro da tabela Unicode ele vai usar isso para representar algum valor
+
+105
+00:09:02,330 --> 00:09:09,460
+zero na tabela Unicode cada símbolo dentro da tabela tem um número associado pela ordem que foi definido.
+
+106
+00:09:09,660 --> 00:09:14,840
+E você também pode usar esse tipo de nomenclatura mais um caso o que eu vou usar letras para representar
+
+107
+00:09:14,900 --> 00:09:16,580
+que o funcionário está ativo.
+
+108
+00:09:16,580 --> 00:09:22,440
+Então a gente vai agora usar essas informações para a gente não tem advertência por que apertar mostra
+
+109
+00:09:22,460 --> 00:09:27,760
+uma advertência aqui ou seja está vários campos aqui em amarelo ele está mostrando amarelo por quê.
+
+110
+00:09:27,800 --> 00:09:31,510
+Você criou uma variável e não usou essa variável.
+
+111
+00:09:31,510 --> 00:09:36,980
+Isso vai gerar advertências se você colocar o mouse em cima ele vai dizer ao remova Marialva porque
+
+112
+00:09:36,980 --> 00:09:38,780
+você não está usando nessa variável.
+
+113
+00:09:38,870 --> 00:09:42,890
+Então gente vai calcular agora para usar todas as variáveis do que mero cálculo vai ser calculado os
+
+114
+00:09:42,890 --> 00:09:48,650
+dias de empresa desse funcionário já que ele tem 23 anos ele vai fazer uma conta simples para multiplicar
+
+115
+00:09:48,650 --> 00:09:58,730
+o dia pelos anos usando 365 da mão lá System Alt Print ali pegando anos de empresa vezes 365 e um arredondamento
+
+116
+00:09:59,110 --> 00:10:02,100
+e a gente vai ver o nosso primeiro resultado.
+
+117
+00:10:02,100 --> 00:10:08,400
+Ele tem 8 mil 395 dias de empresa então nesse caso a gente já usou essa variável e ela passou a não
+
+118
+00:10:08,400 --> 00:10:11,530
+ser mais amarelinha né não tem mais advertência.
+
+119
+00:10:11,710 --> 00:10:16,920
+Com relação a essa variável o próximo cálculo que nós vamos fazer é o número de viagens imagine aqui
+
+120
+00:10:17,230 --> 00:10:25,320
+dentro dessa empresa o usuário sempre vai para a localidade volta ao local se ele fez 542 votos significa
+
+121
+00:10:25,320 --> 00:10:29,300
+que ele foi e voltou a metade disso que seria o número de viagem.
+
+122
+00:10:29,300 --> 00:10:32,190
+Então vou pegar o número de voos dividido por dois.
+
+123
+00:10:32,190 --> 00:10:35,420
+Para a gente só usa essa variável número de voos de por.
+
+124
+00:10:35,440 --> 00:10:42,210
+O resultado mais dados em 71 viagens próximo que nós vamos usar seus pontos acumulados e eu vou querer
+
+125
+00:10:42,230 --> 00:10:49,400
+tanto usá los com os acumulados como as vendas acumuladas pra saber a relação entre quantos pontos o
+
+126
+00:10:49,410 --> 00:10:54,650
+Real cara ganha ou seja cada venda que ele faz e que ele ganha pontos dentro da empresa.
+
+127
+00:10:54,660 --> 00:11:00,090
+Essa é uma simulação aqui pra gente usar valores um pouco mais realistas nesse exemplo então basicamente
+
+128
+00:11:00,090 --> 00:11:02,070
+eu vou dividir uma coisa pela outra.
+
+129
+00:11:02,100 --> 00:11:09,000
+Ou seja os pontos acumulados dividido pela quantidade de vendas que ele fez e tem a relação que existe
+
+130
+00:11:09,000 --> 00:11:16,230
+entre os pontos acumulados pra cada ou seja para cada real vendido ele ganha um ponto 04 dentro do programa
+
+131
+00:11:16,230 --> 00:11:21,450
+de milhas ou de pontos ao lado da empresa seria mais ou menos como dote da empresa só criando uma simulação
+
+132
+00:11:21,450 --> 00:11:27,800
+aqui está usando quase todos está faltando a gente usar o áudio vou usá la agora do usuário.
+
+133
+00:11:27,840 --> 00:11:37,320
+O edital ganha e eu vou colocar o salário dele para enfim imprimir também aqui o AI 5 mil 56 mil e alguma
+
+134
+00:11:37,320 --> 00:11:40,080
+coisa ganha 11 mil e algum acordo certo.
+
+135
+00:11:40,080 --> 00:11:43,160
+Tá faltando ainda a gente colocar se o usuário está de férias ou não.
+
+136
+00:11:43,170 --> 00:11:49,350
+Então system on line férias é aqui eu vou concatenar com esse tipo primitivo está de férias ele vai
+
+137
+00:11:49,350 --> 00:11:53,500
+mostrar o verdadeiro falso no caso em inglês isto falso.
+
+138
+00:11:53,880 --> 00:11:55,260
+Então está de férias.
+
+139
+00:11:55,290 --> 00:11:55,960
+Falso.
+
+140
+00:11:55,970 --> 00:12:00,550
+Se mudá la para o verdadeiro ele vai mudar de forma correspondente.
+
+141
+00:12:00,570 --> 00:12:05,770
+E por último não só tá só tem mais uma advertência no nosso código e essa advertência Se você olhar
+
+142
+00:12:05,770 --> 00:12:09,280
+aqui só vai gerar um advertência na classe.
+
+143
+00:12:09,330 --> 00:12:14,550
+Aqui no próprio blog já que explora ele vai mostrar um sinal de advertência e vai gerar uma advertência
+
+144
+00:12:14,550 --> 00:12:21,530
+no pacote vai gerar advertência no só se vai gerar advertência no seu projeto por conta de uma advertência
+
+145
+00:12:21,540 --> 00:12:27,360
+seu projeto fica com o single Sozinho advertência porque nós criamos uma variável e não usamos ela então
+
+146
+00:12:27,390 --> 00:12:32,970
+finalmente eu vou usar a variável colocando o que assistem aulas para a gente usar a variável status
+
+147
+00:12:32,970 --> 00:12:39,680
+colocando com CA treinando com esse caractere ou salvei não tem mais a divertem se no meu colo não tenho
+
+148
+00:12:39,690 --> 00:12:43,580
+libertem no arquivo e consequentemente em toda a estrutura do projeto.
+
+149
+00:12:43,580 --> 00:12:49,650
+Também não tem mais ele pertence à última execução que usamos nesse exercício todos os tipos permitidos
+
+150
+00:12:49,780 --> 00:12:58,110
+caractere valor booleano um valor inteiro um valor ponto flutuante no caso Claudinho usamos aqui o valor
+
+151
+00:12:58,110 --> 00:13:06,150
+da ABL usamos Long e todos os tipos primitivos foram usados aqui para conhecer os tipos básicos da linguagem.
+
+152
+00:13:06,180 --> 00:13:10,020
+A gente vai continuar falando algumas outras coisas legais também nunca pedi formalmente que não fique
+
+153
+00:13:10,020 --> 00:13:11,150
+por aqui até aproximá mal.

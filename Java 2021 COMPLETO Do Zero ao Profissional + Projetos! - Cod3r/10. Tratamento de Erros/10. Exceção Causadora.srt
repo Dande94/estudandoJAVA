@@ -1,0 +1,299 @@
+1
+00:00:00,160 --> 00:00:06,460
+Pensou agora nós vamos criar aqui um exercício só para mostrar que uma exceção pode ser a causa de outra
+
+2
+00:00:06,460 --> 00:00:12,060
+essa ação às vezes você não tem apenas uma única exceção mas uma exceção pode causar um ou outro por
+
+3
+00:00:12,060 --> 00:00:12,590
+exemplo.
+
+4
+00:00:12,590 --> 00:00:18,600
+Aos poucos você vai tentar acessar um banco de dados você vai tentar por exemplo cadastrar um aluno
+
+5
+00:00:18,600 --> 00:00:22,950
+no banco de dados dado o sistema da faculdade e o banco de dados está fora.
+
+6
+00:00:22,950 --> 00:00:27,350
+Alguém foi lá e cortou o cabo de rede que liga o seu sistema com o banco de dados.
+
+7
+00:00:27,350 --> 00:00:33,420
+Se isso acontecer você tentar acessar o banco de dados para inserir um aluno muito provavelmente o primeiro
+
+8
+00:00:33,420 --> 00:00:40,260
+erro que vai ser causado é seu erro de rede que vai ser um erro gerado pelo próprio a biblioteca de
+
+9
+00:00:40,260 --> 00:00:47,130
+massa e o banco de dados então gerou lá um Network Access por exemplo e o Net Work Sérgio foi a causa
+
+10
+00:00:47,130 --> 00:00:53,380
+de gerar o erro de banco de dados e que sabem que foi a causa de gerar um erro de aluno não cadastrada
+
+11
+00:00:53,380 --> 00:00:54,140
+que abaixo.
+
+12
+00:00:54,500 --> 00:01:01,200
+Então uma exceção para criar nomes de certa forma fictícios demais acontece isso na prática assim você
+
+13
+00:01:01,200 --> 00:01:06,590
+tem um erro de rede que causou um erro de banco que causou um erro na funcionalidade do seu sistema.
+
+14
+00:01:06,590 --> 00:01:12,380
+E você entender um pouco e uma exceção pode ter um ou outra causa é algo também importante.
+
+15
+00:01:12,390 --> 00:01:18,720
+Quero mostrar isso nesse exercício então nós vamos criar aqui uma nova classe dentro dessa ação que
+
+16
+00:01:18,720 --> 00:01:25,220
+eu vou chamar aqui de causa pequena causa ou definir o método nem vou definir mas outros dois métodos
+
+17
+00:01:25,230 --> 00:01:38,520
+vai ter o estáticos Void um método que vai receber aqui e lá o aluno coloca o aluno aluno e vou duplicar
+
+18
+00:01:38,640 --> 00:01:44,250
+esse método e vou definir o método dele que também vai receber um a um.
+
+19
+00:01:44,340 --> 00:01:47,740
+Vou fazer o seguinte dentro do método bem eu fazer um teste.
+
+20
+00:01:47,970 --> 00:01:59,590
+Se o aluno for igual a nulo eu vou lançar uma exceção de forma explícita que vai ser no ponto certo
+
+21
+00:02:00,180 --> 00:02:11,920
+e a mensagem de erro dessa sessão vai ser o seguinte o aluno está em grande grandes com o que viu em
+
+22
+00:02:11,960 --> 00:02:16,860
+uma sessão e qualquer coisa se chegar aqui direitinho o nome está nulo.
+
+23
+00:02:16,860 --> 00:02:23,090
+Eu vou colocar por exemplo um aluno com outro nome para ser impresso no console.
+
+24
+00:02:23,530 --> 00:02:29,780
+Eu vou a partir desse método chamar aquilo melhor a partir do método agora chama o método dele chamado
+
+25
+00:02:29,960 --> 00:02:38,450
+aqui o mesmo B passa no aluno e vou chamar o método diretamente dentro do homem passando o aluno para
+
+26
+00:02:38,560 --> 00:02:47,240
+onde seu valor nulo vai ser acertado o resultado foi o ponto certo e a mensagem um aluno que está legal
+
+27
+00:02:47,250 --> 00:02:53,310
+mais um pouco nesse método eu não quero lançar este tipo de erro não concordei com a abordagem do programador
+
+28
+00:02:53,310 --> 00:02:55,910
+aqui e quero tratar esse erro.
+
+29
+00:02:55,920 --> 00:03:02,070
+Então vou tratar aqui o erro por exemplo e vou a outra posso tratar de forma específica de forma mais
+
+30
+00:03:02,070 --> 00:03:03,010
+genérica.
+
+31
+00:03:03,180 --> 00:03:08,580
+E aqui eu vou colocar pra ele lançar uma ou outra exceção ou seja dentro de um enquete eu posso lançar
+
+32
+00:03:08,620 --> 00:03:14,930
+outra exceção tanto checar como não checado nem eu posso transformar uma exceção não checado numa checada
+
+33
+00:03:14,940 --> 00:03:15,570
+sem problema.
+
+34
+00:03:15,570 --> 00:03:21,740
+Então qualquer que eletrônico é legal argumente e recebe um cadeado.
+
+35
+00:03:21,790 --> 00:03:28,670
+é legal argumentar que Sérgio é um dos parâmetros que eu posso passar para ela e o trombou colos.
+
+36
+00:03:28,740 --> 00:03:32,390
+Ou seja qual é a causa dessa seção que eu estou lançando.
+
+37
+00:03:32,530 --> 00:03:36,260
+Traz exatamente esse recurso porque eu quero chamada.
+
+38
+00:03:36,480 --> 00:03:41,580
+E aí o consultor não necessariamente aquele que você escolheu mas sim baseado naquilo que você passa
+
+39
+00:03:41,580 --> 00:03:43,110
+aqui como parâmetro.
+
+40
+00:03:43,110 --> 00:03:49,980
+Então vou te chamar e vou chamar aqui de causa pode ser eu não tem para onde mil eu vou passar a causa
+
+41
+00:03:50,280 --> 00:03:55,890
+como sendo parâmetro pra esse construtor que eu seja ilegal argumenta que sabe que não vai ter uma causa
+
+42
+00:03:56,250 --> 00:03:58,060
+que foi gerada no método buy.
+
+43
+00:03:58,140 --> 00:04:04,440
+Aí eu não sei a recessão com outro tipo o que eu concordo mas por exemplo e aqui eu coloquei a causa
+
+44
+00:04:04,440 --> 00:04:09,720
+que foi a causa original poderia ser uma exceção de rede poderia ser uma exceção de banco ou qualquer
+
+45
+00:04:09,720 --> 00:04:16,280
+outra seção que esteja disponível de tal forma que quando chegar aqui eu posso tratar essa exceção.
+
+46
+00:04:16,380 --> 00:04:21,370
+Especificamente essa ação que eu quero ou de forma mais genérica também não tem problema.
+
+47
+00:04:21,730 --> 00:04:25,090
+E aqui eu posso fazer um teste sim e ponto.
+
+48
+00:04:25,100 --> 00:04:32,670
+Bad Klaus eu sei se a causa é diferente de nulo eu quero exibir a mensagem da causa então faz o seguinte
+
+49
+00:04:32,670 --> 00:04:37,330
+onde existem onde onde a Ali ponto Guedes caos.
+
+50
+00:04:37,380 --> 00:04:38,220
+Ponto.
+
+51
+00:04:38,240 --> 00:04:39,640
+Grande mensagem.
+
+52
+00:04:39,930 --> 00:04:47,040
+E aí a gente vai ver a mensagem da recepção que causou o problema inicial traz recado ou a mensagem
+
+53
+00:04:47,040 --> 00:04:48,880
+que foi gerada foi aluno está.
+
+54
+00:04:49,030 --> 00:04:55,150
+Então é importante você entender que uma exceção não necessariamente exceção que estourou que foi gerada
+
+55
+00:04:55,180 --> 00:04:57,660
+essa ação que causou o problema.
+
+56
+00:04:57,810 --> 00:05:05,110
+Aqui você vai ver que as duas eles vão acabar ficando explícitas ou no caso o que foi gerado.
+
+57
+00:05:05,120 --> 00:05:12,130
+A exceção na verdade é que já mostra uma exceção inegavelmente excepcional e Java no interessa interessa
+
+58
+00:05:12,350 --> 00:05:19,810
+dizendo que o aluno está nulo ou seja essa exceção Java é ilegal alguma gentinha que Sérgio foi causado
+
+59
+00:05:19,810 --> 00:05:27,050
+ou causa de baixo seja causada por no ponto era chefe com a mensagem de que algo está certo então você
+
+60
+00:05:27,050 --> 00:05:33,410
+percebe que até mesmo do ponto de vista das teclas se percebe que uma exceção pode ser causa de outra
+
+61
+00:05:33,410 --> 00:05:39,350
+exceção e muitas vezes você pega acepções bem compridas que não é causa da outra que é a causa da primeira
+
+62
+00:05:39,350 --> 00:05:46,670
+você tem às vezes duas três quatro causo uma exceção bem da outra porque essa ação original causa uma
+
+63
+00:05:46,670 --> 00:05:52,190
+exceção por exemplo de rede causou uma sessão de que causou uma exceção de uma regra do seu sistema
+
+64
+00:05:52,250 --> 00:05:57,230
+que causou uma exceção na hora de exibir a passagem então você tem várias acepções Pode ser a causa
+
+65
+00:05:57,230 --> 00:06:03,380
+da outra é importante que você também conheça que isso pode acontecer até na hora de você interpretar
+
+66
+00:06:03,590 --> 00:06:05,160
+a pilha de execução.
+
+67
+00:06:05,210 --> 00:06:10,400
+é importante que você consiga entender que uma sessão pode causar a outra e muitas vezes a ação original
+
+68
+00:06:10,400 --> 00:06:14,840
+pode dar uma ideia um pouco mais precisa de qual foi a real causa do erro.
+
+69
+00:06:14,840 --> 00:06:16,760
+às vezes o erro não está no banco.
+
+70
+00:06:16,820 --> 00:06:22,490
+às vezes o erro não está na sua funcionalidade às vezes simplesmente que a raiz está fora o servidor
+
+71
+00:06:22,490 --> 00:06:26,510
+não consegue acessar a rede para acessar alguma funcionalidade importante.
+
+72
+00:06:26,840 --> 00:06:32,710
+Então mais uma dica importantíssima sobre tratamento de erros aqui os erros podem ter mais de um.
+
+73
+00:06:32,710 --> 00:06:34,700
+Pode ter uma hierarquia né.
+
+74
+00:06:34,720 --> 00:06:40,100
+Uma sequência de causo não é exceção causa uma outra acepção que causa uma outra exceção e você pode
+
+75
+00:06:40,100 --> 00:06:45,580
+passar uma exceção original como causa de um ou outro essa ação é importante que você sabe sobre isso.

@@ -1,0 +1,39 @@
+F076 - 
+introdução
+o que é classe, metodo, relação entre elas;
+orientação a objetos; paradigma da programação;
+
+F077 - 
+Revisando o uso de Classe até momento do curso;
+
+F078 - 
+Classes e Objetos
+anatomia da Classe - por boa pratica usar PascalCase;
+O que tem dentro da Classe - atributos(substantivos -> dados) e comportamentos(ações-> métodos);
+Relação do objeto entre mundo e digital;
+Membros de uma Classe;
+Orientação ao objeto -> aproximar comportamento de dados;
+
+F079 - 
+Uma classe define um TIPO;
+Estrutura do dado;
+A Classe representa  uma abstração(simplificação);
+tentar modelar no mundo digital uma cópia do mundo real;
+objetos são a estrutura de uma classe, e classe representa a estrutura de dados;
+objeto == instâcia (são sinonimos);
+instaciar -> criar objetos numa classe;
+
+Relação entre Classe e Objeto;
+
+construtor;
+
+F080 - 
+Membros de uma classe
+Variaveis / constantes;
+Construtores
+Métdos
+Classes
+
+
+______________________________________________________________________________________________________________________
+

@@ -1,0 +1,339 @@
+1
+00:00:00,340 --> 00:00:05,580
+A última coisa eu quero falar para vocês antes de entrarmos nos exercícios é um pouquinho sobre SQL.
+
+2
+00:00:06,010 --> 00:00:13,910
+O SQL que a linguagem de consultas estruturadas ou estrutura de linguagem era dividida em quatro partes
+
+3
+00:00:13,920 --> 00:00:17,100
+prioritariamente certo eu quero falar rapidamente sobre essas quatro partes.
+
+4
+00:00:17,100 --> 00:00:21,500
+Você tem um derrame e ali você tem o D.
+
+5
+00:00:21,720 --> 00:00:22,150
+D.
+
+6
+00:00:22,190 --> 00:00:22,680
+L.
+
+7
+00:00:23,140 --> 00:00:27,750
+Tenho D C e ali e o C.
+
+8
+00:00:27,770 --> 00:00:28,130
+L.
+
+9
+00:00:28,390 --> 00:00:31,510
+Quer significar essas quatro partes da linguagem SQL.
+
+10
+00:00:31,540 --> 00:00:35,940
+Siga no acima você tem data many Population Language.
+
+11
+00:00:35,940 --> 00:00:41,850
+Essa é a parte que nós vamos focar muito dentro do nós nos focar nessas duas primeiras que é o da ML
+
+12
+00:00:41,910 --> 00:00:42,780
+e o Dedé L.
+
+13
+00:00:42,810 --> 00:00:48,890
+Essas duas últimas aqui não vai ser muito foco no nosso capítulo então data manipula eixo amigos aqui
+
+14
+00:00:48,900 --> 00:00:56,550
+nós vamos trabalhar com comandos no tipo seletos updates de leite
+
+15
+00:00:59,360 --> 00:01:00,550
+e insetos.
+
+16
+00:01:00,560 --> 00:01:01,440
+Colocar aqui no primeiro
+
+17
+00:01:04,840 --> 00:01:11,680
+então isso aqui seria o que a gente chama para da operação de cadastro do crude na corrente updates
+
+18
+00:01:11,840 --> 00:01:12,230
+e.
+
+19
+00:01:12,300 --> 00:01:15,630
+Então essa parte do Data por Aleixo Lemos.
+
+20
+00:01:15,650 --> 00:01:22,850
+Você vai fazer inserções do banco de dados selecionar dados a partir de uma tabela você vai atualizar
+
+21
+00:01:22,850 --> 00:01:24,230
+dados e excluir dados.
+
+22
+00:01:24,230 --> 00:01:31,820
+Tudo isso dentro dessa parte da SQL sob domínio da SQL que é o da ML data manipulação linguística o
+
+23
+00:01:31,820 --> 00:01:36,160
+outro que é o PdL que é o Data Definition Language.
+
+24
+00:01:36,170 --> 00:01:44,270
+Aqui dentro você vai usar comandos como por exemplo o cliente alta para alterar a tabela.
+
+25
+00:01:44,270 --> 00:01:51,190
+Você vai usar o drop para a tropa por exemplo e uma tabela drop down esquema criar um esquema alterar
+
+26
+00:01:51,210 --> 00:01:57,560
+a tabela adicionar colunas e tudo isso que diz respeito à estrutura do banco de dados que a define data
+
+27
+00:01:58,030 --> 00:02:02,240
+data de definição legal ou Linguagem de Definição de Dados aqui.
+
+28
+00:02:02,600 --> 00:02:07,430
+Onde você vai definir o esquema do banco de dados você vai criar as estruturas para que depois você
+
+29
+00:02:07,430 --> 00:02:13,720
+possa usar o data mining por lixo línguas de fato e manipular os dados que você trabalha com os dados.
+
+30
+00:02:13,720 --> 00:02:16,720
+E aqui você trabalha com o esquema do banco de dados.
+
+31
+00:02:16,790 --> 00:02:23,600
+Tudo isso faz parte do SQL mas são subdomínios diferentes ou seja partes diferentes dentro da mesma
+
+32
+00:02:23,600 --> 00:02:24,230
+linguagem.
+
+33
+00:02:24,470 --> 00:02:29,910
+Depois nós temos o Data Control Language ou Linguagem de controle dos dados.
+
+34
+00:02:29,910 --> 00:02:37,690
+E aqui você vai ter comandos como por exemplo grandes para dar acesso a um determinado tipo de informação.
+
+35
+00:02:37,830 --> 00:02:43,040
+Eu quero dar um grande usuário de updates ou seja ele vai poder fazer a presidente do banco de dados
+
+36
+00:02:43,040 --> 00:02:49,670
+eu quero dar um delay por exemplo para dizer que o usuário não pode fazer um delete no banco de dados
+
+37
+00:02:49,680 --> 00:02:52,850
+então não é e não tem permissão para fazer esse tipo de coisa.
+
+38
+00:02:52,850 --> 00:02:58,810
+O usuário não pode criar uma tabela nova o usuário não pode fazer determinada coisa.
+
+39
+00:02:58,820 --> 00:03:08,210
+Então essa parte de acesso de segurança então tem o rival que também levou que são comandos que você
+
+40
+00:03:08,210 --> 00:03:13,820
+dá específico dessa área da SQL que é o dado contra a linguagem a linguagem de controle de dados que
+
+41
+00:03:13,820 --> 00:03:18,750
+você pai vai dar as permissões dentro do banco de dados para saber o que o usuário pode fazer ou não.
+
+42
+00:03:18,770 --> 00:03:24,550
+Isso tem mais mais relação com o cara que vai administrar o banco de dados.
+
+43
+00:03:24,560 --> 00:03:30,140
+O debate vai lá tá vendo quem são os usuários acessa no banco quais são as pretensões de cada um e coisas
+
+44
+00:03:30,140 --> 00:03:30,780
+do tipo.
+
+45
+00:03:31,040 --> 00:03:36,980
+E pra finalizar nós temos o transexual Control Language ou seja a linguagem que está mais relacionado
+
+46
+00:03:36,980 --> 00:03:39,190
+com controle de transações.
+
+47
+00:03:39,230 --> 00:03:46,310
+Você eventualmente vai querer fazer várias operações do banco de dados de uma vez só por exemplo a propagar
+
+48
+00:03:46,340 --> 00:03:50,000
+uma situação bem clássica como se trabalha com esse conceito de transação.
+
+49
+00:03:50,000 --> 00:03:56,080
+Você tem uma conta do banco no banco por exemplo Banco do Brasil Itaú Bradesco e tem uma outra.
+
+50
+00:03:56,150 --> 00:04:02,150
+Então contar uma conta B você quer transferir dinheiro da conta para a conta B transferir dinheiro de
+
+51
+00:04:02,150 --> 00:04:10,100
+uma conta para o álbum conta B envolvem dois processos atualizar o saldo da conta por exemplo tirar
+
+52
+00:04:10,100 --> 00:04:15,950
+um determinado valor do saldo da conta e acrescentar um determinado valor no saldo correspondente no
+
+53
+00:04:15,950 --> 00:04:17,070
+saldo da conta B.
+
+54
+00:04:17,420 --> 00:04:22,280
+Então você tem que dar um update aqui pra subtrair um valor e tem que dar um update aqui para adicionar
+
+55
+00:04:22,280 --> 00:04:22,840
+um valor.
+
+56
+00:04:23,120 --> 00:04:28,600
+Então são dois updates imagina que o primeiro update dá certo e o segundo dá errado.
+
+57
+00:04:28,610 --> 00:04:33,700
+O banco é dinheiro porque você tira dinheiro com quem não atualiza a outra conta.
+
+58
+00:04:33,710 --> 00:04:38,990
+Se aconteceu o inverso o primeiro deu errado e o segundo é certo ou seja você não tirou o dinheiro mas
+
+59
+00:04:38,990 --> 00:04:43,150
+acrescentou o dinheiro na conta de outra pessoa o banco acabou perdendo.
+
+60
+00:04:43,160 --> 00:04:50,030
+Então essa é uma situação que você tem que colocar dentro de uma transação essas duas ou mais operações
+
+61
+00:04:50,030 --> 00:04:55,840
+que eventualmente possam acontecer para que todas as operações sejam efetivadas no banco.
+
+62
+00:04:55,840 --> 00:05:01,640
+Ou então nenhuma dessas operações sejam efetivadas e então dentro desse contexto do transacção Control
+
+63
+00:05:01,660 --> 00:05:13,840
+leigos você tem o big transacção você tem o comite 2m na verdade um altar aqui
+
+64
+00:05:18,370 --> 00:05:26,760
+com amigos trazer caixão roubados e para isso fazer uma determinada transação.
+
+65
+00:05:26,800 --> 00:05:32,790
+7 Então por exemplo quando você inicia uma transação ou você vai cair no comite ou seja de fato efetivar
+
+66
+00:05:32,790 --> 00:05:36,800
+todas aquelas operações que estão dentro daquele contexto transacional.
+
+67
+00:05:37,120 --> 00:05:41,650
+Ou seja eu fiz vários incertos vários updates vários bilhetes dentre outras ação.
+
+68
+00:05:41,750 --> 00:05:48,110
+No final até dar um comite se tudo der certo ou seja eu saí de um estado consistente no banco e fui
+
+69
+00:05:48,110 --> 00:05:50,700
+para o outro estado consistente no banco.
+
+70
+00:05:50,750 --> 00:05:56,690
+Significa que deu tudo certo ele vai lá e efetivar a transação e dar um comite caso aconteça algum problema
+
+71
+00:05:56,960 --> 00:06:00,150
+não foi possível fazer todas as operações dado um Roberto.
+
+72
+00:06:00,160 --> 00:06:05,550
+Ou seja tudo aquilo que foi tentado fazer é desfeito o estado do banco voltou para o estado inicial
+
+73
+00:06:05,550 --> 00:06:09,250
+ou seja nenhuma das operações vai ser efetivada no banco de dados.
+
+74
+00:06:09,260 --> 00:06:17,270
+Então o esquema era formado por essas quatro partes data manhã poluição linguagem ou linguagem de manipulação
+
+75
+00:06:17,270 --> 00:06:19,190
+de dados que é o nosso incerto.
+
+76
+00:06:19,330 --> 00:06:26,600
+Rapidez diz nós temos o DDR data Definition linguagem ou seja criação de tabelas alteração de tabelas
+
+77
+00:06:26,600 --> 00:06:34,480
+acrescentar colunas Drop da tabela criar isso tudo relacionado ao seu esquema está nessa parte do Dedé
+
+78
+00:06:34,640 --> 00:06:40,680
+você tem Apache data Control linguajar surge a linguagem de controle dos dados que aguente denário e
+
+79
+00:06:41,140 --> 00:06:46,790
+coisas do tipo e finalmente o transexual encontrou linguagem linguagem e o corretor de transações que
+
+80
+00:06:46,790 --> 00:06:49,810
+você define as suas transações e ainda as transações.
+
+81
+00:06:49,880 --> 00:06:56,120
+Você vai iniciar a transação ou comitê de transação se tudo der certo ou então não um robô que caso
+
+82
+00:06:56,120 --> 00:07:00,080
+aconteça algum problema durante a persistência dos dados.
+
+83
+00:07:00,230 --> 00:07:05,540
+Então é isso para a gente entender um pouco essa visão geral do SQL e das suas partes.
+
+84
+00:07:05,610 --> 00:07:09,030
+E a partir da próxima aulas vamos configurar o login no versículo.
+
+85
+00:07:09,050 --> 00:07:11,740
+Vamos começar a fazer nossos primeiros exemplos e espero lá.

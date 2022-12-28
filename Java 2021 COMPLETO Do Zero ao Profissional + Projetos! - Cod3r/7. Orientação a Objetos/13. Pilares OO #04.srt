@@ -1,0 +1,411 @@
+1
+00:00:00,420 --> 00:00:05,100
+Agora nós vamos falar do quarto pilar da orientação a objeto que é a abstração.
+
+2
+00:00:05,100 --> 00:00:12,480
+Já falei acho que em outros momentos sobre a administração e já comentei falei o exemplo da BA Amazon
+
+3
+00:00:12,480 --> 00:00:18,530
+e da mercearia por exemplo do mercado que tem ali no bairro que ele abstrai o produto de formas diferentes
+
+4
+00:00:18,530 --> 00:00:24,830
+só pra gente dá aqui uma revisão com relação a esse tema então nós temos aqui o outro pilar que é a
+
+5
+00:00:24,830 --> 00:00:33,010
+abstração e a abstração exatamente essa ideia de você pegar um conceito do mundo real e a abstração
+
+6
+00:00:33,000 --> 00:00:39,750
+é exatamente essa ideia ou se pegar um conceito do mundo real e simplificar esse conceito para o seu
+
+7
+00:00:39,750 --> 00:00:49,130
+software então a abstração também pode ser entendido como uma simplificação simplificada são.
+
+8
+00:00:49,260 --> 00:00:53,730
+Ou seja você simplificar algo do mundo real e colocar dentro do software.
+
+9
+00:00:53,730 --> 00:01:00,380
+é importante você perceber que não existe uma relação e nem uma regra que diz o que é que você vai pegar
+
+10
+00:01:00,380 --> 00:01:06,510
+no mundo real e jogar para a mente do seu software então por exemplo você tem um sistema de faculdade
+
+11
+00:01:06,520 --> 00:01:12,480
+então você vai olhar como é que funciona uma faculdade por exemplo a faculdade tem um conceito chamado
+
+12
+00:01:12,480 --> 00:01:13,260
+professor.
+
+13
+00:01:13,320 --> 00:01:19,320
+Então muito provavelmente você vai criar algo que represente um professor da linguagem de programação.
+
+14
+00:01:19,320 --> 00:01:23,850
+Isso pode ser uma função exponencial uma classe vai depender muito da linguagem de programação que você
+
+15
+00:01:23,850 --> 00:01:25,610
+está usando no caso do Java.
+
+16
+00:01:25,950 --> 00:01:32,400
+Ele vai modelar provavelmente um professor usando uma classe e você vai ter por exemplo outra classe
+
+17
+00:01:32,400 --> 00:01:35,280
+que representa uma disciplina.
+
+18
+00:01:35,280 --> 00:01:38,430
+Então você vai ter lá uma classe que apresentou a disciplina.
+
+19
+00:01:38,430 --> 00:01:42,740
+Você vai ter uma outra classe que representa por exemplo uma sala.
+
+20
+00:01:43,260 --> 00:01:50,100
+E aí você vai querer fazer uma locação de sala disciplina com um determinado horário como professor
+
+21
+00:01:50,100 --> 00:01:55,680
+vai ser que você vai ter uma outra abstração de aluno por exemplo certa um aluno.
+
+22
+00:01:56,130 --> 00:02:00,680
+Então você vai ter essas abstrações e pegar isso e jogar para dentro do seu software.
+
+23
+00:02:00,730 --> 00:02:08,790
+E nem todas as classes de um software e nem todo seu código ele irá ter o correspondente no mundo real.
+
+24
+00:02:08,790 --> 00:02:15,720
+às vezes você tem classes que representam apenas conceitos que são necessários dentro do software para
+
+25
+00:02:15,730 --> 00:02:19,240
+questão de organização e separação de interesses.
+
+26
+00:02:19,240 --> 00:02:24,570
+Então nem tudo que está no mundo real vem para o software e nem tudo o que está no software tem um correspondente
+
+27
+00:02:24,570 --> 00:02:25,460
+no mundo real.
+
+28
+00:02:25,470 --> 00:02:31,380
+Mais orientação objeto ela prega muito essa esse espelhamento do mundo real.
+
+29
+00:02:31,380 --> 00:02:36,990
+Se olhar os conceitos do mundo real e entender esses conceitos e jogar para além do software então por
+
+30
+00:02:36,990 --> 00:02:42,660
+exemplo é possível que dentro da abstração do sistema que você está implementando exista um tipo de
+
+31
+00:02:42,660 --> 00:02:52,590
+aluno especial por exemplo aluno bolsista e esse aluno bolsista ele tem as mesmas características do
+
+32
+00:02:52,590 --> 00:02:59,640
+aluno tem tudo o que o aluno tem mais o conceito de receber um auxílio uma bolsa certo e essa bolsa
+
+33
+00:02:59,640 --> 00:03:01,950
+pode estar vinculada a um determinado hobby.
+
+34
+00:03:01,950 --> 00:03:08,550
+Você tem algumas características especiais o aluno bolsista mas como o aluno bolsista é um aluno você
+
+35
+00:03:08,550 --> 00:03:15,330
+tem aqui uma relação provavelmente de herança então esse tipo de comportamento é algo que acontece no
+
+36
+00:03:15,330 --> 00:03:21,290
+mundo real essas relações do mundo real também serão digamos assim simplificadas abstraindo se para
+
+37
+00:03:21,300 --> 00:03:30,010
+dentro da sua aplicação conforme eu falei você tem a referência certa do real então o real é a sua referência.
+
+38
+00:03:30,030 --> 00:03:35,600
+Nem tudo que está no Real vai estar no software e nem tudo que está no software estará no Real mas em
+
+39
+00:03:35,600 --> 00:03:41,880
+cima desse real dependendo da sua necessidade você tem por exemplo o negócio de venda de produtos você
+
+40
+00:03:41,880 --> 00:03:50,670
+tem um site de venda de produtos ali no seu bairro o site de venda de produtos para um nicho bem específico
+
+41
+00:03:50,670 --> 00:03:51,470
+de público.
+
+42
+00:03:51,540 --> 00:03:58,830
+Por exemplo você tem um site mais genérico mundial de venda de produtos como a Amazon e que provavelmente
+
+43
+00:03:58,860 --> 00:04:06,300
+você vai ter um conceito que é o produto desse lado num sistema Você também vai ter um conceito que
+
+44
+00:04:06,300 --> 00:04:09,130
+representou um produto um sistema bem.
+
+45
+00:04:09,300 --> 00:04:15,430
+Obviamente os dois vão olhar para o mundo real mas os dois terão níveis de abstração diferente.
+
+46
+00:04:15,430 --> 00:04:15,930
+Por quê.
+
+47
+00:04:15,990 --> 00:04:21,690
+Porque são necessidades diferentes como eu falei pra vocês é outro ou em outra alguns porque você tem
+
+48
+00:04:21,690 --> 00:04:25,840
+um produto e nesse sistema aqui você tem um sistema.
+
+49
+00:04:26,180 --> 00:04:31,340
+E aqui você tem um sistema batizado sistema abordámos o sistema além de um site pequeno.
+
+50
+00:04:31,350 --> 00:04:37,200
+Você não tem necessidade de otimizar como esses produtos são armazenados no estoque.
+
+51
+00:04:37,350 --> 00:04:44,990
+O que você armazena com remessa ou você armazena curti igual a todos os seus periféricos do computador.
+
+52
+00:04:45,000 --> 00:04:50,850
+Coloco aqui todos os materiais de escritório coloco nessa prateleira não tem nada muito científico por
+
+53
+00:04:50,850 --> 00:04:51,540
+trás disso.
+
+54
+00:04:51,540 --> 00:04:58,560
+Já no caso da Amazon ele tem uma necessidade de entender quais são as dimensões da caixa do produto
+
+55
+00:04:58,560 --> 00:05:06,930
+para em cima dessas ele fazer por exemplo um processo de otimização os algoritmos Aladim dipirona e
+
+56
+00:05:06,930 --> 00:05:13,050
+pesquisa operacional para otimizar isso no estoque e pra funcionar esse algoritmo ele precisa ter as
+
+57
+00:05:13,050 --> 00:05:19,380
+dimensões das caixas para ir e aplicar esse algoritmo e saber exatamente onde ele vai armazenar o produto
+
+58
+00:05:19,380 --> 00:05:25,800
+que tem essas dimensões então dependendo do nível de complexidade do seu sistema o sistema vai pegar
+
+59
+00:05:25,800 --> 00:05:32,160
+mais informações do mundo real e mapear para além do software fazer essa abstração mas sempre o real
+
+60
+00:05:32,160 --> 00:05:33,710
+é muito mais complexo.
+
+61
+00:05:33,750 --> 00:05:36,270
+Por exemplo a Amazon pode não estar interessada.
+
+62
+00:05:36,270 --> 00:05:40,990
+Qual é o tipo do material da caixa e papelão sintético o seu quê.
+
+63
+00:05:40,990 --> 00:05:43,950
+Esse é o papel reciclado se não é.
+
+64
+00:05:43,960 --> 00:05:49,950
+Pode ser que o negócio dela não faça diferença nenhum material e sim as dimensões pode seguir para outra
+
+65
+00:05:49,950 --> 00:05:51,240
+empresa.
+
+66
+00:05:51,240 --> 00:05:57,000
+Faça a diferença sim no material por ele vai aplicar um desconto pra empresas que tenham a caixa com
+
+67
+00:05:57,000 --> 00:06:03,390
+papel reciclável por exemplo dar um desconto ou pode ter algum tipo de benefício fiscal em relação a
+
+68
+00:06:03,390 --> 00:06:03,980
+isso.
+
+69
+00:06:04,070 --> 00:06:10,820
+Se você precisar colocar esse tipo de informação do real dentro do seu código e em outras palavras a
+
+70
+00:06:10,820 --> 00:06:16,020
+abstração o princípio também da orientação objeto que é a capacidade de você simplificar ou pegar aquilo
+
+71
+00:06:16,020 --> 00:06:20,310
+que interessa do mundo real e jogar para dentro do seu software.
+
+72
+00:06:20,310 --> 00:06:26,010
+Aqui tem esse princípio muito forte de orientação objeto quer se espelhar no mundo real e mapear o mundo
+
+73
+00:06:26,010 --> 00:06:30,240
+real em software a partir dos mecanismo de orientação objeto.
+
+74
+00:06:30,240 --> 00:06:34,930
+Outra coisa importante é que nem tudo que está no software estará no mundo real nem todo o material
+
+75
+00:06:34,950 --> 00:06:42,030
+será mapeado dentro do software só aquilo que realmente interessa e algumas classes alguns códigos algumas
+
+76
+00:06:42,030 --> 00:06:48,780
+funções vão ser criados alguns métodos serão criados pra que você consiga organizar melhor o seu core
+
+77
+00:06:48,780 --> 00:06:55,320
+para você definir ali uma organização melhor uma manutenção mais simples até falar palavra que nenhum
+
+78
+00:06:55,320 --> 00:07:02,480
+humano tem habilidade mas acho que beleza mas você tem uma facilidade maior de manter o seu core porque
+
+79
+00:07:02,490 --> 00:07:10,530
+você criou classes especificamente pra você organizar melhor o código e não misturar por exemplo o código
+
+80
+00:07:10,530 --> 00:07:17,250
+de envio de meio código pra salvar os dados do banco de dados junto com um código que vai aplicar as
+
+81
+00:07:17,250 --> 00:07:22,830
+regras de imposto por exemplo então se você quer separar provavelmente você quer organizar melhor o
+
+82
+00:07:22,830 --> 00:07:29,490
+seu código você vai ter outras classes certo que não necessariamente representam um conceito do mundo
+
+83
+00:07:29,490 --> 00:07:31,810
+real então existe também essa questão.
+
+84
+00:07:31,830 --> 00:07:35,040
+Nem tudo está no Real está no software nem tudo está no software.
+
+85
+00:07:35,160 --> 00:07:42,120
+Existe no mundo real e você tem esse conceito da abstração que você tem níveis de complexidade diferentes
+
+86
+00:07:42,120 --> 00:07:47,910
+ou níveis de interpretar o mundo real e trazer para dentro do software esse viés vai depender muito
+
+87
+00:07:47,910 --> 00:07:49,590
+do negócio da sua aplicação.
+
+88
+00:07:50,010 --> 00:07:56,280
+Então faz parte do trabalho de quem desenvolve software conversar com o cliente entender a real demanda
+
+89
+00:07:56,280 --> 00:08:02,010
+do cliente e a partir dessa demanda você entender o que é que é relevante para o negócio e o que é que
+
+90
+00:08:02,010 --> 00:08:03,660
+não é relevante para o negócio.
+
+91
+00:08:03,660 --> 00:08:10,080
+é uma coisa que eu já percebi nos últimos anos e trabalhando com um cliente participando de reuniões
+
+92
+00:08:10,080 --> 00:08:16,270
+e percebendo aquilo que o cliente demanda nem tudo o que o cliente demanda é relevante.
+
+93
+00:08:16,270 --> 00:08:22,180
+Certas vezes ele acha que é relevante porque o cliente às vezes quer ter uma bala de canhão mas às vezes
+
+94
+00:08:22,180 --> 00:08:24,780
+ele não precisa de uma bala de canhão e nem sabe disso.
+
+95
+00:08:24,780 --> 00:08:30,630
+Na hora que você faz uma bala de canhão e coloca isso no ar ele percebe que o que ele precisava era
+
+96
+00:08:30,630 --> 00:08:32,650
+de uma coisa muito mais simples do que aquilo.
+
+97
+00:08:32,640 --> 00:08:40,380
+Então faz parte também você que é a pessoa que vai modelar o sistema que vai administrar o sistema pra
+
+98
+00:08:40,380 --> 00:08:47,680
+software realmente criticar Perguntar questionar o cliente porque nem tudo que é dito pelo cliente é
+
+99
+00:08:47,680 --> 00:08:54,120
+verdade absoluta então se você criticar e realmente entender a necessidade e conseguir argumentar com
+
+100
+00:08:54,120 --> 00:08:59,760
+o cliente digamos assim começar com ele você muito provavelmente vai gerar um sistema com qualidade
+
+101
+00:09:00,090 --> 00:09:05,820
+bem maior então aqui uma dica meio fora do tema da orientação a objeto mais que tem a ver sim com essa
+
+102
+00:09:06,180 --> 00:09:12,240
+capacidade que você precisa adquirir com tempo de extrair a informação do cliente e conseguir abstrair
+
+103
+00:09:12,240 --> 00:09:17,430
+isso pra dentro do software entender e saber filtrar aquilo que é relevante e o que não é relevante.

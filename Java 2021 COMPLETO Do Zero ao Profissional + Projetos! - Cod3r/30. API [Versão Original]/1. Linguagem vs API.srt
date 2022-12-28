@@ -1,0 +1,387 @@
+1
+00:00:00,240 --> 00:00:05,820
+Só vou falar a diferença de linguagem e a linguagem Java.
+
+2
+00:00:05,830 --> 00:00:12,720
+Ela é composta por palavras reservadas suas palavras reservadas se você prestar atenção lá no eclipse
+
+3
+00:00:13,140 --> 00:00:17,070
+ela aparece marcada com especial diferente.
+
+4
+00:00:17,070 --> 00:00:23,830
+Via de regra roxo se você está usando o esquema de cores padrão do Eclipse em outras plataformas outras
+
+5
+00:00:23,830 --> 00:00:25,710
+ideias também vai aparecer lá.
+
+6
+00:00:25,800 --> 00:00:31,410
+Marcado direitinho então você tem vários tipos de palavras reservadas e o código da linguagem.
+
+7
+00:00:31,410 --> 00:00:37,140
+Ele é composto por essas palavras todas escritas em minúsculas não tem nenhuma letra maiúscula nessas
+
+8
+00:00:37,140 --> 00:00:40,190
+palavras elas são Key Sensitive está certo.
+
+9
+00:00:40,200 --> 00:00:46,950
+Elas precisam ser escritas todas em minúsculas e as palavras reservadas juntamente com alguns símbolos
+
+10
+00:00:47,310 --> 00:00:55,440
+como por exemplo as chaves os parênteses e outros símbolos mais menos e tal compõem o core da linguagem
+
+11
+00:00:55,440 --> 00:00:56,090
+Java.
+
+12
+00:00:56,100 --> 00:01:01,040
+Esse core da linguagem Java não significa que é tudo que você precisa saber da linguagem Java.
+
+13
+00:01:01,050 --> 00:01:07,940
+Você pensa poxa será que string é uma palavra reservada não extingue a palavra reservada mais óbvia
+
+14
+00:01:08,040 --> 00:01:16,560
+as palavras reservadas mas a verdade é string faz parte da API do Java que seria Application Programming
+
+15
+00:01:16,710 --> 00:01:21,010
+Interface ou Interface de Programação de Aplicativos API.
+
+16
+00:01:21,030 --> 00:01:27,080
+São funcionalidades que são escritas em linguagem Java a maioria delas algumas podem ser escritas até
+
+17
+00:01:27,090 --> 00:01:29,810
+de forma nativa usando seu ideal.
+
+18
+00:01:29,840 --> 00:01:36,990
+A API vai te dar diversas funcionalidades para coisas do cotidiano coisas que são muito usadas por exemplo
+
+19
+00:01:36,990 --> 00:01:45,450
+você tem API ou classes que vão acessar arquivos você tem classes para definir interfaces gráficas você
+
+20
+00:01:45,450 --> 00:01:48,210
+tem classes para acessar banco de dados.
+
+21
+00:01:48,210 --> 00:01:51,370
+Então tudo isso faz parte da API do Java.
+
+22
+00:01:51,510 --> 00:01:56,550
+Você tem classes para imprimir no console que a gente usou o sistema certo.
+
+23
+00:01:56,610 --> 00:01:59,160
+Você tem classes para obter algo no teclado.
+
+24
+00:01:59,160 --> 00:02:00,360
+A gente usou isso.
+
+25
+00:02:00,690 --> 00:02:07,890
+Então tudo isso faz parte da API do Java enquanto a linguagem Java SE RESUME A poucas palavras reservadas
+
+26
+00:02:08,320 --> 00:02:14,790
+do Java é composta por milhares e milhares de milhares de classes inclusive tem a API oficial do Java
+
+27
+00:02:14,790 --> 00:02:18,420
+que faz parte do próprio J K que vem do Jr.
+
+28
+00:02:18,630 --> 00:02:25,230
+Como padrão existem APIs que outras pessoas desenvolvem que às vezes até de forma oficial como com a
+
+29
+00:02:25,230 --> 00:02:32,350
+especificação do JP que acessa dados é oficial mas não vem nativamente dentro do Jr.
+
+30
+00:02:32,680 --> 00:02:34,610
+Porque se vence tudo que é Java.
+
+31
+00:02:34,620 --> 00:02:37,990
+Seria extremamente grande pra instalar Jr.
+
+32
+00:02:38,400 --> 00:02:46,290
+Então vem a API padrão do Java muito do que acessar acesso de arquivos Apache do System Audio scanner
+
+33
+00:02:46,770 --> 00:02:50,750
+de interface Graph tudo isso vem por padrão nativamente no J.
+
+34
+00:02:50,940 --> 00:02:57,940
+Mas existem diversas outras APIs para acessar a web serve pra consumir isso pra consumir XML e tudo
+
+35
+00:02:57,940 --> 00:03:04,140
+o que você imaginar tem APIs próprias pra consumir essas coisas então seria apenas seria imagine que
+
+36
+00:03:04,140 --> 00:03:10,680
+a API seriam as classes que outras pessoas criam funcionalidades para que você possa usar funcionalidades
+
+37
+00:03:10,680 --> 00:03:14,720
+prontas para que você possa pagar aquilo ali e fazer aquilo que você precisar.
+
+38
+00:03:14,730 --> 00:03:21,480
+Quero abrir um arquivo e consumir as linhas de um arquivo já tem pronto isso você cria a clássica e
+
+39
+00:03:21,480 --> 00:03:24,900
+vai ler um arquivo já tem um metro para ler uma linha por exemplo.
+
+40
+00:03:24,900 --> 00:03:31,640
+Então eu quero fazer uma chamada para Web Service então você vai pagar classes que vão fazer isso pra
+
+41
+00:03:31,640 --> 00:03:32,100
+você.
+
+42
+00:03:32,100 --> 00:03:39,840
+Então existem APIs para que você possa usar e a partir dessas APIs você constrói os seus programas não
+
+43
+00:03:39,840 --> 00:03:46,770
+só usa as palavras reservadas à linguagem mas também usando essas APIs que podem ser próprio nativa
+
+44
+00:03:46,770 --> 00:03:54,660
+do próprio Java que já vem embutida no J e podem ser APIs oficiais que seguem uma especificação oficial
+
+45
+00:03:55,110 --> 00:03:58,410
+como é o caso do JP mas que não vem nativamente melhor.
+
+46
+00:03:58,480 --> 00:04:04,550
+Ou você pode PHP e outras pessoas de outros desenvolvedores inclusive você mesmo pode construir uma
+
+47
+00:04:04,550 --> 00:04:11,880
+API para executar algum trabalho que você ache importante às vezes as empresas criam APIs de validação
+
+48
+00:04:12,180 --> 00:04:13,880
+coisas que são realizáveis.
+
+49
+00:04:13,920 --> 00:04:21,090
+Entre os projetos da empresa e não é incomum você encontrar esse tipo de estratégia dentro das empresas.
+
+50
+00:04:21,090 --> 00:04:27,370
+Não tem como eu falar da API citando exemplos porque é como se fosse um grande lista telefônica tem
+
+51
+00:04:27,420 --> 00:04:29,500
+milhares e milhares de opções.
+
+52
+00:04:29,520 --> 00:04:36,660
+Com o tempo a gente vai colocando aulas aqui nesse capítulo pra contemplar as principais classes da
+
+53
+00:04:36,660 --> 00:04:43,950
+API do Java passando resumidamente pelos grupos de palavras chave ao todo são 52 e vou mostrar todas
+
+54
+00:04:43,950 --> 00:04:48,060
+as palavras aqui mas lá mais vou comentar sobre as principais.
+
+55
+00:04:48,420 --> 00:04:55,470
+O primeiro grupo seriam os modificadores de acesso mas temos praia Verde protected public.
+
+56
+00:04:55,470 --> 00:05:02,130
+Lembrando que o default simplesmente a ausência da palavra dada na hora de modificar um acesso e uma
+
+57
+00:05:02,130 --> 00:05:09,420
+variável de uma classe onde o método não existe a palavra default dentro dos modificadores de acesso
+
+58
+00:05:09,920 --> 00:05:13,950
+existe default na parte da suíte mais na frente.
+
+59
+00:05:14,070 --> 00:05:18,980
+Depois nós temos os modificadores de classe variáveis e métodos.
+
+60
+00:05:19,080 --> 00:05:27,480
+Tenho vários abstract class Systems não implementam interferência nativa estática está certo tenho várias
+
+61
+00:05:27,880 --> 00:05:33,210
+palavras relacionadas aos modificadores e Classes variáveis e métodos.
+
+62
+00:05:33,630 --> 00:05:40,950
+Depois nós temos o operador gráfico o operador binário para definir uma instância de um objeto.
+
+63
+00:05:40,950 --> 00:05:49,440
+Depois nós temos as estruturas de controle mas elas continuam e Defoe aqui cabe for o caso do switch
+
+64
+00:05:51,300 --> 00:05:52,590
+off.
+
+65
+00:05:52,590 --> 00:05:55,970
+Fora isso todos eles estão presentes.
+
+66
+00:05:56,110 --> 00:06:03,520
+São palavras reservadas depois nós temos os tratamentos dinheiro com Asset Card.
+
+67
+00:06:04,320 --> 00:06:08,170
+Temos a parte de controle de pacotes com importe
+
+68
+00:06:11,150 --> 00:06:18,650
+temos também os tipos primitivos Bullet Bay Short Long Flow W e Cha.
+
+69
+00:06:19,220 --> 00:06:26,610
+Além disso nós temos duas variáveis de referência subiu 10 temos o retorno de método caso ausência de
+
+70
+00:06:26,610 --> 00:06:28,580
+retorno que é o forte.
+
+71
+00:06:28,980 --> 00:06:36,600
+Temos duas palavras reservadas que não são utilizadas inclusive o trauma foi tão grande que resolveram
+
+72
+00:06:36,930 --> 00:06:39,720
+colocar algo útil como palavra errada.
+
+73
+00:06:39,830 --> 00:06:45,750
+E para finalizar temos os literais reservados e o outro é falso.
+
+74
+00:06:45,870 --> 00:06:51,930
+Então em resumo o que nós temos é uma diferença bem clara entre o que é a linguagem o que é o core da
+
+75
+00:06:51,930 --> 00:06:59,430
+linguagem as palavras reservadas a linguagem e até aquilo que são todas as funcionalidades que são construídas
+
+76
+00:06:59,460 --> 00:07:04,980
+pra fazer com que a linguagem entregue muita coisa já pronta para que você não tem que reinventar a
+
+77
+00:07:04,980 --> 00:07:11,280
+roda e tentar fazer o botão do zero fazer uma tela do zero fazer uma conexão com o banco de dados do
+
+78
+00:07:11,280 --> 00:07:15,240
+zero não faz sentido que você construa tudo isso do zero.
+
+79
+00:07:15,240 --> 00:07:17,060
+A ideia é que quanto mais rápido.
+
+80
+00:07:17,100 --> 00:07:23,310
+Quanto mais coisa você conhece da linguagem Java mais fluente vai ser a sua programação digamos assim.
+
+81
+00:07:23,310 --> 00:07:26,560
+Obviamente não tem como você conhecer a pé inteira do Java.
+
+82
+00:07:26,600 --> 00:07:32,580
+Então mais importante do que você sabia a API decorada mais ou menos como se ela fosse decorar a lista
+
+83
+00:07:32,580 --> 00:07:33,360
+telefônica.
+
+84
+00:07:33,360 --> 00:07:39,400
+Você tem que ter a maturidade como programador para entrar por exemplo uma ferramenta de busca e colocar
+
+85
+00:07:39,400 --> 00:07:43,160
+como se lê um arquivo em Java.
+
+86
+00:07:43,450 --> 00:07:49,410
+E aí você tem maturidade para extrair um código e entender como é que ele funciona e fazer uma versão
+
+87
+00:07:49,410 --> 00:07:54,270
+e eventualmente corrigir algum erro ou na prática que alguém implementou ali.
+
+88
+00:07:54,300 --> 00:07:59,510
+E mais importante você ter esse nível de conhecimento tem esse nível de maturidade do que propriamente
+
+89
+00:07:59,880 --> 00:08:04,560
+você ter decorado a API do Java inteiro não é possível fazer isso.
+
+90
+00:08:04,560 --> 00:08:12,090
+Você vai naturalmente aprendendo várias dessas APIs com o uso aquilo que você acaba usando mais no dia
+
+91
+00:08:12,090 --> 00:08:12,570
+a dia.
+
+92
+00:08:12,570 --> 00:08:21,520
+Você vai acabar se familiarizando com isso mas outras você só vai digamos assim saber quando você precisar
+
+93
+00:08:21,520 --> 00:08:25,690
+e aí precisando você pesquisa e consegue incorporar aquilo dentro do seu programa.
+
+94
+00:08:25,800 --> 00:08:32,220
+Mas obviamente o core da linguagem as palavras reservadas pelo menos a grande maioria delas você deve
+
+95
+00:08:32,220 --> 00:08:38,640
+saber já o que é que faz porque aquilo ali é o núcleo da linguagem é pequeno então dá para você dominar
+
+96
+00:08:39,030 --> 00:08:40,090
+todas essas palavras.
+
+97
+00:08:40,090 --> 00:08:42,030
+E vale saber o que cada uma delas faz.

@@ -1,0 +1,639 @@
+1
+00:00:00,540 --> 00:00:06,300
+Penso agora vamos falar um pouquinho sobre essa questão do sistema de módulos e também um pouquinho
+
+2
+00:00:06,300 --> 00:00:10,440
+sobre organização de projetos em Java.
+
+3
+00:00:10,440 --> 00:00:17,220
+Quando você cria um determinado projeto eu vou criar aqui quadrado para representar por exemplo um projeto
+
+4
+00:00:17,220 --> 00:00:17,800
+qualquer.
+
+5
+00:00:18,210 --> 00:00:21,480
+Então coloco aqui e sei lá API
+
+6
+00:00:24,290 --> 00:00:29,170
+Mode Mode seria o módulo da sua aplicação.
+
+7
+00:00:29,200 --> 00:00:37,680
+Aqui você tem por exemplo um outro projeto você criou lá um Java Project por exemplo que vai ser o app
+
+8
+00:00:38,250 --> 00:00:41,080
+traço Mode 2.
+
+9
+00:00:41,090 --> 00:00:44,400
+Então você tem um módulo e o módulo 2 da sua aplicação.
+
+10
+00:00:44,400 --> 00:00:47,270
+Esses são dois projetos que você criou por exemplo Eclipse.
+
+11
+00:00:47,630 --> 00:00:58,040
+E esses dois projetos uma hora ou outra vão gerar um arquivo já pronto já que é um ponto Java acabe
+
+12
+00:00:58,110 --> 00:01:05,610
+aqui dentro você tem obviamente toda a estrutura de pasta do seu projeto e todos os pacotes da BR pontocom
+
+13
+00:01:05,910 --> 00:01:13,980
+com o nome do seu projeto e os pacotes e os arquivos class então que dentro vai ter uma série de arquivos
+
+14
+00:01:13,980 --> 00:01:18,800
+pouco claros que você vai colocar certo dentro do seu já abarcava.
+
+15
+00:01:18,810 --> 00:01:21,680
+Claro que no projeto você tem arquivos pouco Java.
+
+16
+00:01:21,870 --> 00:01:28,470
+Quando você gera o ponto já o arquivo final que é a sua biblioteca digamos assim você vai distribuir
+
+17
+00:01:28,800 --> 00:01:32,450
+esse arquivo ponto já com a série de arquivos ponto Class.
+
+18
+00:01:32,580 --> 00:01:39,300
+Dentro desse arquivo pronto já vamos imaginar a seguinte situação você tem aqui um projeto certo um
+
+19
+00:01:39,300 --> 00:01:44,480
+projetor e um projeto pessoal para simplificar e o projeto.
+
+20
+00:01:44,710 --> 00:01:53,340
+Há um projeto a ele precisa do Projeto B existe independência aqui incerta uma dependência do projeto
+
+21
+00:01:53,430 --> 00:02:00,060
+com um projeto bem então vamos supor que eu tenha lá um arquivo B pronto já que foi gerado a partir
+
+22
+00:02:00,060 --> 00:02:01,290
+do Projeto B.
+
+23
+00:02:01,290 --> 00:02:08,490
+E esse arquivo esse projeto aqui é o ponto já que vai ser gerado depois ele depende do produto.
+
+24
+00:02:08,550 --> 00:02:13,610
+B Ponto G já para funcionar certo aqui dentro tem uma série de classes que o app vai precisar.
+
+25
+00:02:14,040 --> 00:02:18,840
+Então quando você tem uma dependência entre projetos aqui dentro provavelmente você vai ter uma série
+
+26
+00:02:18,840 --> 00:02:19,590
+de pacotes.
+
+27
+00:02:19,590 --> 00:02:26,630
+Então eu tenho um pacote X aqui e tenho um pacote y aqui certo.
+
+28
+00:02:26,640 --> 00:02:32,980
+Dentro desse pacote X você tem uma série de classes dentro do pacote y você tem uma série de classes.
+
+29
+00:02:33,140 --> 00:02:40,680
+O que acontecia antes de você ter sistemas de módulos vamos supor que você quer que apenas os arquivos
+
+30
+00:02:40,680 --> 00:02:48,010
+que estejam dentro do pacote x fiquem disponíveis pra o módulo para a aplicação.
+
+31
+00:02:48,020 --> 00:02:55,080
+A certa então a aplicação vai acessar todos os arquivos ou parte dos arquivos que estão dentro do pacote
+
+32
+00:02:55,080 --> 00:02:58,690
+X que pertence a o projeto B.
+
+33
+00:02:58,710 --> 00:03:05,610
+Quando você coloca aqui uma série de classes dentro do pacote x essas classes são públicas obviamente
+
+34
+00:03:05,610 --> 00:03:13,110
+você consegue lá do seu outro projeto do ponto já por exemplo do projeto algo você consegue acessar
+
+35
+00:03:13,200 --> 00:03:14,390
+essas classes.
+
+36
+00:03:14,400 --> 00:03:18,240
+O problema é como essas classes no pacote x começam a aumentar.
+
+37
+00:03:18,230 --> 00:03:24,960
+Você quer organizar de forma mais interessante colocar em pasta some pacotes você quer organizar as
+
+38
+00:03:24,960 --> 00:03:27,780
+classes e colocar essas classes em outros pacotes.
+
+39
+00:03:27,780 --> 00:03:36,080
+Quando você coloca por exemplo parte dessas classes no pacote y que supostamente era um pacote pra ser
+
+40
+00:03:36,080 --> 00:03:44,280
+interno então esse pacote aqui certo o pacote y ele supostamente é pra ser um pacote interno só visível
+
+41
+00:03:44,280 --> 00:03:46,350
+dentro do projeto B.
+
+42
+00:03:46,410 --> 00:03:51,300
+Então você colocou uma série de classes aqui dentro embora essas classes sejam públicas.
+
+43
+00:03:51,360 --> 00:03:57,740
+Você colocou essas classes públicas pra que você a partir do pacote X aqui.
+
+44
+00:03:57,810 --> 00:04:05,790
+A partir desse pacote você acessa assim mas você não quer por exemplo que haja esse acesso direto do
+
+45
+00:04:05,800 --> 00:04:13,590
+projeto para o pacote y você não quer isso quer apenas que o projeto a acessem o pacote X.
+
+46
+00:04:13,620 --> 00:04:20,700
+Quando você começa a quebrar digamos assim as suas classes e organizar melhor em subir pacotes automaticamente
+
+47
+00:04:20,700 --> 00:04:27,030
+se você quiser usar a partir de outro pacote independente se é um pacote com seu pacote ou um pacote
+
+48
+00:04:27,030 --> 00:04:27,990
+diferente.
+
+49
+00:04:27,990 --> 00:04:34,470
+Se você quer uma classe acessar uma classe que está em outro pacote ou você vai ter que criar alguma
+
+50
+00:04:34,470 --> 00:04:40,710
+herança e não vale a pena você fazer uma forçação de barra que é uma herança só para acessar determinadas
+
+51
+00:04:40,710 --> 00:04:47,280
+coisas herança quando você tem uma relação e um não é pra você ter acesso por exemplo a determinados
+
+52
+00:04:47,280 --> 00:04:50,070
+valores até porque você só pode dar um entre classe.
+
+53
+00:04:50,220 --> 00:04:55,680
+Então quando você coloca uma classe que estava no mesmo pacote você estava acessando ali e coloca ela
+
+54
+00:04:55,680 --> 00:04:57,060
+para um outro pacote.
+
+55
+00:04:57,120 --> 00:05:04,420
+Automaticamente se você precisa membros dessa outra classe você precisa tornar essa classe pública e
+
+56
+00:05:04,490 --> 00:05:10,400
+tornando essa classe pública você torna essa classe pública não apenas para o pacote que está ali do
+
+57
+00:05:10,400 --> 00:05:16,620
+lado dentro do Projeto B mas você vai tornar também essas classes públicas pelo projeto.
+
+58
+00:05:17,040 --> 00:05:18,420
+E qual o problema disso.
+
+59
+00:05:18,440 --> 00:05:19,270
+Você pode perguntar.
+
+60
+00:05:19,290 --> 00:05:22,820
+Não vejo problema nenhum em deixar uma classe pública basta.
+
+61
+00:05:23,000 --> 00:05:29,820
+Quem está modificando projetar não mexer no pacote y você solto em meio por exemplo na empresa dizer
+
+62
+00:05:29,940 --> 00:05:33,380
+pessoal no nosso projeto B na nossa biblioteca.
+
+63
+00:05:33,380 --> 00:05:40,370
+Todas as classes que estão no pacote y não é pra vocês usarem apenas as classes que foram colocadas
+
+64
+00:05:40,370 --> 00:05:41,760
+no pacote x.
+
+65
+00:05:41,810 --> 00:05:47,870
+Só que isso não funciona na prática porque por mais que você diga que não pode usar não tem uma restrição
+
+66
+00:05:47,870 --> 00:05:53,900
+física e isso está aberto digamos assim para qualquer pessoa usar uma pessoa desavisado que não leu
+
+67
+00:05:53,900 --> 00:06:00,610
+esse e-mail que chegou na empresa depois ele vai simplesmente criar uma dependência com um pacote y
+
+68
+00:06:00,650 --> 00:06:03,350
+sem saber que não pode fazer isso por quê.
+
+69
+00:06:03,350 --> 00:06:10,190
+Porque há um mecanismo válido ou seja uma vez que você coloca uma classe em outro pacote e você precisa
+
+70
+00:06:10,190 --> 00:06:16,720
+usar dentro do Projeto B a partir do pacote x usar classes do pacote y.
+
+71
+00:06:16,730 --> 00:06:24,020
+Essas classes precisam ser públicas e sendo pública qualquer pessoa seja qualquer outra classe que esteja
+
+72
+00:06:24,020 --> 00:06:28,560
+dentro do mesmo classe PF vai conseguir usar essas classes do pacote Y.
+
+73
+00:06:28,640 --> 00:06:32,120
+E você vai criar uma dependência desnecessária.
+
+74
+00:06:32,120 --> 00:06:39,350
+Isso acontece porque porque não há encapsulamento esses arquivos aqui não estão encapsulados dentro
+
+75
+00:06:39,350 --> 00:06:42,020
+do projeto deles estão visíveis pra todo mundo.
+
+76
+00:06:42,020 --> 00:06:49,340
+Ou seja falta encapsulamento e como o sistema de módulos o que acontece com um sistema de módulos você
+
+77
+00:06:49,340 --> 00:06:51,480
+tem algo diferente.
+
+78
+00:06:51,560 --> 00:06:59,420
+Quando você cria por exemplo vou criar aqui o mesmo projeto e vou criar aqui um outro projeto que vai
+
+79
+00:06:59,420 --> 00:07:06,860
+ser o projeto B quando você cria um módulo você vai ter um arquivo ponto Java chamado Modo II traço
+
+80
+00:07:07,280 --> 00:07:15,110
+ponto Java e esse arquivo ele vai descrever quais são os pacotes que estão dentro de B que estarão visíveis
+
+81
+00:07:15,110 --> 00:07:16,610
+para fora do projeto.
+
+82
+00:07:16,640 --> 00:07:21,500
+Essa é uma das funcionalidades possíveis que você tem com o sistema de modos eu vou mostrar de forma
+
+83
+00:07:21,500 --> 00:07:25,250
+mais digamos assim pé no chão mais prática nos exercícios.
+
+84
+00:07:25,250 --> 00:07:26,730
+Quem vai fazer a partilha proximal.
+
+85
+00:07:27,170 --> 00:07:32,000
+Então aqui eu tenho um pacote que eu chamei o pacote X.
+
+86
+00:07:32,000 --> 00:07:38,390
+Esse pacote X aqui tem uma série de classes aqui dentro e tem um outro pacote que eu vou ter desenhado
+
+87
+00:07:38,390 --> 00:07:39,630
+de vermelho aqui.
+
+88
+00:07:39,830 --> 00:07:49,340
+Certo Você aperta o botão Eu vou desenhar aqui um outro pacote o pacote y e esse pacote aqui vai ter
+
+89
+00:07:49,580 --> 00:07:50,830
+outras classes aqui.
+
+90
+00:07:50,900 --> 00:07:59,450
+Essas classes dentro do pacote x elas precisam ser acessadas a partir do pacote X ou seja a partir do
+
+91
+00:07:59,450 --> 00:08:06,870
+pacote X eu preciso acessar as classes do pacote y mesmo coloca nessas classes no pacote y com cinco
+
+92
+00:08:06,980 --> 00:08:09,770
+classes públicas não tem problema.
+
+93
+00:08:09,770 --> 00:08:10,290
+Por quê.
+
+94
+00:08:10,310 --> 00:08:20,780
+Porque se você dentro do eu vou até colocar o nome do arquivo aqui vou colocar em uso seu modo nem traço
+
+95
+00:08:21,440 --> 00:08:25,340
+é um ponto Java.
+
+96
+00:08:25,340 --> 00:08:33,200
+Dentro desse arquivo você vai escrever quais são os pacotes que são que vão ser exportados para fora
+
+97
+00:08:33,200 --> 00:08:36,460
+do projeto que estarão visíveis para fora do projeto.
+
+98
+00:08:36,590 --> 00:08:40,220
+O que garante o nível de encapsulamento muito maior.
+
+99
+00:08:40,220 --> 00:08:40,840
+Por quê.
+
+100
+00:08:41,030 --> 00:08:44,470
+Porque você consegue simplesmente dizer ok o pacote.
+
+101
+00:08:44,470 --> 00:08:50,240
+Na verdade você tem que dizer aquilo que é exportado porque por padrão os módulos ficarão visíveis apenas
+
+102
+00:08:50,240 --> 00:08:52,680
+dentro do projeto o que é muito interessante.
+
+103
+00:08:52,940 --> 00:08:59,240
+Ou seja você tem uma série de funcionalidades de classes que só fazem sentido internamente dentro do
+
+104
+00:08:59,240 --> 00:09:00,300
+projeto.
+
+105
+00:09:00,300 --> 00:09:04,280
+E você quer expor apenas uma parte desse projeto para fora.
+
+106
+00:09:04,320 --> 00:09:12,080
+Já com tratamentos corretos com as regras corretas e não alguém chegar e usar direto a classe de forma
+
+107
+00:09:12,230 --> 00:09:17,990
+inadvertida e quando você precisar mudar essa classe você tem uma dependência externa que você não estava
+
+108
+00:09:17,990 --> 00:09:25,520
+contando então com um sistema de módulos você cria um arquivo e esse arquivo vai servir para você descrever
+
+109
+00:09:25,520 --> 00:09:31,880
+aquilo que você depende ou seja quais são as suas dependências e o que é que você expõe para o mundo
+
+110
+00:09:32,090 --> 00:09:36,080
+para que possa ser consumido por outros projetos ou outros arquivos.
+
+111
+00:09:36,080 --> 00:09:38,390
+Então o sistema de módulos ele te dá isso.
+
+112
+00:09:38,390 --> 00:09:44,870
+Ele vai também te garantir coisas muito ruins do ponto de vista arquitetural que é a dependência cíclica.
+
+113
+00:09:45,140 --> 00:09:54,350
+O Campinense significa você ter por exemplo um projeto e você tem aqui um projeto B e você tem um projeto
+
+114
+00:09:54,350 --> 00:09:54,850
+c.
+
+115
+00:09:54,890 --> 00:10:03,920
+é um projeto B por exemplo caso a aplicação seja com quatro grandes módulos e aí você tem por exemplo
+
+116
+00:10:03,920 --> 00:10:13,340
+o módulo depende do módulo B o módulo B depende do Módulo C o Módulo C depende do módulo D só que o
+
+117
+00:10:13,340 --> 00:10:16,140
+módulo D também depende do Módulo C.
+
+118
+00:10:16,280 --> 00:10:21,470
+Ou seja aqui você tem um grande problema que é uma dependência cíclica.
+
+119
+00:10:21,500 --> 00:10:25,220
+O Módulo C depende do B e o D depende do C.
+
+120
+00:10:25,460 --> 00:10:33,350
+Quando você tem sistemas modulares como é agora introduzido no JB K-9 você consegue matar esse tipo
+
+121
+00:10:33,340 --> 00:10:37,880
+de problema logo de cara porque ele não vai permitir esse tipo de situação.
+
+122
+00:10:37,880 --> 00:10:41,810
+Então quando você define o que cada um desses projetos tem um módulo dentro dele.
+
+123
+00:10:41,810 --> 00:10:47,720
+Quando você declarar que o módulo a depende do B e o B depende do ar ele vai reclamar e não vai deixar
+
+124
+00:10:47,720 --> 00:10:48,990
+você fazer isso.
+
+125
+00:10:49,010 --> 00:10:56,030
+Dependência cíclica é muito ruim para um projeto então eu já passei por projetos grandes que tinham
+
+126
+00:10:56,030 --> 00:11:01,340
+um problema de dependência cíclica e sempre que tinham que gerar uma nova versão do projeto era uma
+
+127
+00:11:01,340 --> 00:11:07,430
+dor de cabeça certa com aquele esquema do ovo e da galinha naquele dilema quem chegou primeiro o ovo
+
+128
+00:11:07,430 --> 00:11:08,420
+ou a galinha.
+
+129
+00:11:08,510 --> 00:11:13,670
+Aqui é mais ou menos a mesma coisa o ser depende do Dendê depende do ser quem foi que criou a primeira
+
+130
+00:11:13,670 --> 00:11:14,440
+dependência.
+
+131
+00:11:14,450 --> 00:11:17,810
+Quando foi que surgiu a dependência cíclica né não.
+
+132
+00:11:17,840 --> 00:11:21,130
+Inicialmente a gente tinha um C dependendo do D.
+
+133
+00:11:21,470 --> 00:11:26,630
+Mas depois de um tempo alguém foi lá de forma inadvertida e chamou a classe do C.
+
+134
+00:11:26,630 --> 00:11:32,660
+Hoje há uma quantidade gigantesca de pênis cíclica dentro desses dois módulos então quando você trabalha
+
+135
+00:11:32,660 --> 00:11:39,740
+com módulos Java isso já batalhamos assim resolvido desde o início porque não será permitido ter dependência
+
+136
+00:11:39,740 --> 00:11:40,360
+cíclica.
+
+137
+00:11:40,370 --> 00:11:45,950
+Então quando você não tinha módulos que era o caso o que quer que muita gente fazia como eu fazia eu
+
+138
+00:11:45,950 --> 00:11:53,060
+pegava todos essas todas essas classes que estavam dentro do pacote y que supostamente eu não queria
+
+139
+00:11:53,060 --> 00:12:01,460
+que fosse para o mundo exterior e jogava essas classes dentro do pacote X e tornava o nível de visibilidade
+
+140
+00:12:01,590 --> 00:12:04,810
+e Defour eu tirava para o público.
+
+141
+00:12:04,900 --> 00:12:10,880
+Isso significa que essas classes só seriam visíveis dentro do pacote só que qual o problema disso você
+
+142
+00:12:10,880 --> 00:12:17,390
+não consegue organizar muito mais o seu projeto porque você vai ficar com apenas um único pacote gigantesco
+
+143
+00:12:17,390 --> 00:12:22,930
+com dezenas e dezenas de classes e você não tem a possibilidade de jogar para um outro pacote.
+
+144
+00:12:22,930 --> 00:12:23,510
+Por quê.
+
+145
+00:12:23,510 --> 00:12:29,140
+Porque se você jogar para um outro pacote automaticamente essas classes precisariam ser públicas e ficariam
+
+146
+00:12:29,150 --> 00:12:30,600
+públicas pra todo mundo.
+
+147
+00:12:30,600 --> 00:12:36,920
+Eu espero que tenha ficado claro a motivação pelo qual foi criado o sistema de módulos e você tem na
+
+148
+00:12:36,920 --> 00:12:42,470
+verdade um sistema de módulos e um conjunto de pacotes que você coloca dentro de um módulo e você tem
+
+149
+00:12:42,760 --> 00:12:49,160
+como a partir desse módulo que tem vários pacotes dentre você dizer claramente aquilo que ficará visível
+
+150
+00:12:49,190 --> 00:12:53,720
+para fora do módulo e aquilo que ele precisa para aquele módulo funcionar.
+
+151
+00:12:53,720 --> 00:12:59,770
+Então você tem uma forma muito mais explícita de dizer quem depende quem é o que você vai expor para
+
+152
+00:12:59,770 --> 00:13:03,050
+o mundo exterior como sendo algo público e acessível.
+
+153
+00:13:03,050 --> 00:13:10,190
+Isso te dá um controle absurdo sobre o teu código evita você por exemplo permitir que outras pessoas
+
+154
+00:13:10,190 --> 00:13:17,270
+acessem códigos internos que não é pra ser acessado fora do projeto porque ali você está acessando o
+
+155
+00:13:17,270 --> 00:13:22,600
+banco de dados de forma crua sem por exemplo aplicar regras e um outro módulo.
+
+156
+00:13:22,610 --> 00:13:25,280
+Acessando diretamente pode gerar inconsistência.
+
+157
+00:13:25,580 --> 00:13:31,490
+Então tem várias vantagens e nós vamos fazer alguns exercícios mostrando na prática como você pode aplicar
+
+158
+00:13:31,580 --> 00:13:33,030
+esse esquema de módulos.
+
+159
+00:13:33,030 --> 00:13:39,830
+Espero que tenha ficado claro também a motivação e os benefícios de usar módulos e que essa também são
+
+160
+00:13:39,830 --> 00:13:43,070
+extremamente importantes do JB K9 até para os mal.

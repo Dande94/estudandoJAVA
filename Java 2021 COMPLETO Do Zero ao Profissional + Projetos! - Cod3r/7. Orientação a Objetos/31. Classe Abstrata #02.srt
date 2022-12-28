@@ -1,0 +1,675 @@
+1
+00:00:00,180 --> 00:00:04,680
+Pessoal mostrando pra vocês aqui o exemplo de classe abstrata.
+
+2
+00:00:04,680 --> 00:00:09,450
+Certo Eu vou começar mexendo no exemplo que eu já fiz depois a gente vai criar um novo exemplo só pra
+
+3
+00:00:09,450 --> 00:00:12,390
+você entender um pouco desse conceito.
+
+4
+00:00:12,390 --> 00:00:16,380
+Lembro que eu criei aqui na parte de polimorfismo.
+
+5
+00:00:16,380 --> 00:00:23,610
+Criei esse exemplo da comida do arroz do feijão tal da forma como foi definido aqui eu posso entrar
+
+6
+00:00:23,610 --> 00:00:29,760
+na classe e jantar e posso criar uma comida sem necessariamente ser uma comida concreta.
+
+7
+00:00:29,760 --> 00:00:37,380
+Posso chegar e colocar aqui comida ingrediente 3 e posso instancia a comida que passa aqui por exemplo
+
+8
+00:00:37,380 --> 00:00:44,910
+valor 0 ponto 3 7 crê que o ingrediente 3 e posso muito bem duplicar essa linha que é convidado como
+
+9
+00:00:45,110 --> 00:00:51,230
+ingrediente extra isso sem problema nenhum acertando ele vai engordar um pouco mais do que ele tinha
+
+10
+00:00:51,230 --> 00:00:52,890
+engordado anteriormente.
+
+11
+00:00:52,890 --> 00:00:53,370
+Por quê.
+
+12
+00:00:53,370 --> 00:00:59,880
+Porque eu criei aqui uma comida genérica mas eu não quero criar comida genérico quero ter exatamente
+
+13
+00:00:59,880 --> 00:01:04,640
+o mesmo exemplo que eu tinha antes só que eu não quero permitir o usuário instancia a comida como é
+
+14
+00:01:04,710 --> 00:01:06,020
+que eu faço isso.
+
+15
+00:01:06,030 --> 00:01:08,680
+Muito simples você vem aqui dentro da classe.
+
+16
+00:01:08,680 --> 00:01:17,210
+Comida sem necessariamente ter nada abstrato basta você marcar aqui a classe como senão abstract automaticamente
+
+17
+00:01:17,210 --> 00:01:23,570
+com a primeira implicação quando você tem uma classe abstrata ou seja é uma classe que não pode se distanciar
+
+18
+00:01:23,570 --> 00:01:29,940
+do que é exatamente o conceito de classe concreta uma classe concreta que é o padrão e você tem uma
+
+19
+00:01:29,940 --> 00:01:34,790
+classe que pode distanciar objetos mais uma classe abstrata não.
+
+20
+00:01:34,800 --> 00:01:41,470
+Então aqui no jantar eu não posso por exemplo isto são comida eu posso ter um tipo de comida mas aquilo
+
+21
+00:01:41,470 --> 00:01:49,230
+tem que distanciar por exemplo o arroz com feijão eu ainda posso instancia o arroz e associar ao clássico
+
+22
+00:01:49,230 --> 00:01:54,930
+tipo comida de tal forma que eu posso nessa mesma variável colocar um feijão colocar um sorvete sem
+
+23
+00:01:54,930 --> 00:01:55,770
+problema nenhum.
+
+24
+00:01:56,100 --> 00:02:02,190
+Mas eu não posso mais distanciar uma comida porque a comida passou a ser uma classe abstrata e inclusive
+
+25
+00:02:02,190 --> 00:02:08,370
+marcada naqueles com a letra serve para dizer que comida é algo abstrato ou seja um conceito abstrato
+
+26
+00:02:08,700 --> 00:02:13,660
+que dentro da minha solução dentro do meu corpo não pode ter uma instância de comida sendo criada.
+
+27
+00:02:13,710 --> 00:02:19,200
+Apesar de que todos os métodos são concretos quem não tem problema nenhum a classe não se abstrata como
+
+28
+00:02:19,200 --> 00:02:25,420
+eu quero limitar essa instância a ação de comida eu posso marcar com abstrato ou seja o primeiro.
+
+29
+00:02:25,470 --> 00:02:28,320
+Primeiro a primeira característica de uma classe abstrata.
+
+30
+00:02:28,320 --> 00:02:39,540
+Eu quis mostrar que eu vou criar aqui um novo pacote chamado ao ponto abstrato ou seja coloca máquina
+
+31
+00:02:39,780 --> 00:02:43,390
+abstrata para que a gente possa testar um pouco desse exemplo.
+
+32
+00:02:43,830 --> 00:02:52,870
+Então vou criar aqui uma classe animal então uma classe animal que é um conceito abstrato mas não necessariamente
+
+33
+00:02:52,870 --> 00:02:58,080
+eu preciso colocar na classe como sinal abstrato depende daquilo que eu preciso no meu software.
+
+34
+00:02:58,560 --> 00:03:02,940
+Eu tenho que implementar dois metros de animal um metro e um metro na espiral.
+
+35
+00:03:03,210 --> 00:03:07,110
+O outro método é um método não dá certo o gol se mover.
+
+36
+00:03:07,590 --> 00:03:13,770
+Então vamos supor que eu consiga implementar um metro respirar de uma forma genérica que atenda todos
+
+37
+00:03:13,770 --> 00:03:15,230
+os animais da face da terra.
+
+38
+00:03:15,240 --> 00:03:20,960
+Só supondo eu não sou biólogo então provavelmente vai ter muita besteira do ponto de vista de biologia
+
+39
+00:03:20,980 --> 00:03:21,690
+certo vão lá.
+
+40
+00:03:22,110 --> 00:03:24,060
+Eu consigo implementar o método respirar.
+
+41
+00:03:24,060 --> 00:03:30,330
+Então eu tento que o público vai tornar um extremo de respirar só para a gente testar não recebe nenhum
+
+42
+00:03:30,330 --> 00:03:34,180
+parâmetro e que esse método vai retornar.
+
+43
+00:03:34,290 --> 00:03:38,220
+Por exemplo seu 2 como resultado da respiração.
+
+44
+00:03:38,220 --> 00:03:42,000
+Então sempre que ele respirar ele vai lá e retorna só dois sem problema.
+
+45
+00:03:42,160 --> 00:03:46,360
+Mas por que todos os seres vivos respiram oxigênio de alguma forma.
+
+46
+00:03:46,500 --> 00:03:53,250
+Certos e diferentes mecanismos sempre retornam se dois e eu vou lá e coloco aqui por exemplo só 2 Eu
+
+47
+00:03:53,250 --> 00:03:58,830
+sei que tem plantas que geram oxigênio aos pontos e mais uns pouco todos os animais se comportam dessa
+
+48
+00:03:58,830 --> 00:04:04,930
+forma então apesar de ser algo extremamente genérico eu consigo dar uma implementação só só supondo
+
+49
+00:04:04,940 --> 00:04:06,590
+aqui com espiral.
+
+50
+00:04:06,690 --> 00:04:08,560
+Só que o método mover.
+
+51
+00:04:09,060 --> 00:04:12,130
+Eu não tenho como dar uma implementação padrão.
+
+52
+00:04:12,210 --> 00:04:19,410
+Por exemplo eu sei que o método mudei ele vai retornar por exemplo o valor da ABL que representa a quantidade
+
+53
+00:04:19,410 --> 00:04:26,550
+de milímetros ou pelo menos a direção as coordenadas que foi usado para um determinado animal se mover.
+
+54
+00:04:26,960 --> 00:04:34,140
+Então eu poderia simplesmente retornar com um padrão que é zero porque essa a implementação embora não
+
+55
+00:04:34,150 --> 00:04:39,210
+saiba fazer isso na prática ou simplesmente retorno zero essa é uma possibilidade mais uma ou outra
+
+56
+00:04:39,210 --> 00:04:40,390
+possibilidade.
+
+57
+00:04:40,870 --> 00:04:45,090
+E eu não me preocupar em implementar isso nesse nível.
+
+58
+00:04:45,090 --> 00:04:51,150
+Eu sei que tem um metro mover eu sei que o Metro mover vai retornar um W só supondo que isso é uma assinatura
+
+59
+00:04:51,150 --> 00:04:59,100
+de método e mais eu não sei como implementá la esse nível de generalização é tão genérico a classe animal.
+
+60
+00:04:59,130 --> 00:05:02,010
+Eu não tenho como dar uma implementação para o Metro no meu ver.
+
+61
+00:05:02,030 --> 00:05:08,010
+Nesse caso uma saída é você definir o método como sendo abstrato.
+
+62
+00:05:08,100 --> 00:05:14,880
+Como você define o Metro como abstrato você não necessariamente precisa definir um corpo pra esse método
+
+63
+00:05:14,880 --> 00:05:19,800
+só que isso é possível até mesmo abstrato em classe abstrata.
+
+64
+00:05:19,810 --> 00:05:25,860
+é como se a classe estivesse inacabada ou seja você conseguiu implementar o metro na espiral mas você
+
+65
+00:05:25,860 --> 00:05:32,080
+não conseguiu implementar um metro movê lo de tal forma que se você precisar por exemplo criar aqui
+
+66
+00:05:32,370 --> 00:05:42,290
+uma classe do tipo cachorro cachorro que é cachorro ele vai estender a classe abstrata animal.
+
+67
+00:05:42,300 --> 00:05:45,930
+Nesse caso você necessariamente precisará implementar esse método.
+
+68
+00:05:45,930 --> 00:05:52,830
+Vamos supor que no meio do caminho você cria uma classe chamada mamífero certo antes de criar o cachorro
+
+69
+00:05:54,180 --> 00:05:55,510
+mamífero.
+
+70
+00:05:55,590 --> 00:06:02,970
+E aqui você definiu que mamífero estende ao animal mas ainda assim você não sabe como um mamífero de
+
+71
+00:06:02,970 --> 00:06:04,520
+forma genérica se move.
+
+72
+00:06:04,530 --> 00:06:11,640
+Então você pode muito bem aplicar essa classe como sinal abstrata e você não precisa definir corpo de
+
+73
+00:06:11,640 --> 00:06:17,070
+métodos abstratos em classes abstratas você pode sim se quiser implementar.
+
+74
+00:06:17,130 --> 00:06:20,960
+Por exemplo eu quero implementar um método como o método mover.
+
+75
+00:06:20,960 --> 00:06:27,430
+Então posso colocar seta e você retorna com determinado valor vou colocar como sendo string em encoste
+
+76
+00:06:27,430 --> 00:06:29,520
+para ficar mais simples para implementar.
+
+77
+00:06:29,590 --> 00:06:31,320
+E aqui eu vou colocar.
+
+78
+00:06:31,430 --> 00:06:32,810
+é mamífero.
+
+79
+00:06:33,180 --> 00:06:36,620
+Ou seja ele vai usar que investi com o retorno.
+
+80
+00:06:36,620 --> 00:06:45,180
+E nesse caso o descrever como é que ele se move então por exemplo colocar aqui usando as patas.
+
+81
+00:06:45,360 --> 00:06:50,750
+Então porque todos os mamíferos têm patas e eu quero dizer que eles vão se mover usa nas patas não na
+
+82
+00:06:50,760 --> 00:06:53,610
+verdade sempre soube dar o exemplo qualquer.
+
+83
+00:06:53,760 --> 00:06:59,020
+Embora tenha definido que o Metro moveu quer adicionar um novo método abstrato posso fazer isso posso
+
+84
+00:06:59,030 --> 00:07:03,600
+posso criar aqui um públicos não necessariamente precisa ser público.
+
+85
+00:07:03,610 --> 00:07:09,650
+Tela abstract eu vou colocar aqui e string em uma Mattel colocando aqui.
+
+86
+00:07:09,750 --> 00:07:14,970
+Ou seja eu sei que todo mamífero tem um metro numa má mas eu não sei como implementar nesse ponto aqui
+
+87
+00:07:14,990 --> 00:07:20,100
+porque é genérico demais e aí dentro de cachorro que é uma classe concreta que eu não quero que seja
+
+88
+00:07:20,100 --> 00:07:21,300
+abstrata.
+
+89
+00:07:21,300 --> 00:07:28,440
+Eu preciso implementar obrigatoriamente todos os métodos abstratos e se quiser eu posso sobre escrever
+
+90
+00:07:28,530 --> 00:07:30,460
+os métodos concretos.
+
+91
+00:07:30,480 --> 00:07:36,050
+Então por exemplo então eu quero sobre escreveu o método e mover posso fazer isso posso.
+
+92
+00:07:36,080 --> 00:07:45,180
+Sobre escrevo Metro mover mas já no caso do má caso cachorro ele implemente uma verdade eu sou obrigado
+
+93
+00:07:45,300 --> 00:07:48,690
+a implementar o método por quê.
+
+94
+00:07:48,690 --> 00:07:50,360
+Porque ele é um método abstrato.
+
+95
+00:07:50,400 --> 00:07:56,010
+Você coloca aqui uma mas eu sou obrigado a implementar porque é abstrato mais uma vez eu não sou obrigado
+
+96
+00:07:56,280 --> 00:07:59,440
+porque ele já foi definido na classe mamífero.
+
+97
+00:07:59,480 --> 00:08:05,600
+Em outras palavras se você definir qualquer método abstrato que não tenha sido implementado um canto
+
+98
+00:08:05,600 --> 00:08:07,890
+minha você tem uma classe abstrata.
+
+99
+00:08:07,890 --> 00:08:13,100
+Você não é obrigado a implementar pode deixar passar pelos filhos e aí os filhos se for abstrato pode
+
+100
+00:08:13,100 --> 00:08:17,300
+deixar passar para os netos e aí você pode deixá ou pode implementar ou não.
+
+101
+00:08:17,310 --> 00:08:23,040
+Então vamos supor que não implementem nenhum método dentro de cachorro e dentro de mamífero também não
+
+102
+00:08:23,040 --> 00:08:24,390
+implementem nenhum método.
+
+103
+00:08:24,390 --> 00:08:30,480
+Eu tirei esse método que eu só fiz acrescentar um metro a mais que é uma má o que significa que quando
+
+104
+00:08:30,480 --> 00:08:36,080
+eu chegar na classe Cachorro eu terei que implementar esses dois métodos porque isso é um contra o espaço
+
+105
+00:08:36,090 --> 00:08:36,860
+você vai ver.
+
+106
+00:08:37,320 --> 00:08:44,070
+Eu cheguei nesse ponto com dois métodos abstratos de cachorro é algo concreto eu quero distanciar um
+
+107
+00:08:44,070 --> 00:08:47,390
+cachorro então eu preciso criar um método mover.
+
+108
+00:08:47,730 --> 00:08:57,660
+Então vou colocar aqui como é que o cachorro se move e o Boca aquele usando usando as patas.
+
+109
+00:08:57,660 --> 00:09:01,630
+E finalmente eu preciso implementar um método.
+
+110
+00:09:01,910 --> 00:09:10,720
+E aí eu vou retornar até a minha estria colocando adquiri lá usando leite.
+
+111
+00:09:10,830 --> 00:09:15,990
+Então nesse caso como cachorro e concreto eu precisei implementar todos os métodos abstratos que foram
+
+112
+00:09:15,990 --> 00:09:23,550
+acumulados ao longo da hierarquia de classes e desse exemplo a única classe que eu posso distanciar
+
+113
+00:09:23,550 --> 00:09:28,160
+dele colocar aqui teste abstrato.
+
+114
+00:09:28,380 --> 00:09:33,630
+Nesse caso a única classe que eu posso distanciar esse cachorro porque ele é a única classe concreta
+
+115
+00:09:33,960 --> 00:09:40,260
+que nosso exemplo então que eu posso fazer ao animal a recebe mil cachorros.
+
+116
+00:09:40,530 --> 00:09:44,730
+Nesse caso o único método que está dentro do animal vai ser o método mover.
+
+117
+00:09:45,210 --> 00:09:51,190
+Então eu posso colocar aqui ao ponto de mover exercitando usando as patas.
+
+118
+00:09:51,240 --> 00:09:59,460
+Se eu colocar no nível do mamífero você vai perceber que agora além de ter uma ovelha eu vou ter também
+
+119
+00:10:00,030 --> 00:10:04,310
+o método Mohammad então posso acessar quê.
+
+120
+00:10:04,530 --> 00:10:11,250
+Nesse nível eu tenho um metro embora não tenha definido nenhum método em animal e não tem definido também
+
+121
+00:10:11,310 --> 00:10:12,220
+o metro mover.
+
+122
+00:10:12,270 --> 00:10:18,330
+Eu sei que todo mamífero terá aquele Metro como implementar não sei como se dentro de um animal tivesse
+
+123
+00:10:18,330 --> 00:10:20,040
+uma classe inacabada.
+
+124
+00:10:20,080 --> 00:10:29,220
+Eu também posso respirar então aqui ao acessar do outro eu posso respirar respirar só para manter o
+
+125
+00:10:29,220 --> 00:10:32,710
+mesmo padrão de certo animal respirar o local.
+
+126
+00:10:32,740 --> 00:10:41,750
+Não que usando esse gênero então que eu tenha usando oxigênio e testando.
+
+127
+00:10:42,030 --> 00:10:49,120
+Nós temos que usando patas usando leite e usando oxigênio.
+
+128
+00:10:49,130 --> 00:10:50,800
+Tem os três métodos.
+
+129
+00:10:50,880 --> 00:10:54,250
+E voltando aqui na classe animal como se ela estivesse inacabada.
+
+130
+00:10:54,270 --> 00:10:55,660
+é um conceito genérico.
+
+131
+00:10:56,100 --> 00:11:00,320
+Eu não quero distanciar um animal por isso marcou a ela também como abstrata.
+
+132
+00:11:00,330 --> 00:11:04,890
+Mesmo que todos os métodos estejam concretos eu não gosto assim uma classe abstrata porque é um conceito
+
+133
+00:11:04,890 --> 00:11:06,630
+abstrato não é concreto.
+
+134
+00:11:06,630 --> 00:11:13,710
+é uma classe abstrata ela pode estar inacabado que está inacabada e tem métodos abstratos métodos que
+
+135
+00:11:13,710 --> 00:11:19,800
+não têm a implementação eu sei como implementá la inspirar mas não sei como implementar ou se mover
+
+136
+00:11:19,870 --> 00:11:25,920
+e o mover dentro de mamífero eu também não sei que lamentar ou mover porque eu tenho uma irmã e Marinho
+
+137
+00:11:26,300 --> 00:11:32,620
+que nada tem uma milha terrestre que usa as patas por exemplo então para também não tenho como implementar
+
+138
+00:11:32,620 --> 00:11:37,980
+um novo e eu ainda sei que terá um outro comportamento que eu também não sei implementar que é o comportamento
+
+139
+00:11:37,980 --> 00:11:45,380
+humano mas somente nas classes concretas é que eu vou realmente precisar definir todos os comportamentos
+
+140
+00:11:45,390 --> 00:11:50,790
+eu poderia implementar dentro de uma classe concreta implementar algum método abstrato.
+
+141
+00:11:50,850 --> 00:11:55,810
+Posso sem problema nenhum aqui dentro eu posso por exemplo implementar um metro mover.
+
+142
+00:11:56,190 --> 00:12:02,840
+E aí eu vou livrar todos a subclasses de mamífero que tem a obrigatoriedade de implementar esse método.
+
+143
+00:12:02,850 --> 00:12:07,330
+Ela vai ter a opção de implementar não a obrigação de implementar.
+
+144
+00:12:07,450 --> 00:12:14,040
+E mais se você quiser você pode tornar esse método final o que significa que esse método não pode ser
+
+145
+00:12:14,430 --> 00:12:18,690
+sobrescrito um metro no final e não pode ser sobrescrito na subclasses.
+
+146
+00:12:18,690 --> 00:12:26,490
+Então se todo os animais e todos os mamíferos se movem por exemplo saia do lugar certo ele colocar que
+
+147
+00:12:26,490 --> 00:12:30,060
+se movem saindo do lugar.
+
+148
+00:12:30,060 --> 00:12:35,430
+Eu não apenas tornei esse metro concreto ou seja implementando ele dentro de mamífero como eu estou
+
+149
+00:12:35,430 --> 00:12:39,520
+evitando que esse método seja sobrescrito em qualquer classe.
+
+150
+00:12:39,840 --> 00:12:44,940
+Então mover eu não posso mais me mover usando patas porque é mamífero.
+
+151
+00:12:44,970 --> 00:12:50,930
+Eu dei uma implementação para um metro abstrato e o método final é um conceito que não tinha falado
+
+152
+00:12:50,930 --> 00:12:52,250
+metro no final.
+
+153
+00:12:52,250 --> 00:12:57,150
+Em outras palavras é simples dar um metro no final não pode ser sobrescrito na subclasse.
+
+154
+00:12:57,170 --> 00:13:03,020
+é basicamente o contrário de um método abstrato que necessariamente precisa ser sobrescrito pelo menos
+
+155
+00:13:03,020 --> 00:13:04,920
+das classes concretas está certo.
+
+156
+00:13:05,210 --> 00:13:10,700
+Então a gente viu vários exemplos aqui mostra um pouco de abstrato mas eu não vou misturar aqui com
+
+157
+00:13:10,700 --> 00:13:12,520
+o final só um toque.
+
+158
+00:13:12,830 --> 00:13:18,410
+Mas o fato de me mover sair do lugar faz com que seja uma opção uma implementação genérica.
+
+159
+00:13:18,410 --> 00:13:24,350
+Eu não sou obrigado um cachorro a implementar isso de tal forma que se usa aqui ou você vai ver que
+
+160
+00:13:24,350 --> 00:13:26,870
+cachorro ele vai se mover saindo do lugar.
+
+161
+00:13:26,870 --> 00:13:33,490
+Mas se você quiser implementar você pode comentar essas minhas obviamente porque o método não é final
+
+162
+00:13:33,810 --> 00:13:40,160
+é executado o último teste a gente vai ver que agora o cachorro vai se mover usando as patas usa leite
+
+163
+00:13:40,370 --> 00:13:44,040
+no VMA e usa oxigênio para respirar.
+
+164
+00:13:44,040 --> 00:13:50,090
+Ou seja nós temos os 3 metros implementados alguns métodos foram implementados durante a hierarquia
+
+165
+00:13:50,090 --> 00:13:56,960
+como é o caso do movimento foi implementado de mamífero o respirar foi implementado diretamente dentro
+
+166
+00:13:56,960 --> 00:14:03,650
+do animal e finalmente dentro do cachorro a gente implementou isso mudou a implementação de mover implementou
+
+167
+00:14:03,740 --> 00:14:09,380
+uma mão de tal forma que a classe Cachorro tem todos os métodos definidos ou seja uma classe concreta
+
+168
+00:14:09,850 --> 00:14:17,010
+tem que estar 100% definida e uma classe abstrata pode não ter métodos abstratos ou seja pode não estar
+
+169
+00:14:17,210 --> 00:14:19,240
+inacabado em termos de implementação.

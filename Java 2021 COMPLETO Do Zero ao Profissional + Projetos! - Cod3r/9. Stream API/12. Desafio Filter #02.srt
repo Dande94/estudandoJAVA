@@ -1,0 +1,67 @@
+1
+00:00:00,200 --> 00:00:06,990
+Só o exemplo que eu pensei foi o seguinte imagine que você tem um site e você quer mostrá la no site
+
+2
+00:00:07,020 --> 00:00:08,730
+lá na primeira página do site.
+
+3
+00:00:08,730 --> 00:00:16,320
+Todos os produtos que já estão com desconto maior do que 30 por cento ou seja está numa super promoção
+
+4
+00:00:16,740 --> 00:00:21,930
+e os produtos que têm o frete grátis que você está criando lá um área para destacar alguns produtos
+
+5
+00:00:22,260 --> 00:00:29,220
+que estão nessa categoria ou seja você tem dois filtros um filtro para produtos que tem um a quantidade.
+
+6
+00:00:29,310 --> 00:00:34,890
+Ou seja tem que estar com a promoção e com um desconto maior do que a 30 e também está com frete grátis.
+
+7
+00:00:34,920 --> 00:00:40,500
+Então se cair nesses dois critérios você vai mostrá la na hora que está aqui então você vai ter uma
+
+8
+00:00:40,500 --> 00:00:47,380
+lista de produtos obviamente com preço do produto desconto e também um atributo chamado frete.
+
+9
+00:00:47,490 --> 00:00:53,850
+E aí em cima desses atributos serão aplicados esses dois filtros e aí você pode no Mac colocar o nome
+
+10
+00:00:53,850 --> 00:01:00,930
+do produto o preço dele e colocar no celular super promoção só pra a gente usar também o MAC na solução
+
+11
+00:01:00,990 --> 00:01:06,600
+então essa foi a solução que eu pensei e essa será a solução que eu vou implementar na próxima aula
+
+12
+00:01:06,630 --> 00:01:12,240
+fazem nesses dois filtros fazem no Mac que cai exatamente no tipo de problema que eu pedi pra vocês
+
+13
+00:01:12,240 --> 00:01:18,000
+fazerem não precisa imaginar um cenário muito grande então se você já implementou alguma coisa muito
+
+14
+00:01:18,000 --> 00:01:22,800
+legal se você quiser implementar esse desafio eu vou separar isso nesse vídeo.
+
+15
+00:01:22,800 --> 00:01:28,830
+No próximo vídeo mostra a resposta desse desafio que eu imaginei então fica aí o segundo vídeo do desafio
+
+16
+00:01:28,890 --> 00:01:30,860
+aproximá lo da resposta.
+
+17
+00:01:30,890 --> 00:01:31,280
+Espere lá.

@@ -1,0 +1,263 @@
+1
+00:00:00,300 --> 00:00:06,900
+Agora nós vamos criar o nosso exercício usando a eu usando uma quantidade indeterminada de repetições
+
+2
+00:00:06,900 --> 00:00:10,260
+eu vou explicar para vocês qual vai ser o nosso exercício que eu vou fazer.
+
+3
+00:00:10,570 --> 00:00:16,290
+E se você quiser pausar o vídeo e tomar esse exercício como desafio acho que também é uma estratégia
+
+4
+00:00:16,290 --> 00:00:19,580
+legal embora esse não seja um desafio formal do nosso curso.
+
+5
+00:00:19,590 --> 00:00:24,900
+A ideia é o seguinte eu vou pedir para o usuário digitar um console em alguma coisa vou colocar por
+
+6
+00:00:24,900 --> 00:00:32,000
+exemplo você tinha dois pontos eu pedi para o scanner pegar a próxima string e usar o net lá exceto
+
+7
+00:00:32,080 --> 00:00:33,930
+na net ou lá.
+
+8
+00:00:34,360 --> 00:00:38,020
+O usuário vai digitar por exemplo o teste em um três.
+
+9
+00:00:38,370 --> 00:00:39,090
+Eu tô aqui.
+
+10
+00:00:39,150 --> 00:00:40,460
+Bom dia boa tarde.
+
+11
+00:00:40,460 --> 00:00:47,270
+Somente quando o usuário digitar saí do seu programa o laço vai parar de acertar e vai finalizar o programa.
+
+12
+00:00:47,280 --> 00:00:52,920
+Ou seja já que eu estou usando um maiô enquanto a expressão for verdadeira ele vai ficar repetindo aquele
+
+13
+00:00:52,920 --> 00:01:00,700
+bloco enquanto a expressão verdadeiro é então fazer o seguinte enquanto não for digitado a palavra saí
+
+14
+00:01:00,930 --> 00:01:06,720
+pode ser com letra maiúscula o minúsculo vai ignorar letras maiúsculas e minúsculas enquanto não FOSSATI
+
+15
+00:01:07,000 --> 00:01:11,130
+FICA executando um determinado bloco que vai mostrar um estilingue.
+
+16
+00:01:11,130 --> 00:01:15,900
+Você diz dois pontos e vai pegar a nova string do usuário usando esse canal.
+
+17
+00:01:15,900 --> 00:01:16,920
+Esse é o nosso exemplo.
+
+18
+00:01:16,920 --> 00:01:21,180
+Se você quiser pausar o vídeo tentar fazer acho que vai ser um desafio interessante certo.
+
+19
+00:01:21,230 --> 00:01:26,550
+Mesmo não tendo visto a estratégia de como é um raio indeterminado.
+
+20
+00:01:26,580 --> 00:01:30,820
+Mas eu vou criar aqui uma nova classe dentro do nosso pacote de controle.
+
+21
+00:01:30,960 --> 00:01:41,370
+O nome será eu que ainda está ligado e aqui eu vou criar Metro Men e nós vamos inicialmente definir
+
+22
+00:01:42,210 --> 00:01:43,330
+esse cara.
+
+23
+00:01:43,620 --> 00:01:48,190
+Vou colocar aqui como entrada recebe esse canal.
+
+24
+00:01:49,050 --> 00:01:52,090
+Vou colocar aqui no System on.
+
+25
+00:01:52,950 --> 00:02:00,420
+E finalmente vou pagar o carnê do Klaus para que a gente possa deixar esse cara e não ficar com nenhuma
+
+26
+00:02:00,440 --> 00:02:06,150
+advertência no nosso código eu vou fazer o seguinte vou criar uma variável chamada value valor recebe
+
+27
+00:02:06,150 --> 00:02:13,270
+um valor vazio monstrinho vazia e que eu vou fazer um determinado teste Netuno agiu certo.
+
+28
+00:02:13,320 --> 00:02:18,860
+Eu quero que eu fique sem resultado sempre que o valor foi diferente.
+
+29
+00:02:19,470 --> 00:02:21,950
+Então para isso eu posso fazer um mico.
+
+30
+00:02:22,050 --> 00:02:25,740
+Só que é negado né como a negação não colocam a negação.
+
+31
+00:02:25,800 --> 00:02:32,320
+Por exemplo você coloca aquele valor e gols ignora isso.
+
+32
+00:02:33,080 --> 00:02:38,790
+E aqui dentro posso passar assistindo o que eu quero comparar seria sai então posso metal saí antes
+
+33
+00:02:39,000 --> 00:02:41,870
+ou depois como valor e eu saí depois.
+
+34
+00:02:41,880 --> 00:02:48,410
+Em outras palavras o que eu tenho aqui ou enquanto eu não for digitado não me lembro da variável valor
+
+35
+00:02:48,410 --> 00:02:54,980
+ou não estiver contido a palavra saí continuei executando indefinidamente.
+
+36
+00:02:55,140 --> 00:03:01,440
+Se o usuário vai digitar três palavras o usuário vai digitar sai depois de palavras se a primeira palavra
+
+37
+00:03:01,440 --> 00:03:05,550
+que o usuário digitar vai se sair eu não sei eu não sei quantas repetições vai ter.
+
+38
+00:03:05,890 --> 00:03:12,190
+Mas o fato é que é uma quantidade indeterminada que dentro pra eu conseguir mudar o bolo amarelo eu
+
+39
+00:03:12,190 --> 00:03:16,790
+saí eu vou colocar aqui um system ponto.
+
+40
+00:03:16,860 --> 00:03:24,100
+Outro ponto triste para a gente pedir para usuário digitar alguma coisa então ou dizer se você diz dois
+
+41
+00:03:24,110 --> 00:03:28,450
+pontos em um espaço e aqui embaixo vou fazer entrada.
+
+42
+00:03:28,530 --> 00:03:34,510
+Ponto que mexe lá em linha direta e aqui.
+
+43
+00:03:34,590 --> 00:03:37,680
+Obviamente se eu fizer só isso eu terei um laço infinito.
+
+44
+00:03:37,680 --> 00:03:45,280
+Por mais que eu digitar aí eu preciso atribuí a variável valor o resultado de entrada ponto Xilai.
+
+45
+00:03:45,780 --> 00:03:56,140
+Agora em jogo vai ter algo você diz eu coloco um bom dia boa tarde.
+
+46
+00:03:56,360 --> 00:03:58,350
+Aí sim ele termina o código.
+
+47
+00:03:58,420 --> 00:04:04,890
+Não consigo mais digitar nada porque você digitou sai aqui no caso foi três repetições porque tem duas
+
+48
+00:04:04,890 --> 00:04:08,620
+palavras nem duas frases depois que eu visitei o site.
+
+49
+00:04:08,760 --> 00:04:13,980
+Se você quiser até pegar o balão ou imprimi antes está mas não precisa necessariamente que o nosso algoritmo
+
+50
+00:04:14,430 --> 00:04:19,850
+vai ter mais longa isso na primeira vez já de digitar palavras saí ele já sai na primeira.
+
+51
+00:04:20,040 --> 00:04:27,920
+Eu posso aqui digitar várias coisas sem nenhum digamos assim nenhum a quantidade determinado de repetições.
+
+52
+00:04:27,930 --> 00:04:33,870
+O programa não tem como saber quando o usuário vai digitar saí somente quando o usuário digitar sabia
+
+53
+00:04:33,870 --> 00:04:37,920
+que o programa termina ou seja essa é a estratégia mais interessante para o usuário.
+
+54
+00:04:37,920 --> 00:04:43,410
+Quando você tem uma quantidade indeterminada de vezes quando você tem uma variável de controle variável
+
+55
+00:04:43,410 --> 00:04:48,810
+numérica que vai fazer com que você tenha uma quantidade fechadinho de vez eu acho que é mais interessante
+
+56
+00:04:48,810 --> 00:04:49,800
+você usar o foco.
+
+57
+00:04:50,040 --> 00:04:56,160
+Mas nesse caso o que você vai obter o valor da variável a partir de 1 entrada já não mexe lá está bem
+
+58
+00:04:56,160 --> 00:05:02,860
+mais interessante você usar o Caio nessa situação então aqui algumas diferenças entre o fólio ai mostrei
+
+59
+00:05:02,870 --> 00:05:08,420
+pra você uma versão do bairro com uma variável de controle e depois convertia se o áudio para um só
+
+60
+00:05:08,420 --> 00:05:14,300
+pra você ver bem a diferença é uma das possíveis construções do Von na verdade tem outras possibilidades
+
+61
+00:05:14,300 --> 00:05:20,210
+de uso do fole em Java mostrar mais para frente não nesse capítulo porque envolve outras questões como
+
+62
+00:05:20,210 --> 00:05:25,140
+por exemplo o conhecimento de Harry de colegas que pouca gente vai ver depois.
+
+63
+00:05:25,170 --> 00:05:29,750
+Mas aqui eu quero deixar bem claro exatamente essa estratégia que você tem um só que tem uma quantidade
+
+64
+00:05:29,750 --> 00:05:31,580
+indeterminada de repetições.
+
+65
+00:05:31,760 --> 00:05:37,280
+Então pessoal fico por aqui nesse exemplo e na próxima aulas vamos ver uma variação dessa estrutura
+
+66
+00:05:37,370 --> 00:05:42,050
+de controle aqui que é o nós vamos ver o do eu e até lá.

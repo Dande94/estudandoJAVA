@@ -1,0 +1,91 @@
+1
+00:00:00,370 --> 00:00:05,530
+Pessoal nessa hora vou lançar um desafio relativo a o bloco.
+
+2
+00:00:05,760 --> 00:00:08,270
+Então para isso nós vamos criar aqui uma nova classe.
+
+3
+00:00:08,360 --> 00:00:14,850
+Só deixar a estrutura pronto para que vocês possam focar no colo então aqui ou criar uma classe chamada
+
+4
+00:00:15,030 --> 00:00:26,280
+Desafio eu nas mãos da classe defini então se o seguinte nesse desafio a lógica vai ser a seguinte você
+
+5
+00:00:26,280 --> 00:00:29,490
+vai querer calcular a média das notas de uma turma.
+
+6
+00:00:29,520 --> 00:00:32,310
+A priori eu não sei quantos alunos tem nessa turma.
+
+7
+00:00:32,310 --> 00:00:38,310
+Pode ter três alunos pode ter dez alunos pode ter 12 alunos não importa o que eu quero que você faça
+
+8
+00:00:38,310 --> 00:00:45,510
+o seguinte usuário vai digitar lá uma nota válida que é de 10 a 0 ou seja 10 incluindo zero também é
+
+9
+00:00:45,510 --> 00:00:52,040
+maior igual a zero é menor ou igual a 10 e só uma nota válida quando o usuário digita a nota válida
+
+10
+00:00:52,050 --> 00:00:59,670
+você vai armazenar o valor dessa nota em uma variável chamada total e sempre que uma nova nota for digitada
+
+11
+00:00:59,670 --> 00:01:05,930
+você vai acrescentar na variável total de tal forma que o total da Amazon a soma de todas as notas e
+
+12
+00:01:05,940 --> 00:01:11,250
+você vai usar uma ou outra variável pra definir quantas notas válidas foram digitadas.
+
+13
+00:01:11,610 --> 00:01:17,340
+Então sempre que o usuário digita a nota volta você coloca ditou a segunda nota valeu lhe 2 de tal forma
+
+14
+00:01:17,340 --> 00:01:24,740
+que você tem o total a quantidade de notas digitados e no final você vai mostrar a média pra você sair
+
+15
+00:01:24,780 --> 00:01:29,300
+qual é o sinal que o programa vai detectar que o usuário quer mostrar o resultado.
+
+16
+00:01:29,300 --> 00:01:32,860
+Calcular mede finalizar o programa e quando o usuário digitar minutos.
+
+17
+00:01:33,420 --> 00:01:39,180
+Então você só pode acrescentar na variável total se a nota for válida você só vai acrescentar o número
+
+18
+00:01:39,180 --> 00:01:44,640
+de notas válidas se realmente ele colocar uma nota no intervalo de 0 a 10.
+
+19
+00:01:44,640 --> 00:01:50,900
+E quando o usuário digitar menos 1 significa que ele vai sair do programa sendo digitado 12 13 e 15
+
+20
+00:01:50,910 --> 00:01:53,420
+você simplesmente perde o Estado Novo.
+
+21
+00:01:53,460 --> 00:01:56,960
+7 Você pode até mostrar a mensagem ou digite uma nota olhe por favor.
+
+22
+00:01:57,440 --> 00:02:02,820
+E aí no final quando o usuário está menos ou ele sai do programa e calcula a média.
+
+23
+00:02:02,820 --> 00:02:05,810
+Então esse é um desafio para os mal mostrar posso e até lá.

@@ -1,0 +1,383 @@
+1
+00:00:00,110 --> 00:00:05,910
+O pessoal volta aqui no nosso projeto da calculadora e olhando para a calculadora que é a nossa referência
+
+2
+00:00:06,230 --> 00:00:12,900
+certa eu percebo de três componentes aqui o primeiro componente vai ser tirado o componente que a gente
+
+3
+00:00:12,920 --> 00:00:16,620
+já criou e o componente visual que a própria tela em si é certo.
+
+4
+00:00:16,680 --> 00:00:22,700
+Nós temos um componente que representa um display da aplicação que é esse componente que em cima tenho
+
+5
+00:00:22,700 --> 00:00:29,790
+um outro componente que é o componente de que representa o teclado dono da nossa calculadora e dentro
+
+6
+00:00:29,790 --> 00:00:36,030
+do teclado vou tem uma série de botões esses botões vão ter cores diferentes e vão ter leigos diferentes.
+
+7
+00:00:36,030 --> 00:00:41,970
+Basicamente está mudando isso e obviamente quando você clicar em cada botão ele vai executar a ação
+
+8
+00:00:41,970 --> 00:00:47,690
+correspondente àquele botão certo mas a gente consegue perceber pelo menos a forma como imaginei foi
+
+9
+00:00:47,700 --> 00:00:54,240
+ter o display tem um teclado sem o display fica em cima do teclado embaixo e dentro do teclado eu organizo
+
+10
+00:00:54,450 --> 00:00:58,490
+todos os botões ou os botões da aplicação vão lá.
+
+11
+00:00:58,500 --> 00:01:06,210
+Nós vamos organizar essa forma então para isso eu vou criar dentro do nosso pacote visão vou criar mais
+
+12
+00:01:06,360 --> 00:01:16,500
+outras classes a primeira classe que eu vou criar o seu display e vou criar também a classe um teclado
+
+13
+00:01:17,250 --> 00:01:26,820
+teclado e também nós estaremos em outra classe que é o botão colocado que não faltam são as quatro classes
+
+14
+00:01:27,210 --> 00:01:28,830
+que vão ser componentes visuais.
+
+15
+00:01:28,830 --> 00:01:35,100
+Por isso eu estou dentro do pacote chamado Visão que são os nossos componentes visuais obviamente a
+
+16
+00:01:35,100 --> 00:01:44,570
+classe botão vai estender o botão e eu vou dar aqui um colidiu contra o Super Hornet.
+
+17
+00:01:44,940 --> 00:01:47,290
+Vou colocar o teclado.
+
+18
+00:01:47,340 --> 00:01:56,220
+Ele vai estender o dia inteiro e eu também vou colocar um sucesso o One já que não quero me preocupar
+
+19
+00:01:56,220 --> 00:02:05,830
+com serialização e o display também será uma herança seja um extensão Santini não de treinar.
+
+20
+00:02:05,910 --> 00:02:11,570
+Como falei pra vocês não contém um componente que agrupa outros componentes.
+
+21
+00:02:11,580 --> 00:02:14,100
+Você tem uma tela mais complexa que você vai criar.
+
+22
+00:02:14,490 --> 00:02:21,840
+Você pode criar partes dessa tela colocando partes dentro de um painel e aí você organizando o layout
+
+23
+00:02:21,840 --> 00:02:27,810
+dentro de tela e depois você organiza o layout da página inteira de forma mais complexa e de uma aplicação
+
+24
+00:02:28,560 --> 00:02:30,560
+mais complexa desenvolvendo o suingue.
+
+25
+00:02:30,560 --> 00:02:37,110
+Você vai acabar usando esses contêineres que são componentes que agrupam outros componentes internamente.
+
+26
+00:02:37,470 --> 00:02:41,470
+Então nós vamos criar inicialmente aqui no teclado.
+
+27
+00:02:41,470 --> 00:02:45,490
+Eu vou fazer o seguinte olhar até os dois componentes o display e o teclado.
+
+28
+00:02:45,640 --> 00:02:49,890
+Vou dentro do display colocar aqui quem.
+
+29
+00:02:50,160 --> 00:02:59,050
+Você tá aqui sete graus de cola temporariamente pela Coca Cola por exemplo.
+
+30
+00:03:00,450 --> 00:03:02,820
+E vou fazer a mesma coisa.
+
+31
+00:03:02,820 --> 00:03:14,220
+7 background cola no teclado aqui vou criar um construtor aqui cética quanto cola pra si mesmo.
+
+32
+00:03:14,920 --> 00:03:21,400
+E vou focar dentro de calculadora na forma pra organizar esses dois componentes.
+
+33
+00:03:21,450 --> 00:03:27,200
+Vou criar aqui uma função vou esses jogos criar aqui logo no começo.
+
+34
+00:03:27,360 --> 00:03:31,120
+Organizar para organizar Layout.
+
+35
+00:03:31,650 --> 00:03:34,340
+Essa é uma função que eu estou chamando a função que não existe.
+
+36
+00:03:34,350 --> 00:03:40,830
+Quando eu coloco como aqui ele me dá a opção que é criar um método Organizar Layout que ele criou método
+
+37
+00:03:41,340 --> 00:03:41,930
+aqui dentro.
+
+38
+00:03:41,980 --> 00:03:47,460
+Organizar Layout de uma das formas que você tem para organizar o layout tem um tipo de gerenciador de
+
+39
+00:03:47,460 --> 00:03:50,240
+layout chamado Barra da lei Audi.
+
+40
+00:03:50,280 --> 00:03:55,460
+Ele vai definir a Tele Norte Sul Leste Oeste e o centro.
+
+41
+00:03:55,470 --> 00:04:00,000
+No nosso caso o que eu quero ter olhando a calculadora como referência.
+
+42
+00:04:00,030 --> 00:04:01,830
+Colocar aqui uma calculadora.
+
+43
+00:04:01,830 --> 00:04:09,620
+Nós temos o display sendo exibido no Norte e nós temos o teclado sendo exibido no centro da aplicação.
+
+44
+00:04:09,780 --> 00:04:12,820
+Então ele pode usar o Berkeley alt para ensinar.
+
+45
+00:04:12,840 --> 00:04:20,720
+Então aqui eu vou citar o layout sem fio borda Layout.
+
+46
+00:04:21,660 --> 00:04:28,620
+E nós vamos colocar os dois outros componentes nós vamos distanciar um display qualquer que é o display
+
+47
+00:04:28,810 --> 00:04:38,990
+recebe display seja de um display ou instancia aqui do teclado.
+
+48
+00:04:39,000 --> 00:04:45,230
+O teclado recebe um teclado e vou fazer o seguinte.
+
+49
+00:04:45,270 --> 00:04:57,960
+Logo depois de teclar eu vou adicionar teclado teclado e o ódio anatômico em cima de chamar o display
+
+50
+00:04:58,650 --> 00:05:05,670
+na que recebi por herança já que eu estou dentro de um J fui associado ao método de chamar você tem
+
+51
+00:05:05,670 --> 00:05:10,600
+a possibilidade de passar outros parâmetros que encontrou espaço no seu e-mail.
+
+52
+00:05:10,750 --> 00:05:16,040
+Tenho a adicionar componentes tenho a adicionar componentes que recebe um valor inteiro.
+
+53
+00:05:16,080 --> 00:05:20,820
+Tenho a adicionar componente que recebe o objeto então você pode passar um segundo parâmetro o que vai
+
+54
+00:05:20,820 --> 00:05:24,360
+te ajudar a dizer onde adicionar esse componente.
+
+55
+00:05:24,430 --> 00:05:31,080
+Se eu executar dessa forma a gente deu resultado ou ele colocou todo vermelho é porque ele está adicionando
+
+56
+00:05:31,080 --> 00:05:33,780
+por padrão no centro no centro da tela.
+
+57
+00:05:34,150 --> 00:05:40,000
+Mas se eu colocar aqui por exemplo podem ler alguns ponto.
+
+58
+00:05:40,050 --> 00:05:45,390
+Aqui vai ter uma série de constantes ondas constantes e apontar para o Norte o que significa que eu
+
+59
+00:05:45,390 --> 00:05:49,580
+estou adicionando esse componente display no norte.
+
+60
+00:05:49,830 --> 00:05:55,860
+Baseado no layout que nós estamos usando só vai funcionar esse bode Leal de culto norte com um segundo
+
+61
+00:05:55,860 --> 00:06:03,350
+parâmetro de adicionar se o gerenciador de layout estiver sentado pra bode legal que obviamente é aqui.
+
+62
+00:06:03,360 --> 00:06:11,640
+No caso do teclado eu posso colocar que eu quero que ele coloque o componente no centro e aí eu posso
+
+63
+00:06:11,640 --> 00:06:15,660
+colocar no Sul no leste oeste e quatro componentes.
+
+64
+00:06:15,660 --> 00:06:21,300
+Eu quero criar um cabeçalho coloque no Norte eu quero colocar o menu eu posso colocar no oeste no centro
+
+65
+00:06:21,340 --> 00:06:25,020
+pois o conteúdo e no Sul vai ser por exemplo no rodapé.
+
+66
+00:06:25,020 --> 00:06:29,840
+Então você tem essa possibilidade para fazer isso definiu.
+
+67
+00:06:29,910 --> 00:06:35,700
+Ele colocou aqui o Verdinho no Norte e colocou o conteúdo no sul mais aqui onde está o display a gente
+
+68
+00:06:35,700 --> 00:06:41,250
+percebe que precisa de um espaço maior para isso a gente pode citar aqui no display e fazer o seguinte
+
+69
+00:06:41,900 --> 00:06:45,180
+display com muito sentido.
+
+70
+00:06:45,300 --> 00:06:53,920
+Para Fernando Sales não definiu tamanho eu vou colocar aqui eu me chamo porque nessa dimensão como parâmetro
+
+71
+00:06:54,070 --> 00:07:00,240
+daqui contra o m e vou passar o seguinte valor ele vai ser 233.
+
+72
+00:07:00,330 --> 00:07:08,330
+O primeiro parâmetro é a largura e o outro a altura e a altura que no caso vai ser 60 e então 233 processem
+
+73
+00:07:08,450 --> 00:07:13,230
+acertado você vai ver que agora nós temos um proposição mais interessante que é mais ou menos o que
+
+74
+00:07:13,230 --> 00:07:17,910
+vai acontecer na calculadora colocando aqui cálculo Leitão.
+
+75
+00:07:18,190 --> 00:07:23,110
+Ele coloca aqui mais ou menos o que nós temos aqui porque ele está Pretinho.
+
+76
+00:07:23,160 --> 00:07:29,970
+Nós temos a borda da tela branca mais é mais ou menos o mesmo tamanho tamanho aqui é mais ou menos assim
+
+77
+00:07:29,980 --> 00:07:34,230
+o resto vai ser ocupado pelo teclado da aplicação.
+
+78
+00:07:34,230 --> 00:07:41,520
+Então nós criamos aqui a estrutura definiu bordas layout obviamente se eu colocar para ser léxica por
+
+79
+00:07:41,520 --> 00:07:43,890
+exemplo ou coloca aqui.
+
+80
+00:07:43,890 --> 00:07:50,800
+Acho que o Brasil hoje o coloca no México então nessa linha já está tratando.
+
+81
+00:07:50,880 --> 00:07:52,270
+Ficou desse lado.
+
+82
+00:07:52,410 --> 00:07:57,920
+Se eu colocar isso será que ele vai pro outro lado.
+
+83
+00:07:58,320 --> 00:08:05,920
+Então você definiu o bode ali baseado nessas nesses parâmetros aqui mais o que eu quero especificamente
+
+84
+00:08:06,610 --> 00:08:14,310
+nós não é pra isso que o nosso sala servia para a gente viu o primeiro gerenciado layout que a o local
+
+85
+00:08:14,310 --> 00:08:16,790
+do display e o local do teclado.
+
+86
+00:08:16,830 --> 00:08:23,340
+Eu vou tirar aqui dentro do teclado esse sétimo declararam que não vou precisar e nem vou precisar do
+
+87
+00:08:23,340 --> 00:08:27,050
+site blecaute dentro do display.
+
+88
+00:08:27,090 --> 00:08:33,830
+Por enquanto até organizá los em botes pra tiracolo ele vai ficar com advertência também não como elixir
+
+89
+00:08:34,660 --> 00:08:35,810
+pra limpar os importe.
+
+90
+00:08:35,820 --> 00:08:41,520
+Na próxima aula a gente continua agora definindo o display depois a gente passa por o teclado mas já
+
+91
+00:08:41,520 --> 00:08:45,250
+temos dois componentes senão referenciados na tela principal.
+
+92
+00:08:45,270 --> 00:08:50,370
+Agora que eu tirei as cores você vai não vai ver absolutamente nada vai ficar tudo limpo porque eu só
+
+93
+00:08:50,370 --> 00:08:55,350
+coloquei o item não é por padrão de item não gera nem o efeito visual a não ser que você mude alguma
+
+94
+00:08:55,350 --> 00:08:55,730
+coisa.
+
+95
+00:08:56,010 --> 00:08:59,380
+Então fico por aqui na próxima aula a gente continua a mexer no display.
+
+96
+00:08:59,490 --> 00:09:01,100
+A nossa calculadora até lá.

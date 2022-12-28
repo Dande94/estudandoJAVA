@@ -1,0 +1,963 @@
+1
+00:00:00,540 --> 00:00:07,020
+Agora nós vamos implementar o padrão observe e nós vamos implementar o padrão Observer do começo até
+
+2
+00:00:07,020 --> 00:00:13,380
+o final seja nós vamos implementar o subject nós vamos implementar a classe do evento.
+
+3
+00:00:13,380 --> 00:00:18,760
+Nós vamos implementar a interface que todo observe precisa implementar.
+
+4
+00:00:18,880 --> 00:00:24,540
+Vocês nós vamos fazer o projeto padrão um projeto inteiro mas isso não é o que acontece na maioria das
+
+5
+00:00:24,540 --> 00:00:31,230
+vezes na maioria das vezes você vai apenas usar como um observador como alguém que está interessado
+
+6
+00:00:31,230 --> 00:00:37,890
+no evento é simplesmente implementar um determinada interface ou atender um determinado método pra ser
+
+7
+00:00:37,890 --> 00:00:39,870
+notificado quando alguém está acontecendo.
+
+8
+00:00:39,960 --> 00:00:43,410
+Isso vai acontecer com a gente vai trabalhando com suingue ou com o Java e Flash.
+
+9
+00:00:43,410 --> 00:00:50,070
+Você vai precisar receber a notificação no evento acontecer mas não necessariamente você vai precisar
+
+10
+00:00:50,070 --> 00:00:55,620
+implementar o padrão de projeto como um todo mas é muito importante você sim entender como funciona
+
+11
+00:00:55,620 --> 00:00:58,300
+o padrão inteiro saber implementar o padrão inteiro.
+
+12
+00:00:58,330 --> 00:01:05,340
+Isso dá uma visão muito mais digamos imprecisa do que realmente o padrão de projeto representa para
+
+13
+00:01:05,340 --> 00:01:06,360
+a gente implementar.
+
+14
+00:01:06,360 --> 00:01:09,580
+Vou criar aqui um novo pacote no nosso projeto.
+
+15
+00:01:09,580 --> 00:01:15,890
+Esse é um pacote que não necessariamente está restrito a esse capítulo ou um pacote que eu vou chamar
+
+16
+00:01:16,050 --> 00:01:16,930
+de padrões.
+
+17
+00:01:17,430 --> 00:01:22,940
+Então sempre que implementar algum padrão que eu achei interessante falar de um padrão de projeto e
+
+18
+00:01:22,950 --> 00:01:28,000
+explicar a teoria explicar como implementar o padrão do projeto eu vou colocar dentro desse pacote.
+
+19
+00:01:28,090 --> 00:01:35,220
+Especificamente nesse caso nós vamos criar um pacote chamado observa já aqui nós vamos implementar esse
+
+20
+00:01:35,220 --> 00:01:42,180
+padrão e aqui dentro nós vamos começar o padrão de projeto observa criando a classe que representa o
+
+21
+00:01:42,180 --> 00:01:48,890
+evento eu vou colocar ordem de chegada Anniversary.
+
+22
+00:01:49,030 --> 00:01:56,310
+Então eventual chegada aniversariante eu não necessariamente precisaria criar essa classe que apresentou
+
+23
+00:01:56,310 --> 00:02:01,230
+o evento mas a maioria das implementações do padrão de projeto observa você vai perceber que vai ter
+
+24
+00:02:01,230 --> 00:02:07,910
+o evento à sua disposição se houver aquilo como de Shift e procurar mouse.
+
+25
+00:02:08,020 --> 00:02:15,930
+E você vai ver que vai ter que o mouse e vens Se você clicar por exemplo Oxente Gente Ivens você vai
+
+26
+00:02:15,930 --> 00:02:25,320
+vir aqui ao Java X com suíte 20 x 20 ou seja um evento de mudança que a gente pode procurar que aqui
+
+27
+00:02:26,240 --> 00:02:26,910
+vivem.
+
+28
+00:02:26,970 --> 00:02:29,460
+Ou seja um evento tecla de teclado.
+
+29
+00:02:29,520 --> 00:02:35,940
+Então você vai digitar apertam a tecla você vai receber a notificação de que gerou um evento foi gerado
+
+30
+00:02:35,940 --> 00:02:37,200
+no teclado do computador.
+
+31
+00:02:37,560 --> 00:02:43,110
+Então você tem uma série de eventos da mesma forma que eu estou criando aquele objeto evento que é a
+
+32
+00:02:43,110 --> 00:02:45,000
+chegada do aniversariante.
+
+33
+00:02:45,000 --> 00:02:48,930
+Não necessariamente eu precisaria ter um evento como é que você precisa ter uma clássica e apresentá
+
+34
+00:02:48,930 --> 00:02:53,040
+la vendo quando você tem informações associadas ao evento.
+
+35
+00:02:53,040 --> 00:03:03,030
+No nosso caso a gente pode colocar por exemplo foi não deixe pra sentir o Java útil deixe que representa
+
+36
+00:03:03,660 --> 00:03:11,990
+o momento que aconteceu e vem colocar aquele momento que aconteceu dentro e o construtor dessa classe
+
+37
+00:03:11,990 --> 00:03:18,510
+eu vou colocar aqui pra gente criar um conceito baseado nos filtros nos campos e eu vou pedir pra ele
+
+38
+00:03:18,690 --> 00:03:23,290
+colocar aqui o momento que é exatamente essa data em que realmente acontecer eu vou passar no curso
+
+39
+00:03:23,290 --> 00:03:31,860
+todo objeto você tirar o SUP e finalmente vou gerar um Método Bad 7 na verdade salgadinho que esse atributo
+
+40
+00:03:31,860 --> 00:03:38,160
+final então eu não vou mudar uma vez que o evento já foi digamos assim criado.
+
+41
+00:03:38,260 --> 00:03:45,090
+Já tem uma data específica acontecer o evento já tem um momento específico que aconteceu esse momento
+
+42
+00:03:45,570 --> 00:03:46,380
+não vai mudar.
+
+43
+00:03:46,380 --> 00:03:52,440
+Por isso eu coloquei aqui como falo mais só pra gente ter aqui algo para representar um objeto que representa
+
+44
+00:03:52,440 --> 00:03:57,380
+o evento com todas as informações necessárias para descrever como o evento aconteceu.
+
+45
+00:03:57,390 --> 00:04:04,650
+Se eu pegar por exemplo um evento de teclar você tem o que eventos e outras coisas importantes é saber
+
+46
+00:04:05,130 --> 00:04:11,460
+qual foi a tecla que foi pressionada você pressionou até você pressionou a letra F a letra G a letra
+
+47
+00:04:11,460 --> 00:04:17,380
+k você pressionou o F junto com um chifre com modificador.
+
+48
+00:04:17,760 --> 00:04:23,820
+Então esse tipo de informação presente está presente dentro do evento não basta notificar que aconteceu
+
+49
+00:04:23,820 --> 00:04:29,370
+um argumento de teclado você tem que dizer exatamente que tipo de argumento aconteceu quais foram as
+
+50
+00:04:29,370 --> 00:04:31,110
+circunstâncias desse evento.
+
+51
+00:04:31,120 --> 00:04:37,970
+O Control estava pressionado ou não o Shift pra estava pressionado ou não foi a letra z ou foi não entendeu
+
+52
+00:04:37,980 --> 00:04:43,170
+tudo isso é importante no clique no mouse e novamente de mouse clique com o botão direito clique com
+
+53
+00:04:43,170 --> 00:04:50,400
+o botão esquerdo usou escorou foi que você fez esse aumento de mouse então é exatamente esse tipo de
+
+54
+00:04:50,400 --> 00:04:54,170
+informação que está contida nesse objeto que representa a vida.
+
+55
+00:04:54,390 --> 00:05:01,500
+O próximo passo é que eu vou criar uma interface vai dar de outras não necessariamente você precisa
+
+56
+00:05:01,500 --> 00:05:02,430
+ter um interface.
+
+57
+00:05:02,510 --> 00:05:08,190
+Esse tipo de ação acaba sendo um pouco menos formal e aqui eu vou criar um interface que será responsável
+
+58
+00:05:08,190 --> 00:05:14,610
+por definir o método que será chamado quando o evento aconteceu ele todo observador necessariamente
+
+59
+00:05:14,610 --> 00:05:25,360
+precisará implementar essa interface nome da interface será chegada Anniversary Edition observa Vadão.
+
+60
+00:05:25,830 --> 00:05:29,420
+Eu posso colocar tudo em português na sequência correta.
+
+61
+00:05:29,450 --> 00:05:34,190
+Ao Observador a chegada do aniversariante estão fazendo isso.
+
+62
+00:05:34,190 --> 00:05:42,170
+Nós temos uma interface e aqui eu vou implementar o método chegar chegou a vou colocar o seguinte ao
+
+63
+00:05:42,350 --> 00:05:46,980
+público você aí chegou.
+
+64
+00:05:47,060 --> 00:05:52,960
+Ele recebe como parâmetro o evento que nós acabamos de criar é o evento chegada aniversariante.
+
+65
+00:05:53,770 --> 00:05:57,440
+E aqui vou chamar de letra e o mesmo argumento.
+
+66
+00:05:58,030 --> 00:06:05,880
+E nós temos o nosso método abstrato porque a interface por padrão metro e abstrato é quem foi implementar
+
+67
+00:06:05,880 --> 00:06:12,200
+essa interface necessariamente precisará implementar um metro chegou e esse será um método chamado quando
+
+68
+00:06:12,530 --> 00:06:13,250
+acontecer.
+
+69
+00:06:13,350 --> 00:06:18,150
+Então nós já implementamos aqui é a interface que tem o metro chegou e implementamos também um evento
+
+70
+00:06:18,150 --> 00:06:21,530
+que contará todas as informações relacionadas ao evento.
+
+71
+00:06:21,540 --> 00:06:29,700
+O próximo passo vai ser criar uma nova classe que vai ser a classe que representa a namorada namorada
+
+72
+00:06:30,480 --> 00:06:39,010
+e a namorada vai implementar a interface do Observador porque o que ela está interessada e ser notificado
+
+73
+00:06:39,030 --> 00:06:40,260
+quando vai acontecer.
+
+74
+00:06:40,310 --> 00:06:47,880
+Ao Observador chegado a aniversariante uma vez que implementa interface necessariamente eu preciso implementar
+
+75
+00:06:47,880 --> 00:06:53,140
+um método chegou a tiracolo que é só uma validação não necessariamente precisa ter.
+
+76
+00:06:53,480 --> 00:06:57,570
+Eu vou tirar aqui também esse comentário e aqui basicamente que eu vou fazer.
+
+77
+00:06:57,570 --> 00:07:02,440
+Vai ser o processo que a namorada vai fazer só que eu vou colocar no console com o monstrinho.
+
+78
+00:07:02,980 --> 00:07:12,460
+Então o primeiro passo seria avisar os convidados ou aqui.
+
+79
+00:07:12,570 --> 00:07:20,700
+Depois de um empate eu posso duplicar mas outras vezes avisar apagar
+
+80
+00:07:23,220 --> 00:07:25,440
+as luzes
+
+81
+00:07:28,440 --> 00:07:32,900
+esperar um pouco é
+
+82
+00:07:35,490 --> 00:07:39,160
+surpresa exatamente.
+
+83
+00:07:39,260 --> 00:07:45,340
+Esse é o passo a passo que será feito quando aconteceu o evento da chegada do aniversariante.
+
+84
+00:07:45,340 --> 00:07:50,530
+O porteiro vai chamar esse método e aí vai executar esse espaço aqui dentro mas em um algorítimo bem
+
+85
+00:07:50,530 --> 00:07:54,610
+interessante por exemplo acontece uma venda no seu sistema.
+
+86
+00:07:54,950 --> 00:07:57,730
+E existem vários vários subsistemas.
+
+87
+00:07:57,730 --> 00:08:05,110
+Moscovo pega o submarino como Tube que é um site gigantesco como a venda acontece muito provavelmente
+
+88
+00:08:05,130 --> 00:08:11,890
+em outras partes do sistema estarão interessadas em ser notificados quando a venda acontece por exemplo
+
+89
+00:08:12,970 --> 00:08:18,500
+a parte de envio de e-mail para o cliente para dizer que a venda aconteceu de forma bem sucedida.
+
+90
+00:08:18,510 --> 00:08:25,470
+O estoque para começar a separar esse produto para enviar para os Correios a partir de dia imprime a
+
+91
+00:08:25,480 --> 00:08:31,270
+etiqueta toda a parte de comunicação com o cartão de crédito para verificar se realmente o pagamento
+
+92
+00:08:31,270 --> 00:08:33,190
+já foi recebido.
+
+93
+00:08:33,190 --> 00:08:40,750
+Então não é muito incomum que você trate as ações do usuário como eventos que acontecem dentro do sistema
+
+94
+00:08:40,750 --> 00:08:46,230
+ou seja quando o usuário clica em comprar uma compra efetuada e isso é um evento no seu sistema isso
+
+95
+00:08:46,270 --> 00:08:53,740
+é uma ocorrência essa ocorrência pode sim gerar modificação para vários observadores que estão interessados
+
+96
+00:08:53,740 --> 00:09:00,220
+em ser notificado quando isso acontecer e aí sim disparar outros processos menores que não fazem coisas
+
+97
+00:09:00,220 --> 00:09:06,910
+específicas como mandar e-mail para o cliente enviar um SMS para o cliente sei lá enviar a notificação
+
+98
+00:09:06,910 --> 00:09:13,170
+para o responsável pelo ou pela logística e que tem mais um pedido pra ser separado e coisas do tipo.
+
+99
+00:09:13,300 --> 00:09:18,040
+Também não é incomum você usar essas estratégias dentro de sistemas reais.
+
+100
+00:09:18,040 --> 00:09:19,420
+Vocês vão perceber isso.
+
+101
+00:09:19,420 --> 00:09:28,870
+O próximo passo é implementar aqui o porteiro então eu vou colocar aqui na obra eu vou chamar o porteiro
+
+102
+00:09:29,680 --> 00:09:32,520
+e eu vou fazer o seguinte o porteiro.
+
+103
+00:09:32,530 --> 00:09:40,240
+Ele vai ter necessariamente uma lista de observadores que ele vai notificar o porteiro ele representa
+
+104
+00:09:40,240 --> 00:09:46,390
+o subject ou seja aquela pessoa aquele trecho de código que tem condições de detectar o evento e quando
+
+105
+00:09:46,390 --> 00:09:51,130
+detecta onde fica todos os observadores estão criar aqui uma lista.
+
+106
+00:09:51,140 --> 00:10:01,500
+O que chama aqui slide List da conta ele vai é um lixo que vai ser de objetos que implementam a interface
+
+107
+00:10:01,520 --> 00:10:03,950
+observador chegado aniversariantes.
+
+108
+00:10:04,210 --> 00:10:15,520
+Vou chamar esse aqui de observadores e vou estância aqui embaixo de um lixo e vou tirar isso aqui para
+
+109
+00:10:15,520 --> 00:10:21,850
+não ficar muito grande basta colocar que o operador não operei já que ele vai usar exatamente a mesma
+
+110
+00:10:21,850 --> 00:10:23,550
+interface que nós definimos aqui.
+
+111
+00:10:23,950 --> 00:10:29,620
+Então eu vou colocar os observadores da lista que o chamei de observadores e necessariamente nem do
+
+112
+00:10:29,620 --> 00:10:41,020
+porteiro eu preciso ter um método que vai registrar os observadores registrá observe e vai receber aqui
+
+113
+00:10:41,200 --> 00:10:47,470
+alguém que implementa essa interface ao Observador chegado aniversariante que eu vou chamar aqui só
+
+114
+00:10:47,470 --> 00:10:53,020
+da letra o nome da interface é muito grande acaba ficando pouco espaço aqui pra gente ou até diminuir
+
+115
+00:10:53,020 --> 00:10:58,590
+um pouquinho esse código mas basicamente como fazer observadores.
+
+116
+00:10:58,700 --> 00:10:59,680
+Ponto.
+
+117
+00:10:59,940 --> 00:11:08,340
+Adicionar o observador que eu acabei de receber no final colocar o nome completo do Cabral aqui 12 linhas
+
+118
+00:11:08,350 --> 00:11:15,910
+fica melhor maximizar de e vou colocar aqui ao Observador.
+
+119
+00:11:16,110 --> 00:11:22,910
+Lá eu vou passar o observador como parâmetro para o Metro adicionado dentro da lista de observadores.
+
+120
+00:11:22,910 --> 00:11:29,880
+Então nós temos aqui os observadores e o método registrar ao Observador outro Metro que eu quero criar
+
+121
+00:11:29,910 --> 00:11:36,930
+e o método que vai iniciar o monitoramento pelo porteiro em relação aos eventos aqui a gente vai simular
+
+122
+00:11:36,930 --> 00:11:37,860
+isso.
+
+123
+00:11:37,860 --> 00:11:42,480
+Isso aqui normalmente acontece dentro do Supremo dentro das bibliotecas aqui eu vou criar um método
+
+124
+00:11:42,840 --> 00:11:50,320
+que vai ser o seguinte porque você pode monitorar e aqui nós vamos usar o scanner para fazer isso ou
+
+125
+00:11:50,340 --> 00:11:52,520
+criar aqui na entrada.
+
+126
+00:11:52,530 --> 00:12:01,270
+A gente já tem lá o scanner vão importar Java o último scanner e eu vou criar um laço que por exemplo
+
+127
+00:12:01,500 --> 00:12:10,080
+eu vou criar uma entrada antes trilíngue que valor recebe um vazio e eu vou criar aqui um teste para
+
+128
+00:12:10,090 --> 00:12:18,100
+saber o seguinte você sai um ponto e gols enquanto for diferente na verdade sai.
+
+129
+00:12:18,300 --> 00:12:20,830
+Então em 4 foi diferente.
+
+130
+00:12:20,840 --> 00:12:27,070
+Saí ignorando letras maiúsculas e minúsculas ele vai ficar dentro do eu e aqui dentro eu vou perceber.
+
+131
+00:12:27,420 --> 00:12:37,570
+Vou fazer a seguinte pergunta aqui ao System of Printing em seu cliente eu vou colocá lo e Sara anti
+
+132
+00:12:38,510 --> 00:12:54,340
+chegou e logo embaixo eu vou colocar um valor que recebe entrada conto de lá e eu vou fazer um teste.
+
+133
+00:12:54,500 --> 00:13:04,740
+Se o usuário digitar sim então vou colocar esse ponto e os ignore Keys de cima e de valor significa
+
+134
+00:13:04,740 --> 00:13:15,150
+que o evento aconteceu então aqui dentro eu vou notificar os observadores ou seja que são os interessados.
+
+135
+00:13:15,150 --> 00:13:24,750
+Caso contrário eu vou dizer que aconteceu que um alarme falso instalou um sistema de alarme falso.
+
+136
+00:13:25,710 --> 00:13:31,710
+Então se o usuário de toucinho ou seja o aniversariante chegou sim vou notificar os observadores caso
+
+137
+00:13:31,710 --> 00:13:33,080
+contrário um alarme falso.
+
+138
+00:13:33,090 --> 00:13:37,050
+Outra pessoa chegou que não é o aniversariante.
+
+139
+00:13:37,050 --> 00:13:42,640
+Como é que eu faço para notificar os observadores eu vou percorrer essa lista de observadores aqui.
+
+140
+00:13:43,200 --> 00:13:44,380
+Então fazer o seguinte.
+
+141
+00:13:45,240 --> 00:13:46,260
+Observadores.
+
+142
+00:13:46,260 --> 00:13:48,050
+Ponto estranho.
+
+143
+00:13:48,180 --> 00:13:52,830
+é aí que eu vou fazer um foguete pra cada um deles.
+
+144
+00:13:53,070 --> 00:13:59,940
+E nesse Favorite eu voltei o próprio observador que eu vou chamar idiota e eu vou precisar chamar um
+
+145
+00:13:59,940 --> 00:14:03,900
+metro desse observador que ponto chegou.
+
+146
+00:14:03,990 --> 00:14:08,700
+Esse chegou eu vou precisar passar um evento só claramente não querendo eu vou criar aqui em cima.
+
+147
+00:14:09,090 --> 00:14:20,180
+Então o primeiro passo é criar o evento que eu vou fazer o seguinte evento chegada aniversariante chamado
+
+148
+00:14:20,280 --> 00:14:30,830
+evento recebe coloca aqui embaixo mil evento chegada do aniversariante passando desde que ele vai pegar
+
+149
+00:14:30,830 --> 00:14:31,640
+do mapa atual.
+
+150
+00:14:32,040 --> 00:14:36,780
+Então com isso nós já temos o nosso evento O desafio vai ser já o último deles.
+
+151
+00:14:36,810 --> 00:14:41,640
+Com isso nós já temos o nosso evento definido e com evento definido.
+
+152
+00:14:41,640 --> 00:14:48,390
+A gente passou aqui pra cada um dos observadores fizemos um fórum chamando a função chegou dizendo que
+
+153
+00:14:48,520 --> 00:14:54,030
+em determinado momento aconteceu quem estiver interessado em ser notificado será notificado.
+
+154
+00:14:54,030 --> 00:15:00,310
+Nesse ponto especificamente esse código aqui certo novamente você não vai implementar por quê.
+
+155
+00:15:00,310 --> 00:15:03,630
+Porque esse código é implementado dentro das ferramentas.
+
+156
+00:15:03,630 --> 00:15:10,050
+Por exemplo quando você vem aqui clica em um rap e ele abre essa janela dentro e Eclipse que é um evento
+
+157
+00:15:10,050 --> 00:15:15,040
+que aconteceu e em resposta a esse evento ele fala e abriu o menu.
+
+158
+00:15:15,070 --> 00:15:20,850
+Quando você clica por exemplo Configuration esse clique do mouse vai abrir uma interface gráfica do
+
+159
+00:15:20,850 --> 00:15:21,240
+eclipse.
+
+160
+00:15:21,240 --> 00:15:26,880
+Para configurar alguma coisa seja esse evento que é o clique vai disparar por exemplo.
+
+161
+00:15:26,880 --> 00:15:28,680
+Resposta abertura nessa janela.
+
+162
+00:15:29,040 --> 00:15:34,830
+Então quem fica monitorando o clique é algo interno dentro Fremont que a gente não precisa implementar
+
+163
+00:15:34,830 --> 00:15:40,620
+digamos assim o monitor tem que ficar olhando o tempo todo e normalmente o monitor acaba envolvendo
+
+164
+00:15:40,620 --> 00:15:47,250
+algum tipo de laço que você fica o tempo todo lá olhando e vendo a tecla que está acontecendo e aí sim
+
+165
+00:15:47,250 --> 00:15:48,480
+todo mundo é notificado.
+
+166
+00:15:48,810 --> 00:15:52,290
+Ou seja você está trocando a namorada que é o seu código.
+
+167
+00:15:52,290 --> 00:15:58,550
+Vamos supor a sina ficar lá parado olhando você dá pra o sistema ou para a biblioteca que é o porteiro
+
+168
+00:15:58,560 --> 00:16:05,110
+nesse caso aí sim ele detectamos onde fica o seu código de forma reativa e não proativa.
+
+169
+00:16:05,340 --> 00:16:11,850
+Ou seja namorar pra curtir a festa de forma reativa o interfone toca aí sim ela vai agir de acordo com
+
+170
+00:16:11,850 --> 00:16:18,210
+a notificação que ela recebeu e finalmente a gente fez aqui o monitorado eu vou criar a festa de aniversário
+
+171
+00:16:18,210 --> 00:16:26,400
+que é a nossa última classe são festa de aniversário e festa surpresa de aniversário surpresa aniversário
+
+172
+00:16:27,810 --> 00:16:44,290
+surpresa aqui nós teremos o nosso método Men e eu vou criar uma namorada namorada recebi recebe e namorada
+
+173
+00:16:44,690 --> 00:16:56,840
+vou criar aqui um porteiro porteiro recebe o roteiro vou precisar chamar aqui o porteiro conta monitorar
+
+174
+00:16:56,980 --> 00:17:04,030
+exatamente o processo que vai começar a executar tal nosso algoritmo até que em determinado momento
+
+175
+00:17:04,030 --> 00:17:05,340
+ele vai lá notificar.
+
+176
+00:17:05,350 --> 00:17:10,700
+Só que isso aqui não é o suficiente executar esse código desse jeito para executar aquilo ali mesmo.
+
+177
+00:17:10,700 --> 00:17:18,290
+Essa gente chegou eu vou dizer sim não aconteceu nada mas a gente chegou sim onde saí.
+
+178
+00:17:18,380 --> 00:17:19,990
+Aí ele bota alarme falso.
+
+179
+00:17:19,980 --> 00:17:27,070
+No final ele sabe da minha aplicação pra que realmente seja notificado e algo aconteceu eu preciso registrar
+
+180
+00:17:27,100 --> 00:17:31,140
+a intenção da namorada disse notificada com o nome de acontecer.
+
+181
+00:17:31,150 --> 00:17:37,210
+Por isso eu criei o método que é o de registrar porteiro do hotel registrar o Observador.
+
+182
+00:17:37,220 --> 00:17:43,870
+E aí eu vou passar a namorada para daí sim o porteiro tem uma referência da namorada e quando isso acontecer
+
+183
+00:17:43,870 --> 00:17:48,230
+ele passa por todos os interessados e no final das contas ser notificado.
+
+184
+00:17:48,400 --> 00:17:56,110
+Então executando mais uma vez eu vou estar aqui em nossa aplicação do aniversariante chegou aqui não.
+
+185
+00:17:56,150 --> 00:18:03,330
+Alarme falso chegou a um alarme falso de qualquer coisa alarme falso no final disse sim.
+
+186
+00:18:03,370 --> 00:18:11,410
+Aí ele varia de fiscal avisar os convidados apagar as luzes e esperar um pouco e aí surpresa aí eu posso.
+
+187
+00:18:11,410 --> 00:18:18,360
+Se for o caso já saí na implementação aqui do porteiro uma vez que todo mundo foi notificado.
+
+188
+00:18:18,370 --> 00:18:24,480
+Eu posso só pra garantir que ele vai sair do córrego alto valor que recebem.
+
+189
+00:18:24,610 --> 00:18:31,300
+Saí aí no final das contas depois que todo mundo foi notificado ele já sai o programa termina só pra
+
+190
+00:18:31,300 --> 00:18:33,870
+gente estar aqui mais uma vez.
+
+191
+00:18:33,870 --> 00:18:36,240
+Tá louca não.
+
+192
+00:18:36,310 --> 00:18:37,340
+Depois sim.
+
+193
+00:18:37,400 --> 00:18:41,700
+E aí termina o programa porque foi notificado e o papel foi cumprido.
+
+194
+00:18:41,710 --> 00:18:45,430
+Outra questão interessante com relação a essa parte é notificação.
+
+195
+00:18:45,430 --> 00:18:52,140
+Como a gente já viu a partir lambida e a gente já sabe o que significam a interface funcional.
+
+196
+00:18:52,230 --> 00:18:56,460
+Caso que ao evento aumentou o Observador chegar ao aniversariante.
+
+197
+00:18:56,460 --> 00:19:01,520
+Pode ser a interface funcional funcional e o perfeito.
+
+198
+00:19:01,530 --> 00:19:01,950
+Por quê.
+
+199
+00:19:02,000 --> 00:19:08,380
+Que ele tem apenas um único metro como tem apenas um metro que recebe o evento como parâmetro não posso
+
+200
+00:19:08,380 --> 00:19:14,260
+muito bem não precisar criar a classe namorada e simplesmente passar uma lambida nesse local então aqui
+
+201
+00:19:14,260 --> 00:19:23,140
+ou na sala surpresa eu poderia não ter a namorada poderia aqui não ter o registro da namorada simplesmente
+
+202
+00:19:23,140 --> 00:19:29,860
+ter criado o porteiro e aqui ter colocado ao porteiro para registrar ao Observador.
+
+203
+00:19:29,950 --> 00:19:35,530
+E aqui eu passo um ambiente que vai ser exatamente a função que vai implementar essa interface é uma
+
+204
+00:19:35,530 --> 00:19:38,860
+função que recebe um único parâmetro e retorna VOD.
+
+205
+00:19:39,250 --> 00:19:52,790
+Então o que eu posso chamar o meu evento dia é simplesmente chamo aqui surpresa via lambida colocamos
+
+206
+00:19:52,920 --> 00:19:53,620
+a tiracolo.
+
+207
+00:19:53,620 --> 00:19:54,760
+Ponto e vírgula.
+
+208
+00:19:54,820 --> 00:20:01,060
+Só para não ficar muito grande não vou colocar a parte de Chaves aqui embaixo mas tanto faz com qualquer
+
+209
+00:20:01,110 --> 00:20:02,650
+linha só sem nenhum problema.
+
+210
+00:20:03,070 --> 00:20:09,250
+Então passei aqui supresa peso lá pra colocar um ponto e vírgula que eu tenho um par de chaves e nesse
+
+211
+00:20:09,250 --> 00:20:18,970
+caso ele vai executar da mesma forma chegou não chegou não chegou se coloca a surpresa de lado e chamou
+
+212
+00:20:18,970 --> 00:20:26,570
+também se interessado e se eu voltar a namorada é aqui registrar ela também se apropriar na hora daqui
+
+213
+00:20:26,920 --> 00:20:28,450
+registra a namorada.
+
+214
+00:20:28,510 --> 00:20:35,710
+Criei aqui uma função lábia e no final vou chamar o porteiro pra monitorar o evento agora tem dois interessados
+
+215
+00:20:35,740 --> 00:20:38,100
+pelo evento executado.
+
+216
+00:20:38,200 --> 00:20:38,950
+Você vai ver.
+
+217
+00:20:39,230 --> 00:20:41,660
+Não não.
+
+218
+00:20:41,770 --> 00:20:42,380
+Sim.
+
+219
+00:20:42,460 --> 00:20:48,920
+Teve que avisar os convidados apagar as luzes e esperar um pouco surpresa e depois surpresa Lambda e
+
+220
+00:20:48,940 --> 00:20:52,600
+posso inclusive pagar o valor do evento aqui dentro.
+
+221
+00:20:52,650 --> 00:21:05,940
+Posso local ocorreu sim e eu coloco é muito grande momento para converter isso para Astrid que mais
+
+222
+00:21:05,940 --> 00:21:06,830
+uma vez.
+
+223
+00:21:06,870 --> 00:21:14,130
+Aniversariante chegou sem avisar aos convidados apagar as luzes surpresa surpresa logo ocorreu quarta
+
+224
+00:21:14,130 --> 00:21:20,070
+feira 28 de agosto às 12 horas 43 minutos e 20 segundos.
+
+225
+00:21:20,070 --> 00:21:25,830
+Ou seja você também tem a possibilidade de pegar as informações ou implementar não necessariamente precisa
+
+226
+00:21:25,830 --> 00:21:30,870
+implementar um interface criar a classe que implementa a interface pode simplesmente passar um lambda
+
+227
+00:21:31,190 --> 00:21:32,290
+e ser notificado.
+
+228
+00:21:32,320 --> 00:21:35,450
+é mais ou menos aqui nesse ponto que a gente vai precisar interagir.
+
+229
+00:21:35,460 --> 00:21:41,460
+Quando a gente for trabalhar com um padrão observe dentro do contexto do suingue ou faz o seguinte na
+
+230
+00:21:41,460 --> 00:21:46,180
+próxima aula não estava prevista a sala mas eu vou fazer um exemplo usando o suingue muito mas muito
+
+231
+00:21:46,200 --> 00:21:50,370
+simples mesmo só para a gente vê essa questão do padrão observa.
+
+232
+00:21:50,370 --> 00:21:56,330
+Na prática aí depois a gente passa para o Apache do campo minado para a gente usar o padrão observa
+
+233
+00:21:56,340 --> 00:22:01,300
+no campo minado e a implementar as interfaces gráficas para a gente ter o nosso joguinho todo funcionando.
+
+234
+00:22:01,320 --> 00:22:06,420
+Mas antes disso eu quero fazer um exemplo bem simples para quem possa com a cabeça bem refrescar.
+
+235
+00:22:06,420 --> 00:22:11,590
+Com relação a esse exemplo serve pra você ver como na prática a gente vai acabar usando observa.
+
+236
+00:22:11,760 --> 00:22:16,410
+Muito diferente do que você tem que implementar o padrão inteiro e usar isso na prática dentro do contexto
+
+237
+00:22:16,410 --> 00:22:17,570
+da interface gráfica.
+
+238
+00:22:17,850 --> 00:22:23,100
+Então o próximo exemplo vai ser basicamente para a gente mostrar e falar sobre isso e logo na sequência
+
+239
+00:22:23,100 --> 00:22:27,900
+a gente vai faturar o nosso projétil no campo minado pra colocar interface gráfica então na próxima
+
+240
+00:22:27,900 --> 00:22:28,910
+aula continuou.
+
+241
+00:22:28,980 --> 00:22:32,850
+Nesse capítulo de swing observa com o padrão de projetos e até lá.

@@ -1,0 +1,27 @@
+1
+00:00:00,620 --> 00:00:06,150
+Pessoal chegamos à final do nosso capítulo de JP Sá que foi o capítulo que eu te dei os fundamentos
+
+2
+00:00:06,150 --> 00:00:12,870
+de JP para você entender como o framework funciona e as principais funcionalidades foram cobertas nesse
+
+3
+00:00:12,870 --> 00:00:18,360
+capítulo e nós vamos usar ainda JPEG a mais à frente no nosso com os quais foi desenvolvido o nosso
+
+4
+00:00:18,360 --> 00:00:25,230
+para o jeitinho integrando o JP Sá com o Spring e vai ver como é legal usar Alfredo aqui em cima de
+
+5
+00:00:25,230 --> 00:00:28,410
+cenários e a gente vai fazer isso ainda dentro do nosso curso.
+
+6
+00:00:28,410 --> 00:00:29,460
+Então fico por aqui.
+
+7
+00:00:29,680 --> 00:00:32,460
+Espero na próxima aula e no próximo capítulo.

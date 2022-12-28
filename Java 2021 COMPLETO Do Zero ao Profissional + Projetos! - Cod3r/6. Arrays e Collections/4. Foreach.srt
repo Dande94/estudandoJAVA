@@ -1,0 +1,319 @@
+1
+00:00:00,470 --> 00:00:06,240
+Eu disse que ia passar um desafio mais ainda na sala não é sinal outra certa nessa aula eu quero falar
+
+2
+00:00:06,240 --> 00:00:13,380
+com você só pra seguir essa coisa que eu já tinha planejado fundi la nessa aula eu vou mostrar pra vocês
+
+3
+00:00:13,380 --> 00:00:21,320
+uma forma otimizada e você percorreu um laço usando a raiz sem necessariamente precisar controlar partir
+
+4
+00:00:21,890 --> 00:00:26,590
+de um número por exemplo do número 1 por exemplo a variável que a gente usou aqui.
+
+5
+00:00:26,840 --> 00:00:29,550
+E pra isso nós vamos introduzir um novo laço.
+
+6
+00:00:29,670 --> 00:00:34,820
+Esse é o tipo de laço que poderia muito bem ter sido explicado lá no capítulo estruturas de controle
+
+7
+00:00:34,830 --> 00:00:36,450
+Pokémon estruturas de controle.
+
+8
+00:00:36,450 --> 00:00:42,500
+Sim mas é um futuro de controle que era muito usada no contexto da rede coleções.
+
+9
+00:00:42,510 --> 00:00:48,660
+Por isso que eu acabei deixando para falar sobre ela aqui nesse capítulo então nós vamos criar um novo
+
+10
+00:00:48,660 --> 00:00:53,130
+arquivo certo a nova classe em que eu vou chamar aqui de forma bitch.
+
+11
+00:00:53,280 --> 00:00:59,900
+Traduzindo seria para cada um seja para cada elemento ele vai fazer um laço de repetição pra um elemento
+
+12
+00:00:59,900 --> 00:01:02,980
+você necessariamente você precisar controlar isso.
+
+13
+00:01:03,000 --> 00:01:10,020
+A partir de uma variável então aqui dentro do metro e meio faz o seguinte eu vou criar um dragão colocar
+
+14
+00:01:10,020 --> 00:01:14,430
+aqui um Harry qualquer recebe.
+
+15
+00:01:14,570 --> 00:01:16,670
+Posso inicializar os valores aqui.
+
+16
+00:01:16,980 --> 00:01:22,490
+Vai o foco da gente vai ser muito mais forte do que propriamente o Harry nesse exercício.
+
+17
+00:01:22,710 --> 00:01:27,870
+Já temos dois o foco na minha idade mas eu não vou colocar aqui o valor pra si eu vou chamar de notas
+
+18
+00:01:27,870 --> 00:01:42,830
+para ficar um pouco mais descritivo notas vou colocar 9 8 9 vírgula 8 7 6 7 8 2 e finalmente 9 8 4 então
+
+19
+00:01:42,970 --> 00:01:50,160
+até 1 4 notas aqui como é que eu faço para percorrer esse arranjo uma forma mais digamos assim fácil.
+
+20
+00:01:50,250 --> 00:01:55,540
+E aí o que acontece na prática é o seguinte na grande maioria das vezes quando você vai percorrer um
+
+21
+00:01:55,540 --> 00:02:03,450
+Rei você passa você vai sair do primeiro elemento claramente zero você vai querer ir até o último minuto
+
+22
+00:02:03,450 --> 00:02:09,720
+percorrendo todos nesse cenário e quando entro fora ou seja na maioria dos casos você vai querer percorrer
+
+23
+00:02:09,720 --> 00:02:12,340
+o ano inteiro passando por todos os meios.
+
+24
+00:02:12,340 --> 00:02:18,240
+Dificilmente você vai querer ir pulando de dois em dois ou de três em três ou começar a partir do terceiro
+
+25
+00:02:18,570 --> 00:02:26,400
+elemento e até o penúltimo ex-funcionários que acessam a regra você sai do primeiro e até o último passando
+
+26
+00:02:26,400 --> 00:02:27,440
+por todos.
+
+27
+00:02:27,460 --> 00:02:31,110
+Então nesse cenário você tem um Fora isso não se escreve forte.
+
+28
+00:02:31,120 --> 00:02:33,270
+Em algumas linguagens sim mas aqui não.
+
+29
+00:02:33,270 --> 00:02:43,130
+Você coloca o nome da variável por exemplo nota dois pontos notas no plural certo deixa a colocar aqui
+
+30
+00:02:43,190 --> 00:02:49,470
+um paralelo colocar outro foco que é o tradicional aqui como é que você faz se eu quiser imprimir todas
+
+31
+00:02:49,470 --> 00:02:57,360
+as notas e eu coloco darei notas 5 e ou seja eu tenho que acessar o índice para acessar o Element aquela
+
+32
+00:02:57,360 --> 00:02:58,670
+posição a partir do índice.
+
+33
+00:02:59,160 --> 00:03:05,660
+Nesse caso aqui de baixo não vai fazer pra cada vez que ele vai interagir para cada repetição.
+
+34
+00:03:05,700 --> 00:03:09,540
+O valor de notas vai apontar para um dos elementos do Harry.
+
+35
+00:03:09,670 --> 00:03:15,110
+E aqui você não precisa se preocupar mais em acessar o elemento a parte do índice simplesmente porque
+
+36
+00:03:15,150 --> 00:03:18,090
+você já tem o próprio valor de nota.
+
+37
+00:03:18,120 --> 00:03:22,760
+Aqui dentro essa variável então se ciência em notas do tipo W.
+
+38
+00:03:23,040 --> 00:03:29,100
+Obviamente você vai usar o tipo da mão certa a não ser que você queira fazer algum outro tipo de conversão
+
+39
+00:03:29,320 --> 00:03:31,340
+implícita e tal mas não é o caso aqui.
+
+40
+00:03:31,470 --> 00:03:36,690
+Então uma vez que você define da HBO aqui você vai querer que esse tipo aqui também seja dado tem algum.
+
+41
+00:03:36,870 --> 00:03:40,130
+Algumas possíveis exceções mas não é muito foco dessa aula.
+
+42
+00:03:40,200 --> 00:03:47,400
+O fato é que eu tenho o rei que tem quatro valores do tipo da HBO para cada valor ele vai colocar dentro
+
+43
+00:03:47,400 --> 00:03:51,740
+da variável nota primeira repetição nota 9 9.
+
+44
+00:03:51,750 --> 00:03:56,250
+Aí vai ser uma repetição a mesma variável a nota vai ter oito pontos sete.
+
+45
+00:03:56,640 --> 00:03:59,570
+Terceira repetição a mesma variável nota 7 Conto 2.
+
+46
+00:03:59,580 --> 00:04:02,000
+Finalmente a última repetição.
+
+47
+00:04:02,040 --> 00:04:09,060
+4 9 8 4 7 que seria a última nota essas duas impressões aqui dá exatamente a mesma coisa.
+
+48
+00:04:09,060 --> 00:04:16,440
+Eu posso inclusive colocar aqui o brinde e vou colocar aqui de brinde qualquer um mais para ele concatenar
+
+49
+00:04:16,530 --> 00:04:18,770
+um espaço em branco a cada novo capítulo grudado.
+
+50
+00:04:18,770 --> 00:04:25,410
+Mesma coisa que só pra gente ver um do lado do outro e aqui no meio vou colocar um system alto inteligente
+
+51
+00:04:25,510 --> 00:04:26,890
+só pra ele Cabral.
+
+52
+00:04:27,570 --> 00:04:33,350
+Você tem exatamente os mesmos valores a 9 ponto 9 8 7 7 8 2 9 ponto 4.
+
+53
+00:04:33,390 --> 00:04:38,910
+Se a gente quiser que dê lugar pessoalmente segundo o que eu posso colocar um brinco pois vou pedir
+
+54
+00:04:38,910 --> 00:04:45,990
+pra ele estar aqui no modo LeBlanc no modo de blog eu vou também aproveitar e jogar aqui o console por
+
+55
+00:04:45,990 --> 00:04:47,070
+lá fora.
+
+56
+00:04:47,640 --> 00:04:53,400
+Para ficar mais ou menos como a gente tem no outro cenário mas pra ficar um pouquinho me deixou mudar
+
+57
+00:04:53,400 --> 00:05:00,910
+aqui pro pro Jabulani só pra ver a distância mas eu não lá beleza entrei certo no primeiro mas temos
+
+58
+00:05:01,360 --> 00:05:07,540
+nós temos um Harry chamado Notas esse Harry se a gente for visualizar aquilo nas variáveis colocá los
+
+59
+00:05:07,700 --> 00:05:09,320
+pra gente pra baixo.
+
+60
+00:05:09,430 --> 00:05:15,400
+Pra mim é um pouco mais espaço aqui ao Rei 9 9 8 8 7 7 2 9 8 4.
+
+61
+00:05:15,820 --> 00:05:24,370
+E a gente executado aqui ao longo a percorrer na primeira interação variável nota vale 9 conto 9 9 6.
+
+62
+00:05:24,470 --> 00:05:32,560
+Na segunda iteração a variável nota vale segundo ela do rei ponto 9 depois 7 Conto 2 e finalmente 9
+
+63
+00:05:32,570 --> 00:05:38,530
+conto 4 se até um f 8 ele vai terminar execução posso colocar um brinco em cima também pra gente ver
+
+64
+00:05:38,530 --> 00:05:44,530
+desde o começo a execução vou colocar aqui ou executar o modo de Bangui no primeiro cenário ele criou
+
+65
+00:05:44,810 --> 00:05:52,960
+a rede notas oposição 0 2 e 3 que são os elementos aqui do meu rei e inicialmente não sei se a variável
+
+66
+00:05:52,960 --> 00:06:00,370
+II valem fizeram com ele faça essa nota índice zero ele vai pagar o primeiro elemento depois a variável
+
+67
+00:06:00,370 --> 00:06:05,190
+é pra valer depois a variável e vai valer 2 ele vai imprimir.
+
+68
+00:06:05,250 --> 00:06:15,970
+3 Quando chegar na nota 4 ou seja 24 a nota 4 o índice 4 já saiu do ar Rei o que vai de 0 a 3 ele imprimiu
+
+69
+00:06:15,970 --> 00:06:21,520
+aqui uma nova linha de 6 e vai percorrer agora o barril usando o Fórum de uma forma mais simples de
+
+70
+00:06:21,520 --> 00:06:26,980
+fazer porque você não precisa se preocupar em controlar o laço com uma variável e fazer um incremento
+
+71
+00:06:26,980 --> 00:06:28,570
+é coisa do tipo certo facilmente.
+
+72
+00:06:29,230 --> 00:06:36,060
+Você vai conseguir tal volta aqui pra perspectiva Jaboatão a gente viu nessa aula o uso do Fórum Supersimples
+
+73
+00:06:36,100 --> 00:06:43,540
+se você está começando a programar tente aplicar por exemplo criam uma nova classe chamada exercício
+
+74
+00:06:43,540 --> 00:06:50,810
+2 copie todo esse código aqui e tente substituir esse laço forró e laço verde baixo pelo Fórum este
+
+75
+00:06:50,860 --> 00:06:56,390
+é um exercício legal não vou mostrar isso certo não será esse o nosso desafio mas você pode criar um
+
+76
+00:06:56,390 --> 00:07:02,880
+nova classe chamado exercício fórum em que você vai pegar o que você aprendeu aqui no fórum certo.
+
+77
+00:07:03,100 --> 00:07:09,250
+Essa forma de fazer o Laço foi você pode tentar substitui no exercício antigo eu não mexeria no sentido
+
+78
+00:07:09,260 --> 00:07:14,490
+só pra deixar exatamente como a gente fez eu criaria um novo arquivo chamado Exército forense para substituir
+
+79
+00:07:14,500 --> 00:07:20,060
+serve como um exercício aí pra vocês fazerem em casa na próxima aula aí sim eu vou passar o desafio
+
+80
+00:07:20,080 --> 00:07:20,630
+e eles estarão lá.

@@ -1,0 +1,491 @@
+1
+00:00:00,250 --> 00:00:05,090
+Só vou falar um pouquinho mais em detalhe na sala um pouco pouco mais de teoria.
+
+2
+00:00:05,100 --> 00:00:10,680
+Muito pouco na verdade teoria só para a gente falar algumas coisas que isso importa se vocês entenderem
+
+3
+00:00:10,680 --> 00:00:23,100
+com relação a isto então colocar aqui está pequeno aqui em nossa o título da aula que vai ser sobre
+
+4
+00:00:23,270 --> 00:00:23,770
+isso.
+
+5
+00:00:23,840 --> 00:00:25,220
+Queremos colocar aqui
+
+6
+00:00:29,040 --> 00:00:34,760
+estranhos então na verdade o que eu quero falar para vocês é o seguinte dentro da p destruímos você
+
+7
+00:00:34,760 --> 00:00:42,800
+tem uma série de operadores são mais de 30 métodos e comportamentos que estão disponíveis quando você
+
+8
+00:00:42,800 --> 00:00:47,780
+tem um instrumento de disposição na parte de uma lista por exemplo ou seja uma sequência de objeto para
+
+9
+00:00:47,780 --> 00:00:50,030
+Você Trabalhar com essa sequência.
+
+10
+00:00:50,030 --> 00:00:56,780
+Você tem alguns metros sei lá sete metros estáticos que você pode criar um estilingue você pode fazer
+
+11
+00:00:56,780 --> 00:01:03,470
+algumas outras operações você tem uma série de operadores e operações ou de funcionalidades à sua disposição
+
+12
+00:01:03,470 --> 00:01:04,660
+para trabalhar com isto.
+
+13
+00:01:04,700 --> 00:01:08,880
+Eu quero falar um pouco do princípio por trás desses operadores.
+
+14
+00:01:09,020 --> 00:01:13,490
+Então você tem claramente três grandes grupos de operadores.
+
+15
+00:01:13,490 --> 00:01:20,840
+Você tem operações em operadores de construção que seria o Bild operador.
+
+16
+00:01:20,920 --> 00:01:27,980
+OP Nas operações de construção você tem que ter mídia antes.
+
+17
+00:01:27,980 --> 00:01:35,600
+OP ou seja operações intermediárias que você faz ali no meio certo e você tem operações terminais ou
+
+18
+00:01:35,600 --> 00:01:43,640
+seja terminal operei sete operações terminais e isso tem muito a ver como você consegue.
+
+19
+00:01:44,060 --> 00:01:50,280
+E cade a criar sequências de funcionalidades dentro dos estribos então como é que seria.
+
+20
+00:01:50,390 --> 00:01:51,980
+Para que serve cada um desses.
+
+21
+00:01:51,990 --> 00:01:57,090
+Uso as operações de bio seria a forma que você tem para criar um estranho.
+
+22
+00:01:57,200 --> 00:02:02,030
+Você pode criar este filme de algumas formas diferentes a alguns metros estáticos.
+
+23
+00:02:02,030 --> 00:02:08,750
+Você pode criar um estranho a partir de uma lista como fez no exemplo passado eu fiz aprovados pontos
+
+24
+00:02:08,750 --> 00:02:14,630
+Twin ou seja a partir do momento que você segue time eu sei que você acabou de chamar o Bild de operação
+
+25
+00:02:14,630 --> 00:02:16,440
+de construção da The Wind.
+
+26
+00:02:16,550 --> 00:02:23,030
+Ou seja a partir daquele ponto você começa a ter à sua disposição as operações intermediárias há exatamente
+
+27
+00:02:23,030 --> 00:02:29,900
+essas operações intermediárias que vai te ajudar a transformar os dados passando por várias funções
+
+28
+00:02:29,900 --> 00:02:37,010
+usando aquela ideia de compor uma função atrás da outra uma função pequena que faça Poucas Poucas e
+
+29
+00:02:37,050 --> 00:02:40,950
+tem poucas responsabilidades de preferência uma responsabilidade só.
+
+30
+00:02:41,090 --> 00:02:44,750
+E você vai encaixando essas funções até que no final você tem um soldado.
+
+31
+00:02:45,140 --> 00:02:51,530
+Então você tem essas funções intermediárias que são funções que são facilmente encadeada um atrás da
+
+32
+00:02:51,530 --> 00:02:52,300
+outra.
+
+33
+00:02:52,370 --> 00:02:57,560
+E finalmente você tem uma operação terminal lá e para que serve essa operação terminal.
+
+34
+00:02:57,560 --> 00:03:03,390
+Na verdade só volta um pouquinho essas operações intermediárias sempre retornam novas.
+
+35
+00:03:03,650 --> 00:03:09,710
+Então se eu tenho por exemplo o Metro de Bilbao então aqui inicialmente eu tenho a minha caixinha que
+
+36
+00:03:09,710 --> 00:03:15,640
+tem o processo de bilros uma vez que eu criei e misturei me o resultado dessa função isto.
+
+37
+00:03:15,760 --> 00:03:18,440
+Ou seja eu tenho monstrinhos vinha sendo gerada.
+
+38
+00:03:18,820 --> 00:03:22,250
+E aí eu vou chamar a primeira operação intermediária.
+
+39
+00:03:22,260 --> 00:03:27,470
+Então eu tenho aqui uma operação intermediária e o resultado dessa operação também vai ser construído
+
+40
+00:03:27,650 --> 00:03:30,590
+de tal forma que eu posso chamar de novo.
+
+41
+00:03:30,590 --> 00:03:37,070
+Outra operação intermediária para fazer alguma outra coisa vamos supor que eu crio aqui neste time de
+
+42
+00:03:37,070 --> 00:03:38,190
+produtos.
+
+43
+00:03:38,390 --> 00:03:44,510
+E aí no primeiro passo eu quero extrair a ideia da lista dos produtos só os preços dos produtos então
+
+44
+00:03:45,150 --> 00:03:50,690
+eu cheguei aqui como instrumento de produto saí com esse time de valores do tipo baba ovo que eu extraí
+
+45
+00:03:50,960 --> 00:03:58,840
+todos os preços dos produtos bons por aqui a partir dessa lista de preços eu quero é calcular o imposto
+
+46
+00:03:58,840 --> 00:04:05,450
+e todos esses preços então vou sair com outra lista de da ABL só que agora com os preços como com o
+
+47
+00:04:05,450 --> 00:04:12,950
+imposto e aí sempre que você chamar a operação intermediária você vai gerar um novo estrume de tal forma
+
+48
+00:04:13,340 --> 00:04:21,610
+que todas essas 30 ou mais operações que você tem à sua disposição métodos e sete métodos estático que
+
+49
+00:04:21,650 --> 00:04:27,980
+você tem lá certa na sua API você vai ter esses métodos à disposição principalmente esses métodos a
+
+50
+00:04:27,980 --> 00:04:28,920
+que distância.
+
+51
+00:04:29,130 --> 00:04:33,960
+Porquê uma operação dessa intermediária vai sempre gerar outra.
+
+52
+00:04:34,010 --> 00:04:39,440
+O outro extremo é que você pode usar outro operador intermediário que vai gerar outros sim você vai
+
+53
+00:04:39,440 --> 00:04:46,640
+encaixando uma chamada na outra pra você transformando seus dados de tal forma que no final você vai
+
+54
+00:04:46,640 --> 00:04:47,240
+chegar.
+
+55
+00:04:47,240 --> 00:04:54,260
+Por exemplo você vai ter que outra operação intermediária e no final você vai ter aqui uma operação
+
+56
+00:04:54,260 --> 00:05:01,580
+terminal que é uma operação terminal essa operação terminal pode gerar algo diferente de justo no final
+
+57
+00:05:01,850 --> 00:05:08,480
+eu quero pegar todos os preços com imposto Eu quero somar todos esses preços dividir pela quantidade
+
+58
+00:05:08,480 --> 00:05:13,090
+gerar uma média o por exemplo a média dos preços do carrinho de compra.
+
+59
+00:05:13,520 --> 00:05:18,980
+Então você pode no final gerar um valor estipulado ou não é um estranho como sendo instruído eu não
+
+60
+00:05:18,980 --> 00:05:22,510
+posso continuar acadiano como se fosse um sonho.
+
+61
+00:05:22,520 --> 00:05:29,940
+Na verdade você cria este filme no primeiro momento você tem essas operações intermediárias vai encaixando
+
+62
+00:05:29,940 --> 00:05:35,730
+várias chamadas e no final você tem uma operação terminal que pode gerar alguma coisa por exemplo gerar
+
+63
+00:05:36,060 --> 00:05:41,550
+um número ou gerar um string e gerar uma lista gerar qualquer outra coisa que você queira como também
+
+64
+00:05:41,550 --> 00:05:43,430
+pode não retornar absolutamente nada.
+
+65
+00:05:43,430 --> 00:05:49,780
+Simplesmente você terminou ali a operação sem necessariamente ter algo no final para ser gerado.
+
+66
+00:05:49,800 --> 00:05:56,250
+Você durante os processos intermediários você já fez tudo o que precisava para fazer o seu algoritmo
+
+67
+00:05:56,250 --> 00:06:02,540
+certo então a Operação Terminal e a ponta final do processo gerar alguma coisa ou não.
+
+68
+00:06:02,580 --> 00:06:09,450
+O Bild é o início no processo e as operações intermediárias são exatamente essas operações que podem
+
+69
+00:06:09,450 --> 00:06:16,380
+ser cadeados em uma sequência de um passo dois passos ou quantos passos você precisar para implementar
+
+70
+00:06:16,380 --> 00:06:17,530
+o algoritmo certo.
+
+71
+00:06:17,550 --> 00:06:24,060
+é muito importante ter a noção que você tem esses três tipos básicos de operações no início você tem
+
+72
+00:06:24,060 --> 00:06:26,040
+um meio ali que você pode encaixar.
+
+73
+00:06:26,100 --> 00:06:31,620
+Usando esse princípio da composição de funções chamado uma função depois da outra e no final você tem
+
+74
+00:06:32,010 --> 00:06:35,680
+uma operação terminal que gera o dado final que você quer.
+
+75
+00:06:35,920 --> 00:06:40,090
+Uma outra questão importante também com relação aos destruímos você tem.
+
+76
+00:06:40,350 --> 00:06:49,290
+Você pode ter historinhas ordenadas ou ordenadas certo ou seja que tem uma sequência a ser seguida por
+
+77
+00:06:49,290 --> 00:06:55,110
+exemplo e você pega uma lista e você pega a extremo dessa lista você vai seguir uma sequência ordenada
+
+78
+00:06:55,140 --> 00:06:59,120
+e às vezes você tem sequências não ordenadas.
+
+79
+00:06:59,130 --> 00:07:05,640
+Essas sequências não ordenadas são sequências que não necessariamente vai seguir uma ordem específica
+
+80
+00:07:05,640 --> 00:07:10,560
+certo então uma sequência na ordem nada pode simplesmente gerando os valores sem necessariamente ter
+
+81
+00:07:10,560 --> 00:07:13,410
+uma sequência a ser respeitada.
+
+82
+00:07:13,410 --> 00:07:20,130
+Outra questão também importante além de você ter sequências tuítes ordenados e estranhos não ordenados
+
+83
+00:07:20,130 --> 00:07:22,320
+você tem o que você tem.
+
+84
+00:07:22,360 --> 00:07:29,630
+Em série sequencial ou seja você tem um astro em que ela é o dado é processado de forma sequencial sem
+
+85
+00:07:29,660 --> 00:07:35,880
+nenhum dado pelo processo um determinado se tem um extremo de produtos que você quer percorrer todos
+
+86
+00:07:35,880 --> 00:07:41,970
+os elementos fazem algum tipo de processamento você passa no primeiro produto aplica o processamento
+
+87
+00:07:41,970 --> 00:07:47,850
+terminou passa pelo segundo produto aplica o processamento quando terminar passa para o terceiro ou
+
+88
+00:07:47,850 --> 00:07:54,360
+seja ele vai processar este time de forma sequencial certo como se fosse apenas uma única thread processou
+
+89
+00:07:54,360 --> 00:08:00,030
+o primeiro produto passa para o segundo processou o segundo produto passa para o terceiro e aí você
+
+90
+00:08:00,030 --> 00:08:07,200
+vai processando os dados até chegar no último produto e você também tem o paralelo isto é estranho qualquer
+
+91
+00:08:08,590 --> 00:08:14,760
+e inclusive quando a gente usou o cujo cúmplice você viu que time e acho que a gente tem paralelo nesse
+
+92
+00:08:14,760 --> 00:08:21,540
+caso porque você tem uma lista de dez elementos é possível que internamente ele crie várias linhas de
+
+93
+00:08:21,540 --> 00:08:29,460
+execução e processando esses dados de forma paralela e essa é uma das grandes vantagens de trabalhar
+
+94
+00:08:29,460 --> 00:08:36,510
+com isto porque de uma forma muito simples você consegue ter linhas de processamento independentes sem
+
+95
+00:08:36,510 --> 00:08:41,790
+que necessariamente você precisa se preocupar muito de como isso vai ser implementado se alguma coisa
+
+96
+00:08:41,790 --> 00:08:46,740
+do tipo ou no final você tem o soldado processado de uma forma muito mais abusado.
+
+97
+00:08:47,160 --> 00:08:51,060
+Então é possível que seu negócio não tenha problema.
+
+98
+00:08:51,060 --> 00:08:56,790
+Você por exemplo processar esses dados de forma paralela e que você tem um ganho de desempenho muito
+
+99
+00:08:56,790 --> 00:09:02,610
+grande porque facilmente você criou paralelas Twin ou seja um time que roda o processamento em paralelo
+
+100
+00:09:02,820 --> 00:09:09,300
+e você consegue ter um ganho de desempenho de transformar esses dados com muito provavelmente em cada
+
+101
+00:09:09,300 --> 00:09:11,730
+processamento desse que é independente.
+
+102
+00:09:12,090 --> 00:09:18,390
+Então se você tem mil elementos dentro da sua da sua historia você pode pegar parte desses elementos
+
+103
+00:09:18,420 --> 00:09:21,000
+e quebrar múltiplos processadores por exemplo.
+
+104
+00:09:21,360 --> 00:09:26,760
+Mas quem vai fazer toda essa complexidade por baixo de como dividir esses dados de forma que o processamento
+
+105
+00:09:26,760 --> 00:09:32,370
+fique mais rápido isso é feito internamente e é um dos benefícios que você tem no uso destruímos.
+
+106
+00:09:32,370 --> 00:09:38,790
+Então você tem ciúmes sequenciais você tem historinhas paralelas você tem estranhos que seguem uma ordem
+
+107
+00:09:38,790 --> 00:09:44,040
+pré definida ou estrelas que não são ordenadas que não tenham ordem predefinida.
+
+108
+00:09:44,040 --> 00:09:50,280
+E você tem essas operações aqui exceto que eu falei operações de construção operações intermediárias
+
+109
+00:09:50,280 --> 00:09:55,090
+que seguem essa ideia de um cadeado que sempre geram como resultado um ou outro Twin.
+
+110
+00:09:55,290 --> 00:10:02,180
+Ou seja você tem um conjunto de dados faz um processamento gerou um novo conjunto de dados te destruindo
+
+111
+00:10:02,190 --> 00:10:08,310
+que você pode chamar novos processamentos e aí em acadiano várias chamadas e no final você tem um dado
+
+112
+00:10:08,310 --> 00:10:15,210
+gerado seja uma operação terminal e essas operações aqui de construção e operações terminais estão dentro
+
+113
+00:10:15,210 --> 00:10:18,920
+dessas várias operações que você tem à disposição.
+
+114
+00:10:19,050 --> 00:10:26,220
+Meu objetivo nesse capítulo não é tanto falar sobre todas essas operações é muito mais te dar a ideia
+
+115
+00:10:26,220 --> 00:10:32,720
+é o princípio de como você usar isso na e aí no momento que você já sabe usar operações básicas sabe
+
+116
+00:10:32,720 --> 00:10:38,720
+como é o funcionamento e a lógica do funcionamento dessas operações para você pegar isso e extrapolar
+
+117
+00:10:38,860 --> 00:10:43,880
+para as outras operações que estarão presentes dentro da historia me vai ser muito mais fácil porque
+
+118
+00:10:43,880 --> 00:10:45,470
+o princípio já foi aprendido.
+
+119
+00:10:45,470 --> 00:10:49,970
+Então o foco no princípio é muito importante entender a mecânica e a lógica.
+
+120
+00:10:49,970 --> 00:10:51,860
+Como você pode usar isso ao seu favor.
+
+121
+00:10:51,860 --> 00:10:58,280
+é muito importante é exatamente o foco que embora a gente vá ver assim algumas possibilidades de operações
+
+122
+00:10:58,280 --> 00:11:03,440
+dentro desse capital fico por aqui nessa aula teórica para que ter ficado claro o que eu quis passar
+
+123
+00:11:03,440 --> 00:11:06,440
+para vocês na próxima aula a gente vai para um exemplo prático até lá.

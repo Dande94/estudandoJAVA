@@ -1,0 +1,67 @@
+1
+00:00:00,100 --> 00:00:03,600
+Só na próxima aula vou mostrar para vocês um vídeo.
+
+2
+00:00:03,600 --> 00:00:06,010
+Inclusive eu estou bem mais novo.
+
+3
+00:00:06,100 --> 00:00:08,080
+Um vídeo gravado alguns anos atrás.
+
+4
+00:00:08,100 --> 00:00:12,960
+Foi o segundo vídeo que eu gravei na vida e sim que eu voltei para o público.
+
+5
+00:00:12,960 --> 00:00:16,790
+Meu primeiro vídeo foi sobre um padrão de projeto chamado observa.
+
+6
+00:00:16,920 --> 00:00:23,750
+E esse foi o segundo vídeo que eu falei sobre o padrão arquitetural MVC Model e o controle.
+
+7
+00:00:23,760 --> 00:00:30,720
+Esse é o vídeo que ele tem um caráter bem visual eu mostro de forma bem detalhada como funciona um padrão
+
+8
+00:00:30,780 --> 00:00:37,180
+de projeto falo de cada um das camadas no molde do vídeo controle quais são as responsabilidades e ele
+
+9
+00:00:37,200 --> 00:00:45,360
+mostra a vocês alguns dos possíveis cenários do fluxo é uma aplicação quando uma requisição chega para
+
+10
+00:00:45,360 --> 00:00:51,090
+adentrar no controle e como é que é feito todo o processo o fluxo de atendimento ou de coaching.
+
+11
+00:00:51,240 --> 00:00:57,340
+Na próxima aula depois dessa aula que eu vou liberar na outra eu vou tentar só finalizar esse conceito
+
+12
+00:00:57,470 --> 00:00:59,990
+vê se dentro do contexto do Spring Butt.
+
+13
+00:01:00,000 --> 00:01:05,430
+Eu acho que a explicação vai ficar muito clara no vídeo ele é bem explicativo bem visual.
+
+14
+00:01:05,430 --> 00:01:10,680
+Eu tenho certeza que vocês vão conseguir entender muito mais sobre o padrão MVC a partir desse vídeo.
+
+15
+00:01:10,710 --> 00:01:15,810
+No começo do vídeo tem um trecho do filme Karatê Kid só para dar um contextualizado acho que vai ficar
+
+16
+00:01:15,810 --> 00:01:21,210
+bem legal para vocês assistiram a um vídeo mais antigo mais super atual e logo na sequência a gente
+
+17
+00:01:21,210 --> 00:01:25,560
+retoma contextualizando vc dentro no contexto Bisping embute.

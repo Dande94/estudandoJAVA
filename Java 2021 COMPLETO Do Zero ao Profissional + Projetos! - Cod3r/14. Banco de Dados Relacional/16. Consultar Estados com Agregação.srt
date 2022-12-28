@@ -1,0 +1,195 @@
+1
+00:00:00,330 --> 00:00:08,500
+O tema de consulta é um termo bastante rico e fazer Selecta em SQL é algo que pode gerar consultas complexas
+
+2
+00:00:08,510 --> 00:00:13,810
+mas não uso em outras consultas aqui e consultas que vão juntar mais uma tabela.
+
+3
+00:00:13,830 --> 00:00:19,300
+Nesse exemplo quero trabalhar com vocês um conceito também muito interessante para o conceito de agregar
+
+4
+00:00:19,300 --> 00:00:25,530
+você pegar várias linhas ou seja várias tuplas e agregar em uma única num único registro e fazer algum
+
+5
+00:00:25,530 --> 00:00:28,080
+tipo de agregação de dados.
+
+6
+00:00:28,080 --> 00:00:34,680
+No caso aqui eu vou usar um som para que a gente possa pegar população somada de todos os estados de
+
+7
+00:00:34,680 --> 00:00:38,470
+uma determinada região ou seja agrupar os dados por região.
+
+8
+00:00:38,550 --> 00:00:44,070
+Somando toda a população para que gente possa ter uma consulta agregada então para isso eu vou clicar
+
+9
+00:00:44,070 --> 00:00:51,480
+com o botão direito banco relacional meu filho o nome do arquivo sql vai se consultar com agregação
+
+10
+00:00:51,480 --> 00:00:57,450
+ponto SQL e aqui essa consulta me ensinou sobre a gente um pouquinho nesse processo então eu vou colocar
+
+11
+00:00:57,450 --> 00:01:04,380
+que eu sei Lex vou colocar como a primeira coluna religião e religião aí eu coloquei já um inglês pra
+
+12
+00:01:04,380 --> 00:01:05,680
+colocar aqui com acento.
+
+13
+00:01:05,700 --> 00:01:10,540
+Poderia ter feito isso mas não tem muito a ver com a agregação não só pra também usar de novo eles que
+
+14
+00:01:10,560 --> 00:01:18,330
+já comentei anteriormente a lei é geral vou colocar aqui são que a função de somar ele vai somar à população
+
+15
+00:01:18,390 --> 00:01:21,040
+que é um campo que eu vou selecionar a tabela Estado.
+
+16
+00:01:21,170 --> 00:01:26,580
+Eu já vou também colocar aqui o chamado Total então essa vão ser as duas colunas que eu vou usar.
+
+17
+00:01:26,910 --> 00:01:29,110
+Nesse caso eu vou colocar from estados.
+
+18
+00:01:29,340 --> 00:01:33,720
+Vou usar um grupo Bay que é o grupo Back que vai fazer com que ele agrupa os dados.
+
+19
+00:01:33,990 --> 00:01:36,510
+Então eu vou agrupar coloquei por região.
+
+20
+00:01:36,560 --> 00:01:42,270
+E como é que ele vai resolver a população população ele vai resolver de forma somando os dados pra que
+
+21
+00:01:42,270 --> 00:01:44,280
+ele possa agrupar por região.
+
+22
+00:01:44,280 --> 00:01:50,130
+Então como eu estou agrupando por região eu preciso colocar a região em uma das colunas do meu Salete
+
+23
+00:01:50,130 --> 00:01:55,310
+então vou selecionar os estados agrupando por região somando a população.
+
+24
+00:01:55,320 --> 00:01:59,760
+Então vou usar só uma com uma função agregadora e ele vai agregar a soma.
+
+25
+00:01:59,760 --> 00:02:06,120
+A partir da região então vai usar a região como sendo um critério também de agregação que ele vai agregar
+
+26
+00:02:06,120 --> 00:02:07,320
+por região.
+
+27
+00:02:07,320 --> 00:02:12,060
+Por isso eu coloquei a região aqui por isso que eu usei o bairro como sendo a região.
+
+28
+00:02:12,330 --> 00:02:18,400
+Então finalmente eu posso usar também associado ao do eBay para que ele possa colocar o total de forma
+
+29
+00:02:18,400 --> 00:02:23,830
+decrescente ou seja na maior região que tem mais população para a região que tem menos população.
+
+30
+00:02:23,940 --> 00:02:31,740
+Então selecionado isso aqui como de Sirte e executando você vai ver que ele trouxe à Região Sudeste
+
+31
+00:02:31,840 --> 00:02:42,160
+86 milhões nordeste e 57 milhões Sul 29 milhões de norte 17 milhões e Centro-Oeste 15 milhões.
+
+32
+00:02:42,250 --> 00:02:48,250
+E se você quiser se agrupar por exemplo a população inteira sem diferenciar por região simplesmente
+
+33
+00:02:48,280 --> 00:02:51,580
+você poderia copiar aqui essa consulta embaixo.
+
+34
+00:02:51,670 --> 00:02:58,630
+Vou tirar a região aqui e vou tirar o grupo vai eu vou tirar o bairro também então só executando isso
+
+35
+00:02:58,890 --> 00:03:07,170
+com uma cirurgia e você vai ver que o resultado vai ser total 207 milhões pontos 66 mil habitantes.
+
+36
+00:03:07,240 --> 00:03:11,920
+Ou seja nesse caso eu não fiz nenhuma agrupamento simplesmente usei uma função agregadora que pegou
+
+37
+00:03:11,920 --> 00:03:18,250
+todos os dados de determinada coluna e somou poderia pagar aqui por exemplo a função Avenger que seria
+
+38
+00:03:18,250 --> 00:03:18,950
+a média.
+
+39
+00:03:18,940 --> 00:03:25,380
+Ele vai dizer eu compro o chute e que a média da população por estado só pegasse em toda a população
+
+40
+00:03:25,490 --> 00:03:28,190
+dividisse de forma igualitária para todos os estados.
+
+41
+00:03:28,270 --> 00:03:33,550
+Eu teria uma população de 7 milhões 690 mil habitantes por estado.
+
+42
+00:03:33,850 --> 00:03:38,450
+Então eu poderia usar uma outra função agregadora nesse caso eles somam outro na população de vídeo
+
+43
+00:03:38,460 --> 00:03:43,750
+pela quantidade de linhas pra saber a média também ou a função disponível no mais que ela é tanto a
+
+44
+00:03:43,750 --> 00:03:49,300
+função soma como a função média mas está disponível em vários outros bancos de dados e se você não vai
+
+45
+00:03:49,300 --> 00:03:55,330
+ter muitos problemas certos só uma chance pra você uma agregação aqui por região não usamos globais
+
+46
+00:03:55,380 --> 00:04:01,270
+e essa outra Eu simplesmente peguei todos os bancos sou Mei e automaticamente na verdade o banco fez
+
+47
+00:04:01,270 --> 00:04:06,490
+isso pra mim não somou todos os índices de população e dividiu pela quantidade de linhas pra da média
+
+48
+00:04:06,490 --> 00:04:10,820
+da população por estado o que seria exatamente essa a média que a gente conseguiu obter aqui.
+
+49
+00:04:10,980 --> 00:04:15,770
+Então na próxima de espera pra gente criar uma nova tabela que versa a tabela de cidades e espero lá.

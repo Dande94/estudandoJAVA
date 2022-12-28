@@ -1,0 +1,791 @@
+1
+00:00:00,360 --> 00:00:06,120
+Agora vão achar pra vocês essa paixão um pouco mais mecânica do encapsulamento que é o uso das palavras
+
+2
+00:00:06,120 --> 00:00:12,780
+reservadas para entender quando uma coisa é visível ou não tá nesse código eu não vou nem executar nada
+
+3
+00:00:12,780 --> 00:00:15,670
+só vai ser para a gente ver o que é que gera aí.
+
+4
+00:00:15,770 --> 00:00:21,900
+Ok se você tentar acessar um atributo um comportamento que não é visível por conta encapsulamento isso
+
+5
+00:00:21,900 --> 00:00:23,850
+vai gerar um erro de compilação.
+
+6
+00:00:24,030 --> 00:00:27,400
+E a gente vai fazer de tal forma que se acontecer a gente comenta.
+
+7
+00:00:27,450 --> 00:00:33,180
+Se funcionar a gente TX como algo que significa com classe consegue B um atributo de outra classe.
+
+8
+00:00:33,450 --> 00:00:39,720
+Então pra isso nós vamos criar uma nova nova classe em que eu vou chamar aqui na verdade vou chamar
+
+9
+00:00:39,720 --> 00:00:41,050
+o nome das pessoas que o definem.
+
+10
+00:00:41,050 --> 00:00:50,530
+Então foi o Paulo e o Paulo ele faz parte do pacote que eu vou chamar aqui ou em cápsula batendo ponto
+
+11
+00:00:50,870 --> 00:00:58,530
+casa eu vou ter dois pacotes então vou chamar aqui casa a colocar o A maiúsculo certo e vou criar um
+
+12
+00:00:58,530 --> 00:01:05,280
+segundo pacote aqui que vai ser o seguinte vou criar outra pessoa vai ser o Pedro que vai estar na casa
+
+13
+00:01:05,280 --> 00:01:12,630
+dele então o Pedro vai tá na casa B de tal forma que eu tenho a casa e a casa bem então aqui o Paulo
+
+14
+00:01:13,110 --> 00:01:20,070
+eu disse que seguindo o exemplo que eu desenhava passado então o Paulo vai ter a Ana que vai estar no
+
+15
+00:01:20,090 --> 00:01:30,540
+mesmo pacote e na Casa B eu voltei a quarta pessoa que vai ser a Júlia então o pacote ele tem o propósito
+
+16
+00:01:30,540 --> 00:01:32,300
+de organizar o seu código.
+
+17
+00:01:32,310 --> 00:01:39,630
+Tem muito forte mente assim como a pasta organiza os seus documentos as suas músicas tudo isso pode
+
+18
+00:01:39,630 --> 00:01:44,270
+ser organizados em pastas é uma forma hierárquica e o pacote também.
+
+19
+00:01:44,440 --> 00:01:52,200
+Além da proposta de organizar ele tem um propósito de trazer essa questão da proximidade quanto uma
+
+20
+00:01:52,200 --> 00:01:54,360
+classe consegue e vem de outra classe.
+
+21
+00:01:54,360 --> 00:02:00,150
+Tem a ver também com essa questão dos pacotes ou seja a forma como o Java lida com encapsulamento.
+
+22
+00:02:00,150 --> 00:02:05,430
+Tenho uma relação muito forte com sistemas de pacotes exatamente que eu expliquei no passado em outra
+
+23
+00:02:05,440 --> 00:02:06,160
+aula também.
+
+24
+00:02:06,420 --> 00:02:08,460
+E agora quero mostrar na prática pra você.
+
+25
+00:02:08,840 --> 00:02:15,660
+Então por exemplo a ANA vai ter aqui um atributo eu fiz aqui um exemplo colocando os atributos dentro
+
+26
+00:02:16,020 --> 00:02:21,440
+da área do Paulo vou colocar na área depois a gente pode ver se é necessário criar um ou outro e outro
+
+27
+00:02:21,450 --> 00:02:23,490
+acolá certo estão proibidos.
+
+28
+00:02:23,510 --> 00:02:34,290
+A ANA vai ter aqui um atributo string que eu vou chamar aqui de segredo e sei lá um segredo qualquer
+
+29
+00:02:34,290 --> 00:02:37,410
+aqui pois eu penso o segredo que boto um valor certo.
+
+30
+00:02:37,440 --> 00:02:43,560
+Todos os atributos eu vou trabalhar com atributos mais isso também serve para métodos e serve pra qualquer
+
+31
+00:02:43,560 --> 00:02:44,260
+outra coisa.
+
+32
+00:02:44,260 --> 00:02:50,430
+Tanto os níveis de visibilidade têm as mesmas regras do atributo e o método então quando faz eu vou
+
+33
+00:02:50,430 --> 00:02:52,050
+trabalhar sempre com atributos.
+
+34
+00:02:52,050 --> 00:03:01,290
+Então nesse caso o segredo é privado eu vou criar o segundo atributo por exemplo sei lá que faço dentro
+
+35
+00:03:02,340 --> 00:03:04,260
+de casa.
+
+36
+00:03:04,260 --> 00:03:07,690
+Nesse caso faço dentro de casa por exemplo.
+
+37
+00:03:07,770 --> 00:03:19,660
+Nesse caso o que tem um nível de visibilidade pacote aqui ou seja vou colocar aqui Defour ou corte.
+
+38
+00:03:19,740 --> 00:03:25,050
+Ou seja quando você não tem nenhuma palavra reservada nenhum modificador de acesso é usado significa
+
+39
+00:03:25,050 --> 00:03:26,890
+que é de pacote.
+
+40
+00:03:27,270 --> 00:03:34,990
+O próximo nível seria o protected o protesto é transmitido por herança então por exemplo o craque o
+
+41
+00:03:34,990 --> 00:03:39,880
+string em forma de falar.
+
+42
+00:03:40,420 --> 00:03:46,640
+Porque forma de falar tanto pode influenciar a pessoa que mora na mesma casa porque o atributo Protect
+
+43
+00:03:46,740 --> 00:03:49,220
+é visível também para quem mora na mesma casa.
+
+44
+00:03:49,380 --> 00:03:56,490
+Como também é transmitido por herança e por último algo que é público e que vai estar disponível lá
+
+45
+00:03:56,520 --> 00:04:04,240
+todos sabem que eu vou colocar também alguma informação de certo modo percebida nos valores não mas
+
+46
+00:04:04,560 --> 00:04:10,360
+o que é mais importante é saber o que é que pode ou não ser acessado a partir de outras classes Primeira
+
+47
+00:04:10,380 --> 00:04:12,210
+Classe que a gente vai testar o seguinte.
+
+48
+00:04:12,210 --> 00:04:16,950
+Aqui está gera uma advertência porque esse é um valor privado e não está sendo usado dentro da classe
+
+49
+00:04:16,950 --> 00:04:20,730
+ano com o valor privado só pode ser usado pela própria classe Ana.
+
+50
+00:04:21,120 --> 00:04:26,110
+Então para a gente resolver isso para não ficar aqui advertência eu vou colocar para ele dar um supresa
+
+51
+00:04:26,250 --> 00:04:28,040
+Oni e usa.
+
+52
+00:04:28,040 --> 00:04:33,990
+Ou seja ele vou suprimir a advertência que esse é um atributo que não está sendo usado só para não gerar
+
+53
+00:04:33,990 --> 00:04:35,060
+nenhum problema.
+
+54
+00:04:35,070 --> 00:04:39,300
+O primeiro ou o primeiro teste que eu quero fazer é com relação ao Paulo.
+
+55
+00:04:39,450 --> 00:04:41,920
+Que é que o Paulo consegue enxergar.
+
+56
+00:04:42,120 --> 00:04:46,800
+Levando em consideração que o Paulo está morando na mesma casa ou seja no mesmo pacote.
+
+57
+00:04:47,050 --> 00:04:57,800
+é pra fazer isso eu vou criar um método chamado teste de acessos e aqui dentro eu vou distanciar o Ana
+
+58
+00:04:57,990 --> 00:05:06,340
+e vou mostrar pra vocês o Paulo consegue acessar então coloca naquele ano os boxes da esposa dele recebe
+
+59
+00:05:06,340 --> 00:05:07,400
+Indio.
+
+60
+00:05:08,520 --> 00:05:14,130
+E aqui eu posso até colocar como sinal atributo distância não tem problema nenhum ou mesmo atributo
+
+61
+00:05:14,130 --> 00:05:14,940
+local.
+
+62
+00:05:15,030 --> 00:05:20,310
+A função baixa acesso então aqui dentro para a gente fazer o seguinte ao System Audio print Alien.
+
+63
+00:05:20,340 --> 00:05:27,960
+Vou tentar acessar os quatro atributos da ANA que é segredo faço bem de casa forma de falar e todos
+
+64
+00:05:27,960 --> 00:05:28,630
+sabem.
+
+65
+00:05:28,730 --> 00:05:34,010
+Certo seguindo na ordem dos níveis de visibilidade é tão só copiar aqui um segredo.
+
+66
+00:05:34,410 --> 00:05:37,680
+Depois eu tenho o faço dentro de casa que é outro atributo.
+
+67
+00:05:37,680 --> 00:05:39,730
+Vou tirar esse 15 parte final.
+
+68
+00:05:39,990 --> 00:05:43,640
+Vou tirar isso aqui forma de falar também.
+
+69
+00:05:43,720 --> 00:05:49,590
+Outro atributo e finalmente todos sabem do quarto atributo que é o público.
+
+70
+00:05:49,800 --> 00:05:56,490
+Então o que eu posso fazer alguma coisa do tipo vou comentar essas linhas aqui ou comentar isso só pra
+
+71
+00:05:56,490 --> 00:06:00,640
+ter como referência eu vou copiar nesses quatro atributos para as outras classes não fazer o seguinte
+
+72
+00:06:00,660 --> 00:06:03,780
+só que esposa ponto.
+
+73
+00:06:04,410 --> 00:06:07,740
+Segredo Consigo ou não consigo acessar.
+
+74
+00:06:07,740 --> 00:06:14,250
+Pelo visto nao qualquer privado ou duplicar isso vou pagar aqui ou faço dentro de casa eu vou conseguir
+
+75
+00:06:14,250 --> 00:06:14,980
+acessar.
+
+76
+00:06:15,030 --> 00:06:20,250
+Sim porque eu moro na mesma casa então se ela falha alguma coisa dentro de casa eu consigo ver ou seja
+
+77
+00:06:20,280 --> 00:06:25,050
+o segundo nível mais restrito que é o nível da visibilidade no pacote.
+
+78
+00:06:25,050 --> 00:06:32,070
+Forma de falar eu consigo vê sim porque não porque eu herdou da era mas porque eu moro na mesma casa
+
+79
+00:06:32,370 --> 00:06:38,850
+eu também consigo ver os atributos protected dentro do mesmo pacote e finalmente todos sabem o que é
+
+80
+00:06:38,850 --> 00:06:44,610
+público então não tem porque eu não consegui ver algo que está público já com amor na mesma casa mas
+
+81
+00:06:44,610 --> 00:06:50,340
+independente disso algo público será visível por todo o mundo a única coisa que eu não consigo acessar
+
+82
+00:06:50,730 --> 00:06:51,480
+é o segredo.
+
+83
+00:06:51,540 --> 00:06:56,070
+O que é segredo é algo privado somente Ana conhece o segredo dela.
+
+84
+00:06:56,070 --> 00:07:02,250
+Então esse mês moram na mesma casa 7 mesmo tendo uma relação de proximidade grande não consegue ver
+
+85
+00:07:02,250 --> 00:07:04,130
+isso porque é algo privado.
+
+86
+00:07:04,150 --> 00:07:11,600
+Outro teste para a gente fazer o seguinte eu disse em nosso exemplo que deixou quem é aquela da ANA.
+
+87
+00:07:11,850 --> 00:07:17,150
+O Pedro era da ANA então vou passar para o Pedro que tem o nível de proximidade maior do que a Júlia
+
+88
+00:07:17,160 --> 00:07:25,710
+certo então Pedro ele tens tato só para a gente fazer alguns exemplos aqui e a gente entender um pouco
+
+89
+00:07:25,710 --> 00:07:32,840
+mais o que está acontecendo nesse caso como a ANA está em outro pacote eu preciso importar então ô encapsulamento
+
+90
+00:07:32,940 --> 00:07:34,820
+do CASA PONTO Ana.
+
+91
+00:07:34,920 --> 00:07:36,420
+E aí sim não consigo.
+
+92
+00:07:36,450 --> 00:07:42,690
+E aqui eu vou jogar o teste acesso para a gente entender um pouquinho mais o que é que a gente vai conseguir
+
+93
+00:07:42,690 --> 00:07:44,410
+acessar em relação ao ano.
+
+94
+00:07:44,450 --> 00:07:51,450
+Se eu criar aqui eu vou colocar dentro do Paulo eu instancia a Ana e eu vou distanciar na nova lista
+
+95
+00:07:51,570 --> 00:07:52,570
+do Pedro.
+
+96
+00:07:53,010 --> 00:07:59,160
+Eu vou fazer o seguinte eu vou criar aqui minha esposa na verdade eu vou criar aqui como se fosse man.
+
+97
+00:07:59,930 --> 00:08:07,920
+Eu vou fazer o seguinte Amanhã ponto faço nem casa e encontrou um forma de falar mal como todos sabem
+
+98
+00:08:08,300 --> 00:08:09,770
+e finalmente mãe e ponto.
+
+99
+00:08:09,770 --> 00:08:10,440
+Segredo.
+
+100
+00:08:11,010 --> 00:08:18,900
+Olhando pra cá e você sabe que os atributos protected são transmitidos por herança os atributos que
+
+101
+00:08:18,900 --> 00:08:24,810
+são a visibilidade o pacote não é transmitido por herança se não tiver o mesmo pacote e os atributos
+
+102
+00:08:24,810 --> 00:08:28,170
+públicos também são transmitidos por herança.
+
+103
+00:08:28,470 --> 00:08:35,010
+Mas aqui aconteceu algo estranho que algo estranho eu não consigo acessar o segredo deles até aí tudo
+
+104
+00:08:35,010 --> 00:08:38,800
+bem a gente sabe que o privado não vai ser acessado mesmo então vou comentar.
+
+105
+00:08:39,420 --> 00:08:45,600
+Eu não consigo acessar o faço dentro de casa ok a gente sabe que também não vai conseguir porque sei
+
+106
+00:08:45,930 --> 00:08:51,510
+porque eu faço bem de casa só é visível para quem mora junto no mesmo pacote ou seja visibilidade o
+
+107
+00:08:51,510 --> 00:08:55,330
+pacote não é transmitido por herança quando está em outro pacote.
+
+108
+00:08:55,440 --> 00:08:58,220
+Até aí tudo bem a gente sabe que isso não vai acontecer.
+
+109
+00:08:58,310 --> 00:09:05,780
+Mas muito estranho o fato de não conseguir acessar o forma de falar já que o forma de falar ele é protected.
+
+110
+00:09:05,790 --> 00:09:11,090
+Então se clicar aqui você vai ver que ele é protected e ele é transmitido por herança.
+
+111
+00:09:11,100 --> 00:09:15,320
+Existe sim uma herança entre o Pedro e a Ana.
+
+112
+00:09:15,330 --> 00:09:17,790
+Como é que isso não é transmitido por herança.
+
+113
+00:09:17,800 --> 00:09:18,360
+Porquê.
+
+114
+00:09:18,360 --> 00:09:20,480
+Da forma que eu estou tentando acessar.
+
+115
+00:09:20,960 --> 00:09:27,330
+Eu estou tentando acessar partes de uma instância da ANA e não a parte da herança para eu acessar uma
+
+116
+00:09:27,330 --> 00:09:28,290
+parte da herança.
+
+117
+00:09:28,290 --> 00:09:35,430
+Eu não preciso criar uma arapuca porque o Pedro era Diana então todo o código que será realizado será
+
+118
+00:09:35,430 --> 00:09:40,040
+via herança e não a partir da instância de alguma coisa como se fosse uma composição.
+
+119
+00:09:40,410 --> 00:09:48,120
+Então aqui eu vou tirar amanhã e vou simplesmente tirar o atributo mãe e acessar o fórum de falar diretamente
+
+120
+00:09:48,120 --> 00:09:52,420
+da mesma forma que eu possa acessar o todos sabem diretamente.
+
+121
+00:09:52,450 --> 00:09:52,900
+Quê.
+
+122
+00:09:53,220 --> 00:10:02,150
+Porque eu recebi esses atributos por herança e se pudesse comentar isso aqui será que eu não vou receber
+
+123
+00:10:02,150 --> 00:10:06,640
+o faço dentro de casa por herança e muito menos vou receber por herança.
+
+124
+00:10:07,040 --> 00:10:13,430
+O segredo ou seja o segredo é privado não é transmitido por herança e eu faço deste casa porque tenho
+
+125
+00:10:13,430 --> 00:10:19,350
+visibilidade pacote só será transmitido por herança se a classe filho estiver dentro do mesmo pacote.
+
+126
+00:10:19,970 --> 00:10:25,150
+Então aqui também não irão não conhecer bem esse que é a visibilidade para a corte não vou receber esse
+
+127
+00:10:25,500 --> 00:10:26,420
+tipo de visibilidade.
+
+128
+00:10:26,430 --> 00:10:31,660
+Segredo e é muito importante você saber que você só vai receber esse atributo protected.
+
+129
+00:10:31,820 --> 00:10:36,610
+Se você tentar acessar ele via herança e não criando instância do tipo.
+
+130
+00:10:36,710 --> 00:10:40,840
+Se você criar que uniu Ana e tentar acessar.
+
+131
+00:10:40,880 --> 00:10:45,380
+Assim com os que você acessa no atributo de um objeto você não vai conseguir.
+
+132
+00:10:45,710 --> 00:10:52,220
+A não ser que você acesse via herança como é o caso o que não recebi por herança esses atributos diretamente
+
+133
+00:10:52,220 --> 00:10:55,910
+de Ana porque Paulo tem estado e todos sabem.
+
+134
+00:10:55,910 --> 00:11:02,910
+Você também vai receber por herança e pode acessar tanto assim como se você quiser criar uma nova certo
+
+135
+00:11:03,720 --> 00:11:06,690
+Ana e tentar acessar com um atributo diário.
+
+136
+00:11:06,710 --> 00:11:08,830
+Também você vai conseguir acessar o site.
+
+137
+00:11:08,990 --> 00:11:15,410
+Então aqui eu vou tirar esses atributos e vou tirar também lá de dentro de Paulo.
+
+138
+00:11:15,410 --> 00:11:22,280
+Esses atributos aqui é o último caso que a gente vai testar é o caso da Júlia a Júlia que tem um relacionamento
+
+139
+00:11:22,280 --> 00:11:24,430
+mais distante com relação a Ana.
+
+140
+00:11:24,720 --> 00:11:25,230
+Porquê.
+
+141
+00:11:25,240 --> 00:11:31,960
+Porque não existe uma relação de herança entre Juliana e no caso a Júlia mora na casa diferente da ANA
+
+142
+00:11:31,970 --> 00:11:40,110
+então vou chamar aqui que Ana vai ser a sogra certo da da Júlia vai ter a sogra com sinal.
+
+143
+00:11:40,290 --> 00:11:46,210
+Todo esse caso me coloca aqui sogra sogra sogra e sogra.
+
+144
+00:11:46,320 --> 00:11:52,870
+Vou comentava a gente tem ideia o que é que de fato a Ana Júlia consegue acessar da ANA a Júlia com
+
+145
+00:11:52,870 --> 00:11:54,210
+o segredo da ANA.
+
+146
+00:11:54,330 --> 00:11:58,690
+Não a Júlia sabe que a sogra dela faz bem casa também não.
+
+147
+00:11:58,820 --> 00:12:01,540
+A Júlia conhece a forma de falar da ANA.
+
+148
+00:12:01,580 --> 00:12:04,710
+Também não tem não tem intimidade muito certo.
+
+149
+00:12:04,730 --> 00:12:08,290
+A única coisa que a Júlia conhece da sogra é que todo mundo sabe.
+
+150
+00:12:08,480 --> 00:12:13,230
+Então parece não ser na amizade muito amistosa entre as duas.
+
+151
+00:12:13,490 --> 00:12:19,670
+Mas de qualquer forma só para a gente entender um pouco mais do nível de visibilidade como uma classe
+
+152
+00:12:19,670 --> 00:12:25,880
+consegue enxergar a outra a partir do momento que você tem essas relações tanto de pacotes diferentes
+
+153
+00:12:26,170 --> 00:12:27,540
+como a relação de herança.
+
+154
+00:12:27,860 --> 00:12:33,950
+E você consegue ver isso claramente quando você usa o corpo completo ou então a sogra ponto que não
+
+155
+00:12:33,950 --> 00:12:34,730
+compra espaço.
+
+156
+00:12:34,730 --> 00:12:40,990
+Você vai ter apenas acesso àquilo que é público ou seja aquele que está marcado com verde.
+
+157
+00:12:41,030 --> 00:12:47,430
+Aqui na série criamos cores pra definir os níveis de visibilidade e também alguns formatos e dão o verde
+
+158
+00:12:47,460 --> 00:12:49,930
+redor redondo quer dizer nível de visibilidade pública.
+
+159
+00:12:50,000 --> 00:12:56,710
+Então nesse caso você consegue acessar olhando tirar aqui porque a gente acessou aqui sim não está olhando.
+
+160
+00:12:56,710 --> 00:13:03,950
+No caso do Pedro que era da ANA se você fizer aqui por exemplo um outro espaço você vai perceber que
+
+161
+00:13:03,950 --> 00:13:09,440
+recebeu a forma de falar aquele amarelinho que esse losango que você recebeu o Verdinho também todos
+
+162
+00:13:09,440 --> 00:13:10,920
+sabem o clone.
+
+163
+00:13:10,910 --> 00:13:13,500
+Ele também é visibilidade para o teto.
+
+164
+00:13:13,720 --> 00:13:14,980
+O é público.
+
+165
+00:13:15,010 --> 00:13:18,290
+O GATE Class é público o teste de acesso.
+
+166
+00:13:18,290 --> 00:13:19,720
+Ele é visibilidade.
+
+167
+00:13:19,780 --> 00:13:22,140
+Foi então que o forma de falar.
+
+168
+00:13:22,160 --> 00:13:25,080
+Ele é visibilidade para o teto de todos sabem público.
+
+169
+00:13:25,110 --> 00:13:31,160
+Ele vai mostrar nos níveis de visibilidade aquilo que você consegue ver usando o contra o espaço.
+
+170
+00:13:31,170 --> 00:13:37,370
+Nesse caso eu não preciso usar uma instância porque já está recebendo por herança e por último o Paulo
+
+171
+00:13:37,390 --> 00:13:40,610
+com relação a Ana que está mais próximo que a esposa dele.
+
+172
+00:13:40,610 --> 00:13:46,470
+Posso colocar aqui para padronizar também como um atributo local de teste e acessos aqui.
+
+173
+00:13:46,640 --> 00:13:52,300
+Você consegue tem mais informações então a esposa ponto você tem em face da casa.
+
+174
+00:13:52,430 --> 00:13:57,530
+Você tem forma de falar ou seja aquilo que quer a visibilidade o pacote aquilo que quer visibilidade
+
+175
+00:13:57,590 --> 00:14:02,090
+protected e aquilo que a visibilidade e o público está disponível.
+
+176
+00:14:02,090 --> 00:14:09,380
+Por conta que o Paulo está no mesmo pacote então pessoal esse aqui é a parte mais mecânica.
+
+177
+00:14:09,390 --> 00:14:15,580
+Você conheceu os níveis de visibilidade entendeu que você consegue acessar de outra classe a partir
+
+178
+00:14:15,570 --> 00:14:21,560
+do momento que você define os níveis de visibilidade e na prática quando você vai partir para exercícios
+
+179
+00:14:21,560 --> 00:14:27,750
+reais aí sim usar os níveis de visibilidade vai te ajudar a entender como encapsular melhor o seu código.
+
+180
+00:14:27,800 --> 00:14:30,560
+Mas isso com certeza vai exigir muita prática.
+
+181
+00:14:30,560 --> 00:14:36,130
+Você realmente começa a desenvolver projetos maiores para entender como aplicar os níveis de visibilidade
+
+182
+00:14:36,140 --> 00:14:37,060
+na prática.
+
+183
+00:14:37,130 --> 00:14:43,040
+Eu vou ainda falar sobre isso eu vou usar isso em exercícios mas você entende essa parte mecânica é
+
+184
+00:14:43,040 --> 00:14:45,160
+muito importante entender essa relação.
+
+185
+00:14:45,160 --> 00:14:51,020
+Eu acho que esse paralelo com os casos o nível de proximidade das classes com o que a gente sabe que
+
+186
+00:14:51,020 --> 00:14:56,270
+acontece na vida real e te ajuda a entender um pouco mais os níveis de invisibilidade suportados pelo
+
+187
+00:14:56,270 --> 00:14:56,970
+japa ainda.
+
+188
+00:14:57,050 --> 00:15:04,230
+Nós vamos ter um capítulo falando luz é esse capítulo de módulos também vai influenciar muito na questão
+
+189
+00:15:04,230 --> 00:15:05,220
+da visibilidade.
+
+190
+00:15:05,220 --> 00:15:10,820
+Quis deixar o capítulo de módulos à parte porque é um tema novo um tema que foi introduzido no Japão
+
+191
+00:15:10,830 --> 00:15:17,770
+9 e é muito legal esse tema vai ajudar também a terminologia encapsulamento mais interessante.
+
+192
+00:15:17,860 --> 00:15:22,810
+Lá a gente vai acrescentar algumas coisas relacionadas a isso principal orientação objeto já usando
+
+193
+00:15:22,810 --> 00:15:23,960
+o sistema de módulos.
+
+194
+00:15:23,970 --> 00:15:29,100
+Eu não quis misturar aqui para que você pudesse ter uma primeira introdução com essas palavras reservadas
+
+195
+00:15:29,100 --> 00:15:35,610
+da linguagem que diz respeito aos Modificadores de acesso e aquilo que pode ser acessado não mas mais
+
+196
+00:15:35,610 --> 00:15:36,120
+na frente.
+
+197
+00:15:36,150 --> 00:15:41,710
+Vai retomar esse tema Como Falar de módulos que foi introduzido no Java 9 então fico por aqui até aproximá
+
+198
+00:15:41,720 --> 00:15:41,850
+lo.

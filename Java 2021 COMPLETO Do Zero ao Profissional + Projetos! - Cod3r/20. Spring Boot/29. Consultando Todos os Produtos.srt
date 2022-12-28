@@ -1,0 +1,315 @@
+1
+00:00:00,370 --> 00:00:06,240
+Pessoal na sala nós vamos fazer agora a consulta dos dados que a gente já cadastrou previamente nesse
+
+2
+00:00:06,240 --> 00:00:15,090
+capítulo mas estamos perseguindo o crude aquele cliente Luiz dente de leite a gente já fez o processo
+
+3
+00:00:15,090 --> 00:00:21,210
+de inserção que é exatamente aqui nesse novo produto já falei um pouquinho sobre algumas validações
+
+4
+00:00:21,210 --> 00:00:25,570
+mais simples e agora nós vamos fazer a consulta.
+
+5
+00:00:25,590 --> 00:00:32,570
+Nós atendemos a requisição do tipo Poncho ou seja em cima dessa o RL API Barra produtos.
+
+6
+00:00:32,580 --> 00:00:38,970
+Quando eu faço um requisição do tipo bolsa exatamente porque eu usei a anotação bolso MAP a gente vai
+
+7
+00:00:38,970 --> 00:00:46,260
+fazer a inspeção que é exatamente chamar produtos repositório e ponto serve no caso especificamente
+
+8
+00:00:46,260 --> 00:00:53,760
+desse repositório aqui que a gente fez a implementação e implementam essa interface naquele clube de
+
+9
+00:00:53,760 --> 00:01:01,920
+repositório inclusive a gente vai mudar essa interface depois ele trata tanto a inserção como a alteração
+
+10
+00:01:02,370 --> 00:01:05,690
+da mesma forma com o mesmo método que é o método seios.
+
+11
+00:01:05,700 --> 00:01:11,970
+Vocês vão ver isso um pouco mais à frente mais nessa aula quero mostrar para vocês a consulta dos dados
+
+12
+00:01:12,000 --> 00:01:17,640
+para a gente obter os dados a partir do banco de dados então vou criar aqui uma função que eu vou chamar
+
+13
+00:01:17,640 --> 00:01:18,250
+aqui.
+
+14
+00:01:18,340 --> 00:01:29,100
+Aqui vou por enquanto retornava hoje e eu vou chamar essa função de obter produtos produtos e a gente
+
+15
+00:01:29,100 --> 00:01:31,650
+não vai passar nenhum parâmetro pra essa função.
+
+16
+00:01:31,650 --> 00:01:36,510
+Eu vou querer que essa função retorne à lista de produtos então eu vou usar para isso.
+
+17
+00:01:36,600 --> 00:01:44,400
+O produto torre e a partir dele a gente vai ter algum Metro que vai nos dar uma resposta na qual citei
+
+18
+00:01:44,760 --> 00:01:50,630
+os produtos a partir do banco de dados e está é uma função chamada faixa.
+
+19
+00:01:51,180 --> 00:01:58,800
+é o fim de algo ele vai retornar uma interface chamado em robô que é algo quente arável ele vai retornar
+
+20
+00:01:58,810 --> 00:02:00,860
+um entrave de produto.
+
+21
+00:02:00,900 --> 00:02:07,210
+Então eu vou usar essa mesma interface para definir o retorno dessa função então vou usar aqui.
+
+22
+00:02:07,240 --> 00:02:14,130
+Muito bom daqui um contra espaço outra que me derrubou de produto e eu vou simplesmente chamar aqui
+
+23
+00:02:14,140 --> 00:02:17,540
+o fim de e vou retornar aqui.
+
+24
+00:02:18,540 --> 00:02:23,390
+Nesse caso ele vai estar retornando todos os produtos do meu banco de dados.
+
+25
+00:02:23,400 --> 00:02:30,060
+Sim ele vai estar retornando todos os produtos da tabela lá do seu banco de dados e lá se você tiver
+
+26
+00:02:30,060 --> 00:02:36,660
+milhares de produtos ou mesmo milhões de produtos cadastrados ele vai retornar todos os produtos.
+
+27
+00:02:36,660 --> 00:02:42,870
+Isso é algo interessante colocar por exemplo um serviço não é um alicerce que vai tornar todos os produtos
+
+28
+00:02:42,870 --> 00:02:50,100
+de uma tabela ou todos os registros de uma tabela não não é interessante porque isso pode degradar muito
+
+29
+00:02:50,430 --> 00:02:51,310
+o seu sistema.
+
+30
+00:02:51,330 --> 00:02:57,060
+Ou seja toda vez que você for consultar por exemplo uma tabela com milhares de registros ele vai tornar
+
+31
+00:02:57,060 --> 00:02:59,340
+todos os produtos não faz muito sentido.
+
+32
+00:02:59,340 --> 00:03:04,380
+Como é que a gente pode resolver isso mais à frente nesse capítulo vou mostrar para vocês como é que
+
+33
+00:03:04,380 --> 00:03:07,670
+a gente conseguiu fazer uma consulta apaixonada.
+
+34
+00:03:07,680 --> 00:03:15,350
+Se a gente olhar aqui você pegar por exemplo o produto ponto repositório e você procurar os metros aqui.
+
+35
+00:03:15,930 --> 00:03:20,710
+De Lee existe Bay de fim de ao fim de Bay.
+
+36
+00:03:20,760 --> 00:03:27,690
+Você vai ver que não tem nenhum método que dá para a gente a possibilidade de consultar os produtos
+
+37
+00:03:27,690 --> 00:03:31,830
+por parte por exemplo colocar os primeiros 50 produtos.
+
+38
+00:03:31,830 --> 00:03:37,780
+Depois eu quero os próximos 50 aí consultando por parte vejo que está tudo de uma única vez.
+
+39
+00:03:37,860 --> 00:03:42,210
+Eu vou estar mais à frente para vocês como é que a gente vai fazer uma consulta à página.
+
+40
+00:03:42,240 --> 00:03:47,910
+Nessa aula especificamente eu quero mostrar para vocês a obtenção de todos os produtos que faz parte
+
+41
+00:03:47,910 --> 00:03:51,370
+do nosso processo de crude Neco e It.
+
+42
+00:03:51,480 --> 00:03:57,650
+Depois vou poder finalmente de elite e depois volta para mostrar um pouco das consultas platinados.
+
+43
+00:03:57,750 --> 00:04:00,700
+Então aqui a gente tem aula aqui e ali mesmo.
+
+44
+00:04:00,720 --> 00:04:04,140
+Eu não fiz aqui na verdade eu não anotei ainda eu preciso anotar tá.
+
+45
+00:04:04,530 --> 00:04:13,140
+Então que eu vou colocá lo a robô Get It Mapping o que significa que a partir dessa mesma o RL API Barra
+
+46
+00:04:13,140 --> 00:04:14,250
+produtos.
+
+47
+00:04:14,250 --> 00:04:19,000
+Se eu fizer um Porsche eu estarei chamando esse método novo produto.
+
+48
+00:04:19,080 --> 00:04:25,680
+E se eu fizer um gate em cima dessa linha ali eu estarei chamando essa função de obter produtos e essa
+
+49
+00:04:25,680 --> 00:04:32,130
+função vai retornar junto com a lista de produtos não sejam imparável de produtos.
+
+50
+00:04:32,130 --> 00:04:37,080
+Então agora que a gente fez o mapeamento do gatinho a gente tem certeza que está rodando aqui a nossa
+
+51
+00:04:37,080 --> 00:04:38,310
+aplicação.
+
+52
+00:04:38,310 --> 00:04:42,730
+Só ter certeza está tudo ok pronto está rodando a nossa aplicação.
+
+53
+00:04:42,750 --> 00:04:51,690
+Agora eu vou mudar aqui pra Gayet e nós vamos fazer aqui 6 pra gente ver o resultado é exatamente o
+
+54
+00:04:51,690 --> 00:04:53,310
+que a gente tem cadastrado.
+
+55
+00:04:53,370 --> 00:04:58,190
+Geladeira lápis preto caneta Bic vermelho e azul.
+
+56
+00:04:58,310 --> 00:04:59,730
+AI AI pede.
+
+57
+00:05:00,140 --> 00:05:03,570
+A iPhone tem alguns produtos que não têm nome.
+
+58
+00:05:03,570 --> 00:05:10,650
+Nós fizemos um teste antes da validação com preço negativo com desconto é válido Itau então aquele ele
+
+59
+00:05:10,660 --> 00:05:19,410
+trouxe todos os registros e se eu pagar esse mesmo essa mesma o RL e jogar aqui a gente vai ver o resultado
+
+60
+00:05:19,440 --> 00:05:27,020
+também como a rei de objetos um são até aqui no caso seu clicar aqui para pra gente humilde e só vi
+
+61
+00:05:27,030 --> 00:05:34,830
+o homem fornecer habilita para tal não faixa habilitou aqui a gente tem o mesmo resultado que a gente
+
+62
+00:05:34,830 --> 00:05:41,910
+conseguiu também aqui dentro do poço mental no caso o posto médico eu vou usar porque fica mais fácil
+
+63
+00:05:41,910 --> 00:05:47,490
+a gente fazer requisições do tipo puxe o tipo de limite o Gate que é mais fácil a gente consegue fazer
+
+64
+00:05:47,500 --> 00:05:48,580
+diretamente no Brasil.
+
+65
+00:05:48,870 --> 00:05:53,760
+Mas de qualquer forma a gente conseguiu fazer a consulta de todos os produtos não é a forma ideal como
+
+66
+00:05:53,760 --> 00:05:59,700
+eu falei pra vocês exatamente porque a gente precisa ter muito cuidado naquilo que a gente disponibiliza
+
+67
+00:05:59,700 --> 00:06:00,850
+na nossa página.
+
+68
+00:06:00,900 --> 00:06:06,470
+Se você deixar uma API aberta para que o usuário consiga consultar todos os produtos.
+
+69
+00:06:06,520 --> 00:06:07,380
+Isso vai gerar.
+
+70
+00:06:07,380 --> 00:06:12,840
+Isso pode na verdade gerar um estrago muito grande na performance do seu sistema a não ser que seja
+
+71
+00:06:12,840 --> 00:06:20,580
+uma tabela controlada com poucos dados como por exemplo o défice do Brasil em todos os estados brasileiros
+
+72
+00:06:20,590 --> 00:06:25,800
+tranquilo e uma tabela que tem um domínio fechado digamos assim de informações mais tabelas que você
+
+73
+00:06:25,800 --> 00:06:32,250
+pode cadastrar usuários produto ou em outras palavras tabelas que podem crescer bastante o seu volume
+
+74
+00:06:32,250 --> 00:06:38,720
+de dados não é interessante que você deixe habilitado essa possibilidade de consultar todos os dados.
+
+75
+00:06:38,720 --> 00:06:42,680
+Beleza então aí isso na próxima aula a gente continua fazendo o update.
+
+76
+00:06:42,690 --> 00:06:44,490
+Nós fizemos o cliente.
+
+77
+00:06:44,790 --> 00:06:51,660
+Acabamos de fazer o link da forma mais simples existem várias formas diferentes de você ler informações
+
+78
+00:06:52,020 --> 00:06:56,890
+e a gente vai passar para o widget de List depois volta novamente para a origem.
+
+79
+00:06:56,910 --> 00:06:59,970
+Agora fazer uma consulta apaixonado então até aproximá lo.

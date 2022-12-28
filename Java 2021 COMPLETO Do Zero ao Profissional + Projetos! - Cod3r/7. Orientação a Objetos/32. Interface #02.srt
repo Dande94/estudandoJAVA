@@ -1,0 +1,147 @@
+1
+00:00:00,260 --> 00:00:06,720
+O pessoal só pra mostrar aqui um outro caso é essa ação que é possível você definir uma implementação
+
+2
+00:00:06,770 --> 00:00:09,870
+de fogo dentro de uma interface.
+
+3
+00:00:09,870 --> 00:00:15,960
+Esse é um recurso que surgiu não lembro exatamente a versão do Java mas não é um recurso que estava
+
+4
+00:00:15,960 --> 00:00:22,650
+disponível há muito tempo atrás almejava ficar muito tempo atrás já que o Java já evoluiu bastante nos
+
+5
+00:00:22,650 --> 00:00:28,110
+últimos anos mais esse é um conceito que não foi inicialmente não existia incialmente dentro do Java.
+
+6
+00:00:28,110 --> 00:00:33,870
+Se a gente pega aqui um exemplo aqui na parte de herança especificamente no nosso desafio que a gente
+
+7
+00:00:33,870 --> 00:00:40,950
+criou algumas interfaces vão supor que no carro de luxo é que eu posso pegar qualquer um desses métodos
+
+8
+00:00:40,950 --> 00:00:43,330
+e aplicar um implementação padrão.
+
+9
+00:00:43,710 --> 00:00:49,400
+Então vamos supor que eu tenho aqui um outro método que eu vou criar vai ser o seguinte Void em nível
+
+10
+00:00:51,610 --> 00:00:57,060
+e o nível do app ele vai retornar um valor inteiro para dizer qual o nível do ar condicionado que você
+
+11
+00:00:57,060 --> 00:01:05,360
+está usando se o nível 1 2 3 e tal então mede o que você faz isso e cria um novo metro dentro da interface
+
+12
+00:01:05,390 --> 00:01:09,600
+você vai perceber que Ferrari irá precisar implementar esse método.
+
+13
+00:01:09,600 --> 00:01:10,170
+Porquê.
+
+14
+00:01:10,560 --> 00:01:16,670
+Porquê agora esse método faz parte da interface e essa classe ferrar com um ser uma classe concreta
+
+15
+00:01:16,710 --> 00:01:22,710
+precisa implementar todos os métodos definidos na interface a não ser que você criou a implementação
+
+16
+00:01:22,710 --> 00:01:29,700
+padrão então vou colocar Kill ou default ou seja o comportamento padrão é que esse nível do ar retorne.
+
+17
+00:01:30,870 --> 00:01:36,990
+Então não vou obrigar as pessoas a implementarem esse método mas o nível do ar condicionado será o caso
+
+18
+00:01:36,990 --> 00:01:38,680
+ele esteja ligado por padrão.
+
+19
+00:01:38,780 --> 00:01:44,220
+Caso a pessoa que queira implementar vai lá definir um método definindo o método ela pode controlar
+
+20
+00:01:44,220 --> 00:01:51,180
+melhor a questão da velocidade e não colocar o Não vou colocar aqui velocidade do ar então feito isso
+
+21
+00:01:51,320 --> 00:01:57,110
+lá no nosso teste você vai perceber que é possível usar esse mal ou padrão.
+
+22
+00:01:57,180 --> 00:02:03,770
+Então não posso falar colocar Kill C2 área ponto de velocidade do ar.
+
+23
+00:02:03,900 --> 00:02:11,600
+Vai ser um pouco mais especial que o valor porque a gente recebeu esse metro por padrão ou seja dentro
+
+24
+00:02:11,600 --> 00:02:18,090
+de uma interface por padrão todos os metros são públicos e abstratos conforme eu falei pra você.
+
+25
+00:02:18,350 --> 00:02:26,120
+Então você coloca que opúblico então abstract certo isso está implícito dentro da definição abstract
+
+26
+00:02:26,750 --> 00:02:32,010
+está implícito dentro da definição de métodos que estão a interface mas é possível.
+
+27
+00:02:32,010 --> 00:02:37,020
+Você dá uma implementação padrão para os metros conforme você quiser.
+
+28
+00:02:37,040 --> 00:02:38,570
+Essa é uma possibilidade também.
+
+29
+00:02:38,610 --> 00:02:41,460
+Vale a pena mostrar pra você que isso é possível.
+
+30
+00:02:41,570 --> 00:02:47,300
+é como se você estivesse dentro de uma interface um metro opcional que não é obrigado você implementar
+
+31
+00:02:47,300 --> 00:02:53,060
+aquele metro todos os outros por padrão são mais como você da implementação padrão você não está obrigando
+
+32
+00:02:53,510 --> 00:02:57,140
+a ser implementado esse metro que é um exemplo interessante.
+
+33
+00:02:57,200 --> 00:03:03,040
+A velocidade do ar você não quer que seja forçado implementá lo uma vez que você implementa a interface
+
+34
+00:03:03,060 --> 00:03:09,140
+luxo então o padrão é retornar cabe Cidade do ar e poderia ser um bom exemplo pra você usar um metro
+
+35
+00:03:09,140 --> 00:03:09,500
+quadrado.
+
+36
+00:03:09,500 --> 00:03:14,500
+Então fico por aqui o pessoal com mais essa dica com relação à orientação objeto no Java e até aproximá
+
+37
+00:03:14,660 --> 00:03:14,890
+aula.

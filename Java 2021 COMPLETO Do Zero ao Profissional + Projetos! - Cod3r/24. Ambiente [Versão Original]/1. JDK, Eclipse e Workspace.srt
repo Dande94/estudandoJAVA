@@ -1,0 +1,291 @@
+1
+00:00:00,240 --> 00:00:05,800
+Só agora nós vamos configurar o nosso ambiente para isso nós vamos precisar fazer dois downloads um
+
+2
+00:00:06,080 --> 00:00:13,680
+JK e o outro da ideia que você vai usar durante a execução do curso eu vou usar o eclipse que é bem
+
+3
+00:00:13,680 --> 00:00:15,540
+mais usado no mercado.
+
+4
+00:00:15,540 --> 00:00:20,900
+Acho que a maioria das pessoas já tem familiaridade com equipes as empresas acabam usando mais o eclipse
+
+5
+00:00:21,300 --> 00:00:27,540
+mas existem outras excelentes ideias o o visão inteligente e aí você pode ficar à vontade para usar
+
+6
+00:00:27,540 --> 00:00:31,430
+o que você quiser mas o custo será em cima do eclipse.
+
+7
+00:00:31,430 --> 00:00:32,970
+Na verdade é um custo de Eclipse.
+
+8
+00:00:32,970 --> 00:00:39,660
+Eu vou dar algumas dicas durante o progresso do curso mas isso fique à vontade para usar a ideia que
+
+9
+00:00:39,660 --> 00:00:40,680
+você desejar.
+
+10
+00:00:40,970 --> 00:00:41,940
+JD K.
+
+11
+00:00:42,060 --> 00:00:48,780
+Embora não seja obrigatório se você tiver noção do eclipse que já tem um JB embutido é interessante
+
+12
+00:00:48,780 --> 00:00:56,850
+que você tenha um desenvolvedor lá na frente eu vou explicar sobre a diferença entre j e j k mas j k
+
+13
+00:00:57,180 --> 00:01:03,420
+mais voltado para quem vai desenvolver Jr é voltado para quem vai executar um programa em Java.
+
+14
+00:01:03,660 --> 00:01:10,590
+Então no nosso caso um desenvolvedor tem várias ferramentas dentro do K que nos interessam durante o
+
+15
+00:01:10,590 --> 00:01:13,690
+curso e por isso eu vou baixar o JB K.
+
+16
+00:01:13,890 --> 00:01:18,640
+Embora não seja obrigatório caso você esteja usando Eclipse está certo.
+
+17
+00:01:19,110 --> 00:01:19,770
+Então vamos lá.
+
+18
+00:01:19,980 --> 00:01:26,410
+A primeira coisa que nós vamos fazer é entrar no site da Oricon e aqui a parte específica do Java tem
+
+19
+00:01:26,520 --> 00:01:33,900
+que Java se é dentro do Java e tem aqui a opção j d cada aluno.
+
+20
+00:01:34,750 --> 00:01:41,830
+E aqui é muito simples você vai dizer que aceita a licença e vai selecionar a versão do JD Cake Back
+
+21
+00:01:41,880 --> 00:01:42,940
+com sua plataforma.
+
+22
+00:01:42,930 --> 00:01:50,010
+No meu caso aqui seria o Windows 64 já tinha instalado ela na minha máquina mas a instalação é supersimples
+
+23
+00:01:50,010 --> 00:01:57,810
+e Next anexo é só avançando o processo e no final finaliza não tem nenhum tipo de pegadinha simplesmente
+
+24
+00:01:57,810 --> 00:02:00,220
+fazer o processo do ISO.
+
+25
+00:02:00,630 --> 00:02:09,060
+Já o eclipse também é extremamente simples no site do eclipse a versão atual não é entre aqui em download
+
+26
+00:02:09,060 --> 00:02:11,040
+ou então download.
+
+27
+00:02:11,100 --> 00:02:18,910
+A versão que eu baixei aqui para o curso foi essa versão que acho que é mais comum que é o Eclipse para
+
+28
+00:02:18,990 --> 00:02:26,430
+desenvolvedores Java e embora nós não vamos tratar Java e nesse módulo nesse curso dá certo você pode
+
+29
+00:02:26,430 --> 00:02:32,400
+baixar muito mais para desenvolvedores Java mas eu peguei essa aqui por ser mais completa e vocês já
+
+30
+00:02:32,400 --> 00:02:39,270
+baixei ela de uma vez e pode usar ela em outros projetos como projeto bi e para outras coisas aqui no
+
+31
+00:02:39,270 --> 00:02:46,620
+caso eu baixei essa que é a mais comum e para isso eu criei uma pasta chamada curso Java no desktop
+
+32
+00:02:46,620 --> 00:02:53,580
+e a única coisa que eu fiz foi jogar o arquivo iPad que eu já baixei previamente do eclipse não para
+
+33
+00:02:53,580 --> 00:03:02,820
+instalar o eclipse é super simples basta disso compactar que qualquer computador vem sempre aqui pronto
+
+34
+00:03:02,830 --> 00:03:04,930
+finalizou a compactação.
+
+35
+00:03:04,960 --> 00:03:13,810
+Basta você clicar no eclipse 0x0 pra iniciar e se você já tiver o J K instalado tem que ter pelo menos
+
+36
+00:03:13,810 --> 00:03:15,170
+o J é certo.
+
+37
+00:03:15,170 --> 00:03:20,860
+Já falei isso porque isso é feito em Java então ele precisa do Java para ser executado mas o ideal é
+
+38
+00:03:20,860 --> 00:03:26,250
+que você já tenha instalado o J K que é o kit de desenvolvimento Java.
+
+39
+00:03:26,260 --> 00:03:33,820
+Aqui eu vou selecionar o seguinte dentro do meu meu desktop a minha área de trabalho eu vou selecionar
+
+40
+00:03:33,820 --> 00:03:44,700
+essa pasta cursos Java e dentre cursos Java eu vou botar aqui a barra Space certo aqui vai ser a pasta
+
+41
+00:03:45,090 --> 00:03:52,440
+que nós vamos usar para salvar todos os nossos projetos então vou selecionar pra usar como padrão e
+
+42
+00:03:52,830 --> 00:03:55,950
+selecionar ok o que seria Work Space Works.
+
+43
+00:03:56,030 --> 00:04:03,500
+Esse é o espaço de trabalho fazer na tradução direta e por padrão todos os projetos que você cria está
+
+44
+00:04:03,630 --> 00:04:08,050
+sendo armazenado dentro do seu Word especialmente no seu espaço de trabalho.
+
+45
+00:04:08,190 --> 00:04:14,150
+Você pode exportar projetos que estão em outras pastas pois ele pode salvar projeto em outros lugares
+
+46
+00:04:14,160 --> 00:04:21,610
+pode mas nesse país se é onde vai estar por exemplo todos os metadados aqui dentro.
+
+47
+00:04:21,660 --> 00:04:28,830
+Desse ponto o método data tudo é aquele que você configurar clipes tudo aquilo que você mudar de configuração
+
+48
+00:04:29,100 --> 00:04:30,570
+vai estar sendo armazenado.
+
+49
+00:04:30,660 --> 00:04:36,780
+Sempre que você referencia a esse respeito se tudo aquilo que você já configurou vai ser carregado e
+
+50
+00:04:36,900 --> 00:04:43,310
+se você não mudar digamos assim um padrão todos os seus arquivos e projeto será salvo nessa pasta.
+
+51
+00:04:43,320 --> 00:04:52,080
+Tá certo então aqui eu vou abri o eclipse vou fechar essa faixa e boas vindas eu vou fazer algumas modificações
+
+52
+00:04:52,380 --> 00:05:00,120
+pra que a gente possa padronizar dentro do curso a primeira delas eu vou mudar a perspectiva ela vem
+
+53
+00:05:00,120 --> 00:05:06,690
+por padrão na perspectiva Java e eu vou selecionar perspectiva Java vai mudar algumas poucas coisas
+
+54
+00:05:06,690 --> 00:05:14,490
+mais pra gente vai ficar mais direto as informações eu vou aqui o Windows tem aqui show viu o console
+
+55
+00:05:14,920 --> 00:05:22,840
+eu vou fechar essas outras obras aqui eu não vou precisar durante o curso deixar só o console aberto.
+
+56
+00:05:22,840 --> 00:05:30,690
+Vou fechar essas abas laterais aqui eu vou fazer duas mudanças em relação ao tema.
+
+57
+00:05:30,910 --> 00:05:33,320
+Eu vou colocar um tema escuro.
+
+58
+00:05:33,350 --> 00:05:37,340
+Está certo fica o contraste fica melhor do vídeo.
+
+59
+00:05:37,570 --> 00:05:46,090
+Se ele foi escuro para o outro e a outra coisa que eu vou fazer é mudar o tamanho da fonte vou colocar
+
+60
+00:05:46,090 --> 00:05:46,870
+aqui a fonte.
+
+61
+00:05:46,870 --> 00:05:54,510
+Você não precisa fazer isso mais pra que ele fique mais claro pra você no vídeo mudar a fonte pra que
+
+62
+00:05:54,630 --> 00:06:00,100
+26.
+
+63
+00:06:00,260 --> 00:06:01,090
+Pronto.
+
+64
+00:06:01,780 --> 00:06:07,680
+Então nós temos aqui o eclipse configurado nosso país criado o JD K.
+
+65
+00:06:07,680 --> 00:06:11,500
+Como mencionei eu não instalei aqui algo mais simplesmente você baixa.
+
+66
+00:06:11,550 --> 00:06:20,550
+Mexe mexe mexe e depois disso compacto e clipe executa o eclipse cria o seu box e atualmente está pronto
+
+67
+00:06:20,550 --> 00:06:25,500
+pra gente executar tudo aquilo que você vai precisar fazer durante o curso certo.
+
+68
+00:06:26,610 --> 00:06:31,130
+Nós temos que ter esse ponto do curso o JD instalado.
+
+69
+00:06:31,520 --> 00:06:36,540
+Nós temos que ter o clipe Sim baixado isso compactado e executando.
+
+70
+00:06:36,630 --> 00:06:39,910
+E você tem que ter configurado o seu partido a partir do.
+
+71
+00:06:39,930 --> 00:06:42,130
+Pode ficar no local onde você achar melhor.
+
+72
+00:06:42,510 --> 00:06:45,910
+Eu coloquei dentro do desktop pra ficar de fácil acesso.
+
+73
+00:06:45,910 --> 00:06:47,840
+Aí você coloca no lugar onde você queira.

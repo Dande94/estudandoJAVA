@@ -1,0 +1,479 @@
+1
+00:00:00,500 --> 00:00:06,600
+Se a gente entrar especificamente em cada uma das interfaces funcionais na verdade mudar só um panorama
+
+2
+00:00:06,600 --> 00:00:12,250
+geral de algumas dessas interfaces existem várias inclusive na documentação você pode ver cada um delas
+
+3
+00:00:12,270 --> 00:00:17,310
+mas eu vou mostrar aqui de uma forma um pouco mais geral algumas das interfaces que nós vamos trabalhar
+
+4
+00:00:17,670 --> 00:00:19,070
+aqui no nosso Capítulo 7.
+
+5
+00:00:19,080 --> 00:00:25,770
+Basicamente o que vai mudar entre uma interface funcional e outra é os parâmetros e o tipo de retorno
+
+6
+00:00:25,770 --> 00:00:31,470
+que eventualmente vai ter uma vez que uma interface ela retorna um tipo específico.
+
+7
+00:00:31,470 --> 00:00:38,160
+Por exemplo como bolha é muito natural que associado a essa interface exista algumas outras funções
+
+8
+00:00:38,160 --> 00:00:45,570
+como por exemplo fazer Wendy quero fazer uma operação lógica já que a interface é tão bolha e eu posso
+
+9
+00:00:45,570 --> 00:00:50,990
+encaixar várias chamadas fazer uma composição de chamadas na função depois da outra.
+
+10
+00:00:51,000 --> 00:00:57,060
+Se todas essas funções retornam Bully nada mais natural do que eu querer fazer por exemplo ou fazem
+
+11
+00:00:57,070 --> 00:01:02,860
+o Wii certo a operação lógica ou fazer uma mega ação em cima de um resultado ela retornou.
+
+12
+00:01:03,090 --> 00:01:09,570
+Eu quero negar eu posso chamar só liguei pra retornar Falso caso o resultado seja tolo ou se o resultado
+
+13
+00:01:09,570 --> 00:01:15,330
+foi outro vai ser falso é falso ou seja negando o resultado então dependendo do tipo de operação que
+
+14
+00:01:15,330 --> 00:01:21,630
+você faça é possível que você encontre algumas funcionalidades a mais principalmente focada nessa questão
+
+15
+00:01:21,630 --> 00:01:29,620
+de compor as funções que você tem por exemplo uma operação na área e você possui um parâmetro retorno
+
+16
+00:01:29,700 --> 00:01:35,370
+o mesmo valor no final então esse valor possa indicar a outra função também que tem uma operação na
+
+17
+00:01:35,370 --> 00:01:40,730
+área essa é uma operação do tipo é uma interface funcional do tipo Nasri ou perito.
+
+18
+00:01:40,860 --> 00:01:48,120
+Então esse tipo de funcionalidade vai surgir a partir do momento que você escolhe uma dessas funcionalidades
+
+19
+00:01:48,120 --> 00:01:48,690
+aqui.
+
+20
+00:01:48,990 --> 00:01:54,770
+Então chame pra você alguns dos padrões de interfaces funcionais que vocês vão encontrar dentro da API
+
+21
+00:01:54,780 --> 00:02:00,870
+é o seguinte você tem aqui do lado esquerdo nós temos as assinaturas das soluções do outro lado nós
+
+22
+00:02:00,870 --> 00:02:03,570
+temos o nome dessa interface.
+
+23
+00:02:03,630 --> 00:02:09,660
+Se a gente olhar aqui nós temos todas as interfaces que foram definidas especificamente nesse pacote
+
+24
+00:02:09,660 --> 00:02:10,210
+Java.
+
+25
+00:02:10,200 --> 00:02:14,250
+Outro ponto que eu vou mostrar algumas dessas aqui.
+
+26
+00:02:14,620 --> 00:02:20,910
+Então quando você não recebe nada como parâmetro tem entrado sempre do lado esquerdo vai ter os parâmetros
+
+27
+00:02:20,910 --> 00:02:23,690
+de entrada e do lado direito até o retorno.
+
+28
+00:02:23,760 --> 00:02:30,550
+Quando eu coloco botei esse item faz uma alusão aos genéricos mas eu não vou entrar muito detalhe aqui
+
+29
+00:02:30,570 --> 00:02:37,460
+imagina ter como o tipo pode ser produto pode ser um bullying mas uma observação sempre vai ser classe
+
+30
+00:02:37,470 --> 00:02:43,380
+nem sempre vai ser tipo imagina como sendo o tipo imagina essa também como sendo tipo.
+
+31
+00:02:43,530 --> 00:02:49,230
+Ou seja eu tenho um tipo genérico que pode ser qualquer coisa pois seu produto pode ser uma data pode
+
+32
+00:02:49,230 --> 00:02:54,840
+ser um bullying com P maiúsculo pode ser um W com P maiúsculo embora vá falar pra vocês que existem
+
+33
+00:02:54,840 --> 00:03:00,390
+algumas interfaces funcionais voltadas prostíbulos primitivos eu já falei ainda na sala.
+
+34
+00:03:00,750 --> 00:03:07,720
+Então nós temos aqui uma assinatura não recebe nenhum parâmetro e retorna um valor determinado tipo.
+
+35
+00:03:07,890 --> 00:03:11,960
+Esse tipo de interface é conhecida como supply site ou suprido.
+
+36
+00:03:12,420 --> 00:03:18,540
+Você tem aqui um outro tipo que recebe um parâmetro t até que pode ser um produto pode ser um valor
+
+37
+00:03:18,540 --> 00:03:22,990
+numérico pode ser uma data e não retorna absolutamente nada.
+
+38
+00:03:23,040 --> 00:03:27,450
+Esse aqui é um tipo de interface chamada Consumer o consumidor.
+
+39
+00:03:27,480 --> 00:03:33,510
+Você tem um outro tipo de assinatura que ele recebe um parâmetro t e retorna exatamente o mesmo tipo.
+
+40
+00:03:33,510 --> 00:03:40,890
+Nesse cenário nós temos um operador na área que recebe por exemplo o w retorno da boa série data e tornam
+
+41
+00:03:40,890 --> 00:03:43,760
+data recebe um produto e retorna o produto.
+
+42
+00:03:43,860 --> 00:03:50,280
+Note que sim eu passo o produto como parâmetro e retorna o produto como parâmetro.
+
+43
+00:03:50,460 --> 00:03:55,710
+Não daria certo é o caso de algum outro operador na área que também vai receber um produto que vai tornar
+
+44
+00:03:55,710 --> 00:03:56,970
+um produto.
+
+45
+00:03:56,970 --> 00:04:02,970
+Imagina você ter um produto que você quer fazer uma série de operações calcular o preço final aplicar
+
+46
+00:04:02,970 --> 00:04:06,930
+um desconto ou colocar um imposto Calcular Frete.
+
+47
+00:04:06,930 --> 00:04:10,140
+Tudo está centrado nesse tipo de produto.
+
+48
+00:04:10,140 --> 00:04:14,370
+Então você pode sim cade a várias operações lunares por quê.
+
+49
+00:04:14,560 --> 00:04:15,130
+Porquê.
+
+50
+00:04:15,210 --> 00:04:21,570
+O parâmetro que é passado é o mesmo do retorno de tal forma que você passa outra operação na área o
+
+51
+00:04:21,570 --> 00:04:27,360
+retorno da primeira operação pode ser um cadeado como parâmetro para a segunda operação o retorno da
+
+52
+00:04:27,360 --> 00:04:32,730
+segunda operação pode ser encadeada como parâmetro para a terceira operação e assim você vai gerando
+
+53
+00:04:32,730 --> 00:04:38,640
+uma sequência de funcionalidades usando o mesmo tipo e isso é muito poderoso certo.
+
+54
+00:04:38,700 --> 00:04:43,650
+O outro tipo é um operador binário que você tem o mesmo tipo.
+
+55
+00:04:43,710 --> 00:04:49,980
+Aqui você tem dois parâmetros certo que tem o mesmo tipo e também retorna o mesmo tipo no final ou seja
+
+56
+00:04:50,250 --> 00:04:55,740
+se eu passei o primeiro parâmetro uma data o segundo parâmetro também será a data e o resultado também
+
+57
+00:04:55,740 --> 00:04:57,290
+será uma data certa.
+
+58
+00:04:57,570 --> 00:05:06,340
+Existem outras possibilidades sim existem possibilidades que é exatamente esse que Betty Ford chama
+
+59
+00:05:06,340 --> 00:05:07,280
+de certo.
+
+60
+00:05:07,280 --> 00:05:11,570
+Aqui você tem a possibilidade de passar algum tipo de parâmetro.
+
+61
+00:05:11,640 --> 00:05:13,070
+Vai ser um tipo qualquer.
+
+62
+00:05:13,070 --> 00:05:21,240
+Por exemplo a data o parâmetro 2 pode ser um produto e o retorno pode ser por exemplo ou sei lá um fornecedor
+
+63
+00:05:21,540 --> 00:05:26,200
+ou o cliente pode ser o número pode ser booleano verdadeiro falso.
+
+64
+00:05:26,300 --> 00:05:32,480
+Ou seja existem interfaces também que vai dar um nível de flexibilidade maior ou mais especificamente
+
+65
+00:05:32,600 --> 00:05:35,670
+ao operador binário Bonelli ou perito.
+
+66
+00:05:35,810 --> 00:05:40,580
+Ele vai ter o mesmo tipo dos dois parâmetros e o retorno também será do mesmo tipo.
+
+67
+00:05:40,700 --> 00:05:45,800
+Certo Nós temos aqui a função que é a série tipo S e retorno tipo T.
+
+68
+00:05:45,830 --> 00:05:52,270
+Então ele pode receber uma data e retornar um produto pode receber um número e retornar ao cliente.
+
+69
+00:05:52,330 --> 00:05:57,100
+Então você tem flexibilidade tanto no tipo de parâmetro como o tipo de retorno.
+
+70
+00:05:57,170 --> 00:06:04,430
+Ainda dá para encadeada por exemplo uma função uma função atrás da outra da imagem que já o outlook
+
+71
+00:06:04,450 --> 00:06:05,090
+para baixo.
+
+72
+00:06:05,420 --> 00:06:15,560
+Vamos supor que você definiu uma função que recebe como parâmetro a data e retorna um número por exemplo
+
+73
+00:06:15,560 --> 00:06:15,880
+certo.
+
+74
+00:06:15,910 --> 00:06:18,020
+Colocar aqui é simples um número.
+
+75
+00:06:18,080 --> 00:06:25,550
+Se você encaixar uma outra função depois é esperado que essa função receba como parâmetro o número porque
+
+76
+00:06:25,580 --> 00:06:33,290
+ela retorna que um produto eu posso encaixar com muito bonito aqui não mais o próprio produto eu posso
+
+77
+00:06:33,290 --> 00:06:35,600
+encaixar com outra função em cada ano.
+
+78
+00:06:35,600 --> 00:06:43,640
+Pode deixar que a outra função receba como parâmetro um produto e retorne por exemplo um cliente possa
+
+79
+00:06:43,730 --> 00:06:44,900
+encaixar novamente.
+
+80
+00:06:44,900 --> 00:06:53,450
+Pode colocar desde que a outra função receba o cliente como parâmetro e retorne sei lá um valor booleano
+
+81
+00:06:53,950 --> 00:06:54,430
+certo.
+
+82
+00:06:54,440 --> 00:07:00,860
+Posso encaixar um ou outro pode desde que essa outra recebeu uma comparando de tal forma que a saída
+
+83
+00:07:00,860 --> 00:07:06,640
+de uma função tem que ser compatível com o parâmetro que será recebido pela próxima função.
+
+84
+00:07:06,640 --> 00:07:11,590
+Certo Isso aqui pode acontecer muito bem no contexto dessa interface funcional.
+
+85
+00:07:11,780 --> 00:07:16,510
+Já no operador Mario você vai imaginar que se vai encaixar várias funções.
+
+86
+00:07:16,940 --> 00:07:22,820
+Então por que você receba aqui uma data e ele vai retornar uma data já com o operador na área.
+
+87
+00:07:22,910 --> 00:07:27,010
+A próxima função também vai a data e vai retornar a data.
+
+88
+00:07:27,110 --> 00:07:32,100
+A próxima função também retorna percebeu a data retornar uma data e então um aparador cenário.
+
+89
+00:07:32,210 --> 00:07:38,570
+Isso é de certa forma um pouco mais um pouco mais previsível porque os tipos são iguais tanto o tipo
+
+90
+00:07:38,570 --> 00:07:40,820
+do parâmetro como o tipo do retorno.
+
+91
+00:07:40,880 --> 00:07:47,840
+Já uma fonte você tem que ter um pouco mais de cuidado na hora de fazer a composição das funções exatamente
+
+92
+00:07:47,840 --> 00:07:54,110
+porque são o parâmetro que é passado e retorna diferente então você tem que encaixar de uma forma que
+
+93
+00:07:54,110 --> 00:07:59,560
+o resultado de uma função vai entrar como parâmetro na outra mas nada muito complicado de ser feito.
+
+94
+00:07:59,860 --> 00:08:06,260
+E finalmente nós temos o predicado certo que é uma função que retorna um tipo T que recebe e comparamos
+
+95
+00:08:06,270 --> 00:08:11,990
+melhor dizendo um tipo T que pode ser qualquer tipo como eu já falei e retorna o resultado é um tipo
+
+96
+00:08:12,080 --> 00:08:18,850
+booleano certo então essas são as principais principais grupos de interfaces funcionais e embora tenha
+
+97
+00:08:18,860 --> 00:08:25,760
+outras interfaces funcionais que podem ser vistos na documentação da outra coisa outra observação também
+
+98
+00:08:25,790 --> 00:08:31,580
+você vai encontrar interfaces focadas em tipos primitivos.
+
+99
+00:08:31,640 --> 00:08:37,250
+Vocês vão perceber em algum exercício você vai perceber que quando a gente vai migrar para por exemplo
+
+100
+00:08:37,250 --> 00:08:43,370
+o tipo rapa você não consegue fazer isso aqui ou eu não consigo criar aqui.
+
+101
+00:08:43,520 --> 00:08:52,250
+Da HBO por exemplo que não é um tipo primitivo ou seja aquele B maiúsculo é um clássico da HBO a recebe
+
+102
+00:08:52,370 --> 00:08:53,740
+o valor 3.
+
+103
+00:08:53,780 --> 00:08:55,160
+Isso porque o Java não permite.
+
+104
+00:08:55,160 --> 00:08:55,790
+Por quê.
+
+105
+00:08:56,060 --> 00:09:03,470
+Porque em outras palavras se está tentando converter um tipo primitivo Inti em um tipo clássico da HBO.
+
+106
+00:09:03,590 --> 00:09:09,560
+Isso não o Japão não permite fazer essa conversão direta dá para resolver isso a gente pode simplesmente
+
+107
+00:09:09,560 --> 00:09:17,480
+colocar aquele ponto zero ponto e vírgula por ter o Java permite que você crie o tipo de dado primitivo
+
+108
+00:09:17,600 --> 00:09:23,330
+e converta isso para um tipo da HBO com letra maiúscula que é uma classe.
+
+109
+00:09:23,420 --> 00:09:29,800
+Esse tipo de conversão já faz o que eles chamam de Boxe Boxing boxe quando você vai nesse sentido não
+
+110
+00:09:29,810 --> 00:09:36,370
+é um primitivo pra dentro da classe é um boxe quando você tira dinheiro da classe o valor primitivo
+
+111
+00:09:36,380 --> 00:09:41,930
+e esse processo automático é o que eles chamam de alto Box no caso ele permite entre tipos do mesmo
+
+112
+00:09:41,930 --> 00:09:46,510
+tipo dava pra W mas não diretamente pra dar certo é uma pena.
+
+113
+00:09:46,550 --> 00:09:47,700
+Mas ele não permite.
+
+114
+00:09:47,960 --> 00:09:54,480
+Então por isso alguns momentos pode ser mais oportuno você usar as interfaces dos tipos primitivos como
+
+115
+00:09:54,480 --> 00:10:02,560
+int painel e direito ou então Lock Bay nela operei e você tem pra dar para longe da índia você então
+
+116
+00:10:02,610 --> 00:10:10,760
+também tem a possibilidade de ter essas interfaces então você coloca aqui ou da HBO Supla da HBO pra
+
+117
+00:10:10,880 --> 00:10:11,390
+quê.
+
+118
+00:10:11,400 --> 00:10:17,800
+Ou seja você tem a possibilidade de trabalhar com esses tipos mais específicos ao banheiro e direito.
+
+119
+00:10:18,050 --> 00:10:22,000
+Então é exatamente o que eu estou ressaltando coloquei aqui dois exemplos só.
+
+120
+00:10:22,300 --> 00:10:25,250
+Mas você tem outros exemplos nem comentar são também.

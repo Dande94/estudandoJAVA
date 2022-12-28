@@ -1,0 +1,615 @@
+1
+00:00:00,330 --> 00:00:08,220
+Pessoal nessa aula vou querer criar também uma aplicação básica em Java e Flash só pra gente vê a troca
+
+2
+00:00:08,340 --> 00:00:14,810
+de cenas para a gente ter várias cenas ou seja várias telinhas configuradas e a gente trocar essas cenas
+
+3
+00:00:14,820 --> 00:00:16,720
+de acordo com o botão.
+
+4
+00:00:16,740 --> 00:00:19,750
+A minha ideia é criar uma aplicação parecido com o ISA.
+
+5
+00:00:19,770 --> 00:00:25,380
+Quando você está lá uma aplicação por exemplo você tem uma tela e você aperta próximo ele vai para uma
+
+6
+00:00:25,380 --> 00:00:29,880
+segunda tela próximo e pode ser a tela finaliza e fecha.
+
+7
+00:00:29,910 --> 00:00:34,000
+Por exemplo o processo de instalação você pode voltar para as telas anteriores.
+
+8
+00:00:34,190 --> 00:00:39,900
+Então basicamente é criar um esquema mais ou menos parecido com isso não vou querer implementar uma
+
+9
+00:00:39,900 --> 00:00:44,610
+tela completa e simplesmente eu vou colocar os botões e ficar navegando entre as cenas.
+
+10
+00:00:44,610 --> 00:00:50,700
+A partir do momento que eu vou apertando os botões pra você ter de forma mais clara esse conceito que
+
+11
+00:00:50,700 --> 00:00:57,120
+você tem hoje tem um palco e esse palco você tem telas que são as cenas que podem ser trocadas.
+
+12
+00:00:57,210 --> 00:01:03,480
+Imagine que você tem um menu da sua aplicação e aí você tem a tela principal que seria a cena principal
+
+13
+00:01:03,480 --> 00:01:07,800
+dentro do seu estágio que seria o palco que é exatamente a janela.
+
+14
+00:01:07,800 --> 00:01:14,310
+E aí você clica no botão por exemplo fazer uma configuração automaticamente ele vai lá e muda a cena
+
+15
+00:01:14,310 --> 00:01:19,200
+atual do palco do meio estende pra por exemplo colocar a tela de configuração.
+
+16
+00:01:19,200 --> 00:01:24,130
+Você quer voltar para a tela anterior e você pode voltar para a cena inicial.
+
+17
+00:01:24,120 --> 00:01:29,360
+A cena principal para sua aplicação seria uma estratégia dentro de uma única janela ficar trocando as
+
+18
+00:01:29,370 --> 00:01:30,090
+cenas.
+
+19
+00:01:30,120 --> 00:01:36,260
+Que estratégia é você criar outras janelas ou seja outros estágios também é uma possibilidade.
+
+20
+00:01:36,600 --> 00:01:42,690
+Mas nesse exemplo especificamente nós teremos um único estágio e várias cenas sendo trocadas no mesmo
+
+21
+00:01:42,690 --> 00:01:43,310
+instante.
+
+22
+00:01:43,350 --> 00:01:56,210
+Então o nome do nosso exercício será o Ice Age também dentro do pacote básico então eu Less is antes
+
+23
+00:01:57,120 --> 00:02:05,460
+nós vamos fazer o mesmo processo que é estender a Application mas vamos precisar ter um método Restart
+
+24
+00:02:06,270 --> 00:02:18,180
+se chamar aqui temos outro jogo e além disso posso também chamar mais três pontos seis Taito.
+
+25
+00:02:18,660 --> 00:02:28,500
+Eu vou chamar aqui o título de The Wizard e vou ter um método meio chamando o Launch achando que os
+
+26
+00:02:28,620 --> 00:02:32,340
+argumentos estão clicando aqui.
+
+27
+00:02:32,580 --> 00:02:39,990
+Para ele abrir a aplicação não vai abrir nada porque está faltando a gente entrar no ramo Configuration
+
+28
+00:02:41,190 --> 00:02:47,340
+Configuration cima de juíza que foi o último que a gente já executou já está selecionado aqui argumentos
+
+29
+00:02:47,700 --> 00:02:55,500
+desmarcar essa opção Aplicar executar e abrir a nossa telinha sem problema algum já com o título aqui
+
+30
+00:02:56,160 --> 00:03:02,130
+sem problema eu não vou precisar usar o primeiro esteja fora do método Restart então eu vou criar aqui
+
+31
+00:03:03,670 --> 00:03:06,510
+o que seria o meu Tech.
+
+32
+00:03:06,600 --> 00:03:15,880
+Então eu vou chamar de janela em português mesmo vai ser uma janela.
+
+33
+00:03:15,910 --> 00:03:23,640
+Vou criar aqui sim que eu vou chamar assim seria o passo do meu Isa.
+
+34
+00:03:23,660 --> 00:03:29,980
+Passo 2 3 então 2 3 ou 3 semanas e uns 3.
+
+35
+00:03:30,000 --> 00:03:35,290
+Então já vou importar aqui o jogo Sex Tech e o Java Flex sim.
+
+36
+00:03:35,760 --> 00:03:40,170
+E nós vamos fazer o seguinte eu vou criar o primeiro método aqui
+
+37
+00:03:42,800 --> 00:03:53,840
+doidinho criar espaço e eu vou criar o palco usando a grade Box.
+
+38
+00:03:53,880 --> 00:04:01,850
+Depois a gente replica o passo a passo 2 Training faz alguns ajustes vou chamar aqui de box set
+
+39
+00:04:04,570 --> 00:04:13,470
+box mas vamos definir aqui dentro desse Box botar a verdade na tela inicial e ter apenas um botão para
+
+40
+00:04:13,470 --> 00:04:14,950
+ir para a próxima então colocar
+
+41
+00:04:18,180 --> 00:04:25,930
+batom vou chamar aqui de botão com foco ok.
+
+42
+00:04:25,970 --> 00:04:31,980
+Passo 2 próximo passo com o botão Próximo.
+
+43
+00:04:32,170 --> 00:04:47,740
+Passo 1 recebe o botão vou colocar o nome do leitor baixei para Passo 2 maximizar a tela que vírgula
+
+44
+00:04:48,730 --> 00:04:56,720
+e o vô definir aqui o seguinte Depois vou definir os detalhes vou colocar aqui um box.
+
+45
+00:04:56,740 --> 00:04:59,590
+Deixa eu ver mais vou colocar no box.
+
+46
+00:04:59,780 --> 00:05:01,770
+Ponto.
+
+47
+00:05:02,490 --> 00:05:13,110
+O grande ponto a adicionar próximo passo que o nosso botão eu vou ter fim aqui o alinhamento Box Set
+
+48
+00:05:13,880 --> 00:05:23,240
+alagamentos posição ponto sempre ele vai centralizar tanto no eixo vertical como horizontal e com isso
+
+49
+00:05:23,330 --> 00:05:25,060
+eu posso criar minha cena.
+
+50
+00:05:25,070 --> 00:05:30,950
+Esse método aqui não necessariamente eu preciso retornar até poderia retornar à cena mas eu falei o
+
+51
+00:05:30,950 --> 00:05:32,900
+seguinte vou criar.
+
+52
+00:05:33,360 --> 00:05:36,620
+Na verdade eu já queria assinalar em cima na então passo.
+
+53
+00:05:36,690 --> 00:05:47,420
+Pensei sim vou passar com o meu box novamente a raiz dessa cena e o tamanho da cena vai ser 400 por
+
+54
+00:05:47,420 --> 00:05:48,370
+400.
+
+55
+00:05:49,190 --> 00:05:58,770
+Pronto eis aqui o passo quando vou chamar aquilo que criar passou criar e você tá na minha.
+
+56
+00:05:58,780 --> 00:06:07,610
+Meu pai não está aí pra o site Cine inicial se eu passo então achar que eu passo 1 comecei no passo
+
+57
+00:06:07,610 --> 00:06:15,650
+principal então executado aqui vai ver que já vai ter passo na tela ele deu um problema dizendo que
+
+58
+00:06:15,650 --> 00:06:18,490
+tem problema de compilação.
+
+59
+00:06:18,980 --> 00:06:25,160
+Acho que Portugal que não tem nada importado que eles estão limpar.
+
+60
+00:06:25,280 --> 00:06:30,800
+Aqui ele está mostrando que algumas coisas não foram usadas inclusive eu já vou colocar logo no começo
+
+61
+00:06:30,950 --> 00:06:32,000
+do estágio.
+
+62
+00:06:32,120 --> 00:06:38,320
+Não necessariamente precisa agora pra funcionar esse primeiro exemplo mais colocar aqui meus textos
+
+63
+00:06:38,930 --> 00:06:43,930
+para acertar o valor da variável janela não estou usando janela e ainda vou já usar mas estou usando
+
+64
+00:06:43,940 --> 00:06:49,820
+passou por isso que está com alguns advertências ela executando aqui e vai ver que vai aparecer a tela
+
+65
+00:06:49,820 --> 00:06:54,270
+com um botão que é exatamente o passo 2 por enquanto ele não está fazendo nada.
+
+66
+00:06:54,320 --> 00:07:02,060
+Na verdade eu nem criei eu passo 2 vou criar agora vou duplicar esse método pra ele criar o passo 2.
+
+67
+00:07:02,060 --> 00:07:03,620
+Passo 2.
+
+68
+00:07:03,710 --> 00:07:13,930
+O próximo passo seria o passo 3 e eu vou criar um outro botão que eu vou chamar de sistema passo anterior
+
+69
+00:07:14,150 --> 00:07:14,690
+passo
+
+70
+00:07:17,350 --> 00:07:26,150
+e para braço passo em vez de colocar certinho pra acaba colocando o começo pronto.
+
+71
+00:07:27,230 --> 00:07:32,980
+Então ele volta passo para o passo 3.
+
+72
+00:07:33,050 --> 00:07:40,550
+Nesse caso eu vou aceitar que eu passo 2 como você na cena e vou para o outro quer deixar eu adicionar
+
+73
+00:07:40,950 --> 00:07:45,300
+um passo anterior então adicione o passo anterior.
+
+74
+00:07:45,380 --> 00:07:48,440
+Aí meu próximo passo é citei aqui.
+
+75
+00:07:48,440 --> 00:07:49,930
+Passo 2.
+
+76
+00:07:50,040 --> 00:07:54,110
+Como eu faço para ir para Passo 2 eu vou precisar também chamar o criador.
+
+77
+00:07:54,110 --> 00:08:03,500
+Passo 2 aqui ele cria o passo como criar o passo 2 e aqui é acionado ao botão Próximo passo eu preciso
+
+78
+00:08:03,500 --> 00:08:13,610
+criar um set onde eu recebo aqui o meu café e aqui dentro eu vou ter que dizer que eu vou ter uma nova
+
+79
+00:08:13,610 --> 00:08:18,170
+cena dentro do meu esteja dentro da minha da minha janela.
+
+80
+00:08:18,500 --> 00:08:27,710
+Então pra fazer isso basicamente eu posso inclusive eu posso até usar aquela janela de janela sem problema.
+
+81
+00:08:28,270 --> 00:08:32,710
+E posso fazer o seguinte Quando clicar em próximo passo já que eu estou no passo eu quero ir para o
+
+82
+00:08:32,710 --> 00:08:37,770
+passo 2 janela ponto 7 sim.
+
+83
+00:08:37,790 --> 00:08:39,710
+Passo 2.
+
+84
+00:08:39,710 --> 00:08:45,620
+Como eu já criei o passo a passo 2 então passo 2 estará criado sem problema nenhum eu vou conseguir
+
+85
+00:08:45,620 --> 00:08:48,910
+avançar clicando aqui.
+
+86
+00:08:48,940 --> 00:08:53,810
+Passo para o passo 2 clicando apareceu aqui o botão.
+
+87
+00:08:53,810 --> 00:08:58,360
+Passo 3 passo vamos fazer agora voltar para o passo a funcionar.
+
+88
+00:08:58,460 --> 00:09:05,300
+Então vou deixar aqui só eu criar aqui no passo anterior.
+
+89
+00:09:05,690 --> 00:09:07,110
+Passo anterior.
+
+90
+00:09:07,430 --> 00:09:09,230
+7.
+
+91
+00:09:09,590 --> 00:09:19,490
+Ou receber um evento aqui dentro eu vou chamar a janela do set.
+
+92
+00:09:20,980 --> 00:09:25,200
+Passando o passo de volta para o palco.
+
+93
+00:09:25,630 --> 00:09:31,810
+E aqui eu vou chamar o Paço 3 que não foi criado ainda mas vou só deixar que o próximo passo pontos
+
+94
+00:09:31,840 --> 00:09:41,490
+cegos chame um evento e por enquanto colocar aqui no System aórtica.
+
+95
+00:09:41,560 --> 00:09:46,050
+Passo 3 não só para pra gente comentar.
+
+96
+00:09:46,060 --> 00:09:48,990
+Por enquanto a nossa aplicação brincando.
+
+97
+00:09:49,860 --> 00:09:51,410
+Mas vamos conseguir navegar.
+
+98
+00:09:51,420 --> 00:09:53,740
+Passo zero passo ou melhor dizendo.
+
+99
+00:09:53,740 --> 00:09:58,470
+Passo 2 estou no passo 2 e passo o.
+
+100
+00:09:59,120 --> 00:10:01,720
+Consigo fazer essa navegação é alta.
+
+101
+00:10:01,720 --> 00:10:02,430
+Não consegui.
+
+102
+00:10:02,470 --> 00:10:03,130
+Passo 3.
+
+103
+00:10:03,130 --> 00:10:07,750
+Por enquanto está só mostrando aqui no console o valor que eu coloquei para ele imprimir em casa.
+
+104
+00:10:07,750 --> 00:10:13,360
+Passo 3 vou pausar a aplicação mas vamos duplicar esse método que é o criar.
+
+105
+00:10:13,360 --> 00:10:15,940
+Passo 2 vai ser simples para criar.
+
+106
+00:10:15,940 --> 00:10:16,590
+Passo 3.
+
+107
+00:10:16,580 --> 00:10:20,080
+Eu até poderia criar um metro um pouco mais e eu uso.
+
+108
+00:10:20,080 --> 00:10:22,760
+Faço aqui alguns parâmetros para ele criar.
+
+109
+00:10:22,960 --> 00:10:27,360
+De acordo com necessidade mas não é muito o propósito do nosso exercício então criar.
+
+110
+00:10:27,360 --> 00:10:30,060
+Passo 3 ou sentar.
+
+111
+00:10:30,070 --> 00:10:32,010
+Passo 3.
+
+112
+00:10:32,020 --> 00:10:37,710
+Até poderia passar como parâmetro o passo para não errar digamos assim mais.
+
+113
+00:10:37,840 --> 00:10:41,410
+O que é esse problema criar aqui sem nenhum parâmetro mesmo certeiro.
+
+114
+00:10:41,410 --> 00:10:51,910
+Passo 3 em relação a que eu vou ter um botão Analisar e aqui voltar para o passo 2 então voltar pro.
+
+115
+00:10:51,910 --> 00:10:55,740
+Passo 2 Se eu apagar passo anterior 7 metros.
+
+116
+00:10:55,750 --> 00:10:57,290
+Passo 2.
+
+117
+00:10:57,520 --> 00:11:06,430
+é aqui onde tem o Passo 3 O chamado System ponto extirpação no status 00.
+
+118
+00:11:06,460 --> 00:11:10,800
+Se você está concluindo a aplicação sem erro é aqui em cima.
+
+119
+00:11:11,170 --> 00:11:19,680
+Onde tem o System Launch ali eu vou chamar janela ponto 7 se passando.
+
+120
+00:11:19,690 --> 00:11:23,040
+Passo 3 nesse caso aí.
+
+121
+00:11:23,050 --> 00:11:32,080
+Passo 3 voltar para o passo e voltar para o passo 2 e finalizar o nosso Wizard está faltando aqui eu
+
+122
+00:11:32,080 --> 00:11:34,380
+pedi para ele também criá lo.
+
+123
+00:11:34,380 --> 00:11:39,040
+Passo 3 estão clicando aqui e.
+
+124
+00:11:39,130 --> 00:11:40,090
+Passo 3.
+
+125
+00:11:40,200 --> 00:11:45,540
+é pra gente testar agora a gente vai ao ISA.
+
+126
+00:11:45,550 --> 00:11:46,870
+Passo 2.
+
+127
+00:11:46,870 --> 00:11:48,340
+Passo 2.
+
+128
+00:11:48,760 --> 00:11:50,410
+Passo 3.
+
+129
+00:11:50,410 --> 00:11:58,510
+Passo 2 voltar passo consigo navegar entre as cenas finalizar feche a aplicação você até conseguiria
+
+130
+00:11:59,260 --> 00:12:04,690
+se quisesse tá aqui o título é diferente por exemplo.
+
+131
+00:12:04,780 --> 00:12:06,520
+Passo 2.
+
+132
+00:12:06,520 --> 00:12:09,540
+Você pode acertar o ISA.
+
+133
+00:12:10,060 --> 00:12:20,020
+Passo 2 e voltar para o passo a passo.
+
+134
+00:12:20,020 --> 00:12:23,410
+Passo 3.
+
+135
+00:12:23,410 --> 00:12:30,670
+Passo 3 não só pra ficar coerente aqui eu também vou colocar pra ele começar já no passo 1 para a gente
+
+136
+00:12:30,670 --> 00:12:31,360
+tá está.
+
+137
+00:12:31,360 --> 00:12:36,530
+Passo 1 fazendo o último teste bem está tudo ok.
+
+138
+00:12:36,640 --> 00:12:38,790
+Colocando começou Isa.
+
+139
+00:12:38,800 --> 00:12:41,480
+Passo 1 aplicado.
+
+140
+00:12:41,500 --> 00:12:48,040
+Passo 2 agora tem um botão para voltar para o passo 1 e pra ir pro Passo 3 e também pode voltar para
+
+141
+00:12:48,040 --> 00:12:52,780
+o passo 2 e aqui clique em Finalizar para fechar a aplicação.
+
+142
+00:12:52,780 --> 00:12:55,810
+O objetivo do nosso exemplo é marchar pra você.
+
+143
+00:12:55,810 --> 00:13:05,350
+Você pode ter onde tem um palco e trocar as cenas desses três telas diferentes com alimentos diferentes.
+
+144
+00:13:05,350 --> 00:13:12,520
+Você pode inclusive e quiser colocar cada um desses dessas cenas em arquivos separados.
+
+145
+00:13:12,520 --> 00:13:18,250
+Você pode criar a cena uma nova classe quer de cena e definir toda a estrutura da tela.
+
+146
+00:13:18,250 --> 00:13:24,520
+Aqui como uma há relação entre o primeiro passo segundo o terceiro eu não vou fazer esse tipo de alteração
+
+147
+00:13:24,540 --> 00:13:30,550
+porque vai tornar o nosso exemplo um pouco mais complicado mas é muito simples basta você chamar em
+
+148
+00:13:30,550 --> 00:13:37,240
+cima do Tejo o metro set sim e colocar uma nova cena em que você consegue criar várias interfaces diferentes
+
+149
+00:13:37,360 --> 00:13:42,760
+de acordo com o que o usuário for definido ele vai alterar as cenas numa uma forma muito simples e muito
+
+150
+00:13:42,760 --> 00:13:43,380
+tranquila.
+
+151
+00:13:43,510 --> 00:13:50,500
+Fico por aqui pessoal nesse nosso mais um exercício mostrando pra vocês esse conceito reforçando o conceito
+
+152
+00:13:50,500 --> 00:13:57,570
+de assistente de palco de cena e mostrando como é fácil você alterar as cenas dentro de uma única janela.
+
+153
+00:13:57,700 --> 00:14:03,710
+E o estético na próxima aula a gente continua fazendo mais exemplos aqui no Java e Flex e até a próxima
+
+154
+00:14:03,720 --> 00:14:04,010
+aula.

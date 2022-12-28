@@ -1,0 +1,351 @@
+1
+00:00:00,200 --> 00:00:05,770
+Pensava vou fazer o seguinte nessa aula eu vou falar sobre a verdade.
+
+2
+00:00:05,790 --> 00:00:13,520
+Eu vou preparar um exercício pra que você possa implementar o polimorfismo.
+
+3
+00:00:13,670 --> 00:00:20,910
+Eu vou criar um exemplo baseado no exemplo que a gente já fez no capítulo anterior que é a pessoa comer
+
+4
+00:00:20,910 --> 00:00:28,140
+comida eu vou preparar o exercício pra ele ficar na boca do gol na pequena área pra você usar o polimorfismo
+
+5
+00:00:28,150 --> 00:00:32,910
+não vou usar o polimorfismo nessa aula mas eu vou deixar esse exercício bem preparado para que você
+
+6
+00:00:32,910 --> 00:00:35,600
+possa aplicar polimorfismo nessa aula.
+
+7
+00:00:35,700 --> 00:00:41,340
+Eu vou fazer um exercício sem Polimorfismo na próxima aula vou lançar o desafio mesmo na sala vou lançar
+
+8
+00:00:41,340 --> 00:00:48,480
+o desafio e na próxima eu dou a resposta então vou lá fazer o seguinte nós vamos criar aqui dentro.
+
+9
+00:00:48,810 --> 00:00:54,250
+Nós já temos aqui um pacote de composição um pacote encapsulamento um pacote herança.
+
+10
+00:00:54,330 --> 00:01:00,630
+Eu vou criar agora um pacote chamado vou criar na verdade uma classe chamado Pessoa.
+
+11
+00:01:00,990 --> 00:01:08,750
+Vou criar aqui pessoa que conto ali morfismo e eu vou definir aqui.
+
+12
+00:01:09,210 --> 00:01:21,240
+Há uma classe chamada arroios e vou definir também uma classe chamada feijão feijão e vou criar também
+
+13
+00:01:21,240 --> 00:01:26,710
+uma classe chamada sorvete colocar sorvete.
+
+14
+00:01:27,450 --> 00:01:33,310
+Então vou fazer o seguinte sorvete vai ter um atributo que eu vou colocar aqui da boca.
+
+15
+00:01:33,450 --> 00:01:35,070
+Vai ser preso.
+
+16
+00:01:35,160 --> 00:01:43,010
+Eu vou colocar esse peso pra ser do tipo e-bit privado e vou colocar aqueles metros Gates 7 aproveitando
+
+17
+00:01:43,030 --> 00:01:51,900
+que a gente viu na aula passada então colocar pessoas trans setas ou colocar o peso e eu não vou permitir
+
+18
+00:01:51,900 --> 00:02:00,660
+essa tal peso um valor negativo então faz o seguinte você o valor de peso tem peso for menor do que
+
+19
+00:02:00,660 --> 00:02:08,100
+zero significa na verdade ele tem que ser maior ou igual a zero para ele alterar tão só aí eu consigo
+
+20
+00:02:08,450 --> 00:02:16,740
+sentir o peso da e eu vou também colocar aqui solvente para ter um futuro público então públicos solvente
+
+21
+00:02:17,310 --> 00:02:28,800
+vai receber dá bom peso e aqui dentro eu vou chamar o 7 peso passando o valor do peso se você quiser
+
+22
+00:02:28,800 --> 00:02:34,140
+colocar um valor padrão por exemplo passe a tabela o Zero vai ficar 100 gramas mais ele vai acabar assumindo
+
+23
+00:02:34,140 --> 00:02:41,040
+um valor zero caso você não coloque um valor vale certo que também chamei o site peso esse mesmo código
+
+24
+00:02:41,040 --> 00:02:45,130
+aqui eu vou copiar para dentro de feijão.
+
+25
+00:02:45,240 --> 00:02:50,720
+A única coisa que eu preciso mudar nesse caso vai ser o nome do consultor porque eu vou chamar aqui
+
+26
+00:02:50,730 --> 00:02:53,440
+de feijão.
+
+27
+00:02:53,790 --> 00:02:59,460
+Ele vai ter um peso vai ter o atributo peso privado vai ter um metro Gate 7 e tal mas uma coisa eu vou
+
+28
+00:02:59,460 --> 00:03:06,830
+jogar com arroz então vou definir aqui um atributo só que eu vou mudar aquilo que custou pra arroz.
+
+29
+00:03:06,840 --> 00:03:13,050
+Também vai chamar o 7 peso e o 2 vai ter o peso assim como a pessoa também então vai jogar em pessoa
+
+30
+00:03:13,500 --> 00:03:20,950
+aqui ele vai ter meu peso e o peso da pessoa também não pode ser negativo.
+
+31
+00:03:21,030 --> 00:03:25,740
+Então obrigatoriamente seu setor o peso da pessoa tem seu peso positivo pronto.
+
+32
+00:03:25,740 --> 00:03:27,220
+Criei aqui.
+
+33
+00:03:27,240 --> 00:03:30,550
+Além de ter o peso da pessoa a pessoa vai ter um metro e meio.
+
+34
+00:03:30,990 --> 00:03:42,630
+Então vou colocar que o público vai comer e a pessoa vai receber por exemplo como parâmetro o arroz
+
+35
+00:03:42,660 --> 00:03:48,410
+então coloca arroz arroz o fazer o que a pessoa faz o seguinte.
+
+36
+00:03:48,810 --> 00:03:58,790
+Então desse ponto peso seria o peso da pessoa vai ser acrescentado o arroz com muito peso no caso o
+
+37
+00:03:58,960 --> 00:04:01,940
+ganho de peso que não tenham acesso ao atributo direto.
+
+38
+00:04:02,220 --> 00:04:03,840
+Vão duplicar.
+
+39
+00:04:03,840 --> 00:04:08,330
+Na verdade vou triplicar esse código aqui que há três versões do método comer.
+
+40
+00:04:08,490 --> 00:04:13,790
+Só que agora eu vou ter um outro comboio que vai receber feijão certo.
+
+41
+00:04:13,820 --> 00:04:21,840
+Só que eu vou chamar esse aqui de feijão feijão ponto ganho de peso e finalmente eu vou receber também
+
+42
+00:04:22,350 --> 00:04:30,780
+o sorvete então aqui não vai ser assim sorvete sorvete ponto perde peso ou seja a pessoa come Arroios
+
+43
+00:04:30,780 --> 00:04:35,610
+a pessoa com feijão a pessoa começou a beijá la eu vou precisar criar carne.
+
+44
+00:04:35,820 --> 00:04:41,510
+Então tem que a carne definhar futura de carne e criar um outro método comer para a carne latinha.
+
+45
+00:04:41,530 --> 00:04:42,790
+Dá para perceber um pouco né.
+
+46
+00:04:42,800 --> 00:04:46,350
+Vocês podem melhorar e consegui ter o polimorfismo.
+
+47
+00:04:46,710 --> 00:04:54,300
+E além disso eu vou criar aqui uma outra classe chamada jantar essa classe jantar nós teremos o nosso
+
+48
+00:04:54,300 --> 00:04:55,520
+método também.
+
+49
+00:04:56,090 --> 00:05:05,350
+E aqui no mato no meio eu vou criar a pessoa então pessoa convidado recebe mil pessoas.
+
+50
+00:05:05,870 --> 00:05:06,860
+é o peso da pessoa.
+
+51
+00:05:06,860 --> 00:05:15,060
+Vai ser 99 conto 65 quilos está quase chegando ao 100.
+
+52
+00:05:15,550 --> 00:05:31,030
+Vou criar aqui arroz ingrediente recebe mil pois o peso do arroz vai comê la 250 gramas de arroz.
+
+53
+00:05:31,160 --> 00:05:32,060
+Vou colocar aqui.
+
+54
+00:05:32,770 --> 00:05:39,270
+A verdade teria que ser 0 ponto 25 que seria quase como já 250.
+
+55
+00:05:39,270 --> 00:05:47,360
+Vou criar aqui um ingrediente 2 que vai ser o tipo o feijão.
+
+56
+00:05:49,130 --> 00:05:56,880
+Vou também colocar aqui o feijão pra comer 200 gramas de feijão 180 para não passar de 100 quilos então
+
+57
+00:05:57,080 --> 00:06:01,450
+já fazer o seguinte não vou pagar aqui imprimi.
+
+58
+00:06:01,800 --> 00:06:04,430
+Existem convidada.
+
+59
+00:06:04,620 --> 00:06:15,220
+Ponto perde peso o peso da pessoa inicialmente 99 em 65 conforme coloquei um convidado pontuou comer.
+
+60
+00:06:15,480 --> 00:06:23,240
+Vou passar aqui um ingrediente não tem problema ele consegue comer enchidos nunca o arroz consegue também
+
+61
+00:06:23,240 --> 00:06:25,870
+comer ingrediente 2 que é o feijão.
+
+62
+00:06:25,920 --> 00:06:33,890
+E SE A GENTE IMPRIMIR de novo convidado então grande peso vai perceber que a pessoa agora está quase
+
+63
+00:06:34,490 --> 00:06:35,240
+cem quilos.
+
+64
+00:06:35,240 --> 00:06:43,070
+Na verdade acabou passando aqui um pouco a fazer o seguinte eu vou a 100 gramas de feijão e 200 gramas
+
+65
+00:06:43,130 --> 00:06:52,250
+de arroz para usar o ponto 2 0 vai ficar bem perto de passarem de 100 100 quilos ficou a 99 quilos e
+
+66
+00:06:52,250 --> 00:07:02,730
+950 gramas ao peso da pessoa e eu posso eventualmente criar aqui um sorvete ou colocar a sobremesa mil
+
+67
+00:07:03,500 --> 00:07:05,520
+sorvete e vou colocar aqui.
+
+68
+00:07:05,520 --> 00:07:12,700
+Vai ser 400 os 400 gramas de sorvetes era o ponto 4 0 no final vai fazer diferença.
+
+69
+00:07:12,710 --> 00:07:20,720
+E finalmente eu vou duplicar essas 12 linhas aqui ou duplicar o comer e vou duplicar o peso final.
+
+70
+00:07:20,740 --> 00:07:26,750
+Então vou colocar pra ele comer a sobremesa certo então comer como sobremesa mostrou o peso com meus
+
+71
+00:07:26,750 --> 00:07:28,010
+dois ingredientes.
+
+72
+00:07:28,010 --> 00:07:34,370
+Da mesma forma que com meus dois ingredientes e mostrou o peso tão executando aqui o resultado final
+
+73
+00:07:34,370 --> 00:07:38,840
+vai ser 100 quilos e 350 gramas com aquele cabra.
+
+74
+00:07:38,870 --> 00:07:45,200
+Já comentei com vocês há muito tempo atrás falando e como o Java faz operações com ponto flutuante.
+
+75
+00:07:45,200 --> 00:07:49,480
+Então o pessoal do jeito que está aqui nós não usamos polimorfismo.
+
+76
+00:07:49,490 --> 00:07:54,820
+Na verdade eu usei sim o polimorfismo só OP Qual o polimorfismo estático.
+
+77
+00:07:54,820 --> 00:07:55,430
+Por quê.
+
+78
+00:07:55,430 --> 00:08:04,120
+Porque nesse caso o que eu fiz foi sobre escrever o método várias vezes servem então usei o fiz sobre
+
+79
+00:08:04,160 --> 00:08:10,640
+sobrecarga sobre escrever não fiz sobrecarga de métodos ou seja usar o mesmo nome sobre carreguei o
+
+80
+00:08:10,640 --> 00:08:16,570
+método múltiplas vezes de tal forma que eu tenho implementações diferentes com parâmetros diferentes.
+
+81
+00:08:16,700 --> 00:08:22,210
+Embora a lógica é muito parecida na verdade eu estou trabalhando com classes diferentes então sobre
+
+82
+00:08:22,220 --> 00:08:30,140
+carreguei o método comigo o que eu quero que vocês faça é substituir um polimorfismo estático por um
+
+83
+00:08:30,140 --> 00:08:36,350
+polimorfismo dinâmico 7 Pratt o polimorfismo de Nano que tem que fazer alguma coisa interessante.
+
+84
+00:08:36,350 --> 00:08:38,630
+Então esse é um desafio para vocês.
+
+85
+00:08:38,630 --> 00:08:44,580
+Na próxima aula vou lançar a resposta então mas usam sim um polimorfismo tal nem tão caro diz.
+
+86
+00:08:44,580 --> 00:08:50,060
+Mais gente usou o polimorfismo estático que é exatamente a sobrecarga de metros e na próxima hora mostrar
+
+87
+00:08:50,060 --> 00:08:54,890
+como transformar esse polimorfismo estático em um polimorfismo dinâmico.
+
+88
+00:08:54,890 --> 00:08:58,880
+Esse é o desafio que você tem que fazer faça na próxima aula mostrar resposta.

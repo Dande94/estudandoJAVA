@@ -1,0 +1,75 @@
+1
+00:00:00,270 --> 00:00:08,840
+Pessoal com relação ao desafio da classe data é muito esperado que você precise mostrar a data nesse
+
+2
+00:00:08,850 --> 00:00:17,950
+padrão que ou dia mês e ano é o cara que vocês criam um método dentro de data e o método colocar o nome
+
+3
+00:00:17,950 --> 00:00:29,070
+que vai ser data ou coloca aqui ao obter data formatada ou simplesmente obter dados não tem problema.
+
+4
+00:00:29,070 --> 00:00:33,510
+Você vai ter um conjunto de parâmetros ou não dependendo da situação.
+
+5
+00:00:33,590 --> 00:00:36,630
+E esse método vai retornar muito tipo certo.
+
+6
+00:00:37,020 --> 00:00:43,060
+Então eu quero que vocês definam esse método tanto defina qual tipo de retorno define quais são os parâmetros
+
+7
+00:00:43,260 --> 00:00:48,030
+que esses parâmetro e definam também a implementação desse método.
+
+8
+00:00:48,030 --> 00:00:50,180
+Na próxima aula eu mostro a resposta.
+
+9
+00:00:50,430 --> 00:00:54,790
+E aí você pode substituir o fator a data do teste.
+
+10
+00:00:54,840 --> 00:00:58,400
+Em vez de você executar isso aqui.
+
+11
+00:00:58,680 --> 00:01:04,180
+Chefe concatenar tudo você imprima os valores retornados.
+
+12
+00:01:04,290 --> 00:01:11,280
+A partir dessa função então não tenta dentro dessa classe colocar System Alt Print a linha e não quero
+
+13
+00:01:11,280 --> 00:01:16,680
+que vocês usem o System Alt que eu quero que esse método retorne alguma coisa e com o retorno desse
+
+14
+00:01:16,680 --> 00:01:24,000
+método na outra classe sim você para armazenar no variável mesmo passar direto valor pra um System em
+
+15
+00:01:24,000 --> 00:01:26,990
+algum ponto preenche ali alguma coisa do tipo certo.
+
+16
+00:01:27,000 --> 00:01:33,600
+Então a ideia é implementar essa função fatorial outra classe que você consiga e não necessariamente
+
+17
+00:01:33,600 --> 00:01:39,330
+precisar replicar essa lógica mais a lógica de formatar a data que um dia mês e ano vai ficar dentro
+
+18
+00:01:39,330 --> 00:01:40,920
+desse método aproximá la.
+
+19
+00:01:40,970 --> 00:01:41,550
+A resposta.

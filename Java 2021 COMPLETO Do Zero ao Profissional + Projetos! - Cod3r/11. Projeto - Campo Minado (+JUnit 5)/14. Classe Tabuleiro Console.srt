@@ -1,0 +1,843 @@
+1
+00:00:00,390 --> 00:00:09,890
+Agora nós vamos criar uma classe dentro do pacote visão que eu vou chamar essa classe de tabuleiro console
+
+2
+00:00:09,900 --> 00:00:15,030
+certo banheiro console ou terminal.
+
+3
+00:00:15,150 --> 00:00:20,240
+O que você achar melhor para apresentar que ele vai mostrar os dados no console.
+
+4
+00:00:20,760 --> 00:00:24,020
+E essa classe vai receber um tabuleiro comparando.
+
+5
+00:00:24,060 --> 00:00:31,720
+Então vou criar aqui um atributo que eu vou chamar de tabuleiro tabuleiro recebe na verdade eu vou receber
+
+6
+00:00:32,020 --> 00:00:40,330
+um parâmetro do construtor o craque em cujo tabuleiro o console eu vou passar um tabuleiro comparativo
+
+7
+00:00:41,970 --> 00:00:45,790
+tabuleiro bom ataque.
+
+8
+00:00:45,930 --> 00:00:51,570
+Desse ponto tabuleiro recebe tabuleiro pronto.
+
+9
+00:00:51,570 --> 00:00:57,520
+Aqui vai ser a nossa classe essa classe essa classe que nós vamos usá la não a nossa aplicação.
+
+10
+00:00:57,570 --> 00:01:07,290
+Então eu já vou fazer o seguinte jogo ou criar um tabuleiro console eu vou passar um tabuleiro e com
+
+11
+00:01:07,290 --> 00:01:11,500
+isso será o suficiente pra uma vez chamar nossa classe tabuleiro console.
+
+12
+00:01:11,940 --> 00:01:13,930
+O jogo começar inicia lá dentro.
+
+13
+00:01:14,010 --> 00:01:19,310
+Então vou mostrar pra vocês agora então pronto criar um tabuleiro com a quantidade de linhas e colunas
+
+14
+00:01:19,320 --> 00:01:22,050
+a quantidade de minas e passar o tabuleiro o console.
+
+15
+00:01:22,050 --> 00:01:27,930
+Essa classe vai ser responsável por ficar fazendo o link do jogo na casa e também perguntando para o
+
+16
+00:01:27,930 --> 00:01:29,660
+usuário as informações.
+
+17
+00:01:29,670 --> 00:01:36,550
+Caso dê algum erro ele pergunte pelo usuário se ele quer continuar ou não falando em erro.
+
+18
+00:01:36,600 --> 00:01:42,450
+Sair por exemplo do jogo eu vou criar uma outra exceção tendo dois casos que eu quero mudar o fluxo
+
+19
+00:01:42,450 --> 00:01:47,760
+do jogo e quando acontecer uma explosão que necessariamente eu já quero ir para um ponto que ele vai
+
+20
+00:01:47,850 --> 00:01:50,590
+achar que o usuário perdeu o outro.
+
+21
+00:01:50,610 --> 00:01:54,560
+Outro desvio do fluxo vai ser quando o usuário quiser sair do jogo.
+
+22
+00:01:54,570 --> 00:01:59,750
+E para isso eu vou criar uma exceção certa eu poderia trabalhar estender a lógica mas eu quero também
+
+23
+00:01:59,760 --> 00:02:06,420
+trabalhar com essa ação então saí Section e essa seção pode ser não checar.
+
+24
+00:02:06,420 --> 00:02:14,240
+Pode ser checado do jeito que você quiser eu vou colocar também como não checadas assistentes Lantern
+
+25
+00:02:16,120 --> 00:02:21,800
+Section e também eu vou colocar aqui com uma das formas de resolver.
+
+26
+00:02:22,020 --> 00:02:26,280
+Essa advertência vou colocar pra ele gerar o default serial.
+
+27
+00:02:26,340 --> 00:02:30,580
+Acho que ele vai gerar um longo dilema gerado com um.
+
+28
+00:02:30,660 --> 00:02:37,230
+Aqui nesse caso não precisaria do L posso colocar só seja em outras palavras o serial fecho o Haiti
+
+29
+00:02:38,160 --> 00:02:40,850
+é um valor que seria dado o padrão aqui.
+
+30
+00:02:40,860 --> 00:02:45,720
+Como não vou precisar para pagar essa parte de serialização eu nem falei sobre isso no custo.
+
+31
+00:02:45,720 --> 00:02:52,290
+Então eu vou colocar como aqui que vai ser suficiente que o nosso cenário então nesse caso nós criamos
+
+32
+00:02:52,290 --> 00:03:03,300
+aqui um tabuleiro e aqui eu vou criar um metro chamado Zé que está em jogo nesse primeiro metro que
+
+33
+00:03:03,300 --> 00:03:11,430
+eu criei não existe Metro vou mandar ele criar agora um método privado eu vou ficar testado em relação
+
+34
+00:03:11,800 --> 00:03:16,500
+a principalmente essa questão se o cara quer ou não continuar o jogo então pra isso eu vou fazer o seguinte
+
+35
+00:03:16,500 --> 00:03:23,820
+Aqui no método de executar o jogo eu vou fazer um ticket e é exatamente em cima dessa seção que eu acabei
+
+36
+00:03:23,820 --> 00:03:25,350
+de criar que eu vou tratar aqui.
+
+37
+00:03:25,410 --> 00:03:33,480
+Então se o usuário chamar saí sabichão ou simplesmente tratar o erro mostrando para o usuário que o
+
+38
+00:03:33,480 --> 00:03:38,080
+System Alt shard ou seja vai sair do jogo.
+
+39
+00:03:38,100 --> 00:03:46,110
+E outra coisa que eu vou precisar também aqui é criar um escaneia além de ter um tabuleiro o Um que
+
+40
+00:03:46,160 --> 00:03:52,890
+está no que eu precisar pedi as entradas do usuário na entrada recebe todos os canais que eu criei até
+
+41
+00:03:52,890 --> 00:04:01,320
+agora dentro do metro no meio mas nada impede de ele ficar dentro de um atributo da própria classe então
+
+42
+00:04:01,370 --> 00:04:03,390
+que é um atributo distância.
+
+43
+00:04:03,560 --> 00:04:09,480
+Criamos Kana chamada entrada e nesse tracker de que eu vou criar um fala ele que a gente também viu
+
+44
+00:04:09,480 --> 00:04:10,660
+lá no tratamento.
+
+45
+00:04:11,020 --> 00:04:17,940
+Essa ação eu vou chamar aqui uma entrada ponto com uso pra garantir que esse meu canto de entrada vai
+
+46
+00:04:17,940 --> 00:04:18,990
+ser finalizado.
+
+47
+00:04:18,990 --> 00:04:25,310
+Independente de acontecer uma exceção ou não ele vai chamar uma entrada com os que estão aqui dentro.
+
+48
+00:04:25,350 --> 00:04:32,820
+E o que eu vou executar o jogo faz o seguinte eu vou criar um atributo chamado continuar que inicialmente
+
+49
+00:04:34,210 --> 00:04:35,400
+é verdadeiro.
+
+50
+00:04:35,670 --> 00:04:44,790
+E aí eu coloco enquanto continuar for verdadeiro ele ficar executando o bloco Eu quando o usuário não
+
+51
+00:04:44,790 --> 00:04:47,480
+fumar e não quiser mais continuar a ser esconder não.
+
+52
+00:04:47,490 --> 00:04:49,500
+No final do jogo ele sai.
+
+53
+00:04:49,500 --> 00:04:53,230
+Mesmo que ele não tenha executado essa ação de saída eu saí.
+
+54
+00:04:53,300 --> 00:05:00,180
+Se tiver no meio do jogo quiser sair sem ter que esperar o jogo inteiro ele chama não saí e era ele
+
+55
+00:05:00,180 --> 00:05:04,140
+acabou saindo do jogo tal qual a primeira coisa que eu vou perguntar aqui para o usuário.
+
+56
+00:05:04,140 --> 00:05:10,680
+Antes de a gente entrar realmente no ciclo do jogo eu vou jogar tinha um System onde ele pega um tapa
+
+57
+00:05:10,680 --> 00:05:18,980
+o cara se ele quer fazer em outra partida então outra partida e aí eu voltei aquele padrão do Linux
+
+58
+00:05:18,990 --> 00:05:24,470
+quando você tem uma resposta padrão ele coloca em maiúsculo e a resposta não padrão fique minúsculo
+
+59
+00:05:24,480 --> 00:05:31,440
+se o usuário não digitar nada automaticamente ele vai considerar como cenários poste padrão e assim
+
+60
+00:05:31,740 --> 00:05:34,590
+se o usuário digita e aí sim aquele sai.
+
+61
+00:05:34,900 --> 00:05:45,100
+Vou fazer o seguinte vou fazer um teste logo depois fase inicial sim deve se usar digitou e os ignore
+
+62
+00:05:45,180 --> 00:05:47,540
+Keys foi exatamente a resposta dele.
+
+63
+00:05:47,550 --> 00:05:56,670
+Então aquilo tem que ter uma resposta e eu vou colocar um atributo string em resposta resposta recebe
+
+64
+00:05:56,850 --> 00:05:58,870
+entrada pronto.
+
+65
+00:05:59,210 --> 00:06:07,330
+Max delay e voltar a aqui se a resposta do usuário foi não se tivesse ido ou não.
+
+66
+00:06:07,410 --> 00:06:11,490
+Eu vou colocar porque não a recebe falso.
+
+67
+00:06:11,490 --> 00:06:19,760
+Caso contrário ele não faz nada a única coisa que eu vou fazer vai se chamar tabuleiro ponto inicial.
+
+68
+00:06:19,800 --> 00:06:21,310
+Aí sim ele reinicia o jogo.
+
+69
+00:06:21,720 --> 00:06:29,240
+Ou seja nesse ponto já está funcionando alguma coisa ao seu ataque a aplicação aberta.
+
+70
+00:06:29,620 --> 00:06:36,700
+Na outra partida se eu colocar simplesmente gente já tentar outra partida continua.
+
+71
+00:06:37,030 --> 00:06:41,870
+E aí está ele sai do jogo e termina nossa aplicação.
+
+72
+00:06:41,880 --> 00:06:47,100
+Obviamente não estou mostrando ainda o nosso tabuleiro e eu vou mostrar isso a partir do médio que eu
+
+73
+00:06:47,100 --> 00:06:52,860
+vou criar agora dentro do tabuleiro console antes de entrar para tentar uma nova partida eu vou colocar
+
+74
+00:06:52,860 --> 00:07:02,900
+aqui ou lúpus vou criar aqui um medalhão vai ser o ciclo do jogo ou o lucro do jogo tanto faz essa função.
+
+75
+00:07:02,940 --> 00:07:08,430
+Qualquer um com um jogo para ele criar um método em privado e aqui dentro nós vamos ter realmente o
+
+76
+00:07:08,430 --> 00:07:14,670
+lucro que eu vou ficar perguntando para o usuário digitar qual é a linha da coluna se ele quer marcar
+
+77
+00:07:14,670 --> 00:07:20,690
+se ele quer desmarcar as coisas do tipo e esse método também eu quero criar aqui um traficante.
+
+78
+00:07:21,060 --> 00:07:25,110
+Só que agora eu vou tratar nesse ponto aqui.
+
+79
+00:07:25,440 --> 00:07:36,910
+à exceção do tipo fazer um card aqui em cima da seção explosão explosão e sexo aí sim nesse caso acusará
+
+80
+00:07:37,020 --> 00:07:38,360
+o usuário tenha perdido.
+
+81
+00:07:38,370 --> 00:07:41,310
+Então se ele caiu aqui eu vou colocar.
+
+82
+00:07:41,460 --> 00:07:50,880
+Por exemplo você perdeu e se ele saiu do trailer chegou aqui no final do trailer a passagem do ciclo
+
+83
+00:07:50,880 --> 00:08:02,670
+do jogo aqui significa você ganhou você ganha ou você perdeu.
+
+84
+00:08:03,500 --> 00:08:05,080
+Então o ciclo do jogo já está aqui.
+
+85
+00:08:05,080 --> 00:08:10,540
+A única coisa que ele está fazendo isso quando vai dar essa série vai ser mostrar que ganhou novamente
+
+86
+00:08:11,370 --> 00:08:14,110
+a aplicação você ganhou cada partida.
+
+87
+00:08:14,130 --> 00:08:15,570
+Sim você ganhou.
+
+88
+00:08:15,570 --> 00:08:17,270
+Sim sim sim.
+
+89
+00:08:17,340 --> 00:08:23,040
+Se eu colocar um em maiúsculo como ele está ignorando ele vai sair do jogo até que eu vou fazer aqui
+
+90
+00:08:23,030 --> 00:08:24,850
+em relação ao ciclo do jogo.
+
+91
+00:08:24,880 --> 00:08:29,670
+Vamos precisar também definir um laço e esse Wario.
+
+92
+00:08:30,150 --> 00:08:36,780
+Ele vai ser baseado em cima se o objetivo do jogo foi ou não alcançado então por exemplo um tabuleiro
+
+93
+00:08:37,130 --> 00:08:40,290
+ponto objetivo alcançado.
+
+94
+00:08:40,440 --> 00:08:47,430
+Ou seja enquanto o objetivo do jogo não tiver sido alcançado ele vai continuar executando o lucro do
+
+95
+00:08:47,430 --> 00:08:48,390
+jogo.
+
+96
+00:08:48,390 --> 00:08:52,640
+Quando o objetivo for alcançado aí sim ele vai sair mas ganhou.
+
+97
+00:08:52,650 --> 00:09:00,150
+Paul Singer algum essa ação aqui você tentou abri um campo que tem mina ele gera uma seção cai diretamente
+
+98
+00:09:00,300 --> 00:09:05,710
+no caixote e já mostra que o usuário perdeu saindo desse método do ciclo do jogo.
+
+99
+00:09:05,750 --> 00:09:11,190
+Ali vai entrar para perguntar se o usuário quer uma nova partida caso queira ele em seu tabuleiro e
+
+100
+00:09:11,190 --> 00:09:14,140
+continua novamente chamando o ciclo do jogo.
+
+101
+00:09:14,280 --> 00:09:19,240
+Exatamente o que vai acontecer aqui dentro que é que nós vamos fazer a primeira coisa que eu vou pedir
+
+102
+00:09:19,250 --> 00:09:24,990
+pra mostrar o tabuleiro então system on line roxa chamado tabuleiro.
+
+103
+00:09:25,440 --> 00:09:31,770
+Eu posso chamar só isso então de forma explícita o Extreme também pode colocar naquele distrito mais
+
+104
+00:09:31,770 --> 00:09:34,610
+só o tabuleiro já é o suficiente.
+
+105
+00:09:34,620 --> 00:09:37,430
+O próximo passo vai ser a gente pegar o valor digitado.
+
+106
+00:09:37,500 --> 00:09:43,160
+Então vou criar aqui algo chamada digitado vai receber um valor.
+
+107
+00:09:43,410 --> 00:09:49,620
+Como a gente vai ter um passo a passo repetitivo eu vou criar um método que vai ser o match o seguinte
+
+108
+00:09:49,620 --> 00:09:56,790
+o nome do método vai ser eu vou colocar aqui também o método privado vai tornar bode o nome do método
+
+109
+00:09:56,790 --> 00:10:01,710
+vai ser capturar valor digitado.
+
+110
+00:10:02,400 --> 00:10:06,990
+E esse método vai receber um texto que eu vou exibir para o usuário.
+
+111
+00:10:07,060 --> 00:10:12,420
+Não vai ser o texto que eu vou obviamente capturar vou mostrar um TED digite o valor de x e y e eu vou
+
+112
+00:10:12,420 --> 00:10:17,910
+pagar um valor capturado aqui dentro eu vou fazer o seguinte primeiro vou dar um sistema de print além
+
+113
+00:10:18,390 --> 00:10:20,960
+do texto que foi passado como parâmetro.
+
+114
+00:10:21,070 --> 00:10:28,360
+O próximo passo vai ser pegar aqui o valor digitado e eu pagar ele a partir de entrada.
+
+115
+00:10:28,360 --> 00:10:31,350
+Ponto nexos online.
+
+116
+00:10:31,790 --> 00:10:46,250
+Ou seja o próximo passo é eu vou colocar o seguinte Se o usuário digitou sai o valor digitado e os ignore
+
+117
+00:10:46,260 --> 00:10:52,780
+Keys e com os cabelos ignore que fiz em cima do valor digitado.
+
+118
+00:10:52,810 --> 00:10:57,780
+Como fazer aqui eu vou lançar essa ação que fazer que alterou.
+
+119
+00:10:58,770 --> 00:11:01,760
+Eu saí Accept.
+
+120
+00:11:02,580 --> 00:11:09,270
+Ou seja ele vai lançar uma exceção caso o usuário digite o valor saí ignorando letras maiúsculas e minúsculas
+
+121
+00:11:09,270 --> 00:11:10,790
+vocês digitou saí.
+
+122
+00:11:10,890 --> 00:11:16,380
+Caio nesse caso o que ele vai lançar uma exceção pra quem realmente posso finalizar e saí do jogo.
+
+123
+00:11:16,410 --> 00:11:25,740
+Então do jeito que está aqui ao capturar valor digitado eu acabei valor digitado capturar o valor digitado
+
+124
+00:11:26,180 --> 00:11:34,830
+e eu vou colocar a seguinte frase colocar aqui digite X e Y com as linhas né.
+
+125
+00:11:34,830 --> 00:11:37,420
+Por exemplo aqui embaixo.
+
+126
+00:11:38,430 --> 00:11:44,880
+Talvez fosse o caso de mostrar usando print e não print ali pra poder ficar na mesma unidade então capturar
+
+127
+00:11:44,880 --> 00:11:51,930
+o valor digitado ele vai ficar sempre capturando o valor digitado que eu tenho que retornar extraindo.
+
+128
+00:11:52,000 --> 00:12:01,650
+Não se vai tornar no final britânico o valor digital de cada ponto e vírgula não tenho como fazer vou
+
+129
+00:12:01,650 --> 00:12:03,180
+mostrar o texto.
+
+130
+00:12:03,450 --> 00:12:09,870
+Vou capturar a ilha a partir do Escânia entrara pouco naquele valor digitado se o valor digitado foi
+
+131
+00:12:09,870 --> 00:12:12,020
+igual a si aí não é exceção.
+
+132
+00:12:12,150 --> 00:12:18,150
+Caso contrário retorna o valor digitado e em cima desse valor digitado que eu vou fazer os próximos
+
+133
+00:12:18,150 --> 00:12:23,910
+processamentos são pra gente estar aqui já que agora a gente consegue sair do jogo se quiser executado
+
+134
+00:12:24,600 --> 00:12:33,030
+ele mostrou e pediu pra digitar fiz isso eu vou colocar dois vírgula 1,2 por exemplo 1,2 apitando mostrou
+
+135
+00:12:33,030 --> 00:12:41,400
+de novo 2 2 3 4 3 onde saí saí dá um tchau sai do jogo.
+
+136
+00:12:41,720 --> 00:12:47,450
+Ou seja essa lógica já está funcionando o próximo passo é uma vez que eu digite o valor ou alguma coisa
+
+137
+00:12:47,460 --> 00:12:55,140
+digo alguma coisa eu vou ter que quebrar esse valor e gerar os inteiros x e y como linha coluna.
+
+138
+00:12:55,140 --> 00:12:57,590
+Existem muitas formas de fazer isso.
+
+139
+00:12:58,260 --> 00:13:03,900
+Então você pode pagar que o valor digitado ponto.
+
+140
+00:13:04,310 --> 00:13:06,560
+E aí eu vou colocar aqui.
+
+141
+00:13:06,660 --> 00:13:12,740
+Explico por vírgula se eu fizer isso e mostrar aqui no terminal o não só o que está acontecendo pois
+
+142
+00:13:12,900 --> 00:13:17,710
+está novamente a digitar aqui 1,2.
+
+143
+00:13:17,870 --> 00:13:21,210
+Você viu que ele gerou um arranha céus aqui.
+
+144
+00:13:21,210 --> 00:13:31,730
+Na verdade não é isso aqui o sistema de cristianismo não é legal mas o 3 ponto G String e aí coloca
+
+145
+00:13:31,730 --> 00:13:38,460
+aqui o valor digitado aqui e vou pagar isso jogar no console no sistema tipicamente se eu fizer isso
+
+146
+00:13:39,620 --> 00:13:41,010
+novamente ok.
+
+147
+00:13:41,100 --> 00:13:42,210
+2.
+
+148
+00:13:42,570 --> 00:13:49,710
+Ele gerou atirei com 2 só que continuou sendo estridentes e não valores inteiros então pra isso a gente
+
+149
+00:13:49,710 --> 00:13:54,330
+precisa fazer algumas modificações pra realmente tem os valores inteiros.
+
+150
+00:13:54,330 --> 00:14:01,020
+Então como eu sei que isso aqui é um rei dentro da rede tem um método chamado Twin eu posso gerar uma
+
+151
+00:14:01,020 --> 00:14:07,710
+historinha a partir de uma rede que é exatamente o que eu fiz aqui já era nossa isto eu posso fazer
+
+152
+00:14:07,850 --> 00:14:14,870
+um mapeamento chamar um mapa para transformar cada um dos elementos que são elementos do tipo string
+
+153
+00:14:15,120 --> 00:14:17,100
+e transformar isso interagirem.
+
+154
+00:14:17,520 --> 00:14:24,370
+Então para eu fazer isso eu posso chamar aqui ou concatenar com um Mac dentro do mapa em Flash marginal
+
+155
+00:14:24,670 --> 00:14:35,510
+ou usar um Mac para cada um dos elementos eu vou aplicar a seguinte lógica aqui muita gente com passe
+
+156
+00:14:35,830 --> 00:14:42,030
+muitos passa mais 30 que apresenta esse elemento aqui executado aqui.
+
+157
+00:14:42,050 --> 00:14:44,460
+Vou colocar aqui um vírgula.
+
+158
+00:14:44,490 --> 00:14:45,530
+Passo 2.
+
+159
+00:14:45,630 --> 00:14:51,590
+O próximo passo vai ser eu armazenar isso em alguma coisa e então fazer o seguinte ou apagar aquilo
+
+160
+00:14:51,920 --> 00:15:06,340
+e terei e vou criar me ter feito e terei de palpiteiro vou chamar aqui X Y recebe isso aqui tem várias
+
+161
+00:15:06,340 --> 00:15:10,000
+formas de fazer que eu estou mostrando a forma que eu tenho um valor.
+
+162
+00:15:10,010 --> 00:15:19,160
+Quebrei por vírgula e peguei os valores numéricos de tal forma que se eu imprimia que x y ponto Nash
+
+163
+00:15:19,480 --> 00:15:32,050
+Nash não pagar direto o valor x y pouco marketing ele vai mostrar que ao colocar 1,2 pegou o balão.
+
+164
+00:15:32,110 --> 00:15:33,700
+Exatamente acreditei.
+
+165
+00:15:33,760 --> 00:15:40,840
+Se eu pegar o México outra vez e também jogar aqui no espaço.
+
+166
+00:15:40,840 --> 00:15:42,100
+Passo 2.
+
+167
+00:15:42,100 --> 00:15:47,330
+Ele gerou um problema na hora de converter por conta do não performático sabichão.
+
+168
+00:15:47,620 --> 00:15:53,920
+é pra gente resolver isso é fácil basta pegar aquele ponto 30 que tira os espaços em branco.
+
+169
+00:15:54,010 --> 00:15:58,660
+Levando em consideração que eu estou esperando que o usuário digite o valor correto se você começa a
+
+170
+00:15:58,660 --> 00:16:06,730
+colocar texto ele vai gerar problemas se você está só um valor é só o X e não X ou Y vai gerar problema
+
+171
+00:16:06,730 --> 00:16:13,300
+e a gente pode simplesmente sair do jogo o site fazer um tratamento aqui dizer tchau se digitou errado
+
+172
+00:16:13,570 --> 00:16:18,910
+ou pode ficar pedindo pelo usuário de estar de novo pra não ficar muito complexo a lógica eu vou imaginar
+
+173
+00:16:18,910 --> 00:16:21,920
+que você vai digitar de forma correta então algo ali.
+
+174
+00:16:21,940 --> 00:16:25,600
+Aqui as execuções tá mais uma vez.
+
+175
+00:16:26,650 --> 00:16:30,440
+Então aqui uma virgula espaço espaço espaço.
+
+176
+00:16:30,550 --> 00:16:38,080
+2 Ele mostrou algo o valor 1 ou 2 que é exatamente os valores que eu preciso pra fazer a próxima operação
+
+177
+00:16:38,570 --> 00:16:44,440
+para essa operação pode ser abri ou marca só as duas operações que eu posso fazer com um determinado
+
+178
+00:16:44,440 --> 00:16:47,930
+campo selecionado e uma vez que eu já tenho o X ou Y.
+
+179
+00:16:47,960 --> 00:16:49,930
+Eu vou perguntar para o usuário que é que ele quer fazer.
+
+180
+00:16:49,930 --> 00:17:08,230
+Então vou dizer o seguinte só pra abri ou dois pra cima desse macaco pode se marcar ou desmarcar.
+
+181
+00:17:08,290 --> 00:17:15,610
+Nesse caso também na verdade eu tento usar e capturar valor digitado na a função que eu já já fiz pra
+
+182
+00:17:15,610 --> 00:17:18,320
+isso então esse vai ser o texto para abril.
+
+183
+00:17:18,320 --> 00:17:25,630
+2 Para marcar desmarcar e eu vou armazenar o resultado disso no valor digitado usa a mesma variável
+
+184
+00:17:25,830 --> 00:17:33,370
+que já criei em cima obviamente sem o tipo dela que eu dou uma variável estou usando e uma vez feito
+
+185
+00:17:33,370 --> 00:17:44,050
+isso eu vou pagar o valor digitado e testar se o valor digitado foi então e não preciso ignorar que
+
+186
+00:17:44,670 --> 00:17:52,210
+digitado foi o seguinte eu quero marcar então vou chamar o tabuleiro conta que eu quero abrir na verdade
+
+187
+00:17:52,210 --> 00:18:08,620
+não marcar nem então abri passando o X Y NET e vou passar aqui x y e no outro cenário se o usuário digitar
+
+188
+00:18:08,620 --> 00:18:20,580
+2 eu vou colocar aqui em Manaus se o usuário digita 2 leia mais aqui eu vou dizer que ele vai não abri
+
+189
+00:18:20,600 --> 00:18:28,840
+e vai marcar o campo marcar ou desmarcar alternar marcação não vai se alternar a marcação e a linha
+
+190
+00:18:28,840 --> 00:18:36,310
+também será conseguida a partir do X Y Macchi duas vezes ele vai chamar os dois valores que foram resolvidos
+
+191
+00:18:36,310 --> 00:18:42,490
+a partir dessa operação aqui tem formas mais simples talvez fique mais didático o código se for o caso
+
+192
+00:18:42,490 --> 00:18:45,210
+a gente pode ir depois e faturar para outra forma.
+
+193
+00:18:45,550 --> 00:18:49,410
+Mas basicamente o é que eu estou fazendo aqui no fluxo principal do jogo.
+
+194
+00:18:49,480 --> 00:18:51,060
+O objetivo foi alcançado.
+
+195
+00:18:51,070 --> 00:18:51,460
+Não.
+
+196
+00:18:51,610 --> 00:18:55,090
+Então vá lá comece as etapas mostro o tabuleiro.
+
+197
+00:18:55,090 --> 00:19:02,320
+Pegue os valores das coordenadas x e y pegou a bola da condenada transforme o valor da coordenada pra
+
+198
+00:19:02,320 --> 00:19:03,810
+um valor inteiro.
+
+199
+00:19:03,880 --> 00:19:10,930
+Então eu peguei um terei então dois valores inteiros o X e o Y depois pega a informação se o cara quer
+
+200
+00:19:10,930 --> 00:19:16,220
+abrir o campo que você acabou de pagar coordenada ou se ele quer marcar o desmarcar.
+
+201
+00:19:16,270 --> 00:19:23,110
+Fazendo isso você vai pegar o valor digitado se for ele vai chamar tabuleiro pronto abri pagando os
+
+202
+00:19:23,110 --> 00:19:29,680
+dois valores X e Y se for 2 e vai pegar o tabuleiro pontapé na marcação pagando x y.
+
+203
+00:19:29,680 --> 00:19:35,090
+Se em algum momento dentro do capturar valor digitado o usuário digitou a palavra saí.
+
+204
+00:19:35,160 --> 00:19:37,090
+Eles geram essa ação sai do jogo.
+
+205
+00:19:37,150 --> 00:19:37,570
+Pronto.
+
+206
+00:19:37,570 --> 00:19:40,430
+Uma vez feito isso a gente está com o jogo implementado.
+
+207
+00:19:40,460 --> 00:19:45,910
+Eu vou deixar para a gente testar o jogo na próxima aula pra gente eventualmente com o jogo eu vou fazer
+
+208
+00:19:45,910 --> 00:19:47,110
+alguma melhoria.
+
+209
+00:19:47,110 --> 00:19:51,040
+Mais gente vai baixar na próxima aula aquele que a gente já implementou então fique por aqui na próxima
+
+210
+00:19:51,040 --> 00:19:53,920
+aumente o teste do jogo pra saber está tudo ok.
+
+211
+00:19:53,920 --> 00:19:57,730
+Faz qualquer tipo de melhoria ou correção que precise eu espero lá.

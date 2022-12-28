@@ -1,0 +1,67 @@
+1
+00:00:00,120 --> 00:00:04,500
+Pessoal o primeiro desafio é colocar ou lançar para vocês aqui no curso aqui vocês criam um projeto
+
+2
+00:00:04,500 --> 00:00:10,770
+com o nome do projeto vai ser faculdade certo e eu quero que você crie alguns pacotes e alguns arquivos
+
+3
+00:00:10,770 --> 00:00:16,460
+para você treinar criar um projeto para você treinar a criação dos pacotes e pra você treinar até minha
+
+4
+00:00:16,470 --> 00:00:22,310
+criação dos arquivos e também nesse exercício além de testar a parte mecânica de como criar um projeto
+
+5
+00:00:22,320 --> 00:00:28,470
+como criar um pacote como criar um arquivo que gera um novo pacote legal isso é um exercício que vou
+
+6
+00:00:28,480 --> 00:00:32,850
+mostrar para você na próxima aula que a gente já fez isso um homem como a gente criou o homem aqui em
+
+7
+00:00:32,850 --> 00:00:35,400
+exercício agora tem mais de um projeto máquina.
+
+8
+00:00:35,790 --> 00:00:38,950
+Nós criamos o primeiro programa juntamente com o pacote.
+
+9
+00:00:38,950 --> 00:00:45,240
+Não sei se vocês lembram e já nesse exercício aqui Primeiro criei o pacote básico depois eu criei os
+
+10
+00:00:45,240 --> 00:00:49,240
+arquivos da eu quero que você além de treinar essa parte mecânica.
+
+11
+00:00:49,440 --> 00:00:54,410
+Eu quero que vocês treinem a imaginação dentro de um sistema de faculdade.
+
+12
+00:00:54,480 --> 00:00:58,640
+E quais são os pacotes que você pensa que seriam importantes.
+
+13
+00:00:58,840 --> 00:01:04,380
+Pensa do ponto de vista da lógica de uma faculdade como você organizar em uma faculdade o mundo real
+
+14
+00:01:04,710 --> 00:01:10,940
+e não tanto em detalhes de codificação e não tanto sobre se você já tem mais experiência como você analisaria
+
+15
+00:01:10,950 --> 00:01:12,540
+de fato um projeto real.
+
+16
+00:01:12,630 --> 00:01:17,360
+Então a ideia desse desafio é exatamente isso tenta bolar faz exatamente o que eu fiz aqui na clínica
+
+17
+00:01:17,370 --> 00:01:20,310
+só que para uma faculdade e eu te vejo na proximal.

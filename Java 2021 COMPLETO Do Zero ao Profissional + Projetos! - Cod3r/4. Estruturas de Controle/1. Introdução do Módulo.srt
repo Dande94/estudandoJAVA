@@ -1,0 +1,107 @@
+1
+00:00:00,150 --> 00:00:06,540
+Agora nesse capítulo nós vamos trabalhar com as estruturas de controle para que a gente possa conseguir
+
+2
+00:00:06,540 --> 00:00:12,990
+de forma condicional executar um bloco ou uma sentença de código e também fazer repetições são os lobos
+
+3
+00:00:13,340 --> 00:00:17,470
+lá no primeiro capítulo na aula de algorítimo visão geral de algoritmo.
+
+4
+00:00:17,760 --> 00:00:23,700
+Eu falei para vocês que o algoritmo é uma sequência de passos e esses passos podem sim ser executados
+
+5
+00:00:23,700 --> 00:00:29,640
+do primeiro até o último passando por todos os passos mais em algumas situações você vai precisar só
+
+6
+00:00:29,640 --> 00:00:35,550
+executar um determinado passo quando uma condição for satisfeita ou seja você tem uma determinada situação
+
+7
+00:00:35,880 --> 00:00:37,710
+dentro do seu código ao aluno.
+
+8
+00:00:37,890 --> 00:00:43,570
+Ele tirou uma nota que é suficiente para passar de ano e você executa alguns passos não ele ficou de
+
+9
+00:00:43,590 --> 00:00:45,820
+recuperação executou um dos passos.
+
+10
+00:00:45,880 --> 00:00:51,210
+Aí eu preciso fazer a média de todas as notas do aluno do aluno do ano que são 10 notas você vai ter
+
+11
+00:00:51,210 --> 00:00:58,470
+um loop pra fazer a soma das notas então tudo isso a repetição laços de repetição e executar código
+
+12
+00:00:58,470 --> 00:01:04,110
+de forma condicional e algumas sentenças de código ou mesmo uma sentença de código será executada quando
+
+13
+00:01:04,110 --> 00:01:06,410
+uma determinada condição for satisfeita.
+
+14
+00:01:06,420 --> 00:01:12,120
+Tudo isso está dentro do conjunto das estruturas de controle e a gente vai ver várias estruturas de
+
+15
+00:01:12,120 --> 00:01:17,840
+controle e vários exercícios vários desafios pra que você possa dominar isso depois que a gente introduzir
+
+16
+00:01:17,850 --> 00:01:23,130
+as estruturas de controle dentro do nosso curso abre um leque de possibilidades de coisas que a gente
+
+17
+00:01:23,130 --> 00:01:29,400
+pode fazer em termos de algoritmo e desafios também é muito importante que você domina as estruturas
+
+18
+00:01:29,400 --> 00:01:35,070
+de controle é muito importante que você saiba para que serve cada um e como usar a melhor estrutura
+
+19
+00:01:35,070 --> 00:01:37,870
+de controle em cada cenário cada contexto.
+
+20
+00:01:38,070 --> 00:01:43,440
+E aí uma vez que você domina esses recursos nem da linguagem vai abrir uma série de possibilidades para
+
+21
+00:01:43,440 --> 00:01:44,850
+a gente jogar para vocês.
+
+22
+00:01:44,880 --> 00:01:50,010
+Que desafios mais interessantes porque praticamente qualquer programa que cresça um pouco mais vai demandar
+
+23
+00:01:50,010 --> 00:01:55,380
+algum tipo de futuro de controle é muito importante a gente conhecer esse assunto que também faz parte
+
+24
+00:01:55,380 --> 00:02:01,520
+dos fundamentos da linguagem embora eu tenha separado um capítulo diferente ainda e nós vamos trabalhar
+
+25
+00:02:01,520 --> 00:02:06,990
+nas bases da linguagem para que você com bases sólidas consiga desenvolver muitas coisas legais em Java
+
+26
+00:02:06,990 --> 00:02:08,100
+e então fique por aqui.
+
+27
+00:02:08,220 --> 00:02:11,880
+Na próxima a gente começa a trabalhar as estruturas de controle em Java e até lá.

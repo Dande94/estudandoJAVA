@@ -1,0 +1,167 @@
+1
+00:00:00,470 --> 00:00:08,670
+Nós vamos criar a nossa classe para responder ao desafio aproveitar que o nome da classe atual é criar
+
+2
+00:00:09,120 --> 00:00:11,790
+um arquivo.
+
+3
+00:00:12,480 --> 00:00:16,700
+NOVA CLASSE ou chamar quindim consultar a pessoa.
+
+4
+00:00:16,720 --> 00:00:27,510
+2 Vou copiar o código do conceito da pessoa aqui o método nem jogar pra cá e como fazer em termos de
+
+5
+00:00:27,510 --> 00:00:28,490
+mudança.
+
+6
+00:00:28,500 --> 00:00:38,110
+A primeira coisa que eu vou fazer colocar aqui ou colocar aqui no Omi laicos e vou colocar aqui um percentual
+
+7
+00:00:38,150 --> 00:00:43,080
+percentual não uma interrogação falam em percentual você não pode colocar o percentual aqui em certo
+
+8
+00:00:43,170 --> 00:00:49,800
+mesmo colocando aspas simples não vai funcionar a gente coloca o parâmetro e na hora de passar o parâmetro
+
+9
+00:00:49,800 --> 00:00:54,840
+é que a gente coloca os percentuais e torna até um pouco mais flexível porque pode ter momento que você
+
+10
+00:00:54,840 --> 00:01:01,560
+terá que constar só no começo as primeiras letras as últimas letras contém e você consegue flexibilizar
+
+11
+00:01:01,560 --> 00:01:08,460
+um pouco mais aqui no caso do estreitamento eu vou ter um pouco persistentemente em vez de criar aqui
+
+12
+00:01:08,580 --> 00:01:18,920
+eu vou criar usando um método não estritamente passando o SQL não vou passar o SQL aqui embaixo você
+
+13
+00:01:18,920 --> 00:01:26,610
+tá o parâmetro na verdade é o parâmetro vai ser esteja morto ponto sétimo Destri vai ser o primeiro
+
+14
+00:01:26,610 --> 00:01:34,950
+parâmetro e aqui sim eu vou passar um percentual mais o nome e o nome e eu vou colocar aqui não a variável
+
+15
+00:01:35,190 --> 00:01:36,580
+nome recebe.
+
+16
+00:01:36,850 --> 00:01:46,720
+Eu vou colocar nulo e aí eu vou passar que ela não e vou concatenar também o percentual e esse nome
+
+17
+00:01:46,720 --> 00:01:56,720
+eu vou obter a partir do Escânia então vou colocar já que só uma escalada de entrada recebe
+
+18
+00:01:59,570 --> 00:02:09,170
+esse Kana System pontos e vou colocar aqui entrada.
+
+19
+00:02:09,430 --> 00:02:24,810
+Net Light e vou colocar System auch print informe o valor para a pesquisa e aí você vai colocar o nome
+
+20
+00:02:24,810 --> 00:02:31,580
+que você quer pesquisar concatenar aqui citei o primeiro parâmetro da minha consulta nessa lat asterisco
+
+21
+00:02:31,590 --> 00:02:39,300
+pessoas o nome em latim o parâmetro c ter o parâmetro no final das contas vou executar aqui a minha
+
+22
+00:02:39,300 --> 00:02:46,960
+consulta pega o resultado e faço todo o resto parecido como Geri o valor do nome certo em cima então
+
+23
+00:02:47,040 --> 00:02:54,290
+em vez de novo vou colocá la na pesquisa e eu vou colocar a pesquisa aqui.
+
+24
+00:02:54,390 --> 00:03:03,160
+Ou melhor talvez seja Paulo coca cola e qual foi o meu valor.
+
+25
+00:03:03,170 --> 00:03:09,200
+Pesquisei pelo valor obtive as pessoas criei que a lista teria os resultados certeiros.
+
+26
+00:03:09,230 --> 00:03:15,830
+O resultado é que no final mostrei o valor pesquisado e meu resultado a partir do meu.
+
+27
+00:03:15,830 --> 00:03:22,080
+Fora isso o resto continua quase que praticamente mesmo fechei esteticamente fechei a conexão casa há
+
+28
+00:03:22,720 --> 00:03:25,520
+algum exercício informe o valor para a pesquisa.
+
+29
+00:03:25,560 --> 00:03:33,330
+Quero pegar todo mundo que tem ali é projetado pelo Mato Leitão executado mais uma vez.
+
+30
+00:03:33,330 --> 00:03:39,770
+Todo mundo que tem a letra ao eu tenho no Largo Leitão e Ana Pinheiro executado mais uma vez.
+
+31
+00:03:39,780 --> 00:03:49,320
+Todo mundo que tem a letra A acho que é melhor que tem Nardo e Anna também tem né Leonardo e Ana também
+
+32
+00:03:49,320 --> 00:03:54,600
+tem em atenção que você pode fazer todas as pesquisas que tem a ganhar.
+
+33
+00:03:54,840 --> 00:04:00,540
+Acho que só mesmo você pode fazer outros testes para pesquisar mais o fato que está funcionando.
+
+34
+00:04:00,690 --> 00:04:07,230
+Agora nós fizemos uma consulta usando o link abaixo do dado que o usuário forneceu ele traz o resultado
+
+35
+00:04:07,680 --> 00:04:14,460
+de acordo com ele é mais interessante porque nossos antepassados dano aqui só a tirar do estético.
+
+36
+00:04:14,460 --> 00:04:20,580
+Conto com uma de chifre ou então contra o chifre choca ele organizar os impostos estão na Quioto tirou
+
+37
+00:04:20,700 --> 00:04:26,210
+os impostos desnecessários não tinham advertência porque
+
+38
+00:04:30,550 --> 00:04:34,970
+tá dando mais uma advertência aqui porque eu não fechei o escambo em troca.
+
+39
+00:04:34,970 --> 00:04:40,820
+No final também quero fechar os caminhos para o nosso exercício.
+
+40
+00:04:41,370 --> 00:04:51,040
+O taxa em colocar de novo não trouxe apenas porque é o único registro que tem nome as três letras que
+
+41
+00:04:51,040 --> 00:04:52,270
+eu me formei então fico por aqui.
+
+42
+00:04:52,270 --> 00:04:58,180
+Pessoal no nosso na resposta do desafio da consulta usar o link e até aproximá lo.

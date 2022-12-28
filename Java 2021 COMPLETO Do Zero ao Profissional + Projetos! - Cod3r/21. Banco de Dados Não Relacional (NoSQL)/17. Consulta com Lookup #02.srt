@@ -1,0 +1,399 @@
+1
+00:00:00,490 --> 00:00:06,240
+é só fazer na última consulta agora fazem na relação de empresa com a cidade diretamente que foi mais
+
+2
+00:00:06,240 --> 00:00:09,460
+ou menos como a gente fez lá no capítulo de SQL.
+
+3
+00:00:09,600 --> 00:00:15,420
+Seria mais natural nesse caso fazer com o Estado mas também pode fazer essa relação capital diretamente
+
+4
+00:00:15,420 --> 00:00:16,230
+com a cidade.
+
+5
+00:00:16,470 --> 00:00:21,780
+Então pra isso eu vou fazer uma consulta de B empresas ponto a grega ELES FAZEM NO NOSSO PAI Plano de
+
+6
+00:00:21,780 --> 00:00:22,830
+agregação.
+
+7
+00:00:22,860 --> 00:00:26,340
+Vou colocar aqui um flash para ele fazer o mate em cima da empresa Vale.
+
+8
+00:00:26,530 --> 00:00:31,730
+E aí copiando essa consulta executando aqui ilha executado.
+
+9
+00:00:31,770 --> 00:00:39,280
+Ele trouxe já vou colocar aqui trajetória e trouxe a Vale então pega naquilo.
+
+10
+00:00:40,150 --> 00:00:48,120
+Jogando aqui outro certo então nós temos essa consulta ele já trouxe a Vale como a gente espera.
+
+11
+00:00:48,310 --> 00:00:55,180
+Então trouxe a Vale com inveja do estado onde nesse caso a Vale tem cidade aí eu até falei pra vocês
+
+12
+00:00:55,180 --> 00:00:59,250
+que se fosse realmente uma coleção algum estaria misturado né.
+
+13
+00:00:59,320 --> 00:01:04,870
+Ora relaciona com a cidade ora o Estado ficaria mais confuso pra você acessar os dados não seria uma
+
+14
+00:01:04,870 --> 00:01:10,600
+boa estratégia mas nesse caso eu quis mostrar as duas formas pra você fazer Locaweb então fizemos agora
+
+15
+00:01:10,600 --> 00:01:11,410
+com a cidade.
+
+16
+00:01:11,830 --> 00:01:17,710
+Então pra fazê lo capitania é muito simples então vou colocar aqui no CAP e vou colocar os atributos
+
+17
+00:01:17,710 --> 00:01:19,330
+o primeiro atributo é o.
+
+18
+00:01:19,390 --> 00:01:26,140
+Mas vamos usar também estados porque dentro de Estados que tem as cidades o local fio de 26 estado a
+
+19
+00:01:26,140 --> 00:01:32,690
+diversidade aí digo que é exatamente o campo local que pertence à empresa nesse caso a empresa vale
+
+20
+00:01:32,690 --> 00:01:40,620
+o que nós fizemos aqui o match e o Fórum enfim onde vez de envelheceu Adelaide vai ser o idioma da cidade.
+
+21
+00:01:40,720 --> 00:01:44,860
+Então vou colocar aqui ou fora um fio de cidades.
+
+22
+00:01:45,180 --> 00:01:49,050
+Vanderlan disso a observação que acabei não falando mal passada.
+
+23
+00:01:49,060 --> 00:01:57,550
+Esse é um dos poucos exemplos que você não coloca o dólar do lado do lado direito quando você faz referência
+
+24
+00:01:57,550 --> 00:02:01,860
+a um atributo porque é esperado que nesse campo tenha um atributo.
+
+25
+00:02:02,080 --> 00:02:08,050
+Então você não coloca o dólar para interpretá la como é um campo que cabe digamos assim a outros valores
+
+26
+00:02:08,050 --> 00:02:09,780
+que não apenas atributos.
+
+27
+00:02:09,810 --> 00:02:14,620
+Aí você usa o dólar pra dizer para o país que você quer interpelar um valor de um atributo mas nesse
+
+28
+00:02:14,620 --> 00:02:20,340
+caso ele de fato espera um valor de um atributo por isso a gente não precisa colocar o dólar.
+
+29
+00:02:20,550 --> 00:02:26,550
+E finalmente eu vou colocar aqui pra ele criar o Estado exatamente com o que o resultado desse locado
+
+30
+00:02:26,590 --> 00:02:32,680
+também será um Estado só que a relação foi amarrado em cima do indígena a cidade mas ele trouxe o Estado
+
+31
+00:02:32,740 --> 00:02:34,160
+e não a cidade certo.
+
+32
+00:02:34,360 --> 00:02:40,870
+Então nesse caso faço aqui uma relação e você percebe que isso no Banco Nacional seria mais direto aqui
+
+33
+00:02:41,200 --> 00:02:43,630
+no caso do Banco do SQL não é tão direto assim.
+
+34
+00:02:44,200 --> 00:02:51,040
+Ou seja ele trouxe à cidade o estado de São Paulo que tem a cidade no qual deu média que a cidade de
+
+35
+00:02:51,040 --> 00:02:57,300
+Sorocaba mais ele trouxe o estado e vou ter que fazer mais alguns passos meu pai lá e para conseguir
+
+36
+00:02:57,310 --> 00:03:05,170
+ter apenas a cidade que eu desejo nesse caso então vou lá continuado aqui vou colocar uma vila vou fazer
+
+37
+00:03:05,570 --> 00:03:13,490
+algo ou seja tirar de dentro do Estado que agora é rei tirar o objeto que está dentro dele.
+
+38
+00:03:13,530 --> 00:03:19,750
+Ou seja se tivesse mais um objeto ele criaria mais um documento pra empresa pra um estado empresa para
+
+39
+00:03:19,750 --> 00:03:24,450
+um Estado mas como só tem o Estado ele vai tirar esse objeto de dentro da lei.
+
+40
+00:03:25,030 --> 00:03:36,360
+Então vou fazer isso aqui o resultado ele tirou ao Estado agora tenho um objeto vou fazer um segundo
+
+41
+00:03:36,400 --> 00:03:44,590
+indica agora para tirar a cidades de dentro desse rei aqui ou seja ele agora que eu tenho quatro cidades
+
+42
+00:03:45,370 --> 00:03:51,340
+dois três quatro e ele vai criar quatro documentos cada documento com apenas uma única cidade dentro
+
+43
+00:03:51,340 --> 00:03:52,170
+de um Estado.
+
+44
+00:03:52,210 --> 00:03:54,940
+Nesse caso eu não tenho como fazer o direto.
+
+45
+00:03:54,970 --> 00:04:03,290
+Eu posso até mostrar pra vocês mas vou colocar aqui o Estado pontuam cidades ele vai tirar desenrolado
+
+46
+00:04:03,410 --> 00:04:13,060
+e dentro dessas diz empacotar melhor dizendo colocar aqui e ele vai dizer que agora criou um documento
+
+47
+00:04:13,060 --> 00:04:19,930
+que tem empresa o Estado é uma cidade apenas associada ao atributo cidades.
+
+48
+00:04:19,950 --> 00:04:24,870
+Um outro documento que tem a mesma empresa um Estado e uma cidade.
+
+49
+00:04:25,010 --> 00:04:31,890
+Mesma coisa criou quatro documentos cada um com apenas uma única cidade e tentam fazer um um se esse
+
+50
+00:04:32,110 --> 00:04:38,770
+não vai funcionar certo mas eu vou mostrar pra vocês uma alternativa se mede então mede o que vai fazer
+
+51
+00:04:38,890 --> 00:04:39,770
+o Estado.
+
+52
+00:04:39,770 --> 00:04:50,050
+Ponto cidades onde ou melhor dizendo dois pontos cidade caso aqui cidade indica exatamente o campo que
+
+53
+00:04:50,050 --> 00:04:51,000
+eu quero fazer média.
+
+54
+00:04:51,010 --> 00:04:56,740
+Quero que ele depois que ele fez um humilde e gerou uma cidade para cada registro.
+
+55
+00:04:56,740 --> 00:05:03,250
+Eu quero aquele filtro apenas a cidade que tem o mesmo valor de cidade ponto Aydin.
+
+56
+00:05:03,550 --> 00:05:09,070
+Então fazem nesse médio aqui em cima de Estado cidades no plural e amanhã.
+
+57
+00:05:09,170 --> 00:05:18,090
+Ou seja eu quero pegar as únicas um único registro que tem esse campo de Cidade de exatamente igual
+
+58
+00:05:18,090 --> 00:05:21,670
+ao Estado cidades e Aydin.
+
+59
+00:05:22,000 --> 00:05:24,160
+Infelizmente esse método não vai funcionar.
+
+60
+00:05:24,160 --> 00:05:30,730
+A gente tem uma alternativa que o trouxe aqui o download CLS executado.
+
+61
+00:05:30,780 --> 00:05:36,340
+Ele não vai trazer nada nem se mexe mas eu vou fazer o seguinte eu vou tirar esse médico de baixo aqui
+
+62
+00:05:36,350 --> 00:05:43,840
+líder da consulta vou colocar aqui embaixo e logo depois de eu fazer um ao outro vou usar um outro operador
+
+63
+00:05:44,110 --> 00:05:48,910
+que vai comparar dois valores e vai dizer se é maior ou menor ou igual.
+
+64
+00:05:48,910 --> 00:05:50,680
+Se for igual a zero.
+
+65
+00:05:50,680 --> 00:05:53,590
+Se for menor dá menos um se for maior dá.
+
+66
+00:05:53,590 --> 00:05:55,730
+E aí eu vou saber se eles derem média.
+
+67
+00:05:55,750 --> 00:06:01,300
+Quando o valor for igual a zero vou mostrar pra vocês ou eu vou adicionar um novo filme então vou usar
+
+68
+00:06:01,390 --> 00:06:05,520
+a DD filmes e o nome do filme vai ser mesmo a cidade.
+
+69
+00:06:05,680 --> 00:06:10,380
+E aí eu vou usar o operador sem pé pra comparar dois valores.
+
+70
+00:06:10,380 --> 00:06:17,350
+Eu vou comparar o Estado ponto cidades ponto onde amanhã com o Cidade Aydin.
+
+71
+00:06:17,440 --> 00:06:22,580
+Ou seja se o valor da mesma cidade fizer significa que eu achei a cidade que estou procurando.
+
+72
+00:06:22,640 --> 00:06:27,500
+Esse foi ao menos um ou mais um quer dizer que são cidades diferentes enrolado eu sei que é.
+
+73
+00:06:27,860 --> 00:06:34,110
+Então vamos lá vou selecionar aqui a consulta e vou dar aqui um Aécio vou executar.
+
+74
+00:06:34,420 --> 00:06:40,360
+Ele criou um atributo a mais por isso que eu usei o adicionar filtros para criar um atributo o nome
+
+75
+00:06:40,360 --> 00:06:46,620
+do atributo que ele criou foi mesmo a cidade eu poderia colocar o nome que ele quisesse nesse caso mesmo
+
+76
+00:06:46,630 --> 00:06:54,800
+cidade ele vai usar esse operador para comparar dois valores o Estado ponto cidades pontuou Adelaide
+
+77
+00:06:54,840 --> 00:06:57,680
+Aydin com valor de cidade.
+
+78
+00:06:57,770 --> 00:07:01,130
+Comparando esses dois valores se forem iguais a zero.
+
+79
+00:07:01,300 --> 00:07:05,850
+Se for maior ou se for menor dá menos 1 então nesse caso.
+
+80
+00:07:05,950 --> 00:07:13,460
+Ele disse que no primeiro caso mesmo a cidade deu menos 1 no segundo caso mesmo na cidade de Manaus.
+
+81
+00:07:13,660 --> 00:07:19,360
+No terceiro caso mesmo a cidade deu zero e no outro caso o mesmo cidade deu menos 1.
+
+82
+00:07:19,350 --> 00:07:21,630
+Então todos deram menos ou menos.
+
+83
+00:07:21,790 --> 00:07:26,960
+A cidade de Sorocaba quer que eu estou procurando uma vez que eu já tenho o campo que de fato disse
+
+84
+00:07:26,960 --> 00:07:28,960
+com a cidade que estou procurando.
+
+85
+00:07:28,960 --> 00:07:36,130
+Nesse caso eu poderia colocar mais um outro passe no meu pai plano de agregação que seriam meros pegando
+
+86
+00:07:36,130 --> 00:07:38,610
+apenas mesmo cidade goza.
+
+87
+00:07:38,650 --> 00:07:45,780
+Nesse caso eu consigo pegar na verdade o teu estado ainda mais que apenas com a cidade que me parece
+
+88
+00:07:45,790 --> 00:07:46,960
+tão CLS.
+
+89
+00:07:47,260 --> 00:07:54,310
+Colocando aqui ou ali o Estado o nome da empresa vale o Estado de São Paulo e a cidade tem apenas a
+
+90
+00:07:54,310 --> 00:07:56,170
+cidade de Sorocaba.
+
+91
+00:07:56,170 --> 00:08:01,870
+Vocês percebem que quando você parte para algum tipo de relacionamento que não é aquele mais trivial
+
+92
+00:08:01,870 --> 00:08:04,510
+as coisas começam a ficar um pouco mais complexas.
+
+93
+00:08:04,660 --> 00:08:10,330
+Então por isso que é importante você entender bem as fortalezas digamos assim as vantagens as forças
+
+94
+00:08:10,330 --> 00:08:12,540
+e as fraquezas de cada um das tecnologias.
+
+95
+00:08:12,540 --> 00:08:14,440
+O que eu vejo que você entende.
+
+96
+00:08:14,440 --> 00:08:23,650
+Você começa a planejar o uso das tecnologias de uma forma que você priorize as fortalezas e não as fraquezas
+
+97
+00:08:23,670 --> 00:08:29,170
+ou seja você usa o banco relacional para aquilo que lhe é forte e você não relacional para aquilo que
+
+98
+00:08:29,170 --> 00:08:35,590
+irá foge e você pegando o melhor dos dois mundos e você tem a capacidade de planejar uma solução que
+
+99
+00:08:35,590 --> 00:08:42,070
+vai ficar mais fácil para você e também tira proveito do melhor do que cada tecnologia tem a oferecer.
+
+100
+00:08:42,070 --> 00:08:45,360
+Então fico por aqui no capítulo de um longo e até aproximá lo.

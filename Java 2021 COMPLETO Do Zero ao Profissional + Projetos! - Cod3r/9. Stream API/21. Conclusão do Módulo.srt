@@ -1,0 +1,111 @@
+1
+00:00:00,300 --> 00:00:03,890
+Chegamos no final do capítulo de estreia em Piraí.
+
+2
+00:00:03,930 --> 00:00:09,660
+é uma funcionalidade que eu pessoalmente gosto muito do set é algo que eu já usava anteriormente em
+
+3
+00:00:09,660 --> 00:00:12,380
+outras linguagens como JavaScript.
+
+4
+00:00:12,390 --> 00:00:17,950
+Meu foco é você criar funções e passar essas funções como parâmetro para outra função.
+
+5
+00:00:18,010 --> 00:00:23,480
+Isso em Java é feita a partir das interfaces funcionais que a gente viu vários exemplos como você pegar
+
+6
+00:00:23,480 --> 00:00:28,920
+uma função para mapear elementos filtrar para fazer do servidor do cenário.
+
+7
+00:00:29,140 --> 00:00:35,270
+Você viu outras funções que a gente usou durante esse capítulo mostrando pra vocês como é rico o uso
+
+8
+00:00:35,330 --> 00:00:39,660
+isto é para você ter um código mais voltado para o funcional.
+
+9
+00:00:39,660 --> 00:00:46,380
+Já falei pra vocês Java numa linguagem nativamente funcional mas você consegue incorporar muitos desses
+
+10
+00:00:46,380 --> 00:00:48,310
+conceitos usando.
+
+11
+00:00:48,400 --> 00:00:54,630
+Achei piada e também usando o próprio irlandês por baixo e criando suas próprias funções também.
+
+12
+00:00:54,660 --> 00:00:58,530
+Muito legal é um conteúdo que pessoalmente eu gosto muito de estudar.
+
+13
+00:00:58,530 --> 00:01:00,540
+Gosto muito de ensinar também.
+
+14
+00:01:00,650 --> 00:01:04,250
+Espero que tenha ficado claro para vocês não é um tema fácil.
+
+15
+00:01:04,260 --> 00:01:07,500
+Não espere que seja algo que você nunca viu na vida.
+
+16
+00:01:07,500 --> 00:01:13,920
+Você vai capturar tudo em um primeiro momento então por isso que é importante se exercitar por isso
+
+17
+00:01:13,920 --> 00:01:19,800
+que é importante rever os conceitos que eu falo em aulas teóricas porque com certeza isso vai te ajudar
+
+18
+00:01:19,800 --> 00:01:25,950
+bastante na compreensão desses paradigmas e que sempre que você fala de paradigmas nunca é algo que
+
+19
+00:01:25,950 --> 00:01:26,900
+você vai aprender.
+
+20
+00:01:26,910 --> 00:01:34,290
+Primeiro você precisa dar tempo ao tempo e você entende os princípios as motivações por trás dos paradigmas
+
+21
+00:01:34,290 --> 00:01:40,830
+e a partir daí você vai vendo com calma exercitando vai criando seus próprios exercícios para que você
+
+22
+00:01:40,830 --> 00:01:47,970
+possa usar em outros cenários e a partir daí você vai calmamente de forma bem gradual aprendendo esses
+
+23
+00:01:47,970 --> 00:01:54,210
+conceitos é muito mais importante do que só aprender os conceitos e entender como pegar esses conceitos
+
+24
+00:01:54,270 --> 00:01:55,530
+e colocar isso em código.
+
+25
+00:01:55,530 --> 00:02:01,470
+Transformar esse código é exatamente por isso que a gente tem uma abordagem muito prática e muitos exercícios
+
+26
+00:02:01,840 --> 00:02:07,500
+desafios para que você consiga pagar esses conceitos e jogar na prática para que ter ficado claro os
+
+27
+00:02:07,500 --> 00:02:14,340
+exercícios as ideias as explicações e até o nosso próximo capítulo queremos falar de tratamento de exceções
+
+28
+00:02:14,750 --> 00:02:15,200
+para lá.

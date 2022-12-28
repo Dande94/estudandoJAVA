@@ -1,0 +1,727 @@
+1
+00:00:00,130 --> 00:00:08,340
+Pessoal um dos temas importantes como a gente pensa em programação e são os paradigmas de programação
+
+2
+00:00:08,340 --> 00:00:15,540
+ou seja os paradigmas são formas que as que foram criadas e como você estruturar o pensamento e as suas
+
+3
+00:00:15,540 --> 00:00:16,170
+ideias.
+
+4
+00:00:16,170 --> 00:00:22,230
+Para você pegar algo do mundo real e transformar isso em software existem várias estratégias e várias
+
+5
+00:00:22,230 --> 00:00:24,170
+maneiras de você organizar.
+
+6
+00:00:24,180 --> 00:00:30,150
+Olhar o mundo real como você enxerga o mundo real e trazer esse mundo real uma abstração do mundo real
+
+7
+00:00:30,150 --> 00:00:31,290
+para além do software.
+
+8
+00:00:31,290 --> 00:00:39,440
+Antigamente há muito tempo atrás do sentir linguagens que usavam muito fortemente a estratégia de programação
+
+9
+00:00:39,440 --> 00:00:40,830
+não estruturada.
+
+10
+00:00:40,970 --> 00:00:46,680
+Esse tipo de estratégia era baseada em Chu é o que você tinha na verdade era o seguinte ou deixa um
+
+11
+00:00:46,680 --> 00:00:48,750
+pouquinho mais aqui pra mostrar.
+
+12
+00:00:49,080 --> 00:00:57,210
+Você tinha o seu programa então ele começava aqui um conjunto de sentenças de código executando em determinado
+
+13
+00:00:57,210 --> 00:01:03,600
+momento essa sentença de código iria mudar digamos assim iria navegar para um outro texto trecho de
+
+14
+00:01:03,600 --> 00:01:05,500
+código a partir de um golpe Ju.
+
+15
+00:01:05,870 --> 00:01:13,350
+E aqui você teria um trecho de código obviamente marcado lá com um determinado lei bom lá aqui é a parte
+
+16
+00:01:13,350 --> 00:01:19,740
+que eu vou adicionar um produto no banco por exemplo e aí você faria aqui em cima como tu adicionar
+
+17
+00:01:19,740 --> 00:01:25,880
+produto ele iria navegar lá para a página onde você definiu em determinado momento você iria dizer algo
+
+18
+00:01:25,880 --> 00:01:29,500
+vá agora Gold show para determinada parte do código.
+
+19
+00:01:29,680 --> 00:01:36,890
+E aqui você tem por exemplo uma lista de código e em determinado momento ele dizia Gold Shu pra não
+
+20
+00:01:36,890 --> 00:01:37,960
+sei pra onde.
+
+21
+00:01:37,960 --> 00:01:42,610
+Aí aqui em baixo você teria por exemplo será alguma coisa laranja.
+
+22
+00:01:42,660 --> 00:01:45,110
+Era dessa forma que ele ia navegando no corte.
+
+23
+00:01:45,110 --> 00:01:50,340
+Você tinha uma grande sequência de código de tal forma que quando ele executava o primeiro o segundo
+
+24
+00:01:50,340 --> 00:01:57,060
+chegava no Oni e diz assim vá desviar o fluxo pra um determinado passo você tinha essa loucura de ele
+
+25
+00:01:57,060 --> 00:02:00,730
+sair de um lado depois e pra outro depois voltar para um.
+
+26
+00:02:00,780 --> 00:02:07,050
+Ele ficava tipo que ele chamava de programação macarrão única né se eu pegar isso aqui e começar a fazer
+
+27
+00:02:07,050 --> 00:02:12,320
+o código aqui como se fosse uma grande sequência ele veio pra cá e executou isso.
+
+28
+00:02:12,320 --> 00:02:16,170
+Depois ele virou pra cá pois ele acertou isso ele viu pra casa.
+
+29
+00:02:16,240 --> 00:02:23,010
+Isso depois vai pra outro ponto que executa e isso acaba ficando um grande macarrão certo então.
+
+30
+00:02:23,010 --> 00:02:29,760
+Nessa época o pessoal falava que era programação macarrão única porque toda baseada em gorducho e essa
+
+31
+00:02:29,760 --> 00:02:37,010
+eram a época que a forma no qual as pessoas organizavam o software era toda baseada em jogo do jogo.
+
+32
+00:02:37,010 --> 00:02:43,860
+Você não tinha nesse momento da história o que a gente chama de função ou de procedimento que foi criado
+
+33
+00:02:43,860 --> 00:02:44,730
+logo depois.
+
+34
+00:02:45,120 --> 00:02:52,590
+E aí o gol do Ju ele foi visto como sendo algo ruim então um artigo marcante que surgiu foi exatamente
+
+35
+00:02:52,590 --> 00:02:57,470
+a partir desse cientista da computação que é um cara muito conhecido da estreia.
+
+36
+00:02:57,540 --> 00:03:04,890
+Ele fez porque é que o gol do jogo é algo raro um funeral algo digamos assim prejudicial ao seu código
+
+37
+00:03:04,890 --> 00:03:11,070
+e ele fez um artigo sobre isso e a partir desse artigo surgiu o que a gente conhece como o paradigma
+
+38
+00:03:11,070 --> 00:03:18,270
+procedural ou o paradigma que é baseado no procedimento e que seria isso um paradigma procedural baseado
+
+39
+00:03:18,270 --> 00:03:22,560
+no procedimento e no momento que surge a função.
+
+40
+00:03:22,680 --> 00:03:29,850
+Ou seja você define procedimentos um conjunto de sentenças agrupadas dentro do que seria o procedimento
+
+41
+00:03:29,900 --> 00:03:30,930
+ou a função.
+
+42
+00:03:30,990 --> 00:03:36,630
+Você dá um nome para essa proximidade para essa função e ali dentro você coloca uma sequência de passos
+
+43
+00:03:36,900 --> 00:03:44,190
+e nesse momento na programação procedural você também tem o melhoramento ou aperfeiçoamento as estruturas
+
+44
+00:03:44,190 --> 00:03:46,510
+de controle e você tem o chefe.
+
+45
+00:03:46,650 --> 00:03:54,930
+O foco é se você tem os teus laços você tem acesso às estruturas condicionais para definir se vai ou
+
+46
+00:03:54,930 --> 00:03:56,880
+não executar alguma sentença de código.
+
+47
+00:03:56,880 --> 00:04:03,870
+Então essa parte tanto o procedimento é que a função de futuros de controles mais rebuscados surgirão
+
+48
+00:04:04,080 --> 00:04:12,330
+quando você tinha o paradigma procedural e essa é uma forma que é muito focada na função e é muito focada
+
+49
+00:04:12,330 --> 00:04:19,560
+também em você ter dados compartilhados dados globais e você está modificando esses dados.
+
+50
+00:04:19,560 --> 00:04:26,460
+Se tem uma função que recebe dados de quem retorna os dados alterados ou mesmo altera dados globais
+
+51
+00:04:26,460 --> 00:04:33,390
+set modifica esses dados essas variáveis e você tem um programa como sendo funções e você tem esses
+
+52
+00:04:33,390 --> 00:04:40,400
+dados não é o caso da gente que no Java a gente estava sempre de classe e de objetos de criar instâncias.
+
+53
+00:04:40,410 --> 00:04:46,680
+Esse é um paradigma que veio na sequência outro paradigma também muito forte hoje em dia principalmente
+
+54
+00:04:46,700 --> 00:04:54,590
+porque a gente está no mundo dos múltiplos scores e ou seja um processador hoje o i5 o i3 o Inove e
+
+55
+00:04:54,840 --> 00:05:01,490
+todos esses processadores tem múltiplos núcleos e programação funcional que é um par bem antigo é um
+
+56
+00:05:01,490 --> 00:05:07,040
+paladino que se dá muito bem com processamentos paralelos porque é porque trabalha muito fortemente
+
+57
+00:05:07,450 --> 00:05:13,210
+com dados imutáveis com constantes está certo não é uma coisa que eu vou entrar muito no mérito e não
+
+58
+00:05:13,210 --> 00:05:17,970
+vou falar de lambida eu vou falar da API deste time dos colégios.
+
+59
+00:05:18,020 --> 00:05:24,400
+Isso também vai trazer um pouco desse paradigma funcional para o mundo do Java embora o Java seja uma
+
+60
+00:05:24,400 --> 00:05:30,180
+linguagem muito fortemente centrada na orientação objeto que é o próximo paradigma.
+
+61
+00:05:30,370 --> 00:05:32,560
+Eu não vou comentar um pouquinho pra vocês.
+
+62
+00:05:32,570 --> 00:05:37,290
+O funcional começou a ser digamos assim introduzido dentro do Java.
+
+63
+00:05:37,340 --> 00:05:43,280
+Eu não vou explicar muito nessa aula o que seria o paradigma funcional até porque tem muitos conceitos
+
+64
+00:05:43,280 --> 00:05:49,820
+associados com composição também é baseado em funções até que o nome é funcional assim como o paradigma
+
+65
+00:05:49,820 --> 00:05:56,360
+procedural também é baseado em funções muito fortemente só que as estratégias são diferentes aqui você
+
+66
+00:05:56,360 --> 00:06:02,840
+lida muito com dados mutáveis como você tem variáveis que vai sempre mudando e valores.
+
+67
+00:06:02,840 --> 00:06:08,850
+Você usa dados globais compartilhados e esses dados sendo modificados já funcional tem outras.
+
+68
+00:06:08,870 --> 00:06:16,120
+Outros princípios imutabilidade você tem composição de funções você tem em vez de você alterar o estado
+
+69
+00:06:16,120 --> 00:06:21,980
+a aplicação você evolui tem outros conceitos que não faz muito sentido eu mencionar agora eu quero focar
+
+70
+00:06:22,310 --> 00:06:28,070
+aqui um pouquinho uma procedural e plagiar para orientação objeto que é o mais o foco do que vai falar
+
+71
+00:06:28,070 --> 00:06:30,950
+nesse capítulo exatamente como está falando a orientação objeto.
+
+72
+00:06:30,950 --> 00:06:36,870
+Então recapitular a gente tinha antes dado o paradigma procedural não achamos o uso do corpo Ju que
+
+73
+00:06:36,860 --> 00:06:39,300
+era quem chamava de programação macarrão única.
+
+74
+00:06:39,290 --> 00:06:45,830
+Então você tinha um trecho de código vá pra cá pule pra cá eles estavam por lá pra cá executar um pouquinho
+
+75
+00:06:45,830 --> 00:06:52,160
+pula pra lá e você tinha um grande emaranhado era muito difícil você dá manutenção para esse tipo de
+
+76
+00:06:52,160 --> 00:06:52,560
+corte.
+
+77
+00:06:52,560 --> 00:06:59,100
+Tanto é que o Extra lançou um artigo falando sobre o quão prejudicial era o uso do gol do Ju.
+
+78
+00:06:59,150 --> 00:07:05,340
+é até engraçado que o Java ele tem com mundo as palavras reservadas o gol Ju.
+
+79
+00:07:05,390 --> 00:07:10,760
+Só que ela é uma das duas palavras reservadas que não é utilizada na linguagem justamente para que ninguém
+
+80
+00:07:10,760 --> 00:07:16,940
+pudesse usar nem mesmo o Java usa isso na prática certa ou seja tal é o trauma que causou a época do
+
+81
+00:07:16,940 --> 00:07:17,370
+gaúcho.
+
+82
+00:07:17,370 --> 00:07:23,510
+O fato do Java também ter a palavra reservada Ju embora você não possa usar ela vem do código nem mesmo
+
+83
+00:07:23,540 --> 00:07:24,710
+o Java usa pra nada.
+
+84
+00:07:25,130 --> 00:07:31,550
+Então você tem o paradigma procedural que foi o surgimento da função e o melhoramento das estruturas
+
+85
+00:07:31,550 --> 00:07:33,320
+de controle.
+
+86
+00:07:33,670 --> 00:07:40,620
+Se os laços for o bairro que a gente tem hoje e depois a gente passou para ter o paradigma de orientação
+
+87
+00:07:40,620 --> 00:07:47,660
+a objeto com a diferença a diferença é que aqui no procedural o foco é a função e função que altera
+
+88
+00:07:47,660 --> 00:07:54,180
+dados ou seja são funções que manipulam os dados e vão alterar esses dados para a sua aplicação funcionar.
+
+89
+00:07:54,290 --> 00:08:00,350
+E já orientação a objeto tem um foco mudado ou seja o dado ele é definido pela classe como eu falei
+
+90
+00:08:00,350 --> 00:08:06,800
+pra vocês a classe definiu o tipo ou seja a classe define a estrutura de dados e como você instancia
+
+91
+00:08:06,800 --> 00:08:13,670
+os objetos você cria os dados e esses dados que são os objetos ele tem atributos e comportamentos ou
+
+92
+00:08:13,670 --> 00:08:17,980
+seja o foco é o dado o dado é que tem alguns comportamentos.
+
+93
+00:08:18,230 --> 00:08:24,080
+Quando você cria acrescenta métodos dentro da classe quando você instancia os objetos aqueles métodos
+
+94
+00:08:24,080 --> 00:08:27,000
+passam a ser chamados a partir dos objetos.
+
+95
+00:08:27,020 --> 00:08:32,600
+Se eu não achar pra vocês aquilo a comparação principalmente com relação ao procedural é orientação
+
+96
+00:08:32,600 --> 00:08:33,500
+objeto.
+
+97
+00:08:33,560 --> 00:08:41,240
+Nesse caso o procedural você tem o ator principal do procedural sendo a função ou seja a função que
+
+98
+00:08:41,240 --> 00:08:43,920
+exerce um papel central dentro do paradigma.
+
+99
+00:08:43,930 --> 00:08:50,480
+Você cria funções que recebem parâmetros retornam valores ou seja você está sempre modificando os dados
+
+100
+00:08:50,480 --> 00:08:53,390
+centralizados a partir das funções.
+
+101
+00:08:53,480 --> 00:08:56,520
+Já na orientação objeto o ator principal.
+
+102
+00:08:56,520 --> 00:08:59,330
+Quem é o ator principal é o objeto.
+
+103
+00:08:59,330 --> 00:09:06,950
+Ou seja você tem um objeto como sendo um dispositivo que dentro dele você tem atributos e comportamentos.
+
+104
+00:09:07,460 --> 00:09:12,830
+Ou seja a partir do objeto você acessa o comportamento um método e não procedural ou seja um médico
+
+105
+00:09:12,830 --> 00:09:16,190
+que recebe dados mostrando bem essa diferença.
+
+106
+00:09:16,190 --> 00:09:20,870
+Você consegue ver a partir disso aqui ou não procedural que é que nós tínhamos.
+
+107
+00:09:20,870 --> 00:09:27,550
+O método é esse método alteravam um dado que você passado por exemplo quero formatar a data.
+
+108
+00:09:27,560 --> 00:09:34,250
+Aí eu passo um determinado valor a data que tem dia mês e ano então eu passo que o extremo é que ele
+
+109
+00:09:34,250 --> 00:09:35,630
+vai formatar de alguma forma.
+
+110
+00:09:35,630 --> 00:09:42,050
+O fato é que eu tenho como ator principal formatar a que eu passo determinado dado pra ser processado
+
+111
+00:09:42,050 --> 00:09:43,180
+por essa função.
+
+112
+00:09:43,340 --> 00:09:50,900
+Já na orientação objeto você tem o contrário o objeto que é a data esse objeto tem um comportamento
+
+113
+00:09:50,900 --> 00:09:51,530
+dentro dele.
+
+114
+00:09:51,530 --> 00:09:58,100
+Tem um método dentro dele de tal forma que o Centro passa a ser o objeto e esse objeto tem tanto os
+
+115
+00:09:58,100 --> 00:10:04,460
+dados como tem os que são os comportamentos associados a esse dado ou seja um cliente.
+
+116
+00:10:04,530 --> 00:10:08,120
+Ele é um dado um outro exemplo que a gente fez no ano passado.
+
+117
+00:10:08,130 --> 00:10:13,900
+O produto também é um tipo de estrutura de dados que a gente definiu quando você instancia um produto
+
+118
+00:10:13,900 --> 00:10:15,390
+que você está criando um dado.
+
+119
+00:10:15,720 --> 00:10:22,770
+O item também é outro dado a compra também um outro dado ou seja o que você tem são estruturas de dados
+
+120
+00:10:22,770 --> 00:10:24,600
+definidas pelas classes.
+
+121
+00:10:24,610 --> 00:10:25,020
+Por quê.
+
+122
+00:10:25,030 --> 00:10:31,560
+Porque as classes definem tipos conforme eu falei e quando você instancia um objeto a partir de uma
+
+123
+00:10:31,560 --> 00:10:36,880
+classe você está estão sentados e esses dados têm atributos e comportamentos.
+
+124
+00:10:36,900 --> 00:10:44,130
+é exatamente a mudança de foco que você tem da saída do paradigma na forma de pensar procedural para
+
+125
+00:10:44,160 --> 00:10:46,680
+a forma de pensar orientado a objeto.
+
+126
+00:10:46,680 --> 00:10:52,980
+Se você está começando a programar agora em Java você já está começando a programar usando orientação
+
+127
+00:10:52,980 --> 00:11:01,320
+objeto mas se você usar outras linguagens por exemplo JavaScript você não cria por padrão funções dentro
+
+128
+00:11:01,320 --> 00:11:03,860
+de classe embora você possa fazer isso.
+
+129
+00:11:04,080 --> 00:11:08,910
+Você cria funções só outros então que você tem por exemplo alguma coisa fantoche.
+
+130
+00:11:09,570 --> 00:11:14,820
+Essa função não está dentro de classe está diretamente definido dentro de um arquivo e você coloca lá
+
+131
+00:11:14,930 --> 00:11:23,970
+fantasiam adicionar certo a DD que recebe um valor e um valor bem e essa função retorna alguma coisa
+
+132
+00:11:23,970 --> 00:11:24,310
+aqui.
+
+133
+00:11:24,630 --> 00:11:29,100
+Então o fato é que as funções não estão dentro de classes como em Java.
+
+134
+00:11:29,130 --> 00:11:35,100
+Se você for programar em PHP você vai ver também que vai ter uma função que pode ser definida fora de
+
+135
+00:11:35,100 --> 00:11:42,060
+uma classe embora PHP também tem classe e as funções podem ser definidas fora de classe já em Java.
+
+136
+00:11:42,060 --> 00:11:43,430
+Isso não é possível.
+
+137
+00:11:43,440 --> 00:11:49,980
+Java obrigatoriamente você tem que definir funções quem chama de métodos dentro das classes ou seja
+
+138
+00:11:49,980 --> 00:11:56,480
+porque Java é uma linguagem centrada em classes Java muito forte o conceito de orientação objeto.
+
+139
+00:11:56,610 --> 00:12:03,960
+A linguagem Java já nasceu orientada a objeto diferente por exemplo de PHP que nasceu mais procedural
+
+140
+00:12:03,960 --> 00:12:08,110
+e depois o tempo foi agregando os conceitos de orientação objeto.
+
+141
+00:12:08,130 --> 00:12:12,800
+Então cada linguagem tem seus próprios paradigmas por exemplo JavaScript.
+
+142
+00:12:12,810 --> 00:12:15,580
+Você pode programar JavaScript orientado a objeto.
+
+143
+00:12:15,780 --> 00:12:19,230
+Você pode programar JavaScript procedural.
+
+144
+00:12:19,350 --> 00:12:23,970
+Você pode usar princípios de programação funcional dentro do JavaScript.
+
+145
+00:12:24,120 --> 00:12:28,950
+Você consegue fazer a mesma coisa em Python por exemplo que é outra linguagem de programação você consegue
+
+146
+00:12:28,950 --> 00:12:32,820
+usar procedural funcional orientação objeto.
+
+147
+00:12:32,810 --> 00:12:39,780
+Tudo isso dentro da linguagem ou seja as linguagens a maioria das linguagens são ditas multi paradigmas.
+
+148
+00:12:39,900 --> 00:12:45,840
+Entender os paradigmas é extremamente importante e é justamente o foco do nosso capítulo trabalhar com
+
+149
+00:12:45,840 --> 00:12:51,330
+o conceito de orientação objeto entender os princípios de orientação objeto que a gente vai começar
+
+150
+00:12:51,330 --> 00:12:52,930
+bem nas próximas aulas.
+
+151
+00:12:52,990 --> 00:12:58,420
+Entender também como isso se traduz em código como é que eu pego os princípios da orientação objeto
+
+152
+00:12:58,430 --> 00:13:05,400
+e jogo isso pra dentro do meu corpo muita coisa a gente já está vendo o conceito de classe C é objeto
+
+153
+00:13:05,800 --> 00:13:09,090
+e qual a relação que existe entre classe e objeto.
+
+154
+00:13:09,090 --> 00:13:15,960
+A classe e o tipo ou seja a estrutura de dados a partir dessa classe eu crio novos objetos e os objetos
+
+155
+00:13:15,960 --> 00:13:18,080
+são os dados aí já viu isso.
+
+156
+00:13:18,220 --> 00:13:25,350
+Há vários momentos a classe ela define um grupo de membros que são os atributos e os comportamentos
+
+157
+00:13:25,620 --> 00:13:31,800
+que eu estou falando pra você aqui como o foco da programação orientada a objeto é o dado ou seja Nascimento
+
+158
+00:13:32,230 --> 00:13:38,580
+é uma classe ou seja foi criado um objeto a partir de uma classe e nascimento e um dado esse dado tem
+
+159
+00:13:38,580 --> 00:13:45,090
+uma série de comportamentos que é exatamente o que o método formata nada diferente do que acontecia
+
+160
+00:13:45,090 --> 00:13:52,050
+no paradigma procedural que você tinha o procedimento a função alterando recebendo como parâmetro os
+
+161
+00:13:52,050 --> 00:13:55,030
+dados está ali o mais eu passar o parâmetro aqui.
+
+162
+00:13:55,030 --> 00:14:00,390
+Pode não ter problema nenhum na orientação objeto você pode sim passar parâmetros isso não significa
+
+163
+00:14:00,390 --> 00:14:06,780
+que você está usando o paradigma procedural mas esses métodos muito provavelmente estarão associados
+
+164
+00:14:06,780 --> 00:14:07,510
+a algum dado.
+
+165
+00:14:08,040 --> 00:14:15,060
+Então essa é uma diferença importante mas o foco da gente não é o paradigma procedural nosso foco é
+
+166
+00:14:15,160 --> 00:14:20,140
+orientação objeto e é exatamente isso que eu quero continuar conversando com vocês nesse capítulo mas
+
+167
+00:14:20,160 --> 00:14:25,800
+ainda assim é importante comentar um pouquinho das possibilidades que você tem de paradigmas dentro
+
+168
+00:14:25,800 --> 00:14:31,800
+das linguagens de programação até porque mais na frente eu vou comentar um pouquinho mais sobre programação
+
+169
+00:14:31,800 --> 00:14:38,550
+funcional em Java não é uma linguagem em essência funcional você tem alguns princípios da programação
+
+170
+00:14:38,550 --> 00:14:44,760
+funcional dentro de Java foram acrescentadas ao longo dos anos até porque programação funcional acabou
+
+171
+00:14:44,760 --> 00:14:47,160
+sendo muito aplicada hoje em dia.
+
+172
+00:14:47,160 --> 00:14:54,360
+Ele com certeza merece estudado e aprofundado mais como o Java não é a linguagem em essência funcional
+
+173
+00:14:54,660 --> 00:15:00,580
+ele não é um escopo que será abordado de forma profunda que o custo da reforma profunda iremos trabalhar
+
+174
+00:15:00,630 --> 00:15:05,680
+a orientação a objeto que não fique por aqui só para dar uma perspectiva um pouquinho sobre os paradigmas
+
+175
+00:15:05,800 --> 00:15:13,360
+de paradigma e como você organiza sua mente pra desenvolver software e os paradigmas tem princípios
+
+176
+00:15:13,370 --> 00:15:18,970
+é muito importante você entendeu os princípios do paradigma para quando você for desenvolver software
+
+177
+00:15:18,970 --> 00:15:21,680
+você está sempre alinhado com esses princípios.
+
+178
+00:15:21,820 --> 00:15:27,250
+Conhecer os princípios é muito importante e a partir do conhecimento que você vai aprender a desenvolver
+
+179
+00:15:27,250 --> 00:15:32,680
+software alinhado com esses princípios para que você não viola os princípios e a partir do momento que
+
+180
+00:15:32,680 --> 00:15:38,890
+você se alinha com os princípios do paradigma do seu software ele tende a ter uma qualidade muito maior.
+
+181
+00:15:39,010 --> 00:15:45,190
+Então fico por aqui só dando uma visão geral dos paradigmas e na próxima aula a gente vai entrar especificamente
+
+182
+00:15:45,520 --> 00:15:48,730
+na orientação a objeto que é o grande foco desse capítulo.

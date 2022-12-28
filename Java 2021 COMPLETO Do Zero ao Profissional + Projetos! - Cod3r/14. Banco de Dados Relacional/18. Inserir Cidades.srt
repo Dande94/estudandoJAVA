@@ -1,0 +1,203 @@
+1
+00:00:00,470 --> 00:00:06,540
+Na sala mas vamos inserir algumas cidades e vincular essas cidades aos estados e obviamente qualquer
+
+2
+00:00:06,590 --> 00:00:12,810
+com uma relação de estado e cidade é obrigatória porque o CaixaBI estrangeira não nula então obrigatoriamente
+
+3
+00:00:12,810 --> 00:00:17,150
+eu vou ter que na hora de inserir um cidadão dizer qual estado essa cidade pertence.
+
+4
+00:00:17,160 --> 00:00:24,310
+Para isso nós vamos criar aqui um novo arquivo nome do arquivo vai se inserir cidades ponto SQL.
+
+5
+00:00:24,400 --> 00:00:28,760
+Nós vamos fazer comandos incertos bastante simples depois vou fazer uma pequena variação para marchar
+
+6
+00:00:28,760 --> 00:00:32,200
+para o 6 integrando um incerto em um select.
+
+7
+00:00:32,220 --> 00:00:37,840
+Tem outras formas de integrar um inseto seletivo mostrar um delas aqui pra você que estão lá.
+
+8
+00:00:37,860 --> 00:00:40,820
+Primeiro vou colocar em sete cidades.
+
+9
+00:00:40,950 --> 00:00:47,220
+Vou colocar aqui as colunas nome área e Estado aí e vou colocar os valores valores vai ser Campinas
+
+10
+00:00:47,640 --> 00:00:54,510
+a área vai ser 795 quilômetros quadrados e o Estado é de 25.
+
+11
+00:00:54,510 --> 00:00:56,550
+Só pra mostrar pra vocês aqui rapidinho.
+
+12
+00:00:56,550 --> 00:01:08,600
+Então Selection asterisco from estados espera que esteja no estado sete listados aí igual a 25 contra
+
+13
+00:01:08,650 --> 00:01:15,360
+os escolhi para o primeiro aqui estão selecionando aqui novamente contra o Chile e o resultado vai da
+
+14
+00:01:15,720 --> 00:01:16,930
+Rio de Janeiro.
+
+15
+00:01:16,980 --> 00:01:19,200
+Na verdade não é o 25 set.
+
+16
+00:01:19,200 --> 00:01:24,210
+Foi quando eu fiz o planejamento mas agora não deu certo então selecionar só esse trecho aqui Control
+
+17
+00:01:24,210 --> 00:01:33,600
+Shift é o estado que eu quero é o estado de São Paulo que não tem nada a ver com de 25 e 31 colocando
+
+18
+00:01:33,600 --> 00:01:42,850
+aqui um ponto Campinas pertence ao Estado de São Paulo que é o ai de 31 então Campinas o tamanho a área
+
+19
+00:01:42,870 --> 00:01:47,830
+da cidade e do Estado executar aqui contra o Chivas.
+
+20
+00:01:48,360 --> 00:01:55,410
+Ele vai inserir no Estado ou seja onde não foi afetada e o que foi inserido foi continuada vão inserir
+
+21
+00:01:55,410 --> 00:02:03,200
+um outro na outra cidade então a cidade vai ter nome em área e o Estado vai da mesma forma e os valores
+
+22
+00:02:03,220 --> 00:02:14,700
+vai ser Niterói a area 133 ponto 9 quilômetros quadrados e o IDH vai ser 25 25 vai ser o Haiti do Rio
+
+23
+00:02:14,700 --> 00:02:16,370
+de Janeiro que nesse caso deu certo.
+
+24
+00:02:16,770 --> 00:02:22,360
+Então há 25 associado a cidade correta é tão longa como a de Chico que é executado.
+
+25
+00:02:22,620 --> 00:02:29,090
+Ele seria uma nova cidade de 2 e onde não foi afetada a partir desse incertos nos próximos ensaios.
+
+26
+00:02:29,100 --> 00:02:34,210
+Não vou me preocupar muito com o Haiti porque eu vou fazer um Salete para apanhá la em dia aí sim passa
+
+27
+00:02:34,220 --> 00:02:41,520
+ao Haiti pelo encéfalo aqui vou fazer o seguinte em sete cidades vou usar os mesmos campos Nome área
+
+28
+00:02:41,580 --> 00:02:45,130
+e Estado aí vou colocar o valor pra ser Caruaru.
+
+29
+00:02:45,280 --> 00:02:53,760
+A área vai ser 920 pontos seis quilômetros quadrados e coloca agora um seleto entre parênteses Select
+
+30
+00:02:53,880 --> 00:03:02,310
+Aydin from estados era a sigla do Estado seja belo seja porque em Caruaru estarão Pernambuco.
+
+31
+00:03:02,310 --> 00:03:06,470
+Então posso ter cabra aqui só para colocar em múltiplas linhas.
+
+32
+00:03:06,520 --> 00:03:12,870
+Aí talvez fique um pouco mais legível como o cabra daqui então tenho e seria na cidade.
+
+33
+00:03:13,470 --> 00:03:18,230
+Essas colunas nomear estado cujos valores sejam exatamente esses aqui.
+
+34
+00:03:18,330 --> 00:03:29,330
+O nome Caruaru a 920 pontos 6 ele vai selecionar o índice somente no estado no qual a sigla é de Pernambuco
+
+35
+00:03:29,850 --> 00:03:31,190
+estão executando isso aqui.
+
+36
+00:03:31,200 --> 00:03:39,290
+Contra o Chile que é de fato ele vai inserir o novo registro gerou de 3 para o novo Estado e associou
+
+37
+00:03:39,300 --> 00:03:43,980
+com o estado do Pernambuco a partir de 1 Salete não precisei passar um dia fixo.
+
+38
+00:03:43,980 --> 00:03:49,020
+Simplesmente fui lá de uma forma mais robusta consegui pagode correto sem necessariamente ter que informar
+
+39
+00:03:49,420 --> 00:03:54,230
+só pra gente tá está mais um exemplo estão colocando em sete cidades.
+
+40
+00:03:54,240 --> 00:04:02,040
+Vou colocar aqui embaixo as colunas então vai ser nome área e Estado aí eu vou colocar aqui os valores
+
+41
+00:04:02,520 --> 00:04:04,010
+praça e valores.
+
+42
+00:04:04,050 --> 00:04:13,030
+Juazeiro do Norte vírgula 248 pontos dois quilômetros quadrados e vou fazer um Selection Aydin from
+
+43
+00:04:13,160 --> 00:04:20,600
+estados sigla igual a Sé e Ceará então só pra ficar aqui tudo visível.
+
+44
+00:04:20,690 --> 00:04:30,150
+Colocá lo que o Salete aqui finalmente colocar esse link em baixo estão prontos temos mais um 7 também
+
+45
+00:04:30,150 --> 00:04:38,570
+usado nos valores 1 celeste pra obter mais Di e associar isso aos valores desse ensejo então como aditivo
+
+46
+00:04:38,580 --> 00:04:45,110
+que é executar aqui é certo em duas cidades nomear estado Juazeiro do Norte.
+
+47
+00:04:45,410 --> 00:04:53,260
+Então se nós fizermos agora não Selecta Celebes asterisco from cidades executar contra os civis.
+
+48
+00:04:54,270 --> 00:04:59,740
+Mas vamos ver os resultados das cidades aqui nós temos quatro cidades cadastradas Campinas Niterói Caruaru
+
+49
+00:04:59,740 --> 00:05:07,030
+Juazeiro do Norte usar edis dos Estados 31 25 23 e 12 e finalmente a área de cada uma dessas cidades
+
+50
+00:05:07,030 --> 00:05:12,400
+que foram cadastradas na próxima aula a gente continua fazendo jus soli fazendo consultas que vão juntar
+
+51
+00:05:12,700 --> 00:05:14,400
+mais uma tabela de espera lá.

@@ -1,0 +1,515 @@
+1
+00:00:00,280 --> 00:00:03,230
+Só falar com vocês sobre impostos.
+
+2
+00:00:03,300 --> 00:00:06,460
+é um tema que a gente vai acabar usando nesse módulo.
+
+3
+00:00:06,630 --> 00:00:12,120
+Eu não vou me aprofundar muito no tema sobre impostos mas eu vou mostrar para vocês que existe essa
+
+4
+00:00:12,120 --> 00:00:17,270
+questão no dia a dia da programação como Java para você não se confundir eu noto que alguns alunos presencial
+
+5
+00:00:17,610 --> 00:00:19,270
+tinham dúvidas com relação a esse tema.
+
+6
+00:00:19,280 --> 00:00:25,500
+Vou tentar esclarecer o máximo possível com relação às dúvidas Nassau mais alguns dos temas mais aprofundados
+
+7
+00:00:25,500 --> 00:00:28,320
+que dizem respeito ao corte.
+
+8
+00:00:28,350 --> 00:00:34,050
+A questão dos pacotes serão abordados em capítulos posteriores é bom abordar e aprofundar esse tema
+
+9
+00:00:34,400 --> 00:00:39,960
+também em outros capítulos então a gente vai falar de uma forma mais superficial diria até mecânica
+
+10
+00:00:39,960 --> 00:00:45,280
+sobre a questão do importe para que você fique atento sobre isso e não passe problema dentro dos exercícios
+
+11
+00:00:45,310 --> 00:00:48,000
+coragem eventualmente usa algum dos impostos tá bom.
+
+12
+00:00:48,180 --> 00:00:53,400
+Então vou clicar aqui e criar uma nova classe ainda dentro do pacote de fundamentos o nome da classe
+
+13
+00:00:53,400 --> 00:01:00,000
+será PORTE E aqui nós vamos definir o método mas não vai dar esse exemplo não vai ter um código certo
+
+14
+00:01:00,420 --> 00:01:06,180
+e a gente e o código vai ser muito pequeno e eu quero focar muito fortemente na questão dos impostos
+
+15
+00:01:06,180 --> 00:01:12,960
+aqui se você prestar atenção todos os nossos exercícios até agora eles o código está completamente dentro
+
+16
+00:01:12,960 --> 00:01:20,520
+da classe com exceção da definição do pacote o pacote ele fica fora da definição da classe já não falando
+
+17
+00:01:20,520 --> 00:01:24,700
+exatamente sobre o conceito de classe mas a linguagem Java.
+
+18
+00:01:24,740 --> 00:01:30,330
+Ela é extremamente centrada em classe e já dá para ver em todos esses quem está querendo até agora tem
+
+19
+00:01:30,330 --> 00:01:30,930
+classe.
+
+20
+00:01:31,260 --> 00:01:37,980
+Olá pessoal criar uma nova classe criar classe com o nome importe área circunferência inferência tudo
+
+21
+00:01:37,980 --> 00:01:39,320
+isso classes.
+
+22
+00:01:39,320 --> 00:01:44,410
+E se você abrir qualquer uma dessas todo o nosso core o nosso algoritmo está dentro da classe.
+
+23
+00:01:44,470 --> 00:01:50,220
+E mais especificamente dentro do método que está dentro da classe certo a gente vai 1 hora ou outra
+
+24
+00:01:50,220 --> 00:01:55,920
+acaba expandindo um pouco mais a nossa linguagem na nossa expressividade em Java e nós vamos criar outros
+
+25
+00:01:55,920 --> 00:02:03,420
+métodos mais por enquanto o fato é que nós temos o pacote fora da classe embora a linguagem seja extremamente
+
+26
+00:02:03,600 --> 00:02:07,560
+focada em classe e algumas coisas acabam ficando fora da classe.
+
+27
+00:02:07,830 --> 00:02:13,730
+Principalmente coisas de controle como é o caso do pacote que é exatamente o nome da pasta que nós criamos.
+
+28
+00:02:13,770 --> 00:02:20,220
+Tai outra coisa também será um pote por exemplo nem tudo está disponível 100 por cento em todos os nossos
+
+29
+00:02:20,220 --> 00:02:26,520
+códigos o Java ele tem uma série de funcionalidades então por exemplo se eu for usar um monstrinho eu
+
+30
+00:02:26,520 --> 00:02:32,370
+coloco o string e assim recebe o valor do dia certo.
+
+31
+00:02:32,380 --> 00:02:35,190
+Coloco Ponto e Vírgula eu uso a estilingue.
+
+32
+00:02:35,520 --> 00:02:42,290
+Assim usando o System pontual de alinhar linha eu executou isso sem problema nenhum sem necessidade
+
+33
+00:02:42,300 --> 00:02:44,820
+tem importado absolutamente nada.
+
+34
+00:02:44,820 --> 00:02:50,820
+Entretanto se eu for usar por exemplo um dente e colocar aqui deixo que seria a data em inglês se eu
+
+35
+00:02:50,820 --> 00:02:56,350
+der um contra o espaço você vai prestar a verdade antes disso eu colocar um dente D.
+
+36
+00:02:56,410 --> 00:03:01,860
+Recebi aqui por enquanto não precisa se preocupar sobre a anotação e o deixe depois eu falar o que quer
+
+37
+00:03:01,920 --> 00:03:05,600
+que signifique assim o mais para frente e isso não é o suficiente.
+
+38
+00:03:05,610 --> 00:03:12,030
+Se eu duplicar essa linha e colocar aqui pra baixo e usar a letra D aqui você vai dizer que nós vamos
+
+39
+00:03:12,030 --> 00:03:18,690
+ter um problema no primeiro gol salvar exaltando e a mensagem que vai aparecer é o seguinte deixe não
+
+40
+00:03:18,690 --> 00:03:22,870
+pode ser resolvida 7 não consegue e não sabe o que é o dente.
+
+41
+00:03:23,190 --> 00:03:29,770
+Esse dente veio da onde por porque não existe por padrão o dente exige o dente em Java mas ele não é.
+
+42
+00:03:29,950 --> 00:03:36,240
+Se não está disponível por padrão pra você ter disponível desde que você precisa importar a estrutura
+
+43
+00:03:36,240 --> 00:03:37,910
+desde que está dentro do Java.
+
+44
+00:03:37,920 --> 00:03:43,800
+Se eu colocar o cursor do mouse aqui onde tem esse balão blusinha de uma idéia para tentar resolver
+
+45
+00:03:43,800 --> 00:03:50,670
+seu problema se você clicar aqui ele vai te dar algumas possibilidades e uma delas é você importar leite.
+
+46
+00:03:50,820 --> 00:03:55,410
+Só que você tem vários deles se você tem o dente que está dentro de Java ponto SQL.
+
+47
+00:03:55,770 --> 00:03:57,750
+Você tem um dente que está dentro de Java.
+
+48
+00:03:57,750 --> 00:03:59,060
+Ponto útil.
+
+49
+00:03:59,160 --> 00:04:01,180
+Você tem um dente que está dentro de Sam.
+
+50
+00:04:01,180 --> 00:04:02,400
+Ponto último ponto.
+
+51
+00:04:02,400 --> 00:04:03,960
+Calendar conta alguma coisa.
+
+52
+00:04:04,410 --> 00:04:10,500
+Então não é simplesmente você importados também tem seu lugar de importar o dente correto porque você
+
+53
+00:04:10,500 --> 00:04:13,080
+tem diversos dentes dentro da API do Java.
+
+54
+00:04:13,080 --> 00:04:18,480
+No caso aqui muito provavelmente você vai importar o dente que está dentro de Java.
+
+55
+00:04:18,580 --> 00:04:23,730
+Como é que eu posso fazer isso pra importar o dente dentro do Java onde você pode clicar duas vezes
+
+56
+00:04:23,730 --> 00:04:32,460
+que ele vai importar aqui em cima onde você pode digitar impostos por exemplo já há algum ponto o último
+
+57
+00:04:32,690 --> 00:04:39,600
+ponto deles e aí você vai ter à sua disposição deixe aí você pode usá lo você vai ver que ele vai mostrar
+
+58
+00:04:39,600 --> 00:04:48,690
+a data atual 4 de julho 15 horas 48 minutos exatamente zero o segundo é 2019 ou seja nós conseguimos
+
+59
+00:04:48,690 --> 00:04:51,150
+usá lo a data a partir do importe.
+
+60
+00:04:51,480 --> 00:04:54,780
+Por exemplo só que eu vou construir uma interface gráfica no Java.
+
+61
+00:04:55,060 --> 00:04:59,310
+Eu preciso definir o botão colocar aqui no J.
+
+62
+00:05:00,090 --> 00:05:02,140
+Bolton cedeu um contra espaço.
+
+63
+00:05:02,300 --> 00:05:07,430
+Ele já vai importar porque é que ele importou diretamente o J Bolton porque só existe um J Button na
+
+64
+00:05:07,430 --> 00:05:08,400
+API do Java.
+
+65
+00:05:08,830 --> 00:05:10,660
+Então não lembro que eu fiz isso.
+
+66
+00:05:10,660 --> 00:05:15,890
+Ele já trouxe o importe correto Jabba x Thompson Yung pontuou J Button.
+
+67
+00:05:15,940 --> 00:05:23,850
+Eu posso criar aqui o meu botão por exemplo o botão recebe e eu j Button.
+
+68
+00:05:24,150 --> 00:05:27,360
+Eu coloco aqui ponto e vírgula define o meu botão certo.
+
+69
+00:05:27,370 --> 00:05:32,890
+Essa questão do Rio não é importante agora o que eu quero ressaltar para você é o fato de que nem tudo
+
+70
+00:05:32,890 --> 00:05:38,320
+está disponível cem por cento do tempo você vai ter os tipos primitivos à sua disposição.
+
+71
+00:05:38,320 --> 00:05:44,320
+Você vai ter o System ponto aos ponto prende Aline por exemplo tudo que está além de System à sua disposição
+
+72
+00:05:44,320 --> 00:05:48,580
+você vai ter Trim também no pacote Java pontuou Ling.
+
+73
+00:05:48,610 --> 00:05:53,590
+Se eu colocar aqui ou você vai ver ou colocar aqui ou Java.
+
+74
+00:05:53,590 --> 00:05:55,740
+Ponto Lang.
+
+75
+00:05:55,980 --> 00:05:58,020
+Ponto extra.
+
+76
+00:05:58,450 --> 00:06:02,440
+B recebe a estria por exemplo.
+
+77
+00:06:02,500 --> 00:06:05,020
+Boa tarde quem está aqui.
+
+78
+00:06:05,500 --> 00:06:13,780
+E aí eu coloco System Alt prende Aline e coloco a letra B isso é plenamente válido Java ponto e ponto.
+
+79
+00:06:13,790 --> 00:06:19,210
+Esse é o caminho completo da estridente do Java executar o que você vai ver que nós temos aqui.
+
+80
+00:06:19,210 --> 00:06:19,830
+Boa tarde.
+
+81
+00:06:19,830 --> 00:06:27,370
+Se ele preste normalmente da mesma forma que eu posso fazer já algum ponto lá em algum ponto o System
+
+82
+00:06:27,400 --> 00:06:33,760
+pontual de ponto preenche ali mas eu não preciso colocar o Java ponto leigo na frente das coisas.
+
+83
+00:06:33,780 --> 00:06:34,190
+Por quê.
+
+84
+00:06:34,190 --> 00:06:40,570
+Porque por padrão tudo o que está dentro de Java oculto lendo é o pacote mais básico da linguagem Java
+
+85
+00:06:40,570 --> 00:06:42,870
+está disponível em todas as suas classes.
+
+86
+00:06:43,200 --> 00:06:45,860
+Então o que eu quero ressaltar para você primeiro importe.
+
+87
+00:06:46,240 --> 00:06:53,720
+Ele fica fora da classe assim como nós temos o pacote nós vamos ter usualmente um programa vários impostos.
+
+88
+00:06:53,750 --> 00:06:57,190
+Isso é extremamente corriqueiro quando você começa a crescer o seu programa.
+
+89
+00:06:57,190 --> 00:07:03,480
+Cada classe representa uma parte do seu programa e essas classes precisam interagem entre si.
+
+90
+00:07:03,490 --> 00:07:06,660
+Isso você vai conseguir interagir a partir dos impostos.
+
+91
+00:07:06,880 --> 00:07:12,160
+Você também vai importar funcionalidades do próprio Jawbone como é o caso do botão como é o caso da
+
+92
+00:07:12,160 --> 00:07:17,860
+data e eventualmente você vai importar alguma coisa que tem conflito ou seja com isso que tem o mesmo
+
+93
+00:07:17,860 --> 00:07:18,430
+nome.
+
+94
+00:07:18,510 --> 00:07:24,500
+Mas mais observação tem o mesmo nome na parte final não caminham completos e o caminho completa é diferente.
+
+95
+00:07:24,610 --> 00:07:31,780
+Da mesma forma que você tem Jabba o uso dele você vai ter Jabba ponto SQL ponto que são duas classe
+
+96
+00:07:31,780 --> 00:07:33,040
+completamente diferentes.
+
+97
+00:07:33,040 --> 00:07:38,150
+Nesse caso você tem que prestar muita atenção àquilo que você vai importar então é habitualmente eu
+
+98
+00:07:38,140 --> 00:07:41,400
+vou comentar que o botão Eu não vou usar ele nesse exemplo.
+
+99
+00:07:41,400 --> 00:07:46,750
+E aí como eu comentei o botão ficou dando a advertência que eu estou usando um importe indevido.
+
+100
+00:07:46,840 --> 00:07:51,050
+Você pode usar contra o Shift do Windows e no Mac.
+
+101
+00:07:51,050 --> 00:07:54,810
+O Mac no Windows no Linux e Command Shift choque no Mac.
+
+102
+00:07:54,850 --> 00:08:00,280
+Ele vai organizar os impostos da mesma forma que ele usar os impostos tirando aquilo que não é necessário
+
+103
+00:08:00,640 --> 00:08:03,370
+como também adicionou naquilo que é necessário.
+
+104
+00:08:03,370 --> 00:08:08,420
+Se eu tirar aqui ele vai dizer que não sabe mais quem é o rei como diz Shifter.
+
+105
+00:08:08,710 --> 00:08:13,300
+Ele vai mostrar uma tela pra você para você saber sobre qual das datas você quer um caso eu quero o
+
+106
+00:08:13,310 --> 00:08:15,380
+Java útil daí colocar um fim no eixo.
+
+107
+00:08:15,430 --> 00:08:18,110
+Ele vai importar para a gente aqui insensato.
+
+108
+00:08:18,400 --> 00:08:21,000
+Você é mais naturalmente como seria a escrita.
+
+109
+00:08:21,010 --> 00:08:26,290
+Se você não tem isso aqui certo e eu vou começar a escrever essa sentença de código aqui.
+
+110
+00:08:26,290 --> 00:08:34,550
+Então coloco deixe o caso contra o espaço Java hoje item já importou lá em cima d recebe.
+
+111
+00:08:34,810 --> 00:08:42,290
+Eu dei um fluxo normal próprio dessa ajuda a definir isso e aí você usa aqui embaixo da forma que é
+
+112
+00:08:42,290 --> 00:08:49,870
+esperado certo o fato é que quando você está escrevendo colhe o que escreve aqui e voltou contra o espaço.
+
+113
+00:08:49,940 --> 00:08:53,980
+Me dá uma opção é o único que começa com o JB de plantão.
+
+114
+00:08:54,010 --> 00:08:58,580
+Então vou lá coloco ele já tanto um porta lá em cima como ele já completa para mim baixo.
+
+115
+00:08:58,590 --> 00:09:03,610
+Então se você usando o contra o espaço para completamos colhe os automaticamente.
+
+116
+00:09:03,940 --> 00:09:09,640
+A própria ideia já vai te ajudando nos importa você não precisa se preocupar muito o dia a dia o que
+
+117
+00:09:09,640 --> 00:09:15,010
+é extremamente importante com relação à questão dos impostos e você quando tiver conflitos você sabe
+
+118
+00:09:15,010 --> 00:09:19,180
+exatamente qual poste você vai usar porque isso causa muito confusão.
+
+119
+00:09:19,180 --> 00:09:24,700
+Já peguei vários cenários de alunos presenciais que o cara quando está tudo certo.
+
+120
+00:09:24,700 --> 00:09:27,240
+Só que ele fez um poste errado fazer um bote errado.
+
+121
+00:09:27,250 --> 00:09:32,350
+Obviamente você não vai ter o tipo correto para trabalhar com as funcionalidades que estão achando pra
+
+122
+00:09:32,350 --> 00:09:32,830
+você.
+
+123
+00:09:32,950 --> 00:09:37,990
+Então fique bem atento não vou precisar importe voltar ressaltando e falando pra vocês demonstrando
+
+124
+00:09:38,140 --> 00:09:39,320
+o tipo né.
+
+125
+00:09:39,370 --> 00:09:43,990
+Já com o que eu sei que isso gerou alguma confusão mas é importante você perceber que nem tudo está
+
+126
+00:09:43,990 --> 00:09:49,800
+disponível o tempo todo em Java é aquilo que está nem de Java ponto o link está mais fora do Java Controller.
+
+127
+00:09:50,200 --> 00:09:54,850
+Você vai ter que importar tem algumas outras exceções que eu vou falar mais na frente como falar de
+
+128
+00:09:54,850 --> 00:09:55,450
+pacotes.
+
+129
+00:09:55,780 --> 00:10:01,690
+Mas por enquanto imagino que pedem que Java Ling está à disposição lá fora eu preciso importar.

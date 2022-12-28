@@ -1,0 +1,603 @@
+1
+00:00:00,100 --> 00:00:06,570
+Só nessa aula vou mostrar pra vocês uma aplicação que eu desenvolvi eu não vou mostrar aqui no capítulo
+
+2
+00:00:06,570 --> 00:00:12,400
+pra não ficar muito extenso o custo já tá muito grande mas eu vou mostrar pra vocês como referência.
+
+3
+00:00:12,400 --> 00:00:14,820
+Se vocês quiserem estudar o colégio por quê.
+
+4
+00:00:14,880 --> 00:00:21,210
+Nem tudo vai ser dado pra vocês digamos assim explicado os detalhes mas eu vou colocar associado a essa
+
+5
+00:00:21,210 --> 00:00:21,630
+aula.
+
+6
+00:00:21,780 --> 00:00:27,740
+é bom mesmo colocar aqui o link pra que vocês possam baixar esse exibi que vocês vão ter acesso ao projeto
+
+7
+00:00:27,750 --> 00:00:34,050
+tinham calculadora que eu fiz usando como o Java flex só pra vocês verem alguns recursos adicionais
+
+8
+00:00:34,370 --> 00:00:38,370
+na aplicação unzinho um pouco maior na versão que está atualmente.
+
+9
+00:00:38,370 --> 00:00:43,920
+Agora eu vou colocá la completamente funcional do ponto de vista de realmente executar as operações
+
+10
+00:00:43,920 --> 00:00:49,970
+matemáticas mais a parte e clicar nos botões aparecer no display está posicionado Ok lá até acho interessante
+
+11
+00:00:49,980 --> 00:00:55,560
+jogar para vocês a aplicação dessa forma porque vocês podem pegar aquela outra calculadora que a gente
+
+12
+00:00:55,560 --> 00:01:01,980
+construiu no passado e tentar adaptar essa versão Java e Flex para realmente ela funcionar serve como
+
+13
+00:01:01,980 --> 00:01:08,620
+um desafio pra vocês mas de qualquer forma se vocês quiserem ver a versão como foi feito em Java e fecha
+
+14
+00:01:08,620 --> 00:01:14,610
+o gol está disponibilizando o código vinculado na sala mostrar pra vocês agora o código Eu já baixei
+
+15
+00:01:14,610 --> 00:01:22,020
+aqui na minha máquina um arquivo exibe certos eu colocar aqui no desktop da minha máquina aqui o arquivo
+
+16
+00:01:22,020 --> 00:01:23,840
+ZIP ou calculadora ZIP.
+
+17
+00:01:24,160 --> 00:01:27,270
+E é exatamente esse arquivo que eu vou executar com vocês agora.
+
+18
+00:01:27,720 --> 00:01:35,280
+Então eu vou colocar aqui dentro do curso Java dentro do projeto exercício Java FX em SC quando eles
+
+19
+00:01:35,310 --> 00:01:40,880
+compactar aqui ele já vai criar uma pasta chamada calculadora ou apagar o ZIP.
+
+20
+00:01:40,890 --> 00:01:47,340
+Eu não preciso dele dentro da pasta calculadora eu vou ter todos os arquivos já considerando essa pasta
+
+21
+00:01:47,340 --> 00:01:50,580
+como sendo um pacote que esses arquivos estão dentro.
+
+22
+00:01:50,660 --> 00:01:54,500
+Então basta pegar os arquivos ISO compactado dentro dessa observação.
+
+23
+00:01:54,600 --> 00:02:00,870
+Vocês vão ver que tem a fonte de robusto aqui perto essa fonte como foi que eu consegui ela eu entrei
+
+24
+00:02:00,960 --> 00:02:09,490
+aqui em fontes ponto Google.com e lá selecionei a fonte robô Ultron é fácil você encontrar aqui uma
+
+25
+00:02:09,490 --> 00:02:16,900
+das fontes mais famosas digamos assim não é a primeira que aparece aqui onde somem e adicionando a fonte.
+
+26
+00:02:17,010 --> 00:02:24,210
+Eu entrei aqui e pedi pra fazer um download dela eu não acho que necessariamente você não precisam selecionar
+
+27
+00:02:24,350 --> 00:02:25,030
+customizar.
+
+28
+00:02:25,070 --> 00:02:31,060
+Eu acho que vai baixar tudo eu usei a versão mais fininha essa e aqui eu baixei a fonte.
+
+29
+00:02:31,260 --> 00:02:33,530
+Peguei a versão mais fina dela.
+
+30
+00:02:33,560 --> 00:02:40,330
+Se eu abri aqui ao mandar executar ou jogar que pudesse que toque só pra você ver aqui no desktop então
+
+31
+00:02:40,380 --> 00:02:49,290
+aqui o botão é a versão mais fininha que essa eu peguei ela mudou o nome para o botão e copiei esse
+
+32
+00:02:49,300 --> 00:02:52,300
+essa fonte para dentro da pasta do projeto certo.
+
+33
+00:02:52,300 --> 00:02:57,930
+Então só pra baixar pra vocês que é supersimples você obter uma fonte e eu coloquei ela aqui dentro.
+
+34
+00:02:57,940 --> 00:03:02,620
+Já o FX sem calculadora é a fonte.
+
+35
+00:03:02,640 --> 00:03:06,700
+Eu peguei a mais fininha e joguei dentro da pasta para poder importar ela aqui dentro.
+
+36
+00:03:07,080 --> 00:03:12,270
+Uma vez feito isso a gente pode vir aqui no nosso projeto dá um F5 ou mesmo clicar com o botão direito
+
+37
+00:03:12,270 --> 00:03:17,210
+aqui French apareceu a calculadora pra funcionar.
+
+38
+00:03:17,250 --> 00:03:24,250
+Essa pasta eu preciso colocar aqui au au Prince calculadora.
+
+39
+00:03:24,270 --> 00:03:31,410
+Além disso nós vamos executar o épico conto Java dentro de calculadora e você vai ver executar que não
+
+40
+00:03:31,410 --> 00:03:37,350
+vai acontecer nada a gente precisa lá desmarcar aquela opção do ano Configuration então vou usar aqui
+
+41
+00:03:37,500 --> 00:03:45,210
+para a aplicação selecionar aqui o programa Configuration colocado aqui argumentos ou desmarcar essa
+
+42
+00:03:45,210 --> 00:03:46,700
+opção.
+
+43
+00:03:48,150 --> 00:03:55,840
+E agora sim ele vai aparecer a nossa calculadora foi uma cópia da versão do Mac até minimizar o eclipse.
+
+44
+00:03:55,870 --> 00:03:59,230
+Vou mudar aqui até o lixo para ficar mais bonitinho redondinho pronto.
+
+45
+00:03:59,280 --> 00:04:04,830
+Aqui a calculadora vai abrir a calculadora do Mac só pra gente ter uma referência certo.
+
+46
+00:04:05,130 --> 00:04:06,430
+São muito parecidas.
+
+47
+00:04:06,480 --> 00:04:13,920
+Eu fiz questão de tirar a decoração digamos assim da parte para colocar o botão aqui eu desenhei esse
+
+48
+00:04:13,920 --> 00:04:18,210
+botão para poder ter isso dentro do próprio display.
+
+49
+00:04:18,270 --> 00:04:20,940
+Coloquei aqui curvado no final certo.
+
+50
+00:04:20,940 --> 00:04:25,520
+Então funciona que 1 2 três vezes não aparecem.
+
+51
+00:04:25,740 --> 00:04:31,850
+Você colocar lá se ele limpa a 2 vírgula 0 2.
+
+52
+00:04:32,020 --> 00:04:37,420
+Eu não canso não consegue colocar já filtrada para não colocar caracteres inválidos e aí é legal porque
+
+53
+00:04:37,510 --> 00:04:43,380
+está muito próximo visualmente do que tem aqui no da Apple tem até um desenho aqui você consegue ver
+
+54
+00:04:43,380 --> 00:04:44,840
+em baixo.
+
+55
+00:04:45,200 --> 00:04:46,900
+Não sei se na tela fica claro.
+
+56
+00:04:47,640 --> 00:04:52,740
+Talvez não mas aqui visualmente você vai ver aqui ainda para ver o que está embaixo da grade da MS colocar
+
+57
+00:04:52,750 --> 00:05:00,270
+aqui alguma coisa que tem um pouco mas na verdade só talvez dê só pra ver que visualmente mais eu coloquei
+
+58
+00:05:00,690 --> 00:05:06,900
+um desenho dentro do CSS poderia ter colocado a grade maior que só pra mostrar pra vocês vão abrir o
+
+59
+00:05:06,910 --> 00:05:11,500
+eclipse e ele fica fácil demonstrá lo em calculadora ponto CSS.
+
+60
+00:05:12,650 --> 00:05:21,420
+Colocar aqui não é aqui dentro você tem a opacidade pra ser 0 97 e colocar 0 50 você vai ver que o degradê
+
+61
+00:05:21,960 --> 00:05:26,340
+vai ficar bem mais explicito tarde vai colocar alguma coisa no console aqui que eu deixei.
+
+62
+00:05:26,490 --> 00:05:32,490
+Mas de qualquer forma você vai ter acesso aí ao código fonte nesse projeto não só pra que você consiga
+
+63
+00:05:33,810 --> 00:05:36,900
+ver uma aplicação um pouco maior sendo feita aqui o degradê.
+
+64
+00:05:36,930 --> 00:05:40,080
+Agora sim você consegue ver claramente está embaixo.
+
+65
+00:05:40,080 --> 00:05:45,490
+Então por isso eu coloquei um degradê muito leve e 0,3 por cento só dá não em geral.
+
+66
+00:05:45,520 --> 00:05:49,630
+Na aplicação você tem a parte da aplicação.
+
+67
+00:05:49,710 --> 00:05:58,290
+Basicamente eu coloquei isso aqui no principal 7 horas pra poder ele mexer na tela já que eu não tenho
+
+68
+00:05:58,410 --> 00:06:01,310
+a borda da nossa aplicação certo.
+
+69
+00:06:01,350 --> 00:06:05,450
+Então isso aqui serve para complicar a minha aplicação.
+
+70
+00:06:05,670 --> 00:06:07,010
+Eu consiga mexer.
+
+71
+00:06:07,320 --> 00:06:14,520
+Eu consigo fazer isso exatamente por conta desses dois códigos aqui que é exatamente a posição X e Y
+
+72
+00:06:14,520 --> 00:06:20,820
+será alterada a partir do momento que eu clique no mouse e começa a mexer melhor passo segue arrastando.
+
+73
+00:06:20,940 --> 00:06:27,330
+Se não colocar isso se eu desse seu comentário essas duas minhas aqui você vai ver que eu não vou conseguir
+
+74
+00:06:27,390 --> 00:06:29,340
+mexer a minha tela de posição.
+
+75
+00:06:29,400 --> 00:06:35,910
+Basicamente o que tem diferente da parte principal aí só não consigo mexeu com essa opção que é ativada
+
+76
+00:06:35,910 --> 00:06:37,030
+eu consigo mexer.
+
+77
+00:06:37,360 --> 00:06:38,530
+Não que tem mais.
+
+78
+00:06:38,610 --> 00:06:45,030
+Além disso nós temos aqui como sendo o componente principal é a minha calculadora é esse componente
+
+79
+00:06:45,030 --> 00:06:52,650
+aqui a calculadora é um box vertical que tem três componentes tem a barra de título e vou colocar aqui
+
+80
+00:06:52,650 --> 00:06:57,900
+de lado calculadora botar aqui para ficar mais bonitinho também tinha esquecido estavam lá.
+
+81
+00:06:57,900 --> 00:07:04,250
+Aqui você tem a barra de título que essa parte em cima tem um display e tem um teclado exatamente aqui
+
+82
+00:07:04,260 --> 00:07:06,140
+ao teclado no clique.
+
+83
+00:07:06,180 --> 00:07:10,550
+Chame se essa couber se o texto for a.
+
+84
+00:07:10,640 --> 00:07:11,790
+Chama o display.
+
+85
+00:07:11,790 --> 00:07:13,860
+Caso não seja chama o display.
+
+86
+00:07:13,860 --> 00:07:20,490
+Ponto adicional o texto aqui é um box que tem uns três componentes aí você tem a barra de título.
+
+87
+00:07:20,490 --> 00:07:25,260
+Basicamente tem só um botão e esse botão fechar tem alguns detalhes.
+
+88
+00:07:25,260 --> 00:07:28,820
+Quando o mouse entrar no botão ele vai mostrar o vizinho.
+
+89
+00:07:28,890 --> 00:07:34,610
+Caso contrário ele fica em branco simulando mais ou menos o que acontece na calculadora da época.
+
+90
+00:07:34,620 --> 00:07:40,590
+Não chego perto dele Moto X Zinho na nossa calculadora também quando chego perto ele coloca o X e o
+
+91
+00:07:40,590 --> 00:07:43,830
+tira para tentar chegar mais próximo disso né.
+
+92
+00:07:43,830 --> 00:07:48,280
+A fonte é mais a fonte é mais slim e mais magrinho mais light.
+
+93
+00:07:48,290 --> 00:07:53,160
+Também coloquei aqui uma fonte mais leve não achei exatamente a mesma fonte mas coloquei uma fonte que
+
+94
+00:07:53,160 --> 00:07:54,880
+eu acho mais ou menos parecida.
+
+95
+00:07:54,930 --> 00:07:59,180
+O símbolo aqui de divisão é tal que eu peguei na internet.
+
+96
+00:07:59,190 --> 00:08:07,140
+Se você colocar aqui um símbolo por exemplo um símbolo de.
+
+97
+00:08:07,440 --> 00:08:12,540
+Por exemplo em algum momento lá aparecer aqui onde vejo um site de.
+
+98
+00:08:12,540 --> 00:08:17,410
+Se você procurar eu copiei esse valor e coloquei na colei lá.
+
+99
+00:08:17,430 --> 00:08:22,860
+A mesma coisa o X eu não usei o X mesmo coloquei um símbolo de multiplicação e então fui procurar na
+
+100
+00:08:22,860 --> 00:08:29,310
+internet e colocar no até porque eu não sei exatamente qual é a tecla de atalho para aceitar esses caracteres
+
+101
+00:08:29,310 --> 00:08:29,640
+aqui.
+
+102
+00:08:29,850 --> 00:08:35,340
+Então só pra você saber aqui também teve início no nosso programa tinham aqui basicamente sete Echo
+
+103
+00:08:35,360 --> 00:08:41,580
+um quando ele chama o clique no botão ele sai na aplicação e quando um mouse entra na Barra ele coloca
+
+104
+00:08:41,580 --> 00:08:49,220
+o X em um quando o mouse sai ele tira o X e o Aqui aplica no Chile sem muito dificuldade não eu coloquei
+
+105
+00:08:49,430 --> 00:08:55,880
+o leigo obviamente coloquei que os alinhamentos é a única coisa que tem um pouco mais de regra é o método
+
+106
+00:08:55,940 --> 00:09:02,330
+adicionar texto porque eu só deixo adicionar um texto no display caso esse texto faça sentido.
+
+107
+00:09:02,330 --> 00:09:10,680
+Por exemplo se o texto tá vazio e o novo texto é uma vírgula eu coloco zero vírgula alguma coisa.
+
+108
+00:09:10,850 --> 00:09:15,190
+Se o texto já não contém isso o usuário digitou a vírgula.
+
+109
+00:09:15,200 --> 00:09:19,520
+Aí ele pode adicionar mais que já contém vírgula e adicionar a nova vírgula.
+
+110
+00:09:19,610 --> 00:09:25,400
+E aí eu faço aqui toda a lógica pra que no final eu tenha algo consistentemente no meu Display.
+
+111
+00:09:25,430 --> 00:09:31,460
+Basicamente isso tem um metro que pega o texto atual tem um metro que segue o texto atual.
+
+112
+00:09:31,460 --> 00:09:33,860
+Eu acho que esse método é usado por fora.
+
+113
+00:09:33,860 --> 00:09:39,080
+Então posso colocar aqui como sendo um bit que algo interno eu não estou enganado.
+
+114
+00:09:39,470 --> 00:09:43,280
+é questão de ajustar o tamanho da fonte também eu fiz.
+
+115
+00:09:43,600 --> 00:09:47,860
+é um método que vai ajustando o tamanho da fonte de acordo com a quantidade de caracteres.
+
+116
+00:09:48,350 --> 00:09:53,300
+Então pegando aqui nossa calculadora se coloca aqui 1 0 0 0 não coloca.
+
+117
+00:09:53,300 --> 00:10:00,250
+Não adianta eu colocar 8 8 8 8 8 aqui até que ele suporta.
+
+118
+00:10:00,250 --> 00:10:03,260
+Se eu colocar mais um 8 ele vai diminuindo.
+
+119
+00:10:03,260 --> 00:10:06,610
+Aqui eu acho que ele errou um pouquinho a questão do tamanho.
+
+120
+00:10:06,880 --> 00:10:14,690
+Acho que vai ser 220 ou colocar 210 pra ele pegar a largura correta então acho que agora ele não vai
+
+121
+00:10:14,690 --> 00:10:22,810
+quebrar não estando mais uma vez ou 1 2 3 4 5 6 7 8 9.
+
+122
+00:10:23,240 --> 00:10:29,630
+Ou seja a partir do momento que eu vou colocando novos novos caracteres ele vai diminuindo o tamanho
+
+123
+00:10:29,630 --> 00:10:34,200
+da fonte pra poder caber que é mais ou menos o que acontece na calculadora da Apple.
+
+124
+00:10:34,640 --> 00:10:39,810
+Colocar 1 2 3 4 5 6 7 7 não é o máximo.
+
+125
+00:10:39,830 --> 00:10:42,740
+No meu caso cabem até 8 lo aqui.
+
+126
+00:10:42,890 --> 00:10:48,710
+Ele vai também diminuindo o tamanho da fonte pra termos exatamente o mesmo comportamento que tem na
+
+127
+00:10:48,710 --> 00:10:49,820
+calculadora da Apple.
+
+128
+00:10:50,210 --> 00:10:55,610
+Então quem está fazendo isso é exatamente esse meta ajustar o tamanho da fonte de acordo com o que está
+
+129
+00:10:55,610 --> 00:10:56,760
+acontecendo aqui.
+
+130
+00:10:56,760 --> 00:11:02,210
+Esse tirar esse print além daquilo que eu acho que usei pra verificar alguma coisa que estava sendo
+
+131
+00:11:02,210 --> 00:11:09,980
+escrita e no final das contas tem um display que é super simples basicamente é um campo de texto e nós
+
+132
+00:11:09,980 --> 00:11:18,470
+temos aqui o nosso teclado que usa o grid então o teclado ele usa o Gripen e o mundo gerenciadores que
+
+133
+00:11:18,470 --> 00:11:26,210
+eu já expliquei anteriormente e aqui você tem os botões e logo depois você passa quem é que vai tratar
+
+134
+00:11:26,270 --> 00:11:27,200
+clique no botão.
+
+135
+00:11:27,200 --> 00:11:31,240
+Nesse caso ele implementa o consumo no entanto passa não desce.
+
+136
+00:11:31,460 --> 00:11:37,550
+O leigo do botão e finalmente quais são as classes CSS que eu quero aplicar aqueles botões então se
+
+137
+00:11:37,550 --> 00:11:44,690
+eu botar mais escuro como é o caso desses primeiros aqui ele vai colocar uma cor um pouco mais escura
+
+138
+00:11:44,690 --> 00:11:50,550
+que é exatamente esses três botões se o botão é uma operação no passo uma classe SS que irá aplicar
+
+139
+00:11:50,550 --> 00:11:56,960
+a cozinha laranja se o botão é duplo que é o caso do zero eu passo a classe SS que ele vai aplicar um
+
+140
+00:11:56,960 --> 00:11:57,680
+tamanho maior.
+
+141
+00:11:57,940 --> 00:12:00,720
+Então isso aqui foi feito usando o grid.
+
+142
+00:12:00,750 --> 00:12:07,310
+Bem se você pode pegar mais ou menos escolhe como referência tentar implementar a sua própria calculadora
+
+143
+00:12:07,310 --> 00:12:10,600
+e depois comparar para ver como foi que eu fiz e como foi que você fez.
+
+144
+00:12:10,640 --> 00:12:15,800
+Então peça só pra mostrar pra vocês que tem mais esse para o jeitinho pra vocês usarem.
+
+145
+00:12:15,840 --> 00:12:21,650
+Aí vocês vão ter o core à disposição de vocês a partir de um arquivo ZIP e anexado a sao.
+
+146
+00:12:21,640 --> 00:12:26,950
+Provavelmente eu devo ter feito algumas correções antes de liberar pra vocês já vou ter tirado System
+
+147
+00:12:26,990 --> 00:12:33,470
+Alt já voltei provavelmente feito algumas mínimas correções e o que eu fiz no vídeo naquele 220 troquei
+
+148
+00:12:33,470 --> 00:12:39,530
+por 210 não vou fazer isso já pra garantir que o projeto seja entregue pra vocês da melhor forma possível.
+
+149
+00:12:39,530 --> 00:12:40,630
+Pessoal fico por aqui.
+
+150
+00:12:40,910 --> 00:12:45,380
+Espero que vocês tenham gostado do nosso capitão na próxima aula a gente termina a conclusão do capítulo
+
+151
+00:12:45,500 --> 00:12:46,040
+e até lá.

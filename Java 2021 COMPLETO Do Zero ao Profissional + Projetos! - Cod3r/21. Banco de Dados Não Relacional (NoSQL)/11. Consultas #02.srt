@@ -1,0 +1,543 @@
+1
+00:00:00,140 --> 00:00:03,030
+Na aula passaram mãos um pouco da teoria do agregado.
+
+2
+00:00:03,120 --> 00:00:09,420
+Nessa aulas aplicar um pouco isso na prática fazer alguns insultos um pouco mais complexas e usar tanto
+
+3
+00:00:09,780 --> 00:00:15,820
+a questão dos estágios do PAI Plano de agregação como também os operadores do PAI Plano de agregação.
+
+4
+00:00:15,820 --> 00:00:24,370
+Então para isso nós vamos criar um novo arquivo e o nome do arquivo vai ser consultas dois ponto txt.
+
+5
+00:00:24,660 --> 00:00:28,870
+Eu vou fazer o seguinte eu vou fazer as consultas diretamente converso com ele para que a gente possa
+
+6
+00:00:28,860 --> 00:00:35,730
+evoluir de uma consulta começando com consulta simples executando coloca novos passos e vai ficar mais
+
+7
+00:00:35,730 --> 00:00:41,310
+fácil para colocar esses novos passos diretamente de todo o que é colocado isso lá na ferramenta de
+
+8
+00:00:41,310 --> 00:00:42,040
+comando.
+
+9
+00:00:42,150 --> 00:00:48,650
+Então vou ficar disse também que as consultas copia e executa as consultas lá no Cais do morro certo
+
+10
+00:00:48,660 --> 00:00:55,450
+quais do meu já está aberto aqui e nós vamos começar da primeira consulta bem simples que vai CDB ponto
+
+11
+00:00:55,550 --> 00:00:57,770
+estados ponto agregados.
+
+12
+00:00:57,840 --> 00:01:03,700
+E aí eu vou abrir a consulta e colocar um aqui que vai ser exatamente todos os estágios do pai plano
+
+13
+00:01:03,700 --> 00:01:08,340
+de agregação nessa primeira consulta vou usar apenas um único estágio que é o projeto.
+
+14
+00:01:08,390 --> 00:01:14,490
+Então abrindo aqui a função e colocando a Rui abrir a função aqui e dentro dessa área vou colocar apenas
+
+15
+00:01:14,490 --> 00:01:16,190
+um único estágio que vai seu projeto.
+
+16
+00:01:16,190 --> 00:01:22,620
+Eu vou abrir um objeto colocar como nome do atributo desse objeto exatamente o nome do estágio que eu
+
+17
+00:01:22,620 --> 00:01:30,070
+quero aplicar no caso o que é hoje lembrado que todos os estágios começam com dolo então o apelido de
+
+18
+00:01:30,150 --> 00:01:36,400
+uso de bola pra algo que é significativo algo como por exemplo no estágio pai pela agregação.
+
+19
+00:01:36,450 --> 00:01:44,370
+O operador também começa com bola e eventualmente você vai querer referenciar uma coluna no documento.
+
+20
+00:01:44,490 --> 00:01:46,500
+Ele vai usar o dólar também.
+
+21
+00:01:46,560 --> 00:01:53,100
+Quando você faz referência a uma coluna do lado direito por exemplo que são objetos chave vale ou como
+
+22
+00:01:53,100 --> 00:01:55,710
+você coloca um acúmulo dentro do valor.
+
+23
+00:01:56,040 --> 00:01:59,340
+Você usa o dólar você para colocar o nome da coluna na chave.
+
+24
+00:01:59,410 --> 00:02:05,570
+Senão vou mostrar pra vocês gente vou criar nas nossas consultas então projetos e um objeto.
+
+25
+00:02:05,570 --> 00:02:06,870
+Então essa é a chave.
+
+26
+00:02:06,870 --> 00:02:13,470
+2 pontos o valor vai se exatamente no objeto e contém todos os atributos que você quer projetar digamos
+
+27
+00:02:13,470 --> 00:02:14,050
+assim.
+
+28
+00:02:14,130 --> 00:02:21,500
+A partir do projeto então neste caso ao projetar o nome dois pontos vírgula cidades ponto o nome dois
+
+29
+00:02:21,510 --> 00:02:23,750
+pontos eu não vou querer projetar.
+
+30
+00:02:23,790 --> 00:02:27,630
+Então coloco vírgula Vanderlan Adidas ponto zero.
+
+31
+00:02:27,660 --> 00:02:33,840
+Ou seja é a mesma coisa que a gente fez lá na consulta que algo não faz o que a gente fez em algumas
+
+32
+00:02:33,840 --> 00:02:40,020
+aulas passadas aqui eu tenho como se fosse um MET para filtrar apenas o Estado de São Paulo e aqui eu
+
+33
+00:02:40,020 --> 00:02:46,370
+tenho um projecto que diz exatamente quais são os atributos que você quer que sejam exibidos lá na consulta
+
+34
+00:02:46,370 --> 00:02:47,760
+no resultado da consulta.
+
+35
+00:02:47,760 --> 00:02:53,220
+Nesse caso quais são os atributos que eu quero que sejam passados para o próximo passo do pai plano
+
+36
+00:02:53,220 --> 00:02:59,700
+de agregação se essa consulta tiver apenas um único passo o resultado vai ser exatamente todos os estados
+
+37
+00:03:00,040 --> 00:03:09,420
+mostra não apenas o nome do Estado e o nome das cidades copiando aqui e Control V o resultado do Acre
+
+38
+00:03:09,420 --> 00:03:11,310
+Alagoas Rio de Janeiro e São Paulo.
+
+39
+00:03:11,310 --> 00:03:16,620
+No caso do Rio de Janeiro tem a cidade de Niterói e São Paulo tem três cidades Campinas Guarulhos e
+
+40
+00:03:16,620 --> 00:03:17,400
+Sorocaba.
+
+41
+00:03:17,400 --> 00:03:23,240
+Eu quero fazer só um teste que vocês vão fazer o seguinte jogo daqui líquidos para sair do cliente.
+
+42
+00:03:23,430 --> 00:03:25,050
+Voltei pro terminal.
+
+43
+00:03:25,050 --> 00:03:31,500
+Vou entrar novamente no de digital no comando do mundo se eu entrei de novo no terminal e executa a
+
+44
+00:03:31,500 --> 00:03:33,450
+mesma consulta.
+
+45
+00:03:33,710 --> 00:03:43,150
+O resultado é vazio porque é que o Estado é base e não se tem ideia daí três segundos ao responder já
+
+46
+00:03:43,960 --> 00:03:49,160
+estava vazio porque quando você entra de novo no mundo não está selecionado.
+
+47
+00:03:49,180 --> 00:03:55,670
+O banco WM então pra gente rodar de novo essa consulta e o resultado ser exibido eu vou usar aqui e
+
+48
+00:03:55,800 --> 00:03:58,530
+os WM moderno.
+
+49
+00:03:58,810 --> 00:04:01,110
+E aí vem esse coisa culto novamente à consulta.
+
+50
+00:04:01,110 --> 00:04:02,230
+O resultado volta.
+
+51
+00:04:02,400 --> 00:04:05,700
+Porque quando você entra pela primeira vez não está selecionado.
+
+52
+00:04:05,770 --> 00:04:09,220
+O banco de dados vou criar aqui uma segunda consulta.
+
+53
+00:04:09,220 --> 00:04:16,060
+Agora não zona apenas esse aqui eu só usei um estágio de na agregação agora vou usar vários estágios
+
+54
+00:04:16,440 --> 00:04:21,630
+e também vou usar operadores o caso acho o operador só então fazer o seguinte.
+
+55
+00:04:21,750 --> 00:04:29,920
+DD ponto estados gay é a mesma coisa criar um método e um array com todos os estágios de agregação.
+
+56
+00:04:29,930 --> 00:04:32,650
+Vou usar o primeiro estágio para seu projeto também.
+
+57
+00:04:33,040 --> 00:04:37,560
+Só que nesse caso eu vou criar aqui os atributos vai ser pouco.
+
+58
+00:04:37,590 --> 00:04:43,750
+São dois pontos e agora vou usar o operador do pai para a agregação que no caso é a soma.
+
+59
+00:04:44,020 --> 00:04:50,630
+Então vou querer somar todos os às populações das cidades que estão nos estados.
+
+60
+00:04:50,680 --> 00:04:53,030
+Então quero agrupar o resultado por estado.
+
+61
+00:04:53,100 --> 00:04:56,950
+E eu quero somar a população de todos a cidade de um determinado estado.
+
+62
+00:04:56,950 --> 00:05:00,800
+Então pra fazer isso coloca a população dois pontos.
+
+63
+00:05:00,880 --> 00:05:02,530
+Vou colocar aqui só uma.
+
+64
+00:05:02,980 --> 00:05:11,010
+E aí eu vou colocar dois pontos entre aspas cidades com população olho observação aqui eu aqui eu coloquei
+
+65
+00:05:11,040 --> 00:05:19,320
+um projeto coloquei dois pontos coloquei cidades com o nome entre aspas porque no caso de um operador
+
+66
+00:05:19,330 --> 00:05:20,260
+ponto aqui.
+
+67
+00:05:20,270 --> 00:05:26,590
+E nesse caso eu coloquei entre aspas porque o ponto ele não é um digamos solidificado levado para o
+
+68
+00:05:26,590 --> 00:05:27,580
+nome de variável.
+
+69
+00:05:27,580 --> 00:05:32,800
+Então eu tive tive que colocar entre aspas e aí depois coloquei o desenho em outras palavras que eu
+
+70
+00:05:32,800 --> 00:05:35,400
+quero que ele traga o nome da cidades.
+
+71
+00:05:35,530 --> 00:05:37,710
+Nesse caso eu não coloquei o dolo.
+
+72
+00:05:37,710 --> 00:05:38,230
+Por quê.
+
+73
+00:05:38,230 --> 00:05:44,140
+Porque nesse caso esse valor está do lado esquerdo da minha expressão chave e Valois que é um objeto
+
+74
+00:05:44,140 --> 00:05:45,430
+em JavaScript.
+
+75
+00:05:45,430 --> 00:05:53,020
+Aqui também é um objeto em JavaScript que tem três atributos nome o valor ou o nome do atributo dois
+
+76
+00:05:53,020 --> 00:05:58,540
+pontos o valor é o melhor atributo dois pontos um valor zero.
+
+77
+00:05:58,540 --> 00:06:05,560
+Como eu usei o nome do atributo do lado esquerdo não precisei usar o dólar mais nesse caso eu usei o
+
+78
+00:06:05,560 --> 00:06:10,660
+nome do atributo do lado direito do Chaves valor ou então que sempre quer do lado direito.
+
+79
+00:06:10,720 --> 00:06:18,100
+Eu preciso usar o dólar pra que a API do jogo saiba que ele precisa interpelar esse valor é preciso
+
+80
+00:06:18,100 --> 00:06:23,860
+interpretar esse valor não é simplesmente um extremo e sim um valor que precisa ser resolvido.
+
+81
+00:06:23,860 --> 00:06:30,880
+Nesse caso ele vai ter que entrar dentro do rei das cidades dentro de cada estado e pegar a população
+
+82
+00:06:31,240 --> 00:06:36,640
+e ele vai pagar isso e aplicar uma soma pra gerar um atributo chamado população.
+
+83
+00:06:36,640 --> 00:06:41,970
+Dentro do projeto Eu tenho a lista dos meus atributos e aqui nesse caso coloquei o nome do atributo
+
+84
+00:06:41,980 --> 00:06:47,540
+população e ele vai usar esse operador pra de fato ele aplicar a soma.
+
+85
+00:06:47,550 --> 00:06:52,570
+Continuando eu vou colocar agora virgula sigla e eu quero que traga a sigla e finalmente eu quero que
+
+86
+00:06:52,570 --> 00:06:54,400
+ele não traga o.
+
+87
+00:06:54,610 --> 00:06:56,390
+Então vou pagar essa consulta aqui.
+
+88
+00:06:57,010 --> 00:07:02,140
+Note que ele acabou de dizer que ele vai fazer um projeto e o resultado dessa consulta vai gerar um
+
+89
+00:07:02,140 --> 00:07:05,360
+atributo população e um atributo sigla.
+
+90
+00:07:05,380 --> 00:07:12,410
+Certo aí eu estou simplesmente tirando porque é pouco padrão vem então salvou aqui do um contra o V.
+
+91
+00:07:12,790 --> 00:07:17,870
+Então o resultado dessa consulta com apenas um único estágio digamos assim do pai pela agregação que
+
+92
+00:07:17,870 --> 00:07:24,250
+era o projeto gerou um resultado que tem dois atributos a sigla e a população.
+
+93
+00:07:24,250 --> 00:07:29,540
+No caso do estado do Acre não tem população pq também não tem cidade em Alagoas a mesma coisa.
+
+94
+00:07:29,540 --> 00:07:34,680
+RIO DE JANEIRO tem apenas uma única cidade trouxe total dessas cidades finalmente São Paulo como tinha
+
+95
+00:07:34,690 --> 00:07:42,430
+três cidades ele trouxe a soma da população das três cidades gerando exatamente esse resultado e tão
+
+96
+00:07:42,440 --> 00:07:49,870
+lembrado quando eu vim aqui colocar uma vírgula e fazer um novo passo do meu pai pela agregação lembra
+
+97
+00:07:49,870 --> 00:07:57,390
+que nesse segundo passo eu tenho esse resultado 7 aqui eu tenho apenas a sigla e tem apenas a população.
+
+98
+00:07:57,460 --> 00:08:03,640
+Nesse caso eu vou querer fazer um outro passo que seria um passo de agrupamento eu vou querer agrupar
+
+99
+00:08:03,640 --> 00:08:05,410
+todas as populações.
+
+100
+00:08:05,410 --> 00:08:12,580
+é como se fosse uma população solo ou seja da população de todas as cidades do Brasil mas que não seja
+
+101
+00:08:12,580 --> 00:08:15,970
+agrupada por nada nem em estado puro absolutamente nada.
+
+102
+00:08:15,970 --> 00:08:21,490
+O cara simplesmente somatório de todas as cidades então nesse caso ao fazer um grupo vou usar como critério
+
+103
+00:08:21,490 --> 00:08:23,790
+de agregação que ele exige que seja lá.
+
+104
+00:08:23,800 --> 00:08:29,290
+Nesse caso o meu pai diria que seria o que será usado como critério de agregação vai ser absolutamente
+
+105
+00:08:29,290 --> 00:08:32,000
+nada o quero agrupar tudo num único valor.
+
+106
+00:08:32,360 --> 00:08:40,120
+E nesse caso a população total que vai ser o campo que vai ser gerado vai ser exatamente a soma da população
+
+107
+00:08:41,080 --> 00:08:47,830
+a população foi o campo que o gerente projetou um passo anterior e como eu estou querendo acessar algo
+
+108
+00:08:47,830 --> 00:08:51,790
+que precisa ser interpelado precisa ser interpretado.
+
+109
+00:08:51,790 --> 00:09:00,040
+Nesse caso custou acessando do lado direito da expressão e o uso de bola para referenciar essa coluna
+
+110
+00:09:00,040 --> 00:09:01,660
+que foi gerada no passo anterior.
+
+111
+00:09:01,780 --> 00:09:08,740
+Então o resultado dessa consulta que vocês vão perceber que agora vai ser apenas um único resultado
+
+112
+00:09:09,130 --> 00:09:14,590
+no caso o ídolo e a população total vai ser exatamente o resultado disso.
+
+113
+00:09:14,770 --> 00:09:23,830
+Mas isso seja 3 milhões 538 mil 481 exatamente a soma desses dois valores já que os outros dois estavam
+
+114
+00:09:23,830 --> 00:09:30,760
+zerados e o quero agora que o resultado seja apenas população total não quero mais que o nulo que eu
+
+115
+00:09:30,970 --> 00:09:32,010
+usei aí.
+
+116
+00:09:32,080 --> 00:09:37,900
+Se a gente olhar lá na parte do grupo eu acho que eu tenho aqui o grupo ao grupo você vai ver que ele
+
+117
+00:09:37,900 --> 00:09:44,930
+usou a aí como seno a expressão que eu vou usar para fazer o agrupamento era agrupar ou região.
+
+118
+00:09:44,950 --> 00:09:50,830
+Você pode usar o valor sudeste e aí ele vai fazer os agrupamentos por região e mais ou menos essa lógica
+
+119
+00:09:51,190 --> 00:09:57,640
+certo nesse caso veio aqui uma dica não quero esse aí eu quero que no final tem apenas população total
+
+120
+00:09:57,660 --> 00:10:02,300
+então dentro do meu pai plano de agregação basta adicionar um novo projeto.
+
+121
+00:10:02,620 --> 00:10:09,470
+Então eu vou lá coloco aqui um novo projeto um terceiro passo para hoje dos dois pontos.
+
+122
+00:10:09,640 --> 00:10:16,810
+Coloco aí pra ser zero e coloco população total pra ou seja população total porque é que eu tô acessando
+
+123
+00:10:16,810 --> 00:10:20,440
+esse atributo aqui porque foi exatamente o atributo gerado no passo anterior.
+
+124
+00:10:20,800 --> 00:10:26,200
+E como eu estou lá acessando o lado esquerdo eu não preciso do dólar para referenciar estou colocando
+
+125
+00:10:26,200 --> 00:10:33,580
+aqui contra o C no final o resultado dessa consulta vai ser a população total sem lei e sem absolutamente
+
+126
+00:10:33,580 --> 00:10:41,080
+nada a gente fez três passos no três estágios do nosso plano de agregação que foi o projeto depois um
+
+127
+00:10:41,080 --> 00:10:43,240
+grupo depois fizemos o outro projetos.
+
+128
+00:10:43,300 --> 00:10:49,160
+Ou seja você pode usar quantos projetos quanto os grupos quiser mais uma vez dentro do pai plano de
+
+129
+00:10:49,180 --> 00:10:50,110
+agregação.
+
+130
+00:10:50,210 --> 00:10:56,350
+E nós usamos nesse caso duas vezes no operador do pai pela agregação que foi a soma tanto pra somar
+
+131
+00:10:56,350 --> 00:11:04,370
+cidades inicialmente agrupado por siglas no caso por estado e depois fizemos um agrupamento usando o
+
+132
+00:11:04,380 --> 00:11:10,510
+número pra ele somar tudo e no final tiramos lá pra cá exatamente a população total com o resultado
+
+133
+00:11:10,510 --> 00:11:12,030
+final dessa consulta.
+
+134
+00:11:12,070 --> 00:11:16,680
+Eu vou ficar por aqui nessa aula só pra não ficar muito grande na próxima aula vai fazer uma consulta
+
+135
+00:11:16,740 --> 00:11:22,600
+estresse TXT pra gente fazer uma outra consulta também usando o pai plano de agregação pra gente também
+
+136
+00:11:23,320 --> 00:11:28,180
+reforçar um pouco mais o conceito que a gente viu na aula passada na sala de espera lá.

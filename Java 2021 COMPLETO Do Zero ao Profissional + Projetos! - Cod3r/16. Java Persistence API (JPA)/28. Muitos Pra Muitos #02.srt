@@ -1,0 +1,723 @@
+1
+00:00:00,200 --> 00:00:07,500
+Pensar na agenda agora fazer mais um exercício muitos para muitos e nós vamos criar aqui uma nova classe
+
+2
+00:00:07,500 --> 00:00:10,340
+em nome da classe vai ser filme.
+
+3
+00:00:11,130 --> 00:00:23,940
+Mas vamos criar uma outra classe chamada ator então ator e vamos colocar aqui agora vou colocar aqui
+
+4
+00:00:24,420 --> 00:00:25,310
+ou bater boca.
+
+5
+00:00:25,770 --> 00:00:31,300
+Eu vou chamar tabela de filme pra c filmes no plural.
+
+6
+00:00:31,560 --> 00:00:36,600
+Também vou fazer a mesma coisa na tabela de atores o craque.
+
+7
+00:00:36,820 --> 00:00:51,410
+Agora sim eu vou colocar a roupa tem bons nomes na tabela mas sem atores com visual.
+
+8
+00:00:51,420 --> 00:00:56,100
+A partir disso nós vamos criar um atributo longos.
+
+9
+00:00:56,150 --> 00:00:59,250
+Aí a gente tem criado que vai ser nosso.
+
+10
+00:00:59,250 --> 00:01:06,650
+Aí eu vou colocar o genérico de velho pra ser estratégia idêntica.
+
+11
+00:01:07,140 --> 00:01:12,600
+Vou definir também aqui o atributo privado brinca.
+
+12
+00:01:12,960 --> 00:01:18,070
+No caso do ator essas mesmas duas colunas estará presente no filme.
+
+13
+00:01:18,570 --> 00:01:23,470
+Só que no fim não vou colocar mais um atributo que vai ser a nota do filme.
+
+14
+00:01:23,470 --> 00:01:27,930
+Por isso vou definir a relação bidirecional dos dois.
+
+15
+00:01:27,950 --> 00:01:30,310
+Phil é pra ator de ator gráfico.
+
+16
+00:01:30,320 --> 00:01:44,560
+Então aqui dentro de um filme eu botei uma lista da tipo Tattoo que eu vou chamar de atores e vou me
+
+17
+00:01:44,640 --> 00:01:52,330
+distanciar já que o Harry Irish inclusive terá que o genéricos desse lado que não precisa.
+
+18
+00:01:52,330 --> 00:01:59,470
+Vou colocar aqui com a robô mini menina que pouca gente define um pouco mais.
+
+19
+00:01:59,470 --> 00:02:04,770
+Quem vai ser seu lado do mapeamento quem vai seu lado da relação bidirecional.
+
+20
+00:02:04,780 --> 00:02:07,280
+Aqui eu estou dentro do filme então não há um ator.
+
+21
+00:02:07,300 --> 00:02:13,990
+Eu vou criar uma lista parecida só que em vez de se ator com ator vai ser ator apontando para o filme
+
+22
+00:02:14,530 --> 00:02:18,400
+que eu vou chamar de filmes no plural também.
+
+23
+00:02:18,460 --> 00:02:21,420
+Pronto vou gerar aqui.
+
+24
+00:02:21,520 --> 00:02:29,860
+O consultor e ator hoje era o construtor de ator que vai receber o nome então estou usando outros filmes
+
+25
+00:02:31,030 --> 00:02:36,700
+se ela se chamar apenas nome e vou gerar aos netos de 7.
+
+26
+00:02:36,850 --> 00:02:41,890
+Já faz parte do nosso fluxo de trabalho.
+
+27
+00:02:41,890 --> 00:02:43,790
+Pronto.
+
+28
+00:02:44,170 --> 00:02:53,350
+Vou fazer a mesma coisa para o filme que eu vou gerar o custo padrão que precisa ter um conceito padrão.
+
+29
+00:02:53,680 --> 00:03:05,790
+O geral usar nos filmes selecionar o nome e a nota do filme passado na construção geral os nos 7 selecionando
+
+30
+00:03:05,830 --> 00:03:10,580
+tudo mandando gerar automaticamente o código ok.
+
+31
+00:03:10,650 --> 00:03:17,790
+Uma vez feito isso nas mãos não persistentes eu vou gerar um filme.
+
+32
+00:03:17,960 --> 00:03:25,060
+Hoje praticamente todo já vai parar de dar problema aqui em relação ao mapeamento.
+
+33
+00:03:25,060 --> 00:03:31,190
+Vamos fazer o seguinte robô colocar que o filme vai ser o mapeamento e que.
+
+34
+00:03:31,260 --> 00:03:33,160
+Eu vou ter relação bidirecional.
+
+35
+00:03:33,170 --> 00:03:40,070
+Estão querendo o ator que eu vou colocar uma cópia de Bay apontando pra o atributo da outra classe no
+
+36
+00:03:40,080 --> 00:03:46,250
+caso e os atores estão lá no atributo atores que é exatamente neste filme.
+
+37
+00:03:46,260 --> 00:03:49,400
+Esse vai ser o atributo do mapeamento.
+
+38
+00:03:49,500 --> 00:03:55,740
+E aqui nós vamos usar uma anotação que a gente não tinha usado até então que é a anotação de junção
+
+39
+00:03:55,740 --> 00:03:56,480
+de tabela.
+
+40
+00:03:56,490 --> 00:04:03,150
+Já tinha usado John colo e agora a gente vai usar anotação roubando o jogo inteiro.
+
+41
+00:04:03,810 --> 00:04:10,100
+Então aqui no item você pode dizer qual o nome da tabela que você quer que vai ser a junção dos dois.
+
+42
+00:04:10,740 --> 00:04:14,750
+Então você escolhe o nome que você quiser independente de onde está o mapeamento.
+
+43
+00:04:14,760 --> 00:04:22,910
+Posso colocar o nome da tabela junção s personagens ou mesmo que eu vou colocar por exemplo se ela atuou
+
+44
+00:04:22,910 --> 00:04:30,750
+em filme de horror Katy autores Mandela em filmes tão bons pouco você sempre padronizou o nome das duas
+
+45
+00:04:30,890 --> 00:04:36,070
+das duas tabelas digamos assim atores de filmes e vocês quase sempre na ordem alfabética.
+
+46
+00:04:36,070 --> 00:04:43,380
+Ou seja primeiro depois o chefe então eu poderia usar essa nomenclatura e você também pode colocar mais
+
+47
+00:04:43,380 --> 00:04:49,070
+informações ou até quebrar a linha certo Cabrália pra baixo.
+
+48
+00:04:50,080 --> 00:05:00,600
+Pronto o cabra amigo aqui coloca uma vírgula e vou usar aqui por exemplo a propriedade de Jonh incólumes
+
+49
+00:05:01,110 --> 00:05:08,720
+e vou usar também a propriedade invés de homem comum e a outra que depois eu coloco resolver aqui a
+
+50
+00:05:08,760 --> 00:05:16,530
+gente vai colocar um arroubo de ódio como uma vez colocando isso a gente coloca por exemplo o nome tem
+
+51
+00:05:16,530 --> 00:05:29,570
+na verdade duas propriedades aqui você tem o nome da coluna tá Mari e você tem que tal morto e eu tenho
+
+52
+00:05:30,200 --> 00:05:39,290
+o nome da coluna referenciada Franz como uma um meme e eu tenho aqui embaixo ao invés de Hong Kong porque
+
+53
+00:05:39,290 --> 00:05:46,210
+também vai receber uma anotação em comum com essas duas informações aqui o nome tem o nome da coluna.
+
+54
+00:05:46,340 --> 00:05:51,330
+Então na verdade nós temos duas chaves primárias que vêm de duas tabelas diferentes no filme actor e
+
+55
+00:05:51,330 --> 00:05:54,470
+no para uma tabela intermediária que é exatamente essa.
+
+56
+00:05:54,470 --> 00:06:00,530
+Atores filmes no caso da Dior incólume está relacionada com a clássica isto agora quer filme.
+
+57
+00:06:00,950 --> 00:06:07,640
+Então o nome da coluna que eu vou querer colocar na tabela de junção que é essa tabela que só vai ser
+
+58
+00:06:08,210 --> 00:06:17,370
+filme Vanderlan é a coluna em que ela se referencia dentro da tabela o filme é a coluna chamada aí então
+
+59
+00:06:17,390 --> 00:06:21,320
+vou colocar aqui ou não da coluna de dentro do filme.
+
+60
+00:06:21,440 --> 00:06:28,420
+é o inverso de alguém com aquilo que vem a partir da outra entidade no caso aqui que vai ser o ator.
+
+61
+00:06:28,760 --> 00:06:38,100
+Então nesse caso mostraremos também aqui o nome vai ser ator Vanderlan vai referenciar a coluna.
+
+62
+00:06:38,480 --> 00:06:44,420
+Então dessa forma esse aqui vai ser Haiti adotou na data Bellator e esse aqui vai ser lá no meio da
+
+63
+00:06:44,420 --> 00:06:45,390
+tabela o filme.
+
+64
+00:06:45,750 --> 00:06:50,210
+Então o ou incólume é o que vem a partir da outra relação né.
+
+65
+00:06:50,220 --> 00:06:54,760
+No caso de ator seja de forma inversa já que estou fazendo o mapeamento aqui.
+
+66
+00:06:54,950 --> 00:07:02,390
+Se isso aqui esse mapeamento fosse feito dentro de Atol então o inverso seria o filme seria o contrário
+
+67
+00:07:02,390 --> 00:07:02,600
+né.
+
+68
+00:07:02,840 --> 00:07:08,780
+Então aqui você tem como definir de forma mais detalhada principalmente quando você já tem um banco
+
+69
+00:07:08,780 --> 00:07:15,440
+de dados com as tabelas definidas as colunas definidas e essas colunas muitas vezes não vai seguir o
+
+70
+00:07:15,440 --> 00:07:19,660
+padrão que o JP dava a entender que é o padrão que ele vai procurar.
+
+71
+00:07:20,040 --> 00:07:26,030
+Então você tem lá como definir essas informações de forma um pouco mais detalhada então aqui só pra
+
+72
+00:07:26,030 --> 00:07:32,780
+servir de referência como você poderia fazer um relacionamento definindo todos os detalhes relacionados
+
+73
+00:07:34,250 --> 00:07:37,020
+com as colunas e a tabela.
+
+74
+00:07:38,970 --> 00:07:41,960
+Lá definiu todos os detalhes da relação.
+
+75
+00:07:41,990 --> 00:07:45,640
+Muitos para muitos o próximo passo agora que quero fazer o seguinte.
+
+76
+00:07:45,630 --> 00:07:51,680
+Pra gente é vital que aconteceu no exercício passado que é ter que ficar fazendo isso aqui ao Guedes
+
+77
+00:07:51,740 --> 00:07:57,910
+sobrinho adicionar Sobrinho garantiu e a partir sobrinho para adicionar o tio e tal.
+
+78
+00:07:57,980 --> 00:08:05,450
+A gente pode criar dentro dessas classes alguns métodos pra gente evitar a questão de ficar todo tempo
+
+79
+00:08:05,450 --> 00:08:11,540
+acessando o método de atores e a Caixa também na relação bidirecional que tocaram em dizer com isso
+
+80
+00:08:11,990 --> 00:08:18,350
+aqui dentro eu estou dentro da classe filme e eu vou querer criar um método que vai adicionar um ator.
+
+81
+00:08:18,800 --> 00:08:30,250
+Então eu posso muito bem ao criar um metro o metro pode ser chamar aqui disse o ator.
+
+82
+00:08:30,350 --> 00:08:38,900
+Ele vai receber um ator e eu já vou fazer a inserção desse ator dentro da lista então faz o seguinte
+
+83
+00:08:38,910 --> 00:08:42,240
+toque gatinho atores.
+
+84
+00:08:42,410 --> 00:08:46,950
+Ponto adicionar ator legal.
+
+85
+00:08:46,970 --> 00:08:54,710
+Nesse caso que já que o ator faz parte desse filme obrigatoriamente dentro desse ator avalanche de filmes
+
+86
+00:08:54,710 --> 00:09:01,210
+dele e de filmes eu posso adicionar esse objeto atual o deles.
+
+87
+00:09:01,280 --> 00:09:08,330
+E aqui eu garanto a relação bidirecional é uma questão importante é que você só pode fazer essas duas
+
+88
+00:09:08,330 --> 00:09:16,840
+tirinhas aqui se você tiver certeza que o atributo que foi passado é diferente de nulo então se ator
+
+89
+00:09:16,850 --> 00:09:18,400
+foi diferente nulo.
+
+90
+00:09:18,500 --> 00:09:21,220
+Você pode jogar aqui dentro.
+
+91
+00:09:21,320 --> 00:09:28,100
+Outra coisa que você pode fazer é verificar se o ator já não está incluído na lista de atores dentro
+
+92
+00:09:28,160 --> 00:09:28,960
+desse filme.
+
+93
+00:09:28,980 --> 00:09:39,740
+Então você pode verificar fazer o seguinte jogo se ator é diferente de Londres e sete atores todos contentes
+
+94
+00:09:40,760 --> 00:09:41,410
+o ator.
+
+95
+00:09:41,540 --> 00:09:46,810
+Ou seja se ele não contém o ator aí sim eu vou adicionar.
+
+96
+00:09:47,210 --> 00:09:51,950
+E aí você pode também verificar que antes é relacionado aos filmes.
+
+97
+00:09:51,950 --> 00:10:03,750
+Então se o ator pontuou em filmes com outro contém os 10.
+
+98
+00:10:03,800 --> 00:10:11,780
+Na verdade se não contém o filme atual aí sim você vai adicionar o filme de tal forma que você garante
+
+99
+00:10:12,200 --> 00:10:18,230
+a relação bidirecional e você não gera dados duplicados então se o usuário já fez isso em algum outro
+
+100
+00:10:18,230 --> 00:10:21,360
+momento você não precisa se preocupar em fazer isso aqui dentro.
+
+101
+00:10:21,410 --> 00:10:27,890
+Então você percebe que você fez o método já com todos direitinho com todas as validações corretas você
+
+102
+00:10:27,890 --> 00:10:33,960
+pode inclusive ter certeza que esse grupo de atores vai trazer alguma lista válida.
+
+103
+00:10:33,960 --> 00:10:40,580
+Senão você pode até criar essa lista ou mesmo você pode garantir dentro do método gueixa atores seguiam
+
+104
+00:10:41,510 --> 00:10:54,970
+se atores for nulo automaticamente criei uma lista vazia então você pode fazer o seguinte Rei clichê
+
+105
+00:10:55,060 --> 00:11:00,780
+e criar uma lista base de tal forma que eu garanto que sempre tem sempre esse método.
+
+106
+00:11:00,770 --> 00:11:04,290
+Vai retornar uma lista válida pela mesma lista base e não nulo.
+
+107
+00:11:04,700 --> 00:11:11,450
+Então aqui eu até poderia se quiser evitar isso aqui ou não necessariamente eu precisaria me preocupar
+
+108
+00:11:11,450 --> 00:11:17,510
+em estão se aqui já aqui embaixo no Betti eu garanto que sempre será retornado a lista pelo mesmo lista
+
+109
+00:11:17,510 --> 00:11:23,630
+vazia e nunca será retornado algo nulo então muita gente usa essa técnica pra evitar você tem um acesso
+
+110
+00:11:23,980 --> 00:11:26,150
+e um nulo quando você tentar acessar a lista.
+
+111
+00:11:26,150 --> 00:11:29,750
+Beleza então fiz aqui um metro pra adicionar autor.
+
+112
+00:11:29,810 --> 00:11:36,020
+Também posso fazer um metro pra excluir ou remover um ator de um filme aí você pode excluir tanto de
+
+113
+00:11:36,020 --> 00:11:42,340
+um lado como do outro da relação bidirecional se não perceber que agora eu vou criar aqui uma outra
+
+114
+00:11:42,350 --> 00:11:58,540
+classe que vai ser um novo filme ator e nós vamos definir um método que eu vou definir por exemplo um
+
+115
+00:11:59,390 --> 00:12:08,340
+filme ou qualquer filme a seguir o filme.
+
+116
+00:12:08,340 --> 00:12:15,720
+O filme vai receber dois atributos o primeiro vai ser o nome que eu vou colocar aqui está oras.
+
+117
+00:12:15,840 --> 00:12:22,980
+Episódio 4 eu vou colocar a nota que é o segundo parâmetro.
+
+118
+00:12:22,980 --> 00:12:25,950
+Passei aqui oito ponto sete.
+
+119
+00:12:26,430 --> 00:12:29,420
+Vou definir aqui.
+
+120
+00:12:30,190 --> 00:12:41,900
+Ator bota também ator recebe Milton Hatoum então coloca aqui Harrison
+
+121
+00:12:44,380 --> 00:12:45,600
+Ford.
+
+122
+00:12:46,110 --> 00:12:51,990
+Acho que não tem esse que acho que só isso é suficiente provoca aqui.
+
+123
+00:12:52,120 --> 00:13:09,450
+Ator coloca a atriz bem na série é um ator e aqui eu vou colocar Kerri Fisher troque aí pra eu fazer
+
+124
+00:13:09,450 --> 00:13:10,490
+essa relação né.
+
+125
+00:13:10,500 --> 00:13:17,280
+Criar uma relação entre o filme e os dois atores vai ficar muito mais simples agora porque eu não preciso
+
+126
+00:13:17,580 --> 00:13:21,380
+me preocupar com relação bidirecional já que eu criei um método específico.
+
+127
+00:13:21,430 --> 00:13:24,170
+Isso tem a ver com o encapsulamento.
+
+128
+00:13:24,240 --> 00:13:29,200
+Você coloca a responsabilidade de garantir essa consistência a partir de um método.
+
+129
+00:13:29,370 --> 00:13:34,920
+Já que a classe tem esses atributos com o canal ela se responsabilizar por fazer isso em vez de você
+
+130
+00:13:34,920 --> 00:13:40,460
+deixar isso para o lado de fora é para todo mundo que for fazer a relação desses dois objetos tente
+
+131
+00:13:40,500 --> 00:13:44,550
+fazer isso repetidamente sempre e ficar mais sujeito a erros.
+
+132
+00:13:44,560 --> 00:13:59,270
+Então nesse caso o papel que o filme a adicionar Ashton coloca o ator lá e faço filme a ponto adicionado
+
+133
+00:13:59,720 --> 00:14:01,680
+ao passo que a atriz B.
+
+134
+00:14:01,800 --> 00:14:10,890
+Finalmente agora posso fazer a persistência e a gente pode inclusive criar a questão de gerar uma operação
+
+135
+00:14:10,890 --> 00:14:16,100
+em cascata como é que gente pode fazer já para diferenciar também um pouco do exercício passado.
+
+136
+00:14:16,170 --> 00:14:22,140
+A gente pode colocar aqui roupa menos mini pra ele geralmente uma operação em cascata e a gente tem
+
+137
+00:14:22,140 --> 00:14:25,930
+algumas possibilidades uma delas pode ser o persistiu.
+
+138
+00:14:25,950 --> 00:14:32,180
+Posso colocar especificamente persiste posso colocar uma lista mais de um eu posso colocar ou colocar
+
+139
+00:14:32,180 --> 00:14:37,430
+que persiste e vou também fazer o seguinte no momento que é inserido um filme.
+
+140
+00:14:37,440 --> 00:14:40,520
+Ele vai também inserir os atores.
+
+141
+00:14:40,540 --> 00:14:44,820
+Ele pode também inserir os atores a partir dos atores em cena e também o filme.
+
+142
+00:14:45,510 --> 00:14:53,030
+Então por exemplo mostrar pra vocês aqui um exemplo interessante disso é o filme já tem um recurso forte
+
+143
+00:14:53,040 --> 00:15:04,240
+tem aquela ficha eu vou gerar um filme B então filme bem Filme B e Série 1000 filme eu vou chamar aqui
+
+144
+00:15:04,590 --> 00:15:16,380
+o filme do Fu Vecchio e eu vou dizer que a nota do filme O Fugitivo sela 8 conto não é um filme muito
+
+145
+00:15:16,380 --> 00:15:17,950
+legal estar pronto.
+
+146
+00:15:18,180 --> 00:15:21,690
+Então acho que esse filme foi feito por ele.
+
+147
+00:15:22,050 --> 00:15:32,130
+Então nesse caso eu posso fazer o seguinte um filme B recebe água adicionar aqui um ator e vai receber
+
+148
+00:15:32,130 --> 00:15:32,980
+um ator.
+
+149
+00:15:33,290 --> 00:15:37,950
+O caso que eu forte pronto para acontecer aqui.
+
+150
+00:15:38,010 --> 00:15:45,090
+Se você fizer isso você definiu que vai ser gerado operação em cascata sempre que você persistir no
+
+151
+00:15:45,090 --> 00:15:49,070
+filme ele vai persistir os atores lá um ator.
+
+152
+00:15:49,140 --> 00:15:55,230
+Se você gerar também uma operação em cascata então se você quiser ter um caso p então colocar aqui por
+
+153
+00:15:55,230 --> 00:15:58,370
+exemplo um caso que ele persiste também ceguinho.
+
+154
+00:15:58,400 --> 00:16:04,470
+Como você foi inserir um filme em cascata ele vai inserir os atores e se você está inserindo os atores
+
+155
+00:16:04,470 --> 00:16:06,340
+em cascata ele vai inserir um filme.
+
+156
+00:16:06,840 --> 00:16:13,110
+Então nesse caso quando eu tentar e persistir isso aqui tudo OK eu vou fazer um down.
+
+157
+00:16:13,770 --> 00:16:20,880
+Vou colocar aqui pra ele persistir apenas o filme então o filme não vai dar apenas o filme não vou criar
+
+158
+00:16:20,880 --> 00:16:27,000
+um down porque ele vai usar a entidade filme como sendo padrão e aqui vou passar.
+
+159
+00:16:27,000 --> 00:16:33,130
+Na verdade não vou precisar fazer consulta então não vou passar aqui com o judô e vou chamar aqui tal
+
+160
+00:16:33,390 --> 00:16:38,580
+ponto incluí atômico e vou passar apenas o filme.
+
+161
+00:16:39,450 --> 00:16:40,830
+O que é que vai acontecer aqui.
+
+162
+00:16:40,950 --> 00:16:50,310
+Quando ele inseriu o filme ele vai em cascata inseri o ator e atriz B quando ele inseri o ator a ele
+
+163
+00:16:50,310 --> 00:16:57,930
+também ou a atriz B caso os dois ele vai inserir os filmes que estão vinculados a esses dois atores.
+
+164
+00:16:57,990 --> 00:17:02,400
+Então o caso aqui um filme vinculado é ao filme B que é o fugitivo.
+
+165
+00:17:02,400 --> 00:17:08,980
+Então ele vai lá e vai também vai ser também o filme B apesar de que o Mandarim seria apenas um filme
+
+166
+00:17:09,220 --> 00:17:16,200
+se não perceber que o filme será incluído o ator a atriz B e o filme B todos serão incluídos na base.
+
+167
+00:17:16,210 --> 00:17:22,360
+Vou colocar aqui um pouquinho diferente a nota só para a gente depois calcular média a partir de uma
+
+168
+00:17:22,360 --> 00:17:22,940
+consulta.
+
+169
+00:17:22,940 --> 00:17:34,050
+Vou colocar aqui fugitivo nove ponto e vou colocar menos colocar aqui oito pontos e oito pontos em nove
+
+170
+00:17:34,150 --> 00:17:39,550
+só para gerar um pouquinho mais a diferença a gente vê a média depois então que o cobre se tudo der
+
+171
+00:17:39,550 --> 00:17:44,140
+certo eu não testei ainda que aqui várias inserções.
+
+172
+00:17:44,140 --> 00:17:47,800
+Vamos olhar o que foi que foi gerado porque na base vou dar um refresh.
+
+173
+00:17:48,340 --> 00:17:55,420
+Ele gerou uma tabela chamada atores do filme Se a gente olhar aqui das colunas ou filme ali e até aí
+
+174
+00:17:55,480 --> 00:18:02,790
+ok gerou a tabela atores e gerou também a tabela de filmes e a gente vai fazer alguns testes Primeiro
+
+175
+00:18:02,910 --> 00:18:12,070
+eu vou selecionar os filmes então coloco o tempo está o box com o fugitivo ou seja persistiu os dois
+
+176
+00:18:12,070 --> 00:18:20,360
+apesar de eu ter mandado para assistir apenas um pouco contudo o caso que gerou aqui que os atores terão
+
+177
+00:18:20,540 --> 00:18:27,510
+o recurso forte e aquela ficha e finalmente a gente olhar a tabela de relacionamento que atores André
+
+178
+00:18:27,540 --> 00:18:36,970
+Luisinho filmes no plural mostrou aqui dois ou seja ela está em dois filmes e a ficha está no único
+
+179
+00:18:36,970 --> 00:18:38,690
+filme que a gente cadastrou aqui na base.
+
+180
+00:18:38,700 --> 00:18:39,830
+Não fico por aqui.
+
+181
+00:18:39,880 --> 00:18:49,820
+Nosso segundo exercício de muitos pra muitos na próxima aula nós vamos falar de consultas de Curry disparou.

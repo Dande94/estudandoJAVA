@@ -1,0 +1,603 @@
+1
+00:00:00,420 --> 00:00:06,060
+Antes de explicar para vocês como um programa já bem organizado vou fazer uma pergunta pra você e se
+
+2
+00:00:06,060 --> 00:00:10,620
+você quiser pausar o vídeo e tentar mentalizar Como você responderia você pode fazer isso acho que é
+
+3
+00:00:10,620 --> 00:00:12,120
+um exercício interessante.
+
+4
+00:00:12,230 --> 00:00:18,480
+Se eu perguntar pra você eu nunca vi um livro na vida e eu perguntar a pais como é que um livro organizado
+
+5
+00:00:18,480 --> 00:00:21,890
+me explica aí como é que é o conceito que você organiza.
+
+6
+00:00:21,890 --> 00:00:24,170
+Sempre que é uma palavra seu que é uma letra.
+
+7
+00:00:24,540 --> 00:00:25,650
+Eu sei o que é.
+
+8
+00:00:25,740 --> 00:00:30,620
+As estruturas da linguagem mais eu nunca vi isso dentro de um livro como é que um livro organizado.
+
+9
+00:00:30,720 --> 00:00:32,850
+Como você explicaria isso para alguém.
+
+10
+00:00:32,850 --> 00:00:38,200
+Eu diria que você tem duas estratégias pra explicar como um livro organizado você pode explicar.
+
+11
+00:00:38,420 --> 00:00:45,060
+Uma abordagem mais genérica pra ir pro micro saindo do macro e micro ao contrário saindo do micro e
+
+12
+00:00:45,060 --> 00:00:52,740
+voltando para o macro você pode dizer ao livro ele é normalmente organizado ele tem um título e esse
+
+13
+00:00:52,740 --> 00:00:57,120
+título é a coisa mais importante que vai descrever o que é que tem dentro do livro.
+
+14
+00:00:57,120 --> 00:01:01,440
+O livro depois quando você abre ele era dividido em capítulos.
+
+15
+00:01:01,440 --> 00:01:07,770
+Esses capítulos são organizados em seções as seções são organizadas em parágrafos os parágrafos são
+
+16
+00:01:07,770 --> 00:01:11,960
+organizados em frases as frases têm palavras e as palavras têm letras.
+
+17
+00:01:12,120 --> 00:01:13,680
+Então saio do maior para o menor.
+
+18
+00:01:13,680 --> 00:01:19,550
+Você tem essa estrutura sendo digamos assim a forma que um livro organizado.
+
+19
+00:01:19,550 --> 00:01:21,630
+Você também pode fazer o contrário nela.
+
+20
+00:01:21,660 --> 00:01:27,820
+O livro é organizado no mais micro possível em letras é um conjunto grande conjunto de letras.
+
+21
+00:01:27,930 --> 00:01:34,230
+Essas letras são organizadas em palavras se as palavras são organizadas em frases e as frases terminam
+
+22
+00:01:34,230 --> 00:01:35,730
+com o ponto certo.
+
+23
+00:01:35,730 --> 00:01:36,990
+As frases podem intervir.
+
+24
+00:01:37,000 --> 00:01:42,540
+Elas podem ter várias palavras as frases para ocupar várias linhas mas o que identifica é que uma frase
+
+25
+00:01:42,540 --> 00:01:48,570
+terminou e a anotação ponto está usando aqui por exemplo o padrão do português e de outras linguagens
+
+26
+00:01:48,570 --> 00:01:54,870
+ponto determina o final de uma frase por mais que essa frase Ocupe várias linhas a junção de várias
+
+27
+00:01:54,870 --> 00:01:56,350
+frases é um parágrafo.
+
+28
+00:01:56,760 --> 00:02:02,250
+Você pega várias parábolas você forma acessam várias seções os capítulos vários capítulos você forma
+
+29
+00:02:03,330 --> 00:02:06,420
+o livro por exemplo o livro tem uma capa com título e tal.
+
+30
+00:02:06,690 --> 00:02:13,740
+Então olhando para a cabeça vai perceber que um programa Java ele é organizado em sentença e código.
+
+31
+00:02:13,950 --> 00:02:17,610
+E essas sentenças de código terminam com ponto e vírgula.
+
+32
+00:02:17,610 --> 00:02:23,820
+Algumas linguagens te dão a opção de terminar ou não com ponto e vírgula como é o caso do JavaScript
+
+33
+00:02:23,820 --> 00:02:24,670
+Java não.
+
+34
+00:02:24,680 --> 00:02:29,650
+Ele obriga você terminar uma sentença de código com ponto e vírgula em JavaScript por exemplo opcional
+
+35
+00:02:29,670 --> 00:02:30,930
+em Java é obrigatório.
+
+36
+00:02:30,990 --> 00:02:36,150
+O que vai determinar se é uma sentença de código é uma sentença de código não é a quantidade de linhas
+
+37
+00:02:36,150 --> 00:02:38,940
+e sim se terminou com ponto e vírgula.
+
+38
+00:02:39,300 --> 00:02:45,540
+Então aqui eu tenho uma sentença de código que ocupa a Linha 7 e a linha 8 não tem problema.
+
+39
+00:02:45,540 --> 00:02:52,830
+E aí se ela executar novamente Command Shift f 11 você vai ver que o resultado deu ok eu posso por exemplo
+
+40
+00:02:52,830 --> 00:02:59,620
+colocar apenas uma exclamação como aditivo que a FIA usou contra o chips já fiz 11 a marca de vocês.
+
+41
+00:02:59,820 --> 00:03:03,290
+Ele vai atualizar aqui o código certo aqui no caso.
+
+42
+00:03:03,300 --> 00:03:08,760
+No caso do Windows eu não sei se é Walt Shift já 11 ou eu sou contra o chip já famoso não estou lembrado
+
+43
+00:03:09,410 --> 00:03:15,480
+mas vocês podem descobri facilmente como é que faz pra executar um programa ou mesmo você pode selecionar
+
+44
+00:03:15,480 --> 00:03:17,080
+essa opção aqui verde.
+
+45
+00:03:17,630 --> 00:03:21,240
+Então seleciona nessa opção vejo você também executa um programa.
+
+46
+00:03:21,240 --> 00:03:25,680
+Existem outras formas de resetar como é o modo de bola que eu fala um pouco mais para frente.
+
+47
+00:03:26,100 --> 00:03:32,150
+Então o primeiro fato quero falar para você o seguinte um programa em Java ele é organizado em sentença
+
+48
+00:03:32,150 --> 00:03:38,130
+e escolhe código obviamente tem letras tem palavras mas ele é organizado de uma forma mais digamos se
+
+49
+00:03:38,130 --> 00:03:43,890
+o micro seria uma sentença de código terminada com ponto e vírgula e uso do ponto e vírgula em Java
+
+50
+00:03:43,890 --> 00:03:50,010
+é obrigatório é uma sentença de código não está associado com a quantidade de linhas e sim com o ponto
+
+51
+00:03:50,010 --> 00:03:56,700
+e vírgula eu posso quebrar em qualquer ponto aqui do meu código eu posso por exemplo no meio do áudio
+
+52
+00:03:56,710 --> 00:03:58,420
+aqui quebrar a linha não.
+
+53
+00:03:58,440 --> 00:04:00,520
+Você não pode fazer isso do áudio.
+
+54
+00:04:00,750 --> 00:04:03,380
+Eu posso fazer depois do áudio colocar o ponto em baixo.
+
+55
+00:04:03,390 --> 00:04:04,040
+Pode.
+
+56
+00:04:04,320 --> 00:04:05,270
+Não tem problema.
+
+57
+00:04:05,280 --> 00:04:10,830
+Eu posso fazer isso aqui também não tem problema embora não seja um código muito organizado né não é
+
+58
+00:04:10,830 --> 00:04:17,880
+muito convencional o Cyber código assim mais pode e eu também não posso quebrar uma linha entre as aspas
+
+59
+00:04:17,880 --> 00:04:22,460
+aqui eu não posso por exemplo colocar primeiro em cima e programa em baixo.
+
+60
+00:04:22,470 --> 00:04:28,500
+Dessa forma ele até deixou já colocou mais um aqui no meio porque é aquele que está tentando te ajudar
+
+61
+00:04:28,500 --> 00:04:35,070
+a não cometer erros mas se eu tirar esse Mazinho terá que tirar esse aqui o que seria simplesmente o
+
+62
+00:04:35,070 --> 00:04:35,700
+dado.
+
+63
+00:04:35,760 --> 00:04:41,910
+Entanto não vai permitir vai gerar um problema então aqui eu tenho que voltar e deixar a histria completamente
+
+64
+00:04:42,310 --> 00:04:42,740
+minha.
+
+65
+00:04:42,810 --> 00:04:49,020
+Embora seu depoimento existem mecanismos como é o caso do mais é aqui que vai permitir você quebrar
+
+66
+00:04:49,110 --> 00:04:52,360
+o texto em múltiplas linhas e falar isso pouco depois.
+
+67
+00:04:52,680 --> 00:04:58,230
+Então nesse primeiro momento vou voltar tudo pra uma linha só significa que nós temos aqui uma sentença
+
+68
+00:04:58,230 --> 00:05:05,810
+de código terminada com outra questão importante é que o programa já bem organizado e sentenças então
+
+69
+00:05:05,810 --> 00:05:09,630
+não posso colocar uma sentença de corte dessa forma.
+
+70
+00:05:09,640 --> 00:05:14,520
+Se for dessa forma tenho quatro sentenças de código s sentença da minha sete.
+
+71
+00:05:14,640 --> 00:05:19,080
+A sentença na linha 10 que eu coloquei algumas linhas em branco não tem problema nenhum então um código
+
+72
+00:05:19,080 --> 00:05:20,050
+teria branco.
+
+73
+00:05:20,220 --> 00:05:22,290
+Coloquei mais três sentenças de código.
+
+74
+00:05:22,290 --> 00:05:27,600
+Isso é um código válido enxaguar embora essas três sentenças aqui não façam absolutamente nada isso
+
+75
+00:05:27,630 --> 00:05:32,180
+não é um código inválido mas novamente funciona sem problema.
+
+76
+00:05:32,190 --> 00:05:36,860
+Uma outra questão marcante é que eu não sei se vocês notaram e o uso.
+
+77
+00:05:36,880 --> 00:05:44,100
+Uso muito frequente de chaves eu tenho um par de chaves aqui e tenho um par de chaves aqui e um par
+
+78
+00:05:44,100 --> 00:05:50,460
+de chaves dentro de um programa Java significa um bloco de código certo dentro de um bloco de código.
+
+79
+00:05:50,460 --> 00:05:57,170
+Posso ter múltiplas linhas então eu tenho um por exemplo dentro do bloco que começa na Linha 3 e termina
+
+80
+00:05:57,170 --> 00:05:58,030
+na linha 9.
+
+81
+00:05:58,050 --> 00:06:06,960
+Eu tenho uma duas três linhas de código e dentro do bloco que representa o meio leia aqui ele é um método
+
+82
+00:06:06,960 --> 00:06:11,250
+um site eu vou falar disso desse conceito mais na frente não precisa se preocupar.
+
+83
+00:06:11,250 --> 00:06:16,430
+A única coisa que você tem que saber nesse momento que eu estou focando a luz nisso é o meio.
+
+84
+00:06:16,620 --> 00:06:21,420
+Ele é a porta de entrada de um programa Java ou seja a partir dele que você vai começar a executar o
+
+85
+00:06:21,420 --> 00:06:22,540
+seu código.
+
+86
+00:06:22,680 --> 00:06:29,040
+Assim como você tem a porta de entrada do apartamento imagina que por exemplo um apartamento ele só
+
+87
+00:06:29,040 --> 00:06:32,040
+posso ter uma porta de entrada sou com o Java também.
+
+88
+00:06:32,040 --> 00:06:37,110
+Só começa um programa em Java a partir de um único ponto e é exatamente a partir do metro no meio.
+
+89
+00:06:37,140 --> 00:06:42,990
+Você pode ter múltiplos meios e eu vou mostrar isso e nós vamos usar isso extensivamente no nosso curso
+
+90
+00:06:43,410 --> 00:06:50,100
+mas somente um deles pode ser executado para iniciar o programa então quero que você foque nesse momento
+
+91
+00:06:50,130 --> 00:06:54,000
+que essa estrutura que é responsável pelo seu inicio do seu programa.
+
+92
+00:06:54,450 --> 00:07:01,020
+Então dentro desse bloco que foi definido aqui na linha 5 e vai até a linha 8 eu posso ter múltiplos
+
+93
+00:07:01,020 --> 00:07:11,310
+zumbis então posso copiar aqui e jogar além de baixo colocar o primeiro programa parti é o primeiro
+
+94
+00:07:11,310 --> 00:07:14,220
+programa parte 2 certo.
+
+95
+00:07:14,670 --> 00:07:19,650
+Então aqui eu tenho duas minhas duas sentenças de código todos os meus terminados com o ponto e vírgula
+
+96
+00:07:19,650 --> 00:07:26,020
+dentro de um único bloco de código então executando novamente aqui você vai ver que o resultado é primeiro
+
+97
+00:07:26,020 --> 00:07:32,300
+o programa partiu o primeiro programa parte 2 ou seja um bloco de código eu posso até colocar essa essas
+
+98
+00:07:32,310 --> 00:07:33,440
+chaves aqui embaixo.
+
+99
+00:07:33,450 --> 00:07:34,380
+Certo.
+
+100
+00:07:34,500 --> 00:07:40,920
+Esse bloco de código que ele serve pra agrupar sentenças de código assim como eu tenho uma frase que
+
+101
+00:07:40,920 --> 00:07:46,110
+pode ocupar múltiplas linhas que é uma sentença no caso em português a frase termina com o ponto e em
+
+102
+00:07:46,110 --> 00:07:48,000
+Java termina com vírgula.
+
+103
+00:07:48,000 --> 00:07:54,200
+Um bloco de código representa um parágrafo ou seja uma junção de sentenças de código.
+
+104
+00:07:54,200 --> 00:08:00,840
+Há uma coisa interessante você pode criar outros blocos de código aqui se você nota quando você cria
+
+105
+00:08:01,180 --> 00:08:07,460
+abertura de Chaves Down então ele já fecha pra vocês a chave eu posso colocar aqui por exemplo três
+
+106
+00:08:07,470 --> 00:08:08,580
+sentenças de código.
+
+107
+00:08:08,580 --> 00:08:15,080
+Dentro desse bloco isso é um código errado em Java não por incrível que pareça que é algo válido mas
+
+108
+00:08:15,150 --> 00:08:20,820
+mostra muito bem como um pouquinho você iria criar isso não tem motivo nenhum só pra ensinar só pra
+
+109
+00:08:20,820 --> 00:08:26,500
+ressaltar que essa questão do bloco de código é da sentença de código é algo extremamente forte em Java.
+
+110
+00:08:26,520 --> 00:08:31,120
+Então você está sempre programando dentro de blocos isso é usando sentenças de código.
+
+111
+00:08:31,120 --> 00:08:35,670
+Então por isso que eu estou ressaltando mais isso aqui é um programa Java válido executando.
+
+112
+00:08:35,700 --> 00:08:42,160
+Ele ainda continua funcionando em mim o erro será gerado tem porque eu criar um bloco solto assim não
+
+113
+00:08:42,160 --> 00:08:47,640
+não tem porque você criar um bloco solto mais eu estou só ressaltando que existe essa possibilidade
+
+114
+00:08:47,650 --> 00:08:54,630
+então nesse programa nesse programa eu quiser saltar muito pra você Java linguagem e sentenças de código
+
+115
+00:08:54,630 --> 00:08:55,090
+terminado.
+
+116
+00:08:55,100 --> 00:08:55,930
+Ponto e vírgula.
+
+117
+00:08:55,950 --> 00:09:02,130
+E você tem muito fortemente a presença de blocos na parte de Chaves e note que sempre vim para isso
+
+118
+00:09:02,130 --> 00:09:09,780
+só não coloco o cursor do lado despachava você percebe que esse aqui ele fica digamos assim está caduco
+
+119
+00:09:09,780 --> 00:09:15,600
+não coloca o cursor ao lado d espalhe chaves você percebe que o outro par de chaves fica digamos assim
+
+120
+00:09:15,600 --> 00:09:16,890
+destacado né.
+
+121
+00:09:16,950 --> 00:09:23,160
+E aí uma coisa também extremamente básica todo mundo já programou na vida já sabe mais quem nunca programou
+
+122
+00:09:23,350 --> 00:09:29,640
+e eventualmente pode não saber é o seguinte um bloco de código sempre vai envolver um outro bloco de
+
+123
+00:09:29,640 --> 00:09:37,040
+código menor não exigindo por exemplo um bloco com a parte que há uma interseção entre dois blocos de
+
+124
+00:09:37,040 --> 00:09:43,710
+código não existe uma pasta fora a pasta dentro de um bloco não há interseção com os conjuntos ou seja
+
+125
+00:09:43,710 --> 00:09:50,210
+um bloco sempre estará dentro de outro bloco e visualmente não que isso importe para o Java importa
+
+126
+00:09:50,220 --> 00:09:56,660
+para outras linguagens mas para o Java não visualmente fica claro colocando aqui todos os Chaves alinhados
+
+127
+00:09:56,670 --> 00:10:03,480
+você percebe que essa chave com esse PAC assim como essas chaves está com esse PAC né.
+
+128
+00:10:03,530 --> 00:10:09,530
+Se eu tiver aqui por exemplo um ou outro bloco aqui você tem por exemplo sentença de código aqui tá.
+
+129
+00:10:09,920 --> 00:10:16,700
+Então nesse caso você percebe que há uma tentação ou seja um espaçamento desse bloco maior que vai da
+
+130
+00:10:16,700 --> 00:10:22,130
+Linha 4 até além de 16 ou seja tudo o que está dentro há um certo espaçamento pra quê.
+
+131
+00:10:22,130 --> 00:10:26,030
+Pra dar um ar de hierarquia ou seja um dentro do outro.
+
+132
+00:10:26,090 --> 00:10:31,100
+Então isso é importante do ponto de vista de organização de coordenar minhas turmas presenciais já faz
+
+133
+00:10:31,100 --> 00:10:37,340
+um tempo que eu não tinham dado os presenciais não chegava na máquina dos alunos estavam uma bagunça
+
+134
+00:10:37,340 --> 00:10:45,980
+gigantesca o código pra cá o método tava pra cá a chave tava que assim a outra tava junto ao andar de
+
+135
+00:10:45,980 --> 00:10:52,190
+baixo e o corpo chegava lá você olhava que é isso que corre o isso é que estão as coisas fica muito
+
+136
+00:10:52,190 --> 00:10:58,010
+difícil você ler um código extremamente bagunçado e aí você tem uma tecla de atalho e no caso aqui na
+
+137
+00:10:58,010 --> 00:11:03,970
+minha máquina ou Command Shift e afins ele formato código fonte que fica mais agradável então sempre
+
+138
+00:11:04,070 --> 00:11:08,840
+que você tiver um código bem formatado a leitura fica muito mais fácil de ser feita.
+
+139
+00:11:08,840 --> 00:11:14,540
+Isso é extremamente importante se você deixa o corpo muito bagunçado muito provavelmente você vai em
+
+140
+00:11:14,540 --> 00:11:20,650
+algum momento abrir uma chave e não fechar abrir uma chave não fechar e um erro de sintaxe isso aqui
+
+141
+00:11:20,660 --> 00:11:21,770
+vai dar um problema.
+
+142
+00:11:21,860 --> 00:11:28,730
+Se eu tentar executar o código como Shift f 11 7 ele vai dizer ao d um problema que quer prosseguir
+
+143
+00:11:28,730 --> 00:11:34,730
+eu quero e ele vai achar que deu um erro no seu código a falar isso um pouco depois tá mais que se você
+
+144
+00:11:34,730 --> 00:11:39,640
+tiver um código com certeza mais organizado isso vai ser muito mais fácil pra você visualmente entender
+
+145
+00:11:39,640 --> 00:11:45,170
+o que é que tá dentro de quem você conseguir também ler o código de uma forma muito mais tranquila então
+
+146
+00:11:45,410 --> 00:11:48,130
+fique por aqui falem um bocado sobre isso né.
+
+147
+00:11:48,200 --> 00:11:53,150
+Eu quero ser bem detalhista pra que você que está começando conheça bem esses conceitos é pra você que
+
+148
+00:11:53,150 --> 00:11:58,850
+tem mais base pode passando sem peso na consciência por essas aulas iniciais que eu tenho certeza que
+
+149
+00:11:58,850 --> 00:12:03,330
+logo logo as aulas vão ser muito úteis pra vocês também então fico por aqui na próxima.
+
+150
+00:12:03,350 --> 00:12:07,850
+A gente continua ainda no nosso capítulo de fundamentos de muitas coisas pra bem nesse capítulo e até
+
+151
+00:12:07,850 --> 00:12:08,030
+lá.

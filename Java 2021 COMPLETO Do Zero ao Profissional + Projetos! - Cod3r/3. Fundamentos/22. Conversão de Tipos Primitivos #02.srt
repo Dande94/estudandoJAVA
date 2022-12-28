@@ -1,0 +1,419 @@
+1
+00:00:00,310 --> 00:00:02,290
+Agora vão achar pra vocês na prática.
+
+2
+00:00:02,310 --> 00:00:04,750
+Alguns exemplos de conversão.
+
+3
+00:00:04,980 --> 00:00:11,310
+é o que eu falei na aula passada na teoria é exatamente aquilo que você tem em mente quais são os pontos
+
+4
+00:00:11,310 --> 00:00:15,810
+que podem gerar algum tipo de perda de informação que é o fato de você estar num tipo o que tem mais
+
+5
+00:00:15,810 --> 00:00:21,180
+informações que têm mais espaço de armazenamento ou seja consequentemente armazena mais informação.
+
+6
+00:00:21,300 --> 00:00:26,820
+Você tentar jogar esse chip dos partidos menores ou então se você está partindo de um tipo que tem ponto
+
+7
+00:00:26,820 --> 00:00:31,540
+flutuante convertendo para um tipo inteiro Calazans cria uma nova classe.
+
+8
+00:00:31,560 --> 00:00:42,250
+Eu vou chamar de conversão tipos primitivos numéricos o nome da classe migrantes.
+
+9
+00:00:42,570 --> 00:00:44,810
+Então vai ser o nome da classe aqui.
+
+10
+00:00:44,930 --> 00:00:51,270
+Eu vou colocar a função bem para o método mas é melhor dizer para a gente começar definha que algumas
+
+11
+00:00:51,320 --> 00:01:01,200
+conversões de cara se você por exemplo cria um valor da ABL e coloca um aluno aqui houve uma conversão
+
+12
+00:01:01,350 --> 00:01:05,060
+implícita ou seja conversão implícita foi ocorreu por quê.
+
+13
+00:01:05,410 --> 00:01:11,310
+Porque ele tem um tipo inteiro e tem o valor de algo mais tem algum problema sai do tipo inteiro é para
+
+14
+00:01:11,310 --> 00:01:18,720
+um dado ou não por dois motivos primeiro que o W é maior do que o segundo o w armazena ponto flutuante
+
+15
+00:01:18,720 --> 00:01:19,510
+ou não.
+
+16
+00:01:19,830 --> 00:01:26,040
+Então isso não seria um problema nenhum estão executando mas temos o valor de forma correta sem pressa.
+
+17
+00:01:26,040 --> 00:01:31,360
+O aluno do ponto zero foi convertido a gente já percebe aqui pela exibição momento que eu associei ao
+
+18
+00:01:31,410 --> 00:01:32,410
+valor da ABL.
+
+19
+00:01:32,430 --> 00:01:40,590
+Ele fez uma conversão Outra conversão que acontece aqui é você pegar por exemplo um fluxo Fallout.
+
+20
+00:01:40,620 --> 00:01:50,730
+B recebe o valor um ponto zero por menor que seja esse valor o literal é do tipo W e você precisa converter
+
+21
+00:01:50,820 --> 00:01:55,160
+esse W pra flow ou seja colocando a letra F.
+
+22
+00:01:55,590 --> 00:02:01,260
+Ou então você fazer um teste no caso aqui eu vou preferir fazer o teste nessa aula que é o caminho um
+
+23
+00:02:01,260 --> 00:02:07,650
+pouco mais difícil de ir edifício mais um caminho que você precisar escrever mais mas a solução padrão
+
+24
+00:02:07,650 --> 00:02:12,990
+que nesse caso era simplesmente colocar a letra F pra tornar esse literal flores mais pra gente fazer
+
+25
+00:02:12,990 --> 00:02:20,670
+um teste simples antes do número antes do valor literal você coloca entre parênteses o tipo que você
+
+26
+00:02:20,670 --> 00:02:25,140
+quer converter no caso quero converter isso pra um valor Flows.
+
+27
+00:02:25,230 --> 00:02:32,130
+Ou seja esse tipo de conversão a conversão explícita ou seja você explicitamente está dizendo pro java
+
+28
+00:02:32,490 --> 00:02:38,040
+que pode converter esse valor para um flow de armazenagem da variável Flows.
+
+29
+00:02:38,070 --> 00:02:45,150
+Aqui houve perda de informação não houve perda de informação porque ter dentro do flows eu consigo armazenar
+
+30
+00:02:45,150 --> 00:02:45,820
+isso aqui.
+
+31
+00:02:46,110 --> 00:02:53,140
+Então colocar naquele 1 2 3 4 5 houve perda de informação não houve e esse também é o valor que o Flow
+
+32
+00:02:53,280 --> 00:03:00,470
+vai conseguir armazenar tranquilamente colocando o valor b que você vai ter ao ponto 1 2 3 4 5.
+
+33
+00:03:00,580 --> 00:03:06,420
+Mas o que vai acontecer é que se eu começar a colocar mais valores aqui você vai perceber que esse valor
+
+34
+00:03:06,420 --> 00:03:12,750
+em algum momento será truncado pouco será truncado porque flow não suporta este tipo de valor.
+
+35
+00:03:13,140 --> 00:03:19,560
+Já o dado que vai suportar expansões está aqui você vai ver que o W suportou esse valor.
+
+36
+00:03:19,560 --> 00:03:27,360
+Já o flow não mais o fato de você ter de forma explícita dito para o Jabuti pode fazer a conversão Você
+
+37
+00:03:27,360 --> 00:03:33,870
+está ciente que pode haver perda de informação faz o que o Java vai pagar esse valor é batucar ele vai
+
+38
+00:03:33,890 --> 00:03:39,420
+para um flow e vai converter para fraude e vai eventualmente gerar pela informação que é o que aconteceu
+
+39
+00:03:39,420 --> 00:03:40,140
+aqui.
+
+40
+00:03:40,140 --> 00:03:47,070
+Certo Então quando você faz uma conversão explícita Você está ciente de que você pode perder informação
+
+41
+00:03:47,070 --> 00:03:54,260
+no caso aqui eu quero voltar para o ano inteiro já que nós temos uma conversão implícita.
+
+42
+00:03:54,390 --> 00:04:03,310
+E aqui nós temos uma conversão explícita que no caso é o que a gente chama de teste certo.
+
+43
+00:04:03,400 --> 00:04:09,930
+Correção a conversão não acontece somente tipos primitivos o cache também pode acontecer em outros cenários
+
+44
+00:04:10,320 --> 00:04:15,540
+que posso achar mais na frente na parte de orientação objeto mas aqui eu quero focar especificamente
+
+45
+00:04:15,870 --> 00:04:18,660
+nos títulos primitivos então resumir isso aqui é um cache.
+
+46
+00:04:18,690 --> 00:04:25,590
+Continuando aqui pra explorar mais alguns cenários de cache eu vou criar uma variável sei que recebe
+
+47
+00:04:25,590 --> 00:04:33,060
+o valor 4 e vou criar uma variável de bit D que vai receber o valor de 100.
+
+48
+00:04:33,240 --> 00:04:38,760
+Será que vai ter problema eu pegar o valor de c ou variável em ter jogado dentro de uma variável que
+
+49
+00:04:38,760 --> 00:04:44,530
+é o bit com certeza vai ter problema porque é que vai ter problema porque a questão dos tamanhos né.
+
+50
+00:04:44,670 --> 00:04:53,250
+Onde ele suporta 4 vezes mais do que um bit em termos de tamanho não significa que você paga aos 128
+
+51
+00:04:53,250 --> 00:04:55,140
+multiplicar por quatro o que vai dar né.
+
+52
+00:04:55,270 --> 00:05:01,170
+Porque o dobro do armazenamento em termos de bytes não significa que você vai ter na verdade é bem mais
+
+53
+00:05:01,170 --> 00:05:01,870
+do que isso.
+
+54
+00:05:02,150 --> 00:05:09,210
+Então continuando aqui o fato é que nós temos um cercado tipo maior embora o quarto caiba dentro do
+
+55
+00:05:09,210 --> 00:05:09,640
+baixo.
+
+56
+00:05:09,660 --> 00:05:18,180
+Falei pra vocês o Jabor não analisa os valores o Java só analisa tipos no caso esse quadro aqui é do
+
+57
+00:05:18,180 --> 00:05:24,110
+tipo em Java não importa se o quadro vai ou não conseguisse armazenado dentro de um site.
+
+58
+00:05:24,120 --> 00:05:29,100
+Fato é que se você colocar uma conversão explícita nesse caso tem um valor.
+
+59
+00:05:29,440 --> 00:05:32,670
+Eu quero converter pra um time com baixo.
+
+60
+00:05:33,020 --> 00:05:40,590
+E aí sim ele vai pegar o valor de c vai converter pra baixo vai armazenar a variável não vou ter problema
+
+61
+00:05:40,590 --> 00:05:47,290
+nenhum o valor vai ser convertido sem nenhuma dificuldade você vai pegá o 4 mas se você passar por exemplo
+
+62
+00:05:47,290 --> 00:05:52,930
+o valor 130 jogar para baixo o resultado vai ser valor trocado.
+
+63
+00:05:53,010 --> 00:06:03,240
+Certo Inclusive ele vai pagar o 130 vai ser se aquilo cento e no caso 127 o maior valor ele vai conseguir
+
+64
+00:06:03,240 --> 00:06:04,800
+gerar 127.
+
+65
+00:06:04,800 --> 00:06:10,680
+Se você colocar o 128 já que está fora do ringue ele vai pro próximo valor lá do começo da sequência
+
+66
+00:06:11,110 --> 00:06:17,130
+que vai ser exatamente o menos 128 ou seja gerou um valor bem estranho se você fizer essa conversão
+
+67
+00:06:17,130 --> 00:06:17,720
+aqui tá.
+
+68
+00:06:18,140 --> 00:06:28,170
+129 ele vai executando e vai %27 a Highway 130 130 que vai ser o 126 e aí vai se colocar aqui sei lá
+
+69
+00:06:28,560 --> 00:06:33,600
+240 provavelmente ele já vai tá bem perto do zero.
+
+70
+00:06:33,850 --> 00:06:38,680
+Aqui vai também 0 colocando aqui 340 já vai entrar.
+
+71
+00:06:39,060 --> 00:06:44,310
+A parte positiva dos números mais ou seja esse tipo de conversão que foi bem maluco você tem que ter
+
+72
+00:06:44,310 --> 00:06:48,960
+muita consciência pra ter certeza de que esse tipo de conversão vai gerar um resultado correto.
+
+73
+00:06:49,050 --> 00:06:54,600
+Mas o fato de você está fazendo conversão explicita um teste você está informando pelo compilador do
+
+74
+00:06:54,600 --> 00:07:01,350
+Java que pode fazer pode confiar em você que você sabe que está fazendo então também nesse cenário nós
+
+75
+00:07:01,350 --> 00:07:07,770
+tínhamos uma conversão explícita basicamente a seguir aquelas regras que eu falei de tamanho e dos tipos
+
+76
+00:07:07,900 --> 00:07:16,790
+se você tem algo mais simples como por exemplo o W que é a letra e que vai receber o valor total zero
+
+77
+00:07:16,890 --> 00:07:23,010
+ou seja um valor inteiro mais um W foi definido como Babão ou até mesmo definiu um valor inteiro aqui
+
+78
+00:07:23,010 --> 00:07:25,410
+sem problema nenhum a uma conversão implícita.
+
+79
+00:07:25,500 --> 00:07:32,160
+Se eu pagar um inteiro F e receber isso e ainda assim não precisar fazer uso do cache e colocar aqui
+
+80
+00:07:33,380 --> 00:07:39,310
+o que ele vai trocar o valor que ele transformou pra um ponto zero mas como Java não analisa valor ele
+
+81
+00:07:39,320 --> 00:07:45,660
+só analisa ativos significa que você também tem que forçar a barra e nesse caso forçar a barra estou
+
+82
+00:07:45,670 --> 00:07:53,390
+dizer e fazer o cache de forma explícita tal do valor vai ser se você tiver um valor alto 9 9 9 9.
+
+83
+00:07:53,400 --> 00:08:00,060
+Ainda assim pro Java ele não se interessa pela Apache quebrada do numero e simplesmente troca e vai
+
+84
+00:08:00,060 --> 00:08:03,420
+te dar o valor inteiro no caso aqui o valor exato.
+
+85
+00:08:03,630 --> 00:08:09,120
+Ou seja ele não vai tentar arredondar o numero vai simplesmente ignorar a parte quebrada converge.
+
+86
+00:08:09,180 --> 00:08:15,740
+Ou seja houve perda de informação aqui se o professor for calcular a média do valor final em cima de
+
+87
+00:08:15,750 --> 00:08:23,210
+um cache significa esse professor malvado porque ele não vai tirar 6 conta o 9 9 9 e ele trocar você
+
+88
+00:08:23,220 --> 00:08:30,540
+tira 6 acaba ficando aí de reparação então só pra mostrar pra vocês algumas possibilidades são conversões
+
+89
+00:08:30,540 --> 00:08:37,440
+explícitas no caso do cache e conversões implícitas acontece o tempo todo quando você trabalha de forma
+
+90
+00:08:37,440 --> 00:08:42,840
+mais segura como Java sabe que aquela promessa não pode de forma alguma gerar algum tipo de problema
+
+91
+00:08:42,840 --> 00:08:49,680
+se você quer converter de bate forte justo pra ti pra Long ou converter de tipos inteiros pra títulos
+
+92
+00:08:49,680 --> 00:08:51,900
+com ponto flutuante você não vai ter problema nenhum.
+
+93
+00:08:51,990 --> 00:08:56,730
+Então essa é a lógica bem simples né trabalhando com conversões de tipos primitivos numéricos mas nós
+
+94
+00:08:56,730 --> 00:09:02,910
+ainda iremos revisitar esse tema de cache mais lá na frente quando for falar de conversões entre objetos
+
+95
+00:09:02,910 --> 00:09:07,190
+cache é algo que eu diria que você tem que tentar ao máximo fugir.
+
+96
+00:09:07,290 --> 00:09:12,870
+Por isso que é um dos pontos positivos é você não usar muito no seu programa baixe embora muitos alunos
+
+97
+00:09:12,870 --> 00:09:16,810
+queiram otimizar ao máximo o programa em causa não baixe.
+
+98
+00:09:16,860 --> 00:09:22,110
+Pode ser que você caia em situações que você recebeu antes que ela se trabalhe e combate você tem que
+
+99
+00:09:22,110 --> 00:09:29,130
+converter o lixo baixe então acabe usando ou sempre inútil mesmo quando são valores pequenos ou acabo
+
+100
+00:09:29,130 --> 00:09:32,430
+usando quando tem valores grandes aí sim eu mudo pra W.
+
+101
+00:09:32,880 --> 00:09:39,390
+Então acabo dançando conforme a música do Java já que o Java definiu como sendo o tipo padrão e define
+
+102
+00:09:39,390 --> 00:09:42,620
+w como sendo o literal padrão também é um W.
+
+103
+00:09:42,630 --> 00:09:48,690
+Assim como literalmente irão inútil acabo usando preferencialmente NET e W para diferenciar esses dois
+
+104
+00:09:48,690 --> 00:09:54,600
+tipos porque os literais são desses tipos que também vai habitar com o que você tem que fazer questes
+
+105
+00:09:54,610 --> 00:09:55,560
+desnecessárias.

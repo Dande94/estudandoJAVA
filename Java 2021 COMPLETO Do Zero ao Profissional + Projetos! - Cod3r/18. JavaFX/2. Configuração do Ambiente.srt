@@ -1,0 +1,347 @@
+1
+00:00:00,270 --> 00:00:07,680
+Agora nós vamos configurar um ambiente pra baixar as dependências do Java Flex e também configurar dentro
+
+2
+00:00:07,680 --> 00:00:08,450
+do eclipse.
+
+3
+00:00:08,460 --> 00:00:16,650
+Essa essa biblioteca que nós vamos baixar agora então pra gente começar eu vou entrar aqui no Java Flex
+
+4
+00:00:17,040 --> 00:00:22,200
+aqui na página Open J FX pontuais e aqui dentro.
+
+5
+00:00:22,200 --> 00:00:27,990
+Se você descer um pouco mais vai ter opção pra você fazer o download aqui você clicando nessa parte
+
+6
+00:00:27,990 --> 00:00:29,740
+aqui onde tem esse botão.
+
+7
+00:00:29,740 --> 00:00:32,450
+Ao clicar ele vai direcionar para a paragem de download.
+
+8
+00:00:32,460 --> 00:00:40,260
+Você pode baixar a versão digamos assim LTS que ao longo torne suporte o suporte de prazo mais longo
+
+9
+00:00:40,270 --> 00:00:46,170
+são versões estáveis que têm como objetivo serem usadas em produção.
+
+10
+00:00:46,170 --> 00:00:52,020
+Você pode ter a garantia de que vai usar em produção e vai ter um suporte de mais longo prazo e você
+
+11
+00:00:52,020 --> 00:00:53,080
+tem a última versão.
+
+12
+00:00:53,080 --> 00:00:59,820
+No caso aqui o Java FX na versão 3.1 é exatamente essa versão que eu vou baixar aqui no caso você tem
+
+13
+00:00:59,820 --> 00:01:07,450
+para o Windows você tem para Mac e se você tem pra Linux eu vou baixar o Java FX Mac e assim J BK.
+
+14
+00:01:07,530 --> 00:01:11,020
+O processo de configuração é exatamente o mesmo.
+
+15
+00:01:11,100 --> 00:01:14,920
+Você vai jogá lo ao longe dentro de uma pasta e configurar dentro do eclipse.
+
+16
+00:01:15,240 --> 00:01:20,910
+Eu vou fazer aqui para o Mac e então vou baixar ele vai demorar um pouquinho então vou acelerar o vídeo
+
+17
+00:01:21,240 --> 00:01:24,530
+pra mostrar pra vocês quando tiverem terminado e terminado.
+
+18
+00:01:24,540 --> 00:01:26,060
+Na verdade vai ser bem rápido.
+
+19
+00:01:26,100 --> 00:01:32,370
+Dá até pra ficar conversando com vocês aqui eu vou lá vou mostrar dentro do Fagner essa versão que foi
+
+20
+00:01:32,370 --> 00:01:41,570
+baixada vou jogar aqui dentro do desktop fechar aqui vou compactar clicando às vezes ele vai abrir mais
+
+21
+00:01:41,580 --> 00:01:50,700
+compacta a pasta eu posso jogar o arquivo ZIP e apagar e eu tenho aqui o Java FX SDK 13 pontos zero
+
+22
+00:01:50,700 --> 00:01:51,380
+ponto.
+
+23
+00:01:51,390 --> 00:01:56,150
+Uma vez feita a compactação você vai colocar isso no local que você preferir.
+
+24
+00:01:56,150 --> 00:02:02,550
+Você pode colocar dentro de application por exemplo jogar aqui pra dentro como eu também posso colocar
+
+25
+00:02:02,550 --> 00:02:04,090
+bem da minha parte de usuário.
+
+26
+00:02:04,110 --> 00:02:12,190
+Eu tenho uma pasta que Development e tem flauta e tem aqui ao Java e Flex SDK 13 pontos zero ponto.
+
+27
+00:02:12,570 --> 00:02:17,010
+Basicamente eu já tinha copiado isso pra caramba copiar de novo o que tem uma pasta com o mesmo nome
+
+28
+00:02:17,600 --> 00:02:23,890
+e eu vou simplesmente deletar mas você pode colocar na pasta que você quiser na pasta de usuário desktop
+
+29
+00:02:23,900 --> 00:02:28,920
+e no C2 pontos for no caso do Windows ou na sua pasta se for no caso do Linux.
+
+30
+00:02:28,920 --> 00:02:37,090
+Beleza então dentro de Leonardo Leitão da bela mantém uma pasta chamada Java e Flex SDK 13 pontos zero.
+
+31
+00:02:37,090 --> 00:02:43,850
+Contudo clicando aqui você vai ter uma pasta de Libby que vai ter todas as bibliotecas necessárias para
+
+32
+00:02:43,850 --> 00:02:46,750
+fazer a sua aplicação em Java e Flex funcionar.
+
+33
+00:02:46,750 --> 00:02:51,930
+E agora eu vou configurar isso dentro do equilíbrio já tendo que o arquivos aberto.
+
+34
+00:02:51,930 --> 00:02:55,990
+Vou colocar aqui só para a gente entrar no Eclipse.
+
+35
+00:02:56,010 --> 00:03:04,110
+Eu vou desmarcar aqui a gente tinha feito na época passada para a gente criar um novo site só pra aplicação
+
+36
+00:03:04,110 --> 00:03:07,400
+que a gente estava desenvolvendo pra trabalhar a questão dos módulos.
+
+37
+00:03:07,470 --> 00:03:13,850
+Eu vou desmarcar o isso é nacional o Windows 7 que irá mostrar todos os projetos para a gente.
+
+38
+00:03:13,950 --> 00:03:16,520
+Eu não vou criar o projeto nessa aula mas vou criar na próxima.
+
+39
+00:03:16,920 --> 00:03:20,880
+Então pra gente configurá configurar você pode entrar aqui no caso do Mac.
+
+40
+00:03:20,990 --> 00:03:24,000
+Vai ser Eclipse e tem para a França.
+
+41
+00:03:24,110 --> 00:03:30,060
+E no caso do Windows você procura quais as preferências e algum menu deixe eu não sei se ela edite ou
+
+42
+00:03:30,100 --> 00:03:36,390
+seu projeto você tem algum menu que você consegue selecionar as preferências Não é difícil ter no Mac
+
+43
+00:03:36,470 --> 00:03:37,780
+como vírgula.
+
+44
+00:03:38,190 --> 00:03:44,040
+Eu abro essa tela que de preferência uma vez aberta as preferências se você colocar aqui na Barra de
+
+45
+00:03:44,040 --> 00:03:47,210
+busca e usa la.
+
+46
+00:03:47,520 --> 00:03:51,530
+Você vai ver o Java Bild PF e usa lá em Berlim.
+
+47
+00:03:51,600 --> 00:03:57,520
+Eu não tenho nenhuma biblioteca de usuário configurado Messi ou experiência você pode ter o outro ou
+
+48
+00:03:57,540 --> 00:04:03,210
+espécie com o melhor teclas de usuário uma vez que você cria daquele usuário e fica atrelado àquele
+
+49
+00:04:03,210 --> 00:04:07,410
+ou outros países se você mudar de uma espécie precisa configurar de novo.
+
+50
+00:04:07,410 --> 00:04:11,540
+Nesse caso eu não tenho o Messi ou a minha biblioteca configurada.
+
+51
+00:04:11,610 --> 00:04:17,120
+Se eu abri um outro hoax parece que eu tenho aqui que é o planejamento de outros projetos.
+
+52
+00:04:17,160 --> 00:04:20,170
+Vocês vão ver que vai ter cinco teclas configuradas aqui.
+
+53
+00:04:20,370 --> 00:04:21,800
+Mas eu não vou mostrar isso agora não.
+
+54
+00:04:21,870 --> 00:04:27,750
+Então pra criar a nossa biblioteca de usuário eu vou selecionar mil e aí um nome que você vai colocar
+
+55
+00:04:27,750 --> 00:04:35,880
+o nome que você preferir eu vou colocar aqui o Java FX 13 selecionar ok.
+
+56
+00:04:35,880 --> 00:04:41,560
+Uma vez selecionado que o nome você vai adicionar arquivos ponto J.
+
+57
+00:04:41,580 --> 00:04:48,870
+Nesse caso eu quero adicionar arquivos que estão externo a meu respeito então adicionais alternam jogos
+
+58
+00:04:48,930 --> 00:04:49,800
+ou seja arquivos.
+
+59
+00:04:49,810 --> 00:04:59,410
+Pronto já eu vou selecionar Leonardo Leitão belo ou selecioná la Java FX SNK 3 13 pontos zero ponto
+
+60
+00:05:00,180 --> 00:05:09,240
+selecionar e mimimi e todos os arquivos pontos já é adicionada à biblioteca então Java FX SW tem base
+
+61
+00:05:09,250 --> 00:05:14,460
+controlos XML e gráficos mídia Swing e web.
+
+62
+00:05:14,830 --> 00:05:18,760
+Não preciso selecionar os outros arquivos vou colocar aqui ok.
+
+63
+00:05:18,760 --> 00:05:25,140
+E tem um passo a mais que vai ajudar a gente a nora que tiver usado tem acesso a documentação que é
+
+64
+00:05:25,140 --> 00:05:28,160
+exatamente se você clicar aqui é um SOS.
+
+65
+00:05:28,180 --> 00:05:33,690
+A taxa média esse é um passo a passo um tanto quanto repetitivo porque eu vou precisar fazer isso para
+
+66
+00:05:33,700 --> 00:05:40,810
+todos a todos os arquivos ponto já que tenho aqui dentro da minha biblioteca então só se a taxa muito
+
+67
+00:05:40,810 --> 00:05:48,190
+ou seja eu quero anexar o código fonte do Java FX aqui dentro então vou selecionar Edit vou selecionar
+
+68
+00:05:48,280 --> 00:05:57,560
+a segunda opção op externo Location ou selecionar externo fácil e vou aqui embaixo selecioná lo SRC
+
+69
+00:05:57,580 --> 00:06:03,110
+ponto Zip que é onde está localizado o código fonte do Java e flex.
+
+70
+00:06:03,140 --> 00:06:09,850
+Posso até copiar isso aqui pra facilitar as próximas vezes que vou fazer esse mesmo passo a passo coloco
+
+71
+00:06:09,870 --> 00:06:18,070
+ok e agora associado a esse arquivo pronto já tem o código fonte de uma coisa só essa taxa aditiva ou
+
+72
+00:06:18,070 --> 00:06:21,480
+selecionar aqui embaixo contra o V ok.
+
+73
+00:06:21,640 --> 00:06:31,000
+A mesma coisa aqui só se a taxa de bandidos externa Location controle vem mais uma vez aqui digite externa
+
+74
+00:06:31,000 --> 00:06:41,800
+Location aqui e novamente usa esse é o último tem mais três para editar interna Location aqui mais uma
+
+75
+00:06:41,800 --> 00:06:45,510
+vez ele tá externa location.
+
+76
+00:06:45,550 --> 00:06:58,910
+Copiar pra cá e editar Location em mais um último mês no Curdistão Location cópia digital esse tem o
+
+77
+00:06:58,960 --> 00:07:01,940
+código fonte associado aqui também.
+
+78
+00:07:02,020 --> 00:07:09,700
+Esse esse outro todos já tem o código fonte associado e isso vai ser bom o que vai facilitar a própria
+
+79
+00:07:09,700 --> 00:07:16,240
+ideia e conseguir completar o código colocar o nome nas variáveis corretas então tenho aqui outro a
+
+80
+00:07:16,240 --> 00:07:22,810
+nossa biblioteca configurada apontando para a pasta que eu defini brevemente que eu joguei o download.
+
+81
+00:07:22,810 --> 00:07:28,630
+Basicamente eu fiz o download dos compact UI é que é uma biblioteca de usuário que aponta para cada
+
+82
+00:07:28,630 --> 00:07:32,950
+um dos arquivos pontos já que está dentro da pasta Libby.
+
+83
+00:07:32,950 --> 00:07:37,780
+Feito isso eu vou aplicar e fechar agora tem uma biblioteca à minha disposição.
+
+84
+00:07:37,900 --> 00:07:44,080
+E na próxima aulas vamos criar o projeto nós vamos associar o projeto essa biblioteca que foi criada
+
+85
+00:07:44,380 --> 00:07:48,730
+e a gente vai precisar preencher também um sistema de módulos pra saber o que é que a gente vai importar
+
+86
+00:07:48,820 --> 00:07:54,610
+para conseguir construir a nossa primeira aplicação Java Flex fico por aqui na próxima lojas fazer nossa
+
+87
+00:07:54,610 --> 00:07:59,380
+primeira aplicação em Java só para a gente testar e ver se está tudo funcionando e ele espera lá.

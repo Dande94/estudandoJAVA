@@ -1,0 +1,343 @@
+1
+00:00:00,420 --> 00:00:07,460
+Agora nós vamos fazer o seguinte nós vamos categorizar cada um dos eventos que podem acontecer na calculadora.
+
+2
+00:00:07,650 --> 00:00:13,260
+Por exemplo quando aplicar não aceita eu quero usará como aplicar nesses valores aqui cabe detectar
+
+3
+00:00:13,260 --> 00:00:19,200
+isso como sendo o valor numérico ou clicar na viga não quero conseguir saber o que aconteceu ao vivo
+
+4
+00:00:19,200 --> 00:00:25,020
+então pra isso eu vou criar um método que vai processar quem vai receber esses eventos e vai categorizar
+
+5
+00:00:25,020 --> 00:00:29,100
+os eventos no ano esses grupos número vírgula.
+
+6
+00:00:29,100 --> 00:00:35,700
+Aí eu vou querer saber se foi uma operação de divisão multiplicação subtração soma se usuário Piccolo
+
+7
+00:00:35,700 --> 00:00:42,780
+igual e pra cada um desses botões eu vou criar um valor dentro de um ano uma oração eu não sei se eu
+
+8
+00:00:42,780 --> 00:00:49,030
+criei naturalmente com numeração dentro de uma classe mas você pode criar um arquivo de numeração separada
+
+9
+00:00:49,030 --> 00:00:51,520
+ou pode colocar numeração dentro de uma classe.
+
+10
+00:00:51,570 --> 00:00:58,050
+Não tem problema nenhum em fazer isso então por isso eu vou criar que eventos e eu vou chamar aqui tipo
+
+11
+00:00:58,520 --> 00:01:07,230
+comando E VOU ASSOCIAR que um enumeração coloco aqui um ponto e vírgula no final e aqui dentro da numeração
+
+12
+00:01:07,560 --> 00:01:09,780
+eu vou colocar tipo comando.
+
+13
+00:01:09,800 --> 00:01:14,970
+Na verdade não tem igual não Site coloca no comando e aqui eu vou colocar os valores que eu vou querer
+
+14
+00:01:14,970 --> 00:01:23,460
+ter dentro da minha calculadora está na calculadora eu voltei o valor aqui primeiro vai ser o 0 a 0.
+
+15
+00:01:24,150 --> 00:01:36,960
+Depois eu voltei o número depois eu vou ter uma divisão multiplicação a subtração a soma do teu igual.
+
+16
+00:01:37,140 --> 00:01:42,520
+E finalmente eu vou ter o comando de vídeo ou aplicar a vírgula.
+
+17
+00:01:42,540 --> 00:01:48,840
+Também quero saber se aconteceu algum desses tipos uma vez tendo o tipo de comando que foi digitado
+
+18
+00:01:48,840 --> 00:01:53,940
+dentro do processador que comanda a primeira coisa que eu quero saber qual é o tipo do comando que eu
+
+19
+00:01:53,940 --> 00:01:54,900
+acabei de receber.
+
+20
+00:01:54,900 --> 00:01:59,880
+Então vou ter aquele tipo de comando que eu vou chamar aquele tipo de comando.
+
+21
+00:01:59,960 --> 00:02:10,080
+Ou então simplesmente aparecer tipo comando recebe detectar o tipo de comando vou passar como parâmetro
+
+22
+00:02:10,200 --> 00:02:12,210
+o valor que eu recebi aqui.
+
+23
+00:02:12,310 --> 00:02:16,900
+Esse eu estou chamando valor aqui e eu estou chamando texto só para padronizar.
+
+24
+00:02:16,980 --> 00:02:24,780
+Eu vou criar que texto tal o texto que eu recebi o texto que recebi e o texto atual como o atributo
+
+25
+00:02:24,780 --> 00:02:29,110
+da classe eu vou passar o texto como parâmetro para o meu detetados.
+
+26
+00:02:29,220 --> 00:02:31,190
+Como esse método não existe.
+
+27
+00:02:31,410 --> 00:02:35,420
+Estão colocando como condições e criando um método privado.
+
+28
+00:02:35,430 --> 00:02:41,220
+Ele vai criar um método que vai retornar um tipo de comando então detectado o comando recebe texto e
+
+29
+00:02:41,220 --> 00:02:42,120
+retorna.
+
+30
+00:02:42,120 --> 00:02:49,050
+Que tipo de comando foi digitado no teclado da calculadora e esse texto passada exatamente o leigo que
+
+31
+00:02:49,050 --> 00:02:52,900
+pertence a algo tão em cima disso que a gente vai começar a fazer o tratamento.
+
+32
+00:02:52,930 --> 00:02:58,820
+Uma observação interessante quando ela executa aqui a minha calculadora e eu coloco por exemplo aquele
+
+33
+00:02:59,670 --> 00:03:07,230
+0 0 0 0 ele começa a colocar um monte de zero uma calculadora eu coloco 2 esse monte de 0 que antes
+
+34
+00:03:07,230 --> 00:03:11,950
+não faz sentido nenhum porque são valores que não tem nenhum significado.
+
+35
+00:03:11,940 --> 00:03:14,700
+Isso não acontece na calculadora da Apple.
+
+36
+00:03:14,730 --> 00:03:18,840
+Se eu colocar aquele 0 0 0 0 não acontece nada 1 2 3.
+
+37
+00:03:18,840 --> 00:03:26,280
+Aí sim ele coloca os valores 0 do lado esquerdo então pra evitar esse tipo de zero o que eu posso fazer
+
+38
+00:03:26,400 --> 00:03:42,840
+um teste é o seguinte não sei o texto atual ficou vazio esse é o texto que foi passado foi igual a zero
+
+39
+00:03:43,140 --> 00:03:49,920
+significa que o tipo de comando que foi gerado vai ser um comando nulo eu não vou querer tratar nada
+
+40
+00:03:49,990 --> 00:03:51,410
+porque não é um valor válido.
+
+41
+00:03:51,420 --> 00:03:57,780
+Então esse aqui já filtra pra gente eventuais tentativas do usuário colocar vários zeros à esquerda.
+
+42
+00:03:57,810 --> 00:04:03,030
+O próximo coisa que eu vou querer fazer vai ser o seguinte eu vou querer verificar se o texto digitado
+
+43
+00:04:03,030 --> 00:04:06,750
+ele pode ou não ser convertido para o valor inteiro.
+
+44
+00:04:06,750 --> 00:04:15,240
+Então pra fazer isso eu pego que por exemplo ele esteja em ponto de parcial e eu passar o texto como
+
+45
+00:04:15,240 --> 00:04:16,220
+parâmetro.
+
+46
+00:04:16,380 --> 00:04:23,610
+Se isso aqui converter de forma bem sucedida eu já sei que na sequência o valor que eu tenho como resposta
+
+47
+00:04:23,880 --> 00:04:32,190
+vai tornar um valor como sendo um número um tipo de comando ser esse número mas isso aqui pode gerar
+
+48
+00:04:32,220 --> 00:04:38,830
+uma recessão então se gerar uma recessão vou colocar aqui um traficante então com o Mundial dizer à
+
+49
+00:04:38,990 --> 00:04:45,690
+troika este blog que acho que no caso de vocês é contra Walt Disney no meu caso o comando mundial dizer
+
+50
+00:04:46,110 --> 00:04:51,780
+no Windows contra Walt Disney de dar essa opção selecionando as 12 minhas e aí ele vai envolver as linhas
+
+51
+00:04:51,780 --> 00:04:53,680
+selecionadas contra o Ecad.
+
+52
+00:04:53,850 --> 00:04:58,800
+Nesse caso ele já detectou que gerou lambe performático sabichão.
+
+53
+00:04:58,830 --> 00:05:05,460
+No meu caso performático Sérgio vai significar que o texto passado não é um valor numérico.
+
+54
+00:05:05,470 --> 00:05:12,640
+Aí eu vou começar procurar pra saber se ele é uma divisão se ele a multiplicação seria uma divisão serial
+
+55
+00:05:12,660 --> 00:05:17,280
+igual seria uma vírgula então todos os outros caso não caia no queixo.
+
+56
+00:05:17,340 --> 00:05:23,130
+Eu até posso ignorar o que te deixar vazio e continuar processando depois aqui fora do card.
+
+57
+00:05:23,130 --> 00:05:29,640
+Mas como também posso se quiser dentro do próprio Card já aí processando os outros cenários então quando
+
+58
+00:05:30,360 --> 00:05:35,470
+não for o número eu vou fazer os outros testes aqui.
+
+59
+00:05:35,610 --> 00:05:43,860
+Então o primeiro caso que a gente pode fazer é esse que esse texto digitado formassem aquela que foi
+
+60
+00:05:43,920 --> 00:05:48,900
+digitada aceita até tirar daqui que não me interessa fazer esse tratamento aqui né.
+
+61
+00:05:48,930 --> 00:05:55,810
+Por enquanto eu quero basta deixar por enquanto aqui a gente vai mexendo o jogo daqui o System auditor
+
+62
+00:05:55,990 --> 00:06:01,630
+em Parintins divino tornar o tipo de comando que eu acabei de detectar aqui no método.
+
+63
+00:06:02,040 --> 00:06:07,330
+Então vou achar pra vocês por enquanto a gente tá detectando boa parte dos eventos como se o molusco
+
+64
+00:06:07,330 --> 00:06:16,530
+apagar logo esse ou se a cena foi igual ao texto que foi digitado significa retornar ao comando pra
+
+65
+00:06:16,530 --> 00:06:25,300
+c era um perigo então pra gente tá está aqui foi digitar o asterisco quer muito marcação vai tornar
+
+66
+00:06:25,300 --> 00:06:25,790
+nulo.
+
+67
+00:06:25,870 --> 00:06:38,400
+Quem não tratou esse caso divisão nulo o 9 é o número 8 o número 7 números 4 5 6 3 2 1 0 1 todos são
+
+68
+00:06:38,400 --> 00:06:42,610
+números e o A.C gerou comando zero.
+
+69
+00:06:43,070 --> 00:06:44,100
+Ah tá faltando.
+
+70
+00:06:44,100 --> 00:06:51,240
+A gente já fez o número fez zerar e 0 quando é o primeiro zero que ele vai colocar no.
+
+71
+00:06:51,750 --> 00:06:58,560
+Mas como agora o valor foi alterado pra zero ele vai tá depois consideram como sendo o valor numérico
+
+72
+00:06:58,590 --> 00:07:10,700
+000 para positivo vai corrigir isso qual o outro caso seus erros eu vou testar Barra ponto e caos.
+
+73
+00:07:11,130 --> 00:07:18,320
+Se for o 3 passado igual qual Barra significa que eu tenho aqui um monte de visão então retornado tipo
+
+74
+00:07:18,600 --> 00:07:28,490
+comando pronto e visão vou duplicar isso aqui vai triplicar quadruplicar sei lá então colocar uma explicação
+
+75
+00:07:28,950 --> 00:07:37,170
+qualquer soma no que toca ao menos e também vou colocar um igual tal que nós temos
+
+76
+00:07:39,330 --> 00:07:53,720
+multiplicação soma subtração é igual e o outro que nós temos também vai ser a vírgula outro clicar aqui
+
+77
+00:07:53,730 --> 00:07:59,210
+se for ditado uma vírgula significa dizer que eu tenho comando de vírgula.
+
+78
+00:07:59,250 --> 00:08:06,510
+Caso contrário seja só então posso não colocar o s aqui porque ele passou por todos esses cenários nenhum
+
+79
+00:08:06,510 --> 00:08:14,400
+entrou no final ele retorna nulo então nosso método pra detectar o tipo de comando foi implementado.
+
+80
+00:08:14,420 --> 00:08:20,670
+O objetivo da aula vou usar aqui o nosso tá na hora que tá mais uma vez pra saber se todos os botões
+
+81
+00:08:20,670 --> 00:08:25,550
+estão apeados ou começam aqui primeiro zerar divisão.
+
+82
+00:08:25,720 --> 00:08:40,620
+7 8 enormes numero multiplicação 4 5 6 são números aqui subtração 2 3 numero soma zero numero vírgula
+
+83
+00:08:40,900 --> 00:08:45,510
+e o símbolo lingual ou seja todos os comandos foram mapeados a partir desse método.
+
+84
+00:08:45,930 --> 00:08:50,730
+Olhando aqui nosso método de processar como anda a gente já tem um comando pronto para que a gente possa
+
+85
+00:08:50,730 --> 00:08:56,190
+continuar implementando a lógica na nossa aplicação está faltando muitas coisas da nossa lógica pra
+
+86
+00:08:56,190 --> 00:08:58,120
+concluir o disparo na proximal.

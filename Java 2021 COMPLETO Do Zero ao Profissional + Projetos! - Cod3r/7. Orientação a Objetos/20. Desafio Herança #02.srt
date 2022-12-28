@@ -1,0 +1,135 @@
+1
+00:00:00,240 --> 00:00:07,830
+Pessoal eu quero lançar para vocês um desafio parecido com o que eu falei na aula passada de chamar
+
+2
+00:00:07,830 --> 00:00:13,800
+o subo em cima do desafio que a gente já construiu do carro e fazer uma mudança para que vocês possam
+
+3
+00:00:14,190 --> 00:00:15,120
+resolver o problema.
+
+4
+00:00:15,120 --> 00:00:21,110
+Vamos supor que aqui no carro eu vou definir o valor final final que eu vou chamar.
+
+5
+00:00:21,110 --> 00:00:29,070
+Que velocidade máxima seja um valor constante acaba que por padrão a gente criando valores constantes
+
+6
+00:00:29,070 --> 00:00:32,830
+em letras maiúsculas tem que definir também o tipo que vai ser um inteiro.
+
+7
+00:00:33,420 --> 00:00:40,220
+Nesse caso que a velocidade máxima e eu espero receber por parâmetro do meu construtor aquele carro.
+
+8
+00:00:40,710 --> 00:00:49,260
+O valor da velocidade máxima então vou colocar aqui velocidade máxima velocidade máxima e esse valor
+
+9
+00:00:49,260 --> 00:00:54,920
+de velocidade máxima que eu recebi aqui é a velocidade máxima.
+
+10
+00:00:55,050 --> 00:01:00,690
+Eu vou inicializar minha constante que eu falei pra vocês que eu preciso sensibilizada diretamente na
+
+11
+00:01:00,690 --> 00:01:06,610
+definição ou no mais tardar na criação do objeto vai receber aquilo que eu recebi como parâmetro.
+
+12
+00:01:06,660 --> 00:01:14,040
+Velocidade máxima é em cima da velocidade máxima a gente vai precisar aplicar aqui uma verificação que
+
+13
+00:01:14,040 --> 00:01:24,870
+é o seguinte se a velocidade atual mais a velocidade mais cinco não pode ser maior do que a velocidade
+
+14
+00:01:24,870 --> 00:01:28,170
+máxima então qualquer outra velocidade máxima.
+
+15
+00:01:28,200 --> 00:01:35,760
+Se isso acontecer ou seja se a velocidade atual mais 5 for maior do que a velocidade máxima que eu vou
+
+16
+00:01:35,760 --> 00:01:38,730
+fazer é pegar a velocidade atual.
+
+17
+00:01:38,910 --> 00:01:44,380
+Vai ser exatamente igual à velocidade máxima mas nunca vai ultrapassar caso contrário.
+
+18
+00:01:44,430 --> 00:01:50,010
+Aí sim eu posso atribuir tranquilamente sabendo que eu não vou ultrapassar a velocidade máxima.
+
+19
+00:01:50,130 --> 00:01:52,680
+Inclusive esse que está aplicado duas vezes.
+
+20
+00:01:52,680 --> 00:01:57,800
+Você pode até criar valor Delta Delta pra c.
+
+21
+00:01:57,810 --> 00:02:01,440
+Ou então posso colocar o balão Delta pra ser até um atributo aqui certo.
+
+22
+00:02:01,890 --> 00:02:07,280
+Então coloco que a Delta recebe o valor 5.
+
+23
+00:02:07,780 --> 00:02:16,680
+E aí eu posso usar esse mesmo valor de delta aqui pra testar que é pra acrescentar aqui no final.
+
+24
+00:02:16,730 --> 00:02:22,040
+Aqui eu posso usar o Delta também para frear se for o caso certo ou Delta vou deixar o frete sempre
+
+25
+00:02:22,050 --> 00:02:25,940
+5 e o Delta dar velocidade pra realmente variar.
+
+26
+00:02:26,250 --> 00:02:31,770
+Então nesse caso se a velocidade atual mais o Delta ultrapassar a velocidade máxima significa que você
+
+27
+00:02:31,770 --> 00:02:34,660
+vai atribuir a velocidade máxima.
+
+28
+00:02:34,740 --> 00:02:38,610
+Caso contrário significa que não ultrapassa você vai acrescentar velocidade.
+
+29
+00:02:38,640 --> 00:02:44,310
+Isso aqui é só pra gente preparar o nosso desafio porque a gente agora não tem mais o custo do padrão
+
+30
+00:02:44,640 --> 00:02:50,250
+dentro da classe caudal de tal forma que gerou um problema no CID que gerou um problema na Ferrari.
+
+31
+00:02:50,590 --> 00:02:53,490
+Eu quero que você resolver esse problema da forma que você quiser.
+
+32
+00:02:53,770 --> 00:02:59,700
+Eu vou mostrar onde as possibilidades aqui mais você pode definir da forma que você quiser e como resolver
+
+33
+00:02:59,700 --> 00:03:03,380
+esse problema já que agora a classe baixa não tem um custo padrão.
+
+34
+00:03:03,390 --> 00:03:07,650
+Na próxima aula eu vou sugerir uma das possíveis respostas eu disparou.

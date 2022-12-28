@@ -1,0 +1,311 @@
+1
+00:00:00,390 --> 00:00:07,240
+Pessoal na sala nós vamos criar a tabela do banco de dados então para isso eu vou criar uma nova classe
+
+2
+00:00:07,240 --> 00:00:10,800
+em que eu vou chamar aqui de CRIAR TABELA.
+
+3
+00:00:10,990 --> 00:00:21,420
+Então cria a tabela que aqui a tabela a pessoa que é a tabela que eu vou criar ou que a tabela renomear
+
+4
+00:00:21,520 --> 00:00:31,450
+aqui e nem criar a tabela que pessoas que eu vou chamar a tabela no plural é um padrão que eu uso vou
+
+5
+00:00:31,490 --> 00:00:36,640
+usar aqui também no curso certo colocando aqui o nosso método.
+
+6
+00:00:36,780 --> 00:00:45,660
+Eu vou ter uma conexão Connection Conexão dessa conexão ou carregar a partir de fábrica conexão ponto
+
+7
+00:00:45,660 --> 00:00:48,690
+Beijing Connection.
+
+8
+00:00:48,690 --> 00:00:55,320
+Uma vez criada a conexão a gente pode criar um estreitamento que a gente criou através estreitamento.
+
+9
+00:00:56,220 --> 00:01:00,870
+Colocar aqui o nome da variável é a partir da conexão.
+
+10
+00:01:00,870 --> 00:01:07,740
+Eu vou chamar o método Cris estreitamento e aqui eu vou passar para ele o SQL necessário para criar
+
+11
+00:01:07,740 --> 00:01:08,740
+uma tabela.
+
+12
+00:01:08,760 --> 00:01:12,090
+Nesse caso eu vou criar uma string que eu vou chamar de SQL.
+
+13
+00:01:12,090 --> 00:01:16,560
+Por enquanto eu vou colocar este vazia para automóveis feito isso aqui criado SQL.
+
+14
+00:01:16,590 --> 00:01:23,040
+Eu vou chamar aqui o estreitamento do ponto as equipes passando SQL daqui a pouco a gente vai criar
+
+15
+00:01:23,040 --> 00:01:23,760
+o SQL.
+
+16
+00:01:24,360 --> 00:01:30,480
+Antes de finalizar eu vou chamar aqui a conexão ponto Klaus.
+
+17
+00:01:30,780 --> 00:01:41,050
+E antes vou colocar aqui um system altos dizendo tabela criada criada com sucesso.
+
+18
+00:01:41,080 --> 00:01:42,390
+Pronto.
+
+19
+00:01:42,400 --> 00:01:48,870
+Feito isso ele está gerando aqui alguns problemas porque eu preciso tratar a exceção ou lançar essa
+
+20
+00:01:48,870 --> 00:01:50,900
+ação diretamente no metro.
+
+21
+00:01:50,980 --> 00:01:57,720
+Por enquanto ele está vazio de nós vamos criar aqui o nosso comando para criar uma tabela como com uma
+
+22
+00:01:57,720 --> 00:02:03,570
+área relativamente grande eu vou acabar quebrando em minúsculas strings está certo pra alguém conseguir
+
+23
+00:02:03,710 --> 00:02:09,450
+comandos diretamente na tela uma funcionalidade legal que surgiu no Java 13.
+
+24
+00:02:09,840 --> 00:02:14,520
+E o que ele tem em chamar o que ele chama de Tex box set.
+
+25
+00:02:14,520 --> 00:02:29,400
+Se você colocar aqui por exemplo Take the Box Java 3 você vai ver que essa é uma funcionalidade que
+
+26
+00:02:29,400 --> 00:02:40,330
+surgiu no Java 13 ainda como previu Nacho coloca aqui em seu blog Java 3 e Tech Box aparece aqui no
+
+27
+00:02:40,340 --> 00:02:48,270
+Open JD Cat que a especificação Java 3 ele aparece como previu ou assim de colocar mas ele vai permitir
+
+28
+00:02:48,270 --> 00:02:52,430
+em outras palavras você definir strings com múltiplas linhas.
+
+29
+00:02:52,470 --> 00:03:00,480
+Então e veja você caro concatenar por exemplo HTML ou concatenar um select você consegue colocá lo três
+
+30
+00:03:00,630 --> 00:03:06,690
+aspas duplas e você consegue colocar todos os comandos como se fosse uma extensão de múltiplas linhas
+
+31
+00:03:06,730 --> 00:03:09,050
+outras linguagens de programação.
+
+32
+00:03:09,120 --> 00:03:15,000
+Tem a questão de múltiplas linhas de uma forma tranquila como é o caso do JavaScript do Python mas o
+
+33
+00:03:15,000 --> 00:03:21,560
+Java foi adicionado apenas na versão do Java 13 e foi adicionado como previu aí do que é um previu.
+
+34
+00:03:21,590 --> 00:03:27,420
+é um recurso que foi disponibilizado que está completamente especificado e completamente implementado
+
+35
+00:03:27,840 --> 00:03:34,620
+e ele é colocado como previu para que os desenvolvedores testem esse recurso na prática e eventualmente
+
+36
+00:03:34,620 --> 00:03:41,100
+eles coloquem alguma observação que portem algum tipo de incompatibilidade desse uso com algum outro
+
+37
+00:03:41,100 --> 00:03:48,570
+recurso da linguagem Java para que depois esse recurso possa ser digamos assim colocado de forma definitiva.
+
+38
+00:03:48,570 --> 00:03:52,320
+Tentar linguagem não é o padrão que esses recursos previu.
+
+39
+00:03:52,320 --> 00:03:56,790
+Todos os recursos que estão nesse modo nessa categoria Preview estão habilitados você precisa ter um
+
+40
+00:03:56,790 --> 00:03:59,340
+folego especial para habilitar esse recurso.
+
+41
+00:03:59,340 --> 00:04:04,480
+Por isso eu não vou usar embora Jim esteja usando o Java 3 nesse curso já.
+
+42
+00:04:04,830 --> 00:04:09,060
+Eventualmente o Java captou o Java que sempre que for saindo eu voltar atualizando.
+
+43
+00:04:09,180 --> 00:04:15,840
+Começou o curso no Java 12 já atualizou o Java 3 e já vai ter recurso no Java 3 e espalhado no curso
+
+44
+00:04:16,110 --> 00:04:21,360
+mas hoje não vamos usar porque se trata de um recurso imprevisto apontam lá para a gente criar aqui
+
+45
+00:04:21,480 --> 00:04:25,490
+o nosso Database eu vou colocar aqui ok.
+
+46
+00:04:25,730 --> 00:04:34,710
+O bom nome da tabela baixei pessoas vou abrir aqui o par de chaves vou dar um entra ao concurso dentro
+
+47
+00:04:34,710 --> 00:04:38,230
+das histria se você der um Inter ele vai para a próxima linha.
+
+48
+00:04:38,250 --> 00:04:45,150
+Isso é um item para a próxima linha e coloco já com carteira colocando mais um baita vou coloca a abertura
+
+49
+00:04:45,150 --> 00:04:50,370
+dos parênteses aqui fechei os parentes aqui e aqui dentro vou colocar definição nas colunas a gente
+
+50
+00:04:50,370 --> 00:04:52,740
+já viu um capim passar na criação de tabelas.
+
+51
+00:04:52,750 --> 00:04:57,880
+Eu vou criar uma tabela bem simples que eu vou chamar aqui de código que vai ser assim.
+
+52
+00:04:58,230 --> 00:05:10,560
+Vai ser alto Larry Cornish é vai ser um ano para que seja a chave primária vírgula daqui o espaço.
+
+53
+00:05:10,600 --> 00:05:18,070
+A minha segunda coluna na verdade me pesaria neste espaço aqui na outra coluna que vou definir se a
+
+54
+00:05:18,070 --> 00:05:29,710
+coluna no ou cantor em português vai ser um crachá de 80 e a coluna vai ser mortos.
+
+55
+00:05:29,930 --> 00:05:31,890
+Ou seja não vai aceitar.
+
+56
+00:05:32,070 --> 00:05:38,060
+Também não vale obrigatório então tenho duas colunas a coluna código que é um inteiro auto incremento
+
+57
+00:05:38,060 --> 00:05:43,780
+e a chave primária e tem uma coluna que vai ser um baixar de 80 caracteres.
+
+58
+00:05:43,800 --> 00:05:51,010
+Note no com isso até a definição da minha tabela definida já passei aqui o SQL para o meu testemunho
+
+59
+00:05:51,010 --> 00:05:55,000
+que será executado e a gente executar esse comando.
+
+60
+00:05:55,000 --> 00:06:01,040
+Ele vai dizer que gera um problema dizendo que nenhum banco de dados foi chamado legal de fato nenhum
+
+61
+00:06:01,060 --> 00:06:02,500
+banco de dados foi selecionado.
+
+62
+00:06:02,950 --> 00:06:09,460
+Eu vou entrar aqui na minha conexão na fábrica de conexão no prédio Connection e vou passar que o banco
+
+63
+00:06:09,460 --> 00:06:13,820
+de dados de Barra de fluxo lá em Java.
+
+64
+00:06:14,200 --> 00:06:19,070
+Então Salvador fala o que de conexão legal que eu vou salvá lo uma vez e agora vou usar para todos os
+
+65
+00:06:19,070 --> 00:06:23,050
+exercícios a mesma conexão executando mais uma vez.
+
+66
+00:06:23,590 --> 00:06:29,530
+Ele vai dizer a tabela criada com sucesso se eu tentar executar uma segunda vez o que é que vai acontecer
+
+67
+00:06:29,950 --> 00:06:32,640
+ele vai gerar um problema dizendo que a tabela já existe.
+
+68
+00:06:33,030 --> 00:06:40,390
+Então executado mais uma vez ele vai dizer a tabela pessoa a tabela pessoal já existe.
+
+69
+00:06:40,750 --> 00:06:48,850
+Então aqui eu também posso usar aquela mesma estratégia ou cria a tabela pessoal nossos requisitos ou
+
+70
+00:06:48,850 --> 00:06:55,630
+seja se não existir cria a tabela se não existir não há sinal esse creio se existir não faça absolutamente
+
+71
+00:06:55,630 --> 00:06:56,720
+nada.
+
+72
+00:06:56,920 --> 00:07:03,640
+Mais uma vez a tabela criada com sucesso e tal nós já criamos criamos a conexão criamos o banco de dados
+
+73
+00:07:03,640 --> 00:07:09,460
+e agora criamos a tabela e nas próximas horas usamos trabalhar com o crude que é uma sigla anacrônica
+
+74
+00:07:09,460 --> 00:07:11,010
+pra colheita.
+
+75
+00:07:11,180 --> 00:07:15,180
+Updates de LED que são as operações do banco de dados e inserção.
+
+76
+00:07:15,220 --> 00:07:21,040
+Depois vamos fazer Salad nós vamos fazer updates e finalmente a exclusão que é o de lixo.
+
+77
+00:07:21,280 --> 00:07:26,680
+Então fui por aqui na proxima alunas vamos começar a trabalhar com os dados na inserir dados na tabela
+
+78
+00:07:26,710 --> 00:07:29,390
+consultar os dados e excluir alterar para lá.

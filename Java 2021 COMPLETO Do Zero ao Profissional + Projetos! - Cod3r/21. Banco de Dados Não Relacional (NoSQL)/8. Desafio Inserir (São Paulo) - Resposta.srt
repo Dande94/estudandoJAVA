@@ -1,0 +1,231 @@
+1
+00:00:00,560 --> 00:00:06,420
+Então vamos lá pessoal vocês já devem ter pesquisado e feito a tentativa de inserir o Estado.
+
+2
+00:00:06,420 --> 00:00:10,910
+Acredito que grande paz conseguiu fazer outras pessoas não conseguiram mais não tem problema.
+
+3
+00:00:10,940 --> 00:00:17,560
+Vai fazer exatamente esse exemplo agora vou começar limpando aqui o nosso terminal e vou começar a colocar
+
+4
+00:00:17,550 --> 00:00:19,270
+o bebê ponto estados.
+
+5
+00:00:19,280 --> 00:00:20,330
+Ponto Certo.
+
+6
+00:00:20,330 --> 00:00:28,190
+Você poderia usar o 6 ou 7 e aqui eu vou colocá lo no homem vai ser em São Paulo virgula sigla vai se
+
+7
+00:00:28,190 --> 00:00:36,530
+SP virgula região vai ser sudeste e agora eu vou abri aqui a rede de cidades e dentro dessa região vou
+
+8
+00:00:36,530 --> 00:00:42,740
+começar a inserir na primeira cidade que vai ser vai ter um andar mais de dois pontos e eu vou chamar
+
+9
+00:00:42,740 --> 00:00:45,950
+o Object Aydin chamando com uma função.
+
+10
+00:00:45,950 --> 00:00:51,580
+Essa função vai gerar um regime que vai ser do tipo Object Jardim vai associar pra esse atributo da
+
+11
+00:00:51,590 --> 00:01:01,460
+LAN aí vou colocar aqui o nome da cidade que vai ser Campinas vou colocar a área 795 7 vou colocar o
+
+12
+00:01:01,460 --> 00:01:05,480
+prefeito que é um atributo que não tinha em nenhuma outra cidade mais ou coloquei nessa sem problema
+
+13
+00:01:05,480 --> 00:01:12,500
+nenhum porque não tem esquema então posso ter parâmetros e atributos diferentes e cada um dos 12 objetos
+
+14
+00:01:12,500 --> 00:01:15,620
+usados em nos documentos que nós temos.
+
+15
+00:01:15,620 --> 00:01:21,300
+Vou colocar a população pra c 1 milhão e 81 mil habitantes.
+
+16
+00:01:21,350 --> 00:01:27,340
+Vou fechar aqui o primeiro objeto vou dar um amigo levar o segundo objeto segundo objeto o excesso de
+
+17
+00:01:27,350 --> 00:01:32,900
+velocidade que também vai ter uma ajudinha da linha que vai ser um objeto Jardim.
+
+18
+00:01:32,900 --> 00:01:39,690
+Vou colocar o nome e praça em Guarulhos vou colocar a população pra seu milhão 325 mil habitantes.
+
+19
+00:01:40,130 --> 00:01:46,250
+Vou fechar o objeto e abri o objeto da terceira cidade amanhã Object Jardim.
+
+20
+00:01:46,240 --> 00:01:48,430
+Vou colocar o nome pra ser Sorocaba.
+
+21
+00:01:48,680 --> 00:01:52,060
+Vou colocar distância capital 87.
+
+22
+00:01:52,430 --> 00:01:57,510
+Finalmente vou colocar a população 644 1919 habitantes.
+
+23
+00:01:57,530 --> 00:02:03,230
+Vou fechar esse objeto e fechá la Rei associado à rede de cidades.
+
+24
+00:02:03,230 --> 00:02:09,680
+Depois disso eu preciso fechar o objeto que representa o Estado como um todo e fechar a chamada da função
+
+25
+00:02:09,980 --> 00:02:10,640
+7.
+
+26
+00:02:10,660 --> 00:02:17,250
+Claro que se você usar uma ferramenta como roubo 3 TB Vai facilitar pra você que lançaram o roubo que
+
+27
+00:02:17,260 --> 00:02:18,120
+é essa ferramenta.
+
+28
+00:02:18,120 --> 00:02:21,560
+Um outro nome para o roubo longo e que agora virou roubo.
+
+29
+00:02:21,560 --> 00:02:27,140
+3 Tem essa pra mim também vai te ajudar se você quiser ter instalado ele está executando isso direto
+
+30
+00:02:27,140 --> 00:02:28,160
+na ferramenta.
+
+31
+00:02:28,160 --> 00:02:33,050
+Fica bem tranquilo que também há a possibilidade bastante interessante se quiser escrever isso dentro
+
+32
+00:02:33,050 --> 00:02:38,960
+da editora copiar e colar também uma possibilidade interessante de ser feitas a todo ele inseriu São
+
+33
+00:02:38,960 --> 00:02:46,460
+Paulo a gente pode colocar o cursor pra cima e olhar por exemplo estados pouco falado por aí e aí você
+
+34
+00:02:46,460 --> 00:02:53,870
+vai ter não só o Acre como você vai ter Alagoas como você vai ter o Rio de Janeiro com a cidade no caso
+
+35
+00:02:53,870 --> 00:02:54,770
+de Niterói.
+
+36
+00:02:54,770 --> 00:02:56,580
+Como você vai ter São Paulo.
+
+37
+00:02:56,660 --> 00:03:04,920
+São Paulo sigla SP Região Sudoeste cidades vai ter a primeira cidade no caso Campinas com seu auge já
+
+38
+00:03:05,250 --> 00:03:06,230
+criado.
+
+39
+00:03:06,290 --> 00:03:09,780
+Você vai de Guarulhos com o seu objetivo criado.
+
+40
+00:03:09,820 --> 00:03:17,060
+Você vai ter Sorocaba o seu objetivo criado é cada um com seus próprios atributos e o nome área prefeito
+
+41
+00:03:17,060 --> 00:03:23,320
+população nome e população e nome distância da capital e população coloca a população nos trens.
+
+42
+00:03:23,350 --> 00:03:29,000
+Pouco depois eu vou querer fazer um consulta para agregar as populações por estado e depois eventualmente
+
+43
+00:03:29,000 --> 00:03:30,260
+pegar tudo junto.
+
+44
+00:03:30,260 --> 00:03:35,450
+Por isso eu coloquei aqui a população nas três cidades como também coloquei a população aqui em Niterói
+
+45
+00:03:35,630 --> 00:03:40,420
+então a resposta do desafio pra mim seria a cidade de São Paulo ter respondido nesse vídeo.
+
+46
+00:03:40,430 --> 00:03:41,510
+Espero no próximo.
+
+47
+00:03:41,530 --> 00:03:45,310
+Aí você pode fazer o quê que eu faço aqui né.
+
+48
+00:03:45,350 --> 00:03:47,650
+Eu não posso pegar isso aqui.
+
+49
+00:03:47,720 --> 00:03:55,700
+Domingo contra o Zé vou lá aqui no desafio jogue por exemplo aqui logo depois do jogo contra o V pega
+
+50
+00:03:55,760 --> 00:04:00,610
+esses três pontos daqui como.
+
+51
+00:04:00,920 --> 00:04:06,580
+Ele vai selecionar todo mundo que tem três pontos e aí uma forma única tira se aqui e começa a formatar
+
+52
+00:04:06,740 --> 00:04:08,120
+essas primeiras.
+
+53
+00:04:08,140 --> 00:04:11,780
+Vai dar tudo até ao final da tabela aqui.
+
+54
+00:04:11,930 --> 00:04:19,780
+Isso aqui já foi e ainda é um tabu aqui na primeira cidade do Otávio aqui na segunda etapa e na terceira
+
+55
+00:04:19,790 --> 00:04:25,520
+crise que tá tudo formatado é exatamente aquilo que a gente precisa para inserir a cidade exatamente
+
+56
+00:04:25,520 --> 00:04:29,830
+a resposta que a gente usou para inserir o Estado de São Paulo.
+
+57
+00:04:29,830 --> 00:04:35,110
+E como já disse anteriormente se você tivesse feito aqui tivesse copiado jogado lá daria certo da mesma
+
+58
+00:04:35,110 --> 00:04:37,210
+forma na próxima hora a gente continua até lá.

@@ -1,0 +1,359 @@
+1
+00:00:00,140 --> 00:00:02,610
+Nós vamos agora falar sobre o app deixa o incerto.
+
+2
+00:00:03,060 --> 00:00:04,650
+Ele não tem o comando.
+
+3
+00:00:04,710 --> 00:00:08,990
+Você vai simplesmente inserir um novo dado na tabela do banco de dados.
+
+4
+00:00:08,990 --> 00:00:14,430
+O Select pode ou não ter ele e nesse sentido você vai simplesmente ler os dados.
+
+5
+00:00:14,430 --> 00:00:18,810
+Você pode querer filtrar ou não dependendo do volume da sua tabela na opinião daquele que você esteja
+
+6
+00:00:19,110 --> 00:00:21,870
+querendo obter dentro da sua consulta.
+
+7
+00:00:22,080 --> 00:00:29,710
+Mais o App Update é muito rara a situação que você vai fazer um update sem usar a cláusula o que significa
+
+8
+00:00:29,710 --> 00:00:33,790
+que se você fizer um update sem o erro você vai atualizar a tabela inteira.
+
+9
+00:00:33,790 --> 00:00:39,180
+Então vamos supor que você vai mudar o nome de um estado para colocá la sentido na palavra Maranhão
+
+10
+00:00:39,180 --> 00:00:45,930
+se você não colocar o R significa que você vai atualizar todos todas as linhas da tabela Pará Maranhão
+
+11
+00:00:46,200 --> 00:00:47,960
+e isso pode até gerar demissão.
+
+12
+00:00:48,000 --> 00:00:53,970
+Se você não tiver cuidado vai fazendo isso no ambiente crítico ambiente produtivo por exemplo fazer
+
+13
+00:00:53,970 --> 00:00:59,430
+um update seu web ou mesmo excluir dados sem o R significa que você vai apagar tudo.
+
+14
+00:00:59,430 --> 00:01:05,040
+Existem algumas proteções no próprio bem para você evitar esse tipo de coisa mas acredito que aqui diretamente
+
+15
+00:01:05,340 --> 00:01:10,170
+no visual o estúdio não vai ter essa proteção então cuidado para você não exclui aquele ambiente de
+
+16
+00:01:10,170 --> 00:01:14,120
+mau ambiente e tranquilo mas muito cuidado para você não confundir.
+
+17
+00:01:14,500 --> 00:01:19,930
+E eu me lembre teve um caso de uma pessoa que ele tinha duas máquinas uma máquina para o ambiente de
+
+18
+00:01:20,260 --> 00:01:25,720
+teste de desenvolvimento mal outra máquina e produção todas as luzes ligadas no banco de dados.
+
+19
+00:01:25,750 --> 00:01:31,680
+Ele sempre estava Machine ou depois mexia no outro Machine to Machine ou até que um dia ele confundiu
+
+20
+00:01:32,330 --> 00:01:37,830
+e fez um comando indevido no banco de produção e gerou um problema teve que parar o sistema trazer um
+
+21
+00:01:37,830 --> 00:01:39,050
+backup e coisas do tipo.
+
+22
+00:01:39,050 --> 00:01:46,290
+Então é muito crítico o fato de você usar comandos que geram modificações no banco sem você ter muito
+
+23
+00:01:46,290 --> 00:01:47,960
+cuidado naquilo que você está fazendo.
+
+24
+00:01:47,960 --> 00:01:55,140
+7 estavam lá criando um novo arquivo aqui e eu falei eu vou criar um arquivo chamado atualizar e estados
+
+25
+00:01:55,140 --> 00:02:02,460
+pombas Kelly nós vamos gerar aqui dois comandos de atualização bem simples updates o nome da tabela
+
+26
+00:02:02,950 --> 00:02:10,760
+e aqui dentro você vai colocar sete o nome do atributo o nome da coluna que você quer alterar recebe
+
+27
+00:02:10,850 --> 00:02:11,420
+o valor.
+
+28
+00:02:11,420 --> 00:02:13,220
+Maranhão com acento.
+
+29
+00:02:13,220 --> 00:02:18,620
+Nesse caso você simplesmente as tais como um comando válido ou seja atualize o Estado setor do nome
+
+30
+00:02:18,620 --> 00:02:24,360
+para o Maranhão sem nenhum critério sem nenhum filtro ele vai simplesmente atualizar tudo.
+
+31
+00:02:24,380 --> 00:02:31,040
+Nesse caso eu vou colocar Ué onde a sigla do estado é igual Maranhão nesse caso a sigla como é algo
+
+32
+00:02:31,040 --> 00:02:33,140
+único não tem repetição.
+
+33
+00:02:33,200 --> 00:02:38,770
+Eu vou garantir que colocando a sigla em mim vou selecionar apenas uma única coluna do banco de dados.
+
+34
+00:02:38,900 --> 00:02:43,340
+Eu poderia usar a chave primária mas eu teria que saiba exatamente qual é a chave primária de Maranhão
+
+35
+00:02:43,570 --> 00:02:44,710
+pra poder fazer isso.
+
+36
+00:02:44,720 --> 00:02:50,150
+é uma possibilidade mas eu sei que a sigla é única é a sigla de Maranhão e MG então não tem problema
+
+37
+00:02:50,150 --> 00:02:57,950
+nenhum executar o comando dessa forma então selecionado aqui como a lixívia vegetal dos estados onde
+
+38
+00:02:58,090 --> 00:03:00,950
+foi encontrada uma foi modificada.
+
+39
+00:03:00,950 --> 00:03:06,500
+Nós temos agora 0 advertência nesse último como era executado então aqui só pra gente ter certeza posso
+
+40
+00:03:06,500 --> 00:03:11,450
+fazer o Selection from estados
+
+41
+00:03:13,970 --> 00:03:24,820
+sido igual a mim então executado aqui contra o Chile e ele executou trouxe aqui Maranhão eu posso colocar
+
+42
+00:03:24,820 --> 00:03:33,270
+também com aspas duplas o texto então encontrou um chip que.
+
+43
+00:03:33,610 --> 00:03:41,440
+Nesse caso eu não posso usar aqui o Bétis para estribos contra o chicote e ele vai gerar um problema
+
+44
+00:03:41,440 --> 00:03:45,730
+ao Chelsea lecionar aqui contra o Chelsea.
+
+45
+00:03:46,050 --> 00:03:52,770
+Ele vai gerar um problema mas eu posso usar tanto do simples como aspas duplas mais aqui no meu nome
+
+46
+00:03:52,770 --> 00:03:55,550
+da coluna opostos ao Bexiga eu posso fazer isso.
+
+47
+00:03:55,720 --> 00:04:06,600
+Nome contra o chefe é aceitável ou Maranhão Ficha Limpa aqui e ali está novamente contra o Shift.
+
+48
+00:04:06,950 --> 00:04:12,610
+Ele trouxe de fato no Maranhão sem problema eu posso inclusive usar assim aos Estados.
+
+49
+00:04:12,690 --> 00:04:14,210
+Ponto nome.
+
+50
+00:04:14,880 --> 00:04:16,430
+Acertar contas.
+
+51
+00:04:16,950 --> 00:04:19,490
+Eu posso usar funciona normalmente me incomodo aqui.
+
+52
+00:04:19,490 --> 00:04:26,820
+Outra estratégia é você colocar por exemplo o Estado tem um apelido que é por exemplo e St.
+
+53
+00:04:26,870 --> 00:04:28,470
+Por exemplo está tudo certo.
+
+54
+00:04:28,700 --> 00:04:35,510
+Então posso usar esse apelido ilhas aqui pra chamar o nome do apelido da tabela pontuou.
+
+55
+00:04:35,540 --> 00:04:41,790
+O nome do cabo com os batizou seus objectivos também funciona normalmente selecionando aqui.
+
+56
+00:04:42,150 --> 00:04:50,450
+Ele trouxe de fato o Maranhão então continuando a fazer um outro updates updates e Estado citando nome
+
+57
+00:04:50,510 --> 00:05:00,400
+igual a Paraná vírgula ou população igual ao 11 ponto 32 milhões sigla igual a PR.
+
+58
+00:05:00,410 --> 00:05:07,330
+Nesse caso eu também estou fazendo algo deste usando uma cláusula ou seja eu estou filtrando pra fazer
+
+59
+00:05:07,340 --> 00:05:09,560
+atualização apenas naquilo que eu quero.
+
+60
+00:05:09,560 --> 00:05:16,440
+Nesse caso os totalizando 2 duas colunas a coluna nome e a coluna população posso quebrar duas linhas
+
+61
+00:05:16,520 --> 00:05:17,620
+sem problema nenhum.
+
+62
+00:05:17,830 --> 00:05:26,620
+Então selecionado então começa o update o nome da tabela 7 nome da coluna recebe o valor vírgula o nome
+
+63
+00:05:26,620 --> 00:05:32,830
+da coluna recebe o valor usa apenas um único set esse 7 pode ser letra maiúscula pode ser letra minúscula
+
+64
+00:05:33,160 --> 00:05:39,880
+sem problema nenhum e colocando a cláusula pra filtrar exatamente a coluna que eu quero atualizar.
+
+65
+00:05:39,880 --> 00:05:44,860
+Normalmente você vai acabar usando a chave primária mas nesse caso eu usei a sigla porque também é um
+
+66
+00:05:44,860 --> 00:05:45,810
+valor único.
+
+67
+00:05:45,820 --> 00:05:53,230
+Então selecionando aqui contra o chefe de Estado ele disse que esse comando encontrou unia e fez a mudança
+
+68
+00:05:53,230 --> 00:05:54,200
+de uma única linha.
+
+69
+00:05:54,340 --> 00:05:57,920
+E nesse caso não gerou nenhuma advertência funcionou normalmente.
+
+70
+00:05:57,920 --> 00:06:01,780
+Posso estar apaixonado também aqui embaixo só pra gente se apaixonar.
+
+71
+00:06:02,090 --> 00:06:10,450
+Nesse caso vou colocar a sigla PR e vou trazer não só o Estado vou trazer também a sigla e vou trazer
+
+72
+00:06:10,450 --> 00:06:16,780
+também a população como eu tenho apenas uma única tabela embora tenha colocado eles eu não sou obrigado
+
+73
+00:06:16,780 --> 00:06:23,080
+a colocar o Elias nas colunas sociais eu posso ter certa flexibilidade quando você tem múltiplas tabelas
+
+74
+00:06:23,080 --> 00:06:29,650
+sendo usados na mesma consulta aí sim o apelido vai ser importante principalmente quando tem conflito
+
+75
+00:06:29,650 --> 00:06:35,340
+de colunas por exemplo você tem uma tabela chamado Estado tem uma coluna chamada nome e tem uma tabela
+
+76
+00:06:35,350 --> 00:06:38,150
+chamar a cidade e a cidade também tem um nome.
+
+77
+00:06:38,410 --> 00:06:44,050
+Quando você juntar essas duas tabelas numa única consulta você vai ter duas colunas com o mesmo nome.
+
+78
+00:06:44,530 --> 00:06:49,840
+Nesse caso você dá a cara na referência a o nome do Estado ou o nome da cidade aí vai ser importante
+
+79
+00:06:49,840 --> 00:06:56,200
+você usar esses apelidos para partir desses apelidos você tem a possibilidade de dizer exatamente qual
+
+80
+00:06:56,200 --> 00:07:02,550
+é a coluna de qual tabela que você está tentando selecionar determinada consultar então só quebra naquilo
+
+81
+00:07:02,930 --> 00:07:05,620
+e mais de um dia para ficar um pouco mais legível.
+
+82
+00:07:05,620 --> 00:07:09,670
+Nós temos aqui selecionar Paraná de fato ele colocou assim do Paraná.
+
+83
+00:07:09,670 --> 00:07:15,160
+E de fato ele atualizou a população para 11 milhões e 320 mil habitantes.
+
+84
+00:07:15,160 --> 00:07:21,910
+Ficamos aqui no 10 e na próxima vez vamos ver o belo então preste atenção em relação às a sintaxe que
+
+85
+00:07:21,910 --> 00:07:22,870
+é muito importante.
+
+86
+00:07:22,870 --> 00:07:31,440
+Então por exemplo ao certo o nome da tabela e no caso do Salete aqui no Sporting também aqui Selection
+
+87
+00:07:31,630 --> 00:07:38,590
+as colunas from estado e no caso do update simplesmente rapidamente o nome da tabela está nos valores
+
+88
+00:07:38,650 --> 00:07:44,740
+e fazendo o filtro no final aproximar mais o museu delete ver também como funciona a sintaxe dele é
+
+89
+00:07:44,740 --> 00:07:50,080
+mais parecida com Selection só que você não vai formar as colunas e a gente continuou na próxima aula
+
+90
+00:07:50,130 --> 00:07:50,700
+eles estarão lá.

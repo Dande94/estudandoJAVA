@@ -1,0 +1,415 @@
+1
+00:00:00,320 --> 00:00:06,600
+Nessa aula nós vamos configurar um projeto Espinho Bute e vocês vão perceber que a forma como a gente
+
+2
+00:00:06,600 --> 00:00:11,250
+vai criar um projeto de Spring but é bem diferente do que a gente fez até então que é que a gente fazia
+
+3
+00:00:11,520 --> 00:00:12,750
+até esse momento do curso.
+
+4
+00:00:12,750 --> 00:00:18,680
+A gente chegava aqui naquele clicar com o botão direito e aí você tinha o Java hoje tinha gente criar
+
+5
+00:00:18,680 --> 00:00:20,430
+um projeto a partir do próprio clipe.
+
+6
+00:00:20,430 --> 00:00:27,750
+Nesse caso nós vamos criar o nosso projeto a partir de um serviço disponibilizado na web ou seja uma
+
+7
+00:00:27,750 --> 00:00:33,450
+página que o Expressinho disponibiliza para a gente inclusive quando você tem as integrações as ideias
+
+8
+00:00:33,720 --> 00:00:35,580
+criando um projeto distribuído.
+
+9
+00:00:35,580 --> 00:00:43,760
+Eles também usam por baixo esse serviço desse site que aqui nós temos a página Start ponto e Spring
+
+10
+00:00:43,770 --> 00:00:44,570
+pontuais.
+
+11
+00:00:45,210 --> 00:00:51,140
+Esse é um formulário bem simples que a gente vai preencher para criar o nosso projeto.
+
+12
+00:00:51,140 --> 00:00:56,940
+Basicamente se você não fizer nada toda a configuração já está feita para o local certo.
+
+13
+00:00:56,940 --> 00:01:02,280
+A gente está usando aqui a versão 2 Ponto 2 ponto 5 que é a última versão disponível você pode usar
+
+14
+00:01:02,280 --> 00:01:07,550
+outras versões que está aqui em Beta 7 inovações que não são a versão final.
+
+15
+00:01:07,600 --> 00:01:08,780
+O vocal selecionado.
+
+16
+00:01:08,790 --> 00:01:14,010
+Na verdade não vou deixar a opção padrão meio bem pra gente mas vamos entender em outra louca que significa
+
+17
+00:01:14,120 --> 00:01:19,580
+bem nós vamos selecionar a linguagem Java dá pra usar cobrem também uma linguagem bastante legal nós
+
+18
+00:01:19,590 --> 00:01:25,800
+temos um custo de cópia dentro da conta que ele acrescentou muitas funcionalidades interessantíssimo
+
+19
+00:01:25,800 --> 00:01:31,740
+mas dentro do Java e ele consegue operar junto com o Java de forma intercambiável ou seja você pode
+
+20
+00:01:31,740 --> 00:01:38,220
+ter um projeto Java e colocar Cole dentro de um projeto Java sem grandes problemas é muito fácil para
+
+21
+00:01:38,220 --> 00:01:39,510
+mim trabalhar com cautela.
+
+22
+00:01:39,710 --> 00:01:44,490
+E ele acrescenta algumas coisas bem interessante para onde vai trabalhar com Java colocando aqui a versão
+
+23
+00:01:44,490 --> 00:01:50,680
+2 Ponto 2 ponto 5 o grupo novamente você coloca o domínio na empresa que eu vou colocá lo.
+
+24
+00:01:50,700 --> 00:01:55,440
+Posso deixar com conta que exemplo não tem problema nenhum se você não quiser mexer não tem problema
+
+25
+00:01:55,800 --> 00:02:00,380
+eu vou colocar aqui só pra contextualizar então br.
+
+26
+00:02:00,390 --> 00:02:08,540
+Ponto com outro alguém ou então poderia ser ai ou conto corretamente tem esse domínio e a relacao bem
+
+27
+00:02:08,540 --> 00:02:12,170
+como eu vou colocar exercícios.
+
+28
+00:02:12,240 --> 00:02:20,520
+A gente já tem um projeto chamado exercícios aqui para aqueles exercícios e eu vou colocar exercícios
+
+29
+00:02:20,660 --> 00:02:27,310
+SB seria de sprint e Butch tá tudo junto pra diferenciar o que a gente tinha antes.
+
+30
+00:02:27,330 --> 00:02:33,570
+Na verdade a gente pode até colocar exercícios traço PSB e aqui nas opções a gente pode dizer que o
+
+31
+00:02:33,570 --> 00:02:39,750
+nome do pacote vai ser só exercícios ou exercícios SB sem um traço.
+
+32
+00:02:39,750 --> 00:02:44,030
+Então você tem algumas opções aqui ou aqui vai ser o nome do projeto.
+
+33
+00:02:44,070 --> 00:02:49,960
+é aí que a gente pode colocar Zé Sessions
+
+34
+00:02:52,700 --> 00:03:02,270
+Spring Building do curso cobra não necessariamente você precisa se preocupar em mexer isso aqui.
+
+35
+00:03:02,490 --> 00:03:09,870
+Então essas opções aqui são opcionais e eu coloquei o artefato que o direto com o identificador do projeto
+
+36
+00:03:09,870 --> 00:03:13,200
+que vai gerar também o nosso projeto que seria o grupo do projeto.
+
+37
+00:03:13,270 --> 00:03:17,690
+Isso aqui são alguns detalhes do meio que eu nem vou entrar muito no mérito da questão mas o que para
+
+38
+00:03:17,700 --> 00:03:21,060
+pra você entender como se fosse identificadores do projeto.
+
+39
+00:03:21,130 --> 00:03:26,560
+Aqui o grupo normalmente você define o grupo dentro de uma empresa ou um grupo de produtos dentro de
+
+40
+00:03:26,560 --> 00:03:31,800
+uma empresa você define esse identificador que representa um grupo dentro do grupo você pode ter vários
+
+41
+00:03:31,800 --> 00:03:38,220
+artefatos e esses artefatos representam um dos projetos certo aqui no caso eu coloquei exercícios traço
+
+42
+00:03:38,250 --> 00:03:38,890
+SB.
+
+43
+00:03:39,000 --> 00:03:45,720
+Na prática ele vai acabar gerando um pacote com esse nome que baseado no grupo e no artefato entra assim
+
+44
+00:03:45,720 --> 00:03:52,200
+que medem organizam os projetos para que você possa eventualmente usar um outro projeto como base para
+
+45
+00:03:52,200 --> 00:03:53,240
+o seu projeto.
+
+46
+00:03:53,340 --> 00:03:57,660
+A gente vai falar rapidamente no meio vocês vão ver que ele não vai atrapalhar em nada.
+
+47
+00:03:57,660 --> 00:04:02,460
+Na verdade ele vai ajudar a gente a ter mais produtividade porque a gente não vai precisar se preocupar
+
+48
+00:04:02,820 --> 00:04:06,960
+em baixar as dependências porque ele faz isso automaticamente para a gente eu vou mostrar um pouquinho
+
+49
+00:04:06,960 --> 00:04:14,790
+mais na frente legal então basicamente eu não mexi aqui não mexi aqui Mexia aqui só porque ele quis
+
+50
+00:04:14,830 --> 00:04:20,970
+mas eu não necessariamente precisaria ter mexido Mexia aqui também colocando o nome do nosso projeto
+
+51
+00:04:21,420 --> 00:04:27,930
+aqui embaixo só coloquei a descrição também não é obrigatório e mudei aqui o pacote pra não ter um hífen
+
+52
+00:04:27,930 --> 00:04:29,590
+então não quero que meu pacote tenha ele.
+
+53
+00:04:29,820 --> 00:04:36,300
+Então eu coloquei essa foto vou deixar que o Java 8 que é a opção padrão e agora sim a gente vai precisar
+
+54
+00:04:36,420 --> 00:04:43,390
+adicionar algumas dependências e eu vou querer adicionar o mínimo de dependências possíveis nessa aula
+
+55
+00:04:43,410 --> 00:04:50,190
+positiva acrescentando novas dependências por exemplo leva a gente a usar JP já que nesse capítulo vamos
+
+56
+00:04:50,190 --> 00:04:57,830
+nós vamos persistir os nossos dados no mais Kelly então pra usar o JP eu precisaria colocar uma dependência
+
+57
+00:04:57,870 --> 00:05:03,850
+chamada JP a que tem uns Deira J Bial marcaria essa dependência.
+
+58
+00:05:04,050 --> 00:05:06,800
+Quero usar mas quero que ele coloque mais que ele.
+
+59
+00:05:07,010 --> 00:05:09,540
+E ele vai trazer o drive do mais quente para a gente.
+
+60
+00:05:09,540 --> 00:05:13,890
+Mas eu não quero por enquanto nem usar jato para nem usar o mais quero.
+
+61
+00:05:13,890 --> 00:05:16,780
+Nós vamos começar só a desenvolver nos nossos observa.
+
+62
+00:05:17,070 --> 00:05:21,420
+Para mais à frente tem que integrar isso vocês vão perceber que a gente vai conseguir integrar de uma
+
+63
+00:05:21,420 --> 00:05:22,710
+forma muito fácil.
+
+64
+00:05:22,740 --> 00:05:27,620
+Se você clicar aqui e ali a gente perca análogo Globo clicar aqui onde dessa lista você vai ver uma
+
+65
+00:05:27,630 --> 00:05:31,340
+lista de todas as dependências que é possível configurar.
+
+66
+00:05:31,380 --> 00:05:36,590
+A partir dessa esse formulário e a gente vai selecionar duas dependências.
+
+67
+00:05:36,600 --> 00:05:44,520
+A primeira skill é Spring but deve tudo que é uma ferramenta para desenvolvimento que vai nos ajudar.
+
+68
+00:05:44,530 --> 00:05:50,670
+Aí ele vai ficar fazendo o relógio automático da nossa aplicação por exemplo não preciso parar a aplicação
+
+69
+00:05:51,090 --> 00:05:56,100
+e iniciar de novo pra ter o código mais atualizado ele vai fazer isso automaticamente para a gente ele
+
+70
+00:05:56,100 --> 00:06:03,680
+diz que na descrição promover um restart da aplicação de forma rápida com LED e no livro Loud.
+
+71
+00:06:03,690 --> 00:06:08,790
+Essa aplicação está funcionando e automaticamente ele vai dando o relógio na aplicação para sempre ter
+
+72
+00:06:08,790 --> 00:06:10,450
+o código mais atualizado.
+
+73
+00:06:10,500 --> 00:06:16,260
+Então a gente vai precisar dessa dependência que a dependência que só vai servir durante o processo
+
+74
+00:06:16,260 --> 00:06:18,890
+de desenvolvimento com a nossa aplicação para produção.
+
+75
+00:06:18,890 --> 00:06:24,750
+Essa dependência não irá junto exatamente porque ela não é necessária e a outra dependência que a gente
+
+76
+00:06:24,750 --> 00:06:25,350
+precisa.
+
+77
+00:06:25,350 --> 00:06:32,660
+Vai ser o experiente Webby que a gente vai construir APIs na web services usando o padrão Fifa.
+
+78
+00:06:32,990 --> 00:06:38,630
+Não vou clicar aqui e a gente vai ter o nosso Spring Web também como a.
+
+79
+00:06:38,630 --> 00:06:44,720
+Você tanto pode selecionando por aqui como você pode vim aqui colocar aqui um texto para pesquisar que
+
+80
+00:06:44,730 --> 00:06:51,260
+ele vai mostrar que tem aquele texto não é só colocar Half de autenticação vai mostrar o hotel Experience
+
+81
+00:06:51,270 --> 00:06:54,170
+que o geek vai te ajudar na parte de autenticação.
+
+82
+00:06:54,170 --> 00:06:59,410
+A gente não vai adicionar isso agora mas a gente já tem as nossas duas dependências selecionadas aqui
+
+83
+00:06:59,560 --> 00:07:05,150
+Selecta apenas no caso e o espírito de Bush débitos e Spring web.
+
+84
+00:07:05,520 --> 00:07:11,990
+Então com isso a gente explica que em janeiro ele vai baixar um arquivo ZIP certo.
+
+85
+00:07:12,330 --> 00:07:18,200
+Se você quiser por exemplo abrir aqui um novo estático Spring contrário.
+
+86
+00:07:18,270 --> 00:07:24,270
+Se você quiser pegar exatamente tudo o que tem por padrão é a única coisa que você vai precisar fazer
+
+87
+00:07:24,290 --> 00:07:33,450
+para de fato nosso capitão funcionar e escrever web aqui é adicionar e escrever vi que ele vai trazer
+
+88
+00:07:33,450 --> 00:07:34,680
+o débito e adicionar.
+
+89
+00:07:34,740 --> 00:07:39,660
+é só isso que precisa ser feito para você baixar o projeto e ter tudo o que a gente precisa o capital.
+
+90
+00:07:39,750 --> 00:07:45,930
+Outras coisas que eu mexi foi só coisas secundárias como o nome do grupo o nome do artefacto e algumas
+
+91
+00:07:45,930 --> 00:07:51,900
+opções aqui mexendo o nome do pacote e coloca na descrição tamanho certo do resto.
+
+92
+00:07:51,930 --> 00:07:57,360
+A única coisa que realmente é importante é colocar essas duas dependências e baixar o projeto uma vez
+
+93
+00:07:57,360 --> 00:07:58,800
+que eu baixe o projeto.
+
+94
+00:07:58,800 --> 00:08:02,920
+A gente tem um projeto que eu abri.
+
+95
+00:08:02,990 --> 00:08:09,070
+Se eu entrar em Londres a gente tenha que esse artigo.
+
+96
+00:08:09,180 --> 00:08:15,450
+Eu tenho esse projeto publicado às vezes e ele vai desse compacto da pasta à pasta.
+
+97
+00:08:15,450 --> 00:08:21,960
+Você pode colocar em qualquer local não precisa colocar dentro da parte do PS mas eu vou colocar dentro
+
+98
+00:08:21,960 --> 00:08:27,420
+do PS só para a gente ter o nosso projeto mais organizado então eu tenho um curso Java.
+
+99
+00:08:27,570 --> 00:08:32,450
+é a nossa parte de trabalho e eu vou copiar esse projeto aqui.
+
+100
+00:08:32,730 --> 00:08:40,200
+Exercícios SB para dentro da nossa pasta e cursos d'água aqui dentro vou colocar mas não é obrigatório
+
+101
+00:08:40,200 --> 00:08:42,200
+você não precisa morrer para esse.
+
+102
+00:08:42,560 --> 00:08:48,240
+E na próxima aula vou mostrar pra vocês Como é que a gente vai importar esse projeto dentro do eclipse.
+
+103
+00:08:48,240 --> 00:08:50,960
+A gente criou um projeto compacto aqui.
+
+104
+00:08:50,970 --> 00:08:56,010
+Agora gente precisa importar cliente para que a gente possa usar o projeto dentro da nossa ideia.

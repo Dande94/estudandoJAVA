@@ -1,0 +1,163 @@
+1
+00:00:00,140 --> 00:00:05,900
+Continuando a nossa exploração na do Java vou falar sobre uma classe muito importante muito usada que
+
+2
+00:00:05,900 --> 00:00:15,660
+é a classe média ou clicar com o botão direito do mouse Kim Il Class e o pacote vai Ceapi é o nome da
+
+3
+00:00:15,660 --> 00:00:24,860
+classe C explorando a classe média é uma classe que possui vários e vários métodos estáticos ou seja
+
+4
+00:00:24,860 --> 00:00:30,710
+você não precisa criar uma instância de mérito para usar os métodos que estão contidos dentro dessa
+
+5
+00:00:30,710 --> 00:00:37,280
+classe média você vai encontrar métodos como seno cosseno tangente log e vários outros mostra alguns
+
+6
+00:00:37,280 --> 00:00:43,280
+aqui diferente desses que eu acabei de citar a System Audio Principle MF.
+
+7
+00:00:44,180 --> 00:00:50,990
+Ele vai te dar o velho 3,14 você não precisa criar essa constante o próprio Mac já tem ela certa inclusive
+
+8
+00:00:50,990 --> 00:00:52,780
+tem outras constantes não só o pi.
+
+9
+00:00:52,880 --> 00:01:01,180
+Agora nós vamos ver exponenciação que é o método Power Mafra ponto 2 e 3 como parâmetro.
+
+10
+00:01:01,190 --> 00:01:07,390
+Então o 2 é a base é o 3 é o expoente que está aqui o resultado vai dar 8 certo.
+
+11
+00:01:08,020 --> 00:01:15,360
+Eu tenho também dentro de mim o método absoluto que você passa o valor se ele for positivo ele retorna
+
+12
+00:01:15,380 --> 00:01:20,050
+para o valor se o valor for negativa ele pega aquele valor e retorna ele como positivo.
+
+13
+00:01:20,120 --> 00:01:26,510
+Trapaça é 10 pontos 5 ou 10 pontos sendo positivo que ele não me dá o valor absoluto.
+
+14
+00:01:26,510 --> 00:01:33,530
+A classe média também tem um método útil que é o método ponto que ele vai pegar dois valores vai tornar
+
+15
+00:01:33,530 --> 00:01:40,970
+o menor valor em vez de você ter que fazer um teste se o valor for maior do que o território se for
+
+16
+00:01:40,970 --> 00:01:41,700
+menor.
+
+17
+00:01:41,770 --> 00:01:47,360
+Outro aqui automaticamente já faz esse teste para você internamente e retorna um valor menor se você
+
+18
+00:01:47,360 --> 00:01:50,690
+quer pagar o menor valor de 2 ele já tem esse método.
+
+19
+00:01:50,690 --> 00:01:57,110
+Da mesma forma como ele tem um método que pega o maior valor entre 2 possíveis ataque ao ato ou não
+
+20
+00:01:57,120 --> 00:02:04,550
+no primeiro caso o menor valor é 7 no segundo caso o maior valor é 70 que serve isso para números positivos
+
+21
+00:02:04,550 --> 00:02:05,260
+e negativos.
+
+22
+00:02:05,260 --> 00:02:11,560
+Continuando a falar um pouquinho sobre arredondamento o primeiro Metro Barra não dá o número pra cima
+
+23
+00:02:11,600 --> 00:02:19,730
+então tirou 6 pontos 55 o professor aplica esse método automaticamente ele vai pra sétimo professor
+
+24
+00:02:20,150 --> 00:02:27,860
+gente fina que não quer provar o cara mas tem um professor otário que não dá pra basta que é o 6 ponto
+
+25
+00:02:27,960 --> 00:02:32,370
+55 ele vai pro por fora e puxão.
+
+26
+00:02:32,390 --> 00:02:39,990
+E aí seria o 6 e aí o cara muito muito otário que vai botar o cara pra fazer afinal entrar em recuperação
+
+27
+00:02:40,010 --> 00:02:40,610
+se for o caso.
+
+28
+00:02:40,670 --> 00:02:42,750
+Beleza continuado.
+
+29
+00:02:42,800 --> 00:02:50,240
+Mais um exemplo System Audio mestre Wendel que é pra executar um valor aleatório cada vez que ele gera
+
+30
+00:02:50,240 --> 00:03:00,610
+um valor entre 0 e 1 aleatoriamente são 44 2 9 2 50 86 10.
+
+31
+00:03:00,620 --> 00:03:05,870
+Ele vai gerando de forma aleatória e como você deve ter percebido eu não precisei criar uma instância
+
+32
+00:03:06,130 --> 00:03:11,010
+em nenhum momento para usar esses métodos porque todos eles são métodos estáticos.
+
+33
+00:03:11,120 --> 00:03:16,040
+Eu chamo a classe por outro nome do método diretamente sem precisar criar uma instância.
+
+34
+00:03:16,160 --> 00:03:23,330
+Se você quiser continuar explorando a classe média basta você selecionar um ponto e você vai ver a quantidade
+
+35
+00:03:23,330 --> 00:03:25,190
+de metros que é muito grande.
+
+36
+00:03:25,250 --> 00:03:29,300
+Muitos métodos que provavelmente vão ser úteis em algum momento para você.
+
+37
+00:03:29,510 --> 00:03:32,300
+Por enquanto eu vou comentar aqui.
+
+38
+00:03:32,480 --> 00:03:39,080
+Esses são métodos que eu considero bastante usados no andamento comparar dois números valor absoluto
+
+39
+00:03:39,770 --> 00:03:45,750
+o expõe o numero gerar um numero randômico todos esses aqui são muito úteis no dia a dia.
+
+40
+00:03:45,770 --> 00:03:51,150
+Meu conselho é que você possa explorar um pouco mais a da classe média fazendo outros exemplos e não
+
+41
+00:03:51,230 --> 00:03:53,930
+olhar o que é que tem disponível pra você usá la.

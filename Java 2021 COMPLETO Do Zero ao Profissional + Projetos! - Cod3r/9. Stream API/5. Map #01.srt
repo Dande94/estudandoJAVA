@@ -1,0 +1,371 @@
+1
+00:00:00,190 --> 00:00:03,960
+Só nessa hora vão falar sobre a teoria do método MAP.
+
+2
+00:00:03,960 --> 00:00:07,270
+é importante essa gente aplicar esses métodos.
+
+3
+00:00:07,300 --> 00:00:14,430
+Eu fala um pouquinho como esses métodos se comportam na prática e como a gente pode usar esses métodos
+
+4
+00:00:14,430 --> 00:00:19,860
+de formas diferentes eu vou tentar focar em exemplos mais simples na prática vocês vão ver algumas outras
+
+5
+00:00:19,860 --> 00:00:22,640
+possibilidades pra trabalhar com o Mac.
+
+6
+00:00:22,650 --> 00:00:28,100
+Inicialmente eu vou aqui de forma visual tentar representar o que seria um instrumento de dados então
+
+7
+00:00:28,090 --> 00:00:33,810
+imagina esse tipo de dados como uma sequência de dados uma lista estão aí então você tem um conjunto
+
+8
+00:00:33,810 --> 00:00:40,530
+de dados e esses dados serão processados à medida que essa isto for sendo consumida então por exemplo
+
+9
+00:00:40,890 --> 00:00:48,600
+vou pegar o exemplo que você vai ter vários números e então você tem aquele número 3 numero 1 o número
+
+10
+00:00:48,600 --> 00:00:58,800
+7 o número 4 o número 6 o número 5 o número 8 número 10 o número 9.
+
+11
+00:00:58,860 --> 00:01:06,450
+Então você tem uma sequência de números e você quer aplicar uma transformação usando então que eu vou
+
+12
+00:01:06,450 --> 00:01:08,010
+usar um Mac.
+
+13
+00:01:08,100 --> 00:01:10,310
+E aí o que é que basicamente o MAC vai fazer.
+
+14
+00:01:10,380 --> 00:01:18,360
+O Mac ele é você vai definir uma função para o Mac passar um lambe deques para baixo a referência para
+
+15
+00:01:18,360 --> 00:01:19,350
+o método.
+
+16
+00:01:19,430 --> 00:01:27,240
+Ele vai usar essa função para transformar cada um dos elementos de tal forma que será gerado um outro
+
+17
+00:01:27,240 --> 00:01:39,390
+Mac exato um outro o outro isto é melhor dizendo exatamente do mesmo tamanho 2 3 4 5 6 7 8 1 2 3 4 5
+
+18
+00:01:39,390 --> 00:01:44,190
+6 7 8 9 1 2 3 4 5 6 7 8 9.
+
+19
+00:01:44,610 --> 00:01:52,860
+Então o MAC vai pegar um time de 9 elementos vai gerar um outro time de 9 elementos e você vai usar
+
+20
+00:01:52,950 --> 00:01:53,390
+alguma.
+
+21
+00:01:53,390 --> 00:02:00,330
+Você vai passar melhor dizendo uma função para o Mac que será responsável por mapear o elemento original
+
+22
+00:02:00,330 --> 00:02:02,730
+do elemento que você quer gerar a nova historinha.
+
+23
+00:02:03,180 --> 00:02:07,510
+Então vamos supor que eu passe a seguinte expressão vou colocar aqui em azul.
+
+24
+00:02:07,710 --> 00:02:11,480
+Você vai receber um elemento que pode ser a letra a letra.
+
+25
+00:02:11,490 --> 00:02:13,830
+Tanto faz ou não coloca aqui.
+
+26
+00:02:13,950 --> 00:02:18,750
+E o elemento é o parâmetro que eu vou receber e o que eu quero fazer.
+
+27
+00:02:18,840 --> 00:02:25,470
+Nessa minha lambreta é pegar o elemento e multiplicar esse elemento por dois.
+
+28
+00:02:26,010 --> 00:02:29,140
+Ou seja essa vai ser a minha função.
+
+29
+00:02:29,210 --> 00:02:36,000
+O meu método ou a minha lâmina o responsável por transformar os dados então internamente ele já vai
+
+30
+00:02:36,000 --> 00:02:41,760
+fazer o laço para mim e vai aplicar essa função pegar no valor original que está na extrema original
+
+31
+00:02:42,130 --> 00:02:45,300
+aplicar essa função e gerar cada elemento novo.
+
+32
+00:02:45,300 --> 00:02:48,270
+Seguindo essa fórmula de transformação.
+
+33
+00:02:48,270 --> 00:02:54,810
+O MAC na verdade é uma função que vai te ajudar a transformar um estrutura de dados em um outro time
+
+34
+00:02:54,810 --> 00:03:01,020
+de dados do mesmo tamanho só que com os dados transformados ou seja com os dados mapeados e qual é a
+
+35
+00:03:01,020 --> 00:03:03,270
+regra para mapear esses dados.
+
+36
+00:03:03,270 --> 00:03:10,230
+A regra é exatamente a expressão que você vai usar para transformar a função que você vai usar para
+
+37
+00:03:10,230 --> 00:03:12,560
+transformar esse pode ser uma lâmina.
+
+38
+00:03:12,580 --> 00:03:16,600
+Paixão pode ser uma função Metro aquilo que você queira passar.
+
+39
+00:03:16,830 --> 00:03:22,290
+Então nesse caso como é o elemento multiplicado por dois eu tenho 3 multiplicado por dois.
+
+40
+00:03:22,290 --> 00:03:36,870
+Eu votei seis aqui eu vou ter um explicado com o 2 vai ser 2 7 vai ser 14 em 4 8 12 10 16 vai ser 20
+
+41
+00:03:37,050 --> 00:03:44,450
+e finalmente 18 ou seja você fez uma transformação dessas de dados em sequência de dados para outra
+
+42
+00:03:44,490 --> 00:03:48,740
+sequência aplicando o MEP usando essa lambda fecho.
+
+43
+00:03:49,200 --> 00:03:53,300
+Eu quero fazer agora outra transformação posso aplicar um outro médico.
+
+44
+00:03:53,350 --> 00:04:00,930
+Pode se aplicar quantos metros você precisar em sequência já que o resultado de um Mac como sendo a
+
+45
+00:04:01,260 --> 00:04:04,370
+operação intermediária gera um novo isto aí.
+
+46
+00:04:04,860 --> 00:04:07,630
+Então aqui eu vou aplicar um outro Mac.
+
+47
+00:04:07,890 --> 00:04:15,450
+Só que agora a minha lógica vai ser o seguinte eu vou pegar o elemento e vou pagar pela muito menos
+
+48
+00:04:15,560 --> 00:04:16,280
+dois.
+
+49
+00:04:16,290 --> 00:04:18,540
+Essa vai ser a minha regra de transformação.
+
+50
+00:04:18,660 --> 00:04:31,440
+Então eu vou gerar também aqui um outro time de dados que vai ter 2 3 4 5 6 7 8 9 elementos e aí para
+
+51
+00:04:31,440 --> 00:04:38,460
+aplicar aqui é lógico vai ser o seguinte o elemento muito menos 2 seja essa vai ser a minha expressão
+
+52
+00:04:38,460 --> 00:04:45,060
+de transformação a expressão de mapeamento um elemento no outro sempre o MAC vai gerar um time de mesmo
+
+53
+00:04:45,060 --> 00:04:52,390
+tamanho com todos os dados modificados de acordo com essa expressão aqui exatamente aquilo que você
+
+54
+00:04:52,390 --> 00:04:54,110
+recebe como parâmetro.
+
+55
+00:04:54,150 --> 00:04:59,850
+Cada um dos elementos ou seja um fole o laço ou seja percorrer cada elemento é resolvido internamente
+
+56
+00:05:00,450 --> 00:05:05,660
+então é menos 2 então 6 menos 2 O valor vai ser 4 2.
+
+57
+00:05:05,710 --> 00:05:17,070
+O valor vai ser 0 14 12 8 base 6 10 8 14 dias 8 e 16.
+
+58
+00:05:17,070 --> 00:05:19,940
+Ou seja você pode alterar aplicar agora um outro método.
+
+59
+00:05:20,310 --> 00:05:27,030
+Não tem problema você vai lá e coloca um outro Mac pra você transformar o jeito que você quiser inclusive
+
+60
+00:05:27,090 --> 00:05:35,280
+você pode ter situações do tipo ai eu tenho aqui 100 por exemplo de 4 posições e dentro dessa área eu
+
+61
+00:05:35,290 --> 00:05:36,510
+tenho um objeto.
+
+62
+00:05:36,870 --> 00:05:43,590
+Então você tem por exemplo aqui um objeto um objeto um objeto um objeto uns poucos e até um produto
+
+63
+00:05:43,940 --> 00:05:47,190
+e esse produto tem o nome e tem um preço.
+
+64
+00:05:47,190 --> 00:05:50,130
+Tem um nome tem um preço tem o nome e tem um preço.
+
+65
+00:05:50,130 --> 00:05:51,800
+Tem um nome pra isso.
+
+66
+00:05:51,900 --> 00:05:56,880
+Como é que você poderia fazer um Mac pra extraí apenas os nomes dos produtos.
+
+67
+00:05:56,940 --> 00:06:02,500
+Muito fácil você tem aqui onde você vai aplicar um Mac pra esse novo estudo aqui.
+
+68
+00:06:02,610 --> 00:06:07,080
+Certo Ele vai gerar um estudo com o mesmo tamanho de quatro posições.
+
+69
+00:06:07,140 --> 00:06:14,730
+Então coloca aqui e aqui também eu estou aplicando o MAC é a minha lógica vai ser o seguinte eu vou
+
+70
+00:06:14,730 --> 00:06:22,290
+receber um determinado elemento que eu posso chamar de diário x vou chamar aqui ou então respondi B
+
+71
+00:06:22,370 --> 00:06:27,930
+que seria o meu produto e aí o resultado da minha transformação SPH o P.
+
+72
+00:06:28,140 --> 00:06:29,720
+Ponto nome.
+
+73
+00:06:30,200 --> 00:06:33,570
+Ou então B contou Guedes nome dependendo da situação.
+
+74
+00:06:33,570 --> 00:06:39,840
+Ou seja eu tinha um produto e transformei o nome do produto de tal forma que aquilo tinha um objeto
+
+75
+00:06:39,840 --> 00:06:51,360
+mais o que sobrou aqui foi o nome do produto Labs por exemplo aqui eu tenho dois bugs por exemplo tenho
+
+76
+00:06:51,360 --> 00:06:53,940
+aqui um caderno
+
+77
+00:06:56,870 --> 00:06:59,180
+e tenho aqui caneta
+
+78
+00:07:03,260 --> 00:07:09,950
+ou seja tinha um objeto que tinha outros atributos nome preço desconto e outras coisas a mais eu peguei
+
+79
+00:07:10,100 --> 00:07:16,330
+uma função de transformação que pega apenas o nome desse produto e joga pra dentro de um outro estudo
+
+80
+00:07:16,390 --> 00:07:17,840
+que aqui eu também posso fazer.
+
+81
+00:07:17,840 --> 00:07:24,830
+Por exemplo eu quero pegar aqui enviará um outro Map que vai transformar e pegar a primeira letra de
+
+82
+00:07:24,830 --> 00:07:26,320
+cada palavra sempre ao lado.
+
+83
+00:07:26,320 --> 00:07:30,580
+Você vai ter outra função dizia que vai te ajudar a transformar isso.
+
+84
+00:07:30,590 --> 00:07:33,720
+Você vai ter o outro o outro extremo no final.
+
+85
+00:07:33,830 --> 00:07:38,000
+Só que essa historinha em vez de ter o nome completo vai ter sua primeira letra então vai ter que por
+
+86
+00:07:38,000 --> 00:07:45,950
+exemplo um caractere e ele vai ter um caractere que vai ter que um caractere c é um caractere c ou seja
+
+87
+00:07:45,950 --> 00:07:51,890
+você transformou uma americana determinada função pra ter apenas a primeira letra então são possibilidades
+
+88
+00:07:51,890 --> 00:07:53,840
+que você tem para usar um metro.
+
+89
+00:07:53,850 --> 00:07:59,900
+Então para que serve o MEP para transformar o instrumento em outras Twain é o método que você passa
+
+90
+00:07:59,900 --> 00:08:06,500
+para ele Holanda acho que você passa por uma época exatamente a função que é a série um elemento transforma
+
+91
+00:08:06,500 --> 00:08:13,190
+encerramento e retorna o novo elemento pra um time de mesmo tamanho só que com todos os elementos transformados
+
+92
+00:08:13,550 --> 00:08:15,570
+na próxima aulas ou só isso na prática.
+
+93
+00:08:15,590 --> 00:08:15,920
+Até lá.

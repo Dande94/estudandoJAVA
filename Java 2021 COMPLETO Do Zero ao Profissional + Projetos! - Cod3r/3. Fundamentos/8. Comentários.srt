@@ -1,0 +1,699 @@
+1
+00:00:00,540 --> 00:00:07,590
+Pessoal uma outra coisa que eu acho muito importante fazer dentro dos meus cursos e sempre dando e mostrando
+
+2
+00:00:07,590 --> 00:00:14,250
+para vocês boas práticas de programação e conversando com vocês coisas que já vivenciei no dia a dia
+
+3
+00:00:14,250 --> 00:00:14,910
+de empresa.
+
+4
+00:00:14,910 --> 00:00:16,930
+Coisas que não são legais.
+
+5
+00:00:16,950 --> 00:00:22,410
+Eu sempre fui um cara muito chato no dia a dia de empresa porque eu reclamava às vezes reclamava com
+
+6
+00:00:22,410 --> 00:00:27,780
+o setor da qualidade porque cobrava coisas que não fazem sentido cobrava com os codificadores o que
+
+7
+00:00:27,780 --> 00:00:31,890
+fazem determinadas coisas sempre fui muito polido assim mais quando era pra reclamar.
+
+8
+00:00:31,890 --> 00:00:37,860
+Em alguns momentos eu reclamava e isso trouxe digamos assim algumas lições que eu gosto de estar passando
+
+9
+00:00:37,980 --> 00:00:43,630
+durante o curso o que eu acho que é muito valioso nessas lições diz respeito a comentários de código.
+
+10
+00:00:43,630 --> 00:00:49,150
+Eu vou mostrar para você a parte mecânica e depois vou falar um pouco da parte filosófica sobre o comentário
+
+11
+00:00:49,150 --> 00:00:50,000
+de código.
+
+12
+00:00:50,020 --> 00:00:54,540
+Eu vou usar um mesmo arquivo o primeiro programa que a gente criou algumas aulas atrás o ataque contra
+
+13
+00:00:54,540 --> 00:00:56,950
+o inimigo para maximizar a tela.
+
+14
+00:00:56,970 --> 00:00:59,010
+Existem alguns tipos de comentário.
+
+15
+00:00:59,070 --> 00:01:04,380
+Tem comentários de uma única linha que você vai usar os mesmos comentários Java ou linguagem muito inspirada
+
+16
+00:01:04,380 --> 00:01:07,550
+na linguagem sem linguagem mais antiga.
+
+17
+00:01:07,570 --> 00:01:14,000
+Foi inclusive a primeira linguagem que aprendi na minha linguagem sempre numa tarde na aula de algorítimo
+
+18
+00:01:14,010 --> 00:01:19,970
+depois do almoço que eu me apaixonei por essa parte de computação de programação tal.
+
+19
+00:01:20,010 --> 00:01:27,210
+Dali vem a minha paixão e acho que em 2000 e se não estou enganado foi 2000 foi 2001 e foi não foi paixão
+
+20
+00:01:27,210 --> 00:01:30,050
+à primeira vista mesmo sendo muito chata.
+
+21
+00:01:30,090 --> 00:01:35,310
+Eu gostava muito e aprendi a partir da linguagem sem os comentários como outras coisas da linguagem
+
+22
+00:01:35,310 --> 00:01:37,120
+são muito inspiradas na linguagem sim.
+
+23
+00:01:37,190 --> 00:01:41,190
+Então um comentário de uma linha é um comentário feito com barra.
+
+24
+00:01:41,520 --> 00:01:56,880
+Então aqui eu posso colocar por exemplo uma sentença sentença de código termina termina com ponto e
+
+25
+00:01:56,880 --> 00:01:58,030
+vírgula certo.
+
+26
+00:01:58,050 --> 00:02:03,030
+Então aqui você vai colocar uma sentença de e outro vídeo em que você está percebendo que tem vários
+
+27
+00:02:03,030 --> 00:02:09,230
+caracteres aqui laranja porque ele está tentando verificar a ortografia em inglês né.
+
+28
+00:02:09,240 --> 00:02:15,440
+Se você colocar o cursor do mouse em cima dessa desse erro dessa advertência não erro.
+
+29
+00:02:15,600 --> 00:02:22,170
+Você tem a possibilidade de colocar essa opção ou dizer Vou esperar o check in ou seja desabilitar checagem
+
+30
+00:02:22,530 --> 00:02:28,770
+do português por quem está tentando checar isso em inglês ele vai tirar qualquer tipo de sombreamento
+
+31
+00:02:28,770 --> 00:02:34,380
+que tem nas palavras tá então aqui um comentário de uma linha você tem comentários de múltiplas linhas
+
+32
+00:02:34,380 --> 00:02:38,980
+que é com barra asterisco e asterisco Barra.
+
+33
+00:02:39,060 --> 00:02:40,130
+Embora o eclipse.
+
+34
+00:02:40,140 --> 00:02:45,600
+Ele vai assim que eu vou colocando novas linhas ele coloca um monte de asterisco no meio mais pra fazer
+
+35
+00:02:45,600 --> 00:02:48,710
+aí pra deixar bonitinho certo o código.
+
+36
+00:02:48,840 --> 00:02:56,270
+Mas o importante mesmo é ter o baterista com asterisco baita posso colocar aqui não posso colocar aqui
+
+37
+00:02:57,020 --> 00:02:58,860
+Linha 2 sem problema nenhum.
+
+38
+00:02:59,190 --> 00:03:03,780
+Ou seja isso também será um trecho de código que será ignorado.
+
+39
+00:03:03,780 --> 00:03:10,110
+Outra coisa que também é muito comum é você comentar um código aqui no caso eu posso colocar o controle
+
+40
+00:03:10,320 --> 00:03:12,810
+Barra mesmo barco que eu uso pra comentar.
+
+41
+00:03:13,170 --> 00:03:16,970
+Eu posso em cima de uma linha qualquer um contra o Barra ele vai comentar essa linha.
+
+42
+00:03:17,030 --> 00:03:22,830
+No caso do Mac ele usa o como de Barra então como de Barra comenta com um de barbas como no caso do
+
+43
+00:03:22,830 --> 00:03:29,040
+Linux e do Windows acredito que seja contra o Barra para comentários comentados e você pode inclusive
+
+44
+00:03:29,070 --> 00:03:35,520
+selecionar mais minhas mãos porque eu tenho essa outra linha que eu vou publicar tal qual o browser
+
+45
+00:03:35,630 --> 00:03:40,420
+contra o já falado tá tarde também para duplicar a linha mas eu posso selecionar múltiplas linhas e
+
+46
+00:03:41,320 --> 00:03:44,930
+com uma barra de Barra ele comenta comenta essas linhas.
+
+47
+00:03:44,970 --> 00:03:49,950
+é muito comum você usar comentário também para um trecho de código você não está usando e também para
+
+48
+00:03:49,950 --> 00:03:52,410
+explicar parte do código.
+
+49
+00:03:52,410 --> 00:03:57,930
+Então você pode em um comentário de múltiplas linhas colocá lo bastaria isso com asterisco barra ou
+
+50
+00:03:57,930 --> 00:04:00,110
+então de forma mais bonitinha né.
+
+51
+00:04:00,120 --> 00:04:06,240
+Você coloca o Barra asterisco e dá um entra e coloca um asterisco pra cada linha e no final coloca um
+
+52
+00:04:06,240 --> 00:04:14,470
+asterisco bar para finalizar que você também tem a mesma coisa linha Linha 2 e 3.
+
+53
+00:04:14,590 --> 00:04:19,950
+Certo ou seja um comentário de múltiplas linhas uma ou outra coisa que você tem além do comentário de
+
+54
+00:04:19,950 --> 00:04:24,440
+uma linha de comentários de múltiplas linhas e obviamente um comentário de uma amiga.
+
+55
+00:04:24,450 --> 00:04:33,720
+Você pode colocar várias linhas comentadas com mais um comentário aqui e aqui.
+
+56
+00:04:33,730 --> 00:04:39,990
+Enfim ou seja você pode ter múltiplas linhas não comentadas com comentários de um único e todas essas
+
+57
+00:04:39,990 --> 00:04:47,660
+linhas com uma de barra ou seja esse comentário se houver com uma barra será comentário que eu vou dizer
+
+58
+00:04:47,880 --> 00:04:51,490
+como dizer para ficar um comentário alinhado com meu código.
+
+59
+00:04:51,660 --> 00:05:02,260
+O comentário ele é sempre sensível a localização por exemplo que eu tenho aqui um bem pequeno então
+
+60
+00:05:02,400 --> 00:05:10,050
+coloco só por exemplo a fim de conseguir executar esse corte só pra gente ver está tudo funcionando.
+
+61
+00:05:10,060 --> 00:05:15,260
+O primeiro programa parte 1 parte 2 e fim se eu quiser fazer um comentário aqui no final da linha não
+
+62
+00:05:15,260 --> 00:05:24,830
+tem problema certo aqui aqui também funciona você pode colocar no final da linha mas normalmente você
+
+63
+00:05:24,830 --> 00:05:31,610
+coloca o associado na mesma linha pra você comentar aquela linha ou mais normalmente você coloca logo
+
+64
+00:05:31,610 --> 00:05:37,160
+em cima da linha um comentário pra falar alguma coisa sobre aquela linha especificamente ou mesmo relacionado
+
+65
+00:05:37,240 --> 00:05:42,650
+a alguma função que é o caso do homem ou mesmo colocar um comentário em cima do método que é o caso
+
+66
+00:05:42,800 --> 00:05:47,740
+do homem ou em cima de uma classe que é o caso do primeiro programa aí eu vou falar o que é método ou
+
+67
+00:05:47,750 --> 00:05:49,100
+falar o que é classe.
+
+68
+00:05:49,100 --> 00:05:55,520
+Outra questão também outro comentário que existe é o comentário Barra asterisco asterisco duas vezes
+
+69
+00:05:55,520 --> 00:06:01,190
+se você der um item ele vai criar um comentário chamado Java doc o Java doc é um comentário que vai
+
+70
+00:06:01,190 --> 00:06:03,920
+gerado sobre o Brasil rapidinho.
+
+71
+00:06:03,920 --> 00:06:10,460
+Certo Ele vai acreditar que do lado brasileiro vou abrir uma aba trazer pra cá eu vou colocar aqui por
+
+72
+00:06:10,460 --> 00:06:18,350
+exemplo Java doc string e você vai ver o primeiro link já vai levar para o Java doc triplicando ele
+
+73
+00:06:18,350 --> 00:06:23,950
+vai mostrar aqui todo a documentação bem característica e essa documentação e.
+
+74
+00:06:24,050 --> 00:06:28,160
+Essa página HTML é gerada usando Java doc.
+
+75
+00:06:28,610 --> 00:06:34,700
+Então aqui se eu colocar o vídeo você vai ver os pacotes você vai ver as funcionalidades e você vai
+
+76
+00:06:34,700 --> 00:06:37,430
+entrando por exemplo no pacote.
+
+77
+00:06:37,430 --> 00:06:39,290
+Luis Enrique é o pacote padrão.
+
+78
+00:06:39,490 --> 00:06:44,460
+E aí você vai ter aqui várias classes relacionadas ao pacote chileno inclusive a classe extra.
+
+79
+00:06:44,500 --> 00:06:48,200
+Aí você vai entrando nela e vai bem no exemplo de código.
+
+80
+00:06:48,200 --> 00:06:54,350
+Você vai ver documentações funcionalidades coisas que estão disponíveis dentro de um código fonte escrito
+
+81
+00:06:54,390 --> 00:06:58,460
+com Java é exatamente essa documentação é gerada a partir do Java doc.
+
+82
+00:06:58,880 --> 00:07:01,210
+Então por exemplo você tem como definir.
+
+83
+00:07:01,220 --> 00:07:07,190
+Aqui sim vou colocá lo um pouco mais fácil de entender já que não falam muito sobre arquivos né por
+
+84
+00:07:07,190 --> 00:07:08,450
+exemplo o autor.
+
+85
+00:07:08,870 --> 00:07:11,080
+E aqui você pode colocar AutoCAD.
+
+86
+00:07:11,390 --> 00:07:20,090
+Leonardo Leitão você pode colocar o seu e-mail porque a arroba é meio ponto com certo e esse arquivo
+
+87
+00:07:20,090 --> 00:07:25,400
+foi criado depois da versão 2.0 no sistema.
+
+88
+00:07:25,610 --> 00:07:32,480
+E tal você pode colocar informações e essas informações vão ser lidas pelo Java doc pra ser gerado a
+
+89
+00:07:32,480 --> 00:07:37,540
+documentação certa ele vai interpretar essas esses arroubos que chamo de amostragem.
+
+90
+00:07:37,860 --> 00:07:47,140
+Então olhando aqui por exemplo em Java doc coloca o Java doc string clicando aqui.
+
+91
+00:07:47,150 --> 00:07:52,670
+Mandar olhada aqui onde ele vai colocar aqui por exemplo quando foi gerada essa versão ele colocou aqui
+
+92
+00:07:52,750 --> 00:07:58,650
+j k 1 ponto zero então aqui eu teria alta DK 1 ponto zero.
+
+93
+00:07:58,820 --> 00:08:01,110
+E aí eu posso colocar aqui sim.
+
+94
+00:08:01,280 --> 00:08:07,980
+Ou seja veja também colocar links para outro espaço da documentação exatamente que tem que Veja também.
+
+95
+00:08:08,170 --> 00:08:09,750
+E tal então essas coisas.
+
+96
+00:08:09,770 --> 00:08:16,880
+Essas anotações que eu coloco aqui te ajuda a gerar documentação e obviamente eu preciso escrever alguma
+
+97
+00:08:16,880 --> 00:08:18,170
+coisa aqui não.
+
+98
+00:08:18,440 --> 00:08:22,350
+Essa classe representa.
+
+99
+00:08:22,480 --> 00:08:28,880
+E aí vou colocar na documentação que eu quero dizer sobre essa clássica informação relevante.
+
+100
+00:08:29,030 --> 00:08:35,740
+Eu preciso falar sobre isso então isso aqui é barra asterisco asterisco e o asterisco no final.
+
+101
+00:08:35,750 --> 00:08:38,460
+Esse aqui do meio só é pra Ichiro né não.
+
+102
+00:08:38,470 --> 00:08:39,830
+Não é necessário.
+
+103
+00:08:39,830 --> 00:08:41,240
+Isso aqui é o Java doc.
+
+104
+00:08:41,240 --> 00:08:45,020
+Então aqui nós temos o Java doc.
+
+105
+00:08:45,020 --> 00:08:50,540
+Aqui nós temos também o Java doc Bass teria um asterisco asterisco Barra com algumas outras informações
+
+106
+00:08:50,550 --> 00:08:56,570
+você pode colocar aqui outro arroba e ele vai ter várias opções que vai dizer coisas que você pode usar
+
+107
+00:08:56,570 --> 00:08:57,590
+dentro do Java doc.
+
+108
+00:08:57,740 --> 00:09:02,480
+E finalmente os comentários de múltiplas linhas então são esses três tipos de comentário que eu falei
+
+109
+00:09:02,480 --> 00:09:09,080
+agora da parte operacional seja da parte mecânica da coisa né babar um comentário de uma linha bastaria
+
+110
+00:09:09,120 --> 00:09:14,470
+um asterisco Escobar comentário de múltiplas linhas é o Barra asterisco asterisco um asterisco Barra
+
+111
+00:09:14,560 --> 00:09:23,330
+o Java adopta agora a parte filosófica da coisa o que é que acontece muitas vezes as pessoas e se forçam
+
+112
+00:09:23,330 --> 00:09:29,180
+a comentar código de forma desnecessária só para cumprir o requisito da empresa por exemplo.
+
+113
+00:09:29,210 --> 00:09:32,750
+Só faz sentido você ficar enchendo você percebe.
+
+114
+00:09:32,990 --> 00:09:35,930
+Olhe aqui olhe fazem uma pesquisa de opinião com você.
+
+115
+00:09:35,930 --> 00:09:41,590
+Vocês percebem claramente que o código está bem mais poluído depois que eu coloquei o comentário aqui
+
+116
+00:09:41,720 --> 00:09:47,690
+que como dizem na minha make de tirar todos os comentários de código eu perguntar pra você qual código
+
+117
+00:09:47,690 --> 00:09:49,180
+está menos poluído.
+
+118
+00:09:49,220 --> 00:09:56,700
+Você vai dizer até passar de mais aqui esse código absurdamente menos poluído do que o core que estava
+
+119
+00:09:56,740 --> 00:10:02,680
+com todos os comentários que eu vou voltar agora certo então bem que esse código está absurdamente menos
+
+120
+00:10:02,680 --> 00:10:08,060
+poluído do que o código que estava cheio de comentários e eu acabei perdendo todos os comentários quando
+
+121
+00:10:08,080 --> 00:10:13,450
+fui querer voltar aqui vou restaurar rapidinho os comentários então eu vou acelerar o vídeo e voltar
+
+122
+00:10:13,450 --> 00:10:14,950
+com a ANA realmente tudo aqui está
+
+123
+00:10:27,800 --> 00:10:32,350
+pronto até que uma versão exatamente como estava antes mais tem uns 13 comentários.
+
+124
+00:10:32,350 --> 00:10:39,250
+Java doc comentário de comentários de múltiplas linhas está então retomando a discussão quando você
+
+125
+00:10:39,250 --> 00:10:46,630
+coloca muitos comentários em que o código você acaba criando um a leitura mais difícil e você só usa
+
+126
+00:10:46,630 --> 00:10:53,670
+comentários como realmente existe a necessidade de explicar algo relevante então esse caso não relevante
+
+127
+00:10:53,690 --> 00:10:55,290
+é extremamente importante por quê.
+
+128
+00:10:55,620 --> 00:11:01,600
+Porque existem muitos comentários extremamente desnecessários no código só porque quem precisa comentar
+
+129
+00:11:01,600 --> 00:11:05,300
+só porque alguém tem na empresa disse que precisa comentar o Coelho.
+
+130
+00:11:05,320 --> 00:11:07,590
+Por isso é muito importante.
+
+131
+00:11:07,600 --> 00:11:13,330
+Eu vou falar um pouco mais sobre isso mais à frente que você tem um código legível que você tem um código
+
+132
+00:11:13,330 --> 00:11:19,690
+fácil de ler que você tem um código que realmente tem os nomes corretos das coisas por exemplo a gente
+
+133
+00:11:19,690 --> 00:11:26,290
+criou um sistema de faculdade muito natural para todo mundo que tem um aluno que não fala aluno todo
+
+134
+00:11:26,290 --> 00:11:31,120
+mundo sabe que quando fala falo professor todo mundo sabe o que é mas nem todo sistema que você vai
+
+135
+00:11:31,120 --> 00:11:37,780
+desenvolver os nomes são muito claros e você escolheu os nomes corretos que realmente traz clareza para
+
+136
+00:11:37,780 --> 00:11:43,570
+o código é muito mais importante do que você encher o seu código de comentários desnecessários que vai
+
+137
+00:11:43,570 --> 00:11:49,420
+tornar a do Código estar mal escrito de forma confusa tá difícil de ser interpretado.
+
+138
+00:11:49,420 --> 00:11:52,950
+Jogar um monte de comentário em si não vai deixar leitura ainda mais truncada.
+
+139
+00:11:53,320 --> 00:11:59,860
+Então isso é extremamente importante mas exige um parênteses bem grande aqui e o fato é que nesse momento
+
+140
+00:11:59,860 --> 00:12:03,670
+você está dentro de um contexto educacional.
+
+141
+00:12:03,670 --> 00:12:09,070
+O máximo que você puder comentar dentro dos seus códigos é extremamente importante porque sei que o
+
+142
+00:12:09,070 --> 00:12:15,640
+comentário vai fazer com que você parem para fazer com que você pense o que é que você precisa escrevê
+
+143
+00:12:15,640 --> 00:12:15,880
+la.
+
+144
+00:12:15,880 --> 00:12:19,260
+Que tipo de observação você quer escrever sobre aquele código.
+
+145
+00:12:19,330 --> 00:12:24,060
+Em outras palavras vai te ajudar a fixar o conteúdo que está sendo apresentado no vídeo.
+
+146
+00:12:24,070 --> 00:12:31,090
+Então nesse momento no momento é muito educacional qualquer comentário que mesmo mais simples consiste
+
+147
+00:12:31,100 --> 00:12:36,650
+em algum conteúdo Michelin e representa imprima uma menininha na saída do sistema.
+
+148
+00:12:36,780 --> 00:12:39,760
+E é exatamente o texto que está entre aspas duplas.
+
+149
+00:12:39,760 --> 00:12:46,120
+Então por exemplo se um comentário obvio pra quem está dentro de um programa real trabalhando mais não
+
+150
+00:12:46,120 --> 00:12:49,930
+é um comentário óbvio pra quem está dentro de um contexto educacional.
+
+151
+00:12:49,930 --> 00:12:54,250
+Então quem você puder usar em termos de comentário por isso que eu coloquei essa área de comentários
+
+152
+00:12:54,250 --> 00:12:58,770
+logo no começo pra que a partir do nosso primeiro exemplo você começa a comentar.
+
+153
+00:12:58,790 --> 00:13:01,560
+Escolho sempre que você sente necessidade.
+
+154
+00:13:01,750 --> 00:13:07,240
+Se não tiver necessidade você não vai documentar mais se você sente necessidade para escrever uma observação
+
+155
+00:13:07,600 --> 00:13:14,080
+falar o professor falou no minuto 10 sobre isso sobre isso acho que é importante eu presto atenção nessa
+
+156
+00:13:14,080 --> 00:13:20,590
+questão então tudo isso é importante ser escrito pra que você também analise pra que você também faça
+
+157
+00:13:20,590 --> 00:13:26,910
+de uma forma mais cadenciado e isso traga pra você o aprendizado correto mais em um sistema real em
+
+158
+00:13:26,920 --> 00:13:33,430
+um projeto com múltiplos programadores colocar comentários desnecessários eu acho que atrapalha bastante
+
+159
+00:13:33,430 --> 00:13:38,530
+tanto porque você perde tempo tanto porque às vezes você quer explicar algum comentário que poderia
+
+160
+00:13:38,530 --> 00:13:41,300
+estar muito mais claro ou escrito no próprio código.
+
+161
+00:13:41,560 --> 00:13:46,370
+Então existe um livro chamado código livre inclusive esse livro está aqui atrás no meu escritório e
+
+162
+00:13:46,430 --> 00:13:52,690
+esse livro fala exatamente um dos pontos que ele fala exatamente sobre isso ou sei documentar apenas
+
+163
+00:13:52,690 --> 00:13:59,350
+aquilo que é necessário e você muito mais colocar no código claro no código que seja fácil de ser lido
+
+164
+00:13:59,680 --> 00:14:05,140
+do que você colocar um código extremamente difícil extremamente complexo cheio de comentários para explicar
+
+165
+00:14:05,140 --> 00:14:05,830
+o código.
+
+166
+00:14:06,190 --> 00:14:11,860
+Nem sempre a prática nem sempre é tão bonita como eu estou falando aqui às vezes você tem de fato que
+
+167
+00:14:11,860 --> 00:14:18,640
+escrever código complexo porque eu próprio a própria necessidade demandam uma solução complexa e aí
+
+168
+00:14:18,640 --> 00:14:24,280
+sim você pode se valer de comentários relevantes para tentar explicar alguma coisa que você fez o código
+
+169
+00:14:24,280 --> 00:14:30,790
+é um comentário extremamente importante desde que usado no momento certo pelas razões certas e não simplesmente
+
+170
+00:14:30,790 --> 00:14:36,220
+porque você precisa preencher os requisitos de alguém porque alguém disse que tem documentado e o mais
+
+171
+00:14:36,220 --> 00:14:37,960
+importante é ter código limpo.
+
+172
+00:14:37,970 --> 00:14:39,360
+é o que eu vou focar aquilo que eu uso.
+
+173
+00:14:39,360 --> 00:14:43,840
+Vocês vão perceber que durante o curso eu vou acabar usando poucos comentários porque até pouco nossos
+
+174
+00:14:43,840 --> 00:14:47,350
+exemplos são exemplos corretos que não vão ser muito difíceis.
+
+175
+00:14:47,350 --> 00:14:51,170
+Isso é entendido mas eu quero que vocês levem isso para a prática de vocês.

@@ -1,0 +1,435 @@
+1
+00:00:00,080 --> 00:00:07,830
+Pessoal agora nós vamos acrescentar os construtores dentro da classe Produto e a gente vai usar isso
+
+2
+00:00:07,830 --> 00:00:12,990
+e eu vou mostrar pra vocês algumas coisas na prática que eu mostrei na teoria na aula passada estavam
+
+3
+00:00:12,990 --> 00:00:21,350
+lá eu vou criar um método especial chamado produto exatamente com o mesmo nome da classe coloca aqui
+
+4
+00:00:21,360 --> 00:00:25,830
+os parentes e vou colocar o corpo desse método.
+
+5
+00:00:25,830 --> 00:00:31,080
+Aqui eu acabei de definir de forma explícita o conceito padrão certo.
+
+6
+00:00:31,110 --> 00:00:37,230
+Eu já tinha esse mesmo código aqui de forma implícita Se eu executar o produto Teaching você vai perceber
+
+7
+00:00:37,530 --> 00:00:41,280
+que vai acontecer exatamente a mesma coisa não vou ter nenhum problema com isso.
+
+8
+00:00:41,280 --> 00:00:48,210
+Só que nesse caso eu vou querer passar a informação de um nome como parâmetro para o meu construtor
+
+9
+00:00:48,220 --> 00:00:51,890
+então vou esperar receber o nome aqui como parâmetro.
+
+10
+00:00:52,020 --> 00:00:58,840
+Momento o que eu fizer isso eu vou colocar aqui nome inicial certo e eu vou colocar aqui o nome.
+
+11
+00:00:58,890 --> 00:01:06,480
+Essa variável que na Linhas 5 vai receber o nome inicial que eu passei no construtor então pra eu realmente
+
+12
+00:01:06,480 --> 00:01:12,930
+pegar essa informação e salvar um atributo que pertence ao objeto já que essa variável aqui só estará
+
+13
+00:01:12,930 --> 00:01:19,590
+digamos assim ativa quando ele tiver construído o objeto depois que ele construir os parâmetros desse
+
+14
+00:01:19,590 --> 00:01:21,220
+Metro não irão mais existir.
+
+15
+00:01:21,480 --> 00:01:27,570
+Eu preciso pegar esse valor o nome inicial e salvar dentro da variável nome então fazer o seguinte nome
+
+16
+00:01:28,050 --> 00:01:37,560
+recebe o nome inicial leu e se eu colocar o nome da variável aqui serve pra ser exatamente o mesmo o
+
+17
+00:01:37,560 --> 00:01:43,140
+nome do atributo depois a gente vai entrar nesse caso por enquanto eu vou diferenciar o nome do atributo
+
+18
+00:01:43,170 --> 00:01:48,780
+pra um nome que pertence ao atributo do objeto certo ou aquele atributo que foi definido diretamente
+
+19
+00:01:48,960 --> 00:01:49,890
+no corpo da classe.
+
+20
+00:01:49,890 --> 00:01:54,960
+Então feito isso quando eu salvei esse código aí você vai prestar atenção que você precisa salvar o
+
+21
+00:01:54,960 --> 00:02:01,590
+código para que a outra classe perceba a diferença porque no momento que você salva aí sim ele vai gerar
+
+22
+00:02:01,590 --> 00:02:08,520
+o ponto Java pra um ponto se por baixo Code e a outra classe vai conseguir detectar que já não é mais
+
+23
+00:02:08,520 --> 00:02:12,600
+possível criar um produto sem passar nenhum parâmetro.
+
+24
+00:02:12,600 --> 00:02:13,210
+Por quê.
+
+25
+00:02:13,620 --> 00:02:19,950
+Porque o curso do padrão foi perdido porque de forma explícita agora você tem um construtor que recebe
+
+26
+00:02:19,950 --> 00:02:27,840
+um único parâmetro serve então pra eu criar o produto eu preciso la em vez de definir o nome vou comentar
+
+27
+00:02:27,840 --> 00:02:33,560
+essa linha eu vou passar o notebook diretamente no construtor de produto.
+
+28
+00:02:33,630 --> 00:02:39,510
+Do mesmo jeito embaixo eu vou comentar essa linha aqui qualquer comentário e vou pegar o valor de caneta
+
+29
+00:02:39,510 --> 00:02:43,640
+preta e vou passar na hora de construir o objeto.
+
+30
+00:02:43,640 --> 00:02:49,070
+Ou seja agora para o construir o produto eu preciso passar o nome do produto diretamente no construtor.
+
+31
+00:02:49,400 --> 00:02:52,610
+Eu ainda não pedi para passar o preço e nem pedir para passar o desconto.
+
+32
+00:02:52,620 --> 00:02:59,150
+Por enquanto só o nome agora executado vai perceber que o resultado é o mesmo.
+
+33
+00:02:59,250 --> 00:03:07,200
+Ou seja agora eu consigo distanciar o objeto passando o nome ali e o mais eu gostaria de não interferir
+
+34
+00:03:07,290 --> 00:03:08,750
+na segunda instância.
+
+35
+00:03:08,770 --> 00:03:14,580
+Eu queria passar um nome depois de certo você pode passar inclusive você para teu terao caneta preta
+
+36
+00:03:14,580 --> 00:03:22,170
+2 executando salvando aqui ou executando você vai ter caneta preta 2 você pode mudar é uma variável
+
+37
+00:03:22,170 --> 00:03:25,070
+não tem problema você pode tanto passar não com o chutou.
+
+38
+00:03:25,140 --> 00:03:31,020
+Como alterar depois mas vamos supor que você não queira passar no construtor ou você quer ter acesso
+
+39
+00:03:31,020 --> 00:03:32,340
+ao custo padrão.
+
+40
+00:03:32,340 --> 00:03:35,380
+Como é que eu faço dentro da classe Produto.
+
+41
+00:03:35,490 --> 00:03:44,160
+Você vai definir um outro construtor certo colocar aquele produto e eu vou passar o custo padrão que
+
+42
+00:03:44,160 --> 00:03:51,060
+não recebe nenhum parâmetro colocando de forma explícita o custo padrão ele volta a existir e volta
+
+43
+00:03:51,060 --> 00:03:57,120
+a funcionar o código sem necessariamente passar nada na construção do objeto executado aqui você vai
+
+44
+00:03:57,120 --> 00:04:03,100
+conseguir criar um produto sem passar para muito nenhum e você vai conseguir criar um produto passando
+
+45
+00:04:03,100 --> 00:04:03,470
+o nome.
+
+46
+00:04:03,480 --> 00:04:08,010
+Nesse caso eu vou tirar esse comentário que eu já tenho aqui embaixo criando com todos os atributos.
+
+47
+00:04:08,020 --> 00:04:15,070
+Outra coisa que eu quero mostrar pra vocês é o seguinte salvar executando se eu vim aqui colocar void.
+
+48
+00:04:15,870 --> 00:04:21,300
+Olha pra essa classe aqui deu erro de compilação não era até mostrou uma advertência se você colocar
+
+49
+00:04:21,300 --> 00:04:23,260
+o cursor em cima ele vai dizer o seguinte.
+
+50
+00:04:23,730 --> 00:04:30,690
+Esse método tem o nome de um bom chutou ou seja tem o mesmo onde a classe e isso pode gerar confusão
+
+51
+00:04:31,020 --> 00:04:33,310
+embora isso não seja um erro em si.
+
+52
+00:04:33,490 --> 00:04:34,300
+Tá escolhe.
+
+53
+00:04:34,290 --> 00:04:41,730
+Vai funcionar com tanto que aqui eu passe aquilo que precisa passar porque eu só tenho um único construtor
+
+54
+00:04:42,150 --> 00:04:47,000
+que no caso aqui é o construtor que recebe o tri como parâmetro.
+
+55
+00:04:47,010 --> 00:04:53,580
+Nesse caso se eu vim aqui está você vai perceber que ele executou de forma seguida porque nesse caso
+
+56
+00:04:53,580 --> 00:04:58,270
+aqui no blog ele passa a ser um método e não um construtor.
+
+57
+00:04:58,270 --> 00:05:06,180
+Voltando agora pelo 2 com o que significa que eu posso passar agora chamar o que o chutou sem passar
+
+58
+00:05:06,180 --> 00:05:07,310
+nenhum parâmetro.
+
+59
+00:05:07,690 --> 00:05:11,760
+Mas eu quero agora criar um constou que recebe também o preço inicial.
+
+60
+00:05:11,760 --> 00:05:14,650
+Então voltei pra lá eu posso criar um outro construtor.
+
+61
+00:05:15,150 --> 00:05:19,470
+Posso lucrar que um outro construtor só pra mostrar o craque o outro construtor.
+
+62
+00:05:19,860 --> 00:05:23,130
+Depois eu vou deixar só dois o padrão e o mais completo.
+
+63
+00:05:23,130 --> 00:05:34,890
+E aqui eu posso colocá la da ABL o preço inicial aqui embaixo eu faço o preço recebe o preço inicial
+
+64
+00:05:35,400 --> 00:05:41,440
+ou seja se não fizer isso por mais que eu defina o preço inicial ele não vai ser automaticamente avaliado
+
+65
+00:05:41,590 --> 00:05:44,350
+você precisa explicitamente fazer isso aqui.
+
+66
+00:05:44,370 --> 00:05:50,670
+Agora eu posso ir aqui um produto teste eu tenho como chamar agora criar um produto de três formas diferentes
+
+67
+00:05:51,150 --> 00:05:54,050
+eu posso criar um produto bacana apenas o nome.
+
+68
+00:05:54,420 --> 00:06:00,380
+Posso criar um produto passando o nome e o preço inicial e posso criar um produto sem passar minha um
+
+69
+00:06:00,390 --> 00:06:01,100
+parâmetro.
+
+70
+00:06:01,110 --> 00:06:07,970
+Posso colocar o custo padrão aqui para assim usar pra ficar na ordem direitinho mas nenhum parâmetro
+
+71
+00:06:07,970 --> 00:06:09,680
+é um parâmetro e dois parâmetros.
+
+72
+00:06:09,810 --> 00:06:12,730
+Então para a gente ter estava colocar aquele produto teste.
+
+73
+00:06:12,870 --> 00:06:22,500
+Agora eu vou passar também o preço de pagar esse 4 mil 356 vou jogar aqui algo digno 4 mil 356 contos
+
+74
+00:06:22,590 --> 00:06:31,590
+39 e vou tirar essa linha aqui ou seja agora eu passei dois parâmetros executando ele funciona corretamente
+
+75
+00:06:31,980 --> 00:06:37,660
+e eu vou nesse caso tirar esse construtor porque eu vou querer um custo ou quem sabe todos os parâmetros.
+
+76
+00:06:38,130 --> 00:06:46,050
+Então se eu quiser também colocar o desconto basta eu colocar aqui um bom desconto inicial.
+
+77
+00:06:46,050 --> 00:06:48,680
+Como ficou maior aquilo que o tamanho da tela.
+
+78
+00:06:48,720 --> 00:06:55,090
+Eu vou colocar o segundo parâmetro para baixo o desconto inicial e eu vou fazer um desconto recebe um
+
+79
+00:06:55,530 --> 00:07:03,800
+desconto inicial outro veículo de tal forma que agora eu não tenho mais à disposição esse construtor
+
+80
+00:07:03,810 --> 00:07:09,390
+que recebe dois parâmetros precisa passar pelo terceiro parâmetro que é o desconto inicial nesse caso
+
+81
+00:07:09,390 --> 00:07:10,410
+25 por cento.
+
+82
+00:07:10,410 --> 00:07:11,610
+Posso tirar essa linha.
+
+83
+00:07:12,240 --> 00:07:19,860
+Ou seja agora eu criei o produto com apenas uma única sentença de corte já passando o nome já passando
+
+84
+00:07:19,860 --> 00:07:23,010
+o preço já passando o desconto é de macho.
+
+85
+00:07:23,010 --> 00:07:25,440
+Eu criei o produto chamado custo padrão.
+
+86
+00:07:25,440 --> 00:07:31,230
+Aí eu precisei acertar em cada linha separada nem é preciso citar o nome da Linha 10 o preço na linha
+
+87
+00:07:31,230 --> 00:07:38,280
+11 e o desconto na Linha 12 set mas são duas formas diferentes agora com dois gestores diferentes e
+
+88
+00:07:38,280 --> 00:07:43,670
+várias coisas que eu falei na aula passadas se confirmaram que quando você cria um construtor novo você
+
+89
+00:07:43,680 --> 00:07:49,790
+automaticamente pego com o estudo e for mas nada impede de voltar se tornar explícito com um estudo
+
+90
+00:07:49,790 --> 00:07:56,430
+e for você pode voltar a ter acesso ao conceito padrão contanto que você de forma explícita defina se
+
+91
+00:07:56,430 --> 00:07:57,720
+você não tem custo nenhum.
+
+92
+00:07:57,720 --> 00:08:03,750
+Por padrão ele vai te dar o custo padrão e se você colocar vai eu seja o tipo de retorno na frente de
+
+93
+00:08:03,750 --> 00:08:08,040
+um construtor ele passa a ser um método normal como qualquer outro.
+
+94
+00:08:08,110 --> 00:08:12,510
+Tal definição do construtor tem exatamente o mesmo nome da classe.
+
+95
+00:08:12,780 --> 00:08:18,020
+Sem nenhum tipo de retorno o que já está implícito que esse construtor vai tornar o novo objeto e o
+
+96
+00:08:18,030 --> 00:08:19,400
+Java já sabe disso.
+
+97
+00:08:19,410 --> 00:08:24,960
+Fora isso o consultor é o metro que recebe o parâmetro que tem contrato com qualquer outro método que
+
+98
+00:08:24,960 --> 00:08:29,160
+vai ter o algoritmo que representa a inicialização dos objetos.
+
+99
+00:08:29,160 --> 00:08:35,790
+Você precisará fazer qualquer algoritmo em qualquer seqüência de passos para inicializar o seu objeto.
+
+100
+00:08:35,880 --> 00:08:39,740
+Um excelente lugar para você fazer isso é usando o construtor certo.
+
+101
+00:08:39,750 --> 00:08:44,940
+Existem outras nuances que eu vou falar um pouco mais para frente como a partir de um construtor você
+
+102
+00:08:44,940 --> 00:08:46,680
+consegue chamar outro construtor.
+
+103
+00:08:46,800 --> 00:08:48,910
+Vamos supor que você tenha valor padrão.
+
+104
+00:08:48,910 --> 00:08:53,950
+Eu quero dar um nome padrão um bom produto de produto o preço vai ser um 99.
+
+105
+00:08:53,970 --> 00:08:55,280
+O desconto vai ser zero.
+
+106
+00:08:55,290 --> 00:09:01,170
+Você tem como fornecer valores padrões para esses dados tem um custo ou pode chamar outro mas não é
+
+107
+00:09:01,170 --> 00:09:06,030
+tanto que o cara vai achar na sala eu ainda vou ter uma aula falando como a partir de um consultor você
+
+108
+00:09:06,030 --> 00:09:10,800
+consegue chamar outro mas por enquanto isso é o suficiente para na próxima aula lançar para vocês um
+
+109
+00:09:10,800 --> 00:09:11,360
+desafio.

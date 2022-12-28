@@ -1,0 +1,727 @@
+1
+00:00:00,270 --> 00:00:05,850
+Personagens criar uma nova classe para que a gente possa testar esse conceito de membro de instância
+
+2
+00:00:06,140 --> 00:00:07,260
+e membro de classe.
+
+3
+00:00:07,260 --> 00:00:11,670
+Vou mostrar para vocês algumas coisas interessantes nessa aula então para isso.
+
+4
+00:00:12,020 --> 00:00:15,950
+Mas vamos entrar aqui dentro do nosso pacote classe.
+
+5
+00:00:16,320 --> 00:00:25,920
+Nós vamos criar aqui uma nova classe o nome da classe vou chamar aqui de área a área círculos área da
+
+6
+00:00:25,920 --> 00:00:33,810
+circunferência certo e eu vou criar também uma área da circunferência teste para a gente testar essa
+
+7
+00:00:33,990 --> 00:00:36,020
+outra classe ou criar aqui.
+
+8
+00:00:36,470 --> 00:00:40,000
+A área Swift Tech.
+
+9
+00:00:41,640 --> 00:00:48,320
+Seguindo o mesmo padrão que a gente está trabalhando esse teste vai ter aumento Lumen e area System
+
+10
+00:00:48,330 --> 00:00:56,160
+vai ser uma classe e nessa classe vai ter dois atributos o primeiro atributo vai ser dado que eu vou
+
+11
+00:00:56,160 --> 00:01:03,750
+chamar de raio e eu vou ter também um outro atributo dado que inicialmente eu vou chamar de bi ele vai
+
+12
+00:01:03,750 --> 00:01:09,650
+ser um valor variável depois a gente vai fazer alguns ajustes para melhorar essa lógica certo.
+
+13
+00:01:09,830 --> 00:01:16,820
+Eu não precisaria criar o pior até porque eu já tenho a disposição dentro do Java Marfrig ponto Pi é
+
+14
+00:01:16,830 --> 00:01:22,090
+um exemplo que existe na API do Java mais só pra gente mostrar um pouquinho desse conceito de variável
+
+15
+00:01:22,090 --> 00:01:24,300
+de instância e variáveis de classe.
+
+16
+00:01:24,300 --> 00:01:31,800
+Então aqui eu vou criar um construtor certo se eu colocar aqui ou ali o mesmo nome da classe e eu quiser
+
+17
+00:01:31,830 --> 00:01:37,040
+colocar um curso ele vai criar um custo pra mim posso pagar o comentário.
+
+18
+00:01:37,480 --> 00:01:44,250
+E aqui ele colocou públicos não necessariamente pra esse exemplo eu preciso ter um custo público e aqui
+
+19
+00:01:44,250 --> 00:01:51,470
+eu vou receber um parâmetro que vai ser o raio inicial e o raio inicial vai ser um valor do tipo W.
+
+20
+00:01:51,750 --> 00:02:02,370
+Então fazer o seguinte só recebe o raio inicial ou seja obrigado a passar o raio inicial na hora de
+
+21
+00:02:02,370 --> 00:02:08,670
+custo o objeto e vou criar um método que vai ser responsável por calcular da circunferência então ele
+
+22
+00:02:08,670 --> 00:02:09,830
+vai retornar um W.
+
+23
+00:02:10,380 --> 00:02:16,830
+Vou chamar aqui a área e ele vai receber não vai precisar receber nada porque eu já botei as duas informações
+
+24
+00:02:16,830 --> 00:02:28,440
+aqui pra você simplesmente retornar o valor de mil vezes mil vezes pior então o valor de bi eu posso
+
+25
+00:02:28,500 --> 00:02:35,610
+por exemplo colocar aqui o valor padrão que eu já vou saber então o construtor já colocou ele aqui com
+
+26
+00:02:36,150 --> 00:02:39,180
+3 ponto 14 tá.
+
+27
+00:02:39,570 --> 00:02:45,900
+Então coloquei o valor de bi pra ter esse ponto 14 peguei o rali formado C tem a variável Rail e agora
+
+28
+00:02:45,900 --> 00:02:51,530
+já tenho tudo o que eu preciso para calcular a circunferência que a fórmula é bi vezes ao quadrado posso
+
+29
+00:02:51,630 --> 00:02:57,960
+colocar na ordem certa mas não vai fazer diferença nenhum do ponto de vista de matemática sete vezes
+
+30
+00:02:58,750 --> 00:03:05,510
+ao quadrado eu posso tanto colocar o versátil como posso chamar aqui meu ponto power.
+
+31
+00:03:05,820 --> 00:03:10,720
+E aí eu passo raio Guardadores são duas possibilidades que a gente pode fazer.
+
+32
+00:03:10,750 --> 00:03:17,830
+Certo também funciona by vezes ao quadrado usando a função Paula dentro de mim.
+
+33
+00:03:17,880 --> 00:03:25,680
+Aqui já fica claro uma coisa extremamente importante eu não precisei fazer isso só eu não precisei criar
+
+34
+00:03:25,830 --> 00:03:30,430
+mas ponto ideal para o ponto em me recebe.
+
+35
+00:03:30,450 --> 00:03:38,610
+Eu não precisei fazer isso para a partir dessa instância consegui pegar em mim contou Paula certo.
+
+36
+00:03:38,640 --> 00:03:42,390
+Nem isso funciona porque o construtor de marfim não está disponível.
+
+37
+00:03:42,410 --> 00:03:47,660
+Tá então aqui você percebe que Paula ele é um método estático.
+
+38
+00:03:47,910 --> 00:03:52,590
+Ele é um método que eu não preciso criar uma instância da classe média para acessar ele.
+
+39
+00:03:52,620 --> 00:03:58,450
+Em outras palavras ele é o metro que pertence diretamente à classe ou seja eu chamo o nome da classe.
+
+40
+00:03:58,590 --> 00:03:59,240
+Ponto.
+
+41
+00:03:59,340 --> 00:04:05,580
+O nome do método acesse diretamente da mão aqui eu tenho a área para a gente testar agora vou fazer
+
+42
+00:04:05,580 --> 00:04:06,910
+o seguinte aqui dentro.
+
+43
+00:04:06,960 --> 00:04:16,800
+Vou colocar aqui na área círculos vou chamar avariado avariado a recebe mil área circuitos.
+
+44
+00:04:16,900 --> 00:04:23,580
+Nesse caso eu vou passar o raio inicial como sendo cinco pontos seis estão aqui pra gente imprimir o
+
+45
+00:04:23,580 --> 00:04:31,050
+resultado colocar a ponto a área ele já vai calcular pra mim em cima da variável PI.
+
+46
+00:04:31,080 --> 00:04:33,930
+O resultado é 98 conta alguma coisa.
+
+47
+00:04:33,930 --> 00:04:42,480
+Se por acaso eu fizer a ponto já que é uma variável de instância eu posso colocar o bi pra valer 10
+
+48
+00:04:42,600 --> 00:04:43,960
+sem problema nenhum.
+
+49
+00:04:43,980 --> 00:04:53,040
+Se eu colocar a área também pra valer 10 certo o resultado vai dar mil por 10 ao quadrado que dá 100
+
+50
+00:04:53,370 --> 00:04:54,660
+vezes 10 mil.
+
+51
+00:04:54,750 --> 00:05:03,690
+Ou seja eu consigo mexer no pior então chamar de 1 a 1 e eu consigo duplicar tudo isso aqui.
+
+52
+00:05:03,830 --> 00:05:12,650
+Jogar aqui em baixo e chamar a dois 2 finalmente a dor vou colocar aqui a área pra sei.
+
+53
+00:05:12,730 --> 00:05:21,390
+5 Eu vou colocar o pé pra valer 5 ou seja executada vou ter que mil e 125 foram os dois resultados obtidos
+
+54
+00:05:21,390 --> 00:05:22,990
+a partir da execução.
+
+55
+00:05:23,010 --> 00:05:30,750
+Isso só foi possível porque eu tenho tanto o valor diário como o valor de Piceno valores distância ou
+
+56
+00:05:30,750 --> 00:05:38,700
+seja para cada novo objeto do titular a circunferência criado eu tenho o valor de pi que pertence a
+
+57
+00:05:38,790 --> 00:05:44,550
+cada instante se você João Vale 10 de outro vale 5 eles não vão interferir entre si no momento o que
+
+58
+00:05:44,550 --> 00:05:49,860
+eu percebo não mais Pi é uma constante da matemática é um valor que não vai mudar.
+
+59
+00:05:50,250 --> 00:05:54,210
+Então eu quero tornar o Pi com um sinal algo estático.
+
+60
+00:05:54,410 --> 00:05:58,800
+Então eu posso até inicializar diretamente a variável aqui.
+
+61
+00:05:58,890 --> 00:06:00,210
+Não tem problema.
+
+62
+00:06:00,210 --> 00:06:05,670
+Não necessariamente eu preciso inicializar variáveis no construtor inclusive variáveis de instâncias
+
+63
+00:06:05,670 --> 00:06:12,640
+também podem ser realizadas diretamente na própria variável como aqui na linha 6 seu executar novamente.
+
+64
+00:06:12,690 --> 00:06:18,570
+Eu não vou ter problema nenhum com isso e se eu não alterar o valor de bi ele ainda assim vai assumir
+
+65
+00:06:18,570 --> 00:06:20,450
+o valor correto 3 14.
+
+66
+00:06:20,640 --> 00:06:27,540
+Então eu posso inicializar a variável diretamente na sua definição na Linha 6.
+
+67
+00:06:27,540 --> 00:06:33,360
+O próximo passo vai ser a gente alterar essa variável que pertence à instância pra dizer que essa variável
+
+68
+00:06:33,360 --> 00:06:34,540
+pertence à classe.
+
+69
+00:06:35,070 --> 00:06:43,810
+Então basta colocar a palavra Estate que na frente não pode ser depois do tipo da variável sempre Chico
+
+70
+00:06:44,160 --> 00:06:47,200
+e depois o identificador da variável nome dela.
+
+71
+00:06:47,280 --> 00:06:53,630
+Ou seja todos os modificadores vêm antes do ativo e um deles um dado dos possíveis modificadores e o
+
+72
+00:06:53,740 --> 00:07:01,020
+estádio que eu estou dizendo com isso estou dizendo que agora o valor de pi está associado diretamente
+
+73
+00:07:01,110 --> 00:07:03,750
+à classe e não às instâncias.
+
+74
+00:07:03,750 --> 00:07:11,060
+Eu até posso acessar os valores como se fossem distância tanto é que ele está dando advertência porque.
+
+75
+00:07:11,130 --> 00:07:19,410
+Olha esse código você criando a instância ideal e pagando que há um ponto B dá a sensação de que você
+
+76
+00:07:19,410 --> 00:07:23,500
+está alterando o Pi dentro da instância alguma.
+
+77
+00:07:23,550 --> 00:07:31,260
+Quando você faz a 2 ponto B dá a sensação de que você está acessando o valor e especificamente a 2 mas
+
+78
+00:07:31,260 --> 00:07:32,990
+na verdade isso não está acontecendo.
+
+79
+00:07:33,390 --> 00:07:39,840
+Tanto é que se eu colocar esses dois System Audio aqui para baixo e eu colocar por exemplo pi é igual
+
+80
+00:07:39,840 --> 00:07:42,130
+a 10 depois bigode 5.
+
+81
+00:07:42,140 --> 00:07:47,200
+Pelos dois cálculos da área será um assumido PI igual a 5 executado.
+
+82
+00:07:47,250 --> 00:07:49,350
+O resultado vai ser 500 125.
+
+83
+00:07:49,350 --> 00:07:56,370
+Se eu colocar aqui PI igual a um valor bem grande e aqui eu colocar PI igual a zero você vai executar
+
+84
+00:07:56,420 --> 00:08:04,700
+tanto cálculo de 1 como o cálculo de 2 todos os 2 irão ter um estado 0 porque o Model B não apenas para
+
+85
+00:08:04,700 --> 00:08:10,650
+a instância 2 mas para todos as instâncias da classe área círculo.
+
+86
+00:08:10,650 --> 00:08:17,280
+Outra questão é que essa não é a forma ideal para você acessar agora a forma ideal para você acessar
+
+87
+00:08:17,460 --> 00:08:19,770
+diretamente pelo nome da classe.
+
+88
+00:08:20,220 --> 00:08:27,020
+Então se você quer mudar o valor de bi você pode até mudar então a área circulo ponto PI recebe o valor
+
+89
+00:08:27,030 --> 00:08:29,620
+3 ponto 14 e 15.
+
+90
+00:08:29,630 --> 00:08:36,510
+Por exemplo se quer ser mais preciso do que o pior original agora sim você consegue acessar o Pi diretamente
+
+91
+00:08:36,600 --> 00:08:38,100
+a partir da classe.
+
+92
+00:08:38,100 --> 00:08:45,530
+Da mesma forma que o áudio associado ao System também é um atributo estático ok.
+
+93
+00:08:45,540 --> 00:08:52,140
+Por que eu não precisei criar uma instância mil System pra só então acessar o áudio.
+
+94
+00:08:52,140 --> 00:09:00,120
+Na verdade o áudio foi acessado diretamente a partir do System então também o áudio representa um atributo
+
+95
+00:09:00,120 --> 00:09:01,150
+de instância.
+
+96
+00:09:01,230 --> 00:09:05,420
+Todos esses atributos que estão digamos assim em itálico né.
+
+97
+00:09:05,430 --> 00:09:13,680
+O Pi em itálico o áudio também está em itálico significa que são atributos de classe certo ou atributos
+
+98
+00:09:13,680 --> 00:09:14,730
+estáticos.
+
+99
+00:09:14,730 --> 00:09:17,400
+Então nesse caso eu coloquei a área da circunferência.
+
+100
+00:09:17,400 --> 00:09:18,450
+Ponto p.
+
+101
+00:09:18,540 --> 00:09:20,670
+Coloquei aqui 3 14 15.
+
+102
+00:09:20,730 --> 00:09:28,480
+O resultado será que os dois irão usar agora esse PI de uma forma global se você mudar por exemplo eu
+
+103
+00:09:28,500 --> 00:09:29,910
+coloco aqui.
+
+104
+00:09:29,910 --> 00:09:36,360
+Logo depois eu coloco um valor diferente por exemplo zero ponto ser seu valor de TI.
+
+105
+00:09:36,360 --> 00:09:42,950
+Você vai ver que vai assumir esse valor e todos os outros cálculos que você fizer depois dela em 17
+
+106
+00:09:42,950 --> 00:09:49,140
+de março me esse novo valor não apenas para a 1 instância mas para todas as instâncias que foram criadas
+
+107
+00:09:49,170 --> 00:09:55,490
+já que o valor de bi não está mais associado a cada uma das instâncias ele está associado à classe e
+
+108
+00:09:55,500 --> 00:10:04,290
+uma outra questão só pra comentar aqui é muito comum que quando você tem algo estático você acabe também
+
+109
+00:10:04,290 --> 00:10:12,050
+tendo algo constante ou seja pode usar uma variável estática que vai ficar mudando pra todas as instâncias
+
+110
+00:10:12,500 --> 00:10:17,850
+mas a grande maioria do tempo quando você tem algo estático você acaba criando uma constante.
+
+111
+00:10:17,850 --> 00:10:20,730
+No caso do BPI tem esse conceito não é o BPI.
+
+112
+00:10:21,180 --> 00:10:26,970
+Ele é uma constante então em vez de eu ter o BPI como algo que vai ficar estático e pode ser mudado
+
+113
+00:10:27,060 --> 00:10:29,700
+isso gera alguma confusão dentro da sua aplicação.
+
+114
+00:10:29,790 --> 00:10:35,780
+Eu diria que esse também é o caso que você vai acabar aplicando o outro modificador que é o fim não
+
+115
+00:10:35,870 --> 00:10:36,480
+está.
+
+116
+00:10:36,770 --> 00:10:39,020
+Então estático que foi não fará.
+
+117
+00:10:39,020 --> 00:10:43,260
+Quer dizer a gente já viu que o farão modificado ou para definir uma constante.
+
+118
+00:10:43,380 --> 00:10:50,280
+Nesse caso eu tanto posso colocar estático farão como foi não estático e não tem diferença.
+
+119
+00:10:50,310 --> 00:10:55,980
+é a única ordem que precisa ser seguida e a partir do tipo se você tem o tipo depois de tipo você ter
+
+120
+00:10:55,980 --> 00:11:03,000
+o nome e depois o nome você pode não ter uma atribuição na opinião da situação mas antes do tipo você
+
+121
+00:11:03,000 --> 00:11:08,880
+pode ter faro estático estático e falho inclusive vai ter outros modificadores que vão falar um pouco
+
+122
+00:11:08,880 --> 00:11:14,190
+mais para a frente que também podem ser trocados inclusive terão outros modificadores que eu vou falar
+
+123
+00:11:14,190 --> 00:11:18,180
+um pouco mais na frente que poderão ser trocados na hora que você quiser.
+
+124
+00:11:18,540 --> 00:11:25,430
+Mas o tipo obrigatoriamente estará ao lado do nome da variável então seja logo do lado.
+
+125
+00:11:25,470 --> 00:11:32,490
+Eu tenho o tipo dado nesse caso como eu tenho agora uma constante não tem mais um valor variável.
+
+126
+00:11:32,510 --> 00:11:38,560
+Eu acabo trocando o Valor de PI por uma questão de convenção não porque não vai funcionar troco para
+
+127
+00:11:38,560 --> 00:11:39,330
+a maiúsculo.
+
+128
+00:11:39,330 --> 00:11:45,330
+Então aqui eu posso colocar em maiúsculo isso significa que lá na área da circunferência eu não vou
+
+129
+00:11:45,330 --> 00:11:48,400
+mais conseguir alterar o valor do BPI.
+
+130
+00:11:48,600 --> 00:11:54,150
+Eu até posso tentar acessar o BPI maiúsculo como eu fiz mas eu não vou mais conseguir alterar porque
+
+131
+00:11:54,440 --> 00:11:57,700
+é uma constante eu tentar executá lo se que vai dar problema.
+
+132
+00:11:57,780 --> 00:12:05,230
+O máximo que eu posso fazer agora é ler essa informação então por exemplo se eu quiser pegar informação
+
+133
+00:12:05,240 --> 00:12:13,860
+de pra jogar no terminal por exemplo eu posso sim e eu vou lhe essa informação diretamente a partir
+
+134
+00:12:13,860 --> 00:12:21,720
+da classe da mesma forma que eu faço na própria API do Java com um ponto que eu também tenho isso à
+
+135
+00:12:21,720 --> 00:12:29,190
+disposição do próprio Java só quer que a minha versão do BPI e 13 14 e a versão do Java 3 ponto 14 15
+
+136
+00:12:29,190 --> 00:12:29,760
+9.
+
+137
+00:12:29,780 --> 00:12:32,540
+é alguma coisa que seja um número bem mais preciso.
+
+138
+00:12:32,610 --> 00:12:37,690
+Certo mas o princípio é o mesmo agora a gente começa a entender um pouco daquilo que a gente já estava
+
+139
+00:12:37,690 --> 00:12:45,210
+a fazer no antes você começa a perceber que os que o Audi também é um membro de classe ou seja por isso
+
+140
+00:12:45,500 --> 00:12:50,610
+que eu não precisei criar uma instância para acessar o sistema você percebe que quando a gente criou
+
+141
+00:12:50,610 --> 00:12:58,010
+esse canal nós precisamos criar uma instância e a partir dessa instância usar o método Next Time Xilai
+
+142
+00:12:58,300 --> 00:13:04,660
+usa de todos esses métodos pertencem à instância não podem ser acessados diretamente a partir da classe.
+
+143
+00:13:04,980 --> 00:13:10,970
+Já o áudio pertencem ao sistema classe System e o acesso direto sem precisar criar uma instância.
+
+144
+00:13:11,010 --> 00:13:19,920
+Da mesma forma que para acessar o atributo há um ponto que eu posso acessar o mais somente a partir
+
+145
+00:13:19,920 --> 00:13:27,810
+da instância estatal ao meu ponto Radio assim como a 2 o rádio passa a ser 100 já que é uma variável.
+
+146
+00:13:27,870 --> 00:13:30,410
+Apesar de terem realizado do rádio no custo.
+
+147
+00:13:30,540 --> 00:13:38,820
+Nada me impede de alterar o raio e para calcular a data mais uma vez mas o fato é que o PI agora passou
+
+148
+00:13:38,820 --> 00:13:45,700
+a ser pertencente à classe então dentro da classe C que eu tenho tanto atributo de instância no caso
+
+149
+00:13:45,700 --> 00:13:52,050
+o raio como tenho uma constante que pertence à classe no caso pia como falei para vocês não obrigatoriamente
+
+150
+00:13:52,050 --> 00:13:53,640
+precisa ser um constante.
+
+151
+00:13:53,640 --> 00:13:58,710
+Na verdade a gente iniciou Pi como ser uma variável e fator ou pra que ele passasse a ser uma constante
+
+152
+00:13:58,710 --> 00:14:04,260
+porque nesse cenário faz mais sentido e como eu falei pra vocês na maioria dos cenários é mais fácil
+
+153
+00:14:04,260 --> 00:14:10,330
+você ter um atributo de classe constante do que você tem um atributo de classe que fica variado porque
+
+154
+00:14:10,350 --> 00:14:12,180
+isso pode gerar até confusão.
+
+155
+00:14:12,180 --> 00:14:17,550
+Você tem várias instâncias acessando o mesmo dado e esse dado variando com o tempo.
+
+156
+00:14:17,550 --> 00:14:20,080
+Então isso pode trazer mais confusão do que ajuda.
+
+157
+00:14:20,080 --> 00:14:25,540
+Então fica a dica com relação a é a constante mais o mais importante eu queria falar para vocês.
+
+158
+00:14:25,640 --> 00:14:31,380
+Era exatamente a palavrinha reservada estática que é pra você dizer que o valor associado a esse atributo
+
+159
+00:14:31,380 --> 00:14:35,260
+não mais pertence à instância e sim pertence à classe.
+
+160
+00:14:35,520 --> 00:14:40,830
+Eu posso criar um método estático pode é supersimples também né.
+
+161
+00:14:41,190 --> 00:14:46,330
+Então nesse caso eu vou colocá lo estático modificado do método.
+
+162
+00:14:46,530 --> 00:14:48,240
+O tipo de retorno do método.
+
+163
+00:14:48,240 --> 00:14:55,190
+No caso da ABL posso ter um metro com o mesmo nome do outro contanto que os parâmetros sejam diferentes.
+
+164
+00:14:55,350 --> 00:14:59,680
+Ou seja tem um metro com o mesmo nome mas parâmetros diferentes não vai ter problema nenhum.
+
+165
+00:14:59,790 --> 00:15:09,820
+Aqui eu vou colocar da ABL sei que eu vou receber como parâmetro que eu vou duplicar essa linha em cima
+
+166
+00:15:10,130 --> 00:15:16,430
+vou jogar aqui para baixo e vou pegar o rádio a partir dessa variável que eu recebi não da variável
+
+167
+00:15:16,430 --> 00:15:20,940
+de instância em cima mas peguei o raio do parâmetro que recebi.
+
+168
+00:15:20,940 --> 00:15:27,960
+Nesse caso eu tenho duas formas agora de calcular a área eu posso calcular a área criando uma instância
+
+169
+00:15:28,320 --> 00:15:29,500
+como eu fiz aqui.
+
+170
+00:15:29,580 --> 00:15:37,200
+Como eu posso não quero criar uma instância para calcular a área 2 eu posso simplesmente chamar a área
+
+171
+00:15:37,680 --> 00:15:46,500
+circos e passo aqui por exemplo levá lo sem a sala não precisaria dessa outra instância que teria só
+
+172
+00:15:46,500 --> 00:15:49,440
+1 instância e possa sair dessa forma.
+
+173
+00:15:49,800 --> 00:15:56,820
+Ou seja a área como sendo o método que pertence à instância é essa outra área que pertence à classe
+
+174
+00:15:56,820 --> 00:16:02,370
+ou seja área circunferência sem precisar criar instância nenhum ponto área passando o valor da área
+
+175
+00:16:02,630 --> 00:16:03,940
+e o resultado.
+
+176
+00:16:04,770 --> 00:16:09,210
+O resultado é que não sei nem quais desses aqui está sendo impresso o primeiro foi a área da instância
+
+177
+00:16:09,210 --> 00:16:10,340
+que é isso aqui.
+
+178
+00:16:10,380 --> 00:16:16,140
+Depois eu coloquei uma área sem gerou esse resultado aqui finalmente são os dois valores de PIB.
+
+179
+00:16:16,500 --> 00:16:24,050
+Então nós temos nosso exemplo tanto membro seja um atributo estático que pertence à classe ou seja o
+
+180
+00:16:24,060 --> 00:16:29,900
+valor pertence à classe e também tem um método estático ou seja o metro que pertence à classe.
+
+181
+00:16:29,910 --> 00:16:35,310
+Em outras palavras não preciso criar instância nem para acessar o atributo de classe e nem para acessar
+
+182
+00:16:35,310 --> 00:16:36,240
+um metro de classe.

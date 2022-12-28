@@ -1,0 +1,1215 @@
+1
+00:00:00,470 --> 00:00:07,920
+Agora vamos falar sobre Web Services e a importância dele dentro do contexto mais moderno tanto na web
+
+2
+00:00:08,340 --> 00:00:11,570
+como mesmo em sistemas que rodam na internet.
+
+3
+00:00:11,580 --> 00:00:18,100
+é muito comum você ter o uso de web services principalmente porque é um padrão de mercado.
+
+4
+00:00:18,120 --> 00:00:25,500
+Ele provê uma facilidade muito grande para que você tenha interoperabilidade entre diversas linguagens
+
+5
+00:00:25,500 --> 00:00:32,280
+diferentes e se você for pra um esquema de arquitetura como por exemplo soa o mesmo microssérie.
+
+6
+00:00:32,510 --> 00:00:40,170
+O uso de Web Services é amplamente utilizado então é uma escolha digamos assim bastante oportuna é importante
+
+7
+00:00:40,170 --> 00:00:46,640
+que você conheça a gente já fez um exemplo simples de web sexo mexe no capítulo de hoje nós vamos ter
+
+8
+00:00:46,640 --> 00:00:52,410
+oportunidades de continuar ainda trabalhando esse conceito só que com integração com o banco de dados
+
+9
+00:00:52,440 --> 00:00:57,850
+mais para frente no uso mais importante você ter uma noção sobre o websérie.
+
+10
+00:00:57,870 --> 00:01:02,390
+Então a primeira pergunta que eu quero responder é o que é websérie websérie.
+
+11
+00:01:02,760 --> 00:01:10,110
+é um serviço web normalmente é óbvio o serviço web e traduzindo português para inglês.
+
+12
+00:01:10,350 --> 00:01:15,110
+Mas na verdade você tem um serviço que a aplicação provê.
+
+13
+00:01:15,120 --> 00:01:23,040
+Por exemplo um serviço de negócio ao dê a lista dos clientes devedores e esse serviço é disponibilizado
+
+14
+00:01:23,040 --> 00:01:28,560
+para todos os clientes que estão devem na sua empresa é um serviço que é disponibilizado em cima de
+
+15
+00:01:28,560 --> 00:01:30,940
+tecnologias da web.
+
+16
+00:01:31,020 --> 00:01:37,050
+Daí o fato que é muito comum que você tenha o uso de comunicação baseada em texto pelo motivo de você
+
+17
+00:01:37,050 --> 00:01:42,620
+trabalhar com tecnologias para a web em cima do protocolo HTTP.
+
+18
+00:01:42,630 --> 00:01:50,220
+Você trabalha com dados trafegados de forma textual porque é textual algo que é muito mais fácil você
+
+19
+00:01:50,220 --> 00:01:57,240
+conseguir ter essa interoperabilidade entre diversos sistemas diferentes uma vez que você consegue ler
+
+20
+00:01:57,240 --> 00:02:01,770
+o texto fazer um passe e interpretar os dados que estão dentro do texto.
+
+21
+00:02:01,770 --> 00:02:07,130
+é muito mais fácil do que você trabalhar com formatos binários que são proprietários.
+
+22
+00:02:07,180 --> 00:02:15,720
+Então existiam historicamente várias tentativas de fazer esquemas que dessem essa integração entre sistemas
+
+23
+00:02:15,750 --> 00:02:18,170
+diferentes tecnologias de uma forma mais simples.
+
+24
+00:02:18,330 --> 00:02:25,440
+Por exemplo tem um cobra só que baseado em dados binários então isso não gerou aquele bug não trouxe
+
+25
+00:02:25,440 --> 00:02:29,010
+aquele aquela solução digamos assim mais definitiva.
+
+26
+00:02:29,010 --> 00:02:34,470
+Para resolver essa questão de integração entre sistemas e não só a integração entre sistemas mas também
+
+27
+00:02:34,770 --> 00:02:41,130
+para que você possa construir serviços que podem ser consumidos pelo mesmo sistema inclusive de uma
+
+28
+00:02:41,130 --> 00:02:43,390
+forma muito mais padronizada.
+
+29
+00:02:43,480 --> 00:02:50,260
+Isso observe se é um serviço que roda em cima de tecnologias da web e que normalmente essa comunicação
+
+30
+00:02:50,280 --> 00:02:53,710
+os dados são trafegados de forma textual.
+
+31
+00:02:53,770 --> 00:03:01,480
+Seja a partir de XML seja parte disso ou mesmo em formato textual mesmo arquivos com ponto e vírgula
+
+32
+00:03:01,480 --> 00:03:08,430
+é possível também e percebe se disponibilizar formatos nos mais diversos possíveis mas via de regra
+
+33
+00:03:08,430 --> 00:03:11,230
+acaba trabalhando com formatos textuais.
+
+34
+00:03:11,250 --> 00:03:16,910
+é claro que você pode ter um serviço web que vai disponibilizar um extreme de dados por exemplo com
+
+35
+00:03:16,920 --> 00:03:23,490
+vídeo alguma coisa do tipo mas via de regra a gente acaba trabalhando na maioria do tempo com serviços
+
+36
+00:03:23,610 --> 00:03:31,110
+de negócio disponibilizados a partir da web usando tecnologias da web ou seja tem o RL associada tem
+
+37
+00:03:31,110 --> 00:03:37,320
+respostas que são dadas em determinados formatos e esse é o conceito digamos assim.
+
+38
+00:03:37,320 --> 00:03:43,320
+Observe se você tem historicamente dois grandes e duas grandes alternativas para trabalhar com websérie
+
+39
+00:03:43,380 --> 00:03:50,010
+que você tem o Soup e o Watch Soup Simple Object Access Protocol.
+
+40
+00:03:50,280 --> 00:03:58,080
+Eu achei esse nome certo representa chamavam teste de trazer mais ou menos esse aqui na hora de falar.
+
+41
+00:03:58,350 --> 00:04:03,460
+O fato é que o soube é uma versão mais antiga certo.
+
+42
+00:04:03,480 --> 00:04:10,950
+O primeiro é um tipo de serviço mais burocrático e o Echo em contrapartida é mais simples de trabalhar
+
+43
+00:04:10,950 --> 00:04:11,800
+mais leve.
+
+44
+00:04:11,800 --> 00:04:18,630
+A gente vai acabar dentro do curso aborda apenas implementando apenas serviços web baseado no padrão
+
+45
+00:04:18,720 --> 00:04:19,230
+Flash.
+
+46
+00:04:19,590 --> 00:04:27,990
+Então dentro do sóbrio você usa um conceito chamado W SDL que é o Web Service Description Language ou
+
+47
+00:04:27,990 --> 00:04:34,210
+Linguagem de Descrição de Web Service XML super chato já está para vocês aqui.
+
+48
+00:04:34,210 --> 00:04:41,180
+Um exemplo dele que descreve quais são as funcionalidades que o determinado serviço usa metros é que
+
+49
+00:04:41,190 --> 00:04:49,680
+um serviço disponibiliza como os dados que o serviço disponibiliza e tem tal atributo do tipo tal tem
+
+50
+00:04:49,680 --> 00:04:56,100
+esse atributo e esse outro e tal então era tudo o que ele descreve bem o serviço mais ele é muito mais
+
+51
+00:04:56,100 --> 00:04:58,480
+burocrático de se usar um só.
+
+52
+00:04:58,600 --> 00:05:03,940
+Ele é um protocolo baseado em XML então a requisição é a resposta dentro do Sul.
+
+53
+00:05:03,940 --> 00:05:10,000
+Ele tem um formato XML que é tanto recebido como requisição para dizer qual é a função que você quer
+
+54
+00:05:10,000 --> 00:05:10,600
+chamar.
+
+55
+00:05:10,840 --> 00:05:15,850
+Quais são os parâmetros que você quer passar para aquela função e na hora de responder ele também responde
+
+56
+00:05:16,150 --> 00:05:20,000
+no protocolo soube com um formato XML ele.
+
+57
+00:05:20,080 --> 00:05:30,430
+O protocolo sou eu quem te conhece como RPC ou do COL ou invocação de procedimentos ou funções remotas.
+
+58
+00:05:30,490 --> 00:05:37,510
+Então a partir de um cliente você consegue executar ou invocar uma função que está remota a partir do
+
+59
+00:05:37,510 --> 00:05:39,010
+protocolo esse.
+
+60
+00:05:39,130 --> 00:05:46,900
+Essa alternativa na web serve se no caso Soup abriu muitas possibilidades e foi digamos assim de certa
+
+61
+00:05:46,900 --> 00:05:48,260
+forma uma evolução.
+
+62
+00:05:48,280 --> 00:05:54,030
+Você tinha outras alternativas que o colo mais com muito menos com muito mais facilidade.
+
+63
+00:05:54,040 --> 00:06:01,450
+Você tem essa interoperabilidade entre tecnologias eu soube e permitiu isso só que era que é uma alternativa
+
+64
+00:06:01,450 --> 00:06:05,870
+bem mais burocrática do que é o mais recente alternativa.
+
+65
+00:06:05,930 --> 00:06:07,910
+Observe se que no caso o Echo.
+
+66
+00:06:07,990 --> 00:06:10,300
+Então ele usa XML.
+
+67
+00:06:10,390 --> 00:06:16,030
+Ele usa esse decretou que também é um arquivo XML para descrever toda todo o seu Web Service e quais
+
+68
+00:06:16,030 --> 00:06:21,650
+são os métodos suportados quais são os parâmetros que é recebido.
+
+69
+00:06:21,650 --> 00:06:25,810
+Qual o tipo de retorno é como se fosse mesmo descrever uma função.
+
+70
+00:06:25,840 --> 00:06:33,460
+Você consegue chamar essa função usando o protocolo Soup ou seja é uma RPC produzido com e por conta
+
+71
+00:06:33,460 --> 00:06:36,670
+desses vários XML envolvidos no processo.
+
+72
+00:06:36,670 --> 00:06:43,810
+Ele é bem mais burocrático então via de regra eu já usei o salto em Java a partir de um dado SDL e você
+
+73
+00:06:43,810 --> 00:06:50,550
+rodava um processo automático que gerava classes em Java para daí você conseguir de fato chamá la de
+
+74
+00:06:50,550 --> 00:06:50,990
+certo.
+
+75
+00:06:51,000 --> 00:06:57,670
+Então é bem mais burocrático do que eu acho que simplesmente você consegue inclusive consumir um abscesso
+
+76
+00:06:57,670 --> 00:07:02,280
+mexe com graus Brasil puro o mesmo comportamento é uma forma muito simples.
+
+77
+00:07:02,290 --> 00:07:08,630
+Do outro lado nós temos o formato Flash que é usado isso usando o HTTP puro.
+
+78
+00:07:08,650 --> 00:07:16,420
+Essas requisições e respostas ou seja você faz uma requisição para um depois RL e essa RL dependendo
+
+79
+00:07:16,420 --> 00:07:19,700
+do tipo de verbo do HTTPS é um proxy.
+
+80
+00:07:19,750 --> 00:07:27,930
+Se é um potencial Bad ele vai ter um significado tem uma convenção em cima do que é chamado porque se
+
+81
+00:07:27,940 --> 00:07:35,460
+você segue a convenção estabelecida pelo resto quer dizer que seu serviço é aderente a uma convenção
+
+82
+00:07:35,460 --> 00:07:38,100
+e uma série de restrições arquiteturais.
+
+83
+00:07:38,110 --> 00:07:46,120
+Você tem que seguir para garantir que o seu serviço estará aderente a essa especificação digamos assim.
+
+84
+00:07:46,420 --> 00:07:53,230
+Então era muito mais simples ele usa os próprios verbos neles próprios metros do HTTP para fazer essa
+
+85
+00:07:53,230 --> 00:08:00,790
+comunicação e no meio tanto de um lado do Echo como do lado sobre você tem por exemplo algumas arquiteturas
+
+86
+00:08:00,790 --> 00:08:02,260
+que trabalham com um abscesso.
+
+87
+00:08:02,260 --> 00:08:08,410
+De forma geral que pode ser tanto sob o mesmo regime ou inclusive usando outras tecnologias está certo
+
+88
+00:08:08,410 --> 00:08:09,530
+ou continuado.
+
+89
+00:08:09,580 --> 00:08:14,680
+Aqui é um exemplo de WSL supera não vou entrar em detalhes não vou explicar faz muito tempo que eu não
+
+90
+00:08:14,680 --> 00:08:21,850
+vejo WSL então acabarem confundindo aqui com os conceitos mais o fato que é o XML que descreve como
+
+91
+00:08:21,850 --> 00:08:25,250
+seu serviço web será disponibilizado praticamente.
+
+92
+00:08:25,420 --> 00:08:31,550
+Ele vai dizer qual é o tipo de assinatura e das funções que estão sendo promovidas pelo R7 E qual o
+
+93
+00:08:31,600 --> 00:08:32,890
+tipo de parâmetro.
+
+94
+00:08:32,890 --> 00:08:34,360
+Qual o tipo de retorno.
+
+95
+00:08:34,480 --> 00:08:37,100
+Os tipos de dados ele vai descrever os dados e tal.
+
+96
+00:08:37,480 --> 00:08:42,860
+E aí no final das contas você vê que esse é um processo bastante burocrático nem mostrei para você.
+
+97
+00:08:43,090 --> 00:08:48,090
+Como é que eu sou o primeiro na requisição e a resposta já não soube e mostrando aqui pra você só descrito
+
+98
+00:08:48,270 --> 00:08:53,820
+como burocrático construir serviços web usando o padrão Soup.
+
+99
+00:08:54,120 --> 00:08:58,200
+Olhando a convenção do Echo Funai pra gente entender um pouquinho Supersimples.
+
+100
+00:08:58,570 --> 00:09:05,950
+Nós temos aqui um padrão do RL que normalmente é convencionado você tem um método do HTTP associado
+
+101
+00:09:05,950 --> 00:09:06,940
+ao RL.
+
+102
+00:09:06,940 --> 00:09:11,770
+Ele vai te dar uma descrição do que é aquele serviço no padrão o Echo vai fazer.
+
+103
+00:09:12,130 --> 00:09:18,580
+Então olhando por exemplo coloco o Loco Barra clientes usando o método Push o que é que querem fazer
+
+104
+00:09:18,880 --> 00:09:25,270
+como back usar no metro pois eu estou querendo incluir um novo cliente no banco de dados eu não sei
+
+105
+00:09:25,270 --> 00:09:34,100
+se vocês conhecem uma sigla chamada cruz que é o cliente lite ou virtuais updates de elite.
+
+106
+00:09:34,120 --> 00:09:41,170
+Então crude quer dizer cliente White updates de LED que são as quatro operações que você faz no banco
+
+107
+00:09:41,170 --> 00:09:42,060
+de dados.
+
+108
+00:09:42,160 --> 00:09:50,010
+O selo de cliente seria de inserir um dado no banco de dados por exemplo seria um set o que seria legal
+
+109
+00:09:50,070 --> 00:09:53,590
+Lei dado do banco de dados que seria o Select.
+
+110
+00:09:53,630 --> 00:10:00,380
+O update seria para você atualizar um dado que já existe no banco de dados você quer coisas daquele
+
+111
+00:10:00,680 --> 00:10:07,710
+cliente por exemplo mudar a data de cadastro mudar por exemplo o endereço do cliente seria um update
+
+112
+00:10:07,910 --> 00:10:09,320
+usando o comando SQL.
+
+113
+00:10:09,560 --> 00:10:15,350
+Seria o próprio presidente e o Diniz que para remover um dado do banco de dados por exemplo você usa
+
+114
+00:10:15,650 --> 00:10:17,610
+o comando de lista SQL.
+
+115
+00:10:17,960 --> 00:10:24,410
+Então aqui essas conversões do México giram muito em torno dessa questão do crude e do cadastro que
+
+116
+00:10:24,410 --> 00:10:26,980
+você tem inserido se altera você.
+
+117
+00:10:27,100 --> 00:10:29,750
+Lei você exclui um dado do banco de dados.
+
+118
+00:10:30,170 --> 00:10:37,760
+Então se você usar o RL Barra clientes associado com um comando método do tipo pois você vai inserir
+
+119
+00:10:37,760 --> 00:10:39,980
+um novo cliente no banco de dados.
+
+120
+00:10:40,130 --> 00:10:46,790
+Se você usa o mesmo RL e Barra cliente só que agora com um comando do tipo Guedes significa que você
+
+121
+00:10:46,790 --> 00:10:50,450
+quer obter todos os clientes cadastrados no seu sistema.
+
+122
+00:10:50,700 --> 00:10:57,910
+Não obrigatoriamente todos seria semanticamente seria todos mas você pode associado com.
+
+123
+00:10:57,910 --> 00:11:03,710
+Observe se que vai ler os dados do Banco de dados você pode colocar por exemplo paginação receber algum
+
+124
+00:11:03,710 --> 00:11:07,070
+tipo de parâmetro que vai na sua consulta.
+
+125
+00:11:07,070 --> 00:11:11,930
+Por padrão se você não passa nada ele retorna somente os primeiros 20 registros.
+
+126
+00:11:11,930 --> 00:11:15,310
+Imagine que você tem uma tabela com 300 mil clientes.
+
+127
+00:11:15,320 --> 00:11:21,560
+Não faz sentido você deixar um alicerce que vai obter 300 mil clientes o banco de dados porque uma requisição
+
+128
+00:11:21,560 --> 00:11:23,450
+na capa do seu sistema parar de funcionar.
+
+129
+00:11:23,870 --> 00:11:29,350
+Então é importante que você também lide com essas questões e dentro do modelo.
+
+130
+00:11:29,420 --> 00:11:33,090
+Isso também está contemplado você pode passar parâmetros e tal.
+
+131
+00:11:33,130 --> 00:11:40,940
+Outra opção será o RL digamos assim padronizada nessas conversões doméstico seria você passa a barra
+
+132
+00:11:40,940 --> 00:11:43,560
+que Barra 36.
+
+133
+00:11:43,670 --> 00:11:49,850
+Ou seja nesse caso você vai fazer uma requisição do tipo Guedes ou seja você também está tentando obter
+
+134
+00:11:49,850 --> 00:11:57,740
+informações poxa ele tem uma semântica de alterar algo lá B que de fato você alterou algo quando você
+
+135
+00:11:57,740 --> 00:12:00,310
+inserir um dado no banco de dados e o bad.
+
+136
+00:12:00,320 --> 00:12:06,520
+Por outro lado não tem essa intenção de alterar nada e simplesmente obter um dado do baque.
+
+137
+00:12:06,650 --> 00:12:12,020
+Então no caso eu fiz um grande Back clientes obtive todos os clientes com a ressalva que você vai querer
+
+138
+00:12:12,020 --> 00:12:14,050
+página dentro do seu sistema.
+
+139
+00:12:14,290 --> 00:12:22,790
+E quando você fizer Back Back 36 você está querendo obter o cliente cujo aí de 36 você pode usar até
+
+140
+00:12:22,790 --> 00:12:30,470
+outros tipos de padrão por exemplo querer passar não digo mais para o meio mas na convenção padrão do
+
+141
+00:12:30,470 --> 00:12:37,690
+teste você passou aí obtém a partir de uma chamada Get expresso RL cliente bar 36.
+
+142
+00:12:37,700 --> 00:12:45,710
+O próximo padrão seria fazer um back clientes Barra World dele no caso aqui seria 12 fazendo um Push.
+
+143
+00:12:45,740 --> 00:12:50,180
+Você está alterando esse cliente que já está previamente cadastrado.
+
+144
+00:12:50,390 --> 00:12:56,720
+Então você usou para encontrar esse cliente passa de 12 esse aí não precisa ser exatamente o número
+
+145
+00:12:56,720 --> 00:13:03,120
+pode ser por exemplo no caso do Morro do MB Way é algo bem maior é tipo RS que ele chama de Object aí
+
+146
+00:13:03,490 --> 00:13:10,700
+não é um número como um seqüencial 1 2 3 um 5 em si ele é um número lá mais complexo você pode também
+
+147
+00:13:10,700 --> 00:13:16,880
+usar isso como sendo essa chave que você passa não precisa ser obrigatoriamente um número mais um identificador
+
+148
+00:13:16,880 --> 00:13:24,290
+daquele objeto então no caso clientes Barra 12 no método porque você está atualizando o cliente você
+
+149
+00:13:24,290 --> 00:13:30,860
+vai passar além da Barra l no copo da requisição você vai passar todos os dados que você quer atualizar
+
+150
+00:13:30,860 --> 00:13:32,810
+e ele vai lá e atualiza o cliente.
+
+151
+00:13:32,810 --> 00:13:40,420
+Finalmente quando você fizer Back Back 41 usando o verbo do HTTP o método do HTTP.
+
+152
+00:13:40,430 --> 00:13:50,120
+Em outras palavras o delete você está querendo excluir o cliente cujo dia 41 então você tem o RSS que
+
+153
+00:13:50,180 --> 00:13:52,540
+vão diretamente embarque todo.
+
+154
+00:13:52,550 --> 00:13:58,430
+Um exemplo é o que mais poderia ser produtos poderia ser vendas poderia ser fornecedores e você teria
+
+155
+00:13:58,670 --> 00:14:03,720
+esse mesmo padrão replicado para outros objetos do seu sistema.
+
+156
+00:14:03,970 --> 00:14:07,880
+E aí você pode por exemplo fazer alguma coisa do tipo.
+
+157
+00:14:08,060 --> 00:14:16,700
+Clientes Barra 36 Barra dependentes você pode ter outros padrões evoluir um pouco o teste para obter
+
+158
+00:14:16,700 --> 00:14:19,340
+por exemplo os dependentes do cliente 36.
+
+159
+00:14:19,340 --> 00:14:25,360
+Então você tem outras alternativas mais a Convenção Básica dos serviços Web.
+
+160
+00:14:25,430 --> 00:14:32,090
+São essas cinco Teles no caso de clientes usar o posto para incluir clientes usar no bad para obter
+
+161
+00:14:32,090 --> 00:14:38,700
+todos os clientes clientes bairro aí de usar no grid para obter aquele único cliente a partir do dia
+
+162
+00:14:38,980 --> 00:14:44,390
+clientes barrou a rede no metro porque ele vai atualizar aquele cliente.
+
+163
+00:14:44,450 --> 00:14:50,890
+Clientes barra de elite você vai excluir um determinado cliente por aí.
+
+164
+00:14:50,900 --> 00:14:57,830
+Então se as convenções usando o padrão aqui como a gente vai para as escolhas arquiteturais que tem
+
+165
+00:14:57,830 --> 00:15:04,900
+a ver tema da aula aqui mas que tem a ver com observe se a gente tem por exemplo duas grandes arquiteturas
+
+166
+00:15:04,900 --> 00:15:11,020
+baseadas em serviços de arquitetura SOA arquitetura de micro serviços arquitetura SOA arquitetura mais
+
+167
+00:15:11,020 --> 00:15:19,510
+antiga deve ter talvez uns dez anos ou mais o que é isso de 15 anos tem esse tipo de arquitetura arquitetura
+
+168
+00:15:19,510 --> 00:15:22,990
+SOA arquitetura baseada em serviços também.
+
+169
+00:15:23,080 --> 00:15:31,540
+Você tem vários serviços que são instalados dentro de um SB e um enterprise serve de base é um barramento
+
+170
+00:15:31,930 --> 00:15:33,580
+de serviços e um software.
+
+171
+00:15:33,580 --> 00:15:38,230
+Existem vários tipos de SB barramentos disponíveis no mercado.
+
+172
+00:15:38,230 --> 00:15:42,810
+Grandes empresas têm soluções para isso e você instala dentro desse software.
+
+173
+00:15:42,820 --> 00:15:47,740
+Esse barramento o seus serviços e esses serviços orquestrados.
+
+174
+00:15:47,740 --> 00:15:54,670
+Você pode usar linguagens existe umas linguagens para você orquestrar B por exemplo que eu me lembro
+
+175
+00:15:54,670 --> 00:16:01,930
+agora é você orquestra dentro do barramento faz um mal estar instala lá uma lógica um fluxo pra que
+
+176
+00:16:01,930 --> 00:16:07,720
+você use esses diversos serviços para que você consiga implementar um fluxo de venda fluxo de alguma
+
+177
+00:16:07,720 --> 00:16:10,480
+coisa dentro de um ambiente soa.
+
+178
+00:16:10,480 --> 00:16:19,150
+Então o SOA e esse serviços pode ser observe se só o BPI pode ser o Echo inclusive outros tipos de serviço
+
+179
+00:16:19,150 --> 00:16:23,500
+dependendo da solução pode suportar um ou outro tipo de serviço também.
+
+180
+00:16:23,500 --> 00:16:30,670
+Você instala os serviços dentro de um USB de um enterprise serve de base no Brasil que chama de barramento
+
+181
+00:16:30,670 --> 00:16:32,170
+o barramento de serviços.
+
+182
+00:16:32,350 --> 00:16:38,140
+E aí você coloca lá esse barramento vai orquestrar processo usado nos vários serviços para que você
+
+183
+00:16:38,140 --> 00:16:44,980
+possa ter o fluxo do seu negócio e os vários fluxos atendidos em processos que compartilham serviços.
+
+184
+00:16:44,980 --> 00:16:50,560
+Então você cria o serviço pequenos para que você consiga usar aquele mesmo serviço em vários fluxos
+
+185
+00:16:50,560 --> 00:16:51,340
+diferentes.
+
+186
+00:16:51,340 --> 00:16:56,630
+Por outro lado você tem um padrão mais moderno que é o padrão de micro serviços.
+
+187
+00:16:56,920 --> 00:17:04,500
+Então o micro serviço é você pegar uma aplicação maior e quebrar ela em pequenos módulos auto contidos
+
+188
+00:17:04,650 --> 00:17:07,310
+que você tem um ciclo de vida completo ali dentro.
+
+189
+00:17:07,750 --> 00:17:15,490
+Então é muito comum dentro desse ambiente de micro o você ter equipes focadas em um único serviço.
+
+190
+00:17:15,490 --> 00:17:23,770
+Por exemplo pegar o caso do Spotify existe provavelmente lá no Spotify uma equipe específica para a
+
+191
+00:17:24,010 --> 00:17:26,590
+criação e manutenção de playlists.
+
+192
+00:17:26,650 --> 00:17:36,010
+Então dentro do complexo mundo do esporte foi que envolvem time de áudio que envolve a parte visual
+
+193
+00:17:36,010 --> 00:17:43,420
+gráfico da aplicação que envolve categorização e Associação de músicas que tem estilos semelhantes e
+
+194
+00:17:43,420 --> 00:17:51,100
+coisas do tipo artistas que têm afinidades musicais então você quer ver os artistas relacionados dentro
+
+195
+00:17:51,100 --> 00:17:57,100
+desse universo de coisas tem uma equipe que é responsável por criar um micro serviço relacionado à manutenção
+
+196
+00:17:57,100 --> 00:17:58,030
+de playlists.
+
+197
+00:17:58,180 --> 00:18:05,140
+Tomando como exemplo essa playlist criada a partir desse micro serviço um app uma playlist tem o seu
+
+198
+00:18:05,140 --> 00:18:06,450
+nome alterado.
+
+199
+00:18:06,520 --> 00:18:12,690
+Dentro desse desse micro serviço coisas do tipo Então você cria um serviço especializado.
+
+200
+00:18:12,820 --> 00:18:19,760
+Você tem uma equipe especializada para cuidar do serviço via de regra nas empresas essa equipe ela cuidou
+
+201
+00:18:19,770 --> 00:18:21,210
+do desenvolvimento.
+
+202
+00:18:21,280 --> 00:18:29,950
+Ela cuida dos testes cuida da integração contínua cuida de colocar esse micro serviço em produção na
+
+203
+00:18:29,950 --> 00:18:35,780
+evolução desse micro o serviço então a equipe faz o trabalho de ponta a ponta em cima de algo bastante
+
+204
+00:18:35,830 --> 00:18:38,380
+especifico da sua do seu sistema como o todo.
+
+205
+00:18:38,620 --> 00:18:44,710
+Então você deixa de ter uma grande aplicação monolítica para ter serviços especializados esses serviços
+
+206
+00:18:45,340 --> 00:18:51,640
+não obrigatoriamente você tem um abscesso para cada micro serviço você pode ter alguns Web Services
+
+207
+00:18:51,640 --> 00:19:00,070
+por exemplo como padrão tanto para incluir alterar excluir consultar as playlists as diversas formas
+
+208
+00:19:00,070 --> 00:19:06,550
+possíveis então é possível que você tenha uma arquitetura de micro serviço em tecnologias diferentes
+
+209
+00:19:06,550 --> 00:19:08,560
+usando bancos de dados diferentes.
+
+210
+00:19:08,560 --> 00:19:15,820
+Tudo diferente é que fizerem isso com o ciclo de vida há algum tipo de micro serviço é publicado de
+
+211
+00:19:15,820 --> 00:19:17,100
+forma mais recorrente.
+
+212
+00:19:17,120 --> 00:19:23,920
+Então é como se fosse pequenos projetos independentes que somando todos esses serviços você vai acabar
+
+213
+00:19:23,920 --> 00:19:31,470
+formando a aplicação mais complexa o fato é que o SOA essa arquitetura baseada em serviços SOA.
+
+214
+00:19:31,480 --> 00:19:37,450
+Você tem esse barramento esse software que você vai fazer depois dado o seu serviço.
+
+215
+00:19:37,450 --> 00:19:42,070
+Lá dentro está mais difícil nessa arquitetura SOA arquitetura mais antiga.
+
+216
+00:19:42,070 --> 00:19:46,790
+Você conseguiu escalar de forma mais independente os serviços.
+
+217
+00:19:46,790 --> 00:19:53,710
+Vamos supor que o serviço de busca do Spotify que também é um outro micro serviço ele é muito mais demandado
+
+218
+00:19:53,720 --> 00:19:55,570
+ele precisa muito mais.
+
+219
+00:19:55,630 --> 00:20:02,440
+Essa escalada do que é um serviço de é muito mais fácil na arquiteturas de micro serviço.
+
+220
+00:20:02,640 --> 00:20:08,760
+Você escalar por exemplo o serviço de busca e deixar o serviço de beliche usando menos recurso você
+
+221
+00:20:08,760 --> 00:20:10,530
+consegue ter essa flexibilidade.
+
+222
+00:20:10,530 --> 00:20:19,230
+Por outro lado dentro do SOA você tem esse barramento como trazendo algumas facilidades na hora de comunicar
+
+223
+00:20:19,230 --> 00:20:24,970
+um serviço com outro seja o barramento a forma de comunicação muito mais inteligente.
+
+224
+00:20:25,080 --> 00:20:31,470
+No soa do que é que o serviço micro serviço que você tem serviços independentes e não tem a priori ninguém
+
+225
+00:20:31,470 --> 00:20:36,960
+pra gerenciar todas essas comunicações entre os serviços que formam a aplicação mais complexa.
+
+226
+00:20:37,350 --> 00:20:42,870
+Mas o mercado hoje ele é muito mais voltado diria sim para a micro serviço do que propriamente para
+
+227
+00:20:42,870 --> 00:20:43,710
+a sua.
+
+228
+00:20:43,710 --> 00:20:50,220
+Obviamente você vai ter que em cima de uma aplicação que tem muitos serviços você vai ter que ter uma
+
+229
+00:20:50,220 --> 00:20:56,630
+inteligência muito maior de como comunicar esse serviço e de como vai funcionar esses serviços.
+
+230
+00:20:56,660 --> 00:21:03,270
+Eu estou falando isso porque são consequências das evoluções quando você trabalha com um modelo de Web
+
+231
+00:21:03,270 --> 00:21:09,060
+Services uma hora ou outra você vai querer que a sua aplicação vá para algum tipo de arquitetura não
+
+232
+00:21:09,060 --> 00:21:09,900
+obrigatoriamente.
+
+233
+00:21:09,890 --> 00:21:16,710
+Você vai precisar decidir entre so serviços e não obrigatoriamente se fosse sistemas muito grandes provavelmente
+
+234
+00:21:16,710 --> 00:21:19,490
+você vai acabar indo para algum das duas opções.
+
+235
+00:21:19,490 --> 00:21:25,770
+Acredito que hoje de forma mais moderna as pessoas acabem indo pra essa abordagem de micro serviços
+
+236
+00:21:25,770 --> 00:21:31,320
+que é independente de software você não precisa ter um barramento pra controlar o seu software você
+
+237
+00:21:31,320 --> 00:21:38,450
+cria projetos independentes e dependendo da sua necessidade você pode quebrar uma aplicação em 300 micro
+
+238
+00:21:38,460 --> 00:21:45,210
+o serviço não pode quebrar por exemplo em três grandes grupos ou dez grandes grupos que agrupam serviços
+
+239
+00:21:45,210 --> 00:21:53,460
+relacionados aos serviços do RH ou serviços que têm a ver com folha de pagamento serviços do financeiro.
+
+240
+00:21:53,490 --> 00:21:59,250
+Aí você pode quebrar sua aplicação em uma forma que nem fique tão difícil de gerenciar mas também que
+
+241
+00:21:59,250 --> 00:22:04,220
+torne a sua aplicação um pouco mais fácil de evoluir.
+
+242
+00:22:04,240 --> 00:22:11,220
+E quando você tem uma aplicação só uma aplicação única monolítica é muito mais difícil você evolui essa
+
+243
+00:22:11,220 --> 00:22:18,240
+aplicação porque qualquer mudança pode gerar impactos muito maiores além do peso de você ter que fazer
+
+244
+00:22:18,270 --> 00:22:21,400
+depois de uma aplicação só faltou até fugir um pouco no tempo.
+
+245
+00:22:21,400 --> 00:22:27,400
+Mas o importante dessa aula é o que eu queria passar para vocês essa aula e o conceito de Web Service
+
+246
+00:22:27,840 --> 00:22:35,460
+que é serviços que são disponibilizados pela sua aplicação que rodam em cima de tecnologias web normalmente
+
+247
+00:22:35,460 --> 00:22:36,440
+via de regra.
+
+248
+00:22:36,450 --> 00:22:43,050
+Eu conheço roda em cima do protocolo HTTP então as duas principais tecnologias de mercados que são as
+
+249
+00:22:43,050 --> 00:22:51,740
+mais difundidas e tecnologias baseado em XML no caso Soap é a tecnologia usando observe se mexe mexe
+
+250
+00:22:51,810 --> 00:22:54,270
+não obrigatoriamente trabalha com isso.
+
+251
+00:22:54,330 --> 00:23:02,460
+Como já falei pode retornar XML pode retornar TXT mas via de regra trabalha com isso.
+
+252
+00:23:02,480 --> 00:23:10,320
+7 é um formato textual de dados que é o JavaScript Object no trecho certo então isso é apenas o formato
+
+253
+00:23:10,320 --> 00:23:11,340
+textual.
+
+254
+00:23:11,340 --> 00:23:17,080
+Isso serve para muitas coisas inclusive pra retornar dados a partir de web services.
+
+255
+00:23:17,100 --> 00:23:24,600
+Então você tem o formato sobre como ser bem mais burocrático baseado em XML como descrito no serviço
+
+256
+00:23:25,440 --> 00:23:26,180
+bem grande.
+
+257
+00:23:26,170 --> 00:23:30,020
+Você tem que ter muito mais trabalho para usar esse tipo de serviço.
+
+258
+00:23:30,040 --> 00:23:33,690
+E observe se léxica é o que nós vamos abordar aqui no curso.
+
+259
+00:23:33,690 --> 00:23:39,420
+Ele é muito mais simples tem uma convenção a ser seguida para que você fique aderente ao padrão ético
+
+260
+00:23:39,860 --> 00:23:41,270
+mas não apenas aquilo.
+
+261
+00:23:41,310 --> 00:23:47,880
+Você pode estender um pouco mais aquela aqueles cinco aquelas cinco mulheres pra eles um pouco mais
+
+262
+00:23:48,180 --> 00:23:51,180
+trabalhadas dependendo da necessidade que você tem.
+
+263
+00:23:51,180 --> 00:23:53,790
+Existem também outras alternativas no mercado.
+
+264
+00:23:53,850 --> 00:24:00,240
+Não só mexe isso ou você pode criar abcessos usando por exemplo Graph Kelly que é uma tecnologia do
+
+265
+00:24:00,240 --> 00:24:06,270
+Facebook então tem outras alternativas também mas a gente vai aqui no curso focar especificamente o
+
+266
+00:24:06,380 --> 00:24:08,430
+sexo do tipo.
+
+267
+00:24:08,550 --> 00:24:11,690
+Eu falei pra vocês também agora no final um pouquinho de arquitetura.
+
+268
+00:24:11,760 --> 00:24:13,210
+Arquitetura de Sistemas.
+
+269
+00:24:13,320 --> 00:24:20,130
+Como você vai modelar a solução inteira do seu sistema como você vai organizar é baseado em uma arquitetura
+
+270
+00:24:20,130 --> 00:24:28,770
+baseada em SOA Service Oriented arquiteto ou seja Arquitetura Orientada a Serviços que soa como arquitetura
+
+271
+00:24:29,060 --> 00:24:31,220
+um pouco mais antigo baseada.
+
+272
+00:24:31,230 --> 00:24:37,890
+Você tem que ter um software que é o SB Enterprise Service busca o barramento e nesse software você
+
+273
+00:24:37,900 --> 00:24:44,250
+vai instalando seus serviços e depois que o seu serviço está instalado você vai fazer depois lá por
+
+274
+00:24:44,250 --> 00:24:48,840
+exemplo medir fluxos que vão usar esse serviço para fazer algum tipo de trabalho.
+
+275
+00:24:48,900 --> 00:24:56,640
+Por outro lado você tem arquitetura de micro serviços que são sistemas Micro Sistemas bastante especializados
+
+276
+00:24:57,150 --> 00:24:59,480
+que ciclo de vida própria.
+
+277
+00:24:59,480 --> 00:25:02,860
+Sua linguagem de programação própria e seu banco de dados próprio.
+
+278
+00:25:02,930 --> 00:25:08,690
+Seu time de desenvolvimento próprio que normalmente nessa era de devotos é o cara que é desenvolvedor
+
+279
+00:25:09,020 --> 00:25:15,660
+também lida com todo o fluxo da aplicação de ponta a ponta do desenvolvimento do Peixe.
+
+280
+00:25:15,890 --> 00:25:23,240
+Na parte de implantação integração contínua e coisas do tipo então você tem profissionais que não obrigatoriamente
+
+281
+00:25:23,240 --> 00:25:27,740
+um cara vai fazer todos os papéis mas ele tem que ter um certo conhecimento de todos os papéis.
+
+282
+00:25:27,750 --> 00:25:30,520
+Isso é o que modernamente a gente vê no mercado certo.
+
+283
+00:25:30,860 --> 00:25:36,830
+Então essa arquitetura de micro serviço de uma certa forma você perde um pouco a inteligência desse
+
+284
+00:25:36,830 --> 00:25:40,070
+meio de comunicação do barramento que você tinha.
+
+285
+00:25:40,470 --> 00:25:46,040
+Mas você também ganha muita flexibilidade porque você não aprende especificamente do software de ninguém
+
+286
+00:25:46,360 --> 00:25:52,400
+e você tem como escalar suas aplicações muito mais tranquila e tem como ter uma flexibilidade muito
+
+287
+00:25:52,400 --> 00:25:56,780
+grande até nas escolhas e como você vai organizar sua aplicação.
+
+288
+00:25:56,780 --> 00:25:58,600
+Que tipo de padrões você segue.
+
+289
+00:25:58,760 --> 00:26:02,720
+Então é uma empresa que usa esse tipo de arquitetura de o serviço.
+
+290
+00:26:02,720 --> 00:26:09,800
+é comum que você encontre uma flexibilidade uma autonomia a palavra e sua autonomia muito grande dentro
+
+291
+00:26:09,800 --> 00:26:12,450
+da equipe para fazer suas próprias escolhas.
+
+292
+00:26:12,440 --> 00:26:14,560
+Que tipo de padrão é usar.
+
+293
+00:26:14,570 --> 00:26:18,050
+Que tipo de organização entre Balzac tipo de linguagem de Balzac.
+
+294
+00:26:18,300 --> 00:26:25,540
+é muito comum que nessas empresas que usam essa tecnologia ou serviço você tenha também uma flexibilidade
+
+295
+00:26:25,550 --> 00:26:29,780
+uma autonomia muito maior das equipes para escolher as suas próprias tecnologias.
+
+296
+00:26:29,780 --> 00:26:31,510
+Então essa foi a aula de websérie.
+
+297
+00:26:31,850 --> 00:26:37,580
+Na próxima ela vai ver um pouquinho sobre computação em nuvem os conceitos os tipos de nuvem que existem
+
+298
+00:26:37,910 --> 00:26:41,200
+para a gente finalizar esse capítulo sobre conceitos da web.
+
+299
+00:26:41,510 --> 00:26:45,800
+Eu falei de algumas coisas de INFO algumas coisas de software algumas coisas que nem tem tanto a ver
+
+300
+00:26:46,160 --> 00:26:47,590
+com o livro nem com o software.
+
+301
+00:26:47,670 --> 00:26:48,740
+é para dar para vocês.
+
+302
+00:26:49,030 --> 00:26:55,670
+Não há base legal para a gente cair no próximo capítulo direto na parte de web e voltar às nossas qualificações
+
+303
+00:26:55,670 --> 00:26:56,600
+os nossos exemplos.
+
+304
+00:26:56,720 --> 00:27:00,380
+Então espero na próxima aula pra gente falar um pouquinho sobre computação em nuvem.

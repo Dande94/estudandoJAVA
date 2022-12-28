@@ -1,0 +1,367 @@
+1
+00:00:00,350 --> 00:00:08,320
+Na aula passada falei para vocês do problema que é quando você substitui aqui em Paris o LinkedIn às
+
+2
+00:00:08,380 --> 00:00:10,350
+7 por 8 e 7.
+
+3
+00:00:10,630 --> 00:00:18,180
+Quando você faz isso a gente vai ter um problema que é o seguinte nós teremos um problema que eles exigem
+
+4
+00:00:18,270 --> 00:00:26,220
+que o valor esteja dentro outros sete ou seja tem uma interface com bom que essa interface que ao javali
+
+5
+00:00:26,370 --> 00:00:34,320
+outro perde se você copiar esse valor e deu Command Shift Tatu selecionar aqui você vai ver como perde
+
+6
+00:00:34,560 --> 00:00:39,720
+clicando duas vezes você consegue ver o código fonte dessa interface e isso também acontece para os
+
+7
+00:00:39,720 --> 00:00:48,660
+outros tipos em japonês se você der aquilo como de Shift e procurar Kana até que Java útil escaneia
+
+8
+00:00:48,660 --> 00:00:55,260
+clicando duas vezes sem abri vai ver como foi implementado e Scanner você pode ver várias outras classes
+
+9
+00:00:55,260 --> 00:00:56,300
+do Java.
+
+10
+00:00:56,340 --> 00:01:02,790
+Sempre tem muita documentação nessa classes com documentação gigante que você consegue ver o código
+
+11
+00:01:02,790 --> 00:01:08,350
+fonte de dados JD Calendar e básico do Java e não é diferente com as interfaces.
+
+12
+00:01:08,730 --> 00:01:15,330
+Nesse caso de interface ela tem o objetivo de comparar dois objetos e aí a ideia é você retorna um valor
+
+13
+00:01:15,450 --> 00:01:23,250
+negativo ou zero ou um valor positivo pode ser menos 30 menos 2 menos um homem a menos um 0 é mais ou
+
+14
+00:01:23,610 --> 00:01:24,380
+menos um.
+
+15
+00:01:24,380 --> 00:01:31,460
+Quer dizer que o objeto ou o objeto atual ele é menor do que o objeto que você está comparando se for
+
+16
+00:01:31,460 --> 00:01:37,710
+0 igual ou se o objeto é maior do que o objeto especificado passado como parâmetro.
+
+17
+00:01:38,250 --> 00:01:44,790
+Então se o objeto atual comparado com o outro objeto retorna quer dizer que ele é maior se ele retorna
+
+18
+00:01:44,790 --> 00:01:50,160
+a zero quer dizer que eles são iguais do ponto de comparação e se ele retorna a menos o quer dizer que
+
+19
+00:01:50,160 --> 00:01:54,000
+o objeto atual é menor do que o objeto passado como parâmetro.
+
+20
+00:01:54,000 --> 00:02:00,810
+Basicamente isso que essa interface define nesse caso se eu fizer essa mudança a gente vai ter muitos
+
+21
+00:02:00,810 --> 00:02:09,750
+problemas porque o que são implementar aqui um tempero tão bom você tem que o cooperado colocar dizendo
+
+22
+00:02:09,750 --> 00:02:19,020
+que essa classe vai ser comparada com outro tipo de culpar mais o que acontece é que o critério de comparação
+
+23
+00:02:19,080 --> 00:02:21,110
+que eu preciso implementar essa interface.
+
+24
+00:02:21,180 --> 00:02:27,360
+Obviamente se eu colocar para ele retornar a zero simplesmente todos serão iguais ele vai usar qualquer
+
+25
+00:02:27,360 --> 00:02:32,380
+critério de comparação isso inclusive até ser um problema ele.
+
+26
+00:02:32,400 --> 00:02:40,430
+Talvez ele coloque mais um elemento dentro da lista de jogar executando ele retornou nulo nulo nulo.
+
+27
+00:02:40,440 --> 00:02:46,800
+Só fico com a Rebecca porque no final das contas ele soube aceitar um único elemento dentro do 3 7 porque
+
+28
+00:02:46,800 --> 00:02:49,200
+todos são iguais então ele usa.
+
+29
+00:02:49,200 --> 00:02:55,200
+No caso do 7 o comparam pra dizer quando a mente é igual ao outro porque ele sempre tem que ter um critério
+
+30
+00:02:55,200 --> 00:03:01,130
+de desigualdade sempre tem que ser mal ou outro se forem iguais eles não vão estar contidos dentro do
+
+31
+00:03:01,150 --> 00:03:04,020
+mérito só ficou no final das contas a Rebeca.
+
+32
+00:03:04,030 --> 00:03:04,600
+Por quê.
+
+33
+00:03:04,610 --> 00:03:09,200
+Porque no nosso caso como robô ele ta tornando sempre zero.
+
+34
+00:03:09,240 --> 00:03:18,000
+O problema especificamente nesse caso e como é que eu vou comparar um bar com outro PA se o tipo e os
+
+35
+00:03:18,000 --> 00:03:20,050
+tipos são genéricos não dá.
+
+36
+00:03:20,110 --> 00:03:26,460
+Entendeu a não ser que eu comece a mexer muito nos chips para amarrar partidos inteiros e coisas do
+
+37
+00:03:26,460 --> 00:03:26,870
+tipo.
+
+38
+00:03:26,870 --> 00:03:28,160
+Entendeu mas não é o caso.
+
+39
+00:03:28,170 --> 00:03:32,340
+Acho que vai acabar mexendo muito no exercício e não vai trazer nenhum ganho.
+
+40
+00:03:32,400 --> 00:03:39,210
+Nesse caso terei que pagar alguma coisa do tipo sei lá 10 conto ponto chave e fazer tipo um critério
+
+41
+00:03:39,210 --> 00:03:45,870
+de comparação se isso aqui é maior do que o ponto chave e aí dependendo da situação eu vou à tona aqui
+
+42
+00:03:45,890 --> 00:03:47,300
+e menos um.
+
+43
+00:03:47,480 --> 00:03:54,470
+O zero é coisas do tipo pra comparar os dois mas como o Xavi pode ser qualquer coisa pode ser um extremo
+
+44
+00:03:54,480 --> 00:03:58,850
+e pode ser o número e não necessariamente essa coisa que tá aqui.
+
+45
+00:03:58,860 --> 00:04:05,190
+Pode ser facilmente comparável por exemplo ao cliente ele é maior ou menor do que outro cliente.
+
+46
+00:04:05,220 --> 00:04:09,690
+Talvez você não tenha essa interface implementada desde então.
+
+47
+00:04:09,900 --> 00:04:13,740
+E aqui a gente tá trabalhando num nível muito genérico do nível do C.
+
+48
+00:04:14,070 --> 00:04:19,350
+Então não dá para a gente fazer essa comparação de uma forma eficiente mostrar pra vocês o fato é que
+
+49
+00:04:19,860 --> 00:04:26,460
+se você for fazer um exemplo simples por exemplo eu vou tirar aqui o campo fértil só pra gente não ficar
+
+50
+00:04:26,460 --> 00:04:33,780
+sem esse exercício eu vou tirar que o impeachment no nosso caso não dá porque os nossos dois parâmetros
+
+51
+00:04:33,780 --> 00:04:39,690
+são muito genéricos a gente não consegue ter um critério de comparação objetiva então aqui eu vou voltar
+
+52
+00:04:39,690 --> 00:04:41,950
+para o LinkedIn.
+
+53
+00:04:42,600 --> 00:04:49,800
+7 quero o que eu queria desde o começo e a gente pode por exemplo só para mostrar aqui um exemplo simples
+
+54
+00:04:49,810 --> 00:05:04,380
+onde eu vou criar aqui um exercício que chamar comparei com a China e aqui algumas das classes digamos
+
+55
+00:05:04,380 --> 00:05:12,330
+assim que tenho o comparativo e o inteligencia abre aqui o Command Shift se você não conseguir abrir
+
+56
+00:05:12,330 --> 00:05:18,300
+o código fonte não tem problema certo isso não parece uma questão de configuração mesmo abrindo aqui
+
+57
+00:05:18,630 --> 00:05:26,130
+contra o One você vai ver o que o Inter ele tem não é o Inter ele implementa a interface com barba de
+
+58
+00:05:26,130 --> 00:05:33,570
+tal forma que se a gente procurar o metro aqui algum como no caso de vocês contra o UOL coberto Ju você
+
+59
+00:05:33,570 --> 00:05:39,150
+vai ver o que é curioso pra comparao ele criou uma função completa e o companheiro vai simplesmente
+
+60
+00:05:39,150 --> 00:05:45,000
+verificar se é maior do que o outro se torna menos uns com igual e tal fazem aqui algumas operações
+
+61
+00:05:45,000 --> 00:05:47,410
+ternário simples pra comparar dois números.
+
+62
+00:05:47,870 --> 00:05:50,350
+Essa classe completa também está bem tímida.
+
+63
+00:05:50,880 --> 00:05:57,710
+Então ele tem uma implementação pra isso significa que se eu quiser criar outro site que usa o Inter
+
+64
+00:05:57,780 --> 00:06:06,720
+ele vai funcionar corretamente estão colocando aqui criar um site do tipo internet.
+
+65
+00:06:07,040 --> 00:06:19,380
+Vou colocar aqui e lá vamos colocar no Free cede ponto e vírgula que eu não preciso obviamente não coloco
+
+66
+00:06:19,380 --> 00:06:20,820
+aqui ambos.
+
+67
+00:06:21,190 --> 00:06:22,590
+Ponto.
+
+68
+00:06:22,650 --> 00:06:30,710
+Adicionar dez e vou duplicar que a linha vai adicioná la depois.
+
+69
+00:06:30,880 --> 00:06:41,240
+3 2 6 2 8 2 9 Centro.
+
+70
+00:06:41,560 --> 00:06:47,290
+3 E finalmente vou colocar aqui o valor de menos 3.
+
+71
+00:06:47,710 --> 00:06:56,440
+Então nesse caso se eu fizer um forte em cima desses valores que intervém em dois pontos você vai ver
+
+72
+00:06:56,590 --> 00:06:59,950
+o resultado gerado no final vai estar na ordem correta.
+
+73
+00:06:59,950 --> 00:07:10,480
+De acordo com um bom primeiro ou menor valor depois mais ou menos 13 3 6 8 9 10 120 3 porque eu consegui
+
+74
+00:07:10,570 --> 00:07:12,410
+usar o item Gibraltar.
+
+75
+00:07:12,400 --> 00:07:19,360
+7 Por que ele simplesmente um bom se eu criar uma classe por exemplo funcionario ou cliente e eu quiser
+
+76
+00:07:19,360 --> 00:07:25,990
+ordenar o cliente por exemplo o funcionário pela ordem que o cara entrou na empresa ou seja o que o
+
+77
+00:07:25,990 --> 00:07:29,560
+funcionário que tem mais tempo de casa tem prioridade.
+
+78
+00:07:29,800 --> 00:07:35,350
+E aí você cria lá uma data de entrada na empresa faz um cálculo pra saber se o mandato é maior do que
+
+79
+00:07:35,350 --> 00:07:41,020
+a outra implemente o conserto e aí você jogando isso no outro excede automaticamente lhe ordenar aos
+
+80
+00:07:41,020 --> 00:07:42,020
+funcionários.
+
+81
+00:07:42,220 --> 00:07:47,380
+De acordo com o tempo de caso seja sempre do mais antigo para o mais novo.
+
+82
+00:07:47,460 --> 00:07:53,800
+Então é exatamente nesse contexto que se encaixa o 7 ou seja quando você tem um determinado tipo que
+
+83
+00:07:53,800 --> 00:08:00,030
+implementa ou coopera ele vai precisar implementá lo com pergunto inclusive para definir se o tipo é
+
+84
+00:08:00,030 --> 00:08:00,820
+igual ao outro.
+
+85
+00:08:00,820 --> 00:08:06,340
+No nosso caso como a gente implementou com verba e colocou o Zero ele só permitiu o enquadramento dentro
+
+86
+00:08:06,340 --> 00:08:12,140
+do nosso site porque isso também é usado como critério de igualdade especificamente aqui 7.
+
+87
+00:08:12,240 --> 00:08:17,320
+Tão só para mostrar pra vocês aqui o exemplo não é tanto o foco do nosso capitão falar sobre isso mas
+
+88
+00:08:17,320 --> 00:08:23,860
+como acabou gerando esse problema durante o nosso exercício mostrar pra vocês que no nosso caso implementá
+
+89
+00:08:23,860 --> 00:08:28,870
+lo com verba não vale a pena porque ele está trabalhando com genéricos e a gente não tem como fazer
+
+90
+00:08:28,870 --> 00:08:34,980
+essa comparação de forma eficiente no nível de generalização que a gente tem mas não é um problema com
+
+91
+00:08:35,080 --> 00:08:41,560
+nosso exercício de Paris a gente pode sim muito bem usar o link de 7 isso não será um problema pessoal
+
+92
+00:08:41,560 --> 00:08:45,580
+tem por aqui e na próxima aula a gente vai concluir nosso capítulo e até lá.

@@ -1,0 +1,231 @@
+1
+00:00:00,200 --> 00:00:07,510
+Penso agora nós vamos fazer o nosso primeiro exercício de alteração e nós vamos criar mais um exercício
+
+2
+00:00:07,560 --> 00:00:08,700
+de alteração na verdade.
+
+3
+00:00:08,700 --> 00:00:14,470
+Por isso que eu vou chamar esse exercício de alterar o usuário clicar aqui com o botão direito.
+
+4
+00:00:14,930 --> 00:00:30,210
+Mas vamos ter que alterar o usuário e criar o nosso método mas já está pronto o processo inicial vai
+
+5
+00:00:30,210 --> 00:00:36,060
+ser o mesmo ou criá la está copiado e isso tal repetidamente.
+
+6
+00:00:36,570 --> 00:00:37,500
+A gente pode.
+
+7
+00:00:37,500 --> 00:00:40,990
+Na verdade existem algumas formas de trabalhar com JP.
+
+8
+00:00:41,040 --> 00:00:46,980
+Vai depender muito do cenário já trabalhando por exemplo com a tecnologia que tem injeção de dependência.
+
+9
+00:00:46,980 --> 00:00:52,590
+Você pode não necessariamente precisar criar isso você faz a injeção independência e não vai entrar
+
+10
+00:00:52,590 --> 00:00:58,170
+muito no mérito aqui porque já o outro tema mais aqui eu estou copiando e vocês vão ver que mais na
+
+11
+00:00:58,170 --> 00:01:00,100
+frente eu vou criar um.
+
+12
+00:01:00,110 --> 00:01:05,580
+Na verdade está no começo do capítulo ainda falando de idade da parte do crude né o cliente na recepção
+
+13
+00:01:05,670 --> 00:01:11,520
+a consulta atualização e exclusão depois que ele for pra um algo um pouco mais complexo a gente vai
+
+14
+00:01:11,850 --> 00:01:18,390
+facilitar nossa vida usando Bell para encapsular essa parte do JP mas por enquanto estou colocando realmente
+
+15
+00:01:18,390 --> 00:01:20,160
+copiando o outro.
+
+16
+00:01:20,190 --> 00:01:25,940
+O ideal é que você vá fazendo isso manualmente até para aí ganhando essa fluência repetição acho que
+
+17
+00:01:26,020 --> 00:01:32,100
+as melhores armas para quem quer aprender qualquer coisa seja em inglês seja a programação seja guitarra
+
+18
+00:01:32,120 --> 00:01:34,050
+bateria não é muito importante.
+
+19
+00:01:34,290 --> 00:01:35,930
+Esse processo de repensar.
+
+20
+00:01:35,950 --> 00:01:38,680
+Então eu vou colocar aqui pra fechar.
+
+21
+00:01:38,770 --> 00:01:46,350
+Nós precisamos fazer e eu vou querer alterar um determinado usuario pagar o usuário 7 que é o Leonardo
+
+22
+00:01:46,740 --> 00:01:50,230
+e vou querer alterar tanto o e-mail como o nome.
+
+23
+00:01:50,250 --> 00:01:56,340
+Em vez de LEU pra colocar Leonardo e pra isso eu vou precisar consultar e vou precisar alterá lo como
+
+24
+00:01:56,340 --> 00:02:02,140
+eu vou precisar alterar ou precisar de uma transação certo então pra isso já vou abrir a transação.
+
+25
+00:02:02,240 --> 00:02:13,340
+Ponto Betti transacção daqui já vou colocar aqui mais no final de semana com outro baixinho transacção
+
+26
+00:02:14,360 --> 00:02:15,570
+transacção.
+
+27
+00:02:15,800 --> 00:02:18,070
+Outro comite para comentar.
+
+28
+00:02:18,170 --> 00:02:18,920
+E aí vou fazer.
+
+29
+00:02:18,920 --> 00:02:23,270
+Primeiro vou pagar um usuário apenas né usuário.
+
+30
+00:02:23,380 --> 00:02:26,620
+Lá o usuário recebe menos.
+
+31
+00:02:26,660 --> 00:02:28,180
+Ponto final.
+
+32
+00:02:28,230 --> 00:02:33,750
+Vou passar a classe em que usuário precisa da classe para fazer esse processo de introspecção e entender
+
+33
+00:02:33,750 --> 00:02:40,490
+como é que ele vai pegar o resultado do banco de dados jogar isso dentro dos objetos e aqui eu vou passar
+
+34
+00:02:40,620 --> 00:02:48,660
+o usuário de sete homens com animais para ficar mais claro que se trata de um louco pronto a primeira
+
+35
+00:02:48,660 --> 00:02:54,240
+faz só pra gente ter certeza que tá funcionado eu vou colocar aqui um system Audi usuário ponto negativo
+
+36
+00:02:54,870 --> 00:03:02,700
+meio que pode ser executado não ter problema executar uma transação consulta dentro de uma transação
+
+37
+00:03:02,710 --> 00:03:06,170
+então isso não é um problema nenhum.
+
+38
+00:03:06,400 --> 00:03:12,500
+Então vou fazer o seguinte ao usuario ponto 7 Não vou colocar aqui.
+
+39
+00:03:13,080 --> 00:03:26,290
+Leonardo vou colocar que o usuário controle sete anos e meio pra ser analisado lanche Ponto BR.
+
+40
+00:03:26,310 --> 00:03:33,870
+O próximo passo vai ser eu chamar o menu de pra ele alterar o usuário não vai seu persiste seu método
+
+41
+00:03:33,860 --> 00:03:34,740
+Merge.
+
+42
+00:03:35,090 --> 00:03:42,110
+O médio é responsável por pegar um usuário que já está no banco e o objeto que já está no banco e persistir
+
+43
+00:03:42,690 --> 00:03:46,560
+na verdade fazer alteração e fazer um loop deixa o comando de rapidez.
+
+44
+00:03:46,880 --> 00:03:52,730
+Então uma vez que definir o método que vai ser responsável por fazer esse ambiente geral com o modo
+
+45
+00:03:52,730 --> 00:03:59,100
+de atualização do banco de dados agora vou usar e executar melhor dizendo para a gente o resultado terminou
+
+46
+00:03:59,310 --> 00:04:01,980
+a execução é agora para a gente ver o resultado.
+
+47
+00:04:01,980 --> 00:04:09,540
+Eu vou aqui fazer uma consulta e você vai ver que o resultado é o nada bom lanche ponto com.br e o nome
+
+48
+00:04:09,540 --> 00:04:17,580
+não marca exatamente aquilo que teria que se eu colocar voltar para lá eu que obviamente essa execução
+
+49
+00:04:18,120 --> 00:04:25,230
+vai causar alta alteração do registro ele vai voltar para a seleção lanchinho certo mas eu vou deixar
+
+50
+00:04:25,690 --> 00:04:29,400
+Leonardo mesmo já que o valor alterado para automóveis.
+
+51
+00:04:29,400 --> 00:04:34,530
+Feito isso testei aqui já deu pra ver que ele trouxe a alteração certo.
+
+52
+00:04:34,710 --> 00:04:39,870
+Existem algumas pegadinhas que eu quero trabalhar com vocês na próxima aula.
+
+53
+00:04:40,070 --> 00:04:44,850
+Eu não vou entrar no mérito mas procurei também não confundir muito mais proximal vou mostrar pra vocês
+
+54
+00:04:44,850 --> 00:04:52,170
+algumas variações da alteração e o que é que acontece quando você faz uma consulta e quando você está
+
+55
+00:04:52,170 --> 00:04:57,750
+dentro de um contexto transacional isso é importante ser entendido melhor do que é o conceito quando
+
+56
+00:04:57,780 --> 00:05:04,550
+a entidade está no Estado gera em si não gerenciado e o que implica isso na prática é que para acontecer
+
+57
+00:05:04,910 --> 00:05:10,850
+alguns comportamentos inesperados se você não entender um pouco sobre esse conceito e é exatamente o
+
+58
+00:05:10,850 --> 00:05:15,370
+que eu vou falar na próxima aula a partir do segundo exemplo alterar o usuário e a tela.

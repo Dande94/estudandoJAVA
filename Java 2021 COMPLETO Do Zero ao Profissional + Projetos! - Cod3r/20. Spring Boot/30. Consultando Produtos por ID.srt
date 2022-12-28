@@ -1,0 +1,203 @@
+1
+00:00:00,540 --> 00:00:08,700
+Antes de o update quero fazer mais uma consulta só que agora a gente vai consultar apenas um único produto
+
+2
+00:00:08,700 --> 00:00:09,390
+por aí.
+
+3
+00:00:09,390 --> 00:00:12,220
+Também é uma consulta extremamente importante.
+
+4
+00:00:12,390 --> 00:00:18,630
+Vai até duas aulas de dirige agora e eu vou colocar mais uma outra aula pra gente ler todos os produtos
+
+5
+00:00:18,630 --> 00:00:22,140
+de forma paga e nada mais para o final dado o nosso capitão.
+
+6
+00:00:22,380 --> 00:00:28,000
+Então vamos lá mas vamos criar aqui uma outra função que eu vou chamar aqui publiquem.
+
+7
+00:00:28,050 --> 00:00:33,360
+Ela pode retornar um produto ou não então pelo fato de poder retornar um produto não a gente vai usar
+
+8
+00:00:33,780 --> 00:00:38,460
+um opcional que a gente já usou ele anteriormente mas eu vou colocar VOD por enquanto para a gente entender
+
+9
+00:00:38,460 --> 00:00:44,820
+o tipo de retorno que o próprio produto repositor vai servir pra gente nem vai nos dar como resposta.
+
+10
+00:00:45,240 --> 00:00:50,920
+Então vou colocar aqui obter produto no singular.
+
+11
+00:00:51,480 --> 00:01:00,510
+Aí eu vou esperar receber mais de um como parâmetro eu vou colocar aqui ali e eu vou chamar o produto
+
+12
+00:01:00,720 --> 00:01:02,640
+repositório e ponto.
+
+13
+00:01:02,730 --> 00:01:09,140
+Nós temos aqui um French Bay que recebe como parâmetro olha o tipo de retorno.
+
+14
+00:01:09,220 --> 00:01:15,140
+OP chamam de produto porque é uma opção porque você pode eventualmente passar uma ideia que não existe.
+
+15
+00:01:15,240 --> 00:01:21,240
+é por esse motivo ele já vai retornar um tipo específico que vai para a gente dar um valor opcional.
+
+16
+00:01:21,450 --> 00:01:27,510
+Então aqui a vantagem de você lidar com isso é que você não vai se preocupar por exemplo se existe ou
+
+17
+00:01:27,510 --> 00:01:28,010
+não tá.
+
+18
+00:01:28,010 --> 00:01:37,020
+Pode ser que não exista e aqui eu vou substituir por um opcional aqui já último de um produto legal
+
+19
+00:01:37,110 --> 00:01:42,450
+torna bem simples o nosso processo aqui no caso eu vou fazer uma aquisição também do tipo GET.
+
+20
+00:01:42,450 --> 00:01:44,760
+Já quem está obtendo dados do servidor.
+
+21
+00:01:45,090 --> 00:01:52,000
+Só que aqui a gente precisa trabalhar com a propriedade passe ou seja eu vou definir um perfil específico.
+
+22
+00:01:52,020 --> 00:01:59,340
+Nesse caso eu vou colocar aqui um par de chaves e dizer que o tipo de parâmetro que eu vou receber na
+
+23
+00:01:59,340 --> 00:02:05,940
+parte final da RL que a composição dessa barra API Barra produtos Barra.
+
+24
+00:02:06,010 --> 00:02:11,400
+Aí quando for passado de ele vai cair exatamente nessa.
+
+25
+00:02:11,400 --> 00:02:13,590
+RL aqui vai chamar esse produto.
+
+26
+00:02:13,680 --> 00:02:22,020
+E aqui eu vou marcar esse parâmetro com a arroba PAF bom ou seja uma variável que está presente dentro
+
+27
+00:02:22,020 --> 00:02:24,030
+do perfil da minha aplicação.
+
+28
+00:02:24,090 --> 00:02:30,570
+Então tá está que eu consigo ser uma aquisição do BAD eu consigo testar diretamente no Brasil então
+
+29
+00:02:30,900 --> 00:02:36,650
+Barra vai tonal apenas a geladeira Barra 2.
+
+30
+00:02:36,660 --> 00:02:38,160
+Batom na lápis.
+
+31
+00:02:38,220 --> 00:02:40,770
+Se eu colocar aqui barram 200.
+
+32
+00:02:40,950 --> 00:02:48,420
+Ele vai tornar nulo exatamente o que ele prevê a possibilidade de não existir resultado caso você passe
+
+33
+00:02:48,900 --> 00:02:50,220
+de inválido.
+
+34
+00:02:50,220 --> 00:02:56,390
+Então se eu fizer uma requisição passando a barra ele vai tornar não especificamente aquele elemento.
+
+35
+00:02:56,490 --> 00:03:01,530
+Se eu colocar apenas a barra produtos e fizer um gatinho ele vai retornar à lista.
+
+36
+00:03:01,530 --> 00:03:07,600
+Note que na lista não cometer mal passado ela está envolvida como parte de colchetes significa que é
+
+37
+00:03:07,690 --> 00:03:15,060
+um rei conjunto na sua lista de elementos chamam isso de Rei uma rede de elementos e cada elemento é
+
+38
+00:03:15,060 --> 00:03:23,220
+um objeto com os atributos de nome pra isso é desconto legal a mesma coisa se eu fizer que produtos
+
+39
+00:03:23,220 --> 00:03:29,890
+Barra 3 e fizer aquilo e aquisição ele vai trazer especificamente note que ele não está mais usando
+
+40
+00:03:29,890 --> 00:03:37,250
+o pago colchetes trouxe simplesmente um único objeto que é exatamente o produto que tem aí de 3.
+
+41
+00:03:37,350 --> 00:03:43,500
+Legal então aqui uma das possibilidades que você tem para obter dados a partir do servidor a partir
+
+42
+00:03:43,500 --> 00:03:48,220
+de uma requisição Bete agora passando como principal parâmetro.
+
+43
+00:03:48,360 --> 00:03:54,120
+Essa é o tipo de consulta é extremamente útil também principalmente quando você quer alterar um determinado
+
+44
+00:03:54,120 --> 00:03:55,140
+produto.
+
+45
+00:03:55,140 --> 00:04:00,690
+Muitas vezes você entra numa tela já com os dados carregados então muitas vezes essa é o tipo de requisição
+
+46
+00:04:00,690 --> 00:04:06,870
+feita para obter os dados daquele produto a partir daí e depois que você carrega a interface com todos
+
+47
+00:04:06,870 --> 00:04:13,050
+os dados carregados você altera e realmente faz uma outra requisição para um Movimento Popular para
+
+48
+00:04:13,080 --> 00:04:17,490
+que não se altere os Dados então nós fizemos a criação.
+
+49
+00:04:17,490 --> 00:04:23,760
+Fizemos duas aulas de leitura na leitura de todos os dados em todos os produtos e agora a gente é capaz
+
+50
+00:04:23,760 --> 00:04:30,410
+de consultar o produto por aí vai fazer mais um ou alterá lo para que a gente possa falar agora sim
+
+51
+00:04:30,470 --> 00:04:30,600
+do.

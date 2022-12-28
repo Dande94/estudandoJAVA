@@ -1,0 +1,563 @@
+1
+00:00:00,420 --> 00:00:06,980
+Nós vamos agora focar um pouco mais a parte visual da aplicação especificamente no nosso arquivo XML
+
+2
+00:00:07,000 --> 00:00:10,840
+não sei se vou fazer tudo na sala provavelmente não acabará em mais de um ano.
+
+3
+00:00:10,920 --> 00:00:17,610
+As alterações para não ficar muito longo mas também nessa parte especificamente da parte do XML que
+
+4
+00:00:17,610 --> 00:00:24,540
+não tem necessariamente a ver com isso não vou colocar como anexo do curso uma biblioteca muito famosa
+
+5
+00:00:24,540 --> 00:00:31,530
+no mundo Java e Flex que é o Controls FX que tem vários outros componentes visuais que você pode usar
+
+6
+00:00:31,530 --> 00:00:33,290
+em aplicações profissionais.
+
+7
+00:00:33,390 --> 00:00:35,690
+E eu vou importar esse arquivo.
+
+8
+00:00:35,810 --> 00:00:42,090
+Aí eu vou colocar ele como sendo um anexo do curso para que você possa usar apenas um exemplo o componente
+
+9
+00:00:42,090 --> 00:00:43,670
+visual que ele disponibiliza.
+
+10
+00:00:43,710 --> 00:00:49,020
+Se você tiver pensando em construir um projeto profissional com o Java fx é muito importante você conhecer
+
+11
+00:00:49,020 --> 00:00:55,650
+essa alternativa que pode te ajudar muito a construir interfaces mais profissionais com o uso sem necessariamente
+
+12
+00:00:55,650 --> 00:01:01,680
+você precisar estar criando esses componentes já que a biblioteca contra os FX tem muitos componentes
+
+13
+00:01:01,680 --> 00:01:04,380
+interessantes e é uma documentação muito legal.
+
+14
+00:01:04,380 --> 00:01:06,950
+Então com certeza isso vai te ajudar bastante.
+
+15
+00:01:06,960 --> 00:01:12,780
+Vou anexar a última versão do arquivo ponto já você vai importar e a gente vai fazer só em um ponto
+
+16
+00:01:12,780 --> 00:01:17,840
+especificamente na hora que o usuário logar pra você escolher e mostrar a mensagem de sucesso.
+
+17
+00:01:17,880 --> 00:01:24,480
+De acordo com as informações que o usuário passou continuando aqui nós vamos colocar algumas propriedades
+
+18
+00:01:25,060 --> 00:01:30,060
+a propriedade vai ser o H GAP que vou colocar aqui de 15.
+
+19
+00:01:30,630 --> 00:01:36,810
+E o que é que eu vou colocar de 15 e tal tudo isso de planejamento por trás eu sei mais ou menos quais
+
+20
+00:01:36,810 --> 00:01:42,750
+são os valores que eu coloquei então se não ficar legal a gente pode fazer alguns ajustes mas a primeira
+
+21
+00:01:42,750 --> 00:01:48,530
+vez que eu construí a interface fui fazendo alguns testes vendo direitinho qual desses ajustes seria
+
+22
+00:01:48,540 --> 00:01:53,420
+mais interessante pra gente daqui executar e ver o resultado.
+
+23
+00:01:53,620 --> 00:02:01,860
+E nós temos aqui o gap já tem um espaçamento entre as coisas outra coisa que eu quero colocar é o espaçamento
+
+24
+00:02:01,860 --> 00:02:05,720
+aqui nas bordas eu não quero que o botão fique grudado nesse lado.
+
+25
+00:02:05,790 --> 00:02:11,490
+Aqui já está tem um espaçamento porque o campo de texto não foi até o final mas eu também quero dar
+
+26
+00:02:11,490 --> 00:02:13,230
+um espaçamento desse lado aqui.
+
+27
+00:02:13,710 --> 00:02:17,790
+Então para isso você tem a propriedade dentro do grid.
+
+28
+00:02:17,790 --> 00:02:22,060
+Bem você tem um prédio e o prédio que ele recebe um objeto.
+
+29
+00:02:22,380 --> 00:02:28,940
+Então coloca o pé em pé dentro da tela ele vai receber um objeto do tipo em sites que nele você passa
+
+30
+00:02:28,950 --> 00:02:35,130
+quanto você quer de pé e do lado em cima na lateral direita e esquerda embaixo e tal como você recebeu
+
+31
+00:02:35,130 --> 00:02:38,230
+um objeto passa a Otellini aqui.
+
+32
+00:02:38,340 --> 00:02:40,130
+Até que representa um objeto.
+
+33
+00:02:40,140 --> 00:02:45,390
+Quando você cria uma tag você está em distanciando um objeto com baixo dos panos.
+
+34
+00:02:45,390 --> 00:02:51,720
+Então já que esse atributo que pertence a um grande Penny recebe uma instância de 7.
+
+35
+00:02:51,720 --> 00:02:56,700
+Então por isso que eu vou passar aqui ou insetos como sendo um parâmetro pra cá.
+
+36
+00:02:56,700 --> 00:03:02,760
+Posso até fechar aqui porque eu não vou passar nada dentro de um set beleza mais pra ter acesso a isso
+
+37
+00:03:02,840 --> 00:03:06,710
+eu vou precisar importar porque eu sei que ele está num pacote diferente.
+
+38
+00:03:06,870 --> 00:03:13,720
+No caso que é o Java FX ponto Metroid outro site.
+
+39
+00:03:13,790 --> 00:03:19,200
+Eu não sei decorar os pacotes mas quando fiz um planejamento prévio obviamente eu estou preparado pra
+
+40
+00:03:19,200 --> 00:03:23,790
+saber os impostos porque eu estou postando aqui mas daqui a uma semana vou sem perguntar para alguma
+
+41
+00:03:23,850 --> 00:03:29,340
+gente não vou saber certo certo então só pra mostrar pra vocês que como existe um planejamento por trás
+
+42
+00:03:29,340 --> 00:03:35,340
+nem tudo fica na minha cabeça o tempo todo até porque são muitos cursos muitas linguagens muitas tecnologias
+
+43
+00:03:35,530 --> 00:03:41,850
+aí você consegue perceber que tem um planejamento por trás e se você ficar usando frequentemente a tecnologia
+
+44
+00:03:41,850 --> 00:03:47,490
+com certeza toda essa parte que exige mais do ser lembrada as coisas decorar com certeza vai fluir muito
+
+45
+00:03:47,490 --> 00:03:54,410
+mais do que quem usa menos tecnologia então aqui no caso especificamente esse porte eu lembro porque
+
+46
+00:03:54,780 --> 00:04:00,150
+eu tenho trabalhado com Java FX aqui pra planejar o curso e por isso tá tudo muito fresco aqui na minha
+
+47
+00:04:00,150 --> 00:04:08,610
+cabeça estava lá colocando aqui os valores eu quero definir por exemplo do lado esquerdo espaçamento
+
+48
+00:04:08,610 --> 00:04:09,440
+de 40.
+
+49
+00:04:09,750 --> 00:04:14,580
+Então se eu colocar agora você vai ver que do lado esquerdo não vai ter mais não ficar mais grudado
+
+50
+00:04:14,580 --> 00:04:20,600
+com a tela com espaçamento de 40 eu vou querer aqui do lado direito também.
+
+51
+00:04:21,030 --> 00:04:27,100
+Ele coloca o espaçamento de 40 então executar ou ter espaçamento dos dois lados.
+
+52
+00:04:27,360 --> 00:04:31,070
+E vou também querer ter um espaçamento em cima embaixo.
+
+53
+00:04:31,080 --> 00:04:37,230
+Não vai ser necessário porque eu acho que ele não vai chegar a precisar de espaçamento embaixo mas se
+
+54
+00:04:37,230 --> 00:04:42,270
+você quiser colocar tamanho embaixo coloca a bola igual a 40 ou qualquer outro espaçamento que você
+
+55
+00:04:42,270 --> 00:04:42,630
+queira.
+
+56
+00:04:43,080 --> 00:04:49,200
+Então ele já colocou em cima e nas laterais o que é que está acontecendo aqui na nossa interface gráfica
+
+57
+00:04:49,210 --> 00:04:58,020
+nós temos uma duas três quatro linhas nós temos duas colunas uma coluna duas colunas fica muito claro
+
+58
+00:04:58,020 --> 00:05:04,880
+perceber que esse leigo ocupando apenas a primeira linha a primeira coluna eu quero que esse lema não
+
+59
+00:05:04,880 --> 00:05:10,420
+acabe só a primeira linha a primeira coluna quero que ele ocupe e faço isso aqui na coluna.
+
+60
+00:05:10,770 --> 00:05:17,550
+Então para a gente conseguir isso com um vazio esse lembrou que além de ter o colo Index zero e o Low
+
+61
+00:05:17,550 --> 00:05:27,500
+Index zero eu vou querer que ele tenha aquele Grid queridinho do Colo Colo.
+
+62
+00:05:27,530 --> 00:05:30,580
+Isso não é igual a dois.
+
+63
+00:05:30,620 --> 00:05:35,090
+Tire o barco pra duas colunas estão fazendo isso.
+
+64
+00:05:35,100 --> 00:05:40,140
+Ele vai ocupar as duas primeiras colunas e você vai ver que agora vai aparecer o texto completo ele
+
+65
+00:05:40,140 --> 00:05:43,140
+vai tanto a primeira como a segunda coluna.
+
+66
+00:05:43,620 --> 00:05:49,170
+Nesse caso eu quero que esse texto fique centralizado ele está alinhado do lado esquerdo.
+
+67
+00:05:49,170 --> 00:05:52,490
+Eu quero que ele fique centralizado para fazer isso.
+
+68
+00:05:52,670 --> 00:05:58,050
+Acho que ele não vai centralizar perfeitamente ainda mais no final vai ficar de bem pontuou.
+
+69
+00:05:58,260 --> 00:06:09,370
+H alagamentos sem alinhamento sem até agora sim ele vai alinhar no eixo horizontal que é esse eixo horizontal.
+
+70
+00:06:09,390 --> 00:06:15,660
+Ele vai alinhar dentro das duas colunas digamos assim de forma centralizada para a gente.
+
+71
+00:06:15,690 --> 00:06:21,600
+Resultado eu vou fazer essa mesma coisa relacionada ao botão também não quero que botão fique centralizado
+
+72
+00:06:21,610 --> 00:06:27,310
+agora está centralizado não em relação à tela mas está centralizado em relação ao formulários.
+
+73
+00:06:27,360 --> 00:06:34,760
+Aqui depois eu vou fazer criar com questões de coluna pra ele aumentar e não sei se um dia até o final.
+
+74
+00:06:34,870 --> 00:06:40,200
+E aí sim vai ficar centralizado a mesma coisa não fazer no botão que está alinhado do lado esquerdo.
+
+75
+00:06:40,200 --> 00:06:49,410
+Eu vou pegar aqui essas duas propriedades aqui e vou colocar no botão pra ele ficar também centralizado.
+
+76
+00:06:49,770 --> 00:06:52,950
+E aí eu vou testar também mais uma vez pra gente ver o resultado.
+
+77
+00:06:52,950 --> 00:06:57,120
+Passo a passo na cada mudança eu mostro pra vocês o resultado só pra vocês entender o que é que eu estou
+
+78
+00:06:57,120 --> 00:06:57,720
+fazendo.
+
+79
+00:06:57,720 --> 00:07:02,880
+Pronto agora o botão está centralizado ainda não com relação a tela porque está faltando gente crescida.
+
+80
+00:07:02,940 --> 00:07:08,730
+Essa parte aqui pronta e com isso nós vamos mexer aqui em outra parte que vai se definir as construções
+
+81
+00:07:08,960 --> 00:07:11,500
+de coluna que eu coloco aqui.
+
+82
+00:07:11,590 --> 00:07:18,170
+Abri até aí eu vou colocar aqui só ele vai mostrar o colo constrói isso que vai ser do tipo observa
+
+83
+00:07:18,180 --> 00:07:19,200
+Bo Liste.
+
+84
+00:07:19,530 --> 00:07:27,450
+Ou seja vou passar várias questões de coluna e construções construções e no plural e coluna no singular.
+
+85
+00:07:27,780 --> 00:07:32,260
+Então vou criar até que ele vai receber uma lista de observa Augusto.
+
+86
+00:07:32,280 --> 00:07:37,920
+Nesse caso eu vou simplesmente com o nome da terra é exatamente esse mesmo nome só que com a primeira
+
+87
+00:07:37,920 --> 00:07:44,840
+letra maiúscula ou c maiúscula vou definir aqui uma consoante coluna definido hoje aqui dentro.
+
+88
+00:07:44,840 --> 00:07:50,370
+Eu tenho uma lista e eu simplesmente posso criar uma tela que representa uma instância desse tipo de
+
+89
+00:07:50,370 --> 00:07:57,450
+classe aqui ou seja você está no contexto de XML e aqui quando você cria uma tela do tipo leigo isso
+
+90
+00:07:57,440 --> 00:08:04,800
+significa que por baixo dos panos está sendo distanciado uma classe do tipo leigo que tem essas propriedades
+
+91
+00:08:04,800 --> 00:08:10,180
+aqui dentro dela da mesma forma que isso aqui pede representa um atributo no crime.
+
+92
+00:08:10,190 --> 00:08:15,670
+Bem você está distanciando em insetos e passando como parâmetro para o.
+
+93
+00:08:15,690 --> 00:08:21,880
+Da mesma forma que eu tenho um atributo chamado colam com estranhos que a uma lista observa o boliche.
+
+94
+00:08:22,110 --> 00:08:27,950
+Eu estou passando uma instância de cola com os trens e uma outra instância de Cole com questões como
+
+95
+00:08:27,960 --> 00:08:29,670
+tenho duas colunas.
+
+96
+00:08:29,670 --> 00:08:33,150
+Eu vou definir as minhas constrange os atributos.
+
+97
+00:08:33,180 --> 00:08:39,780
+A partir dessas duas instâncias ou dessas duas teles não vão lá foi definida em termos de construções
+
+98
+00:08:40,080 --> 00:08:41,290
+eu vou colocar aqui.
+
+99
+00:08:41,420 --> 00:08:46,880
+Ah vou sempre trabalhar aqui no caso com a largura já que a altura Metro está resolvida.
+
+100
+00:08:46,890 --> 00:08:52,950
+Até poderia criar algo ou construir isso também aplicar mais aqui ou trabalhar apenas com as construções
+
+101
+00:08:52,950 --> 00:08:53,570
+de coluna.
+
+102
+00:08:53,940 --> 00:08:58,940
+Então vou colocar a minha largura mínima vai ser em 60.
+
+103
+00:08:59,070 --> 00:09:06,750
+Vou colocar que a minha largura mínima ou a minha largura preferencial aqui embaixo vai ser de 200 de
+
+104
+00:09:06,790 --> 00:09:12,320
+largura preferencial de 200 e a largura mínima vai ser de 60 aqui.
+
+105
+00:09:12,510 --> 00:09:18,510
+Eu também posso dizer que a largura preferencial que em cima vai ser de 700 exatamente o mesmo tamanho
+
+106
+00:09:18,510 --> 00:09:21,930
+da minha mão porque eu quero que essa aqui embaixo cresça.
+
+107
+00:09:22,080 --> 00:09:33,030
+Então pra dizer por exemplo que a minha máxima largura aqui no caso vai ser seja infinita eu posso dizer
+
+108
+00:09:33,060 --> 00:09:42,330
+que a propriedade agarrou o crescimento na horizontal vai ser Oras ele sempre vai crescer na horizontal.
+
+109
+00:09:42,330 --> 00:09:44,210
+A minha segunda coluna já a primeira não.
+
+110
+00:09:44,240 --> 00:09:50,360
+Outra coisa que eu quero aqui nessa coluna encetar vai ser o meu.
+
+111
+00:09:50,490 --> 00:09:57,220
+H alagamentos alagamentos que vai ser um homem muito horizontal.
+
+112
+00:09:57,220 --> 00:09:57,700
+Por quê.
+
+113
+00:09:57,720 --> 00:10:04,700
+Porque eu quero Na verdade isso aqui é uma coisa que passa para ver se está tudo funcionando.
+
+114
+00:10:04,750 --> 00:10:10,840
+Se tiver qualquer um de digitação pessoal interessante que você sempre olhe para o repositório do bichinho
+
+115
+00:10:11,040 --> 00:10:14,470
+do Guincho também vai ter esses códigos finalizados.
+
+116
+00:10:14,470 --> 00:10:20,680
+Então você entra lá no videogame dá uma olhada especificamente no Código vê como foi implementado tenta
+
+117
+00:10:20,680 --> 00:10:21,840
+comparar os arquivos.
+
+118
+00:10:21,840 --> 00:10:27,930
+Parabéns tio erro de digitação é muito comum os alunos perguntarem ao projeto não está funcionando mais
+
+119
+00:10:27,930 --> 00:10:34,570
+são é simples digitação se você copiar o arquivo completo e testá lo você vai ver que o problema vai
+
+120
+00:10:34,570 --> 00:10:39,690
+sumir porque aconteceu algum erro de digitação José 1s que está fora do lugar é coisa do tipo tá.
+
+121
+00:10:40,120 --> 00:10:46,270
+Nesse caso o que eu não quero fazer eu quero que essa coluna ou seja o leigo em meio eu leio ou sem
+
+122
+00:10:46,270 --> 00:10:51,580
+eles fiquem alinhados do lado direito pra ficar mais próximo do campo textual.
+
+123
+00:10:51,640 --> 00:10:57,460
+Então pra fazer isso eu uso aqui a propriedade H há limites pra c.
+
+124
+00:10:57,460 --> 00:11:02,160
+No caso então Coca-Cola proto testando aqui.
+
+125
+00:11:02,200 --> 00:11:06,750
+Eu acho que ele vai acabar não mudando tanto por conta do tamanho que eu defini.
+
+126
+00:11:06,910 --> 00:11:13,970
+Mas se ele aumentar o tamanho por exemplo vou colocar o tamanho mínimo vai ser 90 e o tamanho preferencial
+
+127
+00:11:13,970 --> 00:11:15,140
+vai ser na também.
+
+128
+00:11:15,600 --> 00:11:21,760
+Olha ele vai ficar um pouco maior e aí sim a minha mente vai fazer um pouco mais e sentiram vai ficar
+
+129
+00:11:21,760 --> 00:11:31,480
+mais alinhado aqui se eu colocar por exemplo pra ser latim ele já vai ficar mais distante do campo de
+
+130
+00:11:31,540 --> 00:11:39,490
+texto certo alvoroço como mais distante e colocando o site voltando a ficar mais perto do campo de texto.
+
+131
+00:11:40,150 --> 00:11:42,700
+Embora tenha um espaçamento aqui natural.
+
+132
+00:11:42,700 --> 00:11:49,050
+Eu posso até aqui em cima onde tirar esse espaço aqui e tirar esse espaço que não vai ser necessário
+
+133
+00:11:49,730 --> 00:11:54,690
+já que estou no mais uma vez que a gente vê de fato a distância focal já que ele tem um espaçamento
+
+134
+00:11:54,730 --> 00:12:04,450
+de 15 que eu coloquei e por último eu vou voltar o campo pra ser 60 e 60 aqui já que no nosso caso foi
+
+135
+00:12:04,450 --> 00:12:10,630
+planejado pra ser dessa forma então nós temos as nossas duas construções de coluna nós temos a nossa
+
+136
+00:12:10,630 --> 00:12:15,410
+interface tá faltando mais alguns detalhes ainda pra gente colocar espaçamento aqui.
+
+137
+00:12:15,430 --> 00:12:19,580
+Leio aqui no próprio botão e eu vou continuar a aproximá la.
+
+138
+00:12:19,620 --> 00:12:25,030
+A tela já tá aqui centralizada acho que o texto está centralizado o botão também está voltando mais
+
+139
+00:12:25,030 --> 00:12:29,650
+alguns detalhes eu vou deixar para a gente finalizar alguns detalhes visuais na proximal.
+
+140
+00:12:30,010 --> 00:12:33,400
+Então o pessoal espera que vocês estejam gostando do nosso capitulo.
+
+141
+00:12:33,520 --> 00:12:36,930
+Muito conteúdo interessante sobre o Java FX e até para os mal.

@@ -1,0 +1,647 @@
+1
+00:00:00,360 --> 00:00:06,870
+Continuando ainda num capítulo de conceitos para a web vou falar na sala especificamente sobre o protocolo
+
+2
+00:00:06,960 --> 00:00:14,330
+HTTPS que é o protocolo que a comunicação é criptografado seja o HTTP seguro.
+
+3
+00:00:14,330 --> 00:00:20,010
+Então para isso a gente vai entender algumas coisas não tão profundo como entrar muito no mérito de
+
+4
+00:00:20,010 --> 00:00:21,420
+como funciona a criptografia.
+
+5
+00:00:21,420 --> 00:00:26,750
+Coisas do tipo eu vou falar de uma forma mais abrangente para que você possa entender o mecanismo que
+
+6
+00:00:26,760 --> 00:00:36,630
+é importante usar o HTTPS o HTTPS o S vem de protocolo seguro certo HTTP seguro e essa segurança é feita
+
+7
+00:00:36,630 --> 00:00:43,320
+em cima de um protocolo que criptografa os dados a partir de um certificado já entrar em detalhes a
+
+8
+00:00:43,320 --> 00:00:52,050
+primeira opção você tem o HTTP mais o TLS e o transporte layers Security Protocol que nada mais é do
+
+9
+00:00:52,050 --> 00:00:53,010
+que o SSL.
+
+10
+00:00:53,010 --> 00:00:55,140
+A versão mais nova versão 4.
+
+11
+00:00:55,350 --> 00:01:04,820
+Então se for de uma forma mais rígida digamos assim o HTTP mais SSL ou mais TCL usando HTTP com essas
+
+12
+00:01:04,980 --> 00:01:08,750
+tecnologias se trata do mesmo protocolo mais conversões.
+
+13
+00:01:08,850 --> 00:01:16,650
+Então o TLS que é o transporte leia se de protocolo é como se fosse o SSL na versão mais nova versão
+
+14
+00:01:16,650 --> 00:01:21,580
+4 e o SSL Secure Sockets Layer Protocol.
+
+15
+00:01:21,660 --> 00:01:28,980
+Então os dois aqui são protocolos que juntamente com o HTTP faz com que as nossas navegações sejam seguras.
+
+16
+00:01:28,980 --> 00:01:35,160
+é importante deixar claro que é diferente do certificado uma coisa protocolo e outra.
+
+17
+00:01:35,340 --> 00:01:42,570
+às vezes as pessoas se confundem então por exemplo quando diz uma frase do tipo certificado SSL TLS
+
+18
+00:01:42,870 --> 00:01:45,530
+então não é exatamente um certificado.
+
+19
+00:01:45,630 --> 00:01:50,760
+Com essas tecnologias a forma de se fosse mais preciso não é errado dizer isso é uma coisa que muita
+
+20
+00:01:50,760 --> 00:01:56,610
+gente falou mesmo quando você ler na internet você encontra esse tipo de coisa mas o correto se você
+
+21
+00:01:56,610 --> 00:02:06,070
+fosse mais criterioso você diria que é um certificado usado com os protocolos SSL TLS.
+
+22
+00:02:06,110 --> 00:02:12,960
+Como já falei os dois protocolos são dados na mesma família digamos assim uma evolução são dois protocolos
+
+23
+00:02:12,960 --> 00:02:13,610
+diferentes.
+
+24
+00:02:13,610 --> 00:02:19,680
+O fato é que eles não são compatíveis entre si porque uma versão para a outra houve evoluções então
+
+25
+00:02:19,680 --> 00:02:27,240
+no início era apenas SSL na versão foi publicada e aí surgiu a partir da versão 2 a versão 2 começou
+
+26
+00:02:27,240 --> 00:02:34,320
+a perceber vários problemas de segurança e foram corrigidos e aí veio a versão 3 na versão topo a versão
+
+27
+00:02:34,320 --> 00:02:36,980
+2 com a versão 3 já foram depreciados.
+
+28
+00:02:37,000 --> 00:02:43,250
+Acho que há algum tempo alguns bons anos atrás já foram descontinuados e o que nós temos depois foi
+
+29
+00:02:43,250 --> 00:02:46,680
+o surgimento da versão 4 que é a versão que nós usamos hoje.
+
+30
+00:02:46,850 --> 00:02:47,780
+Continuando.
+
+31
+00:02:48,000 --> 00:02:54,600
+é importante você perceber algumas características no que diz respeito ao protocolo https ou HTTP seguro.
+
+32
+00:02:54,960 --> 00:03:01,910
+Nós temos aqui por exemplo que os dados são criptografados usando os protocolos TLS ou SSL.
+
+33
+00:03:02,100 --> 00:03:08,100
+Então um dos grandes objetivos de ter o HTTP seguro é exatamente você garantir que a informação que
+
+34
+00:03:08,100 --> 00:03:14,070
+sai da sua máquina que vai lá para o servidor que vai navegar pela rede por várias redes de diferentes
+
+35
+00:03:14,070 --> 00:03:20,520
+dispositivos diferentes que ninguém consiga entre essas duas máquinas criptografa a mensagem que está
+
+36
+00:03:20,520 --> 00:03:21,110
+no meio.
+
+37
+00:03:21,220 --> 00:03:28,090
+Então um dos objetivos que é o ponto 2 aqui é proteger contra interceptação que é o famoso ataque o
+
+38
+00:03:28,110 --> 00:03:35,430
+homem do meio indevido ou seja aquele cara está no meio monitorando a rede ele não consegue ler o que
+
+39
+00:03:35,430 --> 00:03:42,150
+está o que está passando dentro de uma conexão HTTPS porque o dado que ele vai ver não é humanamente
+
+40
+00:03:42,810 --> 00:03:43,810
+interpretado.
+
+41
+00:03:43,810 --> 00:03:48,720
+Não tem como você interpretar a informação somente se você desse criptografar os dados é que você vai
+
+42
+00:03:48,720 --> 00:03:56,800
+ter acesso às informações textuais e aí sim conseguiria acessar o de fato foi solicitado a requisição
+
+43
+00:03:56,800 --> 00:03:59,310
+e o que de fato está vindo na resposta.
+
+44
+00:03:59,310 --> 00:04:05,070
+Além de criptografar a própria requisição e sim tudo o que está dentro dela é criptografado.
+
+45
+00:04:05,070 --> 00:04:13,550
+Então ao RL se tiver por exemplo algum parâmetro na web ele vai criptografado o que uso rédeas o bate
+
+46
+00:04:13,790 --> 00:04:20,670
+certo e ele vai criptografada mais obviamente o IP tem que ser visível tem que ser conhecido por todo
+
+47
+00:04:20,670 --> 00:04:26,700
+o mundo para que de fato o pacote saia da sua máquina e vá de fato para pedir destino.
+
+48
+00:04:26,700 --> 00:04:34,650
+Então é bem conhecido mais o RL em si é criptografado juntamente com todo o conteúdo que envolve a requisição
+
+49
+00:04:34,710 --> 00:04:40,550
+e também o conteúdo que é devolvido também é criptografado e usa certificados digitais.
+
+50
+00:04:40,550 --> 00:04:46,380
+Já falei pra vocês que o certificado é uma coisa e protocolo é outra coisa então HTTPS nada mais é do
+
+51
+00:04:46,380 --> 00:04:53,480
+que a junção do protocolo HTTP mais TLS ou o HTTP mais o SSL.
+
+52
+00:04:53,490 --> 00:05:01,020
+Outro conceito também bastante importante é o conceito de autoridade certificadora do inglês ela tem
+
+53
+00:05:01,020 --> 00:05:09,150
+um papel de emitir e validar os certificados que foram emitidos então a autoridade certificadora é capaz
+
+54
+00:05:09,150 --> 00:05:11,940
+de emitir certificados e certificados.
+
+55
+00:05:11,940 --> 00:05:17,700
+Esses arquivos podem ir para a sua máquina lá pelo servidor a sua aplicação para que você possa instalar
+
+56
+00:05:18,040 --> 00:05:25,030
+esse certificado e habilitar o HTTPS que a comunicação entre a sua máquina entre o servidor e olhos
+
+57
+00:05:25,030 --> 00:05:26,090
+em um servidor web.
+
+58
+00:05:26,280 --> 00:05:27,150
+E o Brasil.
+
+59
+00:05:27,330 --> 00:05:33,530
+No Brasil essas certificados também precisam estar instalado por aqui tanto na hora que você criptografar
+
+60
+00:05:33,530 --> 00:05:36,040
+o dado saindo do servidor para o Brasil.
+
+61
+00:05:36,090 --> 00:05:41,600
+Ele consiga no Brasil desse criptografar esse dado da mesma forma que no momento que ele criptografa
+
+62
+00:05:41,600 --> 00:05:44,010
+o dado do lado do Brasil pra mandar pro seu servidor.
+
+63
+00:05:44,400 --> 00:05:51,780
+Quando chegar no servidor esse dado precisa ser desse criptografado então esse arquivo é gerado um certificado
+
+64
+00:05:52,080 --> 00:05:59,370
+que é instalado no seu servidor Web por exemplo Apache em anexo você vai instalar esse arquivo no servidor.
+
+65
+00:05:59,510 --> 00:06:04,160
+E quem gera esses arquivos são essas autoridades certificadoras.
+
+66
+00:06:04,280 --> 00:06:12,070
+Aqui um certo que eu recentemente recebi de um grupo que eu participo e o cara faz o seguinte.
+
+67
+00:06:12,070 --> 00:06:18,000
+é engraçado que o nome do cara isolou da leitura lenta e ele falou se eu vir aqui com o certificado
+
+68
+00:06:18,000 --> 00:06:20,410
+giram em torno de 100 dólares por ano.
+
+69
+00:06:20,430 --> 00:06:22,740
+Tem alguma alternativa gratuita.
+
+70
+00:06:22,740 --> 00:06:25,210
+Aí o cara colocou lá em clipes.
+
+71
+00:06:25,270 --> 00:06:30,120
+Existia um provedor c a Autoridade Certificadora chamada Lessa incluído.
+
+72
+00:06:30,210 --> 00:06:35,850
+Eu vou achar pra vocês aqui a foto da página que eu tirei hoje e o cara colocou lá dizem que quer dizer
+
+73
+00:06:35,850 --> 00:06:41,970
+Vamos criptografada e aí o cara leu de forma literal não achou que isso fosse um sei.
+
+74
+00:06:42,240 --> 00:06:44,970
+Ele falou beleza vamo mais e mais.
+
+75
+00:06:44,980 --> 00:06:49,710
+A minha pergunta por que você não me ajudou mas na verdade o cara estava dizendo o seguinte se você
+
+76
+00:06:49,710 --> 00:06:55,860
+quer uma alternativa gratuita para gerar um certificado digital válido você não precisa pagar nada você
+
+77
+00:06:55,860 --> 00:07:03,690
+pode recorrer a LET Encryption que é acessada aqui Certificate Authority e a partir dela você consegue
+
+78
+00:07:03,690 --> 00:07:08,080
+gerar um certificado válido gratuito de uma forma muito simplista.
+
+79
+00:07:08,150 --> 00:07:14,550
+é uma excelente opção para quem deseja habilitar HTTPS dentro do seu servidor.
+
+80
+00:07:14,580 --> 00:07:20,610
+Você pode usá la inclusive para que você consiga configurar lotes incríveis tem toda a documentação
+
+81
+00:07:20,610 --> 00:07:26,700
+no site você clica nesse botão para iniciar na grade Start e aí você vai entrar no tutorial dizer exatamente
+
+82
+00:07:26,700 --> 00:07:27,950
+como é que você faz.
+
+83
+00:07:28,220 --> 00:07:35,010
+Você vai usar esse cara chamado certo bode que é um processo que você coloca no próprio prompt no terminal
+
+84
+00:07:35,010 --> 00:07:40,590
+você vai fazer nas configurações ele vai perguntar para você qual o sistema qual o servidor que você
+
+85
+00:07:40,590 --> 00:07:41,290
+usa.
+
+86
+00:07:41,290 --> 00:07:45,840
+Ele automatiza o processo de instalação do certificado digital.
+
+87
+00:07:45,980 --> 00:07:51,070
+Saber qual sistema operacional qual o servidor que você está usando ele vai lá por linha de comando
+
+88
+00:07:51,090 --> 00:07:58,230
+automatiza esse processo de instalação do certificado e aí você habilita finalmente o HTTPS dentro do
+
+89
+00:07:58,230 --> 00:07:59,040
+seu servidor.
+
+90
+00:07:59,320 --> 00:08:05,760
+Uma outra outra coisa que eu recebi recentemente no dia primeiro de março de 2018 dizendo o seguinte
+
+91
+00:08:05,760 --> 00:08:14,100
+é que mais de 23 mil certificados vão precisar ser revogados porque a chave primária de uma Autoridade
+
+92
+00:08:14,100 --> 00:08:21,570
+Certificadora vazou uma vez que você tem a chave que é a chave para validar um certificado e você tem
+
+93
+00:08:21,680 --> 00:08:26,480
+como outra pessoa que não é a autoridade certificadora validar um certificado.
+
+94
+00:08:26,490 --> 00:08:32,280
+Isso quebra todo o esquema de segurança então você percebe como é muito importante que essas autoridades
+
+95
+00:08:32,280 --> 00:08:40,920
+certificadoras de fato elas têm um rígido esquema de segurança para proteger essas chaves porque a partir
+
+96
+00:08:40,920 --> 00:08:47,520
+dessas chaves é que um certificado e validade então como a chave vazou e outra pessoa pode ter a chave
+
+97
+00:08:47,520 --> 00:08:49,800
+que valida esse certificado.
+
+98
+00:08:49,810 --> 00:08:56,130
+Você pode de uma forma enganosa se passar por um site com um certificado digital e isso gera todo um
+
+99
+00:08:56,130 --> 00:09:02,500
+problema de alguém interceptar os dados porque tem a chave que tem como validar as informações criptografar
+
+100
+00:09:02,580 --> 00:09:10,140
+então é muito importante que a associação tenha um controle de segurança bastante rígido então você
+
+101
+00:09:10,140 --> 00:09:13,730
+percebe que é uma notícia não tão distante da gente.
+
+102
+00:09:13,740 --> 00:09:19,950
+Mas o fato é que mais de 23 mil certificados vão precisar ser revogados e as pessoas vão precisar baixar
+
+103
+00:09:19,950 --> 00:09:24,970
+novos certificados que foram gerados a partir de uma outra chave privada.
+
+104
+00:09:24,990 --> 00:09:27,730
+Daí você ter um certificado válido novamente.
+
+105
+00:09:27,870 --> 00:09:30,060
+Então dando uma visão geral ninguém te viu aqui.
+
+106
+00:09:30,060 --> 00:09:38,130
+Com relação ao HTTPS que o HTTPS ele roda em cima de dois outros protocolos no caso o TLS é na verdade
+
+107
+00:09:38,200 --> 00:09:39,840
+uma evolução do SSL.
+
+108
+00:09:39,840 --> 00:09:40,750
+A gente viu isso.
+
+109
+00:09:40,770 --> 00:09:49,080
+Então hoje a gente tem de forma mais comum você ter o HTTP sobre TLS que é a versão 4.1 do SSL.
+
+110
+00:09:49,080 --> 00:09:50,740
+Uma coisa é o certificado.
+
+111
+00:09:50,740 --> 00:09:56,820
+Outra coisa é o protocolo de comunicação e para essa comunicação você segura você tem certificados que
+
+112
+00:09:56,820 --> 00:10:03,210
+são instalados do lado do servidor e o grau tem ter a cabeça de certificado lá instalada nele para que
+
+113
+00:10:03,210 --> 00:10:06,330
+ele possa reconhecer isso como um certificado válido.
+
+114
+00:10:06,330 --> 00:10:12,870
+às vezes você tem um certificado válido emitido por um a ser avaliada mas o graus é que você está usando
+
+115
+00:10:12,870 --> 00:10:16,250
+não tem instalado a cadeia de certificados daquela sei lá.
+
+116
+00:10:16,320 --> 00:10:21,030
+E aí ele vai dar a mensagem não é certificado não é seguro certificado não é válido.
+
+117
+00:10:21,030 --> 00:10:27,780
+Embora o certificado seja válido ter sido emitido por um lance a reconhecida mas se o Brasil não tiver
+
+118
+00:10:28,230 --> 00:10:33,630
+o certificado instalado nele essa comunicação vai aparecer para o usuário final que não é um certificado
+
+119
+00:10:33,630 --> 00:10:34,010
+válido.
+
+120
+00:10:34,010 --> 00:10:40,230
+Acontece isso se você pegar essa as que são as autoridades certificadoras mais famosos e o certificado
+
+121
+00:10:40,230 --> 00:10:45,570
+com certeza vai ser reconhecido pela grande maioria dos brasileiros está certo é possível que o certificado
+
+122
+00:10:45,570 --> 00:10:50,940
+seja reconhecido por um determinado Brasil e não seja reconhecido por outro porque é um Brasil mais
+
+123
+00:10:50,940 --> 00:10:57,360
+antigo pode não ter instalado um determinado certificado mas de qualquer forma se você usar um desses
+
+124
+00:10:57,360 --> 00:11:03,660
+aí as autoridades mais conhecidas então a grande maioria dos brasileiros 98 por cento nos braços vão
+
+125
+00:11:03,840 --> 00:11:09,390
+reconhecer o certificado como um certificado válido então pode acontecer como já falei é um certificado
+
+126
+00:11:09,390 --> 00:11:15,450
+válido gerado por uma será válida mas se o Brasil não tiver do outro lado o certificado instalado vai
+
+127
+00:11:15,450 --> 00:11:22,810
+reconhecer como se fosse um certificado inválido certo nós vimos ao conceito do protocolo HTTPS que
+
+128
+00:11:22,810 --> 00:11:29,040
+é a junção do HTTP mais um protocolo de criptografia de dados nós vimos que pra que essa comunicação
+
+129
+00:11:29,040 --> 00:11:33,880
+criptografada aconteça você tem que instalar um certificado do lado do servidor.
+
+130
+00:11:33,900 --> 00:11:40,890
+é uma excelente alternativa e o Lecce Encryption é um provedor que é você que gera certificado digital
+
+131
+00:11:40,890 --> 00:11:41,370
+gratuito.
+
+132
+00:11:41,370 --> 00:11:47,340
+Você pode até fazer algum tipo de doação mas não é requerida muito simples para você gerar um certificado
+
+133
+00:11:47,340 --> 00:11:50,410
+válido e certificado dada da Lei de 5.
+
+134
+00:11:50,430 --> 00:11:55,820
+Já usei algumas vezes é muito bom e nunca tive problema de não ser reconhecido pelos braços então fica
+
+135
+00:11:55,820 --> 00:12:00,960
+uma dica super legal para você que não quer que está com pouco dinheiro não quer pagar um certificado
+
+136
+00:12:00,960 --> 00:12:06,690
+vai lá no lote 5 gera fácil ele está lá pra você de forma automatizada pela linha de comando e você
+
+137
+00:12:06,690 --> 00:12:13,020
+consegue ter à sua disposição HTTPS gratuitamente sem precisar pagar absolutamente nada.
+
+138
+00:12:13,170 --> 00:12:19,110
+Então no final terminamos a nossa aula mostrando essa notícia triste trecho mais que você percebe que
+
+139
+00:12:19,110 --> 00:12:24,420
+existem pontos de falhas que podem gerar um efeito colateral muito grande.
+
+140
+00:12:24,420 --> 00:12:30,870
+Ou seja se uma chave de você acha importante vazar todos os certificados gerados a partir daquela chave
+
+141
+00:12:31,200 --> 00:12:37,770
+vão estar sob suspeita e precisam ser revogados o que foi exatamente o que aconteceu nessa nessa reportagem.
+
+142
+00:12:37,770 --> 00:12:44,670
+Que beleza espero ter ficado claro o conceito de HTTP só uma visão impossível não quis entrar no mérito
+
+143
+00:12:44,670 --> 00:12:50,090
+da questão de como a criptografia acontece os algoritmos que tipo de Chaves.
+
+144
+00:12:50,130 --> 00:12:54,790
+A segurança é tal que não é um tema muito pertinente para o nosso curso web moderna.
+
+145
+00:12:54,810 --> 00:13:00,960
+Mas entender um pouco de certificado digital como você pode gerar e como você pode instalar um certificado
+
+146
+00:13:00,960 --> 00:13:02,580
+não é algo difícil de ser feito.
+
+147
+00:13:02,580 --> 00:13:08,190
+Se você tem um acesso que gera para você um certificado e a própria cidade te dá alguns tutoriais no
+
+148
+00:13:08,190 --> 00:13:14,640
+caso lá escrito você conseguir instalar um servidor fácil você vai conseguir habilitar dentro do seu
+
+149
+00:13:14,640 --> 00:13:17,220
+site HTTPS como dica final.
+
+150
+00:13:17,280 --> 00:13:26,190
+Eu diria que é muito interessante que você coloca o sistema todo com HTTPS antigamente existia uma certa
+
+151
+00:13:26,370 --> 00:13:27,990
+acerto com sete mãos.
+
+152
+00:13:28,260 --> 00:13:35,310
+Se você coloca HTTPS vai gerar um novo erro jamais e tal fato gera se um overhead a mais mas isso de
+
+153
+00:13:35,310 --> 00:13:40,010
+forma alguma vai ser o fator que vai tornar sua aplicação lenta ou rápida.
+
+154
+00:13:40,050 --> 00:13:46,210
+Mas não é isso que vai deixar sua aplicação ruim com a performance sendo degradada.
+
+155
+00:13:46,260 --> 00:13:52,440
+De fato não é isso e vai trazer um grande benefício benefício e ter toda a comunicação entre o Brasil
+
+156
+00:13:52,740 --> 00:13:58,650
+e o seu servidor criptografada sem que ninguém consiga interceptar essa comunicação então vai que no
+
+157
+00:13:58,650 --> 00:14:05,520
+meio do seu sistema tem algumas informações que são sensíveis o faturamento da empresa ou a lista dos
+
+158
+00:14:05,520 --> 00:14:08,420
+funcionários com todos os salários e coisas do tipo.
+
+159
+00:14:08,460 --> 00:14:14,400
+São informações sensíveis que se você criptografar sua aplicação inteira não só apenas o login mas de
+
+160
+00:14:14,400 --> 00:14:20,190
+ponta a ponta usando um certificado digital você vai conseguir ter uma segurança muito mais interessante
+
+161
+00:14:20,190 --> 00:14:21,060
+na sua aplicação.
+
+162
+00:14:21,160 --> 00:14:22,350
+Então muito esperta aproximá.

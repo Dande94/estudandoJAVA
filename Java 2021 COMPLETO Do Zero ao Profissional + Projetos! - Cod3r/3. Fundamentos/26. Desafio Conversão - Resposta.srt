@@ -1,0 +1,195 @@
+1
+00:00:00,450 --> 00:00:04,700
+Então pensei Agora vou mostrar para vocês a resolução do nosso desafio.
+
+2
+00:00:04,700 --> 00:00:09,540
+Conversão então pra isso eu vou criar uma nova classe Class.
+
+3
+00:00:09,660 --> 00:00:12,310
+O nome da classe será desafio.
+
+4
+00:00:12,350 --> 00:00:18,500
+Conversam também na nossa pasta fundamentos e aqui eu vou definir o nosso método.
+
+5
+00:00:18,730 --> 00:00:25,680
+Eu vou começar definindo esse cara então bacana contra o espaço seleciona que ele já importa para a
+
+6
+00:00:25,700 --> 00:00:27,660
+gente certo o nome descansará.
+
+7
+00:00:27,720 --> 00:00:35,360
+Será a entrada recebe mil esse canal você pode chamar outros nomes para esse cara pode chamar a própria
+
+8
+00:00:35,360 --> 00:00:36,300
+mente.
+
+9
+00:00:36,300 --> 00:00:39,280
+Você pode usar outros nomes de variáveis para apresentar.
+
+10
+00:00:39,340 --> 00:00:44,540
+Algumas pessoas usam o próprio nome da da classe Escânia ou pode colocar teclado.
+
+11
+00:00:44,630 --> 00:00:49,570
+Se você quiser pode ficar mais claro pra você então Sixteen contou.
+
+12
+00:00:50,040 --> 00:00:56,400
+Ponto e vírgula e no final fazem entrada pouco com uso porque a gente precisa fechar o nosso escárnio.
+
+13
+00:00:56,760 --> 00:01:07,350
+Então vou colocar aqui um system algo para além na verdade System Alt Print colocado conforme o primeiro
+
+14
+00:01:09,420 --> 00:01:10,540
+salário.
+
+15
+00:01:11,400 --> 00:01:15,120
+E aí eu vou duplicar essa linha na verdade mais do que triplicar a linha.
+
+16
+00:01:15,130 --> 00:01:24,650
+Então informe o segundo salário informe um terceiro salário vou começar com barrinha para ele quebrar
+
+17
+00:01:24,650 --> 00:01:31,440
+a linha já que estou usando o print então no primeiro eu não quebra a linha e já logo embaixo coloco
+
+18
+00:01:31,440 --> 00:01:38,610
+aqui a variável e coloca que uma variável do tipo string que vai receber variado tipo distribua esse
+
+19
+00:01:39,330 --> 00:01:47,170
+valor recebe aquilo que eu recebi entrada ponto NET e aqui.
+
+20
+00:01:47,190 --> 00:01:57,480
+Já que o resultado de Net é uma string eu já posso chamar aqui ao ponto replays pra substituir qualquer
+
+21
+00:01:57,600 --> 00:02:06,990
+vírgula ponto já que vou daqui maximiza a tela já que o valor com ponto flutuante em Java.
+
+22
+00:02:07,140 --> 00:02:10,580
+Ele usa o padrão americano que o ponto é o separador de casas decimais.
+
+23
+00:02:10,580 --> 00:02:15,550
+Então se o usuário digitar um vínculo já substitua o ponto e eu vou salvar isso no valor.
+
+24
+00:02:15,960 --> 00:02:20,190
+A mesma coisa duplicar essa linha aqui pra baixo.
+
+25
+00:02:20,190 --> 00:02:29,040
+Aqui vai ser o valor 2 publicar mais uma vez aqui pelo valor 3 então a mesma coisa nos 3 eu posso colocar
+
+26
+00:02:29,040 --> 00:02:34,020
+tanto ponto como vírgula sítio ver um ponto vírgula substitui por pontos se tiver ponto ele não vai
+
+27
+00:02:34,020 --> 00:02:37,380
+fazer absolutamente nada porque o valor já está correto.
+
+28
+00:02:37,380 --> 00:02:47,250
+Depois disso eu vou criar aqui o valor da ABL salário recebido da ABL conto clássico da ABL passando
+
+29
+00:02:47,880 --> 00:02:53,030
+o Valor Ponto e Vírgula vou duplicar aqui mais duas vezes.
+
+30
+00:02:53,220 --> 00:02:59,040
+2 e 3 valor 2 2 3.
+
+31
+00:02:59,040 --> 00:03:11,910
+Finalmente para eu ter o resultado final qualquer que a média dos salários e eu vou colocar aqui a média
+
+32
+00:03:11,910 --> 00:03:27,500
+antes então vou criar aqui um dado média recebe salário mais baixo salario 2 mais salario 3 dividido
+
+33
+00:03:27,510 --> 00:03:29,390
+por 3 ou seja tem uma média.
+
+34
+00:03:29,450 --> 00:03:36,240
+Posso até quebrar isso mais mas outra variável na colocação e depois a média no final coloco a média
+
+35
+00:03:36,240 --> 00:03:40,160
+que está para saber se vai dar certo.
+
+36
+00:03:40,290 --> 00:03:51,320
+Todos nós informe primeiro salário colocar 8 mil 133 vírgula 56 o segundo salário vou colocar 12 mil
+
+37
+00:03:51,370 --> 00:04:05,160
+566 7 pontos 90 e o terceiro salario mais sei lá 7 mil 598 vírgula 54.
+
+38
+00:04:05,230 --> 00:04:12,190
+Resultado ele somou ela não deu problema porque a gente fez que o triplex substituiu vírgula por ponto.
+
+39
+00:04:12,260 --> 00:04:20,680
+No final os 3 passes deram certo ele somou o salário o resultado deu 9 mil 430 pontos era o dele exatamente.
+
+40
+00:04:20,700 --> 00:04:25,820
+Deu sorte tinha que não foi bem planejado gerou 54 e deu certo.
+
+41
+00:04:25,830 --> 00:04:28,810
+Foi isso mesmo o resultado tá certo.
+
+42
+00:04:28,880 --> 00:04:35,520
+Tá na resposta do nosso desafio pra que vocês pudessem tanto usar o nexo escala e para que vocês pudessem
+
+43
+00:04:35,520 --> 00:04:37,380
+usar o printing.
+
+44
+00:04:37,410 --> 00:04:40,930
+Na verdade algo que coloquei que o NET.
+
+45
+00:04:40,970 --> 00:04:44,170
+Aparentemente o baiano nem é necessária.
+
+46
+00:04:44,180 --> 00:04:53,930
+Acho que ele está sendo usado de forma desnecessária só prestando mais uma vez executado %12 do salario
+
+47
+00:04:54,060 --> 00:04:57,390
+12 e outro 12 em O resultado vai ser 12 exatamente.
+
+48
+00:04:57,480 --> 00:05:03,770
+Então fico por aqui no nosso desafio da média salários e com essa pegadinha mas se essa regra margem
+
+49
+00:05:03,780 --> 00:05:06,740
+poder colocar tanto o veículo como ponto nas casas decimais.
