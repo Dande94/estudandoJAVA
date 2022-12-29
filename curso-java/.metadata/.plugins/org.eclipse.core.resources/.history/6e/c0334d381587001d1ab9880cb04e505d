@@ -24,7 +24,7 @@ public class ProdutoTeste {
 		System.out.println(p2.nome);
 		
 		double precoFinal1 = p1.precoComDesconto();//refatorado pra pegar a formula da classe Produto
-		double precoFinal2 = p2.preco * (1 - p2.desconto);//metodo sem refatoração para comparação;
+		double precoFinal2 = p2.preco * (1 - p2.desconto);//metodo sem refatoração para comparação
 		double mediaCarrinho = (precoFinal1 + precoFinal2) / 2;
 		System.out.println(precoFinal1);
 		System.out.println(precoFinal2);

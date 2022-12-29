@@ -74,5 +74,16 @@ tipo nomeMetodo(tipo nome, ..){bloco de código};
 
 identidade do metodo, onde java analisa o perfil anatomico da função e impede duplicação;
 boolean | nome(int , float); |-> identidade do metodo/ assinatura/
+
+F085 -
+Método - anatomia e instanciamento na prática;
+Syste.out.println() 
+System -> Classe
+.out -> atributo
+.println() -> metodo
+
+como usar parametros da classe final e usar como argumento;
+
+
 ______________________________________________________________________________________________________________________
 

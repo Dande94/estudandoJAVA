@@ -9,6 +9,6 @@ public class Produto {
 	double precoComDesconto(){//como os parametros estão dentro da mesma classe não precisa setar no argumento;
 		
 		return (preco * (1 - desconto));	
-	}
+		}
 
 }
