@@ -53,5 +53,26 @@ F082 -
 Desafio Classe Data;
 F083 - 
 Sucesso no desafio;
+
+F084 - 
+Método
+Ações, comportamentos , algoritmo;
+Uma sequência de passos;
+Conjunto de entradas e retornos;
+Conjunto de entrada sem retornos;
+sem entrada e sem retorno;
+Conveção CamelCase;
+
+int nomeMetodo (){};
+String nomeMetodo (){};
+double nomeMetodo (){};
+Void nomeMetodo (){};
+
+return; -> usado pra devolver o processamento da função;
+
+tipo nomeMetodo(tipo nome, ..){bloco de código};
+
+identidade do metodo, onde java analisa o perfil anatomico da função e impede duplicação;
+boolean | nome(int , float); |-> identidade do metodo/ assinatura/
 ______________________________________________________________________________________________________________________
 
