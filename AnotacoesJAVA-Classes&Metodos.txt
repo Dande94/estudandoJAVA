@@ -31,9 +31,17 @@ F080 -
 Membros de uma classe
 Variaveis / constantes;
 Construtores
-Métdos
+Métodos
 Classes
 
+Atributos:
+Var -> classe e objeto
+Const -> classe e objeto
 
+Métodos -> classe objeto
+
+Static
+
+notação '.ponto' e como faz para acessar os membros de um objeto -> System.out.println() - .println pertence ao .out que por sua fez pertence ao System;
 ______________________________________________________________________________________________________________________
 
