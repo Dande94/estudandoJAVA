@@ -11,6 +11,6 @@ public class DesafioData {
 	}
 	//resposta do professor
 	String obterDataFormatada2() {
-		return String.format("%d/%d/%d", dia , mes , ano ) ;
+		return String.format("%d / %d / %d", dia , mes , ano ) ;
 	}
 }

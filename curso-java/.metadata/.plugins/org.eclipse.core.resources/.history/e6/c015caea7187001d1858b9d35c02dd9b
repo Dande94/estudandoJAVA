@@ -6,14 +6,14 @@ public class ProdutoTeste {
 	public static void main(String[] args) {
 		//Break //->Classe, usado apenas pra explicar a importação de classes, não afeta o exercício;
 		
-		//usando construtor padrão;
+		//usando construtor inicial
 		Produto p1 = new Produto();// instanciando o Tipo Produto, a palavra new é construtora desse tipo;
 		//acessando Produto através da notação '.';
 		p1.nome = "Notebook";
 		p1.preco = 4356.89;
 		p1.desconto = 0.25;
 		
-		//usando construtor explicito;
+		//usando construtor explicito
 		var p2 = new Produto("Caneta Preta", 12.56, 0.29);// a través do new Produto(), o JAVA já infere ao Tipo;
 		//p2.nome = "Caneta Preta";
 		//p2.preco = 12.56;

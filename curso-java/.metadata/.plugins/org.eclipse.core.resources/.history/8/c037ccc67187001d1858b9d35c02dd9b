@@ -11,10 +11,9 @@ public class Produto {
 	Produto(){//construtor padrão
 	}
 	
-	Produto(String nomeInicial , double precoInicial, double descontoInicial ){//construtor explicito
+	Produto(String nomeInicial , double precoInicial){//construtor explicito
 		nome = nomeInicial;
 		preco = precoInicial;
-		desconto = descontoInicial;
 	}
 	
 	double precoComDesconto(){//como os parametros estão dentro da mesma classe não precisa setar no argumento;

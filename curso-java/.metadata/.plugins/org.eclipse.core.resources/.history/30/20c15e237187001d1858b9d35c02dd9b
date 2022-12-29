@@ -6,15 +6,8 @@ public class Produto {
 	double preco;
 	double desconto;// é double porque a variação dele será entre 0 e 1; 
 	
-	//ambos construtores pdem existir com mesmo nome pois as assinaturas são diferentes;
-	
-	Produto(){//construtor padrão
-	}
-	
-	Produto(String nomeInicial , double precoInicial, double descontoInicial ){//construtor explicito
+	Produto(String nomeInicial){
 		nome = nomeInicial;
-		preco = precoInicial;
-		desconto = descontoInicial;
 	}
 	
 	double precoComDesconto(){//como os parametros estão dentro da mesma classe não precisa setar no argumento;

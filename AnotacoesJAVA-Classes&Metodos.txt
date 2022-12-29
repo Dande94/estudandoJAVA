@@ -90,5 +90,23 @@ F087 -
 sucesso no desafio;
 Reassstir aula, muitas dicas legais!!
 
+F088 - 
+Construtor(es);
+São metodos especiais que criam objetos a partir de uma classe; um portal entre classe e objeto;
+
+Produto p1 = new Produto(); -> construtor padrão, não tem parametro;
+
+Produto(int a){} -> construtor explicito;
+Produto p1 = new Produto(3); -> agora a passagem de parametro se faz necessária;
+
+pode ter mais de 1 parametros porém a assinatura te que ser diferente;
+
+restrições:
+1- Nome da classe e construtor deve ser a mesma;
+2- Const. não tem retorno(Void, Integer, Double, String);
+F089 -
+aplicando construtores;
+
+
 ______________________________________________________________________________________________________________________
 

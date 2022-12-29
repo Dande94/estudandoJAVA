@@ -6,7 +6,7 @@ public class ProdutoTeste {
 	public static void main(String[] args) {
 		//Break //->Classe, usado apenas pra explicar a importação de classes, não afeta o exercício;
 		
-		//usando construtor padrão;
+		//usando construtor inicial;
 		Produto p1 = new Produto();// instanciando o Tipo Produto, a palavra new é construtora desse tipo;
 		//acessando Produto através da notação '.';
 		p1.nome = "Notebook";
