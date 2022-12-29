@@ -112,5 +112,14 @@ Desafio construtores;
 F091 - 
 Sucesso Desafio construtores;
 
+F092 - 
+Membros de Classe: 
+Membros de Instância:
+Static:
+Constante de referencia para instancias;
+
+**Reassistir a aula**
+
+
 ______________________________________________________________________________________________________________________
 
