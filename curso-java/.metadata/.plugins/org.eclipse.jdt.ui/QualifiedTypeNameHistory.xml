@@ -8,5 +8,7 @@
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.nio.file.FileSystemNotFoundException"/>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="controle.Break"/>
+    <fullyQualifiedTypeName name="javax.lang.model.util.ElementScanner14"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,12 @@
+package classe;
+
+public class DesafioData {
+	int dia;
+	int mes;
+	int ano;
+	
+	int obterDataFormatada(int dia1, int mes1, int ano1) {
+		return ( dia +  mes + ano);
+	}
+	
+}

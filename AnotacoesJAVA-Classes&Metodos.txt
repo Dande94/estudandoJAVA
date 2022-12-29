@@ -84,6 +84,11 @@ System -> Classe
 
 como usar parametros da classe final e usar como argumento;
 
+F086 -
+Desafio Medoto Data;
+F087 - 
+sucesso no desafio;
+Reassstir aula, muitas dicas legais!!
 
 ______________________________________________________________________________________________________________________
 
