@@ -43,5 +43,10 @@ Métodos -> classe objeto
 Static
 
 notação '.ponto' e como faz para acessar os membros de um objeto -> System.out.println() - .println pertence ao .out que por sua fez pertence ao System;
+
+F081 - 
+Classe Produto
+A Classe Produto criada no outro arquivo,aqui é usada como Tipo(como se fosse String,in e double, e atrvés da notação ponto acesso seus atributos(nome,preco e desconto));
+p1 / p2 é como fica setado pra usar o tipo Produto, como se fosse a variaél que irá comporta o acesso à aquela Classe(Tipo);
 ______________________________________________________________________________________________________________________
 

@@ -1,0 +1,25 @@
+package classe;
+
+import java.util.Scanner;
+
+//import controle.Break;//importanção da classe Break
+
+public class ProdutoTeste {
+	public static void main(String[] args) {
+		//Break //->Classe, usado apenas pra explicar a importação de classes, não afeta o exercício;
+		
+		int a = 3;
+		
+		Scanner entrada = new Scanner(System.in);
+
+		
+
+		entrada.close();
+
+		
+		
+		
+		
+	}
+	
+}

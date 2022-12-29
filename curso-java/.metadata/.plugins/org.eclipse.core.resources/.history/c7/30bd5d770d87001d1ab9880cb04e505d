@@ -1,0 +1,21 @@
+package classe;
+
+//import controle.Break;//importanção da classe Break
+
+public class ProdutoTeste {
+	public static void main(String[] args) {
+		//Break //->Classe, usado apenas pra explicar a importação de classes, não afeta o exercício;
+		
+		Produto p1 = new Produto();// instanciando o Tipo produto, a palavra new é construtora desse tipo;
+		p1.nome = "Notebook";
+		p1.preco = 4356.89;
+		p1.desconto = 0.25;
+		var p2 = new Produto();// a través do new Produto(), o JAVA já infere ao Tipo;
+
+		
+		
+		
+		
+	}
+	
+}

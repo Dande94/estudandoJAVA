@@ -1,0 +1,10 @@
+package classe;
+
+import controle.Break;//importanção da classe Breack
+
+public class ProdutoTeste {
+	public static void main(String[] args) {
+		Break
+	}
+	
+}
