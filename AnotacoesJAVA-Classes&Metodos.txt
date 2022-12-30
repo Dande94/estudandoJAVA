@@ -157,5 +157,11 @@ this.; -> quando se quer acessar uma variavel que pertence a instância; exemplo
 this. não permitido dentro de um contexto de metodo static;
 
 this() -> como função; é um construtor dentro da classe;
+
+F101 - 
+Variáveis:
+Local;
+Escopo;
+
 ______________________________________________________________________________________________________________________
 
