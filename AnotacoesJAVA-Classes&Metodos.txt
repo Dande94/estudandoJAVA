@@ -150,5 +150,12 @@ Desafio Primeiro Trauma;
 F099 - 
 Sucesso Desafio Primeiro Trauma;
 Membro de classe pode acessar outro membro de classe, ou static pode acessar outro static;
+
+F100 - 
+This & This();
+this.; -> quando se quer acessar uma variavel que pertence a instância; exemplo -> DesafioData;
+this. não permitido dentro de um contexto de metodo static;
+
+this() -> como função; é um construtor dentro da classe;
 ______________________________________________________________________________________________________________________
 

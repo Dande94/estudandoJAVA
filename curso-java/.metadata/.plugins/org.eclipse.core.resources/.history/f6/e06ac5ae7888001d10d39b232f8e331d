@@ -19,7 +19,7 @@ public class DesafioData {
 //		dia = 1;
 //		mes = 1;
 //		ano = 1970;
-		this(1, 1, 1970);//this como metodo; só pode se usar dentro de outro construtor;
+		this(1, 1, 1970);//this como metodo;
 	}
 	DesafioData(int dia, int mes, int ano){//this. muito bom para usar com conflito de nomes;
 		this.dia = dia;
