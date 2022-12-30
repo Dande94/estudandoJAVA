@@ -113,13 +113,19 @@ F091 -
 Sucesso Desafio construtores;
 
 F092 - 
-Membros de Classe: 
-Membros de Instância:
-Static:
-Constante de referencia para instancias;
+Membros de Classe: valor associado a Classe;
+Membros de Instância:Valor associado ao objeto;
+Static: "constante" associada a classe para instancias;
+F093 - 
+Membros de Classe VS Membros de Instância;
+System.out.println(Math.PI);//PI versão nativa do JAVA;
+final static double PI= 3.14;//com a inclusão da palavra 'static' o pi passa estar associado a classe;
+//com inclusão da palavra 'final' a variavel se torna constante;
+//metodo static;
 
-**Reassistir a aula**
-
-
+F094 - 
+Desafio Static;
+F095 - 
+Sucesso Desafio Static;
 ______________________________________________________________________________________________________________________
 

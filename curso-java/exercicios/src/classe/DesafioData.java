@@ -14,7 +14,7 @@ public class DesafioData {
 		return String.format("%d/%d/%d", dia , mes , ano ) ;
 	}
 	
-	//minha respostas
+	//minha resposta (igual a do professor)
 	DesafioData(){
 		dia = 1;
 		mes = 1;
