@@ -127,5 +127,11 @@ F094 -
 Desafio Static;
 F095 - 
 Sucesso Desafio Static;
+
+F096 - 
+Atribuição por valor;
+Atribuição por referencia;
+garbage collector;
+metodo Clone;
 ______________________________________________________________________________________________________________________
 
