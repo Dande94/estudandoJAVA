@@ -26,8 +26,8 @@ public class ValorVsReferencia {
 		System.out.println(d2.obterDataFormatada());
 		
 		int c = 5;
-		alterarPrimitivo(c);//quando se passa um valor primitivo pra um metodo, o que é passado é uma cópia;
-		System.out.println(c);// então o valor que virá aqui será o primitivo e não o alterado no metodo;
+		alterarPrimitivo(c);
+		System.out.println(c);
 		
 	}
 	static void voltarDataParaValorPadrao(DesafioData d) {
@@ -36,7 +36,7 @@ public class ValorVsReferencia {
 		d.ano = 1970;
 	}
 	
-	static void alterarPrimitivo(int a) {//aqui foi gerado uma outro espaço de memória
+	static void alterarPrimitivo(int a) {
 		a++;
 	}
 	

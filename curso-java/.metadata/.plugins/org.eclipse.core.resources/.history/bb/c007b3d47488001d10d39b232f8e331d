@@ -36,7 +36,7 @@ public class ValorVsReferencia {
 		d.ano = 1970;
 	}
 	
-	static void alterarPrimitivo(int a) {//aqui foi gerado uma outro espaço de memória
+	static void alterarPrimitivo(int a) {
 		a++;
 	}
 	

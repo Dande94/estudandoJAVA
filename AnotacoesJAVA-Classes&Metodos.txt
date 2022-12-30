@@ -136,5 +136,19 @@ metodo Clone;
 
 F097 - 
 Aplicando conceitos de Atribuição;
+
+int c = 5;
+alterarPrimitivo(c);//quando se passa um valor primitivo pra um metodo, o que é passado é uma cópia;
+System.out.println(c);// então o valor que virá aqui será o primitivo e não o alterado no metodo;
+
+static void alterarPrimitivo(int a) { //aqui foi gerado uma outro espaço de memória
+	a++;
+}
+
+F098 - 
+Desafio Primeiro Trauma;
+F099 - 
+Sucesso Desafio Primeiro Trauma;
+Membro de classe pode acessar outro membro de classe, ou static pode acessar outro static;
 ______________________________________________________________________________________________________________________
 
