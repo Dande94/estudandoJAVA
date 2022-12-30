@@ -11,8 +11,7 @@ public class DesafioData {
 	}
 	//resposta do professor
 	String obterDataFormatada2() {
-		final String formato = "%d/%d/%d";
-		return String.format(formato, dia , mes , ano );//como aqui não há conflito, this. não se faz necessário;
+		return String.format("%d/%d/%d", dia , mes , ano );//como aqui não há conflito, this. não se faz necessário;
 	}
 	
 	//minha resposta (igual a do professor)

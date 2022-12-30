@@ -162,6 +162,24 @@ F101 -
 Variáveis:
 Local;
 Escopo;
+Visibilidade;
+
+parametros:
+visibilidade dentro do escopo alocado;
+
+F0102 - 
+Valor padrão de variaveis;
+byte, short , int , long -> 0;
+float, double -> 0.0;
+boolean -> false;
+chat -> '\u0000'; tabela unicode;
+objetos -> null; String s = null;
+
+a linguagem não permite a execução do programa em variaveis(local) não inicializadas, por exemplo o int se não setar um valor, ele usará o valor padrão e não será executado, caso set o um valor, pode ser até mesmo 0(zero, que é o valor padrão), ai será reconhecida como inicializada e poderá o programa ser executado;
+
+null é diferente de vazio -> " ";
+
+constante não tem valor padrão então obrigatório setar um valor;
 
 ______________________________________________________________________________________________________________________
 
