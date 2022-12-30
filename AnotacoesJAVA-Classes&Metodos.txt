@@ -181,5 +181,9 @@ null é diferente de vazio -> " ";
 
 constante não tem valor padrão então obrigatório setar um valor;
 
+F0103 - 
+Valor Null;
+Não se pode acessar atributo e metodo de algo que está nulo;
+pq é algo que não aponta para um objeto real na memoria;
 ______________________________________________________________________________________________________________________
 
