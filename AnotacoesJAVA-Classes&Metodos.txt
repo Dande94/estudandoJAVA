@@ -133,5 +133,8 @@ Atribuição por valor;
 Atribuição por referencia;
 garbage collector;
 metodo Clone;
+
+F097 - 
+Aplicando conceitos de Atribuição;
 ______________________________________________________________________________________________________________________
 
