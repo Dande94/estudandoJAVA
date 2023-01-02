@@ -43,5 +43,9 @@ F112 -
 Sucesso - Desafio Array;
 'ctrl shift o' -> limpar advertência;
 
+F113 - 
+Matriz;
+retorno de arrays com foreach;
+
 ______________________________________________________________________________________________________________________
 
