@@ -2,4 +2,29 @@ F107 -
 Introdução ao Modulo
 Fundamentos -> Arrays e Collections;
 
+F108 - 
+Array
+Lista numerada;
+Estrutura de tamanho fixo, antes de gera-lo precisa informar o tamanho; estrutura estatica; passivel de realocar as informações array maiores, mas não aumentar o array atual;
+estrutura unidimensional;
+homogenêo -> um array tem um só tipo de dado, array de interiros, array de doubles;
+
+double [] a = new double [6]; -> reservo um espaço na memoria informando ser um array (double [] a) que receberá(=) uma construção de arrays de decimais com 6 posições(new double [6]);
+
+a[2] = 10; inserir o valor 10.0 na posição 2 do array a[];
+a[0] = 9.2;
+
+System.out.println(a[5]); acessar a quinta posição do array;
+
+acesso a notação.
+a._____  -> habilitado;
+a[2].    -> não habilitado;
+
+não existe matriz em JAVA, então para simular a mesma, se usa Array dentro de array;
+
+double [][] -> array bidimensional;
+double [][][] -> array tridimensional;
+e assim por diante....
+
 ______________________________________________________________________________________________________________________
+
