@@ -30,7 +30,7 @@ public class Matriz {
 			System.out.println();
 			
 			for(double[] notasDoAluno: notasDaTurma) {//nesse foreach, ele irá retornar arrays de double presente no array notasDaTurma[];
-				System.out.println("Notas do aluno: -> " + Arrays.toString(notasDoAluno));//cada aluno será um array que retonará seu array interno;
+				System.out.println("Notas do aluno: "+ (notasDaTurma + 1) + "-> " + Arrays.toString(notasDoAluno));//cada aluno será um array que retonará seu array interno;
 				//retorno
 				//[7.0, 7.0, 7.0] -> aluno 1
 				//[8.0, 8.0, 8.0] -> aluno 2

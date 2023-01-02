@@ -47,5 +47,22 @@ F113 -
 Matriz;
 retorno de arrays com foreach;
 
+F114 - 
+conceito de igualdade dentro de objetos no JAVA;
+difrença entre procurar igualdade entre dados e endereço de memoria;
+metodo presente em todos os objetos e Classes(instanciadas) em JAVA -> .equals;
+equals / hashcode
+conjunto -> hashset
+
+equals -> retorna boolean(true ou false);
+hashcode -> retorna int;
+
+como equals é de certa forma lento ao realizar buscas;
+é usado primeiro o hashcode para diminuir a quatidade de resultados de buscar usando uma caracteristica mais especifica;
+e o que o hashcode separou será aplicado o equals para dar acabemento e precisão a busca;
+
+equals <-> hashcode
+
+
 ______________________________________________________________________________________________________________________
 
