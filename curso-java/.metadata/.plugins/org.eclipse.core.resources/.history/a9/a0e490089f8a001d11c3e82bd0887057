@@ -30,11 +30,12 @@ public class Jantar {
 		
 		Pessoa p = new Pessoa("Joao", 99.8);
 		
-		System.out.println(p.apresentar());
+		System.out.println(p.apresentar());;
 		p.comerProfessor(c1);
-		System.out.println(p.apresentar());
+		System.out.println(p.apresentar());;
+		System.out.println(p.apresentar());;
 		p.comerProfessor(c2);
-		System.out.println(p.apresentar());
+		System.out.println(p.apresentar());;
 		
 	}
 }
