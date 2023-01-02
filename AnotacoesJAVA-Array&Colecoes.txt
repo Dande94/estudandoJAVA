@@ -37,5 +37,11 @@ for (double nota : notas) {//foreah
 	System.out.print(nota + " ");			
 }
 
+F111 - 
+Desafio Array;
+F112 - 
+Sucesso - Desafio Array;
+'ctrl shift o' -> limpar advertência;
+
 ______________________________________________________________________________________________________________________
 
