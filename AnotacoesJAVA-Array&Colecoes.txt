@@ -30,5 +30,12 @@ F109 -
 Praticando os conceitos de array;
 .length -> se tratando de arrays é um atributo;
 
+F110 - 
+Foreach; -> para cada;
+estrutura do foreach;
+for (double nota : notas) {//foreah
+	System.out.print(nota + " ");			
+}
+
 ______________________________________________________________________________________________________________________
 
