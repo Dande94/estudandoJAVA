@@ -26,5 +26,9 @@ double [][] -> array bidimensional;
 double [][][] -> array tridimensional;
 e assim por diante....
 
+F109 - 
+Praticando os conceitos de array;
+.length -> se tratando de arrays é um atributo;
+
 ______________________________________________________________________________________________________________________
 
