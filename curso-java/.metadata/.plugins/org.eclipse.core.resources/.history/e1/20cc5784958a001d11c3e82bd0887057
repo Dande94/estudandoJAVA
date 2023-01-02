@@ -1,0 +1,10 @@
+package classe;
+
+public class Pessoa {
+	String nome = "Anderson Nunes";
+	double peso = 87.5;
+	
+	double comer(String comida, double pesoComida){
+		return this.peso + pesoComida;
+	}
+}

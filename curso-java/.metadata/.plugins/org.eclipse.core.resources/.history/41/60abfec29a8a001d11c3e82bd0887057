@@ -1,0 +1,9 @@
+package classe;
+
+public class Comida {
+//minha resposta;
+	double pesoComida;		
+	String comida;
+	
+//resposta do professor;	
+}

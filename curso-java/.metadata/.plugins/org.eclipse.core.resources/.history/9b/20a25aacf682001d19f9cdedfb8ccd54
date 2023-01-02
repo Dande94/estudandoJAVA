@@ -1,9 +1,0 @@
-package controle;
-
-import java.util.Scanner;
-
-public class IF {
-	public static void main(String[] args) {
-		Scanner entrada = new Scanner (System.setIn(null);)
-	}
-}

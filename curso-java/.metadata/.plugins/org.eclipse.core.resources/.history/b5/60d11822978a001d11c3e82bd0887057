@@ -1,0 +1,9 @@
+package classe;
+
+public class Jantar {
+	public static void main(String[] args) {
+		Comida c1 = new Comida();
+		Comida c2 = new Comida();
+		Comida c3 = new Comida();
+	}
+}

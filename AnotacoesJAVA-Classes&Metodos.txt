@@ -185,5 +185,10 @@ F0103 -
 Valor Null;
 Não se pode acessar atributo e metodo de algo que está nulo;
 pq é algo que não aponta para um objeto real na memoria;
+
+F104 - 
+Desafio do Modulo;
+F105 - 
+1/2 Sucesso Desafio do Modulo;(Não achei a explicação do deafio muito clara, então meu desenvolvimento desse desafio fico meio falha, porém vou procurar entender o que ele está querendo me dizer);
 ______________________________________________________________________________________________________________________
 

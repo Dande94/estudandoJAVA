@@ -1,0 +1,11 @@
+package classe;
+
+public class Jantar {
+	public static void main(String[] args) {
+		Comida c1 = new Comida(0.8,"Batata-Frita");
+		Comida c2 = new Comida(0.3,"Bife à Parmeggiana");
+		Comida c3 = new Comida(1.2,"Picanha");
+		
+		String engorda = c1.comer();
+	}
+}
