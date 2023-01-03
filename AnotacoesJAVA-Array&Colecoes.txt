@@ -109,5 +109,11 @@ SET- conjunto
 ♦HashSet;
 
 como calar as advertências;
+
+F118-
+SET homogêneo;
+Set<String> lista =  new HashSet<String>(); ->  tradicional
+Set<String> lista =  new HashSet<>();  -> operador diamond
+SortedSet<String> listaAprovados =  new TreeSet<>();//respeita a ordem de adição;
 ______________________________________________________________________________________________________________________
 
