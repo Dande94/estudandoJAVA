@@ -97,5 +97,17 @@ STACK-
 
 add - adiciona dados;
 size() - metodo de tamanho da collection;
+
+F117 -
+SEt na prática;
+SET- conjunto 
+►Pode ser heterogêneo;(multiplos tipos);
+►Pode ser homogêneo;(mono tipos);
+►Não aceita obj duplicados;(objets com o mesmo equals ou mesmo hashcode);
+►Pode ser ordenado;
+►Não é indexado;
+♦HashSet;
+
+como calar as advertências;
 ______________________________________________________________________________________________________________________
 
