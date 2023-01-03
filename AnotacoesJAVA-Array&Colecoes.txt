@@ -67,5 +67,35 @@ F115 -
 equals na prática;
 instanceof
 hashcode ficará para o fim do módulo;
+
+F116 - 
+conceitalização de collections;
+estrutura de como organizar os dados;
+tipos:
+
+SET- se assemelha a um conjunto;
+►Não ordenado (por padrão);
+►Não indexado;
+►Não aceita repetição
+
+LIST- se assemelha a uma lista (array)
+►Idexada;
+►Aceita repetição;
+
+MAP- se assemelha uma tabela de duas colunas; a chave é tipo SET e valor é tipos LIST;
+►Chave/Valor;
+►Chave não aceita repetição;
+►Valor aceita repetição;
+
+QUEUE - fila
+►Implementa fila;
+►First In / First Out (FIFO);
+
+STACK-
+►Implementa pilha(Stack);
+►Last In / First Out (LIFO)
+
+add - adiciona dados;
+size() - metodo de tamanho da collection;
 ______________________________________________________________________________________________________________________
 

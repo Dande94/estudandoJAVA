@@ -12,7 +12,7 @@ public class Usuario {
 			boolean nomeIgual = outro.nome.equals(this.nome);// está verificando se o conteudo de nome vindo da busca é igual instanciado em Usuario;
 			boolean emailIgual = outro.email.equals(this.email);// mesma lógica mas aplicada a email;
 			
-			return nomeIgual && emailIgual;	// só irá retorna verdadeiro se ambos forem verdadeiros;
+			return nomeIgual && emailIgual;	// só irá retorna verdadeiro se ambos forem verdaeiros;
 		}else {
 			return false;
 		}
