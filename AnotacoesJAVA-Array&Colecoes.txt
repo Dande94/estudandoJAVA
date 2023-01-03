@@ -63,6 +63,9 @@ e o que o hashcode separou será aplicado o equals para dar acabemento e precis�
 
 equals <-> hashcode
 
-
+F115 - 
+equals na prática;
+instanceof
+hashcode ficará para o fim do módulo;
 ______________________________________________________________________________________________________________________
 

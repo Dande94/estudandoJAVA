@@ -1,0 +1,23 @@
+package classe;
+
+public class Usuario {
+	String nome;
+	String email;
+	
+	@Override
+	public boolean equals(Object objeto) {//definir os critérios de igualdade;
+		
+		if(objeto instanceof Usuario) {
+			Usuario outro = (Usuario) objeto;//covertendo(cast) o objeto recebdo para usuario;
+			boolean nomeIgual = outro.nome.equals(this.nome);
+			boolean emailIgual = outro.email.equals(this.email);
+			
+			return nomeIgual && emailIgual;	
+		}else {
+			return false;
+		}
+		
+		
+	}
+	//O hashcode será abordado em outra aula;
+}
