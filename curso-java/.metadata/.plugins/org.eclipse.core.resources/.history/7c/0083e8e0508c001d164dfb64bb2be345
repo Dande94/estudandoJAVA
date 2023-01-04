@@ -1,0 +1,26 @@
+package colecoes;
+
+import java.util.ArrayList;
+
+public class Lista {
+	public static void main(String[] args) {
+		ArrayList<Usuario> lista = new ArrayList<>();
+		
+		Usuario u1 = new Usuario("Anderson"); // exemplo de inserção
+		lista.add(u1);
+		
+		lista.add(new Usuario("Gisele"));//outro exemplo de inserção
+		lista.add(new Usuario("Isabel"));
+		lista.add(new Usuario("Andrey"));
+		lista.add(new Usuario("Teresinha"));
+		lista.add(new Usuario("Edson"));
+		
+//		System.out.println(lista.get(3).nome);//pegar um dos dados listados;
+		System.out.println(lista.get(3));//pegar um dos dados listados;
+		
+		for (Usuario u: lista) {
+			System.out.println(u.nome);
+		}
+		
+	}
+}

@@ -115,5 +115,17 @@ SET homogêneo;
 Set<String> lista =  new HashSet<String>(); ->  tradicional
 Set<String> lista =  new HashSet<>();  -> operador diamond
 SortedSet<String> listaAprovados =  new TreeSet<>();//respeita a ordem de adição;
+anotação 'generics';
+
+F119 - 
+LIST na prática;
+►Pode ser heterogêneo;(multiplos tipos);
+►Pode ser homogêneo;(mono tipos);
+►Aceita obj duplicados;(objets com o mesmo equals ou mesmo hashcode);
+►É ordenado;
+►É indexado;
+
+ArrayList<Usuario> lista = new ArrayList<>();
+List<Usuario> lista = new ArrayList<>();
 ______________________________________________________________________________________________________________________
 
