@@ -127,5 +127,31 @@ LIST na prática;
 
 ArrayList<Usuario> lista = new ArrayList<>();
 List<Usuario> lista = new ArrayList<>();
+
+F120 - 
+Queue(FILA) na prática;
+Queue<String> fila = new LinkedList<>();
+
+//.add() & .offer() -> maneiras de inserção para queue;
+fila.add("Ana");// caso falhe ela expressa erro na execução
+fila.offer("Bia");// caso falhe retorna false; 
+//a diferença é o comportamento quando a fila está cheia;
+
+
+//.peek() & .element() -> obter o próximo elemento da fila(sem remover);
+System.out.println(fila.peek());//se estiver vazia retorna null;
+System.out.println(fila.element());//se estiver vazia lanã uma exception(exceção);
+//a diferença é o comportamento quando a fila está vazia;
+
+
+//.poll() & .remove() -> obter e remover o primeiro elemento da fila 
+System.out.println(fila.poll());//retorna o primeiro elemento já removendo ele; caso a fila esteja vazia retorna null;
+//System.out.println(fila.remove());//retorna o primeiro elemento já removendo ele; caso a fila esteja vazia expressa erro(exception);
+//a diferença é o comportamento quando a fila está vazia;
+
+//fila.size();//tamanho da fila;
+//fila.clear();//limpar a fila;
+//fila.isEmpty();//verificar se está vazia;
+//fila.contains();//verificar se contém na fila;
 ______________________________________________________________________________________________________________________
 
