@@ -1,0 +1,31 @@
+package colecoes;
+
+import java.util.HashMap;
+
+
+public class Map {
+	public static void main(String[] args) {
+//		java.util.Map<Integer, String> usuarios = new HashMap<Integer, String>();
+		java.util.Map<Integer, String> usuarios = new HashMap<>();
+		
+		usuarios.put(1, "Anderson");//inserção no Map;
+		//usuarios.put(1, "Andrey");//caso repita, ele não irá incluir e sim substituir;
+		usuarios.put(2, "Andrey");
+		usuarios.put(3, "Gisele");
+		usuarios.put(4, "Isabel");
+		
+		System.out.println(usuarios.size());
+		System.out.println(usuarios.isEmpty());
+		
+		
+		System.out.println(usuarios.keySet());//retorna as chaves;
+		System.out.println(usuarios.values());//retorna os valores;
+		System.out.println(usuarios.entrySet());//retorna as chaves com os valores;
+		
+		System.out.println(usuarios.containsKey());//retorna as chaves;
+		System.out.println(usuarios.containsValues());//retorna os valores;
+		
+		
+		
+	}
+}

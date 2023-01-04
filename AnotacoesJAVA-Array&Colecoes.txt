@@ -159,6 +159,26 @@ Stack(pilha) na prática
 //básicamente os mesmo métodos do Fila porém se baseando no ultimo elemento da lista;
 // offer -> push (pata inserção) / inclusão dp pop() (para exclusão);
 
+F122 - 
+Map na prática; -> estrutura bastante dinamica n momento da montage;
+java.util.Map<Integer, String> usuarios = new HashMap<Integer, String>();
+java.util.Map<Integer, String> usuarios = new HashMap<>();
 
+usuarios.put(1, "Anderson");//inserção no Map;
+System.out.println(usuarios.keySet());//retornaas chaves; ->[1, 2, 3, 4]
+System.out.println(usuarios.values());//retorna os valores; ->[Anderson, Andrey, Gisele, Isabel]
+System.out.println(usuarios.entrySet());//retorna as chaves com os valores; ->[1=Anderson, 2=Andrey, 3=Gisele, 4=Isabel]
+
+System.out.println(usuarios.get(2));//traz o valor a partir da chave;
+System.out.println(usuarios.remove(1));//remover a partir da chave
+System.out.println(usuarios.remove(4 ,"Teresinha"));//remover por chave e valor, caso não seja verdadeira a combinação retornaraá false;
+
+
+System.out.println(usuarios.containsKey(3));//retorna um boolean;
+System.out.println(usuarios.containsValue("Anderson"));//retorna um boolean;
+
+System.out.println(usuarios.get(2));//traz o valor a partir da chave;
+
+3 foreach para percorrer esse Map, pela chave, pelo valor e pelas duas colunas;
 ______________________________________________________________________________________________________________________
 
