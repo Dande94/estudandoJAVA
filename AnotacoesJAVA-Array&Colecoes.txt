@@ -177,6 +177,10 @@ System.out.println(usuarios.remove(4 ,"Teresinha"));//remover por chave e valor,
 System.out.println(usuarios.containsKey(3));//retorna um boolean;
 System.out.println(usuarios.containsValue("Anderson"));//retorna um boolean;
 
+F123 - 
+hashcode na prática;
+**Reassistir a aula**
+
 System.out.println(usuarios.get(2));//traz o valor a partir da chave;
 
 3 foreach para percorrer esse Map, pela chave, pelo valor e pelas duas colunas;
