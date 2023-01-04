@@ -153,5 +153,12 @@ System.out.println(fila.poll());//retorna o primeiro elemento já removendo ele;
 //fila.clear();//limpar a fila;
 //fila.isEmpty();//verificar se está vazia;
 //fila.contains();//verificar se contém na fila;
+
+F121 - 
+Stack(pilha) na prática 
+//básicamente os mesmo métodos do Fila porém se baseando no ultimo elemento da lista;
+// offer -> push (pata inserção) / inclusão dp pop() (para exclusão);
+
+
 ______________________________________________________________________________________________________________________
 
