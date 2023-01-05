@@ -2,7 +2,7 @@
 F125 - 
 Introdução ao Módulo
 Paradigma de programação
-Base do Java
+•Base do Java
 ►Herança
 ►Polimorfismo
 ►Encapsulamento
@@ -13,12 +13,19 @@ Base do Java
 conceitos Sólidos;
 
 F126 -
-Composição
-Dependencias de classes;
-Relacionamento entre classes;
-Alta depedencia de classes;
-Manutenbilidade;
-Reutilizar códigos;
+•Composição
+►Dependencias de classes;
+►Relacionamento entre classes;
+►Alta depedencia de classes;
+►Manutenbilidade;
+►Reutilizar códigos;
+
+F127 - 
+•Relação 1 para 1
+►Relação unidirecional;
+►Compor um objeto a partir de outro objetos;
+►Responsável por gararntir que anomalias acontençam é a própria Classe;
+►Relação bidirecional;
 
 
 
