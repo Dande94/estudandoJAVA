@@ -1,7 +1,7 @@
 package oo.composicao;
 
 public class Carro {
-	final Motor motor; //= new Motor();//Instância -> aqui indoco que o Carro tem um motor, para poder ter acesso a Classe Motor;
+	Motor motor; //= new Motor();//Instância -> aqui indoco que o Carro tem um motor, para poder ter acesso a Classe Motor;
 	
 	//relação bidirecional
 	Carro(){

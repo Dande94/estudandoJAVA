@@ -27,6 +27,10 @@ F127 -
 ►Responsável por gararntir que anomalias acontençam é a própria Classe;
 ►Relação bidirecional;
 
+F128 -
+•Relação 1 para N;
+►Relação bidirecional;
+
 
 
 ______________________________________________________________________________________________________________________

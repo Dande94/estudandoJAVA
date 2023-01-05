@@ -3,7 +3,7 @@ package oo.composicao;
 public class Motor {
 	
 	//relação bidirecional 
-	final Carro carro;//= new Carro();//Relação bidirecional -> não aconselhavél 
+	finalCarro carro;//= new Carro();//Relação bidirecional -> não aconselhavél 
 	//relação bidirecional 
 	
 	boolean ligado = false;
