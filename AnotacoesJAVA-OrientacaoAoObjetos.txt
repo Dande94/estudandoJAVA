@@ -12,6 +12,14 @@ Base do Java
 
 conceitos Sólidos;
 
+F126 -
+Composição
+Dependencias de classes;
+Relacionamento entre classes;
+Alta depedencia de classes;
+Manutenbilidade;
+Reutilizar códigos;
+
 
 
 ______________________________________________________________________________________________________________________
