@@ -1,0 +1,11 @@
+package oo.composicao.desafio;
+
+public class Item {
+	Produto p1 = new Produto();
+	
+	
+	int quantidade;
+	
+
+
+}
