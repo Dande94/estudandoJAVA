@@ -1,9 +1,0 @@
-package classe;
-
-public class DesafioDataTeste {
-	
-	int dia;
-	String mes;
-	int ano;
-
-}
