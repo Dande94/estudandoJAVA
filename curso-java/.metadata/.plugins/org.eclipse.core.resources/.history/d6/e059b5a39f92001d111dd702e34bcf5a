@@ -1,0 +1,21 @@
+package oo.composicao.desafio;
+
+import java.util.ArrayList;
+
+public class Compra {
+	
+	final ArrayList<Item> itens = new ArrayList<>();
+	
+	int quantidade;
+	double preco;
+	String nome;
+	
+	
+	Compra(int quantidade, double preco, String nome ){//
+		this.quantidade = quantidade;
+		this.preco = preco;
+		this.nome = nome;
+	}
+	
+	
+}

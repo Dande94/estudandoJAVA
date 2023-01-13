@@ -1,6 +1,0 @@
-package classe;
-
-public class Comida {
-	double pesoComida;		
-	String comida;
-}

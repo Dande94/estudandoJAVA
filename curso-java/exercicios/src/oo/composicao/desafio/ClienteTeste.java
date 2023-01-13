@@ -2,10 +2,11 @@ package oo.composicao.desafio;
 
 public class ClienteTeste {
 	public static void main(String[] args) {
-		Cliente cliente1 = new Cliente("Anderson Nunes");
+//minha resposta incompleta
+//		Cliente c1 = new Cliente("Anderson Nunes");		
+//		System.out.println(c1);
+//		System.out.println(c1.compras);
 		
-		cliente1.compras.add(1,1.98, "Caneta");
-		
-		System.out.println(cliente1);
+//resposta do professor
 	}
 }

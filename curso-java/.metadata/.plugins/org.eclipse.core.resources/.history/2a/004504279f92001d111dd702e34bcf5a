@@ -1,0 +1,11 @@
+package oo.composicao.desafio;
+
+public class ClienteTeste {
+	public static void main(String[] args) {
+		Cliente c1 = new Cliente("Anderson Nunes");
+		c1.compras.add(new Compra(6,2.01,"Caneta"));
+		
+		
+		System.out.println(cliente1);
+	}
+}

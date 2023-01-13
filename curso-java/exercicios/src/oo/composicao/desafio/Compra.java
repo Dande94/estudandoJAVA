@@ -1,13 +1,9 @@
 package oo.composicao.desafio;
 
-import java.util.ArrayList;
-
 public class Compra {
-	final ArrayList<Item> itens = new ArrayList<>();
+//minha resposta incompleta	
+//	final ArrayList<Item> itens = new ArrayList<>();
+//	Compra(Item quantidade){}
 	
-	Compra(int quantidade, double preco, String nome){
-		this.quantidade = quantidade;
-	}
-	
-	
+//resposta do professor	
 }

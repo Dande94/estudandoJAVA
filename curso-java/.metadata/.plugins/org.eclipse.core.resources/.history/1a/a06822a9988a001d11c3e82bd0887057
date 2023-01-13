@@ -1,9 +1,0 @@
-package classe;
-
-public class Comida {
-	Pessoa p1 = new Pessoa();
-	p1.comer(this.pesoComida , this.comida);
-	
-	double pesoComida;		
-	String comida;
-}
