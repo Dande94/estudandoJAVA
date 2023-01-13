@@ -1,0 +1,19 @@
+package oo.composicao.desafio;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Cliente {
+//minha resposta incompleta
+//	String nome;
+//	final ArrayList<Compra> compras = new ArrayList<>();	
+//	Cliente(String nome){
+//		this.nome = nome;
+//	}
+//	public String toString() {
+//		return nome;
+//	}
+//resposta do professor
+	List<Compra> compras = new ArrayList<>();//1 cliente tem muitas compras
+	
+}

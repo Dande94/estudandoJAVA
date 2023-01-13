@@ -14,6 +14,12 @@ public class Item {
 //	}
 	
 //resposta do professor	
-
+	final Produto produto;
+	final int quantidade;	
+	
+	Item(Produto produto, int quantidade){//constrututor do item, recebe um produto que é uma classe com 2 atributos, e quantodade que atributo da classe atual
+		this.produto = produto;
+		this.quantidade = quantidade;
+	}
 
 }

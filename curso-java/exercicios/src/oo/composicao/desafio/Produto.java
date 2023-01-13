@@ -10,4 +10,11 @@ public class Produto {
 //	}
 
 //resposta do professor
+	String nome;
+	double preco;
+	
+	Produto(String nome, double preco){//construtor do Produto;
+		this.nome = nome;
+		this.preco = preco;
+	}
 }

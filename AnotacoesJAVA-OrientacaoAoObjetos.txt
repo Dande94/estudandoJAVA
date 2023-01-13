@@ -36,6 +36,10 @@ F129 -
 
 F130 - 
 •Desafio;
-
+F131 - 
+•Desafio Resposta;
+►falhei no desafio;
+►comecei pelo produto e terminaria no cliente, ele por sua vez começou por cliente  e foi até produto;
+►entendi errado o coceito do projeto, ele quera apenas 1 cliente várias compras, eu já imaginei que fosse pra criar mais de um cliente, cada um com uma compra;
 
 ______________________________________________________________________________________________________________________

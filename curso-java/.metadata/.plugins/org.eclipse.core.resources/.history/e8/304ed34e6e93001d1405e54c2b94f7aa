@@ -1,0 +1,23 @@
+package oo.composicao.desafio;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Compra {
+//minha resposta incompleta	
+//	final ArrayList<Item> itens = new ArrayList<>();
+//	Compra(Item quantidade){}
+	
+//resposta do professor	
+	List<Item> itens = new ArrayList<>();//1 compra tem muitas itens
+	
+	void adicionarItem(Produto p, int qtde) {
+		this.itens.add(new Item(p , qtde));
+	}
+	
+	double obterValorTotal() {
+		double total = 0;
+		
+		return total;
+	}
+}
