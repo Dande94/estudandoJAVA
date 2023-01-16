@@ -1,4 +1,3 @@
-
 F125 - 
 Introdução ao Módulo
 Paradigma de programação
@@ -111,6 +110,7 @@ F137 -
 ►simplificação;
 ►Filtrar o que é relevante para o sistema;
 
-
+138 - 
+ENUM - outro tipo de estrutura que pode ser criada além da classe;
 
 ______________________________________________________________________________________________________________________
