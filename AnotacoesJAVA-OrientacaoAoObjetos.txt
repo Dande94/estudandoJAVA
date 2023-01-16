@@ -56,4 +56,19 @@ F133 -
 ►Herança - Reuso de código;
 ►Polimorfismo - Acoplar conceitos genericos a várioas aplicações, posso dizer que cachorro é um animal, que gato é um animal, pq o conceito animal é polimorfico;
 ► Abstração - simplificar o mundo real para o software;
+
+134 - 
+•Encapsulamento;
+►Privado;
+►Público;
+►"Efeito Dominó";
+►Baixo grau de dependência e complexidade;
+►Modificadores de acesso(em metodos e atributos;) -
+►►Public - pode ser acessado por qualquer classe do sistema;
+►►►Protected - pode ser acessado desde que ele seja herdado, trasmitido por herança;
+►►►►Package(default) - só pode ser acessado por classes do mesmo pacote;
+►►►►►Private - o mais restrito, só pode ser acessado de dentro da própria classe;
+
+
+
 ______________________________________________________________________________________________________________________
