@@ -42,4 +42,12 @@ F131 -
 ►comecei pelo produto e terminaria no cliente, ele por sua vez começou por cliente  e foi até produto;
 ►entendi errado o coceito do projeto, ele quera apenas 1 cliente várias compras, eu já imaginei que fosse pra criar mais de um cliente, cada um com uma compra;
 
+F132 - 
+►Paradigmas; estruturar o pensamento e abstrair o mundo real para o software;
+►Programação macarrônica;
+►Procedural - ator principal é a função;
+►Orientação a Objetos - ator principal é o objetos;
+►Funcional;
+
+F133 - 
 ______________________________________________________________________________________________________________________

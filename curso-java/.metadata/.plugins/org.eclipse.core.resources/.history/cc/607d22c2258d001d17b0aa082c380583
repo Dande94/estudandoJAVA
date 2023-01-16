@@ -1,5 +1,0 @@
-package oo.composiicao;
-
-public class CarroTeste {
-	Carro c1 = new Carro();
-}

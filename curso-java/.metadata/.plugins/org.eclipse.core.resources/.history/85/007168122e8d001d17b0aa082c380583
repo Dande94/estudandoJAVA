@@ -1,7 +1,0 @@
-package oo.composicao;
-
-public class CompraTeste {
-	Compra c1 = new Compra();
-	
-	
-}
