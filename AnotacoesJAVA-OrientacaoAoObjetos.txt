@@ -106,7 +106,10 @@ void estacionar(Civic c){...}; - aceita exclusivo Civic e ou que herda algo no C
 
 void estacionar(Carro c){...}; -  aceita qualquer Carro(civic, ferrari, uno ....); + genérico;
 
-
+F137 - 
+•Abstração;
+►simplificação;
+►Filtrar o que é relevante para o sistema;
 
 
 
