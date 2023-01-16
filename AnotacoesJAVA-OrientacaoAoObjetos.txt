@@ -92,6 +92,19 @@ maçã é uma fruta...
 
 ►extends;
 
+F136 - 
+•Polimorfismo;
+►Estático - sobrecarga, três metodos com mesmo nome operando de manera diferente;
+►Dinâmico - tem que haver herança;
+Civic c = new Civic(); - Estanciando a classe carro;
+Carro c = new Civic(); - estanciar um carro especifico, e atribuiu à classe carro, possível através da herança;
+c = new Ferrari(); - atribuindo Ferrari a classe carro;
+
+Usando o tipo Generico, pode se atribui formas diferentes, usando exemplo acima, haverá momentos que o carro terá forma de Civic e outros forma de Ferrari;
+
+void estacionar(Civic c){...}; - aceita exclusivo Civic e ou que herda algo no Civic;
+
+void estacionar(Carro c){...}; -  aceita qualquer Carro(civic, ferrari, uno ....); + genérico;
 
 
 
