@@ -57,7 +57,7 @@ F133 -
 ►Polimorfismo - Acoplar conceitos genericos a várioas aplicações, posso dizer que cachorro é um animal, que gato é um animal, pq o conceito animal é polimorfico;
 ► Abstração - simplificar o mundo real para o software;
 
-134 - 
+F134 - 
 •Encapsulamento;
 ►Privado;
 ►Público;
@@ -68,6 +68,32 @@ F133 -
 ►►►Protected - pode ser acessado desde que ele seja herdado, trasmitido por herança;
 ►►►►Package(default) - só pode ser acessado por classes do mesmo pacote;
 ►►►►►Private - o mais restrito, só pode ser acessado de dentro da própria classe;
+
+F135 - 
+•Herança;
+►Reuso de código;
+
+►Composição("tem uma..."); 
+►►Priorizar em relação a herança, por ser mais flexível; 
+Ex:
+carro tem um motor...
+carro tem portas...
+casa tem uma cozinha..
+
+►Herança("é uma..."); 
+►►Evitar uso execivo, e muitas hierarquias de heraça;
+Ex:
+civic é um carro...
+Gato é um mamífero...
+maçã é uma fruta...
+
+►Super Classe(mais genérico, mais abrangente); 
+►Sub Classe(mais específica);
+
+►extends;
+
+
+
 
 
 
