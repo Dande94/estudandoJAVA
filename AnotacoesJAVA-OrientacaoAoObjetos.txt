@@ -50,4 +50,10 @@ F132 -
 ►Funcional;
 
 F133 - 
+•Pilares da orientação a objetos;
+►conceitos;
+►Encapsulamento - processos internos do sistemas;
+►Herança - Reuso de código;
+►Polimorfismo - Acoplar conceitos genericos a várioas aplicações, posso dizer que cachorro é um animal, que gato é um animal, pq o conceito animal é polimorfico;
+► Abstração - simplificar o mundo real para o software;
 ______________________________________________________________________________________________________________________
