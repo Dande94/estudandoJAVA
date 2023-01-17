@@ -125,4 +125,9 @@ F140 -
 ►super classe;
 ►visibilidade afeta a herança;
 
+F141 -
+Desafio Herança;
+F142 - 
+Desafio Herança - sucesso;
+
 ______________________________________________________________________________________________________________________
