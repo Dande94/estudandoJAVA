@@ -26,9 +26,5 @@ public class Jogo {
 		System.out.println("Monstro tem =>"+monstro.vida);
 		System.out.println("Heroi tem =>"+heroi.vida);
 		monstro.andar(Direcao.NORTE);
-		monstro.atacar(heroi);
-		System.out.println("houve um ataque");
-		System.out.println("Monstro tem =>"+monstro.vida);
-		System.out.println("Heroi tem =>"+heroi.vida);
 	}
 }

@@ -115,9 +115,14 @@ ENUM - outro tipo de estrutura que pode ser criada além da classe;
 
 F139 - 
 •Herança na prática;
-►transmissão de atributos e comportamnetos pra classe filha;
+►transmissão de atributos e comportamentos pra classe filha;
 Math.abs(); valor absoluto, caso uma soma reslte em '-1' ele modifica para 1;
 ►us do extends;
 
+F140 - 
+•Herança na prática; pt.2;
+►sobrescrever atributo ou comportamento a partir da classe filha;
+►super classe;
+►visibilidade afeta a herança;
 
 ______________________________________________________________________________________________________________________
