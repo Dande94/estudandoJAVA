@@ -110,7 +110,14 @@ F137 -
 ►simplificação;
 ►Filtrar o que é relevante para o sistema;
 
-138 - 
+F138 - 
 ENUM - outro tipo de estrutura que pode ser criada além da classe;
+
+F139 - 
+•Herança na prática;
+►transmissão de atributos e comportamnetos pra classe filha;
+Math.abs(); valor absoluto, caso uma soma reslte em '-1' ele modifica para 1;
+►us do extends;
+
 
 ______________________________________________________________________________________________________________________
