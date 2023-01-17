@@ -11,9 +11,5 @@ public class Ferrari extends Carro{
 		boolean acelerar3 = super.acelerar();
 		return acelerar1 || acelerar2 || acelerar3;
 		
-//resposta do professor
-//		void acelerar() {
-//			super.acelerar();
-//		}
 	}
 }

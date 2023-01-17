@@ -19,16 +19,14 @@ public class Carro {
 //		void acelerar(){
 //			velocidadeAtual += 5;
 //		}
-//		void frear(){
+//	boolean frear(){
 //		if(velocidadeAtual > >= 5) {
 //			velocidadeAtual -= 5;
 //		}else{
 //			velocidadeAtual = 0
 //		}
 //		
-//		public String toString(){
-//			return "Velocidade atual é" + velocidadeAtual + "km/h";
-//		}
+//	
 //	}
 
 }
