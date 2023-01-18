@@ -135,4 +135,8 @@ Construção do objeto quando há herança;
 this. - construtor da classe atual;
 super. -  contrutor para a classe pai;
 
+F144 - 
+Desafio Construtores Herança;
+F145 - 
+Desafio Construtores Herança;
 ______________________________________________________________________________________________________________________
