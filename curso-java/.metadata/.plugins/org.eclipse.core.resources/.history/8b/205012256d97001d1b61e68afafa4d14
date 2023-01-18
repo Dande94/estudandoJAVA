@@ -11,8 +11,6 @@ public class Ferrari extends Carro{
 //		boolean acelerar2 = super.acelerar();
 //		boolean acelerar3 = super.acelerar();
 //		return acelerar1 || acelerar2 || acelerar3;
-	
-//resposta do professor e  minha resposta
 	Ferrari(){
 		super(315);
 	}
@@ -21,8 +19,9 @@ public class Ferrari extends Carro{
 		delta =15;
 	}
 	
-//		void acelerar() {
-//			velocidadeAtual += 15; //ou super.acelerar();
-//		}
-//	}
-}
+//resposta do professor
+		void acelerar() {
+			velocidadeAtual += 15; //ou super.acelerar();
+		}
+	}
+//}

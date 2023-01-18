@@ -11,18 +11,12 @@ public class Ferrari extends Carro{
 //		boolean acelerar2 = super.acelerar();
 //		boolean acelerar3 = super.acelerar();
 //		return acelerar1 || acelerar2 || acelerar3;
-	
-//resposta do professor e  minha resposta
 	Ferrari(){
-		super(315);
+		super(0);
 	}
-	Ferrari(int velocidadeMaxima){//setando velocidade máxima enviada por parametro
-		super(velocidadeMaxima);
-		delta =15;
+//resposta do professor
+		void acelerar() {
+			velocidadeAtual += 15; //ou super.acelerar();
+		}
 	}
-	
-//		void acelerar() {
-//			velocidadeAtual += 15; //ou super.acelerar();
-//		}
-//	}
-}
+//}

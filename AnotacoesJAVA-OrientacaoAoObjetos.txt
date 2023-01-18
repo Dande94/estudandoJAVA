@@ -139,4 +139,5 @@ F144 -
 Desafio Construtores Herança;
 F145 - 
 Desafio Construtores Herança;
+►tive certo exito com o desafio, mas ainda estou tendo dificuldades em entender, a resolução proposta;
 ______________________________________________________________________________________________________________________

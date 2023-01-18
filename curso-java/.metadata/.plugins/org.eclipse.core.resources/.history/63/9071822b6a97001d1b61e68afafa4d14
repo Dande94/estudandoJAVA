@@ -13,6 +13,7 @@ public class Civic extends Carro{
 	
 //resposta do professor 
 	Civic(){
+	//	super(0);
 		super(212);// nesse caso '212' é velocidade máxima do veículo;
 	}	
 }
