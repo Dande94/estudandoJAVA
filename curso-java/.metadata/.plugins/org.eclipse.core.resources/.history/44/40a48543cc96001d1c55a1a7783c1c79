@@ -13,7 +13,7 @@ public class Ferrari extends Carro{
 		
 //resposta do professor
 //		void acelerar() {
-//			super.acelerar(); ou velocidadeAtual += 15;
+//			super.acelerar();
 //		}
 	}
 }

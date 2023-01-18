@@ -130,4 +130,9 @@ Desafio Herança;
 F142 - 
 Desafio Herança - sucesso;
 
+F143 - 
+Construção do objeto quando há herança;
+this. - construtor da classe atual;
+super. -  contrutor para a classe pai;
+
 ______________________________________________________________________________________________________________________
