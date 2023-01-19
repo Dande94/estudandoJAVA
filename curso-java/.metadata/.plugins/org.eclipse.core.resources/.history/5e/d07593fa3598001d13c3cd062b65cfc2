@@ -1,10 +1,10 @@
 package oo.heranca.desafio;
 
 public class Carro {
-	public final int VELOCIDE_MAXIMA;
-	protected int velocidadeAtual = 0;
-	protected int velocidadeMinima = 0;
-	protected int delta = 5;
+	final int VELOCIDE_MAXIMA;
+	int velocidadeAtual = 0;
+	int velocidadeMinima = 0;
+	int delta = 5;
 	
 	protected Carro(int velocidadeMaxima){
 		VELOCIDE_MAXIMA = velocidadeMaxima;

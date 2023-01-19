@@ -156,4 +156,9 @@ os aributos publicos são transmitidos por herança;
 
 F148 - 
 Desafio Modificadores de acesso;
+
+F149 - 
+Resposta Desafio Modificadores de acesso;
+►A classe não suporta private e protected, apenas public e pacote;
+►Sucesso;
 ______________________________________________________________________________________________________________________
