@@ -161,4 +161,11 @@ F149 -
 Resposta Desafio Modificadores de acesso;
 ►A classe não suporta private e protected, apenas public e pacote;
 ►Sucesso;
+
+F150 - 
+Getter & Setters;
+ler & alterar;
+►Desenvolvimento de Getters & Setters manual e automático;
+►agora que a variavel é private, a unica classe que pode alterar se valor é propria classe onde está inserida;
+►então resolver isso existe o Getter e Setter;
 ______________________________________________________________________________________________________________________

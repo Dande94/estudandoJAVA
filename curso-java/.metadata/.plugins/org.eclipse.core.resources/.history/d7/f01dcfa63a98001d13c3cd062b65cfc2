@@ -1,0 +1,17 @@
+package oo.encapsulamento;
+
+public class Pessoa {
+	private int idade;//agora que a variavel é private, a unica classe que pode alterar se valor é propria classe onde está inserida;
+
+	public int getIdade() {
+		return idade;
+	}
+
+	public void setIdade(int novaIdade) {
+		this.idade = novaIdade;
+	}
+	
+	
+	
+	
+}

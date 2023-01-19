@@ -1,0 +1,38 @@
+package oo.encapsulamento;
+
+public class Pessoa {
+	private int idade;//agora que a variavel é private, a unica classe que pode alterar se valor é propria classe onde está inserida;
+	private String nome;
+	
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+
+	Pessoa(String nome ,int novaIdade){
+		etNome(nome);
+		setIdade(novaIdade);
+	}
+	
+	
+	public int getIdade() {
+		return idade;
+	}
+
+	public void setIdade(int novaIdade) {
+		novaIdade = Math.abs(novaIdade);
+		if(novaIdade >= 0 && novaIdade <= 120) {
+			this.idade = novaIdade;			
+		}
+	}
+	
+	String toString() {
+		return " ";
+	}
+	
+	
+	
+}
