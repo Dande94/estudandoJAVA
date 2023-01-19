@@ -148,6 +148,10 @@ F146 -
 ►►►►Package(default) - só pode ser acessado por classes do mesmo pacote;
 ►►►►►Private - o mais restrito, só pode ser acessado de dentro da própria classe;
 
-
+F147 -
+►Modificadores de acesso na prática;
+os atributos protected são transmitidos por herança
+os atributos pacote não é trasmitido por herança se não tiver no mesmo pacote;
+os aributos publicos são transmitidos por herança;
 
 ______________________________________________________________________________________________________________________

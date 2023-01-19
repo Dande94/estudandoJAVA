@@ -1,0 +1,17 @@
+package oo.encapsulamento.casaB;
+
+import oo.encapsulamento.casaA.Ana;
+
+public class Pedro extends Ana {
+	
+	void testeAcessos() {
+//		segredo
+//		facoDentroDeCasa
+//		formaDeFalar
+//		todosSabem
+		//System.out.println(mae.segredo);//não tem acesso por ser exclusivo de Ana;
+		System.out.println(facoDentroDeCasa);//tem aceso por ser do mesmo pacote
+		System.out.println(formaDeFalar);//tem aceso por ser do mesmo pacote, para ser visto fora do pacote precisa ser herdado a Classe;
+		System.out.println(todosSabem);//visivel a todos;
+	}
+}

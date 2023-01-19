@@ -1,0 +1,11 @@
+package oo.encapsulamento.casaA;
+
+public class Paulo {
+	Ana espos =  new Ana();
+	void testeAcessos() {
+//		segredo
+//		facoDentroDeCasa
+//		formaDeFalar
+//		todosSabem
+	}
+}
