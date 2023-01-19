@@ -1,0 +1,18 @@
+package oo.heranca.desafio;
+
+public class Civic extends Carro{
+//minha resposta
+//	Civic(){
+//	//	super(0);
+//		//resposta do professor 
+//		super(212);// nesse caso '212' é velocidade máxima do veículo;
+//	}
+//	void acelerar() {
+//		velocidadeAtual += 5; //ou super.acelerar();
+//	}
+	
+//resposta do professor 
+	Civic(){
+		super(212);// nesse caso '212' é velocidade máxima do veículo;
+	}	
+}

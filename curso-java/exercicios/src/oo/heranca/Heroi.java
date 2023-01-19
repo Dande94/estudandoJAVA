@@ -2,10 +2,10 @@ package oo.heranca;
 
 public class Heroi extends Jogador{
 	//transmissão de atributos e comportamentos vinda da classe Jogador;
-	Heroi(int x, int y){
+	public Heroi(int x, int y){
 		super(x,y);
 	}
-	boolean atacar(Jogador oponente) {
+	public boolean atacar(Jogador oponente) {
 		
 		//sobrescrever;
 //		int deltaX = Math.abs(x - oponente.x);

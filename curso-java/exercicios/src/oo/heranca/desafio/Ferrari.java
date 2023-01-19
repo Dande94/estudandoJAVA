@@ -13,10 +13,10 @@ public class Ferrari extends Carro{
 //		return acelerar1 || acelerar2 || acelerar3;
 	
 //resposta do professor e  minha resposta
-	Ferrari(){
+	public Ferrari(){
 		super(315);
 	}
-	Ferrari(int velocidadeMaxima){//setando velocidade máxima enviada por parametro
+	public Ferrari(int velocidadeMaxima){//setando velocidade máxima enviada por parametro
 		super(velocidadeMaxima);
 		delta =15;
 	}

@@ -154,4 +154,6 @@ os atributos protected são transmitidos por herança
 os atributos pacote não é trasmitido por herança se não tiver no mesmo pacote;
 os aributos publicos são transmitidos por herança;
 
+F148 - 
+Desafio Modificadores de acesso;
 ______________________________________________________________________________________________________________________
